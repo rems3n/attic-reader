@@ -228,3 +228,4 @@ audio { width: 100%; display: block; }
   text-underline-offset: 3px;
   font-weight: 650;
 }
+.warnText { color: #a66b34; font-weight: 650; }

@@ -16,15 +16,21 @@ the normalized grayscale, and thresholding is what erases thin diacritics.
 from __future__ import annotations
 
 import io
+import logging
 from dataclasses import dataclass
 
 import numpy as np
 from PIL import Image, ImageOps
 
+log = logging.getLogger("attic.ocr")
+
 try:  # OpenCV is optional at import time so the API still starts without it.
     import cv2
-except ImportError:  # pragma: no cover - exercised only on hosts without OpenCV
+except ImportError as exc:  # pragma: no cover - exercised only on hosts without OpenCV
     cv2 = None  # type: ignore[assignment]
+    # Loud on purpose: the Pillow fallback reads real book photos badly (CER ~0.5
+    # vs ~0.04 on the Loeb regression page). Deployed images must ship OpenCV.
+    log.error("OpenCV unavailable (%s); OCR will use the low-quality Pillow fallback", exc)
 
 TARGET_LONG_SIDE = 2600
 MAX_LONG_SIDE = 4000
@@ -39,6 +45,105 @@ class PreprocessReport:
     skew_degrees: float
     deskewed: bool
     engine: str
+
+
+# Ink threshold on the flattened grayscale (paper ~250, ink ~30-80). A fixed
+# level, unlike Otsu, ignores verso bleed-through and page-edge shadow.
+INK_LEVEL = 110
+
+
+def detect_text_columns(gray: np.ndarray, ink_level: int = INK_LEVEL) -> tuple[int, int]:
+    """Horizontal extent [x0, x1) of the text block, excluding page-edge shadows.
+
+    A shadow or gutter is a narrow, very dark, page-tall stripe; text columns
+    are wide and only partially inked. We keep columns whose ink coverage is
+    between 0.5 % and 60 % of the page height, then take the widest run.
+    """
+    h, w = gray.shape[:2]
+    cover = (gray < ink_level).sum(axis=0) / float(max(h, 1))
+    # Smooth over ~2.5 % of the width so word spaces that happen to line up
+    # across a few lines do not split the text block into fragments.
+    window = max(15, w // 40)
+    cover = np.convolve(cover, np.ones(window) / window, mode="same")
+    ok = (cover > 0.003) & (cover < 0.6)
+    best = (0, w)
+    best_len = 0
+    start = None
+    for x in range(w + 1):
+        on = x < w and ok[x]
+        if on and start is None:
+            start = x
+        if not on and start is not None:
+            if x - start > best_len:
+                best, best_len = (start, x), x - start
+            start = None
+    if best_len < w * 0.3:
+        return 0, w
+    pad = int(0.02 * w)
+    return max(0, best[0] - pad), min(w, best[1] + pad)
+
+
+def detect_text_lines(gray: np.ndarray, ink_level: int = INK_LEVEL) -> tuple[list[tuple[int, int]], float]:
+    """Row spans [y0, y1) of text lines and the median line height.
+
+    Uses the horizontal ink profile. Short bands (a row of accents/breathings,
+    or descender fragments) are attached to the nearest tall band so every
+    returned span carries its diacritics; that is what stops Tesseract from
+    reading an accent row as a line of its own.
+    """
+    h, w = gray.shape[:2]
+    x0, x1 = detect_text_columns(gray, ink_level)
+    profile = (gray[:, x0:x1] < ink_level).sum(axis=1).astype(np.float64)
+    reference = float(np.percentile(profile, 95))
+    if reference < 10:
+        return [], 0.0
+    threshold = max(3.0, 0.05 * reference)
+    inked = profile > threshold
+    raw: list[list[int]] = []
+    start = None
+    for y, on in enumerate(inked):
+        if on and start is None:
+            start = y
+        if not on and start is not None:
+            raw.append([start, y])
+            start = None
+    if start is not None:
+        raw.append([start, h])
+    if not raw:
+        return [], 0.0
+    heights = np.array([e - s for s, e in raw], dtype=np.float64)
+    tall = heights[heights >= 0.5 * heights.max()]
+    median = float(np.median(tall))
+    lines: list[list[int]] = []
+    i = 0
+    while i < len(raw):
+        s, e = raw[i]
+        if (e - s) < 0.4 * median:
+            prev = lines[-1] if lines else None
+            nxt = raw[i + 1] if i + 1 < len(raw) else None
+            gap_prev = s - prev[1] if prev else float("inf")
+            gap_next = nxt[0] - e if nxt else float("inf")
+            if min(gap_prev, gap_next) < 0.5 * median:
+                if gap_next <= gap_prev and nxt is not None:
+                    nxt[0] = s  # accents sit above their line
+                elif prev is not None:
+                    prev[1] = e  # descender fragments hang below theirs
+            i += 1
+            continue
+        lines.append([s, e])
+        i += 1
+    return [(s, e) for s, e in lines if (e - s) >= 0.4 * median], median
+
+
+def crop_lines(gray: np.ndarray, pad_frac: float = 0.3) -> list[np.ndarray]:
+    """One image per text line (with its diacritics), trimmed to the text column."""
+    lines, median = detect_text_lines(gray)
+    if not lines:
+        return []
+    x0, x1 = detect_text_columns(gray)
+    pad = int(pad_frac * median)
+    h = gray.shape[0]
+    return [gray[max(0, s - pad) : min(h, e + pad), x0:x1] for s, e in lines]
 
 
 def opencv_available() -> bool:

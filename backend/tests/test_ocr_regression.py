@@ -48,3 +48,11 @@ def test_ocr_endpoint_reads_synthetic_sample():
     response = TestClient(app).post("/api/ocr", files={"file": ("page.png", data, "image/png")})
     assert response.status_code == 200
     assert cer((ROOT / "synthetic-clean.txt").read_text("utf-8"), response.json()["text"]) == 0.0
+
+
+def test_line_mode_is_used_for_multi_line_pages():
+    data = (ROOT / "loeb-memorabilia-1.1.jpg").read_bytes()
+    text, report = recognize_ancient_greek_with_report(data)
+    assert report["mode"] == "lines"
+    assert report["lines"] >= 20
+    assert report["deskewed"] is True

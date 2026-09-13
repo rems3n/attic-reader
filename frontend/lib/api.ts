@@ -49,13 +49,24 @@ export type BatchSynthesis = {
   sentences: SentenceClip[];
 };
 
-export async function runOcr(file: File): Promise<string> {
+export type OcrReport = {
+  width: number;
+  height: number;
+  scale: number;
+  skew_degrees: number;
+  deskewed: boolean;
+  engine: string;
+  mode?: "lines" | "page";
+  lines?: number;
+};
+
+export async function runOcr(file: File): Promise<{ text: string; report: OcrReport | null }> {
   const form = new FormData();
   form.append("file", file);
   const response = await fetch(`${API_BASE}/api/ocr`, { method: "POST", body: form });
   if (!response.ok) throw new Error(await getError(response));
   const body = await response.json();
-  return body.text;
+  return { text: body.text, report: body.preprocess ?? null };
 }
 
 export function phonemize(text: string): Promise<{ normalized_text: string; ipa: string }> {

@@ -581,5 +581,18 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   https://backend-production-d55b3.up.railway.app. Vercel not used yet.
   The sandbox could not reach `*.up.railway.app`, so the end-to-end audio
   smoke test on the deployed URL is the user's to confirm.
-- Not started: Step 6 G2P audit (syllabification, ει/ου policy) — gated on
-  finishing the OCR photo set.
+- **OCR on a real page (Loeb Memorabilia 1.1, iPhone photo)**: first attempt
+  on the deployed app was garbage. Root cause was *not* preprocessing but
+  Tesseract's layout stage: on polytonic text it splits rows of accents off as
+  separate "lines", and whether it does so flips chaotically with image scale
+  (CER 0.03 → 0.65 between neighbouring resolutions; a 4032-px phone upload
+  hit the bad case). Fix (`app/ocr_preprocess.py` + `app/ocr.py`): detect
+  text lines from the ink profile (fixed ink level 110 on the flattened
+  image; accent rows merged into their line; page-edge shadow excluded by a
+  column crop) and recognise each line with `--psm 7` in a thread pool with
+  `OMP_THREAD_LIMIT=1` (Tesseract's OpenMP makes parallel runs take minutes).
+  Result: CER 0.028–0.047 across 1200–4032 px uploads, ~1–2.5 s/page. The
+  Loeb photo is now a regression case (`max_cer` 0.06). Remaining misses:
+  the all-caps title, a few breathings (οὓς→οὗς), line-start artefacts.
+- Not started: Step 6 G2P audit (syllabification, ει/ου policy). Still want
+  Athenaze / LOGOS photos for the regression set.

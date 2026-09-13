@@ -64,3 +64,31 @@ def test_preprocess_falls_back_to_pillow_without_opencv(monkeypatch):
     image, report = pp.preprocess(to_png_bytes(render_page(LINES[:1])))
     assert report.engine == "pillow"
     assert image.mode == "L"
+
+
+def test_detect_text_lines_finds_every_rendered_line_with_diacritics():
+    page = render_page(LINES, width=1600, font_size=60, margin=120)
+    gray = pp.flatten_illumination(np.asarray(page, dtype=np.uint8))
+    lines, median = pp.detect_text_lines(gray)
+    assert len(lines) == len(LINES)
+    assert median > 20
+    # Each span must include the accents above the x-height: spans are taller
+    # than a bare x-height and do not overlap.
+    assert all(e - s > 0.6 * median for s, e in lines)
+    assert all(lines[i][1] <= lines[i + 1][0] for i in range(len(lines) - 1))
+
+
+def test_detect_text_columns_ignores_page_edge_shadow():
+    page = np.asarray(render_page(LINES, width=1800, font_size=60, margin=150), dtype=np.uint8).copy()
+    page[:, -60:] = 20  # dark page-edge / gutter stripe down the whole height
+    x0, x1 = pp.detect_text_columns(page)
+    ink_cols = np.nonzero((page[:, :-60] < pp.INK_LEVEL).any(axis=0))[0]
+    assert x1 <= page.shape[1] - 60  # stripe excluded
+    assert x0 <= ink_cols.min() and x1 >= ink_cols.max()  # text block fully inside
+
+
+def test_crop_lines_returns_one_image_per_line():
+    page = np.asarray(render_page(LINES, width=1600, font_size=60, margin=120), dtype=np.uint8)
+    crops = pp.crop_lines(page)
+    assert len(crops) == len(LINES)
+    assert all(c.shape[1] < page.shape[1] for c in crops)

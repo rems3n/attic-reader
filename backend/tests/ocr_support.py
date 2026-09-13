@@ -4,6 +4,7 @@ degradation, and a character error rate."""
 from __future__ import annotations
 
 import io
+import re
 import shutil
 import subprocess
 import unicodedata
@@ -85,9 +86,16 @@ def _levenshtein(a: str, b: str) -> int:
     return prev[-1]
 
 
+_IGNORED_RE = re.compile(r"[0-9A-Za-z\[\]|]")
+
+
 def cer(expected: str, actual: str) -> float:
-    """Character error rate on NFC, whitespace-normalized text."""
-    norm = lambda s: " ".join(unicodedata.normalize("NFC", s).split())  # noqa: E731
+    """Character error rate on NFC, whitespace-normalized text.
+
+    Digits, Latin letters and brackets are ignored on both sides so margin
+    section numbers and page numbers neither help nor hurt a case.
+    """
+    norm = lambda s: " ".join(_IGNORED_RE.sub("", unicodedata.normalize("NFC", s)).split())  # noqa: E731
     e, a = norm(expected), norm(actual)
     if not e:
         return 0.0 if not a else 1.0

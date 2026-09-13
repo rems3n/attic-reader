@@ -7,6 +7,7 @@ import {
   phonemize,
   runOcr,
   synthesizeBatch,
+  OcrReport,
   TtsProvider,
 } from "../lib/api";
 import { SAMPLE_LABEL, SAMPLE_TEXT } from "../lib/samples";
@@ -43,6 +44,7 @@ function releaseReading(reading: Reading | null) {
 export default function Home() {
   const [text, setText] = useState("");
   const [imageName, setImageName] = useState("");
+  const [ocrReport, setOcrReport] = useState<OcrReport | null>(null);
   const [ipa, setIpa] = useState("");
   const [providers, setProviders] = useState<TtsProvider[]>([]);
   const [status, setStatus] = useState<Status>("idle");
@@ -117,7 +119,8 @@ export default function Home() {
     setStatus("ocr");
     try {
       const recognized = await runOcr(file);
-      setText(recognized);
+      setText(recognized.text);
+      setOcrReport(recognized.report);
       clearGenerated();
     } catch (err) {
       setError(err instanceof Error ? err.message : "OCR failed");
@@ -358,7 +361,21 @@ export default function Home() {
             disabled={busy}
           />
         </label>
-        {imageName && <p className="muted">{imageName}</p>}
+        {imageName && (
+          <p className="muted">
+            {imageName}
+            {ocrReport && ocrReport.engine.startsWith("opencv") && (
+              <>
+                {" · "}
+                {ocrReport.lines ? `${ocrReport.lines} lines read` : "photo cleaned"}
+                {ocrReport.deskewed ? `, straightened ${Math.abs(ocrReport.skew_degrees).toFixed(1)}°` : ""}
+              </>
+            )}
+            {ocrReport && !ocrReport.engine.startsWith("opencv") && (
+              <> · <span className="warnText">basic OCR mode: photo cleanup unavailable on the server</span></>
+            )}
+          </p>
+        )}
         <button
           type="button"
           className="linkButton"
@@ -366,6 +383,7 @@ export default function Home() {
           onClick={() => {
             setText(SAMPLE_TEXT);
             setImageName("");
+            setOcrReport(null);
             setError("");
             clearGenerated();
           }}

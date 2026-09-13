@@ -42,6 +42,7 @@ Vercel domain to `CORS_ORIGINS` and delete the `web` service on Railway.
    ALLOW_ESPEAK_FALLBACK=false
    HF_HOME=/data/hf-cache
    OCR_PREPROCESS=opencv
+   OCR_LINE_MODE=auto
    CORS_ORIGINS=http://localhost:3000
    ```
    (`CORS_ORIGINS` gets the Vercel domain added in step 7.)

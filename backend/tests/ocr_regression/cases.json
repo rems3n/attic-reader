@@ -9,5 +9,10 @@
     "source": "same sample, degraded in-test: rotated 3°, shaded, noisy",
     "degrade": {"rotate": 3.0, "shade": true, "noise": 6},
     "max_cer": 0.05
+  },
+  {
+    "image": "loeb-memorabilia-1.1.jpg",
+    "source": "Loeb Xenophon Memorabilia 1.1.1-4, iPhone photo, slight tilt + page curl",
+    "max_cer": 0.06
   }
 ]

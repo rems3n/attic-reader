@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import base64
 import io
+import logging
 import os
 import wave
 
@@ -19,10 +20,17 @@ from .models import (
     SynthesizeRequest,
     TextRequest,
 )
-from .ocr import OCRUnavailable, recognize_ancient_greek
+from .ocr import OCRUnavailable, recognize_ancient_greek_with_report
+from .ocr_preprocess import opencv_available
 from .tts import TTSUnavailable, provider_statuses, synthesize_best, synthesize_sentences
 
 app = FastAPI(title="Attic Reader API", version="0.2.0")
+log = logging.getLogger("attic")
+
+
+@app.on_event("startup")
+def _log_capabilities() -> None:
+    log.warning("OCR preprocessing engine: %s", "opencv" if opencv_available() else "pillow fallback (degraded)")
 
 def _cors_origins() -> list[str]:
     raw = os.getenv(
@@ -57,7 +65,7 @@ def health() -> dict[str, str]:
 
 
 @app.post("/api/ocr")
-async def ocr(file: UploadFile = File(...)) -> dict[str, str]:
+async def ocr(file: UploadFile = File(...)) -> dict[str, object]:
     if not file.content_type or not file.content_type.startswith("image/"):
         raise HTTPException(status_code=415, detail="Please upload an image file.")
 
@@ -66,13 +74,15 @@ async def ocr(file: UploadFile = File(...)) -> dict[str, str]:
         raise HTTPException(status_code=413, detail="Image must be under 15 MB.")
 
     try:
-        text = recognize_ancient_greek(data)
+        text, report = recognize_ancient_greek_with_report(data)
     except OCRUnavailable as exc:
         raise HTTPException(status_code=503, detail=str(exc)) from exc
     except Exception as exc:
         raise HTTPException(status_code=422, detail=f"Could not read image: {exc}") from exc
 
-    return {"text": text}
+    # `preprocess` tells the client which path ran (opencv vs pillow fallback)
+    # and what was corrected, so a bad read can be diagnosed from the phone.
+    return {"text": text, "preprocess": report}
 
 
 @app.post("/api/phonemize", response_model=PhonemizeResponse)
