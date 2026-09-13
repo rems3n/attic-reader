@@ -27,7 +27,7 @@ button, textarea, input { font: inherit; }
 .shell {
   width: min(760px, calc(100% - 28px));
   margin: 0 auto;
-  padding: 48px 0 72px;
+  padding: calc(48px + env(safe-area-inset-top, 0px)) 0 72px;
 }
 
 .hero { margin-bottom: 28px; }
@@ -97,7 +97,7 @@ audio { width: 100%; display: block; }
 .footnote { color: var(--muted); font-size: 13px; line-height: 1.5; margin: 20px 4px 0; }
 
 @media (max-width: 560px) {
-  .shell { padding-top: 28px; }
+  .shell { padding-top: calc(28px + env(safe-area-inset-top, 0px)); }
   .card { padding: 18px; border-radius: 16px; }
   .sectionHead { display: block; }
   .badge { display: inline-block; margin-top: 10px; }
