@@ -8,3 +8,14 @@ class TextRequest(BaseModel):
 class PhonemizeResponse(BaseModel):
     normalized_text: str
     ipa: str
+
+
+class SentenceSpan(BaseModel):
+    index: int
+    text: str
+    start: int
+    end: int
+
+
+class SegmentResponse(BaseModel):
+    sentences: list[SentenceSpan]

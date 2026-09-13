@@ -8,7 +8,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 
 from .greek import attic_ipa, normalize_polytonic
-from .models import PhonemizeResponse, TextRequest
+from .greek.segment import segment_sentences
+from .models import PhonemizeResponse, SegmentResponse, TextRequest
 from .ocr import OCRUnavailable, recognize_ancient_greek
 from .tts import TTSUnavailable, provider_statuses, synthesize_best
 
@@ -59,6 +60,14 @@ async def ocr(file: UploadFile = File(...)) -> dict[str, str]:
 def phonemize(request: TextRequest) -> PhonemizeResponse:
     normalized = normalize_polytonic(request.text)
     return PhonemizeResponse(normalized_text=normalized, ipa=attic_ipa(normalized))
+
+
+@app.post("/api/segment", response_model=SegmentResponse)
+def segment(request: TextRequest) -> SegmentResponse:
+    """Split Greek into sentences. Spans index into the text exactly as sent."""
+    return SegmentResponse(
+        sentences=[s.as_dict() for s in segment_sentences(request.text)]  # type: ignore[arg-type]
+    )
 
 
 @app.get("/api/tts/status")
