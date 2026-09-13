@@ -216,3 +216,15 @@ audio { width: 100%; display: block; }
   .sentenceText { padding-right: 10px; }
   .playerStatus { display: none; }
 }
+
+.linkButton {
+  min-height: 40px;
+  justify-self: start;
+  padding: 0 4px;
+  background: transparent;
+  color: var(--accent);
+  border: none;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 650;
+}

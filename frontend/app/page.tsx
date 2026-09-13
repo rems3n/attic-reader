@@ -9,6 +9,7 @@ import {
   synthesizeBatch,
   TtsProvider,
 } from "../lib/api";
+import { SAMPLE_LABEL, SAMPLE_TEXT } from "../lib/samples";
 
 type Status = "idle" | "ocr" | "phonemize" | "synthesize";
 type PlayMode = "one" | "all";
@@ -358,6 +359,19 @@ export default function Home() {
           />
         </label>
         {imageName && <p className="muted">{imageName}</p>}
+        <button
+          type="button"
+          className="linkButton"
+          disabled={busy}
+          onClick={() => {
+            setText(SAMPLE_TEXT);
+            setImageName("");
+            setError("");
+            clearGenerated();
+          }}
+        >
+          Load sample: {SAMPLE_LABEL}
+        </button>
       </section>
 
       <section className="card">

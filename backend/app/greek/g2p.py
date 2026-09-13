@@ -79,6 +79,11 @@ PUNCT = {
     "?": "?",
     "—": "—",
     "-": "-",
+    # Elision / crasis marks (δʼ, ἀντʼ, κἀγώ written with a koronis) have no sound.
+    "\u02bc": "",
+    "\u2019": "",
+    "'": "",
+    "\u1fbd": "",
 }
 
 

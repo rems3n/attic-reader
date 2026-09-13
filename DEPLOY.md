@@ -84,9 +84,9 @@ curl -s -X POST $B/api/synthesize -H 'content-type: application/json' \
 # expect: X-TTS-Provider: kokoro-attic ; test.wav plays
 ```
 
-Then on the phone: open the Vercel URL → paste
-`ὁ Δικαιόπολις αὐτουργός ἐστιν. τί ποιεῖ;` → **Generate neural audio** →
-two sentences appear, the badge reads "Kokoro · direct Classical Attic
+Then on the phone: open the app URL → tap **Load sample (Xenophon, Anabasis 1.1)**,
+which pastes the Perseus text from `samples/xenophon_anabasis_1.1.1-4.txt` →
+**Generate neural audio** → ten sentences appear, the badge reads "Kokoro · direct Classical Attic
 phonemes", tapping a sentence plays it, **Play all** advances with highlight.
 Share → **Add to Home Screen** installs it as a standalone app.
 
