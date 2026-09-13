@@ -159,7 +159,7 @@ class KokoroAtticTTS:
         self.device = os.getenv("KOKORO_DEVICE") or None
         # Base narration pace.  The API's `speed` is a learner multiplier on top
         # of this (1.0 = default pace), so the tuned default survives the UI.
-        self.speed = float(os.getenv("KOKORO_SPEED", "0.92"))
+        self.speed = float(os.getenv("KOKORO_SPEED", "0.85"))
         self.max_chars = int(os.getenv("KOKORO_CHUNK_CHARS", "450"))
         self.pause_ms = int(os.getenv("KOKORO_PAUSE_MS", "140"))
 
@@ -296,9 +296,18 @@ class KokoroAtticTTS:
         started = time.perf_counter()
         try:
             pipeline = self._load()
+            loaded = time.perf_counter()
             self._render_chunks(pipeline, ["ˈɛːlios."], self.speed)
             cls._warm_state = "ready"
-            log.warning("Kokoro warm-up done in %.1fs (voice=%s)", time.perf_counter() - started, self.voice)
+            try:
+                import torch
+                threads = torch.get_num_threads()
+            except Exception:  # noqa: BLE001
+                threads = -1
+            log.warning(
+                "Kokoro warm-up done in %.1fs (load %.1fs, first synthesis %.1fs, voice=%s, torch threads=%d)",
+                time.perf_counter() - started, loaded - started, time.perf_counter() - loaded, self.voice, threads,
+            )
         except Exception as exc:  # noqa: BLE001 - report, never crash startup
             cls._warm_state = f"failed: {exc}"
             log.error("Kokoro warm-up failed after %.1fs: %s", time.perf_counter() - started, exc)

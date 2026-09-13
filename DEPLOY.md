@@ -37,7 +37,7 @@ Vercel domain to `CORS_ORIGINS` and delete the `web` service on Railway.
    ENABLE_KOKORO=true
    KOKORO_VOICE=im_nicola
    KOKORO_LANG_CODE=i
-   KOKORO_SPEED=0.92
+   KOKORO_SPEED=0.85
    ENABLE_MMS=false
    ALLOW_ESPEAK_FALLBACK=false
    HF_HOME=/data/hf-cache

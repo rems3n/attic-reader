@@ -603,5 +603,11 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   so the first sentence is tappable within seconds and rows fill in as they
   render. Per-sentence timing (`rtf`) is logged; check it after the next
   deploy to know the real CPU speed on Railway.
+- **User feedback: reading too fast.** Base pace `KOKORO_SPEED` 0.92 → 0.85
+  (code, docs, Railway variable); selector is now 0.5× / 0.6× / 0.75× / 1×
+  with 0.75× the default (nothing faster than 1× offered). Effective Kokoro
+  speed at the default is 0.64. Warm-up log on Railway: pipeline load 24.5 s,
+  first synthesis ~87 s (!) — first-synthesis cost on this host needs a look
+  (`attic.*` loggers are now INFO so per-sentence `rtf` lines appear).
 - Not started: Step 6 G2P audit (syllabification, ει/ου policy). Still want
   Athenaze / LOGOS photos for the regression set.

@@ -36,6 +36,11 @@ from .tts.kokoro import KokoroAtticTTS
 
 app = FastAPI(title="Attic Reader API", version="0.2.0")
 log = logging.getLogger("attic")
+# Uvicorn configures its own loggers only; make ours visible (per-sentence
+# synthesis timings are INFO).
+logging.getLogger("attic").setLevel(logging.INFO)
+if not logging.getLogger().handlers:
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 
 
 def _truthy(name: str, default: bool) -> bool:

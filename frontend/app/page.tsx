@@ -30,7 +30,11 @@ type Reading = {
   clips: Clip[];
 };
 
-const SPEEDS = [0.6, 0.75, 1, 1.25] as const;
+// Learner multipliers on the backend base pace (KOKORO_SPEED). 1× is the
+// narration pace accepted in the listening test; the default is deliberately
+// slower for a beginner, and nothing faster than 1× is offered.
+const SPEEDS = [0.5, 0.6, 0.75, 1] as const;
+const DEFAULT_SPEED = 0.75;
 
 function formatSeconds(seconds: number | null): string {
   if (seconds == null) return "";
@@ -52,7 +56,7 @@ export default function Home() {
 
   // Reading state: the sentence clips currently loaded in the player.
   const [reading, setReading] = useState<Reading | null>(null);
-  const [speed, setSpeed] = useState<number>(1);
+  const [speed, setSpeed] = useState<number>(DEFAULT_SPEED);
   const [current, setCurrent] = useState<number | null>(null);
   const [playing, setPlaying] = useState(false);
   const [repeat, setRepeat] = useState(false);
