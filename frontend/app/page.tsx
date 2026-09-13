@@ -13,6 +13,7 @@ import {
   LibraryItem,
   OcrReport,
   TtsProvider,
+  WordTiming,
 } from "../lib/api";
 
 type Status = "idle" | "ocr" | "phonemize" | "synthesize";
@@ -24,6 +25,7 @@ type Clip = {
   ipa: string;
   url: string | null;
   duration: number | null;
+  words: WordTiming[] | null;
 };
 
 type Reading = {
@@ -42,6 +44,24 @@ const DEFAULT_SPEED = 0.75;
 function formatSeconds(seconds: number | null): string {
   if (seconds == null) return "";
   return `${seconds.toFixed(1)}s`;
+}
+
+/** Split a sentence into word spans so the spoken word can be highlighted. */
+function renderWords(clip: Clip, activeWord: number | null) {
+  if (!clip.words || clip.words.length === 0) return clip.text;
+  const parts: React.ReactNode[] = [];
+  let cursor = 0;
+  clip.words.forEach((w, i) => {
+    if (w.start > cursor) parts.push(clip.text.slice(cursor, w.start));
+    parts.push(
+      <span key={i} className={`word ${activeWord === i ? "on" : ""}`}>
+        {clip.text.slice(w.start, w.end)}
+      </span>,
+    );
+    cursor = w.end;
+  });
+  if (cursor < clip.text.length) parts.push(clip.text.slice(cursor));
+  return parts;
 }
 
 function releaseReading(reading: Reading | null) {
@@ -65,6 +85,8 @@ export default function Home() {
   const [repeat, setRepeat] = useState(false);
   const [rerendering, setRerendering] = useState(false);
   const [progress, setProgress] = useState<{ done: number; total: number } | null>(null);
+  // Index (into clip.words) of the word under the playhead of the active sentence.
+  const [wordIndex, setWordIndex] = useState<number | null>(null);
 
   // Built-in library of Perseus passages.
   const [library, setLibrary] = useState<LibraryIndex | null>(null);
@@ -177,7 +199,7 @@ export default function Home() {
             provider: event.provider,
             normalizedText: event.normalized_text,
             speed: event.speed,
-            clips: event.sentences.map((s) => ({ index: s.index, text: s.text, ipa: s.ipa, url: null, duration: null })),
+            clips: event.sentences.map((s) => ({ index: s.index, text: s.text, ipa: s.ipa, url: null, duration: null, words: null })),
           };
           setProgress({ done: 0, total: building.clips.length });
           onUpdate?.(building);
@@ -188,6 +210,7 @@ export default function Home() {
             ...clip,
             url: event.audio_base64 ? base64ToObjectUrl(event.audio_base64, event.mime_type) : null,
             duration: event.duration_seconds,
+            words: event.words ?? null,
           };
           building = { ...building, clips };
           setProgress({ done: event.index + 1, total: clips.length });
@@ -386,6 +409,46 @@ export default function Home() {
       }
     }
   }
+
+  // Follow the playhead: while audio plays, find the word whose span covers
+  // currentTime (binary search on t0) and highlight it. requestAnimationFrame
+  // gives smoother tracking than the ~4 Hz 'timeupdate' event on iOS.
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio || !playing || current == null) {
+      setWordIndex(null);
+      return;
+    }
+    let frame = 0;
+    let last = -1;
+    const tick = () => {
+      const words = readingRef.current?.clips[current]?.words;
+      if (words && words.length) {
+        const t = audio.currentTime;
+        let lo = 0;
+        let hi = words.length - 1;
+        let found = -1;
+        while (lo <= hi) {
+          const mid = (lo + hi) >> 1;
+          if (words[mid].t0 <= t) {
+            found = mid;
+            lo = mid + 1;
+          } else {
+            hi = mid - 1;
+          }
+        }
+        // Between words (found.t1 < t < next.t0) keep the previous word lit so
+        // the highlight never flickers off on short pauses.
+        if (found !== last) {
+          last = found;
+          setWordIndex(found >= 0 ? found : null);
+        }
+      }
+      frame = requestAnimationFrame(tick);
+    };
+    frame = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(frame);
+  }, [playing, current]);
 
   // Keep the active sentence in view during play-all.
   useEffect(() => {
@@ -592,7 +655,7 @@ export default function Home() {
                     disabled={!clip.url}
                     onClick={() => toggleSentence(clip.index)}
                   >
-                    {clip.text}
+                    <span className="sentenceWords">{renderWords(clip, isCurrent ? wordIndex : null)}</span>
                     <span className="sentenceMeta">
                       {clip.url ? formatSeconds(clip.duration) : status === "synthesize" ? "rendering…" : "no speech"}
                     </span>

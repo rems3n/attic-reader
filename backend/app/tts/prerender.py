@@ -87,8 +87,8 @@ def run(tts: KokoroAtticTTS | None = None) -> dict[str, object]:
             # we release it; while any is pending we simply wait.
             while tts.user_requests_pending() > 0:
                 time.sleep(0.05)
-            samples = tts.render_chunk_locked(pipeline, chunk, tts.effective_speed(speed))
-            clip_cache.put(key, tts.wav_from_samples(samples))
+            samples, pred_dur = tts.render_chunk_locked(pipeline, chunk, tts.effective_speed(speed))
+            clip_cache.put(key, tts.wav_from_samples(samples), {"pred_dur": pred_dur} if pred_dur else None)
             _set(rendered=index + 1)
     except Exception as exc:  # noqa: BLE001 - background job must not crash the server
         _set(state=f"failed: {exc}", finished=time.time())

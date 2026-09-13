@@ -623,5 +623,15 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   card with tabs, level badges, "ready" marker, attribution line. Herodotus /
   Homer deliberately excluded (not Attic) per user; Aesop is not in
   canonical-greekLit.
+- **Spoken-word highlighting** (user request): Kokoro returns `pred_dur`
+  (frames per input token: BOS + one per phoneme char + EOS); audio samples
+  ≈ frames × hop, so `app/tts/timing.py` scales cumulative frames to the
+  clip length and maps space-separated phoneme tokens onto the Greek words
+  of the sentence (same order; punctuation-only tokens skipped; any count
+  mismatch → no highlight rather than a wrong one). Stream `clip` events
+  carry `words: [{start, end, t0, t1}]` (offsets into the sentence text).
+  Clip cache stores `pred_dur` in a `.json` sidecar; key version bumped to
+  v2, so the library re-renders once after deploy. Frontend renders word
+  spans and follows `audio.currentTime` with requestAnimationFrame.
 - Not started: Step 6 G2P audit (syllabification, ει/ου policy). Still want
   Athenaze / LOGOS photos for the regression set.

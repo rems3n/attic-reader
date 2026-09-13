@@ -201,7 +201,7 @@ def _stream_sentences(normalized: str, sentences, ipas: list[str], speed: float)
         }
     )
     try:
-        for sentence, clip in zip(sentences, clips):
+        for sentence, (clip, words) in zip(sentences, clips):
             yield _ndjson(
                 {
                     "type": "clip",
@@ -209,6 +209,9 @@ def _stream_sentences(normalized: str, sentences, ipas: list[str], speed: float)
                     "audio_base64": base64.b64encode(clip).decode("ascii") if clip else None,
                     "mime_type": "audio/wav",
                     "duration_seconds": _wav_duration_seconds(clip) if clip else None,
+                    # Per-word time spans (char offsets into the sentence text,
+                    # seconds into the clip) for follow-along highlighting.
+                    "words": words,
                 }
             )
     except TTSUnavailable as exc:

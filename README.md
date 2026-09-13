@@ -68,7 +68,9 @@ Library editions in [PerseusDL/canonical-greekLit](https://github.com/PerseusDL/
 `sources.json`. On start the backend warms Kokoro and then pre-renders every
 passage at every learner speed into a disk clip cache (`CLIP_CACHE_DIR`,
 `/data/clip-cache` on Railway), so a passage chosen in the app plays at once.
-The same cache serves repeated user text.
+The same cache serves repeated user text. Each clip is stored with Kokoro's
+per-token durations, from which the app derives word timings and highlights
+the word being spoken.
 
 ## Quick start
 

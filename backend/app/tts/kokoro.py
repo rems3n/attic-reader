@@ -268,8 +268,12 @@ class KokoroAtticTTS:
         with cls._pending_lock:
             cls._pending = max(0, cls._pending + delta)
 
-    def render_chunk_locked(self, pipeline: Any, phonemes: str, kokoro_speed: float) -> Any:
-        """Render one chunk under the model lock (no cache)."""
+    def render_chunk_locked(self, pipeline: Any, phonemes: str, kokoro_speed: float) -> tuple[Any, list[int] | None]:
+        """Render one chunk under the model lock (no cache).
+
+        Returns ``(samples, pred_dur)``; ``pred_dur`` is Kokoro's per-token
+        frame count (BOS + one per phoneme char + EOS) or None if unavailable.
+        """
         with self.__class__._render_lock:
             # generate_from_tokens accepts a raw phoneme string and bypasses
             # the language-specific G2P stage entirely.
@@ -282,14 +286,19 @@ class KokoroAtticTTS:
             )
         if not results or results[0].audio is None:
             raise TTSUnavailable("Kokoro returned no audio.")
-        return _to_float32(results[0].audio)
+        pred_dur = getattr(results[0], "pred_dur", None)
+        durations = [int(d) for d in _to_float32(pred_dur).tolist()] if pred_dur is not None else None
+        return _to_float32(results[0].audio), durations
 
     @staticmethod
     def wav_from_samples(samples: Any) -> bytes:
         return wav_bytes(samples, SAMPLE_RATE)
 
-    def render_chunk(self, pipeline: Any, phonemes: str, kokoro_speed: float) -> tuple[Any, bool]:
-        """Render one chunk, via the disk cache when possible. Returns (samples, cached)."""
+    def render_chunk(self, pipeline: Any, phonemes: str, kokoro_speed: float) -> tuple[Any, bool, list[int] | None]:
+        """Render one chunk, via the disk cache when possible.
+
+        Returns ``(samples, cached, pred_dur)``.
+        """
         import numpy as np
 
         key = clip_cache.clip_key(self.provider_id, self.voice, kokoro_speed, phonemes)
@@ -297,23 +306,37 @@ class KokoroAtticTTS:
         if cached is not None:
             with wave.open(io.BytesIO(cached), "rb") as wav:
                 pcm = np.frombuffer(wav.readframes(wav.getnframes()), dtype="<i2")
-            return pcm.astype(np.float32) / 32767.0, True
-        samples = self.render_chunk_locked(pipeline, phonemes, kokoro_speed)
-        clip_cache.put(key, wav_bytes(samples, SAMPLE_RATE))
-        return samples, False
+            meta = clip_cache.get_meta(key) or {}
+            return pcm.astype(np.float32) / 32767.0, True, meta.get("pred_dur")
+        samples, pred_dur = self.render_chunk_locked(pipeline, phonemes, kokoro_speed)
+        clip_cache.put(key, wav_bytes(samples, SAMPLE_RATE), {"pred_dur": pred_dur} if pred_dur else None)
+        return samples, False, pred_dur
+
+    def pause_samples(self) -> int:
+        return int(SAMPLE_RATE * self.pause_ms / 1000)
+
+    def _render_chunks_detailed(
+        self, pipeline: Any, chunks: list[str], kokoro_speed: float
+    ) -> tuple[Any, list[tuple[str, list[int] | None, int]]]:
+        """Render chunks (cache-aware), join with a short pause; also return
+        ``(phonemes, pred_dur, n_samples)`` per chunk for word timing."""
+        import numpy as np
+
+        pause = np.zeros(self.pause_samples(), dtype=np.float32)
+        rendered: list[Any] = []
+        details: list[tuple[str, list[int] | None, int]] = []
+        for index, phonemes in enumerate(chunks):
+            samples, _, pred_dur = self.render_chunk(pipeline, phonemes, kokoro_speed)
+            rendered.append(samples)
+            details.append((phonemes, pred_dur, int(len(samples))))
+            if index < len(chunks) - 1 and pause.size:
+                rendered.append(pause)
+        return (np.concatenate(rendered) if len(rendered) > 1 else rendered[0]), details
 
     def _render_chunks(self, pipeline: Any, chunks: list[str], kokoro_speed: float) -> Any:
         """Render chunks (cache-aware) and join them with a short pause."""
-        import numpy as np
-
-        pause = np.zeros(int(SAMPLE_RATE * self.pause_ms / 1000), dtype=np.float32)
-        rendered: list[Any] = []
-        for index, phonemes in enumerate(chunks):
-            samples, _ = self.render_chunk(pipeline, phonemes, kokoro_speed)
-            rendered.append(samples)
-            if index < len(chunks) - 1 and pause.size:
-                rendered.append(pause)
-        return np.concatenate(rendered) if len(rendered) > 1 else rendered[0]
+        samples, _ = self._render_chunks_detailed(pipeline, chunks, kokoro_speed)
+        return samples
 
     def synthesize(self, ipa: str, speed: float | None = None) -> bytes:
         """Render one IPA string (any number of sentences) into a single WAV."""
@@ -330,12 +353,19 @@ class KokoroAtticTTS:
         except Exception as exc:
             raise TTSUnavailable(f"Kokoro synthesis failed: {exc}") from exc
 
-    def iter_synthesize(self, ipas: list[str], speed: float | None = None) -> Iterator[bytes | None]:
-        """Yield one WAV per IPA string as soon as it is rendered (``None`` = no speech).
+    def iter_synthesize_timed(
+        self, ipas: list[str], sentences: list[str] | None = None, speed: float | None = None
+    ) -> Iterator[tuple[bytes | None, list[dict[str, float | int]] | None]]:
+        """Yield ``(wav, words)`` per IPA string as soon as it is rendered.
 
+        ``wav`` is None for a string with no speech. ``words`` maps each Greek
+        word of the matching sentence to its time span in the clip (None when
+        the source sentence is unknown or the alignment is not trustworthy).
         Streaming matters on a CPU host: a paragraph takes tens of seconds in
         total, and mobile browsers abort requests that stay silent for ~60 s.
         """
+        from .timing import align_words
+
         pipeline = self._load()
         kokoro_speed = self.effective_speed(speed)
         self._note_pending(+1)
@@ -343,10 +373,10 @@ class KokoroAtticTTS:
             for index, ipa in enumerate(ipas):
                 chunks = [c for c in split_phonemes(ipa, max_chars=self.max_chars) if has_speech(c)]
                 if not chunks:
-                    yield None
+                    yield None, None
                     continue
                 started = time.perf_counter()
-                samples = self._render_chunks(pipeline, chunks, kokoro_speed)
+                samples, details = self._render_chunks_detailed(pipeline, chunks, kokoro_speed)
                 elapsed = time.perf_counter() - started
                 audio_seconds = len(samples) / SAMPLE_RATE
                 log.info(
@@ -354,13 +384,22 @@ class KokoroAtticTTS:
                     index, audio_seconds, elapsed, elapsed / max(audio_seconds, 1e-6),
                     len(chunks), "" if len(chunks) == 1 else "s",
                 )
-                yield wav_bytes(samples, SAMPLE_RATE)
+                words = None
+                if sentences is not None and index < len(sentences):
+                    aligned = align_words(sentences[index], details, self.pause_samples())
+                    words = [w.as_dict() for w in aligned] if aligned else None
+                yield wav_bytes(samples, SAMPLE_RATE), words
         except TTSUnavailable:
             raise
         except Exception as exc:
             raise TTSUnavailable(f"Kokoro synthesis failed: {exc}") from exc
         finally:
             self._note_pending(-1)
+
+    def iter_synthesize(self, ipas: list[str], speed: float | None = None) -> Iterator[bytes | None]:
+        """Yield one WAV per IPA string (``None`` = no speech)."""
+        for wav, _ in self.iter_synthesize_timed(ipas, None, speed=speed):
+            yield wav
 
     def synthesize_many(self, ipas: list[str], speed: float | None = None) -> list[bytes | None]:
         """Render one WAV per IPA string; ``None`` where a string has no speech."""

@@ -269,3 +269,9 @@ audio { width: 100%; display: block; }
 .readingRef { font-size: 12px; color: var(--muted); }
 .readingBlurb { font-size: 14px; color: var(--ink); line-height: 1.4; font-weight: 400; }
 .attribution { margin-top: 14px; font-size: 12px; color: var(--muted); line-height: 1.45; }
+
+/* ---------- Spoken-word highlight ---------- */
+.sentenceWords { display: inline; }
+.word { border-radius: 4px; padding: 0 1px; margin: 0 -1px; transition: background 80ms linear; }
+.word.on { background: #f2c14e; color: var(--ink); box-shadow: 0 0 0 2px #f2c14e; }
+.sentence.active .word.on { background: #f2c14e; }

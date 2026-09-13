@@ -19,6 +19,7 @@ from app.tts.kokoro import KokoroAtticTTS
 @dataclass
 class FakeResult:
     audio: Any
+    pred_dur: Any = None
 
 
 @dataclass
@@ -30,7 +31,10 @@ class FakePipeline:
         self.calls.append({"phonemes": phonemes, "voice": voice, "speed": speed})
         n = max(1, len(phonemes) * self.samples_per_char)
         t = np.arange(n, dtype=np.float32) / 24000.0
-        yield FakeResult(audio=0.3 * np.sin(2 * np.pi * 220.0 * t))
+        # Kokoro-shaped durations: BOS + one frame count per character + EOS,
+        # uniform so every character owns samples_per_char samples.
+        pred_dur = np.array([0] + [1] * len(phonemes) + [0], dtype=np.int64)
+        yield FakeResult(audio=0.3 * np.sin(2 * np.pi * 220.0 * t), pred_dur=pred_dur)
 
 
 @pytest.fixture

@@ -141,8 +141,10 @@ def synthesize_best(greek_text: str, attic_ipa: str, speed: float | None = None)
 
 def synthesize_sentences_stream(
     sentences: list[str], ipas: list[str], speed: float | None = None
-) -> tuple[str, Iterator[bytes | None]]:
-    """Like :func:`synthesize_sentences` but yields clips as they are rendered.
+) -> tuple[str, Iterator[tuple[bytes | None, list[dict] | None]]]:
+    """Like :func:`synthesize_sentences` but yields ``(clip, words)`` as each
+    sentence is rendered; ``words`` are per-word time spans when the provider
+    can supply them (Kokoro), else None.
 
     Returns ``(provider_id, iterator)``. The provider is chosen (and its model
     loaded) before the first clip so the caller can announce it up front.
@@ -157,10 +159,10 @@ def synthesize_sentences_stream(
         except TTSUnavailable:
             pass
         else:
-            return "kokoro-attic", kokoro.iter_synthesize(ipas, speed=speed)
+            return "kokoro-attic", kokoro.iter_synthesize_timed(ipas, sentences, speed=speed)
 
     clips, provider = synthesize_sentences(sentences, ipas, speed=speed)
-    return provider, iter(clips)
+    return provider, iter((clip, None) for clip in clips)
 
 
 def synthesize_sentences(

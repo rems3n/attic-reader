@@ -110,12 +110,14 @@ export type StreamStart = {
   speed: number;
   sentences: (SentenceSpan & { ipa: string })[];
 };
+export type WordTiming = { start: number; end: number; t0: number; t1: number };
 export type StreamClip = {
   type: "clip";
   index: number;
   audio_base64: string | null;
   mime_type: string;
   duration_seconds: number | null;
+  words?: WordTiming[] | null;
 };
 export type StreamEvent =
   | StreamStart
