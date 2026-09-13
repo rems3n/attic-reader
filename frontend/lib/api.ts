@@ -175,3 +175,37 @@ export function base64ToObjectUrl(base64: string, mimeType = "audio/wav"): strin
   for (let i = 0; i < binary.length; i += 1) bytes[i] = binary.charCodeAt(i);
   return URL.createObjectURL(new Blob([bytes], { type: mimeType }));
 }
+
+export type LibraryCategory = { id: string; label: string };
+export type LibraryItem = {
+  id: string;
+  category: string;
+  level: "beginner" | "intermediate" | "advanced" | string;
+  title: string;
+  author: string;
+  work: string;
+  ref: string;
+  blurb: string;
+  dialect: string;
+  sentence_count: number;
+  estimated_seconds: number;
+  ready_speeds: number[];
+  source: { edition: string; urn: string; license: string; url: string };
+};
+export type LibraryIndex = {
+  categories: LibraryCategory[];
+  items: LibraryItem[];
+  prerender: { state: string; rendered: number; total: number };
+};
+
+export async function getLibrary(): Promise<LibraryIndex> {
+  const response = await fetch(`${API_BASE}/api/library`, { cache: "no-store" });
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}
+
+export async function getLibraryItem(id: string): Promise<LibraryItem & { text: string; sentences: string[] }> {
+  const response = await fetch(`${API_BASE}/api/library/${encodeURIComponent(id)}`);
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}

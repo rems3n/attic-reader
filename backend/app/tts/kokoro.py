@@ -16,6 +16,7 @@ import time
 import wave
 from typing import Any, Iterator
 
+from . import clip_cache
 from .piper import TTSUnavailable
 
 SAMPLE_RATE = 24000
@@ -181,6 +182,11 @@ class KokoroAtticTTS:
     _pipeline: Any | None = None
     _pipeline_key: str | None = None
     _load_lock = threading.Lock()
+    # The model is used by one thread at a time. User requests announce
+    # themselves via _pending so the background pre-render job yields.
+    _render_lock = threading.Lock()
+    _pending = 0
+    _pending_lock = threading.Lock()
 
     def __init__(self) -> None:
         self.repo_id = os.getenv("KOKORO_REPO_ID", "hexgrad/Kokoro-82M")
@@ -252,13 +258,19 @@ class KokoroAtticTTS:
     def _wav_bytes(samples: Any, sample_rate: int = SAMPLE_RATE) -> bytes:
         return wav_bytes(samples, sample_rate)
 
-    def _render_chunks(self, pipeline: Any, chunks: list[str], kokoro_speed: float) -> Any:
-        """Render chunks through Kokoro and join them with a short pause."""
-        import numpy as np
+    @classmethod
+    def user_requests_pending(cls) -> int:
+        with cls._pending_lock:
+            return cls._pending
 
-        pause = np.zeros(int(SAMPLE_RATE * self.pause_ms / 1000), dtype=np.float32)
-        rendered: list[Any] = []
-        for index, phonemes in enumerate(chunks):
+    @classmethod
+    def _note_pending(cls, delta: int) -> None:
+        with cls._pending_lock:
+            cls._pending = max(0, cls._pending + delta)
+
+    def render_chunk_locked(self, pipeline: Any, phonemes: str, kokoro_speed: float) -> Any:
+        """Render one chunk under the model lock (no cache)."""
+        with self.__class__._render_lock:
             # generate_from_tokens accepts a raw phoneme string and bypasses
             # the language-specific G2P stage entirely.
             results = list(
@@ -268,9 +280,37 @@ class KokoroAtticTTS:
                     speed=kokoro_speed,
                 )
             )
-            if not results or results[0].audio is None:
-                raise TTSUnavailable("Kokoro returned no audio.")
-            rendered.append(_to_float32(results[0].audio))
+        if not results or results[0].audio is None:
+            raise TTSUnavailable("Kokoro returned no audio.")
+        return _to_float32(results[0].audio)
+
+    @staticmethod
+    def wav_from_samples(samples: Any) -> bytes:
+        return wav_bytes(samples, SAMPLE_RATE)
+
+    def render_chunk(self, pipeline: Any, phonemes: str, kokoro_speed: float) -> tuple[Any, bool]:
+        """Render one chunk, via the disk cache when possible. Returns (samples, cached)."""
+        import numpy as np
+
+        key = clip_cache.clip_key(self.provider_id, self.voice, kokoro_speed, phonemes)
+        cached = clip_cache.get(key)
+        if cached is not None:
+            with wave.open(io.BytesIO(cached), "rb") as wav:
+                pcm = np.frombuffer(wav.readframes(wav.getnframes()), dtype="<i2")
+            return pcm.astype(np.float32) / 32767.0, True
+        samples = self.render_chunk_locked(pipeline, phonemes, kokoro_speed)
+        clip_cache.put(key, wav_bytes(samples, SAMPLE_RATE))
+        return samples, False
+
+    def _render_chunks(self, pipeline: Any, chunks: list[str], kokoro_speed: float) -> Any:
+        """Render chunks (cache-aware) and join them with a short pause."""
+        import numpy as np
+
+        pause = np.zeros(int(SAMPLE_RATE * self.pause_ms / 1000), dtype=np.float32)
+        rendered: list[Any] = []
+        for index, phonemes in enumerate(chunks):
+            samples, _ = self.render_chunk(pipeline, phonemes, kokoro_speed)
+            rendered.append(samples)
             if index < len(chunks) - 1 and pause.size:
                 rendered.append(pause)
         return np.concatenate(rendered) if len(rendered) > 1 else rendered[0]
@@ -298,6 +338,7 @@ class KokoroAtticTTS:
         """
         pipeline = self._load()
         kokoro_speed = self.effective_speed(speed)
+        self._note_pending(+1)
         try:
             for index, ipa in enumerate(ipas):
                 chunks = [c for c in split_phonemes(ipa, max_chars=self.max_chars) if has_speech(c)]
@@ -318,6 +359,8 @@ class KokoroAtticTTS:
             raise
         except Exception as exc:
             raise TTSUnavailable(f"Kokoro synthesis failed: {exc}") from exc
+        finally:
+            self._note_pending(-1)
 
     def synthesize_many(self, ipas: list[str], speed: float | None = None) -> list[bytes | None]:
         """Render one WAV per IPA string; ``None`` where a string has no speech."""

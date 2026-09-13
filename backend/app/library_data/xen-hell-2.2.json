@@ -1,0 +1,18 @@
+{
+  "id": "xen-hell-2.2",
+  "category": "history",
+  "level": "intermediate",
+  "title": "The news reaches Athens",
+  "author": "Xenophon",
+  "work": "Hellenica",
+  "ref": "2.2.3–4",
+  "blurb": "Night in Athens as the Paralus brings word of the disaster at Aegospotami. Longer sentences.",
+  "dialect": "attic",
+  "source": {
+    "edition": "Perseus Digital Library, tlg0032.tlg001.perseus-grc2",
+    "urn": "urn:cts:greekLit:tlg0032.tlg001.perseus-grc2",
+    "license": "CC BY-SA 4.0",
+    "url": "https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0032/tlg001/tlg0032.tlg001.perseus-grc2.xml"
+  },
+  "text": "ἐν δὲ ταῖς Ἀθήναις τῆς Παράλου ἀφικομένης νυκτὸς ἐλέγετο ἡ συμφορά, καὶ οἰμωγὴ ἐκ τοῦ Πειραιῶς διὰ τῶν μακρῶν τειχῶν εἰς ἄστυ διῆκεν, ὁ ἕτερος τῷ ἑτέρῳ παραγγέλλων· ὥστʼ ἐκείνης τῆς νυκτὸς οὐδεὶς ἐκοιμήθη, οὐ μόνον τοὺς ἀπολωλότας πενθοῦντες, ἀλλὰ πολὺ μᾶλλον ἔτι αὐτοὶ ἑαυτούς, πείσεσθαι νομίζοντες οἷα ἐποίησαν Μηλίους τε Λακεδαιμονίων ἀποίκους ὄντας, κρατήσαντες πολιορκίᾳ, καὶ Ἱστιαιέας καὶ Σκιωναίους καὶ Τορωναίους καὶ Αἰγινήτας καὶ ἄλλους πολλοὺς τῶν Ἑλλήνων. τῇ δʼ ὑστεραίᾳ ἐκκλησίαν ἐποίησαν, ἐν ᾗ ἔδοξε τούς τε λιμένας ἀποχῶσαι πλὴν ἑνὸς καὶ τὰ τείχη εὐτρεπίζειν καὶ φυλακὰς ἐφιστάναι καὶ τἆλλα πάντα ὡς εἰς πολιορκίαν παρασκευάζειν τὴν πόλιν. καὶ οὗτοι μὲν περὶ ταῦτα ἦσαν."
+}

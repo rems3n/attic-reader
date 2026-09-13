@@ -1,0 +1,18 @@
+{
+  "id": "apollod-1.7",
+  "category": "mythology",
+  "level": "beginner",
+  "title": "Prometheus steals fire",
+  "author": "Apollodorus",
+  "work": "Library",
+  "ref": "1.7.1",
+  "blurb": "Prometheus makes men from clay, steals fire in a fennel stalk, and pays for it on the Caucasus.",
+  "dialect": "attic",
+  "source": {
+    "edition": "Perseus Digital Library, tlg0548.tlg001.perseus-grc2",
+    "urn": "urn:cts:greekLit:tlg0548.tlg001.perseus-grc2",
+    "license": "CC BY-SA 4.0",
+    "url": "https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0548/tlg001/tlg0548.tlg001.perseus-grc2.xml"
+  },
+  "text": "Προμηθεὺς δὲ ἐξ ὕδατος καὶ γῆς ἀνθρώπους πλάσας ἔδωκεν αὐτοῖς καὶ πῦρ, λάθρᾳ Διὸς ἐν νάρθηκι κρύψας. ὡς δὲ ᾔσθετο Ζεύς, ἐπέταξεν Ἡφαίστῳ τῷ Καυκάσῳ ὄρει τὸ σῶμα αὐτοῦ προσηλῶσαι· τοῦτο δὲ Σκυθικὸν ὄρος ἐστίν. ἐν δὴ τούτῳ προσηλωθεὶς Προμηθεὺς πολλῶν ἐτῶν ἀριθμὸν ἐδέδετο· καθʼ ἑκάστην δὲ ἡμέραν ἀετὸς ἐφιπτάμενος αὐτῷ τοὺς λοβοὺς ἐνέμετο τοῦ ἥπατος αὐξανομένου διὰ νυκτός. καὶ Προμηθεὺς μὲν πυρὸς κλαπέντος δίκην ἔτινε ταύτην, μέχρις Ἡρακλῆς αὐτὸν ὕστερον ἔλυσεν, ὡς ἐν τοῖς καθʼ Ἡρακλέα δηλώσομεν."
+}

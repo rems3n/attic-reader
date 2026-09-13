@@ -34,7 +34,10 @@ class FakePipeline:
 
 
 @pytest.fixture
-def fake_kokoro(monkeypatch) -> FakePipeline:
+def fake_kokoro(monkeypatch, tmp_path) -> FakePipeline:
+    # Every test gets its own clip cache; otherwise cached WAVs from one test
+    # make the next one skip the model and its call counts lie.
+    monkeypatch.setenv("CLIP_CACHE_DIR", str(tmp_path / "clip-cache"))
     pipeline = FakePipeline()
     monkeypatch.setattr(KokoroAtticTTS, "_load", lambda self: pipeline)
     monkeypatch.setattr(KokoroAtticTTS, "is_available", lambda self: (True, "fake"))

@@ -1,0 +1,18 @@
+{
+  "id": "apollod-1.1",
+  "category": "mythology",
+  "level": "beginner",
+  "title": "Ouranos, Gaia and the Titans",
+  "author": "Apollodorus",
+  "work": "Library",
+  "ref": "1.1.1–3",
+  "blurb": "The first gods and the first family quarrel, in the simplest prose in this library.",
+  "dialect": "attic",
+  "source": {
+    "edition": "Perseus Digital Library, tlg0548.tlg001.perseus-grc2",
+    "urn": "urn:cts:greekLit:tlg0548.tlg001.perseus-grc2",
+    "license": "CC BY-SA 4.0",
+    "url": "https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0548/tlg001/tlg0548.tlg001.perseus-grc2.xml"
+  },
+  "text": "Οὐρανὸς πρῶτος τοῦ παντὸς ἐδυνάστευσε κόσμου. γήμας δὲ Γῆν ἐτέκνωσε πρώτους τοὺς ἑκατόγχειρας προσαγορευθέντας, Βριάρεων Γύην Κόττον, οἳ μεγέθει τε ἀνυπέρβλητοι καὶ δυνάμει καθειστήκεσαν, χεῖρας μὲν ἀνὰ ἑκατὸν κεφαλὰς δὲ ἀνὰ πεντήκοντα ἔχοντες. μετὰ τούτους δὲ αὐτῷ τεκνοῖ Γῆ Κύκλωπας, Ἄργην Στερόπην Βρόντην, ὧν ἕκαστος εἶχεν ἕνα ὀφθαλμὸν ἐπὶ τοῦ μετώπου. ἀλλὰ τούτους μὲν Οὐρανὸς δήσας εἰς Τάρταρον ἔρριψε (τόπος δὲ οὗτος ἐρεβώδης ἐστὶν ἐν Ἅιδου, τοσοῦτον ἀπὸ γῆς ἔχων διάστημα ὅσον ἀπʼ οὐρανοῦ γῆ), τεκνοῖ δὲ αὖθις ἐκ Γῆς παῖδας μὲν τοὺς Τιτᾶνας προσαγορευθέντας, Ὠκεανὸν Κοῖον Ὑπερίονα Κρεῖον Ἰαπετὸν καὶ νεώτατον ἁπάντων Κρόνον, θυγατέρας δὲ τὰς κληθείσας Τιτανίδας, Τηθὺν Ῥέαν Θέμιν Μνημοσύνην Φοίβην Διώνην Θείαν."
+}

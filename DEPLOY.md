@@ -43,6 +43,8 @@ Vercel domain to `CORS_ORIGINS` and delete the `web` service on Railway.
    HF_HOME=/data/hf-cache
    OCR_PREPROCESS=opencv
    OCR_LINE_MODE=auto
+   LIBRARY_PRERENDER=true
+   CLIP_CACHE_DIR=/data/clip-cache
    CORS_ORIGINS=http://localhost:3000
    ```
    (`CORS_ORIGINS` gets the Vercel domain added in step 7.)
@@ -51,7 +53,10 @@ Vercel domain to `CORS_ORIGINS` and delete the `web` service on Railway.
    the background (downloads ~330 MB to the volume the first time); the
    status strip in the app shows `model warming` until it is `model ready`.
    Audio streams one sentence at a time, so the first sentence plays within
-   a few seconds even for a long paragraph.
+   a few seconds even for a long paragraph. After warm-up the backend
+   pre-renders the reading library into `/data/clip-cache` (first deploy
+   ≈ 10–15 min in the background; later deploys only fill gaps); the app's
+   library shows "ready" per passage and `/api/tts/status` reports progress.
 6. Verify:
    ```bash
    curl https://<railway-domain>/health            # {"status":"ok"}
@@ -88,9 +93,8 @@ curl -s -X POST $B/api/synthesize -H 'content-type: application/json' \
 # expect: X-TTS-Provider: kokoro-attic ; test.wav plays
 ```
 
-Then on the phone: open the app URL → tap **Load sample (Xenophon, Anabasis 1.1)**,
-which pastes the Perseus text from `samples/xenophon_anabasis_1.1.1-4.txt` →
-**Generate neural audio** → ten sentences appear, the badge reads "Kokoro · direct Classical Attic
+Then on the phone: open the app URL → in **Choose a reading** tap
+*Cyrus and Artaxerxes* (Xenophon, Anabasis 1.1) → ten sentences appear, the badge reads "Kokoro · direct Classical Attic
 phonemes", tapping a sentence plays it, **Play all** advances with highlight.
 Share → **Add to Home Screen** installs it as a standalone app.
 

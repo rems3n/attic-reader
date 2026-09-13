@@ -609,5 +609,19 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   speed at the default is 0.64. Warm-up log on Railway: pipeline load 24.5 s,
   first synthesis ~87 s (!) — first-synthesis cost on this host needs a look
   (`attic.*` loggers are now INFO so per-sentence `rtf` lines appear).
+- **Reading library** (user request): 12 Attic passages (4 history, 4
+  philosophy, 4 mythology; beginner/intermediate) from Perseus TEI editions
+  via `scripts/build_library.py` + `app/library_data/sources.json` →
+  `app/library_data/*.json` (committed). Plato dialogues keep speaker
+  labels as "Σωκράτης: …" lines (Perseus `<said who>`); a colon, not ano
+  teleia, so the label does not become its own sentence. `GET /api/library`,
+  `GET /api/library/{id}`. Disk **clip cache** (`app/tts/clip_cache.py`,
+  key = provider|voice|model speed|phonemes, dir `/data/clip-cache`) used by
+  all Kokoro rendering; **pre-render job** (`app/tts/prerender.py`) runs
+  after warm-up over passages × speeds (0.75 first), yielding to user
+  requests via a render lock + pending counter. Frontend: "Choose a reading"
+  card with tabs, level badges, "ready" marker, attribution line. Herodotus /
+  Homer deliberately excluded (not Attic) per user; Aesop is not in
+  canonical-greekLit.
 - Not started: Step 6 G2P audit (syllabification, ει/ου policy). Still want
   Athenaze / LOGOS photos for the regression set.

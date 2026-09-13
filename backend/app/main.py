@@ -33,6 +33,8 @@ from .tts import (
     synthesize_sentences_stream,
 )
 from .tts.kokoro import KokoroAtticTTS
+from .tts import prerender
+from .library import LibraryError, get_item, load_manifest, summary, CATEGORIES
 
 app = FastAPI(title="Attic Reader API", version="0.2.0")
 log = logging.getLogger("attic")
@@ -54,7 +56,15 @@ def _log_capabilities() -> None:
     # Load Kokoro (and download it on a fresh volume) before the first user
     # asks, so the first Generate does not pay ~60-120 s of model start-up.
     if _truthy("ENABLE_KOKORO", True) and _truthy("KOKORO_WARMUP", True):
-        KokoroAtticTTS().warm_up_in_background()
+        def warm_then_prerender() -> None:
+            tts = KokoroAtticTTS()
+            tts.warm_up()
+            if KokoroAtticTTS.warm_state() == "ready" and prerender.enabled():
+                prerender.run(tts)
+
+        import threading
+
+        threading.Thread(target=warm_then_prerender, name="kokoro-warmup", daemon=True).start()
 
 def _cors_origins() -> list[str]:
     raw = os.getenv(
@@ -125,7 +135,28 @@ def segment(request: TextRequest) -> SegmentResponse:
 
 @app.get("/api/tts/status")
 def tts_status() -> dict[str, object]:
-    return {"providers": provider_statuses()}
+    return {"providers": provider_statuses(), "library_prerender": prerender.status()}
+
+
+@app.get("/api/library")
+def library_index() -> dict[str, object]:
+    """Built-in readings grouped by category, with which speeds are pre-rendered."""
+    tts = KokoroAtticTTS()
+    items = [summary(item, prerender.ready_speeds(item, tts)) for item in load_manifest()]
+    return {
+        "categories": [{"id": cid, "label": label} for cid, label in CATEGORIES],
+        "items": items,
+        "prerender": prerender.status(),
+    }
+
+
+@app.get("/api/library/{item_id}")
+def library_item(item_id: str) -> dict[str, object]:
+    try:
+        item = get_item(item_id)
+    except LibraryError:
+        raise HTTPException(status_code=404, detail=f"No reading with id {item_id!r}.")
+    return {**summary(item, prerender.ready_speeds(item)), "text": item["text"], "sentences": item["sentences"]}
 
 
 @app.post("/api/synthesize")

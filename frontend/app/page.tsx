@@ -3,14 +3,17 @@
 import { ChangeEvent, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   base64ToObjectUrl,
+  getLibrary,
+  getLibraryItem,
   getTtsStatus,
   phonemize,
   runOcr,
   synthesizeStream,
+  LibraryIndex,
+  LibraryItem,
   OcrReport,
   TtsProvider,
 } from "../lib/api";
-import { SAMPLE_LABEL, SAMPLE_TEXT } from "../lib/samples";
 
 type Status = "idle" | "ocr" | "phonemize" | "synthesize";
 type PlayMode = "one" | "all";
@@ -63,6 +66,12 @@ export default function Home() {
   const [rerendering, setRerendering] = useState(false);
   const [progress, setProgress] = useState<{ done: number; total: number } | null>(null);
 
+  // Built-in library of Perseus passages.
+  const [library, setLibrary] = useState<LibraryIndex | null>(null);
+  const [libraryTab, setLibraryTab] = useState<string>("history");
+  const [libraryItem, setLibraryItem] = useState<LibraryItem | null>(null);
+  const [libraryOpen, setLibraryOpen] = useState(true);
+
   // One <audio> element for the whole app so iOS keeps it "user-activated"
   // after the first tap; play-all chains clips on this same element.
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -79,6 +88,7 @@ export default function Home() {
 
   useEffect(() => {
     getTtsStatus().then(setProviders).catch(() => setProviders([]));
+    getLibrary().then(setLibrary).catch(() => setLibrary(null));
   }, []);
 
   useEffect(() => {
@@ -126,6 +136,7 @@ export default function Home() {
       const recognized = await runOcr(file);
       setText(recognized.text);
       setOcrReport(recognized.report);
+      setLibraryItem(null);
       clearGenerated();
     } catch (err) {
       setError(err instanceof Error ? err.message : "OCR failed");
@@ -194,8 +205,8 @@ export default function Home() {
     [],
   );
 
-  async function generateAudio() {
-    if (!text.trim()) return;
+  async function generateAudio(sourceText: string = text) {
+    if (!sourceText.trim()) return;
     setStatus("synthesize");
     setError("");
     try {
@@ -204,7 +215,7 @@ export default function Home() {
       cacheRef.current.clear();
       // Sentences appear as soon as the plan arrives; each becomes tappable
       // the moment its clip lands, while the rest are still rendering.
-      const built = await fetchReading(text, speed, (partial) => {
+      const built = await fetchReading(sourceText, speed, (partial) => {
         readingRef.current = partial;
         setReading(partial);
         setText(partial.normalizedText);
@@ -212,10 +223,32 @@ export default function Home() {
       setIpa(built.clips.map((c) => c.ipa).join(" "));
       setReading(built);
       getTtsStatus().then(setProviders).catch(() => undefined);
+      getLibrary().then(setLibrary).catch(() => undefined);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Audio generation failed");
     } finally {
       setStatus("idle");
+    }
+  }
+
+  /** Pick a library passage: load its text and start rendering immediately. */
+  async function chooseReading(item: LibraryItem) {
+    if (busy) return;
+    setError("");
+    setStatus("synthesize");
+    try {
+      const full = await getLibraryItem(item.id);
+      setLibraryItem(full);
+      setImageName("");
+      setOcrReport(null);
+      setText(full.text);
+      clearGenerated();
+      setLibraryOpen(false);
+      setStatus("idle");
+      await generateAudio(full.text);
+    } catch (err) {
+      setStatus("idle");
+      setError(err instanceof Error ? err.message : "Could not load the reading");
     }
   }
 
@@ -381,6 +414,73 @@ export default function Home() {
         <span>{activeNeural ? activeNeural.note : "Neural voice unavailable. Install/enable Kokoro on the backend; robotic eSpeak playback is disabled."}</span>
       </section>
 
+      <section className="card libraryCard">
+        <div className="sectionHead">
+          <div>
+            <h2>Choose a reading</h2>
+            <p>Classic passages from the Perseus Digital Library, read in Classical Attic. Tap one to listen.</p>
+          </div>
+          {library && (
+            <button type="button" className="linkButton" onClick={() => setLibraryOpen((o) => !o)}>
+              {libraryOpen ? "Hide" : `Show ${library.items.length}`}
+            </button>
+          )}
+        </div>
+        {library && libraryOpen && (
+          <>
+            <div className="tabs" role="tablist">
+              {library.categories.map((c) => (
+                <button
+                  type="button"
+                  key={c.id}
+                  role="tab"
+                  aria-selected={libraryTab === c.id}
+                  className={`tab ${libraryTab === c.id ? "on" : ""}`}
+                  onClick={() => setLibraryTab(c.id)}
+                >
+                  {c.label}
+                </button>
+              ))}
+            </div>
+            <ul className="readings">
+              {library.items
+                .filter((item) => item.category === libraryTab)
+                .map((item) => {
+                  const ready = item.ready_speeds.includes(speed);
+                  const minutes = Math.max(1, Math.round(item.estimated_seconds / speed / 60));
+                  return (
+                    <li key={item.id}>
+                      <button
+                        type="button"
+                        className={`reading ${libraryItem?.id === item.id ? "on" : ""}`}
+                        disabled={busy}
+                        onClick={() => chooseReading(item)}
+                      >
+                        <span className="readingTop">
+                          <span className="readingTitle">{item.title}</span>
+                          <span className={`level ${item.level}`}>{item.level}</span>
+                        </span>
+                        <span className="readingRef">
+                          {item.author}, <em>{item.work}</em> {item.ref} · {item.sentence_count} sentences · ~{minutes} min
+                          {ready ? " · ready" : ""}
+                        </span>
+                        <span className="readingBlurb">{item.blurb}</span>
+                      </button>
+                    </li>
+                  );
+                })}
+            </ul>
+            {library.prerender.state === "running" && (
+              <p className="muted">
+                Preparing recordings on the server: {library.prerender.rendered}/{library.prerender.total} clips. Passages without
+                &ldquo;ready&rdquo; still play, a sentence at a time.
+              </p>
+            )}
+          </>
+        )}
+        {!library && <p className="muted">Library unavailable (backend not reachable).</p>}
+      </section>
+
       <section className="card captureCard">
         <div>
           <h2>1. Add Greek</h2>
@@ -411,20 +511,6 @@ export default function Home() {
             )}
           </p>
         )}
-        <button
-          type="button"
-          className="linkButton"
-          disabled={busy}
-          onClick={() => {
-            setText(SAMPLE_TEXT);
-            setImageName("");
-            setOcrReport(null);
-            setError("");
-            clearGenerated();
-          }}
-        >
-          Load sample: {SAMPLE_LABEL}
-        </button>
       </section>
 
       <section className="card">
@@ -440,6 +526,7 @@ export default function Home() {
           value={text}
           onChange={(e) => {
             setText(e.target.value);
+            setLibraryItem(null);
             clearGenerated();
           }}
           placeholder="Ἐπεὶ δὲ ὁ Κῦρος…"
@@ -449,7 +536,7 @@ export default function Home() {
           <button className="secondary" onClick={previewPronunciation} disabled={!text.trim() || busy}>
             {status === "phonemize" ? "Converting…" : "Preview pronunciation"}
           </button>
-          <button className="primary" onClick={generateAudio} disabled={!text.trim() || busy}>
+          <button className="primary" onClick={() => generateAudio()} disabled={!text.trim() || busy}>
             {status === "synthesize"
               ? progress
                 ? `Rendering ${progress.done}/${progress.total}…`
@@ -520,6 +607,11 @@ export default function Home() {
               <summary>Pronunciation of the selected sentence</summary>
               <p>{currentClip.ipa}</p>
             </details>
+          )}
+          {libraryItem && (
+            <p className="attribution">
+              Text: {libraryItem.author}, <em>{libraryItem.work}</em> {libraryItem.ref}. {libraryItem.source.edition} ({libraryItem.source.license}).
+            </p>
           )}
         </section>
       )}

@@ -43,6 +43,8 @@ Next.js PWA
    |
    +--> POST /api/segment ----> sentence spans {index, text, start, end}
    |
+   +--> GET  /api/library, /api/library/{id} -> built-in Perseus readings
+   |
    +--> GET  /api/tts/status -> neural-provider readiness
    |
    +--> POST /api/synthesize        {text, speed?} -> one WAV
@@ -56,6 +58,17 @@ Next.js PWA
              |
              +--> eSpeak grc (diagnostic, opt-in only)
 ```
+
+## Reading library
+
+`backend/app/library_data/` holds twelve short Attic passages (history,
+philosophy, mythology; beginner and intermediate) taken from Perseus Digital
+Library editions in [PerseusDL/canonical-greekLit](https://github.com/PerseusDL/canonical-greekLit)
+(CC BY-SA 4.0). `python scripts/build_library.py` regenerates them from
+`sources.json`. On start the backend warms Kokoro and then pre-renders every
+passage at every learner speed into a disk clip cache (`CLIP_CACHE_DIR`,
+`/data/clip-cache` on Railway), so a passage chosen in the app plays at once.
+The same cache serves repeated user text.
 
 ## Quick start
 
