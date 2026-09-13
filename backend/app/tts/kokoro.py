@@ -131,6 +131,40 @@ def wav_bytes(samples: Any, sample_rate: int = SAMPLE_RATE) -> bytes:
     return output.getvalue()
 
 
+def cgroup_cpu_quota() -> int | None:
+    """CPU cores this container may actually use (cgroup v2 cpu.max / v1 quota).
+
+    Containers report the host's core count through os.cpu_count(); torch then
+    starts that many threads (48 on Railway) inside an 8-vCPU quota and spends
+    its time contending. Returns None when no quota is set.
+    """
+    try:
+        text = open("/sys/fs/cgroup/cpu.max", encoding="ascii").read().split()
+        if text and text[0] != "max":
+            return max(1, int(round(int(text[0]) / int(text[1]))))
+    except (OSError, ValueError, IndexError):
+        pass
+    try:
+        quota = int(open("/sys/fs/cgroup/cpu/cpu.cfs_quota_us", encoding="ascii").read())
+        period = int(open("/sys/fs/cgroup/cpu/cpu.cfs_period_us", encoding="ascii").read())
+        if quota > 0 and period > 0:
+            return max(1, int(round(quota / period)))
+    except (OSError, ValueError):
+        pass
+    return None
+
+
+def torch_thread_budget() -> int:
+    """Threads for torch intra-op parallelism: KOKORO_TORCH_THREADS, else the
+    cgroup quota, else the visible cores; never more than 8 (Kokoro-82M gains
+    nothing beyond that and oversubscription is very costly)."""
+    forced = os.getenv("KOKORO_TORCH_THREADS")
+    if forced:
+        return max(1, int(forced))
+    cores = cgroup_cpu_quota() or os.cpu_count() or 1
+    return max(1, min(8, cores))
+
+
 def _to_float32(audio: Any) -> Any:
     """Accept a torch tensor or anything numpy can consume."""
     import numpy as np
@@ -187,6 +221,17 @@ class KokoroAtticTTS:
                     "Kokoro is not installed. Run: pip install 'kokoro>=0.9.4' soundfile"
                 ) from exc
             started = time.perf_counter()
+            try:
+                import torch
+
+                threads = torch_thread_budget()
+                torch.set_num_threads(threads)
+                log.warning(
+                    "torch threads set to %d (cgroup quota %s, visible cores %s)",
+                    threads, cgroup_cpu_quota(), os.cpu_count(),
+                )
+            except Exception as exc:  # noqa: BLE001 - never block loading on this
+                log.warning("could not set torch threads: %s", exc)
             try:
                 pipeline = KPipeline(
                     lang_code=self.lang_code,

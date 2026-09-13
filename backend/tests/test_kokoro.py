@@ -108,3 +108,34 @@ def test_synthesize_inserts_pause_between_sentences(fake_kokoro):
     audio = KokoroAtticTTS().synthesize("ho ˈɛːlios. hɛː kʰˈɔːra.")
     # 11 chars + 12 chars at 10 ms each plus a 100 ms pause.
     assert _wav_seconds(audio) == pytest.approx(0.11 + 0.12 + 0.10, abs=0.01)
+
+
+def test_torch_thread_budget_prefers_env_then_cgroup_then_cap(monkeypatch):
+    from app.tts import kokoro as k
+
+    monkeypatch.setenv("KOKORO_TORCH_THREADS", "3")
+    assert k.torch_thread_budget() == 3
+    monkeypatch.delenv("KOKORO_TORCH_THREADS")
+    monkeypatch.setattr(k, "cgroup_cpu_quota", lambda: 8)
+    assert k.torch_thread_budget() == 8
+    monkeypatch.setattr(k, "cgroup_cpu_quota", lambda: 48)
+    assert k.torch_thread_budget() == 8
+    monkeypatch.setattr(k, "cgroup_cpu_quota", lambda: None)
+    monkeypatch.setattr(k.os, "cpu_count", lambda: 2)
+    assert k.torch_thread_budget() == 2
+
+
+def test_cgroup_cpu_quota_parses_cpu_max(tmp_path, monkeypatch):
+    from app.tts import kokoro as k
+
+    real_open = open
+
+    def fake_open(path, *args, **kwargs):
+        if path == "/sys/fs/cgroup/cpu.max":
+            f = tmp_path / "cpu.max"
+            f.write_text("800000 100000")
+            return real_open(f, *args, **kwargs)
+        return real_open(path, *args, **kwargs)
+
+    monkeypatch.setattr("builtins.open", fake_open)
+    assert k.cgroup_cpu_quota() == 8
