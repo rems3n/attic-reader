@@ -95,8 +95,8 @@ export default function Home() {
   return (
     <main className="shell">
       <section className="hero">
-        <p className="eyebrow">ANCIENT GREEK · MOBILE READER</p>
-        <h1>Ancient Greek Reader</h1>
+        <p className="eyebrow">CLASSICAL ATTIC · READ ALOUD</p>
+        <h1>Attic Reader</h1>
         <p className="lede">Photograph a page or paste polytonic Greek. Check the text, then generate a neural Ancient Greek reading.</p>
       </section>
 
@@ -105,7 +105,7 @@ export default function Home() {
           <span className={`statusDot ${activeNeural ? "online" : "offline"}`} />
           <strong>{activeNeural ? activeNeural.name : "Neural voice not ready"}</strong>
         </div>
-        <span>{activeNeural ? activeNeural.note : "Install/enable Kokoro first; MMS and Piper are comparison/fallback experiments. Robotic eSpeak playback is disabled."}</span>
+        <span>{activeNeural ? activeNeural.note : "Neural voice unavailable. Install/enable Kokoro on the backend; robotic eSpeak playback is disabled."}</span>
       </section>
 
       <section className="card captureCard">
@@ -148,7 +148,7 @@ export default function Home() {
 
       <section className="card">
         <h2>3. Listen</h2>
-        <p>The app prefers phoneme-controlled Kokoro so our Classical Attic rules drive pronunciation; MMS remains a comparison baseline.</p>
+        <p>Pronunciation is driven by our Classical Attic rules and rendered by a phoneme-controlled neural voice — never Modern Greek phonology.</p>
         <div className="actions">
           <button className="secondary" onClick={previewPronunciation} disabled={!text.trim() || status !== "idle"}>
             {status === "phonemize" ? "Converting…" : "Preview pronunciation"}

@@ -8,7 +8,7 @@ services:
       KOKORO_VOICE: im_nicola
       KOKORO_LANG_CODE: i
       KOKORO_SPEED: "0.92"
-      ENABLE_MMS: "true"
+      ENABLE_MMS: "false"
       MMS_MODEL_ID: facebook/mms-tts-grc
       MMS_DEVICE: cpu
       ALLOW_ESPEAK_FALLBACK: "false"

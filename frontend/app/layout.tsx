@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Ancient Greek Reader",
+  title: "Attic Reader",
   description: "Photograph or paste Ancient Greek and hear Classical Attic audio.",
 };
 

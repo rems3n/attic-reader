@@ -9,3 +9,4 @@ out/
 benchmark-output/voices/
 models/
 *.mp3
+frontend/.next/

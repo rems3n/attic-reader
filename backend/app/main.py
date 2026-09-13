@@ -12,7 +12,7 @@ from .models import PhonemizeResponse, TextRequest
 from .ocr import OCRUnavailable, recognize_ancient_greek
 from .tts import TTSUnavailable, provider_statuses, synthesize_best
 
-app = FastAPI(title="Ancient Greek Reader API", version="0.1.0")
+app = FastAPI(title="Attic Reader API", version="0.1.0")
 
 def _cors_origins() -> list[str]:
     raw = os.getenv(
@@ -27,6 +27,7 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    expose_headers=["X-TTS-Provider"],
 )
 
 

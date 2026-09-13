@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Ancient Greek Reader",
-    short_name: "Greek Reader",
+    name: "Attic Reader",
+    short_name: "Attic Reader",
     description: "Turn photographed or pasted Ancient Greek into Classical Attic audio.",
     start_url: "/",
     display: "standalone",
