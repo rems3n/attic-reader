@@ -1,6 +1,6 @@
-# Anagnostes (ἀναγνώστης) — Ancient Greek Reader
+# Attic Reader — Ancient Greek read aloud
 
-*ἀναγνώστης*: the one who reads aloud. Photograph or paste polytonic Greek, correct the OCR, and hear it read in reconstructed Classical Attic (c. 400 BC) by a natural neural voice — never Modern Greek phonology.
+Photograph or paste polytonic Greek, correct the OCR, and hear it read in reconstructed Classical Attic (c. 400 BC) by a natural neural voice — never Modern Greek phonology.
 
 Mobile-first web app for turning photographed or pasted polytonic Ancient Greek into natural, non-Modern-Greek audio.
 
