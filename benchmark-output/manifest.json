@@ -1,0 +1,222 @@
+[
+  {
+    "id": "aspirates",
+    "text": "θεὸς φίλος χαλεπός.",
+    "focus": [
+      "tʰ",
+      "pʰ",
+      "kʰ"
+    ],
+    "ipa": "tʰeˈos pʰˈilos kʰalepˈos.",
+    "kokoro_phonemes": "tʰeˈos pʰˈilos kʰalepˈos.",
+    "audio": {
+      "kokoro-attic__bm_george": "aspirates__kokoro-attic__bm_george.wav",
+      "kokoro-attic__im_nicola": "aspirates__kokoro-attic__im_nicola.wav",
+      "mms-grc": "aspirates__mms-grc.wav"
+    }
+  },
+  {
+    "id": "stops",
+    "text": "βίος δίκαιος γένος.",
+    "focus": [
+      "b",
+      "d",
+      "g"
+    ],
+    "ipa": "bˈios dˈikai̯os gˈenos.",
+    "kokoro_phonemes": "bˈios dˈikaios ɡˈenos.",
+    "audio": {
+      "kokoro-attic__bm_george": "stops__kokoro-attic__bm_george.wav",
+      "kokoro-attic__im_nicola": "stops__kokoro-attic__im_nicola.wav",
+      "mms-grc": "stops__mms-grc.wav"
+    }
+  },
+  {
+    "id": "long-vowels",
+    "text": "ἡ χώρα καλὴ ἐστίν.",
+    "focus": [
+      "ɛː",
+      "ɔː"
+    ],
+    "ipa": "hɛː kʰˈɔːra kalˈɛː estˈin.",
+    "kokoro_phonemes": "hɛː kʰˈɔːra kalˈɛː estˈin.",
+    "audio": {
+      "kokoro-attic__bm_george": "long-vowels__kokoro-attic__bm_george.wav",
+      "kokoro-attic__im_nicola": "long-vowels__kokoro-attic__im_nicola.wav",
+      "mms-grc": "long-vowels__mms-grc.wav"
+    }
+  },
+  {
+    "id": "upsilon",
+    "text": "ὁ Κῦρος ἰσχυρός ἐστιν.",
+    "focus": [
+      "y"
+    ],
+    "ipa": "ho kˈyros iskʰyrˈos estin.",
+    "kokoro_phonemes": "ho kˈyros iskʰyrˈos estin.",
+    "audio": {
+      "kokoro-attic__bm_george": "upsilon__kokoro-attic__bm_george.wav",
+      "kokoro-attic__im_nicola": "upsilon__kokoro-attic__im_nicola.wav",
+      "mms-grc": "upsilon__mms-grc.wav"
+    }
+  },
+  {
+    "id": "rough-breathing",
+    "text": "ὁ ἥλιος ὑπὲρ τῆς γῆς ἐστιν.",
+    "focus": [
+      "h"
+    ],
+    "ipa": "ho hˈɛːlios hypˈer tˈɛːs gˈɛːs estin.",
+    "kokoro_phonemes": "ho hˈɛːlios hypˈer tˈɛːs ɡˈɛːs estin.",
+    "audio": {
+      "kokoro-attic__bm_george": "rough-breathing__kokoro-attic__bm_george.wav",
+      "kokoro-attic__im_nicola": "rough-breathing__kokoro-attic__im_nicola.wav",
+      "mms-grc": "rough-breathing__mms-grc.wav"
+    }
+  },
+  {
+    "id": "ai-diphthong",
+    "text": "αἱ γυναῖκες ἐν τῇ οἰκίᾳ εἰσίν.",
+    "focus": [
+      "ai"
+    ],
+    "ipa": "hai̯ gynˈai̯kes en tˈɛːi̯ oi̯kˈiai̯ eːsˈin.",
+    "kokoro_phonemes": "hai ɡynˈaikes en tˈɛːi oikˈiai eːsˈin.",
+    "audio": {
+      "kokoro-attic__bm_george": "ai-diphthong__kokoro-attic__bm_george.wav",
+      "kokoro-attic__im_nicola": "ai-diphthong__kokoro-attic__im_nicola.wav",
+      "mms-grc": "ai-diphthong__mms-grc.wav"
+    }
+  },
+  {
+    "id": "oi-diphthong",
+    "text": "οἱ φίλοι οἴκοι μένουσιν.",
+    "focus": [
+      "oi"
+    ],
+    "ipa": "hoi̯ pʰˈiloi̯ ˈoi̯koi̯ mˈenuːsin.",
+    "kokoro_phonemes": "hoi pʰˈiloi ˈoikoi mˈenuːsin.",
+    "audio": {
+      "kokoro-attic__bm_george": "oi-diphthong__kokoro-attic__bm_george.wav",
+      "kokoro-attic__im_nicola": "oi-diphthong__kokoro-attic__im_nicola.wav",
+      "mms-grc": "oi-diphthong__mms-grc.wav"
+    }
+  },
+  {
+    "id": "au-eu-diphthongs",
+    "text": "αὐτὸς εὖ λέγει.",
+    "focus": [
+      "au",
+      "eu"
+    ],
+    "ipa": "au̯tˈos ˈeu̯ lˈegeː.",
+    "kokoro_phonemes": "autˈos ˈeu lˈeɡeː.",
+    "audio": {
+      "kokoro-attic__bm_george": "au-eu-diphthongs__kokoro-attic__bm_george.wav",
+      "kokoro-attic__im_nicola": "au-eu-diphthongs__kokoro-attic__im_nicola.wav",
+      "mms-grc": "au-eu-diphthongs__mms-grc.wav"
+    }
+  },
+  {
+    "id": "gamma-nasal",
+    "text": "ἄγγελος ἄγκυρα ἔλεγχος.",
+    "focus": [
+      "ŋg",
+      "ŋk",
+      "ŋkʰ"
+    ],
+    "ipa": "ˈaŋgelos ˈaŋkyra ˈeleŋkʰos.",
+    "kokoro_phonemes": "ˈaŋɡelos ˈaŋkyra ˈeleŋkʰos.",
+    "audio": {
+      "kokoro-attic__bm_george": "gamma-nasal__kokoro-attic__bm_george.wav",
+      "kokoro-attic__im_nicola": "gamma-nasal__kokoro-attic__im_nicola.wav",
+      "mms-grc": "gamma-nasal__mms-grc.wav"
+    }
+  },
+  {
+    "id": "geminates",
+    "text": "ἄλλος ἵππος θάλαττα.",
+    "focus": [
+      "ll",
+      "pp",
+      "tt"
+    ],
+    "ipa": "ˈallos hˈippos tʰˈalatta.",
+    "kokoro_phonemes": "ˈallos hˈippos tʰˈalatta.",
+    "audio": {
+      "kokoro-attic__bm_george": "geminates__kokoro-attic__bm_george.wav",
+      "kokoro-attic__im_nicola": "geminates__kokoro-attic__im_nicola.wav",
+      "mms-grc": "geminates__mms-grc.wav"
+    }
+  },
+  {
+    "id": "iota-subscript",
+    "text": "τῇ χώρᾳ καὶ τῷ φίλῳ.",
+    "focus": [
+      "i̯"
+    ],
+    "ipa": "tˈɛːi̯ kʰˈɔːrai̯ kˈai̯ tˈɔːi̯ pʰˈilɔːi̯.",
+    "kokoro_phonemes": "tˈɛːi kʰˈɔːrai kˈai tˈɔːi pʰˈilɔːi.",
+    "audio": {
+      "kokoro-attic__bm_george": "iota-subscript__kokoro-attic__bm_george.wav",
+      "kokoro-attic__im_nicola": "iota-subscript__kokoro-attic__im_nicola.wav",
+      "mms-grc": "iota-subscript__mms-grc.wav"
+    }
+  },
+  {
+    "id": "xenophon-cyrus",
+    "text": "Ἐπεὶ δὲ ὁ Κῦρος ἐτελεύτησε, Τισσαφέρνης διαβάλλει τὸν Κῦρον πρὸς τὸν ἀδελφόν.",
+    "focus": [
+      "phrase"
+    ],
+    "ipa": "epˈeː dˈe ho kˈyros etelˈeu̯tɛːse, tissapʰˈernɛːs diabˈalleː tˈon kˈyron prˈos tˈon adelpʰˈon.",
+    "kokoro_phonemes": "epˈeː dˈe ho kˈyros etelˈeutɛːse, tissapʰˈernɛːs diabˈalleː tˈon kˈyron prˈos tˈon adelpʰˈon.",
+    "audio": {
+      "kokoro-attic__bm_george": "xenophon-cyrus__kokoro-attic__bm_george.wav",
+      "kokoro-attic__im_nicola": "xenophon-cyrus__kokoro-attic__im_nicola.wav",
+      "mms-grc": "xenophon-cyrus__mms-grc.wav"
+    }
+  },
+  {
+    "id": "xenophon-anabasis",
+    "text": "Δαρείου καὶ Παρυσάτιδος γίγνονται παῖδες δύο.",
+    "focus": [
+      "phrase"
+    ],
+    "ipa": "darˈeːuː kˈai̯ parysˈatidos gˈignontai̯ pˈai̯des dˈyo.",
+    "kokoro_phonemes": "darˈeːuː kˈai parysˈatidos ɡˈiɡnontai pˈaides dˈyo.",
+    "audio": {
+      "kokoro-attic__bm_george": "xenophon-anabasis__kokoro-attic__bm_george.wav",
+      "kokoro-attic__im_nicola": "xenophon-anabasis__kokoro-attic__im_nicola.wav",
+      "mms-grc": "xenophon-anabasis__mms-grc.wav"
+    }
+  },
+  {
+    "id": "athenaze-style-1",
+    "text": "ὁ Δικαιόπολις αὐτουργός ἐστιν.",
+    "focus": [
+      "phrase"
+    ],
+    "ipa": "ho dikai̯ˈopolis au̯tuːrgˈos estin.",
+    "kokoro_phonemes": "ho dikaiˈopolis autuːrɡˈos estin.",
+    "audio": {
+      "kokoro-attic__bm_george": "athenaze-style-1__kokoro-attic__bm_george.wav",
+      "kokoro-attic__im_nicola": "athenaze-style-1__kokoro-attic__im_nicola.wav",
+      "mms-grc": "athenaze-style-1__mms-grc.wav"
+    }
+  },
+  {
+    "id": "athenaze-style-2",
+    "text": "ὁ δὲ Φίλιππος ἐκ τοῦ ἀγροῦ πρὸς τὴν οἰκίαν βαδίζει.",
+    "focus": [
+      "phrase"
+    ],
+    "ipa": "ho dˈe pʰˈilippos ek tˈuː agrˈuː prˈos tˈɛːn oi̯kˈian badˈizdeː.",
+    "kokoro_phonemes": "ho dˈe pʰˈilippos ek tˈuː aɡrˈuː prˈos tˈɛːn oikˈian badˈizdeː.",
+    "audio": {
+      "kokoro-attic__bm_george": "athenaze-style-2__kokoro-attic__bm_george.wav",
+      "kokoro-attic__im_nicola": "athenaze-style-2__kokoro-attic__im_nicola.wav",
+      "mms-grc": "athenaze-style-2__mms-grc.wav"
+    }
+  }
+]

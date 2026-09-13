@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+node_modules/
+.next/
+out/
+.DS_Store
+benchmark-output/voices/
+models/
+*.mp3

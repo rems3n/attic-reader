@@ -1,0 +1,194 @@
+# Anagnostes (ἀναγνώστης) — Ancient Greek Reader
+
+*ἀναγνώστης*: the one who reads aloud. Photograph or paste polytonic Greek, correct the OCR, and hear it read in reconstructed Classical Attic (c. 400 BC) by a natural neural voice — never Modern Greek phonology.
+
+Mobile-first web app for turning photographed or pasted polytonic Ancient Greek into natural, non-Modern-Greek audio.
+
+## Product flow
+
+1. Take/upload a photo or paste Greek text.
+2. OCR with Tesseract's dedicated `grc` Ancient Greek model.
+3. Review/edit the recognized polytonic text.
+4. Convert the text to a Classical Attic-oriented phoneme sequence.
+5. Synthesize with a neural voice while preserving our pronunciation rules.
+6. Play the generated WAV in the browser.
+
+OCR, historical pronunciation, and waveform synthesis are deliberately separate. The valuable core is the deterministic Greek → phoneme layer; neural voice backends can be replaced without rewriting OCR or the reader UI.
+
+## TTS strategy
+
+Provider order:
+
+1. **Kokoro + direct Attic phonemes** — primary experiment. Kokoro's `KPipeline.generate_from_tokens()` accepts a raw phoneme string, so we can bypass a Modern Greek/English G2P and feed our own reconstruction directly.
+2. **Meta MMS `facebook/mms-tts-grc`** — comparison baseline. It is a dedicated Ancient Greek (`grc`) VITS checkpoint and accepts Ancient Greek orthography directly.
+3. **Piper + Attic phonemes** — optional alternative phoneme-controlled neural path.
+4. **eSpeak NG `grc`** — diagnostic only and disabled by default because its waveform is too robotic for learning.
+
+Kokoro is especially useful for this experiment because its published token vocabulary contains the IPA symbols used by the current Attic MVP, including `y`, `ɛ`, `ɔ`, `ŋ`, `ː`, `ʰ`, and stress marks. The one mark we currently strip is the combining non-syllabic marker `̯`; e.g. `ai̯` is sent as `ai`.
+
+MMS being labeled Ancient Greek does **not** prove that its learned pronunciation matches 5th–4th century BC Classical Attic. We therefore compare it against the independent Attic G2P rather than treating the model as the authority.
+
+### Licensing note
+
+Kokoro-82M is published under Apache 2.0. The `facebook/mms-tts-grc` checkpoint is CC-BY-NC 4.0, so MMS is useful for personal/non-commercial evaluation but should not be assumed to be an acceptable commercial production backend.
+
+## Architecture
+
+```text
+Next.js PWA
+   |
+   +--> POST /api/ocr --------> Tesseract grc
+   |
+   +--> POST /api/phonemize --> Classical Attic G2P
+   |
+   +--> GET  /api/tts/status -> neural-provider readiness
+   |
+   +--> POST /api/synthesize
+             |
+             +--> Kokoro (Attic phonemes -> neural WAV)
+             |
+             +--> MMS grc (Greek text -> neural WAV)
+             |
+             +--> Piper (Attic phonemes -> neural WAV)
+             |
+             +--> eSpeak grc (diagnostic, opt-in only)
+```
+
+## Quick start
+
+### 1. Backend
+
+Requirements:
+- Python 3.11+
+- Tesseract 5 with `grc.traineddata`
+- Internet access on the first neural-model run unless weights are already cached
+
+```bash
+cd backend
+python -m venv .venv
+source .venv/bin/activate
+pip install -e '.[kokoro,mms,dev]'
+uvicorn app.main:app --reload --port 8000
+```
+
+Check Ancient Greek OCR support:
+
+```bash
+tesseract --list-langs | grep grc
+```
+
+Check voice readiness:
+
+```bash
+curl http://localhost:8000/api/tts/status
+```
+
+Run tests:
+
+```bash
+pytest -q
+```
+
+Run the fixed neural-voice benchmark:
+
+```bash
+python scripts/run_voice_benchmark.py --providers kokoro mms
+```
+
+The runner creates `benchmark-output/manifest.json` and one WAV per successful test/provider. The fixed test set lives in `benchmarks/attic_benchmark.json`.
+
+### 2. Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Open http://localhost:3000. On mobile, the image input requests the rear camera when the browser supports `capture="environment"`.
+
+## Colab benchmark
+
+`experiments/neural_voice_benchmark_colab.ipynb` is included for the specific case where the local machine cannot download neural dependencies/weights. Upload the project ZIP to Colab, run the notebook, and it will:
+
+- install Kokoro and MMS dependencies,
+- run the same 15-case benchmark,
+- display Kokoro and MMS audio side-by-side,
+- package every generated WAV plus the manifest as `ancient-greek-voice-benchmark.zip`.
+
+## Docker
+
+```bash
+docker compose up --build
+```
+
+The backend image installs Tesseract's Ancient Greek OCR data plus both Kokoro and MMS Python dependencies. Model weights are cached in the `hf-cache` volume.
+
+## Environment
+
+```bash
+cp .env.example .env
+```
+
+Important settings:
+
+```bash
+ENABLE_KOKORO=true
+KOKORO_REPO_ID=hexgrad/Kokoro-82M
+KOKORO_VOICE=im_nicola
+KOKORO_LANG_CODE=i
+KOKORO_SPEED=0.92
+
+ENABLE_MMS=false
+MMS_MODEL_ID=facebook/mms-tts-grc
+MMS_DEVICE=cpu
+
+# Keep robotic speech off for normal use
+ALLOW_ESPEAK_FALLBACK=false
+```
+
+The British male Kokoro voice is only a first benchmark narrator. We are evaluating whether the model can realize the supplied Attic phonemes naturally; voice selection can be changed later without changing the Greek pronunciation engine.
+
+## Benchmark acceptance criteria
+
+The 15-case benchmark explicitly tests:
+
+- Classical stops `b d g` rather than Modern Greek fricatives
+- aspirated `pʰ tʰ kʰ`
+- `y` for upsilon
+- eta/omega vowel quality and length
+- rough breathing `h`
+- diphthongs
+- gamma nasalization before velars
+- geminates
+- iota-subscript policy
+- short Athenaze/Xenophon-style connected passages
+
+A provider is not accepted merely because it produces audio. It must be (1) natural enough for sustained listening and (2) faithful enough that a beginner should be comfortable imitating it.
+
+## Current linguistic status
+
+The custom G2P is an MVP pronunciation audit, not yet a scholarly final reconstruction. It currently handles:
+
+- polytonic Unicode normalization
+- rough breathing
+- common Classical diphthongs
+- long eta/omega
+- aspirated theta/phi/chi
+- gamma before velars
+- double consonants
+- lexical accent rendered as stress for learner mode
+
+Next linguistic work after the voice benchmark passes:
+
+- syllabification
+- more robust accent scope
+- enclitics/proclitics
+- elision/crasis
+- long diphthongs/iota-subscript policy
+- reconstructed pitch accent
+- sentence-level comparison against trusted reconstructed-Attic recordings
+
+## Why eSpeak is not learner-facing
+
+eSpeak NG remains useful as a deterministic Ancient Greek diagnostic/reference engine, but its waveform is too robotic for sustained learning. `ALLOW_ESPEAK_FALLBACK=false` is therefore the default. If no neural provider is available, the API fails clearly instead of silently returning low-quality speech.

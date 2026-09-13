@@ -1,0 +1,553 @@
+# Ancient Greek Reader — Handoff Plan
+
+## Read this first
+
+You are taking over an in-progress prototype for a mobile/web Ancient Greek reading app.
+
+The user is a beginner learning Ancient Greek with **Athenaze** and **LOGOS / Lingua Graeca per se illustrata** and wants to read texts such as **Xenophon**. The key requirement is audio that sounds natural **without sounding like Modern Greek**.
+
+The current target is:
+
+> **Reconstructed Classical Attic, roughly Athens c. 400 BC, optimized first for a learner.**
+
+The user initially mentioned Erasmian pronunciation, but that is not the actual requirement. Do not optimize around a generic national-school “Erasmian” convention. The user mainly wants pronunciation appropriate to Classical Attic/Athenaze/Xenophon and clearly distinct from Modern Greek.
+
+The user cannot yet speak Ancient Greek reliably, so **do not require pronunciation recordings from the user**. The app should teach the user, not learn pronunciation from him.
+
+The desired product flow is:
+
+```text
+Photo of physical book OR pasted Greek text
+        ↓
+Ancient Greek OCR
+        ↓
+Editable/reviewable polytonic Greek
+        ↓
+Deterministic Classical Attic G2P
+        ↓
+Natural neural TTS
+        ↓
+Sentence-level playback in a mobile-friendly web app
+```
+
+The user rejected the eSpeak result as far too robotic. Do not return to eSpeak as a learner-facing solution.
+
+---
+
+# Product requirements
+
+## MVP user experience
+
+The app should work on desktop and mobile, preferably as a PWA.
+
+A user should be able to:
+
+1. Take a photo of printed Ancient Greek on a phone.
+2. Upload an existing image.
+3. Paste polytonic Greek copied from the web.
+4. See OCR output before synthesis.
+5. Correct OCR errors manually.
+6. Generate natural-sounding Ancient Greek audio.
+7. Play/replay the result easily.
+8. Eventually play sentence-by-sentence and change playback speed.
+
+For v1, do **not** overbuild accounts, saved books, billing, social features, etc. Voice quality is the core blocker.
+
+## Non-negotiable pronunciation goals
+
+The output must not silently fall back to Modern Greek phonology. The current Classical Attic learner target includes, approximately:
+
+- β → /b/
+- γ → /g/
+- δ → /d/
+- θ → /tʰ/
+- φ → /pʰ/
+- χ → /kʰ/
+- η → /ɛː/
+- ω → /ɔː/
+- υ → /y/
+- αι → /ai̯/
+- οι → /oi̯/
+- αυ → /au̯/
+- ευ → /eu̯/
+- rough breathing → /h/
+- γγ → /ŋg/
+- γκ → /ŋk/
+- γχ → /ŋkʰ/
+- gamma before ξ → nasalized velar sequence
+- preserve relevant vowel length and geminates
+
+The exact historical policy for ει, ου, long diphthongs, iota subscript, ζ, pitch accent, and some period-sensitive details is **not final**. Treat the current G2P as an MVP that must be audited, not as scholarly ground truth.
+
+Current learner mode renders lexical accent primarily as stress. Reconstructed pitch accent is a later feature.
+
+---
+
+# Current architecture
+
+```text
+frontend/                 Next.js + TypeScript + mobile-first UI
+     |
+     +--> POST /api/ocr
+     |         ↓
+     |      Tesseract `grc`
+     |
+     +--> POST /api/phonemize
+     |         ↓
+     |      deterministic Attic G2P
+     |
+     +--> GET /api/tts/status
+     |
+     +--> POST /api/synthesize
+               ↓
+        neural-provider adapter
+               ↓
+        Kokoro first
+        MMS comparison
+        Piper optional experiment
+        eSpeak diagnostic only
+```
+
+Backend is Python/FastAPI. Frontend is Next.js.
+
+The important design choice is that **Greek → phonemes is separate from phonemes → waveform**. Preserve that separation.
+
+---
+
+# Repository map
+
+## Important files
+
+- `README.md` — setup and architecture overview.
+- `CLAUDE.md` — this handoff document.
+- `.env.example` — TTS/OCR configuration.
+- `docker-compose.yml` — local Docker path.
+- `benchmarks/attic_benchmark.json` — fixed 15-case voice/pronunciation benchmark.
+- `benchmark-output/manifest.json` — last benchmark attempt; currently contains provider-install errors rather than neural WAVs.
+- `experiments/neural_voice_benchmark_colab.ipynb` — intended easiest way to download/run Kokoro + MMS in an internet-enabled environment.
+- `experiments/mms_grc_voice_test.ipynb` — earlier MMS-specific notebook.
+
+## Backend
+
+- `backend/app/greek/g2p.py` — current deterministic Classical Attic G2P MVP.
+- `backend/app/greek/normalize.py` — Unicode/polytonic normalization.
+- `backend/app/ocr.py` — Tesseract Ancient Greek OCR.
+- `backend/app/tts/kokoro.py` — preferred direct-phoneme neural experiment.
+- `backend/app/tts/mms.py` — Meta MMS Ancient Greek comparison.
+- `backend/app/tts/piper.py` — optional raw-phoneme Piper path.
+- `backend/app/tts/espeak.py` — robotic diagnostic fallback only.
+- `backend/app/tts/providers.py` — provider priority/fallback logic.
+- `backend/scripts/run_voice_benchmark.py` — produces a WAV per benchmark/provider plus manifest.
+- `backend/tests/` — current automated tests.
+
+## Frontend
+
+- `frontend/app/page.tsx` — current single-page workflow.
+- `frontend/lib/api.ts` — backend calls.
+- `frontend/app/manifest.ts` — PWA metadata baseline.
+
+---
+
+# Current status
+
+## What is working
+
+### 1. Classical Attic G2P MVP
+
+There is a deterministic rule-based phonemizer in `backend/app/greek/g2p.py`.
+
+It currently handles:
+
+- polytonic Unicode decomposition/normalization
+- rough breathing
+- common diphthongs
+- eta/omega as long vowels
+- classical stop values for β/γ/δ
+- aspirated θ/φ/χ
+- upsilon /y/
+- gamma nasalization before velars
+- geminates through repeated graphemes
+- a provisional iota-subscript policy
+- lexical accent rendered as learner-friendly stress
+
+### 2. Ancient Greek OCR path
+
+The project uses Tesseract’s dedicated `grc` trained data, not Modern Greek `ell`.
+
+A synthetic polytonic Greek image was successfully OCR’d exactly in the development environment. That proves the basic pipeline, but **real physical-book photos still need systematic testing** under perspective distortion, uneven lighting, page curvature, small type, Loeb formatting, etc.
+
+### 3. FastAPI endpoints
+
+Implemented:
+
+- `GET /health`
+- `POST /api/ocr`
+- `POST /api/phonemize`
+- `GET /api/tts/status`
+- `POST /api/synthesize`
+
+### 4. Mobile-first frontend
+
+The Next.js UI currently supports:
+
+- camera/image upload
+- paste/edit Greek text
+- OCR
+- pronunciation preview
+- audio generation
+- audio playback
+- display of G2P audit output
+- provider status
+
+### 5. Automated tests
+
+At handoff time:
+
+```text
+14 passed
+```
+
+Run from `backend/`:
+
+```bash
+pytest -q
+```
+
+### 6. Benchmark suite
+
+`benchmarks/attic_benchmark.json` contains 15 tests covering:
+
+- aspirates
+- classical stops
+- long vowels
+- upsilon
+- rough breathing
+- αι / οι / αυ / ευ
+- gamma nasalization
+- geminates
+- iota subscript policy
+- short Athenaze-style phrases
+- Xenophon-style passages
+
+---
+
+## Session log — 2026-09-12 (neural voice milestone)
+
+- 45 neural WAVs now exist in `benchmark-output/` (15 cases × Kokoro/bm_george, Kokoro/im_nicola, MMS-grc). See `benchmark-output/SCORECARD.md` and `listening_sheet.html`.
+- MMS grc is **REJECTED** on objective grounds: phone recognition shows Modern Greek phonology on every case. Do not spend more time on it.
+- Kokoro raw-phoneme injection **works** and provisionally passes the Classical contrasts (stops, aspiration duration, long vowels, geminates, /h/, diphthongs, /zd/).
+- Bug fixed: ASCII `g` was not in Kokoro's vocab, so every γ was silently dropped. Fixed in the provider mapping layer + tests (16 passing).
+- Open issue: English voices insert a linking-R after ɛː/ɔː before a vowel. `im_nicola` (Italian) does not, and renders /y/ and /h/ correctly — leading voice candidate.
+- `run_voice_benchmark.py` now takes `--voices`; manifest keys are consistently provider IDs on success and failure.
+- Install notes: use the CPU torch wheel on small-disk hosts (`--index-url https://download.pytorch.org/whl/cpu`); `KPipeline(lang_code="b")` needs spaCy `en_core_web_sm` even though we bypass G2P.
+- **User listened (2026-09-12): voice quality accepted.** Liked im_nicola and bm_george; chose **im_nicola** as the default to stay focused. MMS confirmed rejected.
+- Defaults now `KOKORO_VOICE=im_nicola`, `KOKORO_LANG_CODE=i` (README, .env.example, docker-compose, kokoro.py).
+
+# What has NOT been proven yet
+
+This is the most important section.
+
+## 1. No neural voice has passed the listening benchmark yet
+
+The prior execution environment could not download/install the required neural packages/model weights. Therefore:
+
+- **Kokoro has not yet been heard with our Classical Attic phoneme strings.**
+- **MMS Ancient Greek has not yet been heard in this project benchmark.**
+- Do not claim either model has passed.
+
+The current `benchmark-output/manifest.json` intentionally records errors such as “Kokoro is not installed” / “MMS is not installed.”
+
+## 2. Kokoro raw-phoneme compatibility is an implementation hypothesis, not final proof
+
+The project uses `KPipeline.generate_from_tokens()` in `backend/app/tts/kokoro.py` to bypass Kokoro’s normal G2P and inject our phoneme string.
+
+The reasoning is good: Kokoro’s token set appears to contain many symbols needed by our MVP, and direct phoneme control is ideal.
+
+But the actual acoustic result must be tested. A model can accept symbols without producing convincing Classical Greek timing or coarticulation.
+
+Pay particular attention to:
+
+- /y/
+- /ɛː/
+- /ɔː/
+- /pʰ tʰ kʰ/
+- vowel quantity
+- geminate duration
+- diphthongs
+- /ŋ/ + velar sequences
+- whether stress marks create bizarre English-like prosody
+
+## 3. MMS pronunciation may be wrong for the target period
+
+`facebook/mms-tts-grc` is useful because it is a dedicated Ancient Greek model and likely sounds much more natural than eSpeak.
+
+However, “Ancient Greek” in a model label does not establish 5th–4th century BC Classical Attic pronunciation. It must be evaluated independently.
+
+Also note licensing: the MMS checkpoint is CC-BY-NC 4.0 and should not be assumed suitable for a commercial product.
+
+## 4. Frontend production build has not been fully validated in the original sandbox
+
+The frontend source exists, but the prior environment had npm/network limitations. Run `npm install`, `npm run build`, and fix any TypeScript/Next.js issues before deployment.
+
+## 5. Real-book OCR quality is not validated
+
+Synthetic OCR worked. Real photos from Athenaze/LOGOS/Loeb are a separate test.
+
+---
+
+# Immediate next steps — do these in order
+
+## Step 1 — Run the existing code before changing architecture
+
+From `backend/`:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
+pip install -e '.[kokoro,mms,dev]'
+pytest -q
+```
+
+Verify Tesseract Ancient Greek:
+
+```bash
+tesseract --list-langs
+```
+
+Confirm `grc` appears.
+
+Then run:
+
+```bash
+python scripts/run_voice_benchmark.py --providers kokoro mms
+```
+
+If local model download/setup is painful, use `experiments/neural_voice_benchmark_colab.ipynb` instead.
+
+## Step 2 — Produce actual neural WAVs
+
+Success means `benchmark-output/` contains WAV files for the benchmark cases, not just errors in `manifest.json`.
+
+Do not proceed to substantial UI work until actual neural audio exists.
+
+## Step 3 — Evaluate Kokoro and MMS separately on two dimensions
+
+For every provider, distinguish:
+
+### A. Naturalness
+
+- Does it sound like a human narrator?
+- Can someone listen for several minutes without “robot voice” fatigue?
+- Is pacing calm and pedagogical rather than announcer-like or English-like?
+
+### B. Pronunciation fidelity
+
+- Are β/γ/δ stops rather than Modern Greek fricatives?
+- Are θ/φ/χ aspirated stops rather than modern fricatives?
+- Is upsilon plausibly /y/?
+- Are rough breathings audible?
+- Are η/ω distinct and plausibly long?
+- Are diphthongs preserved?
+- Are geminates/durations plausible?
+
+A provider passes only if it is acceptable on both dimensions.
+
+## Step 4 — Prefer Kokoro only if raw phoneme injection actually sounds good
+
+If Kokoro produces natural audio from our phoneme strings, make it the primary backend.
+
+Then:
+
+- choose 2–4 candidate voices, not just `bm_george`
+- benchmark a male and female voice
+- tune speed and punctuation
+- evaluate whether stress marks should be removed/changed
+- test duration control for long vowels and geminates
+- validate chunks/pauses across sentence boundaries
+
+Do not optimize for sounding specifically like Luke Ranieri’s identity/voice. The user likes the high-level qualities of his recordings: reconstructed Classical pronunciation, deliberate scholarly narration, clarity, and pedagogical pacing. Use a distinct synthetic voice unless permission exists for an actual clone.
+
+## Step 5 — If Kokoro fails phonetic fidelity, do not endlessly patch it
+
+Try the following decision tree:
+
+```text
+Kokoro raw phonemes natural + faithful?
+  ├─ YES → use Kokoro for MVP
+  └─ NO
+      ↓
+MMS natural + sufficiently Classical?
+  ├─ YES (personal prototype only) → use as temporary prototype
+  └─ NO
+      ↓
+Test another phoneme-controllable open neural backend / Piper
+      ↓
+If still poor → train/fine-tune a dedicated Classical Attic voice
+```
+
+The value already built is the deterministic G2P + OCR + app shell. Replacing TTS should not require rewriting those pieces.
+
+## Step 6 — Audit and harden the G2P after the acoustic backend proves viable
+
+Do not mistake the current G2P for a finished scholarly reconstruction.
+
+Recommended linguistic backlog:
+
+1. formalize the exact target period (late 5th / early 4th c. BC Attic)
+2. syllabification
+3. distinguish vowel length more systematically
+4. revisit ει / ου policy by period/context
+5. revisit ζ reconstruction
+6. long diphthongs / iota subscript policy
+7. word-final and cross-word sandhi
+8. elision and crasis
+9. enclitics/proclitics
+10. phrase-level accent/prosody
+11. eventually add reconstructed pitch-accent mode
+
+Keep two modes:
+
+- **Learner:** clear word boundaries, slower pacing, stress-like accent cue, exaggerated quantity where useful.
+- **Reconstructed/Natural:** more historical connected speech and pitch-accent behavior.
+
+## Step 7 — Test OCR on real pages
+
+Ask for or use representative photos from:
+
+- Athenaze
+- LOGOS / Cultura Clásica
+- Loeb Xenophon
+
+Build a small OCR regression set with expected transcription.
+
+Add preprocessing as needed:
+
+- crop/page detection
+- grayscale/contrast
+- deskew
+- perspective correction
+- denoise/sharpen only if it helps
+
+If Tesseract `grc` is insufficient, evaluate Kraken and specialized polytonic Greek OCR models.
+
+## Step 8 — Finish product experience only after voice passes
+
+Next UX features, in order:
+
+1. sentence segmentation
+2. one-tap play/replay sentence
+3. 0.6x / 0.75x / 1x / 1.25x playback
+4. synchronized sentence highlighting
+5. “repeat sentence” learning mode
+6. preserve source text + generated audio locally
+7. saved reading library
+8. optional word-tap pronunciation later
+
+No auth is needed until saving/syncing becomes important.
+
+---
+
+# Known code issues / cleanup items
+
+These are not necessarily blockers but should be checked.
+
+## Frontend messaging
+
+The frontend was updated in this handoff to describe Kokoro as the preferred phoneme-controlled path. Verify there are no stale MMS-first messages elsewhere.
+
+## Benchmark manifest keys
+
+On failure, `run_voice_benchmark.py` currently stores errors under the requested short provider key (`kokoro`, `mms`), whereas successful files are stored under provider IDs (`kokoro-attic`, `mms-grc`). This is acceptable for now but should be normalized if a consumer parses the manifest.
+
+## Kokoro API compatibility
+
+Confirm the installed Kokoro version still supports the exact `KPipeline` constructor and `generate_from_tokens()` signature used in `backend/app/tts/kokoro.py`.
+
+If the library API changed, update the adapter rather than changing the G2P architecture.
+
+## Prosody and tokenization
+
+`split_phonemes()` chunks by character count and punctuation. This is a prototype. Once audio works, chunk by sentence/phrase and perhaps syllable/phoneme token count rather than raw characters.
+
+## IPA is not necessarily the model’s ideal token representation
+
+The project calls the output “IPA,” but a neural model may respond better to a model-specific phoneme spelling while preserving the same historical distinctions. It is fine to add a provider-specific phoneme mapping layer:
+
+```text
+Greek → canonical Attic representation → provider-specific token mapping → waveform
+```
+
+Do not contaminate the canonical linguistic representation just to satisfy one TTS model.
+
+---
+
+# Acceptance criteria for the voice milestone
+
+Before calling the core problem solved, all of these should be true:
+
+- [ ] 15 benchmark cases generate neural WAVs reliably.
+- [ ] Voice sounds natural enough for sustained reading.
+- [ ] No obvious Modern Greek β/γ/δ/θ/φ/χ behavior.
+- [ ] Rough breathing is represented where expected.
+- [ ] Upsilons and major vowel/diphthong distinctions are usable for learning.
+- [ ] Long vowels do not collapse entirely into short ones.
+- [ ] Geminates are at least perceptibly distinct or handled by a documented learner policy.
+- [ ] Athenaze-style full sentence sounds coherent, not like isolated phoneme concatenation.
+- [ ] Xenophon-style sentence remains intelligible and natural across clauses.
+- [ ] User listens to samples and explicitly says the voice quality is acceptable.
+
+The final acceptance test is subjective: **the user must want to listen to it.** The prior eSpeak sample failed this immediately.
+
+---
+
+# Deployment target after voice validation
+
+Preferred MVP deployment:
+
+- Next.js frontend: Vercel or equivalent
+- FastAPI/TTS backend: container host with enough RAM/CPU (or GPU if needed)
+- model cache persisted between starts
+- no login initially
+- no permanent photo storage initially
+- PWA installable on iPhone/Android
+
+If the chosen TTS backend is light enough, consider a single container deployment for simplicity.
+
+---
+
+# Safety / licensing / data notes
+
+- Do not clone Luke Ranieri or another identifiable person’s voice without permission.
+- It is fine to target high-level non-identifying qualities such as scholarly narration, slow pedagogical pacing, clear articulation, and reconstructed Classical Attic pronunciation.
+- Kokoro is the preferable licensing direction for a product if technically successful; verify exact model/code licenses at implementation time.
+- MMS `facebook/mms-tts-grc` is currently treated as a non-commercial evaluation baseline.
+- Ancient Greek source text such as Xenophon is public-domain text, but do not ship copyrighted modern translations or scan entire copyrighted editions into the product.
+- For photo OCR, default to transient processing and avoid storing user book photos unless the product later needs a saved library and the user opts in.
+
+---
+
+# Recommended first session for the next agent
+
+Do not redesign the app first.
+
+Do this:
+
+```text
+1. Read README.md and this file.
+2. Run backend tests.
+3. Install Kokoro + MMS dependencies.
+4. Run the 15-case benchmark.
+5. Fix any Kokoro adapter API mismatch.
+6. Generate WAVs.
+7. Compare Kokoro vs MMS.
+8. Make a provider decision based on naturalness + Classical fidelity.
+9. Only then improve G2P/prosody/UI.
+```
+
+If internet/model downloads are available, the most useful concrete deliverable is a folder containing the 15 Kokoro WAVs, 15 MMS WAVs, the manifest, and a short scorecard of which phonetic contrasts each model passed or failed.
+
+---
+
+# User-facing definition of done for the MVP
+
+A beginner can open the site on an iPhone, photograph a paragraph from Athenaze or Xenophon, correct any OCR errors, press one button, and hear a natural human-like reading in a defensible Classical Attic learner pronunciation that does not sound Modern Greek.

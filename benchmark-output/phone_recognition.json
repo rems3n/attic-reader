@@ -1,0 +1,152 @@
+{
+ "ai-diphthong__kokoro-attic.wav": {
+  "dur_s": 3.9,
+  "sr": 24000,
+  "phones": "h aɪ ɡ u n aɪ k e s e n t e r i oɪ k i aɪ e s iː n"
+ },
+ "ai-diphthong__mms-grc.wav": {
+  "dur_s": 2.77,
+  "sr": 16000,
+  "phones": "e ɣ i n a k e s a n t i k i a i s i"
+ },
+ "aspirates__kokoro-attic.wav": {
+  "dur_s": 2.9,
+  "sr": 24000,
+  "phones": "t e o s p i l o s k a l e b o s"
+ },
+ "aspirates__mms-grc.wav": {
+  "dur_s": 2.24,
+  "sr": 16000,
+  "phones": "θ e o s f i l o s a l e p o s"
+ },
+ "athenaze-style-1__kokoro-attic.wav": {
+  "dur_s": 3.6,
+  "sr": 24000,
+  "phones": "h o d i k aɪ o p o l i s aʊ t u r ɡ o s e s t i n"
+ },
+ "athenaze-style-1__mms-grc.wav": {
+  "dur_s": 2.67,
+  "sr": 16000,
+  "phones": "o v ɨ k e o p o ʎ i s a f t u ɡ o s e s t i ŋ"
+ },
+ "athenaze-style-2__kokoro-attic.wav": {
+  "dur_s": 5.2,
+  "sr": 24000,
+  "phones": "h o d e p i l i p o s e k t u a ɡ r u p r o s t e n oɪ k i a n b a d i z d e"
+ },
+ "athenaze-style-2__mms-grc.wav": {
+  "dur_s": 3.34,
+  "sr": 16000,
+  "phones": "o ð e f i ɣ i p o s e k t u a k o r u p r o s t i n i k e m v a ð i z i"
+ },
+ "au-eu-diphthongs__kokoro-attic.wav": {
+  "dur_s": 2.58,
+  "sr": 24000,
+  "phones": "aʊ t o s e u l e ɡ e"
+ },
+ "au-eu-diphthongs__mms-grc.wav": {
+  "dur_s": 1.71,
+  "sr": 16000,
+  "phones": "a f t o s e f l eː i"
+ },
+ "gamma-nasal__kokoro-attic.wav": {
+  "dur_s": 3.05,
+  "sr": 24000,
+  "phones": "a n ɡ e l o s a n k i r a e l e n k o s"
+ },
+ "gamma-nasal__mms-grc.wav": {
+  "dur_s": 2.35,
+  "sr": 16000,
+  "phones": "a n ɟ i l o s a n ɡ i ɾ a l e f o s"
+ },
+ "geminates__kokoro-attic.wav": {
+  "dur_s": 2.83,
+  "sr": 24000,
+  "phones": "a l l o s h i p o s t a l a t aɪ"
+ },
+ "geminates__mms-grc.wav": {
+  "dur_s": 1.95,
+  "sr": 16000,
+  "phones": "a l u s i p o s a l a t a"
+ },
+ "iota-subscript__kokoro-attic.wav": {
+  "dur_s": 3.15,
+  "sr": 24000,
+  "phones": "t e r i k o r aɪ k aɪ d oː r i p i l oɪ"
+ },
+ "iota-subscript__mms-grc.wav": {
+  "dur_s": 1.89,
+  "sr": 16000,
+  "phones": "h i x oː r a ɡ e t o f i l u"
+ },
+ "long-vowels__kokoro-attic.wav": {
+  "dur_s": 2.88,
+  "sr": 24000,
+  "phones": "h ɛ k oː r a k a l eː ɪ s t iː n"
+ },
+ "long-vowels__mms-grc.wav": {
+  "dur_s": 1.46,
+  "sr": 16000,
+  "phones": "i x o r a k a ʎ i e s t i n"
+ },
+ "oi-diphthong__kokoro-attic.wav": {
+  "dur_s": 3.12,
+  "sr": 24000,
+  "phones": "h oɪ p i l oɪ oɪ k oɪ m e n u s i n"
+ },
+ "oi-diphthong__mms-grc.wav": {
+  "dur_s": 1.7,
+  "sr": 16000,
+  "phones": "i f i ʎ e k i m ɛ n u s i"
+ },
+ "rough-breathing__kokoro-attic.wav": {
+  "dur_s": 3.52,
+  "sr": 24000,
+  "phones": "h o h e l j o s h iː p e r t e s ɡ ɛ s e s t i n"
+ },
+ "rough-breathing__mms-grc.wav": {
+  "dur_s": 2.3,
+  "sr": 16000,
+  "phones": "o i ɲ i u s i p a t i s ɡ i s e s t i ŋ"
+ },
+ "stops__kokoro-attic.wav": {
+  "dur_s": 2.83,
+  "sr": 24000,
+  "phones": "b i o s d i k aɪ o s ɡ e n o s"
+ },
+ "stops__mms-grc.wav": {
+  "dur_s": 2.08,
+  "sr": 16000,
+  "phones": "ð i o s ð i c e o s e n u s"
+ },
+ "upsilon__kokoro-attic.wav": {
+  "dur_s": 3.17,
+  "sr": 24000,
+  "phones": "h o k i r o s i s k y r o s e s t i n"
+ },
+ "upsilon__mms-grc.wav": {
+  "dur_s": 2.19,
+  "sr": 16000,
+  "phones": "x e r o s e s k i r o s e s t i"
+ },
+ "xenophon-anabasis__kokoro-attic.wav": {
+  "dur_s": 4.45,
+  "sr": 24000,
+  "phones": "d a r e u k aɪ p a r i s a t i d o s ɡ i ɡ n o n t aɪ aɪ d e s d i o"
+ },
+ "xenophon-anabasis__mms-grc.wav": {
+  "dur_s": 3.47,
+  "sr": 16000,
+  "phones": "ð a ɾ i w k e p a ɾ i s a t i ð u s ɣ e n o n d e p e ɾ ə s ð i o"
+ },
+ "xenophon-cyrus__kokoro-attic.wav": {
+  "dur_s": 7.35,
+  "sr": 24000,
+  "phones": "e p e d e h o k i r o s e t e l e u t e s e d i s a p e r n e s d i a b a l l i t o n k y r o m p r o s t o n a d e l p o n"
+ },
+ "xenophon-cyrus__mms-grc.wav": {
+  "dur_s": 4.14,
+  "sr": 16000,
+  "phones": "l e p i ð e o l k i ɾ u s e t e l e f t i s d i s a f e ɾ ɲ i s ð e a v a ʎ i t o n k i ɾ o m p ɾ o s t o n a ð e l f o n o"
+ }
+}

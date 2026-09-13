@@ -1,0 +1,123 @@
+from __future__ import annotations
+
+import os
+import shutil
+from dataclasses import asdict, dataclass
+
+from .espeak import EspeakAncientGreekTTS
+from .mms import MMSAncientGreekTTS
+from .kokoro import KokoroAtticTTS
+from .piper import PiperTTS, TTSUnavailable
+
+
+@dataclass(frozen=True)
+class ProviderStatus:
+    id: str
+    name: str
+    quality: str
+    available: bool
+    enabled: bool
+    note: str
+
+
+def _truthy(name: str, default: bool = False) -> bool:
+    value = os.getenv(name)
+    if value is None:
+        return default
+    return value.lower() in {"1", "true", "yes", "on"}
+
+
+def provider_statuses() -> list[dict[str, object]]:
+    kokoro = KokoroAtticTTS()
+    kokoro_ok, kokoro_note = kokoro.is_available()
+
+    mms = MMSAncientGreekTTS()
+    mms_ok, mms_note = mms.is_available()
+
+    piper = PiperTTS()
+    piper_ok = bool(piper.model and os.path.exists(piper.model))
+    piper_note = (
+        "custom raw-phoneme neural path configured"
+        if piper_ok
+        else "Set PIPER_MODEL to a compatible neural voice"
+    )
+
+    espeak_bin = shutil.which(os.getenv("ESPEAK_COMMAND", "espeak").split()[0])
+    espeak_ok = bool(espeak_bin)
+    espeak_enabled = _truthy("ALLOW_ESPEAK_FALLBACK", default=False)
+
+    rows = [
+        ProviderStatus(
+            id="kokoro-attic",
+            name="Kokoro · direct Classical Attic phonemes",
+            quality="neural",
+            available=kokoro_ok,
+            enabled=_truthy("ENABLE_KOKORO", default=True),
+            note=kokoro_note,
+        ),
+        ProviderStatus(
+            id="mms-grc",
+            name="Meta MMS · Ancient Greek neural (Modern-Greek phonology; comparison only)",
+            quality="neural",
+            available=mms_ok,
+            enabled=_truthy("ENABLE_MMS", default=False),
+            note=mms_note,
+        ),
+        ProviderStatus(
+            id="piper",
+            name="Piper · custom Attic phonemes",
+            quality="neural",
+            available=piper_ok,
+            enabled=True,
+            note=piper_note,
+        ),
+        ProviderStatus(
+            id="espeak-grc",
+            name="eSpeak NG · Ancient Greek diagnostic",
+            quality="robotic",
+            available=espeak_ok,
+            enabled=espeak_enabled,
+            note=(
+                "diagnostic fallback enabled"
+                if espeak_enabled
+                else "installed but intentionally disabled for learner playback"
+            ),
+        ),
+    ]
+    return [asdict(row) for row in rows]
+
+
+def synthesize_best(greek_text: str, attic_ipa: str) -> tuple[bytes, str]:
+    """Try natural neural providers first; robotic eSpeak is opt-in only."""
+
+    errors: list[str] = []
+
+    if _truthy("ENABLE_KOKORO", default=True):
+        try:
+            return KokoroAtticTTS().synthesize(attic_ipa), "kokoro-attic"
+        except TTSUnavailable as exc:
+            errors.append(f"Kokoro: {exc}")
+
+    if _truthy("ENABLE_MMS", default=False):
+        try:
+            return MMSAncientGreekTTS().synthesize(greek_text), "mms-grc"
+        except TTSUnavailable as exc:
+            errors.append(f"MMS: {exc}")
+
+    try:
+        return PiperTTS().synthesize(attic_ipa), "piper"
+    except TTSUnavailable as exc:
+        errors.append(f"Piper: {exc}")
+
+    if _truthy("ALLOW_ESPEAK_FALLBACK", default=False):
+        try:
+            return EspeakAncientGreekTTS().synthesize(greek_text), "espeak-grc"
+        except TTSUnavailable as exc:
+            errors.append(f"eSpeak: {exc}")
+
+    raise TTSUnavailable(
+        "No learner-quality neural voice is currently available. "
+        + " | ".join(errors)
+        + " | eSpeak is intentionally disabled because its voice is too robotic; "
+        "set ALLOW_ESPEAK_FALLBACK=true only for diagnostics."
+    )

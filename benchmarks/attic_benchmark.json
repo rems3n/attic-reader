@@ -1,0 +1,17 @@
+[
+  {"id":"aspirates","text":"θεὸς φίλος χαλεπός.","focus":["tʰ","pʰ","kʰ"]},
+  {"id":"stops","text":"βίος δίκαιος γένος.","focus":["b","d","g"]},
+  {"id":"long-vowels","text":"ἡ χώρα καλὴ ἐστίν.","focus":["ɛː","ɔː"]},
+  {"id":"upsilon","text":"ὁ Κῦρος ἰσχυρός ἐστιν.","focus":["y"]},
+  {"id":"rough-breathing","text":"ὁ ἥλιος ὑπὲρ τῆς γῆς ἐστιν.","focus":["h"]},
+  {"id":"ai-diphthong","text":"αἱ γυναῖκες ἐν τῇ οἰκίᾳ εἰσίν.","focus":["ai"]},
+  {"id":"oi-diphthong","text":"οἱ φίλοι οἴκοι μένουσιν.","focus":["oi"]},
+  {"id":"au-eu-diphthongs","text":"αὐτὸς εὖ λέγει.","focus":["au","eu"]},
+  {"id":"gamma-nasal","text":"ἄγγελος ἄγκυρα ἔλεγχος.","focus":["ŋg","ŋk","ŋkʰ"]},
+  {"id":"geminates","text":"ἄλλος ἵππος θάλαττα.","focus":["ll","pp","tt"]},
+  {"id":"iota-subscript","text":"τῇ χώρᾳ καὶ τῷ φίλῳ.","focus":["i̯"]},
+  {"id":"xenophon-cyrus","text":"Ἐπεὶ δὲ ὁ Κῦρος ἐτελεύτησε, Τισσαφέρνης διαβάλλει τὸν Κῦρον πρὸς τὸν ἀδελφόν.","focus":["phrase"]},
+  {"id":"xenophon-anabasis","text":"Δαρείου καὶ Παρυσάτιδος γίγνονται παῖδες δύο.","focus":["phrase"]},
+  {"id":"athenaze-style-1","text":"ὁ Δικαιόπολις αὐτουργός ἐστιν.","focus":["phrase"]},
+  {"id":"athenaze-style-2","text":"ὁ δὲ Φίλιππος ἐκ τοῦ ἀγροῦ πρὸς τὴν οἰκίαν βαδίζει.","focus":["phrase"]}
+]

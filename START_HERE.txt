@@ -1,0 +1,9 @@
+ANCIENT GREEK READER HANDOFF
+
+1. Read CLAUDE.md first.
+2. Then read README.md.
+3. Run backend tests: cd backend && pytest -q
+4. The current core blocker is neural voice validation, not OCR/UI.
+5. Preferred experiment: Kokoro with direct Classical Attic phonemes.
+6. Compare against Meta MMS Ancient Greek using the included 15-case benchmark.
+7. The eSpeak sample under samples/ is a REJECTED robotic baseline, included only for context.
