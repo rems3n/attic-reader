@@ -551,3 +551,31 @@ If internet/model downloads are available, the most useful concrete deliverable 
 # User-facing definition of done for the MVP
 
 A beginner can open the site on an iPhone, photograph a paragraph from Athenaze or Xenophon, correct any OCR errors, press one button, and hear a natural human-like reading in a defensible Classical Attic learner pronunciation that does not sound Modern Greek.
+
+---
+
+## Session log — 2026-09-13 (publish + learner experience)
+
+- Repo published: https://github.com/rems3n/attic-reader (work on branch
+  `claude/attic-reader-handoff-wvfavt`; `main` not pushed by the agent).
+- **Environment limits in that session:** the sandbox egress policy blocked
+  `download.pytorch.org` and `huggingface.co`, so Kokoro could not run there.
+  Synthesis is covered by tests with a fake pipeline (`tests/conftest.py`);
+  real audio must be checked on the deployed backend or a local machine.
+- New API: `POST /api/segment`; `POST /api/synthesize` takes `{text, speed?}`
+  (speed = learner multiplier 0.5–1.5 on `KOKORO_SPEED`);
+  `POST /api/synthesize/batch` returns one base64 WAV per sentence with span,
+  IPA and duration. `split_phonemes()` is now one chunk per sentence.
+- Frontend: sentence list player (tap to play, ▶/■, play all with highlight,
+  0.6/0.75/1/1.25× with neural re-render per speed, repeat toggle), single
+  `<audio playsinline>`, fixed bottom bar with safe-area padding. PWA:
+  icons, standalone metadata, theme colour. Memory only, no storage.
+- OCR: `app/ocr_preprocess.py` (OpenCV shading removal, CLAHE, median
+  denoise, projection-profile deskew) behind `/api/ocr`;
+  `tests/ocr_regression/` harness with CER threshold per case. Only the
+  synthetic sample is in it — **real Athenaze / LOGOS / Loeb photos still
+  needed** before judging Tesseract vs Kraken.
+- Deploy: Dockerfile installs CPU torch and drops the MMS extra; DEPLOY.md
+  is a dashboard walkthrough (no Railway/Vercel CLI auth was available).
+- Not started: Step 6 G2P audit (syllabification, ει/ου policy) — gated on
+  finishing the OCR photo set.

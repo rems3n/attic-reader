@@ -63,14 +63,16 @@ Next.js PWA
 
 Requirements:
 - Python 3.11+
-- Tesseract 5 with `grc.traineddata`
+- Tesseract 5 with `grc.traineddata` (Debian/Ubuntu: `apt install tesseract-ocr tesseract-ocr-grc`)
+- espeak-ng (Kokoro's non-English pipeline imports it even though we inject phonemes)
 - Internet access on the first neural-model run unless weights are already cached
 
 ```bash
 cd backend
 python -m venv .venv
 source .venv/bin/activate
-pip install -e '.[kokoro,mms,dev]'
+pip install torch --index-url https://download.pytorch.org/whl/cpu   # CPU wheel; the default pulls ~3 GB of CUDA
+pip install -e '.[kokoro,dev]'
 uvicorn app.main:app --reload --port 8000
 ```
 
