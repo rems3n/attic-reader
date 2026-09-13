@@ -575,7 +575,11 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   `tests/ocr_regression/` harness with CER threshold per case. Only the
   synthetic sample is in it — **real Athenaze / LOGOS / Loeb photos still
   needed** before judging Tesseract vs Kraken.
-- Deploy: Dockerfile installs CPU torch and drops the MMS extra; DEPLOY.md
-  is a dashboard walkthrough (no Railway/Vercel CLI auth was available).
+- Deploy: Dockerfile installs CPU torch and drops the MMS extra. **Deployed
+  on Railway** (project `attic-reader`, services `backend` + `web`, both from
+  the handoff branch): https://web-production-a1ef.up.railway.app and
+  https://backend-production-d55b3.up.railway.app. Vercel not used yet.
+  The sandbox could not reach `*.up.railway.app`, so the end-to-end audio
+  smoke test on the deployed URL is the user's to confirm.
 - Not started: Step 6 G2P audit (syllabification, ει/ου policy) — gated on
   finishing the OCR photo set.

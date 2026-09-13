@@ -1,7 +1,23 @@
 # Deploying Attic Reader
 
-Backend → Railway (Docker). Frontend → Vercel. No auth, no storage.
+Backend → Railway (Docker). Frontend → Railway now, Vercel optional. No auth, no storage.
 Repo: https://github.com/rems3n/attic-reader
+
+## Current deployment (2026-09-13)
+
+Railway project `attic-reader` (workspace "remsen's Projects"), environment `production`,
+both services deploy from branch `claude/attic-reader-handoff-wvfavt` on every push.
+
+| Service | Root dir | Public URL | Notes |
+|---|---|---|---|
+| `backend` | `backend` | https://backend-production-d55b3.up.railway.app | Dockerfile, volume `hf-cache` at `/data`, `PORT=8000`, healthcheck `/health` |
+| `web` | `frontend` | https://web-production-a1ef.up.railway.app | Dockerfile, `PORT=3000`, `NEXT_PUBLIC_API_BASE_URL` → backend URL |
+
+Backend `CORS_ORIGINS=https://web-production-a1ef.up.railway.app,http://localhost:3000`.
+Switching the branch to `main` later: Railway service → Settings → Source → Branch.
+
+To move the frontend to Vercel instead, follow the Vercel section below, then add the
+Vercel domain to `CORS_ORIGINS` and delete the `web` service on Railway.
 
 ## Backend (Railway) — dashboard walkthrough
 
@@ -38,7 +54,7 @@ Repo: https://github.com/rems3n/attic-reader
    curl https://<railway-domain>/api/tts/status    # kokoro-attic available:true enabled:true
    ```
 
-## Frontend (Vercel)
+## Frontend (Vercel, optional alternative to the Railway `web` service)
 
 1. https://vercel.com/new → **Import** `rems3n/attic-reader`.
 2. **Root Directory**: `frontend` (Edit → pick the folder). Framework preset
