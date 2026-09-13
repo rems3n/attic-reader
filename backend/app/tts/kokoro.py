@@ -15,20 +15,29 @@ from typing import Any
 
 from .piper import TTSUnavailable
 
+SAMPLE_RATE = 24000
+
 # Kokoro's published vocabulary includes the IPA symbols used by our Attic MVP,
 # with two exceptions:
 #   * the non-syllabic tie mark U+032F is not a token.  Removing it does not
 #     merge the vowels; it simply represents ai̯/oi̯/etc. as ai/oi/etc.
 #   * ASCII "g" (U+0067) is NOT in the vocab; Kokoro uses IPA "ɡ" (U+0261).
 #     Without this mapping every γ was silently dropped by the model.
-KOKORO_REMOVE = {"\u032f"}
-KOKORO_MAP = {"g": "\u0261"}
+KOKORO_REMOVE = {"̯"}
+KOKORO_MAP = {"g": "ɡ"}
 
 # Verified against hexgrad/Kokoro-82M config.json (114 symbols). Kept here so a
 # vocab regression is loud (warning + audit field) rather than silent deletion.
 KOKORO_VOCAB = set(
     ";:,.!?—…\"()“” ̃ʣʥʦʨᵝꭧAIOQSTWYᵊabcdefhijklmnopqrstuvwxyzɑɐɒæβɔɕçɖðʤəɚɛɜɟɡɥɨɪʝɯɰŋɳɲɴøɸθœɹɾɻʁɽʂʃʈʧʊʋʌɣɤχʎʒʔˈˌːʰʲ↓→↗↘ᵻ"
 )
+
+# Sentence-final punctuation as it appears in the canonical IPA string.  The G2P
+# maps the Greek question mark to "?" and ano teleia to ",", so only these three
+# end a sentence here.  Clause punctuation is used only to break up a sentence
+# that is too long for the model on its own.
+_SENTENCE_END_RE = re.compile(r"(?<=[.!?])\s+")
+_CLAUSE_END_RE = re.compile(r"(?<=[,;:—])\s+")
 
 
 def unknown_kokoro_symbols(phonemes: str) -> list[str]:
@@ -44,43 +53,87 @@ def prepare_kokoro_phonemes(ipa: str) -> str:
     return out
 
 
-def split_phonemes(ipa: str, max_chars: int = 450) -> list[str]:
-    """Split phonemes below Kokoro's ~510-token limit on punctuation first."""
-    ipa = prepare_kokoro_phonemes(ipa)
-    if not ipa:
-        return []
-    if len(ipa) <= max_chars:
-        return [ipa]
-
-    pieces = re.split(r"(?<=[.!?;:,])\s+", ipa)
+def _pack_words(words: list[str], max_chars: int) -> list[str]:
     chunks: list[str] = []
     current = ""
-    for piece in pieces:
-        piece = piece.strip()
-        if not piece:
-            continue
-        candidate = f"{current} {piece}".strip() if current else piece
-        if len(candidate) <= max_chars:
-            current = candidate
-            continue
-        if current:
+    for word in words:
+        candidate = f"{current} {word}".strip() if current else word
+        if len(candidate) > max_chars and current:
             chunks.append(current)
-        if len(piece) <= max_chars:
-            current = piece
-            continue
-        # Last-resort word boundary split.
-        words = piece.split()
-        current = ""
-        for word in words:
-            candidate = f"{current} {word}".strip() if current else word
-            if len(candidate) > max_chars and current:
-                chunks.append(current)
-                current = word
-            else:
-                current = candidate
+            current = word
+        else:
+            current = candidate
     if current:
         chunks.append(current)
     return chunks
+
+
+def _split_long_sentence(sentence: str, max_chars: int) -> list[str]:
+    """Break one over-long sentence at clause punctuation, then at words."""
+    clauses = [c.strip() for c in _CLAUSE_END_RE.split(sentence) if c.strip()]
+    packed = _pack_words(clauses, max_chars)
+    out: list[str] = []
+    for piece in packed:
+        if len(piece) <= max_chars:
+            out.append(piece)
+        else:
+            out.extend(_pack_words(piece.split(), max_chars))
+    return out
+
+
+def split_phonemes(ipa: str, max_chars: int = 450) -> list[str]:
+    """Chunk a phoneme string one sentence per chunk.
+
+    Each sentence becomes its own chunk so the renderer can put a natural pause
+    between sentences.  A sentence longer than Kokoro's ~510-token window is
+    split at clause punctuation and, as a last resort, at word boundaries.
+    """
+    ipa = prepare_kokoro_phonemes(ipa)
+    if not ipa:
+        return []
+    chunks: list[str] = []
+    for sentence in _SENTENCE_END_RE.split(ipa):
+        sentence = sentence.strip()
+        if not sentence:
+            continue
+        if len(sentence) <= max_chars:
+            chunks.append(sentence)
+        else:
+            chunks.extend(_split_long_sentence(sentence, max_chars))
+    return chunks
+
+
+def has_speech(phonemes: str) -> bool:
+    """True when the chunk contains something pronounceable (not only punctuation)."""
+    return any(ch.isalpha() for ch in phonemes)
+
+
+def wav_bytes(samples: Any, sample_rate: int = SAMPLE_RATE) -> bytes:
+    try:
+        import numpy as np
+    except ImportError as exc:
+        raise TTSUnavailable("Kokoro requires numpy.") from exc
+    samples = np.asarray(samples, dtype=np.float32).reshape(-1)
+    peak = float(np.max(np.abs(samples))) if samples.size else 0.0
+    if peak > 1.0:
+        samples = samples / peak
+    pcm = (np.clip(samples, -1.0, 1.0) * 32767.0).astype("<i2")
+    output = io.BytesIO()
+    with wave.open(output, "wb") as wav:
+        wav.setnchannels(1)
+        wav.setsampwidth(2)
+        wav.setframerate(sample_rate)
+        wav.writeframes(pcm.tobytes())
+    return output.getvalue()
+
+
+def _to_float32(audio: Any) -> Any:
+    """Accept a torch tensor or anything numpy can consume."""
+    import numpy as np
+
+    if hasattr(audio, "detach"):
+        audio = audio.detach().cpu().numpy()
+    return np.asarray(audio, dtype=np.float32).reshape(-1)
 
 
 class KokoroAtticTTS:
@@ -99,7 +152,11 @@ class KokoroAtticTTS:
         self.voice = os.getenv("KOKORO_VOICE", "im_nicola")
         self.lang_code = os.getenv("KOKORO_LANG_CODE", "i")
         self.device = os.getenv("KOKORO_DEVICE") or None
+        # Base narration pace.  The API's `speed` is a learner multiplier on top
+        # of this (1.0 = default pace), so the tuned default survives the UI.
         self.speed = float(os.getenv("KOKORO_SPEED", "0.92"))
+        self.max_chars = int(os.getenv("KOKORO_CHUNK_CHARS", "450"))
+        self.pause_ms = int(os.getenv("KOKORO_PAUSE_MS", "140"))
 
     def is_available(self) -> tuple[bool, str]:
         try:
@@ -130,56 +187,66 @@ class KokoroAtticTTS:
         self.__class__._pipeline_key = key
         return pipeline
 
-    @staticmethod
-    def _wav_bytes(samples: Any, sample_rate: int = 24000) -> bytes:
-        try:
-            import numpy as np
-        except ImportError as exc:
-            raise TTSUnavailable("Kokoro requires numpy.") from exc
-        samples = np.asarray(samples, dtype=np.float32).reshape(-1)
-        peak = float(np.max(np.abs(samples))) if samples.size else 0.0
-        if peak > 1.0:
-            samples = samples / peak
-        pcm = (np.clip(samples, -1.0, 1.0) * 32767.0).astype("<i2")
-        output = io.BytesIO()
-        with wave.open(output, "wb") as wav:
-            wav.setnchannels(1)
-            wav.setsampwidth(2)
-            wav.setframerate(sample_rate)
-            wav.writeframes(pcm.tobytes())
-        return output.getvalue()
+    def effective_speed(self, speed: float | None) -> float:
+        return self.speed * (1.0 if speed is None else float(speed))
 
-    def synthesize(self, ipa: str) -> bytes:
-        chunks = split_phonemes(
-            ipa, max_chars=int(os.getenv("KOKORO_CHUNK_CHARS", "450"))
-        )
+    @staticmethod
+    def _wav_bytes(samples: Any, sample_rate: int = SAMPLE_RATE) -> bytes:
+        return wav_bytes(samples, sample_rate)
+
+    def _render_chunks(self, pipeline: Any, chunks: list[str], kokoro_speed: float) -> Any:
+        """Render chunks through Kokoro and join them with a short pause."""
+        import numpy as np
+
+        pause = np.zeros(int(SAMPLE_RATE * self.pause_ms / 1000), dtype=np.float32)
+        rendered: list[Any] = []
+        for index, phonemes in enumerate(chunks):
+            # generate_from_tokens accepts a raw phoneme string and bypasses
+            # the language-specific G2P stage entirely.
+            results = list(
+                pipeline.generate_from_tokens(
+                    phonemes,
+                    voice=self.voice,
+                    speed=kokoro_speed,
+                )
+            )
+            if not results or results[0].audio is None:
+                raise TTSUnavailable("Kokoro returned no audio.")
+            rendered.append(_to_float32(results[0].audio))
+            if index < len(chunks) - 1 and pause.size:
+                rendered.append(pause)
+        return np.concatenate(rendered) if len(rendered) > 1 else rendered[0]
+
+    def synthesize(self, ipa: str, speed: float | None = None) -> bytes:
+        """Render one IPA string (any number of sentences) into a single WAV."""
+        chunks = [c for c in split_phonemes(ipa, max_chars=self.max_chars) if has_speech(c)]
         if not chunks:
             raise TTSUnavailable("No phonemes were available for Kokoro synthesis.")
 
         pipeline = self._load()
         try:
-            import numpy as np
-            rendered: list[Any] = []
-            pause_ms = int(os.getenv("KOKORO_PAUSE_MS", "140"))
-            pause = np.zeros(int(24000 * pause_ms / 1000), dtype=np.float32)
-            for index, phonemes in enumerate(chunks):
-                # generate_from_tokens accepts a raw phoneme string and bypasses
-                # the language-specific G2P stage entirely.
-                results = list(
-                    pipeline.generate_from_tokens(
-                        phonemes,
-                        voice=self.voice,
-                        speed=self.speed,
-                    )
-                )
-                if not results or results[0].audio is None:
-                    raise TTSUnavailable("Kokoro returned no audio.")
-                rendered.append(results[0].audio.detach().cpu().numpy().astype(np.float32))
-                if index < len(chunks) - 1 and pause.size:
-                    rendered.append(pause)
-            samples = np.concatenate(rendered) if len(rendered) > 1 else rendered[0]
-            return self._wav_bytes(samples, 24000)
+            samples = self._render_chunks(pipeline, chunks, self.effective_speed(speed))
+            return wav_bytes(samples, SAMPLE_RATE)
         except TTSUnavailable:
             raise
         except Exception as exc:
             raise TTSUnavailable(f"Kokoro synthesis failed: {exc}") from exc
+
+    def synthesize_many(self, ipas: list[str], speed: float | None = None) -> list[bytes | None]:
+        """Render one WAV per IPA string; ``None`` where a string has no speech."""
+        pipeline = self._load()
+        kokoro_speed = self.effective_speed(speed)
+        clips: list[bytes | None] = []
+        try:
+            for ipa in ipas:
+                chunks = [c for c in split_phonemes(ipa, max_chars=self.max_chars) if has_speech(c)]
+                if not chunks:
+                    clips.append(None)
+                    continue
+                samples = self._render_chunks(pipeline, chunks, kokoro_speed)
+                clips.append(wav_bytes(samples, SAMPLE_RATE))
+        except TTSUnavailable:
+            raise
+        except Exception as exc:
+            raise TTSUnavailable(f"Kokoro synthesis failed: {exc}") from exc
+        return clips

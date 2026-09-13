@@ -87,14 +87,28 @@ def provider_statuses() -> list[dict[str, object]]:
     return [asdict(row) for row in rows]
 
 
-def synthesize_best(greek_text: str, attic_ipa: str) -> tuple[bytes, str]:
-    """Try natural neural providers first; robotic eSpeak is opt-in only."""
+_NO_VOICE_MESSAGE = (
+    " | eSpeak is intentionally disabled because its voice is too robotic; "
+    "set ALLOW_ESPEAK_FALLBACK=true only for diagnostics."
+)
+
+
+def _has_greek(text: str) -> bool:
+    return any("Ͱ" <= ch <= "Ͽ" or "ἀ" <= ch <= "῿" for ch in text)
+
+
+def synthesize_best(greek_text: str, attic_ipa: str, speed: float | None = None) -> tuple[bytes, str]:
+    """Try natural neural providers first; robotic eSpeak is opt-in only.
+
+    ``speed`` is a learner multiplier (1.0 = the provider's default pace). Only
+    Kokoro honours it natively today; the other providers ignore it.
+    """
 
     errors: list[str] = []
 
     if _truthy("ENABLE_KOKORO", default=True):
         try:
-            return KokoroAtticTTS().synthesize(attic_ipa), "kokoro-attic"
+            return KokoroAtticTTS().synthesize(attic_ipa, speed=speed), "kokoro-attic"
         except TTSUnavailable as exc:
             errors.append(f"Kokoro: {exc}")
 
@@ -118,6 +132,61 @@ def synthesize_best(greek_text: str, attic_ipa: str) -> tuple[bytes, str]:
     raise TTSUnavailable(
         "No learner-quality neural voice is currently available. "
         + " | ".join(errors)
-        + " | eSpeak is intentionally disabled because its voice is too robotic; "
-        "set ALLOW_ESPEAK_FALLBACK=true only for diagnostics."
+        + _NO_VOICE_MESSAGE
+    )
+
+
+def synthesize_sentences(
+    sentences: list[str], ipas: list[str], speed: float | None = None
+) -> tuple[list[bytes | None], str]:
+    """Render one clip per sentence with a single provider.
+
+    Returns ``(clips, provider_id)``; a clip is ``None`` for a sentence with
+    nothing pronounceable (punctuation only, Latin-only, …). The whole batch
+    comes from one provider so playback is consistent across sentences.
+    """
+
+    if len(sentences) != len(ipas):
+        raise ValueError("sentences and ipas must align")
+
+    errors: list[str] = []
+
+    if _truthy("ENABLE_KOKORO", default=True):
+        try:
+            return KokoroAtticTTS().synthesize_many(ipas, speed=speed), "kokoro-attic"
+        except TTSUnavailable as exc:
+            errors.append(f"Kokoro: {exc}")
+
+    def _per_sentence(render, inputs: list[str]) -> list[bytes | None]:
+        # Silence is decided on the Greek sentence (the IPA of a Latin-only or
+        # punctuation-only sentence contains no Greek letters either way).
+        return [
+            render(item) if _has_greek(sentence) else None
+            for sentence, item in zip(sentences, inputs)
+        ]
+
+    if _truthy("ENABLE_MMS", default=False):
+        try:
+            mms = MMSAncientGreekTTS()
+            return _per_sentence(mms.synthesize, sentences), "mms-grc"
+        except TTSUnavailable as exc:
+            errors.append(f"MMS: {exc}")
+
+    try:
+        piper = PiperTTS()
+        return _per_sentence(piper.synthesize, ipas), "piper"
+    except TTSUnavailable as exc:
+        errors.append(f"Piper: {exc}")
+
+    if _truthy("ALLOW_ESPEAK_FALLBACK", default=False):
+        try:
+            espeak = EspeakAncientGreekTTS()
+            return _per_sentence(espeak.synthesize, sentences), "espeak-grc"
+        except TTSUnavailable as exc:
+            errors.append(f"eSpeak: {exc}")
+
+    raise TTSUnavailable(
+        "No learner-quality neural voice is currently available. "
+        + " | ".join(errors)
+        + _NO_VOICE_MESSAGE
     )

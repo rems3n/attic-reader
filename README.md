@@ -41,9 +41,12 @@ Next.js PWA
    |
    +--> POST /api/phonemize --> Classical Attic G2P
    |
+   +--> POST /api/segment ----> sentence spans {index, text, start, end}
+   |
    +--> GET  /api/tts/status -> neural-provider readiness
    |
-   +--> POST /api/synthesize
+   +--> POST /api/synthesize        {text, speed?} -> one WAV
+   +--> POST /api/synthesize/batch  {text, speed?} -> one base64 WAV per sentence
              |
              +--> Kokoro (Attic phonemes -> neural WAV)
              |

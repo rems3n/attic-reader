@@ -1,7 +1,9 @@
 from __future__ import annotations
 
-from io import BytesIO
+import base64
+import io
 import os
+import wave
 
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
@@ -9,11 +11,18 @@ from fastapi.responses import StreamingResponse
 
 from .greek import attic_ipa, normalize_polytonic
 from .greek.segment import segment_sentences
-from .models import PhonemizeResponse, SegmentResponse, TextRequest
+from .models import (
+    BatchSynthesizeResponse,
+    PhonemizeResponse,
+    SegmentResponse,
+    SentenceClip,
+    SynthesizeRequest,
+    TextRequest,
+)
 from .ocr import OCRUnavailable, recognize_ancient_greek
-from .tts import TTSUnavailable, provider_statuses, synthesize_best
+from .tts import TTSUnavailable, provider_statuses, synthesize_best, synthesize_sentences
 
-app = FastAPI(title="Attic Reader API", version="0.1.0")
+app = FastAPI(title="Attic Reader API", version="0.2.0")
 
 def _cors_origins() -> list[str]:
     raw = os.getenv(
@@ -30,6 +39,16 @@ app.add_middleware(
     allow_headers=["*"],
     expose_headers=["X-TTS-Provider"],
 )
+
+
+def _wav_duration_seconds(data: bytes) -> float | None:
+    try:
+        with wave.open(io.BytesIO(data), "rb") as wav:
+            frames = wav.getnframes()
+            rate = wav.getframerate()
+            return round(frames / rate, 3) if rate else None
+    except (wave.Error, EOFError):
+        return None
 
 
 @app.get("/health")
@@ -76,20 +95,57 @@ def tts_status() -> dict[str, object]:
 
 
 @app.post("/api/synthesize")
-def synthesize(request: TextRequest) -> StreamingResponse:
+def synthesize(request: SynthesizeRequest) -> StreamingResponse:
+    """Whole-text synthesis as one WAV (sentence-chunked internally)."""
     normalized = normalize_polytonic(request.text)
     ipa = attic_ipa(normalized)
 
     try:
-        audio, provider = synthesize_best(normalized, ipa)
+        audio, provider = synthesize_best(normalized, ipa, speed=request.speed)
     except TTSUnavailable as exc:
         raise HTTPException(status_code=503, detail=str(exc)) from exc
 
     return StreamingResponse(
-        BytesIO(audio),
+        io.BytesIO(audio),
         media_type="audio/wav",
         headers={
             "Content-Disposition": 'inline; filename="ancient-greek.wav"',
             "X-TTS-Provider": provider,
         },
+    )
+
+
+@app.post("/api/synthesize/batch", response_model=BatchSynthesizeResponse)
+def synthesize_batch(request: SynthesizeRequest) -> BatchSynthesizeResponse:
+    """One clip per sentence. Spans index into ``normalized_text``."""
+    normalized = normalize_polytonic(request.text)
+    sentences = segment_sentences(normalized)
+    if not sentences:
+        raise HTTPException(status_code=422, detail="No sentences found in the text.")
+
+    ipas = [attic_ipa(s.text) for s in sentences]
+    try:
+        clips, provider = synthesize_sentences([s.text for s in sentences], ipas, speed=request.speed)
+    except TTSUnavailable as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+
+    rows: list[SentenceClip] = []
+    for sentence, ipa, clip in zip(sentences, ipas, clips):
+        rows.append(
+            SentenceClip(
+                index=sentence.index,
+                text=sentence.text,
+                start=sentence.start,
+                end=sentence.end,
+                ipa=ipa,
+                audio_base64=base64.b64encode(clip).decode("ascii") if clip else None,
+                duration_seconds=_wav_duration_seconds(clip) if clip else None,
+            )
+        )
+
+    return BatchSynthesizeResponse(
+        provider=provider,
+        normalized_text=normalized,
+        speed=request.speed,
+        sentences=rows,
     )
