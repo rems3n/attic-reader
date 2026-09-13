@@ -127,3 +127,92 @@ audio { width: 100%; display: block; }
 @media (max-width: 560px) {
   .voiceStrip { align-items: flex-start; flex-direction: column; }
 }
+
+/* ---------- Sentence reader ---------- */
+.shell.hasPlayer { padding-bottom: calc(150px + env(safe-area-inset-bottom, 0px)); }
+
+.sentences { list-style: none; margin: 16px 0 0; padding: 0; display: grid; gap: 6px; }
+.sentence {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  align-items: stretch;
+  border: 1px solid transparent;
+  border-radius: 14px;
+  background: transparent;
+  transition: background 120ms ease, border-color 120ms ease;
+}
+.sentence.active { background: var(--accent-2); border-color: color-mix(in srgb, var(--accent) 35%, transparent); }
+.sentence.silent { opacity: 0.5; }
+.sentenceButton {
+  min-height: 48px;
+  border-radius: 14px 0 0 14px;
+  background: transparent;
+  color: var(--accent);
+  font-size: 16px;
+  padding: 0;
+}
+.sentence.active .sentenceButton { color: var(--ink); }
+.sentenceText {
+  min-height: 48px;
+  justify-content: flex-start;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 10px 14px 10px 4px;
+  background: transparent;
+  color: var(--ink);
+  border-radius: 0 14px 14px 0;
+  font-family: "Times New Roman", "Noto Serif", serif;
+  font-size: clamp(21px, 4.8vw, 26px);
+  font-weight: 400;
+  line-height: 1.45;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.sentenceText:disabled, .sentenceButton:disabled { cursor: default; opacity: 1; }
+.sentenceMeta { font-family: ui-sans-serif, -apple-system, sans-serif; font-size: 12px; color: var(--muted); }
+
+.playerBar {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  z-index: 20;
+  padding: 10px 12px calc(10px + env(safe-area-inset-bottom, 0px));
+  background: rgba(255, 253, 248, 0.94);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-top: 1px solid var(--line);
+  box-shadow: 0 -10px 30px rgba(23, 32, 51, 0.08);
+}
+.playerRow { width: min(760px, 100%); margin: 0 auto; display: flex; gap: 8px; align-items: center; }
+.playerRow + .playerRow { margin-top: 8px; }
+.barButton {
+  flex: 0 0 auto;
+  min-width: 52px;
+  min-height: 52px;
+  background: #fff;
+  border-color: var(--line);
+  color: var(--ink);
+  font-size: 20px;
+  padding: 0 14px;
+}
+.barButton.playAll { flex: 1 1 auto; background: var(--ink); color: #fff; font-size: 17px; }
+.barButton.repeat.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+.speeds { flex-wrap: nowrap; }
+.speedButton {
+  flex: 1 1 0;
+  min-height: 40px;
+  background: transparent;
+  border-color: var(--line);
+  color: var(--ink);
+  font-size: 14px;
+  padding: 0 6px;
+}
+.speedButton.on { background: var(--accent-2); border-color: var(--accent); color: var(--accent); }
+.playerStatus { flex: 0 0 auto; margin-left: auto; color: var(--muted); font-size: 12px; white-space: nowrap; }
+
+@media (max-width: 560px) {
+  .sentenceText { padding-right: 10px; }
+  .playerStatus { display: none; }
+}
