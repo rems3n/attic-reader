@@ -47,8 +47,11 @@ Vercel domain to `CORS_ORIGINS` and delete the `web` service on Railway.
    ```
    (`CORS_ORIGINS` gets the Vercel domain added in step 7.)
 5. Deploy. The Dockerfile installs the **CPU** torch wheel (image ≈ 1.5 GB;
-   the default wheel would be 4+ GB). First synthesis downloads Kokoro to
-   the volume (30–60 s), later ones take a few seconds per paragraph.
+   the default wheel would be 4+ GB). On start the backend warms Kokoro in
+   the background (downloads ~330 MB to the volume the first time); the
+   status strip in the app shows `model warming` until it is `model ready`.
+   Audio streams one sentence at a time, so the first sentence plays within
+   a few seconds even for a long paragraph.
 6. Verify:
    ```bash
    curl https://<railway-domain>/health            # {"status":"ok"}

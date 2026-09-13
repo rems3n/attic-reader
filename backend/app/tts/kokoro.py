@@ -8,14 +8,18 @@ need: the Ancient Greek pronunciation remains controlled by app.greek.g2p.
 """
 
 import io
+import logging
 import os
 import re
+import threading
+import time
 import wave
-from typing import Any
+from typing import Any, Iterator
 
 from .piper import TTSUnavailable
 
 SAMPLE_RATE = 24000
+log = logging.getLogger("attic.tts")
 
 # Kokoro's published vocabulary includes the IPA symbols used by our Attic MVP,
 # with two exceptions:
@@ -142,6 +146,7 @@ class KokoroAtticTTS:
 
     _pipeline: Any | None = None
     _pipeline_key: str | None = None
+    _load_lock = threading.Lock()
 
     def __init__(self) -> None:
         self.repo_id = os.getenv("KOKORO_REPO_ID", "hexgrad/Kokoro-82M")
@@ -167,25 +172,33 @@ class KokoroAtticTTS:
 
     def _load(self) -> Any:
         key = f"{self.repo_id}|{self.lang_code}|{self.device}"
-        if self.__class__._pipeline is not None and self.__class__._pipeline_key == key:
-            return self.__class__._pipeline
-        try:
-            from kokoro import KPipeline
-        except ImportError as exc:
-            raise TTSUnavailable(
-                "Kokoro is not installed. Run: pip install 'kokoro>=0.9.4' soundfile"
-            ) from exc
-        try:
-            pipeline = KPipeline(
-                lang_code=self.lang_code,
-                repo_id=self.repo_id,
-                device=self.device,
-            )
-        except Exception as exc:
-            raise TTSUnavailable(f"Could not load Kokoro neural model: {exc}") from exc
-        self.__class__._pipeline = pipeline
-        self.__class__._pipeline_key = key
-        return pipeline
+        cls = self.__class__
+        if cls._pipeline is not None and cls._pipeline_key == key:
+            return cls._pipeline
+        # One loader at a time: the startup warm-up thread and a first request
+        # must not both construct (and download) the model.
+        with cls._load_lock:
+            if cls._pipeline is not None and cls._pipeline_key == key:
+                return cls._pipeline
+            try:
+                from kokoro import KPipeline
+            except ImportError as exc:
+                raise TTSUnavailable(
+                    "Kokoro is not installed. Run: pip install 'kokoro>=0.9.4' soundfile"
+                ) from exc
+            started = time.perf_counter()
+            try:
+                pipeline = KPipeline(
+                    lang_code=self.lang_code,
+                    repo_id=self.repo_id,
+                    device=self.device,
+                )
+            except Exception as exc:
+                raise TTSUnavailable(f"Could not load Kokoro neural model: {exc}") from exc
+            log.warning("Kokoro pipeline loaded in %.1fs (%s)", time.perf_counter() - started, key)
+            cls._pipeline = pipeline
+            cls._pipeline_key = key
+            return pipeline
 
     def effective_speed(self, speed: float | None) -> float:
         return self.speed * (1.0 if speed is None else float(speed))
@@ -232,21 +245,65 @@ class KokoroAtticTTS:
         except Exception as exc:
             raise TTSUnavailable(f"Kokoro synthesis failed: {exc}") from exc
 
-    def synthesize_many(self, ipas: list[str], speed: float | None = None) -> list[bytes | None]:
-        """Render one WAV per IPA string; ``None`` where a string has no speech."""
+    def iter_synthesize(self, ipas: list[str], speed: float | None = None) -> Iterator[bytes | None]:
+        """Yield one WAV per IPA string as soon as it is rendered (``None`` = no speech).
+
+        Streaming matters on a CPU host: a paragraph takes tens of seconds in
+        total, and mobile browsers abort requests that stay silent for ~60 s.
+        """
         pipeline = self._load()
         kokoro_speed = self.effective_speed(speed)
-        clips: list[bytes | None] = []
         try:
-            for ipa in ipas:
+            for index, ipa in enumerate(ipas):
                 chunks = [c for c in split_phonemes(ipa, max_chars=self.max_chars) if has_speech(c)]
                 if not chunks:
-                    clips.append(None)
+                    yield None
                     continue
+                started = time.perf_counter()
                 samples = self._render_chunks(pipeline, chunks, kokoro_speed)
-                clips.append(wav_bytes(samples, SAMPLE_RATE))
+                elapsed = time.perf_counter() - started
+                audio_seconds = len(samples) / SAMPLE_RATE
+                log.info(
+                    "kokoro sentence %d: %.1fs audio in %.2fs (rtf %.2f, %d chunk%s)",
+                    index, audio_seconds, elapsed, elapsed / max(audio_seconds, 1e-6),
+                    len(chunks), "" if len(chunks) == 1 else "s",
+                )
+                yield wav_bytes(samples, SAMPLE_RATE)
         except TTSUnavailable:
             raise
         except Exception as exc:
             raise TTSUnavailable(f"Kokoro synthesis failed: {exc}") from exc
-        return clips
+
+    def synthesize_many(self, ipas: list[str], speed: float | None = None) -> list[bytes | None]:
+        """Render one WAV per IPA string; ``None`` where a string has no speech."""
+        return list(self.iter_synthesize(ipas, speed=speed))
+
+    # ---- warm-up -------------------------------------------------------
+    _warm_lock = threading.Lock()
+    _warm_state: str = "cold"  # cold | warming | ready | failed:<reason>
+
+    @classmethod
+    def warm_state(cls) -> str:
+        return cls._warm_state
+
+    def warm_up(self) -> None:
+        """Download/load the model and run one tiny synthesis (blocking)."""
+        cls = self.__class__
+        with cls._warm_lock:
+            if cls._warm_state in {"warming", "ready"}:
+                return
+            cls._warm_state = "warming"
+        started = time.perf_counter()
+        try:
+            pipeline = self._load()
+            self._render_chunks(pipeline, ["ˈɛːlios."], self.speed)
+            cls._warm_state = "ready"
+            log.warning("Kokoro warm-up done in %.1fs (voice=%s)", time.perf_counter() - started, self.voice)
+        except Exception as exc:  # noqa: BLE001 - report, never crash startup
+            cls._warm_state = f"failed: {exc}"
+            log.error("Kokoro warm-up failed after %.1fs: %s", time.perf_counter() - started, exc)
+
+    def warm_up_in_background(self) -> threading.Thread:
+        thread = threading.Thread(target=self.warm_up, name="kokoro-warmup", daemon=True)
+        thread.start()
+        return thread

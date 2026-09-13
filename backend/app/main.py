@@ -2,9 +2,12 @@ from __future__ import annotations
 
 import base64
 import io
+import json
 import logging
 import os
+import time
 import wave
+from typing import Iterator
 
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
@@ -22,15 +25,31 @@ from .models import (
 )
 from .ocr import OCRUnavailable, recognize_ancient_greek_with_report
 from .ocr_preprocess import opencv_available
-from .tts import TTSUnavailable, provider_statuses, synthesize_best, synthesize_sentences
+from .tts import (
+    TTSUnavailable,
+    provider_statuses,
+    synthesize_best,
+    synthesize_sentences,
+    synthesize_sentences_stream,
+)
+from .tts.kokoro import KokoroAtticTTS
 
 app = FastAPI(title="Attic Reader API", version="0.2.0")
 log = logging.getLogger("attic")
 
 
+def _truthy(name: str, default: bool) -> bool:
+    value = os.getenv(name)
+    return default if value is None else value.lower() in {"1", "true", "yes", "on"}
+
+
 @app.on_event("startup")
 def _log_capabilities() -> None:
     log.warning("OCR preprocessing engine: %s", "opencv" if opencv_available() else "pillow fallback (degraded)")
+    # Load Kokoro (and download it on a fresh volume) before the first user
+    # asks, so the first Generate does not pay ~60-120 s of model start-up.
+    if _truthy("ENABLE_KOKORO", True) and _truthy("KOKORO_WARMUP", True):
+        KokoroAtticTTS().warm_up_in_background()
 
 def _cors_origins() -> list[str]:
     raw = os.getenv(
@@ -122,6 +141,59 @@ def synthesize(request: SynthesizeRequest) -> StreamingResponse:
             "Content-Disposition": 'inline; filename="ancient-greek.wav"',
             "X-TTS-Provider": provider,
         },
+    )
+
+
+def _ndjson(obj: dict[str, object]) -> bytes:
+    return (json.dumps(obj, ensure_ascii=False) + "\n").encode("utf-8")
+
+
+def _stream_sentences(normalized: str, sentences, ipas: list[str], speed: float) -> Iterator[bytes]:
+    started = time.perf_counter()
+    try:
+        provider, clips = synthesize_sentences_stream([s.text for s in sentences], ipas, speed=speed)
+    except TTSUnavailable as exc:
+        yield _ndjson({"type": "error", "detail": str(exc)})
+        return
+    yield _ndjson(
+        {
+            "type": "start",
+            "provider": provider,
+            "normalized_text": normalized,
+            "speed": speed,
+            "sentences": [{**s.as_dict(), "ipa": ipa} for s, ipa in zip(sentences, ipas)],
+        }
+    )
+    try:
+        for sentence, clip in zip(sentences, clips):
+            yield _ndjson(
+                {
+                    "type": "clip",
+                    "index": sentence.index,
+                    "audio_base64": base64.b64encode(clip).decode("ascii") if clip else None,
+                    "mime_type": "audio/wav",
+                    "duration_seconds": _wav_duration_seconds(clip) if clip else None,
+                }
+            )
+    except TTSUnavailable as exc:
+        yield _ndjson({"type": "error", "detail": str(exc)})
+        return
+    yield _ndjson({"type": "done", "elapsed_seconds": round(time.perf_counter() - started, 2)})
+
+
+@app.post("/api/synthesize/stream")
+def synthesize_stream(request: SynthesizeRequest) -> StreamingResponse:
+    """NDJSON stream: a 'start' line with the sentence plan, then one 'clip' line
+    per sentence as soon as it is rendered, then 'done' (or 'error')."""
+    normalized = normalize_polytonic(request.text)
+    sentences = segment_sentences(normalized)
+    if not sentences:
+        raise HTTPException(status_code=422, detail="No sentences found in the text.")
+    ipas = [attic_ipa(s.text) for s in sentences]
+    return StreamingResponse(
+        _stream_sentences(normalized, sentences, ipas, request.speed),
+        media_type="application/x-ndjson",
+        headers={"Cache-Control": "no-store", "X-Accel-Buffering": "no"},
     )
 
 

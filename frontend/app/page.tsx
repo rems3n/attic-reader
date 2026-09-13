@@ -6,7 +6,7 @@ import {
   getTtsStatus,
   phonemize,
   runOcr,
-  synthesizeBatch,
+  synthesizeStream,
   OcrReport,
   TtsProvider,
 } from "../lib/api";
@@ -57,6 +57,7 @@ export default function Home() {
   const [playing, setPlaying] = useState(false);
   const [repeat, setRepeat] = useState(false);
   const [rerendering, setRerendering] = useState(false);
+  const [progress, setProgress] = useState<{ done: number; total: number } | null>(null);
 
   // One <audio> element for the whole app so iOS keeps it "user-activated"
   // after the first tap; play-all chains clips on this same element.
@@ -144,25 +145,50 @@ export default function Home() {
     }
   }
 
-  const fetchReading = useCallback(async (source: string, atSpeed: number): Promise<Reading> => {
-    const cached = cacheRef.current.get(atSpeed);
-    if (cached && cached.normalizedText === source.trim()) return cached;
-    const batch = await synthesizeBatch(source, atSpeed);
-    const built: Reading = {
-      provider: batch.provider,
-      normalizedText: batch.normalized_text,
-      speed: batch.speed,
-      clips: batch.sentences.map((s) => ({
-        index: s.index,
-        text: s.text,
-        ipa: s.ipa,
-        url: s.audio_base64 ? base64ToObjectUrl(s.audio_base64, s.mime_type) : null,
-        duration: s.duration_seconds,
-      })),
-    };
-    cacheRef.current.set(atSpeed, built);
-    return built;
-  }, []);
+  /**
+   * Render a reading at a given speed, streaming clips in. `onUpdate` receives
+   * the reading each time a sentence arrives (same object identity is never
+   * reused, so React re-renders). Resolves with the completed reading.
+   */
+  const fetchReading = useCallback(
+    async (source: string, atSpeed: number, onUpdate?: (r: Reading) => void): Promise<Reading> => {
+      const cached = cacheRef.current.get(atSpeed);
+      if (cached && cached.normalizedText === source.trim()) return cached;
+      let building: Reading | null = null;
+      let failure = "";
+      await synthesizeStream(source, atSpeed, (event) => {
+        if (event.type === "start") {
+          building = {
+            provider: event.provider,
+            normalizedText: event.normalized_text,
+            speed: event.speed,
+            clips: event.sentences.map((s) => ({ index: s.index, text: s.text, ipa: s.ipa, url: null, duration: null })),
+          };
+          setProgress({ done: 0, total: building.clips.length });
+          onUpdate?.(building);
+        } else if (event.type === "clip" && building) {
+          const clips = building.clips.slice();
+          const clip = clips[event.index];
+          clips[event.index] = {
+            ...clip,
+            url: event.audio_base64 ? base64ToObjectUrl(event.audio_base64, event.mime_type) : null,
+            duration: event.duration_seconds,
+          };
+          building = { ...building, clips };
+          setProgress({ done: event.index + 1, total: clips.length });
+          onUpdate?.(building);
+        } else if (event.type === "error") {
+          failure = event.detail;
+        }
+      });
+      setProgress(null);
+      if (failure) throw new Error(failure);
+      if (!building) throw new Error("The server sent no audio.");
+      cacheRef.current.set(atSpeed, building);
+      return building;
+    },
+    [],
+  );
 
   async function generateAudio() {
     if (!text.trim()) return;
@@ -172,8 +198,13 @@ export default function Home() {
       stopPlayback();
       cacheRef.current.forEach(releaseReading);
       cacheRef.current.clear();
-      const built = await fetchReading(text, speed);
-      setText(built.normalizedText);
+      // Sentences appear as soon as the plan arrives; each becomes tappable
+      // the moment its clip lands, while the rest are still rendering.
+      const built = await fetchReading(text, speed, (partial) => {
+        readingRef.current = partial;
+        setReading(partial);
+        setText(partial.normalizedText);
+      });
       setIpa(built.clips.map((c) => c.ipa).join(" "));
       setReading(built);
       getTtsStatus().then(setProviders).catch(() => undefined);
@@ -415,7 +446,13 @@ export default function Home() {
             {status === "phonemize" ? "Converting…" : "Preview pronunciation"}
           </button>
           <button className="primary" onClick={generateAudio} disabled={!text.trim() || busy}>
-            {status === "synthesize" ? "Generating…" : reading ? "Regenerate audio" : "Generate neural audio"}
+            {status === "synthesize"
+              ? progress
+                ? `Rendering ${progress.done}/${progress.total}…`
+                : "Starting the voice…"
+              : reading
+                ? "Regenerate audio"
+                : "Generate neural audio"}
           </button>
         </div>
         {error && <div className="error">{error}</div>}
@@ -445,7 +482,7 @@ export default function Home() {
                 <li
                   key={clip.index}
                   data-index={clip.index}
-                  className={`sentence ${isCurrent ? "active" : ""} ${clip.url ? "" : "silent"}`}
+                  className={`sentence ${isCurrent ? "active" : ""} ${clip.url ? "" : status === "synthesize" ? "pending" : "silent"}`}
                 >
                   <button
                     type="button"
@@ -465,7 +502,9 @@ export default function Home() {
                     onClick={() => toggleSentence(clip.index)}
                   >
                     {clip.text}
-                    <span className="sentenceMeta">{clip.url ? formatSeconds(clip.duration) : "no speech"}</span>
+                    <span className="sentenceMeta">
+                      {clip.url ? formatSeconds(clip.duration) : status === "synthesize" ? "rendering…" : "no speech"}
+                    </span>
                   </button>
                 </li>
               );
@@ -531,7 +570,9 @@ export default function Home() {
             ))}
             <span className="playerStatus">
               {rerendering
-                ? "Re-rendering…"
+                ? progress
+                  ? `Re-rendering ${progress.done}/${progress.total}…`
+                  : "Re-rendering…"
                 : current != null
                   ? `${current + 1} / ${reading.clips.length}${repeat ? " · repeat" : ""}`
                   : `${reading.clips.length} sentences`}

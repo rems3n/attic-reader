@@ -3,6 +3,7 @@ from __future__ import annotations
 import os
 import shutil
 from dataclasses import asdict, dataclass
+from typing import Iterator
 
 from .espeak import EspeakAncientGreekTTS
 from .mms import MMSAncientGreekTTS
@@ -30,6 +31,8 @@ def _truthy(name: str, default: bool = False) -> bool:
 def provider_statuses() -> list[dict[str, object]]:
     kokoro = KokoroAtticTTS()
     kokoro_ok, kokoro_note = kokoro.is_available()
+    if kokoro_ok:
+        kokoro_note = f"{kokoro_note}; model {KokoroAtticTTS.warm_state()}"
 
     mms = MMSAncientGreekTTS()
     mms_ok, mms_note = mms.is_available()
@@ -134,6 +137,30 @@ def synthesize_best(greek_text: str, attic_ipa: str, speed: float | None = None)
         + " | ".join(errors)
         + _NO_VOICE_MESSAGE
     )
+
+
+def synthesize_sentences_stream(
+    sentences: list[str], ipas: list[str], speed: float | None = None
+) -> tuple[str, Iterator[bytes | None]]:
+    """Like :func:`synthesize_sentences` but yields clips as they are rendered.
+
+    Returns ``(provider_id, iterator)``. The provider is chosen (and its model
+    loaded) before the first clip so the caller can announce it up front.
+    """
+    if len(sentences) != len(ipas):
+        raise ValueError("sentences and ipas must align")
+
+    if _truthy("ENABLE_KOKORO", default=True):
+        kokoro = KokoroAtticTTS()
+        try:
+            kokoro._load()
+        except TTSUnavailable:
+            pass
+        else:
+            return "kokoro-attic", kokoro.iter_synthesize(ipas, speed=speed)
+
+    clips, provider = synthesize_sentences(sentences, ipas, speed=speed)
+    return provider, iter(clips)
 
 
 def synthesize_sentences(

@@ -103,6 +103,71 @@ export function synthesizeBatch(text: string, speed = 1): Promise<BatchSynthesis
   return postJson("/api/synthesize/batch", { text, speed });
 }
 
+export type StreamStart = {
+  type: "start";
+  provider: string;
+  normalized_text: string;
+  speed: number;
+  sentences: (SentenceSpan & { ipa: string })[];
+};
+export type StreamClip = {
+  type: "clip";
+  index: number;
+  audio_base64: string | null;
+  mime_type: string;
+  duration_seconds: number | null;
+};
+export type StreamEvent =
+  | StreamStart
+  | StreamClip
+  | { type: "done"; elapsed_seconds: number }
+  | { type: "error"; detail: string };
+
+/**
+ * Streamed synthesis: the server sends one NDJSON line per event, so the first
+ * sentence is playable within seconds and long paragraphs never trip mobile
+ * browsers' ~60 s request timeouts. Falls back to reading the whole body when
+ * the browser cannot stream a response.
+ */
+export async function synthesizeStream(
+  text: string,
+  speed: number,
+  onEvent: (event: StreamEvent) => void,
+  signal?: AbortSignal,
+): Promise<void> {
+  const response = await fetch(`${API_BASE}/api/synthesize/stream`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ text, speed }),
+    signal,
+  });
+  if (!response.ok) throw new Error(await getError(response));
+
+  const decoder = new TextDecoder();
+  let buffer = "";
+  const handleChunk = (chunk: string, flush = false) => {
+    buffer += chunk;
+    const lines = buffer.split("\n");
+    buffer = flush ? "" : (lines.pop() ?? "");
+    for (const line of lines) {
+      if (!line.trim()) continue;
+      onEvent(JSON.parse(line) as StreamEvent);
+    }
+  };
+
+  if (!response.body) {
+    handleChunk(await response.text(), true);
+    return;
+  }
+  const reader = response.body.getReader();
+  for (;;) {
+    const { value, done } = await reader.read();
+    if (done) break;
+    handleChunk(decoder.decode(value, { stream: true }));
+  }
+  handleChunk(decoder.decode(), true);
+}
+
 /** Decode a base64 WAV into an object URL usable by a single <audio> element. */
 export function base64ToObjectUrl(base64: string, mimeType = "audio/wav"): string {
   const binary = atob(base64);

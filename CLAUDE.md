@@ -594,5 +594,14 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   Result: CER 0.028–0.047 across 1200–4032 px uploads, ~1–2.5 s/page. The
   Loeb photo is now a regression case (`max_cer` 0.06). Remaining misses:
   the all-caps title, a few breathings (οὓς→οὗς), line-start artefacts.
+- **First Generate on the deployed app timed out**: the batch request took
+  121 s server-side (HF download + model load + 10 sentences on CPU) and iOS
+  Safari aborts silent requests at ~60 s (499 in the Railway proxy log). Fix:
+  (1) Kokoro warm-up thread at startup (`KOKORO_WARMUP`, default on; status
+  note shows `model cold|warming|ready`); (2) `POST /api/synthesize/stream`
+  (NDJSON: start / clip per sentence / done) and the frontend consumes it,
+  so the first sentence is tappable within seconds and rows fill in as they
+  render. Per-sentence timing (`rtf`) is logged; check it after the next
+  deploy to know the real CPU speed on Railway.
 - Not started: Step 6 G2P audit (syllabification, ει/ου policy). Still want
   Athenaze / LOGOS photos for the regression set.
