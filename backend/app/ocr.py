@@ -5,21 +5,23 @@ import os
 import shutil
 import subprocess
 import tempfile
+from dataclasses import asdict
 
 from PIL import Image, ImageFilter, ImageOps
+
+from .ocr_preprocess import PreprocessReport, preprocess
 
 
 class OCRUnavailable(RuntimeError):
     pass
 
 
-def _prepare_image(data: bytes) -> Image.Image:
+def _prepare_image_basic(data: bytes) -> Image.Image:
+    """Pillow-only path kept for hosts without OpenCV (OCR_PREPROCESS=basic)."""
     image = Image.open(io.BytesIO(data))
     image = ImageOps.exif_transpose(image)
     image = image.convert("L")
 
-    # Modern textbook pages usually benefit from modest enlargement and contrast
-    # normalization without aggressive thresholding that can erase breathings.
     if image.width < 2200:
         scale = min(2.0, 2200 / max(image.width, 1))
         image = image.resize(
@@ -32,37 +34,43 @@ def _prepare_image(data: bytes) -> Image.Image:
     return image
 
 
-def recognize_ancient_greek(data: bytes) -> str:
+def prepare_image(data: bytes) -> tuple[Image.Image, PreprocessReport]:
+    mode = os.getenv("OCR_PREPROCESS", "opencv").lower()
+    if mode == "basic":
+        image = _prepare_image_basic(data)
+        return image, PreprocessReport(image.width, image.height, 1.0, 0.0, False, "pillow-basic")
+    return preprocess(data, deskew=mode != "nodeskew")
+
+
+def run_tesseract(image: Image.Image, *, psm: int | None = None) -> str:
     command = os.getenv("TESSERACT_COMMAND", "tesseract")
     executable = shutil.which(command)
     if executable is None:
         raise OCRUnavailable(f"Tesseract executable not found: {command}")
 
-    image = _prepare_image(data)
-
+    psm = psm if psm is not None else int(os.getenv("TESSERACT_PSM", "6"))
     with tempfile.NamedTemporaryFile(suffix=".png") as temp:
         image.save(temp.name, format="PNG")
         proc = subprocess.run(
-            [
-                executable,
-                temp.name,
-                "stdout",
-                "-l",
-                "grc",
-                "--psm",
-                "6",
-                "--oem",
-                "1",
-            ],
+            [executable, temp.name, "stdout", "-l", "grc", "--psm", str(psm), "--oem", "1"],
             capture_output=True,
             text=True,
-            timeout=60,
+            timeout=120,
         )
 
     if proc.returncode != 0:
         raise OCRUnavailable(proc.stderr.strip() or "Tesseract OCR failed")
-
     return _clean_ocr(proc.stdout)
+
+
+def recognize_ancient_greek_with_report(data: bytes) -> tuple[str, dict[str, object]]:
+    image, report = prepare_image(data)
+    return run_tesseract(image), asdict(report)
+
+
+def recognize_ancient_greek(data: bytes) -> str:
+    text, _ = recognize_ancient_greek_with_report(data)
+    return text
 
 
 def _clean_ocr(text: str) -> str:
