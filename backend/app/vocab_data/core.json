@@ -14,7 +14,10 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -23,7 +26,384 @@
     "ἡ",
     "τό"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 1,
+    "form": "τοῦ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 2,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 3,
+    "form": "τῆς"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 4,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 5,
+    "form": "τὴν"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 6,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 7,
+    "form": "ἡ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 8,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 9,
+    "form": "ἡ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 0,
+    "form": "τὸ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 1,
+    "form": "τῷ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 2,
+    "form": "οἱ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 3,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 4,
+    "form": "τῆς"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "οἱ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 6,
+    "form": "τῶν"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 7,
+    "form": "οἱ"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 0,
+    "form": "ταῖς"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "τῆς"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 2,
+    "form": "τῇ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "τὸν"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 1,
+    "form": "τοῖς"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "τὰ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 5,
+    "form": "ὁ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 6,
+    "form": "τὸ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "τὸν"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "τῷ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 14,
+    "form": "ἡ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 0,
+    "form": "τοῦ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 1,
+    "form": "ἡ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 2,
+    "form": "τὸ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 3,
+    "form": "ὁ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 4,
+    "form": "ὁ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 8,
+    "form": "ὁ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 9,
+    "form": "ὅ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 10,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 0,
+    "form": "οἱ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 1,
+    "form": "ἡ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 2,
+    "form": "ἡ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 3,
+    "form": "τοὺς"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 4,
+    "form": "ἡ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 5,
+    "form": "τῶν"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 6,
+    "form": "τὸ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 8,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 9,
+    "form": "τοὺς"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 10,
+    "form": "οἱ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 12,
+    "form": "τὸ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 13,
+    "form": "τῶν"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 14,
+    "form": "τοῖς"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 0,
+    "form": "τῶν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "τῶν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "τὸ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "τὴν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 7,
+    "form": "τῇ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 9,
+    "form": "τῶν"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 0,
+    "form": "τοῦ"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 1,
+    "form": "τοὺς"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 2,
+    "form": "τοῦ"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "τοὺς"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 1,
+    "form": "τῷ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 4,
+    "form": "τοὺς"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 5,
+    "form": "τοῖς"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 0,
+    "form": "τῆς"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 1,
+    "form": "τοῖς"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 2,
+    "form": "τὴν"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 3,
+    "form": "τῆς"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 4,
+    "form": "τῆς"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 5,
+    "form": "ἡ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 6,
+    "form": "τὴν"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 0,
+    "form": "τοῦ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 1,
+    "form": "τὴν"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 2,
+    "form": "τῇ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 4,
+    "form": "τοῦ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 5,
+    "form": "ταῖς"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 6,
+    "form": "τῶν"
+   }
+  ]
  },
  {
   "id": "αυτος",
@@ -40,7 +420,10 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -52,7 +435,159 @@
    ],
    "feminine": "αὐτή",
    "neuter": "αὐτό"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 3,
+    "form": "αὐτὸν"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 4,
+    "form": "αὐτῶν"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 5,
+    "form": "αὐτῷ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 7,
+    "form": "αὐτὸν"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 9,
+    "form": "αὐτὸν"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 4,
+    "form": "αὐτῶν"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "αὐτοὶ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "αὐτὸν"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "αὐτῶν"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "αὐτὸς"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "αὐτὴν"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 14,
+    "form": "αὐτοὺς"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 5,
+    "form": "αὐτὸς"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 1,
+    "form": "αὐτοῦ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 7,
+    "form": "αὐτὸν"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 9,
+    "form": "αὐτὰ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 14,
+    "form": "αὐτῷ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 1,
+    "form": "αὐτὸς"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "αὐτῶν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "αὐτῶν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 9,
+    "form": "αὐτῶν"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 2,
+    "form": "αὐτῷ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 0,
+    "form": "αὐτοῖς"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 1,
+    "form": "αὐτοῦ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 4,
+    "form": "αὐτῷ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 5,
+    "form": "αὐτὸν"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 1,
+    "form": "αὐτὸν"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 2,
+    "form": "αὐτῇ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 5,
+    "form": "αὐτοὺς"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 6,
+    "form": "αὐτοῦ"
+   }
+  ]
  },
  {
   "id": "και",
@@ -69,14 +604,299 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "καί"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 0,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 1,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 3,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 4,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 5,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 6,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 8,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 0,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 2,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 3,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 4,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 6,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 7,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 0,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 2,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 3,
+    "form": "καὶ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "καὶ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 1,
+    "form": "καὶ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "καὶ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 6,
+    "form": "καί"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "καὶ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 11,
+    "form": "καὶ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "καὶ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 13,
+    "form": "καὶ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 14,
+    "form": "καὶ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 0,
+    "form": "καὶ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 1,
+    "form": "καὶ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 2,
+    "form": "καὶ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 4,
+    "form": "καί"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 5,
+    "form": "καὶ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 9,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 3,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 5,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 7,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 8,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 10,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 13,
+    "form": "καὶ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 14,
+    "form": "καὶ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 1,
+    "form": "καὶ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "καὶ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 8,
+    "form": "καὶ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 9,
+    "form": "καὶ"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 1,
+    "form": "καὶ"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "καὶ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 0,
+    "form": "καὶ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 5,
+    "form": "καὶ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 0,
+    "form": "καὶ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 2,
+    "form": "καὶ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 3,
+    "form": "καὶ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 4,
+    "form": "καὶ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 5,
+    "form": "καὶ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 6,
+    "form": "καὶ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 0,
+    "form": "καὶ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 6,
+    "form": "καὶ"
+   }
+  ]
  },
  {
   "id": "δε",
@@ -93,14 +913,269 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "δέ"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 0,
+    "form": "δὲ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 1,
+    "form": "δὲ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 3,
+    "form": "δὲ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 4,
+    "form": "δὲ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 5,
+    "form": "δὲ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 6,
+    "form": "δὲ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 7,
+    "form": "δὲ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 8,
+    "form": "δʼ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 1,
+    "form": "δὲ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 2,
+    "form": "δὲ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 3,
+    "form": "δὲ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "δὲ"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 0,
+    "form": "δὲ"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 2,
+    "form": "δʼ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "δὲ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 1,
+    "form": "δὲ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "δὲ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 7,
+    "form": "δὲ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "δὲ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 2,
+    "form": "δὲ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 8,
+    "form": "δʼ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 12,
+    "form": "δʼ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 2,
+    "form": "δὲ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 3,
+    "form": "δὲ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 5,
+    "form": "δὲ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 8,
+    "form": "δʼ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 9,
+    "form": "δὲ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 11,
+    "form": "δʼ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 13,
+    "form": "δὲ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 14,
+    "form": "δὲ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 1,
+    "form": "δʼ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "δὲ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "δέ"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 1,
+    "form": "δὲ"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 2,
+    "form": "δὲ"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "δὲ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 0,
+    "form": "δὲ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 1,
+    "form": "δὲ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 2,
+    "form": "δὲ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 4,
+    "form": "δὲ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 3,
+    "form": "δὲ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 4,
+    "form": "δὲ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 6,
+    "form": "δὲ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 0,
+    "form": "δὲ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 1,
+    "form": "δὲ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 2,
+    "form": "δὲ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 3,
+    "form": "δὲ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 4,
+    "form": "δὲ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 5,
+    "form": "δὲ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 6,
+    "form": "δέ"
+   }
+  ]
  },
  {
   "id": "τις",
@@ -117,7 +1192,10 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -125,7 +1203,159 @@
     "τίς",
     "τί"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 1,
+    "form": "τοῦ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 8,
+    "form": "τῷ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 9,
+    "form": "τῷ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 1,
+    "form": "τῷ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 2,
+    "form": "τοῦ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 4,
+    "form": "τινας"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "τι"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 0,
+    "form": "τοῦ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 1,
+    "form": "τινὶ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 0,
+    "form": "τί"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 5,
+    "form": "τοῦ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 6,
+    "form": "τι"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "τῷ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 0,
+    "form": "τοῦ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 4,
+    "form": "τοῦ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 9,
+    "form": "τοῦ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 0,
+    "form": "τίσι"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 1,
+    "form": "τις"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 13,
+    "form": "τοῦ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "τι"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 0,
+    "form": "τοῦ"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 2,
+    "form": "τοῦ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 1,
+    "form": "τῷ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 4,
+    "form": "τοῦ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 3,
+    "form": "τῷ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 4,
+    "form": "τινες"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 0,
+    "form": "τοῦ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 2,
+    "form": "τοῦ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 4,
+    "form": "τοῦ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 6,
+    "form": "τοῦ"
+   }
+  ]
  },
  {
   "id": "ειμι",
@@ -143,7 +1373,8 @@
   "level": "beginner",
   "topics": [
    "philosophy",
-   "mythology"
+   "mythology",
+   "history"
   ],
   "notes": null,
   "morph": {
@@ -169,7 +1400,174 @@
     "ἦν",
     "εἶναι"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 8,
+    "form": "ἔσται"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 9,
+    "form": "ἢ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 1,
+    "form": "ἦν"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "εἶναι"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 3,
+    "form": "ἦσαν"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "ἔσεσθαι"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "ἦν"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 0,
+    "form": "ὦ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 1,
+    "form": "ἢ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 6,
+    "form": "ὦ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 7,
+    "form": "ἢ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "ὦ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 13,
+    "form": "ὦ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 14,
+    "form": "ὦ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 15,
+    "form": "ἔστι"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 1,
+    "form": "εἶναι"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 5,
+    "form": "εἴη"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 8,
+    "form": "ἦ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 11,
+    "form": "ὦ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 12,
+    "form": "ἦν"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 13,
+    "form": "ἐσμέν"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 0,
+    "form": "εἴη"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 1,
+    "form": "ἦν"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 5,
+    "form": "ἦν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 0,
+    "form": "ὦ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "ὄντος"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "εἶναι"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 5,
+    "form": "εἰ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "ἤ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 7,
+    "form": "ὦ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 8,
+    "form": "ὦ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 4,
+    "form": "ὄντος"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 6,
+    "form": "ἦν"
+   }
+  ]
  },
  {
   "id": "ουτος",
@@ -186,7 +1584,10 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -195,7 +1596,104 @@
     "αὕτη",
     "τοῦτο"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 3,
+    "form": "οὗτοι"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 1,
+    "form": "αὕτη"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 15,
+    "form": "ταῦτα"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 6,
+    "form": "οὗτος"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 9,
+    "form": "οὗτοί"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "τοῦτο"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "τοῦτό"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 5,
+    "form": "τοῦτο"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "οὗτοι"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 8,
+    "form": "τοῦτο"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 9,
+    "form": "τούτου"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 2,
+    "form": "τούτους"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "τούτους"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 2,
+    "form": "τοῦτο"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 3,
+    "form": "τούτῳ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 5,
+    "form": "ταύτην"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 1,
+    "form": "τούτου"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 3,
+    "form": "τοῦτον"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 5,
+    "form": "τούτων"
+   }
+  ]
  },
  {
   "id": "η",
@@ -212,14 +1710,43 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἤ"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 9,
+    "form": "ἢ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 1,
+    "form": "ἢ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 7,
+    "form": "ἢ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 8,
+    "form": "ἦ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "ἤ"
+   }
+  ]
  },
  {
   "id": "εν",
@@ -236,14 +1763,84 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἐν"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 0,
+    "form": "ἐν"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 2,
+    "form": "ἐν"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "ἐν"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "ἐν"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 14,
+    "form": "ἐν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "ἐν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 9,
+    "form": "ἐν"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "ἐν"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 0,
+    "form": "ἐν"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 3,
+    "form": "ἐν"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 5,
+    "form": "ἐν"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 1,
+    "form": "ἐν"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 3,
+    "form": "ἐν"
+   }
+  ]
  },
  {
   "id": "μενδε",
@@ -267,7 +1864,8 @@
    "forms": [
     "μέν...δέ"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "τις-11",
@@ -284,7 +1882,10 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -292,7 +1893,159 @@
     "τις",
     "τι"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 1,
+    "form": "τοῦ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 8,
+    "form": "τῷ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 9,
+    "form": "τῷ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 1,
+    "form": "τῷ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 2,
+    "form": "τοῦ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 4,
+    "form": "τινας"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "τι"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 0,
+    "form": "τοῦ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 1,
+    "form": "τινὶ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 0,
+    "form": "τί"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 5,
+    "form": "τοῦ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 6,
+    "form": "τι"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "τῷ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 0,
+    "form": "τοῦ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 4,
+    "form": "τοῦ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 9,
+    "form": "τοῦ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 0,
+    "form": "τίσι"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 1,
+    "form": "τις"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 13,
+    "form": "τοῦ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "τι"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 0,
+    "form": "τοῦ"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 2,
+    "form": "τοῦ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 1,
+    "form": "τῷ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 4,
+    "form": "τοῦ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 3,
+    "form": "τῷ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 4,
+    "form": "τινες"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 0,
+    "form": "τοῦ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 2,
+    "form": "τοῦ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 4,
+    "form": "τοῦ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 6,
+    "form": "τοῦ"
+   }
+  ]
  },
  {
   "id": "ος",
@@ -309,7 +2062,10 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -318,7 +2074,194 @@
     "ἥ",
     "ὅ"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 2,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 3,
+    "form": "ἧς"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 4,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 6,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 7,
+    "form": "ἡ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 8,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 9,
+    "form": "ἡ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 2,
+    "form": "οἱ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 3,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 4,
+    "form": "οἱ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "οἱ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 7,
+    "form": "οἱ"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 0,
+    "form": "ἡ"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 2,
+    "form": "ᾗ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "ὧν"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 5,
+    "form": "ὁ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 14,
+    "form": "ἡ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 1,
+    "form": "ἡ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 3,
+    "form": "ὁ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 4,
+    "form": "ὁ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 8,
+    "form": "ὃς"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 9,
+    "form": "ὅ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 10,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 0,
+    "form": "οἱ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 1,
+    "form": "ἡ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 2,
+    "form": "οὓς"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 4,
+    "form": "οὓς"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 8,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 10,
+    "form": "οἱ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "ὧν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "οἱ"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 1,
+    "form": "οἳ"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 2,
+    "form": "ὧν"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 1,
+    "form": "αἷς"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 2,
+    "form": "ἣν"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 3,
+    "form": "ἣ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 5,
+    "form": "ἡ"
+   }
+  ]
  },
  {
   "id": "γαρ",
@@ -335,14 +2278,88 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "γάρ"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 4,
+    "form": "γὰρ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 1,
+    "form": "γὰρ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "γὰρ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 13,
+    "form": "γὰρ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 12,
+    "form": "γὰρ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 1,
+    "form": "γὰρ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 5,
+    "form": "γὰρ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 6,
+    "form": "γὰρ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 9,
+    "form": "γὰρ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 12,
+    "form": "γὰρ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "γὰρ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 5,
+    "form": "γὰρ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "γὰρ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 7,
+    "form": "γὰρ"
+   }
+  ]
  },
  {
   "id": "ου",
@@ -359,7 +2376,10 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -368,7 +2388,94 @@
     "οὐκ",
     "οὐχ"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "οὐ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "οὐ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 1,
+    "form": "οὐ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 9,
+    "form": "οὐκ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "οὐ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 11,
+    "form": "οὐκ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 1,
+    "form": "οὐ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 12,
+    "form": "οὐ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 2,
+    "form": "οὐ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 4,
+    "form": "οὐκ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 5,
+    "form": "οὐκ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 9,
+    "form": "οὐ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 0,
+    "form": "οὐκ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 5,
+    "form": "οὐ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "οὐ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 4,
+    "form": "οὐχ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 1,
+    "form": "οὐχ"
+   }
+  ]
  },
  {
   "id": "λεγω",
@@ -386,7 +2493,9 @@
   "level": "beginner",
   "topics": [
    "philosophy",
-   "city-life"
+   "city-life",
+   "history",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -420,8 +2529,69 @@
     "λέλεγμαι",
     "ἐλέχθην",
     "ἐρρήθην"
-   ]
-  }
+   ],
+   "verb": {
+    "aorist_stem": "εἰπ",
+    "no_augment": true
+   }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 0,
+    "form": "ἐλέγετο"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 1,
+    "form": "εἰπεῖν"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 11,
+    "form": "ἔλεγε"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 1,
+    "form": "ἔλεγον"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 2,
+    "form": "εἰπεῖν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "ἔλεγον"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "λέγειν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 5,
+    "form": "λέγουσιν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "λέγω"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 9,
+    "form": "λέγειν"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 4,
+    "form": "εἶπόν"
+   }
+  ]
  },
  {
   "id": "ως",
@@ -438,14 +2608,134 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ὡς"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 4,
+    "form": "ὡς"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 5,
+    "form": "ὡς"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 6,
+    "form": "ὡς"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 8,
+    "form": "ὡς"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 2,
+    "form": "ὡς"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "ὡς"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 1,
+    "form": "ὡς"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "ὡς"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 11,
+    "form": "ὡς"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "ὡς"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 9,
+    "form": "ὡς"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 11,
+    "form": "ὡς"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 0,
+    "form": "ὡς"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 4,
+    "form": "ὡς"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 6,
+    "form": "ὡς"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 13,
+    "form": "ὡς"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 2,
+    "form": "ὡς"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "ὡς"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 1,
+    "form": "ὡς"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 5,
+    "form": "ὡς"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 4,
+    "form": "ὡς"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 1,
+    "form": "ὡς"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 6,
+    "form": "ὡς"
+   }
+  ]
  },
  {
   "id": "τε",
@@ -462,14 +2752,94 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "τε"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 4,
+    "form": "τέ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "τε"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "τε"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 2,
+    "form": "τε"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "τε"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "τε"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 0,
+    "form": "τε"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 5,
+    "form": "τε"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 9,
+    "form": "τε"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 5,
+    "form": "τε"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 8,
+    "form": "τε"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 9,
+    "form": "τε"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 10,
+    "form": "τε"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "τε"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 1,
+    "form": "τε"
+   }
+  ]
  },
  {
   "id": "εις",
@@ -486,14 +2856,59 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "εἰς"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 5,
+    "form": "εἰς"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 0,
+    "form": "εἰς"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 2,
+    "form": "εἰς"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 0,
+    "form": "εἰς"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 7,
+    "form": "εἰς"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "εἰς"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 0,
+    "form": "εἰς"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 6,
+    "form": "εἰς"
+   }
+  ]
  },
  {
   "id": "επι",
@@ -510,14 +2925,84 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἐπί"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 7,
+    "form": "ἐπὶ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 8,
+    "form": "ἐπὶ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 0,
+    "form": "ἐπὶ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 2,
+    "form": "ἐπὶ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "ἐπὶ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 1,
+    "form": "ἐπὶ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "ἐπὶ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 5,
+    "form": "ἐπὶ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 9,
+    "form": "ἐπὶ"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 2,
+    "form": "ἐπὶ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 1,
+    "form": "ἐπὶ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 2,
+    "form": "ἐπὶ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 4,
+    "form": "ἐπὶ"
+   }
+  ]
  },
  {
   "id": "κατα",
@@ -534,14 +3019,39 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "κατά"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "κατὰ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 1,
+    "form": "κατʼ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 5,
+    "form": "κατὰ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 2,
+    "form": "κατὰ"
+   }
+  ]
  },
  {
   "id": "εγω",
@@ -558,7 +3068,9 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -568,7 +3080,89 @@
     "ἡμεῖς",
     "ἡμῶν"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "μοι"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 6,
+    "form": "μοί"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 9,
+    "form": "με"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 1,
+    "form": "μοι"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 3,
+    "form": "ἡμᾶς"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 4,
+    "form": "μου"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 5,
+    "form": "ἐγὼ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 11,
+    "form": "μοι"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 12,
+    "form": "ἐγώ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 13,
+    "form": "ἡμᾶς"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 7,
+    "form": "μοι"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 1,
+    "form": "ἐγὼ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "ἐμοῦ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "ἐμοῦ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "ἐγὼ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 9,
+    "form": "μου"
+   }
+  ]
  },
  {
   "id": "προς",
@@ -585,14 +3179,44 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "πρός"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 5,
+    "form": "πρὸς"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "πρὸς"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 2,
+    "form": "πρὸς"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 11,
+    "form": "πρὸς"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 1,
+    "form": "πρὸς"
+   }
+  ]
  },
  {
   "id": "γιγνομαι",
@@ -610,7 +3234,8 @@
   "level": "beginner",
   "topics": [
    "philosophy",
-   "mythology"
+   "mythology",
+   "history"
   ],
   "notes": null,
   "morph": {
@@ -646,7 +3271,39 @@
     "γεγένημαι",
     "ἐγενήθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 0,
+    "form": "γίγνονται"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 2,
+    "form": "ἐγένοντο"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "ἐγίγνετο"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 1,
+    "form": "ἐγένετο"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "γενέσθαι"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 0,
+    "form": "γενόμενος"
+   }
+  ]
  },
  {
   "id": "εαν",
@@ -663,14 +3320,22 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἐάν"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 9,
+    "form": "ἐὰν"
+   }
+  ]
  },
  {
   "id": "δια",
@@ -687,14 +3352,64 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "διά"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 0,
+    "form": "διὰ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "διὰ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 6,
+    "form": "διὰ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "Δία"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 9,
+    "form": "διὰ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "Δία"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 9,
+    "form": "διὰ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 4,
+    "form": "διὰ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 0,
+    "form": "διὰ"
+   }
+  ]
  },
  {
   "id": "αλλα",
@@ -711,14 +3426,79 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἀλλά"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 8,
+    "form": "ἀλλά"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "ἀλλὰ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "ἄλλα"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 9,
+    "form": "ἀλλὰ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "ἀλλὰ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 14,
+    "form": "ἀλλʼ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 7,
+    "form": "ἀλλὰ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 8,
+    "form": "ἀλλὰ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 9,
+    "form": "ἀλλὰ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 10,
+    "form": "ἀλλʼ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "ἀλλʼ"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "ἀλλὰ"
+   }
+  ]
  },
  {
   "id": "πας",
@@ -736,7 +3516,9 @@
   "level": "beginner",
   "topics": [
    "history",
-   "city-life"
+   "city-life",
+   "philosophy",
+   "mythology"
   ],
   "notes": "Declined like a 3rd-declension adjective (πᾶς, πᾶσα, πᾶν; gen. παντός, πάσης, παντός); the DCC export files it under irregular nouns.",
   "morph": {
@@ -748,7 +3530,44 @@
    ],
    "feminine": "πᾶσα",
    "neuter": "πᾶν"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 3,
+    "form": "πάντων"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 7,
+    "form": "πάντες"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 2,
+    "form": "πάντα"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "πάσῃ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "παντὶ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "πᾶσαν"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 0,
+    "form": "παντὸς"
+   }
+  ]
  },
  {
   "id": "εχω",
@@ -765,7 +3584,9 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "city-life"
+   "city-life",
+   "history",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -799,8 +3620,38 @@
     "ἔσχον",
     "ἔσχηκα",
     "εἶχον"
-   ]
-  }
+   ],
+   "verb": {
+    "aorist_stem": "σχ"
+   }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 4,
+    "form": "ἔχων"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 2,
+    "form": "εἶχεν"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "ἔχων"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 0,
+    "form": "ἔχων"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 1,
+    "form": "ἔχειν"
+   }
+  ]
  },
  {
   "id": "εκ",
@@ -817,7 +3668,9 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -825,7 +3678,39 @@
     "ἐκ",
     "ἐξ"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 4,
+    "form": "ἐκ"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 0,
+    "form": "ἐκ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "ἐκ"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "ἐκ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 0,
+    "form": "ἐξ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 6,
+    "form": "ἐξ"
+   }
+  ]
  },
  {
   "id": "πολυς",
@@ -843,7 +3728,9 @@
   "level": "beginner",
   "topics": [
    "history",
-   "city-life"
+   "city-life",
+   "philosophy",
+   "mythology"
   ],
   "notes": "Irregular: nom./acc. sg. masc. and neut. from stem πολυ-, all other forms from πολλ- (πολλοῦ, πολλῷ, πολλοί…).",
   "morph": {
@@ -855,7 +3742,49 @@
    ],
    "feminine": "πολλή",
    "neuter": "πολύ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 2,
+    "form": "πολλὴ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "πολλῷ"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "πολὺ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "πολὺ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 13,
+    "form": "πολλοῖς"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "πολλῶν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 9,
+    "form": "πολλοὶ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 3,
+    "form": "πολλῶν"
+   }
+  ]
  },
  {
   "id": "περι",
@@ -872,14 +3801,33 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "περί"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 3,
+    "form": "περὶ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 4,
+    "form": "περὶ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 0,
+    "form": "περὶ"
+   }
+  ]
  },
  {
   "id": "μη",
@@ -896,14 +3844,42 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "μή"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 14,
+    "form": "μὴ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 13,
+    "form": "μὴ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 14,
+    "form": "μὴ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "μὴ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "μὴ"
+   }
+  ]
  },
  {
   "id": "οστις",
@@ -920,7 +3896,9 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -930,7 +3908,94 @@
     "ὅ",
     "τι"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 2,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 4,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 6,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 8,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 3,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "τι"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 0,
+    "form": "ὁ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 0,
+    "form": "τί"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 5,
+    "form": "ὁ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 6,
+    "form": "τι"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 3,
+    "form": "ὁ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 4,
+    "form": "ὁ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 8,
+    "form": "ὁ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 9,
+    "form": "ὅ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 10,
+    "form": "ὁ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 8,
+    "form": "ὁ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "τι"
+   }
+  ]
  },
  {
   "id": "αν",
@@ -947,14 +4012,37 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἄν"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "ἂν"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 13,
+    "form": "ἄν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 5,
+    "form": "ἂν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 7,
+    "form": "ἂν"
+   }
+  ]
  },
  {
   "id": "συ",
@@ -971,7 +4059,8 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -981,7 +4070,64 @@
     "ὑμεῖς",
     "ὑμῶν"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 5,
+    "form": "σοι"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "σοῦ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 11,
+    "form": "σε"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "σε"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 4,
+    "form": "ὑμᾶς"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 0,
+    "form": "ὑμεῖς"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "ὑμᾶς"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "ὑμεῖς"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 7,
+    "form": "ὑμᾶς"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 8,
+    "form": "ὑμῶν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 9,
+    "form": "ὑμῶν"
+   }
+  ]
  },
  {
   "id": "ανα",
@@ -998,14 +4144,22 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἀνά"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.1",
+    "sentence": 1,
+    "form": "ἀνὰ"
+   }
+  ]
  },
  {
   "id": "οτι",
@@ -1022,14 +4176,44 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ὅτι"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "ὅτι"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 0,
+    "form": "ὅτι"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "ὅτι"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 5,
+    "form": "ὅτι"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 2,
+    "form": "ὅτι"
+   }
+  ]
  },
  {
   "id": "ει",
@@ -1046,14 +4230,32 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "εἰ"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 13,
+    "form": "εἰ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "εἰ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 5,
+    "form": "εἰ"
+   }
+  ]
  },
  {
   "id": "αλλος",
@@ -1070,7 +4272,10 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -1082,7 +4287,89 @@
    ],
    "feminine": "ἄλλη",
    "neuter": "ἄλλο"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 8,
+    "form": "ἀλλά"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 3,
+    "form": "ἄλλους"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "ἀλλὰ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "ἄλλο"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "ἄλλα"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 9,
+    "form": "ἀλλὰ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "ἀλλὰ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 14,
+    "form": "ἄλλοι"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 7,
+    "form": "ἀλλὰ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 8,
+    "form": "ἀλλὰ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 9,
+    "form": "ἄλλοι"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 8,
+    "form": "ἄλλων"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 9,
+    "form": "ἀλλὰ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 10,
+    "form": "ἀλλʼ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "ἀλλʼ"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "ἀλλὰ"
+   }
+  ]
  },
  {
   "id": "απο",
@@ -1099,14 +4386,34 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἀπό"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 3,
+    "form": "ἀπὸ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 9,
+    "form": "ἀπὸ"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "ἀπὸ"
+   }
+  ]
  },
  {
   "id": "φημι",
@@ -1124,7 +4431,8 @@
   "level": "beginner",
   "topics": [
    "philosophy",
-   "city-life"
+   "city-life",
+   "history"
   ],
   "notes": null,
   "morph": {
@@ -1146,7 +4454,44 @@
     "φήσω",
     "ἔφην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "ἐφʼ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 4,
+    "form": "ἔφη"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 6,
+    "form": "ἔφη"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 10,
+    "form": "ἔφη"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 13,
+    "form": "ἔφη"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 6,
+    "form": "φαίη"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 12,
+    "form": "ἔφη"
+   }
+  ]
  },
  {
   "id": "υπο",
@@ -1163,14 +4508,47 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ὑπό"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 6,
+    "form": "ὑπʼ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 10,
+    "form": "ὑπό"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 0,
+    "form": "ὑπὸ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 1,
+    "form": "ὑπʼ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "ὑπʼ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "ὑπʼ"
+   }
+  ]
  },
  {
   "id": "ποιεω",
@@ -1187,7 +4565,10 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "city-life"
+   "city-life",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -1220,7 +4601,44 @@
     "πεποίημαι",
     "ἐποιήθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 3,
+    "form": "ἐποίησε"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "ἐποίησαν"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 2,
+    "form": "ἐποίησαν"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 0,
+    "form": "ποιήσουσιν"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 13,
+    "form": "ποιεῖν"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 3,
+    "form": "ποιησαμένη"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 6,
+    "form": "ἐποίησε"
+   }
+  ]
  },
  {
   "id": "ουν",
@@ -1237,14 +4655,79 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "οὖν"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 2,
+    "form": "οὖν"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 4,
+    "form": "οὖν"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 2,
+    "form": "οὖν"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 1,
+    "form": "οὖν"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 3,
+    "form": "οὖν"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 10,
+    "form": "οὖν"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 13,
+    "form": "οὖν"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 4,
+    "form": "οὖν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 1,
+    "form": "οὖν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "οὖν"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 2,
+    "form": "οὖν"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 6,
+    "form": "οὖν"
+   }
+  ]
  },
  {
   "id": "λογος",
@@ -1269,7 +4752,29 @@
    "genitive": "λόγου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 0,
+    "form": "λόγοις"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "λόγους"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 7,
+    "form": "λόγους"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 9,
+    "form": "λόγων"
+   }
+  ]
  },
  {
   "id": "παρα",
@@ -1286,14 +4791,22 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "παρά"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-2.4",
+    "sentence": 2,
+    "form": "παρὰ"
+   }
+  ]
  },
  {
   "id": "ουτως",
@@ -1310,14 +4823,27 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "οὕτως"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 9,
+    "form": "οὕτως"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 11,
+    "form": "οὕτως"
+   }
+  ]
  },
  {
   "id": "προτερος",
@@ -1334,7 +4860,9 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "history"
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -1346,7 +4874,24 @@
    ],
    "feminine": "προτέρα",
    "neuter": "πρότερον"
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "πρότερον"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 0,
+    "form": "πρότερον"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 2,
+    "form": "προτέρᾳ"
+   }
+  ]
  },
  {
   "id": "θεος",
@@ -1363,14 +4908,47 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "mythology"
+   "mythology",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "genitive": "θεοῦ",
    "gender": "m/f",
    "article": "ὁ/ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-rep-327a",
+    "sentence": 0,
+    "form": "θεῷ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 2,
+    "form": "θεοὺς"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 4,
+    "form": "θεούς"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 9,
+    "form": "θεοὺς"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 1,
+    "form": "θεοῖς"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 4,
+    "form": "θεοὺς"
+   }
+  ]
  },
  {
   "id": "μετα",
@@ -1387,14 +4965,33 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "μετά"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-rep-327a",
+    "sentence": 0,
+    "form": "μετὰ"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 2,
+    "form": "μετὰ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 3,
+    "form": "μετὰ"
+   }
+  ]
  },
  {
   "id": "εαυτου",
@@ -1411,7 +5008,10 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -1420,7 +5020,29 @@
     "ἑαυτῆς",
     "ἑαυτοῦ"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "ἑαυτούς"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 6,
+    "form": "ἑαυτῷ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 0,
+    "form": "ἑαυτοῦ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 6,
+    "form": "ἑαυτῆς"
+   }
+  ]
  },
  {
   "id": "μεγας",
@@ -1450,7 +5072,19 @@
    ],
    "feminine": "μεγάλη",
    "neuter": "μέγα"
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "μέγαν"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "μεγάλα"
+   }
+  ]
  },
  {
   "id": "ουδε",
@@ -1467,14 +5101,43 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "οὐδέ"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "οὐδʼ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 9,
+    "form": "οὐδὲ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "οὐδὲ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 7,
+    "form": "οὐδὲ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 4,
+    "form": "οὐδὲ"
+   }
+  ]
  },
  {
   "id": "εκεινος",
@@ -1491,7 +5154,9 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -1500,7 +5165,24 @@
     "ἐκείνη",
     "ἐκεῖνο"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 8,
+    "form": "ἐκείνου"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "ἐκείνης"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 6,
+    "form": "ἐκείνου"
+   }
+  ]
  },
  {
   "id": "τοιουτος",
@@ -1517,7 +5199,8 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": "Declined like οὗτος: feminine and neuter plural from τοιαυτ- (τοιαύτη, τοιαῦτα); neuter singular τοιοῦτο or τοιοῦτον.",
   "morph": {
@@ -1529,7 +5212,14 @@
    ],
    "feminine": "τοιαύτη",
    "neuter": "τοιοῦτο"
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 14,
+    "form": "τοιαύταις"
+   }
+  ]
  },
  {
   "id": "ουδεις",
@@ -1546,7 +5236,9 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -1555,7 +5247,34 @@
     "οὐδεμία",
     "οὐδέν"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "οὐδεὶς"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 14,
+    "form": "οὐδὲν"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 8,
+    "form": "οὐδὲν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 2,
+    "form": "οὐδὲν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "οὐδὲν"
+   }
+  ]
  },
  {
   "id": "ειπον",
@@ -1573,7 +5292,9 @@
   "level": "beginner",
   "topics": [
    "philosophy",
-   "city-life"
+   "city-life",
+   "history",
+   "mythology"
   ],
   "notes": "Second aorist of λέγω (‘I said’); the DCC lists it separately because of its frequency.",
   "morph": {
@@ -1587,7 +5308,24 @@
     "εἶπον"
    ],
    "alias_of": "λέγω"
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 1,
+    "form": "εἰπεῖν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 2,
+    "form": "εἰπεῖν"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 4,
+    "form": "εἶπόν"
+   }
+  ]
  },
  {
   "id": "αγαθος",
@@ -1616,7 +5354,8 @@
    ],
    "feminine": "ἀγαθή",
    "neuter": "ἀγαθόν"
-  }
+  },
+  "readings": []
  },
  {
   "id": "γε",
@@ -1633,14 +5372,27 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "γε"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 2,
+    "form": "γε"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "γε"
+   }
+  ]
  },
  {
   "id": "δη",
@@ -1657,14 +5409,59 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "δή"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 9,
+    "form": "δὴ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "δὴ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 6,
+    "form": "δὴ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 7,
+    "form": "δὴ"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 1,
+    "form": "δὴ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "δή"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 7,
+    "form": "δὴ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 3,
+    "form": "δὴ"
+   }
+  ]
  },
  {
   "id": "πολις",
@@ -1682,14 +5479,53 @@
   "level": "beginner",
   "topics": [
    "history",
-   "city-life"
+   "city-life",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "genitive": "πόλεως",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 2,
+    "form": "πόλιν"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 0,
+    "form": "πόλει"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 2,
+    "form": "πόλις"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 4,
+    "form": "πόλις"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 5,
+    "form": "πόλεως"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 1,
+    "form": "πόλεις"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 6,
+    "form": "πόλιν"
+   }
+  ]
  },
  {
   "id": "εις-62",
@@ -1707,7 +5543,9 @@
   "level": "beginner",
   "topics": [
    "history",
-   "city-life"
+   "city-life",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -1716,7 +5554,34 @@
     "μία",
     "ἕν"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 2,
+    "form": "ἑνὸς"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "ἓν"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 2,
+    "form": "ἕνα"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 0,
+    "form": "μίαν"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 3,
+    "form": "μιᾷ"
+   }
+  ]
  },
  {
   "id": "ιημι",
@@ -1733,7 +5598,10 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "city-life"
+   "city-life",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -1766,7 +5634,34 @@
     "εἷμαι",
     "-εἵθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 2,
+    "form": "ᾗ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 9,
+    "form": "ἧκε"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "ἓν"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 2,
+    "form": "ἧκεν"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 3,
+    "form": "ἧκεν"
+   }
+  ]
  },
  {
   "id": "δεω",
@@ -1783,7 +5678,8 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "city-life"
+   "city-life",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -1816,7 +5712,19 @@
     "δεδέημαι",
     "ἐδεήθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 13,
+    "form": "δεῖ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 8,
+    "form": "δέομαι"
+   }
+  ]
  },
  {
   "id": "ανθρωπος",
@@ -1834,14 +5742,27 @@
   "level": "beginner",
   "topics": [
    "philosophy",
-   "mythology"
+   "mythology",
+   "history"
   ],
   "notes": null,
   "morph": {
    "genitive": "ἀνθρώπου",
    "gender": "m/f",
    "article": "ὁ/ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 1,
+    "form": "ἀνθρώπων"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 0,
+    "form": "ἀνθρώπους"
+   }
+  ]
  },
  {
   "id": "οραω",
@@ -1858,7 +5779,9 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "philosophy"
+   "philosophy",
+   "history",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -1896,8 +5819,29 @@
     "ἑώρακα",
     "ὤφθην",
     "ἑώρων"
-   ]
-  }
+   ],
+   "verb": {
+    "aorist_stem": "ἰδ",
+    "aorist_passive_stem": "ὀφθ"
+   }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "ὁρῶν"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 13,
+    "form": "ὁρᾷς"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 1,
+    "form": "ἑώρα"
+   }
+  ]
  },
  {
   "id": "μονος",
@@ -1927,7 +5871,14 @@
    ],
    "feminine": "μόνη",
    "neuter": "μόνον"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "μόνον"
+   }
+  ]
  },
  {
   "id": "ουτεουτε",
@@ -1951,7 +5902,8 @@
    "forms": [
     "οὔτε...οὔτε"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "οιος",
@@ -1968,7 +5920,8 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history"
   ],
   "notes": null,
   "morph": {
@@ -1980,7 +5933,14 @@
    ],
    "feminine": "οἵα",
    "neuter": "οἷον"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "οἷα"
+   }
+  ]
  },
  {
   "id": "λαμβανω",
@@ -1997,7 +5957,9 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "city-life"
+   "city-life",
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -2030,7 +5992,24 @@
     "εἴλημμαι",
     "ἐλήφθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 4,
+    "form": "λαβὼν"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 4,
+    "form": "ἔλαβον"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 4,
+    "form": "λαβόμενος"
+   }
+  ]
  },
  {
   "id": "δοκεω",
@@ -2047,7 +6026,9 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "philosophy"
+   "philosophy",
+   "history",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -2068,7 +6049,44 @@
     "δόξω",
     "ἔδοξα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "ἐδόκει"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 2,
+    "form": "ἔδοξε"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 1,
+    "form": "ἔδοξεν"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 11,
+    "form": "δοκεῖτέ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 7,
+    "form": "δοκοῦσιν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "ἔδοξεν"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 1,
+    "form": "ἔδοξε"
+   }
+  ]
  },
  {
   "id": "ετερος",
@@ -2085,7 +6103,9 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -2097,7 +6117,19 @@
    ],
    "feminine": "ἑτέρα",
    "neuter": "ἕτερον"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 0,
+    "form": "ἕτερος"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 2,
+    "form": "ἕτερα"
+   }
+  ]
  },
  {
   "id": "κακος",
@@ -2126,7 +6158,8 @@
    ],
    "feminine": "κακή",
    "neuter": "κακόν"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ανηρ",
@@ -2151,7 +6184,34 @@
    "genitive": "ἀνδρός",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 0,
+    "form": "ἄνδρες"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "ἄνδρες"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 7,
+    "form": "ἄνδρες"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 8,
+    "form": "ἄνδρες"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 0,
+    "form": "ἀνδρὸς"
+   }
+  ]
  },
  {
   "id": "επει",
@@ -2175,7 +6235,24 @@
    "forms": [
     "ἐπεί"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 1,
+    "form": "ἐπεὶ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 5,
+    "form": "ἐπεὶ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 2,
+    "form": "ἐπεὶ"
+   }
+  ]
  },
  {
   "id": "οσος",
@@ -2192,7 +6269,10 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -2204,7 +6284,34 @@
    ],
    "feminine": "ὅση",
    "neuter": "ὅσον"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 3,
+    "form": "ὅσοι"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "ὅσῳ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 13,
+    "form": "ὅσοι"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 8,
+    "form": "ὅσοι"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "ὅσον"
+   }
+  ]
  },
  {
   "id": "καλεω",
@@ -2222,7 +6329,8 @@
   "level": "beginner",
   "topics": [
    "philosophy",
-   "city-life"
+   "city-life",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -2255,7 +6363,24 @@
     "κέκλημαι",
     "ἐκλήθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "καλοῦσιν"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 2,
+    "form": "καλοῦσι"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 6,
+    "form": "ἐκάλεσεν"
+   }
+  ]
  },
  {
   "id": "σωμα",
@@ -2280,7 +6405,19 @@
    "genitive": "σώματος",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.7",
+    "sentence": 1,
+    "form": "σῶμα"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 0,
+    "form": "σῶμα"
+   }
+  ]
  },
  {
   "id": "δει",
@@ -2319,7 +6456,14 @@
     "δεήσει",
     "ἔδει"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 13,
+    "form": "δεῖ"
+   }
+  ]
  },
  {
   "id": "ωσπερ",
@@ -2336,14 +6480,32 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ὥσπερ"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 11,
+    "form": "ὥσπερ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "ὥσπερ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 7,
+    "form": "ὥσπερ"
+   }
+  ]
  },
  {
   "id": "διδωμι",
@@ -2360,7 +6522,8 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "city-life"
+   "city-life",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -2393,7 +6556,19 @@
     "δέδομαι",
     "ἐδόθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.7",
+    "sentence": 0,
+    "form": "ἔδωκεν"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 4,
+    "form": "ἔδωκεν"
+   }
+  ]
  },
  {
   "id": "ετι",
@@ -2410,14 +6585,37 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἔτι"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 8,
+    "form": "ἔτι"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "ἔτι"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "ἔτι"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 1,
+    "form": "ἔτι"
+   }
+  ]
  },
  {
   "id": "φυσις",
@@ -2442,7 +6640,8 @@
    "genitive": "φύσεως",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "μικρος",
@@ -2472,7 +6671,8 @@
    ],
    "feminine": "μικρά",
    "neuter": "μικρόν"
-  }
+  },
+  "readings": []
  },
  {
   "id": "δυναμαι",
@@ -2489,7 +6689,8 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "city-life"
+   "city-life",
+   "history"
   ],
   "notes": null,
   "morph": {
@@ -2514,7 +6715,14 @@
     "ἐδυνήθην",
     "δεδύνημαι"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 8,
+    "form": "δύνηται"
+   }
+  ]
  },
  {
   "id": "ωστε",
@@ -2531,14 +6739,22 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ὥστε"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "ὥστʼ"
+   }
+  ]
  },
  {
   "id": "αρχη",
@@ -2562,7 +6778,19 @@
    "genitive": "ἀρχῆς",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 3,
+    "form": "ἀρχῆς"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 7,
+    "form": "ἀρχήν"
+   }
+  ]
  },
  {
   "id": "εκαστος",
@@ -2579,7 +6807,8 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -2588,7 +6817,24 @@
     "ἑκάστη",
     "ἕκαστον"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.1",
+    "sentence": 2,
+    "form": "ἕκαστος"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 4,
+    "form": "ἑκάστην"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 1,
+    "form": "ἕκαστος"
+   }
+  ]
  },
  {
   "id": "ημερα",
@@ -2606,14 +6852,27 @@
   "level": "beginner",
   "topics": [
    "mythology",
-   "philosophy"
+   "philosophy",
+   "history"
   ],
   "notes": null,
   "morph": {
    "genitive": "ἡμέρας",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 0,
+    "form": "ἡμέρᾳ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 4,
+    "form": "ἡμέραν"
+   }
+  ]
  },
  {
   "id": "φυω",
@@ -2652,7 +6911,8 @@
     "φύσω",
     "ἔφυσα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "απας",
@@ -2670,7 +6930,8 @@
   "level": "beginner",
   "topics": [
    "history",
-   "city-life"
+   "city-life",
+   "mythology"
   ],
   "notes": "Declined like πᾶς (ἅπας, ἅπασα, ἅπαν).",
   "morph": {
@@ -2682,7 +6943,14 @@
    ],
    "feminine": "ἅπασα",
    "neuter": "ἅπαν"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "ἁπάντων"
+   }
+  ]
  },
  {
   "id": "ομοιος",
@@ -2699,7 +6967,8 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "philosophy"
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -2711,7 +6980,14 @@
    ],
    "feminine": "ὁμοία",
    "neuter": "ὅμοιον"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-2.4",
+    "sentence": 0,
+    "form": "ὅμοιος"
+   }
+  ]
  },
  {
   "id": "νυν",
@@ -2728,7 +7004,9 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "history"
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -2736,7 +7014,29 @@
     "νῦν",
     "νυνί"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "νῦν"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 0,
+    "form": "νῦν"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 2,
+    "form": "νῦν"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 3,
+    "form": "νῦν"
+   }
+  ]
  },
  {
   "id": "γη",
@@ -2761,7 +7061,34 @@
    "genitive": "γῆς",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.1",
+    "sentence": 1,
+    "form": "Γῆν"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 2,
+    "form": "Γῆ"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "γῆς"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 0,
+    "form": "γῆς"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 0,
+    "form": "γῆν"
+   }
+  ]
  },
  {
   "id": "δυναμις",
@@ -2778,14 +7105,22 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "history"
+   "history",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "genitive": "δυνάμεως",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.1",
+    "sentence": 1,
+    "form": "δυνάμει"
+   }
+  ]
  },
  {
   "id": "καλος",
@@ -2814,7 +7149,14 @@
    ],
    "feminine": "καλή",
    "neuter": "καλόν"
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-rep-327a",
+    "sentence": 1,
+    "form": "καλὴ"
+   }
+  ]
  },
  {
   "id": "κυριος",
@@ -2839,7 +7181,8 @@
    "genitive": "κυρίου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "μαλλον",
@@ -2856,14 +7199,27 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "μᾶλλον"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 9,
+    "form": "μᾶλλον"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "μᾶλλον"
+   }
+  ]
  },
  {
   "id": "οδε",
@@ -2880,7 +7236,8 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -2889,7 +7246,14 @@
     "ἥδε",
     "τόδε"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 7,
+    "form": "τῇδε"
+   }
+  ]
  },
  {
   "id": "ολος",
@@ -2919,7 +7283,8 @@
    ],
    "feminine": "ὅλη",
    "neuter": "ὅλον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "μερος",
@@ -2944,7 +7309,14 @@
    "genitive": "μέρους",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 1,
+    "form": "μέρει"
+   }
+  ]
  },
  {
   "id": "αρα",
@@ -2961,14 +7333,22 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἄρα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "ἄρα"
+   }
+  ]
  },
  {
   "id": "εμος",
@@ -2985,7 +7365,8 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -2997,7 +7378,29 @@
    ],
    "feminine": "ἐμή",
    "neuter": "ἐμόν"
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 6,
+    "form": "ἐμοῦ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 0,
+    "form": "ἐμῶν"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "ἐμοῦ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "ἐμοῦ"
+   }
+  ]
  },
  {
   "id": "χραομαι",
@@ -3015,9 +7418,10 @@
   "level": "beginner",
   "topics": [
    "history",
-   "city-life"
+   "city-life",
+   "philosophy"
   ],
-  "notes": null,
+  "notes": "Contracts with η instead of ᾱ: χρῶμαι, χρῇ, χρῆται, χρώμεθα, χρῆσθε, χρῶνται; infinitive χρῆσθαι. Takes the dative.",
   "morph": {
    "parts": {
     "present": [
@@ -3043,8 +7447,28 @@
     "ἐχρησάμην",
     "κέχρημαι",
     "ἐχρήσθην"
-   ]
-  }
+   ],
+   "verb": {
+    "contract": "eta"
+   }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 4,
+    "form": "ἐχρήσαντο"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 5,
+    "form": "χρώμενος"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 8,
+    "form": "χρῶνται"
+   }
+  ]
  },
  {
   "id": "δυο",
@@ -3062,14 +7486,32 @@
   "level": "beginner",
   "topics": [
    "history",
-   "city-life"
+   "city-life",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "δύο"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 0,
+    "form": "δύο"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 3,
+    "form": "δύο"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 4,
+    "form": "δύο"
+   }
+  ]
  },
  {
   "id": "χρονος",
@@ -3093,7 +7535,14 @@
    "genitive": "χρόνου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "χρόνου"
+   }
+  ]
  },
  {
   "id": "ισος",
@@ -3123,7 +7572,8 @@
    ],
    "feminine": "ἴση",
    "neuter": "ἴσον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "οταν",
@@ -3147,7 +7597,8 @@
    "forms": [
     "ὅταν"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "μονον",
@@ -3164,14 +7615,22 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "μόνον"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "μόνον"
+   }
+  ]
  },
  {
   "id": "οιδα",
@@ -3188,7 +7647,8 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "philosophy"
+   "philosophy",
+   "history"
   ],
   "notes": null,
   "morph": {
@@ -3214,7 +7674,24 @@
     "ἴσθι",
     "ᾔδειν"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "ᾖσαν"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 9,
+    "form": "εἰδέναι"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 0,
+    "form": "οἶδα"
+   }
+  ]
  },
  {
   "id": "βασιλευς",
@@ -3239,7 +7716,8 @@
    "genitive": "βασιλέως",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ω",
@@ -3256,14 +7734,67 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ὦ"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 0,
+    "form": "ὦ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 6,
+    "form": "ὦ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "ὦ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 13,
+    "form": "ὦ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 14,
+    "form": "ὦ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 11,
+    "form": "ὦ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 0,
+    "form": "ὦ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "ὦ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 7,
+    "form": "ὦ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 8,
+    "form": "ὦ"
+   }
+  ]
  },
  {
   "id": "βουλομαι",
@@ -3280,7 +7811,9 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "philosophy"
+   "philosophy",
+   "history",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -3305,7 +7838,24 @@
     "βεβούλημαι",
     "ἐβουλήθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 1,
+    "form": "ἐβούλετο"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 0,
+    "form": "βουλόμενος"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 6,
+    "form": "βουλόμενον"
+   }
+  ]
  },
  {
   "id": "φαινω",
@@ -3355,7 +7905,19 @@
     "πέφασμαι",
     "ἐφάνην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-rep-327a",
+    "sentence": 1,
+    "form": "ἐφαίνετο"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "φαίνωμαι"
+   }
+  ]
  },
  {
   "id": "γραφω",
@@ -3406,7 +7968,8 @@
     "γέγραμμαι",
     "ἐγράφην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "φερω",
@@ -3423,7 +7986,8 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "city-life"
+   "city-life",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -3462,8 +8026,18 @@
     "ἐνήνοχα",
     "ἐνήνεγμαι",
     "ἠνέχθην"
-   ]
-  }
+   ],
+   "verb": {
+    "aorist_stem": "ἐνεγκ"
+   }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "φέρεις"
+   }
+  ]
  },
  {
   "id": "ψυχη",
@@ -3488,7 +8062,8 @@
    "genitive": "ψυχῆς",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "μηδεις",
@@ -3505,7 +8080,8 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -3514,7 +8090,14 @@
     "μηδεμία",
     "μηδέν"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "μηδεὶς"
+   }
+  ]
  },
  {
   "id": "αιτιος",
@@ -3532,7 +8115,8 @@
   "level": "beginner",
   "topics": [
    "city-life",
-   "history"
+   "history",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -3544,7 +8128,14 @@
    ],
    "feminine": "αἰτία",
    "neuter": "αἴτιον"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-2.4",
+    "sentence": 1,
+    "form": "αἰτίαν"
+   }
+  ]
  },
  {
   "id": "παλιν",
@@ -3561,14 +8152,22 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "history"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "πάλιν"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 7,
+    "form": "πάλιν"
+   }
+  ]
  },
  {
   "id": "μαλιστα",
@@ -3585,14 +8184,37 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "μάλιστα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 3,
+    "form": "μάλιστα"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "μάλιστα"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 7,
+    "form": "μάλιστά"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "μάλιστα"
+   }
+  ]
  },
  {
   "id": "υπαρχω",
@@ -3610,7 +8232,8 @@
   "level": "beginner",
   "topics": [
    "philosophy",
-   "mythology"
+   "mythology",
+   "history"
   ],
   "notes": null,
   "morph": {
@@ -3639,7 +8262,14 @@
     "ὑπῆργμαι",
     "ὑπήρχθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 9,
+    "form": "ὑπῆρχε"
+   }
+  ]
  },
  {
   "id": "αρχω",
@@ -3685,7 +8315,14 @@
     "ἦργμαι",
     "ἤρχθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "ἀρξάμενος"
+   }
+  ]
  },
  {
   "id": "γυνη",
@@ -3710,7 +8347,14 @@
    "genitive": "γυναικός",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-2.4",
+    "sentence": 1,
+    "form": "γυναῖκα"
+   }
+  ]
  },
  {
   "id": "ποτε",
@@ -3727,14 +8371,27 @@
   "tier": 1,
   "level": "beginner",
   "topics": [
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ποτε"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 0,
+    "form": "ποτὲ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 4,
+    "form": "ποτʼ"
+   }
+  ]
  },
  {
   "id": "ινα",
@@ -3751,14 +8408,27 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἵνα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 11,
+    "form": "ἵνα"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 9,
+    "form": "ἵνα"
+   }
+  ]
  },
  {
   "id": "ονομα",
@@ -3776,14 +8446,27 @@
   "level": "elementary",
   "topics": [
    "philosophy",
-   "city-life"
+   "city-life",
+   "history"
   ],
   "notes": null,
   "morph": {
    "genitive": "ὀνόματος",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 1,
+    "form": "ὄνομα"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "ὀνόμασιν"
+   }
+  ]
  },
  {
   "id": "υπερ",
@@ -3807,7 +8490,8 @@
    "forms": [
     "ὑπέρ"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "ηδη",
@@ -3824,14 +8508,27 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἤδη"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 6,
+    "form": "ἤδη"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 13,
+    "form": "ἤδη"
+   }
+  ]
  },
  {
   "id": "πατηρ",
@@ -3856,7 +8553,8 @@
    "genitive": "πατρός",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ακουω",
@@ -3873,7 +8571,8 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "philosophy"
+   "philosophy",
+   "history"
   ],
   "notes": null,
   "morph": {
@@ -3909,7 +8608,29 @@
     "ἀκηκόη",
     "ἠκούσθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 3,
+    "form": "ἀκούσας"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 6,
+    "form": "ἀκούουσι"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "ἀκούσεσθε"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 9,
+    "form": "ἀκούητέ"
+   }
+  ]
  },
  {
   "id": "γενος",
@@ -3934,7 +8655,8 @@
    "genitive": "γένους",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "τοπος",
@@ -3959,7 +8681,14 @@
    "genitive": "τόπου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "τόπος"
+   }
+  ]
  },
  {
   "id": "πραττω",
@@ -4009,7 +8738,8 @@
     "πέπραγμαι",
     "ἐπράχθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "πρωτος",
@@ -4027,7 +8757,9 @@
   "level": "elementary",
   "topics": [
    "history",
-   "city-life"
+   "city-life",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -4039,7 +8771,49 @@
    ],
    "feminine": "πρώτη",
    "neuter": "πρῶτον"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 2,
+    "form": "πρῶτοι"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 0,
+    "form": "πρῶτον"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 4,
+    "form": "πρῶτον"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 0,
+    "form": "πρῶτος"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 1,
+    "form": "πρώτους"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 0,
+    "form": "πρῶτος"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 2,
+    "form": "πρῶτος"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 5,
+    "form": "πρώτη"
+   }
+  ]
  },
  {
   "id": "ευρισκω",
@@ -4056,7 +8830,8 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "philosophy"
+   "philosophy",
+   "history"
   ],
   "notes": null,
   "morph": {
@@ -4097,7 +8872,14 @@
     "εὕρημαι",
     "εὑρέθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "εὑρεῖν"
+   }
+  ]
  },
  {
   "id": "παις",
@@ -4115,14 +8897,53 @@
   "level": "elementary",
   "topics": [
    "city-life",
-   "mythology"
+   "mythology",
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "genitive": "παιδός",
    "gender": "m/f",
    "article": "ὁ/ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 0,
+    "form": "παῖδες"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 3,
+    "form": "παῖδα"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 4,
+    "form": "παῖς"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "παῖδας"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 3,
+    "form": "παῖδας"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 4,
+    "form": "παιδὸς"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 6,
+    "form": "παίδων"
+   }
+  ]
  },
  {
   "id": "ερχομαι",
@@ -4169,8 +8990,18 @@
     "ἐλεύσομαι",
     "ἦλθον",
     "ἐλήλυθα"
-   ]
-  }
+   ],
+   "verb": {
+    "aorist_stem": "ἐλθ"
+   }
+  },
+  "readings": [
+   {
+    "id": "apollod-2.4",
+    "sentence": 0,
+    "form": "ἐλθὼν"
+   }
+  ]
  },
  {
   "id": "υιος",
@@ -4195,7 +9026,8 @@
    "genitive": "υἱοῦ",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "υδωρ",
@@ -4220,7 +9052,14 @@
    "genitive": "ὕδατος",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.7",
+    "sentence": 0,
+    "form": "ὕδατος"
+   }
+  ]
  },
  {
   "id": "ιδιος",
@@ -4237,7 +9076,8 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "core"
+   "core",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -4249,7 +9089,14 @@
    ],
    "feminine": "ἰδία",
    "neuter": "ἴδιον"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-3.14",
+    "sentence": 1,
+    "form": "ἰδίας"
+   }
+  ]
  },
  {
   "id": "σος",
@@ -4266,7 +9113,8 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -4278,7 +9126,29 @@
    ],
    "feminine": "σή",
    "neuter": "σόν"
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 5,
+    "form": "σοι"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "σοῦ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 11,
+    "form": "σε"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "σε"
+   }
+  ]
  },
  {
   "id": "γιγνωσκω",
@@ -4328,7 +9198,14 @@
     "ἔγνωσμαι",
     "ἐγνώσθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 11,
+    "form": "ἐγίγνωσκεν"
+   }
+  ]
  },
  {
   "id": "τυγχανω",
@@ -4346,7 +9223,8 @@
   "level": "elementary",
   "topics": [
    "philosophy",
-   "mythology"
+   "mythology",
+   "history"
   ],
   "notes": null,
   "morph": {
@@ -4379,7 +9257,19 @@
     "τέτυγμαι",
     "ἐτύχθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 2,
+    "form": "ἐτύγχανε"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 14,
+    "form": "τύχῃ"
+   }
+  ]
  },
  {
   "id": "ιστημι",
@@ -4434,7 +9324,8 @@
     "εἱστήκη",
     "ἐστάθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "αμα",
@@ -4451,14 +9342,22 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἅμα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-rep-327a",
+    "sentence": 0,
+    "form": "ἅμα"
+   }
+  ]
  },
  {
   "id": "αγω",
@@ -4509,7 +9408,8 @@
     "ἦγμαι",
     "ἤχθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "τροπος",
@@ -4533,7 +9433,19 @@
    "genitive": "τρόπου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "τρόπου"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 0,
+    "form": "τρόπον"
+   }
+  ]
  },
  {
   "id": "μητεμητε",
@@ -4557,7 +9469,8 @@
    "forms": [
     "μήτε...μήτε"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "μεσος",
@@ -4575,7 +9488,8 @@
   "level": "elementary",
   "topics": [
    "history",
-   "city-life"
+   "city-life",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -4587,7 +9501,14 @@
    ],
    "feminine": "μέση",
    "neuter": "μέσον"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-3.14",
+    "sentence": 2,
+    "form": "μέσην"
+   }
+  ]
  },
  {
   "id": "αλληλων",
@@ -4604,7 +9525,8 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "core"
+   "core",
+   "history"
   ],
   "notes": "Reciprocal pronoun ‘each other’; no nominative, plural (and dual) only.",
   "morph": {
@@ -4613,7 +9535,14 @@
     "ἀλλήλοις",
     "ἀλλήλους"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "ἀλλήλους"
+   }
+  ]
  },
  {
   "id": "αει",
@@ -4637,7 +9566,14 @@
    "forms": [
     "ἀεί"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "ἀεὶ"
+   }
+  ]
  },
  {
   "id": "φιλος",
@@ -4655,7 +9591,8 @@
   "level": "elementary",
   "topics": [
    "city-life",
-   "mythology"
+   "mythology",
+   "history"
   ],
   "notes": null,
   "morph": {
@@ -4667,7 +9604,14 @@
    ],
    "feminine": "φίλη",
    "neuter": "φίλον"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 4,
+    "form": "φίλον"
+   }
+  ]
  },
  {
   "id": "συμβαινω",
@@ -4713,7 +9657,8 @@
     "συνέβην",
     "συμβέβηκα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "εργον",
@@ -4730,14 +9675,22 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "city-life"
+   "city-life",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "genitive": "ἔργου",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "ἔργῳ"
+   }
+  ]
  },
  {
   "id": "πλεω",
@@ -4788,7 +9741,8 @@
     "πέπλευσμαι",
     "ἐπλεύσθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "τοτε",
@@ -4812,7 +9766,8 @@
    "forms": [
     "τότε"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "μην",
@@ -4836,7 +9791,8 @@
    "forms": [
     "μήν"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "χρη",
@@ -4877,7 +9833,14 @@
     "ἐχρῆν",
     "χρῆναι"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "χρῆν"
+   }
+  ]
  },
  {
   "id": "δεικνυμι",
@@ -4894,7 +9857,8 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "philosophy"
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -4927,7 +9891,14 @@
     "δέδειγμαι",
     "ἐδείχθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-3.14",
+    "sentence": 3,
+    "form": "δείκνυται"
+   }
+  ]
  },
  {
   "id": "ζωον",
@@ -4952,7 +9923,8 @@
    "genitive": "ζῴου",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "πραγμα",
@@ -4976,7 +9948,8 @@
    "genitive": "πράγματος",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "εναντιος",
@@ -5005,7 +9978,8 @@
    ],
    "feminine": "ἐναντία",
    "neuter": "ἐναντίον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "τιθημι",
@@ -5055,7 +10029,8 @@
     "τέθειμαι",
     "ἐτέθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "ειδον",
@@ -5096,7 +10071,8 @@
     "ἰδέσθαι"
    ],
    "alias_of": "ὁράω"
-  }
+  },
+  "readings": []
  },
  {
   "id": "χειρ",
@@ -5121,7 +10097,14 @@
    "genitive": "χειρός",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.1",
+    "sentence": 1,
+    "form": "χεῖρας"
+   }
+  ]
  },
  {
   "id": "μηδε",
@@ -5138,14 +10121,22 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "μηδέ"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "μηδʼ"
+   }
+  ]
  },
  {
   "id": "ολιγος",
@@ -5163,7 +10154,8 @@
   "level": "elementary",
   "topics": [
    "history",
-   "city-life"
+   "city-life",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -5175,7 +10167,19 @@
    ],
    "feminine": "ὀλίγη",
    "neuter": "ὀλίγον"
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-rep-327a",
+    "sentence": 9,
+    "form": "ὀλίγῳ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 1,
+    "form": "ὀλίγου"
+   }
+  ]
  },
  {
   "id": "νομος",
@@ -5200,7 +10204,8 @@
    "genitive": "νόμου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "κοινος",
@@ -5218,7 +10223,8 @@
   "level": "elementary",
   "topics": [
    "history",
-   "city-life"
+   "city-life",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -5230,7 +10236,14 @@
    ],
    "feminine": "κοινή",
    "neuter": "κοινόν"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 5,
+    "form": "κοινῶν"
+   }
+  ]
  },
  {
   "id": "οιομαι",
@@ -5247,9 +10260,10 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "philosophy"
+   "philosophy",
+   "history"
   ],
-  "notes": null,
+  "notes": "Present οἴομαι or (in prose) οἶμαι; imperfect ᾤμην; aorist passive in form (ᾠήθην) with active meaning ‘I thought’.",
   "morph": {
    "parts": {
     "present": [
@@ -5274,8 +10288,27 @@
     "οἰήσομαι",
     "ᾤμην",
     "ᾠήθην"
-   ]
-  }
+   ],
+   "verb": {
+    "deponent": true,
+    "tables": [
+     {
+      "tense": "imperfect",
+      "voice": "middle",
+      "mood": "indicative",
+      "forms": "ᾤμην ᾤου ᾤετο ᾠόμεθα ᾤεσθε ᾤοντο",
+      "note": "Athematic in the singular (ᾤμην, ᾤου, ᾤετο)."
+     }
+    ]
+   }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 3,
+    "form": "ᾠήθησαν"
+   }
+  ]
  },
  {
   "id": "κινεω",
@@ -5326,7 +10359,8 @@
     "κεκίνημαι",
     "ἐκινήθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "πασχω",
@@ -5344,7 +10378,8 @@
   "level": "elementary",
   "topics": [
    "mythology",
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -5369,7 +10404,19 @@
     "ἔπαθον",
     "πέπονθα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "πείσεσθαι"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 0,
+    "form": "πεπόνθατε"
+   }
+  ]
  },
  {
   "id": "πως",
@@ -5386,14 +10433,22 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "πῶς"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 9,
+    "form": "πῶς"
+   }
+  ]
  },
  {
   "id": "οσπερ",
@@ -5410,7 +10465,8 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -5419,7 +10475,14 @@
     "ἥπερ",
     "ὅπερ"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 9,
+    "form": "ὧνπερ"
+   }
+  ]
  },
  {
   "id": "τοσουτος",
@@ -5437,7 +10500,9 @@
   "level": "elementary",
   "topics": [
    "history",
-   "city-life"
+   "city-life",
+   "philosophy",
+   "mythology"
   ],
   "notes": "Declined like οὗτος: feminine and neuter plural from τοσαυτ- (τοσαύτη, τοσαῦτα); neuter singular τοσοῦτο or τοσοῦτον.",
   "morph": {
@@ -5449,7 +10514,19 @@
    ],
    "feminine": "τοσαύτη",
    "neuter": "τοσοῦτο"
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "τοσαύτῃ"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "τοσοῦτον"
+   }
+  ]
  },
  {
   "id": "συν",
@@ -5473,7 +10550,8 @@
    "forms": [
     "σύν"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "ειτα",
@@ -5490,14 +10568,22 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "εἶτα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 9,
+    "form": "εἶτα"
+   }
+  ]
  },
  {
   "id": "αληθης",
@@ -5524,7 +10610,19 @@
     "ἀληθές"
    ],
    "neuter": "ἀληθές"
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 2,
+    "form": "ἀληθές"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "ἀληθὲς"
+   }
+  ]
  },
  {
   "id": "δικαιος",
@@ -5542,7 +10640,8 @@
   "level": "elementary",
   "topics": [
    "city-life",
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -5554,7 +10653,14 @@
    ],
    "feminine": "δικαία",
    "neuter": "δίκαιον"
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "δίκαια"
+   }
+  ]
  },
  {
   "id": "μελλω",
@@ -5571,7 +10677,8 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "philosophy"
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -5592,7 +10699,14 @@
     "μελλήσω",
     "ἐμέλλησα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-3.14",
+    "sentence": 1,
+    "form": "ἔμελλον"
+   }
+  ]
  },
  {
   "id": "εθελω",
@@ -5634,7 +10748,19 @@
     "ἠθέλησα",
     "ἠθέληκα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 5,
+    "form": "ἠθέλησέ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "ἤθελον"
+   }
+  ]
  },
  {
   "id": "λοιπος",
@@ -5664,7 +10790,8 @@
    ],
    "feminine": "λοιπή",
    "neuter": "λοιπόν"
-  }
+  },
+  "readings": []
  },
  {
   "id": "αναγκη",
@@ -5689,7 +10816,8 @@
    "genitive": "ἀνάγκης",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "οτε",
@@ -5713,7 +10841,8 @@
    "forms": [
     "ὅτε"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "δευτερος",
@@ -5743,7 +10872,8 @@
    ],
    "feminine": "δευτέρα",
    "neuter": "δεύτερον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "πολεμος",
@@ -5767,7 +10897,19 @@
    "genitive": "πολέμου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "πόλεμον"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "πολέμους"
+   }
+  ]
  },
  {
   "id": "χωρα",
@@ -5792,7 +10934,24 @@
    "genitive": "χώρας",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 4,
+    "form": "χώρας"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 4,
+    "form": "χώρας"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 5,
+    "form": "χώρα"
+   }
+  ]
  },
  {
   "id": "ζαω",
@@ -5812,7 +10971,7 @@
    "mythology",
    "history"
   ],
-  "notes": null,
+  "notes": "Contracts with η instead of ᾱ: ζῶ, ζῇς, ζῇ, ζῶμεν, ζῆτε, ζῶσι; infinitive ζῆν.",
   "morph": {
    "parts": {
     "present": [
@@ -5834,8 +10993,12 @@
     "ζήσω",
     "ἔζησα",
     "ἔζηκα"
-   ]
-  }
+   ],
+   "verb": {
+    "contract": "eta"
+   }
+  },
+  "readings": []
  },
  {
   "id": "πληθος",
@@ -5860,7 +11023,14 @@
    "genitive": "πλήθους",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "πλῆθος"
+   }
+  ]
  },
  {
   "id": "ηλιος",
@@ -5885,7 +11055,8 @@
    "genitive": "ἡλίου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "αιτια",
@@ -5903,14 +11074,22 @@
   "level": "elementary",
   "topics": [
    "city-life",
-   "history"
+   "history",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "genitive": "αἰτίας",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-2.4",
+    "sentence": 1,
+    "form": "αἰτίαν"
+   }
+  ]
  },
  {
   "id": "πειθω",
@@ -5928,7 +11107,8 @@
   "level": "elementary",
   "topics": [
    "philosophy",
-   "city-life"
+   "city-life",
+   "history"
   ],
   "notes": null,
   "morph": {
@@ -5961,7 +11141,24 @@
     "πέπεισμαι",
     "ἐπείσθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 6,
+    "form": "πείθεται"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "πείσεσθαι"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 0,
+    "form": "ἔπεισαν"
+   }
+  ]
  },
  {
   "id": "παρειμι",
@@ -5979,7 +11176,8 @@
   "level": "elementary",
   "topics": [
    "philosophy",
-   "mythology"
+   "mythology",
+   "history"
   ],
   "notes": "Compound of εἰμί: παρά + εἰμί, ‘be present’.",
   "morph": {
@@ -6002,7 +11200,19 @@
    "raw": [
     "πάρειμι"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 1,
+    "form": "παρεῖναι"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 2,
+    "form": "παρὼν"
+   }
+  ]
  },
  {
   "id": "πλειστος",
@@ -6020,7 +11230,8 @@
   "level": "elementary",
   "topics": [
    "history",
-   "city-life"
+   "city-life",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -6032,7 +11243,19 @@
    ],
    "feminine": "πλείστη",
    "neuter": "πλεῖστον"
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 1,
+    "form": "πλεῖστον"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 10,
+    "form": "πλεῖστοί"
+   }
+  ]
  },
  {
   "id": "ειδος",
@@ -6057,7 +11280,8 @@
    "genitive": "εἴδους",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "οπως",
@@ -6074,14 +11298,28 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ὅπως"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 8,
+    "form": "ὅπως"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 5,
+    "form": "ὅπως"
+   }
+  ]
  },
  {
   "id": "τρεις",
@@ -6107,7 +11345,8 @@
     "τρεῖς",
     "τρία"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "βιος",
@@ -6125,14 +11364,27 @@
   "level": "elementary",
   "topics": [
    "mythology",
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "genitive": "βίου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 1,
+    "form": "βίου"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "βίῳ"
+   }
+  ]
  },
  {
   "id": "νομιζω",
@@ -6149,7 +11401,8 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "philosophy"
+   "philosophy",
+   "history"
   ],
   "notes": null,
   "morph": {
@@ -6182,7 +11435,29 @@
     "νενόμισμαι",
     "ἐνομίσθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "νομίζω"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 2,
+    "form": "νομίζει"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 4,
+    "form": "ἐνόμιζεν"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 9,
+    "form": "ἐνόμιζεν"
+   }
+  ]
  },
  {
   "id": "κυκλος",
@@ -6207,7 +11482,8 @@
    "genitive": "κύκλου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "παθος",
@@ -6231,7 +11507,8 @@
    "genitive": "πάθους",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "προ",
@@ -6248,14 +11525,27 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "history"
+   "history",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "πρό"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "πρὸ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 0,
+    "form": "πρὸ"
+   }
+  ]
  },
  {
   "id": "ονομαζω",
@@ -6273,7 +11563,8 @@
   "level": "elementary",
   "topics": [
    "philosophy",
-   "city-life"
+   "city-life",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -6306,7 +11597,14 @@
     "ὠνόμασμαι",
     "ὠνομάσθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-3.14",
+    "sentence": 0,
+    "form": "ὠνόμασεν"
+   }
+  ]
  },
  {
   "id": "μεντοι",
@@ -6323,14 +11621,32 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "μέντοι"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-rep-327a",
+    "sentence": 1,
+    "form": "μέντοι"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "μέντοι"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 8,
+    "form": "μέντοι"
+   }
+  ]
  },
  {
   "id": "αρετη",
@@ -6354,7 +11670,8 @@
    "genitive": "ἀρετῆς",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "υμετερος",
@@ -6383,7 +11700,8 @@
    ],
    "feminine": "ὑμετέρα",
    "neuter": "ὑμέτερον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ετος",
@@ -6400,14 +11718,22 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "history"
+   "history",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "genitive": "ἔτους",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.7",
+    "sentence": 3,
+    "form": "ἐτῶν"
+   }
+  ]
  },
  {
   "id": "αντι",
@@ -6424,14 +11750,22 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "core"
+   "core",
+   "history"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἀντί"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 8,
+    "form": "ἀντʼ"
+   }
+  ]
  },
  {
   "id": "ναυς",
@@ -6455,7 +11789,8 @@
    "genitive": "νεώς",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "τριτος",
@@ -6485,7 +11820,8 @@
    ],
    "feminine": "τρίτη",
    "neuter": "τρίτον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "πνευμα",
@@ -6510,7 +11846,8 @@
    "genitive": "πνεύματος",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ορθος",
@@ -6540,7 +11877,8 @@
    ],
    "feminine": "ὀρθή",
    "neuter": "ὀρθόν"
-  }
+  },
+  "readings": []
  },
  {
   "id": "θαλαττα",
@@ -6565,7 +11903,19 @@
    "genitive": "θαλάττης",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 2,
+    "form": "θάλατταν"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 6,
+    "form": "θάλαττα"
+   }
+  ]
  },
  {
   "id": "διαφερω",
@@ -6617,8 +11967,12 @@
     "διήνεγκον",
     "διενήνοχα",
     "διενήνεγμαι"
-   ]
-  }
+   ],
+   "verb": {
+    "aorist_stem": "ἐνεγκ"
+   }
+  },
+  "readings": []
  },
  {
   "id": "μεχρι",
@@ -6642,7 +11996,8 @@
    "forms": [
     "μέχρι"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "δοξα",
@@ -6666,7 +12021,8 @@
    "genitive": "δόξης",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "κεφαλη",
@@ -6691,7 +12047,14 @@
    "genitive": "κεφαλῆς",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.1",
+    "sentence": 1,
+    "form": "κεφαλὰς"
+   }
+  ]
  },
  {
   "id": "πυρ",
@@ -6716,7 +12079,19 @@
    "genitive": "πυρός",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.7",
+    "sentence": 0,
+    "form": "πῦρ"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 5,
+    "form": "πυρὸς"
+   }
+  ]
  },
  {
   "id": "ελαττων",
@@ -6744,7 +12119,8 @@
     "ἔλαττον"
    ],
    "neuter": "ἔλαττον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "πους",
@@ -6769,7 +12145,8 @@
    "genitive": "ποδός",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ιερος",
@@ -6798,7 +12175,8 @@
    ],
    "feminine": "ἱερά",
    "neuter": "ἱερόν"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ευθυς",
@@ -6816,7 +12194,8 @@
   "level": "elementary",
   "topics": [
    "history",
-   "city-life"
+   "city-life",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -6828,7 +12207,19 @@
    ],
    "feminine": "εὐθεῖα",
    "neuter": "εὐθύ"
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "εὐθὺς"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 9,
+    "form": "εὐθὺς"
+   }
+  ]
  },
  {
   "id": "ειμι-224",
@@ -6846,7 +12237,8 @@
   "level": "elementary",
   "topics": [
    "history",
-   "mythology"
+   "mythology",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -6872,7 +12264,29 @@
     "ἰοῦσα",
     "ἰόν"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "ᾖσαν"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 13,
+    "form": "εἰ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "εἰ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 5,
+    "form": "εἰ"
+   }
+  ]
  },
  {
   "id": "ταχυς",
@@ -6901,7 +12315,8 @@
    ],
    "feminine": "ταχεῖα",
    "neuter": "ταχύ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ποταμος",
@@ -6926,7 +12341,8 @@
    "genitive": "ποταμοῦ",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ουσια",
@@ -6951,7 +12367,8 @@
    "genitive": "οὐσίας",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "αριθμος",
@@ -6969,14 +12386,22 @@
   "level": "elementary",
   "topics": [
    "history",
-   "city-life"
+   "city-life",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "genitive": "ἀριθμοῦ",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.7",
+    "sentence": 3,
+    "form": "ἀριθμὸν"
+   }
+  ]
  },
  {
   "id": "υστερος",
@@ -6993,7 +12418,9 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "core"
+   "core",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -7005,7 +12432,19 @@
    ],
    "feminine": "ὑστέρα",
    "neuter": "ὕστερον"
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-rep-327a",
+    "sentence": 9,
+    "form": "ὕστερον"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 5,
+    "form": "ὕστερον"
+   }
+  ]
  },
  {
   "id": "φυλαττω",
@@ -7055,7 +12494,8 @@
     "πεφύλαγμαι",
     "ἐφυλάχθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "καιρος",
@@ -7079,7 +12519,8 @@
    "genitive": "καιροῦ",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "οικεω",
@@ -7126,7 +12567,8 @@
     "ᾤκηκα",
     "ᾠκήθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "αμφοτερος",
@@ -7156,7 +12598,14 @@
    ],
    "feminine": "ἀμφοτέρα",
    "neuter": "ἀμφότερον"
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "ἀμφότεροι"
+   }
+  ]
  },
  {
   "id": "σημειον",
@@ -7180,7 +12629,8 @@
    "genitive": "σημείου",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "παρεχω",
@@ -7226,8 +12676,12 @@
     "παρέσχον",
     "παρέσχηκα",
     "παρεῖχον"
-   ]
-  }
+   ],
+   "verb": {
+    "aorist_stem": "σχ"
+   }
+  },
+  "readings": []
  },
  {
   "id": "εκατερος",
@@ -7244,7 +12698,9 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -7253,7 +12709,19 @@
     "ἑκατέρα",
     "ἑκάτερον"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "ἑκατέρους"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 5,
+    "form": "ἑκατέραις"
+   }
+  ]
  },
  {
   "id": "δηλοω",
@@ -7270,7 +12738,8 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "philosophy"
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -7299,7 +12768,14 @@
     "δεδήλωκα",
     "ἐδηλώθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.7",
+    "sentence": 5,
+    "form": "δηλώσομεν"
+   }
+  ]
  },
  {
   "id": "οικειος",
@@ -7329,7 +12805,8 @@
    ],
    "feminine": "οἰκεία",
    "neuter": "οἰκεῖον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "κελευω",
@@ -7347,7 +12824,8 @@
   "level": "elementary",
   "topics": [
    "city-life",
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -7380,7 +12858,19 @@
     "κεκέλευσμαι",
     "ἐκελεύσθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-rep-327a",
+    "sentence": 3,
+    "form": "ἐκέλευσε"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 4,
+    "form": "κελεύει"
+   }
+  ]
  },
  {
   "id": "τελος",
@@ -7405,7 +12895,8 @@
    "genitive": "τέλους",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ηγεομαι",
@@ -7447,7 +12938,8 @@
     "ἡγησάμην",
     "ἥγημαι"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "αξιος",
@@ -7476,7 +12968,14 @@
    ],
    "feminine": "ἀξία",
    "neuter": "ἄξιον"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 0,
+    "form": "ἄξιος"
+   }
+  ]
  },
  {
   "id": "η-243",
@@ -7493,14 +12992,43 @@
   "tier": 2,
   "level": "elementary",
   "topics": [
-   "core"
+   "core",
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἦ"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 9,
+    "form": "ἢ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 1,
+    "form": "ἢ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 7,
+    "form": "ἢ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 8,
+    "form": "ἦ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "ἤ"
+   }
+  ]
  },
  {
   "id": "δηλος",
@@ -7529,7 +13057,8 @@
    ],
    "feminine": "δήλη",
    "neuter": "δῆλον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "τοινυν",
@@ -7553,7 +13082,8 @@
    "forms": [
     "τοίνυν"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "πολεμιος",
@@ -7582,7 +13112,14 @@
    ],
    "feminine": "πολεμία",
    "neuter": "πολέμιον"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 3,
+    "form": "πολεμίους"
+   }
+  ]
  },
  {
   "id": "ερομαι",
@@ -7624,7 +13161,14 @@
     "ἐρήσομαι",
     "ἠρόμην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-rep-327a",
+    "sentence": 5,
+    "form": "ἠρόμην"
+   }
+  ]
  },
  {
   "id": "αδελφος",
@@ -7642,14 +13186,33 @@
   "level": "elementary",
   "topics": [
    "city-life",
-   "mythology"
+   "mythology",
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "genitive": "ἀδελφοῦ",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 5,
+    "form": "ἀδελφὸν"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 8,
+    "form": "ἀδελφῷ"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 9,
+    "form": "ἀδελφὸς"
+   }
+  ]
  },
  {
   "id": "μεγεθος",
@@ -7667,14 +13230,22 @@
   "level": "elementary",
   "topics": [
    "history",
-   "city-life"
+   "city-life",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "genitive": "μεγέθους",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.1",
+    "sentence": 1,
+    "form": "μεγέθει"
+   }
+  ]
  },
  {
   "id": "ειτεειτε",
@@ -7698,7 +13269,8 @@
    "forms": [
     "εἴτε…εἴτε"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "κειμαι",
@@ -7732,7 +13304,8 @@
     "κεῖμαι",
     "κείσομαι"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "πολλακις",
@@ -7749,14 +13322,37 @@
   "tier": 3,
   "level": "intermediate",
   "topics": [
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "πολλάκις"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 6,
+    "form": "πολλάκις"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "πολλάκις"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 0,
+    "form": "πολλάκις"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 5,
+    "form": "πολλάκις"
+   }
+  ]
  },
  {
   "id": "πινω",
@@ -7809,7 +13405,8 @@
     "-πέπομαι",
     "-επόθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "χαρις",
@@ -7833,7 +13430,8 @@
    "genitive": "χάριτος",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "επειτα",
@@ -7857,7 +13455,8 @@
    "forms": [
     "ἔπειτα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "ζητεω",
@@ -7899,7 +13498,8 @@
     "ἐζήτησα",
     "ἐζήτηκα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "σχημα",
@@ -7924,7 +13524,8 @@
    "genitive": "σχήματος",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "τροφη",
@@ -7949,7 +13550,8 @@
    "genitive": "τροφῆς",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "μανθανω",
@@ -7966,7 +13568,8 @@
   "tier": 3,
   "level": "intermediate",
   "topics": [
-   "philosophy"
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -7991,7 +13594,19 @@
     "ἔμαθον",
     "μεμάθηκα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-2.4",
+    "sentence": 2,
+    "form": "μανθάνει"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 6,
+    "form": "μαθεῖν"
+   }
+  ]
  },
  {
   "id": "ενταυθα",
@@ -8015,7 +13630,8 @@
    "forms": [
     "ἐνταῦθα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "φευγω",
@@ -8058,7 +13674,14 @@
     "ἔφυγον",
     "πέφευγα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-2.4",
+    "sentence": 6,
+    "form": "φυγόντος"
+   }
+  ]
  },
  {
   "id": "ιππος",
@@ -8076,14 +13699,27 @@
   "level": "intermediate",
   "topics": [
    "mythology",
-   "city-life"
+   "city-life",
+   "history"
   ],
   "notes": null,
   "morph": {
    "genitive": "ἵππου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "ἵππον"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 7,
+    "form": "ἵπποι"
+   }
+  ]
  },
  {
   "id": "κοσμος",
@@ -8108,7 +13744,14 @@
    "genitive": "κόσμου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.1",
+    "sentence": 0,
+    "form": "κόσμου"
+   }
+  ]
  },
  {
   "id": "αιμα",
@@ -8133,7 +13776,8 @@
    "genitive": "αἵματος",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "αιρεω",
@@ -8185,8 +13829,12 @@
     "ᾕρηκα",
     "ᾕρημαι",
     "ᾑρέθην"
-   ]
-  }
+   ],
+   "verb": {
+    "aorist_stem": "ἑλ"
+   }
+  },
+  "readings": []
  },
  {
   "id": "προστιθημι",
@@ -8236,7 +13884,8 @@
     "προστέθειμαι",
     "προσετέθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "αξιοω",
@@ -8286,7 +13935,8 @@
     "ἠξίωμαι",
     "ἠξιώθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "εως",
@@ -8310,7 +13960,8 @@
    "forms": [
     "ἕως"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "νεος",
@@ -8339,7 +13990,14 @@
    ],
    "feminine": "νέα",
    "neuter": "νέον"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 3,
+    "form": "νέους"
+   }
+  ]
  },
  {
   "id": "εοικα",
@@ -8374,7 +14032,8 @@
     "ἔοικα",
     "εἰκώς"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "καν",
@@ -8398,7 +14057,8 @@
    "forms": [
     "κἄν"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "καθιστημι",
@@ -8415,7 +14075,9 @@
   "tier": 3,
   "level": "intermediate",
   "topics": [
-   "city-life"
+   "city-life",
+   "history",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -8453,7 +14115,24 @@
     "καθειστήκη",
     "κατεστάθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 5,
+    "form": "κατέστη"
+   },
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "καθισταμένου"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 1,
+    "form": "καθειστήκεσαν"
+   }
+  ]
  },
  {
   "id": "τεχνη",
@@ -8478,7 +14157,8 @@
    "genitive": "τέχνης",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "χρημα",
@@ -8503,7 +14183,8 @@
    "genitive": "χρήματος",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "σωζω",
@@ -8549,7 +14230,8 @@
     "σέσωκα",
     "ἐσώθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "πεμπω",
@@ -8567,7 +14249,8 @@
   "level": "intermediate",
   "topics": [
    "history",
-   "mythology"
+   "mythology",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -8600,7 +14283,19 @@
     "πέπεμμαι",
     "ἐπέμφθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-rep-327a",
+    "sentence": 1,
+    "form": "ἔπεμπον"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 4,
+    "form": "ἔπεμψε"
+   }
+  ]
  },
  {
   "id": "φωνη",
@@ -8624,7 +14319,8 @@
    "genitive": "φωνῆς",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ενεκα",
@@ -8641,14 +14337,22 @@
   "tier": 3,
   "level": "intermediate",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἕνεκα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 9,
+    "form": "ἕνεκα"
+   }
+  ]
  },
  {
   "id": "απολλυμι",
@@ -8697,7 +14401,8 @@
     "ἀπολώλεκα",
     "ἀπόλωλα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "θανατος",
@@ -8715,14 +14420,22 @@
   "level": "intermediate",
   "topics": [
    "mythology",
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "genitive": "θανάτου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 0,
+    "form": "θανάτου"
+   }
+  ]
  },
  {
   "id": "νυξ",
@@ -8740,14 +14453,47 @@
   "level": "intermediate",
   "topics": [
    "mythology",
-   "philosophy"
+   "philosophy",
+   "history"
   ],
   "notes": null,
   "morph": {
    "genitive": "νυκτός",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 0,
+    "form": "νυκτὸς"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 1,
+    "form": "νυκτὸς"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 4,
+    "form": "νυκτός"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 0,
+    "form": "νυκτὸς"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 2,
+    "form": "νυκτὶ"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 3,
+    "form": "νυκτὶ"
+   }
+  ]
  },
  {
   "id": "οδος",
@@ -8772,7 +14518,8 @@
    "genitive": "ὁδοῦ",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "εθνος",
@@ -8797,7 +14544,8 @@
    "genitive": "ἔθνους",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "αποδιδωμι",
@@ -8847,7 +14595,8 @@
     "ἀποδέδομαι",
     "ἀπεδόθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "νους",
@@ -8872,7 +14621,8 @@
    "gender": "m",
    "article": "ὁ",
    "subclass_hint": "noun-2-contract"
-  }
+  },
+  "readings": []
  },
  {
   "id": "μενω",
@@ -8915,7 +14665,8 @@
     "ἔμεινα",
     "μεμένηκα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "αποθνησκω",
@@ -8961,7 +14712,8 @@
     "ἀπέθανον",
     "ἀποτέθνηκα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "πανυ",
@@ -8978,14 +14730,27 @@
   "tier": 3,
   "level": "intermediate",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "πάνυ"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 2,
+    "form": "πάνυ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 8,
+    "form": "πάνυ"
+   }
+  ]
  },
  {
   "id": "ευ",
@@ -9009,7 +14774,8 @@
    "forms": [
     "εὖ"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "κρινω",
@@ -9027,7 +14793,8 @@
   "level": "intermediate",
   "topics": [
    "city-life",
-   "history"
+   "history",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -9060,7 +14827,14 @@
     "κέκριμαι",
     "ἐκρίθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-3.14",
+    "sentence": 5,
+    "form": "ἐκρίθη"
+   }
+  ]
  },
  {
   "id": "αναιρεω",
@@ -9109,8 +14883,12 @@
     "ἀνῄρηκα",
     "ἀνῄρημαι",
     "ἀνῃρέθην"
-   ]
-  }
+   ],
+   "verb": {
+    "aorist_stem": "ἑλ"
+   }
+  },
+  "readings": []
  },
  {
   "id": "μακρος",
@@ -9140,7 +14918,14 @@
    ],
    "feminine": "μακρά",
    "neuter": "μακρόν"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 0,
+    "form": "μακρῶν"
+   }
+  ]
  },
  {
   "id": "ηκω",
@@ -9158,7 +14943,8 @@
   "level": "intermediate",
   "topics": [
    "history",
-   "mythology"
+   "mythology",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -9179,7 +14965,29 @@
     "ἥξω",
     "ἧκα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 7,
+    "form": "ἥκεις"
+   },
+   {
+    "id": "plato-rep-327a",
+    "sentence": 9,
+    "form": "ἧκε"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 2,
+    "form": "ἧκεν"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 3,
+    "form": "ἧκεν"
+   }
+  ]
  },
  {
   "id": "ηδονη",
@@ -9203,7 +15011,8 @@
    "genitive": "ἡδονῆς",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "μητηρ",
@@ -9221,14 +15030,27 @@
   "level": "intermediate",
   "topics": [
    "city-life",
-   "mythology"
+   "mythology",
+   "history"
   ],
   "notes": null,
   "morph": {
    "genitive": "μητρός",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 7,
+    "form": "μήτηρ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 9,
+    "form": "μήτηρ"
+   }
+  ]
  },
  {
   "id": "δεινος",
@@ -9257,7 +15079,19 @@
    ],
    "feminine": "δεινή",
    "neuter": "δεινόν"
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "δεινοῦ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "δεινὸς"
+   }
+  ]
  },
  {
   "id": "διαφορα",
@@ -9282,7 +15116,8 @@
    "genitive": "διαφορᾶς",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "κρατεω",
@@ -9333,7 +15168,8 @@
     "κεκράτημαι",
     "ἐκρατήθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "δημος",
@@ -9358,7 +15194,8 @@
    "genitive": "δήμου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ουρανος",
@@ -9383,7 +15220,19 @@
    "genitive": "οὐρανοῦ",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.1",
+    "sentence": 0,
+    "form": "Οὐρανὸς"
+   },
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "Οὐρανὸς"
+   }
+  ]
  },
  {
   "id": "επομαι",
@@ -9425,7 +15274,8 @@
     "ἕψομαι",
     "ἑσπόμην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "ηττων",
@@ -9452,7 +15302,14 @@
     "ἧττον"
    ],
    "neuter": "ἧττον"
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-rep-327a",
+    "sentence": 1,
+    "form": "ἧττον"
+   }
+  ]
  },
  {
   "id": "ορος",
@@ -9477,7 +15334,34 @@
    "genitive": "ὄρους",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 0,
+    "form": "ὄρος"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 1,
+    "form": "ὄρει"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 2,
+    "form": "ὄρους"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 1,
+    "form": "ὄρει"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 2,
+    "form": "ὄρος"
+   }
+  ]
  },
  {
   "id": "πλην",
@@ -9494,14 +15378,22 @@
   "tier": 3,
   "level": "intermediate",
   "topics": [
-   "core"
+   "core",
+   "history"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "πλήν"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 2,
+    "form": "πλὴν"
+   }
+  ]
  },
  {
   "id": "τετταρες",
@@ -9527,7 +15419,8 @@
     "τέτταρες",
     "τέτταρα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "δυνατος",
@@ -9556,7 +15449,8 @@
    ],
    "feminine": "δυνατή",
    "neuter": "δυνατόν"
-  }
+  },
+  "readings": []
  },
  {
   "id": "οικος",
@@ -9574,14 +15468,22 @@
   "level": "intermediate",
   "topics": [
    "city-life",
-   "mythology"
+   "mythology",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "genitive": "οἴκου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 5,
+    "form": "οἴκοι"
+   }
+  ]
  },
  {
   "id": "αριστος",
@@ -9610,7 +15512,8 @@
    ],
    "feminine": "ἀρίστη",
    "neuter": "ἄριστον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ραδιος",
@@ -9639,7 +15542,8 @@
    ],
    "feminine": "ῥᾳδία",
    "neuter": "ῥᾴδιον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "αφαιρεω",
@@ -9688,8 +15592,12 @@
     "ἀφῄρηκα",
     "ἀφῄρημαι",
     "ἀφῃρέθην"
-   ]
-  }
+   ],
+   "verb": {
+    "aorist_stem": "ἑλ"
+   }
+  },
+  "readings": []
  },
  {
   "id": "τυχη",
@@ -9707,14 +15615,22 @@
   "level": "intermediate",
   "topics": [
    "mythology",
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "genitive": "τύχης",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 14,
+    "form": "τύχῃ"
+   }
+  ]
  },
  {
   "id": "φανερος",
@@ -9743,7 +15659,14 @@
    ],
    "feminine": "φανερά",
    "neuter": "φανερόν"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 5,
+    "form": "φανερὸς"
+   }
+  ]
  },
  {
   "id": "προσωπον",
@@ -9768,7 +15691,8 @@
    "genitive": "προσώπου",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "πιστευω",
@@ -9785,7 +15709,8 @@
   "tier": 3,
   "level": "intermediate",
   "topics": [
-   "philosophy"
+   "philosophy",
+   "history"
   ],
   "notes": null,
   "morph": {
@@ -9818,7 +15743,19 @@
     "πεπίστευμαι",
     "ἐπιστεύθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "πιστεῦσαι"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "πιστεύω"
+   }
+  ]
  },
  {
   "id": "διδασκω",
@@ -9868,7 +15805,8 @@
     "δεδίδαγμαι",
     "ἐδιδάχθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "ανω",
@@ -9892,7 +15830,8 @@
    "forms": [
     "ἄνω"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "ταττω",
@@ -9943,7 +15882,8 @@
     "τέταγμαι",
     "ἐτάχθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "οφθαλμος",
@@ -9968,7 +15908,14 @@
    "genitive": "ὀφθαλμοῦ",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.1",
+    "sentence": 2,
+    "form": "ὀφθαλμὸν"
+   }
+  ]
  },
  {
   "id": "δεχομαι",
@@ -10015,7 +15962,8 @@
     "δέδεγμαι",
     "-εδέχθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "αφικνεομαι",
@@ -10033,7 +15981,8 @@
   "level": "intermediate",
   "topics": [
    "history",
-   "mythology"
+   "mythology",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -10061,7 +16010,19 @@
     "ἀφικόμην",
     "ἀφῖγμαι"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 0,
+    "form": "ἀφικνοῦνται"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 0,
+    "form": "ἀφῖξαι"
+   }
+  ]
  },
  {
   "id": "ικανος",
@@ -10090,7 +16051,8 @@
    ],
    "feminine": "ἱκανή",
    "neuter": "ἱκανόν"
-  }
+  },
+  "readings": []
  },
  {
   "id": "εργαζομαι",
@@ -10132,7 +16094,8 @@
     "εἰργασάμην",
     "εἴργασμαι"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "μαχη",
@@ -10156,7 +16119,8 @@
    "genitive": "μάχης",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "τρεφω",
@@ -10203,7 +16167,8 @@
     "τέθραμμαι",
     "ἐτράφην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "αδυνατος",
@@ -10231,7 +16196,14 @@
     "ἀδύνατον"
    ],
    "neuter": "ἀδύνατον"
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 2,
+    "form": "ἀδύνατα"
+   }
+  ]
  },
  {
   "id": "ακριβης",
@@ -10259,7 +16231,8 @@
     "ἀκριβές"
    ],
    "neuter": "ἀκριβές"
-  }
+  },
+  "readings": []
  },
  {
   "id": "που",
@@ -10283,7 +16256,8 @@
    "forms": [
     "που"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "οθεν",
@@ -10300,14 +16274,22 @@
   "tier": 3,
   "level": "intermediate",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ὅθεν"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 7,
+    "form": "ὅθεν"
+   }
+  ]
  },
  {
   "id": "στομα",
@@ -10332,7 +16314,8 @@
    "genitive": "στόματος",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "χωρις",
@@ -10356,7 +16339,8 @@
    "forms": [
     "χωρίς"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "κρειττων",
@@ -10383,7 +16367,8 @@
     "κρεῖττον"
    ],
    "neuter": "κρεῖττον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "βραχυς",
@@ -10412,7 +16397,8 @@
    ],
    "feminine": "βραχεῖα",
    "neuter": "βραχύ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ισχυρος",
@@ -10441,7 +16427,8 @@
    ],
    "feminine": "ἰσχυρά",
    "neuter": "ἰσχυρόν"
-  }
+  },
+  "readings": []
  },
  {
   "id": "αληθεια",
@@ -10465,7 +16452,14 @@
    "genitive": "ἀληθείας",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "ἀλήθειαν"
+   }
+  ]
  },
  {
   "id": "δικη",
@@ -10483,14 +16477,22 @@
   "level": "intermediate",
   "topics": [
    "city-life",
-   "history"
+   "history",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "genitive": "δίκης",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.7",
+    "sentence": 5,
+    "form": "δίκην"
+   }
+  ]
  },
  {
   "id": "χωριον",
@@ -10515,7 +16517,8 @@
    "genitive": "χωρίου",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ηδυς",
@@ -10544,7 +16547,8 @@
    ],
    "feminine": "ἡδεῖα",
    "neuter": "ἡδύ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "νοσος",
@@ -10569,7 +16573,8 @@
    "genitive": "νόσου",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "λιθος",
@@ -10594,7 +16599,8 @@
    "genitive": "λίθου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "παλαιος",
@@ -10623,7 +16629,8 @@
    ],
    "feminine": "παλαιά",
    "neuter": "παλαιόν"
-  }
+  },
+  "readings": []
  },
  {
   "id": "αφιημι",
@@ -10640,7 +16647,8 @@
   "tier": 3,
   "level": "intermediate",
   "topics": [
-   "city-life"
+   "city-life",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -10673,7 +16681,19 @@
     "ἀφεῖμαι",
     "ἀφείθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-3.14",
+    "sentence": 0,
+    "form": "ἀφʼ"
+   },
+   {
+    "id": "apollod-3.14",
+    "sentence": 6,
+    "form": "ἀφʼ"
+   }
+  ]
  },
  {
   "id": "αλλως",
@@ -10690,14 +16710,22 @@
   "tier": 3,
   "level": "intermediate",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἄλλως"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 6,
+    "form": "ἄλλως"
+   }
+  ]
  },
  {
   "id": "πραξις",
@@ -10721,7 +16749,8 @@
    "genitive": "πράξεως",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "σαφης",
@@ -10748,7 +16777,8 @@
     "σαφές"
    ],
    "neuter": "σαφές"
-  }
+  },
+  "readings": []
  },
  {
   "id": "σοφος",
@@ -10777,7 +16807,8 @@
    ],
    "feminine": "σοφή",
    "neuter": "σοφόν"
-  }
+  },
+  "readings": []
  },
  {
   "id": "νικαω",
@@ -10827,7 +16858,8 @@
     "νενίκημαι",
     "ἐνικήθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "ομολογεω",
@@ -10845,7 +16877,8 @@
   "level": "intermediate",
   "topics": [
    "city-life",
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -10878,7 +16911,14 @@
     "ὡμολόγημαι",
     "ὡμολογήθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 5,
+    "form": "ὁμολογοίην"
+   }
+  ]
  },
  {
   "id": "ναος",
@@ -10903,7 +16943,8 @@
    "gender": "m",
    "article": "ὁ",
    "alt_lemma": "νεώς"
-  }
+  },
+  "readings": []
  },
  {
   "id": "αυ",
@@ -10920,7 +16961,8 @@
   "tier": 3,
   "level": "intermediate",
   "topics": [
-   "core"
+   "core",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -10928,7 +16970,14 @@
     "αὖ",
     "αὖθις"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "αὖθις"
+   }
+  ]
  },
  {
   "id": "πατρις",
@@ -10953,7 +17002,8 @@
    "genitive": "πατρίδος",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "οξυς",
@@ -10982,7 +17032,8 @@
    ],
    "feminine": "ὀξεῖα",
    "neuter": "ὀξύ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "καιτοι",
@@ -10999,14 +17050,22 @@
   "tier": 3,
   "level": "intermediate",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "καίτοι"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 2,
+    "form": "καίτοι"
+   }
+  ]
  },
  {
   "id": "πλεον",
@@ -11031,7 +17090,8 @@
    "forms": [
     "πλέον"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "πλεων",
@@ -11059,7 +17119,14 @@
     "πλέον"
    ],
    "neuter": "πλέον"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "πλείους"
+   }
+  ]
  },
  {
   "id": "γνωμη",
@@ -11083,7 +17150,8 @@
    "genitive": "γνώμης",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "τιμη",
@@ -11100,14 +17168,22 @@
   "tier": 3,
   "level": "intermediate",
   "topics": [
-   "philosophy"
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "genitive": "τιμῆς",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-3.14",
+    "sentence": 1,
+    "form": "τιμὰς"
+   }
+  ]
  },
  {
   "id": "μεταξυ",
@@ -11131,7 +17207,8 @@
    "forms": [
     "μεταξύ"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "προσηκω",
@@ -11165,7 +17242,8 @@
     "προσήκω",
     "προσήξω"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "πριν",
@@ -11189,7 +17267,8 @@
    "forms": [
     "πρίν"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "αδικεω",
@@ -11239,7 +17318,19 @@
     "ἠδίκημαι",
     "ἠδικήθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 2,
+    "form": "ἀδικεῖ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 3,
+    "form": "ἀδικεῖ"
+   }
+  ]
  },
  {
   "id": "στρατηγος",
@@ -11263,7 +17354,14 @@
    "genitive": "στρατηγοῦ",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 3,
+    "form": "στρατηγὸν"
+   }
+  ]
  },
  {
   "id": "ουκετι",
@@ -11287,7 +17385,8 @@
    "forms": [
     "οὐκέτι"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "πρεσβυς",
@@ -11312,7 +17411,8 @@
    "genitive": "πρέσβεως",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "παυω",
@@ -11363,7 +17463,8 @@
     "πέπαυμαι",
     "ἐπαύθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "τελευταω",
@@ -11381,7 +17482,8 @@
   "level": "intermediate",
   "topics": [
    "mythology",
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -11414,7 +17516,19 @@
     "τετελεύτημαι",
     "ἐτελευτήθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 5,
+    "form": "ἐτελεύτησε"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 13,
+    "form": "τελευτᾶν"
+   }
+  ]
  },
  {
   "id": "μιγνυμι",
@@ -11464,7 +17578,8 @@
     "μέμιγμαι",
     "ἐμίχθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "λαος",
@@ -11489,7 +17604,8 @@
    "genitive": "λαοῦ",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "θυγατηρ",
@@ -11514,7 +17630,14 @@
    "genitive": "θυγατρός",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "θυγατέρας"
+   }
+  ]
  },
  {
   "id": "οικια",
@@ -11539,7 +17662,8 @@
    "genitive": "οἰκίας",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "παραδιδωμι",
@@ -11589,7 +17713,8 @@
     "παραδέδομαι",
     "παρεδόθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "εξω",
@@ -11613,7 +17738,8 @@
    "forms": [
     "ἔξω"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "νησος",
@@ -11638,7 +17764,8 @@
    "genitive": "νήσου",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "εκει",
@@ -11662,7 +17789,8 @@
    "forms": [
     "ἐκεῖ"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "επιστημη",
@@ -11686,7 +17814,8 @@
    "genitive": "ἐπιστήμης",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "εαω",
@@ -11704,7 +17833,8 @@
   "level": "intermediate",
   "topics": [
    "city-life",
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -11725,7 +17855,14 @@
     "ἐάσω",
     "εἴασα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 9,
+    "form": "ἐὰν"
+   }
+  ]
  },
  {
   "id": "θαυμαζω",
@@ -11775,7 +17912,34 @@
     "τεθαύμασμαι",
     "ἐθαυμάσθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 5,
+    "form": "θαυμάζω"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "θαυμάζω"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 0,
+    "form": "ἐθαύμασα"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 3,
+    "form": "ἐθαύμασα"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 9,
+    "form": "θαυμάζειν"
+   }
+  ]
  },
  {
   "id": "αισθανομαι",
@@ -11792,7 +17956,8 @@
   "tier": 4,
   "level": "advanced",
   "topics": [
-   "philosophy"
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -11820,7 +17985,19 @@
     "ᾐσθόμην",
     "ᾔσθημαι"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 10,
+    "form": "αἰσθανόμενος"
+   },
+   {
+    "id": "apollod-1.7",
+    "sentence": 1,
+    "form": "ᾔσθετο"
+   }
+  ]
  },
  {
   "id": "χαιρω",
@@ -11866,7 +18043,8 @@
     "κεχάρημαι",
     "ἐχάρην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "χαλεπος",
@@ -11895,7 +18073,8 @@
    ],
    "feminine": "χαλεπή",
    "neuter": "χαλεπόν"
-  }
+  },
+  "readings": []
  },
  {
   "id": "τεκνον",
@@ -11920,7 +18099,8 @@
    "genitive": "τέκνου",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "καταλαμβανω",
@@ -11937,7 +18117,8 @@
   "tier": 4,
   "level": "advanced",
   "topics": [
-   "history"
+   "history",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -11970,7 +18151,14 @@
     "κατείλημμαι",
     "κατελήφθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-3.14",
+    "sentence": 1,
+    "form": "καταλαβέσθαι"
+   }
+  ]
  },
  {
   "id": "μαχομαι",
@@ -12012,7 +18200,8 @@
     "ἐμαχεσάμην",
     "μεμάχημαι"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "μιμνησκω",
@@ -12031,7 +18220,7 @@
   "topics": [
    "philosophy"
   ],
-  "notes": null,
+  "notes": "The simplex is rare: Attic uses ἀναμιμνῄσκω ‘remind’ and the perfect middle μέμνημαι ‘I remember’ (aorist passive ἐμνήσθην ‘I remembered, mentioned’).",
   "morph": {
    "parts": {
     "present": [
@@ -12058,7 +18247,8 @@
     "μέμνημαι",
     "ἐμνήσθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "θνησκω",
@@ -12078,7 +18268,7 @@
    "mythology",
    "history"
   ],
-  "notes": null,
+  "notes": "The simplex θνῄσκω is poetic; prose uses ἀποθνῄσκω. The perfect τέθνηκα means ‘I am dead’ (short forms τέθναμεν, τεθνάναι, τεθνεώς).",
   "morph": {
    "parts": {
     "present": [
@@ -12104,7 +18294,8 @@
     "τέθνηκα",
     "θανοῦμαι"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "λυω",
@@ -12121,9 +18312,10 @@
   "tier": 4,
   "level": "advanced",
   "topics": [
-   "history"
+   "history",
+   "mythology"
   ],
-  "notes": null,
+  "notes": "The simplex θνῄσκω is poetic; prose uses ἀποθνῄσκω. The perfect τέθνηκα means ‘I am dead’ (short forms τέθναμεν, τεθνάναι, τεθνεώς).",
   "morph": {
    "parts": {
     "present": [
@@ -12154,7 +18346,14 @@
     "λέλυμαι",
     "ἐλύθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.7",
+    "sentence": 5,
+    "form": "ἔλυσεν"
+   }
+  ]
  },
  {
   "id": "τιμαω",
@@ -12204,7 +18403,8 @@
     "τετίμημαι",
     "ἐτιμήθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "τειχος",
@@ -12229,7 +18429,19 @@
    "genitive": "τείχους",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 0,
+    "form": "τειχῶν"
+   },
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 2,
+    "form": "τείχη"
+   }
+  ]
  },
  {
   "id": "ισως",
@@ -12253,7 +18465,8 @@
    "forms": [
     "ἴσως"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "αιρω",
@@ -12304,7 +18517,8 @@
     "ἦρμαι",
     "ἤρθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "αποκτεινω",
@@ -12346,7 +18560,19 @@
     "ἀπέκτεινα",
     "ἀπέκτονα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 6,
+    "form": "ἀποκτενῶν"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 4,
+    "form": "ἀπέκτεινάν"
+   }
+  ]
  },
  {
   "id": "στρατιωτης",
@@ -12370,7 +18596,14 @@
    "genitive": "στρατιώτου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 6,
+    "form": "στρατιωτῶν"
+   }
+  ]
  },
  {
   "id": "ανευ",
@@ -12394,7 +18627,8 @@
    "forms": [
     "ἄνευ"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "ποτερος",
@@ -12423,7 +18657,8 @@
    ],
    "feminine": "ποτέρα",
    "neuter": "πότερον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "απλως",
@@ -12448,7 +18683,8 @@
    "forms": [
     "ἁπλῶς"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "πιπτω",
@@ -12490,7 +18726,8 @@
     "ἔπεσον",
     "πέπτωκα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "τεταρτος",
@@ -12520,7 +18757,8 @@
    ],
    "feminine": "τετάρτη",
    "neuter": "τέταρτον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "κατασκευαζω",
@@ -12558,7 +18796,8 @@
     "κατασκευάσω",
     "κατεσκεύασα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "εχθρος",
@@ -12587,7 +18826,8 @@
    ],
    "feminine": "ἐχθρά",
    "neuter": "ἐχθρόν"
-  }
+  },
+  "readings": []
  },
  {
   "id": "αγων",
@@ -12612,7 +18852,8 @@
    "genitive": "ἀγῶνος",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "κωλυω",
@@ -12662,7 +18903,8 @@
     "κεκώλυμαι",
     "ἐκωλύθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "αμαρτανω",
@@ -12716,7 +18958,8 @@
     "ἡμάρτημαι",
     "ἡμαρτήθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "διαφθειρω",
@@ -12733,7 +18976,9 @@
   "tier": 4,
   "level": "advanced",
   "topics": [
-   "history"
+   "history",
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -12766,7 +19011,24 @@
     "διέφθαρμαι",
     "διεφθάρην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 3,
+    "form": "διαφθείρων"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 4,
+    "form": "διαφθαρῆναι"
+   },
+   {
+    "id": "apollod-2.4",
+    "sentence": 5,
+    "form": "διέφθειρε"
+   }
+  ]
  },
  {
   "id": "πως-403",
@@ -12783,14 +19045,22 @@
   "tier": 4,
   "level": "advanced",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "πως"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 9,
+    "form": "πῶς"
+   }
+  ]
  },
  {
   "id": "πονος",
@@ -12814,7 +19084,8 @@
    "genitive": "πόνου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ενθα",
@@ -12831,14 +19102,22 @@
   "tier": 4,
   "level": "advanced",
   "topics": [
-   "core"
+   "core",
+   "history"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἔνθα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 7,
+    "form": "ἔνθα"
+   }
+  ]
  },
  {
   "id": "ταξις",
@@ -12862,7 +19141,8 @@
    "genitive": "τάξεως",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "πειραω",
@@ -12908,7 +19188,8 @@
     "πεπείραμαι",
     "ἐπειράθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "φοβεω",
@@ -12954,7 +19235,8 @@
     "πεφόβημαι",
     "ἐφοβήθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "βαλλω",
@@ -13008,7 +19290,8 @@
     "βέβλημαι",
     "ἐβλήθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "πονηρος",
@@ -13037,7 +19320,8 @@
    ],
    "feminine": "πονηρά",
    "neuter": "πονηρόν"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ξενος",
@@ -13062,7 +19346,8 @@
    "genitive": "ξένου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "βαρβαρος",
@@ -13090,7 +19375,14 @@
     "βάρβαρον"
    ],
    "neuter": "βάρβαρον"
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 1,
+    "form": "βαρβάρων"
+   }
+  ]
  },
  {
   "id": "οπου",
@@ -13107,14 +19399,22 @@
   "tier": 4,
   "level": "advanced",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ὅπου"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-rep-327a",
+    "sentence": 5,
+    "form": "ὅπου"
+   }
+  ]
  },
  {
   "id": "συμφερω",
@@ -13131,7 +19431,8 @@
   "tier": 4,
   "level": "advanced",
   "topics": [
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -13154,8 +19455,18 @@
     "συμφέρω",
     "συνοίσω",
     "συνήνεγκα"
-   ]
-  }
+   ],
+   "verb": {
+    "aorist_stem": "ἐνεγκ"
+   }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 14,
+    "form": "συνέφερε"
+   }
+  ]
  },
  {
   "id": "πυνθανομαι",
@@ -13172,7 +19483,8 @@
   "tier": 4,
   "level": "advanced",
   "topics": [
-   "philosophy"
+   "philosophy",
+   "mythology"
   ],
   "notes": null,
   "morph": {
@@ -13200,7 +19512,14 @@
     "ἐπυθόμην",
     "πέπυσμαι"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-2.4",
+    "sentence": 1,
+    "form": "ἐπυνθάνετο"
+   }
+  ]
  },
  {
   "id": "δουλος",
@@ -13225,7 +19544,8 @@
    "genitive": "δούλου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "τεμνω",
@@ -13278,7 +19598,8 @@
     "τέτμημαι",
     "ἐτμήθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "χρησιμος",
@@ -13307,7 +19628,8 @@
    ],
    "feminine": "χρησίμη",
    "neuter": "χρήσιμον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ποιος",
@@ -13324,7 +19646,8 @@
   "tier": 4,
   "level": "advanced",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -13336,7 +19659,14 @@
    ],
    "feminine": "ποία",
    "neuter": "ποῖον"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 4,
+    "form": "ποίῳ"
+   }
+  ]
  },
  {
   "id": "οπλον",
@@ -13360,7 +19690,8 @@
    "genitive": "ὅπλου",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "πιστις",
@@ -13384,7 +19715,8 @@
    "genitive": "πίστεως",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "υπολαμβανω",
@@ -13434,7 +19766,14 @@
     "ὑπείλημμαι",
     "ὑπελήφθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 9,
+    "form": "ὑπολαμβάνουσιν"
+   }
+  ]
  },
  {
   "id": "ποιητης",
@@ -13459,7 +19798,8 @@
    "genitive": "ποιητοῦ",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "λανθανω",
@@ -13502,7 +19842,8 @@
     "ἔλαθον",
     "λέληθα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "βελτιων",
@@ -13529,7 +19870,8 @@
     "βέλτιον"
    ],
    "neuter": "βέλτιον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "παντως",
@@ -13553,7 +19895,8 @@
    "forms": [
     "πάντως"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "πορευω",
@@ -13599,7 +19942,8 @@
     "πεπόρευμαι",
     "ἐπορεύθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "αποκρινω",
@@ -13642,7 +19986,8 @@
     "ἀπεκρινάμην",
     "ἀπεκρίθη"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "πεντε",
@@ -13667,7 +20012,8 @@
    "forms": [
     "πέντε"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "κινδυνος",
@@ -13691,7 +20037,8 @@
    "genitive": "κινδύνου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "κατηγορεω",
@@ -13709,7 +20056,8 @@
   "level": "advanced",
   "topics": [
    "city-life",
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -13742,7 +20090,14 @@
     "κατηγόρημαι",
     "κατηγορήθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 0,
+    "form": "κατηγόρων"
+   }
+  ]
  },
  {
   "id": "τρεπω",
@@ -13789,7 +20144,8 @@
     "τέτροφα",
     "ἐτράπην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "ομως",
@@ -13813,7 +20169,8 @@
    "forms": [
     "ὅμως"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "θειος",
@@ -13842,7 +20199,14 @@
    ],
    "feminine": "θεία",
    "neuter": "θεῖον"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.1",
+    "sentence": 3,
+    "form": "Θείαν"
+   }
+  ]
  },
  {
   "id": "ιππευς",
@@ -13866,7 +20230,14 @@
    "genitive": "ἱππέως",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 5,
+    "form": "ἱππέας"
+   }
+  ]
  },
  {
   "id": "κταομαι",
@@ -13908,7 +20279,8 @@
     "ἐκτησάμην",
     "κέκτημαι"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "λειπω",
@@ -13959,7 +20331,8 @@
     "λέλειμμαι",
     "ἐλείφθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "βουλη",
@@ -13984,7 +20357,8 @@
    "genitive": "βουλῆς",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ελπις",
@@ -14008,7 +20382,8 @@
    "genitive": "ἐλπίδος",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "γραφη",
@@ -14033,7 +20408,14 @@
    "genitive": "γραφῆς",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 1,
+    "form": "γραφὴ"
+   }
+  ]
  },
  {
   "id": "τικτω",
@@ -14086,7 +20468,8 @@
     "τέτεγμαι",
     "ἐτέχθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "κομιζω",
@@ -14136,7 +20519,8 @@
     "κεκόμισμαι",
     "ἐκομίσθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "θυμος",
@@ -14160,7 +20544,14 @@
    "genitive": "θυμοῦ",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-3.14",
+    "sentence": 6,
+    "form": "θυμῷ"
+   }
+  ]
  },
  {
   "id": "βλεπω",
@@ -14198,7 +20589,8 @@
     "βλέψομαι",
     "ἔβλεψα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "φοβος",
@@ -14222,7 +20614,8 @@
    "genitive": "φόβου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "πολιτεια",
@@ -14247,7 +20640,8 @@
    "genitive": "πολιτείας",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "σταδιον",
@@ -14273,7 +20667,8 @@
    "gender": "n",
    "article": "τό",
    "plural_alt": "στάδιοι"
-  }
+  },
+  "readings": []
  },
  {
   "id": "φρονεω",
@@ -14311,7 +20706,8 @@
     "φρονήσω",
     "ἐφρόνησα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "τοιοσδε",
@@ -14328,7 +20724,8 @@
   "tier": 4,
   "level": "advanced",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -14340,7 +20737,14 @@
    ],
    "feminine": "τοιάδε",
    "neuter": "τοιόνδε"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 1,
+    "form": "τοιάδε"
+   }
+  ]
  },
  {
   "id": "ορμαω",
@@ -14358,7 +20762,8 @@
   "level": "advanced",
   "topics": [
    "history",
-   "mythology"
+   "mythology",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -14391,7 +20796,14 @@
     "ὥρμημαι",
     "ὡρμήθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-rep-327a",
+    "sentence": 11,
+    "form": "ὡρμῆσθαι"
+   }
+  ]
  },
  {
   "id": "παρασκευαζω",
@@ -14408,7 +20820,8 @@
   "tier": 4,
   "level": "advanced",
   "topics": [
-   "city-life"
+   "city-life",
+   "history"
   ],
   "notes": null,
   "morph": {
@@ -14429,7 +20842,14 @@
     "παρασκευάσω",
     "παρεσκεύασα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 2,
+    "form": "παρασκευάζειν"
+   }
+  ]
  },
  {
   "id": "λαλεω",
@@ -14476,7 +20896,8 @@
     "λελάληκα",
     "ἐλαλήθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "δραω",
@@ -14526,7 +20947,8 @@
     "δέδραμαι",
     "ἐδράσθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "σκοπεω",
@@ -14564,7 +20986,8 @@
     "σκοπήσω",
     "ἐσκόπησα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "βους",
@@ -14582,14 +21005,22 @@
   "level": "advanced",
   "topics": [
    "mythology",
-   "city-life"
+   "city-life",
+   "history"
   ],
   "notes": null,
   "morph": {
    "genitive": "βοός",
    "gender": "m/f",
    "article": "ὁ/ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 4,
+    "form": "βοῶν"
+   }
+  ]
  },
  {
   "id": "ημετερος",
@@ -14618,7 +21049,8 @@
    ],
    "feminine": "ἡμετέρα",
    "neuter": "ἡμέτρον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "γραμμα",
@@ -14643,7 +21075,8 @@
    "genitive": "γράμματος",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ερωταω",
@@ -14685,7 +21118,14 @@
     "ἐρήσομαι",
     "ἠρόμην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-rep-327a",
+    "sentence": 5,
+    "form": "ἠρόμην"
+   }
+  ]
  },
  {
   "id": "πολεμεω",
@@ -14727,7 +21167,14 @@
     "ἐπολέμησα",
     "πεπολέμηκα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "ἐπολέμησαν"
+   }
+  ]
  },
  {
   "id": "θυω",
@@ -14744,7 +21191,8 @@
   "tier": 4,
   "level": "advanced",
   "topics": [
-   "mythology"
+   "mythology",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -14777,7 +21225,14 @@
     "τέθυμαι",
     "ἐτύθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 5,
+    "form": "θύων"
+   }
+  ]
  },
  {
   "id": "ελαυνω",
@@ -14828,7 +21283,14 @@
     "ἐλήλαμαι",
     "ἠλάθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 7,
+    "form": "ἠλαύνετο"
+   }
+  ]
  },
  {
   "id": "δεδοικα",
@@ -14866,7 +21328,8 @@
     "δείσομαι",
     "ἔδεισα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "συμμαχος",
@@ -14893,7 +21356,8 @@
     "σύμμαχον"
    ],
    "neuter": "σύμμαχον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ηγεμων",
@@ -14918,7 +21382,8 @@
    "genitive": "ἡγεμόνος",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "βαρυς",
@@ -14947,7 +21412,8 @@
    ],
    "feminine": "βαρεῖα",
    "neuter": "βαρύ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ωδε",
@@ -14971,7 +21437,8 @@
    "forms": [
     "ὧδε"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "αισχρος",
@@ -15000,7 +21467,8 @@
    ],
    "feminine": "αἰσχρά",
    "neuter": "αἰσχρόν"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ειρηνη",
@@ -15024,7 +21492,8 @@
    "genitive": "εἰρήνης",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "αλισκομαι",
@@ -15041,7 +21510,8 @@
   "tier": 4,
   "level": "advanced",
   "topics": [
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
@@ -15068,8 +21538,18 @@
     "ἁλώσομαι",
     "ἑάλων",
     "ἑάλωκα"
-   ]
-  }
+   ],
+   "verb": {
+    "aorist_stem": "ἁλω"
+   }
+  },
+  "readings": [
+   {
+    "id": "plato-crito-43a",
+    "sentence": 14,
+    "form": "ἁλίσκονται"
+   }
+  ]
  },
  {
   "id": "δεκα",
@@ -15094,7 +21574,8 @@
    "forms": [
     "δέκα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "αμεινων",
@@ -15121,7 +21602,8 @@
     "ἄμεινον"
    ],
    "neuter": "ἄμεινον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "χειρων",
@@ -15148,7 +21630,8 @@
     "χεῖρον"
    ],
    "neuter": "χεῖρον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "βοηθεω",
@@ -15190,7 +21673,8 @@
     "ἐβοήθησα",
     "βεβοήθηκα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "λαμπρος",
@@ -15219,7 +21703,8 @@
    ],
    "feminine": "λαμπρά",
    "neuter": "λαμπρόν"
-  }
+  },
+  "readings": []
  },
  {
   "id": "απαλλαττω",
@@ -15271,7 +21756,8 @@
     "ἀπηλλάχθην",
     "ἀπηλλάγην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "βουλευω",
@@ -15321,7 +21807,14 @@
     "βεβούλευμαι",
     "ἐβουλεύθην"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 8,
+    "form": "βουλεύεται"
+   }
+  ]
  },
  {
   "id": "μαλα",
@@ -15345,7 +21838,8 @@
    "forms": [
     "μάλα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "αιτεω",
@@ -15396,7 +21890,8 @@
     "ᾔτημαι",
     "ᾐτήθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "σωτηρια",
@@ -15420,7 +21915,8 @@
    "genitive": "σωτηρίας",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "αρα-480",
@@ -15437,14 +21933,22 @@
   "tier": 4,
   "level": "advanced",
   "topics": [
-   "core"
+   "core",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἆρα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "ἄρα"
+   }
+  ]
  },
  {
   "id": "διωκω",
@@ -15491,7 +21995,8 @@
     "δεδίωχα",
     "ἐδιώχθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "δαιμων",
@@ -15515,7 +22020,8 @@
    "genitive": "δαίμονος",
    "gender": "m/f",
    "article": "ὁ/ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ουκουν",
@@ -15539,7 +22045,8 @@
    "forms": [
     "οὐκοῦν"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "γλωττα",
@@ -15564,7 +22071,8 @@
    "genitive": "γλώττης",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "επτα",
@@ -15589,7 +22097,8 @@
    "forms": [
     "ἑπτά"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "τολμαω",
@@ -15639,7 +22148,8 @@
     "τετόλμημαι",
     "ἐτολμήθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "δεσποτης",
@@ -15664,7 +22174,8 @@
    "genitive": "δεσπότου",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "εικος",
@@ -15681,14 +22192,22 @@
   "tier": 4,
   "level": "advanced",
   "topics": [
-   "philosophy"
+   "philosophy",
+   "history"
   ],
   "notes": null,
   "morph": {
    "genitive": "εἰκότος",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 4,
+    "form": "εἴκοσιν"
+   }
+  ]
  },
  {
   "id": "αδικος",
@@ -15715,7 +22234,8 @@
     "ἄδικον"
    ],
    "neuter": "ἄδικον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "εικοσι",
@@ -15740,7 +22260,8 @@
    "forms": [
     "εἴκοσι"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "μυριος",
@@ -15770,7 +22291,8 @@
    ],
    "feminine": "μυρία",
    "neuter": "μυρίον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "αυτικα",
@@ -15787,14 +22309,22 @@
   "tier": 4,
   "level": "advanced",
   "topics": [
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "αὐτίκα"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "plato-apol-17a",
+    "sentence": 4,
+    "form": "αὐτίκα"
+   }
+  ]
  },
  {
   "id": "δεκατος",
@@ -15824,7 +22354,8 @@
    ],
    "feminine": "δεκάτη",
    "neuter": "δέκατον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "βαινω",
@@ -15870,7 +22401,8 @@
     "ἔβην",
     "βέβηκα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "περ",
@@ -15894,7 +22426,8 @@
    "forms": [
     "περ"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "ελευθερος",
@@ -15924,7 +22457,8 @@
    ],
    "feminine": "ἐλευθέρα",
    "neuter": "ἐλεύθερον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "στρατια",
@@ -15948,7 +22482,8 @@
    "genitive": "στρατιᾶς",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "αμφι",
@@ -15965,14 +22500,22 @@
   "tier": 4,
   "level": "advanced",
   "topics": [
-   "core"
+   "core",
+   "history"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἀμφί"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 4,
+    "form": "ἀμφὶ"
+   }
+  ]
  },
  {
   "id": "συμφορα",
@@ -15990,14 +22533,32 @@
   "level": "advanced",
   "topics": [
    "mythology",
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "genitive": "συμφορᾶς",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-hell-2.2",
+    "sentence": 0,
+    "form": "συμφορά"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 12,
+    "form": "συμφορᾷ"
+   },
+   {
+    "id": "plato-crito-43a",
+    "sentence": 14,
+    "form": "συμφοραῖς"
+   }
+  ]
  },
  {
   "id": "εκατον",
@@ -16015,14 +22576,22 @@
   "level": "advanced",
   "topics": [
    "history",
-   "city-life"
+   "city-life",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "ἑκατόν"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-1.1",
+    "sentence": 1,
+    "form": "ἑκατὸν"
+   }
+  ]
  },
  {
   "id": "νικη",
@@ -16046,7 +22615,8 @@
    "genitive": "νίκης",
    "gender": "f",
    "article": "ἡ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "επος",
@@ -16064,14 +22634,37 @@
   "level": "advanced",
   "topics": [
    "philosophy",
-   "city-life"
+   "city-life",
+   "history"
   ],
   "notes": null,
   "morph": {
    "genitive": "ἔπους",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 1,
+    "form": "ἐπεὶ"
+   },
+   {
+    "id": "xen-anab-1.1",
+    "sentence": 5,
+    "form": "ἐπεὶ"
+   },
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 2,
+    "form": "ἐπεὶ"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 2,
+    "form": "ἔπος"
+   }
+  ]
  },
  {
   "id": "στρατος",
@@ -16095,7 +22688,8 @@
    "genitive": "στρατοῦ",
    "gender": "m",
    "article": "ὁ"
-  }
+  },
+  "readings": []
  },
  {
   "id": "φραζω",
@@ -16146,7 +22740,8 @@
     "πέφρασμαι",
     "ἐφράσθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "αργυριον",
@@ -16171,7 +22766,8 @@
    "genitive": "ἀργυρίου",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "τριακοντα",
@@ -16196,7 +22792,8 @@
    "forms": [
     "τριάκοντα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "εξ",
@@ -16221,7 +22818,8 @@
    "forms": [
     "ἕξ"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "πεμπτος",
@@ -16251,7 +22849,14 @@
    ],
    "feminine": "πεμπτή",
    "neuter": "πεμπτόν"
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 0,
+    "form": "πέμπτῃ"
+   }
+  ]
  },
  {
   "id": "μαρτυς",
@@ -16269,14 +22874,22 @@
   "level": "advanced",
   "topics": [
    "city-life",
-   "history"
+   "history",
+   "mythology"
   ],
   "notes": null,
   "morph": {
    "genitive": "μάρτυρος",
    "gender": "m/f",
    "article": "ὁ/ἡ"
-  }
+  },
+  "readings": [
+   {
+    "id": "apollod-3.14",
+    "sentence": 3,
+    "form": "μάρτυρα"
+   }
+  ]
  },
  {
   "id": "χαλκους",
@@ -16306,7 +22919,8 @@
    ],
    "feminine": "χαλκῆ",
    "neuter": "χαλκοῦν"
-  }
+  },
+  "readings": []
  },
  {
   "id": "εβδομος",
@@ -16336,7 +22950,8 @@
    ],
    "feminine": "ἑβδόμη",
    "neuter": "ἕβδομον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "που-512",
@@ -16360,7 +22975,8 @@
    "forms": [
     "ποῦ"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "ναι",
@@ -16384,7 +23000,8 @@
    "forms": [
     "ναί"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "φως",
@@ -16409,7 +23026,8 @@
    "genitive": "φωτός",
    "gender": "n",
    "article": "τό"
-  }
+  },
+  "readings": []
  },
  {
   "id": "οκτω",
@@ -16434,7 +23052,8 @@
    "forms": [
     "ὀκτώ"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "εκτος",
@@ -16464,7 +23083,8 @@
    ],
    "feminine": "ἕκτη",
    "neuter": "ἕκτον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "τριακοστος",
@@ -16494,7 +23114,8 @@
    ],
    "feminine": "τριακοστή",
    "neuter": "τριακοστόν"
-  }
+  },
+  "readings": []
  },
  {
   "id": "εννεα",
@@ -16519,7 +23140,8 @@
    "forms": [
     "ἐννέα"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "ποτε-519",
@@ -16536,14 +23158,27 @@
   "tier": 4,
   "level": "advanced",
   "topics": [
-   "history"
+   "history",
+   "philosophy"
   ],
   "notes": null,
   "morph": {
    "forms": [
     "πότε"
    ]
-  }
+  },
+  "readings": [
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 0,
+    "form": "ποτὲ"
+   },
+   {
+    "id": "xen-mem-1.1",
+    "sentence": 4,
+    "form": "ποτʼ"
+   }
+  ]
  },
  {
   "id": "ογδοος",
@@ -16573,7 +23208,8 @@
    ],
    "feminine": "ὀγδόη",
    "neuter": "ὄγδοον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "ενατος",
@@ -16603,7 +23239,8 @@
    ],
    "feminine": "ἐνάτα",
    "neuter": "ἔνατον"
-  }
+  },
+  "readings": []
  },
  {
   "id": "εικοστος",
@@ -16633,7 +23270,8 @@
    ],
    "feminine": "εἰκοστή",
    "neuter": "εἰκοστόν"
-  }
+  },
+  "readings": []
  },
  {
   "id": "αγγελλω",
@@ -16684,7 +23322,8 @@
     "ἤγγελμαι",
     "ἠγγέλθην"
    ]
-  }
+  },
+  "readings": []
  },
  {
   "id": "εκατοστος",
@@ -16714,6 +23353,7 @@
    ],
    "feminine": "ἑκατοστή",
    "neuter": "ἑκατοστόν"
-  }
+  },
+  "readings": []
  }
 ]

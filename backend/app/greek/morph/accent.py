@@ -158,12 +158,13 @@ def persistent(form: str, from_start: int, ultima_kind: str = "acute") -> str:
     return accentuate(bare, from_end, kind)
 
 
-def recessive(form: str) -> str:
-    """Verb-style recessive accent: as far from the end as the ultima allows."""
+def recessive(form: str, optative: bool = False) -> str:
+    """Verb-style recessive accent: as far from the end as the ultima allows.
+    In the optative a final -αι/-οι counts as long (λύσαι opt. vs λῦσαι inf.)."""
     bare = strip_accent(form)
     sylls = syllables(bare)
     n = len(sylls)
-    ultima_long = syllable_is_long(sylls[-1], final=True)
+    ultima_long = syllable_is_long(sylls[-1], final=not optative)
     if n >= 3 and not ultima_long:
         return accentuate(bare, 3, "acute")
     if n >= 2:

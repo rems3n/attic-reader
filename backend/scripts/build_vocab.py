@@ -395,6 +395,101 @@ def parse_generic(headword: str) -> dict:
 
 
 # --------------------------------------------------------------------------
+# Occurrences in the reading library → examples and topic tags
+# --------------------------------------------------------------------------
+
+READING_TOPICS = {"history": "history", "philosophy": "philosophy", "mythology": "mythology"}
+ELISION_MARKS = "\u2019\u02bc\u1fbd'"
+
+
+def _norm(text: str) -> str:
+    """Accent- and case-insensitive key (breathing kept: ὁ ≠ ὀ)."""
+    d = unicodedata.normalize("NFD", text.lower())
+    d = "".join(ch for ch in d if ch not in "\u0301\u0300\u0342")
+    return unicodedata.normalize("NFC", d)
+
+
+def all_forms(entry: dict) -> set[str]:
+    """Every surface form the engine produces for the entry (accent-free keys)."""
+    from app.greek.morph import decline_entry
+    from app.greek.morph.verb import conjugate_entry
+
+    forms: set[str] = {_norm(entry["lemma"])}
+    for f in entry["morph"].get("forms", []) or []:
+        forms.add(_norm(f))
+    try:
+        table = conjugate_entry(entry) if entry["kind"] == "verb" else decline_entry(entry)
+    except Exception:
+        table = None
+    if not table:
+        return forms
+
+    def add(form: str) -> None:
+        form = form.split(" ")[0]  # periphrastic: keep the participle
+        form = form.replace("(ν)", "")
+        if form.endswith("ν)"):
+            return
+        base = _norm(form)
+        forms.add(base)
+        if form.endswith("σι") or form.endswith("ε") and entry["kind"] == "verb":
+            forms.add(base + "ν")  # movable ν
+        if base.endswith("ν") and form.endswith("(ν)"):
+            forms.add(base[:-1])
+
+    if "systems" in table:
+        for system in table["systems"]:
+            for tb in system["tables"]:
+                for c in tb["cells"]:
+                    for f in c["forms"]:
+                        add(f)
+    else:
+        for c in table["cells"]:
+            fs = c["forms"]
+            if isinstance(fs, dict):
+                for lst in fs.values():
+                    for f in lst:
+                        add(f)
+            else:
+                for f in fs:
+                    add(f)
+    return {f for f in forms if f}
+
+
+def index_readings(entries: list[dict]) -> None:
+    """Attach `readings` (library id, sentence index, matched form) to entries
+    whose forms occur in the built-in passages; add the passage's topic."""
+    from app.library import load_manifest
+
+    form_index: dict[str, list[dict]] = {}
+    for e in entries:
+        for f in all_forms(e):
+            form_index.setdefault(f, []).append(e)
+        e["readings"] = []
+    token_re = re.compile(r"[\u0370-\u03ff\u1f00-\u1fff]+[" + ELISION_MARKS + "]?")
+    for item in load_manifest():
+        topic = READING_TOPICS.get(item["category"])
+        for si, sentence in enumerate(item["sentences"]):
+            seen: set[str] = set()
+            for m in token_re.finditer(sentence):
+                tok = m.group(0)
+                elided = tok[-1] in ELISION_MARKS
+                key = _norm(tok.rstrip(ELISION_MARKS))
+                candidates = form_index.get(key, [])
+                if not candidates and elided:
+                    for v in "αεηιουω":
+                        candidates = form_index.get(key + v, [])
+                        if candidates:
+                            break
+                for e in candidates:
+                    if e["id"] in seen:
+                        continue
+                    seen.add(e["id"])
+                    e["readings"].append({"id": item["id"], "sentence": si, "form": tok})
+                    if topic and topic not in e["topics"]:
+                        e["topics"].append(topic)
+
+
+# --------------------------------------------------------------------------
 # Build
 # --------------------------------------------------------------------------
 
@@ -470,6 +565,7 @@ def build(check: bool = False) -> list[dict]:
         entries.append(entry)
 
     entries.sort(key=lambda e: e["rank"])
+    index_readings(entries)
     if problems:
         print("UNPARSED:")
         for p in problems:
@@ -477,7 +573,8 @@ def build(check: bool = False) -> list[dict]:
     if check:
         return entries
     OUT_PATH.write_text(json.dumps(entries, ensure_ascii=False, indent=1) + "\n", "utf-8")
-    print(f"wrote {OUT_PATH} ({len(entries)} entries, {len(problems)} problems)")
+    covered = sum(1 for e in entries if e["readings"])
+    print(f"wrote {OUT_PATH} ({len(entries)} entries, {len(problems)} problems, {covered} occur in the library)")
     return entries
 
 

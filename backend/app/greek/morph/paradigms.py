@@ -35,6 +35,11 @@ def N(id, title, lemma, genitive, gender, subclass, explanation, examples, secti
     return P(id, section, title, lemma, "noun", subclass, {"genitive": genitive, "gender": gender}, explanation, examples)
 
 
+def V(id, title, lemma, explanation, examples):
+    """A verb paradigm: the forms come from the lexicon entry of `lemma`."""
+    return P(id, "verbs", title, lemma, "verb", "verb", {}, explanation, examples)
+
+
 def A(id, title, lemma, subclass, feminine, neuter, explanation, examples, terminations=3, kind="adjective", section="adjectives"):
     morph = {"terminations": terminations, "feminine": feminine, "neuter": neuter}
     if kind == "pronoun":
@@ -202,6 +207,55 @@ PARADIGMS: list[dict] = [
     A("tettares", "τέτταρες, τέτταρα — four", "τέτταρες", "pronoun", "τέτταρες", "τέτταρα",
       "Attic τέτταρες (Koine τέσσαρες). Numbers from πέντε to ἑκατόν are indeclinable.",
       [("τέτταρες ἡμέραι.", "Four days."), ("τέτταρα ἔτη.", "Four years.")], kind="pronoun", section="pronouns"),
+
+    V("luo", "λύω — the model -ω verb", "λύω",
+      "Six principal parts (λύω, λύσω, ἔλυσα, λέλυκα, λέλυμαι, ἐλύθην) give six stems; every other form is stem + ending. The indicative of past tenses takes the augment ἐ-, the perfect reduplicates (λε-λυ-). Accent is recessive except where the tables show otherwise (λῦσαι, λελυκέναι, λυθείς).",
+      [("οἱ πολέμιοι τοὺς αἰχμαλώτους λύουσιν.", "The enemy release the prisoners."), ("ἔλυσε τὸν ἵππον καὶ ἀπῆλθεν.", "He untied the horse and went away.")]),
+    V("timao", "τιμάω — α-contract verbs", "τιμάω",
+      "In the present and imperfect the stem vowel α contracts with the ending: α + ε/η → ᾱ, α + ο/ω/ου → ω, an ι in the ending survives as iota subscript (τιμᾷς). Elsewhere the α lengthens to η (τιμήσω, ἐτίμησα).",
+      [("τοὺς θεοὺς τιμῶμεν.", "We honour the gods."), ("οἱ Ἀθηναῖοι τὸν Σωκράτη οὐκ ἐτίμων.", "The Athenians did not honour Socrates.")]),
+    V("poieo", "ποιέω — ε-contract verbs", "ποιέω",
+      "ε + ε → ει, ε + ο → ου; before a long vowel or diphthong the ε simply disappears (ποιῶ, ποιῇς). Other tenses lengthen ε to η (ποιήσω).",
+      [("τί ποιεῖς;", "What are you doing?"), ("ὁ ποιητὴς καλὰ ποιήματα ἐποίει.", "The poet used to compose beautiful poems.")]),
+    V("deloo", "δηλόω — ο-contract verbs", "δηλόω",
+      "ο + ε/ο/ου → ου, ο + η/ω → ω, ο + any ι-diphthong → οι (δηλοῖς, δηλοῖ). Other tenses lengthen ο to ω (δηλώσω).",
+      [("ὁ ἄγγελος τὰ γενόμενα δηλοῖ.", "The messenger reveals what happened."), ("ταῦτα ἐδήλου ἡ ἐπιστολή.", "The letter made this clear.")]),
+    V("didomi", "δίδωμι — -μι verbs (ο-stem)", "δίδωμι",
+      "The present reduplicates with ι (δι-δω-) and adds endings straight to the stem: long stem vowel in the singular (δίδωμι, δίδως, δίδωσι), short in the plural (δίδομεν). The aorist has κ in the singular only (ἔδωκα, ἔδωκας, ἔδωκε, but ἔδομεν, ἔδοτε, ἔδοσαν).",
+      [("ὁ πατὴρ τῷ παιδὶ δῶρον δίδωσιν.", "The father gives his child a gift."), ("δός μοι τὸ ὕδωρ.", "Give me the water.")]),
+    V("tithemi", "τίθημι — -μι verbs (ε-stem)", "τίθημι",
+      "Like δίδωμι with ε/η: τίθημι, τίθης, τίθησι; τίθεμεν. Aorist ἔθηκα, ἔθεμεν; subjunctive θῶ; infinitive θεῖναι.",
+      [("τὸν νόμον τίθησιν ὁ δῆμος.", "The people make the law."), ("ἔθηκε τὸ βιβλίον ἐπὶ τὴν τράπεζαν.", "He put the book on the table.")]),
+    V("histemi", "ἵστημι — -μι verbs (α-stem)", "ἵστημι",
+      "Present ἵστημι ‘I set up’; first aorist ἔστησα ‘I set up’ (transitive), root aorist ἔστην ‘I stood’ (intransitive); perfect ἕστηκα ‘I stand’. The subjunctive contracts with η/ω (ἱστῶ, ἱστῇς).",
+      [("οἱ στρατιῶται τρόπαιον ἵστασαν.", "The soldiers were setting up a trophy."), ("ἔστη πρὸ τῆς θύρας.", "He stood in front of the door.")]),
+    V("deiknymi", "δείκνυμι — -νυμι verbs", "δείκνυμι",
+      "The suffix -νυ- appears only in the present and imperfect (δείκνῡμι, δείκνυμεν); all other tenses are regular from δεικ- (δείξω, ἔδειξα).",
+      [("δείκνυσί μοι τὴν ὁδόν.", "He shows me the way."), ("δεῖξον ἡμῖν τὸ ἱερόν.", "Show us the temple.")]),
+    V("eimi", "εἰμί — be", "εἰμί",
+      "Irregular and mostly enclitic in the present. Learn the present, imperfect, future, subjunctive (ὦ), optative (εἴην), infinitive (εἶναι) and participle (ὤν, οὖσα, ὄν).",
+      [("Σωκράτης σοφός ἐστιν.", "Socrates is wise."), ("ἦσαν ἐν τῇ ἀγορᾷ πολλοί.", "There were many people in the market-place.")]),
+    V("eimi-go", "εἶμι — go (future ‘I shall go’)", "εἶμι",
+      "In Attic prose the present indicative means ‘I shall go’ and serves as the future of ἔρχομαι; the other moods keep the present meaning (ἴθι ‘go!’, ἰέναι ‘to go’).",
+      [("εἶμι εἰς τὴν πόλιν.", "I shall go to the city."), ("ἴθι δή, λέγε.", "Come now, speak.")]),
+    V("phemi", "φημί — say", "φημί",
+      "Enclitic present (except φῄς); imperfect ἔφην ‘I said’. οὔ φημι = ‘I say that … not, I deny’.",
+      [("φησὶ ταῦτα ἀληθῆ εἶναι.", "He says this is true."), ("οὐκ ἔφη ἐλθεῖν.", "He said he had not come.")]),
+    V("oida", "οἶδα — know", "οἶδα",
+      "A perfect in form with present meaning; pluperfect ᾔδη = ‘I knew’. Infinitive εἰδέναι, participle εἰδώς.",
+      [("οἶδα οὐδὲν εἰδώς.", "I know that I know nothing."), ("ᾔδει τὴν ὁδόν.", "He knew the way.")]),
+    V("lambano", "λαμβάνω — second aorist", "λαμβάνω",
+      "The second aorist uses a different stem (λαβ-) with the endings of the imperfect (ἔλαβον) and, outside the indicative, the endings of the present; but the infinitive, participle and (for a few verbs) the imperative 2 sg. are accented on the ending: λαβεῖν, λαβών, λαβέ.",
+      [("ἔλαβε τὸ ἀργύριον.", "He took the money."), ("λαβὲ τὸ βιβλίον.", "Take the book.")]),
+    V("phaino", "φαίνω — liquid stems", "φαίνω",
+      "Stems in λ, μ, ν, ρ have no σ: the future is contract (φανῶ, φανεῖς) and the aorist lengthens the stem vowel instead (ἔφηνα). The aorist passive is second (ἐφάνην ‘I appeared’).",
+      [("ὁ ἥλιος φαίνεται.", "The sun appears."), ("ἐφάνη ὁ φίλος ἐν τῇ ἀγορᾷ.", "The friend appeared in the market-place.")]),
+    V("baino", "βαίνω — root aorist", "βαίνω",
+      "The root aorist adds the endings directly to the long stem: ἔβην, ἔβης, ἔβη, ἔβημεν; subjunctive βῶ, infinitive βῆναι, participle βάς. So too ἔγνων (γιγνώσκω) and ἔστην (ἵστημι).",
+      [("ἔβη εἰς τὴν ναῦν.", "He went aboard the ship."), ("ἔγνω τὴν ἀλήθειαν.", "He recognised the truth.")]),
+    V("gignomai", "γίγνομαι — deponent verbs", "γίγνομαι",
+      "Deponents have middle (or passive) forms with active meaning: γίγνομαι ‘I become’, ἐγενόμην ‘I became’. Some are passive deponents (ἐβουλήθην ‘I wished’).",
+      [("τί ἐγένετο;", "What happened?"), ("νὺξ ἐγένετο.", "Night fell.")]),
 ]
 
 

@@ -293,5 +293,130 @@
  },
  "55": {
   "notes": "Declined like οὗτος: feminine and neuter plural from τοιαυτ- (τοιαύτη, τοιαῦτα); neuter singular τοιοῦτο or τοιοῦτον."
+ },
+ "189": {
+  "morph": {
+   "verb": {
+    "contract": "eta"
+   }
+  },
+  "notes": "Contracts with η instead of ᾱ: ζῶ, ζῇς, ζῇ, ζῶμεν, ζῆτε, ζῶσι; infinitive ζῆν."
+ },
+ "104": {
+  "morph": {
+   "verb": {
+    "contract": "eta"
+   }
+  },
+  "notes": "Contracts with η instead of ᾱ: χρῶμαι, χρῇ, χρῆται, χρώμεθα, χρῆσθε, χρῶνται; infinitive χρῆσθαι. Takes the dative."
+ },
+ "66": {
+  "morph": {
+   "verb": {
+    "aorist_stem": "ἰδ",
+    "aorist_passive_stem": "ὀφθ"
+   }
+  }
+ },
+ "15": {
+  "morph": {
+   "verb": {
+    "aorist_stem": "εἰπ",
+    "no_augment": true
+   }
+  }
+ },
+ "116": {
+  "morph": {
+   "verb": {
+    "aorist_stem": "ἐνεγκ"
+   }
+  }
+ },
+ "215": {
+  "morph": {
+   "verb": {
+    "aorist_stem": "ἐνεγκ"
+   }
+  }
+ },
+ "414": {
+  "morph": {
+   "verb": {
+    "aorist_stem": "ἐνεγκ"
+   }
+  }
+ },
+ "265": {
+  "morph": {
+   "verb": {
+    "aorist_stem": "ἑλ"
+   }
+  }
+ },
+ "291": {
+  "morph": {
+   "verb": {
+    "aorist_stem": "ἑλ"
+   }
+  }
+ },
+ "310": {
+  "morph": {
+   "verb": {
+    "aorist_stem": "ἑλ"
+   }
+  }
+ },
+ "28": {
+  "morph": {
+   "verb": {
+    "aorist_stem": "σχ"
+   }
+  }
+ },
+ "235": {
+  "morph": {
+   "verb": {
+    "aorist_stem": "σχ"
+   }
+  }
+ },
+ "138": {
+  "morph": {
+   "verb": {
+    "aorist_stem": "ἐλθ"
+   }
+  }
+ },
+ "469": {
+  "morph": {
+   "verb": {
+    "aorist_stem": "ἁλω"
+   }
+  }
+ },
+ "171": {
+  "morph": {
+   "verb": {
+    "deponent": true,
+    "tables": [
+     {
+      "tense": "imperfect",
+      "voice": "middle",
+      "mood": "indicative",
+      "forms": "ᾤμην ᾤου ᾤετο ᾠόμεθα ᾤεσθε ᾤοντο",
+      "note": "Athematic in the singular (ᾤμην, ᾤου, ᾤετο)."
+     }
+    ]
+   }
+  },
+  "notes": "Present οἴομαι or (in prose) οἶμαι; imperfect ᾤμην; aorist passive in form (ᾠήθην) with active meaning ‘I thought’."
+ },
+ "383": {
+  "notes": "The simplex is rare: Attic uses ἀναμιμνῄσκω ‘remind’ and the perfect middle μέμνημαι ‘I remember’ (aorist passive ἐμνήσθην ‘I remembered, mentioned’)."
+ },
+ "384": {
+  "notes": "The simplex θνῄσκω is poetic; prose uses ἀποθνῄσκω. The perfect τέθνηκα means ‘I am dead’ (short forms τέθναμεν, τεθνάναι, τεθνεώς)."
  }
 }

@@ -79,15 +79,36 @@ def detail(entry: dict) -> dict:
     from .greek import attic_ipa
 
     from .greek.morph import decline_entry
+    from .greek.morph.verb import conjugate_entry
 
     out = dict(entry)
     out["ipa"] = attic_ipa(entry["lemma"])
     try:
-        out["forms"] = decline_entry(entry) if entry["kind"] != "verb" else None
+        out["forms"] = conjugate_entry(entry) if entry["kind"] == "verb" else decline_entry(entry)
     except Exception as exc:  # a bad table must not break the word page
         out["forms"] = None
         out["forms_error"] = str(exc)
+    out["examples"] = examples_for(entry)
     out["dcc_url"] = f"{ATTRIBUTION_URL.rsplit('/', 1)[0]}/greek-core/{entry['lemma'].split()[0]}"
+    return out
+
+
+def examples_for(entry: dict) -> list[dict]:
+    """Library sentences in which a form of the word occurs (built offline)."""
+    from .library import get_item, LibraryError
+
+    out = []
+    for ref in entry.get("readings", []):
+        try:
+            item = get_item(ref["id"])
+        except LibraryError:
+            continue
+        idx = ref["sentence"]
+        if 0 <= idx < len(item["sentences"]):
+            out.append({
+                "reading": ref["id"], "title": item["title"], "author": item["author"], "category": item["category"],
+                "sentence": idx, "text": item["sentences"][idx], "form": ref["form"],
+            })
     return out
 
 
