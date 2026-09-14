@@ -183,6 +183,28 @@ GOLD = [
     ("νομίζω", "aorist", "active", "participle", "νομίσας νομίσασα νομίσαν νομίσαντος"),
     ("δεῖ", "present", "active", "indicative", "δεῖ"),
     ("χρή", "imperfect", "active", "indicative", "χρῆν/ἐχρῆν"),
+    # proofread 2026-09-14: compounds, augments, long stem vowels, aliases
+    ("αἴρω", "aorist", "active", "infinitive", "ἆραι"),
+    ("αἴρω", "aorist", "active", "imperative", "ἆρον ἀράτω ἄρατε ἀράντων"),
+    ("αἴρω", "aorist", "active", "participle", "ἄρας ἄρασα ἆραν ἄραντος"),
+    ("κρίνω", "aorist", "active", "infinitive", "κρῖναι"),
+    ("κρίνω", "aorist", "active", "imperative", "κρῖνον κρινάτω κρίνατε κρινάντων"),
+    ("ἀφικνέομαι", "perfect", "middle/passive", "indicative", "ἀφῖγμαι ἀφῖξαι ἀφῖκται ἀφίγμεθα ἀφῖχθε ἀφιγμένοι_εἰσί(ν)"),
+    ("ἀφικνέομαι", "pluperfect", "middle/passive", "indicative", "ἀφίγμην ἀφῖξο ἀφῖκτο ἀφίγμεθα ἀφῖχθε ἀφιγμένοι_ἦσαν"),
+    ("εἶδον", "aorist", "active", "indicative", "εἶδον εἶδες εἶδε(ν) εἴδομεν εἴδετε εἶδον"),
+    ("εἶδον", "aorist", "active", "participle", "ἰδών ἰδοῦσα ἰδόν ἰδόντος"),
+    ("ἀπόλλυμι", "pluperfect", "active", "indicative", "ἀπωλωλέκη ἀπωλωλέκης ἀπωλωλέκει(ν) ἀπωλωλέκεμεν ἀπωλωλέκετε ἀπωλωλέκεσαν"),
+    ("ἐάω", "imperfect", "active", "indicative", "εἴων εἴας εἴα εἰῶμεν εἰᾶτε εἴων"),
+    ("ἐργάζομαι", "imperfect", "middle", "indicative", "εἰργαζόμην εἰργάζου εἰργάζετο εἰργαζόμεθα εἰργάζεσθε εἰργάζοντο"),
+    ("ἕπομαι", "imperfect", "middle", "indicative", "εἱπόμην εἵπου εἵπετο εἱπόμεθα εἵπεσθε εἵποντο"),
+    ("συμβαίνω", "pluperfect", "active", "indicative", "συνεβεβήκη συνεβεβήκης συνεβεβήκει(ν) συνεβεβήκεμεν συνεβεβήκετε συνεβεβήκεσαν"),
+    ("ὑπάρχω", "perfect", "middle/passive", "indicative", "ὑπῆργμαι ὑπῆρξαι ὑπῆρκται ὑπήργμεθα ὑπῆρχθε ὑπηργμένοι_εἰσί(ν)"),
+    ("ἔχω", "aorist", "active", "imperative", "σχές σχέτω σχέτε σχόντων"),
+    ("παρέχω", "aorist", "active", "imperative", "παράσχες παρασχέτω παράσχετε παρασχόντων"),
+    ("ἀναιρέω", "imperfect", "active", "indicative", "ἀνῄρουν ἀνῄρεις ἀνῄρει ἀνῃροῦμεν ἀνῃρεῖτε ἀνῄρουν"),
+    ("κατηγορέω", "pluperfect", "active", "indicative", "κατηγορήκη κατηγορήκης κατηγορήκει(ν) κατηγορήκεμεν κατηγορήκετε κατηγορήκεσαν"),
+    ("ὁράω", "pluperfect", "active", "indicative", "ἑωράκη ἑωράκης ἑωράκει(ν) ἑωράκεμεν ἑωράκετε ἑωράκεσαν"),
+    ("ἐλαύνω", "perfect", "active", "indicative", "ἐλήλακα ἐλήλακας ἐλήλακε(ν) ἐληλάκαμεν ἐληλάκατε ἐληλάκασι(ν)"),
 ]
 
 

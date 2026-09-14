@@ -208,6 +208,7 @@ def decline_noun(lemma: str, genitive: str, gender: str, subclass: str) -> dict:
         sg[1] = finish(accentuate(stem + "εως", 3, "acute"))
         pl[1] = finish(accentuate(stem + "εων", 3, "acute"))
         pl[2] = finish(accentuate(stem + "εσι", 3, "acute")) + "(ν)"
+        sg[4] = lemma[:-1]  # πρᾶξι, πόλι: the nominative without -ς
         note = "Third-declension ι-stem (πόλις type): stem πολι-/πολε-; genitive -εως and -εων keep the accent on the antepenult; accusative singular -ιν."
         return {"kind": "noun", "lemma": lemma, "gender": gender, "declension": "3", "note": note, "cells": _cells_noun(sg, pl)}
 
@@ -220,6 +221,32 @@ def decline_noun(lemma: str, genitive: str, gender: str, subclass: str) -> dict:
 
     # consonant stems (and anything irregular the tables do not cover)
     return _decline_third_consonant(lemma, hinted, genitive, gender, idx, oxytone)
+
+
+def _lemma_nominative(table: dict, lemma: str) -> dict:
+    """The nominative singular is the lemma as given (a properispomenon like
+    πρᾶξις carries length information the rules cannot recover)."""
+    pos = accent_position(lemma)
+    properispomenon = pos == (2, "circumflex")
+    n_lemma = len(syllables(lemma))
+    for c in table["cells"]:
+        if c["case"] == "nom" and c["number"] == "sg" and c["forms"] and c["forms"][0] != lemma and strip_accent(c["forms"][0]) == strip_accent(lemma):
+            c["forms"] = [lemma]
+        if c["case"] == "voc" and c["number"] == "sg" and c["forms"] and strip_accent(c["forms"][0]) == strip_accent(lemma) and c["forms"][0] != lemma:
+            c["forms"] = [lemma]
+        # πρᾶξις → πρᾶξιν, πρᾶξι: the hidden-long penult of a properispomenon
+        # lemma stays long in the other singular forms with a short ending.
+        if properispomenon and c["number"] == "sg" and c["forms"]:
+            fixed = []
+            for f in c["forms"]:
+                bare = strip_accent(f)
+                sylls = syllables(bare)
+                if (len(sylls) == n_lemma and bare[:-1] == strip_accent(lemma)[:-1]
+                        and accent_position(f) == (2, "acute") and not syllable_is_long(sylls[-1], True)):
+                    f = accentuate(bare, 2, "circumflex")
+                fixed.append(f)
+            c["forms"] = fixed
+    return table
 
 
 def _dative_plural_stem(stem: str) -> str:
@@ -383,6 +410,10 @@ def decline_adjective(lemma: str, morph: dict, subclass: str, kind: str = "adjec
         raise ValueError(f"no adjective rule for {lemma} ({subclass})")
 
     out = {"kind": kind, "lemma": lemma, "genders": list(genders), "note": note, "cells": _adj_cells(rows, genders)}
+    if lemma in tables.NO_VOCATIVE:
+        for c in out["cells"]:
+            if c["case"] == "voc":
+                c["forms"] = {g: [] for g in c["forms"]}
     out["comparison"] = _comparison(lemma, subclass)
     out["adverb"] = _adverb(lemma, subclass, hinted, idx)
     return out
@@ -394,7 +425,7 @@ def _comparison(lemma: str, subclass: str) -> dict | None:
         if not comp and not sup:
             return None
         return {"comparative": comp, "superlative": sup, "regular": False}
-    if lemma in tables.NO_COMPARISON:
+    if lemma in tables.NO_COMPARISON or lemma in tables.NO_COMPARISON_EXTRA:
         return None
     bare = strip_accent(lemma)
     if subclass == "adj-1-2" or bare.endswith("ος"):
@@ -425,6 +456,8 @@ def _comparison(lemma: str, subclass: str) -> dict | None:
 def _adverb(lemma: str, subclass: str, hinted: str, idx: int) -> list[str]:
     if lemma == "ἀγαθός":
         return ["εὖ"]
+    if lemma in tables.ADVERB_OVERRIDE:
+        return tables.ADVERB_OVERRIDE[lemma]
     if lemma in tables.SUPERLATIVE_ADVERB:
         return tables.SUPERLATIVE_ADVERB[lemma]
     if lemma in tables.NO_COMPARISON and subclass != "adj-1-2":
@@ -460,7 +493,7 @@ def decline(lemma: str, kind: str, subclass: str, morph: dict) -> dict | None:
         out.setdefault("comparison", _comparison(lemma, subclass))
         return out
     if kind == "noun":
-        return decline_noun(lemma, morph["genitive"], morph["gender"], subclass)
+        return _lemma_nominative(decline_noun(lemma, morph["genitive"], morph["gender"], subclass), lemma)
     if kind in {"adjective", "numeral"} and "terminations" in morph:
         return decline_adjective(lemma, morph, subclass if subclass.startswith("adj") else "adj-1-2")
     if kind == "pronoun" and len(morph.get("forms", [])) == 3 and strip_accent(lemma).endswith("ος"):

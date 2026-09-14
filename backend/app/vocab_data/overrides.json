@@ -7,6 +7,9 @@
     "aorist": [
      "εἶπον"
     ]
+   },
+   "verb": {
+    "no_aorist_middle": true
    }
   }
  },
@@ -43,6 +46,9 @@
     "infinitive-middle": [
      "ἰδέσθαι"
     ]
+   },
+   "verb": {
+    "aorist_stem": "ἰδ"
    }
   }
  },
@@ -154,6 +160,9 @@
     "aorist-passive": [
      "ἐχάρην"
     ]
+   },
+   "verb": {
+    "no_aorist_middle": true
    }
   }
  },
@@ -297,7 +306,8 @@
  "189": {
   "morph": {
    "verb": {
-    "contract": "eta"
+    "contract": "eta",
+    "no_aorist_middle": true
    }
   },
   "notes": "Contracts with η instead of ᾱ: ζῶ, ζῇς, ζῇ, ζῶμεν, ζῆτε, ζῶσι; infinitive ζῆν."
@@ -322,7 +332,8 @@
   "morph": {
    "verb": {
     "aorist_stem": "εἰπ",
-    "no_augment": true
+    "no_augment": true,
+    "no_aorist_middle": true
    }
   }
  },
@@ -371,14 +382,43 @@
  "28": {
   "morph": {
    "verb": {
-    "aorist_stem": "σχ"
+    "aorist_stem": "σχ",
+    "tables": [
+     {
+      "tense": "aorist",
+      "voice": "active",
+      "mood": "subjunctive",
+      "forms": "σχῶ σχῇς σχῇ σχῶμεν σχῆτε σχῶσι(ν)",
+      "note": "Circumflexed like a -μι verb."
+     },
+     {
+      "tense": "aorist",
+      "voice": "active",
+      "mood": "optative",
+      "forms": "σχοίην σχοίης σχοίη σχοῖμεν σχοῖτε σχοῖεν"
+     },
+     {
+      "tense": "aorist",
+      "voice": "active",
+      "mood": "imperative",
+      "forms": "- σχές σχέτω - σχέτε σχόντων"
+     }
+    ]
    }
   }
  },
  "235": {
   "morph": {
    "verb": {
-    "aorist_stem": "σχ"
+    "aorist_stem": "σχ",
+    "tables": [
+     {
+      "tense": "aorist",
+      "voice": "active",
+      "mood": "imperative",
+      "forms": "- παράσχες παρασχέτω - παράσχετε παρασχόντων"
+     }
+    ]
    }
   }
  },
@@ -417,6 +457,230 @@
   "notes": "The simplex is rare: Attic uses ἀναμιμνῄσκω ‘remind’ and the perfect middle μέμνημαι ‘I remember’ (aorist passive ἐμνήσθην ‘I remembered, mentioned’)."
  },
  "384": {
-  "notes": "The simplex θνῄσκω is poetic; prose uses ἀποθνῄσκω. The perfect τέθνηκα means ‘I am dead’ (short forms τέθναμεν, τεθνάναι, τεθνεώς)."
+  "notes": "The simplex θνῄσκω is poetic; prose uses ἀποθνῄσκω. The perfect τέθνηκα means ‘I am dead’ (short forms τέθναμεν, τεθνάναι, τεθνεώς).",
+  "morph": {
+   "verb": {}
+  }
+ },
+ "491": {
+  "notes": "As the numeral ‘ten thousand’ the word is plural μύριοι, -αι, -α with recessive accent; μυρίος (accent on the ι) means ‘countless’."
+ },
+ "279": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "287": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "395": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "173": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "261": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "144": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "286": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "293": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "259": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "424": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "401": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "181": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "182": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "71": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "444": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "448": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "459": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "473": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "486": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "122": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "156": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "253": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "131": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "90": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
+ },
+ "389": {
+  "morph": {
+   "verb": {
+    "aorist_stem_1": "ᾱρ",
+    "aorist_passive_stem": "ἀρθ"
+   }
+  }
+ },
+ "290": {
+  "morph": {
+   "verb": {
+    "aorist_stem_1": "κρῑν"
+   }
+  }
+ },
+ "461": {
+  "morph": {
+   "verb": {
+    "future_contract": "α"
+   }
+  }
+ },
+ "301": {
+  "morph": {
+   "verb": {
+    "imperfect_stem": "εἱπ"
+   }
+  }
+ },
+ "431": {
+  "morph": {
+   "verb": {
+    "compound": true
+   }
+  }
+ },
+ "358": {
+  "morph": {
+   "verb": {
+    "compound": true
+   }
+  }
+ },
+ "θνῄσκω": {
+  "morph": {
+   "verb": {
+    "no_aorist_middle": true
+   }
+  }
  }
 }

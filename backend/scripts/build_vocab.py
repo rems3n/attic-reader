@@ -520,6 +520,9 @@ def build(check: bool = False) -> list[dict]:
         definition = normalize_polytonic(row["DEFINITION"]).strip()
         kind, subclass = POS_CLASSES[pos]
         ov = overrides.get(str(rank), {})
+        lemma_key = headword.split(",")[0].split()[0]
+        if lemma_key in overrides:  # lemma-keyed override (for the two words that share rank 384)
+            ov = {**ov, **overrides[lemma_key], "morph": {**ov.get("morph", {}), **overrides[lemma_key].get("morph", {})}}
         subclass = ov.get("subclass", subclass)
 
         entry_subclass_override = None

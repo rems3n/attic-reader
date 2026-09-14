@@ -2620,7 +2620,8 @@
    ],
    "verb": {
     "aorist_stem": "εἰπ",
-    "no_augment": true
+    "no_augment": true,
+    "no_aorist_middle": true
    }
   },
   "readings": [
@@ -3816,7 +3817,28 @@
     "εἶχον"
    ],
    "verb": {
-    "aorist_stem": "σχ"
+    "aorist_stem": "σχ",
+    "tables": [
+     {
+      "tense": "aorist",
+      "voice": "active",
+      "mood": "subjunctive",
+      "forms": "σχῶ σχῇς σχῇ σχῶμεν σχῆτε σχῶσι(ν)",
+      "note": "Circumflexed like a -μι verb."
+     },
+     {
+      "tense": "aorist",
+      "voice": "active",
+      "mood": "optative",
+      "forms": "σχοίην σχοίης σχοίη σχοῖμεν σχοῖτε σχοῖεν"
+     },
+     {
+      "tense": "aorist",
+      "voice": "active",
+      "mood": "imperative",
+      "forms": "- σχές σχέτω - σχέτε σχόντων"
+     }
+    ]
    }
   },
   "readings": [
@@ -5738,7 +5760,10 @@
    "raw": [
     "εἶπον"
    ],
-   "alias_of": "λέγω"
+   "alias_of": "λέγω",
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": [
    {
@@ -6586,7 +6611,10 @@
     "δοκέω",
     "δόξω",
     "ἔδοξα"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": [
    {
@@ -7595,7 +7623,10 @@
     "φύω",
     "φύσω",
     "ἔφυσα"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": []
  },
@@ -9182,7 +9213,10 @@
     "ὑπῆρξα",
     "ὑπῆργμαι",
     "ὑπήρχθην"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": [
    {
@@ -9606,7 +9640,10 @@
     "ἠκηκόη",
     "ἀκηκόη",
     "ἠκούσθην"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": [
    {
@@ -10240,16 +10277,6 @@
     "id": "plato-crito-43a",
     "sentence": 10,
     "form": "σοῦ"
-   },
-   {
-    "id": "plato-crito-43a",
-    "sentence": 11,
-    "form": "σε"
-   },
-   {
-    "id": "plato-crito-43a",
-    "sentence": 12,
-    "form": "σε"
    }
   ]
  },
@@ -10377,7 +10404,10 @@
     "τετύχηκα",
     "τέτυγμαι",
     "ἐτύχθην"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": [
    {
@@ -10950,7 +10980,10 @@
     "πέπλευκα",
     "πέπλευσμαι",
     "ἐπλεύσθην"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": []
  },
@@ -11352,7 +11385,10 @@
     "ἰδεῖν",
     "ἰδέσθαι"
    ],
-   "alias_of": "ὁράω"
+   "alias_of": "ὁράω",
+   "verb": {
+    "aorist_stem": "ἰδ"
+   }
   },
   "readings": []
  },
@@ -11753,7 +11789,10 @@
     "πείσομαι",
     "ἔπαθον",
     "πέπονθα"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": [
    {
@@ -12087,7 +12126,10 @@
     "μέλλω",
     "μελλήσω",
     "ἐμέλλησα"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": [
    {
@@ -12138,7 +12180,10 @@
     "ἐθελήσω",
     "ἠθέλησα",
     "ἠθέληκα"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": [
    {
@@ -12420,7 +12465,8 @@
     "ἔζηκα"
    ],
    "verb": {
-    "contract": "eta"
+    "contract": "eta",
+    "no_aorist_middle": true
    }
   },
   "readings": []
@@ -14475,7 +14521,15 @@
     "παρεῖχον"
    ],
    "verb": {
-    "aorist_stem": "σχ"
+    "aorist_stem": "σχ",
+    "tables": [
+     {
+      "tense": "aorist",
+      "voice": "active",
+      "mood": "imperative",
+      "forms": "- παράσχες παρασχέτω - παράσχετε παρασχόντων"
+     }
+    ]
    }
   },
   "readings": []
@@ -15296,7 +15350,10 @@
     "πέπωκα",
     "-πέπομαι",
     "-επόθην"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": []
  },
@@ -15537,7 +15594,10 @@
     "μαθήσομαι",
     "ἔμαθον",
     "μεμάθηκα"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": [
    {
@@ -15628,7 +15688,10 @@
     "φεύξομαι",
     "ἔφυγον",
     "πέφευγα"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": [
    {
@@ -16478,7 +16541,10 @@
     "ἀπωλόμην",
     "ἀπολώλεκα",
     "ἀπόλωλα"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": []
  },
@@ -16806,7 +16872,10 @@
     "μενῶ",
     "ἔμεινα",
     "μεμένηκα"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": []
  },
@@ -16855,7 +16924,10 @@
     "ἀποθανοῦμαι",
     "ἀπέθανον",
     "ἀποτέθνηκα"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": []
  },
@@ -16999,7 +17071,10 @@
     "κέκρικα",
     "κέκριμαι",
     "ἐκρίθην"
-   ]
+   ],
+   "verb": {
+    "aorist_stem_1": "κρῑν"
+   }
   },
   "readings": [
    {
@@ -17152,7 +17227,10 @@
     "ἥκω",
     "ἥξω",
     "ἧκα"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": [
    {
@@ -17528,9 +17606,18 @@
     "ἕπομαι",
     "ἕψομαι",
     "ἑσπόμην"
-   ]
+   ],
+   "verb": {
+    "imperfect_stem": "εἱπ"
+   }
   },
-  "readings": []
+  "readings": [
+   {
+    "id": "xen-anab-4.7",
+    "sentence": 4,
+    "form": "εἵποντο"
+   }
+  ]
  },
  {
   "id": "ηττων",
@@ -19839,7 +19926,10 @@
    "raw": [
     "προσήκω",
     "προσήξω"
-   ]
+   ],
+   "verb": {
+    "compound": true
+   }
   },
   "readings": []
  },
@@ -20772,7 +20862,10 @@
     "κεχάρηκα",
     "κεχάρημαι",
     "ἐχάρην"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": []
  },
@@ -21060,7 +21153,10 @@
     "-έθανον",
     "τέθνηκα",
     "θανοῦμαι"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": []
  },
@@ -21128,7 +21224,8 @@
     "λέλυκα",
     "λέλυμαι",
     "ἐλύθην"
-   ]
+   ],
+   "verb": {}
   },
   "readings": [
    {
@@ -21319,7 +21416,11 @@
     "ἦρκα",
     "ἦρμαι",
     "ἤρθην"
-   ]
+   ],
+   "verb": {
+    "aorist_stem_1": "ᾱρ",
+    "aorist_passive_stem": "ἀρθ"
+   }
   },
   "readings": []
  },
@@ -21564,7 +21665,10 @@
     "πεσοῦμαι",
     "ἔπεσον",
     "πέπτωκα"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": []
  },
@@ -21823,7 +21927,10 @@
     "ἡμάρτηκα",
     "ἡμάρτημαι",
     "ἡμαρτήθην"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": []
  },
@@ -22868,7 +22975,10 @@
     "λήσω",
     "ἔλαθον",
     "λέληθα"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": []
  },
@@ -23163,7 +23273,10 @@
     "κατηγόρηκα",
     "κατηγόρημαι",
     "κατηγορήθην"
-   ]
+   ],
+   "verb": {
+    "compound": true
+   }
   },
   "readings": [
    {
@@ -23749,7 +23862,10 @@
     "βλέπω",
     "βλέψομαι",
     "ἔβλεψα"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": []
  },
@@ -23903,7 +24019,10 @@
     "φρονέω",
     "φρονήσω",
     "ἐφρόνησα"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": []
  },
@@ -24441,7 +24560,10 @@
     "πολεμήσω",
     "ἐπολέμησα",
     "πεπολέμηκα"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": [
    {
@@ -24576,7 +24698,10 @@
     "-ελήλακα",
     "ἐλήλαμαι",
     "ἠλάθην"
-   ]
+   ],
+   "verb": {
+    "future_contract": "α"
+   }
   },
   "readings": [
    {
@@ -25032,7 +25157,10 @@
     "βοηθήσω",
     "ἐβοήθησα",
     "βεβοήθηκα"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": []
  },
@@ -25581,7 +25709,10 @@
     "τετόλμηκα",
     "τετόλμημαι",
     "ἐτολμήθην"
-   ]
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
   },
   "readings": []
  },
@@ -25742,7 +25873,7 @@
    "history",
    "city-life"
   ],
-  "notes": null,
+  "notes": "As the numeral ‘ten thousand’ the word is plural μύριοι, -αι, -α with recessive accent; μυρίος (accent on the ι) means ‘countless’.",
   "cognates": {
    "derivatives": [
     "myriad"
