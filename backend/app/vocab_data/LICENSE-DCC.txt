@@ -1,0 +1,13 @@
+DCC Ancient Greek Core Vocabulary
+---------------------------------
+greek-core-list.csv is the official export of the Dickinson College
+Commentaries Greek Core Vocabulary (https://dcc.dickinson.edu/greek-core-list),
+composed in 2012-13 by a team at Dickinson College led by Christopher Francese.
+
+License: Creative Commons Attribution-ShareAlike (CC BY-SA)
+         https://creativecommons.org/licenses/by-sa/4.0/
+
+core.json in this directory is a derived work: the same headwords,
+definitions, part-of-speech classes, semantic groups and frequency ranks,
+plus parsed principal parts, Classical Attic spellings, learner tiers and
+topic tags added by this project. It is distributed under the same license.

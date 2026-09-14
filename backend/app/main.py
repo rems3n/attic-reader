@@ -35,6 +35,7 @@ from .tts import (
 from .tts.kokoro import KokoroAtticTTS
 from .tts import prerender
 from .library import LibraryError, get_item, load_manifest, summary, CATEGORIES
+from . import vocab
 
 app = FastAPI(title="Attic Reader API", version="0.2.0")
 log = logging.getLogger("attic")
@@ -157,6 +158,28 @@ def library_item(item_id: str) -> dict[str, object]:
     except LibraryError:
         raise HTTPException(status_code=404, detail=f"No reading with id {item_id!r}.")
     return {**summary(item, prerender.ready_speeds(item)), "text": item["text"], "sentences": item["sentences"]}
+
+
+@app.get("/api/vocab")
+def vocab_index() -> dict[str, object]:
+    """DCC core vocabulary: every word (light summary) plus facet counts for
+    building a study deck by topic, semantic group, part of speech or tier."""
+    entries = vocab.load_entries()
+    return {
+        "attribution": vocab.ATTRIBUTION,
+        "attribution_url": vocab.ATTRIBUTION_URL,
+        "facets": vocab.facets(entries),
+        "items": [vocab.summary(e) for e in entries],
+    }
+
+
+@app.get("/api/vocab/{entry_id}")
+def vocab_entry(entry_id: str) -> dict[str, object]:
+    try:
+        entry = vocab.get_entry(entry_id)
+    except vocab.VocabError:
+        raise HTTPException(status_code=404, detail=f"No vocabulary entry with id {entry_id!r}.")
+    return vocab.detail(entry)
 
 
 @app.post("/api/synthesize")

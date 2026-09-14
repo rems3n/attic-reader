@@ -1,0 +1,281 @@
+{
+ "57": {
+  "notes": "Second aorist of λέγω (‘I said’); the DCC lists it separately because of its frequency.",
+  "morph": {
+   "alias_of": "λέγω",
+   "parts": {
+    "aorist": [
+     "εἶπον"
+    ]
+   }
+  }
+ },
+ "79": {
+  "morph": {
+   "parts": {
+    "present": [
+     "δεῖ"
+    ],
+    "future": [
+     "δεήσει"
+    ]
+   },
+   "extra": {
+    "imperfect": [
+     "ἔδει"
+    ]
+   }
+  }
+ },
+ "165": {
+  "notes": "Second aorist of ὁράω (‘I saw’); stem ἰδ-.",
+  "morph": {
+   "alias_of": "ὁράω",
+   "parts": {
+    "aorist": [
+     "εἶδον"
+    ]
+   },
+   "extra": {
+    "infinitive-active": [
+     "ἰδεῖν"
+    ],
+    "infinitive-middle": [
+     "ἰδέσθαι"
+    ]
+   }
+  }
+ },
+ "194": {
+  "notes": "Compound of εἰμί: παρά + εἰμί, ‘be present’.",
+  "morph": {
+   "parts": {
+    "present": [
+     "πάρειμι"
+    ],
+    "future": [
+     "παρέσομαι"
+    ]
+   },
+   "extra": {
+    "imperfect": [
+     "παρῆν"
+    ],
+    "infinitive": [
+     "παρεῖναι"
+    ]
+   }
+  }
+ },
+ "224": {
+  "morph": {
+   "parts": {
+    "present": [
+     "εἶμι"
+    ]
+   },
+   "extra": {
+    "infinitive": [
+     "ἰέναι"
+    ],
+    "participle": [
+     "ἰών",
+     "ἰοῦσα",
+     "ἰόν"
+    ]
+   }
+  }
+ },
+ "272": {
+  "morph": {
+   "parts": {
+    "present": [
+     "καθίστημι"
+    ],
+    "future": [
+     "καταστήσω"
+    ],
+    "aorist": [
+     "κατέστησα"
+    ],
+    "aorist-2": [
+     "κατέστην"
+    ],
+    "perfect": [
+     "καθέστηκα"
+    ],
+    "aorist-passive": [
+     "κατεστάθην"
+    ]
+   },
+   "extra": {
+    "pluperfect": [
+     "καθειστήκη"
+    ]
+   }
+  }
+ },
+ "324": {
+  "morph": {
+   "parts": {
+    "present": [
+     "τρέφω"
+    ],
+    "future": [
+     "θρέψω"
+    ],
+    "aorist": [
+     "ἔθρεψα"
+    ],
+    "perfect-mp": [
+     "τέθραμμαι"
+    ],
+    "aorist-passive": [
+     "ἐτράφην"
+    ]
+   }
+  }
+ },
+ "378": {
+  "morph": {
+   "parts": {
+    "present": [
+     "χαίρω"
+    ],
+    "future": [
+     "χαιρήσω"
+    ],
+    "perfect": [
+     "κεχάρηκα"
+    ],
+    "perfect-mp": [
+     "κεχάρημαι"
+    ],
+    "aorist-passive": [
+     "ἐχάρην"
+    ]
+   }
+  }
+ },
+ "391": {
+  "subclass": "noun-1",
+  "notes": "First-declension masculine in -ης (the DCC export labels it 2nd declension)."
+ },
+ "423": {
+  "subclass": "noun-1",
+  "notes": "First-declension masculine in -ής (the DCC export labels it 2nd declension)."
+ },
+ "428": {
+  "morph": {
+   "parts": {
+    "present": [
+     "ἀποκρίνω"
+    ],
+    "future": [
+     "ἀποκρινῶ"
+    ],
+    "aorist": [
+     "ἀπεκρινάμην"
+    ],
+    "aorist-passive": [
+     "ἀπεκρίθην"
+    ]
+   }
+  },
+  "notes": "In Attic prose usually middle ἀποκρίνομαι ‘answer’; the aorist passive ἀπεκρίθην is later Greek."
+ },
+ "462": {
+  "notes": "Perfect with present meaning (‘I fear’); δέδια is the second-perfect form.",
+  "morph": {
+   "parts": {
+    "present": [
+     "δέδοικα"
+    ],
+    "future": [
+     "δείσομαι"
+    ],
+    "aorist": [
+     "ἔδεισα"
+    ]
+   }
+  }
+ },
+ "145": {
+  "morph": {
+   "parts": {
+    "present": [
+     "ἵστημι"
+    ],
+    "future": [
+     "στήσω"
+    ],
+    "aorist": [
+     "ἔστησα"
+    ],
+    "aorist-2": [
+     "ἔστην"
+    ],
+    "perfect": [
+     "ἕστηκα"
+    ],
+    "aorist-passive": [
+     "ἐστάθην"
+    ]
+   },
+   "extra": {
+    "pluperfect": [
+     "εἱστήκη"
+    ]
+   }
+  },
+  "notes": "First aorist ἔστησα is transitive (‘I set up’), second aorist ἔστην intransitive (‘I stood’); perfect ἕστηκα ‘I stand’."
+ },
+ "27": {
+  "subclass": "adj-pas",
+  "notes": "Declined like a 3rd-declension adjective (πᾶς, πᾶσα, πᾶν; gen. παντός, πάσης, παντός); the DCC export files it under irregular nouns."
+ },
+ "91": {
+  "subclass": "adj-pas",
+  "notes": "Declined like πᾶς (ἅπας, ἅπασα, ἅπαν)."
+ },
+ "30": {
+  "subclass": "adj-irregular",
+  "notes": "Irregular: nom./acc. sg. masc. and neut. from stem πολυ-, all other forms from πολλ- (πολλοῦ, πολλῷ, πολλοί…)."
+ },
+ "52": {
+  "subclass": "adj-irregular",
+  "notes": "Irregular: nom./acc. sg. masc. and neut. μέγας, μέγαν, μέγα; all other forms from μεγαλ-."
+ },
+ "151": {
+  "notes": "Reciprocal pronoun ‘each other’; no nominative, plural (and dual) only.",
+  "morph": {
+   "forms": [
+    "ἀλλήλων",
+    "ἀλλήλοις",
+    "ἀλλήλους"
+   ]
+  }
+ },
+ "285": {
+  "notes": "Attic contracted 2nd declension (νόος → νοῦς): νοῦς, νοῦ, νῷ, νοῦν; pl. νοῖ, νῶν, νοῖς, νοῦς.",
+  "morph": {
+   "subclass_hint": "noun-2-contract"
+  }
+ },
+ "348": {
+  "notes": "Attic-declension form νεώς (gen. νεώ) is the usual classical spelling; ναός is the common form.",
+  "morph": {
+   "genitive": "ναοῦ",
+   "alt_lemma": "νεώς"
+  }
+ },
+ "447": {
+  "morph": {
+   "genitive": "σταδίου",
+   "plural_alt": "στάδιοι"
+  }
+ },
+ "510": {
+  "notes": "Contracted adjective (χάλκεος → χαλκοῦς): all forms circumflexed on the ending."
+ }
+}

@@ -11,6 +11,7 @@ dependencies = [
   "pydantic>=2.7",
   "numpy>=1.26",
   "opencv-python-headless>=4.9",
+  "greek-accentuation>=1.2",
 ]
 
 [project.optional-dependencies]
