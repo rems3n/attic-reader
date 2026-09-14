@@ -72,6 +72,39 @@ The same cache serves repeated user text. Each clip is stored with Kokoro's
 per-token durations, from which the app derives word timings and highlights
 the word being spoken.
 
+## Vocabulary and grammar
+
+`backend/app/vocab_data/` carries the [DCC Ancient Greek Core Vocabulary](https://dcc.dickinson.edu/greek-core-list)
+(524 words, CC BY-SA; `greek-core-list.csv` is the official export). `python
+scripts/build_vocab.py` parses it into `core.json`: principal parts split into
+slots, genitives and adjective endings expanded, Classical Attic `-ττ-`
+spellings, learner tiers by frequency rank, topic tags (mythology / history /
+philosophy / city life / core) from the DCC semantic groups and from the
+readings the word occurs in, and the library sentences that contain a form of
+it. `overrides.json` holds per-word corrections (suppletive stems, notes).
+
+`backend/app/greek/morph/` is a deterministic Classical Attic morphology
+engine: every noun, adjective, pronoun and numeral is declined
+(`nominal.py`, hand tables in `tables.py`) and every verb is conjugated in
+all tenses, moods and voices from its principal parts (`verb.py`,
+`verb_endings.py`, irregulars in `verb_tables.py`). `paradigms.py` is the
+grammar section: model words with explanations and example sentences. The
+gold tables in `backend/tests/test_morph_*.py` are the reference for what
+the engine must produce; anything it gets wrong belongs there first.
+
+The app's **Vocab** tab builds a deck by topic, level, part of speech, DCC
+group or reading and studies it with spaced repetition (SM-2, in
+`frontend/lib/srs.ts`): Greek → English, English → Greek, a forms drill
+("λόγος — genitive plural?") and principal parts. Every card and every table
+cell can be heard (`POST /api/speak`, cached like everything else). Progress
+lives in the browser (`localStorage`); an optional sync code backs it up on
+the server (`PUT/GET /api/progress/{code}`, stored under a hash in
+`PROGRESS_DIR`) so it can be restored on another device.
+
+API: `GET /api/vocab`, `GET /api/vocab/{id}` (definition, forms, examples),
+`GET /api/grammar`, `GET /api/grammar/{id}`, `POST /api/speak`,
+`PUT|GET /api/progress/{code}`.
+
 ## Quick start
 
 ### 1. Backend
@@ -165,6 +198,9 @@ MMS_DEVICE=cpu
 
 # Keep robotic speech off for normal use
 ALLOW_ESPEAK_FALLBACK=false
+
+# Flash-card progress backups (sync codes); defaults next to the clip cache
+PROGRESS_DIR=/data/progress
 ```
 
 The British male Kokoro voice is only a first benchmark narrator. We are evaluating whether the model can realize the supplied Attic phonemes naturally; voice selection can be changed later without changing the Greek pronunciation engine.

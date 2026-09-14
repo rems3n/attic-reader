@@ -45,6 +45,7 @@ Vercel domain to `CORS_ORIGINS` and delete the `web` service on Railway.
    OCR_LINE_MODE=auto
    LIBRARY_PRERENDER=true
    CLIP_CACHE_DIR=/data/clip-cache
+   PROGRESS_DIR=/data/progress
    CORS_ORIGINS=http://localhost:3000
    ```
    (`CORS_ORIGINS` gets the Vercel domain added in step 7.)
@@ -57,6 +58,9 @@ Vercel domain to `CORS_ORIGINS` and delete the `web` service on Railway.
    pre-renders the reading library into `/data/clip-cache` (first deploy
    ≈ 10–15 min in the background; later deploys only fill gaps); the app's
    library shows "ready" per passage and `/api/tts/status` reports progress.
+   The same job then renders the 524 vocabulary headwords at the default
+   speed so flash cards play instantly. Flash-card progress backups (sync
+   codes) are small JSON files under `PROGRESS_DIR` on the volume.
 6. Verify:
    ```bash
    curl https://<railway-domain>/health            # {"status":"ok"}

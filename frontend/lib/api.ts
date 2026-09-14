@@ -211,3 +211,148 @@ export async function getLibraryItem(id: string): Promise<LibraryItem & { text: 
   if (!response.ok) throw new Error(await getError(response));
   return response.json();
 }
+
+// ---------------------------------------------------------------------------
+// Vocabulary, grammar, word audio, progress sync
+// ---------------------------------------------------------------------------
+
+export type Facet = { id: string | number; label: string; count: number; ranks?: string };
+export type VocabItem = {
+  id: string;
+  rank: number;
+  lemma: string;
+  headword: string;
+  short: string;
+  kind: string;
+  subclass: string;
+  pos: string;
+  group: string;
+  tier: number;
+  level: string;
+  topics: string[];
+  readings: string[];
+};
+export type VocabIndex = {
+  attribution: string;
+  attribution_url: string;
+  facets: { topics: Facet[]; groups: Facet[]; kinds: Facet[]; pos: Facet[]; tiers: Facet[]; readings: Facet[] };
+  items: VocabItem[];
+};
+export type NounTable = {
+  kind: "noun";
+  lemma: string;
+  gender: string;
+  declension?: string;
+  note?: string;
+  cells: { case: string; number: string; forms: string[] }[];
+};
+export type AdjTable = {
+  kind: "adjective" | "pronoun" | "article";
+  lemma: string;
+  genders: string[];
+  note?: string;
+  cells: { case: string; number: string; forms: Record<string, string[]> }[];
+  comparison?: { comparative: string[]; superlative: string[]; regular: boolean } | null;
+  adverb?: string[];
+};
+export type VerbCell = { tag: string; forms: string[] };
+export type VerbTable = { tense: string; voice: string; mood: string; cells: VerbCell[]; note?: string };
+export type VerbForms = {
+  kind: "verb";
+  lemma: string;
+  class: string;
+  principal_parts: { slot: string; forms: string[] }[];
+  notes: string[];
+  systems: { id: string; label: string; tables: VerbTable[] }[];
+};
+export type Forms = NounTable | AdjTable | VerbForms;
+export type Example = {
+  reading: string;
+  title: string;
+  author: string;
+  category: string;
+  sentence: number;
+  text: string;
+  form: string;
+};
+export type VocabEntry = VocabItem & {
+  definition: string;
+  dcc_headword: string | null;
+  notes: string | null;
+  morph: Record<string, unknown>;
+  ipa: string;
+  dcc_url: string;
+  forms: Forms | null;
+  examples: Example[];
+};
+
+export async function getVocab(): Promise<VocabIndex> {
+  const response = await fetch(`${API_BASE}/api/vocab`);
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}
+
+export async function getVocabEntry(id: string): Promise<VocabEntry> {
+  const response = await fetch(`${API_BASE}/api/vocab/${encodeURIComponent(id)}`);
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}
+
+export type GrammarSection = { id: string; title: string; blurb: string; items: { id: string; title: string; lemma: string }[] };
+export type GrammarItem = {
+  id: string;
+  section: string;
+  title: string;
+  lemma: string;
+  kind: string;
+  explanation: string;
+  examples: { greek: string; english: string }[];
+  table: Forms | null;
+};
+
+export async function getGrammar(): Promise<{ sections: GrammarSection[] }> {
+  const response = await fetch(`${API_BASE}/api/grammar`);
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}
+
+export async function getGrammarItem(id: string): Promise<GrammarItem> {
+  const response = await fetch(`${API_BASE}/api/grammar/${encodeURIComponent(id)}`);
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}
+
+const speakCache = new Map<string, string>();
+
+/** Audio for a single word or phrase, as an object URL (cached per page). */
+export async function speak(text: string, speed = 0.75): Promise<string> {
+  const key = `${speed}|${text}`;
+  const hit = speakCache.get(key);
+  if (hit) return hit;
+  const response = await fetch(`${API_BASE}/api/speak`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ text, speed }),
+  });
+  if (!response.ok) throw new Error(await getError(response));
+  const url = URL.createObjectURL(await response.blob());
+  speakCache.set(key, url);
+  return url;
+}
+
+export async function pushProgress(code: string, document: unknown): Promise<{ saved_at: number; bytes: number }> {
+  const response = await fetch(`${API_BASE}/api/progress/${encodeURIComponent(code)}`, {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(document),
+  });
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}
+
+export async function pullProgress<T>(code: string): Promise<{ saved_at: number; document: T } | null> {
+  const response = await fetch(`${API_BASE}/api/progress/${encodeURIComponent(code)}`, { cache: "no-store" });
+  if (response.status === 404) return null;
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}

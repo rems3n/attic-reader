@@ -36,6 +36,7 @@ from .tts.kokoro import KokoroAtticTTS
 from .tts import prerender
 from .library import LibraryError, get_item, load_manifest, summary, CATEGORIES
 from . import vocab
+from . import progress as progress_store
 from .greek.morph import paradigms
 
 app = FastAPI(title="Attic Reader API", version="0.2.0")
@@ -181,6 +182,44 @@ def vocab_entry(entry_id: str) -> dict[str, object]:
     except vocab.VocabError:
         raise HTTPException(status_code=404, detail=f"No vocabulary entry with id {entry_id!r}.")
     return vocab.detail(entry)
+
+
+@app.post("/api/speak")
+def speak(request: SynthesizeRequest) -> StreamingResponse:
+    """One short WAV for a word or phrase (flash cards, table cells). Cached on
+    disk by phoneme string, so repeated words are free after the first render."""
+    normalized = normalize_polytonic(request.text)
+    if len(normalized) > 300:
+        raise HTTPException(status_code=422, detail="Use /api/synthesize for longer text.")
+    ipa = attic_ipa(normalized)
+    try:
+        audio, provider = synthesize_best(normalized, ipa, speed=request.speed)
+    except TTSUnavailable as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+    return StreamingResponse(
+        io.BytesIO(audio),
+        media_type="audio/wav",
+        headers={"Cache-Control": "public, max-age=86400", "X-TTS-Provider": provider},
+    )
+
+
+@app.get("/api/progress/{code}")
+def progress_get(code: str) -> dict[str, object]:
+    try:
+        doc = progress_store.load(code)
+    except progress_store.ProgressError as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
+    if doc is None:
+        raise HTTPException(status_code=404, detail="No progress saved under this code yet.")
+    return doc
+
+
+@app.put("/api/progress/{code}")
+def progress_put(code: str, document: dict) -> dict[str, object]:
+    try:
+        return progress_store.save(code, document)
+    except progress_store.ProgressError as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
 
 
 @app.get("/api/grammar")

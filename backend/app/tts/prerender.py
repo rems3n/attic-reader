@@ -53,6 +53,21 @@ def plan(tts: KokoroAtticTTS) -> list[tuple[float, str, str]]:
     return jobs
 
 
+def vocab_plan(tts: KokoroAtticTTS) -> list[tuple[float, str, str]]:
+    """(speed, cache_key, chunk) for every vocabulary headword at the default
+    speed, so flash cards play instantly."""
+    from ..vocab import load_entries
+
+    jobs: list[tuple[float, str, str]] = []
+    speed = SPEEDS[0]
+    model_speed = tts.effective_speed(speed)
+    for entry in load_entries():
+        for chunk in split_phonemes(attic_ipa(entry["lemma"]), max_chars=tts.max_chars):
+            if has_speech(chunk):
+                jobs.append((speed, clip_cache.clip_key(tts.provider_id, tts.voice, model_speed, chunk), chunk))
+    return jobs
+
+
 def ready_speeds(item: dict, tts: KokoroAtticTTS | None = None) -> list[float]:
     """Speeds at which every chunk of the item is already cached."""
     tts = tts or KokoroAtticTTS()
@@ -75,7 +90,7 @@ def ready_speeds(item: dict, tts: KokoroAtticTTS | None = None) -> list[float]:
 def run(tts: KokoroAtticTTS | None = None) -> dict[str, object]:
     """Render every missing clip (blocking). Safe to call repeatedly."""
     tts = tts or KokoroAtticTTS()
-    jobs = plan(tts)
+    jobs = plan(tts) + vocab_plan(tts)
     todo = [j for j in jobs if not clip_cache.has(j[1])]
     _set(state="running", rendered=0, total=len(todo), cached=len(jobs) - len(todo), started=time.time(), finished=None)
     log.warning("library pre-render: %d clips to render, %d already cached", len(todo), len(jobs) - len(todo))

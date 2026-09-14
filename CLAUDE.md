@@ -635,3 +635,62 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   spans and follows `audio.currentTime` with requestAnimationFrame.
 - Not started: Step 6 G2P audit (syllabification, ει/ου policy). Still want
   Athenaze / LOGOS photos for the regression set.
+
+## Session log — 2026-09-14 (vocabulary, morphology, grammar)
+
+- User request: flash cards with spaced repetition + grammar tables from the
+  DCC Greek Core List, categorised by topic/level/frequency, all forms, and
+  the ability to focus on mythology / history / philosophy / city life.
+  Decisions with the user: progress in the browser + optional **sync code**
+  backup on the server (no accounts); **complete** verb tables; DCC glosses
+  from the official CSV (the user uploaded it; `dcc.dickinson.edu` is
+  egress-blocked from the sandbox). Nothing new costs money.
+- Lexicon: `backend/app/vocab_data/greek-core-list.csv` (official export,
+  CC BY-SA) → `scripts/build_vocab.py` → `core.json` (524 entries).
+  Parser handles DCC's abbreviated endings (`–ου`, `–ή –όν`), principal-part
+  labels, alternatives, Koine `-σσ-` → Attic `-ττ-` (θάλαττα, πράττω,
+  τέτταρες). Quirks: two words share rank 384 and no 385; στρατιώτης and
+  ποιητής are labelled 2nd declension by DCC (overridden to 1st);
+  πᾶς/πολύς/μέγας are filed under nouns (overridden to adjectives).
+  `overrides.json` is keyed by rank. Topics come from the DCC semantic
+  group (rules in `build_vocab.py`) plus the category of any reading the
+  word occurs in; 264 of 524 words occur in the 12 passages and carry the
+  matching sentences as examples.
+- Morphology engine `backend/app/greek/morph/`: `accent.py` (syllables,
+  persistent/recessive accent, law of limitation, final -αι/-οι short except
+  in the optative, macrons used internally for hidden length),
+  `nominal.py` + `tables.py`, `verb.py` + `verb_endings.py` +
+  `verb_tables.py`, `paradigms.py` (grammar section, 67 model paradigms with
+  examples). Uses `greek-accentuation` only for syllabification. Known
+  simplifications: no dual; perfect subjunctive/optative shown periphrastic;
+  consonant-stem perfect middle 3 pl periphrastic; contract futures assumed
+  for `-ῶ`/`-οῦμαι` futures; long vowels of a few stems hard-coded
+  (`LONG_STEMS`, `LONG_VERB_STEMS`). Suppletive/odd verbs get `verb`
+  overrides (`aorist_stem`, `aorist_passive_stem`, `no_augment`,
+  `contract: "eta"`, `deponent`, `tables` = hand tables per tense/voice/mood).
+  ~190 gold cells for nouns/adjectives/pronouns and ~150 for verbs in
+  `tests/test_morph_nominal.py` / `test_morph_verb.py`; every entry must
+  conjugate/decline without error. Forms are labelled "generated" in the UI
+  with a request to report errors.
+- API: `/api/vocab`, `/api/vocab/{id}` (forms + examples), `/api/grammar`,
+  `/api/grammar/{id}`, `POST /api/speak` (single word/phrase WAV, ≤300
+  chars, clip-cached), `PUT/GET /api/progress/{code}` (`app/progress.py`,
+  sha256(code).json under `PROGRESS_DIR`, 2 MB cap). Pre-render job now also
+  renders the 524 headwords at 0.75× after the library.
+- Frontend: `components/AppNav.tsx` (Read · Vocab · Grammar, sticky),
+  `app/vocab/page.tsx` (deck builder chips → SM-2 study session; card types
+  recognition / production (optional typed answer, accent-insensitive) /
+  forms drill / principal parts; settings: new per day, card types, sync
+  code push/pull, JSON export/import, reset), `app/vocab/[id]/page.tsx`
+  (word page: FormsTable with tap-to-speak, examples with "open in reader"
+  deep link `/?reading=<id>&sentence=<n>`), `app/grammar/`,
+  `lib/srs.ts` (pure, vitest-tested: `npm test`), `lib/progress.ts`
+  (`localStorage` key `attic.srs.v1`, merge = newer `updated` per card).
+- Verified locally end to end with the fake-Kokoro API and headless
+  Chromium (`scratchpad/e2e_vocab.py`): deck filters, study/grade, persistence
+  across reload, sync push → clear → pull, word/verb pages, grammar,
+  deep link. Backend tests: 337 passing; frontend: 6 vitest.
+- Not done / next: real-voice check of single-word clips on Railway (the
+  headword pre-render adds ~524 short clips after the library); a review pass
+  of generated forms against a grammar (report-an-error flow is manual);
+  dual number; ἵστημι/τέθνηκα short perfect forms are notes only.

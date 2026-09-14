@@ -108,10 +108,27 @@ export default function Home() {
   readingRef.current = reading;
   currentRef.current = current;
 
+  const deepLink = useRef<{ reading: string; sentence: number } | null>(null);
+
   useEffect(() => {
     getTtsStatus().then(setProviders).catch(() => setProviders([]));
     getLibrary().then(setLibrary).catch(() => setLibrary(null));
+    // /?reading=<id>&sentence=<n> (from vocabulary example sentences)
+    const params = new URLSearchParams(window.location.search);
+    const reading = params.get("reading");
+    if (reading) deepLink.current = { reading, sentence: Number(params.get("sentence") ?? 0) || 0 };
   }, []);
+
+  // Open the deep-linked passage once the library index has loaded.
+  useEffect(() => {
+    const link = deepLink.current;
+    if (!library || !link) return;
+    const item = library.items.find((i) => i.id === link.reading);
+    if (!item) return;
+    deepLink.current = null;
+    void chooseReading(item).then(() => setCurrent(link.sentence));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [library]);
 
   useEffect(() => {
     const cache = cacheRef.current;
