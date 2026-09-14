@@ -10,6 +10,8 @@ export type Settings = {
   newPerDay: number;
   cardTypes: CardType[];
   syncCode: string;
+  /** Speak the Greek automatically when a card appears and when it is revealed. */
+  autoSpeak: boolean;
 };
 
 export type Progress = {
@@ -22,7 +24,7 @@ export type Progress = {
 
 const KEY = "attic.srs.v1";
 
-export const DEFAULT_SETTINGS: Settings = { newPerDay: 12, cardTypes: ["recognition", "production"], syncCode: "" };
+export const DEFAULT_SETTINGS: Settings = { newPerDay: 12, cardTypes: ["recognition", "production"], syncCode: "", autoSpeak: false };
 
 export function emptyProgress(): Progress {
   return { version: 1, cards: {}, settings: { ...DEFAULT_SETTINGS }, log: [] };

@@ -307,7 +307,7 @@ audio { width: 100%; display: block; }
 .deckStats { display: flex; gap: 18px; flex-wrap: wrap; margin: 18px 0 6px; color: var(--muted); font-size: 14px; }
 .deckStats b { color: var(--ink); font-size: 18px; }
 .wordList { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 6px; }
-.wordRow { display: grid; grid-template-columns: minmax(90px, 1fr) 2fr auto auto; gap: 10px; align-items: center; text-decoration: none; color: inherit; padding: 8px 10px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); }
+.wordRow { display: grid; grid-template-columns: minmax(90px, 1fr) 2fr auto auto auto; gap: 10px; align-items: center; text-decoration: none; color: inherit; padding: 8px 10px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); }
 .wordLemma { font-family: Georgia, serif; font-size: 18px; }
 .wordShort { color: var(--muted); font-size: 14px; }
 .wordDue { color: var(--muted); font-size: 12px; }
@@ -339,6 +339,13 @@ audio { width: 100%; display: block; }
 .speak { min-height: 44px; min-width: 44px; border-radius: 999px; background: var(--accent-2); color: var(--accent); font-size: 16px; padding: 0 14px; }
 .speak.small { min-height: 30px; min-width: 30px; font-size: 12px; padding: 0 8px; vertical-align: middle; }
 .speak.busy { opacity: 0.6; }
+.speakRow { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+.speakList { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.speakItem { min-height: 40px; border-radius: 999px; background: var(--accent-2); color: var(--accent); font-family: Georgia, "Times New Roman", serif; font-size: 18px; padding: 6px 14px; }
+.speakItem.busy { opacity: 0.6; }
+.speakIcon { font-size: 12px; margin-right: 2px; }
+.checkRow { display: flex; align-items: center; gap: 10px; }
+.wordRow .speak.small { justify-self: end; }
 
 /* ---------------------------------------------------------------- word page and tables */
 .wordHeader { margin: 0 0 8px; }
@@ -378,7 +385,7 @@ audio { width: 100%; display: block; }
 .paradigmLemma { font-family: Georgia, serif; font-size: 18px; }
 .paradigmTitle { color: var(--muted); font-size: 14px; }
 @media (max-width: 560px) {
-  .wordRow { grid-template-columns: 1fr auto; }
+  .wordRow { grid-template-columns: 1fr auto auto auto; }
   .wordShort { grid-column: 1 / -1; }
   .paradigmRow { grid-template-columns: 1fr; gap: 2px; }
 }

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import FormsTable from "../../components/FormsTable";
-import { SpeakButton, useSpeaker } from "../../components/Speak";
+import { SpeakButton, SpeakList, useSpeaker } from "../../components/Speak";
 import { getVocab, getVocabEntry, type Forms, type VocabEntry, type VocabIndex, type VocabItem } from "../../lib/api";
 import {
   bumpLog,
@@ -54,6 +54,24 @@ function pick<T>(arr: T[]): T {
 }
 
 /** A random cell from the word's tables, as a question. */
+/** "λύω, λύσω, ἔλυσα, …" → the individual parts; parenthesised glosses and labels dropped. */
+function headwordParts(headword: string): string[] {
+  return headword
+    .replace(/\([^)]*\)/g, "")
+    .split(/,|;| or | and /)
+    .map((p) => p.replace(/[A-Za-z0-9.]+/g, "").trim())
+    .filter((p) => /[\u0370-\u03ff\u1f00-\u1fff]/.test(p));
+}
+
+/** Playable principal parts: the engine's list when available, else the headword split. */
+function principalParts(entry: VocabEntry | null, headword: string): string[] {
+  const forms = entry?.forms;
+  if (forms && forms.kind === "verb" && forms.principal_parts?.length) {
+    return forms.principal_parts.flatMap((pp) => pp.forms);
+  }
+  return headwordParts(headword);
+}
+
 function formsQuestion(entry: VocabEntry): FormsQuestion | null {
   const forms: Forms | null = entry.forms;
   if (!forms) return null;
@@ -221,6 +239,19 @@ export default function VocabPage() {
   }
 
   const current = mode === "study" ? queue[pos] : undefined;
+
+  // Auto-speak: the Greek on the front when a card appears, the answer on reveal.
+  const autoSpeak = progress.settings.autoSpeak;
+  useEffect(() => {
+    if (!autoSpeak || !current) return;
+    if (!flipped) {
+      if (current.type !== "production") play(current.item.lemma);
+      return;
+    }
+    if (current.type === "production") play(current.item.lemma);
+    else if (current.type === "forms" && question?.answer[0]) play(question.answer[0]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [autoSpeak, current, flipped, question]);
   const typedOk = current && current.type === "production" && typed.trim() ? normalizeGreek(typed) === normalizeGreek(current.item.lemma) : null;
 
   async function doSync(kind: "push" | "pull") {
@@ -258,7 +289,10 @@ export default function VocabPage() {
               <div className="flashFront">
                 <p className="flashGreek">{item.headword}</p>
                 <p className="flashHint">{item.pos}</p>
-                <SpeakButton text={item.lemma} play={play} busy={busy} />
+                <div className="speakRow">
+                  <SpeakButton text={item.lemma} play={play} busy={busy} />
+                  {item.kind === "verb" && headwordParts(item.headword).length > 1 && <SpeakButton text={item.headword} play={play} busy={busy} label="all parts" />}
+                </div>
               </div>
               {flipped && (
                 <div className="flashBack">
@@ -294,7 +328,10 @@ export default function VocabPage() {
                 <div className="flashBack">
                   <p className="flashGreek">{item.headword}</p>
                   {typedOk != null && <p className={typedOk ? "ok" : "warnText"}>{typedOk ? "✓ correct" : "✗ compare"}</p>}
-                  <SpeakButton text={item.lemma} play={play} busy={busy} />
+                  <div className="speakRow">
+                    <SpeakButton text={item.lemma} play={play} busy={busy} />
+                    {item.kind === "verb" && headwordParts(item.headword).length > 1 && <SpeakButton text={item.headword} play={play} busy={busy} label="all parts" />}
+                  </div>
                   <p className="flashHint">{entry?.definition ?? item.short}</p>
                   <CognateLine item={item} />
                 </div>
@@ -306,11 +343,12 @@ export default function VocabPage() {
               <div className="flashFront">
                 <p className="flashGreek">{item.lemma}</p>
                 <p className="flashHint">{question ? question.label : "loading…"}</p>
+                <SpeakButton text={item.lemma} play={play} busy={busy} />
               </div>
               {flipped && question && (
                 <div className="flashBack">
                   <p className="flashGreek">{question.answer.join(" / ")}</p>
-                  <SpeakButton text={question.answer[0]} play={play} busy={busy} />
+                  <SpeakList forms={question.answer} play={play} busy={busy} />
                   <p className="flashHint">{item.short}</p>
                 </div>
               )}
@@ -321,10 +359,13 @@ export default function VocabPage() {
               <div className="flashFront">
                 <p className="flashGreek">{item.lemma}</p>
                 <p className="flashHint">principal parts?</p>
+                <SpeakButton text={item.lemma} play={play} busy={busy} />
               </div>
               {flipped && (
                 <div className="flashBack">
                   <p className="flashAnswer">{item.headword}</p>
+                  <SpeakList forms={principalParts(entry, item.headword)} play={play} busy={busy} />
+                  <SpeakButton text={item.headword} play={play} busy={busy} label="all parts" />
                   <p className="flashHint">{item.short}</p>
                 </div>
               )}
@@ -471,6 +512,7 @@ export default function VocabPage() {
                     </span>
                     <span className={`level ${w.level}`}>{w.level}</span>
                     <span className="wordDue">{describeInterval(st, Date.now())}</span>
+                    <SpeakButton text={w.lemma} play={play} busy={busy} small />
                   </Link>
                 </li>
               );
@@ -512,6 +554,10 @@ export default function VocabPage() {
                 ))}
               </div>
             </div>
+            <label className="checkRow">
+              <input type="checkbox" checked={progress.settings.autoSpeak} onChange={(e) => setProgress({ ...progress, settings: { ...progress.settings, autoSpeak: e.target.checked } })} />
+              Speak cards automatically (the Greek when a card appears, the answer on reveal)
+            </label>
             <label>
               Sync code (8+ characters, keep it private)
               <input type="text" value={progress.settings.syncCode} onChange={(e) => setProgress({ ...progress, settings: { ...progress.settings, syncCode: e.target.value } })} placeholder="e.g. xenophon-anabasis-42" />

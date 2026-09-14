@@ -46,10 +46,42 @@ export function useSpeaker(speed = 0.75) {
   return { play, busy, error };
 }
 
-export function SpeakButton({ text, play, busy, small }: { text: string; play: (t: string) => void; busy: string | null; small?: boolean }) {
+export function SpeakButton({ text, play, busy, small, label }: { text: string; play: (t: string) => void; busy: string | null; small?: boolean; label?: string }) {
   return (
-    <button type="button" className={`speak ${small ? "small" : ""} ${busy === text ? "busy" : ""}`} onClick={() => play(text)} aria-label={`Play ${text}`}>
-      ▶
+    <button
+      type="button"
+      className={`speak ${small ? "small" : ""} ${busy === text ? "busy" : ""}`}
+      onClick={(e) => {
+        e.stopPropagation();
+        e.preventDefault();
+        play(text);
+      }}
+      aria-label={`Play ${text}`}
+    >
+      ▶{label ? ` ${label}` : ""}
     </button>
+  );
+}
+
+/** One tappable ▶ chip per form (alternatives of a cell, principal parts…). */
+export function SpeakList({ forms, play, busy }: { forms: string[]; play: (t: string) => void; busy: string | null }) {
+  return (
+    <div className="speakList">
+      {forms.map((f, i) => (
+        <button
+          key={`${f}-${i}`}
+          type="button"
+          className={`speakItem ${busy === f ? "busy" : ""}`}
+          lang="grc"
+          onClick={(e) => {
+            e.stopPropagation();
+            play(f);
+          }}
+          aria-label={`Play ${f}`}
+        >
+          <span className="speakIcon">▶</span> {f}
+        </button>
+      ))}
+    </div>
   );
 }

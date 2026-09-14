@@ -98,8 +98,10 @@ the engine must produce; anything it gets wrong belongs there first.
 The app's **Vocab** tab builds a deck by topic, level, part of speech, DCC
 group or reading and studies it with spaced repetition (SM-2, in
 `frontend/lib/srs.ts`): Greek → English, English → Greek, a forms drill
-("λόγος — genitive plural?") and principal parts. Every card and every table
-cell can be heard (`POST /api/speak`, cached like everything else). Progress
+("λόγος — genitive plural?") and principal parts. Every card face, every
+alternative form, every principal part and every table cell has a ▶ button
+(`POST /api/speak`, cached like everything else); an optional setting speaks
+each card automatically. Progress
 lives in the browser (`localStorage`); an optional sync code backs it up on
 the server (`PUT/GET /api/progress/{code}`, stored under a hash in
 `PROGRESS_DIR`) so it can be restored on another device.

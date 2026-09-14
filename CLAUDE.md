@@ -691,11 +691,30 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   across reload, sync push → clear → pull, word/verb pages, grammar,
   deep link. Backend tests: 337 passing; frontend: 6 vitest.
 - Not done / next: real-voice check of single-word clips on Railway (the
-  headword pre-render adds ~524 short clips after the library); a review pass
-  of generated forms against a grammar (report-an-error flow is manual);
+  headword pre-render adds ~524 short clips after the library);
   dual number; ἵστημι/τέθνηκα short perfect forms are notes only.
 - **English cognates tag** (user request, same day): `vocab_data/cognates.json`
   (lemma → `derivatives` = English words from the Greek word, `cognates` =
   inherited IE relatives; 301 words) → `entry.cognates`, `entry.tags =
   ["cognates"]`, facet `tags` (`vocab.TAGS`). Deck builder "Extras" chip,
   cognate line on card backs and word pages. Curated by hand — correct there.
+- **Proofread of generated forms** (user request): all 524 entries' tables
+  dumped and read against Smyth/LSJ. Nominal fixes: γῆ hand table; nominative
+  and vocative = lemma (πρᾶξις) and hidden length kept in acc/voc sg
+  (πρᾶξιν); `ADVERB_OVERRIDE` (πρότερον, μακράν, πάλαι, ἰδίᾳ, none for
+  νέος/φίλος…), `NO_COMPARISON_EXTRA`, `NO_VOCATIVE` (ἕκαστος, ἐμός…).
+  Verb fixes: εἰ-augment (εἴων, εἰργαζόμην, εἱπόμην), pluperfect stems of
+  compounds (συνεβεβήκη, κατειλήφη, ἀπωλωλέκη, ἀφίγμην; prefix shape chosen
+  by the simplex's initial, breathing restored), macrons survive `join` →
+  `_floor` (ἀφῖγμαι), sigma-aorist stem override `aorist_stem_1` (ἆραι,
+  κρῖναι), `aorist_stem`/`no_augment`/`imperfect_stem`/`pluperfect_stem`
+  overrides, alias entries (εἶδον → ἰδών), σχές/παράσχες, no aorist middle
+  for ἀπόλλυμι/ἀποθνῄσκω. Lemma-keyed overrides allowed (θνῄσκω shares rank
+  384). 21 new verb gold tables + γῆ/πρᾶξις; 360 backend tests.
+- **Speak button on every card** (user request): ▶ on the front of
+  recognition / forms / principal-parts cards and on the back of production
+  cards; each alternative form and each principal part is its own ▶ chip
+  (`SpeakList`); verbs get "▶ all parts" (whole headword); ▶ in the word
+  list; ▶ never flips the card. Setting "Speak cards automatically" (off by
+  default; iOS may block the first auto-play until a tap) speaks the Greek
+  when a card appears and the answer on reveal.
