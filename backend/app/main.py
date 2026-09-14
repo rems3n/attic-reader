@@ -36,6 +36,7 @@ from .tts.kokoro import KokoroAtticTTS
 from .tts import prerender
 from .library import LibraryError, get_item, load_manifest, summary, CATEGORIES
 from . import vocab
+from .greek.morph import paradigms
 
 app = FastAPI(title="Attic Reader API", version="0.2.0")
 log = logging.getLogger("attic")
@@ -180,6 +181,20 @@ def vocab_entry(entry_id: str) -> dict[str, object]:
     except vocab.VocabError:
         raise HTTPException(status_code=404, detail=f"No vocabulary entry with id {entry_id!r}.")
     return vocab.detail(entry)
+
+
+@app.get("/api/grammar")
+def grammar_index() -> dict[str, object]:
+    """Grammar section: model paradigms grouped by topic."""
+    return paradigms.index()
+
+
+@app.get("/api/grammar/{paradigm_id}")
+def grammar_item(paradigm_id: str) -> dict[str, object]:
+    try:
+        return paradigms.get(paradigm_id)
+    except KeyError:
+        raise HTTPException(status_code=404, detail=f"No paradigm with id {paradigm_id!r}.")
 
 
 @app.post("/api/synthesize")

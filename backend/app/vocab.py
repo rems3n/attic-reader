@@ -78,8 +78,15 @@ def detail(entry: dict) -> dict:
     """Full entry for the word page: definition, notes, principal parts, IPA."""
     from .greek import attic_ipa
 
+    from .greek.morph import decline_entry
+
     out = dict(entry)
     out["ipa"] = attic_ipa(entry["lemma"])
+    try:
+        out["forms"] = decline_entry(entry) if entry["kind"] != "verb" else None
+    except Exception as exc:  # a bad table must not break the word page
+        out["forms"] = None
+        out["forms_error"] = str(exc)
     out["dcc_url"] = f"{ATTRIBUTION_URL.rsplit('/', 1)[0]}/greek-core/{entry['lemma'].split()[0]}"
     return out
 

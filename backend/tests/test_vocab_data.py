@@ -114,3 +114,27 @@ def test_core_json_is_up_to_date_with_builder():
     fresh = module.build(check=True)
     committed = json.loads((DATA / "core.json").read_text("utf-8"))
     assert fresh == committed
+
+
+def test_forms_on_word_page_and_grammar_api():
+    from app.greek.morph import decline_entry
+
+    client = TestClient(app)
+    logos = client.get("/api/vocab/λογος").json()
+    assert logos["forms"]["kind"] == "noun"
+    assert logos["forms"]["cells"][1]["forms"] == ["λόγου"]
+    # every declinable entry produces a table without raising
+    for e in load_entries():
+        if e["kind"] == "verb":
+            continue
+        decline_entry(e)
+    index = client.get("/api/grammar").json()
+    assert [s["id"] for s in index["sections"]][:2] == ["article", "nouns-1"]
+    item = client.get("/api/grammar/polis").json()
+    assert item["table"]["cells"][1]["forms"] == ["πόλεως"]
+    assert item["examples"][0]["greek"]
+    assert client.get("/api/grammar/nope").status_code == 404
+    from app.greek.morph import paradigms as pm
+    for p in pm.PARADIGMS:
+        if p["kind"] != "verb":
+            assert pm.table_for(p) is not None, p["id"]

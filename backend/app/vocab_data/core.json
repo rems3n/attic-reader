@@ -1519,7 +1519,7 @@
   "topics": [
    "core"
   ],
-  "notes": null,
+  "notes": "Declined like οὗτος: feminine and neuter plural from τοιαυτ- (τοιαύτη, τοιαῦτα); neuter singular τοιοῦτο or τοιοῦτον.",
   "morph": {
    "terminations": 3,
    "forms": [
@@ -5439,16 +5439,16 @@
    "history",
    "city-life"
   ],
-  "notes": null,
+  "notes": "Declined like οὗτος: feminine and neuter plural from τοσαυτ- (τοσαύτη, τοσαῦτα); neuter singular τοσοῦτο or τοσοῦτον.",
   "morph": {
    "terminations": 3,
    "forms": [
     "τοσοῦτος",
-    "τοσουταύτη",
-    "τοσουτοῦτο"
+    "τοσαύτη",
+    "τοσοῦτο"
    ],
-   "feminine": "τοσουταύτη",
-   "neuter": "τοσουτοῦτο"
+   "feminine": "τοσαύτη",
+   "neuter": "τοσοῦτο"
   }
  },
  {

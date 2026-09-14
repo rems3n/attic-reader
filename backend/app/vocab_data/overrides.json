@@ -277,5 +277,21 @@
  },
  "510": {
   "notes": "Contracted adjective (χάλκεος → χαλκοῦς): all forms circumflexed on the ending."
+ },
+ "176": {
+  "morph": {
+   "terminations": 3,
+   "forms": [
+    "τοσοῦτος",
+    "τοσαύτη",
+    "τοσοῦτο"
+   ],
+   "feminine": "τοσαύτη",
+   "neuter": "τοσοῦτο"
+  },
+  "notes": "Declined like οὗτος: feminine and neuter plural from τοσαυτ- (τοσαύτη, τοσαῦτα); neuter singular τοσοῦτο or τοσοῦτον."
+ },
+ "55": {
+  "notes": "Declined like οὗτος: feminine and neuter plural from τοιαυτ- (τοιαύτη, τοιαῦτα); neuter singular τοιοῦτο or τοιοῦτον."
  }
 }
