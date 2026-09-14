@@ -6,9 +6,15 @@
 import { pullProgress, pushProgress } from "./api";
 import { mergeCards, type CardState, type CardType } from "./srs";
 
+export type Direction = "grc-en" | "en-grc" | "both";
+
 export type Settings = {
-  newPerDay: number;
+  /** Which way the basic cards face: Greek → English, English → Greek, or both (shuffled). */
+  direction: Direction;
+  /** Extra card types added on top of the direction: forms drill, principal parts. */
   cardTypes: CardType[];
+  /** Cards per study session (due cards first, new cards fill the rest). */
+  sessionSize: number;
   syncCode: string;
   /** Speak the Greek automatically when a card appears and when it is revealed. */
   autoSpeak: boolean;
@@ -24,7 +30,7 @@ export type Progress = {
 
 const KEY = "attic.srs.v1";
 
-export const DEFAULT_SETTINGS: Settings = { newPerDay: 12, cardTypes: ["recognition", "production"], syncCode: "", autoSpeak: false };
+export const DEFAULT_SETTINGS: Settings = { direction: "both", cardTypes: [], sessionSize: 20, syncCode: "", autoSpeak: false };
 
 export function emptyProgress(): Progress {
   return { version: 1, cards: {}, settings: { ...DEFAULT_SETTINGS }, log: [] };
@@ -35,7 +41,7 @@ export function loadProgress(): Progress {
     const raw = typeof window !== "undefined" ? window.localStorage.getItem(KEY) : null;
     if (!raw) return emptyProgress();
     const parsed = JSON.parse(raw) as Progress;
-    return { ...emptyProgress(), ...parsed, settings: { ...DEFAULT_SETTINGS, ...(parsed.settings ?? {}) } };
+    return { ...emptyProgress(), ...parsed, settings: migrateSettings(parsed.settings) };
   } catch {
     return emptyProgress();
   }
@@ -102,4 +108,25 @@ export function importProgress(text: string, current: Progress): Progress {
   const next = { ...current, cards: mergeCards(current.cards, parsed.cards ?? {}) };
   saveProgress(next);
   return next;
+}
+
+/** Older documents stored recognition/production inside `cardTypes` and a
+ * daily new-card limit; map them onto direction + extras + session size. */
+export function migrateSettings(raw: Partial<Settings> & { cardTypes?: string[]; newPerDay?: number } | undefined): Settings {
+  const src = raw ?? {};
+  const types = Array.isArray(src.cardTypes) ? src.cardTypes : [];
+  let direction: Direction = src.direction ?? DEFAULT_SETTINGS.direction;
+  if (!src.direction && types.length) {
+    const rec = types.includes("recognition");
+    const prod = types.includes("production");
+    direction = rec && !prod ? "grc-en" : prod && !rec ? "en-grc" : "both";
+  }
+  const extras = types.filter((t): t is CardType => t === "forms" || t === "parts");
+  return {
+    ...DEFAULT_SETTINGS,
+    ...src,
+    direction,
+    cardTypes: extras,
+    sessionSize: typeof src.sessionSize === "number" && src.sessionSize > 0 ? src.sessionSize : DEFAULT_SETTINGS.sessionSize,
+  };
 }

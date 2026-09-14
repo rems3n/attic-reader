@@ -718,3 +718,16 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   list; ▶ never flips the card. Setting "Speak cards automatically" (off by
   default; iOS may block the first auto-play until a tap) speaks the Greek
   when a card appears and the answer on reveal.
+- **Study UX** (user request): session is shuffled (`shuffleSession` in
+  `lib/srs.ts`, Fisher–Yates + a pass that keeps the two directions of one
+  word apart); "Test" chips on the deck screen choose Greek → English /
+  English → Greek / Both (+ Forms drill, + Principal parts as extras);
+  "Cards this session" slider + number (`settings.sessionSize`, default 20;
+  `pickSession` now takes a total size — due cards first, never dropped for
+  new ones). The daily new-card limit is gone; old settings documents are
+  migrated (`migrateSettings` in `lib/progress.ts`). Revealed cards show one
+  example sentence from the readings (`CardExample`: shortest ≤ 160 chars,
+  form highlighted, ▶, source) — only the 264 words that occur in the 12
+  passages have one; the rest show nothing (hand-written examples would be
+  the next step). Shared `components/Highlight.tsx`.
+

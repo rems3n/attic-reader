@@ -57,20 +57,43 @@ export function grade(card: CardState | undefined, q: Grade, now: number): CardS
   return c;
 }
 
-/** Cards due now (oldest first), then up to `newLimit` never-seen keys. */
+/** A session of at most `sessionSize` cards: everything due (oldest first)
+ * takes priority, never-seen keys fill the rest in deck order. */
 export function pickSession(
   keys: string[],
   cards: Record<string, CardState>,
   now: number,
-  newLimit: number,
-  reviewLimit = 200,
+  sessionSize: number,
 ): { due: string[]; fresh: string[] } {
+  const size = Math.max(0, Math.floor(sessionSize));
   const due = keys
     .filter((k) => cards[k] && cards[k].updated > 0 && cards[k].due <= now)
     .sort((a, b) => cards[a].due - cards[b].due)
-    .slice(0, reviewLimit);
-  const fresh = keys.filter((k) => isNew(cards[k])).slice(0, newLimit);
+    .slice(0, size);
+  const fresh = keys.filter((k) => isNew(cards[k])).slice(0, Math.max(0, size - due.length));
   return { due, fresh };
+}
+
+/** Fisher–Yates shuffle, then keep the two directions of one word apart:
+ * a card whose `id` equals its predecessor's is swapped with the next
+ * card of a different word. Pure; `rand` is injectable for tests. */
+export function shuffleSession<T extends { id: string }>(items: T[], rand: () => number = Math.random): T[] {
+  const out = [...items];
+  for (let i = out.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(rand() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  const clash = (k: number) => k > 0 && k < out.length && out[k].id === out[k - 1].id;
+  for (let i = 1; i < out.length; i += 1) {
+    if (!clash(i)) continue;
+    for (let j = 0; j < out.length; j += 1) {
+      if (j === i || j === i - 1) continue;
+      [out[i], out[j]] = [out[j], out[i]];
+      if (!clash(i) && !clash(i + 1) && !clash(j) && !clash(j + 1)) break;
+      [out[i], out[j]] = [out[j], out[i]]; // revert and try the next candidate
+    }
+  }
+  return out;
 }
 
 /** Merge two progress maps: the state with the newer `updated` wins per card. */

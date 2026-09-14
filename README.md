@@ -97,8 +97,11 @@ the engine must produce; anything it gets wrong belongs there first.
 
 The app's **Vocab** tab builds a deck by topic, level, part of speech, DCC
 group or reading and studies it with spaced repetition (SM-2, in
-`frontend/lib/srs.ts`): Greek → English, English → Greek, a forms drill
-("λόγος — genitive plural?") and principal parts. Every card face, every
+`frontend/lib/srs.ts`): Greek → English, English → Greek or both (shuffled,
+never the same word twice in a row), plus optional forms-drill
+("λόγος — genitive plural?") and principal-parts cards. The session size is
+a slider on the deck screen (due cards first, new words fill the rest); a
+revealed card shows one example sentence from the readings. Every card face, every
 alternative form, every principal part and every table cell has a ▶ button
 (`POST /api/speak`, cached like everything else); an optional setting speaks
 each card automatically. Progress

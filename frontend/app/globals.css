@@ -345,6 +345,15 @@ audio { width: 100%; display: block; }
 .speakItem.busy { opacity: 0.6; }
 .speakIcon { font-size: 12px; margin-right: 2px; }
 .checkRow { display: flex; align-items: center; gap: 10px; }
+.sizeRow { display: flex; align-items: center; gap: 12px; margin-top: 8px; }
+.sizeRow input[type="range"] { flex: 1; min-width: 0; accent-color: var(--accent); }
+.sizeRow input[type="number"] { width: 72px; border: 1px solid var(--line); border-radius: 10px; padding: 8px 10px; font-size: 16px; text-align: center; background: white; }
+.sizeHint { margin: 8px 0 0; font-size: 14px; }
+.cardExample { width: 100%; text-align: left; border-top: 1px dashed var(--line); padding-top: 12px; margin-top: 4px; cursor: default; }
+.cardExampleText { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: 17px; line-height: 1.5; }
+.cardExampleText mark { background: #f6e6a3; padding: 0 2px; border-radius: 3px; }
+.cardExampleText .speak.small { margin-left: 6px; }
+.cardExampleMeta { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
 .wordRow .speak.small { justify-self: end; }
 
 /* ---------------------------------------------------------------- word page and tables */

@@ -3,27 +3,35 @@
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import FormsTable from "../../components/FormsTable";
+import Highlight from "../../components/Highlight";
 import { SpeakButton, SpeakList, useSpeaker } from "../../components/Speak";
-import { getVocab, getVocabEntry, type Forms, type VocabEntry, type VocabIndex, type VocabItem } from "../../lib/api";
+import { getVocab, getVocabEntry, type Example, type Forms, type VocabEntry, type VocabIndex, type VocabItem } from "../../lib/api";
 import {
   bumpLog,
   exportProgress,
   importProgress,
   loadProgress,
-  newCardsToday,
   saveProgress,
   syncPull,
   syncPush,
+  type Direction,
   type Progress,
 } from "../../lib/progress";
-import { CARD_TYPES, cardKey, describeInterval, grade, isNew, pickSession, type CardType, type Grade } from "../../lib/srs";
+import { cardKey, describeInterval, grade, isNew, pickSession, shuffleSession, type CardType, type Grade } from "../../lib/srs";
 
 type Filters = { topics: Set<string>; tags: Set<string>; tiers: Set<number>; kinds: Set<string>; groups: Set<string>; readings: Set<string> };
 type Mode = "build" | "study" | "done";
-type Prompt = { key: string; item: VocabItem; type: CardType; fresh: boolean };
+type Prompt = { key: string; id: string; item: VocabItem; type: CardType; fresh: boolean };
 type FormsQuestion = { label: string; answer: string[] };
 
 const TYPE_LABEL: Record<CardType, string> = { recognition: "Greek → English", production: "English → Greek", forms: "Forms drill", parts: "Principal parts" };
+const DIRECTIONS: { id: Direction; label: string }[] = [
+  { id: "grc-en", label: "Greek → English" },
+  { id: "en-grc", label: "English → Greek" },
+  { id: "both", label: "Both" },
+];
+const EXTRA_TYPES: CardType[] = ["forms", "parts"];
+const SPEAK_MAX = 300; // /api/speak text cap
 const CASE_LABEL: Record<string, string> = { nom: "nominative", gen: "genitive", dat: "dative", acc: "accusative", voc: "vocative" };
 const GENDER_LABEL: Record<string, string> = { m: "masculine", f: "feminine", n: "neuter", mf: "masc./fem." };
 const PERSON_LABEL: Record<string, string> = { "1sg": "1 sg.", "2sg": "2 sg.", "3sg": "3 sg.", "1pl": "1 pl.", "2pl": "2 pl.", "3pl": "3 pl.", inf: "infinitive", m: "participle masc.", f: "participle fem.", n: "participle neut.", mg: "participle gen. masc." };
@@ -54,6 +62,30 @@ function pick<T>(arr: T[]): T {
 }
 
 /** A random cell from the word's tables, as a question. */
+/** The example that fits on a card: the shortest one under 160 characters, else the shortest. */
+function pickExample(entry: VocabEntry | null): Example | null {
+  const all = entry?.examples ?? [];
+  if (!all.length) return null;
+  const sorted = [...all].sort((a, b) => a.text.length - b.text.length);
+  return sorted.find((e) => e.text.length <= 160) ?? sorted[0];
+}
+
+function CardExample({ entry, play, busy }: { entry: VocabEntry | null; play: (t: string) => void; busy: string | null }) {
+  const ex = pickExample(entry);
+  if (!ex) return null;
+  return (
+    <div className="cardExample" onClick={(e) => e.stopPropagation()}>
+      <p className="cardExampleText" lang="grc">
+        <Highlight text={ex.text} form={ex.form} />
+        {ex.text.length <= SPEAK_MAX && <SpeakButton text={ex.text} play={play} busy={busy} small />}
+      </p>
+      <p className="cardExampleMeta">
+        {ex.author}, <em>{ex.title}</em>
+      </p>
+    </div>
+  );
+}
+
 /** "λύω, λύσω, ἔλυσα, …" → the individual parts; parenthesised glosses and labels dropped. */
 function headwordParts(headword: string): string[] {
   return headword
@@ -146,17 +178,20 @@ export default function VocabPage() {
 
   const deck = useMemo(() => (index ? index.items.filter((i) => matches(i, filters)) : []), [index, filters]);
 
+  const { direction, cardTypes: extras, sessionSize } = progress.settings;
   const keys = useMemo(() => {
-    const out: { key: string; item: VocabItem; type: CardType }[] = [];
+    const basic: CardType[] = direction === "grc-en" ? ["recognition"] : direction === "en-grc" ? ["production"] : ["recognition", "production"];
+    const types = [...basic, ...extras];
+    const out: { key: string; id: string; item: VocabItem; type: CardType }[] = [];
     for (const item of deck) {
-      for (const type of progress.settings.cardTypes) {
+      for (const type of types) {
         if (type === "parts" && item.kind !== "verb") continue;
         if (type === "forms" && !["noun", "verb", "adjective", "pronoun", "article", "numeral"].includes(item.kind)) continue;
-        out.push({ key: cardKey(item.id, type), item, type });
+        out.push({ key: cardKey(item.id, type), id: item.id, item, type });
       }
     }
     return out;
-  }, [deck, progress.settings.cardTypes]);
+  }, [deck, direction, extras]);
 
   const counts = useMemo(() => {
     const now = Date.now();
@@ -165,6 +200,17 @@ export default function VocabPage() {
     const learned = keys.filter((k) => progress.cards[k.key] && !isNew(progress.cards[k.key])).length;
     return { due, fresh, learned };
   }, [keys, progress.cards]);
+
+  // What the next session would contain at the chosen size.
+  const plan = useMemo(() => {
+    const { due, fresh } = pickSession(keys.map((k) => k.key), progress.cards, Date.now(), sessionSize);
+    return { due: due.length, fresh: fresh.length, total: due.length + fresh.length };
+  }, [keys, progress.cards, sessionSize]);
+  const maxSize = Math.max(5, Math.min(100, keys.length));
+  function setSessionSize(n: number) {
+    const v = Math.max(1, Math.min(maxSize, Math.round(n) || 1));
+    setProgress({ ...progress, settings: { ...progress.settings, sessionSize: v } });
+  }
 
   const loadEntry = useCallback(async (id: string) => {
     const hit = entryCache.current.get(id);
@@ -196,18 +242,12 @@ export default function VocabPage() {
 
   function startSession() {
     const now = Date.now();
-    const newLimit = Math.max(0, progress.settings.newPerDay - newCardsToday(progress, now));
     const byKey = new Map(keys.map((k) => [k.key, k]));
-    const { due, fresh } = pickSession(
-      keys.map((k) => k.key),
-      progress.cards,
-      now,
-      newLimit,
-    );
-    const prompts: Prompt[] = [
+    const { due, fresh } = pickSession(keys.map((k) => k.key), progress.cards, now, sessionSize);
+    const prompts: Prompt[] = shuffleSession([
       ...due.map((k) => ({ ...byKey.get(k)!, fresh: false })),
       ...fresh.map((k) => ({ ...byKey.get(k)!, fresh: true })),
-    ];
+    ]);
     if (!prompts.length) return;
     setQueue(prompts);
     setPos(0);
@@ -298,6 +338,7 @@ export default function VocabPage() {
                 <div className="flashBack">
                   <p className="flashAnswer">{entry?.definition ?? item.short}</p>
                   <CognateLine item={item} />
+                  <CardExample entry={entry} play={play} busy={busy} />
                   <p className="flashHint">{item.group} · rank {item.rank}</p>
                   {entry?.notes && <p className="flashNote">{entry.notes}</p>}
                 </div>
@@ -334,6 +375,7 @@ export default function VocabPage() {
                   </div>
                   <p className="flashHint">{entry?.definition ?? item.short}</p>
                   <CognateLine item={item} />
+                  <CardExample entry={entry} play={play} busy={busy} />
                 </div>
               )}
             </>
@@ -350,6 +392,7 @@ export default function VocabPage() {
                   <p className="flashGreek">{question.answer.join(" / ")}</p>
                   <SpeakList forms={question.answer} play={play} busy={busy} />
                   <p className="flashHint">{item.short}</p>
+                  <CardExample entry={entry} play={play} busy={busy} />
                 </div>
               )}
             </>
@@ -367,6 +410,7 @@ export default function VocabPage() {
                   <SpeakList forms={principalParts(entry, item.headword)} play={play} busy={busy} />
                   <SpeakButton text={item.headword} play={play} busy={busy} label="all parts" />
                   <p className="flashHint">{item.short}</p>
+                  <CardExample entry={entry} play={play} busy={busy} />
                 </div>
               )}
             </>
@@ -479,14 +523,55 @@ export default function VocabPage() {
         </div>
         <div className="deckStats">
           <span><b>{counts.due}</b> due</span>
-          <span><b>{Math.min(counts.fresh, Math.max(0, progress.settings.newPerDay - newCardsToday(progress)))}</b> new today ({counts.fresh} unseen)</span>
+          <span><b>{counts.fresh}</b> unseen</span>
           <span><b>{counts.learned}</b> learning</span>
         </div>
         <div className="actions">
-          <button type="button" className="primary" onClick={startSession} disabled={!keys.length || (counts.due === 0 && (counts.fresh === 0 || progress.settings.newPerDay - newCardsToday(progress) <= 0))}>
-            Study {counts.due + Math.min(counts.fresh, Math.max(0, progress.settings.newPerDay - newCardsToday(progress)))} cards
-          </button>
           <button type="button" className="secondary" onClick={() => setFilters(emptyFilters())}>Clear filters</button>
+        </div>
+      </section>
+
+      <section className="card">
+        <div className="sectionHead">
+          <div>
+            <h2>Study</h2>
+            <p>Cards are shuffled; anything due comes first, new words fill the rest.</p>
+          </div>
+        </div>
+        <h3 className="chipTitle">Test</h3>
+        <div className="chips">
+          {DIRECTIONS.map((d) => (
+            <button key={d.id} type="button" className={`chip ${direction === d.id ? "on" : ""}`} onClick={() => setProgress({ ...progress, settings: { ...progress.settings, direction: d.id } })}>
+              {d.label}
+            </button>
+          ))}
+          {EXTRA_TYPES.map((t) => (
+            <button
+              key={t}
+              type="button"
+              className={`chip ${extras.includes(t) ? "on" : ""}`}
+              onClick={() => {
+                const next = extras.includes(t) ? extras.filter((x) => x !== t) : [...extras, t];
+                setProgress({ ...progress, settings: { ...progress.settings, cardTypes: next } });
+              }}
+            >
+              + {TYPE_LABEL[t]}
+            </button>
+          ))}
+        </div>
+        <h3 className="chipTitle">Cards this session</h3>
+        <div className="sizeRow">
+          <input type="range" min={1} max={maxSize} step={1} value={Math.min(sessionSize, maxSize)} onChange={(e) => setSessionSize(Number(e.target.value))} aria-label="Cards this session" />
+          <input type="number" min={1} max={maxSize} value={Math.min(sessionSize, maxSize)} onChange={(e) => setSessionSize(Number(e.target.value))} aria-label="Cards this session (number)" />
+        </div>
+        <p className="muted sizeHint">
+          {plan.total ? <>{plan.total} cards: {plan.due} due, {plan.fresh} new</> : "Nothing to study in this deck yet."}
+          {keys.length > maxSize ? ` · deck has ${keys.length} cards` : ""}
+        </p>
+        <div className="actions">
+          <button type="button" className="primary" onClick={startSession} disabled={!plan.total}>
+            Study {plan.total} cards
+          </button>
         </div>
       </section>
 
@@ -531,29 +616,6 @@ export default function VocabPage() {
         </div>
         {showSettings && (
           <div className="settingsGrid">
-            <label>
-              New cards per day
-              <input type="number" min={0} max={100} value={progress.settings.newPerDay} onChange={(e) => setProgress({ ...progress, settings: { ...progress.settings, newPerDay: Number(e.target.value) } })} />
-            </label>
-            <div>
-              Card types
-              <div className="chips">
-                {CARD_TYPES.map((t) => (
-                  <button
-                    key={t}
-                    type="button"
-                    className={`chip ${progress.settings.cardTypes.includes(t) ? "on" : ""}`}
-                    onClick={() => {
-                      const has = progress.settings.cardTypes.includes(t);
-                      const next = has ? progress.settings.cardTypes.filter((x) => x !== t) : [...progress.settings.cardTypes, t];
-                      if (next.length) setProgress({ ...progress, settings: { ...progress.settings, cardTypes: next } });
-                    }}
-                  >
-                    {TYPE_LABEL[t]}
-                  </button>
-                ))}
-              </div>
-            </div>
             <label className="checkRow">
               <input type="checkbox" checked={progress.settings.autoSpeak} onChange={(e) => setProgress({ ...progress, settings: { ...progress.settings, autoSpeak: e.target.checked } })} />
               Speak cards automatically (the Greek when a card appears, the answer on reveal)
