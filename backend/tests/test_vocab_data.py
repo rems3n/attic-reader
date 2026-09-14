@@ -83,6 +83,26 @@ def test_facets_cover_all_topics():
     assert any(g["id"] == "Religion" for g in f["groups"])
 
 
+def test_cognates_tag():
+    entries = load_entries()
+    tagged = [e for e in entries if "cognates" in e["tags"]]
+    assert len(tagged) >= 250
+    for e in entries:
+        c = e["cognates"]
+        assert (c is not None) == ("cognates" in e["tags"]), e["lemma"]
+        if c:
+            assert all(v for v in c.values()), e["lemma"]
+    by = {e["lemma"]: e for e in entries}
+    assert "logic" in by["λόγος"]["cognates"]["derivatives"]
+    assert "father" in by["πατήρ"]["cognates"]["cognates"]
+    f = facets()
+    assert f["tags"][0] == {"id": "cognates", "label": "English cognates", "count": len(tagged)}
+    client = TestClient(app)
+    index = client.get("/api/vocab").json()
+    assert index["facets"]["tags"][0]["count"] == len(tagged)
+    assert index["items"][44]["cognates"]["derivatives"][0] == "logic"
+
+
 def test_get_entry_and_summary():
     logos = get_entry("λογος")
     assert logos["rank"] == 45 and logos["kind"] == "noun"

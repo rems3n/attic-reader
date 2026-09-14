@@ -20,6 +20,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ὁ",
@@ -426,6 +428,18 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "auto-",
+    "autonomy",
+    "automatic",
+    "autograph",
+    "authentic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -610,6 +624,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "καί"
@@ -919,6 +935,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "δέ"
@@ -1198,6 +1216,15 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "cognates": [
+    "what",
+    "who"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "τίς",
@@ -1377,6 +1404,20 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "ontology",
+    "onto-",
+    "parousia"
+   ],
+   "cognates": [
+    "is",
+    "am"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -1590,6 +1631,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "οὗτος",
@@ -1715,6 +1758,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἤ"
@@ -1769,6 +1814,20 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "en-",
+    "energy",
+    "enthusiasm",
+    "endemic"
+   ],
+   "cognates": [
+    "in"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "ἐν"
@@ -1860,6 +1919,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "μέν...δέ"
@@ -1888,6 +1949,15 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "cognates": [
+    "what",
+    "who"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "τις",
@@ -2068,6 +2138,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ὅς",
@@ -2283,6 +2355,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "γάρ"
@@ -2382,6 +2456,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "οὐ",
@@ -2498,6 +2574,18 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "lexicon",
+    "dialect",
+    "-logy",
+    "logic",
+    "dyslexia"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -2614,6 +2702,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ὡς"
@@ -2758,6 +2848,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "τε"
@@ -2862,6 +2954,15 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "eso-",
+    "esoteric"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "εἰς"
@@ -2931,6 +3032,19 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "epi-",
+    "epidemic",
+    "epidermis",
+    "episode",
+    "epitaph",
+    "epicentre"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "ἐπί"
@@ -3025,6 +3139,18 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "cata-",
+    "catastrophe",
+    "catalogue",
+    "cataract",
+    "catholic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "κατά"
@@ -3073,6 +3199,18 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "ego",
+    "egoism"
+   ],
+   "cognates": [
+    "I"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "ἐγώ",
@@ -3185,6 +3323,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "πρός"
@@ -3238,6 +3378,20 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "genesis",
+    "gene",
+    "genetic"
+   ],
+   "cognates": [
+    "kin",
+    "kind"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -3324,6 +3478,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἐάν"
@@ -3358,6 +3514,18 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "dia-",
+    "diameter",
+    "diagnosis",
+    "dialogue",
+    "diagonal"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "διά"
@@ -3432,6 +3600,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἀλλά"
@@ -3521,6 +3691,19 @@
    "mythology"
   ],
   "notes": "Declined like a 3rd-declension adjective (πᾶς, πᾶσα, πᾶν; gen. παντός, πάσης, παντός); the DCC export files it under irregular nouns.",
+  "cognates": {
+   "derivatives": [
+    "pan-",
+    "panorama",
+    "pandemic",
+    "pantheon",
+    "panacea",
+    "pancreas"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -3589,6 +3772,17 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hectic",
+    "cachexia",
+    "epoch",
+    "eunuch"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -3673,6 +3867,19 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "ec-",
+    "ex-",
+    "eclipse",
+    "ecstasy",
+    "exodus",
+    "eccentric"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "ἐκ",
@@ -3733,6 +3940,22 @@
    "mythology"
   ],
   "notes": "Irregular: nom./acc. sg. masc. and neut. from stem πολυ-, all other forms from πολλ- (πολλοῦ, πολλῷ, πολλοί…).",
+  "cognates": {
+   "derivatives": [
+    "poly-",
+    "polygon",
+    "polytheism",
+    "polymer",
+    "Polynesia"
+   ],
+   "cognates": [
+    "full",
+    "plenty"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -3806,6 +4029,18 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "peri-",
+    "perimeter",
+    "period",
+    "periscope",
+    "peripheral"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "περί"
@@ -3848,6 +4083,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "μή"
@@ -3901,6 +4138,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ὅστις",
@@ -4016,6 +4255,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἄν"
@@ -4063,6 +4304,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "cognates": [
+    "thou"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "σύ",
@@ -4148,6 +4397,18 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "ana-",
+    "analysis",
+    "anatomy",
+    "anachronism",
+    "anagram"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "ἀνά"
@@ -4182,6 +4443,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ὅτι"
@@ -4234,6 +4497,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "εἰ"
@@ -4278,6 +4543,20 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "allo-",
+    "allegory",
+    "allergy",
+    "parallel"
+   ],
+   "cognates": [
+    "else"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -4392,6 +4671,22 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "apo-",
+    "apology",
+    "apostle",
+    "apocalypse",
+    "apostrophe"
+   ],
+   "cognates": [
+    "of",
+    "off"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "ἀπό"
@@ -4435,6 +4730,18 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "prophet",
+    "blasphemy",
+    "euphemism",
+    "aphasia",
+    "fame (via Latin)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -4512,6 +4819,20 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hypo-",
+    "hypothesis",
+    "hypodermic",
+    "hypocrite"
+   ],
+   "cognates": [
+    "up"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "ὑπό"
@@ -4571,6 +4892,17 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "poet",
+    "poem",
+    "poetry",
+    "onomatopoeia"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -4661,6 +4993,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "οὖν"
@@ -4748,6 +5082,20 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "logic",
+    "-logy",
+    "logo",
+    "dialogue",
+    "analogy",
+    "prologue",
+    "biology"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "λόγου",
    "gender": "m",
@@ -4795,6 +5143,19 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "para-",
+    "parallel",
+    "paradox",
+    "parasite",
+    "paragraph",
+    "parable"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "παρά"
@@ -4827,6 +5188,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "οὕτως"
@@ -4865,6 +5228,16 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "proto-",
+    "prototype",
+    "protagonist"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -4912,6 +5285,19 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "theology",
+    "theist",
+    "atheist",
+    "enthusiasm",
+    "pantheon",
+    "Theodore"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "θεοῦ",
    "gender": "m/f",
@@ -4970,6 +5356,18 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "meta-",
+    "metaphor",
+    "metabolism",
+    "metamorphosis",
+    "method"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "μετά"
@@ -5014,6 +5412,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἑαυτοῦ",
@@ -5063,6 +5463,21 @@
    "city-life"
   ],
   "notes": "Irregular: nom./acc. sg. masc. and neut. μέγας, μέγαν, μέγα; all other forms from μεγαλ-.",
+  "cognates": {
+   "derivatives": [
+    "mega-",
+    "megaphone",
+    "megalomania",
+    "omega"
+   ],
+   "cognates": [
+    "much",
+    "mickle"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -5106,6 +5521,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "οὐδέ"
@@ -5159,6 +5576,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἐκεῖνος",
@@ -5203,6 +5622,8 @@
    "philosophy"
   ],
   "notes": "Declined like οὗτος: feminine and neuter plural from τοιαυτ- (τοιαύτη, τοιαῦτα); neuter singular τοιοῦτο or τοιοῦτον.",
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -5241,6 +5662,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "οὐδείς",
@@ -5297,6 +5720,14 @@
    "mythology"
   ],
   "notes": "Second aorist of λέγω (‘I said’); the DCC lists it separately because of its frequency.",
+  "cognates": {
+   "derivatives": [
+    "epic (ἔπος)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "aorist": [
@@ -5345,6 +5776,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Agatha"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -5376,6 +5815,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "γε"
@@ -5415,6 +5856,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "δή"
@@ -5484,6 +5927,19 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "politics",
+    "police",
+    "policy",
+    "metropolis",
+    "acropolis",
+    "cosmopolitan"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "πόλεως",
    "gender": "f",
@@ -5548,6 +6004,15 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hendiadys",
+    "henotheism"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "εἷς",
@@ -5604,6 +6069,16 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "enema",
+    "catheter",
+    "paresis"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -5682,6 +6157,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -5746,6 +6223,17 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "anthropology",
+    "philanthropy",
+    "misanthrope",
+    "anthropomorphic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἀνθρώπου",
    "gender": "m/f",
@@ -5784,6 +6272,18 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "panorama",
+    "diorama",
+    "idea (from εἶδον)",
+    "idol",
+    "optic (from ὄψομαι)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -5862,6 +6362,18 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "mono-",
+    "monk",
+    "monopoly",
+    "monastery",
+    "monotone"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -5898,6 +6410,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "οὔτε...οὔτε"
@@ -5924,6 +6438,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -5962,6 +6478,17 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "syllable",
+    "epilepsy",
+    "dilemma",
+    "lemma"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -6031,6 +6558,17 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "dogma",
+    "doxology",
+    "orthodox",
+    "paradox"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -6108,6 +6646,16 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hetero-",
+    "heterodox",
+    "heterogeneous"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -6149,6 +6697,15 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "caco-",
+    "cacophony"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -6180,6 +6737,18 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "andro-",
+    "android",
+    "Andrew",
+    "polyandry",
+    "philander"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἀνδρός",
    "gender": "m",
@@ -6231,6 +6800,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἐπεί"
@@ -6275,6 +6846,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -6333,6 +6906,18 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "ecclesiastical",
+    "paraclete"
+   ],
+   "cognates": [
+    "call (via Latin calare, cognate)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -6401,6 +6986,16 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "somatic",
+    "chromosome",
+    "psychosomatic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "σώματος",
    "gender": "n",
@@ -6437,6 +7032,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -6484,6 +7081,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ὥσπερ"
@@ -6526,6 +7125,19 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "dose",
+    "antidote",
+    "anecdote"
+   ],
+   "cognates": [
+    "donate (via Latin)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -6589,6 +7201,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἔτι"
@@ -6636,6 +7250,17 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "physics",
+    "physical",
+    "physician",
+    "physiology"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "φύσεως",
    "gender": "f",
@@ -6662,6 +7287,17 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "micro-",
+    "microscope",
+    "microbe",
+    "microphone"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -6693,6 +7329,16 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "dynamic",
+    "dynamite",
+    "dynasty"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -6743,6 +7389,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ὥστε"
@@ -6774,6 +7422,19 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "archaic",
+    "archaeology",
+    "monarchy",
+    "anarchy",
+    "archetype",
+    "arch-"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἀρχῆς",
    "gender": "f",
@@ -6811,6 +7472,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἕκαστος",
@@ -6856,6 +7519,15 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "ephemeral",
+    "hemerocallis (day-lily)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἡμέρας",
    "gender": "f",
@@ -6893,6 +7565,19 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "physics",
+    "phyte",
+    "neophyte"
+   ],
+   "cognates": [
+    "be"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -6934,6 +7619,8 @@
    "mythology"
   ],
   "notes": "Declined like πᾶς (ἅπας, ἅπασα, ἅπαν).",
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -6971,6 +7658,19 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "homeo-",
+    "homeopathy",
+    "homeostasis"
+   ],
+   "cognates": [
+    "same"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -7009,6 +7709,14 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "cognates": [
+    "now"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "νῦν",
@@ -7057,6 +7765,18 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "geo-",
+    "geography",
+    "geology",
+    "geometry",
+    "George"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "γῆς",
    "gender": "f",
@@ -7109,6 +7829,16 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "dynamic",
+    "dynamo",
+    "dynamite"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "δυνάμεως",
    "gender": "f",
@@ -7140,6 +7870,16 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "calligraphy",
+    "kaleidoscope",
+    "callisthenics"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -7177,6 +7917,16 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Kyrie",
+    "church (via κυριακόν)",
+    "Cyril"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "κυρίου",
    "gender": "m",
@@ -7203,6 +7953,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "μᾶλλον"
@@ -7240,6 +7992,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ὅδε",
@@ -7274,6 +8028,18 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "holo-",
+    "holistic",
+    "hologram",
+    "catholic",
+    "holocaust"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -7305,6 +8071,16 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "polymer",
+    "isomer",
+    "meristem"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "μέρους",
    "gender": "n",
@@ -7337,6 +8113,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἄρα"
@@ -7369,6 +8147,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -7422,6 +8202,8 @@
    "philosophy"
   ],
   "notes": "Contracts with η instead of ᾱ: χρῶμαι, χρῇ, χρῆται, χρώμεθα, χρῆσθε, χρῶνται; infinitive χρῆσθαι. Takes the dative.",
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -7490,6 +8272,18 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "dyad",
+    "duo (Latin)"
+   ],
+   "cognates": [
+    "two"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "δύο"
@@ -7531,6 +8325,18 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "chronic",
+    "chronology",
+    "chronicle",
+    "synchronize",
+    "anachronism"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "χρόνου",
    "gender": "m",
@@ -7563,6 +8369,17 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "iso-",
+    "isosceles",
+    "isotope",
+    "isometric"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -7593,6 +8410,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ὅταν"
@@ -7619,6 +8438,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "μόνον"
@@ -7651,6 +8472,21 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "idea",
+    "idol",
+    "history (via ἵστωρ)"
+   ],
+   "cognates": [
+    "wit",
+    "wise",
+    "wisdom"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -7712,6 +8548,16 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "basilica",
+    "basil",
+    "Basil"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "βασιλέως",
    "gender": "m",
@@ -7738,6 +8584,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ὦ"
@@ -7816,6 +8664,14 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "abulia"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -7875,6 +8731,19 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "phenomenon",
+    "phantom",
+    "fantasy",
+    "phase",
+    "epiphany",
+    "diaphanous"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -7938,6 +8807,22 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "graph",
+    "-graphy",
+    "graphic",
+    "photograph",
+    "paragraph",
+    "autograph"
+   ],
+   "cognates": [
+    "carve"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -7990,6 +8875,21 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "metaphor",
+    "phosphorus",
+    "periphery",
+    "Christopher"
+   ],
+   "cognates": [
+    "bear",
+    "birth"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -8058,6 +8958,17 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "psyche",
+    "psychology",
+    "psychiatry",
+    "psychic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ψυχῆς",
    "gender": "f",
@@ -8084,6 +8995,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "μηδείς",
@@ -8119,6 +9032,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -8156,6 +9071,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "πάλιν"
@@ -8188,6 +9105,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "μάλιστα"
@@ -8236,6 +9155,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -8289,6 +9210,17 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "monarch",
+    "archbishop",
+    "architect",
+    "hierarchy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -8343,6 +9275,19 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "gynaecology",
+    "misogyny",
+    "androgynous"
+   ],
+   "cognates": [
+    "queen"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "γυναικός",
    "gender": "f",
@@ -8375,6 +9320,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ποτε"
@@ -8412,6 +9359,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἵνα"
@@ -8450,6 +9399,20 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "onomatopoeia",
+    "anonymous",
+    "synonym",
+    "pseudonym"
+   ],
+   "cognates": [
+    "name"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ὀνόματος",
    "gender": "n",
@@ -8486,6 +9449,19 @@
    "core"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hyper-",
+    "hyperbole",
+    "hyperactive"
+   ],
+   "cognates": [
+    "over"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "ὑπέρ"
@@ -8512,6 +9488,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἤδη"
@@ -8549,6 +9527,19 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "patriarch",
+    "patriot",
+    "patronymic"
+   ],
+   "cognates": [
+    "father"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "πατρός",
    "gender": "m",
@@ -8575,6 +9566,14 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "acoustic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -8651,6 +9650,19 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "genus (Latin)",
+    "genocide",
+    "genealogy"
+   ],
+   "cognates": [
+    "kin"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "γένους",
    "gender": "n",
@@ -8677,6 +9689,17 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "topic",
+    "topography",
+    "utopia",
+    "isotope"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "τόπου",
    "gender": "m",
@@ -8708,6 +9731,17 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "practice",
+    "practical",
+    "pragmatic",
+    "praxis"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -8762,6 +9796,18 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "proto-",
+    "prototype",
+    "protein",
+    "protagonist",
+    "protocol"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -8834,6 +9880,15 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "heuristic",
+    "eureka"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -8902,6 +9957,17 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "pedagogue",
+    "paediatrics",
+    "encyclopaedia",
+    "pedant"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "παιδός",
    "gender": "m/f",
@@ -8964,6 +10030,14 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "proselyte (ἐλθ-)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -9022,6 +10096,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "genitive": "υἱοῦ",
    "gender": "m",
@@ -9048,6 +10124,21 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hydro-",
+    "hydrogen",
+    "hydrant",
+    "dehydrate"
+   ],
+   "cognates": [
+    "water",
+    "otter"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ὕδατος",
    "gender": "n",
@@ -9080,6 +10171,16 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "idiom",
+    "idiot",
+    "idiosyncrasy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -9117,6 +10218,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -9168,6 +10271,22 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "gnostic",
+    "agnostic",
+    "diagnosis",
+    "prognosis"
+   ],
+   "cognates": [
+    "know",
+    "can",
+    "ken"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -9227,6 +10346,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -9289,6 +10410,21 @@
    "city-life"
   ],
   "notes": "First aorist ἔστησα is transitive (‘I set up’), second aorist ἔστην intransitive (‘I stood’); perfect ἕστηκα ‘I stand’.",
+  "cognates": {
+   "derivatives": [
+    "static",
+    "system",
+    "ecstasy",
+    "apostasy",
+    "stasis"
+   ],
+   "cognates": [
+    "stand"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -9346,6 +10482,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἅμα"
@@ -9378,6 +10516,17 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "pedagogue",
+    "demagogue",
+    "synagogue",
+    "agent (Latin agere, cognate)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -9429,6 +10578,17 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "trope",
+    "tropic",
+    "heliotrope",
+    "entropy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "τρόπου",
    "gender": "m",
@@ -9465,6 +10625,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "μήτε...μήτε"
@@ -9492,6 +10654,20 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "meso-",
+    "Mesopotamia",
+    "Mesozoic"
+   ],
+   "cognates": [
+    "mid",
+    "middle"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -9529,6 +10705,8 @@
    "history"
   ],
   "notes": "Reciprocal pronoun ‘each other’; no nominative, plural (and dual) only.",
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἀλλήλων",
@@ -9562,6 +10740,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἀεί"
@@ -9595,6 +10775,18 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "philo-",
+    "philosophy",
+    "Philadelphia",
+    "bibliophile",
+    "Philip"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -9632,6 +10824,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -9679,6 +10873,20 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "energy",
+    "ergonomic",
+    "surgeon (χειρουργός)",
+    "erg"
+   ],
+   "cognates": [
+    "work"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἔργου",
    "gender": "n",
@@ -9711,6 +10919,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -9762,6 +10972,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "τότε"
@@ -9787,6 +10999,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "μήν"
@@ -9812,6 +11026,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -9861,6 +11077,20 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "paradigm",
+    "deictic",
+    "apodeictic"
+   ],
+   "cognates": [
+    "teach",
+    "token"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -9919,6 +11149,17 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "zoo",
+    "zoology",
+    "zodiac",
+    "protozoa"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ζῴου",
    "gender": "n",
@@ -9944,6 +11185,15 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "pragmatic",
+    "pragmatism"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "πράγματος",
    "gender": "n",
@@ -9969,6 +11219,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -9999,6 +11251,22 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "thesis",
+    "theme",
+    "synthesis",
+    "hypothesis",
+    "epithet"
+   ],
+   "cognates": [
+    "do",
+    "deed"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -10050,6 +11318,20 @@
    "philosophy"
   ],
   "notes": "Second aorist of ὁράω (‘I saw’); stem ἰδ-.",
+  "cognates": {
+   "derivatives": [
+    "idea",
+    "idol",
+    "kaleidoscope"
+   ],
+   "cognates": [
+    "wit",
+    "video (Latin videre, cognate)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "aorist": [
@@ -10093,6 +11375,17 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "chiro-",
+    "chiropractor",
+    "surgeon (cheir-ourgos)",
+    "chirography"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "χειρός",
    "gender": "f",
@@ -10125,6 +11418,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "μηδέ"
@@ -10158,6 +11453,15 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "oligarchy",
+    "oligo-"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -10200,6 +11504,18 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "-nomy",
+    "astronomy",
+    "economy",
+    "autonomy",
+    "Deuteronomy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "νόμου",
    "gender": "m",
@@ -10227,6 +11543,16 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "koine",
+    "cenobite",
+    "epicene"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -10264,6 +11590,8 @@
    "history"
   ],
   "notes": "Present οἴομαι or (in prose) οἶμαι; imperfect ᾤμην; aorist passive in form (ᾠήθην) with active meaning ‘I thought’.",
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -10329,6 +11657,17 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "kinetic",
+    "cinema",
+    "kinesis",
+    "telekinesis"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -10382,6 +11721,17 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "pathos",
+    "pathetic",
+    "sympathy",
+    "passion (Latin)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -10437,6 +11787,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "πῶς"
@@ -10469,6 +11821,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ὅσπερ",
@@ -10505,6 +11859,8 @@
    "mythology"
   ],
   "notes": "Declined like οὗτος: feminine and neuter plural from τοσαυτ- (τοσαύτη, τοσαῦτα); neuter singular τοσοῦτο or τοσοῦτον.",
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -10546,6 +11902,18 @@
    "core"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "syn-",
+    "synthesis",
+    "symphony",
+    "system",
+    "syllable"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "σύν"
@@ -10572,6 +11940,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "εἶτα"
@@ -10603,6 +11973,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Alethea"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 2,
    "forms": [
@@ -10644,6 +12022,15 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "theodicy",
+    "syndic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -10681,6 +12068,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -10726,6 +12115,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -10781,6 +12172,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -10812,6 +12205,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Ananke"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἀνάγκης",
    "gender": "f",
@@ -10837,6 +12238,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ὅτε"
@@ -10863,6 +12266,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -10893,6 +12298,15 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "polemic",
+    "polemical"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "πολέμου",
    "gender": "m",
@@ -10930,6 +12344,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "genitive": "χώρας",
    "gender": "f",
@@ -10972,6 +12388,15 @@
    "history"
   ],
   "notes": "Contracts with η instead of ᾱ: ζῶ, ζῇς, ζῇ, ζῶμεν, ζῆτε, ζῶσι; infinitive ζῆν.",
+  "cognates": {
+   "derivatives": [
+    "zoo",
+    "zoology"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -11019,6 +12444,18 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "plethora"
+   ],
+   "cognates": [
+    "full",
+    "fill"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "πλήθους",
    "gender": "n",
@@ -11051,6 +12488,21 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "helium",
+    "heliocentric",
+    "heliotrope",
+    "aphelion"
+   ],
+   "cognates": [
+    "sun",
+    "solar (Latin)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἡλίου",
    "gender": "m",
@@ -11078,6 +12530,14 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "aetiology"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "αἰτίας",
    "gender": "f",
@@ -11111,6 +12571,17 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "faith (Latin fides, cognate)"
+   ],
+   "cognates": [
+    "bid"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -11180,6 +12651,8 @@
    "history"
   ],
   "notes": "Compound of εἰμί: παρά + εἰμί, ‘be present’.",
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -11234,6 +12707,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -11276,6 +12751,17 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "idea",
+    "idol",
+    "kaleidoscope",
+    "-oid"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "εἴδους",
    "gender": "n",
@@ -11303,6 +12789,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ὅπως"
@@ -11340,6 +12828,20 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "tri-",
+    "triangle",
+    "tripod",
+    "trilogy"
+   ],
+   "cognates": [
+    "three"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "τρεῖς",
@@ -11368,6 +12870,21 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "bio-",
+    "biology",
+    "biography",
+    "antibiotic",
+    "symbiosis"
+   ],
+   "cognates": [
+    "quick (alive)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "βίου",
    "gender": "m",
@@ -11405,6 +12922,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -11478,6 +12997,20 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "cycle",
+    "cyclone",
+    "bicycle",
+    "encyclopaedia"
+   ],
+   "cognates": [
+    "wheel"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "κύκλου",
    "gender": "m",
@@ -11503,6 +13036,18 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "pathos",
+    "pathology",
+    "sympathy",
+    "apathy",
+    "empathy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "πάθους",
    "gender": "n",
@@ -11529,6 +13074,22 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "pro-",
+    "problem",
+    "prophet",
+    "prologue",
+    "program"
+   ],
+   "cognates": [
+    "for",
+    "fore"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "πρό"
@@ -11567,6 +13128,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -11625,6 +13188,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "μέντοι"
@@ -11666,6 +13231,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "aretology"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἀρετῆς",
    "gender": "f",
@@ -11691,6 +13264,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -11722,6 +13297,17 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "etesian"
+   ],
+   "cognates": [
+    "veteran (Latin vetus, cognate)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἔτους",
    "gender": "n",
@@ -11754,6 +13340,18 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "anti-",
+    "antidote",
+    "antithesis",
+    "Antarctic",
+    "antagonist"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "ἀντί"
@@ -11785,6 +13383,20 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "nautical",
+    "nausea",
+    "astronaut",
+    "Argonaut"
+   ],
+   "cognates": [
+    "navy (Latin navis)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "νεώς",
    "gender": "f",
@@ -11811,6 +13423,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -11842,6 +13456,16 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "pneumatic",
+    "pneumonia",
+    "pneuma"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "πνεύματος",
    "gender": "n",
@@ -11868,6 +13492,17 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "ortho-",
+    "orthodox",
+    "orthopaedic",
+    "orthography"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -11899,6 +13534,15 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "thalassaemia",
+    "thalassic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "θαλάττης",
    "gender": "f",
@@ -11935,6 +13579,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -11992,6 +13638,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "μέχρι"
@@ -12017,6 +13665,17 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "orthodox",
+    "paradox",
+    "doxology",
+    "heterodox"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "δόξης",
    "gender": "f",
@@ -12043,6 +13702,17 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "cephalic",
+    "encephalitis",
+    "cephalopod",
+    "hydrocephalus"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "κεφαλῆς",
    "gender": "f",
@@ -12075,6 +13745,21 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "pyre",
+    "pyro-",
+    "pyromaniac",
+    "pyrotechnics",
+    "empyrean"
+   ],
+   "cognates": [
+    "fire"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "πυρός",
    "gender": "n",
@@ -12112,6 +13797,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 2,
    "forms": [
@@ -12141,6 +13828,21 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "podium",
+    "tripod",
+    "octopus",
+    "podiatry",
+    "antipodes"
+   ],
+   "cognates": [
+    "foot"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ποδός",
    "gender": "m",
@@ -12166,6 +13868,17 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hiero-",
+    "hieroglyph",
+    "hierarchy",
+    "Jerome"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -12198,6 +13911,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Euthyphro"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -12241,6 +13962,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -12306,6 +14029,15 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "tachometer",
+    "tachycardia"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -12337,6 +14069,15 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hippopotamus",
+    "Mesopotamia"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ποταμοῦ",
    "gender": "m",
@@ -12363,6 +14104,15 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "parousia",
+    "homoousion"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "οὐσίας",
    "gender": "f",
@@ -12390,6 +14140,15 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "arithmetic",
+    "logarithm"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἀριθμοῦ",
    "gender": "m",
@@ -12423,6 +14182,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -12464,6 +14225,15 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "prophylactic",
+    "phylactery"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -12515,6 +14285,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "genitive": "καιροῦ",
    "gender": "m",
@@ -12541,6 +14313,17 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "economy",
+    "ecology",
+    "ecumenical",
+    "diocese"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -12589,6 +14372,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -12625,6 +14410,16 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "semantic",
+    "semaphore",
+    "semiotics"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "σημείου",
    "gender": "n",
@@ -12650,6 +14445,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -12703,6 +14500,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἑκάτερος",
@@ -12742,6 +14541,14 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "psychedelic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -12796,6 +14603,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -12828,6 +14637,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -12891,6 +14702,15 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "teleology",
+    "telos"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "τέλους",
    "gender": "n",
@@ -12916,6 +14736,16 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hegemony",
+    "exegesis",
+    "eisegesis"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -12959,6 +14789,15 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "axiom",
+    "axiology"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -12997,6 +14836,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἦ"
@@ -13048,6 +14889,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -13078,6 +14921,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "τοίνυν"
@@ -13103,6 +14948,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -13140,6 +14987,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -13191,6 +15040,15 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Philadelphia",
+    "Adelphi"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἀδελφοῦ",
    "gender": "m",
@@ -13234,6 +15092,14 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "megathere"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "μεγέθους",
    "gender": "n",
@@ -13265,6 +15131,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "εἴτε…εἴτε"
@@ -13290,6 +15158,17 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "cemetery (κοιμάω)"
+   ],
+   "cognates": [
+    "home"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -13326,6 +15205,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "πολλάκις"
@@ -13372,6 +15253,17 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "symposium (via πόσις)"
+   ],
+   "cognates": [
+    "potion (Latin)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -13426,6 +15318,19 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "charisma",
+    "charity (via Latin)",
+    "Eucharist"
+   ],
+   "cognates": [
+    "yearn"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "χάριτος",
    "gender": "f",
@@ -13451,6 +15356,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἔπειτα"
@@ -13476,6 +15383,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "zetetic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -13520,6 +15435,15 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "scheme",
+    "schematic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "σχήματος",
    "gender": "n",
@@ -13546,6 +15470,16 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "atrophy",
+    "dystrophy",
+    "trophic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "τροφῆς",
    "gender": "f",
@@ -13572,6 +15506,16 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "mathematics",
+    "polymath",
+    "chrestomathy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -13626,6 +15570,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἐνταῦθα"
@@ -13652,6 +15598,15 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "fugitive (Latin fugere, cognate)",
+    "centrifugal"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -13703,6 +15658,19 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hippopotamus",
+    "hippodrome",
+    "Philip"
+   ],
+   "cognates": [
+    "equine (Latin equus)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἵππου",
    "gender": "m",
@@ -13740,6 +15708,17 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "cosmos",
+    "cosmetic",
+    "cosmopolitan",
+    "microcosm"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "κόσμου",
    "gender": "m",
@@ -13772,6 +15751,17 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "haemo-",
+    "anaemia",
+    "haemorrhage",
+    "leukaemia"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "αἵματος",
    "gender": "n",
@@ -13797,6 +15787,15 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "heresy",
+    "heretic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -13854,6 +15853,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -13905,6 +15906,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -13956,6 +15959,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἕως"
@@ -13981,6 +15986,21 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "neo-",
+    "neon",
+    "neologism",
+    "neophyte",
+    "Neolithic"
+   ],
+   "cognates": [
+    "new"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -14017,6 +16037,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -14053,6 +16075,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "κἄν"
@@ -14080,6 +16104,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -14153,6 +16179,17 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "technique",
+    "technology",
+    "technical",
+    "polytechnic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "τέχνης",
    "gender": "f",
@@ -14179,6 +16216,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "genitive": "χρήματος",
    "gender": "n",
@@ -14204,6 +16243,15 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "soteriology",
+    "Sozomen"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -14253,6 +16301,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "pomp"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -14315,6 +16371,18 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "phone",
+    "phonetic",
+    "telephone",
+    "symphony",
+    "microphone"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "φωνῆς",
    "gender": "f",
@@ -14341,6 +16409,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἕνεκα"
@@ -14373,6 +16443,14 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Apollyon"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -14424,6 +16502,15 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "euthanasia",
+    "thanatology"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "θανάτου",
    "gender": "m",
@@ -14457,6 +16544,18 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "nyctalopia"
+   ],
+   "cognates": [
+    "night",
+    "nocturnal (Latin)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "νυκτός",
    "gender": "f",
@@ -14514,6 +16613,19 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "method",
+    "exodus",
+    "period",
+    "episode",
+    "odometer",
+    "cathode"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ὁδοῦ",
    "gender": "f",
@@ -14540,6 +16652,16 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "ethnic",
+    "ethnology",
+    "ethnicity"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἔθνους",
    "gender": "n",
@@ -14565,6 +16687,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -14616,6 +16740,16 @@
    "philosophy"
   ],
   "notes": "Attic contracted 2nd declension (νόος → νοῦς): νοῦς, νοῦ, νῷ, νοῦν; pl. νοῖ, νῶν, νοῖς, νοῦς.",
+  "cognates": {
+   "derivatives": [
+    "noetic",
+    "paranoia",
+    "nous"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "νοῦ",
    "gender": "m",
@@ -14643,6 +16777,14 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "remain (Latin manere, cognate)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -14687,6 +16829,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -14734,6 +16878,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "πάνυ"
@@ -14770,6 +16916,18 @@
    "core"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "eu-",
+    "eulogy",
+    "euphemism",
+    "euthanasia",
+    "Eugene"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "εὖ"
@@ -14797,6 +16955,21 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "crisis",
+    "critic",
+    "criterion",
+    "hypocrite",
+    "endocrine"
+   ],
+   "cognates": [
+    "riddle (sieve)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -14854,6 +17027,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -14909,6 +17084,17 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "macro-",
+    "macron",
+    "macroscopic",
+    "macrocosm"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -14947,6 +17133,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -15007,6 +17195,18 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hedonism",
+    "hedonist"
+   ],
+   "cognates": [
+    "sweet"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἡδονῆς",
    "gender": "f",
@@ -15034,6 +17234,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "genitive": "μητρός",
    "gender": "f",
@@ -15070,6 +17272,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "dinosaur"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -15112,6 +17322,14 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "diaphoretic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "διαφορᾶς",
    "gender": "f",
@@ -15138,6 +17356,20 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "democracy",
+    "aristocracy",
+    "autocrat",
+    "-cracy"
+   ],
+   "cognates": [
+    "hard"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -15190,6 +17422,18 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "democracy",
+    "demagogue",
+    "epidemic",
+    "endemic",
+    "demography"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "δήμου",
    "gender": "m",
@@ -15216,6 +17460,15 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Uranus",
+    "uranium"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "οὐρανοῦ",
    "gender": "m",
@@ -15253,6 +17506,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -15295,6 +17550,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 2,
    "forms": [
@@ -15330,6 +17587,15 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "orogeny",
+    "oread"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ὄρους",
    "gender": "n",
@@ -15382,6 +17648,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "πλήν"
@@ -15414,6 +17682,19 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "tetra-",
+    "tetrahedron",
+    "tetrapod"
+   ],
+   "cognates": [
+    "four"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "τέτταρες",
@@ -15440,6 +17721,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "dynasty"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -15472,6 +17761,17 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "economy",
+    "ecology",
+    "parish (παροικία)",
+    "diocese"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "οἴκου",
    "gender": "m",
@@ -15503,6 +17803,15 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "aristocracy",
+    "Aristotle"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -15533,6 +17842,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -15563,6 +17874,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -15619,6 +17932,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Tyche"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "τύχης",
    "gender": "f",
@@ -15650,6 +17971,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -15687,6 +18010,15 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "prosopography",
+    "prosopopoeia"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "προσώπου",
    "gender": "n",
@@ -15713,6 +18045,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -15775,6 +18109,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "didactic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -15826,6 +18168,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἄνω"
@@ -15852,6 +18196,17 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "tactics",
+    "syntax",
+    "taxonomy",
+    "taxidermy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -15904,6 +18259,15 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "ophthalmology",
+    "ophthalmic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ὀφθαλμοῦ",
    "gender": "m",
@@ -15936,6 +18300,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -15985,6 +18351,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -16042,6 +18410,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -16072,6 +18442,15 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "energy",
+    "surgeon"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -16115,6 +18494,16 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "logomachy",
+    "tauromachy",
+    "-machy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "μάχης",
    "gender": "f",
@@ -16141,6 +18530,15 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "atrophy",
+    "dystrophy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -16189,6 +18587,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 2,
    "forms": [
@@ -16224,6 +18624,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 2,
    "forms": [
@@ -16252,6 +18654,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "που"
@@ -16278,6 +18682,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ὅθεν"
@@ -16310,6 +18716,16 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "stomach",
+    "stoma",
+    "stomatology"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "στόματος",
    "gender": "n",
@@ -16335,6 +18751,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "χωρίς"
@@ -16360,6 +18778,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 2,
    "forms": [
@@ -16388,6 +18808,18 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "brachy-",
+    "brachycephalic"
+   ],
+   "cognates": [
+    "brief (Latin brevis, cognate)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -16418,6 +18850,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -16448,6 +18882,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Alethea"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἀληθείας",
    "gender": "f",
@@ -16481,6 +18923,15 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "theodicy",
+    "syndicate"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "δίκης",
    "gender": "f",
@@ -16513,6 +18964,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "genitive": "χωρίου",
    "gender": "n",
@@ -16538,6 +18991,17 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hedonism"
+   ],
+   "cognates": [
+    "sweet"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -16569,6 +19033,15 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "nosology",
+    "zoonosis"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "νόσου",
    "gender": "f",
@@ -16595,6 +19068,17 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "lithograph",
+    "monolith",
+    "Neolithic",
+    "lithium"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "λίθου",
    "gender": "m",
@@ -16620,6 +19104,16 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "palaeo-",
+    "Palaeolithic",
+    "palaeontology"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -16651,6 +19145,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -16714,6 +19210,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἄλλως"
@@ -16745,6 +19243,15 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "praxis",
+    "practice"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "πράξεως",
    "gender": "f",
@@ -16770,6 +19277,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 2,
    "forms": [
@@ -16798,6 +19307,17 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "philosophy",
+    "sophist",
+    "sophisticated",
+    "Sophia"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -16828,6 +19348,16 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Nicholas",
+    "Nike",
+    "Nicodemus"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -16881,6 +19411,15 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "homologous",
+    "homology"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -16938,6 +19477,14 @@
    "mythology"
   ],
   "notes": "Attic-declension form νεώς (gen. νεώ) is the usual classical spelling; ναός is the common form.",
+  "cognates": {
+   "derivatives": [
+    "naos"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ναοῦ",
    "gender": "m",
@@ -16965,6 +19512,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "αὖ",
@@ -16998,6 +19547,15 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "patriot",
+    "expatriate"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "πατρίδος",
    "gender": "f",
@@ -17023,6 +19581,17 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "oxygen",
+    "oxymoron",
+    "paroxysm",
+    "acid (Latin, cognate)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -17054,6 +19623,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "καίτοι"
@@ -17086,6 +19657,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "πλέον"
@@ -17112,6 +19685,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 2,
    "forms": [
@@ -17146,6 +19721,16 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "gnome (maxim)",
+    "gnomic",
+    "physiognomy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "γνώμης",
    "gender": "f",
@@ -17172,6 +19757,15 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Timothy",
+    "timocracy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "τιμῆς",
    "gender": "f",
@@ -17203,6 +19797,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "μεταξύ"
@@ -17228,6 +19824,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -17263,6 +19861,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "πρίν"
@@ -17288,6 +19888,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -17350,6 +19952,16 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "strategy",
+    "strategic",
+    "stratagem"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "στρατηγοῦ",
    "gender": "m",
@@ -17381,6 +19993,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "οὐκέτι"
@@ -17407,6 +20021,16 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "presbyter",
+    "priest",
+    "Presbyterian"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "πρέσβεως",
    "gender": "m",
@@ -17433,6 +20057,15 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "pause",
+    "menopause"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -17486,6 +20119,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -17548,6 +20183,17 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "mix (Latin miscere, cognate)"
+   ],
+   "cognates": [
+    "mix"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -17600,6 +20246,17 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "laity",
+    "lay (person)",
+    "liturgy",
+    "Nicholas"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "λαοῦ",
    "gender": "m",
@@ -17626,6 +20283,14 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "cognates": [
+    "daughter"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "θυγατρός",
    "gender": "f",
@@ -17658,6 +20323,15 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "economy",
+    "ecology"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "οἰκίας",
    "gender": "f",
@@ -17683,6 +20357,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -17734,6 +20410,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἔξω"
@@ -17760,6 +20438,16 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Polynesia",
+    "Peloponnese",
+    "Indonesia"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "νήσου",
    "gender": "f",
@@ -17785,6 +20473,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἐκεῖ"
@@ -17810,6 +20500,15 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "epistemology",
+    "epistemic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἐπιστήμης",
    "gender": "f",
@@ -17837,6 +20536,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -17882,6 +20583,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "thaumaturge"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -17960,6 +20669,16 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "aesthetic",
+    "anaesthesia",
+    "synaesthesia"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -18017,6 +20736,17 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Eucharist (χάρις)"
+   ],
+   "cognates": [
+    "yearn"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -18064,6 +20794,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -18095,6 +20827,14 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Tecton"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "τέκνου",
    "gender": "n",
@@ -18121,6 +20861,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -18178,6 +20920,15 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "-machy",
+    "logomachy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -18221,6 +20972,20 @@
    "philosophy"
   ],
   "notes": "The simplex is rare: Attic uses ἀναμιμνῄσκω ‘remind’ and the perfect middle μέμνημαι ‘I remember’ (aorist passive ἐμνήσθην ‘I remembered, mentioned’).",
+  "cognates": {
+   "derivatives": [
+    "mnemonic",
+    "amnesia",
+    "amnesty",
+    "Mnemosyne"
+   ],
+   "cognates": [
+    "mind"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -18269,6 +21034,8 @@
    "history"
   ],
   "notes": "The simplex θνῄσκω is poetic; prose uses ἀποθνῄσκω. The perfect τέθνηκα means ‘I am dead’ (short forms τέθναμεν, τεθνάναι, τεθνεώς).",
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -18316,6 +21083,22 @@
    "mythology"
   ],
   "notes": "The simplex θνῄσκω is poetic; prose uses ἀποθνῄσκω. The perfect τέθνηκα means ‘I am dead’ (short forms τέθναμεν, τεθνάναι, τεθνεώς).",
+  "cognates": {
+   "derivatives": [
+    "analysis",
+    "paralysis",
+    "catalyst",
+    "electrolyte",
+    "dialysis"
+   ],
+   "cognates": [
+    "lose",
+    "loose"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -18373,6 +21156,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Timothy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -18425,6 +21216,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "genitive": "τείχους",
    "gender": "n",
@@ -18461,6 +21254,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἴσως"
@@ -18487,6 +21282,14 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "meteor (μετέωρος)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -18538,6 +21341,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -18592,6 +21397,14 @@
    "history"
   ],
   "notes": "First-declension masculine in -ης (the DCC export labels it 2nd declension).",
+  "cognates": {
+   "derivatives": [
+    "strategy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "στρατιώτου",
    "gender": "m",
@@ -18623,6 +21436,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἄνευ"
@@ -18648,6 +21463,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -18679,6 +21496,15 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "haploid",
+    "haplography"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "ἁπλῶς"
@@ -18704,6 +21530,19 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "symptom",
+    "ptosis",
+    "peripeteia"
+   ],
+   "cognates": [
+    "feather (fly)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -18748,6 +21587,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -18778,6 +21619,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -18817,6 +21660,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -18848,6 +21693,17 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "agony",
+    "antagonist",
+    "protagonist",
+    "agonize"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἀγῶνος",
    "gender": "m",
@@ -18873,6 +21729,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -18924,6 +21782,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hamartia"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -18981,6 +21847,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -19049,6 +21917,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "πως"
@@ -19080,6 +21950,15 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "geoponics",
+    "hydroponics"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "πόνου",
    "gender": "m",
@@ -19106,6 +21985,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἔνθα"
@@ -19137,6 +22018,17 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "taxis",
+    "taxonomy",
+    "syntax",
+    "tactics"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "τάξεως",
    "gender": "f",
@@ -19162,6 +22054,16 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "pirate",
+    "empirical",
+    "experiment (Latin, cognate)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -19209,6 +22111,16 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "phobia",
+    "claustrophobia",
+    "hydrophobia"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -19257,6 +22169,20 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "ballistic",
+    "problem",
+    "symbol",
+    "emblem",
+    "parable",
+    "hyperbole",
+    "devil (διάβολος)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -19311,6 +22237,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -19342,6 +22270,19 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "xenophobia",
+    "xenon",
+    "xenia"
+   ],
+   "cognates": [
+    "guest"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ξένου",
    "gender": "m",
@@ -19368,6 +22309,17 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "barbarian",
+    "barbarous",
+    "Barbara",
+    "Berber"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 2,
    "forms": [
@@ -19403,6 +22355,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ὅπου"
@@ -19435,6 +22389,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -19487,6 +22443,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -19540,6 +22498,15 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "doulos",
+    "hierodule"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "δούλου",
    "gender": "m",
@@ -19565,6 +22532,18 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "atom",
+    "anatomy",
+    "-tomy",
+    "epitome",
+    "tome"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -19619,6 +22598,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "chrestomathy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -19650,6 +22637,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -19686,6 +22675,15 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hoplite",
+    "panoply"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ὅπλου",
    "gender": "n",
@@ -19711,6 +22709,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "pistis"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "πίστεως",
    "gender": "f",
@@ -19736,6 +22742,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -19794,6 +22802,14 @@
    "city-life"
   ],
   "notes": "First-declension masculine in -ής (the DCC export labels it 2nd declension).",
+  "cognates": {
+   "derivatives": [
+    "poet"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ποιητοῦ",
    "gender": "m",
@@ -19820,6 +22836,17 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "latent (Latin latere, cognate)",
+    "Lethe",
+    "lethargy",
+    "alethic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -19863,6 +22890,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 2,
    "forms": [
@@ -19891,6 +22920,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "πάντως"
@@ -19916,6 +22947,15 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "pore",
+    "emporium"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -19964,6 +23004,15 @@
    "city-life"
   ],
   "notes": "In Attic prose usually middle ἀποκρίνομαι ‘answer’; the aorist passive ἀπεκρίθην is later Greek.",
+  "cognates": {
+   "derivatives": [
+    "apocrine",
+    "crisis"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -20008,6 +23057,20 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "penta-",
+    "pentagon",
+    "Pentecost",
+    "pentathlon"
+   ],
+   "cognates": [
+    "five"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "πέντε"
@@ -20033,6 +23096,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "genitive": "κινδύνου",
    "gender": "m",
@@ -20060,6 +23125,15 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "category",
+    "categorical"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -20118,6 +23192,17 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "trope",
+    "tropic",
+    "heliotrope",
+    "trophy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -20165,6 +23250,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ὅμως"
@@ -20190,6 +23277,14 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "theology"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -20226,6 +23321,14 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hippodrome"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἱππέως",
    "gender": "m",
@@ -20257,6 +23360,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -20301,6 +23406,16 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "eclipse",
+    "ellipse",
+    "ellipsis"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -20353,6 +23468,15 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "boule",
+    "bouleuterion"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "βουλῆς",
    "gender": "f",
@@ -20378,6 +23502,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "genitive": "ἐλπίδος",
    "gender": "f",
@@ -20404,6 +23530,16 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "graph",
+    "graphic",
+    "-graphy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "γραφῆς",
    "gender": "f",
@@ -20436,6 +23572,15 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "tocology",
+    "oxytocin"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -20489,6 +23634,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -20540,6 +23687,18 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "thymus",
+    "enthymeme"
+   ],
+   "cognates": [
+    "fume (Latin)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "θυμοῦ",
    "gender": "m",
@@ -20571,6 +23730,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -20610,6 +23771,15 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "phobia",
+    "phobic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "φόβου",
    "gender": "m",
@@ -20636,6 +23806,15 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "polity",
+    "politics"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "πολιτείας",
    "gender": "f",
@@ -20662,6 +23841,15 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "stadium",
+    "stade"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "σταδίου",
    "gender": "n",
@@ -20688,6 +23876,16 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "phrenology",
+    "frenetic",
+    "schizophrenia"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -20728,6 +23926,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -20766,6 +23966,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hormone"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -20824,6 +24032,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -20870,6 +24080,15 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "glossolalia",
+    "echolalia"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -20917,6 +24136,15 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "drama",
+    "drastic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -20968,6 +24196,21 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "scope",
+    "telescope",
+    "microscope",
+    "sceptic",
+    "bishop (ἐπίσκοπος)"
+   ],
+   "cognates": [
+    "spy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -21009,6 +24252,20 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "bucolic",
+    "Bosporus",
+    "butter (βούτυρον)"
+   ],
+   "cognates": [
+    "cow",
+    "beef (Latin)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "βοός",
    "gender": "m/f",
@@ -21040,6 +24297,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -21071,6 +24330,18 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "grammar",
+    "gram",
+    "telegram",
+    "program",
+    "diagram"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "γράμματος",
    "gender": "n",
@@ -21097,6 +24368,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -21145,6 +24418,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -21195,6 +24470,17 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "thyme"
+   ],
+   "cognates": [
+    "fume (Latin fumus)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -21253,6 +24539,14 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "elastic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -21310,6 +24604,8 @@
    "philosophy"
   ],
   "notes": "Perfect with present meaning (‘I fear’); δέδια is the second-perfect form.",
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -21349,6 +24645,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 2,
    "forms": [
@@ -21378,6 +24676,14 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hegemony"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἡγεμόνος",
    "gender": "m",
@@ -21403,6 +24709,19 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "baritone",
+    "barometer",
+    "barium"
+   ],
+   "cognates": [
+    "grave (Latin gravis, cognate)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -21433,6 +24752,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ὧδε"
@@ -21458,6 +24779,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -21488,6 +24811,15 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Irene",
+    "irenic"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "εἰρήνης",
    "gender": "f",
@@ -21514,6 +24846,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -21570,6 +24904,20 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "deca-",
+    "decade",
+    "decalogue",
+    "decathlon"
+   ],
+   "cognates": [
+    "ten"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "δέκα"
@@ -21595,6 +24943,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 2,
    "forms": [
@@ -21623,6 +24973,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 2,
    "forms": [
@@ -21651,6 +25003,14 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Boethius"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -21694,6 +25054,14 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "lamp"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -21724,6 +25092,14 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "parallax (ἀλλάττω)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -21777,6 +25153,14 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "boule"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -21834,6 +25218,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "μάλα"
@@ -21860,6 +25246,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -21911,6 +25299,8 @@
    "history"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "genitive": "σωτηρίας",
    "gender": "f",
@@ -21937,6 +25327,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ἆρα"
@@ -21969,6 +25361,8 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -22016,6 +25410,17 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "demon",
+    "daemon",
+    "pandemonium",
+    "eudaimonia"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "δαίμονος",
    "gender": "m/f",
@@ -22041,6 +25446,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "οὐκοῦν"
@@ -22067,6 +25474,18 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "glottal",
+    "polyglot",
+    "gloss",
+    "glossary",
+    "epiglottis"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "γλώττης",
    "gender": "f",
@@ -22093,6 +25512,19 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hepta-",
+    "heptagon",
+    "heptathlon"
+   ],
+   "cognates": [
+    "seven"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "ἑπτά"
@@ -22118,6 +25550,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "parts": {
     "present": [
@@ -22170,6 +25604,15 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "despot",
+    "despotism"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "δεσπότου",
    "gender": "m",
@@ -22196,6 +25639,14 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "icon (εἰκών)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "εἰκότος",
    "gender": "n",
@@ -22227,6 +25678,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 2,
    "forms": [
@@ -22256,6 +25709,14 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "icosahedron"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "εἴκοσι"
@@ -22282,6 +25743,14 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "myriad"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -22313,6 +25782,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "αὐτίκα"
@@ -22345,6 +25816,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -22376,6 +25849,20 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "basis",
+    "base",
+    "acrobat",
+    "diabetes"
+   ],
+   "cognates": [
+    "come"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -22422,6 +25909,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "περ"
@@ -22448,6 +25937,17 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Eleutheria"
+   ],
+   "cognates": [
+    "liberty (Latin liber, cognate)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -22478,6 +25978,14 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "strategy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "στρατιᾶς",
    "gender": "f",
@@ -22504,6 +26012,17 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "amphi-",
+    "amphibian",
+    "amphitheatre",
+    "amphora"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "ἀμφί"
@@ -22537,6 +26056,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "genitive": "συμφορᾶς",
    "gender": "f",
@@ -22580,6 +26101,18 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hecatomb"
+   ],
+   "cognates": [
+    "hundred",
+    "cent (Latin)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "ἑκατόν"
@@ -22611,6 +26144,16 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Nike",
+    "Nicholas",
+    "Berenice"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "νίκης",
    "gender": "f",
@@ -22638,6 +26181,16 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "epic",
+    "epos",
+    "orthoepy"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἔπους",
    "gender": "n",
@@ -22684,6 +26237,15 @@
    "history"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "strategy",
+    "stratagem"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "στρατοῦ",
    "gender": "m",
@@ -22710,6 +26272,16 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "phrase",
+    "paraphrase",
+    "periphrasis"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -22762,6 +26334,15 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "Argentina (via Latin argentum, cognate)",
+    "argyria"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "ἀργυρίου",
    "gender": "n",
@@ -22788,6 +26369,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "τριάκοντα"
@@ -22814,6 +26397,18 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "hexagon",
+    "hexameter"
+   ],
+   "cognates": [
+    "six"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "ἕξ"
@@ -22840,6 +26435,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -22878,6 +26475,15 @@
    "mythology"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "martyr",
+    "martyrdom"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "μάρτυρος",
    "gender": "m/f",
@@ -22910,6 +26516,15 @@
    "history"
   ],
   "notes": "Contracted adjective (χάλκεος → χαλκοῦς): all forms circumflexed on the ending.",
+  "cognates": {
+   "derivatives": [
+    "chalcolithic",
+    "chalcopyrite"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -22941,6 +26556,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -22971,6 +26588,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ποῦ"
@@ -22996,6 +26615,8 @@
    "core"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "ναί"
@@ -23022,6 +26643,17 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "photo",
+    "photograph",
+    "photon",
+    "phosphorus"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "genitive": "φωτός",
    "gender": "n",
@@ -23048,6 +26680,19 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "octagon",
+    "octopus",
+    "octave (Latin)"
+   ],
+   "cognates": [
+    "eight"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "ὀκτώ"
@@ -23074,6 +26719,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -23105,6 +26752,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -23136,6 +26785,17 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "ennead"
+   ],
+   "cognates": [
+    "nine"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "forms": [
     "ἐννέα"
@@ -23162,6 +26822,8 @@
    "philosophy"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "forms": [
     "πότε"
@@ -23199,6 +26861,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -23230,6 +26894,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -23261,6 +26927,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [
@@ -23292,6 +26960,16 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": {
+   "derivatives": [
+    "angel",
+    "evangelist",
+    "gospel (calque)"
+   ]
+  },
+  "tags": [
+   "cognates"
+  ],
   "morph": {
    "parts": {
     "present": [
@@ -23344,6 +27022,8 @@
    "city-life"
   ],
   "notes": null,
+  "cognates": null,
+  "tags": [],
   "morph": {
    "terminations": 3,
    "forms": [

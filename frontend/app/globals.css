@@ -383,3 +383,6 @@ audio { width: 100%; display: block; }
   .paradigmRow { grid-template-columns: 1fr; gap: 2px; }
 }
 .footnote a, .exampleMeta a, .crumbs a { color: var(--accent); }
+.cognateLine { margin: 6px 0 0; color: var(--muted); font-size: 14px; line-height: 1.45; }
+.cognateLine b { color: var(--accent); font-weight: 600; }
+.wordCognate { color: var(--accent); }

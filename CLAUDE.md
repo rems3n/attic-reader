@@ -694,3 +694,8 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   headword pre-render adds ~524 short clips after the library); a review pass
   of generated forms against a grammar (report-an-error flow is manual);
   dual number; ἵστημι/τέθνηκα short perfect forms are notes only.
+- **English cognates tag** (user request, same day): `vocab_data/cognates.json`
+  (lemma → `derivatives` = English words from the Greek word, `cognates` =
+  inherited IE relatives; 301 words) → `entry.cognates`, `entry.tags =
+  ["cognates"]`, facet `tags` (`vocab.TAGS`). Deck builder "Extras" chip,
+  cognate line on card backs and word pages. Curated by hand — correct there.

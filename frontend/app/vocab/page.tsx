@@ -18,7 +18,7 @@ import {
 } from "../../lib/progress";
 import { CARD_TYPES, cardKey, describeInterval, grade, isNew, pickSession, type CardType, type Grade } from "../../lib/srs";
 
-type Filters = { topics: Set<string>; tiers: Set<number>; kinds: Set<string>; groups: Set<string>; readings: Set<string> };
+type Filters = { topics: Set<string>; tags: Set<string>; tiers: Set<number>; kinds: Set<string>; groups: Set<string>; readings: Set<string> };
 type Mode = "build" | "study" | "done";
 type Prompt = { key: string; item: VocabItem; type: CardType; fresh: boolean };
 type FormsQuestion = { label: string; answer: string[] };
@@ -29,7 +29,7 @@ const GENDER_LABEL: Record<string, string> = { m: "masculine", f: "feminine", n:
 const PERSON_LABEL: Record<string, string> = { "1sg": "1 sg.", "2sg": "2 sg.", "3sg": "3 sg.", "1pl": "1 pl.", "2pl": "2 pl.", "3pl": "3 pl.", inf: "infinitive", m: "participle masc.", f: "participle fem.", n: "participle neut.", mg: "participle gen. masc." };
 
 function emptyFilters(): Filters {
-  return { topics: new Set(), tiers: new Set(), kinds: new Set(), groups: new Set(), readings: new Set() };
+  return { topics: new Set(), tags: new Set(), tiers: new Set(), kinds: new Set(), groups: new Set(), readings: new Set() };
 }
 
 function toggle<T>(set: Set<T>, v: T): Set<T> {
@@ -41,6 +41,7 @@ function toggle<T>(set: Set<T>, v: T): Set<T> {
 
 function matches(item: VocabItem, f: Filters): boolean {
   if (f.topics.size && !item.topics.some((t) => f.topics.has(t))) return false;
+  if (f.tags.size && ![...f.tags].every((t) => item.tags.includes(t))) return false;
   if (f.tiers.size && !f.tiers.has(item.tier)) return false;
   if (f.kinds.size && !f.kinds.has(item.kind)) return false;
   if (f.groups.size && !f.groups.has(item.group)) return false;
@@ -73,6 +74,19 @@ function formsQuestion(entry: VocabEntry): FormsQuestion | null {
   const cell = pick(cells);
   const gender = GENDER_LABEL[cell.g] ?? cell.g;
   return { label: `${gender} ${CASE_LABEL[cell.case]} ${cell.number === "sg" ? "singular" : "plural"}`.trim(), answer: cell.list };
+}
+
+/** "English: logic, dialogue · ≈ father" from the curated cognate map. */
+function CognateLine({ item }: { item: VocabItem }) {
+  const c = item.cognates;
+  if (!c) return null;
+  return (
+    <p className="cognateLine">
+      {c.derivatives && c.derivatives.length > 0 && <>English: <b>{c.derivatives.join(", ")}</b></>}
+      {c.derivatives && c.derivatives.length > 0 && c.cognates && c.cognates.length > 0 && " · "}
+      {c.cognates && c.cognates.length > 0 && <>≈ <b>{c.cognates.join(", ")}</b></>}
+    </p>
+  );
 }
 
 function normalizeGreek(s: string): string {
@@ -249,6 +263,7 @@ export default function VocabPage() {
               {flipped && (
                 <div className="flashBack">
                   <p className="flashAnswer">{entry?.definition ?? item.short}</p>
+                  <CognateLine item={item} />
                   <p className="flashHint">{item.group} · rank {item.rank}</p>
                   {entry?.notes && <p className="flashNote">{entry.notes}</p>}
                 </div>
@@ -281,6 +296,7 @@ export default function VocabPage() {
                   {typedOk != null && <p className={typedOk ? "ok" : "warnText"}>{typedOk ? "✓ correct" : "✗ compare"}</p>}
                   <SpeakButton text={item.lemma} play={play} busy={busy} />
                   <p className="flashHint">{entry?.definition ?? item.short}</p>
+                  <CognateLine item={item} />
                 </div>
               )}
             </>
@@ -374,6 +390,14 @@ export default function VocabPage() {
             </button>
           ))}
         </div>
+        <h3 className="chipTitle">Extras</h3>
+        <div className="chips">
+          {f.tags.map((t) => (
+            <button key={t.id} type="button" className={`chip ${filters.tags.has(String(t.id)) ? "on" : ""}`} onClick={() => setFilters({ ...filters, tags: toggle(filters.tags, String(t.id)) })}>
+              {t.label} <span className="chipCount">{t.count}</span>
+            </button>
+          ))}
+        </div>
         <h3 className="chipTitle">Level (by frequency)</h3>
         <div className="chips">
           {f.tiers.map((t) => (
@@ -441,7 +465,10 @@ export default function VocabPage() {
                 <li key={w.id}>
                   <Link className="wordRow" href={`/vocab/${encodeURIComponent(w.id)}`}>
                     <span className="wordLemma">{w.lemma}</span>
-                    <span className="wordShort">{w.short}</span>
+                    <span className="wordShort">
+                      {w.short}
+                      {w.cognates?.derivatives?.[0] && <span className="wordCognate"> · {w.cognates.derivatives[0]}</span>}
+                    </span>
                     <span className={`level ${w.level}`}>{w.level}</span>
                     <span className="wordDue">{describeInterval(st, Date.now())}</span>
                   </Link>

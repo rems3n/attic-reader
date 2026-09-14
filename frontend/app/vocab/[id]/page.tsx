@@ -38,6 +38,12 @@ export default function WordPage() {
           {entry.topics.length > 0 && <> · {entry.topics.join(", ")}</>}
         </p>
         <p className="wordDef">{entry.definition}</p>
+        {entry.cognates?.derivatives && entry.cognates.derivatives.length > 0 && (
+          <p className="cognateLine">From this word in English: <b>{entry.cognates.derivatives.join(", ")}</b></p>
+        )}
+        {entry.cognates?.cognates && entry.cognates.cognates.length > 0 && (
+          <p className="cognateLine">Related by descent (same Indo-European root): <b>{entry.cognates.cognates.join(", ")}</b></p>
+        )}
         {entry.notes && <p className="wordNote">{entry.notes}</p>}
         <p className="muted small">IPA (learner Attic): /{entry.ipa}/{playError && <> · {playError}</>}</p>
       </section>

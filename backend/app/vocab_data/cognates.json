@@ -1,0 +1,2334 @@
+{
+ "_note": "English derivatives (loanwords and learned formations from the Greek word) and inherited Indo-European cognates, keyed by lemma. Used for the ‘English cognates’ deck tag.",
+ "αὐτός": {
+  "derivatives": [
+   "auto-",
+   "autonomy",
+   "automatic",
+   "autograph",
+   "authentic"
+  ]
+ },
+ "εἰμί": {
+  "derivatives": [
+   "ontology",
+   "onto-",
+   "parousia"
+  ],
+  "cognates": [
+   "is",
+   "am"
+  ]
+ },
+ "ἐν": {
+  "derivatives": [
+   "en-",
+   "energy",
+   "enthusiasm",
+   "endemic"
+  ],
+  "cognates": [
+   "in"
+  ]
+ },
+ "τις": {
+  "cognates": [
+   "what",
+   "who"
+  ]
+ },
+ "τίς": {
+  "cognates": [
+   "what",
+   "who"
+  ]
+ },
+ "λέγω": {
+  "derivatives": [
+   "lexicon",
+   "dialect",
+   "-logy",
+   "logic",
+   "dyslexia"
+  ]
+ },
+ "εἰς": {
+  "derivatives": [
+   "eso-",
+   "esoteric"
+  ]
+ },
+ "ἐπί": {
+  "derivatives": [
+   "epi-",
+   "epidemic",
+   "epidermis",
+   "episode",
+   "epitaph",
+   "epicentre"
+  ]
+ },
+ "κατά": {
+  "derivatives": [
+   "cata-",
+   "catastrophe",
+   "catalogue",
+   "cataract",
+   "catholic"
+  ]
+ },
+ "ἐγώ": {
+  "derivatives": [
+   "ego",
+   "egoism"
+  ],
+  "cognates": [
+   "I"
+  ]
+ },
+ "γίγνομαι": {
+  "derivatives": [
+   "genesis",
+   "gene",
+   "genetic"
+  ],
+  "cognates": [
+   "kin",
+   "kind"
+  ]
+ },
+ "διά": {
+  "derivatives": [
+   "dia-",
+   "diameter",
+   "diagnosis",
+   "dialogue",
+   "diagonal"
+  ]
+ },
+ "πᾶς": {
+  "derivatives": [
+   "pan-",
+   "panorama",
+   "pandemic",
+   "pantheon",
+   "panacea",
+   "pancreas"
+  ]
+ },
+ "ἔχω": {
+  "derivatives": [
+   "hectic",
+   "cachexia",
+   "epoch",
+   "eunuch"
+  ]
+ },
+ "ἐκ": {
+  "derivatives": [
+   "ec-",
+   "ex-",
+   "eclipse",
+   "ecstasy",
+   "exodus",
+   "eccentric"
+  ]
+ },
+ "πολύς": {
+  "derivatives": [
+   "poly-",
+   "polygon",
+   "polytheism",
+   "polymer",
+   "Polynesia"
+  ],
+  "cognates": [
+   "full",
+   "plenty"
+  ]
+ },
+ "περί": {
+  "derivatives": [
+   "peri-",
+   "perimeter",
+   "period",
+   "periscope",
+   "peripheral"
+  ]
+ },
+ "ἀνά": {
+  "derivatives": [
+   "ana-",
+   "analysis",
+   "anatomy",
+   "anachronism",
+   "anagram"
+  ]
+ },
+ "σύ": {
+  "cognates": [
+   "thou"
+  ]
+ },
+ "ἄλλος": {
+  "derivatives": [
+   "allo-",
+   "allegory",
+   "allergy",
+   "parallel"
+  ],
+  "cognates": [
+   "else"
+  ]
+ },
+ "ἀπό": {
+  "derivatives": [
+   "apo-",
+   "apology",
+   "apostle",
+   "apocalypse",
+   "apostrophe"
+  ],
+  "cognates": [
+   "of",
+   "off"
+  ]
+ },
+ "φημί": {
+  "derivatives": [
+   "prophet",
+   "blasphemy",
+   "euphemism",
+   "aphasia",
+   "fame (via Latin)"
+  ]
+ },
+ "ὑπό": {
+  "derivatives": [
+   "hypo-",
+   "hypothesis",
+   "hypodermic",
+   "hypocrite"
+  ],
+  "cognates": [
+   "up"
+  ]
+ },
+ "ποιέω": {
+  "derivatives": [
+   "poet",
+   "poem",
+   "poetry",
+   "onomatopoeia"
+  ]
+ },
+ "λόγος": {
+  "derivatives": [
+   "logic",
+   "-logy",
+   "logo",
+   "dialogue",
+   "analogy",
+   "prologue",
+   "biology"
+  ]
+ },
+ "παρά": {
+  "derivatives": [
+   "para-",
+   "parallel",
+   "paradox",
+   "parasite",
+   "paragraph",
+   "parable"
+  ]
+ },
+ "πρότερος": {
+  "derivatives": [
+   "proto-",
+   "prototype",
+   "protagonist"
+  ]
+ },
+ "θεός": {
+  "derivatives": [
+   "theology",
+   "theist",
+   "atheist",
+   "enthusiasm",
+   "pantheon",
+   "Theodore"
+  ]
+ },
+ "μετά": {
+  "derivatives": [
+   "meta-",
+   "metaphor",
+   "metabolism",
+   "metamorphosis",
+   "method"
+  ]
+ },
+ "μέγας": {
+  "derivatives": [
+   "mega-",
+   "megaphone",
+   "megalomania",
+   "omega"
+  ],
+  "cognates": [
+   "much",
+   "mickle"
+  ]
+ },
+ "ἀγαθός": {
+  "derivatives": [
+   "Agatha"
+  ]
+ },
+ "πόλις": {
+  "derivatives": [
+   "politics",
+   "police",
+   "policy",
+   "metropolis",
+   "acropolis",
+   "cosmopolitan"
+  ]
+ },
+ "εἷς": {
+  "derivatives": [
+   "hendiadys",
+   "henotheism"
+  ]
+ },
+ "ἵημι": {
+  "derivatives": [
+   "enema",
+   "catheter",
+   "paresis"
+  ]
+ },
+ "ἄνθρωπος": {
+  "derivatives": [
+   "anthropology",
+   "philanthropy",
+   "misanthrope",
+   "anthropomorphic"
+  ]
+ },
+ "ὁράω": {
+  "derivatives": [
+   "panorama",
+   "diorama",
+   "idea (from εἶδον)",
+   "idol",
+   "optic (from ὄψομαι)"
+  ]
+ },
+ "μόνος": {
+  "derivatives": [
+   "mono-",
+   "monk",
+   "monopoly",
+   "monastery",
+   "monotone"
+  ]
+ },
+ "λαμβάνω": {
+  "derivatives": [
+   "syllable",
+   "epilepsy",
+   "dilemma",
+   "lemma"
+  ]
+ },
+ "δοκέω": {
+  "derivatives": [
+   "dogma",
+   "doxology",
+   "orthodox",
+   "paradox"
+  ]
+ },
+ "ἕτερος": {
+  "derivatives": [
+   "hetero-",
+   "heterodox",
+   "heterogeneous"
+  ]
+ },
+ "κακός": {
+  "derivatives": [
+   "caco-",
+   "cacophony"
+  ]
+ },
+ "ἀνήρ": {
+  "derivatives": [
+   "andro-",
+   "android",
+   "Andrew",
+   "polyandry",
+   "philander"
+  ]
+ },
+ "καλέω": {
+  "derivatives": [
+   "ecclesiastical",
+   "paraclete"
+  ],
+  "cognates": [
+   "call (via Latin calare, cognate)"
+  ]
+ },
+ "σῶμα": {
+  "derivatives": [
+   "somatic",
+   "chromosome",
+   "psychosomatic"
+  ]
+ },
+ "δίδωμι": {
+  "derivatives": [
+   "dose",
+   "antidote",
+   "anecdote"
+  ],
+  "cognates": [
+   "donate (via Latin)"
+  ]
+ },
+ "φύσις": {
+  "derivatives": [
+   "physics",
+   "physical",
+   "physician",
+   "physiology"
+  ]
+ },
+ "μικρός": {
+  "derivatives": [
+   "micro-",
+   "microscope",
+   "microbe",
+   "microphone"
+  ]
+ },
+ "δύναμαι": {
+  "derivatives": [
+   "dynamic",
+   "dynamite",
+   "dynasty"
+  ]
+ },
+ "ἀρχή": {
+  "derivatives": [
+   "archaic",
+   "archaeology",
+   "monarchy",
+   "anarchy",
+   "archetype",
+   "arch-"
+  ]
+ },
+ "ἡμέρα": {
+  "derivatives": [
+   "ephemeral",
+   "hemerocallis (day-lily)"
+  ]
+ },
+ "φύω": {
+  "derivatives": [
+   "physics",
+   "phyte",
+   "neophyte"
+  ],
+  "cognates": [
+   "be"
+  ]
+ },
+ "ὅμοιος": {
+  "derivatives": [
+   "homeo-",
+   "homeopathy",
+   "homeostasis"
+  ],
+  "cognates": [
+   "same"
+  ]
+ },
+ "νῦν": {
+  "cognates": [
+   "now"
+  ]
+ },
+ "γῆ": {
+  "derivatives": [
+   "geo-",
+   "geography",
+   "geology",
+   "geometry",
+   "George"
+  ]
+ },
+ "δύναμις": {
+  "derivatives": [
+   "dynamic",
+   "dynamo",
+   "dynamite"
+  ]
+ },
+ "καλός": {
+  "derivatives": [
+   "calligraphy",
+   "kaleidoscope",
+   "callisthenics"
+  ]
+ },
+ "κύριος": {
+  "derivatives": [
+   "Kyrie",
+   "church (via κυριακόν)",
+   "Cyril"
+  ]
+ },
+ "ὅλος": {
+  "derivatives": [
+   "holo-",
+   "holistic",
+   "hologram",
+   "catholic",
+   "holocaust"
+  ]
+ },
+ "μέρος": {
+  "derivatives": [
+   "polymer",
+   "isomer",
+   "meristem"
+  ]
+ },
+ "δύο": {
+  "derivatives": [
+   "dyad",
+   "duo (Latin)"
+  ],
+  "cognates": [
+   "two"
+  ]
+ },
+ "χρόνος": {
+  "derivatives": [
+   "chronic",
+   "chronology",
+   "chronicle",
+   "synchronize",
+   "anachronism"
+  ]
+ },
+ "ἴσος": {
+  "derivatives": [
+   "iso-",
+   "isosceles",
+   "isotope",
+   "isometric"
+  ]
+ },
+ "οἶδα": {
+  "derivatives": [
+   "idea",
+   "idol",
+   "history (via ἵστωρ)"
+  ],
+  "cognates": [
+   "wit",
+   "wise",
+   "wisdom"
+  ]
+ },
+ "βασιλεύς": {
+  "derivatives": [
+   "basilica",
+   "basil",
+   "Basil"
+  ]
+ },
+ "βούλομαι": {
+  "derivatives": [
+   "abulia"
+  ]
+ },
+ "φαίνω": {
+  "derivatives": [
+   "phenomenon",
+   "phantom",
+   "fantasy",
+   "phase",
+   "epiphany",
+   "diaphanous"
+  ]
+ },
+ "γράφω": {
+  "derivatives": [
+   "graph",
+   "-graphy",
+   "graphic",
+   "photograph",
+   "paragraph",
+   "autograph"
+  ],
+  "cognates": [
+   "carve"
+  ]
+ },
+ "φέρω": {
+  "derivatives": [
+   "metaphor",
+   "phosphorus",
+   "periphery",
+   "Christopher"
+  ],
+  "cognates": [
+   "bear",
+   "birth"
+  ]
+ },
+ "ψυχή": {
+  "derivatives": [
+   "psyche",
+   "psychology",
+   "psychiatry",
+   "psychic"
+  ]
+ },
+ "ἄρχω": {
+  "derivatives": [
+   "monarch",
+   "archbishop",
+   "architect",
+   "hierarchy"
+  ]
+ },
+ "γυνή": {
+  "derivatives": [
+   "gynaecology",
+   "misogyny",
+   "androgynous"
+  ],
+  "cognates": [
+   "queen"
+  ]
+ },
+ "ὄνομα": {
+  "derivatives": [
+   "onomatopoeia",
+   "anonymous",
+   "synonym",
+   "pseudonym"
+  ],
+  "cognates": [
+   "name"
+  ]
+ },
+ "ὑπέρ": {
+  "derivatives": [
+   "hyper-",
+   "hyperbole",
+   "hyperactive"
+  ],
+  "cognates": [
+   "over"
+  ]
+ },
+ "πατήρ": {
+  "derivatives": [
+   "patriarch",
+   "patriot",
+   "patronymic"
+  ],
+  "cognates": [
+   "father"
+  ]
+ },
+ "ἀκούω": {
+  "derivatives": [
+   "acoustic"
+  ]
+ },
+ "γένος": {
+  "derivatives": [
+   "genus (Latin)",
+   "genocide",
+   "genealogy"
+  ],
+  "cognates": [
+   "kin"
+  ]
+ },
+ "τόπος": {
+  "derivatives": [
+   "topic",
+   "topography",
+   "utopia",
+   "isotope"
+  ]
+ },
+ "πράττω": {
+  "derivatives": [
+   "practice",
+   "practical",
+   "pragmatic",
+   "praxis"
+  ]
+ },
+ "πρῶτος": {
+  "derivatives": [
+   "proto-",
+   "prototype",
+   "protein",
+   "protagonist",
+   "protocol"
+  ]
+ },
+ "εὑρίσκω": {
+  "derivatives": [
+   "heuristic",
+   "eureka"
+  ]
+ },
+ "παῖς": {
+  "derivatives": [
+   "pedagogue",
+   "paediatrics",
+   "encyclopaedia",
+   "pedant"
+  ]
+ },
+ "ὕδωρ": {
+  "derivatives": [
+   "hydro-",
+   "hydrogen",
+   "hydrant",
+   "dehydrate"
+  ],
+  "cognates": [
+   "water",
+   "otter"
+  ]
+ },
+ "ἴδιος": {
+  "derivatives": [
+   "idiom",
+   "idiot",
+   "idiosyncrasy"
+  ]
+ },
+ "γιγνώσκω": {
+  "derivatives": [
+   "gnostic",
+   "agnostic",
+   "diagnosis",
+   "prognosis"
+  ],
+  "cognates": [
+   "know",
+   "can",
+   "ken"
+  ]
+ },
+ "ἵστημι": {
+  "derivatives": [
+   "static",
+   "system",
+   "ecstasy",
+   "apostasy",
+   "stasis"
+  ],
+  "cognates": [
+   "stand"
+  ]
+ },
+ "ἄγω": {
+  "derivatives": [
+   "pedagogue",
+   "demagogue",
+   "synagogue",
+   "agent (Latin agere, cognate)"
+  ]
+ },
+ "τρόπος": {
+  "derivatives": [
+   "trope",
+   "tropic",
+   "heliotrope",
+   "entropy"
+  ]
+ },
+ "μέσος": {
+  "derivatives": [
+   "meso-",
+   "Mesopotamia",
+   "Mesozoic"
+  ],
+  "cognates": [
+   "mid",
+   "middle"
+  ]
+ },
+ "φίλος": {
+  "derivatives": [
+   "philo-",
+   "philosophy",
+   "Philadelphia",
+   "bibliophile",
+   "Philip"
+  ]
+ },
+ "ἔργον": {
+  "derivatives": [
+   "energy",
+   "ergonomic",
+   "surgeon (χειρουργός)",
+   "erg"
+  ],
+  "cognates": [
+   "work"
+  ]
+ },
+ "δείκνυμι": {
+  "derivatives": [
+   "paradigm",
+   "deictic",
+   "apodeictic"
+  ],
+  "cognates": [
+   "teach",
+   "token"
+  ]
+ },
+ "ζῷον": {
+  "derivatives": [
+   "zoo",
+   "zoology",
+   "zodiac",
+   "protozoa"
+  ]
+ },
+ "πρᾶγμα": {
+  "derivatives": [
+   "pragmatic",
+   "pragmatism"
+  ]
+ },
+ "τίθημι": {
+  "derivatives": [
+   "thesis",
+   "theme",
+   "synthesis",
+   "hypothesis",
+   "epithet"
+  ],
+  "cognates": [
+   "do",
+   "deed"
+  ]
+ },
+ "χείρ": {
+  "derivatives": [
+   "chiro-",
+   "chiropractor",
+   "surgeon (cheir-ourgos)",
+   "chirography"
+  ]
+ },
+ "ὀλίγος": {
+  "derivatives": [
+   "oligarchy",
+   "oligo-"
+  ]
+ },
+ "νόμος": {
+  "derivatives": [
+   "-nomy",
+   "astronomy",
+   "economy",
+   "autonomy",
+   "Deuteronomy"
+  ]
+ },
+ "κοινός": {
+  "derivatives": [
+   "koine",
+   "cenobite",
+   "epicene"
+  ]
+ },
+ "κινέω": {
+  "derivatives": [
+   "kinetic",
+   "cinema",
+   "kinesis",
+   "telekinesis"
+  ]
+ },
+ "πάσχω": {
+  "derivatives": [
+   "pathos",
+   "pathetic",
+   "sympathy",
+   "passion (Latin)"
+  ]
+ },
+ "σύν": {
+  "derivatives": [
+   "syn-",
+   "synthesis",
+   "symphony",
+   "system",
+   "syllable"
+  ]
+ },
+ "ἀληθής": {
+  "derivatives": [
+   "Alethea"
+  ]
+ },
+ "δίκαιος": {
+  "derivatives": [
+   "theodicy",
+   "syndic"
+  ]
+ },
+ "ἀνάγκη": {
+  "derivatives": [
+   "Ananke"
+  ]
+ },
+ "πόλεμος": {
+  "derivatives": [
+   "polemic",
+   "polemical"
+  ]
+ },
+ "ζάω": {
+  "derivatives": [
+   "zoo",
+   "zoology"
+  ]
+ },
+ "πλῆθος": {
+  "derivatives": [
+   "plethora"
+  ],
+  "cognates": [
+   "full",
+   "fill"
+  ]
+ },
+ "ἥλιος": {
+  "derivatives": [
+   "helium",
+   "heliocentric",
+   "heliotrope",
+   "aphelion"
+  ],
+  "cognates": [
+   "sun",
+   "solar (Latin)"
+  ]
+ },
+ "αἰτία": {
+  "derivatives": [
+   "aetiology"
+  ]
+ },
+ "πείθω": {
+  "derivatives": [
+   "faith (Latin fides, cognate)"
+  ],
+  "cognates": [
+   "bid"
+  ]
+ },
+ "εἶδος": {
+  "derivatives": [
+   "idea",
+   "idol",
+   "kaleidoscope",
+   "-oid"
+  ]
+ },
+ "τρεῖς": {
+  "derivatives": [
+   "tri-",
+   "triangle",
+   "tripod",
+   "trilogy"
+  ],
+  "cognates": [
+   "three"
+  ]
+ },
+ "βίος": {
+  "derivatives": [
+   "bio-",
+   "biology",
+   "biography",
+   "antibiotic",
+   "symbiosis"
+  ],
+  "cognates": [
+   "quick (alive)"
+  ]
+ },
+ "κύκλος": {
+  "derivatives": [
+   "cycle",
+   "cyclone",
+   "bicycle",
+   "encyclopaedia"
+  ],
+  "cognates": [
+   "wheel"
+  ]
+ },
+ "πάθος": {
+  "derivatives": [
+   "pathos",
+   "pathology",
+   "sympathy",
+   "apathy",
+   "empathy"
+  ]
+ },
+ "πρό": {
+  "derivatives": [
+   "pro-",
+   "problem",
+   "prophet",
+   "prologue",
+   "program"
+  ],
+  "cognates": [
+   "for",
+   "fore"
+  ]
+ },
+ "ἀρετή": {
+  "derivatives": [
+   "aretology"
+  ]
+ },
+ "ἔτος": {
+  "derivatives": [
+   "etesian"
+  ],
+  "cognates": [
+   "veteran (Latin vetus, cognate)"
+  ]
+ },
+ "ἀντί": {
+  "derivatives": [
+   "anti-",
+   "antidote",
+   "antithesis",
+   "Antarctic",
+   "antagonist"
+  ]
+ },
+ "ναῦς": {
+  "derivatives": [
+   "nautical",
+   "nausea",
+   "astronaut",
+   "Argonaut"
+  ],
+  "cognates": [
+   "navy (Latin navis)"
+  ]
+ },
+ "πνεῦμα": {
+  "derivatives": [
+   "pneumatic",
+   "pneumonia",
+   "pneuma"
+  ]
+ },
+ "ὀρθός": {
+  "derivatives": [
+   "ortho-",
+   "orthodox",
+   "orthopaedic",
+   "orthography"
+  ]
+ },
+ "θάλαττα": {
+  "derivatives": [
+   "thalassaemia",
+   "thalassic"
+  ]
+ },
+ "δόξα": {
+  "derivatives": [
+   "orthodox",
+   "paradox",
+   "doxology",
+   "heterodox"
+  ]
+ },
+ "κεφαλή": {
+  "derivatives": [
+   "cephalic",
+   "encephalitis",
+   "cephalopod",
+   "hydrocephalus"
+  ]
+ },
+ "πῦρ": {
+  "derivatives": [
+   "pyre",
+   "pyro-",
+   "pyromaniac",
+   "pyrotechnics",
+   "empyrean"
+  ],
+  "cognates": [
+   "fire"
+  ]
+ },
+ "πούς": {
+  "derivatives": [
+   "podium",
+   "tripod",
+   "octopus",
+   "podiatry",
+   "antipodes"
+  ],
+  "cognates": [
+   "foot"
+  ]
+ },
+ "ἱερός": {
+  "derivatives": [
+   "hiero-",
+   "hieroglyph",
+   "hierarchy",
+   "Jerome"
+  ]
+ },
+ "εὐθύς": {
+  "derivatives": [
+   "Euthyphro"
+  ]
+ },
+ "ταχύς": {
+  "derivatives": [
+   "tachometer",
+   "tachycardia"
+  ]
+ },
+ "ποταμός": {
+  "derivatives": [
+   "hippopotamus",
+   "Mesopotamia"
+  ]
+ },
+ "οὐσία": {
+  "derivatives": [
+   "parousia",
+   "homoousion"
+  ]
+ },
+ "ἀριθμός": {
+  "derivatives": [
+   "arithmetic",
+   "logarithm"
+  ]
+ },
+ "φυλάττω": {
+  "derivatives": [
+   "prophylactic",
+   "phylactery"
+  ]
+ },
+ "οἰκέω": {
+  "derivatives": [
+   "economy",
+   "ecology",
+   "ecumenical",
+   "diocese"
+  ]
+ },
+ "σημεῖον": {
+  "derivatives": [
+   "semantic",
+   "semaphore",
+   "semiotics"
+  ]
+ },
+ "δηλόω": {
+  "derivatives": [
+   "psychedelic"
+  ]
+ },
+ "τέλος": {
+  "derivatives": [
+   "teleology",
+   "telos"
+  ]
+ },
+ "ἡγέομαι": {
+  "derivatives": [
+   "hegemony",
+   "exegesis",
+   "eisegesis"
+  ]
+ },
+ "ἄξιος": {
+  "derivatives": [
+   "axiom",
+   "axiology"
+  ]
+ },
+ "ἀδελφός": {
+  "derivatives": [
+   "Philadelphia",
+   "Adelphi"
+  ]
+ },
+ "μέγεθος": {
+  "derivatives": [
+   "megathere"
+  ]
+ },
+ "κεῖμαι": {
+  "derivatives": [
+   "cemetery (κοιμάω)"
+  ],
+  "cognates": [
+   "home"
+  ]
+ },
+ "πίνω": {
+  "derivatives": [
+   "symposium (via πόσις)"
+  ],
+  "cognates": [
+   "potion (Latin)"
+  ]
+ },
+ "χάρις": {
+  "derivatives": [
+   "charisma",
+   "charity (via Latin)",
+   "Eucharist"
+  ],
+  "cognates": [
+   "yearn"
+  ]
+ },
+ "ζητέω": {
+  "derivatives": [
+   "zetetic"
+  ]
+ },
+ "σχῆμα": {
+  "derivatives": [
+   "scheme",
+   "schematic"
+  ]
+ },
+ "τροφή": {
+  "derivatives": [
+   "atrophy",
+   "dystrophy",
+   "trophic"
+  ]
+ },
+ "μανθάνω": {
+  "derivatives": [
+   "mathematics",
+   "polymath",
+   "chrestomathy"
+  ]
+ },
+ "φεύγω": {
+  "derivatives": [
+   "fugitive (Latin fugere, cognate)",
+   "centrifugal"
+  ]
+ },
+ "ἵππος": {
+  "derivatives": [
+   "hippopotamus",
+   "hippodrome",
+   "Philip"
+  ],
+  "cognates": [
+   "equine (Latin equus)"
+  ]
+ },
+ "κόσμος": {
+  "derivatives": [
+   "cosmos",
+   "cosmetic",
+   "cosmopolitan",
+   "microcosm"
+  ]
+ },
+ "αἷμα": {
+  "derivatives": [
+   "haemo-",
+   "anaemia",
+   "haemorrhage",
+   "leukaemia"
+  ]
+ },
+ "αἱρέω": {
+  "derivatives": [
+   "heresy",
+   "heretic"
+  ]
+ },
+ "νέος": {
+  "derivatives": [
+   "neo-",
+   "neon",
+   "neologism",
+   "neophyte",
+   "Neolithic"
+  ],
+  "cognates": [
+   "new"
+  ]
+ },
+ "τέχνη": {
+  "derivatives": [
+   "technique",
+   "technology",
+   "technical",
+   "polytechnic"
+  ]
+ },
+ "σῴζω": {
+  "derivatives": [
+   "soteriology",
+   "Sozomen"
+  ]
+ },
+ "πέμπω": {
+  "derivatives": [
+   "pomp"
+  ]
+ },
+ "φωνή": {
+  "derivatives": [
+   "phone",
+   "phonetic",
+   "telephone",
+   "symphony",
+   "microphone"
+  ]
+ },
+ "ἀπόλλυμι": {
+  "derivatives": [
+   "Apollyon"
+  ]
+ },
+ "θάνατος": {
+  "derivatives": [
+   "euthanasia",
+   "thanatology"
+  ]
+ },
+ "νύξ": {
+  "derivatives": [
+   "nyctalopia"
+  ],
+  "cognates": [
+   "night",
+   "nocturnal (Latin)"
+  ]
+ },
+ "ὁδός": {
+  "derivatives": [
+   "method",
+   "exodus",
+   "period",
+   "episode",
+   "odometer",
+   "cathode"
+  ]
+ },
+ "ἔθνος": {
+  "derivatives": [
+   "ethnic",
+   "ethnology",
+   "ethnicity"
+  ]
+ },
+ "νοῦς": {
+  "derivatives": [
+   "noetic",
+   "paranoia",
+   "nous"
+  ]
+ },
+ "μένω": {
+  "derivatives": [
+   "remain (Latin manere, cognate)"
+  ]
+ },
+ "εὖ": {
+  "derivatives": [
+   "eu-",
+   "eulogy",
+   "euphemism",
+   "euthanasia",
+   "Eugene"
+  ]
+ },
+ "κρίνω": {
+  "derivatives": [
+   "crisis",
+   "critic",
+   "criterion",
+   "hypocrite",
+   "endocrine"
+  ],
+  "cognates": [
+   "riddle (sieve)"
+  ]
+ },
+ "μακρός": {
+  "derivatives": [
+   "macro-",
+   "macron",
+   "macroscopic",
+   "macrocosm"
+  ]
+ },
+ "ἡδονή": {
+  "derivatives": [
+   "hedonism",
+   "hedonist"
+  ],
+  "cognates": [
+   "sweet"
+  ]
+ },
+ "δεινός": {
+  "derivatives": [
+   "dinosaur"
+  ]
+ },
+ "διαφορά": {
+  "derivatives": [
+   "diaphoretic"
+  ]
+ },
+ "κρατέω": {
+  "derivatives": [
+   "democracy",
+   "aristocracy",
+   "autocrat",
+   "-cracy"
+  ],
+  "cognates": [
+   "hard"
+  ]
+ },
+ "δῆμος": {
+  "derivatives": [
+   "democracy",
+   "demagogue",
+   "epidemic",
+   "endemic",
+   "demography"
+  ]
+ },
+ "οὐρανός": {
+  "derivatives": [
+   "Uranus",
+   "uranium"
+  ]
+ },
+ "ὄρος": {
+  "derivatives": [
+   "orogeny",
+   "oread"
+  ]
+ },
+ "τέτταρες": {
+  "derivatives": [
+   "tetra-",
+   "tetrahedron",
+   "tetrapod"
+  ],
+  "cognates": [
+   "four"
+  ]
+ },
+ "δυνατός": {
+  "derivatives": [
+   "dynasty"
+  ]
+ },
+ "οἶκος": {
+  "derivatives": [
+   "economy",
+   "ecology",
+   "parish (παροικία)",
+   "diocese"
+  ]
+ },
+ "ἄριστος": {
+  "derivatives": [
+   "aristocracy",
+   "Aristotle"
+  ]
+ },
+ "τύχη": {
+  "derivatives": [
+   "Tyche"
+  ]
+ },
+ "πρόσωπον": {
+  "derivatives": [
+   "prosopography",
+   "prosopopoeia"
+  ]
+ },
+ "διδάσκω": {
+  "derivatives": [
+   "didactic"
+  ]
+ },
+ "τάττω": {
+  "derivatives": [
+   "tactics",
+   "syntax",
+   "taxonomy",
+   "taxidermy"
+  ]
+ },
+ "ὀφθαλμός": {
+  "derivatives": [
+   "ophthalmology",
+   "ophthalmic"
+  ]
+ },
+ "ἐργάζομαι": {
+  "derivatives": [
+   "energy",
+   "surgeon"
+  ]
+ },
+ "μάχη": {
+  "derivatives": [
+   "logomachy",
+   "tauromachy",
+   "-machy"
+  ]
+ },
+ "τρέφω": {
+  "derivatives": [
+   "atrophy",
+   "dystrophy"
+  ]
+ },
+ "στόμα": {
+  "derivatives": [
+   "stomach",
+   "stoma",
+   "stomatology"
+  ]
+ },
+ "βραχύς": {
+  "derivatives": [
+   "brachy-",
+   "brachycephalic"
+  ],
+  "cognates": [
+   "brief (Latin brevis, cognate)"
+  ]
+ },
+ "ἀλήθεια": {
+  "derivatives": [
+   "Alethea"
+  ]
+ },
+ "δίκη": {
+  "derivatives": [
+   "theodicy",
+   "syndicate"
+  ]
+ },
+ "ἡδύς": {
+  "derivatives": [
+   "hedonism"
+  ],
+  "cognates": [
+   "sweet"
+  ]
+ },
+ "νόσος": {
+  "derivatives": [
+   "nosology",
+   "zoonosis"
+  ]
+ },
+ "λίθος": {
+  "derivatives": [
+   "lithograph",
+   "monolith",
+   "Neolithic",
+   "lithium"
+  ]
+ },
+ "παλαιός": {
+  "derivatives": [
+   "palaeo-",
+   "Palaeolithic",
+   "palaeontology"
+  ]
+ },
+ "πρᾶξις": {
+  "derivatives": [
+   "praxis",
+   "practice"
+  ]
+ },
+ "σοφός": {
+  "derivatives": [
+   "philosophy",
+   "sophist",
+   "sophisticated",
+   "Sophia"
+  ]
+ },
+ "νικάω": {
+  "derivatives": [
+   "Nicholas",
+   "Nike",
+   "Nicodemus"
+  ]
+ },
+ "ὁμολογέω": {
+  "derivatives": [
+   "homologous",
+   "homology"
+  ]
+ },
+ "ναός": {
+  "derivatives": [
+   "naos"
+  ]
+ },
+ "πατρίς": {
+  "derivatives": [
+   "patriot",
+   "expatriate"
+  ]
+ },
+ "ὀξύς": {
+  "derivatives": [
+   "oxygen",
+   "oxymoron",
+   "paroxysm",
+   "acid (Latin, cognate)"
+  ]
+ },
+ "γνώμη": {
+  "derivatives": [
+   "gnome (maxim)",
+   "gnomic",
+   "physiognomy"
+  ]
+ },
+ "τιμή": {
+  "derivatives": [
+   "Timothy",
+   "timocracy"
+  ]
+ },
+ "στρατηγός": {
+  "derivatives": [
+   "strategy",
+   "strategic",
+   "stratagem"
+  ]
+ },
+ "πρέσβυς": {
+  "derivatives": [
+   "presbyter",
+   "priest",
+   "Presbyterian"
+  ]
+ },
+ "παύω": {
+  "derivatives": [
+   "pause",
+   "menopause"
+  ]
+ },
+ "μίγνυμι": {
+  "derivatives": [
+   "mix (Latin miscere, cognate)"
+  ],
+  "cognates": [
+   "mix"
+  ]
+ },
+ "λαός": {
+  "derivatives": [
+   "laity",
+   "lay (person)",
+   "liturgy",
+   "Nicholas"
+  ]
+ },
+ "θυγάτηρ": {
+  "cognates": [
+   "daughter"
+  ]
+ },
+ "οἰκία": {
+  "derivatives": [
+   "economy",
+   "ecology"
+  ]
+ },
+ "νῆσος": {
+  "derivatives": [
+   "Polynesia",
+   "Peloponnese",
+   "Indonesia"
+  ]
+ },
+ "ἐπιστήμη": {
+  "derivatives": [
+   "epistemology",
+   "epistemic"
+  ]
+ },
+ "θαυμάζω": {
+  "derivatives": [
+   "thaumaturge"
+  ]
+ },
+ "αἰσθάνομαι": {
+  "derivatives": [
+   "aesthetic",
+   "anaesthesia",
+   "synaesthesia"
+  ]
+ },
+ "χαίρω": {
+  "derivatives": [
+   "Eucharist (χάρις)"
+  ],
+  "cognates": [
+   "yearn"
+  ]
+ },
+ "τέκνον": {
+  "derivatives": [
+   "Tecton"
+  ]
+ },
+ "μάχομαι": {
+  "derivatives": [
+   "-machy",
+   "logomachy"
+  ]
+ },
+ "μιμνήσκω": {
+  "derivatives": [
+   "mnemonic",
+   "amnesia",
+   "amnesty",
+   "Mnemosyne"
+  ],
+  "cognates": [
+   "mind"
+  ]
+ },
+ "λύω": {
+  "derivatives": [
+   "analysis",
+   "paralysis",
+   "catalyst",
+   "electrolyte",
+   "dialysis"
+  ],
+  "cognates": [
+   "lose",
+   "loose"
+  ]
+ },
+ "τιμάω": {
+  "derivatives": [
+   "Timothy"
+  ]
+ },
+ "αἴρω": {
+  "derivatives": [
+   "meteor (μετέωρος)"
+  ]
+ },
+ "στρατιώτης": {
+  "derivatives": [
+   "strategy"
+  ]
+ },
+ "ἁπλῶς": {
+  "derivatives": [
+   "haploid",
+   "haplography"
+  ]
+ },
+ "πίπτω": {
+  "derivatives": [
+   "symptom",
+   "ptosis",
+   "peripeteia"
+  ],
+  "cognates": [
+   "feather (fly)"
+  ]
+ },
+ "ἀγών": {
+  "derivatives": [
+   "agony",
+   "antagonist",
+   "protagonist",
+   "agonize"
+  ]
+ },
+ "ἁμαρτάνω": {
+  "derivatives": [
+   "hamartia"
+  ]
+ },
+ "πόνος": {
+  "derivatives": [
+   "geoponics",
+   "hydroponics"
+  ]
+ },
+ "τάξις": {
+  "derivatives": [
+   "taxis",
+   "taxonomy",
+   "syntax",
+   "tactics"
+  ]
+ },
+ "πειράω": {
+  "derivatives": [
+   "pirate",
+   "empirical",
+   "experiment (Latin, cognate)"
+  ]
+ },
+ "φοβέω": {
+  "derivatives": [
+   "phobia",
+   "claustrophobia",
+   "hydrophobia"
+  ]
+ },
+ "βάλλω": {
+  "derivatives": [
+   "ballistic",
+   "problem",
+   "symbol",
+   "emblem",
+   "parable",
+   "hyperbole",
+   "devil (διάβολος)"
+  ]
+ },
+ "ξένος": {
+  "derivatives": [
+   "xenophobia",
+   "xenon",
+   "xenia"
+  ],
+  "cognates": [
+   "guest"
+  ]
+ },
+ "βάρβαρος": {
+  "derivatives": [
+   "barbarian",
+   "barbarous",
+   "Barbara",
+   "Berber"
+  ]
+ },
+ "δοῦλος": {
+  "derivatives": [
+   "doulos",
+   "hierodule"
+  ]
+ },
+ "τέμνω": {
+  "derivatives": [
+   "atom",
+   "anatomy",
+   "-tomy",
+   "epitome",
+   "tome"
+  ]
+ },
+ "χρήσιμος": {
+  "derivatives": [
+   "chrestomathy"
+  ]
+ },
+ "ὅπλον": {
+  "derivatives": [
+   "hoplite",
+   "panoply"
+  ]
+ },
+ "πίστις": {
+  "derivatives": [
+   "pistis"
+  ]
+ },
+ "ποιητής": {
+  "derivatives": [
+   "poet"
+  ]
+ },
+ "λανθάνω": {
+  "derivatives": [
+   "latent (Latin latere, cognate)",
+   "Lethe",
+   "lethargy",
+   "alethic"
+  ]
+ },
+ "πέντε": {
+  "derivatives": [
+   "penta-",
+   "pentagon",
+   "Pentecost",
+   "pentathlon"
+  ],
+  "cognates": [
+   "five"
+  ]
+ },
+ "κατηγορέω": {
+  "derivatives": [
+   "category",
+   "categorical"
+  ]
+ },
+ "τρέπω": {
+  "derivatives": [
+   "trope",
+   "tropic",
+   "heliotrope",
+   "trophy"
+  ]
+ },
+ "θεῖος": {
+  "derivatives": [
+   "theology"
+  ]
+ },
+ "ἱππεύς": {
+  "derivatives": [
+   "hippodrome"
+  ]
+ },
+ "λείπω": {
+  "derivatives": [
+   "eclipse",
+   "ellipse",
+   "ellipsis"
+  ]
+ },
+ "βουλή": {
+  "derivatives": [
+   "boule",
+   "bouleuterion"
+  ]
+ },
+ "γραφή": {
+  "derivatives": [
+   "graph",
+   "graphic",
+   "-graphy"
+  ]
+ },
+ "τίκτω": {
+  "derivatives": [
+   "tocology",
+   "oxytocin"
+  ]
+ },
+ "θυμός": {
+  "derivatives": [
+   "thymus",
+   "enthymeme"
+  ],
+  "cognates": [
+   "fume (Latin)"
+  ]
+ },
+ "φόβος": {
+  "derivatives": [
+   "phobia",
+   "phobic"
+  ]
+ },
+ "πολιτεία": {
+  "derivatives": [
+   "polity",
+   "politics"
+  ]
+ },
+ "στάδιον": {
+  "derivatives": [
+   "stadium",
+   "stade"
+  ]
+ },
+ "φρονέω": {
+  "derivatives": [
+   "phrenology",
+   "frenetic",
+   "schizophrenia"
+  ]
+ },
+ "ὁρμάω": {
+  "derivatives": [
+   "hormone"
+  ]
+ },
+ "σκοπέω": {
+  "derivatives": [
+   "scope",
+   "telescope",
+   "microscope",
+   "sceptic",
+   "bishop (ἐπίσκοπος)"
+  ],
+  "cognates": [
+   "spy"
+  ]
+ },
+ "βοῦς": {
+  "derivatives": [
+   "bucolic",
+   "Bosporus",
+   "butter (βούτυρον)"
+  ],
+  "cognates": [
+   "cow",
+   "beef (Latin)"
+  ]
+ },
+ "γράμμα": {
+  "derivatives": [
+   "grammar",
+   "gram",
+   "telegram",
+   "program",
+   "diagram"
+  ]
+ },
+ "θύω": {
+  "derivatives": [
+   "thyme"
+  ],
+  "cognates": [
+   "fume (Latin fumus)"
+  ]
+ },
+ "ἐλαύνω": {
+  "derivatives": [
+   "elastic"
+  ]
+ },
+ "ἡγεμών": {
+  "derivatives": [
+   "hegemony"
+  ]
+ },
+ "βαρύς": {
+  "derivatives": [
+   "baritone",
+   "barometer",
+   "barium"
+  ],
+  "cognates": [
+   "grave (Latin gravis, cognate)"
+  ]
+ },
+ "εἰρήνη": {
+  "derivatives": [
+   "Irene",
+   "irenic"
+  ]
+ },
+ "δέκα": {
+  "derivatives": [
+   "deca-",
+   "decade",
+   "decalogue",
+   "decathlon"
+  ],
+  "cognates": [
+   "ten"
+  ]
+ },
+ "λαμπρός": {
+  "derivatives": [
+   "lamp"
+  ]
+ },
+ "δαίμων": {
+  "derivatives": [
+   "demon",
+   "daemon",
+   "pandemonium",
+   "eudaimonia"
+  ]
+ },
+ "γλῶττα": {
+  "derivatives": [
+   "glottal",
+   "polyglot",
+   "gloss",
+   "glossary",
+   "epiglottis"
+  ]
+ },
+ "ἑπτά": {
+  "derivatives": [
+   "hepta-",
+   "heptagon",
+   "heptathlon"
+  ],
+  "cognates": [
+   "seven"
+  ]
+ },
+ "δεσπότης": {
+  "derivatives": [
+   "despot",
+   "despotism"
+  ]
+ },
+ "εἰκός": {
+  "derivatives": [
+   "icon (εἰκών)"
+  ]
+ },
+ "εἴκοσι": {
+  "derivatives": [
+   "icosahedron"
+  ]
+ },
+ "μυρίος": {
+  "derivatives": [
+   "myriad"
+  ]
+ },
+ "βαίνω": {
+  "derivatives": [
+   "basis",
+   "base",
+   "acrobat",
+   "diabetes"
+  ],
+  "cognates": [
+   "come"
+  ]
+ },
+ "ἐλεύθερος": {
+  "derivatives": [
+   "Eleutheria"
+  ],
+  "cognates": [
+   "liberty (Latin liber, cognate)"
+  ]
+ },
+ "στρατιά": {
+  "derivatives": [
+   "strategy"
+  ]
+ },
+ "ἀμφί": {
+  "derivatives": [
+   "amphi-",
+   "amphibian",
+   "amphitheatre",
+   "amphora"
+  ]
+ },
+ "ἑκατόν": {
+  "derivatives": [
+   "hecatomb"
+  ],
+  "cognates": [
+   "hundred",
+   "cent (Latin)"
+  ]
+ },
+ "νίκη": {
+  "derivatives": [
+   "Nike",
+   "Nicholas",
+   "Berenice"
+  ]
+ },
+ "ἔπος": {
+  "derivatives": [
+   "epic",
+   "epos",
+   "orthoepy"
+  ]
+ },
+ "στρατός": {
+  "derivatives": [
+   "strategy",
+   "stratagem"
+  ]
+ },
+ "φράζω": {
+  "derivatives": [
+   "phrase",
+   "paraphrase",
+   "periphrasis"
+  ]
+ },
+ "ἀργύριον": {
+  "derivatives": [
+   "Argentina (via Latin argentum, cognate)",
+   "argyria"
+  ]
+ },
+ "ἕξ": {
+  "derivatives": [
+   "hexagon",
+   "hexameter"
+  ],
+  "cognates": [
+   "six"
+  ]
+ },
+ "μάρτυς": {
+  "derivatives": [
+   "martyr",
+   "martyrdom"
+  ]
+ },
+ "χαλκοῦς": {
+  "derivatives": [
+   "chalcolithic",
+   "chalcopyrite"
+  ]
+ },
+ "φῶς": {
+  "derivatives": [
+   "photo",
+   "photograph",
+   "photon",
+   "phosphorus"
+  ]
+ },
+ "ὀκτώ": {
+  "derivatives": [
+   "octagon",
+   "octopus",
+   "octave (Latin)"
+  ],
+  "cognates": [
+   "eight"
+  ]
+ },
+ "ἐννέα": {
+  "derivatives": [
+   "ennead"
+  ],
+  "cognates": [
+   "nine"
+  ]
+ },
+ "ἀγγέλλω": {
+  "derivatives": [
+   "angel",
+   "evangelist",
+   "gospel (calque)"
+  ]
+ },
+ "ἔρχομαι": {
+  "derivatives": [
+   "proselyte (ἐλθ-)"
+  ]
+ },
+ "εἶδον": {
+  "derivatives": [
+   "idea",
+   "idol",
+   "kaleidoscope"
+  ],
+  "cognates": [
+   "wit",
+   "video (Latin videre, cognate)"
+  ]
+ },
+ "εἶπον": {
+  "derivatives": [
+   "epic (ἔπος)"
+  ]
+ },
+ "ἀποκρίνω": {
+  "derivatives": [
+   "apocrine",
+   "crisis"
+  ]
+ },
+ "λαλέω": {
+  "derivatives": [
+   "glossolalia",
+   "echolalia"
+  ]
+ },
+ "δράω": {
+  "derivatives": [
+   "drama",
+   "drastic"
+  ]
+ },
+ "βοηθέω": {
+  "derivatives": [
+   "Boethius"
+  ]
+ },
+ "βουλεύω": {
+  "derivatives": [
+   "boule"
+  ]
+ },
+ "πορεύω": {
+  "derivatives": [
+   "pore",
+   "emporium"
+  ]
+ },
+ "ἀπαλλάττω": {
+  "derivatives": [
+   "parallax (ἀλλάττω)"
+  ]
+ }
+}

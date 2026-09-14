@@ -230,12 +230,14 @@ export type VocabItem = {
   tier: number;
   level: string;
   topics: string[];
+  tags: string[];
+  cognates: { derivatives?: string[]; cognates?: string[] } | null;
   readings: string[];
 };
 export type VocabIndex = {
   attribution: string;
   attribution_url: string;
-  facets: { topics: Facet[]; groups: Facet[]; kinds: Facet[]; pos: Facet[]; tiers: Facet[]; readings: Facet[] };
+  facets: { topics: Facet[]; tags: Facet[]; groups: Facet[]; kinds: Facet[]; pos: Facet[]; tiers: Facet[]; readings: Facet[] };
   items: VocabItem[];
 };
 export type NounTable = {

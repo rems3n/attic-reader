@@ -15,14 +15,16 @@ def isolated_cache(tmp_path, monkeypatch):
 
 def test_prerender_renders_every_library_chunk_at_every_speed(fake_kokoro):
     tts = KokoroAtticTTS()
-    jobs = prerender.plan(tts)
-    assert len(jobs) == len(prerender.SPEEDS) * sum(
-        len([c for s in item["sentences"] for c in [s] if c]) for item in load_manifest()
-    ) or len(jobs) > 0
+    library_jobs = prerender.plan(tts)
+    assert len(library_jobs) > 0
+    # The job also renders the vocabulary headwords; a headword may share a
+    # cache key with another (or with a library chunk), so count distinct keys.
+    jobs = library_jobs + prerender.vocab_plan(tts)
+    distinct = len({j[1] for j in jobs})
     result = prerender.run(tts)
     assert result["state"] == "done"
     assert result["rendered"] == len(jobs)
-    assert clip_cache.stats()["clips"] == len(jobs)
+    assert clip_cache.stats()["clips"] == distinct
     for item in load_manifest():
         assert prerender.ready_speeds(item, tts) == sorted(prerender.SPEEDS)
     # Second run finds everything cached.

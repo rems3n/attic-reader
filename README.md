@@ -81,7 +81,10 @@ slots, genitives and adjective endings expanded, Classical Attic `-ττ-`
 spellings, learner tiers by frequency rank, topic tags (mythology / history /
 philosophy / city life / core) from the DCC semantic groups and from the
 readings the word occurs in, and the library sentences that contain a form of
-it. `overrides.json` holds per-word corrections (suppletive stems, notes).
+it. `overrides.json` holds per-word corrections (suppletive stems, notes);
+`cognates.json` is a curated map of English derivatives (λόγος → logic,
+dialogue) and inherited cognates (πατήρ ~ father) that powers the "English
+cognates" deck tag — add or correct entries there and rebuild.
 
 `backend/app/greek/morph/` is a deterministic Classical Attic morphology
 engine: every noun, adjective, pronoun and numeral is declined

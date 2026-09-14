@@ -26,6 +26,8 @@ TOPICS = [
     ("city-life", "City life in Athens"),
     ("core", "Core (function words)"),
 ]
+# Extra deck tags (beyond topics); each is a list membership in entry["tags"].
+TAGS = [("cognates", "English cognates")]
 TIER_LABELS = {1: "beginner", 2: "elementary", 3: "intermediate", 4: "advanced"}
 KIND_LABELS = {
     "noun": "Nouns",
@@ -42,7 +44,7 @@ KIND_LABELS = {
 
 SUMMARY_KEYS = (
     "id", "rank", "lemma", "headword", "short", "kind", "subclass", "pos",
-    "group", "tier", "level", "topics",
+    "group", "tier", "level", "topics", "tags", "cognates",
 )
 
 
@@ -121,7 +123,9 @@ def facets(entries: list[dict] | None = None) -> dict:
     pos_counts = Counter(e["pos"] for e in items)
     tier_counts = Counter(e["tier"] for e in items)
     reading_counts = Counter(r["id"] for e in items for r in e.get("readings", []))
+    tag_counts = Counter(t for e in items for t in e.get("tags", []))
     return {
+        "tags": [{"id": tid, "label": label, "count": tag_counts.get(tid, 0)} for tid, label in TAGS],
         "topics": [{"id": tid, "label": label, "count": topic_counts.get(tid, 0)} for tid, label in TOPICS],
         "groups": [{"id": g, "label": g, "count": n} for g, n in sorted(group_counts.items(), key=lambda kv: -kv[1])],
         "kinds": [{"id": k, "label": KIND_LABELS.get(k, k), "count": n} for k, n in kind_counts.most_common()],

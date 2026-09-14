@@ -29,6 +29,7 @@ from app.greek.normalize import normalize_polytonic  # noqa: E402
 DATA = ROOT / "app" / "vocab_data"
 CSV_PATH = DATA / "greek-core-list.csv"
 OVERRIDES_PATH = DATA / "overrides.json"
+COGNATES_PATH = DATA / "cognates.json"
 OUT_PATH = DATA / "core.json"
 
 # --------------------------------------------------------------------------
@@ -494,8 +495,17 @@ def index_readings(entries: list[dict]) -> None:
 # --------------------------------------------------------------------------
 
 
+def _cognates_for(raw: dict | None) -> dict | None:
+    """{"derivatives": [...], "cognates": [...]} with empty lists dropped, or None."""
+    if not raw:
+        return None
+    out = {k: list(v) for k, v in raw.items() if k in ("derivatives", "cognates") and v}
+    return out or None
+
+
 def build(check: bool = False) -> list[dict]:
     overrides = json.loads(OVERRIDES_PATH.read_text("utf-8")) if OVERRIDES_PATH.exists() else {}
+    cognates = {k: v for k, v in json.loads(COGNATES_PATH.read_text("utf-8")).items() if not k.startswith("_")} if COGNATES_PATH.exists() else {}
     rows = list(csv.DictReader(open(CSV_PATH, encoding="utf-8-sig")))
     entries: list[dict] = []
     problems: list[str] = []
@@ -558,8 +568,12 @@ def build(check: bool = False) -> list[dict]:
             "level": level,
             "topics": topics,
             "notes": ov.get("notes"),
+            "cognates": _cognates_for(cognates.get(lemma)),
+            "tags": [],
             "morph": {k: v for k, v in parsed.items() if k != "lemma"},
         }
+        if entry["cognates"]:
+            entry["tags"].append("cognates")
         if "morph" in ov:
             entry["morph"].update(ov["morph"])
         entries.append(entry)
