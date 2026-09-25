@@ -233,11 +233,13 @@ export type VocabItem = {
   tags: string[];
   cognates: { derivatives?: string[]; cognates?: string[] } | null;
   readings: string[];
+  lessons: string[];
+  source?: string;
 };
 export type VocabIndex = {
   attribution: string;
   attribution_url: string;
-  facets: { topics: Facet[]; tags: Facet[]; groups: Facet[]; kinds: Facet[]; pos: Facet[]; tiers: Facet[]; readings: Facet[] };
+  facets: { topics: Facet[]; tags: Facet[]; groups: Facet[]; kinds: Facet[]; pos: Facet[]; tiers: Facet[]; readings: Facet[]; lessons: Facet[] };
   items: VocabItem[];
 };
 export type NounTable = {
@@ -357,4 +359,50 @@ export async function pullProgress<T>(code: string): Promise<{ saved_at: number;
   if (response.status === 404) return null;
   if (!response.ok) throw new Error(await getError(response));
   return response.json();
+}
+
+// ---------------------------------------------------------------------------
+// Course
+// ---------------------------------------------------------------------------
+
+import type { CourseIndex, CourseTest, ImageRecord, Item, Lesson, Response as ItemResponse } from "./course";
+
+export async function getCourse(): Promise<CourseIndex> {
+  const response = await fetch(`${API_BASE}/api/course`);
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}
+
+export async function getLesson(id: string): Promise<Lesson> {
+  const response = await fetch(`${API_BASE}/api/course/lesson/${encodeURIComponent(id)}`);
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}
+
+export async function getCourseTest(id: string, seed: number): Promise<CourseTest> {
+  const response = await fetch(`${API_BASE}/api/course/test/${encodeURIComponent(id)}?seed=${seed}`);
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}
+
+export async function getDrill(skills: string[], scope: string, n = 8, seed = 0): Promise<Item[]> {
+  const params = new URLSearchParams({ skills: skills.join(","), scope, n: String(n), seed: String(seed) });
+  const response = await fetch(`${API_BASE}/api/course/drill?${params}`);
+  if (!response.ok) throw new Error(await getError(response));
+  const body = await response.json();
+  return body.items ?? [];
+}
+
+export async function getCourseImages(): Promise<ImageRecord[]> {
+  const response = await fetch(`${API_BASE}/api/course/images`);
+  if (!response.ok) throw new Error(await getError(response));
+  const body = await response.json();
+  return body.images ?? [];
+}
+
+export type CheckFeedback = { lemma?: string; cell?: string; label?: string }[];
+
+/** Server-side grading with morphology-aware feedback for typed forms. */
+export function checkItem(item: Item, response: ItemResponse, accents: boolean, scope?: string): Promise<{ correct: boolean; feedback?: CheckFeedback }> {
+  return postJson("/api/course/check", { item, response, accents, scope });
 }

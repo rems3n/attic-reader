@@ -19,7 +19,7 @@ import {
 } from "../../lib/progress";
 import { cardKey, describeInterval, grade, isNew, pickSession, shuffleSession, type CardType, type Grade } from "../../lib/srs";
 
-type Filters = { topics: Set<string>; tags: Set<string>; tiers: Set<number>; kinds: Set<string>; groups: Set<string>; readings: Set<string> };
+type Filters = { topics: Set<string>; tags: Set<string>; tiers: Set<number>; kinds: Set<string>; groups: Set<string>; readings: Set<string>; lessons: Set<string> };
 type Mode = "build" | "study" | "done";
 type Prompt = { key: string; id: string; item: VocabItem; type: CardType; fresh: boolean };
 type FormsQuestion = { label: string; answer: string[] };
@@ -37,7 +37,7 @@ const GENDER_LABEL: Record<string, string> = { m: "masculine", f: "feminine", n:
 const PERSON_LABEL: Record<string, string> = { "1sg": "1 sg.", "2sg": "2 sg.", "3sg": "3 sg.", "1pl": "1 pl.", "2pl": "2 pl.", "3pl": "3 pl.", inf: "infinitive", m: "participle masc.", f: "participle fem.", n: "participle neut.", mg: "participle gen. masc." };
 
 function emptyFilters(): Filters {
-  return { topics: new Set(), tags: new Set(), tiers: new Set(), kinds: new Set(), groups: new Set(), readings: new Set() };
+  return { topics: new Set(), tags: new Set(), tiers: new Set(), kinds: new Set(), groups: new Set(), readings: new Set(), lessons: new Set() };
 }
 
 function toggle<T>(set: Set<T>, v: T): Set<T> {
@@ -54,6 +54,7 @@ function matches(item: VocabItem, f: Filters): boolean {
   if (f.kinds.size && !f.kinds.has(item.kind)) return false;
   if (f.groups.size && !f.groups.has(item.group)) return false;
   if (f.readings.size && !item.readings.some((r) => f.readings.has(r))) return false;
+  if (f.lessons.size && !(item.lessons ?? []).some((l) => f.lessons.has(l))) return false;
   return true;
 }
 
@@ -513,6 +514,14 @@ export default function VocabPage() {
             ))}
           </div>
         )}
+        <h3 className="chipTitle">Words from a course lesson</h3>
+        <div className="chips">
+          {(f.lessons ?? []).map((l) => (
+            <button key={l.id} type="button" className={`chip ${filters.lessons.has(String(l.id)) ? "on" : ""}`} onClick={() => setFilters({ ...filters, lessons: toggle(filters.lessons, String(l.id)) })}>
+              {String(l.id)} <span className="chipCount">{l.count}</span>
+            </button>
+          ))}
+        </div>
         <h3 className="chipTitle">Words from a reading</h3>
         <div className="chips">
           {f.readings.map((r) => (
