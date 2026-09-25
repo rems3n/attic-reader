@@ -50,10 +50,13 @@ export default function ExerciseRunner({ items, images, mode, accents, onOutcome
   const item = items[index];
   const imageMap = useMemo(() => new Map(images.map((i) => [i.id, i])), [images]);
 
+  // A new item list (e.g. review items arriving) restarts the runner.
   useEffect(() => {
+    setIndex(0);
     setResponse(null);
     setChecked(null);
-  }, [index, items]);
+    setOutcomes([]);
+  }, [items]);
 
   if (!item) return null;
   const m = modality(item);
@@ -66,6 +69,7 @@ export default function ExerciseRunner({ items, images, mode, accents, onOutcome
     const outcome = { item, response, result };
     if (mode === "practice") {
       setChecked(result);
+      setOutcomes([...outcomes, outcome]);
       onOutcome?.(outcome);
     } else {
       advance(outcome);
@@ -75,8 +79,15 @@ export default function ExerciseRunner({ items, images, mode, accents, onOutcome
   function advance(outcome?: Outcome) {
     const next = outcome ? [...outcomes, outcome] : outcomes;
     setOutcomes(next);
-    if (index + 1 >= items.length) onDone(next);
-    else setIndex(index + 1);
+    if (index + 1 >= items.length) {
+      onDone(next);
+      return;
+    }
+    // Reset in the same batch as the index change so the next item never
+    // renders with the previous item's response.
+    setResponse(null);
+    setChecked(null);
+    setIndex(index + 1);
   }
 
   return (
@@ -100,13 +111,13 @@ export default function ExerciseRunner({ items, images, mode, accents, onOutcome
       )}
       {item.image && <Picture image={imageById(imageMap, item.image)} size="tile" caption={false} />}
 
-      {m === "choice" && <ChoiceItem item={item} images={imageMap} response={response} setResponse={setResponse} checked={checked} play={play} busy={busy} seed={seed} />}
-      {m === "typed" && <TypedItem item={item} response={response} setResponse={setResponse} checked={checked} onEnter={() => (checked ? advance() : check())} />}
-      {m === "parse" && <ParseItem item={item} response={response} setResponse={setResponse} checked={checked} />}
-      {m === "locate" && <LocateItem item={item} response={response} setResponse={setResponse} checked={checked} />}
-      {m === "reorder" && <ReorderItem item={item} response={response} setResponse={setResponse} checked={checked} seed={seed} />}
-      {m === "match" && <MatchItem item={item} response={response} setResponse={setResponse} checked={checked} seed={seed} />}
-      {m === "self" && <SelfItem item={item} response={response} setResponse={setResponse} mode={mode} />}
+      {m === "choice" && <ChoiceItem key={item.id} item={item} images={imageMap} response={response} setResponse={setResponse} checked={checked} play={play} busy={busy} seed={seed} />}
+      {m === "typed" && <TypedItem key={item.id} item={item} response={response} setResponse={setResponse} checked={checked} onEnter={() => (checked ? advance() : check())} />}
+      {m === "parse" && <ParseItem key={item.id} item={item} response={response} setResponse={setResponse} checked={checked} />}
+      {m === "locate" && <LocateItem key={item.id} item={item} response={response} setResponse={setResponse} checked={checked} />}
+      {m === "reorder" && <ReorderItem key={item.id} item={item} response={response} setResponse={setResponse} checked={checked} seed={seed} />}
+      {m === "match" && <MatchItem key={item.id} item={item} response={response} setResponse={setResponse} checked={checked} seed={seed} />}
+      {m === "self" && <SelfItem key={item.id} item={item} response={response} setResponse={setResponse} mode={mode} />}
 
       {checked && (
         <div className={`feedback ${checked.correct ? "good" : "bad"}`}>

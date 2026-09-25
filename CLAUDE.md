@@ -751,3 +751,49 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   artifact; style choice still open (§9.8).
 - Start Phase A (skeleton + Stage 0 + Unit 1) next; assume the Museum
   palette until the user picks a style.
+
+## Session log — 2026-09-25 (course Phase A built)
+
+- **Backend** `app/course/` (`data.py` loader/resolver, `normalize.py`
+  answer normalization, `grade.py` reference grader, `drill.py` generated
+  morphology items, `validate.py` authoring rules) + `scripts/build_course.py`.
+  Content in `app/course_data/`: `course.json` (stages/units/tracks, proper
+  names), `skills.json`, `vocab_extra.json` (27 course-only words in
+  lexicon shape; κύων carries a hand table via the new `morph.table`
+  override in `nominal.py`), `images/manifest.json` (74 placeholder records;
+  real CC images replace them), `lessons/0.1–0.4, 1.1–1.4`,
+  `tests/unit-1.json` (generated forms section, seeded per attempt).
+  Routes: `/api/course`, `/lesson/{id}`, `/test/{id}?seed`, `/drill`,
+  `/images`, `POST /check` (morph-aware feedback). `/api/vocab` now
+  includes course words (`source: "course"`) and a `lessons` facet.
+  Pre-render job renders course stories at 0.75/0.6 + words + item audio.
+  G2P maps « » → curly quotes. 378 backend tests.
+- **Authoring rules enforced by tests**: every story token must be a form
+  of an already-taught word (engine-generated), a listed proper name,
+  glossed once in the lesson, or in `allow`; ≤ 12 new words per lesson
+  (Stage 0 exempt); typed answers must match the engine; every lesson
+  skill needs an exercise; quiz 5–10 items; images must exist. Run
+  `python scripts/build_course.py --stats`.
+- **Answer policy**: lenient until Unit 4 (accents, macrons, iota subscript
+  and *smooth* breathing ignored; rough breathing always counts), strict
+  from Unit 4 or per user setting. Python and TS normalizers share
+  fixtures (`frontend/lib/normalize.fixtures.json`, regenerate with
+  `scripts/export_normalize_fixtures.py`).
+- **Frontend**: `lib/course.ts` (grading, skill mastery), `lib/courseState.ts`
+  (gating, test unlock 24 h after the unit, reread schedule 1/3/7/21 d,
+  continue = lesson after the last done), progress v2 (`course` section,
+  migration, merge for sync), `components/course/*`, pages `/course`,
+  `/course/lesson/[id]`, `/course/test/[id]`, `/course/review`; Course tab;
+  vocab deck filter "Words from a course lesson". Workbook theme in
+  `globals.css` (fonts via Google Fonts link; system fallbacks offline).
+  45 vitest tests; `next build` clean.
+- **Verified**: `backend/scripts/e2e/` (fake-voice API + Playwright walk:
+  Lesson 1.1 all steps with every item answered from the data → done →
+  reload → Unit 1 test unlocked and passed → review page → vocab filter;
+  phone and desktop). Screenshots in `docs/screenshots/`.
+- **Known gaps / next**: images are placeholders (Phase B image pass);
+  Google Fonts blocked in the sandbox (fallback fonts render); real-voice
+  check of the story clips on Railway; Units 2–6 content; placement test;
+  `/check` feedback not yet surfaced in the UI; the two summarised
+  Athenaze student books are scanned PDFs without text (handbooks were
+  used instead; see `docs/reference/`).

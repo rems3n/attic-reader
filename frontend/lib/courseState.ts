@@ -52,12 +52,15 @@ export function testGate(course: CourseIndex, progress: CourseProgress, unit: Un
   return availableAt <= now ? { state: "open", lastDone: last } : { state: "waiting", availableAt, lastDone: last };
 }
 
-/** The lesson to continue: an in-progress one, else the first open one. */
+/** The lesson to continue: an in-progress one, else the first open lesson
+ * after the last one completed, else the first open lesson overall. */
 export function nextLesson(course: CourseIndex, progress: CourseProgress): string | null {
   const order = course.lesson_order.filter((id) => findLesson(course, id)?.available);
   const inProgress = order.find((id) => progress.lessons[id]?.status === "in-progress");
   if (inProgress) return inProgress;
-  return order.find((id) => lessonStatus(course, progress, id) === "open") ?? null;
+  const lastDone = order.reduce((acc, id, i) => (progress.lessons[id]?.status === "done" ? i : acc), -1);
+  const after = order.slice(lastDone + 1).find((id) => lessonStatus(course, progress, id) === "open");
+  return after ?? order.find((id) => lessonStatus(course, progress, id) === "open") ?? null;
 }
 
 export function lastDoneLesson(course: CourseIndex, progress: CourseProgress): string | null {
