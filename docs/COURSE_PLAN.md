@@ -1,0 +1,624 @@
+# Beginner Course — Implementation Plan
+
+Status: **plan, not yet implemented** (2026-09-25). Nothing in this document
+exists in code yet except where it says "exists".
+
+Goal: a trackable beginner-to-reader course inside Attic Reader, in the
+spirit of Athenaze, LOGOS (*Lingua Graeca per se illustrata*), *Reading
+Greek* and "Alpha with Angela": illustrated continuous story, Greek-first
+input, explicit grammar after noticing, lots of retrieval practice, and a
+fork into interest tracks (mythology, philosophy, history, politics/city
+life) once the basics are in place. End state: the learner opens Xenophon
+or Plato in the Reader tab and reads.
+
+---
+
+## 0. Summary
+
+- **Shape:** 4 stages · 15 units · ~90 lessons · 15 unit tests · 3 reading
+  gates · 4 interest tracks of 8 lessons each.
+- **Every lesson:** illustrated story with audio → vocabulary (auto-enrolled
+  in the existing SRS) → grammar note → 15–25 exercises (mixed, ~30 % review
+  of older material) → lesson check (6–8 items). Greek questions about the
+  Greek text (LOGOS style) from lesson 1.
+- **Retention:** SRS for words (exists), skill-level mastery for grammar,
+  delayed unit tests, spiral review in every lesson, audio-first passes,
+  free recall, retake schedule.
+- **Content is original.** Athenaze, LOGOS and *Reading Greek* are
+  copyrighted; we copy the *method*, not the text. Original stories for
+  stages 0–2; public-domain Perseus texts (already in the library) for the
+  tracks, adapted then unadapted.
+- **Images throughout:** a picture dictionary (~150 pictures for concrete
+  Stage 1 words), 2–3 story panels per lesson in a consistent flat style,
+  CC0 museum photographs for culture boxes, inline SVG for grammar
+  diagrams. Greek captions only in Stage 1; no English inside pictures.
+- **Reuses what exists:** DCC 524-word lexicon with topic tags, morphology
+  engine (generates drills and checks answers), 67 grammar paradigms,
+  Kokoro audio + word highlighting, clip cache and pre-render job,
+  localStorage progress + sync code, SM-2 SRS.
+- **Build order:** skeleton + Stage 0 + Unit 1 end to end first (proves the
+  lesson format, exercise engine and progress tracking), then content in
+  bulk.
+
+---
+
+## 1. Pedagogical design
+
+### 1.1 Principles (and where each comes from)
+
+| Principle | Source model | How it shows up |
+|---|---|---|
+| Continuous story, familiar cast, Attica c. 431 BC | Athenaze, LOGOS | One family across 48 story lessons; the war reaches them in Stage 2 |
+| Greek explained in Greek, pictures carry meaning | LOGOS, Alpha with Angela | Marginal Greek glosses + pictures before any English; ἐρωτήματα in Greek |
+| Explicit grammar, but after exposure | Athenaze, Reading Greek | "Notice" box in the story, then an English grammar note + paradigm |
+| Controlled vocabulary, ~10 new words per lesson, frequency-ordered | LOGOS, DCC list | Build script rejects unglossed words not yet introduced |
+| Retrieval > re-reading | retention research | Quiz before re-read; production exercises; free recall |
+| Spacing and interleaving | retention research | Spiral review items, delayed unit tests, SRS |
+| Dual coding | Alpha with Angela | Word + picture + audio; picture-only comprehension checks |
+| Read real texts early | Reading Greek | Adapted Xenophon/Apollodorus from Unit 7; originals in tracks |
+
+### 1.2 Lesson anatomy (fixed template)
+
+1. **Εἰκών** — cover panel, title in Greek, one-line Greek summary.
+2. **Ἀκούσατε** — audio-first pass (story played, text hidden, 2 picture
+   questions). Optional but recommended by the UI.
+3. **Ἀνάγνωσις** — illustrated story, 80–150 words (Stage 1) → 250–400
+   (Stage 2). Margin glosses in Greek (synonym, picture, antonym,
+   ἀντίθετον/= notation as in LOGOS). Tap any word: gloss + ▶ + link to
+   the word page. Sentence ▶ with word highlighting (exists).
+4. **Λέξεις** — new vocabulary (8–12), each with picture where concrete,
+   audio, DCC gloss; one tap adds all to the SRS deck (default on).
+5. **Παρατηρήσατε** — "Notice" box: 3–5 highlighted sentences from the
+   story showing the new pattern, no English.
+6. **Γραμματική** — grammar note in English (short, with the paradigm
+   table from `paradigms.py` embedded and speakable) + an SVG diagram
+   where useful.
+7. **Ἀσκήσεις** — 15–25 exercises, mixed types (see §4), ~70 % on this
+   lesson, ~30 % spiral review chosen from weak skills.
+8. **Ἐρωτήματα** — 4–6 comprehension questions *in Greek* with Greek
+   answers (typed or chosen).
+9. **Πολιτισμός** — culture box (English) with one museum photograph.
+10. **Ἔλεγχος** — lesson check: 6–8 items, all types, immediate feedback,
+    pass ≥ 75 % to mark the lesson complete (retake allowed, always).
+
+### 1.3 Assessment ladder
+
+| Level | When | Items | Feedback | Pass |
+|---|---|---|---|---|
+| Lesson check | end of each lesson | 6–8 | immediate | 75 % |
+| Unit test | unlocked ≥ 1 day after the last lesson in the unit | 25–35, includes an unseen short passage | at the end, with explanations | 80 % |
+| Retake | 7 days after passing a unit test, prompted | 12 items drawn from the misses + new | immediate | none (diagnostic) |
+| Reading gate | end of Stage 1, Stage 2, each track | unseen passage (adapted → original), 10 Greek questions, 5 parses, 3 translations | at the end | 80 % |
+| Placement | optional, on first visit | adaptive, 20–40 items | none | places into a unit |
+
+### 1.4 Retention features (recommendations, all included in the plan)
+
+- **Vocabulary SRS** (exists): lesson words auto-enrolled; deck filter
+  "this unit / this stage / this track".
+- **Skill mastery** (new): every exercise item is tagged with skills
+  (§5.3). Per skill keep `correct, total, streak, last, ewma`. Mastered =
+  ewma ≥ 0.85, total ≥ 8, seen on ≥ 2 days ≥ 2 days apart. Weak skills
+  feed spiral review and the review quiz.
+- **Spiral review**: 30 % of each lesson's exercises are drawn live from
+  weak/unpracticed skills of earlier lessons (generated drills, §4.3).
+- **Delayed testing**: unit tests unlock after a day; retake after a week.
+- **Reread schedule**: the course home suggests one old story to reread
+  (with questions) at 1 d, 3 d, 7 d, 21 d after first reading.
+- **Audio-first**: "listen before you read" step; dictation exercises.
+- **Free recall**: after each unit, "retell the story" with a word bank
+  (self-checked against a model summary), and "write 3 sentences about
+  the picture".
+- **Production ramps**: recognition-heavy early, production-heavy later.
+- **Error log**: every miss stored with the item and the learner's answer;
+  a "my mistakes" review deck.
+- **Light streak / daily goal**: minutes per day chosen by the learner; no
+  gamified currency.
+
+---
+
+## 2. Course structure
+
+### 2.1 Overview
+
+```text
+Stage 0  Στοιχεῖα      4 lessons   alphabet, breathings, accents, pronunciation, typing
+Stage 1  Θεμέλια       Units 1–6   24 lessons + 6 unit tests + reading gate I
+Stage 2  Γέφυρα        Units 7–12  24 lessons + 6 unit tests + reading gate II
+Stage 3  Ὁδοί (tracks) 4 tracks    8 lessons each + track gate
+Stage 4  Ἀναγνώστης    graduation  guided use of the Reader on full texts
+```
+
+Tracks unlock after Unit 9 as optional "side readings" and fully after
+Unit 12. A learner may do one, several or all tracks.
+
+### 2.2 The story
+
+Setting: a farm at **Ἀχαρναί** (Acharnae, the large deme north of Athens),
+432–431 BC, the eve of the Peloponnesian War. Acharnae is deliberately
+chosen: farmers, charcoal burners, Aristophanes' *Acharnians*, and it was
+evacuated when the Spartans invaded in 431, which gives Stage 2 its arc.
+
+Cast (original names; nothing shared with Athenaze):
+
+| Name | Role | Notes |
+|---|---|---|
+| Ἀρίστων | father, farmer, ~40 | hoplite in Stage 2 |
+| Χρυσίς | mother | weaving, household, religion |
+| Λύσις | son, 12 | school, palaestra, the learner's stand-in |
+| Ἐλπίς | daughter, 9 | Arrephoria / Panathenaea thread |
+| Κλεινίας | grandfather | veteran of Salamis; tells myths (feeds the mythology track) |
+| Σύρος | enslaved farmhand | present honestly; culture box on slavery in Unit 2 |
+| Λάβρος | the dog | |
+| Δημόκριτος | neighbour, chatterbox | politics thread; assembly, law court |
+| Ξένος from Miletus | travelling merchant | Ionia, the sea, geography |
+
+Arc: Stage 1 — daily life on the farm (fields, oxen, well, house, meals,
+festival at the deme, school in the city, market, Piraeus). Stage 2 — the
+family goes up to Athens for the Panathenaea, hears the Assembly debate the
+war, Ariston is called up, the deme is evacuated inside the walls, Lysis
+listens to a philosopher in the agora, a law-court scene, the plague year
+foreshadowed, and finally Lysis reads his first page of Xenophon.
+
+### 2.3 Stage 0 — Στοιχεῖα (4 lessons)
+
+| Lesson | Content | Exercises |
+|---|---|---|
+| 0.1 | Alphabet (24 letters, names, Classical Attic values as in the app's G2P), upper/lower, final sigma | letter ↔ sound picture match, listen and pick the letter, type what you hear |
+| 0.2 | Vowels and length, diphthongs, breathings, /h/ | minimal pairs by ear (ὁ/ὀ, η/ε, ω/ο), read aloud with audio model |
+| 0.3 | Accents (acute, grave, circumflex) as stress cue for now, iota subscript, punctuation, capitalization | mark the accented syllable, type words with accents (keyboard tutorial) |
+| 0.4 | Reading whole words and names; first 20 words by picture (ἄνθρωπος, γυνή, οἶκος, ἀγρός…); numbers 1–10 | picture ↔ word, dictation, read-aloud along with audio |
+
+Keyboard note: users have a polytonic layout. Lesson 0.3 includes a short
+layout-agnostic drill (type ἄ, ἡ, ῷ, ῥ) and the app accepts NFC or NFD
+input.
+
+### 2.4 Stage 1 — Θεμέλια (Units 1–6, 24 lessons)
+
+Grammar sequence follows Athenaze/LOGOS order; vocabulary follows DCC
+frequency tiers (tier 1 = ranks 1–125 across Stage 1).
+
+| Unit | Lesson | Story beat | Grammar | Vocabulary focus | Paradigm ids (exist) |
+|---|---|---|---|---|---|
+| **1 Ὁ ἀγρός** | 1.1 | ὁ Ἀρίστων γεωργός ἐστιν | nominative; article; εἰμί 3 sg; οὐ, καί, ἀλλά; τίς/ποῦ | people, house, field | `article`, `logos`, `eimi` |
+| | 1.2 | ὁ Ἀρίστων ἐν τῷ ἀγρῷ πονεῖ | present indicative 3 sg/pl of -ω verbs; ἐν + dat; masc/neut 2nd decl nom/acc/dat | verbs of work | `logos`, `doron` |
+| | 1.3 | ὁ Λύσις καὶ ὁ Λάβρος | accusative object; full 2nd decl sg; adjective agreement (masc/neut) | animals, tools | `agathos` |
+| | 1.4 | ἡ Χρυσὶς ἐν τῷ οἴκῳ | 1st decl -η/-α sg; feminine article and adjectives; εἰς/ἐκ | household | `timi`, `chora` |
+| **2 Ὁ οἶκος** | 2.1 | ἡ ἡμέρα | present 1/2 sg (ἐγώ, σύ); questions with ἆρα; μέν … δέ | daily routine | `ego`, `sy`, `luo` |
+| | 2.2 | οἱ δοῦλοι | plural of article, 1st/2nd decl; present 1/2 pl; genitive of possession | family, slaves, culture box | `logos`, `timi` |
+| | 2.3 | ὁ Κλεινίας λέγει μῦθον | imperative sg/pl; vocative; ὦ; prohibitions with μή | speech verbs | |
+| | 2.4 | δεῖπνον | contract verbs -άω/-έω present; αὐτός | food, eating | `timao`, `poieo`, `autos` |
+| **3 Ἡ κώμη** | 3.1 | ἡ ἑορτὴ ἐν τῇ κώμῃ | 3rd decl consonant stems (φύλαξ, γέρων) | village, festival | `phylax`, `geron` |
+| | 3.2 | ὁ ναύτης καὶ ὁ νεανίας | masc 1st decl; possessives; οὗτος/ἐκεῖνος | trades | `polites`, `neanias`, `houtos`, `ekeinos` |
+| | 3.3 | ὁ Λάβρος ἀπόλλυται | middle voice present; deponents (γίγνομαι, βούλομαι) | wishing, fearing | `gignomai` |
+| | 3.4 | ἐν τῇ ὁδῷ | prepositions with gen/dat/acc; compound verbs | movement | |
+| **4 Ἡ πόλις** | 4.1 | εἰς τὴν πόλιν | imperfect; augment | city, buildings | `luo` |
+| | 4.2 | ἡ ἀγορά | 2nd aorist (ἔλαβον, εἶπον); aorist infinitive | buying, selling | `lambano` |
+| | 4.3 | ὁ διδάσκαλος | 1st (sigmatic) aorist; τίς/τι indefinite | school, letters | `luo`, `tis-indef` |
+| | 4.4 | ὁ Πειραιεύς | 3rd decl πόλις, βασιλεύς, ναῦς; πᾶς | sea, ships | `polis`, `basileus`, `naus`, `pas` |
+| **5 Οἱ θεοί** | 5.1 | ἡ θυσία | present participle (active); attributive vs circumstantial | ritual | |
+| | 5.2 | ὁ Κλεινίας περὶ Σαλαμῖνος | aorist participle; genitive absolute (intro) | war, memory | |
+| | 5.3 | ὁ Ἀπόλλων καὶ ἡ Δάφνη (myth) | pronouns: relative ὅς, reflexive, ἀλλήλων | body, emotions | `hos`, `heautou`, `allelon` |
+| | 5.4 | ὁ ἰατρός | 3rd decl neuters (σῶμα, γένος); -ης adjectives (ἀληθής) | health | `soma`, `genos`, `alethes` |
+| **6 Ἡ οἰκονομία** | 6.1 | τὸ ἀργύριον | numerals, δύο/τρεῖς/τέτταρες; time expressions | numbers, money | `heis`, `dyo`, `treis`, `tettares` |
+| | 6.2 | ὁ ξένος ἐκ Μιλήτου | future; liquid futures | travel, geography | `phaino` |
+| | 6.3 | ἡ Ἐλπὶς ὑφαίνει | -όω contracts; comparison of adjectives | comparisons | `deloo`, `beltion` |
+| | 6.4 | Reading gate I | consolidated review; adapted Apollodorus (short myth, 120 words, unseen) | | |
+
+### 2.5 Stage 2 — Γέφυρα (Units 7–12, 24 lessons)
+
+| Unit | Lesson | Story beat | Grammar | Text tie-in |
+|---|---|---|---|---|
+| **7 Τὰ Παναθήναια** | 7.1 | ἡ πομπή | aorist passive; verbs with 2nd aor. pass. | |
+| | 7.2 | ὁ ἀγών | perfect and pluperfect active | |
+| | 7.3 | οἱ ῥαψῳδοί | perfect middle/passive; οἶδα | `oida` |
+| | 7.4 | ἡ νύξ | -μι verbs I: δίδωμι, τίθημι | `didomi`, `tithemi`; adapted Apollodorus (Prometheus) |
+| **8 Ἡ ἐκκλησία** | 8.1 | ὁ Δημόκριτος λέγει | subjunctive: hortatory, prohibitive, deliberative | |
+| | 8.2 | περὶ τοῦ πολέμου | purpose clauses ἵνα/ὅπως; fear clauses | adapted Thucydides 1.1 (exists in library) |
+| | 8.3 | ἡ ψῆφος | optative: wish, potential; indirect questions | |
+| | 8.4 | ὁ Περικλῆς | indirect statement (ὅτι/ὡς, infinitive, participle) | adapted Thuc. Pericles |
+| **9 Ὁ πόλεμος** | 9.1 | οἱ Λακεδαιμόνιοι | conditions I (simple, future) | adapted Xen. Hell. 2.2 (exists) |
+| | 9.2 | ἡ ἀνάστασις | conditions II (contrafactual, general) | |
+| | 9.3 | ἐντὸς τῶν τειχῶν | -μι verbs II: ἵστημι, δείκνυμι, εἶμι | `histemi`, `deiknymi`, `eimi-go` |
+| | 9.4 | Ἀρίστων ὁπλίτης | result clauses ὥστε; temporal clauses ἐπεί, ἕως, πρίν | **tracks unlock as side readings** |
+| **10 Ἡ ἀγορὰ τῶν λόγων** | 10.1 | ὁ σοφός ἐν τῇ ἀγορᾷ | φημί; verbal adjectives -τός, -τέος | `phemi`; adapted Plato Apol. 17a (exists) |
+| | 10.2 | ὁ Λύσις ἐρωτᾷ | relative clauses with ἄν; conditional relatives | |
+| | 10.3 | τί ἐστιν ἡ ἀρετή; | articular infinitive; accusative absolute | adapted Xen. Mem. 1.1 (exists) |
+| | 10.4 | ὁ Κλεινίας ἀποθνῄσκει | root aorists (ἔβην, ἔγνων); adverbs | `baino` |
+| **11 Τὸ δικαστήριον** | 11.1 | ἡ δίκη | verbs of hindering, οὐ/μή; μὴ οὐ | adapted Lysias 1 (opening) |
+| | 11.2 | οἱ μάρτυρες | dual (recognition only); crasis, elision | |
+| | 11.3 | ἡ ἀπολογία | genitive uses in full; dative uses in full | |
+| | 11.4 | ἡ ψῆφος τῶν δικαστῶν | particles (γε, δή, τοι, μέντοι, οὖν) | |
+| **12 Ὁ ἀναγνώστης** | 12.1 | ὁ Λύσις ἀναγιγνώσκει | Attic vs Ionic/Koine forms to recognize; reading strategy | Xen. Anab. 1.1 unadapted with glosses (exists) |
+| | 12.2 | ὁ Ξενοφῶν | connected reading: 200-word original | Xen. Anab. 4.7 (exists) |
+| | 12.3 | ὁ Σωκράτης | connected reading: Plato | Crito 43a (exists) |
+| | 12.4 | Reading gate II | unseen original (Xenophon), unglossed except proper names | |
+
+### 2.6 Stage 3 — Ὁδοί (four tracks, 8 lessons each)
+
+Each track has the same ladder so progress is comparable:
+
+| Lessons | Text level | Support |
+|---|---|---|
+| 1–3 | adapted (simplified syntax, core vocabulary) | full glosses, pictures, Greek questions |
+| 4–6 | lightly adapted original (cuts, not rewrites) | glosses for words outside DCC + track list |
+| 7 | original | running vocabulary only |
+| 8 | track gate | unseen original passage, questions, parsing |
+
+Track vocabulary: DCC words tagged with the matching topic (exists:
+`topics` facet) plus a curated 80–120-word track list (new,
+`course_data/tracks/<id>.vocab.json`) drawn from the passages.
+
+| Track | Texts (all public domain, Perseus) | Culture images |
+|---|---|---|
+| **Μυθολογία** | Apollodorus *Library* (1.1, 1.7, 2.4, 3.14 exist) → more Apollodorus; Palaephatus; a Lucian dialogue of the gods | vase paintings (CC0: Met, Cleveland, Getty, Walters) |
+| **Φιλοσοφία** | Plato *Apology*, *Crito* (exist), *Euthyphro* opening, *Republic* 1 (exists); Xenophon *Memorabilia* (exists); Epictetus *Enchiridion* excerpts (later Greek, flagged) | busts, Academy site, papyri |
+| **Ἱστορία** | Xenophon *Anabasis*, *Hellenica* (exist); Thucydides 1.1 (exists), 2.34–46 funeral oration adapted; Herodotus excluded (Ionic) per user | maps (SVG), hoplite gear, trireme model (CC0) |
+| **Πολιτεία** (politics & city life) | Old Oligarch (*Ath. Pol.* pseudo-Xen.) excerpts; Aristotle *Ath. Pol.* on the Assembly; Lysias 1, 12 excerpts; Demosthenes *Olynthiac* 1 opening; Aristophanes *Acharnians* 1–42 (metre flagged) | Pnyx, ostraka, kleroterion, agora plan (SVG) |
+
+### 2.7 Stage 4 — Ἀναγνώστης
+
+Not lessons: a guided mode of the existing Reader. Suggested first books
+with DCC coverage percentage shown; "unknown words in this passage"
+count from the learner's SRS state; one-tap add unknown words to the
+deck; OCR of the learner's own Athenaze/Loeb pages (exists).
+
+---
+
+## 3. Content
+
+### 3.1 Text
+
+- **Original Greek** for Stage 0–2 stories, all exercises and all Greek
+  questions. Written to the controlled-vocabulary rule: every word in a
+  lesson story is (a) introduced in this or an earlier lesson, (b) a
+  proper name, or (c) glossed in the margin. The build script enforces it.
+- **Accent correctness** is checked mechanically: every word form must be
+  producible by the morphology engine or be listed in a whitelist with a
+  reason; enclitic accentuation (ἄνθρωπός ἐστιν, οἴκῳ ἐστίν) checked by a
+  new `accent.enclitic()` helper.
+- **Word budget**: 8–12 new words per lesson; DCC tier 1 (125 words) in
+  Stage 1, tiers 2–3 in Stage 2, tier 4 spread over tracks. Function words
+  frontloaded. 524 DCC words + ~250 story words (farm, family, festival)
+  + 4 × ~100 track words ≈ 1,150 words by the end.
+- **Sample, Lesson 1.1 story** (draft, to be reviewed):
+
+  > ὁ Ἀρίστων ἄνθρωπός ἐστιν. ὁ Ἀρίστων Ἀθηναῖός ἐστιν. ὁ Ἀρίστων γεωργός
+  > ἐστιν· οὐ ναύτης ἐστίν. ὁ Ἀρίστων ἐν τῷ ἀγρῷ ἐστιν. ὁ ἀγρὸς μικρός
+  > ἐστιν, ἀλλὰ καλός. ἡ Χρυσὶς γυνή ἐστιν. ἡ Χρυσὶς ἐν τῷ οἴκῳ ἐστίν.
+  > τίς ἐστιν ὁ Ἀρίστων; γεωργός ἐστιν. ποῦ ἐστιν ἡ Χρυσίς; ἐν τῷ οἴκῳ
+  > ἐστίν.
+
+  Margin: ἄνθρωπος [picture], γεωργός [picture: man with plough],
+  ναύτης [picture: man on ship], ἀγρός [picture], οἶκος [picture],
+  μικρός ↔ μέγας [two pictures], οὐ = "✗".
+- **Grammar notes**: short English, one concept, one table, one diagram;
+  tone of Athenaze's grammar sections. Cross-link to `/grammar/<id>`.
+- **Culture boxes**: 150–250 words English each, one image, one primary
+  source line in Greek with translation where possible.
+- **Public-domain older readers** as inspiration and for extra reading
+  (verify PD status per edition): Rouse, *A Greek Boy at Home* (1909,
+  natural-method Attic; closest ancestor to LOGOS); Freeman & Lowe, *A
+  Greek Reader for Schools* (1917). Use for ideas and optional extra
+  readings, not as lesson text, to keep style consistent.
+
+### 3.2 Images
+
+Four kinds, one manifest, all with Greek + English alt text, credit and
+license fields.
+
+| Kind | Count (est.) | Style / source | Use |
+|---|---|---|---|
+| Picture dictionary | ~150 (Stage 1 concrete nouns, verbs, adjectives) | consistent flat two-tone line art, terracotta/black, transparent background, 512×512 WebP ≤ 40 KB | margin glosses, vocab cards, picture-match, flash cards |
+| Story panels | 2–3 per story lesson ≈ 130 | same style, 3:2, fixed character sheet (Ariston: beard, exomis, straw hat; Chrysis: chiton, hair up; Lysis: short chiton; Elpis: braid; Kleinias: staff, white beard; Labros: brindled dog); no text inside images | story sections, audio-first questions, "describe the picture" |
+| Culture photographs | ~50 | CC0 museum open access (Met, Cleveland Museum of Art, Getty Open Content, Walters, Rijksmuseum); Wikimedia Commons CC0/CC BY where credited | culture boxes, track lessons |
+| Grammar diagrams | ~30 | inline SVG, theme-aware (uses the app's CSS tokens) | case "map" (nominative subject → accusative object arrows), preposition picture (ship: ἐν/εἰς/ἐκ/πρός/ἀπό), verb timeline (imperfect/aorist/perfect), voice diagram, conditional ladder |
+
+Production route (decision for the user, §9): (a) generated with an image
+model from a written style guide + character sheet, then human-reviewed
+and cropped; (b) commissioned line art; (c) CC0-only (limits the
+picture-dictionary and panels). Recommendation: (a) for dictionary and
+panels with a strict style guide and a review checklist, (c) for culture.
+This sandbox cannot produce images; the plan ships placeholders (grey
+panel with the Greek caption) so all code and content can be built and
+tested before art lands.
+
+Manifest shape:
+
+```json
+{
+  "id": "georgos",
+  "file": "course/pics/georgos.webp",
+  "kind": "dictionary",
+  "alt_grc": "γεωργὸς ἀροτριᾷ",
+  "alt_en": "A farmer ploughing with an ox",
+  "credit": "Attic Reader (original)",
+  "license": "CC BY-SA 4.0",
+  "source_url": null,
+  "words": ["γεωργός", "ἀροτριάω", "βοῦς"]
+}
+```
+
+### 3.3 Audio
+
+- Every story sentence, gloss word, exercise stem and answer key is
+  rendered by Kokoro through the existing clip cache; the pre-render job
+  gets a "course" pass after the library and headwords (Stage 0–1 first).
+- Dictation and listen-and-pick exercises use the same clips.
+- Stage 0 uses per-letter/per-syllable clips (short phoneme strings; check
+  Kokoro behaves on 1–2 phoneme inputs; fall back to whole-word examples).
+
+---
+
+## 4. Exercises, quizzes, tests
+
+### 4.1 Exercise types (engine primitives)
+
+| id | Learner does | Grading | Skills it can carry |
+|---|---|---|---|
+| `pick-picture` | choose the picture matching a word/sentence (or the sentence matching a picture) | exact | vocab, syntax |
+| `listen-pick` | hear a clip, choose word/sentence/picture | exact | listening, vocab |
+| `match` | pair columns (word ↔ picture, form ↔ description, Greek ↔ Greek synonym) | exact | vocab, morphology |
+| `cloze-choice` | fill a gap from 3–5 options | exact | morphology, syntax |
+| `cloze-type` | type the missing word/form (keyboard) | normalized string match, several accepted answers, accent-strict or -lenient by setting | morphology |
+| `produce-form` | "dative plural of λόγος" → type | morph engine generates and checks | morphology |
+| `parse` | tap chips: case · number · gender / person · number · tense · mood · voice | exact set match | morphology |
+| `transform` | rewrite sentence: singular → plural, present → aorist, active → passive | normalized match against accepted set | morphology, syntax |
+| `reorder` | drag/tap words into a sentence | exact or any listed order | syntax |
+| `true-false-grc` | ἀληθὲς ἢ ψευδές; about the story | exact | comprehension |
+| `answer-grc` | answer a Greek question in Greek (type or choose) | normalized match + accepted variants; model answer shown | comprehension, production |
+| `translate-en` | translate Greek → English | self-graded against model with a 3-point rubric | comprehension |
+| `compose-grc` | English → Greek (typed) | normalized match against accepted set; diff shown | production |
+| `dictation` | hear, type Greek | normalized match; accent-lenient by default | listening, spelling |
+| `describe-picture` | write 2–3 Greek sentences about a panel | self-graded with word bank and model | production |
+| `read-aloud` | read along with audio, self-mark | none (no recording) | pronunciation |
+| `retell` | free recall with word bank | self-graded against summary | comprehension |
+
+Normalization (shared TS/Python, parity fixtures generated by Python):
+NFC, final sigma, trim/collapse spaces, optional strip of accents and
+breathings (lenient mode), Greek question mark `;` and ano teleia
+handling, grave → acute equivalence.
+
+### 4.2 Item authoring format
+
+Hand-written items live in the lesson file; each carries `skills`, an
+`explain` string shown on a miss, and optional `image`/`audio` refs.
+
+```json
+{
+  "type": "cloze-type",
+  "prompt": "ὁ Ἀρίστων ἐν τ__ ἀγρ__ ἐστιν.",
+  "answers": ["ῷ ῷ", "τῷ ἀγρῷ"],
+  "gaps": [{"answers": ["ῷ"]}, {"answers": ["ῷ"]}],
+  "skills": ["noun.decl2.dat.sg", "prep.en.dat"],
+  "explain": "ἐν takes the dative; 2nd-declension dative singular ends in -ῳ (ᾳ/ῃ/ῳ carry iota subscript).",
+  "audio": "auto"
+}
+```
+
+### 4.3 Generated drills (the morphology engine's payoff)
+
+`GET /api/course/drill?skills=noun.decl2.dat.sg,verb.pres.act.ind.3pl&n=8&vocab=lesson:1.2`
+returns fresh `produce-form`, `parse`, `cloze-choice` and `transform`
+items built from `decline_entry`/`conjugate_entry` over words the learner
+has met (vocab scope = lessons completed). Distractors are neighbouring
+cells of the same table (dat sg vs gen sg, 2 pl vs 3 pl). Used for spiral
+review, the review quiz and unit-test parsing sections, so item pools do
+not go stale.
+
+### 4.4 Quizzes and tests
+
+- **Lesson check**: 6–8 hand-picked items (`quiz` block in the lesson),
+  immediate feedback, 75 % to complete.
+- **Unit test** (`course_data/tests/unit-<n>.json`): sections
+  1 vocabulary (8, listen/picture/match) · 2 forms (8, produce/parse,
+  half generated) · 3 sentences (8, cloze/transform/reorder) ·
+  4 reading (unseen 60–120-word passage in the unit's grammar + 5 Greek
+  questions + 2 translations). Delayed feedback with explanations; 80 %.
+  Unlocks ≥ 24 h after the last lesson check.
+- **Retake**: automatic 7 days after a pass; 12 items = misses + weakest
+  skills; result recorded but no gate.
+- **Reading gates**: as §1.3; the passage is *not* in the library or any
+  lesson.
+- **Placement**: adaptive walk over unit tests' section-2/3 items; stops
+  after 3 consecutive misses in a unit; places at that unit with earlier
+  lessons marked "skipped (placement)" and their vocab enrolled.
+- **Review quiz** (`/course/review`): 10 items from weak skills + due
+  vocabulary; available any time; suggested when nothing is due.
+
+---
+
+## 5. Data model
+
+### 5.1 Content files (backend, committed)
+
+```text
+backend/app/course_data/
+  course.json                 stages → units → lesson ids, gates, track ids
+  skills.json                 skill taxonomy (id, label, parent, paradigm ref)
+  lessons/<lesson-id>.json    one lesson (see 5.2)
+  tests/unit-<n>.json         unit tests; gates/gate-<n>.json
+  tracks/<track>.json         track manifest, vocab list, lesson ids
+  images/manifest.json        §3.2
+  authoring/*.md              source: Markdown+YAML front matter, compiled by scripts/build_course.py
+frontend/public/course/pics/  images (WebP/SVG)
+```
+
+### 5.2 Lesson JSON (compiled)
+
+```json
+{
+  "id": "1.1", "unit": 1, "stage": 1, "title_grc": "ὁ Ἀρίστων γεωργός ἐστιν", "title_en": "Ariston is a farmer",
+  "cover": "panel-1-1-a",
+  "story": [{"text": "ὁ Ἀρίστων ἄνθρωπός ἐστιν.", "image": null, "glosses": {"ἄνθρωπός": {"pic": "anthropos"}}}, ...],
+  "vocab": [{"id": "anthropos", "pic": "anthropos"}, {"lemma": "Ἀρίστων", "extra": true, "gloss_grc": "ὄνομα ἀνδρός"}],
+  "notice": ["ὁ Ἀρίστων γεωργός ἐστιν.", "ἡ Χρυσὶς γυνή ἐστιν."],
+  "grammar": {"md": "...", "paradigms": ["article", "eimi"], "diagram": "case-map-nom"},
+  "exercises": [...], "questions_grc": [...], "culture": {"md": "...", "image": "acharnai-plain"},
+  "quiz": [...], "skills": ["noun.nom.sg", "verb.eimi.pres.3sg", "part.ou"], "review_skills_hint": []
+}
+```
+
+### 5.3 Skill taxonomy (excerpt)
+
+```text
+alpha.letters  alpha.breathings  alpha.accents
+noun.decl1.<case>.<num>  noun.decl2.<case>.<num>  noun.decl3.<stem>.<case>.<num>
+adj.agree  adj.compare
+art.<case>.<num>.<gender>
+pron.<kind>
+verb.<tense>.<voice>.<mood>.<person><num>   e.g. verb.aor2.act.ind.3sg
+verb.contract.<a|e|o>  verb.mi.<lemma>
+prep.<lemma>.<case>
+syntax.gen-abs  syntax.ind-statement.<hoti|inf|part>  syntax.cond.<type>  syntax.purpose  syntax.result
+read.comprehension  listen  spell.accents  produce.sentence
+```
+
+Skills nest by prefix, so mastery can roll up (`verb.aor2.*`).
+
+### 5.4 Progress (frontend document, synced with the existing sync code)
+
+Extend `Progress` to `version: 2` with `migrateProgress()`:
+
+```ts
+course: {
+  track?: "mythology" | "philosophy" | "history" | "politics";
+  placement?: { unit: number; at: number };
+  lessons: Record<string, { status: "locked"|"open"|"in-progress"|"done"|"skipped"; best: number; attempts: number; firstDone?: number; lastDone?: number; step?: number }>;
+  tests: Record<string, { attempts: { at: number; score: number; misses: string[] }[]; passedAt?: number; retakeDue?: number }>;
+  skills: Record<string, { correct: number; total: number; streak: number; last: number; ewma: number; days: string[] }>;
+  errors: { item: string; lesson: string; answer: string; at: number }[];   // capped at 500
+  rereads: Record<string, number[]>;                                          // lesson id → timestamps
+  goal: { minutesPerDay: number };
+  activity: { day: string; minutes: number; items: number }[];              // 90 days
+}
+```
+
+Size stays well under the 2 MB server cap; `errors` is capped. Merge rule
+for sync: lessons/tests by newest timestamp per key, skills by larger
+`total` (then newer `last`), errors union-deduped by `(item, at)`.
+
+---
+
+## 6. API
+
+| Method | Path | Purpose |
+|---|---|---|
+| GET | `/api/course` | stages, units, lesson summaries (title, skills, word count, has-audio), gates, tracks |
+| GET | `/api/course/lesson/{id}` | compiled lesson JSON with resolved vocab entries and image records |
+| GET | `/api/course/test/{id}` | unit test / gate (generated sections filled at request time, seeded per attempt) |
+| GET | `/api/course/drill` | generated drill items (§4.3) |
+| GET | `/api/course/track/{id}` | track manifest + lessons + vocab list |
+| POST | `/api/course/check` | optional server-side normalization/grading for typed answers (used when the client wants morph-aware feedback, e.g. "you gave the genitive") |
+| GET | `/api/course/images` | image manifest |
+| PUT/GET | `/api/progress/{code}` | exists; document grows a `course` key |
+
+Grading stays client-side for instant, offline feedback; `/check` is an
+enhancement that names the form the learner actually typed (via the morph
+engine's reverse lookup over the lesson's vocabulary).
+
+---
+
+## 7. Frontend
+
+Routes (Next.js app dir, `AppNav` gets a **Course** tab first):
+
+| Route | Screen |
+|---|---|
+| `/course` | course home: stage map (units as cards, lessons as dots), today's suggestions (continue · due vocab · reread · review quiz), streak/goal, track chooser after Unit 9 |
+| `/course/lesson/[id]` | lesson player: stepper over the 10 sections; sticky ▶ bar reused from the reader; progress saved per step |
+| `/course/test/[id]` | test runner: timer optional, no feedback until submit, results page with explanations and "add misses to review" |
+| `/course/review` | review quiz from weak skills + due cards |
+| `/course/track/[id]` | track home |
+| `/course/placement` | placement test |
+| `/course/skills` | mastery grid by skill family, tap → paradigm/lesson |
+
+Components (new): `StoryPanel` (image + sentences with glosses and word
+highlight), `Gloss` popover, `ExerciseRunner` + one component per type,
+`GreekInput` (NFC, final-sigma fix, accent-lenient toggle, on-screen
+polytonic helper for missing keys), `SkillGrid`, `LessonStepper`,
+`PictureGrid`, `Diagram` (SVG by id). Reused: `Speak`, `Highlight`,
+`FormsTable`, SRS study screen (deck preset "lesson 3.2").
+
+Mobile: all exercises tap-first; typed items get the keyboard once per
+screen; panels 3:2 full width; offline: lesson JSON + clips cached in the
+PWA service worker after first open.
+
+---
+
+## 8. Build pipeline and quality checks
+
+`backend/scripts/build_course.py` compiles `authoring/*.md` → JSON and
+fails on:
+
+1. Unglossed word not yet introduced (controlled vocabulary).
+2. Word form not derivable by the morph engine and not whitelisted.
+3. Enclitic accent violations; missing final sigma; NFD leakage.
+4. Exercise answers that do not normalize to themselves; `produce-form`
+   answers that disagree with the engine.
+5. Missing image ids, missing license/credit, alt text absent.
+6. Skill ids not in `skills.json`; lesson introduces a skill with no
+   exercise on it; unit test lacks a section.
+7. Per-lesson stats outside budget (new words > 12, story words > cap).
+
+Tests (pytest): schema of every lesson; controlled-vocab check runs as a
+test; drill generator produces valid items for every skill; API routes;
+TS: normalization parity fixtures, SRS/mastery pure functions (vitest),
+exercise components (a couple of interaction tests), e2e headless pass
+through Lesson 1.1 with the fake TTS (pattern exists in
+`scratchpad/e2e_vocab.py`).
+
+---
+
+## 9. Decisions needed from the user
+
+1. **Cast and setting** — accept Acharnae 432 BC and the names above, or
+   change any.
+2. **Images route** — generated line art with a style guide (recommended)
+   vs commissioned vs CC0-only.
+3. **English in Stage 1** — LOGOS-strict (Greek only, English grammar
+   notes collapsed by default) vs Athenaze-style (English visible).
+   Recommendation: Greek-first with a "show English" toggle per section.
+4. **Politics as its own track** vs folded into History. Plan keeps it
+   separate (Assembly, courts, Old Oligarch are distinct texts and
+   vocabulary).
+5. **Accent strictness** — default lenient (accents ignored) in typed
+   answers until Unit 4, then strict, with a per-user override.
+6. **Tracks unlock** after Unit 9 (side readings) or only after Unit 12.
+7. **Pitch accent** — stay with the stress cue in Stage 0 for now (matches
+   the current learner-mode G2P); add pitch notation later.
+
+---
+
+## 10. Implementation phases
+
+| Phase | Deliverable | Depends on |
+|---|---|---|
+| **A. Skeleton** | `course_data` schemas, `build_course.py`, skills taxonomy, `/api/course*`, progress v2 + migration + merge, `/course` home, lesson player with 8 exercise types, Stage 0 (4 lessons) and Unit 1 (4 lessons + test) fully authored with placeholder images, pre-render pass | nothing new |
+| **B. Stage 1 content** | Units 2–6 authored, unit tests, Reading gate I, picture dictionary (150) + panels for Stage 1, remaining exercise types, generated drills, review quiz, reread scheduler, placement (Stage 1 only) | A, image route decision |
+| **C. Stage 2 content** | Units 7–12, tests, gate II, grammar diagrams, culture photographs, adapted-text pipeline from Perseus (extend `build_library.py` to emit adapted + original pairs with alignment) | B |
+| **D. Tracks** | 4 × 8 lessons, track vocab lists, track gates, Stage 4 guided reader mode (DCC coverage %, unknown-word count) | C |
+| **E. Polish** | offline caching, `/check` morph-aware feedback, skills grid, error deck, accessibility pass, content review by a second reader | any |
+
+Suggested first session: Phase A end to end. The success test is a
+learner completing Lesson 1.1 on a phone with audio, pictures
+(placeholders), Greek questions, a passing lesson check, and their
+progress surviving a reload and a sync push/pull.
+
+---
+
+## 11. Risks and mitigations
+
+- **Content volume** is the real cost (~90 lessons × ~20 items). Mitigate
+  with generated drills for morphology, a tight authoring format, and
+  shipping stage by stage. Stage 0 + Unit 1 first.
+- **Greek quality** (accents, idiom). Mechanical checks above plus a
+  reviewer pass per unit; every lesson carries a "report an error" link
+  like the forms tables already do.
+- **Image consistency** across ~280 pictures. Style guide + character
+  sheet + review checklist; placeholders keep engineering unblocked.
+- **Licensing**: all text original or PD; DCC list CC BY-SA (attribution
+  exists); images CC0/CC BY with per-image credit; nothing from Athenaze,
+  LOGOS or *Reading Greek* is reproduced.
+- **Audio on CPU host**: course adds several thousand short clips; the
+  pre-render job already yields to users and caches to disk; order Stage
+  0–1 first and render tracks lazily.

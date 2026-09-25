@@ -731,3 +731,15 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   passages have one; the rest show nothing (hand-written examples would be
   the next step). Shared `components/Highlight.tsx`.
 
+
+## Session log — 2026-09-25 (course plan)
+
+- User request: a trackable beginner course (Athenaze / LOGOS / Reading
+  Greek style) with lessons, exercises, quizzes, tests, interest tracks
+  (mythology, philosophy, history, politics) and images throughout.
+- Deliverable: `docs/COURSE_PLAN.md` — plan only, nothing implemented.
+  Covers stages/units/lessons syllabus, original story (Acharnae, 432 BC,
+  own cast), exercise engine (17 types, morph-engine-generated drills),
+  assessment ladder, skill mastery + spiral review, data model, API,
+  routes, build pipeline, image plan, phases A–E, and open decisions (§9).
+- Start Phase A (skeleton + Stage 0 + Unit 1) once the user answers §9.
