@@ -83,8 +83,11 @@ or Plato in the Reader tab and reads.
 6. **Γραμματική** — grammar note in English (short, with the paradigm
    table from `paradigms.py` embedded and speakable) + an SVG diagram
    where useful.
-7. **Ἀσκήσεις** — 15–25 exercises, mixed types (see §4), ~70 % on this
-   lesson, ~30 % spiral review chosen from weak skills.
+7. **Μελετήματα** — 15–25 exercises, mixed types (see §4), ~70 % on this
+   lesson, ~30 % spiral review chosen from weak skills. Fixed spine from
+   LOGOS: Α endings cloze → Β word-bank cloze → Γ Greek questions; then
+   Athenaze-style items: find-the-forms in the story, transformations,
+   parse, paired mirror sentences, Word Building.
 8. **Ἐρωτήματα** — 4–6 comprehension questions *in Greek* with Greek
    answers (typed or chosen).
 9. **Πολιτισμός** — culture box (English) with one museum photograph.
@@ -207,44 +210,54 @@ frequency tiers (tier 1 = ranks 1–125 across Stage 1).
 | | 3.2 | ὁ πολίτης καὶ ὁ νεανίας | masc 1st decl; possessives; οὗτος/ἐκεῖνος | trades, citizens | `polites`, `neanias`, `houtos`, `ekeinos` |
 | | 3.3 | ὁ Λάβρος ἀπόλλυται | middle voice present; deponents (γίγνομαι, βούλομαι) | wishing, fearing | `gignomai` |
 | | 3.4 | εἰς τὴν ἀκρόπολιν | prepositions with gen/dat/acc; compound verbs | movement, the Acropolis | |
-| **4 Ὁ Πειραιεύς** | 4.1 | ἡ ὁδὸς εἰς τὸν Πειραιᾶ | imperfect; augment | roads, walls, buildings | `luo` |
-| | 4.2 | τὸ ἐμπόριον | 2nd aorist (ἔλαβον, εἶπον); aorist infinitive | buying, selling | `lambano` |
-| | 4.3 | ὁ διδάσκαλος | 1st (sigmatic) aorist; τίς/τι indefinite | school, letters | `luo`, `tis-indef` |
-| | 4.4 | αἱ νῆες | 3rd decl πόλις, βασιλεύς, ναῦς; πᾶς | sea, ships | `polis`, `basileus`, `naus`, `pas` |
-| **5 Οἱ θεοί** | 5.1 | ἡ θυσία | present participle (active); attributive vs circumstantial | ritual | |
-| | 5.2 | ὁ Κλεινίας περὶ Σαλαμῖνος | aorist participle; genitive absolute (intro) | war, memory | |
-| | 5.3 | ὁ Ἀπόλλων καὶ ἡ Δάφνη (myth) | pronouns: relative ὅς, reflexive, ἀλλήλων | body, emotions | `hos`, `heautou`, `allelon` |
-| | 5.4 | ὁ ἰατρός | 3rd decl neuters (σῶμα, γένος); -ης adjectives (ἀληθής) | health | `soma`, `genos`, `alethes` |
-| **6 Ἡ οἰκονομία** | 6.1 | τὸ ἀργύριον | numerals, δύο/τρεῖς/τέτταρες; time expressions | numbers, money | `heis`, `dyo`, `treis`, `tettares` |
-| | 6.2 | ὁ ξένος ἐκ Μιλήτου | future; liquid futures | travel, geography | `phaino` |
-| | 6.3 | ἡ Ἐλπὶς ὑφαίνει | -όω contracts; comparison of adjectives | comparisons | `deloo`, `beltion` |
+| **4 Ὁ Πειραιεύς** | 4.1 | ἡ ὁδὸς εἰς τὸν Πειραιᾶ | present active participle (attributive, circumstantial); πατήρ, μήτηρ, ἀνήρ | family, roads, walls | `pater`, `aner` |
+| | 4.2 | τὸ ἐμπόριον | present middle participle; παύομαι + ptc; uses of the genitive; πᾶς | buying, selling | `pas` |
+| | 4.3 | ὁ διδάσκαλος | πόλις, ἄστυ, βασιλεύς; article + participle as noun; impersonals δεῖ, ἔξεστι; τίς/τις | school, letters | `polis`, `basileus`, `tis-indef` |
+| | 4.4 | αἱ νῆες | numerals 1–10; acc. of extent vs dat. of time; ναῦς; place adverbs (-θεν, -δε) | sea, ships, numbers | `naus`, `heis`, `dyo`, `treis`, `tettares` |
+| **5 Οἱ θεοί** | 5.1 | ἡ θυσία | 2nd aorist (ἔλαβον, εἶπον, ἦλθον); aspect; aorist infinitive and participle | ritual | `lambano` |
+| | 5.2 | ὁ Κλεινίας περὶ Σαλαμῖνος | 1st aorist (λύω, consonant stems, contracts, liquids); augment incl. compounds | war, memory | `luo`, `phaino` |
+| | 5.3 | ὁ Ἀπόλλων καὶ ἡ Δάφνη (myth) | imperfect; imperfect of εἰμί; historic present; aorist vs imperfect in narrative | body, emotions | |
+| | 5.4 | ὁ ἰατρός | relative pronoun and clauses; -εσ- stems (γένος, ἀληθής, τριήρης); reflexives, ἀλλήλων | health | `hos`, `genos`, `alethes`, `heautou`, `allelon` |
+| **6 Τὸ ἀργύριον** | 6.1 | τὸ ἀργύριον | comparison of adjectives and adverbs; ἤ and genitive of comparison | money, trade | `beltion` |
+| | 6.2 | ὁ ξένος ἐκ Μιλήτου | demonstratives οὗτος, ὅδε, ἐκεῖνος in full; interrogative vs indefinite adverbs; time expressions | travel, geography | `houtos`, `hode`, `ekeinos` |
+| | 6.3 | ἡ Ἐλπὶς ὑφαίνει | -όω contracts; νοῦς; root aorists ἔβην, ἔγνων, ἔστην; δύναμαι, ἐπίσταμαι | weaving, ability | `deloo`, `nous`, `baino` |
 | | 6.4 | Reading gate I | consolidated review; adapted Apollodorus (short myth, 120 words, unseen) | | |
+
+Reference notes for all of this live in `docs/reference/` (Athenaze Book I
+and II sequences, Workbook exercise types, LOGOS method, the Major 80 %
+list, the learner's own deck and study plan).
+
+Order check against Athenaze Book I (see `docs/reference/athenaze-book1-sequence.md`):
+Units 1–2 ≈ Ch. 1–5, Unit 3 ≈ Ch. 5–7, Unit 4 ≈ Ch. 8–10, Unit 5 ≈
+Ch. 11–13, Unit 6 ≈ Ch. 14–16. The future is deferred to Stage 2, as in
+Athenaze. Each unit also carries a Word Study (English derivatives, from
+`cognates.json`) and a Word Building (Greek word family) item.
 
 ### 2.5 Stage 2 — Γέφυρα (Units 7–12, 24 lessons)
 
 | Unit | Lesson | Story beat | Grammar | Text tie-in |
 |---|---|---|---|---|
-| **7 Τὰ Παναθήναια** | 7.1 | ἡ πομπή | aorist passive; verbs with 2nd aor. pass. | |
-| | 7.2 | ὁ ἀγών | perfect and pluperfect active | |
-| | 7.3 | οἱ ῥαψῳδοί | perfect middle/passive; οἶδα | `oida` |
-| | 7.4 | ἡ νύξ | -μι verbs I: δίδωμι, τίθημι | `didomi`, `tithemi`; adapted Apollodorus (Prometheus) |
-| **8 Ἡ ἐκκλησία** | 8.1 | ὁ Δημόκριτος λέγει | subjunctive: hortatory, prohibitive, deliberative | |
-| | 8.2 | περὶ τοῦ πολέμου | purpose clauses ἵνα/ὅπως; fear clauses | adapted Thucydides 1.1 (exists in library) |
-| | 8.3 | ἡ ψῆφος | optative: wish, potential; indirect questions | |
-| | 8.4 | ὁ Περικλῆς | indirect statement (ὅτι/ὡς, infinitive, participle) | adapted Thuc. Pericles |
-| **9 Ὁ πόλεμος** | 9.1 | οἱ Λακεδαιμόνιοι | conditions I (simple, future) | adapted Xen. Hell. 2.2 (exists) |
-| | 9.2 | οἱ Ἀχαρνῆς ἐν τῷ ἄστει (the cousins arrive) | conditions II (contrafactual, general) | |
-| | 9.3 | ἐντὸς τῶν τειχῶν | -μι verbs II: ἵστημι, δείκνυμι, εἶμι | `histemi`, `deiknymi`, `eimi-go` |
-| | 9.4 | Ἀρίστων ὁπλίτης | result clauses ὥστε; temporal clauses ἐπεί, ἕως, πρίν | **tracks unlock as side readings** |
-| **10 Ἡ ἀγορὰ τῶν λόγων** | 10.1 | ὁ σοφός ἐν τῇ ἀγορᾷ | φημί; verbal adjectives -τός, -τέος | `phemi`; adapted Plato Apol. 17a (exists) |
-| | 10.2 | ὁ Λύσις ἐρωτᾷ | relative clauses with ἄν; conditional relatives | |
-| | 10.3 | τί ἐστιν ἡ ἀρετή; | articular infinitive; accusative absolute | adapted Xen. Mem. 1.1 (exists) |
-| | 10.4 | ὁ Κλεινίας ἀποθνῄσκει | root aorists (ἔβην, ἔγνων); adverbs | `baino` |
-| **11 Τὸ δικαστήριον** | 11.1 | ἡ δίκη | verbs of hindering, οὐ/μή; μὴ οὐ | adapted Lysias 1 (opening) |
-| | 11.2 | οἱ μάρτυρες | dual (recognition only); crasis, elision | |
-| | 11.3 | ἡ ἀπολογία | genitive uses in full; dative uses in full | |
-| | 11.4 | ἡ ψῆφος τῶν δικαστῶν | particles (γε, δή, τοι, μέντοι, οὖν) | |
-| **12 Ὁ ἀναγνώστης** | 12.1 | ὁ Λύσις ἀναγιγνώσκει | Attic vs Ionic/Koine forms to recognize; reading strategy | Xen. Anab. 1.1 unadapted with glosses (exists) |
+| **7 Τὰ Παναθήναια** | 7.1 | ἡ πομπή | future (incl. εἰμί, liquid futures); εἶμι; future participle of purpose | |
+| | 7.2 | ὁ ἀγών | -μι verbs I: δίδωμι, τίθημι; uses of αὐτός reviewed; ταχύς-type adjectives | `didomi`, `tithemi`, `tachys` |
+| | 7.3 | οἱ ῥαψῳδοί | genitive absolute; attributive vs predicate position; further uses of the article | adapted Apollodorus (Prometheus) |
+| | 7.4 | ἡ νύξ | ἵστημι, ἀφίσταμαι, καθίστημι; supplementary participles (λανθάνω, τυγχάνω, φαίνομαι, φθάνω) | `histemi` |
+| **8 Ἡ ἐκκλησία** | 8.1 | ὁ Δημόκριτος λέγει | subjunctive: hortatory, deliberative, prohibitive, purpose (ἵνα/ὅπως/ὡς), ἐάν | |
+| | 8.2 | περὶ τοῦ πολέμου | fear clauses; indefinite clauses with ἄν (ὅστις ἄν, ἐπειδάν, ἕως ἄν) | adapted Thucydides 1.1 (exists in library) |
+| | 8.3 | ἡ ψῆφος | δείκνυμι; indirect statement with ὅτι/ὡς; indirect questions | `deiknymi` |
+| | 8.4 | ὁ Περικλῆς | present and imperfect passive; prepositional prefixes and euphony | adapted Thuc. Pericles |
+| **9 Ὁ πόλεμος** | 9.1 | οἱ Λακεδαιμόνιοι | indirect statement with infinitive and participle; φημί; relative attraction | `phemi`; adapted Xen. Hell. 2.2 (exists) |
+| | 9.2 | οἱ Ἀχαρνῆς ἐν τῷ ἄστει (the cousins arrive) | aorist and future passive; aorist of deponents; ὅπως + future indicative | |
+| | 9.3 | ἐντὸς τῶν τειχῶν | optative: forms, wishes, subordinate clauses in secondary sequence | |
+| | 9.4 | Ἀρίστων ὁπλίτης | optative in indirect speech; uses of gen./dat./acc. in full; correlatives | **tracks unlock as side readings** |
+| **10 Ἡ ἀγορὰ τῶν λόγων** | 10.1 | ὁ σοφός ἐν τῇ ἀγορᾷ | perfect and pluperfect middle-passive; πρίν ἄν; articular infinitive | adapted Plato Apol. 17a (exists) |
+| | 10.2 | ὁ Λύσις ἐρωτᾷ | perfect and pluperfect active; ἕστηκα, οἶδα; uses of ὡς | `oida` |
+| | 10.3 | τί ἐστιν ἡ ἀρετή; | potential optative; result clauses ὥστε; accusative absolute | adapted Xen. Mem. 1.1 (exists) |
+| | 10.4 | ὁ Κλεινίας ἀποθνῄσκει | conditional sentences, all six types | |
+| **11 Τὸ δικαστήριον** | 11.1 | ἡ δίκη | 3rd-person imperatives; verbal adjectives -τός, -τέος | adapted Lysias 1 (opening) |
+| | 11.2 | οἱ μάρτυρες | negatives (οὐ/μή, μὴ οὐ, οὐ μή); verbs of hindering; summary of participle uses | |
+| | 11.3 | ἡ ἀπολογία | crasis, elision, prodelision; particles (γε, δή, τοι, μέντοι, οὖν) | |
+| | 11.4 | ἡ ψῆφος τῶν δικαστῶν | dual (recognition only); Attic vs Ionic/Koine forms to recognize; reading strategy | |
+| **12 Ὁ ἀναγνώστης** | 12.1 | ὁ Λύσις ἀναγιγνώσκει | connected reading with running vocabulary only | Xen. Anab. 1.1 unadapted with glosses (exists) |
 | | 12.2 | ὁ Ξενοφῶν | connected reading: 200-word original | Xen. Anab. 4.7 (exists) |
 | | 12.3 | ὁ Σωκράτης | connected reading: Plato | Crito 43a (exists) |
 | | 12.4 | Reading gate II | unseen original (Xenophon), unglossed except proper names | |
@@ -402,6 +415,13 @@ Manifest shape:
 | `describe-picture` | write 2–3 Greek sentences about a panel | self-graded with word bank and model | production |
 | `read-aloud` | read along with audio, self-mark | none (no recording) | pronunciation |
 | `retell` | free recall with word bank | self-graded against summary | comprehension |
+| `locate` | tap every word in the story that is (e.g.) a dative / an imperative / a participle | exact set match | morphology, reading |
+| `label` | code a form or word you just produced (S / DO / IO; case use A–I; attributive / predicate) | exact | syntax |
+| `endings-cloze` | fill blanked endings in a continuous passage (LOGOS Μελέτημα Α) | normalized match per gap | morphology |
+| `bank-cloze` | fill whole words from a word bank (LOGOS Μελέτημα Β) | exact | vocab, syntax |
+| `word-family` | from a root, produce or pick compounds and cognates; English derivatives shown (Word Study / Word Building) | exact set / normalized | vocab |
+| `continue-story` | write 2–3 Greek sentences continuing the tail reading (Stage 2) | self-graded against model, word bank | production |
+| `paradigm-transfer` | give the forms of verb B that correspond to the forms you produced for verb A | morph engine | morphology |
 
 Normalization (shared TS/Python, parity fixtures generated by Python):
 NFC, final sigma, trim/collapse spaces, optional strip of accents and
