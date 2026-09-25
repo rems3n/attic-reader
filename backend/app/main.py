@@ -38,8 +38,12 @@ from .library import LibraryError, get_item, load_manifest, summary, CATEGORIES
 from . import vocab
 from . import progress as progress_store
 from .greek.morph import paradigms
+from .course import data as course_data
+from .course.drill import generate as generate_drill
+from .course.grade import TYPED_TYPES, feedback_for_typed, grade as grade_item
+from pydantic import BaseModel
 
-app = FastAPI(title="Attic Reader API", version="0.2.0")
+app = FastAPI(title="Attic Reader API", version="0.3.0")
 log = logging.getLogger("attic")
 # Uvicorn configures its own loggers only; make ours visible (per-sentence
 # synthesis timings are INFO).
@@ -164,9 +168,10 @@ def library_item(item_id: str) -> dict[str, object]:
 
 @app.get("/api/vocab")
 def vocab_index() -> dict[str, object]:
-    """DCC core vocabulary: every word (light summary) plus facet counts for
-    building a study deck by topic, semantic group, part of speech or tier."""
-    entries = vocab.load_entries()
+    """DCC core vocabulary plus course words: every word (light summary) and
+    facet counts for building a study deck by topic, group, part of speech,
+    tier or course lesson."""
+    entries = vocab.load_all()
     return {
         "attribution": vocab.ATTRIBUTION,
         "attribution_url": vocab.ATTRIBUTION_URL,
@@ -234,6 +239,72 @@ def grammar_item(paradigm_id: str) -> dict[str, object]:
         return paradigms.get(paradigm_id)
     except KeyError:
         raise HTTPException(status_code=404, detail=f"No paradigm with id {paradigm_id!r}.")
+
+
+# ---------------------------------------------------------------- course
+
+@app.get("/api/course")
+def course_index() -> dict[str, object]:
+    """Stages → units → lessons (which are authored), tracks, skill taxonomy."""
+    return course_data.course_index()
+
+
+@app.get("/api/course/lesson/{lesson_id}")
+def course_lesson(lesson_id: str) -> dict[str, object]:
+    try:
+        return course_data.resolve_lesson(lesson_id)
+    except course_data.CourseError:
+        raise HTTPException(status_code=404, detail=f"No lesson {lesson_id!r}.")
+
+
+@app.get("/api/course/test/{test_id}")
+def course_test(test_id: str, seed: int | None = None) -> dict[str, object]:
+    """A unit test or reading gate; generated sections are seeded per attempt."""
+    try:
+        return course_data.resolve_test(test_id, seed=seed)
+    except course_data.CourseError:
+        raise HTTPException(status_code=404, detail=f"No test {test_id!r}.")
+
+
+@app.get("/api/course/drill")
+def course_drill(skills: str, scope: str, n: int = 8, seed: int = 0) -> dict[str, object]:
+    """Fresh morphology items for the given skills, over the words met up to
+    lesson `scope` (see app/course/drill.py)."""
+    try:
+        scope_ids = course_data.vocab_scope(scope)
+    except course_data.CourseError:
+        raise HTTPException(status_code=404, detail=f"No lesson {scope!r}.")
+    wanted = [s for s in skills.split(",") if s.strip()]
+    items = generate_drill(wanted, max(1, min(n, 40)), scope_ids, seed=seed)
+    return {"items": items, "skills": wanted, "scope": scope, "seed": seed}
+
+
+@app.get("/api/course/images")
+def course_images() -> dict[str, object]:
+    return {"images": list(course_data.load_images().values())}
+
+
+class CheckRequest(BaseModel):
+    item: dict
+    response: object = None
+    accents: bool = False
+    scope: str | None = None
+
+
+@app.post("/api/course/check")
+def course_check(request: CheckRequest) -> dict[str, object]:
+    """Grade a response like the client does, plus morphology-aware feedback
+    for typed forms ('you gave the genitive singular')."""
+    try:
+        result = grade_item(request.item, request.response, request.accents)
+    except (ValueError, KeyError) as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
+    if request.item.get("type") in TYPED_TYPES and not result["correct"] and request.scope:
+        try:
+            result["feedback"] = feedback_for_typed(request.item, request.response, course_data.vocab_scope(request.scope), request.accents)  # type: ignore[arg-type]
+        except course_data.CourseError:
+            pass
+    return result
 
 
 @app.post("/api/synthesize")

@@ -1,0 +1,127 @@
+{
+  "id": "1.3",
+  "title_grc": "ὁ Λύσις καὶ ὁ Λάβρος ἐν τῇ ἀγορᾷ",
+  "title_en": "Lysis and Labros in the agora",
+  "summary_grc": "ὁ Λάβρος τὸν ἄρτον λαμβάνει.",
+  "summary_en": "Doing something to something: the accusative object, and the whole second declension in the singular.",
+  "cover": "panel-1-3-a",
+  "caption_grc": "ὁ Λάβρος τὸν ἄρτον λαμβάνει.",
+  "names": {},
+  "allow": {},
+  "story": [
+    {
+      "image": "panel-1-3-a",
+      "sentences": [
+        {"text": "ὁ Λύσις καὶ ὁ Λάβρος ἐν τῇ ἀγορᾷ εἰσιν.", "glosses": [{"word": "εἰσιν", "kind": "|", "value": "ἐστί(ν) | εἰσί(ν)"}, {"word": "ἀγορᾷ", "kind": "pic", "value": "agora"}]},
+        {"text": "ἡ ἀγορὰ μεγάλη ἐστίν· ὁ Λύσις τὴν ἀγορὰν ὁρᾷ.", "glosses": [{"word": "ὁρᾷ", "kind": "pic", "value": "verb-hora"}, {"word": "τὴν", "kind": "note", "value": "τὴν ἀγοράν: what he sees (object)"}]},
+        {"text": "ὁ Λύσις ἄνθρωπον ὁρᾷ· ὁ ἄνθρωπος ἄρτον φέρει.", "glosses": [{"word": "ἄνθρωπον", "kind": "|", "value": "ὁ ἄνθρωπος | τὸν ἄνθρωπον"}, {"word": "ἄρτον", "kind": "pic", "value": "artos"}]},
+        {"text": "ὁ Λάβρος τὸν ἄρτον ὁρᾷ καὶ τὸν ἄρτον ζητεῖ.", "glosses": [{"word": "ζητεῖ", "kind": "pic", "value": "verb-zetei"}]},
+        {"text": "ὁ δὲ ἄνθρωπος τὸν κύνα οὐχ ὁρᾷ.", "glosses": [{"word": "δὲ", "kind": "en", "value": "and, but (second word)"}, {"word": "κύνα", "kind": "|", "value": "ὁ κύων | τὸν κύνα"}, {"word": "οὐχ", "kind": "=", "value": "οὐ + ὁ, ἁ, ἑ … → οὐχ"}]}
+      ]
+    },
+    {
+      "image": "panel-1-3-b",
+      "sentences": [
+        {"text": "ὁ Λάβρος τρέχει καὶ τὸν ἄρτον λαμβάνει.", "glosses": [{"word": "λαμβάνει", "kind": "pic", "value": "verb-lambanei"}]},
+        {"text": "ὁ ἄνθρωπος λέγει· «ὁ κύων τὸν ἄρτον ἔχει!»", "glosses": []},
+        {"text": "ὁ Λύσις τὸν Λάβρον ζητεῖ, ἀλλὰ τὸν κύνα οὐχ εὑρίσκει.", "glosses": [{"word": "εὑρίσκει", "kind": "pic", "value": "verb-heuriskei"}]},
+        {"text": "ὁ Λύσις τὸν κύνα ἀκούει· ὁ Λάβρος ἐν τῇ ὁδῷ ἐστιν.", "glosses": [{"word": "ἀκούει", "kind": "pic", "value": "verb-akouei"}, {"word": "ὁδῷ", "kind": "pic", "value": "hodos"}]},
+        {"text": "ὁ Λύσις οὖν εἰς τὴν ὁδὸν τρέχει καὶ τὸν Λάβρον εὑρίσκει.", "glosses": [{"word": "οὖν", "kind": "en", "value": "so, then (second word)"}, {"word": "εἰς", "kind": "en", "value": "into (Lesson 1.4)"}]},
+        {"text": "ὁ Λάβρος τὸν ἄρτον ἀεὶ ἔχει.", "glosses": [{"word": "ἀεὶ", "kind": "en", "value": "always, still"}]},
+        {"text": "ὁ δὲ Λύσις λέγει· «ὦ Λάβρε, οὐ καλὸς κύων!»", "glosses": [{"word": "ὦ", "kind": "en", "value": "O! (used when calling someone)"}, {"word": "Λάβρε", "kind": "|", "value": "Λάβρος | ὦ Λάβρε"}]}
+      ]
+    },
+    {
+      "image": "doron",
+      "sentences": [
+        {"text": "ὁ Λύσις λίθον ὁρᾷ· ὁ λίθος μικρὸς καὶ καλός ἐστιν.", "glosses": [{"word": "λίθον", "kind": "pic", "value": "lithos"}]},
+        {"text": "ὁ Λύσις τὸν λίθον λαμβάνει· δῶρόν ἐστιν.", "glosses": [{"word": "δῶρόν", "kind": "pic", "value": "doron"}]},
+        {"text": "τὸ δῶρον τοῦ Λύσιδος μικρόν ἐστιν, ἀλλὰ καλόν.", "glosses": [{"word": "τὸ", "kind": "|", "value": "ὁ | ἡ | τό"}, {"word": "τοῦ", "kind": "en", "value": "τοῦ Λύσιδος: of Lysis, Lysis's"}]},
+        {"text": "ὁ Λύσις τὸ δῶρον φέρει· τὸ δῶρον τῆς Ἐλπίδος ἐστίν.", "glosses": [{"word": "τῆς", "kind": "en", "value": "τῆς Ἐλπίδος: of Elpis, for Elpis"}]},
+        {"text": "ὁ Λύσις καὶ ὁ Λάβρος οὐκ ἐν τῇ ἀγορᾷ εἰσιν, ἀλλὰ ἐν τῇ ὁδῷ.", "glosses": []}
+      ]
+    }
+  ],
+  "vocab": [
+    {"id": "οραω", "pic": "verb-hora", "gloss_grc": "ὁρᾷ · ὁρῶσι(ν)"},
+    {"id": "ακουω", "pic": "verb-akouei"},
+    {"id": "ζητεω", "pic": "verb-zetei", "gloss_grc": "ζητεῖ · ζητοῦσι(ν)"},
+    {"id": "λαμβανω", "pic": "verb-lambanei"},
+    {"id": "ευρισκω", "pic": "verb-heuriskei"},
+    {"id": "αρτος", "pic": "artos"},
+    {"id": "λιθος", "pic": "lithos"},
+    {"id": "οδος", "pic": "hodos", "gloss_grc": "ἡ ὁδός (feminine!)"},
+    {"id": "δωρον", "pic": "doron"},
+    {"id": "ουν", "gloss_grc": "Α· Β οὖν. (Β follows from Α)"},
+    {"id": "δε", "gloss_grc": "ὁ δὲ … (second word)"},
+    {"id": "αει", "gloss_grc": "ἀεί"},
+    {"id": "αγορα", "pic": "agora"},
+    {"id": "κυων", "pic": "kyon", "gloss_grc": "ὁ κύων · τὸν κύνα"},
+    {"id": "εχω", "pic": "verb-echei"},
+    {"id": "φερω", "pic": "verb-pherei"}
+  ],
+  "notice": [
+    "ὁ Λάβρος τὸν ἄρτον λαμβάνει.",
+    "ὁ Λύσις τὸν λίθον ὁρᾷ.",
+    "ὁ λίθος μικρός ἐστιν. — τὸ δῶρον μικρόν ἐστιν.",
+    "τὸ δῶρον τοῦ Λύσιδος.",
+    "ὁ ἄνθρωπος τὸν κύνα οὐχ ὁρᾷ."
+  ],
+  "grammar": {
+    "md": "**The object: accusative.** The person or thing a verb acts on goes into the **accusative** case. For the nouns of this lesson that means the ending **-ον** and the article **τόν**: ὁ ἄρτος → *λαμβάνει τὸν ἄρτον*; ὁ λίθος → *ὁρᾷ τὸν λίθον*. Word order is free; the ending tells you who does what: *τὸν ἄρτον ὁ Λάβρος λαμβάνει* still means Labros takes the bread.\n\n**The second declension, singular.** You now have every case of nouns like ὁ λίθος and τὸ δῶρον:\n\n| | ὁ λίθος (m.) | τὸ δῶρον (n.) | use |\n|---|---|---|---|\n| nominative | ὁ λίθ**ος** | τὸ δῶρ**ον** | subject; after ἐστίν |\n| genitive | τοῦ λίθ**ου** | τοῦ δώρ**ου** | *of*: τὸ δῶρον **τοῦ Λύσιδος** |\n| dative | τῷ λίθ**ῳ** | τῷ δώρ**ῳ** | after ἐν |\n| accusative | τὸν λίθ**ον** | τὸ δῶρ**ον** | object |\n\n**Neuters** (article τό) have the same form for nominative and accusative: *τὸ δῶρον καλόν ἐστιν* and *φέρει τὸ δῶρον*.\n\n**Adjectives agree** with their noun in gender, number and case: μικρ**ὸς** λίθος but μικρ**ὸν** δῶρον; and in the feminine (next lesson) μικρ**ὰ** ὁδός. **ἡ ὁδός** is feminine although it ends in -ος: its article gives it away.\n\n**οὐχ** before a vowel with a rough breathing: οὐχ ὁρᾷ, οὐχ εὑρίσκει.\n\n**δέ and οὖν** are postpositives like γάρ: *ὁ δὲ ἄνθρωπος …* 'and the man …', *ὁ Λύσις οὖν τρέχει* 'so Lysis runs'.",
+    "paradigms": ["logos", "doron", "article", "agathos"],
+    "diagram": "diagram-case-map"
+  },
+  "exercises": [
+    {"type": "endings-cloze", "prompt": "Μελέτημα Α · Fill in the endings.", "template": "ὁ Λάβρος τὸν ἄρτ___ λαμβάνει. ὁ Λύσις τὸν λίθ___ ὁρᾷ. τὸ δῶρ___ μικρόν ἐστιν. ὁ οἶκος τ___ κεραμέως μέγας ἐστίν.", "gaps": [{"answers": ["ον"]}, {"answers": ["ον"]}, {"answers": ["ον"]}, {"answers": ["οῦ"]}], "skills": ["noun.decl2.acc.sg", "noun.decl2.neuter", "art.gen.sg"], "explain": "τὸν ἄρτον, τὸν λίθον (objects); τὸ δῶρον (neuter subject); τοῦ κεραμέως (of the potter)."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ὁ Λάβρος ___ ἄρτον λαμβάνει.", "options": [{"id": "a", "text": "ὁ"}, {"id": "b", "text": "τόν"}, {"id": "c", "text": "τῷ"}], "answer": "b", "skills": ["art.acc.sg", "syntax.object"], "explain": "The object takes τόν: τὸν ἄρτον.", "audio": "ὁ Λάβρος τὸν ἄρτον λαμβάνει."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · τὸ δῶρον ___ Λύσιδος καλόν ἐστιν.", "options": [{"id": "a", "text": "τοῦ"}, {"id": "b", "text": "τόν"}, {"id": "c", "text": "τό"}], "answer": "a", "skills": ["syntax.possession.gen", "art.gen.sg"], "explain": "'of Lysis': genitive, τοῦ Λύσιδος.", "audio": "τὸ δῶρον τοῦ Λύσιδος καλόν ἐστιν."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ὁ ἄνθρωπος τὸν κύνα ___ ὁρᾷ.", "options": [{"id": "a", "text": "οὐ"}, {"id": "b", "text": "οὐκ"}, {"id": "c", "text": "οὐχ"}], "answer": "c", "skills": ["syntax.negation"], "explain": "οὐχ before ὁ- (rough breathing).", "audio": "ὁ ἄνθρωπος τὸν κύνα οὐχ ὁρᾷ."},
+    {"type": "pick-picture", "prompt": "λαμβάνει", "audio": "prompt", "options": [{"id": "a", "image": "verb-lambanei"}, {"id": "b", "image": "verb-hora"}, {"id": "c", "image": "verb-akouei"}, {"id": "d", "image": "verb-zetei"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "λαμβάνει: takes."},
+    {"type": "pick-picture", "prompt": "ἄρτος", "audio": "prompt", "options": [{"id": "a", "image": "lithos"}, {"id": "b", "image": "artos"}, {"id": "c", "image": "doron"}, {"id": "d", "image": "hodos"}], "answer": "b", "skills": ["vocab.recognition"], "explain": "ἄρτος: bread."},
+    {"type": "produce-form", "prompt": "Give the accusative singular of ἄρτος (the object).", "lemma": "ἄρτος", "cell": "acc.sg", "skills": ["noun.decl2.acc.sg"], "explain": "τὸν ἄρτον.", "audio": "ἄρτον"},
+    {"type": "produce-form", "prompt": "Give the genitive singular of λίθος ('of the stone').", "lemma": "λίθος", "cell": "gen.sg", "skills": ["noun.decl2.gen.sg"], "explain": "τοῦ λίθου.", "audio": "λίθου"},
+    {"type": "produce-form", "prompt": "Give the accusative singular of δῶρον.", "lemma": "δῶρον", "cell": "acc.sg", "skills": ["noun.decl2.neuter", "noun.decl2.acc.sg"], "explain": "τὸ δῶρον: neuters have the same nominative and accusative.", "audio": "δῶρον"},
+    {"type": "parse", "prompt": "Parse ἄρτον.", "form": "ἄρτον", "groups": [{"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "dat", "label": "dative"}, {"id": "acc", "label": "accusative"}]}, {"id": "number", "label": "Number", "options": [{"id": "sg", "label": "singular"}, {"id": "pl", "label": "plural"}]}], "answer": {"case": "acc", "number": "sg"}, "skills": ["noun.decl2.acc.sg"], "explain": "-ον on a masculine noun: accusative singular.", "audio": "ἄρτον"},
+    {"type": "parse", "prompt": "Parse λίθου.", "form": "λίθου", "groups": [{"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "dat", "label": "dative"}, {"id": "acc", "label": "accusative"}]}, {"id": "number", "label": "Number", "options": [{"id": "sg", "label": "singular"}, {"id": "pl", "label": "plural"}]}], "answer": {"case": "gen", "number": "sg"}, "skills": ["noun.decl2.gen.sg"], "explain": "-ου: genitive singular, 'of the stone'.", "audio": "λίθου"},
+    {"type": "cloze-choice", "prompt": "___ δῶρον καλόν ἐστιν.", "options": [{"id": "a", "text": "ὁ"}, {"id": "b", "text": "τό"}, {"id": "c", "text": "τόν"}], "answer": "b", "skills": ["noun.decl2.neuter", "noun.gender"], "explain": "δῶρον is neuter: τὸ δῶρον."},
+    {"type": "cloze-choice", "prompt": "τὸ δῶρον ___ ἐστιν.", "options": [{"id": "a", "text": "μικρός"}, {"id": "b", "text": "μικρόν"}, {"id": "c", "text": "μικρά"}], "answer": "b", "skills": ["adj.agree"], "explain": "Neuter noun, neuter adjective: μικρόν."},
+    {"type": "cloze-choice", "prompt": "ὁ Λύσις ___ κύνα ἀκούει.", "options": [{"id": "a", "text": "ὁ"}, {"id": "b", "text": "τοῦ"}, {"id": "c", "text": "τόν"}], "answer": "c", "skills": ["art.acc.sg", "syntax.object"], "explain": "τὸν κύνα: the object."},
+    {"type": "transform", "prompt": "Make it the object: ὁ ἄρτος → ὁ Λάβρος … λαμβάνει.", "template": "ὁ Λάβρος ___ λαμβάνει.", "gaps": [{"answers": ["τὸν ἄρτον"]}], "skills": ["noun.decl2.acc.sg", "art.acc.sg", "syntax.object"], "explain": "τὸν ἄρτον.", "audio": "ὁ Λάβρος τὸν ἄρτον λαμβάνει."},
+    {"type": "transform", "prompt": "Make it the object: ὁ λίθος → ὁ Λύσις … ὁρᾷ.", "template": "ὁ Λύσις ___ ὁρᾷ.", "gaps": [{"answers": ["τὸν λίθον"]}], "skills": ["noun.decl2.acc.sg", "art.acc.sg", "syntax.object"], "explain": "τὸν λίθον.", "audio": "ὁ Λύσις τὸν λίθον ὁρᾷ."},
+    {"type": "locate", "prompt": "Tap every word in the accusative (the objects).", "sentence": "ὁ Λύσις τὸν λίθον λαμβάνει· ὁ Λάβρος τὸν ἄρτον ἔχει.", "answer": [2, 3, 7, 8], "skills": ["read.locate", "noun.decl2.acc.sg", "syntax.object"], "explain": "τὸν λίθον, τὸν ἄρτον."},
+    {"type": "locate", "prompt": "Tap the subjects (nominatives).", "sentence": "ὁ Λάβρος τὸν ἄρτον ζητεῖ· ὁ δὲ ἄνθρωπος τὸν κύνα οὐχ ὁρᾷ.", "answer": [0, 1, 5, 7], "skills": ["read.locate", "syntax.subject"], "explain": "ὁ Λάβρος, ὁ ἄνθρωπος (δέ stands between the article and its noun)."},
+    {"type": "reorder", "prompt": "Put the words in order: 'Labros takes the bread.'", "tokens": ["λαμβάνει", "ἄρτον", "ὁ", "τὸν", "Λάβρος"], "answers": ["ὁ Λάβρος τὸν ἄρτον λαμβάνει", "τὸν ἄρτον ὁ Λάβρος λαμβάνει", "ὁ Λάβρος λαμβάνει τὸν ἄρτον"], "skills": ["syntax.word-order", "syntax.object"], "explain": "ὁ Λάβρος τὸν ἄρτον λαμβάνει."},
+    {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ὁ Λύσις τὸν κύνα οὐχ εὑρίσκει.", "options": [{"id": "a", "text": "ὁ Λύσις τὸν κύνα εὑρίσκει."}, {"id": "b", "text": "ὁ Λύσις τὸν κύνα οὐχ εὑρίσκει."}, {"id": "c", "text": "ὁ κύων τὸν Λύσιν οὐχ εὑρίσκει."}], "answer": "b", "skills": ["listen.sentences", "syntax.negation"], "explain": "Lysis does not find the dog."},
+    {"type": "true-false-grc", "prompt": "ὁ ἄνθρωπος τὸν ἄρτον λαμβάνει.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "ὁ Λάβρος τὸν ἄρτον λαμβάνει."},
+    {"type": "true-false-grc", "prompt": "ὁ Λάβρος ἐν τῇ ὁδῷ ἐστιν.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "ὁ Λύσις τὸν κύνα ἀκούει· ὁ Λάβρος ἐν τῇ ὁδῷ ἐστιν."},
+    {"type": "true-false-grc", "prompt": "τὸ δῶρον τοῦ Λύσιδος μέγα ἐστίν.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension", "syntax.possession.gen"], "explain": "μικρόν ἐστιν, ἀλλὰ καλόν."},
+    {"type": "dictation", "prompt": "Listen and type what you hear.", "audio": "ὁ Λύσις τὸν λίθον λαμβάνει.", "gaps": [{"answers": ["ὁ Λύσις τὸν λίθον λαμβάνει"]}], "skills": ["spell.dictation", "listen.sentences"], "explain": "ὁ Λύσις τὸν λίθον λαμβάνει."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Lysis sees the dog.'", "gaps": [{"answers": ["ὁ Λύσις τὸν κύνα ὁρᾷ", "ὁ Λύσις ὁρᾷ τὸν κύνα", "τὸν κύνα ὁ Λύσις ὁρᾷ"]}], "skills": ["vocab.production", "syntax.object"], "explain": "ὁ Λύσις τὸν κύνα ὁρᾷ."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'The man has the bread.'", "gaps": [{"answers": ["ὁ ἄνθρωπος τὸν ἄρτον ἔχει", "ὁ ἄνθρωπος ἔχει τὸν ἄρτον", "τὸν ἄρτον ὁ ἄνθρωπος ἔχει"]}], "skills": ["vocab.production", "syntax.object", "noun.decl2.acc.sg"], "explain": "ὁ ἄνθρωπος τὸν ἄρτον ἔχει."},
+    {"type": "translate-en", "prompt": "Translate: ὁ Λύσις οὖν εἰς τὴν ὁδὸν τρέχει καὶ τὸν Λάβρον εὑρίσκει.", "audio": "ὁ Λύσις οὖν εἰς τὴν ὁδὸν τρέχει καὶ τὸν Λάβρον εὑρίσκει.", "model": "So Lysis runs into the street and finds Labros.", "skills": ["read.comprehension", "syntax.postpositive"], "explain": "οὖν 'so, then'; εἰς 'into'."},
+    {"type": "word-family", "prompt": "Word Study · Match each Greek word to the English word that comes from it.", "pairs": [{"left": "ὁράω", "right": "panorama"}, {"left": "ἀκούω", "right": "acoustic"}, {"left": "λίθος", "right": "monolith"}, {"left": "δῶρον", "right": "Theodore (gift of god)"}, {"left": "ὁδός", "right": "method (a way after)"}], "skills": ["vocab.family"], "explain": "παν-όραμα 'all-view'; ἀκουστικός; μονό-λιθος 'single stone'; Θεό-δωρος; μέθ-οδος."}
+  ],
+  "questions": [
+    {"type": "answer-grc", "prompt": "τί φέρει ὁ ἄνθρωπος;", "audio": "prompt", "options": [{"id": "a", "text": "ἄρτον."}, {"id": "b", "text": "λίθον."}, {"id": "c", "text": "δῶρον."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ὁ ἄνθρωπος ἄρτον φέρει."},
+    {"type": "answer-grc", "prompt": "τίς τὸν ἄρτον λαμβάνει;", "audio": "prompt", "options": [{"id": "a", "text": "ὁ Λύσις."}, {"id": "b", "text": "ὁ Λάβρος."}, {"id": "c", "text": "ὁ ἄνθρωπος."}], "answer": "b", "skills": ["read.comprehension", "syntax.subject"], "explain": "ὁ Λάβρος τρέχει καὶ τὸν ἄρτον λαμβάνει."},
+    {"type": "answer-grc", "prompt": "ποῦ ἐστιν ὁ Λάβρος;", "audio": "prompt", "options": [{"id": "a", "text": "ἐν τῷ ἐργαστηρίῳ."}, {"id": "b", "text": "ἐν τῇ ὁδῷ."}, {"id": "c", "text": "ἐν τῷ οἴκῳ."}], "answer": "b", "skills": ["read.comprehension"], "explain": "ὁ Λάβρος ἐν τῇ ὁδῷ ἐστιν."},
+    {"type": "answer-grc", "prompt": "τί λαμβάνει ὁ Λύσις;", "audio": "prompt", "options": [{"id": "a", "text": "τὸν ἄρτον."}, {"id": "b", "text": "τὸν λίθον."}, {"id": "c", "text": "τὸν κύνα."}], "answer": "b", "skills": ["read.comprehension", "syntax.object"], "explain": "ὁ Λύσις τὸν λίθον λαμβάνει· δῶρόν ἐστιν."},
+    {"type": "answer-grc", "prompt": "ἆρα τὸ δῶρον μέγα ἐστίν;", "audio": "prompt", "options": [{"id": "a", "text": "ναί, μέγα ἐστίν."}, {"id": "b", "text": "οὐ μέγα ἐστίν, ἀλλὰ μικρὸν καὶ καλόν."}], "answer": "b", "skills": ["read.comprehension", "adj.agree"], "explain": "τὸ δῶρον μικρόν ἐστιν, ἀλλὰ καλόν."}
+  ],
+  "culture": {
+    "title": "The Agora",
+    "md": "The **Agora** was the open square north-west of the Acropolis where Athens did its public business: market stalls under awnings, the council house (Bouleuterion), the law courts, the mint, the altars of the twelve gods, and the long colonnades (stoas) where people sheltered from sun and rain and where, a generation after our story, Socrates would spend his days asking questions. Bread (ἄρτος) was sold by women at the bread stalls; fish, cheese, garlic and wine each had their own corner. Dogs were everywhere. The word ἀγορά itself comes from ἀγείρω 'gather': the Agora was first of all the place where the people gathered.",
+    "image": "culture-agora-plan"
+  },
+  "quiz": [
+    {"type": "cloze-choice", "prompt": "ὁ Λάβρος ___ ἄρτον ἔχει.", "options": [{"id": "a", "text": "ὁ"}, {"id": "b", "text": "τόν"}, {"id": "c", "text": "τοῦ"}], "answer": "b", "skills": ["art.acc.sg", "syntax.object"], "explain": "The object: τὸν ἄρτον."},
+    {"type": "produce-form", "prompt": "Give the accusative singular of λίθος.", "lemma": "λίθος", "cell": "acc.sg", "skills": ["noun.decl2.acc.sg"], "explain": "τὸν λίθον.", "audio": "λίθον"},
+    {"type": "parse", "prompt": "Parse δώρου.", "form": "δώρου", "groups": [{"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "dat", "label": "dative"}, {"id": "acc", "label": "accusative"}]}], "answer": {"case": "gen"}, "skills": ["noun.decl2.gen.sg"], "explain": "-ου: genitive, 'of the gift'.", "audio": "δώρου"},
+    {"type": "cloze-choice", "prompt": "ὁ λίθος ___ ἐστιν.", "options": [{"id": "a", "text": "μικρόν"}, {"id": "b", "text": "μικρός"}, {"id": "c", "text": "μικρά"}], "answer": "b", "skills": ["adj.agree"], "explain": "Masculine noun, masculine adjective: μικρός."},
+    {"type": "true-false-grc", "prompt": "ὁ Λύσις τὸν Λάβρον ἐν τῇ ἀγορᾷ εὑρίσκει.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "ἐν τῇ ὁδῷ εὑρίσκει."},
+    {"type": "cloze-choice", "prompt": "ὁ Λύσις τὸν κύνα ___ εὑρίσκει.", "options": [{"id": "a", "text": "οὐ"}, {"id": "b", "text": "οὐκ"}, {"id": "c", "text": "οὐχ"}], "answer": "c", "skills": ["syntax.negation"], "explain": "οὐχ before εὑ-."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Labros sees the bread.'", "gaps": [{"answers": ["ὁ Λάβρος τὸν ἄρτον ὁρᾷ", "ὁ Λάβρος ὁρᾷ τὸν ἄρτον", "τὸν ἄρτον ὁ Λάβρος ὁρᾷ"]}], "skills": ["vocab.production", "syntax.object"], "explain": "ὁ Λάβρος τὸν ἄρτον ὁρᾷ."}
+  ],
+  "skills": ["syntax.object", "syntax.subject", "noun.decl2.acc.sg", "noun.decl2.gen.sg", "noun.decl2.neuter", "art.acc.sg", "art.gen.sg", "adj.agree", "noun.gender", "syntax.possession.gen", "syntax.negation", "syntax.postpositive", "syntax.word-order", "read.comprehension", "read.locate", "listen.sentences", "spell.dictation", "vocab.recognition", "vocab.production", "vocab.family"]
+}

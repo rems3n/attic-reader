@@ -1,0 +1,138 @@
+{
+  "id": "1.1",
+  "title_grc": "ὁ Ἀρίστων κεραμεύς ἐστιν",
+  "title_en": "Ariston is a potter",
+  "summary_grc": "ὁ Ἀρίστων, ἡ Χρυσίς, ὁ Λύσις, ἡ Ἐλπὶς καὶ ὁ Λάβρος.",
+  "summary_en": "Meet the family: who they are and where they are.",
+  "cover": "panel-1-1-a",
+  "caption_grc": "ὁ Ἀρίστων κεραμεύς ἐστιν. ἡ Χρυσὶς γυνή ἐστιν.",
+  "names": {},
+  "allow": {},
+  "story": [
+    {
+      "image": "panel-1-1-a",
+      "sentences": [
+        {"text": "ὁ Ἀρίστων ἄνθρωπός ἐστιν.", "glosses": [{"word": "ἄνθρωπός", "kind": "pic", "value": "anthropos"}]},
+        {"text": "ὁ Ἀρίστων ἀνήρ ἐστιν.", "glosses": [{"word": "ἀνήρ", "kind": "pic", "value": "aner"}]},
+        {"text": "ὁ Ἀρίστων Ἀθηναῖός ἐστιν.", "glosses": [{"word": "Ἀθηναῖός", "kind": "<", "value": "Ἀθῆναι"}]},
+        {"text": "ὁ Ἀρίστων κεραμεύς ἐστιν.", "glosses": [{"word": "κεραμεύς", "kind": "pic", "value": "kerameus"}]},
+        {"text": "οὐ ναύτης ἐστίν, οὐ γεωργός.", "glosses": [{"word": "οὐ", "kind": "=", "value": "✗"}, {"word": "ναύτης", "kind": "pic", "value": "nautes"}, {"word": "γεωργός", "kind": "pic", "value": "georgos"}]},
+        {"text": "τίς ἐστιν ὁ Ἀρίστων; κεραμεύς ἐστιν.", "glosses": [{"word": "τίς", "kind": "=", "value": "– τίς; – ὁ …"}]},
+        {"text": "ἡ Χρυσὶς γυνή ἐστιν.", "glosses": [{"word": "γυνή", "kind": "pic", "value": "gyne"}, {"word": "ἡ", "kind": "|", "value": "ὁ | ἡ"}]},
+        {"text": "ἡ Χρυσὶς Ἀθηναία ἐστίν.", "glosses": [{"word": "Ἀθηναία", "kind": "|", "value": "Ἀθηναῖος | Ἀθηναία"}]},
+        {"text": "ἡ Χρυσὶς καλή ἐστιν.", "glosses": [{"word": "καλή", "kind": "pic", "value": "kalos"}]}
+      ]
+    },
+    {
+      "image": "panel-1-1-b",
+      "sentences": [
+        {"text": "ὁ Λύσις παῖς ἐστιν.", "glosses": [{"word": "παῖς", "kind": "pic", "value": "pais"}]},
+        {"text": "ὁ Λύσις μικρός ἐστιν, ἀλλὰ καλός.", "glosses": [{"word": "μικρός", "kind": "↔", "value": "μέγας"}, {"word": "ἀλλὰ", "kind": "=", "value": "οὐ Α, ἀλλὰ Β"}]},
+        {"text": "ἡ Ἐλπὶς κόρη ἐστίν.", "glosses": [{"word": "κόρη", "kind": "pic", "value": "kore"}]},
+        {"text": "ἡ Ἐλπὶς μικρά ἐστιν καὶ καλή.", "glosses": [{"word": "μικρά", "kind": "|", "value": "μικρός | μικρά"}]},
+        {"text": "ὁ Λάβρος κύων ἐστίν.", "glosses": [{"word": "κύων", "kind": "pic", "value": "kyon"}]},
+        {"text": "ὁ Λάβρος οὐκ ἄνθρωπός ἐστιν, ἀλλὰ κύων.", "glosses": [{"word": "οὐκ", "kind": "=", "value": "οὐ + ἄ, ἐ, ἰ … → οὐκ"}]},
+        {"text": "μέγας ἐστὶν ὁ κύων.", "glosses": [{"word": "μέγας", "kind": "pic", "value": "megas-mikros"}]},
+        {"text": "τίς ἐστιν ὁ Λάβρος; κύων ἐστίν.", "glosses": []}
+      ]
+    },
+    {
+      "image": "agora",
+      "sentences": [
+        {"text": "ποῦ ἐστιν ὁ Ἀρίστων; ἐν τῷ ἐργαστηρίῳ ἐστίν.", "glosses": [{"word": "ποῦ", "kind": "=", "value": "– ποῦ; – ἐν …"}, {"word": "ἐν", "kind": "en", "value": "in"}, {"word": "ἐργαστηρίῳ", "kind": "pic", "value": "ergasterion"}]},
+        {"text": "ποῦ ἐστιν ἡ Χρυσίς; ἐν τῷ οἴκῳ ἐστίν.", "glosses": [{"word": "οἴκῳ", "kind": "pic", "value": "oikos"}]},
+        {"text": "ποῦ ἐστιν ὁ Λύσις; ἐν τῇ ἀγορᾷ ἐστιν.", "glosses": [{"word": "ἀγορᾷ", "kind": "pic", "value": "agora"}]},
+        {"text": "καὶ ὁ Λάβρος ἐν τῇ ἀγορᾷ ἐστιν.", "glosses": [{"word": "καὶ", "kind": "=", "value": "Α καὶ Β"}]},
+        {"text": "ἡ ἀγορὰ μεγάλη ἐστὶν καὶ καλή.", "glosses": [{"word": "μεγάλη", "kind": "|", "value": "μέγας | μεγάλη"}]}
+      ]
+    }
+  ],
+  "vocab": [
+    {"id": "ανθρωπος", "pic": "anthropos"},
+    {"id": "ανηρ", "pic": "aner"},
+    {"id": "γυνη", "pic": "gyne"},
+    {"id": "παις", "pic": "pais"},
+    {"id": "κορη", "pic": "kore"},
+    {"id": "κυων", "pic": "kyon"},
+    {"id": "κεραμευς", "pic": "kerameus"},
+    {"id": "ναυτης", "pic": "nautes"},
+    {"id": "γεωργος", "pic": "georgos"},
+    {"id": "αθηναιος", "gloss_grc": "< Ἀθῆναι"},
+    {"id": "οικος", "pic": "oikos"},
+    {"id": "αγορα", "pic": "agora"},
+    {"id": "εργαστηριον", "pic": "ergasterion"},
+    {"id": "μεγας", "pic": "megas-mikros", "gloss_grc": "↔ μικρός"},
+    {"id": "μικρος", "pic": "megas-mikros", "gloss_grc": "↔ μέγας"},
+    {"id": "καλος", "pic": "kalos"},
+    {"id": "ο"},
+    {"id": "ειμι", "gloss_grc": "ἐστί(ν)"},
+    {"id": "ου", "gloss_grc": "οὐ / οὐκ = ✗"},
+    {"id": "και", "gloss_grc": "Α καὶ Β"},
+    {"id": "αλλα", "gloss_grc": "οὐ Α, ἀλλὰ Β"},
+    {"id": "τις", "gloss_grc": "τίς;"},
+    {"id": "που-512", "gloss_grc": "ποῦ; – ἐν …"},
+    {"id": "ναι"}
+  ],
+  "notice": [
+    "ὁ Ἀρίστων κεραμεύς ἐστιν.",
+    "ἡ Χρυσὶς γυνή ἐστιν.",
+    "ὁ Λάβρος οὐκ ἄνθρωπός ἐστιν, ἀλλὰ κύων.",
+    "τίς ἐστιν ὁ Λύσις; παῖς ἐστιν.",
+    "ποῦ ἐστιν ἡ Χρυσίς; ἐν τῷ οἴκῳ ἐστίν."
+  ],
+  "grammar": {
+    "md": "**The article.** Greek nouns come with a small word, the article: **ὁ** for masculine words (ὁ ἀνήρ, ὁ κύων), **ἡ** for feminine words (ἡ γυνή, ἡ κόρη). Names take it too: ὁ Ἀρίστων, ἡ Χρυσίς. Learn every noun with its article; it tells you the gender.\n\n**The nominative.** The form of a word used for the *subject* (who the sentence is about) and for what is said about the subject is the **nominative** (ὀνομαστική). In this lesson every noun is in the nominative.\n\n**ἐστί(ν) — 'is'.** The verb comes last: *ὁ Ἀρίστων κεραμεύς ἐστιν* 'Ariston is a potter'. There is no word for 'a'. ἐστί(ν) usually has no accent of its own: it leans on the word before it (it is an *enclitic*). That is why you see ἄνθρωπ**ός** ἐστιν with two accents on ἄνθρωπος, and why after some words (κόρη ἐστίν, κύων ἐστίν) ἐστίν keeps an accent. Do not learn the rule yet; copy what you read.\n\n**Movable ν.** ἐστί becomes ἐστίν before a vowel or a pause: *κύων ἐστίν.*\n\n**Not.** οὐ before a consonant, οὐκ before a vowel: *οὐ ναύτης*, *οὐκ ἄνθρωπος*. To correct: *οὐ Α, ἀλλὰ Β*.\n\n**Questions.** τίς; 'who?', ποῦ; 'where?'. The Greek question mark is a semicolon: **;**",
+    "paradigms": ["article", "eimi"],
+    "diagram": null
+  },
+  "exercises": [
+    {"type": "endings-cloze", "prompt": "Μελέτημα Α · Fill in the endings.", "template": "ὁ Ἀρίστων κεραμε___ ἐστιν. ἡ Χρυσὶς γυν___ ἐστιν. ὁ Λάβρος κύ___ ἐστίν. ἡ Ἐλπὶς κόρ___ ἐστίν.", "gaps": [{"answers": ["ύς"]}, {"answers": ["ή"]}, {"answers": ["ων"]}, {"answers": ["η"]}], "skills": ["noun.decl2.nom.sg", "syntax.predicate"], "explain": "The subject and the predicate noun are both in the nominative: κεραμεύς, γυνή, κύων, κόρη."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ὁ Ἀρίστων ___ ἐστιν.", "options": [{"id": "a", "text": "κεραμεύς"}, {"id": "b", "text": "γυνή"}, {"id": "c", "text": "κόρη"}, {"id": "d", "text": "ἀγορά"}], "answer": "a", "skills": ["vocab.recognition", "syntax.predicate"], "explain": "Ariston is the potter.", "audio": "ὁ Ἀρίστων κεραμεύς ἐστιν."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ___ Χρυσὶς γυνή ἐστιν.", "options": [{"id": "a", "text": "ὁ"}, {"id": "b", "text": "ἡ"}], "answer": "b", "skills": ["art.nom.sg", "noun.gender"], "explain": "γυνή is feminine, so its article is ἡ.", "audio": "ἡ Χρυσὶς γυνή ἐστιν."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ὁ Λάβρος ___ ἄνθρωπός ἐστιν, ἀλλὰ κύων.", "options": [{"id": "a", "text": "οὐ"}, {"id": "b", "text": "οὐκ"}, {"id": "c", "text": "καί"}], "answer": "b", "skills": ["syntax.negation"], "explain": "οὐκ before a vowel (ἄνθρωπος).", "audio": "ὁ Λάβρος οὐκ ἄνθρωπός ἐστιν, ἀλλὰ κύων."},
+    {"type": "pick-picture", "prompt": "κεραμεύς", "audio": "prompt", "options": [{"id": "a", "image": "kerameus"}, {"id": "b", "image": "nautes"}, {"id": "c", "image": "georgos"}, {"id": "d", "image": "kyon"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "κεραμεύς is the potter; ναύτης the sailor; γεωργός the farmer; κύων the dog."},
+    {"type": "pick-picture", "prompt": "γυνή", "audio": "prompt", "options": [{"id": "a", "image": "aner"}, {"id": "b", "image": "gyne"}, {"id": "c", "image": "kore"}, {"id": "d", "image": "pais"}], "answer": "b", "skills": ["vocab.recognition"], "explain": "γυνή: woman. ἀνήρ: man. κόρη: girl. παῖς: child."},
+    {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ἡ ἀγορά", "options": [{"id": "a", "text": "ἡ ἀγορά"}, {"id": "b", "text": "ὁ ἀνήρ"}, {"id": "c", "text": "ἡ κόρη"}, {"id": "d", "text": "ὁ ἀγρός"}], "answer": "a", "skills": ["listen.words"], "explain": "ἡ ἀγορά, the agora."},
+    {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ὁ Λύσις παῖς ἐστιν.", "options": [{"id": "a", "text": "ὁ Λύσις κύων ἐστίν."}, {"id": "b", "text": "ὁ Λύσις παῖς ἐστιν."}, {"id": "c", "text": "ἡ Ἐλπὶς παῖς ἐστιν."}], "answer": "b", "skills": ["listen.sentences"], "explain": "Lysis is a boy."},
+    {"type": "match", "prompt": "Match the article to the noun.", "pairs": [{"left": "ὁ", "right": "κεραμεύς"}, {"left": "ἡ", "right": "γυνή"}], "skills": ["art.nom.sg", "noun.gender"], "explain": "ὁ with masculine nouns, ἡ with feminine nouns."},
+    {"type": "match", "prompt": "Match each word to its opposite or partner.", "pairs": [{"left": "μέγας", "right": "μικρός"}, {"left": "ἀνήρ", "right": "γυνή"}, {"left": "παῖς", "right": "κόρη"}, {"left": "ναί", "right": "οὐ"}], "skills": ["vocab.recognition"], "explain": "μέγας ↔ μικρός, ἀνήρ ↔ γυνή, παῖς ↔ κόρη, ναί ↔ οὐ."},
+    {"type": "cloze-choice", "prompt": "___ κύων μέγας ἐστίν.", "options": [{"id": "a", "text": "ὁ"}, {"id": "b", "text": "ἡ"}], "answer": "a", "skills": ["art.nom.sg", "noun.gender"], "explain": "κύων (the dog Labros) is masculine here: ὁ κύων."},
+    {"type": "cloze-choice", "prompt": "ἡ Χρυσὶς ___ ἐστιν.", "options": [{"id": "a", "text": "καλός"}, {"id": "b", "text": "καλή"}, {"id": "c", "text": "μέγας"}], "answer": "b", "skills": ["adj.predicate", "noun.gender"], "explain": "A feminine subject takes the feminine form: καλή. (καλός is masculine.)"},
+    {"type": "true-false-grc", "prompt": "ὁ Ἀρίστων ναύτης ἐστίν.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "οὐ ναύτης ἐστίν, ἀλλὰ κεραμεύς."},
+    {"type": "true-false-grc", "prompt": "ἡ Ἐλπὶς κόρη ἐστίν.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "ἡ Ἐλπὶς κόρη ἐστίν· μικρά ἐστιν καὶ καλή."},
+    {"type": "true-false-grc", "prompt": "ὁ Λάβρος ἐν τῷ οἴκῳ ἐστίν.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "ὁ Λάβρος ἐν τῇ ἀγορᾷ ἐστιν."},
+    {"type": "locate", "prompt": "Tap every article (ὁ or ἡ).", "sentence": "ἡ Χρυσὶς γυνή ἐστιν· ὁ Λύσις παῖς ἐστιν.", "answer": [0, 4], "skills": ["art.nom.sg", "read.locate"], "explain": "ἡ (before Χρυσίς) and ὁ (before Λύσις)."},
+    {"type": "locate", "prompt": "Tap every word that means 'is'.", "sentence": "ὁ Λάβρος κύων ἐστίν. μέγας ἐστὶν ὁ κύων.", "answer": [3, 5], "skills": ["verb.eimi.pres.ind.3sg", "read.locate"], "explain": "ἐστίν and ἐστὶν: the same word, its accent written differently before a pause and before another word."},
+    {"type": "reorder", "prompt": "Put the words in order: 'Ariston is a potter.'", "tokens": ["κεραμεύς", "ὁ", "ἐστιν", "Ἀρίστων"], "answers": ["ὁ Ἀρίστων κεραμεύς ἐστιν", "κεραμεύς ἐστιν ὁ Ἀρίστων"], "skills": ["syntax.word-order", "syntax.predicate"], "explain": "The usual order: subject, predicate, verb: ὁ Ἀρίστων κεραμεύς ἐστιν."},
+    {"type": "reorder", "prompt": "Put the words in order: 'Where is Chrysis?'", "tokens": ["Χρυσίς", "ἐστιν", "ποῦ", "ἡ"], "answers": ["ποῦ ἐστιν ἡ Χρυσίς"], "skills": ["syntax.question", "pron.interrog"], "explain": "The question word comes first: ποῦ ἐστιν ἡ Χρυσίς;"},
+    {"type": "cloze-type", "prompt": "Type the missing word: 'Chrysis is a woman.'", "template": "ἡ Χρυσὶς ___ ἐστιν.", "gaps": [{"answers": ["γυνή"]}], "skills": ["vocab.production", "syntax.predicate"], "explain": "γυνή, woman.", "audio": "ἡ Χρυσὶς γυνή ἐστιν."},
+    {"type": "cloze-type", "prompt": "Type the missing word: 'Labros is not a person.'", "template": "ὁ Λάβρος ___ ἄνθρωπός ἐστιν.", "gaps": [{"answers": ["οὐκ"]}], "skills": ["syntax.negation"], "explain": "οὐκ before a vowel.", "audio": "ὁ Λάβρος οὐκ ἄνθρωπός ἐστιν."},
+    {"type": "dictation", "prompt": "Listen and type what you hear.", "audio": "ὁ Λύσις παῖς ἐστιν.", "gaps": [{"answers": ["ὁ Λύσις παῖς ἐστιν"]}], "skills": ["spell.dictation", "listen.sentences"], "explain": "ὁ Λύσις παῖς ἐστιν."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Elpis is a girl.'", "gaps": [{"answers": ["ἡ Ἐλπὶς κόρη ἐστίν", "ἡ Ἐλπὶς κόρη ἐστί", "κόρη ἐστὶν ἡ Ἐλπίς"]}], "skills": ["vocab.production", "syntax.predicate", "art.nom.sg"], "explain": "ἡ Ἐλπὶς κόρη ἐστίν."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Who is Labros? He is a dog.'", "gaps": [{"answers": ["τίς ἐστιν ὁ Λάβρος"]}, {"answers": ["κύων ἐστίν", "κύων ἐστί"]}], "template": "___; ___.", "skills": ["syntax.question", "pron.interrog", "syntax.predicate"], "explain": "τίς ἐστιν ὁ Λάβρος; κύων ἐστίν."},
+    {"type": "translate-en", "prompt": "Translate: ὁ Λύσις μικρός ἐστιν, ἀλλὰ καλός.", "audio": "ὁ Λύσις μικρός ἐστιν, ἀλλὰ καλός.", "model": "Lysis is small, but handsome (fine).", "skills": ["read.comprehension", "syntax.conj"], "explain": "ἀλλά corrects or contrasts: 'but'."},
+    {"type": "word-family", "prompt": "Word Study · Match each Greek word to the English word that comes from it.", "pairs": [{"left": "κεραμεύς", "right": "ceramic"}, {"left": "ναύτης", "right": "astronaut"}, {"left": "γεωργός", "right": "George"}, {"left": "ἄνθρωπος", "right": "anthropology"}], "skills": ["vocab.family"], "explain": "ceramic < κέραμος 'pottery clay'; astronaut 'star-sailor'; George 'farmer'; anthropology 'study of humans'."}
+  ],
+  "questions": [
+    {"type": "answer-grc", "prompt": "τίς ἐστιν ὁ Ἀρίστων;", "audio": "prompt", "options": [{"id": "a", "text": "κεραμεύς ἐστιν."}, {"id": "b", "text": "ναύτης ἐστίν."}, {"id": "c", "text": "κύων ἐστίν."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ὁ Ἀρίστων κεραμεύς ἐστιν."},
+    {"type": "answer-grc", "prompt": "τίς ἐστιν ἡ Χρυσίς;", "audio": "prompt", "options": [{"id": "a", "text": "ἀνήρ ἐστιν."}, {"id": "b", "text": "γυνή ἐστιν."}, {"id": "c", "text": "κόρη ἐστίν."}], "answer": "b", "skills": ["read.comprehension"], "explain": "ἡ Χρυσὶς γυνή ἐστιν."},
+    {"type": "answer-grc", "prompt": "ποῦ ἐστιν ὁ Λύσις;", "audio": "prompt", "options": [{"id": "a", "text": "ἐν τῷ οἴκῳ ἐστίν."}, {"id": "b", "text": "ἐν τῷ ἐργαστηρίῳ ἐστίν."}, {"id": "c", "text": "ἐν τῇ ἀγορᾷ ἐστιν."}], "answer": "c", "skills": ["read.comprehension"], "explain": "ὁ Λύσις ἐν τῇ ἀγορᾷ ἐστιν."},
+    {"type": "answer-grc", "prompt": "ἆρα ὁ Λάβρος ἄνθρωπός ἐστιν;", "audio": "prompt", "options": [{"id": "a", "text": "ναί, ἄνθρωπός ἐστιν."}, {"id": "b", "text": "οὐκ ἄνθρωπός ἐστιν, ἀλλὰ κύων."}], "answer": "b", "skills": ["read.comprehension", "syntax.negation"], "explain": "ὁ Λάβρος οὐκ ἄνθρωπός ἐστιν, ἀλλὰ κύων. (ἆρα simply marks a question; you will learn it properly in Unit 2.)"},
+    {"type": "answer-grc", "prompt": "τίς μικρά ἐστιν καὶ καλή;", "audio": "prompt", "options": [{"id": "a", "text": "ἡ Ἐλπίς."}, {"id": "b", "text": "ὁ Λύσις."}, {"id": "c", "text": "ἡ ἀγορά."}], "answer": "a", "skills": ["read.comprehension", "adj.predicate"], "explain": "ἡ Ἐλπὶς μικρά ἐστιν καὶ καλή."}
+  ],
+  "culture": {
+    "title": "Kydathenaion and the Kerameikos",
+    "md": "Ariston's family lives in **Kydathenaion**, the city deme that lay between the Agora and the Acropolis; the comic poet Aristophanes belonged to it. Ariston's workshop is a short walk north-west in the **Kerameikos**, the potters' quarter that gave us the word *ceramic*. Attic potters and painters signed their work (\"Euphronios made me\"), exported it across the Mediterranean, and their cups, jars and mixing bowls are the source of most of the pictures in this course. A deme was both a neighbourhood and a unit of citizenship: an Athenian man was registered in his father's deme at eighteen and carried its name for life.",
+    "image": "culture-kerameikos"
+  },
+  "quiz": [
+    {"type": "pick-picture", "prompt": "ἀνήρ", "audio": "prompt", "options": [{"id": "a", "image": "gyne"}, {"id": "b", "image": "aner"}, {"id": "c", "image": "kyon"}, {"id": "d", "image": "oikos"}], "answer": "b", "skills": ["vocab.recognition"], "explain": "ἀνήρ: man."},
+    {"type": "cloze-choice", "prompt": "___ Ἐλπὶς κόρη ἐστίν.", "options": [{"id": "a", "text": "ὁ"}, {"id": "b", "text": "ἡ"}], "answer": "b", "skills": ["art.nom.sg", "noun.gender"], "explain": "Elpis is a girl: feminine, ἡ."},
+    {"type": "true-false-grc", "prompt": "ὁ Ἀρίστων γεωργός ἐστιν.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "κεραμεύς ἐστιν, οὐ γεωργός."},
+    {"type": "cloze-choice", "prompt": "ὁ Λάβρος ___ ἄνθρωπός ἐστιν.", "options": [{"id": "a", "text": "οὐ"}, {"id": "b", "text": "οὐκ"}], "answer": "b", "skills": ["syntax.negation"], "explain": "οὐκ before a vowel."},
+    {"type": "reorder", "prompt": "Put the words in order: 'Chrysis is a woman.'", "tokens": ["γυνή", "Χρυσὶς", "ἐστιν", "ἡ"], "answers": ["ἡ Χρυσὶς γυνή ἐστιν"], "skills": ["syntax.word-order"], "explain": "ἡ Χρυσὶς γυνή ἐστιν."},
+    {"type": "answer-grc", "prompt": "ποῦ ἐστιν ὁ Ἀρίστων;", "audio": "prompt", "options": [{"id": "a", "text": "ἐν τῷ ἐργαστηρίῳ ἐστίν."}, {"id": "b", "text": "ἐν τῇ ἀγορᾷ ἐστιν."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ἐν τῷ ἐργαστηρίῳ ἐστίν."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Lysis is a boy.'", "gaps": [{"answers": ["ὁ Λύσις παῖς ἐστιν", "ὁ Λύσις παῖς ἐστι", "παῖς ἐστιν ὁ Λύσις"]}], "skills": ["vocab.production", "syntax.predicate"], "explain": "ὁ Λύσις παῖς ἐστιν."}
+  ],
+  "skills": ["art.nom.sg", "noun.decl2.nom.sg", "noun.gender", "verb.eimi.pres.ind.3sg", "syntax.predicate", "adj.predicate", "syntax.negation", "syntax.conj", "pron.interrog", "syntax.question", "syntax.word-order", "read.comprehension", "read.locate", "listen.words", "listen.sentences", "spell.dictation", "vocab.recognition", "vocab.production", "vocab.family"]
+}

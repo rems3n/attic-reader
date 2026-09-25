@@ -1,0 +1,70 @@
+{
+  "id": "0.2",
+  "title_grc": "φωνήεντα καὶ δίφθογγοι",
+  "title_en": "Vowels, diphthongs and breathings",
+  "summary_grc": "α ε η ι ο υ ω · αι ει οι αυ ευ ου · ἁ ἀ",
+  "summary_en": "Seven vowels, long and short; the diphthongs; and the little marks that say whether a word starts with h.",
+  "cover": "hydor",
+  "caption_grc": "ὕδωρ · ἵππος · οἶκος · οὐρανός",
+  "names": {},
+  "allow": {},
+  "story": [
+    {
+      "image": "hippos",
+      "sentences": [
+        {"text": "ἵππος. ὕδωρ. ἥλιος.", "glosses": [{"word": "ἵππος", "kind": "pic", "value": "hippos"}, {"word": "ὕδωρ", "kind": "pic", "value": "hydor"}, {"word": "ἥλιος", "kind": "pic", "value": "helios"}]},
+        {"text": "οἶκος. οὐρανός. ἄνθρωπος.", "glosses": [{"word": "οἶκος", "kind": "pic", "value": "oikos"}, {"word": "οὐρανός", "kind": "pic", "value": "ouranos"}, {"word": "ἄνθρωπος", "kind": "pic", "value": "anthropos"}]},
+        {"text": "θεός. θεά. γῆ. σελήνη.", "glosses": [{"word": "θεός", "kind": "pic", "value": "theos"}, {"word": "θεά", "kind": "pic", "value": "thea"}, {"word": "γῆ", "kind": "pic", "value": "ge"}, {"word": "σελήνη", "kind": "pic", "value": "selene"}]}
+      ]
+    },
+    {
+      "image": "polis",
+      "sentences": [
+        {"text": "Ἀθῆναι. Ἀθηνᾶ. Ἑρμῆς. Ἥρα.", "glosses": [{"word": "Ἀθῆναι", "kind": "pic", "value": "polis"}]},
+        {"text": "Εὐρώπη. Αἴγυπτος. Ῥόδος.", "glosses": [{"word": "Εὐρώπη", "kind": "en", "value": "Europe"}, {"word": "Αἴγυπτος", "kind": "en", "value": "Egypt"}, {"word": "Ῥόδος", "kind": "en", "value": "Rhodes"}]}
+      ]
+    }
+  ],
+  "vocab": [],
+  "notice": ["ἵππος — ἡ (with h) · ἄνθρωπος — ἀ (without)", "οἶκος · οὐρανός · Εὐρώπη · Αἴγυπτος", "ἥλιος (long e) · θεός (short e)"],
+  "grammar": {
+    "md": "**Seven vowels.** α ε η ι ο υ ω. Two are always long: **η** (like the *e* in *there*, held) and **ω** (like *aw* in *saw*, held). Two are always short: **ε** (as in *pet*) and **ο** (as in *pot*). Three can be either: **α ι υ**. Length is a matter of time, not quality: a long *i* is simply a held *i*. **υ** is the French *u* / German *ü*: say *ee* with rounded lips.\n\n**Diphthongs** are two vowels in one syllable: **αι** (*ai* as in *aisle*), **ει** (a long close *e*, *ay*), **οι** (*oi* as in *boil*), **υι**, **αυ** (*ow* as in *cow*), **ευ** (*e* + *u*, said quickly), **ου** (*oo* as in *food*).\n\n**Breathings.** Every word that begins with a vowel carries a small hook over it. The **rough breathing** ἁ ἑ ἡ ἱ ὁ ὑ ὡ means the word starts with an *h*: ἵππος *hippos*, ὕδωρ *hudor*, ἥλιος *hēlios*. The **smooth breathing** ἀ ἐ ἠ ἰ ὀ ὐ ὠ means there is no *h*: ἄνθρωπος *anthrōpos*. Initial ρ always takes the rough one (ῥ, hence English *rh*ythm), and initial υ always has it too. On a diphthong the mark sits on the second letter: οἶκος, Εὐρώπη.\n\n**Capitals** take the breathing beside them: Ἀθῆναι, Ἑρμῆς, Ἥρα.",
+    "paradigms": [],
+    "diagram": null
+  },
+  "exercises": [
+    {"type": "listen-pick", "prompt": "Listen: which word do you hear?", "audio": "ἵππος", "options": [{"id": "a", "text": "ἵππος"}, {"id": "b", "text": "ἴππος"}], "answer": "a", "skills": ["alpha.breathings", "listen.words"], "explain": "ἵππος begins with *h* (rough breathing)."},
+    {"type": "listen-pick", "prompt": "Listen: which word do you hear?", "audio": "ἄνθρωπος", "options": [{"id": "a", "text": "ἅνθρωπος"}, {"id": "b", "text": "ἄνθρωπος"}], "answer": "b", "skills": ["alpha.breathings", "listen.words"], "explain": "ἄνθρωπος begins with a plain vowel (smooth breathing)."},
+    {"type": "listen-pick", "prompt": "Listen: which word do you hear?", "audio": "ἥλιος", "options": [{"id": "a", "text": "ἥλιος"}, {"id": "b", "text": "ἔλιος"}], "answer": "a", "skills": ["alpha.vowels", "listen.words"], "explain": "ἥλιος: long η, and an *h*."},
+    {"type": "listen-pick", "prompt": "Listen: which word do you hear?", "audio": "οἶκος", "options": [{"id": "a", "text": "οἶκος"}, {"id": "b", "text": "οὖκος"}, {"id": "c", "text": "εἶκος"}], "answer": "a", "skills": ["alpha.diphthongs", "listen.words"], "explain": "οἶκος: οι as in *boil*."},
+    {"type": "listen-pick", "prompt": "Listen: which word do you hear?", "audio": "οὐρανός", "options": [{"id": "a", "text": "οἰρανός"}, {"id": "b", "text": "οὐρανός"}, {"id": "c", "text": "αὐρανός"}], "answer": "b", "skills": ["alpha.diphthongs", "listen.words"], "explain": "οὐρανός: ου as in *food*."},
+    {"type": "cloze-choice", "prompt": "Which vowels are always long?", "options": [{"id": "a", "text": "η and ω"}, {"id": "b", "text": "ε and ο"}, {"id": "c", "text": "α and ι"}], "answer": "a", "skills": ["alpha.vowels"], "explain": "η and ω are long; ε and ο short; α ι υ can be either."},
+    {"type": "cloze-choice", "prompt": "The rough breathing (ἁ) means the word begins with …", "options": [{"id": "a", "text": "an h sound"}, {"id": "b", "text": "a stressed vowel"}, {"id": "c", "text": "nothing extra"}], "answer": "a", "skills": ["alpha.breathings"], "explain": "ἁ = *ha*. The smooth breathing ἀ = *a*."},
+    {"type": "cloze-choice", "prompt": "How is αυ pronounced?", "options": [{"id": "a", "text": "ow as in cow"}, {"id": "b", "text": "av as in avenue"}, {"id": "c", "text": "oo as in food"}], "answer": "a", "skills": ["alpha.diphthongs"], "explain": "αυ = a + u in one syllable, *ow*. The *av* sound is Modern Greek."},
+    {"type": "match", "prompt": "Match the diphthong to its sound.", "pairs": [{"left": "αι", "right": "ai in aisle"}, {"left": "οι", "right": "oi in boil"}, {"left": "ου", "right": "oo in food"}, {"left": "ει", "right": "ay, a long close e"}], "skills": ["alpha.diphthongs"], "explain": "αι, οι, ου, ει."},
+    {"type": "locate", "prompt": "Tap every word that begins with an h sound.", "sentence": "ἵππος ἄνθρωπος ὕδωρ οἶκος ἥλιος Ἑρμῆς", "answer": [0, 2, 4, 5], "skills": ["alpha.breathings"], "explain": "ἵππος, ὕδωρ, ἥλιος, Ἑρμῆς have the rough breathing."},
+    {"type": "locate", "prompt": "Tap every word that contains a diphthong.", "sentence": "οἶκος θεός οὐρανός γῆ Εὐρώπη σελήνη", "answer": [0, 2, 4], "skills": ["alpha.diphthongs"], "explain": "οἶκος (οι), οὐρανός (ου), Εὐρώπη (ευ)."},
+    {"type": "cloze-type", "prompt": "Type the word for 'horse' with its breathing: (h)ippos", "gaps": [{"answers": ["ἵππος"]}], "strict_accents": false, "skills": ["alpha.breathings", "alpha.typing"], "explain": "ἵππος, rough breathing on the ι.", "audio": "ἵππος"},
+    {"type": "cloze-type", "prompt": "Type the word for 'house' with its breathing: oikos", "gaps": [{"answers": ["οἶκος"]}], "skills": ["alpha.diphthongs", "alpha.typing"], "explain": "οἶκος: the breathing sits on the second letter of the diphthong.", "audio": "οἶκος"},
+    {"type": "dictation", "prompt": "Listen and type what you hear.", "audio": "θεός", "gaps": [{"answers": ["θεός"]}], "skills": ["spell.dictation", "alpha.vowels"], "explain": "θεός: short ε, short ο."},
+    {"type": "dictation", "prompt": "Listen and type what you hear.", "audio": "ὕδωρ", "gaps": [{"answers": ["ὕδωρ"]}], "skills": ["spell.dictation", "alpha.breathings"], "explain": "ὕδωρ: initial υ always has the rough breathing."}
+  ],
+  "questions": [
+    {"type": "cloze-choice", "prompt": "Which of these begins with an h?", "options": [{"id": "a", "text": "Ἑρμῆς"}, {"id": "b", "text": "Ἀθηνᾶ"}, {"id": "c", "text": "Ἀπόλλων"}], "answer": "a", "skills": ["alpha.breathings"], "explain": "Ἑρμῆς = Hermes."},
+    {"type": "cloze-choice", "prompt": "Which word has a long e?", "options": [{"id": "a", "text": "θεός"}, {"id": "b", "text": "σελήνη"}], "answer": "b", "skills": ["alpha.vowels"], "explain": "σελήνη has η twice; θεός has short ε."}
+  ],
+  "culture": {
+    "title": "Writing on broken pots",
+    "md": "Athenians wrote on whatever was to hand: wax tablets, papyrus, lead, and above all **ostraka**, bits of broken pottery. The Agora excavations have turned up thousands of them, from shopping lists to the ballots of an *ostrakismos*, the vote by which the assembly could send a politician into ten years of exile. On many the breathings and accents you are learning are simply absent: they were invented by scholars in Alexandria two centuries after Ariston, to help readers who no longer spoke Attic natively. The spelling on the sherds, though, shows how the words really sounded.",
+    "image": "ostrakon"
+  },
+  "quiz": [
+    {"type": "listen-pick", "prompt": "Listen: which word do you hear?", "audio": "ὕδωρ", "options": [{"id": "a", "text": "ὕδωρ"}, {"id": "b", "text": "ὔδωρ"}], "answer": "a", "skills": ["alpha.breathings", "listen.words"], "explain": "ὕδωρ, with an *h*."},
+    {"type": "cloze-choice", "prompt": "Which vowels are always short?", "options": [{"id": "a", "text": "ε and ο"}, {"id": "b", "text": "η and ω"}], "answer": "a", "skills": ["alpha.vowels"], "explain": "ε and ο."},
+    {"type": "cloze-choice", "prompt": "How is ευ pronounced?", "options": [{"id": "a", "text": "e + u in one syllable"}, {"id": "b", "text": "ev"}, {"id": "c", "text": "oo"}], "answer": "a", "skills": ["alpha.diphthongs"], "explain": "ευ = e + u."},
+    {"type": "locate", "prompt": "Tap every word with a smooth breathing.", "sentence": "ἄνθρωπος ἥλιος Ἀπόλλων ὕδωρ Ἀθῆναι", "answer": [0, 2, 4], "skills": ["alpha.breathings"], "explain": "ἄνθρωπος, Ἀπόλλων, Ἀθῆναι."},
+    {"type": "dictation", "prompt": "Listen and type what you hear.", "audio": "οὐρανός", "gaps": [{"answers": ["οὐρανός"]}], "skills": ["spell.dictation", "alpha.diphthongs"], "explain": "οὐρανός."},
+    {"type": "cloze-type", "prompt": "Type the word for 'sun' with its breathing: (h)ēlios", "gaps": [{"answers": ["ἥλιος"]}], "skills": ["alpha.breathings", "alpha.typing"], "explain": "ἥλιος.", "audio": "ἥλιος"}
+  ],
+  "skills": ["alpha.vowels", "alpha.diphthongs", "alpha.breathings", "alpha.typing", "listen.words", "spell.dictation"]
+}

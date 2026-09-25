@@ -1,0 +1,124 @@
+{
+  "id": "1.2",
+  "title_grc": "ὁ Ἀρίστων ἐν τῷ ἐργαστηρίῳ πονεῖ",
+  "title_en": "Ariston works in the workshop",
+  "summary_grc": "ὁ Ἀρίστων πονεῖ· ὁ Λάβρος καθεύδει.",
+  "summary_en": "What people do: verbs in the third person, and 'in' with the dative.",
+  "cover": "panel-1-2-a",
+  "caption_grc": "ὁ Ἀρίστων πονεῖ. ὁ Ἀρίστων καὶ ὁ Σύρος πονοῦσιν.",
+  "names": {},
+  "allow": {},
+  "story": [
+    {
+      "image": "panel-1-2-a",
+      "sentences": [
+        {"text": "ὁ Ἀρίστων ἐν τῷ ἐργαστηρίῳ ἐστίν.", "glosses": [{"word": "ἐν", "kind": "en", "value": "in"}, {"word": "ἐργαστηρίῳ", "kind": "pic", "value": "ergasterion"}]},
+        {"text": "ὁ Ἀρίστων πονεῖ· κεραμεὺς γάρ ἐστιν.", "glosses": [{"word": "πονεῖ", "kind": "pic", "value": "verb-ponei"}, {"word": "γάρ", "kind": "en", "value": "for, because (second word in its sentence)"}]},
+        {"text": "ὁ τροχὸς ἐν τῷ ἐργαστηρίῳ ἐστίν· ὁ Ἀρίστων τὸν τροχὸν ἔχει.", "glosses": [{"word": "τροχὸς", "kind": "pic", "value": "trochos"}, {"word": "ἔχει", "kind": "pic", "value": "verb-echei"}, {"word": "τὸν", "kind": "note", "value": "τὸν τροχόν: the wheel as the thing he has (object) — Lesson 1.3"}]},
+        {"text": "ὁ πηλὸς ἐν τῷ τροχῷ ἐστιν.", "glosses": [{"word": "πηλὸς", "kind": "pic", "value": "pelos"}, {"word": "τροχῷ", "kind": "|", "value": "ὁ τροχός | ἐν τῷ τροχῷ"}]},
+        {"text": "ὁ τροχὸς τρέχει, τρέχει, τρέχει.", "glosses": [{"word": "τρέχει", "kind": "pic", "value": "verb-trechei"}]},
+        {"text": "ὁ Σύρος δοῦλός ἐστιν· ὁ Σύρος ἐν τῷ ἐργαστηρίῳ πονεῖ.", "glosses": [{"word": "δοῦλός", "kind": "en", "value": "slave"}]},
+        {"text": "ὁ Σύρος τὸν πηλὸν φέρει.", "glosses": [{"word": "φέρει", "kind": "pic", "value": "verb-pherei"}]},
+        {"text": "ὁ Ἀρίστων καὶ ὁ Σύρος πονοῦσιν· οὐ καθεύδουσιν.", "glosses": [{"word": "πονοῦσιν", "kind": "|", "value": "πονεῖ | πονοῦσι(ν)"}, {"word": "καθεύδουσιν", "kind": "pic", "value": "verb-katheudei"}]}
+      ]
+    },
+    {
+      "image": "panel-1-2-b",
+      "sentences": [
+        {"text": "ὁ Λάβρος ἐν τῷ ἐργαστηρίῳ καθεύδει.", "glosses": [{"word": "καθεύδει", "kind": "|", "value": "καθεύδει | καθεύδουσι(ν)"}]},
+        {"text": "ὁ Λάβρος οὐ πονεῖ· κύων γάρ ἐστιν.", "glosses": []},
+        {"text": "ὁ Λύσις ἐν τῷ ἐργαστηρίῳ ἐστίν· οὐ πονεῖ, ἀλλὰ βαίνει καὶ τρέχει.", "glosses": [{"word": "βαίνει", "kind": "pic", "value": "verb-bainei"}]},
+        {"text": "ὁ Ἀρίστων λέγει· «ὁ Λάβρος καθεύδει καὶ ὁ Λύσις τρέχει· οὐ πονοῦσιν.»", "glosses": [{"word": "λέγει", "kind": "pic", "value": "verb-legei"}]},
+        {"text": "ὁ Λύσις λέγει· «ναί, ὁ Λάβρος καθεύδει.»", "glosses": []}
+      ]
+    },
+    {
+      "image": "oikos",
+      "sentences": [
+        {"text": "ἡ Χρυσὶς ἐν τῷ οἴκῳ ἐστίν· ἡ Χρυσὶς πονεῖ.", "glosses": [{"word": "οἴκῳ", "kind": "|", "value": "ὁ οἶκος | ἐν τῷ οἴκῳ"}]},
+        {"text": "ἡ Χρυσὶς καὶ ἡ Ἐλπὶς πονοῦσιν.", "glosses": []},
+        {"text": "ὁ ἥλιος ἐν τῷ οὐρανῷ ἐστιν· καλός ἐστιν ὁ ἥλιος.", "glosses": [{"word": "οὐρανῷ", "kind": "|", "value": "ὁ οὐρανός | ἐν τῷ οὐρανῷ"}]},
+        {"text": "ἐν τῇ πόλει οἱ ἄνθρωποι πονοῦσιν.", "glosses": [{"word": "οἱ", "kind": "|", "value": "ὁ | οἱ (plural)"}, {"word": "ἄνθρωποι", "kind": "|", "value": "ἄνθρωπος | ἄνθρωποι"}]}
+      ]
+    }
+  ],
+  "vocab": [
+    {"id": "πονεω", "pic": "verb-ponei", "gloss_grc": "πονεῖ · πονοῦσι(ν)"},
+    {"id": "φερω", "pic": "verb-pherei", "gloss_grc": "φέρει · φέρουσι(ν)"},
+    {"id": "βαινω", "pic": "verb-bainei", "gloss_grc": "βαίνει · βαίνουσι(ν)"},
+    {"id": "τρεχω", "pic": "verb-trechei", "gloss_grc": "τρέχει · τρέχουσι(ν)"},
+    {"id": "καθευδω", "pic": "verb-katheudei", "gloss_grc": "καθεύδει · καθεύδουσι(ν)"},
+    {"id": "λεγω", "pic": "verb-legei", "gloss_grc": "λέγει · λέγουσι(ν)"},
+    {"id": "εχω", "pic": "verb-echei", "gloss_grc": "ἔχει · ἔχουσι(ν)"},
+    {"id": "δουλος", "gloss_grc": "ὁ Σύρος δοῦλός ἐστιν"},
+    {"id": "τροχος", "pic": "trochos"},
+    {"id": "πηλος", "pic": "pelos"},
+    {"id": "εν", "gloss_grc": "ἐν τῷ οἴκῳ · ἐν τῇ ἀγορᾷ"},
+    {"id": "γαρ", "gloss_grc": "Α· Β γάρ. (Β explains Α)"},
+    {"id": "κεραμευς", "pic": "kerameus"},
+    {"id": "εργαστηριον", "pic": "ergasterion"},
+    {"id": "οικος", "pic": "oikos"}
+  ],
+  "notice": [
+    "ὁ Ἀρίστων πονεῖ. — ὁ Ἀρίστων καὶ ὁ Σύρος πονοῦσιν.",
+    "ὁ Λάβρος καθεύδει. — οὐ καθεύδουσιν.",
+    "ἐν τῷ ἐργαστηρίῳ · ἐν τῷ οἴκῳ · ἐν τῷ τροχῷ",
+    "ὁ Λάβρος οὐ πονεῖ· κύων γάρ ἐστιν."
+  ],
+  "grammar": {
+    "md": "**He, she, it does; they do.** A Greek verb changes its ending to show who is acting. This lesson uses two endings:\n\n| | ending | example |\n|---|---|---|\n| one person or thing | **-ει** | τρέχ**ει** *runs*, ἔχ**ει** *has*, καθεύδ**ει** *sleeps* |\n| more than one | **-ουσι(ν)** | τρέχ**ουσιν**, ἔχ**ουσιν**, καθεύδ**ουσιν** |\n\nThe ν of -ουσι(ν) is *movable*, like the ν of ἐστί(ν): it appears before a vowel or a pause.\n\nπονεῖ and πονοῦσι(ν) (*works, work*) have the same endings squashed together with the vowel of the stem (πονε- + -ει → πονεῖ). Learn these two forms as they are; the pattern (contract verbs) comes in Unit 2.\n\nA compound subject counts as plural: ὁ Ἀρίστων **καὶ** ὁ Σύρος πον**οῦσιν**.\n\n**In: ἐν + dative.** To say *in* something, Greek uses ἐν and changes the ending of the noun to the **dative** case: ὁ οἶκος → ἐν τ**ῷ** οἴκ**ῳ**; ὁ τροχός → ἐν τ**ῷ** τροχ**ῷ**; τὸ ἐργαστήριον → ἐν τ**ῷ** ἐργαστηρί**ῳ**. Masculine and neuter nouns of this type (the *second declension*) end in **-ῳ** in the dative singular, and their article is **τῷ**. Feminine nouns (ἐν τῇ ἀγορᾷ, ἐν τῇ πόλει) follow in Lesson 1.4. Look for the iota subscript.\n\n**γάρ** explains the sentence before it and never comes first: *ὁ Λάβρος οὐ πονεῖ· κύων γάρ ἐστιν* 'Labros isn't working, for he is a dog.' Words like this are called *postpositive*.",
+    "paradigms": ["luo", "logos", "doron"],
+    "diagram": null
+  },
+  "exercises": [
+    {"type": "endings-cloze", "prompt": "Μελέτημα Α · Fill in the verb endings.", "template": "ὁ Ἀρίστων πονε___. ὁ Λάβρος καθεύδ___. ὁ Ἀρίστων καὶ ὁ Σύρος πονοῦσ___. ὁ Λύσις τρέχ___.", "gaps": [{"answers": ["ῖ"]}, {"answers": ["ει"]}, {"answers": ["ιν", "ι"]}, {"answers": ["ει"]}], "skills": ["verb.pres.act.ind.3sg", "verb.pres.act.ind.3pl"], "explain": "-ει for one subject, -ουσι(ν) for more than one: πονεῖ, καθεύδει, πονοῦσιν, τρέχει."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ὁ Σύρος τὸν πηλὸν ___.", "options": [{"id": "a", "text": "φέρει"}, {"id": "b", "text": "φέρουσιν"}, {"id": "c", "text": "καθεύδει"}], "answer": "a", "skills": ["verb.pres.act.ind.3sg", "read.comprehension"], "explain": "One subject (ὁ Σύρος) → φέρει.", "audio": "ὁ Σύρος τὸν πηλὸν φέρει."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ὁ πηλὸς ἐν τῷ ___ ἐστιν.", "options": [{"id": "a", "text": "τροχός"}, {"id": "b", "text": "τροχῷ"}, {"id": "c", "text": "τροχόν"}], "answer": "b", "skills": ["prep.en.dat", "noun.decl2.dat.sg"], "explain": "After ἐν the noun is in the dative: τῷ τροχῷ.", "audio": "ὁ πηλὸς ἐν τῷ τροχῷ ἐστιν."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ὁ Λάβρος οὐ πονεῖ· κύων ___ ἐστιν.", "options": [{"id": "a", "text": "γάρ"}, {"id": "b", "text": "καί"}, {"id": "c", "text": "ἀλλά"}], "answer": "a", "skills": ["syntax.postpositive"], "explain": "γάρ 'for': it explains why he is not working, and stands second in its clause.", "audio": "ὁ Λάβρος οὐ πονεῖ· κύων γάρ ἐστιν."},
+    {"type": "pick-picture", "prompt": "καθεύδει", "audio": "prompt", "options": [{"id": "a", "image": "verb-katheudei"}, {"id": "b", "image": "verb-trechei"}, {"id": "c", "image": "verb-pherei"}, {"id": "d", "image": "verb-ponei"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "καθεύδει: is sleeping."},
+    {"type": "pick-picture", "prompt": "φέρει", "audio": "prompt", "options": [{"id": "a", "image": "verb-legei"}, {"id": "b", "image": "verb-pherei"}, {"id": "c", "image": "verb-bainei"}, {"id": "d", "image": "verb-echei"}], "answer": "b", "skills": ["vocab.recognition"], "explain": "φέρει: carries."},
+    {"type": "produce-form", "prompt": "Give the dative singular of οἶκος (as after ἐν τῷ …).", "lemma": "οἶκος", "cell": "dat.sg", "skills": ["noun.decl2.dat.sg"], "explain": "ἐν τῷ οἴκῳ.", "audio": "οἴκῳ"},
+    {"type": "produce-form", "prompt": "Give the form of πονέω for 'they work'.", "lemma": "πονέω", "cell": "present.active.indicative.3pl", "skills": ["verb.pres.act.ind.3pl", "verb.contract.recognize"], "explain": "πονοῦσι(ν).", "audio": "πονοῦσιν"},
+    {"type": "produce-form", "prompt": "Give the form of τρέχω for 'he runs'.", "lemma": "τρέχω", "cell": "present.active.indicative.3sg", "skills": ["verb.pres.act.ind.3sg"], "explain": "τρέχει.", "audio": "τρέχει"},
+    {"type": "parse", "prompt": "Parse ἐργαστηρίῳ.", "form": "ἐργαστηρίῳ", "groups": [{"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "dat", "label": "dative"}, {"id": "acc", "label": "accusative"}]}, {"id": "number", "label": "Number", "options": [{"id": "sg", "label": "singular"}, {"id": "pl", "label": "plural"}]}], "answer": {"case": "dat", "number": "sg"}, "skills": ["noun.decl2.dat.sg"], "explain": "-ῳ (with iota subscript) is the dative singular: ἐν τῷ ἐργαστηρίῳ.", "audio": "ἐργαστηρίῳ"},
+    {"type": "parse", "prompt": "Parse πονοῦσιν.", "form": "πονοῦσιν", "groups": [{"id": "person", "label": "Who?", "options": [{"id": "3sg", "label": "one person (he/she/it)"}, {"id": "3pl", "label": "several people (they)"}]}], "answer": {"person": "3pl"}, "skills": ["verb.pres.act.ind.3pl", "verb.contract.recognize"], "explain": "-ουσι(ν): they work.", "audio": "πονοῦσιν"},
+    {"type": "cloze-choice", "prompt": "ὁ Λύσις καὶ ὁ Λάβρος ἐν τῷ ἐργαστηρίῳ ___.", "options": [{"id": "a", "text": "τρέχει"}, {"id": "b", "text": "τρέχουσιν"}], "answer": "b", "skills": ["verb.pres.act.ind.3pl", "noun.number"], "explain": "Two subjects → plural verb: τρέχουσιν."},
+    {"type": "cloze-choice", "prompt": "ἡ Χρυσὶς ἐν ___ οἴκῳ ἐστίν.", "options": [{"id": "a", "text": "ὁ"}, {"id": "b", "text": "τῷ"}, {"id": "c", "text": "τόν"}], "answer": "b", "skills": ["art.dat.sg", "prep.en.dat"], "explain": "The article agrees with the dative noun: τῷ οἴκῳ."},
+    {"type": "transform", "prompt": "Make the subject plural: ὁ Ἀρίστων πονεῖ. → ὁ Ἀρίστων καὶ ὁ Σύρος …", "template": "ὁ Ἀρίστων καὶ ὁ Σύρος ___.", "gaps": [{"answers": ["πονοῦσι(ν)"]}], "skills": ["verb.pres.act.ind.3pl", "noun.number"], "explain": "πονοῦσιν.", "audio": "ὁ Ἀρίστων καὶ ὁ Σύρος πονοῦσιν."},
+    {"type": "transform", "prompt": "Make the subject singular: ὁ Λύσις καὶ ὁ Λάβρος τρέχουσιν. → ὁ Λάβρος …", "template": "ὁ Λάβρος ___.", "gaps": [{"answers": ["τρέχει"]}], "skills": ["verb.pres.act.ind.3sg", "noun.number"], "explain": "τρέχει.", "audio": "ὁ Λάβρος τρέχει."},
+    {"type": "locate", "prompt": "Tap every verb.", "sentence": "ὁ Σύρος τὸν πηλὸν φέρει· ὁ Ἀρίστων πονεῖ· ὁ Λάβρος καθεύδει.", "answer": [4, 7, 10], "skills": ["read.locate", "verb.pres.act.ind.3sg"], "explain": "φέρει, πονεῖ, καθεύδει."},
+    {"type": "locate", "prompt": "Tap every word in the dative (after ἐν).", "sentence": "ὁ πηλὸς ἐν τῷ τροχῷ ἐστιν· ὁ Λάβρος ἐν τῷ ἐργαστηρίῳ καθεύδει.", "answer": [3, 4, 9, 10], "skills": ["read.locate", "noun.decl2.dat.sg", "art.dat.sg"], "explain": "τῷ τροχῷ, τῷ ἐργαστηρίῳ."},
+    {"type": "reorder", "prompt": "Put the words in order: 'Labros is sleeping in the workshop.'", "tokens": ["καθεύδει", "τῷ", "ὁ", "ἐν", "Λάβρος", "ἐργαστηρίῳ"], "answers": ["ὁ Λάβρος ἐν τῷ ἐργαστηρίῳ καθεύδει", "ἐν τῷ ἐργαστηρίῳ ὁ Λάβρος καθεύδει", "ὁ Λάβρος καθεύδει ἐν τῷ ἐργαστηρίῳ"], "skills": ["syntax.word-order", "prep.en.dat"], "explain": "ὁ Λάβρος ἐν τῷ ἐργαστηρίῳ καθεύδει."},
+    {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ὁ Ἀρίστων καὶ ὁ Σύρος πονοῦσιν.", "options": [{"id": "a", "text": "ὁ Ἀρίστων πονεῖ."}, {"id": "b", "text": "ὁ Ἀρίστων καὶ ὁ Σύρος πονοῦσιν."}, {"id": "c", "text": "ὁ Ἀρίστων καὶ ὁ Σύρος καθεύδουσιν."}], "answer": "b", "skills": ["listen.sentences"], "explain": "Ariston and Syros are working."},
+    {"type": "true-false-grc", "prompt": "ὁ Σύρος κεραμεύς ἐστιν.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "ὁ Σύρος δοῦλός ἐστιν· ὁ Ἀρίστων κεραμεύς ἐστιν."},
+    {"type": "true-false-grc", "prompt": "ὁ Λάβρος ἐν τῷ ἐργαστηρίῳ καθεύδει.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "Yes: ὁ Λάβρος ἐν τῷ ἐργαστηρίῳ καθεύδει."},
+    {"type": "true-false-grc", "prompt": "ὁ Λύσις πονεῖ.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "οὐ πονεῖ, ἀλλὰ βαίνει καὶ τρέχει."},
+    {"type": "dictation", "prompt": "Listen and type what you hear.", "audio": "ὁ Σύρος τὸν πηλὸν φέρει.", "gaps": [{"answers": ["ὁ Σύρος τὸν πηλὸν φέρει", "ὁ Σύρος τὸν πηλόν φέρει"]}], "skills": ["spell.dictation", "listen.sentences"], "explain": "ὁ Σύρος τὸν πηλὸν φέρει."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Ariston is working in the workshop.'", "gaps": [{"answers": ["ὁ Ἀρίστων ἐν τῷ ἐργαστηρίῳ πονεῖ", "ἐν τῷ ἐργαστηρίῳ ὁ Ἀρίστων πονεῖ", "ὁ Ἀρίστων πονεῖ ἐν τῷ ἐργαστηρίῳ"]}], "skills": ["vocab.production", "prep.en.dat", "verb.pres.act.ind.3sg"], "explain": "ὁ Ἀρίστων ἐν τῷ ἐργαστηρίῳ πονεῖ."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Chrysis and Elpis are working.'", "gaps": [{"answers": ["ἡ Χρυσὶς καὶ ἡ Ἐλπὶς πονοῦσιν", "ἡ Χρυσὶς καὶ ἡ Ἐλπὶς πονοῦσι"]}], "skills": ["vocab.production", "verb.pres.act.ind.3pl"], "explain": "ἡ Χρυσὶς καὶ ἡ Ἐλπὶς πονοῦσιν."},
+    {"type": "translate-en", "prompt": "Translate: ὁ Λάβρος οὐ πονεῖ· κύων γάρ ἐστιν.", "audio": "ὁ Λάβρος οὐ πονεῖ· κύων γάρ ἐστιν.", "model": "Labros is not working, for he is a dog.", "skills": ["read.comprehension", "syntax.postpositive"], "explain": "γάρ = 'for'."},
+    {"type": "word-family", "prompt": "Word Study · Match each Greek word to the English word that comes from it.", "pairs": [{"left": "τρέχω", "right": "hippodrome (horse-run)"}, {"left": "λέγω", "right": "dialogue"}, {"left": "φέρω", "right": "Christopher (Christ-bearer)"}, {"left": "δοῦλος", "right": "doula"}], "skills": ["vocab.family"], "explain": "-δρομος 'running course'; διά-λογος 'talk between'; -φορος 'carrying'; δούλη 'female slave, servant'."}
+  ],
+  "questions": [
+    {"type": "answer-grc", "prompt": "τίς ἐν τῷ ἐργαστηρίῳ πονεῖ;", "audio": "prompt", "options": [{"id": "a", "text": "ὁ Ἀρίστων καὶ ὁ Σύρος."}, {"id": "b", "text": "ὁ Λάβρος."}, {"id": "c", "text": "ἡ Χρυσίς."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ὁ Ἀρίστων καὶ ὁ Σύρος πονοῦσιν."},
+    {"type": "answer-grc", "prompt": "ποῦ καθεύδει ὁ Λάβρος;", "audio": "prompt", "options": [{"id": "a", "text": "ἐν τῷ οἴκῳ."}, {"id": "b", "text": "ἐν τῷ ἐργαστηρίῳ."}, {"id": "c", "text": "ἐν τῇ ἀγορᾷ."}], "answer": "b", "skills": ["read.comprehension", "prep.en.dat"], "explain": "ὁ Λάβρος ἐν τῷ ἐργαστηρίῳ καθεύδει."},
+    {"type": "answer-grc", "prompt": "τί φέρει ὁ Σύρος;", "audio": "prompt", "options": [{"id": "a", "text": "τὸν τροχόν."}, {"id": "b", "text": "τὸν πηλόν."}, {"id": "c", "text": "τὸν κύνα."}], "answer": "b", "skills": ["read.comprehension"], "explain": "ὁ Σύρος τὸν πηλὸν φέρει."},
+    {"type": "answer-grc", "prompt": "ἆρα ὁ Λύσις πονεῖ;", "audio": "prompt", "options": [{"id": "a", "text": "ναί, πονεῖ."}, {"id": "b", "text": "οὐ πονεῖ, ἀλλὰ βαίνει καὶ τρέχει."}], "answer": "b", "skills": ["read.comprehension"], "explain": "οὐ πονεῖ, ἀλλὰ βαίνει καὶ τρέχει."},
+    {"type": "answer-grc", "prompt": "τίς λέγει «οὐ πονοῦσιν»;", "audio": "prompt", "options": [{"id": "a", "text": "ὁ Ἀρίστων."}, {"id": "b", "text": "ὁ Λύσις."}, {"id": "c", "text": "ὁ Σύρος."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ὁ Ἀρίστων λέγει· «… οὐ πονοῦσιν.»"}
+  ],
+  "culture": {
+    "title": "The potter's workshop",
+    "md": "A Kerameikos workshop was a family business with a few slaves: someone to dig and knead the clay (πηλός), someone to turn the wheel (τροχός) while the master shaped the pot, a painter, and a boy to feed the kiln. Vase paintings show exactly this scene, with a small dog or a pet owl in the corner. Athenian potters fired their red-figure ware in three stages to get the glossy black background, and the best painters (Euphronios, Douris, the Berlin Painter) signed their names. Syros, like most slaves in Athens, was probably a foreigner bought at the market; his name simply means 'the Syrian'. Slavery was everywhere in this society and the course will not pretend otherwise; Unit 2 looks at it more closely.",
+    "image": "culture-potter-vase"
+  },
+  "quiz": [
+    {"type": "cloze-choice", "prompt": "ὁ Ἀρίστων καὶ ὁ Σύρος ___.", "options": [{"id": "a", "text": "πονεῖ"}, {"id": "b", "text": "πονοῦσιν"}], "answer": "b", "skills": ["verb.pres.act.ind.3pl"], "explain": "Two subjects: πονοῦσιν."},
+    {"type": "produce-form", "prompt": "Give the dative singular of τροχός (ἐν τῷ …).", "lemma": "τροχός", "cell": "dat.sg", "skills": ["noun.decl2.dat.sg"], "explain": "ἐν τῷ τροχῷ.", "audio": "τροχῷ"},
+    {"type": "pick-picture", "prompt": "τρέχει", "audio": "prompt", "options": [{"id": "a", "image": "verb-katheudei"}, {"id": "b", "image": "verb-trechei"}, {"id": "c", "image": "verb-echei"}], "answer": "b", "skills": ["vocab.recognition"], "explain": "τρέχει: runs."},
+    {"type": "true-false-grc", "prompt": "ὁ Σύρος δοῦλός ἐστιν.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "Yes."},
+    {"type": "cloze-choice", "prompt": "ὁ πηλὸς ἐν ___ ἐστιν.", "options": [{"id": "a", "text": "ὁ τροχός"}, {"id": "b", "text": "τῷ τροχῷ"}, {"id": "c", "text": "τὸν τροχόν"}], "answer": "b", "skills": ["prep.en.dat", "art.dat.sg"], "explain": "ἐν + dative: τῷ τροχῷ."},
+    {"type": "parse", "prompt": "Parse καθεύδουσιν.", "form": "καθεύδουσιν", "groups": [{"id": "person", "label": "Who?", "options": [{"id": "3sg", "label": "one (he/she/it)"}, {"id": "3pl", "label": "several (they)"}]}], "answer": {"person": "3pl"}, "skills": ["verb.pres.act.ind.3pl"], "explain": "-ουσιν: they sleep.", "audio": "καθεύδουσιν"},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'The dog is sleeping.'", "gaps": [{"answers": ["ὁ κύων καθεύδει", "καθεύδει ὁ κύων"]}], "skills": ["vocab.production", "verb.pres.act.ind.3sg"], "explain": "ὁ κύων καθεύδει."}
+  ],
+  "skills": ["verb.pres.act.ind.3sg", "verb.pres.act.ind.3pl", "verb.contract.recognize", "prep.en.dat", "noun.decl2.dat.sg", "art.dat.sg", "syntax.postpositive", "noun.number", "syntax.word-order", "read.comprehension", "read.locate", "listen.sentences", "spell.dictation", "vocab.recognition", "vocab.production", "vocab.family"]
+}

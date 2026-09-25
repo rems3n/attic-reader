@@ -1,0 +1,324 @@
+"""Course content loading and resolution."""
+
+from __future__ import annotations
+
+import json
+import re
+import unicodedata
+from functools import lru_cache
+from pathlib import Path
+
+from ..greek import attic_ipa
+
+DATA_DIR = Path(__file__).parent.parent / "course_data"
+EXTRA_RANK_BASE = 1000  # course-only words sort after the 524 DCC words
+
+
+class CourseError(KeyError):
+    pass
+
+
+def _read(path: Path) -> dict | list:
+    return json.loads(path.read_text("utf-8"))
+
+
+def _slug(text: str) -> str:
+    base = "".join(ch for ch in unicodedata.normalize("NFD", text) if not unicodedata.combining(ch)).lower()
+    return re.sub(r"[^Ͱ-Ͽ]+", "", base)
+
+
+# ----------------------------------------------------------------- manifests
+
+@lru_cache(maxsize=1)
+def load_course() -> dict:
+    return _read(DATA_DIR / "course.json")  # type: ignore[return-value]
+
+
+@lru_cache(maxsize=1)
+def load_skills() -> dict:
+    raw = _read(DATA_DIR / "skills.json")
+    by_id = {s["id"]: s for s in raw["skills"]}
+    return {**raw, "by_id": by_id}
+
+
+@lru_cache(maxsize=1)
+def load_images() -> dict[str, dict]:
+    raw = _read(DATA_DIR / "images" / "manifest.json")
+    return {img["id"]: img for img in raw["images"]}
+
+
+@lru_cache(maxsize=1)
+def extra_entries() -> list[dict]:
+    """Course-only vocabulary (words the DCC list lacks), in lexicon shape."""
+    from .. import vocab
+
+    known = {e["id"] for e in vocab.load_entries()}
+    out: list[dict] = []
+    for n, raw in enumerate(_read(DATA_DIR / "vocab_extra.json")):
+        entry_id = raw.get("id") or _slug(raw["lemma"])
+        if entry_id in known:
+            entry_id += "-x"
+        entry = {
+            "id": entry_id,
+            "rank": EXTRA_RANK_BASE + n + 1,
+            "lemma": raw["lemma"],
+            "headword": raw.get("headword", raw["lemma"]),
+            "dcc_headword": None,
+            "definition": raw["definition"],
+            "short": raw.get("short", raw["definition"].split(",")[0].split(";")[0].strip()),
+            "kind": raw["kind"],
+            "subclass": raw["subclass"],
+            "pos": raw.get("pos", raw["kind"]),
+            "group": "Course",
+            "tier": raw.get("tier", 1),
+            "level": raw.get("level", "beginner"),
+            "topics": raw.get("topics", ["city-life"]),
+            "notes": raw.get("notes"),
+            "cognates": raw.get("cognates"),
+            "tags": ["course"] + (["cognates"] if raw.get("cognates") else []),
+            "morph": raw.get("morph", {}),
+            "readings": [],
+            "source": "course",
+        }
+        out.append(entry)
+    return out
+
+
+@lru_cache(maxsize=1)
+def all_entries() -> list[dict]:
+    from .. import vocab
+
+    return sorted(vocab.load_entries() + extra_entries(), key=lambda e: e["rank"])
+
+
+@lru_cache(maxsize=1)
+def _entry_index() -> dict[str, dict]:
+    return {e["id"]: e for e in all_entries()}
+
+
+def entry_by_id(entry_id: str) -> dict:
+    try:
+        return _entry_index()[entry_id]
+    except KeyError as exc:
+        raise CourseError(f"unknown vocabulary id {entry_id!r}") from exc
+
+
+# ------------------------------------------------------------------- lessons
+
+def _units() -> list[dict]:
+    return [u for stage in load_course()["stages"] for u in stage["units"]]
+
+
+@lru_cache(maxsize=1)
+def lesson_ids() -> list[str]:
+    """Every lesson id in course order (authored or planned)."""
+    return [lid for unit in _units() for lid in unit["lessons"]]
+
+
+def lesson_path(lesson_id: str) -> Path:
+    return DATA_DIR / "lessons" / f"{lesson_id}.json"
+
+
+def lesson_available(lesson_id: str) -> bool:
+    return lesson_path(lesson_id).exists()
+
+
+@lru_cache(maxsize=None)
+def load_lesson(lesson_id: str) -> dict:
+    path = lesson_path(lesson_id)
+    if not path.exists():
+        raise CourseError(f"no lesson {lesson_id!r}")
+    raw = _read(path)
+    raw.setdefault("id", lesson_id)
+    # give every exercise, question and quiz item a stable id and fill engine answers
+    for block in ("exercises", "questions", "quiz"):
+        for n, item in enumerate(raw.get(block, [])):
+            item.setdefault("id", f"{lesson_id}:{block[0]}{n + 1}")
+            _fill_engine_answers(item)
+    return raw
+
+
+def _fill_engine_answers(item: dict) -> None:
+    """A typed item may name `lemma` + `cell` instead of spelling out its
+    answers; the morphology engine supplies them (and the validator checks
+    any answers that are spelled out against the same table)."""
+    if item.get("gaps") or not (item.get("lemma") and item.get("cell")):
+        return
+    from .forms import cell_forms
+
+    entry = next((e for e in all_entries() if e["lemma"] == item["lemma"]), None)
+    if entry:
+        forms = cell_forms(entry, item["cell"])
+        if forms:
+            item["gaps"] = [{"answers": forms}]
+
+
+def unit_of(lesson_id: str) -> dict:
+    for unit in _units():
+        if lesson_id in unit["lessons"]:
+            return unit
+    raise CourseError(f"lesson {lesson_id!r} is not in the course manifest")
+
+
+def stage_of(lesson_id: str) -> dict:
+    for stage in load_course()["stages"]:
+        for unit in stage["units"]:
+            if lesson_id in unit["lessons"]:
+                return stage
+    raise CourseError(lesson_id)
+
+
+def lessons_before(lesson_id: str, inclusive: bool = True) -> list[str]:
+    ids = lesson_ids()
+    if lesson_id not in ids:
+        raise CourseError(lesson_id)
+    stop = ids.index(lesson_id) + (1 if inclusive else 0)
+    return [lid for lid in ids[:stop] if lesson_available(lid)]
+
+
+def vocab_scope(lesson_id: str, inclusive: bool = True) -> list[str]:
+    """Vocabulary entry ids introduced up to (and including) a lesson, in order."""
+    seen: list[str] = []
+    for lid in lessons_before(lesson_id, inclusive):
+        for item in load_lesson(lid).get("vocab", []):
+            if item["id"] not in seen:
+                seen.append(item["id"])
+    return seen
+
+
+@lru_cache(maxsize=1)
+def entry_lessons() -> dict[str, list[str]]:
+    """entry id → lessons that introduce it (first) or use it in their list."""
+    out: dict[str, list[str]] = {}
+    for lid in lesson_ids():
+        if not lesson_available(lid):
+            continue
+        for item in load_lesson(lid).get("vocab", []):
+            out.setdefault(item["id"], []).append(lid)
+    return out
+
+
+def names_for(lesson_id: str) -> dict[str, list[str]]:
+    """Proper names allowed in a lesson: course-wide plus lesson-local."""
+    names = dict(load_course().get("names", {}))
+    names.update(load_lesson(lesson_id).get("names", {}))
+    return names
+
+
+# ----------------------------------------------------------------- resolving
+
+def vocab_summary(entry: dict, pic: str | None = None, gloss_grc: str | None = None) -> dict:
+    from .. import vocab
+
+    out = vocab.summary(entry)
+    out["definition"] = entry["definition"]
+    out["ipa"] = attic_ipa(entry["lemma"])
+    out["pic"] = pic
+    out["gloss_grc"] = gloss_grc
+    out["source"] = entry.get("source", "dcc")
+    return out
+
+
+def image_record(image_id: str | None) -> dict | None:
+    if not image_id:
+        return None
+    img = load_images().get(image_id)
+    if not img:
+        raise CourseError(f"unknown image {image_id!r}")
+    return img
+
+
+def resolve_lesson(lesson_id: str) -> dict:
+    """Lesson JSON with vocabulary entries, images and position filled in."""
+    raw = load_lesson(lesson_id)
+    unit = unit_of(lesson_id)
+    stage = stage_of(lesson_id)
+    ids = lesson_ids()
+    idx = ids.index(lesson_id)
+    prev_id = next((lid for lid in reversed(ids[:idx]) if lesson_available(lid)), None)
+    next_id = next((lid for lid in ids[idx + 1:] if lesson_available(lid)), None)
+    out = dict(raw)
+    out["unit"] = {"id": unit["id"], "n": unit["n"], "title_grc": unit["title_grc"], "title_en": unit["title_en"], "test": unit.get("test")}
+    out["stage"] = {"id": stage["id"], "title_grc": stage["title_grc"], "title_en": stage["title_en"]}
+    out["position"] = {"index": idx, "prev": prev_id, "next": next_id, "in_unit": unit["lessons"].index(lesson_id) + 1, "unit_size": len(unit["lessons"])}
+    out["vocab"] = [vocab_summary(entry_by_id(v["id"]), v.get("pic"), v.get("gloss_grc")) for v in raw.get("vocab", [])]
+    out["cover_image"] = image_record(raw.get("cover"))
+    out["story"] = [
+        {**para, "image_record": image_record(para.get("image"))}
+        for para in raw.get("story", [])
+    ]
+    culture = raw.get("culture")
+    out["culture"] = {**culture, "image_record": image_record(culture.get("image"))} if culture else None
+    out["skills"] = [_skill_record(s) for s in raw.get("skills", [])]
+    out["story_text"] = "\n".join(s["text"] for para in raw.get("story", []) for s in para.get("sentences", []))
+    return out
+
+
+def _skill_record(skill_id: str) -> dict:
+    skill = load_skills()["by_id"].get(skill_id)
+    return {"id": skill_id, "label": skill["label"] if skill else skill_id, "paradigm": (skill or {}).get("paradigm")}
+
+
+def load_test(test_id: str) -> dict:
+    path = DATA_DIR / "tests" / f"{test_id}.json"
+    if not path.exists():
+        raise CourseError(f"no test {test_id!r}")
+    raw = _read(path)
+    raw.setdefault("id", test_id)
+    for section in raw.get("sections", []):
+        for n, item in enumerate(section.get("items", [])):
+            item.setdefault("id", f"{test_id}:{section['id']}{n + 1}")
+            _fill_engine_answers(item)
+    return raw
+
+
+def resolve_test(test_id: str, seed: int | None = None) -> dict:
+    """A unit test with its generated sections filled from the drill generator."""
+    from .drill import generate
+
+    raw = load_test(test_id)
+    out = dict(raw)
+    scope = vocab_scope(raw["scope"])
+    sections = []
+    for section in raw.get("sections", []):
+        items = list(section.get("items", []))
+        gen = section.get("generate")
+        if gen:
+            items.extend(generate(gen["skills"], gen["n"], scope, seed=seed if seed is not None else gen.get("seed", 0), prefix=f"{test_id}:{section['id']}g"))
+        sections.append({**section, "items": items})
+    out["sections"] = sections
+    out["item_count"] = sum(len(s["items"]) for s in sections)
+    return out
+
+
+def course_index() -> dict:
+    course = load_course()
+    stages = []
+    for stage in course["stages"]:
+        units = []
+        for unit in stage["units"]:
+            lessons = []
+            for lid in unit["lessons"]:
+                if lesson_available(lid):
+                    raw = load_lesson(lid)
+                    lessons.append({
+                        "id": lid,
+                        "title_grc": raw["title_grc"],
+                        "title_en": raw["title_en"],
+                        "available": True,
+                        "skills": raw.get("skills", []),
+                        "word_count": len(raw.get("vocab", [])),
+                        "exercise_count": len(raw.get("exercises", [])) + len(raw.get("questions", [])),
+                        "quiz_count": len(raw.get("quiz", [])),
+                    })
+                else:
+                    lessons.append({"id": lid, "title_grc": "", "title_en": "", "available": False})
+            units.append({**unit, "lessons": lessons, "test_available": bool(unit.get("test") and (DATA_DIR / "tests" / f"{unit['test']}.json").exists())})
+        stages.append({**stage, "units": units})
+    return {
+        "stages": stages,
+        "tracks": course.get("tracks", []),
+        "skills": load_skills()["skills"],
+        "families": load_skills()["families"],
+        "lesson_order": lesson_ids(),
+    }

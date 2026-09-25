@@ -19,7 +19,7 @@ def test_prerender_renders_every_library_chunk_at_every_speed(fake_kokoro):
     assert len(library_jobs) > 0
     # The job also renders the vocabulary headwords; a headword may share a
     # cache key with another (or with a library chunk), so count distinct keys.
-    jobs = library_jobs + prerender.vocab_plan(tts)
+    jobs = library_jobs + prerender.vocab_plan(tts) + prerender.course_plan(tts)
     distinct = len({j[1] for j in jobs})
     result = prerender.run(tts)
     assert result["state"] == "done"

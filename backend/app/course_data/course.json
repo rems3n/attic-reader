@@ -1,0 +1,76 @@
+{
+  "title_grc": "Ἡ ὁδός",
+  "title_en": "The Attic Reader course",
+  "setting": "Athens, 432–431 BC. A potter's family in the deme Kydathenaion; the workshop is in the Kerameikos.",
+  "names": {
+    "Ἀρίστων": ["Ἀρίστωνος", "Ἀρίστωνι", "Ἀρίστωνα", "Ἀρίστων"],
+    "Χρυσίς": ["Χρυσίδος", "Χρυσίδι", "Χρυσίδα", "Χρυσί"],
+    "Λύσις": ["Λύσιδος", "Λύσιδι", "Λύσιν", "Λύσι"],
+    "Ἐλπίς": ["Ἐλπίδος", "Ἐλπίδι", "Ἐλπίδα", "Ἐλπί"],
+    "Κλεινίας": ["Κλεινίου", "Κλεινίᾳ", "Κλεινίαν", "Κλεινία"],
+    "Σύρος": ["Σύρου", "Σύρῳ", "Σύρον", "Σύρε"],
+    "Λάβρος": ["Λάβρου", "Λάβρῳ", "Λάβρον", "Λάβρε"],
+    "Δημόκριτος": ["Δημοκρίτου", "Δημοκρίτῳ", "Δημόκριτον", "Δημόκριτε"],
+    "Ἀθῆναι": ["Ἀθηνῶν", "Ἀθήναις", "Ἀθήνας"],
+    "Ἀθηνᾶ": ["Ἀθηνᾶς", "Ἀθηνᾷ", "Ἀθηνᾶν"],
+    "Κεραμεικός": ["Κεραμεικοῦ", "Κεραμεικῷ", "Κεραμεικόν"],
+    "Πειραιεύς": ["Πειραιῶς", "Πειραιεῖ", "Πειραιᾶ"],
+    "ἀκρόπολις": ["ἀκροπόλεως", "ἀκροπόλει", "ἀκρόπολιν"],
+    "Ζεύς": ["Διός", "Διί", "Δία", "Ζεῦ"],
+    "Ἀπόλλων": ["Ἀπόλλωνος", "Ἀπόλλωνι", "Ἀπόλλωνα", "Ἄπολλον"],
+    "Ἥρα": ["Ἥρας", "Ἥρᾳ", "Ἥραν"],
+    "Ἀφροδίτη": ["Ἀφροδίτης", "Ἀφροδίτῃ", "Ἀφροδίτην"],
+    "Ἑρμῆς": ["Ἑρμοῦ", "Ἑρμῇ", "Ἑρμῆν"],
+    "Ἥφαιστος": ["Ἡφαίστου", "Ἡφαίστῳ", "Ἥφαιστον"],
+    "Ποσειδῶν": ["Ποσειδῶνος", "Ποσειδῶνι", "Ποσειδῶνα"],
+    "Σωκράτης": ["Σωκράτους", "Σωκράτει", "Σωκράτη"],
+    "Ὅμηρος": ["Ὁμήρου", "Ὁμήρῳ", "Ὅμηρον"],
+    "Ἑλλάς": ["Ἑλλάδος", "Ἑλλάδι", "Ἑλλάδα"],
+    "Ἕλλην": ["Ἕλληνος", "Ἕλληνες", "Ἑλλήνων"]
+  },
+  "stages": [
+    {
+      "id": "0",
+      "title_grc": "Στοιχεῖα",
+      "title_en": "Letters and sounds",
+      "blurb": "The alphabet, the sounds of Classical Attic, breathings, accents and typing. Four short lessons before the story begins.",
+      "units": [
+        {"id": "0", "n": 0, "title_grc": "Στοιχεῖα", "title_en": "Letters and sounds", "lessons": ["0.1", "0.2", "0.3", "0.4"], "test": null}
+      ]
+    },
+    {
+      "id": "1",
+      "title_grc": "Θεμέλια",
+      "title_en": "Foundations",
+      "blurb": "Ariston the potter and his family in Athens, 432 BC. Six units, one unit test each, and a reading gate at the end.",
+      "units": [
+        {"id": "1", "n": 1, "title_grc": "Ἡ ἀγορά", "title_en": "The agora", "lessons": ["1.1", "1.2", "1.3", "1.4"], "test": "unit-1"},
+        {"id": "2", "n": 2, "title_grc": "Ὁ οἶκος", "title_en": "The household", "lessons": ["2.1", "2.2", "2.3", "2.4"], "test": "unit-2"},
+        {"id": "3", "n": 3, "title_grc": "Ἡ πόλις", "title_en": "The city", "lessons": ["3.1", "3.2", "3.3", "3.4"], "test": "unit-3"},
+        {"id": "4", "n": 4, "title_grc": "Ὁ Πειραιεύς", "title_en": "Piraeus", "lessons": ["4.1", "4.2", "4.3", "4.4"], "test": "unit-4"},
+        {"id": "5", "n": 5, "title_grc": "Οἱ θεοί", "title_en": "The gods", "lessons": ["5.1", "5.2", "5.3", "5.4"], "test": "unit-5"},
+        {"id": "6", "n": 6, "title_grc": "Τὸ ἀργύριον", "title_en": "Money", "lessons": ["6.1", "6.2", "6.3", "6.4"], "test": "gate-1"}
+      ]
+    },
+    {
+      "id": "2",
+      "title_grc": "Γέφυρα",
+      "title_en": "The bridge",
+      "blurb": "The Panathenaea, the Assembly, the war. Six more units; real Thucydides, Plato and Xenophon by the end.",
+      "units": [
+        {"id": "7", "n": 7, "title_grc": "Τὰ Παναθήναια", "title_en": "The Panathenaea", "lessons": ["7.1", "7.2", "7.3", "7.4"], "test": "unit-7"},
+        {"id": "8", "n": 8, "title_grc": "Ἡ ἐκκλησία", "title_en": "The Assembly", "lessons": ["8.1", "8.2", "8.3", "8.4"], "test": "unit-8"},
+        {"id": "9", "n": 9, "title_grc": "Ὁ πόλεμος", "title_en": "The war", "lessons": ["9.1", "9.2", "9.3", "9.4"], "test": "unit-9"},
+        {"id": "10", "n": 10, "title_grc": "Ἡ ἀγορὰ τῶν λόγων", "title_en": "The marketplace of ideas", "lessons": ["10.1", "10.2", "10.3", "10.4"], "test": "unit-10"},
+        {"id": "11", "n": 11, "title_grc": "Τὸ δικαστήριον", "title_en": "The law court", "lessons": ["11.1", "11.2", "11.3", "11.4"], "test": "unit-11"},
+        {"id": "12", "n": 12, "title_grc": "Ὁ ἀναγνώστης", "title_en": "The reader", "lessons": ["12.1", "12.2", "12.3", "12.4"], "test": "gate-2"}
+      ]
+    }
+  ],
+  "tracks": [
+    {"id": "mythology", "title_grc": "Μυθολογία", "title_en": "Mythology", "blurb": "Apollodorus, Palaephatus, Lucian.", "unlock_after_unit": 9, "lessons": []},
+    {"id": "philosophy", "title_grc": "Φιλοσοφία", "title_en": "Philosophy", "blurb": "Plato, Xenophon's Memorabilia.", "unlock_after_unit": 9, "lessons": []},
+    {"id": "history", "title_grc": "Ἱστορία", "title_en": "History", "blurb": "Xenophon, Thucydides.", "unlock_after_unit": 9, "lessons": []},
+    {"id": "politics", "title_grc": "Πολιτεία", "title_en": "Politics and city life", "blurb": "The Old Oligarch, Lysias, Demosthenes, Aristophanes.", "unlock_after_unit": 9, "lessons": []}
+  ]
+}

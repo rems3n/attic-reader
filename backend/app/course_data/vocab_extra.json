@@ -1,0 +1,767 @@
+[
+ {
+  "lemma": "ἀγορά",
+  "headword": "ἀγορά, ἀγορᾶς, ἡ",
+  "definition": "agora, market-place; assembly",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension -ᾱ",
+  "morph": {
+   "genitive": "ἀγορᾶς",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "city-life",
+   "history"
+  ],
+  "cognates": {
+   "derivatives": [
+    "agoraphobia",
+    "category (via ἀγορεύω)"
+   ]
+  }
+ },
+ {
+  "lemma": "κύων",
+  "headword": "κύων, κυνός, ὁ/ἡ",
+  "definition": "dog",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "κυνός",
+   "gender": "m/f",
+   "article": "ὁ/ἡ",
+   "table": {
+    "kind": "noun",
+    "gender": "m/f",
+    "declension": "3",
+    "note": "Monosyllabic stem κυν-: the accent falls on the ending in the genitive and dative (κυνός, κυνί, κυνῶν, κυσί).",
+    "cells": [
+     {
+      "case": "nom",
+      "number": "sg",
+      "forms": [
+       "κύων"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "sg",
+      "forms": [
+       "κυνός"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "sg",
+      "forms": [
+       "κυνί"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "sg",
+      "forms": [
+       "κύνα"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "sg",
+      "forms": [
+       "κύον"
+      ]
+     },
+     {
+      "case": "nom",
+      "number": "pl",
+      "forms": [
+       "κύνες"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "pl",
+      "forms": [
+       "κυνῶν"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "pl",
+      "forms": [
+       "κυσί(ν)"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "pl",
+      "forms": [
+       "κύνας"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "pl",
+      "forms": [
+       "κύνες"
+      ]
+     }
+    ]
+   }
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "cynic",
+    "cynosure"
+   ],
+   "cognates": [
+    "hound"
+   ]
+  }
+ },
+ {
+  "lemma": "δῶρον",
+  "headword": "δῶρον, δώρου, τό",
+  "definition": "gift",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension neuter -ον",
+  "morph": {
+   "genitive": "δώρου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "core"
+  ],
+  "cognates": {
+   "derivatives": [
+    "Theodore",
+    "Dorothy",
+    "Pandora"
+   ]
+  }
+ },
+ {
+  "lemma": "μέν",
+  "headword": "μέν",
+  "definition": "on the one hand (answered by δέ)",
+  "kind": "conjunction",
+  "subclass": "conj-coord",
+  "pos": "particle",
+  "morph": {
+   "forms": [
+    "μέν"
+   ]
+  },
+  "topics": [
+   "core"
+  ]
+ },
+ {
+  "lemma": "κόρη",
+  "headword": "κόρη, κόρης, ἡ",
+  "definition": "girl, maiden; daughter",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension -η",
+  "morph": {
+   "genitive": "κόρης",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "kore (statue type)"
+   ]
+  }
+ },
+ {
+  "lemma": "κεραμεύς",
+  "headword": "κεραμεύς, κεραμέως, ὁ",
+  "definition": "potter",
+  "kind": "noun",
+  "subclass": "noun-3-eus",
+  "pos": "noun: 3rd declension -εύς, -έως",
+  "morph": {
+   "genitive": "κεραμέως",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "ceramic",
+    "Kerameikos"
+   ]
+  }
+ },
+ {
+  "lemma": "ναύτης",
+  "headword": "ναύτης, ναύτου, ὁ",
+  "definition": "sailor",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension masculine -ης",
+  "morph": {
+   "genitive": "ναύτου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "city-life",
+   "history"
+  ],
+  "cognates": {
+   "derivatives": [
+    "nautical",
+    "astronaut",
+    "Argonaut"
+   ]
+  }
+ },
+ {
+  "lemma": "γεωργός",
+  "headword": "γεωργός, γεωργοῦ, ὁ",
+  "definition": "farmer",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension -ος",
+  "morph": {
+   "genitive": "γεωργοῦ",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "George",
+    "georgic",
+    "geo-"
+   ]
+  }
+ },
+ {
+  "lemma": "Ἀθηναῖος",
+  "headword": "Ἀθηναῖος, Ἀθηναία, Ἀθηναῖον",
+  "definition": "Athenian",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective: 1st/2nd declension",
+  "morph": {
+   "terminations": 3,
+   "forms": [
+    "Ἀθηναῖος",
+    "Ἀθηναία",
+    "Ἀθηναῖον"
+   ],
+   "feminine": "Ἀθηναία",
+   "neuter": "Ἀθηναῖον"
+  },
+  "topics": [
+   "city-life",
+   "history"
+  ],
+  "cognates": {
+   "derivatives": [
+    "Athens",
+    "Athenaeum"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐργαστήριον",
+  "headword": "ἐργαστήριον, ἐργαστηρίου, τό",
+  "definition": "workshop",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension neuter -ον",
+  "morph": {
+   "genitive": "ἐργαστηρίου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "cognates": [
+    "work (via ἔργον)"
+   ]
+  }
+ },
+ {
+  "lemma": "πονέω",
+  "headword": "πονέω, πονήσω, ἐπόνησα, πεπόνηκα",
+  "definition": "work hard, toil; suffer",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: -έω contract",
+  "morph": {
+   "parts": {
+    "present": [
+     "πονέω"
+    ],
+    "future": [
+     "πονήσω"
+    ],
+    "aorist": [
+     "ἐπόνησα"
+    ],
+    "perfect": [
+     "πεπόνηκα"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "πονέω",
+    "πονήσω",
+    "ἐπόνησα",
+    "πεπόνηκα"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "geoponics"
+   ],
+   "cognates": [
+    "πόνος"
+   ]
+  }
+ },
+ {
+  "lemma": "τρέχω",
+  "headword": "τρέχω, δραμοῦμαι, ἔδραμον, δεδράμηκα",
+  "definition": "run",
+  "kind": "verb",
+  "subclass": "verb-irregular",
+  "pos": "verb: irregular",
+  "morph": {
+   "parts": {
+    "present": [
+     "τρέχω"
+    ],
+    "future": [
+     "δραμοῦμαι"
+    ],
+    "aorist": [
+     "ἔδραμον"
+    ],
+    "aorist-2": [
+     "ἔδραμον"
+    ],
+    "perfect": [
+     "δεδράμηκα"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "τρέχω",
+    "δραμοῦμαι",
+    "ἔδραμον",
+    "δεδράμηκα"
+   ],
+   "verb": {
+    "aorist_stem": "δραμ"
+   }
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "hippodrome",
+    "syndrome",
+    "palindrome"
+   ]
+  }
+ },
+ {
+  "lemma": "καθεύδω",
+  "headword": "καθεύδω, καθευδήσω",
+  "definition": "sleep",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "καθεύδω"
+    ],
+    "future": [
+     "καθευδήσω"
+    ]
+   },
+   "extra": {
+    "imperfect": [
+     "ἐκάθευδον",
+     "καθηῦδον"
+    ]
+   },
+   "raw": [
+    "καθεύδω",
+    "καθευδήσω",
+    "ἐκάθευδον"
+   ],
+   "verb": {
+    "no_aorist": true
+   }
+  },
+  "topics": [
+   "city-life"
+  ]
+ },
+ {
+  "lemma": "τροχός",
+  "headword": "τροχός, τροχοῦ, ὁ",
+  "definition": "wheel; potter's wheel",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension -ος",
+  "morph": {
+   "genitive": "τροχοῦ",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "trochee",
+    "truck (via Latin trochus)"
+   ]
+  }
+ },
+ {
+  "lemma": "πηλός",
+  "headword": "πηλός, πηλοῦ, ὁ",
+  "definition": "clay, mud",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension -ος",
+  "morph": {
+   "genitive": "πηλοῦ",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "city-life"
+  ]
+ },
+ {
+  "lemma": "ἄρτος",
+  "headword": "ἄρτος, ἄρτου, ὁ",
+  "definition": "bread, loaf",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension -ος",
+  "morph": {
+   "genitive": "ἄρτου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "city-life"
+  ]
+ },
+ {
+  "lemma": "θύρα",
+  "headword": "θύρα, θύρας, ἡ",
+  "definition": "door",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension -ᾱ",
+  "morph": {
+   "genitive": "θύρας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "cognates": [
+    "door"
+   ]
+  }
+ },
+ {
+  "lemma": "κρήνη",
+  "headword": "κρήνη, κρήνης, ἡ",
+  "definition": "spring, fountain",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension -η",
+  "morph": {
+   "genitive": "κρήνης",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "city-life"
+  ]
+ },
+ {
+  "lemma": "ὑδρία",
+  "headword": "ὑδρία, ὑδρίας, ἡ",
+  "definition": "water jar",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension -ᾱ",
+  "morph": {
+   "genitive": "ὑδρίας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "hydria",
+    "hydro-"
+   ]
+  }
+ },
+ {
+  "lemma": "κλίνη",
+  "headword": "κλίνη, κλίνης, ἡ",
+  "definition": "couch, bed",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension -η",
+  "morph": {
+   "genitive": "κλίνης",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "clinic",
+    "recline"
+   ]
+  }
+ },
+ {
+  "lemma": "θεά",
+  "headword": "θεά, θεᾶς, ἡ",
+  "definition": "goddess",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension -ᾱ",
+  "morph": {
+   "genitive": "θεᾶς",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "theology",
+    "Dorothea"
+   ]
+  }
+ },
+ {
+  "lemma": "φιλέω",
+  "headword": "φιλέω, φιλήσω, ἐφίλησα, πεφίληκα, πεφίλημαι, ἐφιλήθην",
+  "definition": "love, like; kiss",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: -έω contract",
+  "morph": {
+   "parts": {
+    "present": [
+     "φιλέω"
+    ],
+    "future": [
+     "φιλήσω"
+    ],
+    "aorist": [
+     "ἐφίλησα"
+    ],
+    "perfect": [
+     "πεφίληκα"
+    ],
+    "perfect-mp": [
+     "πεφίλημαι"
+    ],
+    "aorist-passive": [
+     "ἐφιλήθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "φιλέω",
+    "φιλήσω",
+    "ἐφίλησα",
+    "πεφίληκα",
+    "πεφίλημαι",
+    "ἐφιλήθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "core",
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "philosophy",
+    "Philadelphia",
+    "bibliophile"
+   ]
+  }
+ },
+ {
+  "lemma": "ὑφαίνω",
+  "headword": "ὑφαίνω, ὑφανῶ, ὕφηνα",
+  "definition": "weave",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: liquid stem",
+  "morph": {
+   "parts": {
+    "present": [
+     "ὑφαίνω"
+    ],
+    "future": [
+     "ὑφανῶ"
+    ],
+    "aorist": [
+     "ὕφηνα"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ὑφαίνω",
+    "ὑφανῶ",
+    "ὕφηνα"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "hyphen (via ὑφ' ἕν)"
+   ],
+   "cognates": [
+    "weave"
+   ]
+  }
+ },
+ {
+  "lemma": "σελήνη",
+  "headword": "σελήνη, σελήνης, ἡ",
+  "definition": "moon",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension -η",
+  "morph": {
+   "genitive": "σελήνης",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "selenium",
+    "Selene"
+   ]
+  }
+ },
+ {
+  "lemma": "δένδρον",
+  "headword": "δένδρον, δένδρου, τό",
+  "definition": "tree",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension neuter -ον",
+  "morph": {
+   "genitive": "δένδρου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "rhododendron",
+    "dendrite"
+   ]
+  }
+ },
+ {
+  "lemma": "ἄνθος",
+  "headword": "ἄνθος, ἄνθους, τό",
+  "definition": "flower, blossom",
+  "kind": "noun",
+  "subclass": "noun-3-sigma",
+  "pos": "noun: 3rd declension -ος, -ους",
+  "morph": {
+   "genitive": "ἄνθους",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "anthology",
+    "chrysanthemum"
+   ]
+  }
+ },
+ {
+  "lemma": "βιβλίον",
+  "headword": "βιβλίον, βιβλίου, τό",
+  "definition": "book, scroll",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension neuter -ον",
+  "morph": {
+   "genitive": "βιβλίου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "philosophy",
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "Bible",
+    "bibliography"
+   ]
+  }
+ }
+]

@@ -482,6 +482,8 @@ def _adverb(lemma: str, subclass: str, hinted: str, idx: int) -> list[str]:
 
 def decline(lemma: str, kind: str, subclass: str, morph: dict) -> dict | None:
     """Full paradigm for a lexicon entry, or None for indeclinable words."""
+    if morph.get("table"):  # hand table supplied by the lexicon entry (course words)
+        return {**morph["table"], "lemma": lemma}
     if kind == "article":
         return {**tables.ARTICLE, "lemma": lemma}
     if lemma in tables.PRONOUNS:

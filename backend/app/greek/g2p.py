@@ -79,6 +79,9 @@ PUNCT = {
     "?": "?",
     "—": "—",
     "-": "-",
+    # Guillemets (Greek quotation marks) → the curly quotes the voice knows.
+    "«": "“",
+    "»": "”",
     # Elision / crasis marks (δʼ, ἀντʼ, κἀγώ written with a koronis) have no sound.
     "\u02bc": "",
     "\u2019": "",

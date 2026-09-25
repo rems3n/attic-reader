@@ -1,0 +1,78 @@
+{
+  "id": "0.1",
+  "title_grc": "τὰ γράμματα",
+  "title_en": "The alphabet",
+  "summary_grc": "ἄλφα, βῆτα, γάμμα …",
+  "summary_en": "The 24 letters, their names, and how they sounded in Athens around 400 BC.",
+  "cover": "alphabet-chart",
+  "caption_grc": "Α α · Β β · Γ γ · Δ δ",
+  "names": {},
+  "allow": {
+    "ἄλφα": "letter name", "βῆτα": "letter name", "γάμμα": "letter name", "δέλτα": "letter name", "ἒ": "letter name", "ψιλόν": "letter name", "ζῆτα": "letter name", "ἦτα": "letter name", "θῆτα": "letter name", "ἰῶτα": "letter name", "κάππα": "letter name", "λάμβδα": "letter name", "μῦ": "letter name", "νῦ": "letter name", "ξῖ": "letter name", "ὂ": "letter name", "μικρόν": "letter name", "πῖ": "letter name", "ῥῶ": "letter name", "σίγμα": "letter name", "ταῦ": "letter name", "ὖ": "letter name", "φῖ": "letter name", "χῖ": "letter name", "ψῖ": "letter name", "ὦ": "letter name", "μέγα": "letter name"
+  },
+  "story": [
+    {
+      "image": "alphabet-chart",
+      "sentences": [
+        {"text": "ἄλφα, βῆτα, γάμμα, δέλτα, ἒ ψιλόν, ζῆτα.", "glosses": [{"word": "ἄλφα", "kind": "=", "value": "Α α"}, {"word": "βῆτα", "kind": "=", "value": "Β β"}, {"word": "γάμμα", "kind": "=", "value": "Γ γ"}, {"word": "δέλτα", "kind": "=", "value": "Δ δ"}, {"word": "ψιλόν", "kind": "=", "value": "Ε ε"}, {"word": "ζῆτα", "kind": "=", "value": "Ζ ζ"}]},
+        {"text": "ἦτα, θῆτα, ἰῶτα, κάππα, λάμβδα, μῦ.", "glosses": [{"word": "ἦτα", "kind": "=", "value": "Η η"}, {"word": "θῆτα", "kind": "=", "value": "Θ θ"}, {"word": "ἰῶτα", "kind": "=", "value": "Ι ι"}, {"word": "κάππα", "kind": "=", "value": "Κ κ"}, {"word": "λάμβδα", "kind": "=", "value": "Λ λ"}, {"word": "μῦ", "kind": "=", "value": "Μ μ"}]},
+        {"text": "νῦ, ξῖ, ὂ μικρόν, πῖ, ῥῶ, σίγμα.", "glosses": [{"word": "νῦ", "kind": "=", "value": "Ν ν"}, {"word": "ξῖ", "kind": "=", "value": "Ξ ξ"}, {"word": "μικρόν", "kind": "=", "value": "Ο ο"}, {"word": "πῖ", "kind": "=", "value": "Π π"}, {"word": "ῥῶ", "kind": "=", "value": "Ρ ρ"}, {"word": "σίγμα", "kind": "=", "value": "Σ σ ς"}]},
+        {"text": "ταῦ, ὖ ψιλόν, φῖ, χῖ, ψῖ, ὦ μέγα.", "glosses": [{"word": "ταῦ", "kind": "=", "value": "Τ τ"}, {"word": "ὖ", "kind": "=", "value": "Υ υ"}, {"word": "φῖ", "kind": "=", "value": "Φ φ"}, {"word": "χῖ", "kind": "=", "value": "Χ χ"}, {"word": "ψῖ", "kind": "=", "value": "Ψ ψ"}, {"word": "μέγα", "kind": "=", "value": "Ω ω"}]}
+      ]
+    },
+    {
+      "image": "theos",
+      "sentences": [
+        {"text": "Ζεύς. Ἀθηνᾶ. Ἀπόλλων.", "glosses": [{"word": "Ζεύς", "kind": "pic", "value": "theos"}, {"word": "Ἀθηνᾶ", "kind": "pic", "value": "thea"}]},
+        {"text": "Ἥρα. Ἑρμῆς. Ἀφροδίτη. Ποσειδῶν.", "glosses": []},
+        {"text": "Σωκράτης. Ὅμηρος. Ἀθῆναι.", "glosses": [{"word": "Ἀθῆναι", "kind": "pic", "value": "polis"}]}
+      ]
+    }
+  ],
+  "vocab": [],
+  "notice": ["Α α · ἄλφα", "Β β · βῆτα", "Σ σ ς · σίγμα (ς only at the end of a word)", "Ω ω · ὦ μέγα"],
+  "grammar": {
+    "md": "**Twenty-four letters.** Greek is written with an alphabet the Greeks adapted from the Phoenicians around 800 BC. Athenian children learned it in this order, and the order still matters for dictionaries: α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ σ τ υ φ χ ψ ω.\n\n**Capitals and small letters.** Athenians of 431 BC wrote only capitals, with no spaces: ΟΑΡΙΣΤΩΝΚΕΡΑΜΕΥΣΕΣΤΙΝ. The small letters were invented a thousand years later by Byzantine scribes. Modern printed texts use capitals only for names and, in some editions, the start of a paragraph.\n\n**How they sounded (Classical Attic, c. 400 BC).** This course uses the reconstructed pronunciation of Athens in the age of Socrates, not Modern Greek and not the 'Erasmian' school habit. The letters that trip up newcomers:\n\n| letter | sound | note |\n|---|---|---|\n| β | *b* as in *big* | not *v* |\n| γ | *g* as in *go* | before κ, γ, χ, ξ it is *ng* as in *sing* |\n| δ | *d* | not *th* |\n| ζ | *zd* | as in *wisdom* |\n| θ | *t* with a puff of air | like *t* in *top*, not English *th* |\n| φ | *p* with a puff of air | like *p* in *pot*, not *f* |\n| χ | *k* with a puff of air | like *k* in *kit*, not *ch* |\n| σ | *s* | ς at the end of a word |\n| ξ | *ks* | |\n| ψ | *ps* | |\n\nThe vowels come next lesson. Listen to the audio for every word you meet; the voice uses these values throughout.",
+    "paradigms": [],
+    "diagram": null
+  },
+  "exercises": [
+    {"type": "cloze-choice", "prompt": "Which small letter is γάμμα?", "audio": "γάμμα", "options": [{"id": "a", "text": "γ"}, {"id": "b", "text": "λ"}, {"id": "c", "text": "ν"}, {"id": "d", "text": "υ"}], "answer": "a", "skills": ["alpha.letters"], "explain": "γάμμα = Γ γ."},
+    {"type": "cloze-choice", "prompt": "Which small letter is ῥῶ?", "audio": "ῥῶ", "options": [{"id": "a", "text": "π"}, {"id": "b", "text": "ρ"}, {"id": "c", "text": "ψ"}, {"id": "d", "text": "φ"}], "answer": "b", "skills": ["alpha.letters"], "explain": "ῥῶ = Ρ ρ. It looks like a Latin P but is our R."},
+    {"type": "cloze-choice", "prompt": "Which small letter is νῦ?", "audio": "νῦ", "options": [{"id": "a", "text": "ν"}, {"id": "b", "text": "υ"}, {"id": "c", "text": "η"}, {"id": "d", "text": "μ"}], "answer": "a", "skills": ["alpha.letters"], "explain": "νῦ = Ν ν. It looks like a Latin v but is our N; υ (ὖ ψιλόν) is the vowel."},
+    {"type": "cloze-choice", "prompt": "Which small letter is ἦτα?", "audio": "ἦτα", "options": [{"id": "a", "text": "η"}, {"id": "b", "text": "ν"}, {"id": "c", "text": "π"}, {"id": "d", "text": "ε"}], "answer": "a", "skills": ["alpha.letters"], "explain": "ἦτα = Η η, a long *e*. It looks like a Latin n."},
+    {"type": "match", "prompt": "Match the capital to its small letter.", "pairs": [{"left": "Δ", "right": "δ"}, {"left": "Λ", "right": "λ"}, {"left": "Ξ", "right": "ξ"}, {"left": "Σ", "right": "σ"}, {"left": "Ω", "right": "ω"}], "skills": ["alpha.letters"], "explain": "Δ δ, Λ λ, Ξ ξ, Σ σ, Ω ω."},
+    {"type": "match", "prompt": "Match the letter to its name.", "pairs": [{"left": "θ", "right": "θῆτα"}, {"left": "φ", "right": "φῖ"}, {"left": "χ", "right": "χῖ"}, {"left": "ψ", "right": "ψῖ"}], "skills": ["alpha.letters"], "explain": "θῆτα, φῖ, χῖ, ψῖ."},
+    {"type": "listen-pick", "prompt": "Listen: which letter name do you hear?", "audio": "βῆτα", "options": [{"id": "a", "text": "βῆτα"}, {"id": "b", "text": "ζῆτα"}, {"id": "c", "text": "θῆτα"}, {"id": "d", "text": "ἦτα"}], "answer": "a", "skills": ["alpha.sounds", "listen.words"], "explain": "βῆτα, with a *b*."},
+    {"type": "listen-pick", "prompt": "Listen: which letter name do you hear?", "audio": "φῖ", "options": [{"id": "a", "text": "πῖ"}, {"id": "b", "text": "φῖ"}, {"id": "c", "text": "ξῖ"}, {"id": "d", "text": "ψῖ"}], "answer": "b", "skills": ["alpha.sounds", "listen.words"], "explain": "φῖ: a *p* with a puff of air. πῖ has no puff."},
+    {"type": "listen-pick", "prompt": "Listen: which letter name do you hear?", "audio": "χῖ", "options": [{"id": "a", "text": "κάππα"}, {"id": "b", "text": "χῖ"}, {"id": "c", "text": "ξῖ"}], "answer": "b", "skills": ["alpha.sounds", "listen.words"], "explain": "χῖ: a *k* with a puff of air."},
+    {"type": "cloze-choice", "prompt": "In Classical Attic, β sounded like …", "options": [{"id": "a", "text": "b in big"}, {"id": "b", "text": "v in van"}], "answer": "a", "skills": ["alpha.sounds"], "explain": "β = b. The *v* sound is Modern Greek."},
+    {"type": "cloze-choice", "prompt": "In Classical Attic, θ sounded like …", "options": [{"id": "a", "text": "th in thin"}, {"id": "b", "text": "t in top (with a puff of air)"}], "answer": "b", "skills": ["alpha.sounds"], "explain": "θ was an aspirated *t*. English *th* is Modern Greek."},
+    {"type": "cloze-choice", "prompt": "In Classical Attic, ζ sounded like …", "options": [{"id": "a", "text": "z in zoo"}, {"id": "b", "text": "zd in wisdom"}], "answer": "b", "skills": ["alpha.sounds"], "explain": "ζ = zd."},
+    {"type": "reorder", "prompt": "Put the first eight letters in alphabetical order.", "tokens": ["γ", "α", "ε", "β", "η", "δ", "θ", "ζ"], "answers": ["α β γ δ ε ζ η θ"], "skills": ["alpha.letters"], "explain": "α β γ δ ε ζ η θ."},
+    {"type": "reorder", "prompt": "Put these letters in alphabetical order.", "tokens": ["π", "μ", "ξ", "ν", "ρ", "ο", "σ", "τ"], "answers": ["μ ν ξ ο π ρ σ τ"], "skills": ["alpha.letters"], "explain": "μ ν ξ ο π ρ σ τ."},
+    {"type": "dictation", "prompt": "Listen and type the letter (small).", "audio": "δέλτα", "gaps": [{"answers": ["δ"]}], "skills": ["alpha.letters", "alpha.typing"], "explain": "δέλτα = δ."},
+    {"type": "dictation", "prompt": "Listen and type the letter (small).", "audio": "λάμβδα", "gaps": [{"answers": ["λ"]}], "skills": ["alpha.letters", "alpha.typing"], "explain": "λάμβδα = λ."},
+    {"type": "dictation", "prompt": "Listen and type the letter (small).", "audio": "ὦ μέγα", "gaps": [{"answers": ["ω"]}], "skills": ["alpha.letters", "alpha.typing"], "explain": "ὦ μέγα = ω, 'big o' (long); ὂ μικρόν = ο, 'little o' (short)."},
+    {"type": "cloze-type", "prompt": "Type the name written in capitals in small letters: ΖΕΥΣ", "gaps": [{"answers": ["Ζεύς", "ζεύς", "Ζευς"]}], "skills": ["alpha.letters", "alpha.typing"], "explain": "Ζεύς. Note the final ς.", "audio": "Ζεύς"},
+    {"type": "cloze-type", "prompt": "Type the name written in capitals in small letters: ΣΩΚΡΑΤΗΣ", "gaps": [{"answers": ["Σωκράτης", "σωκράτης", "Σωκρατης"]}], "skills": ["alpha.letters", "alpha.typing"], "explain": "Σωκράτης: σ inside the word, ς at the end.", "audio": "Σωκράτης"}
+  ],
+  "questions": [
+    {"type": "cloze-choice", "prompt": "How many letters does the Greek alphabet have?", "options": [{"id": "a", "text": "24"}, {"id": "b", "text": "26"}, {"id": "c", "text": "22"}], "answer": "a", "skills": ["alpha.letters"], "explain": "24, from ἄλφα to ὦ μέγα."},
+    {"type": "cloze-choice", "prompt": "Which letter is written differently at the end of a word?", "options": [{"id": "a", "text": "σ → ς"}, {"id": "b", "text": "ν → ς"}, {"id": "c", "text": "ρ → ς"}], "answer": "a", "skills": ["alpha.letters"], "explain": "σίγμα: σ inside a word, ς at the end (Σωκράτης)."}
+  ],
+  "culture": {
+    "title": "The oldest Greek writing",
+    "md": "The **Dipylon oinochoe**, a wine jug found in the Kerameikos and made around 740 BC, carries one of the oldest Greek inscriptions: a line of verse scratched around its shoulder, written right to left in the early Attic alphabet, promising the jug as a prize to the best dancer. Ariston's great-great-grandparents would have seen letters like these. By his own time Athens had schools where boys learned to read from wax tablets and papyrus, and the assembly voted on decrees that were carved in stone and set up on the Acropolis for anyone to read.",
+    "image": "dipylon-oinochoe"
+  },
+  "quiz": [
+    {"type": "cloze-choice", "prompt": "Which small letter is θῆτα?", "audio": "θῆτα", "options": [{"id": "a", "text": "θ"}, {"id": "b", "text": "φ"}, {"id": "c", "text": "ο"}], "answer": "a", "skills": ["alpha.letters"], "explain": "θῆτα = θ."},
+    {"type": "match", "prompt": "Match the capital to its small letter.", "pairs": [{"left": "Γ", "right": "γ"}, {"left": "Η", "right": "η"}, {"left": "Ρ", "right": "ρ"}, {"left": "Ψ", "right": "ψ"}], "skills": ["alpha.letters"], "explain": "Γ γ, Η η, Ρ ρ, Ψ ψ."},
+    {"type": "listen-pick", "prompt": "Listen: which letter name do you hear?", "audio": "δέλτα", "options": [{"id": "a", "text": "δέλτα"}, {"id": "b", "text": "θῆτα"}, {"id": "c", "text": "ταῦ"}], "answer": "a", "skills": ["alpha.sounds", "listen.words"], "explain": "δέλτα, with a plain *d*."},
+    {"type": "cloze-choice", "prompt": "In Classical Attic, φ sounded like …", "options": [{"id": "a", "text": "f in fun"}, {"id": "b", "text": "p in pot (with a puff of air)"}], "answer": "b", "skills": ["alpha.sounds"], "explain": "φ was an aspirated *p*."},
+    {"type": "reorder", "prompt": "Put these letters in alphabetical order.", "tokens": ["χ", "υ", "ω", "φ", "ψ", "τ"], "answers": ["τ υ φ χ ψ ω"], "skills": ["alpha.letters"], "explain": "τ υ φ χ ψ ω."},
+    {"type": "dictation", "prompt": "Listen and type the letter (small).", "audio": "κάππα", "gaps": [{"answers": ["κ"]}], "skills": ["alpha.letters", "alpha.typing"], "explain": "κάππα = κ."}
+  ],
+  "skills": ["alpha.letters", "alpha.sounds", "alpha.typing", "listen.words"]
+}
