@@ -3,6 +3,14 @@
 Status: **plan, not yet implemented** (2026-09-25). Nothing in this document
 exists in code yet except where it says "exists".
 
+Decisions taken with the user (2026-09-25): setting is **the city of
+Athens** (not a farm deme); images are **Creative Commons only** with one
+consistent visual identity; Greek-first UI with an English toggle; politics
+is its own track; accents lenient until Unit 4; tracks unlock after Unit 9;
+stress cue for accent for now. Three visual-style mockups (Museum,
+Workbook, Night Reader) were delivered as a design canvas; the style
+choice is still open (§9).
+
 Goal: a trackable beginner-to-reader course inside Attic Reader, in the
 spirit of Athenaze, LOGOS (*Lingua Graeca per se illustrata*), *Reading
 Greek* and "Alpha with Angela": illustrated continuous story, Greek-first
@@ -28,10 +36,12 @@ or Plato in the Reader tab and reads.
   copyrighted; we copy the *method*, not the text. Original stories for
   stages 0–2; public-domain Perseus texts (already in the library) for the
   tracks, adapted then unadapted.
-- **Images throughout:** a picture dictionary (~150 pictures for concrete
-  Stage 1 words), 2–3 story panels per lesson in a consistent flat style,
-  CC0 museum photographs for culture boxes, inline SVG for grammar
-  diagrams. Greek captions only in Stage 1; no English inside pictures.
+- **Images throughout, all Creative Commons:** a picture dictionary (~150
+  pictures for concrete Stage 1 words), 2–3 story images per lesson, CC0
+  museum photographs for culture boxes, inline SVG for grammar diagrams.
+  One visual identity: CC0/CC BY vase paintings and museum objects, plus
+  our own CC BY-SA line drawings and SVG in a matching palette. Greek
+  captions only in Stage 1; no English inside pictures.
 - **Reuses what exists:** DCC 524-word lexicon with topic tags, morphology
   engine (generates drills and checks answers), 67 grammar paradigms,
   Kokoro audio + word highlighting, clip cache and pre-render job,
@@ -48,7 +58,7 @@ or Plato in the Reader tab and reads.
 
 | Principle | Source model | How it shows up |
 |---|---|---|
-| Continuous story, familiar cast, Attica c. 431 BC | Athenaze, LOGOS | One family across 48 story lessons; the war reaches them in Stage 2 |
+| Continuous story, familiar cast, Athens c. 431 BC | Athenaze, LOGOS | One family across 48 story lessons; the war reaches them in Stage 2 |
 | Greek explained in Greek, pictures carry meaning | LOGOS, Alpha with Angela | Marginal Greek glosses + pictures before any English; ἐρωτήματα in Greek |
 | Explicit grammar, but after exposure | Athenaze, Reading Greek | "Notice" box in the story, then an English grammar note + paradigm |
 | Controlled vocabulary, ~10 new words per lesson, frequency-ordered | LOGOS, DCC list | Build script rejects unglossed words not yet introduced |
@@ -133,31 +143,37 @@ Unit 12. A learner may do one, several or all tracks.
 
 ### 2.2 The story
 
-Setting: a farm at **Ἀχαρναί** (Acharnae, the large deme north of Athens),
-432–431 BC, the eve of the Peloponnesian War. Acharnae is deliberately
-chosen: farmers, charcoal burners, Aristophanes' *Acharnians*, and it was
-evacuated when the Spartans invaded in 431, which gives Stage 2 its arc.
+Setting: **the city of Athens**, 432–431 BC, the eve of the Peloponnesian
+War. The family lives in the deme **Κυδαθήναιον**, the central city deme
+between the Agora and the Acropolis (Aristophanes' deme), and Ariston's
+workshop is in the **Kerameikos**, the potters' quarter. A potter's family
+is deliberately chosen: the Agora, Acropolis, Piraeus, Assembly and law
+courts are all a walk away, and Attic pottery is the richest source of
+Creative Commons imagery for the course (§3.2), so the pictures and the
+story share one world.
 
 Cast (original names; nothing shared with Athenaze):
 
 | Name | Role | Notes |
 |---|---|---|
-| Ἀρίστων | father, farmer, ~40 | hoplite in Stage 2 |
+| Ἀρίστων | father, potter (κεραμεύς), ~40 | hoplite in Stage 2 |
 | Χρυσίς | mother | weaving, household, religion |
 | Λύσις | son, 12 | school, palaestra, the learner's stand-in |
 | Ἐλπίς | daughter, 9 | Arrephoria / Panathenaea thread |
 | Κλεινίας | grandfather | veteran of Salamis; tells myths (feeds the mythology track) |
-| Σύρος | enslaved farmhand | present honestly; culture box on slavery in Unit 2 |
+| Σύρος | enslaved workshop hand | present honestly; culture box on slavery in Unit 2 |
 | Λάβρος | the dog | |
 | Δημόκριτος | neighbour, chatterbox | politics thread; assembly, law court |
-| Ξένος from Miletus | travelling merchant | Ionia, the sea, geography |
+| Ξένος from Miletus | merchant at Piraeus | Ionia, the sea, geography |
+| Φιλίππη and her family | cousins from Acharnae | arrive as refugees in 431 (Stage 2) |
 
-Arc: Stage 1 — daily life on the farm (fields, oxen, well, house, meals,
-festival at the deme, school in the city, market, Piraeus). Stage 2 — the
-family goes up to Athens for the Panathenaea, hears the Assembly debate the
-war, Ariston is called up, the deme is evacuated inside the walls, Lysis
-listens to a philosopher in the agora, a law-court scene, the plague year
-foreshadowed, and finally Lysis reads his first page of Xenophon.
+Arc: Stage 1 — daily life in the city (house and courtyard, the workshop,
+the Agora, school, the Acropolis, a festival, the road to Piraeus, the
+harbour). Stage 2 — the Panathenaea, the Assembly debates the war,
+Ariston is called up, the Acharnian cousins are evacuated into the city
+and lodge with the family, Lysis listens to a philosopher in the Agora, a
+law-court scene, the plague year foreshadowed, and finally Lysis reads his
+first page of Xenophon.
 
 ### 2.3 Stage 0 — Στοιχεῖα (4 lessons)
 
@@ -179,22 +195,22 @@ frequency tiers (tier 1 = ranks 1–125 across Stage 1).
 
 | Unit | Lesson | Story beat | Grammar | Vocabulary focus | Paradigm ids (exist) |
 |---|---|---|---|---|---|
-| **1 Ὁ ἀγρός** | 1.1 | ὁ Ἀρίστων γεωργός ἐστιν | nominative; article; εἰμί 3 sg; οὐ, καί, ἀλλά; τίς/ποῦ | people, house, field | `article`, `logos`, `eimi` |
-| | 1.2 | ὁ Ἀρίστων ἐν τῷ ἀγρῷ πονεῖ | present indicative 3 sg/pl of -ω verbs; ἐν + dat; masc/neut 2nd decl nom/acc/dat | verbs of work | `logos`, `doron` |
-| | 1.3 | ὁ Λύσις καὶ ὁ Λάβρος | accusative object; full 2nd decl sg; adjective agreement (masc/neut) | animals, tools | `agathos` |
-| | 1.4 | ἡ Χρυσὶς ἐν τῷ οἴκῳ | 1st decl -η/-α sg; feminine article and adjectives; εἰς/ἐκ | household | `timi`, `chora` |
+| **1 Ἡ ἀγορά** | 1.1 | ὁ Ἀρίστων κεραμεύς ἐστιν | nominative; article; εἰμί 3 sg; οὐ, καί, ἀλλά; τίς/ποῦ | people, house, city | `article`, `logos`, `eimi` |
+| | 1.2 | ὁ Ἀρίστων ἐν τῷ ἐργαστηρίῳ πονεῖ | present indicative 3 sg/pl of -ω verbs; ἐν + dat; masc/neut 2nd decl nom/acc/dat | verbs of work, the workshop | `logos`, `doron` |
+| | 1.3 | ὁ Λύσις καὶ ὁ Λάβρος ἐν τῇ ἀγορᾷ | accusative object; full 2nd decl sg; adjective agreement (masc/neut) | animals, market goods | `agathos` |
+| | 1.4 | ἡ Χρυσὶς ἐν τῷ οἴκῳ | 1st decl -η/-α sg; feminine article and adjectives; εἰς/ἐκ | household, courtyard | `timi`, `chora` |
 | **2 Ὁ οἶκος** | 2.1 | ἡ ἡμέρα | present 1/2 sg (ἐγώ, σύ); questions with ἆρα; μέν … δέ | daily routine | `ego`, `sy`, `luo` |
 | | 2.2 | οἱ δοῦλοι | plural of article, 1st/2nd decl; present 1/2 pl; genitive of possession | family, slaves, culture box | `logos`, `timi` |
 | | 2.3 | ὁ Κλεινίας λέγει μῦθον | imperative sg/pl; vocative; ὦ; prohibitions with μή | speech verbs | |
 | | 2.4 | δεῖπνον | contract verbs -άω/-έω present; αὐτός | food, eating | `timao`, `poieo`, `autos` |
-| **3 Ἡ κώμη** | 3.1 | ἡ ἑορτὴ ἐν τῇ κώμῃ | 3rd decl consonant stems (φύλαξ, γέρων) | village, festival | `phylax`, `geron` |
-| | 3.2 | ὁ ναύτης καὶ ὁ νεανίας | masc 1st decl; possessives; οὗτος/ἐκεῖνος | trades | `polites`, `neanias`, `houtos`, `ekeinos` |
+| **3 Ἡ πόλις** | 3.1 | ἡ ἑορτὴ ἐν τῇ πόλει | 3rd decl consonant stems (φύλαξ, γέρων) | festival, procession | `phylax`, `geron` |
+| | 3.2 | ὁ πολίτης καὶ ὁ νεανίας | masc 1st decl; possessives; οὗτος/ἐκεῖνος | trades, citizens | `polites`, `neanias`, `houtos`, `ekeinos` |
 | | 3.3 | ὁ Λάβρος ἀπόλλυται | middle voice present; deponents (γίγνομαι, βούλομαι) | wishing, fearing | `gignomai` |
-| | 3.4 | ἐν τῇ ὁδῷ | prepositions with gen/dat/acc; compound verbs | movement | |
-| **4 Ἡ πόλις** | 4.1 | εἰς τὴν πόλιν | imperfect; augment | city, buildings | `luo` |
-| | 4.2 | ἡ ἀγορά | 2nd aorist (ἔλαβον, εἶπον); aorist infinitive | buying, selling | `lambano` |
+| | 3.4 | εἰς τὴν ἀκρόπολιν | prepositions with gen/dat/acc; compound verbs | movement, the Acropolis | |
+| **4 Ὁ Πειραιεύς** | 4.1 | ἡ ὁδὸς εἰς τὸν Πειραιᾶ | imperfect; augment | roads, walls, buildings | `luo` |
+| | 4.2 | τὸ ἐμπόριον | 2nd aorist (ἔλαβον, εἶπον); aorist infinitive | buying, selling | `lambano` |
 | | 4.3 | ὁ διδάσκαλος | 1st (sigmatic) aorist; τίς/τι indefinite | school, letters | `luo`, `tis-indef` |
-| | 4.4 | ὁ Πειραιεύς | 3rd decl πόλις, βασιλεύς, ναῦς; πᾶς | sea, ships | `polis`, `basileus`, `naus`, `pas` |
+| | 4.4 | αἱ νῆες | 3rd decl πόλις, βασιλεύς, ναῦς; πᾶς | sea, ships | `polis`, `basileus`, `naus`, `pas` |
 | **5 Οἱ θεοί** | 5.1 | ἡ θυσία | present participle (active); attributive vs circumstantial | ritual | |
 | | 5.2 | ὁ Κλεινίας περὶ Σαλαμῖνος | aorist participle; genitive absolute (intro) | war, memory | |
 | | 5.3 | ὁ Ἀπόλλων καὶ ἡ Δάφνη (myth) | pronouns: relative ὅς, reflexive, ἀλλήλων | body, emotions | `hos`, `heautou`, `allelon` |
@@ -217,7 +233,7 @@ frequency tiers (tier 1 = ranks 1–125 across Stage 1).
 | | 8.3 | ἡ ψῆφος | optative: wish, potential; indirect questions | |
 | | 8.4 | ὁ Περικλῆς | indirect statement (ὅτι/ὡς, infinitive, participle) | adapted Thuc. Pericles |
 | **9 Ὁ πόλεμος** | 9.1 | οἱ Λακεδαιμόνιοι | conditions I (simple, future) | adapted Xen. Hell. 2.2 (exists) |
-| | 9.2 | ἡ ἀνάστασις | conditions II (contrafactual, general) | |
+| | 9.2 | οἱ Ἀχαρνῆς ἐν τῷ ἄστει (the cousins arrive) | conditions II (contrafactual, general) | |
 | | 9.3 | ἐντὸς τῶν τειχῶν | -μι verbs II: ἵστημι, δείκνυμι, εἶμι | `histemi`, `deiknymi`, `eimi-go` |
 | | 9.4 | Ἀρίστων ὁπλίτης | result clauses ὥστε; temporal clauses ἐπεί, ἕως, πρίν | **tracks unlock as side readings** |
 | **10 Ἡ ἀγορὰ τῶν λόγων** | 10.1 | ὁ σοφός ἐν τῇ ἀγορᾷ | φημί; verbal adjectives -τός, -τέος | `phemi`; adapted Plato Apol. 17a (exists) |
@@ -282,15 +298,15 @@ deck; OCR of the learner's own Athenaze/Loeb pages (exists).
   + 4 × ~100 track words ≈ 1,150 words by the end.
 - **Sample, Lesson 1.1 story** (draft, to be reviewed):
 
-  > ὁ Ἀρίστων ἄνθρωπός ἐστιν. ὁ Ἀρίστων Ἀθηναῖός ἐστιν. ὁ Ἀρίστων γεωργός
-  > ἐστιν· οὐ ναύτης ἐστίν. ὁ Ἀρίστων ἐν τῷ ἀγρῷ ἐστιν. ὁ ἀγρὸς μικρός
-  > ἐστιν, ἀλλὰ καλός. ἡ Χρυσὶς γυνή ἐστιν. ἡ Χρυσὶς ἐν τῷ οἴκῳ ἐστίν.
-  > τίς ἐστιν ὁ Ἀρίστων; γεωργός ἐστιν. ποῦ ἐστιν ἡ Χρυσίς; ἐν τῷ οἴκῳ
-  > ἐστίν.
+  > ὁ Ἀρίστων ἄνθρωπός ἐστιν. ὁ Ἀρίστων Ἀθηναῖός ἐστιν. ὁ Ἀρίστων
+  > κεραμεύς ἐστιν· οὐ ναύτης ἐστίν. ὁ Ἀρίστων ἐν τῇ ἀγορᾷ ἐστιν. ἡ ἀγορὰ
+  > μεγάλη ἐστίν, ἀλλὰ καλή. ἡ Χρυσὶς γυνή ἐστιν. ἡ Χρυσὶς ἐν τῷ οἴκῳ
+  > ἐστίν. τίς ἐστιν ὁ Ἀρίστων; κεραμεύς ἐστιν. ποῦ ἐστιν ἡ Χρυσίς; ἐν τῷ
+  > οἴκῳ ἐστίν.
 
-  Margin: ἄνθρωπος [picture], γεωργός [picture: man with plough],
-  ναύτης [picture: man on ship], ἀγρός [picture], οἶκος [picture],
-  μικρός ↔ μέγας [two pictures], οὐ = "✗".
+  Margin: ἄνθρωπος [picture], κεραμεύς [picture: potter at the wheel, from
+  a CC0 vase], ναύτης [picture: man on ship], ἀγορά [picture], οἶκος
+  [picture], μεγάλη ↔ μικρά [two pictures], οὐ = "✗".
 - **Grammar notes**: short English, one concept, one table, one diagram;
   tone of Athenaze's grammar sections. Cross-link to `/grammar/<id>`.
 - **Culture boxes**: 150–250 words English each, one image, one primary
@@ -303,24 +319,37 @@ deck; OCR of the learner's own Athenaze/Loeb pages (exists).
 
 ### 3.2 Images
 
-Four kinds, one manifest, all with Greek + English alt text, credit and
-license fields.
+**Decision: Creative Commons only, one visual identity.** Every image is
+CC0, CC BY or CC BY-SA (or our own work released CC BY-SA). No generated
+imagery, no all-rights-reserved stock. The brand ethos is "Attic pottery":
+the terracotta, black and cream of red-figure and black-figure ware, so
+museum photographs, our own drawings and the UI palette read as one thing.
 
-| Kind | Count (est.) | Style / source | Use |
+Four kinds, one manifest, all with Greek + English alt text, credit,
+license and source URL.
+
+| Kind | Count (est.) | Source / treatment | Use |
 |---|---|---|---|
-| Picture dictionary | ~150 (Stage 1 concrete nouns, verbs, adjectives) | consistent flat two-tone line art, terracotta/black, transparent background, 512×512 WebP ≤ 40 KB | margin glosses, vocab cards, picture-match, flash cards |
-| Story panels | 2–3 per story lesson ≈ 130 | same style, 3:2, fixed character sheet (Ariston: beard, exomis, straw hat; Chrysis: chiton, hair up; Lysis: short chiton; Elpis: braid; Kleinias: staff, white beard; Labros: brindled dog); no text inside images | story sections, audio-first questions, "describe the picture" |
-| Culture photographs | ~50 | CC0 museum open access (Met, Cleveland Museum of Art, Getty Open Content, Walters, Rijksmuseum); Wikimedia Commons CC0/CC BY where credited | culture boxes, track lessons |
-| Grammar diagrams | ~30 | inline SVG, theme-aware (uses the app's CSS tokens) | case "map" (nominative subject → accusative object arrows), preposition picture (ship: ἐν/εἰς/ἐκ/πρός/ἀπό), verb timeline (imperfect/aorist/perfect), voice diagram, conditional ladder |
+| Picture dictionary | ~150 (Stage 1 concrete nouns, verbs, adjectives) | (1) details cropped from CC0 vase photographs (a potter at the wheel, a dog, a warrior, a woman weaving, a ship) with background knocked out to a flat cream field; (2) where no vase detail fits, our own two-tone SVG/line drawings in the same palette, released CC BY-SA | margin glosses, vocab cards, picture-match, flash cards |
+| Story images | 2–3 per story lesson ≈ 130 | CC0/CC BY museum photographs and Commons photographs of the real places (Agora, Acropolis, Kerameikos, Piraeus, Pnyx) and of vase scenes matching the beat (school scene, symposium, procession, workshop); recurring characters are shown by a fixed *attribute*, not a drawn face: Ariston = a potter's wheel/kylix motif, Lysis = a writing tablet, Chrysis = a loom, Kleinias = a staff, Labros = the dog from the Met's dog askos | story sections, audio-first questions, "describe the picture" |
+| Culture photographs | ~50 | CC0 open access: The Met, Cleveland Museum of Art, Getty Open Content, Walters, Rijksmuseum, Art Institute of Chicago, Smithsonian; British Museum is CC BY-NC-SA and excluded unless the product stays non-commercial; Wikimedia Commons CC0/CC BY/CC BY-SA with author credit | culture boxes, track lessons |
+| Grammar diagrams | ~30 | our own inline SVG, theme-aware (uses the app's CSS tokens), CC BY-SA | case "map", preposition picture (ship: ἐν/εἰς/ἐκ/πρός/ἀπό), verb timeline, voice diagram, conditional ladder |
 
-Production route (decision for the user, §9): (a) generated with an image
-model from a written style guide + character sheet, then human-reviewed
-and cropped; (b) commissioned line art; (c) CC0-only (limits the
-picture-dictionary and panels). Recommendation: (a) for dictionary and
-panels with a strict style guide and a review checklist, (c) for culture.
-This sandbox cannot produce images; the plan ships placeholders (grey
-panel with the Greek caption) so all code and content can be built and
-tested before art lands.
+Sourcing workflow: `scripts/build_images.py` takes a CSV of
+`(id, source_url, license, credit, crop box, caption_grc, caption_en)`,
+downloads once, verifies the license text from the source API where one
+exists (Met, Cleveland, AIC, Smithsonian all expose rights fields), crops
+and resizes (WebP ≤ 60 KB, 3:2 or 1:1), applies the uniform cream field
+and writes `images/manifest.json`. A CC BY-SA or CC BY image keeps its
+attribution visible in the UI (tap the badge) and in an
+`/course/credits` page; CC0 gets a credit anyway. Consistency rules:
+crop to one subject, no museum labels or rulers in frame, uniform 12 %
+padding, colour-graded to the palette, no English text in the image.
+
+This sandbox cannot download or process images (egress policy), so the
+plan ships placeholders (cream panel with the Greek caption and a CC badge)
+and the manifest first; the image pass is a separate workstream that can
+run locally or in CI with network access.
 
 Manifest shape:
 
@@ -569,23 +598,30 @@ through Lesson 1.1 with the fake TTS (pattern exists in
 
 ---
 
-## 9. Decisions needed from the user
+## 9. Decisions
 
-1. **Cast and setting** — accept Acharnae 432 BC and the names above, or
-   change any.
-2. **Images route** — generated line art with a style guide (recommended)
-   vs commissioned vs CC0-only.
-3. **English in Stage 1** — LOGOS-strict (Greek only, English grammar
-   notes collapsed by default) vs Athenaze-style (English visible).
-   Recommendation: Greek-first with a "show English" toggle per section.
-4. **Politics as its own track** vs folded into History. Plan keeps it
-   separate (Assembly, courts, Old Oligarch are distinct texts and
-   vocabulary).
-5. **Accent strictness** — default lenient (accents ignored) in typed
-   answers until Unit 4, then strict, with a per-user override.
-6. **Tracks unlock** after Unit 9 (side readings) or only after Unit 12.
-7. **Pitch accent** — stay with the stress cue in Stage 0 for now (matches
-   the current learner-mode G2P); add pitch notation later.
+Taken (2026-09-25):
+
+1. **Setting** — the city of Athens, 432–431 BC; a potter's family in
+   Kydathenaion with a Kerameikos workshop (§2.2).
+2. **Images** — Creative Commons only, one "Attic pottery" visual identity
+   (§3.2).
+3. **English in Stage 1** — Greek-first with a "show English" toggle per
+   section.
+4. **Politics** is its own track.
+5. **Accent strictness** — lenient in typed answers until Unit 4, then
+   strict, per-user override.
+6. **Tracks unlock** after Unit 9 as side readings, fully after Unit 12.
+7. **Pitch accent** — stress cue for now; pitch notation later.
+
+Open:
+
+8. **Visual style** — three mockups were delivered (Museum: ivory,
+   terracotta, black, serif; Workbook: paper white, cobalt, ochre, bold
+   outlines; Night Reader: slate dark, olive accent, e-reader feel). Pick
+   one, or name the elements to combine. The Museum palette is the
+   closest match to the CC pottery imagery; the plan assumes it until told
+   otherwise.
 
 ---
 
@@ -594,7 +630,7 @@ through Lesson 1.1 with the fake TTS (pattern exists in
 | Phase | Deliverable | Depends on |
 |---|---|---|
 | **A. Skeleton** | `course_data` schemas, `build_course.py`, skills taxonomy, `/api/course*`, progress v2 + migration + merge, `/course` home, lesson player with 8 exercise types, Stage 0 (4 lessons) and Unit 1 (4 lessons + test) fully authored with placeholder images, pre-render pass | nothing new |
-| **B. Stage 1 content** | Units 2–6 authored, unit tests, Reading gate I, picture dictionary (150) + panels for Stage 1, remaining exercise types, generated drills, review quiz, reread scheduler, placement (Stage 1 only) | A, image route decision |
+| **B. Stage 1 content** | Units 2–6 authored, unit tests, Reading gate I, picture dictionary (150) + story images for Stage 1 via `build_images.py`, remaining exercise types, generated drills, review quiz, reread scheduler, placement (Stage 1 only) | A, network access for the image pass |
 | **C. Stage 2 content** | Units 7–12, tests, gate II, grammar diagrams, culture photographs, adapted-text pipeline from Perseus (extend `build_library.py` to emit adapted + original pairs with alignment) | B |
 | **D. Tracks** | 4 × 8 lessons, track vocab lists, track gates, Stage 4 guided reader mode (DCC coverage %, unknown-word count) | C |
 | **E. Polish** | offline caching, `/check` morph-aware feedback, skills grid, error deck, accessibility pass, content review by a second reader | any |
@@ -614,11 +650,17 @@ progress surviving a reload and a sync push/pull.
 - **Greek quality** (accents, idiom). Mechanical checks above plus a
   reviewer pass per unit; every lesson carries a "report an error" link
   like the forms tables already do.
-- **Image consistency** across ~280 pictures. Style guide + character
-  sheet + review checklist; placeholders keep engineering unblocked.
+- **Image consistency** across ~280 CC pictures from many museums.
+  Uniform crop, padding and colour grading in `build_images.py`; a
+  character is a fixed attribute, not a face; review checklist per unit.
+  Placeholders keep engineering unblocked.
+- **Image coverage**: some concrete words will have no good vase detail.
+  Fallback is our own SVG in the same palette, released CC BY-SA, never a
+  generated image.
 - **Licensing**: all text original or PD; DCC list CC BY-SA (attribution
-  exists); images CC0/CC BY with per-image credit; nothing from Athenaze,
-  LOGOS or *Reading Greek* is reproduced.
+  exists); images CC0/CC BY/CC BY-SA with per-image credit and a credits
+  page; CC BY-NC sources excluded; nothing from Athenaze, LOGOS or
+  *Reading Greek* is reproduced.
 - **Audio on CPU host**: course adds several thousand short clips; the
   pre-render job already yields to users and caches to disk; order Stage
   0–1 first and render tracks lazily.

@@ -742,4 +742,12 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   own cast), exercise engine (17 types, morph-engine-generated drills),
   assessment ladder, skill mastery + spiral review, data model, API,
   routes, build pipeline, image plan, phases A–E, and open decisions (§9).
-- Start Phase A (skeleton + Stage 0 + Unit 1) once the user answers §9.
+- User decisions (same day): Athens setting (potter's family, Kydathenaion
+  / Kerameikos), Creative Commons images only with an "Attic pottery"
+  visual identity, and yes to the other recommendations (Greek-first with
+  English toggle, politics track, lenient accents until Unit 4, tracks
+  after Unit 9, stress cue). Plan updated. Three style mockups (Museum,
+  Workbook, Night Reader; phone + desktop) delivered as a design canvas
+  artifact; style choice still open (§9.8).
+- Start Phase A (skeleton + Stage 0 + Unit 1) next; assume the Museum
+  palette until the user picks a style.
