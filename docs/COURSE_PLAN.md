@@ -8,8 +8,8 @@ Athens** (not a farm deme); images are **Creative Commons only** with one
 consistent visual identity; Greek-first UI with an English toggle; politics
 is its own track; accents lenient until Unit 4; tracks unlock after Unit 9;
 stress cue for accent for now. Three visual-style mockups (Museum,
-Workbook, Night Reader) were delivered as a design canvas; the style
-choice is still open (§9).
+Workbook, Night Reader) were delivered as a design canvas; the user chose
+**B, Workbook** (§9.8).
 
 Goal: a trackable beginner-to-reader course inside Attic Reader, in the
 spirit of Athenaze, LOGOS (*Lingua Graeca per se illustrata*), *Reading
@@ -561,6 +561,10 @@ Routes (Next.js app dir, `AppNav` gets a **Course** tab first):
 | `/course/placement` | placement test |
 | `/course/skills` | mastery grid by skill family, tap → paradigm/lesson |
 
+Theme: the Workbook style (§9.8) becomes the app-wide theme, applied to
+the existing Read / Vocab / Grammar screens as well, via CSS tokens in
+`globals.css` (light only at first; a dark variant later).
+
 Components (new): `StoryPanel` (image + sentences with glosses and word
 highlight), `Gloss` popover, `ExerciseRunner` + one component per type,
 `GreekInput` (NFC, final-sigma fix, accent-lenient toggle, on-screen
@@ -614,14 +618,16 @@ Taken (2026-09-25):
 6. **Tracks unlock** after Unit 9 as side readings, fully after Unit 12.
 7. **Pitch accent** — stress cue for now; pitch notation later.
 
-Open:
-
-8. **Visual style** — three mockups were delivered (Museum: ivory,
-   terracotta, black, serif; Workbook: paper white, cobalt, ochre, bold
-   outlines; Night Reader: slate dark, olive accent, e-reader feel). Pick
-   one, or name the elements to combine. The Museum palette is the
-   closest match to the CC pottery imagery; the plan assumes it until told
-   otherwise.
+8. **Visual style: B "Workbook"** (chosen 2026-09-25 from three mockups).
+   Paper white ground `#fffdf7`, ink `#14213d`, cobalt `#1d4ed8`, ochre
+   `#f4b942`, cream panels `#fff3d6`; 2 px ink outlines and 4–6 px offset
+   shadows on cards; radii 12–20 px; Greek in Noto Serif, UI labels in
+   Work Sans (bold, letter-spaced caps for section labels); LOGOS-style
+   marginal gloss column with a dashed rule; ▶ as a filled cobalt circle;
+   speed pills; four-tab bottom bar on phone, cobalt left rail on desktop.
+   Images sit on cream panels with a white CC badge. The pottery
+   photographs will be colour-graded toward ochre/ink so they sit inside
+   this palette rather than the Museum one.
 
 ---
 
