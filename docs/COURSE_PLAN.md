@@ -294,7 +294,7 @@ deck; OCR of the learner's own Athenaze/Loeb pages (exists).
   new `accent.enclitic()` helper.
 - **Word budget**: 8–12 new words per lesson; DCC tier 1 (125 words) in
   Stage 1, tiers 2–3 in Stage 2, tier 4 spread over tracks. Function words
-  frontloaded. 524 DCC words + ~250 story words (farm, family, festival)
+  frontloaded. 524 DCC words + ~250 story words (city, workshop, family, festival)
   + 4 × ~100 track words ≈ 1,150 words by the end.
 - **Sample, Lesson 1.1 story** (draft, to be reviewed):
 
@@ -355,15 +355,16 @@ Manifest shape:
 
 ```json
 {
-  "id": "georgos",
-  "file": "course/pics/georgos.webp",
+  "id": "kerameus",
+  "file": "course/pics/kerameus.webp",
   "kind": "dictionary",
-  "alt_grc": "γεωργὸς ἀροτριᾷ",
-  "alt_en": "A farmer ploughing with an ox",
-  "credit": "Attic Reader (original)",
-  "license": "CC BY-SA 4.0",
-  "source_url": null,
-  "words": ["γεωργός", "ἀροτριάω", "βοῦς"]
+  "alt_grc": "κεραμεὺς ἐν τῷ ἐργαστηρίῳ",
+  "alt_en": "A potter at the wheel, detail of an Attic red-figure kylix",
+  "credit": "The Metropolitan Museum of Art, Open Access",
+  "license": "CC0 1.0",
+  "source_url": "https://www.metmuseum.org/art/collection/search/…",
+  "crop": [420, 310, 1400, 1400],
+  "words": ["κεραμεύς", "ἐργαστήριον", "τροχός"]
 }
 ```
 
@@ -415,10 +416,9 @@ Hand-written items live in the lesson file; each carries `skills`, an
 ```json
 {
   "type": "cloze-type",
-  "prompt": "ὁ Ἀρίστων ἐν τ__ ἀγρ__ ἐστιν.",
-  "answers": ["ῷ ῷ", "τῷ ἀγρῷ"],
-  "gaps": [{"answers": ["ῷ"]}, {"answers": ["ῷ"]}],
-  "skills": ["noun.decl2.dat.sg", "prep.en.dat"],
+  "prompt": "ὁ Ἀρίστων ἐν τ__ ἐργαστηρί__ ἐστιν.",
+  "gaps": [{"answers": ["ῷ"]}, {"answers": ["ῳ"]}],
+  "skills": ["noun.decl2.dat.sg", "art.dat.sg.neut", "prep.en.dat"],
   "explain": "ἐν takes the dative; 2nd-declension dative singular ends in -ῳ (ᾳ/ῃ/ῳ carry iota subscript).",
   "audio": "auto"
 }
@@ -476,7 +476,7 @@ frontend/public/course/pics/  images (WebP/SVG)
 
 ```json
 {
-  "id": "1.1", "unit": 1, "stage": 1, "title_grc": "ὁ Ἀρίστων γεωργός ἐστιν", "title_en": "Ariston is a farmer",
+  "id": "1.1", "unit": 1, "stage": 1, "title_grc": "ὁ Ἀρίστων κεραμεύς ἐστιν", "title_en": "Ariston is a potter",
   "cover": "panel-1-1-a",
   "story": [{"text": "ὁ Ἀρίστων ἄνθρωπός ἐστιν.", "image": null, "glosses": {"ἄνθρωπός": {"pic": "anthropos"}}}, ...],
   "vocab": [{"id": "anthropos", "pic": "anthropos"}, {"lemma": "Ἀρίστων", "extra": true, "gloss_grc": "ὄνομα ἀνδρός"}],
