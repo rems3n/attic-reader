@@ -275,7 +275,7 @@ export default function LessonPage() {
               </div>
             </div>
           ) : (
-            <ExerciseRunner key={`ex-${id}-${exercisesWithReview.length}`} items={exercisesWithReview} images={images} mode="practice" accents={accents} onOutcome={record} onDone={(outs) => setExerciseSummary({ score: scoreOf(outs.map((o) => o.result)) })} seed={hashString(id)} />
+            <ExerciseRunner key={`ex-${id}-${exercisesWithReview.length}`} items={exercisesWithReview} images={images} mode="practice" accents={accents} scope={id} onOutcome={record} onDone={(outs) => setExerciseSummary({ score: scoreOf(outs.map((o) => o.result)) })} seed={hashString(id)} />
           )}
           <p className="muted small accentNote">{accents ? "Accents count in typed answers." : "Accents are optional in typed answers until Unit 4; breathings count."}</p>
         </section>
@@ -284,7 +284,7 @@ export default function LessonPage() {
       {current.id === "questions" && (
         <section className="card">
           <p className="stepHint" lang="grc">ἀποκρίνεσθε Ἑλληνιστί.</p>
-          <ExerciseRunner key={`q-${id}`} items={lesson.questions} images={images} mode="practice" accents={accents} onOutcome={record} onDone={() => markStep(stepIndex + 1)} seed={hashString(id) + 1} title="Ἐρωτήματα" />
+          <ExerciseRunner key={`q-${id}`} items={lesson.questions} images={images} mode="practice" accents={accents} scope={id} onOutcome={record} onDone={() => markStep(stepIndex + 1)} seed={hashString(id) + 1} title="Ἐρωτήματα" />
         </section>
       )}
 
@@ -320,7 +320,7 @@ export default function LessonPage() {
           ) : (
             <>
               <p className="stepHint">{lesson.quiz.length} questions, all types. {Math.round(PASS * 100)} % to complete the lesson. You can always retake.</p>
-              <ExerciseRunner key={`quiz-${id}-${lessonState?.attempts ?? 0}`} items={lesson.quiz} images={images} mode="practice" accents={accents} onOutcome={record} onDone={finishQuiz} seed={hashString(id) + (lessonState?.attempts ?? 0)} title="Ἔλεγχος" />
+              <ExerciseRunner key={`quiz-${id}-${lessonState?.attempts ?? 0}`} items={lesson.quiz} images={images} mode="practice" accents={accents} scope={id} onOutcome={record} onDone={finishQuiz} seed={hashString(id) + (lessonState?.attempts ?? 0)} title="Ἔλεγχος" />
             </>
           )}
         </section>

@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { checkItem, type CheckFeedback } from "../../lib/api";
 import { gradeItem, hashString, itemOptions, itemTokens, keyText, modality, seededShuffle, type GradeResult, type ImageRecord, type Item, type Response } from "../../lib/course";
 import { SpeakButton, useSpeaker } from "../Speak";
 import GreekInput from "./GreekInput";
@@ -41,10 +42,12 @@ const TYPE_LABEL: Record<string, string> = {
  * with an explanation; in test mode answers are collected and graded at the
  * end. `onOutcome` fires per item (practice) or once per item on submit (test).
  */
-export default function ExerciseRunner({ items, images, mode, accents, onOutcome, onDone, seed = 0, title, renderAbove }: { items: Item[]; images: ImageRecord[]; mode: Mode; accents: boolean; onOutcome?: (o: Outcome) => void; onDone: (outcomes: Outcome[]) => void; seed?: number; title?: string; renderAbove?: (item: Item, index: number) => React.ReactNode }) {
+export default function ExerciseRunner({ items, images, mode, accents, onOutcome, onDone, seed = 0, title, renderAbove, scope }: { items: Item[]; images: ImageRecord[]; mode: Mode; accents: boolean; onOutcome?: (o: Outcome) => void; onDone: (outcomes: Outcome[]) => void; seed?: number; title?: string; renderAbove?: (item: Item, index: number) => React.ReactNode; /** lesson id: enables "you typed the genitive" feedback from the server */ scope?: string }) {
   const [index, setIndex] = useState(0);
   const [response, setResponse] = useState<Response>(null);
   const [checked, setChecked] = useState<GradeResult | null>(null);
+  const [feedback, setFeedback] = useState<CheckFeedback | null>(null);
+  const feedbackFor = useRef<string | null>(null); // item whose server feedback is awaited
   const [outcomes, setOutcomes] = useState<Outcome[]>([]);
   const { play, busy } = useSpeaker();
   const item = items[index];
@@ -55,6 +58,7 @@ export default function ExerciseRunner({ items, images, mode, accents, onOutcome
     setIndex(0);
     setResponse(null);
     setChecked(null);
+    setFeedback(null);
     setOutcomes([]);
   }, [items]);
 
@@ -71,6 +75,12 @@ export default function ExerciseRunner({ items, images, mode, accents, onOutcome
       setChecked(result);
       setOutcomes([...outcomes, outcome]);
       onOutcome?.(outcome);
+      if (!result.correct && scope && m === "typed") {
+        const asked = (feedbackFor.current = item.id);
+        checkItem(item, response, accents, scope)
+          .then((r) => { if (feedbackFor.current === asked && r.feedback?.some((f) => f.label)) setFeedback(r.feedback); })
+          .catch(() => undefined);
+      }
     } else {
       advance(outcome);
     }
@@ -87,6 +97,8 @@ export default function ExerciseRunner({ items, images, mode, accents, onOutcome
     // renders with the previous item's response.
     setResponse(null);
     setChecked(null);
+    setFeedback(null);
+    feedbackFor.current = null;
     setIndex(index + 1);
   }
 
@@ -125,6 +137,11 @@ export default function ExerciseRunner({ items, images, mode, accents, onOutcome
           {!checked.correct && m !== "self" && (
             <p className="feedbackKey" lang="grc">
               {keyText(item)} {audioText && <SpeakButton text={keyText(item) || audioText} play={play} busy={busy} small />}
+            </p>
+          )}
+          {!checked.correct && feedback && (
+            <p className="feedbackExplain feedbackForm">
+              {feedback.filter((f) => f.label).map((f, i) => <span key={i}>You typed the <strong>{f.label}</strong> of <span lang="grc">{f.lemma}</span>. </span>)}
             </p>
           )}
           {item.explain && <p className="feedbackExplain">{item.explain}</p>}
