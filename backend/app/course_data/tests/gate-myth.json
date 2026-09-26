@@ -1,0 +1,1126 @@
+{
+ "id": "gate-myth",
+ "title_grc": "Μυθολογία · ἔλεγχος",
+ "title_en": "Mythology track gate",
+ "scope": "myth.7",
+ "pass_score": 0.8,
+ "unlock_after_hours": 24,
+ "retake_after_days": 7,
+ "blurb": "The end of the mythology track. Track vocabulary, forms, eight sentences on the constructions of Apollodorus and Lucian, and an unseen page of the Epitome of Apollodorus: Daedalus and Icarus, and how Minos found Daedalus with a snail shell. Words outside the core list and the track list are glossed under the passage. No feedback until the end. 80 % to pass.",
+ "sections": [
+  {
+   "id": "vocab",
+   "title": "Λέξεις · Vocabulary",
+   "items": [
+    {
+     "type": "pick-picture",
+     "prompt": "ὁ λέων",
+     "audio": "prompt",
+     "options": [
+      {
+       "id": "a",
+       "image": "myth-pithos"
+      },
+      {
+       "id": "b",
+       "image": "myth-leon"
+      },
+      {
+       "id": "c",
+       "image": "myth-drakon"
+      },
+      {
+       "id": "d",
+       "image": "myth-korys"
+      }
+     ],
+     "answer": "b",
+     "skills": [
+      "vocab.recognition",
+      "vocab.myth"
+     ],
+     "explain": "ὁ λέων, τοῦ λέοντος.",
+     "id": "v1"
+    },
+    {
+     "type": "pick-picture",
+     "prompt": "ἡ τρίαινα",
+     "audio": "prompt",
+     "options": [
+      {
+       "id": "a",
+       "image": "myth-dory"
+      },
+      {
+       "id": "b",
+       "image": "myth-pelekys"
+      },
+      {
+       "id": "c",
+       "image": "myth-triaina"
+      },
+      {
+       "id": "d",
+       "image": "myth-rhopalon"
+      }
+     ],
+     "answer": "c",
+     "skills": [
+      "vocab.recognition",
+      "vocab.myth"
+     ],
+     "explain": "ἡ τρίαινα: Poseidon's trident.",
+     "id": "v2"
+    },
+    {
+     "type": "listen-pick",
+     "prompt": "Listen and choose what you hear.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ὁ χρησμός"
+      },
+      {
+       "id": "b",
+       "text": "ὁ χρυσός"
+      },
+      {
+       "id": "c",
+       "text": "ὁ δασμός"
+      }
+     ],
+     "answer": "a",
+     "audio": "ὁ χρησμός",
+     "skills": [
+      "listen.words",
+      "vocab.myth"
+     ],
+     "explain": "ὁ χρησμός: the oracle's answer.",
+     "id": "v3"
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "ἡ Ῥέα τὸν Δία ἐν ___ ἔτεκεν.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἄντρῳ"
+      },
+      {
+       "id": "b",
+       "text": "πίθῳ"
+      },
+      {
+       "id": "c",
+       "text": "λάρνακι"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "vocab.myth"
+     ],
+     "explain": "ἐν ἄντρῳ: in a cave on Crete.",
+     "id": "v4"
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "ὁ Θησεὺς ___ πετάσαι τὴν ναῦν λευκοῖς ἱστίοις.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἐπελάθετο"
+      },
+      {
+       "id": "b",
+       "text": "ἐφύτευσεν"
+      },
+      {
+       "id": "c",
+       "text": "ἔτεκεν"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "vocab.myth"
+     ],
+     "explain": "ἐπελάθετο 'forgot'.",
+     "id": "v5"
+    },
+    {
+     "type": "match",
+     "prompt": "Match the new words to their meanings.",
+     "pairs": [
+      {
+       "left": "ἀθάνατος",
+       "right": "immortal"
+      },
+      {
+       "left": "ἡ ἔρις",
+       "right": "strife"
+      },
+      {
+       "left": "ὁ ἆθλος",
+       "right": "labour, contest"
+      },
+      {
+       "left": "ὁ ὅρκος",
+       "right": "oath"
+      }
+     ],
+     "skills": [
+      "vocab.recognition",
+      "vocab.myth"
+     ],
+     "explain": "ἀ-θάνατος; ἔρις (-ιδος); ἆθλος; ὅρκος.",
+     "id": "v6"
+    },
+    {
+     "type": "produce-form",
+     "prompt": "Give the aorist of γαμέω for 'he married'.",
+     "lemma": "γαμέω",
+     "cell": "aorist.active.indicative.3sg",
+     "audio": "ἔγημεν",
+     "skills": [
+      "vocab.production",
+      "vocab.myth"
+     ],
+     "explain": "ἔγημε(ν).",
+     "id": "v7"
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "ὁ Μόλορχος τῷ Ἡρακλεῖ ὡς ___ ἐναγίζειν ἔμελλεν.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἥρωι"
+      },
+      {
+       "id": "b",
+       "text": "σωτῆρι"
+      },
+      {
+       "id": "c",
+       "text": "λέοντι"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "vocab.myth",
+      "syntax.hos"
+     ],
+     "explain": "ὡς ἥρωι: as to a dead hero.",
+     "id": "v8"
+    }
+   ]
+  },
+  {
+   "id": "forms",
+   "title": "Τύποι · Forms",
+   "generate": {
+    "skills": [
+     "verb.aor.pass.ind.3sg",
+     "verb.fut.act.ind.3sg",
+     "verb.aor.act.subj.3sg",
+     "verb.ptc.aor.act.gen",
+     "verb.ptc.aor.pass",
+     "syntax.gen-abs",
+     "verb.aor.mid.ind.3sg",
+     "noun.decl3.gen.sg"
+    ],
+    "n": 8,
+    "seed": 21
+   },
+   "items": [
+    {
+     "type": "parse",
+     "prompt": "Parse ἐγεννήθη.",
+     "form": "ἐγεννήθη",
+     "groups": [
+      {
+       "id": "tense",
+       "label": "Tense",
+       "options": [
+        {
+         "id": "pres",
+         "label": "present"
+        },
+        {
+         "id": "impf",
+         "label": "imperfect"
+        },
+        {
+         "id": "fut",
+         "label": "future"
+        },
+        {
+         "id": "aor",
+         "label": "aorist"
+        },
+        {
+         "id": "perf",
+         "label": "perfect"
+        },
+        {
+         "id": "plpf",
+         "label": "pluperfect"
+        }
+       ]
+      },
+      {
+       "id": "voice",
+       "label": "Voice",
+       "options": [
+        {
+         "id": "act",
+         "label": "active"
+        },
+        {
+         "id": "mid",
+         "label": "middle"
+        },
+        {
+         "id": "pass",
+         "label": "passive"
+        }
+       ]
+      },
+      {
+       "id": "person",
+       "label": "Person and number",
+       "options": [
+        {
+         "id": "1sg",
+         "label": "1st singular"
+        },
+        {
+         "id": "2sg",
+         "label": "2nd singular"
+        },
+        {
+         "id": "3sg",
+         "label": "3rd singular"
+        },
+        {
+         "id": "1pl",
+         "label": "1st plural"
+        },
+        {
+         "id": "2pl",
+         "label": "2nd plural"
+        },
+        {
+         "id": "3pl",
+         "label": "3rd plural"
+        }
+       ]
+      }
+     ],
+     "answer": {
+      "tense": "aor",
+      "voice": "pass",
+      "person": "3sg"
+     },
+     "audio": "ἐγεννήθη",
+     "skills": [
+      "verb.aor.pass.ind.3sg"
+     ],
+     "explain": "ἐ-γεννή-θη: aorist passive, 3rd singular, 'was born'.",
+     "id": "f1"
+    },
+    {
+     "type": "parse",
+     "prompt": "Parse ἀποκτενεῖ.",
+     "form": "ἀποκτενεῖ",
+     "groups": [
+      {
+       "id": "tense",
+       "label": "Tense",
+       "options": [
+        {
+         "id": "pres",
+         "label": "present"
+        },
+        {
+         "id": "impf",
+         "label": "imperfect"
+        },
+        {
+         "id": "fut",
+         "label": "future"
+        },
+        {
+         "id": "aor",
+         "label": "aorist"
+        },
+        {
+         "id": "perf",
+         "label": "perfect"
+        },
+        {
+         "id": "plpf",
+         "label": "pluperfect"
+        }
+       ]
+      },
+      {
+       "id": "mood",
+       "label": "Mood",
+       "options": [
+        {
+         "id": "ind",
+         "label": "indicative"
+        },
+        {
+         "id": "subj",
+         "label": "subjunctive"
+        },
+        {
+         "id": "opt",
+         "label": "optative"
+        },
+        {
+         "id": "imp",
+         "label": "imperative"
+        },
+        {
+         "id": "inf",
+         "label": "infinitive"
+        },
+        {
+         "id": "ptc",
+         "label": "participle"
+        }
+       ]
+      },
+      {
+       "id": "person",
+       "label": "Person and number",
+       "options": [
+        {
+         "id": "1sg",
+         "label": "1st singular"
+        },
+        {
+         "id": "2sg",
+         "label": "2nd singular"
+        },
+        {
+         "id": "3sg",
+         "label": "3rd singular"
+        },
+        {
+         "id": "1pl",
+         "label": "1st plural"
+        },
+        {
+         "id": "2pl",
+         "label": "2nd plural"
+        },
+        {
+         "id": "3pl",
+         "label": "3rd plural"
+        }
+       ]
+      }
+     ],
+     "answer": {
+      "tense": "fut",
+      "mood": "ind",
+      "person": "3sg"
+     },
+     "audio": "ἀποκτενεῖ",
+     "skills": [
+      "verb.fut.liquid"
+     ],
+     "explain": "ἀποκτεν-εῖ: liquid future (ἀποκτενῶ), 'will kill'.",
+     "id": "f2"
+    }
+   ]
+  },
+  {
+   "id": "sentences",
+   "title": "Λόγοι · Sentences",
+   "items": [
+    {
+     "type": "cloze-choice",
+     "prompt": "ὁ θεὸς ἔφη παῖδα ἐκ τῆς θυγατρὸς ___, ὃς αὐτὸν ἀποκτενεῖ.",
+     "options": [
+      {
+       "id": "a",
+       "text": "γενήσεσθαι"
+      },
+      {
+       "id": "b",
+       "text": "γενήσεται"
+      },
+      {
+       "id": "c",
+       "text": "γένηται"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.indirect-inf"
+     ],
+     "explain": "φημί + infinitive; future infinitive for the prophecy.",
+     "id": "s1"
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "___ δὲ ἔριδος περὶ τῆς χώρας, ὁ Ζεὺς κριτὰς ἔδωκεν.",
+     "options": [
+      {
+       "id": "a",
+       "text": "γενομένης"
+      },
+      {
+       "id": "b",
+       "text": "γενομένη"
+      },
+      {
+       "id": "c",
+       "text": "γενόμενος"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.gen-abs"
+     ],
+     "explain": "Genitive absolute.",
+     "id": "s2"
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "ἐὰν μὲν σῶος ___, Διὶ σωτῆρι θύειν.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἐπανέλθῃ"
+      },
+      {
+       "id": "b",
+       "text": "ἐπανῆλθεν"
+      },
+      {
+       "id": "c",
+       "text": "ἐπανέλθοι"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.cond.fmv"
+     ],
+     "explain": "ἐάν + subjunctive.",
+     "id": "s3"
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "οἱ Κούρητες τὰς ἀσπίδας ἔκρουον, ἵνα μὴ ὁ Κρόνος τῆς τοῦ παιδὸς φωνῆς ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἀκούσῃ"
+      },
+      {
+       "id": "b",
+       "text": "ἤκουσε"
+      },
+      {
+       "id": "c",
+       "text": "ἀκούσει"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.purpose"
+     ],
+     "explain": "ἵνα μή + subjunctive: purpose.",
+     "id": "s4"
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "ἦ που στρατόπεδον, οὐ κεφαλὴν ἐλελήθεις ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἔχων"
+      },
+      {
+       "id": "b",
+       "text": "ἔχειν"
+      },
+      {
+       "id": "c",
+       "text": "ἔχεις"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.ptc-supp"
+     ],
+     "explain": "λανθάνω + participle.",
+     "id": "s5"
+    },
+    {
+     "type": "label",
+     "prompt": "ὡς μὲν ἔνιοι λέγουσιν … ὡς δὲ ἔνιοί φασιν … What does the writer do?",
+     "options": [
+      {
+       "id": "a",
+       "text": "gives two versions without choosing"
+      },
+      {
+       "id": "b",
+       "text": "tells two different myths"
+      },
+      {
+       "id": "c",
+       "text": "quotes two gods"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "read.myth.variants"
+     ],
+     "explain": "Mythographers report variants: 'as some say … as others say'.",
+     "id": "s6"
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "Αἰγεὺς τῷ παιδὶ ἐνετείλατο λευκοῖς ___ τὴν ναῦν ἱστίοις.",
+     "options": [
+      {
+       "id": "a",
+       "text": "πετάσαι"
+      },
+      {
+       "id": "b",
+       "text": "πέτασον"
+      },
+      {
+       "id": "c",
+       "text": "πετάσῃ"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.infinitive"
+     ],
+     "explain": "ἐντέλλομαι + dative + infinitive.",
+     "id": "s7"
+    },
+    {
+     "type": "label",
+     "prompt": "εἰ δὲ ἀπειθήσεις, οὐ νῦν πρῶτον ὀργιζομένου πειράσῃ. This condition is …",
+     "options": [
+      {
+       "id": "a",
+       "text": "a warning or threat: εἰ + future indicative"
+      },
+      {
+       "id": "b",
+       "text": "contrary to fact"
+      },
+      {
+       "id": "c",
+       "text": "a wish"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.cond.simple"
+     ],
+     "explain": "εἰ + future indicative: 'if you disobey, (you'll be sorry)'.",
+     "id": "s8"
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "Ἀνάγνωσις · Reading",
+   "passage_title": "Δαίδαλος καὶ Ἴκαρος",
+   "passage_from": "apollod-epit-1.12",
+   "passage_note": "Apollodorus, Epitome 1.12–15, unadapted. It follows straight on from Lesson myth.6. Names: Μίνως (gen. Μίνωος) Minos, king of Crete; Θησεύς Theseus; Δαίδαλος Daedalus, the craftsman who built the Labyrinth; Ἴκαρος Icarus, his son; Ναυκράτη Naucrate, Icarus' mother, a slave woman of Minos; ἡ Ἰκαρία θάλασσα the Icarian Sea, south-west of Samos; Κάμικος Camicus, a town in Sicily; ἡ Σικελία Sicily; Κώκαλος Cocalus, king of Camicus. The first word, ὅτι, is the Byzantine summariser's marker for a new excerpt ('[note] that …'): leave it out when you translate.",
+   "glosses": {
+    "καθεῖρξεν": "shut up, imprisoned (καθείργνυμι)",
+    "πτερὰ": "feathers, wings (τὸ πτερόν)",
+    "ἀναπτάντι": "flying up (ἀναπέτομαι, root aorist participle, dative with τῷ παιδί)",
+    "ὕψος": "height (τὸ ὕψος)",
+    "τακείσης": "melting (τήκω, aorist passive participle)",
+    "κόλλης": "glue, wax (ἡ κόλλα)",
+    "πτέρυγες": "wings (ἡ πτέρυξ)",
+    "ἐγγὺς": "near (+ gen.)",
+    "θαλάσσης": "= θαλάττης",
+    "θάλασσαν": "= θάλατταν",
+    "νοτίδος": "damp, moisture (ἡ νοτίς)",
+    "ἀμελήσας": "disregarding (ἀμελέω + gen.)",
+    "ἐντολῶν": "instructions (ἡ ἐντολή < ἐντέλλομαι)",
+    "ψυχαγωγούμενος": "carried away (with delight)",
+    "μετέωρος": "aloft, high in the air",
+    "διασώζεται": "escapes safely (διασῴζομαι, historic present)",
+    "ἐρευνῶν": "searching (ἐρευνάω)",
+    "κόχλον": "a spiral shell (ὁ κόχλος)",
+    "κοχλίου": "the spiral shell (ὁ κοχλίας)",
+    "κοχλίαν": "the spiral shell (ὁ κοχλίας)",
+    "μισθὸν": "pay, a reward (ὁ μισθός)",
+    "διείραντι": "to the one who threaded (a thread) through (διείρω, aorist participle)",
+    "διείρειν": "to thread through (διείρω)",
+    "διειρμένον": "threaded through (διείρω, perfect passive participle)",
+    "ἐξάψας": "tying (ἐξάπτω + gen.: fasten to)",
+    "μύρμηκος": "of an ant (ὁ μύρμηξ)",
+    "τρήσας": "boring a hole in (τετραίνω, aorist participle)",
+    "διελθεῖν": "to go through (διέρχομαι)",
+    "ἀπῄτει": "demanded back (ἀπαιτέω, imperfect)",
+    "ὑποσχόμενος": "promising (ὑπισχνέομαι, aorist participle)",
+    "ἐκδώσειν": "to hand over (ἐκδίδωμι, future infinitive)",
+    "λουσάμενος": "having bathed (λούομαι)",
+    "ἔκλυτος": "undone, killed",
+    "ἔνιοί": "some (people); ἔνιοί φασι: some say",
+    "ζεστῷ": "boiling (ζεστός)",
+    "καταχυθεὶς": "having been drenched (καταχέω, aorist passive participle)",
+    "μετήλλαξεν": "died (μεταλλάττω τὸν βίον)"
+   },
+   "items": [
+    {
+     "type": "answer-grc",
+     "prompt": "τίνα ἐν τῷ λαβυρίνθῳ καθεῖρξεν ὁ Μίνως;",
+     "options": [
+      {
+       "id": "a",
+       "text": "τὸν Θησέα καὶ τὴν Ἀριάδνην."
+      },
+      {
+       "id": "b",
+       "text": "τὸν Δαίδαλον μετὰ τοῦ παιδός."
+      },
+      {
+       "id": "c",
+       "text": "τὸν Κώκαλον."
+      }
+     ],
+     "answer": "b",
+     "audio": "prompt",
+     "skills": [
+      "read.unseen",
+      "read.comprehension"
+     ],
+     "explain": "Δαίδαλον … ἐν τῷ λαβυρίνθῳ μετὰ τοῦ παιδὸς Ἰκάρου καθεῖρξεν.",
+     "id": "r1"
+    },
+    {
+     "type": "answer-grc",
+     "prompt": "διὰ τί ὀργίζεται ὁ Μίνως τῷ Δαιδάλῳ;",
+     "options": [
+      {
+       "id": "a",
+       "text": "ᾔσθετο γὰρ τοὺς μετὰ Θησέως φυγόντας, ὧν ὁ Δαίδαλος αἴτιος ἦν."
+      },
+      {
+       "id": "b",
+       "text": "ὁ Δαίδαλος γὰρ τὸν Ἴκαρον ἀπέκτεινεν."
+      },
+      {
+       "id": "c",
+       "text": "ὁ Δαίδαλος γὰρ τὸν Μινώταυρον ἀπέκτεινεν."
+      }
+     ],
+     "answer": "a",
+     "audio": "prompt",
+     "skills": [
+      "read.unseen",
+      "read.myth"
+     ],
+     "explain": "αἰσθόμενος τοῦ φεύγειν τοὺς μετὰ Θησέως, Δαίδαλον αἴτιον … καθεῖρξεν.",
+     "id": "r2"
+    },
+    {
+     "type": "answer-grc",
+     "prompt": "τί ἐνετείλατο ὁ Δαίδαλος τῷ παιδί;",
+     "options": [
+      {
+       "id": "a",
+       "text": "μήτε εἰς ὕψος πέτεσθαι μήτε ἐγγὺς τῆς θαλάττης."
+      },
+      {
+       "id": "b",
+       "text": "ταχέως πρὸς τὸν ἥλιον πέτεσθαι."
+      },
+      {
+       "id": "c",
+       "text": "ἐν τῷ λαβυρίνθῳ μένειν."
+      }
+     ],
+     "answer": "a",
+     "audio": "prompt",
+     "skills": [
+      "read.unseen",
+      "syntax.infinitive"
+     ],
+     "explain": "ἐνετείλατο μήτε εἰς ὕψος πέτεσθαι … μήτε ἐγγὺς θαλάσσης.",
+     "id": "r3"
+    },
+    {
+     "type": "answer-grc",
+     "prompt": "πῶς ἀπέθανεν ὁ Ἴκαρος;",
+     "options": [
+      {
+       "id": "a",
+       "text": "τακείσης τῆς κόλλης εἰς τὴν θάλατταν ἔπεσεν."
+      },
+      {
+       "id": "b",
+       "text": "ὁ Μίνως αὐτὸν ἀπέκτεινεν."
+      },
+      {
+       "id": "c",
+       "text": "ἐν τῷ λαβυρίνθῳ ἀπέθανεν."
+      }
+     ],
+     "answer": "a",
+     "audio": "prompt",
+     "skills": [
+      "read.unseen",
+      "syntax.gen-abs"
+     ],
+     "explain": "τακείσης δὲ τῆς κόλλης πεσὼν εἰς … θάλασσαν ἀπέθανε.",
+     "id": "r4"
+    },
+    {
+     "type": "answer-grc",
+     "prompt": "πῶς ηὗρεν ὁ Μίνως τὸν Δαίδαλον;",
+     "options": [
+      {
+       "id": "a",
+       "text": "τὸ λίνον διὰ τοῦ κοχλίου διειρμένον ἰδὼν ᾔσθετο αὐτὸν ἐκεῖ ὄντα."
+      },
+      {
+       "id": "b",
+       "text": "ὁ Κώκαλος αὐτῷ τὸν Δαίδαλον ἔδειξεν."
+      },
+      {
+       "id": "c",
+       "text": "ὁ Ἴκαρος αὐτῷ εἶπεν."
+      }
+     ],
+     "answer": "a",
+     "audio": "prompt",
+     "skills": [
+      "read.unseen",
+      "syntax.indirect-ptc"
+     ],
+     "explain": "λαβὼν δὲ Μίνως τὸ λίνον διειρμένον ᾔσθετο ὄντα παρ' ἐκείνῳ Δαίδαλον.",
+     "id": "r5"
+    },
+    {
+     "type": "parse",
+     "prompt": "Parse τακείσης.",
+     "form": "τακείσης",
+     "groups": [
+      {
+       "id": "tense",
+       "label": "Tense",
+       "options": [
+        {
+         "id": "pres",
+         "label": "present"
+        },
+        {
+         "id": "impf",
+         "label": "imperfect"
+        },
+        {
+         "id": "fut",
+         "label": "future"
+        },
+        {
+         "id": "aor",
+         "label": "aorist"
+        },
+        {
+         "id": "perf",
+         "label": "perfect"
+        },
+        {
+         "id": "plpf",
+         "label": "pluperfect"
+        }
+       ]
+      },
+      {
+       "id": "voice",
+       "label": "Voice",
+       "options": [
+        {
+         "id": "act",
+         "label": "active"
+        },
+        {
+         "id": "mid",
+         "label": "middle"
+        },
+        {
+         "id": "pass",
+         "label": "passive"
+        }
+       ]
+      },
+      {
+       "id": "mood",
+       "label": "Mood",
+       "options": [
+        {
+         "id": "ind",
+         "label": "indicative"
+        },
+        {
+         "id": "subj",
+         "label": "subjunctive"
+        },
+        {
+         "id": "opt",
+         "label": "optative"
+        },
+        {
+         "id": "imp",
+         "label": "imperative"
+        },
+        {
+         "id": "inf",
+         "label": "infinitive"
+        },
+        {
+         "id": "ptc",
+         "label": "participle"
+        }
+       ]
+      }
+     ],
+     "answer": {
+      "tense": "aor",
+      "voice": "pass",
+      "mood": "ptc"
+     },
+     "audio": "τακείσης",
+     "skills": [
+      "verb.ptc.aor.pass.gen",
+      "syntax.gen-abs"
+     ],
+     "explain": "τακ-είσης: aorist passive participle (second aorist passive of τήκω, ἐτάκην), genitive feminine, with τῆς κόλλης: a genitive absolute, 'when the glue melted'.",
+     "id": "r6"
+    },
+    {
+     "type": "parse",
+     "prompt": "Parse λυθῶσι.",
+     "form": "λυθῶσι",
+     "groups": [
+      {
+       "id": "tense",
+       "label": "Tense",
+       "options": [
+        {
+         "id": "pres",
+         "label": "present"
+        },
+        {
+         "id": "impf",
+         "label": "imperfect"
+        },
+        {
+         "id": "fut",
+         "label": "future"
+        },
+        {
+         "id": "aor",
+         "label": "aorist"
+        },
+        {
+         "id": "perf",
+         "label": "perfect"
+        },
+        {
+         "id": "plpf",
+         "label": "pluperfect"
+        }
+       ]
+      },
+      {
+       "id": "voice",
+       "label": "Voice",
+       "options": [
+        {
+         "id": "act",
+         "label": "active"
+        },
+        {
+         "id": "mid",
+         "label": "middle"
+        },
+        {
+         "id": "pass",
+         "label": "passive"
+        }
+       ]
+      },
+      {
+       "id": "mood",
+       "label": "Mood",
+       "options": [
+        {
+         "id": "ind",
+         "label": "indicative"
+        },
+        {
+         "id": "subj",
+         "label": "subjunctive"
+        },
+        {
+         "id": "opt",
+         "label": "optative"
+        },
+        {
+         "id": "imp",
+         "label": "imperative"
+        },
+        {
+         "id": "inf",
+         "label": "infinitive"
+        },
+        {
+         "id": "ptc",
+         "label": "participle"
+        }
+       ]
+      }
+     ],
+     "answer": {
+      "tense": "aor",
+      "voice": "pass",
+      "mood": "subj"
+     },
+     "audio": "λυθῶσι",
+     "skills": [
+      "syntax.purpose",
+      "syntax.fear"
+     ],
+     "explain": "λυ-θ-ῶσι: aorist passive subjunctive, 3rd plural, after μή: 'so that the wings would not come apart'.",
+     "id": "r7"
+    },
+    {
+     "type": "parse",
+     "prompt": "Parse ἐδίωκε.",
+     "form": "ἐδίωκε",
+     "groups": [
+      {
+       "id": "tense",
+       "label": "Tense",
+       "options": [
+        {
+         "id": "pres",
+         "label": "present"
+        },
+        {
+         "id": "impf",
+         "label": "imperfect"
+        },
+        {
+         "id": "fut",
+         "label": "future"
+        },
+        {
+         "id": "aor",
+         "label": "aorist"
+        },
+        {
+         "id": "perf",
+         "label": "perfect"
+        },
+        {
+         "id": "plpf",
+         "label": "pluperfect"
+        }
+       ]
+      },
+      {
+       "id": "person",
+       "label": "Person and number",
+       "options": [
+        {
+         "id": "1sg",
+         "label": "1st singular"
+        },
+        {
+         "id": "2sg",
+         "label": "2nd singular"
+        },
+        {
+         "id": "3sg",
+         "label": "3rd singular"
+        },
+        {
+         "id": "1pl",
+         "label": "1st plural"
+        },
+        {
+         "id": "2pl",
+         "label": "2nd plural"
+        },
+        {
+         "id": "3pl",
+         "label": "3rd plural"
+        }
+       ]
+      }
+     ],
+     "answer": {
+      "tense": "impf",
+      "person": "3sg"
+     },
+     "audio": "ἐδίωκε",
+     "skills": [
+      "verb.impf.act.ind.3sg"
+     ],
+     "explain": "ἐ-δίωκ-ε: imperfect, 'Minos kept pursuing'.",
+     "id": "r8"
+    },
+    {
+     "type": "translate-en",
+     "prompt": "Translate: ὁ δὲ πτερὰ κατασκευάσας ἑαυτῷ καὶ τῷ παιδὶ ἀναπτάντι ἐνετείλατο μήτε εἰς ὕψος πέτεσθαι, μὴ τακείσης τῆς κόλλης ὑπὸ τοῦ ἡλίου αἱ πτέρυγες λυθῶσι, μήτε ἐγγὺς θαλάσσης, ἵνα μὴ τὰ πτερὰ ὑπὸ τῆς νοτίδος λυθῇ.",
+     "audio": "ὁ δὲ πτερὰ κατασκευάσας ἑαυτῷ καὶ τῷ παιδὶ ἀναπτάντι ἐνετείλατο μήτε εἰς ὕψος πέτεσθαι, μὴ τακείσης τῆς κόλλης ὑπὸ τοῦ ἡλίου αἱ πτέρυγες λυθῶσι, μήτε ἐγγὺς θαλάσσης, ἵνα μὴ τὰ πτερὰ ὑπὸ τῆς νοτίδος λυθῇ.",
+     "model": "Daedalus made wings for himself and for his son, and as the boy was flying up he commanded him neither to fly high, in case the glue melted in the sun and the wings came apart, nor near the sea, so that the feathers would not come apart from the damp.",
+     "skills": [
+      "read.unseen",
+      "read.myth.apollodorus",
+      "syntax.purpose"
+     ],
+     "explain": "ἐνετείλατο + μήτε … μήτε + infinitive; μὴ … λυθῶσι and ἵνα μὴ … λυθῇ: two negative purpose clauses; τακείσης τῆς κόλλης: genitive absolute.",
+     "id": "r9"
+    },
+    {
+     "type": "translate-en",
+     "prompt": "Translate: τακείσης δὲ τῆς κόλλης πεσὼν εἰς τὴν ἀπʼ ἐκείνου κληθεῖσαν Ἰκαρίαν θάλασσαν ἀπέθανε.",
+     "audio": "τακείσης δὲ τῆς κόλλης πεσὼν εἰς τὴν ἀπʼ ἐκείνου κληθεῖσαν Ἰκαρίαν θάλασσαν ἀπέθανε.",
+     "model": "When the glue melted, he fell into the sea that was named Icarian after him, and died.",
+     "skills": [
+      "read.unseen",
+      "syntax.gen-abs"
+     ],
+     "explain": "τακείσης δὲ τῆς κόλλης (absolute); πεσών; τὴν ἀπ' ἐκείνου κληθεῖσαν Ἰκαρίαν θάλασσαν: a participle phrase in attributive position.",
+     "id": "r10"
+    },
+    {
+     "type": "translate-en",
+     "prompt": "Translate: λαβὼν δὲ Μίνως τὸ λίνον διειρμένον ᾔσθετο ὄντα παρʼ ἐκείνῳ Δαίδαλον, καὶ εὐθέως ἀπῄτει.",
+     "audio": "λαβὼν δὲ Μίνως τὸ λίνον διειρμένον ᾔσθετο ὄντα παρʼ ἐκείνῳ Δαίδαλον, καὶ εὐθέως ἀπῄτει.",
+     "model": "Minos took the thread that had been passed through and realised that Daedalus was with him (Kokalos), and at once demanded him back.",
+     "skills": [
+      "read.unseen",
+      "syntax.indirect-ptc"
+     ],
+     "explain": "ᾔσθετο + participle ὄντα: indirect statement ('perceived that he was'); ἀπῄτει 'demanded (him) back'.",
+     "id": "r11"
+    }
+   ]
+  }
+ ]
+}

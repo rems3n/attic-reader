@@ -291,6 +291,50 @@
    "license": "placeholder",
    "source_url": null,
    "words": []
+  },
+  {
+   "id": "pol-7-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Φίλιππος πολλὰς πόλεις αἱρεῖ",
+   "alt_en": "351 BC: Macedonian cavalry and a phalanx with long pikes before the walls of a northern Greek town; King Philip, bearded, one eye bandaged, rides at their head.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-7-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ Ἀθηναῖοι ἐν τῇ ἀγορᾷ πυνθάνονται εἴ τι καινὸν λέγεται",
+   "alt_en": "Athenians strolling in the Agora under a stoa, gossiping in little groups and asking a traveller for news.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-7-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Δημοσθένης ἐν τῇ Πυκνὶ λέγει",
+   "alt_en": "Demosthenes, a thin intense man, speaks from the stone platform of the Pnyx to thousands of seated citizens, one hand raised.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-demosthenes-bust",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὁ Δημοσθένης",
+   "alt_en": "Portrait bust of Demosthenes, Roman marble copy of the bronze statue by Polyeuktos set up in Athens in 280 BC.",
+   "credit": "placeholder (target: Wikimedia Commons photograph (Ny Carlsberg Glyptotek or Louvre copy), CC BY / PD)",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
   }
  ]
 }

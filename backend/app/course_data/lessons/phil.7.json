@@ -498,7 +498,7 @@
       "answer": "a",
       "skills": [
         "vocab.phil",
-        "verb.aor.mid.subj.3sg"
+        "verb.deponent"
       ],
       "explain": "ἀπεκρίνατο: aorist middle of ἀποκρίνομαι, 'he answered'.",
       "audio": "ταῦτα ἐρομένου αὐτοῦ οὐδὲν ἔτι ἀπεκρίνατο."
@@ -605,16 +605,8 @@
           "label": "Tense",
           "options": [
             {
-              "id": "pres",
-              "label": "present"
-            },
-            {
               "id": "impf",
               "label": "imperfect"
-            },
-            {
-              "id": "fut",
-              "label": "future"
             },
             {
               "id": "aor",
@@ -623,6 +615,10 @@
             {
               "id": "perf",
               "label": "perfect"
+            },
+            {
+              "id": "plpf",
+              "label": "pluperfect"
             }
           ]
         },
@@ -658,14 +654,14 @@
         }
       ],
       "answer": {
-        "tense": "perf",
+        "tense": "plpf",
         "person": "3sg"
       },
       "skills": [
         "verb.perf.reduplication",
         "read.plato"
       ],
-      "explain": "ἐν-ε-κε-κάλυπ-το: pluperfect middle of ἐγκαλύπτω (augment + reduplication; in this menu choose 'perfect' for the perfect system): 'he had covered his face'.",
+      "explain": "ἐν-ε-κε-κάλυπ-το: pluperfect middle of ἐγκαλύπτω (augment ε + reduplication κε-): 'he had covered his face' (and still was covered).",
       "audio": "ἐνεκεκάλυπτο"
     },
     {

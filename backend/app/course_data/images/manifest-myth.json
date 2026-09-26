@@ -430,6 +430,76 @@
    "license": "placeholder",
    "source_url": null,
    "words": []
+  },
+  {
+   "id": "myth-7-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Ἥφαιστος τὸν πέλεκυν ἔχων ἥκει.",
+   "alt_en": "Hephaestus arrives with his axe as Zeus sits enthroned (Attic black-figure vase of the birth of Athena).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-7-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Ἀθηνᾶ ἔνοπλος ἐκ τῆς τοῦ Διὸς κεφαλῆς πηδᾷ.",
+   "alt_en": "A small, fully armed Athena springs from the head of Zeus (Attic black-figure amphora, mid-6th century BC).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-7-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Ἀθηνᾶ τὴν ἀσπίδα τινάσσει καὶ τὸ δόρυ πάλλει.",
+   "alt_en": "Athena striding forward with raised spear and shield, the pose called Promachos (bronze statuette, Metropolitan Museum).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-pelekys",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ πέλεκυς",
+   "alt_en": "A bronze axe head.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πέλεκυς"
+   ]
+  },
+  {
+   "id": "myth-korys",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ κόρυς",
+   "alt_en": "A bronze Corinthian helmet.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "κόρυς"
+   ]
+  },
+  {
+   "id": "myth-culture-7",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ἡ τῆς Ἀθηνᾶς γένεσις, ὥσπερ ἐν τῷ ἀετώματι τοῦ Παρθενῶνος.",
+   "alt_en": "The birth of Athena as on the Parthenon's east pediment: a Roman marble well-head (the 'Madrid puteal') copying the scene, with Zeus seated, Athena striding away and Hephaestus with the axe (National Archaeological Museum, Madrid).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
   }
  ]
 }

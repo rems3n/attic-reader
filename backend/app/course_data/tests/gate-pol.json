@@ -1,0 +1,1180 @@
+{
+  "id": "gate-pol",
+  "title_grc": "Πολιτεία · ἔλεγχος",
+  "title_en": "Politics track gate",
+  "scope": "pol.7",
+  "pass_score": 0.8,
+  "unlock_after_hours": 24,
+  "retake_after_days": 7,
+  "blurb": "The end of the politics track. Track vocabulary (tribes, Council, lot, pay, courts), a few forms, eight sentences on the constructions of Aristotle and the orators, and an unseen page of Lysias: what happened after the Thirty's men seized him at his dinner. Words outside the core list and the track list are glossed under the passage. No feedback until the end. 80 % to pass.",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Λέξεις · Vocabulary",
+      "items": [
+        {
+          "type": "pick-picture",
+          "prompt": "τὸ ὄστρακον",
+          "audio": "prompt",
+          "options": [
+            {
+              "id": "a",
+              "image": "ostrakon"
+            },
+            {
+              "id": "b",
+              "image": "pol-pinakion"
+            },
+            {
+              "id": "c",
+              "image": "psephos"
+            },
+            {
+              "id": "d",
+              "image": "obolos"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "vocab.recognition",
+            "vocab.pol"
+          ],
+          "explain": "τὸ ὄστρακον: a potsherd with a name on it."
+        },
+        {
+          "type": "listen-pick",
+          "prompt": "Listen and choose what you hear.",
+          "options": [
+            {
+              "id": "a",
+              "text": "ἡ φυλή"
+            },
+            {
+              "id": "b",
+              "text": "ἡ βουλή"
+            },
+            {
+              "id": "c",
+              "text": "ἡ ψυχή"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "listen.words",
+            "vocab.pol"
+          ],
+          "explain": "ἡ φυλή: one of the ten tribes.",
+          "audio": "ἡ φυλή"
+        },
+        {
+          "type": "listen-pick",
+          "prompt": "Listen and choose what you hear.",
+          "options": [
+            {
+              "id": "a",
+              "text": "ὁ δῆμος τοῖς δικασταῖς μισθὸν δίδωσιν."
+            },
+            {
+              "id": "b",
+              "text": "ὁ δῆμος τοῖς δικασταῖς ψῆφον δίδωσιν."
+            },
+            {
+              "id": "c",
+              "text": "ἡ βουλὴ τοῖς πένησι μισθὸν δίδωσιν."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "listen.sentences",
+            "vocab.pol"
+          ],
+          "explain": "The people give the jurors pay.",
+          "audio": "ὁ δῆμος τοῖς δικασταῖς μισθὸν δίδωσιν."
+        },
+        {
+          "type": "match",
+          "prompt": "Match the Greek to the English.",
+          "pairs": [
+            {
+              "left": "ἡ βουλή",
+              "right": "Council"
+            },
+            {
+              "left": "ὁ δημότης",
+              "right": "demesman"
+            },
+            {
+              "left": "ἡ ὀλιγαρχία",
+              "right": "oligarchy"
+            },
+            {
+              "left": "ὁ συκοφάντης",
+              "right": "informer"
+            },
+            {
+              "left": "ὁ κατήγορος",
+              "right": "accuser"
+            }
+          ],
+          "skills": [
+            "vocab.recognition",
+            "vocab.pol"
+          ],
+          "explain": "βουλή, δημότης, ὀλιγαρχία, συκοφάντης, κατήγορος."
+        },
+        {
+          "type": "match",
+          "prompt": "Match the verbs to their meanings.",
+          "pairs": [
+            {
+              "left": "κληρόω",
+              "right": "choose by lot"
+            },
+            {
+              "left": "ὀστρακίζω",
+              "right": "ostracize"
+            },
+            {
+              "left": "δικάζω",
+              "right": "judge, sit as juror"
+            },
+            {
+              "left": "συλλαμβάνω",
+              "right": "arrest"
+            },
+            {
+              "left": "μετέχω",
+              "right": "have a share in"
+            }
+          ],
+          "skills": [
+            "vocab.recognition",
+            "vocab.pol"
+          ],
+          "explain": "κληρόω, ὀστρακίζω, δικάζω, συλλαμβάνω (+ acc.), μετέχω (+ gen.)."
+        },
+        {
+          "type": "cloze-type",
+          "prompt": "Type the Greek for 'pay, wages' (with its article).",
+          "gaps": [
+            {
+              "answers": [
+                "ὁ μισθός",
+                "μισθός"
+              ]
+            }
+          ],
+          "skills": [
+            "vocab.production",
+            "vocab.pol"
+          ],
+          "explain": "ὁ μισθός.",
+          "audio": "ὁ μισθός"
+        },
+        {
+          "type": "cloze-type",
+          "prompt": "Type the Greek for 'tribe' (with its article).",
+          "gaps": [
+            {
+              "answers": [
+                "ἡ φυλή",
+                "φυλή"
+              ]
+            }
+          ],
+          "skills": [
+            "vocab.production",
+            "vocab.pol"
+          ],
+          "explain": "ἡ φυλή.",
+          "audio": "ἡ φυλή"
+        },
+        {
+          "type": "cloze-type",
+          "prompt": "Type the Greek for 'the poor' (plural, with the article).",
+          "gaps": [
+            {
+              "answers": [
+                "οἱ πένητες",
+                "πένητες"
+              ]
+            }
+          ],
+          "skills": [
+            "vocab.production",
+            "vocab.pol"
+          ],
+          "explain": "οἱ πένητες (ὁ πένης, τοῦ πένητος).",
+          "audio": "οἱ πένητες"
+        },
+        {
+          "type": "cloze-type",
+          "prompt": "Type the Greek for 'democracy' (with its article).",
+          "gaps": [
+            {
+              "answers": [
+                "ἡ δημοκρατία",
+                "δημοκρατία"
+              ]
+            }
+          ],
+          "skills": [
+            "vocab.production",
+            "vocab.pol"
+          ],
+          "explain": "ἡ δημοκρατία.",
+          "audio": "ἡ δημοκρατία"
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "τὸν νοῦν προσέχειν τοῖς πράγμασι means …",
+          "options": [
+            {
+              "id": "a",
+              "text": "to pay attention to affairs"
+            },
+            {
+              "id": "b",
+              "text": "to hold the state together"
+            },
+            {
+              "id": "c",
+              "text": "to give up politics"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "vocab.recognition",
+            "vocab.pol"
+          ],
+          "explain": "προσέχω τὸν νοῦν + dative: 'I pay attention to'."
+        }
+      ]
+    },
+    {
+      "id": "forms",
+      "title": "Τύποι · Forms",
+      "generate": {
+        "skills": [
+          "verb.aor.pass.ind.3sg",
+          "verb.aor.act.ind.3pl",
+          "verb.pres.act.subj.3pl",
+          "verb.aor.act.subj.3sg",
+          "verb.pres.act.opt.3pl",
+          "verb.perf.mp.ind.3sg",
+          "verb.perf.act.ind.3sg",
+          "verb.impf.act.ind.3pl",
+          "verb.ptc.aor.act.gen",
+          "syntax.gen-abs",
+          "noun.decl3.gen.sg",
+          "adj.sup"
+        ],
+        "n": 12,
+        "seed": 23
+      },
+      "items": [
+        {
+          "type": "parse",
+          "prompt": "Parse ὠστρακίσθη.",
+          "form": "ὠστρακίσθη",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "fut",
+                  "label": "future"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                },
+                {
+                  "id": "perf",
+                  "label": "perfect"
+                }
+              ]
+            },
+            {
+              "id": "voice",
+              "label": "Voice",
+              "options": [
+                {
+                  "id": "act",
+                  "label": "active"
+                },
+                {
+                  "id": "mid",
+                  "label": "middle"
+                },
+                {
+                  "id": "pass",
+                  "label": "passive"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "aor",
+            "voice": "pass"
+          },
+          "skills": [
+            "verb.aor.pass.ind.3sg"
+          ],
+          "explain": "ὠ-στρακισ-θη: augment (ο → ω) and -θη: aorist passive, 'he was ostracized'.",
+          "audio": "ὠστρακίσθη"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse μετάσχωσι.",
+          "form": "μετάσχωσι",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "fut",
+                  "label": "future"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                },
+                {
+                  "id": "perf",
+                  "label": "perfect"
+                }
+              ]
+            },
+            {
+              "id": "mood",
+              "label": "Mood",
+              "options": [
+                {
+                  "id": "ind",
+                  "label": "indicative"
+                },
+                {
+                  "id": "subj",
+                  "label": "subjunctive"
+                },
+                {
+                  "id": "opt",
+                  "label": "optative"
+                },
+                {
+                  "id": "imp",
+                  "label": "imperative"
+                },
+                {
+                  "id": "inf",
+                  "label": "infinitive"
+                },
+                {
+                  "id": "ptc",
+                  "label": "participle"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "aor",
+            "mood": "subj"
+          },
+          "skills": [
+            "verb.aor.act.subj.3pl"
+          ],
+          "explain": "μετα-σχ-ῶσι: aorist subjunctive of μετέχω (aorist μετέσχον).",
+          "audio": "μετάσχωσι"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse ἐπιγέγραπται.",
+          "form": "ἐπιγέγραπται",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "fut",
+                  "label": "future"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                },
+                {
+                  "id": "perf",
+                  "label": "perfect"
+                }
+              ]
+            },
+            {
+              "id": "voice",
+              "label": "Voice",
+              "options": [
+                {
+                  "id": "act",
+                  "label": "active"
+                },
+                {
+                  "id": "mid",
+                  "label": "middle"
+                },
+                {
+                  "id": "pass",
+                  "label": "passive"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "perf",
+            "voice": "pass"
+          },
+          "skills": [
+            "verb.perf.mp.ind.3sg"
+          ],
+          "explain": "ἐπι-γέ-γραπ-ται: perfect passive of ἐπιγράφω, 'is inscribed'.",
+          "audio": "ἐπιγέγραπται"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse εἰληχότος.",
+          "form": "εἰληχότος",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "fut",
+                  "label": "future"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                },
+                {
+                  "id": "perf",
+                  "label": "perfect"
+                }
+              ]
+            },
+            {
+              "id": "mood",
+              "label": "Mood",
+              "options": [
+                {
+                  "id": "ind",
+                  "label": "indicative"
+                },
+                {
+                  "id": "subj",
+                  "label": "subjunctive"
+                },
+                {
+                  "id": "opt",
+                  "label": "optative"
+                },
+                {
+                  "id": "imp",
+                  "label": "imperative"
+                },
+                {
+                  "id": "inf",
+                  "label": "infinitive"
+                },
+                {
+                  "id": "ptc",
+                  "label": "participle"
+                }
+              ]
+            },
+            {
+              "id": "case",
+              "label": "Case",
+              "options": [
+                {
+                  "id": "nom",
+                  "label": "nominative"
+                },
+                {
+                  "id": "gen",
+                  "label": "genitive"
+                },
+                {
+                  "id": "dat",
+                  "label": "dative"
+                },
+                {
+                  "id": "acc",
+                  "label": "accusative"
+                },
+                {
+                  "id": "voc",
+                  "label": "vocative"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "perf",
+            "mood": "ptc",
+            "case": "gen"
+          },
+          "skills": [
+            "verb.ptc.perf.act"
+          ],
+          "explain": "εἰληχ-ότος: perfect active participle of λαγχάνω, genitive singular.",
+          "audio": "εἰληχότος"
+        }
+      ]
+    },
+    {
+      "id": "sentences",
+      "title": "Λόγοι · Sentences",
+      "items": [
+        {
+          "type": "cloze-choice",
+          "prompt": "ὁ Κλεισθένης δέκα φυλὰς ἐποίησεν, ὅπως πλείους τῆς πολιτείας ___.",
+          "options": [
+            {
+              "id": "a",
+              "text": "μετάσχωσιν"
+            },
+            {
+              "id": "b",
+              "text": "μετέσχον"
+            },
+            {
+              "id": "c",
+              "text": "μετέχουσιν"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "syntax.purpose"
+          ],
+          "explain": "ὅπως + subjunctive: purpose."
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "ὁ δῆμος φοβεῖται μὴ πάλιν τυραννὶς ___.",
+          "options": [
+            {
+              "id": "a",
+              "text": "γένηται"
+            },
+            {
+              "id": "b",
+              "text": "ἐγένετο"
+            },
+            {
+              "id": "c",
+              "text": "γενέσθαι"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "syntax.fear"
+          ],
+          "explain": "φοβεῖται μή + subjunctive: 'fears that … may arise'."
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "ὃς δ’ ἂν πλείστας ψήφους ___, δέκα ἔτη φεύγει.",
+          "options": [
+            {
+              "id": "a",
+              "text": "λάβῃ"
+            },
+            {
+              "id": "b",
+              "text": "ἔλαβε"
+            },
+            {
+              "id": "c",
+              "text": "λαβεῖν"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "syntax.indefinite"
+          ],
+          "explain": "ὃς ἄν + subjunctive: 'whoever gets'."
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "Θέογνις ἔλεγεν ὡς οἱ μέτοικοι τῇ πολιτείᾳ ἀχθόμενοι ___.",
+          "options": [
+            {
+              "id": "a",
+              "text": "εἶεν"
+            },
+            {
+              "id": "b",
+              "text": "ὦσι"
+            },
+            {
+              "id": "c",
+              "text": "ἔσονται"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "syntax.opt-indirect"
+          ],
+          "explain": "After a past verb of saying, ὡς + optative."
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "ἐὰν ταύτην τὴν πρόσοδον ἀφέλησθέ με, κινδυνεύσαιμ’ ___ ὑπὸ τῇ δυσχερεστάτῃ γενέσθαι τύχῃ.",
+          "options": [
+            {
+              "id": "a",
+              "text": "ἄν"
+            },
+            {
+              "id": "b",
+              "text": "ἐάν"
+            },
+            {
+              "id": "c",
+              "text": "ὅτι"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "syntax.opt-potential"
+          ],
+          "explain": "Potential optative: κινδυνεύσαιμι ἄν 'I would run the risk'."
+        },
+        {
+          "type": "transform",
+          "prompt": "Report it after φησί: «οὐ δικαίως λαμβάνει τὸ ἀργύριον.» → φησὶν ὁ κατήγορος αὐτὸν οὐ δικαίως ___ τὸ ἀργύριον.",
+          "template": "φησὶν ὁ κατήγορος αὐτὸν οὐ δικαίως ___ τὸ ἀργύριον.",
+          "gaps": [
+            {
+              "answers": [
+                "λαμβάνειν"
+              ]
+            }
+          ],
+          "skills": [
+            "syntax.indirect-inf",
+            "verb.phemi"
+          ],
+          "explain": "φημί + accusative and infinitive."
+        },
+        {
+          "type": "reorder",
+          "prompt": "Put the words in order: 'The Thirty arrested the rich metics.'",
+          "tokens": [
+            "οἱ",
+            "τριάκοντα",
+            "τοὺς",
+            "πλουσίους",
+            "μετοίκους",
+            "συνέλαβον"
+          ],
+          "answers": [
+            "οἱ τριάκοντα τοὺς πλουσίους μετοίκους συνέλαβον",
+            "οἱ τριάκοντα συνέλαβον τοὺς πλουσίους μετοίκους",
+            "τοὺς πλουσίους μετοίκους οἱ τριάκοντα συνέλαβον",
+            "τοὺς πλουσίους μετοίκους συνέλαβον οἱ τριάκοντα"
+          ],
+          "skills": [
+            "syntax.word-order",
+            "adj.attributive"
+          ],
+          "explain": "τοὺς πλουσίους μετοίκους: adjective in attributive position."
+        },
+        {
+          "type": "compose-grc",
+          "prompt": "Write in Greek: 'The lot gives each juror his court.' (ὁ κλῆρος)",
+          "gaps": [
+            {
+              "answers": [
+                "ὁ κλῆρος ἑκάστῳ δικαστῇ τὸ δικαστήριον δίδωσιν",
+                "ὁ κλῆρος ἑκάστῳ δικαστῇ τὸ δικαστήριον δίδωσι",
+                "ὁ κλῆρος τὸ δικαστήριον ἑκάστῳ δικαστῇ δίδωσιν",
+                "ὁ κλῆρος τὸ δικαστήριον ἑκάστῳ δικαστῇ δίδωσι",
+                "ὁ κλῆρος δίδωσιν ἑκάστῳ δικαστῇ τὸ δικαστήριον",
+                "ὁ κλῆρος δίδωσι ἑκάστῳ δικαστῇ τὸ δικαστήριον"
+              ]
+            }
+          ],
+          "skills": [
+            "vocab.production",
+            "syntax.dat.uses"
+          ],
+          "explain": "ἑκάστῳ δικαστῇ: dative, the indirect object."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Ἀνάγνωσις · Reading",
+      "passage_title": "Ὁ Πείσων καὶ ἡ κιβωτός",
+      "passage_from": "lysias-12.9",
+      "passage_note": "Lysias 12, Against Eratosthenes 9–10, unadapted: what happened next, after the Thirty's men seized Lysias at his dinner (pol.6). Lysias is speaking. Names: Πείσων Peison, one of the Thirty.",
+      "glosses": {
+        "ἔφασκεν": "said (ἔφασκον, imperfect of φάσκω = φημί)",
+        "ἕτοιμος": "ready (ἕτοιμος, -η, -ον)",
+        "οὔτʼ": "οὔτε … οὔτε: neither … nor",
+        "ἀναγκαιότατον": "most necessary (superlative of ἀναγκαῖος < ἀνάγκη)",
+        "ἐπειδὴ": "when, after",
+        "ὤμοσεν": "swore (ὄμνυμι, aorist ὤμοσα)",
+        "ἐξώλειαν": "utter destruction (ἡ ἐξώλεια)",
+        "ἐπαρώμενος": "calling down (curses) on (ἐπαράομαι + dative)",
+        "δωμάτιον": "a room, bedroom (τὸ δωμάτιον)",
+        "κιβωτὸν": "chest, strongbox (ἡ κιβωτός)",
+        "κιβωτῷ": "chest, strongbox (ἡ κιβωτός)",
+        "ἀνοίγνυμι": "I open (historic present)",
+        "ἐνόντα": "τὰ ἐνόντα: what was inside (participle of ἔνειμι)"
+      },
+      "items": [
+        {
+          "type": "answer-grc",
+          "prompt": "τί ἠρώτα ὁ Λυσίας τὸν Πείσωνα;",
+          "options": [
+            {
+              "id": "a",
+              "text": "εἰ βούλοιτο αὐτὸν σῶσαι χρήματα λαβών."
+            },
+            {
+              "id": "b",
+              "text": "εἰ βούλοιτο αὐτὸν ἀποκτεῖναι."
+            },
+            {
+              "id": "c",
+              "text": "ποῦ εἴη ὁ ἀδελφός."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.unseen",
+            "syntax.indirect-question"
+          ],
+          "explain": "ἠρώτων εἰ βούλοιτό με σῶσαι χρήματα λαβών.",
+          "audio": "prompt"
+        },
+        {
+          "type": "answer-grc",
+          "prompt": "πόσον ἀργύριον ἕτοιμος ἦν ὁ Λυσίας δοῦναι;",
+          "options": [
+            {
+              "id": "a",
+              "text": "τάλαντον."
+            },
+            {
+              "id": "b",
+              "text": "δύο ὀβολούς."
+            },
+            {
+              "id": "c",
+              "text": "τρία τάλαντα."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.unseen",
+            "read.comprehension"
+          ],
+          "explain": "τάλαντον ἀργυρίου ἕτοιμος εἴην δοῦναι.",
+          "audio": "prompt"
+        },
+        {
+          "type": "answer-grc",
+          "prompt": "διὰ τί ὁ Λυσίας πίστιν παρὰ τοῦ Πείσωνος λαβεῖν ἐβούλετο;",
+          "options": [
+            {
+              "id": "a",
+              "text": "ᾔδει ὅτι ὁ Πείσων οὔτε θεοὺς οὔτ’ ἀνθρώπους νομίζει."
+            },
+            {
+              "id": "b",
+              "text": "ὁ Πείσων φίλος αὐτοῦ ἦν."
+            },
+            {
+              "id": "c",
+              "text": "ὁ νόμος ἐκέλευεν."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.unseen",
+            "read.comprehension"
+          ],
+          "explain": "ἠπιστάμην μὲν οὖν ὅτι οὔτε θεοὺς οὔτ’ ἀνθρώπους νομίζει.",
+          "audio": "prompt"
+        },
+        {
+          "type": "answer-grc",
+          "prompt": "τί ἐποίησεν ὁ Λυσίας ἐπειδὴ ὁ Πείσων ὤμοσεν;",
+          "options": [
+            {
+              "id": "a",
+              "text": "εἰσελθὼν εἰς τὸ δωμάτιον τὴν κιβωτὸν ἀνοίγνυσιν."
+            },
+            {
+              "id": "b",
+              "text": "ἐκ τῆς οἰκίας ἔφυγεν."
+            },
+            {
+              "id": "c",
+              "text": "τοὺς ὑπηρέτας ἐκάλεσεν."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.unseen",
+            "read.comprehension"
+          ],
+          "explain": "εἰσελθὼν εἰς τὸ δωμάτιον τὴν κιβωτὸν ἀνοίγνυμι.",
+          "audio": "prompt"
+        },
+        {
+          "type": "answer-grc",
+          "prompt": "τί ἐκέλευσεν ὁ Πείσων τοὺς ὑπηρέτας;",
+          "options": [
+            {
+              "id": "a",
+              "text": "τὰ ἐν τῇ κιβωτῷ λαβεῖν."
+            },
+            {
+              "id": "b",
+              "text": "τὸν Λυσίαν ἀποκτεῖναι."
+            },
+            {
+              "id": "c",
+              "text": "τὸ τάλαντον τῷ Λυσίᾳ ἀποδοῦναι."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.unseen",
+            "read.comprehension"
+          ],
+          "explain": "τὰ ἐν τῇ κιβωτῷ λαβεῖν ἐκέλευσεν.",
+          "audio": "prompt"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse βούλοιτο.",
+          "form": "βούλοιτο",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "fut",
+                  "label": "future"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                },
+                {
+                  "id": "perf",
+                  "label": "perfect"
+                }
+              ]
+            },
+            {
+              "id": "mood",
+              "label": "Mood",
+              "options": [
+                {
+                  "id": "ind",
+                  "label": "indicative"
+                },
+                {
+                  "id": "subj",
+                  "label": "subjunctive"
+                },
+                {
+                  "id": "opt",
+                  "label": "optative"
+                },
+                {
+                  "id": "imp",
+                  "label": "imperative"
+                },
+                {
+                  "id": "inf",
+                  "label": "infinitive"
+                },
+                {
+                  "id": "ptc",
+                  "label": "participle"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "pres",
+            "mood": "opt"
+          },
+          "skills": [
+            "read.unseen",
+            "syntax.opt-indirect"
+          ],
+          "explain": "βούλ-οιτο: present optative middle, in an indirect question after the past ἠρώτων.",
+          "audio": "βούλοιτο"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse ὤμοσεν.",
+          "form": "ὤμοσεν",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "fut",
+                  "label": "future"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                },
+                {
+                  "id": "perf",
+                  "label": "perfect"
+                }
+              ]
+            },
+            {
+              "id": "person",
+              "label": "Person and number",
+              "options": [
+                {
+                  "id": "1sg",
+                  "label": "1st singular"
+                },
+                {
+                  "id": "2sg",
+                  "label": "2nd singular"
+                },
+                {
+                  "id": "3sg",
+                  "label": "3rd singular"
+                },
+                {
+                  "id": "1pl",
+                  "label": "1st plural"
+                },
+                {
+                  "id": "2pl",
+                  "label": "2nd plural"
+                },
+                {
+                  "id": "3pl",
+                  "label": "3rd plural"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "aor",
+            "person": "3sg"
+          },
+          "skills": [
+            "read.unseen",
+            "verb.aor.act.ind.3sg"
+          ],
+          "explain": "ὤμοσε(ν): aorist of ὄμνυμι 'swear' (augment ο → ω).",
+          "audio": "ὤμοσεν"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse αἰσθόμενος.",
+          "form": "αἰσθόμενος",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "fut",
+                  "label": "future"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                },
+                {
+                  "id": "perf",
+                  "label": "perfect"
+                }
+              ]
+            },
+            {
+              "id": "mood",
+              "label": "Mood",
+              "options": [
+                {
+                  "id": "ind",
+                  "label": "indicative"
+                },
+                {
+                  "id": "subj",
+                  "label": "subjunctive"
+                },
+                {
+                  "id": "opt",
+                  "label": "optative"
+                },
+                {
+                  "id": "imp",
+                  "label": "imperative"
+                },
+                {
+                  "id": "inf",
+                  "label": "infinitive"
+                },
+                {
+                  "id": "ptc",
+                  "label": "participle"
+                }
+              ]
+            },
+            {
+              "id": "case",
+              "label": "Case",
+              "options": [
+                {
+                  "id": "nom",
+                  "label": "nominative"
+                },
+                {
+                  "id": "gen",
+                  "label": "genitive"
+                },
+                {
+                  "id": "dat",
+                  "label": "dative"
+                },
+                {
+                  "id": "acc",
+                  "label": "accusative"
+                },
+                {
+                  "id": "voc",
+                  "label": "vocative"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "aor",
+            "mood": "ptc",
+            "case": "nom"
+          },
+          "skills": [
+            "read.unseen",
+            "verb.ptc.use"
+          ],
+          "explain": "αἰσθ-όμενος: second aorist participle of αἰσθάνομαι, 'having noticed'.",
+          "audio": "αἰσθόμενος"
+        },
+        {
+          "type": "translate-en",
+          "prompt": "Translate: ἐγὼ δὲ Πείσωνα μὲν ἠρώτων εἰ βούλοιτό με σῶσαι χρήματα λαβών.",
+          "audio": "ἐγὼ δὲ Πείσωνα μὲν ἠρώτων εἰ βούλοιτό με σῶσαι χρήματα λαβών.",
+          "model": "I asked Peison whether he was willing to save me if he got money.",
+          "skills": [
+            "read.unseen",
+            "syntax.indirect-question"
+          ],
+          "explain": "εἰ 'whether' + optative after a past verb; χρήματα λαβών 'having taken money': a condition in a participle."
+        },
+        {
+          "type": "translate-en",
+          "prompt": "Translate: ἠπιστάμην μὲν οὖν ὅτι οὔτε θεοὺς οὔτ’ ἀνθρώπους νομίζει, ὅμως δ’ ἐκ τῶν παρόντων ἐδόκει μοι ἀναγκαιότατον εἶναι πίστιν παρ’ αὐτοῦ λαβεῖν.",
+          "audio": "ἠπιστάμην μὲν οὖν ὅτι οὔτε θεοὺς οὔτ’ ἀνθρώπους νομίζει, ὅμως δ’ ἐκ τῶν παρόντων ἐδόκει μοι ἀναγκαιότατον εἶναι πίστιν παρ’ αὐτοῦ λαβεῖν.",
+          "model": "Now I knew that he respected neither gods nor men; but all the same, in the circumstances, it seemed to me absolutely necessary to get a pledge from him.",
+          "skills": [
+            "read.unseen",
+            "read.pol.oratory"
+          ],
+          "explain": "νομίζει here 'believes in, respects' (keeps the present of the original thought); ἐκ τῶν παρόντων 'as things stood'."
+        },
+        {
+          "type": "translate-en",
+          "prompt": "Translate: Πείσων δ’ αἰσθόμενος εἰσέρχεται, καὶ ἰδὼν τὰ ἐνόντα καλεῖ τῶν ὑπηρετῶν δύο, καὶ τὰ ἐν τῇ κιβωτῷ λαβεῖν ἐκέλευσεν.",
+          "audio": "Πείσων δ’ αἰσθόμενος εἰσέρχεται, καὶ ἰδὼν τὰ ἐνόντα καλεῖ τῶν ὑπηρετῶν δύο, καὶ τὰ ἐν τῇ κιβωτῷ λαβεῖν ἐκέλευσεν.",
+          "model": "Peison noticed and came in, and seeing what was inside he called two of his attendants and ordered them to take what was in the chest.",
+          "skills": [
+            "read.unseen",
+            "read.lysias"
+          ],
+          "explain": "Historic presents (εἰσέρχεται, καλεῖ) move the story fast, then an aorist (ἐκέλευσεν) closes it."
+        }
+      ]
+    }
+  ]
+}

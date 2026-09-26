@@ -1,0 +1,1574 @@
+{
+ "id": "myth.7",
+ "title_grc": "Ἥφαιστος καὶ Ζεύς",
+ "title_en": "Hephaestus and Zeus",
+ "summary_grc": "ὁ Ζεὺς τῷ Ἡφαίστῳ κελεύει τὴν κεφαλὴν αὐτοῦ τῷ πελέκει διελεῖν· ἐκ δὲ τῆς κεφαλῆς κόρη ἔνοπλος πηδᾷ, ἡ Ἀθηνᾶ.",
+ "summary_en": "Lucian's Dialogues of the Gods 8, unadapted: a comic scene of the birth of Athena. Zeus has a splitting headache and orders a nervous Hephaestus to take an axe to his skull; out jumps a girl in full armour, dancing, and Hephaestus asks for her hand as his midwife's fee.",
+ "cover": "myth-7-b",
+ "caption_grc": "τί τοῦτο; κόρη ἔνοπλος;",
+ "original": {
+  "text": "lucian-dd-8",
+  "note": "Lucian, Dialogues of the Gods 8 (Hephaestus and Zeus), complete and unadapted; each story sentence is one speech of the dialogue. Lucian of Samosata wrote in the 2nd century AD, six hundred years after our Athenian family: his Greek is 'Atticist', a deliberate imitation of Classical Attic, with a few later habits (ἐς for εἰς). Perseus prints το κρανίον; we restore the accent (τὸ κρανίον)."
+ },
+ "names": {
+  "Ἥφαιστος": [
+   "Ἥφαιστε"
+  ],
+  "Εἰλήθυια": [
+   "Εἰληθυίας",
+   "Εἰληθυίᾳ",
+   "Εἰλήθυιαν"
+  ]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "myth-7-a",
+   "sentences": [
+    {
+     "text": "Ἥφαιστος: τί με, ὦ Ζεῦ, χρὴ ποιεῖν; ἥκω γάρ, ὡς ἐκέλευσας, ἔχων τὸν πέλεκυν ὀξύτατον, εἰ καὶ λίθον δέοι μιᾷ πληγῇ διακόψαι.",
+     "orig": [
+      0,
+      1
+     ],
+     "glosses": [
+      {
+       "word": "πέλεκυν",
+       "kind": "pic",
+       "value": "myth-pelekys"
+      },
+      {
+       "word": "ὀξύτατον",
+       "kind": "<",
+       "value": "ὀξύς (sharp) | ὀξύτατος (sharpest, very sharp)"
+      },
+      {
+       "word": "δέοι",
+       "kind": "|",
+       "value": "δεῖ | δέοι (optative: 'even if it should be necessary')"
+      },
+      {
+       "word": "πληγῇ",
+       "kind": "<",
+       "value": "πλήττω | ἡ πληγή (a blow, a stroke)"
+      },
+      {
+       "word": "διακόψαι",
+       "kind": "<",
+       "value": "διά + κόπτω | διακόψαι (to cut through, split)"
+      }
+     ]
+    },
+    {
+     "text": "Ζεύς: εὖ γε, ὦ Ἥφαιστε· ἀλλὰ δίελέ μου τὴν κεφαλὴν ἐς δύο κατενεγκών.",
+     "orig": [
+      2,
+      3
+     ],
+     "glosses": [
+      {
+       "word": "εὖ",
+       "kind": "en",
+       "value": "well; εὖ γε: well done, good"
+      },
+      {
+       "word": "δίελέ",
+       "kind": "|",
+       "value": "διαιρέω (divide, split) | δίελε (aorist imperative); δίελέ μου: an enclitic follows"
+      },
+      {
+       "word": "ἐς",
+       "kind": "=",
+       "value": "εἰς (the older form, which Lucian likes)"
+      },
+      {
+       "word": "κατενεγκών",
+       "kind": "|",
+       "value": "καταφέρω | κατενεγκών (bringing it down: aorist participle)"
+      }
+     ]
+    },
+    {
+     "text": "Ἥφαιστος: πειρᾷ μου, εἰ μέμηνα; πρόσταττε δʼ οὖν τι ἄλλο ὅπερ ἐθέλεις σοι γενέσθαι.",
+     "orig": [
+      4,
+      5
+     ],
+     "glosses": [
+      {
+       "word": "πειρᾷ",
+       "kind": "|",
+       "value": "πειράω + gen. (make trial of) | πειρᾷ μου (you are testing me?: 2nd singular middle)"
+      },
+      {
+       "word": "μέμηνα",
+       "kind": "|",
+       "value": "μαίνομαι (be mad) | μέμηνα (perfect with present meaning: I am mad)"
+      },
+      {
+       "word": "πρόσταττε",
+       "kind": "|",
+       "value": "προστάττω | πρόσταττε (present imperative: order!)"
+      },
+      {
+       "word": "ὅπερ",
+       "kind": "=",
+       "value": "ὅ (the very thing which)"
+      }
+     ]
+    },
+    {
+     "text": "Ζεύς: τοῦτο αὐτό, διαιρεθῆναί μοι τὸ κρανίον· εἰ δὲ ἀπειθήσεις, οὐ νῦν πρῶτον ὀργιζομένου πειράσῃ.",
+     "orig": [
+      6,
+      7
+     ],
+     "glosses": [
+      {
+       "word": "διαιρεθῆναί",
+       "kind": "|",
+       "value": "διαιρέω | διαιρεθῆναι (aorist passive infinitive: to be split); τοῦτο αὐτό: 'this very thing'"
+      },
+      {
+       "word": "κρανίον",
+       "kind": "en",
+       "value": "skull (τὸ κρανίον)"
+      },
+      {
+       "word": "ἀπειθήσεις",
+       "kind": "<",
+       "value": "ἀ- + πείθομαι (obey) | ἀπειθέω (disobey) | ἀπειθήσεις (future)"
+      },
+      {
+       "word": "ὀργιζομένου",
+       "kind": "note",
+       "value": "ὀργιζομένου (μου) πειράσῃ: 'you will have experience of me angry' (πειράομαι + gen.)"
+      },
+      {
+       "word": "πειράσῃ",
+       "kind": "|",
+       "value": "πειράω | πειράσῃ (future middle, 2nd singular)"
+      }
+     ]
+    },
+    {
+     "text": "ἀλλὰ χρὴ καθικνεῖσθαι παντὶ τῷ θυμῷ, μηδὲ μέλλειν· ἀπόλλυμαι γὰρ ὑπὸ ὠδίνων, αἵ μοι τὸν ἐγκέφαλον ἀναστρέφουσιν.",
+     "orig": [
+      8,
+      9
+     ],
+     "glosses": [
+      {
+       "word": "καθικνεῖσθαι",
+       "kind": "en",
+       "value": "to strike home (καθικνέομαι)"
+      },
+      {
+       "word": "ἀπόλλυμαι",
+       "kind": "|",
+       "value": "ἀπόλλυμι | ἀπόλλυμαι (I am dying, I am done for)"
+      },
+      {
+       "word": "ὠδίνων",
+       "kind": "en",
+       "value": "birth pains (ἡ ὠδίς, ὠδῖνος): Zeus does not yet know he is in labour"
+      },
+      {
+       "word": "ἐγκέφαλον",
+       "kind": "<",
+       "value": "ἐν + κεφαλή | ὁ ἐγκέφαλος (the brain)"
+      },
+      {
+       "word": "ἀναστρέφουσιν",
+       "kind": "en",
+       "value": "turn upside down (ἀναστρέφω)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "myth-7-b",
+   "sentences": [
+    {
+     "text": "Ἥφαιστος: ὅρα, ὦ Ζεῦ, μὴ κακόν τι ποιήσωμεν· ὀξὺς γὰρ ὁ πέλεκύς ἐστι καὶ οὐκ ἀναιμωτὶ οὐδὲ κατὰ τὴν Εἰλήθυιαν μαιώσεταί σε.",
+     "orig": [
+      10,
+      11
+     ],
+     "glosses": [
+      {
+       "word": "ὅρα",
+       "kind": "note",
+       "value": "ὅρα μή + subjunctive: 'see that we don't …, be careful not to …'"
+      },
+      {
+       "word": "ἀναιμωτὶ",
+       "kind": "en",
+       "value": "without bloodshed (ἀ- + αἷμα)"
+      },
+      {
+       "word": "Εἰλήθυιαν",
+       "kind": "note",
+       "value": "Eileithyia, the goddess of childbirth: 'not in the gentle way Eileithyia does it'"
+      },
+      {
+       "word": "μαιώσεταί",
+       "kind": "en",
+       "value": "will deliver you like a midwife (μαιόομαι, future); μαιώσεταί σε: an enclitic follows"
+      }
+     ]
+    },
+    {
+     "text": "Ζεύς: Κατένεγκε μόνον, ὦ Ἥφαιστε, θαρρῶν· οἶδα ἐγὼ τὸ συμφέρον.",
+     "orig": [
+      12,
+      13
+     ],
+     "glosses": [
+      {
+       "word": "Κατένεγκε",
+       "kind": "|",
+       "value": "καταφέρω | κατένεγκε (aorist imperative: bring it down!)"
+      },
+      {
+       "word": "θαρρῶν",
+       "kind": "|",
+       "value": "θαρρέω (be of good courage) | θαρρῶν (with confidence)"
+      },
+      {
+       "word": "συμφέρον",
+       "kind": "<",
+       "value": "συμφέρει (it is useful) | τὸ συμφέρον (what is good for me)"
+      }
+     ]
+    },
+    {
+     "text": "Ἥφαιστος: ἄκων μέν, κατοίσω δέ· τί γὰρ χρὴ ποιεῖν σοῦ κελεύοντος;",
+     "orig": [
+      14,
+      15
+     ],
+     "glosses": [
+      {
+       "word": "ἄκων",
+       "kind": "↔",
+       "value": "ἑκών (willing) | ἄκων (unwilling, against my will)"
+      },
+      {
+       "word": "κατοίσω",
+       "kind": "|",
+       "value": "καταφέρω | κατοίσω (future: I will bring it down)"
+      }
+     ]
+    },
+    {
+     "text": "τί τοῦτο; κόρη ἔνοπλος;",
+     "orig": [
+      16,
+      17
+     ],
+     "glosses": [
+      {
+       "word": "ἔνοπλος",
+       "kind": "<",
+       "value": "ἐν + ὅπλα | ἔνοπλος (armed, in armour)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "myth-7-c",
+   "sentences": [
+    {
+     "text": "μέγα, ὦ Ζεῦ, κακὸν εἶχες ἐν τῇ κεφαλῇ· εἰκότως γοῦν ὀξύθυμος ἦσθα τηλικαύτην ὑπὸ τῇ μήνιγγι παρθένον ζῳογονῶν καὶ ταῦτα ἔνοπλον·",
+     "orig": [
+      18,
+      19
+     ],
+     "glosses": [
+      {
+       "word": "εἰκότως",
+       "kind": "en",
+       "value": "naturally, with good reason"
+      },
+      {
+       "word": "γοῦν",
+       "kind": "=",
+       "value": "γε οὖν (at any rate)"
+      },
+      {
+       "word": "ὀξύθυμος",
+       "kind": "<",
+       "value": "ὀξύς + θυμός | ὀξύθυμος (quick-tempered)"
+      },
+      {
+       "word": "τηλικαύτην",
+       "kind": "en",
+       "value": "so big (τηλικοῦτος)"
+      },
+      {
+       "word": "μήνιγγι",
+       "kind": "en",
+       "value": "the membrane of the brain (ἡ μῆνιγξ): 'under your skull'"
+      },
+      {
+       "word": "ζῳογονῶν",
+       "kind": "<",
+       "value": "ζῷον + γίγνομαι | ζῳογονέω (bring forth alive), 'carrying, giving birth to'"
+      },
+      {
+       "word": "ταῦτα",
+       "kind": "note",
+       "value": "καὶ ταῦτα: 'and that too' (and an armed one at that)"
+      }
+     ]
+    },
+    {
+     "text": "ἦ που στρατόπεδον, οὐ κεφαλὴν ἐλελήθεις ἔχων.",
+     "orig": [
+      20
+     ],
+     "glosses": [
+      {
+       "word": "ἦ",
+       "kind": "en",
+       "value": "ἦ που: surely, I suppose"
+      },
+      {
+       "word": "στρατόπεδον",
+       "kind": "en",
+       "value": "an army camp (τὸ στρατόπεδον)"
+      },
+      {
+       "word": "ἐλελήθεις",
+       "kind": "|",
+       "value": "λανθάνω | ἐλελήθεις (pluperfect: you had been, without knowing it, ἔχων: carrying)"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ πηδᾷ καὶ πυρριχίζει καὶ τὴν ἀσπίδα τινάσσει καὶ τὸ δόρυ πάλλει καὶ ἐνθουσιᾷ, καὶ τὸ μέγιστον, καλὴ πάνυ καὶ ἀκμαία γεγένηται ἤδη ἐν βραχεῖ· γλαυκῶπις μέν, ἀλλὰ κοσμεῖ καὶ τοῦτο ἡ κόρυς.",
+     "orig": [
+      21,
+      22
+     ],
+     "glosses": [
+      {
+       "word": "πηδᾷ",
+       "kind": "en",
+       "value": "leaps (πηδάω)"
+      },
+      {
+       "word": "πυρριχίζει",
+       "kind": "en",
+       "value": "dances the pyrrhic, the war dance in armour"
+      },
+      {
+       "word": "τινάσσει",
+       "kind": "en",
+       "value": "shakes (τινάσσω)"
+      },
+      {
+       "word": "πάλλει",
+       "kind": "en",
+       "value": "brandishes (πάλλω)"
+      },
+      {
+       "word": "ἐνθουσιᾷ",
+       "kind": "en",
+       "value": "is inspired, in a frenzy (ἐνθουσιάζω: 'the god within')"
+      },
+      {
+       "word": "ἀκμαία",
+       "kind": "en",
+       "value": "in her prime (ἡ ἀκμή)"
+      },
+      {
+       "word": "βραχεῖ",
+       "kind": "note",
+       "value": "ἐν βραχεῖ: in a moment"
+      },
+      {
+       "word": "γλαυκῶπις",
+       "kind": "en",
+       "value": "grey-eyed, owl-eyed: Athena's epithet in Homer"
+      },
+      {
+       "word": "κοσμεῖ",
+       "kind": "en",
+       "value": "adorns, suits (κοσμέω)"
+      },
+      {
+       "word": "κόρυς",
+       "kind": "pic",
+       "value": "myth-korys"
+      }
+     ]
+    },
+    {
+     "text": "ὥστε, ὦ Ζεῦ, μαίωτρά μοι ἀπόδος ἐγγυήσας ἤδη αὐτήν.",
+     "orig": [
+      23
+     ],
+     "glosses": [
+      {
+       "word": "μαίωτρά",
+       "kind": "en",
+       "value": "a midwife's fee (τὰ μαίωτρα)"
+      },
+      {
+       "word": "ἀπόδος",
+       "kind": "|",
+       "value": "ἀποδίδωμι | ἀπόδος (aorist imperative: pay!)"
+      },
+      {
+       "word": "ἐγγυήσας",
+       "kind": "en",
+       "value": "betrothing, giving her in marriage (ἐγγυάω)"
+      }
+     ]
+    },
+    {
+     "text": "Ζεύς: ἀδύνατα αἰτεῖς, ὦ Ἥφαιστε· παρθένος γὰρ ἀεὶ ἐθελήσει μένειν. ἐγὼ δʼ οὖν τό γε ἐπʼ ἐμοὶ οὐδὲν ἀντιλέγω.",
+     "orig": [
+      24,
+      25,
+      26
+     ],
+     "glosses": [
+      {
+       "word": "ἀδύνατα",
+       "kind": "↔",
+       "value": "δυνατός | ἀδύνατος (impossible)"
+      },
+      {
+       "word": "ἐθελήσει",
+       "kind": "|",
+       "value": "ἐθέλω | ἐθελήσει (future)"
+      },
+      {
+       "word": "ἐπʼ",
+       "kind": "note",
+       "value": "τό γε ἐπ' ἐμοί: 'as far as it depends on me'"
+      },
+      {
+       "word": "ἀντιλέγω",
+       "kind": "<",
+       "value": "ἀντί + λέγω | ἀντιλέγω (speak against, object)"
+      }
+     ]
+    },
+    {
+     "text": "Ἥφαιστος: τοῦτʼ ἐβουλόμην· ἐμοὶ μελήσει τὰ λοιπά, καὶ ἤδη συναρπάσω αὐτήν.",
+     "orig": [
+      27,
+      28
+     ],
+     "glosses": [
+      {
+       "word": "μελήσει",
+       "kind": "en",
+       "value": "μέλει μοι: it is my concern; μελήσει (future): 'the rest will be my business'"
+      },
+      {
+       "word": "συναρπάσω",
+       "kind": "<",
+       "value": "σύν + ἁρπάζω | συναρπάσω (I will carry her off)"
+      }
+     ]
+    },
+    {
+     "text": "Ζεύς: εἴ σοι ῥᾴδιον, οὕτω ποίει· πλὴν οἶδα ὅτι ἀδυνάτων ἐρᾷς.",
+     "orig": [
+      29,
+      30
+     ],
+     "glosses": [
+      {
+       "word": "οὕτω",
+       "kind": "=",
+       "value": "οὕτως (so, like this)"
+      },
+      {
+       "word": "ἐρᾷς",
+       "kind": "|",
+       "value": "ἐράω + gen. | ἐρᾷς (you are in love with, you desire)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "πελεκυς",
+   "pic": "myth-pelekys",
+   "gloss_grc": "ὁ πέλεκυς, τοῦ πελέκεως: axe"
+  },
+  {
+   "id": "πληγη",
+   "gloss_grc": "ἡ πληγή < πλήττω · μιᾷ πληγῇ"
+  },
+  {
+   "id": "κρανιον",
+   "gloss_grc": "τὸ κρανίον: skull"
+  },
+  {
+   "id": "εγκεφαλος",
+   "gloss_grc": "ὁ ἐγκέφαλος < ἐν + κεφαλή"
+  },
+  {
+   "id": "ενοπλος",
+   "gloss_grc": "ἔνοπλος, -ον < ἐν + ὅπλα · κόρη ἔνοπλος"
+  },
+  {
+   "id": "κορυς",
+   "pic": "myth-korys",
+   "gloss_grc": "ἡ κόρυς, τῆς κόρυθος: helmet"
+  },
+  {
+   "id": "θαρρεω",
+   "gloss_grc": "θαρρέω · θάρρει! (cheer up!)"
+  },
+  {
+   "id": "μαινομαι",
+   "gloss_grc": "μαίνομαι · μέμηνα (I am mad)"
+  },
+  {
+   "id": "απειθεω",
+   "gloss_grc": "ἀπειθέω + dat. ↔ πείθομαι"
+  },
+  {
+   "id": "πειραω",
+   "gloss_grc": "πειράω · πειράομαι + gen. (make trial of)"
+  },
+  {
+   "id": "εγγυαω",
+   "gloss_grc": "ἐγγυάω: betroth, give in marriage"
+  },
+  {
+   "id": "προσταττω",
+   "gloss_grc": "προστάττω · πρόσταττε"
+  },
+  {
+   "id": "παρθενος",
+   "gloss_grc": "ἡ παρθένος · παρθένος ἀεὶ μένειν"
+  }
+ ],
+ "notice": [
+  "δίελέ μου τὴν κεφαλήν · πρόσταττε · κατένεγκε · ἀπόδος · ποίει",
+  "ὅρα, ὦ Ζεῦ, μὴ κακόν τι ποιήσωμεν",
+  "εἰ δὲ ἀπειθήσεις, οὐ νῦν πρῶτον ὀργιζομένου πειράσῃ",
+  "ἦ που στρατόπεδον, οὐ κεφαλὴν ἐλελήθεις ἔχων",
+  "ἐμοὶ μελήσει τὰ λοιπά"
+ ],
+ "grammar": {
+  "md": "**Reading Lucian: a comic dialogue.** Lucian wrote about AD 160 in a Greek modelled on Plato and the Attic comic poets. Short speeches, lots of commands and questions, and grammar you already know used for jokes.\n\n**1. Commands.** δίελε 'split!', πρόσταττε 'order!', κατένεγκε 'bring it down!', ἀπόδος 'pay!', ποίει 'do it!'. Aorist imperatives (δίελε, κατένεγκε, ἀπόδος) are one-off orders; presents (πρόσταττε, ποίει) are 'go on and …'.\n\n**2. Warnings and threats.** ὅρα μὴ … ποιήσωμεν 'see that we don't do something bad' (μή + subjunctive after a verb of watching, like a fear clause). εἰ δὲ ἀπειθήσεις, … πειράσῃ 'if you disobey, you'll find out' : εἰ + future indicative is the Greek for threats and warnings (a 'minatory' condition).\n\n**3. A supplementary participle for the punch line.** ἦ που στρατόπεδον, οὐ κεφαλὴν ἐλελήθεις ἔχων 'surely you had been carrying an army camp, not a head, without knowing it': λανθάνω + participle, 'escape one's own notice doing' (Unit 7). ἐλελήθεις is pluperfect: 'all this time'.\n\n**4. Perfects with present meaning.** μέμηνα 'I am mad', οἶδα 'I know': the state that results from an action.\n\n**5. Impersonal verbs.** μέλει μοι 'it is my concern' → ἐμοὶ μελήσει τὰ λοιπά 'the rest will be my business'; δεῖ → εἰ … δέοι 'if it should be necessary'.\n\n| Lucian | Plato or Xenophon would also say |\n|---|---|\n| ἐς δύο | εἰς δύο (both occur in Attic; Thucydides prefers ἐς) |\n| πειρᾷ μου | πειρᾷ μου (the same!) |\n| κόρυς | κράνος (κόρυς is poetic: Lucian is quoting Homer's Athena) |",
+  "paradigms": [],
+  "diagram": "diagram-supplementary"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings.",
+   "template": "ἥκω ἔχων τὸν πέλεκ___ ὀξύτατον. ὀξὺς γὰρ ὁ πέλεκ___ ἐστι. ὁ Ζεὺς τὴν κεφαλ___ διαιρεθῆναι ἐκέλευσεν.",
+   "gaps": [
+    {
+     "answers": [
+      "υν"
+     ]
+    },
+    {
+     "answers": [
+      "υς"
+     ]
+    },
+    {
+     "answers": [
+      "ὴν",
+      "ην"
+     ]
+    }
+   ],
+   "skills": [
+    "noun.decl3.acc.sg",
+    "noun.decl3.nom.sg",
+    "noun.decl1.acc.sg"
+   ],
+   "explain": "τὸν πέλεκυν (accusative, like τὴν πόλιν); ὁ πέλεκυς (nominative); τὴν κεφαλήν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἥκω ἔχων τὸν πέλεκυν ὀξύτατον, εἰ καὶ λίθον δέοι μιᾷ ___ διακόψαι.",
+   "options": [
+    {
+     "id": "a",
+     "text": "πληγῇ"
+    },
+    {
+     "id": "b",
+     "text": "κόρυθι"
+    },
+    {
+     "id": "c",
+     "text": "κεφαλῇ"
+    }
+   ],
+   "answer": "a",
+   "audio": "ἥκω ἔχων τὸν πέλεκυν ὀξύτατον, εἰ καὶ λίθον δέοι μιᾷ πληγῇ διακόψαι.",
+   "skills": [
+    "vocab.myth"
+   ],
+   "explain": "μιᾷ πληγῇ 'with a single blow'."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · τί τοῦτο; κόρη ___;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἔνοπλος"
+    },
+    {
+     "id": "b",
+     "text": "θνητή"
+    },
+    {
+     "id": "c",
+     "text": "λευκή"
+    }
+   ],
+   "answer": "a",
+   "audio": "τί τοῦτο; κόρη ἔνοπλος;",
+   "skills": [
+    "vocab.myth"
+   ],
+   "explain": "κόρη ἔνοπλος 'a girl in armour'."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · κατένεγκε μόνον, ὦ Ἥφαιστε, ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "θαρρῶν"
+    },
+    {
+     "id": "b",
+     "text": "μαινόμενος"
+    },
+    {
+     "id": "c",
+     "text": "ἀπειθῶν"
+    }
+   ],
+   "answer": "a",
+   "audio": "κατένεγκε μόνον, ὦ Ἥφαιστε, θαρρῶν.",
+   "skills": [
+    "vocab.myth",
+    "verb.ptc.pres.act"
+   ],
+   "explain": "θαρρῶν 'with courage, confidently'."
+  },
+  {
+   "type": "match",
+   "prompt": "Match the new words to their meanings.",
+   "pairs": [
+    {
+     "left": "ὁ πέλεκυς",
+     "right": "axe"
+    },
+    {
+     "left": "τὸ κρανίον",
+     "right": "skull"
+    },
+    {
+     "left": "ὁ ἐγκέφαλος",
+     "right": "brain"
+    },
+    {
+     "left": "ἡ κόρυς",
+     "right": "helmet"
+    },
+    {
+     "left": "ἡ πληγή",
+     "right": "blow"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "πέλεκυς (-εως), κρανίον, ἐγκέφαλος (ἐν + κεφαλή), κόρυς (-υθος), πληγή (πλήττω)."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ἡ κόρυς",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "myth-korys"
+    },
+    {
+     "id": "b",
+     "image": "myth-pelekys"
+    },
+    {
+     "id": "c",
+     "image": "myth-aspis"
+    },
+    {
+     "id": "d",
+     "image": "myth-dory"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "ἡ κόρυς: the helmet."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the dative singular of πέλεκυς (τῷ ___).",
+   "lemma": "πέλεκυς",
+   "cell": "dat.sg",
+   "audio": "πελέκει",
+   "skills": [
+    "noun.decl3.dat.sg",
+    "vocab.myth"
+   ],
+   "explain": "πελέκει, like πόλει."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the present imperative of θαρρέω for 'cheer up!' (to one person).",
+   "lemma": "θαρρέω",
+   "cell": "present.active.imperative.2sg",
+   "audio": "θάρρει",
+   "skills": [
+    "vocab.production",
+    "verb.pres.act.imp.2sg"
+   ],
+   "explain": "θάρρει: θάρρε-ε → θάρρει, like ποίει."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the future of ἀπειθέω for 'you will disobey'.",
+   "lemma": "ἀπειθέω",
+   "cell": "future.active.indicative.2sg",
+   "audio": "ἀπειθήσεις",
+   "skills": [
+    "vocab.production",
+    "verb.fut.act.ind.2sg"
+   ],
+   "explain": "ἀπειθήσεις: the ε of the stem lengthens to η before σ."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse κατένεγκε.",
+   "form": "κατένεγκε",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person and number",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "1st singular"
+      },
+      {
+       "id": "2sg",
+       "label": "2nd singular"
+      },
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "1pl",
+       "label": "1st plural"
+      },
+      {
+       "id": "2pl",
+       "label": "2nd plural"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "mood": "imp",
+    "person": "2sg"
+   },
+   "audio": "κατένεγκε",
+   "skills": [
+    "verb.aor.act.imp.2sg"
+   ],
+   "explain": "κατ-ένεγκ-ε: aorist imperative of καταφέρω (ἤνεγκον), 'bring it down!'."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἐλελήθεις.",
+   "form": "ἐλελήθεις",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person and number",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "1st singular"
+      },
+      {
+       "id": "2sg",
+       "label": "2nd singular"
+      },
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "1pl",
+       "label": "1st plural"
+      },
+      {
+       "id": "2pl",
+       "label": "2nd plural"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "plpf",
+    "person": "2sg"
+   },
+   "audio": "ἐλελήθεις",
+   "skills": [
+    "verb.perf.reduplication",
+    "syntax.ptc-supp"
+   ],
+   "explain": "ἐ-λελήθ-εις: pluperfect of λανθάνω (λέληθα), 2nd singular: 'you had been escaping notice'."
+  },
+  {
+   "type": "label",
+   "prompt": "εἰ δὲ ἀπειθήσεις, οὐ νῦν πρῶτον ὀργιζομένου πειράσῃ. What kind of condition is this?",
+   "options": [
+    {
+     "id": "a",
+     "text": "εἰ + future indicative: a threat or warning"
+    },
+    {
+     "id": "b",
+     "text": "future less vivid: 'if you should disobey'"
+    },
+    {
+     "id": "c",
+     "text": "contrary to fact"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cond.simple",
+    "read.myth.lucian"
+   ],
+   "explain": "εἰ + future indicative is used for threats: 'if you disobey, you'll get to know me angry'."
+  },
+  {
+   "type": "label",
+   "prompt": "ἦ που στρατόπεδον, οὐ κεφαλὴν ἐλελήθεις ἔχων. What does ἔχων do?",
+   "options": [
+    {
+     "id": "a",
+     "text": "it completes ἐλελήθεις: 'you had been carrying without knowing it'"
+    },
+    {
+     "id": "b",
+     "text": "it is a genitive absolute"
+    },
+    {
+     "id": "c",
+     "text": "it expresses purpose"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.ptc-supp",
+    "read.myth.lucian"
+   ],
+   "explain": "λανθάνω + participle: the participle carries the main idea."
+  },
+  {
+   "type": "label",
+   "prompt": "ὅρα, ὦ Ζεῦ, μὴ κακόν τι ποιήσωμεν. What is Hephaestus doing?",
+   "options": [
+    {
+     "id": "a",
+     "text": "warning: 'take care we don't do some harm'"
+    },
+    {
+     "id": "b",
+     "text": "asking what to do"
+    },
+    {
+     "id": "c",
+     "text": "giving an order to strike"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.fear"
+   ],
+   "explain": "ὅρα μή + subjunctive works like a fear clause: 'see to it that … not'."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἀλλὰ ___ μου τὴν κεφαλὴν ἐς δύο. (split!)",
+   "options": [
+    {
+     "id": "a",
+     "text": "δίελε"
+    },
+    {
+     "id": "b",
+     "text": "διελεῖν"
+    },
+    {
+     "id": "c",
+     "text": "διεῖλε"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.imperative",
+    "verb.aor.act.imp.2sg"
+   ],
+   "explain": "δίελε: aorist imperative of διαιρέω (εἷλον → δι-έλε)."
+  },
+  {
+   "type": "transform",
+   "prompt": "Turn the command into a statement of what Zeus ordered: «δίελέ μου τὴν κεφαλήν.» → ὁ Ζεὺς ἐκέλευσε τὸν Ἥφαιστον τὴν κεφαλὴν αὐτοῦ ___.",
+   "template": "ὁ Ζεὺς ἐκέλευσε τὸν Ἥφαιστον τὴν κεφαλὴν αὐτοῦ ___.",
+   "gaps": [
+    {
+     "answers": [
+      "διελεῖν"
+     ]
+    }
+   ],
+   "audio": "ὁ Ζεὺς ἐκέλευσε τὸν Ἥφαιστον τὴν κεφαλὴν αὐτοῦ διελεῖν.",
+   "skills": [
+    "syntax.infinitive",
+    "syntax.imperative"
+   ],
+   "explain": "κελεύω + accusative + infinitive: aorist infinitive διελεῖν (like ἑλεῖν)."
+  },
+  {
+   "type": "transform",
+   "prompt": "Use λανθάνω + participle: 'Zeus had not noticed that he had a girl in his head.' → ὁ Ζεὺς ἐλελήθει κόρην ἐν τῇ κεφαλῇ ___.",
+   "template": "ὁ Ζεὺς ἐλελήθει κόρην ἐν τῇ κεφαλῇ ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἔχων"
+     ]
+    }
+   ],
+   "audio": "ὁ Ζεὺς ἐλελήθει κόρην ἐν τῇ κεφαλῇ ἔχων.",
+   "skills": [
+    "syntax.ptc-supp"
+   ],
+   "explain": "λανθάνω + nominative participle agreeing with the subject: ἔχων."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the imperative.",
+   "sentence": "Ἥφαιστος: πειρᾷ μου, εἰ μέμηνα; πρόσταττε δʼ οὖν τι ἄλλο ὅπερ ἐθέλεις σοι γενέσθαι.",
+   "answer": [
+    5
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.imperative"
+   ],
+   "explain": "πρόσταττε 'order (something else)!'; πειρᾷ is indicative ('are you testing me?') and μέμηνα is a perfect."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the verbs that describe what the new goddess does.",
+   "sentence": "ἡ δὲ πηδᾷ καὶ πυρριχίζει καὶ τὴν ἀσπίδα τινάσσει καὶ τὸ δόρυ πάλλει καὶ ἐνθουσιᾷ, καὶ τὸ μέγιστον, καλὴ πάνυ καὶ ἀκμαία γεγένηται ἤδη ἐν βραχεῖ·",
+   "answer": [
+    2,
+    4,
+    8,
+    12,
+    14
+   ],
+   "skills": [
+    "read.locate",
+    "read.myth.lucian"
+   ],
+   "explain": "She leaps, dances the war dance, shakes her shield, brandishes her spear, and is possessed: Athena is born dancing."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'She will always want to remain a maiden.'",
+   "tokens": [
+    "παρθένος",
+    "γὰρ",
+    "ἀεὶ",
+    "ἐθελήσει",
+    "μένειν"
+   ],
+   "answers": [
+    "παρθένος γὰρ ἀεὶ ἐθελήσει μένειν",
+    "παρθένος γὰρ ἀεὶ μένειν ἐθελήσει",
+    "ἀεὶ γὰρ παρθένος ἐθελήσει μένειν",
+    "ἀεὶ γὰρ ἐθελήσει παρθένος μένειν"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "syntax.postpositive"
+   ],
+   "explain": "γάρ is postpositive: it must stand second."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὀξὺς γὰρ ὁ πέλεκύς ἐστι."
+    },
+    {
+     "id": "b",
+     "text": "ὀξὺς γὰρ ὁ Ζεύς ἐστι."
+    },
+    {
+     "id": "c",
+     "text": "μέγας γὰρ ὁ πέλεκύς ἐστι."
+    }
+   ],
+   "answer": "a",
+   "audio": "ὀξὺς γὰρ ὁ πέλεκύς ἐστι.",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "For the axe is sharp."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Ἥφαιστος ἑκὼν τὴν τοῦ Διὸς κεφαλὴν ἔπληξεν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἄκων μέν, κατοίσω δέ: unwillingly."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἡ κόρη ἔνοπλος ἐκ τῆς κεφαλῆς ἐγένετο.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "τί τοῦτο; κόρη ἔνοπλος;"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Ζεὺς τὸν Ἥφαιστον ἐκώλυσε τὴν παρθένον γαμεῖν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἐγὼ δ' οὖν τό γε ἐπ' ἐμοὶ οὐδὲν ἀντιλέγω: Zeus does not object; he only warns that she will stay a maiden."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "gaps": [
+    {
+     "answers": [
+      "ὀξὺς γὰρ ὁ πέλεκύς ἐστιν",
+      "ὀξὺς γὰρ ὁ πέλεκύς ἐστι"
+     ]
+    }
+   ],
+   "audio": "ὀξὺς γὰρ ὁ πέλεκύς ἐστιν.",
+   "skills": [
+    "spell.dictation",
+    "syntax.enclitic"
+   ],
+   "explain": "πέλεκύς ἐστιν: the enclitic gives πέλεκυς a second accent."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: μέγα, ὦ Ζεῦ, κακὸν εἶχες ἐν τῇ κεφαλῇ· εἰκότως γοῦν ὀξύθυμος ἦσθα τηλικαύτην ὑπὸ τῇ μήνιγγι παρθένον ζῳογονῶν καὶ ταῦτα ἔνοπλον·",
+   "audio": "μέγα, ὦ Ζεῦ, κακὸν εἶχες ἐν τῇ κεφαλῇ· εἰκότως γοῦν ὀξύθυμος ἦσθα τηλικαύτην ὑπὸ τῇ μήνιγγι παρθένον ζῳογονῶν καὶ ταῦτα ἔνοπλον·",
+   "model": "What a great trouble you had in your head, Zeus! No wonder you were bad-tempered, carrying such a big girl under your skull, and an armed one at that.",
+   "skills": [
+    "read.original",
+    "read.connected",
+    "read.myth.lucian"
+   ],
+   "explain": "εἰκότως 'reasonably, no wonder'; ζῳογονῶν 'bringing forth, carrying'; καὶ ταῦτα 'and that too'."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "ὁ ἐγκέφαλος",
+     "right": "encephalitis"
+    },
+    {
+     "left": "τὸ κρανίον",
+     "right": "cranium"
+    },
+    {
+     "left": "μαίνομαι (ἡ μανία)",
+     "right": "mania, maniac"
+    },
+    {
+     "left": "ἡ παρθένος",
+     "right": "Parthenon"
+    },
+    {
+     "left": "ἐνθουσιάζω",
+     "right": "enthusiasm"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "ἐν-κέφαλος 'in the head'; κρανίον; μανία 'madness'; the Parthenon, the Maiden's temple; ἔνθεος 'with a god inside'."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἔχων ἥκει ὁ Ἥφαιστος;",
+   "options": [
+    {
+     "id": "a",
+     "text": "πέλεκυν ὀξύτατον."
+    },
+    {
+     "id": "b",
+     "text": "κόρυθα καὶ ἀσπίδα."
+    },
+    {
+     "id": "c",
+     "text": "δόρυ."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension",
+    "read.myth"
+   ],
+   "explain": "ἥκω … ἔχων τὸν πέλεκυν ὀξύτατον."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί ὁ Ζεὺς τὴν κεφαλὴν διαιρεθῆναι βούλεται;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὠδῖνες γὰρ αὐτοῦ τὸν ἐγκέφαλον ἀναστρέφουσιν."
+    },
+    {
+     "id": "b",
+     "text": "ὀργίζεται γὰρ τῷ Ἡφαίστῳ."
+    },
+    {
+     "id": "c",
+     "text": "μέμηνε γάρ."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἀπόλλυμαι γὰρ ὑπὸ ὠδίνων, αἵ μοι τὸν ἐγκέφαλον ἀναστρέφουσιν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐκ τῆς κεφαλῆς ἐξέρχεται;",
+   "options": [
+    {
+     "id": "a",
+     "text": "λίθος."
+    },
+    {
+     "id": "b",
+     "text": "κόρη ἔνοπλος."
+    },
+    {
+     "id": "c",
+     "text": "στρατόπεδον."
+    }
+   ],
+   "answer": "b",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "τί τοῦτο; κόρη ἔνοπλος;"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί αἰτεῖ ὁ Ἥφαιστος ὡς μαίωτρα;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὴν κόρην γυναῖκα."
+    },
+    {
+     "id": "b",
+     "text": "ἀργύριον."
+    },
+    {
+     "id": "c",
+     "text": "τὸν πέλεκυν."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "μαίωτρά μοι ἀπόδος ἐγγυήσας ἤδη αὐτήν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί ἀδύνατα αἰτεῖ ὁ Ἥφαιστος;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἡ κόρη γὰρ ἀεὶ παρθένος μένειν ἐθελήσει."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Ζεὺς γὰρ ἀντιλέγει."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Ἥφαιστος γὰρ θνητός ἐστιν."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension",
+    "read.myth"
+   ],
+   "explain": "παρθένος γὰρ ἀεὶ ἐθελήσει μένειν."
+  }
+ ],
+ "culture": {
+  "title": "Lucian, and Athena born in armour",
+  "md": "**Lucian** (about AD 120 – after 180) came from Samosata on the Euphrates, in Roman Syria; Greek was not his first language. He learned it so well that he became one of the great prose stylists of the Roman Empire, writing in the Attic of six centuries earlier, as educated Greeks of his time were expected to. His short **Dialogues of the Gods** take the old myths literally and make them domestic comedy: Zeus with a headache, Hephaestus the nervous midwife, a goddess who comes out dancing. Readers from the Renaissance to the 19th century learned Greek on them, as you are doing now.\n\nThe birth of Athena was serious business in Athens. It filled the **east pediment of the Parthenon**, over the main entrance (Pausanias 1.24.5), finished in 432 like the contest with Poseidon on the west end: Athena standing fully armed beside Zeus, Hephaestus with his axe, the sun's horses rising at one corner and the moon's setting at the other. Earlier Athenian vases show the same scene more simply: Zeus enthroned, a tiny armed Athena leaping from his head, Hephaestus hurrying away with the axe, Eileithyia the birth-goddess at hand. Lucian's joke works because every reader had seen that picture.\n\nAthena's war dance, the **pyrrhic**, was also real: at the Panathenaea teams of young men danced it in armour for prizes, in honour of the goddess who was born dancing it.",
+  "image": "myth-culture-7"
+ },
+ "quiz": [
+  {
+   "type": "produce-form",
+   "prompt": "Give the accusative singular of πέλεκυς (ἔχων τὸν ___).",
+   "lemma": "πέλεκυς",
+   "cell": "acc.sg",
+   "audio": "πέλεκυν",
+   "skills": [
+    "noun.decl3.acc.sg",
+    "vocab.myth"
+   ],
+   "explain": "πέλεκυν."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἦ που στρατόπεδον, οὐ κεφαλὴν ἐλελήθεις ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἔχων"
+    },
+    {
+     "id": "b",
+     "text": "ἔχειν"
+    },
+    {
+     "id": "c",
+     "text": "ἔχεις"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.ptc-supp"
+   ],
+   "explain": "λανθάνω + participle."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse μέμηνα.",
+   "form": "μέμηνα",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person and number",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "1st singular"
+      },
+      {
+       "id": "2sg",
+       "label": "2nd singular"
+      },
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "1pl",
+       "label": "1st plural"
+      },
+      {
+       "id": "2pl",
+       "label": "2nd plural"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "perf",
+    "person": "1sg"
+   },
+   "audio": "μέμηνα",
+   "skills": [
+    "verb.perf.act.ind.1sg"
+   ],
+   "explain": "μέ-μην-α: perfect of μαίνομαι with present meaning, 'I am mad'."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Ἥφαιστος τὸν πέλεκυν ὀξὺν εἶναι λέγει.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὀξὺς γὰρ ὁ πέλεκύς ἐστι."
+  },
+  {
+   "type": "match",
+   "prompt": "Match the new words to their meanings.",
+   "pairs": [
+    {
+     "left": "θαρρέω",
+     "right": "take courage"
+    },
+    {
+     "left": "ἀπειθέω",
+     "right": "disobey"
+    },
+    {
+     "left": "ἐγγυάω",
+     "right": "betroth"
+    },
+    {
+     "left": "μαίνομαι",
+     "right": "be mad"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "θαρρέω (θάρρει!), ἀ-πειθέω, ἐγγυάω (ἡ ἐγγύη), μαίνομαι (μέμηνα)."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀδύνατα αἰτεῖς, ὦ Ἥφαιστε."
+    },
+    {
+     "id": "b",
+     "text": "ἀδύνατα ποιεῖς, ὦ Ζεῦ."
+    },
+    {
+     "id": "c",
+     "text": "ῥᾴδια αἰτεῖς, ὦ Ἥφαιστε."
+    }
+   ],
+   "answer": "a",
+   "audio": "ἀδύνατα αἰτεῖς, ὦ Ἥφαιστε.",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "You are asking for the impossible, Hephaestus."
+  }
+ ],
+ "skills": [
+  "read.original",
+  "read.connected",
+  "read.myth",
+  "read.myth.lucian",
+  "read.comprehension",
+  "read.locate",
+  "syntax.imperative",
+  "syntax.ptc-supp",
+  "syntax.cond.simple",
+  "syntax.fear",
+  "syntax.infinitive",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family",
+  "vocab.myth"
+ ]
+}

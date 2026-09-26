@@ -17,12 +17,12 @@
    "image": "hist-panel-1-a",
    "sentences": [
     {
-     "text": "χειμῶνος ἦν, καὶ οἱ Ἀθηναῖοι τοὺς πρώτους ἐν τῷ πολέμῳ ἀποθανόντας δημοσίᾳ ἔθαπτον ἐν τῷ Κεραμεικῷ.",
+     "text": "ἐν δὲ τῷ χειμῶνι οἱ Ἀθηναῖοι τοὺς πρώτους ἐν τῷ πολέμῳ ἀποθανόντας δημοσίᾳ ἔθαπτον ἐν τῷ Κεραμεικῷ.",
      "glosses": [
       {
-       "word": "χειμῶνος",
+       "word": "χειμῶνι",
        "kind": "note",
-       "value": "genitive of time within which: in winter (the winter of 431/430 BC)"
+       "value": "ἐν τῷ χειμῶνι: in the winter (of 431/430 BC), after the first summer of the war"
       },
       {
        "word": "δημοσίᾳ",
@@ -337,12 +337,17 @@
      ]
     },
     {
-     "text": "ταῦτα μὲν ὁ Περικλῆς εἶπεν· τοῦ δὲ θέρους εὐθὺς ἡ νόσος ἤρξατο γενέσθαι τοῖς Ἀθηναίοις.",
+     "text": "ταῦτα μὲν ὁ Περικλῆς εἶπεν· τοῦ δὲ ἐπιόντος θέρους ἡ νόσος πρῶτον ἤρξατο γενέσθαι τοῖς Ἀθηναίοις.",
      "glosses": [
+      {
+       "word": "ἐπιόντος",
+       "kind": "<",
+       "value": "ἐπί + εἶμι | ἔπειμι: come next; τοῦ ἐπιόντος θέρους, in the following summer (430 BC)"
+      },
       {
        "word": "θέρους",
        "kind": "en",
-       "value": "in the summer (τὸ θέρος; genitive of time): the summer of 430 BC"
+       "value": "summer (τὸ θέρος; genitive of time within which)"
       },
       {
        "word": "ἤρξατο",
@@ -403,6 +408,11 @@
   {
    "id": "ανευ",
    "gloss_grc": "ἄνευ + gen. ↔ μετά · ἄνευ μαλακίας"
+  },
+  {
+   "id": "πολεμος",
+   "pic": "polemos",
+   "gloss_grc": "ὁ πόλεμος · ἐν τῷ πολέμῳ"
   },
   {
    "id": "υστερος",

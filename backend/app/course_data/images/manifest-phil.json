@@ -131,6 +131,195 @@
    "license": "placeholder",
    "source_url": null,
    "words": []
+  },
+  {
+   "id": "phil-panel-4-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Μένων τὸν ἀκόλουθον καλεῖ· ὁ δὲ Σωκράτης ἐν τῇ ψάμμῳ γράφει.",
+   "alt_en": "A courtyard in Athens, about 402 BC: the elegant young Thessalian Meno, richly dressed, beckons one of his many attendants, a boy of about twelve; Socrates squats beside a patch of smooth sand with a stick.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-panel-4-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Σωκράτης τετράγωνον χωρίον γράφει· ὁ δὲ παῖς ἀποκρίνεται.",
+   "alt_en": "Close-up: a square drawn in the sand, each side marked '2', divided into four smaller squares; Socrates points with his stick while the slave boy, barefoot, counts on his fingers; Meno watches with folded arms.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-panel-4-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ παῖς οἴεται τὴν γραμμὴν διπλασίαν εἶναι· ὁ δὲ Σωκράτης πρὸς τὸν Μένωνα βλέπει.",
+   "alt_en": "The boy confidently draws a much larger square with doubled sides (4 × 4), far too big; Socrates turns to Meno with a raised eyebrow; in a faint inset, the correct figure: a square drawn on the diagonal of the first.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-culture-4-academy",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ἡ Ἀκαδήμεια ἡ τοῦ Πλάτωνος.",
+   "alt_en": "The archaeological site of Plato's Academy in Athens: stone foundations among olive and plane trees in the park of Akadimia Platonos (site photograph, CC).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-panel-5-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ ποιμὴν εἰς τὸ χάσμα καταβαίνει καὶ ἵππον χαλκοῦν ὁρᾷ.",
+   "alt_en": "Lydia after a storm: a shepherd climbs down into a fresh crack in the hillside; inside, a huge hollow bronze horse with little doors, and through one of them the pale body of a giant with a gold ring on his finger. Sheep peer over the edge above.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-panel-5-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ ποιμὴν τὴν σφενδόνην στρέφει καὶ ἀφανὴς γίγνεται.",
+   "alt_en": "The shepherds' monthly meeting before the king's steward: the shepherd sits among the others, turning the ring's bezel into his palm; his outline is fading to nothing while the man next to him talks as if he had gone.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-panel-5-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ δίκαιος καὶ ὁ ἄδικος δακτυλίους ἔχουσιν.",
+   "alt_en": "Two men with identical gold rings stand at the edge of a crowded market, both half-invisible, both reaching toward a table of silver and fine goods; Socrates and Glaucon watch from a bench, Glaucon gesturing.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-culture-5-lydian-coin",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "νόμισμα Λυδικόν.",
+   "alt_en": "An early electrum coin of Lydia with a lion's head, about 600 BC: Lydia, the kingdom of Gyges, is where coins were first struck (museum object, CC0).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-daktylios",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ δακτύλιος",
+   "alt_en": "A gold finger ring with an engraved stone.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "δακτύλιος"
+   ]
+  },
+  {
+   "id": "phil-panel-6-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Κρίτων τὸν παῖδα πέμπει· ὁ δὲ ἄνθρωπος τὸ φάρμακον ἐν κύλικι φέρει.",
+   "alt_en": "The prison cell at sunset, light slanting through a small high window: Socrates, just bathed, sits on his bed among his friends; grey-haired Crito nods to a slave boy at the door, and a quiet official enters carrying a plain cup.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-panel-6-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Σωκράτης τὴν κύλικα λαμβάνει καὶ εὐκόλως ἐκπίνει.",
+   "alt_en": "Socrates, calm and upright, takes the cup from the official and looks at him from under his brows; the official explains with a gesture toward his own legs; the friends around them freeze.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-panel-6-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ φίλοι δακρύουσιν· ὁ δὲ Σωκράτης· ἡσυχίαν ἄγετε.",
+   "alt_en": "The friends weeping: young Phaedo covering his face with his cloak, Crito standing up to leave, Apollodorus sobbing aloud; Socrates, walking slowly about the room, raises a hand to quiet them.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-culture-6-hemlock",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "τὸ κώνειον.",
+   "alt_en": "Poison hemlock (Conium maculatum), the plant from which the Athenian κώνειον was prepared: white umbrella-shaped flowers and purple-spotted stems (plant photograph, CC).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-panel-7-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ ἄνθρωπος τοὺς πόδας τοῦ Σωκράτους πιέζει.",
+   "alt_en": "Socrates lies on his back on the prison bed, his face covered with his cloak; the official presses his foot and asks if he can feel it; his friends watch in silence.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-panel-7-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Σωκράτης ἐκκαλυψάμενος· ὦ Κρίτων, τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόνα.",
+   "alt_en": "Socrates has uncovered his face and turns his head toward Crito, who leans close; in the shadows of the cell a small votive image of Asclepius with his snake-staff; outside the window, a cock on a wall.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-panel-7-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Κρίτων τοὺς ὀφθαλμοὺς τοῦ Σωκράτους συλλαμβάνει.",
+   "alt_en": "Crito gently closes Socrates' eyes and mouth; the friends stand around the bed, heads bowed; the empty cup on the floor.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-culture-7-david",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὁ τοῦ Σωκράτους θάνατος.",
+   "alt_en": "Jacques-Louis David, The Death of Socrates, 1787, oil on canvas (New York, Metropolitan Museum of Art 31.45; public domain, CC0).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
   }
  ]
 }

@@ -90,7 +90,7 @@
      ]
     },
     {
-     "text": "καὶ τέτταρας ἡμέρας οἱ Ἀθηναῖοι ἐπέπλεον εἰς μάχην προκαλούμενοι, ὁ δὲ Λύσανδρος οὐκ ἀντανῆγεν.",
+     "text": "καὶ τέτταρας ἡμέρας οἱ Ἀθηναῖοι ἐπέπλεον εἰς μάχην προκαλούμενοι, ἔπειτα δὲ εἰς τὸ στρατόπεδον ἀπέπλεον· ὁ δὲ Λύσανδρος οὐκ ἀντανῆγεν.",
      "glosses": [
       {
        "word": "ἐπέπλεον",
@@ -410,6 +410,20 @@
   {
    "id": "πεζος",
    "gloss_grc": "τὸ πεζόν ↔ αἱ νῆες"
+  },
+  {
+   "id": "στρατοπεδον",
+   "gloss_grc": "τὸ στρατόπεδον < στρατός + πέδον (ground)"
+  },
+  {
+   "id": "ναυς",
+   "pic": "trieres",
+   "gloss_grc": "αἱ νῆες, τῶν νεῶν, ταῖς ναυσί"
+  },
+  {
+   "id": "στρατηγος",
+   "pic": "strategos",
+   "gloss_grc": "ὁ στρατηγός · ὁ Κόνων ὁ στρατηγός"
   }
  ],
  "notice": [
@@ -440,7 +454,7 @@
     },
     {
      "answers": [
-      "ων"
+      "ών"
      ]
     },
     {
@@ -450,7 +464,7 @@
     },
     {
      "answers": [
-      "αι"
+      "αί"
      ]
     }
    ],
@@ -1220,7 +1234,7 @@
  ],
  "culture": {
   "title": "Xenophon and the end of the fleet",
-  "md": "**Xenophon** (about 430 to after 355 BC) was an Athenian of good family and a follower of Socrates. In 401 he joined the Greek mercenaries of Cyrus (hist.7), later served with the Spartans, and was exiled from Athens; he lived for years on an estate near Olympia. His **Hellenica** ('Greek affairs') starts in 411 exactly where Thucydides stops and runs to 362. It is plainer than Thucydides: short clauses, direct speech, vivid detail, and a soldier's eye for how things were done.\n\nBy 405 Athens depended on one last fleet in the **Hellespont**, the narrow strait through which the grain ships from the Black Sea came. The Athenians camped on an open beach at **Aegospotami**, far from a market, so that the crews had to scatter to buy food; the exiled Alcibiades rode down from his castle to warn them and was sent away (2.1.25–26). The Spartan admiral **Lysander**, paid with Persian money, waited four days and struck on the fifth.\n\nOf about 180 triremes only nine escaped: **Conon** with eight went to Cyprus, and the state trireme **Paralus**, the ship that carried the city's official messages, sailed for Athens with the news. Lysander put the Athenian prisoners to death, some 3,000 men according to Plutarch. The bronze ram found off Athlit in Israel (from a warship of about 200 BC, but the same weapon) shows what these ships fought with.",
+  "md": "**Xenophon** (about 430 to after 355 BC) was an Athenian of good family and a follower of Socrates. In 401 he joined the Greek mercenaries of Cyrus (hist.7), later served with the Spartans, and was exiled from Athens; he lived for years on an estate near Olympia. His **Hellenica** ('Greek affairs') starts in 411 exactly where Thucydides stops and runs to 362. It is plainer than Thucydides: short clauses, direct speech, vivid detail, and a soldier's eye for how things were done.\n\nBy 405 Athens depended on one last fleet in the **Hellespont**, the narrow strait through which the grain ships from the Black Sea came. The Athenians camped on an open beach at **Aegospotami**, far from a market, so that the crews had to scatter to buy food; the exiled Alcibiades rode down from his castle to warn them and was sent away (2.1.25–26). The Spartan commander **Lysander** (formally only second-in-command, since Spartan law forbade anyone to be ναύαρχος twice, but in fact in charge), paying his crews with Persian money, waited four days and struck on the fifth.\n\nOf about 180 triremes only nine escaped: **Conon** with eight went to Cyprus, and the state trireme **Paralus**, the ship that carried the city's official messages, sailed for Athens with the news. Lysander put the Athenian prisoners to death, some 3,000 men according to Plutarch. The bronze ram found off Athlit in Israel (from a warship of about 200 BC, but the same weapon) shows what these ships fought with.",
   "image": "hist-athlit-ram"
  },
  "quiz": [

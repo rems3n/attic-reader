@@ -8,7 +8,7 @@
   "caption_grc": "πρόσοδος δέ μοι οὐκ ἔστιν ἄλλη πλὴν ταύτης.",
   "original": {
     "text": "lysias-24.4",
-    "note": "Lysias 24, For the Disabled Man, sections 4–6, lightly cut; the speech was written in the early fourth century (after 403 BC) for a man to deliver himself before the Council (ὦ βουλή). The first sentences of 24.4 and all of 24.5 after the first two proofs are left out. The Perseus text prints οἴμαι for οἶμαι."
+    "note": "Lysias 24, For the Disabled Man, sections 4–6, lightly cut; the speech was written in the early fourth century (after 403 BC) for a man to deliver himself before the Council (ὦ βουλή). The first two sentences of 24.4 and the end of the sentence on the accuser's second proof (that he keeps company with men who can afford to spend) are left out. The Perseus text prints οἴμαι for οἶμαι; the story corrects it."
   },
   "names": {},
   "allow": {},
@@ -42,7 +42,7 @@
           ]
         },
         {
-          "text": "ποτὲ δὲ κατήγορός τις, ὡς λέγουσιν, διὰ φθόνον ἀνδρὶ χωλῷ ἐπεβούλευσεν, ὃς ἵπποις ἐχρῆτο διὰ τὸ ἀσθενὲς σῶμα.",
+          "text": "ποτὲ δὲ κατήγορός τις, ὡς ἐκεῖνός φησιν, διὰ φθόνον ἀνδρὶ χωλῷ ἐπεβούλευσεν, ὃς ἵπποις ἐχρῆτο διὰ τὸ ἀσθενὲς σῶμα.",
           "glosses": [
             {
               "word": "κατήγορός",
@@ -142,6 +142,29 @@
               "word": "εὐπορίας",
               "kind": "<",
               "value": "εὖ + πόρος (way, means) | ἡ εὐπορία (plenty, good income)"
+            }
+          ]
+        },
+        {
+          "text": "τὴν μὲν οὖν ἐκ τῆς τέχνης εὐπορίαν καὶ τὸν ἄλλον τὸν ἐμὸν βίον, οἷος τυγχάνει, πάντας ὑμᾶς οἶμαι γιγνώσκειν·",
+          "orig": [
+            5
+          ],
+          "glosses": [
+            {
+              "word": "οἷος",
+              "kind": "note",
+              "value": "οἷος τυγχάνει: 'what sort it is', what my life is really like"
+            },
+            {
+              "word": "οἶμαι",
+              "kind": "=",
+              "value": "οἴομαι (I think), the usual short form"
+            },
+            {
+              "word": "γιγνώσκειν",
+              "kind": "note",
+              "value": "οἶμαι + infinitive: 'I think that you all know'"
             }
           ]
         },
@@ -963,10 +986,9 @@
         {
           "answers": [
             "πρόσοδος δέ μοι οὐκ ἔστιν ἄλλη",
-            "πρόσοδος μοι οὐκ ἔστιν ἄλλη",
-            "ἄλλη πρόσοδος μοι οὐκ ἔστιν",
+            "πρόσοδός μοι οὐκ ἔστιν ἄλλη",
+            "ἄλλη πρόσοδός μοι οὐκ ἔστιν",
             "οὐκ ἔστι μοι ἄλλη πρόσοδος",
-            "οὐκ ἔστιν μοι ἄλλη πρόσοδος",
             "ἄλλη δέ μοι πρόσοδος οὐκ ἔστιν",
             "οὐκ ἔστι μοι πρόσοδος ἄλλη"
           ]
