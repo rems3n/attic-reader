@@ -46,10 +46,15 @@ voice are good; the shell around them is not.
 /library               Texts: search + filters, collections, recommended, my texts
 /library/[id]          Read one text: player, sentences, word panel, coverage
 /library/new           Add a text: paste or photograph (the old Reader "1–2")
-/words                 Words hub: recommended decks, browse (lesson/topic/tier),
+/practice              Practice hub: Review (today's queue) · Words · Drills
+/practice/review       One review session: due words → sentence cloze → weak-skill
+                       drill → mistakes; modes read / write / listen / forms
+/practice/quick        Quick 5-minute session (timed mix from the queue)
+/words                 Words: recommended decks, browse (lesson/topic/tier),
                        search, deck builder (drawer)
 /words/study           Study session (existing card UI, own page)
 /words/[id]            Word page (existing)
+/learn/listen/[unit]   Listen mode: a unit's stories hands-free, with pauses
 /grammar               Grammar hub grouped by part of speech; search; "your level"
 /grammar/[id]          Paradigm page (existing + "taught in lesson", dual toggle)
 /progress              Skills grid, mistakes, tests, activity, streak
@@ -59,7 +64,8 @@ voice are good; the shell around them is not.
 ```
 
 Renames: **Course → Learn**, **Read → Library** (icon: open book, not
-headphones), **Vocab → Words**. Old URLs redirect (`/course/*` → `/learn/*`,
+headphones), **Vocab → Words** (inside a **Practice** section, see
+`APP_REVIEW.md`). Old URLs redirect (`/course/*` → `/learn/*`,
 `/vocab` → `/words`) so deep links, sync codes and the service worker's
 saved pages keep working.
 
@@ -77,7 +83,10 @@ saved pages keep working.
 │   Tracks     │                                               │
 │   Tests      │                                               │
 │ ▤ Library    │                                               │
-│ ▦ Words      │                                               │
+│ ▦ Practice ▸ │                                               │
+│   Review     │                                               │
+│   Words      │                                               │
+│   Drills     │                                               │
 │ ☰ Grammar    │                                               │
 │ ◔ Progress   │                                               │
 │              │                                               │
@@ -94,7 +103,7 @@ saved pages keep working.
 
 ### Phone (< 900 px): bottom tabs + "More"
 
-Home · Learn · Library · Words · More. "More" opens a sheet with Grammar,
+Home · Learn · Library · Practice · More. "More" opens a sheet with Grammar,
 Progress, Settings, Help, Sign out. The lesson player and the text reader
 hide the tab bar behind their own bottom bars (already handled).
 
@@ -163,7 +172,8 @@ Design:
 
 Logged in:
 ```text
-Good evening, Kostas · 12-day streak · 15 / 15 min today
+Good evening, Kostas · 12-day streak · 15 / 15 min today · 412 words known
+[Quick 5 minutes]
 ┌ Continue ───────────────────────────┐ ┌ Today ───────────────┐
 │ Lesson 3.2 · Ἡ Χρυσὶς ἐν τῇ ἀγορᾷ   │ │ 23 words due   → study│
 │ step 6 of 10 · [Resume]             │ │ 2 weak skills  → drill│
@@ -304,10 +314,11 @@ rules.
 
 | Phase | Deliverable | Est. |
 |---|---|---|
-| **F1 Shell** | `AppShell` + sidebar + bottom tabs + top bar, renames and redirects, Home (logged-out and dashboard), `/start` onboarding, Help page, empty states, design-system components | 1 session |
+| **F1 Shell** | `AppShell` + sidebar + bottom tabs + top bar, renames and redirects, Home (logged-out and dashboard with known-words count, weekly goal, Quick 5 minutes), `/start` onboarding, Help page, empty states, session summary screen, design-system components | 1 session |
 | **F2 Accounts** | backend auth + user store + `/api/me/progress`, `/api` proxy, sign-in/up pages, guest → account import, Settings page | 1 session |
-| **F3 Library** | `/library` hub (search, filters, recommended, collections, my texts), `/library/[id]` reader with word panel, `/library/new` add flow | 1 session |
-| **F4 Words** | Recommended decks engine, Browse tree + list + search, deck builder drawer + saved decks, study page | 1 session |
+| **F3 Library** | `/library` hub (search, filters, recommended, collections, my texts), `/library/[id]` reader with known/learning/new word states and the tap-to-gloss card (Known / Learn this), `/library/new` add flow | 1 session |
+| **F3b Listen mode** | `/learn/listen/[unit]`: hands-free unit playlist, repeat and anticipation pauses, speed; optional record-and-compare | ½ session |
+| **F4 Practice** | Review hub (one queue: due words → sentence cloze → weak-skill drill → mistakes; modes read / write / listen / forms), sentence-cloze generator (backend), recommended decks engine, Browse tree + list + search, deck builder drawer + saved decks, study page | 1½ sessions |
 | **F5 Grammar + Progress + Learn** | grammar hub by part of speech with "you are here", paradigm practise; progress page; Learn hub with collapsible stages and unit pages; lesson outline rail | 1 session |
 | **F6 Polish** | global search, coach-mark tour, e2e for every new page, screenshots, docs | ½ session |
 
@@ -328,3 +339,13 @@ the "opens to Read with no explanation" problem.
 5. **Global search** in the top bar: F6 (recommended) or F1?
 6. Order: F1 → F2 → F3 → F4 → F5 → F6, or F1 → F4 (Words) first since that
    page annoyed you most?
+
+## 12. Additions from the app review
+
+See `APP_REVIEW.md` §3. Adopted: known-word states and tap-to-gloss in the
+reader (LingQ); one Review hub with modes (Babbel); sentence cloze on real
+sentences (Clozemaster); known-words counter and weekly goal (LingQ); Quick
+5 minutes (Drops); session summary (Babbel/Duolingo); Listen mode with
+anticipation pauses (Pimsleur/Glossika); unit guidebook page (Duolingo).
+Optional later: record-and-compare, English toggle per story sentence,
+Assimil-style active wave, a letters game for Stage 0.
