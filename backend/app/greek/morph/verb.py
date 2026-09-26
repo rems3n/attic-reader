@@ -607,6 +607,18 @@ def _lengthen(v: VerbInfo, stem: str, augmented: bool = False) -> str:
     return marked + stem[len(plain):] if stem.startswith(plain) else stem
 
 
+def _strip_prefix(v: VerbInfo, stem: str) -> str:
+    """An override stem may be written with the compound's prefix (ἐξελθ for
+    ἐξέρχομαι); the builders add the prefix themselves, so drop it here."""
+    if not v.prefix:
+        return stem
+    bare = strip_accent(stem)
+    for sh in sorted(set(PREFIX_SHAPES[v.prefix]), key=len, reverse=True):
+        if bare.startswith(sh) and len(bare) > len(sh) + 1:
+            return _restore_breathing(sh, stem[len(sh):])
+    return stem
+
+
 def aorist_stems(v: VerbInfo) -> dict:
     """Classify the aorist(s): {'type': 'sigma'|'thematic'|'root'|'kappa', 'aug': augmented stem, 'stem': plain stem}."""
     out = {}
@@ -665,9 +677,9 @@ def aorist_stems(v: VerbInfo) -> dict:
         if not prefix_v:
             stem_aug = _ensure_breathing(stem_aug)
         if typ == "sigma" and v.ov.get("aorist_stem_1"):
-            plain = v.ov["aorist_stem_1"]
+            plain = _strip_prefix(v, v.ov["aorist_stem_1"])
         elif v.ov.get("aorist_stem") and typ != "sigma" or (v.ov.get("aorist_stem") and typ == "sigma" and label != "?"):
-            plain = v.ov["aorist_stem"]
+            plain = _strip_prefix(v, v.ov["aorist_stem"])
         if not prefix_v and not v.prefix:
             plain = _ensure_breathing(plain)
         rec = {"type": typ, "aug": (prefix_v + stem_aug), "stem": plain, "form": f, "prefix_v": prefix_v, "alt_aug": []}

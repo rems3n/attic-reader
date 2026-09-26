@@ -42,6 +42,9 @@ def test_prerender_yields_to_user_requests(fake_kokoro, monkeypatch):
         yield from original(*args, **kwargs)
 
     monkeypatch.setattr(fake_kokoro, "generate_from_tokens", slow)
+    # a small job: the full plan (library + lexicon + course) is thousands of clips
+    monkeypatch.setattr(prerender, "vocab_plan", lambda tts: [])
+    monkeypatch.setattr(prerender, "course_plan", lambda tts: [])
     thread = prerender.run_in_background(tts)
     time.sleep(0.05)
     started = time.perf_counter()

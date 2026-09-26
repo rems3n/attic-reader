@@ -74,6 +74,15 @@ def test_course_words_decline_and_conjugate():
     assert cell_forms(pon, "present.active.indicative.3pl") == ["πονοῦσι(ν)"]
     assert cell_forms(data.entry_by_id("τρεχω"), "present.active.indicative.3sg") == ["τρέχει"]
     assert len(all_cells(data.entry_by_id("υφαινω"))) > 20
+    # ὑφαίνω is not ὑπο + αἵνω: liquid aorist stem ὑφην- outside the indicative
+    assert cell_forms(data.entry_by_id("υφαινω"), "aorist.active.infinitive.inf") == ["ὑφῆναι"]
+    assert cell_forms(data.entry_by_id("υφαινω"), "aorist.active.subjunctive.1sg") == ["ὑφήνω"]
+    # a compound's aorist_stem override written with its prefix is not doubled
+    by_lemma = {e["lemma"]: e for e in data.all_entries()}
+    for lemma, inf, imp in [("ἐξέρχομαι", "ἐξελθεῖν", "ἔξελθε"), ("εἰσέρχομαι", "εἰσελθεῖν", "εἴσελθε"), ("προσέρχομαι", "προσελθεῖν", "πρόσελθε")]:
+        if lemma in by_lemma:
+            assert cell_forms(by_lemma[lemma], "aorist.active.infinitive.inf") == [inf], lemma
+            assert cell_forms(by_lemma[lemma], "aorist.active.imperative.2sg") == [imp], lemma
 
 
 # ---------------------------------------------------------------- normalize
