@@ -118,3 +118,17 @@ def test_resolved_hit_keeps_its_source():
     assert bi.concrete_source_ref(row, resolved) == ("commons", "File:Owl.jpg")
     assert bi.concrete_source_ref(row, {}) == ("met", None)
     assert bi.concrete_source_ref({"id": "y", "source": "met", "ref": "123"}, {}) == ("met", "123")
+
+
+def test_failures_file_keeps_only_what_still_fails(tmp_path, monkeypatch):
+    monkeypatch.setattr(bi, "FAILURES", tmp_path / "failures.json")
+    monkeypatch.setattr(bi, "ROOT", tmp_path / "backend")
+    monkeypatch.setattr(bi, "_failed", {})
+    bi.save_json(bi.FAILURES, {"old-fixed": {"step": "resolve", "reason": "x"}, "not-in-run": {"step": "fetch", "reason": "y"}})
+    rows = [{"id": "old-fixed", "source": "met", "ref": "1"}, {"id": "bad", "source": "commons", "ref": "search:q|p"}]
+    bi.fail("bad", "resolve", "no hit")
+    bi.fail("bad", "verify", "later step")  # the first failing step wins
+    bi.write_failures(rows)
+    out = bi.load_json(bi.FAILURES, {})
+    assert set(out) == {"bad", "not-in-run"}
+    assert out["bad"] == {"step": "resolve", "reason": "no hit", "source": "commons", "ref": "search:q|p"}

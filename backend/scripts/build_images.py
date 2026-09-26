@@ -108,6 +108,31 @@ def read_sources(only: set[str] | None = None) -> list[dict]:
     return rows
 
 
+FAILURES = DATA / "failures.json"
+_failed: dict[str, dict] = {}
+
+
+def fail(image_id: str, step: str, reason: str) -> None:
+    """Print a failure and remember it for failures.json (the first failing
+    step per image is the one to fix)."""
+    print(f"✗ {image_id}: {reason}")
+    _failed.setdefault(image_id, {"step": step, "reason": reason})
+
+
+def write_failures(rows: list[dict]) -> None:
+    """failures.json: every row that did not make it to a finished picture,
+    with the step and reason, plus its source row — push it so the rows can
+    be fixed."""
+    by_id = {r["id"]: r for r in rows}
+    old = load_json(FAILURES, {}) if FAILURES.exists() else {}
+    done = {i for i in by_id if i not in _failed}
+    merged = {k: v for k, v in old.items() if k not in done}
+    for i, f in _failed.items():
+        merged[i] = {**f, "source": by_id.get(i, {}).get("source"), "ref": by_id.get(i, {}).get("ref")}
+    save_json(FAILURES, dict(sorted(merged.items())))
+    print(f"\n{len(merged)} images still failing → {FAILURES.relative_to(ROOT.parent)}")
+
+
 def load_json(path: Path, default):
     return json.loads(path.read_text("utf-8")) if path.exists() else default
 
@@ -128,23 +153,36 @@ def manifest_records() -> dict[str, tuple[Path, dict]]:
     return out
 
 
-def http_json(url: str, retries: int = 3) -> dict:
+def _backoff(exc: Exception, attempt: int) -> float:
+    """Rate limits (429) and bot walls (403, the Met's CDN) need a longer pause."""
+    code = getattr(exc, "code", None)
+    return (10.0 if code in (403, 429) else 1.5) * (attempt + 1)
+
+
+def http_json(url: str, retries: int = 4) -> dict:
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
             with urllib.request.urlopen(req, timeout=30) as resp:
                 return json.loads(resp.read().decode("utf-8"))
-        except Exception:  # noqa: BLE001 — retry then raise
-            if attempt == retries - 1:
+        except Exception as exc:  # noqa: BLE001 — retry then raise
+            if attempt == retries - 1 or getattr(exc, "code", None) == 404:
                 raise
-            time.sleep(1.5 * (attempt + 1))
+            time.sleep(_backoff(exc, attempt))
     raise RuntimeError("unreachable")
 
 
-def http_bytes(url: str) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        return resp.read()
+def http_bytes(url: str, retries: int = 4) -> bytes:
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                return resp.read()
+        except Exception as exc:  # noqa: BLE001
+            if attempt == retries - 1 or getattr(exc, "code", None) == 404:
+                raise
+            time.sleep(_backoff(exc, attempt))
+    raise RuntimeError("unreachable")
 
 
 # ------------------------------------------------------------------ sources
@@ -352,12 +390,12 @@ def cmd_resolve(rows: list[dict], fallback: bool = True) -> int:
             continue
         query, _, pattern = ref[7:].partition("|")
         if source not in SEARCHERS:
-            print(f"✗ {row['id']}: no search for source {source!r}")
+            fail(row["id"], "resolve", f"no search for source {source!r}")
             failed.append(row["id"])
             continue
         hit = find_hit(source, query.strip(), pattern.strip(), fallback)
         if not hit:
-            print(f"✗ {row['id']}: no open-access hit for {query.strip()!r} matching {pattern.strip()!r}")
+            fail(row["id"], "resolve", f"no open-access hit for {query.strip()!r} matching {pattern.strip()!r}")
             failed.append(row["id"])
             continue
         src, obj, title = hit
@@ -393,7 +431,7 @@ def cmd_verify(rows: list[dict]) -> int:
     for row in rows:
         source, ref = concrete_source_ref(row, resolved)
         if ref is None:
-            print(f"✗ {row['id']}: unresolved search ref (run resolve)")
+            fail(row["id"], "verify", f"unresolved search ref (run resolve)")
             failures += 1
             continue
         try:
@@ -403,12 +441,12 @@ def cmd_verify(rows: list[dict]) -> int:
         except Exception as exc:  # noqa: BLE001
             info = {"ok": False, "reason": f"API error: {exc}"}
         if not info.get("ok"):
-            print(f"✗ {row['id']}: {info.get('reason')}")
+            fail(row["id"], "verify", f"{info.get('reason')}")
             failures += 1
             verified.pop(row["id"], None)
             continue
         if not license_ok(info.get("license")):
-            print(f"✗ {row['id']}: licence {info.get('license')!r} not accepted")
+            fail(row["id"], "verify", f"licence {info.get('license')!r} not accepted")
             failures += 1
             verified.pop(row["id"], None)
             continue
@@ -430,7 +468,7 @@ def cmd_fetch(rows: list[dict]) -> int:
     for row in rows:
         v = verified.get(row["id"])
         if not v:
-            print(f"✗ {row['id']}: not verified")
+            fail(row["id"], "fetch", f"not verified")
             failures += 1
             continue
         target = cache_path(row["id"], v["image_url"])
@@ -440,7 +478,7 @@ def cmd_fetch(rows: list[dict]) -> int:
             target.write_bytes(http_bytes(v["image_url"]))
             print(f"✓ {row['id']}: {target.stat().st_size // 1024} KB")
         except Exception as exc:  # noqa: BLE001
-            print(f"✗ {row['id']}: download failed: {exc}")
+            fail(row["id"], "fetch", f"download failed: {exc}")
             failures += 1
     return 1 if failures else 0
 
@@ -489,12 +527,12 @@ def cmd_process(rows: list[dict], grade: bool = True) -> int:
     for row in rows:
         v = verified.get(row["id"])
         if not v:
-            print(f"✗ {row['id']}: not verified")
+            fail(row["id"], "process", f"not verified")
             failures += 1
             continue
         src = cache_path(row["id"], v["image_url"])
         if not src.exists():
-            print(f"✗ {row['id']}: not fetched")
+            fail(row["id"], "process", f"not fetched")
             failures += 1
             continue
         kind = records.get(row["id"], (None, {}))[1].get("kind")
@@ -502,7 +540,7 @@ def cmd_process(rows: list[dict], grade: bool = True) -> int:
         try:
             out = process_image(src.read_bytes(), parse_crop(row.get("crop")), aspect, grade)
         except Exception as exc:  # noqa: BLE001
-            print(f"✗ {row['id']}: {exc}")
+            fail(row["id"], "process", f"{exc}")
             failures += 1
             continue
         (OUT_DIR / f"{row['id']}.webp").write_bytes(out)
@@ -521,11 +559,11 @@ def cmd_manifest(rows: list[dict]) -> int:
         v = verified.get(row["id"])
         webp = OUT_DIR / f"{row['id']}.webp"
         if not v or not webp.exists():
-            print(f"✗ {row['id']}: needs verify + process first")
+            fail(row["id"], "manifest", f"needs verify + process first")
             failures += 1
             continue
         if row["id"] not in records:
-            print(f"✗ {row['id']}: no manifest record (add one with alt text first)")
+            fail(row["id"], "manifest", f"no manifest record (add one with alt text first)")
             failures += 1
             continue
         path, img = records[row["id"]]
@@ -553,8 +591,11 @@ def main() -> None:
         for name in ("resolve", "verify", "fetch", "process", "manifest"):
             print(f"\n== {name}")
             rc |= steps[name]()
+        write_failures(rows)
         sys.exit(rc)
-    sys.exit(steps[args.command]())
+    rc = steps[args.command]()
+    write_failures(rows)
+    sys.exit(rc)
 
 
 if __name__ == "__main__":
