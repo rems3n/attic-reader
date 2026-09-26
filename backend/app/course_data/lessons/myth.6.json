@@ -1,0 +1,1527 @@
+{
+ "id": "myth.6",
+ "title_grc": "Θησεὺς καὶ ὁ Μινώταυρος",
+ "title_en": "Theseus and the Minotaur",
+ "summary_grc": "ὁ Θησεὺς μετὰ τοῦ δασμοῦ εἰς Κρήτην πλεῖ· ἡ Ἀριάδνη αὐτῷ λίνον δίδωσιν· ὁ δὲ Αἰγεὺς τὸ μέλαν ἱστίον ἰδὼν ἑαυτὸν ῥίπτει.",
+ "summary_en": "The Epitome of Apollodorus 1.7–10, lightly adapted: Theseus sails with the tribute of young Athenians to Crete, Ariadne gives him a thread, he kills the Minotaur, loses Ariadne on Naxos, and forgets the white sail. Two sentences of ours set the scene.",
+ "cover": "myth-6-c",
+ "caption_grc": "τοῦτο ἐξάψας Θησεὺς τῆς θύρας ἐφελκόμενος εἰσῄει.",
+ "original": {
+  "text": "apollod-epit-1.7",
+  "note": "Apollodorus, Epitome 1.7–10, lightly adapted: the first two sentences are ours; after them there is one story sentence for each sentence of the original, with Dionysus' children cut. The end of the Library survives only in a Byzantine summary (the 'Epitome'), so the sentences are even plainer than Apollodorus' own. In the Perseus text a few words run together; we restored the spaces."
+ },
+ "names": {
+  "Μίνως": [
+   "Μίνωος",
+   "Μίνῳ",
+   "Μίνωα",
+   "Μίνω"
+  ],
+  "Μινώταυρος": [
+   "Μινωταύρου",
+   "Μινωταύρῳ",
+   "Μινώταυρον"
+  ],
+  "Κρήτη": [
+   "Κρήτης",
+   "Κρήτῃ",
+   "Κρήτην"
+  ],
+  "Θησεύς": [
+   "Θησέως",
+   "Θησεῖ",
+   "Θησέα",
+   "Θησεῦ"
+  ],
+  "Αἰγεύς": [
+   "Αἰγέως",
+   "Αἰγεῖ",
+   "Αἰγέα"
+  ],
+  "Ἀριάδνη": [
+   "Ἀριάδνης",
+   "Ἀριάδνῃ",
+   "Ἀριάδνην"
+  ],
+  "Δαίδαλος": [
+   "Δαιδάλου",
+   "Δαιδάλῳ",
+   "Δαίδαλον"
+  ],
+  "Νάξος": [
+   "Νάξου",
+   "Νάξῳ",
+   "Νάξον"
+  ]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "myth-6-a",
+   "sentences": [
+    {
+     "text": "Μίνως ὁ τῆς Κρήτης βασιλεὺς δασμὸν παρὰ τῶν Ἀθηναίων ἐλάμβανεν· ἑπτὰ γὰρ νεανίας καὶ ἑπτὰ παρθένους οἱ Ἀθηναῖοι τῷ Μινωταύρῳ βορὰν ἔπεμπον.",
+     "glosses": [
+      {
+       "word": "δασμὸν",
+       "kind": "en",
+       "value": "tribute (ὁ δασμός): what a conquered city must pay"
+      },
+      {
+       "word": "παρθένους",
+       "kind": "en",
+       "value": "maidens, unmarried girls (ἡ παρθένος)"
+      },
+      {
+       "word": "βορὰν",
+       "kind": "en",
+       "value": "as food (ἡ βορά)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Μινώταυρος ἐν τῷ λαβυρίνθῳ ᾤκει, καὶ τὸ μὲν σῶμα ἀνδρὸς εἶχε, τὴν δὲ κεφαλὴν ταύρου.",
+     "glosses": [
+      {
+       "word": "λαβυρίνθῳ",
+       "kind": "en",
+       "value": "the Labyrinth, a building of winding passages that Daedalus made for Minos (ὁ λαβύρινθος)"
+      },
+      {
+       "word": "ταύρου",
+       "kind": "pic",
+       "value": "tauros"
+      }
+     ]
+    },
+    {
+     "text": "καὶ εἰς τὸν τρίτον δασμὸν τῷ Μινωταύρῳ συγκαταλέγεται·",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "τρίτον",
+       "kind": "en",
+       "value": "third"
+      },
+      {
+       "word": "συγκαταλέγεται",
+       "kind": "<",
+       "value": "σύν + κατά + λέγω (count) | συγκαταλέγεται (he, Theseus, is counted in with them)"
+      }
+     ]
+    },
+    {
+     "text": "ὡς δέ τινες λέγουσιν, ἑκὼν ἑαυτὸν ἔδωκεν.",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "ἑκὼν",
+       "kind": "en",
+       "value": "willingly, of his own free will (ἑκών ↔ ἄκων)"
+      }
+     ]
+    },
+    {
+     "text": "ἐχούσης δὲ τῆς νεὼς μέλαν ἱστίον Αἰγεὺς τῷ παιδὶ ἐνετείλατο, ἐὰν ὑποστρέφῃ ζῶν, λευκοῖς πετάσαι τὴν ναῦν ἱστίοις.",
+     "orig": [
+      2
+     ],
+     "glosses": [
+      {
+       "word": "ἐχούσης",
+       "kind": "note",
+       "value": "ἐχούσης δὲ τῆς νεώς: genitive absolute, 'since the ship had'"
+      },
+      {
+       "word": "μέλαν",
+       "kind": "↔",
+       "value": "λευκός (white) | μέλας, μέλαινα, μέλαν (black)"
+      },
+      {
+       "word": "ἱστίον",
+       "kind": "en",
+       "value": "sail (τὸ ἱστίον; cf. ὁ ἱστός, mast)"
+      },
+      {
+       "word": "ἐνετείλατο",
+       "kind": "|",
+       "value": "ἐντέλλομαι + dat. + inf. (command) | ἐνετείλατο (aorist)"
+      },
+      {
+       "word": "ὑποστρέφῃ",
+       "kind": "en",
+       "value": "comes back, returns (ὑποστρέφω)"
+      },
+      {
+       "word": "λευκοῖς",
+       "kind": "en",
+       "value": "white (λευκός, -ή, -όν)"
+      },
+      {
+       "word": "πετάσαι",
+       "kind": "en",
+       "value": "to spread (a sail), to rig (πετάννυμι, aorist infinitive)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "myth-6-b",
+   "sentences": [
+    {
+     "text": "ὡς δὲ ἧκεν εἰς Κρήτην, Ἀριάδνη θυγάτηρ Μίνωος ἐρωτικῶς διατεθεῖσα πρὸς αὐτὸν συμπράσσειν ἐπαγγέλλεται, ἐὰν ὁμολογήσῃ γυναῖκα αὐτὴν ἕξειν ἀπαγαγὼν εἰς Ἀθήνας.",
+     "orig": [
+      3
+     ],
+     "glosses": [
+      {
+       "word": "ἐρωτικῶς",
+       "kind": "<",
+       "value": "ἐράω, ὁ ἔρως | ἐρωτικῶς διατεθεῖσα (having fallen in love)"
+      },
+      {
+       "word": "διατεθεῖσα",
+       "kind": "<",
+       "value": "διά + τίθημι | διατεθεῖσα (disposed, put into a state: aorist passive participle)"
+      },
+      {
+       "word": "συμπράσσειν",
+       "kind": "<",
+       "value": "σύν + πράττω | συμπράσσειν (to help, work with him: -σσ- is later Greek for Attic -ττ-)"
+      },
+      {
+       "word": "ἐπαγγέλλεται",
+       "kind": "en",
+       "value": "offers, promises (ἐπαγγέλλομαι)"
+      },
+      {
+       "word": "ἀπαγαγὼν",
+       "kind": "<",
+       "value": "ἀπό + ἄγω | ἀπαγαγών (taking her away)"
+      }
+     ]
+    },
+    {
+     "text": "ὁμολογήσαντος δὲ σὺν ὅρκοις Θησέως δεῖται Δαιδάλου μηνῦσαι τοῦ λαβυρίνθου τὴν ἔξοδον.",
+     "orig": [
+      4
+     ],
+     "glosses": [
+      {
+       "word": "ὁμολογήσαντος",
+       "kind": "note",
+       "value": "genitive absolute: 'when Theseus had agreed'"
+      },
+      {
+       "word": "ὅρκοις",
+       "kind": "en",
+       "value": "oaths (ὁ ὅρκος)"
+      },
+      {
+       "word": "δεῖται",
+       "kind": "|",
+       "value": "δέομαι + gen. (ask, beg) | δεῖται Δαιδάλου (she asks Daedalus)"
+      },
+      {
+       "word": "μηνῦσαι",
+       "kind": "en",
+       "value": "to reveal (μηνύω)"
+      },
+      {
+       "word": "ἔξοδον",
+       "kind": "<",
+       "value": "ἐκ + ὁδός | ἡ ἔξοδος (the way out)"
+      }
+     ]
+    },
+    {
+     "text": "ὑποθεμένου δὲ ἐκείνου, λίνον εἰσιόντι Θησεῖ δίδωσι·",
+     "orig": [
+      5
+     ],
+     "glosses": [
+      {
+       "word": "ὑποθεμένου",
+       "kind": "<",
+       "value": "ὑπό + τίθημι | ὑποθέσθαι (to suggest): 'when he had made the suggestion'"
+      },
+      {
+       "word": "λίνον",
+       "kind": "en",
+       "value": "a thread of linen (τὸ λίνον)"
+      },
+      {
+       "word": "εἰσιόντι",
+       "kind": "|",
+       "value": "εἶμι | εἰσιών (going in): dative with Θησεῖ"
+      }
+     ]
+    },
+    {
+     "text": "τοῦτο ἐξάψας Θησεὺς τῆς θύρας ἐφελκόμενος εἰσῄει.",
+     "orig": [
+      6
+     ],
+     "glosses": [
+      {
+       "word": "ἐξάψας",
+       "kind": "<",
+       "value": "ἐκ + ἅπτω | ἐξάψας (fastening it to: + gen. τῆς θύρας)"
+      },
+      {
+       "word": "ἐφελκόμενος",
+       "kind": "<",
+       "value": "ἐπί + ἕλκω | ἐφελκόμενος (drawing it after him)"
+      },
+      {
+       "word": "εἰσῄει",
+       "kind": "|",
+       "value": "εἶμι | εἰσῄει (imperfect: went in)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "myth-6-c",
+   "sentences": [
+    {
+     "text": "καταλαβὼν δὲ Μινώταυρον ἐν ἐσχάτῳ μέρει τοῦ λαβυρίνθου παίων πυγμαῖς ἀπέκτεινεν, ἐφελκόμενος δὲ τὸ λίνον πάλιν ἐξῄει.",
+     "orig": [
+      7
+     ],
+     "glosses": [
+      {
+       "word": "ἐσχάτῳ",
+       "kind": "en",
+       "value": "the furthest, innermost (ἔσχατος)"
+      },
+      {
+       "word": "παίων",
+       "kind": "en",
+       "value": "striking (παίω)"
+      },
+      {
+       "word": "πυγμαῖς",
+       "kind": "en",
+       "value": "with his fists (ἡ πυγμή; cf. pygmy)"
+      },
+      {
+       "word": "ἐξῄει",
+       "kind": "↔",
+       "value": "εἰσῄει | ἐξῄει (went out)"
+      }
+     ]
+    },
+    {
+     "text": "καὶ διὰ νυκτὸς μετὰ Ἀριάδνης καὶ τῶν παίδων εἰς Νάξον ἀφικνεῖται.",
+     "orig": [
+      8
+     ],
+     "glosses": [
+      {
+       "word": "Νάξον",
+       "kind": "note",
+       "value": "Naxos, the largest island of the Cyclades"
+      }
+     ]
+    },
+    {
+     "text": "ἔνθα Διόνυσος ἐρασθεὶς Ἀριάδνης ἥρπασε.",
+     "orig": [
+      9
+     ],
+     "glosses": [
+      {
+       "word": "ἐρασθεὶς",
+       "kind": "|",
+       "value": "ἐράω + gen. | ἐρασθείς (having fallen in love with)"
+      },
+      {
+       "word": "ἥρπασε",
+       "kind": "en",
+       "value": "snatched (her) away, carried off (ἁρπάζω)"
+      }
+     ]
+    },
+    {
+     "text": "λυπούμενος δὲ Θησεὺς ἐπʼ Ἀριάδνῃ καταπλέων ἐπελάθετο πετάσαι τὴν ναῦν λευκοῖς ἱστίοις.",
+     "orig": [
+      11
+     ],
+     "glosses": [
+      {
+       "word": "λυπούμενος",
+       "kind": "|",
+       "value": "λυπέω (grieve) | λυπούμενος (being grieved: ἐπ' Ἀριάδνῃ, for Ariadne)"
+      },
+      {
+       "word": "καταπλέων",
+       "kind": "<",
+       "value": "κατά + πλέω | καταπλέων (sailing home, putting into port)"
+      },
+      {
+       "word": "ἐπελάθετο",
+       "kind": "|",
+       "value": "ἐπιλανθάνομαι + inf. (forget to) | ἐπελάθετο (aorist)"
+      }
+     ]
+    },
+    {
+     "text": "Αἰγεὺς δὲ ἀπὸ τῆς ἀκροπόλεως τὴν ναῦν ἰδὼν ἔχουσαν μέλαν ἱστίον, Θησέα νομίσας ἀπολλέναι ῥίψας ἑαυτὸν μετήλλαξε.",
+     "orig": [
+      12
+     ],
+     "glosses": [
+      {
+       "word": "ἀπολλέναι",
+       "kind": "=",
+       "value": "ἀπολωλέναι (perfect infinitive of ἀπόλλυμι: 'had perished'; later spelling)"
+      },
+      {
+       "word": "μετήλλαξε",
+       "kind": "en",
+       "value": "died (μεταλλάττω τὸν βίον: 'changed his life'; the object is left out)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "δασμος",
+   "gloss_grc": "ὁ δασμός: tribute"
+  },
+  {
+   "id": "παρθενος",
+   "gloss_grc": "ἡ παρθένος: maiden · ἑπτὰ παρθένοι"
+  },
+  {
+   "id": "λαβυρινθος",
+   "gloss_grc": "ὁ λαβύρινθος (in Knossos)"
+  },
+  {
+   "id": "ιστιον",
+   "pic": "myth-histion",
+   "gloss_grc": "τὸ ἱστίον: sail · μέλαν ἱστίον, λευκὰ ἱστία"
+  },
+  {
+   "id": "λευκος",
+   "gloss_grc": "λευκός, -ή, -όν ↔ μέλας"
+  },
+  {
+   "id": "εντελλομαι",
+   "gloss_grc": "ἐντέλλομαι + dat. + inf. · ἐνετειλάμην"
+  },
+  {
+   "id": "επαγγελλομαι",
+   "gloss_grc": "ἐπαγγέλλομαι · ἐπηγγειλάμην — offer, promise"
+  },
+  {
+   "id": "ορκος",
+   "gloss_grc": "ὁ ὅρκος: oath · σὺν ὅρκοις"
+  },
+  {
+   "id": "εξοδος",
+   "gloss_grc": "ἡ ἔξοδος < ἐκ + ὁδός ↔ ἡ εἴσοδος"
+  },
+  {
+   "id": "λινον",
+   "gloss_grc": "τὸ λίνον: thread"
+  },
+  {
+   "id": "αρπαζω",
+   "gloss_grc": "ἁρπάζω · ἥρπασα — snatch, carry off"
+  },
+  {
+   "id": "λυπεω",
+   "gloss_grc": "λυπέω · λυποῦμαι (be grieved, be sad)"
+  },
+  {
+   "id": "επιλανθανομαι",
+   "gloss_grc": "ἐπιλανθάνομαι · ἐπελαθόμην — forget"
+  }
+ ],
+ "notice": [
+  "Αἰγεὺς τῷ παιδὶ ἐνετείλατο, ἐὰν ὑποστρέφῃ ζῶν, λευκοῖς πετάσαι τὴν ναῦν ἱστίοις",
+  "ἐχούσης δὲ τῆς νεώς · ὁμολογήσαντος δὲ σὺν ὅρκοις Θησέως · ὑποθεμένου δὲ ἐκείνου",
+  "συγκαταλέγεται · ἐπαγγέλλεται · δεῖται · δίδωσι · ἀφικνεῖται",
+  "ὡς δέ τινες λέγουσιν, ἑκὼν ἑαυτὸν ἔδωκεν"
+ ],
+ "grammar": {
+  "md": "**Reading the Epitome.** The last part of the *Library* survives only as a Byzantine summary, so the sentences are short and bare: subject, participle, verb. What remains is exactly the grammar of the whole track.\n\n**1. Genitive absolutes carry the plot forward.** Every step of the plan is an absolute: ἐχούσης δὲ τῆς νεὼς μέλαν ἱστίον (since the ship had a black sail), ὁμολογήσαντος δὲ … Θησέως (when Theseus agreed), ὑποθεμένου δὲ ἐκείνου (when he, Daedalus, had made a suggestion).\n\n**2. Commands and conditions inside commands.** ἐνετείλατο, ἐὰν ὑποστρέφῃ ζῶν, λευκοῖς πετάσαι … ἱστίοις 'he told him, if he came back alive, to rig the ship with white sails'. The command is an infinitive (πετάσαι); the condition inside keeps ἐάν + subjunctive. Ariadne's offer works the same way: ἐπαγγέλλεται συμπράσσειν, ἐὰν ὁμολογήσῃ … ἕξειν.\n\n**3. The historic present, again.** συγκαταλέγεται, ἐπαγγέλλεται, δεῖται, δίδωσι, ἀφικνεῖται: the story jumps into the present at each new step, and back to the aorist for the climaxes (ἀπέκτεινεν, ἥρπασε, ἐπελάθετο).\n\n**4. Later Greek to recognise.** συμπράσσειν (Attic συμπράττειν); ἀπολλέναι for ἀπολωλέναι; μετήλλαξε 'he died', short for μετήλλαξε τὸν βίον.\n\n| Greek | construction |\n|---|---|\n| ἐπελάθετο πετάσαι | ἐπιλανθάνομαι + infinitive: forget to do |\n| τῆς θύρας ἐξάψας | ἅπτω + genitive: fasten to |\n| λυπούμενος ἐπ' Ἀριάδνῃ | ἐπί + dative: grief at, over |\n| Θησέα νομίσας ἀπολλέναι | νομίζω + accusative and infinitive |",
+  "paradigms": [],
+  "diagram": "diagram-gen-abs"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings.",
+   "template": "Αἰγεὺς τῷ παιδὶ ἐνετείλατο λευκ___ πετάσαι τὴν ναῦν ἱστίοις. Ἀριάδνη λίν___ εἰσιόντι Θησεῖ δίδωσι. Θησεὺς ἐπελάθετο πετάσαι τὴν ναῦν λευκοῖς ἱστί___.",
+   "gaps": [
+    {
+     "answers": [
+      "οῖς",
+      "οις"
+     ]
+    },
+    {
+     "answers": [
+      "ον"
+     ]
+    },
+    {
+     "answers": [
+      "οις"
+     ]
+    }
+   ],
+   "skills": [
+    "adj.agree",
+    "noun.decl2.neuter",
+    "noun.decl2.dat.pl"
+   ],
+   "explain": "λευκοῖς ἱστίοις (dative plural of means: 'with white sails'); τὸ λίνον (object of δίδωσι)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἐχούσης δὲ τῆς νεὼς ___ ἱστίον.",
+   "options": [
+    {
+     "id": "a",
+     "text": "μέλαν"
+    },
+    {
+     "id": "b",
+     "text": "λευκόν"
+    },
+    {
+     "id": "c",
+     "text": "χαλκοῦν"
+    }
+   ],
+   "answer": "a",
+   "audio": "ἐχούσης δὲ τῆς νεὼς μέλαν ἱστίον.",
+   "skills": [
+    "vocab.myth"
+   ],
+   "explain": "μέλαν ἱστίον: a black sail, the sign of mourning."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁμολογήσαντος δὲ σὺν ___ Θησέως.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὅρκοις"
+    },
+    {
+     "id": "b",
+     "text": "ἱστίοις"
+    },
+    {
+     "id": "c",
+     "text": "λίνοις"
+    }
+   ],
+   "answer": "a",
+   "audio": "ὁμολογήσαντος δὲ σὺν ὅρκοις Θησέως.",
+   "skills": [
+    "vocab.myth"
+   ],
+   "explain": "σὺν ὅρκοις 'with oaths': Theseus swore to marry her."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · δεῖται Δαιδάλου μηνῦσαι τοῦ λαβυρίνθου τὴν ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἔξοδον"
+    },
+    {
+     "id": "b",
+     "text": "εἴσοδον"
+    },
+    {
+     "id": "c",
+     "text": "ὁδόν"
+    }
+   ],
+   "answer": "a",
+   "audio": "δεῖται Δαιδάλου μηνῦσαι τοῦ λαβυρίνθου τὴν ἔξοδον.",
+   "skills": [
+    "vocab.myth"
+   ],
+   "explain": "ἡ ἔξοδος 'the way out'."
+  },
+  {
+   "type": "match",
+   "prompt": "Match the new words to their meanings.",
+   "pairs": [
+    {
+     "left": "τὸ ἱστίον",
+     "right": "sail"
+    },
+    {
+     "left": "τὸ λίνον",
+     "right": "thread"
+    },
+    {
+     "left": "ὁ ὅρκος",
+     "right": "oath"
+    },
+    {
+     "left": "ὁ δασμός",
+     "right": "tribute"
+    },
+    {
+     "left": "ἡ παρθένος",
+     "right": "maiden"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "ἱστίον (ὁ ἱστός 'mast'), λίνον, ὅρκος, δασμός, παρθένος."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "τὸ ἱστίον",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "myth-histion"
+    },
+    {
+     "id": "b",
+     "image": "myth-larnax"
+    },
+    {
+     "id": "c",
+     "image": "myth-pithos"
+    },
+    {
+     "id": "d",
+     "image": "myth-kithara"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "τὸ ἱστίον: the ship's sail."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of ἐπιλανθάνομαι for 'he forgot'.",
+   "lemma": "ἐπιλανθάνομαι",
+   "cell": "aorist.middle.indicative.3sg",
+   "audio": "ἐπελάθετο",
+   "skills": [
+    "vocab.production",
+    "verb.aor2.stem"
+   ],
+   "explain": "ἐπ-ε-λάθ-ετο: second aorist middle (λαθ-), augment after ἐπι-."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of ἁρπάζω for 'he snatched'.",
+   "lemma": "ἁρπάζω",
+   "cell": "aorist.active.indicative.3sg",
+   "audio": "ἥρπασεν",
+   "skills": [
+    "vocab.production",
+    "verb.augment"
+   ],
+   "explain": "ἥρπασε(ν): the augment lengthens ἁ to ἡ; ζ-stem → σ."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the dative plural of ὅρκος (σὺν ___).",
+   "lemma": "ὅρκος",
+   "cell": "dat.pl",
+   "audio": "ὅρκοις",
+   "skills": [
+    "noun.decl2.dat.pl",
+    "vocab.myth"
+   ],
+   "explain": "ὅρκοις."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ὁμολογήσαντος.",
+   "form": "ὁμολογήσαντος",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "case",
+     "label": "Case",
+     "options": [
+      {
+       "id": "nom",
+       "label": "nominative"
+      },
+      {
+       "id": "gen",
+       "label": "genitive"
+      },
+      {
+       "id": "dat",
+       "label": "dative"
+      },
+      {
+       "id": "acc",
+       "label": "accusative"
+      },
+      {
+       "id": "voc",
+       "label": "vocative"
+      }
+     ]
+    },
+    {
+     "id": "number",
+     "label": "Number",
+     "options": [
+      {
+       "id": "sg",
+       "label": "singular"
+      },
+      {
+       "id": "pl",
+       "label": "plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "mood": "ptc",
+    "case": "gen",
+    "number": "sg"
+   },
+   "audio": "ὁμολογήσαντος",
+   "skills": [
+    "verb.ptc.aor.act.gen",
+    "syntax.gen-abs"
+   ],
+   "explain": "ὁμολογήσ-αντος: aorist active participle, genitive singular, with Θησέως: a genitive absolute."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ὑποστρέφῃ.",
+   "form": "ὑποστρέφῃ",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person and number",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "1st singular"
+      },
+      {
+       "id": "2sg",
+       "label": "2nd singular"
+      },
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "1pl",
+       "label": "1st plural"
+      },
+      {
+       "id": "2pl",
+       "label": "2nd plural"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "pres",
+    "mood": "subj",
+    "person": "3sg"
+   },
+   "audio": "ὑποστρέφῃ",
+   "skills": [
+    "verb.pres.act.subj.3sg",
+    "syntax.ean"
+   ],
+   "explain": "ὑποστρέφ-ῃ: present subjunctive after ἐάν."
+  },
+  {
+   "type": "label",
+   "prompt": "Αἰγεὺς τῷ παιδὶ ἐνετείλατο … λευκοῖς πετάσαι τὴν ναῦν ἱστίοις. Why is πετάσαι an infinitive?",
+   "options": [
+    {
+     "id": "a",
+     "text": "it is the content of the command after ἐνετείλατο"
+    },
+    {
+     "id": "b",
+     "text": "it expresses purpose"
+    },
+    {
+     "id": "c",
+     "text": "it is an articular infinitive"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.infinitive",
+    "read.myth.apollodorus"
+   ],
+   "explain": "Verbs of commanding (ἐντέλλομαι, κελεύω, ἐπιτάττω) take a dative of the person and an infinitive."
+  },
+  {
+   "type": "label",
+   "prompt": "ὡς δέ τινες λέγουσιν, ἑκὼν ἑαυτὸν ἔδωκεν. What does this sentence add?",
+   "options": [
+    {
+     "id": "a",
+     "text": "another version: some say Theseus volunteered"
+    },
+    {
+     "id": "b",
+     "text": "the reason the ship's sail was black"
+    },
+    {
+     "id": "c",
+     "text": "Minos' answer"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.myth.variants"
+   ],
+   "explain": "In Plutarch's Life of Theseus too, Theseus volunteers to go with the tribute."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "λυπούμενος δὲ Θησεὺς ἐπ' Ἀριάδνῃ ___ πετάσαι τὴν ναῦν λευκοῖς ἱστίοις.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐπελάθετο"
+    },
+    {
+     "id": "b",
+     "text": "ἐνετείλατο"
+    },
+    {
+     "id": "c",
+     "text": "ἐπαγγέλλεται"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.myth"
+   ],
+   "explain": "ἐπελάθετο 'he forgot' to rig white sails."
+  },
+  {
+   "type": "transform",
+   "prompt": "Replace the historic present with the aorist: Ἀριάδνη λίνον εἰσιόντι Θησεῖ δίδωσι. → Ἀριάδνη λίνον εἰσιόντι Θησεῖ ___.",
+   "template": "Ἀριάδνη λίνον εἰσιόντι Θησεῖ ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἔδωκε",
+      "ἔδωκεν"
+     ]
+    }
+   ],
+   "audio": "Ἀριάδνη λίνον εἰσιόντι Θησεῖ ἔδωκεν.",
+   "skills": [
+    "verb.historic-present",
+    "verb.mi.didomi"
+   ],
+   "explain": "δίδωσι → ἔδωκε(ν), the κ-aorist of δίδωμι."
+  },
+  {
+   "type": "transform",
+   "prompt": "Turn the absolute into a clause with ἐπεί: ὁμολογήσαντος δὲ Θησέως, δεῖται Δαιδάλου. → ἐπεὶ δὲ Θησεὺς ___, δεῖται Δαιδάλου.",
+   "template": "ἐπεὶ δὲ Θησεὺς ___, δεῖται Δαιδάλου.",
+   "gaps": [
+    {
+     "answers": [
+      "ὡμολόγησε",
+      "ὡμολόγησεν"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.gen-abs",
+    "verb.augment"
+   ],
+   "explain": "ὁμολογέω, aorist ὡμολόγησα (ο → ω)."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the participles.",
+   "sentence": "καταλαβὼν δὲ Μινώταυρον ἐν ἐσχάτῳ μέρει τοῦ λαβυρίνθου παίων πυγμαῖς ἀπέκτεινεν, ἐφελκόμενος δὲ τὸ λίνον πάλιν ἐξῄει.",
+   "answer": [
+    0,
+    8,
+    11
+   ],
+   "skills": [
+    "read.locate",
+    "verb.ptc.use"
+   ],
+   "explain": "καταλαβών 'having caught', παίων 'striking', ἐφελκόμενος 'drawing after him'. Two finite verbs: ἀπέκτεινεν and ἐξῄει."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every word that tells you Aegeus' mistake.",
+   "sentence": "Αἰγεὺς δὲ ἀπὸ τῆς ἀκροπόλεως τὴν ναῦν ἰδὼν ἔχουσαν μέλαν ἱστίον, Θησέα νομίσας ἀπολλέναι ῥίψας ἑαυτὸν μετήλλαξε.",
+   "answer": [
+    12,
+    13
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.indirect-inf"
+   ],
+   "explain": "Θησέα νομίσας ἀπολλέναι 'thinking that Theseus had perished': accusative + infinitive after νομίζω."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'Theseus forgot the white sails.'",
+   "tokens": [
+    "Θησεὺς",
+    "τῶν",
+    "λευκῶν",
+    "ἱστίων",
+    "ἐπελάθετο"
+   ],
+   "answers": [
+    "Θησεὺς τῶν λευκῶν ἱστίων ἐπελάθετο",
+    "Θησεὺς ἐπελάθετο τῶν λευκῶν ἱστίων",
+    "τῶν λευκῶν ἱστίων ἐπελάθετο Θησεύς",
+    "τῶν λευκῶν ἱστίων Θησεὺς ἐπελάθετο"
+   ],
+   "skills": [
+    "syntax.gen.uses",
+    "syntax.word-order"
+   ],
+   "explain": "ἐπιλανθάνομαι takes the genitive of the thing forgotten (or an infinitive, as in the text)."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "καὶ διὰ νυκτὸς μετὰ Ἀριάδνης εἰς Νάξον ἀφικνεῖται."
+    },
+    {
+     "id": "b",
+     "text": "καὶ διὰ νυκτὸς μετὰ Ἀριάδνης εἰς Κρήτην ἀφικνεῖται."
+    },
+    {
+     "id": "c",
+     "text": "καὶ διὰ νυκτὸς μετὰ Δαιδάλου εἰς Νάξον ἀφικνεῖται."
+    }
+   ],
+   "answer": "a",
+   "audio": "καὶ διὰ νυκτὸς μετὰ Ἀριάδνης εἰς Νάξον ἀφικνεῖται.",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "By night he reaches Naxos with Ariadne."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἡ Ἀριάδνη Μίνωος θυγάτηρ ἦν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "Ἀριάδνη θυγάτηρ Μίνωος."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Θησεὺς τὸν Μινώταυρον τῷ ξίφει ἀπέκτεινεν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "παίων πυγμαῖς ἀπέκτεινεν: with his fists (other versions give him a sword)."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Αἰγεὺς τὴν ναῦν ἰδὼν ἔχουσαν μέλαν ἱστίον ἑαυτὸν ἔρριψεν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ῥίψας ἑαυτὸν μετήλλαξε."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "gaps": [
+    {
+     "answers": [
+      "ἡ Ἀριάδνη λίνον τῷ Θησεῖ δίδωσι",
+      "ἡ Ἀριάδνη λίνον τῷ Θησεῖ δίδωσιν"
+     ]
+    }
+   ],
+   "audio": "ἡ Ἀριάδνη λίνον τῷ Θησεῖ δίδωσι.",
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "δίδωσι(ν): historic present."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Aegeus told his son to come back.' (ἐντέλλομαι + dat. + inf.)",
+   "gaps": [
+    {
+     "answers": [
+      "Αἰγεὺς τῷ παιδὶ ἐνετείλατο ἐπανελθεῖν",
+      "ὁ Αἰγεὺς τῷ παιδὶ ἐνετείλατο ἐπανελθεῖν",
+      "Αἰγεὺς τῷ υἱῷ ἐνετείλατο ἐπανελθεῖν",
+      "ὁ Αἰγεὺς τῷ υἱῷ ἐνετείλατο ἐπανελθεῖν",
+      "Αἰγεὺς ἐνετείλατο τῷ παιδὶ ἐπανελθεῖν",
+      "ὁ Αἰγεὺς ἐνετείλατο τῷ παιδὶ ἐπανελθεῖν",
+      "Αἰγεὺς τῷ παιδὶ ἐνετείλατο ὑποστρέφειν",
+      "ὁ Αἰγεὺς τῷ παιδὶ ἐνετείλατο ὑποστρέφειν",
+      "Αἰγεὺς τῷ παιδὶ ἐνετείλατο ἐπανιέναι",
+      "ὁ Αἰγεὺς τῷ παιδὶ ἐνετείλατο ἐπανιέναι"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "vocab.myth",
+    "syntax.infinitive"
+   ],
+   "explain": "ἐνετείλατο + dative + infinitive (ἐπανελθεῖν, ἐπανιέναι or ὑποστρέφειν)."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: ὡς δὲ ἧκεν εἰς Κρήτην, Ἀριάδνη θυγάτηρ Μίνωος ἐρωτικῶς διατεθεῖσα πρὸς αὐτὸν συμπράσσειν ἐπαγγέλλεται, ἐὰν ὁμολογήσῃ γυναῖκα αὐτὴν ἕξειν ἀπαγαγὼν εἰς Ἀθήνας.",
+   "audio": "ὡς δὲ ἧκεν εἰς Κρήτην, Ἀριάδνη θυγάτηρ Μίνωος ἐρωτικῶς διατεθεῖσα πρὸς αὐτὸν συμπράσσειν ἐπαγγέλλεται, ἐὰν ὁμολογήσῃ γυναῖκα αὐτὴν ἕξειν ἀπαγαγὼν εἰς Ἀθήνας.",
+   "model": "When he came to Crete, Ariadne, the daughter of Minos, who had fallen in love with him, offered to help him if he would agree to take her away to Athens and marry her.",
+   "skills": [
+    "read.original",
+    "syntax.cond.fmv",
+    "read.myth.apollodorus"
+   ],
+   "explain": "ὡς 'when'; ἐπαγγέλλεται (historic present) + συμπράσσειν; ἐάν + subjunctive; ἕξειν γυναῖκα 'to have her as wife'."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "ὁ λαβύρινθος",
+     "right": "labyrinth"
+    },
+    {
+     "left": "ἡ ἔξοδος",
+     "right": "exodus"
+    },
+    {
+     "left": "ἡ παρθένος",
+     "right": "Parthenon"
+    },
+    {
+     "left": "λευκός",
+     "right": "leukaemia"
+    },
+    {
+     "left": "ἐπαγγέλλομαι (ἄγγελος)",
+     "right": "angel, evangelist"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "λαβύρινθος; ἔξοδος 'way out'; the Parthenon, 'temple of the Maiden'; λευκός 'white' (leukaemia: 'white blood'); ἄγγελος 'messenger'."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐνετείλατο ὁ Αἰγεὺς τῷ Θησεῖ;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐὰν ζῶν ὑποστρέφῃ, λευκοῖς ἱστίοις πετάσαι τὴν ναῦν."
+    },
+    {
+     "id": "b",
+     "text": "τὸν Μινώταυρον μὴ ἀποκτεῖναι."
+    },
+    {
+     "id": "c",
+     "text": "τὴν Ἀριάδνην γῆμαι."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension",
+    "read.myth"
+   ],
+   "explain": "ἐνετείλατο, ἐὰν ὑποστρέφῃ ζῶν, λευκοῖς πετάσαι τὴν ναῦν ἱστίοις."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐπηγγείλατο ἡ Ἀριάδνη;",
+   "options": [
+    {
+     "id": "a",
+     "text": "συμπράσσειν, ἐὰν ὁ Θησεὺς αὐτὴν γήμῃ."
+    },
+    {
+     "id": "b",
+     "text": "τὸν Μινώταυρον ἀποκτενεῖν."
+    },
+    {
+     "id": "c",
+     "text": "εἰς Νάξον πλεῖν."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "συμπράσσειν ἐπαγγέλλεται, ἐὰν ὁμολογήσῃ γυναῖκα αὐτὴν ἕξειν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίς τῇ Ἀριάδνῃ τοῦ λαβυρίνθου τὴν ἔξοδον ἐμήνυσεν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Μίνως."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Δαίδαλος."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Αἰγεύς."
+    }
+   ],
+   "answer": "b",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "δεῖται Δαιδάλου μηνῦσαι τοῦ λαβυρίνθου τὴν ἔξοδον."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐγένετο ἐν τῇ Νάξῳ;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Διόνυσος τὴν Ἀριάδνην ἥρπασεν."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Θησεὺς τὸν Μινώταυρον ἀπέκτεινεν."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Αἰγεὺς ἀπέθανεν."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἔνθα Διόνυσος ἐρασθεὶς Ἀριάδνης ἥρπασε."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί ἀπέθανεν ὁ Αἰγεύς;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐνόμισε γὰρ τὸν Θησέα ἀπολωλέναι."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Μίνως αὐτὸν ἀπέκτεινεν."
+    },
+    {
+     "id": "c",
+     "text": "ἐνόσει."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension",
+    "read.myth"
+   ],
+   "explain": "Θησέα νομίσας ἀπολλέναι ῥίψας ἑαυτὸν μετήλλαξε."
+  }
+ ],
+ "culture": {
+  "title": "Theseus, Athens' hero, and the ship to Delos",
+  "md": "In the 5th century Theseus became Athens' own Heracles. His deeds covered the metopes of the 'Hephaisteion' above the Agora and a whole generation of cups, which often run round the outside in a strip-cartoon: the bandits of the Isthmus, the Marathonian bull, and in the centre Theseus dragging the dead Minotaur out of the Labyrinth. In 476/5 the general Kimon brought back from Skyros bones said to be Theseus' and buried them in a shrine in the city, the Theseion (Plutarch, *Theseus* 36). Thucydides himself credits Theseus with uniting the villages of Attica into one city (2.15). In other versions Aegeus threw himself from a cliff into the sea, which was named after him: the Aegean.\n\nThe myth also lived in ritual. The Athenians said they had vowed to Apollo that, if the young people came back safe from Crete, they would send a sacred embassy to **Delos** every year, and they kept a ship they claimed was Theseus' own, replacing the rotten planks for centuries. While that ship was away the city executed no one: this is why **Socrates** waited a month in prison in 399, and why his friend Crito comes to him at dawn with news that the ship is about to arrive (Plato, *Phaedo* 58a–c; *Crito* 43c–d, the dialogue you began in Lesson 12.3).",
+  "image": "myth-culture-6"
+ },
+ "quiz": [
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of ἐντέλλομαι for 'he commanded'.",
+   "lemma": "ἐντέλλομαι",
+   "cell": "aorist.middle.indicative.3sg",
+   "audio": "ἐνετείλατο",
+   "skills": [
+    "vocab.production",
+    "verb.aor1.liquid"
+   ],
+   "explain": "ἐν-ε-τείλ-ατο: liquid aorist middle (ἐνετειλάμην)."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "___ δὲ τῆς νεὼς μέλαν ἱστίον, Αἰγεὺς ἐνετείλατο …",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐχούσης"
+    },
+    {
+     "id": "b",
+     "text": "ἔχουσα"
+    },
+    {
+     "id": "c",
+     "text": "ἔχων"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.gen-abs"
+   ],
+   "explain": "Genitive absolute with τῆς νεώς."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἐπελάθετο.",
+   "form": "ἐπελάθετο",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "voice",
+     "label": "Voice",
+     "options": [
+      {
+       "id": "act",
+       "label": "active"
+      },
+      {
+       "id": "mid",
+       "label": "middle"
+      },
+      {
+       "id": "pass",
+       "label": "passive"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person and number",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "1st singular"
+      },
+      {
+       "id": "2sg",
+       "label": "2nd singular"
+      },
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "1pl",
+       "label": "1st plural"
+      },
+      {
+       "id": "2pl",
+       "label": "2nd plural"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "voice": "mid",
+    "person": "3sg"
+   },
+   "audio": "ἐπελάθετο",
+   "skills": [
+    "verb.aor2.stem"
+   ],
+   "explain": "ἐπ-ε-λάθ-ετο: second aorist middle, 3rd singular."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Θησεὺς τὸ λίνον τῆς θύρας ἐξῆψεν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "τοῦτο ἐξάψας Θησεὺς τῆς θύρας."
+  },
+  {
+   "type": "match",
+   "prompt": "Match the new words to their meanings.",
+   "pairs": [
+    {
+     "left": "λευκός",
+     "right": "white"
+    },
+    {
+     "left": "λυπέομαι",
+     "right": "be grieved"
+    },
+    {
+     "left": "ἁρπάζω",
+     "right": "snatch"
+    },
+    {
+     "left": "ἐπαγγέλλομαι",
+     "right": "offer, promise"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "λευκός ↔ μέλας; λυπέω 'grieve'; ἁρπάζω (harpy); ἐπ-αγγέλλομαι."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Αἰγεὺς δὲ ἀπὸ τῆς ἀκροπόλεως τὴν ναῦν εἶδεν."
+    },
+    {
+     "id": "b",
+     "text": "Θησεὺς δὲ ἀπὸ τῆς ἀκροπόλεως τὴν ναῦν εἶδεν."
+    },
+    {
+     "id": "c",
+     "text": "Αἰγεὺς δὲ ἀπὸ τῆς νεὼς τὴν ἀκρόπολιν εἶδεν."
+    }
+   ],
+   "answer": "a",
+   "audio": "Αἰγεὺς δὲ ἀπὸ τῆς ἀκροπόλεως τὴν ναῦν εἶδεν.",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "Aegeus saw the ship from the Acropolis."
+  }
+ ],
+ "skills": [
+  "read.original",
+  "read.myth",
+  "read.myth.apollodorus",
+  "read.myth.variants",
+  "read.comprehension",
+  "read.locate",
+  "syntax.gen-abs",
+  "syntax.infinitive",
+  "syntax.cond.fmv",
+  "verb.historic-present",
+  "verb.ptc.use",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family",
+  "vocab.myth"
+ ]
+}

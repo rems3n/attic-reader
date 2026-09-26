@@ -68,6 +68,62 @@ def vocab_plan(tts: KokoroAtticTTS) -> list[tuple[float, str, str]]:
     return jobs
 
 
+COURSE_SPEEDS = (0.75, 0.6)
+
+
+def course_plan(tts: KokoroAtticTTS) -> list[tuple[float, str, str]]:
+    """(speed, cache_key, chunk) for every course story sentence (two learner
+    speeds), every lesson word and every exercise audio string (default speed)."""
+    from ..course import data as course_data
+
+    jobs: list[tuple[float, str, str]] = []
+    seen: set[str] = set()
+
+    def add(text: str, speed: float) -> None:
+        model_speed = tts.effective_speed(speed)
+        for chunk in split_phonemes(attic_ipa(text), max_chars=tts.max_chars):
+            if not has_speech(chunk):
+                continue
+            key = clip_cache.clip_key(tts.provider_id, tts.voice, model_speed, chunk)
+            if key not in seen:
+                seen.add(key)
+                jobs.append((speed, key, chunk))
+
+    for lid in course_data.lesson_ids():
+        if not course_data.lesson_available(lid):
+            continue
+        raw = course_data.load_lesson(lid)
+        for para in raw.get("story", []):
+            for sentence in para.get("sentences", []):
+                for speed in COURSE_SPEEDS:
+                    add(sentence["text"], speed)
+        for sentence in raw.get("notice", []):
+            add(sentence, COURSE_SPEEDS[0])
+        for v in raw.get("vocab", []):
+            try:
+                add(course_data.entry_by_id(v["id"])["lemma"], COURSE_SPEEDS[0])
+            except KeyError:
+                continue
+        for block in ("exercises", "questions", "quiz"):
+            for item in raw.get(block, []):
+                audio = item.get("audio")
+                if audio and audio != "prompt":
+                    add(audio, COURSE_SPEEDS[0])
+                elif audio == "prompt" and item.get("prompt"):
+                    add(item["prompt"], COURSE_SPEEDS[0])
+                for option in item.get("options", []) or []:
+                    if option.get("audio"):
+                        add(option["audio"], COURSE_SPEEDS[0])
+        original = raw.get("original")
+        if original:
+            try:
+                for sentence in course_data.load_text(original["text"])["sentences"]:
+                    add(sentence, COURSE_SPEEDS[0])
+            except course_data.CourseError:
+                pass
+    return jobs
+
+
 def ready_speeds(item: dict, tts: KokoroAtticTTS | None = None) -> list[float]:
     """Speeds at which every chunk of the item is already cached."""
     tts = tts or KokoroAtticTTS()
@@ -90,7 +146,7 @@ def ready_speeds(item: dict, tts: KokoroAtticTTS | None = None) -> list[float]:
 def run(tts: KokoroAtticTTS | None = None) -> dict[str, object]:
     """Render every missing clip (blocking). Safe to call repeatedly."""
     tts = tts or KokoroAtticTTS()
-    jobs = plan(tts) + vocab_plan(tts)
+    jobs = plan(tts) + vocab_plan(tts) + course_plan(tts)
     todo = [j for j in jobs if not clip_cache.has(j[1])]
     _set(state="running", rendered=0, total=len(todo), cached=len(jobs) - len(todo), started=time.time(), finished=None)
     log.warning("library pre-render: %d clips to render, %d already cached", len(todo), len(jobs) - len(todo))

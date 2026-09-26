@@ -1,0 +1,1392 @@
+{
+ "id": "5.3",
+ "title_grc": "ὁ Ἀπόλλων καὶ ἡ Δάφνη",
+ "title_en": "Apollo and Daphne",
+ "summary_grc": "ἡ Δάφνη ἔφευγεν, ὁ δὲ θεὸς ἐδίωκεν· τέλος δὲ ἡ νύμφη δένδρον ἐγένετο.",
+ "summary_en": "A winter night by the fire: Kleinias tells a myth. The imperfect (was doing, kept doing), the imperfect of εἰμί, and how a story moves between imperfect and aorist.",
+ "cover": "panel-5-3-b",
+ "caption_grc": "ἡ Δάφνη ἔφευγεν· ὁ Ἀπόλλων ἐδίωκεν. τέλος δὲ ἡ νύμφη δένδρον ἐγένετο.",
+ "names": {
+  "Δάφνη": [
+   "Δάφνης",
+   "Δάφνῃ",
+   "Δάφνην"
+  ],
+  "Πηνειός": [
+   "Πηνειοῦ",
+   "Πηνειῷ",
+   "Πηνειόν"
+  ],
+  "Ἔρως": [
+   "Ἔρωτος",
+   "Ἔρωτι",
+   "Ἔρωτα"
+  ],
+  "Θεσσαλία": [
+   "Θεσσαλίας",
+   "Θεσσαλίᾳ",
+   "Θεσσαλίαν"
+  ]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "panel-5-3-a",
+   "sentences": [
+    {
+     "text": "χειμὼν ἦν καὶ νύξ· πάντες πρὸς τῷ πυρὶ ἐκάθηντο.",
+     "glosses": [
+      {
+       "word": "χειμὼν",
+       "kind": "en",
+       "value": "winter"
+      },
+      {
+       "word": "ἦν",
+       "kind": "|",
+       "value": "ἐστί(ν) | ἦν (was)"
+      },
+      {
+       "word": "νύξ",
+       "kind": "↔",
+       "value": "ἡμέρα (night)"
+      },
+      {
+       "word": "ἐκάθηντο",
+       "kind": "en",
+       "value": "were sitting"
+      }
+     ]
+    },
+    {
+     "text": "ἡ Ἐλπὶς εἶπεν· «ὦ πάππε, διὰ τί ἡ δάφνη ἱερά ἐστι τῷ Ἀπόλλωνι;»",
+     "glosses": [
+      {
+       "word": "διὰ",
+       "kind": "=",
+       "value": "διὰ τί; = why?"
+      },
+      {
+       "word": "δάφνη",
+       "kind": "pic",
+       "value": "daphne"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Κλεινίας· «ἄκουε· ὁ μῦθος καλός ἐστιν.»",
+     "glosses": [
+      {
+       "word": "μῦθος",
+       "kind": "en",
+       "value": "story, myth"
+      }
+     ]
+    },
+    {
+     "text": "πάλαι ἐν Θεσσαλίᾳ νύμφη τις ἦν, ἡ Δάφνη· θυγάτηρ δὲ ἦν τοῦ Πηνειοῦ ποταμοῦ.",
+     "glosses": [
+      {
+       "word": "πάλαι",
+       "kind": "en",
+       "value": "long ago"
+      },
+      {
+       "word": "νύμφη",
+       "kind": "pic",
+       "value": "nymphe"
+      },
+      {
+       "word": "ποταμοῦ",
+       "kind": "pic",
+       "value": "potamos"
+      }
+     ]
+    },
+    {
+     "text": "ἡ Δάφνη καλὴ ἦν καὶ ἐν τοῖς δένδροις ἀεὶ ἔτρεχεν· γάμον δὲ οὐκ ἐβούλετο.",
+     "glosses": [
+      {
+       "word": "ἔτρεχεν",
+       "kind": "|",
+       "value": "τρέχει | ἔτρεχε(ν) (used to run, kept running)"
+      },
+      {
+       "word": "γάμον",
+       "kind": "en",
+       "value": "marriage"
+      },
+      {
+       "word": "ἐβούλετο",
+       "kind": "|",
+       "value": "βούλεται | ἐβούλετο"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Ἀπόλλων ποτὲ τὸν Ἔρωτα τόξον ἔχοντα εἶδε καὶ ἐγέλασεν· ὁ γὰρ θεὸς μέγα τόξον εἶχεν, ὁ δὲ παῖς μικρόν.",
+     "glosses": [
+      {
+       "word": "ποτε",
+       "kind": "en",
+       "value": "once"
+      },
+      {
+       "word": "τόξον",
+       "kind": "pic",
+       "value": "toxon"
+      },
+      {
+       "word": "ἔχοντα",
+       "kind": "|",
+       "value": "ἔχων | ἔχοντα (holding — accusative, with τὸν Ἔρωτα)"
+      },
+      {
+       "word": "ἐγέλασεν",
+       "kind": "en",
+       "value": "laughed (at him)"
+      },
+      {
+       "word": "εἶχεν",
+       "kind": "|",
+       "value": "ἔχει | εἶχε(ν) (had)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ οὖν Ἔρως τὸν Ἀπόλλωνα τῷ τόξῳ ἔβαλεν· καὶ ὁ θεὸς εὐθὺς τῆς Δάφνης ἤρα.",
+     "glosses": [
+      {
+       "word": "ἔβαλεν",
+       "kind": "pic",
+       "value": "verb-ballei"
+      },
+      {
+       "word": "εὐθὺς",
+       "kind": "en",
+       "value": "at once"
+      },
+      {
+       "word": "ἤρα",
+       "kind": "pic",
+       "value": "verb-era"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-5-3-b",
+   "sentences": [
+    {
+     "text": "ὁ Ἀπόλλων πρὸς τὴν νύμφην ἦλθε καὶ εἶπεν· «ὦ Δάφνη, μένε· θεὸς γάρ εἰμι καὶ σοῦ ἐρῶ.»",
+     "glosses": [
+      {
+       "word": "ἐρῶ",
+       "kind": "|",
+       "value": "ἐρᾷ | ἐρῶ (I love — + genitive)"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Δάφνη οὐκ ἔμενεν, ἀλλ' ἔφευγεν· ὁ δὲ θεὸς ἐδίωκεν.",
+     "glosses": [
+      {
+       "word": "ἔμενεν",
+       "kind": "|",
+       "value": "μένει | ἔμενε(ν)"
+      },
+      {
+       "word": "ἔφευγεν",
+       "kind": "|",
+       "value": "φεύγει | ἔφευγε(ν) (was fleeing) | ἔφυγε(ν) (fled)"
+      },
+      {
+       "word": "ἐδίωκεν",
+       "kind": "pic",
+       "value": "verb-diokei"
+      }
+     ]
+    },
+    {
+     "text": "ἡ νύμφη ταχέως ἔτρεχεν, ὁ δὲ Ἀπόλλων ἀεὶ ἐγγὺς ἦν.",
+     "glosses": [
+      {
+       "word": "ταχέως",
+       "kind": "en",
+       "value": "fast"
+      },
+      {
+       "word": "ἐγγὺς",
+       "kind": "en",
+       "value": "near"
+      }
+     ]
+    },
+    {
+     "text": "ἡ Δάφνη ἐφοβεῖτο καὶ ἔκλαιε καὶ τὸν πατέρα ἐκάλει· «ὦ πάτερ, σῷζέ με!»",
+     "glosses": [
+      {
+       "word": "ἐφοβεῖτο",
+       "kind": "|",
+       "value": "φοβεῖται | ἐφοβεῖτο"
+      },
+      {
+       "word": "ἔκλαιε",
+       "kind": "pic",
+       "value": "verb-klaiei"
+      },
+      {
+       "word": "ἐκάλει",
+       "kind": "|",
+       "value": "καλεῖ | ἐκάλει"
+      }
+     ]
+    },
+    {
+     "text": "ὁ θεὸς ἤδη τὴν κόμην αὐτῆς λαμβάνει· ἡ δὲ νύμφη πρὸς τὸν ποταμὸν ἀφικνεῖται.",
+     "glosses": [
+      {
+       "word": "ἤδη",
+       "kind": "en",
+       "value": "already"
+      },
+      {
+       "word": "κόμην",
+       "kind": "pic",
+       "value": "kome"
+      },
+      {
+       "word": "λαμβάνει",
+       "kind": "note",
+       "value": "a present tense in the middle of a past story: the 'historic present' makes the moment vivid"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-5-3-c",
+   "sentences": [
+    {
+     "text": "καὶ ὁ Πηνειὸς τῆς θυγατρὸς ἤκουσεν.",
+     "glosses": [
+      {
+       "word": "ἤκουσεν",
+       "kind": "|",
+       "value": "ἀκούει | ἤκουσε(ν) (+ genitive)"
+      }
+     ]
+    },
+    {
+     "text": "εὐθὺς οἱ πόδες τῆς Δάφνης ῥίζαι ἐγίγνοντο, αἱ δὲ χεῖρες κλάδοι, ἡ δὲ κόμη φύλλα.",
+     "glosses": [
+      {
+       "word": "πόδες",
+       "kind": "pic",
+       "value": "pous"
+      },
+      {
+       "word": "ῥίζαι",
+       "kind": "pic",
+       "value": "rhiza"
+      },
+      {
+       "word": "ἐγίγνοντο",
+       "kind": "|",
+       "value": "γίγνονται | ἐγίγνοντο (were becoming)"
+      },
+      {
+       "word": "χεῖρες",
+       "kind": "pic",
+       "value": "cheir"
+      },
+      {
+       "word": "κλάδοι",
+       "kind": "pic",
+       "value": "klados"
+      },
+      {
+       "word": "φύλλα",
+       "kind": "pic",
+       "value": "phyllon"
+      }
+     ]
+    },
+    {
+     "text": "τὸ σῶμα δένδρον ἐγένετο· ἡ Δάφνη δάφνη ἦν.",
+     "glosses": [
+      {
+       "word": "σῶμα",
+       "kind": "pic",
+       "value": "soma"
+      },
+      {
+       "word": "ἐγένετο",
+       "kind": "|",
+       "value": "ἐγίγνετο (was becoming) | ἐγένετο (became)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ Ἀπόλλων τὸ δένδρον εἶδε καὶ ἔκλαυσεν.",
+     "glosses": [
+      {
+       "word": "ἔκλαυσεν",
+       "kind": "|",
+       "value": "ἔκλαιε(ν) (was weeping) | ἔκλαυσε(ν) (wept, burst into tears)"
+      }
+     ]
+    },
+    {
+     "text": "ἔπειτα δὲ κλάδον ἔλαβε καὶ στέφανον ἐποίησε καὶ εἶπεν· «ὦ Δάφνη, νῦν ἡ δάφνη ἐμή ἐστιν· ἀεὶ στέφανον ἐκ τῶν φύλλων σου ἔχω.»",
+     "glosses": [
+      {
+       "word": "ἔπειτα",
+       "kind": "en",
+       "value": "then"
+      },
+      {
+       "word": "κλάδον",
+       "kind": "|",
+       "value": "ὁ κλάδος | τὸν κλάδον"
+      },
+      {
+       "word": "ἐποίησε",
+       "kind": "|",
+       "value": "ποιεῖ | ἐποίησε(ν)"
+      }
+     ]
+    },
+    {
+     "text": "«οὕτως», λέγει ὁ Κλεινίας, «ἡ δάφνη τῷ Ἀπόλλωνι ἱερά ἐστιν.»",
+     "glosses": [
+      {
+       "word": "οὕτως",
+       "kind": "en",
+       "value": "so, that is why"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Ἐλπὶς εἶπεν· «ὁ μῦθος καλὸς μέν ἐστιν· ἀλλ' ἡ Δάφνη οὐκ ἐβούλετο δένδρον γενέσθαι!»",
+     "glosses": [
+      {
+       "word": "γενέσθαι",
+       "kind": "|",
+       "value": "γίγνεσθαι | γενέσθαι (to become)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "νυμφη",
+   "pic": "nymphe"
+  },
+  {
+   "id": "δαφνη",
+   "pic": "daphne",
+   "gloss_grc": "ἡ δάφνη δένδρόν ἐστιν ἱερὸν τῷ Ἀπόλλωνι"
+  },
+  {
+   "id": "ποταμος",
+   "pic": "potamos",
+   "gloss_grc": "ἐν τῷ ποταμῷ ὕδωρ ἐστίν"
+  },
+  {
+   "id": "τοξον",
+   "pic": "toxon"
+  },
+  {
+   "id": "εραω",
+   "pic": "verb-era",
+   "gloss_grc": "ἐρᾷ τῆς κόρης · ἤρα (+ genitive)"
+  },
+  {
+   "id": "διωκω",
+   "pic": "verb-diokei",
+   "gloss_grc": "διώκει ↔ φεύγει · ἐδίωκε(ν) · ἐδίωξε(ν)"
+  },
+  {
+   "id": "βαλλω",
+   "pic": "verb-ballei",
+   "gloss_grc": "βάλλει · ἔβαλλε(ν) · ἔβαλε(ν)"
+  },
+  {
+   "id": "κλαιω",
+   "pic": "verb-klaiei",
+   "gloss_grc": "κλαίει · ἔκλαιε(ν) · ἔκλαυσε(ν)"
+  },
+  {
+   "id": "κομη",
+   "pic": "kome"
+  },
+  {
+   "id": "φυλλον",
+   "pic": "phyllon",
+   "gloss_grc": "τὸ φύλλον | τὰ φύλλα"
+  },
+  {
+   "id": "σωμα",
+   "pic": "soma",
+   "gloss_grc": "τὸ σῶμα · τοῦ σώματος"
+  },
+  {
+   "id": "πους",
+   "pic": "pous",
+   "gloss_grc": "ὁ πούς · τοῦ ποδός · οἱ πόδες"
+  },
+  {
+   "id": "χειρ",
+   "pic": "cheir",
+   "gloss_grc": "ἡ χείρ · τῆς χειρός · αἱ χεῖρες"
+  },
+  {
+   "id": "στεφανος",
+   "pic": "stephanos",
+   "gloss_grc": "στέφανος ἐκ φύλλων"
+  },
+  {
+   "id": "ειμι",
+   "gloss_grc": "ἐστί(ν) · ἦν · εἰσί(ν) · ἦσαν"
+  }
+ ],
+ "notice": [
+  "ἡ Δάφνη καλὴ ἦν. — νύμφη τις ἦν. — πάντες πρὸς τῷ πυρὶ ἦσαν.",
+  "ἡ Δάφνη ἔφευγεν, ὁ δὲ θεὸς ἐδίωκεν. — οἱ βάρβαροι ἔφυγον.",
+  "ἡ Δάφνη ἔκλαιε καὶ τὸν πατέρα ἐκάλει. — ὁ Ἀπόλλων τὸ δένδρον εἶδε καὶ ἔκλαυσεν.",
+  "οἱ πόδες ῥίζαι ἐγίγνοντο … τὸ σῶμα δένδρον ἐγένετο.",
+  "ὁ θεὸς ἤδη τὴν κόμην αὐτῆς λαμβάνει· ἡ δὲ νύμφη πρὸς τὸν ποταμὸν ἀφικνεῖται."
+ ],
+ "grammar": {
+  "md": "**Was doing, kept doing: the imperfect.** ἡ Δάφνη **ἔφευγεν**, ὁ δὲ θεὸς **ἐδίωκεν** 'Daphne was fleeing and the god was chasing'. The **imperfect** describes a past action as going on, repeated, or attempted; the aorist reports it as one complete event. Compare ἔφευγεν *was running away* with ἔφυγεν *ran away, escaped*; ἔκλαιε *was crying* with ἔκλαυσεν *burst into tears*; ἐγίγνοντο *were turning into* with ἐγένετο *became*.\n\n**How it is formed.** Augment + the **present** stem + these endings:\n\n| | active | | middle |\n|---|---|---|---|\n| I | ἔφευγ**ον** | | ἐβουλ**όμην** |\n| you | ἔφευγ**ες** | | ἐβούλ**ου** |\n| he, she | ἔφευγ**ε(ν)** | | ἐβούλ**ετο** |\n| we | ἐφεύγ**ομεν** | | ἐβουλ**όμεθα** |\n| you (pl.) | ἐφεύγ**ετε** | | ἐβούλ**εσθε** |\n| they | ἔφευγ**ον** | | ἐβούλ**οντο** |\n\nThe active endings are the same as those of the second aorist; **the stem tells them apart**: ἐ-λάμβαν-ε *was taking* (present stem) but ἔ-λαβ-ε *took* (aorist stem); ἔ-φευγ-ε but ἔ-φυγ-ε; ἔ-βαλλ-ε but ἔ-βαλ-ε. Verbs with a first aorist have no such trap: ἔκλαιε / ἔκλαυσε, ἐποίει / ἐποίησε.\n\nContract verbs contract as usual: καλέω → ἐκάλει, ἐκάλουν; ἐράω → ἤρα, ἤρων; φοβέομαι → ἐφοβεῖτο. The augment is the one you know: ἦλθον, ἤκουον, εἶχον (ἔχω has an irregular εἶχον).\n\n**The imperfect of εἰμί.** There is no aorist of 'to be'; the past is always the imperfect:\n\n| ἦ / ἦν *I was* | ἦμεν *we were* |\n|---|---|\n| ἦσθα *you were* | ἦτε *you were* |\n| ἦν *he, she, it was* | ἦσαν *they were* |\n\n**Telling a story.** Greek narrative sets the scene in the imperfect (χειμὼν **ἦν**· πάντες **ἐκάθηντο**; ἡ Δάφνη ἀεὶ **ἔτρεχεν**) and moves the action forward with aorists (**εἶδε**, **ἔβαλεν**, **ἦλθε**, **εἶπεν**). At the most exciting moment a storyteller may switch to the **present** — ὁ θεὸς ἤδη τὴν κόμην **λαμβάνει** — as if it were happening now: the *historic present*. Notice how the change of tense in the myth tells you what is background and what is event.",
+  "paradigms": [
+   "luo",
+   "eimi"
+  ],
+  "diagram": "diagram-timeline"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the imperfect endings.",
+   "template": "ἡ Δάφνη ἐν τοῖς δένδροις ἔτρεχ___. ὁ δὲ θεὸς ἐδίωκ___. αἱ νύμφαι ἐφοβοῦντο καὶ ἔκλαι___. ἡμεῖς πρὸς τῷ πυρὶ ἐκαθεύδ___.",
+   "gaps": [
+    {
+     "answers": [
+      "εν",
+      "ε"
+     ]
+    },
+    {
+     "answers": [
+      "εν",
+      "ε"
+     ]
+    },
+    {
+     "answers": [
+      "ον"
+     ]
+    },
+    {
+     "answers": [
+      "ομεν"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.impf.act.ind.3sg",
+    "verb.impf.act.ind.3pl",
+    "verb.impf.act.ind.1pl"
+   ],
+   "explain": "ἔτρεχεν, ἐδίωκεν (he/she), ἔκλαιον (they), ἐκαθεύδομεν (we)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἡ Δάφνη ἔφευγεν, ὁ δὲ θεὸς ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐδίωκεν"
+    },
+    {
+     "id": "b",
+     "text": "διώκει"
+    },
+    {
+     "id": "c",
+     "text": "διώκειν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.impf.act.ind.3sg",
+    "verb.impf.vs.aor"
+   ],
+   "explain": "Two actions going on at the same time in the past: ἔφευγεν … ἐδίωκεν.",
+   "audio": "ἡ Δάφνη ἔφευγεν, ὁ δὲ θεὸς ἐδίωκεν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · πάλαι ἐν Θεσσαλίᾳ νύμφη τις ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐστίν"
+    },
+    {
+     "id": "b",
+     "text": "ἦν"
+    },
+    {
+     "id": "c",
+     "text": "ἦσαν"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "verb.eimi.impf.ind.3sg"
+   ],
+   "explain": "'There was once a nymph': ἦν, the imperfect of εἰμί, singular.",
+   "audio": "πάλαι ἐν Θεσσαλίᾳ νύμφη τις ἦν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ Ἀπόλλων τὸ δένδρον εἶδε καὶ ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἔκλαιεν"
+    },
+    {
+     "id": "b",
+     "text": "ἔκλαυσεν"
+    },
+    {
+     "id": "c",
+     "text": "κλαίει"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "verb.impf.vs.aor",
+    "verb.aor.act.ind.3sg"
+   ],
+   "explain": "εἶδε καὶ ἔκλαυσεν: two events in sequence, both aorist. ἔκλαιεν would describe him weeping for a while.",
+   "audio": "ὁ Ἀπόλλων τὸ δένδρον εἶδε καὶ ἔκλαυσεν."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "διώκει",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "verb-pheugei"
+    },
+    {
+     "id": "b",
+     "image": "verb-diokei"
+    },
+    {
+     "id": "c",
+     "image": "verb-klaiei"
+    },
+    {
+     "id": "d",
+     "image": "verb-ballei"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "διώκει: chases, pursues."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "τὰ φύλλα",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "rhiza"
+    },
+    {
+     "id": "b",
+     "image": "klados"
+    },
+    {
+     "id": "c",
+     "image": "phyllon"
+    },
+    {
+     "id": "d",
+     "image": "kome"
+    }
+   ],
+   "answer": "c",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "φύλλον, φύλλα: leaf, leaves."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the imperfect of φεύγω for 'she was fleeing'.",
+   "lemma": "φεύγω",
+   "cell": "imperfect.active.indicative.3sg",
+   "skills": [
+    "verb.impf.act.ind.3sg"
+   ],
+   "explain": "ἔφευγε(ν): augment + present stem φευγ- + -ε(ν).",
+   "audio": "ἔφευγεν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the imperfect of εἰμί for 'they were'.",
+   "lemma": "εἰμί",
+   "cell": "imperfect.active.indicative.3pl",
+   "skills": [
+    "verb.eimi.impf.ind.3pl"
+   ],
+   "explain": "ἦσαν.",
+   "audio": "ἦσαν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the imperfect of καλέω for 'she was calling'.",
+   "lemma": "καλέω",
+   "cell": "imperfect.active.indicative.3sg",
+   "skills": [
+    "verb.impf.act.ind.3sg",
+    "verb.contract.e"
+   ],
+   "explain": "ἐκάλει: ἐ-κάλε-ε contracts to ἐκάλει.",
+   "audio": "ἐκάλει"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the imperfect of ἔχω for 'he had'.",
+   "lemma": "ἔχω",
+   "cell": "imperfect.active.indicative.3sg",
+   "skills": [
+    "verb.impf.act.ind.3sg",
+    "verb.augment"
+   ],
+   "explain": "εἶχε(ν): ἔχω takes an irregular augment εἰ-.",
+   "audio": "εἶχεν"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἔφευγεν.",
+   "form": "ἔφευγεν",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "impf",
+       "label": "imperfect (was fleeing)"
+      },
+      {
+       "id": "aor",
+       "label": "aorist (fled)"
+      },
+      {
+       "id": "pres",
+       "label": "present (flees)"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Who?",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "I"
+      },
+      {
+       "id": "3sg",
+       "label": "he / she"
+      },
+      {
+       "id": "3pl",
+       "label": "they"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "impf",
+    "person": "3sg"
+   },
+   "skills": [
+    "verb.impf.act.ind.3sg",
+    "verb.impf.vs.aor"
+   ],
+   "explain": "Present stem φευγ- with augment and -εν: imperfect, 'was fleeing'. The aorist is ἔφυγεν.",
+   "audio": "ἔφευγεν"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἔβαλεν.",
+   "form": "ἔβαλεν",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "impf",
+       "label": "imperfect (was throwing)"
+      },
+      {
+       "id": "aor",
+       "label": "aorist (threw, hit)"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor"
+   },
+   "skills": [
+    "verb.impf.vs.aor",
+    "verb.aor2.stem"
+   ],
+   "explain": "One λ: the aorist stem βαλ-. The imperfect keeps the present stem βαλλ-: ἔβαλλεν.",
+   "audio": "ἔβαλεν"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἡ Δάφνη ἐν τοῖς δένδροις ἀεὶ ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἔδραμεν"
+    },
+    {
+     "id": "b",
+     "text": "ἔτρεχεν"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "verb.impf.vs.aor",
+    "verb.impf.act.ind.3sg"
+   ],
+   "explain": "ἀεί 'always': a habit, so the imperfect ἔτρεχεν."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ Ἔρως τὸν Ἀπόλλωνα τῷ τόξῳ ___, καὶ ὁ θεὸς εὐθὺς τῆς νύμφης ἤρα.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἔβαλλεν"
+    },
+    {
+     "id": "b",
+     "text": "ἔβαλεν"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "verb.impf.vs.aor",
+    "verb.aor.act.ind.3sg"
+   ],
+   "explain": "One shot, one event: the aorist ἔβαλεν."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "χειμὼν ___ καὶ νύξ.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἦν"
+    },
+    {
+     "id": "b",
+     "text": "ἦσαν"
+    },
+    {
+     "id": "c",
+     "text": "ἐγένοντο"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.eimi.impf.ind.3sg"
+   ],
+   "explain": "Setting the scene: 'it was winter and night', ἦν."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "In the story: ὁ θεὸς ἤδη τὴν κόμην αὐτῆς λαμβάνει. Why is λαμβάνει in the present tense?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Kleinias has stopped telling the story and speaks of now."
+    },
+    {
+     "id": "b",
+     "text": "It is a 'historic present': the storyteller makes the most exciting moment vivid, as if it were happening now."
+    },
+    {
+     "id": "c",
+     "text": "λαμβάνω has no past tense."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "verb.historic-present",
+    "read.myth"
+   ],
+   "explain": "The historic present: a past event told in the present for vividness. The story goes straight back to past tenses (ἤκουσεν, ἐγίγνοντο)."
+  },
+  {
+   "type": "transform",
+   "prompt": "Put it in the past (going on): ὁ θεὸς τὴν νύμφην διώκει. → ὁ θεὸς τὴν νύμφην …",
+   "template": "ὁ θεὸς τὴν νύμφην ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἐδίωκε(ν)"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.impf.act.ind.3sg"
+   ],
+   "explain": "ἐδίωκεν.",
+   "audio": "ὁ θεὸς τὴν νύμφην ἐδίωκεν."
+  },
+  {
+   "type": "transform",
+   "prompt": "Put it in the past (going on): αἱ νύμφαι ἐν τοῖς δένδροις τρέχουσιν. → αἱ νύμφαι ἐν τοῖς δένδροις …",
+   "template": "αἱ νύμφαι ἐν τοῖς δένδροις ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἔτρεχον"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.impf.act.ind.3pl"
+   ],
+   "explain": "ἔτρεχον.",
+   "audio": "αἱ νύμφαι ἐν τοῖς δένδροις ἔτρεχον."
+  },
+  {
+   "type": "transform",
+   "prompt": "Now the single event: ἡ Δάφνη ἔφευγεν (was fleeing). → ἡ Δάφνη … (fled, escaped)",
+   "template": "ἡ Δάφνη ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἔφυγε(ν)"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.impf.vs.aor",
+    "verb.aor2.stem"
+   ],
+   "explain": "ἔφυγεν: aorist stem φυγ-.",
+   "audio": "ἡ Δάφνη ἔφυγεν."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every verb in the imperfect.",
+   "sentence": "ἡ Δάφνη ἐφοβεῖτο καὶ ἔκλαιε καὶ τὸν πατέρα ἐκάλει· ὁ δὲ Πηνειὸς τῆς θυγατρὸς ἤκουσεν.",
+   "answer": [
+    2,
+    4,
+    8
+   ],
+   "skills": [
+    "read.locate",
+    "verb.impf.vs.aor"
+   ],
+   "explain": "ἐφοβεῖτο, ἔκλαιε, ἐκάλει are imperfects; ἤκουσεν is aorist (one event)."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every verb in the aorist.",
+   "sentence": "ὁ Ἀπόλλων τὸ δένδρον εἶδε καὶ ἔκλαυσεν· ἔπειτα κλάδον ἔλαβε καὶ στέφανον ἐποίησεν.",
+   "answer": [
+    4,
+    6,
+    9,
+    12
+   ],
+   "skills": [
+    "read.locate",
+    "verb.impf.vs.aor"
+   ],
+   "explain": "εἶδε, ἔκλαυσεν, ἔλαβε, ἐποίησεν: four events, one after another."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'The nymph was fleeing to the river.'",
+   "tokens": [
+    "ἔφευγεν",
+    "πρὸς",
+    "ἡ",
+    "τὸν",
+    "νύμφη",
+    "ποταμὸν"
+   ],
+   "answers": [
+    "ἡ νύμφη πρὸς τὸν ποταμὸν ἔφευγεν",
+    "πρὸς τὸν ποταμὸν ἡ νύμφη ἔφευγεν",
+    "ἡ νύμφη ἔφευγεν πρὸς τὸν ποταμὸν"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "verb.impf.act.ind.3sg"
+   ],
+   "explain": "ἡ νύμφη πρὸς τὸν ποταμὸν ἔφευγεν."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "audio": "τὸ σῶμα δένδρον ἐγένετο.",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὸ σῶμα δένδρον ἐγένετο."
+    },
+    {
+     "id": "b",
+     "text": "τὸ σῶμα δένδρον ἐγίγνετο."
+    },
+    {
+     "id": "c",
+     "text": "τὸ δένδρον σῶμα ἐγένετο."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences",
+    "verb.impf.vs.aor"
+   ],
+   "explain": "'Her body became a tree.'"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἡ Δάφνη γάμον ἐβούλετο.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "γάμον οὐκ ἐβούλετο."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Ἔρως τὸν Ἀπόλλωνα τῷ τόξῳ ἔβαλεν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "Yes, because Apollo laughed at his little bow."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Ἀπόλλων τὴν Δάφνην ἔλαβε καὶ ἔφυγεν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἡ Δάφνη δένδρον ἐγένετο· ὁ θεὸς κλάδον ἔλαβε καὶ στέφανον ἐποίησεν."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "audio": "ἡ Δάφνη ἔφευγεν, ὁ δὲ θεὸς ἐδίωκεν.",
+   "gaps": [
+    {
+     "answers": [
+      "ἡ Δάφνη ἔφευγεν, ὁ δὲ θεὸς ἐδίωκεν",
+      "ἡ Δάφνη ἔφευγε, ὁ δὲ θεὸς ἐδίωκε"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "ἡ Δάφνη ἔφευγεν, ὁ δὲ θεὸς ἐδίωκεν."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The nymph was beautiful.' (past)",
+   "gaps": [
+    {
+     "answers": [
+      "ἡ νύμφη καλὴ ἦν",
+      "καλὴ ἦν ἡ νύμφη",
+      "ἡ νύμφη ἦν καλή"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.eimi.impf.ind.3sg"
+   ],
+   "explain": "ἡ νύμφη καλὴ ἦν."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Daphne was crying and calling her father.'",
+   "gaps": [
+    {
+     "answers": [
+      "ἡ Δάφνη ἔκλαιε καὶ τὸν πατέρα ἐκάλει",
+      "ἡ Δάφνη ἔκλαιεν καὶ τὸν πατέρα ἐκάλει",
+      "ἡ Δάφνη ἔκλαιε καὶ ἐκάλει τὸν πατέρα",
+      "ἡ Δάφνη ἔκλαιεν καὶ ἐκάλει τὸν πατέρα"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.impf.act.ind.3sg"
+   ],
+   "explain": "ἡ Δάφνη ἔκλαιε καὶ τὸν πατέρα ἐκάλει."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: οἱ πόδες τῆς Δάφνης ῥίζαι ἐγίγνοντο, αἱ δὲ χεῖρες κλάδοι, ἡ δὲ κόμη φύλλα.",
+   "audio": "οἱ πόδες τῆς Δάφνης ῥίζαι ἐγίγνοντο, αἱ δὲ χεῖρες κλάδοι, ἡ δὲ κόμη φύλλα.",
+   "model": "Daphne's feet were becoming roots, her hands branches, her hair leaves.",
+   "skills": [
+    "read.comprehension",
+    "read.myth",
+    "verb.impf.vs.aor"
+   ],
+   "explain": "The imperfect ἐγίγνοντο shows the change in progress; the verb is left out of the next two phrases."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "τόξον",
+     "right": "toxic (arrow poison)"
+    },
+    {
+     "left": "φύλλον",
+     "right": "chlorophyll"
+    },
+    {
+     "left": "κόμη",
+     "right": "comet (the long-haired star)"
+    },
+    {
+     "left": "πούς",
+     "right": "octopus (eight-foot)"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "τοξικόν 'for arrows' → poison; χλωρο-φύλλον 'green leaf'; κομήτης 'long-haired'; ὀκτώ-πους."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "τίς ἦν ἡ Δάφνη;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "νύμφη, θυγάτηρ τοῦ Πηνειοῦ."
+    },
+    {
+     "id": "b",
+     "text": "θεά, θυγάτηρ τοῦ Διός."
+    },
+    {
+     "id": "c",
+     "text": "κόρη Ἀθηναία."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "verb.eimi.impf.ind.3sg"
+   ],
+   "explain": "νύμφη τις ἦν, θυγάτηρ τοῦ Πηνειοῦ ποταμοῦ."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί ὁ Ἔρως τὸν Ἀπόλλωνα ἔβαλεν;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Ἀπόλλων τὸν Ἔρωτα ἐγέλασεν."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Ἀπόλλων τῆς Δάφνης ἤρα."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Ἔρως τὸ τόξον οὐκ εἶχεν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "Apollo laughed at his little bow."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐποίει ἡ Δάφνη ὅτε ὁ θεὸς ἐδίωκεν;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἔμενε καὶ ἐγέλα."
+    },
+    {
+     "id": "b",
+     "text": "ἔφευγε καὶ τὸν πατέρα ἐκάλει."
+    },
+    {
+     "id": "c",
+     "text": "στέφανον ἐποίει."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "verb.impf.act.ind.3sg"
+   ],
+   "explain": "τί ἐποίει; 'what was she doing?' — ἔφευγε καὶ ἐκάλει."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐγένετο τὸ σῶμα τῆς Δάφνης;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ποταμός."
+    },
+    {
+     "id": "b",
+     "text": "δένδρον."
+    },
+    {
+     "id": "c",
+     "text": "λίθος."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "τὸ σῶμα δένδρον ἐγένετο."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ὁ Ἀπόλλων ἐκ τοῦ κλάδου ἐποίησεν;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "τόξον."
+    },
+    {
+     "id": "b",
+     "text": "στέφανον."
+    },
+    {
+     "id": "c",
+     "text": "βωμόν."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "verb.aor.act.ind.3sg"
+   ],
+   "explain": "κλάδον ἔλαβε καὶ στέφανον ἐποίησεν."
+  }
+ ],
+ "culture": {
+  "title": "Myths by the fire, and Apollo's laurel",
+  "md": "Greek children learned their myths at home, from grandparents, mothers and nurses, long before they met Homer at school; Plato complains that the stories nurses tell shape a child's soul. Winter evenings, when the workshop closed early and the family gathered round the brazier, were the time for them. The tale of Apollo and Daphne is best known today from the Roman poet Ovid, who wrote four hundred years after our story, but Greek versions were older and varied: in some Daphne is the daughter of the river Peneios in Thessaly, in others of the Ladon in Arcadia; in one she is a huntress and companion of Artemis. What every version explains is why the laurel (δάφνη) belongs to Apollo. His priestess at Delphi burnt laurel leaves before prophesying, suppliants carried laurel branches, and victors in the Pythian games were crowned with laurel cut in the Vale of Tempe, on the banks of the Peneios itself. Kleinias's telling is our own retelling in simple Greek, not a translation of any ancient text. Notice the storyteller's craft in it: the scene is set in the imperfect, the action jumps forward in aorists, and at the moment of capture the tense slips into the present, exactly as Herodotus and Thucydides do when they want their listeners to hold their breath.",
+  "image": "culture-5-3-daphne"
+ },
+ "quiz": [
+  {
+   "type": "cloze-choice",
+   "prompt": "ἡ Δάφνη ἀεὶ ἐν τοῖς δένδροις ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἔτρεχεν"
+    },
+    {
+     "id": "b",
+     "text": "ἔδραμεν"
+    },
+    {
+     "id": "c",
+     "text": "τρέχειν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.impf.vs.aor",
+    "verb.impf.act.ind.3sg"
+   ],
+   "explain": "A habit (ἀεί): the imperfect."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the imperfect of διώκω for 'they were chasing'.",
+   "lemma": "διώκω",
+   "cell": "imperfect.active.indicative.3pl",
+   "skills": [
+    "verb.impf.act.ind.3pl"
+   ],
+   "explain": "ἐδίωκον.",
+   "audio": "ἐδίωκον"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the imperfect of εἰμί for 'he was'.",
+   "lemma": "εἰμί",
+   "cell": "imperfect.active.indicative.3sg",
+   "skills": [
+    "verb.eimi.impf.ind.3sg"
+   ],
+   "explain": "ἦν.",
+   "audio": "ἦν"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἔλαβεν.",
+   "form": "ἔλαβεν",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "impf",
+       "label": "imperfect (was taking)"
+      },
+      {
+       "id": "aor",
+       "label": "aorist (took)"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor"
+   },
+   "skills": [
+    "verb.impf.vs.aor",
+    "verb.aor2.stem"
+   ],
+   "explain": "Stem λαβ-: aorist. The imperfect is ἐλάμβανεν.",
+   "audio": "ἔλαβεν"
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ὁ πούς",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "cheir"
+    },
+    {
+     "id": "b",
+     "image": "pous"
+    },
+    {
+     "id": "c",
+     "image": "kome"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "πούς: foot."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἡ Δάφνη δένδρον ἐγένετο.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "Yes."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The god was chasing the nymph.'",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ θεὸς τὴν νύμφην ἐδίωκεν",
+      "ὁ θεὸς τὴν νύμφην ἐδίωκε",
+      "ὁ θεὸς ἐδίωκε τὴν νύμφην",
+      "ὁ θεὸς ἐδίωκεν τὴν νύμφην",
+      "τὴν νύμφην ὁ θεὸς ἐδίωκεν"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.impf.act.ind.3sg"
+   ],
+   "explain": "ὁ θεὸς τὴν νύμφην ἐδίωκεν."
+  }
+ ],
+ "skills": [
+  "verb.impf.act.ind.3sg",
+  "verb.impf.act.ind.3pl",
+  "verb.impf.act.ind.1pl",
+  "verb.impf.vs.aor",
+  "verb.eimi.impf.ind.3sg",
+  "verb.eimi.impf.ind.3pl",
+  "verb.historic-present",
+  "verb.contract.e",
+  "verb.augment",
+  "verb.aor.act.ind.3sg",
+  "verb.aor2.stem",
+  "syntax.word-order",
+  "read.comprehension",
+  "read.myth",
+  "read.locate",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family"
+ ]
+}

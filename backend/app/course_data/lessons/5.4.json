@@ -1,0 +1,1472 @@
+{
+ "id": "5.4",
+ "title_grc": "ὁ ἰατρός",
+ "title_en": "The doctor",
+ "summary_grc": "ἡ Ἐλπὶς νοσεῖ· ὁ ἰατρός, ὃν ὁ Σύρος ἐκάλεσεν, τὴν παῖδα θεραπεύει.",
+ "summary_en": "Elpis falls ill and a doctor from Kos comes. Relative clauses (ὅς, ἥ, ὅ), nouns and adjectives with stems in -εσ- (γένος, τριήρης, ἀληθής), and the reflexive pronouns.",
+ "cover": "panel-5-4-b",
+ "caption_grc": "ὁ ἰατρός, ὃς πρὸς τῷ τείχει οἰκεῖ, τὴν παῖδα θεραπεύει.",
+ "names": {
+  "Φιλῖνος": [
+   "Φιλίνου",
+   "Φιλίνῳ",
+   "Φιλῖνον",
+   "Φιλῖνε"
+  ],
+  "Κῶς": [
+   "Κῷ",
+   "Κῶν",
+   "Κῷος",
+   "Κῷοι",
+   "Κῴων"
+  ],
+  "Ἀσκληπιός": [
+   "Ἀσκληπιοῦ",
+   "Ἀσκληπιῷ",
+   "Ἀσκληπιόν"
+  ],
+  "Ἐπίδαυρος": [
+   "Ἐπιδαύρου",
+   "Ἐπιδαύρῳ",
+   "Ἐπίδαυρον"
+  ]
+ },
+ "allow": {"πολύ": "πολύς, Lesson 3.2"},
+ "story": [
+  {
+   "image": "panel-5-4-a",
+   "sentences": [
+    {
+     "text": "τῇ ὑστεραίᾳ ἡ Ἐλπὶς οὐκ ἐξῆλθεν ἐκ τῆς κλίνης· νοσεῖ γάρ.",
+     "glosses": [
+      {
+       "word": "ὑστεραίᾳ",
+       "kind": "en",
+       "value": "τῇ ὑστεραίᾳ: on the next day"
+      },
+      {
+       "word": "νοσεῖ",
+       "kind": "pic",
+       "value": "verb-nosei"
+      }
+     ]
+    },
+    {
+     "text": "ἡ κεφαλὴ αὐτῆς θερμή ἐστι καὶ πυρετὸν ἔχει· τὸ σῶμα ὅλον ἀλγεῖ.",
+     "glosses": [
+      {
+       "word": "κεφαλὴ",
+       "kind": "pic",
+       "value": "kephale"
+      },
+      {
+       "word": "θερμή",
+       "kind": "↔",
+       "value": "ψυχρά (hot)"
+      },
+      {
+       "word": "πυρετὸν",
+       "kind": "pic",
+       "value": "pyretos"
+      },
+      {
+       "word": "ὅλον",
+       "kind": "=",
+       "value": "ὅλον = πᾶν"
+      },
+      {
+       "word": "ἀλγεῖ",
+       "kind": "en",
+       "value": "aches, hurts"
+      }
+     ]
+    },
+    {
+     "text": "ἡ Χρυσίς, ἣ τὴν παῖδα φιλεῖ, φοβεῖται καὶ λέγει· «ἡ νόσος δεινή ἐστιν.»",
+     "glosses": [
+      {
+       "word": "ἣ",
+       "kind": "=",
+       "value": "ἡ Χρυσίς, ἣ … φιλεῖ = Chrysis, who loves …"
+      },
+      {
+       "word": "νόσος",
+       "kind": "pic",
+       "value": "nosos"
+      },
+      {
+       "word": "δεινή",
+       "kind": "en",
+       "value": "terrible"
+      }
+     ]
+    },
+    {
+     "text": "ὁ Ἀρίστων τὸν Σύρον καλεῖ· «ὦ Σύρε, σπεῦδε πρὸς τὸν ἰατρόν, ὃς πρὸς τῷ τείχει οἰκεῖ.»",
+     "glosses": [
+      {
+       "word": "σπεῦδε",
+       "kind": "en",
+       "value": "hurry!"
+      },
+      {
+       "word": "ἰατρόν",
+       "kind": "pic",
+       "value": "iatros"
+      },
+      {
+       "word": "ὃς",
+       "kind": "=",
+       "value": "ὁ ἰατρός, ὃς … οἰκεῖ = the doctor, who lives …"
+      },
+      {
+       "word": "τείχει",
+       "kind": "pic",
+       "value": "teichos"
+      },
+      {
+       "word": "οἰκεῖ",
+       "kind": "en",
+       "value": "lives"
+      }
+     ]
+    },
+    {
+     "text": "ὁ Σύρος ἔδραμε καὶ τὸν ἰατρὸν ἐκάλεσεν· ὁ δὲ ἰατρός, ᾧ ὄνομα Φιλῖνος, εὐθὺς ἦλθεν.",
+     "glosses": [
+      {
+       "word": "ᾧ",
+       "kind": "note",
+       "value": "ᾧ ὄνομα Φιλῖνος: literally 'to whom (is) the name Philinos' = whose name is Philinos"
+      },
+      {
+       "word": "ὄνομα",
+       "kind": "en",
+       "value": "name"
+      },
+      {
+       "word": "εὐθὺς",
+       "kind": "en",
+       "value": "at once"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-5-4-b",
+   "sentences": [
+    {
+     "text": "ὁ Φιλῖνος τὸ γένος Κῷός ἐστιν· οἱ γὰρ Κῷοι ἰατροὶ ἀγαθοί εἰσιν.",
+     "glosses": [
+      {
+       "word": "γένος",
+       "kind": "pic",
+       "value": "genos"
+      },
+      {
+       "word": "Κῷός",
+       "kind": "<",
+       "value": "Κῶς (the island of Kos): τὸ γένος Κῷος = Koan by birth"
+      }
+     ]
+    },
+    {
+     "text": "ὁ ἰατρὸς τὴν παῖδα ὁρᾷ καὶ ἐρωτᾷ· «τί πάσχεις, ὦ παῖ;»",
+     "glosses": [
+      {
+       "word": "ἐρωτᾷ",
+       "kind": "en",
+       "value": "asks"
+      },
+      {
+       "word": "πάσχεις",
+       "kind": "en",
+       "value": "τί πάσχεις; what is the matter with you?"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Ἐλπίς· «ἡ κεφαλὴ ἀλγεῖ, καὶ πίνειν βούλομαι.»",
+     "glosses": []
+    },
+    {
+     "text": "ὁ ἰατρὸς τοὺς ὀφθαλμοὺς καὶ τὴν γλῶτταν σκοπεῖ καὶ τὴν χεῖρα ἐπὶ τὴν κεφαλὴν τίθησιν.",
+     "glosses": [
+      {
+       "word": "ὀφθαλμοὺς",
+       "kind": "en",
+       "value": "eyes"
+      },
+      {
+       "word": "γλῶτταν",
+       "kind": "en",
+       "value": "tongue"
+      },
+      {
+       "word": "σκοπεῖ",
+       "kind": "en",
+       "value": "examines"
+      },
+      {
+       "word": "τίθησιν",
+       "kind": "en",
+       "value": "puts, places"
+      },
+      {
+       "word": "κεφαλὴν",
+       "kind": "|",
+       "value": "ἡ κεφαλή | τὴν κεφαλήν"
+      }
+     ]
+    },
+    {
+     "text": "ἔπειτα λέγει· «ἡ νόσος οὐ δεινή ἐστιν· ἀληθῆ λέγω. ὁ πυρετὸς ἐν τρισὶν ἡμέραις παύεται.»",
+     "glosses": [
+      {
+       "word": "ἔπειτα",
+       "kind": "en",
+       "value": "then"
+      },
+      {
+       "word": "ἀληθῆ",
+       "kind": "|",
+       "value": "ἀληθής | ἀληθῆ (true things, the truth)"
+      },
+      {
+       "word": "τρισὶν",
+       "kind": "|",
+       "value": "τρεῖς | τρισί(ν) (in three days)"
+      }
+     ]
+    },
+    {
+     "text": "«δεῖ τὴν παῖδα ἐν τῇ κλίνῃ μένειν καὶ πολὺ ὕδωρ πίνειν. τοῦτο δὲ τὸ φάρμακον, ὃ ἐγὼ αὐτὸς ἐποίησα, τὸν πυρετὸν θεραπεύει.»",
+     "glosses": [
+      {
+       "word": "φάρμακον",
+       "kind": "pic",
+       "value": "pharmakon"
+      },
+      {
+       "word": "ὃ",
+       "kind": "|",
+       "value": "ὅς | ἥ | ὅ (which)"
+      },
+      {
+       "word": "θεραπεύει",
+       "kind": "pic",
+       "value": "verb-therapeuei"
+      }
+     ]
+    },
+    {
+     "text": "ἡ Ἐλπὶς τὸ φάρμακον πίνει· «ὦ ἰατρέ, τὸ φάρμακον κακόν ἐστι!» ὁ δὲ ἰατρὸς γελᾷ.",
+     "glosses": [
+      {
+       "word": "γελᾷ",
+       "kind": "en",
+       "value": "laughs"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-5-4-c",
+   "sentences": [
+    {
+     "text": "ὁ Κλεινίας λέγει· «ἐν Ἐπιδαύρῳ θεός ἐστιν, ὁ Ἀσκληπιός, ὃς τοὺς νοσοῦντας θεραπεύει. δεῖ ἡμᾶς αὐτῷ εὔχεσθαι.»",
+     "glosses": [
+      {
+       "word": "νοσοῦντας",
+       "kind": "|",
+       "value": "οἱ νοσοῦντες | τοὺς νοσοῦντας (the sick)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Φιλῖνος· «εὔχεσθε μὲν τοῖς θεοῖς· ἐγὼ δὲ τῇ τέχνῃ θεραπεύω. οὐ γὰρ οἱ θεοὶ τὴν νόσον πέμπουσιν, ἀλλ' ἡ νόσος αὐτὴ αἰτίαν ἔχει.»",
+     "glosses": [
+      {
+       "word": "τέχνῃ",
+       "kind": "en",
+       "value": "skill, craft"
+      },
+      {
+       "word": "αἰτίαν",
+       "kind": "en",
+       "value": "a cause"
+      }
+     ]
+    },
+    {
+     "text": "μετὰ τρεῖς ἡμέρας ἡ Ἐλπὶς ὑγιής ἐστιν· ἐκ τῆς κλίνης ἐξέρχεται καὶ τρέχει.",
+     "glosses": [
+      {
+       "word": "ὑγιής",
+       "kind": "pic",
+       "value": "hygies"
+      }
+     ]
+    },
+    {
+     "text": "ὁ Λύσις καὶ ἡ Ἐλπὶς ἀλλήλους φιλοῦσιν.",
+     "glosses": [
+      {
+       "word": "ἀλλήλους",
+       "kind": "en",
+       "value": "each other"
+      }
+     ]
+    },
+    {
+     "text": "ὁ Λύσις ἑαυτῷ λέγει· «κακῶς ἐποίησα· ἐγὼ γὰρ αὐτὴν ἐν τῷ χειμῶνι εἰς τὴν κρήνην ἔπεμψα.»",
+     "glosses": [
+      {
+       "word": "ἑαυτῷ",
+       "kind": "en",
+       "value": "to himself"
+      },
+      {
+       "word": "κακῶς",
+       "kind": "<",
+       "value": "κακός (badly, wrongly)"
+      },
+      {
+       "word": "χειμῶνι",
+       "kind": "en",
+       "value": "winter"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Χρυσὶς τὸν ἰατρόν, ὃς τὴν παῖδα ἔσωσε, τιμᾷ καὶ δῶρον αὐτῷ δίδωσιν.",
+     "glosses": [
+      {
+       "word": "δίδωσιν",
+       "kind": "en",
+       "value": "gives"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λάβρος ἑαυτὸν ἐν τῷ ὕδατι ὁρᾷ καὶ ὑλακτεῖ.",
+     "glosses": [
+      {
+       "word": "ἑαυτὸν",
+       "kind": "en",
+       "value": "himself"
+      },
+      {
+       "word": "ὑλακτεῖ",
+       "kind": "en",
+       "value": "barks"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ιατρος",
+   "pic": "iatros",
+   "gloss_grc": "ὁ ἰατρὸς τοὺς νοσοῦντας θεραπεύει"
+  },
+  {
+   "id": "νοσος",
+   "pic": "nosos",
+   "gloss_grc": "↔ ὑγίεια"
+  },
+  {
+   "id": "νοσεω",
+   "pic": "verb-nosei",
+   "gloss_grc": "νοσεῖ · ἐνόσησε(ν) < νόσος"
+  },
+  {
+   "id": "πυρετος",
+   "pic": "pyretos",
+   "gloss_grc": "< πῦρ"
+  },
+  {
+   "id": "φαρμακον",
+   "pic": "pharmakon"
+  },
+  {
+   "id": "θεραπευω",
+   "pic": "verb-therapeuei",
+   "gloss_grc": "θεραπεύει · ἐθεράπευσε(ν)"
+  },
+  {
+   "id": "υγιης",
+   "pic": "hygies",
+   "gloss_grc": "ὑγιής ↔ νοσῶν"
+  },
+  {
+   "id": "αληθης",
+   "gloss_grc": "ἀληθῆ λέγει ↔ ψευδῆ λέγει"
+  },
+  {
+   "id": "γενος",
+   "pic": "genos",
+   "gloss_grc": "τὸ γένος · τοῦ γένους · τὰ γένη"
+  },
+  {
+   "id": "ος",
+   "gloss_grc": "ὁ ἰατρός, ὃς … · ἡ γυνή, ἣ … · τὸ φάρμακον, ὃ …"
+  },
+  {
+   "id": "εαυτου",
+   "gloss_grc": "ἑαυτὸν ὁρᾷ · ἑαυτῷ λέγει"
+  },
+  {
+   "id": "αλληλων",
+   "gloss_grc": "ἀλλήλους φιλοῦσιν"
+  },
+  {
+   "id": "τειχος",
+   "pic": "teichos",
+   "gloss_grc": "τὸ τεῖχος · τοῦ τείχους · τὰ τείχη"
+  },
+  {
+   "id": "τριηρης",
+   "pic": "trieres",
+   "gloss_grc": "ἡ τριήρης · τῆς τριήρους · αἱ τριήρεις"
+  }
+ ],
+ "notice": [
+  "ὁ ἰατρός, ὃς πρὸς τῷ τείχει οἰκεῖ. — ἡ Χρυσίς, ἣ τὴν παῖδα φιλεῖ. — τὸ φάρμακον, ὃ ἐγὼ ἐποίησα.",
+  "ὁ ἰατρός, ὃν ὁ Σύρος ἐκάλεσεν. — ὁ ἰατρός, ᾧ ὄνομα Φιλῖνος.",
+  "τὸ γένος · τοῦ γένους · τὰ γένη — ἡ τριήρης · τῆς τριήρους · αἱ τριήρεις — ἀληθής · ἀληθῆ",
+  "ὁ Λάβρος ἑαυτὸν ὁρᾷ. — ὁ Λύσις ἑαυτῷ λέγει.",
+  "ὁ Λύσις καὶ ἡ Ἐλπὶς ἀλλήλους φιλοῦσιν."
+ ],
+ "grammar": {
+  "md": "**Who, which: the relative pronoun.** ὁ ἰατρός, **ὃς** πρὸς τῷ τείχει οἰκεῖ 'the doctor, *who* lives by the wall'; τὸ φάρμακον, **ὃ** ἐγὼ ἐποίησα 'the medicine *which* I made'. The relative pronoun opens a clause that describes a noun (its *antecedent*). It has the endings of the article, but with a rough breathing and an accent everywhere:\n\n| | m. | f. | n. | | m. | f. | n. |\n|---|---|---|---|---|---|---|---|\n| nom. | ὅς | ἥ | ὅ | | οἵ | αἵ | ἅ |\n| gen. | οὗ | ἧς | οὗ | | ὧν | ὧν | ὧν |\n| dat. | ᾧ | ᾗ | ᾧ | | οἷς | αἷς | οἷς |\n| acc. | ὅν | ἥν | ὅ | | οὕς | ἅς | ἅ |\n\nTwo rules: the relative takes the **gender and number of its antecedent**, but its **case from its own clause**. ὁ ἰατρός, **ὃν** ὁ Σύρος ἐκάλεσεν: masculine singular because of ἰατρός, accusative because he is the object of ἐκάλεσεν. ἡ Χρυσίς, **ἣ** τὴν παῖδα φιλεῖ: feminine, and nominative because she is the subject of φιλεῖ. Do not confuse ὅ (relative, *which*) with ὁ (article, *the*): the breathing and accent are the whole difference. ἥ *who* (f.) and ἡ *the* likewise.\n\n**Stems in -εσ-.** A group of third-declension words has a stem ending in -εσ-; the σ drops between vowels and the vowels then contract, so the endings look unusual:\n\n| | τὸ γένος *family* | ἡ τριήρης *trireme* | ἀληθής, ἀληθές *true* |\n|---|---|---|---|\n| nom. sg. | γένος | τριήρης | ἀληθής / ἀληθές |\n| gen. | γέν**ους** | τριήρ**ους** | ἀληθ**οῦς** |\n| dat. | γέν**ει** | τριήρ**ει** | ἀληθ**εῖ** |\n| acc. | γένος | τριήρ**η** | ἀληθ**ῆ** / ἀληθές |\n| nom. pl. | γέν**η** | τριήρ**εις** | ἀληθ**εῖς** / ἀληθ**ῆ** |\n| gen. | γεν**ῶν** | τριήρ**ων** | ἀληθ**ῶν** |\n| dat. | γέν**εσι(ν)** | τριήρ**εσι(ν)** | ἀληθ**έσι(ν)** |\n| acc. | γέν**η** | τριήρ**εις** | ἀληθ**εῖς** / ἀληθ**ῆ** |\n\nLike γένος: τεῖχος *wall*, ἔτος *year*, ὄρος *mountain*, τέλος *end*, ἄνθος *flower*. Like ἀληθής: ὑγιής *healthy*, ψευδής *false*, and the names Σωκράτης, Θεμιστοκλῆς (Σωκράτους, Θεμιστοκλέους). ἀληθῆ λέγω 'I speak true things, the truth': the neuter plural used as a noun.\n\n**Myself, yourself, himself: reflexives.** When the object is the same person as the subject, Greek uses a *reflexive*: ὁ Λάβρος **ἑαυτὸν** ὁρᾷ 'Labros sees himself' (compare ὁ Λάβρος αὐτὸν ὁρᾷ 'sees *him*, someone else'). Forms: ἐμαυτόν, -ήν *myself*; σεαυτόν, -ήν *yourself*; ἑαυτόν, -ήν, -ό *himself, herself, itself*; plural ἡμᾶς αὐτούς, ὑμᾶς αὐτούς, ἑαυτούς. They have genitive and dative too (ἑαυτοῦ, ἑαυτῷ) but no nominative: a subject cannot be 'himself'.\n\n**Each other: ἀλλήλων.** ὁ Λύσις καὶ ἡ Ἐλπὶς **ἀλλήλους** φιλοῦσιν 'love each other'. Plural only, no nominative: ἀλλήλων, ἀλλήλοις, ἀλλήλους (f. ἀλλήλας, n. ἄλληλα).",
+  "paradigms": [
+   "hos",
+   "genos",
+   "alethes",
+   "heautou",
+   "allelon"
+  ],
+  "diagram": "diagram-relative"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings of the -εσ- stems.",
+   "template": "ὁ ἰατρὸς πρὸς τῷ τείχ___ οἰκεῖ. ὁ Κλεινίας ἐν τῇ τριήρ___ ἦν. οἱ Κῷοι ἰατροὶ ἀγαθοῦ γέν___ εἰσιν. ὁ ἰατρὸς ἀληθ___ λέγει.",
+   "gaps": [
+    {
+     "answers": [
+      "ει"
+     ]
+    },
+    {
+     "answers": [
+      "ει"
+     ]
+    },
+    {
+     "answers": [
+      "ους"
+     ]
+    },
+    {
+     "answers": [
+      "ῆ",
+      "η"
+     ]
+    }
+   ],
+   "skills": [
+    "noun.decl3.sigma",
+    "adj.decl3.es"
+   ],
+   "explain": "τείχει, τριήρει (dative -ει), γένους (genitive -ους), ἀληθῆ (neuter plural, 'true things')."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ ἰατρός, ___ ὁ Σύρος ἐκάλεσεν, εὐθὺς ἦλθεν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὅς"
+    },
+    {
+     "id": "b",
+     "text": "ὅν"
+    },
+    {
+     "id": "c",
+     "text": "ἥν"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "pron.relative",
+    "syntax.relative-clause"
+   ],
+   "explain": "Masculine for ἰατρός; accusative because he is the object of ἐκάλεσεν: ὅν.",
+   "audio": "ὁ ἰατρός, ὃν ὁ Σύρος ἐκάλεσεν, εὐθὺς ἦλθεν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἡ Χρυσίς, ___ τὴν παῖδα φιλεῖ, φοβεῖται.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὅς"
+    },
+    {
+     "id": "b",
+     "text": "ἥ"
+    },
+    {
+     "id": "c",
+     "text": "ἥν"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "pron.relative",
+    "syntax.relative-clause"
+   ],
+   "explain": "Feminine (Χρυσίς), nominative (subject of φιλεῖ): ἥ.",
+   "audio": "ἡ Χρυσίς, ἣ τὴν παῖδα φιλεῖ, φοβεῖται."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ Λάβρος ___ ἐν τῷ ὕδατι ὁρᾷ.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἑαυτὸν"
+    },
+    {
+     "id": "b",
+     "text": "αὐτὸν"
+    },
+    {
+     "id": "c",
+     "text": "ἀλλήλους"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "pron.reflexive"
+   ],
+   "explain": "He sees himself: the reflexive ἑαυτόν. αὐτόν would be someone else.",
+   "audio": "ὁ Λάβρος ἑαυτὸν ἐν τῷ ὕδατι ὁρᾷ."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ἰατρός",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "hiereus"
+    },
+    {
+     "id": "b",
+     "image": "iatros"
+    },
+    {
+     "id": "c",
+     "image": "kerameus"
+    },
+    {
+     "id": "d",
+     "image": "georgos"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ἰατρός: doctor."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "φάρμακον",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "pharmakon"
+    },
+    {
+     "id": "b",
+     "image": "kylix"
+    },
+    {
+     "id": "c",
+     "image": "hydria"
+    },
+    {
+     "id": "d",
+     "image": "artos"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "φάρμακον: medicine, drug."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the genitive singular of γένος.",
+   "lemma": "γένος",
+   "cell": "gen.sg",
+   "skills": [
+    "noun.decl3.sigma",
+    "noun.decl3.gen.sg"
+   ],
+   "explain": "γένους (γένεσ-ος → γένεος → γένους).",
+   "audio": "γένους"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the dative singular of τεῖχος (as after πρὸς τῷ …).",
+   "lemma": "τεῖχος",
+   "cell": "dat.sg",
+   "skills": [
+    "noun.decl3.sigma",
+    "noun.decl3.dat.sg"
+   ],
+   "explain": "πρὸς τῷ τείχει.",
+   "audio": "τείχει"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the accusative singular of τριήρης.",
+   "lemma": "τριήρης",
+   "cell": "acc.sg",
+   "skills": [
+    "noun.decl3.sigma",
+    "noun.decl3.acc.sg"
+   ],
+   "explain": "τριήρη (τριήρεσ-α → τριήρεα → τριήρη).",
+   "audio": "τριήρη"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the relative pronoun for a feminine singular antecedent as object: ἡ παῖς, ___ ὁ ἰατρὸς ἔσωσεν.",
+   "lemma": "ὅς",
+   "cell": "acc.sg.f",
+   "skills": [
+    "pron.relative"
+   ],
+   "explain": "ἥν.",
+   "audio": "ἥν"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ὅν in: ὁ ἰατρός, ὃν ὁ Σύρος ἐκάλεσεν.",
+   "form": "ὅν",
+   "groups": [
+    {
+     "id": "gender",
+     "label": "Gender",
+     "options": [
+      {
+       "id": "m",
+       "label": "masculine"
+      },
+      {
+       "id": "f",
+       "label": "feminine"
+      },
+      {
+       "id": "n",
+       "label": "neuter"
+      }
+     ]
+    },
+    {
+     "id": "case",
+     "label": "Case",
+     "options": [
+      {
+       "id": "nom",
+       "label": "nominative"
+      },
+      {
+       "id": "gen",
+       "label": "genitive"
+      },
+      {
+       "id": "dat",
+       "label": "dative"
+      },
+      {
+       "id": "acc",
+       "label": "accusative"
+      }
+     ]
+    },
+    {
+     "id": "why",
+     "label": "Why that case?",
+     "options": [
+      {
+       "id": "ant",
+       "label": "because ἰατρός is nominative"
+      },
+      {
+       "id": "own",
+       "label": "because it is the object of ἐκάλεσεν"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "gender": "m",
+    "case": "acc",
+    "why": "own"
+   },
+   "skills": [
+    "pron.relative",
+    "syntax.relative-clause"
+   ],
+   "explain": "Gender from the antecedent, case from its own clause: the doctor is the one whom Syros called.",
+   "audio": "ὅν"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse τριήρους.",
+   "form": "τριήρους",
+   "groups": [
+    {
+     "id": "case",
+     "label": "Case",
+     "options": [
+      {
+       "id": "nom",
+       "label": "nominative"
+      },
+      {
+       "id": "gen",
+       "label": "genitive"
+      },
+      {
+       "id": "dat",
+       "label": "dative"
+      },
+      {
+       "id": "acc",
+       "label": "accusative"
+      }
+     ]
+    },
+    {
+     "id": "number",
+     "label": "Number",
+     "options": [
+      {
+       "id": "sg",
+       "label": "singular"
+      },
+      {
+       "id": "pl",
+       "label": "plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "case": "gen",
+    "number": "sg"
+   },
+   "skills": [
+    "noun.decl3.sigma",
+    "noun.decl3.gen.sg"
+   ],
+   "explain": "-ους is the genitive singular of the -εσ- stems: τῆς τριήρους, τοῦ γένους.",
+   "audio": "τριήρους"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "τὸ φάρμακον, ___ ὁ ἰατρὸς ἐποίησε, κακόν ἐστιν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὅς"
+    },
+    {
+     "id": "b",
+     "text": "ὅ"
+    },
+    {
+     "id": "c",
+     "text": "ὁ"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "pron.relative"
+   ],
+   "explain": "Neuter (φάρμακον), object of ἐποίησε: ὅ — with breathing and accent, not the article ὁ."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ Ἀσκληπιὸς θεός ἐστιν ___ τοὺς νοσοῦντας θεραπεύει.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὅς"
+    },
+    {
+     "id": "b",
+     "text": "ὅν"
+    },
+    {
+     "id": "c",
+     "text": "ᾧ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "pron.relative",
+    "syntax.relative-clause"
+   ],
+   "explain": "Subject of θεραπεύει: nominative ὅς."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ Λύσις καὶ ἡ Ἐλπὶς ___ φιλοῦσιν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἑαυτόν"
+    },
+    {
+     "id": "b",
+     "text": "ἀλλήλους"
+    },
+    {
+     "id": "c",
+     "text": "αὐτοί"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "pron.reciprocal"
+   ],
+   "explain": "'each other': ἀλλήλους."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ ἰατρὸς ___ λέγει.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀληθής"
+    },
+    {
+     "id": "b",
+     "text": "ἀληθῆ"
+    },
+    {
+     "id": "c",
+     "text": "ἀληθοῦς"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "adj.decl3.es"
+   ],
+   "explain": "ἀληθῆ, neuter plural, 'true things': he tells the truth."
+  },
+  {
+   "type": "transform",
+   "prompt": "Join with a relative pronoun: ὁ ἰατρὸς εὐθὺς ἦλθεν. ὁ Σύρος τὸν ἰατρὸν ἐκάλεσεν. → ὁ ἰατρός, … ὁ Σύρος ἐκάλεσεν, εὐθὺς ἦλθεν.",
+   "template": "ὁ ἰατρός, ___ ὁ Σύρος ἐκάλεσεν, εὐθὺς ἦλθεν.",
+   "gaps": [
+    {
+     "answers": [
+      "ὃν",
+      "ὅν"
+     ]
+    }
+   ],
+   "skills": [
+    "pron.relative",
+    "syntax.relative-clause"
+   ],
+   "explain": "ὃν: masculine singular, accusative.",
+   "audio": "ὁ ἰατρός, ὃν ὁ Σύρος ἐκάλεσεν, εὐθὺς ἦλθεν."
+  },
+  {
+   "type": "transform",
+   "prompt": "Join with a relative pronoun: ἡ νόσος οὐ δεινή ἐστιν. ἡ Ἐλπὶς τὴν νόσον ἔχει. → ἡ νόσος, … ἡ Ἐλπὶς ἔχει, οὐ δεινή ἐστιν.",
+   "template": "ἡ νόσος, ___ ἡ Ἐλπὶς ἔχει, οὐ δεινή ἐστιν.",
+   "gaps": [
+    {
+     "answers": [
+      "ἣν",
+      "ἥν"
+     ]
+    }
+   ],
+   "skills": [
+    "pron.relative",
+    "syntax.relative-clause"
+   ],
+   "explain": "ἥν: feminine singular, accusative (object of ἔχει).",
+   "audio": "ἡ νόσος, ἣν ἡ Ἐλπὶς ἔχει, οὐ δεινή ἐστιν."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make it reflexive: ὁ Λάβρος τὸν Λύσιν ὁρᾷ. → ὁ Λάβρος … ὁρᾷ (sees himself).",
+   "template": "ὁ Λάβρος ___ ὁρᾷ.",
+   "gaps": [
+    {
+     "answers": [
+      "ἑαυτὸν",
+      "ἑαυτόν"
+     ]
+    }
+   ],
+   "skills": [
+    "pron.reflexive"
+   ],
+   "explain": "ἑαυτόν.",
+   "audio": "ὁ Λάβρος ἑαυτὸν ὁρᾷ."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every relative pronoun.",
+   "sentence": "ὁ ἰατρός, ὃς πρὸς τῷ τείχει οἰκεῖ, τὴν παῖδα ἣν ὁ Λύσις φιλεῖ θεραπεύει· τὸ φάρμακον ὃ φέρει κακόν ἐστιν.",
+   "answer": [
+    2,
+    9,
+    16
+   ],
+   "skills": [
+    "read.locate",
+    "pron.relative"
+   ],
+   "explain": "ὅς, ἥν, ὅ. The articles ὁ, τῷ, τήν, τό have no breathing or accent of that kind."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every noun or adjective with an -εσ- stem (γένος type).",
+   "sentence": "ὁ Φιλῖνος τὸ γένος Κῷός ἐστιν· ἐν τῇ τριήρει ἦν καὶ πρὸς τῷ τείχει οἰκεῖ· ἀληθῆ λέγει.",
+   "answer": [
+    3,
+    8,
+    13,
+    15
+   ],
+   "skills": [
+    "read.locate",
+    "noun.decl3.sigma",
+    "adj.decl3.es"
+   ],
+   "explain": "γένος, τριήρει, τείχει, ἀληθῆ."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'The doctor who lives by the wall came at once.'",
+   "tokens": [
+    "ἦλθεν",
+    "ὃς",
+    "ὁ",
+    "εὐθὺς",
+    "ἰατρὸς",
+    "τῷ",
+    "οἰκεῖ",
+    "πρὸς",
+    "τείχει"
+   ],
+   "answers": [
+    "ὁ ἰατρὸς ὃς πρὸς τῷ τείχει οἰκεῖ εὐθὺς ἦλθεν",
+    "ὁ ἰατρὸς ὃς οἰκεῖ πρὸς τῷ τείχει εὐθὺς ἦλθεν",
+    "εὐθὺς ἦλθεν ὁ ἰατρὸς ὃς πρὸς τῷ τείχει οἰκεῖ",
+    "ὁ ἰατρὸς ὃς πρὸς τῷ τείχει οἰκεῖ ἦλθεν εὐθὺς"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "syntax.relative-clause"
+   ],
+   "explain": "ὁ ἰατρός, ὃς πρὸς τῷ τείχει οἰκεῖ, εὐθὺς ἦλθεν."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "audio": "ἡ Ἐλπὶς νοσεῖ καὶ πυρετὸν ἔχει.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἡ Ἐλπὶς νοσεῖ καὶ πυρετὸν ἔχει."
+    },
+    {
+     "id": "b",
+     "text": "ἡ Ἐλπὶς ὑγιής ἐστι καὶ τρέχει."
+    },
+    {
+     "id": "c",
+     "text": "ἡ Ἐλπὶς τὸ φάρμακον πίνει."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "'Elpis is ill and has a fever.'"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ ἰατρὸς τὸ γένος Ἀθηναῖός ἐστιν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "τὸ γένος Κῷός ἐστιν."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ ἰατρὸς λέγει· «οἱ θεοὶ τὴν νόσον πέμπουσιν.»",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "«οὐ γὰρ οἱ θεοὶ τὴν νόσον πέμπουσιν, ἀλλ' ἡ νόσος αὐτὴ αἰτίαν ἔχει.»"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "μετὰ τρεῖς ἡμέρας ἡ Ἐλπὶς ὑγιής ἐστιν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "Yes: ἐκ τῆς κλίνης ἐξέρχεται καὶ τρέχει."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "audio": "ὁ ἰατρὸς τὴν παῖδα θεραπεύει.",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ ἰατρὸς τὴν παῖδα θεραπεύει"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "ὁ ἰατρὸς τὴν παῖδα θεραπεύει."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The doctor tells the truth.' (ἀληθῆ λέγει)",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ ἰατρὸς ἀληθῆ λέγει",
+      "ἀληθῆ λέγει ὁ ἰατρός",
+      "ὁ ἰατρὸς λέγει ἀληθῆ"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "adj.decl3.es"
+   ],
+   "explain": "ὁ ἰατρὸς ἀληθῆ λέγει."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The medicine which the doctor made is bad.'",
+   "gaps": [
+    {
+     "answers": [
+      "τὸ φάρμακον ὃ ὁ ἰατρὸς ἐποίησε κακόν ἐστιν",
+      "τὸ φάρμακον ὃ ὁ ἰατρὸς ἐποίησεν κακόν ἐστιν",
+      "τὸ φάρμακον ὃ ἐποίησεν ὁ ἰατρὸς κακόν ἐστιν",
+      "τὸ φάρμακον ὃ ἐποίησε ὁ ἰατρὸς κακόν ἐστιν",
+      "κακόν ἐστι τὸ φάρμακον ὃ ὁ ἰατρὸς ἐποίησεν",
+      "κακόν ἐστι τὸ φάρμακον ὃ ὁ ἰατρὸς ἐποίησε"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "pron.relative",
+    "syntax.relative-clause"
+   ],
+   "explain": "τὸ φάρμακον, ὃ ὁ ἰατρὸς ἐποίησεν, κακόν ἐστιν."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: ἡ Χρυσὶς τὸν ἰατρόν, ὃς τὴν παῖδα ἔσωσε, τιμᾷ καὶ δῶρον αὐτῷ δίδωσιν.",
+   "audio": "ἡ Χρυσὶς τὸν ἰατρόν, ὃς τὴν παῖδα ἔσωσε, τιμᾷ καὶ δῶρον αὐτῷ δίδωσιν.",
+   "model": "Chrysis honours the doctor who saved the child and gives him a gift.",
+   "skills": [
+    "read.comprehension",
+    "syntax.relative-clause"
+   ],
+   "explain": "ὅς is nominative (subject of ἔσωσε) although its antecedent ἰατρόν is accusative."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "ἰατρός",
+     "right": "psychiatrist (soul-doctor)"
+    },
+    {
+     "left": "φάρμακον",
+     "right": "pharmacy"
+    },
+    {
+     "left": "θεραπεύω",
+     "right": "therapy"
+    },
+    {
+     "left": "ὑγιής",
+     "right": "hygiene"
+    },
+    {
+     "left": "γένος",
+     "right": "genealogy"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "ψυχ-ίατρος; φαρμακεία; θεραπεία 'care, treatment'; Ὑγίεια, goddess of health; γενεα-λογία."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "τί πάσχει ἡ Ἐλπίς;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "νοσεῖ καὶ πυρετὸν ἔχει."
+    },
+    {
+     "id": "b",
+     "text": "ὑγιής ἐστι καὶ τρέχει."
+    },
+    {
+     "id": "c",
+     "text": "τὸν ἰατρὸν φοβεῖται."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "νοσεῖ γάρ· πυρετὸν ἔχει."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίς τὸν ἰατρὸν ἐκάλεσεν;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Λύσις."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Σύρος."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Κλεινίας."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὁ Σύρος ἔδραμε καὶ τὸν ἰατρὸν ἐκάλεσεν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "ποῦ οἰκεῖ ὁ ἰατρός;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "πρὸς τῷ τείχει."
+    },
+    {
+     "id": "b",
+     "text": "ἐν Ἐπιδαύρῳ."
+    },
+    {
+     "id": "c",
+     "text": "ἐν τῷ Κεραμεικῷ."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "noun.decl3.sigma"
+   ],
+   "explain": "ὃς πρὸς τῷ τείχει οἰκεῖ."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί δεῖ τὴν παῖδα ποιεῖν;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "εἰς τὴν κρήνην τρέχειν."
+    },
+    {
+     "id": "b",
+     "text": "ἐν τῇ κλίνῃ μένειν καὶ πολὺ ὕδωρ πίνειν."
+    },
+    {
+     "id": "c",
+     "text": "τῷ Ἀσκληπιῷ θύειν."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "δεῖ τὴν παῖδα ἐν τῇ κλίνῃ μένειν καὶ πολὺ ὕδωρ πίνειν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίς τοὺς νοσοῦντας θεραπεύει, ὡς λέγει ὁ Κλεινίας;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Ἀσκληπιός."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Ἀπόλλων."
+    },
+    {
+     "id": "c",
+     "text": "ἡ Ἀθηνᾶ."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.relative-clause"
+   ],
+   "explain": "ὁ Ἀσκληπιός, ὃς τοὺς νοσοῦντας θεραπεύει."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίνα ὁ Λάβρος ἐν τῷ ὕδατι ὁρᾷ;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὸν Λύσιν."
+    },
+    {
+     "id": "b",
+     "text": "ἑαυτόν."
+    },
+    {
+     "id": "c",
+     "text": "τὸν ἰατρόν."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "pron.reflexive"
+   ],
+   "explain": "ἑαυτὸν ὁρᾷ καὶ ὑλακτεῖ."
+  }
+ ],
+ "culture": {
+  "title": "Doctors, drugs and the god of healing",
+  "md": "A Greek doctor (ἰατρός) in 432 BC was a craftsman, trained by apprenticeship, who travelled or set up a surgery in a rented room and was paid by the patient; some cities hired a public physician. The most famous school was on the island of Kos, where Hippocrates, then about thirty, was teaching. The treatises later collected under his name argue that every disease has a natural cause and course, not a divine one, and that the doctor's tools are observation, prognosis, diet, rest, and simple remedies: honey, wine, barley water, herbs, sometimes bleeding or purges. Philinos's speech gives that view in miniature. Most Athenians combined it with religion without embarrassment. Apollo and his son Asclepius were the healing gods; Asclepius's great sanctuary at Epidauros drew the sick to sleep in its hall and be cured in dreams, and its inscriptions record the cures. His cult did not reach Athens until 420 BC, after the plague of 430–426 had killed perhaps a third of the city, when the god was brought in from Zea harbour and the poet Sophocles is said to have hosted him. So Kleinias can only point to Epidauros. A red-figure oil flask of about 480 BC shows a surgery like Philinos's: the doctor on a stool bleeding a patient's arm, others waiting their turn, a basin on the floor, and a dwarf assistant carrying the tools.",
+  "image": "culture-5-4-medicine"
+ },
+ "quiz": [
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ ἰατρός, ___ ὁ Σύρος ἐκάλεσεν, Κῷός ἐστιν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὅς"
+    },
+    {
+     "id": "b",
+     "text": "ὅν"
+    },
+    {
+     "id": "c",
+     "text": "ὅ"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "pron.relative",
+    "syntax.relative-clause"
+   ],
+   "explain": "Object of ἐκάλεσεν: ὅν."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the genitive singular of τριήρης.",
+   "lemma": "τριήρης",
+   "cell": "gen.sg",
+   "skills": [
+    "noun.decl3.sigma",
+    "noun.decl3.gen.sg"
+   ],
+   "explain": "τριήρους.",
+   "audio": "τριήρους"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the nominative plural of γένος.",
+   "lemma": "γένος",
+   "cell": "nom.pl",
+   "skills": [
+    "noun.decl3.sigma",
+    "noun.decl3.nom.pl"
+   ],
+   "explain": "γένη.",
+   "audio": "γένη"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ Λύσις ___ λέγει· «κακῶς ἐποίησα.»",
+   "options": [
+    {
+     "id": "a",
+     "text": "αὐτῷ"
+    },
+    {
+     "id": "b",
+     "text": "ἑαυτῷ"
+    },
+    {
+     "id": "c",
+     "text": "ἀλλήλοις"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "pron.reflexive"
+   ],
+   "explain": "'to himself': ἑαυτῷ."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἀληθῆ in: ὁ ἰατρὸς ἀληθῆ λέγει.",
+   "form": "ἀληθῆ",
+   "groups": [
+    {
+     "id": "gender",
+     "label": "Gender",
+     "options": [
+      {
+       "id": "mf",
+       "label": "masculine / feminine"
+      },
+      {
+       "id": "n",
+       "label": "neuter"
+      }
+     ]
+    },
+    {
+     "id": "number",
+     "label": "Number",
+     "options": [
+      {
+       "id": "sg",
+       "label": "singular"
+      },
+      {
+       "id": "pl",
+       "label": "plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "gender": "n",
+    "number": "pl"
+   },
+   "skills": [
+    "adj.decl3.es"
+   ],
+   "explain": "ἀληθῆ here is neuter plural, 'true things' (it can also be masculine/feminine accusative singular; the context decides).",
+   "audio": "ἀληθῆ"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ ἰατρὸς τῇ τέχνῃ, οὐ τοῖς θεοῖς, θεραπεύει.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "«ἐγὼ δὲ τῇ τέχνῃ θεραπεύω.»"
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The children love each other.'",
+   "gaps": [
+    {
+     "answers": [
+      "οἱ παῖδες ἀλλήλους φιλοῦσιν",
+      "οἱ παῖδες ἀλλήλους φιλοῦσι",
+      "οἱ παῖδες φιλοῦσιν ἀλλήλους",
+      "οἱ παῖδες φιλοῦσι ἀλλήλους"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "pron.reciprocal"
+   ],
+   "explain": "οἱ παῖδες ἀλλήλους φιλοῦσιν."
+  }
+ ],
+ "skills": [
+  "pron.relative",
+  "syntax.relative-clause",
+  "noun.decl3.sigma",
+  "noun.decl3.gen.sg",
+  "noun.decl3.dat.sg",
+  "noun.decl3.acc.sg",
+  "noun.decl3.nom.pl",
+  "adj.decl3.es",
+  "pron.reflexive",
+  "pron.reciprocal",
+  "syntax.word-order",
+  "read.comprehension",
+  "read.locate",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family"
+ ]
+}

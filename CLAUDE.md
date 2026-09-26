@@ -731,3 +731,243 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   passages have one; the rest show nothing (hand-written examples would be
   the next step). Shared `components/Highlight.tsx`.
 
+
+## Session log — 2026-09-25 (course plan)
+
+- User request: a trackable beginner course (Athenaze / LOGOS / Reading
+  Greek style) with lessons, exercises, quizzes, tests, interest tracks
+  (mythology, philosophy, history, politics) and images throughout.
+- Deliverable: `docs/COURSE_PLAN.md` — plan only, nothing implemented.
+  Covers stages/units/lessons syllabus, original story (Acharnae, 432 BC,
+  own cast), exercise engine (17 types, morph-engine-generated drills),
+  assessment ladder, skill mastery + spiral review, data model, API,
+  routes, build pipeline, image plan, phases A–E, and open decisions (§9).
+- User decisions (same day): Athens setting (potter's family, Kydathenaion
+  / Kerameikos), Creative Commons images only with an "Attic pottery"
+  visual identity, and yes to the other recommendations (Greek-first with
+  English toggle, politics track, lenient accents until Unit 4, tracks
+  after Unit 9, stress cue). Plan updated. Three style mockups (Museum,
+  Workbook, Night Reader; phone + desktop) delivered as a design canvas
+  artifact; style choice still open (§9.8).
+- Start Phase A (skeleton + Stage 0 + Unit 1) next; assume the Museum
+  palette until the user picks a style.
+
+## Session log — 2026-09-25 (course Phase A built)
+
+- **Backend** `app/course/` (`data.py` loader/resolver, `normalize.py`
+  answer normalization, `grade.py` reference grader, `drill.py` generated
+  morphology items, `validate.py` authoring rules) + `scripts/build_course.py`.
+  Content in `app/course_data/`: `course.json` (stages/units/tracks, proper
+  names), `skills.json`, `vocab_extra.json` (27 course-only words in
+  lexicon shape; κύων carries a hand table via the new `morph.table`
+  override in `nominal.py`), `images/manifest.json` (74 placeholder records;
+  real CC images replace them), `lessons/0.1–0.4, 1.1–1.4`,
+  `tests/unit-1.json` (generated forms section, seeded per attempt).
+  Routes: `/api/course`, `/lesson/{id}`, `/test/{id}?seed`, `/drill`,
+  `/images`, `POST /check` (morph-aware feedback). `/api/vocab` now
+  includes course words (`source: "course"`) and a `lessons` facet.
+  Pre-render job renders course stories at 0.75/0.6 + words + item audio.
+  G2P maps « » → curly quotes. 378 backend tests.
+- **Authoring rules enforced by tests**: every story token must be a form
+  of an already-taught word (engine-generated), a listed proper name,
+  glossed once in the lesson, or in `allow`; ≤ 12 new words per lesson
+  (Stage 0 exempt); typed answers must match the engine; every lesson
+  skill needs an exercise; quiz 5–10 items; images must exist. Run
+  `python scripts/build_course.py --stats`.
+- **Answer policy**: lenient until Unit 4 (accents, macrons, iota subscript
+  and *smooth* breathing ignored; rough breathing always counts), strict
+  from Unit 4 or per user setting. Python and TS normalizers share
+  fixtures (`frontend/lib/normalize.fixtures.json`, regenerate with
+  `scripts/export_normalize_fixtures.py`).
+- **Frontend**: `lib/course.ts` (grading, skill mastery), `lib/courseState.ts`
+  (gating, test unlock 24 h after the unit, reread schedule 1/3/7/21 d,
+  continue = lesson after the last done), progress v2 (`course` section,
+  migration, merge for sync), `components/course/*`, pages `/course`,
+  `/course/lesson/[id]`, `/course/test/[id]`, `/course/review`; Course tab;
+  vocab deck filter "Words from a course lesson". Workbook theme in
+  `globals.css` (fonts via Google Fonts link; system fallbacks offline).
+  45 vitest tests; `next build` clean.
+- **Verified**: `backend/scripts/e2e/` (fake-voice API + Playwright walk:
+  Lesson 1.1 all steps with every item answered from the data → done →
+  reload → Unit 1 test unlocked and passed → review page → vocab filter;
+  phone and desktop). Screenshots in `docs/screenshots/`.
+- **Known gaps / next**: images are placeholders (Phase B image pass);
+  Google Fonts blocked in the sandbox (fallback fonts render); real-voice
+  check of the story clips on Railway; Units 2–6 content; placement test;
+  `/check` feedback not yet surfaced in the UI; the two summarised
+  Athenaze student books are scanned PDFs without text (handbooks were
+  used instead; see `docs/reference/`).
+
+## Session log — 2026-09-26 (course Phase B: Stage 1 content)
+
+- **Units 2–6 authored** by five parallel agents on disjoint files, then
+  validated and spot-read: `lessons/2.1–6.4`, `tests/unit-2..5`, `gate-1`
+  (unseen Deucalion & Pyrrha), `vocab_extra-u2..u6.json` (~90 course-only
+  words, all engine-conjugated or hand-tabled), `images/manifest-u2..u6.json`
+  (260 placeholder records). `build_course.py --stats` → 0 problems;
+  backend 399 tests; frontend 49 vitest; `next build` clean. Browser walks:
+  `scripts/e2e/e2e_placement.py` (pass + beginner paths),
+  `scripts/e2e/e2e_stage1.py` (Lesson 6.3 all exercises, gate-1 passed).
+  Story lengths grow from ~150 (Unit 1) to 200–310 tokens (Units 4–5);
+  AUTHORING.md updated. Cast additions: Θρᾷττα (slave, 2.2), Σίμων (Chian
+  metic, 4.2), Δίων/Φίλιππος (school, 4.3), Φιλῖνος (Koan doctor, 5.4),
+  Θεόδωρος (Milesian merchant, 6.2). Myths: Prometheus (2.3, 6.4 review),
+  Apollo & Daphne (5.3); Salamis as Kleinias' memory (5.2).
+- **Placement test**: `GET /api/course/placement?seed=` → per-unit blocks
+  (≤ 8 forms + sentence items from each unit test, no vocab/reading/self
+  items); `/course/placement` runs blocks in order, stops after 3 misses in
+  a row or a block < 60 %, marks every earlier lesson `skipped`, records
+  `course.placement`, opens the next authored lesson. `?seed=` pins a run.
+  `placementDecision()` in `lib/course.ts` (vitest).
+- **Images**: `scripts/build_images.py` (`report | resolve | verify | fetch |
+  process | manifest | all`, `--only`), `images/sources.csv` (70 rows for
+  Stage 0/Unit 1; `search:<query>|<title regex>` refs resolve to object ids
+  in `resolved.json`; `verified.json` caches licence/credit/URL). Sources:
+  Met, Cleveland, AIC, Smithsonian (`SMITHSONIAN_API_KEY`), Wikimedia
+  Commons, manual. Only CC0 / PD / CC BY / CC BY-SA pass. Output WebP ≤ 60 KB,
+  3:2 or 1:1, cream field, 12 % padding, mild grade →
+  `frontend/public/course/pics/<id>.webp`; `manifest` fills the record in
+  place. **Egress-blocked here: run locally**, then commit pics + manifests.
+  Diagrams (4 + per-unit) are our own SVGs, not sourced. `/course/credits`
+  lists every image; the licence badge on a picture links there.
+- **Engine fixes from the authoring pass**: `aorist_stem` overrides written
+  with the compound prefix are stripped (ἐξελθεῖν, not ἐξεξελθεῖν);
+  ὑφαίνω marked `compound: false` (was ὑπο + αἵνω → ὑφαῖναι; now ὑφῆναι);
+  drill generator matches `noun.decl3.(cons|sigma|iota|eus).*` and
+  `noun.decl3.cons.pl`, and `verb.*.mp/mid` skills draw deponents first and
+  read either `middle` or `middle/passive` tables; validator flags a lemma
+  in two `vocab_extra-*.json` files and an image id in two manifests;
+  `scripts/dedupe_course_data.py` keeps the lowest unit's record.
+  Typed-item misses in lessons show "You typed the genitive singular of
+  οἶκος" via `/api/course/check` (`scope` prop on `ExerciseRunner`).
+- **Reported, not fixed** (agents' notes): comparatives/superlatives are
+  not generated (glossed with `<`); participles exist only as nom. sg. (+
+  gen. m) cells; `verb-impersonal` (ἔξεστι) and -εσ- stem masc./fem.
+  (τριήρης), -υ neuter (ἄστυ), ἰχθύς need hand tables; ἵστημι's root
+  aorist cells are keyed `"root aorist.…"` so drills cannot reach them;
+  compound verbs augment the prefix unless `imperfect_stem` is given
+  (ἀναγιγνώσκω, ὠνέομαι); `course_tools.py check` breaks on a closed pipe.
+- **Open for the user**: live link — point Railway `web`/`backend` at this
+  branch or open a PR to `main` (Railway deploys `main`). Real-voice check
+  of the new story clips on Railway; the pre-render plan is now ~28
+  stories × 2 speeds + words + item audio.
+- **Theme switched to style C, light** (user request, 2026-09-26: "go back
+  to C but use light mode"). `globals.css` tokens rewritten: paper
+  `#f6f4ee`, stone `#eeebe3`, ink `#1c2024`, sage `#a3b18a` (fills) /
+  `#4e6136` (text, buttons), Literata + IBM Plex Sans (Google Fonts link in
+  `layout.tsx`), 1 px borders, no offset shadows; PWA theme colour
+  `#f6f4ee`. All text pairs ≥ 5.2:1. Class names unchanged, so no component
+  logic moved. Screenshots with the real fonts: fonts fetched from npm
+  (`@fontsource-variable/literata`, `@fontsource/ibm-plex-sans`) and routed
+  in Playwright in place of Google Fonts (egress-blocked here).
+
+## Session log — 2026-09-26 (course Phase C: Stage 2)
+
+- **Engine**: `morph/participle.py` declines every participle from its four
+  principal forms (gold tables for 12 models); course form lookup adds
+  `tense.voice.participle.<case>.<num>.<g>`, `comp.*`/`sup.*` and `adv`
+  cells (cached per entry). Overrides: `"drop": ["future.middle"]` removes a
+  system; ἔρχομαι future/imperfect from εἶμι (εἶμι, ᾔειν), ἀποθνῄσκω perfect
+  τέθνηκα, λέγω perfect mp εἴρημαι, ἐρωτάω aorist ἠρώτησα, no bogus
+  passives for ζάω/πάσχω/ἀποθνῄσκω, θᾶττον. Periphrastic cells (with a
+  space) are skipped; paired entries (μέν…δέ, εἴτε…εἴτε) match each half;
+  spacing koronis → elision apostrophe in `normalize_polytonic`.
+- **Drills**: `verb.ptc.<t>.<v>[.<case>][.<num>]`, `syntax.gen-abs`,
+  `adj.comp`/`adj.sup`, perfect/pluperfect, passives (present passive =
+  middle/passive table, deponents excluded; second/root aorist labels),
+  lemma skills (`verb.mi.didomi`, `verb.phemi`, `verb.oida`, …). skills.json
+  333 skills (144+ drill-backed).
+- **Originals**: `course_data/texts/` (9 Perseus passages: Thuc. 2.13, 2.14,
+  2.16, 2.21, 2.35, 2.47, Lysias 1.6–7, Apollodorus 1.9.28, Anabasis
+  3.1.4–5) via `scripts/build_course_texts.py`; library passages usable by
+  id. Lesson `original: {text, note}`, story sentences `orig: [n]`; test
+  sections `passage_from`, `glosses` (shown under the passage), `passage_note`.
+  Frontend `OriginalText` panel in the Read step.
+- **Content**: Units 7–12 by six parallel agents (brief: AUTHORING.md
+  "Stage 2"), vocabulary pre-allocated in `stage2_vocab.json`
+  (`course_tools.py alloc`; `prune-allow` removed ~230 temporary allows).
+  Chronology fix: Unit 7 = City Dionysia of spring 431 (Medea), Panathenaea
+  inside the walls in 9.3, Unit 12 epilogue c. 370. Validator now checks
+  unit-test passages, every elision mark and aspirated elision (ἐφ’).
+- **Diagrams**: 47 own SVG components (`components/course/diagrams`,
+  CSS-variable colours) for every diagram record, incl. schematic maps;
+  `lib/diagrams.test.ts`; records `svg: true`, CC BY-SA.
+- **Verified**: build_course 0 problems; backend 429 tests; frontend 99
+  vitest; `next build`; e2e `e2e_course`, `e2e_placement` (12 units, 6
+  items each), `e2e_stage1`, `e2e_stage2` (original panel, diagram, 11.3
+  exercises, gate II passed); screenshots 11–13 in `docs/screenshots/`.
+- **Known gaps**: no dual or verbal adjectives in the engine (glossed);
+  ἵστημι short perfects; photographs still placeholders; Phase D (tracks).
+
+## Session log — 2026-09-26 (course Phase D + Phase E)
+
+- **Tracks (Stage 3)**: `course.json` tracks list 7 lessons (`myth.*`,
+  `phil.*`, `hist.*`, `pol.*`) + gate (`gate-<prefix>`), `side_after` 9.4
+  (lessons 1–3), `full_after` 12.4. `data.py`: `main_lesson_ids()` (Stage
+  0–2 order) vs `lesson_ids()` (+ tracks); a track lesson's scope = main
+  course through its `requires` + the track's earlier lessons (tracks never
+  see each other); `resolve_track`, `lesson_summary`. Validator: ≤ 15 new
+  words, lessons 4+ accept every DCC form (`_core_forms`), gates validated.
+  Per-track files so authors never share one: `vocab_extra-<p>.json`,
+  `skills-<p>.json` (loaded by `load_skills`), `texts/sources-<p>.json`,
+  `images/manifest-<p>.json`, `images/sources-<p>.csv`. 4 agents wrote the
+  content (AUTHORING.md "Stage 3"). Palaephatus and the Old Oligarch are not
+  in canonical-greekLit (replaced). Hand fixes in `texts/apollod-epit-1.7`,
+  `-1.12` and `plato-rep-360a` (rebuilding brings the Perseus typos back).
+- **Frontend**: `/course/track/[id]` (ladder, gate, texts, track words),
+  course-home track cards + "your track", `trackLessonStatus`/`trackGate`
+  in `courseState.ts` (vitest). Track lessons are strict on accents.
+- **Guided reading (Stage 4)**: `app/course/analyze.py` (form index over
+  all lexicon entries → coverage, entries, unknown); `POST /api/analyze`,
+  `GET /api/analyze/library`; `WordCoverage` panel under the Reader text;
+  `/vocab?words=a,b&from=label` deck.
+- **Phase E by agents**: skills grid `/course/skills` + `GET
+  /api/course/skill/{id}`; mistakes deck `/course/review?mode=mistakes` +
+  `POST /api/course/items` (ErrorEntry `right`/`cleared`); offline service
+  worker `public/sw.js` (story streams and `/api/speak` cached under
+  synthetic GET keys, `offline.html`, `lib/offline.ts` prefetch); navigation
+  (bottom tab bar ≤ 640 px, `Crumbs`, `SiteFooter`, `PageState`), axe-clean
+  a11y pass (`e2e_nav.py`, `axe-core` dev dep). `NEXT_DIST_DIR` lets a
+  second build live beside `.next` (it rewrites `next-env.d.ts`: restore it).
+- **Engine** (merged from a worktree branch): author-reported fixes (-σον
+  imperative accent, compound imperatives, -ων non-comparatives, γχ/ν
+  perfect middles, σκοπέω, ἔχω compounds, Attic futures in -αύνω/-άζω,
+  assimilated prefixes, πλοῦς, πλήρης, κεῖμαι compounds, ἑστώς, οὕτω,
+  οἶμαι, ἔγωγε); **dual** everywhere (separate `dual` block; FormsTable
+  "show dual"; course cells `nom.du`, `…2du`); **verbal adjectives**
+  `vadj.tos`/`vadj.teos` (override `"vadj": false|{tos,teos}`).
+- **Fixes found by e2e**: generated parse items for infinitives asked for a
+  person (now tense + voice); story ▶ needed two taps (load resolves on the
+  sentence list; clips looked up in the list just loaded).
+- **Images**: `build_images.py` gained query relaxation + cross-source
+  fallback, `doctor`, `failures.json`, host circuit breaker, browser UA for
+  museum CDNs; Commons licence check crashed on numeric metadata (fixed);
+  Met search needs `q` last. `scripts/images_retry.sh` (python3 venv of its
+  own, macOS bash 3.2 safe) runs the pass locally and pushes pictures +
+  `failures.json` + `doctor.json` + `last-run.log`.
+- **Verified**: build_course 0 problems; backend 654 passed; vitest 126;
+  `next build`; e2e course, placement, stage1, stage2, tracks, skills, nav
+  (offline e2e by its agent).
+- **Open**: photographs (user's local image run); quiz and questions items
+  share the `q` id prefix (388 collisions; the mistakes deck disambiguates);
+  ἐμαυτοῦ/σεαυτοῦ have tables but no lexicon entries; λύω shows θνῄσκω's
+  note (shared DCC rank 384 in overrides); content review by a second reader.
+
+## Session log — 2026-09-26 (UX plan, app review, handoff)
+
+- User feedback: the app opens on the Reader with no explanation, no home,
+  no account; Course / Vocab / Grammar are one long page each (the
+  "words from a course lesson" chip wall was the example). Plan written:
+  `docs/UX_PLAN.md` (home dashboard, onboarding, sidebar + bottom tabs,
+  accounts, Library / Practice / Grammar / Learn hubs, phases F1–F6) and
+  `docs/APP_REVIEW.md` (Pimsleur, Babbel, LingQ, Drops and others; eight
+  features adopted: known-word states in the reader, one Review hub,
+  sentence cloze, known-words counter + weekly goal, Quick 5 minutes,
+  session summary, Listen mode, unit guidebook). Decisions in
+  `UX_PLAN.md` §11 (email + Google sign-in, no reset yet; names Learn ·
+  Library · Practice · Grammar · Progress; guest mode kept; order as
+  written).
+- **Handoff**: development continues in another agent from `main`;
+  `docs/HANDOFF.md` is the self-contained prompt. PR #1 (this branch →
+  main) merged with everything through Phase E.
+- Nothing from the UX plan is implemented yet.

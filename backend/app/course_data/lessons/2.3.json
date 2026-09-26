@@ -1,0 +1,130 @@
+{
+  "id": "2.3",
+  "title_grc": "ὁ Κλεινίας μῦθον λέγει",
+  "title_en": "Kleinias tells a story",
+  "summary_grc": "«λέγε μῦθον, ὦ πάππε!» «ἀκούετε οὖν, ὦ παῖδες, καὶ μὴ λέγετε.»",
+  "summary_en": "Night, a grandfather and the myth of Prometheus: commands, 'don't!', and calling people by name.",
+  "cover": "panel-2-3-a",
+  "caption_grc": "«ὦ πάππε, λέγε μῦθον!» «ἀκούετε, ὦ παῖδες, καὶ μὴ καθεύδετε.»",
+  "names": {"Προμηθεύς": ["Προμηθέως", "Προμηθεῖ", "Προμηθέα", "Προμηθεῦ"], "Ἡρακλῆς": ["Ἡρακλέους", "Ἡρακλεῖ", "Ἡρακλέα", "Ἡράκλεις"]},
+  "allow": {},
+  "story": [
+    {
+      "image": "panel-2-3-a",
+      "sentences": [
+        {"text": "νύξ ἐστιν· ἡ σελήνη ἐν τῷ οὐρανῷ ἐστιν.", "glosses": [{"word": "νύξ", "kind": "↔", "value": "ἡμέρα"}]},
+        {"text": "ὁ Κλεινίας ὁ πάππος τοῦ Λύσιδος καὶ τῆς Ἐλπίδος ἐστίν.", "glosses": [{"word": "πάππος", "kind": "pic", "value": "pappos"}]},
+        {"text": "ὁ πάππος ἀεὶ μύθους λέγει, οἱ δὲ παῖδες ἀκούουσιν.", "glosses": [{"word": "μύθους", "kind": "pic", "value": "mythos"}, {"word": "παῖδες", "kind": "|", "value": "ὁ παῖς | οἱ παῖδες"}]},
+        {"text": "ὁ Λύσις καὶ ἡ Ἐλπὶς εἰς τὴν κλίνην τρέχουσιν καὶ λέγουσιν· «χαῖρε, ὦ πάππε! λέγε μῦθον!»", "glosses": [{"word": "χαῖρε", "kind": "pic", "value": "verb-chaire"}, {"word": "ὦ", "kind": "en", "value": "O … — before the name of the person you speak to"}, {"word": "πάππε", "kind": "|", "value": "ὁ πάππος | ὦ πάππε"}, {"word": "λέγε", "kind": "|", "value": "λέγει | λέγε! (a command)"}]},
+        {"text": "ὁ δὲ Κλεινίας λέγει· «χαίρετε, ὦ παῖδες. ἀκούετε οὖν καὶ μὴ λέγετε.»", "glosses": [{"word": "χαίρετε", "kind": "|", "value": "χαῖρε | χαίρετε (to several people)"}, {"word": "ἀκούετε", "kind": "|", "value": "ἄκουε! | ἀκούετε!"}, {"word": "μὴ", "kind": "=", "value": "μὴ + command = don't …!"}]},
+        {"text": "«σὺ δέ, ὦ Λάβρε, μὴ τρέχε, ἀλλὰ μένε.»", "glosses": [{"word": "τρέχε", "kind": "|", "value": "τρέχει | μὴ τρέχε!"}]}
+      ]
+    },
+    {
+      "image": "panel-2-3-b",
+      "sentences": [
+        {"text": "«ὁ Προμηθεὺς θεός ἐστιν καὶ τοὺς ἀνθρώπους φιλεῖ.»", "glosses": [{"word": "Προμηθεὺς", "kind": "en", "value": "Prometheus"}]},
+        {"text": "«οἱ μὲν θεοὶ τὸ πῦρ ἔχουσιν, οἱ δὲ ἄνθρωποι πῦρ οὐκ ἔχουσιν.»", "glosses": [{"word": "πῦρ", "kind": "pic", "value": "pyr"}]},
+        {"text": "«ὁ οὖν Προμηθεὺς τὸ πῦρ κλέπτει καὶ εἰς τὴν γῆν φέρει.»", "glosses": [{"word": "κλέπτει", "kind": "pic", "value": "verb-kleptei"}]},
+        {"text": "«νῦν οἱ ἄνθρωποι τὸ πῦρ ἔχουσιν, καὶ ὁ κεραμεὺς τὸ πῦρ ἔχει.»", "glosses": []},
+        {"text": "«ὁ δὲ Ζεὺς τὸν Προμηθέα οὐ φιλεῖ· τὸ γὰρ πῦρ τῶν θεῶν ἐστιν.»", "glosses": [{"word": "θεῶν", "kind": "note", "value": "τῶν θεῶν ἐστιν 'belongs to the gods' (genitive of possession)"}]},
+        {"text": "«ὁ Ζεὺς οὖν τὸν Προμηθέα ἐν λίθῳ μεγάλῳ ἔχει· ἀετὸς δὲ μέγας ἀεὶ τὸν Προμηθέα ἐσθίει.»", "glosses": [{"word": "ἀετὸς", "kind": "pic", "value": "aetos"}, {"word": "ἐσθίει", "kind": "note", "value": "in the myth the eagle eats his liver every day, and every night it grows back"}]},
+        {"text": "«ἔπειτα δὲ ὁ Ἡρακλῆς τὸν ἀετὸν διώκει καὶ τὸν Προμηθέα λύει.»", "glosses": [{"word": "Ἡρακλῆς", "kind": "en", "value": "Heracles"}, {"word": "διώκει", "kind": "pic", "value": "verb-diokei"}, {"word": "λύει", "kind": "pic", "value": "verb-luei"}]}
+      ]
+    },
+    {
+      "image": "panel-2-3-c",
+      "sentences": [
+        {"text": "ὁ Λύσις λέγει· «καλὸς ὁ μῦθος, ὦ πάππε! ὁ Ἡρακλῆς ἀγαθός ἐστιν· τὸν Προμηθέα λύει.»", "glosses": [{"word": "καλὸς", "kind": "=", "value": "καλὸς ὁ μῦθος = καλός ἐστιν ὁ μῦθος"}]},
+        {"text": "ὁ δὲ Κλεινίας λέγει· «ναί, ὦ Λύσι· ἀλλὰ σὺ μὴ κλέπτε τὸ πῦρ τοῦ Διός!»", "glosses": [{"word": "Διός", "kind": "|", "value": "ὁ Ζεύς | τοῦ Διός (of Zeus)"}]},
+        {"text": "ἡ δὲ Ἐλπὶς ἤδη καθεύδει.", "glosses": []},
+        {"text": "ὁ πάππος λέγει· «νύξ ἐστιν· σπεύδετε οὖν εἰς τὰς κλίνας, ὦ παῖδες, καὶ καθεύδετε.»", "glosses": [{"word": "σπεύδετε", "kind": "|", "value": "σπεῦδε! | σπεύδετε!"}, {"word": "κλίνας", "kind": "|", "value": "τὴν κλίνην | τὰς κλίνας"}]},
+        {"text": "«σὺ δέ, ὦ Λάβρε, τὴν θύραν φύλαττε καὶ μὴ καθεῦδε.»", "glosses": [{"word": "φύλαττε", "kind": "|", "value": "φυλάττει | φύλαττε!"}, {"word": "καθεῦδε", "kind": "|", "value": "καθεύδει | μὴ καθεῦδε!"}]},
+        {"text": "ὁ δὲ Λάβρος ἤδη καθεύδει· ὁ γὰρ κύων ἀετοὺς οὐ διώκει, ἀλλὰ ἄρτους.", "glosses": []}
+      ]
+    }
+  ],
+  "vocab": [
+    {"id": "μυθος", "pic": "mythos", "gloss_grc": "ὁ πάππος μῦθον λέγει"},
+    {"id": "παππος", "pic": "pappos", "gloss_grc": "ὁ Κλεινίας πάππος ἐστίν"},
+    {"id": "νυξ", "pic": "nyx", "gloss_grc": "↔ ἡμέρα"},
+    {"id": "ω", "gloss_grc": "ὦ Λύσι · ὦ πάππε"},
+    {"id": "μη", "gloss_grc": "μὴ τρέχε! (↔ οὐ τρέχει)"},
+    {"id": "λυω", "pic": "verb-luei", "gloss_grc": "λύει ↔ ἔχει"},
+    {"id": "κλεπτω", "pic": "verb-kleptei", "gloss_grc": "κλέπτει · ὁ Λάβρος τὸν ἄρτον κλέπτει"},
+    {"id": "διωκω", "pic": "verb-diokei", "gloss_grc": "διώκει · τρέχει καὶ διώκει"},
+    {"id": "χαιρω", "pic": "verb-chaire", "gloss_grc": "χαῖρε! · χαίρετε!"},
+    {"id": "αετος", "pic": "aetos"},
+    {"id": "ακουω", "pic": "verb-akouei", "gloss_grc": "ἄκουε! · ἀκούετε!"},
+    {"id": "λεγω", "pic": "verb-legei", "gloss_grc": "λέγε! · λέγετε!"},
+    {"id": "πυρ", "pic": "pyr"}
+  ],
+  "notice": [
+    "λέγε μῦθον! — ἀκούετε καὶ μὴ λέγετε.",
+    "μὴ τρέχε, ἀλλὰ μένε.",
+    "χαῖρε, ὦ πάππε! — χαίρετε, ὦ παῖδες.",
+    "σπεύδετε εἰς τὰς κλίνας καὶ καθεύδετε.",
+    "ὦ Λάβρε · ὦ Λύσι · ὦ Ἐλπί · ὦ πάππε · ὦ παῖδες"
+  ],
+  "grammar": {
+    "md": "**Commands: the imperative.** To tell one person to do something, use the verb stem with **-ε**; to tell several people, **-ετε**:\n\n| | one person | several |\n|---|---|---|\n| λέγω | λέγ**ε** *speak!* | λέγ**ετε** |\n| ἀκούω | ἄκου**ε** *listen!* | ἀκού**ετε** |\n| μένω | μέν**ε** *stay!* | μέν**ετε** |\n| φυλάττω | φύλαττ**ε** | φυλάττ**ετε** |\n| σπεύδω | σπεῦδ**ε** | σπεύδ**ετε** |\n\nThe plural imperative looks exactly like 'you (all) do': *ἀκούετε* is both 'you are listening' and 'listen!'. Context (and the tone of voice) decides. The accent of the imperative goes as far back as it can: ἄκουε, φύλαττε; a verb of two syllables keeps it on the first: λέγε, μένε. A long vowel before a short final syllable takes the circumflex: σπεῦδε, καθεῦδε.\n\n**Don't!** Prohibitions use **μή**, not οὐ: *μὴ τρέχε* 'don't run', *μὴ λέγετε* 'don't talk'. οὐ says what is not the case (*οὐ τρέχει* 'he isn't running'); μή says what should not happen.\n\n**Greetings.** *χαῖρε* (to one), *χαίρετε* (to several) literally means 'be glad!' and serves for hello and goodbye.\n\n**Calling someone: the vocative.** When you address a person, the noun takes the **vocative** case, usually with **ὦ** in front. Second-declension nouns in -ος change to **-ε**: ὦ πάππ**ε**, ὦ Λάβρ**ε**, ὦ Σύρ**ε**, ὦ δοῦλ**ε**. First-declension nouns keep their nominative form (ὦ Θρᾷττα, ὦ κόρη); names in -ας shorten to -α (ὦ Κλεινία). Third-declension names drop their ending: ὦ Λύσι, ὦ Ἐλπί, ὦ Χρυσί, ὦ παῖ, ὦ Ζεῦ, ὦ Προμηθεῦ. In the plural the vocative is the same as the nominative: ὦ παῖδες, ὦ δοῦλοι. The article is never used with a vocative.\n\n**σύ with a command** adds emphasis or picks someone out: *σὺ δέ, ὦ Λάβρε, μὴ τρέχε* 'and you, Labros, don't run'.",
+    "paradigms": ["luo", "logos"],
+    "diagram": null
+  },
+  "exercises": [
+    {"type": "endings-cloze", "prompt": "Μελέτημα Α · Fill in the endings of the commands and the vocatives.", "template": "λέγ___ μῦθον, ὦ πάππ___! ἀκού___, ὦ παῖδες, καὶ μὴ λέγ___. μὴ τρέχ___, ὦ Λάβρ___.", "gaps": [{"answers": ["ε"]}, {"answers": ["ε"]}, {"answers": ["ετε"]}, {"answers": ["ετε"]}, {"answers": ["ε"]}, {"answers": ["ε"]}], "skills": ["verb.pres.act.imp.2sg", "verb.pres.act.imp.2pl", "noun.decl2.voc.sg", "syntax.imperative"], "explain": "λέγε (one person), ὦ πάππε (vocative), ἀκούετε / μὴ λέγετε (several), μὴ τρέχε, ὦ Λάβρε."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ___ πάππε, λέγε μῦθον!", "options": [{"id": "a", "text": "ὦ"}, {"id": "b", "text": "ὁ"}, {"id": "c", "text": "ναί"}], "answer": "a", "skills": ["noun.voc"], "explain": "ὦ introduces the person addressed; the article is never used with a vocative.", "audio": "ὦ πάππε, λέγε μῦθον!"},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ἀκούετε, ὦ παῖδες, καὶ ___ λέγετε.", "options": [{"id": "a", "text": "μή"}, {"id": "b", "text": "οὐ"}, {"id": "c", "text": "οὐκ"}], "answer": "a", "skills": ["syntax.imperative", "syntax.negation"], "explain": "A prohibition takes μή: μὴ λέγετε 'don't talk'.", "audio": "ἀκούετε, ὦ παῖδες, καὶ μὴ λέγετε."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ὁ Προμηθεὺς τὸ πῦρ ___ καὶ εἰς τὴν γῆν φέρει.", "options": [{"id": "a", "text": "κλέπτει"}, {"id": "b", "text": "λύει"}, {"id": "c", "text": "διώκει"}], "answer": "a", "skills": ["vocab.recognition", "read.myth"], "explain": "κλέπτει: steals.", "audio": "ὁ Προμηθεὺς τὸ πῦρ κλέπτει καὶ εἰς τὴν γῆν φέρει."},
+    {"type": "pick-picture", "prompt": "κλέπτει", "audio": "prompt", "options": [{"id": "a", "image": "verb-kleptei"}, {"id": "b", "image": "verb-luei"}, {"id": "c", "image": "verb-diokei"}, {"id": "d", "image": "verb-pherei"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "κλέπτει: steals. λύει: sets free. διώκει: chases."},
+    {"type": "pick-picture", "prompt": "ἀετός", "audio": "prompt", "options": [{"id": "a", "image": "aetos"}, {"id": "b", "image": "kyon"}, {"id": "c", "image": "hippos"}, {"id": "d", "image": "pappos"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "ἀετός: eagle."},
+    {"type": "produce-form", "prompt": "Give the command to one person: λέγω → 'speak!'", "lemma": "λέγω", "cell": "present.active.imperative.2sg", "skills": ["verb.pres.act.imp.2sg"], "explain": "λέγε.", "audio": "λέγε"},
+    {"type": "produce-form", "prompt": "Give the command to several people: ἀκούω → 'listen!'", "lemma": "ἀκούω", "cell": "present.active.imperative.2pl", "skills": ["verb.pres.act.imp.2pl"], "explain": "ἀκούετε.", "audio": "ἀκούετε"},
+    {"type": "produce-form", "prompt": "Give the vocative singular of πάππος (ὦ …).", "lemma": "πάππος", "cell": "voc.sg", "skills": ["noun.decl2.voc.sg", "noun.voc"], "explain": "ὦ πάππε.", "audio": "πάππε"},
+    {"type": "produce-form", "prompt": "Give the command to one person: καθεύδω → 'sleep!' (mind the accent).", "lemma": "καθεύδω", "cell": "present.active.imperative.2sg", "skills": ["verb.pres.act.imp.2sg"], "explain": "καθεῦδε: long -ευ- before a short final syllable takes the circumflex.", "audio": "καθεῦδε"},
+    {"type": "parse", "prompt": "Parse λέγε.", "form": "λέγε", "groups": [{"id": "mood", "label": "What kind of form?", "options": [{"id": "ind", "label": "statement (he/she speaks)"}, {"id": "imp", "label": "command (speak!)"}]}, {"id": "number", "label": "To how many?", "options": [{"id": "sg", "label": "one person"}, {"id": "pl", "label": "several"}]}], "answer": {"mood": "imp", "number": "sg"}, "skills": ["verb.pres.act.imp.2sg"], "explain": "-ε: a command to one person.", "audio": "λέγε"},
+    {"type": "parse", "prompt": "Parse μύθους.", "form": "μύθους", "groups": [{"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "acc", "label": "accusative"}, {"id": "voc", "label": "vocative"}]}, {"id": "number", "label": "Number", "options": [{"id": "sg", "label": "singular"}, {"id": "pl", "label": "plural"}]}], "answer": {"case": "acc", "number": "pl"}, "skills": ["noun.decl2.acc.pl"], "explain": "-ους: accusative plural, 'stories' as object.", "audio": "μύθους"},
+    {"type": "cloze-choice", "prompt": "ὦ Λάβρε, μὴ ___!", "options": [{"id": "a", "text": "τρέχε"}, {"id": "b", "text": "τρέχει"}, {"id": "c", "text": "τρέχεις"}], "answer": "a", "skills": ["verb.pres.act.imp.2sg", "syntax.imperative"], "explain": "A command to one person: τρέχε."},
+    {"type": "cloze-choice", "prompt": "σπεύδετε εἰς τὰς κλίνας, ὦ ___.", "options": [{"id": "a", "text": "παῖδες"}, {"id": "b", "text": "παῖς"}, {"id": "c", "text": "παῖδα"}], "answer": "a", "skills": ["noun.voc", "noun.number"], "explain": "σπεύδετε is plural, so several children are addressed: ὦ παῖδες."},
+    {"type": "cloze-choice", "prompt": "___ Λύσι, ἄκουε!", "options": [{"id": "a", "text": "ὦ"}, {"id": "b", "text": "ὁ"}, {"id": "c", "text": "τόν"}], "answer": "a", "skills": ["noun.voc"], "explain": "ὦ + vocative."},
+    {"type": "transform", "prompt": "Make it a command: ὁ Λάβρος μένει. → ὦ Λάβρε, …", "template": "ὦ Λάβρε, ___.", "gaps": [{"answers": ["μένε"]}], "skills": ["verb.pres.act.imp.2sg", "syntax.imperative"], "explain": "μένε: stay!", "audio": "ὦ Λάβρε, μένε."},
+    {"type": "transform", "prompt": "Make it a prohibition: οἱ παῖδες λέγουσιν. → ὦ παῖδες, μὴ …", "template": "ὦ παῖδες, μὴ ___.", "gaps": [{"answers": ["λέγετε"]}], "skills": ["verb.pres.act.imp.2pl", "syntax.imperative"], "explain": "μὴ λέγετε: don't talk!", "audio": "ὦ παῖδες, μὴ λέγετε."},
+    {"type": "transform", "prompt": "Address him: ὁ Σύρος → ὦ …", "template": "ὦ ___", "gaps": [{"answers": ["Σύρε"]}], "skills": ["noun.decl2.voc.sg", "noun.voc"], "explain": "ὦ Σύρε: -ος becomes -ε.", "audio": "ὦ Σύρε"},
+    {"type": "locate", "prompt": "Tap every command (imperative).", "sentence": "χαίρετε, ὦ παῖδες· ἀκούετε οὖν καὶ μὴ λέγετε. σὺ δέ, ὦ Λάβρε, μὴ τρέχε, ἀλλὰ μένε.", "answer": [0, 3, 7, 13, 15], "skills": ["read.locate", "verb.pres.act.imp.2sg", "verb.pres.act.imp.2pl"], "explain": "χαίρετε, ἀκούετε, λέγετε (after μή), τρέχε (after μή), μένε."},
+    {"type": "locate", "prompt": "Tap every vocative (the person being addressed).", "sentence": "χαῖρε, ὦ πάππε! λέγε μῦθον, ὦ Κλεινία, καὶ σύ, ὦ Λάβρε, μὴ τρέχε.", "answer": [2, 6, 10], "skills": ["read.locate", "noun.voc"], "explain": "πάππε, Κλεινία, Λάβρε: each follows ὦ."},
+    {"type": "reorder", "prompt": "Put the words in order: 'Don't sleep, Labros!'", "tokens": ["Λάβρε", "μὴ", "ὦ", "καθεῦδε"], "answers": ["ὦ Λάβρε, μὴ καθεῦδε", "μὴ καθεῦδε, ὦ Λάβρε"], "skills": ["syntax.word-order", "syntax.imperative"], "explain": "ὦ Λάβρε, μὴ καθεῦδε!"},
+    {"type": "reorder", "prompt": "Put the words in order: 'Heracles sets Prometheus free.'", "tokens": ["λύει", "Προμηθέα", "ὁ", "τὸν", "Ἡρακλῆς"], "answers": ["ὁ Ἡρακλῆς τὸν Προμηθέα λύει", "τὸν Προμηθέα ὁ Ἡρακλῆς λύει", "ὁ Ἡρακλῆς λύει τὸν Προμηθέα"], "skills": ["syntax.word-order", "syntax.object"], "explain": "ὁ Ἡρακλῆς τὸν Προμηθέα λύει."},
+    {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "μὴ τρέχε, ἀλλὰ μένε.", "options": [{"id": "a", "text": "μὴ τρέχε, ἀλλὰ μένε."}, {"id": "b", "text": "μὴ μένε, ἀλλὰ τρέχε."}, {"id": "c", "text": "τρέχε καὶ μένε."}], "answer": "a", "skills": ["listen.sentences", "syntax.imperative"], "explain": "Don't run; stay."},
+    {"type": "true-false-grc", "prompt": "οἱ ἄνθρωποι πρῶτον τὸ πῦρ οὐκ ἔχουσιν.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension", "read.myth"], "explain": "οἱ μὲν θεοὶ τὸ πῦρ ἔχουσιν, οἱ δὲ ἄνθρωποι πῦρ οὐκ ἔχουσιν."},
+    {"type": "true-false-grc", "prompt": "ὁ Ζεὺς τὸν Προμηθέα λύει.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension", "read.myth"], "explain": "ὁ Ἡρακλῆς τὸν Προμηθέα λύει· ὁ Ζεὺς αὐτὸν ἐν λίθῳ ἔχει."},
+    {"type": "true-false-grc", "prompt": "ὁ Λάβρος τὴν θύραν φυλάττει καὶ οὐ καθεύδει.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "ὁ Λάβρος ἤδη καθεύδει."},
+    {"type": "dictation", "prompt": "Listen and type what you hear.", "audio": "λέγε μῦθον, ὦ πάππε!", "gaps": [{"answers": ["λέγε μῦθον, ὦ πάππε"]}], "skills": ["spell.dictation", "listen.sentences"], "explain": "λέγε μῦθον, ὦ πάππε!"},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Listen, children, and don't talk!'", "gaps": [{"answers": ["ἀκούετε, ὦ παῖδες, καὶ μὴ λέγετε", "ὦ παῖδες, ἀκούετε καὶ μὴ λέγετε", "ἀκούετε, παῖδες, καὶ μὴ λέγετε"]}], "skills": ["vocab.production", "verb.pres.act.imp.2pl", "syntax.imperative", "noun.voc"], "explain": "ἀκούετε, ὦ παῖδες, καὶ μὴ λέγετε."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Prometheus steals the fire.'", "gaps": [{"answers": ["ὁ Προμηθεὺς τὸ πῦρ κλέπτει", "ὁ Προμηθεὺς κλέπτει τὸ πῦρ", "τὸ πῦρ ὁ Προμηθεὺς κλέπτει"]}], "skills": ["vocab.production", "syntax.object", "read.myth"], "explain": "ὁ Προμηθεὺς τὸ πῦρ κλέπτει."},
+    {"type": "translate-en", "prompt": "Translate: ὁ δὲ Ζεὺς τὸν Προμηθέα οὐ φιλεῖ· τὸ γὰρ πῦρ τῶν θεῶν ἐστιν.", "audio": "ὁ δὲ Ζεὺς τὸν Προμηθέα οὐ φιλεῖ· τὸ γὰρ πῦρ τῶν θεῶν ἐστιν.", "model": "But Zeus does not love Prometheus, for the fire belongs to the gods.", "skills": ["read.comprehension", "syntax.possession.gen"], "explain": "τῶν θεῶν ἐστιν: genitive of possession with εἰμί, 'is the gods''."},
+    {"type": "word-family", "prompt": "Word Study · Match each Greek word to the English word that comes from it.", "pairs": [{"left": "μῦθος", "right": "mythology"}, {"left": "κλέπτω", "right": "kleptomania"}, {"left": "πῦρ", "right": "pyromaniac"}, {"left": "λύω", "right": "analysis (a loosening-up)"}], "skills": ["vocab.family"], "explain": "μυθο-λογία; κλέπτης 'thief' + μανία; πυρ- 'fire'; ἀνά-λυσις 'undoing'."}
+  ],
+  "questions": [
+    {"type": "answer-grc", "prompt": "τίς μύθους λέγει;", "audio": "prompt", "options": [{"id": "a", "text": "ὁ πάππος."}, {"id": "b", "text": "ὁ Λύσις."}, {"id": "c", "text": "ὁ Λάβρος."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ὁ πάππος ἀεὶ μύθους λέγει."},
+    {"type": "answer-grc", "prompt": "τί κλέπτει ὁ Προμηθεύς;", "audio": "prompt", "options": [{"id": "a", "text": "τὸ πῦρ."}, {"id": "b", "text": "τὸν ἄρτον."}, {"id": "c", "text": "τὸν λίθον."}], "answer": "a", "skills": ["read.comprehension", "read.myth"], "explain": "ὁ Προμηθεὺς τὸ πῦρ κλέπτει."},
+    {"type": "answer-grc", "prompt": "τίς τὸν Προμηθέα λύει;", "audio": "prompt", "options": [{"id": "a", "text": "ὁ Ἡρακλῆς."}, {"id": "b", "text": "ὁ Ζεύς."}, {"id": "c", "text": "ὁ ἀετός."}], "answer": "a", "skills": ["read.comprehension", "read.myth"], "explain": "ὁ Ἡρακλῆς τὸν ἀετὸν διώκει καὶ τὸν Προμηθέα λύει."},
+    {"type": "answer-grc", "prompt": "ἆρα ὁ Ζεὺς τὸν Προμηθέα φιλεῖ;", "audio": "prompt", "options": [{"id": "a", "text": "ναί, φιλεῖ."}, {"id": "b", "text": "οὐ φιλεῖ· τὸ γὰρ πῦρ τῶν θεῶν ἐστιν."}], "answer": "b", "skills": ["read.comprehension", "syntax.question"], "explain": "ὁ Ζεὺς τὸν Προμηθέα οὐ φιλεῖ."},
+    {"type": "answer-grc", "prompt": "τί λέγει ὁ πάππος; «ὦ Λάβρε, …»", "audio": "prompt", "options": [{"id": "a", "text": "τὴν θύραν φύλαττε καὶ μὴ καθεῦδε."}, {"id": "b", "text": "καθεῦδε καὶ μὴ φύλαττε."}, {"id": "c", "text": "λέγε μῦθον."}], "answer": "a", "skills": ["read.comprehension", "syntax.imperative"], "explain": "«σὺ δέ, ὦ Λάβρε, τὴν θύραν φύλαττε καὶ μὴ καθεῦδε.»"}
+  ],
+  "culture": {
+    "title": "Prometheus, fire and the potters",
+    "md": "The oldest telling of the story is Hesiod's, around 700 BC: Prometheus tricks Zeus over the division of a sacrifice, Zeus hides fire from mortals, and Prometheus steals it back in a hollow fennel stalk. Zeus chains him to a rock and sends an eagle to eat his liver, which grows back each night; Heracles shoots the eagle and sets him free. Hesiod adds the sequel in which Zeus punishes humanity with Pandora and her jar, a πίθος, the huge storage vessel that potters like Ariston made. The tragedy *Prometheus Bound*, attributed to Aeschylus, was performed in Athens in the decades before our story. Athenians honoured Prometheus as a god of craft and fire alongside Hephaestus and Athena: his altar stood in the grove of the Academy outside the Dipylon gate, and at his festival, the Prometheia, runners carried torches lit at that altar in a relay through the Kerameikos into the city, straight past the potters' kilns. A kiln fired at 900 degrees or more for hours, and everything could crack or blister at the end; a short poem preserved with the Homeric hymns has a potter praying to Athena to hold her hand over the kiln and cursing the kiln-demons Smasher, Crasher and Shake-to-pieces. Children heard such stories at home long before they met Homer at school; Plato says it was mothers and nurses who told the μῦθοι, and a grandfather who had rowed at Salamis would have had plenty of his own.",
+    "image": "culture-prometheus-kylix"
+  },
+  "quiz": [
+    {"type": "cloze-choice", "prompt": "ὦ Λάβρε, μὴ ___!", "options": [{"id": "a", "text": "τρέχε"}, {"id": "b", "text": "τρέχει"}], "answer": "a", "skills": ["verb.pres.act.imp.2sg", "syntax.imperative"], "explain": "Command to one person: τρέχε."},
+    {"type": "produce-form", "prompt": "Give the command to several people: λέγω → 'speak!'", "lemma": "λέγω", "cell": "present.active.imperative.2pl", "skills": ["verb.pres.act.imp.2pl"], "explain": "λέγετε.", "audio": "λέγετε"},
+    {"type": "produce-form", "prompt": "Give the vocative singular of δοῦλος (ὦ …).", "lemma": "δοῦλος", "cell": "voc.sg", "skills": ["noun.decl2.voc.sg", "noun.voc"], "explain": "ὦ δοῦλε.", "audio": "δοῦλε"},
+    {"type": "parse", "prompt": "Parse μένε.", "form": "μένε", "groups": [{"id": "mood", "label": "What kind of form?", "options": [{"id": "ind", "label": "statement (he stays)"}, {"id": "imp", "label": "command (stay!)"}]}], "answer": {"mood": "imp"}, "skills": ["verb.pres.act.imp.2sg"], "explain": "-ε: stay!", "audio": "μένε"},
+    {"type": "true-false-grc", "prompt": "ὁ Ἡρακλῆς τὸν ἀετὸν διώκει.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension", "read.myth"], "explain": "Yes, and then he frees Prometheus."},
+    {"type": "cloze-choice", "prompt": "ἀκούετε, ὦ παῖδες, καὶ ___ λέγετε.", "options": [{"id": "a", "text": "μή"}, {"id": "b", "text": "οὐ"}], "answer": "a", "skills": ["syntax.imperative", "syntax.negation"], "explain": "Prohibitions take μή."},
+    {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "χαίρετε", "options": [{"id": "a", "text": "χαίρετε"}, {"id": "b", "text": "χαῖρε"}, {"id": "c", "text": "χαίρει"}], "answer": "a", "skills": ["listen.words", "verb.pres.act.imp.2pl"], "explain": "χαίρετε: hello (to several people)."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Listen, Lysis!'", "gaps": [{"answers": ["ἄκουε, ὦ Λύσι", "ὦ Λύσι, ἄκουε"]}], "skills": ["vocab.production", "verb.pres.act.imp.2sg", "noun.voc"], "explain": "ἄκουε, ὦ Λύσι!"}
+  ],
+  "skills": ["verb.pres.act.imp.2sg", "verb.pres.act.imp.2pl", "syntax.imperative", "noun.voc", "noun.decl2.voc.sg", "noun.decl2.acc.pl", "noun.number", "syntax.negation", "syntax.object", "syntax.question", "syntax.possession.gen", "syntax.word-order", "read.myth", "read.comprehension", "read.locate", "listen.words", "listen.sentences", "spell.dictation", "vocab.recognition", "vocab.production", "vocab.family"]
+}

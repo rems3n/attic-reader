@@ -1,0 +1,1414 @@
+{
+  "id": "pol.5",
+  "title_grc": "ὁ ἀδύνατος",
+  "title_en": "The disabled man",
+  "summary_grc": "ἀνὴρ ἀδύνατος ἐν τῇ βουλῇ ἀπολογεῖται· ὁ γὰρ κατήγορός φησιν αὐτὸν οὐ δικαίως τὸ ἀργύριον λαμβάνειν.",
+  "summary_en": "Athens paid disabled citizens with no other income an obol a day, and the Council checked the list each year. An accuser says one of them can ride horses and earn a living. His answer, written by Lysias, lightly cut: an old craftsman, no inheritance, no children, and a trade that no longer feeds him.",
+  "cover": "pol-5-a",
+  "caption_grc": "πρόσοδος δέ μοι οὐκ ἔστιν ἄλλη πλὴν ταύτης.",
+  "original": {
+    "text": "lysias-24.4",
+    "note": "Lysias 24, For the Disabled Man, sections 4–6, lightly cut; the speech was written in the early fourth century (after 403 BC) for a man to deliver himself before the Council (ὦ βουλή). The first two sentences of 24.4 and the end of the sentence on the accuser's second proof (that he keeps company with men who can afford to spend) are left out. The Perseus text prints οἴμαι for οἶμαι; the story corrects it."
+  },
+  "names": {},
+  "allow": {},
+  "story": [
+    {
+      "image": "pol-5-a",
+      "sentences": [
+        {
+          "text": "ἡ πόλις τῶν Ἀθηναίων τοῖς ἀδυνάτοις, οἳ διὰ συμφορὰν τοῦ σώματος ἐργάζεσθαι οὐ δύνανται, ὀβολὸν τῆς ἡμέρας δίδωσιν.",
+          "glosses": [
+            {
+              "word": "συμφορὰν",
+              "kind": "en",
+              "value": "misfortune (ἡ συμφορά)"
+            }
+          ]
+        },
+        {
+          "text": "ἑκάστου δὲ ἔτους ἡ βουλὴ τοὺς ἀδυνάτους δοκιμάζει, καὶ ἔξεστι τῷ βουλομένῳ κατηγορεῖν.",
+          "glosses": [
+            {
+              "word": "δοκιμάζει",
+              "kind": "en",
+              "value": "examines, scrutinizes (δοκιμάζω)"
+            },
+            {
+              "word": "κατηγορεῖν",
+              "kind": "<",
+              "value": "κατά + ἀγορεύω (speak) | κατηγορέω (accuse)"
+            }
+          ]
+        },
+        {
+          "text": "ποτὲ δὲ κατήγορός τις, ὡς ἐκεῖνός φησιν, διὰ φθόνον ἀνδρὶ χωλῷ ἐπεβούλευσεν, ὃς ἵπποις ἐχρῆτο διὰ τὸ ἀσθενὲς σῶμα.",
+          "glosses": [
+            {
+              "word": "κατήγορός",
+              "kind": "<",
+              "value": "κατηγορέω | ὁ κατήγορος (the accuser)"
+            },
+            {
+              "word": "φθόνον",
+              "kind": "en",
+              "value": "envy (ὁ φθόνος)"
+            },
+            {
+              "word": "χωλῷ",
+              "kind": "en",
+              "value": "lame (χωλός)"
+            },
+            {
+              "word": "ἐπεβούλευσεν",
+              "kind": "en",
+              "value": "plotted against (ἐπιβουλεύω + dative)"
+            },
+            {
+              "word": "ἀσθενὲς",
+              "kind": "↔",
+              "value": "ἀσθενής ↔ ἰσχυρός (weak ↔ strong)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ ἀνήρ, ἡγούμενος τὸν κατήγορον ψεύδεσθαι, λόγον παρὰ τοῦ Λυσίου ἔλαβεν καὶ ἐν τῇ βουλῇ οὕτως εἶπεν·",
+          "glosses": [
+            {
+              "word": "ψεύδεσθαι",
+              "kind": "en",
+              "value": "to lie (ψεύδομαι)"
+            },
+            {
+              "word": "Λυσίου",
+              "kind": "note",
+              "value": "Lysias wrote speeches for others to deliver (he was a λογογράφος); the speaker learned it by heart"
+            }
+          ]
+        },
+        {
+          "text": "«φησὶ γὰρ ὁ κατήγορος οὐ δικαίως με λαμβάνειν τὸ παρὰ τῆς πόλεως ἀργύριον·",
+          "orig": [
+            2
+          ],
+          "glosses": [
+            {
+              "word": "φησὶ",
+              "kind": "note",
+              "value": "φησί + accusative and infinitive: 'he says that I …' (indirect statement)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ γὰρ τῷ σώματι δύνασθαι καὶ οὐκ εἶναι τῶν ἀδυνάτων, καὶ τέχνην ἐπίστασθαι τοιαύτην ὥστε καὶ ἄνευ τοῦ διδομένου τούτου ζῆν.",
+          "orig": [
+            3
+          ],
+          "glosses": [
+            {
+              "word": "δύνασθαι",
+              "kind": "note",
+              "value": "still reported speech: (he says that I) am able in body and am not one of the disabled"
+            },
+            {
+              "word": "ἄνευ",
+              "kind": "en",
+              "value": "without (+ genitive)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "pol-5-b",
+      "sentences": [
+        {
+          "text": "καὶ τεκμηρίοις χρῆται τῆς μὲν τοῦ σώματος ῥώμης, ὅτι ἐπὶ τοὺς ἵππους ἀναβαίνω, τῆς δ’ ἐν τῇ τέχνῃ εὐπορίας.",
+          "orig": [
+            4
+          ],
+          "glosses": [
+            {
+              "word": "τεκμηρίοις",
+              "kind": "en",
+              "value": "proofs, evidence (τὸ τεκμήριον)"
+            },
+            {
+              "word": "ῥώμης",
+              "kind": "en",
+              "value": "strength (ἡ ῥώμη)"
+            },
+            {
+              "word": "εὐπορίας",
+              "kind": "<",
+              "value": "εὖ + πόρος (way, means) | ἡ εὐπορία (plenty, good income)"
+            }
+          ]
+        },
+        {
+          "text": "τὴν μὲν οὖν ἐκ τῆς τέχνης εὐπορίαν καὶ τὸν ἄλλον τὸν ἐμὸν βίον, οἷος τυγχάνει, πάντας ὑμᾶς οἶμαι γιγνώσκειν·",
+          "orig": [
+            5
+          ],
+          "glosses": [
+            {
+              "word": "οἷος",
+              "kind": "note",
+              "value": "οἷος τυγχάνει: 'what sort it is', what my life is really like"
+            },
+            {
+              "word": "οἶμαι",
+              "kind": "=",
+              "value": "οἴομαι (I think), the usual short form"
+            },
+            {
+              "word": "γιγνώσκειν",
+              "kind": "note",
+              "value": "οἶμαι + infinitive: 'I think that you all know'"
+            }
+          ]
+        },
+        {
+          "text": "ὅμως δὲ κἀγὼ διὰ βραχέων ἐρῶ.",
+          "orig": [
+            6
+          ],
+          "glosses": [
+            {
+              "word": "κἀγὼ",
+              "kind": "=",
+              "value": "καὶ ἐγώ (crasis)"
+            },
+            {
+              "word": "βραχέων",
+              "kind": "note",
+              "value": "διὰ βραχέων: in few words, briefly"
+            }
+          ]
+        },
+        {
+          "text": "ἐμοὶ γὰρ ὁ μὲν πατὴρ κατέλιπεν οὐδέν, τὴν δὲ μητέρα τελευτήσασαν πέπαυμαι τρέφων τρίτον ἔτος τουτί, παῖδες δέ μοι οὔπω εἰσὶν οἵ με θεραπεύσουσι.",
+          "orig": [
+            7
+          ],
+          "glosses": [
+            {
+              "word": "κατέλιπεν",
+              "kind": "<",
+              "value": "κατά + λείπω | κατέλιπε(ν) (left behind: as an inheritance)"
+            },
+            {
+              "word": "πέπαυμαι",
+              "kind": "|",
+              "value": "παύομαι + participle (stop doing) | πέπαυμαι τρέφων (I have stopped keeping her)"
+            },
+            {
+              "word": "τουτί",
+              "kind": "=",
+              "value": "τοῦτο (with -ί, 'this here'): τρίτον ἔτος τουτί 'two years ago now, this is the third year'"
+            },
+            {
+              "word": "οὔπω",
+              "kind": "en",
+              "value": "not yet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "pol-5-c",
+      "sentences": [
+        {
+          "text": "τέχνην δὲ κέκτημαι βραχέα δυναμένην ὠφελεῖν, ἣν αὐτὸς μὲν ἤδη χαλεπῶς ἐργάζομαι, τὸν διαδεξόμενον δ’ αὐτὴν οὔπω δύναμαι κτήσασθαι.",
+          "orig": [
+            8
+          ],
+          "glosses": [
+            {
+              "word": "κέκτημαι",
+              "kind": "|",
+              "value": "κτάομαι (acquire) | κέκτημαι (perfect: I have acquired, I possess)"
+            },
+            {
+              "word": "ὠφελεῖν",
+              "kind": "en",
+              "value": "to help, to be of use (ὠφελέω)"
+            },
+            {
+              "word": "διαδεξόμενον",
+              "kind": "note",
+              "value": "τὸν διαδεξόμενον αὐτήν: someone to take it over from me (future participle of διαδέχομαι): an apprentice or slave"
+            }
+          ]
+        },
+        {
+          "text": "πρόσοδος δέ μοι οὐκ ἔστιν ἄλλη πλὴν ταύτης, ἣν ἂν ἀφέλησθέ με, κινδυνεύσαιμ’ ἂν ὑπὸ τῇ δυσχερεστάτῃ γενέσθαι τύχῃ.»",
+          "orig": [
+            9
+          ],
+          "glosses": [
+            {
+              "word": "πρόσοδος",
+              "kind": "<",
+              "value": "πρός + ὁδός | ἡ πρόσοδος (income, what comes in)"
+            },
+            {
+              "word": "ἀφέλησθέ",
+              "kind": "|",
+              "value": "ἀφαιρέομαι (take away from) | ἀφέλησθε (aorist subjunctive: you take away)"
+            },
+            {
+              "word": "κινδυνεύσαιμ’",
+              "kind": "|",
+              "value": "κινδυνεύω (run a risk) | κινδυνεύσαιμι ἄν (I would risk)"
+            },
+            {
+              "word": "δυσχερεστάτῃ",
+              "kind": "en",
+              "value": "most wretched (superlative of δυσχερής)"
+            }
+          ]
+        },
+        {
+          "text": "τί ἡ βουλὴ ἐψηφίσατο οὐκ ἴσμεν· ὁ δὲ λόγος ἔτι καὶ νῦν σῴζεται.",
+          "glosses": [
+            {
+              "word": "ἐψηφίσατο",
+              "kind": "<",
+              "value": "ψῆφος | ψηφίζομαι (vote) | ἐψηφίσατο (aorist)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "κατηγορος",
+      "gloss_grc": "ὁ κατήγορος < κατηγορέω"
+    },
+    {
+      "id": "κατηγορεω",
+      "gloss_grc": "κατηγορέω + gen. of the person: accuse"
+    },
+    {
+      "id": "τεκμηριον",
+      "gloss_grc": "τὸ τεκμήριον: proof · τεκμηρίῳ χρῆσθαι"
+    },
+    {
+      "id": "ευπορια",
+      "gloss_grc": "ἡ εὐπορία ↔ ἡ ἀπορία"
+    },
+    {
+      "id": "ασθενης",
+      "gloss_grc": "ἀσθενής, -ές ↔ ἰσχυρός"
+    },
+    {
+      "id": "προσοδος",
+      "gloss_grc": "ἡ πρόσοδος < πρός + ὁδός: income"
+    },
+    {
+      "id": "ωφελεω",
+      "gloss_grc": "ὠφελέω + acc.: help, benefit"
+    },
+    {
+      "id": "ψευδομαι",
+      "gloss_grc": "ψεύδομαι: lie · ὁ κατήγορος ψεύδεται"
+    },
+    {
+      "id": "φθονος",
+      "gloss_grc": "ὁ φθόνος: envy"
+    },
+    {
+      "id": "ρωμη",
+      "gloss_grc": "ἡ ῥώμη ↔ ἡ ἀσθένεια"
+    },
+    {
+      "id": "συμφορα",
+      "gloss_grc": "ἡ συμφορά: misfortune"
+    },
+    {
+      "id": "κταομαι",
+      "gloss_grc": "κτάομαι · ἐκτησάμην · κέκτημαι (I possess)"
+    },
+    {
+      "id": "ανευ",
+      "gloss_grc": "ἄνευ + gen.: without"
+    }
+  ],
+  "notice": [
+    "φησὶ γὰρ ὁ κατήγορος οὐ δικαίως με λαμβάνειν τὸ παρὰ τῆς πόλεως ἀργύριον",
+    "τῆς μὲν τοῦ σώματος ῥώμης … τῆς δ’ ἐν τῇ τέχνῃ εὐπορίας",
+    "τὴν δὲ μητέρα τελευτήσασαν πέπαυμαι τρέφων",
+    "παῖδες δέ μοι οὔπω εἰσὶν οἵ με θεραπεύσουσι",
+    "ἣν ἂν ἀφέλησθέ με, κινδυνεύσαιμ’ ἂν …"
+  ],
+  "grammar": {
+    "md": "**Reading Lysias: the plain style.** Lysias wrote for ordinary Athenians, and he made them sound ordinary: short words, clear order, no showing off. But each sentence is carefully built. Watch for three things.\n\n**1. The charge in reported speech.** A defendant first states the accusation, in the accusative and infinitive after φησί: φησὶ γὰρ ὁ κατήγορος οὐ δικαίως **με λαμβάνειν** … καὶ … **δύνασθαι** καὶ οὐκ **εἶναι** … καὶ … **ἐπίστασθαι**. Every infinitive hangs on the one φησί, even across a full stop in our text. Then he answers in the first person indicative: ἐμοὶ γὰρ ὁ μὲν πατὴρ κατέλιπεν οὐδέν …\n\n**2. μέν … δέ in balance.** τῆς **μὲν** τοῦ σώματος ῥώμης …, τῆς **δ’** ἐν τῇ τέχνῃ εὐπορίας; ὁ **μὲν** πατὴρ …, τὴν **δὲ** μητέρα …, παῖδες **δὲ** …; ἣν αὐτὸς **μὲν** …, τὸν διαδεξόμενον **δ’** …. Lysias lays out his life in pairs so that the Council can follow without effort.\n\n**3. The softened threat.** ἣν ἂν ἀφέλησθέ με, κινδυνεύσαιμ’ ἂν … 'which (income) if you take from me, I would risk …'. A relative + ἄν + subjunctive stands for ἐάν (future more vivid); the main verb is a **potential optative** with ἄν (Unit 10), more modest than the future κινδυνεύσω.\n\n**Also:** the **dative of possession** (παῖδες δέ μοι οὔπω εἰσίν 'I have no children yet'; πρόσοδος δέ μοι οὐκ ἔστιν 'I have no income'); παύομαι + participle 'stop doing'; a relative with the future indicative for purpose (οἵ με θεραπεύσουσι 'who will look after me'); crasis κἀγώ = καὶ ἐγώ.",
+    "paradigms": [
+      "phemi",
+      "alethes"
+    ],
+    "diagram": "diagram-conditions"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings.",
+      "template": "ὁ κατήγορ___ διὰ φθόν___ ἐπεβούλευσεν. τεκμηρίοις χρῆται τῆς εὐπορί___. πρόσοδ___ δέ μοι οὐκ ἔστιν ἄλλη.",
+      "gaps": [
+        {
+          "answers": [
+            "ος"
+          ]
+        },
+        {
+          "answers": [
+            "ον"
+          ]
+        },
+        {
+          "answers": [
+            "ας"
+          ]
+        },
+        {
+          "answers": [
+            "ος"
+          ]
+        }
+      ],
+      "skills": [
+        "noun.decl2.nom.sg",
+        "noun.decl2.acc.sg",
+        "noun.decl1.gen.sg",
+        "noun.gender"
+      ],
+      "explain": "ὁ κατήγορος (nom.), διὰ φθόνον (διά + acc. 'because of'), τῆς εὐπορίας (gen. after τεκμηρίοις), ἡ πρόσοδος (feminine, but -ος like ἡ ὁδός)."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · φησὶ γὰρ ὁ κατήγορος οὐ δικαίως με ___ τὸ παρὰ τῆς πόλεως ἀργύριον.",
+      "options": [
+        {
+          "id": "a",
+          "text": "λαμβάνειν"
+        },
+        {
+          "id": "b",
+          "text": "λαμβάνω"
+        },
+        {
+          "id": "c",
+          "text": "λαμβάνων"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.indirect-inf",
+        "verb.phemi"
+      ],
+      "explain": "φημί takes the accusative and infinitive: 'he says that I am not justly receiving'.",
+      "audio": "φησὶ γὰρ ὁ κατήγορος οὐ δικαίως με λαμβάνειν τὸ παρὰ τῆς πόλεως ἀργύριον."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · πρόσοδος δέ μοι οὐκ ἔστιν ἄλλη, ἣν ἂν ἀφέλησθέ με, κινδυνεύσαιμ’ ___ ὑπὸ τῇ δυσχερεστάτῃ γενέσθαι τύχῃ.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἂν"
+        },
+        {
+          "id": "b",
+          "text": "μὴ"
+        },
+        {
+          "id": "c",
+          "text": "ὅτι"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-potential",
+        "syntax.cond.fl"
+      ],
+      "explain": "κινδυνεύσαιμι ἄν: optative with ἄν, 'I would risk'. A mixed condition: 'if you take it away (ἄν + subjunctive), I would run the risk …'.",
+      "audio": "κινδυνεύσαιμ’ ἂν ὑπὸ τῇ δυσχερεστάτῃ γενέσθαι τύχῃ."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · τὴν μητέρα τελευτήσασαν πέπαυμαι ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "τρέφων"
+        },
+        {
+          "id": "b",
+          "text": "τρέφειν"
+        },
+        {
+          "id": "c",
+          "text": "τρέφω"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.ptc-supp",
+        "verb.ptc.pres.act"
+      ],
+      "explain": "παύομαι + participle: 'I have stopped feeding (her)', because she has died.",
+      "audio": "τὴν μητέρα τελευτήσασαν πέπαυμαι τρέφων."
+    },
+    {
+      "type": "pick-picture",
+      "prompt": "ὁ ὀβολός",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "image": "obolos"
+        },
+        {
+          "id": "b",
+          "image": "ostrakon"
+        },
+        {
+          "id": "c",
+          "image": "psephos"
+        },
+        {
+          "id": "d",
+          "image": "pol-pinakion"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition"
+      ],
+      "explain": "ὁ ὀβολός: a tiny silver coin, a sixth of a drachma: the disabled man's daily allowance."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ κατήγορος"
+        },
+        {
+          "id": "b",
+          "text": "ὁ κατάλογος"
+        },
+        {
+          "id": "c",
+          "text": "ὁ στρατηγός"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.pol"
+      ],
+      "explain": "ὁ κατήγορος: the accuser.",
+      "audio": "ὁ κατήγορος"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the dative plural of τεκμήριον: 'he uses as proofs'.",
+      "lemma": "τεκμήριον",
+      "cell": "dat.pl",
+      "skills": [
+        "noun.decl2.dat.pl",
+        "vocab.pol"
+      ],
+      "explain": "τεκμηρίοις: χράομαι takes the dative.",
+      "audio": "τεκμηρίοις"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the present infinitive of ὠφελέω.",
+      "lemma": "ὠφελέω",
+      "cell": "present.active.infinitive.inf",
+      "skills": [
+        "verb.contract.e",
+        "verb.pres.act.inf"
+      ],
+      "explain": "ὠφελεῖν: ε + ειν → εῖν.",
+      "audio": "ὠφελεῖν"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the genitive singular of ἀσθενής (masculine).",
+      "lemma": "ἀσθενής",
+      "cell": "gen.sg.mf",
+      "skills": [
+        "adj.decl3.es",
+        "vocab.pol"
+      ],
+      "explain": "ἀσθενοῦς: an -εσ- stem (ἀσθενεσ-ος → ἀσθενοῦς), like ἀληθής.",
+      "audio": "ἀσθενοῦς"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse τελευτήσασαν.",
+      "form": "τελευτήσασαν",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            },
+            {
+              "id": "voc",
+              "label": "vocative"
+            }
+          ]
+        },
+        {
+          "id": "gender",
+          "label": "Gender",
+          "options": [
+            {
+              "id": "m",
+              "label": "masculine"
+            },
+            {
+              "id": "f",
+              "label": "feminine"
+            },
+            {
+              "id": "n",
+              "label": "neuter"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "mood": "ptc",
+        "case": "acc",
+        "gender": "f"
+      },
+      "skills": [
+        "verb.ptc.aor.act.acc",
+        "verb.ptc.aor.act"
+      ],
+      "explain": "τελευτήσ-ασαν: aorist participle, accusative feminine singular, agreeing with τὴν μητέρα: 'my mother, who has died'.",
+      "audio": "τελευτήσασαν"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse κέκτημαι.",
+      "form": "κέκτημαι",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "perf",
+        "person": "1sg"
+      },
+      "skills": [
+        "verb.perf.mp.ind.1sg",
+        "verb.perf.reduplication"
+      ],
+      "explain": "κέ-κτη-μαι: perfect middle of κτάομαι, 'I have acquired', i.e. 'I own'.",
+      "audio": "κέκτημαι"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "φησὶ … καὶ τῷ σώματι δύνασθαι καὶ οὐκ εἶναι τῶν ἀδυνάτων. Whose claim is this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "the accuser's, reported by the speaker"
+        },
+        {
+          "id": "b",
+          "text": "the speaker's own"
+        },
+        {
+          "id": "c",
+          "text": "the Council's"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.indirect-inf",
+        "read.pol.oratory"
+      ],
+      "explain": "Every infinitive in this sentence still depends on φησί: the speaker is reporting the charge before he answers it."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "τέχνην ἐπίστασθαι τοιαύτην ὥστε καὶ ἄνευ τοῦ διδομένου τούτου ζῆν. ὥστε + infinitive expresses ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "result: 'such as to live even without this allowance'"
+        },
+        {
+          "id": "b",
+          "text": "purpose"
+        },
+        {
+          "id": "c",
+          "text": "time"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.result"
+      ],
+      "explain": "τοιαύτην … ὥστε: 'such a craft that (he could) live without it' (Unit 10)."
+    },
+    {
+      "type": "label",
+      "prompt": "ἣν ἂν ἀφέλησθέ με, κινδυνεύσαιμ’ ἂν … What kind of condition is this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "mixed: 'if you take it (ἄν + subj.), I would risk (opt. + ἄν)'"
+        },
+        {
+          "id": "b",
+          "text": "past contrary to fact"
+        },
+        {
+          "id": "c",
+          "text": "simple present"
+        },
+        {
+          "id": "d",
+          "text": "a wish"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.cond.fl",
+        "syntax.cond.fmv",
+        "read.pol.oratory"
+      ],
+      "explain": "The relative ἣν ἄν works like ἐὰν ταύτην: a future more vivid protasis; the apodosis softens it with the potential optative. Lysias makes the threat sound polite."
+    },
+    {
+      "type": "label",
+      "prompt": "τῆς μὲν τοῦ σώματος ῥώμης … τῆς δ’ ἐν τῇ τέχνῃ εὐπορίας. What do μέν … δέ do here?",
+      "options": [
+        {
+          "id": "a",
+          "text": "set the two proofs side by side: strength of body and income from his craft"
+        },
+        {
+          "id": "b",
+          "text": "contrast the speaker with the accuser"
+        },
+        {
+          "id": "c",
+          "text": "mark a change of speaker"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.men-de",
+        "read.pol.oratory"
+      ],
+      "explain": "Lysias arranges the charge in two balanced halves, which he will answer one by one."
+    },
+    {
+      "type": "transform",
+      "prompt": "Put the charge in direct speech: φησὶ … οὐ δικαίως με λαμβάνειν τὸ ἀργύριον. → «οὐ δικαίως ___ τὸ ἀργύριον.»",
+      "template": "«οὐ δικαίως ___ τὸ ἀργύριον.»",
+      "gaps": [
+        {
+          "answers": [
+            "λαμβάνει"
+          ]
+        }
+      ],
+      "skills": [
+        "syntax.indirect-inf",
+        "verb.pres.act.ind.3sg"
+      ],
+      "explain": "The accuser said: «οὐ δικαίως λαμβάνει τὸ ἀργύριον» 'he is not justly receiving the money'."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the three infinitives that report the accuser's claim.",
+      "sentence": "καὶ γὰρ τῷ σώματι δύνασθαι καὶ οὐκ εἶναι τῶν ἀδυνάτων, καὶ τέχνην ἐπίστασθαι τοιαύτην ὥστε καὶ ἄνευ τοῦ διδομένου τούτου ζῆν.",
+      "answer": [
+        4,
+        7,
+        12
+      ],
+      "skills": [
+        "read.locate",
+        "syntax.indirect-inf"
+      ],
+      "explain": "δύνασθαι, εἶναι, ἐπίστασθαι all depend on φησί (in the sentence before). ζῆν belongs to the ὥστε clause."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the verb in the future tense.",
+      "sentence": "ἐμοὶ γὰρ ὁ μὲν πατὴρ κατέλιπεν οὐδέν, τὴν δὲ μητέρα τελευτήσασαν πέπαυμαι τρέφων τρίτον ἔτος τουτί, παῖδες δέ μοι οὔπω εἰσὶν οἵ με θεραπεύσουσι.",
+      "answer": [
+        23
+      ],
+      "skills": [
+        "read.locate",
+        "verb.fut.act.ind.3pl"
+      ],
+      "explain": "θεραπεύσουσι: future indicative, 3rd plural, in a relative clause of purpose: 'children who will look after me'."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'The accuser is lying.'",
+      "tokens": [
+        "ὁ",
+        "κατήγορος",
+        "ψεύδεται"
+      ],
+      "answers": [
+        "ὁ κατήγορος ψεύδεται",
+        "ψεύδεται ὁ κατήγορος"
+      ],
+      "skills": [
+        "syntax.word-order",
+        "verb.deponent"
+      ],
+      "explain": "ψεύδεται: 'lies', middle in form."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὅμως δὲ κἀγὼ διὰ βραχέων ἐρῶ."
+        },
+        {
+          "id": "b",
+          "text": "ὅμως δὲ καὶ σὺ διὰ βραχέων ἐρεῖς."
+        },
+        {
+          "id": "c",
+          "text": "ὅμως δὲ ἐγὼ πολλὰ ἐρῶ."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences",
+        "spell.crasis"
+      ],
+      "explain": "κἀγώ = καὶ ἐγώ: 'all the same, I too will speak briefly'.",
+      "audio": "ὅμως δὲ κἀγὼ διὰ βραχέων ἐρῶ."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ πατὴρ τῷ ἀνδρὶ πολλὰ χρήματα κατέλιπεν.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ὁ μὲν πατὴρ κατέλιπεν οὐδέν."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ ἀνὴρ ἔτι τὴν μητέρα τρέφει.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "τὴν μητέρα τελευτήσασαν πέπαυμαι τρέφων: she died two years ago."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ κατήγορος λέγει ὅτι ὁ ἀνὴρ ἐπὶ τοὺς ἵππους ἀναβαίνει.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension",
+        "read.pol.oratory"
+      ],
+      "explain": "τεκμηρίοις χρῆται … ὅτι ἐπὶ τοὺς ἵππους ἀναβαίνω."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "gaps": [
+        {
+          "answers": [
+            "παῖδες δέ μοι οὔπω εἰσίν"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "παῖδες δέ μοι οὔπω εἰσίν: 'I have no children yet' (dative of possession).",
+      "audio": "παῖδες δέ μοι οὔπω εἰσίν."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'I have no other income.' (use the dative of possession)",
+      "gaps": [
+        {
+          "answers": [
+            "πρόσοδος δέ μοι οὐκ ἔστιν ἄλλη",
+            "πρόσοδός μοι οὐκ ἔστιν ἄλλη",
+            "ἄλλη πρόσοδός μοι οὐκ ἔστιν",
+            "οὐκ ἔστι μοι ἄλλη πρόσοδος",
+            "ἄλλη δέ μοι πρόσοδος οὐκ ἔστιν",
+            "οὐκ ἔστι μοι πρόσοδος ἄλλη"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "syntax.dat.uses"
+      ],
+      "explain": "The dative of possession: πρόσοδός μοί ἐστιν 'I have an income'."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: τέχνην δὲ κέκτημαι βραχέα δυναμένην ὠφελεῖν, ἣν αὐτὸς μὲν ἤδη χαλεπῶς ἐργάζομαι, τὸν διαδεξόμενον δ’ αὐτὴν οὔπω δύναμαι κτήσασθαι.",
+      "audio": "τέχνην δὲ κέκτημαι βραχέα δυναμένην ὠφελεῖν, ἣν αὐτὸς μὲν ἤδη χαλεπῶς ἐργάζομαι, τὸν διαδεξόμενον δ’ αὐτὴν οὔπω δύναμαι κτήσασθαι.",
+      "model": "I own a craft that can help me only a little, which I now work at with difficulty myself, and I cannot yet acquire someone to take it over.",
+      "skills": [
+        "read.pol.oratory",
+        "read.lysias",
+        "read.adapted-text"
+      ],
+      "explain": "κέκτημαι 'I have acquired, possess'; βραχέα 'in small ways'; ἣν … μέν … τὸν διαδεξόμενον δέ: two halves of the relative clause."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: πρόσοδος δέ μοι οὐκ ἔστιν ἄλλη πλὴν ταύτης, ἣν ἂν ἀφέλησθέ με, κινδυνεύσαιμ’ ἂν ὑπὸ τῇ δυσχερεστάτῃ γενέσθαι τύχῃ.",
+      "audio": "πρόσοδος δέ μοι οὐκ ἔστιν ἄλλη πλὴν ταύτης, ἣν ἂν ἀφέλησθέ με, κινδυνεύσαιμ’ ἂν ὑπὸ τῇ δυσχερεστάτῃ γενέσθαι τύχῃ.",
+      "model": "I have no income other than this; if you take it away from me, I would risk falling into the most wretched fortune.",
+      "skills": [
+        "read.pol.oratory",
+        "syntax.cond.fl"
+      ],
+      "explain": "ἣν ἂν ἀφέλησθε 'which if you take away' (= ἐὰν ταύτην ἀφέλησθε); κινδυνεύσαιμι ἄν 'I would run the risk'."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "ὁ κατήγορος (κατηγορέω)",
+          "right": "category"
+        },
+        {
+          "left": "ἀσθενής",
+          "right": "asthenia (weakness)"
+        },
+        {
+          "left": "ἡ τέχνη",
+          "right": "technical"
+        },
+        {
+          "left": "ψεύδομαι",
+          "right": "pseudonym"
+        },
+        {
+          "left": "ἡ συμφορά",
+          "right": "(σύν + φέρω) 'what is brought together': an event"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "κατηγορία 'accusation' became Aristotle's word for a 'predication', a category."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "τί φησιν ὁ κατήγορος;",
+      "options": [
+        {
+          "id": "a",
+          "text": "οὐ δικαίως τὸν ἄνδρα τὸ ἀργύριον λαμβάνειν."
+        },
+        {
+          "id": "b",
+          "text": "τὸν ἄνδρα πλουσιώτατον εἶναι."
+        },
+        {
+          "id": "c",
+          "text": "τὸν ἄνδρα ξένον εἶναι."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "φησὶ … οὐ δικαίως με λαμβάνειν τὸ παρὰ τῆς πόλεως ἀργύριον.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίσι τεκμηρίοις χρῆται ὁ κατήγορος;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὅτι ἐπὶ τοὺς ἵππους ἀναβαίνει καὶ τέχνην ἔχει."
+        },
+        {
+          "id": "b",
+          "text": "ὅτι μάρτυρες αὐτὸν εἶδον τρέχοντα."
+        },
+        {
+          "id": "c",
+          "text": "ὅτι πολλοὺς δούλους κέκτηται."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "read.pol.oratory"
+      ],
+      "explain": "τεκμηρίοις χρῆται … ὅτι ἐπὶ τοὺς ἵππους ἀναβαίνω, τῆς δ’ ἐν τῇ τέχνῃ εὐπορίας.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "διὰ τί ὁ ἀνὴρ οὐκ ἔχει ὅστις αὐτὸν θεραπεύσει;",
+      "options": [
+        {
+          "id": "a",
+          "text": "παῖδες αὐτῷ οὔπω εἰσίν."
+        },
+        {
+          "id": "b",
+          "text": "οἱ παῖδες αὐτοῦ ἐν ἄλλῃ πόλει οἰκοῦσιν."
+        },
+        {
+          "id": "c",
+          "text": "πλούσιός ἐστιν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "παῖδες δέ μοι οὔπω εἰσὶν οἵ με θεραπεύσουσι.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί πάσχοι ἂν ὁ ἀνήρ, εἰ ἡ βουλὴ τὸ ἀργύριον ἀφέλοιτο;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὑπὸ τῇ δυσχερεστάτῃ τύχῃ γένοιτο ἄν."
+        },
+        {
+          "id": "b",
+          "text": "πλουσιώτερος γένοιτο ἄν."
+        },
+        {
+          "id": "c",
+          "text": "εἰς ἄλλην πόλιν φεύγοι ἄν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "syntax.opt-potential"
+      ],
+      "explain": "κινδυνεύσαιμ’ ἂν ὑπὸ τῇ δυσχερεστάτῃ γενέσθαι τύχῃ.",
+      "audio": "prompt"
+    }
+  ],
+  "culture": {
+    "title": "Welfare in Athens",
+    "md": "Athens had no hospitals and no pensions in our sense, but it did support some citizens who could not support themselves. War orphans were brought up at public expense until they came of age and then presented with a hoplite's armour in the theatre. And, as Aristotle records (*Constitution of the Athenians* 49.4), a citizen who owned less than three minas and was disabled in body so that he could not work was entitled to a public allowance, one obol a day in Lysias' time and two in Aristotle's. Each year the **Council** examined the list (δοκιμασία), and any citizen could object that a man did not qualify.\n\nThat is the setting of Lysias 24. The speaker is a craftsman, lame, who rides borrowed horses because he cannot walk far, and who has a small shop where men meet and talk. The accuser, he says, is acting from envy. Most of the speech is comic: he pretends that if he is fit enough to lose his obol, he is fit enough to be chosen by lot as one of the nine archons. Whether he won, we do not know. The speech is our best evidence for the life of a poor disabled man in classical Athens (the picture shows an Athenian grave relief of a man leaning on his staff), and it was written by the most admired speechwriter of the day, himself a metic who had lost almost everything under the Thirty.",
+    "image": "pol-stele-man-staff"
+  },
+  "quiz": [
+    {
+      "type": "produce-form",
+      "prompt": "Give the accusative singular of πρόσοδος.",
+      "lemma": "πρόσοδος",
+      "cell": "acc.sg",
+      "skills": [
+        "noun.decl2.acc.sg",
+        "noun.gender"
+      ],
+      "explain": "τὴν πρόσοδον: feminine, but declined like λόγος.",
+      "audio": "τὴν πρόσοδον"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἐμοὶ ὁ πατὴρ κατέλιπεν ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "οὐδέν"
+        },
+        {
+          "id": "b",
+          "text": "οὐδείς"
+        },
+        {
+          "id": "c",
+          "text": "μηδένα"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "pron.indefinite",
+        "syntax.negation"
+      ],
+      "explain": "οὐδέν 'nothing' (neuter object)."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἡ εὐπορία"
+        },
+        {
+          "id": "b",
+          "text": "ἡ ἀπορία"
+        },
+        {
+          "id": "c",
+          "text": "ἡ ἐμπορία"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.pol"
+      ],
+      "explain": "ἡ εὐπορία: ease, plenty (↔ ἀπορία 'lack, perplexity').",
+      "audio": "ἡ εὐπορία"
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ ἀνὴρ ἄλλην πρόσοδον ἔχει.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "πρόσοδος δέ μοι οὐκ ἔστιν ἄλλη πλὴν ταύτης."
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἀφέλησθε.",
+      "form": "ἀφέλησθε",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "mood": "subj",
+        "person": "2pl"
+      },
+      "skills": [
+        "syntax.cond.fmv",
+        "verb.aor.mid.subj.3sg"
+      ],
+      "explain": "ἀφ-έλ-ησθε: aorist middle subjunctive, 2nd plural (ἀφαιρέομαι), after ἄν: 'if you take away'.",
+      "audio": "ἀφέλησθε"
+    },
+    {
+      "type": "match",
+      "prompt": "Match the Greek to the English.",
+      "pairs": [
+        {
+          "left": "ὁ κατήγορος",
+          "right": "accuser"
+        },
+        {
+          "left": "τὸ τεκμήριον",
+          "right": "proof"
+        },
+        {
+          "left": "ἡ πρόσοδος",
+          "right": "income"
+        },
+        {
+          "left": "ἀσθενής",
+          "right": "weak"
+        },
+        {
+          "left": "ἡ ῥώμη",
+          "right": "strength"
+        }
+      ],
+      "skills": [
+        "vocab.recognition",
+        "vocab.pol"
+      ],
+      "explain": "κατήγορος, τεκμήριον, πρόσοδος, ἀσθενής, ῥώμη."
+    }
+  ],
+  "skills": [
+    "read.adapted-text",
+    "read.lysias",
+    "read.pol.oratory",
+    "read.comprehension",
+    "read.locate",
+    "syntax.indirect-inf",
+    "syntax.opt-potential",
+    "syntax.cond.fl",
+    "syntax.cond.fmv",
+    "syntax.result",
+    "syntax.ptc-supp",
+    "syntax.men-de",
+    "syntax.word-order",
+    "syntax.dat.uses",
+    "syntax.negation",
+    "noun.decl2.nom.sg",
+    "noun.decl2.acc.sg",
+    "noun.decl1.gen.sg",
+    "noun.gender",
+    "noun.decl2.dat.pl",
+    "adj.decl3.es",
+    "pron.indefinite",
+    "verb.phemi",
+    "verb.ptc.pres.act",
+    "verb.contract.e",
+    "verb.pres.act.inf",
+    "verb.ptc.aor.act.acc",
+    "verb.ptc.aor.act",
+    "verb.perf.mp.ind.1sg",
+    "verb.perf.reduplication",
+    "verb.pres.act.ind.3sg",
+    "verb.fut.act.ind.3pl",
+    "verb.deponent",
+    "verb.aor.mid.subj.3sg",
+    "listen.words",
+    "listen.sentences",
+    "spell.dictation",
+    "spell.crasis",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.family",
+    "vocab.pol"
+  ]
+}

@@ -1,0 +1,1496 @@
+[
+ {
+  "lemma": "φυλή",
+  "headword": "φυλή, φυλῆς, ἡ",
+  "definition": "tribe; one of the ten tribes of Cleisthenes' Athens",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "φυλῆς",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "tribe",
+  "cognates": {
+   "derivatives": [
+    "phylum",
+    "phylogeny"
+   ]
+  }
+ },
+ {
+  "lemma": "δημότης",
+  "headword": "δημότης, δημότου, ὁ",
+  "definition": "demesman, member of a deme",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "δημότου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "demesman",
+  "cognates": {
+   "cognates": [
+    "δῆμος"
+   ]
+  }
+ },
+ {
+  "lemma": "μετέχω",
+  "headword": "μετέχω, μεθέξω, μετέσχον, μετέσχηκα",
+  "definition": "have a share in, take part in (+ genitive)",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "μετέχω"
+    ],
+    "future": [
+     "μεθέξω"
+    ],
+    "aorist": [
+     "μετέσχον"
+    ],
+    "perfect": [
+     "μετέσχηκα"
+    ]
+   },
+   "extra": {
+    "imperfect": [
+     "μετεῖχον"
+    ]
+   },
+   "raw": [
+    "μετέχω",
+    "μεθέξω",
+    "μετέσχον",
+    "μετέσχηκα"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "share in",
+  "notes": "μετά + ἔχω; aorist μετέσχον like ἔσχον. μετέχειν τῆς πολιτείας: to have a share in the constitution, to be a full citizen."
+ },
+ {
+  "lemma": "διανέμω",
+  "headword": "διανέμω, διανεμῶ, διένειμα, διανενέμηκα, διανενέμημαι, διενεμήθην",
+  "definition": "distribute, divide up",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "διανέμω"
+    ],
+    "future": [
+     "διανεμῶ"
+    ],
+    "aorist": [
+     "διένειμα"
+    ],
+    "perfect": [
+     "διανενέμηκα"
+    ],
+    "perfect-mp": [
+     "διανενέμημαι"
+    ],
+    "aorist-passive": [
+     "διενεμήθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "διανέμω",
+    "διανεμῶ",
+    "διένειμα",
+    "διανενέμηκα",
+    "διανενέμημαι",
+    "διενεμήθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "distribute",
+  "notes": "διά + νέμω; liquid future διανεμῶ, aorist διένειμα."
+ },
+ {
+  "lemma": "κληρόω",
+  "headword": "κληρόω, κληρώσω, ἐκλήρωσα, κεκλήρωκα, κεκλήρωμαι, ἐκληρώθην",
+  "definition": "choose by lot, assign by lot; middle: draw lots, be chosen by lot",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: contracted",
+  "morph": {
+   "parts": {
+    "present": [
+     "κληρόω"
+    ],
+    "future": [
+     "κληρώσω"
+    ],
+    "aorist": [
+     "ἐκλήρωσα"
+    ],
+    "perfect": [
+     "κεκλήρωκα"
+    ],
+    "perfect-mp": [
+     "κεκλήρωμαι"
+    ],
+    "aorist-passive": [
+     "ἐκληρώθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "κληρόω",
+    "κληρώσω",
+    "ἐκλήρωσα",
+    "κεκλήρωκα",
+    "κεκλήρωμαι",
+    "ἐκληρώθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "choose by lot",
+  "cognates": {
+   "derivatives": [
+    "cleric, clergy (ὁ κλῆρος 'lot, share')"
+   ]
+  }
+ },
+ {
+  "lemma": "τύραννος",
+  "headword": "τύραννος, τυράννου, ὁ",
+  "definition": "tyrant, sole ruler (who took power unconstitutionally)",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "τυράννου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "tyrant",
+  "cognates": {
+   "derivatives": [
+    "tyrant"
+   ]
+  }
+ },
+ {
+  "lemma": "τυραννίς",
+  "headword": "τυραννίς, τυραννίδος, ἡ",
+  "definition": "tyranny, rule of a tyrant",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "τυραννίδος",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "tyranny"
+ },
+ {
+  "lemma": "ὄστρακον",
+  "headword": "ὄστρακον, ὀστράκου, τό",
+  "definition": "potsherd; the sherd used as a ballot in an ostracism",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "ὀστράκου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "potsherd",
+  "cognates": {
+   "derivatives": [
+    "ostracism",
+    "ostracize"
+   ]
+  }
+ },
+ {
+  "lemma": "ὀστρακίζω",
+  "headword": "ὀστρακίζω, ὀστρακιῶ, ὠστράκισα, ὠστρακίσθην",
+  "definition": "ostracize, banish for ten years by a vote with potsherds",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ὀστρακίζω"
+    ],
+    "future": [
+     "ὀστρακιῶ"
+    ],
+    "aorist": [
+     "ὠστράκισα"
+    ],
+    "aorist-passive": [
+     "ὠστρακίσθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ὀστρακίζω",
+    "ὀστρακιῶ",
+    "ὠστράκισα",
+    "ὠστρακίσθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "ostracize",
+  "cognates": {
+   "derivatives": [
+    "ostracize"
+   ]
+  }
+ },
+ {
+  "lemma": "ὀστρακισμός",
+  "headword": "ὀστρακισμός, ὀστρακισμοῦ, ὁ",
+  "definition": "ostracism: the vote with potsherds that sent a man away for ten years",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "ὀστρακισμοῦ",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "ostracism",
+  "cognates": {
+   "derivatives": [
+    "ostracism"
+   ]
+  }
+ },
+ {
+  "lemma": "δημαγωγός",
+  "headword": "δημαγωγός, δημαγωγοῦ, ὁ",
+  "definition": "leader of the people, popular leader (not yet always a term of abuse)",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "δημαγωγοῦ",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "popular leader",
+  "cognates": {
+   "derivatives": [
+    "demagogue"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐξελαύνω",
+  "headword": "ἐξελαύνω, ἐξελῶ, ἐξήλασα, ἐξελήλακα, ἐξελήλαμαι, ἐξηλάθην",
+  "definition": "drive out, expel, banish",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐξελαύνω"
+    ],
+    "future": [
+     "ἐξελῶ"
+    ],
+    "aorist": [
+     "ἐξήλασα"
+    ],
+    "perfect": [
+     "ἐξελήλακα"
+    ],
+    "perfect-mp": [
+     "ἐξελήλαμαι"
+    ],
+    "aorist-passive": [
+     "ἐξηλάθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἐξελαύνω",
+    "ἐξελῶ",
+    "ἐξήλασα",
+    "ἐξελήλακα",
+    "ἐξελήλαμαι",
+    "ἐξηλάθην"
+   ],
+   "verb": {
+    "drop": [
+     "future.middle"
+    ],
+    "tables": [
+     {
+      "tense": "future",
+      "voice": "active",
+      "mood": "indicative",
+      "forms": "ἐξελῶ ἐξελᾷς ἐξελᾷ ἐξελῶμεν ἐξελᾶτε ἐξελῶσι(ν)",
+      "note": "Attic future of ἐλαύνω: ἐλῶ, ἐλᾷς, ἐλᾷ (contracted like τιμάω)."
+     },
+     {
+      "tense": "future",
+      "voice": "active",
+      "mood": "infinitive",
+      "forms": "ἐξελᾶν"
+     },
+     {
+      "tense": "future",
+      "voice": "active",
+      "mood": "participle",
+      "forms": "ἐξελῶν ἐξελῶσα ἐξελῶν ἐξελῶντος"
+     },
+     {
+      "tense": "future",
+      "voice": "active",
+      "mood": "optative",
+      "forms": "ἐξελῴην ἐξελῴης ἐξελῴη ἐξελῷμεν ἐξελῷτε ἐξελῷεν"
+     }
+    ]
+   }
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "drive out",
+  "notes": "ἐκ + ἐλαύνω; future ἐξελῶ (-άω contraction), aorist ἐξήλασα."
+ },
+ {
+  "lemma": "μισθός",
+  "headword": "μισθός, μισθοῦ, ὁ",
+  "definition": "pay, wages; the daily pay for jurors, councillors and (later) the Assembly",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "μισθοῦ",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "pay",
+  "notes": "μισθὸν φέρειν: to draw pay."
+ },
+ {
+  "lemma": "πλούσιος",
+  "headword": "πλούσιος, πλουσία, πλούσιον",
+  "definition": "rich, wealthy",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 3,
+   "forms": [
+    "πλούσιος",
+    "πλουσία",
+    "πλούσιον"
+   ],
+   "feminine": "πλουσία",
+   "neuter": "πλούσιον"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "rich",
+  "cognates": {
+   "derivatives": [
+    "plutocracy (< ὁ πλοῦτος)"
+   ]
+  }
+ },
+ {
+  "lemma": "πένης",
+  "headword": "πένης, πένητος, ὁ",
+  "definition": "poor man, a man who must work for his living; as adjective: poor",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "πένητος",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "poor man",
+  "notes": "πένης is not a beggar (πτωχός): he works for a living. οἱ πένητες ↔ οἱ πλούσιοι."
+ },
+ {
+  "lemma": "πλοῦτος",
+  "headword": "πλοῦτος, πλούτου, ὁ",
+  "definition": "wealth, riches",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "πλούτου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "wealth",
+  "cognates": {
+   "derivatives": [
+    "plutocracy",
+    "Pluto"
+   ]
+  }
+ },
+ {
+  "lemma": "δημοκρατία",
+  "headword": "δημοκρατία, δημοκρατίας, ἡ",
+  "definition": "democracy, rule of the people",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "δημοκρατίας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "democracy",
+  "cognates": {
+   "derivatives": [
+    "democracy"
+   ]
+  }
+ },
+ {
+  "lemma": "δικάζω",
+  "headword": "δικάζω, δικάσω, ἐδίκασα, δεδίκακα, δεδίκασμαι, ἐδικάσθην",
+  "definition": "judge, give judgement; sit as a juror",
+  "short": "judge, sit as juror",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "δικάζω"
+    ],
+    "future": [
+     "δικάσω"
+    ],
+    "aorist": [
+     "ἐδίκασα"
+    ],
+    "perfect": [
+     "δεδίκακα"
+    ],
+    "perfect-mp": [
+     "δεδίκασμαι"
+    ],
+    "aorist-passive": [
+     "ἐδικάσθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "δικάζω",
+    "δικάσω",
+    "ἐδίκασα",
+    "δεδίκακα",
+    "δεδίκασμαι",
+    "ἐδικάσθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "politics"
+  ],
+  "cognates": {
+   "cognates": [
+    "δίκη 'justice, lawsuit'",
+    "δικαστής 'juror'"
+   ]
+  }
+ },
+ {
+  "lemma": "λαγχάνω",
+  "headword": "λαγχάνω, λήξομαι, ἔλαχον, εἴληχα, εἴληγμαι, ἐλήχθην",
+  "definition": "obtain by lot, be chosen by lot; δίκην λαγχάνειν τινί: bring a suit against someone",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "λαγχάνω"
+    ],
+    "future": [
+     "λήξομαι"
+    ],
+    "aorist": [
+     "ἔλαχον"
+    ],
+    "perfect": [
+     "εἴληχα"
+    ],
+    "perfect-mp": [
+     "εἴληγμαι"
+    ],
+    "aorist-passive": [
+     "ἐλήχθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "λαγχάνω",
+    "λήξομαι",
+    "ἔλαχον",
+    "εἴληχα",
+    "εἴληγμαι",
+    "ἐλήχθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "obtain by lot",
+  "notes": "Aorist ἔλαχον (second aorist), perfect εἴληχα. ὁ λαχών: the one chosen by lot."
+ },
+ {
+  "lemma": "πινάκιον",
+  "headword": "πινάκιον, πινακίου, τό",
+  "definition": "small tablet; a juror's name ticket",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "πινακίου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "ticket, tablet"
+ },
+ {
+  "lemma": "κληρωτήριον",
+  "headword": "κληρωτήριον, κληρωτηρίου, τό",
+  "definition": "allotment machine (kleroterion)",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "κληρωτηρίου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "allotment machine"
+ },
+ {
+  "lemma": "βακτηρία",
+  "headword": "βακτηρία, βακτηρίας, ἡ",
+  "definition": "staff, walking stick",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "βακτηρίας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "staff",
+  "cognates": {
+   "derivatives": [
+    "bacterium (a little 'rod')"
+   ]
+  }
+ },
+ {
+  "lemma": "ὑπηρέτης",
+  "headword": "ὑπηρέτης, ὑπηρέτου, ὁ",
+  "definition": "servant, attendant; a public slave or assistant of a magistrate",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "ὑπηρέτου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "attendant"
+ },
+ {
+  "lemma": "δημόσιος",
+  "headword": "δημόσιος, δημοσία, δημόσιον",
+  "definition": "public, belonging to the people or the state; δημοσίᾳ: at public cost, publicly",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 3,
+   "forms": [
+    "δημόσιος",
+    "δημοσία",
+    "δημόσιον"
+   ],
+   "feminine": "δημοσία",
+   "neuter": "δημόσιον"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "public"
+ },
+ {
+  "lemma": "σύμβολον",
+  "headword": "σύμβολον, συμβόλου, τό",
+  "definition": "token, tally; the juror's token exchanged for his pay",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "συμβόλου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "token",
+  "cognates": {
+   "derivatives": [
+    "symbol"
+   ]
+  }
+ },
+ {
+  "lemma": "χρῶμα",
+  "headword": "χρῶμα, χρώματος, τό",
+  "definition": "colour",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "χρώματος",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "colour",
+  "cognates": {
+   "derivatives": [
+    "chromatic",
+    "chromosome"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐμβάλλω",
+  "headword": "ἐμβάλλω, ἐμβαλῶ, ἐνέβαλον, ἐμβέβληκα, ἐμβέβλημαι, ἐνεβλήθην",
+  "definition": "throw in, put in; invade",
+  "short": "throw in, put in",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐμβάλλω"
+    ],
+    "future": [
+     "ἐμβαλῶ"
+    ],
+    "aorist": [
+     "ἐνέβαλον"
+    ],
+    "perfect": [
+     "ἐμβέβληκα"
+    ],
+    "perfect-mp": [
+     "ἐμβέβλημαι"
+    ],
+    "aorist-passive": [
+     "ἐνεβλήθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἐμβάλλω",
+    "ἐμβαλῶ",
+    "ἐνέβαλον",
+    "ἐμβέβληκα",
+    "ἐμβέβλημαι",
+    "ἐνεβλήθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "politics"
+  ],
+  "notes": "ἐν + βάλλω; the augment goes after the prefix and ν returns: ἐνέβαλον.",
+  "cognates": {
+   "derivatives": [
+    "emblem ('something inlaid')"
+   ]
+  }
+ },
+ {
+  "lemma": "στοιχεῖον",
+  "headword": "στοιχεῖον, στοιχείου, τό",
+  "definition": "letter of the alphabet; element",
+  "short": "letter; element",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "στοιχείου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "politics"
+  ],
+  "cognates": {
+   "derivatives": [
+    "stoichiometry"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐπιγράφω",
+  "headword": "ἐπιγράφω, ἐπιγράψω, ἐπέγραψα, ἐπιγέγραφα, ἐπιγέγραμμαι, ἐπεγράφην",
+  "definition": "write upon, inscribe",
+  "short": "inscribe",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐπιγράφω"
+    ],
+    "future": [
+     "ἐπιγράψω"
+    ],
+    "aorist": [
+     "ἐπέγραψα"
+    ],
+    "perfect": [
+     "ἐπιγέγραφα"
+    ],
+    "perfect-mp": [
+     "ἐπιγέγραμμαι"
+    ],
+    "aorist-passive": [
+     "ἐπεγράφην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἐπιγράφω",
+    "ἐπιγράψω",
+    "ἐπέγραψα",
+    "ἐπιγέγραφα",
+    "ἐπιγέγραμμαι",
+    "ἐπεγράφην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "politics"
+  ],
+  "notes": "ἐπί + γράφω; perfect passive ἐπιγέγραπται 'is inscribed', participle ἐπιγεγραμμένος.",
+  "cognates": {
+   "derivatives": [
+    "epigraphy, epigram"
+   ]
+  }
+ },
+ {
+  "lemma": "ἕλκω",
+  "headword": "ἕλκω, ἕλξω, εἵλκυσα, εἵλκυκα, εἵλκυσμαι, εἱλκύσθην",
+  "definition": "drag, draw, pull out",
+  "short": "draw, drag",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἕλκω"
+    ],
+    "future": [
+     "ἕλξω"
+    ],
+    "aorist": [
+     "εἵλκυσα"
+    ],
+    "perfect": [
+     "εἵλκυκα"
+    ],
+    "perfect-mp": [
+     "εἵλκυσμαι"
+    ],
+    "aorist-passive": [
+     "εἱλκύσθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἕλκω",
+    "ἕλξω",
+    "εἵλκυσα",
+    "εἵλκυκα",
+    "εἵλκυσμαι",
+    "εἱλκύσθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "politics"
+  ],
+  "notes": "Imperfect εἷλκον; the aorist is formed from a longer stem: εἵλκυσα."
+ },
+ {
+  "lemma": "εἴσοδος",
+  "headword": "εἴσοδος, εἰσόδου, ἡ",
+  "definition": "entrance, way in",
+  "short": "entrance",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "εἰσόδου",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "notes": "Feminine like ἡ ὁδός (εἰς + ὁδός)."
+ },
+ {
+  "lemma": "κύβος",
+  "headword": "κύβος, κύβου, ὁ",
+  "definition": "cube, die; the bronze balls or cubes of the allotment machine",
+  "short": "die, cube",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "κύβου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "cognates": {
+   "derivatives": [
+    "cube"
+   ]
+  }
+ },
+ {
+  "lemma": "κατήγορος",
+  "headword": "κατήγορος, κατηγόρου, ὁ",
+  "definition": "accuser, prosecutor",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "κατηγόρου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "accuser",
+  "cognates": {
+   "derivatives": [
+    "category (κατηγορία)"
+   ]
+  }
+ },
+ {
+  "lemma": "τεκμήριον",
+  "headword": "τεκμήριον, τεκμηρίου, τό",
+  "definition": "proof, evidence, sure sign",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "τεκμηρίου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "proof"
+ },
+ {
+  "lemma": "εὐπορία",
+  "headword": "εὐπορία, εὐπορίας, ἡ",
+  "definition": "ease, means, plenty; having enough to live on",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "εὐπορίας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "means, plenty"
+ },
+ {
+  "lemma": "ἀσθενής",
+  "headword": "ἀσθενής, ἀσθενές",
+  "definition": "weak, sick, without strength",
+  "short": "weak",
+  "kind": "adjective",
+  "subclass": "adj-3-es",
+  "pos": "adjective: 3rd declension -ης, -ες",
+  "morph": {
+   "terminations": 2,
+   "forms": [
+    "ἀσθενής",
+    "ἀσθενές"
+   ],
+   "neuter": "ἀσθενές"
+  },
+  "topics": [
+   "politics"
+  ],
+  "cognates": {
+   "derivatives": [
+    "asthenia, neurasthenia"
+   ]
+  }
+ },
+ {
+  "lemma": "πρόσοδος",
+  "headword": "πρόσοδος, προσόδου, ἡ",
+  "definition": "income, revenue",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "προσόδου",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "income",
+  "notes": "Feminine like ἡ ὁδός (πρός + ὁδός: what comes in)."
+ },
+ {
+  "lemma": "ὠφελέω",
+  "headword": "ὠφελέω, ὠφελήσω, ὠφέλησα, ὠφέληκα, ὠφέλημαι, ὠφελήθην",
+  "definition": "help, benefit, be of use to (+ accusative)",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: contracted",
+  "morph": {
+   "parts": {
+    "present": [
+     "ὠφελέω"
+    ],
+    "future": [
+     "ὠφελήσω"
+    ],
+    "aorist": [
+     "ὠφέλησα"
+    ],
+    "perfect": [
+     "ὠφέληκα"
+    ],
+    "perfect-mp": [
+     "ὠφέλημαι"
+    ],
+    "aorist-passive": [
+     "ὠφελήθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ὠφελέω",
+    "ὠφελήσω",
+    "ὠφέλησα",
+    "ὠφέληκα",
+    "ὠφέλημαι",
+    "ὠφελήθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "help"
+ },
+ {
+  "lemma": "φθόνος",
+  "headword": "φθόνος, φθόνου, ὁ",
+  "definition": "envy, ill will",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "φθόνου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "envy"
+ },
+ {
+  "lemma": "συκοφάντης",
+  "headword": "συκοφάντης, συκοφάντου, ὁ",
+  "definition": "informer, blackmailer: a man who prosecutes for profit",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "συκοφάντου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "informer",
+  "cognates": {
+   "derivatives": [
+    "sycophant"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀπολογία",
+  "headword": "ἀπολογία, ἀπολογίας, ἡ",
+  "definition": "speech in defence, defence",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "ἀπολογίας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "defence",
+  "cognates": {
+   "derivatives": [
+    "apology (Plato's Apology)"
+   ]
+  }
+ },
+ {
+  "lemma": "πρόφασις",
+  "headword": "πρόφασις, προφάσεως, ἡ",
+  "definition": "pretext, excuse; alleged reason",
+  "kind": "noun",
+  "subclass": "noun-3-iota",
+  "pos": "noun: 3rd declension (-ις, -εως)",
+  "morph": {
+   "genitive": "προφάσεως",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "pretext"
+ },
+ {
+  "lemma": "τιμωρέω",
+  "headword": "τιμωρέω, τιμωρήσω, ἐτιμώρησα, τετιμώρηκα, τετιμώρημαι, ἐτιμωρήθην",
+  "definition": "avenge (+ dative); middle τιμωροῦμαι: take vengeance on, punish (+ accusative)",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: contracted",
+  "morph": {
+   "parts": {
+    "present": [
+     "τιμωρέω"
+    ],
+    "future": [
+     "τιμωρήσω"
+    ],
+    "aorist": [
+     "ἐτιμώρησα"
+    ],
+    "perfect": [
+     "τετιμώρηκα"
+    ],
+    "perfect-mp": [
+     "τετιμώρημαι"
+    ],
+    "aorist-passive": [
+     "ἐτιμωρήθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "τιμωρέω",
+    "τιμωρήσω",
+    "ἐτιμώρησα",
+    "τετιμώρηκα",
+    "τετιμώρημαι",
+    "ἐτιμωρήθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "avenge; mid. punish"
+ },
+ {
+  "lemma": "συλλαμβάνω",
+  "headword": "συλλαμβάνω, συλλήψομαι, συνέλαβον, συνείληφα, συνείλημμαι, συνελήφθην",
+  "definition": "arrest, seize; help (+ dative)",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "συλλαμβάνω"
+    ],
+    "future": [
+     "συλλήψομαι"
+    ],
+    "aorist": [
+     "συνέλαβον"
+    ],
+    "perfect": [
+     "συνείληφα"
+    ],
+    "perfect-mp": [
+     "συνείλημμαι"
+    ],
+    "aorist-passive": [
+     "συνελήφθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "συλλαμβάνω",
+    "συλλήψομαι",
+    "συνέλαβον",
+    "συνείληφα",
+    "συνείλημμαι",
+    "συνελήφθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "arrest",
+  "notes": "σύν + λαμβάνω: σ assimilates to λ (συλ-); the augment goes after the prefix and ν returns: συνέλαβον.",
+  "cognates": {
+   "derivatives": [
+    "syllable (συλλαβή, letters 'taken together')"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀνδράποδον",
+  "headword": "ἀνδράποδον, ἀνδραπόδου, τό",
+  "definition": "slave (a captive sold as property; the legal word)",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "ἀνδραπόδου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "slave"
+ },
+ {
+  "lemma": "τάλαντον",
+  "headword": "τάλαντον, ταλάντου, τό",
+  "definition": "talent: a weight of silver worth 6000 drachmas",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "ταλάντου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "talent",
+  "cognates": {
+   "derivatives": [
+    "talent"
+   ]
+  }
+ },
+ {
+  "lemma": "ὀλιγαρχία",
+  "headword": "ὀλιγαρχία, ὀλιγαρχίας, ἡ",
+  "definition": "oligarchy, rule of the few",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "ὀλιγαρχίας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "oligarchy",
+  "cognates": {
+   "derivatives": [
+    "oligarchy"
+   ]
+  }
+ },
+ {
+  "lemma": "αἰσχύνη",
+  "headword": "αἰσχύνη, αἰσχύνης, ἡ",
+  "definition": "shame, disgrace; sense of shame",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "αἰσχύνης",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "shame"
+ },
+ {
+  "lemma": "καινός",
+  "headword": "καινός, καινή, καινόν",
+  "definition": "new, fresh, novel",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 3,
+   "forms": [
+    "καινός",
+    "καινή",
+    "καινόν"
+   ],
+   "feminine": "καινή",
+   "neuter": "καινόν"
+  },
+  "topics": [
+   "politics",
+   "core"
+  ],
+  "short": "new",
+  "cognates": {
+   "derivatives": [
+    "Cenozoic (καινός + ζῷον)"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀμέλεια",
+  "headword": "ἀμέλεια, ἀμελείας, ἡ",
+  "definition": "carelessness, neglect",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "ἀμελείας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "neglect"
+ },
+ {
+  "lemma": "ῥώμη",
+  "headword": "ῥώμη, ῥώμης, ἡ",
+  "definition": "strength, might",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "ῥώμης",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "strength"
+ },
+ {
+  "lemma": "ῥήτωρ",
+  "headword": "ῥήτωρ, ῥήτορος, ὁ",
+  "definition": "public speaker, orator, politician",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "ῥήτορος",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "speaker",
+  "cognates": {
+   "derivatives": [
+    "rhetoric"
+   ]
+  }
+ },
+ {
+  "lemma": "διοικέω",
+  "headword": "διοικέω, διοικήσω, διῴκησα, διῴκηκα, διῴκημαι, διῳκήθην",
+  "definition": "manage, administer, run (a house or a state)",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: contracted",
+  "morph": {
+   "parts": {
+    "present": [
+     "διοικέω"
+    ],
+    "future": [
+     "διοικήσω"
+    ],
+    "aorist": [
+     "διῴκησα"
+    ],
+    "perfect": [
+     "διῴκηκα"
+    ],
+    "perfect-mp": [
+     "διῴκημαι"
+    ],
+    "aorist-passive": [
+     "διῳκήθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "διοικέω",
+    "διοικήσω",
+    "διῴκησα",
+    "διῴκηκα",
+    "διῴκημαι",
+    "διῳκήθην"
+   ],
+   "verb": {
+    "imperfect_stem": "διῳκ"
+   }
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "manage",
+  "notes": "διά + οἰκέω; augment οι → ῳ after the prefix: διῴκουν."
+ },
+ {
+  "lemma": "ψήφισμα",
+  "headword": "ψήφισμα, ψηφίσματος, τό",
+  "definition": "decree of the Assembly (passed by a vote)",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "ψηφίσματος",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "politics"
+  ],
+  "short": "decree"
+ }
+]

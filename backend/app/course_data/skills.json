@@ -1,0 +1,1504 @@
+{
+  "families": [
+    {
+      "id": "alpha",
+      "label": "Alphabet and sounds"
+    },
+    {
+      "id": "art",
+      "label": "The article"
+    },
+    {
+      "id": "noun",
+      "label": "Nouns"
+    },
+    {
+      "id": "adj",
+      "label": "Adjectives"
+    },
+    {
+      "id": "pron",
+      "label": "Pronouns"
+    },
+    {
+      "id": "verb",
+      "label": "Verbs"
+    },
+    {
+      "id": "prep",
+      "label": "Prepositions"
+    },
+    {
+      "id": "syntax",
+      "label": "Syntax"
+    },
+    {
+      "id": "read",
+      "label": "Reading"
+    },
+    {
+      "id": "listen",
+      "label": "Listening"
+    },
+    {
+      "id": "spell",
+      "label": "Spelling and accents"
+    },
+    {
+      "id": "vocab",
+      "label": "Vocabulary"
+    }
+  ],
+  "skills": [
+    {
+      "id": "alpha.letters",
+      "label": "Letter names and shapes"
+    },
+    {
+      "id": "alpha.sounds",
+      "label": "Letter sounds (Classical Attic)"
+    },
+    {
+      "id": "alpha.vowels",
+      "label": "Vowel length and quality"
+    },
+    {
+      "id": "alpha.diphthongs",
+      "label": "Diphthongs"
+    },
+    {
+      "id": "alpha.breathings",
+      "label": "Breathings (/h/)"
+    },
+    {
+      "id": "alpha.accents",
+      "label": "Accent marks"
+    },
+    {
+      "id": "alpha.iota",
+      "label": "Iota subscript"
+    },
+    {
+      "id": "alpha.punct",
+      "label": "Punctuation and capitals"
+    },
+    {
+      "id": "alpha.typing",
+      "label": "Typing polytonic Greek"
+    },
+    {
+      "id": "alpha.numbers",
+      "label": "Numbers 1–10"
+    },
+    {
+      "id": "art.nom.sg",
+      "label": "Article, nominative singular",
+      "paradigm": "article"
+    },
+    {
+      "id": "art.acc.sg",
+      "label": "Article, accusative singular",
+      "paradigm": "article"
+    },
+    {
+      "id": "art.gen.sg",
+      "label": "Article, genitive singular",
+      "paradigm": "article"
+    },
+    {
+      "id": "art.dat.sg",
+      "label": "Article, dative singular",
+      "paradigm": "article"
+    },
+    {
+      "id": "art.nom.pl",
+      "label": "Article, nominative plural",
+      "paradigm": "article"
+    },
+    {
+      "id": "art.acc.pl",
+      "label": "Article, accusative plural",
+      "paradigm": "article"
+    },
+    {
+      "id": "art.gen.pl",
+      "label": "Article, genitive plural",
+      "paradigm": "article"
+    },
+    {
+      "id": "art.dat.pl",
+      "label": "Article, dative plural",
+      "paradigm": "article"
+    },
+    {
+      "id": "art.names",
+      "label": "Article with proper names"
+    },
+    {
+      "id": "noun.decl2.nom.sg",
+      "label": "2nd declension, nominative singular",
+      "paradigm": "logos"
+    },
+    {
+      "id": "noun.decl2.acc.sg",
+      "label": "2nd declension, accusative singular",
+      "paradigm": "logos"
+    },
+    {
+      "id": "noun.decl2.gen.sg",
+      "label": "2nd declension, genitive singular",
+      "paradigm": "logos"
+    },
+    {
+      "id": "noun.decl2.dat.sg",
+      "label": "2nd declension, dative singular",
+      "paradigm": "logos"
+    },
+    {
+      "id": "noun.decl2.voc.sg",
+      "label": "2nd declension, vocative singular",
+      "paradigm": "logos"
+    },
+    {
+      "id": "noun.decl2.nom.pl",
+      "label": "2nd declension, nominative plural",
+      "paradigm": "logos"
+    },
+    {
+      "id": "noun.decl2.acc.pl",
+      "label": "2nd declension, accusative plural",
+      "paradigm": "logos"
+    },
+    {
+      "id": "noun.decl2.gen.pl",
+      "label": "2nd declension, genitive plural",
+      "paradigm": "logos"
+    },
+    {
+      "id": "noun.decl2.dat.pl",
+      "label": "2nd declension, dative plural",
+      "paradigm": "logos"
+    },
+    {
+      "id": "noun.decl2.neuter",
+      "label": "2nd declension neuters (-ον)",
+      "paradigm": "doron"
+    },
+    {
+      "id": "noun.decl1.nom.sg",
+      "label": "1st declension, nominative singular",
+      "paradigm": "timi"
+    },
+    {
+      "id": "noun.decl1.acc.sg",
+      "label": "1st declension, accusative singular",
+      "paradigm": "timi"
+    },
+    {
+      "id": "noun.decl1.gen.sg",
+      "label": "1st declension, genitive singular",
+      "paradigm": "timi"
+    },
+    {
+      "id": "noun.decl1.dat.sg",
+      "label": "1st declension, dative singular",
+      "paradigm": "timi"
+    },
+    {
+      "id": "noun.decl1.types",
+      "label": "1st declension: -η, -ᾱ, -ᾰ types",
+      "paradigm": "chora"
+    },
+    {
+      "id": "noun.decl1.nom.pl",
+      "label": "1st declension, nominative plural",
+      "paradigm": "timi"
+    },
+    {
+      "id": "noun.decl1.acc.pl",
+      "label": "1st declension, accusative plural",
+      "paradigm": "timi"
+    },
+    {
+      "id": "noun.decl1.gen.pl",
+      "label": "1st declension, genitive plural",
+      "paradigm": "timi"
+    },
+    {
+      "id": "noun.decl1.dat.pl",
+      "label": "1st declension, dative plural",
+      "paradigm": "timi"
+    },
+    {
+      "id": "noun.decl1.masc",
+      "label": "1st declension masculines (-ης, -ας)",
+      "paradigm": "polites"
+    },
+    {
+      "id": "noun.decl3.recognize",
+      "label": "3rd declension nouns: recognize forms",
+      "paradigm": "phylax"
+    },
+    {
+      "id": "noun.gender",
+      "label": "Grammatical gender"
+    },
+    {
+      "id": "noun.number",
+      "label": "Singular and plural"
+    },
+    {
+      "id": "adj.agree",
+      "label": "Adjective agreement (gender, number, case)",
+      "paradigm": "agathos"
+    },
+    {
+      "id": "adj.predicate",
+      "label": "Predicate adjective with εἰμί"
+    },
+    {
+      "id": "adj.attributive",
+      "label": "Attributive position"
+    },
+    {
+      "id": "pron.interrog",
+      "label": "Question words (τίς; τί; ποῦ;)",
+      "paradigm": "tis-interrog"
+    },
+    {
+      "id": "verb.eimi.pres.ind.3sg",
+      "label": "εἰμί: ἐστί(ν)",
+      "paradigm": "eimi"
+    },
+    {
+      "id": "verb.eimi.pres.ind.3pl",
+      "label": "εἰμί: εἰσί(ν)",
+      "paradigm": "eimi"
+    },
+    {
+      "id": "verb.eimi.pres.ind.1sg",
+      "label": "εἰμί: εἰμί",
+      "paradigm": "eimi"
+    },
+    {
+      "id": "verb.eimi.pres.ind.2sg",
+      "label": "εἰμί: εἶ",
+      "paradigm": "eimi"
+    },
+    {
+      "id": "verb.eimi.pres.ind.1pl",
+      "label": "εἰμί: ἐσμέν",
+      "paradigm": "eimi"
+    },
+    {
+      "id": "verb.eimi.pres.ind.2pl",
+      "label": "εἰμί: ἐστέ",
+      "paradigm": "eimi"
+    },
+    {
+      "id": "verb.eimi.enclitic",
+      "label": "Enclitic accent of ἐστί(ν)"
+    },
+    {
+      "id": "verb.pres.act.ind.3sg",
+      "label": "Present active, 3 sg",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.pres.act.ind.3pl",
+      "label": "Present active, 3 pl",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.pres.act.ind.1sg",
+      "label": "Present active, 1 sg",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.pres.act.ind.2sg",
+      "label": "Present active, 2 sg",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.pres.act.ind.1pl",
+      "label": "Present active, 1 pl",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.pres.act.ind.2pl",
+      "label": "Present active, 2 pl",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.pres.act.imp.2sg",
+      "label": "Present imperative, 2 sg",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.pres.act.imp.2pl",
+      "label": "Present imperative, 2 pl",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.pres.act.inf",
+      "label": "Present infinitive",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.contract.recognize",
+      "label": "Contract verbs: recognize -εῖ, -ᾷ",
+      "paradigm": "poieo"
+    },
+    {
+      "id": "verb.contract.e",
+      "label": "-έω contract verbs",
+      "paradigm": "poieo"
+    },
+    {
+      "id": "verb.contract.a",
+      "label": "-άω contract verbs",
+      "paradigm": "timao"
+    },
+    {
+      "id": "verb.movable-nu",
+      "label": "Movable ν"
+    },
+    {
+      "id": "prep.en.dat",
+      "label": "ἐν + dative"
+    },
+    {
+      "id": "prep.eis.acc",
+      "label": "εἰς + accusative"
+    },
+    {
+      "id": "prep.ek.gen",
+      "label": "ἐκ/ἐξ + genitive"
+    },
+    {
+      "id": "prep.pros.acc",
+      "label": "πρός + accusative"
+    },
+    {
+      "id": "syntax.subject",
+      "label": "Subject in the nominative"
+    },
+    {
+      "id": "syntax.object",
+      "label": "Direct object in the accusative"
+    },
+    {
+      "id": "syntax.predicate",
+      "label": "Predicate nominative"
+    },
+    {
+      "id": "syntax.negation",
+      "label": "Negation with οὐ / οὐκ / οὐχ"
+    },
+    {
+      "id": "syntax.conj",
+      "label": "καί, ἀλλά, δέ, γάρ, οὖν"
+    },
+    {
+      "id": "syntax.men-de",
+      "label": "μέν … δέ"
+    },
+    {
+      "id": "syntax.question",
+      "label": "Questions: ἆρα, τίς, ποῦ"
+    },
+    {
+      "id": "syntax.word-order",
+      "label": "Word order and emphasis"
+    },
+    {
+      "id": "syntax.postpositive",
+      "label": "Postpositives (δέ, γάρ, οὖν)"
+    },
+    {
+      "id": "syntax.possession.gen",
+      "label": "Genitive of possession"
+    },
+    {
+      "id": "read.comprehension",
+      "label": "Reading comprehension"
+    },
+    {
+      "id": "read.locate",
+      "label": "Finding forms in a text"
+    },
+    {
+      "id": "listen.words",
+      "label": "Recognizing spoken words"
+    },
+    {
+      "id": "listen.sentences",
+      "label": "Understanding spoken sentences"
+    },
+    {
+      "id": "spell.dictation",
+      "label": "Writing what you hear"
+    },
+    {
+      "id": "spell.accents",
+      "label": "Placing accents"
+    },
+    {
+      "id": "vocab.recognition",
+      "label": "Word meaning (Greek → English)"
+    },
+    {
+      "id": "vocab.production",
+      "label": "Word production (English → Greek)"
+    },
+    {
+      "id": "vocab.family",
+      "label": "Word families and derivatives"
+    },
+    {
+      "id": "pron.personal",
+      "label": "Personal pronouns ἐγώ, σύ, ἡμεῖς, ὑμεῖς",
+      "paradigm": "ego"
+    },
+    {
+      "id": "pron.autos",
+      "label": "αὐτός: him/her/it, self, same",
+      "paradigm": "autos"
+    },
+    {
+      "id": "pron.possessive",
+      "label": "Possessive adjectives and genitive of possession"
+    },
+    {
+      "id": "pron.demonstrative",
+      "label": "Demonstratives οὗτος, ὅδε, ἐκεῖνος",
+      "paradigm": "houtos"
+    },
+    {
+      "id": "pron.relative",
+      "label": "Relative pronoun ὅς ἥ ὅ",
+      "paradigm": "hos"
+    },
+    {
+      "id": "pron.reflexive",
+      "label": "Reflexive pronouns",
+      "paradigm": "heautou"
+    },
+    {
+      "id": "pron.reciprocal",
+      "label": "ἀλλήλων",
+      "paradigm": "allelon"
+    },
+    {
+      "id": "pron.indefinite",
+      "label": "Indefinite τις, τι",
+      "paradigm": "tis-indef"
+    },
+    {
+      "id": "noun.voc",
+      "label": "Vocative with ὦ"
+    },
+    {
+      "id": "noun.decl3.cons.nom.sg",
+      "label": "3rd declension consonant stems, nominative singular",
+      "paradigm": "phylax"
+    },
+    {
+      "id": "noun.decl3.cons.gen.sg",
+      "label": "3rd declension consonant stems, genitive singular",
+      "paradigm": "phylax"
+    },
+    {
+      "id": "noun.decl3.cons.dat.sg",
+      "label": "3rd declension consonant stems, dative singular",
+      "paradigm": "phylax"
+    },
+    {
+      "id": "noun.decl3.cons.acc.sg",
+      "label": "3rd declension consonant stems, accusative singular",
+      "paradigm": "phylax"
+    },
+    {
+      "id": "noun.decl3.cons.pl",
+      "label": "3rd declension consonant stems, plural",
+      "paradigm": "phylax"
+    },
+    {
+      "id": "noun.decl3.nom.sg",
+      "label": "3rd declension, nominative singular",
+      "paradigm": "phylax"
+    },
+    {
+      "id": "noun.decl3.gen.sg",
+      "label": "3rd declension, genitive singular",
+      "paradigm": "phylax"
+    },
+    {
+      "id": "noun.decl3.dat.sg",
+      "label": "3rd declension, dative singular",
+      "paradigm": "phylax"
+    },
+    {
+      "id": "noun.decl3.acc.sg",
+      "label": "3rd declension, accusative singular",
+      "paradigm": "phylax"
+    },
+    {
+      "id": "noun.decl3.nom.pl",
+      "label": "3rd declension, nominative plural",
+      "paradigm": "phylax"
+    },
+    {
+      "id": "noun.decl3.gen.pl",
+      "label": "3rd declension, genitive plural",
+      "paradigm": "phylax"
+    },
+    {
+      "id": "noun.decl3.dat.pl",
+      "label": "3rd declension, dative plural",
+      "paradigm": "phylax"
+    },
+    {
+      "id": "noun.decl3.acc.pl",
+      "label": "3rd declension, accusative plural",
+      "paradigm": "phylax"
+    },
+    {
+      "id": "noun.decl3.family",
+      "label": "πατήρ, μήτηρ, ἀνήρ, θυγάτηρ",
+      "paradigm": "pater"
+    },
+    {
+      "id": "noun.decl3.sigma",
+      "label": "-εσ- stems: γένος, τεῖχος, τριήρης",
+      "paradigm": "genos"
+    },
+    {
+      "id": "noun.decl3.iota",
+      "label": "πόλις, ἄστυ",
+      "paradigm": "polis"
+    },
+    {
+      "id": "noun.decl3.eus",
+      "label": "βασιλεύς, κεραμεύς",
+      "paradigm": "basileus"
+    },
+    {
+      "id": "noun.decl3.naus",
+      "label": "ναῦς, βοῦς",
+      "paradigm": "naus"
+    },
+    {
+      "id": "noun.decl2.contract",
+      "label": "νοῦς and contract nouns",
+      "paradigm": "nous"
+    },
+    {
+      "id": "adj.pas",
+      "label": "πᾶς πᾶσα πᾶν",
+      "paradigm": "pas"
+    },
+    {
+      "id": "adj.decl3.es",
+      "label": "Adjectives in -ης, -ες (ἀληθής)",
+      "paradigm": "alethes"
+    },
+    {
+      "id": "adj.megas-polys",
+      "label": "μέγας and πολύς",
+      "paradigm": "megas"
+    },
+    {
+      "id": "adj.superlative",
+      "label": "Superlatives",
+      "paradigm": "beltion"
+    },
+    {
+      "id": "adj.irregular-compare",
+      "label": "Irregular comparison (βελτίων, μείζων)",
+      "paradigm": "beltion"
+    },
+    {
+      "id": "num.cardinal",
+      "label": "Cardinal numbers 1–10",
+      "paradigm": "heis"
+    },
+    {
+      "id": "num.ordinal",
+      "label": "Ordinal numbers"
+    },
+    {
+      "id": "verb.pres.mp.ind.1sg",
+      "label": "Present middle/passive, 1 sg",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.pres.mp.ind.2sg",
+      "label": "Present middle/passive, 2 sg",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.pres.mp.ind.3sg",
+      "label": "Present middle/passive, 3 sg",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.pres.mp.ind.1pl",
+      "label": "Present middle/passive, 1 pl",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.pres.mp.ind.2pl",
+      "label": "Present middle/passive, 2 pl",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.pres.mp.ind.3pl",
+      "label": "Present middle/passive, 3 pl",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.pres.mp.imp.2sg",
+      "label": "Present middle imperative, 2 sg",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.pres.mp.imp.2pl",
+      "label": "Present middle imperative, 2 pl",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.pres.mp.inf",
+      "label": "Present middle/passive infinitive",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.deponent",
+      "label": "Deponent verbs (γίγνομαι, βούλομαι)",
+      "paradigm": "gignomai"
+    },
+    {
+      "id": "verb.middle-meaning",
+      "label": "Meaning of the middle voice"
+    },
+    {
+      "id": "verb.contract.o",
+      "label": "-όω contract verbs",
+      "paradigm": "deloo"
+    },
+    {
+      "id": "verb.compound",
+      "label": "Compound verbs with prepositional prefixes"
+    },
+    {
+      "id": "verb.ptc.pres.act",
+      "label": "Present active participle"
+    },
+    {
+      "id": "verb.ptc.pres.mp",
+      "label": "Present middle/passive participle"
+    },
+    {
+      "id": "verb.ptc.aor.act",
+      "label": "Aorist active participle"
+    },
+    {
+      "id": "verb.ptc.use",
+      "label": "Attributive and circumstantial participles"
+    },
+    {
+      "id": "verb.ptc.article",
+      "label": "Article + participle as a noun"
+    },
+    {
+      "id": "verb.ptc.supplementary",
+      "label": "παύομαι + participle"
+    },
+    {
+      "id": "verb.impersonal",
+      "label": "Impersonal δεῖ, ἔξεστι"
+    },
+    {
+      "id": "verb.aor.act.ind.1sg",
+      "label": "Aorist active, 1 sg",
+      "paradigm": "lambano"
+    },
+    {
+      "id": "verb.aor.act.ind.2sg",
+      "label": "Aorist active, 2 sg",
+      "paradigm": "lambano"
+    },
+    {
+      "id": "verb.aor.act.ind.3sg",
+      "label": "Aorist active, 3 sg",
+      "paradigm": "lambano"
+    },
+    {
+      "id": "verb.aor.act.ind.1pl",
+      "label": "Aorist active, 1 pl",
+      "paradigm": "lambano"
+    },
+    {
+      "id": "verb.aor.act.ind.2pl",
+      "label": "Aorist active, 2 pl",
+      "paradigm": "lambano"
+    },
+    {
+      "id": "verb.aor.act.ind.3pl",
+      "label": "Aorist active, 3 pl",
+      "paradigm": "lambano"
+    },
+    {
+      "id": "verb.aor.act.inf",
+      "label": "Aorist active infinitive",
+      "paradigm": "lambano"
+    },
+    {
+      "id": "verb.aor.act.imp.2sg",
+      "label": "Aorist imperative, 2 sg",
+      "paradigm": "lambano"
+    },
+    {
+      "id": "verb.aor.act.imp.2pl",
+      "label": "Aorist imperative, 2 pl",
+      "paradigm": "lambano"
+    },
+    {
+      "id": "verb.aor2.stem",
+      "label": "Second-aorist stems (λαβ-, ἐλθ-, ἰδ-)",
+      "paradigm": "lambano"
+    },
+    {
+      "id": "verb.aor1.sigma",
+      "label": "First (sigmatic) aorist",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.aor1.liquid",
+      "label": "Liquid aorists (ἔμεινα, ἔφηνα)",
+      "paradigm": "phaino"
+    },
+    {
+      "id": "verb.aor.aspect",
+      "label": "Aorist vs present aspect"
+    },
+    {
+      "id": "verb.augment",
+      "label": "The augment (syllabic and temporal)"
+    },
+    {
+      "id": "verb.augment.compound",
+      "label": "Augment of compound verbs"
+    },
+    {
+      "id": "verb.impf.act.ind.1sg",
+      "label": "Imperfect active, 1 sg",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.impf.act.ind.2sg",
+      "label": "Imperfect active, 2 sg",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.impf.act.ind.3sg",
+      "label": "Imperfect active, 3 sg",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.impf.act.ind.1pl",
+      "label": "Imperfect active, 1 pl",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.impf.act.ind.2pl",
+      "label": "Imperfect active, 2 pl",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.impf.act.ind.3pl",
+      "label": "Imperfect active, 3 pl",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.impf.mp.ind.3sg",
+      "label": "Imperfect middle/passive, 3 sg",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.impf.mp.ind.3pl",
+      "label": "Imperfect middle/passive, 3 pl",
+      "paradigm": "luo"
+    },
+    {
+      "id": "verb.eimi.impf.ind.1sg",
+      "label": "εἰμί: ἦν (imperfect 1 sg)",
+      "paradigm": "eimi"
+    },
+    {
+      "id": "verb.eimi.impf.ind.3sg",
+      "label": "εἰμί: ἦν (imperfect 3 sg)",
+      "paradigm": "eimi"
+    },
+    {
+      "id": "verb.eimi.impf.ind.3pl",
+      "label": "εἰμί: ἦσαν",
+      "paradigm": "eimi"
+    },
+    {
+      "id": "verb.eimi.pres.imp.2sg",
+      "label": "εἰμί: ἴσθι",
+      "paradigm": "eimi"
+    },
+    {
+      "id": "verb.eimi.pres.inf",
+      "label": "εἰμί: εἶναι",
+      "paradigm": "eimi"
+    },
+    {
+      "id": "verb.impf.vs.aor",
+      "label": "Imperfect vs aorist in narrative"
+    },
+    {
+      "id": "verb.historic-present",
+      "label": "Historic present"
+    },
+    {
+      "id": "verb.aor.root",
+      "label": "Root aorists ἔβην, ἔγνων, ἔστην",
+      "paradigm": "baino"
+    },
+    {
+      "id": "verb.mi.dynamai",
+      "label": "δύναμαι, ἐπίσταμαι, κεῖμαι"
+    },
+    {
+      "id": "verb.neuter-plural",
+      "label": "Neuter plural subject with singular verb"
+    },
+    {
+      "id": "prep.pros.dat",
+      "label": "πρός + dative"
+    },
+    {
+      "id": "prep.apo.gen",
+      "label": "ἀπό + genitive"
+    },
+    {
+      "id": "prep.dia",
+      "label": "διά + genitive / accusative"
+    },
+    {
+      "id": "prep.epi",
+      "label": "ἐπί + genitive / dative / accusative"
+    },
+    {
+      "id": "prep.para",
+      "label": "παρά + genitive / dative / accusative"
+    },
+    {
+      "id": "prep.meta",
+      "label": "μετά + genitive / accusative"
+    },
+    {
+      "id": "prep.hypo",
+      "label": "ὑπό + genitive / dative / accusative"
+    },
+    {
+      "id": "prep.kata",
+      "label": "κατά + genitive / accusative"
+    },
+    {
+      "id": "prep.peri",
+      "label": "περί + genitive / accusative"
+    },
+    {
+      "id": "prep.syn.dat",
+      "label": "σύν + dative"
+    },
+    {
+      "id": "prep.review",
+      "label": "Prepositions and their cases"
+    },
+    {
+      "id": "syntax.imperative",
+      "label": "Commands and prohibitions (μή + imperative)"
+    },
+    {
+      "id": "syntax.infinitive",
+      "label": "Infinitive after δυνατόν ἐστι, βούλομαι, δεῖ"
+    },
+    {
+      "id": "syntax.gen.uses",
+      "label": "Uses of the genitive (possession, partitive, with verbs)"
+    },
+    {
+      "id": "syntax.dat.uses",
+      "label": "Uses of the dative (indirect object, means, with verbs)"
+    },
+    {
+      "id": "syntax.acc.extent",
+      "label": "Accusative of extent (time, space)"
+    },
+    {
+      "id": "syntax.dat.time",
+      "label": "Dative of time when"
+    },
+    {
+      "id": "syntax.article-de",
+      "label": "ὁ δέ … 'and he'"
+    },
+    {
+      "id": "syntax.attributive",
+      "label": "Attributive vs predicate position"
+    },
+    {
+      "id": "syntax.comparison",
+      "label": "Comparison with ἤ and the genitive"
+    },
+    {
+      "id": "syntax.time",
+      "label": "Expressions of time"
+    },
+    {
+      "id": "syntax.relative-clause",
+      "label": "Relative clauses"
+    },
+    {
+      "id": "syntax.result",
+      "label": "Result with ὥστε"
+    },
+    {
+      "id": "syntax.elision",
+      "label": "Elision (ἀλλ’, δ’, ἐπ’)"
+    },
+    {
+      "id": "syntax.enclitic",
+      "label": "Enclitics and their accents"
+    },
+    {
+      "id": "adv.place",
+      "label": "Adverbs of place (-θεν, -δε, -ου)"
+    },
+    {
+      "id": "adv.interrog-indef",
+      "label": "Interrogative vs indefinite adverbs (ποῦ / που)"
+    },
+    {
+      "id": "adv.formation",
+      "label": "Adverbs in -ως"
+    },
+    {
+      "id": "read.adapted-text",
+      "label": "Reading an adapted classical passage"
+    },
+    {
+      "id": "read.myth",
+      "label": "Reading a myth"
+    },
+    {
+      "id": "verb.fut.act.ind.1sg",
+      "label": "Future active, 1 sg (λύσω…)"
+    },
+    {
+      "id": "verb.fut.act.ind.2sg",
+      "label": "Future active, 2 sg (λύσω…)"
+    },
+    {
+      "id": "verb.fut.act.ind.3sg",
+      "label": "Future active, 3 sg (λύσω…)"
+    },
+    {
+      "id": "verb.fut.act.ind.1pl",
+      "label": "Future active, 1 pl (λύσω…)"
+    },
+    {
+      "id": "verb.fut.act.ind.2pl",
+      "label": "Future active, 2 pl (λύσω…)"
+    },
+    {
+      "id": "verb.fut.act.ind.3pl",
+      "label": "Future active, 3 pl (λύσω…)"
+    },
+    {
+      "id": "verb.fut.mid.ind.1sg",
+      "label": "Future middle, 1 sg (ἔσομαι, λήψομαι)"
+    },
+    {
+      "id": "verb.fut.mid.ind.3sg",
+      "label": "Future middle, 3 sg (ἔσομαι, λήψομαι)"
+    },
+    {
+      "id": "verb.fut.mid.ind.3pl",
+      "label": "Future middle, 3 pl (ἔσομαι, λήψομαι)"
+    },
+    {
+      "id": "verb.fut.act.inf",
+      "label": "Future infinitive (λύσειν)"
+    },
+    {
+      "id": "verb.fut.liquid",
+      "label": "Liquid and contract futures (μενῶ, ἐρῶ, καλῶ)"
+    },
+    {
+      "id": "verb.fut.deponent",
+      "label": "Futures in -σομαι of active verbs (ἀκούσομαι, λήψομαι)"
+    },
+    {
+      "id": "verb.eimi.fut.ind.1sg",
+      "label": "εἰμί future, 1 sg (ἔσομαι, ἔσται, ἔσονται)"
+    },
+    {
+      "id": "verb.eimi.fut.ind.3sg",
+      "label": "εἰμί future, 3 sg (ἔσομαι, ἔσται, ἔσονται)"
+    },
+    {
+      "id": "verb.eimi.fut.ind.3pl",
+      "label": "εἰμί future, 3 pl (ἔσομαι, ἔσται, ἔσονται)"
+    },
+    {
+      "id": "verb.eimi-go",
+      "label": "εἶμι 'I shall go': present and imperfect (εἶμι, ᾔειν)"
+    },
+    {
+      "id": "verb.ptc.fut.act",
+      "label": "Future participle"
+    },
+    {
+      "id": "syntax.ptc-purpose",
+      "label": "Future participle of purpose (ὡς + fut. ptc.)"
+    },
+    {
+      "id": "verb.mi.didomi",
+      "label": "δίδωμι: present and imperfect"
+    },
+    {
+      "id": "verb.mi.tithemi",
+      "label": "τίθημι: present and imperfect"
+    },
+    {
+      "id": "verb.mi.aorist",
+      "label": "Aorists of δίδωμι, τίθημι, ἵημι (ἔδωκα, δοῦναι, δούς)"
+    },
+    {
+      "id": "adj.us",
+      "label": "Adjectives in -ύς, -εῖα, -ύ (ταχύς)"
+    },
+    {
+      "id": "syntax.gen-abs",
+      "label": "Genitive absolute"
+    },
+    {
+      "id": "verb.ptc.pres.act.gen",
+      "label": "Present active participle, genitive"
+    },
+    {
+      "id": "verb.ptc.aor.act.gen",
+      "label": "Aorist active participle, genitive"
+    },
+    {
+      "id": "verb.ptc.aor.pass.gen",
+      "label": "Aorist passive participle, genitive"
+    },
+    {
+      "id": "verb.ptc.pres.mp.gen",
+      "label": "Present middle/passive participle, genitive"
+    },
+    {
+      "id": "verb.ptc.pres.act.dat",
+      "label": "Present active participle, dative"
+    },
+    {
+      "id": "verb.ptc.aor.act.acc",
+      "label": "Aorist active participle, accusative"
+    },
+    {
+      "id": "syntax.position",
+      "label": "Attributive and predicate position"
+    },
+    {
+      "id": "art.uses",
+      "label": "Further uses of the article (ὁ μέν … ὁ δέ, τὰ τῆς πόλεως)"
+    },
+    {
+      "id": "verb.mi.histemi",
+      "label": "ἵστημι: transitive and intransitive forms (ἔστησα / ἔστην / ἕστηκα)"
+    },
+    {
+      "id": "verb.mi.histemi-compounds",
+      "label": "ἀφίσταμαι, καθίστημι"
+    },
+    {
+      "id": "syntax.ptc-supp",
+      "label": "Supplementary participles (λανθάνω, τυγχάνω, φαίνομαι, φθάνω)"
+    },
+    {
+      "id": "verb.pres.act.subj.1sg",
+      "label": "Present active subjunctive, 1 sg"
+    },
+    {
+      "id": "verb.pres.act.subj.3sg",
+      "label": "Present active subjunctive, 3 sg"
+    },
+    {
+      "id": "verb.pres.act.subj.1pl",
+      "label": "Present active subjunctive, 1 pl"
+    },
+    {
+      "id": "verb.pres.act.subj.3pl",
+      "label": "Present active subjunctive, 3 pl"
+    },
+    {
+      "id": "verb.aor.act.subj.1sg",
+      "label": "Aorist active subjunctive, 1 sg"
+    },
+    {
+      "id": "verb.aor.act.subj.3sg",
+      "label": "Aorist active subjunctive, 3 sg"
+    },
+    {
+      "id": "verb.aor.act.subj.1pl",
+      "label": "Aorist active subjunctive, 1 pl"
+    },
+    {
+      "id": "verb.aor.act.subj.3pl",
+      "label": "Aorist active subjunctive, 3 pl"
+    },
+    {
+      "id": "verb.pres.mp.subj.3sg",
+      "label": "Present middle/passive subjunctive, 3 sg"
+    },
+    {
+      "id": "verb.aor.mid.subj.3sg",
+      "label": "Aorist middle subjunctive, 3 sg"
+    },
+    {
+      "id": "syntax.subj-hortatory",
+      "label": "Hortatory subjunctive (ἴωμεν)"
+    },
+    {
+      "id": "syntax.subj-deliberative",
+      "label": "Deliberative subjunctive (τί ποιῶμεν;)"
+    },
+    {
+      "id": "syntax.subj-prohibition",
+      "label": "Prohibition: μή + aorist subjunctive"
+    },
+    {
+      "id": "syntax.purpose",
+      "label": "Purpose clauses (ἵνα, ὅπως, ὡς)"
+    },
+    {
+      "id": "syntax.ean",
+      "label": "ἐάν + subjunctive (future more vivid)"
+    },
+    {
+      "id": "syntax.fear",
+      "label": "Clauses of fearing (φοβοῦμαι μή)"
+    },
+    {
+      "id": "syntax.indefinite",
+      "label": "Indefinite clauses with ἄν (ὅστις ἄν, ἐπειδάν, ἕως ἄν)"
+    },
+    {
+      "id": "verb.mi.deiknymi",
+      "label": "δείκνυμι: -νυμι verbs"
+    },
+    {
+      "id": "syntax.indirect-hoti",
+      "label": "Indirect statement with ὅτι / ὡς"
+    },
+    {
+      "id": "syntax.indirect-question",
+      "label": "Indirect questions"
+    },
+    {
+      "id": "syntax.agent",
+      "label": "Agent with ὑπό + genitive"
+    },
+    {
+      "id": "verb.prefix-euphony",
+      "label": "Prefixes before vowels and consonants (ἀφ-, συλ-, ἐμ-)"
+    },
+    {
+      "id": "syntax.indirect-inf",
+      "label": "Indirect statement with the infinitive"
+    },
+    {
+      "id": "syntax.indirect-ptc",
+      "label": "Indirect statement with the participle"
+    },
+    {
+      "id": "verb.phemi",
+      "label": "φημί (φησί, φασί, ἔφη)"
+    },
+    {
+      "id": "syntax.rel-attraction",
+      "label": "Relative attraction"
+    },
+    {
+      "id": "verb.aor.pass.ind.1sg",
+      "label": "Aorist passive, 1 sg (ἐλύθην)"
+    },
+    {
+      "id": "verb.aor.pass.ind.3sg",
+      "label": "Aorist passive, 3 sg (ἐλύθην)"
+    },
+    {
+      "id": "verb.aor.pass.ind.3pl",
+      "label": "Aorist passive, 3 pl (ἐλύθην)"
+    },
+    {
+      "id": "verb.fut.pass.ind.3sg",
+      "label": "Future passive, 3 sg (λυθήσεται)"
+    },
+    {
+      "id": "verb.aor.pass.inf",
+      "label": "Aorist passive infinitive (λυθῆναι)"
+    },
+    {
+      "id": "verb.ptc.aor.pass",
+      "label": "Aorist passive participle (λυθείς)"
+    },
+    {
+      "id": "verb.aor-deponent",
+      "label": "Passive deponents (ἐβουλήθην, ἐφοβήθην)"
+    },
+    {
+      "id": "syntax.hopos-fut",
+      "label": "ὅπως + future indicative"
+    },
+    {
+      "id": "verb.pres.act.opt.1sg",
+      "label": "Present active optative, 1 sg"
+    },
+    {
+      "id": "verb.pres.act.opt.3sg",
+      "label": "Present active optative, 3 sg"
+    },
+    {
+      "id": "verb.pres.act.opt.3pl",
+      "label": "Present active optative, 3 pl"
+    },
+    {
+      "id": "verb.aor.act.opt.1sg",
+      "label": "Aorist active optative, 1 sg"
+    },
+    {
+      "id": "verb.aor.act.opt.3sg",
+      "label": "Aorist active optative, 3 sg"
+    },
+    {
+      "id": "verb.aor.act.opt.3pl",
+      "label": "Aorist active optative, 3 pl"
+    },
+    {
+      "id": "verb.pres.mp.opt.3sg",
+      "label": "Present middle/passive optative, 3 sg"
+    },
+    {
+      "id": "syntax.opt-wish",
+      "label": "Wishes with the optative (εἴθε, εἰ γάρ)"
+    },
+    {
+      "id": "syntax.opt-secondary",
+      "label": "Optative in secondary sequence"
+    },
+    {
+      "id": "syntax.opt-indirect",
+      "label": "Optative in indirect speech"
+    },
+    {
+      "id": "syntax.cases",
+      "label": "Uses of the genitive, dative and accusative in full"
+    },
+    {
+      "id": "pron.correlatives",
+      "label": "Correlatives (τοσοῦτος … ὅσος, τοιοῦτος … οἷος)"
+    },
+    {
+      "id": "verb.perf.mp.ind.1sg",
+      "label": "Perfect middle/passive, 1 sg (λέλυμαι)"
+    },
+    {
+      "id": "verb.perf.mp.ind.3sg",
+      "label": "Perfect middle/passive, 3 sg (λέλυμαι)"
+    },
+    {
+      "id": "verb.perf.mp.ind.3pl",
+      "label": "Perfect middle/passive, 3 pl (λέλυμαι)"
+    },
+    {
+      "id": "verb.plpf.mp.ind.3sg",
+      "label": "Pluperfect middle/passive, 3 sg"
+    },
+    {
+      "id": "verb.perf.act.ind.1sg",
+      "label": "Perfect active, 1 sg (λέλυκα)"
+    },
+    {
+      "id": "verb.perf.act.ind.3sg",
+      "label": "Perfect active, 3 sg (λέλυκα)"
+    },
+    {
+      "id": "verb.perf.act.ind.3pl",
+      "label": "Perfect active, 3 pl (λέλυκα)"
+    },
+    {
+      "id": "verb.plpf.act.ind.3sg",
+      "label": "Pluperfect active, 3 sg (ἐλελύκει)"
+    },
+    {
+      "id": "verb.perf.act.inf",
+      "label": "Perfect active infinitive (λελυκέναι)"
+    },
+    {
+      "id": "verb.ptc.perf.act",
+      "label": "Perfect active participle (λελυκώς)"
+    },
+    {
+      "id": "verb.perf.reduplication",
+      "label": "Reduplication and the perfect stem"
+    },
+    {
+      "id": "verb.oida",
+      "label": "οἶδα, ᾔδη, εἰδώς"
+    },
+    {
+      "id": "verb.hesteka",
+      "label": "ἕστηκα 'I stand', τέθνηκα 'I am dead'"
+    },
+    {
+      "id": "syntax.prin",
+      "label": "πρίν with the infinitive and with ἄν"
+    },
+    {
+      "id": "syntax.articular-inf",
+      "label": "Articular infinitive (τὸ μανθάνειν)"
+    },
+    {
+      "id": "syntax.hos",
+      "label": "Uses of ὡς"
+    },
+    {
+      "id": "syntax.opt-potential",
+      "label": "Potential optative (ἄν + optative)"
+    },
+    {
+      "id": "syntax.acc-abs",
+      "label": "Accusative absolute (ἐξόν, δέον)"
+    },
+    {
+      "id": "syntax.cond.simple",
+      "label": "Simple conditions (εἰ + indicative)"
+    },
+    {
+      "id": "syntax.cond.fmv",
+      "label": "Future more vivid (ἐάν + subj., future)"
+    },
+    {
+      "id": "syntax.cond.fl",
+      "label": "Future less vivid (εἰ + opt., ἄν + opt.)"
+    },
+    {
+      "id": "syntax.cond.cf-present",
+      "label": "Present contrary to fact (εἰ + impf., ἄν + impf.)"
+    },
+    {
+      "id": "syntax.cond.cf-past",
+      "label": "Past contrary to fact (εἰ + aor., ἄν + aor.)"
+    },
+    {
+      "id": "syntax.cond.general",
+      "label": "General conditions (ἐάν + subj. / εἰ + opt.)"
+    },
+    {
+      "id": "verb.pres.act.imp.3sg",
+      "label": "Third-person imperative, 3 sg (λυέτω)"
+    },
+    {
+      "id": "verb.imp.3rd",
+      "label": "Third-person imperatives (λυέτω, λυόντων)"
+    },
+    {
+      "id": "verb.verbal-adj",
+      "label": "Verbal adjectives in -τός and -τέος"
+    },
+    {
+      "id": "syntax.negatives",
+      "label": "Negatives: οὐ / μή, μὴ οὐ, οὐ μή"
+    },
+    {
+      "id": "syntax.hindering",
+      "label": "Verbs of hindering and denying (κωλύω, μή + inf.)"
+    },
+    {
+      "id": "verb.ptc.summary",
+      "label": "Participles: all uses"
+    },
+    {
+      "id": "spell.crasis",
+      "label": "Crasis (κἀγώ, τοὔνομα)"
+    },
+    {
+      "id": "spell.elision",
+      "label": "Elision and prodelision (ἀλλ', ἐπ' αὐτόν)"
+    },
+    {
+      "id": "syntax.particles",
+      "label": "Particles (γε, δή, τοι, μέντοι, οὖν, ἄρα)"
+    },
+    {
+      "id": "noun.dual",
+      "label": "The dual (recognition)"
+    },
+    {
+      "id": "read.dialects",
+      "label": "Attic vs Ionic and Koine forms (recognition)"
+    },
+    {
+      "id": "read.strategy",
+      "label": "Reading strategy: find the verb, then the subject"
+    },
+    {
+      "id": "read.connected",
+      "label": "Connected reading with running vocabulary"
+    },
+    {
+      "id": "read.original",
+      "label": "Reading an unadapted original"
+    },
+    {
+      "id": "read.xenophon",
+      "label": "Reading Xenophon"
+    },
+    {
+      "id": "read.plato",
+      "label": "Reading Plato"
+    },
+    {
+      "id": "read.thucydides",
+      "label": "Reading Thucydides (adapted)"
+    },
+    {
+      "id": "read.lysias",
+      "label": "Reading Lysias (adapted)"
+    },
+    {
+      "id": "read.unseen",
+      "label": "Unseen translation and comprehension"
+    },
+    {
+      "id": "adj.comp",
+      "label": "Comparatives declined (σοφώτερος, -τέρα, -τερον)"
+    },
+    {
+      "id": "adj.sup",
+      "label": "Superlatives declined (σοφώτατος, -τάτη, -τατον)"
+    },
+    {
+      "id": "vocab.stage2",
+      "label": "Stage 2 vocabulary (DCC tiers 2–3)"
+    }
+  ]
+}

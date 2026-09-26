@@ -233,11 +233,13 @@ export type VocabItem = {
   tags: string[];
   cognates: { derivatives?: string[]; cognates?: string[] } | null;
   readings: string[];
+  lessons: string[];
+  source?: string;
 };
 export type VocabIndex = {
   attribution: string;
   attribution_url: string;
-  facets: { topics: Facet[]; tags: Facet[]; groups: Facet[]; kinds: Facet[]; pos: Facet[]; tiers: Facet[]; readings: Facet[] };
+  facets: { topics: Facet[]; tags: Facet[]; groups: Facet[]; kinds: Facet[]; pos: Facet[]; tiers: Facet[]; readings: Facet[]; lessons: Facet[] };
   items: VocabItem[];
 };
 export type NounTable = {
@@ -357,4 +359,112 @@ export async function pullProgress<T>(code: string): Promise<{ saved_at: number;
   if (response.status === 404) return null;
   if (!response.ok) throw new Error(await getError(response));
   return response.json();
+}
+
+// ---------------------------------------------------------------------------
+// Course
+// ---------------------------------------------------------------------------
+
+import type { CourseIndex, CourseTest, ImageRecord, Item, Lesson, Placement, Response as ItemResponse, TrackDetail } from "./course";
+
+export async function getCourse(): Promise<CourseIndex> {
+  const response = await fetch(`${API_BASE}/api/course`);
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}
+
+export async function getLesson(id: string): Promise<Lesson> {
+  const response = await fetch(`${API_BASE}/api/course/lesson/${encodeURIComponent(id)}`);
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}
+
+export async function getCourseTest(id: string, seed: number): Promise<CourseTest> {
+  const response = await fetch(`${API_BASE}/api/course/test/${encodeURIComponent(id)}?seed=${seed}`);
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}
+
+export async function getDrill(skills: string[], scope: string, n = 8, seed = 0): Promise<Item[]> {
+  const params = new URLSearchParams({ skills: skills.join(","), scope, n: String(n), seed: String(seed) });
+  const response = await fetch(`${API_BASE}/api/course/drill?${params}`);
+  if (!response.ok) throw new Error(await getError(response));
+  const body = await response.json();
+  return body.items ?? [];
+}
+
+export async function getTrack(id: string): Promise<TrackDetail> {
+  const response = await fetch(`${API_BASE}/api/course/track/${encodeURIComponent(id)}`);
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}
+
+// ---------------------------------------------------------------------------
+// Guided reading: which lexicon words a text uses
+// ---------------------------------------------------------------------------
+
+export type AnalyzedEntry = { id: string; lemma: string; short: string; rank: number; source: string; count: number };
+export type Analysis = {
+  words: number;
+  names: number;
+  matched: number;
+  /** share of non-name word tokens that are forms of a lexicon word */
+  coverage: number;
+  /** the same, DCC core list only */
+  dcc_coverage: number;
+  entries: AnalyzedEntry[];
+  unknown: { text: string; count: number }[];
+};
+export type LibraryCoverage = Record<string, { coverage: number; dcc_coverage: number; words: number; unknown: number }>;
+
+export function analyzeText(text: string): Promise<Analysis> {
+  return postJson("/api/analyze", { text });
+}
+
+export async function getLibraryCoverage(): Promise<LibraryCoverage> {
+  const response = await fetch(`${API_BASE}/api/analyze/library`);
+  if (!response.ok) throw new Error(await getError(response));
+  return (await response.json()).passages ?? {};
+}
+
+export async function getPlacement(seed: number): Promise<Placement> {
+  const response = await fetch(`${API_BASE}/api/course/placement?seed=${seed}`);
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}
+
+export async function getCourseImages(): Promise<ImageRecord[]> {
+  const response = await fetch(`${API_BASE}/api/course/images`);
+  if (!response.ok) throw new Error(await getError(response));
+  const body = await response.json();
+  return body.images ?? [];
+}
+
+export type CheckFeedback = { lemma?: string; cell?: string; label?: string }[];
+
+/** Server-side grading with morphology-aware feedback for typed forms. */
+export function checkItem(item: Item, response: ItemResponse, accents: boolean, scope?: string): Promise<{ correct: boolean; feedback?: CheckFeedback }> {
+  return postJson("/api/course/check", { item, response, accents, scope });
+}
+
+export type SkillDetail = {
+  skill: { id: string; label: string; paradigm: string | null; family: string };
+  lessons: { id: string; title_grc: string; title_en: string; track: string | null }[];
+  paradigm: string | null;
+  /** the drill generator can make items for it (Practise) */
+  drillable: boolean;
+};
+
+export async function getCourseSkill(id: string): Promise<SkillDetail> {
+  const response = await fetch(`${API_BASE}/api/course/skill/${encodeURIComponent(id)}`);
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}
+
+export type ItemRef = { id: string; key?: string; lesson?: string; skills?: string[] };
+
+/** Rebuild error-log items: authored ones by id, generated ones as fresh
+ * drill items on the same skills. `missing` lists refs that yield nothing. */
+export function getCourseItems(refs: ItemRef[], scope: string | null, seed = 0): Promise<{ items: import("./skills").DeckItem[]; missing: string[] }> {
+  return postJson("/api/course/items", { refs, scope, seed });
 }

@@ -1,0 +1,110 @@
+{
+ "raw_base": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/master/data",
+ "note": "Originals used by the history track (hist.1–7, gate-hist). Built by scripts/build_course_texts.py into course_data/texts/<id>.json.",
+ "passages": [
+  {
+   "id": "thuc-2.40",
+   "category": "history",
+   "level": "advanced",
+   "title": "The school of Hellas",
+   "author": "Thucydides",
+   "work": "History of the Peloponnesian War",
+   "ref": "2.40.1–3, 2.41.1",
+   "blurb": "Pericles' Funeral Speech: we love beauty without extravagance and wisdom without softness; the whole city is an education for Greece.",
+   "file": "tlg0003/tlg001/tlg0003.tlg001.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2",
+   "refs": ["2.40.1", "2.40.2", "2.40.3", "2.41.1"]
+  },
+  {
+   "id": "thuc-3.49",
+   "category": "history",
+   "level": "advanced",
+   "title": "The second trireme",
+   "author": "Thucydides",
+   "work": "History of the Peloponnesian War",
+   "ref": "3.49.1–4",
+   "blurb": "427 BC: the Athenians change their minds about Mytilene and send a second trireme racing after the first.",
+   "file": "tlg0003/tlg001/tlg0003.tlg001.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2",
+   "refs": ["3.49.1", "3.49.2", "3.49.3", "3.49.4"]
+  },
+  {
+   "id": "thuc-7.84",
+   "category": "history",
+   "level": "advanced",
+   "title": "At the Assinarus",
+   "author": "Thucydides",
+   "work": "History of the Peloponnesian War",
+   "ref": "7.84.1–5, 7.87.6",
+   "blurb": "413 BC: the Athenian army in Sicily is destroyed at the river Assinarus; few out of many came home.",
+   "file": "tlg0003/tlg001/tlg0003.tlg001.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2",
+   "refs": ["7.84.1", "7.84.2", "7.84.3", "7.84.4", "7.84.5", "7.87.6"]
+  },
+  {
+   "id": "xen-hell-2.1.27",
+   "category": "history",
+   "level": "advanced",
+   "title": "Aegospotami",
+   "author": "Xenophon",
+   "work": "Hellenica",
+   "ref": "2.1.27–29",
+   "blurb": "405 BC: Lysander catches the Athenian fleet on the beach; Conon escapes with nine ships and the Paralus sails for Athens.",
+   "file": "tlg0032/tlg001/tlg0032.tlg001.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0032.tlg001.perseus-grc2",
+   "refs": ["2.1.27", "2.1.28", "2.1.29"]
+  },
+  {
+   "id": "xen-hell-2.2.20",
+   "category": "history",
+   "level": "advanced",
+   "title": "The peace of 404",
+   "author": "Xenophon",
+   "work": "Hellenica",
+   "ref": "2.2.20–23",
+   "blurb": "The Spartans' terms: the Long Walls come down, the fleet is handed over; the walls are demolished to the music of flute-girls.",
+   "file": "tlg0032/tlg001/tlg0032.tlg001.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0032.tlg001.perseus-grc2",
+   "refs": ["2.2.20", "2.2.21", "2.2.22", "2.2.23"]
+  },
+  {
+   "id": "xen-hell-2.3.54",
+   "category": "history",
+   "level": "advanced",
+   "title": "The death of Theramenes",
+   "author": "Xenophon",
+   "work": "Hellenica",
+   "ref": "2.3.54–56",
+   "blurb": "404/3 BC: the Thirty drag Theramenes from the altar; he drinks the hemlock with a joke.",
+   "file": "tlg0032/tlg001/tlg0032.tlg001.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0032.tlg001.perseus-grc2",
+   "refs": ["2.3.54", "2.3.55", "2.3.56"]
+  },
+  {
+   "id": "xen-anab-1.8.24",
+   "category": "history",
+   "level": "advanced",
+   "title": "Cyrus sees the King",
+   "author": "Xenophon",
+   "work": "Anabasis",
+   "ref": "1.8.24–28",
+   "blurb": "Cunaxa, 401 BC: Cyrus charges his brother the King, wounds him, and is killed; his faithful Artapates dies beside him.",
+   "file": "tlg0032/tlg006/tlg0032.tlg006.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0032.tlg006.perseus-grc2",
+   "refs": ["1.8.24", "1.8.25", "1.8.26", "1.8.27", "1.8.28"]
+  },
+  {
+   "id": "xen-anab-1.8.1",
+   "category": "history",
+   "level": "advanced",
+   "title": "The King is coming",
+   "author": "Xenophon",
+   "work": "Anabasis",
+   "ref": "1.8.1–4",
+   "blurb": "Cunaxa, 401 BC: a Persian horseman gallops up shouting that the King is approaching; Cyrus and the Greeks arm in haste.",
+   "file": "tlg0032/tlg006/tlg0032.tlg006.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0032.tlg006.perseus-grc2",
+   "refs": ["1.8.1", "1.8.2", "1.8.3", "1.8.4"]
+  }
+ ]
+}

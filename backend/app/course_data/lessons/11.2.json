@@ -1,0 +1,1383 @@
+{
+ "id": "11.2",
+ "title_grc": "οἱ μάρτυρες",
+ "title_en": "The witnesses",
+ "summary_grc": "ὁ Δημόκριτος μάρτυρας ζητεῖ· ὁ δὲ Σύρος, ὃς τὸ πρᾶγμα εἶδεν, οὐ μαρτυρεῖ· ὁ γὰρ νόμος κωλύει.",
+ "summary_en": "Who can be a witness in an Athenian court, and who cannot. οὐ and μή and their compounds (οὐδείς / μηδείς, οὔτε / μήτε), the strong denial οὐ μή, μὴ οὐ after verbs of hindering, and a summary of what participles do.",
+ "cover": "panel-11-2-a",
+ "caption_grc": "«ὁ μάρτυς μηδὲν λεγέτω ὃ μὴ εἶδεν.» — «οὐ μὴ παραδῶ τὸν Σύρον.»",
+ "names": {
+  "Ἀντίμαχος": [
+   "Ἀντιμάχου",
+   "Ἀντιμάχῳ",
+   "Ἀντίμαχον",
+   "Ἀντίμαχε"
+  ],
+  "Μάνης": [
+   "Μάνου",
+   "Μάνῃ",
+   "Μάνην",
+   "Μάνη"
+  ]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "panel-11-2-a",
+   "sentences": [
+    {
+     "text": "ἑσπέρα ἐστίν· οἱ φίλοι ἐν τῇ αὐλῇ τοῦ Ἀρίστωνος καθίζονται, καὶ ὁ Δημόκριτος μάρτυρας ζητεῖ.",
+     "glosses": [
+      {
+       "word": "αὐλῇ",
+       "kind": "en",
+       "value": "courtyard"
+      },
+      {
+       "word": "καθίζονται",
+       "kind": "en",
+       "value": "sit down"
+      },
+      {
+       "word": "μάρτυρας",
+       "kind": "pic",
+       "value": "martys"
+      }
+     ]
+    },
+    {
+     "text": "«τίς μοι μαρτυρήσει; εἰ ὁ Κλεινίας ἔζη, μάρτυς ἂν ἦν.»",
+     "glosses": [
+      {
+       "word": "μαρτυρήσει",
+       "kind": "<",
+       "value": "μάρτυς | μαρτυρέω (be a witness, testify) | μαρτυρήσει (will testify)"
+      },
+      {
+       "word": "ἔζη",
+       "kind": "en",
+       "value": "εἰ … ἔζη, … ἂν ἦν: if he were alive, he would be (ζάω, live)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Ἀρίστων· «ἐγώ σοι μαρτυρήσω. τοῦ γὰρ ἦρος μετὰ σοῦ εἰς τὸν ἀγρὸν ἦλθον, καὶ τοῖς ἐμοῖς ὀφθαλμοῖς εἶδον τὸν ὅρον ὀρθὸν ὄντα ἐν τῷ προτέρῳ τόπῳ.»",
+     "glosses": [
+      {
+       "word": "ἦρος",
+       "kind": "en",
+       "value": "τοῦ ἦρος: in the spring (τὸ ἔαρ)"
+      },
+      {
+       "word": "ὀφθαλμοῖς",
+       "kind": "en",
+       "value": "eyes (ὁ ὀφθαλμός)"
+      },
+      {
+       "word": "προτέρῳ",
+       "kind": "↔",
+       "value": "πρότερος ↔ ὕστερος (earlier, former ↔ later)"
+      },
+      {
+       "word": "ὀρθὸν",
+       "kind": "en",
+       "value": "upright, straight; right"
+      }
+     ]
+    },
+    {
+     "text": "«ἡ δὲ ἐλαία τότε ἤδη τετμημένη ἦν· οἱ γὰρ Λακεδαιμόνιοι πέρυσιν εἰσβαλόντες πολλὰ δένδρα ἔτεμον.»",
+     "glosses": [
+      {
+       "word": "τετμημένη",
+       "kind": "|",
+       "value": "τέμνω | τετμημένη ἦν (had been cut)"
+      },
+      {
+       "word": "πέρυσιν",
+       "kind": "en",
+       "value": "last year"
+      },
+      {
+       "word": "εἰσβαλόντες",
+       "kind": "<",
+       "value": "εἰς + βάλλω: having invaded"
+      },
+      {
+       "word": "πολλὰ",
+       "kind": "en",
+       "value": "many"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Εὔδημος ἀναπηδᾷ· «καὶ ἐγὼ μαρτυρήσω! ὁ γὰρ Ἀντίμαχος κακὸς ἀνήρ ἐστιν.»",
+     "glosses": [
+      {
+       "word": "ἀναπηδᾷ",
+       "kind": "en",
+       "value": "jumps up"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Δημόκριτος· «ἀλλὰ σὺ οὐδὲν εἶδες, ὦ Εὔδημε. ὁ μάρτυς μηδὲν λεγέτω ὃ μὴ τοῖς ὀφθαλμοῖς εἶδεν, μηδὲ ὀργιζέσθω.»",
+     "glosses": [
+      {
+       "word": "οὐδὲν",
+       "kind": "en",
+       "value": "nothing (a fact: οὐ-)"
+      },
+      {
+       "word": "μηδὲν",
+       "kind": "en",
+       "value": "nothing (in a command: μη-)"
+      },
+      {
+       "word": "ὀργιζέσθω",
+       "kind": "en",
+       "value": "let him not be angry (ὀργίζομαι)"
+      }
+     ]
+    },
+    {
+     "text": "«μήτε ψεύδου μήτε ὀργίζου.» ὁ δὲ Εὔδημος· «οὐ μὴ σιγήσω!» πάντες δὲ γελῶσιν.",
+     "glosses": [
+      {
+       "word": "μήτε",
+       "kind": "en",
+       "value": "μήτε … μήτε: neither … nor (in a command)"
+      },
+      {
+       "word": "ψεύδου",
+       "kind": "en",
+       "value": "lie! (ψεύδομαι)"
+      },
+      {
+       "word": "ὀργίζου",
+       "kind": "en",
+       "value": "be angry!"
+      },
+      {
+       "word": "σιγήσω",
+       "kind": "note",
+       "value": "οὐ μὴ σιγήσω: 'I will certainly not be quiet!' οὐ μή + aorist subjunctive is the strongest denial (σιγάω, be quiet)."
+      },
+      {
+       "word": "γελῶσιν",
+       "kind": "en",
+       "value": "laugh"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-11-2-b",
+   "sentences": [
+    {
+     "text": "τότε ὁ Σύρος, ὃς πρότερον οὐδὲν ἔλεγεν, προσέρχεται.",
+     "glosses": []
+    },
+    {
+     "text": "«ἐγὼ τὸ πρᾶγμα εἶδον», φησίν. «τοῦ θέρους ὁ δεσπότης με εἰς τὸν ἀγρὸν ἔπεμψεν. νυκτὸς δὲ οὔσης τὸν Μάνην, τὸν τοῦ Ἀντιμάχου δοῦλον, εἶδον τὸν ὅρον κινοῦντα.»",
+     "glosses": [
+      {
+       "word": "θέρους",
+       "kind": "en",
+       "value": "τοῦ θέρους: in the summer"
+      },
+      {
+       "word": "οὔσης",
+       "kind": "note",
+       "value": "νυκτὸς οὔσης: genitive absolute, 'it being night', 'at night'"
+      },
+      {
+       "word": "κινοῦντα",
+       "kind": "en",
+       "value": "moving (κινέω); εἶδον τὸν Μάνην … κινοῦντα 'I saw Manes moving …'"
+      }
+     ]
+    },
+    {
+     "text": "«ὁ δὲ Ἀντίμαχος αὐτὸς παρῆν. οὔτε ὁ Μάνης οὔτε ὁ Ἀντίμαχός με εἶδεν.»",
+     "glosses": [
+      {
+       "word": "οὔτε",
+       "kind": "en",
+       "value": "οὔτε … οὔτε: neither … nor"
+      }
+     ]
+    },
+    {
+     "text": "πάντες θαυμάζουσιν. ὁ δὲ Λύσις· «ἄριστα! ὁ Σύρος μάρτυς ἔσται.»",
+     "glosses": []
+    },
+    {
+     "text": "ὁ δὲ Ἀρίστων ἀνανεύει· «οὐχ οἷόν τε, ὦ παῖ. ὁ γὰρ νόμος κωλύει τοὺς δούλους μαρτυρεῖν· ὁ δοῦλος οὔτε μάρτυς γίγνεται οὔτε ἐν τῷ δικαστηρίῳ λέγει.»",
+     "glosses": [
+      {
+       "word": "ἀνανεύει",
+       "kind": "en",
+       "value": "tilts his head back: the Greek gesture for 'no'"
+      },
+      {
+       "word": "οἷόν",
+       "kind": "en",
+       "value": "οὐχ οἷόν τε: it is not possible"
+      },
+      {
+       "word": "νόμος",
+       "kind": "en",
+       "value": "law, custom"
+      },
+      {
+       "word": "κωλύει",
+       "kind": "en",
+       "value": "prevents (+ accusative + infinitive)"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Ἐλπίς· «οὐδὲ ἡ μήτηρ;» ὁ δὲ Ἀρίστων· «οὐδὲ αἱ γυναῖκες μαρτυροῦσιν. οὕτως ἔχει ὁ νόμος.»",
+     "glosses": [
+      {
+       "word": "οὐδὲ",
+       "kind": "en",
+       "value": "not even, and not"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Ἐλπὶς ὀργίζεται· «οὐ δίκαιος ὁ νόμος!» ἡ δὲ Χρυσίς· «μήτε κλαῖε μήτε βόα, ὦ θύγατερ.»",
+     "glosses": [
+      {
+       "word": "ὀργίζεται",
+       "kind": "en",
+       "value": "is angry"
+      },
+      {
+       "word": "δίκαιος",
+       "kind": "en",
+       "value": "just, fair"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-11-2-c",
+   "sentences": [
+    {
+     "text": "ὁ δὲ Δημόκριτος· «ὁ δοῦλος ἐν βασάνῳ μόνον μαρτυρεῖ· ἐὰν γὰρ ὁ δεσπότης αὐτὸν παραδῷ, οἱ ἐναντίοι αὐτὸν βασανίζουσιν.»",
+     "glosses": [
+      {
+       "word": "βασάνῳ",
+       "kind": "note",
+       "value": "ἐν βασάνῳ: under torture. The law counted a slave's words only if they were taken under torture; see the culture box."
+      },
+      {
+       "word": "μόνον",
+       "kind": "en",
+       "value": "only"
+      },
+      {
+       "word": "παραδῷ",
+       "kind": "en",
+       "value": "hands over (παραδίδωμι)"
+      },
+      {
+       "word": "ἐναντίοι",
+       "kind": "en",
+       "value": "the opponents (in the suit)"
+      },
+      {
+       "word": "βασανίζουσιν",
+       "kind": "en",
+       "value": "torture, question under torture"
+      }
+     ]
+    },
+    {
+     "text": "ἡ Χρυσὶς καὶ ἡ Ἐλπὶς φοβοῦνται· ὁ δὲ Σύρος οὐδὲν λέγει.",
+     "glosses": []
+    },
+    {
+     "text": "ὁ δὲ Ἀρίστων ἀνίσταται· «οὐ μὴ παραδῶ τὸν Σύρον. μηδεὶς αὐτὸν λαμβανέτω, μηδὲ σὺ τοῦτο ζήτει, ὦ Δημόκριτε.»",
+     "glosses": [
+      {
+       "word": "ἀνίσταται",
+       "kind": "<",
+       "value": "ἀνά + ἵσταμαι: stands up"
+      },
+      {
+       "word": "παραδῶ",
+       "kind": "note",
+       "value": "οὐ μὴ παραδῶ: 'I will certainly not hand over' (οὐ μή + aorist subjunctive)"
+      },
+      {
+       "word": "μηδεὶς",
+       "kind": "en",
+       "value": "no one (in a command)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Δημόκριτος· «οὐ ζητῶ. ἀλλ’ οὐδὲν κωλύει με μὴ οὐ τὸν Ἀντίμαχον προκαλεῖσθαι τὸν Μάνην παραδοῦναι.»",
+     "glosses": [
+      {
+       "word": "μὴ",
+       "kind": "note",
+       "value": "οὐδὲν κωλύει με μὴ οὐ …: 'nothing prevents me from …'. After a verb of hindering that is itself negated, the infinitive takes μὴ οὐ, which English does not translate."
+      },
+      {
+       "word": "προκαλεῖσθαι",
+       "kind": "en",
+       "value": "to challenge (someone to do something)"
+      }
+     ]
+    },
+    {
+     "text": "«ὁ δὲ Ἀντίμαχος οὐ παραδώσει· φοβεῖται γὰρ τὸ ἀληθές. καὶ ἐν τῷ δικαστηρίῳ ἐρῶ ὅτι οὐκ ἤθελε παραδοῦναι.»",
+     "glosses": [
+      {
+       "word": "ἐρῶ",
+       "kind": "|",
+       "value": "λέγω | ἐρῶ (I shall say)"
+      },
+      {
+       "word": "ἤθελε",
+       "kind": "en",
+       "value": "was willing (ἐθέλω)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Σύρος μικρὸν γελάσας· «εὖ ἔχει. ἐγὼ μὲν οὐδὲν λέγω, ὁ δὲ Μάνης οὐδὲν ἐρεῖ, οἱ δὲ δικασταὶ πάντα γνώσονται.»",
+     "glosses": [
+      {
+       "word": "γελάσας",
+       "kind": "en",
+       "value": "laughing (γελάω)"
+      },
+      {
+       "word": "εὖ",
+       "kind": "en",
+       "value": "εὖ ἔχει: all right, that is fine"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "μαρτυς",
+   "pic": "martys",
+   "gloss_grc": "ὁ μάρτυς · τοῦ μάρτυρος · οἱ μάρτυρες"
+  },
+  {
+   "id": "μαρτυρεω",
+   "pic": "martys",
+   "gloss_grc": "μαρτυρῶ < μάρτυς"
+  },
+  {
+   "id": "κωλυω",
+   "gloss_grc": "κωλύω τινὰ λέγειν"
+  },
+  {
+   "id": "ουδεις",
+   "gloss_grc": "οὐδείς, οὐδεμία, οὐδέν"
+  },
+  {
+   "id": "μηδεις",
+   "gloss_grc": "μηδείς, μηδεμία, μηδέν"
+  },
+  {
+   "id": "ουδε",
+   "gloss_grc": "οὐδὲ ἡ μήτηρ"
+  },
+  {
+   "id": "μηδε",
+   "gloss_grc": "μηδὲ σύ"
+  },
+  {
+   "id": "ουτεουτε",
+   "gloss_grc": "οὔτε μάρτυς γίγνεται οὔτε λέγει"
+  },
+  {
+   "id": "μητεμητε",
+   "gloss_grc": "μήτε κλαῖε μήτε βόα"
+  },
+  {
+   "id": "οφθαλμος",
+   "gloss_grc": "τοῖς ὀφθαλμοῖς ὁρῶμεν"
+  },
+  {
+   "id": "προτερος",
+   "gloss_grc": "πρότερος ↔ ὕστερος"
+  }
+ ],
+ "notice": [
+  "σὺ οὐδὲν εἶδες. — ὁ μάρτυς μηδὲν λεγέτω ὃ μὴ εἶδεν.",
+  "ὁ δοῦλος οὔτε μάρτυς γίγνεται οὔτε λέγει. — μήτε ψεύδου μήτε ὀργίζου.",
+  "οὐ μὴ σιγήσω! — οὐ μὴ παραδῶ τὸν Σύρον.",
+  "ὁ νόμος κωλύει τοὺς δούλους μαρτυρεῖν. — οὐδὲν κωλύει με μὴ οὐ προκαλεῖσθαι.",
+  "νυκτὸς οὔσης τὸν Μάνην εἶδον τὸν ὅρον κινοῦντα."
+ ],
+ "grammar": {
+  "md": "**Two words for 'not'.** Greek has **οὐ** (οὐκ, οὐχ) and **μή**. οὐ denies a *fact*: σὺ **οὐδὲν** εἶδες 'you saw nothing'. μή is the negative of *will and thought*: commands and prohibitions (μὴ λεγέτω), wishes, conditions (εἰ μή), purpose clauses, and infinitives outside indirect statement. A relative clause or a participle that means 'anyone who …, whatever …' also takes μή: ὁ μάρτυς μηδὲν λεγέτω **ὃ μὴ** εἶδεν 'let the witness say nothing *which he did not see*' (whatever it may be).\n\n| with οὐ | with μή | |\n|---|---|---|\n| οὐδείς, οὐδεμία, οὐδέν | μηδείς, μηδεμία, μηδέν | no one, nothing |\n| οὐδέ | μηδέ | and not, not even |\n| οὔτε … οὔτε | μήτε … μήτε | neither … nor |\n| οὐκέτι | μηκέτι | no longer |\n\nThe compounds follow the same rule: ὁ δοῦλος **οὔτε** μάρτυς γίγνεται **οὔτε** λέγει (fact); **μήτε** ψεύδου **μήτε** ὀργίζου (command).\n\n**Piling up.** A compound negative after another negative *strengthens* it: οὐδεὶς οὐδὲν εἶδεν 'no one saw anything'. A simple οὐ after a compound *cancels*: οὐδεὶς οὐκ εἶδεν 'everyone saw'.\n\n**οὐ μή** + aorist subjunctive (or future indicative) is the strongest denial: **οὐ μὴ** παραδῶ τὸν Σύρον 'I will certainly not hand Syros over'; οὐ μὴ σιγήσω 'I will never be quiet'.\n\n**Verbs of hindering.** κωλύω τινὰ + infinitive 'prevent someone from doing': ὁ νόμος κωλύει τοὺς δούλους μαρτυρεῖν. After verbs of hindering, preventing and denying Greek may add a μή that English leaves out (εἴργω σε μὴ ἐλθεῖν 'I keep you from coming'). If the main verb is itself negated, that becomes **μὴ οὐ**: οὐδὲν κωλύει με **μὴ οὐ** προκαλεῖσθαι 'nothing prevents me from challenging him'.\n\n**Participles: everything they do.**\n\n| use | example | |\n|---|---|---|\n| attributive, or with the article as a noun | ὁ φεύγων, ὁ διώκων | the defendant, the prosecutor |\n| circumstantial (when, because, although, if) | οἱ Λακεδαιμόνιοι εἰσβαλόντες ἔτεμον | having invaded, they cut |\n| genitive absolute | νυκτὸς οὔσης | it being night |\n| supplementary, with verbs of perceiving and knowing | εἶδον τὸν Μάνην τὸν ὅρον κινοῦντα | I saw Manes moving the stone |\n| supplementary, completing the verb | παύεται λέγων; λανθάνει φεύγων | stops speaking; escapes notice |\n| future, of purpose | ἦλθε μαρτυρήσων | came to testify |\n\nA participle is negated with οὐ when it states a fact, with μή when it means 'if' or 'anyone who': ὁ μὴ ἰδών 'anyone who did not see'.",
+  "paradigms": [
+   "oudeis"
+  ],
+  "diagram": "diagram-negatives"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Complete the negatives: οὐ- for facts, μη- for commands.",
+   "template": "σὺ ___δὲν εἶδες. ὁ μάρτυς ___δὲν λεγέτω. ὁ δοῦλος ___τε μάρτυς γίγνεται ___τε λέγει.",
+   "gaps": [
+    {
+     "answers": [
+      "οὐ",
+      "ου"
+     ]
+    },
+    {
+     "answers": [
+      "μη"
+     ]
+    },
+    {
+     "answers": [
+      "οὔ",
+      "ου"
+     ]
+    },
+    {
+     "answers": [
+      "οὔ",
+      "ου"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.negatives"
+   ],
+   "explain": "οὐδέν (a fact), μηδέν (a command), οὔτε … οὔτε (a fact)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ μάρτυς ___ λεγέτω ὃ μὴ εἶδεν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "οὐδέν"
+    },
+    {
+     "id": "b",
+     "text": "μηδέν"
+    },
+    {
+     "id": "c",
+     "text": "οὔτε"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "syntax.negatives",
+    "verb.imp.3rd"
+   ],
+   "explain": "A command (λεγέτω) takes μή and its compounds: μηδέν.",
+   "audio": "ὁ μάρτυς μηδὲν λεγέτω ὃ μὴ εἶδεν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ Σύρος ___ λέγει.",
+   "options": [
+    {
+     "id": "a",
+     "text": "οὐδέν"
+    },
+    {
+     "id": "b",
+     "text": "μηδέν"
+    },
+    {
+     "id": "c",
+     "text": "μήτε"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.negatives"
+   ],
+   "explain": "A plain fact: οὐδέν. Syros says nothing.",
+   "audio": "ὁ Σύρος οὐδὲν λέγει."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · «___ παραδῶ τὸν Σύρον.» (I will certainly not hand over)",
+   "options": [
+    {
+     "id": "a",
+     "text": "οὐ μὴ"
+    },
+    {
+     "id": "b",
+     "text": "μὴ οὐ"
+    },
+    {
+     "id": "c",
+     "text": "μηδὲ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.negatives"
+   ],
+   "explain": "οὐ μή + aorist subjunctive: strong denial.",
+   "audio": "οὐ μὴ παραδῶ τὸν Σύρον."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ὁ μάρτυς",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "dikastes"
+    },
+    {
+     "id": "b",
+     "image": "martys"
+    },
+    {
+     "id": "c",
+     "image": "geiton"
+    },
+    {
+     "id": "d",
+     "image": "horos"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ὁ μάρτυς: the witness, who says what he saw."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose the word you hear.",
+   "audio": "μηδείς",
+   "options": [
+    {
+     "id": "a",
+     "text": "οὐδείς"
+    },
+    {
+     "id": "b",
+     "text": "μηδείς"
+    },
+    {
+     "id": "c",
+     "text": "μηδέ"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "listen.words",
+    "syntax.negatives"
+   ],
+   "explain": "μηδείς: 'no one', in a command or condition."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the accusative singular of μάρτυς.",
+   "lemma": "μάρτυς",
+   "cell": "acc.sg",
+   "skills": [
+    "noun.decl3.cons.acc.sg",
+    "vocab.stage2"
+   ],
+   "explain": "μάρτυρα (stem μαρτυρ-).",
+   "audio": "μάρτυρα"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the future 1st singular of μαρτυρέω ('I shall testify').",
+   "lemma": "μαρτυρέω",
+   "cell": "future.active.indicative.1sg",
+   "skills": [
+    "verb.fut.act.ind.1sg",
+    "vocab.stage2"
+   ],
+   "explain": "μαρτυρήσω: the contract vowel lengthens before -σ-.",
+   "audio": "μαρτυρήσω"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the feminine nominative singular of οὐδείς.",
+   "lemma": "οὐδείς",
+   "cell": "nom.sg.f",
+   "skills": [
+    "syntax.negatives"
+   ],
+   "explain": "οὐδεμία (οὐδέ + μία).",
+   "audio": "οὐδεμία"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse κωλύει in: ὁ νόμος κωλύει τοὺς δούλους μαρτυρεῖν.",
+   "form": "κωλύει",
+   "groups": [
+    {
+     "id": "person",
+     "label": "Person and number",
+     "options": [
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    },
+    {
+     "id": "takes",
+     "label": "What follows it?",
+     "options": [
+      {
+       "id": "accinf",
+       "label": "accusative + infinitive"
+      },
+      {
+       "id": "dat",
+       "label": "dative"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "person": "3sg",
+    "takes": "accinf"
+   },
+   "skills": [
+    "syntax.hindering"
+   ],
+   "explain": "κωλύει τοὺς δούλους μαρτυρεῖν 'prevents slaves from testifying'.",
+   "audio": "κωλύει"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse κινοῦντα in: εἶδον τὸν Μάνην τὸν ὅρον κινοῦντα.",
+   "form": "κινοῦντα",
+   "groups": [
+    {
+     "id": "case",
+     "label": "Case and number",
+     "options": [
+      {
+       "id": "accsg",
+       "label": "accusative singular"
+      },
+      {
+       "id": "nompl",
+       "label": "nominative plural"
+      }
+     ]
+    },
+    {
+     "id": "use",
+     "label": "Use",
+     "options": [
+      {
+       "id": "supp",
+       "label": "supplementary, after a verb of seeing"
+      },
+      {
+       "id": "gabs",
+       "label": "genitive absolute"
+      },
+      {
+       "id": "attr",
+       "label": "attributive"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "case": "accsg",
+    "use": "supp"
+   },
+   "skills": [
+    "verb.ptc.summary"
+   ],
+   "explain": "It agrees with τὸν Μάνην and completes εἶδον: 'I saw Manes moving the stone'.",
+   "audio": "κινοῦντα"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "οὐδὲν κωλύει με ___ τὸν Ἀντίμαχον προκαλεῖσθαι.",
+   "options": [
+    {
+     "id": "a",
+     "text": "μὴ οὐ"
+    },
+    {
+     "id": "b",
+     "text": "οὐ μὴ"
+    },
+    {
+     "id": "c",
+     "text": "οὐδὲ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.hindering",
+    "syntax.negatives"
+   ],
+   "explain": "A negated verb of hindering (οὐδὲν κωλύει) is followed by μὴ οὐ + infinitive."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ νόμος κωλύει τοὺς δούλους ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "μαρτυρεῖν"
+    },
+    {
+     "id": "b",
+     "text": "μαρτυροῦσιν"
+    },
+    {
+     "id": "c",
+     "text": "μάρτυρες"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.hindering"
+   ],
+   "explain": "κωλύω + accusative + infinitive."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "'No one saw anything': οὐδεὶς ___ εἶδεν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "οὐδέν"
+    },
+    {
+     "id": "b",
+     "text": "τι"
+    },
+    {
+     "id": "c",
+     "text": "μηδέν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.negatives"
+   ],
+   "explain": "A compound negative after a negative strengthens it: οὐδεὶς οὐδὲν εἶδεν."
+  },
+  {
+   "type": "label",
+   "prompt": "In «νυκτὸς δὲ οὔσης τὸν Μάνην εἶδον», νυκτὸς οὔσης is …",
+   "options": [
+    {
+     "id": "a",
+     "text": "a genitive absolute ('it being night')"
+    },
+    {
+     "id": "b",
+     "text": "an attributive participle"
+    },
+    {
+     "id": "c",
+     "text": "a supplementary participle"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.ptc.summary",
+    "syntax.gen-abs"
+   ],
+   "explain": "Noun + participle in the genitive, standing apart from the main clause."
+  },
+  {
+   "type": "label",
+   "prompt": "In «ἐν γὰρ Ἀθήναις ὁ φεύγων αὐτὸς λέγει», ὁ φεύγων is …",
+   "options": [
+    {
+     "id": "a",
+     "text": "a circumstantial participle ('while fleeing')"
+    },
+    {
+     "id": "b",
+     "text": "article + participle used as a noun ('the defendant')"
+    },
+    {
+     "id": "c",
+     "text": "a future participle of purpose"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "verb.ptc.summary"
+   ],
+   "explain": "ὁ φεύγων 'the one fleeing (the charge)': the defendant."
+  },
+  {
+   "type": "label",
+   "prompt": "Why μή in «ὁ μάρτυς μηδὲν λεγέτω ὃ μὴ εἶδεν»?",
+   "options": [
+    {
+     "id": "a",
+     "text": "because λεγέτω is a command, and ὃ μή means 'whatever … not'"
+    },
+    {
+     "id": "b",
+     "text": "because it is a fact"
+    },
+    {
+     "id": "c",
+     "text": "because the verb is in the past"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.negatives"
+   ],
+   "explain": "Commands and 'whatever, anyone who' clauses take μή."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make it a prohibition: ὁ μάρτυς λεγέτω. → ὁ μάρτυς … λεγέτω.",
+   "template": "ὁ μάρτυς ___ λεγέτω.",
+   "gaps": [
+    {
+     "answers": [
+      "μὴ",
+      "μή"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.negatives",
+    "verb.imp.3rd"
+   ],
+   "explain": "μὴ λεγέτω 'let him not speak'.",
+   "audio": "ὁ μάρτυς μὴ λεγέτω."
+  },
+  {
+   "type": "transform",
+   "prompt": "Negate the whole sentence: ὁ Σύρος τι λέγει. → ὁ Σύρος … λέγει.",
+   "template": "ὁ Σύρος ___ λέγει.",
+   "gaps": [
+    {
+     "answers": [
+      "οὐδὲν",
+      "οὐδέν"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.negatives"
+   ],
+   "explain": "τι 'something' → οὐδέν 'nothing'.",
+   "audio": "ὁ Σύρος οὐδὲν λέγει."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every negative of the μή family.",
+   "sentence": "σὺ οὐδὲν εἶδες· μηδὲν λέγε, μηδὲ ὀργίζου· οὔτε ὁ Μάνης οὔτε ὁ Ἀντίμαχός με εἶδεν, ἀλλὰ μηδεὶς τοῦτο λεγέτω.",
+   "answer": [
+    3,
+    5,
+    16
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.negatives"
+   ],
+   "explain": "μηδέν, μηδέ, μηδείς: all in commands. οὐδέν and οὔτε … οὔτε state facts."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every participle.",
+   "sentence": "νυκτὸς οὔσης εἶδον τὸν Μάνην τὸν ὅρον κινοῦντα· οἱ δὲ Λακεδαιμόνιοι εἰσβαλόντες πολλὰ δένδρα ἔτεμον.",
+   "answer": [
+    1,
+    7,
+    11
+   ],
+   "skills": [
+    "read.locate",
+    "verb.ptc.summary"
+   ],
+   "explain": "οὔσης (genitive absolute), κινοῦντα (after εἶδον), εἰσβαλόντες (circumstantial)."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'Nothing prevents me from speaking.'",
+   "tokens": [
+    "μὴ",
+    "κωλύει",
+    "λέγειν",
+    "οὐδὲν",
+    "με",
+    "οὐ"
+   ],
+   "answers": [
+    "οὐδὲν κωλύει με μὴ οὐ λέγειν",
+    "οὐδὲν με κωλύει μὴ οὐ λέγειν",
+    "με οὐδὲν κωλύει μὴ οὐ λέγειν"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "syntax.hindering"
+   ],
+   "explain": "οὐδὲν κωλύει με μὴ οὐ λέγειν."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "audio": "ὁ δοῦλος οὔτε μάρτυς γίγνεται οὔτε ἐν τῷ δικαστηρίῳ λέγει.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ δοῦλος οὔτε μάρτυς γίγνεται οὔτε ἐν τῷ δικαστηρίῳ λέγει."
+    },
+    {
+     "id": "b",
+     "text": "ὁ δοῦλος μάρτυς γίγνεται καὶ ἐν τῷ δικαστηρίῳ λέγει."
+    },
+    {
+     "id": "c",
+     "text": "ὁ μάρτυς μηδὲν λεγέτω ὃ μὴ εἶδεν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences",
+    "syntax.negatives"
+   ],
+   "explain": "'A slave neither becomes a witness nor speaks in court.'"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Ἀρίστων τοῦ ἦρος τὸν ὅρον ὀρθὸν εἶδεν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "τοῖς ἐμοῖς ὀφθαλμοῖς εἶδον τὸν ὅρον ὀρθὸν ὄντα."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Εὔδημος τὸν Μάνην τὸν ὅρον κινοῦντα εἶδεν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "Syros saw it. «σὺ οὐδὲν εἶδες, ὦ Εὔδημε.»"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ νόμος κωλύει τὸν Σύρον ἐν τῷ δικαστηρίῳ μαρτυρεῖν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension",
+    "syntax.hindering"
+   ],
+   "explain": "ὁ γὰρ νόμος κωλύει τοὺς δούλους μαρτυρεῖν."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "audio": "οὐ μὴ παραδῶ τὸν Σύρον.",
+   "gaps": [
+    {
+     "answers": [
+      "οὐ μὴ παραδῶ τὸν Σύρον"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "οὐ μὴ παραδῶ τὸν Σύρον."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'No one saw the stone.'",
+   "gaps": [
+    {
+     "answers": [
+      "οὐδεὶς τὸν ὅρον εἶδεν",
+      "οὐδεὶς εἶδε τὸν ὅρον",
+      "οὐδεὶς εἶδεν τὸν ὅρον",
+      "τὸν ὅρον οὐδεὶς εἶδεν",
+      "οὐδεὶς τὸν λίθον εἶδεν",
+      "οὐδεὶς εἶδε τὸν λίθον"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.negatives"
+   ],
+   "explain": "οὐδεὶς τὸν ὅρον εἶδεν: a fact, so οὐ-."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Let no one speak.'",
+   "gaps": [
+    {
+     "answers": [
+      "μηδεὶς λεγέτω",
+      "λεγέτω μηδείς"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.negatives",
+    "verb.imp.3rd"
+   ],
+   "explain": "μηδεὶς λεγέτω: a command, so μη-."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: ὁ μάρτυς μηδὲν λεγέτω ὃ μὴ τοῖς ὀφθαλμοῖς εἶδεν.",
+   "audio": "ὁ μάρτυς μηδὲν λεγέτω ὃ μὴ τοῖς ὀφθαλμοῖς εἶδεν.",
+   "model": "Let the witness say nothing that he did not see with his own eyes.",
+   "skills": [
+    "read.comprehension",
+    "syntax.negatives"
+   ],
+   "explain": "μηδέν in a command; ὃ μή 'whatever … not'; τοῖς ὀφθαλμοῖς, dative of means."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "μάρτυς",
+     "right": "martyr"
+    },
+    {
+     "left": "ὀφθαλμός",
+     "right": "ophthalmology"
+    },
+    {
+     "left": "οὐ",
+     "right": "utopia"
+    },
+    {
+     "left": "πρότερος",
+     "right": "hysteron proteron"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "A martyr is a 'witness' to his faith; ὀφθαλμο-λογία; οὐ-τόπος 'no place'; ὕστερον πρότερον 'the later first', a figure of speech."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "τίς τῷ Δημοκρίτῳ μαρτυρήσει;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Ἀρίστων."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Σύρος."
+    },
+    {
+     "id": "c",
+     "text": "ἡ Χρυσίς."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "«ἐγώ σοι μαρτυρήσω», says Ariston."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί εἶδεν ὁ Ἀρίστων τοῦ ἦρος;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὸν Μάνην τὸν ὅρον κινοῦντα."
+    },
+    {
+     "id": "b",
+     "text": "τὸν ὅρον ὀρθὸν ὄντα ἐν τῷ προτέρῳ τόπῳ."
+    },
+    {
+     "id": "c",
+     "text": "τοὺς Λακεδαιμονίους τὰ δένδρα τέμνοντας."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "verb.ptc.summary"
+   ],
+   "explain": "εἶδον τὸν ὅρον ὀρθὸν ὄντα ἐν τῷ προτέρῳ τόπῳ."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί εἶδεν ὁ Σύρος;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὸν Μάνην τὸν ὅρον κινοῦντα."
+    },
+    {
+     "id": "b",
+     "text": "τὸν Δημόκριτον τὴν ἐλαίαν τέμνοντα."
+    },
+    {
+     "id": "c",
+     "text": "οὐδέν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "verb.ptc.summary"
+   ],
+   "explain": "νυκτὸς οὔσης τὸν Μάνην … εἶδον τὸν ὅρον κινοῦντα."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί ὁ Σύρος οὐ μαρτυρεῖ;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "φοβεῖται γὰρ τὸν Ἀντίμαχον."
+    },
+    {
+     "id": "b",
+     "text": "ὁ γὰρ νόμος κωλύει τοὺς δούλους μαρτυρεῖν."
+    },
+    {
+     "id": "c",
+     "text": "οὐδὲν γὰρ εἶδεν."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "syntax.hindering"
+   ],
+   "explain": "ὁ γὰρ νόμος κωλύει τοὺς δούλους μαρτυρεῖν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί λέγει ὁ Ἀρίστων περὶ τοῦ Σύρου;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "«οὐ μὴ παραδῶ τὸν Σύρον.»"
+    },
+    {
+     "id": "b",
+     "text": "«ὁ Σύρος μάρτυς ἔσται.»"
+    },
+    {
+     "id": "c",
+     "text": "«ὁ Σύρος ψεύδεται.»"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.negatives"
+   ],
+   "explain": "He refuses outright: οὐ μὴ παραδῶ."
+  }
+ ],
+ "culture": {
+  "title": "Witnesses, women and slaves",
+  "md": "Only free adult men could appear as witnesses in an Athenian court. Women could not, although a woman might swear an oath about a fact outside the court; children could not; slaves could not. In the fifth century witnesses spoke in person; from about the 380s their statements were written down beforehand, read out by the clerk, and simply confirmed. A man who gave false evidence could himself be sued.\n\nA slave's evidence counted only if it was taken under torture (βάσανος). The law assumed that a slave would otherwise say whatever his master wanted, and that pain would force out the truth. So a litigant could challenge (πρόκλησις) his opponent to hand over his slaves for questioning, or offer his own. In the speeches that survive, such challenges are almost always refused, and the refusal is then used as an argument: 'he would not let the truth be tested.' How often the torture was really carried out is debated by historians; that it was legal, and threatened, is not.\n\nSo Syros, who saw what happened, can say nothing in court, and Elpis is right to call it unjust. Most Greeks thought slavery a normal part of life; a few thinkers of the next century argued that it was against nature. The picture shows men digging clay for a potter's workshop, on a painted plaque from Corinth: the kind of work that enslaved men like Syros did.",
+  "image": "culture-11-2-clay-pit"
+ },
+ "quiz": [
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ δοῦλος ___ μάρτυς γίγνεται ___ λέγει.",
+   "options": [
+    {
+     "id": "a",
+     "text": "οὔτε … οὔτε"
+    },
+    {
+     "id": "b",
+     "text": "μήτε … μήτε"
+    },
+    {
+     "id": "c",
+     "text": "οὐ μή … οὐ μή"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.negatives"
+   ],
+   "explain": "A statement of fact: οὔτε … οὔτε."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "___ ψεύδου ___ ὀργίζου.",
+   "options": [
+    {
+     "id": "a",
+     "text": "οὔτε … οὔτε"
+    },
+    {
+     "id": "b",
+     "text": "μήτε … μήτε"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "syntax.negatives"
+   ],
+   "explain": "Commands: μήτε … μήτε."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the genitive plural of μάρτυς.",
+   "lemma": "μάρτυς",
+   "cell": "gen.pl",
+   "skills": [
+    "vocab.stage2"
+   ],
+   "explain": "μαρτύρων.",
+   "audio": "μαρτύρων"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "«οὐ μὴ ___!» (I will certainly not be quiet)",
+   "options": [
+    {
+     "id": "a",
+     "text": "σιγήσω"
+    },
+    {
+     "id": "b",
+     "text": "σιγῶ"
+    },
+    {
+     "id": "c",
+     "text": "σιγάτω"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.negatives"
+   ],
+   "explain": "οὐ μή + aorist subjunctive σιγήσω."
+  },
+  {
+   "type": "label",
+   "prompt": "In «οἱ Λακεδαιμόνιοι εἰσβαλόντες πολλὰ δένδρα ἔτεμον», εἰσβαλόντες is …",
+   "options": [
+    {
+     "id": "a",
+     "text": "circumstantial: 'having invaded, after invading'"
+    },
+    {
+     "id": "b",
+     "text": "genitive absolute"
+    },
+    {
+     "id": "c",
+     "text": "attributive: 'the invading'"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.ptc.summary"
+   ],
+   "explain": "It agrees with the subject and tells when: 'after invading'."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Δημόκριτος τὸν Ἀντίμαχον προκαλεῖσθαι βούλεται.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension",
+    "syntax.hindering"
+   ],
+   "explain": "οὐδὲν κωλύει με μὴ οὐ τὸν Ἀντίμαχον προκαλεῖσθαι."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The law prevents the slave from testifying.'",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ νόμος κωλύει τὸν δοῦλον μαρτυρεῖν",
+      "ὁ νόμος τὸν δοῦλον κωλύει μαρτυρεῖν",
+      "κωλύει ὁ νόμος τὸν δοῦλον μαρτυρεῖν",
+      "ὁ νόμος κωλύει τὸν δοῦλον μὴ μαρτυρεῖν"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.hindering"
+   ],
+   "explain": "κωλύω + accusative + infinitive (a redundant μή is possible)."
+  }
+ ],
+ "skills": [
+  "syntax.negatives",
+  "syntax.hindering",
+  "verb.ptc.summary",
+  "syntax.gen-abs",
+  "verb.imp.3rd",
+  "verb.fut.act.ind.1sg",
+  "noun.decl3.cons.acc.sg",
+  "read.comprehension",
+  "read.locate",
+  "syntax.word-order",
+  "listen.words",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family",
+  "vocab.stage2"
+ ]
+}

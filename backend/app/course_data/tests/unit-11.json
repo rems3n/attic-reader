@@ -1,0 +1,592 @@
+{
+ "id": "unit-11",
+ "title_grc": "Τὸ δικαστήριον · ἔλεγχος",
+ "title_en": "Unit 11 test",
+ "scope": "11.4",
+ "pass_score": 0.8,
+ "unlock_after_hours": 24,
+ "retake_after_days": 7,
+ "blurb": "Everything from Lessons 11.1–11.4: the summons, the witnesses, Demokritos's speech, the vote. Third-person imperatives and verbal adjectives, οὐ and μή, crasis and elision, particles, the dual and Ionic forms to recognise. Four parts; no feedback until the end. 80 % to pass.",
+ "sections": [
+  {
+   "id": "vocab",
+   "title": "Λέξεις · Vocabulary",
+   "items": [
+    {
+     "type": "pick-picture",
+     "prompt": "ὁ ὅρος",
+     "audio": "prompt",
+     "options": [
+      {
+       "id": "a",
+       "image": "oros"
+      },
+      {
+       "id": "b",
+       "image": "horos"
+      },
+      {
+       "id": "c",
+       "image": "bomos"
+      },
+      {
+       "id": "d",
+       "image": "lithos"
+      }
+     ],
+     "answer": "b",
+     "skills": [
+      "vocab.recognition"
+     ],
+     "explain": "ὁ ὅρος (rough breathing): boundary stone. τὸ ὄρος: mountain."
+    },
+    {
+     "type": "pick-picture",
+     "prompt": "ἡ κλεψύδρα",
+     "audio": "prompt",
+     "options": [
+      {
+       "id": "a",
+       "image": "hydria"
+      },
+      {
+       "id": "b",
+       "image": "kylix"
+      },
+      {
+       "id": "c",
+       "image": "klepsydra"
+      },
+      {
+       "id": "d",
+       "image": "krene"
+      }
+     ],
+     "answer": "c",
+     "skills": [
+      "vocab.recognition"
+     ],
+     "explain": "ἡ κλεψύδρα: the water clock."
+    },
+    {
+     "type": "pick-picture",
+     "prompt": "ὁ μάρτυς",
+     "audio": "prompt",
+     "options": [
+      {
+       "id": "a",
+       "image": "martys"
+      },
+      {
+       "id": "b",
+       "image": "dikastes"
+      },
+      {
+       "id": "c",
+       "image": "geiton"
+      },
+      {
+       "id": "d",
+       "image": "psephos"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "vocab.recognition"
+     ],
+     "explain": "ὁ μάρτυς: witness."
+    },
+    {
+     "type": "listen-pick",
+     "prompt": "Listen and choose what you hear.",
+     "audio": "ἡ ψῆφος",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἡ δίκη"
+      },
+      {
+       "id": "b",
+       "text": "ἡ τύχη"
+      },
+      {
+       "id": "c",
+       "text": "ἡ ψῆφος"
+      }
+     ],
+     "answer": "c",
+     "skills": [
+      "listen.words"
+     ],
+     "explain": "ἡ ψῆφος: the voting pebble."
+    },
+    {
+     "type": "match",
+     "prompt": "Match each particle to its force.",
+     "pairs": [
+      {
+       "left": "μέντοι",
+       "right": "however"
+      },
+      {
+       "left": "τοίνυν",
+       "right": "well then"
+      },
+      {
+       "left": "ἄρα",
+       "right": "so, as it turns out"
+      },
+      {
+       "left": "γε",
+       "right": "at least"
+      },
+      {
+       "left": "καὶ μήν",
+       "right": "and what is more"
+      }
+     ],
+     "skills": [
+      "syntax.particles"
+     ],
+     "explain": "μέντοι, τοίνυν, ἄρα, γε, καὶ μήν."
+    },
+    {
+     "type": "match",
+     "prompt": "Match each Attic word to its Ionic form.",
+     "pairs": [
+      {
+       "left": "θάλαττα",
+       "right": "θάλασσα"
+      },
+      {
+       "left": "πράττω",
+       "right": "πρήσσω"
+      },
+      {
+       "left": "ἡμέρα",
+       "right": "ἡμέρη"
+      },
+      {
+       "left": "εἰς",
+       "right": "ἐς"
+      }
+     ],
+     "skills": [
+      "read.dialects"
+     ],
+     "explain": "Attic -ττ- and ᾱ; Ionic -σσ- and η; Ionic ἐς."
+    },
+    {
+     "type": "cloze-type",
+     "prompt": "Type the Greek for 'juror' (with its article).",
+     "gaps": [
+      {
+       "answers": [
+        "ὁ δικαστής",
+        "δικαστής"
+       ]
+      }
+     ],
+     "skills": [
+      "vocab.production"
+     ],
+     "explain": "ὁ δικαστής.",
+     "audio": "ὁ δικαστής"
+    },
+    {
+     "type": "cloze-type",
+     "prompt": "Type the Greek for 'neighbour' (with its article).",
+     "gaps": [
+      {
+       "answers": [
+        "ὁ γείτων",
+        "γείτων"
+       ]
+      }
+     ],
+     "skills": [
+      "vocab.production"
+     ],
+     "explain": "ὁ γείτων.",
+     "audio": "ὁ γείτων"
+    }
+   ]
+  },
+  {
+   "id": "forms",
+   "title": "Τύποι · Forms",
+   "generate": {
+    "skills": [
+     "verb.pres.act.imp.3sg",
+     "verb.pres.act.imp.3pl",
+     "verb.aor.act.imp.3sg",
+     "verb.pres.mp.imp.3sg",
+     "verb.ptc.pres.act.gen",
+     "verb.ptc.aor.act.acc",
+     "verb.aor.act.ind.3pl",
+     "verb.fut.act.ind.3sg",
+     "noun.decl3.gen.sg",
+     "syntax.gen-abs"
+    ],
+    "n": 10,
+    "seed": 11
+   },
+   "items": [
+    {
+     "type": "parse",
+     "prompt": "Parse λεγόντων in: οἱ μάρτυρες λεγόντων.",
+     "form": "λεγόντων",
+     "groups": [
+      {
+       "id": "what",
+       "label": "What is it here?",
+       "options": [
+        {
+         "id": "imp",
+         "label": "imperative, 3rd plural: 'let them speak'"
+        },
+        {
+         "id": "ptc",
+         "label": "participle, genitive plural: 'of those speaking'"
+        }
+       ]
+      }
+     ],
+     "answer": {
+      "what": "imp"
+     },
+     "skills": [
+      "verb.imp.3rd"
+     ],
+     "explain": "It is the only verb and has a nominative subject: a command.",
+     "audio": "οἱ μάρτυρες λεγόντων."
+    },
+    {
+     "type": "parse",
+     "prompt": "Parse ποιητέον in: τί ποιητέον ἡμῖν;",
+     "form": "ποιητέον",
+     "groups": [
+      {
+       "id": "kind",
+       "label": "What kind of form?",
+       "options": [
+        {
+         "id": "teos",
+         "label": "verbal adjective in -τέος: must be done"
+        },
+        {
+         "id": "tos",
+         "label": "verbal adjective in -τός: can be done"
+        },
+        {
+         "id": "imp",
+         "label": "imperative"
+        }
+       ]
+      },
+      {
+       "id": "agent",
+       "label": "Who must act?",
+       "options": [
+        {
+         "id": "dat",
+         "label": "ἡμῖν (dative)"
+        },
+        {
+         "id": "none",
+         "label": "nobody is named"
+        }
+       ]
+      }
+     ],
+     "answer": {
+      "kind": "teos",
+      "agent": "dat"
+     },
+     "skills": [
+      "verb.verbal-adj"
+     ],
+     "explain": "'What must we do?' -τέον with the agent in the dative.",
+     "audio": "τί ποιητέον ἡμῖν;"
+    }
+   ]
+  },
+  {
+   "id": "sentences",
+   "title": "Λόγοι · Sentences",
+   "items": [
+    {
+     "type": "cloze-choice",
+     "prompt": "ὁ μάρτυς ___ λεγέτω ὃ μὴ εἶδεν.",
+     "options": [
+      {
+       "id": "a",
+       "text": "οὐδέν"
+      },
+      {
+       "id": "b",
+       "text": "μηδέν"
+      }
+     ],
+     "answer": "b",
+     "skills": [
+      "syntax.negatives"
+     ],
+     "explain": "A command: μηδέν."
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "οὐδὲν κωλύει με ___ τὸν γείτονα προκαλεῖσθαι.",
+     "options": [
+      {
+       "id": "a",
+       "text": "οὐ μὴ"
+      },
+      {
+       "id": "b",
+       "text": "μὴ οὐ"
+      },
+      {
+       "id": "c",
+       "text": "οὐδὲ"
+      }
+     ],
+     "answer": "b",
+     "skills": [
+      "syntax.hindering"
+     ],
+     "explain": "After a negated verb of hindering: μὴ οὐ + infinitive."
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "τἀληθῆ = ___",
+     "options": [
+      {
+       "id": "a",
+       "text": "τὰ ἀληθῆ"
+      },
+      {
+       "id": "b",
+       "text": "τὸ ἀληθές"
+      },
+      {
+       "id": "c",
+       "text": "τῇ ἀληθεῖ"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "spell.crasis"
+     ],
+     "explain": "τὰ + ἀληθῆ, run together with a coronis."
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "γεωργός εἰμι, οὐ ῥήτωρ· τἀληθῆ ___ ἐρῶ. (however)",
+     "options": [
+      {
+       "id": "a",
+       "text": "τοίνυν"
+      },
+      {
+       "id": "b",
+       "text": "ἄρα"
+      },
+      {
+       "id": "c",
+       "text": "μέντοι"
+      }
+     ],
+     "answer": "c",
+     "skills": [
+      "syntax.particles"
+     ],
+     "explain": "μέντοι 'however'."
+    },
+    {
+     "type": "transform",
+     "prompt": "Speak about him, not to him: λέγε, ὦ μάρτυς. → ὁ μάρτυς …",
+     "template": "ὁ μάρτυς ___.",
+     "gaps": [
+      {
+       "answers": [
+        "λεγέτω"
+       ]
+      }
+     ],
+     "skills": [
+      "verb.imp.3rd"
+     ],
+     "explain": "λεγέτω 'let him speak'."
+    },
+    {
+     "type": "transform",
+     "prompt": "Use a verbal adjective: δεῖ ἡμᾶς τὸ ἀληθὲς λέγειν. → τὸ ἀληθὲς … ἡμῖν ἐστιν.",
+     "template": "τὸ ἀληθὲς ___ ἡμῖν ἐστιν.",
+     "gaps": [
+      {
+       "answers": [
+        "λεκτέον"
+       ]
+      }
+     ],
+     "skills": [
+      "verb.verbal-adj"
+     ],
+     "explain": "λεκτέον, with the agent in the dative."
+    },
+    {
+     "type": "reorder",
+     "prompt": "Put the words in order: 'Let the jurors hear the witnesses.'",
+     "tokens": [
+      "ἀκουόντων",
+      "μαρτύρων",
+      "οἱ",
+      "τῶν",
+      "δικασταὶ"
+     ],
+     "answers": [
+      "οἱ δικασταὶ τῶν μαρτύρων ἀκουόντων",
+      "τῶν μαρτύρων οἱ δικασταὶ ἀκουόντων",
+      "οἱ δικασταὶ ἀκουόντων τῶν μαρτύρων",
+      "ἀκουόντων οἱ δικασταὶ τῶν μαρτύρων"
+     ],
+     "skills": [
+      "syntax.word-order",
+      "verb.imp.3rd"
+     ],
+     "explain": "ἀκούω takes the genitive of the person heard."
+    },
+    {
+     "type": "compose-grc",
+     "prompt": "Write in Greek: 'Let no one speak.'",
+     "gaps": [
+      {
+       "answers": [
+        "μηδεὶς λεγέτω",
+        "λεγέτω μηδείς"
+       ]
+      }
+     ],
+     "skills": [
+      "vocab.production",
+      "syntax.negatives",
+      "verb.imp.3rd"
+     ],
+     "explain": "μηδεὶς λεγέτω."
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "Ἀνάγνωσις · Reading",
+   "passage_title": "ὁ Εὔδημος δικάζει",
+   "passage": "ἑσπέρας ὁ Εὔδημος ἐκ τοῦ δικαστηρίου οἴκαδε ἔρχεται καὶ τῇ Φιλίππῃ πάντα λέγει. «ἄλλη δίκη ἦν, ὦ γύναι. γεωργός τις τὸν γείτονα ἐδίωκεν· ἔλεγε γὰρ ὅτι ὁ γείτων τὼ αἶγε αὐτοῦ ἔκλεψεν. ὁ δὲ γείτων ἔλεγεν ὅτι αἱ αἶγες αὐταὶ εἰς τὸν ἀγρὸν αὐτοῦ ἔδραμον. μάρτυς μὲν οὐδεὶς ἦν· δοῦλος δέ τις τὸ πρᾶγμα εἶδεν, ἀλλ’ ὁ νόμος κωλύει τοὺς δούλους μαρτυρεῖν. ὁ μὲν οὖν γεωργὸς βραχὺν λόγον εἶπεν, ὁ δὲ γείτων μακρὸν καὶ καλόν, ἕως τὸ ὕδωρ τῆς κλεψύδρας ἐτελεύτησεν. ἐγὼ μέντοι τῷ γεωργῷ ἐπίστευον· αἶγες γάρ τοι οὐ φεύγουσιν ἀπὸ τοῦ δεσπότου εἰς ἄλλον ἀγρὸν καὶ ἐκεῖ μένουσιν. ἕκαστος δὲ ἡμῶν μίαν ψῆφον ἐν τῇ χειρὶ ἔκρυπτεν. τέλος δὲ αἱ ψῆφοι ἴσαι ἦσαν, ὥστε ὁ γείτων ἀπέφυγεν.» ἡ δὲ Φιλίππη· «ἀγαθὴ ἄρα ἡ τύχη τοῦ γείτονος. ἀλλὰ σύ, ὦ ἄνερ, πόσον μισθὸν ἔχεις;» ὁ δὲ Εὔδημος γελάσας δύο ὀβολοὺς αὐτῇ δίδωσιν.",
+   "items": [
+    {
+     "type": "true-false-grc",
+     "prompt": "ὁ γεωργὸς τὸν γείτονα ἐδίωκεν.",
+     "answer": "true",
+     "skills": [
+      "read.comprehension"
+     ],
+     "explain": "γεωργός τις τὸν γείτονα ἐδίωκεν: the farmer was the prosecutor."
+    },
+    {
+     "type": "true-false-grc",
+     "prompt": "ὁ δοῦλος ἐν τῷ δικαστηρίῳ ἐμαρτύρησεν.",
+     "answer": "false",
+     "skills": [
+      "read.comprehension",
+      "syntax.hindering"
+     ],
+     "explain": "ὁ νόμος κωλύει τοὺς δούλους μαρτυρεῖν."
+    },
+    {
+     "type": "true-false-grc",
+     "prompt": "ὁ Εὔδημος τῷ γείτονι ἐπίστευεν.",
+     "answer": "false",
+     "skills": [
+      "read.comprehension",
+      "syntax.particles"
+     ],
+     "explain": "ἐγὼ μέντοι τῷ γεωργῷ ἐπίστευον."
+    },
+    {
+     "type": "answer-grc",
+     "prompt": "τί ἔλεγεν ὁ γείτων;",
+     "options": [
+      {
+       "id": "a",
+       "text": "ὅτι αἱ αἶγες αὐταὶ εἰς τὸν ἀγρὸν αὐτοῦ ἔδραμον."
+      },
+      {
+       "id": "b",
+       "text": "ὅτι ὁ γεωργὸς τὼ αἶγε ἔκλεψεν."
+      },
+      {
+       "id": "c",
+       "text": "ὅτι ὁ δοῦλος τὸ πρᾶγμα οὐκ εἶδεν."
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "read.comprehension"
+     ],
+     "explain": "ὁ δὲ γείτων ἔλεγεν ὅτι αἱ αἶγες αὐταὶ εἰς τὸν ἀγρὸν αὐτοῦ ἔδραμον."
+    },
+    {
+     "type": "answer-grc",
+     "prompt": "διὰ τί ὁ γείτων ἀπέφυγεν;",
+     "options": [
+      {
+       "id": "a",
+       "text": "ὁ γὰρ δοῦλος ἐμαρτύρησεν."
+      },
+      {
+       "id": "b",
+       "text": "αἱ γὰρ ψῆφοι ἴσαι ἦσαν."
+      },
+      {
+       "id": "c",
+       "text": "ὁ γὰρ Εὔδημος αὐτῷ ἐπίστευεν."
+      }
+     ],
+     "answer": "b",
+     "skills": [
+      "read.comprehension"
+     ],
+     "explain": "Equal votes acquit the defendant."
+    },
+    {
+     "type": "translate-en",
+     "prompt": "Translate: μάρτυς μὲν οὐδεὶς ἦν· δοῦλος δέ τις τὸ πρᾶγμα εἶδεν, ἀλλ’ ὁ νόμος κωλύει τοὺς δούλους μαρτυρεῖν.",
+     "model": "There was no witness; a slave saw what happened, but the law prevents slaves from testifying.",
+     "skills": [
+      "read.comprehension",
+      "syntax.negatives",
+      "syntax.hindering"
+     ],
+     "explain": "μὲν … δέ contrast; οὐδείς (a fact); κωλύω + accusative + infinitive."
+    },
+    {
+     "type": "translate-en",
+     "prompt": "Translate: αἶγες γάρ τοι οὐ φεύγουσιν ἀπὸ τοῦ δεσπότου εἰς ἄλλον ἀγρὸν καὶ ἐκεῖ μένουσιν.",
+     "model": "For goats, you know, do not run away from their master into another field and stay there.",
+     "skills": [
+      "read.comprehension",
+      "syntax.particles"
+     ],
+     "explain": "τοι presses the point: an argument from likelihood."
+    }
+   ],
+   "glosses": {
+    "αἶγε": "two goats (dual)",
+    "γελάσας": "laughing (γελάω)",
+    "κλεψύδρας": "water-clock (gen.)",
+    "μισθὸν": "pay, wage",
+    "ἀπέφυγεν": "was acquitted (ἀποφεύγω)"
+   }
+  }
+ ]
+}

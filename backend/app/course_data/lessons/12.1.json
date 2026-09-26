@@ -1,0 +1,1604 @@
+{
+  "id": "12.1",
+  "title_grc": "ὁ Λύσις ἀναγιγνώσκει",
+  "title_en": "Lysis reads aloud",
+  "summary_grc": "ὁ Λύσις γέρων ἤδη τοῖς παισὶ τὸ τοῦ Ξενοφῶντος βιβλίον ἀναγιγνώσκει· ὁ Κῦρος τῷ ἀδελφῷ ἐπιβουλεύει.",
+  "summary_en": "About 370 BC. Lysis, now an old man, reads his grandchildren the opening of Xenophon's Anabasis, unadapted: two royal brothers, a slander, and a mother's favourite. Everything is the original Greek, with a running vocabulary.",
+  "cover": "panel-12-1-a",
+  "caption_grc": "Δαρείου καὶ Παρυσάτιδος γίγνονται παῖδες δύο, πρεσβύτερος μὲν Ἀρταξέρξης, νεώτερος δὲ Κῦρος.",
+  "original": {
+    "text": "xen-anab-1.1",
+    "note": "Xenophon, Anabasis 1.1.1–4, unadapted. Xenophon wrote the Anabasis in the 370s–360s about the expedition of 401–399 BC in which he served, so our Lysis, reading around 370, has one of the first copies. The first two sentences of the story are ours; everything after them is Xenophon's text."
+  },
+  "names": {
+    "Δαρεῖος": [
+      "Δαρείου",
+      "Δαρείῳ",
+      "Δαρεῖον"
+    ],
+    "Παρύσατις": [
+      "Παρυσάτιδος",
+      "Παρυσάτιδι",
+      "Παρύσατιν"
+    ],
+    "Ἀρταξέρξης": [
+      "Ἀρταξέρξου",
+      "Ἀρταξέρξῃ",
+      "Ἀρταξέρξην"
+    ],
+    "Κῦρος": [
+      "Κύρου",
+      "Κύρῳ",
+      "Κῦρον",
+      "Κῦρε"
+    ],
+    "Τισσαφέρνης": [
+      "Τισσαφέρνους",
+      "Τισσαφέρνει",
+      "Τισσαφέρνην"
+    ],
+    "Ξενίας": [
+      "Ξενίου",
+      "Ξενίᾳ",
+      "Ξενίαν"
+    ],
+    "Παρράσιος": [
+      "Παρρασίου",
+      "Παρράσιον"
+    ],
+    "Καστωλός": [
+      "Καστωλοῦ"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "panel-12-1-a",
+      "sentences": [
+        {
+          "text": "ὁ Λύσις γέρων ἤδη ἐστίν, καὶ ἑσπέρας τοῖς τοῦ υἱοῦ παισὶ βιβλίον ἀναγιγνώσκει.",
+          "glosses": [
+            {
+              "word": "υἱοῦ",
+              "kind": "note",
+              "value": "τοῖς τοῦ υἱοῦ παισί: to his son's children: his grandchildren. It is about 370 BC; Lysis, twelve in 432, is now an old man."
+            }
+          ]
+        },
+        {
+          "text": "«ἀκούετε, ὦ παῖδες· τοῦτο τὸ βιβλίον Ξενοφῶν ὁ Ἀθηναῖος ἔγραψεν, καὶ ἐν τούτῳ τῷ μέρει τὴν αἰτίαν τοῦ πολέμου λέγει.»",
+          "glosses": [
+            {
+              "word": "ἔγραψεν",
+              "kind": "|",
+              "value": "γράφει | ἔγραψε(ν) (wrote)"
+            }
+          ]
+        },
+        {
+          "text": "Δαρείου καὶ Παρυσάτιδος γίγνονται παῖδες δύο, πρεσβύτερος μὲν Ἀρταξέρξης, νεώτερος δὲ Κῦρος·",
+          "orig": [
+            0
+          ],
+          "glosses": [
+            {
+              "word": "Δαρείου",
+              "kind": "en",
+              "value": "of Darius (Darius II, King of Persia 423–404 BC): 'to Darius and Parysatis are born …'"
+            },
+            {
+              "word": "γίγνονται",
+              "kind": "note",
+              "value": "historic present: 'were born'. Xenophon tells the past in the present to make it vivid."
+            },
+            {
+              "word": "πρεσβύτερος",
+              "kind": "<",
+              "value": "πρέσβυς (old) | πρεσβύτερος (older, the elder)"
+            }
+          ]
+        },
+        {
+          "text": "ἐπεὶ δὲ ἠσθένει Δαρεῖος καὶ ὑπώπτευε τελευτὴν τοῦ βίου, ἐβούλετο τὼ παῖδε ἀμφοτέρω παρεῖναι.",
+          "orig": [
+            1
+          ],
+          "glosses": [
+            {
+              "word": "ἠσθένει",
+              "kind": "=",
+              "value": "ἐνόσει (ἀσθενέω = νοσέω, imperfect: was ill)"
+            },
+            {
+              "word": "ὑπώπτευε",
+              "kind": "en",
+              "value": "suspected, expected (ὑποπτεύω, imperfect)"
+            },
+            {
+              "word": "τελευτὴν",
+              "kind": "<",
+              "value": "τελευτάω (finish) | ἡ τελευτή (the end)"
+            },
+            {
+              "word": "τὼ",
+              "kind": "|",
+              "value": "τὼ παῖδε ἀμφοτέρω: dual: 'the two sons, both of them'"
+            },
+            {
+              "word": "παῖδε",
+              "kind": "|",
+              "value": "οἱ παῖδες | τὼ παῖδε (dual: the two sons)"
+            },
+            {
+              "word": "ἀμφοτέρω",
+              "kind": "|",
+              "value": "ἀμφότεροι | ἀμφοτέρω (dual: both)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ μὲν οὖν πρεσβύτερος παρὼν ἐτύγχανε·",
+          "orig": [
+            2
+          ],
+          "glosses": [
+            {
+              "word": "ἐτύγχανε",
+              "kind": "|",
+              "value": "τυγχάνει + participle | παρὼν ἐτύγχανε (happened to be there, was already there)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "panel-12-1-b",
+      "sentences": [
+        {
+          "text": "Κῦρον δὲ μεταπέμπεται ἀπὸ τῆς ἀρχῆς ἧς αὐτὸν σατράπην ἐποίησε, καὶ στρατηγὸν δὲ αὐτὸν ἀπέδειξε πάντων ὅσοι ἐς Καστωλοῦ πεδίον ἁθροίζονται.",
+          "orig": [
+            3
+          ],
+          "glosses": [
+            {
+              "word": "μεταπέμπεται",
+              "kind": "<",
+              "value": "μετά + πέμπω | μεταπέμπεται (sends for, summons: middle; historic present)"
+            },
+            {
+              "word": "ἀρχῆς",
+              "kind": "en",
+              "value": "ἡ ἀρχή: rule; here the province he governed"
+            },
+            {
+              "word": "ἧς",
+              "kind": "note",
+              "value": "genitive with σατράπην: 'the province of which he had made him satrap'"
+            },
+            {
+              "word": "σατράπην",
+              "kind": "en",
+              "value": "satrap, a Persian provincial governor"
+            },
+            {
+              "word": "ἀπέδειξε",
+              "kind": "<",
+              "value": "ἀπό + δείκνυμι | ἀπέδειξε (appointed, declared him)"
+            },
+            {
+              "word": "ἐς",
+              "kind": "=",
+              "value": "εἰς (the older spelling; Xenophon uses both)"
+            },
+            {
+              "word": "Καστωλοῦ",
+              "kind": "en",
+              "value": "Καστωλοῦ πεδίον: the plain of Castolus in Lydia, a mustering ground"
+            },
+            {
+              "word": "πεδίον",
+              "kind": "en",
+              "value": "plain"
+            },
+            {
+              "word": "ἁθροίζονται",
+              "kind": "en",
+              "value": "gather, muster (ἁθροίζω, middle)"
+            }
+          ]
+        },
+        {
+          "text": "ἀναβαίνει οὖν ὁ Κῦρος λαβὼν Τισσαφέρνην ὡς φίλον, καὶ τῶν Ἑλλήνων ἔχων ὁπλίτας ἀνέβη τριακοσίους, ἄρχοντα δὲ αὐτῶν Ξενίαν Παρράσιον.",
+          "orig": [
+            4
+          ],
+          "glosses": [
+            {
+              "word": "ἀναβαίνει",
+              "kind": "note",
+              "value": "ἀναβαίνω: 'go up' from the coast inland, to the king's court; hence the title Ἀνάβασις"
+            },
+            {
+              "word": "ὁπλίτας",
+              "kind": "en",
+              "value": "hoplites, heavy infantry (ὁ ὁπλίτης)"
+            },
+            {
+              "word": "τριακοσίους",
+              "kind": "en",
+              "value": "three hundred"
+            },
+            {
+              "word": "ἄρχοντα",
+              "kind": "|",
+              "value": "ἄρχω (rule, command) | ὁ ἄρχων, τὸν ἄρχοντα (commander)"
+            },
+            {
+              "word": "Παρράσιον",
+              "kind": "en",
+              "value": "from Parrhasia, in Arcadia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "panel-12-1-c",
+      "sentences": [
+        {
+          "text": "ἐπεὶ δὲ ἐτελεύτησε Δαρεῖος καὶ κατέστη εἰς τὴν βασιλείαν Ἀρταξέρξης, Τισσαφέρνης διαβάλλει τὸν Κῦρον πρὸς τὸν ἀδελφὸν ὡς ἐπιβουλεύοι αὐτῷ.",
+          "orig": [
+            5
+          ],
+          "glosses": [
+            {
+              "word": "ἐτελεύτησε",
+              "kind": "|",
+              "value": "τελευτάω | ἐτελεύτησε (died: 'ended' his life)"
+            },
+            {
+              "word": "κατέστη",
+              "kind": "|",
+              "value": "καθίστημι | κατέστη (came into: root aorist, intransitive)"
+            },
+            {
+              "word": "βασιλείαν",
+              "kind": "<",
+              "value": "βασιλεύς | ἡ βασιλεία (kingship, the throne)"
+            },
+            {
+              "word": "διαβάλλει",
+              "kind": "<",
+              "value": "διά + βάλλω | διαβάλλει (slanders, accuses)"
+            },
+            {
+              "word": "ἐπιβουλεύοι",
+              "kind": "|",
+              "value": "ἐπιβουλεύει + dative (plots against) | ἐπιβουλεύοι (optative: reported charge after a past main verb)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ πείθεται καὶ συλλαμβάνει Κῦρον ὡς ἀποκτενῶν·",
+          "orig": [
+            6
+          ],
+          "glosses": [
+            {
+              "word": "πείθεται",
+              "kind": "|",
+              "value": "πείθω (persuade) | πείθεται (is persuaded, believes it)"
+            },
+            {
+              "word": "συλλαμβάνει",
+              "kind": "<",
+              "value": "σύν + λαμβάνω | συλλαμβάνει (arrests)"
+            },
+            {
+              "word": "ἀποκτενῶν",
+              "kind": "|",
+              "value": "ἀποκτείνω (kill) | ἀποκτενῶν (future participle: meaning to kill)"
+            }
+          ]
+        },
+        {
+          "text": "ἡ δὲ μήτηρ ἐξαιτησαμένη αὐτὸν ἀποπέμπει πάλιν ἐπὶ τὴν ἀρχήν.",
+          "orig": [
+            7
+          ],
+          "glosses": [
+            {
+              "word": "ἐξαιτησαμένη",
+              "kind": "en",
+              "value": "having begged him off (ἐξαιτέομαι, aorist middle participle)"
+            },
+            {
+              "word": "ἀποπέμπει",
+              "kind": "<",
+              "value": "ἀπό + πέμπω | ἀποπέμπει (sends away)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δʼ ὡς ἀπῆλθε κινδυνεύσας καὶ ἀτιμασθείς, βουλεύεται ὅπως μήποτε ἔτι ἔσται ἐπὶ τῷ ἀδελφῷ, ἀλλά, ἢν δύνηται, βασιλεύσει ἀντʼ ἐκείνου.",
+          "orig": [
+            8
+          ],
+          "glosses": [
+            {
+              "word": "δʼ",
+              "kind": "=",
+              "value": "δέ"
+            },
+            {
+              "word": "ὡς",
+              "kind": "en",
+              "value": "here: when (ὡς + aorist)"
+            },
+            {
+              "word": "ἀπῆλθε",
+              "kind": "<",
+              "value": "ἀπό + ἦλθε | ἀπῆλθε (went away)"
+            },
+            {
+              "word": "κινδυνεύσας",
+              "kind": "en",
+              "value": "having been in danger (κινδυνεύω, aorist participle)"
+            },
+            {
+              "word": "ἀτιμασθείς",
+              "kind": "en",
+              "value": "having been disgraced (ἀτιμάζω, aorist passive participle)"
+            },
+            {
+              "word": "βουλεύεται",
+              "kind": "en",
+              "value": "plans, makes plans (βουλεύω, middle)"
+            },
+            {
+              "word": "μήποτε",
+              "kind": "en",
+              "value": "never (μή + ποτε)"
+            },
+            {
+              "word": "ἐπὶ",
+              "kind": "note",
+              "value": "ἐπὶ τῷ ἀδελφῷ: in his brother's power"
+            },
+            {
+              "word": "ἢν",
+              "kind": "=",
+              "value": "ἐάν (if)"
+            },
+            {
+              "word": "βασιλεύσει",
+              "kind": "<",
+              "value": "βασιλεύς | βασιλεύω (be king) | βασιλεύσει (future)"
+            },
+            {
+              "word": "ἀντʼ",
+              "kind": "=",
+              "value": "ἀντί (+ genitive: instead of)"
+            }
+          ]
+        },
+        {
+          "text": "Παρύσατις μὲν δὴ ἡ μήτηρ ὑπῆρχε τῷ Κύρῳ, φιλοῦσα αὐτὸν μᾶλλον ἢ τὸν βασιλεύοντα Ἀρταξέρξην.",
+          "orig": [
+            9
+          ],
+          "glosses": [
+            {
+              "word": "ὑπῆρχε",
+              "kind": "|",
+              "value": "ὑπάρχει + dative | ὑπῆρχε τῷ Κύρῳ (was on Cyrus's side)"
+            },
+            {
+              "word": "βασιλεύοντα",
+              "kind": "|",
+              "value": "βασιλεύω | τὸν βασιλεύοντα (the one who was king)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "αιτια",
+      "gloss_grc": "ἡ αἰτία · τίς ἡ αἰτία τοῦ πολέμου;"
+    },
+    {
+      "id": "μερος",
+      "gloss_grc": "τὸ μέρος, τοῦ μέρους · ἐν τούτῳ τῷ μέρει τοῦ βιβλίου"
+    },
+    {
+      "id": "μονος",
+      "gloss_grc": "μόνος, -η, -ον · ὁ πρεσβύτερος μόνος παρῆν"
+    },
+    {
+      "id": "αιρεω",
+      "gloss_grc": "αἱρέω · αἱρήσω · εἷλον (ἑλεῖν) · ᾕρηκα · ᾑρέθην — take, seize; middle αἱροῦμαι: choose"
+    },
+    {
+      "id": "κρατεω",
+      "gloss_grc": "κρατεῖ + genitive · ὁ βασιλεὺς πάσης τῆς γῆς κρατεῖν βούλεται"
+    },
+    {
+      "id": "χαρις",
+      "gloss_grc": "ἡ χάρις, τῆς χάριτος · χάριν ἔχω τινί (I am grateful to someone)"
+    },
+    {
+      "id": "φυω",
+      "gloss_grc": "φύω, ἔφυσα (produce, beget) · ἔφυν (was born, grew)"
+    }
+  ],
+  "notice": [
+    "Δαρείου καὶ Παρυσάτιδος γίγνονται παῖδες δύο · Κῦρον δὲ μεταπέμπεται · Τισσαφέρνης διαβάλλει τὸν Κῦρον",
+    "ὁ μὲν οὖν πρεσβύτερος παρὼν ἐτύγχανε",
+    "συλλαμβάνει Κῦρον ὡς ἀποκτενῶν",
+    "διαβάλλει τὸν Κῦρον … ὡς ἐπιβουλεύοι αὐτῷ",
+    "βουλεύεται ὅπως μήποτε ἔτι ἔσται ἐπὶ τῷ ἀδελφῷ"
+  ],
+  "grammar": {
+    "md": "This unit has no new grammar. From here on you read Greek as the Greeks wrote it, with a **running vocabulary** beside the text: every word you have not met is glossed where it first appears, and forms of words you know are left for you.\n\n**How to read an original sentence.**\n\n1. Find the finite verb (or verbs): ἐβούλετο, μεταπέμπεται, βουλεύεται.\n2. Find its subject: a nominative, or the person in the ending (ὁ δέ, 'and he').\n3. Bracket the participles and what depends on them: [κινδυνεύσας καὶ ἀτιμασθείς].\n4. Bracket each subordinate clause from its introducing word to its verb: [ἐπεὶ … ἠσθένει], [ὅπως … ἔσται], [ἢν δύνηται].\n5. Read the whole sentence again in Greek order before you translate.\n\n**What Xenophon's first page uses (and where you learned it).**\n\n| in the text | what it is | unit |\n|---|---|---|\n| γίγνονται, μεταπέμπεται, διαβάλλει | historic present: past events told in the present | 5 |\n| παρὼν ἐτύγχανε | τυγχάνω + supplementary participle | 7 |\n| ὡς ἀποκτενῶν | ὡς + future participle: purpose | 7 |\n| ὡς ἐπιβουλεύοι | optative in reported speech after a past verb | 9 |\n| ὅπως … ἔσται | ὅπως + future indicative after a verb of planning | 9 |\n| κινδυνεύσας, ἀτιμασθείς | circumstantial participles, aorist active and passive | 4–9 |\n| τὼ παῖδε ἀμφοτέρω | the dual | 11 |\n| ἐς, ἤν | older or non-Attic spellings of εἰς, ἐάν | 11 |\n\n**Xenophon's style.** Plain words, clear order, and a habit of starting sentences with μὲν οὖν, δέ, ἐπεὶ δέ. A long sentence is usually a main verb with participles and one or two clauses hung on it: find the main verb and the rest falls into place.",
+    "paradigms": [
+      "luo",
+      "eimi"
+    ],
+    "diagram": "diagram-reading-strategy"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings (the sentences are Xenophon's).",
+      "template": "Δαρείου καὶ Παρυσάτιδος γίγνο___ παῖδες δύο. Κῦρον δὲ μεταπέμπ___ ἀπὸ τῆς ἀρχῆς. ἀναβαίνει οὖν ὁ Κῦρος λαβ___ Τισσαφέρνην ὡς φίλον. ἡ δὲ μήτηρ αὐτὸν ἀποπέμπ___ πάλιν.",
+      "gaps": [
+        {
+          "answers": [
+            "νται"
+          ]
+        },
+        {
+          "answers": [
+            "εται"
+          ]
+        },
+        {
+          "answers": [
+            "ών",
+            "ων"
+          ]
+        },
+        {
+          "answers": [
+            "ει"
+          ]
+        }
+      ],
+      "skills": [
+        "verb.historic-present",
+        "verb.pres.mp.ind.3pl",
+        "verb.ptc.aor.act"
+      ],
+      "explain": "γίγνονται (3rd plural middle), μεταπέμπεται (3rd singular middle), λαβών (aorist participle, nominative with ὁ Κῦρος), ἀποπέμπει (3rd singular active). All but λαβών are historic presents."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ὁ μὲν οὖν πρεσβύτερος ___ ἐτύγχανε.",
+      "options": [
+        {
+          "id": "a",
+          "text": "παρών"
+        },
+        {
+          "id": "b",
+          "text": "παρεῖναι"
+        },
+        {
+          "id": "c",
+          "text": "πάρεστι"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.ptc-supp"
+      ],
+      "explain": "τυγχάνω takes a participle: παρὼν ἐτύγχανε 'he happened to be there'.",
+      "audio": "ὁ μὲν οὖν πρεσβύτερος παρὼν ἐτύγχανε."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · Τισσαφέρνης διαβάλλει τὸν Κῦρον πρὸς τὸν ἀδελφὸν ὡς ___ αὐτῷ.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐπιβουλεύοι"
+        },
+        {
+          "id": "b",
+          "text": "ἐπιβούλευε"
+        },
+        {
+          "id": "c",
+          "text": "ἐπιβουλεῦσαι"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-indirect"
+      ],
+      "explain": "The charge is reported after a historic present (a past main verb): the optative ἐπιβουλεύοι 'that he was plotting'.",
+      "audio": "Τισσαφέρνης διαβάλλει τὸν Κῦρον πρὸς τὸν ἀδελφὸν ὡς ἐπιβουλεύοι αὐτῷ."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ὁ δὲ πείθεται καὶ συλλαμβάνει Κῦρον ὡς ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἀποκτενῶν"
+        },
+        {
+          "id": "b",
+          "text": "ἀποκτείνας"
+        },
+        {
+          "id": "c",
+          "text": "ἀποκτείνειν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.ptc-purpose"
+      ],
+      "explain": "ὡς + future participle: 'intending to kill him'.",
+      "audio": "ὁ δὲ πείθεται καὶ συλλαμβάνει Κῦρον ὡς ἀποκτενῶν."
+    },
+    {
+      "type": "match",
+      "prompt": "Match the new words to their meanings.",
+      "pairs": [
+        {
+          "left": "μόνος",
+          "right": "alone, only"
+        },
+        {
+          "left": "τὸ μέρος",
+          "right": "part, share"
+        },
+        {
+          "left": "ἡ αἰτία",
+          "right": "cause, blame"
+        },
+        {
+          "left": "κρατέω",
+          "right": "rule, prevail over"
+        },
+        {
+          "left": "ἡ χάρις",
+          "right": "favour, thanks"
+        }
+      ],
+      "skills": [
+        "vocab.recognition",
+        "vocab.stage2"
+      ],
+      "explain": "μόνος, μέρος, αἰτία, κρατέω (+ genitive), χάρις (χάριν ἔχω 'I am grateful')."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist of αἱρέω for 'he seized'.",
+      "lemma": "αἱρέω",
+      "cell": "aorist.active.indicative.3sg",
+      "skills": [
+        "vocab.production",
+        "verb.aor2.stem"
+      ],
+      "explain": "εἷλε(ν): αἱρέω borrows its aorist from another stem (ἑλ-), like λέγω → εἶπον.",
+      "audio": "εἷλεν"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the dative singular of μέρος: ἐν τούτῳ τῷ ___.",
+      "lemma": "μέρος",
+      "cell": "dat.sg",
+      "skills": [
+        "noun.decl3.dat.sg",
+        "vocab.stage2"
+      ],
+      "explain": "μέρει: σ-stem neuter like γένος (μέρεσ-ι → μέρει).",
+      "audio": "μέρει"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the present of κρατέω for 'he rules'.",
+      "lemma": "κρατέω",
+      "cell": "present.active.indicative.3sg",
+      "skills": [
+        "verb.contract.e",
+        "vocab.production"
+      ],
+      "explain": "κρατεῖ, like ποιεῖ. It takes a genitive: κρατεῖ τῆς γῆς.",
+      "audio": "κρατεῖ"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἐπιβουλεύοι.",
+      "form": "ἐπιβουλεύοι",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "pres",
+        "mood": "opt"
+      },
+      "skills": [
+        "syntax.opt-indirect",
+        "verb.pres.act.opt.3sg"
+      ],
+      "explain": "ἐπιβουλεύ-οι: present optative, 3rd singular. After a past main verb, a reported charge may go into the optative.",
+      "audio": "ἐπιβουλεύοι"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἀποκτενῶν.",
+      "form": "ἀποκτενῶν",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "fut",
+        "mood": "ptc"
+      },
+      "skills": [
+        "verb.ptc.fut.act",
+        "syntax.ptc-purpose"
+      ],
+      "explain": "ἀποκτεν-ῶν: the liquid future ἀποκτενῶ gives the participle ἀποκτενῶν, 'about to kill, meaning to kill'.",
+      "audio": "ἀποκτενῶν"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἀτιμασθείς.",
+      "form": "ἀτιμασθείς",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "voice",
+          "label": "Voice",
+          "options": [
+            {
+              "id": "act",
+              "label": "active"
+            },
+            {
+              "id": "mid",
+              "label": "middle"
+            },
+            {
+              "id": "pass",
+              "label": "passive"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "voice": "pass"
+      },
+      "skills": [
+        "verb.ptc.aor.pass"
+      ],
+      "explain": "ἀτιμασ-θείς: -θεις marks the aorist passive participle (λυθείς), 'having been disgraced'.",
+      "audio": "ἀτιμασθείς"
+    },
+    {
+      "type": "label",
+      "prompt": "ὁ μὲν οὖν πρεσβύτερος παρὼν ἐτύγχανε. What kind of participle is παρών?",
+      "options": [
+        {
+          "id": "a",
+          "text": "supplementary (it completes τυγχάνω)"
+        },
+        {
+          "id": "b",
+          "text": "circumstantial (when, because …)"
+        },
+        {
+          "id": "c",
+          "text": "attributive (with the article)"
+        },
+        {
+          "id": "d",
+          "text": "genitive absolute"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.ptc-supp",
+        "verb.ptc.use"
+      ],
+      "explain": "τυγχάνω, λανθάνω, φθάνω, φαίνομαι need a participle to finish their meaning: 'he happened to be present'."
+    },
+    {
+      "type": "label",
+      "prompt": "Τισσαφέρνης διαβάλλει τὸν Κῦρον … ὡς ἐπιβουλεύοι αὐτῷ. Why is ἐπιβουλεύοι optative?",
+      "options": [
+        {
+          "id": "a",
+          "text": "reported speech after a past main verb (secondary sequence)"
+        },
+        {
+          "id": "b",
+          "text": "a wish"
+        },
+        {
+          "id": "c",
+          "text": "potential, with ἄν"
+        },
+        {
+          "id": "d",
+          "text": "a condition"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-indirect",
+        "syntax.opt-secondary"
+      ],
+      "explain": "διαβάλλει is a historic present, so it counts as past: the reported charge may take the optative."
+    },
+    {
+      "type": "label",
+      "prompt": "ὁ δʼ ὡς ἀπῆλθε κινδυνεύσας καὶ ἀτιμασθείς, βουλεύεται … How do κινδυνεύσας and ἀτιμασθείς relate to the sentence?",
+      "options": [
+        {
+          "id": "a",
+          "text": "circumstantial: they say what had happened to him"
+        },
+        {
+          "id": "b",
+          "text": "attributive: they describe a noun with its article"
+        },
+        {
+          "id": "c",
+          "text": "supplementary: they complete a verb"
+        },
+        {
+          "id": "d",
+          "text": "future participles of purpose"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "verb.ptc.use",
+        "verb.ptc.summary"
+      ],
+      "explain": "Circumstantial participles agree with the subject (ὁ δέ = Cyrus) and add the circumstances: 'having been in danger and disgraced'."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "Xenophon writes ἢν δύνηται. In the Attic you learned this is ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐὰν δύνηται"
+        },
+        {
+          "id": "b",
+          "text": "εἰ ἐδύνατο"
+        },
+        {
+          "id": "c",
+          "text": "ὅτι δύναται"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.dialects",
+        "syntax.ean"
+      ],
+      "explain": "ἤν = ἐάν (+ subjunctive): 'if he can'. Xenophon also writes ἐς for εἰς."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "βουλεύεται ὅπως μήποτε ἔτι ___ ἐπὶ τῷ ἀδελφῷ.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἔσται"
+        },
+        {
+          "id": "b",
+          "text": "ἦν"
+        },
+        {
+          "id": "c",
+          "text": "ᾖ"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.hopos-fut"
+      ],
+      "explain": "After verbs of planning and taking care, ὅπως takes the future indicative: 'that he will never again be in his brother's power'."
+    },
+    {
+      "type": "transform",
+      "prompt": "Tell it in the aorist instead of the historic present: Κῦρον μεταπέμπεται. → Κῦρον …",
+      "template": "Κῦρον ___.",
+      "gaps": [
+        {
+          "answers": [
+            "μετεπέμψατο"
+          ]
+        }
+      ],
+      "skills": [
+        "verb.historic-present",
+        "verb.augment.compound"
+      ],
+      "explain": "μετ-ε-πέμψ-ατο: the augment goes after the prefix; aorist middle 3rd singular.",
+      "audio": "Κῦρον μετεπέμψατο."
+    },
+    {
+      "type": "transform",
+      "prompt": "Put the reported charge into direct speech: ὡς ἐπιβουλεύοι αὐτῷ → «___ σοι.»",
+      "template": "«___ σοι.»",
+      "gaps": [
+        {
+          "answers": [
+            "ἐπιβουλεύει"
+          ]
+        }
+      ],
+      "skills": [
+        "syntax.opt-indirect",
+        "verb.pres.act.ind.3sg"
+      ],
+      "explain": "Tissaphernes' actual words: «ἐπιβουλεύει σοι» 'he is plotting against you'. In reported speech after a past verb the present indicative may become a present optative."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap every participle.",
+      "sentence": "ὁ δʼ ὡς ἀπῆλθε κινδυνεύσας καὶ ἀτιμασθείς, βουλεύεται ὅπως μήποτε ἔτι ἔσται ἐπὶ τῷ ἀδελφῷ, ἀλλά, ἢν δύνηται, βασιλεύσει ἀντʼ ἐκείνου.",
+      "answer": [
+        4,
+        6
+      ],
+      "skills": [
+        "read.locate",
+        "verb.ptc.summary"
+      ],
+      "explain": "κινδυνεύσας (aorist active) and ἀτιμασθείς (aorist passive), both nominative with the subject, ὁ δέ (Cyrus)."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap every verb in the historic present.",
+      "sentence": "ὁ δὲ πείθεται καὶ συλλαμβάνει Κῦρον ὡς ἀποκτενῶν· ἡ δὲ μήτηρ ἐξαιτησαμένη αὐτὸν ἀποπέμπει πάλιν ἐπὶ τὴν ἀρχήν.",
+      "answer": [
+        2,
+        4,
+        13
+      ],
+      "skills": [
+        "read.locate",
+        "verb.historic-present"
+      ],
+      "explain": "πείθεται, συλλαμβάνει, ἀποπέμπει: present tense, past events."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the three dual forms.",
+      "sentence": "ἐπεὶ δὲ ἠσθένει Δαρεῖος καὶ ὑπώπτευε τελευτὴν τοῦ βίου, ἐβούλετο τὼ παῖδε ἀμφοτέρω παρεῖναι.",
+      "answer": [
+        10,
+        11,
+        12
+      ],
+      "skills": [
+        "read.locate",
+        "noun.dual"
+      ],
+      "explain": "τὼ παῖδε ἀμφοτέρω: article, noun and adjective in the dual ('the two sons, both'). The dual is for pairs."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'The mother loved Cyrus more than the king.'",
+      "tokens": [
+        "ἡ",
+        "μήτηρ",
+        "τὸν",
+        "Κῦρον",
+        "μᾶλλον",
+        "ἐφίλει",
+        "ἢ",
+        "τὸν",
+        "βασιλέα"
+      ],
+      "answers": [
+        "ἡ μήτηρ τὸν Κῦρον μᾶλλον ἐφίλει ἢ τὸν βασιλέα",
+        "ἡ μήτηρ ἐφίλει τὸν Κῦρον μᾶλλον ἢ τὸν βασιλέα",
+        "τὸν Κῦρον ἡ μήτηρ μᾶλλον ἐφίλει ἢ τὸν βασιλέα"
+      ],
+      "skills": [
+        "syntax.comparison",
+        "syntax.word-order"
+      ],
+      "explain": "μᾶλλον … ἤ: 'more … than'; both objects are accusative."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Κῦρον δὲ μεταπέμπεται ἀπὸ τῆς ἀρχῆς."
+        },
+        {
+          "id": "b",
+          "text": "Κῦρον δὲ ἀποπέμπει ἐπὶ τὴν ἀρχήν."
+        },
+        {
+          "id": "c",
+          "text": "Κῦρος δὲ ἀναβαίνει ἀπὸ τῆς ἀρχῆς."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "He sends for Cyrus from his province.",
+      "audio": "Κῦρον δὲ μεταπέμπεται ἀπὸ τῆς ἀρχῆς."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Κῦρος πρεσβύτερος ἦν τοῦ Ἀρταξέρξου.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "πρεσβύτερος μὲν Ἀρταξέρξης, νεώτερος δὲ Κῦρος."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Τισσαφέρνης τὸν Κῦρον πρὸς τὸν ἀδελφὸν διαβάλλει.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "Τισσαφέρνης διαβάλλει τὸν Κῦρον πρὸς τὸν ἀδελφόν."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ἡ μήτηρ τὸν Ἀρταξέρξην μᾶλλον ἐφίλει ἢ τὸν Κῦρον.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "The reverse: φιλοῦσα αὐτὸν (Cyrus) μᾶλλον ἢ τὸν βασιλεύοντα Ἀρταξέρξην."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "gaps": [
+        {
+          "answers": [
+            "ἀναβαίνει οὖν ὁ Κῦρος"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "ἀναβαίνει οὖν ὁ Κῦρος: 'so Cyrus goes up (country)'.",
+      "audio": "ἀναβαίνει οὖν ὁ Κῦρος."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'This is the cause of the war.'",
+      "gaps": [
+        {
+          "answers": [
+            "αὕτη ἐστὶν ἡ αἰτία τοῦ πολέμου",
+            "αὕτη ἐστὶ ἡ αἰτία τοῦ πολέμου",
+            "αὕτη ἡ αἰτία ἐστὶ τοῦ πολέμου",
+            "αὕτη ἡ αἰτία ἐστὶν τοῦ πολέμου",
+            "ἡ αἰτία τοῦ πολέμου αὕτη ἐστίν",
+            "ἡ αἰτία τοῦ πολέμου αὕτη ἐστί",
+            "αὕτη ἡ αἰτία τοῦ πολέμου"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "vocab.stage2",
+        "pron.demonstrative"
+      ],
+      "explain": "αὕτη ἐστὶν ἡ αἰτία τοῦ πολέμου: αὕτη agrees with feminine αἰτία."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'Cyrus was grateful to his mother.' (χάριν ἔχω + dative)",
+      "gaps": [
+        {
+          "answers": [
+            "ὁ Κῦρος τῇ μητρὶ χάριν εἶχεν",
+            "ὁ Κῦρος τῇ μητρὶ χάριν εἶχε",
+            "ὁ Κῦρος χάριν εἶχε τῇ μητρί",
+            "ὁ Κῦρος χάριν εἶχεν τῇ μητρί",
+            "τῇ μητρὶ ὁ Κῦρος χάριν εἶχεν",
+            "τῇ μητρὶ ὁ Κῦρος χάριν εἶχε",
+            "ὁ Κῦρος εἶχε χάριν τῇ μητρί",
+            "ὁ Κῦρος εἶχεν χάριν τῇ μητρί"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "vocab.stage2",
+        "syntax.dat.uses"
+      ],
+      "explain": "χάριν ἔχειν + dative: 'to feel grateful to'; imperfect εἶχε(ν)."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: ἐπεὶ δὲ ἠσθένει Δαρεῖος καὶ ὑπώπτευε τελευτὴν τοῦ βίου, ἐβούλετο τὼ παῖδε ἀμφοτέρω παρεῖναι.",
+      "audio": "ἐπεὶ δὲ ἠσθένει Δαρεῖος καὶ ὑπώπτευε τελευτὴν τοῦ βίου, ἐβούλετο τὼ παῖδε ἀμφοτέρω παρεῖναι.",
+      "model": "When Darius was ill and suspected the end of his life, he wanted both his sons to be with him.",
+      "skills": [
+        "read.connected",
+        "read.original",
+        "read.xenophon",
+        "noun.dual"
+      ],
+      "explain": "ἐπεί 'when'; ὑπώπτευε 'suspected, foresaw'; τὼ παῖδε ἀμφοτέρω is the subject of the infinitive παρεῖναι."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: ὁ δʼ ὡς ἀπῆλθε κινδυνεύσας καὶ ἀτιμασθείς, βουλεύεται ὅπως μήποτε ἔτι ἔσται ἐπὶ τῷ ἀδελφῷ, ἀλλά, ἢν δύνηται, βασιλεύσει ἀντʼ ἐκείνου.",
+      "audio": "ὁ δʼ ὡς ἀπῆλθε κινδυνεύσας καὶ ἀτιμασθείς, βουλεύεται ὅπως μήποτε ἔτι ἔσται ἐπὶ τῷ ἀδελφῷ, ἀλλά, ἢν δύνηται, βασιλεύσει ἀντʼ ἐκείνου.",
+      "model": "When he had gone away, after being in danger and disgraced, he planned that he would never again be in his brother's power, but, if he could, he would be king instead of him.",
+      "skills": [
+        "read.connected",
+        "read.original",
+        "read.xenophon",
+        "syntax.hopos-fut",
+        "read.strategy"
+      ],
+      "explain": "Find the main verb first: βουλεύεται. Then bracket the ὡς-clause with its participles and the ὅπως-clause (future indicative)."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "ἡ αἰτία",
+          "right": "aetiology (study of causes)"
+        },
+        {
+          "left": "μόνος",
+          "right": "monologue, monopoly"
+        },
+        {
+          "left": "κρατέω (τὸ κράτος)",
+          "right": "democracy, aristocracy"
+        },
+        {
+          "left": "ἡ χάρις",
+          "right": "charisma"
+        },
+        {
+          "left": "ὁ σατράπης",
+          "right": "satrap"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "αἰτία 'cause'; μόνος 'alone'; -κρατία 'rule'; χάρισμα 'a gift of grace'; σατράπης is a Persian word taken into Greek."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "πόσοι παῖδες ἦσαν Δαρείου καὶ Παρυσάτιδος;",
+      "options": [
+        {
+          "id": "a",
+          "text": "δύο."
+        },
+        {
+          "id": "b",
+          "text": "τρεῖς."
+        },
+        {
+          "id": "c",
+          "text": "εἷς μόνος."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "γίγνονται παῖδες δύο.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίς μόνος παρῆν, ὅτε ὁ Δαρεῖος ἠσθένει;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ Ἀρταξέρξης, ὁ πρεσβύτερος."
+        },
+        {
+          "id": "b",
+          "text": "ὁ Κῦρος, ὁ νεώτερος."
+        },
+        {
+          "id": "c",
+          "text": "ὁ Τισσαφέρνης."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "vocab.stage2"
+      ],
+      "explain": "ὁ μὲν οὖν πρεσβύτερος παρὼν ἐτύγχανε.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίνα λαμβάνει ὁ Κῦρος ὡς φίλον;",
+      "options": [
+        {
+          "id": "a",
+          "text": "τὸν Τισσαφέρνην."
+        },
+        {
+          "id": "b",
+          "text": "τὸν Ξενίαν."
+        },
+        {
+          "id": "c",
+          "text": "τὸν Ἀρταξέρξην."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "λαβὼν Τισσαφέρνην ὡς φίλον.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "πόσους ὁπλίτας ἔχει ὁ Κῦρος;",
+      "options": [
+        {
+          "id": "a",
+          "text": "τριακοσίους."
+        },
+        {
+          "id": "b",
+          "text": "δύο."
+        },
+        {
+          "id": "c",
+          "text": "δέκα."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἔχων ὁπλίτας ἀνέβη τριακοσίους.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "διὰ τί ὁ βασιλεὺς τὸν Κῦρον εἷλεν;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ Τισσαφέρνης αὐτὸν διέβαλεν."
+        },
+        {
+          "id": "b",
+          "text": "ὁ Κῦρος τὸν πατέρα ἀπέκτεινεν."
+        },
+        {
+          "id": "c",
+          "text": "ὁ Κῦρος τὴν ἀρχὴν ἔλιπεν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "vocab.stage2"
+      ],
+      "explain": "Τισσαφέρνης διαβάλλει τὸν Κῦρον … ὁ δὲ πείθεται καὶ συλλαμβάνει Κῦρον.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίς τὸν Κῦρον ἔσωσεν;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἡ μήτηρ, ἡ Παρύσατις."
+        },
+        {
+          "id": "b",
+          "text": "ὁ Τισσαφέρνης."
+        },
+        {
+          "id": "c",
+          "text": "ὁ Ξενίας."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἡ δὲ μήτηρ ἐξαιτησαμένη αὐτὸν ἀποπέμπει πάλιν ἐπὶ τὴν ἀρχήν.",
+      "audio": "prompt"
+    }
+  ],
+  "culture": {
+    "title": "Xenophon and the march up country",
+    "md": "**Xenophon** (about 430 – after 355 BC) was an Athenian of good family who, as a young man, spent time with Socrates. In 401 he joined, as a private volunteer, the army that **Cyrus the Younger** was gathering in Asia Minor. Cyrus claimed he was marching against local enemies; in fact he meant to overthrow his brother, **King Artaxerxes II**. About ten thousand Greek mercenaries marched with him deep into the Persian empire, and at **Cunaxa**, near Babylon, the Greeks won their part of the battle but Cyrus was killed. Their generals were then seized by Tissaphernes, and Xenophon was one of the new leaders elected to take the army home: north through the mountains of Kurdistan and Armenia to the Black Sea.\n\nHe told the story in the **Anabasis** ('the march up country'), written in the 370s–360s, a generation after the events of 401–399, while he lived in exile on an estate at Scillus near Olympia and later in Corinth. So in our epilogue, around 370, old Lysis holds one of the first copies of a new book. Its plain, clear prose has made it the first real Greek author for learners ever since antiquity; Roman schoolboys and Victorian schoolboys began where you begin now.",
+    "image": "culture-12-1-achaemenid-guards"
+  },
+  "quiz": [
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist infinitive of αἱρέω ('to seize').",
+      "lemma": "αἱρέω",
+      "cell": "aorist.active.infinitive.inf",
+      "skills": [
+        "vocab.production",
+        "verb.aor2.stem"
+      ],
+      "explain": "ἑλεῖν: second-aorist infinitive, accented like ἰδεῖν, λαβεῖν.",
+      "audio": "ἑλεῖν"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἐς Καστωλοῦ πεδίον: ἐς = ___",
+      "options": [
+        {
+          "id": "a",
+          "text": "εἰς"
+        },
+        {
+          "id": "b",
+          "text": "ἐκ"
+        },
+        {
+          "id": "c",
+          "text": "ἐν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.dialects"
+      ],
+      "explain": "ἐς is the older form of εἰς."
+    },
+    {
+      "type": "label",
+      "prompt": "συλλαμβάνει Κῦρον ὡς ἀποκτενῶν: ὡς + future participle expresses …",
+      "options": [
+        {
+          "id": "a",
+          "text": "purpose, intention"
+        },
+        {
+          "id": "b",
+          "text": "cause"
+        },
+        {
+          "id": "c",
+          "text": "comparison"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.ptc-purpose"
+      ],
+      "explain": "'intending to kill him'."
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse βασιλεύσει.",
+      "form": "βασιλεύσει",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "fut",
+        "person": "3sg"
+      },
+      "skills": [
+        "verb.fut.act.ind.3sg"
+      ],
+      "explain": "βασιλεύ-σ-ει: future, 'he will be king'.",
+      "audio": "βασιλεύσει"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἡ μήτηρ ἐφίλει τὸν Κῦρον μᾶλλον ___ τὸν Ἀρταξέρξην.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἢ"
+        },
+        {
+          "id": "b",
+          "text": "καὶ"
+        },
+        {
+          "id": "c",
+          "text": "ὡς"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.comparison"
+      ],
+      "explain": "μᾶλλον ἤ 'more than'."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Ξενίας τῶν ὁπλιτῶν ἄρχων ἦν.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἄρχοντα δὲ αὐτῶν Ξενίαν Παρράσιον."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "πρεσβύτερος μὲν Ἀρταξέρξης, νεώτερος δὲ Κῦρος."
+        },
+        {
+          "id": "b",
+          "text": "νεώτερος μὲν Ἀρταξέρξης, πρεσβύτερος δὲ Κῦρος."
+        },
+        {
+          "id": "c",
+          "text": "πρεσβύτερος μὲν Κῦρος, νεώτερος δὲ Τισσαφέρνης."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "Artaxerxes the elder, Cyrus the younger.",
+      "audio": "πρεσβύτερος μὲν Ἀρταξέρξης, νεώτερος δὲ Κῦρος."
+    }
+  ],
+  "skills": [
+    "read.connected",
+    "read.original",
+    "read.xenophon",
+    "read.strategy",
+    "read.dialects",
+    "read.comprehension",
+    "read.locate",
+    "verb.historic-present",
+    "syntax.ptc-supp",
+    "syntax.ptc-purpose",
+    "syntax.opt-indirect",
+    "syntax.hopos-fut",
+    "verb.ptc.use",
+    "verb.ptc.summary",
+    "noun.dual",
+    "syntax.comparison",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.stage2",
+    "vocab.family"
+  ]
+}

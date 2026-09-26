@@ -1,0 +1,132 @@
+{
+  "id": "2.1",
+  "title_grc": "ἡ ἡμέρα",
+  "title_en": "A day at home",
+  "summary_grc": "«ἆρα καθεύδεις;» «οὐ καθεύδω· ἐγὼ γὰρ ἤδη πονῶ.»",
+  "summary_en": "From dawn to evening in the house: 'I' and 'you', yes/no questions with ἆρα, and μέν … δέ.",
+  "cover": "panel-2-1-a",
+  "caption_grc": "«ὦ Ἐλπί, ἆρα καθεύδεις;» «οὐ καθεύδω· ἐγὼ ἐκ τῆς κλίνης βαίνω.»",
+  "names": {},
+  "allow": {},
+  "story": [
+    {
+      "image": "panel-2-1-a",
+      "sentences": [
+        {"text": "ἡμέρα ἐστίν· ὁ ἥλιος ἤδη ἐν τῷ οὐρανῷ ἐστιν.", "glosses": [{"word": "ἡμέρα", "kind": "pic", "value": "hemera"}, {"word": "ἤδη", "kind": "en", "value": "already"}]},
+        {"text": "ἡ Χρυσὶς πρῶτον μὲν ἐκ τῆς κλίνης βαίνει, ἔπειτα δὲ τὴν Ἐλπίδα καλεῖ.", "glosses": [{"word": "πρῶτον", "kind": "=", "value": "πρῶτον μὲν Α, ἔπειτα δὲ Β (1 → 2)"}, {"word": "μὲν", "kind": "en", "value": "μέν … δέ: on the one hand … on the other; never the first word"}, {"word": "ἔπειτα", "kind": "en", "value": "then, next"}]},
+        {"text": "«ὦ Ἐλπί, ἆρα καθεύδεις;»", "glosses": [{"word": "ὦ", "kind": "en", "value": "O … (before a name, when you call someone; Lesson 2.3)"}, {"word": "ἆρα", "kind": "=", "value": "ἆρα … ; = a yes/no question"}, {"word": "καθεύδεις", "kind": "|", "value": "καθεύδει | καθεύδεις (σύ)"}]},
+        {"text": "ἡ δὲ Ἐλπὶς λέγει· «οὐ καθεύδω· ἐγὼ γὰρ ἤδη ἐκ τῆς κλίνης βαίνω.»", "glosses": [{"word": "καθεύδω", "kind": "|", "value": "καθεύδει | καθεύδω (ἐγώ)"}, {"word": "ἐγὼ", "kind": "en", "value": "I"}]},
+        {"text": "ἡ Χρυσὶς λέγει· «σὺ μὲν τὴν ὑδρίαν φέρεις, ἐγὼ δὲ ὑφαίνω.»", "glosses": [{"word": "σὺ", "kind": "en", "value": "you (one person)"}, {"word": "φέρεις", "kind": "|", "value": "φέρει | φέρεις (σύ)"}]},
+        {"text": "ἡ Ἐλπὶς οὖν τὴν ὑδρίαν λαμβάνει καὶ εἰς τὴν κρήνην σπεύδει· ἀεὶ γὰρ σπεύδει.", "glosses": [{"word": "σπεύδει", "kind": "pic", "value": "verb-speudei"}]}
+      ]
+    },
+    {
+      "image": "panel-2-1-b",
+      "sentences": [
+        {"text": "ὁ Ἀρίστων καὶ ὁ Λύσις εἰς τὸ ἐργαστήριον βαίνουσιν.", "glosses": []},
+        {"text": "ἐν τῷ ἐργαστηρίῳ ὁ Ἀρίστων λέγει· «σὺ παῖς εἶ, ὦ Λύσι, ἐγὼ δὲ κεραμεύς εἰμι· ἐγὼ μὲν πονῶ, σὺ δὲ παίζεις.»", "glosses": [{"word": "εἶ", "kind": "|", "value": "ἐστί(ν) | εἶ (σύ)"}, {"word": "εἰμι", "kind": "|", "value": "ἐστί(ν) | εἰμί (ἐγώ)"}, {"word": "πονῶ", "kind": "|", "value": "πονεῖ | πονῶ (ἐγώ) — the pattern comes in Lesson 2.4"}, {"word": "παίζεις", "kind": "pic", "value": "verb-paizei"}]},
+        {"text": "ὁ δὲ Λύσις λέγει· «οὐ παίζω, ὦ πάτερ, ἀλλὰ τὸν πηλὸν φέρω· ὁ δὲ Λάβρος παίζει.»", "glosses": [{"word": "πάτερ", "kind": "en", "value": "father! (Unit 4)"}]},
+        {"text": "ὁ γὰρ Λάβρος λίθον ἔχει.", "glosses": []},
+        {"text": "ὁ Ἀρίστων λέγει· «ἐγὼ μὲν τὸν τροχὸν ἔχω, σὺ δὲ τὸν λίθον, ὦ Λάβρε.»", "glosses": [{"word": "ἔχω", "kind": "|", "value": "ἔχει | ἔχω (ἐγώ)"}]}
+      ]
+    },
+    {
+      "image": "panel-2-1-c",
+      "sentences": [
+        {"text": "νῦν ἑσπέρα ἐστίν· ὁ ἥλιος οὐκ ἐν τῷ οὐρανῷ ἐστιν, ἀλλὰ ἡ σελήνη.", "glosses": [{"word": "ἑσπέρα", "kind": "pic", "value": "hespera"}]},
+        {"text": "ὁ Ἀρίστων ἐν τῇ οἰκίᾳ ἐστίν· πρῶτον μὲν ἄρτον ἐσθίει, ἔπειτα δὲ ὕδωρ πίνει.", "glosses": [{"word": "ἐσθίει", "kind": "pic", "value": "verb-esthiei"}, {"word": "πίνει", "kind": "pic", "value": "verb-pinei"}]},
+        {"text": "ἡ Ἐλπὶς λέγει· «ἐγὼ ἄρτον ἐσθίω καὶ ὕδωρ πίνω. ἆρα καὶ σὺ ἄρτον ἐσθίεις, ὦ Λάβρε;»", "glosses": [{"word": "ἐσθίω", "kind": "|", "value": "ἐσθίει | ἐσθίω (ἐγώ) | ἐσθίεις (σύ)"}]},
+        {"text": "ὁ δὲ Λάβρος οὐ λέγει, ἀλλὰ τὸν ἄρτον λαμβάνει καὶ ἐσθίει.", "glosses": []},
+        {"text": "ἔπειτα ἡ Ἐλπὶς ἐν τῇ κλίνῃ καθεύδει· ἡ δὲ Χρυσὶς λέγει· «σὺ μὲν καθεύδεις, ὦ Ἐλπί, ἐγὼ δὲ ὑφαίνω.»", "glosses": []},
+        {"text": "ἡ ἑσπέρα καλή ἐστιν.", "glosses": []}
+      ]
+    }
+  ],
+  "vocab": [
+    {"id": "εγω", "gloss_grc": "ἐγὼ … -ω"},
+    {"id": "συ", "gloss_grc": "σὺ … -εις"},
+    {"id": "αρα-480", "gloss_grc": "ἆρα …; – ναί / οὐ"},
+    {"id": "μεν", "gloss_grc": "Α μέν …, Β δέ …"},
+    {"id": "πρωτος", "gloss_grc": "πρῶτον μέν … ἔπειτα δέ …"},
+    {"id": "επειτα", "gloss_grc": "πρῶτον → ἔπειτα"},
+    {"id": "ηδη", "gloss_grc": "ἤδη"},
+    {"id": "σπευδω", "pic": "verb-speudei", "gloss_grc": "σπεύδω · σπεύδεις · σπεύδει"},
+    {"id": "παιζω", "pic": "verb-paizei", "gloss_grc": "παίζω · παίζεις · παίζει"},
+    {"id": "εσθιω", "pic": "verb-esthiei", "gloss_grc": "ἐσθίω · ἐσθίεις · ἐσθίει"},
+    {"id": "πινω", "pic": "verb-pinei", "gloss_grc": "πίνω · πίνεις · πίνει"},
+    {"id": "εσπερα", "pic": "hespera", "gloss_grc": "↔ ἡμέρα"},
+    {"id": "ειμι", "gloss_grc": "εἰμί · εἶ · ἐστί(ν)"},
+    {"id": "καθευδω", "pic": "verb-katheudei", "gloss_grc": "καθεύδω · καθεύδεις · καθεύδει"},
+    {"id": "φερω", "pic": "verb-pherei", "gloss_grc": "φέρω · φέρεις · φέρει"},
+    {"id": "ημερα", "pic": "hemera"},
+    {"id": "κλινη", "pic": "kline"}
+  ],
+  "notice": [
+    "ἆρα καθεύδεις; — οὐ καθεύδω.",
+    "σὺ μὲν τὴν ὑδρίαν φέρεις, ἐγὼ δὲ ὑφαίνω.",
+    "σὺ παῖς εἶ, ἐγὼ δὲ κεραμεύς εἰμι.",
+    "πρῶτον μὲν ἐκ τῆς κλίνης βαίνει, ἔπειτα δὲ τὴν Ἐλπίδα καλεῖ.",
+    "ἆρα καὶ σὺ ἄρτον ἐσθίεις; — ὁ Λάβρος τὸν ἄρτον ἐσθίει."
+  ],
+  "grammar": {
+    "md": "**I, you, he.** The ending of the verb tells you who is acting. To the two endings you know, add two more:\n\n| | ending | example |\n|---|---|---|\n| I | **-ω** | καθεύδ**ω** *I sleep*, φέρ**ω** *I carry* |\n| you (one person) | **-εις** | καθεύδ**εις** *you sleep*, φέρ**εις** |\n| he, she, it | **-ει** | καθεύδ**ει** |\n| they | **-ουσι(ν)** | καθεύδ**ουσιν** |\n\nThe dictionary lists a verb in its *I*-form: σπεύδω, παίζω, ἐσθίω, πίνω. *We* and *you (several)* come in the next lesson.\n\n**εἰμί.** *I am* is **εἰμί**, *you are* is **εἶ**: *κεραμεύς εἰμι*, *παῖς εἶ*. Like ἐστί(ν) they lean on the word before them (ἄνθρωπός εἰμι, κόρη εἰμί).\n\n**ἐγώ and σύ.** Because the ending already says *I* or *you*, Greek adds the pronouns **ἐγώ** *I* and **σύ** *you* only for emphasis or contrast: *ἐγὼ μὲν πονῶ, σὺ δὲ παίζεις* 'I work, you play.' Before another word their accent turns into a grave: ἐγὼ, σὺ.\n\n**Questions with ἆρα.** A yes/no question can be just a sentence with a question mark: *καθεύδεις;* Adding **ἆρα** at the start makes it unmistakable: *ἆρα καθεύδεις;* 'Are you asleep?' It is not translated. Answer with ναί or with οὐ + the verb: *οὐ καθεύδω.*\n\n**μέν … δέ.** Two balanced halves: *σὺ **μὲν** τὴν ὑδρίαν φέρεις, ἐγὼ **δὲ** ὑφαίνω.* Both words are postpositive (second in their clause), like γάρ. μέν is usually left untranslated; δέ becomes 'and', 'but' or 'while'. A very common pair: **πρῶτον μέν … ἔπειτα δέ …** 'first … then …'.\n\n**Time words.** ἤδη *already*, ἔπειτα *then*, νῦν *now*, ἀεί *always*; ἡ ἡμέρα *day* and ἡ ἑσπέρα *evening*.",
+    "paradigms": ["luo", "eimi", "ego", "sy"],
+    "diagram": "diagram-men-de"
+  },
+  "exercises": [
+    {"type": "endings-cloze", "prompt": "Μελέτημα Α · Fill in the verb endings.", "template": "ἐγὼ οὐ καθεύδ___. ἆρα σὺ καθεύδ___; ἡ Ἐλπὶς εἰς τὴν κρήνην σπεύδ___. ἐγὼ ἄρτον ἐσθί___, σὺ δὲ ὕδωρ πίν___.", "gaps": [{"answers": ["ω"]}, {"answers": ["εις"]}, {"answers": ["ει"]}, {"answers": ["ω"]}, {"answers": ["εις"]}], "skills": ["verb.pres.act.ind.1sg", "verb.pres.act.ind.2sg", "verb.pres.act.ind.3sg"], "explain": "-ω for I (καθεύδω, ἐσθίω), -εις for you (καθεύδεις, πίνεις), -ει for he/she (σπεύδει)."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ἆρα σὺ ___, ὦ Ἐλπί;", "options": [{"id": "a", "text": "καθεύδεις"}, {"id": "b", "text": "καθεύδω"}, {"id": "c", "text": "καθεύδει"}], "answer": "a", "skills": ["verb.pres.act.ind.2sg", "pron.personal"], "explain": "σύ → -εις: καθεύδεις.", "audio": "ἆρα σὺ καθεύδεις, ὦ Ἐλπί;"},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · σὺ μὲν τὴν ὑδρίαν φέρεις, ἐγὼ ___ ὑφαίνω.", "options": [{"id": "a", "text": "δέ"}, {"id": "b", "text": "μέν"}, {"id": "c", "text": "γάρ"}], "answer": "a", "skills": ["syntax.men-de", "syntax.postpositive"], "explain": "μέν in the first half is answered by δέ in the second.", "audio": "σὺ μὲν τὴν ὑδρίαν φέρεις, ἐγὼ δὲ ὑφαίνω."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ___ καθεύδει ὁ Λάβρος; — ναί, καθεύδει.", "options": [{"id": "a", "text": "ἆρα"}, {"id": "b", "text": "ποῦ"}, {"id": "c", "text": "τίς"}], "answer": "a", "skills": ["syntax.question"], "explain": "The answer is ναί, so it is a yes/no question: ἆρα. (ποῦ asks where, τίς asks who.)", "audio": "ἆρα καθεύδει ὁ Λάβρος; ναί, καθεύδει."},
+    {"type": "pick-picture", "prompt": "σπεύδει", "audio": "prompt", "options": [{"id": "a", "image": "verb-speudei"}, {"id": "b", "image": "verb-paizei"}, {"id": "c", "image": "verb-katheudei"}, {"id": "d", "image": "verb-trechei"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "σπεύδει: hurries. παίζει: plays. καθεύδει: sleeps. τρέχει: runs."},
+    {"type": "pick-picture", "prompt": "ἐσθίει", "audio": "prompt", "options": [{"id": "a", "image": "verb-esthiei"}, {"id": "b", "image": "verb-pinei"}, {"id": "c", "image": "verb-pherei"}, {"id": "d", "image": "verb-echei"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "ἐσθίει: eats. πίνει: drinks."},
+    {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ἑσπέρα", "options": [{"id": "a", "text": "ἑσπέρα"}, {"id": "b", "text": "ἡμέρα"}, {"id": "c", "text": "ὑδρία"}], "answer": "a", "skills": ["listen.words"], "explain": "ἑσπέρα: evening."},
+    {"type": "produce-form", "prompt": "Give the form of φέρω for 'you (one person) carry'.", "lemma": "φέρω", "cell": "present.active.indicative.2sg", "skills": ["verb.pres.act.ind.2sg"], "explain": "φέρεις.", "audio": "φέρεις"},
+    {"type": "produce-form", "prompt": "Give the form of καθεύδω for 'you (one person) sleep'.", "lemma": "καθεύδω", "cell": "present.active.indicative.2sg", "skills": ["verb.pres.act.ind.2sg"], "explain": "καθεύδεις.", "audio": "καθεύδεις"},
+    {"type": "produce-form", "prompt": "Give the form of εἰμί for 'you are'.", "lemma": "εἰμί", "cell": "present.active.indicative.2sg", "skills": ["verb.eimi.pres.ind.2sg"], "explain": "εἶ: σὺ παῖς εἶ.", "audio": "εἶ"},
+    {"type": "produce-form", "prompt": "Give the form of εἰμί for 'I am'.", "lemma": "εἰμί", "cell": "present.active.indicative.1sg", "skills": ["verb.eimi.pres.ind.1sg"], "explain": "εἰμί: κεραμεύς εἰμι.", "audio": "εἰμί"},
+    {"type": "parse", "prompt": "Parse φέρεις.", "form": "φέρεις", "groups": [{"id": "person", "label": "Who?", "options": [{"id": "1sg", "label": "I"}, {"id": "2sg", "label": "you (one person)"}, {"id": "3sg", "label": "he, she, it"}]}], "answer": {"person": "2sg"}, "skills": ["verb.pres.act.ind.2sg"], "explain": "-εις: you carry.", "audio": "φέρεις"},
+    {"type": "parse", "prompt": "Parse ἐσθίω.", "form": "ἐσθίω", "groups": [{"id": "person", "label": "Who?", "options": [{"id": "1sg", "label": "I"}, {"id": "2sg", "label": "you (one person)"}, {"id": "3sg", "label": "he, she, it"}]}], "answer": {"person": "1sg"}, "skills": ["verb.pres.act.ind.1sg"], "explain": "-ω: I eat.", "audio": "ἐσθίω"},
+    {"type": "cloze-choice", "prompt": "ἐγὼ μὲν πονῶ, σὺ ___ παίζεις.", "options": [{"id": "a", "text": "δέ"}, {"id": "b", "text": "μέν"}, {"id": "c", "text": "καί"}], "answer": "a", "skills": ["syntax.men-de"], "explain": "μέν … δέ."},
+    {"type": "cloze-choice", "prompt": "ἆρα ___ παῖς εἶ;", "options": [{"id": "a", "text": "σύ"}, {"id": "b", "text": "ἐγώ"}, {"id": "c", "text": "ὁ"}], "answer": "a", "skills": ["pron.personal", "verb.eimi.pres.ind.2sg"], "explain": "εἶ is 'you are', so the pronoun is σύ."},
+    {"type": "cloze-choice", "prompt": "ἡ Χρυσὶς πρῶτον μὲν ἐκ τῆς κλίνης βαίνει, ___ δὲ τὴν Ἐλπίδα καλεῖ.", "options": [{"id": "a", "text": "ἔπειτα"}, {"id": "b", "text": "ἤδη"}, {"id": "c", "text": "ἀεί"}], "answer": "a", "skills": ["vocab.recognition", "syntax.men-de"], "explain": "πρῶτον μέν … ἔπειτα δέ: first … then."},
+    {"type": "transform", "prompt": "Make it 'I': ὁ Λύσις τὸν πηλὸν φέρει. → ἐγὼ τὸν πηλὸν …", "template": "ἐγὼ τὸν πηλὸν ___.", "gaps": [{"answers": ["φέρω"]}], "skills": ["verb.pres.act.ind.1sg", "pron.personal"], "explain": "φέρω.", "audio": "ἐγὼ τὸν πηλὸν φέρω."},
+    {"type": "transform", "prompt": "Make it 'you': ἡ Ἐλπὶς εἰς τὴν κρήνην σπεύδει. → σὺ εἰς τὴν κρήνην …", "template": "σὺ εἰς τὴν κρήνην ___.", "gaps": [{"answers": ["σπεύδεις"]}], "skills": ["verb.pres.act.ind.2sg", "pron.personal"], "explain": "σπεύδεις.", "audio": "σὺ εἰς τὴν κρήνην σπεύδεις."},
+    {"type": "transform", "prompt": "Turn it into a question: ὁ Λάβρος καθεύδει. → … ὁ Λάβρος καθεύδει;", "template": "___ ὁ Λάβρος καθεύδει;", "gaps": [{"answers": ["ἆρα"]}], "skills": ["syntax.question"], "explain": "ἆρα ὁ Λάβρος καθεύδει;", "audio": "ἆρα ὁ Λάβρος καθεύδει;"},
+    {"type": "locate", "prompt": "Tap every verb form that means 'I …'.", "sentence": "οὐ καθεύδω· ἐγὼ γὰρ ἤδη ἐκ τῆς κλίνης βαίνω.", "answer": [1, 8], "skills": ["read.locate", "verb.pres.act.ind.1sg"], "explain": "καθεύδω, βαίνω: both end in -ω."},
+    {"type": "locate", "prompt": "Tap μέν and δέ.", "sentence": "σὺ μὲν τὴν ὑδρίαν φέρεις, ἐγὼ δὲ ὑφαίνω.", "answer": [1, 6], "skills": ["read.locate", "syntax.men-de"], "explain": "μὲν after σύ, δὲ after ἐγώ: each stands second in its half."},
+    {"type": "reorder", "prompt": "Put the words in order: 'Are you asleep, Elpis?'", "tokens": ["καθεύδεις", "ὦ", "ἆρα", "Ἐλπί"], "answers": ["ἆρα καθεύδεις, ὦ Ἐλπί", "ὦ Ἐλπί, ἆρα καθεύδεις"], "skills": ["syntax.word-order", "syntax.question"], "explain": "ἆρα καθεύδεις, ὦ Ἐλπί;"},
+    {"type": "reorder", "prompt": "Put the words in order: 'I am eating bread.'", "tokens": ["ἄρτον", "ἐγὼ", "ἐσθίω"], "answers": ["ἐγὼ ἄρτον ἐσθίω", "ἄρτον ἐγὼ ἐσθίω", "ἐγὼ ἐσθίω ἄρτον"], "skills": ["syntax.word-order", "verb.pres.act.ind.1sg"], "explain": "ἐγὼ ἄρτον ἐσθίω."},
+    {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "σὺ μὲν καθεύδεις, ἐγὼ δὲ ὑφαίνω.", "options": [{"id": "a", "text": "σὺ μὲν καθεύδεις, ἐγὼ δὲ ὑφαίνω."}, {"id": "b", "text": "σὺ μὲν ὑφαίνεις, ἐγὼ δὲ καθεύδω."}, {"id": "c", "text": "ἐγὼ μὲν καθεύδω, σὺ δὲ ὑφαίνεις."}], "answer": "a", "skills": ["listen.sentences", "syntax.men-de"], "explain": "You sleep, and I weave."},
+    {"type": "true-false-grc", "prompt": "ὁ Λύσις ἐν τῷ ἐργαστηρίῳ παίζει.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "οὐ παίζω, ἀλλὰ τὸν πηλὸν φέρω· ὁ δὲ Λάβρος παίζει."},
+    {"type": "true-false-grc", "prompt": "ἡ Ἐλπὶς εἰς τὴν κρήνην σπεύδει.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "τὴν ὑδρίαν λαμβάνει καὶ εἰς τὴν κρήνην σπεύδει."},
+    {"type": "true-false-grc", "prompt": "ὁ Λάβρος τὸν ἄρτον οὐκ ἐσθίει.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension", "syntax.negation"], "explain": "τὸν ἄρτον λαμβάνει καὶ ἐσθίει."},
+    {"type": "dictation", "prompt": "Listen and type what you hear.", "audio": "ἆρα σὺ ἄρτον ἐσθίεις;", "gaps": [{"answers": ["ἆρα σὺ ἄρτον ἐσθίεις"]}], "skills": ["spell.dictation", "listen.sentences"], "explain": "ἆρα σὺ ἄρτον ἐσθίεις;"},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'I am not sleeping.'", "gaps": [{"answers": ["οὐ καθεύδω", "ἐγὼ οὐ καθεύδω"]}], "skills": ["vocab.production", "verb.pres.act.ind.1sg", "syntax.negation"], "explain": "οὐ καθεύδω."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Are you carrying the water jar?'", "gaps": [{"answers": ["ἆρα τὴν ὑδρίαν φέρεις", "ἆρα σὺ τὴν ὑδρίαν φέρεις", "ἆρα φέρεις τὴν ὑδρίαν", "ἆρα σὺ φέρεις τὴν ὑδρίαν", "τὴν ὑδρίαν φέρεις"]}], "skills": ["vocab.production", "verb.pres.act.ind.2sg", "syntax.question"], "explain": "ἆρα τὴν ὑδρίαν φέρεις;"},
+    {"type": "translate-en", "prompt": "Translate: σὺ μὲν τὴν ὑδρίαν φέρεις, ἐγὼ δὲ ὑφαίνω.", "audio": "σὺ μὲν τὴν ὑδρίαν φέρεις, ἐγὼ δὲ ὑφαίνω.", "model": "You carry the water jar, and (while) I weave.", "skills": ["read.comprehension", "syntax.men-de"], "explain": "μέν is left untranslated; δέ becomes 'and' or 'while'."},
+    {"type": "word-family", "prompt": "Word Study · Match each Greek word to the English word that comes from it.", "pairs": [{"left": "ἐγώ", "right": "ego"}, {"left": "πρῶτος", "right": "prototype"}, {"left": "πίνω", "right": "symposium (a drinking-together)"}, {"left": "ἑσπέρα", "right": "Hesperus (the evening star)"}], "skills": ["vocab.family"], "explain": "ego 'I'; πρωτό-τυπος 'first form'; συμ-πόσιον 'drinking together'; Ἕσπερος 'evening star'."}
+  ],
+  "questions": [
+    {"type": "answer-grc", "prompt": "ἆρα ἡ Ἐλπὶς καθεύδει;", "audio": "prompt", "options": [{"id": "a", "text": "ναί, καθεύδει."}, {"id": "b", "text": "οὐ καθεύδει, ἀλλὰ ἐκ τῆς κλίνης βαίνει."}], "answer": "b", "skills": ["read.comprehension", "syntax.question"], "explain": "«οὐ καθεύδω· ἐγὼ γὰρ ἤδη ἐκ τῆς κλίνης βαίνω.»"},
+    {"type": "answer-grc", "prompt": "τίς τὴν ὑδρίαν φέρει;", "audio": "prompt", "options": [{"id": "a", "text": "ἡ Ἐλπίς."}, {"id": "b", "text": "ἡ Χρυσίς."}, {"id": "c", "text": "ὁ Λύσις."}], "answer": "a", "skills": ["read.comprehension"], "explain": "σὺ μὲν τὴν ὑδρίαν φέρεις (ἡ Ἐλπίς), ἐγὼ δὲ ὑφαίνω (ἡ Χρυσίς)."},
+    {"type": "answer-grc", "prompt": "τίς ἐν τῷ ἐργαστηρίῳ παίζει;", "audio": "prompt", "options": [{"id": "a", "text": "ὁ Λύσις."}, {"id": "b", "text": "ὁ Λάβρος."}, {"id": "c", "text": "ὁ Σύρος."}], "answer": "b", "skills": ["read.comprehension"], "explain": "ὁ Λάβρος παίζει· λίθον γὰρ ἔχει."},
+    {"type": "answer-grc", "prompt": "τί πίνει ὁ Ἀρίστων;", "audio": "prompt", "options": [{"id": "a", "text": "ὕδωρ."}, {"id": "b", "text": "ἄρτον."}, {"id": "c", "text": "πηλόν."}], "answer": "a", "skills": ["read.comprehension"], "explain": "πρῶτον μὲν ἄρτον ἐσθίει, ἔπειτα δὲ ὕδωρ πίνει."},
+    {"type": "answer-grc", "prompt": "τίς λέγει «ἐγὼ μὲν πονῶ, σὺ δὲ παίζεις»;", "audio": "prompt", "options": [{"id": "a", "text": "ὁ Ἀρίστων."}, {"id": "b", "text": "ὁ Λύσις."}, {"id": "c", "text": "ἡ Χρυσίς."}], "answer": "a", "skills": ["read.comprehension", "syntax.men-de"], "explain": "ὁ Ἀρίστων λέγει· «… ἐγὼ μὲν πονῶ, σὺ δὲ παίζεις.»"}
+  ],
+  "culture": {
+    "title": "A day in an Athenian house",
+    "md": "An Athenian day ran by the sun. There were no clocks in the house; people spoke of 'when the agora fills' (mid-morning) or 'lamp-lighting time', and only the law courts measured speeches with a water-clock. The household rose at dawn: oil lamps were dim and expensive, so work followed daylight and bed came soon after dark. Breakfast was a piece of bread dipped in wine; the main meal, the **δεῖπνον**, came in the evening (Lesson 2.4). A house like Ariston's was built of mud brick on a stone footing around a small courtyard (αὐλή), with the rooms opening onto it and a single door to the street; women spent most of the day in the house and courtyard, weaving, cooking and managing stores, while men and boys were out at work, at school or in the agora. Children played in the courtyard with knucklebones (ἀστράγαλοι), balls, hoops, spinning tops and clay dolls with jointed limbs, all of which survive in museums; girls' toys were dedicated to Artemis before marriage. Dogs slept where they liked.",
+    "image": "culture-astragaloi"
+  },
+  "quiz": [
+    {"type": "cloze-choice", "prompt": "ἆρα σὺ ___;", "options": [{"id": "a", "text": "καθεύδεις"}, {"id": "b", "text": "καθεύδω"}, {"id": "c", "text": "καθεύδει"}], "answer": "a", "skills": ["verb.pres.act.ind.2sg", "pron.personal"], "explain": "σύ → καθεύδεις."},
+    {"type": "produce-form", "prompt": "Give the form of πίνω for 'you (one person) drink'.", "lemma": "πίνω", "cell": "present.active.indicative.2sg", "skills": ["verb.pres.act.ind.2sg"], "explain": "πίνεις.", "audio": "πίνεις"},
+    {"type": "parse", "prompt": "Parse παίζεις.", "form": "παίζεις", "groups": [{"id": "person", "label": "Who?", "options": [{"id": "1sg", "label": "I"}, {"id": "2sg", "label": "you (one person)"}, {"id": "3sg", "label": "he, she, it"}]}], "answer": {"person": "2sg"}, "skills": ["verb.pres.act.ind.2sg"], "explain": "-εις: you play.", "audio": "παίζεις"},
+    {"type": "pick-picture", "prompt": "πίνει", "audio": "prompt", "options": [{"id": "a", "image": "verb-pinei"}, {"id": "b", "image": "verb-esthiei"}, {"id": "c", "image": "verb-speudei"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "πίνει: drinks."},
+    {"type": "true-false-grc", "prompt": "ἡ Ἐλπὶς εἰς τὴν κρήνην σπεύδει.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "Yes."},
+    {"type": "cloze-choice", "prompt": "ἐγὼ ___ τὸν τροχὸν ἔχω, σὺ δὲ τὸν λίθον.", "options": [{"id": "a", "text": "μέν"}, {"id": "b", "text": "δέ"}, {"id": "c", "text": "γάρ"}], "answer": "a", "skills": ["syntax.men-de"], "explain": "μέν comes first, δέ answers it."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'I am carrying the bread.'", "gaps": [{"answers": ["τὸν ἄρτον φέρω", "ἐγὼ τὸν ἄρτον φέρω", "φέρω τὸν ἄρτον", "ἐγὼ φέρω τὸν ἄρτον"]}], "skills": ["vocab.production", "verb.pres.act.ind.1sg"], "explain": "τὸν ἄρτον φέρω."}
+  ],
+  "skills": ["verb.pres.act.ind.1sg", "verb.pres.act.ind.2sg", "verb.pres.act.ind.3sg", "verb.eimi.pres.ind.1sg", "verb.eimi.pres.ind.2sg", "pron.personal", "syntax.question", "syntax.men-de", "syntax.postpositive", "syntax.negation", "syntax.word-order", "read.comprehension", "read.locate", "listen.words", "listen.sentences", "spell.dictation", "vocab.recognition", "vocab.production", "vocab.family"]
+}

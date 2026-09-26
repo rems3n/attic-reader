@@ -1,0 +1,684 @@
+{
+ "images": [
+  {
+   "id": "panel-3-1-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Χρυσὶς τοὺς παῖδας καλεῖ· ἑορτή ἐστιν.",
+   "alt_en": "Chrysis at the house door calling the children; the street full of people in festival clothes",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-3-1-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ ἱερεὺς τὴν πομπὴν ἄγει.",
+   "alt_en": "The procession passing through the Kerameikos: a priest with a wreath, a priestess under a white sunshade, guards, girls carrying wreaths; Labros barking at a guard",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-3-1-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ ἱερεὺς τοῖς θεοῖς θύει.",
+   "alt_en": "The sacrifice at the altar in the sanctuary; old men, women and children watching",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-3-2-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ πολῖται ἐν τῇ ἀγορᾷ λέγουσιν.",
+   "alt_en": "Citizens talking in the agora under a stoa; young men listening; Democritus greeting Ariston and Lysis",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-3-2-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Δημόκριτος τοὺς νεανίας ὁρᾷ.",
+   "alt_en": "Democritus pointing at young men lounging by a barber's shop and at a metic potter carrying pots",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-3-2-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Δημόκριτος περὶ τοῦ πολέμου λέγει.",
+   "alt_en": "Democritus talking about the Spartans and war; Ariston and Lysis walking away towards the workshop",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-3-3-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ κύνες μάχονται.",
+   "alt_en": "Two dogs fighting in a narrow street at dusk; Lysis calling",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-3-3-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "νὺξ γίγνεται· ὁ Λάβρος οὐκ ἀφικνεῖται.",
+   "alt_en": "Night falling over the courtyard; Elpis and Chrysis at the door; Ariston and Lysis leaving with a torch",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-3-3-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Λάβρος ἐν τῷ ἐργαστηρίῳ καθεύδει.",
+   "alt_en": "Syros with a lamp in the workshop; Labros asleep beside the kiln with a loaf",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-3-4-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "πρὸς τὴν ἀκρόπολιν ἀναβαίνουσιν.",
+   "alt_en": "Ariston, Lysis, Elpis and Labros climbing the ramp to the Acropolis; workmen on the unfinished Propylaia",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-3-4-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "τὸ ἄγαλμα τῆς Ἀθηνᾶς ὁρῶσιν.",
+   "alt_en": "The family before the great bronze Athena and the Parthenon",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-3-4-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἀπὸ τῆς ἀκροπόλεως τὴν πόλιν ὁρῶσιν.",
+   "alt_en": "View from the Acropolis wall over the Agora, the Kerameikos and the sea towards Piraeus; Labros asleep under a tree",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "heorte",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἑορτή",
+   "alt_en": "A festival: garlanded people around an altar with music",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἑορτή"
+   ]
+  },
+  {
+   "id": "pompe",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "πομπή",
+   "alt_en": "A procession walking in a line",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πομπή"
+   ]
+  },
+  {
+   "id": "phylax",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "φύλαξ",
+   "alt_en": "A guard with a spear",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "φύλαξ"
+   ]
+  },
+  {
+   "id": "geron",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "γέρων",
+   "alt_en": "An old man with a stick",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "γέρων"
+   ]
+  },
+  {
+   "id": "hiereus",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἱερεύς",
+   "alt_en": "A priest in a long robe and wreath",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἱερεύς"
+   ]
+  },
+  {
+   "id": "bomos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "βωμός",
+   "alt_en": "A stone altar with fire on it",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "βωμός"
+   ]
+  },
+  {
+   "id": "stephanos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "στέφανος",
+   "alt_en": "A wreath of leaves",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "στέφανος"
+   ]
+  },
+  {
+   "id": "cheir",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "χείρ",
+   "alt_en": "A hand",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "χείρ"
+   ]
+  },
+  {
+   "id": "verb-thyei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "θύει",
+   "alt_en": "A priest sacrificing at an altar",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "θύω"
+   ]
+  },
+  {
+   "id": "verb-agei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἄγει",
+   "alt_en": "Someone leading others by walking in front",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἄγω"
+   ]
+  },
+  {
+   "id": "verb-hylaktei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὑλακτεῖ",
+   "alt_en": "A dog barking",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "polites",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "πολίτης",
+   "alt_en": "A citizen in a himation, voting hand raised",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πολίτης"
+   ]
+  },
+  {
+   "id": "neanias",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "νεανίας",
+   "alt_en": "A young man, beardless, with a strigil",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "νεανίας"
+   ]
+  },
+  {
+   "id": "xenos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ξένος",
+   "alt_en": "A foreigner in a travelling cloak and hat",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ξένος"
+   ]
+  },
+  {
+   "id": "polemos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "πόλεμος",
+   "alt_en": "Hoplites fighting, from a vase",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πόλεμος"
+   ]
+  },
+  {
+   "id": "logos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "λόγος",
+   "alt_en": "A man speaking, words shown as a scroll",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "λόγος"
+   ]
+  },
+  {
+   "id": "agathos-kakos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἀγαθός ↔ κακός",
+   "alt_en": "A good man helping someone next to a bad man stealing",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἀγαθός",
+    "κακός"
+   ]
+  },
+  {
+   "id": "houtos-ekeinos",
+   "kind": "diagram",
+   "file": null,
+   "alt_grc": "οὗτος · ἐκεῖνος",
+   "alt_en": "A speaker pointing at a man beside him (οὗτος) and at a man far away (ἐκεῖνος)",
+   "credit": "Attic Reader, own diagram",
+   "license": "CC BY-SA 4.0",
+   "svg": true,
+   "source_url": null,
+   "words": [
+    "οὗτος",
+    "ἐκεῖνος"
+   ]
+  },
+  {
+   "id": "verb-gignetai",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "νὺξ γίγνεται",
+   "alt_en": "The sun setting and the sky turning dark",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "γίγνομαι"
+   ]
+  },
+  {
+   "id": "verb-bouletai",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "βούλεται",
+   "alt_en": "Someone reaching out for what they want, with a thought bubble",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "βούλομαι"
+   ]
+  },
+  {
+   "id": "verb-phobeitai",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "φοβεῖται",
+   "alt_en": "A frightened person shrinking back",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "φοβέομαι"
+   ]
+  },
+  {
+   "id": "verb-aphikneitai",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἀφικνεῖται",
+   "alt_en": "Someone arriving at a door after a journey",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἀφικνέομαι"
+   ]
+  },
+  {
+   "id": "verb-erchetai",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἔρχεται",
+   "alt_en": "Someone coming along a road",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἔρχομαι"
+   ]
+  },
+  {
+   "id": "verb-machontai",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "μάχονται",
+   "alt_en": "Two dogs fighting",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "μάχομαι"
+   ]
+  },
+  {
+   "id": "verb-pheugei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "φεύγει",
+   "alt_en": "Someone running away",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "φεύγω"
+   ]
+  },
+  {
+   "id": "allos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἄλλος κύων",
+   "alt_en": "One dog, and another different dog",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἄλλος"
+   ]
+  },
+  {
+   "id": "philos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "φίλος",
+   "alt_en": "Two friends with arms around each other",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "φίλος"
+   ]
+  },
+  {
+   "id": "verb-anabainei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἀναβαίνει",
+   "alt_en": "Someone climbing up steps",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἀναβαίνω"
+   ]
+  },
+  {
+   "id": "verb-katabainei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "καταβαίνει",
+   "alt_en": "Someone going down steps",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "καταβαίνω"
+   ]
+  },
+  {
+   "id": "verb-eiserchetai",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "εἰσέρχεται",
+   "alt_en": "Someone going in through a door",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "εἰσέρχομαι"
+   ]
+  },
+  {
+   "id": "verb-exerchetai",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἐξέρχεται",
+   "alt_en": "Someone coming out through a door",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἐξέρχομαι"
+   ]
+  },
+  {
+   "id": "verb-proserchetai",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "προσέρχεται",
+   "alt_en": "Someone walking up to a statue",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "προσέρχομαι"
+   ]
+  },
+  {
+   "id": "naos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ναός",
+   "alt_en": "A Greek temple with columns",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ναός"
+   ]
+  },
+  {
+   "id": "pyle",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "πύλη",
+   "alt_en": "A gateway in a wall",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πύλη"
+   ]
+  },
+  {
+   "id": "agalma",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἄγαλμα",
+   "alt_en": "A statue of a goddess on a base",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἄγαλμα"
+   ]
+  },
+  {
+   "id": "diagram-decl3-stem",
+   "kind": "diagram",
+   "file": null,
+   "alt_grc": "φύλαξ → φύλακ-ος → φύλακ-",
+   "alt_en": "How the genitive reveals the stem of a third-declension noun, with the endings -ος, -ι, -α, -ες, -ων, -σι, -ας attached",
+   "credit": "Attic Reader, own diagram",
+   "license": "CC BY-SA 4.0",
+   "svg": true,
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "diagram-demonstratives",
+   "kind": "diagram",
+   "file": null,
+   "alt_grc": "οὗτος ὁ παῖς · ἐκεῖνος ὁ ἀνήρ",
+   "alt_en": "Near and far: οὗτος for what is close to the speaker, ἐκεῖνος for what is far away; the article stands between demonstrative and noun",
+   "credit": "Attic Reader, own diagram",
+   "license": "CC BY-SA 4.0",
+   "svg": true,
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "diagram-middle-voice",
+   "kind": "diagram",
+   "file": null,
+   "alt_grc": "λύει → λύεται",
+   "alt_en": "Active endings -ω -εις -ει -ομεν -ετε -ουσι beside middle endings -ομαι -ει/-ῃ -εται -όμεθα -εσθε -ονται",
+   "credit": "Attic Reader, own diagram",
+   "license": "CC BY-SA 4.0",
+   "svg": true,
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "diagram-prepositions",
+   "kind": "diagram",
+   "file": null,
+   "alt_grc": "πρός · ἀπό · ἐπί · μετά",
+   "alt_en": "A hill with arrows: πρός towards, ἀπό away from, ἐπί on, μετά with; the case each takes written beside it",
+   "credit": "Attic Reader, own diagram",
+   "license": "CC BY-SA 4.0",
+   "svg": true,
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "culture-skira",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ἡ πομπή",
+   "alt_en": "A sacrificial procession on an Attic red-figure vase: a priest, an ox with garlands, a girl carrying a basket",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "culture-agora-citizens",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "οἱ πολῖται ἐν τῇ ἀγορᾷ",
+   "alt_en": "Men in himatia talking, red-figure cup; the setting of Athenian public life",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "culture-dog-wasps",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὁ κύων",
+   "alt_en": "A dog on an Attic vase: a household guard dog beside a youth",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "culture-acropolis-432",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ἡ ἀκρόπολις",
+   "alt_en": "Model of the Athenian Acropolis as it stood about 430 BC: Parthenon, unfinished Propylaia, the old temple of Athena, the bronze Athena",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  }
+ ]
+}

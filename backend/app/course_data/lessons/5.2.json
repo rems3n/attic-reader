@@ -1,0 +1,1433 @@
+{
+ "id": "5.2",
+ "title_grc": "ὁ Κλεινίας περὶ Σαλαμῖνος",
+ "title_en": "Kleinias remembers Salamis",
+ "summary_grc": "«ἡμεῖς ἐνικήσαμεν καὶ τὴν Ἑλλάδα ἐσώσαμεν», λέγει ὁ Κλεινίας.",
+ "summary_en": "An old rower tells the children about the sea battle of 480 BC. The first aorist (ἔλυσα, ἔπεμψα, ἐνίκησα, ἔμεινα) and the augment, including compounds.",
+ "cover": "panel-5-2-c",
+ "caption_grc": "οἱ Ἀθηναῖοι τὴν πόλιν ἔλιπον καὶ ἐν τῇ ναυμαχίᾳ ἐνίκησαν.",
+ "names": {
+  "Πέρσης": [
+   "Πέρσαι",
+   "Περσῶν",
+   "Πέρσαις",
+   "Πέρσας",
+   "Πέρσου",
+   "Πέρσην"
+  ],
+  "Σαλαμίς": [
+   "Σαλαμῖνος",
+   "Σαλαμῖνι",
+   "Σαλαμῖνα"
+  ],
+  "Ξέρξης": [
+   "Ξέρξου",
+   "Ξέρξῃ",
+   "Ξέρξην"
+  ],
+  "Θεμιστοκλῆς": [
+   "Θεμιστοκλέους",
+   "Θεμιστοκλεῖ",
+   "Θεμιστοκλέα"
+  ],
+  "Λακεδαιμόνιος": [
+   "Λακεδαιμόνιοι",
+   "Λακεδαιμονίων",
+   "Λακεδαιμονίοις",
+   "Λακεδαιμονίους"
+  ],
+  "Ἕλλην": [
+   "Ἕλληνος",
+   "Ἕλληνι",
+   "Ἕλληνα",
+   "Ἕλληνες",
+   "Ἑλλήνων",
+   "Ἕλλησι",
+   "Ἕλλησιν",
+   "Ἕλληνας"
+  ]
+ },
+ "allow": {"περί": "prepositions, Lesson 3.4", "τὰς ναῦς": "ναῦς, Lesson 4.4"},
+ "story": [
+  {
+   "image": "panel-5-2-a",
+   "sentences": [
+    {
+     "text": "ἑσπέρα ἐστίν· ὁ Δημόκριτος εἰς τὴν οἰκίαν εἰσῆλθε καὶ περὶ τοῦ πολέμου λέγει.",
+     "glosses": [
+      {
+       "word": "ἑσπέρα",
+       "kind": "↔",
+       "value": "ἡμέρα (evening)"
+      },
+      {
+       "word": "εἰσῆλθε",
+       "kind": "<",
+       "value": "εἰς + ἦλθε"
+      },
+      {
+       "word": "πολέμου",
+       "kind": "pic",
+       "value": "polemos"
+      }
+     ]
+    },
+    {
+     "text": "«οἱ Λακεδαιμόνιοι πόλεμον βούλονται», λέγει· «δεῖ ἡμᾶς μάχεσθαι.»",
+     "glosses": [
+      {
+       "word": "Λακεδαιμόνιοι",
+       "kind": "en",
+       "value": "the Spartans"
+      },
+      {
+       "word": "μάχεσθαι",
+       "kind": "pic",
+       "value": "verb-machontai"
+      }
+     ]
+    },
+    {
+     "text": "ὁ Λύσις τὸν πάππον ἐρωτᾷ· «ὦ πάππε, σὺ πάλαι πρὸς τοὺς Πέρσας ἐμαχέσω. εἰπέ μοι περὶ τῆς ναυμαχίας.»",
+     "glosses": [
+      {
+       "word": "πάππον",
+       "kind": "=",
+       "value": "ὁ πάππος = ὁ πατὴρ τοῦ πατρός"
+      },
+      {
+       "word": "ἐρωτᾷ",
+       "kind": "en",
+       "value": "asks"
+      },
+      {
+       "word": "πάλαι",
+       "kind": "en",
+       "value": "long ago"
+      },
+      {
+       "word": "ἐμαχέσω",
+       "kind": "|",
+       "value": "μάχῃ | ἐμαχέσω (you fought)"
+      },
+      {
+       "word": "εἰπέ",
+       "kind": "en",
+       "value": "tell! (aorist imperative)"
+      },
+      {
+       "word": "ναυμαχίας",
+       "kind": "pic",
+       "value": "naumachia"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Κλεινίας εἶπεν· «ἄκουε, ὦ παῖ. ὅτε νέος ἦν, ἐρέτης ἦν ἐν τριήρει.»",
+     "glosses": [
+      {
+       "word": "ὅτε",
+       "kind": "en",
+       "value": "when"
+      },
+      {
+       "word": "νέος",
+       "kind": "↔",
+       "value": "γέρων (young)"
+      },
+      {
+       "word": "ἦν",
+       "kind": "en",
+       "value": "I was (the past of εἰμί — Lesson 5.3)"
+      },
+      {
+       "word": "ἐρέτης",
+       "kind": "pic",
+       "value": "eretes"
+      },
+      {
+       "word": "τριήρει",
+       "kind": "pic",
+       "value": "trieres"
+      }
+     ]
+    },
+    {
+     "text": "«ὁ Ξέρξης, ὁ τῶν Περσῶν βασιλεύς, μέγαν στρατὸν καὶ πολλὰς ναῦς ἐπὶ τὴν Ἑλλάδα ἤγαγεν.»",
+     "glosses": [
+      {
+       "word": "στρατὸν",
+       "kind": "en",
+       "value": "army"
+      },
+      {
+       "word": "πολλὰς",
+       "kind": "|",
+       "value": "πολύς | πολλαί | πολλάς (many)"
+      },
+      {
+       "word": "ἤγαγεν",
+       "kind": "|",
+       "value": "ἄγει | ἤγαγε(ν)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-5-2-b",
+   "sentences": [
+    {
+     "text": "«οἱ Ἀθηναῖοι τὴν πόλιν ἔλιπον· τὰς γὰρ γυναῖκας καὶ τοὺς παῖδας εἰς Σαλαμῖνα ἐπέμψαμεν.»",
+     "glosses": [
+      {
+       "word": "ἔλιπον",
+       "kind": "|",
+       "value": "λείπει | ἔλιπε(ν) | ἔλιπον"
+      },
+      {
+       "word": "ἐπέμψαμεν",
+       "kind": "|",
+       "value": "πέμπομεν | ἐπέμψαμεν"
+      }
+     ]
+    },
+    {
+     "text": "«οἱ δὲ βάρβαροι εἰς τὴν πόλιν εἰσῆλθον καὶ τὴν ἀκρόπολιν ἔκαυσαν.»",
+     "glosses": [
+      {
+       "word": "εἰσῆλθον",
+       "kind": "|",
+       "value": "εἰσῆλθε(ν) | εἰσῆλθον"
+      },
+      {
+       "word": "βάρβαροι",
+       "kind": "pic",
+       "value": "barbaros"
+      },
+      {
+       "word": "ἔκαυσαν",
+       "kind": "en",
+       "value": "burnt"
+      }
+     ]
+    },
+    {
+     "text": "«ἐγὼ ἐκ τῆς τριήρους τὸν καπνὸν εἶδον καὶ ἔκλαυσα.»",
+     "glosses": [
+      {
+       "word": "τριήρους",
+       "kind": "|",
+       "value": "ἡ τριήρης | τῆς τριήρους"
+      },
+      {
+       "word": "καπνὸν",
+       "kind": "en",
+       "value": "smoke"
+      },
+      {
+       "word": "ἔκλαυσα",
+       "kind": "en",
+       "value": "I wept"
+      }
+     ]
+    },
+    {
+     "text": "«ὁ δὲ Θεμιστοκλῆς τοὺς Ἕλληνας ἔπεισεν ἐν τῷ στενῷ μάχεσθαι.»",
+     "glosses": [
+      {
+       "word": "ἔπεισεν",
+       "kind": "|",
+       "value": "πείθει | ἔπεισε(ν) (persuaded)"
+      },
+      {
+       "word": "στενῷ",
+       "kind": "en",
+       "value": "the narrows, the strait"
+      }
+     ]
+    },
+    {
+     "text": "«ἔπειτα εἰς τὰς τριήρεις ἤλθομεν καὶ τοῖς θεοῖς ηὐξάμεθα.»",
+     "glosses": [
+      {
+       "word": "ἔπειτα",
+       "kind": "en",
+       "value": "then, next"
+      },
+      {
+       "word": "ἤλθομεν",
+       "kind": "|",
+       "value": "ἦλθον | ἤλθομεν (we came)"
+      },
+      {
+       "word": "ηὐξάμεθα",
+       "kind": "|",
+       "value": "εὐχόμεθα | ηὐξάμεθα (we prayed)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-5-2-c",
+   "sentences": [
+    {
+     "text": "«οἱ βάρβαροι πολλὰς ναῦς ἤγαγον, ἡμεῖς δὲ ὀλίγας.»",
+     "glosses": [
+      {
+       "word": "ὀλίγας",
+       "kind": "↔",
+       "value": "πολλάς (few)"
+      }
+     ]
+    },
+    {
+     "text": "«ἀλλ' ἐν τῷ στενῷ αἱ τριήρεις ἡμῶν ταχέως ἔδραμον καὶ τὰς ναῦς τῶν βαρβάρων διέφθειραν.»",
+     "glosses": [
+      {
+       "word": "ταχέως",
+       "kind": "en",
+       "value": "fast"
+      },
+      {
+       "word": "διέφθειραν",
+       "kind": "|",
+       "value": "διαφθείρει | διέφθειρε(ν) | διέφθειραν (destroyed)"
+      }
+     ]
+    },
+    {
+     "text": "«ἐγὼ τὴν κώπην ἔλαβον καὶ πᾶσαν τὴν ἡμέραν ἐπόνησα.»",
+     "glosses": [
+      {
+       "word": "κώπην",
+       "kind": "pic",
+       "value": "kope"
+      },
+      {
+       "word": "ἐπόνησα",
+       "kind": "|",
+       "value": "πονῶ | ἐπόνησα"
+      }
+     ]
+    },
+    {
+     "text": "«οἱ ἐρέται ἐβόησαν· ὦ παῖδες Ἑλλήνων, ἴτε!»",
+     "glosses": [
+      {
+       "word": "ἐβόησαν",
+       "kind": "|",
+       "value": "βοᾷ | ἐβόησε(ν) | ἐβόησαν (shouted)"
+      },
+      {
+       "word": "ἴτε",
+       "kind": "en",
+       "value": "go! forward!"
+      }
+     ]
+    },
+    {
+     "text": "«ὁ Ξέρξης ἐπὶ τῆς γῆς καθήμενος πάντα εἶδεν.»",
+     "glosses": [
+      {
+       "word": "καθήμενος",
+       "kind": "en",
+       "value": "sitting (on his throne)"
+      }
+     ]
+    },
+    {
+     "text": "«τέλος δὲ οἱ βάρβαροι ἔφυγον· ἡμεῖς ἐνικήσαμεν καὶ τὴν Ἑλλάδα ἐσώσαμεν.»",
+     "glosses": [
+      {
+       "word": "τέλος",
+       "kind": "en",
+       "value": "in the end"
+      },
+      {
+       "word": "ἐνικήσαμεν",
+       "kind": "pic",
+       "value": "verb-nika"
+      },
+      {
+       "word": "ἐσώσαμεν",
+       "kind": "pic",
+       "value": "verb-sozei"
+      }
+     ]
+    },
+    {
+     "text": "«οὕτως ἐλεύθεροι ἐμείναμεν.»",
+     "glosses": [
+      {
+       "word": "οὕτως",
+       "kind": "en",
+       "value": "so, in this way"
+      },
+      {
+       "word": "ἐλεύθεροι",
+       "kind": "pic",
+       "value": "eleutheros"
+      },
+      {
+       "word": "ἐμείναμεν",
+       "kind": "|",
+       "value": "μένομεν | ἐμείναμεν"
+      }
+     ]
+    },
+    {
+     "text": "ὁ Λύσις εἶπεν· «ὦ πάππε, ἆρα τοὺς Πέρσας νῦν φοβῇ;» ὁ δὲ Κλεινίας· «οὐδαμῶς. τοὺς δὲ Λακεδαιμονίους φοβοῦμαι.»",
+     "glosses": [
+      {
+       "word": "οὐδαμῶς",
+       "kind": "=",
+       "value": "οὐδαμῶς = οὐ, οὐ, οὐ!"
+      }
+     ]
+    },
+    {
+     "text": "ὁ Δημόκριτος οὐκέτι λέγει.",
+     "glosses": [
+      {
+       "word": "οὐκέτι",
+       "kind": "en",
+       "value": "no longer"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ναυμαχια",
+   "pic": "naumachia",
+   "gloss_grc": "< ναῦς + μάχη"
+  },
+  {
+   "id": "πολεμος",
+   "pic": "polemos",
+   "gloss_grc": "↔ εἰρήνη"
+  },
+  {
+   "id": "μαχομαι",
+   "pic": "verb-machontai",
+   "gloss_grc": "μάχεται · ἐμαχέσατο"
+  },
+  {
+   "id": "πεμπω",
+   "pic": "verb-pempei",
+   "gloss_grc": "πέμπει · ἔπεμψε(ν)"
+  },
+  {
+   "id": "λειπω",
+   "pic": "verb-leipei",
+   "gloss_grc": "λείπει · ἔλιπε(ν)"
+  },
+  {
+   "id": "σωζω",
+   "pic": "verb-sozei",
+   "gloss_grc": "σῴζει · ἔσωσε(ν)"
+  },
+  {
+   "id": "νικαω",
+   "pic": "verb-nika",
+   "gloss_grc": "νικᾷ · ἐνίκησε(ν)"
+  },
+  {
+   "id": "βαρβαρος",
+   "pic": "barbaros",
+   "gloss_grc": "βάρβαρος = οὐχ Ἕλλην"
+  },
+  {
+   "id": "ελευθερος",
+   "pic": "eleutheros",
+   "gloss_grc": "↔ δοῦλος"
+  },
+  {
+   "id": "τριηρης",
+   "pic": "trieres",
+   "gloss_grc": "ἡ τριήρης · τῆς τριήρους · αἱ τριήρεις"
+  },
+  {
+   "id": "ερετης",
+   "pic": "eretes",
+   "gloss_grc": "ὁ ἐρέτης ἐν τῇ τριήρει πονεῖ"
+  },
+  {
+   "id": "μενω",
+   "pic": "verb-menei",
+   "gloss_grc": "μένει · ἔμεινε(ν)"
+  },
+  {
+   "id": "ευχομαι",
+   "pic": "verb-euchetai",
+   "gloss_grc": "εὔχεται · ηὔξατο"
+  }
+ ],
+ "notice": [
+  "πέμπομεν — ἐπέμψαμεν · νικῶμεν — ἐνικήσαμεν · σῴζομεν — ἐσώσαμεν",
+  "ἐγὼ πᾶσαν τὴν ἡμέραν ἐπόνησα. — ἡμεῖς ἐλεύθεροι ἐμείναμεν.",
+  "ἀκούω — ἤκουσα · εὐχόμεθα — ηὐξάμεθα · ἄγει — ἤγαγεν",
+  "εἰς + ἦλθε → εἰσῆλθε · δια + ἔφθειραν → διέφθειραν",
+  "οἱ Ἀθηναῖοι τὴν πόλιν ἔλιπον (2nd aorist) — τοὺς παῖδας ἐπέμψαμεν (1st aorist)"
+ ],
+ "grammar": {
+  "md": "**The first aorist.** Most verbs do not change their stem for the aorist as λαμβάνω → ἔλαβον does. Instead they add **-σα**: λύω → **ἔλυσα** 'I set free', θύω → **ἔθυσα**, ἀκούω → **ἤκουσα**. The endings are:\n\n| | ἔλυσα | | |\n|---|---|---|---|\n| I | ἔλυσ**α** | we | ἐλύσ**αμεν** |\n| you | ἔλυσ**ας** | you (pl.) | ἐλύσ**ατε** |\n| he, she | ἔλυσ**ε(ν)** | they | ἔλυσ**αν** |\n\nInfinitive **λῦσαι**; participle **λύσας, λύσασα, λῦσαν**. Middle: ἐλυσά**μην**, ἐλύσ**ατο**, ἐλυσά**μεθα** … (ηὐξάμεθα 'we prayed', ἐμαχέσατο 'he fought'); infinitive λύσασθαι.\n\n**What happens to the stem before σ.**\n\n| stem ends in | + σ → | example |\n|---|---|---|\n| π, β, φ | **ψ** | πέμπω → ἔπεμ**ψ**α, γράφω → ἔγρα**ψ**α |\n| κ, γ, χ | **ξ** | διώκω → ἐδίω**ξ**α, ἄρχω → ἦρ**ξ**α |\n| τ, δ, θ, ζ | **σ** (the dental drops) | πείθω → ἔπει**σ**α, σῴζω → ἔσω**σ**α |\n| ε, α (contract verbs) | vowel lengthens, then σ | ποιέω → ἐποί**ησ**α, νικάω → ἐνίκ**ησ**α, πονέω → ἐπόν**ησ**α (but καλέω → ἐκάλ**εσ**α) |\n| λ, μ, ν, ρ (*liquids*) | **no σ**; the stem vowel lengthens instead | μένω → ἔ**μειν**α, φαίνω → ἔ**φην**α, ἀποκτείνω → ἀπέ**κτειν**α |\n\n**The augment.** The mark of past time, in the indicative only:\n\n- before a consonant, **ἐ-** is prefixed: ἔ-λυσα, ἔ-πεμψα, ἔ-λαβον;\n- before a vowel, the vowel **lengthens**: ἀκούω → **ἤ**κουσα, ἄγω → **ἤ**γαγον, ἐλπίζω → **ἤ**λπισα, ὁρμάω → **ὥ**ρμησα, εὔχομαι → **ηὐ**ξάμην;\n- in a **compound verb** the augment goes *between* the prefix and the verb: εἰσ-έρχομαι → εἰσ-**ῆ**λθον, ἐξ-έρχομαι → ἐξ-**ῆ**λθον, ἀπο-πέμπω → ἀπ-**έ**-πεμψα, δια-φθείρω → δι-**έ**-φθειρα, ἀφ-ικνέομαι → ἀφ-**ί**-κετο. A prefix ending in a vowel drops it (ἀπο- → ἀπ-), and ἀπ- before the rough breathing becomes ἀφ-.\n\n**Same meaning, two shapes.** Second aorist (ἔλιπον, ἔλαβον, εἶδον) and first aorist (ἐπέμψαμεν, ἐνικήσαμεν) do the same job: a single past event. Which shape a verb uses is a fact about that verb, so the vocabulary now gives the aorist beside the present: πέμπω · ἔπεμψα, λείπω · ἔλιπον.",
+  "paradigms": [
+   "luo",
+   "phaino"
+  ],
+  "diagram": "diagram-augment"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the aorist endings.",
+   "template": "ἡμεῖς τοὺς παῖδας εἰς Σαλαμῖνα ἐπέμψ___. ὁ Θεμιστοκλῆς τοὺς Ἕλληνας ἔπεισ___. ἐγὼ πᾶσαν τὴν ἡμέραν ἐπόνησ___. οἱ βάρβαροι τὴν ἀκρόπολιν ἔκαυσ___.",
+   "gaps": [
+    {
+     "answers": [
+      "αμεν"
+     ]
+    },
+    {
+     "answers": [
+      "εν",
+      "ε"
+     ]
+    },
+    {
+     "answers": [
+      "α"
+     ]
+    },
+    {
+     "answers": [
+      "αν"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.aor1.sigma",
+    "verb.aor.act.ind.1pl",
+    "verb.aor.act.ind.3sg",
+    "verb.aor.act.ind.1sg",
+    "verb.aor.act.ind.3pl"
+   ],
+   "explain": "-αμεν we, -ε(ν) he, -α I, -αν they: ἐπέμψαμεν, ἔπεισεν, ἐπόνησα, ἔκαυσαν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · τότε οἱ Ἕλληνες ἐν τῇ ναυμαχίᾳ ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "νικῶσιν"
+    },
+    {
+     "id": "b",
+     "text": "ἐνίκησαν"
+    },
+    {
+     "id": "c",
+     "text": "ἐνίκησε"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "verb.aor.act.ind.3pl",
+    "verb.aor1.sigma"
+   ],
+   "explain": "τότε, a past event, plural subject: ἐνίκησαν.",
+   "audio": "τότε οἱ Ἕλληνες ἐν τῇ ναυμαχίᾳ ἐνίκησαν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ Δημόκριτος εἰς τὴν οἰκίαν ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "εἰσῆλθεν"
+    },
+    {
+     "id": "b",
+     "text": "ἐεἰσῆλθεν"
+    },
+    {
+     "id": "c",
+     "text": "ἠεισῆλθεν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.augment.compound"
+   ],
+   "explain": "The augment sits between prefix and verb: εἰσ-ῆλθεν.",
+   "audio": "ὁ Δημόκριτος εἰς τὴν οἰκίαν εἰσῆλθεν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ Κλεινίας τὸν λόγον τοῦ Δημοκρίτου ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἔκουσεν"
+    },
+    {
+     "id": "b",
+     "text": "ἤκουσεν"
+    },
+    {
+     "id": "c",
+     "text": "ἀκούσεν"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "verb.augment",
+    "verb.aor1.sigma"
+   ],
+   "explain": "A verb beginning with a vowel lengthens it as its augment: ἀ- → ἠ-, ἤκουσεν.",
+   "audio": "ὁ Κλεινίας τὸν λόγον τοῦ Δημοκρίτου ἤκουσεν."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "τριήρης",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "trieres"
+    },
+    {
+     "id": "b",
+     "image": "hydria"
+    },
+    {
+     "id": "c",
+     "image": "trochos"
+    },
+    {
+     "id": "d",
+     "image": "kope"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "τριήρης: a trireme."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "νικᾷ",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "verb-machontai"
+    },
+    {
+     "id": "b",
+     "image": "verb-nika"
+    },
+    {
+     "id": "c",
+     "image": "verb-pempei"
+    },
+    {
+     "id": "d",
+     "image": "verb-sozei"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "νικᾷ: wins, is victorious."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of πέμπω for 'we sent'.",
+   "lemma": "πέμπω",
+   "cell": "aorist.active.indicative.1pl",
+   "skills": [
+    "verb.aor.act.ind.1pl",
+    "verb.aor1.sigma"
+   ],
+   "explain": "ἐπέμψαμεν: π + σ → ψ.",
+   "audio": "ἐπέμψαμεν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of νικάω for 'they won'.",
+   "lemma": "νικάω",
+   "cell": "aorist.active.indicative.3pl",
+   "skills": [
+    "verb.aor.act.ind.3pl",
+    "verb.aor1.sigma"
+   ],
+   "explain": "ἐνίκησαν: the α of the stem lengthens to η before σ.",
+   "audio": "ἐνίκησαν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of μένω for 'he stayed'.",
+   "lemma": "μένω",
+   "cell": "aorist.active.indicative.3sg",
+   "skills": [
+    "verb.aor.act.ind.3sg",
+    "verb.aor1.liquid"
+   ],
+   "explain": "ἔμεινε(ν): a liquid stem takes no σ; ε becomes ει.",
+   "audio": "ἔμεινεν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of εἰσέρχομαι for 'they went in'.",
+   "lemma": "εἰσέρχομαι",
+   "cell": "aorist.active.indicative.3pl",
+   "skills": [
+    "verb.aor.act.ind.3pl",
+    "verb.augment.compound"
+   ],
+   "explain": "εἰσῆλθον: the augment after the prefix.",
+   "audio": "εἰσῆλθον"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἐπέμψαμεν.",
+   "form": "ἐπέμψαμεν",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Who?",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "I"
+      },
+      {
+       "id": "1pl",
+       "label": "we"
+      },
+      {
+       "id": "3pl",
+       "label": "they"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "person": "1pl"
+   },
+   "skills": [
+    "verb.aor.act.ind.1pl",
+    "verb.aor1.sigma"
+   ],
+   "explain": "ἐ-πέμψ-αμεν: augment, ψ from π + σ, -αμεν 'we'.",
+   "audio": "ἐπέμψαμεν"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἔμεινεν.",
+   "form": "ἔμεινεν",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present (μένει)"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      }
+     ]
+    },
+    {
+     "id": "kind",
+     "label": "Type of aorist",
+     "options": [
+      {
+       "id": "sigma",
+       "label": "sigmatic (-σα)"
+      },
+      {
+       "id": "liquid",
+       "label": "liquid (no σ, long vowel)"
+      },
+      {
+       "id": "second",
+       "label": "second aorist (new stem)"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "kind": "liquid"
+   },
+   "skills": [
+    "verb.aor1.liquid",
+    "verb.aor.act.ind.3sg"
+   ],
+   "explain": "μένω has a liquid stem (ν): ἔμεινα, no σ, ε → ει.",
+   "audio": "ἔμεινεν"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "τότε οἱ Ἀθηναῖοι τὴν πόλιν ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "λείπουσιν"
+    },
+    {
+     "id": "b",
+     "text": "ἔλιπον"
+    },
+    {
+     "id": "c",
+     "text": "λιπεῖν"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "verb.aor.act.ind.3pl",
+    "verb.aor2.stem"
+   ],
+   "explain": "A past event: ἔλιπον, the second aorist of λείπω."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἡ θεὰ τὴν πόλιν ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἔσωσεν"
+    },
+    {
+     "id": "b",
+     "text": "ἐσώζεν"
+    },
+    {
+     "id": "c",
+     "text": "ἔσωζσεν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.aor1.sigma"
+   ],
+   "explain": "A dental stem (ζ) drops before σ: ἔσωσεν."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "οἱ βάρβαροι τὰς ναῦς ἡμῶν ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐδιαφθείραν"
+    },
+    {
+     "id": "b",
+     "text": "διέφθειραν"
+    },
+    {
+     "id": "c",
+     "text": "διαέφθειραν"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "verb.augment.compound",
+    "verb.aor1.liquid"
+   ],
+   "explain": "δια- loses its α and the augment follows: δι-έ-φθειραν."
+  },
+  {
+   "type": "transform",
+   "prompt": "Put it in the past: ἡμεῖς τοὺς παῖδας εἰς Σαλαμῖνα πέμπομεν. → ἡμεῖς τοὺς παῖδας εἰς Σαλαμῖνα …",
+   "template": "ἡμεῖς τοὺς παῖδας εἰς Σαλαμῖνα ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἐπέμψαμεν"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.aor.act.ind.1pl",
+    "verb.aor1.sigma"
+   ],
+   "explain": "ἐπέμψαμεν.",
+   "audio": "ἡμεῖς τοὺς παῖδας εἰς Σαλαμῖνα ἐπέμψαμεν."
+  },
+  {
+   "type": "transform",
+   "prompt": "Put it in the past: οἱ Ἕλληνες νικῶσι καὶ τὴν Ἑλλάδα σῴζουσιν. → οἱ Ἕλληνες … καὶ τὴν Ἑλλάδα …",
+   "template": "οἱ Ἕλληνες ___ καὶ τὴν Ἑλλάδα ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἐνίκησαν"
+     ]
+    },
+    {
+     "answers": [
+      "ἔσωσαν"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.aor.act.ind.3pl",
+    "verb.aor1.sigma"
+   ],
+   "explain": "ἐνίκησαν καὶ ἔσωσαν.",
+   "audio": "οἱ Ἕλληνες ἐνίκησαν καὶ τὴν Ἑλλάδα ἔσωσαν."
+  },
+  {
+   "type": "transform",
+   "prompt": "Put it in the past: ὁ Κλεινίας ἐν τῇ τριήρει μένει. → ὁ Κλεινίας ἐν τῇ τριήρει …",
+   "template": "ὁ Κλεινίας ἐν τῇ τριήρει ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἔμεινε(ν)"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.aor.act.ind.3sg",
+    "verb.aor1.liquid"
+   ],
+   "explain": "ἔμεινεν: liquid aorist.",
+   "audio": "ὁ Κλεινίας ἐν τῇ τριήρει ἔμεινεν."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every first aorist (the -σα type).",
+   "sentence": "τοὺς παῖδας εἰς Σαλαμῖνα ἐπέμψαμεν· οἱ βάρβαροι εἰσῆλθον καὶ τὴν ἀκρόπολιν ἔκαυσαν· ἐγὼ τὸν καπνὸν εἶδον καὶ ἔκλαυσα.",
+   "answer": [
+    4,
+    11,
+    17
+   ],
+   "skills": [
+    "read.locate",
+    "verb.aor1.sigma"
+   ],
+   "explain": "ἐπέμψαμεν, ἔκαυσαν, ἔκλαυσα. εἰσῆλθον and εἶδον are second aorists."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every compound verb whose augment sits after its prefix.",
+   "sentence": "ὁ Δημόκριτος εἰσῆλθεν· οἱ βάρβαροι εἰς τὴν πόλιν εἰσῆλθον· αἱ τριήρεις ἡμῶν τὰς ναῦς αὐτῶν διέφθειραν· ἡμεῖς ἐνικήσαμεν.",
+   "answer": [
+    2,
+    8,
+    15
+   ],
+   "skills": [
+    "read.locate",
+    "verb.augment.compound"
+   ],
+   "explain": "εἰσ-ῆλθεν, εἰσ-ῆλθον, δι-έ-φθειραν. ἐνικήσαμεν is not a compound."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'The Persians burnt the Acropolis.' (ἔκαυσαν = burnt)",
+   "tokens": [
+    "ἔκαυσαν",
+    "τὴν",
+    "οἱ",
+    "Πέρσαι",
+    "ἀκρόπολιν"
+   ],
+   "answers": [
+    "οἱ Πέρσαι τὴν ἀκρόπολιν ἔκαυσαν",
+    "τὴν ἀκρόπολιν οἱ Πέρσαι ἔκαυσαν",
+    "οἱ Πέρσαι ἔκαυσαν τὴν ἀκρόπολιν"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "verb.aor.act.ind.3pl"
+   ],
+   "explain": "οἱ Πέρσαι τὴν ἀκρόπολιν ἔκαυσαν."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "audio": "ἡμεῖς ἐνικήσαμεν καὶ τὴν Ἑλλάδα ἐσώσαμεν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἡμεῖς ἐνικήσαμεν καὶ τὴν Ἑλλάδα ἐσώσαμεν."
+    },
+    {
+     "id": "b",
+     "text": "ἡμεῖς νικῶμεν καὶ τὴν Ἑλλάδα σῴζομεν."
+    },
+    {
+     "id": "c",
+     "text": "οἱ βάρβαροι ἐνίκησαν καὶ τὴν Ἑλλάδα ἔλαβον."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences",
+    "verb.aor.act.ind.1pl"
+   ],
+   "explain": "'We won and saved Greece.'"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Κλεινίας νέος ὢν ἐρέτης ἦν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "«ὅτε νέος ἦν, ἐρέτης ἦν ἐν τριήρει.»"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "οἱ Ἀθηναῖοι τὰς γυναῖκας καὶ τοὺς παῖδας ἐν τῇ πόλει ἔλιπον.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "εἰς Σαλαμῖνα αὐτοὺς ἔπεμψαν."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Κλεινίας νῦν τοὺς Λακεδαιμονίους φοβεῖται.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "«τοὺς δὲ Λακεδαιμονίους φοβοῦμαι.»"
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "audio": "οἱ βάρβαροι εἰς τὴν πόλιν εἰσῆλθον.",
+   "gaps": [
+    {
+     "answers": [
+      "οἱ βάρβαροι εἰς τὴν πόλιν εἰσῆλθον"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "οἱ βάρβαροι εἰς τὴν πόλιν εἰσῆλθον."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'We sent the children to Salamis.'",
+   "gaps": [
+    {
+     "answers": [
+      "τοὺς παῖδας εἰς Σαλαμῖνα ἐπέμψαμεν",
+      "ἡμεῖς τοὺς παῖδας εἰς Σαλαμῖνα ἐπέμψαμεν",
+      "εἰς Σαλαμῖνα τοὺς παῖδας ἐπέμψαμεν",
+      "ἐπέμψαμεν τοὺς παῖδας εἰς Σαλαμῖνα",
+      "ἡμεῖς ἐπέμψαμεν τοὺς παῖδας εἰς Σαλαμῖνα"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.aor.act.ind.1pl"
+   ],
+   "explain": "τοὺς παῖδας εἰς Σαλαμῖνα ἐπέμψαμεν."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The Greeks won and stayed free.'",
+   "gaps": [
+    {
+     "answers": [
+      "οἱ Ἕλληνες ἐνίκησαν καὶ ἐλεύθεροι ἔμειναν",
+      "οἱ Ἕλληνες ἐνίκησαν καὶ ἔμειναν ἐλεύθεροι"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.aor.act.ind.3pl",
+    "verb.aor1.liquid"
+   ],
+   "explain": "οἱ Ἕλληνες ἐνίκησαν καὶ ἐλεύθεροι ἔμειναν."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: ἐγὼ ἐκ τῆς τριήρους τὸν καπνὸν εἶδον καὶ ἔκλαυσα.",
+   "audio": "ἐγὼ ἐκ τῆς τριήρους τὸν καπνὸν εἶδον καὶ ἔκλαυσα.",
+   "model": "From the trireme I saw the smoke and I wept.",
+   "skills": [
+    "read.comprehension",
+    "verb.aor.act.ind.1sg"
+   ],
+   "explain": "εἶδον (second aorist) and ἔκλαυσα (first aorist) side by side."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "πόλεμος",
+     "right": "polemic"
+    },
+    {
+     "left": "βάρβαρος",
+     "right": "barbarian"
+    },
+    {
+     "left": "ναυμαχία",
+     "right": "nautical (ναῦς)"
+    },
+    {
+     "left": "νικάω",
+     "right": "Nike (νίκη, victory)"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "πολεμικός 'warlike'; βάρβαρος imitates foreign babble ('bar-bar'); ναῦς 'ship'; νίκη 'victory'."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "τίς περὶ τοῦ πολέμου λέγει;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Δημόκριτος."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Λύσις."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Ξέρξης."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὁ Δημόκριτος περὶ τοῦ πολέμου λέγει."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίς ἦν ὁ Κλεινίας ἐν τῇ ναυμαχίᾳ;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "βασιλεύς."
+    },
+    {
+     "id": "b",
+     "text": "ἐρέτης."
+    },
+    {
+     "id": "c",
+     "text": "ἱερεύς."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "«ἐρέτης ἦν ἐν τριήρει.»"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "ποῖ οἱ Ἀθηναῖοι τὰς γυναῖκας καὶ τοὺς παῖδας ἔπεμψαν;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "εἰς τὴν ἀκρόπολιν."
+    },
+    {
+     "id": "b",
+     "text": "εἰς Σαλαμῖνα."
+    },
+    {
+     "id": "c",
+     "text": "εἰς τὴν Ἑλλάδα."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ποῖ; 'where to?' — εἰς Σαλαμῖνα."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ὁ Κλεινίας ἐκ τῆς τριήρους εἶδεν;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὸν καπνόν."
+    },
+    {
+     "id": "b",
+     "text": "τὸν Ξέρξην."
+    },
+    {
+     "id": "c",
+     "text": "τὴν αἶγα."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "τὸν καπνὸν εἶδον καὶ ἔκλαυσα."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίνες ἐν τῇ ναυμαχίᾳ ἐνίκησαν;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "οἱ βάρβαροι."
+    },
+    {
+     "id": "b",
+     "text": "οἱ Ἕλληνες."
+    },
+    {
+     "id": "c",
+     "text": "οἱ Λακεδαιμόνιοι μόνοι."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "verb.aor.act.ind.3pl"
+   ],
+   "explain": "ἡμεῖς ἐνικήσαμεν, says Kleinias: the Greeks."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίνας ὁ Κλεινίας νῦν φοβεῖται;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "τοὺς Πέρσας."
+    },
+    {
+     "id": "b",
+     "text": "τοὺς Λακεδαιμονίους."
+    },
+    {
+     "id": "c",
+     "text": "οὐδένα."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "«τοὺς δὲ Λακεδαιμονίους φοβοῦμαι.»"
+  }
+ ],
+ "culture": {
+  "title": "Salamis, as an old rower remembers it",
+  "md": "In September 480 BC, forty-eight years before our story, Xerxes' army marched into an empty Athens. On Themistocles' advice the Athenians had evacuated their women and children to Salamis, Aegina and Troezen and put every man who could row into the fleet, some 180 triremes built with the silver of the Laurion mines. The Persians burnt the temples on the Acropolis; the blackened old statues were later buried there, and their stumps were still visible in Kleinias's day. The Greek fleet, about 370 ships, waited in the narrow strait between Salamis and the mainland, where the larger Persian navy could not use its numbers; Xerxes had a throne set up on the slope of Mount Aigaleos to watch. A trireme carried about 200 men, 170 of them rowers on three levels, mostly poorer citizens like the young Kleinias, and it fought by ramming. Aeschylus, who was there, put the rowers' cry into his play *Persians* eight years later: 'Sons of the Greeks, go, free your fatherland!' The victory made Athens a naval power and gave the men who rowed a claim on the democracy that followed. In 432, with Sparta threatening war, veterans like Kleinias were the living memory of what the fleet could do, and also of what it had cost.",
+  "image": "culture-5-2-salamis"
+ },
+ "quiz": [
+  {
+   "type": "cloze-choice",
+   "prompt": "τότε ἡμεῖς τοὺς παῖδας εἰς Σαλαμῖνα ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "πέμπομεν"
+    },
+    {
+     "id": "b",
+     "text": "ἐπέμψαμεν"
+    },
+    {
+     "id": "c",
+     "text": "ἔπεμψαν"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "verb.aor.act.ind.1pl",
+    "verb.aor1.sigma"
+   ],
+   "explain": "ἡμεῖς + past: ἐπέμψαμεν."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of σῴζω for 'they saved'.",
+   "lemma": "σῴζω",
+   "cell": "aorist.active.indicative.3pl",
+   "skills": [
+    "verb.aor.act.ind.3pl",
+    "verb.aor1.sigma"
+   ],
+   "explain": "ἔσωσαν: ζ drops before σ.",
+   "audio": "ἔσωσαν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of ἀκούω for 'I heard'.",
+   "lemma": "ἀκούω",
+   "cell": "aorist.active.indicative.1sg",
+   "skills": [
+    "verb.aor.act.ind.1sg",
+    "verb.augment"
+   ],
+   "explain": "ἤκουσα: the augment lengthens ἀ- to ἠ-.",
+   "audio": "ἤκουσα"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ Δημόκριτος ἐκ τῆς οἰκίας ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐξῆλθεν"
+    },
+    {
+     "id": "b",
+     "text": "ἐεξῆλθεν"
+    },
+    {
+     "id": "c",
+     "text": "ἐξέλθεν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.augment.compound"
+   ],
+   "explain": "ἐξ-ῆλθεν: the augment after the prefix."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἐνίκησαν.",
+   "form": "ἐνίκησαν",
+   "groups": [
+    {
+     "id": "person",
+     "label": "Who?",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "I"
+      },
+      {
+       "id": "3sg",
+       "label": "he"
+      },
+      {
+       "id": "3pl",
+       "label": "they"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "person": "3pl"
+   },
+   "skills": [
+    "verb.aor.act.ind.3pl"
+   ],
+   "explain": "-σαν: they won.",
+   "audio": "ἐνίκησαν"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "οἱ βάρβαροι ἐν τῇ ναυμαχίᾳ ἐνίκησαν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "οἱ Ἕλληνες ἐνίκησαν· οἱ βάρβαροι ἔφυγον."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Kleinias stayed in the trireme.'",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ Κλεινίας ἐν τῇ τριήρει ἔμεινεν",
+      "ὁ Κλεινίας ἐν τῇ τριήρει ἔμεινε",
+      "ὁ Κλεινίας ἔμεινεν ἐν τῇ τριήρει",
+      "ὁ Κλεινίας ἔμεινε ἐν τῇ τριήρει"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.aor1.liquid"
+   ],
+   "explain": "ὁ Κλεινίας ἐν τῇ τριήρει ἔμεινεν."
+  }
+ ],
+ "skills": [
+  "verb.aor1.sigma",
+  "verb.aor1.liquid",
+  "verb.augment",
+  "verb.augment.compound",
+  "verb.aor.act.ind.1sg",
+  "verb.aor.act.ind.3sg",
+  "verb.aor.act.ind.1pl",
+  "verb.aor.act.ind.3pl",
+  "verb.aor2.stem",
+  "syntax.word-order",
+  "read.comprehension",
+  "read.locate",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family"
+ ]
+}

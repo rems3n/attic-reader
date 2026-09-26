@@ -1,0 +1,111 @@
+{
+ "raw_base": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/master/data",
+ "note": "Originals used by the politics and city-life track (pol.1–7, gate-pol). Built by scripts/build_course_texts.py into course_data/texts/<id>.json. The Old Oligarch (pseudo-Xenophon, tlg0032.tlg015) is not in canonical-greekLit, so Aristotle, Ath. Pol. 27.3 (Pericles' jury pay) takes its place.",
+ "passages": [
+  {
+   "id": "arist-athpol-21",
+   "category": "politics",
+   "level": "intermediate",
+   "title": "Cleisthenes' ten tribes",
+   "author": "Aristotle",
+   "work": "Constitution of the Athenians",
+   "ref": "21.2–4",
+   "blurb": "508/7 BC: Cleisthenes divides the citizens into ten tribes instead of four, makes a Council of five hundred, and has men named by their demes.",
+   "file": "tlg0086/tlg003/tlg0086.tlg003.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0086.tlg003.perseus-grc2",
+   "refs": ["21.2", "21.3", "21.4"]
+  },
+  {
+   "id": "arist-athpol-22",
+   "category": "politics",
+   "level": "intermediate",
+   "title": "The law of ostracism",
+   "author": "Aristotle",
+   "work": "Constitution of the Athenians",
+   "ref": "22.1, 22.3–4",
+   "blurb": "Cleisthenes' new laws include ostracism; after Marathon the Athenians use it for the first time, against a kinsman of the tyrants.",
+   "file": "tlg0086/tlg003/tlg0086.tlg003.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0086.tlg003.perseus-grc2",
+   "refs": ["22.1", "22.3", "22.4"]
+  },
+  {
+   "id": "arist-athpol-27",
+   "category": "politics",
+   "level": "intermediate",
+   "title": "Pay for the jurors",
+   "author": "Aristotle",
+   "work": "Constitution of the Athenians",
+   "ref": "27.3",
+   "blurb": "Pericles is the first to pay the jurors, to match the private generosity of the rich Cimon.",
+   "file": "tlg0086/tlg003/tlg0086.tlg003.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0086.tlg003.perseus-grc2",
+   "refs": ["27.3"]
+  },
+  {
+   "id": "arist-athpol-63",
+   "category": "politics",
+   "level": "advanced",
+   "title": "Jurors by lot",
+   "author": "Aristotle",
+   "work": "Constitution of the Athenians",
+   "ref": "63.4, 64.4, 65.2",
+   "blurb": "Each juror's boxwood ticket, the allotment machine, and the coloured staff that sends him to the court the lot has chosen.",
+   "file": "tlg0086/tlg003/tlg0086.tlg003.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0086.tlg003.perseus-grc2",
+   "refs": ["63.4", "64.4", "65.2"]
+  },
+  {
+   "id": "lysias-24.4",
+   "category": "politics",
+   "level": "intermediate",
+   "title": "The disabled man's pension",
+   "author": "Lysias",
+   "work": "For the Disabled Man (24)",
+   "ref": "24.4–6",
+   "blurb": "Before the Council a disabled craftsman answers the charge that he does not deserve his obol a day from the city.",
+   "file": "tlg0540/tlg024/tlg0540.tlg024.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0540.tlg024.perseus-grc2",
+   "refs": ["4", "5", "6"],
+   "max_sentences": 10
+  },
+  {
+   "id": "lysias-12.4",
+   "category": "politics",
+   "level": "intermediate",
+   "title": "The Thirty and the metics",
+   "author": "Lysias",
+   "work": "Against Eratosthenes (12)",
+   "ref": "12.4, 12.6–8",
+   "blurb": "404 BC: the Thirty decide to arrest ten rich metics for their money; Lysias himself is seized at home while entertaining guests.",
+   "file": "tlg0540/tlg012/tlg0540.tlg012.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0540.tlg012.perseus-grc2",
+   "refs": ["4", "6", "7", "8"]
+  },
+  {
+   "id": "dem-phil-1.10",
+   "category": "politics",
+   "level": "advanced",
+   "title": "Is Philip dead?",
+   "author": "Demosthenes",
+   "work": "First Philippic (4)",
+   "ref": "4.10–11",
+   "blurb": "351 BC: Demosthenes mocks the Athenians who walk about the Agora asking for news instead of acting against Philip of Macedon.",
+   "file": "tlg0014/tlg004/tlg0014.tlg004.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0014.tlg004.perseus-grc2",
+   "refs": ["10", "11"]
+  },
+  {
+   "id": "lysias-12.9",
+   "category": "politics",
+   "level": "intermediate",
+   "title": "Peison's oath",
+   "author": "Lysias",
+   "work": "Against Eratosthenes (12)",
+   "ref": "12.9–10",
+   "blurb": "Lysias offers the Thirty's man a talent to save his life; Peison swears, and then takes everything in the chest.",
+   "file": "tlg0540/tlg012/tlg0540.tlg012.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0540.tlg012.perseus-grc2",
+   "refs": ["9", "10"]
+  }
+ ]
+}

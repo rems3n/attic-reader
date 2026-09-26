@@ -56,9 +56,10 @@ export function SpeakButton({ text, play, busy, small, label }: { text: string; 
         e.preventDefault();
         play(text);
       }}
-      aria-label={`Play ${text}`}
+      aria-label={label ? `Play ${label}: ${text}` : `Play ${text}`}
+      aria-busy={busy === text || undefined}
     >
-      ▶{label ? ` ${label}` : ""}
+      <span aria-hidden="true">▶</span>{label ? ` ${label}` : ""}
     </button>
   );
 }
@@ -79,7 +80,7 @@ export function SpeakList({ forms, play, busy }: { forms: string[]; play: (t: st
           }}
           aria-label={`Play ${f}`}
         >
-          <span className="speakIcon">▶</span> {f}
+          <span className="speakIcon" aria-hidden="true">▶</span> {f}
         </button>
       ))}
     </div>

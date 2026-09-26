@@ -1,0 +1,1465 @@
+{
+ "id": "10.4",
+ "title_grc": "ὁ τελευταῖος μῦθος",
+ "title_en": "The last story",
+ "summary_grc": "τοῦ θέρους ὁ λοιμὸς εἰς τὴν πόλιν ἀφικνεῖται. ὁ δὲ Κλεινίας, πρέσβυς ὤν, τοῖς τέκνοις παλαιὸν μῦθον λέγει.",
+ "summary_en": "Summer 430: the Spartans invade again and the plague breaks out in the crowded city. Kleinias, old and feverish, tells the children one last story — Kleobis and Biton — and dies quietly in the night. Conditional sentences of every kind: if …, then ….",
+ "cover": "panel-10-4-b",
+ "caption_grc": "εἰ θεός τις ἐμοὶ τοῦτο δοίη, οὐκ ἂν κλαίοιμι.",
+ "original": {
+  "text": "thuc-2.47",
+  "note": "Thucydides 2.47.3, which paragraph 1 adapts. Thucydides lived through the plague in Athens — he caught it himself and recovered — and wrote his account during and after the war."
+ },
+ "names": {
+  "Ἄργος": [
+   "Ἄργους",
+   "Ἄργει"
+  ],
+  "Κλέοβις": [
+   "Κλεόβιδος",
+   "Κλέοβιν"
+  ],
+  "Βίτων": [
+   "Βίτωνος",
+   "Βίτωνα"
+  ]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "panel-10-4-a",
+   "sentences": [
+    {
+     "text": "τοῦ δὲ θέρους οἱ Πελοποννήσιοι αὖθις εἰς τὴν Ἀττικὴν εἰσέβαλον καὶ τὴν χώραν ἔτεμνον.",
+     "glosses": [
+      {
+       "word": "θέρους",
+       "kind": "en",
+       "value": "summer (430 BC)"
+      },
+      {
+       "word": "αὖθις",
+       "kind": "en",
+       "value": "again"
+      },
+      {
+       "word": "εἰσέβαλον",
+       "kind": "en",
+       "value": "invaded"
+      },
+      {
+       "word": "χώραν",
+       "kind": "en",
+       "value": "land, country"
+      },
+      {
+       "word": "ἔτεμνον",
+       "kind": "en",
+       "value": "were ravaging (cutting down trees and crops)"
+      }
+     ]
+    },
+    {
+     "text": "καὶ ὄντων αὐτῶν οὐ πολλὰς ἡμέρας ἐν τῇ Ἀττικῇ, ἡ νόσος πρῶτον ἤρξατο γενέσθαι τοῖς Ἀθηναίοις.",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "ὄντων",
+       "kind": "note",
+       "value": "genitive absolute: 'when they had been in Attica not many days'"
+      },
+      {
+       "word": "ἤρξατο",
+       "kind": "en",
+       "value": "began"
+      }
+     ]
+    },
+    {
+     "text": "ἐλέγετο μὲν καὶ πρότερον ἐν ἄλλαις χώραις γενέσθαι, οὐ μέντοι τοσοῦτος λοιμὸς οὐδὲ φθορὰ οὕτως ἀνθρώπων οὐδαμοῦ ἐμνημονεύετο.",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "ἐλέγετο",
+       "kind": "|",
+       "value": "λέγεται | ἐλέγετο (it was said)"
+      },
+      {
+       "word": "πρότερον",
+       "kind": "en",
+       "value": "before, earlier"
+      },
+      {
+       "word": "μέντοι",
+       "kind": "en",
+       "value": "however"
+      },
+      {
+       "word": "τοσοῦτος",
+       "kind": "en",
+       "value": "so great"
+      },
+      {
+       "word": "λοιμὸς",
+       "kind": "en",
+       "value": "plague"
+      },
+      {
+       "word": "οὐδὲ",
+       "kind": "en",
+       "value": "nor"
+      },
+      {
+       "word": "φθορὰ",
+       "kind": "en",
+       "value": "destruction"
+      },
+      {
+       "word": "οὕτως",
+       "kind": "en",
+       "value": "so, in this way"
+      },
+      {
+       "word": "οὐδαμοῦ",
+       "kind": "en",
+       "value": "nowhere"
+      },
+      {
+       "word": "ἐμνημονεύετο",
+       "kind": "en",
+       "value": "was remembered"
+      }
+     ]
+    },
+    {
+     "text": "οἱ δὲ ἰατροὶ οὐδὲν ἐδύναντο· εἴ τις τοὺς νοσοῦντας θεραπεύοι, αὐτὸς μάλιστα ἀπέθνῃσκεν.",
+     "glosses": [
+      {
+       "word": "οὐδὲν",
+       "kind": "en",
+       "value": "nothing"
+      },
+      {
+       "word": "θεραπεύοι",
+       "kind": "note",
+       "value": "εἰ + optative …, imperfect: 'whenever anyone treated the sick, he himself died' — a past general condition"
+      },
+      {
+       "word": "ἀπέθνῃσκεν",
+       "kind": "|",
+       "value": "ἀποθνῄσκει | ἀπέθνῃσκε(ν) (died, kept dying)"
+      }
+     ]
+    },
+    {
+     "text": "ἐν δὲ τῇ οἰκίᾳ τοῦ Ἀρίστωνος πολλοὶ ἐνῴκουν· καὶ ὁ Κλεινίας, πρέσβυς ὤν, πυρετὸν εἶχεν.",
+     "glosses": [
+      {
+       "word": "ἐνῴκουν",
+       "kind": "en",
+       "value": "lived in it"
+      },
+      {
+       "word": "πρέσβυς",
+       "kind": "en",
+       "value": "old man"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-10-4-b",
+   "sentences": [
+    {
+     "text": "ἡ δὲ Χρυσὶς ἔκλαιεν· «εἰ ὁ ἰατρὸς ἐνθάδε ἦν, τὸν πρέσβυν ἂν ἐθεράπευεν.»",
+     "glosses": [
+      {
+       "word": "ἐνθάδε",
+       "kind": "en",
+       "value": "here"
+      },
+      {
+       "word": "ἐθεράπευεν",
+       "kind": "note",
+       "value": "εἰ + imperfect, ἄν + imperfect: 'if the doctor were here, he would be treating him' — but he is not: contrary to fact, now"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Ἀρίστων· «ὁ ἰατρὸς αὐτὸς νοσεῖ. εἰ δὲ μὴ εἰς τὴν πόλιν πάντες ἤλθομεν, οὐκ ἂν ὁ λοιμὸς οὕτως ταχέως ἐγένετο.»",
+     "glosses": [
+      {
+       "word": "ταχέως",
+       "kind": "en",
+       "value": "fast"
+      },
+      {
+       "word": "ἐγένετο",
+       "kind": "note",
+       "value": "εἰ + aorist, ἄν + aorist: 'if we had not all come into the city, the plague would not have spread so fast' — contrary to fact, past"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Κλεινίας· «μὴ κλαίετε, ὦ τέκνα. εἰ ἀποθνῄσκω, πρέσβυς ἀποθνῄσκω· πολλὰ γὰρ ἔτη ἔζησα καὶ καλὸν βίον ἔσχον.»",
+     "glosses": [
+      {
+       "word": "τέκνα",
+       "kind": "en",
+       "value": "children (τὸ τέκνον)"
+      },
+      {
+       "word": "ἀποθνῄσκω",
+       "kind": "en",
+       "value": "I die, am dying"
+      },
+      {
+       "word": "ἔζησα",
+       "kind": "|",
+       "value": "ζῶ (I live) | ἔζησα (I lived)"
+      },
+      {
+       "word": "βίον",
+       "kind": "en",
+       "value": "life (the life one leads)"
+      },
+      {
+       "word": "ἔσχον",
+       "kind": "|",
+       "value": "ἔχω | ἔσχον (I had)"
+      }
+     ]
+    },
+    {
+     "text": "«ἐὰν δὲ γέρων τις νοσῇ, παλαιοὺς μύθους λέγει· αὕτη γὰρ ἡ φύσις τῶν γερόντων.»",
+     "glosses": [
+      {
+       "word": "ἐὰν",
+       "kind": "note",
+       "value": "ἐάν + subjunctive, present: 'whenever an old man is ill, he tells …' — a present general condition"
+      },
+      {
+       "word": "παλαιοὺς",
+       "kind": "en",
+       "value": "old, ancient"
+      }
+     ]
+    },
+    {
+     "text": "«ἐὰν οὖν ἀκούειν βούλησθε, μῦθον ὑμῖν ἐρῶ ὃν ἡ ἐμὴ μήτηρ με ἐδίδαξεν.»",
+     "glosses": [
+      {
+       "word": "ἐρῶ",
+       "kind": "|",
+       "value": "λέγω | ἐρῶ (I will tell)"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Ἐλπὶς τὴν χεῖρα αὐτοῦ ἔλαβεν· «λέγε, ὦ πάππε.»"
+    }
+   ]
+  },
+  {
+   "image": "panel-10-4-c",
+   "sentences": [
+    {
+     "text": "«ἐν τῷ παλαιῷ χρόνῳ ἐν Ἄργει ἱέρεια τῆς Ἥρας ἦν, ἣ δύο υἱοὺς ἔτρεφε, τὸν Κλέοβιν καὶ τὸν Βίτωνα.»",
+     "glosses": [
+      {
+       "word": "χρόνῳ",
+       "kind": "en",
+       "value": "time"
+      },
+      {
+       "word": "ἱέρεια",
+       "kind": "<",
+       "value": "ἱερεύς (priestess)"
+      },
+      {
+       "word": "ἔτρεφε",
+       "kind": "en",
+       "value": "was bringing up, raising"
+      }
+     ]
+    },
+    {
+     "text": "«ἑορτῆς δὲ οὔσης ἔδει τὴν μητέρα ἐφ’ ἁμάξης εἰς τὸ ἱερὸν κομισθῆναι· οἱ δὲ βόες ἐν τῷ ἀγρῷ ἦσαν.»",
+     "glosses": [
+      {
+       "word": "ἐφ’",
+       "kind": "en",
+       "value": "on (ἐπί + genitive)"
+      },
+      {
+       "word": "ἁμάξης",
+       "kind": "en",
+       "value": "cart, wagon (ἡ ἅμαξα)"
+      },
+      {
+       "word": "ἱερὸν",
+       "kind": "en",
+       "value": "τὸ ἱερόν: the sanctuary, temple"
+      },
+      {
+       "word": "κομισθῆναι",
+       "kind": "en",
+       "value": "to be carried"
+      },
+      {
+       "word": "βόες",
+       "kind": "en",
+       "value": "oxen"
+      }
+     ]
+    },
+    {
+     "text": "«οἱ οὖν νεανίαι αὐτοὶ τὴν ἅμαξαν εἷλκον πολλοὺς σταδίους, ὥστε πάντες ἐθαύμαζον.»",
+     "glosses": [
+      {
+       "word": "εἷλκον",
+       "kind": "en",
+       "value": "pulled"
+      },
+      {
+       "word": "σταδίους",
+       "kind": "en",
+       "value": "stades (a stade is about 180 metres)"
+      }
+     ]
+    },
+    {
+     "text": "«ἡ δὲ μήτηρ, ἣ αὐτοὺς ἔθρεψε, τῇ Ἥρᾳ ηὔξατο τοῖς τέκνοις δοῦναι ὅ τι ἀνθρώπῳ ἄριστόν ἐστιν.»",
+     "glosses": [
+      {
+       "word": "ἔθρεψε",
+       "kind": "|",
+       "value": "ἔτρεφε (was raising) | ἔθρεψε (raised, brought up)"
+      },
+      {
+       "word": "δοῦναι",
+       "kind": "en",
+       "value": "to give"
+      },
+      {
+       "word": "ὅ",
+       "kind": "note",
+       "value": "ὅ τι: 'whatever'"
+      }
+     ]
+    },
+    {
+     "text": "«οἱ δὲ νεανίαι ἐν τῷ ἱερῷ κατεκοιμήθησαν καὶ οὐκέτι ἀνέστησαν· ἡ γὰρ θεὰ αὐτοῖς ἀρίστην τελευτὴν τοῦ βίου ἔδωκεν.»",
+     "glosses": [
+      {
+       "word": "κατεκοιμήθησαν",
+       "kind": "en",
+       "value": "fell asleep"
+      },
+      {
+       "word": "οὐκέτι",
+       "kind": "en",
+       "value": "no longer, never again"
+      },
+      {
+       "word": "ἀνέστησαν",
+       "kind": "en",
+       "value": "got up"
+      },
+      {
+       "word": "τελευτὴν",
+       "kind": "en",
+       "value": "end"
+      },
+      {
+       "word": "ἔδωκεν",
+       "kind": "en",
+       "value": "gave"
+      }
+     ]
+    },
+    {
+     "text": "«εἰ θεός τις ἐμοὶ τοῦτο δοίη, οὐκ ἂν κλαίοιμι.»",
+     "glosses": [
+      {
+       "word": "δοίη",
+       "kind": "|",
+       "value": "ἔδωκε (gave) | εἰ δοίη (if … should give)"
+      },
+      {
+       "word": "κλαίοιμι",
+       "kind": "note",
+       "value": "εἰ + optative, ἄν + optative: 'if a god should give me this, I would not weep' — future less vivid"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Ἐλπὶς τὴν χεῖρα τοῦ πάππου εἶχεν ἕως ἐκάθευδεν.",
+     "glosses": [
+      {
+       "word": "ἕως",
+       "kind": "en",
+       "value": "until"
+      }
+     ]
+    },
+    {
+     "text": "τῆς δὲ νυκτὸς ὁ πρέσβυς ἥσυχος ἐκάθευδε· καὶ πρὶν ἡμέραν γενέσθαι, οὐκέτι ἔζη.",
+     "glosses": [
+      {
+       "word": "ἥσυχος",
+       "kind": "en",
+       "value": "quiet, peaceful"
+      },
+      {
+       "word": "ἔζη",
+       "kind": "|",
+       "value": "ζῇ (lives) | ἔζη (was living)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λύσις ἔκλαιε μέν· ᾔδει δὲ ὅτι ὁ πάππος, ὥσπερ ὁ Κλέοβις καὶ ὁ Βίτων, ἥσυχον θάνατον ἔσχεν.",
+     "glosses": [
+      {
+       "word": "ἥσυχον",
+       "kind": "|",
+       "value": "ἥσυχος | ἥσυχον θάνατον (a peaceful death)"
+      },
+      {
+       "word": "θάνατον",
+       "kind": "en",
+       "value": "death"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ζαω",
+   "gloss_grc": "ζῶ, ζῇς, ζῇ · ζῆν · ἔζη · ἔζησα"
+  },
+  {
+   "id": "βιος",
+   "gloss_grc": "ὁ βίος: ὁ χρόνος ὃν ζῶμεν"
+  },
+  {
+   "id": "πρεσβυς",
+   "pic": "presbys",
+   "gloss_grc": "ὁ πρέσβυς = ὁ γέρων"
+  },
+  {
+   "id": "τεκνον",
+   "pic": "teknon",
+   "gloss_grc": "τὸ τέκνον = ὁ παῖς ἢ ἡ κόρη τινός"
+  },
+  {
+   "id": "παλαιος",
+   "gloss_grc": "παλαιός ↔ νέος · πάλαι"
+  },
+  {
+   "id": "τρεφω",
+   "gloss_grc": "τρέφει · ἔθρεψε"
+  },
+  {
+   "id": "χωρα",
+   "gloss_grc": "ἡ χώρα = ἡ γῆ ἣν οἰκοῦσιν ἄνθρωποι"
+  },
+  {
+   "id": "ουτως",
+   "gloss_grc": "οὕτως = τοῦτον τὸν τρόπον"
+  },
+  {
+   "id": "λοιμος",
+   "pic": "loimos",
+   "gloss_grc": "ὁ λοιμὸς = νόσος ἣ πολλοὺς ἀποκτείνει"
+  },
+  {
+   "id": "ει",
+   "gloss_grc": "εἰ … · ἐάν (= εἰ ἄν) + subjunctive"
+  }
+ ],
+ "notice": [
+  "εἰ ἀποθνῄσκω, πρέσβυς ἀποθνῄσκω. — ἐὰν ἀκούειν βούλησθε, μῦθον ὑμῖν ἐρῶ.",
+  "εἰ θεός τις ἐμοὶ τοῦτο δοίη, οὐκ ἂν κλαίοιμι.",
+  "εἰ ὁ ἰατρὸς ἐνθάδε ἦν, τὸν πρέσβυν ἂν ἐθεράπευεν. — εἰ μὴ εἰς τὴν πόλιν ἤλθομεν, οὐκ ἂν ὁ λοιμὸς οὕτως ταχέως ἐγένετο.",
+  "ἐὰν γέρων τις νοσῇ, παλαιοὺς μύθους λέγει. — εἴ τις τοὺς νοσοῦντας θεραπεύοι, αὐτὸς ἀπέθνῃσκεν."
+ ],
+ "grammar": {
+  "md": "**If …, then …: conditional sentences.** A condition has two halves: the *if*-clause (protasis) and the main clause (apodosis). Greek chooses the mood of each half to say how real the speaker thinks the condition is. The *if*-clause is always negated with **μή**, the main clause with **οὐ**. **ἐάν** is εἰ + ἄν (also written ἤν or ἄν).\n\n| kind | if-clause | main clause | example from the story |\n|---|---|---|---|\n| **simple** (present or past) | εἰ + indicative | indicative | **εἰ ἀποθνῄσκω**, πρέσβυς **ἀποθνῄσκω** 'if I am dying, I die an old man' |\n| **future more vivid** | ἐάν + subjunctive | future (or imperative) | **ἐὰν** ἀκούειν **βούλησθε**, μῦθον ὑμῖν **ἐρῶ** 'if you want to listen, I will tell you a story' |\n| **future less vivid** | εἰ + optative | ἄν + optative | **εἰ** θεός τις ἐμοὶ τοῦτο **δοίη**, οὐκ **ἂν κλαίοιμι** 'if a god should give me this, I would not weep' |\n| **contrary to fact, present** | εἰ + imperfect | ἄν + imperfect | **εἰ** ὁ ἰατρὸς ἐνθάδε **ἦν**, τὸν πρέσβυν **ἂν ἐθεράπευεν** 'if the doctor were here, he would be treating him' |\n| **contrary to fact, past** | εἰ + aorist | ἄν + aorist | **εἰ** μὴ εἰς τὴν πόλιν **ἤλθομεν**, οὐκ **ἂν** ὁ λοιμὸς οὕτως ταχέως **ἐγένετο** 'if we had not come, it would not have …' |\n| **general, present** | ἐάν + subjunctive | present | **ἐὰν** γέρων τις **νοσῇ**, παλαιοὺς μύθους **λέγει** 'whenever an old man is ill, he tells old stories' |\n| **general, past** | εἰ + optative | imperfect | **εἴ** τις τοὺς νοσοῦντας **θεραπεύοι**, αὐτὸς **ἀπέθνῃσκεν** 'whenever anyone treated the sick, he died' |\n\nHow to tell them apart when you read: 1. Is there an **ἄν** in the main clause? If so, look at its verb — optative = 'would' (future less vivid), a past indicative = 'would be / would have' (contrary to fact). 2. If the *if*-clause has **ἐάν** + subjunctive, look at the main verb: future = one future event; present = 'whenever', a general truth. 3. εἰ + optative without ἄν in the main clause and an imperfect there = 'whenever' in the past.\n\nThe tense in contrary-to-fact clauses is about aspect, not time as English feels it: imperfect for 'now' (or a continuing past state), aorist for a single past event.",
+  "paradigms": [],
+  "diagram": "diagram-conditions"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings in these conditions.",
+   "template": "εἰ ὁ ἰατρὸς ἐνθάδε ἦ___, ἐθεράπευεν ἄν. ἐὰν ἀκούειν βούλη___ (you pl.), μῦθον ἐρῶ. εἰ θεός τις τοῦτο δοί___, οὐκ ἂν κλαίοιμ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ν"
+     ]
+    },
+    {
+     "answers": [
+      "σθε"
+     ]
+    },
+    {
+     "answers": [
+      "η"
+     ]
+    },
+    {
+     "answers": [
+      "ι"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.cond.cf-present",
+    "syntax.cond.fmv",
+    "syntax.cond.fl"
+   ],
+   "explain": "ἦν (imperfect: contrary to fact), βούλησθε (subjunctive after ἐάν), δοίη and κλαίοιμι (optatives: future less vivid)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ___ ἀκούειν βούλησθε, μῦθον ὑμῖν ἐρῶ.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐάν"
+    },
+    {
+     "id": "b",
+     "text": "εἰ"
+    },
+    {
+     "id": "c",
+     "text": "ὥστε"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cond.fmv"
+   ],
+   "explain": "A subjunctive (βούλησθε) in the if-clause needs ἐάν; the future ἐρῶ makes it future more vivid.",
+   "audio": "ἐὰν ἀκούειν βούλησθε, μῦθον ὑμῖν ἐρῶ."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · εἰ ὁ ἰατρὸς ἐνθάδε ἦν, τὸν πρέσβυν ___ ἐθεράπευεν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἄν"
+    },
+    {
+     "id": "b",
+     "text": "μή"
+    },
+    {
+     "id": "c",
+     "text": "ἐάν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cond.cf-present"
+   ],
+   "explain": "The main clause of an unreal condition needs ἄν: 'he would be treating'.",
+   "audio": "εἰ ὁ ἰατρὸς ἐνθάδε ἦν, τὸν πρέσβυν ἂν ἐθεράπευεν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · μὴ κλαίετε, ὦ ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "τέκνα"
+    },
+    {
+     "id": "b",
+     "text": "βίε"
+    },
+    {
+     "id": "c",
+     "text": "χῶραι"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.stage2"
+   ],
+   "explain": "ὦ τέκνα: 'my children'.",
+   "audio": "μὴ κλαίετε, ὦ τέκνα."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ὁ πρέσβυς",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "presbys"
+    },
+    {
+     "id": "b",
+     "image": "teknon"
+    },
+    {
+     "id": "c",
+     "image": "neos"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "πρέσβυς: old man (= γέρων)."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "τὸ τέκνον",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "presbys"
+    },
+    {
+     "id": "b",
+     "image": "teknon"
+    },
+    {
+     "id": "c",
+     "image": "iatros"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "τέκνον: child."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the present of ζάω for 'he lives'.",
+   "lemma": "ζάω",
+   "cell": "present.active.indicative.3sg",
+   "skills": [
+    "verb.contract.a",
+    "vocab.stage2"
+   ],
+   "explain": "ζῇ: ζάω contracts to η, not α (ζῇς, ζῇ, ζῆτε; ζῆν).",
+   "audio": "ζῇ"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the present infinitive of ζάω, 'to live'.",
+   "lemma": "ζάω",
+   "cell": "present.active.infinitive.inf",
+   "skills": [
+    "verb.contract.a"
+   ],
+   "explain": "ζῆν.",
+   "audio": "ζῆν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of τρέφω for 'she brought up'.",
+   "lemma": "τρέφω",
+   "cell": "aorist.active.indicative.3sg",
+   "skills": [
+    "verb.aor.act.ind.3sg"
+   ],
+   "explain": "ἔθρεψε(ν): the stem θρεφ-/τρεφ- shows its aspirate at the front when φ + σ becomes ψ.",
+   "audio": "ἔθρεψεν"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse κλαίοιμι in εἰ θεός τις τοῦτο δοίη, οὐκ ἂν κλαίοιμι.",
+   "form": "κλαίοιμι",
+   "groups": [
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Who?",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "I"
+      },
+      {
+       "id": "3sg",
+       "label": "he / she"
+      },
+      {
+       "id": "1pl",
+       "label": "we"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "mood": "opt",
+    "person": "1sg"
+   },
+   "skills": [
+    "syntax.cond.fl"
+   ],
+   "explain": "-οιμι: optative, 'I'. With ἄν in the main clause of a future less vivid condition: 'I would (not) weep'."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ζῇ.",
+   "form": "ζῇ",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Who?",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "I"
+      },
+      {
+       "id": "3sg",
+       "label": "he / she"
+      },
+      {
+       "id": "3pl",
+       "label": "they"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "pres",
+    "person": "3sg"
+   },
+   "skills": [
+    "verb.contract.a"
+   ],
+   "explain": "ζῇ: 'he lives'. The imperfect is ἔζη, the aorist ἔζησε(ν).",
+   "audio": "ζῇ"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "Which kind of condition? — εἰ ὁ ἰατρὸς ἐνθάδε ἦν, τὸν πρέσβυν ἂν ἐθεράπευεν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "contrary to fact, present"
+    },
+    {
+     "id": "b",
+     "text": "future more vivid"
+    },
+    {
+     "id": "c",
+     "text": "simple past"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cond.cf-present"
+   ],
+   "explain": "εἰ + imperfect, ἄν + imperfect: the doctor is not here."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "Which kind of condition? — εἰ μὴ εἰς τὴν πόλιν ἤλθομεν, οὐκ ἂν ὁ λοιμὸς οὕτως ταχέως ἐγένετο.",
+   "options": [
+    {
+     "id": "a",
+     "text": "future less vivid"
+    },
+    {
+     "id": "b",
+     "text": "contrary to fact, past"
+    },
+    {
+     "id": "c",
+     "text": "past general"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "syntax.cond.cf-past"
+   ],
+   "explain": "εἰ + aorist, ἄν + aorist: they did come, and it did spread."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "Which kind of condition? — ἐὰν γέρων τις νοσῇ, παλαιοὺς μύθους λέγει.",
+   "options": [
+    {
+     "id": "a",
+     "text": "future more vivid"
+    },
+    {
+     "id": "b",
+     "text": "present general ('whenever')"
+    },
+    {
+     "id": "c",
+     "text": "simple present"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "syntax.cond.general"
+   ],
+   "explain": "ἐάν + subjunctive with a present main verb: what always happens."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "εἴ τις τοὺς νοσοῦντας θεραπεύοι, αὐτὸς ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀπέθνῃσκεν"
+    },
+    {
+     "id": "b",
+     "text": "ἀποθανεῖται"
+    },
+    {
+     "id": "c",
+     "text": "ἂν ἀποθάνοι"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cond.general"
+   ],
+   "explain": "Past general: εἰ + optative, imperfect in the main clause — 'whenever anyone treated them, he died'."
+  },
+  {
+   "type": "label",
+   "prompt": "Which kind of condition? — εἰ θεός τις ἐμοὶ τοῦτο δοίη, οὐκ ἂν κλαίοιμι.",
+   "options": [
+    {
+     "id": "a",
+     "text": "future less vivid (should … would)"
+    },
+    {
+     "id": "b",
+     "text": "contrary to fact"
+    },
+    {
+     "id": "c",
+     "text": "simple"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cond.fl"
+   ],
+   "explain": "εἰ + optative, ἄν + optative."
+  },
+  {
+   "type": "label",
+   "prompt": "Which kind of condition? — εἰ ἀποθνῄσκω, πρέσβυς ἀποθνῄσκω.",
+   "options": [
+    {
+     "id": "a",
+     "text": "simple present (εἰ + indicative, indicative)"
+    },
+    {
+     "id": "b",
+     "text": "present general"
+    },
+    {
+     "id": "c",
+     "text": "contrary to fact"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cond.simple"
+   ],
+   "explain": "No ἄν anywhere, indicatives on both sides: a simple condition."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make it unreal (contrary to fact, now): εἰ ὁ ἰατρὸς ἐνθάδε ἐστίν, τὸν πρέσβυν θεραπεύει. → εἰ ὁ ἰατρὸς ἐνθάδε ἦν, τὸν πρέσβυν ἂν …",
+   "template": "εἰ ὁ ἰατρὸς ἐνθάδε ἦν, τὸν πρέσβυν ἂν ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἐθεράπευε(ν)"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.cond.cf-present"
+   ],
+   "explain": "θεραπεύει → ἂν ἐθεράπευεν.",
+   "audio": "εἰ ὁ ἰατρὸς ἐνθάδε ἦν, τὸν πρέσβυν ἂν ἐθεράπευεν."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make it less vivid (optative): ἐὰν ἀκούειν βούλησθε, μῦθον ἐρῶ. → εἰ ἀκούειν βούλοισθε, μῦθον ἂν …",
+   "template": "εἰ ἀκούειν βούλοισθε, μῦθον ἂν ___.",
+   "gaps": [
+    {
+     "answers": [
+      "εἴποιμι"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.cond.fl"
+   ],
+   "explain": "ἐρῶ → ἂν εἴποιμι (aorist optative of λέγω/εἶπον): 'I would tell'.",
+   "audio": "εἰ ἀκούειν βούλοισθε, μῦθον ἂν εἴποιμι."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the verb of the if-clause and the verb of the main clause.",
+   "sentence": "εἰ δὲ μὴ εἰς τὴν πόλιν ἤλθομεν, οὐκ ἂν ὁ λοιμὸς οὕτως ταχέως ἐγένετο.",
+   "answer": [
+    6,
+    13
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.cond.cf-past"
+   ],
+   "explain": "ἤλθομεν and ἐγένετο: two aorists, with ἄν in the main clause — contrary to fact, past."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every form of ζάω.",
+   "sentence": "ὁ μὲν πρέσβυς πολλὰ ἔτη ἔζησε καὶ νῦν οὐκέτι ζῇ· τὰ δὲ τέκνα ζῶσι καὶ τὸν μῦθον φυλάττουσιν.",
+   "answer": [
+    5,
+    9,
+    13
+   ],
+   "skills": [
+    "read.locate",
+    "verb.contract.a"
+   ],
+   "explain": "ἔζησε, ζῇ, ζῶσι."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'If a god should give me this, I would not weep.'",
+   "tokens": [
+    "κλαίοιμι",
+    "εἰ",
+    "ἂν",
+    "θεὸς",
+    "οὐκ",
+    "δοίη",
+    "τοῦτο",
+    "ἐμοὶ"
+   ],
+   "answers": [
+    "εἰ θεὸς ἐμοὶ τοῦτο δοίη οὐκ ἂν κλαίοιμι",
+    "εἰ θεὸς τοῦτο ἐμοὶ δοίη οὐκ ἂν κλαίοιμι",
+    "εἰ τοῦτο θεὸς ἐμοὶ δοίη οὐκ ἂν κλαίοιμι",
+    "οὐκ ἂν κλαίοιμι εἰ θεὸς ἐμοὶ τοῦτο δοίη",
+    "οὐκ ἂν κλαίοιμι εἰ θεὸς τοῦτο ἐμοὶ δοίη"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "syntax.cond.fl"
+   ],
+   "explain": "εἰ θεὸς ἐμοὶ τοῦτο δοίη, οὐκ ἂν κλαίοιμι."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "audio": "ἐὰν ἀκούειν βούλησθε, μῦθον ὑμῖν ἐρῶ.",
+   "options": [
+    {
+     "id": "a",
+     "text": "εἰ ἀκούειν ἐβούλεσθε, μῦθον ἂν ὑμῖν ἔλεγον."
+    },
+    {
+     "id": "b",
+     "text": "ἐὰν ἀκούειν βούλησθε, μῦθον ὑμῖν ἐρῶ."
+    },
+    {
+     "id": "c",
+     "text": "ἐὰν ἀκούειν βούλησθε, μῦθον ὑμῖν λέγω."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "listen.sentences",
+    "syntax.cond.fmv"
+   ],
+   "explain": "'If you want to listen, I will tell you a story.'"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "οἱ ἰατροὶ τοὺς νοσοῦντας ῥᾳδίως ἔσῳζον.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension",
+    "read.thucydides"
+   ],
+   "explain": "οἱ ἰατροὶ οὐδὲν ἐδύναντο — and they died themselves."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἡ τῶν νεανιῶν μήτηρ τῇ Ἥρᾳ ηὔξατο τοῖς τέκνοις τὸ ἄριστον δοῦναι.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension",
+    "read.myth"
+   ],
+   "explain": "ὅ τι ἀνθρώπῳ ἄριστόν ἐστιν."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Κλεινίας ἐν τῇ ἡμέρᾳ ἀπέθανε, πολλὰ κλαίων.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "He slept quietly, and before daybreak he was no longer living."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "audio": "μὴ κλαίετε, ὦ τέκνα.",
+   "gaps": [
+    {
+     "answers": [
+      "μὴ κλαίετε, ὦ τέκνα",
+      "μὴ κλαίετε ὦ τέκνα"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "μὴ κλαίετε, ὦ τέκνα: don't cry, children."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'If you want (sg.), I will tell a story.' (ἐάν + βούλῃ; ἐρῶ)",
+   "gaps": [
+    {
+     "answers": [
+      "ἐὰν βούλῃ, μῦθον ἐρῶ",
+      "ἐὰν βούλῃ, ἐρῶ μῦθον",
+      "μῦθον ἐρῶ, ἐὰν βούλῃ",
+      "ἐὰν βούλῃ μῦθον ἐρῶ"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.cond.fmv"
+   ],
+   "explain": "ἐὰν βούλῃ, μῦθον ἐρῶ: future more vivid."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The old man lived many years.' (ὁ πρέσβυς; aorist of ζάω)",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ πρέσβυς πολλὰ ἔτη ἔζησεν",
+      "ὁ πρέσβυς πολλὰ ἔτη ἔζησε",
+      "ὁ πρέσβυς ἔζησε πολλὰ ἔτη",
+      "πολλὰ ἔτη ἔζησεν ὁ πρέσβυς"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.acc.extent"
+   ],
+   "explain": "ὁ πρέσβυς πολλὰ ἔτη ἔζησεν: accusative of extent of time."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: ὄντων αὐτῶν οὐ πολλὰς ἡμέρας ἐν τῇ Ἀττικῇ, ἡ νόσος πρῶτον ἤρξατο γενέσθαι τοῖς Ἀθηναίοις.",
+   "audio": "ὄντων αὐτῶν οὐ πολλὰς ἡμέρας ἐν τῇ Ἀττικῇ, ἡ νόσος πρῶτον ἤρξατο γενέσθαι τοῖς Ἀθηναίοις.",
+   "model": "When they (the Peloponnesians) had been in Attica not many days, the disease first began to appear among the Athenians.",
+   "skills": [
+    "read.comprehension",
+    "read.thucydides",
+    "read.adapted-text"
+   ],
+   "explain": "Thucydides' own words (2.47.3). ὄντων αὐτῶν: genitive absolute; τοῖς Ἀθηναίοις: dative, 'for/among the Athenians'."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "βίος",
+     "right": "biology, biography"
+    },
+    {
+     "left": "παλαιός",
+     "right": "palaeolithic"
+    },
+    {
+     "left": "πρέσβυς",
+     "right": "presbyter, priest"
+    },
+    {
+     "left": "ζάω / ζῷον",
+     "right": "zoology"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "βίος 'life'; παλαιός 'old' (παλαιο-λιθικός 'old stone'); πρεσβύτερος 'elder' → presbyter → priest; ζῷον 'living thing', from the root of ζάω."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "πότε ἡ νόσος τοῖς Ἀθηναίοις πρῶτον ἤρξατο γενέσθαι;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "τοῦ χειμῶνος, πρὶν τοὺς Πελοποννησίους εἰσβαλεῖν."
+    },
+    {
+     "id": "b",
+     "text": "τοῦ θέρους, ὄντων τῶν Πελοποννησίων οὐ πολλὰς ἡμέρας ἐν τῇ Ἀττικῇ."
+    },
+    {
+     "id": "c",
+     "text": "ἐν τοῖς Διονυσίοις."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "read.thucydides"
+   ],
+   "explain": "Summer 430, a few days after the second Spartan invasion began."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί οἱ ἰατροὶ μάλιστα ἀπέθνῃσκον;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "τοὺς νοσοῦντας ἐθεράπευον."
+    },
+    {
+     "id": "b",
+     "text": "ἐν τῇ χώρᾳ ἐμάχοντο."
+    },
+    {
+     "id": "c",
+     "text": "γέροντες ἦσαν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.cond.general"
+   ],
+   "explain": "εἴ τις τοὺς νοσοῦντας θεραπεύοι, αὐτὸς μάλιστα ἀπέθνῃσκεν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ποιεῖ γέρων τις, ἐὰν νοσῇ, ὡς ὁ Κλεινίας λέγει;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "καθεύδει."
+    },
+    {
+     "id": "b",
+     "text": "παλαιοὺς μύθους λέγει."
+    },
+    {
+     "id": "c",
+     "text": "τὸν ἰατρὸν καλεῖ."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "syntax.cond.general"
+   ],
+   "explain": "αὕτη γὰρ ἡ φύσις τῶν γερόντων — he smiles as he says it."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "πῶς ὁ Κλέοβις καὶ ὁ Βίτων τὴν μητέρα εἰς τὸ ἱερὸν ἐκόμισαν;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐφ’ ἵππων."
+    },
+    {
+     "id": "b",
+     "text": "αὐτοὶ τὴν ἅμαξαν εἷλκον."
+    },
+    {
+     "id": "c",
+     "text": "οἱ βόες τὴν ἅμαξαν εἷλκον."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "read.myth"
+   ],
+   "explain": "The oxen were in the field, so the young men pulled the cart themselves."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἡ θεὰ τοῖς νεανίαις ἔδωκεν;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "πολὺ ἀργύριον."
+    },
+    {
+     "id": "b",
+     "text": "ἀρίστην τελευτὴν τοῦ βίου."
+    },
+    {
+     "id": "c",
+     "text": "νίκην ἐν τῷ πολέμῳ."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "read.myth"
+   ],
+   "explain": "They fell asleep in the sanctuary and did not wake: the Greeks told it as the best end a life could have."
+  }
+ ],
+ "culture": {
+  "title": "The plague of 430",
+  "md": "In early summer 430 the Peloponnesians invaded Attica for the second time, and within days a disease broke out in the Piraeus and then in the upper city. Thucydides says it was believed to have started in Ethiopia and come through Egypt and the Persian empire. Athens was the worst possible place for it: the country people who had moved inside the Long Walls were living in stifling huts and shrines in the summer heat. The doctors, not knowing what it was, died in the greatest numbers, since they came nearest to the sick; prayers and oracles did no good. **Thucydides caught it himself and recovered**, and he described the symptoms precisely 'so that, if it ever comes again, people may recognise it' (2.48). It raged for two years and, after a lull, came back in 427–426; modern estimates put the dead at a quarter to a third of the population. Pericles died of it in autumn 429.\n\nWhat the disease was is still argued over — typhus, smallpox, typhoid fever and others have been proposed. In 1994–5 builders of the Athens metro found a hurried mass burial of about this date in the Kerameikos, the potters' own quarter; a DNA study of its teeth suggested typhoid, but the result is disputed.\n\nKleinias dies of old age and fever, at home, among his family — as many did that summer. Athenians washed and laid out their dead, sang laments and buried them outside the walls; painters decorated white oil-flasks (lekythoi) for graves with Hermes, Charon's boat and tiny winged **ψυχαί**. His story comes from Herodotus (1.31), where the Athenian Solon tells it to King Croesus: Kleobis and Biton, whose statues the Argives set up at Delphi, were given 'the best end of life'.",
+  "image": "culture-10-4-lekythos"
+ },
+ "quiz": [
+  {
+   "type": "cloze-choice",
+   "prompt": "Which kind of condition? — ἐὰν ἀκούειν βούλησθε, μῦθον ὑμῖν ἐρῶ.",
+   "options": [
+    {
+     "id": "a",
+     "text": "future more vivid"
+    },
+    {
+     "id": "b",
+     "text": "future less vivid"
+    },
+    {
+     "id": "c",
+     "text": "contrary to fact"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cond.fmv"
+   ],
+   "explain": "ἐάν + subjunctive, future indicative."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "εἰ θεός τις ἐμοὶ τοῦτο δοίη, οὐκ ἂν ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "κλαίοιμι"
+    },
+    {
+     "id": "b",
+     "text": "ἔκλαιον"
+    },
+    {
+     "id": "c",
+     "text": "κλαύσομαι"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cond.fl"
+   ],
+   "explain": "εἰ + optative, ἄν + optative."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "εἰ ὁ ἰατρὸς ἐνθάδε ___, τὸν πρέσβυν ἂν ἐθεράπευεν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἦν"
+    },
+    {
+     "id": "b",
+     "text": "ᾖ"
+    },
+    {
+     "id": "c",
+     "text": "εἴη"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cond.cf-present"
+   ],
+   "explain": "Contrary to fact, present: εἰ + imperfect."
+  },
+  {
+   "type": "label",
+   "prompt": "Which kind of condition? — εἰ μὴ ἤλθομεν, οὐκ ἂν ἐγένετο.",
+   "options": [
+    {
+     "id": "a",
+     "text": "contrary to fact, past"
+    },
+    {
+     "id": "b",
+     "text": "simple past"
+    },
+    {
+     "id": "c",
+     "text": "past general"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cond.cf-past"
+   ],
+   "explain": "εἰ + aorist, ἄν + aorist."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the imperfect of ζάω for 'he was living'.",
+   "lemma": "ζάω",
+   "cell": "imperfect.active.indicative.3sg",
+   "skills": [
+    "verb.contract.a"
+   ],
+   "explain": "ἔζη.",
+   "audio": "ἔζη"
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ὁ λοιμός",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "loimos"
+    },
+    {
+     "id": "b",
+     "image": "pharmakon"
+    },
+    {
+     "id": "c",
+     "image": "iatros"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "λοιμός: plague."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Κλεινίας λέγει ὅτι, εἰ θεός τις ἥσυχον θάνατον ἑαυτῷ δοίη, οὐκ ἂν κλαίοι.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension",
+    "syntax.cond.fl"
+   ],
+   "explain": "εἰ θεός τις ἐμοὶ τοῦτο δοίη, οὐκ ἂν κλαίοιμι."
+  }
+ ],
+ "skills": [
+  "syntax.cond.simple",
+  "syntax.cond.fmv",
+  "syntax.cond.fl",
+  "syntax.cond.cf-present",
+  "syntax.cond.cf-past",
+  "syntax.cond.general",
+  "verb.contract.a",
+  "verb.aor.act.ind.3sg",
+  "syntax.acc.extent",
+  "syntax.word-order",
+  "read.thucydides",
+  "read.adapted-text",
+  "read.myth",
+  "read.comprehension",
+  "read.locate",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family",
+  "vocab.stage2"
+ ]
+}

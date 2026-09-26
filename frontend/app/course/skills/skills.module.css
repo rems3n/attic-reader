@@ -1,0 +1,89 @@
+/* Skills grid (/course/skills) and the mistakes-deck bits of /course/review.
+   Colours come from the tokens in app/globals.css. */
+
+/* ---- summary / legend */
+.summary { padding: 16px 18px; }
+.legend { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px 16px; }
+.legend li { display: flex; align-items: center; gap: 8px; font-size: 14px; }
+.legend strong { margin-left: auto; font-weight: 500; color: var(--ink); font-variant-numeric: tabular-nums; }
+.swatch { display: inline-grid; place-items: center; width: 18px; height: 18px; flex: none; border: 1px solid; border-radius: 5px; font-size: 11px; line-height: 1; }
+:global(.card) p.legendNote { margin-top: 12px; font-size: 12px; }
+
+/* ---- toolbar */
+.toolbar { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between; margin: 18px 0 6px; }
+.chipCount { font-variant-numeric: tabular-nums; opacity: 0.75; margin-left: 2px; }
+.mistakesLink { color: var(--accent); text-decoration: none; font-weight: 500; font-size: 14px; }
+.mistakesLink strong { display: inline-block; min-width: 1.6em; margin-left: 4px; padding: 1px 7px; border-radius: 999px; background: var(--accent-2); text-align: center; font-weight: 500; }
+.filterNote { margin: 4px 0 0; font-size: 13px; color: var(--muted); }
+.empty { margin-top: 16px; }
+
+/* ---- families */
+.family { margin: 26px 0 0; }
+.familyHead { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 10px; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+.familyHead h2 { margin: 0; font-size: 18px; }
+.familyCount { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, 32px); gap: 5px; }
+.cell {
+  width: 32px;
+  height: 32px;
+  min-height: 0;
+  padding: 0;
+  border: 1px solid;
+  border-radius: 7px;
+  font-size: 13px;
+  line-height: 1;
+  cursor: pointer;
+}
+.cell:hover { outline: 2px solid var(--line-strong); outline-offset: 1px; }
+.cell:focus-visible, .cell.selected { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+/* ---- levels (cells and legend swatches); after .cell / .swatch so the
+   colours win over their border shorthand */
+.unseen { background: var(--card); border-color: var(--line-strong); }
+.weak { background: color-mix(in srgb, var(--error) 22%, var(--card)); border-color: var(--error); }
+.learning { background: var(--accent-2); border-color: var(--sage); }
+.strong { background: var(--sage); border-color: var(--sage); }
+.mastered { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+/* ---- detail panel */
+.detail { margin-top: 14px; padding: 18px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); }
+.detailTop { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.levelBadge { display: inline-flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+.close { min-height: 36px; min-width: 36px; padding: 0; background: transparent; border: 1px solid var(--line); color: var(--muted); font-size: 20px; line-height: 1; }
+.close:hover { border-color: var(--accent); color: var(--ink); }
+.detailTitle { margin: 10px 0 2px; font-family: var(--serif); font-size: 20px; font-weight: 500; line-height: 1.25; }
+.skillId { margin: 0; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12px; color: var(--muted); overflow-wrap: anywhere; }
+
+.stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 16px; margin: 16px 0 0; }
+.stats div { border-top: 1px solid var(--line); padding-top: 6px; }
+.stats dt { font-size: 12px; color: var(--muted); }
+.stats dd { margin: 2px 0 0; font-size: 17px; font-variant-numeric: tabular-nums; }
+@media (min-width: 560px) { .stats { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+
+.hint { margin: 12px 0 0; font-size: 13px; color: var(--muted); line-height: 1.45; }
+.subhead { margin: 18px 0 6px; font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.lessons { list-style: none; margin: 0; padding: 0; }
+.lessons li { border-bottom: 1px solid var(--line); }
+.lessons li:last-child { border-bottom: 0; }
+.lessons a { display: flex; gap: 12px; align-items: baseline; padding: 9px 0; color: var(--ink); text-decoration: none; }
+.lessons a:hover .lessonTitle { color: var(--accent); }
+.lessonId { flex: none; min-width: 3.6em; font-size: 13px; color: var(--accent); font-weight: 500; font-variant-numeric: tabular-nums; }
+.lessonTitle { display: grid; gap: 1px; min-width: 0; }
+.lessonTitle [lang="grc"] { font-size: 16px; }
+.lessonEn { font-size: 13px; color: var(--muted); }
+.more { min-height: 40px; margin-top: 6px; padding: 0 12px; background: transparent; border: 1px solid var(--line); color: var(--accent); font-size: 14px; font-weight: 500; }
+.more:hover { border-color: var(--accent); }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+
+/* ---- /course/review */
+.reviewTitle { font-size: clamp(22px, 5.5vw, 30px); margin: 0 0 12px; }
+:global(.card) p.reviewLede { margin: 0 0 14px; }
+.missing { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin: 0 0 14px; padding: 12px 14px; border: 1px dashed var(--line-strong); border-radius: 12px; background: var(--cream); }
+:global(.card) .missing p { margin: 0; font-size: 14px; }
+.deckHead { margin: 0 0 10px; }
+:global(.card) p.deckOrigin { margin: 0; font-size: 12px; letter-spacing: 0.04em; color: var(--muted); }
+.deckContext { margin-top: 8px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--cream); }
+.deckContext summary { cursor: pointer; font-size: 14px; font-weight: 500; color: var(--accent); }
+:global(.card) .deckContext p { margin: 8px 0 0; color: var(--ink); font-size: 17px; line-height: 1.6; white-space: pre-line; }
+:global(.card) .deckContext p.deckGlosses { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; color: var(--muted); }

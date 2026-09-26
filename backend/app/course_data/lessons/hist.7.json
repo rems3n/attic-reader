@@ -1,0 +1,1438 @@
+{
+ "id": "hist.7",
+ "title_grc": "Τὸν ἄνδρα ὁρῶ",
+ "title_en": "Cyrus sees the King",
+ "summary_grc": "ἐν τῇ μάχῃ ὁ Κῦρος τὸν ἀδελφὸν ὁρᾷ καὶ ἐπʼ αὐτὸν ἵεται· τιτρώσκει μὲν τὸν βασιλέα, αὐτὸς δὲ ἀποθνῄσκει.",
+ "summary_en": "Cunaxa, near Babylon, 401 BC. While the Greeks rout the enemy opposite them, Cyrus charges his brother the King with six hundred horsemen, wounds him through the breastplate and is killed by a javelin under the eye; his faithful Artapates dies on his body. Xenophon, Anabasis 1.8.24–28, unadapted with running glosses: historic presents, a fear clause, and a historian citing his witness.",
+ "cover": "hist-panel-7-b",
+ "caption_grc": "εἰπὼν τὸν ἄνδρα ὁρῶ ἵετο ἐπʼ αὐτόν.",
+ "original": {
+  "text": "xen-anab-1.8.24",
+  "note": "Xenophon, Anabasis 1.8.24–28, unadapted. The two opening sentences are ours (they summarise 1.1–1.8.23). The battle of Cunaxa was fought in September 401 BC; Xenophon, who was with the Greeks on the right wing, wrote the Anabasis in the 370s–360s."
+ },
+ "names": {
+  "Κῦρος": [
+   "Κύρου",
+   "Κύρῳ",
+   "Κῦρον",
+   "Κῦρε"
+  ],
+  "Δαρεῖος": [
+   "Δαρείου",
+   "Δαρείῳ",
+   "Δαρεῖον"
+  ],
+  "Ἀρταξέρξης": [
+   "Ἀρταξέρξου",
+   "Ἀρταξέρξῃ",
+   "Ἀρταξέρξην"
+  ],
+  "Ἀρταγέρσης": [
+   "Ἀρταγέρσου",
+   "Ἀρταγέρσῃ",
+   "Ἀρταγέρσην"
+  ],
+  "Κτησίας": [
+   "Κτησίου",
+   "Κτησίᾳ",
+   "Κτησίαν"
+  ],
+  "Ἕλλην": [
+   "Ἕλληνες",
+   "Ἑλλήνων",
+   "Ἕλλησι",
+   "Ἕλλησιν",
+   "Ἕλληνας"
+  ],
+  "Ἀρταπάτης": [
+   "Ἀρταπάτου",
+   "Ἀρταπάτῃ",
+   "Ἀρταπάτην"
+  ]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "map-anabasis",
+   "sentences": [
+    {
+     "text": "ὁ δὲ Κῦρος, ὁ νεώτερος υἱὸς τοῦ βασιλέως Δαρείου, μέγα στράτευμα καὶ μυρίους Ἕλληνας ἔχων ἐπὶ τὸν ἀδελφὸν Ἀρταξέρξην ἀνέβη, ὡς βασιλεύσων ἀντʼ ἐκείνου.",
+     "glosses": [
+      {
+       "word": "μυρίους",
+       "kind": "=",
+       "value": "10,000: 'the Ten Thousand'"
+      },
+      {
+       "word": "βασιλεύσων",
+       "kind": "|",
+       "value": "βασιλεύω (be king) | ὡς βασιλεύσων: in order to be king (future participle of purpose)"
+      }
+     ]
+    },
+    {
+     "text": "ἐν δὲ τῇ μάχῃ οἱ μὲν Ἕλληνες τοὺς καθʼ ἑαυτοὺς βαρβάρους εἰς φυγὴν ἔτρεψαν· ὁ δὲ βασιλεὺς ἐν μέσῳ τῷ ἑαυτοῦ στρατεύματι ὢν τὴν τάξιν ἐπέκαμπτεν, ὡς ὄπισθεν τῶν Ἑλλήνων γενησόμενος.",
+     "glosses": [
+      {
+       "word": "καθʼ",
+       "kind": "note",
+       "value": "τοὺς καθʼ ἑαυτούς: those opposite them"
+      },
+      {
+       "word": "ἐπέκαμπτεν",
+       "kind": "en",
+       "value": "was wheeling round (ἐπικάμπτω): bending his line to get round behind"
+      },
+      {
+       "word": "ὄπισθεν",
+       "kind": "en",
+       "value": "behind (+ genitive)"
+      }
+     ]
+    },
+    {
+     "text": "ἔνθα δὴ Κῦρος δείσας μὴ ὄπισθεν γενόμενος κατακόψῃ τὸ Ἑλληνικὸν ἐλαύνει ἀντίος·",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "δείσας",
+       "kind": "|",
+       "value": "δέδοικα, ἔδεισα (fear) | δείσας μή: afraid that (aorist participle)"
+      },
+      {
+       "word": "κατακόψῃ",
+       "kind": "<",
+       "value": "κατά + κόπτω (strike) | κατακόπτω: cut down, cut to pieces"
+      },
+      {
+       "word": "Ἑλληνικὸν",
+       "kind": "note",
+       "value": "τὸ Ἑλληνικόν: the Greek force"
+      },
+      {
+       "word": "ἐλαύνει",
+       "kind": "note",
+       "value": "ἐλαύνω of a horseman: ride, charge; historic present"
+      },
+      {
+       "word": "ἀντίος",
+       "kind": "en",
+       "value": "straight at them, head-on"
+      }
+     ]
+    },
+    {
+     "text": "καὶ ἐμβαλὼν σὺν τοῖς ἑξακοσίοις νικᾷ τοὺς πρὸ βασιλέως τεταγμένους καὶ εἰς φυγὴν ἔτρεψε τοὺς ἑξακισχιλίους, καὶ ἀποκτεῖναι λέγεται αὐτὸς τῇ ἑαυτοῦ χειρὶ Ἀρταγέρσην τὸν ἄρχοντα αὐτῶν.",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "ἐμβαλὼν",
+       "kind": "<",
+       "value": "ἐν + βάλλω | ἐμβάλλω, ἐνέβαλον: charge, attack"
+      },
+      {
+       "word": "ἑξακοσίοις",
+       "kind": "=",
+       "value": "600 (Cyrus' own horsemen)"
+      },
+      {
+       "word": "τεταγμένους",
+       "kind": "|",
+       "value": "τάττω | τεταγμένους: drawn up, posted (perfect passive participle)"
+      },
+      {
+       "word": "ἑξακισχιλίους",
+       "kind": "=",
+       "value": "6,000"
+      },
+      {
+       "word": "λέγεται",
+       "kind": "note",
+       "value": "ἀποκτεῖναι λέγεται: he is said to have killed (personal construction with the infinitive)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "hist-panel-7-b",
+   "sentences": [
+    {
+     "text": "ὡς δʼ ἡ τροπὴ ἐγένετο, διασπείρονται καὶ οἱ Κύρου ἑξακόσιοι εἰς τὸ διώκειν ὁρμήσαντες, πλὴν πάνυ ὀλίγοι ἀμφʼ αὐτὸν κατελείφθησαν, σχεδὸν οἱ ὁμοτράπεζοι καλούμενοι.",
+     "orig": [
+      2
+     ],
+     "glosses": [
+      {
+       "word": "τροπὴ",
+       "kind": "<",
+       "value": "τρέπω | ἡ τροπή: the rout, the turning to flight"
+      },
+      {
+       "word": "ἑξακόσιοι",
+       "kind": "=",
+       "value": "the 600"
+      },
+      {
+       "word": "διασπείρονται",
+       "kind": "en",
+       "value": "are scattered (διασπείρω; historic present)"
+      },
+      {
+       "word": "διώκειν",
+       "kind": "note",
+       "value": "εἰς τὸ διώκειν: into the pursuit (articular infinitive)"
+      },
+      {
+       "word": "κατελείφθησαν",
+       "kind": "|",
+       "value": "καταλείπω | κατελείφθησαν: were left behind (aorist passive)"
+      },
+      {
+       "word": "σχεδὸν",
+       "kind": "en",
+       "value": "more or less, roughly"
+      },
+      {
+       "word": "ὁμοτράπεζοι",
+       "kind": "<",
+       "value": "ὁμοῦ + τράπεζα | οἱ ὁμοτράπεζοι: 'table-companions', Cyrus' inner circle"
+      }
+     ]
+    },
+    {
+     "text": "σὺν τούτοις δὲ ὢν καθορᾷ βασιλέα καὶ τὸ ἀμφʼ ἐκεῖνον στῖφος·",
+     "orig": [
+      3
+     ],
+     "glosses": [
+      {
+       "word": "καθορᾷ",
+       "kind": "<",
+       "value": "κατά + ὁράω | καθοράω: catch sight of"
+      },
+      {
+       "word": "στῖφος",
+       "kind": "en",
+       "value": "a close-packed body of men (the King's guard)"
+      }
+     ]
+    },
+    {
+     "text": "καὶ εὐθὺς οὐκ ἠνέσχετο, ἀλλʼ εἰπὼν τὸν ἄνδρα ὁρῶ ἵετο ἐπʼ αὐτὸν καὶ παίει κατὰ τὸ στέρνον καὶ τιτρώσκει διὰ τοῦ θώρακος, ὥς φησι Κτησίας ὁ ἰατρός, καὶ ἰᾶσθαι αὐτὸς τὸ τραῦμά φησι.",
+     "orig": [
+      4
+     ],
+     "glosses": [
+      {
+       "word": "ἠνέσχετο",
+       "kind": "en",
+       "value": "held back, controlled himself (ἀνέχομαι)"
+      },
+      {
+       "word": "ὁρῶ",
+       "kind": "note",
+       "value": "τὸν ἄνδρα ὁρῶ: his words, 'I see the man!' (no quotation marks in the text)"
+      },
+      {
+       "word": "ἵετο",
+       "kind": "en",
+       "value": "rushed (ἵεμαι)"
+      },
+      {
+       "word": "παίει",
+       "kind": "en",
+       "value": "strikes (παίω)"
+      },
+      {
+       "word": "στέρνον",
+       "kind": "en",
+       "value": "chest, breastbone (τὸ στέρνον)"
+      },
+      {
+       "word": "Κτησίας",
+       "kind": "en",
+       "value": "Ctesias, a Greek doctor at the Persian court, who wrote a history of Persia"
+      },
+      {
+       "word": "ἰᾶσθαι",
+       "kind": "en",
+       "value": "to have treated (ἰάομαι, heal): he says he treated the wound himself"
+      }
+     ]
+    },
+    {
+     "text": "παίοντα δʼ αὐτὸν ἀκοντίζει τις παλτῷ ὑπὸ τὸν ὀφθαλμὸν βιαίως·",
+     "orig": [
+      5
+     ],
+     "glosses": [
+      {
+       "word": "παίοντα",
+       "kind": "|",
+       "value": "παίω | παίοντα αὐτόν: him, as he was striking"
+      },
+      {
+       "word": "ἀκοντίζει",
+       "kind": "en",
+       "value": "hits with a javelin (ἀκοντίζω)"
+      },
+      {
+       "word": "παλτῷ",
+       "kind": "en",
+       "value": "a (throwing) spear, javelin (τὸ παλτόν)"
+      },
+      {
+       "word": "βιαίως",
+       "kind": "en",
+       "value": "violently, hard (βίαιος)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "hist-panel-7-c",
+   "sentences": [
+    {
+     "text": "καὶ ἐνταῦθα μαχόμενοι καὶ βασιλεὺς καὶ Κῦρος καὶ οἱ ἀμφʼ αὐτοὺς ὑπὲρ ἑκατέρου, ὁπόσοι μὲν τῶν ἀμφὶ βασιλέα ἀπέθνῃσκον Κτησίας λέγει·",
+     "orig": [
+      6
+     ],
+     "glosses": [
+      {
+       "word": "ἑκατέρου",
+       "kind": "note",
+       "value": "ὑπὲρ ἑκατέρου: for each of the two (brothers)"
+      },
+      {
+       "word": "ὁπόσοι",
+       "kind": "en",
+       "value": "how many (indirect question)"
+      },
+      {
+       "word": "μαχόμενοι",
+       "kind": "note",
+       "value": "The sentence breaks off: Xenophon starts with the fighting, then turns to what Ctesias reports."
+      }
+     ]
+    },
+    {
+     "text": "παρʼ ἐκείνῳ γὰρ ἦν·",
+     "orig": [
+      7
+     ],
+     "glosses": [
+      {
+       "word": "ἐκείνῳ",
+       "kind": "note",
+       "value": "παρʼ ἐκείνῳ: with him, at the King's side (Ctesias was there)"
+      }
+     ]
+    },
+    {
+     "text": "Κῦρος δὲ αὐτός τε ἀπέθανε καὶ ὀκτὼ οἱ ἄριστοι τῶν περὶ αὐτὸν ἔκειντο ἐπʼ αὐτῷ.",
+     "orig": [
+      8
+     ],
+     "glosses": [
+      {
+       "word": "ἔκειντο",
+       "kind": "note",
+       "value": "ἔκειντο ἐπʼ αὐτῷ: lay (dead) on top of him"
+      }
+     ]
+    },
+    {
+     "text": "Ἀρταπάτης δʼ ὁ πιστότατος αὐτῷ τῶν σκηπτούχων θεράπων λέγεται, ἐπειδὴ πεπτωκότα εἶδε Κῦρον, καταπηδήσας ἀπὸ τοῦ ἵππου περιπεσεῖν αὐτῷ.",
+     "orig": [
+      9
+     ],
+     "glosses": [
+      {
+       "word": "πιστότατος",
+       "kind": "en",
+       "value": "most faithful (πιστός)"
+      },
+      {
+       "word": "σκηπτούχων",
+       "kind": "<",
+       "value": "σκῆπτρον + ἔχω | ὁ σκηπτοῦχος: staff-bearer, a court officer"
+      },
+      {
+       "word": "θεράπων",
+       "kind": "en",
+       "value": "attendant, servant"
+      },
+      {
+       "word": "ἐπειδὴ",
+       "kind": "=",
+       "value": "ἐπεί (when)"
+      },
+      {
+       "word": "πεπτωκότα",
+       "kind": "|",
+       "value": "πίπτω | πεπτωκότα: fallen (perfect participle)"
+      },
+      {
+       "word": "καταπηδήσας",
+       "kind": "en",
+       "value": "leaping down (καταπηδάω)"
+      },
+      {
+       "word": "περιπεσεῖν",
+       "kind": "<",
+       "value": "περί + πίπτω | περιπίπτω: throw oneself round (the body)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "στρατευμα",
+   "pic": "stratos",
+   "gloss_grc": "τὸ στράτευμα, -ατος = ὁ στρατός, ἡ στρατιά"
+  },
+  {
+   "id": "θωραξ",
+   "pic": "hist-thorax",
+   "gloss_grc": "ὁ θώραξ, θώρακος"
+  },
+  {
+   "id": "τραυμα",
+   "gloss_grc": "τὸ τραῦμα, -ατος < τιτρώσκω"
+  },
+  {
+   "id": "τιτρωσκω",
+   "gloss_grc": "τιτρώσκω, ἔτρωσα · τιτρώσκει διὰ τοῦ θώρακος"
+  },
+  {
+   "id": "φυγη",
+   "pic": "verb-pheugei",
+   "gloss_grc": "ἡ φυγή < φεύγω · εἰς φυγὴν τρέπειν (put to flight)"
+  },
+  {
+   "id": "τρεπω",
+   "gloss_grc": "τρέπω, ἔτρεψα · εἰς φυγὴν ἔτρεψε · ἡ τροπή"
+  },
+  {
+   "id": "ταξις",
+   "gloss_grc": "ἡ τάξις, -εως < τάττω · ἐν τάξει (in order)"
+  },
+  {
+   "id": "ταττω",
+   "gloss_grc": "τάττω · οἱ τεταγμένοι (those drawn up)"
+  },
+  {
+   "id": "ιππευς",
+   "gloss_grc": "οἱ ἱππῆς (cavalry)"
+  },
+  {
+   "id": "βασιλευς",
+   "pic": "basileus",
+   "gloss_grc": "ὁ βασιλεύς = the Great King of Persia"
+  },
+  {
+   "id": "οφθαλμος",
+   "gloss_grc": "ὁ ὀφθαλμός"
+  },
+  {
+   "id": "βαρβαρος",
+   "pic": "barbaros",
+   "gloss_grc": "ὁ βάρβαρος: a non-Greek, here a Persian"
+  },
+  {
+   "id": "μαχη",
+   "pic": "mache",
+   "gloss_grc": "ἡ μάχη"
+  },
+  {
+   "id": "δεδοικα",
+   "gloss_grc": "δέδοικα, ἔδεισα (fear) · δείσας μή"
+  },
+  {
+   "id": "ορμαω",
+   "gloss_grc": "ὁρμάω · εἰς τὸ διώκειν ὁρμήσαντες"
+  },
+  {
+   "id": "μυριος",
+   "gloss_grc": "μύριοι = 10,000 · οἱ μύριοι Ἕλληνες"
+  },
+  {
+   "id": "οπισθεν",
+   "gloss_grc": "ὄπισθεν + gen. ↔ ἔμπροσθεν"
+  },
+  {
+   "id": "παιω",
+   "gloss_grc": "παίω · παίει κατὰ τὸ στέρνον"
+  },
+  {
+   "id": "ακοντιζω",
+   "gloss_grc": "ἀκοντίζω · ἀκοντίζει παλτῷ"
+  },
+  {
+   "id": "πιστος",
+   "gloss_grc": "πιστός, -ή, -όν · ὁ πιστότατος θεράπων"
+  },
+  {
+   "id": "καταλειπω",
+   "gloss_grc": "κατελείφθησαν (were left behind)"
+  },
+  {
+   "id": "διωκω",
+   "pic": "verb-diokei",
+   "gloss_grc": "διώκω · εἰς τὸ διώκειν ὁρμήσαντες"
+  },
+  {
+   "id": "αποθνησκω",
+   "gloss_grc": "ἀποθνῄσκω, ἀπέθανον"
+  }
+ ],
+ "notice": [
+  "Κῦρος δείσας μὴ ὄπισθεν γενόμενος κατακόψῃ τὸ Ἑλληνικὸν ἐλαύνει ἀντίος",
+  "καὶ ἀποκτεῖναι λέγεται αὐτὸς τῇ ἑαυτοῦ χειρὶ Ἀρταγέρσην",
+  "εἰπὼν τὸν ἄνδρα ὁρῶ ἵετο ἐπʼ αὐτόν",
+  "ὥς φησι Κτησίας ὁ ἰατρός",
+  "παρʼ ἐκείνῳ γὰρ ἦν"
+ ],
+ "grammar": {
+  "md": "**Reading Xenophon unadapted.** This is the text as Xenophon wrote it. You know most of the words; the rest are glossed as you go. Three things make the passage work.\n\n**1. Tense as camera.** Xenophon switches between the aorist (the result: ἔτρεψε, ἀπέθανε, κατελείφθησαν) and the **historic present** (the action, close up: ἐλαύνει, νικᾷ, διασπείρονται, καθορᾷ, παίει, τιτρώσκει, ἀκοντίζει). Read the presents as past, but notice where they cluster: around the charge and the wound.\n\n**2. Participles first, verb last.** A Xenophon sentence often stacks participles before its main verb: Κῦρος **δείσας** … **ἐλαύνει**; **ἐμβαλὼν** … **νικᾷ**; **εἰπὼν** … **ἵετο**; Ἀρταπάτης … **καταπηδήσας** … **περιπεσεῖν**. Find the main verb, then read the participles as 'after …, when …, because …'.\n\n**3. A fear clause.** δείσας **μὴ** … **κατακόψῃ** 'afraid that (the King) would cut down …' (8.2): μή + subjunctive after a verb of fearing.\n\n**4. The historian and his witness.** Xenophon was not near the King. For that part he cites **Ctesias**, the King's Greek doctor: ὥς φησι Κτησίας … Κτησίας λέγει· παρʼ ἐκείνῳ γὰρ ἦν. For the stories he cannot check he writes **λέγεται** 'he is said to': ἀποκτεῖναι λέγεται, περιπεσεῖν λέγεται (personal construction: the subject of λέγεται is the man, the action an infinitive).",
+  "paradigms": [
+   "phylax"
+  ],
+  "diagram": "diagram-participle-map"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings.",
+   "template": "ἔνθα δὴ Κῦρος δεί___ μὴ ὄπισθεν γενόμενος κατακόψῃ τὸ Ἑλληνικὸν ἐλαύν___ ἀντίος· καὶ ἐμβαλ___ σὺν τοῖς ἑξακοσίοις νικᾷ τοὺς πρὸ βασιλέως τεταγμένους … παί___ κατὰ τὸ στέρνον.",
+   "gaps": [
+    {
+     "answers": [
+      "ας"
+     ]
+    },
+    {
+     "answers": [
+      "ει"
+     ]
+    },
+    {
+     "answers": [
+      "ών"
+     ]
+    },
+    {
+     "answers": [
+      "ει"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.ptc.aor.act",
+    "verb.historic-present"
+   ],
+   "explain": "δείσας and ἐμβαλών (aorist participles, nominative with Κῦρος); ἐλαύνει and παίει (historic presents: the charge and the blow)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · καὶ εἰς ___ ἔτρεψε τοὺς ἑξακισχιλίους.",
+   "options": [
+    {
+     "id": "a",
+     "text": "φυγὴν"
+    },
+    {
+     "id": "b",
+     "text": "φυγῇ"
+    },
+    {
+     "id": "c",
+     "text": "φυγῆς"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.hist"
+   ],
+   "explain": "εἰς φυγὴν τρέπειν: to put to flight.",
+   "audio": "καὶ εἰς φυγὴν ἔτρεψε τοὺς ἑξακισχιλίους."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · καὶ τιτρώσκει διὰ τοῦ ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "θώρακος"
+    },
+    {
+     "id": "b",
+     "text": "θώρακα"
+    },
+    {
+     "id": "c",
+     "text": "θώρακι"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.hist",
+    "noun.decl3.gen.sg"
+   ],
+   "explain": "διά + genitive: through the breastplate.",
+   "audio": "καὶ τιτρώσκει διὰ τοῦ θώρακος."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · καὶ ἰᾶσθαι αὐτὸς τὸ ___ φησι.",
+   "options": [
+    {
+     "id": "a",
+     "text": "τραῦμα"
+    },
+    {
+     "id": "b",
+     "text": "στράτευμα"
+    },
+    {
+     "id": "c",
+     "text": "ὄνομα"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.hist"
+   ],
+   "explain": "τὸ τραῦμα: the wound (Ctesias says he treated it himself).",
+   "audio": "καὶ ἰᾶσθαι αὐτὸς τὸ τραῦμά φησι."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ὁ θώραξ",
+   "options": [
+    {
+     "id": "a",
+     "image": "hist-thorax"
+    },
+    {
+     "id": "b",
+     "image": "hist-aspis"
+    },
+    {
+     "id": "c",
+     "image": "hoplites"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition",
+    "vocab.hist"
+   ],
+   "explain": "ὁ θώραξ: the breastplate.",
+   "audio": "prompt"
+  },
+  {
+   "type": "match",
+   "prompt": "Match the words to their meanings.",
+   "pairs": [
+    {
+     "left": "τὸ στράτευμα",
+     "right": "army"
+    },
+    {
+     "left": "τιτρώσκω",
+     "right": "wound"
+    },
+    {
+     "left": "τὸ τραῦμα",
+     "right": "a wound"
+    },
+    {
+     "left": "ἡ φυγή",
+     "right": "flight"
+    },
+    {
+     "left": "ἡ τάξις",
+     "right": "battle line, order"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.hist"
+   ],
+   "explain": "στράτευμα, τιτρώσκω, τραῦμα, φυγή, τάξις."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of τρέπω for 'he put (them) to flight': εἰς φυγὴν ___.",
+   "lemma": "τρέπω",
+   "cell": "aorist.active.indicative.3sg",
+   "skills": [
+    "verb.aor1.sigma",
+    "vocab.hist"
+   ],
+   "explain": "ἔτρεψε(ν): τρεπ-σ → τρεψ-.",
+   "audio": "ἔτρεψε"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist passive of τιτρώσκω for 'he was wounded'.",
+   "lemma": "τιτρώσκω",
+   "cell": "aorist.passive.indicative.3sg",
+   "skills": [
+    "verb.aor.pass.ind.3sg",
+    "vocab.hist"
+   ],
+   "explain": "ἐτρώθη: from the stem τρω-.",
+   "audio": "ἐτρώθη"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse δείσας.",
+   "form": "δείσας",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "case",
+     "label": "Case",
+     "options": [
+      {
+       "id": "nom",
+       "label": "nominative"
+      },
+      {
+       "id": "gen",
+       "label": "genitive"
+      },
+      {
+       "id": "dat",
+       "label": "dative"
+      },
+      {
+       "id": "acc",
+       "label": "accusative"
+      },
+      {
+       "id": "voc",
+       "label": "vocative"
+      }
+     ]
+    },
+    {
+     "id": "gender",
+     "label": "Gender",
+     "options": [
+      {
+       "id": "m",
+       "label": "masculine"
+      },
+      {
+       "id": "f",
+       "label": "feminine"
+      },
+      {
+       "id": "n",
+       "label": "neuter"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "mood": "ptc",
+    "case": "nom",
+    "gender": "m"
+   },
+   "skills": [
+    "verb.ptc.aor.act"
+   ],
+   "explain": "δεί-σας: aorist participle of δέδοικα ('fear', aorist ἔδεισα), nominative masculine with Κῦρος.",
+   "audio": "δείσας"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse κατελείφθησαν.",
+   "form": "κατελείφθησαν",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "voice",
+     "label": "Voice",
+     "options": [
+      {
+       "id": "act",
+       "label": "active"
+      },
+      {
+       "id": "mid",
+       "label": "middle"
+      },
+      {
+       "id": "pass",
+       "label": "passive"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person and number",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "1st singular"
+      },
+      {
+       "id": "2sg",
+       "label": "2nd singular"
+      },
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "1pl",
+       "label": "1st plural"
+      },
+      {
+       "id": "2pl",
+       "label": "2nd plural"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "voice": "pass",
+    "person": "3pl"
+   },
+   "skills": [
+    "verb.aor.pass.ind.3pl"
+   ],
+   "explain": "κατ-ε-λείφ-θη-σαν: aorist passive of καταλείπω (λειπ- + θ → λειφθ-), 3rd plural: 'were left behind'.",
+   "audio": "κατελείφθησαν"
+  },
+  {
+   "type": "label",
+   "prompt": "Κῦρος δείσας μὴ … κατακόψῃ τὸ Ἑλληνικόν. What is μὴ … κατακόψῃ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "a fear clause: 'afraid that (the King) would cut down the Greek force'"
+    },
+    {
+     "id": "b",
+     "text": "a prohibition: 'let him not cut down'"
+    },
+    {
+     "id": "c",
+     "text": "a purpose clause with ἵνα understood"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.fear"
+   ],
+   "explain": "φοβοῦμαι / δέδοικα μή + subjunctive: fear that. The subject of κατακόψῃ is the King."
+  },
+  {
+   "type": "label",
+   "prompt": "ὥς φησι Κτησίας ὁ ἰατρός … ὁπόσοι μὲν … ἀπέθνῃσκον Κτησίας λέγει· παρʼ ἐκείνῳ γὰρ ἦν. Why does Xenophon keep naming Ctesias?",
+   "options": [
+    {
+     "id": "a",
+     "text": "he could not see the King's side himself, so he cites a witness who was there"
+    },
+    {
+     "id": "b",
+     "text": "Ctesias was the Greek general"
+    },
+    {
+     "id": "c",
+     "text": "Ctesias killed Cyrus"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.hist.sources"
+   ],
+   "explain": "Xenophon was with the Greeks on the right wing; for the fight round the King he cites Ctesias, the King's Greek doctor."
+  },
+  {
+   "type": "label",
+   "prompt": "ἐλαύνει · νικᾷ · διασπείρονται · καθορᾷ · παίει · τιτρώσκει · ἀκοντίζει. Why so many presents?",
+   "options": [
+    {
+     "id": "a",
+     "text": "historic presents: the charge is told as if we were watching"
+    },
+    {
+     "id": "b",
+     "text": "these things are still happening"
+    },
+    {
+     "id": "c",
+     "text": "they are all imperatives"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.historic-present",
+    "read.hist.narrative"
+   ],
+   "explain": "The aorists (ἔτρεψε, ἀπέθανε) mark the decisive results; the presents carry the action."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the three verbs that tell what Cyrus did to the King.",
+   "sentence": "καὶ εὐθὺς οὐκ ἠνέσχετο, ἀλλʼ εἰπὼν τὸν ἄνδρα ὁρῶ ἵετο ἐπʼ αὐτὸν καὶ παίει κατὰ τὸ στέρνον καὶ τιτρώσκει διὰ τοῦ θώρακος, ὥς φησι Κτησίας ὁ ἰατρός, καὶ ἰᾶσθαι αὐτὸς τὸ τραῦμά φησι.",
+   "answer": [
+    9,
+    13,
+    18
+   ],
+   "skills": [
+    "read.locate",
+    "read.hist.narrative"
+   ],
+   "explain": "ἵετο ἐπʼ αὐτόν (rushed at him), παίει (strikes), τιτρώσκει (wounds)."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the two words by which Xenophon points to his source.",
+   "sentence": "καὶ εὐθὺς οὐκ ἠνέσχετο, ἀλλʼ εἰπὼν τὸν ἄνδρα ὁρῶ ἵετο ἐπʼ αὐτὸν καὶ παίει κατὰ τὸ στέρνον καὶ τιτρώσκει διὰ τοῦ θώρακος, ὥς φησι Κτησίας ὁ ἰατρός, καὶ ἰᾶσθαι αὐτὸς τὸ τραῦμά φησι.",
+   "answer": [
+    23,
+    32
+   ],
+   "skills": [
+    "read.locate",
+    "read.hist.sources"
+   ],
+   "explain": "ὥς φησι Κτησίας … φησι: 'as Ctesias says … he says'."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'I see the man!'",
+   "tokens": [
+    "τὸν",
+    "ἄνδρα",
+    "ὁρῶ"
+   ],
+   "answers": [
+    "τὸν ἄνδρα ὁρῶ",
+    "ὁρῶ τὸν ἄνδρα"
+   ],
+   "skills": [
+    "syntax.word-order"
+   ],
+   "explain": "τὸν ἄνδρα ὁρῶ: Cyrus' last words, with the object first for emphasis."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὸν ἄνδρα ὁρῶ."
+    },
+    {
+     "id": "b",
+     "text": "τὸν ἵππον ὁρῶ."
+    },
+    {
+     "id": "c",
+     "text": "τὴν θάλατταν ὁρῶ."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "'I see the man!'",
+   "audio": "τὸν ἄνδρα ὁρῶ."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Κῦρος τὸν βασιλέα ἔτρωσεν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "παίει κατὰ τὸ στέρνον καὶ τιτρώσκει διὰ τοῦ θώρακος."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "οἱ ἑξακόσιοι τοῦ Κύρου πάντες ἀμφʼ αὐτὸν ἔμειναν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "διασπείρονται … εἰς τὸ διώκειν ὁρμήσαντες: only a very few stayed."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Ἀρταπάτης ἀπὸ τοῦ ἵππου καταπηδήσας τῷ Κύρῳ περιέπεσεν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "καταπηδήσας ἀπὸ τοῦ ἵππου περιπεσεῖν αὐτῷ."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "gaps": [
+    {
+     "answers": [
+      "παρʼ ἐκείνῳ γὰρ ἦν"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "παρʼ ἐκείνῳ γὰρ ἦν.",
+   "audio": "παρʼ ἐκείνῳ γὰρ ἦν."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Cyrus put the enemy to flight.'",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ Κῦρος τοὺς πολεμίους εἰς φυγὴν ἔτρεψεν",
+      "Κῦρος τοὺς πολεμίους εἰς φυγὴν ἔτρεψεν",
+      "ὁ Κῦρος εἰς φυγὴν ἔτρεψε τοὺς πολεμίους",
+      "Κῦρος εἰς φυγὴν ἔτρεψε τοὺς πολεμίους",
+      "ὁ Κῦρος τοὺς πολεμίους ἔτρεψεν εἰς φυγήν"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "vocab.hist"
+   ],
+   "explain": "ὁ Κῦρος τοὺς πολεμίους εἰς φυγὴν ἔτρεψεν."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: καὶ ἐμβαλὼν σὺν τοῖς ἑξακοσίοις νικᾷ τοὺς πρὸ βασιλέως τεταγμένους καὶ εἰς φυγὴν ἔτρεψε τοὺς ἑξακισχιλίους, καὶ ἀποκτεῖναι λέγεται αὐτὸς τῇ ἑαυτοῦ χειρὶ Ἀρταγέρσην τὸν ἄρχοντα αὐτῶν.",
+   "audio": "καὶ ἐμβαλὼν σὺν τοῖς ἑξακοσίοις νικᾷ τοὺς πρὸ βασιλέως τεταγμένους καὶ εἰς φυγὴν ἔτρεψε τοὺς ἑξακισχιλίους, καὶ ἀποκτεῖναι λέγεται αὐτὸς τῇ ἑαυτοῦ χειρὶ Ἀρταγέρσην τὸν ἄρχοντα αὐτῶν.",
+   "model": "And charging with his six hundred he defeats the men drawn up in front of the King and put the six thousand to flight, and he is said to have killed their commander Artagerses with his own hand.",
+   "skills": [
+    "read.xenophon",
+    "read.original",
+    "read.hist.narrative"
+   ],
+   "explain": "ἐμβαλών (aorist participle), νικᾷ (historic present), ἔτρεψε (aorist); ἀποκτεῖναι λέγεται: 'he is said to have killed'."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: Κῦρος δὲ αὐτός τε ἀπέθανε καὶ ὀκτὼ οἱ ἄριστοι τῶν περὶ αὐτὸν ἔκειντο ἐπʼ αὐτῷ.",
+   "audio": "Κῦρος δὲ αὐτός τε ἀπέθανε καὶ ὀκτὼ οἱ ἄριστοι τῶν περὶ αὐτὸν ἔκειντο ἐπʼ αὐτῷ.",
+   "model": "Cyrus himself was killed, and eight of the best of those around him lay dead on top of him.",
+   "skills": [
+    "read.xenophon",
+    "read.original",
+    "read.connected"
+   ],
+   "explain": "αὐτός τε … καί: both he himself … and; ἔκειντο 'lay'."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "τὸ τραῦμα",
+     "right": "trauma"
+    },
+    {
+     "left": "ὁ θώραξ",
+     "right": "thorax"
+    },
+    {
+     "left": "ἡ τάξις, τάττω",
+     "right": "syntax, tactics"
+    },
+    {
+     "left": "ὁ ὀφθαλμός",
+     "right": "ophthalmologist"
+    },
+    {
+     "left": "ὁ βάρβαρος",
+     "right": "barbarian"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "τραῦμα 'wound'; θώραξ 'breastplate, chest'; σύνταξις 'arrangement together', τακτικά; ὀφθαλμός 'eye'; βάρβαρος 'non-Greek speaker'."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί ὁ Κῦρος ἀντίος ἤλαυνεν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἔδεισε μὴ ὁ βασιλεὺς ὄπισθεν γενόμενος τὸ Ἑλληνικὸν κατακόψῃ."
+    },
+    {
+     "id": "b",
+     "text": "ἐβούλετο φεύγειν."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Κτησίας ἐκέλευσεν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.fear"
+   ],
+   "explain": "δείσας μὴ ὄπισθεν γενόμενος κατακόψῃ τὸ Ἑλληνικόν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίνα ὁ Κῦρος αὐτὸς ἀποκτεῖναι λέγεται;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὸν Ἀρταγέρσην."
+    },
+    {
+     "id": "b",
+     "text": "τὸν βασιλέα."
+    },
+    {
+     "id": "c",
+     "text": "τὸν Κτησίαν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "read.hist.sources"
+   ],
+   "explain": "ἀποκτεῖναι λέγεται αὐτὸς τῇ ἑαυτοῦ χειρὶ Ἀρταγέρσην.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί εἶπεν ὁ Κῦρος ὅτε εἶδε τὸν βασιλέα;",
+   "options": [
+    {
+     "id": "a",
+     "text": "«τὸν ἄνδρα ὁρῶ.»"
+    },
+    {
+     "id": "b",
+     "text": "«φεύγωμεν.»"
+    },
+    {
+     "id": "c",
+     "text": "«θάλαττα θάλαττα.»"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "εἰπὼν τὸν ἄνδρα ὁρῶ ἵετο ἐπʼ αὐτόν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "πῶς ὁ Κῦρος ἐτρώθη;",
+   "options": [
+    {
+     "id": "a",
+     "text": "παλτῷ ὑπὸ τὸν ὀφθαλμόν."
+    },
+    {
+     "id": "b",
+     "text": "τόξῳ εἰς τὸν πόδα."
+    },
+    {
+     "id": "c",
+     "text": "λίθῳ εἰς τὴν κεφαλήν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἀκοντίζει τις παλτῷ ὑπὸ τὸν ὀφθαλμὸν βιαίως.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίς ἦν ὁ Ἀρταπάτης;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ πιστότατος τῷ Κύρῳ τῶν σκηπτούχων θεράπων."
+    },
+    {
+     "id": "b",
+     "text": "ὁ ἀδελφὸς τοῦ Κύρου."
+    },
+    {
+     "id": "c",
+     "text": "ὁ ἰατρὸς τοῦ βασιλέως."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "Ἀρταπάτης δʼ ὁ πιστότατος αὐτῷ τῶν σκηπτούχων θεράπων.",
+   "audio": "prompt"
+  }
+ ],
+ "culture": {
+  "title": "Cunaxa and the Ten Thousand",
+  "md": "When **Darius II** of Persia died in 404, his elder son became King as **Artaxerxes II**. The younger son, **Cyrus**, governor of western Asia Minor, had helped Sparta win the war with Persian money, and now he gathered an army to take the throne, including more than ten thousand Greek mercenaries, many of them veterans of the Peloponnesian War, under the Spartan **Clearchus**. Most of them did not know where they were going until they were deep inside the empire.\n\nIn September 401 the armies met at **Cunaxa** on the Euphrates, not far north of Babylon. The Greeks on the right wing routed the troops in front of them almost without loss. In the centre Cyrus, seeing his brother, charged with his six hundred horsemen and was killed. With him died the whole purpose of the expedition: the Greeks had won their part of the battle and lost the war.\n\nSoon afterwards their generals were seized by treachery, and the soldiers elected new ones, among them a young Athenian, **Xenophon**. The rest of the *Anabasis* ('the march up-country') tells how he and the others led the army north through the mountains of Kurdistan and Armenia to the Black Sea (12.2: θάλαττα θάλαττα). The King's guard looked like the archers of the glazed-brick frieze from the palace at Susa, now in the Louvre.",
+  "image": "culture-12-1-achaemenid-guards"
+ },
+ "quiz": [
+  {
+   "type": "produce-form",
+   "prompt": "Give the dative singular of τὸ στράτευμα.",
+   "lemma": "στράτευμα",
+   "cell": "dat.sg",
+   "skills": [
+    "noun.decl3.dat.sg",
+    "vocab.hist"
+   ],
+   "explain": "στρατεύματι.",
+   "audio": "στρατεύματι"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the accusative singular of ἡ τάξις.",
+   "lemma": "τάξις",
+   "cell": "acc.sg",
+   "skills": [
+    "noun.decl3.iota",
+    "vocab.hist"
+   ],
+   "explain": "τάξιν, like πόλιν.",
+   "audio": "τάξιν"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "δείσας μὴ ὁ βασιλεὺς τὸ Ἑλληνικὸν ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "κατακόψῃ"
+    },
+    {
+     "id": "b",
+     "text": "κατέκοψε"
+    },
+    {
+     "id": "c",
+     "text": "κατακόπτει"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.fear"
+   ],
+   "explain": "Fear clause: μή + subjunctive."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Κτησίας παρὰ τῷ Κύρῳ ἦν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension",
+    "read.hist.sources"
+   ],
+   "explain": "παρʼ ἐκείνῳ (the King) γὰρ ἦν."
+  },
+  {
+   "type": "label",
+   "prompt": "ἀποκτεῖναι λέγεται αὐτός: this means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "he is said to have killed (him) himself"
+    },
+    {
+     "id": "b",
+     "text": "he says that he killed"
+    },
+    {
+     "id": "c",
+     "text": "he ordered them to kill"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.hist.sources"
+   ],
+   "explain": "λέγεται + infinitive: personal construction, 'he is said to …'."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "εἰς φυγὴν ἔτρεψε"
+    },
+    {
+     "id": "b",
+     "text": "εἰς φυγὴν ἔπεσε"
+    },
+    {
+     "id": "c",
+     "text": "εἰς μάχην ἔτρεψε"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.words"
+   ],
+   "explain": "He put them to flight.",
+   "audio": "εἰς φυγὴν ἔτρεψε"
+  }
+ ],
+ "skills": [
+  "verb.ptc.aor.act",
+  "verb.historic-present",
+  "vocab.hist",
+  "noun.decl3.gen.sg",
+  "vocab.recognition",
+  "verb.aor1.sigma",
+  "verb.aor.pass.ind.3sg",
+  "verb.aor.pass.ind.3pl",
+  "syntax.fear",
+  "read.hist.sources",
+  "read.hist.narrative",
+  "read.locate",
+  "syntax.word-order",
+  "listen.sentences",
+  "read.comprehension",
+  "spell.dictation",
+  "vocab.production",
+  "read.xenophon",
+  "read.original",
+  "read.connected",
+  "vocab.family",
+  "noun.decl3.dat.sg",
+  "noun.decl3.iota",
+  "listen.words"
+ ]
+}

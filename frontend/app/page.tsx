@@ -1,9 +1,15 @@
 "use client";
 
 import { ChangeEvent, useCallback, useEffect, useMemo, useRef, useState } from "react";
+import WordCoverage from "../components/WordCoverage";
+import { scrollBehavior } from "../lib/a11y";
+import { loadProgress } from "../lib/progress";
+import type { CardState } from "../lib/srs";
 import {
   base64ToObjectUrl,
   getLibrary,
+  getLibraryCoverage,
+  LibraryCoverage,
   getLibraryItem,
   getTtsStatus,
   phonemize,
@@ -93,6 +99,8 @@ export default function Home() {
   const [libraryTab, setLibraryTab] = useState<string>("history");
   const [libraryItem, setLibraryItem] = useState<LibraryItem | null>(null);
   const [libraryOpen, setLibraryOpen] = useState(true);
+  const [coverage, setCoverage] = useState<LibraryCoverage>({});
+  const [cards, setCards] = useState<Record<string, CardState>>({});
 
   // One <audio> element for the whole app so iOS keeps it "user-activated"
   // after the first tap; play-all chains clips on this same element.
@@ -113,6 +121,8 @@ export default function Home() {
   useEffect(() => {
     getTtsStatus().then(setProviders).catch(() => setProviders([]));
     getLibrary().then(setLibrary).catch(() => setLibrary(null));
+    getLibraryCoverage().then(setCoverage).catch(() => setCoverage({}));
+    setCards(loadProgress().cards);
     // /?reading=<id>&sentence=<n> (from vocabulary example sentences)
     const params = new URLSearchParams(window.location.search);
     const reading = params.get("reading");
@@ -471,7 +481,7 @@ export default function Home() {
   useEffect(() => {
     if (current == null || !listRef.current) return;
     const el = listRef.current.querySelector<HTMLElement>(`[data-index="${current}"]`);
-    el?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    el?.scrollIntoView({ block: "nearest", behavior: scrollBehavior() });
   }, [current]);
 
   const busy = status !== "idle";
@@ -488,7 +498,7 @@ export default function Home() {
 
       <section className="voiceStrip" aria-live="polite">
         <div>
-          <span className={`statusDot ${activeNeural ? "online" : "offline"}`} />
+          <span className={`statusDot ${activeNeural ? "online" : "offline"}`} aria-hidden="true" />
           <strong>{activeNeural ? activeNeural.name : "Neural voice not ready"}</strong>
         </div>
         <span>{activeNeural ? activeNeural.note : "Neural voice unavailable. Install/enable Kokoro on the backend; robotic eSpeak playback is disabled."}</span>
@@ -498,23 +508,22 @@ export default function Home() {
         <div className="sectionHead">
           <div>
             <h2>Choose a reading</h2>
-            <p>Classic passages from the Perseus Digital Library, read in Classical Attic. Tap one to listen.</p>
+            <p>Classic passages from the Perseus Digital Library, read in Classical Attic. Tap one to listen. The percentage is how many of its words are in the vocabulary lists: start with the highest.</p>
           </div>
           {library && (
-            <button type="button" className="linkButton" onClick={() => setLibraryOpen((o) => !o)}>
+            <button type="button" className="linkButton" aria-expanded={libraryOpen} aria-controls="library-list" onClick={() => setLibraryOpen((o) => !o)}>
               {libraryOpen ? "Hide" : `Show ${library.items.length}`}
             </button>
           )}
         </div>
         {library && libraryOpen && (
-          <>
-            <div className="tabs" role="tablist">
+          <div id="library-list">
+            <div className="tabs" role="group" aria-label="Subject">
               {library.categories.map((c) => (
                 <button
                   type="button"
                   key={c.id}
-                  role="tab"
-                  aria-selected={libraryTab === c.id}
+                  aria-pressed={libraryTab === c.id}
                   className={`tab ${libraryTab === c.id ? "on" : ""}`}
                   onClick={() => setLibraryTab(c.id)}
                 >
@@ -542,6 +551,7 @@ export default function Home() {
                         </span>
                         <span className="readingRef">
                           {item.author}, <em>{item.work}</em> {item.ref} · {item.sentence_count} sentences · ~{minutes} min
+                          {coverage[item.id] ? ` · ${Math.round(coverage[item.id].coverage * 100)} % known words` : ""}
                           {ready ? " · ready" : ""}
                         </span>
                         <span className="readingBlurb">{item.blurb}</span>
@@ -556,9 +566,9 @@ export default function Home() {
                 &ldquo;ready&rdquo; still play, a sentence at a time.
               </p>
             )}
-          </>
+          </div>
         )}
-        {!library && <p className="muted">Library unavailable (backend not reachable).</p>}
+        {!library && <p className="muted" role="status">Library unavailable (backend not reachable).</p>}
       </section>
 
       <section className="card captureCard">
@@ -603,6 +613,8 @@ export default function Home() {
         </div>
         <textarea
           className="greekInput"
+          aria-label="Greek text to read aloud"
+          lang="grc"
           value={text}
           onChange={(e) => {
             setText(e.target.value);
@@ -626,7 +638,8 @@ export default function Home() {
                 : "Generate neural audio"}
           </button>
         </div>
-        {error && <div className="error">{error}</div>}
+        {error && <div className="error" role="alert">{error}</div>}
+        <WordCoverage text={text} cards={cards} label={libraryItem ? libraryItem.title : "this text"} />
         {ipa && !reading && (
           <details className="ipaPanel">
             <summary>Show Classical Attic pronunciation audit</summary>
@@ -709,16 +722,16 @@ export default function Home() {
       />
 
       {reading && (
-        <nav className="playerBar" aria-label="Playback">
+        <section className="playerBar" aria-label="Playback">
           <div className="playerRow">
             <button type="button" className="barButton" onClick={() => step(-1)} disabled={!hasClips} aria-label="Previous sentence">
-              ⏮
+              <span aria-hidden="true">⏮</span>
             </button>
             <button type="button" className="barButton playAll" onClick={togglePlayAll} disabled={!hasClips} aria-label={playing ? "Pause" : "Play all"}>
               {playing ? "❚❚" : "▶ Play all"}
             </button>
             <button type="button" className="barButton" onClick={() => step(1)} disabled={!hasClips} aria-label="Next sentence">
-              ⏭
+              <span aria-hidden="true">⏭</span>
             </button>
             <button
               type="button"
@@ -731,7 +744,7 @@ export default function Home() {
               ↻
             </button>
           </div>
-          <div className="playerRow speeds" role="group" aria-label="Speed">
+          <div className="playerRow speeds" role="group" aria-label="Playback speed">
             {SPEEDS.map((value) => (
               <button
                 type="button"
@@ -754,7 +767,7 @@ export default function Home() {
                   : `${reading.clips.length} sentences`}
             </span>
           </div>
-        </nav>
+        </section>
       )}
     </main>
   );

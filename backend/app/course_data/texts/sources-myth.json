@@ -1,0 +1,123 @@
+{
+ "note": "Originals used by the mythology track (Stage 3). Built by scripts/build_course_texts.py into course_data/texts/<id>.json. Library passages apollod-3.14 and apollod-2.4 are used by id as well. apollod-epit-1.7 and apollod-epit-1.12: the Perseus TEI of the Epitome joins a few words across Frazer's milestones (συγκαταλέγεταιὡς, ἐπαγγέλλεται,ἐὰν, ἐμίγη.καὶ); after a rebuild restore the spaces (and the raised dot after συγκαταλέγεται) by hand, as in the committed JSON.",
+ "passages": [
+  {
+   "id": "apollod-1.1.5",
+   "category": "mythology",
+   "level": "beginner",
+   "title": "Kronos and the birth of Zeus",
+   "author": "Apollodorus",
+   "work": "Library",
+   "ref": "1.1.5–7",
+   "blurb": "Kronos swallows his children; Rhea hides the baby Zeus in a Cretan cave and gives Kronos a stone in swaddling clothes.",
+   "file": "tlg0548/tlg001/tlg0548.tlg001.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0548.tlg001.perseus-grc2",
+   "refs": [
+    "1.1.5",
+    "1.1.6",
+    "1.1.7"
+   ]
+  },
+  {
+   "id": "apollod-2.4.1",
+   "category": "mythology",
+   "level": "beginner",
+   "title": "Danae and the chest",
+   "author": "Apollodorus",
+   "work": "Library",
+   "ref": "2.4.1–2",
+   "blurb": "An oracle, a bronze chamber, a shower of gold, a chest on the sea, and a king who asks for the Gorgon's head.",
+   "file": "tlg0548/tlg001/tlg0548.tlg001.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0548.tlg001.perseus-grc2",
+   "refs": [
+    "2.4.1",
+    "2.4.2"
+   ],
+   "max_sentences": 8
+  },
+  {
+   "id": "apollod-2.4.8",
+   "category": "mythology",
+   "level": "intermediate",
+   "title": "Heracles in the cradle and at school",
+   "author": "Apollodorus",
+   "work": "Library",
+   "ref": "2.4.8–9",
+   "blurb": "Zeus in Amphitryon's shape, twins born a night apart, two serpents in the cradle, and a music lesson that ends in a lawsuit.",
+   "file": "tlg0548/tlg001/tlg0548.tlg001.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0548.tlg001.perseus-grc2",
+   "refs": [
+    "2.4.8",
+    "2.4.9"
+   ],
+   "max_sentences": 13
+  },
+  {
+   "id": "apollod-2.5.1",
+   "category": "mythology",
+   "level": "intermediate",
+   "title": "The Nemean lion",
+   "author": "Apollodorus",
+   "work": "Library",
+   "ref": "2.5.1",
+   "blurb": "Heracles' first labour: an arrow-proof lion, a cave with two mouths, and a king who hides in a bronze jar.",
+   "file": "tlg0548/tlg001/tlg0548.tlg001.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0548.tlg001.perseus-grc2",
+   "refs": [
+    "2.5.1"
+   ],
+   "max_sentences": 11
+  },
+  {
+   "id": "apollod-epit-1.7",
+   "category": "mythology",
+   "level": "intermediate",
+   "title": "Theseus and the Minotaur",
+   "author": "Apollodorus",
+   "work": "Library (Epitome)",
+   "ref": "Epitome 1.7–10",
+   "blurb": "The tribute to Crete, Ariadne's thread, the Minotaur, Naxos, and the black sail that killed Aegeus.",
+   "file": "tlg0548/tlg002/tlg0548.tlg002.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0548.tlg002.perseus-grc2",
+   "refs": [
+    "1.7",
+    "1.8",
+    "1.9",
+    "1.10"
+   ]
+  },
+  {
+   "id": "apollod-epit-1.12",
+   "category": "mythology",
+   "level": "intermediate",
+   "title": "Daedalus and Icarus",
+   "author": "Apollodorus",
+   "work": "Library (Epitome)",
+   "ref": "Epitome 1.12–15",
+   "blurb": "Wings of feathers and glue, a father's warning, the Icarian sea, and Minos' puzzle of the snail shell.",
+   "file": "tlg0548/tlg002/tlg0548.tlg002.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0548.tlg002.perseus-grc2",
+   "refs": [
+    "1.12",
+    "1.13",
+    "1.14",
+    "1.15"
+   ]
+  },
+  {
+   "id": "lucian-dd-8",
+   "category": "mythology",
+   "level": "intermediate",
+   "title": "Hephaestus and Zeus",
+   "author": "Lucian",
+   "work": "Dialogues of the Gods",
+   "ref": "8 (Hephaestus and Zeus)",
+   "blurb": "Zeus has a headache and orders Hephaestus to split his skull with an axe; out jumps Athena, fully armed.",
+   "file": "tlg0062/tlg068/tlg0062.tlg068.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0062.tlg068.perseus-grc2",
+   "refs": [
+    "8.1"
+   ]
+  }
+ ]
+}

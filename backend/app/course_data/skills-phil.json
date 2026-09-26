@@ -1,0 +1,9 @@
+{
+ "skills": [
+  {"id": "vocab.phil", "label": "Philosophy track vocabulary (wisdom, virtue, justice, piety, knowledge, the soul)"},
+  {"id": "read.phil.dialogue", "label": "Following a Platonic dialogue: speaker labels, ἔφη, ἦ δ’ ὅς, short answers"},
+  {"id": "read.phil.questions", "label": "Socratic questions and answers: ἆρα, οὐκοῦν, πότερον … ἤ, ναί, πάνυ γε, οὐ δῆτα"},
+  {"id": "read.phil.terms", "label": "Philosophical terms: abstract nouns (-ία, -σύνη, -σις) and τὸ + adjective (τὸ δίκαιον)"},
+  {"id": "read.phil.argument", "label": "Following an argument: premises, ἄρα 'then', οὐ … ἀλλά, δοκεῖν μέν … εἶναι δέ"}
+ ]
+}

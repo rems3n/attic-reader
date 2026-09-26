@@ -7,6 +7,8 @@ import FormsTable from "../../../components/FormsTable";
 import Highlight from "../../../components/Highlight";
 import { SpeakButton, useSpeaker } from "../../../components/Speak";
 import { getVocabEntry, type VocabEntry } from "../../../lib/api";
+import Crumbs from "../../../components/Crumbs";
+import { PageError, PageLoading } from "../../../components/PageState";
 
 export default function WordPage() {
   const params = useParams<{ id: string }>();
@@ -22,12 +24,12 @@ export default function WordPage() {
       .catch((e) => setError(e instanceof Error ? e.message : "Could not load the word"));
   }, [id]);
 
-  if (error) return <main className="shell"><p className="error">{error}</p></main>;
-  if (!entry) return <main className="shell"><p className="muted">Loading…</p></main>;
+  if (error) return <PageError message={error} crumbs={[{ label: "Vocab", href: "/vocab" }, { label: id, lang: "grc" }]} back={{ href: "/vocab", label: "Back to the deck" }} />;
+  if (!entry) return <PageLoading label="Loading the word…" crumbs={[{ label: "Vocab", href: "/vocab" }, { label: id, lang: "grc" }]} />;
 
   return (
     <main className="shell">
-      <p className="crumbs"><Link href="/vocab">← Vocab</Link></p>
+      <Crumbs items={[{ label: "Vocab", href: "/vocab" }, { label: entry.lemma, lang: "grc" }]} />
       <section className="wordHeader">
         <div className="wordTitle">
           <h1 lang="grc">{entry.lemma}</h1>
@@ -46,13 +48,17 @@ export default function WordPage() {
           <p className="cognateLine">Related by descent (same Indo-European root): <b>{entry.cognates.cognates.join(", ")}</b></p>
         )}
         {entry.notes && <p className="wordNote">{entry.notes}</p>}
-        <p className="muted small">IPA (learner Attic): /{entry.ipa}/{playError && <> · {playError}</>}</p>
+        <p className="muted small">IPA (learner Attic): /{entry.ipa}/{playError && <> · <span role="alert">{playError}</span></>}</p>
+        <div className="actions wordActions">
+          <Link href={`/vocab?words=${encodeURIComponent(entry.id)}&from=${encodeURIComponent(entry.lemma)}`} className="primary buttonLike">Study this word</Link>
+          <Link href="/vocab" className="secondary buttonLike">← Back to the deck</Link>
+        </div>
       </section>
 
       {entry.forms && (
         <section className="card">
           <h2>Forms</h2>
-          <p className="muted small">Tap any form to hear it.</p>
+          <p className="muted small">Tap any form to hear it. Wide tables scroll sideways.</p>
           <FormsTable forms={entry.forms} play={play} />
         </section>
       )}
@@ -68,7 +74,7 @@ export default function WordPage() {
                 </p>
                 <p className="exampleMeta">
                   {ex.author}, <em>{ex.title}</em> ·{" "}
-                  <Link href={`/?reading=${encodeURIComponent(ex.reading)}&sentence=${ex.sentence}`}>open in reader</Link>
+                  <Link href={`/?reading=${encodeURIComponent(ex.reading)}&sentence=${ex.sentence}`}>open in the Reader<span className="srOnly">: {ex.title}, sentence {ex.sentence + 1}</span></Link>
                 </p>
               </li>
             ))}

@@ -1,0 +1,1504 @@
+{
+ "id": "9.3",
+ "title_grc": "ἐντὸς τῶν τειχῶν",
+ "title_en": "Inside the walls",
+ "summary_grc": "ὁ Μικίων στενάζει· «εἴθε οἴκαδε ἔλθοιμεν.» ἡ δὲ Ἐλπὶς τὸ ὕφασμα ἔφερεν ἵνα τῇ θεᾷ δῶρον δοίη.",
+ "summary_en": "Summer 431: the cousins live in a tower of the city wall, families camp in shrines, and the Panathenaea goes on; Chrysis and Elpis bring the goddess the cloth they wove. The optative: its forms, wishes, and secondary sequence; Thucydides 2.16 adapted.",
+ "cover": "panel-9-3-c",
+ "caption_grc": "εἴθε ὁ πόλεμος παύσαιτο. — ἔφερον τὸ ὕφασμα ἵνα τῇ θεᾷ δῶρον δοῖεν.",
+ "original": {
+  "text": "thuc-2.16",
+  "note": "Thucydides 2.16.2, adapted in paragraph 2. 'His own city' refers to the time before Theseus, when each town of Attica governed itself."
+ },
+ "names": {},
+ "allow": {},
+ "story": [
+  {
+   "image": "panel-9-3-a",
+   "sentences": [
+    {
+     "text": "οἱ μὲν Λακεδαιμόνιοι ἤδη ἀπῆλθον, οἱ δὲ Ἀχαρνῆς ἔτι ἐν τῇ πόλει μένουσιν· αἱ γὰρ οἰκίαι αὐτῶν ἐκαύθησαν.",
+     "glosses": [
+      {
+       "word": "ἀπῆλθον",
+       "kind": "<",
+       "value": "ἀπό + ἦλθον: went away"
+      }
+     ]
+    },
+    {
+     "text": "ἡ Φιλίππη καὶ ὁ Εὔδημος καὶ ὁ Μικίων ἐν πύργῳ τινὶ τοῦ τείχους οἰκοῦσιν, οὐ πόρρω τῶν πυλῶν, καὶ παρὰ τῇ Χρυσίδι δειπνοῦσιν.",
+     "glosses": [
+      {
+       "word": "πύργῳ",
+       "kind": "pic",
+       "value": "pyrgos"
+      },
+      {
+       "word": "πόρρω",
+       "kind": "↔",
+       "value": "ἐγγύς (far from + genitive)"
+      },
+      {
+       "word": "παρὰ",
+       "kind": "en",
+       "value": "παρά + dative: at the house of, beside"
+      },
+      {
+       "word": "δειπνοῦσιν",
+       "kind": "<",
+       "value": "τὸ δεῖπνον: they dine"
+      }
+     ]
+    },
+    {
+     "text": "ὁ πύργος μικρός ἐστι καὶ σκοτεινός, καὶ ἀνὰ πᾶσαν ἡμέραν τὸ ὕδωρ ἐκ τῆς κρήνης φέρειν δεῖ. ἐν τῷ πύργῳ ἡδονὴ οὐδεμία ἐστίν.",
+     "glosses": [
+      {
+       "word": "σκοτεινός",
+       "kind": "en",
+       "value": "dark"
+      },
+      {
+       "word": "ἀνὰ",
+       "kind": "en",
+       "value": "ἀνὰ πᾶσαν ἡμέραν: every day"
+      },
+      {
+       "word": "ἡδονὴ",
+       "kind": "↔",
+       "value": "λύπη (pleasure)"
+      },
+      {
+       "word": "οὐδεμία",
+       "kind": "en",
+       "value": "no, none (feminine of οὐδείς)"
+      }
+     ]
+    },
+    {
+     "text": "ἐκεῖ δὲ καὶ ἄλλοι Ἀχαρνῆς οἰκοῦσιν· πλείους οὖν ἄνθρωποι ἐν τῷ πύργῳ καθεύδουσιν ἢ ἐν τῇ οἰκίᾳ αὐτῶν τῇ ἐν Ἀχαρναῖς.",
+     "glosses": [
+      {
+       "word": "πλείους",
+       "kind": "|",
+       "value": "πλέων (πλείων) 'more' · πλέονες = πλείους · πλείους … ἤ, more … than"
+      }
+     ]
+    },
+    {
+     "text": "«ἐνθάδε οὐ δυνατόν ἐστιν ὑφαίνειν», λέγει ἡ Φιλίππη. ὁ δὲ Μικίων στενάζει· «εἴθε οἴκαδε ἔλθοιμεν. εἴθε ὁ πόλεμος παύσαιτο.»",
+     "glosses": [
+      {
+       "word": "ἐνθάδε",
+       "kind": "en",
+       "value": "here"
+      },
+      {
+       "word": "δυνατόν",
+       "kind": "en",
+       "value": "possible: οὐ δυνατόν ἐστιν, it is not possible"
+      },
+      {
+       "word": "στενάζει",
+       "kind": "en",
+       "value": "groans, sighs"
+      },
+      {
+       "word": "εἴθε",
+       "kind": "en",
+       "value": "if only, would that (+ optative: a wish)"
+      },
+      {
+       "word": "ἔλθοιμεν",
+       "kind": "|",
+       "value": "ἤλθομεν 'we went' · ἔλθοιμεν 'may we go' (optative)"
+      },
+      {
+       "word": "παύσαιτο",
+       "kind": "|",
+       "value": "παύεται · παύσαιτο 'may it stop'"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Φιλίππη· «εἰ γὰρ οἱ θεοὶ ἡμᾶς σῴζοιεν. μενοῦμεν δὲ ἐνθάδε ἕως ἂν ὁ πόλεμος παύσηται.»",
+     "glosses": [
+      {
+       "word": "εἰ",
+       "kind": "en",
+       "value": "εἰ γάρ + optative: if only, may …"
+      },
+      {
+       "word": "ἕως",
+       "kind": "en",
+       "value": "ἕως ἄν + subjunctive: until"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Εὔδημος χωρὶς τῶν ἄλλων κάθηται· «χωρὶς τῶν ἐλαιῶν», φησίν, «οὐδέν εἰμι.»",
+     "glosses": [
+      {
+       "word": "χωρὶς",
+       "kind": "en",
+       "value": "apart (from), without (+ genitive)"
+      },
+      {
+       "word": "κάθηται",
+       "kind": "en",
+       "value": "sits"
+      },
+      {
+       "word": "οὐδέν",
+       "kind": "en",
+       "value": "nothing"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-9-3-b",
+   "sentences": [
+    {
+     "text": "πολλοὶ δὲ Ἀθηναῖοι ἐν τοῖς ἱεροῖς καὶ ἐν τοῖς πύργοις ἐσκήνουν, ὅπου τόπον εὕροιεν· οὐ γὰρ δυνατὸν ἦν πᾶσιν οἰκίαν εὑρεῖν.",
+     "glosses": [
+      {
+       "word": "ἱεροῖς",
+       "kind": "en",
+       "value": "τὰ ἱερά: shrines, sanctuaries"
+      },
+      {
+       "word": "ἐσκήνουν",
+       "kind": "en",
+       "value": "were camping"
+      },
+      {
+       "word": "ὅπου",
+       "kind": "en",
+       "value": "wherever: ὅπου + optative, wherever (they happened to) …"
+      },
+      {
+       "word": "εὕροιεν",
+       "kind": "|",
+       "value": "εὗρον 'they found' · εὕροιεν (optative)"
+      }
+     ]
+    },
+    {
+     "text": "ἐβαρύνοντο δὲ καὶ χαλεπῶς ἔφερον οἰκίας τε καταλείποντες καὶ ἱερὰ ἃ διὰ παντὸς ἦν αὐτοῖς πάτρια.",
+     "glosses": [
+      {
+       "word": "ἐβαρύνοντο",
+       "kind": "en",
+       "value": "were weighed down, were distressed"
+      },
+      {
+       "word": "χαλεπῶς",
+       "kind": "en",
+       "value": "χαλεπῶς ἔφερον: they took it hard"
+      },
+      {
+       "word": "τε",
+       "kind": "en",
+       "value": "τε … καί: both … and"
+      },
+      {
+       "word": "καταλείποντες",
+       "kind": "<",
+       "value": "κατά + λείπω: leaving behind"
+      },
+      {
+       "word": "διὰ",
+       "kind": "en",
+       "value": "διὰ παντός: always, from of old"
+      },
+      {
+       "word": "πάτρια",
+       "kind": "<",
+       "value": "πατήρ: ancestral, of their fathers"
+      }
+     ],
+     "orig": [
+      0
+     ]
+    },
+    {
+     "text": "ἕκαστος γὰρ ἐνόμιζεν οὐδὲν ἄλλο ἢ πόλιν τὴν αὑτοῦ ἀπολείπειν.",
+     "glosses": [
+      {
+       "word": "ἕκαστος",
+       "kind": "en",
+       "value": "each man"
+      },
+      {
+       "word": "οὐδὲν",
+       "kind": "en",
+       "value": "οὐδὲν ἄλλο ἤ: nothing other than, nothing less than"
+      },
+      {
+       "word": "αὑτοῦ",
+       "kind": "=",
+       "value": "αὑτοῦ = ἑαυτοῦ (his own)"
+      },
+      {
+       "word": "ἀπολείπειν",
+       "kind": "<",
+       "value": "ἀπό + λείπω: to leave behind"
+      }
+     ],
+     "orig": [
+      0
+     ]
+    },
+    {
+     "text": "ἐν δὲ τῇ πόλει πλείους ἄνθρωποι ἦσαν ἢ πρότερον, καὶ ἐφοβοῦντο μὴ νόσος γένοιτο.",
+     "glosses": [
+      {
+       "word": "πρότερον",
+       "kind": "en",
+       "value": "before, earlier"
+      },
+      {
+       "word": "γένοιτο",
+       "kind": "note",
+       "value": "ἐφοβοῦντο μὴ … γένοιτο: after a past verb the fear clause may take the optative"
+      }
+     ]
+    },
+    {
+     "text": "ὁπότε δὲ οἱ παῖδες ἐν τῷ πύργῳ κλαίοιεν, ἡ Φιλίππη αὐτοῖς μύθους ἔλεγεν.",
+     "glosses": [
+      {
+       "word": "ὁπότε",
+       "kind": "en",
+       "value": "whenever (in the past, + optative)"
+      },
+      {
+       "word": "κλαίοιεν",
+       "kind": "|",
+       "value": "κλαίουσι · κλαίοιεν (optative)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-9-3-c",
+   "sentences": [
+    {
+     "text": "θέρους δὲ τὰ Παναθήναια ὅμως ἐγίγνετο· καὶ γὰρ ἐν πολέμῳ οἱ Ἀθηναῖοι τὴν θεὰν τιμῶσιν.",
+     "glosses": [
+      {
+       "word": "θέρους",
+       "kind": "en",
+       "value": "in summer (genitive of time)"
+      },
+      {
+       "word": "ὅμως",
+       "kind": "en",
+       "value": "all the same, nevertheless"
+      }
+     ]
+    },
+    {
+     "text": "ἡ πομπὴ πρὸς τὴν ἀκρόπολιν ἀνέβαινεν· αἱ δὲ παρθένοι ἀνὰ δύο ἐβάδιζον, καὶ αἱ φωναὶ αὐτῶν ἡδεῖαι ἦσαν. ἡδὺ ἦν τῷ Μικίωνι τὴν πομπὴν ὁρᾶν.",
+     "glosses": [
+      {
+       "word": "ἀνὰ",
+       "kind": "en",
+       "value": "ἀνὰ δύο: two by two"
+      },
+      {
+       "word": "ἐβάδιζον",
+       "kind": "en",
+       "value": "were walking"
+      },
+      {
+       "word": "φωναὶ",
+       "kind": "en",
+       "value": "voices (ἡ φωνή)"
+      },
+      {
+       "word": "παρθένοι",
+       "kind": "en",
+       "value": "girls, maidens (ἡ παρθένος)"
+      },
+      {
+       "word": "ἡδεῖαι",
+       "kind": "|",
+       "value": "ἡδύς, ἡδεῖα, ἡδύ: sweet, pleasant"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Χρυσὶς καὶ ἡ Ἐλπὶς τὸ ὕφασμα ἔφερον ὃ πρότερον ὕφηναν, ἵνα τῇ θεᾷ δῶρον δοῖεν.",
+     "glosses": [
+      {
+       "word": "ὕφασμα",
+       "kind": "<",
+       "value": "ὑφαίνω: a piece of woven cloth"
+      },
+      {
+       "word": "ὕφηναν",
+       "kind": "|",
+       "value": "ὑφαίνουσι · ὕφηναν (aorist)"
+      },
+      {
+       "word": "δοῖεν",
+       "kind": "|",
+       "value": "δίδωμι · ἔδοσαν · ἵνα … δοῖεν, so that they might give (optative)"
+      }
+     ]
+    },
+    {
+     "text": "ἡ Ἐλπὶς ἐβούλετο αὐτὴ τὸ ὕφασμα παραδοῦναι· ἦλθον οὖν παρὰ τὴν ἱέρειαν καὶ αὐτῇ τὸ ὕφασμα παρέδοσαν.",
+     "glosses": [
+      {
+       "word": "παραδοῦναι",
+       "kind": "|",
+       "value": "παρά + δίδωμι: παραδίδωσι 'hands over' · παραδοῦναι 'to hand over'"
+      },
+      {
+       "word": "ἱέρειαν",
+       "kind": "<",
+       "value": "ἱερεύς: the priestess"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ ἱέρεια· «καλὸν τὸ ὕφασμα· ἡ θεὰ μετὰ ἡδονῆς αὐτὸ δέξεται.»",
+     "glosses": [
+      {
+       "word": "ἱέρεια",
+       "kind": "|",
+       "value": "ἡ ἱέρεια · τὴν ἱέρειαν"
+      },
+      {
+       "word": "δέξεται",
+       "kind": "en",
+       "value": "will receive, accept"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Ἐλπὶς μικρᾷ φωνῇ ηὔξατο· «ὦ Ἀθηνᾶ, σῴζοις τὴν πόλιν, καὶ μηκέτι ἔλθοιεν οἱ πολέμιοι.»",
+     "glosses": [
+      {
+       "word": "σῴζοις",
+       "kind": "note",
+       "value": "the optative alone can express a wish: 'may you save'"
+      },
+      {
+       "word": "μηκέτι",
+       "kind": "en",
+       "value": "no longer, never again (μή in a wish)"
+      },
+      {
+       "word": "πολέμιοι",
+       "kind": "en",
+       "value": "the enemy"
+      }
+     ]
+    },
+    {
+     "text": "ἕως δὲ ἡ πομπὴ ἀνέβαινεν, ὁ Εὔδημος χωρὶς ἔμενε καὶ ηὔχετο· «εἰ γὰρ ἡ θεά, ἣ τὴν ἐλαίαν ἔδωκεν, καὶ τὰς ἐμὰς ἐλαίας σῴζοι.»",
+     "glosses": [
+      {
+       "word": "ἕως",
+       "kind": "en",
+       "value": "ἕως + indicative: while"
+      },
+      {
+       "word": "ηὔχετο",
+       "kind": "|",
+       "value": "εὔχεται · ηὔχετο (was praying)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "πυργος",
+   "pic": "pyrgos",
+   "gloss_grc": "ὁ πύργος τοῦ τείχους"
+  },
+  {
+   "id": "παραδιδωμι",
+   "pic": "verb-paradidosi",
+   "gloss_grc": "παρά + δίδωμι · παρέδωκα · παρέδοσαν"
+  },
+  {
+   "id": "ηδυς",
+   "gloss_grc": "ἡδύς, ἡδεῖα, ἡδύ"
+  },
+  {
+   "id": "ηδονη",
+   "gloss_grc": "ἡ ἡδονή ↔ ἡ λύπη"
+  },
+  {
+   "id": "φωνη",
+   "gloss_grc": "ἡ φωνή · μικρᾷ φωνῇ"
+  },
+  {
+   "id": "ανα",
+   "gloss_grc": "ἀνὰ πᾶσαν ἡμέραν"
+  },
+  {
+   "id": "εως",
+   "gloss_grc": "ἕως (while) · ἕως ἄν (until)"
+  },
+  {
+   "id": "παρα",
+   "gloss_grc": "παρὰ τὴν ἱέρειαν · παρὰ τῇ Χρυσίδι"
+  },
+  {
+   "id": "δυνατος",
+   "gloss_grc": "< δύναμαι · οὐ δυνατόν ἐστιν"
+  },
+  {
+   "id": "πλεων",
+   "gloss_grc": "πολύς · πλέων / πλείων · πλεῖστος · πλείους ἤ"
+  },
+  {
+   "id": "χωρις",
+   "gloss_grc": "χωρὶς τῶν ἄλλων"
+  }
+ ],
+ "notice": [
+  "εἴθε οἴκαδε ἔλθοιμεν. — εἴθε ὁ πόλεμος παύσαιτο. — εἰ γὰρ οἱ θεοὶ ἡμᾶς σῴζοιεν.",
+  "ὦ Ἀθηνᾶ, σῴζοις τὴν πόλιν, καὶ μηκέτι ἔλθοιεν οἱ πολέμιοι.",
+  "ἔφερον ἵνα τῇ θεᾷ δῶρον δοῖεν. — ἐφοβοῦντο μὴ νόσος γένοιτο.",
+  "ὁπότε οἱ παῖδες κλαίοιεν, ἡ Φιλίππη μύθους ἔλεγεν."
+ ],
+ "grammar": {
+  "md": "**The optative mood.** The fourth mood, beside indicative, subjunctive and imperative. Its sign is a vowel **ι** after the stem: **-οι-** (thematic), **-αι-** (sigmatic aorist), **-ιη-/-ει-** (athematic, contract and aorist passive).\n\n| | present | aorist | aorist (2nd) | middle |\n|---|---|---|---|---|\n| I | λύ**οιμι** | λύσ**αιμι** | ἔλθ**οιμι** | λυ**οίμην** |\n| you | λύοις | λύσαις (λύσειας) | ἔλθοις | λύοιο |\n| he, she | λύ**οι** | λύσ**αι** (λύσειε) | ἔλθοι | λύ**οιτο** |\n| we | λύοιμεν | λύσαιμεν | **ἔλθοιμεν** | λυοίμεθα |\n| you (pl.) | λύοιτε | λύσαιτε | ἔλθοιτε | λύοισθε |\n| they | λύ**οιεν** | λύσαιεν (λύσειαν) | ἔλθοιεν | λύοιντο |\n\nAlso: εἰμί → **εἴην, εἴης, εἴη, εἶμεν, εἶτε, εἶεν**; δίδωμι (aorist) → δοίην … **δοῖεν**; aorist passive → λυθείην, λυθείη; δύναμαι → δυναίμην, **δύναιτο**; aorist middle → παυσαίμην, **παύσαιτο**, γενοίμην, **γένοιτο**. The endings in -μι / -μην, the diphthong before them: that is an optative.\n\n**1. Wishes for the future.** The optative, often with **εἴθε** or **εἰ γάρ** 'if only'; negative **μή**:\n*εἴθε οἴκαδε ἔλθοιμεν* 'if only we could go home'; *εἰ γὰρ οἱ θεοὶ ἡμᾶς σῴζοιεν*; *σῴζοις τὴν πόλιν* 'may you save the city'; *μηκέτι ἔλθοιεν οἱ πολέμιοι*; *μὴ γένοιτο* 'God forbid!'\n\n**2. Secondary sequence.** In clauses that take the subjunctive (8.1–8.2: purpose, fear, indefinite), the verb may change to the **optative** when the main verb is past. Nothing about the meaning changes; the optative just marks 'this depends on a past verb'. In indefinite clauses ἄν drops out.\n\n| | primary (main verb present/future) | secondary (main verb past) |\n|---|---|---|\n| purpose | φέρουσιν ἵνα δῶρον **δῶσιν** | ἔφερον ἵνα δῶρον **δοῖεν** |\n| fear | φοβοῦνται μὴ νόσος **γένηται** | ἐφοβοῦντο μὴ νόσος **γένοιτο** |\n| indefinite | ὅταν οἱ παῖδες **κλαίωσι**, λέγει | ὁπότε οἱ παῖδες **κλαίοιεν**, ἔλεγεν |\n\nThe subjunctive may also be kept after a past verb, for vividness; Thucydides does both.",
+  "paradigms": [
+   "luo",
+   "eimi"
+  ],
+  "diagram": "diagram-sequence"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the optative endings.",
+   "template": "εἴθε οἴκαδε ἔλθ___. εἰ γὰρ οἱ θεοὶ ἡμᾶς σῴζ___. ἐφοβοῦντο μὴ νόσος γέν___. ἔφερον τὰς κλίνας ἵνα ἐν τῇ πόλει οἰκεῖν δύν___.",
+   "gaps": [
+    {
+     "answers": [
+      "οιμεν"
+     ]
+    },
+    {
+     "answers": [
+      "οιεν"
+     ]
+    },
+    {
+     "answers": [
+      "οιτο"
+     ]
+    },
+    {
+     "answers": [
+      "αιντο"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.opt-wish",
+    "syntax.opt-secondary",
+    "verb.pres.act.opt.3pl",
+    "verb.pres.mp.opt.3sg"
+   ],
+   "explain": "ἔλθοιμεν, σῴζοιεν, γένοιτο, δύναιντο: οι / αι + the personal ending."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · εἴθε ὁ πόλεμος ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "παύσαιτο"
+    },
+    {
+     "id": "b",
+     "text": "παύεται"
+    },
+    {
+     "id": "c",
+     "text": "ἐπαύσατο"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.opt-wish"
+   ],
+   "explain": "A wish for the future: εἴθε + optative, παύσαιτο.",
+   "audio": "εἴθε ὁ πόλεμος παύσαιτο."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · παρὰ τὴν ἱέρειαν ἦλθον ἵνα τῇ θεᾷ δῶρον ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "δοῖεν"
+    },
+    {
+     "id": "b",
+     "text": "δώσουσιν"
+    },
+    {
+     "id": "c",
+     "text": "ἔδοσαν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.opt-secondary",
+    "syntax.purpose",
+    "verb.aor.act.opt.3pl"
+   ],
+   "explain": "Purpose after a past verb: optative δοῖεν (the subjunctive δῶσιν would also be possible).",
+   "audio": "παρὰ τὴν ἱέρειαν ἦλθον ἵνα τῇ θεᾷ δῶρον δοῖεν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ Μικίων ἐν τῷ ___ τοῦ τείχους οἰκεῖ.",
+   "options": [
+    {
+     "id": "a",
+     "text": "πύργῳ"
+    },
+    {
+     "id": "b",
+     "text": "πύργον"
+    },
+    {
+     "id": "c",
+     "text": "πύργος"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "noun.decl2.dat.sg"
+   ],
+   "explain": "ἐν + dative: ἐν τῷ πύργῳ.",
+   "audio": "ὁ Μικίων ἐν τῷ πύργῳ τοῦ τείχους οἰκεῖ."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "πύργος",
+   "options": [
+    {
+     "id": "a",
+     "image": "pyrgos"
+    },
+    {
+     "id": "b",
+     "image": "teichos"
+    },
+    {
+     "id": "c",
+     "image": "pyle"
+    },
+    {
+     "id": "d",
+     "image": "naos"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ὁ πύργος: a tower of the wall.",
+   "audio": "prompt"
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "παραδίδωσι",
+   "options": [
+    {
+     "id": "a",
+     "image": "verb-paradidosi"
+    },
+    {
+     "id": "b",
+     "image": "verb-komizei"
+    },
+    {
+     "id": "c",
+     "image": "verb-kaiei"
+    },
+    {
+     "id": "d",
+     "image": "verb-temnei"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "παραδίδωσι: hands over.",
+   "audio": "prompt"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the optative of εἰμί, third person singular.",
+   "lemma": "εἰμί",
+   "cell": "present.active.optative.3sg",
+   "skills": [
+    "verb.pres.act.opt.3sg"
+   ],
+   "explain": "εἴη: εἴην, εἴης, εἴη.",
+   "audio": "εἴη"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist optative of ἔρχομαι for 'may we go'.",
+   "lemma": "ἔρχομαι",
+   "cell": "aorist.active.optative.1pl",
+   "skills": [
+    "verb.aor.act.opt.1sg",
+    "syntax.opt-wish"
+   ],
+   "explain": "ἔλθοιμεν: aorist stem ἐλθ- + -οιμεν.",
+   "audio": "ἔλθοιμεν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist optative of δίδωμι, third person plural.",
+   "lemma": "δίδωμι",
+   "cell": "aorist.active.optative.3pl",
+   "skills": [
+    "verb.aor.act.opt.3pl"
+   ],
+   "explain": "δοῖεν (δοίην, δοίης, δοίη … δοῖεν).",
+   "audio": "δοῖεν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist middle optative of παύω, third person singular ('may it stop').",
+   "lemma": "παύω",
+   "cell": "aorist.middle.optative.3sg",
+   "skills": [
+    "verb.aor.act.opt.3sg",
+    "syntax.opt-wish"
+   ],
+   "explain": "παύσαιτο: -σαι- + -το.",
+   "audio": "παύσαιτο"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse γένοιτο.",
+   "form": "γένοιτο",
+   "groups": [
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      }
+     ]
+    },
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "mood": "opt",
+    "tense": "aor"
+   },
+   "skills": [
+    "verb.pres.mp.opt.3sg",
+    "syntax.opt-secondary"
+   ],
+   "explain": "γεν- (aorist stem of γίγνομαι) + -οι-το: aorist optative.",
+   "audio": "γένοιτο"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse σῴζοιεν.",
+   "form": "σῴζοιεν",
+   "groups": [
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person",
+     "options": [
+      {
+       "id": "3sg",
+       "label": "he, she"
+      },
+      {
+       "id": "1pl",
+       "label": "we"
+      },
+      {
+       "id": "3pl",
+       "label": "they"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "mood": "opt",
+    "person": "3pl"
+   },
+   "skills": [
+    "verb.pres.act.opt.3pl",
+    "syntax.opt-wish"
+   ],
+   "explain": "σῴζ-οι-εν: present optative, 'may they save'.",
+   "audio": "σῴζοιεν"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἐφοβοῦντο μὴ νόσος ἐν τῇ πόλει ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "γένοιτο"
+    },
+    {
+     "id": "b",
+     "text": "γίγνεται"
+    },
+    {
+     "id": "c",
+     "text": "γενήσεται"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.opt-secondary",
+    "syntax.fear"
+   ],
+   "explain": "A fear clause after the past ἐφοβοῦντο: μή + optative."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁπότε οἱ παῖδες ___, ἡ Φιλίππη μύθους ἔλεγεν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "κλαίοιεν"
+    },
+    {
+     "id": "b",
+     "text": "κλαίουσιν"
+    },
+    {
+     "id": "c",
+     "text": "ἔκλαυσαν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.opt-secondary",
+    "syntax.indefinite"
+   ],
+   "explain": "Repeated action in the past: ὁπότε + optative, 'whenever they cried'."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἡ Φιλίππη· «εἰ γὰρ οἱ θεοὶ ἡμᾶς ___.»",
+   "options": [
+    {
+     "id": "a",
+     "text": "σῴζοιεν"
+    },
+    {
+     "id": "b",
+     "text": "σῴζουσιν"
+    },
+    {
+     "id": "c",
+     "text": "ἔσωσαν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.opt-wish"
+   ],
+   "explain": "εἰ γάρ + optative: a wish."
+  },
+  {
+   "type": "label",
+   "prompt": "ἐφοβοῦντο μὴ νόσος γένοιτο. — Why the optative γένοιτο?",
+   "options": [
+    {
+     "id": "a",
+     "text": "a fear clause after a past main verb (secondary sequence)"
+    },
+    {
+     "id": "b",
+     "text": "a wish"
+    },
+    {
+     "id": "c",
+     "text": "a fact about the past"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.opt-secondary",
+    "syntax.fear"
+   ],
+   "explain": "Primary: φοβοῦνται μὴ γένηται; secondary: ἐφοβοῦντο μὴ γένοιτο."
+  },
+  {
+   "type": "label",
+   "prompt": "εἴθε οἴκαδε ἔλθοιμεν. — What does the optative express here?",
+   "options": [
+    {
+     "id": "a",
+     "text": "a wish for the future"
+    },
+    {
+     "id": "b",
+     "text": "a statement of fact"
+    },
+    {
+     "id": "c",
+     "text": "a command"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.opt-wish"
+   ],
+   "explain": "εἴθε + optative: 'if only we could go home'."
+  },
+  {
+   "type": "label",
+   "prompt": "ὁπότε οἱ παῖδες κλαίοιεν, ἡ Φιλίππη μύθους ἔλεγεν. — ὁπότε + optative means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "whenever (it happened, again and again, in the past)"
+    },
+    {
+     "id": "b",
+     "text": "when the children will cry"
+    },
+    {
+     "id": "c",
+     "text": "because the children cried"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.opt-secondary",
+    "syntax.indefinite"
+   ],
+   "explain": "Past general: ὁπότε + optative, imperfect in the main clause."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make the main verb past: φοβοῦνται μὴ νόσος γένηται. → ἐφοβοῦντο μὴ νόσος …",
+   "template": "ἐφοβοῦντο μὴ νόσος ___.",
+   "gaps": [
+    {
+     "answers": [
+      "γένοιτο",
+      "γένηται"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.opt-secondary",
+    "syntax.fear"
+   ],
+   "explain": "γένοιτο (the optative of secondary sequence); γένηται is also Greek, kept for vividness.",
+   "audio": "ἐφοβοῦντο μὴ νόσος γένοιτο."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make the main verb past: φέρουσι τὰς κλίνας ἵνα οἰκεῖν δύνωνται. → ἔφερον τὰς κλίνας ἵνα οἰκεῖν …",
+   "template": "ἔφερον τὰς κλίνας ἵνα οἰκεῖν ___.",
+   "gaps": [
+    {
+     "answers": [
+      "δύναιντο",
+      "δύνωνται"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.opt-secondary",
+    "syntax.purpose"
+   ],
+   "explain": "δύναιντο: optative of δύναμαι after the past ἔφερον.",
+   "audio": "ἔφερον τὰς κλίνας ἵνα οἰκεῖν δύναιντο."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every optative.",
+   "sentence": "ὁ Μικίων στενάζει· εἴθε οἴκαδε ἔλθοιμεν· εἴθε ὁ πόλεμος παύσαιτο. ἡ δὲ Φιλίππη· εἰ γὰρ οἱ θεοὶ ἡμᾶς σῴζοιεν.",
+   "answer": [
+    5,
+    9,
+    18
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.opt-wish"
+   ],
+   "explain": "ἔλθοιμεν, παύσαιτο, σῴζοιεν."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the verbs in secondary sequence (optatives after a past verb).",
+   "sentence": "ἡ Χρυσὶς καὶ ἡ Ἐλπὶς τὸ ὕφασμα ἔφερον ἵνα τῇ θεᾷ δῶρον δοῖεν, καὶ ἐφοβοῦντο μὴ ὁ πέπλος οὐ καλὸς εἴη.",
+   "answer": [
+    12,
+    20
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.opt-secondary"
+   ],
+   "explain": "δοῖεν (purpose after ἔφερον) and εἴη (fear after ἐφοβοῦντο; μὴ … οὐ: 'that it might not be')."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'May the goddess save the city!'",
+   "tokens": [
+    "σῴζοι",
+    "ἡ",
+    "πόλιν",
+    "θεὰ",
+    "τὴν"
+   ],
+   "answers": [
+    "ἡ θεὰ τὴν πόλιν σῴζοι",
+    "σῴζοι ἡ θεὰ τὴν πόλιν",
+    "ἡ θεὰ σῴζοι τὴν πόλιν",
+    "τὴν πόλιν ἡ θεὰ σῴζοι"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "syntax.opt-wish"
+   ],
+   "explain": "ἡ θεὰ τὴν πόλιν σῴζοι: the optative alone as a wish."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "εἴθε ὁ πόλεμος παύσαιτο."
+    },
+    {
+     "id": "b",
+     "text": "ὁ πόλεμος ἐπαύσατο."
+    },
+    {
+     "id": "c",
+     "text": "ὁ πόλεμος παύεται."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences",
+    "syntax.opt-wish"
+   ],
+   "explain": "'If only the war would stop.'",
+   "audio": "εἴθε ὁ πόλεμος παύσαιτο."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἡ Φιλίππη καὶ ὁ Εὔδημος ἐν τῇ οἰκίᾳ τοῦ Ἀρίστωνος οἰκοῦσιν.",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἐν πύργῳ τινὶ τοῦ τείχους οἰκοῦσιν, καὶ παρὰ τῇ Χρυσίδι δειπνοῦσιν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "τὰ Παναθήναια καὶ ἐν τῷ πολέμῳ ἐγίγνετο.",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "θέρους δὲ τὰ Παναθήναια ὅμως ἐγίγνετο.",
+   "audio": "prompt"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἡ Ἐλπὶς τὸ ὕφασμα τῇ ἱερείᾳ παρέδωκεν.",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "παρὰ τὴν ἱέρειαν ἦλθον καὶ αὐτῇ τὸ ὕφασμα παρέδοσαν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "gaps": [
+    {
+     "answers": [
+      "αἱ φωναὶ τῶν παρθένων ἡδεῖαι ἦσαν"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "αἱ φωναὶ τῶν παρθένων ἡδεῖαι ἦσαν: 'the girls' voices were sweet'.",
+   "audio": "αἱ φωναὶ τῶν παρθένων ἡδεῖαι ἦσαν."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'If only we could go home!' (εἴθε + aorist optative of ἔρχομαι)",
+   "gaps": [
+    {
+     "answers": [
+      "εἴθε οἴκαδε ἔλθοιμεν",
+      "εἴθε ἔλθοιμεν οἴκαδε",
+      "εἰ γὰρ οἴκαδε ἔλθοιμεν",
+      "εἰ γὰρ ἔλθοιμεν οἴκαδε"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.opt-wish"
+   ],
+   "explain": "εἴθε οἴκαδε ἔλθοιμεν."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'They handed the cloth over to the priestess.'",
+   "gaps": [
+    {
+     "answers": [
+      "τὸ ὕφασμα τῇ ἱερείᾳ παρέδοσαν",
+      "τῇ ἱερείᾳ τὸ ὕφασμα παρέδοσαν",
+      "παρέδοσαν τὸ ὕφασμα τῇ ἱερείᾳ",
+      "παρέδοσαν τῇ ἱερείᾳ τὸ ὕφασμα"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.mi.aorist"
+   ],
+   "explain": "τὸ ὕφασμα τῇ ἱερείᾳ παρέδοσαν: aorist of παραδίδωμι."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: ἐβαρύνοντο δὲ καὶ χαλεπῶς ἔφερον οἰκίας τε καταλείποντες καὶ ἱερὰ ἃ διὰ παντὸς ἦν αὐτοῖς πάτρια.",
+   "model": "They were distressed and took it hard, leaving behind both their houses and the shrines that had always been theirs from their fathers' time.",
+   "skills": [
+    "read.comprehension",
+    "read.thucydides"
+   ],
+   "explain": "χαλεπῶς φέρειν 'to take hard'; ἃ … ἦν αὐτοῖς πάτρια 'which were ancestral to them'.",
+   "audio": "ἐβαρύνοντο δὲ καὶ χαλεπῶς ἔφερον οἰκίας τε καταλείποντες καὶ ἱερὰ ἃ διὰ παντὸς ἦν αὐτοῖς πάτρια."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "φωνή",
+     "right": "telephone, symphony"
+    },
+    {
+     "left": "ἡδονή",
+     "right": "hedonism"
+    },
+    {
+     "left": "παρά",
+     "right": "parallel, paradox"
+    },
+    {
+     "left": "δυνατός",
+     "right": "dynasty (δυναστεία, 'power')"
+    },
+    {
+     "left": "ἡδύς",
+     "right": "sweet (a cognate, Latin suavis)"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "τῆλε 'far' + φωνή; ἡδονή 'pleasure'; παρ-άλληλος 'beside one another'; δύναμαι 'be able'; ἡδύς and 'sweet' are the same Indo-European word."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "ποῦ οἰκοῦσιν ἡ Φιλίππη καὶ ὁ Εὔδημος καὶ ὁ Μικίων;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐν πύργῳ τοῦ τείχους."
+    },
+    {
+     "id": "b",
+     "text": "ἐν τῷ ἐργαστηρίῳ."
+    },
+    {
+     "id": "c",
+     "text": "ἐν Ἀχαρναῖς."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἐν πύργῳ τινὶ τοῦ τείχους οἰκοῦσιν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί βούλεται ὁ Μικίων;",
+   "options": [
+    {
+     "id": "a",
+     "text": "οἴκαδε ἐλθεῖν."
+    },
+    {
+     "id": "b",
+     "text": "ἐν τῷ πύργῳ μένειν."
+    },
+    {
+     "id": "c",
+     "text": "μάχεσθαι."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.opt-wish"
+   ],
+   "explain": "«εἴθε οἴκαδε ἔλθοιμεν.»",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐφοβοῦντο οἱ Ἀθηναῖοι;",
+   "options": [
+    {
+     "id": "a",
+     "text": "μὴ νόσος γένοιτο."
+    },
+    {
+     "id": "b",
+     "text": "μὴ τὰ Παναθήναια γένοιτο."
+    },
+    {
+     "id": "c",
+     "text": "μὴ ἡ ἱέρεια ἀπέλθοι."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.opt-secondary"
+   ],
+   "explain": "ἐφοβοῦντο μὴ νόσος γένοιτο.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί ἡ Χρυσὶς καὶ ἡ Ἐλπὶς τὸ ὕφασμα ἔφερον;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἵνα τῇ θεᾷ δῶρον δοῖεν."
+    },
+    {
+     "id": "b",
+     "text": "ἵνα αὐτὸ πωλοῖεν."
+    },
+    {
+     "id": "c",
+     "text": "ἵνα ὁ Εὔδημος αὐτὸ ἔχοι."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.opt-secondary"
+   ],
+   "explain": "ἵνα τῇ θεᾷ δῶρον δοῖεν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ηὔξατο ἡ Ἐλπίς;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὴν θεὰν τὴν πόλιν σῴζειν."
+    },
+    {
+     "id": "b",
+     "text": "τὸν πόλεμον γενέσθαι."
+    },
+    {
+     "id": "c",
+     "text": "τὸν Εὔδημον μάχεσθαι."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.opt-wish"
+   ],
+   "explain": "«ὦ Ἀθηνᾶ, σῴζοις τὴν πόλιν.»",
+   "audio": "prompt"
+  }
+ ],
+ "culture": {
+  "title": "A festival in a crowded city",
+  "md": "By midsummer the invaders had gone home, but the country people stayed inside the walls: their farms were burnt, and everyone knew the Spartans would come back next year. Thucydides describes how they camped in shrines and towers and felt that each of them was leaving not a house but 'his own city'. He means this literally. Before Theseus (so the Athenians believed) united Attica, every village had been a little state with its own council and cults, and the old demes still kept their own festivals and heroes. A man from Acharnae was an Athenian, but first he was an Acharnian.\n\nThe **Panathenaea**, Athena's birthday festival, fell at the end of the month Hekatombaion (about August). In 431 it was an ordinary year; the Great Panathenaea with its athletic and musical contests came every fourth year. But the heart of the festival was the same every year: a procession from the Dipylon Gate along the Panathenaic Way, through the Agora and up to the Acropolis, with sacrificial cattle, girls carrying baskets, and the new **peplos** for the old olive-wood statue of Athena Polias, woven by the ergastinai. Ordinary women could not add their weaving to that robe, but they could and did dedicate their own cloth to the goddess: temple inventories list many such garments and pieces of fabric. Elpis's gift is one of these.\n\nThe crowding had a price. In the next summer, 430, plague broke out in the packed city, and the refugees in their stifling huts died in the greatest numbers (Unit 10).",
+  "image": "culture-9-3-panathenaea"
+ },
+ "quiz": [
+  {
+   "type": "cloze-choice",
+   "prompt": "εἴθε οἱ Λακεδαιμόνιοι μηκέτι ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἔλθοιεν"
+    },
+    {
+     "id": "b",
+     "text": "ἦλθον"
+    },
+    {
+     "id": "c",
+     "text": "ἔρχονται"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.opt-wish"
+   ],
+   "explain": "A wish: optative ἔλθοιεν, negative μή(κέτι)."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the present optative of σῴζω, third person singular ('may she save').",
+   "lemma": "σῴζω",
+   "cell": "present.active.optative.3sg",
+   "skills": [
+    "verb.pres.act.opt.3sg"
+   ],
+   "explain": "σῴζοι.",
+   "audio": "σῴζοι"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἡ Χρυσὶς ἦλθεν ἵνα τὸ ὕφασμα τῇ ἱερείᾳ ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "παραδοίη"
+    },
+    {
+     "id": "b",
+     "text": "παρέδωκεν"
+    },
+    {
+     "id": "c",
+     "text": "παραδίδωσιν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.opt-secondary",
+    "syntax.purpose"
+   ],
+   "explain": "Purpose after a past verb: optative παραδοίη."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ὁ πύργος",
+   "options": [
+    {
+     "id": "a",
+     "image": "pyrgos"
+    },
+    {
+     "id": "b",
+     "image": "hamaxa"
+    },
+    {
+     "id": "c",
+     "image": "trieres"
+    },
+    {
+     "id": "d",
+     "image": "stratos"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ὁ πύργος: tower.",
+   "audio": "prompt"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse εἴη.",
+   "form": "εἴη",
+   "groups": [
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      }
+     ]
+    },
+    {
+     "id": "verb",
+     "label": "Which verb?",
+     "options": [
+      {
+       "id": "eimi",
+       "label": "εἰμί 'be'"
+      },
+      {
+       "id": "eimi-go",
+       "label": "εἶμι 'go'"
+      },
+      {
+       "id": "hiemi",
+       "label": "ἵημι 'send'"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "mood": "opt",
+    "verb": "eimi"
+   },
+   "skills": [
+    "verb.pres.act.opt.3sg"
+   ],
+   "explain": "εἴη: optative of εἰμί.",
+   "audio": "εἴη"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Εὔδημος χωρὶς τῶν ἄλλων κάθηται.",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὁ δὲ Εὔδημος χωρὶς τῶν ἄλλων κάθηται.",
+   "audio": "prompt"
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'They were afraid that a disease might arise.' (optative)",
+   "gaps": [
+    {
+     "answers": [
+      "ἐφοβοῦντο μὴ νόσος γένοιτο",
+      "ἐφοβοῦντο μὴ γένοιτο νόσος"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.opt-secondary",
+    "syntax.fear"
+   ],
+   "explain": "ἐφοβοῦντο μὴ νόσος γένοιτο."
+  }
+ ],
+ "skills": [
+  "syntax.opt-wish",
+  "syntax.opt-secondary",
+  "syntax.fear",
+  "syntax.purpose",
+  "syntax.indefinite",
+  "verb.pres.act.opt.3sg",
+  "verb.pres.act.opt.3pl",
+  "verb.pres.mp.opt.3sg",
+  "verb.aor.act.opt.1sg",
+  "verb.aor.act.opt.3sg",
+  "verb.aor.act.opt.3pl",
+  "verb.mi.aorist",
+  "noun.decl2.dat.sg",
+  "syntax.word-order",
+  "read.comprehension",
+  "read.thucydides",
+  "read.locate",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family"
+ ]
+}

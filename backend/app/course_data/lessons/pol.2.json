@@ -1,0 +1,1427 @@
+{
+  "id": "pol.2",
+  "title_grc": "τὸ ὄστρακον",
+  "title_en": "The potsherd",
+  "summary_grc": "ὁ Λύσις ὄστρακον εὑρίσκει, καὶ ὁ Κλεινίας περὶ τοῦ ὀστρακισμοῦ καὶ περὶ τοῦ Ἀριστείδου λέγει.",
+  "summary_en": "Lysis finds an old potsherd in the workshop with a name on it: Aristides son of Lysimachus. Grandfather Kleinias explains ostracism and tells the story of the farmer who could not write. Then Aristotle on the law of ostracism and its first victim, adapted.",
+  "cover": "pol-2-a",
+  "caption_grc": "ἕκαστος ἐν ὀστράκῳ γράφει τὸ ὄνομα τοῦ ἀνδρὸς ὃν μάλιστα φοβεῖται.",
+  "original": {
+    "text": "arist-athpol-22",
+    "note": "Aristotle (or a pupil), Constitution of the Athenians 22.1 and 22.3–4, which paragraph 3 adapts; written about 330 BC. The first ostracism (Hipparchus) was in 488/7, two years after Marathon; Aristides was ostracized in 482 and recalled in 480 before Salamis. The story of the farmer who could not write comes from Plutarch's Life of Aristides (7.7–8), written about 100 AD: a good story, not a record."
+  },
+  "names": {
+    "Ἀριστείδης": [
+      "Ἀριστείδου",
+      "Ἀριστείδῃ",
+      "Ἀριστείδην"
+    ],
+    "Λυσίμαχος": [
+      "Λυσιμάχου",
+      "Λυσιμάχῳ",
+      "Λυσίμαχον"
+    ],
+    "Σαλαμίς": [
+      "Σαλαμῖνος",
+      "Σαλαμῖνι",
+      "Σαλαμῖνα"
+    ],
+    "Κλεισθένης": [
+      "Κλεισθένους",
+      "Κλεισθένει",
+      "Κλεισθένη"
+    ],
+    "Ἀριστοτέλης": [
+      "Ἀριστοτέλους",
+      "Ἀριστοτέλει",
+      "Ἀριστοτέλη"
+    ],
+    "Μαραθών": [
+      "Μαραθῶνος",
+      "Μαραθῶνι",
+      "Μαραθῶνα"
+    ],
+    "Πεισίστρατος": [
+      "Πεισιστράτου",
+      "Πεισιστράτῳ",
+      "Πεισίστρατον"
+    ],
+    "Ἵππαρχος": [
+      "Ἱππάρχου",
+      "Ἱππάρχῳ",
+      "Ἵππαρχον"
+    ],
+    "Μελησίας": [
+      "Μελησίου"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "pol-2-a",
+      "sentences": [
+        {
+          "text": "ἐν τῷ ἐργαστηρίῳ τοῦ Ἀρίστωνος πολλὰ ὄστρακα ἐπὶ τῇ γῇ ἐστιν· ὄστρακον γάρ ἐστι μέρος κύλικος ἢ ὑδρίας.",
+          "glosses": [
+            {
+              "word": "ὄστρακα",
+              "kind": "pic",
+              "value": "ostrakon"
+            },
+            {
+              "word": "ὄστρακον",
+              "kind": "=",
+              "value": "a potsherd: a broken piece of a pot"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Λύσις ἓν ὄστρακον λαμβάνει καὶ θαυμάζει· ἐν γὰρ τῷ ὀστράκῳ ἄνθρωπός τις πάλαι ὄνομα ἔγραψεν.",
+          "glosses": [
+            {
+              "word": "πάλαι",
+              "kind": "en",
+              "value": "long ago"
+            },
+            {
+              "word": "ὄνομα",
+              "kind": "en",
+              "value": "name (τὸ ὄνομα, τοῦ ὀνόματος)"
+            }
+          ]
+        },
+        {
+          "text": "«ὦ πάππε,» βοᾷ, «τί ἐστι τοῦτο; ἀναγιγνώσκω· Ἀριστείδης Λυσιμάχου.»"
+        },
+        {
+          "text": "ὁ δὲ Κλεινίας γελᾷ· «τοῦτο ὄστρακόν ἐστιν ἐκ τοῦ ὀστρακισμοῦ, ὦ παῖ.",
+          "glosses": [
+            {
+              "word": "γελᾷ",
+              "kind": "en",
+              "value": "laughs (γελάω)"
+            },
+            {
+              "word": "ὀστρακισμοῦ",
+              "kind": "<",
+              "value": "ὄστρακον | ὁ ὀστρακισμός (ostracism: a vote with potsherds)"
+            }
+          ]
+        },
+        {
+          "text": "ὅτε ἐγὼ νεανίας ἦν, πρὸ τῆς ναυμαχίας τῆς ἐν Σαλαμῖνι, οἱ Ἀθηναῖοι τὸν Ἀριστείδην ὠστράκισαν.»",
+          "glosses": [
+            {
+              "word": "ὠστράκισαν",
+              "kind": "|",
+              "value": "ὀστρακίζω (ostracize) | ὠστράκισα (aorist: augment ο → ω)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ Λύσις· «τί ἐστιν ὀστρακίζειν;»"
+        }
+      ]
+    },
+    {
+      "image": "pol-2-b",
+      "sentences": [
+        {
+          "text": "ὁ δὲ Κλεινίας· «ἅπαξ τοῦ ἔτους ὁ δῆμος ἐν τῇ ἐκκλησίᾳ χειροτονεῖ εἰ βούλεται ὀστρακισμὸν ποιεῖν.",
+          "glosses": [
+            {
+              "word": "ἅπαξ",
+              "kind": "en",
+              "value": "once: ἅπαξ τοῦ ἔτους 'once a year'"
+            },
+            {
+              "word": "εἰ",
+              "kind": "en",
+              "value": "whether (in an indirect question)"
+            }
+          ]
+        },
+        {
+          "text": "εἰ δὲ βούλεται, πάντες οἱ πολῖται εἰς τὴν ἀγορὰν ἔρχονται, καὶ ἕκαστος ἐν ὀστράκῳ γράφει τὸ ὄνομα τοῦ ἀνδρὸς ὃν μάλιστα φοβεῖται.",
+          "glosses": [
+            {
+              "word": "μάλιστα",
+              "kind": "en",
+              "value": "most of all"
+            }
+          ]
+        },
+        {
+          "text": "ὃς δ’ ἂν πλείστας ψήφους λάβῃ, δέκα ἔτη ἐκ τῆς πόλεως φεύγει· ἡ δὲ οὐσία αὐτοῦ μένει.",
+          "glosses": [
+            {
+              "word": "ψήφους",
+              "kind": "pic",
+              "value": "psephos"
+            },
+            {
+              "word": "λάβῃ",
+              "kind": "note",
+              "value": "ὃς δ’ ἂν … λάβῃ: 'whoever gets' (indefinite clause, Unit 8)"
+            },
+            {
+              "word": "ψήφους",
+              "kind": "en",
+              "value": "votes (ἡ ψῆφος: pebble, vote); here the potsherds count as votes"
+            }
+          ]
+        },
+        {
+          "text": "οὐ γὰρ δίκη ἐστὶν ὁ ὀστρακισμός, οὐδὲ κακὸς ὁ ἀνήρ· ἀλλ’ ὁ δῆμος φοβεῖται μὴ πάλιν τυραννὶς γένηται.»",
+          "glosses": [
+            {
+              "word": "δίκη",
+              "kind": "en",
+              "value": "a trial, lawsuit"
+            },
+            {
+              "word": "οὐδὲ",
+              "kind": "en",
+              "value": "nor (is)"
+            },
+            {
+              "word": "τυραννὶς",
+              "kind": "<",
+              "value": "τύραννος | ἡ τυραννίς, τῆς τυραννίδος (tyranny)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ Ἀριστείδης δίκαιος ἐκαλεῖτο.",
+          "glosses": [
+            {
+              "word": "δίκαιος",
+              "kind": "↔",
+              "value": "δίκαιος ↔ ἄδικος (just ↔ unjust)"
+            }
+          ]
+        },
+        {
+          "text": "ἐν τῇ ἡμέρᾳ τοῦ ὀστρακισμοῦ γεωργός τις, γράμματα οὐκ ἐπιστάμενος, τῷ Ἀριστείδῃ τὸ ὄστρακον ἔδωκεν· οὐ γὰρ ἐγίγνωσκεν αὐτόν.",
+          "glosses": [
+            {
+              "word": "γράμματα",
+              "kind": "note",
+              "value": "γράμματα οὐκ ἐπιστάμενος: not knowing his letters, unable to write"
+            }
+          ]
+        },
+        {
+          "text": "καὶ εἶπεν· «γράψον, ὦ ξένε, ἐν τούτῳ τῷ ὀστράκῳ τὸ ὄνομα Ἀριστείδου.»"
+        },
+        {
+          "text": "ὁ δὲ Ἀριστείδης ἠρώτησεν· «τί σε ἠδίκησεν ὁ Ἀριστείδης;»"
+        },
+        {
+          "text": "ὁ δὲ γεωργός· «οὐδέν· οὐ γὰρ γιγνώσκω τὸν ἄνθρωπον. ἀλλ’ ἄχθομαι ἀκούων πανταχοῦ αὐτὸν δίκαιον καλούμενον.»",
+          "glosses": [
+            {
+              "word": "οὐδέν",
+              "kind": "en",
+              "value": "nothing"
+            },
+            {
+              "word": "ἄχθομαι",
+              "kind": "en",
+              "value": "I am annoyed, fed up"
+            },
+            {
+              "word": "πανταχοῦ",
+              "kind": "<",
+              "value": "πᾶς | πανταχοῦ (everywhere)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ Ἀριστείδης οὐδὲν εἶπεν, ἀλλὰ τὸ ἑαυτοῦ ὄνομα ἐν τῷ ὀστράκῳ ἔγραψε καὶ τῷ γεωργῷ ἀπέδωκεν.",
+          "glosses": [
+            {
+              "word": "ἀπέδωκεν",
+              "kind": "<",
+              "value": "ἀπό + δίδωμι | ἀπέδωκε(ν) (gave back)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "pol-2-c",
+      "sentences": [
+        {
+          "text": "πολλοῖς δὲ ἔτεσιν ὕστερον ὁ Ἀριστοτέλης περὶ τοῦ ὀστρακισμοῦ οὕτως ἔγραψεν·",
+          "glosses": [
+            {
+              "word": "ὕστερον",
+              "kind": "en",
+              "value": "later (about 330 BC)"
+            }
+          ]
+        },
+        {
+          "text": "«ὁ Κλεισθένης καινοὺς νόμους ἔθηκεν, ἐν οἷς ἐτέθη καὶ ὁ περὶ τοῦ ὀστρακισμοῦ νόμος.",
+          "orig": [
+            1
+          ],
+          "glosses": [
+            {
+              "word": "καινοὺς",
+              "kind": "en",
+              "value": "new (καινός, -ή, -όν)"
+            },
+            {
+              "word": "ἐτέθη",
+              "kind": "|",
+              "value": "τίθημι | ἐτέθη (aorist passive: was made, was passed)"
+            }
+          ]
+        },
+        {
+          "text": "ἔτει δὲ μετὰ ταῦτα δωδεκάτῳ νικήσαντες τὴν ἐν Μαραθῶνι μάχην, διαλιπόντες ἔτη δύο μετὰ τὴν νίκην, τότε πρῶτον ἐχρήσαντο τῷ νόμῳ τῷ περὶ τὸν ὀστρακισμόν, ὃς ἐτέθη διὰ τὴν ὑποψίαν τῶν ἐν ταῖς δυνάμεσιν, ὅτι Πεισίστρατος δημαγωγὸς καὶ στρατηγὸς ὢν τύραννος κατέστη.",
+          "orig": [
+            2
+          ],
+          "glosses": [
+            {
+              "word": "δωδεκάτῳ",
+              "kind": "en",
+              "value": "twelfth: ἔτει δωδεκάτῳ 'in the twelfth year' (490 BC, counting from 501)"
+            },
+            {
+              "word": "νικήσαντες",
+              "kind": "note",
+              "value": "The subject is 'they', the Athenians: 'having won the battle at Marathon'"
+            },
+            {
+              "word": "διαλιπόντες",
+              "kind": "en",
+              "value": "letting two years pass (διαλείπω)"
+            },
+            {
+              "word": "νίκην",
+              "kind": "<",
+              "value": "νικάω | ἡ νίκη (victory)"
+            },
+            {
+              "word": "ὑποψίαν",
+              "kind": "en",
+              "value": "suspicion (ἡ ὑποψία)"
+            },
+            {
+              "word": "δυνάμεσιν",
+              "kind": "note",
+              "value": "τῶν ἐν ταῖς δυνάμεσιν: of men in power, powerful men"
+            },
+            {
+              "word": "δημαγωγὸς",
+              "kind": "<",
+              "value": "δῆμος + ἄγω | ὁ δημαγωγός (leader of the people)"
+            },
+            {
+              "word": "κατέστη",
+              "kind": "|",
+              "value": "καθίστημι | κατέστη (root aorist: became)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ πρῶτος ὠστρακίσθη τῶν ἐκείνου συγγενῶν Ἵππαρχος, δι’ ὃν καὶ μάλιστα τὸν νόμον ἔθηκεν ὁ Κλεισθένης, ἐξελάσαι βουλόμενος αὐτόν.»",
+          "orig": [
+            3
+          ],
+          "glosses": [
+            {
+              "word": "ὠστρακίσθη",
+              "kind": "|",
+              "value": "ὠστράκισαν | ὠστρακίσθη (aorist passive: was ostracized)"
+            },
+            {
+              "word": "συγγενῶν",
+              "kind": "en",
+              "value": "relatives, kinsmen (ὁ συγγενής)"
+            },
+            {
+              "word": "ἐξελάσαι",
+              "kind": "<",
+              "value": "ἐκ + ἐλαύνω | ἐξελαύνω (drive out) | ἐξελάσαι (aorist infinitive)"
+            }
+          ]
+        },
+        {
+          "text": "ὕστερον δὲ καὶ ὁ Ἀριστείδης ὠστρακίσθη· ἀλλὰ πρὸ τῆς ναυμαχίας οἱ Ἀθηναῖοι αὐτὸν οἴκαδε ἐκάλεσαν."
+        },
+        {
+          "text": "ὁ δὲ Λύσις· «καὶ νῦν ἔτι ὀστρακίζουσιν οἱ Ἀθηναῖοι;»"
+        },
+        {
+          "text": "ὁ δὲ Κλεινίας· «ναί· πρὸ δώδεκα ἐτῶν τὸν Θουκυδίδην τὸν Μελησίου ὠστράκισαν, τὸν τοῦ Περικλέους ἐχθρόν.»",
+          "glosses": [
+            {
+              "word": "δώδεκα",
+              "kind": "en",
+              "value": "twelve: in 443 BC"
+            },
+            {
+              "word": "Θουκυδίδην",
+              "kind": "note",
+              "value": "not the historian, but an older Thucydides, son of Melesias, leader of the opposition to Pericles"
+            },
+            {
+              "word": "ἐχθρόν",
+              "kind": "↔",
+              "value": "ἐχθρός ↔ φίλος (enemy ↔ friend)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "οστρακον",
+      "pic": "ostrakon",
+      "gloss_grc": "τὸ ὄστρακον, τοῦ ὀστράκου: potsherd"
+    },
+    {
+      "id": "οστρακιζω",
+      "gloss_grc": "ὀστρακίζω · ὠστράκισα · ὠστρακίσθην"
+    },
+    {
+      "id": "οστρακισμος",
+      "gloss_grc": "ὁ ὀστρακισμός < ὄστρακον"
+    },
+    {
+      "id": "τυραννις",
+      "gloss_grc": "ἡ τυραννίς, τῆς τυραννίδος < τύραννος"
+    },
+    {
+      "id": "δημαγωγος",
+      "gloss_grc": "ὁ δημαγωγός < δῆμος + ἄγω"
+    },
+    {
+      "id": "εξελαυνω",
+      "gloss_grc": "ἐξελαύνω · ἐξήλασα (ἐξελάσαι): drive out"
+    },
+    {
+      "id": "νικη",
+      "gloss_grc": "ἡ νίκη < νικάω · ἡ ἐν Μαραθῶνι νίκη"
+    },
+    {
+      "id": "δικαιος",
+      "gloss_grc": "δίκαιος, -α, -ον ↔ ἄδικος"
+    },
+    {
+      "id": "ονομα",
+      "gloss_grc": "τὸ ὄνομα, τοῦ ὀνόματος"
+    },
+    {
+      "id": "εχθρος",
+      "gloss_grc": "ἐχθρός, -ά, -όν ↔ φίλος · ὁ ἐχθρός: the enemy"
+    },
+    {
+      "id": "ψηφος",
+      "pic": "psephos",
+      "gloss_grc": "ἡ ψῆφος, τῆς ψήφου: pebble, vote"
+    }
+  ],
+  "notice": [
+    "ἐν οἷς ἐτέθη καὶ ὁ περὶ τοῦ ὀστρακισμοῦ νόμος",
+    "νικήσαντες τὴν ἐν Μαραθῶνι μάχην … τότε πρῶτον ἐχρήσαντο τῷ νόμῳ",
+    "πρῶτος ὠστρακίσθη … Ἵππαρχος … ἐξελάσαι βουλόμενος αὐτόν",
+    "ὃς δ’ ἂν πλείστας ψήφους λάβῃ, δέκα ἔτη ἐκ τῆς πόλεως φεύγει",
+    "ὁ δῆμος φοβεῖται μὴ πάλιν τυραννὶς γένηται"
+  ],
+  "grammar": {
+    "md": "**Reading Aristotle: the attributive phrase.** Aristotle packs information between the article and its noun, the *attributive position* of Unit 7:\n\n- ὁ **περὶ τοῦ ὀστρακισμοῦ** νόμος 'the law about ostracism'\n- τὴν **ἐν Μαραθῶνι** μάχην 'the battle at Marathon'\n- τῷ νόμῳ τῷ **περὶ τὸν ὀστρακισμόν** 'the law about ostracism' (the second article repeats the first)\n- τῶν **ἐν ταῖς δυνάμεσιν** 'of those in power': with no noun, the article makes the phrase a noun, 'the men in positions of power'.\n- τῶν **ἐκείνου** συγγενῶν 'of *his* relatives'\n\nRead such a phrase as one block: when you meet an article, look for the noun that closes it.\n\n**The participle chain.** A sentence of Aristotle can carry several participles before its main verb. Take them in order, and find the verb:\n\n| participle | meaning |\n|---|---|\n| νικήσαντες τὴν ἐν Μαραθῶνι μάχην | having won the battle at Marathon |\n| διαλιπόντες ἔτη δύο | letting two years pass |\n| **main verb:** τότε πρῶτον ἐχρήσαντο τῷ νόμῳ | then for the first time they used the law |\n\nχράομαι 'use' takes the **dative** (τῷ νόμῳ); ὤν in Πεισίστρατος δημαγωγὸς … ὤν is 'being, while he was'.\n\n**Augment on a vowel.** ὀστρακίζω → ὠστράκισα, ὠστρακίσθην (ο → ω), like ὁμολογέω → ὡμολόγησα and ἐλαύνω → ἤλασα (ε → η; ἐξ-ήλασα). ἐάω is irregular: εἴων 'they allowed'.\n\n**Fear and the indefinite, again.** Kleinias uses two constructions from Unit 8: ὁ δῆμος φοβεῖται **μὴ** … γένηται (fear clause) and **ὃς δ’ ἂν** πλείστας ψήφους λάβῃ (indefinite relative: 'whoever …').",
+    "paradigms": [
+      "logos",
+      "doron"
+    ],
+    "diagram": "diagram-position"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings.",
+      "template": "πολλὰ ὄστρακ___ ἐπὶ τῇ γῇ ἐστιν. ἕκαστος ἐν ὀστράκ___ γράφει τὸ ὄνομα. ὃς δ’ ἂν πλείστας ψήφ___ λάβῃ, φεύγει. οἱ Ἀθηναῖοι τὸν Ἀριστείδ___ ὠστράκισαν.",
+      "gaps": [
+        {
+          "answers": [
+            "α"
+          ]
+        },
+        {
+          "answers": [
+            "ῳ"
+          ]
+        },
+        {
+          "answers": [
+            "ους"
+          ]
+        },
+        {
+          "answers": [
+            "ην"
+          ]
+        }
+      ],
+      "skills": [
+        "noun.decl2.neuter",
+        "noun.decl2.dat.sg",
+        "noun.decl2.acc.pl",
+        "noun.decl1.masc"
+      ],
+      "explain": "πολλὰ ὄστρακα (neuter plural in -α), ἐν ὀστράκῳ (dative singular), πλείστας ψήφους (ἡ ψῆφος is feminine but declines like λόγος: acc. pl. -ους), τὸν Ἀριστείδην (a 1st-declension name in -ης, like πολίτης: acc. -ην)."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · οἱ Ἀθηναῖοι τὸν Ἀριστείδην ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὠστράκισαν"
+        },
+        {
+          "id": "b",
+          "text": "ὀστράκισαν"
+        },
+        {
+          "id": "c",
+          "text": "ὠστρακίσθη"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "verb.augment",
+        "verb.aor.act.ind.3pl"
+      ],
+      "explain": "ὀστρακίζω begins with ο, so the augment lengthens it to ω: ὠστράκισαν 'they ostracized'. ὠστρακίσθη is passive, 'he was ostracized'.",
+      "audio": "οἱ Ἀθηναῖοι τὸν Ἀριστείδην ὠστράκισαν."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ὁ δῆμος φοβεῖται ___ πάλιν τυραννὶς γένηται.",
+      "options": [
+        {
+          "id": "a",
+          "text": "μὴ"
+        },
+        {
+          "id": "b",
+          "text": "οὐ"
+        },
+        {
+          "id": "c",
+          "text": "ἵνα"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.fear"
+      ],
+      "explain": "Fear clause: φοβεῖται μή + subjunctive, 'fears that tyranny may arise again' (Unit 8).",
+      "audio": "ὁ δῆμος φοβεῖται μὴ πάλιν τυραννὶς γένηται."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · πρῶτος ὠστρακίσθη Ἵππαρχος, ὃν ὁ Κλεισθένης ___ ἐβούλετο.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐξελάσαι"
+        },
+        {
+          "id": "b",
+          "text": "ἐξελαύνων"
+        },
+        {
+          "id": "c",
+          "text": "ἐξήλασε"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.infinitive",
+        "verb.aor.act.inf"
+      ],
+      "explain": "βούλομαι takes an infinitive: ἐξελάσαι 'to drive out' (aorist infinitive of ἐξελαύνω).",
+      "audio": "πρῶτος ὠστρακίσθη Ἵππαρχος, ὃν ὁ Κλεισθένης ἐξελάσαι ἐβούλετο."
+    },
+    {
+      "type": "pick-picture",
+      "prompt": "τὸ ὄστρακον",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "image": "ostrakon"
+        },
+        {
+          "id": "b",
+          "image": "psephos"
+        },
+        {
+          "id": "c",
+          "image": "hydria"
+        },
+        {
+          "id": "d",
+          "image": "kadiskos"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition",
+        "vocab.pol"
+      ],
+      "explain": "τὸ ὄστρακον: a potsherd with a name scratched on it. The pebble is ἡ ψῆφος."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ ὀστρακισμός"
+        },
+        {
+          "id": "b",
+          "text": "τὸ ὄστρακον"
+        },
+        {
+          "id": "c",
+          "text": "ὁ ὀβολός"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.pol"
+      ],
+      "explain": "ὁ ὀστρακισμός: the vote with potsherds.",
+      "audio": "ὁ ὀστρακισμός"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist passive of ὀστρακίζω for 'he was ostracized'.",
+      "lemma": "ὀστρακίζω",
+      "cell": "aorist.passive.indicative.3sg",
+      "skills": [
+        "verb.aor.pass.ind.3sg",
+        "verb.augment"
+      ],
+      "explain": "ὠστρακίσθη: augment ω-, stem ὀστρακισ-, passive -θη.",
+      "audio": "ὠστρακίσθη"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the genitive singular of ὄνομα: 'of the name'.",
+      "lemma": "ὄνομα",
+      "cell": "gen.sg",
+      "skills": [
+        "noun.decl3.gen.sg",
+        "vocab.pol"
+      ],
+      "explain": "ὀνόματος: τὸ ὄνομα, τοῦ ὀνόματος, like γράμμα, γράμματος.",
+      "audio": "ὀνόματος"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the accusative singular of ψῆφος.",
+      "lemma": "ψῆφος",
+      "cell": "acc.sg",
+      "skills": [
+        "noun.decl2.acc.sg",
+        "noun.gender"
+      ],
+      "explain": "τὴν ψῆφον: feminine, but it declines like λόγος.",
+      "audio": "τὴν ψῆφον"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ὠστρακίσθη.",
+      "form": "ὠστρακίσθη",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "voice",
+          "label": "Voice",
+          "options": [
+            {
+              "id": "act",
+              "label": "active"
+            },
+            {
+              "id": "mid",
+              "label": "middle"
+            },
+            {
+              "id": "pass",
+              "label": "passive"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "voice": "pass"
+      },
+      "skills": [
+        "verb.aor.pass.ind.3sg"
+      ],
+      "explain": "ὠ-στρακισ-θη: augment and -θη: aorist passive, 'he was ostracized'.",
+      "audio": "ὠστρακίσθη"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse νικήσαντες.",
+      "form": "νικήσαντες",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            },
+            {
+              "id": "voc",
+              "label": "vocative"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "mood": "ptc",
+        "case": "nom"
+      },
+      "skills": [
+        "verb.ptc.aor.act",
+        "read.pol.aristotle"
+      ],
+      "explain": "νικήσ-αντες: aorist active participle, nominative plural, agreeing with the unexpressed subject 'they' (the Athenians).",
+      "audio": "νικήσαντες"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ὃς δ’ ἂν πλείστας ψήφους λάβῃ, δέκα ἔτη φεύγει. ὃς ἄν + subjunctive means ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "whoever"
+        },
+        {
+          "id": "b",
+          "text": "because he"
+        },
+        {
+          "id": "c",
+          "text": "so that he"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.indefinite"
+      ],
+      "explain": "An indefinite relative clause: 'whoever gets the most votes'."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "The man who was ostracized lost ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "neither his property nor his citizenship: he left for ten years"
+        },
+        {
+          "id": "b",
+          "text": "his property"
+        },
+        {
+          "id": "c",
+          "text": "his life"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.pol.institutions",
+        "read.comprehension"
+      ],
+      "explain": "ἡ δὲ οὐσία αὐτοῦ μένει: ostracism was not a punishment for a crime, only ten years' absence."
+    },
+    {
+      "type": "label",
+      "prompt": "ὁ δῆμος φοβεῖται μὴ πάλιν τυραννὶς γένηται. What kind of clause follows φοβεῖται?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a fear clause (μή + subjunctive)"
+        },
+        {
+          "id": "b",
+          "text": "a purpose clause"
+        },
+        {
+          "id": "c",
+          "text": "a prohibition"
+        },
+        {
+          "id": "d",
+          "text": "a condition"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.fear"
+      ],
+      "explain": "After verbs of fearing, μή means 'that, lest': 'fears that a tyranny may arise'."
+    },
+    {
+      "type": "label",
+      "prompt": "ἐξελάσαι βουλόμενος αὐτόν: what does the participle βουλόμενος add?",
+      "options": [
+        {
+          "id": "a",
+          "text": "the reason or aim: 'because he wanted to drive him out'"
+        },
+        {
+          "id": "b",
+          "text": "the time: 'after he had driven him out'"
+        },
+        {
+          "id": "c",
+          "text": "a condition: 'if he wanted'"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "verb.ptc.use",
+        "read.pol.aristotle"
+      ],
+      "explain": "Aristotle often gives a motive with a participle of wanting: ἀναμεῖξαι βουλόμενος (pol.1), ἐξελάσαι βουλόμενος."
+    },
+    {
+      "type": "transform",
+      "prompt": "Make it passive: οἱ Ἀθηναῖοι τὸν Ἵππαρχον ὠστράκισαν. → ὁ Ἵππαρχος ὑπὸ τῶν Ἀθηναίων ___.",
+      "template": "ὁ Ἵππαρχος ὑπὸ τῶν Ἀθηναίων ___.",
+      "gaps": [
+        {
+          "answers": [
+            "ὠστρακίσθη"
+          ]
+        }
+      ],
+      "skills": [
+        "verb.aor.pass.ind.3sg",
+        "syntax.agent"
+      ],
+      "explain": "ὠστρακίσθη ὑπὸ τῶν Ἀθηναίων: the agent with ὑπό + genitive."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the name of the first man to be ostracized.",
+      "sentence": "καὶ πρῶτος ὠστρακίσθη τῶν ἐκείνου συγγενῶν Ἵππαρχος, δι’ ὃν καὶ μάλιστα τὸν νόμον ἔθηκεν ὁ Κλεισθένης, ἐξελάσαι βουλόμενος αὐτόν.",
+      "answer": [
+        6
+      ],
+      "skills": [
+        "read.locate",
+        "read.pol.aristotle"
+      ],
+      "explain": "Hipparchus son of Charmus, a relative of the tyrant Peisistratus, ostracized in 488/7."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the two aorist participles.",
+      "sentence": "ἔτει δὲ μετὰ ταῦτα δωδεκάτῳ νικήσαντες τὴν ἐν Μαραθῶνι μάχην, διαλιπόντες ἔτη δύο μετὰ τὴν νίκην, τότε πρῶτον ἐχρήσαντο τῷ νόμῳ τῷ περὶ τὸν ὀστρακισμόν, ὃς ἐτέθη διὰ τὴν ὑποψίαν τῶν ἐν ταῖς δυνάμεσιν, ὅτι Πεισίστρατος δημαγωγὸς καὶ στρατηγὸς ὢν τύραννος κατέστη.",
+      "answer": [
+        5,
+        10
+      ],
+      "skills": [
+        "read.locate",
+        "verb.ptc.aor.act"
+      ],
+      "explain": "νικήσαντες 'having won' and διαλιπόντες 'having let (two years) pass'; ὤν is a present participle."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'Each man writes a name on a potsherd.'",
+      "tokens": [
+        "ἕκαστος",
+        "ἐν",
+        "ὀστράκῳ",
+        "ὄνομα",
+        "γράφει"
+      ],
+      "answers": [
+        "ἕκαστος ἐν ὀστράκῳ ὄνομα γράφει",
+        "ἕκαστος ὄνομα ἐν ὀστράκῳ γράφει",
+        "ἕκαστος γράφει ὄνομα ἐν ὀστράκῳ",
+        "ἕκαστος γράφει ἐν ὀστράκῳ ὄνομα",
+        "ἐν ὀστράκῳ ἕκαστος ὄνομα γράφει"
+      ],
+      "skills": [
+        "syntax.word-order"
+      ],
+      "explain": "Greek word order is free; the verb often comes last."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἡ δὲ οὐσία αὐτοῦ μένει."
+        },
+        {
+          "id": "b",
+          "text": "ἡ δὲ οἰκία αὐτοῦ μένει."
+        },
+        {
+          "id": "c",
+          "text": "ὁ δὲ υἱὸς αὐτοῦ μένει."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "His property stays (with him).",
+      "audio": "ἡ δὲ οὐσία αὐτοῦ μένει."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ ὀστρακισμὸς δίκη ἐστίν.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "οὐ γὰρ δίκη ἐστὶν ὁ ὀστρακισμός."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ γεωργὸς τὸν Ἀριστείδην οὐκ ἐγίγνωσκεν.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "οὐ γὰρ ἐγίγνωσκεν αὐτόν."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Ἀριστείδης τὸ ἑαυτοῦ ὄνομα ἐν τῷ ὀστράκῳ ἔγραψεν.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "τὸ ἑαυτοῦ ὄνομα ἐν τῷ ὀστράκῳ ἔγραψε."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "gaps": [
+        {
+          "answers": [
+            "τὸν Ἀριστείδην ὠστράκισαν"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "τὸν Ἀριστείδην ὠστράκισαν: 'they ostracized Aristides'.",
+      "audio": "τὸν Ἀριστείδην ὠστράκισαν."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'The people fear the tyrant.'",
+      "gaps": [
+        {
+          "answers": [
+            "ὁ δῆμος τὸν τύραννον φοβεῖται",
+            "ὁ δῆμος φοβεῖται τὸν τύραννον",
+            "τὸν τύραννον ὁ δῆμος φοβεῖται",
+            "τὸν τύραννον φοβεῖται ὁ δῆμος"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "verb.deponent"
+      ],
+      "explain": "φοβεῖται is middle in form, active in meaning, and takes an accusative."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'Aristides was just.'",
+      "gaps": [
+        {
+          "answers": [
+            "ὁ Ἀριστείδης δίκαιος ἦν",
+            "ὁ Ἀριστείδης ἦν δίκαιος",
+            "δίκαιος ἦν ὁ Ἀριστείδης",
+            "Ἀριστείδης δίκαιος ἦν",
+            "δίκαιος ἦν Ἀριστείδης"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "adj.predicate"
+      ],
+      "explain": "A predicate adjective: ὁ Ἀριστείδης δίκαιος ἦν."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: καὶ πρῶτος ὠστρακίσθη τῶν ἐκείνου συγγενῶν Ἵππαρχος, δι’ ὃν καὶ μάλιστα τὸν νόμον ἔθηκεν ὁ Κλεισθένης, ἐξελάσαι βουλόμενος αὐτόν.",
+      "audio": "καὶ πρῶτος ὠστρακίσθη τῶν ἐκείνου συγγενῶν Ἵππαρχος, δι’ ὃν καὶ μάλιστα τὸν νόμον ἔθηκεν ὁ Κλεισθένης, ἐξελάσαι βουλόμενος αὐτόν.",
+      "model": "And the first of that man's relatives to be ostracized was Hipparchus, because of whom above all Cleisthenes had made the law, wanting to drive him out.",
+      "skills": [
+        "read.adapted-text",
+        "read.pol.aristotle"
+      ],
+      "explain": "πρῶτος … τῶν ἐκείνου συγγενῶν: 'first of his (Peisistratus') kinsmen'; δι’ ὅν 'because of whom'; ἔθηκεν here 'had made'."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "τὸ ὄστρακον",
+          "right": "ostracize"
+        },
+        {
+          "left": "ὁ δημαγωγός",
+          "right": "demagogue"
+        },
+        {
+          "left": "τὸ ὄνομα",
+          "right": "anonymous, synonym"
+        },
+        {
+          "left": "ἡ ψῆφος",
+          "right": "psephology (the study of elections)"
+        },
+        {
+          "left": "ἡ νίκη",
+          "right": "Nike"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "ὄστρακον 'sherd' (also 'shell': ostracod); ὄνομα 'name'; ψῆφος 'pebble, vote'; Νίκη, the goddess of victory."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "τί ηὗρεν ὁ Λύσις ἐν τῷ ἐργαστηρίῳ;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὄστρακον, ἐν ᾧ ἦν τὸ ὄνομα Ἀριστείδου."
+        },
+        {
+          "id": "b",
+          "text": "ψῆφον χαλκῆν."
+        },
+        {
+          "id": "c",
+          "text": "βιβλίον περὶ τοῦ Κλεισθένους."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἐν γὰρ τῷ ὀστράκῳ ἄνθρωπός τις πάλαι ὄνομα ἔγραψεν.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "πόσα ἔτη φεύγει ὁ ἀνὴρ ὃν ὀστρακίζουσιν;",
+      "options": [
+        {
+          "id": "a",
+          "text": "δέκα."
+        },
+        {
+          "id": "b",
+          "text": "δύο."
+        },
+        {
+          "id": "c",
+          "text": "τριάκοντα."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "read.pol.institutions"
+      ],
+      "explain": "δέκα ἔτη ἐκ τῆς πόλεως φεύγει.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "διὰ τί ὁ γεωργὸς τὸν Ἀριστείδην ὀστρακίζειν ἐβούλετο;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἤχθετο ἀκούων αὐτὸν δίκαιον καλούμενον."
+        },
+        {
+          "id": "b",
+          "text": "ὁ Ἀριστείδης αὐτὸν ἠδίκησεν."
+        },
+        {
+          "id": "c",
+          "text": "ὁ Ἀριστείδης τύραννος ἦν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἄχθομαι ἀκούων πανταχοῦ αὐτὸν δίκαιον καλούμενον.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "διὰ τί ἐτέθη ὁ περὶ τοῦ ὀστρακισμοῦ νόμος;",
+      "options": [
+        {
+          "id": "a",
+          "text": "διὰ τὴν ὑποψίαν τῶν ἐν ταῖς δυνάμεσιν."
+        },
+        {
+          "id": "b",
+          "text": "διὰ τὴν νίκην τὴν ἐν Μαραθῶνι."
+        },
+        {
+          "id": "c",
+          "text": "διὰ τὸν πόλεμον τὸν πρὸς τοὺς Λακεδαιμονίους."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "read.pol.aristotle"
+      ],
+      "explain": "ὃς ἐτέθη διὰ τὴν ὑποψίαν τῶν ἐν ταῖς δυνάμεσιν.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίνα ὠστράκισαν οἱ Ἀθηναῖοι πρὸ δώδεκα ἐτῶν;",
+      "options": [
+        {
+          "id": "a",
+          "text": "τὸν Θουκυδίδην τὸν Μελησίου."
+        },
+        {
+          "id": "b",
+          "text": "τὸν Περικλέα."
+        },
+        {
+          "id": "c",
+          "text": "τὸν Κλεισθένη."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "τὸν Θουκυδίδην τὸν Μελησίου ὠστράκισαν, τὸν τοῦ Περικλέους ἐχθρόν.",
+      "audio": "prompt"
+    }
+  ],
+  "culture": {
+    "title": "Ostracism",
+    "md": "Once a year, in the sixth prytany (midwinter), the Assembly voted by show of hands whether to hold an ostracism that year. If it voted yes, some weeks later the Agora was fenced off, with ten entrances, one for each tribe. Each citizen scratched or painted a name on a potsherd (ὄστρακον), the free scrap paper of a city full of broken pots, and dropped it in. If at least 6,000 sherds were cast (or, on another account, 6,000 against one man), the man with the most had ten days to leave Attica for ten years. He kept his property and his citizenship and could return afterwards; it was not a trial and he was accused of nothing.\n\nMore than 11,000 ostraka have been found in Athens, most of them in the Agora and the Kerameikos, among them sherds naming Themistocles, Aristides, Megacles and Pericles' father Xanthippus. One deposit of 190 sherds for Themistocles was written by only a few hands, prepared in advance for voters who could not write, or for a campaign. The last ostracism was held around 417/6, when Nicias and Alcibiades joined forces and turned the vote against a third man, Hyperbolus; after that the Athenians did not use it again.",
+    "image": "pol-ostraka-themistocles"
+  },
+  "quiz": [
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist active infinitive of ἐξελαύνω.",
+      "lemma": "ἐξελαύνω",
+      "cell": "aorist.active.infinitive.inf",
+      "skills": [
+        "verb.aor.act.inf",
+        "vocab.pol"
+      ],
+      "explain": "ἐξελάσαι 'to drive out'.",
+      "audio": "ἐξελάσαι"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ὁ Ἀριστείδης ___ ἐκαλεῖτο.",
+      "options": [
+        {
+          "id": "a",
+          "text": "δίκαιος"
+        },
+        {
+          "id": "b",
+          "text": "δίκαιον"
+        },
+        {
+          "id": "c",
+          "text": "δικαίου"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "adj.predicate",
+        "adj.agree"
+      ],
+      "explain": "Nominative, agreeing with the subject: 'Aristides was called just'."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ δημαγωγός"
+        },
+        {
+          "id": "b",
+          "text": "ὁ διδάσκαλος"
+        },
+        {
+          "id": "c",
+          "text": "ὁ στρατηγός"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.pol"
+      ],
+      "explain": "ὁ δημαγωγός: a leader of the people.",
+      "audio": "ὁ δημαγωγός"
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ ὀστρακισθεὶς τὴν οὐσίαν ἀπέβαλεν.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension",
+        "read.pol.institutions"
+      ],
+      "explain": "ἡ δὲ οὐσία αὐτοῦ μένει."
+    },
+    {
+      "type": "label",
+      "prompt": "ἐπὶ τῇ γῇ … ἐν τῷ ὀστράκῳ … ἐν τῇ ἐκκλησίᾳ: all these datives tell us …",
+      "options": [
+        {
+          "id": "a",
+          "text": "where"
+        },
+        {
+          "id": "b",
+          "text": "when"
+        },
+        {
+          "id": "c",
+          "text": "with what"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.dat.uses"
+      ],
+      "explain": "ἐν / ἐπί + dative: place where."
+    },
+    {
+      "type": "match",
+      "prompt": "Match the Greek to the English.",
+      "pairs": [
+        {
+          "left": "τὸ ὄστρακον",
+          "right": "potsherd"
+        },
+        {
+          "left": "ὁ ὀστρακισμός",
+          "right": "ostracism"
+        },
+        {
+          "left": "ἡ νίκη",
+          "right": "victory"
+        },
+        {
+          "left": "ὁ ἐχθρός",
+          "right": "enemy"
+        },
+        {
+          "left": "ἡ τυραννίς",
+          "right": "tyranny"
+        }
+      ],
+      "skills": [
+        "vocab.recognition",
+        "vocab.pol"
+      ],
+      "explain": "ὄστρακον, ὀστρακισμός, νίκη, ἐχθρός, τυραννίς."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the dative plural of ὄστρακον: 'on potsherds'.",
+      "lemma": "ὄστρακον",
+      "cell": "dat.pl",
+      "skills": [
+        "noun.decl2.dat.pl",
+        "vocab.pol"
+      ],
+      "explain": "ὀστράκοις: the accent moves to the penult because the ending is long.",
+      "audio": "ὀστράκοις"
+    }
+  ],
+  "skills": [
+    "read.adapted-text",
+    "read.pol.aristotle",
+    "read.pol.institutions",
+    "read.comprehension",
+    "read.locate",
+    "syntax.fear",
+    "syntax.indefinite",
+    "syntax.infinitive",
+    "syntax.agent",
+    "syntax.word-order",
+    "syntax.dat.uses",
+    "noun.decl2.neuter",
+    "noun.decl2.dat.sg",
+    "noun.decl2.acc.pl",
+    "noun.decl2.acc.sg",
+    "noun.decl2.dat.pl",
+    "noun.decl1.masc",
+    "noun.decl3.gen.sg",
+    "noun.gender",
+    "adj.predicate",
+    "adj.agree",
+    "verb.augment",
+    "verb.aor.act.ind.3pl",
+    "verb.aor.act.inf",
+    "verb.aor.pass.ind.3sg",
+    "verb.ptc.aor.act",
+    "verb.ptc.use",
+    "verb.deponent",
+    "listen.words",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.family",
+    "vocab.pol"
+  ]
+}

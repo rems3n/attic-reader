@@ -1,0 +1,618 @@
+{
+ "id": "unit-10",
+ "title_grc": "Ἡ ἀγορὰ τῶν λόγων · ἔλεγχος",
+ "title_en": "Unit 10 test",
+ "scope": "10.4",
+ "pass_score": 0.8,
+ "unlock_after_hours": 24,
+ "retake_after_days": 7,
+ "blurb": "Everything from Lessons 10.1–10.4: Socrates in the Agora, Lysis's questions, what virtue is, the plague and Kleinias's last story. The perfect and pluperfect (active and middle/passive), οἶδα and ἕστηκα, πρίν, the articular infinitive, ὡς, the potential optative, ὥστε, the accusative absolute and all kinds of conditions. Four parts; no feedback until the end. 80 % to pass.",
+ "sections": [
+  {
+   "id": "vocab",
+   "title": "Λέξεις · Vocabulary",
+   "items": [
+    {
+     "type": "pick-picture",
+     "prompt": "ἡ ψυχή",
+     "audio": "prompt",
+     "options": [
+      {
+       "id": "a",
+       "image": "soma"
+      },
+      {
+       "id": "b",
+       "image": "psyche"
+      },
+      {
+       "id": "c",
+       "image": "kosmos"
+      },
+      {
+       "id": "d",
+       "image": "kyklos"
+      }
+     ],
+     "answer": "b",
+     "skills": [
+      "vocab.recognition"
+     ],
+     "explain": "ψυχή: soul."
+    },
+    {
+     "type": "pick-picture",
+     "prompt": "ὁ πρέσβυς",
+     "audio": "prompt",
+     "options": [
+      {
+       "id": "a",
+       "image": "teknon"
+      },
+      {
+       "id": "b",
+       "image": "neos"
+      },
+      {
+       "id": "c",
+       "image": "presbys"
+      }
+     ],
+     "answer": "c",
+     "skills": [
+      "vocab.recognition"
+     ],
+     "explain": "πρέσβυς: old man."
+    },
+    {
+     "type": "pick-picture",
+     "prompt": "ὁ κύκλος",
+     "audio": "prompt",
+     "options": [
+      {
+       "id": "a",
+       "image": "kyklos"
+      },
+      {
+       "id": "b",
+       "image": "arithmos"
+      },
+      {
+       "id": "c",
+       "image": "stoa-poikile"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "vocab.recognition"
+     ],
+     "explain": "κύκλος: circle."
+    },
+    {
+     "type": "listen-pick",
+     "prompt": "Listen and choose what you hear.",
+     "audio": "ἡ ἀρετή",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἡ ἀρχή"
+      },
+      {
+       "id": "b",
+       "text": "ἡ ἀρετή"
+      },
+      {
+       "id": "c",
+       "text": "ἡ ἀνάγκη"
+      }
+     ],
+     "answer": "b",
+     "skills": [
+      "listen.words"
+     ],
+     "explain": "ἡ ἀρετή: excellence, virtue."
+    },
+    {
+     "type": "listen-pick",
+     "prompt": "Listen and choose what you hear.",
+     "audio": "ἃ μὴ οἶδα, οὐδὲ οἴομαι εἰδέναι.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἃ μὴ οἶδα, οὐδὲ οἴομαι εἰδέναι."
+      },
+      {
+       "id": "b",
+       "text": "ἃ οἶδα, ταῦτα καὶ λέγω."
+      },
+      {
+       "id": "c",
+       "text": "ἃ μὴ οἶσθα, οὐδὲ οἴει εἰδέναι."
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "listen.sentences",
+      "verb.oida"
+     ],
+     "explain": "'What I do not know, I do not even think I know.'"
+    },
+    {
+     "type": "match",
+     "prompt": "Match each word to its meaning.",
+     "pairs": [
+      {
+       "left": "ἡ ἀρετή",
+       "right": "excellence, virtue"
+      },
+      {
+       "left": "ἡ φύσις",
+       "right": "nature"
+      },
+      {
+       "left": "ἡ δόξα",
+       "right": "opinion"
+      },
+      {
+       "left": "ὁ βίος",
+       "right": "life"
+      },
+      {
+       "left": "ἡ ἀνάγκη",
+       "right": "necessity"
+      }
+     ],
+     "skills": [
+      "vocab.recognition",
+      "vocab.stage2"
+     ],
+     "explain": "ἀρετή, φύσις, δόξα, βίος, ἀνάγκη."
+    },
+    {
+     "type": "cloze-type",
+     "prompt": "Type the Greek for 'number' (with its article).",
+     "gaps": [
+      {
+       "answers": [
+        "ὁ ἀριθμός",
+        "ἀριθμός"
+       ]
+      }
+     ],
+     "skills": [
+      "vocab.production"
+     ],
+     "explain": "ὁ ἀριθμός.",
+     "audio": "ὁ ἀριθμός"
+    },
+    {
+     "type": "cloze-type",
+     "prompt": "Type the Greek for 'child' (with its article).",
+     "gaps": [
+      {
+       "answers": [
+        "τὸ τέκνον",
+        "τέκνον"
+       ]
+      }
+     ],
+     "skills": [
+      "vocab.production"
+     ],
+     "explain": "τὸ τέκνον.",
+     "audio": "τὸ τέκνον"
+    }
+   ]
+  },
+  {
+   "id": "forms",
+   "title": "Τύποι · Forms",
+   "items": [
+    {
+     "type": "parse",
+     "prompt": "Parse ἐτέτακτο.",
+     "form": "ἐτέτακτο",
+     "groups": [
+      {
+       "id": "tense",
+       "label": "Tense",
+       "options": [
+        {
+         "id": "impf",
+         "label": "imperfect"
+        },
+        {
+         "id": "perf",
+         "label": "perfect"
+        },
+        {
+         "id": "plpf",
+         "label": "pluperfect"
+        }
+       ]
+      },
+      {
+       "id": "voice",
+       "label": "Voice",
+       "options": [
+        {
+         "id": "act",
+         "label": "active"
+        },
+        {
+         "id": "mp",
+         "label": "middle / passive"
+        }
+       ]
+      }
+     ],
+     "answer": {
+      "tense": "plpf",
+      "voice": "mp"
+     },
+     "skills": [
+      "verb.plpf.mp.ind.3sg"
+     ],
+     "explain": "ἐ-τε-ταγ-το: augment + reduplication + -το, 'had been set out'.",
+     "audio": "ἐτέτακτο"
+    },
+    {
+     "type": "parse",
+     "prompt": "Parse εἰδώς.",
+     "form": "εἰδώς",
+     "groups": [
+      {
+       "id": "lemma",
+       "label": "From",
+       "options": [
+        {
+         "id": "oida",
+         "label": "οἶδα 'know'"
+        },
+        {
+         "id": "horao",
+         "label": "ὁράω 'see' (aorist εἶδον)"
+        },
+        {
+         "id": "eimi",
+         "label": "εἰμί 'be'"
+        }
+       ]
+      },
+      {
+       "id": "form",
+       "label": "Form",
+       "options": [
+        {
+         "id": "ptc",
+         "label": "participle"
+        },
+        {
+         "id": "inf",
+         "label": "infinitive"
+        },
+        {
+         "id": "ind",
+         "label": "indicative"
+        }
+       ]
+      }
+     ],
+     "answer": {
+      "lemma": "oida",
+      "form": "ptc"
+     },
+     "skills": [
+      "verb.oida",
+      "verb.ptc.perf.act"
+     ],
+     "explain": "εἰδώς, εἰδυῖα, εἰδός: 'knowing', the participle of οἶδα. The aorist participle of ὁράω is ἰδών.",
+     "audio": "εἰδώς"
+    }
+   ],
+   "generate": {
+    "skills": [
+     "verb.perf.act.ind.3sg",
+     "verb.perf.act.ind.1sg",
+     "verb.perf.mp.ind.3sg",
+     "verb.perf.mp.ind.1sg",
+     "verb.plpf.mp.ind.3sg",
+     "verb.plpf.act.ind.3sg",
+     "verb.perf.act.inf",
+     "verb.ptc.perf.act",
+     "verb.pres.act.opt.3sg",
+     "verb.aor.act.opt.3sg"
+    ],
+    "n": 10,
+    "seed": 10
+   }
+  },
+  {
+   "id": "sentences",
+   "title": "Λόγοι · Sentences",
+   "items": [
+    {
+     "type": "cloze-choice",
+     "prompt": "ἐν τῷ τοίχῳ τῆς στοᾶς ἡ μάχη ___ (and the painting is still there).",
+     "options": [
+      {
+       "id": "a",
+       "text": "γέγραπται"
+      },
+      {
+       "id": "b",
+       "text": "ἐγράφετο"
+      },
+      {
+       "id": "c",
+       "text": "γράφεται"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "verb.perf.mp.ind.3sg"
+     ],
+     "explain": "The perfect: a past action whose result stands now."
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "μὴ ἐξέλθητε πρὶν ἂν ἐγὼ ὑμᾶς ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "καλέσω"
+      },
+      {
+       "id": "b",
+       "text": "καλέσαι"
+      },
+      {
+       "id": "c",
+       "text": "ἐκάλεσα"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.prin"
+     ],
+     "explain": "Negative main clause, future: πρὶν ἄν + subjunctive, 'until I call you'."
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "Which ὡς? — ὁ Σωκράτης λέγει ὡς οὐδὲν οἶδεν.",
+     "options": [
+      {
+       "id": "a",
+       "text": "that"
+      },
+      {
+       "id": "b",
+       "text": "when"
+      },
+      {
+       "id": "c",
+       "text": "as … as possible"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.hos"
+     ],
+     "explain": "After a verb of saying: 'that'."
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "ἡ κύλιξ τὸν οἶνον καλῶς φέρει, ὥστε μηδὲν ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἐκχεῖν"
+      },
+      {
+       "id": "b",
+       "text": "ἐκχεῖ"
+      },
+      {
+       "id": "c",
+       "text": "ἐκχέοι"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.result"
+     ],
+     "explain": "ὥστε + infinitive (negative μή): a natural result."
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "Which kind of condition? — εἰ θεός τις ἐμοὶ τοῦτο δοίη, οὐκ ἂν κλαίοιμι.",
+     "options": [
+      {
+       "id": "a",
+       "text": "future less vivid"
+      },
+      {
+       "id": "b",
+       "text": "contrary to fact, present"
+      },
+      {
+       "id": "c",
+       "text": "present general"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.cond.fl"
+     ],
+     "explain": "εἰ + optative, ἄν + optative."
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "εἰ ὁ ἰατρὸς ἐνθάδε ἦν, τὸν πρέσβυν ἂν ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "θεραπεύσει"
+      },
+      {
+       "id": "b",
+       "text": "ἐθεράπευεν"
+      },
+      {
+       "id": "c",
+       "text": "θεραπεύοι"
+      }
+     ],
+     "answer": "b",
+     "skills": [
+      "syntax.cond.cf-present"
+     ],
+     "explain": "Contrary to fact, present: ἄν + imperfect."
+    },
+    {
+     "type": "transform",
+     "prompt": "Make it a present result (perfect): ὁ πατὴρ πολλὰς κύλικας ἐποίησεν. → ὁ πατὴρ πολλὰς κύλικας …",
+     "template": "ὁ πατὴρ πολλὰς κύλικας ___.",
+     "gaps": [
+      {
+       "answers": [
+        "πεποίηκε(ν)"
+       ]
+      }
+     ],
+     "skills": [
+      "verb.perf.act.ind.3sg"
+     ],
+     "explain": "πεποίηκεν 'has made'."
+    },
+    {
+     "type": "compose-grc",
+     "prompt": "Write in Greek: 'What would virtue be?'",
+     "gaps": [
+      {
+       "answers": [
+        "τί ἂν εἴη ἡ ἀρετή",
+        "ἡ ἀρετὴ τί ἂν εἴη"
+       ]
+      }
+     ],
+     "skills": [
+      "vocab.production",
+      "syntax.opt-potential"
+     ],
+     "explain": "τί ἂν εἴη ἡ ἀρετή;"
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "Ἀνάγνωσις · Reading",
+   "passage_title": "ὁ Λύσις καὶ ὁ Σωκράτης μετὰ τὸν λοιμόν",
+   "passage": "ὁ λοιμὸς ἔτι ἐν τῇ πόλει ἦν. ἐπεὶ δὲ ὁ Κλεινίας ἀπέθανεν, ὁ Λύσις πολλὰς ἡμέρας ἐν τῇ οἰκίᾳ ἔμενεν· τέλος δὲ εἰς τὴν ἀγορὰν ἦλθε καὶ τὸν Σωκράτη ἐν τῇ στοᾷ ἑστηκότα εὗρεν. ὁ δὲ Σωκράτης, ὡς αὐτὸν εἶδεν, «ὦ Λύσι», ἔφη, «πολὺν χρόνον σε οὐχ ἑώρακα. τί πέπονθας;» ὁ δὲ Λύσις· «ὁ πάππος μου οὐκέτι ζῇ, ὦ Σώκρατες. εἰ ὁ ἰατρὸς ἦλθεν, ὁ πάππος οὐκ ἂν ἀπέθανεν.» ὁ δὲ Σωκράτης· «οὐκ οἶδα, ὦ παῖ· καὶ γὰρ οἱ ἰατροὶ τὸν λοιμὸν οὐκ ἐπίστανται. ἀλλὰ πῶς ἀπέθανεν;» «ἥσυχος, μῦθον παλαιὸν ἡμῖν εἰπών.» «ὀρθῶς οὖν ἔζη καὶ ὀρθῶς ἀπέθανεν. καὶ ἡ ἀρετὴ αὐτοῦ ἐν ταῖς ὑμετέραις ψυχαῖς μένει· ταύτην γὰρ ὁ λοιμὸς οὐκ ἂν ἀφέλοιτο. ἐὰν δὲ τοὺς μύθους αὐτοῦ τοῖς σοῖς τέκνοις λέγῃς, καὶ τὰ τέκνα αὐτοὺς εἴσεται.» ὁ δὲ Λύσις τούτους τοὺς λόγους πολλὰ ἔτη ἐφύλαττεν, ὥσπερ ὁ Κλεινίας τοὺς παλαιοὺς μύθους.",
+   "items": [
+    {
+     "type": "true-false-grc",
+     "prompt": "ὁ Λύσις εὐθὺς μετὰ τὸν τοῦ πάππου θάνατον εἰς τὴν ἀγορὰν ἦλθεν.",
+     "answer": "false",
+     "skills": [
+      "read.comprehension",
+      "read.unseen"
+     ],
+     "explain": "πολλὰς ἡμέρας ἐν τῇ οἰκίᾳ ἔμενεν."
+    },
+    {
+     "type": "true-false-grc",
+     "prompt": "ὁ Σωκράτης λέγει ὅτι οἱ ἰατροὶ τὸν λοιμὸν οὐκ ἐπίστανται.",
+     "answer": "true",
+     "skills": [
+      "read.comprehension",
+      "read.unseen"
+     ],
+     "explain": "καὶ γὰρ οἱ ἰατροὶ τὸν λοιμὸν οὐκ ἐπίστανται."
+    },
+    {
+     "type": "true-false-grc",
+     "prompt": "ὁ Σωκράτης λέγει ὅτι ὁ λοιμὸς καὶ τὴν ἀρετὴν τοῦ Κλεινίου ἀφεῖλεν.",
+     "answer": "false",
+     "skills": [
+      "read.comprehension",
+      "syntax.opt-potential"
+     ],
+     "explain": "ταύτην γὰρ ὁ λοιμὸς οὐκ ἂν ἀφέλοιτο: the plague could not take it away."
+    },
+    {
+     "type": "answer-grc",
+     "prompt": "πῶς ἀπέθανεν ὁ Κλεινίας;",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἥσυχος, μῦθον παλαιὸν εἰπών."
+      },
+      {
+       "id": "b",
+       "text": "ἐν τῇ μάχῃ."
+      },
+      {
+       "id": "c",
+       "text": "ἐν τῇ ἀγορᾷ ἑστηκώς."
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "read.comprehension"
+     ],
+     "explain": "ἥσυχος, μῦθον παλαιὸν ἡμῖν εἰπών."
+    },
+    {
+     "type": "answer-grc",
+     "prompt": "ποῦ μένει ἡ τοῦ Κλεινίου ἀρετή, ὡς ὁ Σωκράτης λέγει;",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἐν τῇ στοᾷ."
+      },
+      {
+       "id": "b",
+       "text": "ἐν ταῖς ψυχαῖς τῶν τέκνων."
+      },
+      {
+       "id": "c",
+       "text": "οὐδαμοῦ· ὁ λοιμὸς αὐτὴν ἀφεῖλεν."
+      }
+     ],
+     "answer": "b",
+     "skills": [
+      "read.comprehension"
+     ],
+     "explain": "ἐν ταῖς ὑμετέραις ψυχαῖς μένει."
+    },
+    {
+     "type": "translate-en",
+     "prompt": "Translate: εἰ ὁ ἰατρὸς ἦλθεν, ὁ πάππος οὐκ ἂν ἀπέθανεν.",
+     "model": "If the doctor had come, my grandfather would not have died.",
+     "skills": [
+      "read.comprehension",
+      "syntax.cond.cf-past"
+     ],
+     "explain": "εἰ + aorist, ἄν + aorist: contrary to fact in the past."
+    },
+    {
+     "type": "translate-en",
+     "prompt": "Translate: ἐὰν τοὺς μύθους αὐτοῦ τοῖς σοῖς τέκνοις λέγῃς, καὶ τὰ τέκνα αὐτοὺς εἴσεται.",
+     "model": "If you tell his stories to your children, they too will know them.",
+     "skills": [
+      "read.comprehension",
+      "syntax.cond.fmv",
+      "verb.oida"
+     ],
+     "explain": "ἐάν + subjunctive, future (εἴσεται, future of οἶδα): future more vivid. The neuter plural τέκνα takes a singular verb."
+    }
+   ],
+   "glosses": {
+    "στοᾷ": "colonnade, stoa (dat.)",
+    "ἥσυχος": "quiet, calm",
+    "ὀρθῶς": "rightly"
+   }
+  }
+ ]
+}

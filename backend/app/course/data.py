@@ -1,0 +1,685 @@
+"""Course content loading and resolution."""
+
+from __future__ import annotations
+
+import json
+import re
+import unicodedata
+from functools import lru_cache
+from pathlib import Path
+
+from ..greek import attic_ipa
+
+DATA_DIR = Path(__file__).parent.parent / "course_data"
+LIBRARY_DIR = Path(__file__).parent.parent / "library_data"
+EXTRA_RANK_BASE = 1000  # course-only words sort after the 524 DCC words
+
+
+class CourseError(KeyError):
+    pass
+
+
+def _read(path: Path) -> dict | list:
+    return json.loads(path.read_text("utf-8"))
+
+
+def _slug(text: str) -> str:
+    base = "".join(ch for ch in unicodedata.normalize("NFD", text) if not unicodedata.combining(ch)).lower()
+    return re.sub(r"[^Ͱ-Ͽ]+", "", base)
+
+
+# ----------------------------------------------------------------- manifests
+
+@lru_cache(maxsize=1)
+def load_course() -> dict:
+    return _read(DATA_DIR / "course.json")  # type: ignore[return-value]
+
+
+@lru_cache(maxsize=1)
+def load_skills() -> dict:
+    """skills.json plus any skills-*.json (a track's own reading skills)."""
+    raw = dict(_read(DATA_DIR / "skills.json"))  # type: ignore[arg-type]
+    skills = list(raw["skills"])
+    families = list(raw["families"])
+    for path in sorted(DATA_DIR.glob("skills-*.json")):
+        more = _read(path)
+        skills += more.get("skills", [])
+        families += [f for f in more.get("families", []) if f["id"] not in {x["id"] for x in families}]
+    by_id = {s["id"]: s for s in skills}
+    return {**raw, "skills": skills, "families": families, "by_id": by_id}
+
+
+@lru_cache(maxsize=1)
+def load_images() -> dict[str, dict]:
+    """All image records: images/manifest.json plus any images/manifest-*.json
+    (one per unit, so authors never edit the same file)."""
+    out: dict[str, dict] = {}
+    for path in sorted((DATA_DIR / "images").glob("manifest*.json")):
+        for img in _read(path)["images"]:
+            out[img["id"]] = img
+    return out
+
+
+@lru_cache(maxsize=1)
+def extra_entries() -> list[dict]:
+    """Course-only vocabulary (words the DCC list lacks), in lexicon shape."""
+    from .. import vocab
+
+    known = {e["id"] for e in vocab.load_entries()}
+    out: list[dict] = []
+    raws: list[dict] = []
+    # vocab_extra.json plus vocab_extra-*.json (one per unit)
+    for path in sorted(DATA_DIR.glob("vocab_extra*.json")):
+        raws.extend(_read(path))
+    seen_ids: set[str] = set()
+    for n, raw in enumerate(raws):
+        entry_id = raw.get("id") or _slug(raw["lemma"])
+        if entry_id in known or entry_id in seen_ids:
+            entry_id += "-x"
+        seen_ids.add(entry_id)
+        entry = {
+            "id": entry_id,
+            "rank": EXTRA_RANK_BASE + n + 1,
+            "lemma": raw["lemma"],
+            "headword": raw.get("headword", raw["lemma"]),
+            "dcc_headword": None,
+            "definition": raw["definition"],
+            "short": raw.get("short", raw["definition"].split(",")[0].split(";")[0].strip()),
+            "kind": raw["kind"],
+            "subclass": raw["subclass"],
+            "pos": raw.get("pos", raw["kind"]),
+            "group": "Course",
+            "tier": raw.get("tier", 1),
+            "level": raw.get("level", "beginner"),
+            "topics": raw.get("topics", ["city-life"]),
+            "notes": raw.get("notes"),
+            "cognates": raw.get("cognates"),
+            "tags": ["course"] + (["cognates"] if raw.get("cognates") else []),
+            "morph": raw.get("morph", {}),
+            "readings": [],
+            "source": "course",
+        }
+        out.append(entry)
+    return out
+
+
+@lru_cache(maxsize=1)
+def all_entries() -> list[dict]:
+    from .. import vocab
+
+    return sorted(vocab.load_entries() + extra_entries(), key=lambda e: e["rank"])
+
+
+@lru_cache(maxsize=1)
+def _entry_index() -> dict[str, dict]:
+    return {e["id"]: e for e in all_entries()}
+
+
+def entry_by_id(entry_id: str) -> dict:
+    try:
+        return _entry_index()[entry_id]
+    except KeyError as exc:
+        raise CourseError(f"unknown vocabulary id {entry_id!r}") from exc
+
+
+# ------------------------------------------------------------------- lessons
+
+def _units() -> list[dict]:
+    return [u for stage in load_course()["stages"] for u in stage["units"]]
+
+
+@lru_cache(maxsize=1)
+def main_lesson_ids() -> list[str]:
+    """Stage 0–2 lesson ids in course order (authored or planned)."""
+    return [lid for unit in _units() for lid in unit["lessons"]]
+
+
+@lru_cache(maxsize=1)
+def lesson_ids() -> list[str]:
+    """Every lesson id: the main course in order, then each track's lessons."""
+    return main_lesson_ids() + [lid for t in tracks() for lid in t["lessons"]]
+
+
+# -------------------------------------------------------------------- tracks
+# Stage 3: four interest tracks. A track lesson builds on the main course up
+# to its `requires` lesson (the first `side_lessons` open after `side_after`,
+# the rest after `full_after`) plus the earlier lessons of the same track;
+# tracks never depend on each other.
+
+STAGE3 = {"id": "3", "title_grc": "Ὁδοί", "title_en": "Tracks"}
+
+
+def tracks() -> list[dict]:
+    return load_course().get("tracks", [])
+
+
+def track_by_id(track_id: str) -> dict:
+    for t in tracks():
+        if t["id"] == track_id:
+            return t
+    raise CourseError(f"no track {track_id!r}")
+
+
+def track_of(lesson_id: str) -> dict | None:
+    return next((t for t in tracks() if lesson_id in t["lessons"]), None)
+
+
+def track_requires(lesson_id: str) -> str:
+    """The main-course lesson a track lesson builds on."""
+    track = track_of(lesson_id)
+    if not track:
+        raise CourseError(lesson_id)
+    if lesson_available(lesson_id) and load_lesson(lesson_id).get("requires"):
+        return load_lesson(lesson_id)["requires"]
+    k = track["lessons"].index(lesson_id)
+    return track["side_after"] if k < track.get("side_lessons", 3) else track["full_after"]
+
+
+def is_side_reading(lesson_id: str) -> bool:
+    """Track lessons 1–3 (adapted, open after Unit 9) versus 4+ (lightly
+    adapted or original, open after Unit 12)."""
+    track = track_of(lesson_id)
+    return bool(track) and track["lessons"].index(lesson_id) < track.get("side_lessons", 3)
+
+
+def lesson_path(lesson_id: str) -> Path:
+    return DATA_DIR / "lessons" / f"{lesson_id}.json"
+
+
+def lesson_available(lesson_id: str) -> bool:
+    return lesson_path(lesson_id).exists()
+
+
+@lru_cache(maxsize=None)
+def load_lesson(lesson_id: str) -> dict:
+    path = lesson_path(lesson_id)
+    if not path.exists():
+        raise CourseError(f"no lesson {lesson_id!r}")
+    raw = _read(path)
+    raw.setdefault("id", lesson_id)
+    # give every exercise, question and quiz item a stable id and fill engine answers
+    for block in ("exercises", "questions", "quiz"):
+        for n, item in enumerate(raw.get(block, [])):
+            item.setdefault("id", f"{lesson_id}:{block[0]}{n + 1}")
+            _fill_engine_answers(item)
+    return raw
+
+
+def _fill_engine_answers(item: dict) -> None:
+    """A typed item may name `lemma` + `cell` instead of spelling out its
+    answers; the morphology engine supplies them (and the validator checks
+    any answers that are spelled out against the same table)."""
+    if item.get("gaps") or not (item.get("lemma") and item.get("cell")):
+        return
+    from .forms import cell_forms
+
+    entry = next((e for e in all_entries() if e["lemma"] == item["lemma"]), None)
+    if entry:
+        forms = cell_forms(entry, item["cell"])
+        if forms:
+            item["gaps"] = [{"answers": forms}]
+
+
+# ------------------------------------------------------------------ originals
+
+@lru_cache(maxsize=None)
+def load_text(text_id: str) -> dict:
+    """An original Greek passage a lesson or test pairs with: a course text
+    (course_data/texts/<id>.json, built by scripts/build_course_texts.py) or a
+    reading-library passage (library_data/<id>.json). Always has `sentences`."""
+    if not re.fullmatch(r"[a-z0-9][a-z0-9.\-]*", text_id or ""):
+        raise CourseError(f"bad text id {text_id!r}")
+    for folder in (DATA_DIR / "texts", LIBRARY_DIR):
+        path = folder / f"{text_id}.json"
+        if path.exists():
+            raw = dict(_read(path))  # type: ignore[arg-type]
+            if "sentences" not in raw:
+                from ..greek import segment_sentences
+
+                raw["sentences"] = [s.text for s in segment_sentences(raw.get("text", ""))]
+            raw["id"] = text_id
+            return raw
+    raise CourseError(f"no original text {text_id!r}")
+
+
+def original_record(text_id: str, note: str | None = None) -> dict:
+    t = load_text(text_id)
+    return {
+        "id": text_id,
+        "title": t.get("title"),
+        "author": t.get("author"),
+        "work": t.get("work"),
+        "ref": t.get("ref"),
+        "blurb": t.get("blurb"),
+        "source": t.get("source"),
+        "sentences": t["sentences"],
+        "note": note,
+    }
+
+
+def unit_of(lesson_id: str) -> dict:
+    track = track_of(lesson_id)
+    if track:
+        return {"id": track["id"], "n": None, "title_grc": track["title_grc"], "title_en": track["title_en"], "lessons": track["lessons"], "test": track.get("gate")}
+    for unit in _units():
+        if lesson_id in unit["lessons"]:
+            return unit
+    raise CourseError(f"lesson {lesson_id!r} is not in the course manifest")
+
+
+def stage_of(lesson_id: str) -> dict:
+    if track_of(lesson_id):
+        return STAGE3
+    for stage in load_course()["stages"]:
+        for unit in stage["units"]:
+            if lesson_id in unit["lessons"]:
+                return stage
+    raise CourseError(lesson_id)
+
+
+def lessons_before(lesson_id: str, inclusive: bool = True) -> list[str]:
+    track = track_of(lesson_id)
+    if track:
+        k = track["lessons"].index(lesson_id)
+        own = track["lessons"][: k + (1 if inclusive else 0)]
+        return lessons_before(track_requires(lesson_id)) + [lid for lid in own if lesson_available(lid)]
+    ids = main_lesson_ids()
+    if lesson_id not in ids:
+        raise CourseError(lesson_id)
+    stop = ids.index(lesson_id) + (1 if inclusive else 0)
+    return [lid for lid in ids[:stop] if lesson_available(lid)]
+
+
+def vocab_scope(lesson_id: str, inclusive: bool = True) -> list[str]:
+    """Vocabulary entry ids introduced up to (and including) a lesson, in order."""
+    seen: list[str] = []
+    for lid in lessons_before(lesson_id, inclusive):
+        for item in load_lesson(lid).get("vocab", []):
+            if item["id"] not in seen:
+                seen.append(item["id"])
+    return seen
+
+
+@lru_cache(maxsize=1)
+def entry_lessons() -> dict[str, list[str]]:
+    """entry id → lessons that introduce it (first) or use it in their list."""
+    out: dict[str, list[str]] = {}
+    for lid in lesson_ids():
+        if not lesson_available(lid):
+            continue
+        for item in load_lesson(lid).get("vocab", []):
+            out.setdefault(item["id"], []).append(lid)
+    return out
+
+
+def names_for(lesson_id: str) -> dict[str, list[str]]:
+    """Proper names allowed in a lesson: course-wide plus lesson-local."""
+    names = {k: list(v) for k, v in load_course().get("names", {}).items()}
+    for name, forms in load_lesson(lesson_id).get("names", {}).items():
+        # a lesson may add forms to a course-wide name (Ἕλλησιν) without repeating the list
+        names[name] = list(dict.fromkeys(names.get(name, []) + list(forms)))
+    return names
+
+
+# ----------------------------------------------------------------- resolving
+
+def vocab_summary(entry: dict, pic: str | None = None, gloss_grc: str | None = None) -> dict:
+    from .. import vocab
+
+    out = vocab.summary(entry)
+    out["definition"] = entry["definition"]
+    out["ipa"] = attic_ipa(entry["lemma"])
+    out["pic"] = pic
+    out["gloss_grc"] = gloss_grc
+    out["source"] = entry.get("source", "dcc")
+    return out
+
+
+def image_record(image_id: str | None) -> dict | None:
+    if not image_id:
+        return None
+    img = load_images().get(image_id)
+    if not img:
+        raise CourseError(f"unknown image {image_id!r}")
+    return img
+
+
+def resolve_lesson(lesson_id: str) -> dict:
+    """Lesson JSON with vocabulary entries, images and position filled in."""
+    raw = load_lesson(lesson_id)
+    unit = unit_of(lesson_id)
+    stage = stage_of(lesson_id)
+    track = track_of(lesson_id)
+    ids = track["lessons"] if track else main_lesson_ids()
+    idx = ids.index(lesson_id)
+    prev_id = next((lid for lid in reversed(ids[:idx]) if lesson_available(lid)), None)
+    next_id = next((lid for lid in ids[idx + 1:] if lesson_available(lid)), None)
+    out = dict(raw)
+    out["unit"] = {"id": unit["id"], "n": unit["n"], "title_grc": unit["title_grc"], "title_en": unit["title_en"], "test": unit.get("test")}
+    out["stage"] = {"id": stage["id"], "title_grc": stage["title_grc"], "title_en": stage["title_en"]}
+    out["position"] = {"index": idx, "prev": prev_id, "next": next_id, "in_unit": unit["lessons"].index(lesson_id) + 1, "unit_size": len(unit["lessons"])}
+    out["track"] = {"id": track["id"], "title_grc": track["title_grc"], "title_en": track["title_en"], "requires": track_requires(lesson_id), "side": is_side_reading(lesson_id)} if track else None
+    out["vocab"] = [vocab_summary(entry_by_id(v["id"]), v.get("pic"), v.get("gloss_grc")) for v in raw.get("vocab", [])]
+    out["cover_image"] = image_record(raw.get("cover"))
+    out["story"] = [
+        {**para, "image_record": image_record(para.get("image"))}
+        for para in raw.get("story", [])
+    ]
+    culture = raw.get("culture")
+    out["culture"] = {**culture, "image_record": image_record(culture.get("image"))} if culture else None
+    out["skills"] = [_skill_record(s) for s in raw.get("skills", [])]
+    out["story_text"] = "\n".join(s["text"] for para in raw.get("story", []) for s in para.get("sentences", []))
+    original = raw.get("original")
+    out["original_text"] = original_record(original["text"], original.get("note")) if original else None
+    return out
+
+
+def _skill_record(skill_id: str) -> dict:
+    skill = load_skills()["by_id"].get(skill_id)
+    return {"id": skill_id, "label": skill["label"] if skill else skill_id, "paradigm": (skill or {}).get("paradigm")}
+
+
+def load_test(test_id: str) -> dict:
+    path = DATA_DIR / "tests" / f"{test_id}.json"
+    if not path.exists():
+        raise CourseError(f"no test {test_id!r}")
+    raw = _read(path)
+    raw.setdefault("id", test_id)
+    for section in raw.get("sections", []):
+        for n, item in enumerate(section.get("items", [])):
+            item.setdefault("id", f"{test_id}:{section['id']}{n + 1}")
+            _fill_engine_answers(item)
+    return raw
+
+
+def resolve_test(test_id: str, seed: int | None = None) -> dict:
+    """A unit test with its generated sections filled from the drill generator."""
+    from .drill import generate
+
+    raw = load_test(test_id)
+    out = dict(raw)
+    scope = vocab_scope(raw["scope"])
+    sections = []
+    for section in raw.get("sections", []):
+        items = list(section.get("items", []))
+        if section.get("passage_from") and not section.get("passage"):
+            # an unseen original: the passage is the text itself
+            t = original_record(section["passage_from"])
+            section = {**section, "passage": " ".join(t["sentences"]), "passage_source": {k: t[k] for k in ("author", "work", "ref", "source")}}
+        gen = section.get("generate")
+        if gen:
+            items.extend(generate(gen["skills"], gen["n"], scope, seed=seed if seed is not None else gen.get("seed", 0), prefix=f"{test_id}:{section['id']}g"))
+        sections.append({**section, "items": items})
+    out["sections"] = sections
+    out["item_count"] = sum(len(s["items"]) for s in sections)
+    return out
+
+
+PLACEMENT_PER_UNIT = 6
+PLACEMENT_STOP_MISSES = 3
+PLACEMENT_PASS = 0.6
+
+
+def resolve_placement(seed: int = 0) -> dict:
+    """An adaptive placement walk: for every unit with a test, a short block
+    of that test's forms + sentence items (no vocabulary, no reading, no
+    self-graded items). The client runs the blocks in order and stops after
+    `stop_after_misses` consecutive misses or a block under `pass_score`;
+    the learner is placed at the first unit not passed, and every lesson
+    before it is marked skipped."""
+    import random
+
+    from .grade import SELF_TYPES
+
+    blocks = []
+    skipped: list[str] = []
+    for unit in _units():
+        skipped.extend(unit["lessons"])
+        test_id = unit.get("test")
+        if not test_id or not (DATA_DIR / "tests" / f"{test_id}.json").exists():
+            continue
+        test = resolve_test(test_id, seed=seed)
+        rng = random.Random(f"{seed}:{test_id}")
+        generated = [i for s in test["sections"] for i in s["items"] if i.get("generated")]
+        authored = [i for s in test["sections"] if s["id"] not in ("vocab", "reading") and not s.get("passage") for i in s["items"] if not i.get("generated") and i["type"] not in SELF_TYPES]
+        rng.shuffle(generated)
+        rng.shuffle(authored)
+        n_gen = min(len(generated), PLACEMENT_PER_UNIT // 2)
+        items = generated[:n_gen] + authored[: PLACEMENT_PER_UNIT - n_gen]
+        rng.shuffle(items)
+        main = main_lesson_ids()
+        first_after = next((lid for lid in main[main.index(unit["lessons"][-1]) + 1:] if lesson_available(lid)), None)
+        blocks.append({
+            "unit": unit["n"],
+            "title_grc": unit["title_grc"],
+            "title_en": unit["title_en"],
+            "test": test_id,
+            "scope": test["scope"],
+            "lessons": list(skipped),
+            "next_lesson": first_after,
+            "items": items,
+        })
+    return {"blocks": blocks, "per_unit": PLACEMENT_PER_UNIT, "stop_after_misses": PLACEMENT_STOP_MISSES, "pass_score": PLACEMENT_PASS, "seed": seed}
+
+
+def _test_available(test_id: str | None) -> bool:
+    return bool(test_id and (DATA_DIR / "tests" / f"{test_id}.json").exists())
+
+
+def lesson_summary(lid: str) -> dict:
+    if not lesson_available(lid):
+        out: dict = {"id": lid, "title_grc": "", "title_en": "", "available": False}
+    else:
+        raw = load_lesson(lid)
+        out = {
+            "id": lid,
+            "title_grc": raw["title_grc"],
+            "title_en": raw["title_en"],
+            "available": True,
+            "skills": raw.get("skills", []),
+            "word_count": len(raw.get("vocab", [])),
+            "exercise_count": len(raw.get("exercises", [])) + len(raw.get("questions", [])),
+            "quiz_count": len(raw.get("quiz", [])),
+        }
+        if raw.get("original"):
+            t = load_text(raw["original"]["text"])
+            out["source"] = {"author": t.get("author"), "work": t.get("work"), "ref": t.get("ref")}
+    if track_of(lid):
+        out["requires"] = track_requires(lid)
+        out["side"] = is_side_reading(lid)
+    return out
+
+
+def track_summary(track: dict) -> dict:
+    return {
+        **{k: v for k, v in track.items() if k != "lessons"},
+        "lessons": [lesson_summary(lid) for lid in track["lessons"]],
+        "gate_available": _test_available(track.get("gate")),
+    }
+
+
+def resolve_track(track_id: str) -> dict:
+    """A track with its lessons, gate and word list (the words its lessons
+    introduce, in order: the 'track list')."""
+    track = track_by_id(track_id)
+    out = track_summary(track)
+    words: list[dict] = []
+    seen: set[str] = set()
+    texts: list[dict] = []
+    for lid in track["lessons"]:
+        if not lesson_available(lid):
+            continue
+        raw = load_lesson(lid)
+        before = set(vocab_scope(lid, inclusive=False))
+        for v in raw.get("vocab", []):
+            if v["id"] in seen or v["id"] in before:
+                continue
+            seen.add(v["id"])
+            words.append({**vocab_summary(entry_by_id(v["id"]), v.get("pic"), v.get("gloss_grc")), "lesson": lid})
+        if raw.get("original"):
+            rec = original_record(raw["original"]["text"])
+            texts.append({"lesson": lid, **{k: rec[k] for k in ("id", "title", "author", "work", "ref")}})
+    out["words"] = words
+    out["texts"] = texts
+    return out
+
+
+def course_index() -> dict:
+    course = load_course()
+    stages = []
+    for stage in course["stages"]:
+        units = []
+        for unit in stage["units"]:
+            lessons = [lesson_summary(lid) for lid in unit["lessons"]]
+            units.append({**unit, "lessons": lessons, "test_available": _test_available(unit.get("test"))})
+        stages.append({**stage, "units": units})
+    return {
+        "stages": stages,
+        "tracks": [track_summary(t) for t in tracks()],
+        "skills": load_skills()["skills"],
+        "families": load_skills()["families"],
+        "lesson_order": main_lesson_ids(),
+    }
+
+
+# ------------------------------------------------------ skills and error items
+# The skills grid (/course/skills) asks where a skill is taught; the mistakes
+# deck (/course/review?mode=mistakes) rebuilds items the learner got wrong.
+
+def skill_detail(skill_id: str) -> dict:
+    """A skill with the lessons (main course and tracks) whose `skills` list
+    names it, its paradigm and whether the drill generator can make items."""
+    from .drill import supported
+
+    known = load_skills()["by_id"].get(skill_id)
+    lessons = []
+    for lid in lesson_ids():
+        if not lesson_available(lid):
+            continue
+        raw = load_lesson(lid)
+        if skill_id in raw.get("skills", []):
+            track = track_of(lid)
+            lessons.append({"id": lid, "title_grc": raw["title_grc"], "title_en": raw["title_en"], "track": track["id"] if track else None})
+    if not known and not lessons:
+        raise CourseError(f"no skill {skill_id!r}")
+    record = _skill_record(skill_id)
+    record["family"] = skill_id.split(".")[0]
+    return {"skill": record, "lessons": lessons, "paradigm": record["paradigm"], "drillable": supported(skill_id)}
+
+
+@lru_cache(maxsize=1)
+def _item_index() -> dict[str, list[dict]]:
+    """Authored item id → every place it occurs (a lesson's questions and quiz
+    share the `q` prefix, so one id can name two items)."""
+    out: dict[str, list[dict]] = {}
+    for lid in lesson_ids():
+        if not lesson_available(lid):
+            continue
+        raw = load_lesson(lid)
+        for block in ("exercises", "questions", "quiz"):
+            for item in raw.get(block, []):
+                out.setdefault(item["id"], []).append({"item": item, "kind": "lesson", "owner": lid, "block": block, "scope": lid})
+    for path in sorted((DATA_DIR / "tests").glob("*.json")):
+        test = load_test(path.stem)
+        for section in test.get("sections", []):
+            for item in section.get("items", []):
+                out.setdefault(item["id"], []).append({"item": item, "kind": "test", "owner": test["id"], "block": section["id"], "scope": test["scope"], "section": section})
+    return out
+
+
+def _item_context(hit: dict) -> dict | None:
+    """What an item needs on screen to make sense outside its lesson/test:
+    the story for comprehension questions, the passage for a reading section."""
+    if hit["kind"] == "lesson" and hit["block"] == "questions":
+        lesson = load_lesson(hit["owner"])
+        text = "\n".join(s["text"] for para in lesson.get("story", []) for s in para.get("sentences", []))
+        return {"kind": "story", "title": lesson["title_grc"], "text": text} if text else None
+    section = hit.get("section")
+    if section and (section.get("passage") or section.get("passage_from")):
+        text = section.get("passage")
+        if not text:
+            try:
+                text = " ".join(original_record(section["passage_from"])["sentences"])
+            except CourseError:
+                return None
+        return {"kind": "passage", "title": section.get("passage_title") or section.get("title"), "text": text, "glosses": section.get("glosses")}
+    return None
+
+
+def _valid_scope(lesson_id: str | None) -> str | None:
+    if not lesson_id:
+        return None
+    try:
+        vocab_scope(lesson_id)
+    except (CourseError, ValueError):
+        return None
+    return lesson_id
+
+
+def _generated_plan(item_id: str, lesson: str | None, skills: list[str] | None, fallback_scope: str | None) -> tuple[list[str], str] | None:
+    """Skills and scope for fresh items standing in for a generated item that
+    cannot be rebuilt: a test's generated section names its skills; otherwise
+    the skills the client recorded, else the drillable skills of the lesson
+    (or of the lessons before it)."""
+    from .drill import supported
+
+    owner, _, local = item_id.rpartition(":")
+    if owner and (DATA_DIR / "tests" / f"{owner}.json").exists():
+        test = load_test(owner)
+        for section in test.get("sections", []):
+            gen = section.get("generate")
+            if gen and re.fullmatch(re.escape(section["id"]) + r"g\d+", local):
+                return [s for s in gen["skills"] if supported(s)], test["scope"]
+        return None  # an authored test item that no longer exists
+    if owner and owner in lesson_ids():
+        return None  # an authored lesson item that no longer exists
+    scope = _valid_scope(lesson) or _valid_scope(fallback_scope)
+    if not scope:
+        return None
+    wanted = [s for s in (skills or []) if supported(s)]
+    if wanted:
+        return wanted, scope
+    for lid in reversed(lessons_before(scope)):
+        own = [s for s in load_lesson(lid).get("skills", []) if supported(s)]
+        if own:
+            return own[:4], scope
+    return None
+
+
+def items_by_ref(refs: list[dict], fallback_scope: str | None = None, seed: int = 0) -> dict:
+    """Rebuild the items behind error-log entries.
+
+    Each ref is `{id, key?, lesson?, skills?}`. An authored item comes back as
+    it is (every candidate when its id is ambiguous) with `source` = the ref's
+    key, `origin` and, when it needs one, `context`. A generated item cannot be
+    rebuilt, so one fresh drill item on the same skills stands in for it
+    (`origin.generated`). Refs that yield nothing are listed in `missing`."""
+    from .drill import generate
+
+    index = _item_index()
+    items: list[dict] = []
+    missing: list[str] = []
+    for k, ref in enumerate(refs):
+        item_id = str(ref.get("id") or "")
+        key = str(ref.get("key") or item_id)
+        hits = index.get(item_id, [])
+        if hits:
+            for hit in hits:
+                out = dict(hit["item"])
+                out["source"] = key
+                out["origin"] = {"kind": hit["kind"], "id": hit["owner"], "block": hit["block"], "scope": hit["scope"], "generated": False}
+                ctx = _item_context(hit)
+                if ctx:
+                    out["context"] = ctx
+                items.append(out)
+            continue
+        plan = _generated_plan(item_id, ref.get("lesson"), ref.get("skills"), fallback_scope) if item_id else None
+        fresh = generate(plan[0], 1, vocab_scope(plan[1]), seed=seed * 1009 + k, prefix=f"mistake{k + 1}-") if plan and plan[0] else []
+        if not fresh:
+            missing.append(key)
+            continue
+        for out in fresh:
+            out["source"] = key
+            out["origin"] = {"kind": "drill", "id": plan[1], "block": None, "scope": plan[1], "generated": True}  # type: ignore[index]
+            items.append(out)
+    return {"items": items, "missing": missing}

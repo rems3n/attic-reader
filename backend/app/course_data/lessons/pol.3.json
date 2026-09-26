@@ -1,0 +1,1434 @@
+{
+  "id": "pol.3",
+  "title_grc": "ὁ μισθός",
+  "title_en": "Jurors' pay",
+  "summary_grc": "ὁ Εὔδημος δικαστής ἐστι καὶ μισθὸν λαμβάνει· ὁ δὲ Δημόκριτος καὶ ὁ Ἀρίστων περὶ τοῦ μισθοῦ διαλέγονται.",
+  "summary_en": "Eudemos, a refugee with no fields to work, sits as a juror for two obols a day. Demokritos complains that pay has handed the courts to the poor; Ariston defends it. Why did Pericles bring in pay? Aristotle's answer, adapted: to match the private generosity of the rich Cimon.",
+  "cover": "pol-3-a",
+  "caption_grc": "ἡ πόλις τοῖς δικασταῖς μισθὸν δίδωσιν, δύο ὀβολοὺς τῆς ἡμέρας.",
+  "original": {
+    "text": "arist-athpol-27",
+    "note": "Aristotle (or a pupil), Constitution of the Athenians 27.3, which paragraph 3 adapts; written about 330 BC. Jury pay was introduced by Pericles around 450; it was two obols a day in our story (431) and three from about 425. The next section (27.4) adds that some blamed pay for making the courts worse, since ordinary men rather than respectable ones put themselves forward for the lot. This lesson takes the place of the 'Old Oligarch' (pseudo-Xenophon, Constitution of the Athenians 1.1–2), which argues the same question from the other side but is not in the Perseus corpus the course draws on."
+  },
+  "names": {
+    "Κίμων": [
+      "Κίμωνος",
+      "Κίμωνι",
+      "Κίμωνα"
+    ],
+    "Ἀριστοτέλης": [
+      "Ἀριστοτέλους",
+      "Ἀριστοτέλει",
+      "Ἀριστοτέλη"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "pol-3-a",
+      "sentences": [
+        {
+          "text": "πρῲ ὁ Εὔδημος ἐκ τῆς οἰκίας τοῦ Ἀρίστωνος ἐξέρχεται.",
+          "glosses": [
+            {
+              "word": "πρῲ",
+              "kind": "en",
+              "value": "early in the morning"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ Λύσις· «ποῖ σπεύδεις, ὦ Εὔδημε;»"
+        },
+        {
+          "text": "ὁ δὲ Εὔδημος· «εἰς τὸ δικαστήριον· δικαστὴς γάρ εἰμι.",
+          "glosses": [
+            {
+              "word": "δικαστήριον",
+              "kind": "pic",
+              "value": "dikasterion"
+            },
+            {
+              "word": "δικαστὴς",
+              "kind": "pic",
+              "value": "dikastes"
+            }
+          ]
+        },
+        {
+          "text": "ἐν γὰρ τῷ ἄστει οὔτε ἀγρὸν ἔχω οὔτε ἄνθρακας· ἡ δὲ πόλις τοῖς δικασταῖς μισθὸν δίδωσιν, δύο ὀβολοὺς τῆς ἡμέρας.»",
+          "glosses": [
+            {
+              "word": "οὔτε",
+              "kind": "en",
+              "value": "οὔτε … οὔτε: neither … nor"
+            },
+            {
+              "word": "ἄνθρακας",
+              "kind": "en",
+              "value": "charcoal (ὁ ἄνθραξ): Eudemos made and sold charcoal at Acharnae"
+            },
+            {
+              "word": "μισθὸν",
+              "kind": "en",
+              "value": "pay, wages (ὁ μισθός)"
+            },
+            {
+              "word": "ἡμέρας",
+              "kind": "note",
+              "value": "τῆς ἡμέρας: 'a day, per day' (genitive of time)"
+            }
+          ]
+        },
+        {
+          "text": "«δύο ὀβολοὺς μόνον;» λέγει ὁ Λύσις."
+        },
+        {
+          "text": "ὁ δὲ Εὔδημος γελᾷ· «ὦ παῖ, τοῖς πένησι δύο ὀβολοὶ πολλοί εἰσιν· τούτων γὰρ ἄρτον καὶ τυρὸν καὶ ἐλαίας ὠνοῦμαι.»",
+          "glosses": [
+            {
+              "word": "γελᾷ",
+              "kind": "en",
+              "value": "laughs (γελάω)"
+            },
+            {
+              "word": "τούτων",
+              "kind": "note",
+              "value": "τούτων: genitive of price, 'for these (obols)'"
+            },
+            {
+              "word": "πένησι",
+              "kind": "|",
+              "value": "ὁ πένης, τοῦ πένητος (a poor man, who works to live) | τοῖς πένησι(ν)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "culture-constitution",
+      "sentences": [
+        {
+          "text": "ἑσπέρας δὲ ὁ Δημόκριτος καὶ ὁ Ἀρίστων περὶ τῶν δικαστηρίων διαλέγονται.",
+          "glosses": [
+            {
+              "word": "διαλέγονται",
+              "kind": "en",
+              "value": "talk, discuss (διαλέγομαι)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ μὲν Δημόκριτος· «οὐκ ἀγαθὸς ὁ μισθός· νῦν γὰρ οὐχ οἱ πλούσιοι δικάζουσιν, ἀλλ’ οἱ πένητες καὶ οἱ γέροντες, οἳ τὸν μισθὸν μᾶλλον ἢ τὴν δίκην φιλοῦσιν.»",
+          "glosses": [
+            {
+              "word": "πλούσιοι",
+              "kind": "↔",
+              "value": "πλούσιος ↔ πένης (rich ↔ poor)"
+            },
+            {
+              "word": "δικάζουσιν",
+              "kind": "<",
+              "value": "δίκη | δικάζω (judge, sit as a juror)"
+            },
+            {
+              "word": "μᾶλλον",
+              "kind": "en",
+              "value": "μᾶλλον ἤ: more than, rather than"
+            },
+            {
+              "word": "δίκην",
+              "kind": "en",
+              "value": "justice (ἡ δίκη: justice, a lawsuit)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ Ἀρίστων· «ἀλλὰ δημοκρατία ἐστὶν ἡ ἡμετέρα πολιτεία· οὐ γὰρ οἱ πλούσιοι μόνον, ἀλλὰ καὶ οἱ πένητες τῆς πολιτείας μετέχουσιν.",
+          "glosses": [
+            {
+              "word": "δημοκρατία",
+              "kind": "<",
+              "value": "δῆμος + κρατέω (rule) | ἡ δημοκρατία (rule of the people)"
+            }
+          ]
+        },
+        {
+          "text": "τοὺς δὲ πένητας δεῖ ἐργάζεσθαι· διὰ τοῦτο ὁ Περικλῆς αὐτοῖς μισθὸν ἔδωκεν, ἵνα καὶ οὗτοι δικάζωσιν.»"
+        },
+        {
+          "text": "ὁ δὲ Δημόκριτος· «ὁ Περικλῆς τοῖς κοινοῖς χρήμασι τὸν δῆμον φίλον ποιεῖ· ὁ δὲ Κίμων τοῖς ἰδίοις ἐποίει.»",
+          "glosses": [
+            {
+              "word": "ἰδίοις",
+              "kind": "↔",
+              "value": "ἴδιος ↔ κοινός (one's own, private ↔ common, public)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ Λύσις· «τίς ἦν ὁ Κίμων;»"
+        },
+        {
+          "text": "ὁ δὲ Ἀρίστων· «ἀνὴρ στρατηγὸς καὶ πλουσιώτατος, ὃς πρὸ τοῦ Περικλέους μάλιστα ἐν τῇ πόλει ἐδύνατο.»",
+          "glosses": [
+            {
+              "word": "μάλιστα",
+              "kind": "en",
+              "value": "most of all: μάλιστα ἐδύνατο 'was most powerful'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "pol-3-c",
+      "sentences": [
+        {
+          "text": "ὁ δὲ Ἀριστοτέλης ὕστερον περὶ τοῦ μισθοῦ οὕτως ἔγραψεν·",
+          "glosses": [
+            {
+              "word": "ὕστερον",
+              "kind": "en",
+              "value": "later (about 330 BC)"
+            }
+          ]
+        },
+        {
+          "text": "«ἐποίησε δὲ καὶ μισθοφόρα τὰ δικαστήρια Περικλῆς πρῶτος, πρὸς τὸν τοῦ Κίμωνος πλοῦτον ἀντιδημαγωγῶν.",
+          "orig": [
+            0
+          ],
+          "glosses": [
+            {
+              "word": "μισθοφόρα",
+              "kind": "<",
+              "value": "μισθός + φέρω | μισθοφόρος, -ον (drawing pay, paid)"
+            },
+            {
+              "word": "πλοῦτον",
+              "kind": "<",
+              "value": "πλούσιος | ὁ πλοῦτος (wealth)"
+            },
+            {
+              "word": "ἀντιδημαγωγῶν",
+              "kind": "<",
+              "value": "ἀντί + δημαγωγός | ἀντιδημαγωγέω (compete for the people's favour against)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ γὰρ Κίμων, ἅτε τυραννικὴν ἔχων οὐσίαν, πρῶτον μὲν τὰς κοινὰς λειτουργίας λαμπρῶς ἐποίει, ἔπειτα τῶν δημοτῶν ἔτρεφε πολλούς.",
+          "orig": [
+            1
+          ],
+          "glosses": [
+            {
+              "word": "ἅτε",
+              "kind": "en",
+              "value": "ἅτε + participle: since, because (the author's reason)"
+            },
+            {
+              "word": "τυραννικὴν",
+              "kind": "<",
+              "value": "τύραννος | τυραννικός, -ή, -όν (fit for a tyrant)"
+            },
+            {
+              "word": "λειτουργίας",
+              "kind": "en",
+              "value": "public services paid for by rich men: a chorus, a warship (ἡ λειτουργία; Aristotle spells it λῃτουργία)"
+            },
+            {
+              "word": "λαμπρῶς",
+              "kind": "en",
+              "value": "splendidly"
+            },
+            {
+              "word": "ἔτρεφε",
+              "kind": "|",
+              "value": "τρέφω (feed, keep) | ἔτρεφε (imperfect: he used to feed)"
+            }
+          ]
+        },
+        {
+          "text": "ἐξῆν γὰρ τῷ βουλομένῳ τῶν δημοτῶν, καθ’ ἑκάστην ἡμέραν ἐλθόντι παρ’ αὐτόν, ἔχειν τὰ μέτρια.",
+          "orig": [
+            2
+          ],
+          "glosses": [
+            {
+              "word": "βουλομένῳ",
+              "kind": "note",
+              "value": "τῷ βουλομένῳ: 'to anyone who wished'. Aristotle names Cimon's deme, Lakiadai: any Lakiad could come"
+            },
+            {
+              "word": "καθ’",
+              "kind": "=",
+              "value": "κατά (before a rough breathing): καθ’ ἑκάστην ἡμέραν 'every day'"
+            },
+            {
+              "word": "μέτρια",
+              "kind": "en",
+              "value": "τὰ μέτρια: enough, a fair share (of food)"
+            }
+          ]
+        },
+        {
+          "text": "ἔτι δὲ τὰ χωρία αὐτοῦ πάντα ἄφρακτα ἦν, ὅπως ἐξῇ τῷ βουλομένῳ τῆς ὀπώρας ἀπολαύειν.»",
+          "orig": [
+            3
+          ],
+          "glosses": [
+            {
+              "word": "ἄφρακτα",
+              "kind": "en",
+              "value": "unfenced (ἄφρακτος)"
+            },
+            {
+              "word": "ἐξῇ",
+              "kind": "|",
+              "value": "ἔξεστι | ἐξῇ (subjunctive, after ὅπως)"
+            },
+            {
+              "word": "ὀπώρας",
+              "kind": "en",
+              "value": "the fruit (ἡ ὀπώρα)"
+            },
+            {
+              "word": "ἀπολαύειν",
+              "kind": "en",
+              "value": "ἀπολαύω + gen.: enjoy, have the benefit of"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ Περικλῆς, οὐκ ἔχων τοσαύτην οὐσίαν, τοῖς δικασταῖς μισθὸν ἐκ τῶν κοινῶν χρημάτων ἔδωκεν."
+        },
+        {
+          "text": "ὁ δὲ Εὔδημος ἑσπέρας οἴκαδε ἥκει, τοὺς δύο ὀβολοὺς ἐν τῷ στόματι ἔχων.",
+          "glosses": [
+            {
+              "word": "στόματι",
+              "kind": "note",
+              "value": "ἐν τῷ στόματι: in his mouth. Athenians often carried small coins in their mouths (Aristophanes, Wasps 791)."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "μισθος",
+      "gloss_grc": "ὁ μισθός · μισθὸν λαμβάνειν, μισθὸν διδόναι"
+    },
+    {
+      "id": "πλουσιος",
+      "gloss_grc": "πλούσιος, -α, -ον ↔ πένης · πλουσιώτατος"
+    },
+    {
+      "id": "πενης",
+      "gloss_grc": "ὁ πένης, τοῦ πένητος ↔ ὁ πλούσιος"
+    },
+    {
+      "id": "πλουτος",
+      "gloss_grc": "ὁ πλοῦτος < πλούσιος"
+    },
+    {
+      "id": "δημοκρατια",
+      "gloss_grc": "ἡ δημοκρατία < δῆμος + κρατέω"
+    },
+    {
+      "id": "δικαστηριον",
+      "pic": "dikasterion",
+      "gloss_grc": "τὸ δικαστήριον · εἰς τὸ δικαστήριον"
+    },
+    {
+      "id": "δικαστης",
+      "pic": "dikastes",
+      "gloss_grc": "ὁ δικαστής · οἱ δικασταὶ δικάζουσιν"
+    },
+    {
+      "id": "δικη",
+      "gloss_grc": "ἡ δίκη: justice; a lawsuit"
+    },
+    {
+      "id": "δικαζω",
+      "gloss_grc": "δικάζω · ἐδίκασα < δίκη: judge, sit as a juror"
+    },
+    {
+      "id": "τρεφω",
+      "gloss_grc": "τρέφω · θρέψω · ἔθρεψα: feed, keep"
+    },
+    {
+      "id": "ιδιος",
+      "gloss_grc": "ἴδιος, -α, -ον ↔ κοινός"
+    },
+    {
+      "id": "μαλιστα",
+      "gloss_grc": "μάλιστα: most of all (μᾶλλον: more)"
+    },
+    {
+      "id": "μαλλον",
+      "gloss_grc": "μᾶλλον ἤ: more than, rather than"
+    }
+  ],
+  "notice": [
+    "ἐποίησε δὲ καὶ μισθοφόρα τὰ δικαστήρια Περικλῆς πρῶτος",
+    "ὁ γὰρ Κίμων, ἅτε τυραννικὴν ἔχων οὐσίαν, … ἔτρεφε πολλούς",
+    "ἐξῆν γὰρ τῷ βουλομένῳ … ἔχειν τὰ μέτρια",
+    "ὅπως ἐξῇ τῷ βουλομένῳ τῆς ὀπώρας ἀπολαύειν",
+    "ὁ Περικλῆς αὐτοῖς μισθὸν ἔδωκεν, ἵνα καὶ οὗτοι δικάζωσιν"
+  ],
+  "grammar": {
+    "md": "**The language of the democracy.** Athenian laws and decrees, and writers about them, use a handful of set phrases. Learn to see them as blocks.\n\n**ὁ βουλόμενος 'anyone who wishes'.** The article with a present participle makes a noun: ὁ βουλόμενος is 'the one who wishes', i.e. *any citizen who wants to*. It is how Athenian law opened a prosecution or a debate to everyone: τῷ βουλομένῳ ἐξῆν … 'it was open to anyone who wished …'. In the Assembly the herald asked τίς ἀγορεύειν βούλεται; 'who wishes to speak?'.\n\n**Impersonal ἔξεστι 'it is allowed, possible'.** It takes a dative of the person and an infinitive:\n\n| form | example |\n|---|---|\n| ἔξεστι (present) | ἔξεστι τοῖς πένησι δικάζειν |\n| ἐξῆν (imperfect) | ἐξῆν τῷ βουλομένῳ … ἔχειν τὰ μέτρια |\n| ἐξῇ (subjunctive) | ὅπως ἐξῇ τῷ βουλομένῳ … ἀπολαύειν |\n| ἐξέσται (future) | ἐξέσται σοι λέγειν |\n\n**ἅτε + participle: the author's reason.** ὁ Κίμων, ἅτε τυραννικὴν ἔχων οὐσίαν … 'Cimon, since he had a fortune fit for a tyrant …'. ἅτε marks a cause the writer vouches for; ὡς + participle (Unit 9) gives a reason someone else alleges.\n\n**The imperfect of habit.** ἔτρεφε πολλούς 'he used to feed many', ἐποίει τὰς λειτουργίας 'he regularly paid for public services': continuous or repeated action in the past.\n\n**Rich and poor.** πλούσιος, -α, -ον 'rich' ↔ ὁ πένης, τοῦ πένητος 'poor man' (3rd declension; dative plural πένησι(ν), with the τ lost before σ). A πένης works for his living; a beggar is πτωχός.",
+    "paradigms": [
+      "phylax",
+      "dikaios"
+    ],
+    "diagram": "diagram-participle-map"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings.",
+      "template": "ἡ πόλις τοῖς δικαστα___ μισθ___ δίδωσιν. τοῖς πέν___ δύο ὀβολοὶ πολλοί εἰσιν. νῦν οὐχ οἱ πλούσι___ δικάζουσιν.",
+      "gaps": [
+        {
+          "answers": [
+            "ῖς"
+          ]
+        },
+        {
+          "answers": [
+            "ὸν",
+            "όν"
+          ]
+        },
+        {
+          "answers": [
+            "ησι",
+            "ησιν"
+          ]
+        },
+        {
+          "answers": [
+            "οι"
+          ]
+        }
+      ],
+      "skills": [
+        "noun.decl1.dat.pl",
+        "noun.decl2.acc.sg",
+        "noun.decl3.dat.pl",
+        "adj.agree"
+      ],
+      "explain": "τοῖς δικασταῖς (1st-declension masculine, dative plural), μισθόν (acc.), τοῖς πένησι(ν) (3rd declension: πένητ-σι → πένησι), οἱ πλούσιοι (nom. pl.)."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ὁ Περικλῆς τοῖς πένησι μισθὸν ἔδωκεν, ἵνα καὶ οὗτοι ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "δικάζωσιν"
+        },
+        {
+          "id": "b",
+          "text": "δικάζουσιν"
+        },
+        {
+          "id": "c",
+          "text": "ἐδίκαζον"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.purpose",
+        "verb.pres.act.subj.3pl"
+      ],
+      "explain": "ἵνα + subjunctive: purpose, 'so that they too might sit as jurors'.",
+      "audio": "ὁ Περικλῆς τοῖς πένησι μισθὸν ἔδωκεν, ἵνα καὶ οὗτοι δικάζωσιν."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ὁ Κίμων, ἅτε τυραννικὴν ___ οὐσίαν, τῶν δημοτῶν ἔτρεφε πολλούς.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἔχων"
+        },
+        {
+          "id": "b",
+          "text": "ἔχει"
+        },
+        {
+          "id": "c",
+          "text": "ἔχειν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "verb.ptc.use",
+        "read.pol.aristotle"
+      ],
+      "explain": "ἅτε + participle gives the reason as a fact: 'since he had a fortune fit for a tyrant'.",
+      "audio": "ὁ Κίμων, ἅτε τυραννικὴν ἔχων οὐσίαν, τῶν δημοτῶν ἔτρεφε πολλούς."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · οὐ μόνον οἱ πλούσιοι, ἀλλὰ καὶ οἱ πένητες τῆς ___ μετέχουσιν.",
+      "options": [
+        {
+          "id": "a",
+          "text": "πολιτείας"
+        },
+        {
+          "id": "b",
+          "text": "πολιτείαν"
+        },
+        {
+          "id": "c",
+          "text": "πολιτείᾳ"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.gen.uses",
+        "vocab.pol"
+      ],
+      "explain": "μετέχω takes the genitive: τῆς πολιτείας μετέχειν 'to share in the constitution'.",
+      "audio": "οὐ μόνον οἱ πλούσιοι, ἀλλὰ καὶ οἱ πένητες τῆς πολιτείας μετέχουσιν."
+    },
+    {
+      "type": "pick-picture",
+      "prompt": "ὁ δικαστής",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "image": "dikastes"
+        },
+        {
+          "id": "b",
+          "image": "stratiotes"
+        },
+        {
+          "id": "c",
+          "image": "martys"
+        },
+        {
+          "id": "d",
+          "image": "hoplites"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition",
+        "vocab.pol"
+      ],
+      "explain": "ὁ δικαστής: a juror, a citizen over thirty sitting in a court of several hundred."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἡ δημοκρατία"
+        },
+        {
+          "id": "b",
+          "text": "ἡ ὀλιγαρχία"
+        },
+        {
+          "id": "c",
+          "text": "ἡ πολιτεία"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.pol"
+      ],
+      "explain": "ἡ δημοκρατία: the rule (κράτος) of the people (δῆμος).",
+      "audio": "ἡ δημοκρατία"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the genitive singular of πένης.",
+      "lemma": "πένης",
+      "cell": "gen.sg",
+      "skills": [
+        "noun.decl3.cons.gen.sg",
+        "vocab.pol"
+      ],
+      "explain": "πένητος: a τ-stem, like χάρις, χάριτος.",
+      "audio": "πένητος"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the superlative of πλούσιος: 'very rich, the richest' (nominative masculine).",
+      "lemma": "πλούσιος",
+      "cell": "sup.nom.sg.m",
+      "skills": [
+        "adj.superlative",
+        "vocab.pol"
+      ],
+      "explain": "πλουσιώτατος: the stem vowel ο is short after a long syllable, so the ending is -ώτατος.",
+      "audio": "πλουσιώτατος"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the imperfect of τρέφω: 'he used to feed'.",
+      "lemma": "τρέφω",
+      "cell": "imperfect.active.indicative.3sg",
+      "skills": [
+        "verb.impf.act.ind.3sg",
+        "verb.impf.vs.aor"
+      ],
+      "explain": "ἔτρεφε(ν): the imperfect for a habit, 'he used to feed many'.",
+      "audio": "ἔτρεφε"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἐλθόντι.",
+      "form": "ἐλθόντι",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            },
+            {
+              "id": "voc",
+              "label": "vocative"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "mood": "ptc",
+        "case": "dat"
+      },
+      "skills": [
+        "verb.ptc.aor.act",
+        "verb.ptc.pres.act.dat"
+      ],
+      "explain": "ἐλθ-όντι: aorist participle of ἔρχομαι (ἦλθον), dative singular, agreeing with τῷ βουλομένῳ: 'to anyone who wished, having come to him'.",
+      "audio": "ἐλθόντι"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἐξῇ.",
+      "form": "ἐξῇ",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "pres",
+        "mood": "subj"
+      },
+      "skills": [
+        "verb.impersonal",
+        "syntax.purpose"
+      ],
+      "explain": "ἐξῇ: present subjunctive of ἔξεστι (ἐξ + ᾖ), after ὅπως: 'so that it might be allowed'.",
+      "audio": "ἐξῇ"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἐξῆν τῷ βουλομένῳ … ἔχειν τὰ μέτρια. τῷ βουλομένῳ means ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "to anyone who wished"
+        },
+        {
+          "id": "b",
+          "text": "to the man who planned"
+        },
+        {
+          "id": "c",
+          "text": "to the Council"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "verb.ptc.article",
+        "read.pol.aristotle"
+      ],
+      "explain": "Article + participle: ὁ βουλόμενος 'whoever wishes', a stock phrase of Athenian law and politics."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "Cimon fed the people τοῖς ἰδίοις χρήμασιν, Pericles τοῖς κοινοῖς. ἴδιος means ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "one's own, private"
+        },
+        {
+          "id": "b",
+          "text": "common, public"
+        },
+        {
+          "id": "c",
+          "text": "small"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition",
+        "vocab.pol"
+      ],
+      "explain": "ἴδιος ↔ κοινός: private money against public money."
+    },
+    {
+      "type": "label",
+      "prompt": "ὁ γὰρ Κίμων, ἅτε τυραννικὴν ἔχων οὐσίαν, … ἔτρεφε πολλούς. What does ἅτε + participle express?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a cause, stated as fact by the writer"
+        },
+        {
+          "id": "b",
+          "text": "a condition"
+        },
+        {
+          "id": "c",
+          "text": "a purpose"
+        },
+        {
+          "id": "d",
+          "text": "a concession ('although')"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "verb.ptc.use",
+        "read.pol.aristotle"
+      ],
+      "explain": "ἅτε + participle: 'since, inasmuch as' (the writer's own reason). Compare ὡς + participle, a reason someone claims."
+    },
+    {
+      "type": "label",
+      "prompt": "ὅπως ἐξῇ τῷ βουλομένῳ τῆς ὀπώρας ἀπολαύειν. What kind of clause?",
+      "options": [
+        {
+          "id": "a",
+          "text": "purpose (ὅπως + subjunctive)"
+        },
+        {
+          "id": "b",
+          "text": "result"
+        },
+        {
+          "id": "c",
+          "text": "indirect question"
+        },
+        {
+          "id": "d",
+          "text": "fear"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.purpose"
+      ],
+      "explain": "Cimon left his fields unfenced so that anyone might enjoy the fruit."
+    },
+    {
+      "type": "transform",
+      "prompt": "Replace the purpose clause with the optative of secondary sequence: ἵνα καὶ οὗτοι δικάζωσιν → ἵνα καὶ οὗτοι ___.",
+      "template": "ἵνα καὶ οὗτοι ___.",
+      "gaps": [
+        {
+          "answers": [
+            "δικάζοιεν"
+          ]
+        }
+      ],
+      "skills": [
+        "syntax.opt-secondary"
+      ],
+      "explain": "δικάζοιεν: present optative 3rd plural, after the past ἔδωκεν."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the verb in the imperfect that tells what Cimon used to do for the demesmen.",
+      "sentence": "ὁ γὰρ Κίμων, ἅτε τυραννικὴν ἔχων οὐσίαν, πρῶτον μὲν τὰς κοινὰς λειτουργίας λαμπρῶς ἐποίει, ἔπειτα τῶν δημοτῶν ἔτρεφε πολλούς.",
+      "answer": [
+        17
+      ],
+      "skills": [
+        "read.locate",
+        "verb.impf.vs.aor"
+      ],
+      "explain": "ἔτρεφε 'he used to feed': the imperfect of habit. ἐποίει is also imperfect (the public services)."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the participle that means 'competing for the people's favour'.",
+      "sentence": "ἐποίησε δὲ καὶ μισθοφόρα τὰ δικαστήρια Περικλῆς πρῶτος, πρὸς τὸν τοῦ Κίμωνος πλοῦτον ἀντιδημαγωγῶν.",
+      "answer": [
+        13
+      ],
+      "skills": [
+        "read.locate",
+        "verb.ptc.pres.act"
+      ],
+      "explain": "ἀντιδημαγωγῶν: present participle of ἀντιδημαγωγέω, 'acting the demagogue in opposition'."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'The city gives pay to the jurors.'",
+      "tokens": [
+        "ἡ",
+        "πόλις",
+        "τοῖς",
+        "δικασταῖς",
+        "μισθὸν",
+        "δίδωσιν"
+      ],
+      "answers": [
+        "ἡ πόλις τοῖς δικασταῖς μισθὸν δίδωσιν",
+        "ἡ πόλις μισθὸν τοῖς δικασταῖς δίδωσιν",
+        "ἡ πόλις δίδωσιν τοῖς δικασταῖς μισθὸν",
+        "ἡ πόλις δίδωσιν μισθὸν τοῖς δικασταῖς",
+        "τοῖς δικασταῖς ἡ πόλις μισθὸν δίδωσιν"
+      ],
+      "skills": [
+        "syntax.word-order",
+        "syntax.dat.uses"
+      ],
+      "explain": "τοῖς δικασταῖς: dative, the indirect object."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "τοῖς πένησι δύο ὀβολοὶ πολλοί εἰσιν."
+        },
+        {
+          "id": "b",
+          "text": "τοῖς πλουσίοις δύο ὀβολοὶ ὀλίγοι εἰσιν."
+        },
+        {
+          "id": "c",
+          "text": "τοῖς δικασταῖς δύο ὀβολοὶ μόνον εἰσίν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "To the poor, two obols are a lot.",
+      "audio": "τοῖς πένησι δύο ὀβολοὶ πολλοί εἰσιν."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Εὔδημος δικαστής ἐστιν.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "δικαστὴς γάρ εἰμι."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Δημόκριτος τὸν μισθὸν ἐπαινεῖ.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "οὐκ ἀγαθὸς ὁ μισθός, he says."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Κίμων τοῖς ἰδίοις χρήμασι πολλοὺς τῶν δημοτῶν ἔτρεφεν.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension",
+        "read.pol.aristotle"
+      ],
+      "explain": "τῶν δημοτῶν ἔτρεφε πολλούς."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "gaps": [
+        {
+          "answers": [
+            "δύο ὀβολοὺς τῆς ἡμέρας"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "δύο ὀβολοὺς τῆς ἡμέρας: 'two obols a day', the jurors' pay in 431.",
+      "audio": "δύο ὀβολοὺς τῆς ἡμέρας."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'Our constitution is a democracy.'",
+      "gaps": [
+        {
+          "answers": [
+            "ἡ ἡμετέρα πολιτεία δημοκρατία ἐστίν",
+            "δημοκρατία ἐστὶν ἡ ἡμετέρα πολιτεία",
+            "ἡ πολιτεία ἡ ἡμετέρα δημοκρατία ἐστίν",
+            "ἡ ἡμετέρα πολιτεία ἐστὶ δημοκρατία",
+            "ἡ ἡμετέρα πολιτεία ἐστὶν δημοκρατία",
+            "δημοκρατία ἐστὶ ἡ ἡμετέρα πολιτεία"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "adj.attributive"
+      ],
+      "explain": "ἡ ἡμετέρα πολιτεία (attributive position) δημοκρατία ἐστίν (predicate; no article)."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'The rich man feeds the poor men.'",
+      "gaps": [
+        {
+          "answers": [
+            "ὁ πλούσιος τοὺς πένητας τρέφει",
+            "ὁ πλούσιος τρέφει τοὺς πένητας",
+            "τοὺς πένητας ὁ πλούσιος τρέφει",
+            "τοὺς πένητας τρέφει ὁ πλούσιος"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "noun.decl3.cons.pl"
+      ],
+      "explain": "τοὺς πένητας: accusative plural of πένης."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: ἐποίησε δὲ καὶ μισθοφόρα τὰ δικαστήρια Περικλῆς πρῶτος, πρὸς τὸν τοῦ Κίμωνος πλοῦτον ἀντιδημαγωγῶν.",
+      "audio": "ἐποίησε δὲ καὶ μισθοφόρα τὰ δικαστήρια Περικλῆς πρῶτος, πρὸς τὸν τοῦ Κίμωνος πλοῦτον ἀντιδημαγωγῶν.",
+      "model": "Pericles was also the first to make the law courts paid, competing for popular favour against Cimon's wealth.",
+      "skills": [
+        "read.adapted-text",
+        "read.pol.aristotle"
+      ],
+      "explain": "μισθοφόρα is a predicate adjective with ἐποίησε: 'made the courts paid'; Περικλῆς πρῶτος 'Pericles first, the first'."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "ὁ πλοῦτος",
+          "right": "plutocracy"
+        },
+        {
+          "left": "ἡ δημοκρατία",
+          "right": "democracy"
+        },
+        {
+          "left": "ἴδιος",
+          "right": "idiom, idiot (a private person)"
+        },
+        {
+          "left": "ἡ λειτουργία",
+          "right": "liturgy"
+        },
+        {
+          "left": "τὸ στόμα",
+          "right": "stomach"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "ἰδιώτης was a private citizen, one who took no part in public life; λειτουργία 'public service' became the Church's 'liturgy'."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "ποῖ σπεύδει ὁ Εὔδημος;",
+      "options": [
+        {
+          "id": "a",
+          "text": "εἰς τὸ δικαστήριον."
+        },
+        {
+          "id": "b",
+          "text": "εἰς τὴν ἐκκλησίαν."
+        },
+        {
+          "id": "c",
+          "text": "εἰς τὰς Ἀχαρνάς."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "εἰς τὸ δικαστήριον· δικαστὴς γάρ εἰμι.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "πόσον μισθὸν λαμβάνει ὁ δικαστής;",
+      "options": [
+        {
+          "id": "a",
+          "text": "δύο ὀβολοὺς τῆς ἡμέρας."
+        },
+        {
+          "id": "b",
+          "text": "μίαν δραχμήν."
+        },
+        {
+          "id": "c",
+          "text": "οὐδένα μισθόν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "read.pol.institutions"
+      ],
+      "explain": "δύο ὀβολοὺς τῆς ἡμέρας.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίς πρῶτος μισθοφόρα τὰ δικαστήρια ἐποίησεν;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ Περικλῆς."
+        },
+        {
+          "id": "b",
+          "text": "ὁ Κίμων."
+        },
+        {
+          "id": "c",
+          "text": "ὁ Κλεισθένης."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "read.pol.aristotle"
+      ],
+      "explain": "ἐποίησε … μισθοφόρα τὰ δικαστήρια Περικλῆς πρῶτος.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "διὰ τί τὰ χωρία τοῦ Κίμωνος ἄφρακτα ἦν;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὅπως ἐξῇ τῷ βουλομένῳ τῆς ὀπώρας ἀπολαύειν."
+        },
+        {
+          "id": "b",
+          "text": "ὅπως μηδεὶς εἰσέλθῃ."
+        },
+        {
+          "id": "c",
+          "text": "διότι πένης ἦν ὁ Κίμων."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "syntax.purpose"
+      ],
+      "explain": "ὅπως ἐξῇ τῷ βουλομένῳ τῆς ὀπώρας ἀπολαύειν.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "ποῦ ἔχει ὁ Εὔδημος τοὺς ὀβολούς;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐν τῷ στόματι."
+        },
+        {
+          "id": "b",
+          "text": "ἐν τῇ χειρί."
+        },
+        {
+          "id": "c",
+          "text": "ἐν τῷ ἀγρῷ."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "τοὺς δύο ὀβολοὺς ἐν τῷ στόματι ἔχων.",
+      "audio": "prompt"
+    }
+  ],
+  "culture": {
+    "title": "Paying citizens to take part",
+    "md": "Athens paid its citizens to govern. From about 450 BC a juror received **two obols** for each day's sitting (three from about 425, on Cleon's proposal); a councillor received five obols in the fourth century; and from the 390s, after attendance fell, citizens were paid for going to the **Assembly** too: first one obol, then two, then three, and later a drachma or more. An unskilled labourer earned about a drachma (six obols) a day, so jury pay was a modest living, most welcome to the old and to men without work, like the Acharnian refugees crowded into the city in 431.\n\nThe critics of democracy hated it. Plato's Socrates says that Pericles 'made the Athenians idle, cowardly, talkative and greedy' by introducing pay (*Gorgias* 515e); Aristophanes' *Wasps* (422) mocks old jurors who live for the three obols they carry home in their mouths. Its defenders saw the point plainly: without pay, only the rich could afford to sit in the courts and the Council, and the rule of the people would become the rule of the few. The picture shows a bronze juror's ticket (πινάκιον) with its owner's name and deme, from the fourth century.",
+    "image": "pol-pinakion"
+  },
+  "quiz": [
+    {
+      "type": "produce-form",
+      "prompt": "Give the accusative plural of πένης.",
+      "lemma": "πένης",
+      "cell": "acc.pl",
+      "skills": [
+        "noun.decl3.cons.pl",
+        "vocab.pol"
+      ],
+      "explain": "τοὺς πένητας.",
+      "audio": "τοὺς πένητας"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ὁ Κίμων τὸν δῆμον τοῖς ___ χρήμασιν ἔτρεφεν.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἰδίοις"
+        },
+        {
+          "id": "b",
+          "text": "κοιναῖς"
+        },
+        {
+          "id": "c",
+          "text": "ἴδιον"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "adj.agree",
+        "vocab.pol"
+      ],
+      "explain": "ἰδίοις agrees with χρήμασιν (neuter dative plural)."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ μισθός"
+        },
+        {
+          "id": "b",
+          "text": "ὁ μῦθος"
+        },
+        {
+          "id": "c",
+          "text": "ὁ μέτοικος"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.pol"
+      ],
+      "explain": "ὁ μισθός: pay.",
+      "audio": "ὁ μισθός"
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Περικλῆς πλουσιώτερος ἦν τοῦ Κίμωνος.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension",
+        "syntax.comparison"
+      ],
+      "explain": "οὐκ ἔχων τοσαύτην οὐσίαν: Pericles was less rich than Cimon."
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse δικάζωσιν.",
+      "form": "δικάζωσιν",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "pres",
+        "mood": "subj"
+      },
+      "skills": [
+        "verb.pres.act.subj.3pl",
+        "syntax.purpose"
+      ],
+      "explain": "δικάζ-ωσι(ν): present subjunctive (long ω), after ἵνα.",
+      "audio": "δικάζωσιν"
+    },
+    {
+      "type": "match",
+      "prompt": "Match the Greek to the English.",
+      "pairs": [
+        {
+          "left": "ὁ μισθός",
+          "right": "pay"
+        },
+        {
+          "left": "πλούσιος",
+          "right": "rich"
+        },
+        {
+          "left": "ὁ πένης",
+          "right": "poor man"
+        },
+        {
+          "left": "ἡ δημοκρατία",
+          "right": "democracy"
+        },
+        {
+          "left": "ἴδιος",
+          "right": "private, one's own"
+        }
+      ],
+      "skills": [
+        "vocab.recognition",
+        "vocab.pol"
+      ],
+      "explain": "μισθός, πλούσιος, πένης, δημοκρατία, ἴδιος."
+    }
+  ],
+  "skills": [
+    "read.adapted-text",
+    "read.pol.aristotle",
+    "read.pol.institutions",
+    "read.comprehension",
+    "read.locate",
+    "syntax.purpose",
+    "syntax.opt-secondary",
+    "syntax.gen.uses",
+    "syntax.dat.uses",
+    "syntax.word-order",
+    "syntax.comparison",
+    "noun.decl1.dat.pl",
+    "noun.decl2.acc.sg",
+    "noun.decl3.dat.pl",
+    "noun.decl3.cons.gen.sg",
+    "noun.decl3.cons.pl",
+    "adj.agree",
+    "adj.attributive",
+    "adj.superlative",
+    "verb.pres.act.subj.3pl",
+    "verb.ptc.use",
+    "verb.ptc.article",
+    "verb.ptc.aor.act",
+    "verb.ptc.pres.act",
+    "verb.ptc.pres.act.dat",
+    "verb.impersonal",
+    "verb.impf.act.ind.3sg",
+    "verb.impf.vs.aor",
+    "listen.words",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.family",
+    "vocab.pol"
+  ]
+}

@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import AppNav from "../components/AppNav";
+import ServiceWorker from "../components/ServiceWorker";
+import SiteFooter from "../components/SiteFooter";
 
 export const metadata: Metadata = {
   title: "Attic Reader",
@@ -26,7 +28,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#172033",
+  themeColor: "#f6f4ee",
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
@@ -35,9 +37,17 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+      </head>
       <body>
         <AppNav />
-        {children}
+        <ServiceWorker />
+        {/* skip-link target around every page's <main> */}
+        <div id="main" tabIndex={-1}>{children}</div>
+        <SiteFooter />
       </body>
     </html>
   );

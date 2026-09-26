@@ -1,0 +1,1262 @@
+{
+  "id": "gate-phil",
+  "title_grc": "Φιλοσοφία · ἔλεγχος",
+  "title_en": "Philosophy track gate",
+  "scope": "phil.7",
+  "pass_score": 0.8,
+  "unlock_after_hours": 24,
+  "retake_after_days": 7,
+  "blurb": "The end of the philosophy track. Track vocabulary (wisdom, justice, piety, knowledge), a few forms, eight sentences on the constructions of Plato's and Xenophon's Socrates, and an unseen page of Xenophon: his own version of the Delphic oracle, told to the jurors at the trial. Words outside the core list and the track list are glossed under the passage. No feedback until the end. 80 % to pass.",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Λέξεις · Vocabulary",
+      "items": [
+        {
+          "type": "listen-pick",
+          "prompt": "Listen and choose what you hear.",
+          "options": [
+            {
+              "id": "a",
+              "text": "ἡ δικαιοσύνη"
+            },
+            {
+              "id": "b",
+              "text": "ἡ σωφροσύνη"
+            },
+            {
+              "id": "c",
+              "text": "ἡ ἀδικία"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "listen.words",
+            "vocab.phil"
+          ],
+          "explain": "ἡ δικαιοσύνη: justice.",
+          "audio": "ἡ δικαιοσύνη"
+        },
+        {
+          "type": "listen-pick",
+          "prompt": "Listen and choose what you hear.",
+          "options": [
+            {
+              "id": "a",
+              "text": "οὐδεὶς ἑκὼν δίκαιος."
+            },
+            {
+              "id": "b",
+              "text": "οὐδεὶς ἑκὼν σοφός."
+            },
+            {
+              "id": "c",
+              "text": "οὐδεὶς σοφώτερος Σωκράτους."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "listen.sentences",
+            "vocab.phil"
+          ],
+          "explain": "No one is just willingly.",
+          "audio": "οὐδεὶς ἑκὼν δίκαιος."
+        },
+        {
+          "type": "match",
+          "prompt": "Match the Greek to the English.",
+          "pairs": [
+            {
+              "left": "ἡ σοφία",
+              "right": "wisdom"
+            },
+            {
+              "left": "ἡ ἀμαθία",
+              "right": "ignorance"
+            },
+            {
+              "left": "ἡ ἀνάμνησις",
+              "right": "recollection"
+            },
+            {
+              "left": "ὁ χρησμός",
+              "right": "oracle"
+            },
+            {
+              "left": "τὸ εἶδος",
+              "right": "form"
+            }
+          ],
+          "skills": [
+            "vocab.recognition",
+            "vocab.phil"
+          ],
+          "explain": "σοφία, ἀμαθία, ἀνάμνησις, χρησμός, εἶδος."
+        },
+        {
+          "type": "match",
+          "prompt": "Match the verbs to their meanings.",
+          "pairs": [
+            {
+              "left": "ἐλέγχω",
+              "right": "test, refute"
+            },
+            {
+              "left": "ἀπορέω",
+              "right": "be at a loss"
+            },
+            {
+              "left": "ψεύδομαι",
+              "right": "lie"
+            },
+            {
+              "left": "κατηγορέω",
+              "right": "accuse"
+            },
+            {
+              "left": "ἀγνοέω",
+              "right": "not know"
+            }
+          ],
+          "skills": [
+            "vocab.recognition",
+            "vocab.phil"
+          ],
+          "explain": "ἐλέγχω, ἀπορέω, ψεύδομαι, κατηγορέω, ἀγνοέω."
+        },
+        {
+          "type": "cloze-type",
+          "prompt": "Type the Greek for 'justice' (with its article).",
+          "gaps": [
+            {
+              "answers": [
+                "ἡ δικαιοσύνη",
+                "δικαιοσύνη"
+              ]
+            }
+          ],
+          "skills": [
+            "vocab.production",
+            "vocab.phil"
+          ],
+          "explain": "ἡ δικαιοσύνη.",
+          "audio": "ἡ δικαιοσύνη"
+        },
+        {
+          "type": "cloze-type",
+          "prompt": "Type the Greek for 'wisdom' (with its article).",
+          "gaps": [
+            {
+              "answers": [
+                "ἡ σοφία",
+                "σοφία"
+              ]
+            }
+          ],
+          "skills": [
+            "vocab.production",
+            "vocab.phil"
+          ],
+          "explain": "ἡ σοφία.",
+          "audio": "ἡ σοφία"
+        },
+        {
+          "type": "cloze-type",
+          "prompt": "Type the Greek for 'courage' (with its article).",
+          "gaps": [
+            {
+              "answers": [
+                "ἡ ἀνδρεία",
+                "ἀνδρεία"
+              ]
+            }
+          ],
+          "skills": [
+            "vocab.production",
+            "vocab.phil"
+          ],
+          "explain": "ἡ ἀνδρεία.",
+          "audio": "ἡ ἀνδρεία"
+        },
+        {
+          "type": "cloze-type",
+          "prompt": "Type the Greek for 'the holy, piety' (neuter adjective with the article).",
+          "gaps": [
+            {
+              "answers": [
+                "τὸ ὅσιον"
+              ]
+            }
+          ],
+          "skills": [
+            "vocab.production",
+            "read.phil.terms"
+          ],
+          "explain": "τὸ ὅσιον.",
+          "audio": "τὸ ὅσιον"
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "ἀσεβής ↔ …",
+          "options": [
+            {
+              "id": "a",
+              "text": "εὐσεβής"
+            },
+            {
+              "id": "b",
+              "text": "ἀφανής"
+            },
+            {
+              "id": "c",
+              "text": "ἀληθής"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "vocab.phil",
+            "read.phil.terms"
+          ],
+          "explain": "εὐσεβής 'pious' ↔ ἀσεβής 'impious'."
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "ὁ Μέλητος τοῦ Σωκράτους ἀσεβείας κατηγορεῖ means …",
+          "options": [
+            {
+              "id": "a",
+              "text": "Meletus accuses Socrates of impiety."
+            },
+            {
+              "id": "b",
+              "text": "Socrates accuses Meletus of impiety."
+            },
+            {
+              "id": "c",
+              "text": "Meletus defends Socrates' piety."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "vocab.recognition",
+            "syntax.gen.uses"
+          ],
+          "explain": "κατηγορέω + genitive of the person (and of the charge)."
+        }
+      ]
+    },
+    {
+      "id": "forms",
+      "title": "Τύποι · Forms",
+      "items": [
+        {
+          "type": "parse",
+          "prompt": "Parse ἀπήχθετο.",
+          "form": "ἀπήχθετο",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "fut",
+                  "label": "future"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                },
+                {
+                  "id": "perf",
+                  "label": "perfect"
+                }
+              ]
+            },
+            {
+              "id": "person",
+              "label": "Person and number",
+              "options": [
+                {
+                  "id": "1sg",
+                  "label": "1st singular"
+                },
+                {
+                  "id": "2sg",
+                  "label": "2nd singular"
+                },
+                {
+                  "id": "3sg",
+                  "label": "3rd singular"
+                },
+                {
+                  "id": "1pl",
+                  "label": "1st plural"
+                },
+                {
+                  "id": "2pl",
+                  "label": "2nd plural"
+                },
+                {
+                  "id": "3pl",
+                  "label": "3rd plural"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "aor",
+            "person": "3sg"
+          },
+          "skills": [
+            "verb.aor2.stem",
+            "verb.deponent"
+          ],
+          "explain": "ἀπ-ήχθ-ετο: second aorist of ἀπεχθάνομαι.",
+          "audio": "ἀπήχθετο"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse ἐπισκεψώμεθα.",
+          "form": "ἐπισκεψώμεθα",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "fut",
+                  "label": "future"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                },
+                {
+                  "id": "perf",
+                  "label": "perfect"
+                }
+              ]
+            },
+            {
+              "id": "mood",
+              "label": "Mood",
+              "options": [
+                {
+                  "id": "ind",
+                  "label": "indicative"
+                },
+                {
+                  "id": "subj",
+                  "label": "subjunctive"
+                },
+                {
+                  "id": "opt",
+                  "label": "optative"
+                },
+                {
+                  "id": "imp",
+                  "label": "imperative"
+                },
+                {
+                  "id": "inf",
+                  "label": "infinitive"
+                },
+                {
+                  "id": "ptc",
+                  "label": "participle"
+                }
+              ]
+            },
+            {
+              "id": "person",
+              "label": "Person and number",
+              "options": [
+                {
+                  "id": "1sg",
+                  "label": "1st singular"
+                },
+                {
+                  "id": "2sg",
+                  "label": "2nd singular"
+                },
+                {
+                  "id": "3sg",
+                  "label": "3rd singular"
+                },
+                {
+                  "id": "1pl",
+                  "label": "1st plural"
+                },
+                {
+                  "id": "2pl",
+                  "label": "2nd plural"
+                },
+                {
+                  "id": "3pl",
+                  "label": "3rd plural"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "aor",
+            "mood": "subj",
+            "person": "1pl"
+          },
+          "skills": [
+            "syntax.subj-hortatory"
+          ],
+          "explain": "Aorist subjunctive, hortatory: 'let us examine'.",
+          "audio": "ἐπισκεψώμεθα"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse ἀφανοῦς.",
+          "form": "ἀφανοῦς",
+          "groups": [
+            {
+              "id": "case",
+              "label": "Case",
+              "options": [
+                {
+                  "id": "nom",
+                  "label": "nominative"
+                },
+                {
+                  "id": "gen",
+                  "label": "genitive"
+                },
+                {
+                  "id": "dat",
+                  "label": "dative"
+                },
+                {
+                  "id": "acc",
+                  "label": "accusative"
+                },
+                {
+                  "id": "voc",
+                  "label": "vocative"
+                }
+              ]
+            },
+            {
+              "id": "number",
+              "label": "Number",
+              "options": [
+                {
+                  "id": "sg",
+                  "label": "singular"
+                },
+                {
+                  "id": "pl",
+                  "label": "plural"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "case": "gen",
+            "number": "sg"
+          },
+          "skills": [
+            "adj.decl3.es"
+          ],
+          "explain": "ἀφανοῦς: genitive singular of ἀφανής (-έος → -οῦς), like ἀληθοῦς.",
+          "audio": "ἀφανοῦς"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse ψύχοιτο.",
+          "form": "ψύχοιτο",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "fut",
+                  "label": "future"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                },
+                {
+                  "id": "perf",
+                  "label": "perfect"
+                }
+              ]
+            },
+            {
+              "id": "mood",
+              "label": "Mood",
+              "options": [
+                {
+                  "id": "ind",
+                  "label": "indicative"
+                },
+                {
+                  "id": "subj",
+                  "label": "subjunctive"
+                },
+                {
+                  "id": "opt",
+                  "label": "optative"
+                },
+                {
+                  "id": "imp",
+                  "label": "imperative"
+                },
+                {
+                  "id": "inf",
+                  "label": "infinitive"
+                },
+                {
+                  "id": "ptc",
+                  "label": "participle"
+                }
+              ]
+            },
+            {
+              "id": "person",
+              "label": "Person and number",
+              "options": [
+                {
+                  "id": "1sg",
+                  "label": "1st singular"
+                },
+                {
+                  "id": "2sg",
+                  "label": "2nd singular"
+                },
+                {
+                  "id": "3sg",
+                  "label": "3rd singular"
+                },
+                {
+                  "id": "1pl",
+                  "label": "1st plural"
+                },
+                {
+                  "id": "2pl",
+                  "label": "2nd plural"
+                },
+                {
+                  "id": "3pl",
+                  "label": "3rd plural"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "pres",
+            "mood": "opt",
+            "person": "3sg"
+          },
+          "skills": [
+            "syntax.opt-indirect"
+          ],
+          "explain": "ψύχ-οιτο: present optative middle/passive, in indirect speech after a past verb.",
+          "audio": "ψύχοιτο"
+        }
+      ],
+      "generate": {
+        "skills": [
+          "verb.aor.mid.ind.3sg",
+          "verb.pres.mp.ind.3sg",
+          "verb.aor.act.opt.3sg",
+          "verb.pres.act.opt.3sg",
+          "verb.aor.pass.ind.3sg",
+          "verb.perf.act.ind.3sg",
+          "verb.ptc.aor.act.gen",
+          "syntax.gen-abs",
+          "adj.comp",
+          "adj.sup",
+          "verb.aor.act.inf",
+          "verb.fut.act.ind.3sg"
+        ],
+        "n": 12,
+        "seed": 17
+      }
+    },
+    {
+      "id": "sentences",
+      "title": "Προτάσεις · Sentences",
+      "items": [
+        {
+          "type": "cloze-choice",
+          "prompt": "ἤρετο εἴ τις σοφώτερος ___ τοῦ Σωκράτους.",
+          "options": [
+            {
+              "id": "a",
+              "text": "εἴη"
+            },
+            {
+              "id": "b",
+              "text": "εἶναι"
+            },
+            {
+              "id": "c",
+              "text": "ὤν"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "syntax.opt-indirect",
+            "syntax.indirect-question"
+          ],
+          "explain": "εἰ + optative: a reported question after a past verb."
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "ἀνεῖλεν ἡ Πυθία μηδένα σοφώτερον ___.",
+          "options": [
+            {
+              "id": "a",
+              "text": "εἶναι"
+            },
+            {
+              "id": "b",
+              "text": "εἴη"
+            },
+            {
+              "id": "c",
+              "text": "ἐστίν"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "syntax.indirect-inf"
+          ],
+          "explain": "Accusative + infinitive: the oracle's answer reported."
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "οὐκοῦν τοῦτο ἀληθές ἐστιν; — The speaker expects …",
+          "options": [
+            {
+              "id": "a",
+              "text": "yes"
+            },
+            {
+              "id": "b",
+              "text": "no"
+            },
+            {
+              "id": "c",
+              "text": "either"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.phil.questions"
+          ],
+          "explain": "οὐκοῦν …; expects agreement."
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "___ δίκαιόν ἐστιν ἢ ἄδικον;",
+          "options": [
+            {
+              "id": "a",
+              "text": "πότερον"
+            },
+            {
+              "id": "b",
+              "text": "οὐκοῦν"
+            },
+            {
+              "id": "c",
+              "text": "ὅτι"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.phil.questions"
+          ],
+          "explain": "πότερον … ἤ: which of the two?"
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "οὐδεὶς ἂν ___ οὕτως ἀδαμάντινος.",
+          "options": [
+            {
+              "id": "a",
+              "text": "γένοιτο"
+            },
+            {
+              "id": "b",
+              "text": "γένηται"
+            },
+            {
+              "id": "c",
+              "text": "ἐγένετο"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "syntax.opt-potential"
+          ],
+          "explain": "ἄν + optative: 'no one would be'."
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "ἀλλὰ ἀπόδοτε καὶ μὴ ___.",
+          "options": [
+            {
+              "id": "a",
+              "text": "ἀμελήσητε"
+            },
+            {
+              "id": "b",
+              "text": "ἀμελήσατε"
+            },
+            {
+              "id": "c",
+              "text": "ἀμελεῖν"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "syntax.subj-prohibition"
+          ],
+          "explain": "μή + aorist subjunctive: prohibition."
+        },
+        {
+          "type": "label",
+          "prompt": "ὁ ἀνὴρ ἐδόκει μὲν σοφὸς εἶναι, ἦν δ’ οὔ. The antithesis is …",
+          "options": [
+            {
+              "id": "a",
+              "text": "seeming ↔ being"
+            },
+            {
+              "id": "b",
+              "text": "asking ↔ answering"
+            },
+            {
+              "id": "c",
+              "text": "knowing ↔ teaching"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.phil.argument",
+            "syntax.men-de"
+          ],
+          "explain": "δοκεῖν μέν … εἶναι δέ."
+        },
+        {
+          "type": "label",
+          "prompt": "ἡσυχίαν τε ἄγετε καὶ καρτερεῖτε. The verbs are …",
+          "options": [
+            {
+              "id": "a",
+              "text": "imperatives (plural)"
+            },
+            {
+              "id": "b",
+              "text": "indicatives"
+            },
+            {
+              "id": "c",
+              "text": "infinitives"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "syntax.imperative"
+          ],
+          "explain": "ἄγετε, καρτερεῖτε: 2nd plural imperatives (the indicative looks the same; the sense decides)."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Ἀνάγνωσις · Reading",
+      "passage_title": "ὁ χρησμὸς κατὰ Ξενοφῶντα",
+      "passage_from": "xen-apol-14",
+      "passage_note": "Xenophon, Apology of Socrates 14–16, unadapted. Xenophon was not at the trial (he was in Asia) and reports what he heard, so the narrative verbs are infinitives ('Socrates said', εἰπεῖν τὸν Σωκράτην). Compare Plato's version in phil.1. Names: Σωκράτης (Xenophon's accusative Σωκράτην); Χαιρεφῶν Chaerephon, Socrates' friend; Δελφοί Delphi; Ἀπόλλων Apollo; Λυκοῦργος Lycurgus, the lawgiver of Sparta; Λακεδαιμόνιοι the Spartans.",
+      "glosses": {
+        "ἐθορύβουν": "were making an uproar (θορυβέω)",
+        "ἀπιστοῦντες": "disbelieving (+ dative) (ἀπιστέω)",
+        "φθονοῦντες": "feeling envy (φθονέω)",
+        "τυγχάνοι": "(if) he received (+ genitive): optative in reported thought",
+        "ἀπιστῶσι": "may disbelieve (ἀπιστέω, subjunctive)",
+        "ἐπερωτῶντος": "asking (ἐπερωτάω)",
+        "ἐλευθεριώτερον": "more free-spirited, more generous (ἐλευθέριος)",
+        "σωφρονέστερον": "more self-controlled (σώφρων, comparative)",
+        "νομοθετήσαντος": "having given laws to (+ dative) (νομοθετέω)",
+        "εἰσιόντα": "entering (εἴσειμι)",
+        "προσειπεῖν": "addressed (him) (προσεῖπον)",
+        "φροντίζω": "I am thinking, I wonder",
+        "εἴκασεν": "compared (+ dative) (εἰκάζω)",
+        "προέκρινεν": "judged (me) ahead of (+ genitive) (προκρίνω)",
+        "ὑπερφέρειν": "to surpass",
+        "εἰκῇ": "at random, without thought",
+        "δουλεύοντα": "being a slave to (+ dative) (δουλεύω)",
+        "μισθὸν": "pay, fee (ὁ μισθός)",
+        "συνηρμοσμένου": "one who is fitted to, content with (συναρμόζω, perfect participle)",
+        "προσδεῖσθαι": "to need besides (+ genitive)",
+        "φήσειεν": "would say (φημί, aorist optative with ἄν)",
+        "ὅτουπερ": "from the time when (ἐξ ὅτουπερ)",
+        "ξυνιέναι": "= συνιέναι: to understand (συνίημι)",
+        "οὐπώποτε": "never yet",
+        "διέλειπον": "I left off, stopped (διαλείπω)"
+      },
+      "items": [
+        {
+          "type": "answer-grc",
+          "prompt": "τίς ἐπηρώτησε τὸν θεὸν ἐν Δελφοῖς περὶ τοῦ Σωκράτους;",
+          "options": [
+            {
+              "id": "a",
+              "text": "ὁ Χαιρεφῶν."
+            },
+            {
+              "id": "b",
+              "text": "ὁ Λυκοῦργος."
+            },
+            {
+              "id": "c",
+              "text": "ὁ Ἀπόλλων."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.unseen",
+            "read.comprehension"
+          ],
+          "explain": "Χαιρεφῶντος γάρ ποτε ἐπερωτῶντος ἐν Δελφοῖς περὶ ἐμοῦ.",
+          "audio": "prompt"
+        },
+        {
+          "type": "answer-grc",
+          "prompt": "τί ἀνεῖλεν ὁ Ἀπόλλων;",
+          "options": [
+            {
+              "id": "a",
+              "text": "μηδένα εἶναι ἀνθρώπων ἐλευθεριώτερον ἢ δικαιότερον ἢ σωφρονέστερον τοῦ Σωκράτους."
+            },
+            {
+              "id": "b",
+              "text": "μηδένα εἶναι σοφώτερον τοῦ Λυκούργου."
+            },
+            {
+              "id": "c",
+              "text": "τὸν Σωκράτη θεὸν εἶναι."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.unseen",
+            "syntax.indirect-inf"
+          ],
+          "explain": "ἀνεῖλεν ὁ Ἀπόλλων μηδένα εἶναι ἀνθρώπων ἐμοῦ μήτε ἐλευθεριώτερον μήτε δικαιότερον μήτε σωφρονέστερον.",
+          "audio": "prompt"
+        },
+        {
+          "type": "answer-grc",
+          "prompt": "τί ἐποίουν οἱ δικασταὶ ταῦτα ἀκούοντες;",
+          "options": [
+            {
+              "id": "a",
+              "text": "ἐθορύβουν."
+            },
+            {
+              "id": "b",
+              "text": "ἐσίγων."
+            },
+            {
+              "id": "c",
+              "text": "ἐδάκρυον."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.unseen",
+            "read.comprehension"
+          ],
+          "explain": "ταῦτα ἀκούοντες οἱ δικασταὶ ἐθορύβουν.",
+          "audio": "prompt"
+        },
+        {
+          "type": "answer-grc",
+          "prompt": "περὶ τίνος εἶπεν ὁ θεὸς μείζω ἢ περὶ τοῦ Σωκράτους;",
+          "options": [
+            {
+              "id": "a",
+              "text": "περὶ Λυκούργου."
+            },
+            {
+              "id": "b",
+              "text": "περὶ Χαιρεφῶντος."
+            },
+            {
+              "id": "c",
+              "text": "περὶ τῶν δικαστῶν."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.unseen",
+            "read.comprehension"
+          ],
+          "explain": "μείζω … εἶπεν ὁ θεὸς … περὶ Λυκούργου … ἢ περὶ ἐμοῦ.",
+          "audio": "prompt"
+        },
+        {
+          "type": "answer-grc",
+          "prompt": "διὰ τί ἐλευθεριώτατός ἐστιν ὁ Σωκράτης, ὡς αὐτὸς λέγει;",
+          "options": [
+            {
+              "id": "a",
+              "text": "παρ’ οὐδενὸς οὔτε δῶρα οὔτε μισθὸν δέχεται."
+            },
+            {
+              "id": "b",
+              "text": "πολλοὺς δούλους ἔχει."
+            },
+            {
+              "id": "c",
+              "text": "ἐν Δελφοῖς οἰκεῖ."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.unseen",
+            "read.phil.argument"
+          ],
+          "explain": "ὃς παρ’ οὐδενὸς οὔτε δῶρα οὔτε μισθὸν δέχομαι.",
+          "audio": "prompt"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse ἀνεῖλεν.",
+          "form": "ἀνεῖλεν",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "fut",
+                  "label": "future"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                },
+                {
+                  "id": "perf",
+                  "label": "perfect"
+                }
+              ]
+            },
+            {
+              "id": "person",
+              "label": "Person and number",
+              "options": [
+                {
+                  "id": "1sg",
+                  "label": "1st singular"
+                },
+                {
+                  "id": "2sg",
+                  "label": "2nd singular"
+                },
+                {
+                  "id": "3sg",
+                  "label": "3rd singular"
+                },
+                {
+                  "id": "1pl",
+                  "label": "1st plural"
+                },
+                {
+                  "id": "2pl",
+                  "label": "2nd plural"
+                },
+                {
+                  "id": "3pl",
+                  "label": "3rd plural"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "aor",
+            "person": "3sg"
+          },
+          "skills": [
+            "read.unseen",
+            "verb.aor2.stem"
+          ],
+          "explain": "ἀν-εῖλ-εν: second aorist of ἀναιρέω (εἷλον), 'answered' (of an oracle).",
+          "audio": "ἀνεῖλεν"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse πιστεύσητε.",
+          "form": "πιστεύσητε",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "fut",
+                  "label": "future"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                },
+                {
+                  "id": "perf",
+                  "label": "perfect"
+                }
+              ]
+            },
+            {
+              "id": "mood",
+              "label": "Mood",
+              "options": [
+                {
+                  "id": "ind",
+                  "label": "indicative"
+                },
+                {
+                  "id": "subj",
+                  "label": "subjunctive"
+                },
+                {
+                  "id": "opt",
+                  "label": "optative"
+                },
+                {
+                  "id": "imp",
+                  "label": "imperative"
+                },
+                {
+                  "id": "inf",
+                  "label": "infinitive"
+                },
+                {
+                  "id": "ptc",
+                  "label": "participle"
+                }
+              ]
+            },
+            {
+              "id": "person",
+              "label": "Person and number",
+              "options": [
+                {
+                  "id": "1sg",
+                  "label": "1st singular"
+                },
+                {
+                  "id": "2sg",
+                  "label": "2nd singular"
+                },
+                {
+                  "id": "3sg",
+                  "label": "3rd singular"
+                },
+                {
+                  "id": "1pl",
+                  "label": "1st plural"
+                },
+                {
+                  "id": "2pl",
+                  "label": "2nd plural"
+                },
+                {
+                  "id": "3pl",
+                  "label": "3rd plural"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "aor",
+            "mood": "subj",
+            "person": "2pl"
+          },
+          "skills": [
+            "read.unseen",
+            "syntax.subj-prohibition"
+          ],
+          "explain": "πιστεύ-σ-ητε: aorist subjunctive; μηδὲ … πιστεύσητε is a prohibition.",
+          "audio": "πιστεύσητε"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse ἐπερωτῶντος.",
+          "form": "ἐπερωτῶντος",
+          "groups": [
+            {
+              "id": "case",
+              "label": "Case",
+              "options": [
+                {
+                  "id": "nom",
+                  "label": "nominative"
+                },
+                {
+                  "id": "gen",
+                  "label": "genitive"
+                },
+                {
+                  "id": "dat",
+                  "label": "dative"
+                },
+                {
+                  "id": "acc",
+                  "label": "accusative"
+                },
+                {
+                  "id": "voc",
+                  "label": "vocative"
+                }
+              ]
+            },
+            {
+              "id": "number",
+              "label": "Number",
+              "options": [
+                {
+                  "id": "sg",
+                  "label": "singular"
+                },
+                {
+                  "id": "pl",
+                  "label": "plural"
+                }
+              ]
+            },
+            {
+              "id": "mood",
+              "label": "Mood",
+              "options": [
+                {
+                  "id": "ind",
+                  "label": "indicative"
+                },
+                {
+                  "id": "subj",
+                  "label": "subjunctive"
+                },
+                {
+                  "id": "opt",
+                  "label": "optative"
+                },
+                {
+                  "id": "imp",
+                  "label": "imperative"
+                },
+                {
+                  "id": "inf",
+                  "label": "infinitive"
+                },
+                {
+                  "id": "ptc",
+                  "label": "participle"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "case": "gen",
+            "number": "sg",
+            "mood": "ptc"
+          },
+          "skills": [
+            "read.unseen",
+            "syntax.gen-abs"
+          ],
+          "explain": "ἐπ-ερωτ-ῶντος: present participle, genitive, in a genitive absolute with Χαιρεφῶντος.",
+          "audio": "ἐπερωτῶντος"
+        },
+        {
+          "type": "translate-en",
+          "prompt": "Translate: Χαιρεφῶντος γάρ ποτε ἐπερωτῶντος ἐν Δελφοῖς περὶ ἐμοῦ πολλῶν παρόντων ἀνεῖλεν ὁ Ἀπόλλων μηδένα εἶναι ἀνθρώπων ἐμοῦ μήτε ἐλευθεριώτερον μήτε δικαιότερον μήτε σωφρονέστερον.",
+          "audio": "Χαιρεφῶντος γάρ ποτε ἐπερωτῶντος ἐν Δελφοῖς περὶ ἐμοῦ πολλῶν παρόντων ἀνεῖλεν ὁ Ἀπόλλων μηδένα εἶναι ἀνθρώπων ἐμοῦ μήτε ἐλευθεριώτερον μήτε δικαιότερον μήτε σωφρονέστερον.",
+          "model": "For once, when Chaerephon was asking about me at Delphi with many people present, Apollo answered that no one among men was more free-spirited than I, or more just, or more self-controlled.",
+          "skills": [
+            "read.unseen",
+            "read.xenophon",
+            "syntax.gen-abs"
+          ],
+          "explain": "Two genitive absolutes (Χαιρεφῶντος ἐπερωτῶντος; πολλῶν παρόντων); ἀνεῖλεν + accusative and infinitive; ἐμοῦ genitive of comparison with the three comparatives."
+        },
+        {
+          "type": "translate-en",
+          "prompt": "Translate: ὅμως δὲ ὑμεῖς μηδὲ ταῦτ’ εἰκῇ πιστεύσητε τῷ θεῷ, ἀλλὰ καθ’ ἓν ἕκαστον ἐπισκοπεῖτε ὧν εἶπεν ὁ θεός.",
+          "audio": "ὅμως δὲ ὑμεῖς μηδὲ ταῦτ’ εἰκῇ πιστεύσητε τῷ θεῷ, ἀλλὰ καθ’ ἓν ἕκαστον ἐπισκοπεῖτε ὧν εἶπεν ὁ θεός.",
+          "model": "Yet do not believe the god on this without thinking, but examine each of the things the god said one by one.",
+          "skills": [
+            "read.unseen",
+            "read.xenophon",
+            "syntax.subj-prohibition"
+          ],
+          "explain": "μηδὲ … πιστεύσητε prohibition; εἰκῇ 'at random'; καθ’ ἓν ἕκαστον 'one by one'; ὧν = τούτων ἅ (relative attraction)."
+        },
+        {
+          "type": "translate-en",
+          "prompt": "Translate: τίνα μὲν γὰρ ἐπίστασθε ἧττον ἐμοῦ δουλεύοντα ταῖς τοῦ σώματος ἐπιθυμίαις;",
+          "audio": "τίνα μὲν γὰρ ἐπίστασθε ἧττον ἐμοῦ δουλεύοντα ταῖς τοῦ σώματος ἐπιθυμίαις;",
+          "model": "For whom do you know who is less a slave than I to the desires of the body?",
+          "skills": [
+            "read.unseen",
+            "read.xenophon",
+            "read.phil.terms"
+          ],
+          "explain": "τίνα … δουλεύοντα 'whom … being a slave' (object + participle after ἐπίστασθε); ἧττον ἐμοῦ genitive of comparison; ταῖς … ἐπιθυμίαις dative with δουλεύω."
+        }
+      ]
+    }
+  ]
+}

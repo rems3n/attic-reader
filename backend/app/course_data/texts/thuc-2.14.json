@@ -1,0 +1,23 @@
+{
+  "id": "thuc-2.14",
+  "category": "history",
+  "level": "intermediate",
+  "title": "Into the city",
+  "author": "Thucydides",
+  "work": "History of the Peloponnesian War",
+  "ref": "2.14.1–2",
+  "blurb": "The Athenians bring their families and goods in from the countryside; it hurts to leave home.",
+  "dialect": "attic",
+  "source": {
+    "edition": "Perseus Digital Library, tlg0003.tlg001.perseus-grc2",
+    "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2",
+    "license": "CC BY-SA 4.0",
+    "url": "https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0003/tlg001/tlg0003.tlg001.perseus-grc2.xml"
+  },
+  "text": "οἱ δὲ Ἀθηναῖοι ἀκούσαντες ἀνεπείθοντό τε καὶ ἐσεκομίζοντο ἐκ τῶν ἀγρῶν παῖδας καὶ γυναῖκας καὶ τὴν ἄλλην κατασκευὴν ᾗ κατ’ οἶκον ἐχρῶντο, καὶ αὐτῶν τῶν οἰκιῶν καθαιροῦντες τὴν ξύλωσιν· πρόβατα δὲ καὶ ὑποζύγια ἐς τὴν Εὔβοιαν διεπέμψαντο καὶ ἐς τὰς νήσους τὰς ἐπικειμένας. χαλεπῶς δὲ αὐτοῖς διὰ τὸ αἰεὶ εἰωθέναι τοὺς πολλοὺς ἐν τοῖς ἀγροῖς διαιτᾶσθαι ἡ ἀνάστασις ἐγίγνετο.",
+  "sentences": [
+    "οἱ δὲ Ἀθηναῖοι ἀκούσαντες ἀνεπείθοντό τε καὶ ἐσεκομίζοντο ἐκ τῶν ἀγρῶν παῖδας καὶ γυναῖκας καὶ τὴν ἄλλην κατασκευὴν ᾗ κατ’ οἶκον ἐχρῶντο, καὶ αὐτῶν τῶν οἰκιῶν καθαιροῦντες τὴν ξύλωσιν·",
+    "πρόβατα δὲ καὶ ὑποζύγια ἐς τὴν Εὔβοιαν διεπέμψαντο καὶ ἐς τὰς νήσους τὰς ἐπικειμένας.",
+    "χαλεπῶς δὲ αὐτοῖς διὰ τὸ αἰεὶ εἰωθέναι τοὺς πολλοὺς ἐν τοῖς ἀγροῖς διαιτᾶσθαι ἡ ἀνάστασις ἐγίγνετο."
+  ]
+}

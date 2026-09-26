@@ -1,0 +1,294 @@
+{
+ "images": [
+  {
+   "id": "hist-panel-1-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Περικλῆς ἐπὶ τοῦ βήματος πρὸς τὸν δῆμον λέγει.",
+   "alt_en": "Winter 431/430 BC, the public cemetery outside the Dipylon Gate: Pericles, bearded, helmet pushed back, speaks from a high wooden platform; below him ten cypress coffins and a crowd of citizens, foreigners and women in mourning.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-1-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ αὐτὸς ἀνὴρ καὶ κεραμεύς ἐστι καὶ πολίτης.",
+   "alt_en": "Two halves of one picture: on the left an Athenian potter at his wheel in a simple workshop; on the right the same man on the Pnyx, raising his hand to vote among other citizens.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-1-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ Ἀθηναῖοι καὶ τολμῶσι καὶ λογίζονται.",
+   "alt_en": "Athenian hoplites and rowers setting out from Piraeus at dawn, a general in front of them pointing at a map scratched on a wax tablet: daring and calculation together.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-parthenon",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὁ Παρθενών.",
+   "alt_en": "The Parthenon on the Acropolis of Athens, west or east façade, in clear light (temple built 447–438 BC, sculpture completed 432 BC).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-2-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Κλέων ἐν τῇ ἐκκλησίᾳ βοᾷ.",
+   "alt_en": "The Pnyx in 427 BC: Cleon, a loud, gesturing speaker without a cloak thrown properly over his shoulder, shouting from the platform; citizens raising hands to vote; in the distance a single trireme leaving Piraeus.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-2-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Διόδοτος ἀντιλέγει.",
+   "alt_en": "The next day on the Pnyx: a calm speaker, Diodotus, answers; the crowd is split, hands raised on both sides, a herald counting.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-2-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ ἐρέται ἅμα ἐλαύνοντες ἐσθίουσιν.",
+   "alt_en": "Inside a trireme at night: rowers pulling at their oars while eating barley mixed with wine and oil from bowls; others asleep on the benches, taking turns; a lamp at the stern.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-olympias",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ἡ Ὀλυμπιὰς τριήρης.",
+   "alt_en": "The Olympias, a full-size reconstruction of an Athenian trireme (1987), under oars in the Saronic Gulf or moored at Faliro.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-3-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ Συρακόσιοι πανταχόθεν προσκεῖνται.",
+   "alt_en": "Syracusan horsemen and javelin-throwers attacking the retreating column from every side; Nicias, a sick older general, riding in the middle of his men at dawn.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-3-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ Ἀθηναῖοι ἐν τῷ ποταμῷ πίνουσιν.",
+   "alt_en": "The river Assinarus: a narrow stream in a steep ravine choked with men and shields; men drinking the muddy water; Syracusans shooting from the high bank above. No gore; the horror shown by the crowd and the bank.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-latomie",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "αἱ λιθοτομίαι τῶν Συρακουσῶν.",
+   "alt_en": "The ancient stone quarries of Syracuse (Latomia del Paradiso, with the cave called the 'Ear of Dionysius'), where the Athenian prisoners were held in 413 BC.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-4-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἀσπὶς αἴρεται· ὁ Λύσανδρος ἐπιπλεῖ.",
+   "alt_en": "Mid-strait, a scout ship's crewman raises a bronze shield that flashes in the sun; behind it Lysander's triremes surge across at full speed; on the far beach Conon, a general in a red cloak, signals frantically to men running back to half-empty ships.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-4-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Πάραλος εἰς τὰς Ἀθήνας ἀποπλεῖ.",
+   "alt_en": "A handful of fully manned triremes breaking away to the south, one flying a sacred pennant (the Paralus); on the beach behind, Spartan soldiers rounding up Athenian sailors beside captured, empty ships.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-aspis",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ ἀσπίς",
+   "alt_en": "A hoplite's round bronze-faced shield (aspis), seen from the front and the inside with its arm-band and hand-grip.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἀσπίς"
+   ]
+  },
+  {
+   "id": "hist-athlit-ram",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "τὸ ἔμβολον.",
+   "alt_en": "The Athlit ram: a bronze warship ram of about 200 BC found off the coast of Israel (National Maritime Museum, Haifa), showing the three horizontal cutting blades.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-5-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "νυκτὸς οἰμωγὴ διὰ τῶν μακρῶν τειχῶν διήκει.",
+   "alt_en": "Night in Athens, 405 BC: torches along the Long Walls between Piraeus and the city; people coming out of their houses, women lamenting, a man running up the road between the walls with the news; in the harbour a single trireme with a sacred pennant.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-5-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὄχλος πολὺς τοὺς πρέσβεις περιχεῖται.",
+   "alt_en": "Spring 404 BC at the city gate: thin, hungry Athenians crowding round a returning embassy led by Theramenes, a well-dressed man raising a hand to calm them.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-5-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "τὰ τείχη κατασκάπτουσιν ὑπʼ αὐλητρίδων.",
+   "alt_en": "Peloponnesian soldiers and returned exiles pulling down a stretch of the Long Walls with crowbars and ropes while flute-girls play the double pipes; Spartan ships sailing into Piraeus in the background.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-kerameikos-wall",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "τὸ Θεμιστόκλειον τεῖχος ἐν τῷ Κεραμεικῷ.",
+   "alt_en": "The excavated remains of the Themistoclean city wall and the Dipylon Gate in the Kerameikos, Athens: stone socle courses with the later mudbrick removed.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-6-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Θηραμένης ἐπὶ τὸν βωμὸν ἀναπηδᾷ.",
+   "alt_en": "Inside the Council-house (bouleuterion) in the Agora, 404/3 BC: councillors on tiered wooden benches behind railings; Critias, lean and fierce, pointing; Theramenes, older and well dressed, leaping onto the small altar (hearth) in the middle of the room.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-6-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Σάτυρος τὸν Θηραμένην ἀπὸ τοῦ βωμοῦ ἕλκει.",
+   "alt_en": "Satyrus and his attendants dragging Theramenes from the altar; the councillors sitting in frozen silence; young men with hidden daggers standing at the railings and in the doorway.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-6-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Θηραμένης τὸ λειπόμενον τοῦ κωνείου ἀποκοτταβίζει.",
+   "alt_en": "In the prison: Theramenes, calm and almost smiling, flicks the last drops from a cup of hemlock as in the game of kottabos; the gaoler of the Eleven watches, puzzled.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-kottabos-kylix",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "κότταβος.",
+   "alt_en": "Attic red-figure cup (kylix) with a reclining symposiast flinging the last drops of wine from his cup with a flick of the wrist: the game of kottabos.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-7-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "«τὸν ἄνδρα ὁρῶ.»",
+   "alt_en": "Cyrus, with only a few companions left, sees his brother the King in the middle of his bodyguard and charges, spear raised, crying out; the King, in a tall headdress, recoils as the spear strikes his breastplate.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-7-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Ἀρταπάτης τῷ Κύρῳ περιπίπτει.",
+   "alt_en": "After the fight: Cyrus lies dead among eight of his companions; his faithful staff-bearer Artapates leaps down from his horse to throw himself over the body, a golden short sword at his belt. Restrained, without gore.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-thorax",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ θώραξ",
+   "alt_en": "A Greek bronze breastplate (thorax) of the 5th–4th century BC, front view, or a linen corslet with shoulder flaps.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "θώραξ"
+   ]
+  }
+ ]
+}

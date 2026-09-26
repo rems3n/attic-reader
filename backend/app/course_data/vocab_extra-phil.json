@@ -1,0 +1,2084 @@
+[
+ {
+  "lemma": "ἑταῖρος",
+  "headword": "ἑταῖρος, ἑταίρου, ὁ",
+  "definition": "companion, comrade, friend",
+  "short": "companion",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "ἑταίρου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "ἑταίρα 'female companion'"
+   ]
+  }
+ },
+ {
+  "lemma": "σοφία",
+  "headword": "σοφία, σοφίας, ἡ",
+  "definition": "wisdom, skill",
+  "short": "wisdom",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "σοφίας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "philosophy (φιλο-σοφία 'love of wisdom')",
+    "Sophia"
+   ],
+   "cognates": [
+    "σοφός 'wise'"
+   ]
+  }
+ },
+ {
+  "lemma": "χρησμός",
+  "headword": "χρησμός, χρησμοῦ, ὁ",
+  "definition": "oracle, the god's answer",
+  "short": "oracle",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "χρησμοῦ",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "χράω 'give an oracle'"
+   ]
+  }
+ },
+ {
+  "lemma": "ψεύδομαι",
+  "headword": "ψεύδομαι, ψεύσομαι, ἐψευσάμην, ἔψευσμαι, ἐψεύσθην",
+  "definition": "lie, speak falsely; (passive) be deceived",
+  "short": "lie",
+  "kind": "verb",
+  "subclass": "verb-deponent",
+  "pos": "verb: deponent",
+  "morph": {
+   "parts": {
+    "present": [
+     "ψεύδομαι"
+    ],
+    "future": [
+     "ψεύσομαι"
+    ],
+    "aorist": [
+     "ἐψευσάμην"
+    ],
+    "perfect-mp": [
+     "ἔψευσμαι"
+    ],
+    "aorist-passive": [
+     "ἐψεύσθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ψεύδομαι",
+    "ψεύσομαι",
+    "ἐψευσάμην",
+    "ἔψευσμαι",
+    "ἐψεύσθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "pseudo-, pseudonym"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀπορέω",
+  "headword": "ἀπορέω, ἀπορήσω, ἠπόρησα, ἠπόρηκα, ἠπόρημαι, ἠπορήθην",
+  "definition": "be at a loss, be puzzled, not know what to do",
+  "short": "be at a loss",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: -έω contract",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἀπορέω"
+    ],
+    "future": [
+     "ἀπορήσω"
+    ],
+    "aorist": [
+     "ἠπόρησα"
+    ],
+    "perfect": [
+     "ἠπόρηκα"
+    ],
+    "perfect-mp": [
+     "ἠπόρημαι"
+    ],
+    "aorist-passive": [
+     "ἠπορήθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἀπορέω",
+    "ἀπορήσω",
+    "ἠπόρησα",
+    "ἠπόρηκα",
+    "ἠπόρημαι",
+    "ἠπορήθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "aporia"
+   ],
+   "cognates": [
+    "πόρος 'way through'"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐλέγχω",
+  "headword": "ἐλέγχω, ἐλέγξω, ἤλεγξα, ἠλέγχθην",
+  "definition": "test, question closely; refute, show to be wrong",
+  "short": "test, refute",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐλέγχω"
+    ],
+    "future": [
+     "ἐλέγξω"
+    ],
+    "aorist": [
+     "ἤλεγξα"
+    ],
+    "aorist-passive": [
+     "ἠλέγχθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἐλέγχω",
+    "ἐλέγξω",
+    "ἤλεγξα",
+    "ἠλέγχθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "elenchus (Socrates' method of refutation)"
+   ]
+  }
+ },
+ {
+  "lemma": "πολιτικός",
+  "headword": "πολιτικός, πολιτική, πολιτικόν",
+  "definition": "of the city, political; as a noun ὁ πολιτικός: statesman, politician",
+  "short": "political; politician",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 3,
+   "forms": [
+    "πολιτικός",
+    "πολιτική",
+    "πολιτικόν"
+   ],
+   "feminine": "πολιτική",
+   "neuter": "πολιτικόν"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "politics, political"
+   ],
+   "cognates": [
+    "πόλις, πολίτης"
+   ]
+  }
+ },
+ {
+  "lemma": "διαλέγομαι",
+  "headword": "διαλέγομαι, διαλέξομαι, διείλεγμαι, διελέχθην",
+  "definition": "talk with, converse, discuss (+ dative)",
+  "short": "converse",
+  "kind": "verb",
+  "subclass": "verb-deponent",
+  "pos": "verb: deponent",
+  "morph": {
+   "parts": {
+    "present": [
+     "διαλέγομαι"
+    ],
+    "future": [
+     "διαλέξομαι"
+    ],
+    "perfect-mp": [
+     "διείλεγμαι"
+    ],
+    "aorist-passive": [
+     "διελέχθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "διαλέγομαι",
+    "διαλέξομαι",
+    "διείλεγμαι",
+    "διελέχθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "dialogue, dialectic"
+   ],
+   "cognates": [
+    "λέγω 'say'"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀμαθία",
+  "headword": "ἀμαθία, ἀμαθίας, ἡ",
+  "definition": "ignorance, lack of learning",
+  "short": "ignorance",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "ἀμαθίας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "μανθάνω 'learn' (ἀ- 'not')"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀπεχθάνομαι",
+  "headword": "ἀπεχθάνομαι, ἀπεχθήσομαι, ἀπηχθόμην, ἀπήχθημαι",
+  "definition": "be hated, become hateful (to someone: + dative)",
+  "short": "be hated",
+  "kind": "verb",
+  "subclass": "verb-deponent",
+  "pos": "verb: deponent",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἀπεχθάνομαι"
+    ],
+    "future": [
+     "ἀπεχθήσομαι"
+    ],
+    "aorist": [
+     "ἀπηχθόμην"
+    ],
+    "aorist-2": [
+     "ἀπηχθόμην"
+    ],
+    "perfect-mp": [
+     "ἀπήχθημαι"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἀπεχθάνομαι",
+    "ἀπεχθήσομαι",
+    "ἀπηχθόμην",
+    "ἀπήχθημαι"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "ἔχθρα 'enmity', ἐχθρός 'enemy'"
+   ]
+  }
+ },
+ {
+  "lemma": "λογίζομαι",
+  "headword": "λογίζομαι, λογιοῦμαι, ἐλογισάμην, λελόγισμαι",
+  "definition": "reckon, calculate, think over",
+  "short": "reckon",
+  "kind": "verb",
+  "subclass": "verb-deponent",
+  "pos": "verb: deponent",
+  "morph": {
+   "parts": {
+    "present": [
+     "λογίζομαι"
+    ],
+    "future": [
+     "λογιοῦμαι"
+    ],
+    "aorist": [
+     "ἐλογισάμην"
+    ],
+    "perfect-mp": [
+     "λελόγισμαι"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "λογίζομαι",
+    "λογιοῦμαι",
+    "ἐλογισάμην",
+    "λελόγισμαι"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "logistics"
+   ],
+   "cognates": [
+    "λόγος 'word, reckoning'"
+   ]
+  }
+ },
+ {
+  "lemma": "ὅσιος",
+  "headword": "ὅσιος, ὁσία, ὅσιον",
+  "definition": "holy, pious, right before the gods; τὸ ὅσιον: piety",
+  "short": "holy, pious",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 3,
+   "forms": [
+    "ὅσιος",
+    "ὁσία",
+    "ὅσιον"
+   ],
+   "feminine": "ὁσία",
+   "neuter": "ὅσιον"
+  },
+  "topics": [
+   "philosophy"
+  ]
+ },
+ {
+  "lemma": "ἀνόσιος",
+  "headword": "ἀνόσιος, ἀνόσιον",
+  "definition": "unholy, impious",
+  "short": "unholy",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 2,
+   "forms": [
+    "ἀνόσιος",
+    "ἀνόσιον"
+   ],
+   "neuter": "ἀνόσιον"
+  },
+  "topics": [
+   "philosophy"
+  ]
+ },
+ {
+  "lemma": "ἐπιμελέομαι",
+  "headword": "ἐπιμελέομαι, ἐπιμελήσομαι, ἐπιμεμέλημαι, ἐπεμελήθην",
+  "definition": "take care of, look after (+ genitive)",
+  "short": "take care of",
+  "kind": "verb",
+  "subclass": "verb-deponent",
+  "pos": "verb: deponent",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐπιμελέομαι"
+    ],
+    "future": [
+     "ἐπιμελήσομαι"
+    ],
+    "perfect-mp": [
+     "ἐπιμεμέλημαι"
+    ],
+    "aorist-passive": [
+     "ἐπεμελήθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἐπιμελέομαι",
+    "ἐπιμελήσομαι",
+    "ἐπιμεμέλημαι",
+    "ἐπεμελήθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "μέλει 'it is a care'"
+   ]
+  }
+ },
+ {
+  "lemma": "φαῦλος",
+  "headword": "φαῦλος, φαύλη, φαῦλον",
+  "definition": "poor, worthless, trivial, bad",
+  "short": "poor, trivial",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 3,
+   "forms": [
+    "φαῦλος",
+    "φαύλη",
+    "φαῦλον"
+   ],
+   "feminine": "φαύλη",
+   "neuter": "φαῦλον"
+  },
+  "topics": [
+   "philosophy"
+  ]
+ },
+ {
+  "lemma": "φόνος",
+  "headword": "φόνος, φόνου, ὁ",
+  "definition": "murder, killing",
+  "short": "murder",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "φόνου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "philosophy"
+  ]
+ },
+ {
+  "lemma": "μάντις",
+  "headword": "μάντις, μάντεως, ὁ",
+  "definition": "seer, prophet",
+  "short": "seer",
+  "kind": "noun",
+  "subclass": "noun-3-iota",
+  "pos": "noun: 3rd declension -ις, -εως",
+  "morph": {
+   "genitive": "μάντεως",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "-mancy (necromancy, chiromancy)"
+   ],
+   "cognates": [
+    "μαντεῖον 'oracle'"
+   ]
+  }
+ },
+ {
+  "lemma": "εὐσεβής",
+  "headword": "εὐσεβής, εὐσεβές",
+  "definition": "pious, reverent towards the gods",
+  "short": "pious",
+  "kind": "adjective",
+  "subclass": "adj-3-es",
+  "pos": "adjective: 3rd declension -ής, -ές",
+  "morph": {
+   "terminations": 2,
+   "forms": [
+    "εὐσεβής",
+    "εὐσεβές"
+   ],
+   "neuter": "εὐσεβές"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "Eusebius"
+   ],
+   "cognates": [
+    "σέβομαι 'revere'"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀσεβής",
+  "headword": "ἀσεβής, ἀσεβές",
+  "definition": "impious, godless",
+  "short": "impious",
+  "kind": "adjective",
+  "subclass": "adj-3-es",
+  "pos": "adjective: 3rd declension -ής, -ές",
+  "morph": {
+   "terminations": 2,
+   "forms": [
+    "ἀσεβής",
+    "ἀσεβές"
+   ],
+   "neuter": "ἀσεβές"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "ἀσέβεια 'impiety' (the charge against Socrates)"
+   ]
+  }
+ },
+ {
+  "lemma": "σωφροσύνη",
+  "headword": "σωφροσύνη, σωφροσύνης, ἡ",
+  "definition": "self-control, moderation, soundness of mind",
+  "short": "self-control",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "σωφροσύνης",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "σώφρων 'of sound mind' (σῶς + φρήν)"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀνδρεία",
+  "headword": "ἀνδρεία, ἀνδρείας, ἡ",
+  "definition": "courage, manliness",
+  "short": "courage",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "ἀνδρείας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "Andrew (Ἀνδρέας 'manly')"
+   ],
+   "cognates": [
+    "ἀνήρ, ἀνδρός 'man'"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀνθρώπειος",
+  "headword": "ἀνθρώπειος, ἀνθρωπεία, ἀνθρώπειον",
+  "definition": "human; τὰ ἀνθρώπεια: human affairs",
+  "short": "human",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 3,
+   "forms": [
+    "ἀνθρώπειος",
+    "ἀνθρωπεία",
+    "ἀνθρώπειον"
+   ],
+   "feminine": "ἀνθρωπεία",
+   "neuter": "ἀνθρώπειον"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "ἄνθρωπος"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀγνοέω",
+  "headword": "ἀγνοέω, ἀγνοήσω, ἠγνόησα, ἠγνόηκα, ἠγνόημαι, ἠγνοήθην",
+  "definition": "not know, be ignorant of",
+  "short": "not know",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: -έω contract",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἀγνοέω"
+    ],
+    "future": [
+     "ἀγνοήσω"
+    ],
+    "aorist": [
+     "ἠγνόησα"
+    ],
+    "perfect": [
+     "ἠγνόηκα"
+    ],
+    "perfect-mp": [
+     "ἠγνόημαι"
+    ],
+    "aorist-passive": [
+     "ἠγνοήθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἀγνοέω",
+    "ἀγνοήσω",
+    "ἠγνόησα",
+    "ἠγνόηκα",
+    "ἠγνόημαι",
+    "ἠγνοήθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "agnostic (< ἀ-γνωστός)"
+   ],
+   "cognates": [
+    "γιγνώσκω 'know'"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐπισκοπέω",
+  "headword": "ἐπισκοπέω, ἐπισκέψομαι, ἐπεσκεψάμην, ἐπέσκεμμαι",
+  "definition": "look at, examine, inspect (future and aorist from the stem σκεπ-)",
+  "short": "examine",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: -έω contract",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐπισκοπέω"
+    ],
+    "future": [
+     "ἐπισκέψομαι"
+    ],
+    "aorist": [
+     "ἐπεσκεψάμην"
+    ],
+    "perfect-mp": [
+     "ἐπέσκεμμαι"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἐπισκοπέω",
+    "ἐπισκέψομαι",
+    "ἐπεσκεψάμην",
+    "ἐπέσκεμμαι"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "bishop, episcopal (ἐπίσκοπος 'overseer')"
+   ],
+   "cognates": [
+    "σκοπέω 'look'"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀνάμνησις",
+  "headword": "ἀνάμνησις, ἀναμνήσεως, ἡ",
+  "definition": "recollection, remembering",
+  "short": "recollection",
+  "kind": "noun",
+  "subclass": "noun-3-iota",
+  "pos": "noun: 3rd declension -ις, -εως",
+  "morph": {
+   "genitive": "ἀναμνήσεως",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "anamnesis (a patient's history)"
+   ],
+   "cognates": [
+    "μιμνῄσκω 'remind'"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀναμιμνῄσκω",
+  "headword": "ἀναμιμνῄσκω, ἀναμνήσω, ἀνέμνησα, ἀναμέμνημαι, ἀνεμνήσθην",
+  "definition": "remind; (middle and passive) remember, recollect",
+  "short": "remind; (mid.) recollect",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἀναμιμνῄσκω"
+    ],
+    "future": [
+     "ἀναμνήσω"
+    ],
+    "aorist": [
+     "ἀνέμνησα"
+    ],
+    "perfect-mp": [
+     "ἀναμέμνημαι"
+    ],
+    "aorist-passive": [
+     "ἀνεμνήσθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἀναμιμνῄσκω",
+    "ἀναμνήσω",
+    "ἀνέμνησα",
+    "ἀναμέμνημαι",
+    "ἀνεμνήσθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "anamnesis"
+   ],
+   "cognates": [
+    "μνήμη 'memory' → mnemonic"
+   ]
+  }
+ },
+ {
+  "lemma": "διδαχή",
+  "headword": "διδαχή, διδαχῆς, ἡ",
+  "definition": "teaching, instruction",
+  "short": "teaching",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "διδαχῆς",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "didactic"
+   ],
+   "cognates": [
+    "διδάσκω 'teach'"
+   ]
+  }
+ },
+ {
+  "lemma": "τετράγωνος",
+  "headword": "τετράγωνος, τετράγωνον",
+  "definition": "square, four-cornered; τὸ τετράγωνον: a square",
+  "short": "square",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 2,
+   "forms": [
+    "τετράγωνος",
+    "τετράγωνον"
+   ],
+   "neuter": "τετράγωνον"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "tetragon"
+   ],
+   "cognates": [
+    "τέτταρες 'four' + γωνία 'angle'"
+   ]
+  }
+ },
+ {
+  "lemma": "γραμμή",
+  "headword": "γραμμή, γραμμῆς, ἡ",
+  "definition": "line (drawn), stroke",
+  "short": "line",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "γραμμῆς",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "grammar, -gram"
+   ],
+   "cognates": [
+    "γράφω 'draw, write'"
+   ]
+  }
+ },
+ {
+  "lemma": "πλευρά",
+  "headword": "πλευρά, πλευρᾶς, ἡ",
+  "definition": "side (of a figure or the body), rib",
+  "short": "side",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "πλευρᾶς",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "pleura, pleurisy"
+   ]
+  }
+ },
+ {
+  "lemma": "διπλάσιος",
+  "headword": "διπλάσιος, διπλασία, διπλάσιον",
+  "definition": "double, twice as large (as: + genitive)",
+  "short": "double",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 3,
+   "forms": [
+    "διπλάσιος",
+    "διπλασία",
+    "διπλάσιον"
+   ],
+   "feminine": "διπλασία",
+   "neuter": "διπλάσιον"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "diploma (δίπλωμα 'folded paper')"
+   ],
+   "cognates": [
+    "δίς 'twice'"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀκόλουθος",
+  "headword": "ἀκόλουθος, ἀκολούθου, ὁ",
+  "definition": "attendant, servant who follows",
+  "short": "attendant",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "ἀκολούθου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "acolyte"
+   ],
+   "cognates": [
+    "ἀκολουθέω 'follow'"
+   ]
+  }
+ },
+ {
+  "lemma": "προσέχω",
+  "headword": "προσέχω, προσέξω, προσέσχον, προσέσχηκα",
+  "definition": "hold to, apply; προσέχω τὸν νοῦν: pay attention (to: + dative)",
+  "short": "pay attention",
+  "kind": "verb",
+  "subclass": "verb-irregular",
+  "pos": "verb: irregular",
+  "morph": {
+   "parts": {
+    "present": [
+     "προσέχω"
+    ],
+    "future": [
+     "προσέξω"
+    ],
+    "aorist": [
+     "προσέσχον"
+    ],
+    "aorist-2": [
+     "προσέσχον"
+    ],
+    "perfect": [
+     "προσέσχηκα"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "προσέχω",
+    "προσέξω",
+    "προσέσχον",
+    "προσέσχηκα"
+   ],
+   "verb": {
+    "aorist_stem": "σχ"
+   }
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "ἔχω 'have, hold'"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐπιδείκνυμι",
+  "headword": "ἐπιδείκνυμι, ἐπιδείξω, ἐπέδειξα, ἐπιδέδειχα, ἐπιδέδειγμαι, ἐπεδείχθην",
+  "definition": "show, display, demonstrate (middle: show off one's own; prove)",
+  "short": "demonstrate",
+  "kind": "verb",
+  "subclass": "verb-mi",
+  "pos": "verb: -μι",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐπιδείκνυμι"
+    ],
+    "future": [
+     "ἐπιδείξω"
+    ],
+    "aorist": [
+     "ἐπέδειξα"
+    ],
+    "perfect": [
+     "ἐπιδέδειχα"
+    ],
+    "perfect-mp": [
+     "ἐπιδέδειγμαι"
+    ],
+    "aorist-passive": [
+     "ἐπεδείχθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἐπιδείκνυμι",
+    "ἐπιδείξω",
+    "ἐπέδειξα",
+    "ἐπιδέδειχα",
+    "ἐπιδέδειγμαι",
+    "ἐπεδείχθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "epideictic (display) oratory"
+   ],
+   "cognates": [
+    "δείκνυμι 'show'"
+   ]
+  }
+ },
+ {
+  "lemma": "δίς",
+  "headword": "δίς",
+  "definition": "twice",
+  "short": "twice",
+  "kind": "adverb",
+  "subclass": "adverb",
+  "pos": "adverb",
+  "morph": {
+   "forms": [
+    "δίς"
+   ]
+  },
+  "topics": [
+   "philosophy"
+  ]
+ },
+ {
+  "lemma": "δακτύλιος",
+  "headword": "δακτύλιος, δακτυλίου, ὁ",
+  "definition": "ring (for the finger), signet ring",
+  "short": "ring",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "δακτυλίου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "δάκτυλος 'finger' → dactyl, pterodactyl"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀφανής",
+  "headword": "ἀφανής, ἀφανές",
+  "definition": "unseen, invisible; unknown",
+  "short": "invisible",
+  "kind": "adjective",
+  "subclass": "adj-3-es",
+  "pos": "adjective: 3rd declension -ής, -ές",
+  "morph": {
+   "terminations": 2,
+   "forms": [
+    "ἀφανής",
+    "ἀφανές"
+   ],
+   "neuter": "ἀφανές"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "φαίνω 'show' (ἀ- 'not')"
+   ]
+  }
+ },
+ {
+  "lemma": "δικαιοσύνη",
+  "headword": "δικαιοσύνη, δικαιοσύνης, ἡ",
+  "definition": "justice, righteousness",
+  "short": "justice",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "δικαιοσύνης",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "δίκαιος 'just', δίκη 'right'"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀδικία",
+  "headword": "ἀδικία, ἀδικίας, ἡ",
+  "definition": "injustice, wrongdoing",
+  "short": "injustice",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "ἀδικίας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "ἀδικέω 'do wrong'"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐξουσία",
+  "headword": "ἐξουσία, ἐξουσίας, ἡ",
+  "definition": "power to do as one likes, licence, authority",
+  "short": "power, licence",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "ἐξουσίας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "ἔξεστι 'it is allowed'"
+   ]
+  }
+ },
+ {
+  "lemma": "ποιμήν",
+  "headword": "ποιμήν, ποιμένος, ὁ",
+  "definition": "shepherd",
+  "short": "shepherd",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "ποιμένος",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "Poimenics (pastoral theology)"
+   ]
+  }
+ },
+ {
+  "lemma": "στρέφω",
+  "headword": "στρέφω, στρέψω, ἔστρεψα, ἔστροφα, ἔστραμμαι, ἐστράφην",
+  "definition": "turn, twist",
+  "short": "turn",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "στρέφω"
+    ],
+    "future": [
+     "στρέψω"
+    ],
+    "aorist": [
+     "ἔστρεψα"
+    ],
+    "perfect": [
+     "ἔστροφα"
+    ],
+    "perfect-mp": [
+     "ἔστραμμαι"
+    ],
+    "aorist-passive": [
+     "ἐστράφην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "στρέφω",
+    "στρέψω",
+    "ἔστρεψα",
+    "ἔστροφα",
+    "ἔστραμμαι",
+    "ἐστράφην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "strophe, catastrophe, apostrophe"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀλλότριος",
+  "headword": "ἀλλότριος, ἀλλοτρία, ἀλλότριον",
+  "definition": "belonging to another, someone else's; τὰ ἀλλότρια: other people's property",
+  "short": "another's",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 3,
+   "forms": [
+    "ἀλλότριος",
+    "ἀλλοτρία",
+    "ἀλλότριον"
+   ],
+   "feminine": "ἀλλοτρία",
+   "neuter": "ἀλλότριον"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "ἄλλος 'other'"
+   ]
+  }
+ },
+ {
+  "lemma": "ἅπτω",
+  "headword": "ἅπτω, ἅψω, ἧψα, ἧμμαι, ἥφθην",
+  "definition": "fasten, light (a fire); (middle ἅπτομαι + genitive) touch, lay hold of",
+  "short": "fasten; (mid.) touch",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἅπτω"
+    ],
+    "future": [
+     "ἅψω"
+    ],
+    "aorist": [
+     "ἧψα"
+    ],
+    "perfect-mp": [
+     "ἧμμαι"
+    ],
+    "aorist-passive": [
+     "ἥφθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἅπτω",
+    "ἅψω",
+    "ἧψα",
+    "ἧμμαι",
+    "ἥφθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "haptic"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐπιθυμία",
+  "headword": "ἐπιθυμία, ἐπιθυμίας, ἡ",
+  "definition": "desire, longing, appetite",
+  "short": "desire",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "ἐπιθυμίας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "θυμός 'spirit, heart'"
+   ]
+  }
+ },
+ {
+  "lemma": "δάκρυον",
+  "headword": "δάκρυον, δακρύου, τό",
+  "definition": "tear (as in weeping)",
+  "short": "tear",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "δακρύου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "Latin lacrima, English tear (same root)"
+   ]
+  }
+ },
+ {
+  "lemma": "δακρύω",
+  "headword": "δακρύω, δακρύσω, ἐδάκρυσα, δεδάκρυμαι",
+  "definition": "weep, shed tears",
+  "short": "weep",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "δακρύω"
+    ],
+    "future": [
+     "δακρύσω"
+    ],
+    "aorist": [
+     "ἐδάκρυσα"
+    ],
+    "perfect-mp": [
+     "δεδάκρυμαι"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "δακρύω",
+    "δακρύσω",
+    "ἐδάκρυσα",
+    "δεδάκρυμαι"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "δάκρυον 'tear'"
+   ]
+  }
+ },
+ {
+  "lemma": "κερδαίνω",
+  "headword": "κερδαίνω, κερδανῶ, ἐκέρδανα, κεκέρδηκα",
+  "definition": "gain, profit",
+  "short": "gain",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "κερδαίνω"
+    ],
+    "future": [
+     "κερδανῶ"
+    ],
+    "aorist": [
+     "ἐκέρδανα"
+    ],
+    "perfect": [
+     "κεκέρδηκα"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "κερδαίνω",
+    "κερδανῶ",
+    "ἐκέρδανα",
+    "κεκέρδηκα"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "κέρδος 'profit'"
+   ]
+  }
+ },
+ {
+  "lemma": "εἰκότως",
+  "headword": "εἰκότως",
+  "definition": "reasonably, naturally, with good reason",
+  "short": "with good reason",
+  "kind": "adverb",
+  "subclass": "adverb",
+  "pos": "adverb",
+  "morph": {
+   "forms": [
+    "εἰκότως"
+   ]
+  },
+  "topics": [
+   "philosophy"
+  ]
+ },
+ {
+  "lemma": "σκέλος",
+  "headword": "σκέλος, σκέλους, τό",
+  "definition": "leg",
+  "short": "leg",
+  "kind": "noun",
+  "subclass": "noun-3-sigma",
+  "pos": "noun: 3rd declension -ος, -ους",
+  "morph": {
+   "genitive": "σκέλους",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "isosceles ('equal-legged')"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐκπίνω",
+  "headword": "ἐκπίνω, ἐκπίομαι, ἐξέπιον, ἐκπέπωκα",
+  "definition": "drink up, drain",
+  "short": "drink up",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐκπίνω"
+    ],
+    "future": [
+     "ἐκπίομαι"
+    ],
+    "aorist": [
+     "ἐξέπιον"
+    ],
+    "aorist-2": [
+     "ἐξέπιον"
+    ],
+    "perfect": [
+     "ἐκπέπωκα"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἐκπίνω",
+    "ἐκπίομαι",
+    "ἐξέπιον",
+    "ἐκπέπωκα"
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "πίνω 'drink'"
+   ]
+  }
+ },
+ {
+  "lemma": "ἡσυχία",
+  "headword": "ἡσυχία, ἡσυχίας, ἡ",
+  "definition": "quiet, stillness, rest; ἡσυχίαν ἄγειν: keep quiet",
+  "short": "quiet",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "ἡσυχίας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "hesychasm"
+   ]
+  }
+ },
+ {
+  "lemma": "καρτερέω",
+  "headword": "καρτερέω, καρτερήσω, ἐκαρτέρησα, κεκαρτέρηκα",
+  "definition": "be steadfast, endure, hold out",
+  "short": "endure",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: -έω contract",
+  "morph": {
+   "parts": {
+    "present": [
+     "καρτερέω"
+    ],
+    "future": [
+     "καρτερήσω"
+    ],
+    "aorist": [
+     "ἐκαρτέρησα"
+    ],
+    "perfect": [
+     "κεκαρτέρηκα"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "καρτερέω",
+    "καρτερήσω",
+    "ἐκαρτέρησα",
+    "κεκαρτέρηκα"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "κράτος 'strength'"
+   ]
+  }
+ },
+ {
+  "lemma": "αἰσχύνω",
+  "headword": "αἰσχύνω, αἰσχυνῶ, ᾔσχυνα, ᾐσχύνθην",
+  "definition": "disgrace; (middle and passive αἰσχύνομαι) feel ashamed",
+  "short": "disgrace; (pass.) be ashamed",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "αἰσχύνω"
+    ],
+    "future": [
+     "αἰσχυνῶ"
+    ],
+    "aorist": [
+     "ᾔσχυνα"
+    ],
+    "aorist-passive": [
+     "ᾐσχύνθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "αἰσχύνω",
+    "αἰσχυνῶ",
+    "ᾔσχυνα",
+    "ᾐσχύνθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "αἰσχρός 'shameful'"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐγκαλύπτω",
+  "headword": "ἐγκαλύπτω, ἐγκαλύψω, ἐνεκάλυψα, ἐγκεκάλυμμαι, ἐνεκαλύφθην",
+  "definition": "veil, cover up; (middle) cover one's face",
+  "short": "cover up",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐγκαλύπτω"
+    ],
+    "future": [
+     "ἐγκαλύψω"
+    ],
+    "aorist": [
+     "ἐνεκάλυψα"
+    ],
+    "perfect-mp": [
+     "ἐγκεκάλυμμαι"
+    ],
+    "aorist-passive": [
+     "ἐνεκαλύφθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἐγκαλύπτω",
+    "ἐγκαλύψω",
+    "ἐνεκάλυψα",
+    "ἐγκεκάλυμμαι",
+    "ἐνεκαλύφθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "Apocalypse (ἀπο-κάλυψις 'unveiling')"
+   ],
+   "cognates": [
+    "καλύπτω 'cover', Καλυψώ"
+   ]
+  }
+ },
+ {
+  "lemma": "θαυμάσιος",
+  "headword": "θαυμάσιος, θαυμασία, θαυμάσιον",
+  "definition": "wonderful, remarkable; ὦ θαυμάσιε: my good man!",
+  "short": "wonderful",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 3,
+   "forms": [
+    "θαυμάσιος",
+    "θαυμασία",
+    "θαυμάσιον"
+   ],
+   "feminine": "θαυμασία",
+   "neuter": "θαυμάσιον"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "θαυμάζω 'wonder'"
+   ]
+  }
+ },
+ {
+  "lemma": "ψύχω",
+  "headword": "ψύχω, ψύξω, ἔψυξα, ἔψυγμαι, ἐψύχθην",
+  "definition": "cool, chill; (passive) grow cold",
+  "short": "make cold",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ψύχω"
+    ],
+    "future": [
+     "ψύξω"
+    ],
+    "aorist": [
+     "ἔψυξα"
+    ],
+    "perfect-mp": [
+     "ἔψυγμαι"
+    ],
+    "aorist-passive": [
+     "ἐψύχθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ψύχω",
+    "ψύξω",
+    "ἔψυξα",
+    "ἔψυγμαι",
+    "ἐψύχθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "ψυχρός 'cold'; ψυχή 'breath, soul'"
+   ]
+  }
+ },
+ {
+  "lemma": "καρδία",
+  "headword": "καρδία, καρδίας, ἡ",
+  "definition": "heart",
+  "short": "heart",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "καρδίας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "derivatives": [
+    "cardiac, cardiology"
+   ],
+   "cognates": [
+    "Latin cor, English heart (same root)"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀλεκτρυών",
+  "headword": "ἀλεκτρυών, ἀλεκτρυόνος, ὁ",
+  "definition": "cock, rooster",
+  "short": "cock",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "ἀλεκτρυόνος",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "philosophy"
+  ]
+ },
+ {
+  "lemma": "ὀφείλω",
+  "headword": "ὀφείλω, ὀφειλήσω, ὠφείλησα, ὠφείληκα, ὠφειλήθην",
+  "definition": "owe",
+  "short": "owe",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ὀφείλω"
+    ],
+    "future": [
+     "ὀφειλήσω"
+    ],
+    "aorist": [
+     "ὠφείλησα"
+    ],
+    "perfect": [
+     "ὠφείληκα"
+    ],
+    "aorist-passive": [
+     "ὠφειλήθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ὀφείλω",
+    "ὀφειλήσω",
+    "ὠφείλησα",
+    "ὠφείληκα",
+    "ὠφειλήθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ]
+ },
+ {
+  "lemma": "ἀμελέω",
+  "headword": "ἀμελέω, ἀμελήσω, ἠμέλησα, ἠμέληκα, ἠμέλημαι, ἠμελήθην",
+  "definition": "neglect, not care about (+ genitive)",
+  "short": "neglect",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: -έω contract",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἀμελέω"
+    ],
+    "future": [
+     "ἀμελήσω"
+    ],
+    "aorist": [
+     "ἠμέλησα"
+    ],
+    "perfect": [
+     "ἠμέληκα"
+    ],
+    "perfect-mp": [
+     "ἠμέλημαι"
+    ],
+    "aorist-passive": [
+     "ἠμελήθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἀμελέω",
+    "ἀμελήσω",
+    "ἠμέλησα",
+    "ἠμέληκα",
+    "ἠμέλημαι",
+    "ἠμελήθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "μέλει 'it is a care' (ἀ- 'not')"
+   ]
+  }
+ },
+ {
+  "lemma": "τελευτή",
+  "headword": "τελευτή, τελευτῆς, ἡ",
+  "definition": "end, death",
+  "short": "end, death",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "τελευτῆς",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "τελευτάω 'end, die', τέλος 'end'"
+   ]
+  }
+ },
+ {
+  "lemma": "φρόνιμος",
+  "headword": "φρόνιμος, φρόνιμον",
+  "definition": "sensible, wise, prudent",
+  "short": "sensible",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 2,
+   "forms": [
+    "φρόνιμος",
+    "φρόνιμον"
+   ],
+   "neuter": "φρόνιμον"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "φρονέω 'think', φρόνησις 'good sense'"
+   ]
+  }
+ },
+ {
+  "lemma": "ὄμμα",
+  "headword": "ὄμμα, ὄμματος, τό",
+  "definition": "eye",
+  "short": "eye",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "ὄμματος",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "ὄψομαι 'I will see' → optic"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐκκαλύπτω",
+  "headword": "ἐκκαλύπτω, ἐκκαλύψω, ἐξεκάλυψα, ἐκκεκάλυμμαι, ἐξεκαλύφθην",
+  "definition": "uncover; (middle) uncover one's face",
+  "short": "uncover",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐκκαλύπτω"
+    ],
+    "future": [
+     "ἐκκαλύψω"
+    ],
+    "aorist": [
+     "ἐξεκάλυψα"
+    ],
+    "perfect-mp": [
+     "ἐκκεκάλυμμαι"
+    ],
+    "aorist-passive": [
+     "ἐξεκαλύφθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἐκκαλύπτω",
+    "ἐκκαλύψω",
+    "ἐξεκάλυψα",
+    "ἐκκεκάλυμμαι",
+    "ἐξεκαλύφθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "καλύπτω 'cover'; ἐγκαλύπτω 'cover up'"
+   ]
+  }
+ },
+ {
+  "lemma": "φθέγγομαι",
+  "headword": "φθέγγομαι, φθέγξομαι, ἐφθεγξάμην, ἔφθεγμαι",
+  "definition": "utter a sound, speak",
+  "short": "utter",
+  "kind": "verb",
+  "subclass": "verb-deponent",
+  "pos": "verb: deponent",
+  "morph": {
+   "parts": {
+    "present": [
+     "φθέγγομαι"
+    ],
+    "future": [
+     "φθέγξομαι"
+    ],
+    "aorist": [
+     "ἐφθεγξάμην"
+    ],
+    "perfect-mp": [
+     "ἔφθεγμαι"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "φθέγγομαι",
+    "φθέγξομαι",
+    "ἐφθεγξάμην",
+    "ἔφθεγμαι"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "philosophy"
+  ],
+  "cognates": {
+   "cognates": [
+    "φθόγγος 'sound' → diphthong"
+   ]
+  }
+ }
+]

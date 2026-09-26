@@ -1,0 +1,1422 @@
+{
+  "id": "pol.1",
+  "title_grc": "αἱ δέκα φυλαί",
+  "title_en": "The ten tribes",
+  "summary_grc": "ὁ Δημόκριτος τῷ Λύσιδι καὶ τῷ Μικίωνι λέγει ὅτι ὁ Κλεισθένης τοὺς πολίτας εἰς δέκα φυλὰς διένειμεν.",
+  "summary_en": "Winter 431/0. After the public funeral, where each of the ten tribes had its own coffin, Demokritos explains to Lysis and Mikion how Cleisthenes made ten tribes, a Council of 500 and the demes, about eighty years before. Then Aristotle's account of the reform, adapted.",
+  "cover": "pol-1-a",
+  "caption_grc": "πάντας τοὺς πολίτας εἰς δέκα φυλὰς διένειμεν, ἵνα πλείονες τῆς πολιτείας μετάσχωσιν.",
+  "original": {
+    "text": "arist-athpol-21",
+    "note": "Aristotle (or a pupil of his), Constitution of the Athenians 21.2–4, which paragraph 3 adapts. The book was written about 330 BC, a century after our story and some 180 years after Cleisthenes (508/7 BC); it survives on a papyrus found in Egypt and published in 1891. In the original, δ in 'ἐκ δ φυλῶν' is the Greek numeral 4, and the stray ι after φυλοκρινεῖν is a mark in the Perseus text, not a word."
+  },
+  "names": {
+    "Κλεισθένης": [
+      "Κλεισθένους",
+      "Κλεισθένει",
+      "Κλεισθένη"
+    ],
+    "Ἰσαγόρας": [
+      "Ἰσαγόρου",
+      "Ἰσαγόρᾳ",
+      "Ἰσαγόραν"
+    ],
+    "Ἀριστοτέλης": [
+      "Ἀριστοτέλους",
+      "Ἀριστοτέλει",
+      "Ἀριστοτέλη"
+    ],
+    "Κυδαθήναιον": [
+      "Κυδαθηναίου",
+      "Κυδαθηναίῳ"
+    ],
+    "Κυδαθηναιεύς": [
+      "Κυδαθηναιέως",
+      "Κυδαθηναιεῖ",
+      "Κυδαθηναιέα",
+      "Κυδαθηναιῆς",
+      "Κυδαθηναιέων"
+    ],
+    "Οἰνηίς": [
+      "Οἰνηίδος"
+    ],
+    "Πανδιονίς": [
+      "Πανδιονίδος"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "pol-1-a",
+      "sentences": [
+        {
+          "text": "χειμών ἐστιν. ὁ Λύσις καὶ ὁ Μικίων ἐκ τοῦ Κεραμεικοῦ οἴκαδε βαίνουσιν· ἐκεῖ γὰρ οἱ Ἀθηναῖοι τοὺς ἐν τῷ πολέμῳ ἀποθανόντας ἔθαψαν.",
+          "glosses": [
+            {
+              "word": "ἀποθανόντας",
+              "kind": "note",
+              "value": "τοὺς ἐν τῷ πολέμῳ ἀποθανόντας: those who died in the war. It is winter 431/0; the public funeral of Unit 9 is just over."
+            }
+          ]
+        },
+        {
+          "text": "«δέκα ἅμαξαι ἦσαν,» λέγει ὁ Μικίων, «καὶ ἐν ἑκάστῃ ἁμάξῃ μία λάρναξ.»",
+          "glosses": [
+            {
+              "word": "ἑκάστῃ",
+              "kind": "en",
+              "value": "each (ἕκαστος, -η, -ον)"
+            },
+            {
+              "word": "λάρναξ",
+              "kind": "en",
+              "value": "chest, coffin (of cypress wood)"
+            }
+          ]
+        },
+        {
+          "text": "«διὰ τί δέκα; διὰ τί οὐ δύο ἢ τρεῖς;»"
+        },
+        {
+          "text": "ὁ δὲ Λύσις· «μία ἑκάστῃ φυλῇ ἦν· δέκα γάρ εἰσιν αἱ φυλαὶ τῶν Ἀθηναίων, καὶ ἑκάστη φυλὴ τοὺς ἑαυτῆς νεκροὺς ἐκόμιζεν.»",
+          "glosses": [
+            {
+              "word": "φυλῇ",
+              "kind": "en",
+              "value": "tribe (ἡ φυλή): every citizen belongs to one of ten tribes"
+            },
+            {
+              "word": "νεκροὺς",
+              "kind": "en",
+              "value": "the dead (ὁ νεκρός)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ Μικίων· «ἀλλὰ τίς τὰς φυλὰς ἐποίησεν;»"
+        },
+        {
+          "text": "τότε ὁ Δημόκριτος πρὸς αὐτοὺς προσέρχεται· «ἐγὼ ὑμῖν ἐρῶ, ὦ παῖδες· περὶ γὰρ τῆς πολιτείας ἡδέως λέγω.»",
+          "glosses": [
+            {
+              "word": "πολιτείας",
+              "kind": "<",
+              "value": "πολίτης | ἡ πολιτεία (the constitution: how the citizens run the city)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "pol-1-b",
+      "sentences": [
+        {
+          "text": "«ἐν τῷ χρόνῳ τῶν πάππων τῶν ἡμετέρων τέτταρες ἦσαν αἱ φυλαί, καὶ τύραννοι τῆς πόλεως ἦρχον.",
+          "glosses": [
+            {
+              "word": "τύραννοι",
+              "kind": "en",
+              "value": "tyrants, sole rulers (ὁ τύραννος): Peisistratus and his sons ruled Athens c. 546–510"
+            },
+            {
+              "word": "ἦρχον",
+              "kind": "|",
+              "value": "ἄρχω + genitive (rule) | ἦρχον (imperfect: they ruled)"
+            }
+          ]
+        },
+        {
+          "text": "ἐπεὶ δὲ οἱ τύραννοι ἐκ τῆς πόλεως ἔφυγον, Κλεισθένης, ἀνὴρ Ἀθηναῖος, τὸν δῆμον ἔπεισεν ἄλλην πολιτείαν ποιεῖν.",
+          "glosses": [
+            {
+              "word": "Κλεισθένης",
+              "kind": "en",
+              "value": "Cleisthenes, an Athenian of the Alcmaeonid family; his reforms date to 508/7 BC"
+            }
+          ]
+        },
+        {
+          "text": "πάντας γὰρ τοὺς πολίτας εἰς δέκα φυλὰς διένειμεν ἀντὶ τῶν τεττάρων, ἵνα πλείονες τῆς πολιτείας μετάσχωσιν.»",
+          "glosses": [
+            {
+              "word": "διένειμεν",
+              "kind": "|",
+              "value": "διανέμω (distribute, divide) | διένειμε(ν) (aorist)"
+            },
+            {
+              "word": "μετάσχωσιν",
+              "kind": "|",
+              "value": "μετέχω + genitive (have a share in) | μετάσχωσι(ν) (aorist subjunctive, after ἵνα)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ Μικίων· «ἀλλὰ τί ἐστιν ὁ δῆμος; ὁ γὰρ πατήρ μου λέγει ὅτι Ἀχαρνεύς ἐστιν.»"
+        },
+        {
+          "text": "ὁ δὲ Δημόκριτος· «δῆμον καλοῦμεν καὶ πάντας τοὺς πολίτας καὶ τὴν κώμην ἐν ᾗ οἰκοῦσιν.",
+          "glosses": [
+            {
+              "word": "κώμην",
+              "kind": "en",
+              "value": "village (ἡ κώμη)"
+            }
+          ]
+        },
+        {
+          "text": "αἱ Ἀχαρναὶ δῆμός εἰσιν, καὶ τὸ Κυδαθήναιον ἄλλος δῆμος· σὺ μὲν οὖν δημότης εἶ τῶν Ἀχαρνέων, ὁ δὲ Λύσις τῶν Κυδαθηναιέων.»",
+          "glosses": [
+            {
+              "word": "δημότης",
+              "kind": "<",
+              "value": "δῆμος | ὁ δημότης (a demesman, member of a deme)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "culture-tribes-map",
+      "sentences": [
+        {
+          "text": "ὁ δὲ Λύσις· «ἆρα καὶ Ἀχαρνῆς ἐν τῇ ἡμετέρᾳ φυλῇ εἰσιν;»"
+        },
+        {
+          "text": "ὁ δὲ Δημόκριτος· «οὔ· ἡ μὲν τῶν Ἀχαρνέων φυλὴ Οἰνηίς ἐστιν, ἡ δὲ ὑμετέρα Πανδιονίς.»",
+          "glosses": [
+            {
+              "word": "Οἰνηίς",
+              "kind": "en",
+              "value": "Oineis, the tribe of Acharnae; Πανδιονίς, the tribe of Kydathenaion. Each tribe is named after a hero."
+            }
+          ]
+        },
+        {
+          "text": "πολλοῖς δὲ ἔτεσιν ὕστερον Ἀριστοτέλης καὶ οἱ μαθηταὶ αὐτοῦ τὴν τῶν Ἀθηναίων πολιτείαν συνέγραψαν, καὶ περὶ τοῦ Κλεισθένους οὕτως λέγουσιν·",
+          "glosses": [
+            {
+              "word": "ὕστερον",
+              "kind": "en",
+              "value": "later: πολλοῖς ἔτεσιν ὕστερον 'many years later' (about 330 BC)"
+            },
+            {
+              "word": "μαθηταὶ",
+              "kind": "<",
+              "value": "μανθάνω | ὁ μαθητής (pupil)"
+            }
+          ]
+        },
+        {
+          "text": "«ἐπὶ Ἰσαγόρου ἄρχοντος πρῶτον μὲν διένειμε πάντας εἰς δέκα φυλὰς ἀντὶ τῶν τεττάρων, ἀναμεῖξαι βουλόμενος, ὅπως μετάσχωσι πλείους τῆς πολιτείας.",
+          "orig": [
+            0
+          ],
+          "glosses": [
+            {
+              "word": "ἐπὶ",
+              "kind": "note",
+              "value": "ἐπὶ Ἰσαγόρου ἄρχοντος: 'in the archonship of Isagoras' (508/7 BC). Each year was named after its chief magistrate, the archon."
+            },
+            {
+              "word": "ἄρχοντος",
+              "kind": "|",
+              "value": "ἄρχω | ὁ ἄρχων, τοῦ ἄρχοντος (magistrate, archon)"
+            },
+            {
+              "word": "ἀναμεῖξαι",
+              "kind": "en",
+              "value": "to mix up (ἀναμείγνυμι, aorist infinitive)"
+            },
+            {
+              "word": "πλείους",
+              "kind": "=",
+              "value": "πλείονες (more people)"
+            }
+          ]
+        },
+        {
+          "text": "ἔπειτα τὴν βουλὴν πεντακοσίους ἀντὶ τετρακοσίων κατέστησεν, πεντήκοντα ἐξ ἑκάστης φυλῆς.",
+          "orig": [
+            2
+          ],
+          "glosses": [
+            {
+              "word": "βουλὴν",
+              "kind": "en",
+              "value": "ἡ βουλή: the Council, which prepares business for the Assembly"
+            },
+            {
+              "word": "πεντακοσίους",
+              "kind": "en",
+              "value": "five hundred (πεντακόσιοι, -αι, -α)"
+            },
+            {
+              "word": "πεντήκοντα",
+              "kind": "en",
+              "value": "fifty"
+            },
+            {
+              "word": "τετρακοσίων",
+              "kind": "en",
+              "value": "four hundred: Solon's Council"
+            }
+          ]
+        },
+        {
+          "text": "διένειμε δὲ καὶ τὴν χώραν κατὰ δήμους τριάκοντα μέρη, δέκα μὲν τῶν περὶ τὸ ἄστυ, δέκα δὲ τῆς παραλίας, δέκα δὲ τῆς μεσογείου, καὶ ἐκλήρωσε τρία εἰς τὴν φυλὴν ἑκάστην, ὅπως ἑκάστη μετέχῃ πάντων τῶν τόπων.",
+          "orig": [
+            6
+          ],
+          "glosses": [
+            {
+              "word": "χώραν",
+              "kind": "en",
+              "value": "ἡ χώρα: the land, the countryside of Attica"
+            },
+            {
+              "word": "κατὰ",
+              "kind": "note",
+              "value": "κατὰ δήμους: 'by demes', deme by deme (distributive κατά)"
+            },
+            {
+              "word": "τριάκοντα",
+              "kind": "en",
+              "value": "thirty: the thirty 'thirds' (τριττύες) of Attica"
+            },
+            {
+              "word": "μέρη",
+              "kind": "|",
+              "value": "τὸ μέρος (part, share) | τὰ μέρη"
+            },
+            {
+              "word": "ἐκλήρωσε",
+              "kind": "|",
+              "value": "κληρόω (assign by lot) | ἐκλήρωσε(ν) (aorist)"
+            },
+            {
+              "word": "παραλίας",
+              "kind": "en",
+              "value": "ἡ παραλία: the coast"
+            },
+            {
+              "word": "μεσογείου",
+              "kind": "|",
+              "value": "ἡ μεσόγειος | τῆς μεσογείου (of the inland)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ δημότας ἐποίησεν ἀλλήλων τοὺς οἰκοῦντας ἐν ἑκάστῳ τῶν δήμων, ἵνα μὴ ἀπὸ τοῦ πατρὸς καλῶσι τοὺς νέους πολίτας, ἀλλ’ ἀπὸ τῶν δήμων.",
+          "orig": [
+            7
+          ],
+          "glosses": [
+            {
+              "word": "νέους",
+              "kind": "en",
+              "value": "new (νέος, -α, -ον): the new citizens Cleisthenes enrolled; their fathers' names would have shown who they were"
+            }
+          ]
+        },
+        {
+          "text": "ὅθεν καὶ καλοῦσιν Ἀθηναῖοι σφᾶς αὐτοὺς τῶν δήμων.»",
+          "orig": [
+            8
+          ],
+          "glosses": [
+            {
+              "word": "σφᾶς",
+              "kind": "en",
+              "value": "σφᾶς αὐτούς: themselves (= ἑαυτούς)"
+            },
+            {
+              "word": "καλοῦσιν",
+              "kind": "note",
+              "value": "καλοῦσι … τῶν δήμων: they call themselves by (the names of) their demes: Λύσις Κυδαθηναιεύς"
+            }
+          ]
+        },
+        {
+          "text": "ὁ μὲν οὖν Λύσις Κυδαθηναιεύς ἐστιν, ὁ δὲ Μικίων Ἀχαρνεύς· ἀμφότεροι δὲ Ἀθηναῖοί εἰσιν."
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "φυλη",
+      "gloss_grc": "ἡ φυλή, τῆς φυλῆς · δέκα φυλαὶ τῶν Ἀθηναίων"
+    },
+    {
+      "id": "βουλη",
+      "pic": "pol-boule",
+      "gloss_grc": "ἡ βουλή: the Council of 500 (also 'will, plan')"
+    },
+    {
+      "id": "πολιτεια",
+      "gloss_grc": "ἡ πολιτεία < πολίτης · μετέχειν τῆς πολιτείας"
+    },
+    {
+      "id": "δημοτης",
+      "gloss_grc": "ὁ δημότης < δῆμος · δημότης τῶν Ἀχαρνέων"
+    },
+    {
+      "id": "εκαστος",
+      "gloss_grc": "ἕκαστος, -η, -ον · ἐξ ἑκάστης φυλῆς"
+    },
+    {
+      "id": "αρχω",
+      "gloss_grc": "ἄρχω + gen. rule · ὁ ἄρχων the archon · ἄρχομαι begin"
+    },
+    {
+      "id": "μετεχω",
+      "gloss_grc": "μετέχω + gen. · μετέσχον · μετέχειν τῆς πολιτείας"
+    },
+    {
+      "id": "διανεμω",
+      "gloss_grc": "διανέμω · διένειμα · εἰς δέκα φυλὰς διένειμεν"
+    },
+    {
+      "id": "κληροω",
+      "gloss_grc": "κληρόω · ἐκλήρωσα (ὁ κλῆρος: the lot)"
+    },
+    {
+      "id": "χωρα",
+      "gloss_grc": "ἡ χώρα: the land, the countryside"
+    },
+    {
+      "id": "μερος",
+      "gloss_grc": "τὸ μέρος, τοῦ μέρους · τριάκοντα μέρη"
+    },
+    {
+      "id": "τριακοντα",
+      "gloss_grc": "τριάκοντα = 30 (τρεῖς × δέκα)"
+    },
+    {
+      "id": "τυραννος",
+      "gloss_grc": "ὁ τύραννος · οἱ τύραννοι τῆς πόλεως ἦρχον"
+    },
+    {
+      "id": "ουτως",
+      "gloss_grc": "οὕτως (οὕτω before a consonant): in this way, so"
+    }
+  ],
+  "notice": [
+    "ἐπὶ Ἰσαγόρου ἄρχοντος … διένειμε πάντας εἰς δέκα φυλάς",
+    "ἀναμεῖξαι βουλόμενος, ὅπως μετάσχωσι πλείους τῆς πολιτείας",
+    "ὅπως ἑκάστη μετέχῃ πάντων τῶν τόπων",
+    "ἵνα μὴ ἀπὸ τοῦ πατρὸς καλῶσι τοὺς νέους πολίτας",
+    "διένειμε δὲ καὶ τὴν χώραν κατὰ δήμους τριάκοντα μέρη"
+  ],
+  "grammar": {
+    "md": "**Reading Aristotle's *Constitution of the Athenians*.** The book is a handbook: who did what, in which year, and why. Its sentences are built from a few repeated pieces.\n\n**1. The date: ἐπί + genitive of the archon.** Athens had no numbered years. Each year was named after the chief magistrate, the *archon* (ὁ ἄρχων, the participle of ἄρχω used as a noun): ἐπὶ Ἰσαγόρου ἄρχοντος 'in the archonship of Isagoras' = 508/7 BC. It is a genitive absolute without a participle of 'being'.\n\n**2. The reason: ὅπως / ἵνα + subjunctive.** Aristotle gives the purpose of each measure:\n\n| main verb | purpose clause |\n|---|---|\n| διένειμε πάντας εἰς δέκα φυλάς | ὅπως **μετάσχωσι** πλείους τῆς πολιτείας |\n| ἐκλήρωσε τρία εἰς τὴν φυλὴν ἑκάστην | ὅπως ἑκάστη **μετέχῃ** πάντων τῶν τόπων |\n| δημότας ἐποίησεν ἀλλήλων | ἵνα μὴ … **καλῶσι** τοὺς νέους πολίτας |\n\nThe main verbs are past, so Xenophon would often switch to the optative (μετάσχοιεν, Unit 9). Aristotle keeps the **subjunctive**: the purpose is still in force when he writes. Both are correct; the negative is μή.\n\n**3. Instead of, by: ἀντί and κατά.** ἀντὶ τῶν τεττάρων 'instead of the four' (ἀντί + genitive). κατὰ δήμους 'by demes, deme by deme', κατὰ φυλάς 'tribe by tribe': κατά + accusative distributes.\n\n**4. ἕκαστος 'each'** declines like καλός (ἕκαστος, ἑκάστη, ἕκαστον) and stands in predicate position when it has the article: τὴν φυλὴν ἑκάστην or ἑκάστην τὴν φυλήν, 'each tribe'; without the article, ἐξ ἑκάστης φυλῆς.\n\n**5. Numbers of the constitution.** δέκα φυλαί, τριάκοντα μέρη (the trittyes), πεντήκοντα ἐξ ἑκάστης φυλῆς, πεντακόσιοι in the Council. Tens end in -κοντα and do not decline; hundreds decline like the plural of καλός: πεντακόσιοι, -αι, -α.\n\n**New words of the city.** ὁ δημότης declines like ὁ πολίτης (1st declension masculine, genitive -ου); ἡ φυλή like τιμή.",
+    "paradigms": [
+      "polites",
+      "timi"
+    ],
+    "diagram": "diagram-purpose-fear"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings.",
+      "template": "ὁ Κλεισθένης πάντας τοὺς πολίτ___ εἰς δέκα φυλ___ διένειμεν. καὶ τὴν βουλ___ ἐποίησε πεντακοσίων ἀνδρῶν, πεντήκοντα ἐξ ἑκάστ___ φυλῆς. σὺ μὲν δημότ___ εἶ τῶν Ἀχαρνέων.",
+      "gaps": [
+        {
+          "answers": [
+            "ας"
+          ]
+        },
+        {
+          "answers": [
+            "ὰς",
+            "άς"
+          ]
+        },
+        {
+          "answers": [
+            "ὴν",
+            "ήν"
+          ]
+        },
+        {
+          "answers": [
+            "ης"
+          ]
+        },
+        {
+          "answers": [
+            "ης"
+          ]
+        }
+      ],
+      "skills": [
+        "noun.decl1.acc.pl",
+        "noun.decl1.masc",
+        "noun.decl1.gen.sg"
+      ],
+      "explain": "τοὺς πολίτας (1st-declension masculine, accusative plural), φυλάς (acc. pl.), τὴν βουλήν (acc. sg.), ἑκάστης (gen. sg. feminine, agreeing with φυλῆς), δημότης (nominative, like πολίτης)."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · πάντας εἰς δέκα φυλὰς διένειμεν, ἵνα πλείονες τῆς πολιτείας ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "μετάσχωσιν"
+        },
+        {
+          "id": "b",
+          "text": "μετέσχον"
+        },
+        {
+          "id": "c",
+          "text": "μετέχειν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.purpose",
+        "verb.aor.act.subj.3pl"
+      ],
+      "explain": "ἵνα + subjunctive: 'so that more people might have a share'. μετάσχωσι(ν) is the aorist subjunctive of μετέχω.",
+      "audio": "πάντας εἰς δέκα φυλὰς διένειμεν, ἵνα πλείονες τῆς πολιτείας μετάσχωσιν."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ___ Ἰσαγόρου ἄρχοντος ὁ Κλεισθένης τὰς φυλὰς ἐποίησεν.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐπὶ"
+        },
+        {
+          "id": "b",
+          "text": "ἀντὶ"
+        },
+        {
+          "id": "c",
+          "text": "κατὰ"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "prep.epi",
+        "read.pol.aristotle"
+      ],
+      "explain": "ἐπί + genitive of the archon's name dates the year: 'in the archonship of Isagoras', 508/7 BC.",
+      "audio": "ἐπὶ Ἰσαγόρου ἄρχοντος ὁ Κλεισθένης τὰς φυλὰς ἐποίησεν."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · δέκα φυλὰς ἐποίησεν ___ τῶν τεττάρων.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἀντὶ"
+        },
+        {
+          "id": "b",
+          "text": "ἐπὶ"
+        },
+        {
+          "id": "c",
+          "text": "διὰ"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "prep.review"
+      ],
+      "explain": "ἀντί + genitive: 'instead of'. Ten tribes instead of the (old) four.",
+      "audio": "δέκα φυλὰς ἐποίησεν ἀντὶ τῶν τεττάρων."
+    },
+    {
+      "type": "pick-picture",
+      "prompt": "ἡ βουλή",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "image": "pol-boule"
+        },
+        {
+          "id": "b",
+          "image": "ekklesia"
+        },
+        {
+          "id": "c",
+          "image": "dikasterion"
+        },
+        {
+          "id": "d",
+          "image": "agora"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition",
+        "vocab.pol"
+      ],
+      "explain": "ἡ βουλή: the Council of 500, meeting indoors in the Council house. The Assembly (ἐκκλησία) met in the open on the Pnyx."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the dative singular of φυλή: μία ἑκάστῃ ___.",
+      "lemma": "φυλή",
+      "cell": "dat.sg",
+      "skills": [
+        "noun.decl1.dat.sg",
+        "vocab.pol"
+      ],
+      "explain": "φυλῇ: an oxytone first-declension noun takes a circumflex in the genitive and dative (φυλῆς, φυλῇ), like τιμή.",
+      "audio": "φυλῇ"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the genitive plural of δημότης: 'of the demesmen'.",
+      "lemma": "δημότης",
+      "cell": "gen.pl",
+      "skills": [
+        "noun.decl1.masc",
+        "vocab.pol"
+      ],
+      "explain": "δημοτῶν: every first-declension genitive plural ends in -ῶν.",
+      "audio": "δημοτῶν"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist of διανέμω for 'he distributed'.",
+      "lemma": "διανέμω",
+      "cell": "aorist.active.indicative.3sg",
+      "skills": [
+        "verb.aor1.liquid",
+        "verb.augment.compound"
+      ],
+      "explain": "διένειμε(ν): a liquid aorist (νεμ- → νειμ-, no σ), with the augment after the prefix δια- (δι-ε-).",
+      "audio": "διένειμεν"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse μετάσχωσι.",
+      "form": "μετάσχωσι",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "mood": "subj"
+      },
+      "skills": [
+        "verb.aor.act.subj.3pl",
+        "syntax.purpose"
+      ],
+      "explain": "μετα-σχ-ῶσι: aorist subjunctive (long vowel ω), 3rd plural, of μετέχω (aorist μετέσχον). The subjunctive is used for purpose after ὅπως.",
+      "audio": "μετάσχωσι"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἄρχοντος.",
+      "form": "ἄρχοντος",
+      "groups": [
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            },
+            {
+              "id": "voc",
+              "label": "vocative"
+            }
+          ]
+        },
+        {
+          "id": "number",
+          "label": "Number",
+          "options": [
+            {
+              "id": "sg",
+              "label": "singular"
+            },
+            {
+              "id": "pl",
+              "label": "plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "case": "gen",
+        "number": "sg"
+      },
+      "skills": [
+        "verb.ptc.pres.act",
+        "read.pol.aristotle"
+      ],
+      "explain": "ἄρχοντος: genitive singular of ἄρχων, the present participle of ἄρχω used as a noun, 'the magistrate'. ἐπὶ Ἰσαγόρου ἄρχοντος: 'when Isagoras was archon'.",
+      "audio": "ἄρχοντος"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "Aristotle writes ὅπως ἑκάστη μετέχῃ πάντων τῶν τόπων. The verb μετέχω takes the ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "genitive"
+        },
+        {
+          "id": "b",
+          "text": "dative"
+        },
+        {
+          "id": "c",
+          "text": "accusative"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.gen.uses"
+      ],
+      "explain": "Verbs of sharing take a partitive genitive: μετέχειν τῆς πολιτείας, πάντων τῶν τόπων."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "κατὰ δήμους means ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "deme by deme"
+        },
+        {
+          "id": "b",
+          "text": "against the demes"
+        },
+        {
+          "id": "c",
+          "text": "down from the demes"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "prep.kata"
+      ],
+      "explain": "κατά + accusative is often distributive: κατὰ δήμους 'by demes', κατὰ φυλάς 'tribe by tribe'."
+    },
+    {
+      "type": "label",
+      "prompt": "ὅπως μετάσχωσι πλείους τῆς πολιτείας. What kind of clause is this?",
+      "options": [
+        {
+          "id": "a",
+          "text": "purpose"
+        },
+        {
+          "id": "b",
+          "text": "result"
+        },
+        {
+          "id": "c",
+          "text": "fear"
+        },
+        {
+          "id": "d",
+          "text": "indirect question"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.purpose",
+        "read.pol.aristotle"
+      ],
+      "explain": "ὅπως (like ἵνα) + subjunctive: 'so that more people might share in the constitution'."
+    },
+    {
+      "type": "label",
+      "prompt": "διένειμε … ὅπως μετάσχωσι: the main verb is past, but the purpose clause has a subjunctive, not an optative. Why?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Greek may keep the subjunctive after a past verb, to make the purpose vivid"
+        },
+        {
+          "id": "b",
+          "text": "it is a mistake in the text"
+        },
+        {
+          "id": "c",
+          "text": "μετέχω has no optative"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.purpose",
+        "syntax.opt-secondary"
+      ],
+      "explain": "In secondary sequence the optative is usual (Unit 9), but prose writers often keep the original subjunctive. Aristotle nearly always does."
+    },
+    {
+      "type": "transform",
+      "prompt": "Put the purpose clause into the optative of secondary sequence: ἵνα πλείονες τῆς πολιτείας μετάσχωσιν → ἵνα πλείονες τῆς πολιτείας ___.",
+      "template": "ἵνα πλείονες τῆς πολιτείας ___.",
+      "gaps": [
+        {
+          "answers": [
+            "μετάσχοιεν"
+          ]
+        }
+      ],
+      "skills": [
+        "syntax.opt-secondary",
+        "verb.aor.act.opt.3pl"
+      ],
+      "explain": "μετάσχοιεν: aorist optative 3rd plural (-οιεν), the form Xenophon might have used after διένειμεν."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the verb of the purpose clause.",
+      "sentence": "ἐπὶ Ἰσαγόρου ἄρχοντος πρῶτον μὲν διένειμε πάντας εἰς δέκα φυλὰς ἀντὶ τῶν τεττάρων, ἀναμεῖξαι βουλόμενος, ὅπως μετάσχωσι πλείους τῆς πολιτείας.",
+      "answer": [
+        16
+      ],
+      "skills": [
+        "read.locate",
+        "syntax.purpose"
+      ],
+      "explain": "μετάσχωσι, after ὅπως. The main verb is διένειμε."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the participle that means 'those who lived'.",
+      "sentence": "καὶ δημότας ἐποίησεν ἀλλήλων τοὺς οἰκοῦντας ἐν ἑκάστῳ τῶν δήμων, ἵνα μὴ ἀπὸ τοῦ πατρὸς καλῶσι τοὺς νέους πολίτας, ἀλλ’ ἀπὸ τῶν δήμων.",
+      "answer": [
+        5
+      ],
+      "skills": [
+        "read.locate",
+        "verb.ptc.article"
+      ],
+      "explain": "τοὺς οἰκοῦντας: article + participle, 'those living' in each deme. They became each other's demesmen."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'Cleisthenes made ten tribes instead of four.'",
+      "tokens": [
+        "ὁ",
+        "Κλεισθένης",
+        "δέκα",
+        "φυλὰς",
+        "ἐποίησεν",
+        "ἀντὶ",
+        "τῶν",
+        "τεττάρων"
+      ],
+      "answers": [
+        "ὁ Κλεισθένης δέκα φυλὰς ἐποίησεν ἀντὶ τῶν τεττάρων",
+        "ὁ Κλεισθένης ἐποίησεν δέκα φυλὰς ἀντὶ τῶν τεττάρων",
+        "δέκα φυλὰς ὁ Κλεισθένης ἐποίησεν ἀντὶ τῶν τεττάρων",
+        "ὁ Κλεισθένης ἀντὶ τῶν τεττάρων δέκα φυλὰς ἐποίησεν"
+      ],
+      "skills": [
+        "syntax.word-order"
+      ],
+      "explain": "ἀντὶ τῶν τεττάρων: 'instead of the four'. The article with τεττάρων points back to the four old tribes."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "πεντήκοντα ἐξ ἑκάστης φυλῆς."
+        },
+        {
+          "id": "b",
+          "text": "πεντακόσιοι ἐξ ἑκάστης φυλῆς."
+        },
+        {
+          "id": "c",
+          "text": "πεντήκοντα ἐξ ἑκάστου δήμου."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "Fifty from each tribe: 10 × 50 = 500 councillors.",
+      "audio": "πεντήκοντα ἐξ ἑκάστης φυλῆς."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "πρὸ τοῦ Κλεισθένους τέτταρες ἦσαν αἱ φυλαί.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἐν τῷ χρόνῳ τῶν πάππων τέτταρες ἦσαν αἱ φυλαί."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ἐν τῇ βουλῇ ἦσαν δέκα ἄνδρες ἐξ ἑκάστης φυλῆς.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension",
+        "read.pol.institutions"
+      ],
+      "explain": "πεντήκοντα ἐξ ἑκάστης φυλῆς: fifty from each tribe."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Μικίων καὶ ὁ Λύσις ἐν τῇ αὐτῇ φυλῇ εἰσιν.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "Acharnae belongs to Oineis, Kydathenaion to Pandionis."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "gaps": [
+        {
+          "answers": [
+            "δέκα φυλαὶ ἀντὶ τῶν τεττάρων"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "δέκα φυλαὶ ἀντὶ τῶν τεττάρων: 'ten tribes instead of the four'.",
+      "audio": "δέκα φυλαὶ ἀντὶ τῶν τεττάρων."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'I am a demesman of the Acharnians.'",
+      "gaps": [
+        {
+          "answers": [
+            "δημότης εἰμὶ τῶν Ἀχαρνέων",
+            "δημότης τῶν Ἀχαρνέων εἰμί",
+            "τῶν Ἀχαρνέων δημότης εἰμί",
+            "ἐγὼ δημότης εἰμὶ τῶν Ἀχαρνέων",
+            "ἐγὼ δημότης τῶν Ἀχαρνέων εἰμί",
+            "ἐγὼ τῶν Ἀχαρνέων δημότης εἰμί"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "noun.decl1.masc"
+      ],
+      "explain": "δημότης εἰμὶ τῶν Ἀχαρνέων: εἰμί is enclitic and throws its accent back (δημότης εἰμί)."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'The tyrants ruled the city.'",
+      "gaps": [
+        {
+          "answers": [
+            "οἱ τύραννοι τῆς πόλεως ἦρχον",
+            "οἱ τύραννοι ἦρχον τῆς πόλεως",
+            "τῆς πόλεως οἱ τύραννοι ἦρχον",
+            "τῆς πόλεως ἦρχον οἱ τύραννοι"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "syntax.gen.uses"
+      ],
+      "explain": "ἄρχω takes the genitive: τῆς πόλεως ἦρχον (imperfect: they ruled over a period)."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: ἐπὶ Ἰσαγόρου ἄρχοντος πρῶτον μὲν διένειμε πάντας εἰς δέκα φυλὰς ἀντὶ τῶν τεττάρων, ἀναμεῖξαι βουλόμενος, ὅπως μετάσχωσι πλείους τῆς πολιτείας.",
+      "audio": "ἐπὶ Ἰσαγόρου ἄρχοντος πρῶτον μὲν διένειμε πάντας εἰς δέκα φυλὰς ἀντὶ τῶν τεττάρων, ἀναμεῖξαι βουλόμενος, ὅπως μετάσχωσι πλείους τῆς πολιτείας.",
+      "model": "In the archonship of Isagoras, first he divided everyone into ten tribes instead of the four, wishing to mix them up, so that more people might share in the constitution.",
+      "skills": [
+        "read.adapted-text",
+        "read.pol.aristotle"
+      ],
+      "explain": "ἐπὶ … ἄρχοντος dates the year; ἀναμεῖξαι βουλόμενος is a participle phrase ('wishing to mix'); ὅπως + subjunctive is purpose."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: ὅθεν καὶ καλοῦσιν Ἀθηναῖοι σφᾶς αὐτοὺς τῶν δήμων.",
+      "audio": "ὅθεν καὶ καλοῦσιν Ἀθηναῖοι σφᾶς αὐτοὺς τῶν δήμων.",
+      "model": "That is why the Athenians also call themselves by their demes.",
+      "skills": [
+        "read.pol.aristotle",
+        "read.pol.institutions"
+      ],
+      "explain": "ὅθεν 'from which, hence'; σφᾶς αὐτούς 'themselves'; τῶν δήμων: genitive, 'by (the names of) their demes'. An Athenian's official name: Λύσις Ἀρίστωνος Κυδαθηναιεύς."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "ἡ φυλή",
+          "right": "phylum, phylogeny"
+        },
+        {
+          "left": "ὁ τύραννος",
+          "right": "tyrant"
+        },
+        {
+          "left": "ἡ πολιτεία",
+          "right": "politics"
+        },
+        {
+          "left": "ὁ δῆμος",
+          "right": "democracy, demography"
+        },
+        {
+          "left": "ἄρχω, ἡ ἀρχή",
+          "right": "monarchy, archive"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "φυλή 'tribe, race' (a phylum is a 'tribe' of animals); πολιτεία gave Plato's title Politeia (the Republic); -αρχία 'rule'."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "πόσαι φυλαὶ ἦσαν πρὸ τοῦ Κλεισθένους;",
+      "options": [
+        {
+          "id": "a",
+          "text": "τέτταρες."
+        },
+        {
+          "id": "b",
+          "text": "δέκα."
+        },
+        {
+          "id": "c",
+          "text": "τριάκοντα."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἀντὶ τῶν τεττάρων.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "πόσοι ἄνδρες ἐν τῇ βουλῇ ἦσαν;",
+      "options": [
+        {
+          "id": "a",
+          "text": "πεντακόσιοι."
+        },
+        {
+          "id": "b",
+          "text": "πεντήκοντα."
+        },
+        {
+          "id": "c",
+          "text": "τετρακόσιοι."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "read.pol.institutions"
+      ],
+      "explain": "τὴν βουλὴν πεντακοσίους ἀντὶ τετρακοσίων κατέστησεν.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "διὰ τί ὁ Κλεισθένης τοὺς πολίτας εἰς δέκα φυλὰς διένειμεν;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἵνα πλείονες τῆς πολιτείας μετάσχωσιν."
+        },
+        {
+          "id": "b",
+          "text": "ἵνα οἱ τύραννοι τῆς πόλεως ἄρχωσιν."
+        },
+        {
+          "id": "c",
+          "text": "ἵνα οἱ Ἀχαρνῆς ἐν τῷ ἄστει οἰκῶσιν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "syntax.purpose"
+      ],
+      "explain": "ὅπως μετάσχωσι πλείους τῆς πολιτείας.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "ἀπὸ τίνος καλοῦσιν οἱ Ἀθηναῖοι σφᾶς αὐτούς;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἀπὸ τῶν δήμων."
+        },
+        {
+          "id": "b",
+          "text": "ἀπὸ τῶν φυλῶν."
+        },
+        {
+          "id": "c",
+          "text": "ἀπὸ τῶν πάππων."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "καλοῦσιν Ἀθηναῖοι σφᾶς αὐτοὺς τῶν δήμων.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίς ἐστιν ἡ φυλὴ τῶν Ἀχαρνέων;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἡ Οἰνηίς."
+        },
+        {
+          "id": "b",
+          "text": "ἡ Πανδιονίς."
+        },
+        {
+          "id": "c",
+          "text": "ἡ βουλή."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἡ μὲν τῶν Ἀχαρνέων φυλὴ Οἰνηίς ἐστιν.",
+      "audio": "prompt"
+    }
+  ],
+  "culture": {
+    "title": "Cleisthenes and the ten tribes",
+    "md": "In 510 BC the Spartans drove out Hippias, the last of the tyrants. Two nobles then fought for power: **Isagoras**, who was elected archon for 508/7 and called in the Spartan king Cleomenes, and **Cleisthenes**, of the Alcmaeonid family, who 'took the people into his party' (Herodotus 5.66). The people rose, the Spartans withdrew, and Cleisthenes' reforms were passed.\n\nThe old four tribes had been bound to great families and their districts. Cleisthenes grouped the villages of Attica, about 139 **demes** (δῆμοι), into 30 **trittyes** ('thirds'): ten in the city area, ten on the coast, ten inland. Each new **tribe** received one trittys from each region, so that a tribe mixed townsmen, fishermen and hill farmers. The ten tribes were named after heroes; the Delphic oracle chose the ten from a list of a hundred.\n\nThe tribe became the frame of public life. Each sent 50 men, chosen by lot from its demes, to the new **Council of 500**; each supplied a regiment of hoplites under its own general; the choruses of the Dionysia competed tribe against tribe; and the war dead were listed tribe by tribe, as in the funeral of 431. In the Agora stood the **Monument of the Eponymous Heroes**, the ten bronze statues on a long base, where notices of new laws and lawsuits were posted for citizens to read.",
+    "image": "pol-eponymous-heroes"
+  },
+  "quiz": [
+    {
+      "type": "produce-form",
+      "prompt": "Give the dative singular feminine of ἕκαστος: ἐν ___ φυλῇ.",
+      "lemma": "ἕκαστος",
+      "cell": "dat.sg.f",
+      "skills": [
+        "adj.agree",
+        "vocab.pol"
+      ],
+      "explain": "ἑκάστῃ, agreeing with φυλῇ.",
+      "audio": "ἑκάστῃ"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἡ βουλὴ ἦν ___ ἀνδρῶν.",
+      "options": [
+        {
+          "id": "a",
+          "text": "πεντακοσίων"
+        },
+        {
+          "id": "b",
+          "text": "πεντήκοντα"
+        },
+        {
+          "id": "c",
+          "text": "τεττάρων"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.pol.institutions"
+      ],
+      "explain": "Five hundred: fifty from each of the ten tribes."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ δημότης"
+        },
+        {
+          "id": "b",
+          "text": "ὁ δῆμος"
+        },
+        {
+          "id": "c",
+          "text": "ὁ δεσπότης"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.pol"
+      ],
+      "explain": "ὁ δημότης: a member of a deme.",
+      "audio": "ὁ δημότης"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἐκλήρωσεν.",
+      "form": "ἐκλήρωσεν",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "person": "3sg"
+      },
+      "skills": [
+        "verb.aor.act.ind.3sg",
+        "verb.contract.o"
+      ],
+      "explain": "ἐ-κληρω-σε(ν): augment, lengthened stem vowel (ο → ω) and σ: aorist, 3rd singular of κληρόω.",
+      "audio": "ἐκλήρωσεν"
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Κλεισθένης τοὺς νέους πολίτας ἀπὸ τῶν πατέρων καλεῖν ἐβούλετο.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "The reverse: ἵνα μὴ ἀπὸ τοῦ πατρὸς καλῶσι … ἀλλ’ ἀπὸ τῶν δήμων."
+    },
+    {
+      "type": "label",
+      "prompt": "ἐπὶ Ἰσαγόρου ἄρχοντος tells us …",
+      "options": [
+        {
+          "id": "a",
+          "text": "when: the year"
+        },
+        {
+          "id": "b",
+          "text": "where: the place"
+        },
+        {
+          "id": "c",
+          "text": "why: the reason"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "prep.epi",
+        "read.pol.aristotle"
+      ],
+      "explain": "Athenian years were named after the archon: 508/7 BC."
+    },
+    {
+      "type": "match",
+      "prompt": "Match the Greek to the English.",
+      "pairs": [
+        {
+          "left": "ἡ φυλή",
+          "right": "tribe"
+        },
+        {
+          "left": "ἡ βουλή",
+          "right": "Council"
+        },
+        {
+          "left": "ὁ δημότης",
+          "right": "demesman"
+        },
+        {
+          "left": "ἡ χώρα",
+          "right": "land, countryside"
+        },
+        {
+          "left": "τὸ μέρος",
+          "right": "part"
+        }
+      ],
+      "skills": [
+        "vocab.recognition",
+        "vocab.pol"
+      ],
+      "explain": "φυλή, βουλή, δημότης, χώρα, μέρος."
+    }
+  ],
+  "skills": [
+    "read.adapted-text",
+    "read.pol.aristotle",
+    "read.pol.institutions",
+    "read.comprehension",
+    "read.locate",
+    "syntax.purpose",
+    "syntax.opt-secondary",
+    "syntax.gen.uses",
+    "syntax.word-order",
+    "prep.epi",
+    "prep.kata",
+    "prep.review",
+    "noun.decl1.masc",
+    "noun.decl1.dat.sg",
+    "noun.decl1.acc.pl",
+    "noun.decl1.gen.sg",
+    "adj.agree",
+    "verb.aor.act.subj.3pl",
+    "verb.aor.act.opt.3pl",
+    "verb.aor1.liquid",
+    "verb.augment.compound",
+    "verb.aor.act.ind.3sg",
+    "verb.contract.o",
+    "verb.ptc.pres.act",
+    "verb.ptc.article",
+    "listen.words",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.family",
+    "vocab.pol"
+  ]
+}

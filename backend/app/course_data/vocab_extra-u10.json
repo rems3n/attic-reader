@@ -1,0 +1,4 @@
+[
+ {"lemma": "σοφιστής", "headword": "σοφιστής, σοφιστοῦ, ὁ", "definition": "sophist, a paid teacher of speaking and 'wisdom'", "short": "sophist", "kind": "noun", "subclass": "noun-1", "pos": "noun: 1st declension masculine", "morph": {"genitive": "σοφιστοῦ", "gender": "m", "article": "ὁ"}, "topics": ["philosophy"], "cognates": {"derivatives": ["sophist", "sophistry", "sophisticated"], "cognates": ["σοφός 'wise'"]}},
+ {"lemma": "λοιμός", "headword": "λοιμός, λοιμοῦ, ὁ", "definition": "plague, pestilence", "short": "plague", "kind": "noun", "subclass": "noun-2", "pos": "noun: 2nd declension", "morph": {"genitive": "λοιμοῦ", "gender": "m", "article": "ὁ"}, "topics": ["history"], "cognates": {"cognates": ["λοιμώδης 'pestilential'"]}}
+]

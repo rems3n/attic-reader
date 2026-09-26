@@ -1,0 +1,1324 @@
+{
+ "id": "gate-hist",
+ "title_grc": "Ἱστορία · ἔλεγχος",
+ "title_en": "History track gate",
+ "scope": "hist.7",
+ "pass_score": 0.8,
+ "unlock_after_hours": 24,
+ "retake_after_days": 7,
+ "blurb": "The end of the history track. Track vocabulary (ships, armies, peace terms), a few forms, eight sentences on the historians' constructions, and an unseen page of Xenophon: the morning of Cunaxa, when a Persian rider gallops up shouting that the King is coming. Words outside the core list and the track list are glossed under the passage. No feedback until the end. 80 % to pass.",
+ "sections": [
+  {
+   "id": "vocab",
+   "title": "Λέξεις · Vocabulary",
+   "items": [
+    {
+     "type": "pick-picture",
+     "prompt": "ἡ τριήρης",
+     "options": [
+      {
+       "id": "a",
+       "image": "trieres"
+      },
+      {
+       "id": "b",
+       "image": "ploion"
+      },
+      {
+       "id": "c",
+       "image": "hamaxa"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "vocab.recognition",
+      "vocab.hist"
+     ],
+     "explain": "ἡ τριήρης: the warship with three banks of oars.",
+     "audio": "prompt"
+    },
+    {
+     "type": "pick-picture",
+     "prompt": "ὁ θώραξ",
+     "options": [
+      {
+       "id": "a",
+       "image": "hist-thorax"
+      },
+      {
+       "id": "b",
+       "image": "hist-aspis"
+      },
+      {
+       "id": "c",
+       "image": "stephanos"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "vocab.recognition",
+      "vocab.hist"
+     ],
+     "explain": "ὁ θώραξ: the breastplate (ἡ ἀσπίς is the shield).",
+     "audio": "prompt"
+    },
+    {
+     "type": "listen-pick",
+     "prompt": "Listen and choose what you hear.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ὁ ναύαρχος"
+      },
+      {
+       "id": "b",
+       "text": "ὁ στρατηγός"
+      },
+      {
+       "id": "c",
+       "text": "ὁ ἄγγελος"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "listen.words",
+      "vocab.hist"
+     ],
+     "explain": "ὁ ναύαρχος: the admiral.",
+     "audio": "ὁ ναύαρχος"
+    },
+    {
+     "type": "match",
+     "prompt": "Match the Greek to the English.",
+     "pairs": [
+      {
+       "left": "τὸ στράτευμα",
+       "right": "army"
+      },
+      {
+       "left": "ἡ εἰρήνη",
+       "right": "peace"
+      },
+      {
+       "left": "ὁ φυγάς",
+       "right": "exile"
+      },
+      {
+       "left": "ὁ λιμός",
+       "right": "hunger, famine"
+      },
+      {
+       "left": "τὸ πεζόν",
+       "right": "the infantry"
+      }
+     ],
+     "skills": [
+      "vocab.recognition",
+      "vocab.hist"
+     ],
+     "explain": "στράτευμα, εἰρήνη, φυγάς, λιμός, πεζόν."
+    },
+    {
+     "type": "match",
+     "prompt": "Match the Greek to the English.",
+     "pairs": [
+      {
+       "left": "τιτρώσκω",
+       "right": "wound"
+      },
+      {
+       "left": "σημαίνω",
+       "right": "give the signal"
+      },
+      {
+       "left": "διαβαίνω",
+       "right": "cross"
+      },
+      {
+       "left": "ἀποστέλλω",
+       "right": "send off"
+      },
+      {
+       "left": "ἀναγκάζω",
+       "right": "force, compel"
+      }
+     ],
+     "skills": [
+      "vocab.recognition",
+      "vocab.hist"
+     ],
+     "explain": "τιτρώσκω, σημαίνω, διαβαίνω, ἀποστέλλω, ἀναγκάζω."
+    },
+    {
+     "type": "cloze-type",
+     "prompt": "Type the opposite: νῆες πλήρεις ↔ νῆες ___.",
+     "gaps": [
+      {
+       "answers": [
+        "κεναί"
+       ]
+      }
+     ],
+     "skills": [
+      "vocab.production",
+      "vocab.hist"
+     ],
+     "explain": "κενός, κενή, κενόν: empty.",
+     "audio": "νῆες κεναί"
+    },
+    {
+     "type": "cloze-type",
+     "prompt": "Type the Greek for 'freedom' (with its article).",
+     "gaps": [
+      {
+       "answers": [
+        "ἡ ἐλευθερία",
+        "ἐλευθερία"
+       ]
+      }
+     ],
+     "skills": [
+      "vocab.production",
+      "vocab.hist"
+     ],
+     "explain": "ἡ ἐλευθερία < ἐλεύθερος.",
+     "audio": "ἡ ἐλευθερία"
+    },
+    {
+     "type": "cloze-type",
+     "prompt": "Type the Greek for 'flight' in εἰς ___ τρέπειν ('to put to flight').",
+     "gaps": [
+      {
+       "answers": [
+        "φυγήν"
+       ]
+      }
+     ],
+     "skills": [
+      "vocab.production",
+      "vocab.hist"
+     ],
+     "explain": "εἰς φυγὴν τρέπειν.",
+     "audio": "εἰς φυγὴν τρέπειν"
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "ὁ ___ ἐν τῷ ἐμπορίῳ πολύς ἐστιν. (crowd)",
+     "options": [
+      {
+       "id": "a",
+       "text": "ὄχλος"
+      },
+      {
+       "id": "b",
+       "text": "λιμός"
+      },
+      {
+       "id": "c",
+       "text": "φυγάς"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "vocab.recognition",
+      "vocab.hist"
+     ],
+     "explain": "ὁ ὄχλος: the crowd."
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "οἱ ___ τὸν ποταμὸν διέβησαν. (the cavalry)",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἱππῆς"
+      },
+      {
+       "id": "b",
+       "text": "ἵπποι"
+      },
+      {
+       "id": "c",
+       "text": "πεζοί"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "vocab.recognition",
+      "vocab.hist"
+     ],
+     "explain": "οἱ ἱππῆς: horsemen, cavalry."
+    }
+   ]
+  },
+  {
+   "id": "forms",
+   "title": "Τύποι · Forms",
+   "items": [
+    {
+     "type": "parse",
+     "prompt": "Parse ἀνήχθησαν.",
+     "form": "ἀνήχθησαν",
+     "groups": [
+      {
+       "id": "tense",
+       "label": "Tense",
+       "options": [
+        {
+         "id": "pres",
+         "label": "present"
+        },
+        {
+         "id": "impf",
+         "label": "imperfect"
+        },
+        {
+         "id": "fut",
+         "label": "future"
+        },
+        {
+         "id": "aor",
+         "label": "aorist"
+        },
+        {
+         "id": "perf",
+         "label": "perfect"
+        },
+        {
+         "id": "plpf",
+         "label": "pluperfect"
+        }
+       ]
+      },
+      {
+       "id": "voice",
+       "label": "Voice",
+       "options": [
+        {
+         "id": "act",
+         "label": "active"
+        },
+        {
+         "id": "mid",
+         "label": "middle"
+        },
+        {
+         "id": "pass",
+         "label": "passive"
+        }
+       ]
+      },
+      {
+       "id": "person",
+       "label": "Person and number",
+       "options": [
+        {
+         "id": "1sg",
+         "label": "1st singular"
+        },
+        {
+         "id": "2sg",
+         "label": "2nd singular"
+        },
+        {
+         "id": "3sg",
+         "label": "3rd singular"
+        },
+        {
+         "id": "1pl",
+         "label": "1st plural"
+        },
+        {
+         "id": "2pl",
+         "label": "2nd plural"
+        },
+        {
+         "id": "3pl",
+         "label": "3rd plural"
+        }
+       ]
+      }
+     ],
+     "answer": {
+      "tense": "aor",
+      "voice": "pass",
+      "person": "3pl"
+     },
+     "skills": [
+      "verb.aor.pass.ind.3pl"
+     ],
+     "explain": "ἀν-ή-χθη-σαν: aorist passive of ἀνάγω, 3rd plural: 'they put out to sea'.",
+     "audio": "ἀνήχθησαν"
+    },
+    {
+     "type": "parse",
+     "prompt": "Parse ἀπαγγελοῦσα.",
+     "form": "ἀπαγγελοῦσα",
+     "groups": [
+      {
+       "id": "tense",
+       "label": "Tense",
+       "options": [
+        {
+         "id": "pres",
+         "label": "present"
+        },
+        {
+         "id": "impf",
+         "label": "imperfect"
+        },
+        {
+         "id": "fut",
+         "label": "future"
+        },
+        {
+         "id": "aor",
+         "label": "aorist"
+        },
+        {
+         "id": "perf",
+         "label": "perfect"
+        },
+        {
+         "id": "plpf",
+         "label": "pluperfect"
+        }
+       ]
+      },
+      {
+       "id": "mood",
+       "label": "Mood",
+       "options": [
+        {
+         "id": "ind",
+         "label": "indicative"
+        },
+        {
+         "id": "subj",
+         "label": "subjunctive"
+        },
+        {
+         "id": "opt",
+         "label": "optative"
+        },
+        {
+         "id": "imp",
+         "label": "imperative"
+        },
+        {
+         "id": "inf",
+         "label": "infinitive"
+        },
+        {
+         "id": "ptc",
+         "label": "participle"
+        }
+       ]
+      },
+      {
+       "id": "case",
+       "label": "Case",
+       "options": [
+        {
+         "id": "nom",
+         "label": "nominative"
+        },
+        {
+         "id": "gen",
+         "label": "genitive"
+        },
+        {
+         "id": "dat",
+         "label": "dative"
+        },
+        {
+         "id": "acc",
+         "label": "accusative"
+        },
+        {
+         "id": "voc",
+         "label": "vocative"
+        }
+       ]
+      },
+      {
+       "id": "gender",
+       "label": "Gender",
+       "options": [
+        {
+         "id": "m",
+         "label": "masculine"
+        },
+        {
+         "id": "f",
+         "label": "feminine"
+        },
+        {
+         "id": "n",
+         "label": "neuter"
+        }
+       ]
+      }
+     ],
+     "answer": {
+      "tense": "fut",
+      "mood": "ptc",
+      "case": "nom",
+      "gender": "f"
+     },
+     "skills": [
+      "verb.ptc.fut.act"
+     ],
+     "explain": "ἀπαγγελ-οῦσα: future participle of ἀπαγγέλλω, nominative feminine: 'to report'.",
+     "audio": "ἀπαγγελοῦσα"
+    },
+    {
+     "type": "parse",
+     "prompt": "Parse διαβῶσι.",
+     "form": "διαβῶσι",
+     "groups": [
+      {
+       "id": "tense",
+       "label": "Tense",
+       "options": [
+        {
+         "id": "pres",
+         "label": "present"
+        },
+        {
+         "id": "impf",
+         "label": "imperfect"
+        },
+        {
+         "id": "fut",
+         "label": "future"
+        },
+        {
+         "id": "aor",
+         "label": "aorist"
+        },
+        {
+         "id": "perf",
+         "label": "perfect"
+        },
+        {
+         "id": "plpf",
+         "label": "pluperfect"
+        }
+       ]
+      },
+      {
+       "id": "mood",
+       "label": "Mood",
+       "options": [
+        {
+         "id": "ind",
+         "label": "indicative"
+        },
+        {
+         "id": "subj",
+         "label": "subjunctive"
+        },
+        {
+         "id": "opt",
+         "label": "optative"
+        },
+        {
+         "id": "imp",
+         "label": "imperative"
+        },
+        {
+         "id": "inf",
+         "label": "infinitive"
+        },
+        {
+         "id": "ptc",
+         "label": "participle"
+        }
+       ]
+      },
+      {
+       "id": "person",
+       "label": "Person and number",
+       "options": [
+        {
+         "id": "1sg",
+         "label": "1st singular"
+        },
+        {
+         "id": "2sg",
+         "label": "2nd singular"
+        },
+        {
+         "id": "3sg",
+         "label": "3rd singular"
+        },
+        {
+         "id": "1pl",
+         "label": "1st plural"
+        },
+        {
+         "id": "2pl",
+         "label": "2nd plural"
+        },
+        {
+         "id": "3pl",
+         "label": "3rd plural"
+        }
+       ]
+      }
+     ],
+     "answer": {
+      "tense": "aor",
+      "mood": "subj",
+      "person": "3pl"
+     },
+     "skills": [
+      "verb.aor.act.subj.3pl",
+      "syntax.ean"
+     ],
+     "explain": "δια-βῶ-σι: root aorist subjunctive of διαβαίνω, 3rd plural (ἐὰν διαβῶσι 'if they cross').",
+     "audio": "διαβῶσι"
+    }
+   ],
+   "generate": {
+    "skills": [
+     "verb.aor.pass.ind.3pl",
+     "verb.ptc.aor.act.gen",
+     "syntax.gen-abs",
+     "verb.impf.act.ind.3pl",
+     "verb.fut.act.ind.3sg",
+     "verb.aor.act.inf",
+     "verb.pres.act.opt.3sg",
+     "verb.aor.mid.ind.3sg",
+     "adj.sup",
+     "noun.decl3.gen.sg"
+    ],
+    "n": 10,
+    "seed": 17
+   }
+  },
+  {
+   "id": "sentences",
+   "title": "Λόγοι · Sentences",
+   "items": [
+    {
+     "type": "cloze-choice",
+     "prompt": "ἐποιοῦντο εἰρήνην ἐφʼ ᾧ τὰ τείχη ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "καθελεῖν"
+      },
+      {
+       "id": "b",
+       "text": "καθεῖλον"
+      },
+      {
+       "id": "c",
+       "text": "καθαιροῦσι"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "read.hist.terms"
+     ],
+     "explain": "ἐφʼ ᾧ + infinitive: on condition that."
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "ὁ ναύαρχος ἐσήμηνε ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "πλεῖν"
+      },
+      {
+       "id": "b",
+       "text": "πλεῖ"
+      },
+      {
+       "id": "c",
+       "text": "ἔπλευσε"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "read.hist.terms"
+     ],
+     "explain": "σημαίνω + infinitive: gave the signal to sail."
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "Κῦρος δείσας μὴ ὁ βασιλεὺς τὸ Ἑλληνικὸν ___ ἐπʼ αὐτὸν ἤλαυνεν.",
+     "options": [
+      {
+       "id": "a",
+       "text": "κατακόψῃ"
+      },
+      {
+       "id": "b",
+       "text": "κατέκοψε"
+      },
+      {
+       "id": "c",
+       "text": "κατακόψαι"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.fear"
+     ],
+     "explain": "Fear clause: μή + subjunctive."
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "___ δὲ τῶν γνωμῶν, οἱ Ἀθηναῖοι ἐχειροτόνουν.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ῥηθεισῶν"
+      },
+      {
+       "id": "b",
+       "text": "ῥηθεῖσαι"
+      },
+      {
+       "id": "c",
+       "text": "ῥηθείσας"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.gen-abs"
+     ],
+     "explain": "Genitive absolute: ῥηθεισῶν τῶν γνωμῶν 'when the proposals had been spoken'."
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "ὁ Κῦρος ἀποκτεῖναι ___ τὸν ἄρχοντα αὐτῶν.",
+     "options": [
+      {
+       "id": "a",
+       "text": "λέγεται"
+      },
+      {
+       "id": "b",
+       "text": "λέγει"
+      },
+      {
+       "id": "c",
+       "text": "ἔλεγε"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "read.hist.sources"
+     ],
+     "explain": "λέγεται + infinitive: 'he is said to have killed'."
+    },
+    {
+     "type": "transform",
+     "prompt": "Put into reported speech after ἀπήγγελλον: «ἐπὶ τούτοις ποιοῦνται τὴν εἰρήνην.» → ἀπήγγελλον ἐφʼ οἷς ___ τὴν εἰρήνην.",
+     "template": "ἀπήγγελλον ἐφʼ οἷς ___ τὴν εἰρήνην.",
+     "gaps": [
+      {
+       "answers": [
+        "ποιοῖντο",
+        "ποιοῦνται"
+       ]
+      }
+     ],
+     "skills": [
+      "syntax.opt-indirect"
+     ],
+     "explain": "After a past verb the verb may become optative: ποιοῖντο (or stay ποιοῦνται)."
+    },
+    {
+     "type": "reorder",
+     "prompt": "Put the words in order: 'The Athenians sent off another trireme.'",
+     "tokens": [
+      "οἱ",
+      "Ἀθηναῖοι",
+      "ἄλλην",
+      "τριήρη",
+      "ἀπέστειλαν"
+     ],
+     "answers": [
+      "οἱ Ἀθηναῖοι ἄλλην τριήρη ἀπέστειλαν",
+      "οἱ Ἀθηναῖοι τριήρη ἄλλην ἀπέστειλαν",
+      "οἱ Ἀθηναῖοι ἀπέστειλαν ἄλλην τριήρη",
+      "ἄλλην τριήρη οἱ Ἀθηναῖοι ἀπέστειλαν",
+      "ἄλλην τριήρη ἀπέστειλαν οἱ Ἀθηναῖοι"
+     ],
+     "skills": [
+      "syntax.word-order",
+      "vocab.hist"
+     ],
+     "explain": "οἱ Ἀθηναῖοι ἄλλην τριήρη ἀπέστειλαν."
+    },
+    {
+     "type": "compose-grc",
+     "prompt": "Write in Greek: 'The general ordered the soldiers to cross the river.'",
+     "gaps": [
+      {
+       "answers": [
+        "ὁ στρατηγὸς ἐκέλευσε τοὺς στρατιώτας τὸν ποταμὸν διαβῆναι",
+        "ὁ στρατηγὸς ἐκέλευσε τοὺς στρατιώτας διαβῆναι τὸν ποταμόν",
+        "ὁ στρατηγὸς τοὺς στρατιώτας ἐκέλευσε τὸν ποταμὸν διαβῆναι",
+        "ὁ στρατηγὸς ἐκέλευσεν τοὺς στρατιώτας τὸν ποταμὸν διαβῆναι",
+        "ὁ στρατηγὸς ἐκέλευσε τοὺς στρατιώτας τὸν ποταμὸν διαβαίνειν",
+        "ὁ στρατηγὸς ἐκέλευσε τοὺς στρατιώτας διαβαίνειν τὸν ποταμόν"
+       ]
+      }
+     ],
+     "skills": [
+      "read.hist.terms",
+      "vocab.production"
+     ],
+     "explain": "κελεύω + accusative + infinitive: ὁ στρατηγὸς ἐκέλευσε τοὺς στρατιώτας τὸν ποταμὸν διαβῆναι."
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "Ἀνάγνωσις · Reading",
+   "passage_title": "Βασιλεὺς προσέρχεται",
+   "passage_from": "xen-anab-1.8.1",
+   "passage_note": "Xenophon, Anabasis 1.8.1–4, unadapted: the morning of the battle of Cunaxa (401 BC), before the charge you read in hist.7. Names: Πατηγύας Pategyas, a Persian officer of Cyrus; Κῦρος Cyrus; οἱ Ἕλληνες the Greek mercenaries; Κλέαρχος Clearchus, the Spartan commander of the Greeks; Πρόξενος Proxenus, a Boeotian general, Xenophon's friend; Μένων Meno, a Thessalian general; ὁ Εὐφράτης the Euphrates.",
+   "glosses": {
+    "πλήθουσαν": "ἀγορὰ πλήθουσα: the time when the market is full, mid-morning",
+    "πλησίον": "near",
+    "σταθμὸς": "halting place, the day's camp (ὁ σταθμός)",
+    "καταλύειν": "to halt, make camp",
+    "ἡνίκα": "when",
+    "Πέρσης": "a Persian",
+    "χρηστός": "good, trusty",
+    "προφαίνεται": "comes into view (historic present)",
+    "ἱδροῦντι": "sweating (ἱδρόω)",
+    "ἐνετύγχανεν": "met (ἐντυγχάνω + dative)",
+    "βαρβαρικῶς": "in Persian",
+    "ἑλληνικῶς": "in Greek",
+    "παρεσκευασμένος": "prepared (perfect participle of παρασκευάζω)",
+    "τάραχος": "confusion, uproar (ὁ τάραχος)",
+    "ἀτάκτοις": "out of formation, not in order (ἄτακτος < ἀ- + τάττω)",
+    "σφίσιν": "them (the Greeks and all the rest)",
+    "ἐπιπεσεῖσθαι": "would fall upon (future infinitive of ἐπιπίπτω)",
+    "καταπηδήσας": "leaping down (καταπηδάω)",
+    "ἅρματος": "chariot (τὸ ἅρμα)",
+    "ἐνεδύετο": "put on (ἐνδύομαι)",
+    "παλτὰ": "javelins (τὸ παλτόν)",
+    "παρήγγελλεν": "passed the order (παραγγέλλω + dative)",
+    "ἐξοπλίζεσθαι": "to arm themselves",
+    "δεξιὰ": "the right (side)",
+    "κέρατος": "wing (of an army): τὸ κέρας, τοῦ κέρατος",
+    "κέρας": "wing (of an army)",
+    "εὐώνυμον": "left",
+    "Ἑλληνικοῦ": "τὸ Ἑλληνικόν: the Greek force"
+   },
+   "items": [
+    {
+     "type": "answer-grc",
+     "prompt": "τίς προφαίνεται ἐλαύνων ἀνὰ κράτος;",
+     "options": [
+      {
+       "id": "a",
+       "text": "ὁ Πατηγύας, ἀνὴρ Πέρσης τῶν ἀμφὶ Κῦρον."
+      },
+      {
+       "id": "b",
+       "text": "ὁ Κλέαρχος."
+      },
+      {
+       "id": "c",
+       "text": "ὁ βασιλεὺς αὐτός."
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "read.unseen",
+      "read.xenophon"
+     ],
+     "explain": "Πατηγύας, ἀνὴρ Πέρσης τῶν ἀμφὶ Κῦρον χρηστός, προφαίνεται ἐλαύνων ἀνὰ κράτος.",
+     "audio": "prompt"
+    },
+    {
+     "type": "answer-grc",
+     "prompt": "τί ἐβόα ὁ Πατηγύας;",
+     "options": [
+      {
+       "id": "a",
+       "text": "ὅτι βασιλεὺς σὺν στρατεύματι πολλῷ προσέρχεται."
+      },
+      {
+       "id": "b",
+       "text": "ὅτι ὁ Κῦρος ἀπέθανεν."
+      },
+      {
+       "id": "c",
+       "text": "ὅτι ἡ θάλαττα ἐγγύς ἐστιν."
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "read.unseen",
+      "read.xenophon",
+      "syntax.indirect-hoti"
+     ],
+     "explain": "ἐβόα … ὅτι βασιλεὺς σὺν στρατεύματι πολλῷ προσέρχεται ὡς εἰς μάχην παρεσκευασμένος.",
+     "audio": "prompt"
+    },
+    {
+     "type": "answer-grc",
+     "prompt": "τί ἐδόκουν οἱ Ἕλληνες;",
+     "options": [
+      {
+       "id": "a",
+       "text": "τὸν βασιλέα ἀτάκτοις σφίσιν ἐπιπεσεῖσθαι."
+      },
+      {
+       "id": "b",
+       "text": "τὸν βασιλέα φεύξεσθαι."
+      },
+      {
+       "id": "c",
+       "text": "εἰρήνην ἔσεσθαι."
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "read.unseen",
+      "read.xenophon",
+      "syntax.indirect-inf"
+     ],
+     "explain": "ἐδόκουν … ἀτάκτοις σφίσιν ἐπιπεσεῖσθαι: they thought (the King) would fall on them while they were out of formation.",
+     "audio": "prompt"
+    },
+    {
+     "type": "answer-grc",
+     "prompt": "τί ἐποίησεν ὁ Κῦρος καταπηδήσας ἀπὸ τοῦ ἅρματος;",
+     "options": [
+      {
+       "id": "a",
+       "text": "τὸν θώρακα ἐνεδύετο καὶ ἐπὶ τὸν ἵππον ἀνέβη."
+      },
+      {
+       "id": "b",
+       "text": "ἔφυγεν εἰς τὸν σταθμόν."
+      },
+      {
+       "id": "c",
+       "text": "τοὺς Ἕλληνας ἀπέπεμψεν."
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "read.unseen",
+      "read.xenophon"
+     ],
+     "explain": "τὸν θώρακα ἐνεδύετο καὶ ἀναβὰς ἐπὶ τὸν ἵππον τὰ παλτὰ εἰς τὰς χεῖρας ἔλαβε.",
+     "audio": "prompt"
+    },
+    {
+     "type": "answer-grc",
+     "prompt": "ποῦ ἦν ὁ Κλέαρχος;",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἐπὶ τῷ δεξιῷ κέρατι πρὸς τῷ Εὐφράτῃ ποταμῷ."
+      },
+      {
+       "id": "b",
+       "text": "ἐπὶ τῷ εὐωνύμῳ κέρατι."
+      },
+      {
+       "id": "c",
+       "text": "ἐν τῷ σταθμῷ."
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "read.unseen",
+      "read.xenophon"
+     ],
+     "explain": "Κλέαρχος μὲν τὰ δεξιὰ τοῦ κέρατος ἔχων πρὸς τῷ Εὐφράτῃ ποταμῷ.",
+     "audio": "prompt"
+    },
+    {
+     "type": "parse",
+     "prompt": "Parse προφαίνεται.",
+     "form": "προφαίνεται",
+     "groups": [
+      {
+       "id": "tense",
+       "label": "Tense",
+       "options": [
+        {
+         "id": "pres",
+         "label": "present"
+        },
+        {
+         "id": "impf",
+         "label": "imperfect"
+        },
+        {
+         "id": "fut",
+         "label": "future"
+        },
+        {
+         "id": "aor",
+         "label": "aorist"
+        },
+        {
+         "id": "perf",
+         "label": "perfect"
+        },
+        {
+         "id": "plpf",
+         "label": "pluperfect"
+        }
+       ]
+      },
+      {
+       "id": "mood",
+       "label": "Mood",
+       "options": [
+        {
+         "id": "ind",
+         "label": "indicative"
+        },
+        {
+         "id": "subj",
+         "label": "subjunctive"
+        },
+        {
+         "id": "opt",
+         "label": "optative"
+        },
+        {
+         "id": "imp",
+         "label": "imperative"
+        },
+        {
+         "id": "inf",
+         "label": "infinitive"
+        },
+        {
+         "id": "ptc",
+         "label": "participle"
+        }
+       ]
+      },
+      {
+       "id": "person",
+       "label": "Person and number",
+       "options": [
+        {
+         "id": "1sg",
+         "label": "1st singular"
+        },
+        {
+         "id": "2sg",
+         "label": "2nd singular"
+        },
+        {
+         "id": "3sg",
+         "label": "3rd singular"
+        },
+        {
+         "id": "1pl",
+         "label": "1st plural"
+        },
+        {
+         "id": "2pl",
+         "label": "2nd plural"
+        },
+        {
+         "id": "3pl",
+         "label": "3rd plural"
+        }
+       ]
+      }
+     ],
+     "answer": {
+      "tense": "pres",
+      "mood": "ind",
+      "person": "3sg"
+     },
+     "skills": [
+      "verb.historic-present",
+      "read.unseen"
+     ],
+     "explain": "προ-φαίν-εται: present (historic present) indicative, 3rd singular: 'appears'.",
+     "audio": "προφαίνεται"
+    },
+    {
+     "type": "parse",
+     "prompt": "Parse ἔλαβε.",
+     "form": "ἔλαβε",
+     "groups": [
+      {
+       "id": "tense",
+       "label": "Tense",
+       "options": [
+        {
+         "id": "pres",
+         "label": "present"
+        },
+        {
+         "id": "impf",
+         "label": "imperfect"
+        },
+        {
+         "id": "fut",
+         "label": "future"
+        },
+        {
+         "id": "aor",
+         "label": "aorist"
+        },
+        {
+         "id": "perf",
+         "label": "perfect"
+        },
+        {
+         "id": "plpf",
+         "label": "pluperfect"
+        }
+       ]
+      },
+      {
+       "id": "mood",
+       "label": "Mood",
+       "options": [
+        {
+         "id": "ind",
+         "label": "indicative"
+        },
+        {
+         "id": "subj",
+         "label": "subjunctive"
+        },
+        {
+         "id": "opt",
+         "label": "optative"
+        },
+        {
+         "id": "imp",
+         "label": "imperative"
+        },
+        {
+         "id": "inf",
+         "label": "infinitive"
+        },
+        {
+         "id": "ptc",
+         "label": "participle"
+        }
+       ]
+      },
+      {
+       "id": "person",
+       "label": "Person and number",
+       "options": [
+        {
+         "id": "1sg",
+         "label": "1st singular"
+        },
+        {
+         "id": "2sg",
+         "label": "2nd singular"
+        },
+        {
+         "id": "3sg",
+         "label": "3rd singular"
+        },
+        {
+         "id": "1pl",
+         "label": "1st plural"
+        },
+        {
+         "id": "2pl",
+         "label": "2nd plural"
+        },
+        {
+         "id": "3pl",
+         "label": "3rd plural"
+        }
+       ]
+      }
+     ],
+     "answer": {
+      "tense": "aor",
+      "mood": "ind",
+      "person": "3sg"
+     },
+     "skills": [
+      "verb.aor2.stem",
+      "read.unseen"
+     ],
+     "explain": "ἔ-λαβ-ε: second aorist of λαμβάνω, 3rd singular.",
+     "audio": "ἔλαβε"
+    },
+    {
+     "type": "parse",
+     "prompt": "Parse καταπηδήσας.",
+     "form": "καταπηδήσας",
+     "groups": [
+      {
+       "id": "tense",
+       "label": "Tense",
+       "options": [
+        {
+         "id": "pres",
+         "label": "present"
+        },
+        {
+         "id": "impf",
+         "label": "imperfect"
+        },
+        {
+         "id": "fut",
+         "label": "future"
+        },
+        {
+         "id": "aor",
+         "label": "aorist"
+        },
+        {
+         "id": "perf",
+         "label": "perfect"
+        },
+        {
+         "id": "plpf",
+         "label": "pluperfect"
+        }
+       ]
+      },
+      {
+       "id": "mood",
+       "label": "Mood",
+       "options": [
+        {
+         "id": "ind",
+         "label": "indicative"
+        },
+        {
+         "id": "subj",
+         "label": "subjunctive"
+        },
+        {
+         "id": "opt",
+         "label": "optative"
+        },
+        {
+         "id": "imp",
+         "label": "imperative"
+        },
+        {
+         "id": "inf",
+         "label": "infinitive"
+        },
+        {
+         "id": "ptc",
+         "label": "participle"
+        }
+       ]
+      },
+      {
+       "id": "case",
+       "label": "Case",
+       "options": [
+        {
+         "id": "nom",
+         "label": "nominative"
+        },
+        {
+         "id": "gen",
+         "label": "genitive"
+        },
+        {
+         "id": "dat",
+         "label": "dative"
+        },
+        {
+         "id": "acc",
+         "label": "accusative"
+        },
+        {
+         "id": "voc",
+         "label": "vocative"
+        }
+       ]
+      },
+      {
+       "id": "gender",
+       "label": "Gender",
+       "options": [
+        {
+         "id": "m",
+         "label": "masculine"
+        },
+        {
+         "id": "f",
+         "label": "feminine"
+        },
+        {
+         "id": "n",
+         "label": "neuter"
+        }
+       ]
+      }
+     ],
+     "answer": {
+      "tense": "aor",
+      "mood": "ptc",
+      "case": "nom",
+      "gender": "m"
+     },
+     "skills": [
+      "verb.ptc.aor.act",
+      "read.unseen"
+     ],
+     "explain": "καταπηδή-σας: aorist participle, nominative masculine with Κῦρος: 'having leapt down'.",
+     "audio": "καταπηδήσας"
+    },
+    {
+     "type": "translate-en",
+     "prompt": "Translate: ἔνθα δὴ πολὺς τάραχος ἐγένετο·",
+     "audio": "ἔνθα δὴ πολὺς τάραχος ἐγένετο·",
+     "model": "Then there was great confusion.",
+     "skills": [
+      "read.unseen",
+      "read.xenophon"
+     ],
+     "explain": "ἔνθα δή 'thereupon'; τάραχος 'confusion'."
+    },
+    {
+     "type": "translate-en",
+     "prompt": "Translate: Κῦρός τε καταπηδήσας ἀπὸ τοῦ ἅρματος τὸν θώρακα ἐνεδύετο καὶ ἀναβὰς ἐπὶ τὸν ἵππον τὰ παλτὰ εἰς τὰς χεῖρας ἔλαβε.",
+     "audio": "Κῦρός τε καταπηδήσας ἀπὸ τοῦ ἅρματος τὸν θώρακα ἐνεδύετο καὶ ἀναβὰς ἐπὶ τὸν ἵππον τὰ παλτὰ εἰς τὰς χεῖρας ἔλαβε.",
+     "model": "Cyrus leapt down from his chariot and began putting on his breastplate, and mounting his horse he took his javelins in his hands.",
+     "skills": [
+      "read.unseen",
+      "read.xenophon",
+      "read.hist.narrative"
+     ],
+     "explain": "Two participles (καταπηδήσας, ἀναβάς), each before its main verb (ἐνεδύετο, ἔλαβε)."
+    },
+    {
+     "type": "translate-en",
+     "prompt": "Translate: τοῖς τε ἄλλοις πᾶσι παρήγγελλεν ἐξοπλίζεσθαι καὶ καθίστασθαι εἰς τὴν ἑαυτοῦ τάξιν ἕκαστον.",
+     "audio": "τοῖς τε ἄλλοις πᾶσι παρήγγελλεν ἐξοπλίζεσθαι καὶ καθίστασθαι εἰς τὴν ἑαυτοῦ τάξιν ἕκαστον.",
+     "model": "And he passed the order to all the others to arm themselves and each to take his place in his own position.",
+     "skills": [
+      "read.unseen",
+      "read.xenophon",
+      "read.hist.terms"
+     ],
+     "explain": "παραγγέλλω + dative + infinitive: an order passed along; ἕκαστον is the subject of καθίστασθαι."
+    }
+   ]
+  }
+ ]
+}

@@ -52,6 +52,13 @@ for _canon, _shapes in PREFIX_SHAPES.items():
 for _sh, _canon in {"συμ": "συν", "συγ": "συν", "συλ": "συν", "συ": "συν", "ἐμ": "ἐν", "ἐγ": "ἐν", "ἐξ": "ἐκ", "καθ": "κατα", "ἀφ": "ἀπο"}.items():
     PREFIX_SURFACE.setdefault(_sh, _canon)
 PREFIXES = sorted(PREFIX_SURFACE, key=len, reverse=True)
+# assimilated shapes an override stem may be written with (συλλαβ-, ἐμβαλ-, ἐκ-/ἐξ-);
+# only used to strip a prefix, never to detect one
+ASSIMILATED: dict[str, tuple[str, ...]] = {
+    "συν": ("συμ", "συγ", "συλ", "συρ", "συσ", "συ"),
+    "ἐν": ("ἐμ", "ἐγ", "ἐλ", "ἐρ"),
+    "ἐκ": ("ἐκ", "ἐξ"),
+}
 PREFIX_VARIANTS = {sh: [PREFIX_SHAPES[c][1], PREFIX_SHAPES[c][2]] for sh, c in PREFIX_SURFACE.items()}
 
 
@@ -86,7 +93,13 @@ def attach_prefix(canon: str, stem: str) -> str:
     shape = prefix_before(canon, stem)
     d = nfd(stem)
     d = "".join(ch for i, ch in enumerate(d) if not (ch in (SMOOTH, ROUGH) and i < 4))
+    if shape.endswith("σ") and len(d) > 1 and d[0] == "σ" and d[1] not in VOWELS:
+        shape = shape[:-1]  # προσ + σχ- → προσχ- (πρόσχες, προσχεῖν), not προσσχ-
     return nfc(shape + d)
+
+# ε-initial verbs whose augment is ει (Smyth §431): ἔχω εἶχον, ἐάω εἴων, ἕπομαι
+# εἱπόμην, ἕλκω εἷλκον … — listed so that their compounds augment the same way
+EI_AUGMENT_BASES = {"ἐχω", "ἐαω", "ἑπομαι", "ἑλκω", "ἑρπω", "ἐθιζω", "ἑλισσω", "ἑλιττω", "ἐργαζομαι", "ἑστιαω"}
 
 # augment of an initial vowel: short → long
 AUGMENT_VOWEL = {"α": "η", "ε": "η", "ο": "ω", "ι": "ῑ", "υ": "ῡ", "αι": "ῃ", "ει": "ῃ", "οι": "ῳ", "αυ": "ηυ", "ευ": "ηυ"}
@@ -479,7 +492,10 @@ class VerbInfo:
         self.lemma = entry["lemma"]
         morph = entry.get("morph", {})
         self.parts: dict[str, list[str]] = {k: list(v) for k, v in morph.get("parts", {}).items()}
-        self.extra: dict[str, list[str]] = morph.get("extra", {})
+        self.extra: dict[str, list[str]] = dict(morph.get("extra", {}))
+        if "perfect" in self.extra and not self.parts.get("perfect"):
+            # a perfect listed only as an extra part (μαίνομαι … μέμηνα ‘I am mad’) is still conjugated
+            self.parts["perfect"] = list(self.extra.pop("perfect"))
         self.subclass = entry.get("subclass", "verb-omega")
         ov = morph.get("verb", {})
         self.ov = ov
@@ -543,6 +559,8 @@ def _ei_augment(v: VerbInfo) -> bool:
         return bool(v.ov["ei_augment"])
     if nfd(strip_accent(v.base))[:1] != "ε":
         return False
+    if strip_accent(v.base) in EI_AUGMENT_BASES:
+        return True  # compounds too: μετ-εῖχον, προσ-εῖχον (the DCC gives only the aorist)
     for f in v.parts.get("aorist", []) + v.extra.get("imperfect", []):
         fb = strip_accent(f.lstrip("-"))
         if v.prefix:
@@ -607,6 +625,20 @@ def _lengthen(v: VerbInfo, stem: str, augmented: bool = False) -> str:
     return marked + stem[len(plain):] if stem.startswith(plain) else stem
 
 
+def _strip_prefix(v: VerbInfo, stem: str) -> str:
+    """An override stem may be written with the compound's prefix (ἐξελθ for
+    ἐξέρχομαι); the builders add the prefix themselves, so drop it here."""
+    if not v.prefix:
+        return stem
+    bare = strip_accent(stem)
+    shapes = set(PREFIX_SHAPES[v.prefix]) | set(ASSIMILATED.get(v.prefix, ()))
+    for sh in sorted(shapes, key=len, reverse=True):
+        if bare.startswith(sh) and len(bare) > len(sh) + 1:
+            rest = stem[len(sh):]
+            return _restore_breathing(sh, rest) if sh in PREFIX_SURFACE else rest
+    return stem
+
+
 def aorist_stems(v: VerbInfo) -> dict:
     """Classify the aorist(s): {'type': 'sigma'|'thematic'|'root'|'kappa', 'aug': augmented stem, 'stem': plain stem}."""
     out = {}
@@ -665,9 +697,9 @@ def aorist_stems(v: VerbInfo) -> dict:
         if not prefix_v:
             stem_aug = _ensure_breathing(stem_aug)
         if typ == "sigma" and v.ov.get("aorist_stem_1"):
-            plain = v.ov["aorist_stem_1"]
+            plain = _strip_prefix(v, v.ov["aorist_stem_1"])
         elif v.ov.get("aorist_stem") and typ != "sigma" or (v.ov.get("aorist_stem") and typ == "sigma" and label != "?"):
-            plain = v.ov["aorist_stem"]
+            plain = _strip_prefix(v, v.ov["aorist_stem"])
         if not prefix_v and not v.prefix:
             plain = _ensure_breathing(plain)
         rec = {"type": typ, "aug": (prefix_v + stem_aug), "stem": plain, "form": f, "prefix_v": prefix_v, "alt_aug": []}
@@ -847,7 +879,7 @@ def future_system(v: VerbInfo) -> list[dict]:
         bare = strip_accent(f)
         if bare.endswith(("ῶ", "ω")) and accent_position(f) == (1, "circumflex"):
             stem = f[:-1]
-            tables += _contract_future(stem, active=True, middle=not v.ov.get("no_future_middle", False), vowel=v.ov.get("future_contract", "ε"))
+            tables += _contract_future(stem, active=True, middle=not v.ov.get("no_future_middle", False), vowel=_future_contract_vowel(v))
         elif bare.endswith("ουμαι") and accent_position(f) == (2, "circumflex"):
             stem = f[:-5]
             tables += _contract_future(stem, active=False, middle=True)
@@ -871,6 +903,17 @@ def future_system(v: VerbInfo) -> list[dict]:
                 table("future", "passive", "participle", participle(s, E.PART_MP)),
             ]
     return tables
+
+
+def _future_contract_vowel(v: VerbInfo) -> str:
+    """-έω for most contract futures (μενῶ -εῖς, νομιῶ -ιεῖς); -άω for the
+    Attic futures of ἐλαύνω (ἐλῶ, ἐλᾷς) and of verbs in -άζω / -άννυμι
+    (βιβῶ, σκεδῶ), whose σ dropped between α and the thematic vowel."""
+    if v.ov.get("future_contract"):
+        return v.ov["future_contract"]
+    if strip_accent(v.base).endswith(("αυνω", "αζω", "αννυμι")):
+        return "α"
+    return "ε"
 
 
 def _thematic_future(stem: str, active: bool, middle: bool) -> list[dict]:
@@ -942,7 +985,7 @@ def aorist_system(v: VerbInfo) -> list[dict]:
                     table(label, "active", "indicative", finite(aug, E.AOR1_ACT_IND, floor=_prefix_syllables(v, aug))),
                     table(label, "active", "subjunctive", finite(stem_p, E.AOR1_SUBJ_ACT)),
                     table(label, "active", "optative", finite(stem_p, E.AOR1_OPT_ACT, optative=True)),
-                    table(label, "active", "imperative", finite(stem_p, [None, None, "ατω", None, "ατε", "αντων"]) and _with_2sg(finite(stem_p, E.AOR1_IMPER_ACT), join(stem_p, "ον", "penult"))),
+                    table(label, "active", "imperative", finite(stem_p, E.AOR1_IMPER_ACT)),  # recessive: λῦσον, ποίησον, ἔλεγξον
                     table(label, "active", "infinitive", _cells(["inf"], [join(stem_p, E.AOR1_INF_ACT, "penult")])),
                     table(label, "active", "participle", participle(stem_p, E.AOR1_PART_ACT, ("penult", None, "penult", None))),
                 ]
@@ -959,6 +1002,8 @@ def aorist_system(v: VerbInfo) -> list[dict]:
             act = typ == "thematic"                   # ἦλθον, ἑάλων: active in form
             mid = True if typ == "thematic-mid" else (not v.deponent and not v.ov.get("no_aorist_middle", False))
             imper2 = "έ" if strip_accent(stem_p) in T.OXYTONE_IMPERATIVES else "ε"
+            if strip_accent(stem) == "σχ":  # ἔχω: σχές; compounds recessive: πρόσχες, μετάσχες
+                imper2 = "ες" if v.prefix else "ές"
             if act:
                 tables += [
                     table(label, "active", "indicative", _alt_indicative(finite(aug, E.IMPF_ACT, floor=_prefix_syllables(v, aug)), aug, rec["alt_aug"], E.IMPF_ACT)),
@@ -989,7 +1034,7 @@ def aorist_system(v: VerbInfo) -> list[dict]:
                 table(label, "active", "indicative", finite(long_aug[:-1], ends_t["ind"], floor=_prefix_syllables(v, long_aug[:-1]))),
                 table(label, "active", "subjunctive", finite(short_p[:-1], ends_t["subj"])),
                 table(label, "active", "optative", finite(short_p[:-1], ends_t["opt"], optative=True)),
-                table(label, "active", "imperative", finite(short_p[:-1], ends_t["imper"])),
+                table(label, "active", "imperative", finite(short_p[:-1], _compound_imper(v, ends_t["imper"]))),
                 table(label, "active", "infinitive", _cells(["inf"], [join(short_p[:-1], ends_t["inf"])])),
                 table(label, "active", "participle", participle(short_p[:-1], ends_t["part"])),
             ]
@@ -1003,7 +1048,7 @@ def aorist_system(v: VerbInfo) -> list[dict]:
                 table(label, "active", "indicative", finite(aug_short, ends["act_ind"], floor=_prefix_syllables(v, aug_short))),
                 table(label, "active", "subjunctive", finite(short_p, ends["subj_act"])),
                 table(label, "active", "optative", finite(short_p, ends["opt_act"], optative=True)),
-                table(label, "active", "imperative", finite(short_p, ends["imper_act"])),
+                table(label, "active", "imperative", finite(short_p, _compound_imper(v, ends["imper_act"]))),
                 table(label, "active", "infinitive", _cells(["inf"], [join(short_p, ends["inf_act"])])),
                 table(label, "active", "participle", participle(short_p, ends["part_act"])),
                 table(label, "middle", "indicative", finite(aug_short, ends["mid_ind"], floor=_prefix_syllables(v, aug_short))),
@@ -1033,6 +1078,30 @@ def aorist_system(v: VerbInfo) -> list[dict]:
     return tables
 
 
+def _compound_imper(v: VerbInfo, endings: list) -> list:
+    """In compounds the monosyllabic 2nd singular imperatives (δός, θές, ἕς,
+    στῆθι, βῆθι, γνῶθι) lose their fixed accent and recede, as far as the
+    last syllable of the prefix (Smyth §426): ἀπόδος, ἐπίθες, ἄφες,
+    κατάστηθι, ἀνάβηθι, ἀνάγνωθι."""
+    if not v.prefix or not endings[1]:
+        return endings
+    out = list(endings)
+    out[1] = strip_accent(out[1])
+    return out
+
+
+def _imperative_floor(v: VerbInfo, tb: dict) -> dict:
+    """Recessive imperatives of compounds never put the accent before the last
+    syllable of the prefix: ἀπόδος (not ἄποδος), περίθες, μετάσχες."""
+    for c in tb["cells"]:
+        fixed = []
+        for f in c["forms"]:
+            n = _prefix_syllables(v, f)
+            fixed.append(_floor(f, n - 1) if n >= 2 else f)
+        c["forms"] = fixed
+    return tb
+
+
 def _root_endings(stem: str):
     bare = strip_accent(stem)
     if bare.endswith("η"):
@@ -1049,21 +1118,25 @@ def _root_short(stem: str, key: str) -> str:
     return stem[:-1] + short
 
 
-def _aorist_passive_stem(v: VerbInfo, ap: str) -> str | None:
+def _aorist_passive_plain(v: VerbInfo, ap: str) -> str | None:
+    """Unaugmented aorist passive stem without the prefix (λυθ, ληφθ, γραφ)."""
     ap = ap.lstrip("-")
     bare = strip_accent(ap)
     if not bare.endswith("ην"):
         return None
     body = ap
-    prefix_v = ""
     if v.prefix:
         for prev in sorted(set(PREFIX_SHAPES[v.prefix]), key=len, reverse=True):
             if bare.startswith(prev):
-                prefix_v, body = prev, ap[len(prev):]
+                body = ap[len(prev):]
                 break
     stem_aug = strip_accent(body)[:-2]
-    plain = v.ov.get("aorist_passive_stem") or unaugment(stem_aug, v.base)
-    return with_prefix(v, plain)
+    return v.ov.get("aorist_passive_stem") or unaugment(stem_aug, v.base)
+
+
+def _aorist_passive_stem(v: VerbInfo, ap: str) -> str | None:
+    plain = _aorist_passive_plain(v, ap)
+    return with_prefix(v, plain) if plain is not None else None
 
 
 def _aorist_passive_aug(v: VerbInfo, ap: str) -> str:
@@ -1147,12 +1220,34 @@ def _perfect_mp(v: VerbInfo, pm: str) -> list[dict]:
     if not v.prefix:
         base = _ensure_breathing(base)
     liquid = "liquid" in v.entry.get("pos", "")
-    if bare.endswith("μμαι"):
+    present = present_stem(v)[0]
+    periphrastic_2sg = False
+    nu_stem = present.endswith("ν") and any(
+        strip_accent(f).endswith(("νθην", "νω", "νουμαι", "να", "ναμην"))
+        for k in ("future", "aorist", "aorist-passive") for f in v.parts.get(k, []))  # αἰσχυνῶ, ᾐσχύνθην; not λαμβάνω
+    if bare.endswith("μμαι") and nu_stem:
+        # ν-stems with ν → μ before μ (αἰσχύνω ᾔσχυμμαι, ὀξύνω ὤξυμμαι): the ν
+        # returns before τ and θ (ᾔσχυνται, ᾔσχυνθε); the 2nd singular (*ᾔσχυνσαι)
+        # is avoided and replaced by the periphrastic form (Smyth §§ 409, 489).
+        kind, base = "nasal", base[:-1]
+        ind = ["μμαι", None, "νται", "μμεθα", "νθε", None]
+        plup = ["μμην", None, "ντο", "μμεθα", "νθε", None]
+        imper = [None, None, "νθω", None, "νθε", None]
+        inf, part = "νθαι", ("μμένος", "μμένη", "μμένον", "μμένου")
+        periphrastic_2sg = True
+    elif bare.endswith("μμαι"):
         kind, base = "labial", base[:-1]
         ind = ["μμαι", "ψαι", "πται", "μμεθα", "φθε", None]
         plup = ["μμην", "ψο", "πτο", "μμεθα", "φθε", None]
         imper = [None, "ψο", "φθω", None, "φθε", None]
         inf, part = "φθαι", ("μμένος", "μμένη", "μμένον", "μμένου")
+    elif bare.endswith("γμαι") and present.endswith("γχ"):
+        # ἐλέγχω: ἐλήλεγ-μαι (γχ + μ → γμ) but ἐλήλεγξαι, ἐλήλεγκται, ἐλήλεγχθε
+        kind, base = "velar", base[:-1]
+        ind = ["γμαι", "γξαι", "γκται", "γμεθα", "γχθε", None]
+        plup = ["γμην", "γξο", "γκτο", "γμεθα", "γχθε", None]
+        imper = [None, "γξο", "γχθω", None, "γχθε", None]
+        inf, part = "γχθαι", ("γμένος", "γμένη", "γμένον", "γμένου")
     elif bare.endswith("γμαι"):
         kind, base = "velar", base[:-1]
         ind = ["γμαι", "ξαι", "κται", "γμεθα", "χθε", None]
@@ -1191,6 +1286,11 @@ def _perfect_mp(v: VerbInfo, pm: str) -> list[dict]:
         ind_cells.append({"tag": "3pl", "forms": [third]})
         plup_cells.append({"tag": "3pl", "forms": [part_cells[0]["forms"][0].replace("ος", "οι") + " ἦσαν"]})
         note = "Consonant stem: the 3rd plural is periphrastic (participle + εἰσί/ἦσαν)."
+        if periphrastic_2sg:
+            m = part_cells[0]["forms"][0]
+            ind_cells.insert(1, {"tag": "2sg", "forms": [m + " εἶ"]})
+            plup_cells.insert(1, {"tag": "2sg", "forms": [m + " ἦσθα"]})
+            note = "ν-stem: the 2nd singular and 3rd plural are periphrastic (participle + εἶ/ἦσθα, εἰσί/ἦσαν)."
     tables = [
         table("perfect", "middle/passive", "indicative", ind_cells, note),
         table("perfect", "middle/passive", "subjunctive", _periphrastic(base, part, T.EIMI_SUBJ), "Periphrastic: perfect participle + subjunctive of εἰμί."),
@@ -1227,6 +1327,46 @@ def _group(tables: list[dict]) -> list[dict]:
     return systems
 
 
+# irregular verbs whose compounds are conjugated from the simplex table
+COMPOUNDABLE_IRREGULAR = ("κεῖμαι",)
+
+
+def _irregular_compound(lemma: str) -> tuple[str, str] | None:
+    """(canonical prefix, simplex) for ἐπίκειμαι, κατάκειμαι, σύγκειμαι …"""
+    bare = strip_accent(lemma)
+    for pre in PREFIXES:
+        if not bare.startswith(pre):
+            continue
+        for base in COMPOUNDABLE_IRREGULAR:
+            if bare[len(pre):] == strip_accent(base):
+                return PREFIX_SURFACE[pre], base
+    return None
+
+
+def _prefixed_irregular(canon: str, base: str) -> list[dict]:
+    """The simplex's hand table with the prefix attached. Finite indicative
+    and imperative forms are recessive (ἐπίκειμαι, ἐπίκειται, ἐπίκεισο) but
+    never accent the prefix before the augment (ἐπεκείμην, ἐπέκειτο);
+    subjunctive, optative, infinitive and participle keep the simplex accent
+    (ἐπικέωμαι, ἐπικεῖσθαι, ἐπικείμενος)."""
+    out = []
+    for tb in T.IRREGULAR[base]["tables"]:
+        cells = []
+        for c in tb["cells"]:
+            forms = []
+            for f in c["forms"]:
+                core, paren = _paren(f)
+                g = attach_prefix(canon, core)
+                if tb["mood"] in ("indicative", "imperative"):
+                    g = recessive(g)
+                    if tb["tense"] in ("imperfect", "pluperfect", "aorist"):
+                        g = _floor(g, len(syllables(prefix_before(canon, core))))
+                forms.append(finish(g) + paren)
+            cells.append({"tag": c["tag"], "forms": forms})
+        out.append({**tb, "cells": cells})
+    return out
+
+
 def conjugate_entry(entry: dict) -> dict | None:
     lemma = entry["lemma"]
     v = VerbInfo(entry)
@@ -1234,7 +1374,19 @@ def conjugate_entry(entry: dict) -> dict | None:
         spec = T.IRREGULAR[lemma]
         return {
             "kind": "verb", "lemma": lemma, "class": "irregular", "principal_parts": _pp(v),
-            "notes": [spec.get("note", "")], "systems": _group(spec["tables"]),
+            "notes": [spec.get("note", "")], "systems": _finish_systems(v, _group(spec["tables"])),
+        }
+    compound = None if v.ov.get("tables") else _irregular_compound(lemma)
+    if compound:
+        canon, base = compound
+        tables = _prefixed_irregular(canon, base)
+        pick = {(t["tense"], t["mood"]): t["cells"] for t in tables}
+        ex = [cells[2]["forms"][0] for key in (("present", "indicative"), ("imperfect", "indicative")) if (cells := pick.get(key)) and len(cells) > 2]
+        return {
+            "kind": "verb", "lemma": lemma, "class": "irregular", "principal_parts": _pp(v),
+            "notes": [f"Compound of {base}, conjugated like it: the accent recedes onto the prefix where it can"
+                      + (f" ({ex[0]}) but not before the augment ({ex[1]})." if len(ex) == 2 else ".")],
+            "systems": _finish_systems(v, _group(tables)),
         }
     alias = entry.get("morph", {}).get("alias_of") or v.ov.get("alias_of")
     tables: list[dict] = []
@@ -1248,8 +1400,15 @@ def conjugate_entry(entry: dict) -> dict | None:
             tables += perfect_system(v)
     except Exception as exc:  # pragma: no cover - surfaced in tests
         raise RuntimeError(f"{lemma}: {exc}") from exc
+    if v.prefix:
+        tables = [_imperative_floor(v, t) if t["mood"] == "imperative" else t for t in tables]
     if v.impersonal:
         tables = [_only_3sg(t) for t in tables]
+    # overrides may drop whole systems the engine would build, e.g. the Ionic
+    # future middle ἐλεύσομαι of ἔρχομαι: "drop": ["future.middle"]
+    drops = set(v.ov.get("drop", []))
+    if drops:
+        tables = [t for t in tables if f"{t['tense']}.{t['voice']}" not in drops]
     for hand in v.ov.get("tables", []):
         key = (hand["tense"], hand["voice"], hand["mood"])
         tables = [t for t in tables if (t["tense"], t["voice"], t["mood"]) != key]
@@ -1257,8 +1416,136 @@ def conjugate_entry(entry: dict) -> dict | None:
     return {
         "kind": "verb", "lemma": lemma, "class": v.subclass, "principal_parts": _pp(v),
         "notes": v.notes + ([f"Aorist of {alias}; see that entry for the other tenses."] if alias else []),
-        "systems": _group(tables),
+        "systems": _finish_systems(v, _group(tables)),
     }
+
+
+DEASPIRATE = {"φ": "π", "β": "π", "π": "π", "χ": "κ", "γ": "κ", "κ": "κ", "τ": "σ", "δ": "σ", "θ": "σ"}
+
+
+def verbal_adjective_stems(v: VerbInfo) -> tuple[str, str] | None:
+    """(-τός, -τέος) nominatives from the aorist passive stem (Smyth §§ 471–473):
+    λυθ- → λυτός, λυτέος; ἐπράχθην → πρακτέος; ἐγράφην → γραπτέος;
+    ἐλήφθην → ληπτέος; ἠκούσθην → ἀκουστέος; ἐτέθην → θετέος (the aspirate
+    that dissimilation removed returns). An override `vadj` gives the forms
+    ({"tos": …, "teos": …}) or turns them off (false)."""
+    ov = v.ov.get("vadj")
+    if ov is False:
+        return None
+    if isinstance(ov, dict):
+        return ov.get("tos") or None, ov.get("teos") or None
+    if v.entry.get("morph", {}).get("alias_of") or v.ov.get("alias_of") or v.lemma in T.IRREGULAR:
+        return None
+    for ap in v.parts.get("aorist-passive", [])[:1]:
+        plain = _aorist_passive_plain(v, ap)
+        if not plain:
+            continue
+        s = strip_accent(plain)
+        if s.endswith("θ") and len(s) > 1:
+            s = s[:-1]
+        elif "α" in s:
+            # second aorist passive with the weak grade (ἐστράφην, ἐκλάπην): the
+            # verbal adjective has the ε of the present (στρεπτός, κλεπτός)
+            i = s.index("α")
+            e_grade = s[:i] + "ε" + s[i + 1:]
+            if present_stem(v)[0].startswith(e_grade):
+                s = e_grade
+        if s and s[-1] in DEASPIRATE:
+            s = s[:-1] + DEASPIRATE[s[-1]]          # πραχ → πρακ, γραφ → γραπ
+            if s.endswith("σσ"):
+                s = s[:-1]
+        base = strip_accent(v.base)
+        if s.startswith("τ") and (base.startswith("θ") or base.startswith("τιθ")):
+            s = "θ" + s[1:]                          # τε- → θετέος, τυ- → θυτέος, ταφ- → θαπτός
+        s = with_prefix(v, s)
+        return finish(accentuate(s + "τος", 1)), finish(accentuate(s + "τεος", 2))
+    return None
+
+
+def verbal_adjectives(v: VerbInfo) -> dict | None:
+    """The verbal adjectives as a small table: masc., fem., neut. nominative
+    singular of the -τός adjective (‘loosed, loosable’) and of the -τέος one
+    (‘to be loosed’; the neuter λυτέον (ἐστί) is impersonal: ‘one must loose’)."""
+    pair = verbal_adjective_stems(v)
+    if not pair:
+        return None
+    cells = []
+    for tag, form in zip(("tos", "teos"), pair):
+        if not form:
+            continue
+        stem = strip_accent(form)[:-2]
+        fem = finish(accentuate(stem + ("η" if tag == "tos" else "ᾱ"), 1 if tag == "tos" else 2))
+        neut = finish(accentuate(stem + "ον", 1 if tag == "tos" else 2))
+        cells.append({"tag": tag, "forms": [form, fem, neut]})
+    if not cells:
+        return None
+    return table("verbal adjective", "passive", "nominative singular", cells,
+                 "-τός ‘(able to be) …ed’, -τέος ‘to be …ed, must be …ed’ (neuter -τέον ἐστί: ‘one must …’).")
+
+
+SECONDARY_TENSES = {"imperfect", "aorist", "second aorist", "root aorist", "pluperfect"}
+
+
+def _dual_form(form: str, ending: str) -> str | None:
+    """A dual from the 2nd plural of the same table: -τε → -τον/-την/-των,
+    -(σ)θε → -(σ)θον/-(σ)θην/-(σ)θων (λύετε → λύετον, ἐλυέτην, λυέτων;
+    ἐλύεσθε → ἐλυέσθην; γέγραφθε → γέγραφθον). The accent stays on its
+    syllable; before a long ultima it moves to the penult as an acute
+    (τιμᾶτε → τιμᾶτον, ἐτιμάτην; ἐποιεῖτε → ἐποιείτην)."""
+    core = form.strip()
+    if " " in core or not strip_accent(core).endswith(("τε", "θε")):
+        return None
+    pos = accent_position(core)
+    new = strip_accent(core[:-1]) + ending          # λυετ + ον / ην / ων
+    if pos is None:
+        return finish(new)
+    from_end, kind = pos
+    if ending == "ον":
+        return finish(accentuate(new, from_end, kind if from_end > 1 else "acute"))
+    if from_end == 1:
+        return finish(accentuate(new, 1, "acute"))
+    return finish(accentuate(new, 2, "acute"))
+
+
+def _dual_cells(tb: dict) -> list[dict]:
+    """2nd and 3rd dual (Smyth § 462): primary -τον -τον / -σθον -σθον,
+    secondary (augmented indicatives, optative) -τον -την / -σθον -σθην,
+    imperative -τον -των / -σθον -σθων."""
+    if tb["mood"] in ("infinitive", "participle"):
+        return []
+    two_pl = next((c["forms"] for c in tb["cells"] if c["tag"] == "2pl"), None)
+    if not two_pl:
+        return []
+    if tb["mood"] == "imperative":
+        third = "ων"
+    elif tb["mood"] == "optative" or (tb["mood"] == "indicative" and tb["tense"] in SECONDARY_TENSES):
+        third = "ην"
+    else:
+        third = "ον"
+    second = _dedupe([f for f in (_dual_form(x, "ον") for x in two_pl) if f])
+    third_f = _dedupe([f for f in (_dual_form(x, third) for x in two_pl) if f])
+    if not second:
+        return []
+    return [{"tag": "2du", "forms": second}, {"tag": "3du", "forms": third_f}]
+
+
+def _finish_systems(v: VerbInfo, systems: list[dict]) -> list[dict]:
+    """Copy the tables (hand tables are shared module data), add the dual
+    block to every finite table and the verbal adjectives as a last system."""
+    out = []
+    for s in systems:
+        tables = []
+        for tb in s["tables"]:
+            tb = {**tb, "cells": [dict(c) for c in tb["cells"]]}
+            dual = _dual_cells(tb)
+            if dual:
+                tb["dual"] = dual
+            tables.append(tb)
+        out.append({**s, "tables": tables})
+    vadj = verbal_adjectives(v)
+    if vadj:
+        out.append({"id": "verbal", "label": "Verbal adjectives", "tables": [vadj]})
+    return out
 
 
 def _only_3sg(t: dict) -> dict:

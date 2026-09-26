@@ -1,0 +1,1518 @@
+{
+  "id": "phil.5",
+  "title_grc": "ὁ τοῦ Γύγου δακτύλιος",
+  "title_en": "The ring of Gyges",
+  "summary_grc": "ὁ ποιμὴν δακτύλιον εὑρίσκει ὃς αὐτὸν ἀφανῆ ποιεῖ· ἆρα δίκαιος μενεῖ;",
+  "summary_en": "Glaucon's thought experiment in Plato's Republic: a Lydian shepherd finds a gold ring that makes him invisible, and uses it to seize a kingdom. Would a just man with such a ring behave any better? Republic 2.360a–c, lightly cut, after a short frame: a story told in accusative and infinitive, and the potential optative.",
+  "cover": "phil-panel-5-b",
+  "caption_grc": "οὐδεὶς ἑκὼν δίκαιος ἀλλ’ ἀναγκαζόμενος.",
+  "original": {
+    "text": "plato-rep-360a",
+    "note": "Plato, Republic 2.360a–c, lightly cut. Paragraph 1 is a frame in simple Greek retelling 359c–d (the discovery of the ring), and the last three sentences sum up Glaucon's point; the rest is Plato's words with a few phrases left out. The conversation is set in the Piraeus, probably in the 420s or 410s; Plato wrote the Republic in the 370s."
+  },
+  "names": {
+    "Γλαύκων": [
+      "Γλαύκωνος",
+      "Γλαύκωνι",
+      "Γλαύκωνα",
+      "Γλαύκων"
+    ],
+    "Λυδία": [
+      "Λυδίας",
+      "Λυδίᾳ",
+      "Λυδίαν"
+    ],
+    "Γύγης": [
+      "Γύγου",
+      "Γύγῃ",
+      "Γύγην",
+      "Γύγη"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "phil-panel-5-a",
+      "sentences": [
+        {
+          "text": "ὁ Γλαύκων, ὁ τοῦ Πλάτωνος ἀδελφός, τῷ Σωκράτει μῦθόν τινα λέγει περὶ τῆς δικαιοσύνης.",
+          "glosses": [
+            {
+              "word": "δικαιοσύνης",
+              "kind": "<",
+              "value": "δίκαιος | ἡ δικαιοσύνη (justice)"
+            }
+          ]
+        },
+        {
+          "text": "«δῶμεν», φησί, «καὶ τῷ δικαίῳ καὶ τῷ ἀδίκῳ ἐξουσίαν ποιεῖν ὅ τι ἂν βούλωνται, καὶ θεασώμεθα ποῖ ἡ ἐπιθυμία ἑκάτερον ἄξει.»",
+          "glosses": [
+            {
+              "word": "ἐξουσίαν",
+              "kind": "<",
+              "value": "ἔξεστι | ἡ ἐξουσία (power to do as one likes)"
+            },
+            {
+              "word": "θεασώμεθα",
+              "kind": "en",
+              "value": "let us watch (θεάομαι)"
+            },
+            {
+              "word": "ἐπιθυμία",
+              "kind": "en",
+              "value": "desire (ἡ ἐπιθυμία)"
+            }
+          ]
+        },
+        {
+          "text": "«ἦν ποτε ποιμήν τις ἐν τῇ Λυδίᾳ, ὁ τοῦ Γύγου πρόγονος, ὃς τῷ τότε βασιλεῖ ἐθήτευεν.»",
+          "glosses": [
+            {
+              "word": "ποιμήν",
+              "kind": "en",
+              "value": "shepherd (ὁ ποιμήν, τοῦ ποιμένος)"
+            },
+            {
+              "word": "πρόγονος",
+              "kind": "en",
+              "value": "ancestor"
+            },
+            {
+              "word": "ἐθήτευεν",
+              "kind": "en",
+              "value": "worked for hire (θητεύω)"
+            }
+          ]
+        },
+        {
+          "text": "«ὄμβρου δὲ πολλοῦ γενομένου καὶ σεισμοῦ, ἡ γῆ ἐρράγη καὶ χάσμα ἐγένετο κατὰ τὸν τόπον ὅπου ἔνεμε τὰ πρόβατα.»",
+          "glosses": [
+            {
+              "word": "ὄμβρου",
+              "kind": "en",
+              "value": "rainstorm"
+            },
+            {
+              "word": "σεισμοῦ",
+              "kind": "en",
+              "value": "earthquake (ὁ σεισμός)"
+            },
+            {
+              "word": "ἐρράγη",
+              "kind": "en",
+              "value": "broke open (ῥήγνυμι, aorist passive)"
+            },
+            {
+              "word": "χάσμα",
+              "kind": "en",
+              "value": "chasm (τὸ χάσμα)"
+            },
+            {
+              "word": "ἔνεμε",
+              "kind": "en",
+              "value": "was grazing (νέμω)"
+            },
+            {
+              "word": "πρόβατα",
+              "kind": "en",
+              "value": "sheep (τὰ πρόβατα)"
+            }
+          ]
+        },
+        {
+          "text": "«ὁ δὲ ποιμὴν ἐτόλμησε καταβῆναι, καὶ ἵππον χαλκοῦν εἶδε, κοῖλον, καὶ ἐν αὐτῷ νεκρὸν μείζω ἢ κατ’ ἄνθρωπον.»",
+          "glosses": [
+            {
+              "word": "κοῖλον",
+              "kind": "en",
+              "value": "hollow"
+            },
+            {
+              "word": "νεκρὸν",
+              "kind": "en",
+              "value": "corpse, a dead man (ὁ νεκρός)"
+            },
+            {
+              "word": "κατ’",
+              "kind": "note",
+              "value": "μείζω ἢ κατ’ ἄνθρωπον: bigger than human size"
+            }
+          ]
+        },
+        {
+          "text": "«ὁ δὲ νεκρὸς οὐδὲν ἄλλο εἶχεν ἢ χρυσοῦν δακτύλιον περὶ τῇ χειρί· τοῦτον δὲ ὁ ποιμὴν λαβὼν ἐξέβη.»",
+          "glosses": [
+            {
+              "word": "νεκρὸς",
+              "kind": "|",
+              "value": "ὁ νεκρός | τὸν νεκρόν"
+            },
+            {
+              "word": "χρυσοῦν",
+              "kind": "<",
+              "value": "χρυσός (gold) | χρυσοῦς (golden)"
+            },
+            {
+              "word": "δακτύλιον",
+              "kind": "en",
+              "value": "ring (ὁ δακτύλιος)"
+            },
+            {
+              "word": "ἐξέβη",
+              "kind": "|",
+              "value": "ἐκ + βαίνω | ἐξέβη (went out)"
+            }
+          ]
+        },
+        {
+          "text": "«ἔπειτα δὲ εἰς τὸν σύλλογον τῶν ποιμένων ἀφίκετο ἔχων τὸν δακτύλιον.»",
+          "glosses": [
+            {
+              "word": "σύλλογον",
+              "kind": "en",
+              "value": "gathering, meeting (ὁ σύλλογος): the shepherds' monthly report to the king"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "phil-panel-5-b",
+      "sentences": [
+        {
+          "text": "καθήμενον οὖν μετὰ τῶν ἄλλων τυχεῖν τὴν σφενδόνην τοῦ δακτυλίου περιαγαγόντα πρὸς ἑαυτὸν εἰς τὸ εἴσω τῆς χειρός, τούτου δὲ γενομένου ἀφανῆ αὐτὸν γενέσθαι τοῖς παρακαθημένοις, καὶ διαλέγεσθαι ὡς περὶ οἰχομένου.",
+          "orig": [
+            0
+          ],
+          "glosses": [
+            {
+              "word": "καθήμενον",
+              "kind": "note",
+              "value": "Glaucon is still reporting what 'they say': every main verb is an infinitive (τυχεῖν, γενέσθαι, διαλέγεσθαι), every subject accusative (καθήμενον … αὐτόν). καθήμενον: sitting (κάθημαι)"
+            },
+            {
+              "word": "σφενδόνην",
+              "kind": "en",
+              "value": "bezel, the setting of the ring's stone"
+            },
+            {
+              "word": "περιαγαγόντα",
+              "kind": "en",
+              "value": "turning round (περιάγω)"
+            },
+            {
+              "word": "εἴσω",
+              "kind": "en",
+              "value": "inside; εἰς τὸ εἴσω τῆς χειρός: to the inside of his hand"
+            },
+            {
+              "word": "ἀφανῆ",
+              "kind": "en",
+              "value": "unseen, invisible (ἀφανής, -ές)"
+            },
+            {
+              "word": "παρακαθημένοις",
+              "kind": "en",
+              "value": "those sitting beside him"
+            },
+            {
+              "word": "οἰχομένου",
+              "kind": "en",
+              "value": "gone away (οἴχομαι)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ τὸν θαυμάζειν τε καὶ πάλιν ἐπιψηλαφῶντα τὸν δακτύλιον στρέψαι ἔξω τὴν σφενδόνην, καὶ στρέψαντα φανερὸν γενέσθαι.",
+          "orig": [
+            1
+          ],
+          "glosses": [
+            {
+              "word": "τὸν",
+              "kind": "note",
+              "value": "τόν: 'he' (the article as a pronoun, subject of θαυμάζειν)"
+            },
+            {
+              "word": "ἐπιψηλαφῶντα",
+              "kind": "en",
+              "value": "fumbling at, feeling for"
+            },
+            {
+              "word": "στρέψαι",
+              "kind": "en",
+              "value": "to turn (στρέφω, aorist infinitive)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ τοῦτο ἐννοήσαντα ἀποπειρᾶσθαι τοῦ δακτυλίου εἰ ταύτην ἔχοι τὴν δύναμιν, καὶ αὐτῷ οὕτω συμβαίνειν, στρέφοντι μὲν εἴσω τὴν σφενδόνην ἀδήλῳ γίγνεσθαι, ἔξω δὲ δήλῳ·",
+          "orig": [
+            2
+          ],
+          "glosses": [
+            {
+              "word": "ἐννοήσαντα",
+              "kind": "en",
+              "value": "noticing, realizing (ἐννοέω)"
+            },
+            {
+              "word": "οὕτω",
+              "kind": "=",
+              "value": "οὕτως (before a consonant)"
+            },
+            {
+              "word": "ἀποπειρᾶσθαι",
+              "kind": "en",
+              "value": "to test, make trial of (+ genitive)"
+            },
+            {
+              "word": "ἀδήλῳ",
+              "kind": "↔",
+              "value": "δήλῳ | unseen (ἄδηλος)"
+            }
+          ]
+        },
+        {
+          "text": "αἰσθόμενον δὲ εὐθὺς διαπράξασθαι τῶν ἀγγέλων γενέσθαι τῶν παρὰ τὸν βασιλέα, ἐλθόντα δὲ καὶ τὴν γυναῖκα αὐτοῦ μοιχεύσαντα, μετ’ ἐκείνης ἐπιθέμενον τῷ βασιλεῖ ἀποκτεῖναι καὶ τὴν ἀρχὴν οὕτω κατασχεῖν.",
+          "orig": [
+            3
+          ],
+          "glosses": [
+            {
+              "word": "διαπράξασθαι",
+              "kind": "en",
+              "value": "to manage, contrive"
+            },
+            {
+              "word": "ἀγγέλων",
+              "kind": "en",
+              "value": "messengers (ὁ ἄγγελος)"
+            },
+            {
+              "word": "μοιχεύσαντα",
+              "kind": "en",
+              "value": "having seduced"
+            },
+            {
+              "word": "ἐπιθέμενον",
+              "kind": "en",
+              "value": "attacking (+ dative) (ἐπιτίθεμαι)"
+            },
+            {
+              "word": "ἀποκτεῖναι",
+              "kind": "en",
+              "value": "to kill (ἀποκτείνω, aorist infinitive)"
+            },
+            {
+              "word": "κατασχεῖν",
+              "kind": "en",
+              "value": "to take hold of, seize (κατέχω, aorist infinitive)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "phil-panel-5-c",
+      "sentences": [
+        {
+          "text": "εἰ οὖν δύο τοιούτω δακτυλίω γενοίσθην, καὶ τὸν μὲν ὁ δίκαιος περιθεῖτο, τὸν δὲ ὁ ἄδικος, οὐδεὶς ἂν γένοιτο, ὡς δόξειεν, οὕτως ἀδαμάντινος, ὃς ἂν μείνειεν ἐν τῇ δικαιοσύνῃ καὶ τολμήσειεν ἀπέχεσθαι τῶν ἀλλοτρίων καὶ μὴ ἅπτεσθαι, ἐξὸν αὐτῷ καὶ ἐκ τῆς ἀγορᾶς ἀδεῶς ὅτι βούλοιτο λαμβάνειν.",
+          "orig": [
+            4
+          ],
+          "glosses": [
+            {
+              "word": "τοιούτω",
+              "kind": "note",
+              "value": "δύο τοιούτω δακτυλίω γενοίσθην: dual, 'if there should be two such rings'"
+            },
+            {
+              "word": "δακτυλίω",
+              "kind": "|",
+              "value": "ὁ δακτύλιος | τὼ δακτυλίω (dual)"
+            },
+            {
+              "word": "γενοίσθην",
+              "kind": "|",
+              "value": "γένοιτο | γενοίσθην (dual optative)"
+            },
+            {
+              "word": "περιθεῖτο",
+              "kind": "en",
+              "value": "should put on (περιτίθεμαι, optative)"
+            },
+            {
+              "word": "ἀδαμάντινος",
+              "kind": "en",
+              "value": "of adamant, of steel"
+            },
+            {
+              "word": "τολμήσειεν",
+              "kind": "en",
+              "value": "would dare (τολμάω)"
+            },
+            {
+              "word": "ἀπέχεσθαι",
+              "kind": "en",
+              "value": "to keep one's hands off (+ genitive)"
+            },
+            {
+              "word": "ἀλλοτρίων",
+              "kind": "<",
+              "value": "ἄλλος | τὰ ἀλλότρια (other people's things)"
+            },
+            {
+              "word": "ἅπτεσθαι",
+              "kind": "en",
+              "value": "to touch, lay hands on (+ genitive) (ἅπτομαι)"
+            },
+            {
+              "word": "ἀδεῶς",
+              "kind": "en",
+              "value": "without fear"
+            }
+          ]
+        },
+        {
+          "text": "οὕτω δὲ δρῶν οὐδὲν ἂν διάφορον τοῦ ἑτέρου ποιοῖ, ἀλλ’ ἐπὶ ταὔτ’ ἂν ἴοιεν ἀμφότεροι.",
+          "orig": [
+            5
+          ],
+          "glosses": [
+            {
+              "word": "διάφορον",
+              "kind": "en",
+              "value": "different (from: + genitive)"
+            },
+            {
+              "word": "ταὔτ’",
+              "kind": "=",
+              "value": "τὰ αὐτά (the same things): crasis and elision"
+            }
+          ]
+        },
+        {
+          "text": "καίτοι μέγα τοῦτο τεκμήριον ἂν φαίη τις ὅτι οὐδεὶς ἑκὼν δίκαιος ἀλλ’ ἀναγκαζόμενος.",
+          "orig": [
+            6
+          ],
+          "glosses": [
+            {
+              "word": "τεκμήριον",
+              "kind": "en",
+              "value": "proof, evidence (τὸ τεκμήριον)"
+            },
+            {
+              "word": "ἑκὼν",
+              "kind": "en",
+              "value": "willingly, of one's own free will"
+            },
+            {
+              "word": "ἀναγκαζόμενος",
+              "kind": "<",
+              "value": "ἀνάγκη | ἀναγκάζω (compel): under compulsion"
+            }
+          ]
+        },
+        {
+          "text": "ὅπου γὰρ ἂν οἴηται ἕκαστος οἷός τε ἔσεσθαι ἀδικεῖν, ἀδικεῖ.",
+          "orig": [
+            6
+          ],
+          "glosses": [
+            {
+              "word": "οἷός",
+              "kind": "note",
+              "value": "οἷός τ’ εἰμί: I am able to"
+            }
+          ]
+        },
+        {
+          "text": "ταῦτα μὲν ὁ Γλαύκων λέγει· φησὶ γὰρ ὅτι πᾶς ἄνθρωπος, ἀφανὴς γενόμενος καὶ ἐξουσίαν ἔχων, τῶν ἀλλοτρίων ἅπτεται καὶ οὓς βούλεται ἀποκτείνει.",
+          "glosses": []
+        },
+        {
+          "text": "ἡ γὰρ ἐπιθυμία πάντας ἐπὶ τὴν ἀδικίαν ἄγει.",
+          "glosses": []
+        },
+        {
+          "text": "ὁ δὲ Σωκράτης ἐν τοῖς ἑπομένοις βιβλίοις δείξει ὅτι ἡ δικαιοσύνη τῆς ἀδικίας πολὺ κρείττων ἐστίν.",
+          "glosses": []
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "δακτυλιος",
+      "pic": "phil-daktylios",
+      "gloss_grc": "ὁ δακτύλιος < δάκτυλος (finger)"
+    },
+    {
+      "id": "αφανης",
+      "gloss_grc": "ἀφανής, -ές ↔ φανερός · ἀφανὴς γίγνεται"
+    },
+    {
+      "id": "δικαιοσυνη",
+      "gloss_grc": "δίκαιος → ἡ δικαιοσύνη ↔ ἡ ἀδικία"
+    },
+    {
+      "id": "αδικια",
+      "gloss_grc": "ἀδικέω → ἡ ἀδικία ↔ ἡ δικαιοσύνη"
+    },
+    {
+      "id": "εξουσια",
+      "gloss_grc": "ἡ ἐξουσία < ἔξεστι · ἐξουσία ποιεῖν ὅ τι βούλεται"
+    },
+    {
+      "id": "ποιμην",
+      "gloss_grc": "ὁ ποιμήν, τοῦ ποιμένος · ὁ ποιμὴν τὰ πρόβατα νέμει"
+    },
+    {
+      "id": "στρεφω",
+      "gloss_grc": "στρέφω, στρέψω, ἔστρεψα · τὴν σφενδόνην στρέφει"
+    },
+    {
+      "id": "αλλοτριος",
+      "gloss_grc": "ἀλλότριος ↔ ἴδιος · τὰ ἀλλότρια"
+    },
+    {
+      "id": "απτω",
+      "gloss_grc": "ἅπτομαι + genitive: touch · τῶν ἀλλοτρίων ἅπτεται"
+    },
+    {
+      "id": "επιθυμια",
+      "gloss_grc": "ἡ ἐπιθυμία · ἡ ἐπιθυμία ἄγει"
+    },
+    {
+      "id": "αποκτεινω",
+      "gloss_grc": "ἀποκτείνω, ἀποκτενῶ, ἀπέκτεινα"
+    },
+    {
+      "id": "τολμαω",
+      "gloss_grc": "τολμῶ + infinitive: dare"
+    }
+  ],
+  "notice": [
+    "καθήμενον οὖν μετὰ τῶν ἄλλων τυχεῖν τὴν σφενδόνην … περιαγαγόντα …, τούτου δὲ γενομένου ἀφανῆ αὐτὸν γενέσθαι.",
+    "στρέφοντι μὲν εἴσω τὴν σφενδόνην ἀδήλῳ γίγνεσθαι, ἔξω δὲ δήλῳ.",
+    "οὐδεὶς ἂν γένοιτο οὕτως ἀδαμάντινος, ὃς ἂν μείνειεν ἐν τῇ δικαιοσύνῃ.",
+    "οὐδεὶς ἑκὼν δίκαιος ἀλλ’ ἀναγκαζόμενος."
+  ],
+  "grammar": {
+    "md": "**A story told in the infinitive.** Glaucon tells the tale as something 'they say' (φασί, in the sentence just before our passage). So Plato keeps the whole story in indirect statement (Unit 9): every main verb is an **infinitive**, every subject an **accusative**, and the participles agree with that accusative.\n\n| Plato | direct form | meaning |\n|---|---|---|\n| καθήμενον … **τυχεῖν** … περιαγαγόντα | καθήμενος ἔτυχε περιαγαγών | sitting there, he happened to turn |\n| ἀφανῆ αὐτὸν **γενέσθαι** | ἀφανὴς ἐγένετο | he became invisible |\n| τὸν **θαυμάζειν** | ὁ δὲ ἐθαύμαζε | he was amazed |\n| **ἀποκτεῖναι** καὶ … **κατασχεῖν** | ἀπέκτεινε καὶ κατέσχε | he killed … and seized |\n\nRead each infinitive as a past indicative; read the accusative participles (αἰσθόμενον, ἐλθόντα, ἐπιθέμενον) as the chain of events: 'having noticed …, having come …, having attacked …'.\n\n**The dative that agrees.** αὐτῷ οὕτω συμβαίνειν, στρέφοντι μὲν … **ἀδήλῳ** γίγνεσθαι, ἔξω δὲ **δήλῳ**: 'it turned out for him, when he turned it in, to become invisible, when out, visible'. The predicate adjective agrees with the dative αὐτῷ.\n\n**What would happen: the potential optative** (Unit 10). εἰ δύο δακτυλίω **γενοίσθην** … οὐδεὶς **ἂν γένοιτο** … ὃς **ἂν μείνειεν** 'if there should be two rings, no one would be so steely that he would remain …'. γενοίσθην is a *dual* optative (Unit 11): two rings.\n\n**The thesis.** οὐδεὶς **ἑκὼν** δίκαιος ἀλλ’ **ἀναγκαζόμενος**: 'no one is just willingly, but under compulsion'. Glaucon does not believe it; he wants Socrates to prove that justice is worth having for its own sake, even with the ring on. The rest of the *Republic* is the answer.",
+    "paradigms": [
+      "alethes"
+    ],
+    "diagram": "diagram-indirect"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings.",
+      "template": "ὁ δακτύλι___ χρυσοῦς ἦν. ὁ ποιμὴν τὸν δακτύλι___ στρέφει. ἀφαν___ αὐτὸν γενέσθαι. εἰς τὸν σύλλογον τῶν ποιμέν___ ἀφίκετο.",
+      "gaps": [
+        {
+          "answers": [
+            "ος"
+          ]
+        },
+        {
+          "answers": [
+            "ον"
+          ]
+        },
+        {
+          "answers": [
+            "ῆ",
+            "η"
+          ]
+        },
+        {
+          "answers": [
+            "ων"
+          ]
+        }
+      ],
+      "skills": [
+        "noun.decl2.nom.sg",
+        "noun.decl2.acc.sg",
+        "adj.decl3.es",
+        "noun.decl3.cons.pl"
+      ],
+      "explain": "ὁ δακτύλιος (subject), τὸν δακτύλιον (object), ἀφανῆ (accusative of ἀφανής: -έα → -ῆ), τῶν ποιμένων (genitive plural)."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · οὐδεὶς ἑκὼν δίκαιος ἀλλ’ ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἀναγκαζόμενος"
+        },
+        {
+          "id": "b",
+          "text": "ἑκών"
+        },
+        {
+          "id": "c",
+          "text": "ἀφανής"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.argument",
+        "vocab.phil"
+      ],
+      "explain": "ἑκών ↔ ἀναγκαζόμενος: willingly ↔ under compulsion.",
+      "audio": "οὐδεὶς ἑκὼν δίκαιος ἀλλ’ ἀναγκαζόμενος."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ὃς ἂν μείνειεν ἐν τῇ ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "δικαιοσύνῃ"
+        },
+        {
+          "id": "b",
+          "text": "ἀδικίᾳ"
+        },
+        {
+          "id": "c",
+          "text": "ἐξουσίᾳ"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.phil",
+        "read.phil.terms"
+      ],
+      "explain": "μένειν ἐν τῇ δικαιοσύνῃ: to remain just.",
+      "audio": "ὃς ἂν μείνειεν ἐν τῇ δικαιοσύνῃ."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · στρέφοντι μὲν εἴσω τὴν σφενδόνην ἀδήλῳ γίγνεσθαι, ἔξω δὲ ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "δήλῳ"
+        },
+        {
+          "id": "b",
+          "text": "δῆλον"
+        },
+        {
+          "id": "c",
+          "text": "δῆλος"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "adj.agree",
+        "syntax.dat.uses"
+      ],
+      "explain": "δήλῳ agrees with αὐτῷ … στρέφοντι (dative).",
+      "audio": "στρέφοντι μὲν εἴσω τὴν σφενδόνην ἀδήλῳ γίγνεσθαι, ἔξω δὲ δήλῳ."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ δακτύλιος"
+        },
+        {
+          "id": "b",
+          "text": "ὁ δάκτυλος"
+        },
+        {
+          "id": "c",
+          "text": "ὁ διδάσκαλος"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.recognition"
+      ],
+      "explain": "ὁ δακτύλιος: the ring.",
+      "audio": "ὁ δακτύλιος"
+    },
+    {
+      "type": "match",
+      "prompt": "Match the new words to their meanings.",
+      "pairs": [
+        {
+          "left": "ἡ δικαιοσύνη",
+          "right": "justice"
+        },
+        {
+          "left": "ἡ ἀδικία",
+          "right": "injustice"
+        },
+        {
+          "left": "ἡ ἐξουσία",
+          "right": "power to do as one likes"
+        },
+        {
+          "left": "ἀφανής",
+          "right": "invisible"
+        },
+        {
+          "left": "τὰ ἀλλότρια",
+          "right": "other people's property"
+        }
+      ],
+      "skills": [
+        "vocab.recognition",
+        "vocab.phil"
+      ],
+      "explain": "δικαιοσύνη, ἀδικία, ἐξουσία, ἀφανής, ἀλλότριος."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the accusative singular (masculine) of ἀφανής: ___ αὐτὸν γενέσθαι.",
+      "lemma": "ἀφανής",
+      "cell": "acc.sg.mf",
+      "skills": [
+        "adj.decl3.es",
+        "vocab.production"
+      ],
+      "explain": "ἀφανῆ (ἀφανέ-α → ἀφανῆ), like ἀληθῆ.",
+      "audio": "ἀφανῆ"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist of στρέφω: 'he turned'.",
+      "lemma": "στρέφω",
+      "cell": "aorist.active.indicative.3sg",
+      "skills": [
+        "verb.aor1.sigma",
+        "vocab.production"
+      ],
+      "explain": "ἔστρεψε(ν): φ + σ → ψ.",
+      "audio": "ἔστρεψεν"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist of ἀποκτείνω: 'he killed'.",
+      "lemma": "ἀποκτείνω",
+      "cell": "aorist.active.indicative.3sg",
+      "skills": [
+        "verb.aor1.liquid",
+        "verb.augment.compound"
+      ],
+      "explain": "ἀπ-έκτεινε(ν): liquid aorist (no σ), the augment after the prefix.",
+      "audio": "ἀπέκτεινεν"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse γενέσθαι.",
+      "form": "γενέσθαι",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "mood": "inf"
+      },
+      "skills": [
+        "syntax.indirect-inf",
+        "verb.aor2.stem"
+      ],
+      "explain": "γενέσθαι: aorist infinitive of γίγνομαι, standing for ἐγένετο in reported narrative.",
+      "audio": "γενέσθαι"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἅπτεσθαι.",
+      "form": "ἅπτεσθαι",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "voice",
+          "label": "Voice",
+          "options": [
+            {
+              "id": "act",
+              "label": "active"
+            },
+            {
+              "id": "mid",
+              "label": "middle"
+            },
+            {
+              "id": "pass",
+              "label": "passive"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "pres",
+        "voice": "mid",
+        "mood": "inf"
+      },
+      "skills": [
+        "verb.middle-meaning",
+        "verb.pres.mp.inf"
+      ],
+      "explain": "ἅπτ-εσθαι: present infinitive middle, 'to touch' (+ genitive).",
+      "audio": "ἅπτεσθαι"
+    },
+    {
+      "type": "label",
+      "prompt": "ἀφανῆ αὐτὸν γενέσθαι. Why the accusative and the infinitive?",
+      "options": [
+        {
+          "id": "a",
+          "text": "reported narrative: Glaucon tells what 'they say'"
+        },
+        {
+          "id": "b",
+          "text": "purpose"
+        },
+        {
+          "id": "c",
+          "text": "a command"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.indirect-inf",
+        "read.phil.argument"
+      ],
+      "explain": "The story depends on φασί: indirect statement, accusative + infinitive throughout."
+    },
+    {
+      "type": "label",
+      "prompt": "οὐδεὶς ἂν γένοιτο οὕτως ἀδαμάντινος. ἂν γένοιτο is …",
+      "options": [
+        {
+          "id": "a",
+          "text": "potential: 'no one would be'"
+        },
+        {
+          "id": "b",
+          "text": "a wish: 'may no one be'"
+        },
+        {
+          "id": "c",
+          "text": "past: 'no one was'"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-potential"
+      ],
+      "explain": "ἄν + optative: potential."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "τῶν ἀλλοτρίων ἅπτεσθαι means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "to lay hands on other people's things"
+        },
+        {
+          "id": "b",
+          "text": "to be afraid of strangers"
+        },
+        {
+          "id": "c",
+          "text": "to hold other things"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition",
+        "syntax.gen.uses"
+      ],
+      "explain": "ἅπτομαι + genitive: touch; τὰ ἀλλότρια: what belongs to others."
+    },
+    {
+      "type": "transform",
+      "prompt": "Put the reported verb back into a direct statement: ἀφανῆ αὐτὸν γενέσθαι → ἀφανὴς ___.",
+      "template": "ἀφανὴς ___.",
+      "gaps": [
+        {
+          "answers": [
+            "ἐγένετο"
+          ]
+        }
+      ],
+      "skills": [
+        "syntax.indirect-inf",
+        "verb.aor2.stem"
+      ],
+      "explain": "γενέσθαι (aorist infinitive) ← ἐγένετο."
+    },
+    {
+      "type": "transform",
+      "prompt": "Make it direct: τὸν θαυμάζειν → ὁ δὲ ___.",
+      "template": "ὁ δὲ ___.",
+      "gaps": [
+        {
+          "answers": [
+            "ἐθαύμαζε",
+            "ἐθαύμαζεν",
+            "ἐθαύμασε",
+            "ἐθαύμασεν"
+          ]
+        }
+      ],
+      "skills": [
+        "syntax.indirect-inf",
+        "verb.impf.act.ind.3sg"
+      ],
+      "explain": "θαυμάζειν (present infinitive) ← ἐθαύμαζε (imperfect)."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the two infinitives that tell what the shepherd did to the king and to his rule.",
+      "sentence": "αἰσθόμενον δὲ εὐθὺς διαπράξασθαι τῶν ἀγγέλων γενέσθαι τῶν παρὰ τὸν βασιλέα, ἐλθόντα δὲ καὶ τὴν γυναῖκα αὐτοῦ μοιχεύσαντα, μετ’ ἐκείνης ἐπιθέμενον τῷ βασιλεῖ ἀποκτεῖναι καὶ τὴν ἀρχὴν οὕτω κατασχεῖν.",
+      "answer": [
+        23,
+        28
+      ],
+      "skills": [
+        "read.locate",
+        "syntax.indirect-inf"
+      ],
+      "explain": "ἀποκτεῖναι 'killed' and κατασχεῖν 'seized' (the rule)."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the two words that are opposites.",
+      "sentence": "καίτοι μέγα τοῦτο τεκμήριον ἂν φαίη τις ὅτι οὐδεὶς ἑκὼν δίκαιος ἀλλ’ ἀναγκαζόμενος.",
+      "answer": [
+        9,
+        12
+      ],
+      "skills": [
+        "read.locate",
+        "read.phil.argument"
+      ],
+      "explain": "ἑκών 'willingly' ↔ ἀναγκαζόμενος 'under compulsion'."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'The ring made him invisible.' (use: ὁ δακτύλιος ἀφανῆ αὐτὸν ἐποίει)",
+      "tokens": [
+        "ὁ",
+        "δακτύλιος",
+        "ἀφανῆ",
+        "αὐτὸν",
+        "ἐποίει"
+      ],
+      "answers": [
+        "ὁ δακτύλιος ἀφανῆ αὐτὸν ἐποίει",
+        "ὁ δακτύλιος αὐτὸν ἀφανῆ ἐποίει",
+        "ἀφανῆ αὐτὸν ἐποίει ὁ δακτύλιος",
+        "ὁ δακτύλιος ἐποίει αὐτὸν ἀφανῆ"
+      ],
+      "skills": [
+        "syntax.word-order",
+        "adj.predicate"
+      ],
+      "explain": "ποιέω + object + predicate adjective: make someone something."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "οὐδεὶς ἑκὼν δίκαιος."
+        },
+        {
+          "id": "b",
+          "text": "οὐδεὶς ἑκὼν ἄδικος."
+        },
+        {
+          "id": "c",
+          "text": "οὐδεὶς ἑκὼν σοφός."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "No one is just willingly.",
+      "audio": "οὐδεὶς ἑκὼν δίκαιος."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ ποιμὴν τὸν δακτύλιον ἐν τῷ χάσματι εὗρεν.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ὁ δὲ ποιμὴν καταβὰς … χρυσοῦν δακτύλιον … λαβὼν ἐξέβη."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "στρέφοντι εἴσω τὴν σφενδόνην φανερὸς ἐγίγνετο.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "στρέφοντι μὲν εἴσω τὴν σφενδόνην ἀδήλῳ γίγνεσθαι, ἔξω δὲ δήλῳ."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ ποιμὴν τὸν βασιλέα ἀπέκτεινε καὶ τὴν ἀρχὴν κατέσχεν.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἐπιθέμενον τῷ βασιλεῖ ἀποκτεῖναι καὶ τὴν ἀρχὴν οὕτω κατασχεῖν."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "gaps": [
+        {
+          "answers": [
+            "ἀφανὴς ἐγένετο"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "ἀφανὴς ἐγένετο: he became invisible.",
+      "audio": "ἀφανὴς ἐγένετο."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'He touches the things of others.'",
+      "gaps": [
+        {
+          "answers": [
+            "τῶν ἀλλοτρίων ἅπτεται",
+            "ἅπτεται τῶν ἀλλοτρίων"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "syntax.gen.uses"
+      ],
+      "explain": "ἅπτεται τῶν ἀλλοτρίων (ἅπτομαι + genitive)."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: εἰ οὖν δύο τοιούτω δακτυλίω γενοίσθην, καὶ τὸν μὲν ὁ δίκαιος περιθεῖτο, τὸν δὲ ὁ ἄδικος, οὐδεὶς ἂν γένοιτο οὕτως ἀδαμάντινος, ὃς ἂν μείνειεν ἐν τῇ δικαιοσύνῃ.",
+      "audio": "εἰ οὖν δύο τοιούτω δακτυλίω γενοίσθην, καὶ τὸν μὲν ὁ δίκαιος περιθεῖτο, τὸν δὲ ὁ ἄδικος, οὐδεὶς ἂν γένοιτο οὕτως ἀδαμάντινος, ὃς ἂν μείνειεν ἐν τῇ δικαιοσύνῃ.",
+      "model": "So if there were two such rings, and the just man put on one and the unjust the other, no one, it seems, would be so steely as to remain in justice.",
+      "skills": [
+        "read.original",
+        "read.plato",
+        "syntax.opt-potential"
+      ],
+      "explain": "εἰ + optative … ἄν + optative: future less vivid ('should … would'); τὸν μὲν … τὸν δέ 'the one … the other'; ὃς ἂν μείνειεν 'who would remain' (potential in a relative clause)."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "στρέφω",
+          "right": "catastrophe"
+        },
+        {
+          "left": "ὁ δακτύλιος (δάκτυλος)",
+          "right": "pterodactyl"
+        },
+        {
+          "left": "ἅπτομαι",
+          "right": "haptic"
+        },
+        {
+          "left": "τὸ χάσμα",
+          "right": "chasm"
+        },
+        {
+          "left": "ἡ ἐπιθυμία (θυμός)",
+          "right": "thymus"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "κατα-στροφή 'overturning'; πτερο-δάκτυλος 'wing-finger'; ἁπτικός 'able to touch'; χάσμα 'gaping'; θυμός 'spirit, heart'."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "τί εὗρεν ὁ ποιμὴν ἐν τῷ χάσματι;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἵππον χαλκοῦν καὶ νεκρὸν ἔχοντα χρυσοῦν δακτύλιον."
+        },
+        {
+          "id": "b",
+          "text": "πρόβατα πολλά."
+        },
+        {
+          "id": "c",
+          "text": "τὸν βασιλέα."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἵππον χαλκοῦν … νεκρὸν … χρυσοῦν δακτύλιον.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "πῶς ἀφανὴς ἐγίγνετο ὁ ποιμήν;",
+      "options": [
+        {
+          "id": "a",
+          "text": "τὴν σφενδόνην εἴσω στρέφων."
+        },
+        {
+          "id": "b",
+          "text": "τὴν σφενδόνην ἔξω στρέφων."
+        },
+        {
+          "id": "c",
+          "text": "εἰς τὸ χάσμα καταβαίνων."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "στρέφοντι μὲν εἴσω τὴν σφενδόνην ἀδήλῳ γίγνεσθαι.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί ἐποίησεν ὁ ποιμὴν ἐν τῇ τοῦ βασιλέως οἰκίᾳ;",
+      "options": [
+        {
+          "id": "a",
+          "text": "μετὰ τῆς γυναικὸς τὸν βασιλέα ἀπέκτεινε καὶ τὴν ἀρχὴν κατέσχεν."
+        },
+        {
+          "id": "b",
+          "text": "τὸν δακτύλιον τῷ βασιλεῖ ἔδωκεν."
+        },
+        {
+          "id": "c",
+          "text": "ἄγγελος ἐγένετο καὶ ἀπῆλθεν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἐπιθέμενον τῷ βασιλεῖ ἀποκτεῖναι καὶ τὴν ἀρχὴν οὕτω κατασχεῖν.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί φησιν ὁ Γλαύκων περὶ τοῦ δικαίου καὶ τοῦ ἀδίκου, εἰ ἑκάτερος δακτύλιον ἔχοι;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐπὶ ταὐτὰ ἂν ἴοιεν ἀμφότεροι."
+        },
+        {
+          "id": "b",
+          "text": "ὁ δίκαιος ἐν τῇ δικαιοσύνῃ ἂν μένοι."
+        },
+        {
+          "id": "c",
+          "text": "ὁ ἄδικος δίκαιος ἂν γένοιτο."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "read.phil.argument"
+      ],
+      "explain": "ἀλλ’ ἐπὶ ταὔτ’ ἂν ἴοιεν ἀμφότεροι.",
+      "audio": "prompt"
+    }
+  ],
+  "culture": {
+    "title": "The Republic and a Lydian legend",
+    "md": "The **Republic** (Πολιτεία), written in the 370s BC, is Plato's longest dialogue after the *Laws*. Socrates narrates a conversation held at the house of Cephalus in the Piraeus, on the night of the first festival of the Thracian goddess Bendis (Unit 12). Book 1 ends in ἀπορία: what is justice (δικαιοσύνη)? At the start of Book 2 **Glaucon**, Plato's elder brother, restates the popular view as strongly as he can: people praise justice only because they are too weak to do wrong safely.\n\nHis proof is a Lydian legend. Lydia, in western Asia Minor, was a rich kingdom whose capital Sardis lay on the gold-bearing river Pactolus; about 680 BC a man called **Gyges** murdered King Candaules and founded a new dynasty, and the Lydians were later said to have struck the first coins, in electrum. Herodotus tells the Gyges story without magic (Candaules' wife and a hidden bodyguard); Plato's version gives an ancestor of Gyges a ring of invisibility found in a bronze horse in a chasm.\n\nGive a just man and an unjust man such a ring, Glaucon says, and they would behave the same way. Socrates spends the next nine books answering him: justice is the health of the soul, worth having for its own sake, ring or no ring. The idea of an invisible man who can do anything unpunished has had a long life, down to Tolkien's Ring and H. G. Wells.",
+    "image": "phil-culture-5-lydian-coin"
+  },
+  "quiz": [
+    {
+      "type": "produce-form",
+      "prompt": "Give the genitive singular of ποιμήν.",
+      "lemma": "ποιμήν",
+      "cell": "gen.sg",
+      "skills": [
+        "noun.decl3.cons.gen.sg",
+        "vocab.production"
+      ],
+      "explain": "ποιμένος: stem ποιμεν-.",
+      "audio": "ποιμένος"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἡ ἐξουσία means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "power to do as one likes"
+        },
+        {
+          "id": "b",
+          "text": "justice"
+        },
+        {
+          "id": "c",
+          "text": "desire"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition",
+        "vocab.phil"
+      ],
+      "explain": "ἐξουσία < ἔξεστι 'it is allowed'."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἀφανής ↔ …",
+      "options": [
+        {
+          "id": "a",
+          "text": "φανερός"
+        },
+        {
+          "id": "b",
+          "text": "ἄδηλος"
+        },
+        {
+          "id": "c",
+          "text": "ἀλλότριος"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.phil",
+        "read.phil.terms"
+      ],
+      "explain": "ἀφανής 'unseen' ↔ φανερός 'visible'."
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse στρέψαντα.",
+      "form": "στρέψαντα",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            },
+            {
+              "id": "voc",
+              "label": "vocative"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "mood": "ptc",
+        "case": "acc"
+      },
+      "skills": [
+        "verb.ptc.aor.act",
+        "syntax.indirect-inf"
+      ],
+      "explain": "στρέψ-αντα: aorist participle, accusative (agreeing with the subject of the infinitive).",
+      "audio": "στρέψαντα"
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Γλαύκων οἴεται πάντας ἑκόντας δικαίους εἶναι.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "οὐδεὶς ἑκὼν δίκαιος ἀλλ’ ἀναγκαζόμενος."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἀφανὴς ἐγένετο."
+        },
+        {
+          "id": "b",
+          "text": "φανερὸς ἐγένετο."
+        },
+        {
+          "id": "c",
+          "text": "ἀφανὴς ἐστίν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "He became invisible.",
+      "audio": "ἀφανὴς ἐγένετο."
+    },
+    {
+      "type": "label",
+      "prompt": "καθήμενον … τυχεῖν … περιαγαγόντα. The infinitive τυχεῖν stands for …",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἔτυχε (he happened)"
+        },
+        {
+          "id": "b",
+          "text": "τύχῃ (he may happen)"
+        },
+        {
+          "id": "c",
+          "text": "τυχών (happening)"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.indirect-inf"
+      ],
+      "explain": "In reported narrative the aorist infinitive stands for an aorist indicative."
+    }
+  ],
+  "skills": [
+    "read.original",
+    "read.plato",
+    "read.comprehension",
+    "read.locate",
+    "read.phil.argument",
+    "read.phil.terms",
+    "syntax.indirect-inf",
+    "syntax.opt-potential",
+    "syntax.dat.uses",
+    "syntax.gen.uses",
+    "adj.decl3.es",
+    "adj.agree",
+    "adj.predicate",
+    "verb.aor1.sigma",
+    "verb.aor1.liquid",
+    "verb.augment.compound",
+    "verb.aor2.stem",
+    "verb.middle-meaning",
+    "verb.ptc.aor.act",
+    "listen.words",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.phil",
+    "vocab.family"
+  ]
+}

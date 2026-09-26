@@ -1,0 +1,1700 @@
+{
+  "id": "phil.6",
+  "title_grc": "τὸ φάρμακον",
+  "title_en": "The cup of hemlock",
+  "summary_grc": "ὁ Σωκράτης τὸ φάρμακον εὐκόλως ἐκπίνει· οἱ δὲ φίλοι δακρύουσιν.",
+  "summary_en": "Phaedo tells Echecrates how Socrates, refusing to delay, asks the executioner what to do, prays, and drinks the hemlock calmly, while his friends break down in tears. Plato's Phaedo 117a–e, lightly cut, with a two-sentence frame: following a narrated dialogue (ἔφη, ἦ δ’ ὅς), wishes, commands and purpose.",
+  "cover": "phil-panel-6-b",
+  "caption_grc": "καὶ ἅμ’ εἰπὼν ταῦτα … μάλα εὐχερῶς καὶ εὐκόλως ἐξέπιεν.",
+  "original": {
+    "text": "plato-phaedo-117a",
+    "note": "Plato, Phaedo 117a–e, lightly cut. The two opening sentences and the last one are a frame in simple Greek; everything else is Plato's text with a few passages left out. Socrates died in 399 BC; Plato wrote the Phaedo some years later, probably in the 380s."
+  },
+  "names": {
+    "Φαίδων": [
+      "Φαίδωνος",
+      "Φαίδωνι",
+      "Φαίδωνα",
+      "Φαίδων"
+    ],
+    "Ἐχεκράτης": [
+      "Ἐχεκράτους",
+      "Ἐχεκράτει",
+      "Ἐχεκράτη",
+      "Ἐχέκρατες"
+    ],
+    "Κρίτων": [
+      "Κρίτωνος",
+      "Κρίτωνι",
+      "Κρίτωνα",
+      "Κρίτων"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "phil-panel-6-a",
+      "sentences": [
+        {
+          "text": "ὁ Φαίδων τῷ Ἐχεκράτει λέγει πῶς ἐτελεύτησεν ὁ Σωκράτης, ἀνὴρ θαυμάσιος.",
+          "glosses": [
+            {
+              "word": "θαυμάσιος",
+              "kind": "<",
+              "value": "θαυμάζω | θαυμάσιος, -α, -ον (wonderful)"
+            }
+          ]
+        },
+        {
+          "text": "ἤδη ἦν ἑσπέρα· ὁ δὲ Κρίτων ἐκέλευε τὸν Σωκράτη μὴ σπεύδειν τὸ φάρμακον ἐκπιεῖν· ἄλλοι γάρ, ἔφη, ὀψὲ πίνουσιν.",
+          "glosses": [
+            {
+              "word": "ἐκπιεῖν",
+              "kind": "|",
+              "value": "ἐκ + πίνω | ἐκπιεῖν (to drink up: aorist infinitive)"
+            },
+            {
+              "word": "ὀψὲ",
+              "kind": "en",
+              "value": "late"
+            }
+          ]
+        },
+        {
+          "text": "καὶ ὁ Σωκράτης, εἰκότως γε, ἔφη, ὦ Κρίτων, ἐκεῖνοί τε ταῦτα ποιοῦσιν, οὓς σὺ λέγεις — οἴονται γὰρ κερδαίνειν ταῦτα ποιήσαντες — καὶ ἔγωγε ταῦτα εἰκότως οὐ ποιήσω·",
+          "orig": [
+            0
+          ],
+          "glosses": [
+            {
+              "word": "εἰκότως",
+              "kind": "en",
+              "value": "reasonably, naturally"
+            },
+            {
+              "word": "κερδαίνειν",
+              "kind": "en",
+              "value": "to gain, profit (κερδαίνω)"
+            },
+            {
+              "word": "ἔγωγε",
+              "kind": "=",
+              "value": "ἐγώ + γε: I for my part"
+            }
+          ]
+        },
+        {
+          "text": "οὐδὲν γὰρ οἶμαι κερδανεῖν ὀλίγον ὕστερον πιὼν ἄλλο γε ἢ γέλωτα ὀφλήσειν παρ’ ἐμαυτῷ, γλιχόμενος τοῦ ζῆν.",
+          "orig": [
+            1
+          ],
+          "glosses": [
+            {
+              "word": "οἶμαι",
+              "kind": "=",
+              "value": "οἴομαι"
+            },
+            {
+              "word": "ἐμαυτῷ",
+              "kind": "en",
+              "value": "myself (reflexive: ἐμαυτοῦ, ἐμαυτῷ, ἐμαυτόν)"
+            },
+            {
+              "word": "κερδανεῖν",
+              "kind": "|",
+              "value": "κερδαίνω | κερδανεῖν (future infinitive)"
+            },
+            {
+              "word": "γέλωτα",
+              "kind": "en",
+              "value": "laughter (ὁ γέλως, -ωτος); γέλωτα ὀφλήσειν: to become a laughing-stock"
+            },
+            {
+              "word": "ὀφλήσειν",
+              "kind": "en",
+              "value": "to incur (ὀφλισκάνω, future infinitive)"
+            },
+            {
+              "word": "γλιχόμενος",
+              "kind": "en",
+              "value": "clinging to (+ genitive)"
+            }
+          ]
+        },
+        {
+          "text": "ἀλλ’ ἴθι, ἔφη, πείθου καὶ μὴ ἄλλως ποίει.",
+          "orig": [
+            2
+          ],
+          "glosses": [
+            {
+              "word": "ἴθι",
+              "kind": "|",
+              "value": "εἶμι | ἴθι (go! come on!)"
+            },
+            {
+              "word": "πείθου",
+              "kind": "en",
+              "value": "do as I say (πείθομαι, imperative)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ ὁ Κρίτων ἀκούσας ἔνευσε τῷ παιδὶ πλησίον ἑστῶτι.",
+          "orig": [
+            3
+          ],
+          "glosses": [
+            {
+              "word": "ἔνευσε",
+              "kind": "en",
+              "value": "nodded (νεύω)"
+            },
+            {
+              "word": "πλησίον",
+              "kind": "en",
+              "value": "near"
+            },
+            {
+              "word": "ἑστῶτι",
+              "kind": "|",
+              "value": "ἵστημι | ἕστηκα, ἑστώς (standing: perfect participle, dative)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ ὁ παῖς ἐξελθὼν καὶ συχνὸν χρόνον διατρίψας ἧκεν ἄγων τὸν μέλλοντα δώσειν τὸ φάρμακον, ἐν κύλικι φέροντα τετριμμένον.",
+          "orig": [
+            4
+          ],
+          "glosses": [
+            {
+              "word": "συχνὸν",
+              "kind": "en",
+              "value": "long, much"
+            },
+            {
+              "word": "διατρίψας",
+              "kind": "en",
+              "value": "having spent (time) (διατρίβω)"
+            },
+            {
+              "word": "τετριμμένον",
+              "kind": "en",
+              "value": "ground, pounded (τρίβω, perfect participle passive)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "phil-panel-6-b",
+      "sentences": [
+        {
+          "text": "ἰδὼν δὲ ὁ Σωκράτης τὸν ἄνθρωπον, εἶεν, ἔφη, ὦ βέλτιστε, σὺ γὰρ τούτων ἐπιστήμων, τί χρὴ ποιεῖν;",
+          "orig": [
+            5
+          ],
+          "glosses": [
+            {
+              "word": "εἶεν",
+              "kind": "en",
+              "value": "well then"
+            },
+            {
+              "word": "βέλτιστε",
+              "kind": "|",
+              "value": "ἀγαθός, βελτίων | ὦ βέλτιστε (my good man)"
+            },
+            {
+              "word": "ἐπιστήμων",
+              "kind": "en",
+              "value": "expert (in: + genitive) (< ἐπίσταμαι)"
+            }
+          ]
+        },
+        {
+          "text": "οὐδὲν ἄλλο, ἔφη, ἢ πιόντα περιιέναι, ἕως ἄν σου βάρος ἐν τοῖς σκέλεσι γένηται, ἔπειτα κατακεῖσθαι·",
+          "orig": [
+            6
+          ],
+          "glosses": [
+            {
+              "word": "περιιέναι",
+              "kind": "en",
+              "value": "to walk about (περί + ἰέναι)"
+            },
+            {
+              "word": "βάρος",
+              "kind": "en",
+              "value": "heaviness"
+            },
+            {
+              "word": "σκέλεσι",
+              "kind": "en",
+              "value": "legs (τὸ σκέλος, -ους)"
+            },
+            {
+              "word": "κατακεῖσθαι",
+              "kind": "en",
+              "value": "to lie down"
+            }
+          ]
+        },
+        {
+          "text": "καὶ ἅμα ὤρεξε τὴν κύλικα τῷ Σωκράτει.",
+          "orig": [
+            8
+          ],
+          "glosses": [
+            {
+              "word": "ὤρεξε",
+              "kind": "en",
+              "value": "held out (ὀρέγω)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ ὃς λαβὼν καὶ μάλα ἵλεως, ὦ Ἐχέκρατες, τί λέγεις, ἔφη, περὶ τοῦδε τοῦ πώματος πρὸς τὸ ἀποσπεῖσαί τινι;",
+          "orig": [
+            9
+          ],
+          "glosses": [
+            {
+              "word": "ὃς",
+              "kind": "note",
+              "value": "καὶ ὅς: and he (the relative as a demonstrative)"
+            },
+            {
+              "word": "μάλα",
+              "kind": "en",
+              "value": "very"
+            },
+            {
+              "word": "ἵλεως",
+              "kind": "en",
+              "value": "cheerfully, gracious"
+            },
+            {
+              "word": "πώματος",
+              "kind": "en",
+              "value": "drink (τὸ πῶμα)"
+            },
+            {
+              "word": "ἀποσπεῖσαί",
+              "kind": "en",
+              "value": "to pour a libation (ἀποσπένδω, aorist infinitive)"
+            }
+          ]
+        },
+        {
+          "text": "ἔξεστιν ἢ οὔ;",
+          "orig": [
+            10
+          ],
+          "glosses": []
+        },
+        {
+          "text": "τοσοῦτον, ἔφη, ὦ Σώκρατες, τρίβομεν ὅσον οἰόμεθα μέτριον εἶναι πιεῖν.",
+          "orig": [
+            11
+          ],
+          "glosses": [
+            {
+              "word": "τρίβομεν",
+              "kind": "en",
+              "value": "we grind, prepare (τρίβω)"
+            },
+            {
+              "word": "μέτριον",
+              "kind": "en",
+              "value": "the right amount"
+            }
+          ]
+        },
+        {
+          "text": "μανθάνω, ἦ δ’ ὅς·",
+          "orig": [
+            12
+          ],
+          "glosses": [
+            {
+              "word": "ἦ",
+              "kind": "note",
+              "value": "ἦ δ’ ὅς: said he"
+            }
+          ]
+        },
+        {
+          "text": "ἀλλ’ εὔχεσθαί γέ που τοῖς θεοῖς ἔξεστί τε καὶ χρή, τὴν μετοίκησιν τὴν ἐνθένδε ἐκεῖσε εὐτυχῆ γενέσθαι·",
+          "orig": [
+            13
+          ],
+          "glosses": [
+            {
+              "word": "μετοίκησιν",
+              "kind": "<",
+              "value": "μετά + οἰκέω | ἡ μετοίκησις (change of home)"
+            },
+            {
+              "word": "ἐνθένδε",
+              "kind": "en",
+              "value": "from here"
+            },
+            {
+              "word": "ἐκεῖσε",
+              "kind": "en",
+              "value": "to there"
+            },
+            {
+              "word": "εὐτυχῆ",
+              "kind": "en",
+              "value": "fortunate (εὐτυχής)"
+            }
+          ]
+        },
+        {
+          "text": "ἃ δὴ καὶ ἐγὼ εὔχομαί τε καὶ γένοιτο ταύτῃ.",
+          "orig": [
+            14
+          ],
+          "glosses": [
+            {
+              "word": "γένοιτο",
+              "kind": "note",
+              "value": "optative of wish: may it be so"
+            }
+          ]
+        },
+        {
+          "text": "καὶ ἅμ’ εἰπὼν ταῦτα ἐπισχόμενος καὶ μάλα εὐχερῶς καὶ εὐκόλως ἐξέπιεν.",
+          "orig": [
+            15
+          ],
+          "glosses": [
+            {
+              "word": "ἐπισχόμενος",
+              "kind": "en",
+              "value": "raising (the cup) to his lips (ἐπέχω)"
+            },
+            {
+              "word": "εὐχερῶς",
+              "kind": "en",
+              "value": "easily, readily"
+            },
+            {
+              "word": "εὐκόλως",
+              "kind": "en",
+              "value": "calmly, cheerfully"
+            },
+            {
+              "word": "ἐξέπιεν",
+              "kind": "en",
+              "value": "drank it off (ἐκπίνω)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "phil-panel-6-c",
+      "sentences": [
+        {
+          "text": "καὶ ἡμῶν οἱ πολλοὶ τέως μὲν ἐπιεικῶς οἷοί τε ἦσαν κατέχειν τὸ μὴ δακρύειν, ὡς δὲ εἴδομεν πίνοντά τε καὶ πεπωκότα, οὐκέτι, ἀλλ’ ἐμοῦ γε βίᾳ καὶ αὐτοῦ ἀστακτὶ ἐχώρει τὰ δάκρυα, ὥστε ἐγκαλυψάμενος ἀπέκλαον ἐμαυτόν — οὐ γὰρ δὴ ἐκεῖνόν γε, ἀλλὰ τὴν ἐμαυτοῦ τύχην, οἵου ἀνδρὸς ἑταίρου ἐστερημένος εἴην.",
+          "orig": [
+            16
+          ],
+          "glosses": [
+            {
+              "word": "τέως",
+              "kind": "en",
+              "value": "until then"
+            },
+            {
+              "word": "ἐμαυτόν",
+              "kind": "en",
+              "value": "myself"
+            },
+            {
+              "word": "ἐμαυτοῦ",
+              "kind": "en",
+              "value": "my own (reflexive)"
+            },
+            {
+              "word": "ἐπιεικῶς",
+              "kind": "en",
+              "value": "fairly well"
+            },
+            {
+              "word": "κατέχειν",
+              "kind": "en",
+              "value": "to hold back (κατέχω); τὸ μὴ δακρύειν: from weeping"
+            },
+            {
+              "word": "δακρύειν",
+              "kind": "en",
+              "value": "to weep (δακρύω)"
+            },
+            {
+              "word": "πεπωκότα",
+              "kind": "|",
+              "value": "πίνω | πέπωκα (perfect): 'had drunk it'"
+            },
+            {
+              "word": "βίᾳ",
+              "kind": "en",
+              "value": "by force, in spite of myself"
+            },
+            {
+              "word": "ἀστακτὶ",
+              "kind": "en",
+              "value": "in floods"
+            },
+            {
+              "word": "ἐχώρει",
+              "kind": "en",
+              "value": "flowed (χωρέω)"
+            },
+            {
+              "word": "δάκρυα",
+              "kind": "en",
+              "value": "tears (τὸ δάκρυον)"
+            },
+            {
+              "word": "ἐγκαλυψάμενος",
+              "kind": "en",
+              "value": "covering my face (ἐγκαλύπτω)"
+            },
+            {
+              "word": "ἀπέκλαον",
+              "kind": "en",
+              "value": "I wept for (ἀποκλαίω)"
+            },
+            {
+              "word": "ἐστερημένος",
+              "kind": "en",
+              "value": "deprived of (+ genitive) (στερέω, perfect)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ Κρίτων ἔτι πρότερος ἐμοῦ, ἐπειδὴ οὐχ οἷός τ’ ἦν κατέχειν τὰ δάκρυα, ἐξανέστη.",
+          "orig": [
+            17
+          ],
+          "glosses": [
+            {
+              "word": "ἐπειδὴ",
+              "kind": "en",
+              "value": "since, when"
+            },
+            {
+              "word": "ἐξανέστη",
+              "kind": "en",
+              "value": "got up and went out (ἐξανίσταμαι)"
+            }
+          ]
+        },
+        {
+          "text": "ἐκεῖνος δέ, οἷα, ἔφη, ποιεῖτε, ὦ θαυμάσιοι.",
+          "orig": [
+            19
+          ],
+          "glosses": [
+            {
+              "word": "οἷα",
+              "kind": "note",
+              "value": "οἷα ποιεῖτε: what a way to behave!"
+            }
+          ]
+        },
+        {
+          "text": "ἐγὼ μέντοι οὐχ ἥκιστα τούτου ἕνεκα τὰς γυναῖκας ἀπέπεμψα, ἵνα μὴ τοιαῦτα πλημμελοῖεν·",
+          "orig": [
+            20
+          ],
+          "glosses": [
+            {
+              "word": "ἥκιστα",
+              "kind": "en",
+              "value": "least; οὐχ ἥκιστα: chiefly"
+            },
+            {
+              "word": "ἀπέπεμψα",
+              "kind": "|",
+              "value": "ἀπό + πέμπω | ἀπέπεμψα (I sent away)"
+            },
+            {
+              "word": "πλημμελοῖεν",
+              "kind": "en",
+              "value": "they might strike a false note (πλημμελέω)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ γὰρ ἀκήκοα ὅτι ἐν εὐφημίᾳ χρὴ τελευτᾶν.",
+          "orig": [
+            21
+          ],
+          "glosses": [
+            {
+              "word": "εὐφημίᾳ",
+              "kind": "en",
+              "value": "reverent silence (ἡ εὐφημία)"
+            }
+          ]
+        },
+        {
+          "text": "ἀλλ’ ἡσυχίαν τε ἄγετε καὶ καρτερεῖτε.",
+          "orig": [
+            22
+          ],
+          "glosses": [
+            {
+              "word": "ἡσυχίαν",
+              "kind": "en",
+              "value": "quiet (ἡ ἡσυχία); ἡσυχίαν ἄγειν: keep quiet"
+            },
+            {
+              "word": "καρτερεῖτε",
+              "kind": "en",
+              "value": "be steadfast, hold out (καρτερέω)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ ἡμεῖς ἀκούσαντες ᾐσχύνθημέν τε καὶ ἐπέσχομεν τοῦ δακρύειν.",
+          "orig": [
+            23
+          ],
+          "glosses": [
+            {
+              "word": "ᾐσχύνθημέν",
+              "kind": "en",
+              "value": "we were ashamed (αἰσχύνομαι, aorist passive)"
+            },
+            {
+              "word": "ἐπέσχομεν",
+              "kind": "en",
+              "value": "we stopped (+ genitive) (ἐπέχω)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ περιελθών, ἐπειδή οἱ βαρύνεσθαι ἔφη τὰ σκέλη, κατεκλίνη ὕπτιος.",
+          "orig": [
+            24
+          ],
+          "glosses": [
+            {
+              "word": "περιελθών",
+              "kind": "en",
+              "value": "having walked about"
+            },
+            {
+              "word": "οἱ",
+              "kind": "note",
+              "value": "οἱ (unaccented ὅ): to him, 'his' (old reflexive dative)"
+            },
+            {
+              "word": "βαρύνεσθαι",
+              "kind": "en",
+              "value": "to grow heavy"
+            },
+            {
+              "word": "κατεκλίνη",
+              "kind": "en",
+              "value": "he lay down (κατακλίνομαι)"
+            },
+            {
+              "word": "ὕπτιος",
+              "kind": "en",
+              "value": "on his back"
+            }
+          ]
+        },
+        {
+          "text": "καὶ ὁ μὲν Σωκράτης ἐνεκαλύψατο, ἡμεῖς δὲ αἰσχυνόμενοι ἡσυχίαν ἤγομεν καὶ ἐκαρτεροῦμεν.",
+          "glosses": []
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "δακρυον",
+      "gloss_grc": "τὸ δάκρυον · τὰ δάκρυα χωρεῖ"
+    },
+    {
+      "id": "δακρυω",
+      "gloss_grc": "δακρύω, δακρύσω, ἐδάκρυσα < δάκρυον"
+    },
+    {
+      "id": "κερδαινω",
+      "gloss_grc": "κερδαίνω, κερδανῶ, ἐκέρδανα · < τὸ κέρδος"
+    },
+    {
+      "id": "εικοτως",
+      "gloss_grc": "εἰκότως (< εἰκός): with good reason"
+    },
+    {
+      "id": "σκελος",
+      "gloss_grc": "τὸ σκέλος, τοῦ σκέλους · τὰ σκέλη"
+    },
+    {
+      "id": "εκπινω",
+      "gloss_grc": "ἐκπίνω, ἐξέπιον (< πίνω)"
+    },
+    {
+      "id": "ησυχια",
+      "gloss_grc": "ἡ ἡσυχία · ἡσυχίαν ἄγω"
+    },
+    {
+      "id": "καρτερεω",
+      "gloss_grc": "καρτερῶ = ἀνέχομαι, οὐ δακρύω"
+    },
+    {
+      "id": "αισχυνω",
+      "gloss_grc": "αἰσχύνομαι, ᾐσχύνθην (< αἰσχρός)"
+    },
+    {
+      "id": "εγκαλυπτω",
+      "gloss_grc": "ἐγκαλύπτομαι: I cover my face ↔ ἐκκαλύπτομαι"
+    },
+    {
+      "id": "θαυμασιος",
+      "gloss_grc": "θαυμάσιος < θαυμάζω · ὦ θαυμάσιε"
+    }
+  ],
+  "notice": [
+    "εἰκότως γε, ἔφη, ὦ Κρίτων, ἐκεῖνοί τε ταῦτα ποιοῦσιν … καὶ ἔγωγε ταῦτα εἰκότως οὐ ποιήσω.",
+    "ἰδὼν δὲ ὁ Σωκράτης τὸν ἄνθρωπον, εἶεν, ἔφη, ὦ βέλτιστε, … τί χρὴ ποιεῖν;",
+    "μανθάνω, ἦ δ’ ὅς.",
+    "ἀλλ’ ἡσυχίαν τε ἄγετε καὶ καρτερεῖτε."
+  ],
+  "grammar": {
+    "md": "**Phaedo tells the story.** The *Phaedo* is narrated: Phaedo, who was there, tells Echecrates (a Pythagorean in Phlius) about Socrates' last day. So there are two layers: Phaedo's narrative (ἡμεῖς 'we', ὦ Ἐχέκρατες) and the words spoken in the prison, marked only by **ἔφη** 'he said' and **ἦ δ’ ὅς** 'said he', tucked into the first words of the speech:\n\n| Greek | who speaks |\n|---|---|\n| εἰκότως γε, **ἔφη**, ὦ Κρίτων … | Socrates |\n| οὐδὲν ἄλλο, **ἔφη**, ἢ πιόντα περιιέναι | the man with the poison |\n| τοσοῦτον, **ἔφη**, ὦ Σώκρατες, τρίβομεν | the man again |\n| μανθάνω, **ἦ δ’ ὅς** | Socrates |\n\nThere are no quotation marks in Greek texts: the vocative (ὦ Κρίτων, ὦ βέλτιστε, ὦ Σώκρατες) and the change of person tell you who is talking.\n\n**καὶ ὅς** 'and he': the relative pronoun used as a demonstrative at the start of a clause, as in ἦ δ’ ὅς. So καὶ ὃς λαβών … 'and he took it …'.\n\n**Moods at the end of a life.** A wish in the optative: γένοιτο ταύτῃ 'may it be so'. Commands in the imperative: ἴθι, πείθου, μὴ ἄλλως ποίει; ἡσυχίαν ἄγετε καὶ καρτερεῖτε. Purpose in secondary sequence: ἀπέπεμψα ἵνα μὴ … πλημμελοῖεν (Unit 9). Result: ὥστε ἐγκαλυψάμενος ἀπέκλαον ἐμαυτόν (Unit 10).\n\n**Two perfects of drinking.** πίνοντά τε καὶ **πεπωκότα** 'drinking and having drunk': the perfect participle marks the finished act that cannot be undone.",
+    "paradigms": [
+      "eimi-go",
+      "luo"
+    ],
+    "diagram": "diagram-moods"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings.",
+      "template": "ἐχώρει τὰ δάκρυ___. ἐβαρύνετο τὰ σκέλ___. τὸ φάρμακον ἐν κύλικ___ ἔφερεν. ἡσυχί___ ἄγετε.",
+      "gaps": [
+        {
+          "answers": [
+            "α"
+          ]
+        },
+        {
+          "answers": [
+            "η"
+          ]
+        },
+        {
+          "answers": [
+            "ι"
+          ]
+        },
+        {
+          "answers": [
+            "αν"
+          ]
+        }
+      ],
+      "skills": [
+        "noun.decl2.neuter",
+        "noun.decl3.sigma",
+        "noun.decl3.dat.sg",
+        "noun.decl1.acc.sg"
+      ],
+      "explain": "τὰ δάκρυα (neuter plural), τὰ σκέλη (σ-stem neuter: -εα → -η), ἐν κύλικι (dative), ἡσυχίαν (accusative)."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ἀλλ’ ἡσυχίαν τε ἄγετε καὶ ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "καρτερεῖτε"
+        },
+        {
+          "id": "b",
+          "text": "δακρύετε"
+        },
+        {
+          "id": "c",
+          "text": "κερδαίνετε"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.phil",
+        "syntax.imperative"
+      ],
+      "explain": "καρτερεῖτε: be steadfast (imperative).",
+      "audio": "ἀλλ’ ἡσυχίαν τε ἄγετε καὶ καρτερεῖτε."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ἀκούσαντες ᾐσχύνθημέν τε καὶ ἐπέσχομεν τοῦ ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "δακρύειν"
+        },
+        {
+          "id": "b",
+          "text": "δάκρυον"
+        },
+        {
+          "id": "c",
+          "text": "δακρύοντος"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.phil",
+        "syntax.articular-inf"
+      ],
+      "explain": "τοῦ δακρύειν: articular infinitive in the genitive after ἐπέχω 'stop from'.",
+      "audio": "ἀκούσαντες ᾐσχύνθημέν τε καὶ ἐπέσχομεν τοῦ δακρύειν."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · οὐδὲν γὰρ οἶμαι ___ ὀλίγον ὕστερον πιών.",
+      "options": [
+        {
+          "id": "a",
+          "text": "κερδανεῖν"
+        },
+        {
+          "id": "b",
+          "text": "κερδαίνων"
+        },
+        {
+          "id": "c",
+          "text": "κέρδος"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.phil",
+        "syntax.indirect-inf"
+      ],
+      "explain": "οἶμαι + future infinitive: 'I think I shall gain nothing'.",
+      "audio": "οὐδὲν γὰρ οἶμαι κερδανεῖν ὀλίγον ὕστερον πιών."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "τὰ δάκρυα"
+        },
+        {
+          "id": "b",
+          "text": "τὰ δῶρα"
+        },
+        {
+          "id": "c",
+          "text": "τὰ σκέλη"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.recognition"
+      ],
+      "explain": "τὰ δάκρυα: tears.",
+      "audio": "τὰ δάκρυα"
+    },
+    {
+      "type": "match",
+      "prompt": "Match the new words to their meanings.",
+      "pairs": [
+        {
+          "left": "τὸ δάκρυον",
+          "right": "tear"
+        },
+        {
+          "left": "τὸ σκέλος",
+          "right": "leg"
+        },
+        {
+          "left": "ἡ ἡσυχία",
+          "right": "quiet"
+        },
+        {
+          "left": "καρτερέω",
+          "right": "endure, hold out"
+        },
+        {
+          "left": "εἰκότως",
+          "right": "with good reason"
+        }
+      ],
+      "skills": [
+        "vocab.recognition",
+        "vocab.phil"
+      ],
+      "explain": "δάκρυον, σκέλος, ἡσυχία, καρτερέω, εἰκότως."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist of ἐκπίνω: 'he drank it off'.",
+      "lemma": "ἐκπίνω",
+      "cell": "aorist.active.indicative.3sg",
+      "skills": [
+        "verb.aor2.stem",
+        "verb.augment.compound"
+      ],
+      "explain": "ἐξ-έ-πιε(ν): second aorist of πίνω (ἔπιον), augment after the prefix (ἐκ → ἐξ before a vowel).",
+      "audio": "ἐξέπιεν"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the nominative plural of σκέλος: τὰ ___.",
+      "lemma": "σκέλος",
+      "cell": "nom.pl",
+      "skills": [
+        "noun.decl3.sigma",
+        "vocab.production"
+      ],
+      "explain": "σκέλη (σκέλε-α → σκέλη), like γένη.",
+      "audio": "σκέλη"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the present imperative plural of καρτερέω: '(you all) hold out!'",
+      "lemma": "καρτερέω",
+      "cell": "present.active.imperative.2pl",
+      "skills": [
+        "syntax.imperative",
+        "verb.contract.e"
+      ],
+      "explain": "καρτερ-έετε → καρτερεῖτε.",
+      "audio": "καρτερεῖτε"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse γένοιτο.",
+      "form": "γένοιτο",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "mood": "opt",
+        "person": "3sg"
+      },
+      "skills": [
+        "syntax.opt-wish"
+      ],
+      "explain": "γένοιτο: aorist optative of γίγνομαι, 'may it be': a wish.",
+      "audio": "γένοιτο"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse πεπωκότα.",
+      "form": "πεπωκότα",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            },
+            {
+              "id": "voc",
+              "label": "vocative"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "perf",
+        "mood": "ptc",
+        "case": "acc"
+      },
+      "skills": [
+        "verb.ptc.perf.act",
+        "verb.perf.reduplication"
+      ],
+      "explain": "πε-πωκ-ότα: perfect active participle of πίνω (πέπωκα), accusative: 'having drunk it'.",
+      "audio": "πεπωκότα"
+    },
+    {
+      "type": "label",
+      "prompt": "τοσοῦτον, ἔφη, ὦ Σώκρατες, τρίβομεν … Who is speaking?",
+      "options": [
+        {
+          "id": "a",
+          "text": "the man who brings the poison"
+        },
+        {
+          "id": "b",
+          "text": "Socrates"
+        },
+        {
+          "id": "c",
+          "text": "Phaedo"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.dialogue",
+        "read.comprehension"
+      ],
+      "explain": "He is addressing Socrates (ὦ Σώκρατες) and says 'we grind': the man with the cup."
+    },
+    {
+      "type": "label",
+      "prompt": "ἃ δὴ καὶ ἐγὼ εὔχομαί τε καὶ γένοιτο ταύτῃ. γένοιτο expresses …",
+      "options": [
+        {
+          "id": "a",
+          "text": "a wish"
+        },
+        {
+          "id": "b",
+          "text": "a condition"
+        },
+        {
+          "id": "c",
+          "text": "a purpose"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-wish"
+      ],
+      "explain": "Optative without ἄν in a main clause: a wish."
+    },
+    {
+      "type": "label",
+      "prompt": "τὰς γυναῖκας ἀπέπεμψα, ἵνα μὴ τοιαῦτα πλημμελοῖεν. Why the optative?",
+      "options": [
+        {
+          "id": "a",
+          "text": "purpose after a past verb"
+        },
+        {
+          "id": "b",
+          "text": "a wish"
+        },
+        {
+          "id": "c",
+          "text": "potential"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-secondary",
+        "syntax.purpose"
+      ],
+      "explain": "ἵνα + optative: purpose in secondary sequence."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "μανθάνω, ἦ δ’ ὅς. ἦ δ’ ὅς means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "said he"
+        },
+        {
+          "id": "b",
+          "text": "and he was"
+        },
+        {
+          "id": "c",
+          "text": "and who?"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.dialogue"
+      ],
+      "explain": "ἦ (an old verb 'say') + δέ + ὅς 'he'."
+    },
+    {
+      "type": "transform",
+      "prompt": "Make it plural: ἡσυχίαν ἄγε καὶ καρτέρει. → ἡσυχίαν ___ καὶ καρτερεῖτε.",
+      "template": "ἡσυχίαν ___ καὶ καρτερεῖτε.",
+      "gaps": [
+        {
+          "answers": [
+            "ἄγετε"
+          ]
+        }
+      ],
+      "skills": [
+        "syntax.imperative",
+        "verb.pres.act.imp.2pl"
+      ],
+      "explain": "ἄγε → ἄγετε."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the word that shows someone else is now speaking.",
+      "sentence": "οὐδὲν ἄλλο, ἔφη, ἢ πιόντα περιιέναι, ἕως ἄν σου βάρος ἐν τοῖς σκέλεσι γένηται, ἔπειτα κατακεῖσθαι·",
+      "answer": [
+        2
+      ],
+      "skills": [
+        "read.locate",
+        "read.phil.dialogue"
+      ],
+      "explain": "ἔφη 'he said', slipped in after the first words."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the verb that says what Socrates did with the cup.",
+      "sentence": "καὶ ἅμ’ εἰπὼν ταῦτα ἐπισχόμενος καὶ μάλα εὐχερῶς καὶ εὐκόλως ἐξέπιεν.",
+      "answer": [
+        10
+      ],
+      "skills": [
+        "read.locate",
+        "read.comprehension"
+      ],
+      "explain": "ἐξέπιεν: he drank it off."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'Keep quiet and be steadfast.'",
+      "tokens": [
+        "ἡσυχίαν",
+        "ἄγετε",
+        "καὶ",
+        "καρτερεῖτε"
+      ],
+      "answers": [
+        "ἡσυχίαν ἄγετε καὶ καρτερεῖτε",
+        "καρτερεῖτε καὶ ἡσυχίαν ἄγετε"
+      ],
+      "skills": [
+        "syntax.word-order",
+        "syntax.imperative"
+      ],
+      "explain": "ἡσυχίαν ἄγετε καὶ καρτερεῖτε."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "μανθάνω, ἦ δ’ ὅς."
+        },
+        {
+          "id": "b",
+          "text": "μανθάνω, ἔφη."
+        },
+        {
+          "id": "c",
+          "text": "μανθάνεις, ἦ δ’ ὅς."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "I understand, said he.",
+      "audio": "μανθάνω, ἦ δ’ ὅς."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Σωκράτης ἐκέλευσε τὸν Κρίτωνα μὴ σπεύδειν.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "The reverse: Crito urged delay; Socrates said ἴθι, πείθου καὶ μὴ ἄλλως ποίει."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Σωκράτης τὸ φάρμακον εὐκόλως ἐξέπιεν.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "καὶ μάλα εὐχερῶς καὶ εὐκόλως ἐξέπιεν."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Φαίδων ἐδάκρυε διὰ τὴν ἑαυτοῦ τύχην.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἀπέκλαον ἐμαυτόν — οὐ γὰρ δὴ ἐκεῖνόν γε, ἀλλὰ τὴν ἐμαυτοῦ τύχην."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "gaps": [
+        {
+          "answers": [
+            "ἡσυχίαν ἄγετε καὶ καρτερεῖτε"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "ἡσυχίαν ἄγετε καὶ καρτερεῖτε.",
+      "audio": "ἡσυχίαν ἄγετε καὶ καρτερεῖτε."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'We were weeping.'",
+      "gaps": [
+        {
+          "answers": [
+            "ἐδακρύομεν",
+            "ἡμεῖς ἐδακρύομεν"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "verb.impf.act.ind.1pl"
+      ],
+      "explain": "ἐδακρύομεν: imperfect of δακρύω."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: ἀλλ’ εὔχεσθαί γέ που τοῖς θεοῖς ἔξεστί τε καὶ χρή, τὴν μετοίκησιν τὴν ἐνθένδε ἐκεῖσε εὐτυχῆ γενέσθαι·",
+      "audio": "ἀλλ’ εὔχεσθαί γέ που τοῖς θεοῖς ἔξεστί τε καὶ χρή, τὴν μετοίκησιν τὴν ἐνθένδε ἐκεῖσε εὐτυχῆ γενέσθαι·",
+      "model": "But it is surely allowed, and right, to pray to the gods that the move from here to there may be fortunate.",
+      "skills": [
+        "read.original",
+        "read.plato",
+        "syntax.infinitive"
+      ],
+      "explain": "εὔχεσθαι … ἔξεστί τε καὶ χρή 'it is permitted and necessary to pray'; the content of the prayer is accusative + infinitive (τὴν μετοίκησιν … εὐτυχῆ γενέσθαι)."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "τὸ σκέλος",
+          "right": "isosceles"
+        },
+        {
+          "left": "τὸ φάρμακον",
+          "right": "pharmacy"
+        },
+        {
+          "left": "ἐγκαλύπτω (καλύπτω)",
+          "right": "apocalypse"
+        },
+        {
+          "left": "ἡ εὐφημία",
+          "right": "euphemism"
+        },
+        {
+          "left": "ἡ ἡσυχία",
+          "right": "hesychasm"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "ἰσοσκελής 'equal-legged'; φάρμακον 'drug, poison, remedy'; ἀποκάλυψις 'uncovering'; εὐφημία 'speaking well, holy silence'; ἡσυχασμός 'the practice of stillness'."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "τί ἐβούλετο ὁ Κρίτων;",
+      "options": [
+        {
+          "id": "a",
+          "text": "τὸν Σωκράτη μὴ σπεύδειν τὸ φάρμακον ἐκπιεῖν."
+        },
+        {
+          "id": "b",
+          "text": "τὸν Σωκράτη εὐθὺς πιεῖν."
+        },
+        {
+          "id": "c",
+          "text": "οἴκαδε ἀπελθεῖν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἐκέλευε τὸν Σωκράτη μὴ σπεύδειν.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί ἐκέλευσεν ὁ ἄνθρωπος ὁ τὸ φάρμακον φέρων;",
+      "options": [
+        {
+          "id": "a",
+          "text": "πιόντα περιιέναι, ἔπειτα κατακεῖσθαι."
+        },
+        {
+          "id": "b",
+          "text": "εὐθὺς κατακεῖσθαι."
+        },
+        {
+          "id": "c",
+          "text": "μὴ πίνειν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "πιόντα περιιέναι … ἔπειτα κατακεῖσθαι.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "πῶς ἐξέπιε τὸ φάρμακον ὁ Σωκράτης;",
+      "options": [
+        {
+          "id": "a",
+          "text": "μάλα εὐχερῶς καὶ εὐκόλως."
+        },
+        {
+          "id": "b",
+          "text": "δακρύων."
+        },
+        {
+          "id": "c",
+          "text": "φοβούμενος."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "καὶ μάλα εὐχερῶς καὶ εὐκόλως ἐξέπιεν.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "διὰ τί ἀπέπεμψεν ὁ Σωκράτης τὰς γυναῖκας;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἵνα μὴ τοιαῦτα πλημμελοῖεν."
+        },
+        {
+          "id": "b",
+          "text": "ἵνα τὸ φάρμακον φέροιεν."
+        },
+        {
+          "id": "c",
+          "text": "ἵνα δακρύοιεν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "syntax.purpose"
+      ],
+      "explain": "ἵνα μὴ τοιαῦτα πλημμελοῖεν.",
+      "audio": "prompt"
+    }
+  ],
+  "culture": {
+    "title": "The death of Socrates",
+    "md": "Socrates was executed in the spring of **399 BC**, about a month after his trial (the sacred ship's voyage to Delos delayed it, as you read in 12.3). The method was **κώνειον**, poison hemlock, ground and mixed with water: an Athenian way of execution for citizens that the condemned drank himself. Plato's account of numbness rising from the feet matches, in the main, what is known of the plant's effects, though doctors still debate how gentle such a death can be.\n\nThe *Phaedo* is the dialogue of that last day. Most of it is argument: Socrates tries to prove to his Pythagorean friends Simmias and Cebes that the soul (ψυχή) is immortal, and ends with a myth of the world of the dead. Then he bathes, sends away his wife Xanthippe, his three sons and the women of the family, and drinks. **Phaedo** of Elis, a young man who had been a prisoner of war and a slave before Socrates' friends bought his freedom, tells the story to **Echecrates** at Phlius in the Peloponnese. Plato names himself only to say that he was ill and absent.\n\nThe public prison of Athens has been sought in the south-west corner of the Agora, where excavators found a building with cells and, in a cistern, thirteen small clay medicine bottles. Whether it is Socrates' prison is uncertain; the Agora Museum in the Stoa of Attalos displays the finds.",
+    "image": "phil-culture-6-hemlock"
+  },
+  "quiz": [
+    {
+      "type": "produce-form",
+      "prompt": "Give the nominative plural of δάκρυον: τὰ ___.",
+      "lemma": "δάκρυον",
+      "cell": "nom.pl",
+      "skills": [
+        "noun.decl2.neuter",
+        "vocab.production"
+      ],
+      "explain": "δάκρυα.",
+      "audio": "δάκρυα"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "καρτερέω means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "endure, hold out"
+        },
+        {
+          "id": "b",
+          "text": "weep"
+        },
+        {
+          "id": "c",
+          "text": "be ashamed"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition",
+        "vocab.phil"
+      ],
+      "explain": "καρτερέω: be steadfast."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἦ δ’ ὅς means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "said he"
+        },
+        {
+          "id": "b",
+          "text": "and he was"
+        },
+        {
+          "id": "c",
+          "text": "where he was"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.dialogue"
+      ],
+      "explain": "The narrator's 'said he'."
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἐξέπιεν.",
+      "form": "ἐξέπιεν",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "person": "3sg"
+      },
+      "skills": [
+        "verb.aor2.stem",
+        "verb.augment.compound"
+      ],
+      "explain": "ἐξ-έ-πιε(ν): second aorist of ἐκπίνω.",
+      "audio": "ἐξέπιεν"
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Κρίτων τὰ δάκρυα κατέχειν οὐχ οἷός τ’ ἦν.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἐπειδὴ οὐχ οἷός τ’ ἦν κατέχειν τὰ δάκρυα, ἐξανέστη."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἡσυχίαν τε ἄγετε καὶ καρτερεῖτε."
+        },
+        {
+          "id": "b",
+          "text": "ἡσυχίαν τε ἄγετε καὶ δακρύετε."
+        },
+        {
+          "id": "c",
+          "text": "τὴν κύλικα ἄγετε καὶ πίνετε."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "Keep quiet and be steadfast.",
+      "audio": "ἡσυχίαν τε ἄγετε καὶ καρτερεῖτε."
+    },
+    {
+      "type": "label",
+      "prompt": "ᾐσχύνθημεν is …",
+      "options": [
+        {
+          "id": "a",
+          "text": "aorist passive: 'we were ashamed'"
+        },
+        {
+          "id": "b",
+          "text": "aorist active: 'we shamed'"
+        },
+        {
+          "id": "c",
+          "text": "imperfect"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "verb.middle-meaning",
+        "vocab.phil"
+      ],
+      "explain": "αἰσχύνομαι 'feel ashamed' has an aorist passive, ᾐσχύνθην."
+    }
+  ],
+  "skills": [
+    "read.original",
+    "read.plato",
+    "read.comprehension",
+    "read.locate",
+    "read.phil.dialogue",
+    "syntax.imperative",
+    "syntax.opt-wish",
+    "syntax.opt-secondary",
+    "syntax.purpose",
+    "syntax.articular-inf",
+    "syntax.indirect-inf",
+    "syntax.infinitive",
+    "verb.aor2.stem",
+    "verb.augment.compound",
+    "verb.ptc.perf.act",
+    "verb.perf.reduplication",
+    "verb.contract.e",
+    "verb.middle-meaning",
+    "noun.decl3.sigma",
+    "noun.decl2.neuter",
+    "listen.words",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.phil",
+    "vocab.family"
+  ]
+}

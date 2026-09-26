@@ -1,0 +1,1323 @@
+{
+  "id": "3.4",
+  "title_grc": "εἰς τὴν ἀκρόπολιν",
+  "title_en": "Up to the Acropolis",
+  "summary_grc": "ὁ Ἀρίστων τοὺς παῖδας πρὸς τὴν ἀκρόπολιν ἄγει· τὸν νέον ναὸν καὶ τὸ ἄγαλμα τῆς θεᾶς ὁρῶσιν.",
+  "summary_en": "A family outing to the Acropolis: prepositions with the genitive, dative and accusative, and verbs built with a preposition in front.",
+  "cover": "panel-3-4-a",
+  "caption_grc": "πρὸς τὴν ἀκρόπολιν ἀναβαίνουσιν. ἀπὸ τῆς ἀκροπόλεως καταβαίνουσιν.",
+  "names": {
+    "Παρθενών": [
+      "Παρθενῶνος",
+      "Παρθενῶνι",
+      "Παρθενῶνα"
+    ],
+    "Προπύλαια": [
+      "Προπυλαίων",
+      "Προπυλαίοις"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "panel-3-4-a",
+      "sentences": [
+        {
+          "text": "ὁ Ἀρίστων τοὺς παῖδας πρὸς τὴν ἀκρόπολιν ἄγει.",
+          "glosses": [
+            {
+              "word": "πρὸς",
+              "kind": "pic",
+              "value": "diagram-prepositions"
+            },
+            {
+              "word": "ἀκρόπολιν",
+              "kind": "=",
+              "value": "πρὸς τὴν ἀκρόπολιν = towards, to (+ acc.)"
+            }
+          ]
+        },
+        {
+          "text": "βούλεται γὰρ τὸν νέον ναὸν ὁρᾶν.",
+          "glosses": [
+            {
+              "word": "νέον",
+              "kind": "|",
+              "value": "νέος | νέα | νέον (new)"
+            },
+            {
+              "word": "ναὸν",
+              "kind": "pic",
+              "value": "naos"
+            },
+            {
+              "word": "ὁρᾶν",
+              "kind": "|",
+              "value": "ὁρᾷ | ὁρᾶν (to see)"
+            }
+          ]
+        },
+        {
+          "text": "ἐκ τῆς οἰκίας ἐξέρχονται καὶ ἀπὸ τῆς ἀγορᾶς πρὸς τὴν ἀκρόπολιν βαίνουσιν.",
+          "glosses": [
+            {
+              "word": "ἐξέρχονται",
+              "kind": "<",
+              "value": "ἐκ + ἔρχομαι"
+            },
+            {
+              "word": "ἀπὸ",
+              "kind": "=",
+              "value": "ἀπὸ τῆς ἀγορᾶς = away from (+ gen.)"
+            }
+          ]
+        },
+        {
+          "text": "ἡ ὁδὸς ἀναβαίνει· οἱ παῖδες ταχέως ἀναβαίνουσιν, ὁ δὲ Ἀρίστων οὐ ταχέως.",
+          "glosses": [
+            {
+              "word": "ἀναβαίνει",
+              "kind": "<",
+              "value": "ἀνά (up) + βαίνω"
+            },
+            {
+              "word": "ταχέως",
+              "kind": "en",
+              "value": "quickly"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Λάβρος μετὰ τῶν παίδων τρέχει.",
+          "glosses": [
+            {
+              "word": "μετὰ",
+              "kind": "=",
+              "value": "μετὰ τῶν παίδων = with (+ gen.)"
+            },
+            {
+              "word": "παίδων",
+              "kind": "|",
+              "value": "οἱ παῖδες | μετὰ τῶν παίδων"
+            }
+          ]
+        },
+        {
+          "text": "πρὸς τὰς πύλας ἀφικνοῦνται· αἱ πύλαι μεγάλαι εἰσίν, καὶ ἄνθρωποι ἔτι ἐκεῖ πονοῦσιν· τὰ Προπύλαια νέα ἐστίν.",
+          "glosses": [
+            {
+              "word": "πύλας",
+              "kind": "pic",
+              "value": "pyle"
+            },
+            {
+              "word": "ἔτι",
+              "kind": "en",
+              "value": "still"
+            },
+            {
+              "word": "Προπύλαια",
+              "kind": "en",
+              "value": "the Propylaia, the gate-building of the Acropolis, still being built in 432 (τά: neuter plural, so ἐστίν)"
+            },
+            {
+              "word": "νέα",
+              "kind": "|",
+              "value": "νέος | νέα | νέον"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "panel-3-4-b",
+      "sentences": [
+        {
+          "text": "εἰς τὴν ἀκρόπολιν εἰσέρχονται.",
+          "glosses": [
+            {
+              "word": "εἰσέρχονται",
+              "kind": "<",
+              "value": "εἰς + ἔρχομαι"
+            }
+          ]
+        },
+        {
+          "text": "ἐπὶ τῆς ἀκροπόλεως πολλὰ ἱερά ἐστι καὶ πολλὰ ἀγάλματα.",
+          "glosses": [
+            {
+              "word": "ἐπὶ",
+              "kind": "=",
+              "value": "ἐπὶ τῆς ἀκροπόλεως = on (+ gen.)"
+            },
+            {
+              "word": "πολλὰ",
+              "kind": "en",
+              "value": "many (Unit 4)"
+            },
+            {
+              "word": "ἱερά",
+              "kind": "|",
+              "value": "τὸ ἱερόν | τὰ ἱερά (sanctuaries)"
+            },
+            {
+              "word": "ἀγάλματα",
+              "kind": "pic",
+              "value": "agalma"
+            }
+          ]
+        },
+        {
+          "text": "πρῶτον τὸ ἄγαλμα τῆς Ἀθηνᾶς ὁρῶσιν· μέγα ἐστὶ καὶ χαλκοῦν.",
+          "glosses": [
+            {
+              "word": "πρῶτον",
+              "kind": "en",
+              "value": "first"
+            },
+            {
+              "word": "ἄγαλμα",
+              "kind": "|",
+              "value": "τὸ ἄγαλμα | τὰ ἀγάλματα"
+            },
+            {
+              "word": "χαλκοῦν",
+              "kind": "en",
+              "value": "of bronze"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Λύσις πρὸς τὸ ἄγαλμα προσέρχεται καὶ λέγει· «ὡς μέγα ἐστὶ τὸ ἄγαλμα!»",
+          "glosses": [
+            {
+              "word": "προσέρχεται",
+              "kind": "<",
+              "value": "πρός + ἔρχομαι"
+            },
+            {
+              "word": "ὡς",
+              "kind": "en",
+              "value": "how …! (exclamation)"
+            }
+          ]
+        },
+        {
+          "text": "ἔπειτα πρὸς τὸν ναὸν βαίνουσιν· ὁ ναὸς ὁ νέος τῆς Ἀθηνᾶς ἐστιν, ὁ Παρθενών.",
+          "glosses": [
+            {
+              "word": "ἔπειτα",
+              "kind": "en",
+              "value": "then, next"
+            },
+            {
+              "word": "Παρθενών",
+              "kind": "en",
+              "value": "the Parthenon, finished six years before our story"
+            },
+            {
+              "word": "νέος",
+              "kind": "|",
+              "value": "νέος | νέα | νέον"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Ἀρίστων λέγει· «ἐν τῷ ναῷ ἄλλο ἄγαλμα τῆς θεᾶς ἐστιν, μέγα καὶ καλόν.»",
+          "glosses": []
+        },
+        {
+          "text": "εἰς τὸν ναὸν οὐκ εἰσέρχονται· ὁ γὰρ φύλαξ ἐπὶ τῇ θύρᾳ ἐστίν.",
+          "glosses": [
+            {
+              "word": "θύρᾳ",
+              "kind": "=",
+              "value": "ἐπὶ τῇ θύρᾳ = at, by (+ dat.)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "panel-3-4-c",
+      "sentences": [
+        {
+          "text": "ἔπειτα ἐπὶ τὸ τεῖχος ἀναβαίνουσι καὶ ἀπὸ τῆς ἀκροπόλεως τὴν πόλιν ὁρῶσιν.",
+          "glosses": [
+            {
+              "word": "τεῖχος",
+              "kind": "en",
+              "value": "wall (ἐπὶ τὸ τεῖχος = onto, + acc.)"
+            }
+          ]
+        },
+        {
+          "text": "τὴν ἀγορὰν ὁρῶσι καὶ τὸν Κεραμεικὸν καὶ τὴν θάλατταν καὶ τὸν Πειραιᾶ.",
+          "glosses": [
+            {
+              "word": "Πειραιᾶ",
+              "kind": "|",
+              "value": "ὁ Πειραιεύς | τὸν Πειραιᾶ"
+            }
+          ]
+        },
+        {
+          "text": "ἡ Ἐλπὶς μετὰ τοῦ Λύσιδος πρὸς τὸν Ἀρίστωνα προσέρχεται καὶ λέγει· «ὁρῶ τὴν θάλατταν!»",
+          "glosses": [
+            {
+              "word": "ὁρῶ",
+              "kind": "|",
+              "value": "ὁρᾷ | ὁρῶ (I see)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ Λάβρος ὑπὸ τῷ δένδρῳ τῆς θεᾶς καθεύδει.",
+          "glosses": [
+            {
+              "word": "ὑπὸ",
+              "kind": "en",
+              "value": "under (+ dat.)"
+            },
+            {
+              "word": "δένδρῳ",
+              "kind": "|",
+              "value": "τὸ δένδρον | ὑπὸ τῷ δένδρῳ (Athena's sacred olive)"
+            }
+          ]
+        },
+        {
+          "text": "ἔπειτα ἀπὸ τῆς ἀκροπόλεως καταβαίνουσιν· ἡ ὁδὸς καταβαίνει εἰς τὴν ἀγοράν.",
+          "glosses": [
+            {
+              "word": "καταβαίνουσιν",
+              "kind": "<",
+              "value": "κατά (down) + βαίνω"
+            }
+          ]
+        },
+        {
+          "text": "εἰς τὴν οἰκίαν πάλιν ἀφικνοῦνται· ἡ Χρυσὶς ἐκ τῆς οἰκίας ἐξέρχεται καὶ λέγει· «ἆρα τὸν νέον ναὸν ὁρᾶτε;»",
+          "glosses": [
+            {
+              "word": "ὁρᾶτε",
+              "kind": "|",
+              "value": "ὁρᾷ | ὁρᾶτε (you all …)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Λύσις· «ναί· μέγας ἐστὶ καὶ καλός.»",
+          "glosses": []
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "προς",
+      "pic": "diagram-prepositions",
+      "gloss_grc": "πρὸς τὴν ἀκρόπολιν →"
+    },
+    {
+      "id": "απο",
+      "pic": "diagram-prepositions",
+      "gloss_grc": "ἀπὸ τῆς ἀκροπόλεως ←"
+    },
+    {
+      "id": "επι",
+      "pic": "diagram-prepositions",
+      "gloss_grc": "ἐπὶ τῆς ἀκροπόλεως · ἐπὶ τῇ θύρᾳ · ἐπὶ τὸ τεῖχος"
+    },
+    {
+      "id": "μετα",
+      "pic": "diagram-prepositions",
+      "gloss_grc": "μετὰ τῶν παίδων"
+    },
+    {
+      "id": "αναβαινω",
+      "pic": "verb-anabainei",
+      "gloss_grc": "ἀνά + βαίνω · ↔ καταβαίνω"
+    },
+    {
+      "id": "καταβαινω",
+      "pic": "verb-katabainei",
+      "gloss_grc": "κατά + βαίνω · ↔ ἀναβαίνω"
+    },
+    {
+      "id": "εισερχομαι",
+      "pic": "verb-eiserchetai",
+      "gloss_grc": "εἰς + ἔρχομαι · ↔ ἐξέρχομαι"
+    },
+    {
+      "id": "εξερχομαι",
+      "pic": "verb-exerchetai",
+      "gloss_grc": "ἐκ + ἔρχομαι · ↔ εἰσέρχομαι"
+    },
+    {
+      "id": "προσερχομαι",
+      "pic": "verb-proserchetai",
+      "gloss_grc": "πρός + ἔρχομαι"
+    },
+    {
+      "id": "ναος",
+      "pic": "naos",
+      "gloss_grc": "ὁ ναὸς τῆς θεᾶς"
+    },
+    {
+      "id": "πυλη",
+      "pic": "pyle"
+    },
+    {
+      "id": "αγαλμα",
+      "pic": "agalma",
+      "gloss_grc": "τὸ ἄγαλμα · τοῦ ἀγάλματος"
+    }
+  ],
+  "notice": [
+    "πρὸς τὴν ἀκρόπολιν — ἀπὸ τῆς ἀκροπόλεως — ἐπὶ τῆς ἀκροπόλεως",
+    "ἐπὶ τῆς ἀκροπόλεως · ἐπὶ τῇ θύρᾳ · ἐπὶ τὸ τεῖχος",
+    "μετὰ τῶν παίδων · μετὰ τοῦ Λύσιδος",
+    "εἰς τὴν ἀκρόπολιν εἰσέρχονται. — ἐκ τῆς οἰκίας ἐξέρχεται. — πρὸς τὸ ἄγαλμα προσέρχεται.",
+    "ἀναβαίνουσιν ↔ καταβαίνουσιν"
+  ],
+  "grammar": {
+    "md": "**Prepositions and their cases.** You already use ἐν + dative, εἰς + accusative and ἐκ + genitive. The pattern behind them runs through the whole language: **genitive** for *away from*, **dative** for *at rest, position*, **accusative** for *motion towards*.\n\n| | + genitive | + dative | + accusative |\n|---|---|---|---|\n| ἐν | | in | |\n| εἰς | | | into, to |\n| ἐκ / ἐξ | out of | | |\n| **ἀπό** | away from: ἀπὸ τῆς ἀγορᾶς | | |\n| **πρός** | | | towards, to: πρὸς τὴν ἀκρόπολιν |\n| **μετά** | with: μετὰ τῶν παίδων | | (after — Unit 6) |\n| **ἐπί** | on: ἐπὶ τῆς ἀκροπόλεως | at, by: ἐπὶ τῇ θύρᾳ | onto, up to: ἐπὶ τὸ τεῖχος |\n| ὑπό | | under: ὑπὸ τῷ δένδρῳ | |\n\nἐπί is the best example: one preposition, three cases, three shades of meaning. ἐκ becomes ἐξ before a vowel (ἐξ ἀγορᾶς), and ἀπό, μετά, ἐπί, ὑπό drop their final vowel before one (ἀπ' οἴκου, μετ' αὐτοῦ). Prepositions never take an accent-shift onto the article: ἀπὸ τῆς, πρὸς τήν.\n\n**Compound verbs.** A preposition can be glued to the front of a verb: ἀνα-βαίνω *go up*, κατα-βαίνω *go down*, εἰσ-έρχομαι *go in*, ἐξ-έρχομαι *go out* (ἐκ → ἐξ before the vowel), προσ-έρχομαι *approach*. The verb part conjugates exactly as before: ἀναβαίνει, ἀναβαίνουσιν; εἰσέρχεται, εἰσέρχονται. Greek likes to repeat the preposition after the verb: **εἰς** τὴν ἀκρόπολιν **εἰσ**έρχονται, **ἐκ** τῆς οἰκίας **ἐξ**έρχεται, **πρὸς** τὸ ἄγαλμα **προσ**έρχεται.\n\n**Neuter plural, singular verb.** τὰ Προπύλαια νέα ἐστίν; πολλὰ ἱερά ἐστι. A neuter plural subject takes a singular verb.\n\n**Exclamations with ὡς**: ὡς μέγα ἐστίν! 'how big it is!'.",
+    "paradigms": [
+      "article"
+    ],
+    "diagram": "diagram-prepositions"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings after the prepositions.",
+      "template": "ὁ Ἀρίστων πρὸς τὴν ἀκρόπολ___ βαίνει. ἀπὸ τῆς ἀγορ___ βαίνουσιν. ὁ Λάβρος μετὰ τῶν παίδ___ τρέχει. ἐπὶ τῆς ἀκροπόλ___ πολλὰ ἀγάλματά ἐστιν.",
+      "gaps": [
+        {
+          "answers": [
+            "ιν"
+          ]
+        },
+        {
+          "answers": [
+            "ᾶς",
+            "ας"
+          ]
+        },
+        {
+          "answers": [
+            "ων"
+          ]
+        },
+        {
+          "answers": [
+            "εως"
+          ]
+        }
+      ],
+      "skills": [
+        "prep.pros.acc",
+        "prep.apo.gen",
+        "prep.meta",
+        "prep.epi"
+      ],
+      "explain": "πρὸς τὴν ἀκρόπολιν (accusative), ἀπὸ τῆς ἀγορᾶς (genitive), μετὰ τῶν παίδων (genitive), ἐπὶ τῆς ἀκροπόλεως (genitive: on)."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ὁ Λάβρος ___ τῶν παίδων τρέχει.",
+      "options": [
+        {
+          "id": "a",
+          "text": "μετά"
+        },
+        {
+          "id": "b",
+          "text": "πρός"
+        },
+        {
+          "id": "c",
+          "text": "εἰς"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "prep.meta",
+        "prep.review"
+      ],
+      "explain": "τῶν παίδων is genitive, and the sense is 'with': μετά.",
+      "audio": "ὁ Λάβρος μετὰ τῶν παίδων τρέχει."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ___ τῆς ἀκροπόλεως καταβαίνουσιν.",
+      "options": [
+        {
+          "id": "a",
+          "text": "πρός"
+        },
+        {
+          "id": "b",
+          "text": "ἀπό"
+        },
+        {
+          "id": "c",
+          "text": "εἰς"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "prep.apo.gen",
+        "prep.review"
+      ],
+      "explain": "Genitive, motion away: ἀπὸ τῆς ἀκροπόλεως.",
+      "audio": "ἀπὸ τῆς ἀκροπόλεως καταβαίνουσιν."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · εἰς τὴν ἀκρόπολιν ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "εἰσέρχονται"
+        },
+        {
+          "id": "b",
+          "text": "ἐξέρχονται"
+        },
+        {
+          "id": "c",
+          "text": "καταβαίνουσιν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "verb.compound",
+        "prep.eis.acc"
+      ],
+      "explain": "εἰς … εἰσέρχονται: they go in.",
+      "audio": "εἰς τὴν ἀκρόπολιν εἰσέρχονται."
+    },
+    {
+      "type": "pick-picture",
+      "prompt": "ἀναβαίνει",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "image": "verb-katabainei"
+        },
+        {
+          "id": "b",
+          "image": "verb-anabainei"
+        },
+        {
+          "id": "c",
+          "image": "verb-eiserchetai"
+        },
+        {
+          "id": "d",
+          "image": "verb-exerchetai"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "vocab.recognition",
+        "verb.compound"
+      ],
+      "explain": "ἀναβαίνει: goes up. καταβαίνει: goes down. εἰσέρχεται: goes in. ἐξέρχεται: goes out."
+    },
+    {
+      "type": "pick-picture",
+      "prompt": "ναός",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "image": "pyle"
+        },
+        {
+          "id": "b",
+          "image": "agalma"
+        },
+        {
+          "id": "c",
+          "image": "naos"
+        },
+        {
+          "id": "d",
+          "image": "bomos"
+        }
+      ],
+      "answer": "c",
+      "skills": [
+        "vocab.recognition"
+      ],
+      "explain": "ναός: temple. πύλη: gate. ἄγαλμα: statue. βωμός: altar."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the accusative singular of ναός (πρὸς τὸν …).",
+      "lemma": "ναός",
+      "cell": "acc.sg",
+      "skills": [
+        "noun.decl2.acc.sg",
+        "prep.pros.acc"
+      ],
+      "explain": "πρὸς τὸν ναόν.",
+      "audio": "ναόν"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the accusative plural of πύλη (πρὸς τὰς …).",
+      "lemma": "πύλη",
+      "cell": "acc.pl",
+      "skills": [
+        "noun.decl1.acc.pl",
+        "prep.pros.acc"
+      ],
+      "explain": "πρὸς τὰς πύλας.",
+      "audio": "πύλας"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the form of εἰσέρχομαι for 'they go in'.",
+      "lemma": "εἰσέρχομαι",
+      "cell": "present.middle.indicative.3pl",
+      "skills": [
+        "verb.compound",
+        "verb.pres.mp.ind.3pl"
+      ],
+      "explain": "εἰσέρχονται.",
+      "audio": "εἰσέρχονται"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἀγάλματος.",
+      "form": "ἀγάλματος",
+      "groups": [
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            }
+          ]
+        },
+        {
+          "id": "number",
+          "label": "Number",
+          "options": [
+            {
+              "id": "sg",
+              "label": "singular"
+            },
+            {
+              "id": "pl",
+              "label": "plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "case": "gen",
+        "number": "sg"
+      },
+      "skills": [
+        "noun.decl3.cons.gen.sg",
+        "noun.decl3.recognize"
+      ],
+      "explain": "ἄγαλμα, ἀγάλματος: a third-declension neuter (stem ἀγαλματ-); -ος is the genitive singular.",
+      "audio": "ἀγάλματος"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἐξέρχεται.",
+      "form": "ἐξέρχεται",
+      "groups": [
+        {
+          "id": "person",
+          "label": "Who?",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "I"
+            },
+            {
+              "id": "2sg",
+              "label": "you (one)"
+            },
+            {
+              "id": "3sg",
+              "label": "he / she / it"
+            },
+            {
+              "id": "1pl",
+              "label": "we"
+            },
+            {
+              "id": "2pl",
+              "label": "you (several)"
+            },
+            {
+              "id": "3pl",
+              "label": "they"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "person": "3sg"
+      },
+      "skills": [
+        "verb.compound",
+        "verb.pres.mp.ind.3sg"
+      ],
+      "explain": "-εται: he or she goes out (ἐκ + ἔρχομαι).",
+      "audio": "ἐξέρχεται"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ὁ Λύσις πρὸς ___ ἄγαλμα προσέρχεται.",
+      "options": [
+        {
+          "id": "a",
+          "text": "τό"
+        },
+        {
+          "id": "b",
+          "text": "τοῦ"
+        },
+        {
+          "id": "c",
+          "text": "τῷ"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "prep.pros.acc",
+        "art.acc.sg"
+      ],
+      "explain": "πρός takes the accusative: πρὸς τὸ ἄγαλμα."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἀπὸ ___ ἀκροπόλεως καταβαίνουσιν.",
+      "options": [
+        {
+          "id": "a",
+          "text": "τῆς"
+        },
+        {
+          "id": "b",
+          "text": "τήν"
+        },
+        {
+          "id": "c",
+          "text": "τῇ"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "prep.apo.gen",
+        "art.gen.sg"
+      ],
+      "explain": "ἀπό takes the genitive: ἀπὸ τῆς ἀκροπόλεως."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ὁ φύλαξ ἐπὶ ___ θύρᾳ ἐστίν.",
+      "options": [
+        {
+          "id": "a",
+          "text": "τῆς"
+        },
+        {
+          "id": "b",
+          "text": "τῇ"
+        },
+        {
+          "id": "c",
+          "text": "τήν"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "prep.epi",
+        "art.dat.sg"
+      ],
+      "explain": "θύρᾳ is dative, so ἐπί means 'at, by': ἐπὶ τῇ θύρᾳ."
+    },
+    {
+      "type": "transform",
+      "prompt": "Put it after πρός: ἡ ἀκρόπολις → πρὸς …",
+      "template": "πρὸς ___",
+      "gaps": [
+        {
+          "answers": [
+            "τὴν ἀκρόπολιν"
+          ]
+        }
+      ],
+      "skills": [
+        "prep.pros.acc"
+      ],
+      "explain": "πρὸς τὴν ἀκρόπολιν.",
+      "audio": "πρὸς τὴν ἀκρόπολιν"
+    },
+    {
+      "type": "transform",
+      "prompt": "Put it after ἀπό: ὁ ναός → ἀπὸ …",
+      "template": "ἀπὸ ___",
+      "gaps": [
+        {
+          "answers": [
+            "τοῦ ναοῦ"
+          ]
+        }
+      ],
+      "skills": [
+        "prep.apo.gen",
+        "noun.decl2.gen.sg"
+      ],
+      "explain": "ἀπὸ τοῦ ναοῦ.",
+      "audio": "ἀπὸ τοῦ ναοῦ"
+    },
+    {
+      "type": "transform",
+      "prompt": "Put it after μετά: οἱ παῖδες → μετὰ …",
+      "template": "μετὰ ___",
+      "gaps": [
+        {
+          "answers": [
+            "τῶν παίδων"
+          ]
+        }
+      ],
+      "skills": [
+        "prep.meta",
+        "noun.decl3.cons.pl"
+      ],
+      "explain": "μετὰ τῶν παίδων.",
+      "audio": "μετὰ τῶν παίδων"
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap every preposition.",
+      "sentence": "ἐκ τῆς οἰκίας ἐξέρχονται καὶ ἀπὸ τῆς ἀγορᾶς πρὸς τὴν ἀκρόπολιν βαίνουσιν.",
+      "answer": [
+        0,
+        5,
+        8
+      ],
+      "skills": [
+        "read.locate",
+        "prep.review"
+      ],
+      "explain": "ἐκ, ἀπό, πρός."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the two compound verbs (preposition + verb).",
+      "sentence": "εἰς τὴν ἀκρόπολιν εἰσέρχονται· ὁ Λύσις πρὸς τὸ ἄγαλμα προσέρχεται.",
+      "answer": [
+        3,
+        9
+      ],
+      "skills": [
+        "read.locate",
+        "verb.compound"
+      ],
+      "explain": "εἰσέρχονται (εἰς + ἔρχονται), προσέρχεται (πρός + ἔρχεται)."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'They go down from the Acropolis into the agora.'",
+      "tokens": [
+        "καταβαίνουσιν",
+        "ἀπὸ",
+        "τῆς",
+        "εἰς",
+        "τὴν",
+        "ἀκροπόλεως",
+        "ἀγορὰν"
+      ],
+      "answers": [
+        "ἀπὸ τῆς ἀκροπόλεως εἰς τὴν ἀγορὰν καταβαίνουσιν",
+        "καταβαίνουσιν ἀπὸ τῆς ἀκροπόλεως εἰς τὴν ἀγορὰν",
+        "ἀπὸ τῆς ἀκροπόλεως καταβαίνουσιν εἰς τὴν ἀγορὰν"
+      ],
+      "skills": [
+        "syntax.word-order",
+        "prep.apo.gen",
+        "prep.eis.acc"
+      ],
+      "explain": "ἀπὸ τῆς ἀκροπόλεως εἰς τὴν ἀγορὰν καταβαίνουσιν."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "audio": "ὁ Λάβρος μετὰ τῶν παίδων τρέχει.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ Λάβρος μετὰ τῶν παίδων τρέχει."
+        },
+        {
+          "id": "b",
+          "text": "ὁ Λάβρος πρὸς τοὺς παῖδας τρέχει."
+        },
+        {
+          "id": "c",
+          "text": "ὁ Λάβρος ἀπὸ τῶν παίδων φεύγει."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences",
+        "prep.meta"
+      ],
+      "explain": "Labros runs with the children."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Λάβρος ὑπὸ τῷ δένδρῳ καθεύδει.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ὁ δὲ Λάβρος ὑπὸ τῷ δένδρῳ τῆς θεᾶς καθεύδει."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "εἰς τὸν ναὸν εἰσέρχονται.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension",
+        "verb.compound"
+      ],
+      "explain": "εἰς τὸν ναὸν οὐκ εἰσέρχονται· ὁ γὰρ φύλαξ ἐπὶ τῇ θύρᾳ ἐστίν."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ἡ Ἐλπὶς ἀπὸ τῆς ἀκροπόλεως τὴν θάλατταν ὁρᾷ.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension",
+        "prep.apo.gen"
+      ],
+      "explain": "«ὁρῶ τὴν θάλατταν!»"
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "audio": "πρὸς τὴν ἀκρόπολιν ἀναβαίνουσιν.",
+      "gaps": [
+        {
+          "answers": [
+            "πρὸς τὴν ἀκρόπολιν ἀναβαίνουσιν",
+            "πρὸς τὴν ἀκρόπολιν ἀναβαίνουσι"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "πρὸς τὴν ἀκρόπολιν ἀναβαίνουσιν."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'Lysis goes up to the Acropolis.'",
+      "gaps": [
+        {
+          "answers": [
+            "ὁ Λύσις πρὸς τὴν ἀκρόπολιν ἀναβαίνει",
+            "ὁ Λύσις εἰς τὴν ἀκρόπολιν ἀναβαίνει",
+            "ὁ Λύσις ἐπὶ τὴν ἀκρόπολιν ἀναβαίνει",
+            "ὁ Λύσις ἀναβαίνει πρὸς τὴν ἀκρόπολιν",
+            "ὁ Λύσις ἀναβαίνει εἰς τὴν ἀκρόπολιν",
+            "ὁ Λύσις ἀναβαίνει ἐπὶ τὴν ἀκρόπολιν",
+            "πρὸς τὴν ἀκρόπολιν ὁ Λύσις ἀναβαίνει"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "verb.compound",
+        "prep.pros.acc"
+      ],
+      "explain": "ὁ Λύσις πρὸς τὴν ἀκρόπολιν ἀναβαίνει."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'The dog is running with the children.'",
+      "gaps": [
+        {
+          "answers": [
+            "ὁ κύων μετὰ τῶν παίδων τρέχει",
+            "ὁ κύων τρέχει μετὰ τῶν παίδων",
+            "μετὰ τῶν παίδων ὁ κύων τρέχει"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "prep.meta",
+        "noun.decl3.cons.pl"
+      ],
+      "explain": "ὁ κύων μετὰ τῶν παίδων τρέχει."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: ἐπὶ τῆς ἀκροπόλεως πολλὰ ἱερά ἐστι καὶ πολλὰ ἀγάλματα.",
+      "audio": "ἐπὶ τῆς ἀκροπόλεως πολλὰ ἱερά ἐστι καὶ πολλὰ ἀγάλματα.",
+      "model": "On the Acropolis there are many sanctuaries and many statues.",
+      "skills": [
+        "read.comprehension",
+        "prep.epi",
+        "verb.neuter-plural"
+      ],
+      "explain": "ἐπί + genitive 'on'; neuter plural subjects (ἱερά, ἀγάλματα) take a singular verb (ἐστι)."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "ἀναβαίνω",
+          "right": "Anabasis (Xenophon's march up-country)"
+        },
+        {
+          "left": "πύλη",
+          "right": "Thermopylae (hot gates)"
+        },
+        {
+          "left": "ἐπί",
+          "right": "epidermis (on the skin)"
+        },
+        {
+          "left": "μετά",
+          "right": "metaphysics (after the Physics)"
+        },
+        {
+          "left": "πρός",
+          "right": "prosthesis (something put to)"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "ἀνά-βασις 'going up'; Θερμο-πύλαι; ἐπι-δερμίς; μετὰ τὰ φυσικά; πρόσ-θεσις."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "ποῖ ἄγει ὁ Ἀρίστων τοὺς παῖδας; (ποῖ = where to?)",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "πρὸς τὴν ἀκρόπολιν."
+        },
+        {
+          "id": "b",
+          "text": "πρὸς τὴν θάλατταν."
+        },
+        {
+          "id": "c",
+          "text": "εἰς τὸ ἐργαστήριον."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "prep.pros.acc"
+      ],
+      "explain": "ὁ Ἀρίστων τοὺς παῖδας πρὸς τὴν ἀκρόπολιν ἄγει."
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί βούλεται ὁ Ἀρίστων ὁρᾶν;",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "τὴν κρήνην."
+        },
+        {
+          "id": "b",
+          "text": "τὸν νέον ναόν."
+        },
+        {
+          "id": "c",
+          "text": "τοὺς νεανίας."
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "read.comprehension",
+        "syntax.infinitive"
+      ],
+      "explain": "βούλεται γὰρ τὸν νέον ναὸν ὁρᾶν."
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "ποῦ ἐστιν ὁ φύλαξ;",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐπὶ τῇ θύρᾳ τοῦ ναοῦ."
+        },
+        {
+          "id": "b",
+          "text": "ἐπὶ τῷ τείχει."
+        },
+        {
+          "id": "c",
+          "text": "ἐν τῇ ἀγορᾷ."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "prep.epi"
+      ],
+      "explain": "ὁ γὰρ φύλαξ ἐπὶ τῇ θύρᾳ ἐστίν."
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίς ὑπὸ τῷ δένδρῳ καθεύδει;",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ Ἀρίστων."
+        },
+        {
+          "id": "b",
+          "text": "ἡ Ἐλπίς."
+        },
+        {
+          "id": "c",
+          "text": "ὁ Λάβρος."
+        }
+      ],
+      "answer": "c",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ὁ δὲ Λάβρος ὑπὸ τῷ δένδρῳ τῆς θεᾶς καθεύδει."
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "ἆρα εἰς τὸν ναὸν εἰσέρχονται;",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "ναί, εἰσέρχονται."
+        },
+        {
+          "id": "b",
+          "text": "οὐκ εἰσέρχονται· ὁ γὰρ φύλαξ ἐπὶ τῇ θύρᾳ ἐστίν."
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "read.comprehension",
+        "verb.compound"
+      ],
+      "explain": "εἰς τὸν ναὸν οὐκ εἰσέρχονται."
+    }
+  ],
+  "culture": {
+    "title": "The Acropolis in 432 BC",
+    "md": "What Lysis and Elpis saw was almost new. The Persians had burnt the Acropolis in 480, and for a generation the Athenians left the ruins as they were. Then, from 447, Pericles' building programme covered the rock with marble. The **Parthenon** was structurally complete by 438, when Pheidias' gold-and-ivory Athena Parthenos, twelve metres high, was set up inside it; the last of its pediment sculptures were being put in place in the very summer of our story. The **Propylaia**, the monumental gate-building by the architect Mnesikles, had been under construction since 437; work stopped when the war began in 431 and it was never finished — the unfinished lifting bosses are still on its walls today. Just inside the gate stood Pheidias' earlier **bronze Athena**, some nine metres tall, spear-tip glinting so that sailors rounding Sounion could see it.\n\nOne thing the new marble was not: the Parthenon was not the temple where the goddess was worshipped. Athena Polias, the guardian of the city, lived in her ancient olive-wood statue, kept in the old temple north of the Parthenon beside her sacred olive tree; the robe woven for the Panathenaia went to *that* image, and the building we call the Erechtheion would not be begun for another decade. The Parthenon, with its treasury and its colossal statue, was a votive gift on the grandest scale, a statement of what the city and its empire could afford. Ariston, who fired pots for a living, would have known exactly how much marble, gold and labour he was looking at.",
+    "image": "culture-acropolis-432"
+  },
+  "quiz": [
+    {
+      "type": "cloze-choice",
+      "prompt": "οἱ παῖδες ___ τὴν ἀκρόπολιν ἀναβαίνουσιν.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἀπό"
+        },
+        {
+          "id": "b",
+          "text": "πρός"
+        },
+        {
+          "id": "c",
+          "text": "μετά"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "prep.pros.acc"
+      ],
+      "explain": "Accusative, motion towards: πρὸς τὴν ἀκρόπολιν."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ὁ Λάβρος μετὰ ___ παίδων τρέχει.",
+      "options": [
+        {
+          "id": "a",
+          "text": "τῶν"
+        },
+        {
+          "id": "b",
+          "text": "τούς"
+        },
+        {
+          "id": "c",
+          "text": "τοῖς"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "prep.meta",
+        "art.gen.pl"
+      ],
+      "explain": "μετά 'with' takes the genitive: μετὰ τῶν παίδων."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the form of καταβαίνω for 'they go down'.",
+      "lemma": "καταβαίνω",
+      "cell": "present.active.indicative.3pl",
+      "skills": [
+        "verb.compound",
+        "verb.pres.act.ind.3pl"
+      ],
+      "explain": "καταβαίνουσι(ν).",
+      "audio": "καταβαίνουσιν"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἐκ τῆς οἰκίας ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "εἰσέρχεται"
+        },
+        {
+          "id": "b",
+          "text": "ἐξέρχεται"
+        },
+        {
+          "id": "c",
+          "text": "προσέρχεται"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "verb.compound",
+        "prep.ek.gen"
+      ],
+      "explain": "ἐκ … ἐξέρχεται: comes out of the house."
+    },
+    {
+      "type": "pick-picture",
+      "prompt": "ἄγαλμα",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "image": "agalma"
+        },
+        {
+          "id": "b",
+          "image": "naos"
+        },
+        {
+          "id": "c",
+          "image": "pyle"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition"
+      ],
+      "explain": "ἄγαλμα: statue."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Παρθενὼν ὁ νέος ναὸς τῆς Ἀθηνᾶς ἐστιν.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ὁ ναὸς ὁ νέος τῆς Ἀθηνᾶς ἐστιν, ὁ Παρθενών."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'They go into the temple.'",
+      "gaps": [
+        {
+          "answers": [
+            "εἰς τὸν ναὸν εἰσέρχονται",
+            "εἰσέρχονται εἰς τὸν ναὸν",
+            "εἰς τὸν ναὸν ἔρχονται",
+            "εἰς τὸν ναὸν βαίνουσιν",
+            "εἰς τὸν ναὸν βαίνουσι"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "verb.compound",
+        "prep.eis.acc"
+      ],
+      "explain": "εἰς τὸν ναὸν εἰσέρχονται."
+    }
+  ],
+  "skills": [
+    "prep.pros.acc",
+    "prep.apo.gen",
+    "prep.meta",
+    "prep.epi",
+    "prep.review",
+    "prep.eis.acc",
+    "prep.ek.gen",
+    "verb.compound",
+    "verb.neuter-plural",
+    "verb.pres.mp.ind.3sg",
+    "verb.pres.mp.ind.3pl",
+    "noun.decl3.cons.gen.sg",
+    "noun.decl3.cons.pl",
+    "syntax.infinitive",
+    "syntax.word-order",
+    "read.comprehension",
+    "read.locate",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.family"
+  ]
+}

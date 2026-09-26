@@ -1,0 +1,1490 @@
+{
+ "id": "myth.3",
+ "title_grc": "Ἡ Δανάη καὶ ὁ Περσεύς",
+ "title_en": "Danae and Perseus",
+ "summary_grc": "ὁ Ἀκρίσιος τὸν χρησμὸν δείσας τὴν θυγατέρα ἐν θαλάμῳ χαλκῷ φρουρεῖ· ὕστερον δὲ αὐτὴν μετὰ τοῦ Περσέως εἰς λάρνακα βαλὼν εἰς τὴν θάλατταν ῥίπτει.",
+ "summary_en": "Elpis asks for a story about the sea. Kleinias tells of an oracle, a bronze chamber, a shower of gold, a mother and baby set adrift in a chest, and the task that sent Perseus after the Gorgon's head. Adapted from Apollodorus 2.4.1–2.",
+ "cover": "myth-3-b",
+ "caption_grc": "τὴν θυγατέρα μετὰ τοῦ παιδὸς εἰς λάρνακα βαλὼν εἰς τὴν θάλατταν ἔρριψεν.",
+ "original": {
+  "text": "apollod-2.4.1",
+  "note": "Apollodorus, Library 2.4.1–2 (to Polydectes' demand), adapted in paragraphs 1–3; the last lines of the story, the Gorgon and the end of the oracle, summarise the rest of 2.4.2–4. Apollodorus wrote in the 1st or 2nd century AD. He gives two versions of how Danae became pregnant: watch for ὡς ἔνιοι λέγουσιν … ὡς δὲ ἔνιοί φασι."
+ },
+ "names": {
+  "Ἀκρίσιος": [
+   "Ἀκρισίου",
+   "Ἀκρισίῳ",
+   "Ἀκρίσιον"
+  ],
+  "Δανάη": [
+   "Δανάης",
+   "Δανάῃ",
+   "Δανάην"
+  ],
+  "Περσεύς": [
+   "Περσέως",
+   "Περσεῖ",
+   "Περσέα",
+   "Περσεῦ"
+  ],
+  "Προῖτος": [
+   "Προίτου",
+   "Προίτῳ",
+   "Προῖτον"
+  ],
+  "Δίκτυς": [
+   "Δίκτυος",
+   "Δίκτυι",
+   "Δίκτυν"
+  ],
+  "Πολυδέκτης": [
+   "Πολυδέκτου",
+   "Πολυδέκτῃ",
+   "Πολυδέκτην"
+  ],
+  "Σέριφος": [
+   "Σερίφου",
+   "Σερίφῳ",
+   "Σέριφον"
+  ],
+  "Γοργώ": [
+   "Γοργοῦς",
+   "Γοργόνος",
+   "Γοργόνι",
+   "Γοργόνα",
+   "Γοργόνες",
+   "Γοργόνων",
+   "Γοργόσι",
+   "Γοργόνας"
+  ],
+  "Μέδουσα": [
+   "Μεδούσης",
+   "Μεδούσῃ",
+   "Μέδουσαν"
+  ],
+  "Ἄργος": [
+   "Ἄργους",
+   "Ἄργει"
+  ],
+  "Δελφοί": [
+   "Δελφῶν",
+   "Δελφοῖς",
+   "Δελφούς"
+  ]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "myth-3-a",
+   "sentences": [
+    {
+     "text": "ἑσπέρας ἡ Ἐλπὶς εἶπεν· «ὦ πάππε, λέγε μοι μῦθον περὶ τῆς θαλάττης.»"
+    },
+    {
+     "text": "ὁ δὲ Κλεινίας· «ἄκουε οὖν μῦθον περὶ θαλάττης καὶ χρησμοῦ.»",
+     "glosses": [
+      {
+       "word": "χρησμοῦ",
+       "kind": "en",
+       "value": "ὁ χρησμός: an oracle, the answer a god gives"
+      }
+     ]
+    },
+    {
+     "text": "«Ἀκρίσιος, ὁ τοῦ Ἄργους βασιλεύς, υἱὸν μὲν οὐκ εἶχεν, θυγατέρα δὲ μίαν, τὴν Δανάην.»"
+    },
+    {
+     "text": "«πέμψας οὖν εἰς τὸ ἐν Δελφοῖς μαντεῖον περὶ παίδων ἠρώτησεν.»",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "μαντεῖον",
+       "kind": "en",
+       "value": "τὸ μαντεῖον: an oracle, the god's seat (at Delphi, Apollo's)"
+      }
+     ]
+    },
+    {
+     "text": "«ὁ δὲ θεὸς ἔφη παῖδα ἐκ τῆς θυγατρὸς γενήσεσθαι, ὃς αὐτὸν ἀποκτενεῖ.»",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "ἔφη",
+       "kind": "note",
+       "value": "ἔφη + infinitive: 'said that a child would be born' (indirect statement, Unit 9)"
+      },
+      {
+       "word": "ἀποκτενεῖ",
+       "kind": "|",
+       "value": "ἀποκτείνω (kill) | ἀποκτενεῖ (future: will kill)"
+      }
+     ]
+    },
+    {
+     "text": "«τοῦτον δὲ τὸν χρησμὸν δείσας ὁ Ἀκρίσιος ὑπὸ γῆν θάλαμον χαλκοῦν κατεσκεύασεν, καὶ ἐκεῖ τὴν Δανάην ἐφρούρει.»",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "δείσας",
+       "kind": "|",
+       "value": "δέδοικα (I fear) | ἔδεισα | δείσας (aorist participle: having feared, in fear of)"
+      },
+      {
+       "word": "θάλαμον",
+       "kind": "en",
+       "value": "ὁ θάλαμος: an inner room, a chamber"
+      },
+      {
+       "word": "χαλκοῦν",
+       "kind": "<",
+       "value": "ὁ χαλκός (bronze) | χαλκοῦς, -ῆ, -οῦν (made of bronze)"
+      },
+      {
+       "word": "κατεσκεύασεν",
+       "kind": "en",
+       "value": "built, made ready (κατασκευάζω)"
+      },
+      {
+       "word": "ἐφρούρει",
+       "kind": "=",
+       "value": "ἐφύλαττεν (φρουρέω, imperfect)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "myth-3-b",
+   "sentences": [
+    {
+     "text": "«ὡς μὲν ἔνιοι λέγουσιν, Προῖτος, ἀνὴρ θνητός, τῆς Δανάης ἤρα·»",
+     "orig": [
+      2
+     ],
+     "glosses": [
+      {
+       "word": "ἔνιοι",
+       "kind": "en",
+       "value": "some (people)"
+      },
+      {
+       "word": "θνητός",
+       "kind": "↔",
+       "value": "ἀθάνατος | θνητός (mortal)"
+      }
+     ]
+    },
+    {
+     "text": "«ὡς δὲ ἔνιοί φασιν, οὐ θνητὸς ἀλλὰ θεὸς ἀθάνατος, ὁ Ζεύς, εἰς χρυσὸν μεταμορφωθεὶς διὰ τῆς ὀροφῆς εἰς τὸν θάλαμον εἰσερρύη.»",
+     "orig": [
+      3
+     ],
+     "glosses": [
+      {
+       "word": "ἔνιοί",
+       "kind": "note",
+       "value": "ἔνιοί φασιν: an enclitic (φασιν) throws a second accent back onto ἔνιοι"
+      },
+      {
+       "word": "ἀθάνατος",
+       "kind": "<",
+       "value": "ἀ- (not) + θάνατος (death) | ἀθάνατος (immortal)"
+      },
+      {
+       "word": "χρυσὸν",
+       "kind": "en",
+       "value": "gold (ὁ χρυσός)"
+      },
+      {
+       "word": "μεταμορφωθεὶς",
+       "kind": "en",
+       "value": "having changed his shape (μεταμορφόομαι: metamorphosis)"
+      },
+      {
+       "word": "ὀροφῆς",
+       "kind": "en",
+       "value": "roof (ἡ ὀροφή)"
+      },
+      {
+       "word": "εἰσερρύη",
+       "kind": "<",
+       "value": "εἰς + ῥέω (flow) | εἰσερρύη (flowed in: aorist ἐρρύην)"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Ἐλπὶς ἐθαύμασεν· «ἆρα ἀληθῶς χρυσὸς ἐγένετο ὁ Ζεύς;» ὁ δὲ Κλεινίας· «οὕτω λέγουσιν. ἐκ τούτου δὲ ἡ Δανάη υἱὸν ἔτεκε, τὸν Περσέα.»",
+     "orig": [
+      4
+     ],
+     "glosses": [
+      {
+       "word": "οὕτω",
+       "kind": "=",
+       "value": "οὕτως (in this way, so)"
+      }
+     ]
+    },
+    {
+     "text": "«ὁ δὲ Ἀκρίσιος οὐκ ἐπίστευεν ὅτι ὁ παῖς τοῦ Διὸς ἦν. αὐτὸς μὲν οὐκ ἀπέκτεινεν αὐτούς·»",
+     "orig": [
+      4
+     ]
+    },
+    {
+     "text": "«τὴν δὲ θυγατέρα μετὰ τοῦ παιδὸς εἰς λάρνακα βαλὼν εἰς τὴν θάλατταν ἔρριψεν.»",
+     "orig": [
+      4
+     ],
+     "glosses": [
+      {
+       "word": "λάρνακα",
+       "kind": "pic",
+       "value": "myth-larnax"
+      },
+      {
+       "word": "ἔρριψεν",
+       "kind": "|",
+       "value": "ῥίπτω (throw) | ἔρριψε(ν) (aorist: threw; note the double ρ after the augment)"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Ἐλπὶς ἐφοβήθη· «τὴν ἰδίαν θυγατέρα εἰς τὴν θάλατταν ἔρριψεν; δέδοικα περὶ αὐτῶν. ἆρα ἀπέθανον;»",
+     "glosses": [
+      {
+       "word": "δέδοικα",
+       "kind": "=",
+       "value": "φοβοῦμαι (a perfect with present meaning: I am afraid)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "myth-3-c",
+   "sentences": [
+    {
+     "text": "«οὐκ ἀπέθανον. ἡ γὰρ λάρναξ πρὸς τὴν Σέριφον τὴν νῆσον ἠνέχθη, καὶ Δίκτυς, ἀνὴρ ἀγαθός, τὸν παῖδα ἔθρεψεν.»",
+     "orig": [
+      5
+     ],
+     "glosses": [
+      {
+       "word": "ἠνέχθη",
+       "kind": "|",
+       "value": "φέρω | ἠνέχθη (aorist passive: was carried)"
+      }
+     ]
+    },
+    {
+     "text": "«Πολυδέκτης δέ, ὁ τῆς νήσου βασιλεύς, τῆς Δανάης ἤρα· ὁ δὲ Περσεὺς νεανίας ἤδη ἦν καὶ τὴν μητέρα ἐφρούρει.»",
+     "orig": [
+      6
+     ]
+    },
+    {
+     "text": "«ὁ οὖν Πολυδέκτης τὸν Περσέα ἀπελθεῖν ἐβούλετο, καὶ αὐτῷ ἐπέταξε τὴν τῆς Γοργόνος κεφαλὴν κομίζειν.»",
+     "orig": [
+      7
+     ],
+     "glosses": [
+      {
+       "word": "ἀπελθεῖν",
+       "kind": "<",
+       "value": "ἀπό + ἐλθεῖν (to go away)"
+      },
+      {
+       "word": "ἐπέταξε",
+       "kind": "<",
+       "value": "ἐπί + τάττω | ἐπέταξε(ν) (ordered, laid a task on)"
+      },
+      {
+       "word": "κεφαλὴν",
+       "kind": "pic",
+       "value": "kephale"
+      }
+     ]
+    },
+    {
+     "text": "«ἡ δὲ Γοργὼ Μέδουσα θνητὴ μὲν ἦν, αἱ δὲ ἀδελφαὶ αὐτῆς ἀθάνατοι· καὶ ὅστις τὴν Γοργόνα εἶδεν, λίθος ἐγένετο.»",
+     "glosses": [
+      {
+       "word": "Γοργὼ",
+       "kind": "note",
+       "value": "the Gorgons: three winged sisters with snakes for hair; only Medusa could die (Apollodorus 2.4.2)"
+      }
+     ]
+    },
+    {
+     "text": "«ὁ δὲ Ἑρμῆς καὶ ἡ Ἀθηνᾶ σύμμαχοι τῷ Περσεῖ ἦσαν. πτερωτὰ οὖν πέδιλα ἔχων πρὸς τὰς Γοργόνας ἐπέτετο.»",
+     "glosses": [
+      {
+       "word": "πτερωτὰ",
+       "kind": "en",
+       "value": "winged"
+      },
+      {
+       "word": "πέδιλα",
+       "kind": "pic",
+       "value": "myth-pedila"
+      },
+      {
+       "word": "ἐπέτετο",
+       "kind": "|",
+       "value": "πέτομαι (fly) | ἐπέτετο (imperfect: was flying)"
+      }
+     ]
+    },
+    {
+     "text": "«καὶ εἰς ἀσπίδα χαλκῆν ὁρῶν, οὐκ εἰς τὴν Γοργόνα, τὴν κεφαλὴν αὐτῆς ἀπέτεμεν, καὶ πετόμενος οἴκαδε ἐκόμισεν.»",
+     "glosses": [
+      {
+       "word": "ὁρῶν",
+       "kind": "note",
+       "value": "he looked at her reflection in the polished shield, so as not to see her face"
+      },
+      {
+       "word": "ἀπέτεμεν",
+       "kind": "<",
+       "value": "ἀπό + τέμνω | ἀπέτεμε(ν) (cut off)"
+      }
+     ]
+    },
+    {
+     "text": "«καὶ ὕστερον ὁ τοῦ μαντείου χρησμὸς ἀληθὴς ἐγένετο· ὁ γὰρ Περσεὺς ἐν ἀγῶνι δίσκῳ τὸν Ἀκρίσιον ἀπέκτεινεν, οὐ βουλόμενος.»",
+     "glosses": [
+      {
+       "word": "ὕστερον",
+       "kind": "en",
+       "value": "later"
+      },
+      {
+       "word": "ἀγῶνι",
+       "kind": "en",
+       "value": "at an athletic contest (ὁ ἀγών)"
+      },
+      {
+       "word": "δίσκῳ",
+       "kind": "en",
+       "value": "with a discus (Apollodorus 2.4.4: it struck Akrisios' foot)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "χρησμος",
+   "gloss_grc": "ὁ χρησμός: the god's answer · ὁ τοῦ μαντείου χρησμός"
+  },
+  {
+   "id": "μαντειον",
+   "gloss_grc": "τὸ μαντεῖον: the oracle · τὸ ἐν Δελφοῖς μαντεῖον"
+  },
+  {
+   "id": "αποκτεινω",
+   "gloss_grc": "ἀποκτείνω · ἀποκτενῶ · ἀπέκτεινα — kill"
+  },
+  {
+   "id": "δεδοικα",
+   "gloss_grc": "δέδοικα = φοβοῦμαι · ἔδεισα, δείσας"
+  },
+  {
+   "id": "θαλαμος",
+   "gloss_grc": "ὁ θάλαμος: inner room, chamber"
+  },
+  {
+   "id": "χαλκους",
+   "gloss_grc": "χαλκοῦς, χαλκῆ, χαλκοῦν < ὁ χαλκός (bronze)"
+  },
+  {
+   "id": "φρουρεω",
+   "gloss_grc": "φρουρέω = φυλάττω · ἐφρούρει"
+  },
+  {
+   "id": "θνητος",
+   "gloss_grc": "θνητός ↔ ἀθάνατος"
+  },
+  {
+   "id": "αθανατος",
+   "gloss_grc": "ἀθάνατος, -ον < ἀ- + θάνατος"
+  },
+  {
+   "id": "χρυσος",
+   "gloss_grc": "ὁ χρυσός (gold) ↔ ὁ χαλκός (bronze)"
+  },
+  {
+   "id": "λαρναξ",
+   "pic": "myth-larnax",
+   "gloss_grc": "ἡ λάρναξ, τῆς λάρνακος"
+  },
+  {
+   "id": "ριπτω",
+   "gloss_grc": "ῥίπτω · ῥίψω · ἔρριψα · ἐρρίφθην — throw"
+  },
+  {
+   "id": "κεφαλη",
+   "pic": "kephale",
+   "gloss_grc": "ἡ κεφαλή"
+  },
+  {
+   "id": "πετομαι",
+   "gloss_grc": "πέτομαι · πτήσομαι · ἐπτόμην — fly"
+  }
+ ],
+ "notice": [
+  "ὁ δὲ θεὸς ἔφη παῖδα ἐκ τῆς θυγατρὸς γενήσεσθαι, ὃς αὐτὸν ἀποκτενεῖ",
+  "ὡς μὲν ἔνιοι λέγουσιν … ὡς δὲ ἔνιοί φασιν …",
+  "τοῦτον δὲ τὸν χρησμὸν δείσας ὁ Ἀκρίσιος … τὴν Δανάην ἐφρούρει",
+  "Apollodorus: μὴ πιστεύσας ὑπὸ Διὸς ἐφθάρθαι"
+ ],
+ "grammar": {
+  "md": "**Oracles and other people's words.** Myths are full of prophecies and of versions. Apollodorus reports both with the constructions you learned in Units 8–9.\n\n**1. What the god said: φημί + infinitive.** ὁ θεὸς ἔφη παῖδα … γενήσεσθαι 'the god said that a child would be born'. The subject of the infinitive is in the accusative (παῖδα); the tense of the infinitive keeps the tense of the prophecy (future γενήσεσθαι). Apollodorus himself writes γενέσθαι (aorist): later Greek often uses the aorist infinitive where Attic prose prefers the future after verbs of saying.\n\n**2. The relative clause that looks ahead.** … παῖδα, ὃς αὐτὸν ἀποκτενεῖ 'a child who will kill him'. A relative with the future often carries the doom of a myth.\n\n**3. Versions: ὡς ἔνιοι λέγουσιν / ὡς ἔνιοί φασι.** 'as some say'. Apollodorus sets two stories side by side with μέν … δέ and does not choose. Notice the accent: ἔνιοί φασι. An enclitic after a word accented on the third syllable from the end adds an acute to that word's last syllable (ἄνθρωπός ἐστιν).\n\n**4. μή with a participle.** Apollodorus writes μὴ πιστεύσας 'not believing'. Attic normally negates a plain participle with οὐ (οὐ πιστεύσας); later Greek uses μή more and more. Read both the same way.\n\n| Apollodorus | our adaptation | Attic habit |\n|---|---|---|\n| ἔφη γενέσθαι παῖδα | ἔφη παῖδα γενήσεσθαι | future infinitive for a future event |\n| χάλκεον | χαλκοῦν | contracted adjective |\n| θάλασσαν | θάλατταν | Attic -ττ- |\n| μὴ πιστεύσας | οὐκ ἐπίστευεν | οὐ with a statement of fact |",
+  "paradigms": [],
+  "diagram": "diagram-indirect"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings.",
+   "template": "ὁ Ἀκρίσιος θάλαμ___ χαλκοῦν κατεσκεύασεν. ἐκεῖ τὴν Δανάην ἐφρούρ___. ὕστερον δὲ τὴν θυγατέρα εἰς λάρνακ___ ἔρριψ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ον"
+     ]
+    },
+    {
+     "answers": [
+      "ει"
+     ]
+    },
+    {
+     "answers": [
+      "α"
+     ]
+    },
+    {
+     "answers": [
+      "εν",
+      "ε"
+     ]
+    }
+   ],
+   "skills": [
+    "noun.decl2.acc.sg",
+    "verb.contract.e",
+    "noun.decl3.cons.acc.sg",
+    "verb.aor.act.ind.3sg"
+   ],
+   "explain": "θάλαμον (object); ἐφρούρει (imperfect of the contract verb φρουρέω, like ἐποίει); εἰς λάρνακα (accusative after εἰς); ἔρριψε(ν) (aorist)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ θεὸς ἔφη παῖδα ___, ὃς αὐτὸν ἀποκτενεῖ.",
+   "options": [
+    {
+     "id": "a",
+     "text": "γενήσεσθαι"
+    },
+    {
+     "id": "b",
+     "text": "γίγνεται"
+    },
+    {
+     "id": "c",
+     "text": "ἐγένετο"
+    }
+   ],
+   "answer": "a",
+   "audio": "ὁ θεὸς ἔφη παῖδα γενήσεσθαι, ὃς αὐτὸν ἀποκτενεῖ.",
+   "skills": [
+    "syntax.indirect-inf",
+    "verb.fut.act.inf"
+   ],
+   "explain": "After ἔφη the reported statement is an infinitive; the future γενήσεσθαι for a future event."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἡ Γοργὼ Μέδουσα θνητὴ μὲν ἦν, αἱ δὲ ἀδελφαὶ αὐτῆς ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "χαλκαῖ"
+    },
+    {
+     "id": "b",
+     "text": "ἀθάνατοι"
+    },
+    {
+     "id": "c",
+     "text": "θνηταί"
+    }
+   ],
+   "answer": "b",
+   "audio": "ἡ Γοργὼ Μέδουσα θνητὴ μὲν ἦν, αἱ δὲ ἀδελφαὶ αὐτῆς ἀθάνατοι.",
+   "skills": [
+    "vocab.myth",
+    "syntax.men-de"
+   ],
+   "explain": "μέν … δέ contrasts: Medusa was mortal, her sisters immortal (ἀθάνατοι)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · πτερωτὰ πέδιλα ἔχων ὁ Περσεὺς πρὸς τὰς Γοργόνας ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐπέτετο"
+    },
+    {
+     "id": "b",
+     "text": "ἐφρούρει"
+    },
+    {
+     "id": "c",
+     "text": "ἔρριψεν"
+    }
+   ],
+   "answer": "a",
+   "audio": "πτερωτὰ πέδιλα ἔχων ὁ Περσεὺς πρὸς τὰς Γοργόνας ἐπέτετο.",
+   "skills": [
+    "vocab.myth",
+    "verb.impf.mp.ind.3sg"
+   ],
+   "explain": "ἐπέτετο 'was flying' (πέτομαι, imperfect)."
+  },
+  {
+   "type": "match",
+   "prompt": "Match the new words to their meanings.",
+   "pairs": [
+    {
+     "left": "ὁ χρησμός",
+     "right": "oracle (the answer)"
+    },
+    {
+     "left": "τὸ μαντεῖον",
+     "right": "oracle (the place)"
+    },
+    {
+     "left": "ὁ χρυσός",
+     "right": "gold"
+    },
+    {
+     "left": "θνητός",
+     "right": "mortal"
+    },
+    {
+     "left": "ῥίπτω",
+     "right": "throw"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "χρησμός is what the god says; μαντεῖον is where he says it."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ἡ λάρναξ",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "myth-larnax"
+    },
+    {
+     "id": "b",
+     "image": "myth-pedila"
+    },
+    {
+     "id": "c",
+     "image": "kephale"
+    },
+    {
+     "id": "d",
+     "image": "myth-aspis"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "ἡ λάρναξ: the wooden chest."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the future of ἀποκτείνω for 'he will kill'.",
+   "lemma": "ἀποκτείνω",
+   "cell": "future.active.indicative.3sg",
+   "audio": "ἀποκτενεῖ",
+   "skills": [
+    "vocab.production",
+    "verb.fut.liquid"
+   ],
+   "explain": "ἀποκτενεῖ: a liquid future (-ε-ῶ), contracted like ποιεῖ."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of ῥίπτω for 'he threw'.",
+   "lemma": "ῥίπτω",
+   "cell": "aorist.active.indicative.3sg",
+   "audio": "ἔρριψεν",
+   "skills": [
+    "vocab.production",
+    "verb.augment"
+   ],
+   "explain": "ἔρριψε(ν): a verb beginning with ῥ doubles it after the augment."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the dative singular of λάρναξ (ἐν τῇ ___).",
+   "lemma": "λάρναξ",
+   "cell": "dat.sg",
+   "audio": "λάρνακι",
+   "skills": [
+    "noun.decl3.cons.dat.sg",
+    "vocab.myth"
+   ],
+   "explain": "λάρνακι: stem λαρνακ-."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse δείσας.",
+   "form": "δείσας",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "voice",
+     "label": "Voice",
+     "options": [
+      {
+       "id": "act",
+       "label": "active"
+      },
+      {
+       "id": "mid",
+       "label": "middle"
+      },
+      {
+       "id": "pass",
+       "label": "passive"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "voice": "act",
+    "mood": "ptc"
+   },
+   "audio": "δείσας",
+   "skills": [
+    "verb.ptc.aor.act"
+   ],
+   "explain": "δεί-σας: aorist active participle of δέδοικα (ἔδεισα): 'having feared, afraid of'."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse γενήσεσθαι.",
+   "form": "γενήσεσθαι",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "fut",
+    "mood": "inf"
+   },
+   "audio": "γενήσεσθαι",
+   "skills": [
+    "verb.fut.act.inf",
+    "syntax.indirect-inf"
+   ],
+   "explain": "γεν-ήσ-εσθαι: future infinitive of γίγνομαι (γενήσομαι). In indirect statement the future infinitive stands for a future."
+  },
+  {
+   "type": "label",
+   "prompt": "ὁ θεὸς ἔφη παῖδα ἐκ τῆς θυγατρὸς γενήσεσθαι. What is παῖδα?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the subject of the infinitive, in the accusative"
+    },
+    {
+     "id": "b",
+     "text": "the object of ἔφη"
+    },
+    {
+     "id": "c",
+     "text": "an accusative of time"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.indirect-inf"
+   ],
+   "explain": "In indirect statement with the infinitive, the subject goes into the accusative: 'that a child would be born'."
+  },
+  {
+   "type": "label",
+   "prompt": "ὡς μὲν ἔνιοι λέγουσιν, Προῖτος … ὡς δὲ ἔνιοί φασιν, ὁ Ζεύς … What is the storyteller doing?",
+   "options": [
+    {
+     "id": "a",
+     "text": "giving two versions of the story and not choosing between them"
+    },
+    {
+     "id": "b",
+     "text": "saying that Proitos and Zeus are the same person"
+    },
+    {
+     "id": "c",
+     "text": "quoting the oracle"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.myth.variants"
+   ],
+   "explain": "ὡς ἔνιοι λέγουσιν 'as some say': two sources, two stories."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἡ λάρναξ πρὸς τὴν Σέριφον ___. (was carried)",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἠνέχθη"
+    },
+    {
+     "id": "b",
+     "text": "ἤνεγκε"
+    },
+    {
+     "id": "c",
+     "text": "φέρεται"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.aor.pass.ind.3sg"
+   ],
+   "explain": "ἠνέχθη: aorist passive of φέρω (ἤνεγκα, ἠνέχθην)."
+  },
+  {
+   "type": "transform",
+   "prompt": "Report it: ὁ θεὸς εἶπεν· «παῖς ἐκ τῆς θυγατρὸς γενήσεται.» → ὁ θεὸς ἔφη παῖδα ἐκ τῆς θυγατρὸς ___.",
+   "template": "ὁ θεὸς ἔφη παῖδα ἐκ τῆς θυγατρὸς ___.",
+   "gaps": [
+    {
+     "answers": [
+      "γενήσεσθαι"
+     ]
+    }
+   ],
+   "audio": "ὁ θεὸς ἔφη παῖδα ἐκ τῆς θυγατρὸς γενήσεσθαι.",
+   "skills": [
+    "syntax.indirect-inf"
+   ],
+   "explain": "Future indicative γενήσεται → future infinitive γενήσεσθαι; the subject παῖς → accusative παῖδα."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make it passive: ὁ Ἀκρίσιος τὴν Δανάην ἐφρούρει. → ἡ Δανάη ὑπὸ τοῦ Ἀκρισίου ___.",
+   "template": "ἡ Δανάη ὑπὸ τοῦ Ἀκρισίου ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἐφρουρεῖτο"
+     ]
+    }
+   ],
+   "audio": "ἡ Δανάη ὑπὸ τοῦ Ἀκρισίου ἐφρουρεῖτο.",
+   "skills": [
+    "syntax.agent",
+    "verb.impf.mp.ind.3sg"
+   ],
+   "explain": "ἐφρουρεῖτο: imperfect passive of φρουρέω (like ἐποιεῖτο)."
+  },
+  {
+   "type": "locate",
+   "prompt": "Apollodorus: tap the three participles.",
+   "sentence": "αἰσθόμενος δὲ Ἀκρίσιος ὕστερον ἐξ αὐτῆς γεγεννημένον Περσέα, μὴ πιστεύσας ὑπὸ Διὸς ἐφθάρθαι, τὴν θυγατέρα μετὰ τοῦ παιδὸς εἰς λάρνακα βαλὼν ἔρριψεν εἰς θάλασσαν.",
+   "answer": [
+    0,
+    9,
+    20
+   ],
+   "skills": [
+    "read.locate",
+    "read.myth.apollodorus",
+    "verb.ptc.use"
+   ],
+   "explain": "αἰσθόμενος 'having perceived', πιστεύσας 'believing', βαλών 'having put'; one finite verb, ἔρριψεν. (γεγεννημένον is a participle too, but it belongs to Περσέα.)"
+  },
+  {
+   "type": "locate",
+   "prompt": "Apollodorus: tap the infinitive that reports the prophecy, and the future verb of the relative clause.",
+   "sentence": "Ἀκρισίῳ δὲ περὶ παίδων γενέσεως ἀρρένων χρηστηριαζομένῳ ὁ θεὸς ἔφη γενέσθαι παῖδα ἐκ τῆς θυγατρός, ὃς αὐτὸν ἀποκτενεῖ.",
+   "answer": [
+    10,
+    17
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.indirect-inf"
+   ],
+   "explain": "γενέσθαι (infinitive after ἔφη) and ἀποκτενεῖ (future, in the relative clause ὃς …)."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'Perseus cut off the Gorgon's head.'",
+   "tokens": [
+    "ὁ",
+    "Περσεὺς",
+    "τὴν",
+    "τῆς",
+    "Γοργόνος",
+    "κεφαλὴν",
+    "ἀπέτεμεν"
+   ],
+   "answers": [
+    "ὁ Περσεὺς τὴν τῆς Γοργόνος κεφαλὴν ἀπέτεμεν",
+    "ὁ Περσεὺς ἀπέτεμεν τὴν τῆς Γοργόνος κεφαλήν",
+    "τὴν τῆς Γοργόνος κεφαλὴν ὁ Περσεὺς ἀπέτεμεν"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "syntax.position"
+   ],
+   "explain": "τὴν τῆς Γοργόνος κεφαλήν: the genitive sits between article and noun (attributive position)."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Περσεὺς νεανίας ἤδη ἦν καὶ τὴν μητέρα ἐφρούρει."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Περσεὺς παῖς ἔτι ἦν καὶ τὴν μητέρα ἐφίλει."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Πολυδέκτης νεανίας ἦν καὶ τὴν Δανάην ἐφρούρει."
+    }
+   ],
+   "answer": "a",
+   "audio": "ὁ Περσεὺς νεανίας ἤδη ἦν καὶ τὴν μητέρα ἐφρούρει.",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "Perseus was now a young man and guarded his mother."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Ἀκρίσιος υἱοὺς πολλοὺς εἶχεν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "υἱὸν μὲν οὐκ εἶχεν, θυγατέρα δὲ μίαν."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἡ λάρναξ πρὸς τὴν Σέριφον ἠνέχθη.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἡ γὰρ λάρναξ πρὸς τὴν Σέριφον τὴν νῆσον ἠνέχθη."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Περσεὺς εἰς τὴν Γοργόνα ὁρῶν τὴν κεφαλὴν ἀπέτεμεν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "He looked into the bronze shield, not at the Gorgon."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ τοῦ μαντείου χρησμὸς ἀληθὴς ἐγένετο"
+     ]
+    }
+   ],
+   "audio": "ὁ τοῦ μαντείου χρησμὸς ἀληθὴς ἐγένετο.",
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "'The oracle's answer came true.'"
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The mortal man loved Danae.' (use ἐράω + genitive, imperfect)",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ θνητὸς ἀνὴρ τῆς Δανάης ἤρα",
+      "ὁ ἀνὴρ ὁ θνητὸς τῆς Δανάης ἤρα",
+      "ὁ θνητὸς ἀνὴρ ἤρα τῆς Δανάης",
+      "ὁ ἀνὴρ ὁ θνητὸς ἤρα τῆς Δανάης"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "vocab.myth"
+   ],
+   "explain": "ἐράω takes the genitive; imperfect ἤρα (α-contract)."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The god is immortal.'",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ θεὸς ἀθάνατός ἐστιν",
+      "ὁ θεὸς ἀθάνατός ἐστι",
+      "ἀθάνατός ἐστιν ὁ θεός",
+      "ἀθάνατός ἐστι ὁ θεός",
+      "ὁ θεός ἐστιν ἀθάνατος",
+      "ὁ θεός ἐστι ἀθάνατος"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.enclitic"
+   ],
+   "explain": "ἀθάνατός ἐστιν: the enclitic gives ἀθάνατος a second accent."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: Ἀκρισίῳ δὲ περὶ παίδων γενέσεως ἀρρένων χρηστηριαζομένῳ ὁ θεὸς ἔφη γενέσθαι παῖδα ἐκ τῆς θυγατρός, ὃς αὐτὸν ἀποκτενεῖ.",
+   "audio": "Ἀκρισίῳ δὲ περὶ παίδων γενέσεως ἀρρένων χρηστηριαζομένῳ ὁ θεὸς ἔφη γενέσθαι παῖδα ἐκ τῆς θυγατρός, ὃς αὐτὸν ἀποκτενεῖ.",
+   "model": "When Akrisios consulted the oracle about having male children, the god said that a son would be born from his daughter who would kill him.",
+   "skills": [
+    "read.adapted-text",
+    "read.myth.apollodorus",
+    "syntax.indirect-inf"
+   ],
+   "explain": "Ἀκρισίῳ … χρηστηριαζομένῳ: dative participle, 'to Akrisios consulting the oracle'; γενέσεως ἀρρένων 'the birth of male (children)'."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "ὁ χρυσός",
+     "right": "chrysanthemum"
+    },
+    {
+     "left": "θνητός (θάνατος)",
+     "right": "euthanasia"
+    },
+    {
+     "left": "ὁ θάλαμος",
+     "right": "thalamus"
+    },
+    {
+     "left": "πέτομαι (τὸ πτερόν)",
+     "right": "helicopter"
+    },
+    {
+     "left": "μεταμορφόομαι",
+     "right": "metamorphosis"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "χρυσάνθεμον 'golden flower'; θάνατος 'death'; θάλαμος 'inner chamber'; ἕλιξ + πτερόν 'spiral wing'; μετα-μόρφωσις 'change of shape'."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἠρώτησεν ὁ Ἀκρίσιος τὸ μαντεῖον;",
+   "options": [
+    {
+     "id": "a",
+     "text": "περὶ παίδων."
+    },
+    {
+     "id": "b",
+     "text": "περὶ πολέμου."
+    },
+    {
+     "id": "c",
+     "text": "περὶ τῆς θαλάττης."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension",
+    "read.myth"
+   ],
+   "explain": "περὶ παίδων ἠρώτησεν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐποίησεν ὁ Ἀκρίσιος τὸν χρησμὸν δείσας;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὴν Δανάην ἐν θαλάμῳ χαλκῷ ὑπὸ γῆν ἐφρούρει."
+    },
+    {
+     "id": "b",
+     "text": "τὴν Δανάην τῷ Προίτῳ ἔδωκεν."
+    },
+    {
+     "id": "c",
+     "text": "εἰς Σέριφον ἔπλευσεν."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὑπὸ γῆν θάλαμον χαλκοῦν κατεσκεύασεν, καὶ ἐκεῖ τὴν Δανάην ἐφρούρει."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίς τὸν Περσέα ἔθρεψεν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Πολυδέκτης."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Δίκτυς."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Ἀκρίσιος."
+    }
+   ],
+   "answer": "b",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "Δίκτυς, ἀνὴρ ἀγαθός, τὸν παῖδα ἔθρεψεν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐπέταξεν ὁ Πολυδέκτης τῷ Περσεῖ;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὴν Δανάην φρουρεῖν."
+    },
+    {
+     "id": "b",
+     "text": "τὴν τῆς Γοργόνος κεφαλὴν κομίζειν."
+    },
+    {
+     "id": "c",
+     "text": "ἵππους κομίζειν."
+    }
+   ],
+   "answer": "b",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "αὐτῷ ἐπέταξε τὴν τῆς Γοργόνος κεφαλὴν κομίζειν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "πῶς ὁ χρησμὸς ἀληθὴς ἐγένετο;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Περσεὺς τὸν Ἀκρίσιον δίσκῳ ἀπέκτεινεν, οὐ βουλόμενος."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Ζεὺς τὸν Ἀκρίσιον ἀπέκτεινεν."
+    },
+    {
+     "id": "c",
+     "text": "ἡ Γοργὼ τὸν Ἀκρίσιον λίθον ἐποίησεν."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension",
+    "read.myth"
+   ],
+   "explain": "ὁ γὰρ Περσεὺς ἐν ἀγῶνι δίσκῳ τὸν Ἀκρίσιον ἀπέκτεινεν, οὐ βουλόμενος."
+  }
+ ],
+ "culture": {
+  "title": "Oracles: asking the gods",
+  "md": "Akrisios does what real Greeks did: he sends to **Delphi**. At Apollo's sanctuary on the slopes of Parnassus a priestess, the **Pythia**, answered questions in the god's name, and cities and private people consulted her for centuries (Delphi was active from at least the 8th century BC until the late 4th century AD). Questions were about colonies, wars, marriages, children and harvests; many surviving answers are practical ('sacrifice to this god'), and the riddling, double-edged oracle is more at home in stories than in the records.\n\nIn myth an oracle almost always comes true, and trying to avoid it is what makes it come true: Akrisios locks up his daughter, Laios exposes the baby Oedipus, and both are killed by the child. The Athenian audience of 431 knew the pattern well from tragedy; Sophocles' *Oedipus the King* was probably staged within a few years of our story.\n\nThe image of Danae and the infant Perseus in the chest was a favourite of Athenian vase painters of the early 5th century: Akrisios stands by, a carpenter finishes the chest, and Danae holds the baby as she steps in. Oracles were serious business in Athens too: in the story of 432–430, oracle-mongers (χρησμολόγοι) sang old prophecies in the streets as the war began (Thucydides 2.8, 2.21).",
+  "image": "myth-culture-3"
+ },
+ "quiz": [
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist participle of δέδοικα ('having feared').",
+   "lemma": "δέδοικα",
+   "cell": "aorist.active.participle.nom.sg.m",
+   "audio": "δείσας",
+   "skills": [
+    "verb.ptc.aor.act",
+    "vocab.myth"
+   ],
+   "explain": "δείσας (ἔδεισα)."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ θεὸς ἔφη παῖδα ___. (would be born)",
+   "options": [
+    {
+     "id": "a",
+     "text": "γενήσεσθαι"
+    },
+    {
+     "id": "b",
+     "text": "γενήσεται"
+    },
+    {
+     "id": "c",
+     "text": "ἐγένετο"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.indirect-inf"
+   ],
+   "explain": "Infinitive after ἔφη."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἐφρούρει.",
+   "form": "ἐφρούρει",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person and number",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "1st singular"
+      },
+      {
+       "id": "2sg",
+       "label": "2nd singular"
+      },
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "1pl",
+       "label": "1st plural"
+      },
+      {
+       "id": "2pl",
+       "label": "2nd plural"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "impf",
+    "person": "3sg"
+   },
+   "audio": "ἐφρούρει",
+   "skills": [
+    "verb.contract.e",
+    "verb.impf.act.ind.3sg"
+   ],
+   "explain": "ἐ-φρούρε-ε → ἐφρούρει: imperfect, 3rd singular."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἡ Μέδουσα ἀθάνατος ἦν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἡ δὲ Γοργὼ Μέδουσα θνητὴ μὲν ἦν."
+  },
+  {
+   "type": "match",
+   "prompt": "Match the new words to their meanings.",
+   "pairs": [
+    {
+     "left": "ὁ θάλαμος",
+     "right": "chamber"
+    },
+    {
+     "left": "φρουρέω",
+     "right": "guard"
+    },
+    {
+     "left": "πέτομαι",
+     "right": "fly"
+    },
+    {
+     "left": "ἀθάνατος",
+     "right": "immortal"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "θάλαμος, φρουρέω = φυλάττω, πέτομαι, ἀ-θάνατος."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὴν θυγατέρα εἰς λάρνακα βαλὼν εἰς τὴν θάλατταν ἔρριψεν."
+    },
+    {
+     "id": "b",
+     "text": "τὴν θυγατέρα ἐν θαλάμῳ χαλκῷ ἐφρούρει."
+    },
+    {
+     "id": "c",
+     "text": "τὸν παῖδα εἰς λάρνακα βαλὼν εἰς τὴν νῆσον ἔπεμψεν."
+    }
+   ],
+   "answer": "a",
+   "audio": "τὴν θυγατέρα εἰς λάρνακα βαλὼν εἰς τὴν θάλατταν ἔρριψεν.",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "He put his daughter in a chest and threw it into the sea."
+  },
+  {
+   "type": "label",
+   "prompt": "ὡς δὲ ἔνιοί φασιν. Why does ἔνιοι have two accents here?",
+   "options": [
+    {
+     "id": "a",
+     "text": "an enclitic (φασιν) follows a word accented on the third syllable from the end"
+    },
+    {
+     "id": "b",
+     "text": "it is a question"
+    },
+    {
+     "id": "c",
+     "text": "it is plural"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.enclitic"
+   ],
+   "explain": "Like ἄνθρωπός ἐστιν: the enclitic's accent moves onto the preceding word's last syllable."
+  }
+ ],
+ "skills": [
+  "read.adapted-text",
+  "read.myth",
+  "read.myth.apollodorus",
+  "read.myth.variants",
+  "read.comprehension",
+  "read.locate",
+  "syntax.indirect-inf",
+  "syntax.enclitic",
+  "verb.fut.liquid",
+  "verb.ptc.aor.act",
+  "syntax.agent",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family",
+  "vocab.myth"
+ ]
+}

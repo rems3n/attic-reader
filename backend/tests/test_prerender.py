@@ -19,7 +19,7 @@ def test_prerender_renders_every_library_chunk_at_every_speed(fake_kokoro):
     assert len(library_jobs) > 0
     # The job also renders the vocabulary headwords; a headword may share a
     # cache key with another (or with a library chunk), so count distinct keys.
-    jobs = library_jobs + prerender.vocab_plan(tts)
+    jobs = library_jobs + prerender.vocab_plan(tts) + prerender.course_plan(tts)
     distinct = len({j[1] for j in jobs})
     result = prerender.run(tts)
     assert result["state"] == "done"
@@ -42,6 +42,9 @@ def test_prerender_yields_to_user_requests(fake_kokoro, monkeypatch):
         yield from original(*args, **kwargs)
 
     monkeypatch.setattr(fake_kokoro, "generate_from_tokens", slow)
+    # a small job: the full plan (library + lexicon + course) is thousands of clips
+    monkeypatch.setattr(prerender, "vocab_plan", lambda tts: [])
+    monkeypatch.setattr(prerender, "course_plan", lambda tts: [])
     thread = prerender.run_in_background(tts)
     time.sleep(0.05)
     started = time.perf_counter()

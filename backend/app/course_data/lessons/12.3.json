@@ -1,0 +1,1673 @@
+{
+  "id": "12.3",
+  "title_grc": "ὁ Σωκράτης",
+  "title_en": "Socrates in prison",
+  "summary_grc": "ὁ Κρίτων ὄρθρου εἰς τὸ δεσμωτήριον ἀφικνεῖται· ὁ δὲ Σωκράτης ἡδέως καθεύδει.",
+  "summary_en": "Lysis reads Plato: the opening of the Crito, unadapted. Before dawn, Crito sits beside the sleeping Socrates in prison; they talk about the hour, the guard, and how to face death. A running vocabulary glosses what you have not met.",
+  "cover": "panel-12-3-b",
+  "caption_grc": "Σωκράτης: ἄρτι δὲ ἥκεις ἢ πάλαι; Κρίτων: ἐπιεικῶς πάλαι.",
+  "original": {
+    "text": "plato-crito-43a",
+    "note": "Plato, Crito 43a–c, unadapted. The conversation is set in 399 BC, in the days before Socrates' execution; Plato wrote the dialogue some years afterwards. The two opening sentences of the story are ours; everything after them is Plato's text."
+  },
+  "names": {
+    "Κρίτων": [
+      "Κρίτωνος",
+      "Κρίτωνι",
+      "Κρίτωνα",
+      "Κρίτων"
+    ],
+    "Σωκράτης": [
+      "Σωκράτους",
+      "Σωκράτει",
+      "Σωκράτη",
+      "Σώκρατες"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "panel-12-3-a",
+      "sentences": [
+        {
+          "text": "ὁ Λύσις νῦν Πλάτωνος βιβλίον λαμβάνει· «τὸν Σωκράτη», φησίν, «ὃν ἐγὼ παῖς ὢν ἐν τῇ ἀγορᾷ ἠρώτων, οἱ Ἀθηναῖοι ἔκριναν καὶ θανάτου ἄξιον ἐνόμισαν.»",
+          "glosses": [
+            {
+              "word": "ἔκριναν",
+              "kind": "|",
+              "value": "κρίνει | ἔκριναν (tried, judged)"
+            },
+            {
+              "word": "θανάτου",
+              "kind": "|",
+              "value": "ὁ θάνατος | θανάτου ἄξιον (worthy of death)"
+            }
+          ]
+        },
+        {
+          "text": "ἐν τούτῳ τῷ βιβλίῳ ὁ Κρίτων, φίλος αὐτοῦ, ἐν ταῖς ἡμέραις πρὸ τοῦ θανάτου εἰς τὸ δεσμωτήριον ἔρχεται.",
+          "glosses": [
+            {
+              "word": "δεσμωτήριον",
+              "kind": "en",
+              "value": "prison (τὸ δεσμωτήριον, from δεσμός 'chain')"
+            }
+          ]
+        },
+        {
+          "text": "Σωκράτης: τί τηνικάδε ἀφῖξαι, ὦ Κρίτων;",
+          "orig": [
+            0
+          ],
+          "glosses": [
+            {
+              "word": "τί",
+              "kind": "note",
+              "value": "τί; here 'why?'"
+            },
+            {
+              "word": "τηνικάδε",
+              "kind": "en",
+              "value": "at this hour"
+            },
+            {
+              "word": "ἀφῖξαι",
+              "kind": "|",
+              "value": "ἀφικνέομαι | ἀφῖγμαι, ἀφῖξαι (perfect: you have come, you are here)"
+            }
+          ]
+        },
+        {
+          "text": "ἢ οὐ πρῲ ἔτι ἐστίν;",
+          "orig": [
+            1
+          ],
+          "glosses": [
+            {
+              "word": "πρῲ",
+              "kind": "en",
+              "value": "early"
+            }
+          ]
+        },
+        {
+          "text": "Κρίτων: πάνυ μὲν οὖν.",
+          "orig": [
+            2
+          ],
+          "glosses": [
+            {
+              "word": "πάνυ",
+              "kind": "en",
+              "value": "πάνυ μὲν οὖν: yes, very much so"
+            }
+          ]
+        },
+        {
+          "text": "Σωκράτης: πηνίκα μάλιστα;",
+          "orig": [
+            3
+          ],
+          "glosses": [
+            {
+              "word": "πηνίκα",
+              "kind": "en",
+              "value": "at what time? (μάλιστα with a question: roughly, about)"
+            }
+          ]
+        },
+        {
+          "text": "Κρίτων: ὄρθρος βαθύς.",
+          "orig": [
+            4
+          ],
+          "glosses": [
+            {
+              "word": "ὄρθρος",
+              "kind": "en",
+              "value": "the dim time before dawn"
+            },
+            {
+              "word": "βαθύς",
+              "kind": "en",
+              "value": "deep (like ταχύς): 'still early dawn'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "panel-12-3-b",
+      "sentences": [
+        {
+          "text": "Σωκράτης: θαυμάζω ὅπως ἠθέλησέ σοι ὁ τοῦ δεσμωτηρίου φύλαξ ὑπακοῦσαι.",
+          "orig": [
+            5
+          ],
+          "glosses": [
+            {
+              "word": "ὅπως",
+              "kind": "en",
+              "value": "how (indirect question)"
+            },
+            {
+              "word": "δεσμωτηρίου",
+              "kind": "en",
+              "value": "of the prison"
+            },
+            {
+              "word": "ὑπακοῦσαι",
+              "kind": "<",
+              "value": "ὑπό + ἀκούω | ὑπακοῦσαι (to answer the door, let in)"
+            }
+          ]
+        },
+        {
+          "text": "Κρίτων: συνήθης ἤδη μοί ἐστιν, ὦ Σώκρατες, διὰ τὸ πολλάκις δεῦρο φοιτᾶν, καί τι καὶ εὐεργέτηται ὑπʼ ἐμοῦ.",
+          "orig": [
+            6
+          ],
+          "glosses": [
+            {
+              "word": "συνήθης",
+              "kind": "en",
+              "value": "on familiar terms (+ dative)"
+            },
+            {
+              "word": "δεῦρο",
+              "kind": "en",
+              "value": "here, to this place"
+            },
+            {
+              "word": "φοιτᾶν",
+              "kind": "en",
+              "value": "to come regularly (φοιτάω); διὰ τὸ φοιτᾶν 'because I come'"
+            },
+            {
+              "word": "εὐεργέτηται",
+              "kind": "en",
+              "value": "has had a kindness done to him (εὐεργετέω, perfect passive: a tip)"
+            },
+            {
+              "word": "ὑπʼ",
+              "kind": "=",
+              "value": "ὑπό (+ genitive: by)"
+            }
+          ]
+        },
+        {
+          "text": "Σωκράτης: ἄρτι δὲ ἥκεις ἢ πάλαι;",
+          "orig": [
+            7
+          ],
+          "glosses": [
+            {
+              "word": "ἄρτι",
+              "kind": "en",
+              "value": "just now"
+            },
+            {
+              "word": "πάλαι",
+              "kind": "en",
+              "value": "long ago, a long time"
+            }
+          ]
+        },
+        {
+          "text": "Κρίτων: ἐπιεικῶς πάλαι.",
+          "orig": [
+            8
+          ],
+          "glosses": [
+            {
+              "word": "ἐπιεικῶς",
+              "kind": "en",
+              "value": "fairly, quite"
+            }
+          ]
+        },
+        {
+          "text": "Σωκράτης: εἶτα πῶς οὐκ εὐθὺς ἐπήγειράς με, ἀλλὰ σιγῇ παρακάθησαι;",
+          "orig": [
+            9
+          ],
+          "glosses": [
+            {
+              "word": "ἐπήγειράς",
+              "kind": "en",
+              "value": "you woke (ἐπεγείρω, aorist)"
+            },
+            {
+              "word": "σιγῇ",
+              "kind": "en",
+              "value": "in silence"
+            },
+            {
+              "word": "παρακάθησαι",
+              "kind": "<",
+              "value": "παρά + κάθημαι | παρακάθησαι (you sit beside me)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "panel-12-3-c",
+      "sentences": [
+        {
+          "text": "Κρίτων: οὐ μὰ τὸν Δία, ὦ Σώκρατες, οὐδʼ ἂν αὐτὸς ἤθελον ἐν τοσαύτῃ τε ἀγρυπνίᾳ καὶ λύπῃ εἶναι, ἀλλὰ καὶ σοῦ πάλαι θαυμάζω αἰσθανόμενος ὡς ἡδέως καθεύδεις·",
+          "orig": [
+            10
+          ],
+          "glosses": [
+            {
+              "word": "μὰ",
+              "kind": "en",
+              "value": "οὐ μὰ τὸν Δία: no, by Zeus"
+            },
+            {
+              "word": "οὐδʼ",
+              "kind": "=",
+              "value": "οὐδέ (not even, nor)"
+            },
+            {
+              "word": "ἂν",
+              "kind": "en",
+              "value": "ἂν ἤθελον: I would (not) want: ἄν + imperfect, unreal"
+            },
+            {
+              "word": "ἀγρυπνίᾳ",
+              "kind": "en",
+              "value": "sleeplessness"
+            },
+            {
+              "word": "λύπῃ",
+              "kind": "en",
+              "value": "grief, pain"
+            },
+            {
+              "word": "σοῦ",
+              "kind": "note",
+              "value": "θαυμάζω + genitive: 'I have been admiring you'"
+            },
+            {
+              "word": "ὡς",
+              "kind": "en",
+              "value": "how (ὡς ἡδέως: how sweetly)"
+            },
+            {
+              "word": "ἡδέως",
+              "kind": "<",
+              "value": "ἡδύς (sweet) | ἡδέως (sweetly)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ ἐπίτηδές σε οὐκ ἤγειρον ἵνα ὡς ἥδιστα διάγῃς.",
+          "orig": [
+            11
+          ],
+          "glosses": [
+            {
+              "word": "ἐπίτηδές",
+              "kind": "en",
+              "value": "on purpose"
+            },
+            {
+              "word": "ἤγειρον",
+              "kind": "en",
+              "value": "I was (not) waking (ἐγείρω, imperfect)"
+            },
+            {
+              "word": "ἥδιστα",
+              "kind": "|",
+              "value": "ἡδύς | ἥδιστα (most pleasantly); ὡς ἥδιστα 'as pleasantly as possible'"
+            },
+            {
+              "word": "διάγῃς",
+              "kind": "en",
+              "value": "you might pass the time (διάγω, subjunctive)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ πολλάκις μὲν δή σε καὶ πρότερον ἐν παντὶ τῷ βίῳ ηὐδαιμόνισα τοῦ τρόπου, πολὺ δὲ μάλιστα ἐν τῇ νῦν παρεστώσῃ συμφορᾷ, ὡς ῥᾳδίως αὐτὴν καὶ πρᾴως φέρεις.",
+          "orig": [
+            12
+          ],
+          "glosses": [
+            {
+              "word": "ηὐδαιμόνισα",
+              "kind": "en",
+              "value": "I counted (you) happy (εὐδαιμονίζω + genitive of the reason)"
+            },
+            {
+              "word": "τρόπου",
+              "kind": "en",
+              "value": "character, way (ὁ τρόπος)"
+            },
+            {
+              "word": "παρεστώσῃ",
+              "kind": "|",
+              "value": "παρίστημι | ἡ παρεστῶσα (present, at hand: perfect participle)"
+            },
+            {
+              "word": "συμφορᾷ",
+              "kind": "en",
+              "value": "misfortune (ἡ συμφορά)"
+            },
+            {
+              "word": "ῥᾳδίως",
+              "kind": "<",
+              "value": "ῥᾴδιος | ῥᾳδίως (easily)"
+            },
+            {
+              "word": "πρᾴως",
+              "kind": "en",
+              "value": "gently, calmly"
+            }
+          ]
+        },
+        {
+          "text": "Σωκράτης: καὶ γὰρ ἄν, ὦ Κρίτων, πλημμελὲς εἴη ἀγανακτεῖν τηλικοῦτον ὄντα εἰ δεῖ ἤδη τελευτᾶν.",
+          "orig": [
+            13
+          ],
+          "glosses": [
+            {
+              "word": "ἄν",
+              "kind": "note",
+              "value": "ἂν … εἴη: potential optative, 'it would be'"
+            },
+            {
+              "word": "πλημμελὲς",
+              "kind": "en",
+              "value": "out of tune, unfitting"
+            },
+            {
+              "word": "ἀγανακτεῖν",
+              "kind": "en",
+              "value": "to be vexed, to resent"
+            },
+            {
+              "word": "τηλικοῦτον",
+              "kind": "en",
+              "value": "of such an age, so old"
+            },
+            {
+              "word": "τελευτᾶν",
+              "kind": "|",
+              "value": "τελευτάω | τελευτᾶν (to die: 'to end')"
+            }
+          ]
+        },
+        {
+          "text": "Κρίτων: καὶ ἄλλοι, ὦ Σώκρατες, τηλικοῦτοι ἐν τοιαύταις συμφοραῖς ἁλίσκονται, ἀλλʼ οὐδὲν αὐτοὺς ἐπιλύεται ἡ ἡλικία τὸ μὴ οὐχὶ ἀγανακτεῖν τῇ παρούσῃ τύχῃ.",
+          "orig": [
+            14
+          ],
+          "glosses": [
+            {
+              "word": "τηλικοῦτοι",
+              "kind": "|",
+              "value": "τηλικοῦτος | τηλικοῦτοι (as old, of your age)"
+            },
+            {
+              "word": "συμφοραῖς",
+              "kind": "|",
+              "value": "ἡ συμφορά | ἐν συμφοραῖς (in misfortunes)"
+            },
+            {
+              "word": "ἁλίσκονται",
+              "kind": "en",
+              "value": "are caught (in)"
+            },
+            {
+              "word": "ἀλλʼ",
+              "kind": "=",
+              "value": "ἀλλά"
+            },
+            {
+              "word": "οὐδὲν",
+              "kind": "en",
+              "value": "not at all (adverbial)"
+            },
+            {
+              "word": "ἐπιλύεται",
+              "kind": "en",
+              "value": "frees (them) from"
+            },
+            {
+              "word": "ἡλικία",
+              "kind": "en",
+              "value": "age (ἡ ἡλικία)"
+            },
+            {
+              "word": "οὐχὶ",
+              "kind": "=",
+              "value": "οὐ (emphatic form); τὸ μὴ οὐχὶ ἀγανακτεῖν 'from being vexed'"
+            }
+          ]
+        },
+        {
+          "text": "Σωκράτης: ἔστι ταῦτα.",
+          "orig": [
+            15
+          ],
+          "glosses": [
+            {
+              "word": "ἔστι",
+              "kind": "note",
+              "value": "ἔστι ταῦτα: that is so (ἔστι accented at the start: 'it is the case')"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "θανατος",
+      "gloss_grc": "ὁ θάνατος ↔ ὁ βίος · πρὸ τοῦ θανάτου"
+    },
+    {
+      "id": "κρινω",
+      "gloss_grc": "κρίνω, κρινῶ, ἔκρινα · ἐκρίθην · οἱ Ἀθηναῖοι τὸν Σωκράτη ἔκριναν"
+    },
+    {
+      "id": "καιρος",
+      "gloss_grc": "ὁ καιρός · νῦν καιρός ἐστιν (now is the moment)"
+    },
+    {
+      "id": "δεχομαι",
+      "gloss_grc": "δέχομαι, δέξομαι, ἐδεξάμην · ὁ φύλαξ τὸν Κρίτωνα δέχεται"
+    },
+    {
+      "id": "εαω",
+      "gloss_grc": "ἐάω (+ infinitive), imperfect εἴων · ὁ Κρίτων τὸν Σωκράτη καθεύδειν εἴα"
+    },
+    {
+      "id": "φανερος",
+      "gloss_grc": "φανερός, -ά, -όν (< φαίνω) · φανερόν ἐστιν ὅτι …"
+    },
+    {
+      "id": "προσηκω",
+      "gloss_grc": "προσήκει + dative + infinitive: it befits · οὐ προσήκει γέροντι ἀγανακτεῖν"
+    },
+    {
+      "id": "καν",
+      "gloss_grc": "κἄν = καὶ ἐάν (even if) · κἂν ἀποθνῄσκειν δέῃ, οὐκ ἀγανακτεῖ"
+    }
+  ],
+  "notice": [
+    "οὐδʼ ἂν αὐτὸς ἤθελον … εἶναι · πλημμελὲς ἂν εἴη ἀγανακτεῖν",
+    "διὰ τὸ πολλάκις δεῦρο φοιτᾶν · τὸ μὴ οὐχὶ ἀγανακτεῖν",
+    "ἐπίτηδές σε οὐκ ἤγειρον ἵνα ὡς ἥδιστα διάγῃς",
+    "πάνυ μὲν οὖν · καὶ γὰρ ἄν · οὐ μὰ τὸν Δία"
+  ],
+  "grammar": {
+    "md": "Plato writes conversation, and conversation lives on small words and moods. Crito's answers are short; his long speech (the third paragraph) is one of the most natural pieces of Attic you will read.\n\n**Particles.** πάνυ μὲν οὖν 'yes indeed'; καὶ γάρ 'yes, for …'; οὐ μὰ τὸν Δία 'no, by Zeus'; εἶτα 'and then (how come)?'; δή adds weight ('very often'). Read them as tone of voice, not as words to translate one by one.\n\n**ἄν.** Two uses in this passage:\n\n| Greek | mood | meaning |\n|---|---|---|\n| οὐδʼ ἂν αὐτὸς ἤθελον … | ἄν + imperfect | unreal present: 'I would not want to (if it were up to me)' |\n| πλημμελὲς ἂν εἴη | ἄν + optative | potential: 'it would be out of tune' |\n\n**The articular infinitive.** διὰ τὸ πολλάκις δεῦρο φοιτᾶν 'because of my coming here often'; τὸ μὴ οὐχὶ ἀγανακτεῖν 'from being vexed' (after a negatived verb of freeing or hindering, μὴ οὐ).\n\n**Purpose.** ἵνα ὡς ἥδιστα διάγῃς: ἵνα + subjunctive. After a past verb (ἤγειρον) Greek may keep the subjunctive to make the purpose vivid.\n\n**Genitive of cause.** σοῦ θαυμάζω 'I admire you'; ηὐδαιμόνισα (σε) τοῦ τρόπου 'I counted you happy for your character'.\n\n**Perfects.** ἀφῖξαι 'you have come (and are here)'; εὐεργέτηται 'he has been treated kindly'; ἡ νῦν παρεστῶσα συμφορά 'the misfortune now at hand' (perfect participle of παρίστημι, like ἕστηκα).",
+    "paradigms": [
+      "eimi",
+      "luo"
+    ],
+    "diagram": "diagram-moods"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings (Plato's sentences).",
+      "template": "θαυμάζ___ ὅπως ἠθέλησέ σοι ὁ φύλαξ ὑπακοῦσαι. ἄρτι δὲ ἥκ___ ἢ πάλαι; ἐπίτηδές σε οὐκ ἤγειρ___. ὡς ἡδέως καθεύδ___.",
+      "gaps": [
+        {
+          "answers": [
+            "ω"
+          ]
+        },
+        {
+          "answers": [
+            "εις"
+          ]
+        },
+        {
+          "answers": [
+            "ον"
+          ]
+        },
+        {
+          "answers": [
+            "εις"
+          ]
+        }
+      ],
+      "skills": [
+        "verb.pres.act.ind.1sg",
+        "verb.pres.act.ind.2sg",
+        "verb.impf.act.ind.1sg"
+      ],
+      "explain": "θαυμάζω (I), ἥκεις (you), ἤγειρον (I was waking: imperfect), καθεύδεις (you)."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · καὶ ἐπίτηδές σε οὐκ ἤγειρον ἵνα ὡς ἥδιστα ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "διάγῃς"
+        },
+        {
+          "id": "b",
+          "text": "διάγεις"
+        },
+        {
+          "id": "c",
+          "text": "διῆγες"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.purpose"
+      ],
+      "explain": "ἵνα + subjunctive: purpose. After a past verb the optative is possible, but the subjunctive keeps the purpose vivid.",
+      "audio": "καὶ ἐπίτηδές σε οὐκ ἤγειρον ἵνα ὡς ἥδιστα διάγῃς."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · συνήθης ἤδη μοί ἐστιν διὰ τὸ πολλάκις δεῦρο ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "φοιτᾶν"
+        },
+        {
+          "id": "b",
+          "text": "φοιτᾷ"
+        },
+        {
+          "id": "c",
+          "text": "φοιτῶν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.articular-inf"
+      ],
+      "explain": "διὰ τό + infinitive: 'because of my coming here often'. The article makes the infinitive a noun.",
+      "audio": "συνήθης ἤδη μοί ἐστιν διὰ τὸ πολλάκις δεῦρο φοιτᾶν."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · καὶ γὰρ ἄν, ὦ Κρίτων, πλημμελὲς ___ ἀγανακτεῖν.",
+      "options": [
+        {
+          "id": "a",
+          "text": "εἴη"
+        },
+        {
+          "id": "b",
+          "text": "ἐστί"
+        },
+        {
+          "id": "c",
+          "text": "ᾖ"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-potential"
+      ],
+      "explain": "ἄν + optative: potential, 'it would be out of tune'.",
+      "audio": "καὶ γὰρ ἄν, ὦ Κρίτων, πλημμελὲς εἴη ἀγανακτεῖν."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ θάνατος"
+        },
+        {
+          "id": "b",
+          "text": "ὁ καιρός"
+        },
+        {
+          "id": "c",
+          "text": "ὁ φύλαξ"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.recognition"
+      ],
+      "explain": "ὁ θάνατος: death.",
+      "audio": "ὁ θάνατος"
+    },
+    {
+      "type": "match",
+      "prompt": "Match the new words to their meanings.",
+      "pairs": [
+        {
+          "left": "ὁ θάνατος",
+          "right": "death"
+        },
+        {
+          "left": "κρίνω",
+          "right": "judge, decide"
+        },
+        {
+          "left": "ὁ καιρός",
+          "right": "the right moment"
+        },
+        {
+          "left": "δέχομαι",
+          "right": "receive, accept"
+        },
+        {
+          "left": "ἐάω",
+          "right": "allow, let be"
+        }
+      ],
+      "skills": [
+        "vocab.recognition",
+        "vocab.stage2"
+      ],
+      "explain": "θάνατος, κρίνω, καιρός, δέχομαι, ἐάω."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the imperfect of ἐάω for 'I was letting (you sleep)'.",
+      "lemma": "ἐάω",
+      "cell": "imperfect.active.indicative.1sg",
+      "skills": [
+        "vocab.production",
+        "verb.augment"
+      ],
+      "explain": "εἴων: ἐάω augments to ει- (like ἔχω → εἶχον), then contracts: ε-ε-α-ον → εἴων.",
+      "audio": "εἴων"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist of κρίνω for 'they judged'.",
+      "lemma": "κρίνω",
+      "cell": "aorist.active.indicative.3pl",
+      "skills": [
+        "vocab.production",
+        "verb.aor1.liquid"
+      ],
+      "explain": "ἔκριναν: a liquid aorist, no σ (ἔμεινα, ἔκρινα).",
+      "audio": "ἔκριναν"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist of δέχομαι for 'he received'.",
+      "lemma": "δέχομαι",
+      "cell": "aorist.middle.indicative.3sg",
+      "skills": [
+        "vocab.production",
+        "verb.deponent"
+      ],
+      "explain": "ἐδέξατο: χ + σ → ξ, middle endings.",
+      "audio": "ἐδέξατο"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἀφῖξαι.",
+      "form": "ἀφῖξαι",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "perf",
+        "person": "2sg"
+      },
+      "skills": [
+        "verb.perf.reduplication",
+        "read.plato"
+      ],
+      "explain": "ἀφῖγμαι, ἀφῖξαι, ἀφῖκται: perfect of ἀφικνέομαι, 'you have come, you are here'. (Not the aorist infinitive: that would be ἀφικέσθαι.)",
+      "audio": "ἀφῖξαι"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse εἴη.",
+      "form": "εἴη",
+      "groups": [
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "mood": "opt",
+        "person": "3sg"
+      },
+      "skills": [
+        "syntax.opt-potential",
+        "verb.pres.act.opt.3sg"
+      ],
+      "explain": "εἴη: present optative of εἰμί; with ἄν, 'it would be'.",
+      "audio": "εἴη"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse διάγῃς.",
+      "form": "διάγῃς",
+      "groups": [
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "mood": "subj",
+        "person": "2sg"
+      },
+      "skills": [
+        "syntax.purpose"
+      ],
+      "explain": "δι-άγ-ῃς: present subjunctive 2nd singular (the long vowel -ῃ-), in a ἵνα clause.",
+      "audio": "διάγῃς"
+    },
+    {
+      "type": "label",
+      "prompt": "οὐδʼ ἂν αὐτὸς ἤθελον ἐν τοσαύτῃ ἀγρυπνίᾳ εἶναι. What does ἄν + imperfect express?",
+      "options": [
+        {
+          "id": "a",
+          "text": "something unreal in the present: 'I would not want (if I had the choice)'"
+        },
+        {
+          "id": "b",
+          "text": "a repeated action in the past"
+        },
+        {
+          "id": "c",
+          "text": "a wish for the future"
+        },
+        {
+          "id": "d",
+          "text": "purpose"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.cond.cf-present"
+      ],
+      "explain": "ἄν + imperfect is the main clause of a present contrary-to-fact condition; the 'if' is understood."
+    },
+    {
+      "type": "label",
+      "prompt": "πλημμελὲς ἂν εἴη ἀγανακτεῖν. ἄν + optative is …",
+      "options": [
+        {
+          "id": "a",
+          "text": "potential: 'it would be'"
+        },
+        {
+          "id": "b",
+          "text": "a wish: 'may it be'"
+        },
+        {
+          "id": "c",
+          "text": "indirect speech"
+        },
+        {
+          "id": "d",
+          "text": "purpose"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-potential"
+      ],
+      "explain": "The potential optative states politely what would be the case."
+    },
+    {
+      "type": "label",
+      "prompt": "διὰ τὸ πολλάκις δεῦρο φοιτᾶν. What is τὸ φοιτᾶν?",
+      "options": [
+        {
+          "id": "a",
+          "text": "an articular infinitive: a verb used as a noun"
+        },
+        {
+          "id": "b",
+          "text": "an attributive participle"
+        },
+        {
+          "id": "c",
+          "text": "an imperative"
+        },
+        {
+          "id": "d",
+          "text": "an indirect statement"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.articular-inf"
+      ],
+      "explain": "τό + infinitive is a neuter noun: 'the coming here often'; διά + accusative 'because of'."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "Κρίτων: πάνυ μὲν οὖν. This answers «ἢ οὐ πρῲ ἔτι ἐστίν;» with …",
+      "options": [
+        {
+          "id": "a",
+          "text": "yes, it is very early"
+        },
+        {
+          "id": "b",
+          "text": "no, it is late"
+        },
+        {
+          "id": "c",
+          "text": "I don't know"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.particles"
+      ],
+      "explain": "μὲν οὖν in an answer strengthens it: 'yes, certainly'."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "θαυμάζω σοῦ, ___ ἡδέως καθεύδεις.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὡς"
+        },
+        {
+          "id": "b",
+          "text": "ἵνα"
+        },
+        {
+          "id": "c",
+          "text": "εἰ"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.hos"
+      ],
+      "explain": "ὡς 'how': 'I admire you, how sweetly you sleep'."
+    },
+    {
+      "type": "transform",
+      "prompt": "Say it with ἐάω: 'I did not wake you' → 'I let you sleep': σε καθεύδειν ___. (imperfect, 1st singular)",
+      "template": "σε καθεύδειν ___.",
+      "gaps": [
+        {
+          "answers": [
+            "εἴων"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "verb.impf.act.ind.1sg"
+      ],
+      "explain": "ἐάω + infinitive: σε καθεύδειν εἴων 'I let you go on sleeping'."
+    },
+    {
+      "type": "transform",
+      "prompt": "Use the articular infinitive: 'because of sleeping sweetly' → διὰ τὸ ἡδέως ___",
+      "template": "διὰ τὸ ἡδέως ___",
+      "gaps": [
+        {
+          "answers": [
+            "καθεύδειν"
+          ]
+        }
+      ],
+      "skills": [
+        "syntax.articular-inf",
+        "verb.pres.act.inf"
+      ],
+      "explain": "διὰ τὸ ἡδέως καθεύδειν, like διὰ τὸ πολλάκις δεῦρο φοιτᾶν."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the two infinitives.",
+      "sentence": "Σωκράτης: καὶ γὰρ ἄν, ὦ Κρίτων, πλημμελὲς εἴη ἀγανακτεῖν τηλικοῦτον ὄντα εἰ δεῖ ἤδη τελευτᾶν.",
+      "answer": [
+        8,
+        14
+      ],
+      "skills": [
+        "read.locate",
+        "syntax.infinitive"
+      ],
+      "explain": "ἀγανακτεῖν (subject of ἂν εἴη) and τελευτᾶν (after δεῖ). ὄντα is a participle."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the article and the infinitive that belong together.",
+      "sentence": "Κρίτων: συνήθης ἤδη μοί ἐστιν, ὦ Σώκρατες, διὰ τὸ πολλάκις δεῦρο φοιτᾶν, καί τι καὶ εὐεργέτηται ὑπʼ ἐμοῦ.",
+      "answer": [
+        8,
+        11
+      ],
+      "skills": [
+        "read.locate",
+        "syntax.articular-inf"
+      ],
+      "explain": "τὸ … φοιτᾶν frames πολλάκις δεῦρο: 'the coming here often'."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the two verbs addressed to 'you'.",
+      "sentence": "Σωκράτης: εἶτα πῶς οὐκ εὐθὺς ἐπήγειράς με, ἀλλὰ σιγῇ παρακάθησαι;",
+      "answer": [
+        5,
+        9
+      ],
+      "skills": [
+        "read.locate",
+        "read.plato"
+      ],
+      "explain": "ἐπήγειρας (aorist, 'you woke') and παρακάθησαι ('you sit by'); με is the object."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'Socrates is not afraid of death.'",
+      "tokens": [
+        "ὁ",
+        "Σωκράτης",
+        "τὸν",
+        "θάνατον",
+        "οὐ",
+        "φοβεῖται"
+      ],
+      "answers": [
+        "ὁ Σωκράτης τὸν θάνατον οὐ φοβεῖται",
+        "ὁ Σωκράτης οὐ φοβεῖται τὸν θάνατον",
+        "τὸν θάνατον ὁ Σωκράτης οὐ φοβεῖται",
+        "τὸν θάνατον οὐ φοβεῖται ὁ Σωκράτης"
+      ],
+      "skills": [
+        "syntax.word-order",
+        "vocab.production"
+      ],
+      "explain": "ὁ Σωκράτης τὸν θάνατον οὐ φοβεῖται."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἄρτι δὲ ἥκεις ἢ πάλαι;"
+        },
+        {
+          "id": "b",
+          "text": "ἄρτι δὲ καθεύδεις ἢ πάλαι;"
+        },
+        {
+          "id": "c",
+          "text": "πάλαι δὲ ἥκεις ἢ ἄρτι;"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "Have you just come, or a while ago?",
+      "audio": "ἄρτι δὲ ἥκεις ἢ πάλαι;"
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Κρίτων τὸν Σωκράτη εὐθὺς ἐπήγειρεν.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "He sat in silence: ἐπίτηδές σε οὐκ ἤγειρον."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ φύλαξ συνήθης ἐστὶ τῷ Κρίτωνι.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "συνήθης ἤδη μοί ἐστιν … διὰ τὸ πολλάκις δεῦρο φοιτᾶν."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "gaps": [
+        {
+          "answers": [
+            "ὄρθρος βαθύς"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "ὄρθρος βαθύς: 'deep dawn', still dark.",
+      "audio": "ὄρθρος βαθύς."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'Now is the right moment.'",
+      "gaps": [
+        {
+          "answers": [
+            "νῦν καιρός ἐστιν",
+            "νῦν καιρός ἐστι",
+            "καιρός ἐστι νῦν",
+            "καιρός ἐστιν νῦν",
+            "νῦν ὁ καιρός ἐστιν",
+            "νῦν ὁ καιρός ἐστι",
+            "νῦν καιρός"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "vocab.stage2"
+      ],
+      "explain": "νῦν καιρός ἐστιν: enclitic ἐστιν after καιρός (καιρός ἐστιν)."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'The guard received Crito.'",
+      "gaps": [
+        {
+          "answers": [
+            "ὁ φύλαξ τὸν Κρίτωνα ἐδέξατο",
+            "ὁ φύλαξ ἐδέξατο τὸν Κρίτωνα",
+            "τὸν Κρίτωνα ὁ φύλαξ ἐδέξατο",
+            "τὸν Κρίτωνα ἐδέξατο ὁ φύλαξ"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "vocab.stage2",
+        "verb.deponent"
+      ],
+      "explain": "ὁ φύλαξ τὸν Κρίτωνα ἐδέξατο."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: Σωκράτης: θαυμάζω ὅπως ἠθέλησέ σοι ὁ τοῦ δεσμωτηρίου φύλαξ ὑπακοῦσαι.",
+      "audio": "Σωκράτης: θαυμάζω ὅπως ἠθέλησέ σοι ὁ τοῦ δεσμωτηρίου φύλαξ ὑπακοῦσαι.",
+      "model": "Socrates: I am surprised that the prison guard was willing to let you in.",
+      "skills": [
+        "read.connected",
+        "read.original",
+        "read.plato"
+      ],
+      "explain": "θαυμάζω ὅπως 'I wonder how'; ἠθέλησε (aorist of ἐθέλω) + infinitive ὑπακοῦσαι; σοι goes with ὑπακοῦσαι."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: Σωκράτης: καὶ γὰρ ἄν, ὦ Κρίτων, πλημμελὲς εἴη ἀγανακτεῖν τηλικοῦτον ὄντα εἰ δεῖ ἤδη τελευτᾶν.",
+      "audio": "Σωκράτης: καὶ γὰρ ἄν, ὦ Κρίτων, πλημμελὲς εἴη ἀγανακτεῖν τηλικοῦτον ὄντα εἰ δεῖ ἤδη τελευτᾶν.",
+      "model": "Socrates: Yes, Crito, it would be out of tune for a man of my age to resent it if he must die now.",
+      "skills": [
+        "read.connected",
+        "read.original",
+        "read.plato",
+        "syntax.opt-potential"
+      ],
+      "explain": "καὶ γάρ 'yes, for'; ἂν εἴη potential; τηλικοῦτον ὄντα 'being so old' (accusative with the infinitive understood); εἰ δεῖ 'if it is necessary'."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "ὁ θάνατος",
+          "right": "euthanasia"
+        },
+        {
+          "left": "κρίνω",
+          "right": "critic, crisis"
+        },
+        {
+          "left": "φανερός (< φαίνω)",
+          "right": "phenomenon"
+        },
+        {
+          "left": "ἡ ἀγρυπνία (< ὕπνος)",
+          "right": "hypnosis"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "εὐ-θανασία 'a good death'; κριτής 'judge', κρίσις 'decision'; φαινόμενον 'what appears'; ὕπνος 'sleep'."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "πότε ἀφικνεῖται ὁ Κρίτων;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὄρθρου βαθέος."
+        },
+        {
+          "id": "b",
+          "text": "ἑσπέρας."
+        },
+        {
+          "id": "c",
+          "text": "μέσης ἡμέρας."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ὄρθρος βαθύς.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "διὰ τί ὁ φύλαξ τὸν Κρίτωνα δέχεται;",
+      "options": [
+        {
+          "id": "a",
+          "text": "συνήθης αὐτῷ ἐστιν ὁ Κρίτων καὶ εὐεργέτηκεν αὐτόν."
+        },
+        {
+          "id": "b",
+          "text": "ὁ Κρίτων φύλαξ ἐστίν."
+        },
+        {
+          "id": "c",
+          "text": "ὁ Σωκράτης αὐτὸν ἐκέλευσεν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "vocab.stage2"
+      ],
+      "explain": "συνήθης ἤδη μοί ἐστιν … καί τι καὶ εὐεργέτηται ὑπʼ ἐμοῦ.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί ἐποίει ὁ Σωκράτης, ὅτε ὁ Κρίτων παρεκάθητο;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐκάθευδεν."
+        },
+        {
+          "id": "b",
+          "text": "ἔγραφεν."
+        },
+        {
+          "id": "c",
+          "text": "ἔκλαιεν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ὡς ἡδέως καθεύδεις.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "διὰ τί ὁ Κρίτων οὐκ ἐπήγειρε τὸν Σωκράτη;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἵνα ὡς ἥδιστα διάγοι."
+        },
+        {
+          "id": "b",
+          "text": "ὁ φύλαξ οὐκ εἴα."
+        },
+        {
+          "id": "c",
+          "text": "ὁ Κρίτων ἐφοβεῖτο."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "syntax.purpose"
+      ],
+      "explain": "ἐπίτηδές σε οὐκ ἤγειρον ἵνα ὡς ἥδιστα διάγῃς. (In the question, after a past verb, the optative διάγοι.)",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "πῶς φέρει ὁ Σωκράτης τὴν συμφοράν;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ῥᾳδίως καὶ πρᾴως."
+        },
+        {
+          "id": "b",
+          "text": "χαλεπῶς."
+        },
+        {
+          "id": "c",
+          "text": "κλαίων."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ὡς ῥᾳδίως αὐτὴν καὶ πρᾴως φέρεις.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "διὰ τί οὐ προσήκει τῷ Σωκράτει ἀγανακτεῖν;",
+      "options": [
+        {
+          "id": "a",
+          "text": "τηλικοῦτός ἐστιν."
+        },
+        {
+          "id": "b",
+          "text": "νεανίας ἐστίν."
+        },
+        {
+          "id": "c",
+          "text": "ὁ φύλαξ φίλος ἐστίν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "vocab.stage2"
+      ],
+      "explain": "πλημμελὲς ἂν εἴη ἀγανακτεῖν τηλικοῦτον ὄντα.",
+      "audio": "prompt"
+    }
+  ],
+  "culture": {
+    "title": "Crito's visit",
+    "md": "In the spring of 399 BC Socrates, about seventy, was tried before a jury of 500 (or 501) Athenians on the charge of not recognising the city's gods, bringing in new divinities and corrupting the young. He was convicted and condemned to death. The execution was delayed for about a month: on the day before the trial the priest of Apollo had garlanded the sacred ship for its yearly mission to Delos in memory of Theseus, and no one could be put to death until it came back.\n\nThe **Crito** is set in the prison, at dawn, near the end of that month. Crito, Socrates' old friend, a rich man of the same age and the same deme, Alopeke, has come to tell him that the ship will soon arrive, and to beg him to escape: the money and the helpers are ready. Socrates refuses. We must never do wrong, he argues, not even in return for a wrong, and he imagines the Laws of Athens speaking to him, asking whether he will break the agreement he has kept all his life.\n\nPlato, who was about twenty-eight in 399, wrote the dialogue some years later. Our Lysis, who as a boy questioned Socrates in the Agora in 430, would have been about forty-five when Socrates died.",
+    "image": "culture-12-3-socrates-portrait"
+  },
+  "quiz": [
+    {
+      "type": "produce-form",
+      "prompt": "Give the genitive singular of θάνατος: πρὸ τοῦ ___.",
+      "lemma": "θάνατος",
+      "cell": "gen.sg",
+      "skills": [
+        "vocab.production",
+        "noun.decl2.gen.sg"
+      ],
+      "explain": "θανάτου.",
+      "audio": "θανάτου"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἂν ___: 'it would be'.",
+      "options": [
+        {
+          "id": "a",
+          "text": "εἴη"
+        },
+        {
+          "id": "b",
+          "text": "ἦν"
+        },
+        {
+          "id": "c",
+          "text": "ἔσται"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-potential"
+      ],
+      "explain": "ἄν + optative, potential."
+    },
+    {
+      "type": "label",
+      "prompt": "κἂν δέῃ τελευτᾶν, οὐκ ἀγανακτεῖ. κἄν = …",
+      "options": [
+        {
+          "id": "a",
+          "text": "καὶ ἐάν, 'even if'"
+        },
+        {
+          "id": "b",
+          "text": "καὶ ἄν, potential"
+        },
+        {
+          "id": "c",
+          "text": "καὶ ὅτι, 'and that'"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.ean",
+        "vocab.stage2"
+      ],
+      "explain": "κἄν is crasis of καὶ ἐάν."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Σωκράτης ἡδέως ἐκάθευδεν.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "αἰσθανόμενος ὡς ἡδέως καθεύδεις."
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἔκριναν.",
+      "form": "ἔκριναν",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "person": "3pl"
+      },
+      "skills": [
+        "verb.aor1.liquid",
+        "verb.aor.act.ind.3pl"
+      ],
+      "explain": "ἔ-κριν-αν: liquid aorist, 3rd plural.",
+      "audio": "ἔκριναν"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "φανερὸν ἦν ὅτι ὁ Σωκράτης οὐκ ἐφοβεῖτο. φανερόν means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "clear, evident"
+        },
+        {
+          "id": "b",
+          "text": "strange"
+        },
+        {
+          "id": "c",
+          "text": "difficult"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition",
+        "vocab.stage2"
+      ],
+      "explain": "φανερός 'visible, clear' (< φαίνω)."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "πάνυ μὲν οὖν."
+        },
+        {
+          "id": "b",
+          "text": "πάλαι μὲν οὖν."
+        },
+        {
+          "id": "c",
+          "text": "πῶς μὲν οὖν;"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "Yes, certainly.",
+      "audio": "πάνυ μὲν οὖν."
+    }
+  ],
+  "skills": [
+    "read.connected",
+    "read.original",
+    "read.plato",
+    "read.comprehension",
+    "read.locate",
+    "syntax.particles",
+    "syntax.opt-potential",
+    "syntax.cond.cf-present",
+    "syntax.articular-inf",
+    "syntax.purpose",
+    "syntax.hos",
+    "verb.aor1.liquid",
+    "verb.augment",
+    "listen.words",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.stage2",
+    "vocab.family"
+  ]
+}

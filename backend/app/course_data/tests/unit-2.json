@@ -1,0 +1,64 @@
+{
+  "id": "unit-2",
+  "title_grc": "Ὁ οἶκος · ἔλεγχος",
+  "title_en": "Unit 2 test",
+  "scope": "2.4",
+  "pass_score": 0.8,
+  "unlock_after_hours": 24,
+  "retake_after_days": 7,
+  "blurb": "Everything from Lessons 2.1–2.4: a day at home, the slaves, the grandfather's story, dinner. I / you / we / you all, plurals, commands, contract verbs and αὐτός. Four parts; no feedback until the end. 80 % to pass.",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Λέξεις · Vocabulary",
+      "items": [
+        {"type": "pick-picture", "prompt": "τράπεζα", "audio": "prompt", "options": [{"id": "a", "image": "kline"}, {"id": "b", "image": "trapeza"}, {"id": "c", "image": "thyra"}, {"id": "d", "image": "hydria"}], "answer": "b", "skills": ["vocab.recognition"], "explain": "τράπεζα: table."},
+        {"type": "pick-picture", "prompt": "ἀετός", "audio": "prompt", "options": [{"id": "a", "image": "kyon"}, {"id": "b", "image": "hippos"}, {"id": "c", "image": "aetos"}, {"id": "d", "image": "pappos"}], "answer": "c", "skills": ["vocab.recognition"], "explain": "ἀετός: eagle."},
+        {"type": "pick-picture", "prompt": "κλέπτει", "audio": "prompt", "options": [{"id": "a", "image": "verb-kleptei"}, {"id": "b", "image": "verb-luei"}, {"id": "c", "image": "verb-diokei"}, {"id": "d", "image": "verb-speudei"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "κλέπτει: steals."},
+        {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ἑσπέρα", "options": [{"id": "a", "text": "ἡμέρα"}, {"id": "b", "text": "ἑσπέρα"}, {"id": "c", "text": "ὑδρία"}], "answer": "b", "skills": ["listen.words"], "explain": "ἑσπέρα: evening."},
+        {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "οἱ δοῦλοι ἐν τῷ ἀγρῷ πονοῦσιν.", "options": [{"id": "a", "text": "οἱ δοῦλοι ἐν τῷ ἀγρῷ πονοῦσιν."}, {"id": "b", "text": "οἱ δοῦλοι ἐν τῇ ἀγορᾷ πονοῦσιν."}, {"id": "c", "text": "ὁ δοῦλος ἐν τῷ ἀγρῷ πονεῖ."}], "answer": "a", "skills": ["listen.sentences"], "explain": "The slaves work in the field."},
+        {"type": "match", "prompt": "Match the Greek to the English.", "pairs": [{"left": "σπεύδει", "right": "hurries"}, {"left": "παίζει", "right": "plays"}, {"left": "ἐσθίει", "right": "eats"}, {"left": "φυλάττει", "right": "guards"}, {"left": "μένει", "right": "stays"}], "skills": ["vocab.recognition"], "explain": "σπεύδει, παίζει, ἐσθίει, φυλάττει, μένει."},
+        {"type": "cloze-type", "prompt": "Type the Greek for 'grandfather' (with its article).", "gaps": [{"answers": ["ὁ πάππος", "πάππος"]}], "skills": ["vocab.production"], "explain": "ὁ πάππος.", "audio": "ὁ πάππος"},
+        {"type": "cloze-type", "prompt": "Type the Greek for 'wine' (with its article).", "gaps": [{"answers": ["ὁ οἶνος", "οἶνος"]}], "skills": ["vocab.production"], "explain": "ὁ οἶνος.", "audio": "ὁ οἶνος"}
+      ]
+    },
+    {
+      "id": "forms",
+      "title": "Τύποι · Forms",
+      "items": [
+        {"type": "parse", "prompt": "Parse δούλων.", "form": "δούλων", "groups": [{"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "dat", "label": "dative"}, {"id": "acc", "label": "accusative"}]}, {"id": "number", "label": "Number", "options": [{"id": "sg", "label": "singular"}, {"id": "pl", "label": "plural"}]}], "answer": {"case": "gen", "number": "pl"}, "skills": ["noun.decl2.gen.pl"], "explain": "-ων: genitive plural, 'of the slaves'.", "audio": "δούλων"},
+        {"type": "parse", "prompt": "Parse ποιεῖτε.", "form": "ποιεῖτε", "groups": [{"id": "person", "label": "Who?", "options": [{"id": "1pl", "label": "we"}, {"id": "2pl", "label": "you (several)"}, {"id": "3pl", "label": "they"}]}], "answer": {"person": "2pl"}, "skills": ["verb.contract.e", "verb.pres.act.ind.2pl"], "explain": "-εῖτε (= ε + ετε): you (all) make; or, as a command, make!", "audio": "ποιεῖτε"}
+      ],
+      "generate": {"skills": ["noun.decl2.nom.pl", "noun.decl1.acc.pl", "art.gen.pl", "art.acc.pl", "verb.pres.act.ind.1sg", "verb.pres.act.ind.2pl", "verb.pres.act.imp.2sg", "verb.eimi.pres.ind.2sg"], "n": 8, "seed": 2}
+    },
+    {
+      "id": "sentences",
+      "title": "Λόγοι · Sentences",
+      "items": [
+        {"type": "cloze-choice", "prompt": "ἐγὼ μὲν πονῶ, σὺ ___ παίζεις.", "options": [{"id": "a", "text": "δέ"}, {"id": "b", "text": "μέν"}, {"id": "c", "text": "γάρ"}], "answer": "a", "skills": ["syntax.men-de"], "explain": "μέν … δέ."},
+        {"type": "cloze-choice", "prompt": "___ σὺ καθεύδεις; — οὐ καθεύδω.", "options": [{"id": "a", "text": "ἆρα"}, {"id": "b", "text": "ποῦ"}, {"id": "c", "text": "τίς"}], "answer": "a", "skills": ["syntax.question"], "explain": "A yes/no question: ἆρα."},
+        {"type": "cloze-choice", "prompt": "ὦ Λάβρε, ___ τρέχε!", "options": [{"id": "a", "text": "μή"}, {"id": "b", "text": "οὐ"}, {"id": "c", "text": "οὐκ"}], "answer": "a", "skills": ["syntax.imperative", "syntax.negation"], "explain": "Prohibitions take μή."},
+        {"type": "cloze-choice", "prompt": "τὰ ἔργα ___ δούλων χαλεπά ἐστιν.", "options": [{"id": "a", "text": "τῶν"}, {"id": "b", "text": "τοῦ"}, {"id": "c", "text": "τούς"}], "answer": "a", "skills": ["art.gen.pl", "syntax.possession.gen"], "explain": "'of the slaves': τῶν δούλων."},
+        {"type": "transform", "prompt": "Make it 'we': ἐγὼ ἐν ταῖς Ἀθήναις οἰκῶ. → ἡμεῖς ἐν ταῖς Ἀθήναις …", "template": "ἡμεῖς ἐν ταῖς Ἀθήναις ___.", "gaps": [{"answers": ["οἰκοῦμεν"]}], "skills": ["verb.contract.e", "verb.pres.act.ind.1pl"], "explain": "οἰκοῦμεν."},
+        {"type": "transform", "prompt": "Make it a command: ὁ παῖς ἀκούει. → ὦ παῖ, …", "template": "ὦ παῖ, ___.", "gaps": [{"answers": ["ἄκουε"]}], "skills": ["verb.pres.act.imp.2sg", "syntax.imperative"], "explain": "ἄκουε: listen!"},
+        {"type": "reorder", "prompt": "Put the words in order: 'The slaves carry the water jars.'", "tokens": ["φέρουσιν", "οἱ", "τὰς", "δοῦλοι", "ὑδρίας"], "answers": ["οἱ δοῦλοι τὰς ὑδρίας φέρουσιν", "τὰς ὑδρίας οἱ δοῦλοι φέρουσιν", "οἱ δοῦλοι φέρουσιν τὰς ὑδρίας"], "skills": ["syntax.word-order", "noun.decl2.nom.pl", "noun.decl1.acc.pl"], "explain": "οἱ δοῦλοι τὰς ὑδρίας φέρουσιν."},
+        {"type": "compose-grc", "prompt": "Write in Greek: 'Labros sees the cheese and eats it.'", "gaps": [{"answers": ["ὁ Λάβρος τὸν τυρὸν ὁρᾷ καὶ αὐτὸν ἐσθίει", "ὁ Λάβρος ὁρᾷ τὸν τυρὸν καὶ ἐσθίει αὐτόν", "ὁ Λάβρος ὁρᾷ τὸν τυρὸν καὶ αὐτὸν ἐσθίει", "ὁ Λάβρος τὸν τυρὸν ὁρᾷ καὶ ἐσθίει αὐτόν"]}], "skills": ["vocab.production", "pron.autos", "verb.contract.a"], "explain": "ὁ Λάβρος τὸν τυρὸν ὁρᾷ καὶ αὐτὸν ἐσθίει."}
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Ἀνάγνωσις · Reading",
+      "passage_title": "ἡ Θρᾷττα",
+      "passage": "ἡ Θρᾷττα δούλη ἐστίν· ἐν τῇ οἰκίᾳ τοῦ Ἀρίστωνος οἰκεῖ. ἡμέρα ἐστίν· ἡ Θρᾷττα πρῶτον μὲν ἐκ τῆς κλίνης βαίνει, ἔπειτα δὲ τὴν ὑδρίαν λαμβάνει καὶ εἰς τὴν κρήνην σπεύδει. αἱ κόραι ἐν τῇ κρήνῃ λέγουσιν· «χαῖρε, ὦ Θρᾷττα· ἆρα σὺ ἀεὶ τὸ ὕδωρ φέρεις;» ἡ δὲ Θρᾷττα λέγει· «ναί· ἐγὼ μὲν τὸ ὕδωρ φέρω, ὁ δὲ Σύρος τὸν πηλὸν φέρει. τὰ ἔργα ἡμῶν χαλεπά ἐστιν.» ἑσπέρα ἐστίν· ἡ Θρᾷττα τὸ δεῖπνον ποιεῖ· ἄρτον καὶ ἐλαίας καὶ τυρὸν φέρει. ὁ Λάβρος τὸν τυρὸν ὁρᾷ. ἡ Θρᾷττα βοᾷ· «ὦ Λάβρε, μὴ κλέπτε τὸν τυρόν! τὴν θύραν φύλαττε!» ὁ δὲ κύων οὐκ ἀκούει, ἀλλὰ τὸν τυρὸν λαμβάνει καὶ αὐτὸν ἐσθίει. ἡ Θρᾷττα λέγει· «ὁ κύων ἀεὶ ὁ αὐτός ἐστιν.»",
+      "items": [
+        {"type": "true-false-grc", "prompt": "ἡ Θρᾷττα ἐλευθέρα ἐστίν.", "answer": "false", "skills": ["read.comprehension"], "explain": "δούλη ἐστίν."},
+        {"type": "true-false-grc", "prompt": "ἡ Θρᾷττα τὸ ὕδωρ ἐκ τῆς κρήνης φέρει.", "answer": "true", "skills": ["read.comprehension"], "explain": "τὴν ὑδρίαν λαμβάνει καὶ εἰς τὴν κρήνην σπεύδει· «ἐγὼ μὲν τὸ ὕδωρ φέρω …»"},
+        {"type": "true-false-grc", "prompt": "ὁ Λάβρος τὴν θύραν φυλάττει.", "answer": "false", "skills": ["read.comprehension", "syntax.imperative"], "explain": "ἡ Θρᾷττα λέγει «φύλαττε», ὁ δὲ κύων οὐκ ἀκούει, ἀλλὰ τὸν τυρὸν ἐσθίει."},
+        {"type": "answer-grc", "prompt": "τίς τὸν πηλὸν φέρει;", "options": [{"id": "a", "text": "ὁ Σύρος."}, {"id": "b", "text": "ἡ Θρᾷττα."}, {"id": "c", "text": "ὁ Λάβρος."}], "answer": "a", "skills": ["read.comprehension", "syntax.men-de"], "explain": "ἐγὼ μὲν τὸ ὕδωρ φέρω, ὁ δὲ Σύρος τὸν πηλὸν φέρει."},
+        {"type": "answer-grc", "prompt": "τί ποιεῖ ἡ Θρᾷττα;", "options": [{"id": "a", "text": "τὸ δεῖπνον ποιεῖ."}, {"id": "b", "text": "τὴν κύλικα ποιεῖ."}, {"id": "c", "text": "μῦθον λέγει."}], "answer": "a", "skills": ["read.comprehension", "verb.contract.e"], "explain": "ἑσπέρα ἐστίν· ἡ Θρᾷττα τὸ δεῖπνον ποιεῖ."},
+        {"type": "translate-en", "prompt": "Translate: ἐγὼ μὲν τὸ ὕδωρ φέρω, ὁ δὲ Σύρος τὸν πηλὸν φέρει.", "model": "I carry the water, and (while) Syros carries the clay.", "skills": ["read.comprehension", "syntax.men-de", "verb.pres.act.ind.1sg"], "explain": "μέν … δέ balances the two halves; φέρω 'I carry', φέρει 'he carries'."},
+        {"type": "translate-en", "prompt": "Translate: ὦ Λάβρε, μὴ κλέπτε τὸν τυρόν! τὴν θύραν φύλαττε!", "model": "Labros, don't steal the cheese! Guard the door!", "skills": ["read.comprehension", "syntax.imperative", "noun.voc"], "explain": "μή + imperative = don't; φύλαττε is a command to one (dog)."}
+      ]
+    }
+  ]
+}

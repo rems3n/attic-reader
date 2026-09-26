@@ -1,0 +1,9 @@
+{
+ "skills": [
+  {"id": "vocab.hist", "label": "History track vocabulary (war, ships, armies, peace)"},
+  {"id": "read.hist.antithesis", "label": "Thucydides' antitheses (λόγῳ ↔ ἔργῳ, μέν … δέ, οὐ … ἀλλά)"},
+  {"id": "read.hist.narrative", "label": "Following a battle narrative: who does what to whom, and when"},
+  {"id": "read.hist.terms", "label": "Terms, decrees and orders (ἐφ’ ᾧ, ἔδοξε, κελεύω + infinitive)"},
+  {"id": "read.hist.sources", "label": "How the historians report: λέγεται, φασί, ὡς φησι"}
+ ]
+}

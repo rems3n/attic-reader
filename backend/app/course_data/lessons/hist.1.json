@@ -1,0 +1,1396 @@
+{
+ "id": "hist.1",
+ "title_grc": "Ἡ τῆς Ἑλλάδος παίδευσις",
+ "title_en": "The school of Greece",
+ "summary_grc": "ὁ Περικλῆς ἐν τῷ ἐπιταφίῳ λόγῳ τὴν πόλιν ἐπαινεῖ· πᾶσα ἡ πόλις τῆς Ἑλλάδος παίδευσίς ἐστιν.",
+ "summary_en": "Winter 431/430 BC: after the public funeral, Pericles praises not the dead but the city they died for. The heart of the Funeral Speech (Thucydides 2.40–41), adapted: we love beauty without extravagance and wisdom without softness; the whole city is an education for Greece. Reading Thucydides' antitheses.",
+ "cover": "hist-panel-1-b",
+ "caption_grc": "φιλοκαλοῦμεν μετ’ εὐτελείας καὶ φιλοσοφοῦμεν ἄνευ μαλακίας.",
+ "original": {
+  "text": "thuc-2.40",
+  "note": "Thucydides 2.40.1–3 and 2.41.1, from Pericles' Funeral Speech of winter 431/430 BC, adapted in paragraphs 2 and 3 (paragraph 1 and the last lines are ours). Thucydides wrote the speech down himself, 'keeping as close as possible to the general sense of what was actually said' (1.22)."
+ },
+ "names": {},
+ "allow": {},
+ "story": [
+  {
+   "image": "hist-panel-1-a",
+   "sentences": [
+    {
+     "text": "ἐν δὲ τῷ χειμῶνι οἱ Ἀθηναῖοι τοὺς πρώτους ἐν τῷ πολέμῳ ἀποθανόντας δημοσίᾳ ἔθαπτον ἐν τῷ Κεραμεικῷ.",
+     "glosses": [
+      {
+       "word": "χειμῶνι",
+       "kind": "note",
+       "value": "ἐν τῷ χειμῶνι: in the winter (of 431/430 BC), after the first summer of the war"
+      },
+      {
+       "word": "δημοσίᾳ",
+       "kind": "en",
+       "value": "publicly, at the city's expense"
+      }
+     ]
+    },
+    {
+     "text": "ἐπεὶ δὲ ἔθαψαν, ὁ Περικλῆς ἐπὶ βῆμα ὑψηλὸν ἀνέβη καὶ λόγον μακρὸν ἔλεγεν.",
+     "glosses": [
+      {
+       "word": "βῆμα",
+       "kind": "<",
+       "value": "βαίνω | τὸ βῆμα: a speaker's platform"
+      },
+      {
+       "word": "ὑψηλὸν",
+       "kind": "en",
+       "value": "high"
+      }
+     ]
+    },
+    {
+     "text": "ἐν δὲ τῷ λόγῳ οὐ τοὺς ἀποθανόντας μάλιστα ἐπῄνει, ἀλλὰ τὴν πόλιν ὑπὲρ ἧς ἀπέθανον.",
+     "glosses": [
+      {
+       "word": "μάλιστα",
+       "kind": "en",
+       "value": "most of all"
+      },
+      {
+       "word": "ἐπῄνει",
+       "kind": "en",
+       "value": "praised (ἐπαινέω, imperfect)"
+      }
+     ]
+    },
+    {
+     "text": "ἔλεγε γὰρ ὅτι ἡ ἀρετὴ τῶν ἀνδρῶν ἐκ τῶν τρόπων τῆς πόλεως γίγνεται, καὶ ὅτι ἀπὸ τῶν αὐτῶν τρόπων ἡ ἀρχὴ μεγάλη ἐγένετο.",
+     "glosses": [
+      {
+       "word": "ἀρχὴ",
+       "kind": "note",
+       "value": "ἡ ἀρχή here: rule, empire (from ἄρχω, rule); Athens ruled some 150 allied cities"
+      }
+     ]
+    },
+    {
+     "text": "ὕστερον δὲ ὁ Θουκυδίδης τοῦτον τὸν λόγον ἐν τῷ βιβλίῳ συνέγραψεν.",
+     "glosses": [
+      {
+       "word": "ὕστερον",
+       "kind": "↔",
+       "value": "πρότερον | ὕστερον: later"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "hist-panel-1-b",
+   "sentences": [
+    {
+     "text": "ἔλεγε δὲ ὁ Περικλῆς περὶ τῆς πόλεως τοιάδε· «φιλοκαλοῦμεν μετ’ εὐτελείας καὶ φιλοσοφοῦμεν ἄνευ μαλακίας.",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "τοιάδε",
+       "kind": "en",
+       "value": "the following, words like these"
+      },
+      {
+       "word": "φιλοκαλοῦμεν",
+       "kind": "<",
+       "value": "φιλέω + καλός | φιλοκαλοῦμεν: we love what is beautiful"
+      },
+      {
+       "word": "εὐτελείας",
+       "kind": "en",
+       "value": "thrift, simplicity (ἡ εὐτέλεια): μετ’ εὐτελείας, without extravagance"
+      },
+      {
+       "word": "φιλοσοφοῦμεν",
+       "kind": "<",
+       "value": "φιλέω + σοφός | φιλοσοφοῦμεν: we love wisdom"
+      },
+      {
+       "word": "μαλακίας",
+       "kind": "en",
+       "value": "softness, weakness (ἡ μαλακία)"
+      }
+     ]
+    },
+    {
+     "text": "τῷ δὲ πλούτῳ χρώμεθα εἰς ἔργα μᾶλλον ἢ εἰς λόγους.",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "πλούτῳ",
+       "kind": "en",
+       "value": "wealth (ὁ πλοῦτος)"
+      },
+      {
+       "word": "χρώμεθα",
+       "kind": "|",
+       "value": "χράομαι + dative | χρώμεθα τῷ πλούτῳ: we use our wealth"
+      },
+      {
+       "word": "μᾶλλον",
+       "kind": "en",
+       "value": "rather: μᾶλλον … ἤ, rather … than"
+      }
+     ]
+    },
+    {
+     "text": "καὶ οὐκ αἰσχρόν ἐστι πένητα εἶναι, ἀλλ’ αἴσχιον μὴ φεύγειν τὴν πενίαν ἔργῳ.",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "πένητα",
+       "kind": "en",
+       "value": "poor (ὁ πένης, πένητος: a poor man)"
+      },
+      {
+       "word": "αἴσχιον",
+       "kind": "|",
+       "value": "αἰσχρός | αἰσχίων, αἴσχιον: more shameful"
+      },
+      {
+       "word": "πενίαν",
+       "kind": "<",
+       "value": "πένης | ἡ πενία: poverty"
+      },
+      {
+       "word": "ἔργῳ",
+       "kind": "note",
+       "value": "ἔργῳ: by action, in deed (↔ λόγῳ, in word)"
+      }
+     ]
+    },
+    {
+     "text": "οἱ δὲ αὐτοὶ ἄνδρες καὶ τὰ ἑαυτῶν πράττουσι καὶ τὰ τῆς πόλεως· καὶ οἱ γεωργοὶ καὶ οἱ κεραμῆς τὰ τῆς πόλεως ἱκανῶς γιγνώσκουσιν.",
+     "orig": [
+      2
+     ],
+     "glosses": [
+      {
+       "word": "αὐτοὶ",
+       "kind": "note",
+       "value": "οἱ αὐτοί: the same (αὐτός between the article and the noun)"
+      },
+      {
+       "word": "ἑαυτῶν",
+       "kind": "note",
+       "value": "τὰ ἑαυτῶν: their own affairs; τὰ τῆς πόλεως: the affairs of the city"
+      },
+      {
+       "word": "ἱκανῶς",
+       "kind": "<",
+       "value": "ἱκανός | ἱκανῶς: well enough"
+      }
+     ]
+    },
+    {
+     "text": "μόνοι γὰρ ἡμεῖς τὸν πολίτην ὃς μηδὲν τούτων πράττει οὐκ ἀπράγμονα, ἀλλ’ ἀχρεῖον νομίζομεν.",
+     "orig": [
+      3
+     ],
+     "glosses": [
+      {
+       "word": "μηδὲν",
+       "kind": "en",
+       "value": "nothing (μηδείς): μή, not οὐ, because the clause is general, 'any citizen who …'"
+      },
+      {
+       "word": "ἀπράγμονα",
+       "kind": "<",
+       "value": "ἀ- + πράττω | ἀπράγμων: quiet, minding his own business"
+      },
+      {
+       "word": "ἀχρεῖον",
+       "kind": "<",
+       "value": "ἀ- + χρή | ἀχρεῖος: useless"
+      }
+     ]
+    },
+    {
+     "text": "καὶ οὐ νομίζομεν τοὺς λόγους τοῖς ἔργοις βλάβην εἶναι· πρῶτον γὰρ λέγομεν περὶ ὧν δεῖ πράττειν, ἔπειτα πράττομεν.»",
+     "orig": [
+      3
+     ],
+     "glosses": [
+      {
+       "word": "βλάβην",
+       "kind": "en",
+       "value": "harm, damage (ἡ βλάβη)"
+      },
+      {
+       "word": "ὧν",
+       "kind": "note",
+       "value": "περὶ ὧν = περὶ τούτων ἅ: about the things which (the antecedent is left out; relative attraction)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "hist-panel-1-c",
+   "sentences": [
+    {
+     "text": "περὶ δὲ τῶν κινδύνων τοιάδε ἔλεγεν· «οἱ αὐτοὶ καὶ τολμῶμεν μάλιστα καὶ λογιζόμεθα περὶ ὧν μέλλομεν πράττειν.",
+     "orig": [
+      4
+     ],
+     "glosses": [
+      {
+       "word": "λογιζόμεθα",
+       "kind": "<",
+       "value": "λόγος | λογίζομαι: reckon, think things through"
+      }
+     ]
+    },
+    {
+     "text": "τοῖς δὲ ἄλλοις ἡ μὲν ἀμαθία θράσος φέρει, ὁ δὲ λογισμὸς ὄκνον.",
+     "orig": [
+      5
+     ],
+     "glosses": [
+      {
+       "word": "ἀμαθία",
+       "kind": "<",
+       "value": "ἀ- + μανθάνω | ἡ ἀμαθία: ignorance"
+      },
+      {
+       "word": "θράσος",
+       "kind": "en",
+       "value": "rashness, over-boldness (τὸ θράσος)"
+      },
+      {
+       "word": "λογισμὸς",
+       "kind": "<",
+       "value": "λογίζομαι | ὁ λογισμός: calculation, reflection"
+      },
+      {
+       "word": "ὄκνον",
+       "kind": "en",
+       "value": "hesitation, holding back (ὁ ὄκνος); φέρει is understood again"
+      }
+     ]
+    },
+    {
+     "text": "ἄριστοι δὲ τὴν ψυχήν εἰσιν οἳ τά τε δεινὰ καὶ τὰ ἡδέα σαφέστατα γιγνώσκουσι καὶ ὅμως τοὺς κινδύνους οὐ φεύγουσιν.",
+     "orig": [
+      6
+     ],
+     "glosses": [
+      {
+       "word": "ψυχήν",
+       "kind": "note",
+       "value": "τὴν ψυχήν: in spirit (accusative of respect: 'best in respect of the soul')"
+      },
+      {
+       "word": "σαφέστατα",
+       "kind": "|",
+       "value": "σαφής | σαφῶς, σαφέστατα: most clearly"
+      },
+      {
+       "word": "ὅμως",
+       "kind": "en",
+       "value": "nevertheless, all the same"
+      }
+     ]
+    },
+    {
+     "text": "ἑνὶ δὲ λόγῳ, πᾶσα ἡ πόλις τῆς Ἑλλάδος παίδευσίς ἐστιν, καὶ ἕκαστος ἀνὴρ παρ’ ἡμῖν πρὸς πλεῖστα ἔργα ἱκανός ἐστιν.",
+     "orig": [
+      7
+     ],
+     "glosses": [
+      {
+       "word": "ἑνὶ",
+       "kind": "note",
+       "value": "ἑνὶ λόγῳ: in one word, in short"
+      },
+      {
+       "word": "παίδευσίς",
+       "kind": "<",
+       "value": "παῖς, παιδεύω (bring up, educate) | ἡ παίδευσις: education, a school"
+      },
+      {
+       "word": "παρ’",
+       "kind": "note",
+       "value": "παρ’ ἡμῖν: among us, here at Athens (παρά + dative)"
+      }
+     ]
+    },
+    {
+     "text": "διὰ ταῦτα καὶ πολλῶν πόλεων καὶ νήσων ἄρχομεν.»",
+     "glosses": [
+      {
+       "word": "ἄρχομεν",
+       "kind": "note",
+       "value": "ἄρχω + genitive: rule over"
+      }
+     ]
+    },
+    {
+     "text": "ταῦτα μὲν ὁ Περικλῆς εἶπεν· τοῦ δὲ ἐπιόντος θέρους ἡ νόσος πρῶτον ἤρξατο γενέσθαι τοῖς Ἀθηναίοις.",
+     "glosses": [
+      {
+       "word": "ἐπιόντος",
+       "kind": "<",
+       "value": "ἐπί + εἶμι | ἔπειμι: come next; τοῦ ἐπιόντος θέρους, in the following summer (430 BC)"
+      },
+      {
+       "word": "θέρους",
+       "kind": "en",
+       "value": "summer (τὸ θέρος; genitive of time within which)"
+      },
+      {
+       "word": "ἤρξατο",
+       "kind": "|",
+       "value": "ἄρχω | ἄρχομαι, ἠρξάμην (middle): begin"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "αρχη",
+   "gloss_grc": "ἡ ἀρχή · ἄρχω · ἡ ἀρχὴ τῶν Ἀθηναίων (the Athenian empire)"
+  },
+  {
+   "id": "αρχω",
+   "gloss_grc": "ἄρχω + gen. rule (πολλῶν πόλεων ἄρχομεν) · ἄρχομαι begin"
+  },
+  {
+   "id": "αρετη",
+   "gloss_grc": "ἡ ἀρετή · ἡ ἀρετὴ τῶν ἀνδρῶν (courage)"
+  },
+  {
+   "id": "τροπος",
+   "gloss_grc": "ὁ τρόπος · οἱ τρόποι τῆς πόλεως (ways, character)"
+  },
+  {
+   "id": "κινδυνος",
+   "gloss_grc": "ὁ κίνδυνος · κίνδυνον φεύγειν"
+  },
+  {
+   "id": "τολμαω",
+   "gloss_grc": "τολμάω, ἐτόλμησα · τολμῶμεν μάλιστα"
+  },
+  {
+   "id": "αισχρος",
+   "gloss_grc": "αἰσχρός, -ά, -όν · αἰσχίων, αἴσχιστος ↔ καλός"
+  },
+  {
+   "id": "δεινος",
+   "gloss_grc": "δεινός, -ή, -όν · τὰ δεινά (dangers, terrors)"
+  },
+  {
+   "id": "μονος",
+   "gloss_grc": "μόνος, -η, -ον · μόνοι ἡμεῖς"
+  },
+  {
+   "id": "ψυχη",
+   "pic": "psyche",
+   "gloss_grc": "ἡ ψυχή, τῆς ψυχῆς"
+  },
+  {
+   "id": "εκαστος",
+   "gloss_grc": "ἕκαστος, -η, -ον · ἕκαστος ἀνήρ"
+  },
+  {
+   "id": "ανευ",
+   "gloss_grc": "ἄνευ + gen. ↔ μετά · ἄνευ μαλακίας"
+  },
+  {
+   "id": "πολεμος",
+   "pic": "polemos",
+   "gloss_grc": "ὁ πόλεμος · ἐν τῷ πολέμῳ"
+  },
+  {
+   "id": "υστερος",
+   "gloss_grc": "ὕστερος, -α, -ον · ὕστερον (later) ↔ πρότερον"
+  }
+ ],
+ "notice": [
+  "οὐ τοὺς ἀποθανόντας μάλιστα ἐπῄνει, ἀλλὰ τὴν πόλιν",
+  "φιλοκαλοῦμεν μετ’ εὐτελείας καὶ φιλοσοφοῦμεν ἄνευ μαλακίας",
+  "εἰς ἔργα μᾶλλον ἢ εἰς λόγους",
+  "ἡ μὲν ἀμαθία θράσος φέρει, ὁ δὲ λογισμὸς ὄκνον"
+ ],
+ "grammar": {
+  "md": "**Reading Thucydides: the antithesis.** Thucydides thinks in pairs. Almost every sentence of the Funeral Speech sets one thing against another, and once you look for the pairs his long sentences fall into place.\n\n| pair | example |\n|---|---|\n| **λόγος ↔ ἔργον** word ↔ deed | εἰς ἔργα μᾶλλον ἢ εἰς λόγους · λόγῳ μὲν … ἔργῳ δέ |\n| **μέν … δέ** on the one hand … on the other | ἡ μὲν ἀμαθία θράσος φέρει, ὁ δὲ λογισμὸς ὄκνον |\n| **οὐ … ἀλλά** not … but | οὐ τοὺς ἀποθανόντας ἐπῄνει, ἀλλὰ τὴν πόλιν · οὐκ ἀπράγμονα, ἀλλ’ ἀχρεῖον |\n| **καὶ … καὶ** both … and | οἱ αὐτοὶ καὶ τολμῶμεν καὶ λογιζόμεθα |\n| **τε … καί** both … and | τά τε δεινὰ καὶ τὰ ἡδέα |\n| **μᾶλλον … ἤ** rather … than | μᾶλλον ἢ εἰς λόγους |\n| **μετά ↔ ἄνευ** with ↔ without | μετ’ εὐτελείας · ἄνευ μαλακίας |\n\n**How to read such a sentence.** Find the hinge word (μέν, δέ, ἀλλά, ἤ), then read the two halves side by side: they usually have the same shape, and the second often leaves out a word that the first supplied (ὁ δὲ λογισμὸς ὄκνον [φέρει]).\n\n**Comparison of αἰσχρός.** αἰσχρός, αἰσχίων, αἴσχιστος is irregular like καλός, καλλίων, κάλλιστος: οὐκ αἰσχρόν … ἀλλ’ αἴσχιον.\n\n**The article and αὐτός.** οἱ αὐτοὶ ἄνδρες 'the same men' (αὐτός between the article and the noun); τὰ ἑαυτῶν 'their own affairs'; τὰ τῆς πόλεως 'the city's affairs': the neuter article turns a genitive into 'the things of'.",
+  "paradigms": [
+   "beltion"
+  ],
+  "diagram": "diagram-men-de"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings (Pericles' words).",
+   "template": "φιλοκαλ___ μετ’ εὐτελείας καὶ φιλοσοφ___ ἄνευ μαλακίας. οὐκ αἰσχρόν ἐστι πένητα εἶναι, ἀλλ’ αἴσχι___ μὴ φεύγειν τὴν πενίαν. οὐ νομίζομεν τοὺς λόγ___ βλάβην εἶναι.",
+   "gaps": [
+    {
+     "answers": [
+      "οῦμεν"
+     ]
+    },
+    {
+     "answers": [
+      "οῦμεν"
+     ]
+    },
+    {
+     "answers": [
+      "ον"
+     ]
+    },
+    {
+     "answers": [
+      "ους"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.contract.e",
+    "adj.irregular-compare",
+    "noun.decl2.acc.pl"
+   ],
+   "explain": "φιλοκαλοῦμεν and φιλοσοφοῦμεν are -έω contract verbs (φιλο-καλέ-ομεν → -οῦμεν); αἴσχιον is neuter with αἰσχρόν ἐστι; τοὺς λόγους is accusative plural."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · οὐ τοὺς ἀποθανόντας μάλιστα ἐπῄνει, ___ τὴν πόλιν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀλλά"
+    },
+    {
+     "id": "b",
+     "text": "γάρ"
+    },
+    {
+     "id": "c",
+     "text": "οὖν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.conj",
+    "read.hist.antithesis"
+   ],
+   "explain": "οὐ … ἀλλά: not … but. The whole speech is built on such pairs.",
+   "audio": "οὐ τοὺς ἀποθανόντας μάλιστα ἐπῄνει, ἀλλὰ τὴν πόλιν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · τῷ δὲ πλούτῳ χρώμεθα εἰς ἔργα μᾶλλον ἢ εἰς ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "λόγους"
+    },
+    {
+     "id": "b",
+     "text": "ἔργα"
+    },
+    {
+     "id": "c",
+     "text": "κινδύνους"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.hist.antithesis",
+    "vocab.recognition"
+   ],
+   "explain": "ἔργα ↔ λόγους: deeds against words, Thucydides' favourite antithesis.",
+   "audio": "τῷ δὲ πλούτῳ χρώμεθα εἰς ἔργα μᾶλλον ἢ εἰς λόγους."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἡ μὲν ἀμαθία θράσος φέρει, ὁ ___ λογισμὸς ὄκνον.",
+   "options": [
+    {
+     "id": "a",
+     "text": "δὲ"
+    },
+    {
+     "id": "b",
+     "text": "μὲν"
+    },
+    {
+     "id": "c",
+     "text": "γὰρ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.men-de",
+    "read.hist.antithesis"
+   ],
+   "explain": "μέν … δέ balances the two halves: ignorance brings rashness, reflection brings hesitation.",
+   "audio": "ἡ μὲν ἀμαθία θράσος φέρει, ὁ δὲ λογισμὸς ὄκνον."
+  },
+  {
+   "type": "match",
+   "prompt": "Match the new words to their meanings.",
+   "pairs": [
+    {
+     "left": "ἡ ἀρετή",
+     "right": "courage, excellence"
+    },
+    {
+     "left": "ὁ κίνδυνος",
+     "right": "danger"
+    },
+    {
+     "left": "τολμάω",
+     "right": "dare, have the courage"
+    },
+    {
+     "left": "αἰσχρός",
+     "right": "shameful"
+    },
+    {
+     "left": "ἄνευ + gen.",
+     "right": "without"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.hist"
+   ],
+   "explain": "ἀρετή, κίνδυνος, τολμάω, αἰσχρός, ἄνευ."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ κίνδυνος"
+    },
+    {
+     "id": "b",
+     "text": "ὁ τρόπος"
+    },
+    {
+     "id": "c",
+     "text": "ὁ πόλεμος"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.words",
+    "vocab.hist"
+   ],
+   "explain": "ὁ κίνδυνος: danger.",
+   "audio": "ὁ κίνδυνος"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the comparative of αἰσχρός for 'more shameful' (neuter): ἀλλ’ ___ μὴ φεύγειν τὴν πενίαν.",
+   "lemma": "αἰσχρός",
+   "cell": "comp.nom.sg.n",
+   "skills": [
+    "adj.irregular-compare",
+    "vocab.production"
+   ],
+   "explain": "αἴσχιον: αἰσχρός has an irregular comparative αἰσχίων, αἴσχιον (like βελτίων).",
+   "audio": "αἴσχιον"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the form of τολμάω for 'we dare'.",
+   "lemma": "τολμάω",
+   "cell": "present.active.indicative.1pl",
+   "skills": [
+    "verb.contract.a",
+    "vocab.production"
+   ],
+   "explain": "τολμῶμεν: τολμά-ομεν → τολμῶμεν (α + ο → ω).",
+   "audio": "τολμῶμεν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the form of ἄρχω for 'she began' (aorist middle, 3rd singular): ἡ νόσος ___.",
+   "lemma": "ἄρχω",
+   "cell": "aorist.middle.indicative.3sg",
+   "skills": [
+    "verb.middle-meaning",
+    "verb.aor1.sigma"
+   ],
+   "explain": "ἤρξατο: ἄρχομαι 'begin', aorist ἠρξάμην (ἀρχ-σ → ἀρξ-).",
+   "audio": "ἤρξατο"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse λογιζόμεθα.",
+   "form": "λογιζόμεθα",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "voice",
+     "label": "Voice",
+     "options": [
+      {
+       "id": "act",
+       "label": "active"
+      },
+      {
+       "id": "mid",
+       "label": "middle"
+      },
+      {
+       "id": "pass",
+       "label": "passive"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person and number",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "1st singular"
+      },
+      {
+       "id": "2sg",
+       "label": "2nd singular"
+      },
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "1pl",
+       "label": "1st plural"
+      },
+      {
+       "id": "2pl",
+       "label": "2nd plural"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "pres",
+    "voice": "mid",
+    "person": "1pl"
+   },
+   "skills": [
+    "verb.deponent",
+    "verb.middle-meaning"
+   ],
+   "explain": "λογιζ-όμεθα: present, middle (a deponent: λογίζομαι), 1st plural: 'we reckon, we think it through'.",
+   "audio": "λογιζόμεθα"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse σαφέστατα.",
+   "form": "σαφέστατα",
+   "groups": [
+    {
+     "id": "degree",
+     "label": "Degree",
+     "options": [
+      {
+       "id": "pos",
+       "label": "positive"
+      },
+      {
+       "id": "comp",
+       "label": "comparative"
+      },
+      {
+       "id": "sup",
+       "label": "superlative"
+      }
+     ]
+    },
+    {
+     "id": "case",
+     "label": "Case",
+     "options": [
+      {
+       "id": "nom",
+       "label": "nominative"
+      },
+      {
+       "id": "gen",
+       "label": "genitive"
+      },
+      {
+       "id": "dat",
+       "label": "dative"
+      },
+      {
+       "id": "acc",
+       "label": "accusative"
+      },
+      {
+       "id": "voc",
+       "label": "vocative"
+      }
+     ]
+    },
+    {
+     "id": "number",
+     "label": "Number",
+     "options": [
+      {
+       "id": "sg",
+       "label": "singular"
+      },
+      {
+       "id": "pl",
+       "label": "plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "degree": "sup",
+    "case": "acc",
+    "number": "pl"
+   },
+   "skills": [
+    "adj.superlative",
+    "adj.sup"
+   ],
+   "explain": "σαφέστατα: superlative of σαφής; the neuter plural accusative is used as an adverb, 'most clearly'.",
+   "audio": "σαφέστατα"
+  },
+  {
+   "type": "label",
+   "prompt": "πλούτῳ … ἔργου μᾶλλον καιρῷ ἢ λόγου κόμπῳ χρώμεθα. What figure does Thucydides use here, again and again?",
+   "options": [
+    {
+     "id": "a",
+     "text": "an antithesis: deed (ἔργον) set against word (λόγος)"
+    },
+    {
+     "id": "b",
+     "text": "a question and its answer"
+    },
+    {
+     "id": "c",
+     "text": "a list of names"
+    },
+    {
+     "id": "d",
+     "text": "a comparison of two cities"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.hist.antithesis",
+    "read.thucydides"
+   ],
+   "explain": "λόγος ↔ ἔργον is the backbone of the speech: wealth is for action, not for talk."
+  },
+  {
+   "type": "label",
+   "prompt": "πρῶτον γὰρ λέγομεν περὶ ὧν δεῖ πράττειν. What is ὧν?",
+   "options": [
+    {
+     "id": "a",
+     "text": "a relative pronoun whose antecedent (τούτων) is left out: 'about the things which'"
+    },
+    {
+     "id": "b",
+     "text": "a participle of εἰμί"
+    },
+    {
+     "id": "c",
+     "text": "an interrogative: 'about whom?'"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.rel-attraction",
+    "syntax.relative-clause"
+   ],
+   "explain": "περὶ ὧν = περὶ τούτων ἅ: the relative is drawn into the case of the missing antecedent (relative attraction, 9.1)."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἄριστοι δὲ τὴν ___ εἰσιν οἳ τοὺς κινδύνους οὐ φεύγουσιν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ψυχήν"
+    },
+    {
+     "id": "b",
+     "text": "ψυχῇ"
+    },
+    {
+     "id": "c",
+     "text": "ψυχῆς"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cases"
+   ],
+   "explain": "τὴν ψυχήν: accusative of respect, 'best in spirit'."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "πολλῶν πόλεων καὶ νήσων ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἄρχομεν"
+    },
+    {
+     "id": "b",
+     "text": "ἄρχομαι"
+    },
+    {
+     "id": "c",
+     "text": "ἀρχή"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.gen.uses",
+    "vocab.hist"
+   ],
+   "explain": "ἄρχω + genitive: 'we rule over many cities and islands'."
+  },
+  {
+   "type": "transform",
+   "prompt": "Say it of 'I': τολμῶμεν καὶ λογιζόμεθα. → ___ καὶ ___.",
+   "template": "___ καὶ ___.",
+   "gaps": [
+    {
+     "answers": [
+      "τολμῶ"
+     ]
+    },
+    {
+     "answers": [
+      "λογίζομαι"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.contract.a",
+    "verb.deponent"
+   ],
+   "explain": "τολμῶ καὶ λογίζομαι: 1st singular active (contract) and middle."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the two words that Thucydides sets against each other.",
+   "sentence": "τῷ δὲ πλούτῳ χρώμεθα εἰς ἔργα μᾶλλον ἢ εἰς λόγους.",
+   "answer": [
+    5,
+    9
+   ],
+   "skills": [
+    "read.locate",
+    "read.hist.antithesis"
+   ],
+   "explain": "ἔργα ↔ λόγους: deeds, not words."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the two nouns balanced by μέν and δέ.",
+   "sentence": "τοῖς δὲ ἄλλοις ἡ μὲν ἀμαθία θράσος φέρει, ὁ δὲ λογισμὸς ὄκνον.",
+   "answer": [
+    5,
+    10
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.men-de"
+   ],
+   "explain": "ἡ μὲν ἀμαθία … ὁ δὲ λογισμός: ignorance … reflection."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'We love wisdom without softness.'",
+   "tokens": [
+    "φιλοσοφοῦμεν",
+    "ἄνευ",
+    "μαλακίας"
+   ],
+   "answers": [
+    "φιλοσοφοῦμεν ἄνευ μαλακίας",
+    "ἄνευ μαλακίας φιλοσοφοῦμεν"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "read.thucydides"
+   ],
+   "explain": "φιλοσοφοῦμεν ἄνευ μαλακίας: ἄνευ takes the genitive."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "πᾶσα ἡ πόλις τῆς Ἑλλάδος παίδευσίς ἐστιν."
+    },
+    {
+     "id": "b",
+     "text": "πᾶσα ἡ πόλις τῆς Ἑλλάδος ἀρχή ἐστιν."
+    },
+    {
+     "id": "c",
+     "text": "πᾶσα ἡ Ἑλλὰς τῆς πόλεως παίδευσίς ἐστιν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "The whole city is an education for Greece.",
+   "audio": "πᾶσα ἡ πόλις τῆς Ἑλλάδος παίδευσίς ἐστιν."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Περικλῆς μάλιστα τοὺς ἀποθανόντας ἐπῄνει.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "οὐ τοὺς ἀποθανόντας μάλιστα ἐπῄνει, ἀλλὰ τὴν πόλιν."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "οἱ Ἀθηναῖοι νομίζουσι τὸν πολίτην ὃς μηδὲν τῆς πόλεως πράττει ἀχρεῖον εἶναι.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "τὸν πολίτην ὃς μηδὲν τούτων πράττει … ἀχρεῖον νομίζομεν."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "κατὰ τὸν Περικλέα αἰσχρόν ἐστι πένητα εἶναι.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "οὐκ αἰσχρόν ἐστι πένητα εἶναι, ἀλλ’ αἴσχιον μὴ φεύγειν τὴν πενίαν ἔργῳ."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "gaps": [
+    {
+     "answers": [
+      "οἱ αὐτοὶ καὶ τολμῶμεν καὶ λογιζόμεθα"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "οἱ αὐτοὶ καὶ τολμῶμεν καὶ λογιζόμεθα.",
+   "audio": "οἱ αὐτοὶ καὶ τολμῶμεν καὶ λογιζόμεθα."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'We do not flee dangers.'",
+   "gaps": [
+    {
+     "answers": [
+      "οὐ φεύγομεν τοὺς κινδύνους",
+      "τοὺς κινδύνους οὐ φεύγομεν",
+      "κινδύνους οὐ φεύγομεν",
+      "οὐ φεύγομεν κινδύνους"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "vocab.hist"
+   ],
+   "explain": "τοὺς κινδύνους οὐ φεύγομεν."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: ἄριστοι δὲ τὴν ψυχήν εἰσιν οἳ τά τε δεινὰ καὶ τὰ ἡδέα σαφέστατα γιγνώσκουσι καὶ ὅμως τοὺς κινδύνους οὐ φεύγουσιν.",
+   "audio": "ἄριστοι δὲ τὴν ψυχήν εἰσιν οἳ τά τε δεινὰ καὶ τὰ ἡδέα σαφέστατα γιγνώσκουσι καὶ ὅμως τοὺς κινδύνους οὐ φεύγουσιν.",
+   "model": "The bravest in spirit are those who know most clearly both what is terrible and what is pleasant, and still do not run from danger.",
+   "skills": [
+    "read.thucydides",
+    "read.adapted-text"
+   ],
+   "explain": "οἳ … γιγνώσκουσι: the relative clause is the subject; τὴν ψυχήν is an accusative of respect."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: πᾶσα ἡ πόλις τῆς Ἑλλάδος παίδευσίς ἐστιν.",
+   "audio": "πᾶσα ἡ πόλις τῆς Ἑλλάδος παίδευσίς ἐστιν.",
+   "model": "The whole city is an education (a school) for Greece.",
+   "skills": [
+    "read.thucydides",
+    "read.comprehension"
+   ],
+   "explain": "πᾶσα ἡ πόλις: 'the whole city' (πᾶς in predicate position with the article)."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "ἡ ψυχή",
+     "right": "psychology"
+    },
+    {
+     "left": "ἡ ἀρχή, ἄρχω",
+     "right": "monarchy, archaeology"
+    },
+    {
+     "left": "φιλέω + σοφός",
+     "right": "philosophy"
+    },
+    {
+     "left": "αὐτός",
+     "right": "autonomy"
+    },
+    {
+     "left": "ὁ λόγος",
+     "right": "logic"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "ψυχή 'soul'; ἀρχή 'rule' and 'beginning' (μόνος + ἄρχω; ἀρχαῖος 'ancient'); φιλοσοφία; αὐτόνομος 'living by one's own laws'; λόγος 'word, reason'."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "ποῦ ἀνέβη ὁ Περικλῆς;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐπὶ βῆμα ὑψηλόν."
+    },
+    {
+     "id": "b",
+     "text": "ἐπὶ τὴν ἀκρόπολιν."
+    },
+    {
+     "id": "c",
+     "text": "εἰς ναῦν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὁ Περικλῆς ἐπὶ βῆμα ὑψηλὸν ἀνέβη.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίνα μάλιστα ἐπῄνει ὁ Περικλῆς;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὴν πόλιν."
+    },
+    {
+     "id": "b",
+     "text": "τοὺς ἀποθανόντας."
+    },
+    {
+     "id": "c",
+     "text": "τοὺς Λακεδαιμονίους."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "οὐ τοὺς ἀποθανόντας μάλιστα ἐπῄνει, ἀλλὰ τὴν πόλιν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί φέρει τοῖς ἄλλοις ἡ ἀμαθία;",
+   "options": [
+    {
+     "id": "a",
+     "text": "θράσος."
+    },
+    {
+     "id": "b",
+     "text": "ὄκνον."
+    },
+    {
+     "id": "c",
+     "text": "πλοῦτον."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "read.hist.antithesis"
+   ],
+   "explain": "ἡ μὲν ἀμαθία θράσος φέρει, ὁ δὲ λογισμὸς ὄκνον.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίνες ἄριστοι τὴν ψυχήν εἰσιν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "οἳ τὰ δεινὰ γιγνώσκουσι καὶ ὅμως τοὺς κινδύνους οὐ φεύγουσιν."
+    },
+    {
+     "id": "b",
+     "text": "οἳ τοὺς κινδύνους φεύγουσιν."
+    },
+    {
+     "id": "c",
+     "text": "οἳ πλεῖστον πλοῦτον ἔχουσιν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἄριστοι … οἳ τά τε δεινὰ καὶ τὰ ἡδέα σαφέστατα γιγνώσκουσι καὶ ὅμως τοὺς κινδύνους οὐ φεύγουσιν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίς τὸν λόγον ἐν τῷ βιβλίῳ συνέγραψεν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Θουκυδίδης."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Περικλῆς."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Σωκράτης."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὕστερον δὲ ὁ Θουκυδίδης τοῦτον τὸν λόγον ἐν τῷ βιβλίῳ συνέγραψεν.",
+   "audio": "prompt"
+  }
+ ],
+ "culture": {
+  "title": "The Funeral Speech",
+  "md": "Every winter of the war the Athenians buried their dead in the public cemetery outside the Dipylon Gate, and the city chose a speaker. In winter 431/430 BC it chose **Pericles**, then about sixty-five and the leading general of the democracy. Thucydides, who was in Athens, gives the speech in Book 2 (chapters 35–46).\n\nIt is a strange funeral speech: it says little about the dead and a great deal about the city. Athens is open to foreigners, its citizens live as they like and still obey the laws; they love beauty without extravagance (the Parthenon, completed in 432, cost a fortune, but it belonged to everyone) and wisdom without softness; they debate before they act and dare all the same. In a phrase that has been quoted ever since, Athens is **τῆς Ἑλλάδος παίδευσις**, 'an education to Greece'.\n\nThucydides places the speech just before his account of the plague (2.47–54), which broke out the following summer and killed perhaps a quarter of the population, Pericles himself among them in 429. Readers have argued ever since whether the juxtaposition is deliberate. The speech also leaves things out: the silver of the allied tribute, the slaves who did much of the work, the women who were told (2.45) that their greatest glory was to be talked about as little as possible.",
+  "image": "hist-parthenon"
+ },
+ "quiz": [
+  {
+   "type": "cloze-choice",
+   "prompt": "φιλοσοφοῦμεν ἄνευ ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "μαλακίας"
+    },
+    {
+     "id": "b",
+     "text": "μαλακίαν"
+    },
+    {
+     "id": "c",
+     "text": "μαλακίᾳ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.gen.uses"
+   ],
+   "explain": "ἄνευ + genitive."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the genitive plural of ὁ κίνδυνος.",
+   "lemma": "κίνδυνος",
+   "cell": "gen.pl",
+   "skills": [
+    "noun.decl2.gen.pl",
+    "vocab.hist"
+   ],
+   "explain": "κινδύνων.",
+   "audio": "κινδύνων"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἡ μὲν ἀμαθία ὄκνον φέρει, ὁ δὲ λογισμὸς θράσος.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension",
+    "read.hist.antithesis"
+   ],
+   "explain": "The other way round: ignorance brings rashness, reflection hesitation."
+  },
+  {
+   "type": "label",
+   "prompt": "λόγῳ μὲν … ἔργῳ δέ: this pair is …",
+   "options": [
+    {
+     "id": "a",
+     "text": "an antithesis: in word … in deed"
+    },
+    {
+     "id": "b",
+     "text": "a condition"
+    },
+    {
+     "id": "c",
+     "text": "a purpose clause"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.hist.antithesis"
+   ],
+   "explain": "λόγῳ ↔ ἔργῳ."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἕκαστος ___ παρ’ ἡμῖν ἱκανός ἐστιν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀνήρ"
+    },
+    {
+     "id": "b",
+     "text": "ἀνδρός"
+    },
+    {
+     "id": "c",
+     "text": "ἄνδρα"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "adj.agree"
+   ],
+   "explain": "ἕκαστος ἀνήρ, nominative subject."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἄνευ μαλακίας"
+    },
+    {
+     "id": "b",
+     "text": "μετ’ εὐτελείας"
+    },
+    {
+     "id": "c",
+     "text": "ἄνευ ἀρετῆς"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.words"
+   ],
+   "explain": "ἄνευ μαλακίας: without softness.",
+   "audio": "ἄνευ μαλακίας"
+  }
+ ],
+ "skills": [
+  "verb.contract.e",
+  "adj.irregular-compare",
+  "noun.decl2.acc.pl",
+  "syntax.conj",
+  "read.hist.antithesis",
+  "vocab.recognition",
+  "syntax.men-de",
+  "vocab.hist",
+  "listen.words",
+  "vocab.production",
+  "verb.contract.a",
+  "verb.middle-meaning",
+  "verb.aor1.sigma",
+  "verb.deponent",
+  "adj.superlative",
+  "adj.sup",
+  "read.thucydides",
+  "syntax.rel-attraction",
+  "syntax.relative-clause",
+  "syntax.cases",
+  "syntax.gen.uses",
+  "read.locate",
+  "syntax.word-order",
+  "listen.sentences",
+  "read.comprehension",
+  "spell.dictation",
+  "read.adapted-text",
+  "vocab.family",
+  "noun.decl2.gen.pl",
+  "adj.agree"
+ ]
+}

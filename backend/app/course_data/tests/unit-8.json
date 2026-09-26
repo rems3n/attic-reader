@@ -1,0 +1,64 @@
+{
+ "id": "unit-8",
+ "title_grc": "Ἡ ἐκκλησία · ἔλεγχος",
+ "title_en": "Unit 8 test",
+ "scope": "8.4",
+ "pass_score": 0.8,
+ "unlock_after_hours": 24,
+ "retake_after_days": 7,
+ "blurb": "Everything from Lessons 8.1–8.4: the Assembly on the Pnyx, the news from Plataea, the vote, Pericles' advice. The subjunctive (let us …, what are we to …?, don't …!), purpose clauses, ἐάν, fear clauses, indefinite clauses with ἄν, δείκνυμι, ὅτι and indirect questions, the present and imperfect passive with ὑπό, prefixes. Four parts; no feedback until the end. 80 % to pass.",
+ "sections": [
+  {
+   "id": "vocab",
+   "title": "Λέξεις · Vocabulary",
+   "items": [
+    {"type": "pick-picture", "prompt": "ὁ κῆρυξ", "audio": "prompt", "options": [{"id": "a", "image": "strategos"}, {"id": "b", "image": "keryx"}, {"id": "c", "image": "polites"}, {"id": "d", "image": "hiereus"}], "answer": "b", "skills": ["vocab.recognition"], "explain": "ὁ κῆρυξ: herald."},
+    {"type": "pick-picture", "prompt": "ὁ στρατηγός", "audio": "prompt", "options": [{"id": "a", "image": "strategos"}, {"id": "b", "image": "keryx"}, {"id": "c", "image": "georgos"}, {"id": "d", "image": "nautes"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "ὁ στρατηγός: general."},
+    {"type": "pick-picture", "prompt": "τὸ χωρίον", "audio": "prompt", "options": [{"id": "a", "image": "limen"}, {"id": "b", "image": "ekklesia"}, {"id": "c", "image": "chorion"}, {"id": "d", "image": "naos"}], "answer": "c", "skills": ["vocab.recognition"], "explain": "τὸ χωρίον: a farm, a piece of land."},
+    {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ἡ ἐκκλησία", "options": [{"id": "a", "text": "ἡ ἐκκλησία"}, {"id": "b", "text": "ἡ ἑσπέρα"}, {"id": "c", "text": "ἡ οἰκία"}], "answer": "a", "skills": ["listen.words"], "explain": "ἡ ἐκκλησία: the Assembly."},
+    {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ἔδοξε τῷ δήμῳ τὰς ναῦς πληροῦν.", "options": [{"id": "a", "text": "ἔδειξε τῷ δήμῳ τὰς ναῦς."}, {"id": "b", "text": "ἔδοξε τῷ δήμῳ τὰς ναῦς πληροῦν."}, {"id": "c", "text": "ὁ δῆμος τὰς ναῦς πληροῖ."}], "answer": "b", "skills": ["listen.sentences"], "explain": "'The people decided to man the ships.'"},
+    {"type": "match", "prompt": "Match each word to its meaning.", "pairs": [{"left": "ἵνα", "right": "in order that"}, {"left": "ἐάν", "right": "if"}, {"left": "ὅταν", "right": "whenever"}, {"left": "ὅτι", "right": "that"}, {"left": "ὥσπερ", "right": "just as"}], "skills": ["vocab.recognition"], "explain": "ἵνα, ἐάν, ὅταν take the subjunctive; ὅτι 'that' reports a statement; ὥσπερ compares."},
+    {"type": "cloze-type", "prompt": "Type the Greek for 'the people, the citizen body' (with its article).", "gaps": [{"answers": ["ὁ δῆμος", "δῆμος"]}], "skills": ["vocab.production"], "explain": "ὁ δῆμος.", "audio": "ὁ δῆμος"},
+    {"type": "cloze-type", "prompt": "Type the Greek for 'brother' (with its article).", "gaps": [{"answers": ["ὁ ἀδελφός", "ἀδελφός"]}], "skills": ["vocab.production"], "explain": "ὁ ἀδελφός.", "audio": "ὁ ἀδελφός"}
+   ]
+  },
+  {
+   "id": "forms",
+   "title": "Τύποι · Forms",
+   "items": [
+    {"type": "parse", "prompt": "Parse ἐδείκνυσαν.", "form": "ἐδείκνυσαν", "groups": [{"id": "tense", "label": "Tense", "options": [{"id": "pres", "label": "present"}, {"id": "impf", "label": "imperfect"}, {"id": "aor", "label": "aorist"}]}, {"id": "person", "label": "Who?", "options": [{"id": "3sg", "label": "he/she"}, {"id": "3pl", "label": "they"}]}], "answer": {"tense": "impf", "person": "3pl"}, "skills": ["verb.mi.deiknymi"], "explain": "Augment + present stem δεικνυ- + -σαν: imperfect, 'they were showing'. The aorist is ἔδειξαν.", "audio": "ἐδείκνυσαν"},
+    {"type": "parse", "prompt": "Parse λίπητε (in μὴ λίπητε τὴν γῆν).", "form": "λίπητε", "groups": [{"id": "mood", "label": "Mood", "options": [{"id": "ind", "label": "indicative"}, {"id": "subj", "label": "subjunctive"}, {"id": "imp", "label": "imperative"}]}, {"id": "tense", "label": "Tense stem", "options": [{"id": "pres", "label": "present"}, {"id": "aor", "label": "aorist"}]}], "answer": {"mood": "subj", "tense": "aor"}, "skills": ["syntax.subj-prohibition"], "explain": "λιπ- is the second-aorist stem; -ητε is subjunctive: a prohibition, 'don't leave'.", "audio": "λίπητε"}
+   ],
+   "generate": {"skills": ["verb.pres.act.subj.1pl", "verb.pres.act.subj.3pl", "verb.aor.act.subj.1pl", "verb.aor.act.subj.3pl", "verb.pres.act.subj.3sg", "verb.pres.mp.subj.3sg", "verb.pres.mp.ind.3sg", "verb.pres.mp.ind.3pl", "verb.impf.mp.ind.3sg", "verb.impf.mp.ind.3pl"], "n": 10, "seed": 8}
+  },
+  {
+   "id": "sentences",
+   "title": "Λόγοι · Sentences",
+   "items": [
+    {"type": "cloze-choice", "prompt": "μὴ ___ ἐκ τῶν τειχῶν, ὦ Ἀθηναῖοι.", "options": [{"id": "a", "text": "ἐξέλθητε"}, {"id": "b", "text": "ἐξέλθετε"}, {"id": "c", "text": "ἐξήλθετε"}], "answer": "a", "skills": ["syntax.subj-prohibition"], "explain": "μή + aorist subjunctive: μὴ ἐξέλθητε 'don't go out'."},
+    {"type": "cloze-choice", "prompt": "φοβοῦμαι ___ οἱ πολέμιοι τοὺς ἀγροὺς τέμωσιν.", "options": [{"id": "a", "text": "μή"}, {"id": "b", "text": "ἵνα"}, {"id": "c", "text": "ὅτι"}], "answer": "a", "skills": ["syntax.fear"], "explain": "A clause of fearing: μή + subjunctive."},
+    {"type": "cloze-choice", "prompt": "ὁ κῆρυξ μεγάλῃ τῇ φωνῇ βοᾷ, ___ πάντες ἀκούωσιν.", "options": [{"id": "a", "text": "ἵνα"}, {"id": "b", "text": "ἐάν"}, {"id": "c", "text": "ὅτι"}], "answer": "a", "skills": ["syntax.purpose"], "explain": "'So that all may hear': purpose, ἵνα + subjunctive."},
+    {"type": "cloze-choice", "prompt": "ἡ πόλις ___ τῶν πολιτῶν φυλάττεται.", "options": [{"id": "a", "text": "ὑπὸ"}, {"id": "b", "text": "ἀπὸ"}, {"id": "c", "text": "διὰ"}], "answer": "a", "skills": ["syntax.agent"], "explain": "The agent of a passive verb: ὑπό + genitive."},
+    {"type": "transform", "prompt": "Make it 'let us …': εἰς τὴν Πύκνα ἀναβαίνομεν. → εἰς τὴν Πύκνα …", "template": "εἰς τὴν Πύκνα ___.", "gaps": [{"answers": ["ἀναβαίνωμεν"]}], "skills": ["syntax.subj-hortatory", "verb.pres.act.subj.1pl"], "explain": "ἀναβαίνωμεν: hortatory subjunctive.", "audio": "εἰς τὴν Πύκνα ἀναβαίνωμεν."},
+    {"type": "transform", "prompt": "Report the question: «τίς λέγει;» → ὁ Λύσις ἐρωτᾷ … λέγει.", "template": "ὁ Λύσις ἐρωτᾷ ___ λέγει.", "gaps": [{"answers": ["τίς", "ὅστις"]}], "skills": ["syntax.indirect-question"], "explain": "τίς stays, or becomes ὅστις; the verb is unchanged.", "audio": "ὁ Λύσις ἐρωτᾷ ὅστις λέγει."},
+    {"type": "reorder", "prompt": "Put the words in order: 'Whoever wishes will read the book.'", "tokens": ["ὅστις", "ἂν", "βούληται", "τὸ", "βιβλίον", "ἀναγνώσεται"], "answers": ["ὅστις ἂν βούληται τὸ βιβλίον ἀναγνώσεται", "τὸ βιβλίον ἀναγνώσεται ὅστις ἂν βούληται", "ὅστις ἂν βούληται ἀναγνώσεται τὸ βιβλίον"], "skills": ["syntax.indefinite", "syntax.word-order"], "explain": "ὅστις ἂν βούληται, τὸ βιβλίον ἀναγνώσεται: ἄν follows the first word of its clause."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'If the Spartans come, we will fight.'", "gaps": [{"answers": ["ἐὰν οἱ Λακεδαιμόνιοι ἔλθωσιν, μαχούμεθα", "ἐὰν οἱ Λακεδαιμόνιοι ἔλθωσι, μαχούμεθα", "ἐὰν ἔλθωσιν οἱ Λακεδαιμόνιοι, μαχούμεθα", "μαχούμεθα, ἐὰν οἱ Λακεδαιμόνιοι ἔλθωσιν", "ἐὰν οἱ Λακεδαιμόνιοι ἥκωσιν, μαχούμεθα", "ἐὰν οἱ Λακεδαιμόνιοι ἔλθωσιν μαχούμεθα"]}], "skills": ["vocab.production", "syntax.ean"], "explain": "ἐάν + aorist subjunctive, future in the main clause."}
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "Ἀνάγνωσις · Reading",
+   "passage_title": "ὁ κῆρυξ τῶν Λακεδαιμονίων",
+   "passage": "ὅτε οἱ Πελοποννήσιοι ἐν τῷ Ἰσθμῷ ἦσαν, ὁ Ἀρχίδαμος κήρυκα εἰς τὰς Ἀθήνας πέμπει, Μελήσιππον, ἵνα τοὺς Ἀθηναίους πείσῃ. ὁ δὲ κῆρυξ εἰς τὴν πόλιν οὐκ εἰσέρχεται. ἔδοξε γὰρ τῷ δήμῳ, ὡς ὁ Περικλῆς ἔλεγεν, τοὺς κήρυκας τῶν Λακεδαιμονίων μὴ ἀκούειν, ἕως ἂν οἱ Πελοποννήσιοι ἐν τοῖς ὅπλοις ὦσιν. οἱ οὖν Ἀθηναῖοι τὸν Μελήσιππον ἐκ τῆς Ἀττικῆς πέμπουσιν, καὶ στρατιῶταί τινες αὐτῷ ἕπονται, ὅπως μὴ πρὸς τοὺς πολίτας λέγῃ. ὅτε δὲ ὁ κῆρυξ ἐκ τῆς Ἀττικῆς ἐξέρχεται, πρὸς τοὺς στρατιώτας λέγει· «μετὰ ταύτην τὴν ἡμέραν πολλὰ καὶ μεγάλα κακὰ τοῖς Ἕλλησι γενήσεται.» ὁ δὲ Ἀρχίδαμος, ἐπεὶ ὁ κῆρυξ ἥκει καὶ πάντα λέγει, μανθάνει ὅτι οἱ Ἀθηναῖοι οὐ πείθονται. τότε οὖν τοὺς Πελοποννησίους εἰς τὴν Ἀττικὴν ἄγει. ἐν δὲ τῇ πόλει ὁ Λύσις τὸν πατέρα ἐρωτᾷ τί λέγει ὁ κῆρυξ. ὁ δὲ Ἀρίστων· «φοβοῦμαι μὴ ὁ κῆρυξ ἀληθῆ λέγῃ.»", "glosses": {"Μελήσιππον": "Melesippus, a Spartan envoy", "ἕως": "until", "Ἕλλησι": "the Greeks (dat.)", "ὅπλοις": "arms, weapons (dat.)"},
+   "items": [
+    {"type": "true-false-grc", "prompt": "ὁ Μελήσιππος εἰς τὴν ἐκκλησίαν εἰσέρχεται καὶ λέγει.", "answer": "false", "skills": ["read.comprehension"], "explain": "ὁ κῆρυξ εἰς τὴν πόλιν οὐκ εἰσέρχεται."},
+    {"type": "true-false-grc", "prompt": "στρατιῶταί τινες τῷ κήρυκι ἕπονται.", "answer": "true", "skills": ["read.comprehension", "syntax.purpose"], "explain": "ὅπως μὴ πρὸς τοὺς πολίτας λέγῃ: so that he may not talk to the citizens."},
+    {"type": "true-false-grc", "prompt": "ὁ Ἀρίστων φοβεῖται μὴ ὁ κῆρυξ ἀληθῆ λέγῃ.", "answer": "true", "skills": ["read.comprehension", "syntax.fear"], "explain": "«φοβοῦμαι μὴ ὁ κῆρυξ ἀληθῆ λέγῃ.»"},
+    {"type": "answer-grc", "prompt": "τίς τὸν Μελήσιππον εἰς τὰς Ἀθήνας πέμπει;", "options": [{"id": "a", "text": "ὁ Ἀρχίδαμος."}, {"id": "b", "text": "ὁ Περικλῆς."}, {"id": "c", "text": "ὁ δῆμος τῶν Ἀθηναίων."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ὁ Ἀρχίδαμος κήρυκα εἰς τὰς Ἀθήνας πέμπει."},
+    {"type": "answer-grc", "prompt": "τί ἔδοξε τῷ δήμῳ;", "options": [{"id": "a", "text": "τοὺς κήρυκας τῶν Λακεδαιμονίων μὴ ἀκούειν."}, {"id": "b", "text": "τὸν κήρυκα εἰς τὴν ἐκκλησίαν καλεῖν."}, {"id": "c", "text": "εἰς τὸν Ἰσθμὸν ἐξελθεῖν."}], "answer": "a", "skills": ["read.comprehension", "syntax.infinitive"], "explain": "ἔδοξε τῷ δήμῳ … τοὺς κήρυκας τῶν Λακεδαιμονίων μὴ ἀκούειν."},
+    {"type": "translate-en", "prompt": "Translate: οἱ οὖν Ἀθηναῖοι τὸν Μελήσιππον ἐκ τῆς Ἀττικῆς πέμπουσιν, καὶ στρατιῶταί τινες αὐτῷ ἕπονται, ὅπως μὴ πρὸς τοὺς πολίτας λέγῃ.", "model": "So the Athenians send Melesippus out of Attica, and some soldiers follow him, so that he may not speak to the citizens.", "skills": ["read.comprehension", "syntax.purpose"], "explain": "ὅπως μή + subjunctive: a negative purpose clause."},
+    {"type": "translate-en", "prompt": "Translate: μετὰ ταύτην τὴν ἡμέραν πολλὰ καὶ μεγάλα κακὰ τοῖς Ἕλλησι γενήσεται.", "model": "After this day many great evils will befall the Greeks.", "skills": ["read.comprehension"], "explain": "Thucydides (2.12) gives Melesippus's words as ἥδε ἡ ἡμέρα τοῖς Ἕλλησι μεγάλων κακῶν ἄρξει, 'this day will be the beginning of great evils for the Greeks'."}
+   ]
+  }
+ ]
+}

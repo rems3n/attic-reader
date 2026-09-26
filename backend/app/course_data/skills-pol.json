@@ -1,0 +1,20 @@
+{
+ "skills": [
+  {
+   "id": "read.pol.aristotle",
+   "label": "Reading Aristotle's Constitution of the Athenians: dates by archon, purpose clauses, lists"
+  },
+  {
+   "id": "read.pol.oratory",
+   "label": "Reading Attic oratory: Lysias' narrative and Demosthenes' questions"
+  },
+  {
+   "id": "read.pol.institutions",
+   "label": "Athenian institutions: tribes, demes, Council, Assembly, courts, the lot"
+  },
+  {
+   "id": "vocab.pol",
+   "label": "Politics and city-life track vocabulary"
+  }
+ ]
+}

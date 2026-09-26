@@ -1,0 +1,127 @@
+{
+  "id": "1.4",
+  "title_grc": "ἡ Χρυσὶς ἐν τῇ οἰκίᾳ",
+  "title_en": "Chrysis at home",
+  "summary_grc": "ἡ Ἐλπὶς τὴν ὑδρίαν ἐκ τῆς οἰκίας εἰς τὴν κρήνην φέρει.",
+  "summary_en": "Feminine nouns in all their cases, and three little words for place: ἐν, εἰς, ἐκ.",
+  "cover": "panel-1-4-a",
+  "caption_grc": "ἡ Ἐλπὶς ἐκ τῆς οἰκίας εἰς τὴν κρήνην βαίνει.",
+  "names": {},
+  "allow": {},
+  "story": [
+    {
+      "image": "panel-1-4-a",
+      "sentences": [
+        {"text": "ἡ Χρυσὶς ἐν τῇ οἰκίᾳ ἐστίν.", "glosses": [{"word": "οἰκίᾳ", "kind": "=", "value": "ἡ οἰκία = ὁ οἶκος"}]},
+        {"text": "ἡ οἰκία μικρὰ ἀλλὰ καλή ἐστιν.", "glosses": [{"word": "μικρὰ", "kind": "|", "value": "μικρός | μικρά | μικρόν"}]},
+        {"text": "ἡ Χρυσὶς ὑφαίνει· ἀεὶ γὰρ πονεῖ.", "glosses": [{"word": "ὑφαίνει", "kind": "pic", "value": "verb-hyphainei"}]},
+        {"text": "ἡ Ἐλπὶς τὴν ὑδρίαν φέρει· ἡ ὑδρία μεγάλη ἐστίν.", "glosses": [{"word": "ὑδρίαν", "kind": "pic", "value": "hydria"}, {"word": "τὴν", "kind": "|", "value": "ἡ ὑδρία | τὴν ὑδρίαν"}]},
+        {"text": "ἡ Χρυσὶς τὴν Ἐλπίδα καλεῖ καὶ λέγει· «ἡ ὑδρία μεγάλη ἐστίν.»", "glosses": [{"word": "καλεῖ", "kind": "pic", "value": "verb-kalei"}]},
+        {"text": "ἡ Ἐλπὶς τὴν θύραν ὁρᾷ· ἡ θύρα τῆς οἰκίας μεγάλη ἐστίν.", "glosses": [{"word": "θύραν", "kind": "pic", "value": "thyra"}, {"word": "τῆς", "kind": "|", "value": "ἡ οἰκία | τῆς οἰκίας (of the house)"}]}
+      ]
+    },
+    {
+      "image": "panel-1-4-b",
+      "sentences": [
+        {"text": "ἡ Ἐλπὶς νῦν ἐκ τῆς οἰκίας βαίνει.", "glosses": [{"word": "νῦν", "kind": "en", "value": "now"}, {"word": "ἐκ", "kind": "pic", "value": "diagram-en-eis-ek"}]},
+        {"text": "εἰς τὴν κρήνην βαίνει· ἡ κρήνη ἐν τῇ ἀγορᾷ ἐστιν.", "glosses": [{"word": "εἰς", "kind": "pic", "value": "diagram-en-eis-ek"}, {"word": "κρήνην", "kind": "pic", "value": "krene"}]},
+        {"text": "ἡ ὁδὸς ἐκ τῆς οἰκίας εἰς τὴν ἀγορὰν οὐ μικρά ἐστιν.", "glosses": []},
+        {"text": "ἐν τῇ κρήνῃ ὕδωρ ἐστίν· ἡ Ἐλπὶς τὸ ὕδωρ εἰς τὴν ὑδρίαν φέρει.", "glosses": [{"word": "κρήνῃ", "kind": "|", "value": "ἡ κρήνη | ἐν τῇ κρήνῃ"}]},
+        {"text": "ἡ Ἐλπὶς τὴν ὑδρίαν ἐκ τῆς κρήνης εἰς τὴν οἰκίαν φέρει.", "glosses": [{"word": "κρήνης", "kind": "|", "value": "ἡ κρήνη | ἐκ τῆς κρήνης"}]},
+        {"text": "ἡ ἡμέρα καλή ἐστιν· ὁ ἥλιος ἐν τῷ οὐρανῷ ἐστιν.", "glosses": [{"word": "ἡμέρα", "kind": "pic", "value": "hemera"}]}
+      ]
+    },
+    {
+      "image": "thea",
+      "sentences": [
+        {"text": "ἡ θεὰ Ἀθηνᾶ τὴν πόλιν φιλεῖ.", "glosses": [{"word": "φιλεῖ", "kind": "pic", "value": "verb-philei"}, {"word": "πόλιν", "kind": "|", "value": "ἡ πόλις | τὴν πόλιν"}]},
+        {"text": "ἡ Χρυσὶς τὴν θεὰν φιλεῖ· ἡ Ἐλπὶς τὴν θάλατταν φιλεῖ.", "glosses": [{"word": "θάλατταν", "kind": "|", "value": "ἡ θάλαττα | τὴν θάλατταν"}]},
+        {"text": "ὁ Λύσις καὶ ὁ Λάβρος εἰς τὴν οἰκίαν τρέχουσιν· ἡ Χρυσὶς τὸν Λύσιν καλεῖ.", "glosses": []},
+        {"text": "νῦν ἡ Χρυσὶς ἐν τῇ κλίνῃ καθεύδει.", "glosses": [{"word": "κλίνῃ", "kind": "pic", "value": "kline"}]}
+      ]
+    }
+  ],
+  "vocab": [
+    {"id": "οικια", "pic": "oikos", "gloss_grc": "= ὁ οἶκος"},
+    {"id": "θυρα", "pic": "thyra"},
+    {"id": "κρηνη", "pic": "krene"},
+    {"id": "υδρια", "pic": "hydria"},
+    {"id": "κλινη", "pic": "kline"},
+    {"id": "ημερα", "pic": "hemera"},
+    {"id": "φιλεω", "pic": "verb-philei", "gloss_grc": "φιλεῖ · φιλοῦσι(ν)"},
+    {"id": "καλεω", "pic": "verb-kalei", "gloss_grc": "καλεῖ · καλοῦσι(ν)"},
+    {"id": "υφαινω", "pic": "verb-hyphainei"},
+    {"id": "εις", "pic": "diagram-en-eis-ek", "gloss_grc": "εἰς τὴν οἰκίαν →"},
+    {"id": "εκ", "pic": "diagram-en-eis-ek", "gloss_grc": "ἐκ τῆς οἰκίας ←"},
+    {"id": "νυν", "gloss_grc": "νῦν"},
+    {"id": "θεα", "pic": "thea"},
+    {"id": "θαλαττα", "pic": "thalatta"},
+    {"id": "εν", "pic": "diagram-en-eis-ek", "gloss_grc": "ἐν τῇ οἰκίᾳ ·"}
+  ],
+  "notice": [
+    "ἡ οἰκία · τῆς οἰκίας · τῇ οἰκίᾳ · τὴν οἰκίαν",
+    "ἡ κρήνη · τῆς κρήνης · τῇ κρήνῃ · τὴν κρήνην",
+    "ἐν τῇ οἰκίᾳ — εἰς τὴν οἰκίαν — ἐκ τῆς οἰκίας",
+    "ἡ οἰκία μικρὰ ἀλλὰ καλή ἐστιν."
+  ],
+  "grammar": {
+    "md": "**The first declension.** Feminine nouns ending in -η or -α belong to the first declension. In the singular:\n\n| | ἡ κρήνη | ἡ οἰκία | ἡ θάλαττα |\n|---|---|---|---|\n| nominative | ἡ κρήν**η** | ἡ οἰκί**α** | ἡ θάλαττ**α** |\n| genitive | τῆς κρήν**ης** | τῆς οἰκί**ας** | τῆς θαλάττ**ης** |\n| dative | τῇ κρήν**ῃ** | τῇ οἰκί**ᾳ** | τῇ θαλάττ**ῃ** |\n| accusative | τὴν κρήν**ην** | τὴν οἰκί**αν** | τὴν θάλαττ**αν** |\n\nThree types: **-η** throughout (κρήνη, κλίνη, σελήνη); **-α** throughout after ε, ι or ρ (οἰκία, ὑδρία, θύρα, ἀγορά, θεά, ἡμέρα); and a short **-α** that switches to -ης / -ῃ in the genitive and dative (θάλαττα). The feminine article is **ἡ, τῆς, τῇ, τήν**; feminine adjectives follow the same pattern: καλή, καλῆς, καλῇ, καλήν but μικρά, μικρᾶς, μικρᾷ, μικράν.\n\n**Three prepositions of place.**\n\n| | case | meaning |\n|---|---|---|\n| **ἐν** | dative | *in*: ἐν τῇ οἰκίᾳ |\n| **εἰς** | accusative | *into, to*: εἰς τὴν οἰκίαν |\n| **ἐκ** (ἐξ before a vowel) | genitive | *out of, from*: ἐκ τῆς οἰκίας, ἐξ ἀγορᾶς |\n\nRest takes the dative, motion towards the accusative, motion from the genitive. The same three words work with masculine nouns too: ἐν τῷ οἴκῳ, εἰς τὸν οἶκον, ἐκ τοῦ οἴκου.\n\n**Third-declension objects** met so far: τὴν πόλιν, τὸν κύνα, τὸν Λύσιν, τὴν Ἐλπίδα. Recognize them; their pattern comes in Unit 3.",
+    "paradigms": ["timi", "chora", "thalatta", "article", "agathos"],
+    "diagram": "diagram-en-eis-ek"
+  },
+  "exercises": [
+    {"type": "endings-cloze", "prompt": "Μελέτημα Α · Fill in the endings.", "template": "ἡ Ἐλπὶς τὴν ὑδρί___ φέρει. ἡ Χρυσὶς ἐν τῇ οἰκί___ ἐστίν. ἡ θύρα τῆς οἰκί___ μεγάλη ἐστίν. ἡ Ἐλπὶς εἰς τὴν κρήν___ βαίνει.", "gaps": [{"answers": ["αν"]}, {"answers": ["ᾳ", "α"]}, {"answers": ["ας"]}, {"answers": ["ην"]}], "skills": ["noun.decl1.acc.sg", "noun.decl1.dat.sg", "noun.decl1.gen.sg"], "explain": "τὴν ὑδρίαν (object), τῇ οἰκίᾳ (after ἐν), τῆς οἰκίας (of the house), τὴν κρήνην (after εἰς)."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ἡ Ἐλπὶς ___ τῆς οἰκίας βαίνει.", "options": [{"id": "a", "text": "ἐν"}, {"id": "b", "text": "εἰς"}, {"id": "c", "text": "ἐκ"}], "answer": "c", "skills": ["prep.ek.gen"], "explain": "τῆς οἰκίας is genitive: ἐκ, 'out of'.", "audio": "ἡ Ἐλπὶς ἐκ τῆς οἰκίας βαίνει."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ἡ Ἐλπὶς ___ τὴν κρήνην βαίνει.", "options": [{"id": "a", "text": "ἐν"}, {"id": "b", "text": "εἰς"}, {"id": "c", "text": "ἐκ"}], "answer": "b", "skills": ["prep.eis.acc"], "explain": "τὴν κρήνην is accusative: εἰς, 'to'.", "audio": "ἡ Ἐλπὶς εἰς τὴν κρήνην βαίνει."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ἡ κρήνη ___ τῇ ἀγορᾷ ἐστιν.", "options": [{"id": "a", "text": "ἐν"}, {"id": "b", "text": "εἰς"}, {"id": "c", "text": "ἐκ"}], "answer": "a", "skills": ["prep.en.dat"], "explain": "τῇ ἀγορᾷ is dative: ἐν, 'in'.", "audio": "ἡ κρήνη ἐν τῇ ἀγορᾷ ἐστιν."},
+    {"type": "pick-picture", "prompt": "ὑδρία", "audio": "prompt", "options": [{"id": "a", "image": "hydria"}, {"id": "b", "image": "kline"}, {"id": "c", "image": "thyra"}, {"id": "d", "image": "krene"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "ὑδρία: water jar."},
+    {"type": "pick-picture", "prompt": "ὑφαίνει", "audio": "prompt", "options": [{"id": "a", "image": "verb-kalei"}, {"id": "b", "image": "verb-philei"}, {"id": "c", "image": "verb-hyphainei"}, {"id": "d", "image": "verb-pherei"}], "answer": "c", "skills": ["vocab.recognition"], "explain": "ὑφαίνει: weaves."},
+    {"type": "produce-form", "prompt": "Give the genitive singular of οἰκία ('of the house').", "lemma": "οἰκία", "cell": "gen.sg", "skills": ["noun.decl1.gen.sg"], "explain": "τῆς οἰκίας.", "audio": "οἰκίας"},
+    {"type": "produce-form", "prompt": "Give the accusative singular of κρήνη (after εἰς).", "lemma": "κρήνη", "cell": "acc.sg", "skills": ["noun.decl1.acc.sg"], "explain": "εἰς τὴν κρήνην.", "audio": "κρήνην"},
+    {"type": "produce-form", "prompt": "Give the genitive singular of θάλαττα.", "lemma": "θάλαττα", "cell": "gen.sg", "skills": ["noun.decl1.gen.sg", "noun.decl1.types"], "explain": "τῆς θαλάττης: the short -α type switches to -ης.", "audio": "θαλάττης"},
+    {"type": "produce-form", "prompt": "Give the dative singular of ὑδρία (after ἐν).", "lemma": "ὑδρία", "cell": "dat.sg", "skills": ["noun.decl1.dat.sg"], "explain": "ἐν τῇ ὑδρίᾳ.", "audio": "ὑδρίᾳ"},
+    {"type": "parse", "prompt": "Parse κρήνης.", "form": "κρήνης", "groups": [{"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "dat", "label": "dative"}, {"id": "acc", "label": "accusative"}]}], "answer": {"case": "gen"}, "skills": ["noun.decl1.gen.sg"], "explain": "-ης: genitive singular, 'of the fountain'.", "audio": "κρήνης"},
+    {"type": "parse", "prompt": "Parse ὑδρίαν.", "form": "ὑδρίαν", "groups": [{"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "dat", "label": "dative"}, {"id": "acc", "label": "accusative"}]}], "answer": {"case": "acc"}, "skills": ["noun.decl1.acc.sg"], "explain": "-αν: accusative singular.", "audio": "ὑδρίαν"},
+    {"type": "cloze-choice", "prompt": "ἡ Χρυσὶς ἐν ___ οἰκίᾳ ἐστίν.", "options": [{"id": "a", "text": "τῆς"}, {"id": "b", "text": "τῇ"}, {"id": "c", "text": "τήν"}], "answer": "b", "skills": ["art.dat.sg", "prep.en.dat"], "explain": "Dative feminine: τῇ οἰκίᾳ."},
+    {"type": "cloze-choice", "prompt": "___ μεγάλη ἐστίν. (the water jar, as subject)", "options": [{"id": "a", "text": "ἡ ὑδρία"}, {"id": "b", "text": "τὴν ὑδρίαν"}, {"id": "c", "text": "τῆς ὑδρίας"}], "answer": "a", "skills": ["noun.decl1.nom.sg", "syntax.subject"], "explain": "The subject is nominative: ἡ ὑδρία."},
+    {"type": "cloze-choice", "prompt": "ἡ θύρα ___ οἰκίας μεγάλη ἐστίν.", "options": [{"id": "a", "text": "τῆς"}, {"id": "b", "text": "τῇ"}, {"id": "c", "text": "τήν"}], "answer": "a", "skills": ["art.gen.sg", "syntax.possession.gen"], "explain": "'of the house': genitive, τῆς οἰκίας."},
+    {"type": "cloze-choice", "prompt": "ἡ ὑδρία ___ ἐστιν.", "options": [{"id": "a", "text": "μεγάλη"}, {"id": "b", "text": "μέγας"}, {"id": "c", "text": "μέγα"}], "answer": "a", "skills": ["adj.agree"], "explain": "Feminine noun, feminine adjective: μεγάλη."},
+    {"type": "transform", "prompt": "Put it after εἰς: ἡ κρήνη → εἰς …", "template": "εἰς ___", "gaps": [{"answers": ["τὴν κρήνην"]}], "skills": ["prep.eis.acc", "noun.decl1.acc.sg"], "explain": "εἰς τὴν κρήνην.", "audio": "εἰς τὴν κρήνην"},
+    {"type": "transform", "prompt": "Put it after ἐκ: ἡ οἰκία → ἐκ …", "template": "ἐκ ___", "gaps": [{"answers": ["τῆς οἰκίας"]}], "skills": ["prep.ek.gen", "noun.decl1.gen.sg"], "explain": "ἐκ τῆς οἰκίας.", "audio": "ἐκ τῆς οἰκίας"},
+    {"type": "transform", "prompt": "Put it after ἐν: ἡ ἀγορά → ἐν …", "template": "ἐν ___", "gaps": [{"answers": ["τῇ ἀγορᾷ"]}], "skills": ["prep.en.dat", "noun.decl1.dat.sg"], "explain": "ἐν τῇ ἀγορᾷ.", "audio": "ἐν τῇ ἀγορᾷ"},
+    {"type": "locate", "prompt": "Tap every feminine noun (not the articles).", "sentence": "ἡ Ἐλπὶς τὴν ὑδρίαν ἐκ τῆς κρήνης εἰς τὴν οἰκίαν φέρει.", "answer": [3, 6, 9], "skills": ["read.locate", "noun.gender"], "explain": "ὑδρίαν, κρήνης, οἰκίαν (Ἐλπίς is a name)."},
+    {"type": "locate", "prompt": "Tap every preposition.", "sentence": "ἡ Ἐλπὶς ἐκ τῆς οἰκίας εἰς τὴν κρήνην βαίνει· ἡ κρήνη ἐν τῇ ἀγορᾷ ἐστιν.", "answer": [2, 5, 10], "skills": ["read.locate", "prep.ek.gen", "prep.eis.acc", "prep.en.dat"], "explain": "ἐκ, εἰς, ἐν."},
+    {"type": "reorder", "prompt": "Put the words in order: 'Elpis carries the water jar into the house.'", "tokens": ["φέρει", "τὴν", "ὑδρίαν", "εἰς", "ἡ", "Ἐλπὶς", "τὴν", "οἰκίαν"], "answers": ["ἡ Ἐλπὶς τὴν ὑδρίαν εἰς τὴν οἰκίαν φέρει", "ἡ Ἐλπὶς εἰς τὴν οἰκίαν τὴν ὑδρίαν φέρει", "ἡ Ἐλπὶς φέρει τὴν ὑδρίαν εἰς τὴν οἰκίαν"], "skills": ["syntax.word-order", "prep.eis.acc"], "explain": "ἡ Ἐλπὶς τὴν ὑδρίαν εἰς τὴν οἰκίαν φέρει."},
+    {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ἡ Ἐλπὶς ἐκ τῆς οἰκίας βαίνει.", "options": [{"id": "a", "text": "ἡ Ἐλπὶς εἰς τὴν οἰκίαν βαίνει."}, {"id": "b", "text": "ἡ Ἐλπὶς ἐκ τῆς οἰκίας βαίνει."}, {"id": "c", "text": "ἡ Ἐλπὶς ἐν τῇ οἰκίᾳ ἐστίν."}], "answer": "b", "skills": ["listen.sentences", "prep.ek.gen"], "explain": "Elpis walks out of the house."},
+    {"type": "true-false-grc", "prompt": "ἡ κρήνη ἐν τῇ οἰκίᾳ ἐστίν.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "ἡ κρήνη ἐν τῇ ἀγορᾷ ἐστιν."},
+    {"type": "true-false-grc", "prompt": "ἡ Χρυσὶς ὑφαίνει.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "ἡ Χρυσὶς ὑφαίνει· ἀεὶ γὰρ πονεῖ."},
+    {"type": "true-false-grc", "prompt": "ἡ Ἐλπὶς τὴν θάλατταν φιλεῖ.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "Yes."},
+    {"type": "dictation", "prompt": "Listen and type what you hear.", "audio": "ἡ Χρυσὶς ἐν τῇ οἰκίᾳ ἐστίν.", "gaps": [{"answers": ["ἡ Χρυσὶς ἐν τῇ οἰκίᾳ ἐστίν", "ἡ Χρυσὶς ἐν τῇ οἰκίᾳ ἐστί"]}], "skills": ["spell.dictation", "listen.sentences"], "explain": "ἡ Χρυσὶς ἐν τῇ οἰκίᾳ ἐστίν."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Elpis carries the water jar.'", "gaps": [{"answers": ["ἡ Ἐλπὶς τὴν ὑδρίαν φέρει", "ἡ Ἐλπὶς φέρει τὴν ὑδρίαν", "τὴν ὑδρίαν ἡ Ἐλπὶς φέρει"]}], "skills": ["vocab.production", "noun.decl1.acc.sg"], "explain": "ἡ Ἐλπὶς τὴν ὑδρίαν φέρει."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Chrysis is walking out of the house into the agora.'", "gaps": [{"answers": ["ἡ Χρυσὶς ἐκ τῆς οἰκίας εἰς τὴν ἀγορὰν βαίνει", "ἡ Χρυσὶς ἐκ τῆς οἰκίας εἰς τὴν ἀγοράν βαίνει", "ἡ Χρυσὶς βαίνει ἐκ τῆς οἰκίας εἰς τὴν ἀγοράν", "ἡ Χρυσὶς βαίνει ἐκ τῆς οἰκίας εἰς τὴν ἀγορὰν"]}], "skills": ["vocab.production", "prep.ek.gen", "prep.eis.acc"], "explain": "ἡ Χρυσὶς ἐκ τῆς οἰκίας εἰς τὴν ἀγορὰν βαίνει."},
+    {"type": "translate-en", "prompt": "Translate: ἡ ὁδὸς ἐκ τῆς οἰκίας εἰς τὴν ἀγορὰν οὐ μικρά ἐστιν.", "audio": "ἡ ὁδὸς ἐκ τῆς οἰκίας εἰς τὴν ἀγορὰν οὐ μικρά ἐστιν.", "model": "The road from the house to the agora is not short.", "skills": ["read.comprehension", "prep.ek.gen", "prep.eis.acc"], "explain": "ἐκ … εἰς …: from … to …"},
+    {"type": "word-family", "prompt": "Word Study · Match each Greek word to the English word that comes from it.", "pairs": [{"left": "ὑδρία", "right": "hydrant"}, {"left": "κλίνη", "right": "clinic"}, {"left": "φιλέω", "right": "philosophy"}, {"left": "ἡμέρα", "right": "ephemeral (for a day)"}], "skills": ["vocab.family"], "explain": "ὕδωρ/ὑδρία 'water'; κλίνη 'bed' → clinic; φιλο-σοφία 'love of wisdom'; ἐφ-ήμερος 'lasting a day'."}
+  ],
+  "questions": [
+    {"type": "answer-grc", "prompt": "ποῦ ἐστιν ἡ Χρυσίς;", "audio": "prompt", "options": [{"id": "a", "text": "ἐν τῇ οἰκίᾳ."}, {"id": "b", "text": "ἐν τῇ ἀγορᾷ."}, {"id": "c", "text": "ἐν τῇ κρήνῃ."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ἡ Χρυσὶς ἐν τῇ οἰκίᾳ ἐστίν."},
+    {"type": "answer-grc", "prompt": "τί φέρει ἡ Ἐλπίς;", "audio": "prompt", "options": [{"id": "a", "text": "τὴν ὑδρίαν."}, {"id": "b", "text": "τὴν κλίνην."}, {"id": "c", "text": "τὸν ἄρτον."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ἡ Ἐλπὶς τὴν ὑδρίαν φέρει."},
+    {"type": "answer-grc", "prompt": "ποῦ ἐστιν ἡ κρήνη;", "audio": "prompt", "options": [{"id": "a", "text": "ἐν τῇ οἰκίᾳ."}, {"id": "b", "text": "ἐν τῇ ἀγορᾷ."}, {"id": "c", "text": "ἐν τῇ θαλάττῃ."}], "answer": "b", "skills": ["read.comprehension"], "explain": "ἡ κρήνη ἐν τῇ ἀγορᾷ ἐστιν."},
+    {"type": "answer-grc", "prompt": "τίς τὴν πόλιν φιλεῖ;", "audio": "prompt", "options": [{"id": "a", "text": "ἡ θεὰ Ἀθηνᾶ."}, {"id": "b", "text": "ὁ Λάβρος."}, {"id": "c", "text": "ἡ Ἐλπίς."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ἡ θεὰ Ἀθηνᾶ τὴν πόλιν φιλεῖ."},
+    {"type": "answer-grc", "prompt": "ἆρα ἡ ὁδὸς ἐκ τῆς οἰκίας εἰς τὴν ἀγορὰν μικρά ἐστιν;", "audio": "prompt", "options": [{"id": "a", "text": "ναί, μικρά ἐστιν."}, {"id": "b", "text": "οὐ μικρά ἐστιν."}], "answer": "b", "skills": ["read.comprehension", "syntax.negation"], "explain": "οὐ μικρά ἐστιν."}
+  ],
+  "culture": {
+    "title": "Women, water and the loom",
+    "md": "An Athenian citizen's wife like Chrysis ran the household: stores, slaves, children, and above all cloth. Weaving (ὑφαίνειν) on an upright loom was the work that defined a respectable woman, from Penelope onward; the family's clothes, blankets and the robe offered to Athena at the Panathenaea all came off looms like hers. Fetching water was a daily errand, and the fountain house (κρήνη) was one of the few public places where women and girls met and talked. Black-figure hydriai of the sixth century show exactly this scene: women with jars on their heads chatting under the lion-head spouts of a fountain house. Elpis, at nine, would carry a small hydria; the big ones held over twenty litres.",
+    "image": "culture-fountain-hydria"
+  },
+  "quiz": [
+    {"type": "cloze-choice", "prompt": "ἡ Ἐλπὶς ___ τὴν οἰκίαν τρέχει.", "options": [{"id": "a", "text": "ἐν"}, {"id": "b", "text": "εἰς"}, {"id": "c", "text": "ἐκ"}], "answer": "b", "skills": ["prep.eis.acc"], "explain": "Accusative after εἰς: into the house."},
+    {"type": "produce-form", "prompt": "Give the dative singular of κρήνη (after ἐν).", "lemma": "κρήνη", "cell": "dat.sg", "skills": ["noun.decl1.dat.sg"], "explain": "ἐν τῇ κρήνῃ.", "audio": "κρήνῃ"},
+    {"type": "produce-form", "prompt": "Give the genitive singular of θύρα.", "lemma": "θύρα", "cell": "gen.sg", "skills": ["noun.decl1.gen.sg"], "explain": "τῆς θύρας.", "audio": "θύρας"},
+    {"type": "cloze-choice", "prompt": "ἡ Χρυσὶς ___ ὑδρίαν ὁρᾷ.", "options": [{"id": "a", "text": "τῆς"}, {"id": "b", "text": "τῇ"}, {"id": "c", "text": "τήν"}], "answer": "c", "skills": ["art.acc.sg", "noun.decl1.acc.sg"], "explain": "Object: τὴν ὑδρίαν."},
+    {"type": "true-false-grc", "prompt": "ἡ Ἐλπὶς τὴν ὑδρίαν ἐκ τῆς κρήνης εἰς τὴν οἰκίαν φέρει.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "Yes: from the fountain into the house."},
+    {"type": "pick-picture", "prompt": "κλίνη", "audio": "prompt", "options": [{"id": "a", "image": "kline"}, {"id": "b", "image": "thyra"}, {"id": "c", "image": "hydria"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "κλίνη: couch, bed."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Chrysis is in the house.'", "gaps": [{"answers": ["ἡ Χρυσὶς ἐν τῇ οἰκίᾳ ἐστίν", "ἡ Χρυσὶς ἐν τῇ οἰκίᾳ ἐστί", "ἡ Χρυσὶς ἐν τῷ οἴκῳ ἐστίν", "ἡ Χρυσὶς ἐν τῷ οἴκῳ ἐστί"]}], "skills": ["vocab.production", "prep.en.dat"], "explain": "ἡ Χρυσὶς ἐν τῇ οἰκίᾳ ἐστίν."}
+  ],
+  "skills": ["noun.decl1.nom.sg", "noun.decl1.gen.sg", "noun.decl1.dat.sg", "noun.decl1.acc.sg", "noun.decl1.types", "art.gen.sg", "art.dat.sg", "art.acc.sg", "adj.agree", "noun.gender", "prep.en.dat", "prep.eis.acc", "prep.ek.gen", "syntax.possession.gen", "syntax.word-order", "read.comprehension", "read.locate", "listen.sentences", "spell.dictation", "vocab.recognition", "vocab.production", "vocab.family", "syntax.negation"]
+}

@@ -139,6 +139,12 @@
     "aorist-passive": [
      "ἐτράφην"
     ]
+   },
+   "verb": {
+    "vadj": {
+     "tos": "θρεπτός",
+     "teos": "θρεπτέος"
+    }
    }
   }
  },
@@ -235,6 +241,54 @@
     "pluperfect": [
      "εἱστήκη"
     ]
+   },
+   "verb": {
+    "tables": [
+     {
+      "tense": "perfect",
+      "voice": "active",
+      "mood": "indicative",
+      "forms": "ἕστηκα ἕστηκας ἕστηκε(ν) ἕσταμεν/ἑστήκαμεν ἕστατε/ἑστήκατε ἑστᾶσι(ν)/ἑστήκασι(ν)",
+      "note": "‘I stand’; the plural usually has the short forms ἕσταμεν, ἕστατε, ἑστᾶσι."
+     },
+     {
+      "tense": "perfect",
+      "voice": "active",
+      "mood": "subjunctive",
+      "forms": "ἑστῶ ἑστῇς ἑστῇ ἑστῶμεν ἑστῆτε ἑστῶσι(ν)"
+     },
+     {
+      "tense": "perfect",
+      "voice": "active",
+      "mood": "optative",
+      "forms": "ἑσταίην ἑσταίης ἑσταίη ἑσταῖμεν ἑσταῖτε ἑσταῖεν"
+     },
+     {
+      "tense": "perfect",
+      "voice": "active",
+      "mood": "imperative",
+      "forms": "- ἕσταθι ἑστάτω - ἕστατε ἑστάντων"
+     },
+     {
+      "tense": "perfect",
+      "voice": "active",
+      "mood": "infinitive",
+      "forms": "ἑστάναι/ἑστηκέναι"
+     },
+     {
+      "tense": "perfect",
+      "voice": "active",
+      "mood": "participle",
+      "forms": "ἑστηκώς/ἑστώς ἑστηκυῖα/ἑστῶσα ἑστηκός/ἑστός ἑστηκότος/ἑστῶτος",
+      "note": "The short participle ἑστώς, ἑστῶσα, ἑστός (gen. ἑστῶτος) is the common one in prose."
+     },
+     {
+      "tense": "pluperfect",
+      "voice": "active",
+      "mood": "indicative",
+      "forms": "εἱστήκη εἱστήκης εἱστήκει(ν) ἕσταμεν/εἱστήκεμεν ἕστατε/εἱστήκετε ἕστασαν/εἱστήκεσαν"
+     }
+    ]
    }
   },
   "notes": "First aorist ἔστησα is transitive (‘I set up’), second aorist ἔστην intransitive (‘I stood’); perfect ἕστηκα ‘I stand’."
@@ -307,7 +361,13 @@
   "morph": {
    "verb": {
     "contract": "eta",
-    "no_aorist_middle": true
+    "no_aorist_middle": true,
+    "drop": [
+     "imperfect.middle/passive",
+     "perfect.active",
+     "pluperfect.active",
+     "present.middle/passive"
+    ]
    }
   },
   "notes": "Contracts with η instead of ᾱ: ζῶ, ζῇς, ζῇ, ζῶμεν, ζῆτε, ζῶσι; infinitive ζῆν."
@@ -324,7 +384,11 @@
   "morph": {
    "verb": {
     "aorist_stem": "ἰδ",
-    "aorist_passive_stem": "ὀφθ"
+    "aorist_passive_stem": "ὀφθ",
+    "vadj": {
+     "tos": "ὁρατός",
+     "teos": "ὁρατέος"
+    }
    }
   }
  },
@@ -333,14 +397,45 @@
    "verb": {
     "aorist_stem": "εἰπ",
     "no_augment": true,
-    "no_aorist_middle": true
+    "no_aorist_middle": true,
+    "tables": [
+     {
+      "tense": "perfect",
+      "voice": "middle/passive",
+      "mood": "indicative",
+      "forms": "εἴρημαι εἴρησαι εἴρηται εἰρήμεθα εἴρησθε εἴρηνται",
+      "note": "In the sense ‘say’ the perfect middle/passive is εἴρημαι (from the root of ἐρῶ); λέλεγμαι means ‘have been chosen’."
+     },
+     {
+      "tense": "perfect",
+      "voice": "middle/passive",
+      "mood": "infinitive",
+      "forms": "εἰρῆσθαι"
+     },
+     {
+      "tense": "perfect",
+      "voice": "middle/passive",
+      "mood": "participle",
+      "forms": "εἰρημένος εἰρημένη εἰρημένον εἰρημένου"
+     },
+     {
+      "tense": "pluperfect",
+      "voice": "middle/passive",
+      "mood": "indicative",
+      "forms": "εἰρήμην εἴρησο εἴρητο εἰρήμεθα εἴρησθε εἴρηντο"
+     }
+    ]
    }
   }
  },
  "116": {
   "morph": {
    "verb": {
-    "aorist_stem": "ἐνεγκ"
+    "aorist_stem": "ἐνεγκ",
+    "vadj": {
+     "tos": "οἰστός",
+     "teos": "οἰστέος"
+    }
    }
   }
  },
@@ -425,7 +520,46 @@
  "138": {
   "morph": {
    "verb": {
-    "aorist_stem": "ἐλθ"
+    "aorist_stem": "ἐλθ",
+    "tables": [
+     {
+      "tense": "future",
+      "voice": "active",
+      "mood": "indicative",
+      "forms": "εἶμι εἶ εἶσι(ν) ἴμεν ἴτε ἴασι(ν)",
+      "note": "In Attic prose the future of ἔρχομαι is εἶμι ‘I shall go’; ἐλεύσομαι is Ionic and poetic."
+     },
+     {
+      "tense": "future",
+      "voice": "active",
+      "mood": "optative",
+      "forms": "ἴοιμι ἴοις ἴοι ἴοιμεν ἴοιτε ἴοιεν"
+     },
+     {
+      "tense": "future",
+      "voice": "active",
+      "mood": "infinitive",
+      "forms": "ἰέναι"
+     },
+     {
+      "tense": "future",
+      "voice": "active",
+      "mood": "participle",
+      "forms": "ἰών ἰοῦσα ἰόν ἰόντος"
+     },
+     {
+      "tense": "imperfect",
+      "voice": "active",
+      "mood": "indicative",
+      "forms": "ᾖα/ᾔειν ᾔεισθα/ᾔεις ᾔει(ν) ᾖμεν ᾖτε ᾖσαν/ᾔεσαν",
+      "note": "In Attic prose the imperfect of ἔρχομαι is ᾖα/ᾔειν, from εἶμι."
+     }
+    ],
+    "drop": [
+     "future.middle",
+     "imperfect.middle",
+     "imperfect.middle/passive"
+    ]
    }
   }
  },
@@ -442,11 +576,18 @@
     "deponent": true,
     "tables": [
      {
+      "tense": "present",
+      "voice": "middle",
+      "mood": "indicative",
+      "forms": "οἴομαι/οἶμαι οἴῃ/οἴει οἴεται οἰόμεθα οἴεσθε οἴονται",
+      "note": "Beside οἴομαι the shortened οἶμαι is the usual prose form of the 1st singular."
+     },
+     {
       "tense": "imperfect",
       "voice": "middle",
       "mood": "indicative",
-      "forms": "ᾤμην ᾤου ᾤετο ᾠόμεθα ᾤεσθε ᾤοντο",
-      "note": "Athematic in the singular (ᾤμην, ᾤου, ᾤετο)."
+      "forms": "ᾠόμην/ᾤμην ᾤου ᾤετο ᾠόμεθα ᾤεσθε ᾤοντο",
+      "note": "1st singular ᾠόμην or, shortened like οἶμαι, ᾤμην."
      }
     ]
    }
@@ -475,7 +616,38 @@
  "287": {
   "morph": {
    "verb": {
-    "no_aorist_middle": true
+    "no_aorist_middle": true,
+    "tables": [
+     {
+      "tense": "perfect",
+      "voice": "active",
+      "mood": "indicative",
+      "forms": "τέθνηκα τέθνηκας τέθνηκε(ν) τεθνήκαμεν/τέθναμεν τεθνήκατε/τέθνατε τεθνήκασι(ν)/τεθνᾶσι(ν)",
+      "note": "The perfect comes from the simplex: τέθνηκα ‘I am dead’ (short forms τέθναμεν, τεθνάναι, τεθνεώς are common)."
+     },
+     {
+      "tense": "perfect",
+      "voice": "active",
+      "mood": "infinitive",
+      "forms": "τεθνηκέναι/τεθνάναι"
+     },
+     {
+      "tense": "perfect",
+      "voice": "active",
+      "mood": "participle",
+      "forms": "τεθνηκώς τεθνηκυῖα τεθνηκός τεθνηκότος"
+     },
+     {
+      "tense": "pluperfect",
+      "voice": "active",
+      "mood": "indicative",
+      "forms": "ἐτεθνήκη ἐτεθνήκης ἐτεθνήκει(ν) ἐτεθνήκεμεν ἐτεθνήκετε ἐτεθνήκεσαν"
+     }
+    ],
+    "drop": [
+     "imperfect.middle/passive",
+     "present.middle/passive"
+    ]
    }
   }
  },
@@ -489,7 +661,11 @@
  "173": {
   "morph": {
    "verb": {
-    "no_aorist_middle": true
+    "no_aorist_middle": true,
+    "drop": [
+     "imperfect.middle/passive",
+     "present.middle/passive"
+    ]
    }
   }
  },
@@ -680,6 +856,93 @@
   "morph": {
    "verb": {
     "no_aorist_middle": true
+   }
+  }
+ },
+ "458": {
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐρωτάω"
+    ],
+    "future": [
+     "ἐρωτήσω",
+     "ἐρήσομαι"
+    ],
+    "aorist": [
+     "ἠρώτησα",
+     "ἠρόμην"
+    ],
+    "aorist-1": [
+     "ἠρώτησα"
+    ],
+    "aorist-2": [
+     "ἠρόμην"
+    ],
+    "perfect": [
+     "ἠρώτηκα"
+    ]
+   }
+  }
+ },
+ "454": {
+  "notes": "In Attic the other tenses come from the stem σκεπ-: future σκέψομαι, aorist ἐσκεψάμην, perfect ἔσκεμμαι; verbal adjective σκεπτέον ‘one must consider’.",
+  "morph": {
+   "parts": {
+    "present": [
+     "σκοπέω"
+    ],
+    "future": [
+     "σκέψομαι"
+    ],
+    "aorist": [
+     "ἐσκεψάμην"
+    ],
+    "perfect-mp": [
+     "ἔσκεμμαι"
+    ]
+   },
+   "verb": {
+    "vadj": {
+     "tos": "σκεπτός",
+     "teos": "σκεπτέος"
+    }
+   }
+  }
+ },
+ "47": {
+  "morph": {
+   "forms": [
+    "οὕτως",
+    "οὕτω"
+   ]
+  },
+  "notes": "οὕτω before a consonant, οὕτως before a vowel (and often before consonants too)."
+ },
+ "63": {
+  "morph": {
+   "verb": {
+    "vadj": {
+     "tos": "ἑτός",
+     "teos": "ἑτέος"
+    }
+   }
+  }
+ },
+ "341": {
+  "morph": {
+   "verb": {
+    "vadj": {
+     "tos": "ἀφετός",
+     "teos": "ἀφετέος"
+    }
+   }
+  }
+ },
+ "85": {
+  "morph": {
+   "verb": {
+    "vadj": false
    }
   }
  }

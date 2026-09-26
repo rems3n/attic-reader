@@ -1,0 +1,1465 @@
+{
+ "id": "hist.2",
+ "title_grc": "Ἡ δευτέρα τριήρης",
+ "title_en": "The second trireme",
+ "summary_grc": "οἱ Ἀθηναῖοι τὴν γνώμην μεταβάλλονται καὶ ἄλλην τριήρη κατὰ σπουδὴν ἀποστέλλουσιν.",
+ "summary_en": "427 BC: the Assembly votes to kill every man of rebel Mytilene, then changes its mind. A second trireme races the first across the Aegean; the rowers eat at their oars and sleep in turns. Thucydides 3.49, adapted: the genitive absolute, purpose with ὅπως μή, correlatives.",
+ "cover": "hist-panel-2-c",
+ "caption_grc": "οἱ μὲν ὕπνον ᾑροῦντο κατὰ μέρος, οἱ δὲ ἤλαυνον.",
+ "original": {
+  "text": "thuc-3.49",
+  "note": "Thucydides 3.49, lightly adapted in paragraphs 2 and 3 (paragraph 1 and the last sentence summarise 3.2–3.36 and 3.50). The debate took place in 427 BC; Thucydides was then an Athenian citizen of about thirty and wrote this after his exile in 424."
+ },
+ "names": {
+  "Μυτιληναῖος": [
+   "Μυτιληναῖοι",
+   "Μυτιληναίων",
+   "Μυτιληναίοις",
+   "Μυτιληναίους"
+  ],
+  "Μυτιλήνη": [
+   "Μυτιλήνης",
+   "Μυτιλήνῃ",
+   "Μυτιλήνην"
+  ],
+  "Λέσβος": [
+   "Λέσβου",
+   "Λέσβῳ",
+   "Λέσβον"
+  ],
+  "Κλέων": [
+   "Κλέωνος",
+   "Κλέωνι",
+   "Κλέωνα"
+  ],
+  "Διόδοτος": [
+   "Διοδότου",
+   "Διοδότῳ",
+   "Διόδοτον"
+  ],
+  "Πάχης": [
+   "Πάχητος",
+   "Πάχητι",
+   "Πάχητα"
+  ]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "hist-panel-2-a",
+   "sentences": [
+    {
+     "text": "τῷ δὲ τετάρτῳ ἔτει τοῦ πολέμου οἱ Μυτιληναῖοι, οἳ ἐν τῇ Λέσβῳ τῇ νήσῳ ᾤκουν, ἀπὸ τῶν Ἀθηναίων ἀπέστησαν.",
+     "glosses": [
+      {
+       "word": "τετάρτῳ",
+       "kind": "<",
+       "value": "τέτταρες | τέταρτος: fourth (428 BC)"
+      },
+      {
+       "word": "ἀπέστησαν",
+       "kind": "<",
+       "value": "ἀπό + ἔστησαν | ἀφίσταμαι, ἀπέστην: revolt from, leave an alliance"
+      }
+     ]
+    },
+    {
+     "text": "οἱ δὲ Ἀθηναῖοι ναῦς πολλὰς καὶ στρατηγὸν Πάχητα ἔπεμψαν, καὶ τῷ ὑστέρῳ ἔτει τὴν Μυτιλήνην εἷλον."
+    },
+    {
+     "text": "ἐν δὲ τῇ ἐκκλησίᾳ ὁ Κλέων, ἀνὴρ βιαιότατος, ἔπεισε τοὺς Ἀθηναίους πάντας τοὺς Μυτιληναίους ἄνδρας ἀποκτεῖναι, τοὺς δὲ παῖδας καὶ τὰς γυναῖκας δούλους ποιῆσαι.",
+     "glosses": [
+      {
+       "word": "βιαιότατος",
+       "kind": "en",
+       "value": "most violent (βίαιος, superlative)"
+      }
+     ]
+    },
+    {
+     "text": "καὶ εὐθὺς τριήρη εἰς τὴν Λέσβον ἀπέστειλαν, ἵνα τὸ ψήφισμα τῷ Πάχητι ἀγγείλῃ.",
+     "glosses": [
+      {
+       "word": "ψήφισμα",
+       "kind": "en",
+       "value": "decree, a decision of the Assembly (τὸ ψήφισμα < ψῆφος)"
+      }
+     ]
+    },
+    {
+     "text": "τῇ δὲ ὑστεραίᾳ μετάνοιά τις εὐθὺς ἦν αὐτοῖς· ἐνόμιζον γὰρ τὸ ψήφισμα ὠμὸν καὶ μέγα εἶναι, πόλιν ὅλην διαφθεῖραι.",
+     "glosses": [
+      {
+       "word": "ὑστεραίᾳ",
+       "kind": "<",
+       "value": "ὕστερος | τῇ ὑστεραίᾳ (ἡμέρᾳ): on the next day"
+      },
+      {
+       "word": "μετάνοιά",
+       "kind": "<",
+       "value": "μετά + νοῦς | ἡ μετάνοια: change of mind, regret"
+      },
+      {
+       "word": "ὠμὸν",
+       "kind": "en",
+       "value": "savage, cruel (literally 'raw')"
+      },
+      {
+       "word": "ὅλην",
+       "kind": "en",
+       "value": "whole, entire (ὅλος)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "hist-panel-2-b",
+   "sentences": [
+    {
+     "text": "πάλιν οὖν ἐκκλησία ἐγένετο, καὶ ὁ μὲν Κλέων τὰ αὐτὰ ἔλεγεν, ὁ δὲ Διόδοτος ἀντέλεγεν.",
+     "glosses": [
+      {
+       "word": "ἀντέλεγεν",
+       "kind": "<",
+       "value": "ἀντί + λέγω | ἀντιλέγω: speak against"
+      }
+     ]
+    },
+    {
+     "text": "τοιαῦτα δὲ ὁ Διόδοτος εἶπεν.",
+     "orig": [
+      0
+     ]
+    },
+    {
+     "text": "ῥηθεισῶν δὲ τῶν γνωμῶν τούτων οἱ Ἀθηναῖοι ἐγένοντο ἐν τῇ χειροτονίᾳ ἀγχώμαλοι, ἐκράτησε δὲ ἡ τοῦ Διοδότου.",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "ῥηθεισῶν",
+       "kind": "|",
+       "value": "εἶπον | ῥηθείς, ῥηθεῖσα (aorist passive participle): τῶν γνωμῶν ῥηθεισῶν, when these opinions had been spoken (genitive absolute)"
+      },
+      {
+       "word": "χειροτονίᾳ",
+       "kind": "<",
+       "value": "χειροτονέω | ἡ χειροτονία: the vote by show of hands"
+      },
+      {
+       "word": "ἀγχώμαλοι",
+       "kind": "en",
+       "value": "almost equal, neck and neck"
+      },
+      {
+       "word": "τοῦ",
+       "kind": "note",
+       "value": "ἡ τοῦ Διοδότου: Diodotus' (opinion); γνώμη is understood"
+      }
+     ]
+    },
+    {
+     "text": "καὶ τριήρη εὐθὺς ἄλλην ἀπέστελλον κατὰ σπουδήν, ὅπως μὴ φθασάσης τῆς προτέρας εὕρωσι διεφθαρμένην τὴν πόλιν.",
+     "orig": [
+      2
+     ],
+     "glosses": [
+      {
+       "word": "σπουδήν",
+       "kind": "note",
+       "value": "κατὰ σπουδήν: in haste"
+      },
+      {
+       "word": "φθασάσης",
+       "kind": "|",
+       "value": "φθάνω | τῆς προτέρας φθασάσης: if the first ship got there first (genitive absolute)"
+      },
+      {
+       "word": "εὕρωσι",
+       "kind": "note",
+       "value": "ὅπως μὴ … εὕρωσι: so that they might not find (purpose, subjunctive)"
+      },
+      {
+       "word": "διεφθαρμένην",
+       "kind": "|",
+       "value": "διαφθείρω | διεφθαρμένην: destroyed (perfect passive participle, a form you will learn later)"
+      }
+     ]
+    },
+    {
+     "text": "προεῖχε δὲ ἡ προτέρα ἡμέρᾳ καὶ νυκτὶ μάλιστα.",
+     "orig": [
+      3
+     ],
+     "glosses": [
+      {
+       "word": "προεῖχε",
+       "kind": "<",
+       "value": "πρό + ἔχω | προέχω: be ahead"
+      },
+      {
+       "word": "ἡμέρᾳ",
+       "kind": "note",
+       "value": "ἡμέρᾳ καὶ νυκτί: by a day and a night (dative of the degree of difference)"
+      },
+      {
+       "word": "μάλιστα",
+       "kind": "en",
+       "value": "about, roughly (with numbers)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "hist-panel-2-c",
+   "sentences": [
+    {
+     "text": "οἱ δὲ τῶν Μυτιληναίων πρέσβεις τῇ νηὶ οἶνον καὶ ἄλφιτα παρεσκεύασαν καὶ μεγάλα ὑπέσχοντο, εἰ φθάσειαν.",
+     "orig": [
+      4
+     ],
+     "glosses": [
+      {
+       "word": "πρέσβεις",
+       "kind": "note",
+       "value": "οἱ πρέσβεις: envoys, ambassadors (plural of πρέσβυς, 'old man')"
+      },
+      {
+       "word": "ἄλφιτα",
+       "kind": "en",
+       "value": "barley meal (τὰ ἄλφιτα)"
+      },
+      {
+       "word": "παρεσκεύασαν",
+       "kind": "en",
+       "value": "provided, got ready (παρασκευάζω)"
+      },
+      {
+       "word": "ὑπέσχοντο",
+       "kind": "en",
+       "value": "promised (ὑπισχνέομαι, ὑπεσχόμην)"
+      },
+      {
+       "word": "φθάσειαν",
+       "kind": "note",
+       "value": "εἰ φθάσειαν: if they arrived first (optative: the envoys' words reported after a past verb)"
+      }
+     ]
+    },
+    {
+     "text": "ἐγένετο δὲ σπουδὴ τοῦ πλοῦ τοιαύτη ὥστε ἤσθιον ἅμα ἐλαύνοντες οἴνῳ καὶ ἐλαίῳ ἄλφιτα πεφυραμένα, καὶ οἱ μὲν ὕπνον ᾑροῦντο κατὰ μέρος, οἱ δὲ ἤλαυνον.",
+     "orig": [
+      4
+     ],
+     "glosses": [
+      {
+       "word": "πλοῦ",
+       "kind": "<",
+       "value": "πλέω | ὁ πλοῦς, τοῦ πλοῦ: the voyage"
+      },
+      {
+       "word": "ὥστε",
+       "kind": "en",
+       "value": "that (result): τοιαύτη ὥστε, so great that"
+      },
+      {
+       "word": "ἐλαύνοντες",
+       "kind": "note",
+       "value": "ἐλαύνω of a ship: row"
+      },
+      {
+       "word": "ἐλαίῳ",
+       "kind": "<",
+       "value": "ἐλαία | τὸ ἔλαιον: olive oil"
+      },
+      {
+       "word": "πεφυραμένα",
+       "kind": "en",
+       "value": "mixed, kneaded (perfect passive participle of φυράω)"
+      },
+      {
+       "word": "ὕπνον",
+       "kind": "en",
+       "value": "sleep (ὁ ὕπνος)"
+      },
+      {
+       "word": "ᾑροῦντο",
+       "kind": "|",
+       "value": "αἱρέω | αἱροῦμαι (middle): take for oneself; ὕπνον αἱρεῖσθαι, to take sleep"
+      },
+      {
+       "word": "μέρος",
+       "kind": "note",
+       "value": "κατὰ μέρος: in turns"
+      }
+     ]
+    },
+    {
+     "text": "ἡ μὲν οὖν προτέρα ναῦς οὐ σπουδῇ ἔπλει ἐπὶ πρᾶγμα δεινόν· ἡ δὲ ὑστέρα ἠπείγετο.",
+     "orig": [
+      5
+     ],
+     "glosses": [
+      {
+       "word": "πρᾶγμα",
+       "kind": "en",
+       "value": "task, business (τὸ πρᾶγμα < πράττω)"
+      },
+      {
+       "word": "ἠπείγετο",
+       "kind": "en",
+       "value": "hurried, pressed on (ἐπείγομαι)"
+      }
+     ]
+    },
+    {
+     "text": "καὶ ἡ μὲν προτέρα ἔφθασε τοσοῦτον ὅσον τὸν Πάχητα τὸ ψήφισμα ἀναγνῶναι καὶ μέλλειν τοὺς ἄνδρας ἀποκτείνειν· ἡ δὲ ὑστέρα κατάγεται καὶ διεκώλυσεν.",
+     "orig": [
+      5
+     ],
+     "glosses": [
+      {
+       "word": "τοσοῦτον",
+       "kind": "note",
+       "value": "ἔφθασε τοσοῦτον ὅσον + infinitive: arrived just so much earlier that Paches had read … (correlatives)"
+      },
+      {
+       "word": "ἀναγνῶναι",
+       "kind": "|",
+       "value": "ἀναγιγνώσκω · ἀνέγνων | ἀναγνῶναι: to read"
+      },
+      {
+       "word": "κατάγεται",
+       "kind": "en",
+       "value": "puts in, comes to land (historic present)"
+      },
+      {
+       "word": "διεκώλυσεν",
+       "kind": "en",
+       "value": "prevented it (διακωλύω)"
+      }
+     ]
+    },
+    {
+     "text": "παρὰ τοσοῦτον μὲν ἡ Μυτιλήνη ἦλθε κινδύνου.",
+     "orig": [
+      6
+     ],
+     "glosses": [
+      {
+       "word": "παρὰ",
+       "kind": "note",
+       "value": "παρὰ τοσοῦτον … κινδύνου ἦλθε: came so close to danger (so narrowly escaped)"
+      }
+     ]
+    },
+    {
+     "text": "τοὺς δὲ αἰτιωτάτους, ὀλίγῳ πλείους χιλίων ἄνδρας, οἱ Ἀθηναῖοι ὅμως ἀπέκτειναν.",
+     "glosses": [
+      {
+       "word": "αἰτιωτάτους",
+       "kind": "en",
+       "value": "the most guilty (αἴτιος, superlative)"
+      },
+      {
+       "word": "πλείους",
+       "kind": "|",
+       "value": "πολύς · πλείων | ὀλίγῳ πλείους χιλίων: a little more than a thousand"
+      },
+      {
+       "word": "χιλίων",
+       "kind": "=",
+       "value": "1,000"
+      },
+      {
+       "word": "ὅμως",
+       "kind": "en",
+       "value": "all the same, nevertheless"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "αποστελλω",
+   "gloss_grc": "ἀποστέλλω, ἀπέστειλα · ἀπό + στέλλω (send)"
+  },
+  {
+   "id": "αποκτεινω",
+   "gloss_grc": "ἀποκτείνω, ἀπέκτεινα · ἀποκτεῖναι"
+  },
+  {
+   "id": "διαφθειρω",
+   "gloss_grc": "διαφθείρω, διέφθειρα · πόλιν ὅλην διαφθεῖραι"
+  },
+  {
+   "id": "κρατεω",
+   "gloss_grc": "κρατέω · ἐκράτησε ἡ τοῦ Διοδότου γνώμη"
+  },
+  {
+   "id": "σπουδη",
+   "gloss_grc": "ἡ σπουδή < σπεύδω · κατὰ σπουδήν"
+  },
+  {
+   "id": "προτερος",
+   "gloss_grc": "πρότερος, -α, -ον ↔ ὕστερος · ἡ προτέρα ναῦς"
+  },
+  {
+   "id": "γνωμη",
+   "gloss_grc": "ἡ γνώμη · αἱ γνῶμαι (opinions, proposals)"
+  },
+  {
+   "id": "ελαυνω",
+   "pic": "eretes",
+   "gloss_grc": "ἐλαύνω · ἐλαύνουσι τὴν ναῦν (row)"
+  },
+  {
+   "id": "πρεσβυς",
+   "pic": "presbys",
+   "gloss_grc": "ὁ πρέσβυς · οἱ πρέσβεις (envoys)"
+  },
+  {
+   "id": "αιρεω",
+   "gloss_grc": "αἱρέω, εἷλον · τὴν πόλιν εἷλον"
+  },
+  {
+   "id": "αγγελλω",
+   "gloss_grc": "ἀγγέλλω, ἤγγειλα · τὸ ψήφισμα ἀγγέλλει"
+  },
+  {
+   "id": "τριηρης",
+   "pic": "trieres",
+   "gloss_grc": "ἡ τριήρης · δύο τριήρεις"
+  },
+  {
+   "id": "ναυς",
+   "pic": "naus",
+   "gloss_grc": "ἡ ναῦς, τῆς νεώς, τῇ νηί"
+  },
+  {
+   "id": "εκκλησια",
+   "pic": "ekklesia",
+   "gloss_grc": "ἡ ἐκκλησία · ἐν τῇ ἐκκλησίᾳ"
+  },
+  {
+   "id": "παρασκευαζω",
+   "gloss_grc": "παρασκευάζω, παρεσκεύασα (prepare, provide)"
+  },
+  {
+   "id": "πλους",
+   "gloss_grc": "ὁ πλοῦς, τοῦ πλοῦ < πλέω"
+  },
+  {
+   "id": "φθανω",
+   "gloss_grc": "φθάνω, ἔφθασα · ἡ προτέρα ἔφθασε"
+  }
+ ],
+ "notice": [
+  "ῥηθεισῶν δὲ τῶν γνωμῶν τούτων",
+  "ὅπως μὴ φθασάσης τῆς προτέρας εὕρωσι διεφθαρμένην τὴν πόλιν",
+  "σπουδὴ τοῦ πλοῦ τοιαύτη ὥστε ἤσθιον ἅμα ἐλαύνοντες",
+  "ἔφθασε τοσοῦτον ὅσον τὸν Πάχητα τὸ ψήφισμα ἀναγνῶναι"
+ ],
+ "grammar": {
+  "md": "**Reading Thucydides: the frame and the picture.** Thucydides tells a story in two layers. Short main clauses carry the events (ἀπέστελλον · προεῖχε · ἔφθασε · κατάγεται); participles and subordinate clauses around them give the circumstances. Read the main verbs first, then fill in the frame.\n\n**1. Genitive absolute (7.3).** A noun and a participle in the genitive, standing apart from the grammar of the sentence, set the scene:\n\n| genitive absolute | meaning |\n|---|---|\n| ῥηθεισῶν τῶν γνωμῶν | when the proposals had been spoken |\n| φθασάσης τῆς προτέρας | if the first ship arrived first |\n| τῶν πρέσβεων ὑποσχομένων (3.49.3) | as the envoys promised |\n\nThe aorist participle happened **before** the main verb, the present **at the same time**.\n\n**2. Purpose with ὅπως μή (8.1).** ὅπως μὴ … εὕρωσι 'so that they should not find': ὅπως/ἵνα + subjunctive, negative μή.\n\n**3. Correlatives (9.4).** τοιαύτη … ὥστε 'so great … that'; τοσοῦτον … ὅσον 'just so much … as'; παρὰ τοσοῦτον 'by so little'.\n\n**4. οἱ μέν … οἱ δέ.** With the article alone: 'some … others': οἱ μὲν ὕπνον ᾑροῦντο, οἱ δὲ ἤλαυνον.\n\n**5. The historic present.** ἡ δ’ ὑστέρα ἐπικατάγεται: Thucydides switches to the present at the moment the second ship arrives, as if we were watching.",
+  "paradigms": [
+   "naus"
+  ],
+  "diagram": "diagram-gen-abs"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings.",
+   "template": "καὶ τριήρη εὐθὺς ἄλλην ἀπέστελλ___ κατὰ σπουδήν, ὅπως μὴ φθασάσ___ τῆς προτέρ___ εὕρω___ διεφθαρμένην τὴν πόλιν.",
+   "gaps": [
+    {
+     "answers": [
+      "ον"
+     ]
+    },
+    {
+     "answers": [
+      "ης"
+     ]
+    },
+    {
+     "answers": [
+      "ας"
+     ]
+    },
+    {
+     "answers": [
+      "σι",
+      "σιν"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.impf.vs.aor",
+    "syntax.gen-abs",
+    "syntax.purpose"
+   ],
+   "explain": "ἀπέστελλον (imperfect, they were sending); φθασάσης τῆς προτέρας (genitive absolute, feminine singular); εὕρωσι (aorist subjunctive after ὅπως μή)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ μὲν Κλέων τὰ αὐτὰ ἔλεγεν, ὁ ___ Διόδοτος ἀντέλεγεν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "δὲ"
+    },
+    {
+     "id": "b",
+     "text": "γὰρ"
+    },
+    {
+     "id": "c",
+     "text": "οὖν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.men-de"
+   ],
+   "explain": "ὁ μὲν Κλέων … ὁ δὲ Διόδοτος: the two speakers set against each other.",
+   "audio": "ὁ μὲν Κλέων τὰ αὐτὰ ἔλεγεν, ὁ δὲ Διόδοτος ἀντέλεγεν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἐγένετο δὲ σπουδὴ τοῦ πλοῦ ___ ὥστε ἤσθιον ἅμα ἐλαύνοντες.",
+   "options": [
+    {
+     "id": "a",
+     "text": "τοιαύτη"
+    },
+    {
+     "id": "b",
+     "text": "τοσοῦτον"
+    },
+    {
+     "id": "c",
+     "text": "οἵα"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "pron.correlatives",
+    "syntax.result"
+   ],
+   "explain": "τοιαύτη … ὥστε: such … that. σπουδή is feminine, so τοιαύτη.",
+   "audio": "ἐγένετο δὲ σπουδὴ τοῦ πλοῦ τοιαύτη ὥστε ἤσθιον ἅμα ἐλαύνοντες."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · παρὰ τοσοῦτον μὲν ἡ Μυτιλήνη ἦλθε ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "κινδύνου"
+    },
+    {
+     "id": "b",
+     "text": "κίνδυνον"
+    },
+    {
+     "id": "c",
+     "text": "κινδύνῳ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.gen.uses",
+    "vocab.hist"
+   ],
+   "explain": "παρὰ τοσοῦτον κινδύνου: so near to danger (genitive).",
+   "audio": "παρὰ τοσοῦτον μὲν ἡ Μυτιλήνη ἦλθε κινδύνου."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ἡ τριήρης",
+   "options": [
+    {
+     "id": "a",
+     "image": "trieres"
+    },
+    {
+     "id": "b",
+     "image": "ploion"
+    },
+    {
+     "id": "c",
+     "image": "naumachia"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition",
+    "vocab.hist"
+   ],
+   "explain": "ἡ τριήρης: the warship with three banks of oars; τὸ πλοῖον is a merchant ship.",
+   "audio": "prompt"
+  },
+  {
+   "type": "match",
+   "prompt": "Match the new words to their meanings.",
+   "pairs": [
+    {
+     "left": "ἀποστέλλω",
+     "right": "send off"
+    },
+    {
+     "left": "ἀποκτείνω",
+     "right": "kill"
+    },
+    {
+     "left": "κρατέω",
+     "right": "prevail, win, rule"
+    },
+    {
+     "left": "ἡ σπουδή",
+     "right": "haste"
+    },
+    {
+     "left": "ἡ γνώμη",
+     "right": "opinion, proposal"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.hist"
+   ],
+   "explain": "ἀποστέλλω, ἀποκτείνω, κρατέω, σπουδή, γνώμη."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of ἀποστέλλω for 'they sent off'.",
+   "lemma": "ἀποστέλλω",
+   "cell": "aorist.active.indicative.3pl",
+   "skills": [
+    "verb.aor1.liquid",
+    "verb.augment.compound"
+   ],
+   "explain": "ἀπέστειλαν: liquid aorist (στελ- → στειλ-), augment after the prefix ἀπο-.",
+   "audio": "ἀπέστειλαν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist infinitive of ἀποκτείνω: ἔπεισε τοὺς Ἀθηναίους πάντας ___.",
+   "lemma": "ἀποκτείνω",
+   "cell": "aorist.active.infinitive.inf",
+   "skills": [
+    "verb.aor.act.inf",
+    "verb.aor1.liquid"
+   ],
+   "explain": "ἀποκτεῖναι: liquid aorist ἀπέκτεινα, infinitive ἀποκτεῖναι.",
+   "audio": "ἀποκτεῖναι"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of κρατέω for 'it prevailed'.",
+   "lemma": "κρατέω",
+   "cell": "aorist.active.indicative.3sg",
+   "skills": [
+    "verb.contract.e",
+    "verb.aor1.sigma"
+   ],
+   "explain": "ἐκράτησε(ν): the ε of the stem lengthens to η before σ.",
+   "audio": "ἐκράτησε"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse φθασάσης.",
+   "form": "φθασάσης",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "case",
+     "label": "Case",
+     "options": [
+      {
+       "id": "nom",
+       "label": "nominative"
+      },
+      {
+       "id": "gen",
+       "label": "genitive"
+      },
+      {
+       "id": "dat",
+       "label": "dative"
+      },
+      {
+       "id": "acc",
+       "label": "accusative"
+      },
+      {
+       "id": "voc",
+       "label": "vocative"
+      }
+     ]
+    },
+    {
+     "id": "gender",
+     "label": "Gender",
+     "options": [
+      {
+       "id": "m",
+       "label": "masculine"
+      },
+      {
+       "id": "f",
+       "label": "feminine"
+      },
+      {
+       "id": "n",
+       "label": "neuter"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "mood": "ptc",
+    "case": "gen",
+    "gender": "f"
+   },
+   "skills": [
+    "verb.ptc.aor.act.gen",
+    "syntax.gen-abs"
+   ],
+   "explain": "φθά-σασα, φθασάσης: aorist active participle, genitive singular feminine, with τῆς προτέρας (ναυός) in a genitive absolute.",
+   "audio": "φθασάσης"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἀπέστελλον.",
+   "form": "ἀπέστελλον",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person and number",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "1st singular"
+      },
+      {
+       "id": "2sg",
+       "label": "2nd singular"
+      },
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "1pl",
+       "label": "1st plural"
+      },
+      {
+       "id": "2pl",
+       "label": "2nd plural"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "impf",
+    "mood": "ind",
+    "person": "3pl"
+   },
+   "skills": [
+    "verb.impf.vs.aor",
+    "verb.augment.compound"
+   ],
+   "explain": "ἀπ-έ-στελλ-ον: imperfect (present stem στελλ-, augment after the prefix), 3rd plural: 'they sent off / set about sending'.",
+   "audio": "ἀπέστελλον"
+  },
+  {
+   "type": "label",
+   "prompt": "ῥηθεισῶν δὲ τῶν γνωμῶν τούτων … What is this phrase?",
+   "options": [
+    {
+     "id": "a",
+     "text": "a genitive absolute: 'when these opinions had been spoken'"
+    },
+    {
+     "id": "b",
+     "text": "a genitive of possession"
+    },
+    {
+     "id": "c",
+     "text": "the object of ἐκράτησε"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.gen-abs",
+    "read.hist.narrative"
+   ],
+   "explain": "Noun and participle in the genitive, loosely attached to the sentence: a genitive absolute (7.3)."
+  },
+  {
+   "type": "label",
+   "prompt": "ὅπως μὴ … εὕρωσι διεφθαρμένην τὴν πόλιν. What kind of clause is this?",
+   "options": [
+    {
+     "id": "a",
+     "text": "purpose: so that they would not find the city destroyed"
+    },
+    {
+     "id": "b",
+     "text": "fear: they were afraid that"
+    },
+    {
+     "id": "c",
+     "text": "result: so that they did not find"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.purpose"
+   ],
+   "explain": "ὅπως μή + subjunctive: a negative purpose clause (8.1)."
+  },
+  {
+   "type": "label",
+   "prompt": "ἔφθασε τοσοῦτον ὅσον τὸν Πάχητα τὸ ψήφισμα ἀναγνῶναι. What does τοσοῦτον … ὅσον express?",
+   "options": [
+    {
+     "id": "a",
+     "text": "just so far ahead that …: correlatives of amount"
+    },
+    {
+     "id": "b",
+     "text": "a comparison with ἤ"
+    },
+    {
+     "id": "c",
+     "text": "a question: how far?"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "pron.correlatives"
+   ],
+   "explain": "τοσοῦτος … ὅσος (9.4): the first ship was only so much ahead that Paches had just read the decree."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "τὴν Μυτιλήνην ___ οἱ Ἀθηναῖοι.",
+   "options": [
+    {
+     "id": "a",
+     "text": "εἷλον"
+    },
+    {
+     "id": "b",
+     "text": "εἷλε"
+    },
+    {
+     "id": "c",
+     "text": "αἱρεῖ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.aor2.stem",
+    "vocab.hist"
+   ],
+   "explain": "εἷλον: second aorist of αἱρέω, 3rd plural, with οἱ Ἀθηναῖοι."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make a genitive absolute: ἡ προτέρα ναῦς ἔφθασεν. οἱ ἄνδρες ἀπέθανον. → τῆς προτέρας νεὼς ___, οἱ ἄνδρες ἀπέθανον.",
+   "template": "τῆς προτέρας νεὼς ___, οἱ ἄνδρες ἀπέθανον.",
+   "gaps": [
+    {
+     "answers": [
+      "φθασάσης"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.gen-abs",
+    "verb.ptc.aor.act.gen"
+   ],
+   "explain": "τῆς προτέρας νεὼς φθασάσης: 'the first ship having arrived first'."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the two words of the genitive absolute.",
+   "sentence": "ῥηθεισῶν δὲ τῶν γνωμῶν τούτων οἱ Ἀθηναῖοι ἐγένοντο ἐν τῇ χειροτονίᾳ ἀγχώμαλοι, ἐκράτησε δὲ ἡ τοῦ Διοδότου.",
+   "answer": [
+    0,
+    3
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.gen-abs"
+   ],
+   "explain": "ῥηθεισῶν … τῶν γνωμῶν: participle and noun (τούτων agrees too)."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the two verbs that tell what the rowers did in turns.",
+   "sentence": "καὶ οἱ μὲν ὕπνον ᾑροῦντο κατὰ μέρος, οἱ δὲ ἤλαυνον.",
+   "answer": [
+    4,
+    9
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.men-de"
+   ],
+   "explain": "οἱ μὲν … ᾑροῦντο, οἱ δὲ ἤλαυνον: some slept, others rowed."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'They sent off another trireme.'",
+   "tokens": [
+    "ἄλλην",
+    "τριήρη",
+    "ἀπέστειλαν"
+   ],
+   "answers": [
+    "ἄλλην τριήρη ἀπέστειλαν",
+    "τριήρη ἄλλην ἀπέστειλαν",
+    "ἀπέστειλαν ἄλλην τριήρη",
+    "ἀπέστειλαν τριήρη ἄλλην"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "vocab.production"
+   ],
+   "explain": "ἄλλην τριήρη ἀπέστειλαν (Thucydides: τριήρη εὐθὺς ἄλλην ἀπέστελλον)."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "οἱ μὲν ὕπνον ᾑροῦντο κατὰ μέρος, οἱ δὲ ἤλαυνον."
+    },
+    {
+     "id": "b",
+     "text": "οἱ μὲν οἶνον ἔπινον κατὰ μέρος, οἱ δὲ ἤλαυνον."
+    },
+    {
+     "id": "c",
+     "text": "οἱ μὲν ὕπνον ᾑροῦντο κατὰ μέρος, οἱ δὲ ἤσθιον."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "Some slept in turns, the others rowed.",
+   "audio": "οἱ μὲν ὕπνον ᾑροῦντο κατὰ μέρος, οἱ δὲ ἤλαυνον."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἐν τῇ πρώτῃ ἐκκλησίᾳ ὁ Κλέων ἔπεισε τοὺς Ἀθηναίους πάντας τοὺς Μυτιληναίους ἀποκτεῖναι.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὁ Κλέων … ἔπεισε τοὺς Ἀθηναίους πάντας τοὺς Μυτιληναίους ἄνδρας ἀποκτεῖναι."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἐν τῇ δευτέρᾳ ἐκκλησίᾳ πολλῷ πλείους τῷ Διοδότῳ ἐπείσθησαν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἐγένοντο ἐν τῇ χειροτονίᾳ ἀγχώμαλοι: the vote was almost equal."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἡ προτέρα τριήρης οὐ σπουδῇ ἔπλει.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἡ μὲν προτέρα ναῦς οὐ σπουδῇ ἔπλει ἐπὶ πρᾶγμα δεινόν."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "gaps": [
+    {
+     "answers": [
+      "τοιαῦτα δὲ ὁ Διόδοτος εἶπεν"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "τοιαῦτα δὲ ὁ Διόδοτος εἶπεν.",
+   "audio": "τοιαῦτα δὲ ὁ Διόδοτος εἶπεν."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The Athenians sent off a trireme.'",
+   "gaps": [
+    {
+     "answers": [
+      "οἱ Ἀθηναῖοι τριήρη ἀπέστειλαν",
+      "οἱ Ἀθηναῖοι ἀπέστειλαν τριήρη",
+      "τριήρη ἀπέστειλαν οἱ Ἀθηναῖοι",
+      "οἱ Ἀθηναῖοι τριήρη ἀπέστελλον",
+      "οἱ Ἀθηναῖοι ναῦν ἀπέστειλαν"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "vocab.hist"
+   ],
+   "explain": "οἱ Ἀθηναῖοι τριήρη ἀπέστειλαν."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: καὶ τριήρη εὐθὺς ἄλλην ἀπέστελλον κατὰ σπουδήν, ὅπως μὴ φθασάσης τῆς προτέρας εὕρωσι διεφθαρμένην τὴν πόλιν.",
+   "audio": "καὶ τριήρη εὐθὺς ἄλλην ἀπέστελλον κατὰ σπουδήν, ὅπως μὴ φθασάσης τῆς προτέρας εὕρωσι διεφθαρμένην τὴν πόλιν.",
+   "model": "And at once they sent off another trireme in haste, so that they would not find the city destroyed because the first had got there first.",
+   "skills": [
+    "read.thucydides",
+    "syntax.purpose",
+    "syntax.gen-abs"
+   ],
+   "explain": "The genitive absolute φθασάσης τῆς προτέρας sits inside the purpose clause ὅπως μὴ … εὕρωσι."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "ἀποστέλλω",
+     "right": "apostle ('one sent out')"
+    },
+    {
+     "left": "ἡ γνώμη",
+     "right": "gnomic, prognosis"
+    },
+    {
+     "left": "ὁ πρέσβυς",
+     "right": "presbyter, priest"
+    },
+    {
+     "left": "-κρατέω, τὸ κράτος",
+     "right": "democracy"
+    },
+    {
+     "left": "ὁ πλοῦς, πλέω",
+     "right": "periplus ('sailing round')"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "ἀπόστολος; γνώμη 'judgement'; πρεσβύτερος 'elder' → priest; δημοκρατία 'rule of the people'; περίπλους."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "τίνες ἀπὸ τῶν Ἀθηναίων ἀπέστησαν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "οἱ Μυτιληναῖοι."
+    },
+    {
+     "id": "b",
+     "text": "οἱ Λακεδαιμόνιοι."
+    },
+    {
+     "id": "c",
+     "text": "οἱ Ἀχαρνῆς."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "οἱ Μυτιληναῖοι … ἀπὸ τῶν Ἀθηναίων ἀπέστησαν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἔπεισεν ὁ Κλέων τοὺς Ἀθηναίους;",
+   "options": [
+    {
+     "id": "a",
+     "text": "πάντας τοὺς Μυτιληναίους ἄνδρας ἀποκτεῖναι."
+    },
+    {
+     "id": "b",
+     "text": "τοὺς Μυτιληναίους σῴζειν."
+    },
+    {
+     "id": "c",
+     "text": "εἰρήνην ποιεῖσθαι."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.infinitive"
+   ],
+   "explain": "ἔπεισε τοὺς Ἀθηναίους πάντας τοὺς Μυτιληναίους ἄνδρας ἀποκτεῖναι.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίνος ἡ γνώμη ἐκράτησεν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἡ τοῦ Διοδότου."
+    },
+    {
+     "id": "b",
+     "text": "ἡ τοῦ Κλέωνος."
+    },
+    {
+     "id": "c",
+     "text": "ἡ τοῦ Πάχητος."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἐκράτησε δὲ ἡ τοῦ Διοδότου.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "πῶς οἱ ἐρέται ἤσθιον;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἅμα ἐλαύνοντες."
+    },
+    {
+     "id": "b",
+     "text": "ἐν τῷ λιμένι."
+    },
+    {
+     "id": "c",
+     "text": "ἐπὶ τῆς γῆς καθεύδοντες."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἤσθιον ἅμα ἐλαύνοντες οἴνῳ καὶ ἐλαίῳ ἄλφιτα πεφυραμένα.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐποίει ὁ Πάχης ὅτε ἡ ὑστέρα ναῦς ἀφίκετο;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὸ ψήφισμα ἀνεγνώκει καὶ ἔμελλε τοὺς ἄνδρας ἀποκτείνειν."
+    },
+    {
+     "id": "b",
+     "text": "ἐκάθευδεν ἐν τῇ νηί."
+    },
+    {
+     "id": "c",
+     "text": "εἰς τὰς Ἀθήνας ἀπέπλει."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἡ μὲν προτέρα ἔφθασε τοσοῦτον ὅσον τὸν Πάχητα τὸ ψήφισμα ἀναγνῶναι καὶ μέλλειν ἀποκτείνειν.",
+   "audio": "prompt"
+  }
+ ],
+ "culture": {
+  "title": "Mytilene, 427 BC",
+  "md": "**Mytilene** was the chief city of Lesbos and one of the few allies of Athens that still had its own fleet instead of paying tribute. In 428 it revolted, hoping for Spartan help that came too late; the Athenian general **Paches** blockaded the city, and in 427 it surrendered.\n\nIn the Assembly **Cleon**, 'the most violent of the citizens' as Thucydides calls him, persuaded the Athenians to kill all the men of Mytilene and enslave the women and children, and a trireme was sent off. Overnight many regretted it. At a second Assembly Cleon spoke again, and **Diodotus** (known only from this debate) answered him: not that mercy was right, but that massacre was bad policy, since it would make every future rebel fight to the end. The vote was almost equal. The second trireme, rowed day and night, reached Lesbos some 340 km away just as Paches was reading the first decree.\n\nIt was not a happy ending. On Cleon's motion the Athenians executed the men Paches had sent to Athens as most responsible, a little over a thousand, pulled down the walls of Mytilene, took its fleet and divided its land among Athenian settlers. A trireme like these, rebuilt full size as the *Olympias* in 1987, can be seen at Faliro near Athens.",
+  "image": "hist-olympias"
+ },
+ "quiz": [
+  {
+   "type": "produce-form",
+   "prompt": "Give the accusative singular of ἡ σπουδή.",
+   "lemma": "σπουδή",
+   "cell": "acc.sg",
+   "skills": [
+    "noun.decl1.acc.sg",
+    "vocab.hist"
+   ],
+   "explain": "σπουδήν: κατὰ σπουδήν, in haste.",
+   "audio": "σπουδήν"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἡ ___ ναῦς ἔφθασεν, ἡ δὲ ὑστέρα διεκώλυσεν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "προτέρα"
+    },
+    {
+     "id": "b",
+     "text": "πρότερον"
+    },
+    {
+     "id": "c",
+     "text": "προτέρας"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "adj.agree"
+   ],
+   "explain": "ἡ προτέρα ναῦς: feminine nominative."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Διόδοτος καὶ ὁ Κλέων τὰ αὐτὰ ἔλεγον.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὁ Διόδοτος ἀντέλεγεν."
+  },
+  {
+   "type": "label",
+   "prompt": "τῆς προτέρας φθασάσης: this is …",
+   "options": [
+    {
+     "id": "a",
+     "text": "a genitive absolute"
+    },
+    {
+     "id": "b",
+     "text": "a relative clause"
+    },
+    {
+     "id": "c",
+     "text": "a purpose clause"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.gen-abs"
+   ],
+   "explain": "Participle + noun in the genitive."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "κατὰ σπουδήν"
+    },
+    {
+     "id": "b",
+     "text": "κατὰ μέρος"
+    },
+    {
+     "id": "c",
+     "text": "κατὰ γῆν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.words"
+   ],
+   "explain": "κατὰ σπουδήν: in haste.",
+   "audio": "κατὰ σπουδήν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of ἀγγέλλω for 'he reported'.",
+   "lemma": "ἀγγέλλω",
+   "cell": "aorist.active.indicative.3sg",
+   "skills": [
+    "verb.aor1.liquid",
+    "vocab.production"
+   ],
+   "explain": "ἤγγειλε(ν): liquid aorist, temporal augment ἀ → ἠ.",
+   "audio": "ἤγγειλε"
+  }
+ ],
+ "skills": [
+  "verb.impf.vs.aor",
+  "syntax.gen-abs",
+  "syntax.purpose",
+  "syntax.men-de",
+  "pron.correlatives",
+  "syntax.result",
+  "syntax.gen.uses",
+  "vocab.hist",
+  "vocab.recognition",
+  "verb.aor1.liquid",
+  "verb.augment.compound",
+  "verb.aor.act.inf",
+  "verb.contract.e",
+  "verb.aor1.sigma",
+  "verb.ptc.aor.act.gen",
+  "read.hist.narrative",
+  "verb.aor2.stem",
+  "read.locate",
+  "syntax.word-order",
+  "vocab.production",
+  "listen.sentences",
+  "read.comprehension",
+  "spell.dictation",
+  "read.thucydides",
+  "vocab.family",
+  "syntax.infinitive",
+  "noun.decl1.acc.sg",
+  "adj.agree",
+  "listen.words"
+ ]
+}

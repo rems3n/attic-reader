@@ -1,0 +1,310 @@
+{
+ "images": [
+  {
+   "id": "panel-10-1-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Ἀρίστων καὶ ὁ Σύρος τὰς κύλικας ἐν τῇ ἀγορᾷ τάττουσιν· ὄπισθεν ἡ ποικίλη στοά.",
+   "alt_en": "Dawn in the Agora: Ariston and Syros set out cups in a circle; the Painted Stoa behind.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-10-1-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἐν τῇ στοᾷ οἱ νέοι περὶ τὸν Σωκράτη κύκλον πεποίηνται.",
+   "alt_en": "In the Painted Stoa young men stand in a circle round a snub-nosed, barefoot Socrates; the Marathon painting on the wall.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-10-1-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Σωκράτης γελᾷ· ὁ νεανίας ὀργίζεται· ὁ Λύσις θαυμάζει.",
+   "alt_en": "Socrates laughs, the young man scowls, Lysis listens open-mouthed.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "culture-10-1-stoa",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ἡ ποικίλη στοὰ ἐν τῇ ἀγορᾷ",
+   "alt_en": "Plan or reconstruction of the Stoa Poikile on the north side of the Athenian Agora (target: ASCSA Agora excavations, CC BY).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "stoa-poikile",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ ποικίλη στοά",
+   "alt_en": "A long colonnade with painted panels: the Stoa Poikile.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "στοά"
+   ]
+  },
+  {
+   "id": "kyklos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ κύκλος",
+   "alt_en": "A circle; people standing in a ring.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "κύκλος"
+   ]
+  },
+  {
+   "id": "neos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ νέος",
+   "alt_en": "A young man (beside an old one).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "νέος"
+   ]
+  },
+  {
+   "id": "panel-10-2-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Σωκράτης ἐν τῇ στοᾷ ἕστηκεν· ὁ Λύσις ἔξω μένει.",
+   "alt_en": "Early morning: Socrates stands motionless in the empty stoa, lost in thought; Lysis hesitates outside.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-10-2-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Λύσις καὶ ὁ Σωκράτης περὶ τῶν κυλίκων καὶ τῶν νεῶν διαλέγονται.",
+   "alt_en": "Lysis talks with Socrates, counting on his fingers; a cup and a row of ships in the thought bubble.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-10-2-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἑσπέρας ὁ Λύσις τῷ πάππῳ λέγει· ἡ Ἐλπὶς γελᾷ· ὁ Λάβρος ὑπὸ τῷ δένδρῳ.",
+   "alt_en": "Evening in the courtyard: Lysis tells Kleinias; Elpis laughs and points to Labros under the tree.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "culture-10-2-socrates",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὁ Σωκράτης",
+   "alt_en": "Marble portrait head of Socrates, Roman copy of a Greek original of the 4th century BC (target: museum CC0 image).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "arithmos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ ἀριθμός",
+   "alt_en": "Numbers: pebbles on a counting board.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἀριθμός"
+   ]
+  },
+  {
+   "id": "verb-hesteke",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἕστηκεν",
+   "alt_en": "A man standing still.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἵστημι"
+   ]
+  },
+  {
+   "id": "panel-10-3-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Σωκράτης ἐν τῷ ἐργαστηρίῳ κύλικα ἔχει· ὁ Ἀρίστων πονεῖ.",
+   "alt_en": "In the workshop Socrates turns a painted cup in his hands while Ariston works at the wheel; Mikion plays outside.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-10-3-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Σωκράτης τοὺς παῖδας ἐρωτᾷ περὶ τῆς ἀρετῆς.",
+   "alt_en": "Socrates questions Lysis and Mikion; a horse and a cup drawn in the dust at their feet.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-10-3-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Δημόκριτος ὀργίζεται καὶ ἐξέρχεται· ὁ Σωκράτης γελᾷ.",
+   "alt_en": "Demokritos, red-faced, storms out of the workshop door; Socrates laughs.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "culture-10-3-workshop",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ἐργαστήριον κεραμέως",
+   "alt_en": "Attic vase painting of a potter's or metalworker's workshop, with customers watching (target: museum CC0 image, e.g. the Foundry Cup's workshop scene).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "psyche",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ ψυχή",
+   "alt_en": "A tiny winged soul (eidolon) as painted on Athenian white-ground lekythoi.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ψυχή"
+   ]
+  },
+  {
+   "id": "kosmos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ κόσμος τῆς κύλικος",
+   "alt_en": "The painted decoration on an Attic cup.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "κόσμος"
+   ]
+  },
+  {
+   "id": "panel-10-4-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "τοῦ θέρους καπνὸς ἐν τῇ χώρᾳ· ἐν τῇ πόλει πολλοὶ νοσοῦσιν.",
+   "alt_en": "Summer 430: smoke from the ravaged countryside beyond the walls; inside, crowded huts and people sick in the shade.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-10-4-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Κλεινίας ἐν τῇ κλίνῃ· ἡ οἰκία περὶ αὐτόν· ἡ Ἐλπὶς τὴν χεῖρα αὐτοῦ ἔχει.",
+   "alt_en": "Night, lamplight: Kleinias in bed, the family round him; Elpis holds his hand.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-10-4-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Κλέοβις καὶ ὁ Βίτων τὴν ἅμαξαν ἕλκουσιν.",
+   "alt_en": "Kleobis and Biton pulling their mother's cart to Hera's sanctuary, drawn as a memory in the lamp's glow.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "culture-10-4-lekythos",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "λήκυθος λευκή",
+   "alt_en": "White-ground funerary lekythos with Hermes or Charon and small winged souls, Athens, later 5th century BC (target: museum CC0 image).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "presbys",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ πρέσβυς",
+   "alt_en": "An old man with a stick.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πρέσβυς"
+   ]
+  },
+  {
+   "id": "teknon",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ τέκνον",
+   "alt_en": "A mother with her child.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "τέκνον"
+   ]
+  },
+  {
+   "id": "loimos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ λοιμός",
+   "alt_en": "Plague: sick people lying in a crowded shelter.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "λοιμός"
+   ]
+  }
+ ]
+}

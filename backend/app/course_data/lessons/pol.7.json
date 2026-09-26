@@ -1,0 +1,1371 @@
+{
+  "id": "pol.7",
+  "title_grc": "ὦ ἄνδρες Ἀθηναῖοι",
+  "title_en": "Men of Athens",
+  "summary_grc": "ὁ Δημοσθένης ἐν τῇ ἐκκλησίᾳ τοὺς Ἀθηναίους ἐλέγχει, ὅτι περιιόντες πυνθάνονται εἴ τι καινὸν λέγεται.",
+  "summary_en": "351 BC, eighty years after our story. Philip of Macedon is taking Greek cities one by one, and the young Demosthenes tells the Assembly what he thinks of citizens who stroll about the Agora asking for news. The First Philippic, unadapted: running glosses only.",
+  "cover": "pol-7-a",
+  "caption_grc": "τέθνηκε Φίλιππος; οὐ μὰ Δίʼ, ἀλλʼ ἀσθενεῖ. τί δʼ ὑμῖν διαφέρει;",
+  "original": {
+    "text": "dem-phil-1.10",
+    "note": "Demosthenes, First Philippic (speech 4) 10–11, unadapted; delivered in the Assembly in 351 BC, when Demosthenes was about 33. The two sentences before the speech begin are ours; everything after them is Demosthenes' text as Perseus prints it."
+  },
+  "names": {
+    "Φίλιππος": [
+      "Φιλίππου",
+      "Φιλίππῳ",
+      "Φίλιππον",
+      "Φίλιππε"
+    ],
+    "Μακεδών": [
+      "Μακεδόνος",
+      "Μακεδόνι",
+      "Μακεδόνα",
+      "Μακεδόνες"
+    ],
+    "Δημοσθένης": [
+      "Δημοσθένους",
+      "Δημοσθένει",
+      "Δημοσθένη"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "pol-7-a",
+      "sentences": [
+        {
+          "text": "ἔτεσι δὲ ὀγδοήκοντα ὕστερον Φίλιππος ὁ Μακεδὼν πολλὰς πόλεις τῶν Ἑλλήνων εἷλεν.",
+          "glosses": [
+            {
+              "word": "ὀγδοήκοντα",
+              "kind": "en",
+              "value": "eighty: eighty years after our story, 351 BC"
+            },
+            {
+              "word": "Φίλιππος",
+              "kind": "en",
+              "value": "Philip II, king of Macedon (359–336 BC), father of Alexander the Great"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ Δημοσθένης, ῥήτωρ νέος, ἐν τῇ ἐκκλησίᾳ τοὺς Ἀθηναίους ἐκέλευε ψηφίσματα ποιεῖσθαι καὶ τὰ πράγματα μὴ ἀμελεῖν, οὕτως λέγων·",
+          "glosses": [
+            {
+              "word": "ῥήτωρ",
+              "kind": "en",
+              "value": "a public speaker, politician (ὁ ῥήτωρ)"
+            },
+            {
+              "word": "ψηφίσματα",
+              "kind": "<",
+              "value": "ψῆφος | ψηφίζομαι (vote) | τὸ ψήφισμα (a decree of the Assembly)"
+            },
+            {
+              "word": "ἀμελεῖν",
+              "kind": "en",
+              "value": "to neglect (ἀμελέω)"
+            }
+          ]
+        },
+        {
+          "text": "πότʼ οὖν, ὦ ἄνδρες Ἀθηναῖοι, πόθʼ ἃ χρὴ πράξετε;",
+          "orig": [
+            0
+          ],
+          "glosses": [
+            {
+              "word": "πότʼ",
+              "kind": "=",
+              "value": "πότε (elided before a vowel)"
+            },
+            {
+              "word": "πόθʼ",
+              "kind": "=",
+              "value": "πότε (elided before a rough breathing: τ → θ)"
+            },
+            {
+              "word": "ἃ",
+              "kind": "note",
+              "value": "ἃ χρὴ πράξετε: will you do what you must? (ἃ χρή = ταῦτα ἃ χρή)"
+            }
+          ]
+        },
+        {
+          "text": "ἐπειδὰν τί γένηται;",
+          "orig": [
+            1
+          ],
+          "glosses": [
+            {
+              "word": "ἐπειδὰν",
+              "kind": "en",
+              "value": "ἐπειδάν + subjunctive: when (in the future), once"
+            }
+          ]
+        },
+        {
+          "text": "ἐπειδὰν νὴ Δίʼ ἀνάγκη τις ᾖ.",
+          "orig": [
+            2
+          ],
+          "glosses": [
+            {
+              "word": "νὴ",
+              "kind": "en",
+              "value": "νὴ Δία: by Zeus! (an oath, affirming)"
+            },
+            {
+              "word": "Δίʼ",
+              "kind": "=",
+              "value": "Δία (elided)"
+            }
+          ]
+        },
+        {
+          "text": "νῦν δὲ τί χρὴ τὰ γιγνόμενʼ ἡγεῖσθαι;",
+          "orig": [
+            3
+          ],
+          "glosses": [
+            {
+              "word": "γιγνόμενʼ",
+              "kind": "=",
+              "value": "γιγνόμενα: τὰ γιγνόμενα 'what is happening'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "pol-7-b",
+      "sentences": [
+        {
+          "text": "ἐγὼ μὲν γὰρ οἴομαι τοῖς ἐλευθέροις μεγίστην ἀνάγκην τὴν ὑπὲρ τῶν πραγμάτων αἰσχύνην εἶναι.",
+          "orig": [
+            4
+          ],
+          "glosses": [
+            {
+              "word": "αἰσχύνην",
+              "kind": "en",
+              "value": "shame, disgrace (ἡ αἰσχύνη)"
+            },
+            {
+              "word": "ἐλευθέροις",
+              "kind": "note",
+              "value": "τοῖς ἐλευθέροις: for free men (slaves are compelled by the whip; free men by shame)"
+            }
+          ]
+        },
+        {
+          "text": "ἢ βούλεσθʼ, εἰπέ μοι, περιιόντες αὑτῶν πυνθάνεσθαι, λέγεταί τι καινόν;",
+          "orig": [
+            5
+          ],
+          "glosses": [
+            {
+              "word": "βούλεσθʼ",
+              "kind": "=",
+              "value": "βούλεσθε"
+            },
+            {
+              "word": "περιιόντες",
+              "kind": "<",
+              "value": "περί + εἶμι | περιιόντες (going around)"
+            },
+            {
+              "word": "αὑτῶν",
+              "kind": "=",
+              "value": "ἀλλήλων, ἑαυτῶν: 'of each other'"
+            },
+            {
+              "word": "πυνθάνεσθαι",
+              "kind": "en",
+              "value": "to inquire, ask (πυνθάνομαι)"
+            },
+            {
+              "word": "καινόν",
+              "kind": "en",
+              "value": "new (καινός): λέγεταί τι καινόν; 'is there any news?'"
+            }
+          ]
+        },
+        {
+          "text": "γένοιτο γὰρ ἄν τι καινότερον ἢ Μακεδὼν ἀνὴρ Ἀθηναίους καταπολεμῶν καὶ τὰ τῶν Ἑλλήνων διοικῶν;",
+          "orig": [
+            6
+          ],
+          "glosses": [
+            {
+              "word": "καινότερον",
+              "kind": "|",
+              "value": "καινός | καινότερον (newer: comparative)"
+            },
+            {
+              "word": "Μακεδὼν",
+              "kind": "en",
+              "value": "a Macedonian"
+            },
+            {
+              "word": "καταπολεμῶν",
+              "kind": "<",
+              "value": "κατά + πόλεμος | καταπολεμέω (defeat in war)"
+            },
+            {
+              "word": "διοικῶν",
+              "kind": "<",
+              "value": "διά + οἰκέω | διοικέω (manage, run)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "pol-7-c",
+      "sentences": [
+        {
+          "text": "τέθνηκε Φίλιππος;",
+          "orig": [
+            7
+          ],
+          "glosses": [
+            {
+              "word": "τέθνηκε",
+              "kind": "|",
+              "value": "ἀποθνῄσκω, θνῄσκω | τέθνηκε (perfect: is dead)"
+            }
+          ]
+        },
+        {
+          "text": "οὐ μὰ Δίʼ, ἀλλʼ ἀσθενεῖ.",
+          "orig": [
+            8
+          ],
+          "glosses": [
+            {
+              "word": "μὰ",
+              "kind": "en",
+              "value": "οὐ μὰ Δία: no, by Zeus! (an oath, denying)"
+            },
+            {
+              "word": "ἀσθενεῖ",
+              "kind": "<",
+              "value": "ἀσθενής | ἀσθενέω (be ill)"
+            }
+          ]
+        },
+        {
+          "text": "τί δʼ ὑμῖν διαφέρει;",
+          "orig": [
+            9
+          ]
+        },
+        {
+          "text": "καὶ γὰρ ἂν οὗτός τι πάθῃ, ταχέως ὑμεῖς ἕτερον Φίλιππον ποιήσετε, ἄνπερ οὕτω προσέχητε τοῖς πράγμασι τὸν νοῦν·",
+          "orig": [
+            10
+          ],
+          "glosses": [
+            {
+              "word": "ἂν",
+              "kind": "=",
+              "value": "ἐάν (if)"
+            },
+            {
+              "word": "πάθῃ",
+              "kind": "note",
+              "value": "ἂν οὗτός τι πάθῃ: 'if something happens to him', a polite way of saying 'if he dies'"
+            },
+            {
+              "word": "ἄνπερ",
+              "kind": "=",
+              "value": "ἐάνπερ: if indeed, if only"
+            },
+            {
+              "word": "οὕτω",
+              "kind": "=",
+              "value": "οὕτως (the form used before a consonant)"
+            },
+            {
+              "word": "προσέχητε",
+              "kind": "note",
+              "value": "τοῖς πράγμασι τὸν νοῦν προσέχειν: to pay attention to affairs (προσέχω)"
+            }
+          ]
+        },
+        {
+          "text": "οὐδὲ γὰρ οὗτος παρὰ τὴν αὑτοῦ ῥώμην τοσοῦτον ἐπηύξηται ὅσον παρὰ τὴν ἡμετέραν ἀμέλειαν.",
+          "orig": [
+            11
+          ],
+          "glosses": [
+            {
+              "word": "αὑτοῦ",
+              "kind": "=",
+              "value": "ἑαυτοῦ: his own"
+            },
+            {
+              "word": "ἐπηύξηται",
+              "kind": "en",
+              "value": "has grown great (perfect of ἐπαυξάνομαι)"
+            },
+            {
+              "word": "ἀμέλειαν",
+              "kind": "↔",
+              "value": "ἡ ἀμέλεια ↔ ἡ ἐπιμέλεια (neglect ↔ care)"
+            },
+            {
+              "word": "παρὰ",
+              "kind": "note",
+              "value": "παρὰ τὴν αὑτοῦ ῥώμην … παρὰ τὴν ἡμετέραν ἀμέλειαν: 'thanks to his own strength … thanks to our neglect'"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "ρητωρ",
+      "gloss_grc": "ὁ ῥήτωρ, τοῦ ῥήτορος: speaker, politician"
+    },
+    {
+      "id": "ψηφισμα",
+      "gloss_grc": "τὸ ψήφισμα < ψῆφος: decree"
+    },
+    {
+      "id": "αισχυνη",
+      "gloss_grc": "ἡ αἰσχύνη: shame"
+    },
+    {
+      "id": "καινος",
+      "gloss_grc": "καινός, -ή, -όν: new · λέγεταί τι καινόν;"
+    },
+    {
+      "id": "αμελεια",
+      "gloss_grc": "ἡ ἀμέλεια ↔ ἡ ἐπιμέλεια"
+    },
+    {
+      "id": "διοικεω",
+      "gloss_grc": "διοικέω · διῴκησα: manage, run"
+    },
+    {
+      "id": "προσεχω",
+      "gloss_grc": "τὸν νοῦν προσέχειν τινί: pay attention to"
+    },
+    {
+      "id": "πυνθανομαι",
+      "gloss_grc": "πυνθάνομαι · ἐπυθόμην: inquire, learn"
+    },
+    {
+      "id": "θνησκω",
+      "gloss_grc": "(ἀπο)θνῄσκω · τέθνηκα: I am dead"
+    }
+  ],
+  "notice": [
+    "πότʼ οὖν, ὦ ἄνδρες Ἀθηναῖοι, πόθʼ ἃ χρὴ πράξετε; ἐπειδὰν τί γένηται;",
+    "λέγεταί τι καινόν;",
+    "γένοιτο γὰρ ἄν τι καινότερον ἢ Μακεδὼν ἀνὴρ Ἀθηναίους καταπολεμῶν;",
+    "καὶ γὰρ ἂν οὗτός τι πάθῃ, ταχέως ὑμεῖς ἕτερον Φίλιππον ποιήσετε",
+    "οὐδὲ γὰρ οὗτος παρὰ τὴν αὑτοῦ ῥώμην τοσοῦτον ἐπηύξηται ὅσον παρὰ τὴν ἡμετέραν ἀμέλειαν"
+  ],
+  "grammar": {
+    "md": "**Reading Demosthenes: the speaker and his audience.** A speech in the Assembly was spoken to thousands of citizens in the open air, and it was written to be heard. Four habits make it easy to follow once you know them.\n\n**1. The address.** ὦ ἄνδρες Ἀθηναῖοι 'men of Athens' comes again and again, often in the middle of a sentence, to hold attention. (Speakers in the courts use it too, as Socrates does in the *Apology*, or say ὦ ἄνδρες δικασταί; in the Council it is ὦ βουλή.)\n\n**2. Question and answer.** Demosthenes argues with himself aloud: πότ’ οὖν … πράξετε; — ἐπειδὰν τί γένηται; — ἐπειδὰν νὴ Δί’ ἀνάγκη τις ᾖ. — νῦν δὲ τί χρὴ τὰ γιγνόμεν’ ἡγεῖσθαι; He gives the audience's excuse and answers it. Read each short question as a new speaker.\n\n**3. Short conditional forms.** In speech ἐάν often contracts to **ἄν** (ἢν in Xenophon): ἂν οὗτός τι πάθῃ 'if anything happens to him'; ἄνπερ … προσέχητε 'if indeed you pay attention'. Tell it from the particle ἄν by what follows: a subjunctive at the start of a clause means 'if'; an optative or past indicative with ἄν means 'would'.\n\n| form | meaning |\n|---|---|\n| ἂν … πάθῃ, … ποιήσετε | if … happens, you will make (future more vivid) |\n| γένοιτο ἄν τι καινότερον; | could anything be newer? (potential optative) |\n| τέθνηκε | he is dead (perfect: a present state) |\n| τοσοῦτον … ὅσον | so much … as (correlatives) |\n\n**4. Elision everywhere.** Spoken Greek runs vowels together: πότ’ οὖν, πόθ’ ἅ (τ → θ before a rough breathing), γιγνόμεν’ ἡγεῖσθαι, βούλεσθ’ εἰπέ, Δί’ ἀνάγκη. Restore the vowel in your head (πότε, γιγνόμενα, βούλεσθε, Δία) and read on.",
+    "paradigms": [
+      "gignomai"
+    ],
+    "diagram": "diagram-conditions"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings (Demosthenes' words).",
+      "template": "μεγίστην ἀνάγκην τὴν ὑπὲρ τῶν πραγμάτων αἰσχύν___ εἶναι. Μακεδὼν ἀνὴρ Ἀθηναίους καταπολεμ___. οὐ μὰ Δίʼ, ἀλλʼ ἀσθεν___. ταχέως ὑμεῖς ἕτερον Φίλιππ___ ποιήσετε.",
+      "gaps": [
+        {
+          "answers": [
+            "ην"
+          ]
+        },
+        {
+          "answers": [
+            "ων"
+          ]
+        },
+        {
+          "answers": [
+            "ει"
+          ]
+        },
+        {
+          "answers": [
+            "ον"
+          ]
+        }
+      ],
+      "skills": [
+        "noun.decl1.acc.sg",
+        "verb.ptc.pres.act",
+        "verb.contract.e",
+        "noun.decl2.acc.sg"
+      ],
+      "explain": "τὴν αἰσχύνην (acc. sg.), καταπολεμῶν (present participle of a contract verb), ἀσθενεῖ (ἀσθενέ-ει), ἕτερον Φίλιππον (acc.)."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ἢ βούλεσθε … πυνθάνεσθαι, λέγεταί τι ___;",
+      "options": [
+        {
+          "id": "a",
+          "text": "καινόν"
+        },
+        {
+          "id": "b",
+          "text": "καινός"
+        },
+        {
+          "id": "c",
+          "text": "καινῶν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "adj.agree",
+        "vocab.pol"
+      ],
+      "explain": "τι καινόν: 'anything new', neuter, agreeing with τι.",
+      "audio": "λέγεταί τι καινόν;"
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · γένοιτο γὰρ ___ τι καινότερον ἢ Μακεδὼν ἀνὴρ Ἀθηναίους καταπολεμῶν;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἄν"
+        },
+        {
+          "id": "b",
+          "text": "μή"
+        },
+        {
+          "id": "c",
+          "text": "ὅτι"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-potential"
+      ],
+      "explain": "γένοιτο ἄν: potential optative, 'could there be anything newer …?'",
+      "audio": "γένοιτο γὰρ ἄν τι καινότερον ἢ Μακεδὼν ἀνὴρ Ἀθηναίους καταπολεμῶν;"
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · οὐδὲ γὰρ οὗτος παρὰ τὴν αὑτοῦ ῥώμην τοσοῦτον ἐπηύξηται ___ παρὰ τὴν ἡμετέραν ἀμέλειαν.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὅσον"
+        },
+        {
+          "id": "b",
+          "text": "ὅτι"
+        },
+        {
+          "id": "c",
+          "text": "ὥστε"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "pron.correlatives"
+      ],
+      "explain": "τοσοῦτον … ὅσον: 'so much … as': Philip has not grown so great by his own strength as by our neglect.",
+      "audio": "οὐδὲ γὰρ οὗτος παρὰ τὴν αὑτοῦ ῥώμην τοσοῦτον ἐπηύξηται ὅσον παρὰ τὴν ἡμετέραν ἀμέλειαν."
+    },
+    {
+      "type": "pick-picture",
+      "prompt": "ὁ ῥήτωρ ἐν τῇ ἐκκλησίᾳ λέγει.",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "image": "pol-7-c"
+        },
+        {
+          "id": "b",
+          "image": "dikasterion"
+        },
+        {
+          "id": "c",
+          "image": "pol-boule"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences",
+        "read.pol.institutions"
+      ],
+      "explain": "The Assembly met on the Pnyx, in the open air; speakers stood on the stone platform (βῆμα)."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὦ ἄνδρες Ἀθηναῖοι"
+        },
+        {
+          "id": "b",
+          "text": "ὦ ἄνδρες δικασταί"
+        },
+        {
+          "id": "c",
+          "text": "ὦ βουλή"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "read.pol.oratory"
+      ],
+      "explain": "The orator's address to the citizens, in the Assembly and often in the courts too; jurors may also be ὦ ἄνδρες δικασταί, the Council ὦ βουλή.",
+      "audio": "ὦ ἄνδρες Ἀθηναῖοι"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the comparative of καινός, neuter nominative singular: 'newer'.",
+      "lemma": "καινός",
+      "cell": "comp.nom.sg.n",
+      "skills": [
+        "adj.comp",
+        "vocab.pol"
+      ],
+      "explain": "καινότερον: -ότερος after a long syllable (καιν-).",
+      "audio": "καινότερον"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the genitive singular of ῥήτωρ.",
+      "lemma": "ῥήτωρ",
+      "cell": "gen.sg",
+      "skills": [
+        "noun.decl3.cons.gen.sg",
+        "vocab.pol"
+      ],
+      "explain": "ῥήτορος: long ω in the nominative, short ο in the other cases (stem ῥητορ-), like δαίμων, δαίμονος.",
+      "audio": "ῥήτορος"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the present active participle of διοικέω, nominative masculine singular.",
+      "lemma": "διοικέω",
+      "cell": "present.active.participle.nom.sg.m",
+      "skills": [
+        "verb.ptc.pres.act",
+        "verb.contract.e"
+      ],
+      "explain": "διοικῶν: διοικέ-ων → διοικῶν.",
+      "audio": "διοικῶν"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse τέθνηκε.",
+      "form": "τέθνηκε",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "perf",
+        "person": "3sg"
+      },
+      "skills": [
+        "verb.perf.act.ind.3sg"
+      ],
+      "explain": "τέ-θνηκ-ε: perfect of (ἀπο)θνῄσκω, 'he has died, he is dead'. The perfect describes a present state.",
+      "audio": "τέθνηκε"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse προσέχητε.",
+      "form": "προσέχητε",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "pres",
+        "mood": "subj",
+        "person": "2pl"
+      },
+      "skills": [
+        "syntax.cond.fmv",
+        "verb.compound"
+      ],
+      "explain": "προσέχ-ητε: present subjunctive, 2nd plural, after ἄνπερ (= ἐάνπερ).",
+      "audio": "προσέχητε"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "πότʼ οὖν … πόθʼ ἃ χρὴ πράξετε; ἐπειδὰν τί γένηται; Demosthenes asks a question and then …",
+      "options": [
+        {
+          "id": "a",
+          "text": "answers it himself"
+        },
+        {
+          "id": "b",
+          "text": "waits for the Assembly to answer"
+        },
+        {
+          "id": "c",
+          "text": "asks the Council"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.pol.oratory"
+      ],
+      "explain": "He plays both parts: the question, then the audience's excuse (ἐπειδὰν νὴ Δί’ ἀνάγκη τις ᾖ), then his reply."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "καὶ γὰρ ἂν οὗτός τι πάθῃ … Here ἄν means ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "if (= ἐάν)"
+        },
+        {
+          "id": "b",
+          "text": "would (with an optative)"
+        },
+        {
+          "id": "c",
+          "text": "whoever"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.ean",
+        "syntax.cond.fmv"
+      ],
+      "explain": "ἄν with a subjunctive at the start of a clause is the contracted form of ἐάν; ἄνπερ = ἐάνπερ."
+    },
+    {
+      "type": "label",
+      "prompt": "καὶ γὰρ ἂν οὗτός τι πάθῃ, ταχέως ὑμεῖς ἕτερον Φίλιππον ποιήσετε. What kind of condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "future more vivid (ἐάν + subj., future)"
+        },
+        {
+          "id": "b",
+          "text": "future less vivid"
+        },
+        {
+          "id": "c",
+          "text": "present contrary to fact"
+        },
+        {
+          "id": "d",
+          "text": "past general"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.cond.fmv"
+      ],
+      "explain": "Protasis ἄν (ἐάν) + subjunctive, apodosis future indicative: a real warning about the future."
+    },
+    {
+      "type": "label",
+      "prompt": "γένοιτο γὰρ ἄν τι καινότερον …; What is γένοιτο ἄν?",
+      "options": [
+        {
+          "id": "a",
+          "text": "potential optative: 'could there be …?'"
+        },
+        {
+          "id": "b",
+          "text": "a wish"
+        },
+        {
+          "id": "c",
+          "text": "optative in indirect speech"
+        },
+        {
+          "id": "d",
+          "text": "purpose"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-potential"
+      ],
+      "explain": "ἄν + optative in a main clause: what could happen. As a question it means 'there could be nothing newer'."
+    },
+    {
+      "type": "transform",
+      "prompt": "Answer Demosthenes: τέθνηκε Φίλιππος; → «οὐ τέθνηκεν, ἀλλʼ ___.» ('he is ill')",
+      "template": "«οὐ τέθνηκεν, ἀλλʼ ___.»",
+      "gaps": [
+        {
+          "answers": [
+            "ἀσθενεῖ"
+          ]
+        }
+      ],
+      "skills": [
+        "verb.contract.e",
+        "read.comprehension"
+      ],
+      "explain": "ἀσθενεῖ: 'he is ill' (ἀσθενέω)."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the two participles that describe what the Macedonian is doing.",
+      "sentence": "γένοιτο γὰρ ἄν τι καινότερον ἢ Μακεδὼν ἀνὴρ Ἀθηναίους καταπολεμῶν καὶ τὰ τῶν Ἑλλήνων διοικῶν;",
+      "answer": [
+        9,
+        14
+      ],
+      "skills": [
+        "read.locate",
+        "verb.ptc.pres.act"
+      ],
+      "explain": "καταπολεμῶν 'defeating in war' and διοικῶν 'managing': present participles agreeing with Μακεδὼν ἀνήρ."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the word Demosthenes uses for 'our neglect' and the word for 'his strength'.",
+      "sentence": "οὐδὲ γὰρ οὗτος παρὰ τὴν αὑτοῦ ῥώμην τοσοῦτον ἐπηύξηται ὅσον παρὰ τὴν ἡμετέραν ἀμέλειαν.",
+      "answer": [
+        6,
+        13
+      ],
+      "skills": [
+        "read.locate",
+        "vocab.pol"
+      ],
+      "explain": "ῥώμην and ἀμέλειαν: the whole sentence turns on the contrast τοσοῦτον … ὅσον."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'Is Philip dead?'",
+      "tokens": [
+        "τέθνηκε",
+        "Φίλιππος"
+      ],
+      "answers": [
+        "τέθνηκε Φίλιππος",
+        "Φίλιππος τέθνηκε"
+      ],
+      "skills": [
+        "syntax.word-order",
+        "read.pol.oratory"
+      ],
+      "explain": "Demosthenes puts the verb first for surprise: τέθνηκε Φίλιππος;"
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "τέθνηκε Φίλιππος; οὐ μὰ Δίʼ, ἀλλʼ ἀσθενεῖ."
+        },
+        {
+          "id": "b",
+          "text": "τέθνηκε Φίλιππος; ναὶ μὰ Δία."
+        },
+        {
+          "id": "c",
+          "text": "νικᾷ Φίλιππος; οὐ μὰ Δίʼ, ἀλλʼ ἀσθενεῖ."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "Is Philip dead? No, by Zeus, but he is ill.",
+      "audio": "τέθνηκε Φίλιππος; οὐ μὰ Δίʼ, ἀλλʼ ἀσθενεῖ."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Δημοσθένης λέγει ὅτι ὁ Φίλιππος τέθνηκεν.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "οὐ μὰ Δί’, ἀλλ’ ἀσθενεῖ: people ask whether he is dead; he is only ill."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "οἱ Ἀθηναῖοι περιιόντες πυνθάνονται εἴ τι καινὸν λέγεται.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "περιιόντες αὑτῶν πυνθάνεσθαι, λέγεταί τι καινόν;"
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Φίλιππος διὰ τὴν αὑτοῦ ῥώμην μόνον μέγας γέγονεν.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension",
+        "read.pol.oratory"
+      ],
+      "explain": "Rather παρὰ τὴν ἡμετέραν ἀμέλειαν."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "gaps": [
+        {
+          "answers": [
+            "λέγεταί τι καινόν"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "spell.accents"
+      ],
+      "explain": "λέγεταί τι καινόν: λέγεται takes an extra acute from the enclitic τι.",
+      "audio": "λέγεταί τι καινόν;"
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'Is there any news?' (literally: is anything new being said?)",
+      "gaps": [
+        {
+          "answers": [
+            "λέγεταί τι καινόν",
+            "λέγεταί τι καινὸν",
+            "ἆρα λέγεταί τι καινόν"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "syntax.enclitic"
+      ],
+      "explain": "λέγεταί τι καινόν; the Athenians' favourite question in the Agora."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: καὶ γὰρ ἂν οὗτός τι πάθῃ, ταχέως ὑμεῖς ἕτερον Φίλιππον ποιήσετε, ἄνπερ οὕτω προσέχητε τοῖς πράγμασι τὸν νοῦν·",
+      "audio": "καὶ γὰρ ἂν οὗτός τι πάθῃ, ταχέως ὑμεῖς ἕτερον Φίλιππον ποιήσετε, ἄνπερ οὕτω προσέχητε τοῖς πράγμασι τὸν νοῦν·",
+      "model": "For if something happens to him, you will quickly make a second Philip, if you pay attention to affairs in this way.",
+      "skills": [
+        "read.original",
+        "read.pol.oratory",
+        "syntax.cond.fmv"
+      ],
+      "explain": "ἂν … πάθῃ = ἐὰν … πάθῃ; ἄνπερ = ἐάνπερ; οὕτω 'in this way' is ironic: as carelessly as now."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: ἐγὼ μὲν γὰρ οἴομαι τοῖς ἐλευθέροις μεγίστην ἀνάγκην τὴν ὑπὲρ τῶν πραγμάτων αἰσχύνην εἶναι.",
+      "audio": "ἐγὼ μὲν γὰρ οἴομαι τοῖς ἐλευθέροις μεγίστην ἀνάγκην τὴν ὑπὲρ τῶν πραγμάτων αἰσχύνην εἶναι.",
+      "model": "For I think that for free men the greatest compulsion is shame at the state of affairs.",
+      "skills": [
+        "read.original",
+        "syntax.indirect-inf"
+      ],
+      "explain": "οἴομαι + accusative and infinitive: μεγίστην ἀνάγκην … τὴν αἰσχύνην εἶναι."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "ὁ ῥήτωρ",
+          "right": "rhetoric"
+        },
+        {
+          "left": "καινός",
+          "right": "Cenozoic ('recent life')"
+        },
+        {
+          "left": "ὁ Φίλιππος",
+          "right": "philippic (a bitter attack)"
+        },
+        {
+          "left": "ἡ ἀνάγκη",
+          "right": "Ananke (Necessity, a goddess)"
+        },
+        {
+          "left": "διοικέω",
+          "right": "diocese"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "Demosthenes' speeches against Philip gave English the word 'philippic'. διοίκησις 'administration' became the Church's diocese."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "τί ἐρωτῶσιν ἀλλήλους οἱ Ἀθηναῖοι περιιόντες;",
+      "options": [
+        {
+          "id": "a",
+          "text": "λέγεταί τι καινόν;"
+        },
+        {
+          "id": "b",
+          "text": "τί χρὴ πράττειν;"
+        },
+        {
+          "id": "c",
+          "text": "πότε ἡ ἐκκλησία;"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "περιιόντες αὑτῶν πυνθάνεσθαι, λέγεταί τι καινόν;",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίς ἐστιν ἡ μεγίστη ἀνάγκη τοῖς ἐλευθέροις;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἡ αἰσχύνη."
+        },
+        {
+          "id": "b",
+          "text": "ὁ φόβος."
+        },
+        {
+          "id": "c",
+          "text": "ὁ πόλεμος."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "μεγίστην ἀνάγκην τὴν ὑπὲρ τῶν πραγμάτων αἰσχύνην εἶναι.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τέθνηκεν ὁ Φίλιππος;",
+      "options": [
+        {
+          "id": "a",
+          "text": "οὔ· ἀσθενεῖ."
+        },
+        {
+          "id": "b",
+          "text": "ναί· τέθνηκεν."
+        },
+        {
+          "id": "c",
+          "text": "οὐδεὶς οἶδεν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "οὐ μὰ Δί’, ἀλλ’ ἀσθενεῖ.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "διὰ τί μέγας γέγονεν ὁ Φίλιππος, ὡς λέγει ὁ Δημοσθένης;",
+      "options": [
+        {
+          "id": "a",
+          "text": "διὰ τὴν τῶν Ἀθηναίων ἀμέλειαν."
+        },
+        {
+          "id": "b",
+          "text": "διὰ τὸν πλοῦτον αὐτοῦ."
+        },
+        {
+          "id": "c",
+          "text": "διὰ τοὺς θεούς."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "read.pol.oratory"
+      ],
+      "explain": "παρὰ τὴν ἡμετέραν ἀμέλειαν.",
+      "audio": "prompt"
+    }
+  ],
+  "culture": {
+    "title": "Demosthenes and Philip",
+    "md": "**Demosthenes** (384–322 BC) lost his father at seven and his inheritance to dishonest guardians; he sued them as a young man and won, and so became a speaker. Later stories say he had a weak voice and a stammer and trained himself by speaking with pebbles in his mouth and against the noise of the sea. He made his living as a speechwriter and then entered politics, where he found his cause: **Philip II of Macedon**, who from 359 BC was turning a half-barbarian northern kingdom into the strongest power in Greece.\n\nThe *First Philippic* (351) is Demosthenes' first speech against Philip. He tells the Athenians to build a standing force of citizen soldiers instead of voting decrees and hiring mercenaries who never arrive. His warnings went mostly unheeded; in 338 Philip defeated Athens and Thebes at **Chaeronea**, and Greek freedom of action ended. After Alexander's death Demosthenes led one last revolt, and when it failed he took poison (322) rather than be captured. Ancient critics ranked him first of the orators, and the word 'philippic' still means a fierce political attack. The bust is a Roman copy of the bronze statue the Athenians set up in his honour in 280 BC.",
+    "image": "pol-demosthenes-bust"
+  },
+  "quiz": [
+    {
+      "type": "produce-form",
+      "prompt": "Give the accusative singular of αἰσχύνη.",
+      "lemma": "αἰσχύνη",
+      "cell": "acc.sg",
+      "skills": [
+        "noun.decl1.acc.sg",
+        "vocab.pol"
+      ],
+      "explain": "τὴν αἰσχύνην.",
+      "audio": "τὴν αἰσχύνην"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "In the First Philippic, ὦ ἄνδρες Ἀθηναῖοι addresses ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "the Assembly"
+        },
+        {
+          "id": "b",
+          "text": "a jury"
+        },
+        {
+          "id": "c",
+          "text": "the Council"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.pol.oratory",
+        "read.pol.institutions"
+      ],
+      "explain": "The Assembly: every citizen present. The same words can address a jury (Socrates uses them in the Apology); jurors are also ὦ ἄνδρες δικασταί, councillors ὦ βουλή."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἡ ἀμέλεια"
+        },
+        {
+          "id": "b",
+          "text": "ἡ ἀλήθεια"
+        },
+        {
+          "id": "c",
+          "text": "ἡ ἀνάγκη"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.pol"
+      ],
+      "explain": "ἡ ἀμέλεια: neglect.",
+      "audio": "ἡ ἀμέλεια"
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Δημοσθένης τοὺς Ἀθηναίους ἐπαινεῖ.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "He mocks them for asking for news instead of acting."
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse γένοιτο.",
+      "form": "γένοιτο",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "mood": "opt"
+      },
+      "skills": [
+        "syntax.opt-potential",
+        "verb.aor2.stem"
+      ],
+      "explain": "γέν-οιτο: aorist optative middle of γίγνομαι; with ἄν, potential.",
+      "audio": "γένοιτο"
+    },
+    {
+      "type": "match",
+      "prompt": "Match the Greek to the English.",
+      "pairs": [
+        {
+          "left": "ὁ ῥήτωρ",
+          "right": "speaker, politician"
+        },
+        {
+          "left": "ἡ αἰσχύνη",
+          "right": "shame"
+        },
+        {
+          "left": "ἡ ἀμέλεια",
+          "right": "neglect"
+        },
+        {
+          "left": "καινός",
+          "right": "new"
+        },
+        {
+          "left": "τὸ ψήφισμα",
+          "right": "decree"
+        }
+      ],
+      "skills": [
+        "vocab.recognition",
+        "vocab.pol"
+      ],
+      "explain": "ῥήτωρ, αἰσχύνη, ἀμέλεια, καινός, ψήφισμα."
+    }
+  ],
+  "skills": [
+    "read.original",
+    "read.pol.oratory",
+    "read.pol.institutions",
+    "read.comprehension",
+    "read.locate",
+    "syntax.opt-potential",
+    "syntax.cond.fmv",
+    "syntax.ean",
+    "syntax.indirect-inf",
+    "syntax.word-order",
+    "syntax.enclitic",
+    "pron.correlatives",
+    "adj.agree",
+    "adj.comp",
+    "noun.decl1.acc.sg",
+    "noun.decl2.acc.sg",
+    "noun.decl3.cons.gen.sg",
+    "verb.ptc.pres.act",
+    "verb.contract.e",
+    "verb.perf.act.ind.3sg",
+    "verb.compound",
+    "verb.aor2.stem",
+    "listen.words",
+    "listen.sentences",
+    "spell.dictation",
+    "spell.accents",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.family",
+    "vocab.pol"
+  ]
+}

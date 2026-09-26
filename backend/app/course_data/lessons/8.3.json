@@ -1,0 +1,183 @@
+{
+ "id": "8.3",
+ "title_grc": "αἱ χεῖρες τοῦ δήμου",
+ "title_en": "The vote",
+ "summary_grc": "ὁ Λύσις ἐρωτᾷ τί ἔδοξε τῷ δήμῳ· ὁ δὲ Ἀρίστων λέγει ὅτι ὁ δῆμος τὴν πόλιν φυλάξει.",
+ "summary_en": "The Assembly votes by show of hands; Lysis, waiting outside with Syros, asks what was decided, and his father shows him the Long Walls. δείκνυμι and the -νυμι verbs; reported speech with ὅτι / ὡς; indirect questions.",
+ "cover": "panel-8-3-a",
+ "caption_grc": "«εἰπέ μοι, ὦ πάτερ, τί ἔδοξε τῷ δήμῳ.» — ὁ δὲ Ἀρίστων λέγει ὅτι ὁ δῆμος τὰς ναῦς πληρώσει.",
+ "names": {
+  "Πόντος": ["Πόντου", "Πόντῳ", "Πόντον"]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "panel-8-3-a",
+   "sentences": [
+    {"text": "τέλος δὲ ὁ κῆρυξ κατὰ τὸν νόμον λέγει· «νῦν χειροτονεῖτε, ὦ Ἀθηναῖοι.»", "glosses": [
+     {"word": "νόμον", "kind": "en", "value": "ὁ νόμος: law, custom; κατὰ τὸν νόμον 'as the law says'"},
+     {"word": "χειροτονεῖτε", "kind": "<", "value": "χείρ + τείνω: vote by raising your hand"}
+    ]},
+    {"text": "«ἐὰν ὑμῖν δοκῇ ἐξελθεῖν καὶ ἐν τῇ γῇ μάχεσθαι, ὡς λέγει ὁ Δημόκριτος, τὰς χεῖρας αἴρετε.»", "glosses": [
+     {"word": "δοκῇ", "kind": "en", "value": "ἐὰν ὑμῖν δοκῇ: if it seems good to you, if you so decide (δοκέω)"},
+     {"word": "αἴρετε", "kind": "en", "value": "raise! lift!"}
+    ]},
+    {"text": "ὀλίγοι χειροτονοῦσιν· οὐδεὶς γὰρ τὴν χεῖρα αἴρει πλὴν τοῦ Δημοκρίτου καὶ τῶν φίλων αὐτοῦ.", "glosses": [
+     {"word": "οὐδεὶς", "kind": "en", "value": "no one"},
+     {"word": "αἴρει", "kind": "en", "value": "raises"},
+     {"word": "πλὴν", "kind": "en", "value": "except (+ gen.)"}
+    ]},
+    {"text": "ἔπειτα ὁ κῆρυξ· «ἐὰν ὑμῖν δοκῇ τὴν πόλιν φυλάττειν καὶ τὰς ναῦς πληροῦν, ὡς λέγουσιν οἱ στρατηγοί, χειροτονεῖτε.»", "glosses": [
+     {"word": "στρατηγοί", "kind": "pic", "value": "strategos"}
+    ]},
+    {"text": "νῦν δὲ πολὺ πλέονες χειροτονοῦσιν· αἱ χεῖρες ὅμοιαι δένδροις ἐν ὕλῃ εἰσίν.", "glosses": [
+     {"word": "πλέονες", "kind": "<", "value": "πολύς | πλέων (πλείων) | πλεῖστος: more"},
+     {"word": "ὅμοιαι", "kind": "en", "value": "like, similar (to + dat.)"},
+     {"word": "ὕλῃ", "kind": "en", "value": "forest"}
+    ]},
+    {"text": "οἱ δὲ πρυτάνεις τὰς χεῖρας σκοποῦσι καὶ δηλοῦσιν ὅτι ἡ γνώμη τῶν στρατηγῶν νικᾷ.", "glosses": [
+     {"word": "πρυτάνεις", "kind": "en", "value": "the prytaneis, the councillors presiding"},
+     {"word": "σκοποῦσι", "kind": "en", "value": "look at, examine"},
+     {"word": "ὅτι", "kind": "en", "value": "that (introducing what is said, shown or known)"},
+     {"word": "γνώμη", "kind": "en", "value": "opinion, proposal"}
+    ]},
+    {"text": "ὁ δὲ κῆρυξ βοᾷ· «ἔδοξε τῷ δήμῳ τὴν πόλιν φυλάττειν καὶ τὰς ναῦς πληροῦν.»", "glosses": [
+     {"word": "ἔδοξε", "kind": "en", "value": "ἔδοξε τῷ δήμῳ: the people decided (literally 'it seemed good to the people')"}
+    ]}
+   ]
+  },
+  {
+   "image": "panel-8-3-b",
+   "sentences": [
+    {"text": "ἐπὶ δὲ τῷ λόφῳ ὁ Λύσις, ὅτε τὰς χεῖρας ὁρᾷ, τὸν Σύρον ἐρωτᾷ τί ποιοῦσιν οἱ ἄνδρες.", "glosses": [
+     {"word": "λόφῳ", "kind": "en", "value": "hill"},
+     {"word": "ὅτε", "kind": "en", "value": "when"}
+    ]},
+    {"text": "ὁ δὲ Σύρος λέγει ὅτι οἱ Ἀθηναῖοι χειροτονοῦσιν· «οὗτος γάρ ἐστιν ὁ νόμος αὐτῶν. ἐγὼ δὲ οὐδέποτε χειροτονήσω· δοῦλος γάρ εἰμι.»", "glosses": [
+     {"word": "οὐδέποτε", "kind": "↔", "value": "ἀεί (never)"}
+    ]},
+    {"text": "ὁ δὲ Λύσις τὸν Σύρον σκοπεῖ καὶ σιγᾷ.", "glosses": [
+     {"word": "σκοπεῖ", "kind": "en", "value": "looks at"},
+     {"word": "σιγᾷ", "kind": "en", "value": "is silent"}
+    ]},
+    {"text": "ἐπεὶ δὲ οἱ ἄνδρες ἐκ τῆς Πυκνὸς καταβαίνουσιν, ὁ Λύσις εὐθὺς πρὸς τὸν πατέρα τρέχει."},
+    {"text": "«εἰπέ μοι, ὦ πάτερ, τί ἔδοξε τῷ δήμῳ καὶ ὅστις ἐνίκησεν.»", "glosses": [
+     {"word": "ὅστις", "kind": "en", "value": "who (asking indirectly): 'tell me who won'"}
+    ]},
+    {"text": "ὁ δὲ Ἀρίστων λέγει ὅτι ὁ δῆμος ἐν τῇ γῇ οὐ μαχεῖται, ἀλλὰ τὴν πόλιν φυλάξει καὶ τὰς ναῦς πληρώσει."},
+    {"text": "«πάντες χαίρουσι πλὴν τοῦ Δημοκρίτου», λέγει· «ὀργίζεται γάρ, καὶ λέγει ὅτι οἱ πολέμιοι τοὺς ἀγροὺς αὐτοῦ τεμοῦσιν.»", "glosses": [
+     {"word": "ὀργίζεται", "kind": "en", "value": "is angry"},
+     {"word": "πολέμιοι", "kind": "<", "value": "πόλεμος: the enemy"},
+     {"word": "τεμοῦσιν", "kind": "en", "value": "will cut down, ravage (τέμνω)"}
+    ]}
+   ]
+  },
+  {
+   "image": "panel-8-3-c",
+   "sentences": [
+    {"text": "ἔπειτα ὁ Ἀρίστων τῇ χειρὶ δείκνυσι τὰ μακρὰ τείχη καὶ τὸν Πειραιᾶ.", "glosses": [
+     {"word": "δείκνυσι", "kind": "pic", "value": "verb-deiknysi"}
+    ]},
+    {"text": "«ὁρᾷς ταῦτα τὰ τείχη; οἱ στρατηγοὶ λέγουσιν ὅτι ἡ πόλις ὁμοία ἐστὶ νήσῳ.»", "glosses": [
+     {"word": "ὁμοία", "kind": "|", "value": "ὅμοιος | ὁμοία | ὅμοιον: like (+ dat.)"}
+    ]},
+    {"text": "«ὅτε ἐγὼ παῖς ἦν, οἱ Ἀθηναῖοι ταῦτα τὰ τείχη ἐποίουν· νῦν δὲ ἡ θάλαττα καὶ τὰ τείχη τὴν πόλιν σῴζουσιν.»"},
+    {"text": "ὁ δὲ Λύσις ἐρωτᾷ πόθεν ὁ σῖτος ἥξει, ἐὰν οἱ πολέμιοι τὴν γῆν τέμωσιν.", "glosses": [
+     {"word": "σῖτος", "kind": "pic", "value": "sitos"},
+     {"word": "τέμωσιν", "kind": "en", "value": "ravage (τέμνω)"}
+    ]},
+    {"text": "ὁ δὲ Ἀρίστων τὰς ναῦς ἐν τῷ λιμένι δείκνυσιν· «αὗται αἱ νῆες τὸν σῖτον ἐκ τοῦ Πόντου φέρουσιν. ἡμεῖς γὰρ τῇ θαλάττῃ πλέον πιστεύομεν ἢ τῇ γῇ.»", "glosses": [
+     {"word": "σῖτον", "kind": "|", "value": "σῖτος | σῖτον: grain"},
+     {"word": "Πόντου", "kind": "en", "value": "ὁ Πόντος: the Black Sea, where much of Athens' grain came from"}
+    ]},
+    {"text": "«ὅταν δὲ οἱ πολέμιοι εἰς τὴν Ἀττικὴν εἰσβάλωσιν, οἱ φύλακες νυκτὸς σημεῖα πυρὸς δεικνύασιν.»", "glosses": [
+     {"word": "εἰσβάλωσιν", "kind": "<", "value": "εἰς + βάλλω: invade"},
+     {"word": "σημεῖα", "kind": "pic", "value": "semeion"}
+    ]},
+    {"text": "«ἐγὼ τὸ σημεῖον πρῶτος ὄψομαι!» λέγει ὁ Λύσις. ὁ δὲ Ἀρίστων γελᾷ καὶ λέγει ὅτι ὁ Λάβρος πρῶτος αὐτὸ ὀσφρήσεται.", "glosses": [
+     {"word": "γελᾷ", "kind": "en", "value": "laughs"},
+     {"word": "ὀσφρήσεται", "kind": "en", "value": "will smell (ὀσφραίνομαι)"}
+    ]}
+   ]
+  }
+ ],
+ "vocab": [
+  {"id": "χειροτονεω", "pic": "verb-cheirotonei", "gloss_grc": "χειροτονεῖ = τὴν χεῖρα αἴρει"},
+  {"id": "νομος", "gloss_grc": "κατὰ τὸν νόμον"},
+  {"id": "δοκεω", "gloss_grc": "δοκεῖ μοι = βούλομαι · ἔδοξε τῷ δήμῳ"},
+  {"id": "πλην", "gloss_grc": "πάντες πλὴν τοῦ Δημοκρίτου"},
+  {"id": "στρατηγος", "pic": "strategos", "gloss_grc": "ὁ στρατηγὸς τῶν στρατιωτῶν ἡγεῖται"},
+  {"id": "πλεον", "gloss_grc": "πλέον ἢ … (more than)"},
+  {"id": "ομοιος", "gloss_grc": "ὅμοιος ↔ ἄλλος: αἱ χεῖρες ὅμοιαι δένδροις"},
+  {"id": "οτι", "gloss_grc": "λέγει ὅτι …"},
+  {"id": "οτε", "gloss_grc": "ὅτε παῖς ἦν"},
+  {"id": "δεικνυμι", "pic": "verb-deiknysi", "gloss_grc": "δείκνυσι τῇ χειρί"},
+  {"id": "σημειον", "pic": "semeion", "gloss_grc": "σημεῖα πυρός"}
+ ],
+ "notice": [
+  "ὁ δὲ Σύρος λέγει ὅτι οἱ Ἀθηναῖοι χειροτονοῦσιν.",
+  "ὁ δὲ Ἀρίστων λέγει ὅτι ὁ δῆμος ἐν τῇ γῇ οὐ μαχεῖται, ἀλλὰ τὰς ναῦς πληρώσει.",
+  "ὁ Λύσις τὸν Σύρον ἐρωτᾷ τί ποιοῦσιν οἱ ἄνδρες. — εἰπέ μοι τί ἔδοξε τῷ δήμῳ καὶ ὅστις ἐνίκησεν.",
+  "ὁ Λύσις ἐρωτᾷ πόθεν ὁ σῖτος ἥξει.",
+  "ὁ Ἀρίστων δείκνυσι τὰ τείχη · οἱ φύλακες σημεῖα πυρὸς δεικνύασιν."
+ ],
+ "grammar": {
+  "md": "**δείκνυμι 'show, point out' and the -νυμι verbs.** In the present and imperfect, δείκνυμι adds its endings straight to the stem δεικνυ- with no thematic vowel, like the -μι verbs of Unit 7; the vowel is short in the plural, and the 3rd plural is **δεικνύασι(ν)**:\n\n| | present | imperfect |\n|---|---|---|\n| 1 sg | δείκνυ**μι** | ἐδείκνυ**ν** |\n| 2 sg | δείκνυ**ς** | ἐδείκνυ**ς** |\n| 3 sg | δείκνυ**σι(ν)** | ἐδείκνυ |\n| 1 pl | δείκνυ**μεν** | ἐδείκνυ**μεν** |\n| 2 pl | δείκνυ**τε** | ἐδείκνυ**τε** |\n| 3 pl | δεικνύ**ασι(ν)** | ἐδείκνυ**σαν** |\n\nInfinitive **δεικνύναι**, participle **δεικνύς, δεικνῦσα, δεικνύν** (gen. δεικνύντος), imperative δείκνυ. The subjunctive is regular (δεικνύω, δεικνύῃς …), and outside the present system the verb is an ordinary -ω verb with stem δεικ-: future **δείξω**, aorist **ἔδειξα**, imperative **δεῖξον** 'show!'. So too ὄμνυμι 'swear', ἀπόλλυμι 'destroy', μείγνυμι 'mix'.\n\n**Reported speech with ὅτι or ὡς.** After a verb of saying, knowing or showing, **ὅτι** (or **ὡς**) + indicative reports a statement. When the main verb is present or future, keep the **tense and mood** of the original words; change only the person, as in English:\n\n| direct | reported |\n|---|---|\n| «οἱ Ἀθηναῖοι χειροτονοῦσιν.» | ὁ Σύρος λέγει **ὅτι** οἱ Ἀθηναῖοι χειροτονοῦσιν. |\n| «ὁ δῆμος οὐ μαχεῖται.» | λέγει **ὅτι** ὁ δῆμος οὐ **μαχεῖται** (future stays future). |\n| «ἐγὼ πρῶτος ὄψομαι.» | λέγει ὅτι (αὐτὸς) πρῶτος **ὄψεται** (1st person → 3rd). |\n\nὡς often hints 'as he claims'. Keep **ὅτι** 'that' apart from **ὅ τι** 'whatever' (Lesson 8.2) and from **ὅτε** 'when'.\n\n**Indirect questions.** A question can be reported after ἐρωτῶ, λέγω, οἶδα, σκοπῶ and the like. Keep the question word, or use its indirect form in ὁ- / ὅ-: τίς → **τίς** or **ὅστις**; ποῦ → ποῦ or **ὅπου**; πόθεν → πόθεν or **ὁπόθεν**; πῶς → ὅπως. The verb keeps its tense and mood:\n\n| direct | indirect |\n|---|---|\n| «τί ποιοῦσιν;» | ἐρωτᾷ **τί** ποιοῦσιν οἱ ἄνδρες. |\n| «τίς ἐνίκησεν;» | εἰπέ μοι **ὅστις** ἐνίκησεν. |\n| «πόθεν ὁ σῖτος ἥξει;» | ἐρωτᾷ **πόθεν** ὁ σῖτος ἥξει. |\n\n**ἔδοξε τῷ δήμῳ.** δοκέω means 'seem, think'; impersonal **δοκεῖ μοι** + infinitive 'it seems good to me, I decide'. Every Athenian decree began **ἔδοξε τῇ βουλῇ καὶ τῷ δήμῳ** 'the Council and the People decided'.",
+  "paradigms": ["deiknymi", "hostis"],
+  "diagram": "diagram-indirect"
+ },
+ "exercises": [
+  {"type": "endings-cloze", "prompt": "Μελέτημα Α · Fill in the endings.", "template": "ὁ Ἀρίστων τὰ τείχη δείκνυ___. οἱ φύλακες σημεῖα πυρὸς δεικνύ___σιν. ὁ Λύσις ἐρωτᾷ τί ποιοῦ___ οἱ ἄνδρες.", "gaps": [{"answers": ["σι", "σιν"]}, {"answers": ["α"]}, {"answers": ["σι", "σιν"]}], "skills": ["verb.mi.deiknymi", "syntax.indirect-question"], "explain": "δείκνυσι(ν), δεικνύασι(ν); in an indirect question the verb stays as it was: τί ποιοῦσιν;"},
+  {"type": "bank-cloze", "prompt": "Μελέτημα Β · ὁ Σύρος λέγει ___ οἱ Ἀθηναῖοι χειροτονοῦσιν.", "options": [{"id": "a", "text": "ὅτι"}, {"id": "b", "text": "ὅτε"}, {"id": "c", "text": "ἵνα"}], "answer": "a", "skills": ["syntax.indirect-hoti"], "explain": "'Says that …': ὅτι + indicative.", "audio": "ὁ Σύρος λέγει ὅτι οἱ Ἀθηναῖοι χειροτονοῦσιν."},
+  {"type": "bank-cloze", "prompt": "Μελέτημα Β · ὁ Λύσις ἐρωτᾷ ___ ὁ σῖτος ἥξει.", "options": [{"id": "a", "text": "πόθεν"}, {"id": "b", "text": "ὅτι"}, {"id": "c", "text": "ἐάν"}], "answer": "a", "skills": ["syntax.indirect-question"], "explain": "An indirect question keeps its question word: 'he asks where the grain will come from'.", "audio": "ὁ Λύσις ἐρωτᾷ πόθεν ὁ σῖτος ἥξει."},
+  {"type": "bank-cloze", "prompt": "Μελέτημα Β · ___ τῷ δήμῳ τὴν πόλιν φυλάττειν.", "options": [{"id": "a", "text": "ἔδοξε"}, {"id": "b", "text": "ἔδειξε"}, {"id": "c", "text": "ἐδόκουν"}], "answer": "a", "skills": ["vocab.recognition", "syntax.infinitive"], "explain": "ἔδοξε τῷ δήμῳ + infinitive: 'the people decided to …'. ἔδειξε is 'showed' (δείκνυμι).", "audio": "ἔδοξε τῷ δήμῳ τὴν πόλιν φυλάττειν."},
+  {"type": "pick-picture", "prompt": "ὁ στρατηγός", "audio": "prompt", "options": [{"id": "a", "image": "strategos"}, {"id": "b", "image": "stratiotes"}, {"id": "c", "image": "keryx"}, {"id": "d", "image": "basileus"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "ὁ στρατηγός: one of the ten generals, elected every year by show of hands."},
+  {"type": "pick-picture", "prompt": "σημεῖα πυρός", "audio": "prompt", "options": [{"id": "a", "image": "semeion"}, {"id": "b", "image": "pyr"}, {"id": "c", "image": "helios"}, {"id": "d", "image": "nyx"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "τὸ σημεῖον: a sign, a signal; here fire signals on a watch-tower."},
+  {"type": "produce-form", "prompt": "Give the 3rd person plural present of δείκνυμι ('they show').", "lemma": "δείκνυμι", "cell": "present.active.indicative.3pl", "skills": ["verb.mi.deiknymi"], "explain": "δεικνύασι(ν), like τιθέασι, διδόασι.", "audio": "δεικνύασιν"},
+  {"type": "produce-form", "prompt": "Give the 3rd person singular imperfect of δείκνυμι ('he was showing').", "lemma": "δείκνυμι", "cell": "imperfect.active.indicative.3sg", "skills": ["verb.mi.deiknymi"], "explain": "ἐδείκνυ: augment + bare stem.", "audio": "ἐδείκνυ"},
+  {"type": "produce-form", "prompt": "Give the aorist imperative, 2nd person singular, of δείκνυμι ('show!').", "lemma": "δείκνυμι", "cell": "aorist.active.imperative.2sg", "skills": ["verb.mi.deiknymi"], "explain": "Aorist ἔδειξα → δεῖξον, like λῦσον.", "audio": "δεῖξον"},
+  {"type": "produce-form", "prompt": "Give the 3rd person plural present of χειροτονέω ('they vote by show of hands').", "lemma": "χειροτονέω", "cell": "present.active.indicative.3pl", "skills": ["vocab.production"], "explain": "χειροτονοῦσι(ν), like ποιοῦσι(ν).", "audio": "χειροτονοῦσιν"},
+  {"type": "parse", "prompt": "Parse δεικνύασιν.", "form": "δεικνύασιν", "groups": [{"id": "tense", "label": "Tense", "options": [{"id": "pres", "label": "present"}, {"id": "impf", "label": "imperfect"}, {"id": "aor", "label": "aorist"}]}, {"id": "person", "label": "Who?", "options": [{"id": "3sg", "label": "he/she"}, {"id": "1pl", "label": "we"}, {"id": "3pl", "label": "they"}]}], "answer": {"tense": "pres", "person": "3pl"}, "skills": ["verb.mi.deiknymi"], "explain": "δεικνύ-ασι(ν): present, 3rd plural.", "audio": "δεικνύασιν"},
+  {"type": "parse", "prompt": "Parse ἔδοξε.", "form": "ἔδοξε", "groups": [{"id": "verb", "label": "Which verb?", "options": [{"id": "dokeo", "label": "δοκέω 'seem, think'"}, {"id": "deiknymi", "label": "δείκνυμι 'show'"}]}, {"id": "tense", "label": "Tense", "options": [{"id": "impf", "label": "imperfect"}, {"id": "aor", "label": "aorist"}]}], "answer": {"verb": "dokeo", "tense": "aor"}, "skills": ["vocab.recognition"], "explain": "δοκέω, δόξω, ἔδοξα: ἔδοξε 'it seemed (good)'. The aorist of δείκνυμι is ἔδειξε.", "audio": "ἔδοξε"},
+  {"type": "cloze-choice", "prompt": "ὁ Ἀρίστων λέγει ὅτι ὁ δῆμος ἐν τῇ γῇ οὐ ___.", "options": [{"id": "a", "text": "μαχεῖται"}, {"id": "b", "text": "μαχοῦμαι"}, {"id": "c", "text": "μάχεσθαι"}], "answer": "a", "skills": ["syntax.indirect-hoti"], "explain": "After ὅτι the original tense stays (future), in the 3rd person: μαχεῖται."},
+  {"type": "cloze-choice", "prompt": "ὁ Λύσις τὸν Σύρον ἐρωτᾷ τί ___ οἱ ἄνδρες.", "options": [{"id": "a", "text": "ποιοῦσιν"}, {"id": "b", "text": "ποιεῖς"}, {"id": "c", "text": "ποιεῖν"}], "answer": "a", "skills": ["syntax.indirect-question"], "explain": "The question «τί ποιοῦσιν;» keeps its verb when it is reported."},
+  {"type": "label", "prompt": "«εἰπέ μοι τί ἔδοξε τῷ δήμῳ.» — what kind of clause is τί ἔδοξε …?", "options": [{"id": "a", "text": "an indirect question"}, {"id": "b", "text": "an indirect statement"}, {"id": "c", "text": "a purpose clause"}], "answer": "a", "skills": ["syntax.indirect-question"], "explain": "The direct question was «τί ἔδοξε τῷ δήμῳ;»."},
+  {"type": "label", "prompt": "«ὁ Σύρος λέγει ὅτι οἱ Ἀθηναῖοι χειροτονοῦσιν.» — what does ὅτι do here?", "options": [{"id": "a", "text": "reports a statement: 'says that'"}, {"id": "b", "text": "asks a question: 'asks what'"}, {"id": "c", "text": "gives a time: 'when'"}], "answer": "a", "skills": ["syntax.indirect-hoti"], "explain": "ὅτι after a verb of saying: indirect statement."},
+  {"type": "transform", "prompt": "Report it: «ἐγὼ τὸ σημεῖον πρῶτος ὄψομαι.» → ὁ Λύσις λέγει ὅτι αὐτὸς τὸ σημεῖον πρῶτος …", "template": "ὁ Λύσις λέγει ὅτι αὐτὸς τὸ σημεῖον πρῶτος ___.", "gaps": [{"answers": ["ὄψεται"]}], "skills": ["syntax.indirect-hoti"], "explain": "Future stays future; 'I' becomes 'he': ὄψομαι → ὄψεται.", "audio": "ὁ Λύσις λέγει ὅτι αὐτὸς τὸ σημεῖον πρῶτος ὄψεται."},
+  {"type": "transform", "prompt": "Make the question indirect: «τίς ἐνίκησεν;» → εἰπέ μοι … ἐνίκησεν.", "template": "εἰπέ μοι ___ ἐνίκησεν.", "gaps": [{"answers": ["ὅστις", "τίς"]}], "skills": ["syntax.indirect-question"], "explain": "τίς may stay, or become the indirect form ὅστις.", "audio": "εἰπέ μοι ὅστις ἐνίκησεν."},
+  {"type": "locate", "prompt": "Tap the word that introduces the reported statement.", "sentence": "ὁ δὲ Ἀρίστων λέγει ὅτι ὁ δῆμος ἐν τῇ γῇ οὐ μαχεῖται.", "answer": [4], "skills": ["read.locate", "syntax.indirect-hoti"], "explain": "ὅτι after λέγει."},
+  {"type": "locate", "prompt": "Tap every form of δείκνυμι.", "sentence": "ὁ Ἀρίστων τὰς ναῦς δείκνυσιν, καὶ οἱ φύλακες νυκτὸς σημεῖα πυρὸς δεικνύασιν.", "answer": [4, 11], "skills": ["read.locate", "verb.mi.deiknymi"], "explain": "δείκνυσιν (3 sg) and δεικνύασιν (3 pl)."},
+  {"type": "reorder", "prompt": "Put the words in order: 'Tell me what the people decided.'", "tokens": ["εἰπέ", "μοι", "τί", "ἔδοξε", "τῷ", "δήμῳ"], "answers": ["εἰπέ μοι τί ἔδοξε τῷ δήμῳ", "εἰπέ μοι τί τῷ δήμῳ ἔδοξε"], "skills": ["syntax.word-order", "syntax.indirect-question"], "explain": "εἰπέ μοι τί ἔδοξε τῷ δήμῳ."},
+  {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ἔδοξε τῷ δήμῳ τὴν πόλιν φυλάττειν.", "options": [{"id": "a", "text": "ἔδοξε τῷ δήμῳ τὴν πόλιν φυλάττειν."}, {"id": "b", "text": "ἔδειξε τῷ δήμῳ τὴν πόλιν."}, {"id": "c", "text": "ὁ δῆμος τὴν πόλιν φυλάττει."}], "answer": "a", "skills": ["listen.sentences"], "explain": "'The people decided to guard the city.'"},
+  {"type": "true-false-grc", "prompt": "πλέονες τῷ Δημοκρίτῳ χειροτονοῦσιν ἢ τοῖς στρατηγοῖς.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "ὀλίγοι χειροτονοῦσιν for Demokritos; πολὺ πλέονες for the generals' proposal."},
+  {"type": "true-false-grc", "prompt": "ὁ Σύρος λέγει ὅτι αὐτός ποτε χειροτονήσει.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension", "syntax.indirect-hoti"], "explain": "ἐγὼ δὲ οὐδέποτε χειροτονήσω· δοῦλος γάρ εἰμι."},
+  {"type": "true-false-grc", "prompt": "αἱ νῆες τὸν σῖτον ἐκ τοῦ Πόντου φέρουσιν.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "αὗται αἱ νῆες τὸν σῖτον ἐκ τοῦ Πόντου φέρουσιν."},
+  {"type": "dictation", "prompt": "Listen and type what you hear.", "audio": "ἔδοξε τῷ δήμῳ τὰς ναῦς πληροῦν.", "gaps": [{"answers": ["ἔδοξε τῷ δήμῳ τὰς ναῦς πληροῦν"]}], "skills": ["spell.dictation", "listen.sentences"], "explain": "ἔδοξε τῷ δήμῳ τὰς ναῦς πληροῦν."},
+  {"type": "compose-grc", "prompt": "Write in Greek: 'Syros says that the Athenians are voting (by show of hands).'", "gaps": [{"answers": ["ὁ Σύρος λέγει ὅτι οἱ Ἀθηναῖοι χειροτονοῦσιν", "ὁ Σύρος λέγει ὡς οἱ Ἀθηναῖοι χειροτονοῦσιν", "ὁ Σύρος λέγει ὅτι χειροτονοῦσιν οἱ Ἀθηναῖοι", "λέγει ὁ Σύρος ὅτι οἱ Ἀθηναῖοι χειροτονοῦσιν"]}], "skills": ["vocab.production", "syntax.indirect-hoti"], "explain": "ὁ Σύρος λέγει ὅτι (ὡς) οἱ Ἀθηναῖοι χειροτονοῦσιν."},
+  {"type": "compose-grc", "prompt": "Write in Greek: 'Show me the ships!' (aorist imperative)", "gaps": [{"answers": ["δεῖξόν μοι τὰς ναῦς", "δεῖξόν μοι τὰς νῆας"]}], "skills": ["vocab.production", "verb.mi.deiknymi"], "explain": "δεῖξόν μοι τὰς ναῦς (δεῖξον + enclitic μοι takes a second accent)."},
+  {"type": "translate-en", "prompt": "Translate: ὁ δὲ Λύσις ἐρωτᾷ πόθεν ὁ σῖτος ἥξει, ἐὰν οἱ πολέμιοι τὴν γῆν τέμωσιν.", "audio": "ὁ δὲ Λύσις ἐρωτᾷ πόθεν ὁ σῖτος ἥξει, ἐὰν οἱ πολέμιοι τὴν γῆν τέμωσιν.", "model": "And Lysis asks where the grain will come from, if the enemy ravage the land.", "skills": ["read.comprehension", "syntax.indirect-question"], "explain": "πόθεν … ἥξει: an indirect question keeping the future; ἐάν + subjunctive."},
+  {"type": "word-family", "prompt": "Word Study · Match each Greek word to the English word that comes from it.", "pairs": [{"left": "δείκνυμι", "right": "paradigm"}, {"left": "σημεῖον", "right": "semaphore"}, {"left": "νόμος", "right": "astronomy"}, {"left": "ὅμοιος", "right": "homeopathy"}, {"left": "στρατηγός", "right": "strategy"}], "skills": ["vocab.family"], "explain": "παρά-δειγμα 'a pattern shown alongside'; σημα-φόρος 'signal-bearer'; ἀστρο-νομία 'the law of the stars'; ὅμοιον πάθος 'like suffering'; στρατηγία 'generalship'."}
+ ],
+ "questions": [
+  {"type": "answer-grc", "prompt": "τί ποιοῦσιν οἱ Ἀθηναῖοι, ὅτε ὁ κῆρυξ λέγει «χειροτονεῖτε»;", "audio": "prompt", "options": [{"id": "a", "text": "τὰς χεῖρας αἴρουσιν."}, {"id": "b", "text": "ἐκ τῆς Πυκνὸς φεύγουσιν."}, {"id": "c", "text": "γράφουσιν."}], "answer": "a", "skills": ["read.comprehension"], "explain": "They vote by raising their hands."},
+  {"type": "answer-grc", "prompt": "τί ἔδοξε τῷ δήμῳ;", "audio": "prompt", "options": [{"id": "a", "text": "τὴν πόλιν φυλάττειν καὶ τὰς ναῦς πληροῦν."}, {"id": "b", "text": "ἐξελθεῖν καὶ ἐν τῇ γῇ μάχεσθαι."}, {"id": "c", "text": "τοὺς Λακεδαιμονίους εἰς τὴν πόλιν καλεῖν."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ἔδοξε τῷ δήμῳ τὴν πόλιν φυλάττειν καὶ τὰς ναῦς πληροῦν."},
+  {"type": "answer-grc", "prompt": "τί ὁ Σύρος οὐδέποτε χειροτονήσει;", "audio": "prompt", "options": [{"id": "a", "text": "δοῦλος γάρ ἐστιν."}, {"id": "b", "text": "γέρων γάρ ἐστιν."}, {"id": "c", "text": "τοὺς Ἀθηναίους γὰρ οὐ φιλεῖ."}], "answer": "a", "skills": ["read.comprehension"], "explain": "Only citizens vote."},
+  {"type": "answer-grc", "prompt": "τί δείκνυσιν ὁ Ἀρίστων τῷ Λύσιδι;", "audio": "prompt", "options": [{"id": "a", "text": "τὰ μακρὰ τείχη καὶ τὸν Πειραιᾶ."}, {"id": "b", "text": "τὸν Ἰσθμόν."}, {"id": "c", "text": "τὸν ἀγρὸν τοῦ Δημοκρίτου."}], "answer": "a", "skills": ["read.comprehension", "verb.mi.deiknymi"], "explain": "τῇ χειρὶ δείκνυσι τὰ μακρὰ τείχη καὶ τὸν Πειραιᾶ."},
+  {"type": "answer-grc", "prompt": "πόθεν φέρουσιν αἱ νῆες τὸν σῖτον;", "audio": "prompt", "options": [{"id": "a", "text": "ἐκ τοῦ Πόντου."}, {"id": "b", "text": "ἐκ τῶν ἀγρῶν τῆς Ἀττικῆς."}, {"id": "c", "text": "ἐκ Πλαταιῶν."}], "answer": "a", "skills": ["read.comprehension"], "explain": "τὸν σῖτον ἐκ τοῦ Πόντου φέρουσιν."}
+ ],
+ "culture": {
+  "title": "Show of hands, decrees and generals",
+  "md": "The Assembly voted by **show of hands** (χειροτονία). Nobody counted: the presiding officials looked at the raised hands and declared which side had more, and only if a result was disputed did they look again. Secret ballots with pebbles or bronze discs (ψῆφοι) belonged to the law courts and to special votes such as ostracism, where names were scratched on potsherds.\n\nA decision became a **decree** (ψήφισμα). The important ones were cut on marble slabs and set up on the Acropolis or in the Agora, and many survive. They follow a fixed pattern: **ἔδοξε τῇ βουλῇ καὶ τῷ δήμῳ** 'the Council and the People decided', then which tribe held the prytany, who was secretary and who chaired, the name of the proposer (ὁ δεῖνα εἶπε 'so-and-so moved'), and the text. The formula keeps the fiction that the whole people spoke with one voice.\n\nMost Athenian officials were chosen by lot, on the principle that any citizen could do the job. The ten **generals** (στρατηγοί) were the great exception: they were elected by show of hands, one year at a time, and could be re-elected without limit. Pericles was elected general almost every year from 443 until his death in 429, which is why he could lead the city's policy without holding any office other than a general's.",
+  "image": "culture-8-3-decree"
+ },
+ "quiz": [
+  {"type": "produce-form", "prompt": "Give the 3rd person singular present of δείκνυμι ('he shows').", "lemma": "δείκνυμι", "cell": "present.active.indicative.3sg", "skills": ["verb.mi.deiknymi"], "explain": "δείκνυσι(ν).", "audio": "δείκνυσιν"},
+  {"type": "cloze-choice", "prompt": "ἡ Ἐλπὶς ἐρωτᾷ ___ ἐστιν ὁ Λάβρος.", "options": [{"id": "a", "text": "ποῦ"}, {"id": "b", "text": "ὅτι"}, {"id": "c", "text": "ὅτε"}], "answer": "a", "skills": ["syntax.indirect-question"], "explain": "'Elpis asks where Labros is': an indirect question keeps ποῦ (or ὅπου)."},
+  {"type": "label", "prompt": "ὁ Ἀρίστων λέγει ὅτι ὁ Λάβρος πρῶτος αὐτὸ ὀσφρήσεται. — what were Ariston's actual words?", "options": [{"id": "a", "text": "«ὁ Λάβρος πρῶτος αὐτὸ ὀσφρήσεται.»"}, {"id": "b", "text": "«ἐγὼ πρῶτος αὐτὸ ὀσφρήσομαι.»"}, {"id": "c", "text": "«ὁ Λάβρος πρῶτος αὐτὸ ὀσφραίνεσθαι.»"}], "answer": "a", "skills": ["syntax.indirect-hoti"], "explain": "After ὅτι the original words are kept, tense and all."},
+  {"type": "true-false-grc", "prompt": "ὁ Λύσις ἐν τῇ Πυκνὶ χειροτονεῖ.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "He watches from the hill; boys do not vote."},
+  {"type": "transform", "prompt": "Make the question indirect: «ποῦ ἐστιν ὁ Πειραιεύς;» → ὁ Λύσις ἐρωτᾷ … ἐστιν ὁ Πειραιεύς.", "template": "ὁ Λύσις ἐρωτᾷ ___ ἐστιν ὁ Πειραιεύς.", "gaps": [{"answers": ["ποῦ", "ὅπου"]}], "skills": ["syntax.indirect-question"], "explain": "ποῦ stays, or becomes ὅπου.", "audio": "ὁ Λύσις ἐρωτᾷ ποῦ ἐστιν ὁ Πειραιεύς."},
+  {"type": "parse", "prompt": "Parse ἐδείκνυ.", "form": "ἐδείκνυ", "groups": [{"id": "tense", "label": "Tense", "options": [{"id": "pres", "label": "present"}, {"id": "impf", "label": "imperfect"}, {"id": "aor", "label": "aorist"}]}], "answer": {"tense": "impf"}, "skills": ["verb.mi.deiknymi"], "explain": "Augment + present stem, no ending: imperfect 3 sg. The aorist is ἔδειξε.", "audio": "ἐδείκνυ"},
+  {"type": "compose-grc", "prompt": "Write in Greek: 'The people decided.' (literally: it seemed good to the people)", "gaps": [{"answers": ["ἔδοξε τῷ δήμῳ", "ἔδοξεν τῷ δήμῳ"]}], "skills": ["vocab.production"], "explain": "ἔδοξε τῷ δήμῳ."}
+ ],
+ "skills": ["verb.mi.deiknymi", "syntax.indirect-hoti", "syntax.indirect-question", "syntax.infinitive", "syntax.word-order", "read.comprehension", "read.locate", "listen.sentences", "spell.dictation", "vocab.recognition", "vocab.production", "vocab.family"]
+}

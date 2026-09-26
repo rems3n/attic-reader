@@ -1,0 +1,363 @@
+{
+ "images": [
+  {
+   "id": "panel-7-1-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Λύσις ἕωθεν πρὸς τὸν πάππον τρέχει· «σήμερον τὴν πομπὴν ὀψόμεθα!»",
+   "alt_en": "Dawn in the house in Kydathenaion: Lysis runs to wake his grandfather Kleinias; Elpis stands by, and Labros looks up hopefully from the courtyard. Spring light.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-7-1-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "πολλοὶ ἄνθρωποι πάρεισιν ὡς τὴν πομπὴν ὀψόμενοι· οἱ νεανίαι τοὺς ταύρους ἄγουσιν.",
+   "alt_en": "The procession of the City Dionysia passes through the agora: a girl carrying a golden basket, young men leading garlanded bulls, men with loaves and wineskins; the family watches from the side of the road.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-7-1-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ νεανίαι τὸ ἄγαλμα τοῦ Διονύσου εἰς τὸ θέατρον φέρουσιν.",
+   "alt_en": "Young men carry the old wooden image of Dionysus into the theatre on the south slope of the Acropolis; priests walk around it. Lysis and Elpis point.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "theatron",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ θέατρον",
+   "alt_en": "The theatre of Dionysus on the south slope of the Acropolis: a round dancing floor with rows of seats rising up the hill.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "θέατρον"
+   ]
+  },
+  {
+   "id": "tauros",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ ταῦρος",
+   "alt_en": "A garlanded bull being led to sacrifice (detail from an Attic vase).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ταῦρος"
+   ]
+  },
+  {
+   "id": "kanoun",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ κανοῦν",
+   "alt_en": "A girl carrying a flat three-handled sacrificial basket (kanoun) on her head.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "κανοῦν"
+   ]
+  },
+  {
+   "id": "choros",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ χορός",
+   "alt_en": "A chorus of men dancing and singing in step around an aulos player (Attic vase painting).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "χορός"
+   ]
+  },
+  {
+   "id": "culture-7-1-pompe",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ἡ πομπὴ τῶν Διονυσίων· ταῦρος πρὸς τὸν βωμὸν ἄγεται.",
+   "alt_en": "Attic red-figure vase painting of a sacrificial procession: a bull is led to the altar by youths with wreaths, a girl carries the basket (target: a museum photograph, CC0).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-7-2-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Λύσις τὸν Δίωνα ἐν τῷ χορῷ τῶν παίδων ζητεῖ.",
+   "alt_en": "The theatre full of spectators at dawn; below, in the orchestra, a chorus of fifty boys in wreaths waits to begin. Lysis points out his friend Dion, whose face is red.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-7-2-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ χορὸς ᾄδει καὶ ὀρχεῖται· ὁ Θεόφιλος ἰσχάδας εἰς τὸ θέατρον ἵησιν.",
+   "alt_en": "The boys' chorus dances in a circle round the aulos player; the choregos Theophilos, in a rich robe, throws dried figs into the rows; Lysis catches one for Elpis.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-7-2-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ ἄρχων τῷ Θεοφίλῳ τὸν τρίποδα δίδωσιν.",
+   "alt_en": "The archon hands a tall bronze tripod to Theophilos, who takes it in both hands; the boys of Pandionis cheer, Dion hides his face, Elpis adds a flower to his wreath.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "verb-didosi",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "δίδωσιν",
+   "alt_en": "One hand giving a cup to another.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "δίδωμι"
+   ]
+  },
+  {
+   "id": "verb-tithesi",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τίθησιν",
+   "alt_en": "A hand placing a pot on a table.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "τίθημι"
+   ]
+  },
+  {
+   "id": "tachys",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ταχύς · βραδύς",
+   "alt_en": "A running hare and a slow tortoise.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ταχύς"
+   ]
+  },
+  {
+   "id": "prosopon",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ πρόσωπον",
+   "alt_en": "A face, and beside it a theatre mask with open mouth.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πρόσωπον"
+   ]
+  },
+  {
+   "id": "tripous",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ τρίπους",
+   "alt_en": "A tall bronze tripod cauldron on three legs, the prize of a choral victory.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "τρίπους"
+   ]
+  },
+  {
+   "id": "aulos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ αὐλητὴς αὐλεῖ",
+   "alt_en": "A piper playing the double pipes (aulos), cheeks puffed, with a mouth-band.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "αὐλός",
+    "αὐλητής"
+   ]
+  },
+  {
+   "id": "culture-7-2-tripod",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὁ τρίπους τοῦ χορηγοῦ.",
+   "alt_en": "Red-figure vase painting of a victorious choral scene with a tripod, or the choregic monument of Lysicrates (335/4 BC) in the Street of Tripods, Athens (target: museum or Wikimedia photograph, CC BY / CC0).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-7-3-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "τοῦ ἡλίου ἀνατέλλοντος, πολὺς λαὸς τὸ θέατρον πληροῖ.",
+   "alt_en": "Sunrise over the theatre of Dionysus: the slope packed with spectators on wooden benches; Ariston's family high up at the back, looking down on the orchestra and the stage building.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-7-3-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Μήδεια πρὸ τῆς σκηνῆς ἵσταται· ὁ χορὸς τῶν Κορινθίων γυναικῶν ἀκούει.",
+   "alt_en": "An actor in a pale female mask and long robe (Medea) stands before the stage-building doors; the chorus of Corinthian women listens in the orchestra; Chrysis wipes her eyes, Elpis holds her hand.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-7-3-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Κλεινίας τὸν μῦθον λέγει· ἡ Μήδεια ἐπὶ τοῦ ἅρματος φεύγει.",
+   "alt_en": "Kleinias whispers the story to Lysis; above them, as if in a thought-bubble in vase style, Medea flies off in the chariot of the Sun drawn by serpents.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "tragodia",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ τραγῳδία",
+   "alt_en": "Two actors in tragic masks and long robes facing each other on a stage.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "τραγῳδία"
+   ]
+  },
+  {
+   "id": "skene",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ σκηνή",
+   "alt_en": "The wooden stage building behind the orchestra, with a central double door.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "σκηνή"
+   ]
+  },
+  {
+   "id": "harma",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ ἅρμα",
+   "alt_en": "A two-wheeled chariot with its driver (Attic vase painting).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἅρμα"
+   ]
+  },
+  {
+   "id": "culture-7-3-medea",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ἡ Μήδεια ἐπὶ τοῦ ἅρματος τοῦ Ἡλίου.",
+   "alt_en": "Lucanian red-figure calyx-krater, c. 400 BC (Cleveland Museum of Art, attributed to the Policoro Painter): Medea escapes in a serpent-drawn chariot above the bodies of her children (museum photograph, CC0).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-7-4-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ κῆρυξ ἐν τῷ θεάτρῳ ἵσταται· ὁ δὲ Λύσις ἀνίσταται καὶ βοᾷ.",
+   "alt_en": "Evening in the theatre: a herald stands in the orchestra announcing the verdict; Lysis jumps to his feet in protest while Kleinias pulls at his cloak.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-7-4-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Δημόκριτος καὶ ὁ Ἀρίστων ἐν τῇ ὁδῷ περὶ τοῦ Εὐριπίδου λέγουσιν.",
+   "alt_en": "A dark street under a thin moon: Demokritos and his sons argue with Ariston, hands waving; Chrysis walks quietly with Elpis; a slave ahead carries a small lamp.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-7-4-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Λάβρος ἐκ τοῦ σκότους φαίνεται· ἡ Ἐλπὶς ἀφίσταται.",
+   "alt_en": "In the dark lane a black shape appears; Lysis stops with his arm out, Elpis shrinks back behind her mother, and Labros bounds up wagging his tail.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "verb-histatai",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἵσταται",
+   "alt_en": "A man standing upright and still, arms at his sides.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἵστημι"
+   ]
+  },
+  {
+   "id": "culture-7-4-ivy",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὁ ποιητὴς κιττῷ στεφανοῦται.",
+   "alt_en": "Marble herm portrait of Euripides (Roman copy of a 4th-century BC Greek original), or a vase painting of a victorious poet crowned with ivy (target: museum photograph, CC0 / CC BY).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  }
+ ]
+}

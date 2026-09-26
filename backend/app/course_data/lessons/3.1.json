@@ -1,0 +1,1358 @@
+{
+  "id": "3.1",
+  "title_grc": "ἡ ἑορτὴ ἐν τῇ πόλει",
+  "title_en": "A festival in the city",
+  "summary_grc": "ὁ ἱερεὺς τὴν πομπὴν ἄγει· οἱ φύλακες, οἱ γέροντες, αἱ γυναῖκες καὶ οἱ παῖδες ὁρῶσιν.",
+  "summary_en": "A procession passes the workshop: the third declension (φύλαξ, γέρων, παῖς) in all its cases.",
+  "cover": "panel-3-1-a",
+  "caption_grc": "ὁ ἱερεὺς τὴν πομπὴν ἄγει. ὁ Λάβρος τὸν φύλακα ὁρᾷ.",
+  "names": {
+    "Σκίρα": [
+      "Σκίρων",
+      "Σκίροις"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "panel-3-1-a",
+      "sentences": [
+        {
+          "text": "ἑορτή ἐστιν ἐν τῇ πόλει· τὰ Σκίρα ἐστίν.",
+          "glosses": [
+            {
+              "word": "ἑορτή",
+              "kind": "pic",
+              "value": "heorte"
+            },
+            {
+              "word": "Σκίρα",
+              "kind": "en",
+              "value": "the Skira, a festival of Athena, Poseidon and Demeter in early summer (τά: neuter plural, so ἐστίν)"
+            }
+          ]
+        },
+        {
+          "text": "οἱ ἄνθρωποι οὐ πονοῦσιν· ἑορτὴ γάρ ἐστιν.",
+          "glosses": [
+            {
+              "word": "οἱ",
+              "kind": "|",
+              "value": "ὁ ἄνθρωπος | οἱ ἄνθρωποι"
+            }
+          ]
+        },
+        {
+          "text": "ἡ Χρυσὶς τοὺς παῖδας καλεῖ· «ὦ Λύσι, ὦ Ἐλπί, σπεύδετε! ἡ πομπὴ νῦν βαίνει.»",
+          "glosses": [
+            {
+              "word": "παῖδας",
+              "kind": "|",
+              "value": "ὁ παῖς | τοὺς παῖδας"
+            },
+            {
+              "word": "ὦ",
+              "kind": "en",
+              "value": "O! (calling someone)"
+            },
+            {
+              "word": "σπεύδετε",
+              "kind": "pic",
+              "value": "verb-speudei"
+            },
+            {
+              "word": "πομπὴ",
+              "kind": "pic",
+              "value": "pompe"
+            }
+          ]
+        },
+        {
+          "text": "οἱ παῖδες ἐκ τῆς οἰκίας σπεύδουσιν, καὶ ὁ Λάβρος τρέχει.",
+          "glosses": [
+            {
+              "word": "παῖδες",
+              "kind": "|",
+              "value": "ὁ παῖς | οἱ παῖδες"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Κλεινίας γέρων ἐστίν· οὐ τρέχει, ἀλλὰ βαίνει.",
+          "glosses": [
+            {
+              "word": "γέρων",
+              "kind": "pic",
+              "value": "geron"
+            }
+          ]
+        },
+        {
+          "text": "ἐν ταῖς ὁδοῖς πολλοὶ ἄνθρωποί εἰσιν· ἄνδρες καὶ γυναῖκες καὶ παῖδες.",
+          "glosses": [
+            {
+              "word": "ὁδοῖς",
+              "kind": "|",
+              "value": "ἡ ὁδός | ἐν ταῖς ὁδοῖς"
+            },
+            {
+              "word": "πολλοὶ",
+              "kind": "en",
+              "value": "many (Unit 4)"
+            },
+            {
+              "word": "ἄνδρες",
+              "kind": "|",
+              "value": "ὁ ἀνήρ | οἱ ἄνδρες"
+            },
+            {
+              "word": "γυναῖκες",
+              "kind": "|",
+              "value": "ἡ γυνή | αἱ γυναῖκες"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "panel-3-1-b",
+      "sentences": [
+        {
+          "text": "ἡ πομπὴ ἐκ τῆς ἀκροπόλεως εἰς τὸν Κεραμεικὸν βαίνει.",
+          "glosses": [
+            {
+              "word": "ἀκροπόλεως",
+              "kind": "|",
+              "value": "ἡ ἀκρόπολις | ἐκ τῆς ἀκροπόλεως"
+            }
+          ]
+        },
+        {
+          "text": "ὁ ἱερεὺς τὴν πομπὴν ἄγει· ἐν τῇ χειρὶ στέφανον ἔχει.",
+          "glosses": [
+            {
+              "word": "ἱερεὺς",
+              "kind": "pic",
+              "value": "hiereus"
+            },
+            {
+              "word": "ἄγει",
+              "kind": "pic",
+              "value": "verb-agei"
+            },
+            {
+              "word": "χειρὶ",
+              "kind": "pic",
+              "value": "cheir"
+            },
+            {
+              "word": "στέφανον",
+              "kind": "pic",
+              "value": "stephanos"
+            }
+          ]
+        },
+        {
+          "text": "ἡ ἱέρεια τῆς Ἀθηνᾶς γυνή ἐστιν, οὐκ ἀνήρ.",
+          "glosses": [
+            {
+              "word": "ἱέρεια",
+              "kind": "<",
+              "value": "ἱερεύς (ἀνήρ) → ἱέρεια (γυνή)"
+            }
+          ]
+        },
+        {
+          "text": "οἱ φύλακες τὴν πομπὴν ὁρῶσιν· ὁ φύλαξ μέγας ἀνήρ ἐστιν.",
+          "glosses": [
+            {
+              "word": "φύλακες",
+              "kind": "pic",
+              "value": "phylax"
+            },
+            {
+              "word": "φύλαξ",
+              "kind": "|",
+              "value": "ὁ φύλαξ | οἱ φύλακες"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Λάβρος τὸν φύλακα ὁρᾷ καὶ ὑλακτεῖ.",
+          "glosses": [
+            {
+              "word": "φύλακα",
+              "kind": "|",
+              "value": "ὁ φύλαξ | τὸν φύλακα"
+            },
+            {
+              "word": "ὑλακτεῖ",
+              "kind": "pic",
+              "value": "verb-hylaktei"
+            }
+          ]
+        },
+        {
+          "text": "ὁ φύλαξ λέγει· «ὦ παῖ, τὸν κύνα λάμβανε!»",
+          "glosses": [
+            {
+              "word": "παῖ",
+              "kind": "|",
+              "value": "ὁ παῖς | ὦ παῖ"
+            },
+            {
+              "word": "λάμβανε",
+              "kind": "|",
+              "value": "λαμβάνει | λάμβανε! (an order)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Λύσις οὖν τὸν Λάβρον λαμβάνει.",
+          "glosses": []
+        },
+        {
+          "text": "αἱ κόραι στεφάνους φέρουσιν· καὶ ἡ Ἐλπὶς στέφανον ἐν τῇ χειρὶ ἔχει.",
+          "glosses": [
+            {
+              "word": "κόραι",
+              "kind": "|",
+              "value": "ἡ κόρη | αἱ κόραι"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "panel-3-1-c",
+      "sentences": [
+        {
+          "text": "ὁ ἱερεὺς τὴν πομπὴν εἰς τὸ ἱερὸν ἄγει· ἐν τῷ ἱερῷ βωμός ἐστιν.",
+          "glosses": [
+            {
+              "word": "ἱερὸν",
+              "kind": "en",
+              "value": "sanctuary, holy place of a god"
+            },
+            {
+              "word": "βωμός",
+              "kind": "pic",
+              "value": "bomos"
+            },
+            {
+              "word": "ἱερῷ",
+              "kind": "|",
+              "value": "τὸ ἱερόν | ἐν τῷ ἱερῷ"
+            }
+          ]
+        },
+        {
+          "text": "ὁ ἱερεὺς θύει· τοῖς θεοῖς θύει.",
+          "glosses": [
+            {
+              "word": "θύει",
+              "kind": "pic",
+              "value": "verb-thyei"
+            },
+            {
+              "word": "τοῖς",
+              "kind": "note",
+              "value": "τοῖς θεοῖς θύει: he sacrifices to the gods (dative)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Κλεινίας λέγει· «οἱ θεοὶ τὴν πόλιν φιλοῦσιν· οἱ γὰρ Ἀθηναῖοι τοῖς θεοῖς ἀεὶ θύουσιν.»",
+          "glosses": []
+        },
+        {
+          "text": "ὁ Λύσις λέγει· «τίς ἐστιν ὁ γέρων;» ὁ Κλεινίας· «ὁ ἱερεὺς τοῦ Ποσειδῶνός ἐστιν.»",
+          "glosses": [
+            {
+              "word": "Ποσειδῶνός",
+              "kind": "|",
+              "value": "ὁ Ποσειδῶν | τοῦ Ποσειδῶνος"
+            }
+          ]
+        },
+        {
+          "text": "οἱ ἄνδρες καὶ αἱ γυναῖκες καὶ οἱ παῖδες τὸν βωμὸν ὁρῶσιν· ἡ ἑορτὴ καλή ἐστιν, καὶ ὁ Λάβρος ἄρτον εὑρίσκει.",
+          "glosses": []
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "εορτη",
+      "pic": "heorte"
+    },
+    {
+      "id": "πομπη",
+      "pic": "pompe"
+    },
+    {
+      "id": "φυλαξ",
+      "pic": "phylax",
+      "gloss_grc": "ὁ φύλαξ · τοῦ φύλακος"
+    },
+    {
+      "id": "γερων",
+      "pic": "geron",
+      "gloss_grc": "ὁ γέρων · τοῦ γέροντος"
+    },
+    {
+      "id": "ιερευς",
+      "pic": "hiereus",
+      "gloss_grc": "ὁ ἱερεύς · τὸν ἱερέα (like κεραμεύς)"
+    },
+    {
+      "id": "βωμος",
+      "pic": "bomos"
+    },
+    {
+      "id": "στεφανος",
+      "pic": "stephanos"
+    },
+    {
+      "id": "χειρ",
+      "pic": "cheir",
+      "gloss_grc": "ἡ χείρ · τῆς χειρός"
+    },
+    {
+      "id": "σπευδω",
+      "pic": "verb-speudei",
+      "gloss_grc": "σπεύδει · σπεύδετε!"
+    },
+    {
+      "id": "θυω",
+      "pic": "verb-thyei",
+      "gloss_grc": "τοῖς θεοῖς θύει"
+    },
+    {
+      "id": "αγω",
+      "pic": "verb-agei"
+    },
+    {
+      "id": "παις",
+      "pic": "pais",
+      "gloss_grc": "ὁ παῖς · τοῦ παιδός · οἱ παῖδες"
+    },
+    {
+      "id": "γυνη",
+      "pic": "gyne",
+      "gloss_grc": "ἡ γυνή · τῆς γυναικός · αἱ γυναῖκες"
+    },
+    {
+      "id": "ανηρ",
+      "pic": "aner",
+      "gloss_grc": "ὁ ἀνήρ · τοῦ ἀνδρός · οἱ ἄνδρες"
+    },
+    {
+      "id": "κυων",
+      "pic": "kyon",
+      "gloss_grc": "ὁ κύων · τοῦ κυνός · τὸν κύνα"
+    }
+  ],
+  "notice": [
+    "ὁ φύλαξ · τοῦ φύλακος · τῷ φύλακι · τὸν φύλακα — οἱ φύλακες · τοὺς φύλακας",
+    "ὁ γέρων · τοῦ γέροντος · τὸν γέροντα — οἱ γέροντες",
+    "ὁ παῖς · τοὺς παῖδας · ὦ παῖ!",
+    "ἄνδρες καὶ γυναῖκες καὶ παῖδες.",
+    "ὁ ἱερεὺς τοῖς θεοῖς θύει."
+  ],
+  "grammar": {
+    "md": "**The third declension.** You already know two declensions: ὁ λίθος / τὸ δῶρον (second) and ἡ κρήνη / ἡ οἰκία (first). Most other nouns belong to the **third declension**, whose stem ends in a consonant. The trick is that the nominative hides the stem; the **genitive shows it**. Learn every third-declension noun with its genitive: φύλαξ, φύλακ**ος**; γέρων, γέροντ**ος**; παῖς, παιδ**ός**.\n\n| | ὁ φύλαξ (φυλακ-) | ὁ γέρων (γεροντ-) | ὁ παῖς (παιδ-) | ending |\n|---|---|---|---|---|\n| nom. sg. | φύλαξ | γέρων | παῖς | -ς or none |\n| gen. sg. | φύλακ**ος** | γέροντ**ος** | παιδ**ός** | **-ος** |\n| dat. sg. | φύλακ**ι** | γέροντ**ι** | παιδ**ί** | **-ι** |\n| acc. sg. | φύλακ**α** | γέροντ**α** | παῖδ**α** | **-α** |\n| voc. sg. | φύλαξ | γέρον | παῖ | (stem) |\n| nom. pl. | φύλακ**ες** | γέροντ**ες** | παῖδ**ες** | **-ες** |\n| gen. pl. | φυλάκ**ων** | γερόντ**ων** | παίδ**ων** | **-ων** |\n| dat. pl. | φύλαξι(ν) | γέρουσι(ν) | παισί(ν) | **-σι(ν)** |\n| acc. pl. | φύλακ**ας** | γέροντ**ας** | παῖδ**ας** | **-ας** |\n\nThe endings are the same for every consonant stem; only the join changes. κ + ς is written **ξ** (φύλαξ, φύλαξι); δ drops before ς (παῖς, παισί); ντ drops before ς and the vowel lengthens (γέρων, γέρουσι). Notice that -ος is *genitive* here, not nominative as in λίθος: the article tells you which is which (τοῦ φύλακος, but ὁ λίθος).\n\n**Gender is not visible** in the endings: ὁ φύλαξ and ἡ χείρ decline alike. Learn the article with the noun.\n\n**Old friends.** ὁ ἀνήρ (ἀνδρός, ἄνδρα, ἄνδρες), ἡ γυνή (γυναικός, γυναῖκα, γυναῖκες) and ὁ κύων (κυνός, κύνα, κύνες) are third-declension too, with small irregularities; recognize them now, learn them fully in Unit 4. ὁ ἱερεύς follows κεραμεύς (ἱερέα).\n\n**The plural article**: οἱ ἄνδρες, αἱ γυναῖκες, τοὺς παῖδας, ταῖς ὁδοῖς.\n\n**Dative of the receiver**: *τοῖς θεοῖς θύει* 'he sacrifices **to** the gods'.\n\n**Vocative**: to address someone, the bare stem: ὦ παῖ, ὦ γέρον, ὦ Λύσι, ὦ Ἐλπί.",
+    "paradigms": [
+      "phylax",
+      "geron",
+      "elpis",
+      "article"
+    ],
+    "diagram": "diagram-decl3-stem"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings of the third-declension nouns.",
+      "template": "ὁ Λάβρος τὸν φύλακ___ ὁρᾷ. ὁ ἱερεὺς τοῦ Ποσειδῶνος γέρ___ ἐστιν. οἱ φύλακ___ τὴν πομπὴν ὁρῶσιν. ἡ Χρυσὶς τοὺς παῖδ___ καλεῖ.",
+      "gaps": [
+        {
+          "answers": [
+            "α"
+          ]
+        },
+        {
+          "answers": [
+            "ων"
+          ]
+        },
+        {
+          "answers": [
+            "ες"
+          ]
+        },
+        {
+          "answers": [
+            "ας"
+          ]
+        }
+      ],
+      "skills": [
+        "noun.decl3.cons.acc.sg",
+        "noun.decl3.cons.nom.sg",
+        "noun.decl3.cons.pl"
+      ],
+      "explain": "τὸν φύλακα (object), γέρων (nominative, after ἐστιν), οἱ φύλακες (subject, plural), τοὺς παῖδας (object, plural)."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ὁ ἱερεὺς τὴν ___ ἄγει.",
+      "options": [
+        {
+          "id": "a",
+          "text": "πομπήν"
+        },
+        {
+          "id": "b",
+          "text": "πομπή"
+        },
+        {
+          "id": "c",
+          "text": "πομπῆς"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "noun.decl1.acc.sg",
+        "syntax.object"
+      ],
+      "explain": "The object of ἄγει: τὴν πομπήν.",
+      "audio": "ὁ ἱερεὺς τὴν πομπὴν ἄγει."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ὁ Λύσις τὸν ___ λαμβάνει.",
+      "options": [
+        {
+          "id": "a",
+          "text": "κύων"
+        },
+        {
+          "id": "b",
+          "text": "κύνα"
+        },
+        {
+          "id": "c",
+          "text": "κυνός"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "noun.decl3.cons.acc.sg",
+        "syntax.object"
+      ],
+      "explain": "Accusative of κύων: τὸν κύνα.",
+      "audio": "ὁ Λύσις τὸν κύνα λαμβάνει."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ὁ ἱερεὺς τοῖς ___ θύει.",
+      "options": [
+        {
+          "id": "a",
+          "text": "θεοί"
+        },
+        {
+          "id": "b",
+          "text": "θεούς"
+        },
+        {
+          "id": "c",
+          "text": "θεοῖς"
+        }
+      ],
+      "answer": "c",
+      "skills": [
+        "syntax.dat.uses",
+        "art.dat.pl"
+      ],
+      "explain": "The gods receive the sacrifice: dative, τοῖς θεοῖς.",
+      "audio": "ὁ ἱερεὺς τοῖς θεοῖς θύει."
+    },
+    {
+      "type": "pick-picture",
+      "prompt": "φύλαξ",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "image": "geron"
+        },
+        {
+          "id": "b",
+          "image": "phylax"
+        },
+        {
+          "id": "c",
+          "image": "hiereus"
+        },
+        {
+          "id": "d",
+          "image": "kerameus"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "vocab.recognition"
+      ],
+      "explain": "φύλαξ: guard. γέρων: old man. ἱερεύς: priest. κεραμεύς: potter."
+    },
+    {
+      "type": "pick-picture",
+      "prompt": "θύει",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "image": "verb-thyei"
+        },
+        {
+          "id": "b",
+          "image": "verb-agei"
+        },
+        {
+          "id": "c",
+          "image": "verb-speudei"
+        },
+        {
+          "id": "d",
+          "image": "verb-pherei"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition"
+      ],
+      "explain": "θύει: sacrifices. ἄγει: leads. σπεύδει: hurries."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "audio": "ὁ στέφανος",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ στέφανος"
+        },
+        {
+          "id": "b",
+          "text": "ὁ βωμός"
+        },
+        {
+          "id": "c",
+          "text": "ἡ ἑορτή"
+        },
+        {
+          "id": "d",
+          "text": "ἡ πομπή"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words"
+      ],
+      "explain": "ὁ στέφανος: the wreath."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the accusative singular of φύλαξ (the object: 'the dog sees the guard').",
+      "lemma": "φύλαξ",
+      "cell": "acc.sg",
+      "skills": [
+        "noun.decl3.cons.acc.sg"
+      ],
+      "explain": "τὸν φύλακα: stem φυλακ- + -α.",
+      "audio": "φύλακα"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the genitive singular of γέρων ('of the old man').",
+      "lemma": "γέρων",
+      "cell": "gen.sg",
+      "skills": [
+        "noun.decl3.cons.gen.sg"
+      ],
+      "explain": "τοῦ γέροντος: the genitive shows the stem γεροντ-.",
+      "audio": "γέροντος"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the nominative plural of παῖς ('the children').",
+      "lemma": "παῖς",
+      "cell": "nom.pl",
+      "skills": [
+        "noun.decl3.cons.pl"
+      ],
+      "explain": "οἱ παῖδες: stem παιδ- + -ες.",
+      "audio": "παῖδες"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse γέροντος.",
+      "form": "γέροντος",
+      "groups": [
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            }
+          ]
+        },
+        {
+          "id": "number",
+          "label": "Number",
+          "options": [
+            {
+              "id": "sg",
+              "label": "singular"
+            },
+            {
+              "id": "pl",
+              "label": "plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "case": "gen",
+        "number": "sg"
+      },
+      "skills": [
+        "noun.decl3.cons.gen.sg",
+        "noun.decl3.recognize"
+      ],
+      "explain": "-ος on a third-declension stem is the genitive singular: τοῦ γέροντος. (Not a nominative like λίθος!)",
+      "audio": "γέροντος"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse φύλακας.",
+      "form": "φύλακας",
+      "groups": [
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            }
+          ]
+        },
+        {
+          "id": "number",
+          "label": "Number",
+          "options": [
+            {
+              "id": "sg",
+              "label": "singular"
+            },
+            {
+              "id": "pl",
+              "label": "plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "case": "acc",
+        "number": "pl"
+      },
+      "skills": [
+        "noun.decl3.cons.pl",
+        "noun.decl3.recognize"
+      ],
+      "explain": "-ας: accusative plural, τοὺς φύλακας.",
+      "audio": "φύλακας"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ὁ Λάβρος ___ φύλακα ὁρᾷ.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ"
+        },
+        {
+          "id": "b",
+          "text": "τόν"
+        },
+        {
+          "id": "c",
+          "text": "τοῦ"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "art.acc.sg",
+        "noun.decl3.cons.acc.sg"
+      ],
+      "explain": "φύλακα is accusative: τὸν φύλακα."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "___ γυναῖκες τὸν βωμὸν ὁρῶσιν.",
+      "options": [
+        {
+          "id": "a",
+          "text": "οἱ"
+        },
+        {
+          "id": "b",
+          "text": "αἱ"
+        },
+        {
+          "id": "c",
+          "text": "τάς"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "art.nom.pl",
+        "noun.gender"
+      ],
+      "explain": "γυνή is feminine and γυναῖκες is the subject: αἱ γυναῖκες."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἡ Ἐλπὶς στέφανον ἐν τῇ ___ ἔχει.",
+      "options": [
+        {
+          "id": "a",
+          "text": "χείρ"
+        },
+        {
+          "id": "b",
+          "text": "χειρός"
+        },
+        {
+          "id": "c",
+          "text": "χειρί"
+        }
+      ],
+      "answer": "c",
+      "skills": [
+        "noun.decl3.cons.dat.sg",
+        "prep.en.dat"
+      ],
+      "explain": "After ἐν the dative: τῇ χειρί."
+    },
+    {
+      "type": "transform",
+      "prompt": "Make it the object: ὁ γέρων → ὁ Λύσις … ὁρᾷ.",
+      "template": "ὁ Λύσις ___ ὁρᾷ.",
+      "gaps": [
+        {
+          "answers": [
+            "τὸν γέροντα"
+          ]
+        }
+      ],
+      "skills": [
+        "noun.decl3.cons.acc.sg",
+        "art.acc.sg"
+      ],
+      "explain": "τὸν γέροντα.",
+      "audio": "ὁ Λύσις τὸν γέροντα ὁρᾷ."
+    },
+    {
+      "type": "transform",
+      "prompt": "Make the subject plural: ὁ φύλαξ τὴν πομπὴν ὁρᾷ. → οἱ …",
+      "template": "___ τὴν πομπὴν ὁρῶσιν.",
+      "gaps": [
+        {
+          "answers": [
+            "οἱ φύλακες"
+          ]
+        }
+      ],
+      "skills": [
+        "noun.decl3.cons.pl",
+        "art.nom.pl"
+      ],
+      "explain": "οἱ φύλακες.",
+      "audio": "οἱ φύλακες τὴν πομπὴν ὁρῶσιν."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap every third-declension noun (not the names).",
+      "sentence": "ὁ φύλαξ τὸν κύνα ὁρᾷ· ὁ Λύσις τὸν γέροντα καλεῖ.",
+      "answer": [
+        1,
+        4,
+        9
+      ],
+      "skills": [
+        "read.locate",
+        "noun.decl3.recognize"
+      ],
+      "explain": "φύλαξ, κύνα, γέροντα."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap every word in the accusative.",
+      "sentence": "ὁ ἱερεὺς τὴν πομπὴν ἄγει· ἡ Χρυσὶς τοὺς παῖδας καλεῖ.",
+      "answer": [
+        2,
+        3,
+        7,
+        8
+      ],
+      "skills": [
+        "read.locate",
+        "syntax.object",
+        "noun.decl3.cons.pl"
+      ],
+      "explain": "τὴν πομπήν, τοὺς παῖδας."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'The priest leads the procession.'",
+      "tokens": [
+        "ἄγει",
+        "πομπὴν",
+        "ὁ",
+        "τὴν",
+        "ἱερεὺς"
+      ],
+      "answers": [
+        "ὁ ἱερεὺς τὴν πομπὴν ἄγει",
+        "τὴν πομπὴν ὁ ἱερεὺς ἄγει",
+        "ὁ ἱερεὺς ἄγει τὴν πομπὴν"
+      ],
+      "skills": [
+        "syntax.word-order",
+        "syntax.object"
+      ],
+      "explain": "ὁ ἱερεὺς τὴν πομπὴν ἄγει."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "audio": "οἱ φύλακες τὴν πομπὴν ὁρῶσιν.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ φύλαξ τὴν πομπὴν ὁρᾷ."
+        },
+        {
+          "id": "b",
+          "text": "οἱ φύλακες τὴν πομπὴν ὁρῶσιν."
+        },
+        {
+          "id": "c",
+          "text": "οἱ φύλακες τὴν πομπὴν ἄγουσιν."
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "listen.sentences",
+        "noun.decl3.cons.pl"
+      ],
+      "explain": "The guards watch the procession."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Κλεινίας γέρων ἐστίν.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ὁ Κλεινίας γέρων ἐστίν· οὐ τρέχει, ἀλλὰ βαίνει."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ φύλαξ τὴν πομπὴν ἄγει.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ὁ ἱερεὺς τὴν πομπὴν ἄγει."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ἡ ἱέρεια τῆς Ἀθηνᾶς ἀνήρ ἐστιν.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἡ ἱέρεια γυνή ἐστιν, οὐκ ἀνήρ."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "audio": "ὁ Λάβρος τὸν φύλακα ὁρᾷ.",
+      "gaps": [
+        {
+          "answers": [
+            "ὁ Λάβρος τὸν φύλακα ὁρᾷ"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "ὁ Λάβρος τὸν φύλακα ὁρᾷ."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'The priest sacrifices to the gods.'",
+      "gaps": [
+        {
+          "answers": [
+            "ὁ ἱερεὺς τοῖς θεοῖς θύει",
+            "ὁ ἱερεὺς θύει τοῖς θεοῖς",
+            "τοῖς θεοῖς ὁ ἱερεὺς θύει"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "syntax.dat.uses"
+      ],
+      "explain": "ὁ ἱερεὺς τοῖς θεοῖς θύει."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'The children see the old man.'",
+      "gaps": [
+        {
+          "answers": [
+            "οἱ παῖδες τὸν γέροντα ὁρῶσιν",
+            "οἱ παῖδες τὸν γέροντα ὁρῶσι",
+            "οἱ παῖδες ὁρῶσι τὸν γέροντα",
+            "οἱ παῖδες ὁρῶσιν τὸν γέροντα",
+            "τὸν γέροντα οἱ παῖδες ὁρῶσιν",
+            "τὸν γέροντα οἱ παῖδες ὁρῶσι"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "noun.decl3.cons.pl",
+        "noun.decl3.cons.acc.sg"
+      ],
+      "explain": "οἱ παῖδες τὸν γέροντα ὁρῶσιν."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: ἐν ταῖς ὁδοῖς πολλοὶ ἄνθρωποί εἰσιν· ἄνδρες καὶ γυναῖκες καὶ παῖδες.",
+      "audio": "ἐν ταῖς ὁδοῖς πολλοὶ ἄνθρωποί εἰσιν· ἄνδρες καὶ γυναῖκες καὶ παῖδες.",
+      "model": "In the streets there are many people: men and women and children.",
+      "skills": [
+        "read.comprehension",
+        "noun.decl3.cons.pl"
+      ],
+      "explain": "ἄνδρες, γυναῖκες, παῖδες: nominative plurals of ἀνήρ, γυνή, παῖς."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "γέρων",
+          "right": "gerontology"
+        },
+        {
+          "left": "φύλαξ",
+          "right": "prophylactic (guarding beforehand)"
+        },
+        {
+          "left": "ἱερεύς",
+          "right": "hierarchy"
+        },
+        {
+          "left": "στέφανος",
+          "right": "Stephen"
+        },
+        {
+          "left": "πομπή",
+          "right": "pomp"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "γεροντο-λογία 'study of old age'; προ-φυλακτικός 'guarding in advance'; ἱερ-αρχία 'rule of priests'; Στέφανος 'crowned'; πομπή → Latin pompa → pomp."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "τίς τὴν πομπὴν ἄγει;",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ ἱερεύς."
+        },
+        {
+          "id": "b",
+          "text": "ὁ φύλαξ."
+        },
+        {
+          "id": "c",
+          "text": "ὁ Κλεινίας."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ὁ ἱερεὺς τὴν πομπὴν ἄγει."
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί ἔχει ὁ ἱερεὺς ἐν τῇ χειρί;",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἄρτον."
+        },
+        {
+          "id": "b",
+          "text": "στέφανον."
+        },
+        {
+          "id": "c",
+          "text": "ὑδρίαν."
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "read.comprehension",
+        "noun.decl3.cons.dat.sg"
+      ],
+      "explain": "ἐν τῇ χειρὶ στέφανον ἔχει."
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίς γέρων ἐστίν;",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ Λύσις."
+        },
+        {
+          "id": "b",
+          "text": "ὁ φύλαξ."
+        },
+        {
+          "id": "c",
+          "text": "ὁ Κλεινίας."
+        }
+      ],
+      "answer": "c",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ὁ Κλεινίας γέρων ἐστίν."
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "ποῦ ἐστιν ὁ βωμός;",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐν τῷ ἱερῷ."
+        },
+        {
+          "id": "b",
+          "text": "ἐν τῇ οἰκίᾳ."
+        },
+        {
+          "id": "c",
+          "text": "ἐν τῷ ἐργαστηρίῳ."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἐν τῷ ἱερῷ βωμός ἐστιν."
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "ὁ Λάβρος τὸν φύλακα ὁρᾷ καὶ …",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "καθεύδει."
+        },
+        {
+          "id": "b",
+          "text": "ὑλακτεῖ."
+        },
+        {
+          "id": "c",
+          "text": "θύει."
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ὁ Λάβρος τὸν φύλακα ὁρᾷ καὶ ὑλακτεῖ (barks)."
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "ἆρα ὁ ἱερεὺς τοῦ Ποσειδῶνος νεανίας ἐστίν;",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "ναί, νεανίας ἐστίν."
+        },
+        {
+          "id": "b",
+          "text": "οὔ, γέρων ἐστίν."
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "read.comprehension",
+        "syntax.negation"
+      ],
+      "explain": "γέρων ἐστίν, οὐ νεανίας (young man: next lesson)."
+    }
+  ],
+  "culture": {
+    "title": "A city of festivals",
+    "md": "Athens kept more festivals than any other Greek city; a hostile pamphlet of the 420s complains that the Athenians celebrate twice as many as anyone else, and roughly a third of the days in the year had some religious observance. A festival (ἑορτή) meant no work, a procession (πομπή) through the streets, a sacrifice at an altar (βωμός), and meat: for most families, festivals were the only days they ate it. The priest poured water and barley over the victim, cut a lock of hair from its forehead, and after the killing the thigh bones wrapped in fat were burned for the god while the meat was roasted and shared out.\n\nOur festival is the **Skira**, held on the 12th of Skirophorion, the last month of the Attic year (late June). The priestess of Athena Polias, the priest of Poseidon-Erechtheus and the priest of Helios walked from the Acropolis under a great white sunshade carried by members of the Eteoboutadai clan, out through the Kerameikos along the Sacred Way to Skiron, a sanctuary of Athena and Demeter near the Kephisos on the road to Eleusis. It was a day when the women of Athens gathered on their own; in Aristophanes' *Assemblywomen* they hatch their plot at the Skira. Two days later came the Dipolieia, with its archaic ox-killing for Zeus on the Acropolis, and a month after that the new year opened with the Panathenaia, the greatest festival of all, which the story reaches in Unit 7.",
+    "image": "culture-skira"
+  },
+  "quiz": [
+    {
+      "type": "cloze-choice",
+      "prompt": "ὁ Λάβρος τὸν ___ ὁρᾷ.",
+      "options": [
+        {
+          "id": "a",
+          "text": "φύλαξ"
+        },
+        {
+          "id": "b",
+          "text": "φύλακα"
+        },
+        {
+          "id": "c",
+          "text": "φύλακος"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "noun.decl3.cons.acc.sg",
+        "syntax.object"
+      ],
+      "explain": "Object: τὸν φύλακα."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the accusative singular of γέρων.",
+      "lemma": "γέρων",
+      "cell": "acc.sg",
+      "skills": [
+        "noun.decl3.cons.acc.sg"
+      ],
+      "explain": "τὸν γέροντα.",
+      "audio": "γέροντα"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse παῖδες.",
+      "form": "παῖδες",
+      "groups": [
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            }
+          ]
+        },
+        {
+          "id": "number",
+          "label": "Number",
+          "options": [
+            {
+              "id": "sg",
+              "label": "singular"
+            },
+            {
+              "id": "pl",
+              "label": "plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "case": "nom",
+        "number": "pl"
+      },
+      "skills": [
+        "noun.decl3.cons.pl",
+        "noun.decl3.recognize"
+      ],
+      "explain": "-ες: nominative plural, οἱ παῖδες.",
+      "audio": "παῖδες"
+    },
+    {
+      "type": "pick-picture",
+      "prompt": "βωμός",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "image": "stephanos"
+        },
+        {
+          "id": "b",
+          "image": "bomos"
+        },
+        {
+          "id": "c",
+          "image": "krene"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "vocab.recognition"
+      ],
+      "explain": "βωμός: altar."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "αἱ κόραι στεφάνους φέρουσιν.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "Yes: αἱ κόραι στεφάνους φέρουσιν."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ὁ ἱερεὺς ___ θεοῖς θύει.",
+      "options": [
+        {
+          "id": "a",
+          "text": "τοῖς"
+        },
+        {
+          "id": "b",
+          "text": "τούς"
+        },
+        {
+          "id": "c",
+          "text": "οἱ"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.dat.uses",
+        "art.dat.pl"
+      ],
+      "explain": "Dative of the receiver: τοῖς θεοῖς."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'The guard sees the dog.'",
+      "gaps": [
+        {
+          "answers": [
+            "ὁ φύλαξ τὸν κύνα ὁρᾷ",
+            "ὁ φύλαξ ὁρᾷ τὸν κύνα",
+            "τὸν κύνα ὁ φύλαξ ὁρᾷ"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "noun.decl3.cons.acc.sg"
+      ],
+      "explain": "ὁ φύλαξ τὸν κύνα ὁρᾷ."
+    }
+  ],
+  "skills": [
+    "noun.decl3.cons.nom.sg",
+    "noun.decl3.cons.gen.sg",
+    "noun.decl3.cons.dat.sg",
+    "noun.decl3.cons.acc.sg",
+    "noun.decl3.cons.pl",
+    "noun.decl3.recognize",
+    "noun.gender",
+    "art.nom.pl",
+    "art.dat.pl",
+    "art.acc.sg",
+    "syntax.dat.uses",
+    "syntax.object",
+    "syntax.negation",
+    "prep.en.dat",
+    "noun.decl1.acc.sg",
+    "syntax.word-order",
+    "read.comprehension",
+    "read.locate",
+    "listen.words",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.family"
+  ]
+}

@@ -1,0 +1,1058 @@
+{
+ "adelphos": {
+  "object": "248483",
+  "ref": "search:marble grave stele brothers|stele",
+  "source": "met",
+  "title": "Marble grave stele with a family group"
+ },
+ "agathos-kakos": {
+  "object": "693368",
+  "ref": "search:Theseus deeds kylix|kylix",
+  "source": "met",
+  "title": "Terracotta fragment of a kylix (drinking cup)"
+ },
+ "allos": {
+  "object": "247186",
+  "ref": "search:Corinthian aryballos dogs|aryballos",
+  "source": "met",
+  "title": "Terracotta aryballos (oil flask)"
+ },
+ "aner": {
+  "object": "713994",
+  "ref": "search:terracotta kylix bearded man|kylix",
+  "source": "met",
+  "title": "Terracotta fragment of a kylix (drinking cup)"
+ },
+ "anthos": {
+  "object": "245998",
+  "ref": "search:gold wreath flowers Greek|wreath",
+  "source": "met",
+  "title": "Gold wreath"
+ },
+ "anthropos": {
+  "object": "253348",
+  "ref": "search:terracotta lekythos youth standing|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "aulos": {
+  "object": "728598",
+  "ref": "search:terracotta aulos player|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta fragment of a pelike (jar)"
+ },
+ "barbaros": {
+  "object": "247964",
+  "ref": "search:terracotta Greek Persian combat|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta volute-krater (bowl for mixing wine and water)"
+ },
+ "basileus": {
+  "object": "248593",
+  "ref": "search:terracotta Zeus enthroned sceptre|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Fragment of a terracotta skyphos (deep drinking cup)"
+ },
+ "cheir": {
+  "object": "251036",
+  "ref": "search:marble hand fragment|hand",
+  "source": "met",
+  "title": "Marble left hand holding a scroll"
+ },
+ "choros": {
+  "object": "255894",
+  "ref": "search:terracotta chorus dancers aulos|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta hydria (water jar)"
+ },
+ "culture-10-4-lekythos": {
+  "object": "251043",
+  "ref": "search:white-ground lekythos Charon Hermes|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "culture-9-2-cart": {
+  "object": "254843",
+  "ref": "search:black-figure cart wedding procession|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "culture-dog-wasps": {
+  "object": "253348",
+  "ref": "search:terracotta lekythos youth dog|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "culture-fountain-hydria": {
+  "object": "247220",
+  "ref": "search:black-figure hydria fountain house women|hydria",
+  "source": "met",
+  "title": "Terracotta hydria (water jar)"
+ },
+ "culture-owl-tetradrachm": {
+  "object": "120477",
+  "ref": "search:tetradrachm Athens owl|Tetradrachm",
+  "source": "cma",
+  "title": "Tetradrachm: Head of Athena (obverse); Owl (reverse)"
+ },
+ "culture-symposium-kylix": {
+  "object": "255878",
+  "ref": "search:terracotta kylix symposium reveler|kylix",
+  "source": "met",
+  "title": "Terracotta kylix (drinking cup)"
+ },
+ "despotes": {
+  "object": "248483",
+  "ref": "search:marble grave stele bearded man staff|stele",
+  "source": "met",
+  "title": "Marble grave stele with a family group"
+ },
+ "didaskalos": {
+  "object": "255939",
+  "ref": "search:terracotta kylix man scroll|kylix",
+  "source": "met",
+  "title": "Terracotta kylix (drinking cup)"
+ },
+ "doron": {
+  "object": "254468",
+  "ref": "search:gold ring Greek classical|ring",
+  "source": "met",
+  "title": "Sard seal from a gold ring"
+ },
+ "ergon": {
+  "object": "253135",
+  "ref": "search:terracotta statuette woman kneading|statuette",
+  "source": "met",
+  "title": "Terracotta statuette of a woman"
+ },
+ "erion": {
+  "object": "247384",
+  "ref": "search:terracotta kalathos wool basket|kalathos",
+  "source": "met",
+  "title": "Terracotta kalathos (vase in the shape of a wool basket)"
+ },
+ "geron": {
+  "object": "248763",
+  "ref": "search:terracotta statuette old man staff|statuette",
+  "source": "met",
+  "title": "Terracotta statuette of an actor"
+ },
+ "gyne": {
+  "object": "253348",
+  "ref": "search:terracotta lekythos woman standing|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "hamaxa": {
+  "object": "241351",
+  "ref": "search:terracotta cart model|cart|wagon",
+  "source": "met",
+  "title": "Model of a cart"
+ },
+ "harma": {
+  "object": "240552",
+  "ref": "search:terracotta chariot charioteer|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta chariot krater"
+ },
+ "heorte": {
+  "object": "729064",
+  "ref": "search:terracotta krater aulos player altar|krater",
+  "source": "met",
+  "title": "Terracotta fragment of a column-krater (bowl for mixing wine and water)"
+ },
+ "hiereus": {
+  "object": "242338",
+  "ref": "search:limestone votary wreath|votary|priest",
+  "source": "met",
+  "title": "Limestone head of beardless male votary"
+ },
+ "hippos": {
+  "object": "330050",
+  "ref": "search:terracotta horse geometric statuette|horse",
+  "source": "met",
+  "title": "Terracotta statuette of a horse"
+ },
+ "hoplites": {
+  "object": "253348",
+  "ref": "search:terracotta lekythos hoplite|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "hydria": {
+  "object": "254912",
+  "ref": "search:terracotta hydria water jar black-figure|hydria",
+  "source": "met",
+  "title": "Terracotta hydria (water jar)"
+ },
+ "hyios": {
+  "object": "251104",
+  "ref": "search:terracotta chous boy|chous",
+  "source": "met",
+  "title": "Terracotta oinochoe: chous (jug)"
+ },
+ "kadiskos": {
+  "object": "240191",
+  "ref": "search:terracotta amphora narrow neck|amphora",
+  "source": "met",
+  "title": "Amphora"
+ },
+ "kalos": {
+  "object": "254896",
+  "ref": "search:Berlin Painter amphora|amphora",
+  "source": "met",
+  "title": "Terracotta amphora (jar)"
+ },
+ "kephale": {
+  "object": "257603",
+  "ref": "search:marble head youth|head",
+  "source": "met",
+  "title": "Marble head of a Ptolemaic queen"
+ },
+ "keryx": {
+  "object": "252451",
+  "ref": "search:terracotta Hermes kerykeion|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta aryballos (oil flask)"
+ },
+ "kline": {
+  "object": "246647",
+  "ref": "search:terracotta kylix symposium reclining couch|kylix",
+  "source": "met",
+  "title": "Terracotta kylix (drinking cup)"
+ },
+ "kore": {
+  "object": "253049",
+  "ref": "search:terracotta statuette girl standing|statuette",
+  "source": "met",
+  "title": "Terracotta statuette of a young woman"
+ },
+ "kosmos": {
+  "object": "244753",
+  "ref": "search:terracotta kylix palmettes|kylix",
+  "source": "met",
+  "title": "Kylix"
+ },
+ "kreas": {
+  "object": "667556",
+  "ref": "search:terracotta youth spits meat altar|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta fragments of a kylix (drinking cup)"
+ },
+ "krene": {
+  "object": "247244",
+  "ref": "search:terracotta hydria women fountain house|hydria",
+  "source": "met",
+  "title": "Terracotta hydria (water jar)"
+ },
+ "kyklos": {
+  "object": "247529",
+  "ref": "search:terracotta round dance women|Terracotta",
+  "source": "met",
+  "title": "Terracotta statuette of a dancing girl"
+ },
+ "kylix": {
+  "object": "244753",
+  "ref": "search:terracotta kylix eye-cup|kylix",
+  "source": "met",
+  "title": "Kylix"
+ },
+ "kyon": {
+  "object": "254213",
+  "ref": "search:terracotta askos dog|askos",
+  "source": "met",
+  "title": "Terracotta askos in the form of a boar"
+ },
+ "logos": {
+  "object": "255878",
+  "ref": "search:terracotta kylix youth scroll|kylix",
+  "source": "met",
+  "title": "Terracotta kylix (drinking cup)"
+ },
+ "mache": {
+  "object": "247192",
+  "ref": "search:terracotta two warriors fighting|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta alabastron (perfume vase)"
+ },
+ "martys": {
+  "object": "251468",
+  "ref": "search:terracotta man raised hand speaking|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta amphora (jar)"
+ },
+ "meizon": {
+  "object": "250226",
+  "ref": "search:terracotta miniature kylix|kylix",
+  "source": "met",
+  "title": "Kylix, miniature"
+ },
+ "meter": {
+  "object": "253505",
+  "ref": "search:marble grave stele woman girl|stele",
+  "source": "met",
+  "title": "Marble grave stele of a young woman and servant"
+ },
+ "mythos": {
+  "object": "244813",
+  "ref": "search:terracotta old man boy|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta pelike (jar)"
+ },
+ "neanias": {
+  "object": "255878",
+  "ref": "search:terracotta kylix athlete strigil|kylix",
+  "source": "met",
+  "title": "Terracotta kylix (drinking cup)"
+ },
+ "neos": {
+  "object": "257603",
+  "ref": "search:marble head youth|head",
+  "source": "met",
+  "title": "Marble head of a Ptolemaic queen"
+ },
+ "nous": {
+  "object": "257603",
+  "ref": "search:marble head philosopher|head",
+  "source": "met",
+  "title": "Marble head of a Ptolemaic queen"
+ },
+ "pais": {
+  "object": "254353",
+  "ref": "search:terracotta chous child crawling|chous",
+  "source": "met",
+  "title": "Terracotta oinochoe: chous (jug)"
+ },
+ "panel-1-1-b": {
+  "object": "251494",
+  "ref": "search:terracotta chous children dog|chous",
+  "source": "met",
+  "title": "Terracotta oinochoe: chous (jug)"
+ },
+ "panel-1-2-b": {
+  "object": "254213",
+  "ref": "search:terracotta askos dog|askos",
+  "source": "met",
+  "title": "Terracotta askos in the form of a boar"
+ },
+ "panel-1-4-a": {
+  "object": "253348",
+  "ref": "search:lekythos women weaving Amasis Painter|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "panel-1-4-b": {
+  "object": "247244",
+  "ref": "search:terracotta hydria women fountain house|hydria",
+  "source": "met",
+  "title": "Terracotta hydria (water jar)"
+ },
+ "panel-10-2-c": {
+  "object": "254213",
+  "ref": "search:terracotta askos dog|askos",
+  "source": "met",
+  "title": "Terracotta askos in the form of a boar"
+ },
+ "panel-10-3-a": {
+  "object": "254605",
+  "ref": "search:terracotta kylix youth holding cup|kylix",
+  "source": "met",
+  "title": "Terracotta stemless kylix (drinking cup)"
+ },
+ "panel-10-3-b": {
+  "object": "248904",
+  "ref": "search:terracotta horse youth|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta krater"
+ },
+ "panel-10-4-b": {
+  "object": "246270",
+  "ref": "search:terracotta oil lamp|lamp",
+  "source": "met",
+  "title": "Terracotta oil lamp"
+ },
+ "panel-11-1-b": {
+  "object": "248904",
+  "ref": "search:terracotta man doorway|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta krater"
+ },
+ "panel-11-2-a": {
+  "object": "248904",
+  "ref": "search:terracotta men conversation|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta krater"
+ },
+ "panel-11-2-c": {
+  "object": "248904",
+  "ref": "search:terracotta man raised hand|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta krater"
+ },
+ "panel-12-1-a": {
+  "object": "244813",
+  "ref": "search:terracotta old man scroll|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta pelike (jar)"
+ },
+ "panel-12-1-b": {
+  "object": "247964",
+  "ref": "search:terracotta Persian horseman|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta volute-krater (bowl for mixing wine and water)"
+ },
+ "panel-12-2-a": {
+  "object": "248809",
+  "ref": "search:terracotta girl scroll|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "panel-12-4-c": {
+  "object": "254649",
+  "ref": "search:terracotta youths conversation himation|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta column-krater (bowl for mixing wine and water)"
+ },
+ "panel-2-1-a": {
+  "object": "247916",
+  "ref": "search:terracotta pyxis women at home|pyxis",
+  "source": "met",
+  "title": "Terracotta pyxis (box)"
+ },
+ "panel-2-1-c": {
+  "object": "246270",
+  "ref": "search:terracotta oil lamp|lamp",
+  "source": "met",
+  "title": "Terracotta oil lamp"
+ },
+ "panel-2-2-a": {
+  "object": "253348",
+  "ref": "search:terracotta lekythos woman maid|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "panel-2-3-a": {
+  "object": "745040",
+  "ref": "search:terracotta old man seated youth|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta fragment of an amphora (jar)"
+ },
+ "panel-2-3-c": {
+  "object": "254502",
+  "ref": "search:bronze Eros sleeping|Eros",
+  "source": "met",
+  "title": "Bronze statue of Eros sleeping"
+ },
+ "panel-2-4-b": {
+  "object": "244753",
+  "ref": "search:terracotta kylix banqueter|kylix",
+  "source": "met",
+  "title": "Kylix"
+ },
+ "panel-3-1-a": {
+  "object": "248178",
+  "ref": "search:terracotta pyxis wedding procession|pyxis",
+  "source": "met",
+  "title": "Terracotta pyxis (box)"
+ },
+ "panel-3-1-c": {
+  "object": "254907",
+  "ref": "search:terracotta bell-krater sacrifice altar|krater",
+  "source": "met",
+  "title": "Terracotta bell-krater (bowl for mixing wine and water)"
+ },
+ "panel-3-2-b": {
+  "object": "709894",
+  "ref": "search:terracotta kylix youths leaning staffs|kylix",
+  "source": "met",
+  "title": "Terracotta rim fragment of a kylix (drinking cup)"
+ },
+ "panel-3-2-c": {
+  "object": "247192",
+  "ref": "search:terracotta hoplite warrior departure|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta alabastron (perfume vase)"
+ },
+ "panel-3-3-b": {
+  "object": "247582",
+  "ref": "search:terracotta woman torches|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "panel-4-2-b": {
+  "object": "254912",
+  "ref": "search:terracotta hydria water jars|hydria",
+  "source": "met",
+  "title": "Terracotta hydria (water jar)"
+ },
+ "panel-4-3-c": {
+  "object": "255878",
+  "ref": "search:terracotta kylix athletes palaestra|kylix",
+  "source": "met",
+  "title": "Terracotta kylix (drinking cup)"
+ },
+ "panel-5-1-c": {
+  "object": "667556",
+  "ref": "search:terracotta youths spits altar|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta fragments of a kylix (drinking cup)"
+ },
+ "panel-5-2-a": {
+  "object": "254885",
+  "ref": "search:terracotta men conversation staff|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta stamnos (storage jar)"
+ },
+ "panel-5-3-a": {
+  "object": "247472",
+  "ref": "search:terracotta Eros bow|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|Eros",
+  "source": "met",
+  "title": "Terracotta Eros"
+ },
+ "panel-6-1-a": {
+  "object": "255878",
+  "ref": "search:terracotta youth carrying amphora|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta kylix (drinking cup)"
+ },
+ "panel-6-2-a": {
+  "object": "254649",
+  "ref": "search:terracotta traveller petasos|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta column-krater (bowl for mixing wine and water)"
+ },
+ "panel-6-2-b": {
+  "object": "394919",
+  "ref": "search:kylix|Kylix",
+  "source": "cma",
+  "title": "Foot from Red-Figure Kylix (Drinking Cup)"
+ },
+ "panel-6-2-c": {
+  "object": "130354",
+  "ref": "search:lamp|Lamp",
+  "source": "cma",
+  "title": "Lamp"
+ },
+ "panel-6-3-b": {
+  "object": "253348",
+  "ref": "search:lekythos women weaving Amasis Painter|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "panel-7-1-a": {
+  "object": "247301",
+  "ref": "search:terracotta lekythos old man seated youth|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "panel-7-1-b": {
+  "object": "254907",
+  "ref": "search:terracotta bull sacrifice procession|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta bell-krater (bowl for mixing wine and water)"
+ },
+ "panel-7-4-b": {
+  "object": "253348",
+  "ref": "search:terracotta youth torch|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "panel-7-4-c": {
+  "object": "254213",
+  "ref": "search:terracotta askos dog|askos",
+  "source": "met",
+  "title": "Terracotta askos in the form of a boar"
+ },
+ "panel-8-4-c": {
+  "object": "251104",
+  "ref": "search:terracotta cart wagon|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros|cart|wagon",
+  "source": "met",
+  "title": "Terracotta oinochoe: chous (jug)"
+ },
+ "panel-9-2-b": {
+  "object": "247107",
+  "ref": "search:marble grave stele two women clasping hands|stele",
+  "source": "met",
+  "title": "Painted limestone funerary stele with a seated man and two standing figures"
+ },
+ "panel-9-4-a": {
+  "object": "254328",
+  "ref": "search:terracotta hoplites marching|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta aryballos (oil flask)"
+ },
+ "panel-9-4-b": {
+  "object": "248904",
+  "ref": "search:terracotta prothesis mourning|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros|prothesis",
+  "source": "met",
+  "title": "Terracotta krater"
+ },
+ "pappos": {
+  "object": "245538",
+  "ref": "search:terracotta statuette old man|statuette",
+  "source": "met",
+  "title": "Terracotta statuette of an emaciated woman"
+ },
+ "pater": {
+  "object": "248483",
+  "ref": "search:marble grave stele man boy|stele",
+  "source": "met",
+  "title": "Marble grave stele with a family group"
+ },
+ "philos": {
+  "object": "241117",
+  "ref": "search:terracotta statuette two women|statuette",
+  "source": "met",
+  "title": "Terracotta statuette of a woman"
+ },
+ "phylax": {
+  "object": "253351",
+  "ref": "search:terracotta lekythos warrior spear|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "polemos": {
+  "object": "254328",
+  "ref": "search:terracotta hoplites fighting|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta aryballos (oil flask)"
+ },
+ "polites": {
+  "object": "251268",
+  "ref": "search:bronze statuette man himation|statuette",
+  "source": "met",
+  "title": "Bronze statuette of a horse"
+ },
+ "pompe": {
+  "object": "254843",
+  "ref": "search:Amasis Painter lekythos wedding procession|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "presbys": {
+  "object": "248763",
+  "ref": "search:terracotta statuette old man staff|statuette",
+  "source": "met",
+  "title": "Terracotta statuette of an actor"
+ },
+ "psyche": {
+  "object": "255949",
+  "ref": "search:white-ground lekythos eidolon|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "pyr": {
+  "object": "246270",
+  "ref": "search:terracotta oil lamp Greek|lamp",
+  "source": "met",
+  "title": "Terracotta oil lamp"
+ },
+ "soma": {
+  "object": "253370",
+  "ref": "search:marble statue kouros|kouros",
+  "source": "met",
+  "title": "Marble statue of a kouros (youth)"
+ },
+ "stephanos": {
+  "object": "245996",
+  "ref": "search:gold wreath leaves|wreath",
+  "source": "met",
+  "title": "Gold wreath"
+ },
+ "stratiotes": {
+  "object": "254342",
+  "ref": "search:terracotta hoplite shield spear|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta neck-amphora (jar)"
+ },
+ "stratos": {
+  "object": "254328",
+  "ref": "search:terracotta hoplites marching|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta aryballos (oil flask)"
+ },
+ "tauros": {
+  "object": "254906",
+  "ref": "search:terracotta bull sacrifice|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta calyx-krater (bowl for mixing wine and water)"
+ },
+ "teknon": {
+  "object": "256974",
+  "ref": "search:marble grave stele mother child|stele",
+  "source": "met",
+  "title": "Marble stele (grave marker) with a youth and little girl, and a capital and finial in the form of a sphinx"
+ },
+ "thea": {
+  "object": "740469",
+  "ref": "search:Athena owl helmet terracotta|Athena",
+  "source": "met",
+  "title": "Terracotta fragment of a neck-amphora of Panathenaic shape"
+ },
+ "theos": {
+  "object": "251078",
+  "ref": "search:bronze statuette Zeus thunderbolt|Zeus",
+  "source": "met",
+  "title": "Bronze statuette of Zeus or Poseidon"
+ },
+ "thygater": {
+  "object": "252890",
+  "ref": "search:marble grave stele little girl doves|stele",
+  "source": "met",
+  "title": "Marble grave stele of a little girl"
+ },
+ "thysia": {
+  "object": "254907",
+  "ref": "search:terracotta bull sacrifice procession|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta bell-krater (bowl for mixing wine and water)"
+ },
+ "toxon": {
+  "object": "255831",
+  "ref": "search:terracotta Scythian archer|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta skyphos (deep drinking cup)"
+ },
+ "verb-agei": {
+  "object": "258464",
+  "ref": "search:terracotta youth leading horse|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta neck-amphora (jar)"
+ },
+ "verb-anagignoskei": {
+  "object": "254649",
+  "ref": "search:terracotta youth reading scroll|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta column-krater (bowl for mixing wine and water)"
+ },
+ "verb-aphikneitai": {
+  "object": "254374",
+  "ref": "search:terracotta traveller petasos arriving|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta squat lekythos (oil flask)"
+ },
+ "verb-bainei": {
+  "object": "253348",
+  "ref": "search:terracotta lekythos youth walking|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "verb-bouletai": {
+  "object": "253348",
+  "ref": "search:terracotta lekythos woman reaching|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "verb-chaire": {
+  "object": "248483",
+  "ref": "search:marble grave stele handshake|stele",
+  "source": "met",
+  "title": "Marble grave stele with a family group"
+ },
+ "verb-cheirotonei": {
+  "object": "248904",
+  "ref": "search:terracotta man raised hand|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta krater"
+ },
+ "verb-dei": {
+  "object": "251036",
+  "ref": "search:marble hand pointing|hand",
+  "source": "met",
+  "title": "Marble left hand holding a scroll"
+ },
+ "verb-deiknysi": {
+  "object": "745051",
+  "ref": "search:terracotta man pointing boy|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta fragment of a pelike (jar)"
+ },
+ "verb-deloi": {
+  "object": "253348",
+  "ref": "search:terracotta lekythos women wool|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "verb-didosi": {
+  "object": "668605",
+  "ref": "search:terracotta kylix handing cup|kylix",
+  "source": "met",
+  "title": "Terracotta fragments of a kylix (drinking cup)"
+ },
+ "verb-dynatai": {
+  "object": "689286",
+  "ref": "search:terracotta youth lifting amphora|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta fragment of a kylix (drinking cup)"
+ },
+ "verb-echei": {
+  "object": "254605",
+  "ref": "search:terracotta kylix youth holding cup|kylix",
+  "source": "met",
+  "title": "Terracotta stemless kylix (drinking cup)"
+ },
+ "verb-eiserchetai": {
+  "object": "247582",
+  "ref": "search:terracotta woman doorway|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "verb-eiskomizei": {
+  "object": "241335",
+  "ref": "search:terracotta donkey cart|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros|donkey|mule",
+  "source": "met",
+  "title": "Terracotta statuette of a donkey and rider"
+ },
+ "verb-epistatai": {
+  "object": "247286",
+  "ref": "search:terracotta pyxis women wool working|pyxis",
+  "source": "met",
+  "title": "Terracotta pyxis (box)"
+ },
+ "verb-era": {
+  "object": "253351",
+  "ref": "search:terracotta lekythos Eros youth|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "verb-erota": {
+  "object": "255878",
+  "ref": "search:terracotta kylix youth gesturing|kylix",
+  "source": "met",
+  "title": "Terracotta kylix (drinking cup)"
+ },
+ "verb-esthiei": {
+  "object": "255787",
+  "ref": "search:terracotta kylix banqueter eating|kylix",
+  "source": "met",
+  "title": "Fragment of a terracotta kylix (drinking cup)"
+ },
+ "verb-exerchetai": {
+  "object": "253538",
+  "ref": "search:terracotta door figure|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta oinochoe: chous (jug)"
+ },
+ "verb-hegeitai": {
+  "object": "252451",
+  "ref": "search:terracotta Hermes leading|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta aryballos (oil flask)"
+ },
+ "verb-hepetai": {
+  "object": "253348",
+  "ref": "search:terracotta lekythos two women walking|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "verb-hesteke": {
+  "object": "256974",
+  "ref": "search:marble grave stele standing man|stele",
+  "source": "met",
+  "title": "Marble stele (grave marker) with a youth and little girl, and a capital and finial in the form of a sphinx"
+ },
+ "verb-heuriskei": {
+  "object": "330160",
+  "ref": "search:silver tetradrachm Athens owl|tetradrachm",
+  "source": "met",
+  "title": "Silver tetradrachm"
+ },
+ "verb-histatai": {
+  "object": "253370",
+  "ref": "search:marble statue kouros|kouros",
+  "source": "met",
+  "title": "Marble statue of a kouros (youth)"
+ },
+ "verb-hyphainei": {
+  "object": "253348",
+  "ref": "search:lekythos women weaving Amasis Painter|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "verb-kalei": {
+  "object": "254894",
+  "ref": "search:terracotta kylix figure calling gesture|kylix",
+  "source": "met",
+  "title": "Terracotta kylix: eye-cup (drinking cup)"
+ },
+ "verb-katheudei": {
+  "object": "251387",
+  "ref": "search:terracotta lekythos sleeping figure|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "verb-komizei": {
+  "object": "255939",
+  "ref": "search:terracotta man carrying sack|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta kylix (drinking cup)"
+ },
+ "verb-kryptei": {
+  "object": "247482",
+  "ref": "search:terracotta statuette boy himation|statuette",
+  "source": "met",
+  "title": "Terracotta statuette of a boy"
+ },
+ "verb-legei": {
+  "object": "251398",
+  "ref": "search:terracotta kylix conversation figures|kylix",
+  "source": "met",
+  "title": "Terracotta kylix (drinking cup)"
+ },
+ "verb-leipei": {
+  "object": "247192",
+  "ref": "search:terracotta warrior departure|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta alabastron (perfume vase)"
+ },
+ "verb-machontai": {
+  "object": "258464",
+  "ref": "search:terracotta dogs fighting|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta neck-amphora (jar)"
+ },
+ "verb-manthanei": {
+  "object": "253135",
+  "ref": "search:terracotta statuette tablet|statuette",
+  "source": "met",
+  "title": "Terracotta statuette of a woman"
+ },
+ "verb-menei": {
+  "object": "248483",
+  "ref": "search:marble grave stele seated woman|stele",
+  "source": "met",
+  "title": "Marble grave stele with a family group"
+ },
+ "verb-nika": {
+  "object": "247295",
+  "ref": "search:terracotta Nike crowning victor|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "verb-paizei": {
+  "object": "254353",
+  "ref": "search:terracotta chous child ball|chous",
+  "source": "met",
+  "title": "Terracotta oinochoe: chous (jug)"
+ },
+ "verb-pempei": {
+  "object": "252451",
+  "ref": "search:terracotta Hermes messenger|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta aryballos (oil flask)"
+ },
+ "verb-pherei": {
+  "object": "253078",
+  "ref": "search:terracotta hydria woman carrying water jar|hydria",
+  "source": "met",
+  "title": "Terracotta hydria (water jar)"
+ },
+ "verb-pheugei": {
+  "object": "252973",
+  "ref": "search:terracotta running youth|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta bell-krater (bowl for mixing wine and water)"
+ },
+ "verb-philei": {
+  "object": "254843",
+  "ref": "search:terracotta lekythos mother child|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "verb-phobeitai": {
+  "object": "254311",
+  "ref": "search:terracotta pursuit woman fleeing|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "verb-pinei": {
+  "object": "255878",
+  "ref": "search:terracotta kylix youth drinking|kylix",
+  "source": "met",
+  "title": "Terracotta kylix (drinking cup)"
+ },
+ "verb-plattei": {
+  "object": "257620",
+  "ref": "search:terracotta mold statuette|mold|mould",
+  "source": "met",
+  "title": "Terracotta mold fragment"
+ },
+ "verb-pleroi": {
+  "object": "719085",
+  "ref": "search:terracotta kylix pouring wine|kylix",
+  "source": "met",
+  "title": "Terracotta fragment of a kylix (drinking cup)"
+ },
+ "verb-proserchetai": {
+  "object": "254899",
+  "ref": "search:terracotta Palladion Athena statue|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta Nolan neck-amphora (jar)"
+ },
+ "verb-speudei": {
+  "object": "253078",
+  "ref": "search:terracotta hydria woman running|hydria",
+  "source": "met",
+  "title": "Terracotta hydria (water jar)"
+ },
+ "verb-temnei": {
+  "object": "248904",
+  "ref": "search:terracotta man axe|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta krater"
+ },
+ "verb-thaptei": {
+  "object": "248904",
+  "ref": "search:terracotta ekphora burial|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta krater"
+ },
+ "verb-thaumazei": {
+  "object": "762871",
+  "ref": "search:terracotta lekythos youth looking up|lekythos",
+  "source": "met",
+  "title": "Terracotta fragments of a lekythos (oil flask)"
+ },
+ "verb-thyei": {
+  "object": "248578",
+  "ref": "search:terracotta sacrifice altar|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta neck-amphora (storage jar)"
+ },
+ "verb-tima": {
+  "object": "254649",
+  "ref": "search:terracotta libation altar|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta column-krater (bowl for mixing wine and water)"
+ },
+ "verb-tithesi": {
+  "object": "254843",
+  "ref": "search:terracotta woman placing vessel table|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "verb-zeloi": {
+  "object": "253135",
+  "ref": "search:terracotta statuette woman girl|statuette",
+  "source": "met",
+  "title": "Terracotta statuette of a woman"
+ },
+ "verb-zetei": {
+  "object": "253348",
+  "ref": "search:terracotta lekythos woman looking|lekythos",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ },
+ "xenos": {
+  "object": "254374",
+  "ref": "search:terracotta youth petasos chlamys|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "title": "Terracotta squat lekythos (oil flask)"
+ },
+ "zoon": {
+  "object": "253348",
+  "ref": "search:terracotta animals frieze|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "title": "Terracotta lekythos (oil flask)"
+ }
+}

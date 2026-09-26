@@ -1,0 +1,64 @@
+{
+  "id": "0.3",
+  "title_grc": "οἱ τόνοι",
+  "title_en": "Accents, iota subscript, punctuation and typing",
+  "summary_grc": "ά · ὰ · ᾶ · ᾳ · ; · ·",
+  "summary_en": "The three accent marks and what to do with them for now; the iota subscript; Greek punctuation; and typing all of it.",
+  "cover": "wax-tablet",
+  "caption_grc": "τίς; — ὁ θεός. ποῦ; — ἐν τῷ οἴκῳ.",
+  "names": {},
+  "allow": {"τῷ": "article, dative; shown for the iota subscript", "οἴκῳ": "dative of οἶκος; shown for the iota subscript", "τῇ": "article, dative", "ἀγορᾷ": "dative of ἀγορά", "ἐν": "preposition, shown in fixed phrases", "τίς": "question word", "ποῦ": "question word", "ὁ": "article", "ἡ": "article", "θεός": "picture word", "θεά": "picture word", "ἀγορά": "picture word", "οἶκος": "picture word", "ἄνθρωπος": "picture word", "καλός": "picture word", "καλή": "picture word", "ἀγαθός": "example of a grave accent", "ἀνήρ": "picture word", "γυνή": "picture word", "τοῦ": "article, genitive", "ναί": "yes", "οὐ": "no"},
+  "story": [
+    {
+      "image": "theos",
+      "sentences": [
+        {"text": "ὁ θεός. ἡ θεά.", "glosses": [{"word": "θεός", "kind": "pic", "value": "theos"}, {"word": "θεά", "kind": "pic", "value": "thea"}]},
+        {"text": "ὁ ἄνθρωπος. ὁ ἀνήρ. ἡ γυνή.", "glosses": [{"word": "ἄνθρωπος", "kind": "pic", "value": "anthropos"}, {"word": "ἀνήρ", "kind": "pic", "value": "aner"}, {"word": "γυνή", "kind": "pic", "value": "gyne"}]},
+        {"text": "καλὸς ὁ ἀνήρ· καλὴ ἡ γυνή.", "glosses": [{"word": "καλὸς", "kind": "pic", "value": "kalos"}]},
+        {"text": "τίς; — ὁ θεός. ποῦ; — ἐν τῷ οἴκῳ.", "glosses": [{"word": "τίς", "kind": "en", "value": "who?"}, {"word": "ποῦ", "kind": "en", "value": "where?"}, {"word": "οἴκῳ", "kind": "pic", "value": "oikos"}]},
+        {"text": "ποῦ; — ἐν τῇ ἀγορᾷ. ναί. οὐ.", "glosses": [{"word": "ἀγορᾷ", "kind": "pic", "value": "agora"}, {"word": "ναί", "kind": "en", "value": "yes"}, {"word": "οὐ", "kind": "en", "value": "no"}]}
+      ]
+    }
+  ],
+  "vocab": [],
+  "notice": ["θεός · ἀνήρ · γυνή — acute ´", "καλὸς ὁ ἀνήρ — grave ` before the next word", "ποῦ · τῷ · ἀγορᾷ — circumflex ῀", "τῷ οἴκῳ · τῇ ἀγορᾷ — iota subscript ͅ"],
+  "grammar": {
+    "md": "**Three marks, one job.** Almost every Greek word carries one accent on one of its last three syllables: the **acute** ά, the **grave** ὰ, or the **circumflex** ᾶ. In Ariston's Athens they marked a rise or fall of pitch, like a musical note. In this course the voice gives the accented syllable a little more weight, the way English stresses a syllable, and that is what you should do too: say θε-**ός**, **ἄν**-θρω-πος, ἀ-**νήρ**.\n\n**Grave.** An acute on the last syllable turns into a grave when another word follows without a pause: καλός, but καλὸς ὁ ἀνήρ. Same word, same accent, different mark. Treat them as one.\n\n**Circumflex.** Only on a long vowel or diphthong: ποῦ, τῷ, ἀγορᾷ. Say it like the acute for now.\n\n**Typing.** Until Unit 4 the app accepts answers without accents; breathings always count (ὁ is not ὀ). Type what you can; check the model answer; over time the accents will come from what you read and hear.\n\n**Iota subscript.** A tiny ι under a long vowel: ᾳ ῃ ῳ. It was once pronounced (*āi*, *ēi*, *ōi*) and by 400 BC was fading; we do not sound it, but it marks important endings: τῷ οἴκῳ, τῇ ἀγορᾷ. Learn to see it.\n\n**Punctuation.** Full stop and comma as in English. The **semicolon ;** is the Greek **question mark**: τίς; 'who?'. The **raised dot ·** is a colon or semicolon: καλὸς ὁ ἀνήρ· καλὴ ἡ γυνή. Quotation is usually « ». Capitals for names only.",
+    "paradigms": [],
+    "diagram": null
+  },
+  "exercises": [
+    {"type": "cloze-choice", "prompt": "Which syllable of ἄνθρωπος carries the accent?", "audio": "ἄνθρωπος", "options": [{"id": "a", "text": "ἄν"}, {"id": "b", "text": "θρω"}, {"id": "c", "text": "πος"}], "answer": "a", "skills": ["alpha.accents"], "explain": "ἄν-θρω-πος: the acute is on the first syllable."},
+    {"type": "cloze-choice", "prompt": "Which syllable of ἀγορά carries the accent?", "audio": "ἀγορά", "options": [{"id": "a", "text": "ἀ"}, {"id": "b", "text": "γο"}, {"id": "c", "text": "ρά"}], "answer": "c", "skills": ["alpha.accents"], "explain": "ἀ-γο-ρά: accent on the last syllable."},
+    {"type": "cloze-choice", "prompt": "Which mark is the circumflex?", "options": [{"id": "a", "text": "ά"}, {"id": "b", "text": "ὰ"}, {"id": "c", "text": "ᾶ"}], "answer": "c", "skills": ["alpha.accents"], "explain": "ᾶ. Acute ά, grave ὰ."},
+    {"type": "cloze-choice", "prompt": "καλός becomes καλὸς when …", "options": [{"id": "a", "text": "another word follows without a pause"}, {"id": "b", "text": "it is the last word of a sentence"}, {"id": "c", "text": "it is a question"}], "answer": "a", "skills": ["alpha.accents"], "explain": "An acute on the final syllable turns grave before a following word: καλὸς ὁ ἀνήρ."},
+    {"type": "cloze-choice", "prompt": "What does ; mean in Greek?", "options": [{"id": "a", "text": "a question mark"}, {"id": "b", "text": "a semicolon"}, {"id": "c", "text": "a full stop"}], "answer": "a", "skills": ["alpha.punct"], "explain": "τίς; = who?"},
+    {"type": "cloze-choice", "prompt": "What does the raised dot · mean?", "options": [{"id": "a", "text": "a colon or semicolon"}, {"id": "b", "text": "a question mark"}, {"id": "c", "text": "an abbreviation"}], "answer": "a", "skills": ["alpha.punct"], "explain": "The ano teleia divides a sentence into two parts, like our colon or semicolon."},
+    {"type": "locate", "prompt": "Tap every word with an iota subscript.", "sentence": "ἐν τῷ οἴκῳ · ἐν τῇ ἀγορᾷ · ὁ θεός · ἡ θεά", "answer": [1, 2, 4, 5], "skills": ["alpha.iota"], "explain": "τῷ, οἴκῳ, τῇ, ἀγορᾷ."},
+    {"type": "locate", "prompt": "Tap every word with a circumflex.", "sentence": "ποῦ ἐστιν ὁ ἀνήρ; ἐν τῷ οἴκῳ. καλὴ ἡ γυνή.", "answer": [0, 4, 5], "skills": ["alpha.accents"], "explain": "ποῦ, τῷ, οἴκῳ."},
+    {"type": "cloze-type", "prompt": "Type this exactly, with its accent and breathing: ὁ θεός", "gaps": [{"answers": ["ὁ θεός"]}], "strict_accents": true, "skills": ["alpha.typing", "alpha.accents"], "explain": "ὁ (rough breathing) θεός (acute on the ό).", "audio": "ὁ θεός"},
+    {"type": "cloze-type", "prompt": "Type this exactly: ἡ γυνή", "gaps": [{"answers": ["ἡ γυνή"]}], "strict_accents": true, "skills": ["alpha.typing", "alpha.accents"], "explain": "ἡ γυνή.", "audio": "ἡ γυνή"},
+    {"type": "cloze-type", "prompt": "Type this exactly, with the iota subscript: τῷ οἴκῳ", "gaps": [{"answers": ["τῷ οἴκῳ"]}], "strict_accents": true, "skills": ["alpha.typing", "alpha.iota"], "explain": "τῷ οἴκῳ: circumflex + iota subscript on ῷ, acute + iota subscript on ῳ.", "audio": "τῷ οἴκῳ"},
+    {"type": "cloze-type", "prompt": "Type this exactly: ποῦ;", "gaps": [{"answers": ["ποῦ;", "ποῦ"]}], "strict_accents": true, "skills": ["alpha.typing", "alpha.accents", "alpha.punct"], "explain": "ποῦ with a circumflex; the question mark is ;", "audio": "ποῦ"},
+    {"type": "dictation", "prompt": "Listen and type what you hear (accents optional).", "audio": "καλὴ ἡ γυνή.", "gaps": [{"answers": ["καλὴ ἡ γυνή", "καλή ἡ γυνή"]}], "skills": ["spell.dictation"], "explain": "καλὴ ἡ γυνή."},
+    {"type": "match", "prompt": "Match the mark to its name.", "pairs": [{"left": "ά", "right": "acute"}, {"left": "ὰ", "right": "grave"}, {"left": "ᾶ", "right": "circumflex"}, {"left": "ᾳ", "right": "iota subscript"}, {"left": "ἁ", "right": "rough breathing"}], "skills": ["alpha.accents", "alpha.iota", "alpha.breathings"], "explain": "acute, grave, circumflex, iota subscript, rough breathing."}
+  ],
+  "questions": [
+    {"type": "cloze-choice", "prompt": "In this course the accented syllable is …", "options": [{"id": "a", "text": "given a little more weight, like English stress"}, {"id": "b", "text": "whispered"}, {"id": "c", "text": "ignored"}], "answer": "a", "skills": ["alpha.accents"], "explain": "Learner mode: lexical accent as stress. Reconstructed pitch comes later."},
+    {"type": "cloze-choice", "prompt": "Which of these is a question?", "options": [{"id": "a", "text": "τίς;"}, {"id": "b", "text": "τίς."}, {"id": "c", "text": "τίς·"}], "answer": "a", "skills": ["alpha.punct"], "explain": "The semicolon is the question mark."}
+  ],
+  "culture": {
+    "title": "School in Athens",
+    "md": "Athenian boys of Lysis's age went to a **grammatistes** to learn letters, then to a **kitharistes** for music and to the palaestra for wrestling. A famous red-figure cup by the painter Douris shows the whole curriculum: a boy reciting from a papyrus roll, another with a lyre, a third at a wax tablet, and a *paidagogos* (a slave who walked the boy to school) watching from a chair. The text on the roll is a line of epic verse. Girls like Elpis normally learned at home. The accent marks you have just met were not part of any of this: Lysis learned his letters, and the melody of the words, by ear.",
+    "image": "school-kylix"
+  },
+  "quiz": [
+    {"type": "cloze-choice", "prompt": "Which syllable of γυνή carries the accent?", "audio": "γυνή", "options": [{"id": "a", "text": "γυ"}, {"id": "b", "text": "νή"}], "answer": "b", "skills": ["alpha.accents"], "explain": "γυ-νή."},
+    {"type": "cloze-choice", "prompt": "Which mark is the grave?", "options": [{"id": "a", "text": "ὰ"}, {"id": "b", "text": "ά"}, {"id": "c", "text": "ᾶ"}], "answer": "a", "skills": ["alpha.accents"], "explain": "ὰ."},
+    {"type": "locate", "prompt": "Tap every word with an iota subscript.", "sentence": "ὁ θεὸς ἐν τῷ οὐρανῷ · ἡ θεὰ ἐν τῇ πόλει", "answer": [3, 4, 8], "skills": ["alpha.iota"], "explain": "τῷ, οὐρανῷ, τῇ."},
+    {"type": "cloze-choice", "prompt": "τίς; means …", "options": [{"id": "a", "text": "who? (a question)"}, {"id": "b", "text": "someone; (a statement)"}], "answer": "a", "skills": ["alpha.punct"], "explain": "; is the question mark."},
+    {"type": "cloze-type", "prompt": "Type this exactly: ὁ ἀνήρ", "gaps": [{"answers": ["ὁ ἀνήρ"]}], "strict_accents": true, "skills": ["alpha.typing", "alpha.accents"], "explain": "ὁ ἀνήρ.", "audio": "ὁ ἀνήρ"},
+    {"type": "dictation", "prompt": "Listen and type what you hear (accents optional).", "audio": "ἡ θεά.", "gaps": [{"answers": ["ἡ θεά"]}], "skills": ["spell.dictation"], "explain": "ἡ θεά."}
+  ],
+  "skills": ["alpha.accents", "alpha.iota", "alpha.punct", "alpha.typing", "alpha.breathings", "spell.dictation"]
+}

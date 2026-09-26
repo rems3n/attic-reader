@@ -1,0 +1,657 @@
+{
+ "id": "unit-9",
+ "title_grc": "Ὁ πόλεμος · ἔλεγχος",
+ "title_en": "Unit 9 test",
+ "scope": "9.4",
+ "pass_score": 0.8,
+ "unlock_after_hours": 24,
+ "retake_after_days": 7,
+ "blurb": "Everything from Lessons 9.1–9.4: the invasion, the cousins, the crowded city, the funeral. Indirect statement (infinitive, participle, optative), φημί, relative attraction, the aorist and future passive, ὅπως + future, the optative in wishes and secondary sequence, the cases, correlatives. Four parts; no feedback until the end. 80 % to pass.",
+ "sections": [
+  {
+   "id": "vocab",
+   "title": "Λέξεις · Vocabulary",
+   "items": [
+    {
+     "type": "pick-picture",
+     "prompt": "ἅμαξα",
+     "options": [
+      {
+       "id": "a",
+       "image": "hamaxa"
+      },
+      {
+       "id": "b",
+       "image": "trieres"
+      },
+      {
+       "id": "c",
+       "image": "kline"
+      },
+      {
+       "id": "d",
+       "image": "pyrgos"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "vocab.recognition"
+     ],
+     "explain": "ἡ ἅμαξα: wagon, cart.",
+     "audio": "prompt"
+    },
+    {
+     "type": "pick-picture",
+     "prompt": "ὁπλίτης",
+     "options": [
+      {
+       "id": "a",
+       "image": "hoplites"
+      },
+      {
+       "id": "b",
+       "image": "eretes"
+      },
+      {
+       "id": "c",
+       "image": "kerameus"
+      },
+      {
+       "id": "d",
+       "image": "iatros"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "vocab.recognition"
+     ],
+     "explain": "ὁ ὁπλίτης: hoplite.",
+     "audio": "prompt"
+    },
+    {
+     "type": "pick-picture",
+     "prompt": "πύργος",
+     "options": [
+      {
+       "id": "a",
+       "image": "pyrgos"
+      },
+      {
+       "id": "b",
+       "image": "taphos"
+      },
+      {
+       "id": "c",
+       "image": "naos"
+      },
+      {
+       "id": "d",
+       "image": "bomos"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "vocab.recognition"
+     ],
+     "explain": "ὁ πύργος: tower.",
+     "audio": "prompt"
+    },
+    {
+     "type": "listen-pick",
+     "prompt": "Listen and choose what you hear.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἡ φωνή"
+      },
+      {
+       "id": "b",
+       "text": "ἡ ἡδονή"
+      },
+      {
+       "id": "c",
+       "text": "ἡ μάχη"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "listen.words"
+     ],
+     "explain": "ἡ φωνή: voice.",
+     "audio": "ἡ φωνή"
+    },
+    {
+     "type": "listen-pick",
+     "prompt": "Listen and choose what you hear.",
+     "options": [
+      {
+       "id": "a",
+       "text": "τὰ πρόβατα εἰς Εὔβοιαν ἐπέμφθη."
+      },
+      {
+       "id": "b",
+       "text": "τὰ πρόβατα εἰς Εὔβοιαν πεμφθήσεται."
+      },
+      {
+       "id": "c",
+       "text": "ἡ ἅμαξα εἰς τὴν πόλιν ἐκομίσθη."
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "listen.sentences",
+      "verb.aor.pass.ind.3sg"
+     ],
+     "explain": "The sheep were sent to Euboea.",
+     "audio": "τὰ πρόβατα εἰς Εὔβοιαν ἐπέμφθη."
+    },
+    {
+     "type": "match",
+     "prompt": "Match each verb to its meaning.",
+     "pairs": [
+      {
+       "left": "φημί",
+       "right": "say"
+      },
+      {
+       "left": "οἴομαι",
+       "right": "think, suppose"
+      },
+      {
+       "left": "πάσχω",
+       "right": "suffer"
+      },
+      {
+       "left": "θάπτω",
+       "right": "bury"
+      },
+      {
+       "left": "παραδίδωμι",
+       "right": "hand over"
+      }
+     ],
+     "skills": [
+      "vocab.recognition"
+     ],
+     "explain": "φημί, οἴομαι, πάσχω, θάπτω, παραδίδωμι."
+    },
+    {
+     "type": "cloze-type",
+     "prompt": "Type the Greek for 'army' (with its article).",
+     "gaps": [
+      {
+       "answers": [
+        "ὁ στρατός",
+        "στρατός"
+       ]
+      }
+     ],
+     "skills": [
+      "vocab.production"
+     ],
+     "explain": "ὁ στρατός.",
+     "audio": "ὁ στρατός"
+    },
+    {
+     "type": "cloze-type",
+     "prompt": "Type the Greek for 'grave, tomb' (with its article).",
+     "gaps": [
+      {
+       "answers": [
+        "ὁ τάφος",
+        "τάφος"
+       ]
+      }
+     ],
+     "skills": [
+      "vocab.production"
+     ],
+     "explain": "ὁ τάφος.",
+     "audio": "ὁ τάφος"
+    }
+   ]
+  },
+  {
+   "id": "forms",
+   "title": "Τύποι · Forms",
+   "generate": {
+    "skills": [
+     "verb.aor.pass.ind.3sg",
+     "verb.aor.pass.ind.3pl",
+     "verb.fut.pass.ind.3sg",
+     "verb.aor.pass.inf",
+     "verb.ptc.aor.pass.gen",
+     "verb.pres.act.opt.3sg",
+     "verb.aor.act.opt.3pl",
+     "verb.pres.mp.opt.3sg",
+     "verb.fut.act.inf"
+    ],
+    "n": 9,
+    "seed": 9
+   },
+   "items": [
+    {
+     "type": "parse",
+     "prompt": "Parse ἐτμήθησαν.",
+     "form": "ἐτμήθησαν",
+     "groups": [
+      {
+       "id": "tense",
+       "label": "Tense",
+       "options": [
+        {
+         "id": "impf",
+         "label": "imperfect"
+        },
+        {
+         "id": "fut",
+         "label": "future"
+        },
+        {
+         "id": "aor",
+         "label": "aorist"
+        }
+       ]
+      },
+      {
+       "id": "voice",
+       "label": "Voice",
+       "options": [
+        {
+         "id": "act",
+         "label": "active"
+        },
+        {
+         "id": "mid",
+         "label": "middle"
+        },
+        {
+         "id": "pass",
+         "label": "passive"
+        }
+       ]
+      },
+      {
+       "id": "person",
+       "label": "Person",
+       "options": [
+        {
+         "id": "3sg",
+         "label": "he, she, it"
+        },
+        {
+         "id": "1pl",
+         "label": "we"
+        },
+        {
+         "id": "3pl",
+         "label": "they"
+        }
+       ]
+      }
+     ],
+     "answer": {
+      "tense": "aor",
+      "voice": "pass",
+      "person": "3pl"
+     },
+     "skills": [
+      "verb.aor.pass.ind.3pl"
+     ],
+     "explain": "ἐ-τμή-θη-σαν: aorist passive of τέμνω, 'they were cut down'.",
+     "audio": "ἐτμήθησαν"
+    },
+    {
+     "type": "parse",
+     "prompt": "Parse εἴη.",
+     "form": "εἴη",
+     "groups": [
+      {
+       "id": "mood",
+       "label": "Mood",
+       "options": [
+        {
+         "id": "ind",
+         "label": "indicative"
+        },
+        {
+         "id": "subj",
+         "label": "subjunctive"
+        },
+        {
+         "id": "opt",
+         "label": "optative"
+        }
+       ]
+      },
+      {
+       "id": "verb",
+       "label": "Which verb?",
+       "options": [
+        {
+         "id": "eimi",
+         "label": "εἰμί 'be'"
+        },
+        {
+         "id": "eimi-go",
+         "label": "εἶμι 'go'"
+        },
+        {
+         "id": "phemi",
+         "label": "φημί 'say'"
+        }
+       ]
+      }
+     ],
+     "answer": {
+      "mood": "opt",
+      "verb": "eimi"
+     },
+     "skills": [
+      "verb.pres.act.opt.3sg"
+     ],
+     "explain": "εἴη: present optative of εἰμί.",
+     "audio": "εἴη"
+    }
+   ]
+  },
+  {
+   "id": "sentences",
+   "title": "Λόγοι · Sentences",
+   "items": [
+    {
+     "type": "cloze-choice",
+     "prompt": "ὁ Ἀρίστων οἴεται τοὺς Λακεδαιμονίους τοῦ θέρους πάλιν ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἥξειν"
+      },
+      {
+       "id": "b",
+       "text": "ἥξουσιν"
+      },
+      {
+       "id": "c",
+       "text": "ἥκοντες"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.indirect-inf",
+      "verb.fut.act.inf"
+     ],
+     "explain": "οἴομαι + accusative + infinitive; future infinitive ἥξειν 'that they will come'."
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "ὁ Λύσις τὸν καπνὸν ἐκ τῶν ἀγρῶν ___ εἶδεν.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἀναβαίνοντα"
+      },
+      {
+       "id": "b",
+       "text": "ἀναβαίνειν"
+      },
+      {
+       "id": "c",
+       "text": "ἀναβαίνει"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.indirect-ptc"
+     ],
+     "explain": "After a verb of seeing: accusative + participle."
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "ὁ Ἀρίστων πράξει ὅπως ἡ οὐσία ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "σωθήσεται"
+      },
+      {
+       "id": "b",
+       "text": "σωθῆναι"
+      },
+      {
+       "id": "c",
+       "text": "σῴζειν"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.hopos-fut"
+     ],
+     "explain": "ὅπως + future indicative after a verb of effort."
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "εἴθε οἱ Λακεδαιμόνιοι μηκέτι ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἔλθοιεν"
+      },
+      {
+       "id": "b",
+       "text": "ἦλθον"
+      },
+      {
+       "id": "c",
+       "text": "ἔρχονται"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.opt-wish"
+     ],
+     "explain": "A wish: εἴθε + optative."
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "ὁ στρατὸς τοσοῦτος ἦν ___ οὔποτε πρότερον.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ὅσος"
+      },
+      {
+       "id": "b",
+       "text": "οἷος"
+      },
+      {
+       "id": "c",
+       "text": "ὅς"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "pron.correlatives"
+     ],
+     "explain": "τοσοῦτος … ὅσος."
+    },
+    {
+     "type": "transform",
+     "prompt": "Make the main verb past: φοβεῖται μὴ ὁ πόλεμος μακρὸς γένηται. → ἐφοβεῖτο μὴ ὁ πόλεμος μακρὸς …",
+     "template": "ἐφοβεῖτο μὴ ὁ πόλεμος μακρὸς ___.",
+     "gaps": [
+      {
+       "answers": [
+        "γένοιτο",
+        "γένηται"
+       ]
+      }
+     ],
+     "skills": [
+      "syntax.opt-secondary",
+      "syntax.fear"
+     ],
+     "explain": "Secondary sequence: γένοιτο (γένηται may be kept).",
+     "audio": "ἐφοβεῖτο μὴ ὁ πόλεμος μακρὸς γένοιτο."
+    },
+    {
+     "type": "transform",
+     "prompt": "Report the question: ὁ Λύσις· «ἆρα μάχη ἐγένετο;» → ὁ Λύσις ἤρετο εἰ μάχη …",
+     "template": "ὁ Λύσις ἤρετο εἰ μάχη ___.",
+     "gaps": [
+      {
+       "answers": [
+        "γένοιτο",
+        "ἐγένετο"
+       ]
+      }
+     ],
+     "skills": [
+      "syntax.opt-indirect",
+      "syntax.indirect-question"
+     ],
+     "explain": "After the past ἤρετο the aorist ἐγένετο may become the optative γένοιτο.",
+     "audio": "ὁ Λύσις ἤρετο εἰ μάχη γένοιτο."
+    },
+    {
+     "type": "compose-grc",
+     "prompt": "Write in Greek with φημί: 'Pericles said that the city would be saved.' (future passive infinitive)",
+     "gaps": [
+      {
+       "answers": [
+        "ὁ Περικλῆς ἔφη τὴν πόλιν σωθήσεσθαι",
+        "ἔφη ὁ Περικλῆς τὴν πόλιν σωθήσεσθαι",
+        "ὁ Περικλῆς τὴν πόλιν ἔφη σωθήσεσθαι"
+       ]
+      }
+     ],
+     "skills": [
+      "vocab.production",
+      "syntax.indirect-inf",
+      "verb.phemi",
+      "verb.fut.pass.ind.3sg"
+     ],
+     "explain": "ὁ Περικλῆς ἔφη τὴν πόλιν σωθήσεσθαι: accusative subject + future passive infinitive."
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "Ἀνάγνωσις · Reading",
+   "passage_title": "αἱ ἐλαῖαι τοῦ Εὐδήμου",
+   "passage": "χειμῶνος ὁ Εὔδημος καὶ ὁ Μικίων τὴν ἅμαξαν εἰς Ἀχαρνὰς ἤγαγον, ἵνα τοὺς ἀγροὺς ἴδοιεν. ἐπεὶ δὲ ἀφίκοντο, τὴν μὲν οἰκίαν εὗρον καυθεῖσαν, τὰς δὲ ἀμπέλους τμηθείσας· τοσαῦτα κακὰ ἦν ὅσα ὁ Μικίων οὔποτε πρότερον εἶδεν. ὁ δὲ Εὔδημος πρὸς τὰς ἐλαίας ἔδραμεν. αἱ γὰρ ἐλαῖαι οὐ ῥᾳδίως τέμνονται, καὶ πολλαὶ ἔτι ἵσταντο. «ἰδού», ἔφη ὁ Εὔδημος, «οἱ Λακεδαιμόνιοι οὐ πάσας ἔτεμον· ἡ θεὰ τὰς ἐλαίας ἡμῶν ἔσωσεν.» ὁ δὲ Μικίων ἤρετο εἰ δυνατὸν εἴη ἐνταῦθα πάλιν οἰκεῖν. ὁ δὲ πατὴρ εἶπεν ὅτι οὔπω δυνατὸν εἴη· τοῦ γὰρ θέρους οἱ Λακεδαιμόνιοι πάλιν ἥξοιεν. «ἀλλὰ πράξω», ἔφη, «ὅπως ἄλλας ἀμπέλους ἕξομεν. εἴθε ὁ πόλεμος ταχέως παύσαιτο.» ἔπειτα τὰ λοιπὰ ξύλα τῆς οἰκίας ἐπὶ τὴν ἅμαξαν ἔθεσαν καὶ πάλιν εἰς τὴν πόλιν ἦλθον. ἐν δὲ τῇ ὁδῷ ὁ Εὔδημος, ὃς πρότερον ἀεὶ ὠργίζετο, περὶ τῶν ἐλαιῶν χαίρων ἔλεγεν· καὶ ὁ Μικίων ᾔσθετο τὸν πατέρα οὐκέτι ὀργιζόμενον.",
+   "items": [
+    {
+     "type": "true-false-grc",
+     "prompt": "ἡ οἰκία τοῦ Εὐδήμου ἐκαύθη.",
+     "answer": "true",
+     "skills": [
+      "read.comprehension",
+      "verb.aor.pass.ind.3sg"
+     ],
+     "explain": "τὴν μὲν οἰκίαν εὗρον καυθεῖσαν."
+    },
+    {
+     "type": "true-false-grc",
+     "prompt": "οἱ Λακεδαιμόνιοι πάσας τὰς ἐλαίας ἔτεμον.",
+     "answer": "false",
+     "skills": [
+      "read.comprehension"
+     ],
+     "explain": "«οἱ Λακεδαιμόνιοι οὐ πάσας ἔτεμον.»"
+    },
+    {
+     "type": "true-false-grc",
+     "prompt": "ὁ Εὔδημος εἶπεν ὅτι οὔπω δυνατὸν εἴη ἐν Ἀχαρναῖς οἰκεῖν.",
+     "answer": "true",
+     "skills": [
+      "read.comprehension",
+      "syntax.opt-indirect"
+     ],
+     "explain": "εἶπεν ὅτι οὔπω δυνατὸν εἴη."
+    },
+    {
+     "type": "answer-grc",
+     "prompt": "διὰ τί ὁ Εὔδημος καὶ ὁ Μικίων εἰς Ἀχαρνὰς ἦλθον;",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἵνα τοὺς ἀγροὺς ἴδοιεν."
+      },
+      {
+       "id": "b",
+       "text": "ἵνα πρὸς τοὺς Λακεδαιμονίους μάχοιντο."
+      },
+      {
+       "id": "c",
+       "text": "ἵνα τὰς ἐλαίας τέμνοιεν."
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "read.comprehension",
+      "syntax.opt-secondary"
+     ],
+     "explain": "ἵνα τοὺς ἀγροὺς ἴδοιεν: purpose after a past verb."
+    },
+    {
+     "type": "answer-grc",
+     "prompt": "τί πράξει ὁ Εὔδημος;",
+     "options": [
+      {
+       "id": "a",
+       "text": "ὅπως ἄλλας ἀμπέλους ἕξουσιν."
+      },
+      {
+       "id": "b",
+       "text": "ὅπως τὴν οἰκίαν καύσει."
+      },
+      {
+       "id": "c",
+       "text": "ὅπως εἰς Εὔβοιαν πλεύσονται."
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "read.comprehension",
+      "syntax.hopos-fut"
+     ],
+     "explain": "«πράξω ὅπως ἄλλας ἀμπέλους ἕξομεν.»"
+    },
+    {
+     "type": "translate-en",
+     "prompt": "Translate: τὴν μὲν οἰκίαν εὗρον καυθεῖσαν, τὰς δὲ ἀμπέλους τμηθείσας.",
+     "model": "They found the house burnt and the vines cut down.",
+     "skills": [
+      "read.comprehension",
+      "verb.ptc.aor.pass"
+     ],
+     "explain": "εὑρίσκω + participle; καυθεῖσαν, τμηθείσας: aorist passive participles.",
+     "audio": "τὴν μὲν οἰκίαν εὗρον καυθεῖσαν, τὰς δὲ ἀμπέλους τμηθείσας."
+    },
+    {
+     "type": "translate-en",
+     "prompt": "Translate: ὁ δὲ πατὴρ εἶπεν ὅτι οὔπω δυνατὸν εἴη· τοῦ γὰρ θέρους οἱ Λακεδαιμόνιοι πάλιν ἥξοιεν.",
+     "model": "His father said that it was not yet possible, for in the summer the Spartans would come again.",
+     "skills": [
+      "read.comprehension",
+      "syntax.opt-indirect"
+     ],
+     "explain": "εἴη and ἥξοιεν (future optative) stand for ἐστί and ἥξουσι in reported speech; τοῦ θέρους: genitive of time.",
+     "audio": "ὁ δὲ πατὴρ εἶπεν ὅτι οὔπω δυνατὸν εἴη· τοῦ γὰρ θέρους οἱ Λακεδαιμόνιοι πάλιν ἥξοιεν."
+    }
+   ],
+   "glosses": {
+    "εἴθε": "if only",
+    "θέρους": "summer (gen.)",
+    "ξύλα": "wood, logs",
+    "οὔποτε": "never",
+    "οὔπω": "not yet",
+    "πρότερον": "earlier, before",
+    "ἀμπέλους": "vines",
+    "ὀργιζόμενον": "being angry (ὀργίζομαι)",
+    "ὠργίζετο": "was angry (ὀργίζομαι)"
+   }
+  }
+ ]
+}

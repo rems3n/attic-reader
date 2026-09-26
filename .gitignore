@@ -11,3 +11,7 @@ models/
 *.mp3
 frontend/.next/
 *.egg-info/
+backend/.image-cache/
+backend/.image-venv/
+.claude/worktrees/
+.next-*/

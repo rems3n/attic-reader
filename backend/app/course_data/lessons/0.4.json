@@ -1,0 +1,140 @@
+{
+  "id": "0.4",
+  "title_grc": "λόγοι πρῶτοι",
+  "title_en": "First words",
+  "summary_grc": "τίς ἐστιν; — θεός ἐστιν. εἷς, δύο, τρεῖς …",
+  "summary_en": "Twenty picture words, the little words ὁ ἡ ἐστίν καί οὐ τίς, and the numbers one to ten.",
+  "cover": "polis",
+  "caption_grc": "τίς ἐστιν; θεός ἐστιν. τί ἐστιν; ἵππος ἐστίν.",
+  "names": {},
+  "allow": {},
+  "story": [
+    {
+      "image": "theos",
+      "sentences": [
+        {"text": "τίς ἐστιν; θεός ἐστιν. ὁ Ζεὺς θεός ἐστιν.", "glosses": [{"word": "τίς", "kind": "en", "value": "who?"}, {"word": "ἐστιν", "kind": "en", "value": "is"}, {"word": "θεός", "kind": "pic", "value": "theos"}]},
+        {"text": "τίς ἐστιν; θεά ἐστιν. ἡ Ἀθηνᾶ θεά ἐστιν.", "glosses": [{"word": "θεά", "kind": "pic", "value": "thea"}, {"word": "ἡ", "kind": "|", "value": "ὁ | ἡ"}]},
+        {"text": "ὁ Ζεὺς θεός ἐστιν, οὐ θεά. ἡ Ἀθηνᾶ θεά ἐστιν, οὐ θεός.", "glosses": [{"word": "οὐ", "kind": "=", "value": "✗"}]},
+        {"text": "ὁ Ζεὺς καὶ ἡ Ἀθηνᾶ θεοί εἰσιν.", "glosses": [{"word": "καὶ", "kind": "=", "value": "Α καὶ Β"}, {"word": "θεοί", "kind": "|", "value": "θεός | θεοί"}, {"word": "εἰσιν", "kind": "|", "value": "ἐστίν | εἰσίν"}]}
+      ]
+    },
+    {
+      "image": "hippos",
+      "sentences": [
+        {"text": "τί ἐστιν; ἵππος ἐστίν. ὁ ἵππος οὐκ ἄνθρωπός ἐστιν.", "glosses": [{"word": "τί", "kind": "en", "value": "what?"}, {"word": "ἵππος", "kind": "pic", "value": "hippos"}, {"word": "ἄνθρωπός", "kind": "pic", "value": "anthropos"}, {"word": "οὐκ", "kind": "=", "value": "οὐ + vowel → οὐκ"}]},
+        {"text": "τί ἐστιν; κύων ἐστίν. ὁ κύων οὐχ ἵππος ἐστίν.", "glosses": [{"word": "κύων", "kind": "pic", "value": "kyon"}, {"word": "οὐχ", "kind": "=", "value": "οὐ + ἁ ἑ ἡ ἱ ὁ ὑ → οὐχ"}]},
+        {"text": "ὁ ἀνήρ ἄνθρωπός ἐστιν. ἡ γυνὴ ἄνθρωπός ἐστιν. ὁ παῖς ἄνθρωπός ἐστιν.", "glosses": [{"word": "ἀνήρ", "kind": "pic", "value": "aner"}, {"word": "γυνὴ", "kind": "pic", "value": "gyne"}, {"word": "παῖς", "kind": "pic", "value": "pais"}]},
+        {"text": "τί ἐστιν; οἶκός ἐστιν. τί ἐστιν; ἀγορά ἐστιν. τί ἐστιν; πόλις ἐστίν.", "glosses": [{"word": "οἶκός", "kind": "pic", "value": "oikos"}, {"word": "ἀγορά", "kind": "pic", "value": "agora"}, {"word": "πόλις", "kind": "pic", "value": "polis"}]},
+        {"text": "αἱ Ἀθῆναι πόλις εἰσίν. ἡ ἀγορὰ ἐν τῇ πόλει ἐστίν.", "glosses": [{"word": "αἱ", "kind": "=", "value": "ἡ | αἱ (plural)"}, {"word": "ἐν", "kind": "en", "value": "in"}, {"word": "πόλει", "kind": "=", "value": "πόλις → ἐν τῇ πόλει"}]}
+      ]
+    },
+    {
+      "image": "helios",
+      "sentences": [
+        {"text": "ὁ ἥλιος ἐν τῷ οὐρανῷ ἐστιν. καὶ ἡ σελήνη ἐν τῷ οὐρανῷ ἐστιν.", "glosses": [{"word": "ἥλιος", "kind": "pic", "value": "helios"}, {"word": "οὐρανῷ", "kind": "pic", "value": "ouranos"}, {"word": "σελήνη", "kind": "pic", "value": "selene"}]},
+        {"text": "ἡ γῆ οὐκ ἐν τῷ οὐρανῷ ἐστιν. ἡ θάλαττα ἐν τῇ γῇ ἐστιν.", "glosses": [{"word": "γῆ", "kind": "pic", "value": "ge"}, {"word": "θάλαττα", "kind": "pic", "value": "thalatta"}]},
+        {"text": "τί ἐστιν; δένδρον ἐστίν. τί ἐστιν; ἄνθος ἐστίν. τὸ ἄνθος καλόν ἐστιν.", "glosses": [{"word": "δένδρον", "kind": "pic", "value": "dendron"}, {"word": "ἄνθος", "kind": "pic", "value": "anthos"}, {"word": "τὸ", "kind": "=", "value": "ὁ | ἡ | τό"}, {"word": "καλόν", "kind": "pic", "value": "kalos"}]},
+        {"text": "πῦρ καὶ ὕδωρ. τὸ πῦρ οὐχ ὕδωρ ἐστίν.", "glosses": [{"word": "πῦρ", "kind": "pic", "value": "pyr"}, {"word": "ὕδωρ", "kind": "pic", "value": "hydor"}]},
+        {"text": "τί ἐστιν; βιβλίον ἐστίν. τὸ βιβλίον ἐν τῷ οἴκῳ ἐστίν.", "glosses": [{"word": "βιβλίον", "kind": "pic", "value": "biblion"}]}
+      ]
+    },
+    {
+      "image": "kalos",
+      "sentences": [
+        {"text": "εἷς, δύο, τρεῖς, τέτταρες, πέντε.", "glosses": [{"word": "εἷς", "kind": "=", "value": "1 · α´"}, {"word": "δύο", "kind": "=", "value": "2 · β´"}, {"word": "τρεῖς", "kind": "=", "value": "3 · γ´"}, {"word": "τέτταρες", "kind": "=", "value": "4 · δ´"}, {"word": "πέντε", "kind": "=", "value": "5 · ε´"}]},
+        {"text": "ἕξ, ἑπτά, ὀκτώ, ἐννέα, δέκα.", "glosses": [{"word": "ἕξ", "kind": "=", "value": "6 · ϛ´"}, {"word": "ἑπτά", "kind": "=", "value": "7 · ζ´"}, {"word": "ὀκτώ", "kind": "=", "value": "8 · η´"}, {"word": "ἐννέα", "kind": "=", "value": "9 · θ´"}, {"word": "δέκα", "kind": "=", "value": "10 · ι´"}]}
+      ]
+    }
+  ],
+  "vocab": [
+    {"id": "ανθρωπος", "pic": "anthropos"},
+    {"id": "ανηρ", "pic": "aner"},
+    {"id": "γυνη", "pic": "gyne"},
+    {"id": "παις", "pic": "pais"},
+    {"id": "κυων", "pic": "kyon"},
+    {"id": "ιππος", "pic": "hippos"},
+    {"id": "οικος", "pic": "oikos"},
+    {"id": "αγορα", "pic": "agora"},
+    {"id": "πολις", "pic": "polis"},
+    {"id": "θαλαττα", "pic": "thalatta"},
+    {"id": "ηλιος", "pic": "helios"},
+    {"id": "σεληνη", "pic": "selene"},
+    {"id": "γη", "pic": "ge"},
+    {"id": "ουρανος", "pic": "ouranos"},
+    {"id": "δενδρον", "pic": "dendron"},
+    {"id": "ανθος", "pic": "anthos"},
+    {"id": "πυρ", "pic": "pyr"},
+    {"id": "υδωρ", "pic": "hydor"},
+    {"id": "βιβλιον", "pic": "biblion"},
+    {"id": "θεος", "pic": "theos"},
+    {"id": "θεα", "pic": "thea"},
+    {"id": "ο", "gloss_grc": "ὁ | ἡ | τό"},
+    {"id": "ειμι", "gloss_grc": "ἐστί(ν) | εἰσί(ν)"},
+    {"id": "και", "gloss_grc": "Α καὶ Β"},
+    {"id": "ου", "gloss_grc": "οὐ / οὐκ / οὐχ = ✗"},
+    {"id": "τις", "gloss_grc": "τίς; τί;"},
+    {"id": "εις-62", "gloss_grc": "1"},
+    {"id": "δυο", "gloss_grc": "2"},
+    {"id": "τρεις", "gloss_grc": "3"},
+    {"id": "τετταρες", "gloss_grc": "4"},
+    {"id": "πεντε", "gloss_grc": "5"},
+    {"id": "εξ", "gloss_grc": "6"},
+    {"id": "επτα", "gloss_grc": "7"},
+    {"id": "οκτω", "gloss_grc": "8"},
+    {"id": "εννεα", "gloss_grc": "9"},
+    {"id": "δεκα", "gloss_grc": "10"}
+  ],
+  "notice": ["τίς ἐστιν; — θεός ἐστιν.", "τί ἐστιν; — ἵππος ἐστίν.", "ὁ ἵππος οὐκ ἄνθρωπός ἐστιν.", "ὁ θεός · ἡ θεά · τὸ ἄνθος"],
+  "grammar": {
+    "md": "Nothing to memorize yet: this lesson is for the ear and the eye. Notice three things and Unit 1 will make them explicit.\n\n1. **Question and answer.** τίς ἐστιν; 'who is it?' and τί ἐστιν; 'what is it?' are answered with a noun and ἐστίν: θεός ἐστιν, ἵππος ἐστίν. There is no word for 'a'.\n2. **Three little words for 'the'.** ὁ before some nouns (ὁ θεός, ὁ ἵππος), ἡ before others (ἡ θεά, ἡ γῆ), τό before others again (τὸ ἄνθος, τὸ πῦρ). They are the three genders. Learn each noun with its word for 'the'.\n3. **Not.** οὐ before a consonant, οὐκ before a vowel, οὐχ before a vowel with an *h*: οὐ θεά, οὐκ ἄνθρωπος, οὐχ ἵππος.\n\n**Numbers.** The Greeks wrote numbers with letters and a tick: α´ β´ γ´ δ´ ε´ ϛ´ ζ´ η´ θ´ ι´ (ϛ, *stigma*, is an old letter kept for 6). Say the words; the letters will come back in the readings.",
+    "paradigms": ["article", "eimi"],
+    "diagram": null
+  },
+  "exercises": [
+    {"type": "pick-picture", "prompt": "ἵππος", "audio": "prompt", "options": [{"id": "a", "image": "kyon"}, {"id": "b", "image": "hippos"}, {"id": "c", "image": "anthropos"}, {"id": "d", "image": "oikos"}], "answer": "b", "skills": ["vocab.recognition"], "explain": "ἵππος: horse."},
+    {"type": "pick-picture", "prompt": "θάλαττα", "audio": "prompt", "options": [{"id": "a", "image": "ge"}, {"id": "b", "image": "ouranos"}, {"id": "c", "image": "thalatta"}, {"id": "d", "image": "helios"}], "answer": "c", "skills": ["vocab.recognition"], "explain": "θάλαττα: sea."},
+    {"type": "pick-picture", "prompt": "βιβλίον", "audio": "prompt", "options": [{"id": "a", "image": "biblion"}, {"id": "b", "image": "anthos"}, {"id": "c", "image": "dendron"}, {"id": "d", "image": "pyr"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "βιβλίον: book (a papyrus roll)."},
+    {"type": "pick-picture", "prompt": "σελήνη", "audio": "prompt", "options": [{"id": "a", "image": "helios"}, {"id": "b", "image": "selene"}, {"id": "c", "image": "pyr"}, {"id": "d", "image": "hydor"}], "answer": "b", "skills": ["vocab.recognition"], "explain": "σελήνη: moon. ἥλιος: sun."},
+    {"type": "pick-picture", "prompt": "γυνή", "audio": "prompt", "options": [{"id": "a", "image": "aner"}, {"id": "b", "image": "pais"}, {"id": "c", "image": "gyne"}, {"id": "d", "image": "thea"}], "answer": "c", "skills": ["vocab.recognition"], "explain": "γυνή: woman. θεά: goddess."},
+    {"type": "listen-pick", "prompt": "Listen and pick the picture.", "audio": "πῦρ", "options": [{"id": "a", "image": "pyr"}, {"id": "b", "image": "hydor"}, {"id": "c", "image": "ge"}], "answer": "a", "skills": ["listen.words"], "explain": "πῦρ: fire."},
+    {"type": "listen-pick", "prompt": "Listen and pick the picture.", "audio": "δένδρον", "options": [{"id": "a", "image": "anthos"}, {"id": "b", "image": "dendron"}, {"id": "c", "image": "polis"}], "answer": "b", "skills": ["listen.words"], "explain": "δένδρον: tree."},
+    {"type": "listen-pick", "prompt": "Listen and pick the picture.", "audio": "ὁ κύων", "options": [{"id": "a", "image": "hippos"}, {"id": "b", "image": "pais"}, {"id": "c", "image": "kyon"}], "answer": "c", "skills": ["listen.words"], "explain": "ὁ κύων: the dog."},
+    {"type": "match", "prompt": "Match the Greek word to the picture word it goes with.", "pairs": [{"left": "ἥλιος", "right": "sun"}, {"left": "γῆ", "right": "earth"}, {"left": "οὐρανός", "right": "sky"}, {"left": "ὕδωρ", "right": "water"}], "skills": ["vocab.recognition"], "explain": "ἥλιος, γῆ, οὐρανός, ὕδωρ."},
+    {"type": "match", "prompt": "Match the word for 'the' to its noun.", "pairs": [{"left": "ὁ", "right": "θεός"}, {"left": "ἡ", "right": "θεά"}, {"left": "τό", "right": "ἄνθος"}], "skills": ["noun.gender"], "explain": "ὁ θεός, ἡ θεά, τὸ ἄνθος: three genders."},
+    {"type": "bank-cloze", "prompt": "ὁ Ζεὺς ___ ἐστιν.", "options": [{"id": "a", "text": "θεός"}, {"id": "b", "text": "θεά"}, {"id": "c", "text": "ἵππος"}], "answer": "a", "skills": ["read.comprehension"], "explain": "Zeus is a god (θεός); Athena is a goddess (θεά)."},
+    {"type": "bank-cloze", "prompt": "ὁ ἵππος ___ ἄνθρωπός ἐστιν.", "options": [{"id": "a", "text": "οὐ"}, {"id": "b", "text": "οὐκ"}, {"id": "c", "text": "οὐχ"}], "answer": "b", "skills": ["syntax.negation"], "explain": "οὐκ before a vowel without h."},
+    {"type": "bank-cloze", "prompt": "ὁ κύων ___ ἵππος ἐστίν.", "options": [{"id": "a", "text": "οὐ"}, {"id": "b", "text": "οὐκ"}, {"id": "c", "text": "οὐχ"}], "answer": "c", "skills": ["syntax.negation"], "explain": "οὐχ before a rough breathing: οὐχ ἵππος."},
+    {"type": "true-false-grc", "prompt": "ἡ Ἀθηνᾶ θεός ἐστιν.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "ἡ Ἀθηνᾶ θεά ἐστιν, οὐ θεός."},
+    {"type": "true-false-grc", "prompt": "ὁ ἥλιος ἐν τῷ οὐρανῷ ἐστιν.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "The sun is in the sky."},
+    {"type": "true-false-grc", "prompt": "τὸ πῦρ ὕδωρ ἐστίν.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "τὸ πῦρ οὐχ ὕδωρ ἐστίν."},
+    {"type": "reorder", "prompt": "Put the numbers 1–5 in order.", "tokens": ["τρεῖς", "εἷς", "πέντε", "δύο", "τέτταρες"], "answers": ["εἷς δύο τρεῖς τέτταρες πέντε"], "skills": ["alpha.numbers"], "explain": "εἷς, δύο, τρεῖς, τέτταρες, πέντε."},
+    {"type": "reorder", "prompt": "Put the numbers 6–10 in order.", "tokens": ["ὀκτώ", "ἕξ", "δέκα", "ἑπτά", "ἐννέα"], "answers": ["ἕξ ἑπτά ὀκτώ ἐννέα δέκα"], "skills": ["alpha.numbers"], "explain": "ἕξ, ἑπτά, ὀκτώ, ἐννέα, δέκα."},
+    {"type": "listen-pick", "prompt": "Listen: which number do you hear?", "audio": "ἑπτά", "options": [{"id": "a", "text": "7"}, {"id": "b", "text": "8"}, {"id": "c", "text": "10"}], "answer": "a", "skills": ["alpha.numbers", "listen.words"], "explain": "ἑπτά = 7 (hepta-, as in heptagon)."},
+    {"type": "listen-pick", "prompt": "Listen: which number do you hear?", "audio": "τέτταρες", "options": [{"id": "a", "text": "3"}, {"id": "b", "text": "4"}, {"id": "c", "text": "5"}], "answer": "b", "skills": ["alpha.numbers", "listen.words"], "explain": "τέτταρες = 4 (tetra-)."},
+    {"type": "dictation", "prompt": "Listen and type what you hear.", "audio": "ἡ γῆ", "gaps": [{"answers": ["ἡ γῆ"]}], "skills": ["spell.dictation"], "explain": "ἡ γῆ."},
+    {"type": "dictation", "prompt": "Listen and type what you hear.", "audio": "θεός ἐστιν.", "gaps": [{"answers": ["θεός ἐστιν", "θεός ἐστι"]}], "skills": ["spell.dictation"], "explain": "θεός ἐστιν."},
+    {"type": "cloze-type", "prompt": "Type the Greek for 'water'.", "gaps": [{"answers": ["ὕδωρ"]}], "skills": ["vocab.production"], "explain": "ὕδωρ (hydro-).", "audio": "ὕδωρ"},
+    {"type": "cloze-type", "prompt": "Type the Greek for 'city'.", "gaps": [{"answers": ["πόλις"]}], "skills": ["vocab.production"], "explain": "πόλις (politics, metropolis).", "audio": "πόλις"},
+    {"type": "word-family", "prompt": "Match the Greek word to an English word that comes from it.", "pairs": [{"left": "ὕδωρ", "right": "hydrant"}, {"left": "πόλις", "right": "metropolis"}, {"left": "βιβλίον", "right": "bibliography"}, {"left": "ἥλιος", "right": "helium"}, {"left": "θεός", "right": "theology"}], "skills": ["vocab.family"], "explain": "hydrant, metropolis 'mother-city', bibliography, helium, theology."}
+  ],
+  "questions": [
+    {"type": "answer-grc", "prompt": "τίς ἐστιν ὁ Ζεύς;", "audio": "prompt", "options": [{"id": "a", "text": "θεός ἐστιν."}, {"id": "b", "text": "θεά ἐστιν."}, {"id": "c", "text": "ἵππος ἐστίν."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ὁ Ζεὺς θεός ἐστιν."},
+    {"type": "answer-grc", "prompt": "τί ἐστιν ἐν τῷ οὐρανῷ;", "audio": "prompt", "options": [{"id": "a", "text": "ὁ ἥλιος καὶ ἡ σελήνη."}, {"id": "b", "text": "ἡ θάλαττα."}, {"id": "c", "text": "ὁ οἶκος."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ὁ ἥλιος καὶ ἡ σελήνη ἐν τῷ οὐρανῷ εἰσιν."},
+    {"type": "answer-grc", "prompt": "ποῦ ἐστιν ἡ ἀγορά;", "audio": "prompt", "options": [{"id": "a", "text": "ἐν τῇ πόλει."}, {"id": "b", "text": "ἐν τῷ οὐρανῷ."}, {"id": "c", "text": "ἐν τῇ θαλάττῃ."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ἡ ἀγορὰ ἐν τῇ πόλει ἐστίν. (ποῦ; = where?)"}
+  ],
+  "culture": {
+    "title": "Athens in 432 BC",
+    "md": "The story you are about to read is set in the summer of 432 BC. Athens is at the height of its power: the Parthenon has just been finished, Pericles leads the assembly, the fleet rules the Aegean, and the city's potters export their red-figure vases from Spain to the Black Sea. In the Agora, the open square at the foot of the Acropolis, citizens shop, argue, vote and gossip. War with Sparta is one year away. Ariston, a potter with a workshop in the Kerameikos, his wife Chrysis, their children Lysis and Elpis, old Kleinias, the slave Syros and the dog Labros are made up; everything around them is as the excavations and the texts describe it.",
+    "image": "polis"
+  },
+  "quiz": [
+    {"type": "pick-picture", "prompt": "οὐρανός", "audio": "prompt", "options": [{"id": "a", "image": "ge"}, {"id": "b", "image": "ouranos"}, {"id": "c", "image": "thalatta"}], "answer": "b", "skills": ["vocab.recognition"], "explain": "οὐρανός: sky."},
+    {"type": "listen-pick", "prompt": "Listen and pick the picture.", "audio": "ἡ πόλις", "options": [{"id": "a", "image": "polis"}, {"id": "b", "image": "oikos"}, {"id": "c", "image": "agora"}], "answer": "a", "skills": ["listen.words"], "explain": "ἡ πόλις: the city."},
+    {"type": "bank-cloze", "prompt": "ὁ κύων ___ ἄνθρωπός ἐστιν.", "options": [{"id": "a", "text": "οὐ"}, {"id": "b", "text": "οὐκ"}, {"id": "c", "text": "οὐχ"}], "answer": "b", "skills": ["syntax.negation"], "explain": "οὐκ before ἄ."},
+    {"type": "true-false-grc", "prompt": "ἡ θάλαττα ἐν τῷ οὐρανῷ ἐστιν.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "ἡ θάλαττα ἐν τῇ γῇ ἐστιν."},
+    {"type": "listen-pick", "prompt": "Listen: which number do you hear?", "audio": "δέκα", "options": [{"id": "a", "text": "2"}, {"id": "b", "text": "8"}, {"id": "c", "text": "10"}], "answer": "c", "skills": ["alpha.numbers", "listen.words"], "explain": "δέκα = 10 (decade)."},
+    {"type": "match", "prompt": "Match the word for 'the' to its noun.", "pairs": [{"left": "ὁ", "right": "ἵππος"}, {"left": "ἡ", "right": "σελήνη"}, {"left": "τό", "right": "βιβλίον"}], "skills": ["noun.gender"], "explain": "ὁ ἵππος, ἡ σελήνη, τὸ βιβλίον."},
+    {"type": "cloze-type", "prompt": "Type the Greek for 'god'.", "gaps": [{"answers": ["θεός"]}], "skills": ["vocab.production"], "explain": "θεός.", "audio": "θεός"}
+  ],
+  "skills": ["vocab.recognition", "vocab.production", "vocab.family", "listen.words", "spell.dictation", "noun.gender", "syntax.negation", "read.comprehension", "alpha.numbers"]
+}

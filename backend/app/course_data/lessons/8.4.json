@@ -1,0 +1,207 @@
+{
+ "id": "8.4",
+ "title_grc": "ὁ Περικλῆς",
+ "title_en": "Pericles speaks",
+ "summary_grc": "ὁ Περικλῆς ὑπὸ πάντων ἀκούεται· «τὰ ἐκ τῶν ἀγρῶν εἰσκομίζετε.»",
+ "summary_en": "The Peloponnesian army gathers at the Isthmus. Pericles advises the Assembly to bring everything in from the fields and trust the fleet; at home Demokritos counts the cost. The present and imperfect passive, the agent with ὑπό, the dative of means, and how prepositional prefixes join a verb.",
+ "cover": "panel-8-4-a",
+ "caption_grc": "ὁ Περικλῆς ὑπὸ πάντων ἀκούεται, καὶ ὁ δῆμος ὑπ' αὐτοῦ πείθεται.",
+ "original": {"text": "thuc-2.13", "note": "Thucydides 2.13.2, his summary of Pericles' advice in the spring of 431, adapted in paragraph 2. Thucydides reports the advice in indirect speech (παρῄνει … ἐσκομίζεσθαι); the story turns it into Pericles' own words."},
+ "names": {
+  "Ἰσθμός": ["Ἰσθμοῦ", "Ἰσθμῷ", "Ἰσθμόν"],
+  "Εὔβοια": ["Εὐβοίας", "Εὐβοίᾳ", "Εὔβοιαν"]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "panel-8-4-a",
+   "sentences": [
+    {"text": "ὀλίγαις δὲ ἡμέραις ὕστερον ἀγγέλλεται ὅτι ὁ στρατὸς τῶν Πελοποννησίων ἐν τῷ Ἰσθμῷ ἀθροίζεται.", "glosses": [
+     {"word": "ὕστερον", "kind": "en", "value": "later: ὀλίγαις ἡμέραις ὕστερον 'a few days later'"},
+     {"word": "ἀγγέλλεται", "kind": "en", "value": "it is reported (passive of ἀγγέλλω 'report')"},
+     {"word": "στρατὸς", "kind": "en", "value": "army"},
+     {"word": "ἀθροίζεται", "kind": "en", "value": "is being gathered (passive of ἀθροίζω)"}
+    ]},
+    {"text": "ἡγεῖται δὲ αὐτοῦ Ἀρχίδαμος, ὁ τῶν Λακεδαιμονίων βασιλεύς."},
+    {"text": "πάλιν οὖν ἐκκλησία ὑπὸ τῶν πρυτάνεων ποιεῖται, καὶ ὁ Περικλῆς, ὃς στρατηγός ἐστιν, ἐπὶ τὸ βῆμα ἀναβαίνει.", "glosses": [
+     {"word": "ὑπὸ", "kind": "en", "value": "ὑπό + gen.: by (the person who does the action of a passive verb)"},
+     {"word": "πρυτάνεων", "kind": "en", "value": "the prytaneis, the councillors presiding"},
+     {"word": "ποιεῖται", "kind": "|", "value": "ποιεῖ → ποιεῖται: is made, is held (passive)"},
+     {"word": "βῆμα", "kind": "en", "value": "the speaker's platform"}
+    ]},
+    {"text": "ὁ δὲ δῆμος σιγᾷ, καὶ ὁ Περικλῆς ὑπὸ πάντων ἀκούεται.", "glosses": [
+     {"word": "σιγᾷ", "kind": "en", "value": "is silent"},
+     {"word": "ἀκούεται", "kind": "|", "value": "ἀκούει → ἀκούεται: is heard (passive)"}
+    ]},
+    {"text": "«ὦ Ἀθηναῖοι», λέγει, «ὁ Ἀρχίδαμος ξένος μού ἐστιν. ἴσως οὖν τοὺς ἐμοὺς ἀγροὺς οὐ τεμεῖ, ὥσπερ τοὺς τῶν ἄλλων.»", "glosses": [
+     {"word": "ξένος", "kind": "en", "value": "here: guest-friend, bound to me by hereditary hospitality"},
+     {"word": "ἴσως", "kind": "en", "value": "perhaps"},
+     {"word": "τεμεῖ", "kind": "en", "value": "will ravage (τέμνω)"},
+     {"word": "ὥσπερ", "kind": "en", "value": "just as, like"}
+    ]},
+    {"text": "«ἐὰν δὲ οἱ ἐμοὶ ἀγροὶ ὑπὸ τῶν πολεμίων μὴ τέμνωνται, τοὺς ἀγροὺς καὶ τὰς οἰκίας τῷ δήμῳ δίδωμι.»", "glosses": [
+     {"word": "πολεμίων", "kind": "<", "value": "πόλεμος: the enemy"},
+     {"word": "τέμνωνται", "kind": "en", "value": "are ravaged (passive subjunctive of τέμνω)"}
+    ]},
+    {"text": "ταῦτα ἀκούσαντες οἱ Ἀθηναῖοι θαυμάζουσιν."}
+   ]
+  },
+  {
+   "image": "panel-8-4-b",
+   "sentences": [
+    {"text": "ἔπειτα ὁ Περικλῆς παραινεῖ ἅπερ καὶ πρότερον.", "orig": [0], "glosses": [
+     {"word": "παραινεῖ", "kind": "en", "value": "advises"},
+     {"word": "ἅπερ", "kind": "en", "value": "the very things which"},
+     {"word": "πρότερον", "kind": "en", "value": "before, earlier"}
+    ]},
+    {"text": "«παρασκευαζώμεθα εἰς τὸν πόλεμον, καὶ τὰ ἐκ τῶν ἀγρῶν εἰς τὴν πόλιν εἰσκομίζετε.»", "orig": [0], "glosses": [
+     {"word": "παρασκευαζώμεθα", "kind": "en", "value": "let us get ready (παρασκευάζομαι)"},
+     {"word": "εἰσκομίζετε", "kind": "<", "value": "εἰς + κομίζω (carry, bring): bring in!"}
+    ]},
+    {"text": "«εἰς μάχην μὴ ἐξέλθητε, ἀλλ' εἰς τὴν πόλιν εἰσελθόντες αὐτὴν φυλάττετε.»", "orig": [0], "glosses": [
+     {"word": "μάχην", "kind": "pic", "value": "mache"},
+     {"word": "εἰσελθόντες", "kind": "|", "value": "εἰσέρχομαι | εἰσελθών: having come in"}
+    ]},
+    {"text": "«τὸ δὲ ναυτικόν, ᾧ ἰσχύομεν, παρασκευάζετε, καὶ τοὺς συμμάχους διὰ χειρὸς ἔχετε.»", "orig": [0], "glosses": [
+     {"word": "ναυτικόν", "kind": "<", "value": "ναῦς: τὸ ναυτικόν 'the fleet'"},
+     {"word": "ἰσχύομεν", "kind": "en", "value": "we are strong"},
+     {"word": "παρασκευάζετε", "kind": "en", "value": "make ready!"},
+     {"word": "συμμάχους", "kind": "<", "value": "σύν + μάχομαι: allies (σύμμαχος)"},
+     {"word": "χειρὸς", "kind": "en", "value": "διὰ χειρὸς ἔχειν: keep a firm hand on"}
+    ]},
+    {"text": "«ἡ γὰρ ἰσχὺς ἡμῖν ἀπὸ τῶν χρημάτων ἐστίν, ἃ οἱ σύμμαχοι φέρουσιν.»", "orig": [0], "glosses": [
+     {"word": "ἰσχὺς", "kind": "<", "value": "ἰσχύω: strength"},
+     {"word": "χρημάτων", "kind": "en", "value": "τὰ χρήματα: money, property (τὸ χρῆμα 'thing')"}
+    ]},
+    {"text": "«τὰ δὲ πολλὰ τοῦ πολέμου γνώμῃ καὶ χρημάτων περιουσίᾳ κρατεῖται.»", "orig": [0], "glosses": [
+     {"word": "γνώμῃ", "kind": "en", "value": "by good judgment"},
+     {"word": "περιουσίᾳ", "kind": "en", "value": "by a surplus, by plenty"},
+     {"word": "κρατεῖται", "kind": "en", "value": "is won, is mastered (passive of κρατέω)"}
+    ]},
+    {"text": "«τὴν οὖν πόλιν ὥσπερ νῆσον φυλάττωμεν· ἡ γὰρ τροφὴ ἡμῖν ταῖς ναυσὶ κομίζεται.»", "glosses": [
+     {"word": "τροφὴ", "kind": "pic", "value": "trophe"},
+     {"word": "κομίζεται", "kind": "|", "value": "κομίζει → κομίζεται: is brought (passive)"}
+    ]},
+    {"text": "ταῦτα λέγοντος τοῦ Περικλέους, ὁ δῆμος πείθεται.", "glosses": [
+     {"word": "πείθεται", "kind": "|", "value": "πείθει → πείθεται: is persuaded (passive)"}
+    ]}
+   ]
+  },
+  {
+   "image": "panel-8-4-c",
+   "sentences": [
+    {"text": "μετὰ δὲ ταῦτα ὁ Δημόκριτος ἑσπέρας εἰς τὴν οἰκίαν τοῦ Ἀρίστωνος ἔρχεται."},
+    {"text": "«ἐκ παιδὸς ἐν τῷ χωρίῳ μου εἰργαζόμην, ὥσπερ ὁ πατὴρ καὶ ὁ πάππος· νῦν δὲ πάντα ἐκ τῶν ἀγρῶν κομίζεται.»", "glosses": [
+     {"word": "παιδὸς", "kind": "en", "value": "ἐκ παιδός: from childhood"},
+     {"word": "χωρίῳ", "kind": "pic", "value": "chorion"},
+     {"word": "εἰργαζόμην", "kind": "|", "value": "ἐργάζομαι | εἰργαζόμην: I worked, I used to work"}
+    ]},
+    {"text": "«τὰ πρόβατα ὑπὸ τοῦ ἀδελφοῦ μου εἰς τὴν Εὔβοιαν πέμπεται, καὶ αἱ θύραι καὶ τὰ ξύλα τῆς οἰκίας εἰς τὸ ἄστυ φέρονται.»", "glosses": [
+     {"word": "πρόβατα", "kind": "en", "value": "sheep"},
+     {"word": "ἀδελφοῦ", "kind": "pic", "value": "adelphos"},
+     {"word": "Εὔβοιαν", "kind": "en", "value": "Euboea, the long island off the coast of Attica"},
+     {"word": "ξύλα", "kind": "en", "value": "timber, woodwork"}
+    ]},
+    {"text": "«ὅτε δὲ αἱ θύραι ἐκομίζοντο, ἡ γυνή μου ἔκλαιεν.»", "glosses": [
+     {"word": "ἐκομίζοντο", "kind": "|", "value": "κομίζονται → ἐκομίζοντο: were being carried (imperfect passive)"}
+    ]},
+    {"text": "«ὁ δὲ ἀδελφός μου χαλεπῶς φέρει· ἀξιοῖ γὰρ τὸν Περικλέα καὶ τοὺς ἀγροὺς ἡμῶν φυλάττειν, ὥσπερ τὸ ἄστυ.»", "glosses": [
+     {"word": "χαλεπῶς", "kind": "<", "value": "χαλεπός: χαλεπῶς φέρει 'takes it hard'"},
+     {"word": "ἀξιοῖ", "kind": "en", "value": "thinks it right, demands (+ acc. + inf.)"}
+    ]},
+    {"text": "ὁ δὲ Ἀρίστων· «ἀξιῶ σε, ὦ φίλε, τῷ Περικλεῖ πιστεύειν· ἀνὴρ γὰρ σοφός ἐστιν.»"},
+    {"text": "ὁ δὲ Λύσις ἐρωτᾷ· «ἐν τίνι τόπῳ οἰκήσουσιν οἱ γεωργοὶ οἱ ἐκ τῶν ἀγρῶν ἥκοντες;»", "glosses": [
+     {"word": "τόπῳ", "kind": "en", "value": "place"}
+    ]},
+    {"text": "ὁ δὲ Κλεινίας· «ἐν τοῖς ἱεροῖς τόποις καὶ ἐν τοῖς πύργοις τῶν τειχῶν· ἡ δὲ τροφὴ αὐτοῖς ἐκ τῆς θαλάττης ἥξει. ὅταν δὲ οἱ Λακεδαιμόνιοι ἀπέλθωσιν, πάλιν ἐν τοῖς χωρίοις ἐργασόμεθα.»", "glosses": [
+     {"word": "πύργοις", "kind": "en", "value": "towers"},
+     {"word": "ἀπέλθωσιν", "kind": "<", "value": "ἀπό + ἔρχομαι: go away"}
+    ]},
+    {"text": "ἡ δὲ Χρυσὶς σιγᾷ· ἡ γὰρ ἀνεψιὰ αὐτῆς, ἡ Φιλίππη, ἐν Ἀχαρναῖς οἰκεῖ.", "glosses": [
+     {"word": "ἀνεψιὰ", "kind": "en", "value": "cousin"}
+    ]}
+   ]
+  }
+ ],
+ "vocab": [
+  {"id": "υπο", "gloss_grc": "ὑπὸ πάντων ἀκούεται"},
+  {"id": "κομιζω", "pic": "verb-eiskomizei", "gloss_grc": "κομίζω = φέρω, ἄγω"},
+  {"id": "χρημα", "gloss_grc": "τὰ χρήματα = τὸ ἀργύριον"},
+  {"id": "τροφη", "pic": "trophe", "gloss_grc": "ἡ τροφή: ἄρτος, τυρός, ἐλαῖαι"},
+  {"id": "χωριον", "pic": "chorion", "gloss_grc": "τὸ χωρίον τοῦ γεωργοῦ"},
+  {"id": "ωσπερ", "gloss_grc": "ὥσπερ νῆσος"},
+  {"id": "εργαζομαι", "gloss_grc": "ἐργάζομαι = πονῶ"},
+  {"id": "τοπος", "gloss_grc": "ἐν τίνι τόπῳ; = ποῦ;"},
+  {"id": "αδελφος", "pic": "adelphos", "gloss_grc": "ὁ ἀδελφὸς καὶ ἡ ἀδελφή"},
+  {"id": "αξιοω", "gloss_grc": "ἀξιῶ σε πιστεύειν"},
+  {"id": "συμμαχος", "gloss_grc": "σύν + μάχομαι: οἱ σύμμαχοι"}
+ ],
+ "notice": [
+  "ὁ Περικλῆς ὑπὸ πάντων ἀκούεται. — ὁ δῆμος πείθεται.",
+  "ἡ τροφὴ ἡμῖν ταῖς ναυσὶ κομίζεται.",
+  "τὰ πρόβατα ὑπὸ τοῦ ἀδελφοῦ μου εἰς τὴν Εὔβοιαν πέμπεται.",
+  "ὅτε δὲ αἱ θύραι ἐκομίζοντο, ἡ γυνή μου ἔκλαιεν.",
+  "εἰσ-κομίζετε · εἰσ-ελθόντες · ἐξ-έλθητε · ἀπ-έλθωσιν · σύμ-μαχοι"
+ ],
+ "grammar": {
+  "md": "**The passive voice.** In the present and imperfect, the **passive** has exactly the same forms as the middle you already know. Context tells you which it is:\n\n| | present | imperfect |\n|---|---|---|\n| 1 sg | κομίζ**ομαι** *I am (being) brought* | ἐκομιζ**όμην** |\n| 2 sg | κομίζ**ῃ** (-ει) | ἐκομίζ**ου** |\n| 3 sg | κομίζ**εται** | ἐκομίζ**ετο** |\n| 1 pl | κομιζ**όμεθα** | ἐκομιζ**όμεθα** |\n| 2 pl | κομίζ**εσθε** | ἐκομίζ**εσθε** |\n| 3 pl | κομίζ**ονται** | ἐκομίζ**οντο** |\n\nContract verbs contract as usual: ποιεῖται, ποιοῦνται, ἐποιεῖτο; τιμᾶται; δηλοῦται. Infinitive **κομίζεσθαι**, participle **κομιζόμενος**.\n\n**Who did it, and with what?**\n\n- The **person** who does the action: **ὑπό + genitive** (the *agent*). *ὁ Περικλῆς ὑπὸ πάντων ἀκούεται* 'Pericles is heard by everyone'; *τὰ πρόβατα ὑπὸ τοῦ ἀδελφοῦ πέμπεται*.\n- The **thing** by which it is done: the plain **dative** (*means*). *ἡ τροφὴ ταῖς ναυσὶ κομίζεται* 'the food is brought by ship'; *γνώμῃ καὶ χρήμασι κρατεῖται*.\n\nTwo reminders: a **neuter plural** subject takes a singular verb (*τὰ πρόβατα πέμπεται*), and a **deponent** such as ἐργάζομαι, μάχομαι, ἀφικνέομαι looks passive but is active in meaning (*εἰργαζόμην* 'I used to work').\n\n**Prefixes and euphony.** A preposition joined to a verb changes its last sound to fit what follows:\n\n| rule | examples |\n|---|---|\n| ἐκ → **ἐξ** before a vowel | ἐξ-έρχομαι, ἐξ-έλθητε |\n| final vowel dropped before a vowel (not περί, πρό) | ἀπ-έρχομαι, κατ-άγω, ἐπ-έρχομαι |\n| … and π, τ, κ become **φ, θ, χ** before a rough breathing | ἀφ-ικνέομαι (ἀπό + ἱκνέομαι), καθ-ίστημι, ἐφ-ίστημι, ὑφ-ίστημι |\n| ἐν, σύν assimilate: **μ** before π β φ μ, **γ** before κ γ χ ξ, **λ** before λ | ἐμ-βάλλω, σύμ-μαχος, συμ-βαίνω, συγ-γράφω, συλ-λέγω |\n\nThe augment goes **between** prefix and verb, and the prefix gets its full shape back: εἰσ-**ε**κόμιζον, ἀπ-**έ**πεμπον, συν-**έ**γραψα (from συγγράφω), ἐν-**έ**βαλον (from ἐμβάλλω). Look for the augment after the prefix when you look a compound up.",
+  "paradigms": ["luo", "poieo"],
+  "diagram": "diagram-voice"
+ },
+ "exercises": [
+  {"type": "endings-cloze", "prompt": "Μελέτημα Α · Fill in the passive endings.", "template": "ὁ Περικλῆς ὑπὸ πάντων ἀκού___. ἡ τροφὴ ταῖς ναυσὶ κομίζ___. αἱ θύραι εἰς τὸ ἄστυ φέρ___. ὅτε αἱ θύραι ἐκομίζ___, ἡ γυνὴ ἔκλαιεν.", "gaps": [{"answers": ["εται"]}, {"answers": ["εται"]}, {"answers": ["ονται"]}, {"answers": ["οντο"]}], "skills": ["verb.pres.mp.ind.3sg", "verb.pres.mp.ind.3pl", "verb.impf.mp.ind.3pl"], "explain": "The passive uses the middle endings: -εται, -ονται; imperfect -οντο."},
+  {"type": "bank-cloze", "prompt": "Μελέτημα Β · ὁ Περικλῆς ___ πάντων ἀκούεται.", "options": [{"id": "a", "text": "ὑπὸ"}, {"id": "b", "text": "ἀπὸ"}, {"id": "c", "text": "ἐκ"}], "answer": "a", "skills": ["syntax.agent"], "explain": "The person who does the action of a passive verb: ὑπό + genitive.", "audio": "ὁ Περικλῆς ὑπὸ πάντων ἀκούεται."},
+  {"type": "bank-cloze", "prompt": "Μελέτημα Β · ἡ τροφὴ ___ κομίζεται.", "options": [{"id": "a", "text": "ταῖς ναυσί"}, {"id": "b", "text": "ὑπὸ τῶν νεῶν"}, {"id": "c", "text": "τὰς ναῦς"}], "answer": "a", "skills": ["syntax.dat.uses"], "explain": "Ships are the means, not persons: plain dative, ταῖς ναυσί 'by ship'.", "audio": "ἡ τροφὴ ταῖς ναυσὶ κομίζεται."},
+  {"type": "bank-cloze", "prompt": "Μελέτημα Β · τὰ πρόβατα εἰς τὴν Εὔβοιαν ___.", "options": [{"id": "a", "text": "πέμπεται"}, {"id": "b", "text": "πέμπει"}, {"id": "c", "text": "πέμπετε"}], "answer": "a", "skills": ["verb.neuter-plural", "verb.pres.mp.ind.3sg"], "explain": "A neuter plural subject takes a singular verb, and the sheep are sent: passive πέμπεται.", "audio": "τὰ πρόβατα εἰς τὴν Εὔβοιαν πέμπεται."},
+  {"type": "pick-picture", "prompt": "τὸ χωρίον", "audio": "prompt", "options": [{"id": "a", "image": "chorion"}, {"id": "b", "image": "polis"}, {"id": "c", "image": "agora"}, {"id": "d", "image": "limen"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "τὸ χωρίον: a piece of land, a farm."},
+  {"type": "pick-picture", "prompt": "ἡ τροφή", "audio": "prompt", "options": [{"id": "a", "image": "trophe"}, {"id": "b", "image": "lithos"}, {"id": "c", "image": "pelos"}, {"id": "d", "image": "pyr"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "ἡ τροφή: food, provisions (τρέφω 'feed')."},
+  {"type": "produce-form", "prompt": "Give the present passive, 3rd person singular, of κομίζω ('is brought').", "lemma": "κομίζω", "cell": "present.middle/passive.indicative.3sg", "skills": ["verb.pres.mp.ind.3sg"], "explain": "κομίζεται.", "audio": "κομίζεται"},
+  {"type": "produce-form", "prompt": "Give the present passive, 3rd person plural, of φέρω ('are carried').", "lemma": "φέρω", "cell": "present.middle/passive.indicative.3pl", "skills": ["verb.pres.mp.ind.3pl"], "explain": "φέρονται.", "audio": "φέρονται"},
+  {"type": "produce-form", "prompt": "Give the imperfect passive, 3rd person plural, of κομίζω ('were being carried').", "lemma": "κομίζω", "cell": "imperfect.middle/passive.indicative.3pl", "skills": ["verb.impf.mp.ind.3pl"], "explain": "Augment + -οντο: ἐκομίζοντο.", "audio": "ἐκομίζοντο"},
+  {"type": "produce-form", "prompt": "Give the present passive, 3rd person singular, of ποιέω ('is made, is held').", "lemma": "ποιέω", "cell": "present.middle/passive.indicative.3sg", "skills": ["verb.pres.mp.ind.3sg"], "explain": "ποιέ-εται → ποιεῖται: ἐκκλησία ποιεῖται.", "audio": "ποιεῖται"},
+  {"type": "produce-form", "prompt": "Give the imperfect passive, 3rd person singular, of φυλάττω ('was being guarded').", "lemma": "φυλάττω", "cell": "imperfect.middle/passive.indicative.3sg", "skills": ["verb.impf.mp.ind.3sg"], "explain": "ἐφυλάττετο.", "audio": "ἐφυλάττετο"},
+  {"type": "parse", "prompt": "Parse ἀκούεται (in ὁ Περικλῆς ὑπὸ πάντων ἀκούεται).", "form": "ἀκούεται", "groups": [{"id": "voice", "label": "Voice", "options": [{"id": "act", "label": "active"}, {"id": "pass", "label": "passive"}]}, {"id": "tense", "label": "Tense", "options": [{"id": "pres", "label": "present"}, {"id": "impf", "label": "imperfect"}]}], "answer": {"voice": "pass", "tense": "pres"}, "skills": ["verb.pres.mp.ind.3sg", "syntax.agent"], "explain": "Middle/passive ending -εται; ὑπὸ πάντων shows it is passive: 'is heard'.", "audio": "ἀκούεται"},
+  {"type": "parse", "prompt": "Parse ἐκομίζοντο.", "form": "ἐκομίζοντο", "groups": [{"id": "tense", "label": "Tense", "options": [{"id": "pres", "label": "present"}, {"id": "impf", "label": "imperfect"}, {"id": "aor", "label": "aorist"}]}, {"id": "person", "label": "Who?", "options": [{"id": "3sg", "label": "he/she/it"}, {"id": "3pl", "label": "they"}]}], "answer": {"tense": "impf", "person": "3pl"}, "skills": ["verb.impf.mp.ind.3pl"], "explain": "Augment ἐ- + present stem + -οντο: imperfect passive, 'they were being carried'.", "audio": "ἐκομίζοντο"},
+  {"type": "cloze-choice", "prompt": "ὁ Περικλῆς ὑπὸ ___ ἀκούεται.", "options": [{"id": "a", "text": "τοῦ δήμου"}, {"id": "b", "text": "τῷ δήμῳ"}, {"id": "c", "text": "τὸν δῆμον"}], "answer": "a", "skills": ["syntax.agent"], "explain": "ὑπό of the agent takes the genitive."},
+  {"type": "cloze-choice", "prompt": "σύν + μάχομαι → ὁ ___", "options": [{"id": "a", "text": "σύμμαχος"}, {"id": "b", "text": "σύνμαχος"}, {"id": "c", "text": "σύγμαχος"}], "answer": "a", "skills": ["verb.prefix-euphony"], "explain": "ν becomes μ before μ, π, β, φ: σύμ-μαχος."},
+  {"type": "label", "prompt": "«ὁ δῆμος ὑπὸ τοῦ Περικλέους πείθεται.» — who does the persuading?", "options": [{"id": "a", "text": "Pericles"}, {"id": "b", "text": "the people"}], "answer": "a", "skills": ["syntax.agent"], "explain": "ὑπό + genitive marks the doer; the subject ὁ δῆμος is persuaded."},
+  {"type": "label", "prompt": "«ἡ τροφὴ ταῖς ναυσὶ κομίζεται.» — what does the dative ταῖς ναυσί express?", "options": [{"id": "a", "text": "the means: 'by ship'"}, {"id": "b", "text": "the person who does it"}, {"id": "c", "text": "the time when"}], "answer": "a", "skills": ["syntax.dat.uses", "syntax.agent"], "explain": "Things in the dative (means); persons with ὑπό + genitive (agent)."},
+  {"type": "transform", "prompt": "Make it passive: ὁ δῆμος τὸν Περικλέα ἀκούει. → ὁ Περικλῆς ὑπὸ τοῦ δήμου …", "template": "ὁ Περικλῆς ὑπὸ τοῦ δήμου ___.", "gaps": [{"answers": ["ἀκούεται"]}], "skills": ["syntax.agent", "verb.pres.mp.ind.3sg"], "explain": "The object becomes the subject; the subject becomes ὑπό + genitive.", "audio": "ὁ Περικλῆς ὑπὸ τοῦ δήμου ἀκούεται."},
+  {"type": "transform", "prompt": "Put it in the imperfect: αἱ θύραι κομίζονται. → αἱ θύραι …", "template": "αἱ θύραι ___.", "gaps": [{"answers": ["ἐκομίζοντο"]}], "skills": ["verb.impf.mp.ind.3pl"], "explain": "ἐκομίζοντο 'were being carried'.", "audio": "αἱ θύραι ἐκομίζοντο."},
+  {"type": "transform", "prompt": "Join prefix and verb: ἀπό + ἄγω → …", "template": "___", "gaps": [{"answers": ["ἀπάγω"]}], "skills": ["verb.prefix-euphony", "verb.compound"], "explain": "ἀπό loses its ο before a vowel: ἀπ-άγω 'lead away'.", "audio": "ἀπάγω"},
+  {"type": "locate", "prompt": "Tap every passive verb.", "sentence": "νῦν δὲ πάντα ἐκ τῶν ἀγρῶν κομίζεται, καὶ αἱ θύραι εἰς τὸ ἄστυ φέρονται.", "answer": [6, 13], "skills": ["read.locate", "verb.pres.mp.ind.3pl"], "explain": "κομίζεται (singular with the neuter plural πάντα) and φέρονται."},
+  {"type": "locate", "prompt": "Tap the agent: the words that say who does the sending.", "sentence": "τὰ πρόβατα ὑπὸ τοῦ ἀδελφοῦ μου εἰς τὴν Εὔβοιαν πέμπεται.", "answer": [2, 3, 4], "skills": ["read.locate", "syntax.agent"], "explain": "ὑπὸ τοῦ ἀδελφοῦ: 'by my brother'."},
+  {"type": "reorder", "prompt": "Put the words in order: 'Pericles is heard by everyone.'", "tokens": ["ὁ", "Περικλῆς", "ὑπὸ", "πάντων", "ἀκούεται"], "answers": ["ὁ Περικλῆς ὑπὸ πάντων ἀκούεται", "ὑπὸ πάντων ἀκούεται ὁ Περικλῆς", "ὁ Περικλῆς ἀκούεται ὑπὸ πάντων", "ἀκούεται ὁ Περικλῆς ὑπὸ πάντων"], "skills": ["syntax.word-order", "syntax.agent"], "explain": "ὁ Περικλῆς ὑπὸ πάντων ἀκούεται."},
+  {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ὁ δῆμος ὑπὸ τοῦ Περικλέους πείθεται.", "options": [{"id": "a", "text": "ὁ δῆμος ὑπὸ τοῦ Περικλέους πείθεται."}, {"id": "b", "text": "ὁ Περικλῆς τὸν δῆμον πείθει."}, {"id": "c", "text": "ὁ δῆμος τῷ Περικλεῖ πιστεύει."}], "answer": "a", "skills": ["listen.sentences", "syntax.agent"], "explain": "'The people are persuaded by Pericles.'"},
+  {"type": "true-false-grc", "prompt": "ὁ Ἀρχίδαμος τοῦ στρατοῦ τῶν Πελοποννησίων ἡγεῖται.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "ἡγεῖται δὲ αὐτοῦ Ἀρχίδαμος, ὁ τῶν Λακεδαιμονίων βασιλεύς."},
+  {"type": "true-false-grc", "prompt": "ὁ Περικλῆς λέγει· εἰς μάχην ἐξέλθετε.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension", "read.thucydides"], "explain": "εἰς μάχην μὴ ἐξέλθητε, ἀλλ' εἰς τὴν πόλιν εἰσελθόντες αὐτὴν φυλάττετε."},
+  {"type": "true-false-grc", "prompt": "τὰ πρόβατα τοῦ Δημοκρίτου εἰς τὸ ἄστυ πέμπεται.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "εἰς τὴν Εὔβοιαν πέμπεται."},
+  {"type": "dictation", "prompt": "Listen and type what you hear.", "audio": "ἡ τροφὴ ταῖς ναυσὶ κομίζεται.", "gaps": [{"answers": ["ἡ τροφὴ ταῖς ναυσὶ κομίζεται"]}], "skills": ["spell.dictation", "listen.sentences"], "explain": "ἡ τροφὴ ταῖς ναυσὶ κομίζεται."},
+  {"type": "compose-grc", "prompt": "Write in Greek: 'The city is guarded by the citizens.'", "gaps": [{"answers": ["ἡ πόλις ὑπὸ τῶν πολιτῶν φυλάττεται", "ἡ πόλις φυλάττεται ὑπὸ τῶν πολιτῶν", "ὑπὸ τῶν πολιτῶν ἡ πόλις φυλάττεται", "ὑπὸ τῶν πολιτῶν φυλάττεται ἡ πόλις"]}], "skills": ["vocab.production", "syntax.agent", "verb.pres.mp.ind.3sg"], "explain": "ἡ πόλις ὑπὸ τῶν πολιτῶν φυλάττεται."},
+  {"type": "compose-grc", "prompt": "Write in Greek: 'The doors were being carried into the town.' (use τὸ ἄστυ)", "gaps": [{"answers": ["αἱ θύραι εἰς τὸ ἄστυ ἐκομίζοντο", "αἱ θύραι ἐκομίζοντο εἰς τὸ ἄστυ", "εἰς τὸ ἄστυ αἱ θύραι ἐκομίζοντο", "αἱ θύραι εἰς τὸ ἄστυ ἐφέροντο", "αἱ θύραι ἐφέροντο εἰς τὸ ἄστυ"]}], "skills": ["vocab.production", "verb.impf.mp.ind.3pl"], "explain": "αἱ θύραι εἰς τὸ ἄστυ ἐκομίζοντο (or ἐφέροντο)."},
+  {"type": "translate-en", "prompt": "Translate: τὰ δὲ πολλὰ τοῦ πολέμου γνώμῃ καὶ χρημάτων περιουσίᾳ κρατεῖται.", "audio": "τὰ δὲ πολλὰ τοῦ πολέμου γνώμῃ καὶ χρημάτων περιουσίᾳ κρατεῖται.", "model": "Most things in war are won by good judgment and a surplus of money.", "skills": ["read.comprehension", "read.adapted-text", "read.thucydides", "syntax.dat.uses"], "explain": "These are Thucydides' own words (2.13.2), with the passive κρατεῖται and two datives of means."},
+  {"type": "word-family", "prompt": "Word Study · Match each Greek word to the English word that comes from it.", "pairs": [{"left": "τόπος", "right": "topography"}, {"left": "τροφή", "right": "atrophy"}, {"left": "ἀδελφός", "right": "Philadelphia"}, {"left": "ὑπό", "right": "hypodermic"}, {"left": "χρῆμα", "right": "chrematistics (the study of wealth)"}], "skills": ["vocab.family"], "explain": "τοπο-γραφία 'describing a place'; ἀ-τροφία 'lack of nourishment'; φιλ-αδελφία 'brotherly love'; ὑπὸ τὸ δέρμα 'under the skin'; χρηματιστική 'money-making'."}
+ ],
+ "questions": [
+  {"type": "answer-grc", "prompt": "ποῦ ἀθροίζεται ὁ στρατὸς τῶν Πελοποννησίων;", "audio": "prompt", "options": [{"id": "a", "text": "ἐν τῷ Ἰσθμῷ."}, {"id": "b", "text": "ἐν Πλαταιαῖς."}, {"id": "c", "text": "ἐν τῇ Πυκνί."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ἐν τῷ Ἰσθμῷ ἀθροίζεται."},
+  {"type": "answer-grc", "prompt": "τίς ἡγεῖται τοῦ στρατοῦ;", "audio": "prompt", "options": [{"id": "a", "text": "ὁ Ἀρχίδαμος."}, {"id": "b", "text": "ὁ Περικλῆς."}, {"id": "c", "text": "ὁ Δημόκριτος."}], "answer": "a", "skills": ["read.comprehension"], "explain": "Archidamus, king of the Spartans."},
+  {"type": "answer-grc", "prompt": "τί ποιήσει ὁ Περικλῆς, ἐὰν οἱ ἀγροὶ αὐτοῦ μὴ τέμνωνται;", "audio": "prompt", "options": [{"id": "a", "text": "τοὺς ἀγροὺς καὶ τὰς οἰκίας τῷ δήμῳ δώσει."}, {"id": "b", "text": "εἰς Σπάρτην φεύξεται."}, {"id": "c", "text": "τῷ Ἀρχιδάμῳ τοὺς ἀγροὺς δώσει."}], "answer": "a", "skills": ["read.comprehension", "syntax.ean"], "explain": "τοὺς ἀγροὺς καὶ τὰς οἰκίας τῷ δήμῳ δίδωμι."},
+  {"type": "answer-grc", "prompt": "τί παραινεῖ ὁ Περικλῆς;", "audio": "prompt", "options": [{"id": "a", "text": "τὰ ἐκ τῶν ἀγρῶν εἰσκομίζειν καὶ τὴν πόλιν φυλάττειν."}, {"id": "b", "text": "εἰς μάχην ἐξιέναι."}, {"id": "c", "text": "τὰς ναῦς λείπειν."}], "answer": "a", "skills": ["read.comprehension", "read.thucydides"], "explain": "Thucydides 2.13: τὰ ἐκ τῶν ἀγρῶν ἐσκομίζεσθαι … τὴν πόλιν ἐσελθόντας φυλάσσειν."},
+  {"type": "answer-grc", "prompt": "ποῖ πέμπεται τὰ πρόβατα τοῦ Δημοκρίτου;", "audio": "prompt", "options": [{"id": "a", "text": "εἰς τὴν Εὔβοιαν."}, {"id": "b", "text": "εἰς τὸ ἄστυ."}, {"id": "c", "text": "εἰς τὸν Πειραιᾶ."}], "answer": "a", "skills": ["read.comprehension", "syntax.agent"], "explain": "ὑπὸ τοῦ ἀδελφοῦ μου εἰς τὴν Εὔβοιαν πέμπεται."}
+ ],
+ "culture": {
+  "title": "Pericles and the island strategy",
+  "md": "**Pericles** (c. 495–429 BC), son of Xanthippus, the victor of Mycale, and of Agariste of the Alcmaeonid family, was the leading man in Athens for some thirty years. He held no office but that of general, to which the people elected him almost every year; Thucydides, who heard him speak, wrote that under him Athens was 'in name a democracy, in fact the rule of its first man'.\n\nHis plan for the war was simple and hard. Sparta and its allies had far more hoplites, so the Athenians would not meet them in a pitched battle. The country people were to move inside the walls of Athens and Piraeus, joined by the Long Walls; sheep and draught animals were ferried across to Euboea; the fleet of three hundred triremes would rule the sea, keep the allies paying their tribute (some six hundred talents a year) and raid the coasts of the Peloponnese. Six thousand talents of coined silver lay in reserve on the Acropolis. The enemy could burn the farms, but could not starve a city fed from the sea: Athens was to behave like an island.\n\nArchidamus was Pericles' guest-friend, and Pericles guessed that his estates might be spared, out of friendship or to make the Athenians suspect him; so he announced that if they were, he would give them to the city. The plan was sound on paper. Its price, a crowded city and then the plague, is the story of the next two units.",
+  "image": "culture-8-4-pericles"
+ },
+ "quiz": [
+  {"type": "produce-form", "prompt": "Give the present passive, 3rd person singular, of φυλάττω ('is guarded').", "lemma": "φυλάττω", "cell": "present.middle/passive.indicative.3sg", "skills": ["verb.pres.mp.ind.3sg"], "explain": "φυλάττεται.", "audio": "φυλάττεται"},
+  {"type": "cloze-choice", "prompt": "ἡ ἐκκλησία ___ τῶν πρυτάνεων ποιεῖται.", "options": [{"id": "a", "text": "ὑπὸ"}, {"id": "b", "text": "ἐκ"}, {"id": "c", "text": "εἰς"}], "answer": "a", "skills": ["syntax.agent"], "explain": "The prytaneis hold the meeting: ὑπό + genitive."},
+  {"type": "parse", "prompt": "Parse πέμπεται (in τὰ πρόβατα πέμπεται).", "form": "πέμπεται", "groups": [{"id": "voice", "label": "Voice", "options": [{"id": "act", "label": "active"}, {"id": "pass", "label": "passive"}]}, {"id": "number", "label": "Number of the verb", "options": [{"id": "sg", "label": "singular"}, {"id": "pl", "label": "plural"}]}], "answer": {"voice": "pass", "number": "sg"}, "skills": ["verb.neuter-plural", "verb.pres.mp.ind.3sg"], "explain": "Passive, singular: a neuter plural subject (τὰ πρόβατα) takes a singular verb.", "audio": "πέμπεται"},
+  {"type": "cloze-choice", "prompt": "ἐν + βάλλω → ___", "options": [{"id": "a", "text": "ἐμβάλλω"}, {"id": "b", "text": "ἐνβάλλω"}, {"id": "c", "text": "ἐγβάλλω"}], "answer": "a", "skills": ["verb.prefix-euphony"], "explain": "ν becomes μ before β: ἐμ-βάλλω 'throw in, invade'."},
+  {"type": "true-false-grc", "prompt": "ὁ ἀδελφὸς τοῦ Δημοκρίτου χαίρει.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "χαλεπῶς φέρει: he takes it hard."},
+  {"type": "transform", "prompt": "Make it passive: πάντες τὸν Περικλέα ἀκούουσιν. → ὁ Περικλῆς ὑπὸ πάντων …", "template": "ὁ Περικλῆς ὑπὸ πάντων ___.", "gaps": [{"answers": ["ἀκούεται"]}], "skills": ["syntax.agent", "verb.pres.mp.ind.3sg"], "explain": "ἀκούεται.", "audio": "ὁ Περικλῆς ὑπὸ πάντων ἀκούεται."},
+  {"type": "label", "prompt": "ἀφικνέομαι = ἀπό + ἱκνέομαι. Why ἀφ-?", "options": [{"id": "a", "text": "ἀπό loses its ο before a vowel, and π becomes φ before a rough breathing"}, {"id": "b", "text": "it is a different preposition"}, {"id": "c", "text": "φ is the augment"}], "answer": "a", "skills": ["verb.prefix-euphony"], "explain": "ἀπ' + ἱ- → ἀφ-ι-: the same happens in καθίστημι (κατά + ἵστημι)."}
+ ],
+ "skills": ["verb.pres.mp.ind.3sg", "verb.pres.mp.ind.3pl", "verb.impf.mp.ind.3sg", "verb.impf.mp.ind.3pl", "syntax.agent", "syntax.dat.uses", "verb.neuter-plural", "verb.prefix-euphony", "verb.compound", "read.adapted-text", "read.thucydides", "syntax.word-order", "read.comprehension", "read.locate", "listen.sentences", "spell.dictation", "vocab.recognition", "vocab.production", "vocab.family"]
+}

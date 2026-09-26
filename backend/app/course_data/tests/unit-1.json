@@ -1,0 +1,64 @@
+{
+  "id": "unit-1",
+  "title_grc": "Ἡ ἀγορά · ἔλεγχος",
+  "title_en": "Unit 1 test",
+  "scope": "1.4",
+  "pass_score": 0.8,
+  "unlock_after_hours": 24,
+  "retake_after_days": 7,
+  "blurb": "Everything from Lessons 1.1–1.4: the family, the workshop, the agora, the house. Four parts; no feedback until the end. 80 % to pass.",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Λέξεις · Vocabulary",
+      "items": [
+        {"type": "pick-picture", "prompt": "κεραμεύς", "audio": "prompt", "options": [{"id": "a", "image": "georgos"}, {"id": "b", "image": "kerameus"}, {"id": "c", "image": "nautes"}, {"id": "d", "image": "kyon"}], "answer": "b", "skills": ["vocab.recognition"], "explain": "κεραμεύς: potter."},
+        {"type": "pick-picture", "prompt": "ὑδρία", "audio": "prompt", "options": [{"id": "a", "image": "kline"}, {"id": "b", "image": "hydria"}, {"id": "c", "image": "thyra"}, {"id": "d", "image": "artos"}], "answer": "b", "skills": ["vocab.recognition"], "explain": "ὑδρία: water jar."},
+        {"type": "pick-picture", "prompt": "καθεύδει", "audio": "prompt", "options": [{"id": "a", "image": "verb-trechei"}, {"id": "b", "image": "verb-ponei"}, {"id": "c", "image": "verb-katheudei"}, {"id": "d", "image": "verb-legei"}], "answer": "c", "skills": ["vocab.recognition"], "explain": "καθεύδει: sleeps."},
+        {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ἡ κρήνη", "options": [{"id": "a", "text": "ἡ κλίνη"}, {"id": "b", "text": "ἡ κρήνη"}, {"id": "c", "text": "ἡ κόρη"}], "answer": "b", "skills": ["listen.words"], "explain": "ἡ κρήνη: fountain."},
+        {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ὁ Λάβρος τὸν ἄρτον ζητεῖ.", "options": [{"id": "a", "text": "ὁ Λάβρος τὸν ἄρτον ζητεῖ."}, {"id": "b", "text": "ὁ Λάβρος τὸν ἄρτον ἔχει."}, {"id": "c", "text": "ὁ Λύσις τὸν ἄρτον ζητεῖ."}], "answer": "a", "skills": ["listen.sentences"], "explain": "Labros is looking for the bread."},
+        {"type": "match", "prompt": "Match the Greek to the English.", "pairs": [{"left": "εὑρίσκει", "right": "finds"}, {"left": "φέρει", "right": "carries"}, {"left": "ὁρᾷ", "right": "sees"}, {"left": "ἀκούει", "right": "hears"}, {"left": "ὑφαίνει", "right": "weaves"}], "skills": ["vocab.recognition"], "explain": "εὑρίσκει, φέρει, ὁρᾷ, ἀκούει, ὑφαίνει."},
+        {"type": "cloze-type", "prompt": "Type the Greek for 'door' (with its article).", "gaps": [{"answers": ["ἡ θύρα", "θύρα"]}], "skills": ["vocab.production"], "explain": "ἡ θύρα.", "audio": "ἡ θύρα"},
+        {"type": "cloze-type", "prompt": "Type the Greek for 'slave' (with its article).", "gaps": [{"answers": ["ὁ δοῦλος", "δοῦλος"]}], "skills": ["vocab.production"], "explain": "ὁ δοῦλος.", "audio": "ὁ δοῦλος"}
+      ]
+    },
+    {
+      "id": "forms",
+      "title": "Τύποι · Forms",
+      "items": [
+        {"type": "parse", "prompt": "Parse ἀγορᾷ.", "form": "ἀγορᾷ", "groups": [{"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "dat", "label": "dative"}, {"id": "acc", "label": "accusative"}]}], "answer": {"case": "dat"}, "skills": ["noun.decl1.dat.sg"], "explain": "-ᾷ with iota subscript: dative, ἐν τῇ ἀγορᾷ.", "audio": "ἀγορᾷ"},
+        {"type": "parse", "prompt": "Parse τρέχουσιν.", "form": "τρέχουσιν", "groups": [{"id": "person", "label": "Who?", "options": [{"id": "3sg", "label": "one (he/she/it)"}, {"id": "3pl", "label": "several (they)"}]}], "answer": {"person": "3pl"}, "skills": ["verb.pres.act.ind.3pl"], "explain": "-ουσιν: they run.", "audio": "τρέχουσιν"}
+      ],
+      "generate": {"skills": ["noun.decl2.dat.sg", "noun.decl2.acc.sg", "noun.decl1.acc.sg", "noun.decl1.gen.sg", "art.dat.sg", "art.acc.sg", "verb.pres.act.ind.3sg", "verb.pres.act.ind.3pl"], "n": 8, "seed": 1}
+    },
+    {
+      "id": "sentences",
+      "title": "Λόγοι · Sentences",
+      "items": [
+        {"type": "cloze-choice", "prompt": "ὁ Σύρος ___ πηλὸν φέρει.", "options": [{"id": "a", "text": "ὁ"}, {"id": "b", "text": "τόν"}, {"id": "c", "text": "τῷ"}], "answer": "b", "skills": ["art.acc.sg", "syntax.object"], "explain": "Object: τὸν πηλόν."},
+        {"type": "cloze-choice", "prompt": "ἡ Ἐλπὶς ___ τῆς οἰκίας εἰς τὴν κρήνην βαίνει.", "options": [{"id": "a", "text": "ἐν"}, {"id": "b", "text": "εἰς"}, {"id": "c", "text": "ἐκ"}], "answer": "c", "skills": ["prep.ek.gen"], "explain": "Genitive after ἐκ: out of the house."},
+        {"type": "cloze-choice", "prompt": "ὁ Λάβρος οὐ πονεῖ· κύων ___ ἐστιν.", "options": [{"id": "a", "text": "γάρ"}, {"id": "b", "text": "ἀλλά"}, {"id": "c", "text": "οὐ"}], "answer": "a", "skills": ["syntax.postpositive"], "explain": "γάρ 'for'."},
+        {"type": "cloze-choice", "prompt": "ὁ ἄνθρωπος τὸν κύνα ___ ὁρᾷ.", "options": [{"id": "a", "text": "οὐ"}, {"id": "b", "text": "οὐκ"}, {"id": "c", "text": "οὐχ"}], "answer": "c", "skills": ["syntax.negation"], "explain": "οὐχ before a rough breathing."},
+        {"type": "transform", "prompt": "Make the subject plural: ἡ Χρυσὶς πονεῖ. → ἡ Χρυσὶς καὶ ἡ Ἐλπὶς …", "template": "ἡ Χρυσὶς καὶ ἡ Ἐλπὶς ___.", "gaps": [{"answers": ["πονοῦσι(ν)"]}], "skills": ["verb.pres.act.ind.3pl"], "explain": "πονοῦσιν."},
+        {"type": "transform", "prompt": "Put it after εἰς: ἡ ἀγορά → εἰς …", "template": "εἰς ___", "gaps": [{"answers": ["τὴν ἀγοράν", "τὴν ἀγορὰν"]}], "skills": ["prep.eis.acc", "noun.decl1.acc.sg"], "explain": "εἰς τὴν ἀγοράν."},
+        {"type": "reorder", "prompt": "Put the words in order: 'Lysis finds the dog in the road.'", "tokens": ["εὑρίσκει", "ἐν", "ὁ", "τὸν", "τῇ", "Λύσις", "κύνα", "ὁδῷ"], "answers": ["ὁ Λύσις τὸν κύνα ἐν τῇ ὁδῷ εὑρίσκει", "ὁ Λύσις ἐν τῇ ὁδῷ τὸν κύνα εὑρίσκει", "ἐν τῇ ὁδῷ ὁ Λύσις τὸν κύνα εὑρίσκει", "ὁ Λύσις εὑρίσκει τὸν κύνα ἐν τῇ ὁδῷ"], "skills": ["syntax.word-order", "syntax.object", "prep.en.dat"], "explain": "ὁ Λύσις τὸν κύνα ἐν τῇ ὁδῷ εὑρίσκει."},
+        {"type": "compose-grc", "prompt": "Write in Greek: 'Ariston is a potter; he works in the workshop.'", "gaps": [{"answers": ["ὁ Ἀρίστων κεραμεύς ἐστιν"]}, {"answers": ["ἐν τῷ ἐργαστηρίῳ πονεῖ", "πονεῖ ἐν τῷ ἐργαστηρίῳ"]}], "template": "___· ___.", "skills": ["vocab.production", "syntax.predicate", "prep.en.dat"], "explain": "ὁ Ἀρίστων κεραμεύς ἐστιν· ἐν τῷ ἐργαστηρίῳ πονεῖ."}
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Ἀνάγνωσις · Reading",
+      "passage_title": "ὁ Δημόκριτος",
+      "passage": "ὁ Δημόκριτος Ἀθηναῖός ἐστιν· γεωργός ἐστιν, οὐ κεραμεύς. ὁ Δημόκριτος ἐν τῇ ἀγορᾷ ἐστιν καὶ ἄρτον ζητεῖ. ἄνθρωπον ὁρᾷ· ὁ ἄνθρωπος ἄρτον ἔχει. ὁ Δημόκριτος τὸν ἄρτον λαμβάνει καὶ εἰς τὴν οἰκίαν βαίνει. ἡ οἰκία τοῦ Δημοκρίτου μικρά ἐστιν, ἀλλὰ καλή. ἡ θύρα τῆς οἰκίας μεγάλη ἐστίν. ἐν τῇ οἰκίᾳ ἡ γυνὴ ὑφαίνει· ὁ δὲ κύων ἐν τῇ ὁδῷ καθεύδει. ὁ Δημόκριτος λέγει· «ὁ κύων ἀεὶ καθεύδει· οὐ πονεῖ.»",
+      "items": [
+        {"type": "true-false-grc", "prompt": "ὁ Δημόκριτος κεραμεύς ἐστιν.", "answer": "false", "skills": ["read.comprehension"], "explain": "γεωργός ἐστιν, οὐ κεραμεύς."},
+        {"type": "true-false-grc", "prompt": "ὁ Δημόκριτος τὸν ἄρτον εἰς τὴν οἰκίαν φέρει.", "answer": "true", "skills": ["read.comprehension"], "explain": "τὸν ἄρτον λαμβάνει καὶ εἰς τὴν οἰκίαν βαίνει."},
+        {"type": "true-false-grc", "prompt": "ὁ κύων ἐν τῇ οἰκίᾳ καθεύδει.", "answer": "false", "skills": ["read.comprehension"], "explain": "ἐν τῇ ὁδῷ καθεύδει."},
+        {"type": "answer-grc", "prompt": "τί ζητεῖ ὁ Δημόκριτος;", "options": [{"id": "a", "text": "ἄρτον."}, {"id": "b", "text": "τὸν κύνα."}, {"id": "c", "text": "τὴν οἰκίαν."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ἄρτον ζητεῖ."},
+        {"type": "answer-grc", "prompt": "τίς ὑφαίνει;", "options": [{"id": "a", "text": "ὁ Δημόκριτος."}, {"id": "b", "text": "ἡ γυνή."}, {"id": "c", "text": "ὁ κύων."}], "answer": "b", "skills": ["read.comprehension"], "explain": "ἐν τῇ οἰκίᾳ ἡ γυνὴ ὑφαίνει."},
+        {"type": "translate-en", "prompt": "Translate: ἡ οἰκία τοῦ Δημοκρίτου μικρά ἐστιν, ἀλλὰ καλή.", "model": "Democritus's house is small, but fine.", "skills": ["read.comprehension", "syntax.possession.gen"], "explain": "τοῦ Δημοκρίτου: genitive, 'of Democritus'."},
+        {"type": "translate-en", "prompt": "Translate: ὁ δὲ κύων ἐν τῇ ὁδῷ καθεύδει.", "model": "And the dog is asleep in the road.", "skills": ["read.comprehension", "prep.en.dat"], "explain": "δέ 'and/but'; ἐν τῇ ὁδῷ 'in the road'."}
+      ]
+    }
+  ]
+}

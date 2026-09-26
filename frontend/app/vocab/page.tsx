@@ -18,8 +18,9 @@ import {
   type Progress,
 } from "../../lib/progress";
 import { cardKey, describeInterval, grade, isNew, pickSession, shuffleSession, type CardType, type Grade } from "../../lib/srs";
+import { PageError, PageLoading } from "../../components/PageState";
 
-type Filters = { topics: Set<string>; tags: Set<string>; tiers: Set<number>; kinds: Set<string>; groups: Set<string>; readings: Set<string> };
+type Filters = { topics: Set<string>; tags: Set<string>; tiers: Set<number>; kinds: Set<string>; groups: Set<string>; readings: Set<string>; lessons: Set<string> };
 type Mode = "build" | "study" | "done";
 type Prompt = { key: string; id: string; item: VocabItem; type: CardType; fresh: boolean };
 type FormsQuestion = { label: string; answer: string[] };
@@ -37,7 +38,7 @@ const GENDER_LABEL: Record<string, string> = { m: "masculine", f: "feminine", n:
 const PERSON_LABEL: Record<string, string> = { "1sg": "1 sg.", "2sg": "2 sg.", "3sg": "3 sg.", "1pl": "1 pl.", "2pl": "2 pl.", "3pl": "3 pl.", inf: "infinitive", m: "participle masc.", f: "participle fem.", n: "participle neut.", mg: "participle gen. masc." };
 
 function emptyFilters(): Filters {
-  return { topics: new Set(), tags: new Set(), tiers: new Set(), kinds: new Set(), groups: new Set(), readings: new Set() };
+  return { topics: new Set(), tags: new Set(), tiers: new Set(), kinds: new Set(), groups: new Set(), readings: new Set(), lessons: new Set() };
 }
 
 function toggle<T>(set: Set<T>, v: T): Set<T> {
@@ -54,6 +55,7 @@ function matches(item: VocabItem, f: Filters): boolean {
   if (f.kinds.size && !f.kinds.has(item.kind)) return false;
   if (f.groups.size && !f.groups.has(item.group)) return false;
   if (f.readings.size && !item.readings.some((r) => f.readings.has(r))) return false;
+  if (f.lessons.size && !(item.lessons ?? []).some((l) => f.lessons.has(l))) return false;
   return true;
 }
 
@@ -166,7 +168,13 @@ export default function VocabPage() {
   const [syncMsg, setSyncMsg] = useState("");
   const entryCache = useRef(new Map<string, VocabEntry>());
   const fileRef = useRef<HTMLInputElement | null>(null);
+  const backRef = useRef<HTMLDivElement | null>(null);
   const { play, busy } = useSpeaker();
+
+  // Revealed: move focus to the answer (the Show answer button is gone).
+  useEffect(() => {
+    if (flipped) backRef.current?.focus({ preventScroll: true });
+  }, [flipped]);
 
   useEffect(() => {
     getVocab().then(setIndex).catch((e) => setError(e instanceof Error ? e.message : "Could not load vocabulary"));
@@ -176,7 +184,15 @@ export default function VocabPage() {
     saveProgress(progress);
   }, [progress]);
 
-  const deck = useMemo(() => (index ? index.items.filter((i) => matches(i, filters)) : []), [index, filters]);
+  // ?words=id,id&from=label: a deck of given words (a reading's new words, a track list)
+  const [only, setOnly] = useState<{ ids: Set<string>; from: string } | null>(null);
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search);
+    const words = q.get("words");
+    if (words) setOnly({ ids: new Set(words.split(",").filter(Boolean)), from: q.get("from") ?? "a list" });
+  }, []);
+
+  const deck = useMemo(() => (index ? index.items.filter((i) => matches(i, filters) && (!only || only.ids.has(i.id))) : []), [index, filters, only]);
 
   const { direction, cardTypes: extras, sessionSize } = progress.settings;
   const keys = useMemo(() => {
@@ -311,14 +327,15 @@ export default function VocabPage() {
     }
   }
 
-  if (error) return <main className="shell"><p className="error">{error}</p></main>;
-  if (!index) return <main className="shell"><p className="muted">Loading vocabulary…</p></main>;
+  if (error) return <PageError message={error} back={{ href: "/", label: "Open the Reader instead" }} />;
+  if (!index) return <PageLoading label="Loading vocabulary…" />;
 
   // ------------------------------------------------------------------ study
   if (mode === "study" && current) {
     const item = current.item;
     return (
       <main className="shell studyShell">
+        <h1 className="srOnly">Vocab study: card {pos + 1} of {queue.length}</h1>
         <div className="studyTop">
           <button type="button" className="linkButton" onClick={() => setMode("build")}>← Deck</button>
           <span className="muted">{pos + 1} / {queue.length} · {TYPE_LABEL[current.type]}{current.fresh ? " · new" : ""}</span>
@@ -327,7 +344,7 @@ export default function VocabPage() {
           {current.type === "recognition" && (
             <>
               <div className="flashFront">
-                <p className="flashGreek">{item.headword}</p>
+                <p className="flashGreek" lang="grc">{item.headword}</p>
                 <p className="flashHint">{item.pos}</p>
                 <div className="speakRow">
                   <SpeakButton text={item.lemma} play={play} busy={busy} />
@@ -335,7 +352,7 @@ export default function VocabPage() {
                 </div>
               </div>
               {flipped && (
-                <div className="flashBack">
+                <div className="flashBack" ref={backRef} tabIndex={-1}>
                   <p className="flashAnswer">{entry?.definition ?? item.short}</p>
                   <CognateLine item={item} />
                   <CardExample entry={entry} play={play} busy={busy} />
@@ -352,6 +369,7 @@ export default function VocabPage() {
                 <p className="flashHint">{item.pos}</p>
                 <input
                   className="typeInput"
+                  aria-label="Type the Greek (optional)"
                   lang="grc"
                   placeholder="type the Greek (optional)"
                   value={typed}
@@ -366,9 +384,9 @@ export default function VocabPage() {
                 )}
               </div>
               {flipped && (
-                <div className="flashBack">
-                  <p className="flashGreek">{item.headword}</p>
-                  {typedOk != null && <p className={typedOk ? "ok" : "warnText"}>{typedOk ? "✓ correct" : "✗ compare"}</p>}
+                <div className="flashBack" ref={backRef} tabIndex={-1}>
+                  <p className="flashGreek" lang="grc">{item.headword}</p>
+                  {typedOk != null && <p className={typedOk ? "ok" : "warnText"} role="status">{typedOk ? "✓ correct" : "✗ compare"}</p>}
                   <div className="speakRow">
                     <SpeakButton text={item.lemma} play={play} busy={busy} />
                     {item.kind === "verb" && headwordParts(item.headword).length > 1 && <SpeakButton text={item.headword} play={play} busy={busy} label="all parts" />}
@@ -383,13 +401,13 @@ export default function VocabPage() {
           {current.type === "forms" && (
             <>
               <div className="flashFront">
-                <p className="flashGreek">{item.lemma}</p>
+                <p className="flashGreek" lang="grc">{item.lemma}</p>
                 <p className="flashHint">{question ? question.label : "loading…"}</p>
                 <SpeakButton text={item.lemma} play={play} busy={busy} />
               </div>
               {flipped && question && (
-                <div className="flashBack">
-                  <p className="flashGreek">{question.answer.join(" / ")}</p>
+                <div className="flashBack" ref={backRef} tabIndex={-1}>
+                  <p className="flashGreek" lang="grc">{question.answer.join(" / ")}</p>
                   <SpeakList forms={question.answer} play={play} busy={busy} />
                   <p className="flashHint">{item.short}</p>
                   <CardExample entry={entry} play={play} busy={busy} />
@@ -400,13 +418,13 @@ export default function VocabPage() {
           {current.type === "parts" && (
             <>
               <div className="flashFront">
-                <p className="flashGreek">{item.lemma}</p>
+                <p className="flashGreek" lang="grc">{item.lemma}</p>
                 <p className="flashHint">principal parts?</p>
                 <SpeakButton text={item.lemma} play={play} busy={busy} />
               </div>
               {flipped && (
-                <div className="flashBack">
-                  <p className="flashAnswer">{item.headword}</p>
+                <div className="flashBack" ref={backRef} tabIndex={-1}>
+                  <p className="flashAnswer" lang="grc">{item.headword}</p>
                   <SpeakList forms={principalParts(entry, item.headword)} play={play} busy={busy} />
                   <SpeakButton text={item.headword} play={play} busy={busy} label="all parts" />
                   <p className="flashHint">{item.short}</p>
@@ -415,10 +433,15 @@ export default function VocabPage() {
               )}
             </>
           )}
-          {!flipped && <p className="tapHint">tap to reveal</p>}
+          {!flipped && <p className="tapHint" aria-hidden="true">tap to reveal</p>}
         </section>
+        {!flipped && current.type !== "production" && (
+          <div className="revealRow">
+            <button type="button" className="primary" onClick={() => setFlipped(true)}>Show answer</button>
+          </div>
+        )}
         {flipped && (
-          <div className="gradeBar">
+          <div className="gradeBar" role="group" aria-label="How well did you know it?">
             <button type="button" className="gradeButton again" onClick={() => answer(0)}>Again</button>
             <button type="button" className="gradeButton hard" onClick={() => answer(1)}>Hard</button>
             <button type="button" className="gradeButton good" onClick={() => answer(2)}>Good</button>
@@ -438,7 +461,7 @@ export default function VocabPage() {
     return (
       <main className="shell">
         <section className="card">
-          <h2>Session done</h2>
+          <h1 className="pageTitle">Session done</h1>
           <p>{stats.reviewed} cards reviewed, {stats.again} marked “again”.</p>
           <div className="actions">
             <button type="button" className="primary" onClick={startSession}>Study more</button>
@@ -467,10 +490,17 @@ export default function VocabPage() {
           </div>
           <span className="badge">{deck.length} words</span>
         </div>
+        {only && (
+          <div className="chips">
+            <button type="button" className="chip on" aria-label={`Remove the filter: words from ${only.from} (${only.ids.size})`} onClick={() => { setOnly(null); window.history.replaceState(null, "", "/vocab"); }}>
+              Words from {only.from} <span className="chipCount">{only.ids.size}</span> <span aria-hidden="true">✕</span>
+            </button>
+          </div>
+        )}
         <h3 className="chipTitle">Topic</h3>
         <div className="chips">
           {f.topics.map((t) => (
-            <button key={t.id} type="button" className={`chip ${filters.topics.has(String(t.id)) ? "on" : ""}`} onClick={() => setFilters({ ...filters, topics: toggle(filters.topics, String(t.id)) })}>
+            <button key={t.id} type="button" className={`chip ${filters.topics.has(String(t.id)) ? "on" : ""}`} aria-pressed={filters.topics.has(String(t.id))} onClick={() => setFilters({ ...filters, topics: toggle(filters.topics, String(t.id)) })}>
               {t.label} <span className="chipCount">{t.count}</span>
             </button>
           ))}
@@ -478,7 +508,7 @@ export default function VocabPage() {
         <h3 className="chipTitle">Extras</h3>
         <div className="chips">
           {f.tags.map((t) => (
-            <button key={t.id} type="button" className={`chip ${filters.tags.has(String(t.id)) ? "on" : ""}`} onClick={() => setFilters({ ...filters, tags: toggle(filters.tags, String(t.id)) })}>
+            <button key={t.id} type="button" className={`chip ${filters.tags.has(String(t.id)) ? "on" : ""}`} aria-pressed={filters.tags.has(String(t.id))} onClick={() => setFilters({ ...filters, tags: toggle(filters.tags, String(t.id)) })}>
               {t.label} <span className="chipCount">{t.count}</span>
             </button>
           ))}
@@ -486,7 +516,7 @@ export default function VocabPage() {
         <h3 className="chipTitle">Level (by frequency)</h3>
         <div className="chips">
           {f.tiers.map((t) => (
-            <button key={t.id} type="button" className={`chip ${filters.tiers.has(Number(t.id)) ? "on" : ""}`} onClick={() => setFilters({ ...filters, tiers: toggle(filters.tiers, Number(t.id)) })}>
+            <button key={t.id} type="button" className={`chip ${filters.tiers.has(Number(t.id)) ? "on" : ""}`} aria-pressed={filters.tiers.has(Number(t.id))} onClick={() => setFilters({ ...filters, tiers: toggle(filters.tiers, Number(t.id)) })}>
               {t.label} <span className="chipCount">{t.ranks}</span>
             </button>
           ))}
@@ -494,29 +524,37 @@ export default function VocabPage() {
         <h3 className="chipTitle">Part of speech</h3>
         <div className="chips">
           {f.kinds.map((k) => (
-            <button key={k.id} type="button" className={`chip ${filters.kinds.has(String(k.id)) ? "on" : ""}`} onClick={() => setFilters({ ...filters, kinds: toggle(filters.kinds, String(k.id)) })}>
+            <button key={k.id} type="button" className={`chip ${filters.kinds.has(String(k.id)) ? "on" : ""}`} aria-pressed={filters.kinds.has(String(k.id))} onClick={() => setFilters({ ...filters, kinds: toggle(filters.kinds, String(k.id)) })}>
               {k.label} <span className="chipCount">{k.count}</span>
             </button>
           ))}
         </div>
         <h3 className="chipTitle">
-          <button type="button" className="linkButton" onClick={() => setShowGroups(!showGroups)}>
+          <button type="button" className="linkButton" aria-expanded={showGroups} onClick={() => setShowGroups(!showGroups)}>
             DCC semantic group {showGroups ? "▾" : "▸"}{filters.groups.size ? ` (${filters.groups.size} chosen)` : ""}
           </button>
         </h3>
         {showGroups && (
           <div className="chips">
             {f.groups.map((g) => (
-              <button key={g.id} type="button" className={`chip ${filters.groups.has(String(g.id)) ? "on" : ""}`} onClick={() => setFilters({ ...filters, groups: toggle(filters.groups, String(g.id)) })}>
+              <button key={g.id} type="button" className={`chip ${filters.groups.has(String(g.id)) ? "on" : ""}`} aria-pressed={filters.groups.has(String(g.id))} onClick={() => setFilters({ ...filters, groups: toggle(filters.groups, String(g.id)) })}>
                 {g.label} <span className="chipCount">{g.count}</span>
               </button>
             ))}
           </div>
         )}
+        <h3 className="chipTitle">Words from a course lesson</h3>
+        <div className="chips">
+          {(f.lessons ?? []).map((l) => (
+            <button key={l.id} type="button" className={`chip ${filters.lessons.has(String(l.id)) ? "on" : ""}`} aria-pressed={filters.lessons.has(String(l.id))} onClick={() => setFilters({ ...filters, lessons: toggle(filters.lessons, String(l.id)) })}>
+              {String(l.id)} <span className="chipCount">{l.count}</span>
+            </button>
+          ))}
+        </div>
         <h3 className="chipTitle">Words from a reading</h3>
         <div className="chips">
           {f.readings.map((r) => (
-            <button key={r.id} type="button" className={`chip ${filters.readings.has(String(r.id)) ? "on" : ""}`} onClick={() => setFilters({ ...filters, readings: toggle(filters.readings, String(r.id)) })}>
+            <button key={r.id} type="button" className={`chip ${filters.readings.has(String(r.id)) ? "on" : ""}`} aria-pressed={filters.readings.has(String(r.id))} onClick={() => setFilters({ ...filters, readings: toggle(filters.readings, String(r.id)) })}>
               {String(r.id)} <span className="chipCount">{r.count}</span>
             </button>
           ))}
@@ -541,7 +579,7 @@ export default function VocabPage() {
         <h3 className="chipTitle">Test</h3>
         <div className="chips">
           {DIRECTIONS.map((d) => (
-            <button key={d.id} type="button" className={`chip ${direction === d.id ? "on" : ""}`} onClick={() => setProgress({ ...progress, settings: { ...progress.settings, direction: d.id } })}>
+            <button key={d.id} type="button" className={`chip ${direction === d.id ? "on" : ""}`} aria-pressed={direction === d.id} onClick={() => setProgress({ ...progress, settings: { ...progress.settings, direction: d.id } })}>
               {d.label}
             </button>
           ))}
@@ -549,7 +587,7 @@ export default function VocabPage() {
             <button
               key={t}
               type="button"
-              className={`chip ${extras.includes(t) ? "on" : ""}`}
+              className={`chip ${extras.includes(t) ? "on" : ""}`} aria-pressed={extras.includes(t)}
               onClick={() => {
                 const next = extras.includes(t) ? extras.filter((x) => x !== t) : [...extras, t];
                 setProgress({ ...progress, settings: { ...progress.settings, cardTypes: next } });
@@ -581,24 +619,23 @@ export default function VocabPage() {
             <h2>Words in this deck</h2>
             <p>Tap a word for its full tables and example sentences.</p>
           </div>
-          <button type="button" className="linkButton" onClick={() => setShowWords(!showWords)}>{showWords ? "Hide" : "Show"}</button>
+          <button type="button" className="linkButton" aria-expanded={showWords} aria-controls="deck-words" onClick={() => setShowWords(!showWords)}>{showWords ? "Hide" : "Show"}<span className="srOnly"> the words</span></button>
         </div>
         {showWords && (
-          <ul className="wordList">
+          <ul className="wordList" id="deck-words">
             {deck.map((w) => {
               const st = progress.cards[cardKey(w.id, "recognition")];
               return (
-                <li key={w.id}>
-                  <Link className="wordRow" href={`/vocab/${encodeURIComponent(w.id)}`}>
-                    <span className="wordLemma">{w.lemma}</span>
-                    <span className="wordShort">
-                      {w.short}
-                      {w.cognates?.derivatives?.[0] && <span className="wordCognate"> · {w.cognates.derivatives[0]}</span>}
-                    </span>
-                    <span className={`level ${w.level}`}>{w.level}</span>
-                    <span className="wordDue">{describeInterval(st, Date.now())}</span>
-                    <SpeakButton text={w.lemma} play={play} busy={busy} small />
-                  </Link>
+                <li key={w.id} className="wordRow">
+                  {/* the lemma link stretches over the row; ▶ sits above it */}
+                  <Link className="wordLemma" lang="grc" href={`/vocab/${encodeURIComponent(w.id)}`}>{w.lemma}</Link>
+                  <span className="wordShort">
+                    {w.short}
+                    {w.cognates?.derivatives?.[0] && <span className="wordCognate"> · {w.cognates.derivatives[0]}</span>}
+                  </span>
+                  <span className={`level ${w.level}`}>{w.level}</span>
+                  <span className="wordDue">{describeInterval(st, Date.now())}</span>
+                  <SpeakButton text={w.lemma} play={play} busy={busy} small />
                 </li>
               );
             })}
@@ -612,10 +649,10 @@ export default function VocabPage() {
             <h2>Settings & sync</h2>
             <p>Progress lives in this browser; a sync code backs it up on the server so you can restore it on another device.</p>
           </div>
-          <button type="button" className="linkButton" onClick={() => setShowSettings(!showSettings)}>{showSettings ? "Hide" : "Show"}</button>
+          <button type="button" className="linkButton" aria-expanded={showSettings} aria-controls="deck-settings" onClick={() => setShowSettings(!showSettings)}>{showSettings ? "Hide" : "Show"}<span className="srOnly"> settings</span></button>
         </div>
         {showSettings && (
-          <div className="settingsGrid">
+          <div className="settingsGrid" id="deck-settings">
             <label className="checkRow">
               <input type="checkbox" checked={progress.settings.autoSpeak} onChange={(e) => setProgress({ ...progress, settings: { ...progress.settings, autoSpeak: e.target.checked } })} />
               Speak cards automatically (the Greek when a card appears, the answer on reveal)
@@ -628,7 +665,7 @@ export default function VocabPage() {
               <button type="button" className="secondary" onClick={() => doSync("push")}>Save to server</button>
               <button type="button" className="secondary" onClick={() => doSync("pull")}>Load from server</button>
             </div>
-            {syncMsg && <p className="muted">{syncMsg}{progress.lastSync ? ` Last sync ${new Date(progress.lastSync).toLocaleString()}.` : ""}</p>}
+            {syncMsg && <p className="muted" role="status">{syncMsg}{progress.lastSync ? ` Last sync ${new Date(progress.lastSync).toLocaleString()}.` : ""}</p>}
             <div className="actions">
               <button
                 type="button"

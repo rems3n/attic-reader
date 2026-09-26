@@ -1,0 +1,279 @@
+{
+ "images": [
+  {
+   "id": "panel-11-1-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ ὅρος ἐπὶ τῇ γῇ κεῖται· ὁ γείτων ὀργίζεται.",
+   "alt_en": "Summer 429, a farm near Acharnae: a toppled boundary stone lies in the grass between two fields; a cut olive tree with its branches on the path; Demokritos stares, and his neighbour Antimachos points at him angrily.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-11-1-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Ἀντίμαχος μετὰ δύο μαρτύρων πρὸς τὴν θύραν ἔρχεται.",
+   "alt_en": "A city doorway in Kydathenaion: Antimachos, flanked by two witnesses, calls out the summons; Demokritos listens in the doorway; inside, Ariston and Lysis look up from the table.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-11-1-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἀνὴρ ἐν τῷ δικαστηρίῳ λέγει· «ἐγὼ γάρ, ὦ Ἀθηναῖοι …»",
+   "alt_en": "A speaker in a plain cloak addresses rows of seated jurors; a scroll labelled ΛΥΣΙΟΥ in the corner marks it as a speech written about 400 BC, later than the story.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-11-2-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Ἀρίστων καὶ ὁ Εὔδημος τῷ Δημοκρίτῳ μαρτυρεῖν βούλονται.",
+   "alt_en": "Evening in Ariston's courtyard: Demokritos counts on his fingers who can be a witness; Ariston nods, Eudemos waves his arms eagerly; Syros stands apart by the wall.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-11-2-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Σύρος εἶδε τὸν δοῦλον τὸν ὅρον κινοῦντα.",
+   "alt_en": "Syros's memory, in muted colours: at dusk a slave levers a boundary stone out of the ground with a bar while a man in a cloak watches from behind an olive tree.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-11-2-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "«οὐ μὴ παραδῶ τὸν Σύρον.»",
+   "alt_en": "Ariston stands between Syros and Demokritos with one hand raised, refusing; Chrysis and Elpis watch from the doorway; Syros looks at the ground.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-11-3-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ δικασταὶ καθίζονται· ἡ κλεψύδρα ῥεῖ.",
+   "alt_en": "Inside a law court at dawn: several hundred jurors on wooden benches, a magistrate on a platform, and a clay water clock on a stand with water running from its spout into a jar below.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-11-3-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Δημόκριτος λέγει· «ἐγὼ γάρ, ὦ ἄνδρες δικασταί …»",
+   "alt_en": "Demokritos on the speaker's platform, hands open, speaking plainly; Antimachos scowls from the other side; jurors lean forward.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-11-3-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ δικασταὶ θορυβοῦσιν.",
+   "alt_en": "Jurors shout and wave; Demokritos pauses with a small smile; the water in the clock is nearly gone.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-11-4-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ δικασταὶ τὰς ψήφους φέρουσιν.",
+   "alt_en": "Jurors file past two urns on a table, each holding a pebble hidden in his fist; Eudemos among them, a charcoal smudge on his cheek.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-11-4-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ ἄρχοντες τὰς ψήφους ἀριθμοῦσιν.",
+   "alt_en": "Officials tip out the two urns and count pebbles in small heaps; Demokritos and Antimachos watch from either side, tense.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-11-4-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "τὼ γείτονε τὸν ὅρον αὖθις ἱστάτον.",
+   "alt_en": "Autumn on the farm: Demokritos and Antimachos together set the boundary stone upright again, each with both hands on it; Lysis and Mikion watch; a young olive shoot grows from the cut stump.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "horos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ ὅρος",
+   "alt_en": "A boundary stone (ὅρος): a rough upright slab set in the earth between two fields.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ὅρος"
+   ]
+  },
+  {
+   "id": "geiton",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ γείτων",
+   "alt_en": "Two farmhouses side by side, a man at each door raising a hand to the other: neighbours.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "γείτων"
+   ]
+  },
+  {
+   "id": "dikasterion",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ δικαστήριον",
+   "alt_en": "A law court: rows of jurors on benches, a speaker's platform and a water clock.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "δικαστήριον",
+    "δίκη"
+   ]
+  },
+  {
+   "id": "dikastes",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ δικαστής",
+   "alt_en": "A juror: a bearded citizen over thirty, seated, holding a voting pebble and a staff.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "δικαστής"
+   ]
+  },
+  {
+   "id": "martys",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ μάρτυς",
+   "alt_en": "A witness raising his hand to speak before the jurors.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "μάρτυς",
+    "μαρτυρέω"
+   ]
+  },
+  {
+   "id": "klepsydra",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ κλεψύδρα",
+   "alt_en": "A clay water clock: water runs from a spout near the bottom of one jar into another; the speech lasts as long as the water.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "κλεψύδρα"
+   ]
+  },
+  {
+   "id": "psephos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ ψῆφος",
+   "alt_en": "A voting pebble held between two fingers; a small heap of pebbles beside it.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ψῆφος"
+   ]
+  },
+  {
+   "id": "kadiskos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ καδίσκος",
+   "alt_en": "A voting urn: a jar with a narrow mouth into which the juror drops his pebble.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "καδίσκος"
+   ]
+  },
+  {
+   "id": "culture-11-1-horos-agora",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὁ ὅρος τῆς ἀγορᾶς",
+   "alt_en": "The boundary stone of the Athenian Agora, about 500 BC, still standing where it was set; the archaic letters read ΗΟΡΟΣ ΕΙΜΙ ΤΕΣ ΑΓΟΡΑΣ, 'I am the boundary of the Agora'.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ὅρος"
+   ]
+  },
+  {
+   "id": "culture-11-2-clay-pit",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "δοῦλοι ἐν τῷ ὀρύγματι πονοῦσιν",
+   "alt_en": "A painted clay plaque from Corinth, 6th century BC (Penteskouphia): men digging clay in a pit for a potter's workshop, one passing a basket up, a jug of water hung beside them. Most such labourers were enslaved.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "culture-11-3-klepsydra",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ἡ κλεψύδρα ἡ ἐκ τῆς ἀγορᾶς",
+   "alt_en": "The clay water clock found in the Athenian Agora, about 400 BC: a jar with a bronze outlet near the base, inscribed ΑΝΤΙΟΧΙΔΟΣ (of the tribe Antiochis); full, it ran for about six minutes.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "κλεψύδρα"
+   ]
+  }
+ ]
+}

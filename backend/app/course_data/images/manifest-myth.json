@@ -1,0 +1,505 @@
+{
+ "images": [
+  {
+   "id": "myth-1-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "χειμὼν ἦν· οἱ παῖδες μετὰ τοῦ πάππου παρὰ τῷ πυρὶ ἦσαν.",
+   "alt_en": "An old man seated, telling a story; children listen (terracotta group or vase scene).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-1-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Ῥέα τῷ Κρόνῳ λίθον ἐν σπαργάνοις δίδωσιν.",
+   "alt_en": "Rhea hands Kronos the stone wrapped in swaddling clothes (Attic red-figure pelike by the Nausicaa Painter, c. 460 BC, Metropolitan Museum 06.1021.144).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-1-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ Κούρητες τοῖς δόρασι τὰς ἀσπίδας κρούουσιν περὶ τὸν παῖδα.",
+   "alt_en": "The armed Kouretes clash spears on shields around the infant Zeus (Roman terracotta Campana relief).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-antron",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ ἄντρον",
+   "alt_en": "The Dictaean cave on Crete, the traditional birthplace of Zeus: a cave mouth in the rock.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἄντρον"
+   ]
+  },
+  {
+   "id": "myth-aspis",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ ἀσπίς",
+   "alt_en": "A round hoplite shield (bronze shield facing or a vase painting of a warrior's shield).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἀσπίς"
+   ]
+  },
+  {
+   "id": "myth-dory",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ δόρυ",
+   "alt_en": "A hoplite with his spear raised, from a red-figure vase.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "δόρυ"
+   ]
+  },
+  {
+   "id": "myth-culture-1",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὁ ὀμφαλὸς ὁ ἐν Δελφοῖς.",
+   "alt_en": "The marble omphalos, the 'navel of the world', carved with a net of wool fillets (Delphi Archaeological Museum).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-2-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ ἱερὰ ἐλαία ἐν τῇ ἀκροπόλει.",
+   "alt_en": "The olive tree beside the Erechtheion on the Acropolis, planted where the sacred olive grew.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-2-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Κέκροψ· τὸ μὲν ἄνω ἀνδρός, τὸ δὲ κάτω δράκοντος.",
+   "alt_en": "Kekrops, a king whose body ends in a serpent's coils, on an Attic red-figure vase.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-2-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Ἀθηνᾶ καὶ ὁ Ποσειδῶν ἐρίζουσιν· ἐν μέσῳ ἡ ἐλαία.",
+   "alt_en": "Athena and Poseidon contend for Attica with the olive tree between them (red-figure hydria from Pella, 4th century BC, after the Parthenon's west pediment).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-triaina",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ τρίαινα",
+   "alt_en": "Poseidon holding his trident, from a black- or red-figure vase.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "τρίαινα"
+   ]
+  },
+  {
+   "id": "myth-drakon",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ δράκων",
+   "alt_en": "A great serpent coiled around a tree or rising up, from a Greek vase painting.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "δράκων"
+   ]
+  },
+  {
+   "id": "myth-culture-2",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "τὸ ἀέτωμα τὸ πρὸς ἑσπέραν τοῦ Παρθενῶνος.",
+   "alt_en": "Drawing of 1674 (attributed to Jacques Carrey) of the west pediment of the Parthenon: Athena and Poseidon spring apart in the centre.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-3-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Ἀκρίσιος τὴν Δανάην ἐν θαλάμῳ χαλκῷ φρουρεῖ.",
+   "alt_en": "Danae in her bronze chamber (Attic red-figure vase).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-3-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Δανάη καὶ ὁ Περσεὺς εἰς τὴν λάρνακα εἰσβαίνουσιν.",
+   "alt_en": "Akrisios watches as Danae, holding the baby Perseus, is put into the wooden chest (Attic red-figure hydria, c. 490 BC).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-3-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Περσεὺς τὴν τῆς Μεδούσης κεφαλὴν ἔχων φεύγει.",
+   "alt_en": "Perseus runs off with the head of Medusa in his bag; the body of the Gorgon sinks behind him (Attic red-figure hydria by the Pan Painter, c. 460 BC, Metropolitan Museum 45.11.1).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-larnax",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ λάρναξ",
+   "alt_en": "A wooden chest with a lid, as painted on vases of Danae and Perseus.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "λάρναξ"
+   ]
+  },
+  {
+   "id": "myth-pedila",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὰ πτερωτὰ πέδιλα",
+   "alt_en": "Winged sandals, as worn by Hermes and Perseus on vase paintings.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-culture-3",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὁ Αἰγεὺς τὴν Θέμιν ἐν Δελφοῖς ἐρωτᾷ.",
+   "alt_en": "King Aegeus consults the Delphic oracle; the priestess sits on the tripod (Attic red-figure kylix by the Codrus Painter, c. 440 BC, Berlin F 2538).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-4-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Ζεὺς ὅμοιος Ἀμφιτρύωνι γενόμενος πρὸς τὴν Ἀλκμήνην ἔρχεται.",
+   "alt_en": "Zeus comes to Alcmene at night (South Italian or Attic vase with Zeus, Alcmene or Amphitryon).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-4-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Ἡρακλῆς βρέφος ὢν τοὺς δράκοντας ἄγχει.",
+   "alt_en": "The infant Heracles strangles the two serpents while Iphicles cries out (Attic red-figure stamnos by the Berlin Painter, c. 480 BC, Louvre G 192).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-4-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Ἡρακλῆς παῖς ὢν μετὰ τῆς τροφοῦ εἰς τὸ διδασκαλεῖον βαδίζει.",
+   "alt_en": "Young Heracles walks to his music lesson behind his old nurse Geropso, who carries his lyre (Attic red-figure skyphos by the Pistoxenos Painter, c. 470 BC, Schwerin).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-eune",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ εὐνή",
+   "alt_en": "A child's cradle or a couch with a sleeping figure, from a Greek vase or terracotta.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "εὐνή"
+   ]
+  },
+  {
+   "id": "myth-kithara",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ κιθάρα",
+   "alt_en": "A musician playing the kithara, the large concert lyre (Attic red-figure amphora, Berlin Painter, Metropolitan Museum 56.171.38).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "κιθάρα"
+   ]
+  },
+  {
+   "id": "myth-culture-4",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὁ Ἡρακλῆς τὸν Λίνον τύπτει.",
+   "alt_en": "Heracles attacks his music teacher Linus with a stool (Attic red-figure kylix by Douris, c. 480 BC, Munich).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-5-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Εὐρυσθεὺς τῷ Ἡρακλεῖ τοὺς ἄθλους ἐπιτάττει.",
+   "alt_en": "Heracles, with lion skin and club, before King Eurystheus (Attic black-figure vase).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-5-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Ἡρακλῆς τὸν λέοντα ἄγχει.",
+   "alt_en": "Heracles wrestles the Nemean lion, his arm locked round its neck (Attic black-figure amphora, 6th century BC).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-5-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Εὐρυσθεὺς ἐν τῷ πίθῳ κρύπτεται.",
+   "alt_en": "King Eurystheus hides in a great storage jar sunk in the ground while Heracles brings him a monster (Attic black-figure vase).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-leon",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ λέων",
+   "alt_en": "A lion, from a Greek sculpture or vase (e.g. a marble funerary lion).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "λέων"
+   ]
+  },
+  {
+   "id": "myth-rhopalon",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ ῥόπαλον",
+   "alt_en": "Heracles' club, as held by a bronze statuette of the hero.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ῥόπαλον"
+   ]
+  },
+  {
+   "id": "myth-pithos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ πίθος",
+   "alt_en": "A large clay storage jar (pithos).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πίθος"
+   ]
+  },
+  {
+   "id": "myth-culture-5",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὁ Ἡρακλῆς νέος ὑπὲρ τοῦ λέοντος ἕστηκεν.",
+   "alt_en": "Metope from the temple of Zeus at Olympia, c. 460 BC: the young Heracles stands exhausted over the dead Nemean lion, with Athena and Hermes (Archaeological Museum of Olympia).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-6-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ ναῦς μέλαν ἱστίον ἔχουσα εἰς Κρήτην πλεῖ.",
+   "alt_en": "A Greek ship under sail (Attic black-figure cup or dinos with a ship).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-6-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Ἀριάδνη τῷ Θησεῖ τὸ λίνον δίδωσιν.",
+   "alt_en": "Ariadne hands Theseus the ball of thread before he enters the Labyrinth (Greek vase painting).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-6-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Θησεὺς τὸν Μινώταυρον ἀποκτείνει.",
+   "alt_en": "Theseus kills the bull-headed Minotaur (Attic black-figure amphora, 6th century BC).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-histion",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ ἱστίον",
+   "alt_en": "A ship's square sail on its mast, from a Greek vase.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἱστίον"
+   ]
+  },
+  {
+   "id": "myth-culture-6",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὁ Θησεὺς τὸν Μινώταυρον ἐκ τοῦ λαβυρίνθου ἕλκει.",
+   "alt_en": "Theseus drags the dead Minotaur out of the Labyrinth while Athena watches (Attic red-figure kylix by Aison, c. 420 BC, National Archaeological Museum, Madrid).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-7-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Ἥφαιστος τὸν πέλεκυν ἔχων ἥκει.",
+   "alt_en": "Hephaestus arrives with his axe as Zeus sits enthroned (Attic black-figure vase of the birth of Athena).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-7-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Ἀθηνᾶ ἔνοπλος ἐκ τῆς τοῦ Διὸς κεφαλῆς πηδᾷ.",
+   "alt_en": "A small, fully armed Athena springs from the head of Zeus (Attic black-figure amphora, mid-6th century BC).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-7-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Ἀθηνᾶ τὴν ἀσπίδα τινάσσει καὶ τὸ δόρυ πάλλει.",
+   "alt_en": "Athena striding forward with raised spear and shield, the pose called Promachos (bronze statuette, Metropolitan Museum).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-pelekys",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ πέλεκυς",
+   "alt_en": "A bronze axe head.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πέλεκυς"
+   ]
+  },
+  {
+   "id": "myth-korys",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ κόρυς",
+   "alt_en": "A bronze Corinthian helmet.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "κόρυς"
+   ]
+  },
+  {
+   "id": "myth-culture-7",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ἡ τῆς Ἀθηνᾶς γένεσις, ὥσπερ ἐν τῷ ἀετώματι τοῦ Παρθενῶνος.",
+   "alt_en": "The birth of Athena as on the Parthenon's east pediment: a Roman marble well-head (the 'Madrid puteal') copying the scene, with Zeus seated, Athena striding away and Hephaestus with the axe (National Archaeological Museum, Madrid).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  }
+ ]
+}

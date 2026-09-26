@@ -1,0 +1,1634 @@
+{
+  "id": "12.2",
+  "title_grc": "ὁ Ξενοφῶν",
+  "title_en": "The sea, the sea!",
+  "summary_grc": "οἱ Ἕλληνες ἐπὶ τὸ ὄρος ἀφικνοῦνται καὶ τὴν θάλατταν ὁρῶσιν· «θάλαττα θάλαττα».",
+  "summary_en": "Lysis reads the most famous page of the Anabasis: the Greek army, retreating through enemy country, reaches Mount Theches and sees the sea. Xenophon's original, unadapted, with a running vocabulary.",
+  "cover": "panel-12-2-c",
+  "caption_grc": "καὶ τάχα δὴ ἀκούουσι βοώντων τῶν στρατιωτῶν θάλαττα θάλαττα.",
+  "original": {
+    "text": "xen-anab-4.7",
+    "note": "Xenophon, Anabasis 4.7.21–24, unadapted. The scene took place early in 400 BC; Xenophon wrote it down some thirty years later, in the 370s–360s. The two opening sentences of the story are ours; everything after them is Xenophon's text."
+  },
+  "names": {
+    "Κῦρος": [
+      "Κύρου",
+      "Κύρῳ",
+      "Κῦρον",
+      "Κῦρε"
+    ],
+    "Θήχης": [
+      "Θήχου",
+      "Θήχῃ",
+      "Θήχην"
+    ],
+    "Λύκιος": [
+      "Λυκίου",
+      "Λυκίῳ",
+      "Λύκιον"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "panel-12-2-a",
+      "sentences": [
+        {
+          "text": "ἄλλῃ ἡμέρᾳ ὁ Λύσις ἐκ μέσου τοῦ βιβλίου ἀναγιγνώσκει· οἱ γὰρ Ἕλληνες, τοῦ Κύρου ἀποθανόντος, διὰ τῆς χώρας τῶν πολεμίων πρὸς τὴν θάλατταν ἔσπευδον.",
+          "glosses": [
+            {
+              "word": "μέσου",
+              "kind": "note",
+              "value": "ἐκ μέσου τοῦ βιβλίου: from the middle of the book (μέσος before the article: 'the middle of')"
+            },
+            {
+              "word": "ἀποθανόντος",
+              "kind": "|",
+              "value": "ἀποθνῄσκει | τοῦ Κύρου ἀποθανόντος (genitive absolute: after Cyrus had been killed)"
+            }
+          ]
+        },
+        {
+          "text": "ἡ δὲ μικρὰ κόρη, ἣ τὴν θάλατταν μάλιστα φιλεῖ, ὀξείᾳ φωνῇ ἐρωτᾷ· «τί εἶδον οἱ Ἕλληνες ἐπὶ τοῦ ὄρους, ὦ πάππε;»",
+          "glosses": [
+            {
+              "word": "ὀξείᾳ",
+              "kind": "|",
+              "value": "ὀξύς, ὀξεῖα, ὀξύ | ὀξείᾳ φωνῇ (in a shrill voice)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ ἀφικνοῦνται ἐπὶ τὸ ὄρος τῇ πέμπτῃ ἡμέρᾳ·",
+          "orig": [
+            0
+          ],
+          "glosses": [
+            {
+              "word": "ἀφικνοῦνται",
+              "kind": "note",
+              "value": "historic present: 'they arrived'"
+            },
+            {
+              "word": "πέμπτῃ",
+              "kind": "<",
+              "value": "πέντε | πέμπτος (fifth)"
+            }
+          ]
+        },
+        {
+          "text": "ὄνομα δὲ τῷ ὄρει ἦν Θήχης.",
+          "orig": [
+            1
+          ],
+          "glosses": [
+            {
+              "word": "ὄρει",
+              "kind": "note",
+              "value": "dative of possession: ὄνομα τῷ ὄρει ἦν 'the mountain had the name'"
+            },
+            {
+              "word": "Θήχης",
+              "kind": "en",
+              "value": "Theches, a mountain inland from Trapezus (Trabzon) on the Black Sea"
+            }
+          ]
+        },
+        {
+          "text": "ἐπεὶ δὲ οἱ πρῶτοι ἐγένοντο ἐπὶ τοῦ ὄρους καὶ κατεῖδον τὴν θάλατταν, κραυγὴ πολλὴ ἐγένετο.",
+          "orig": [
+            2
+          ],
+          "glosses": [
+            {
+              "word": "κατεῖδον",
+              "kind": "<",
+              "value": "κατά + εἶδον | κατεῖδον (looked down on, caught sight of)"
+            },
+            {
+              "word": "κραυγὴ",
+              "kind": "en",
+              "value": "shouting, an outcry (ἡ κραυγή)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "panel-12-2-b",
+      "sentences": [
+        {
+          "text": "ἀκούσας δὲ ὁ Ξενοφῶν καὶ οἱ ὀπισθοφύλακες ᾠήθησαν ἔμπροσθεν ἄλλους ἐπιτίθεσθαι πολεμίους·",
+          "orig": [
+            3
+          ],
+          "glosses": [
+            {
+              "word": "ὀπισθοφύλακες",
+              "kind": "<",
+              "value": "ὄπισθεν (behind) + φύλαξ | οἱ ὀπισθοφύλακες (the rearguard)"
+            },
+            {
+              "word": "ᾠήθησαν",
+              "kind": "|",
+              "value": "οἴομαι (think) | ᾠήθησαν (aorist, passive in form: they thought)"
+            },
+            {
+              "word": "ἔμπροσθεν",
+              "kind": "en",
+              "value": "in front, ahead"
+            },
+            {
+              "word": "ἐπιτίθεσθαι",
+              "kind": "<",
+              "value": "ἐπί + τίθημι | ἐπιτίθεσθαι (to attack, middle; the subject is ἄλλους πολεμίους)"
+            }
+          ]
+        },
+        {
+          "text": "εἵποντο γὰρ ὄπισθεν ἐκ τῆς καιομένης χώρας, καὶ αὐτῶν οἱ ὀπισθοφύλακες ἀπέκτεινάν τέ τινας καὶ ἐζώγρησαν ἐνέδραν ποιησάμενοι, καὶ γέρρα ἔλαβον δασειῶν βοῶν ὠμοβόεια ἀμφὶ τὰ εἴκοσιν.",
+          "orig": [
+            4
+          ],
+          "glosses": [
+            {
+              "word": "εἵποντο",
+              "kind": "note",
+              "value": "subject: the local tribesmen, whose land the Greeks were burning"
+            },
+            {
+              "word": "ὄπισθεν",
+              "kind": "en",
+              "value": "behind, from behind"
+            },
+            {
+              "word": "καιομένης",
+              "kind": "|",
+              "value": "καίω (burn) | ἡ καιομένη χώρα (the land being burned: present passive participle)"
+            },
+            {
+              "word": "ἀπέκτεινάν",
+              "kind": "|",
+              "value": "ἀποκτείνω (kill) | ἀπέκτειναν (killed; the extra accent comes from the enclitic τε)"
+            },
+            {
+              "word": "ἐζώγρησαν",
+              "kind": "en",
+              "value": "took alive, captured (ζωγρέω)"
+            },
+            {
+              "word": "ἐνέδραν",
+              "kind": "en",
+              "value": "an ambush (ἡ ἐνέδρα)"
+            },
+            {
+              "word": "γέρρα",
+              "kind": "en",
+              "value": "wicker shields (τὸ γέρρον)"
+            },
+            {
+              "word": "δασειῶν",
+              "kind": "en",
+              "value": "shaggy, with the hair on (δασύς, like ταχύς)"
+            },
+            {
+              "word": "βοῶν",
+              "kind": "en",
+              "value": "of oxen (ὁ βοῦς, genitive plural), not βοῶν 'shouting'"
+            },
+            {
+              "word": "ὠμοβόεια",
+              "kind": "en",
+              "value": "rawhide (ὠμός 'raw' + βοῦς): δασειῶν βοῶν ὠμοβόεια 'shields covered with shaggy rawhide'"
+            },
+            {
+              "word": "ἀμφὶ",
+              "kind": "en",
+              "value": "about (with numbers)"
+            },
+            {
+              "word": "εἴκοσιν",
+              "kind": "en",
+              "value": "twenty"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "panel-12-2-c",
+      "sentences": [
+        {
+          "text": "ἐπειδὴ δὲ βοὴ πλείων τε ἐγίγνετο καὶ ἐγγύτερον καὶ οἱ ἀεὶ ἐπιόντες ἔθεον δρόμῳ ἐπὶ τοὺς ἀεὶ βοῶντας καὶ πολλῷ μείζων ἐγίγνετο ἡ βοὴ ὅσῳ δὴ πλείους ἐγίγνοντο, ἐδόκει δὴ μεῖζόν τι εἶναι τῷ Ξενοφῶντι, καὶ ἀναβὰς ἐφʼ ἵππον καὶ Λύκιον καὶ τοὺς ἱππέας ἀναλαβὼν παρεβοήθει·",
+          "orig": [
+            5
+          ],
+          "glosses": [
+            {
+              "word": "ἐπειδὴ",
+              "kind": "=",
+              "value": "ἐπεί (when)"
+            },
+            {
+              "word": "βοὴ",
+              "kind": "<",
+              "value": "βοάω | ἡ βοή (a shout)"
+            },
+            {
+              "word": "πλείων",
+              "kind": "|",
+              "value": "πολύς | πλείων (more, louder)"
+            },
+            {
+              "word": "ἐγγύτερον",
+              "kind": "en",
+              "value": "nearer (comparative of ἐγγύς 'near')"
+            },
+            {
+              "word": "ἐπιόντες",
+              "kind": "<",
+              "value": "ἐπί + εἶμι | οἱ ἀεὶ ἐπιόντες (each group as it came up)"
+            },
+            {
+              "word": "ἔθεον",
+              "kind": "en",
+              "value": "ran, were running (θέω, imperfect)"
+            },
+            {
+              "word": "δρόμῳ",
+              "kind": "en",
+              "value": "at a run (ὁ δρόμος 'running')"
+            },
+            {
+              "word": "πολλῷ",
+              "kind": "en",
+              "value": "by much (dative of degree): πολλῷ μείζων … ὅσῳ πλείους 'much bigger, the more of them there were'"
+            },
+            {
+              "word": "ὅσῳ",
+              "kind": "en",
+              "value": "by as much as: ὅσῳ πλείους 'the more (they became)'"
+            },
+            {
+              "word": "πλείους",
+              "kind": "|",
+              "value": "πλείων | πλείους (= πλείονες, more)"
+            },
+            {
+              "word": "ἐδόκει",
+              "kind": "|",
+              "value": "δοκεῖ + dative | ἐδόκει τῷ Ξενοφῶντι (it seemed to Xenophon)"
+            },
+            {
+              "word": "ἐφʼ",
+              "kind": "=",
+              "value": "ἐπί (ἐφʼ before a rough breathing)"
+            },
+            {
+              "word": "Λύκιον",
+              "kind": "en",
+              "value": "Lycius, an Athenian who commanded the cavalry"
+            },
+            {
+              "word": "ἱππέας",
+              "kind": "<",
+              "value": "ἵππος | ὁ ἱππεύς, τοὺς ἱππέας (horsemen)"
+            },
+            {
+              "word": "ἀναλαβὼν",
+              "kind": "<",
+              "value": "ἀνά + λαμβάνω | ἀναλαβών (taking along)"
+            },
+            {
+              "word": "παρεβοήθει",
+              "kind": "en",
+              "value": "went to help (παραβοηθέω, imperfect)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ τάχα δὴ ἀκούουσι βοώντων τῶν στρατιωτῶν θάλαττα θάλαττα καὶ παρεγγυώντων.",
+          "orig": [
+            6
+          ],
+          "glosses": [
+            {
+              "word": "τάχα",
+              "kind": "en",
+              "value": "soon, quickly"
+            },
+            {
+              "word": "ἀκούουσι",
+              "kind": "|",
+              "value": "ἀκούω + genitive of the person | ἀκούουσι βοώντων τῶν στρατιωτῶν (they hear the soldiers shouting)"
+            },
+            {
+              "word": "θάλαττα",
+              "kind": "note",
+              "value": "the words the soldiers shouted: 'The sea! The sea!' (the text has no quotation marks)"
+            },
+            {
+              "word": "παρεγγυώντων",
+              "kind": "en",
+              "value": "passing the word along the line (παρεγγυάω)"
+            }
+          ]
+        },
+        {
+          "text": "ἔνθα δὴ ἔθεον πάντες καὶ οἱ ὀπισθοφύλακες, καὶ τὰ ὑποζύγια ἠλαύνετο καὶ οἱ ἵπποι.",
+          "orig": [
+            7
+          ],
+          "glosses": [
+            {
+              "word": "ἔνθα",
+              "kind": "en",
+              "value": "then, at that point"
+            },
+            {
+              "word": "ὑποζύγια",
+              "kind": "en",
+              "value": "pack animals (τὸ ὑποζύγιον, 'under the yoke')"
+            },
+            {
+              "word": "ἠλαύνετο",
+              "kind": "|",
+              "value": "ἐλαύνω (drive) | ἠλαύνετο (were driven: neuter plural subject, singular verb)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "ονομα",
+      "gloss_grc": "τὸ ὄνομα, τοῦ ὀνόματος · ὄνομα τῷ ὄρει ἦν Θήχης"
+    },
+    {
+      "id": "ονομαζω",
+      "gloss_grc": "ὀνομάζω, ὠνόμασα · τὸ ὄρος Θήχην ὀνομάζουσιν"
+    },
+    {
+      "id": "πολεμιος",
+      "gloss_grc": "πολέμιος, -α, -ον · οἱ πολέμιοι = the enemy (↔ φίλιοι)"
+    },
+    {
+      "id": "ειδον",
+      "gloss_grc": "ὁρῶ → εἶδον (ἰδεῖν, ἰδών) · κατεῖδον τὴν θάλατταν"
+    },
+    {
+      "id": "μεσος",
+      "gloss_grc": "μέσος, -η, -ον · ἐν μέσῃ τῇ ὁδῷ (in the middle of the road)"
+    },
+    {
+      "id": "οξυς",
+      "gloss_grc": "ὀξύς, ὀξεῖα, ὀξύ (like ταχύς) · ὀξεῖα βοή"
+    },
+    {
+      "id": "ισχυρος",
+      "gloss_grc": "ἰσχυρός, -ά, -όν ↔ ἀσθενής · ἰσχυροὶ ὁπλῖται"
+    }
+  ],
+  "notice": [
+    "ἀκούσας δὲ ὁ Ξενοφῶν · ἐκ τῆς καιομένης χώρας · ἐνέδραν ποιησάμενοι",
+    "οἱ ἀεὶ ἐπιόντες ἔθεον δρόμῳ ἐπὶ τοὺς ἀεὶ βοῶντας",
+    "πολλῷ μείζων ἐγίγνετο ἡ βοὴ ὅσῳ δὴ πλείους ἐγίγνοντο",
+    "ἀκούουσι βοώντων τῶν στρατιωτῶν θάλαττα θάλαττα",
+    "τὰ ὑποζύγια ἠλαύνετο"
+  ],
+  "grammar": {
+    "md": "Xenophon's most famous scene is a lesson in **participles and comparison**. Read it once for the story; then read it again and bracket every participle.\n\n**The participles in the passage.**\n\n| form | tense, voice | use |\n|---|---|---|\n| ἀκούσας (ὁ Ξενοφῶν) | aorist active | circumstantial: 'when he heard' |\n| τῆς καιομένης χώρας | present passive | attributive: 'the land being burned' |\n| ἐνέδραν ποιησάμενοι | aorist middle | circumstantial: 'by setting an ambush' |\n| οἱ ἐπιόντες, τοὺς βοῶντας | present active | with the article, as nouns: 'those coming up', 'those shouting' |\n| ἀναβάς, ἀναλαβών | aorist active | a chain of actions before the main verb παρεβοήθει |\n| ἀκούουσι βοώντων … καὶ παρεγγυώντων | present active | with a verb of hearing, genitive: 'they hear them shouting' |\n| τοῦ Κύρου ἀποθανόντος (the frame) | aorist active | genitive absolute |\n\nAn **aorist** participle usually happened before the main verb, a **present** participle at the same time. The article turns a participle into a noun.\n\n**Comparison.** The noise grows: βοὴ πλείων … καὶ ἐγγύτερον … πολλῷ μείζων … ὅσῳ πλείους … μεῖζόν τι. πλείους is the contracted form of πλείονες. With a comparative, the **dative of degree of difference** says 'by how much': πολλῷ μείζων 'much bigger'; πολλῷ … ὅσῳ 'the more … the more'.\n\n**Three small things.** ὄνομα τῷ ὄρει ἦν: dative of possession. τὰ ὑποζύγια ἠλαύνετο: neuter plural subject, singular verb. ᾠήθησαν: οἴομαι has a passive-looking aorist (like ἐβουλήθην).",
+    "paradigms": [
+      "tachys",
+      "beltion"
+    ],
+    "diagram": "diagram-participle-map"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings (Xenophon's sentences).",
+      "template": "καὶ ἀφικνοῦ___ ἐπὶ τὸ ὄρος τῇ πέμπτῃ ἡμέρᾳ. ἐπεὶ δὲ οἱ πρῶτοι ἐγένο___ ἐπὶ τοῦ ὄρους, κραυγὴ πολλὴ ἐγένε___. ἀκούσα___ δὲ ὁ Ξενοφῶν …",
+      "gaps": [
+        {
+          "answers": [
+            "νται"
+          ]
+        },
+        {
+          "answers": [
+            "ντο"
+          ]
+        },
+        {
+          "answers": [
+            "το"
+          ]
+        },
+        {
+          "answers": [
+            "ς"
+          ]
+        }
+      ],
+      "skills": [
+        "verb.historic-present",
+        "verb.aor2.stem",
+        "verb.ptc.aor.act"
+      ],
+      "explain": "ἀφικνοῦνται (historic present, 3rd plural), ἐγένοντο (they got to), ἐγένετο (there arose), ἀκούσας (aorist participle with ὁ Ξενοφῶν)."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ὄνομα δὲ τῷ ___ ἦν Θήχης.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὄρει"
+        },
+        {
+          "id": "b",
+          "text": "ὄρος"
+        },
+        {
+          "id": "c",
+          "text": "ὄρους"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.dat.uses",
+        "noun.decl3.dat.sg"
+      ],
+      "explain": "Dative of possession: 'the mountain had the name Theches'.",
+      "audio": "ὄνομα δὲ τῷ ὄρει ἦν Θήχης."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · καὶ τάχα δὴ ἀκούουσι ___ τῶν στρατιωτῶν.",
+      "options": [
+        {
+          "id": "a",
+          "text": "βοώντων"
+        },
+        {
+          "id": "b",
+          "text": "βοῶντας"
+        },
+        {
+          "id": "c",
+          "text": "βοῶσι"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.gen.uses",
+        "verb.ptc.pres.act.gen"
+      ],
+      "explain": "ἀκούω takes the genitive of the person heard, and the participle agrees with it: βοώντων τῶν στρατιωτῶν.",
+      "audio": "καὶ τάχα δὴ ἀκούουσι βοώντων τῶν στρατιωτῶν."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · καὶ τὰ ὑποζύγια ___ καὶ οἱ ἵπποι.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἠλαύνετο"
+        },
+        {
+          "id": "b",
+          "text": "ἐλαύνει"
+        },
+        {
+          "id": "c",
+          "text": "ἠλαύνομεν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "verb.neuter-plural",
+        "verb.impf.mp.ind.3sg"
+      ],
+      "explain": "Neuter plural subject, singular verb: τὰ ὑποζύγια ἠλαύνετο 'the pack animals were driven along'.",
+      "audio": "καὶ τὰ ὑποζύγια ἠλαύνετο καὶ οἱ ἵπποι."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "τὸ ὄνομα"
+        },
+        {
+          "id": "b",
+          "text": "τὸ ὄρος"
+        },
+        {
+          "id": "c",
+          "text": "ὁ οἶνος"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.recognition"
+      ],
+      "explain": "τὸ ὄνομα: the name.",
+      "audio": "τὸ ὄνομα"
+    },
+    {
+      "type": "match",
+      "prompt": "Match the new words to their meanings.",
+      "pairs": [
+        {
+          "left": "τὸ ὄνομα",
+          "right": "name"
+        },
+        {
+          "left": "πολέμιος",
+          "right": "hostile; οἱ πολέμιοι, the enemy"
+        },
+        {
+          "left": "μέσος",
+          "right": "middle, in the middle of"
+        },
+        {
+          "left": "ὀξύς",
+          "right": "sharp, shrill"
+        },
+        {
+          "left": "ἰσχυρός",
+          "right": "strong"
+        }
+      ],
+      "skills": [
+        "vocab.recognition",
+        "vocab.stage2"
+      ],
+      "explain": "ὄνομα, πολέμιος, μέσος, ὀξύς, ἰσχυρός."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the form of ὀξύς for ___ φωνῇ ('in a shrill voice').",
+      "lemma": "ὀξύς",
+      "cell": "dat.sg.f",
+      "skills": [
+        "adj.us",
+        "adj.agree"
+      ],
+      "explain": "ὀξείᾳ: the feminine of ὀξύς goes like ταχεῖα, dative ὀξείᾳ.",
+      "audio": "ὀξείᾳ φωνῇ"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist of ὀνομάζω for 'they named'.",
+      "lemma": "ὀνομάζω",
+      "cell": "aorist.active.indicative.3pl",
+      "skills": [
+        "vocab.production",
+        "verb.aor.act.ind.3pl"
+      ],
+      "explain": "ὠνόμασαν: temporal augment ὀ → ὠ, and ζ + σ → σ.",
+      "audio": "ὠνόμασαν"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the form of πολέμιος in ᾠήθησαν ἄλλους ἐπιτίθεσθαι ___ ('enemies', accusative).",
+      "lemma": "πολέμιος",
+      "cell": "acc.pl.m",
+      "skills": [
+        "adj.agree",
+        "vocab.stage2"
+      ],
+      "explain": "πολεμίους agrees with ἄλλους, the subject of the infinitive.",
+      "audio": "πολεμίους"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἀκούσας.",
+      "form": "ἀκούσας",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "mood": "ptc",
+        "case": "nom"
+      },
+      "skills": [
+        "verb.ptc.aor.act"
+      ],
+      "explain": "ἀκού-σας: aorist active participle, nominative singular masculine, agreeing with ὁ Ξενοφῶν: 'having heard'.",
+      "audio": "ἀκούσας"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ᾠήθησαν.",
+      "form": "ᾠήθησαν",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "voice",
+          "label": "Voice",
+          "options": [
+            {
+              "id": "act",
+              "label": "active"
+            },
+            {
+              "id": "mid",
+              "label": "middle"
+            },
+            {
+              "id": "pass",
+              "label": "passive"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "voice": "pass",
+        "person": "3pl"
+      },
+      "skills": [
+        "verb.aor-deponent",
+        "verb.aor.pass.ind.3pl"
+      ],
+      "explain": "ᾠ-ή-θη-σαν: aorist passive in form of the deponent οἴομαι, 'they thought'.",
+      "audio": "ᾠήθησαν"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse καιομένης.",
+      "form": "καιομένης",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "pres",
+        "mood": "ptc",
+        "case": "gen"
+      },
+      "skills": [
+        "verb.ptc.pres.mp.gen",
+        "verb.ptc.use"
+      ],
+      "explain": "καιο-μένης: present passive participle, genitive feminine with τῆς χώρας: 'the land being burned'.",
+      "audio": "καιομένης"
+    },
+    {
+      "type": "label",
+      "prompt": "καὶ ἐζώγρησαν ἐνέδραν ποιησάμενοι. What is ποιησάμενοι?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a circumstantial participle: how or after what they captured them"
+        },
+        {
+          "id": "b",
+          "text": "a supplementary participle with a verb like τυγχάνω"
+        },
+        {
+          "id": "c",
+          "text": "an attributive participle with the article"
+        },
+        {
+          "id": "d",
+          "text": "a genitive absolute"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "verb.ptc.use",
+        "verb.ptc.summary"
+      ],
+      "explain": "'they took some alive by setting an ambush': aorist middle participle, nominative with the subject."
+    },
+    {
+      "type": "label",
+      "prompt": "πολλῷ μείζων ἐγίγνετο ἡ βοὴ ὅσῳ δὴ πλείους ἐγίγνοντο. What do πολλῷ … ὅσῳ express?",
+      "options": [
+        {
+          "id": "a",
+          "text": "degree of difference: the more there were, the louder the shout"
+        },
+        {
+          "id": "b",
+          "text": "means: by shouting"
+        },
+        {
+          "id": "c",
+          "text": "time when"
+        },
+        {
+          "id": "d",
+          "text": "the agent"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.dat.uses",
+        "syntax.comparison"
+      ],
+      "explain": "Dative of degree of difference with comparatives: 'much louder, as more and more came up'."
+    },
+    {
+      "type": "label",
+      "prompt": "καὶ τὰ ὑποζύγια ἠλαύνετο. Why is the verb singular?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a neuter plural subject takes a singular verb"
+        },
+        {
+          "id": "b",
+          "text": "the verb agrees with οἱ ἵπποι"
+        },
+        {
+          "id": "c",
+          "text": "it is an impersonal verb"
+        },
+        {
+          "id": "d",
+          "text": "it is a dual"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "verb.neuter-plural"
+      ],
+      "explain": "τὰ ὑποζύγια is neuter plural: Greek treats it as a single mass. (οἱ ἵπποι is added afterwards.)"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἐδόκει δὴ μεῖζόν τι εἶναι τῷ ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ξενοφῶντι"
+        },
+        {
+          "id": "b",
+          "text": "Ξενοφῶντα"
+        },
+        {
+          "id": "c",
+          "text": "Ξενοφῶν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.dat.uses"
+      ],
+      "explain": "δοκεῖ μοι 'it seems to me': the person is dative."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "οἱ Ἕλληνες ἐν ___ τῇ χώρᾳ τῶν πολεμίων ἦσαν. (in the middle of)",
+      "options": [
+        {
+          "id": "a",
+          "text": "μέσῃ"
+        },
+        {
+          "id": "b",
+          "text": "μέσον"
+        },
+        {
+          "id": "c",
+          "text": "μέσου"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.position",
+        "adj.agree"
+      ],
+      "explain": "μέσος in predicate position (outside article + noun) means 'the middle of': ἐν μέσῃ τῇ χώρᾳ."
+    },
+    {
+      "type": "transform",
+      "prompt": "Tell it in the aorist instead of the historic present: ἀφικνοῦνται ἐπὶ τὸ ὄρος. → … ἐπὶ τὸ ὄρος.",
+      "template": "___ ἐπὶ τὸ ὄρος.",
+      "gaps": [
+        {
+          "answers": [
+            "ἀφίκοντο"
+          ]
+        }
+      ],
+      "skills": [
+        "verb.historic-present",
+        "verb.aor2.stem"
+      ],
+      "explain": "ἀφικνοῦνται → ἀφίκοντο: second aorist ἀφικόμην.",
+      "audio": "ἀφίκοντο ἐπὶ τὸ ὄρος."
+    },
+    {
+      "type": "transform",
+      "prompt": "Make a genitive absolute: οἱ στρατιῶται βοῶσιν. ὁ Ξενοφῶν ἀναβαίνει ἐφʼ ἵππον. → τῶν στρατιωτῶν ___, ὁ Ξενοφῶν ἀναβαίνει ἐφʼ ἵππον.",
+      "template": "τῶν στρατιωτῶν ___, ὁ Ξενοφῶν ἀναβαίνει ἐφʼ ἵππον.",
+      "gaps": [
+        {
+          "answers": [
+            "βοώντων"
+          ]
+        }
+      ],
+      "skills": [
+        "syntax.gen-abs",
+        "verb.ptc.pres.act.gen"
+      ],
+      "explain": "Subject and participle both go into the genitive: τῶν στρατιωτῶν βοώντων 'as the soldiers were shouting'."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap every participle.",
+      "sentence": "εἵποντο γὰρ ὄπισθεν ἐκ τῆς καιομένης χώρας, καὶ αὐτῶν οἱ ὀπισθοφύλακες ἀπέκτεινάν τέ τινας καὶ ἐζώγρησαν ἐνέδραν ποιησάμενοι, καὶ γέρρα ἔλαβον δασειῶν βοῶν ὠμοβόεια ἀμφὶ τὰ εἴκοσιν.",
+      "answer": [
+        5,
+        17
+      ],
+      "skills": [
+        "read.locate",
+        "verb.ptc.summary"
+      ],
+      "explain": "καιομένης (present passive, attributive: 'the burning land') and ποιησάμενοι (aorist middle, circumstantial)."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap every comparative.",
+      "sentence": "ἐπειδὴ δὲ βοὴ πλείων τε ἐγίγνετο καὶ ἐγγύτερον καὶ οἱ ἀεὶ ἐπιόντες ἔθεον δρόμῳ ἐπὶ τοὺς ἀεὶ βοῶντας καὶ πολλῷ μείζων ἐγίγνετο ἡ βοὴ ὅσῳ δὴ πλείους ἐγίγνοντο, ἐδόκει δὴ μεῖζόν τι εἶναι τῷ Ξενοφῶντι, καὶ ἀναβὰς ἐφʼ ἵππον καὶ Λύκιον καὶ τοὺς ἱππέας ἀναλαβὼν παρεβοήθει·",
+      "answer": [
+        3,
+        7,
+        20,
+        26,
+        30
+      ],
+      "skills": [
+        "read.locate",
+        "syntax.comparison"
+      ],
+      "explain": "πλείων, ἐγγύτερον, μείζων, πλείους, μεῖζον: the whole sentence is about the noise growing."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the two aorist participles.",
+      "sentence": "ἐπειδὴ δὲ βοὴ πλείων τε ἐγίγνετο καὶ ἐγγύτερον καὶ οἱ ἀεὶ ἐπιόντες ἔθεον δρόμῳ ἐπὶ τοὺς ἀεὶ βοῶντας καὶ πολλῷ μείζων ἐγίγνετο ἡ βοὴ ὅσῳ δὴ πλείους ἐγίγνοντο, ἐδόκει δὴ μεῖζόν τι εἶναι τῷ Ξενοφῶντι, καὶ ἀναβὰς ἐφʼ ἵππον καὶ Λύκιον καὶ τοὺς ἱππέας ἀναλαβὼν παρεβοήθει·",
+      "answer": [
+        36,
+        44
+      ],
+      "skills": [
+        "read.locate",
+        "verb.ptc.aor.act"
+      ],
+      "explain": "ἀναβάς (root aorist of ἀναβαίνω) and ἀναλαβών (second aorist of ἀναλαμβάνω): first he mounted, then he took Lycius and the horsemen, then he rode to help. (ἐπιόντες and βοῶντας are present participles.)"
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'The first ones saw the sea.'",
+      "tokens": [
+        "οἱ",
+        "πρῶτοι",
+        "τὴν",
+        "θάλατταν",
+        "εἶδον"
+      ],
+      "answers": [
+        "οἱ πρῶτοι τὴν θάλατταν εἶδον",
+        "οἱ πρῶτοι εἶδον τὴν θάλατταν",
+        "τὴν θάλατταν εἶδον οἱ πρῶτοι",
+        "τὴν θάλατταν οἱ πρῶτοι εἶδον"
+      ],
+      "skills": [
+        "syntax.word-order",
+        "vocab.production"
+      ],
+      "explain": "οἱ πρῶτοι τὴν θάλατταν εἶδον."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἀκούουσι βοώντων τῶν στρατιωτῶν θάλαττα θάλαττα."
+        },
+        {
+          "id": "b",
+          "text": "ἀκούουσι βοώντων τῶν πολεμίων θάλαττα θάλαττα."
+        },
+        {
+          "id": "c",
+          "text": "ὁρῶσι τρεχόντων τῶν στρατιωτῶν ἐπὶ τὴν θάλατταν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "They hear the soldiers shouting 'The sea! The sea!'",
+      "audio": "ἀκούουσι βοώντων τῶν στρατιωτῶν θάλαττα θάλαττα."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "οἱ ὀπισθοφύλακες τὴν θάλατταν πρῶτοι εἶδον.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "οἱ πρῶτοι (the men at the front) saw it; the rearguard thought enemies were attacking."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Ξενοφῶν ἐφʼ ἵππον ἀναβὰς παρεβοήθει.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἀναβὰς ἐφʼ ἵππον … παρεβοήθει."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "gaps": [
+        {
+          "answers": [
+            "ὄνομα δὲ τῷ ὄρει ἦν Θήχης"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "ὄνομα δὲ τῷ ὄρει ἦν Θήχης.",
+      "audio": "ὄνομα δὲ τῷ ὄρει ἦν Θήχης."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'The enemies were strong.'",
+      "gaps": [
+        {
+          "answers": [
+            "οἱ πολέμιοι ἰσχυροὶ ἦσαν",
+            "ἰσχυροὶ ἦσαν οἱ πολέμιοι",
+            "οἱ πολέμιοι ἦσαν ἰσχυροί"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "vocab.stage2",
+        "adj.predicate"
+      ],
+      "explain": "οἱ πολέμιοι ἰσχυροὶ ἦσαν: predicate adjective, no article."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'The Greeks saw the sea from the mountain.'",
+      "gaps": [
+        {
+          "answers": [
+            "οἱ Ἕλληνες τὴν θάλατταν ἀπὸ τοῦ ὄρους εἶδον",
+            "οἱ Ἕλληνες ἀπὸ τοῦ ὄρους τὴν θάλατταν εἶδον",
+            "οἱ Ἕλληνες εἶδον τὴν θάλατταν ἀπὸ τοῦ ὄρους",
+            "οἱ Ἕλληνες ἀπὸ τοῦ ὄρους εἶδον τὴν θάλατταν",
+            "ἀπὸ τοῦ ὄρους οἱ Ἕλληνες τὴν θάλατταν εἶδον",
+            "οἱ Ἕλληνες τὴν θάλατταν ἐκ τοῦ ὄρους εἶδον",
+            "οἱ Ἕλληνες ἐκ τοῦ ὄρους τὴν θάλατταν εἶδον"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "prep.apo.gen"
+      ],
+      "explain": "οἱ Ἕλληνες τὴν θάλατταν ἀπὸ τοῦ ὄρους εἶδον."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: ἐπεὶ δὲ οἱ πρῶτοι ἐγένοντο ἐπὶ τοῦ ὄρους καὶ κατεῖδον τὴν θάλατταν, κραυγὴ πολλὴ ἐγένετο.",
+      "audio": "ἐπεὶ δὲ οἱ πρῶτοι ἐγένοντο ἐπὶ τοῦ ὄρους καὶ κατεῖδον τὴν θάλατταν, κραυγὴ πολλὴ ἐγένετο.",
+      "model": "When the first men reached the top of the mountain and caught sight of the sea, there was a great shout.",
+      "skills": [
+        "read.connected",
+        "read.original",
+        "read.xenophon"
+      ],
+      "explain": "ἐπεὶ … κατεῖδον: the time clause; main clause κραυγὴ πολλὴ ἐγένετο 'much shouting arose'."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: καὶ τάχα δὴ ἀκούουσι βοώντων τῶν στρατιωτῶν θάλαττα θάλαττα καὶ παρεγγυώντων.",
+      "audio": "καὶ τάχα δὴ ἀκούουσι βοώντων τῶν στρατιωτῶν θάλαττα θάλαττα καὶ παρεγγυώντων.",
+      "model": "And soon they hear the soldiers shouting 'The sea! The sea!' and passing the word along.",
+      "skills": [
+        "read.connected",
+        "read.original",
+        "read.xenophon",
+        "syntax.gen.uses"
+      ],
+      "explain": "ἀκούουσι + genitive of the people heard; βοώντων and παρεγγυώντων are participles agreeing with τῶν στρατιωτῶν."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "τὸ ὄνομα",
+          "right": "anonymous, synonym"
+        },
+        {
+          "left": "μέσος",
+          "right": "Mesopotamia ('between the rivers')"
+        },
+        {
+          "left": "ὀξύς",
+          "right": "oxygen ('acid-maker')"
+        },
+        {
+          "left": "ὁ πόλεμος, πολέμιος",
+          "right": "polemic"
+        },
+        {
+          "left": "ὁ ἵππος",
+          "right": "hippodrome"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "ὄνομα 'name'; μέσος 'middle' + ποταμός; ὀξύς 'sharp, sour'; πόλεμος 'war'; ἵππος 'horse' + δρόμος 'course' (δρόμῳ in the passage)."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "ποῖ ἀφικνοῦνται οἱ Ἕλληνες τῇ πέμπτῃ ἡμέρᾳ;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐπὶ τὸ ὄρος."
+        },
+        {
+          "id": "b",
+          "text": "ἐπὶ τὴν θάλατταν."
+        },
+        {
+          "id": "c",
+          "text": "εἰς τὰς Ἀθήνας."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἀφικνοῦνται ἐπὶ τὸ ὄρος τῇ πέμπτῃ ἡμέρᾳ.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί ὄνομα ἦν τῷ ὄρει;",
+      "options": [
+        {
+          "id": "a",
+          "text": "Θήχης."
+        },
+        {
+          "id": "b",
+          "text": "Λύκιος."
+        },
+        {
+          "id": "c",
+          "text": "Καστωλός."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "vocab.stage2"
+      ],
+      "explain": "ὄνομα δὲ τῷ ὄρει ἦν Θήχης.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί εἶδον οἱ πρῶτοι ἀπὸ τοῦ ὄρους;",
+      "options": [
+        {
+          "id": "a",
+          "text": "τὴν θάλατταν."
+        },
+        {
+          "id": "b",
+          "text": "τοὺς πολεμίους."
+        },
+        {
+          "id": "c",
+          "text": "τὴν χώραν καιομένην."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "vocab.stage2"
+      ],
+      "explain": "κατεῖδον τὴν θάλατταν.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί ᾠήθησαν ὁ Ξενοφῶν καὶ οἱ ὀπισθοφύλακες;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἄλλους πολεμίους ἔμπροσθεν ἐπιτίθεσθαι."
+        },
+        {
+          "id": "b",
+          "text": "τὴν θάλατταν ἐγγὺς εἶναι."
+        },
+        {
+          "id": "c",
+          "text": "τὸν Κῦρον ἔτι ζῆν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "syntax.indirect-inf"
+      ],
+      "explain": "ᾠήθησαν ἔμπροσθεν ἄλλους ἐπιτίθεσθαι πολεμίους: infinitive of indirect statement.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίνας ἀναλαβὼν ὁ Ξενοφῶν παρεβοήθει;",
+      "options": [
+        {
+          "id": "a",
+          "text": "τὸν Λύκιον καὶ τοὺς ἱππέας."
+        },
+        {
+          "id": "b",
+          "text": "τοὺς ὁπλίτας καὶ τὰ ὑποζύγια."
+        },
+        {
+          "id": "c",
+          "text": "τοὺς ὀπισθοφύλακας μόνους."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "Λύκιον καὶ τοὺς ἱππέας ἀναλαβὼν παρεβοήθει.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί ἐβόων οἱ στρατιῶται;",
+      "options": [
+        {
+          "id": "a",
+          "text": "«θάλαττα θάλαττα»."
+        },
+        {
+          "id": "b",
+          "text": "«πολέμιοι πολέμιοι»."
+        },
+        {
+          "id": "c",
+          "text": "«ἵπποι ἵπποι»."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἀκούουσι βοώντων τῶν στρατιωτῶν θάλαττα θάλαττα.",
+      "audio": "prompt"
+    }
+  ],
+  "culture": {
+    "title": "Thalatta, thalatta",
+    "md": "By the winter of 401/400 BC the Greek army had been marching north for months: through the mountains of the Carduchians, who rolled boulders down on them, and across the snows of Armenia, where men and animals died of cold and snow-blindness. Early in 400 they climbed Mount **Theches** and the vanguard saw the **Black Sea**, which meant Greek cities, ships and a way home.\n\nXenophon goes on (4.7.25) to describe the soldiers, in tears, embracing one another and their generals and captains; then, without anyone giving the order, they piled up a great cairn of stones and hung on it hides, staffs and the captured wicker shields as a thank-offering. The local guide who had brought them there was sent home with a horse, a silver cup, a Persian robe and ten darics. Some days later, after fighting their way through the Colchians, they came down to **Trapezus** (modern Trabzon), a Greek city on the coast.\n\nXenophon writes about himself in the third person, as 'Xenophon', which gives the book its cool, documentary tone. The shout 'θάλαττα, θάλαττα' became one of the best-known lines in Greek literature.",
+    "image": "culture-12-2-black-sea"
+  },
+  "quiz": [
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist infinitive of εἶδον ('to see').",
+      "lemma": "εἶδον",
+      "cell": "aorist.active.infinitive.inf",
+      "skills": [
+        "vocab.production",
+        "verb.aor2.stem"
+      ],
+      "explain": "ἰδεῖν: the stem ἰδ- without the augment.",
+      "audio": "ἰδεῖν"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἀκούουσι ___ τῶν στρατιωτῶν.",
+      "options": [
+        {
+          "id": "a",
+          "text": "βοώντων"
+        },
+        {
+          "id": "b",
+          "text": "βοῶντας"
+        },
+        {
+          "id": "c",
+          "text": "βοῶντες"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.gen.uses"
+      ],
+      "explain": "ἀκούω + genitive of the person."
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ὀξείᾳ.",
+      "form": "ὀξείᾳ",
+      "groups": [
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            }
+          ]
+        },
+        {
+          "id": "gender",
+          "label": "Gender",
+          "options": [
+            {
+              "id": "m",
+              "label": "masculine"
+            },
+            {
+              "id": "f",
+              "label": "feminine"
+            },
+            {
+              "id": "n",
+              "label": "neuter"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "case": "dat",
+        "gender": "f"
+      },
+      "skills": [
+        "adj.us"
+      ],
+      "explain": "ὀξύς, ὀξεῖα, ὀξύ: dative singular feminine.",
+      "audio": "ὀξείᾳ"
+    },
+    {
+      "type": "label",
+      "prompt": "τὰ ὑποζύγια ἠλαύνετο: the subject is neuter plural, so the verb is …",
+      "options": [
+        {
+          "id": "a",
+          "text": "singular"
+        },
+        {
+          "id": "b",
+          "text": "plural"
+        },
+        {
+          "id": "c",
+          "text": "dual"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "verb.neuter-plural"
+      ],
+      "explain": "Neuter plural subject, singular verb."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "οἱ στρατιῶται «θάλαττα θάλαττα» ἐβόων.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἀκούουσι βοώντων τῶν στρατιωτῶν θάλαττα θάλαττα."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "πολλῷ μείζων ἐγίγνετο ἡ βοή: πολλῷ means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "much (louder)"
+        },
+        {
+          "id": "b",
+          "text": "with many (men)"
+        },
+        {
+          "id": "c",
+          "text": "for a long time"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.dat.uses",
+        "syntax.comparison"
+      ],
+      "explain": "Dative of degree of difference."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἔνθα δὴ ἔθεον πάντες."
+        },
+        {
+          "id": "b",
+          "text": "ἔνθα δὴ ἔπεσον πάντες."
+        },
+        {
+          "id": "c",
+          "text": "ἐκεῖ δὴ ἔμενον πάντες."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "Then they all ran.",
+      "audio": "ἔνθα δὴ ἔθεον πάντες."
+    }
+  ],
+  "skills": [
+    "read.connected",
+    "read.original",
+    "read.xenophon",
+    "read.comprehension",
+    "read.locate",
+    "verb.historic-present",
+    "verb.ptc.use",
+    "verb.ptc.summary",
+    "verb.ptc.aor.act",
+    "verb.ptc.pres.mp.gen",
+    "verb.ptc.pres.act.gen",
+    "syntax.gen-abs",
+    "syntax.gen.uses",
+    "syntax.dat.uses",
+    "syntax.comparison",
+    "verb.neuter-plural",
+    "verb.aor-deponent",
+    "adj.us",
+    "syntax.position",
+    "listen.words",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.stage2",
+    "vocab.family"
+  ]
+}

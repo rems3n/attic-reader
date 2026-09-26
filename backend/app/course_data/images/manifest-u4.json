@@ -1,0 +1,741 @@
+{
+ "_about": "Unit 4 (Ὁ Πειραιεύς) images. All placeholders until the Creative Commons image pass; 'credit' names the intended source where one is known.",
+ "images": [
+  {
+   "id": "panel-4-1-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Ἀρίστων καὶ ὁ Λύσις ἐκ τῆς πόλεως βαίνουσιν",
+   "alt_en": "Ariston, Lysis, Syros with the water jars and the dog Labros leave the city gate at dawn; the Long Walls run down towards the sea",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-4-1-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ ὁδὸς διὰ τῶν μακρῶν τειχῶν",
+   "alt_en": "The road between the two Long Walls: soldiers on the wall, carts, walkers coming up from Piraeus",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-4-1-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ λιμὴν τοῦ Πειραιῶς",
+   "alt_en": "Arrival at Piraeus: the great harbour Kantharos full of ships, sailors at work",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-4-2-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "τὸ ἐμπόριον",
+   "alt_en": "The emporion by the harbour: stoas, sacks of grain, wine jars, merchants of many peoples",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-4-2-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Ἀρίστων τὰς ὑδρίας πωλεῖ",
+   "alt_en": "Ariston at his stall selling water jars to a woman; coins change hands",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-4-2-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ ἰχθύες",
+   "alt_en": "The fish stalls; Lysis with two obols, Labros eyeing a fish",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-4-3-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Σύρος τὸν Λύσιν εἰς τὸ διδασκαλεῖον ἄγει",
+   "alt_en": "Morning in the town: Syros walks Lysis through the streets to the teacher's house",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-4-3-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ διδάσκαλος διδάσκει",
+   "alt_en": "The schoolroom: the teacher with a scroll, boys with wax tablets and styluses",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-4-3-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ παῖδες ἐκ τοῦ διδασκαλείου τρέχουσιν",
+   "alt_en": "School is over: the boys run out towards the palaestra; Syros waits at the door",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-4-4-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Κλεινίας καὶ οἱ παῖδες πρὸς τὸν λιμένα",
+   "alt_en": "Kleinias with Lysis and Elpis at the naval harbour of Zea: ship-sheds and triremes drawn up",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-4-4-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "δέκα τριήρεις ἐκ τοῦ λιμένος πλέουσιν",
+   "alt_en": "Ten triremes rowing out of the harbour in line; the children count them",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-4-4-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Ἐλπὶς τὴν θάλατταν ὁρᾷ",
+   "alt_en": "Elpis on the mole looking out to Salamis; a sailor talks to the children",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pater",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ πατήρ",
+   "alt_en": "A father with his son",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πατήρ"
+   ]
+  },
+  {
+   "id": "meter",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ μήτηρ",
+   "alt_en": "A mother with her daughter",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "μήτηρ"
+   ]
+  },
+  {
+   "id": "thygater",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ θυγάτηρ",
+   "alt_en": "A daughter",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "θυγάτηρ"
+   ]
+  },
+  {
+   "id": "hyios",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ υἱός",
+   "alt_en": "A son",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "υἱός"
+   ]
+  },
+  {
+   "id": "teichos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ τεῖχος",
+   "alt_en": "A city wall with towers",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "τεῖχος"
+   ]
+  },
+  {
+   "id": "limen",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ λιμήν",
+   "alt_en": "A harbour with ships at anchor",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "λιμήν"
+   ]
+  },
+  {
+   "id": "makros",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "μακρός",
+   "alt_en": "A long road stretching to the horizon",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "μακρός"
+   ]
+  },
+  {
+   "id": "stratiotes",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ στρατιώτης",
+   "alt_en": "A hoplite soldier with shield and spear",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "στρατιώτης"
+   ]
+  },
+  {
+   "id": "verb-hegeitai",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡγεῖται",
+   "alt_en": "Someone walking in front, leading the way",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἡγέομαι"
+   ]
+  },
+  {
+   "id": "verb-hepetai",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἕπεται",
+   "alt_en": "Someone following behind another",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἕπομαι"
+   ]
+  },
+  {
+   "id": "verb-thaumazei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "θαυμάζει",
+   "alt_en": "Someone gazing up in wonder",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "θαυμάζω"
+   ]
+  },
+  {
+   "id": "diagram-participle",
+   "kind": "diagram",
+   "file": null,
+   "alt_grc": "ὁ ἀνὴρ ὁ βαίνων · βαίνων ὁρᾷ",
+   "alt_en": "Diagram: participle as adjective (with the article) and participle as 'while …-ing' (without)",
+   "credit": "Attic Reader, own diagram",
+   "license": "CC BY-SA 4.0",
+   "svg": true,
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "culture-long-walls",
+   "kind": "diagram",
+   "file": null,
+   "alt_grc": "τὰ μακρὰ τείχη",
+   "alt_en": "Map of Athens, Piraeus and Phaleron with the three Long Walls, c. 431 BC",
+   "credit": "Attic Reader, own diagram",
+   "license": "CC BY-SA 4.0",
+   "svg": true,
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "emporion",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ ἐμπόριον",
+   "alt_en": "A harbour market: stoas, sacks and jars on the quay",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἐμπόριον"
+   ]
+  },
+  {
+   "id": "emporos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ ἔμπορος",
+   "alt_en": "A merchant beside his ship and cargo",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἔμπορος"
+   ]
+  },
+  {
+   "id": "metoikos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ μέτοικος",
+   "alt_en": "A resident foreigner at his workshop in Piraeus",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "μέτοικος"
+   ]
+  },
+  {
+   "id": "verb-polei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "πωλεῖ",
+   "alt_en": "A seller handing over goods for coins",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πωλέω"
+   ]
+  },
+  {
+   "id": "verb-oneitai",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὠνεῖται",
+   "alt_en": "A buyer paying coins and taking goods",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ὠνέομαι"
+   ]
+  },
+  {
+   "id": "verb-pauetai",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "παύεται",
+   "alt_en": "Someone stopping work and putting tools down",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "παύω"
+   ]
+  },
+  {
+   "id": "argyrion",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ ἀργύριον",
+   "alt_en": "A heap of Athenian silver coins",
+   "credit": "placeholder (target: CC0 museum photo of Athenian owls)",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἀργύριον"
+   ]
+  },
+  {
+   "id": "drachme",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ δραχμή",
+   "alt_en": "An Athenian silver drachma with Athena and the owl",
+   "credit": "placeholder (target: CC0 museum photo)",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "δραχμή"
+   ]
+  },
+  {
+   "id": "obolos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ ὀβολός",
+   "alt_en": "A tiny silver obol next to a drachma for scale",
+   "credit": "placeholder (target: CC0 museum photo)",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ὀβολός"
+   ]
+  },
+  {
+   "id": "ichthys",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ ἰχθύς",
+   "alt_en": "A fish",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἰχθύς"
+   ]
+  },
+  {
+   "id": "sitos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ σῖτος",
+   "alt_en": "Sacks of grain",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "σῖτος"
+   ]
+  },
+  {
+   "id": "pas",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "πάντες",
+   "alt_en": "A whole crowd, every one of them",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πᾶς"
+   ]
+  },
+  {
+   "id": "culture-piraeus-plan",
+   "kind": "diagram",
+   "file": null,
+   "alt_grc": "ὁ Πειραιεύς",
+   "alt_en": "Plan of Piraeus with its three harbours (Kantharos, Zea, Munichia), the emporion and the grid of streets",
+   "credit": "Attic Reader, own diagram",
+   "license": "CC BY-SA 4.0",
+   "svg": true,
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "asty",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ ἄστυ",
+   "alt_en": "The town of Athens seen from the road: houses and the Acropolis",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἄστυ"
+   ]
+  },
+  {
+   "id": "basileus",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ βασιλεύς",
+   "alt_en": "A king on a throne with a sceptre",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "βασιλεύς"
+   ]
+  },
+  {
+   "id": "didaskalos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ διδάσκαλος",
+   "alt_en": "A teacher holding a scroll",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "διδάσκαλος"
+   ]
+  },
+  {
+   "id": "verb-didaskei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "διδάσκει",
+   "alt_en": "A teacher pointing at letters for a pupil",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "διδάσκω"
+   ]
+  },
+  {
+   "id": "verb-manthanei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "μανθάνει",
+   "alt_en": "A boy studying a tablet",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "μανθάνω"
+   ]
+  },
+  {
+   "id": "verb-graphei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "γράφει",
+   "alt_en": "A hand writing with a stylus on wax",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "γράφω"
+   ]
+  },
+  {
+   "id": "verb-anagignoskei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἀναγιγνώσκει",
+   "alt_en": "A boy reading aloud from a scroll",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἀναγιγνώσκω"
+   ]
+  },
+  {
+   "id": "gramma",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὰ γράμματα",
+   "alt_en": "Greek letters scratched on a tablet",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "γράμμα"
+   ]
+  },
+  {
+   "id": "deltos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ δέλτος",
+   "alt_en": "A folding wax tablet with a stylus",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "δέλτος"
+   ]
+  },
+  {
+   "id": "palaistra",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ παλαίστρα",
+   "alt_en": "A wrestling ground with boys exercising",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "παλαίστρα"
+   ]
+  },
+  {
+   "id": "sophos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "σοφός",
+   "alt_en": "A wise old man with a scroll",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "σοφός"
+   ]
+  },
+  {
+   "id": "verb-dei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "δεῖ",
+   "alt_en": "A pointing finger: 'must'",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "δεῖ"
+   ]
+  },
+  {
+   "id": "verb-exesti",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἔξεστι",
+   "alt_en": "An open door: 'it is allowed'",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἔξεστι"
+   ]
+  },
+  {
+   "id": "naus",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ ναῦς",
+   "alt_en": "A ship under sail",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ναῦς"
+   ]
+  },
+  {
+   "id": "trieres",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ τριήρης",
+   "alt_en": "A trireme with three banks of oars and a ram",
+   "credit": "placeholder (target: Lenormant relief or the Olympias, CC BY-SA)",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "τριήρης"
+   ]
+  },
+  {
+   "id": "eretes",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ ἐρέτης",
+   "alt_en": "A rower at his oar",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἐρέτης"
+   ]
+  },
+  {
+   "id": "verb-plei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "πλεῖ",
+   "alt_en": "A ship sailing across the sea",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πλέω"
+   ]
+  },
+  {
+   "id": "nesos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ νῆσος",
+   "alt_en": "An island in the sea",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "νῆσος"
+   ]
+  },
+  {
+   "id": "diagram-numbers",
+   "kind": "diagram",
+   "file": null,
+   "alt_grc": "εἷς, δύο, τρεῖς … δέκα",
+   "alt_en": "Ten ships numbered one to ten with the Greek numerals",
+   "credit": "Attic Reader, own diagram",
+   "license": "CC BY-SA 4.0",
+   "svg": true,
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "diagram-place-adverbs",
+   "kind": "diagram",
+   "file": null,
+   "alt_grc": "οἴκοθεν → οἴκαδε",
+   "alt_en": "Diagram: a house with arrows for -θεν (from), -δε (to) and -οι/ἐν (at)",
+   "credit": "Attic Reader, own diagram",
+   "license": "CC BY-SA 4.0",
+   "svg": true,
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "culture-trireme",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ἡ τριήρης",
+   "alt_en": "The Lenormant relief (Acropolis, c. 410 BC) showing the rowers of a trireme",
+   "credit": "placeholder (target: Wikimedia Commons, CC BY-SA)",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  }
+ ]
+}

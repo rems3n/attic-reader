@@ -29,6 +29,7 @@ from .accent import (
 
 CASES = ("nom", "gen", "dat", "acc", "voc")
 GEN_DAT = {"gen", "dat"}
+NAV = {"nom", "acc", "voc"}
 
 # Words whose penult vowel is long but unmarked in the lemma; the macron
 # matters only for circumflex vs acute (νῖκαι, πολῖτα).
@@ -36,6 +37,7 @@ LONG_STEMS = {
     "νίκη": "νῑ́κη",
     "πολίτης": "πολῑ́της",
     "ἰσχυρός": "ἰσχῡρός",
+    "θάττων": "θᾱ́ττων",  # long ᾱ: θᾶττον, θάττονος
 }
 
 FIRST_SG = {
@@ -62,6 +64,12 @@ ES_ADJ = {  # ἀληθής -ές (oxytone σ-stems)
     ("mf", "pl"): ["εῖς", "ῶν", "έσι(ν)", "εῖς", "εῖς"],
     ("n", "pl"): ["ῆ", "ῶν", "έσι(ν)", "ῆ", "ῆ"],
 }
+ES_ADJ_BARYTONE = {  # πλήρης -ες, συνήθης: persistent accent on the stem
+    ("mf", "sg"): ["ης", "ους", "ει", "η", "ες"],
+    ("n", "sg"): ["ες", "ους", "ει", "ες", "ες"],
+    ("mf", "pl"): ["εις", "ων", "εσι(ν)", "εις", "εις"],
+    ("n", "pl"): ["η", "ων", "εσι(ν)", "η", "η"],
+}
 US_ADJ = {  # ταχύς ταχεῖα ταχύ
     ("m", "sg"): ["ύς", "έος", "εῖ", "ύν", "ύ"],
     ("f", "sg"): ["εῖα", "είᾱς", "είᾳ", "εῖαν", "εῖα"],
@@ -78,6 +86,17 @@ ON_ADJ = {  # βελτίων βέλτιον (stem -ον-)
 }
 
 VOC_RECESSIVE = {"ἀδελφός": "ἄδελφε", "δεσπότης": "δέσποτα", "πονηρός": "πόνηρε"}
+
+# comparatives in -ων that do not end in -ίων (Smyth §§ 319–320)
+COMPARATIVES_ON = {"ἀμείνων", "χείρων", "ἥττων", "κρείττων", "ἐλάττων", "θάττων", "μείζων", "ὀλείζων", "πλείων", "πλέων", "ῥᾴων", "μᾶλλον"}
+
+
+def is_comparative(lemma: str) -> bool:
+    """βελτίων, κακίων, μείζων, ἀμείνων … but not ἐπιστήμων, σώφρων, εὐδαίμων."""
+    bare = strip_accent(lemma)
+    if lemma in COMPARATIVES_ON or bare in {strip_accent(c) for c in COMPARATIVES_ON}:
+        return True
+    return bare.endswith(("ιων", "ττων", "σσων", "ζων"))
 
 
 def _has_accent(text: str) -> bool:
@@ -110,6 +129,13 @@ def _cells_noun(forms_sg: list, forms_pl: list) -> list[dict]:
         for case, f in zip(CASES, forms):
             cells.append({"case": case, "number": number, "forms": f if isinstance(f, list) else [f]})
     return cells
+
+
+def _dual_noun(nav, gd) -> list[dict]:
+    """Dual cells: one form for nominative/accusative/vocative, one for
+    genitive/dative (λόγω, λόγοιν). Kept apart from `cells` so that
+    consumers show the dual only on request."""
+    return [{"case": c, "number": "du", "forms": list(nav if c in NAV else gd) if isinstance(nav if c in NAV else gd, list) else [nav if c in NAV else gd]} for c in CASES]
 
 
 def _stem_info(lemma: str) -> tuple[str, int, bool]:
@@ -176,7 +202,11 @@ def decline_noun(lemma: str, genitive: str, gender: str, subclass: str) -> dict:
             "masc-es": "First-declension masculine in -ης: genitive singular -ου, vocative -α (nouns in -της) or -η.",
             "masc-as": "First-declension masculine in -ᾱς: genitive singular -ου.",
         }[typ] + " Genitive plural always -ῶν."
-        return {"kind": "noun", "lemma": lemma, "gender": gender, "declension": "1", "note": note, "cells": _cells_noun(sg, pl)}
+        du = _dual_noun(_join(stem, "ᾱ", idx, "nom", oxytone), _join(stem, "αιν", idx, "gen", oxytone))
+        return {"kind": "noun", "lemma": lemma, "gender": gender, "declension": "1", "note": note, "cells": _cells_noun(sg, pl), "dual": du}
+
+    if subclass == "noun-2" and strip_accent(lemma).endswith(("ους", "ουν")):
+        return _decline_contracted_second(lemma, gender, idx)
 
     if subclass == "noun-2":
         g = "n" if gender == "n" else "m"
@@ -190,14 +220,16 @@ def decline_noun(lemma: str, genitive: str, gender: str, subclass: str) -> dict:
         note = "Second declension " + ("neuter in -ον (nominative = accusative = vocative; plural in -α)." if g == "n" else "in -ος.")
         if oxytone:
             note += " Oxytone: the genitive and dative take a circumflex (-οῦ, -ῷ, -ῶν, -οῖς)."
-        return {"kind": "noun", "lemma": lemma, "gender": gender, "declension": "2", "note": note, "cells": _cells_noun(sg, pl)}
+        du = _dual_noun(_join(stem, "ω", idx, "nom", oxytone), _join(stem, "οιν", idx, "gen", oxytone))
+        return {"kind": "noun", "lemma": lemma, "gender": gender, "declension": "2", "note": note, "cells": _cells_noun(sg, pl), "dual": du}
 
     if subclass == "noun-3-sigma":
         stem = hinted[:-2]
         sg = [_join(stem, e, idx, c, oxytone) for c, e in zip(CASES, SIGMA_SG)]
         pl = [_join(stem, e, idx, c, oxytone) for c, e in zip(CASES, SIGMA_PL)]
         note = "Third-declension σ-stem neuter (stem γενεσ-): the σ drops between vowels and the vowels contract (γένε-ος → γένους, γένε-α → γένη, γενέ-ων → γενῶν)."
-        return {"kind": "noun", "lemma": lemma, "gender": gender, "declension": "3", "note": note, "cells": _cells_noun(sg, pl)}
+        du = _dual_noun(_join(stem, "ει", idx, "nom", oxytone), _join(stem, "οῖν", idx, "gen", oxytone))
+        return {"kind": "noun", "lemma": lemma, "gender": gender, "declension": "3", "note": note, "cells": _cells_noun(sg, pl), "dual": du}
 
     if subclass == "noun-3-iota":
         stem = hinted[:-2]
@@ -210,17 +242,46 @@ def decline_noun(lemma: str, genitive: str, gender: str, subclass: str) -> dict:
         pl[2] = finish(accentuate(stem + "εσι", 3, "acute")) + "(ν)"
         sg[4] = lemma[:-1]  # πρᾶξι, πόλι: the nominative without -ς
         note = "Third-declension ι-stem (πόλις type): stem πολι-/πολε-; genitive -εως and -εων keep the accent on the antepenult; accusative singular -ιν."
-        return {"kind": "noun", "lemma": lemma, "gender": gender, "declension": "3", "note": note, "cells": _cells_noun(sg, pl)}
+        du = _dual_noun(_join(stem, "ει", idx, "nom", oxytone), _join(stem, "έοιν", idx, "gen", oxytone))  # πόλει, πολέοιν
+        return {"kind": "noun", "lemma": lemma, "gender": gender, "declension": "3", "note": note, "cells": _cells_noun(sg, pl), "dual": du}
 
     if subclass == "noun-3-eus":
         stem = hinted[:-3]
         sg = [_join(stem, e, idx, c, oxytone) for c, e in zip(CASES, EUS_SG)]
         pl = [[_join(stem, x, idx, c, oxytone) for x in e] if isinstance(e, list) else _join(stem, e, idx, c, oxytone) for c, e in zip(CASES, EUS_PL)]
         note = "Third-declension -εύς nouns (stem βασιλευ-/βασιλε-): genitive -έως, accusative -έᾱ, nominative plural -ῆς (older) or -εῖς."
-        return {"kind": "noun", "lemma": lemma, "gender": gender, "declension": "3", "note": note, "cells": _cells_noun(sg, pl)}
+        du = _dual_noun(_join(stem, "ῆ", idx, "nom", oxytone), _join(stem, "έοιν", idx, "gen", oxytone))  # βασιλῆ, βασιλέοιν
+        return {"kind": "noun", "lemma": lemma, "gender": gender, "declension": "3", "note": note, "cells": _cells_noun(sg, pl), "dual": du}
 
     # consonant stems (and anything irregular the tables do not cover)
     return _decline_third_consonant(lemma, hinted, genitive, gender, idx, oxytone)
+
+
+CONTRACTED_SECOND = {  # πλόος → πλοῦς, ὀστέον → ὀστοῦν (Smyth § 235)
+    "m": (["οῦς", "οῦ", "ῷ", "οῦν", "οῦ"], ["οῖ", "ῶν", "οῖς", "οῦς", "οῖ"], ["ώ", "οῖν"]),
+    "n": (["οῦν", "οῦ", "ῷ", "οῦν", "οῦν"], ["ᾶ", "ῶν", "οῖς", "ᾶ", "ᾶ"], ["ώ", "οῖν"]),
+}
+
+
+def _decline_contracted_second(lemma: str, gender: str, idx: int) -> dict:
+    """Contracted second declension: every ending has a circumflex (πλοῦς,
+    πλοῦ, πλῷ …); a compound keeps its recessive accent (περίπλους, περίπλου)."""
+    g = "n" if gender == "n" else "m"
+    stem = strip_accent(lemma)[:-3]
+    sg, pl, du = CONTRACTED_SECOND[g]
+    perispomenon = accent_position(lemma) == (1, "circumflex")
+
+    def form(ending: str) -> str:
+        if perispomenon:
+            return finish(stem + ending)
+        return finish(persistent(stem + strip_accent(ending), idx))
+
+    cells = _cells_noun([form(e) for e in sg], [form(e) for e in pl])
+    note = "Contracted second declension (πλόος → πλοῦς): ο + ο/ου → ου, ο + ω/ῳ → ω/ῳ, ο + οι → οι; "
+    note += "the contracted endings take a circumflex." if perispomenon else "a compound keeps the accent on the stem (περίπλους, περίπλου)."
+    out = {"kind": "noun", "lemma": lemma, "gender": gender, "declension": "2", "note": note, "cells": cells}
+    out["dual"] = _dual_noun(form(du[0]), form(du[1]))
+    return out
 
 
 def _lemma_nominative(table: dict, lemma: str) -> dict:
@@ -283,7 +344,7 @@ def _decline_third_consonant(lemma: str, hinted: str, genitive: str, gender: str
             # πούς → ποδός, ποδί, ποδῶν, ποσί
             paren = "(ν)" if ending.endswith("(ν)") else ""
             e = ending[:-3] if paren else ending
-            kind = "circumflex" if (case == "gen" and number == "pl") else "acute"
+            kind = "circumflex" if (case == "gen" and number in ("pl", "du")) else "acute"  # ποδῶν, ποδοῖν
             return finish(accentuate(stem + e, 1, kind)) + paren
         return _join(stem, ending, idx, case, oxytone)
 
@@ -325,7 +386,8 @@ def _decline_third_consonant(lemma: str, hinted: str, genitive: str, gender: str
         note = f"Third-declension neuter stem {stem}-: nominative = accusative = vocative; plural in -α, dative plural {pl[2]}."
     if monosyllabic:
         note += " Monosyllabic stem: the genitive and dative accent the ending."
-    return {"kind": "noun", "lemma": lemma, "gender": gender, "declension": "3", "note": note, "cells": _cells_noun(sg, pl)}
+    du = _dual_noun(_join(stem, "ε", idx, "nom", oxytone), form("οιν", "gen", "du"))  # φύλακε, φυλάκοιν; πόδε, ποδοῖν
+    return {"kind": "noun", "lemma": lemma, "gender": gender, "declension": "3", "note": note, "cells": _cells_noun(sg, pl), "dual": du}
 
 
 # ---------------------------------------------------------------------------
@@ -346,6 +408,18 @@ def _adj_cells(rows: dict[tuple[str, str], list], genders: tuple[str, ...]) -> l
     return cells
 
 
+def _adj_dual(du: dict[str, tuple], cases: tuple[str, ...] = CASES) -> list[dict]:
+    """Dual cells of an adjective-like table: {gender: (nom/acc/voc, gen/dat)}."""
+    cells = []
+    for case in cases:
+        forms = {}
+        for g, (nav, gd) in du.items():
+            f = nav if case in NAV else gd
+            forms[g] = [] if f is None else (list(f) if isinstance(f, list) else [f])
+        cells.append({"case": case, "number": "du", "forms": forms})
+    return cells
+
+
 def decline_adjective(lemma: str, morph: dict, subclass: str, kind: str = "adjective") -> dict:
     if lemma in tables.ADJECTIVES:
         out = dict(tables.ADJECTIVES[lemma])
@@ -355,7 +429,11 @@ def decline_adjective(lemma: str, morph: dict, subclass: str, kind: str = "adjec
     hinted, idx, oxytone = _stem_info(lemma)
     terminations = morph.get("terminations", 3)
     rows: dict[tuple[str, str], list] = {}
+    du: dict[str, tuple[str, str]] = {}  # gender → (nom/acc/voc, gen/dat) dual
     note = ""
+
+    def dual(nav: str, gd: str) -> tuple[str, str]:
+        return _join(stem, nav, idx, "nom", oxytone), _join(stem, gd, idx, "gen", oxytone)
 
     if subclass in {"adj-1-2", "pronoun", "numeral"} or strip_accent(lemma).endswith("ος"):
         stem = hinted[:-2]
@@ -367,6 +445,7 @@ def decline_adjective(lemma: str, morph: dict, subclass: str, kind: str = "adjec
         if neuter and not strip_accent(neuter).endswith("ον"):
             # αὐτό, ἄλλο, τοιοῦτο: pronominal neuter without -ν
             n_sg[0] = n_sg[3] = n_sg[4] = neuter
+        du = {"m": dual("ω", "οιν"), "mf": dual("ω", "οιν"), "n": dual("ω", "οιν"), "f": dual("ᾱ", "αιν")}  # ἀγαθώ ἀγαθοῖν, ἀγαθά ἀγαθαῖν
         if terminations == 3:
             fem = morph.get("feminine", "")
             fem_type = "eta" if strip_accent(fem).endswith("η") else "alpha-long"
@@ -387,31 +466,44 @@ def decline_adjective(lemma: str, morph: dict, subclass: str, kind: str = "adjec
             note = note.replace("adjective", "pronoun/adjective")
     elif subclass == "adj-3-es":
         stem = hinted[:-2]
-        for key, ends in ES_ADJ.items():
+        for key, ends in (ES_ADJ if oxytone else ES_ADJ_BARYTONE).items():
             rows[key] = [_join(stem, e, idx, c, oxytone) for c, e in zip(CASES, ends)]
+        du = {g: dual("εῖ", "οῖν") if oxytone else dual("ει", "οιν") for g in ("mf", "n")}  # ἀληθεῖ ἀληθοῖν; πλήρει πλήροιν
         genders = ("mf", "n")
         note = "Third-declension σ-stem adjective (-ής, -ές): the σ drops and the vowels contract (ἀληθέ-ος → ἀληθοῦς, ἀληθέ-α → ἀληθῆ, ἀληθέ-ες → ἀληθεῖς)."
+        if not oxytone:
+            note = (f"Third-declension σ-stem adjective in -ης, -ες with the accent on the stem: it stays there "
+                    f"({rows[('mf', 'sg')][1]}, {rows[('mf', 'pl')][1]}) as the law of limitation allows ({rows[('n', 'sg')][0]}).")
     elif subclass == "adj-3-on":
         stem = hinted[:-2]
-        for key, ends in ON_ADJ.items():
+        comparative = is_comparative(lemma)
+        # only comparatives have the contracted -ω / -ους forms (from -οσα, -οσες)
+        table = ON_ADJ if comparative else {k: [e[0] if isinstance(e, list) else e for e in ends] for k, ends in ON_ADJ.items()}
+        for key, ends in table.items():
             rows[key] = [[_join(stem, x, idx, c, oxytone) for x in e] if isinstance(e, list) else _join(stem, e, idx, c, oxytone) for c, e in zip(CASES, ends)]
-        neuter = finish(recessive(strip_accent(stem) + "ον"))  # βέλτιον, ἧττον
+        neuter = finish(recessive(strip_accent(stem) + "ον"))  # βέλτιον, ἧττον, ἐπιστῆμον, σῶφρον
         rows[("mf", "sg")][4] = neuter
         rows[("n", "sg")][0] = rows[("n", "sg")][3] = rows[("n", "sg")][4] = neuter
+        du = {g: dual("ονε", "ονοιν") for g in ("mf", "n")}  # βελτίονε, βελτιόνοιν
         genders = ("mf", "n")
-        note = "Comparative in -ων, -ον (stem -ον-): beside the regular forms Attic uses contracted -ω (acc. sg., nom./acc. pl. neuter) and -ους (nom./acc. pl. masc./fem.)."
+        if comparative:
+            note = "Comparative in -ων, -ον (stem -ον-): beside the regular forms Attic uses contracted -ω (acc. sg., nom./acc. pl. neuter) and -ους (nom./acc. pl. masc./fem.)."
+        else:
+            note = "Third-declension adjective of two endings in -ων, -ον (stem -ον-, like δαίμων): vocative and neuter singular with recessive accent."
     elif subclass == "adj-us":
         stem = hinted[:-2]
         for key, ends in US_ADJ.items():
             rows[key] = [_join(stem, e, idx, c, oxytone) for c, e in zip(CASES, ends)]
+        du = {"m": dual("έε", "έοιν"), "n": dual("έε", "έοιν"), "f": dual("εία", "είαιν")}  # ταχέε ταχέοιν, ταχεία ταχείαιν
         genders = ("m", "f", "n")
         note = "Adjective in -ύς, -εῖα, -ύ: masculine/neuter third declension (stem -υ-/-ε-), feminine first declension in -εῖα."
     else:
         raise ValueError(f"no adjective rule for {lemma} ({subclass})")
 
-    out = {"kind": kind, "lemma": lemma, "genders": list(genders), "note": note, "cells": _adj_cells(rows, genders)}
+    out = {"kind": kind, "lemma": lemma, "genders": list(genders), "note": note, "cells": _adj_cells(rows, genders),
+           "dual": _adj_dual({g: du[g] for g in genders})}
     if lemma in tables.NO_VOCATIVE:
-        for c in out["cells"]:
+        for c in out["cells"] + out["dual"]:
             if c["case"] == "voc":
                 c["forms"] = {g: [] for g in c["forms"]}
     out["comparison"] = _comparison(lemma, subclass)
@@ -450,6 +542,9 @@ def _comparison(lemma: str, subclass: str) -> dict | None:
     if subclass == "adj-us":
         stem = strip_accent(lemma[:-2])
         return {"comparative": [finish(recessive(stem + "υτερος"))], "superlative": [finish(recessive(stem + "υτατος"))], "regular": True}
+    if subclass == "adj-3-on" and not is_comparative(lemma):
+        stem = strip_accent(lemma[:-2])  # σώφρων → σωφρονέστερος, -έστατος
+        return {"comparative": [finish(recessive(stem + "ονεστερος"))], "superlative": [finish(recessive(stem + "ονεστατος"))], "regular": True}
     return None
 
 
@@ -467,10 +562,14 @@ def _adverb(lemma: str, subclass: str, hinted: str, idx: int) -> list[str]:
             return []
         return [finish(persistent(hinted[:-2] + "ως", idx, "circumflex"))]
     if subclass == "adj-3-es":
+        if accent_position(lemma) != (1, "acute"):
+            return [finish(persistent(hinted[:-2] + "ως", idx))]  # πλήρως
         return [finish(strip_accent(lemma[:-2]) + "ῶς")]
     if subclass == "adj-us":
         return [finish(strip_accent(lemma[:-2]) + "έως")]
     if subclass == "adj-3-on":
+        if not is_comparative(lemma):
+            return [finish(persistent(hinted[:-2] + "ονως", idx))]  # σωφρόνως, ἐπιστημόνως
         return [finish(recessive(strip_accent(lemma[:-2]) + "ον"))]
     return []
 
@@ -482,6 +581,8 @@ def _adverb(lemma: str, subclass: str, hinted: str, idx: int) -> list[str]:
 
 def decline(lemma: str, kind: str, subclass: str, morph: dict) -> dict | None:
     """Full paradigm for a lexicon entry, or None for indeclinable words."""
+    if morph.get("table"):  # hand table supplied by the lexicon entry (course words)
+        return {**morph["table"], "lemma": lemma}
     if kind == "article":
         return {**tables.ARTICLE, "lemma": lemma}
     if lemma in tables.PRONOUNS:

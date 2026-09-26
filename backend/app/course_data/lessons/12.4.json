@@ -1,0 +1,1740 @@
+{
+  "id": "12.4",
+  "title_grc": "ἡ ἀνάγνωσις",
+  "title_en": "Down to the Piraeus (review)",
+  "summary_grc": "ὁ Λύσις τὴν ἀρχὴν τῆς Πολιτείας ἀναγιγνώσκει· ὁ Σωκράτης εἰς Πειραιᾶ κατέβη.",
+  "summary_en": "The last reading of the course: the opening of Plato's Republic, unadapted, where Socrates walks down to the Piraeus for a festival and is stopped on his way home. A consolidation page reviews participles, conditions, indirect speech and the optative before Reading gate II.",
+  "cover": "panel-12-4-a",
+  "caption_grc": "καί μου ὄπισθεν ὁ παῖς λαβόμενος τοῦ ἱματίου, κελεύει ὑμᾶς, ἔφη, Πολέμαρχος περιμεῖναι.",
+  "original": {
+    "text": "plato-rep-327a",
+    "note": "Plato, Republic 1.327a–c, unadapted. Plato wrote the Republic around 375 BC; the conversation it describes is set decades earlier, in the lifetime of Socrates. The two opening sentences of the story are ours; everything after them is Plato's text."
+  },
+  "names": {
+    "Σωκράτης": [
+      "Σωκράτους",
+      "Σωκράτει",
+      "Σωκράτη",
+      "Σώκρατες"
+    ],
+    "Γλαύκων": [
+      "Γλαύκωνος",
+      "Γλαύκωνι",
+      "Γλαύκωνα"
+    ],
+    "Πολέμαρχος": [
+      "Πολεμάρχου",
+      "Πολεμάρχῳ",
+      "Πολέμαρχον",
+      "Πολέμαρχε"
+    ],
+    "Κέφαλος": [
+      "Κεφάλου",
+      "Κεφάλῳ",
+      "Κέφαλον"
+    ],
+    "Ἀδείμαντος": [
+      "Ἀδειμάντου",
+      "Ἀδειμάντῳ",
+      "Ἀδείμαντον"
+    ],
+    "Νικήρατος": [
+      "Νικηράτου",
+      "Νικηράτῳ",
+      "Νικήρατον"
+    ],
+    "Νικίας": [
+      "Νικίου",
+      "Νικίᾳ",
+      "Νικίαν"
+    ],
+    "Θρᾷξ": [
+      "Θρᾳκός",
+      "Θρᾳκί",
+      "Θρᾷκα",
+      "Θρᾷκες",
+      "Θρᾳκῶν",
+      "Θρᾳξί"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "panel-12-4-a",
+      "sentences": [
+        {
+          "text": "τελευταῖον δὲ ὁ Λύσις ἄλλο Πλάτωνος βιβλίον ἀναγιγνώσκει, ὃ ἐν τῷ Πειραιεῖ ἄρχεται, ὅπου αὐτὸς παῖς ὢν σὺν τῷ πατρὶ πολλάκις ἦν.",
+          "glosses": [
+            {
+              "word": "τελευταῖον",
+              "kind": "en",
+              "value": "last of all"
+            },
+            {
+              "word": "ἄρχεται",
+              "kind": "|",
+              "value": "ἄρχω (begin) | ἄρχεται (begins: middle)"
+            },
+            {
+              "word": "ὅπου",
+              "kind": "en",
+              "value": "where"
+            }
+          ]
+        },
+        {
+          "text": "ἐν τούτῳ τῷ βιβλίῳ αὐτὸς ὁ Σωκράτης λέγει, καὶ ὁ Λύσις τοὺς παῖδας κελεύει ἀκριβῶς ἀκούειν.",
+          "glosses": [
+            {
+              "word": "ἀκριβῶς",
+              "kind": "<",
+              "value": "ἀκριβής | ἀκριβῶς (carefully, exactly)"
+            }
+          ]
+        },
+        {
+          "text": "Σωκράτης: κατέβην χθὲς εἰς Πειραιᾶ μετὰ Γλαύκωνος τοῦ Ἀρίστωνος προσευξόμενός τε τῇ θεῷ καὶ ἅμα τὴν ἑορτὴν βουλόμενος θεάσασθαι τίνα τρόπον ποιήσουσιν ἅτε νῦν πρῶτον ἄγοντες.",
+          "orig": [
+            0
+          ],
+          "glosses": [
+            {
+              "word": "χθὲς",
+              "kind": "en",
+              "value": "yesterday"
+            },
+            {
+              "word": "Γλαύκωνος",
+              "kind": "en",
+              "value": "Glaucon, Plato's brother; this Ariston is their father, not the potter"
+            },
+            {
+              "word": "προσευξόμενός",
+              "kind": "|",
+              "value": "εὔχομαι → προσεύχομαι | προσευξόμενος (future participle: to pray)"
+            },
+            {
+              "word": "θεῷ",
+              "kind": "note",
+              "value": "ἡ θεός: the goddess, the Thracian Bendis"
+            },
+            {
+              "word": "θεάσασθαι",
+              "kind": "en",
+              "value": "to watch (θεάομαι, aorist)"
+            },
+            {
+              "word": "τρόπον",
+              "kind": "en",
+              "value": "τίνα τρόπον: in what way, how (ὁ τρόπος)"
+            },
+            {
+              "word": "ἅτε",
+              "kind": "en",
+              "value": "since, inasmuch as (+ participle)"
+            },
+            {
+              "word": "ἄγοντες",
+              "kind": "note",
+              "value": "ἑορτὴν ἄγειν: to hold a festival"
+            }
+          ]
+        },
+        {
+          "text": "καλὴ μὲν οὖν μοι καὶ ἡ τῶν ἐπιχωρίων πομπὴ ἔδοξεν εἶναι, οὐ μέντοι ἧττον ἐφαίνετο πρέπειν ἣν οἱ Θρᾷκες ἔπεμπον.",
+          "orig": [
+            1
+          ],
+          "glosses": [
+            {
+              "word": "ἐπιχωρίων",
+              "kind": "en",
+              "value": "of the locals (the Athenians)"
+            },
+            {
+              "word": "ἔδοξεν",
+              "kind": "|",
+              "value": "δοκεῖ μοι | ἔδοξέ μοι (it seemed to me)"
+            },
+            {
+              "word": "ἧττον",
+              "kind": "en",
+              "value": "less"
+            },
+            {
+              "word": "πρέπειν",
+              "kind": "en",
+              "value": "to be fine, to stand out"
+            },
+            {
+              "word": "Θρᾷκες",
+              "kind": "en",
+              "value": "Thracians, living in the Piraeus"
+            },
+            {
+              "word": "ἔπεμπον",
+              "kind": "note",
+              "value": "πομπὴν πέμπειν: to lead a procession"
+            }
+          ]
+        },
+        {
+          "text": "προσευξάμενοι δὲ καὶ θεωρήσαντες ἀπῇμεν πρὸς τὸ ἄστυ.",
+          "orig": [
+            2
+          ],
+          "glosses": [
+            {
+              "word": "προσευξάμενοι",
+              "kind": "|",
+              "value": "προσευξόμενος (future: to pray) | προσευξάμενοι (aorist: having prayed)"
+            },
+            {
+              "word": "θεωρήσαντες",
+              "kind": "en",
+              "value": "having watched (θεωρέω)"
+            },
+            {
+              "word": "ἀπῇμεν",
+              "kind": "<",
+              "value": "ἀπό + εἶμι | ἀπῇμεν (we were going away: imperfect)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "panel-12-4-b",
+      "sentences": [
+        {
+          "text": "κατιδὼν οὖν πόρρωθεν ἡμᾶς οἴκαδε ὡρμημένους Πολέμαρχος ὁ Κεφάλου ἐκέλευσε δραμόντα τὸν παῖδα περιμεῖναί ἑ κελεῦσαι.",
+          "orig": [
+            3
+          ],
+          "glosses": [
+            {
+              "word": "κατιδὼν",
+              "kind": "<",
+              "value": "κατά + εἶδον | κατιδών (catching sight of)"
+            },
+            {
+              "word": "πόρρωθεν",
+              "kind": "en",
+              "value": "from far off"
+            },
+            {
+              "word": "ὡρμημένους",
+              "kind": "|",
+              "value": "ὁρμάομαι (set off) | ὡρμημένους (perfect participle: already on our way)"
+            },
+            {
+              "word": "Πολέμαρχος",
+              "kind": "en",
+              "value": "Polemarchus, son of Cephalus, of a rich family of the Piraeus; brother of Lysias the speech-writer"
+            },
+            {
+              "word": "δραμόντα",
+              "kind": "|",
+              "value": "τρέχω | ἔδραμον, δραμών (aorist: running)"
+            },
+            {
+              "word": "περιμεῖναί",
+              "kind": "<",
+              "value": "περί + μένω | περιμεῖναι (to wait for)"
+            },
+            {
+              "word": "ἑ",
+              "kind": "en",
+              "value": "him (Polemarchus himself: an old third-person pronoun)"
+            }
+          ]
+        },
+        {
+          "text": "καί μου ὄπισθεν ὁ παῖς λαβόμενος τοῦ ἱματίου, κελεύει ὑμᾶς, ἔφη, Πολέμαρχος περιμεῖναι.",
+          "orig": [
+            4
+          ],
+          "glosses": [
+            {
+              "word": "ὄπισθεν",
+              "kind": "en",
+              "value": "from behind"
+            },
+            {
+              "word": "λαβόμενος",
+              "kind": "|",
+              "value": "λαμβάνομαι + genitive | λαβόμενος τοῦ ἱματίου (taking hold of my cloak)"
+            },
+            {
+              "word": "ἱματίου",
+              "kind": "en",
+              "value": "cloak (τὸ ἱμάτιον)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ ἐγὼ μετεστράφην τε καὶ ἠρόμην ὅπου αὐτὸς εἴη.",
+          "orig": [
+            5
+          ],
+          "glosses": [
+            {
+              "word": "μετεστράφην",
+              "kind": "en",
+              "value": "I turned round (μεταστρέφομαι, aorist passive)"
+            },
+            {
+              "word": "ἠρόμην",
+              "kind": "|",
+              "value": "ἐρωτάω | ἠρόμην (I asked: aorist)"
+            },
+            {
+              "word": "εἴη",
+              "kind": "|",
+              "value": "ἐστί | εἴη (optative: an indirect question after a past verb)"
+            }
+          ]
+        },
+        {
+          "text": "οὗτος, ἔφη, ὄπισθεν προσέρχεται·",
+          "orig": [
+            6
+          ],
+          "glosses": []
+        },
+        {
+          "text": "ἀλλὰ περιμένετε.",
+          "orig": [
+            7
+          ],
+          "glosses": [
+            {
+              "word": "περιμένετε",
+              "kind": "|",
+              "value": "περιμένω | περιμένετε (wait!)"
+            }
+          ]
+        },
+        {
+          "text": "ἀλλὰ περιμενοῦμεν, ἦ δʼ ὃς ὁ Γλαύκων.",
+          "orig": [
+            8
+          ],
+          "glosses": [
+            {
+              "word": "περιμενοῦμεν",
+              "kind": "|",
+              "value": "μένω | μενοῦμεν (liquid future: we will wait)"
+            },
+            {
+              "word": "ἦ",
+              "kind": "en",
+              "value": "ἦ δʼ ὅς: said he (an old verb 'say')"
+            },
+            {
+              "word": "δʼ",
+              "kind": "=",
+              "value": "δέ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "panel-12-4-c",
+      "sentences": [
+        {
+          "text": "καὶ ὀλίγῳ ὕστερον ὅ τε Πολέμαρχος ἧκε καὶ Ἀδείμαντος ὁ τοῦ Γλαύκωνος ἀδελφὸς καὶ Νικήρατος ὁ Νικίου καὶ ἄλλοι τινὲς ὡς ἀπὸ τῆς πομπῆς.",
+          "orig": [
+            9
+          ],
+          "glosses": [
+            {
+              "word": "ὀλίγῳ",
+              "kind": "en",
+              "value": "ὀλίγῳ ὕστερον: a little later (dative of degree)"
+            },
+            {
+              "word": "Ἀδείμαντος",
+              "kind": "en",
+              "value": "Adeimantus, Glaucon's (and Plato's) brother"
+            },
+            {
+              "word": "Νικίου",
+              "kind": "en",
+              "value": "of Nicias, the general"
+            },
+            {
+              "word": "ὡς",
+              "kind": "en",
+              "value": "ὡς ἀπό: evidently (coming) from"
+            }
+          ]
+        },
+        {
+          "text": "ὁ οὖν Πολέμαρχος ἔφη·",
+          "orig": [
+            10
+          ],
+          "glosses": []
+        },
+        {
+          "text": "ὦ Σώκρατες, δοκεῖτέ μοι πρὸς ἄστυ ὡρμῆσθαι ὡς ἀπιόντες.",
+          "orig": [
+            11
+          ],
+          "glosses": [
+            {
+              "word": "ὡρμῆσθαι",
+              "kind": "|",
+              "value": "ὡρμημένος | ὡρμῆσθαι (perfect infinitive: to be on your way)"
+            },
+            {
+              "word": "ἀπιόντες",
+              "kind": "|",
+              "value": "ἄπειμι (go away) | ἀπιόντες (going away); ὡς ἀπιόντες 'as if leaving'"
+            }
+          ]
+        },
+        {
+          "text": "οὐ γὰρ κακῶς δοξάζεις, ἦν δʼ ἐγώ.",
+          "orig": [
+            12
+          ],
+          "glosses": [
+            {
+              "word": "κακῶς",
+              "kind": "<",
+              "value": "κακός | κακῶς (badly)"
+            },
+            {
+              "word": "δοξάζεις",
+              "kind": "en",
+              "value": "you guess, suppose (δοξάζω)"
+            },
+            {
+              "word": "ἦν",
+              "kind": "note",
+              "value": "ἦν δʼ ἐγώ: said I (the same old verb as ἦ δʼ ὅς)"
+            }
+          ]
+        },
+        {
+          "text": "ὁρᾷς οὖν ἡμᾶς, ἔφη, ὅσοι ἐσμέν;",
+          "orig": [
+            13
+          ],
+          "glosses": []
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "κελευω",
+      "gloss_grc": "κελεύω, κελεύσω, ἐκέλευσα + accusative + infinitive · κελεύει ὑμᾶς περιμεῖναι"
+    },
+    {
+      "id": "συν",
+      "gloss_grc": "σύν + dative = μετά + genitive · σὺν τῷ πατρί"
+    },
+    {
+      "id": "ακριβης",
+      "gloss_grc": "ἀκριβής, -ές (like ἀληθής) · adverb ἀκριβῶς"
+    },
+    {
+      "id": "κεφαλη",
+      "pic": "kephale",
+      "gloss_grc": "ἡ κεφαλή · ἐπὶ τῇ κεφαλῇ στέφανος"
+    },
+    {
+      "id": "αλλως",
+      "gloss_grc": "ἄλλως (< ἄλλος) · otherwise, in another way"
+    },
+    {
+      "id": "μιγνυμι",
+      "gloss_grc": "μίγνυμι (like δείκνυμι), aorist ἔμειξα · οἶνον ὕδατι μιγνύναι"
+    }
+  ],
+  "notice": [
+    "κατέβην … προσευξόμενός τε τῇ θεῷ καὶ … βουλόμενος θεάσασθαι · ἅτε νῦν πρῶτον ἄγοντες",
+    "κατιδὼν οὖν πόρρωθεν ἡμᾶς οἴκαδε ὡρμημένους",
+    "ἠρόμην ὅπου αὐτὸς εἴη",
+    "κελεύει ὑμᾶς, ἔφη, Πολέμαρχος περιμεῖναι",
+    "δοκεῖτέ μοι πρὸς ἄστυ ὡρμῆσθαι ὡς ἀπιόντες"
+  ],
+  "grammar": {
+    "md": "This page gathers the four constructions of Stage 2 that carry the most weight in real Greek. Each has an example from the passage or from Units 7–12.\n\n**1. Participles.** A participle is a verbal adjective: it has tense and voice, and it agrees with a noun.\n\n| use | example | sense |\n|---|---|---|\n| circumstantial | κατιδὼν … Πολέμαρχος ἐκέλευσε | 'when he caught sight of' |\n| cause (ἅτε, ὡς) | ἅτε νῦν πρῶτον ἄγοντες · ὡς ἀπιόντες | 'since' · 'as if' |\n| purpose (future) | κατέβην … προσευξόμενος | 'to pray' |\n| attributive, as a noun | οἱ ἐπιόντες, τὸν βασιλεύοντα | 'those coming up', 'the reigning (king)' |\n| supplementary | παρὼν ἐτύγχανε | 'happened to be present' |\n| indirect statement | κατιδὼν ἡμᾶς … ὡρμημένους | 'seeing that we had set off' |\n| genitive absolute | τοῦ Κύρου ἀποθανόντος | 'Cyrus having died' |\n\nAorist = before the main verb; present = at the same time; future = purpose; perfect = a state reached.\n\n**2. Conditions.**\n\n| type | if-clause | main clause |\n|---|---|---|\n| simple | εἰ + indicative | indicative |\n| future more vivid | ἐάν + subjunctive | future indicative |\n| future less vivid | εἰ + optative | ἄν + optative |\n| present contrary to fact | εἰ + imperfect | ἄν + imperfect |\n| past contrary to fact | εἰ + aorist | ἄν + aorist |\n| general | ἐάν + subj. / εἰ + opt. | present / imperfect |\n\nNegative μή in the if-clause. Crito's οὐδʼ ἂν αὐτὸς ἤθελον is the main clause of a contrary-to-fact condition whose 'if' is left unsaid.\n\n**3. Indirect speech.** Three ways to report: ὅτι / ὡς + a finite verb (ἔλεγεν ὅτι …); the infinitive after φημί, νομίζω, οἴομαι, δοκέω (ᾠήθησαν ἄλλους ἐπιτίθεσθαι πολεμίους); the participle after verbs of seeing, knowing, hearing (κατιδὼν ἡμᾶς ὡρμημένους). After a past main verb, a finite verb in ὅτι-clauses and indirect questions **may** become optative: ἠρόμην ὅπου αὐτὸς εἴη; διαβάλλει … ὡς ἐπιβουλεύοι.\n\n**4. The optative.**\n\n| use | example |\n|---|---|\n| wish (εἴθε, εἰ γάρ) | εἴθε ἔλθοι 'may he come' |\n| potential (ἄν) | πλημμελὲς ἂν εἴη 'it would be' |\n| future less vivid (εἰ … ἄν) | εἰ περιμείναιτε, ἴδοιτε ἄν |\n| secondary sequence (after a past verb) | ἠρόμην ὅπου εἴη; ἵνα / ὅπως + optative |\n\nReading tip: when you meet an optative, look for ἄν (potential), εἴθε (wish), εἰ (condition), or a past verb earlier in the sentence (secondary sequence).",
+    "paradigms": [
+      "luo",
+      "eimi",
+      "eimi-go",
+      "phemi"
+    ],
+    "diagram": "diagram-conditions"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the participle endings (Plato's sentences).",
+      "template": "κατέβην χθὲς εἰς Πειραιᾶ προσευξόμεν___ τε τῇ θεῷ καὶ ἅμα τὴν ἑορτὴν βουλόμεν___ θεάσασθαι. προσευξάμεν___ δὲ καὶ θεωρήσαντ___ ἀπῇμεν πρὸς τὸ ἄστυ.",
+      "gaps": [
+        {
+          "answers": [
+            "ος"
+          ]
+        },
+        {
+          "answers": [
+            "ος"
+          ]
+        },
+        {
+          "answers": [
+            "οι"
+          ]
+        },
+        {
+          "answers": [
+            "ες"
+          ]
+        }
+      ],
+      "skills": [
+        "verb.ptc.fut.act",
+        "verb.ptc.pres.mp",
+        "verb.ptc.aor.act"
+      ],
+      "explain": "προσευξόμενος (future: purpose), βουλόμενος (present), προσευξάμενοι and θεωρήσαντες (aorist, plural: 'we')."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · καὶ ἐγὼ μετεστράφην τε καὶ ἠρόμην ὅπου αὐτὸς ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "εἴη"
+        },
+        {
+          "id": "b",
+          "text": "εἶναι"
+        },
+        {
+          "id": "c",
+          "text": "ὤν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.indirect-question",
+        "syntax.opt-secondary"
+      ],
+      "explain": "An indirect question after a past verb (ἠρόμην): the optative εἴη 'where he was'.",
+      "audio": "καὶ ἐγὼ μετεστράφην τε καὶ ἠρόμην ὅπου αὐτὸς εἴη."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · Πολέμαρχος ἐκέλευσε δραμόντα τὸν παῖδα περιμεῖναί ἑ ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "κελεῦσαι"
+        },
+        {
+          "id": "b",
+          "text": "κελεύει"
+        },
+        {
+          "id": "c",
+          "text": "κελεύων"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.infinitive",
+        "vocab.stage2"
+      ],
+      "explain": "κελεύω + accusative + infinitive: he told the slave to tell us (κελεῦσαι) to wait for him.",
+      "audio": "Πολέμαρχος ἐκέλευσε δραμόντα τὸν παῖδα περιμεῖναί ἑ κελεῦσαι."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · κατέβην χθὲς εἰς Πειραιᾶ ___ τῇ θεῷ.",
+      "options": [
+        {
+          "id": "a",
+          "text": "προσευξόμενος"
+        },
+        {
+          "id": "b",
+          "text": "προσευξάμενοι"
+        },
+        {
+          "id": "c",
+          "text": "προσεύχονται"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.ptc-purpose",
+        "verb.ptc.fut.act"
+      ],
+      "explain": "Future participle of purpose: 'to pray to the goddess'.",
+      "audio": "κατέβην χθὲς εἰς Πειραιᾶ προσευξόμενος τῇ θεῷ."
+    },
+    {
+      "type": "pick-picture",
+      "prompt": "κεφαλή",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "image": "kephale"
+        },
+        {
+          "id": "b",
+          "image": "pous"
+        },
+        {
+          "id": "c",
+          "image": "cheir"
+        },
+        {
+          "id": "d",
+          "image": "soma"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition"
+      ],
+      "explain": "ἡ κεφαλή: the head."
+    },
+    {
+      "type": "match",
+      "prompt": "Match the new words to their meanings.",
+      "pairs": [
+        {
+          "left": "κελεύω",
+          "right": "order, tell (someone to)"
+        },
+        {
+          "left": "σύν",
+          "right": "with (+ dative)"
+        },
+        {
+          "left": "μίγνυμι",
+          "right": "mix"
+        },
+        {
+          "left": "ἀκριβής",
+          "right": "exact, precise"
+        },
+        {
+          "left": "ἄλλως",
+          "right": "otherwise"
+        }
+      ],
+      "skills": [
+        "vocab.recognition",
+        "vocab.stage2"
+      ],
+      "explain": "κελεύω, σύν, μίγνυμι, ἀκριβής, ἄλλως."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist infinitive of κελεύω ('to tell, order').",
+      "lemma": "κελεύω",
+      "cell": "aorist.active.infinitive.inf",
+      "skills": [
+        "verb.aor.act.inf",
+        "vocab.production"
+      ],
+      "explain": "κελεῦσαι: first-aorist infinitive, accent on the syllable before -σαι.",
+      "audio": "κελεῦσαι"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the present of μίγνυμι for 'he mixes'.",
+      "lemma": "μίγνυμι",
+      "cell": "present.active.indicative.3sg",
+      "skills": [
+        "verb.mi.deiknymi",
+        "vocab.production"
+      ],
+      "explain": "μίγνυσι(ν), like δείκνυσι(ν).",
+      "audio": "μίγνυσιν"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the genitive singular participle of προσέρχομαι for a genitive absolute: τοῦ Πολεμάρχου ___ ('as Polemarchus was coming up').",
+      "lemma": "προσέρχομαι",
+      "cell": "present.middle.participle.gen.sg.m",
+      "skills": [
+        "syntax.gen-abs",
+        "verb.ptc.pres.mp.gen"
+      ],
+      "explain": "προσερχομένου: present participle, genitive, agreeing with τοῦ Πολεμάρχου.",
+      "audio": "τοῦ Πολεμάρχου προσερχομένου"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ὡρμημένους.",
+      "form": "ὡρμημένους",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "perf",
+        "mood": "ptc",
+        "case": "acc"
+      },
+      "skills": [
+        "verb.ptc.summary",
+        "verb.perf.reduplication"
+      ],
+      "explain": "ὡρ-μη-μένους: perfect middle participle of ὁρμάομαι (the reduplication of a vowel verb looks like an augment), accusative with ἡμᾶς: 'already on our way home'.",
+      "audio": "ὡρμημένους"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse προσευξόμενος.",
+      "form": "προσευξόμενος",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "fut",
+        "mood": "ptc"
+      },
+      "skills": [
+        "verb.ptc.fut.act",
+        "syntax.ptc-purpose"
+      ],
+      "explain": "προσ-ευξ-όμενος: future middle participle (-ξ- = χ + σ), 'in order to pray'.",
+      "audio": "προσευξόμενος"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἀπιόντες.",
+      "form": "ἀπιόντες",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "pres",
+        "mood": "ptc",
+        "case": "nom"
+      },
+      "skills": [
+        "verb.eimi-go",
+        "verb.ptc.pres.act"
+      ],
+      "explain": "ἀπ-ιόντες: present participle of ἄπειμι 'go away' (εἶμι), nominative plural with the subject 'you'.",
+      "audio": "ἀπιόντες"
+    },
+    {
+      "type": "label",
+      "prompt": "ἐὰν περιμείνητε, τὸν Πολέμαρχον ὄψεσθε. Which kind of condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "simple (εἰ + indicative)"
+        },
+        {
+          "id": "b",
+          "text": "future more vivid (ἐάν + subjunctive, future)"
+        },
+        {
+          "id": "c",
+          "text": "future less vivid (εἰ + optative, ἄν + optative)"
+        },
+        {
+          "id": "d",
+          "text": "past contrary to fact (εἰ + aorist, ἄν + aorist)"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "syntax.cond.fmv"
+      ],
+      "explain": "ἐάν + aorist subjunctive, future indicative: 'if you wait, you will see Polemarchus'."
+    },
+    {
+      "type": "label",
+      "prompt": "εἰ περιμείναιτε, τὸν Πολέμαρχον ἂν ἴδοιτε. Which kind of condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "simple (εἰ + indicative)"
+        },
+        {
+          "id": "b",
+          "text": "future more vivid (ἐάν + subjunctive, future)"
+        },
+        {
+          "id": "c",
+          "text": "future less vivid (εἰ + optative, ἄν + optative)"
+        },
+        {
+          "id": "d",
+          "text": "past contrary to fact (εἰ + aorist, ἄν + aorist)"
+        }
+      ],
+      "answer": "c",
+      "skills": [
+        "syntax.cond.fl",
+        "syntax.opt-potential"
+      ],
+      "explain": "εἰ + optative, ἄν + optative: 'if you should wait, you would see Polemarchus'."
+    },
+    {
+      "type": "label",
+      "prompt": "εἰ μὴ ὁ παῖς τοῦ ἱματίου ἐλάβετο, ἀπήλθομεν ἄν. Which kind of condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "simple (εἰ + indicative)"
+        },
+        {
+          "id": "b",
+          "text": "future more vivid (ἐάν + subjunctive, future)"
+        },
+        {
+          "id": "c",
+          "text": "future less vivid (εἰ + optative, ἄν + optative)"
+        },
+        {
+          "id": "d",
+          "text": "past contrary to fact (εἰ + aorist, ἄν + aorist)"
+        }
+      ],
+      "answer": "d",
+      "skills": [
+        "syntax.cond.cf-past"
+      ],
+      "explain": "εἰ + aorist indicative, ἄν + aorist: 'if the slave had not caught hold of the cloak, we would have gone away'."
+    },
+    {
+      "type": "label",
+      "prompt": "ἅτε νῦν πρῶτον ἄγοντες. What does ἅτε + participle express?",
+      "options": [
+        {
+          "id": "a",
+          "text": "cause, as a fact: 'since they were holding it for the first time'"
+        },
+        {
+          "id": "b",
+          "text": "purpose"
+        },
+        {
+          "id": "c",
+          "text": "a condition"
+        },
+        {
+          "id": "d",
+          "text": "an indirect statement"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "verb.ptc.use",
+        "verb.ptc.summary"
+      ],
+      "explain": "ἅτε + participle gives a cause that the speaker vouches for; ὡς + participle gives a cause or an impression ('as if leaving')."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "εἴθε ὁ Πολέμαρχος ταχέως ___. (a wish)",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἔλθοι"
+        },
+        {
+          "id": "b",
+          "text": "ἦλθεν"
+        },
+        {
+          "id": "c",
+          "text": "ἐλθεῖν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-wish"
+      ],
+      "explain": "εἴθε + optative: a wish for the future, 'may he come quickly!'."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ὁ Σωκράτης ἔφη τὴν πομπὴν καλὴν ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "εἶναι"
+        },
+        {
+          "id": "b",
+          "text": "ἐστί"
+        },
+        {
+          "id": "c",
+          "text": "οὖσαν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.indirect-inf",
+        "verb.phemi"
+      ],
+      "explain": "φημί takes an infinitive of indirect statement: 'he said the procession was fine'."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ὁ Πολέμαρχος ᾔσθετο τὸν Σωκράτη οἴκαδε ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἀπιόντα"
+        },
+        {
+          "id": "b",
+          "text": "ἀπιέναι"
+        },
+        {
+          "id": "c",
+          "text": "ἄπεισι"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.indirect-ptc"
+      ],
+      "explain": "Verbs of perceiving take a participle of indirect statement: 'he noticed that Socrates was going home'."
+    },
+    {
+      "type": "transform",
+      "prompt": "Report the question after a past verb: «ποῦ ἐστιν αὐτός;» → ἠρόμην ὅπου αὐτὸς ___.",
+      "template": "ἠρόμην ὅπου αὐτὸς ___.",
+      "gaps": [
+        {
+          "answers": [
+            "εἴη",
+            "ἐστί",
+            "ἐστίν"
+          ]
+        }
+      ],
+      "skills": [
+        "syntax.indirect-question",
+        "syntax.opt-indirect"
+      ],
+      "explain": "ἠρόμην ὅπου αὐτὸς εἴη, as Plato writes. The original indicative ἐστί may also be kept; the optative marks it as reported."
+    },
+    {
+      "type": "transform",
+      "prompt": "Make it a genitive absolute: ὁ Πολέμαρχος προσέρχεται· περιμένομεν. → τοῦ Πολεμάρχου ___, περιμένομεν.",
+      "template": "τοῦ Πολεμάρχου ___, περιμένομεν.",
+      "gaps": [
+        {
+          "answers": [
+            "προσερχομένου"
+          ]
+        }
+      ],
+      "skills": [
+        "syntax.gen-abs",
+        "verb.ptc.pres.mp.gen"
+      ],
+      "explain": "Subject and participle in the genitive: τοῦ Πολεμάρχου προσερχομένου."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap every participle.",
+      "sentence": "Σωκράτης: κατέβην χθὲς εἰς Πειραιᾶ μετὰ Γλαύκωνος τοῦ Ἀρίστωνος προσευξόμενός τε τῇ θεῷ καὶ ἅμα τὴν ἑορτὴν βουλόμενος θεάσασθαι τίνα τρόπον ποιήσουσιν ἅτε νῦν πρῶτον ἄγοντες.",
+      "answer": [
+        9,
+        17,
+        25
+      ],
+      "skills": [
+        "read.locate",
+        "verb.ptc.summary"
+      ],
+      "explain": "προσευξόμενος (future: purpose), βουλόμενος (present: 'wanting'), ἄγοντες (present, with ἅτε: cause)."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap every participle.",
+      "sentence": "κατιδὼν οὖν πόρρωθεν ἡμᾶς οἴκαδε ὡρμημένους Πολέμαρχος ὁ Κεφάλου ἐκέλευσε δραμόντα τὸν παῖδα περιμεῖναί ἑ κελεῦσαι.",
+      "answer": [
+        0,
+        5,
+        10
+      ],
+      "skills": [
+        "read.locate",
+        "verb.ptc.summary"
+      ],
+      "explain": "κατιδών (aorist, with Polemarchus), ὡρμημένους (perfect, with ἡμᾶς: indirect statement after a verb of seeing), δραμόντα (aorist, with τὸν παῖδα)."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'Polemarchus orders you to wait.'",
+      "tokens": [
+        "Πολέμαρχος",
+        "κελεύει",
+        "ὑμᾶς",
+        "περιμεῖναι"
+      ],
+      "answers": [
+        "κελεύει ὑμᾶς Πολέμαρχος περιμεῖναι",
+        "Πολέμαρχος κελεύει ὑμᾶς περιμεῖναι",
+        "Πολέμαρχος ὑμᾶς κελεύει περιμεῖναι",
+        "Πολέμαρχος ὑμᾶς περιμεῖναι κελεύει"
+      ],
+      "skills": [
+        "syntax.word-order",
+        "syntax.infinitive"
+      ],
+      "explain": "Plato's order is κελεύει ὑμᾶς … Πολέμαρχος περιμεῖναι: the verb first, as the slave blurts it out."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἀλλὰ περιμενοῦμεν, ἦ δʼ ὃς ὁ Γλαύκων."
+        },
+        {
+          "id": "b",
+          "text": "ἀλλὰ περιμένετε, ἦ δʼ ὃς ὁ Γλαύκων."
+        },
+        {
+          "id": "c",
+          "text": "ἀλλὰ ἀπίωμεν, ἦ δʼ ὃς ὁ Γλαύκων."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "'Well, we will wait,' said Glaucon.",
+      "audio": "ἀλλὰ περιμενοῦμεν, ἦ δʼ ὃς ὁ Γλαύκων."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Σωκράτης μόνος εἰς Πειραιᾶ κατέβη.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "μετὰ Γλαύκωνος: he went down with Glaucon."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ παῖς τοῦ ἱματίου τοῦ Σωκράτους ἐλάβετο.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "μου ὄπισθεν ὁ παῖς λαβόμενος τοῦ ἱματίου."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "gaps": [
+        {
+          "answers": [
+            "ἀλλὰ περιμένετε"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "ἀλλὰ περιμένετε: 'just wait!'",
+      "audio": "ἀλλὰ περιμένετε."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek, with σύν: 'Socrates went down to the Piraeus with Glaucon.'",
+      "gaps": [
+        {
+          "answers": [
+            "ὁ Σωκράτης σὺν τῷ Γλαύκωνι εἰς Πειραιᾶ κατέβη",
+            "ὁ Σωκράτης σὺν Γλαύκωνι εἰς Πειραιᾶ κατέβη",
+            "ὁ Σωκράτης εἰς Πειραιᾶ σὺν τῷ Γλαύκωνι κατέβη",
+            "ὁ Σωκράτης εἰς Πειραιᾶ σὺν Γλαύκωνι κατέβη",
+            "ὁ Σωκράτης κατέβη εἰς Πειραιᾶ σὺν τῷ Γλαύκωνι",
+            "ὁ Σωκράτης κατέβη εἰς Πειραιᾶ σὺν Γλαύκωνι",
+            "ὁ Σωκράτης σὺν τῷ Γλαύκωνι εἰς τὸν Πειραιᾶ κατέβη",
+            "ὁ Σωκράτης σὺν Γλαύκωνι εἰς τὸν Πειραιᾶ κατέβη"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "prep.syn.dat"
+      ],
+      "explain": "σὺν τῷ Γλαύκωνι = μετὰ Γλαύκωνος; κατέβη, root aorist of καταβαίνω."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: κατιδὼν οὖν πόρρωθεν ἡμᾶς οἴκαδε ὡρμημένους Πολέμαρχος ὁ Κεφάλου ἐκέλευσε δραμόντα τὸν παῖδα περιμεῖναί ἑ κελεῦσαι.",
+      "audio": "κατιδὼν οὖν πόρρωθεν ἡμᾶς οἴκαδε ὡρμημένους Πολέμαρχος ὁ Κεφάλου ἐκέλευσε δραμόντα τὸν παῖδα περιμεῖναί ἑ κελεῦσαι.",
+      "model": "So Polemarchus son of Cephalus, catching sight of us from far off already on our way home, told his slave to run and tell us to wait for him.",
+      "skills": [
+        "read.connected",
+        "read.original",
+        "read.plato",
+        "read.strategy",
+        "verb.ptc.summary"
+      ],
+      "explain": "Main verb ἐκέλευσε, subject Πολέμαρχος; κατιδών goes with him, ὡρμημένους with ἡμᾶς (what he saw), δραμόντα with τὸν παῖδα; κελεῦσαι depends on ἐκέλευσε, περιμεῖναι on κελεῦσαι."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: καὶ ἐγὼ μετεστράφην τε καὶ ἠρόμην ὅπου αὐτὸς εἴη.",
+      "audio": "καὶ ἐγὼ μετεστράφην τε καὶ ἠρόμην ὅπου αὐτὸς εἴη.",
+      "model": "And I turned round and asked where he was.",
+      "skills": [
+        "read.connected",
+        "read.original",
+        "read.plato",
+        "syntax.indirect-question"
+      ],
+      "explain": "ἠρόμην (aorist of ἐρωτάω) + indirect question ὅπου … εἴη (optative after a past verb)."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "ἡ κεφαλή",
+          "right": "cephalic, encephalitis"
+        },
+        {
+          "left": "σύν",
+          "right": "synthesis, sympathy"
+        },
+        {
+          "left": "θεάομαι",
+          "right": "theatre"
+        },
+        {
+          "left": "θεωρέω",
+          "right": "theory"
+        },
+        {
+          "left": "ἡ πομπή",
+          "right": "pomp"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "κεφαλή 'head'; σύν 'with, together'; θέατρον 'a place for watching'; θεωρία 'watching, contemplation'; πομπή 'procession'."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "ποῖ κατέβη ὁ Σωκράτης, καὶ σὺν τίνι;",
+      "options": [
+        {
+          "id": "a",
+          "text": "εἰς Πειραιᾶ, σὺν τῷ Γλαύκωνι."
+        },
+        {
+          "id": "b",
+          "text": "εἰς τὴν ἀγοράν, σὺν τῷ Πολεμάρχῳ."
+        },
+        {
+          "id": "c",
+          "text": "εἰς τὸ ἄστυ, μόνος."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "prep.syn.dat"
+      ],
+      "explain": "κατέβην χθὲς εἰς Πειραιᾶ μετὰ Γλαύκωνος.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίνες ἄλλην πομπὴν ἔπεμπον;",
+      "options": [
+        {
+          "id": "a",
+          "text": "οἱ Θρᾷκες."
+        },
+        {
+          "id": "b",
+          "text": "οἱ Λακεδαιμόνιοι."
+        },
+        {
+          "id": "c",
+          "text": "οἱ Ἕλληνες ἐν τῇ Ἀσίᾳ."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἣν οἱ Θρᾷκες ἔπεμπον.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίς τὸν παῖδα δραμεῖν ἐκέλευσεν;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ Πολέμαρχος."
+        },
+        {
+          "id": "b",
+          "text": "ὁ Γλαύκων."
+        },
+        {
+          "id": "c",
+          "text": "ὁ Σωκράτης."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "vocab.stage2"
+      ],
+      "explain": "Πολέμαρχος ὁ Κεφάλου ἐκέλευσε δραμόντα τὸν παῖδα …",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίνος ἐλάβετο ὁ παῖς;",
+      "options": [
+        {
+          "id": "a",
+          "text": "τοῦ ἱματίου τοῦ Σωκράτους."
+        },
+        {
+          "id": "b",
+          "text": "τῆς κεφαλῆς τοῦ Σωκράτους."
+        },
+        {
+          "id": "c",
+          "text": "τῆς χειρὸς τοῦ Γλαύκωνος."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "syntax.gen.uses"
+      ],
+      "explain": "μου ὄπισθεν ὁ παῖς λαβόμενος τοῦ ἱματίου.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίνες ὀλίγῳ ὕστερον ἧκον;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ Πολέμαρχος, ὁ Ἀδείμαντος, ὁ Νικήρατος καὶ ἄλλοι."
+        },
+        {
+          "id": "b",
+          "text": "οἱ Θρᾷκες μόνοι."
+        },
+        {
+          "id": "c",
+          "text": "ὁ Κέφαλος καὶ ὁ Νικίας."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ὅ τε Πολέμαρχος ἧκε καὶ Ἀδείμαντος … καὶ Νικήρατος … καὶ ἄλλοι τινές.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί ἐνόμιζεν ὁ Πολέμαρχος;",
+      "options": [
+        {
+          "id": "a",
+          "text": "τὸν Σωκράτη πρὸς ἄστυ ἀπιέναι."
+        },
+        {
+          "id": "b",
+          "text": "τὸν Σωκράτη ἐν τῷ Πειραιεῖ μένειν."
+        },
+        {
+          "id": "c",
+          "text": "τὴν πομπὴν κακὴν εἶναι."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "syntax.indirect-inf"
+      ],
+      "explain": "δοκεῖτέ μοι πρὸς ἄστυ ὡρμῆσθαι ὡς ἀπιόντες.",
+      "audio": "prompt"
+    }
+  ],
+  "culture": {
+    "title": "A festival in the Piraeus",
+    "md": "The **Republic** opens with Socrates telling how he walked down to the Piraeus for a new festival: the goddess (ἡ θεός) is **Bendis**, a Thracian huntress whom the Athenians took into their state cult in the later fifth century for the sake of the many Thracians living in the port. There were two processions, one of Athenians and one of Thracians, and, as the next page tells, a torch race on horseback that evening.\n\nThe people are real. Glaucon and Adeimantus were Plato's own brothers, sons of **Ariston** (not our potter!). Polemarchus was the son of Cephalus, a rich Syracusan who had settled in the Piraeus at Pericles' invitation and ran a shield workshop; his brother was the speech-writer **Lysias**. Niceratus was the son of the general Nicias. Plato wrote in the 370s, and his first readers knew what came after: in 404 the Thirty Tyrants put Polemarchus and Niceratus to death and seized the family's property. The cheerful scene is darkened by that knowledge.\n\nPlato wrote the Republic around 375 BC, so for old Lysis in our epilogue it is a new book. Plato also wrote a short dialogue called **Lysis**, about friendship: its Lysis is a different boy, the son of Democrates, but you may like to read it one day as a farewell to ours.",
+    "image": "culture-12-4-bendis-relief"
+  },
+  "quiz": [
+    {
+      "type": "label",
+      "prompt": "εἰ μὴ περιεμείναμεν, οὐκ ἂν εἴδομεν τὸν Πολέμαρχον. Which kind of condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "simple (εἰ + indicative)"
+        },
+        {
+          "id": "b",
+          "text": "future more vivid (ἐάν + subjunctive, future)"
+        },
+        {
+          "id": "c",
+          "text": "future less vivid (εἰ + optative, ἄν + optative)"
+        },
+        {
+          "id": "d",
+          "text": "past contrary to fact (εἰ + aorist, ἄν + aorist)"
+        }
+      ],
+      "answer": "d",
+      "skills": [
+        "syntax.cond.cf-past"
+      ],
+      "explain": "εἰ + aorist indicative, ἄν + aorist: 'if we had not waited, we would not have seen him'."
+    },
+    {
+      "type": "label",
+      "prompt": "ἐὰν κελεύῃ, περιμενοῦμεν. Which kind of condition?",
+      "options": [
+        {
+          "id": "a",
+          "text": "simple (εἰ + indicative)"
+        },
+        {
+          "id": "b",
+          "text": "future more vivid (ἐάν + subjunctive, future)"
+        },
+        {
+          "id": "c",
+          "text": "future less vivid (εἰ + optative, ἄν + optative)"
+        },
+        {
+          "id": "d",
+          "text": "past contrary to fact (εἰ + aorist, ἄν + aorist)"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "syntax.cond.fmv"
+      ],
+      "explain": "ἐάν + subjunctive, future indicative."
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse εἴη.",
+      "form": "εἴη",
+      "groups": [
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "mood": "opt",
+        "person": "3sg"
+      },
+      "skills": [
+        "syntax.opt-secondary",
+        "verb.pres.act.opt.3sg"
+      ],
+      "explain": "Present optative of εἰμί, here in an indirect question after ἠρόμην.",
+      "audio": "εἴη"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ὁ παῖς ἔφη τὸν Πολέμαρχον ὄπισθεν ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "προσέρχεσθαι"
+        },
+        {
+          "id": "b",
+          "text": "προσέρχεται"
+        },
+        {
+          "id": "c",
+          "text": "προσερχόμενος"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.indirect-inf",
+        "verb.phemi"
+      ],
+      "explain": "φημί + infinitive."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist of κελεύω for 'he ordered'.",
+      "lemma": "κελεύω",
+      "cell": "aorist.active.indicative.3sg",
+      "skills": [
+        "vocab.production",
+        "verb.aor.act.ind.3sg"
+      ],
+      "explain": "ἐκέλευσε(ν).",
+      "audio": "ἐκέλευσεν"
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Σωκράτης σὺν τῷ Πολεμάρχῳ κατέβη.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension",
+        "prep.syn.dat"
+      ],
+      "explain": "He went down with Glaucon; Polemarchus caught up with them later."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἀκριβῶς means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "exactly, carefully"
+        },
+        {
+          "id": "b",
+          "text": "quickly"
+        },
+        {
+          "id": "c",
+          "text": "otherwise"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition",
+        "vocab.stage2"
+      ],
+      "explain": "ἀκριβής 'exact', adverb ἀκριβῶς."
+    }
+  ],
+  "skills": [
+    "read.connected",
+    "read.original",
+    "read.plato",
+    "read.strategy",
+    "read.comprehension",
+    "read.locate",
+    "verb.ptc.summary",
+    "verb.ptc.use",
+    "syntax.ptc-purpose",
+    "syntax.gen-abs",
+    "syntax.indirect-inf",
+    "syntax.indirect-ptc",
+    "syntax.indirect-question",
+    "syntax.opt-secondary",
+    "syntax.opt-indirect",
+    "syntax.opt-wish",
+    "syntax.opt-potential",
+    "syntax.cond.fmv",
+    "syntax.cond.fl",
+    "syntax.cond.cf-past",
+    "verb.eimi-go",
+    "verb.phemi",
+    "prep.syn.dat",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.stage2",
+    "vocab.family"
+  ]
+}

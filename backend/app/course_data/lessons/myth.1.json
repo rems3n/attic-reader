@@ -1,0 +1,1542 @@
+{
+ "id": "myth.1",
+ "title_grc": "Ὁ Κρόνος καὶ τὰ τέκνα",
+ "title_en": "Kronos and his children",
+ "summary_grc": "ὁ Κρόνος τὰ ἴδια τέκνα καταπίνει· ἡ δὲ Ῥέα τὸν Δία ἐν ἄντρῳ κρύπτει καὶ τῷ Κρόνῳ λίθον δίδωσιν.",
+ "summary_en": "Winter 431, inside the walls. Kleinias tells the children how Zeus became king of the gods: Kronos swallows his own children, and Rhea saves the last of them with a stone in swaddling clothes. Paragraphs 2 and 3 adapt Apollodorus' Library 1.1.5–7.",
+ "cover": "myth-1-b",
+ "caption_grc": "ἡ δὲ Ῥέα λίθον σπαργανώσασα τῷ Κρόνῳ ἔδωκε καταπιεῖν ὡς τὸν παῖδα.",
+ "original": {
+  "text": "apollod-1.1.5",
+  "note": "Apollodorus, Library 1.1.5–7, adapted in paragraphs 2 and 3 (paragraph 1 retells 1.1.1–4 in a few lines). The Library is a handbook of Greek myth in plain prose, written in the 1st or 2nd century AD by an unknown author (it was once credited to the Athenian scholar Apollodorus, 2nd century BC): later Greek than Thucydides, but close to Attic. Kleinias tells the story as the Athenians of 431 knew it, from Hesiod's Theogony; the sentences we adapt are Apollodorus'."
+ },
+ "names": {
+  "Κρόνος": [
+   "Κρόνου",
+   "Κρόνῳ",
+   "Κρόνον",
+   "Κρόνε"
+  ],
+  "Ῥέα": [
+   "Ῥέας",
+   "Ῥέᾳ",
+   "Ῥέαν"
+  ],
+  "Κρήτη": [
+   "Κρήτης",
+   "Κρήτῃ",
+   "Κρήτην"
+  ],
+  "Ἑστία": [
+   "Ἑστίας",
+   "Ἑστίᾳ",
+   "Ἑστίαν"
+  ],
+  "Δημήτηρ": [
+   "Δήμητρος",
+   "Δήμητρι",
+   "Δήμητρα"
+  ],
+  "Πλούτων": [
+   "Πλούτωνος",
+   "Πλούτωνι",
+   "Πλούτωνα"
+  ],
+  "Τιτάν": [
+   "Τιτᾶνος",
+   "Τιτᾶνες",
+   "Τιτάνων",
+   "Τιτᾶσι",
+   "Τιτᾶνας"
+  ],
+  "Κούρητες": [
+   "Κουρήτων",
+   "Κούρησι",
+   "Κούρησιν",
+   "Κούρητας"
+  ],
+  "Ἀμάλθεια": [
+   "Ἀμαλθείας",
+   "Ἀμαλθείᾳ",
+   "Ἀμάλθειαν"
+  ],
+  "Δίκτη": [
+   "Δίκτης",
+   "Δίκτῃ",
+   "Δίκτην"
+  ]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "myth-1-a",
+   "sentences": [
+    {
+     "text": "χειμὼν ἦν, καὶ ἑσπέρας οἱ παῖδες μετὰ τοῦ πάππου παρὰ τῷ πυρὶ ἦσαν.",
+     "glosses": [
+      {
+       "word": "χειμὼν",
+       "kind": "note",
+       "value": "Winter 431/0 BC. The family from Acharnae still lives in Ariston's workshop; the city is crowded behind its walls."
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Ἐλπὶς ἠρώτησεν· «ὦ πάππε, διὰ τί ὁ Ζεὺς βασιλεύει τῶν θεῶν;»",
+     "glosses": [
+      {
+       "word": "βασιλεύει",
+       "kind": "<",
+       "value": "βασιλεύς | βασιλεύω + gen. (be king of)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Κλεινίας· «ἀκούετε, ὦ παῖδες. πρῶτος μὲν Οὐρανὸς τοῦ παντὸς κόσμου ἐβασίλευεν· ἔγημε δὲ τὴν Γῆν.»",
+     "glosses": [
+      {
+       "word": "κόσμου",
+       "kind": "en",
+       "value": "ὁ κόσμος: order; the world, the universe (cosmos)"
+      },
+      {
+       "word": "ἔγημε",
+       "kind": "|",
+       "value": "γαμέω (marry) | ἔγημε(ν) (aorist: married, took as wife)"
+      }
+     ]
+    },
+    {
+     "text": "«ἐκ δὲ τούτων ἐγεννήθησαν οἱ Τιτᾶνες· νεώτατος δὲ τῶν τέκνων ἦν ὁ Κρόνος.»",
+     "glosses": [
+      {
+       "word": "ἐγεννήθησαν",
+       "kind": "|",
+       "value": "γεννάω (beget) | ἐγεννήθησαν (aorist passive: were born)"
+      },
+      {
+       "word": "Τιτᾶνες",
+       "kind": "note",
+       "value": "the Titans, the older gods, children of Sky and Earth"
+      },
+      {
+       "word": "νεώτατος",
+       "kind": "<",
+       "value": "νέος (young) | νεώτερος | νεώτατος (the youngest)"
+      }
+     ]
+    },
+    {
+     "text": "«ὁ δὲ Κρόνος τὸν πατέρα ἐνίκησε καὶ αὐτὸς τὴν ἀρχὴν ἔλαβεν.»",
+     "glosses": [
+      {
+       "word": "ἀρχὴν",
+       "kind": "=",
+       "value": "ἡ βασιλεία, τὸ κράτος (rule, power); also 'beginning'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "myth-1-b",
+   "sentences": [
+    {
+     "text": "«ὁ δὲ Κρόνος τὴν ἀδελφὴν Ῥέαν ἔγημεν, καὶ ἡ Ῥέα πολλὰ τέκνα ἔτικτεν.»",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "ἀδελφὴν",
+       "kind": "↔",
+       "value": "ὁ ἀδελφός | ἡ ἀδελφή (sister)"
+      },
+      {
+       "word": "ἔτικτεν",
+       "kind": "|",
+       "value": "τίκτω (give birth to) | ἔτικτε(ν) (imperfect) | ἔτεκε(ν) (aorist)"
+      }
+     ]
+    },
+    {
+     "text": "«ἡ δὲ Γῆ καὶ ὁ Οὐρανὸς αὐτῷ ἔλεγον ὅτι ὑπὸ παιδὸς ἰδίου τὴν ἀρχὴν ἀφαιρεθήσεται.»",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "ἰδίου",
+       "kind": "en",
+       "value": "ἴδιος, -α, -ον: one's own"
+      },
+      {
+       "word": "ἀφαιρεθήσεται",
+       "kind": "<",
+       "value": "ἀπό + αἱρέω | ἀφαιρεθήσεται (future passive: he will be robbed of the rule)"
+      }
+     ]
+    },
+    {
+     "text": "«φοβούμενος οὖν ὁ Κρόνος τὰ γεννώμενα τέκνα κατέπινεν.»",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "γεννώμενα",
+       "kind": "note",
+       "value": "τὰ γεννώμενα τέκνα: 'the children as they were being born' (present passive participle of γεννάω, with the article)"
+      },
+      {
+       "word": "κατέπινεν",
+       "kind": "<",
+       "value": "κατά + πίνω | καταπίνω (swallow down) | κατέπινε(ν) (imperfect: kept swallowing)"
+      }
+     ]
+    },
+    {
+     "text": "«καὶ πρώτην μὲν Ἑστίαν κατέπιεν, εἶτα Δήμητρα καὶ Ἥραν, μετὰ δὲ ταύτας Πλούτωνα καὶ Ποσειδῶνα.»",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "κατέπιεν",
+       "kind": "|",
+       "value": "καταπίνω | κατέπιε(ν) (second aorist, like ἔπιε)"
+      },
+      {
+       "word": "Ἑστίαν",
+       "kind": "note",
+       "value": "Hestia, goddess of the hearth; Demeter (grain), Hera, Pluto (= Hades, king of the dead) and Poseidon"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Ἐλπὶς ὠργίσθη· «τὰ ἴδια τέκνα κατέπιεν; κάκιστος πατὴρ ἦν ὁ Κρόνος! ἆρα ἀπέθανον αἱ ἀδελφαὶ καὶ οἱ ἀδελφοί;»",
+     "glosses": [
+      {
+       "word": "ὠργίσθη",
+       "kind": "|",
+       "value": "ὀργίζομαι (be angry) | ὠργίσθη (aorist passive form: grew angry)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Κλεινίας· «οὐκ ἀπέθανον· θεοὶ γὰρ ἦσαν. ἀλλ' ἄκουε.»"
+    }
+   ]
+  },
+  {
+   "image": "myth-1-c",
+   "sentences": [
+    {
+     "text": "«ἡ δὲ Ῥέα ὀργισθεῖσα εἰς Κρήτην ἦλθεν, καὶ ἐν ἄντρῳ τινὶ τὸν Δία ἔτεκεν.»",
+     "orig": [
+      2
+     ],
+     "glosses": [
+      {
+       "word": "ὀργισθεῖσα",
+       "kind": "|",
+       "value": "ὀργίζομαι | ὀργισθεῖσα (aorist participle, feminine: having grown angry)"
+      },
+      {
+       "word": "ἄντρῳ",
+       "kind": "pic",
+       "value": "myth-antron"
+      }
+     ]
+    },
+    {
+     "text": "«καὶ τοῦτον μὲν τοῖς Κούρησι καὶ ταῖς νύμφαις ἔδωκε τρέφειν.»",
+     "orig": [
+      3
+     ],
+     "glosses": [
+      {
+       "word": "Κούρησι",
+       "kind": "note",
+       "value": "the Kouretes, young warrior-spirits of Crete"
+      },
+      {
+       "word": "τρέφειν",
+       "kind": "en",
+       "value": "to feed, to bring up (τρέφω, τρέφειν, ἔθρεψα)"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Ἐλπίς· «καὶ τίς τῷ παιδὶ γάλα παρεῖχεν;»",
+     "glosses": [
+      {
+       "word": "γάλα",
+       "kind": "en",
+       "value": "milk (τὸ γάλα, τοῦ γάλακτος)"
+      }
+     ]
+    },
+    {
+     "text": "«αἱ νύμφαι τὸν παῖδα ἔτρεφον τῷ τῆς Ἀμαλθείας γάλακτι· ἡ δὲ Ἀμάλθεια αἲξ ἦν.»",
+     "orig": [
+      4
+     ],
+     "glosses": [
+      {
+       "word": "Ἀμαλθείας",
+       "kind": "note",
+       "value": "Amaltheia: in most versions a she-goat (Apollodorus does not say which)"
+      }
+     ]
+    },
+    {
+     "text": "«οἱ δὲ Κούρητες ἔνοπλοι ἐν τῷ ἄντρῳ τὸν παῖδα ἐφύλαττον, καὶ τοῖς δόρασι τὰς ἀσπίδας ἔκρουον, ἵνα μὴ ὁ Κρόνος τῆς τοῦ παιδὸς φωνῆς ἀκούσῃ.»",
+     "orig": [
+      4
+     ],
+     "glosses": [
+      {
+       "word": "ἔνοπλοι",
+       "kind": "<",
+       "value": "ὅπλα (arms) | ὁπλίτης | ἔνοπλοι (armed, in armour)"
+      },
+      {
+       "word": "δόρασι",
+       "kind": "pic",
+       "value": "myth-dory"
+      },
+      {
+       "word": "ἀσπίδας",
+       "kind": "pic",
+       "value": "myth-aspis"
+      },
+      {
+       "word": "ἔκρουον",
+       "kind": "en",
+       "value": "they were beating, struck (κρούω, imperfect)"
+      }
+     ]
+    },
+    {
+     "text": "«τέλος δὲ ἡ Ῥέα λίθον σπαργανώσασα τῷ Κρόνῳ ἔδωκε καταπιεῖν ὡς τὸν παῖδα· ὁ δὲ τὸν λίθον κατέπιεν καὶ οὐκ ᾔσθετο.»",
+     "orig": [
+      5
+     ],
+     "glosses": [
+      {
+       "word": "σπαργανώσασα",
+       "kind": "en",
+       "value": "having wrapped it in swaddling bands (τὰ σπάργανα, the cloth strips babies were wrapped in)"
+      },
+      {
+       "word": "ὡς",
+       "kind": "en",
+       "value": "as, as if it were"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λύσις· «ἐγὼ μὲν ἀσπίδα καὶ δόρυ ἔχειν βούλομαι, ὥσπερ οἱ Κούρητες.»"
+    },
+    {
+     "text": "«ὁ μὲν οὖν Ζεὺς ἐσώθη,» ἔφη ὁ Κλεινίας. «ἐπεὶ δὲ ἀνὴρ ἐγένετο, τὸν πατέρα ἐνίκησε καὶ τὰς ἀδελφὰς καὶ τοὺς ἀδελφοὺς ἔσωσεν· καὶ νῦν βασιλεύει θεῶν τε καὶ ἀνθρώπων.»",
+     "glosses": [
+      {
+       "word": "ἔσωσεν",
+       "kind": "note",
+       "value": "Zeus made Kronos vomit up the stone and then the children he had swallowed (Apollodorus 1.2.1)."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "τεκνον",
+   "gloss_grc": "τὸ τέκνον = ὁ παῖς, ἡ παῖς (child)"
+  },
+  {
+   "id": "τικτω",
+   "gloss_grc": "τίκτω · τέξομαι · ἔτεκον (τεκεῖν) · ἐτέχθην — give birth to"
+  },
+  {
+   "id": "γενναω",
+   "gloss_grc": "γεννάω · ἐγέννησα · ἐγεννήθην (was born) — beget, bear"
+  },
+  {
+   "id": "γαμεω",
+   "gloss_grc": "γαμέω · γαμῶ · ἔγημα (γῆμαι) — marry (a wife)"
+  },
+  {
+   "id": "αδελφη",
+   "gloss_grc": "ἡ ἀδελφή ↔ ὁ ἀδελφός"
+  },
+  {
+   "id": "καταπινω",
+   "gloss_grc": "κατά + πίνω · κατέπιον (καταπιεῖν) — swallow"
+  },
+  {
+   "id": "αρχη",
+   "gloss_grc": "ἡ ἀρχή: rule, power; beginning · ἄρχω"
+  },
+  {
+   "id": "ιδιος",
+   "gloss_grc": "ἴδιος, -α, -ον · τὰ ἴδια τέκνα: his own children"
+  },
+  {
+   "id": "τρεφω",
+   "gloss_grc": "τρέφω · θρέψω · ἔθρεψα · ἐτράφην — feed, rear"
+  },
+  {
+   "id": "γαλα",
+   "gloss_grc": "τὸ γάλα, τοῦ γάλακτος · γάλα αἰγός"
+  },
+  {
+   "id": "αντρον",
+   "pic": "myth-antron",
+   "gloss_grc": "τὸ ἄντρον = τὸ σπήλαιον (cave)"
+  },
+  {
+   "id": "ασπις",
+   "pic": "myth-aspis",
+   "gloss_grc": "ἡ ἀσπίς, τῆς ἀσπίδος · ὁ ὁπλίτης ἀσπίδα φέρει"
+  },
+  {
+   "id": "δορυ",
+   "pic": "myth-dory",
+   "gloss_grc": "τὸ δόρυ, τοῦ δόρατος · τοῖς δόρασι"
+  },
+  {
+   "id": "βασιλευω",
+   "gloss_grc": "βασιλεύς → βασιλεύω + gen. · ἐβασίλευσα"
+  },
+  {
+   "id": "οργιζομαι",
+   "gloss_grc": "ὀργίζομαι + dat. · ὠργίσθην (grew angry)"
+  }
+ ],
+ "notice": [
+  "ἡ δὲ Ῥέα ὀργισθεῖσα εἰς Κρήτην ἦλθεν · ἡ δὲ Ῥέα λίθον σπαργανώσασα τῷ Κρόνῳ ἔδωκε",
+  "φοβούμενος οὖν ὁ Κρόνος τὰ γεννώμενα τέκνα κατέπινεν",
+  "καὶ πρώτην μὲν Ἑστίαν κατέπιεν, εἶτα Δήμητρα … μετὰ δὲ ταύτας Πλούτωνα",
+  "ἵνα μὴ ὁ Κρόνος τῆς τοῦ παιδὸς φωνῆς ἀκούσῃ",
+  "Apollodorus: παραγίνεται μὲν εἰς Κρήτην … γεννᾷ δὲ ἐν ἄντρῳ τῆς Δίκτης Δία"
+ ],
+ "grammar": {
+  "md": "**How Apollodorus tells a story.** The *Library* is a handbook: hundreds of myths, told fast, in one plain pattern you will meet in every lesson of this track. Learn the pattern once and the whole book opens.\n\n1. **A chain of δέ.** Almost every sentence starts with a new subject and δέ: ἡ δὲ Ῥέα … οἱ δὲ Κούρητες … ὁ δὲ Κρόνος. Read δέ as 'and' or 'but' and look straight after it for the new subject.\n2. **Participle first, main verb last.** What happens first is a participle; what matters is the finite verb: ὀργισθεῖσα … ἦλθεν 'having grown angry, she went'; σπαργανώσασα … ἔδωκε 'she wrapped a stone and gave it'. Bracket the participle, find the verb.\n3. **μέν … δέ** sets two things side by side: πρώτην μὲν Ἑστίαν … μετὰ δὲ ταύτας Πλούτωνα.\n4. **The historic present.** Apollodorus often tells the past in the present: Ῥέα παραγίνεται … γεννᾷ … δίδωσι. Translate with a past tense.\n5. **Purpose with ἵνα μή.** ἵνα μὴ ὁ Κρόνος … ἀκούσῃ 'so that Kronos should not hear'. After a past verb Attic may use the optative (ἀκούσειε), but writers often keep the vivid subjunctive, as here.\n\n| in the text | what it is | where you learned it |\n|---|---|---|\n| ὀργισθεῖσα, ἐγεννήθησαν | aorist passive (participle, indicative) | 9.2 |\n| τὰ γεννώμενα τέκνα | participle with the article: 'the children being born' | 4.1, 7.3 |\n| σπαργανώσασα, γήμας | aorist active participle | 5.1–5.2 |\n| ἵνα μὴ … ἀκούσῃ | purpose clause, subjunctive | 8.1 |\n| γεννᾷ, δίδωσι | historic present | 5.3 |\n\n**Reading tip.** Before you translate an Apollodorus sentence, underline every participle and circle the one finite verb. Most of his sentences have only one.",
+  "paradigms": [
+   "luo"
+  ],
+  "diagram": "diagram-participle-map"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings.",
+   "template": "ὁ δὲ Κρόνος τὴν ἀδελφ___ Ῥέαν ἔγημεν. φοβούμενος οὖν τὰ γεννώμεν___ τέκνα κατέπιν___. ἡ δὲ Ῥέα ὀργισθεῖσ___ εἰς Κρήτην ἦλθεν.",
+   "gaps": [
+    {
+     "answers": [
+      "ὴν",
+      "ην"
+     ]
+    },
+    {
+     "answers": [
+      "α"
+     ]
+    },
+    {
+     "answers": [
+      "εν",
+      "ε"
+     ]
+    },
+    {
+     "answers": [
+      "α"
+     ]
+    }
+   ],
+   "skills": [
+    "noun.decl1.acc.sg",
+    "verb.ptc.pres.mp",
+    "verb.impf.act.ind.3sg",
+    "verb.ptc.aor.pass"
+   ],
+   "explain": "ἀδελφήν (accusative, object of ἔγημεν); γεννώμενα (neuter plural with τέκνα); κατέπινε(ν) (imperfect, 3rd singular); ὀργισθεῖσα (aorist passive participle, feminine, with ἡ Ῥέα)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἡ δὲ Ῥέα ἐν ἄντρῳ τινὶ τὸν Δία ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἔγημεν"
+    },
+    {
+     "id": "b",
+     "text": "ἔτεκεν"
+    },
+    {
+     "id": "c",
+     "text": "κατέπιεν"
+    }
+   ],
+   "answer": "b",
+   "audio": "ἡ δὲ Ῥέα ἐν ἄντρῳ τινὶ τὸν Δία ἔτεκεν.",
+   "skills": [
+    "vocab.myth",
+    "vocab.recognition"
+   ],
+   "explain": "ἔτεκεν 'she gave birth to' (τίκτω, second aorist)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · αἱ νύμφαι τὸν παῖδα ἔτρεφον τῷ τῆς Ἀμαλθείας ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "δόρατι"
+    },
+    {
+     "id": "b",
+     "text": "ἄντρῳ"
+    },
+    {
+     "id": "c",
+     "text": "γάλακτι"
+    }
+   ],
+   "answer": "c",
+   "audio": "αἱ νύμφαι τὸν παῖδα ἔτρεφον τῷ τῆς Ἀμαλθείας γάλακτι.",
+   "skills": [
+    "vocab.myth",
+    "syntax.dat.uses"
+   ],
+   "explain": "γάλακτι: dative of means, 'with the milk of Amaltheia'."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · οἱ Κούρητες τοῖς δόρασι τὰς ___ ἔκρουον.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀσπίδας"
+    },
+    {
+     "id": "b",
+     "text": "ἀδελφάς"
+    },
+    {
+     "id": "c",
+     "text": "ἀρχάς"
+    }
+   ],
+   "answer": "a",
+   "audio": "οἱ Κούρητες τοῖς δόρασι τὰς ἀσπίδας ἔκρουον.",
+   "skills": [
+    "vocab.myth",
+    "noun.decl3.cons.pl"
+   ],
+   "explain": "τὰς ἀσπίδας 'their shields' (ἡ ἀσπίς, -ίδος)."
+  },
+  {
+   "type": "match",
+   "prompt": "Match the new words to their meanings.",
+   "pairs": [
+    {
+     "left": "τὸ τέκνον",
+     "right": "child"
+    },
+    {
+     "left": "ἡ ἀδελφή",
+     "right": "sister"
+    },
+    {
+     "left": "καταπίνω",
+     "right": "swallow"
+    },
+    {
+     "left": "τὸ ἄντρον",
+     "right": "cave"
+    },
+    {
+     "left": "γαμέω",
+     "right": "marry"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "τέκνον (τίκτω 'bear'), ἀδελφή, κατα-πίνω, ἄντρον, γαμέω (ἔγημα)."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "τὸ δόρυ",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "myth-aspis"
+    },
+    {
+     "id": "b",
+     "image": "myth-dory"
+    },
+    {
+     "id": "c",
+     "image": "lithos"
+    },
+    {
+     "id": "d",
+     "image": "toxon"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "τὸ δόρυ: the spear. ἡ ἀσπίς is the shield."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of τίκτω for 'she gave birth (to)'.",
+   "lemma": "τίκτω",
+   "cell": "aorist.active.indicative.3sg",
+   "audio": "ἔτεκεν",
+   "skills": [
+    "vocab.production",
+    "verb.aor2.stem"
+   ],
+   "explain": "ἔτεκε(ν): second aorist, stem τεκ- (τεκεῖν), like ἔλαβε from λαμβάνω."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of καταπίνω for 'he swallowed'.",
+   "lemma": "καταπίνω",
+   "cell": "aorist.active.indicative.3sg",
+   "audio": "κατέπιεν",
+   "skills": [
+    "vocab.production",
+    "verb.augment.compound"
+   ],
+   "explain": "κατ-έ-πιε(ν): the augment goes after the prefix κατα-, whose α drops before ε."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the dative plural of ἀσπίς (ταῖς ___).",
+   "lemma": "ἀσπίς",
+   "cell": "dat.pl",
+   "audio": "ἀσπίσιν",
+   "skills": [
+    "noun.decl3.dat.pl",
+    "vocab.myth"
+   ],
+   "explain": "ἀσπίσι(ν): ἀσπιδ-σι → ἀσπίσι, the δ drops before σ (like ἐλπίσι)."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ὀργισθεῖσα.",
+   "form": "ὀργισθεῖσα",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "voice",
+     "label": "Voice",
+     "options": [
+      {
+       "id": "act",
+       "label": "active"
+      },
+      {
+       "id": "mid",
+       "label": "middle"
+      },
+      {
+       "id": "pass",
+       "label": "passive"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "voice": "pass",
+    "mood": "ptc"
+   },
+   "audio": "ὀργισθεῖσα",
+   "skills": [
+    "verb.ptc.aor.pass",
+    "verb.aor-deponent"
+   ],
+   "explain": "ὀργισ-θεῖσα: aorist passive participle, feminine (λυθεῖσα). ὀργίζομαι has a passive aorist but an active meaning: 'having grown angry'."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἀκούσῃ.",
+   "form": "ἀκούσῃ",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person and number",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "1st singular"
+      },
+      {
+       "id": "2sg",
+       "label": "2nd singular"
+      },
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "1pl",
+       "label": "1st plural"
+      },
+      {
+       "id": "2pl",
+       "label": "2nd plural"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "mood": "subj",
+    "person": "3sg"
+   },
+   "audio": "ἀκούσῃ",
+   "skills": [
+    "verb.aor.act.subj.3sg",
+    "syntax.purpose"
+   ],
+   "explain": "ἀκούσ-ῃ: aorist subjunctive, 3rd singular, after ἵνα μή."
+  },
+  {
+   "type": "label",
+   "prompt": "φοβούμενος οὖν ὁ Κρόνος τὰ γεννώμενα τέκνα κατέπινεν. What does the participle γεννώμενα do?",
+   "options": [
+    {
+     "id": "a",
+     "text": "it describes τέκνα, with the article: 'the children as they were born'"
+    },
+    {
+     "id": "b",
+     "text": "it is a genitive absolute"
+    },
+    {
+     "id": "c",
+     "text": "it gives the purpose: 'in order to be born'"
+    },
+    {
+     "id": "d",
+     "text": "it is the main verb"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.ptc.article",
+    "syntax.position"
+   ],
+   "explain": "Article + participle + noun, in attributive position: τὰ γεννώμενα τέκνα."
+  },
+  {
+   "type": "label",
+   "prompt": "ἵνα μὴ ὁ Κρόνος τῆς τοῦ παιδὸς φωνῆς ἀκούσῃ. What kind of clause is this?",
+   "options": [
+    {
+     "id": "a",
+     "text": "a condition"
+    },
+    {
+     "id": "b",
+     "text": "a purpose clause: 'so that Kronos should not hear'"
+    },
+    {
+     "id": "c",
+     "text": "a result clause"
+    },
+    {
+     "id": "d",
+     "text": "an indirect question"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "syntax.purpose",
+    "read.myth.apollodorus"
+   ],
+   "explain": "ἵνα (μή) + subjunctive: purpose. Note ἀκούω + genitive: τῆς φωνῆς."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "πρώτην ___ Ἑστίαν κατέπιεν, μετὰ ___ ταύτας Πλούτωνα.",
+   "options": [
+    {
+     "id": "a",
+     "text": "μέν … δέ"
+    },
+    {
+     "id": "b",
+     "text": "γάρ … οὖν"
+    },
+    {
+     "id": "c",
+     "text": "δέ … μέν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.men-de"
+   ],
+   "explain": "μέν … δέ: 'first Hestia, and after them Pluto'."
+  },
+  {
+   "type": "transform",
+   "prompt": "Apollodorus writes the historic present. Put it into the aorist: γεννᾷ δὲ ἐν ἄντρῳ Δία. → ___ δὲ ἐν ἄντρῳ Δία.",
+   "template": "___ δὲ ἐν ἄντρῳ Δία.",
+   "gaps": [
+    {
+     "answers": [
+      "ἐγέννησε",
+      "ἐγέννησεν"
+     ]
+    }
+   ],
+   "audio": "ἐγέννησε δὲ ἐν ἄντρῳ Δία.",
+   "skills": [
+    "verb.historic-present",
+    "verb.aor.act.ind.3sg"
+   ],
+   "explain": "γεννᾷ → ἐγέννησε(ν): augment ε- and the sigmatic aorist of a contract verb (-ησα)."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make it passive: ὁ Κρόνος τὰ τέκνα κατέπιεν. → τὰ τέκνα ὑπὸ τοῦ Κρόνου ___.",
+   "template": "τὰ τέκνα ὑπὸ τοῦ Κρόνου ___.",
+   "gaps": [
+    {
+     "answers": [
+      "κατεπόθη"
+     ]
+    }
+   ],
+   "audio": "τὰ τέκνα ὑπὸ τοῦ Κρόνου κατεπόθη.",
+   "skills": [
+    "syntax.agent",
+    "verb.aor.pass.ind.3sg",
+    "verb.neuter-plural"
+   ],
+   "explain": "κατ-ε-πόθη: aorist passive of καταπίνω (κατεπόθην). The neuter plural τὰ τέκνα takes a singular verb."
+  },
+  {
+   "type": "locate",
+   "prompt": "Apollodorus' own sentence: tap the two participles.",
+   "sentence": "ὀργισθεῖσα δὲ ἐπὶ τούτοις Ῥέα παραγίνεται μὲν εἰς Κρήτην, ὁπηνίκα τὸν Δία ἐγκυμονοῦσα ἐτύγχανε, γεννᾷ δὲ ἐν ἄντρῳ τῆς Δίκτης Δία.",
+   "answer": [
+    0,
+    12
+   ],
+   "skills": [
+    "read.locate",
+    "verb.ptc.use",
+    "read.myth.apollodorus"
+   ],
+   "explain": "ὀργισθεῖσα 'having grown angry' and ἐγκυμονοῦσα 'being pregnant with' (with ἐτύγχανε: 'she happened to be pregnant with Zeus')."
+  },
+  {
+   "type": "locate",
+   "prompt": "Same sentence: tap the two verbs in the historic present.",
+   "sentence": "ὀργισθεῖσα δὲ ἐπὶ τούτοις Ῥέα παραγίνεται μὲν εἰς Κρήτην, ὁπηνίκα τὸν Δία ἐγκυμονοῦσα ἐτύγχανε, γεννᾷ δὲ ἐν ἄντρῳ τῆς Δίκτης Δία.",
+   "answer": [
+    5,
+    14
+   ],
+   "skills": [
+    "read.locate",
+    "verb.historic-present"
+   ],
+   "explain": "παραγίνεται 'she comes (= came)' and γεννᾷ 'she bears (= bore)'. ἐτύγχανε is an imperfect."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'Rhea gave Kronos a stone.'",
+   "tokens": [
+    "ἡ",
+    "Ῥέα",
+    "τῷ",
+    "Κρόνῳ",
+    "λίθον",
+    "ἔδωκεν"
+   ],
+   "answers": [
+    "ἡ Ῥέα τῷ Κρόνῳ λίθον ἔδωκεν",
+    "ἡ Ῥέα λίθον τῷ Κρόνῳ ἔδωκεν",
+    "ἡ Ῥέα ἔδωκεν τῷ Κρόνῳ λίθον",
+    "ἡ Ῥέα ἔδωκεν λίθον τῷ Κρόνῳ",
+    "τῷ Κρόνῳ ἡ Ῥέα λίθον ἔδωκεν"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "syntax.dat.uses"
+   ],
+   "explain": "Dative for the person given to (τῷ Κρόνῳ), accusative for the thing (λίθον)."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "οἱ δὲ Κούρητες ἔνοπλοι τὸν παῖδα ἐφύλαττον."
+    },
+    {
+     "id": "b",
+     "text": "οἱ δὲ Τιτᾶνες ἔνοπλοι τὸν πατέρα ἐφύλαττον."
+    },
+    {
+     "id": "c",
+     "text": "αἱ δὲ νύμφαι τὸν παῖδα ἔτρεφον."
+    }
+   ],
+   "answer": "a",
+   "audio": "οἱ δὲ Κούρητες ἔνοπλοι τὸν παῖδα ἐφύλαττον.",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "The armed Kouretes guarded the child."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Κρόνος νεώτατος ἦν τῶν τοῦ Οὐρανοῦ τέκνων.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "νεώτατος δὲ τῶν τέκνων ἦν ὁ Κρόνος."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἡ Ῥέα τὸν Δία ἐν Ἀθήναις ἔτεκεν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "εἰς Κρήτην ἦλθεν, καὶ ἐν ἄντρῳ τινὶ τὸν Δία ἔτεκεν."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Κρόνος τὸν λίθον κατέπιεν καὶ οὐκ ᾔσθετο.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὁ δὲ τὸν λίθον κατέπιεν καὶ οὐκ ᾔσθετο."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "gaps": [
+    {
+     "answers": [
+      "ἡ δὲ Ῥέα πολλὰ τέκνα ἔτικτεν",
+      "ἡ δὲ Ῥέα πολλὰ τέκνα ἔτικτε"
+     ]
+    }
+   ],
+   "audio": "ἡ δὲ Ῥέα πολλὰ τέκνα ἔτικτεν.",
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "ἔτικτεν: imperfect of τίκτω, 'kept bearing'."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Kronos married his sister.'",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ Κρόνος τὴν ἀδελφὴν ἔγημεν",
+      "ὁ Κρόνος τὴν ἀδελφὴν ἔγημε",
+      "ὁ Κρόνος ἔγημε τὴν ἀδελφήν",
+      "ὁ Κρόνος ἔγημεν τὴν ἀδελφήν",
+      "ὁ Κρόνος τὴν ἀδελφὴν αὐτοῦ ἔγημεν",
+      "ὁ Κρόνος τὴν ἀδελφὴν αὐτοῦ ἔγημε",
+      "τὴν ἀδελφὴν ἔγημεν ὁ Κρόνος",
+      "τὴν ἀδελφὴν ἔγημε ὁ Κρόνος"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "vocab.myth"
+   ],
+   "explain": "ἔγημε(ν), aorist of γαμέω. 'His' needs no word: the article is enough."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The nymphs were rearing the child.'",
+   "gaps": [
+    {
+     "answers": [
+      "αἱ νύμφαι τὸν παῖδα ἔτρεφον",
+      "αἱ νύμφαι ἔτρεφον τὸν παῖδα",
+      "τὸν παῖδα αἱ νύμφαι ἔτρεφον",
+      "αἱ νύμφαι τὸ τέκνον ἔτρεφον",
+      "αἱ νύμφαι ἔτρεφον τὸ τέκνον"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.impf.act.ind.3pl"
+   ],
+   "explain": "ἔτρεφον: imperfect, 3rd plural."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: ὀργισθεῖσα δὲ ἐπὶ τούτοις Ῥέα παραγίνεται μὲν εἰς Κρήτην, … γεννᾷ δὲ ἐν ἄντρῳ τῆς Δίκτης Δία.",
+   "audio": "ὀργισθεῖσα δὲ ἐπὶ τούτοις Ῥέα παραγίνεται μὲν εἰς Κρήτην, … γεννᾷ δὲ ἐν ἄντρῳ τῆς Δίκτης Δία.",
+   "model": "Angry at this, Rhea went to Crete and gave birth to Zeus in a cave on Mount Dikte.",
+   "skills": [
+    "read.adapted-text",
+    "read.myth.apollodorus",
+    "verb.historic-present"
+   ],
+   "explain": "ἐπὶ τούτοις 'at these things'; παραγίνεται 'arrives' (historic present); ἡ Δίκτη is a mountain in Crete."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "τὸ γάλα (γάλακτος)",
+     "right": "galaxy"
+    },
+    {
+     "left": "γαμέω",
+     "right": "monogamy"
+    },
+    {
+     "left": "ὁ κόσμος",
+     "right": "cosmos"
+    },
+    {
+     "left": "ἡ ἀρχή",
+     "right": "monarchy, archaeology"
+    },
+    {
+     "left": "ἡ ἀδελφή",
+     "right": "Philadelphia"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "The Milky Way was ὁ γαλαξίας κύκλος; -γαμία 'marrying'; κόσμος 'order, world'; ἀρχή 'rule' and 'beginning'; Philadelphia 'brotherly (and sisterly) love'."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "τίνα ἔγημεν ὁ Κρόνος;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὴν Γῆν."
+    },
+    {
+     "id": "b",
+     "text": "τὴν ἀδελφὴν Ῥέαν."
+    },
+    {
+     "id": "c",
+     "text": "τὴν Ἀμάλθειαν."
+    }
+   ],
+   "answer": "b",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension",
+    "read.myth"
+   ],
+   "explain": "ὁ δὲ Κρόνος τὴν ἀδελφὴν Ῥέαν ἔγημεν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί ὁ Κρόνος τὰ τέκνα κατέπινεν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐφοβεῖτο γὰρ μὴ ὑπὸ παιδὸς ἰδίου τὴν ἀρχὴν ἀφαιρεθῇ."
+    },
+    {
+     "id": "b",
+     "text": "ὠργίσθη γὰρ τῇ Ῥέᾳ."
+    },
+    {
+     "id": "c",
+     "text": "οὐκ εἶχε γὰρ σῖτον."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension",
+    "syntax.fear"
+   ],
+   "explain": "ἡ Γῆ καὶ ὁ Οὐρανὸς αὐτῷ ἔλεγον ὅτι ὑπὸ παιδὸς ἰδίου τὴν ἀρχὴν ἀφαιρεθήσεται."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "ποῦ ἔτεκεν ἡ Ῥέα τὸν Δία;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐν Κρήτῃ, ἐν ἄντρῳ τινί."
+    },
+    {
+     "id": "b",
+     "text": "ἐν τῷ οὐρανῷ."
+    },
+    {
+     "id": "c",
+     "text": "ἐν τῇ θαλάττῃ."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "εἰς Κρήτην ἦλθεν, καὶ ἐν ἄντρῳ τινὶ τὸν Δία ἔτεκεν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐποίουν οἱ Κούρητες;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὸν παῖδα γάλακτι ἔτρεφον."
+    },
+    {
+     "id": "b",
+     "text": "τὸν παῖδα ἐφύλαττον καὶ τὰς ἀσπίδας ἔκρουον."
+    },
+    {
+     "id": "c",
+     "text": "τὸν Κρόνον ἐνίκησαν."
+    }
+   ],
+   "answer": "b",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "οἱ δὲ Κούρητες ἔνοπλοι … τὸν παῖδα ἐφύλαττον, καὶ τοῖς δόρασι τὰς ἀσπίδας ἔκρουον."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἔδωκεν ἡ Ῥέα τῷ Κρόνῳ;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὸν παῖδα."
+    },
+    {
+     "id": "b",
+     "text": "γάλα."
+    },
+    {
+     "id": "c",
+     "text": "λίθον ἐν σπαργάνοις."
+    }
+   ],
+   "answer": "c",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension",
+    "read.myth"
+   ],
+   "explain": "ἡ Ῥέα λίθον σπαργανώσασα τῷ Κρόνῳ ἔδωκε καταπιεῖν ὡς τὸν παῖδα."
+  }
+ ],
+ "culture": {
+  "title": "Hesiod, Apollodorus, and a stone at Delphi",
+  "md": "The Athenians of 431 knew the story of Kronos from **Hesiod's *Theogony*** ('birth of the gods'), a poem of about 700 BC that set the gods in one family tree: Sky and Earth, the Titans, Kronos, and Zeus's victory over his father. Children heard it from grandparents and nurses long before they read it.\n\nThe prose you have just adapted is much later. The ***Library*** of 'Apollodorus' is a compact handbook of the whole mythical tradition, from the first gods to the return of Odysseus, written in the **1st or 2nd century AD**. For a long time it was credited to Apollodorus of Athens, a scholar of the 2nd century BC, but it cites a Roman-period writer, so the real author is unknown. Its Greek is plain and close to Attic, which makes it one of the best first texts for reading myth in the original.\n\nThe story left a trace at **Delphi**. The travel writer Pausanias (2nd century AD) saw there 'a stone of no great size' that the priests anointed with oil every day and covered with raw wool at festivals: they said it was the stone Kronos swallowed and vomited up again (Pausanias 10.24.6). Visitors today are shown the marble **omphalos**, the 'navel' of the world, in the Delphi Museum.\n\nAthens itself kept a festival of Kronos, the **Kronia**, in midsummer, when masters and enslaved people ate at the same table, a memory, people said, of the golden age when Kronos was king.",
+  "image": "myth-culture-1"
+ },
+ "quiz": [
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist infinitive of καταπίνω ('to swallow'), as in ἔδωκε ___.",
+   "lemma": "καταπίνω",
+   "cell": "aorist.active.infinitive.inf",
+   "audio": "καταπιεῖν",
+   "skills": [
+    "vocab.production",
+    "verb.aor2.stem"
+   ],
+   "explain": "καταπιεῖν: second-aorist infinitive, accented like ἰδεῖν, λαβεῖν."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ Κρόνος τὴν ἀδελφὴν ___. (married)",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἔγημεν"
+    },
+    {
+     "id": "b",
+     "text": "ἔτεκεν"
+    },
+    {
+     "id": "c",
+     "text": "ἔτρεφεν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.myth"
+   ],
+   "explain": "ἔγημεν: aorist of γαμέω."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἐγεννήθησαν.",
+   "form": "ἐγεννήθησαν",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "voice",
+     "label": "Voice",
+     "options": [
+      {
+       "id": "act",
+       "label": "active"
+      },
+      {
+       "id": "mid",
+       "label": "middle"
+      },
+      {
+       "id": "pass",
+       "label": "passive"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person and number",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "1st singular"
+      },
+      {
+       "id": "2sg",
+       "label": "2nd singular"
+      },
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "1pl",
+       "label": "1st plural"
+      },
+      {
+       "id": "2pl",
+       "label": "2nd plural"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "voice": "pass",
+    "person": "3pl"
+   },
+   "audio": "ἐγεννήθησαν",
+   "skills": [
+    "verb.aor.pass.ind.3pl"
+   ],
+   "explain": "ἐ-γεννή-θη-σαν: aorist passive, 3rd plural: 'they were born'."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἡ Ἀμάλθεια τὸν παῖδα γάλακτι ἔτρεφεν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "αἱ νύμφαι τὸν παῖδα ἔτρεφον τῷ τῆς Ἀμαλθείας γάλακτι: the milk was Amaltheia's."
+  },
+  {
+   "type": "label",
+   "prompt": "ὀργισθεῖσα δὲ ἐπὶ τούτοις Ῥέα παραγίνεται μὲν εἰς Κρήτην. How should you translate παραγίνεται?",
+   "options": [
+    {
+     "id": "a",
+     "text": "with a past tense: it is a historic present"
+    },
+    {
+     "id": "b",
+     "text": "with a future: 'she will come'"
+    },
+    {
+     "id": "c",
+     "text": "as a command"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.historic-present",
+    "read.myth.apollodorus"
+   ],
+   "explain": "Apollodorus often uses the historic present for past events: 'Rhea came to Crete'."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Κρόνος τὰ ἴδια τέκνα κατέπινεν."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Κρόνος τὰ ἴδια τέκνα ἔτρεφεν."
+    },
+    {
+     "id": "c",
+     "text": "ἡ Ῥέα τὰ ἴδια τέκνα ἔσωσεν."
+    }
+   ],
+   "answer": "a",
+   "audio": "ὁ Κρόνος τὰ ἴδια τέκνα κατέπινεν.",
+   "skills": [
+    "listen.sentences",
+    "vocab.myth"
+   ],
+   "explain": "Kronos was swallowing his own children."
+  },
+  {
+   "type": "match",
+   "prompt": "Match the new words to their meanings.",
+   "pairs": [
+    {
+     "left": "ὀργίζομαι",
+     "right": "be angry"
+    },
+    {
+     "left": "βασιλεύω",
+     "right": "be king"
+    },
+    {
+     "left": "τρέφω",
+     "right": "feed, rear"
+    },
+    {
+     "left": "τίκτω",
+     "right": "give birth"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "ὀργίζομαι (ὠργίσθην), βασιλεύω + gen., τρέφω (ἔθρεψα), τίκτω (ἔτεκον)."
+  }
+ ],
+ "skills": [
+  "read.adapted-text",
+  "read.myth",
+  "read.myth.apollodorus",
+  "read.comprehension",
+  "read.locate",
+  "verb.historic-present",
+  "verb.ptc.aor.pass",
+  "verb.ptc.article",
+  "verb.aor2.stem",
+  "syntax.purpose",
+  "syntax.men-de",
+  "syntax.agent",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family",
+  "vocab.myth"
+ ]
+}

@@ -1,0 +1,1458 @@
+{
+ "id": "8.2",
+ "title_grc": "περὶ τοῦ πολέμου",
+ "title_en": "News of Plataea",
+ "summary_grc": "«φοβοῦμαι μὴ οἱ Λακεδαιμόνιοι εἰσβάλωσιν.» — «ἐγὼ δὲ τὸν πόλεμον συγγράψω», λέγει ὁ Θουκυδίδης.",
+ "summary_en": "A man back from Plataea tells the Assembly what happened there at the start of spring; the Peloponnesians are gathering an army. Ariston is afraid; a young man called Thucydides says he will write the war down. Clauses of fearing (φοβοῦμαι μή) and indefinite clauses with ἄν (ὅστις ἄν, ὅταν, ἕως ἄν).",
+ "cover": "panel-8-2-c",
+ "caption_grc": "«φοβοῦμαι μὴ ὁ πόλεμος πολὺν χρόνον ᾖ.» — «ὅταν ὁ πόλεμος παύσηται, τὸ βιβλίον ἀναγνώσομαι.»",
+ "original": {
+  "text": "thuc-1.1",
+  "note": "Thucydides 1.1, the opening of his History, adapted in paragraph 3. He wrote these sentences years later, when he knew how long the war had lasted; in the story the young Thucydides only says what he means to do. Attic prose of 431 wrote συγγράφω and εἰς; Thucydides keeps the older spellings ξυν- and ἐς."
+ },
+ "names": {
+  "Θηβαῖος": [
+   "Θηβαῖοι",
+   "Θηβαίων",
+   "Θηβαίοις",
+   "Θηβαίους",
+   "Θηβαίου",
+   "Θηβαῖον"
+  ],
+  "Πλαταιαί": [
+   "Πλαταιῶν",
+   "Πλαταιαῖς",
+   "Πλαταιάς"
+  ],
+  "Πλαταιεύς": [
+   "Πλαταιέως",
+   "Πλαταιῆς",
+   "Πλαταιέων",
+   "Πλαταιεῦσι",
+   "Πλαταιεῦσιν",
+   "Πλαταιέας"
+  ],
+  "Ἰσθμός": [
+   "Ἰσθμοῦ",
+   "Ἰσθμῷ",
+   "Ἰσθμόν"
+  ],
+  "Ὄλορος": [
+   "Ὀλόρου",
+   "Ὀλόρῳ",
+   "Ὄλορον"
+  ],
+  "Ἕλλην": [
+   "Ἕλληνος",
+   "Ἕλληνι",
+   "Ἕλληνα",
+   "Ἕλληνες",
+   "Ἑλλήνων",
+   "Ἕλλησι",
+   "Ἕλλησιν",
+   "Ἕλληνας"
+  ]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "panel-8-2-a",
+   "sentences": [
+    {
+     "text": "ἐπεὶ δὲ ὁ Κλεινίας καταβαίνει, ἀνήρ τις ἐπὶ τὸ βῆμα ἀναβαίνει· ἥκει γὰρ ἐκ Πλαταιῶν.",
+     "glosses": [
+      {
+       "word": "ἐπεὶ",
+       "kind": "en",
+       "value": "when, after; since"
+      },
+      {
+       "word": "βῆμα",
+       "kind": "en",
+       "value": "the speaker's platform"
+      },
+      {
+       "word": "ἥκει",
+       "kind": "|",
+       "value": "ἥκω | ἥκεις | ἥκει: I have come, I am here"
+      }
+     ]
+    },
+    {
+     "text": "«ἀκούσατε, ὦ Ἀθηναῖοι. ἀρχομένου τοῦ ἔαρος Θηβαῖοί τινες νυκτὸς εἰς τὴν πόλιν εἰσῆλθον· Πλαταιῆς γάρ τινες τὰς πύλας αὐτοῖς ἀνέῳξαν.»",
+     "glosses": [
+      {
+       "word": "ἀρχομένου",
+       "kind": "en",
+       "value": "ἀρχομένου τοῦ ἔαρος: as spring was beginning (genitive absolute)"
+      },
+      {
+       "word": "ἔαρος",
+       "kind": "en",
+       "value": "τὸ ἔαρ, τοῦ ἔαρος: spring"
+      },
+      {
+       "word": "Πλαταιῆς",
+       "kind": "en",
+       "value": "οἱ Πλαταιῆς: the Plataeans"
+      },
+      {
+       "word": "ἀνέῳξαν",
+       "kind": "en",
+       "value": "opened (ἀνοίγω)"
+      }
+     ]
+    },
+    {
+     "text": "«οἱ δὲ Πλαταιῆς, ἐπεὶ τοὺς Θηβαίους ὀλίγους εἶδον, πρὸ τῆς ἡμέρας ἐμαχέσαντο, καὶ πολλοὺς μὲν ἀπέκτειναν, ὀγδοήκοντα δὲ καὶ ἑκατὸν ἔλαβον.»",
+     "glosses": [
+      {
+       "word": "πρὸ",
+       "kind": "en",
+       "value": "before (+ gen.)"
+      },
+      {
+       "word": "ἀπέκτειναν",
+       "kind": "en",
+       "value": "killed (ἀποκτείνω)"
+      },
+      {
+       "word": "ὀγδοήκοντα",
+       "kind": "en",
+       "value": "ὀγδοήκοντα καὶ ἑκατόν: a hundred and eighty"
+      },
+      {
+       "word": "ἑκατὸν",
+       "kind": "en",
+       "value": "a hundred"
+      }
+     ]
+    },
+    {
+     "text": "«τότε ὁ δῆμος ἡμῶν κήρυκα εἰς Πλαταιὰς ἔπεμψεν· ὁ δὲ κῆρυξ ἔλεγεν· μηδὲν ποιεῖτε περὶ τῶν ἀνδρῶν, ἕως ἂν οἱ Ἀθηναῖοι βουλεύσωνται.»",
+     "glosses": [
+      {
+       "word": "τότε",
+       "kind": "↔",
+       "value": "νῦν (then, at that time)"
+      },
+      {
+       "word": "μηδὲν",
+       "kind": "en",
+       "value": "nothing (μή + οὐδέν)"
+      },
+      {
+       "word": "ἕως",
+       "kind": "en",
+       "value": "ἕως ἄν + subjunctive: until"
+      },
+      {
+       "word": "ἂν",
+       "kind": "en",
+       "value": "ἄν: makes the clause indefinite ('until ever …'); not translated"
+      },
+      {
+       "word": "βουλεύσωνται",
+       "kind": "en",
+       "value": "deliberate, decide (βουλεύομαι)"
+      }
+     ]
+    },
+    {
+     "text": "«ἀλλ' ὁ κῆρυξ ὕστερον ἀφίκετο· οἱ γὰρ Πλαταιῆς τοὺς ἄνδρας εὐθὺς ἀπέκτειναν.»",
+     "glosses": [
+      {
+       "word": "ὕστερον",
+       "kind": "en",
+       "value": "later, too late"
+      },
+      {
+       "word": "εὐθὺς",
+       "kind": "en",
+       "value": "εὐθύς: at once, immediately"
+      }
+     ]
+    },
+    {
+     "text": "«νῦν δὲ οἱ Λακεδαιμόνιοι πρὸς τοὺς συμμάχους πέμπουσιν, ἵνα στρατιὰν ὡς πλείστην ἐν τῷ Ἰσθμῷ ἀθροίζωσιν.»",
+     "glosses": [
+      {
+       "word": "συμμάχους",
+       "kind": "en",
+       "value": "allies"
+      },
+      {
+       "word": "στρατιὰν",
+       "kind": "pic",
+       "value": "stratiotes"
+      },
+      {
+       "word": "πλείστην",
+       "kind": "<",
+       "value": "πολύς | πλείων | πλεῖστος: ὡς πλείστην 'as large as possible'"
+      },
+      {
+       "word": "Ἰσθμῷ",
+       "kind": "en",
+       "value": "the Isthmus of Corinth, the gateway from the Peloponnese"
+      },
+      {
+       "word": "ἀθροίζωσιν",
+       "kind": "en",
+       "value": "gather, muster"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-8-2-b",
+   "sentences": [
+    {
+     "text": "πολλοὶ φοβοῦνται, καὶ ὁ Ἀρίστων λέγει· «φοβοῦμαι μὴ οἱ Λακεδαιμόνιοι εἰς τὴν Ἀττικὴν εἰσβάλωσιν· ὅταν δὲ ἥκωσιν, τὴν γῆν τεμοῦσιν.»",
+     "glosses": [
+      {
+       "word": "μὴ",
+       "kind": "en",
+       "value": "φοβοῦμαι μή + subjunctive: I am afraid that …"
+      },
+      {
+       "word": "εἰσβάλωσιν",
+       "kind": "<",
+       "value": "εἰς + βάλλω: invade"
+      },
+      {
+       "word": "ὅταν",
+       "kind": "<",
+       "value": "ὅτε + ἄν: when(ever) (+ subjunctive)"
+      },
+      {
+       "word": "τεμοῦσιν",
+       "kind": "en",
+       "value": "they will cut down, ravage (τέμνω)"
+      }
+     ]
+    },
+    {
+     "text": "«καὶ φοβοῦμαι μὴ ὁ πόλεμος πολὺν χρόνον ᾖ.»",
+     "glosses": [
+      {
+       "word": "χρόνον",
+       "kind": "en",
+       "value": "ὁ χρόνος: time"
+      },
+      {
+       "word": "ᾖ",
+       "kind": "|",
+       "value": "ἐστί → ᾖ (subjunctive of εἰμί)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Δημόκριτος· «ἐγὼ δὲ φοβοῦμαι μὴ οὐ μαχώμεθα. ὅταν οἱ πολέμιοι ἥκωσιν, τότε χρὴ μάχεσθαι· ὅστις γὰρ ἂν τὴν ἑαυτοῦ γῆν μὴ φυλάττῃ, οὐκ ἄξιός ἐστιν αὐτῆς.»",
+     "glosses": [
+      {
+       "word": "οὐ",
+       "kind": "en",
+       "value": "μὴ οὐ: that … not"
+      },
+      {
+       "word": "πολέμιοι",
+       "kind": "<",
+       "value": "πόλεμος: the enemy"
+      },
+      {
+       "word": "ὅστις",
+       "kind": "en",
+       "value": "ὅστις ἄν + subjunctive: whoever"
+      }
+     ]
+    },
+    {
+     "text": "νεανίας δέ τις ἐγγὺς καθίζει, καὶ ὅ τι ἂν ἀκούσῃ, τοῦτο ἐν δέλτῳ γράφει.",
+     "glosses": [
+      {
+       "word": "ἐγγὺς",
+       "kind": "en",
+       "value": "near"
+      },
+      {
+       "word": "καθίζει",
+       "kind": "en",
+       "value": "sits (καθίζω)"
+      },
+      {
+       "word": "δέλτῳ",
+       "kind": "pic",
+       "value": "deltos"
+      }
+     ]
+    },
+    {
+     "text": "Θουκυδίδης ὄνομα αὐτῷ, Ὀλόρου υἱός.",
+     "glosses": [
+      {
+       "word": "ὄνομα",
+       "kind": "en",
+       "value": "name: ὄνομα αὐτῷ 'his name is'"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Ἀρίστων αὐτὸν ἐρωτᾷ· «τί γράφεις, ὦ νεανία;»"
+    },
+    {
+     "text": "«ὅταν ἄνθρωποι πολλὰ λέγωσιν», λέγει ὁ Θουκυδίδης, «ὀλίγα σαφῶς μανθάνουσιν. ἐγὼ οὖν τοὺς λόγους γράφω, ἵνα σαφῶς αὐτοὺς μανθάνω.»",
+     "glosses": [
+      {
+       "word": "σαφῶς",
+       "kind": "<",
+       "value": "σαφής: clearly"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Δημόκριτος γελᾷ· «σὺ μὲν γράφε· ἐγὼ δὲ τοῖς ὅπλοις πιστεύω, οὐ τοῖς γράμμασιν.»",
+     "glosses": [
+      {
+       "word": "γελᾷ",
+       "kind": "en",
+       "value": "laughs"
+      },
+      {
+       "word": "ὅπλοις",
+       "kind": "en",
+       "value": "τὰ ὅπλα: weapons, arms"
+      },
+      {
+       "word": "πιστεύω",
+       "kind": "en",
+       "value": "I trust, rely on (+ dat.)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-8-2-c",
+   "sentences": [
+    {
+     "text": "ὁ δὲ Θουκυδίδης· «ἐγὼ τὸν πόλεμον τῶν Πελοποννησίων καὶ Ἀθηναίων συγγράψω, ὡς πολεμήσουσι πρὸς ἀλλήλους.»",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "συγγράψω",
+       "kind": "<",
+       "value": "σύν + γράφω: I will write (the whole story) down"
+      },
+      {
+       "word": "ὡς",
+       "kind": "en",
+       "value": "how"
+      },
+      {
+       "word": "πολεμήσουσι",
+       "kind": "<",
+       "value": "πόλεμος: they will make war"
+      }
+     ]
+    },
+    {
+     "text": "«ἄρχομαι δὲ εὐθὺς ἀρχομένου τοῦ πολέμου· ἐλπίζω γὰρ αὐτὸν μέγαν τε ἔσεσθαι καὶ ἀξιολογώτατον τῶν πρότερον.»",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "ἄρχομαι",
+       "kind": "en",
+       "value": "I begin"
+      },
+      {
+       "word": "ἐλπίζω",
+       "kind": "en",
+       "value": "I expect"
+      },
+      {
+       "word": "ἀξιολογώτατον",
+       "kind": "<",
+       "value": "ἄξιος + λόγος: most worth telling"
+      },
+      {
+       "word": "πρότερον",
+       "kind": "en",
+       "value": "τῶν πρότερον: of the wars before"
+      }
+     ]
+    },
+    {
+     "text": "«ἀμφότεροι γὰρ νῦν ἀκμάζουσιν, καὶ τῶν ἄλλων Ἑλλήνων οἱ μὲν τοῖς Λακεδαιμονίοις, οἱ δὲ ἡμῖν συνίστανται.»",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "ἀκμάζουσιν",
+       "kind": "en",
+       "value": "are at their peak (of strength)"
+      },
+      {
+       "word": "συνίστανται",
+       "kind": "<",
+       "value": "σύν + ἵσταμαι: take sides with, join"
+      }
+     ]
+    },
+    {
+     "text": "«κίνησις γὰρ αὕτη μεγίστη τοῖς Ἕλλησιν ἔσται καὶ μέρει τινὶ τῶν βαρβάρων, ὡς δὲ εἰπεῖν, καὶ πλείστοις ἀνθρώποις.»",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "κίνησις",
+       "kind": "en",
+       "value": "upheaval, 'movement'"
+      },
+      {
+       "word": "μεγίστη",
+       "kind": "<",
+       "value": "μέγας | μείζων | μέγιστος"
+      },
+      {
+       "word": "μέρει",
+       "kind": "en",
+       "value": "μέρει τινί: to a part"
+      },
+      {
+       "word": "εἰπεῖν",
+       "kind": "en",
+       "value": "ὡς εἰπεῖν: so to speak"
+      }
+     ]
+    },
+    {
+     "text": "«τὰ δὲ πρὸ ἡμῶν σαφῶς εὑρεῖν οὐ δυνάμεθα διὰ τὸν πολὺν χρόνον.»",
+     "orig": [
+      2
+     ]
+    },
+    {
+     "text": "«ἐκ δὲ τεκμηρίων, οἷς πιστεύω, οὐ μεγάλα νομίζω αὐτὰ γενέσθαι, οὔτε κατὰ τοὺς πολέμους οὔτε εἰς τὰ ἄλλα.»",
+     "orig": [
+      2
+     ],
+     "glosses": [
+      {
+       "word": "τεκμηρίων",
+       "kind": "en",
+       "value": "τὰ τεκμήρια: evidence, proofs"
+      },
+      {
+       "word": "νομίζω",
+       "kind": "en",
+       "value": "I think"
+      },
+      {
+       "word": "οὔτε",
+       "kind": "en",
+       "value": "οὔτε … οὔτε: neither … nor"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Ἀρίστων· «ὅταν ὁ πόλεμος παύσηται καὶ σὺ πάντα συγγράψῃς, ἐγὼ τὸ βιβλίον ἀναγνώσομαι.»"
+    },
+    {
+     "text": "«ὅστις ἂν τὸν πόλεμον σαφῶς μανθάνειν βούληται», λέγει ὁ Θουκυδίδης, «οὗτος τὸ ἐμὸν βιβλίον ἀναγνώσεται.»"
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "αν",
+   "gloss_grc": "ὅστις ἄν, ὅταν (= ὅτε ἄν), ἐάν (= εἰ ἄν), ἕως ἄν"
+  },
+  {
+   "id": "οταν",
+   "gloss_grc": "ὅταν = ὅτε + ἄν"
+  },
+  {
+   "id": "οστις",
+   "gloss_grc": "ὅστις ἂν βούληται = πᾶς ὃς ἂν βούληται"
+  },
+  {
+   "id": "επει",
+   "gloss_grc": "ἐπεὶ ὁ Κλεινίας καταβαίνει, ἀνήρ τις ἀναβαίνει"
+  },
+  {
+   "id": "τοτε",
+   "gloss_grc": "τότε ↔ νῦν"
+  },
+  {
+   "id": "χρονος",
+   "gloss_grc": "πολὺς χρόνος ↔ ὀλίγος χρόνος"
+  },
+  {
+   "id": "ηκω",
+   "gloss_grc": "ἥκω = ἐλήλυθα, πάρειμι"
+  },
+  {
+   "id": "ευθυς",
+   "gloss_grc": "εὐθύς = ἤδη, αὐτίκα"
+  },
+  {
+   "id": "πλειστος",
+   "gloss_grc": "πολύς · πλείων · πλεῖστος"
+  },
+  {
+   "id": "σαφης",
+   "gloss_grc": "σαφής → σαφῶς"
+  },
+  {
+   "id": "πιστευω",
+   "gloss_grc": "τοῖς ὅπλοις πιστεύω"
+  },
+  {
+   "id": "συγγραφω",
+   "pic": "deltos",
+   "gloss_grc": "σύν + γράφω: τὸν πόλεμον συγγράφει"
+  }
+ ],
+ "notice": [
+  "φοβοῦμαι μὴ οἱ Λακεδαιμόνιοι εἰσβάλωσιν. — φοβοῦμαι μὴ ὁ πόλεμος πολὺν χρόνον ᾖ.",
+  "ἐγὼ δὲ φοβοῦμαι μὴ οὐ μαχώμεθα.",
+  "ὅστις ἂν τὴν ἑαυτοῦ γῆν μὴ φυλάττῃ, οὐκ ἄξιός ἐστιν αὐτῆς.",
+  "ὅταν ἄνθρωποι πολλὰ λέγωσιν, ὀλίγα σαφῶς μανθάνουσιν.",
+  "μηδὲν ποιεῖτε, ἕως ἂν οἱ Ἀθηναῖοι βουλεύσωνται."
+ ],
+ "grammar": {
+  "md": "**Clauses of fearing.** After a verb of fearing (φοβοῦμαι, also δέδοικα 'I fear'), **μή + subjunctive** says what you are afraid *may happen*; **μὴ οὐ** what you are afraid *may not happen*:\n\n| | |\n|---|---|\n| φοβοῦμαι **μὴ** οἱ Λακεδαιμόνιοι εἰσβάλωσιν. | I am afraid (that) the Spartans may invade. |\n| φοβοῦμαι **μὴ** ὁ πόλεμος πολὺν χρόνον **ᾖ**. | I am afraid (that) the war may last a long time. |\n| φοβοῦμαι **μὴ οὐ** μαχώμεθα. | I am afraid (that) we may not fight. |\n\nThink of μή here as an anxious 'lest': the fear is a wish turned inside out. Do not confuse it with **φοβοῦμαι + infinitive**, 'I am afraid *to* do': φοβοῦμαι μάχεσθαι 'I am afraid to fight'. (After a past verb, Greek often uses the optative instead: Lesson 9.3.)\n\n**Indefinite clauses with ἄν.** A relative or time clause about the future, or about what happens *whenever* something happens, takes **ἄν + subjunctive**. ἄν itself is not translated; it marks the clause as open, 'ever':\n\n| definite (indicative) | indefinite (ἄν + subjunctive) |\n|---|---|\n| ὅς *who* | **ὃς ἄν / ὅστις ἄν** *whoever* |\n| ὅτε *when* | **ὅταν** (= ὅτε ἄν) *when(ever)* |\n| ἐπεί, ἐπειδή *when, after* | **ἐπειδάν** (= ἐπειδὴ ἄν) *when(ever), after* |\n| ἕως *while, until* | **ἕως ἄν** *until* |\n| εἰ *if* | **ἐάν** (= εἰ ἄν) *if* |\n\nThe main clause tells you which kind:\n\n- **future** in the main clause, a particular future event: *ὅταν ὁ πόλεμος παύσηται, τὸ βιβλίον ἀναγνώσομαι* 'when the war ends, I will read the book'.\n- **present** in the main clause, a general truth, 'whenever': *ὅταν ἄνθρωποι πολλὰ λέγωσιν, ὀλίγα μανθάνουσιν* 'whenever people talk a lot, they learn little'; *ὅ τι ἂν ἀκούσῃ, γράφει* 'whatever he hears, he writes down'.\n\nThe negative in these clauses is **μή**: *ὅστις ἂν τὴν γῆν **μὴ** φυλάττῃ* 'whoever does not guard the land'.\n\n**ὅστις** is ὅς + τις, both halves declined: ὅστις, ἥτις, **ὅ τι** (written apart, so as not to look like ὅτι 'that'), gen. οὗτινος or ὅτου. See the paradigm.",
+  "paradigms": [
+   "hostis",
+   "eimi"
+  ],
+  "diagram": "diagram-purpose-fear"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the subjunctive endings.",
+   "template": "φοβοῦμαι μὴ οἱ Λακεδαιμόνιοι εἰσβάλ___σιν. ὅταν οἱ πολέμιοι ἥκ___σιν, μαχούμεθα. ὅστις ἂν τὴν γῆν μὴ φυλάττ___, οὐκ ἄξιός ἐστιν.",
+   "gaps": [
+    {
+     "answers": [
+      "ω"
+     ]
+    },
+    {
+     "answers": [
+      "ω"
+     ]
+    },
+    {
+     "answers": [
+      "ῃ"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.fear",
+    "syntax.indefinite",
+    "verb.pres.act.subj.3pl",
+    "verb.pres.act.subj.3sg"
+   ],
+   "explain": "After φοβοῦμαι μή, ὅταν and ὅστις ἄν the verb is subjunctive: -ωσιν, -ῃ."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · φοβοῦμαι ___ ὁ πόλεμος πολὺν χρόνον ᾖ.",
+   "options": [
+    {
+     "id": "a",
+     "text": "μή"
+    },
+    {
+     "id": "b",
+     "text": "ἵνα"
+    },
+    {
+     "id": "c",
+     "text": "ὅτε"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.fear"
+   ],
+   "explain": "A fear clause: φοβοῦμαι μή + subjunctive.",
+   "audio": "φοβοῦμαι μὴ ὁ πόλεμος πολὺν χρόνον ᾖ."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ___ ἄνθρωποι πολλὰ λέγωσιν, ὀλίγα σαφῶς μανθάνουσιν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὅταν"
+    },
+    {
+     "id": "b",
+     "text": "ὅτε"
+    },
+    {
+     "id": "c",
+     "text": "ἐπεί"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.indefinite"
+   ],
+   "explain": "'Whenever', with a subjunctive: ὅταν (= ὅτε ἄν). ὅτε and ἐπεί take the indicative.",
+   "audio": "ὅταν ἄνθρωποι πολλὰ λέγωσιν, ὀλίγα σαφῶς μανθάνουσιν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὅστις ___ τὸν πόλεμον σαφῶς μανθάνειν βούληται, τὸ βιβλίον ἀναγνώσεται.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἂν"
+    },
+    {
+     "id": "b",
+     "text": "μή"
+    },
+    {
+     "id": "c",
+     "text": "οὐ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.indefinite"
+   ],
+   "explain": "ὅστις ἄν + subjunctive: 'whoever wants …'.",
+   "audio": "ὅστις ἂν τὸν πόλεμον σαφῶς μανθάνειν βούληται, τὸ βιβλίον ἀναγνώσεται."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ἀνήρ τις ἐκ Πλαταιῶν ἥκει.",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "panel-8-2-a"
+    },
+    {
+     "id": "b",
+     "image": "panel-8-2-c"
+    },
+    {
+     "id": "c",
+     "image": "panel-8-1-a"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "vocab.recognition"
+   ],
+   "explain": "The man from Plataea on the platform."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "νεανίας τις ἐν δέλτῳ γράφει.",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "panel-8-2-b"
+    },
+    {
+     "id": "b",
+     "image": "panel-8-1-c"
+    },
+    {
+     "id": "c",
+     "image": "panel-8-2-a"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "vocab.recognition"
+   ],
+   "explain": "The young Thucydides with his wax tablet beside Ariston and Demokritos."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the present subjunctive, 3rd person plural, of ἥκω (as in 'whenever the enemy come').",
+   "lemma": "ἥκω",
+   "cell": "present.active.subjunctive.3pl",
+   "skills": [
+    "syntax.indefinite",
+    "verb.pres.act.subj.3pl"
+   ],
+   "explain": "ἥκουσι(ν) → ἥκωσι(ν): ὅταν οἱ πολέμιοι ἥκωσιν.",
+   "audio": "ἥκωσιν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the present subjunctive, 3rd person singular, of εἰμί (as in 'I am afraid the war may be long').",
+   "lemma": "εἰμί",
+   "cell": "present.active.subjunctive.3sg",
+   "skills": [
+    "syntax.fear"
+   ],
+   "explain": "ᾖ, with iota subscript: φοβοῦμαι μὴ ὁ πόλεμος μακρὸς ᾖ.",
+   "audio": "ᾖ"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the feminine nominative singular of ὅστις ('whoever', of a woman).",
+   "lemma": "ὅστις",
+   "cell": "nom.sg.f",
+   "skills": [
+    "syntax.indefinite"
+   ],
+   "explain": "ἥ + τις: ἥτις.",
+   "audio": "ἥτις"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist middle subjunctive, 3rd person singular, of παύω (as in 'when the war stops').",
+   "lemma": "παύω",
+   "cell": "aorist.middle.subjunctive.3sg",
+   "skills": [
+    "syntax.indefinite",
+    "verb.aor.mid.subj.3sg"
+   ],
+   "explain": "ἐπαύσατο → παύσηται: ὅταν ὁ πόλεμος παύσηται.",
+   "audio": "παύσηται"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ᾖ.",
+   "form": "ᾖ",
+   "groups": [
+    {
+     "id": "verb",
+     "label": "Which verb?",
+     "options": [
+      {
+       "id": "eimi",
+       "label": "εἰμί 'I am'"
+      },
+      {
+       "id": "echo",
+       "label": "ἔχω 'I have'"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "verb": "eimi",
+    "mood": "subj"
+   },
+   "skills": [
+    "syntax.fear"
+   ],
+   "explain": "ὦ, ᾖς, ᾖ: the subjunctive of εἰμί (ἐστί → ᾖ).",
+   "audio": "ᾖ"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἀκούσῃ (in ὅ τι ἂν ἀκούσῃ).",
+   "form": "ἀκούσῃ",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense stem",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "mood": "subj"
+   },
+   "skills": [
+    "verb.aor.act.subj.3sg",
+    "syntax.indefinite"
+   ],
+   "explain": "Aorist stem ἀκουσ- (ἤκουσα, no augment) + -ῃ: aorist subjunctive after ἄν.",
+   "audio": "ἀκούσῃ"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ Δημόκριτος φοβεῖται μὴ οἱ Ἀθηναῖοι οὐ ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "μάχωνται"
+    },
+    {
+     "id": "b",
+     "text": "μάχονται"
+    },
+    {
+     "id": "c",
+     "text": "ἐμάχοντο"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.fear"
+   ],
+   "explain": "A fear clause takes the subjunctive: μὴ … οὐ μάχωνται 'that they may not fight'."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὅ τι ἂν ___, τοῦτο γράφει ὁ Θουκυδίδης.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀκούσῃ"
+    },
+    {
+     "id": "b",
+     "text": "ἀκούει"
+    },
+    {
+     "id": "c",
+     "text": "ἤκουσε"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.indefinite"
+   ],
+   "explain": "ὅ τι ἄν + subjunctive: 'whatever he hears'."
+  },
+  {
+   "type": "label",
+   "prompt": "«φοβοῦμαι μὴ οὐ μαχώμεθα.» — what is Demokritos afraid of?",
+   "options": [
+    {
+     "id": "a",
+     "text": "that we may not fight"
+    },
+    {
+     "id": "b",
+     "text": "that we may fight"
+    },
+    {
+     "id": "c",
+     "text": "to fight"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.fear"
+   ],
+   "explain": "μή = 'that … may', μὴ οὐ = 'that … may not'. He wants to fight."
+  },
+  {
+   "type": "label",
+   "prompt": "«ὅταν ὁ πόλεμος παύσηται, τὸ βιβλίον ἀναγνώσομαι.» — what kind of clause is ὅταν …?",
+   "options": [
+    {
+     "id": "a",
+     "text": "an indefinite time clause about the future"
+    },
+    {
+     "id": "b",
+     "text": "a purpose clause"
+    },
+    {
+     "id": "c",
+     "text": "a fear clause"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.indefinite"
+   ],
+   "explain": "ὅταν + subjunctive with a future main verb: 'when (at some future time) the war stops, I will read'."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make it indefinite ('whenever'): ὅτε ὁ κῆρυξ λέγει, ἀκούομεν. → ὅταν ὁ κῆρυξ …, ἀκούομεν.",
+   "template": "ὅταν ὁ κῆρυξ ___, ἀκούομεν.",
+   "gaps": [
+    {
+     "answers": [
+      "λέγῃ"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.indefinite",
+    "verb.pres.act.subj.3sg"
+   ],
+   "explain": "ὅταν takes the subjunctive: λέγει → λέγῃ.",
+   "audio": "ὅταν ὁ κῆρυξ λέγῃ, ἀκούομεν."
+  },
+  {
+   "type": "transform",
+   "prompt": "Express it as a fear: ὁ πόλεμος μακρός ἐστιν. → φοβοῦμαι μὴ ὁ πόλεμος μακρὸς …",
+   "template": "φοβοῦμαι μὴ ὁ πόλεμος μακρὸς ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ᾖ"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.fear"
+   ],
+   "explain": "ἐστί → ᾖ after μή.",
+   "audio": "φοβοῦμαι μὴ ὁ πόλεμος μακρὸς ᾖ."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the word that makes the clause indefinite, and the subjunctive it goes with.",
+   "sentence": "ὅστις ἂν τὴν ἑαυτοῦ γῆν μὴ φυλάττῃ, οὐκ ἄξιός ἐστιν αὐτῆς.",
+   "answer": [
+    1,
+    6
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.indefinite"
+   ],
+   "explain": "ἄν … φυλάττῃ: 'whoever does not guard'."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the two subjunctives.",
+   "sentence": "ὅταν ὁ πόλεμος παύσηται καὶ σὺ πάντα συγγράψῃς, ἐγὼ τὸ βιβλίον ἀναγνώσομαι.",
+   "answer": [
+    3,
+    7
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.indefinite"
+   ],
+   "explain": "παύσηται and συγγράψῃς, both in the ὅταν clause; ἀναγνώσομαι is future indicative."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'I am afraid that the war may be long.'",
+   "tokens": [
+    "φοβοῦμαι",
+    "μὴ",
+    "ὁ",
+    "πόλεμος",
+    "μακρὸς",
+    "ᾖ"
+   ],
+   "answers": [
+    "φοβοῦμαι μὴ ὁ πόλεμος μακρὸς ᾖ",
+    "φοβοῦμαι μὴ μακρὸς ὁ πόλεμος ᾖ",
+    "φοβοῦμαι μὴ ὁ πόλεμος ᾖ μακρός",
+    "φοβοῦμαι μὴ μακρὸς ᾖ ὁ πόλεμος"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "syntax.fear"
+   ],
+   "explain": "φοβοῦμαι μὴ ὁ πόλεμος μακρὸς ᾖ."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "audio": "φοβοῦμαι μὴ οὐ μαχώμεθα.",
+   "options": [
+    {
+     "id": "a",
+     "text": "φοβοῦμαι μὴ οὐ μαχώμεθα."
+    },
+    {
+     "id": "b",
+     "text": "φοβοῦμαι μὴ μαχώμεθα."
+    },
+    {
+     "id": "c",
+     "text": "οὐ φοβοῦμαι μάχεσθαι."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences",
+    "syntax.fear"
+   ],
+   "explain": "'I am afraid that we may not fight': Demokritos."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "οἱ Θηβαῖοι ἡμέρας εἰς Πλαταιὰς εἰσῆλθον.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "νυκτὸς εἰς τὴν πόλιν εἰσῆλθον."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ κῆρυξ τῶν Ἀθηναίων ὕστερον ἀφίκετο.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "The Plataeans had already killed the men."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Θουκυδίδης ἐλπίζει τὸν πόλεμον μικρὸν ἔσεσθαι.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension",
+    "read.thucydides"
+   ],
+   "explain": "ἐλπίζω αὐτὸν μέγαν τε ἔσεσθαι καὶ ἀξιολογώτατον."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "audio": "ὅταν οἱ πολέμιοι ἥκωσιν, τότε χρὴ μάχεσθαι.",
+   "gaps": [
+    {
+     "answers": [
+      "ὅταν οἱ πολέμιοι ἥκωσιν, τότε χρὴ μάχεσθαι",
+      "ὅταν οἱ πολέμιοι ἥκωσι, τότε χρὴ μάχεσθαι",
+      "ὅταν οἱ πολέμιοι ἥκωσιν τότε χρὴ μάχεσθαι"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "ὅταν οἱ πολέμιοι ἥκωσιν, τότε χρὴ μάχεσθαι."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Whenever the herald speaks, we listen.'",
+   "gaps": [
+    {
+     "answers": [
+      "ὅταν ὁ κῆρυξ λέγῃ, ἀκούομεν",
+      "ὅταν ὁ κῆρυξ λέγῃ ἀκούομεν",
+      "ἀκούομεν, ὅταν ὁ κῆρυξ λέγῃ",
+      "ὅταν λέγῃ ὁ κῆρυξ, ἀκούομεν"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.indefinite"
+   ],
+   "explain": "ὅταν + subjunctive, present in the main clause (a general statement)."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'I am afraid that the Spartans may come.'",
+   "gaps": [
+    {
+     "answers": [
+      "φοβοῦμαι μὴ οἱ Λακεδαιμόνιοι ἔλθωσιν",
+      "φοβοῦμαι μὴ ἔλθωσιν οἱ Λακεδαιμόνιοι",
+      "φοβοῦμαι μὴ οἱ Λακεδαιμόνιοι ἥκωσιν",
+      "φοβοῦμαι μὴ ἥκωσιν οἱ Λακεδαιμόνιοι"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.fear"
+   ],
+   "explain": "φοβοῦμαι μὴ οἱ Λακεδαιμόνιοι ἔλθωσιν (or ἥκωσιν)."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: ἐγὼ τὸν πόλεμον τῶν Πελοποννησίων καὶ Ἀθηναίων συγγράψω, ὡς πολεμήσουσι πρὸς ἀλλήλους.",
+   "audio": "ἐγὼ τὸν πόλεμον τῶν Πελοποννησίων καὶ Ἀθηναίων συγγράψω, ὡς πολεμήσουσι πρὸς ἀλλήλους.",
+   "model": "I shall write down the war of the Peloponnesians and the Athenians, how they will fight against each other.",
+   "skills": [
+    "read.comprehension",
+    "read.adapted-text",
+    "read.thucydides"
+   ],
+   "explain": "Thucydides' own words (1.1) are in the past: Θουκυδίδης Ἀθηναῖος ξυνέγραψε τὸν πόλεμον … ὡς ἐπολέμησαν πρὸς ἀλλήλους."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "χρόνος",
+     "right": "chronology"
+    },
+    {
+     "left": "πλεῖστος",
+     "right": "Pleistocene"
+    },
+    {
+     "left": "συγγράφω (γράφω)",
+     "right": "historiography"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "χρονο-λογία 'the account of time'; πλεῖστος + καινός 'most recent (epoch)'; ἱστορία + γράφω 'writing history', what Thucydides sets out to do."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "πόθεν ἥκει ὁ ἀνὴρ ὁ ἐπὶ τῷ βήματι;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐκ Πλαταιῶν."
+    },
+    {
+     "id": "b",
+     "text": "ἐκ τοῦ Ἰσθμοῦ."
+    },
+    {
+     "id": "c",
+     "text": "ἐκ Σπάρτης."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἥκει γὰρ ἐκ Πλαταιῶν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίνες νυκτὸς εἰς Πλαταιὰς εἰσῆλθον;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "Θηβαῖοί τινες."
+    },
+    {
+     "id": "b",
+     "text": "οἱ Ἀθηναῖοι."
+    },
+    {
+     "id": "c",
+     "text": "οἱ Λακεδαιμόνιοι."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "Θηβαῖοί τινες νυκτὸς εἰς τὴν πόλιν εἰσῆλθον."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί φοβεῖται ὁ Ἀρίστων;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "μὴ οἱ Λακεδαιμόνιοι εἰς τὴν Ἀττικὴν εἰσβάλωσιν."
+    },
+    {
+     "id": "b",
+     "text": "μὴ οὐ μαχώμεθα."
+    },
+    {
+     "id": "c",
+     "text": "μὴ ὁ Θουκυδίδης τὸν πόλεμον συγγράψῃ."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.fear"
+   ],
+   "explain": "The second fear is Demokritos's."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ποιεῖ ὁ Θουκυδίδης ἐν τῇ ἐκκλησίᾳ;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὅ τι ἂν ἀκούσῃ, ἐν δέλτῳ γράφει."
+    },
+    {
+     "id": "b",
+     "text": "ἐπὶ τὸ βῆμα ἀναβαίνει."
+    },
+    {
+     "id": "c",
+     "text": "καθεύδει."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.indefinite"
+   ],
+   "explain": "ὅ τι ἂν ἀκούσῃ, τοῦτο ἐν δέλτῳ γράφει."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ὁ Θουκυδίδης τὸν πόλεμον συγγράψει;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐλπίζει γὰρ αὐτὸν μέγαν ἔσεσθαι."
+    },
+    {
+     "id": "b",
+     "text": "ὁ γὰρ δῆμος αὐτὸν πέμπει."
+    },
+    {
+     "id": "c",
+     "text": "οὐ γὰρ ἐθέλει μάχεσθαι."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "read.thucydides"
+   ],
+   "explain": "ἐλπίζω γὰρ αὐτὸν μέγαν τε ἔσεσθαι καὶ ἀξιολογώτατον τῶν πρότερον."
+  }
+ ],
+ "culture": {
+  "title": "Plataea, spring 431, and the young Thucydides",
+  "md": "Plataea was a small Boeotian town on the northern slope of Mount Kithairon, some thirteen kilometres from Thebes, which wanted to control all of Boeotia. Since 519 BC Plataea had been Athens' ally, and its men were the only Greeks who fought beside the Athenians at Marathon.\n\nAt the very start of spring 431, with the Thirty Years' Peace still formally in force, a little over three hundred Thebans slipped into Plataea by night: a pro-Theban group had opened the gates. The Plataeans, realising how few the intruders were, attacked before dawn, killed many in the dark, rain-soaked streets and captured one hundred and eighty. The main Theban army, delayed by the swollen river Asopos, came too late. The Plataeans then killed their prisoners. A messenger had reached Athens at once, and the Athenians sent a herald to tell them to do nothing to the men until Athens had decided; he arrived to find them dead. Athens then sent food and a garrison and took the women, children and least fit men away. Thucydides says plainly that the peace was now broken.\n\n**Thucydides**, son of Olorus, was then an Athenian of perhaps twenty-five or thirty. He began his history 'as soon as the war broke out', caught the plague in 430 and recovered, served as a general in 424, and after failing to save Amphipolis spent twenty years in exile. His opening sentences were written much later, when he knew how long and terrible the war had been.",
+  "image": "culture-8-2-thucydides"
+ },
+ "quiz": [
+  {
+   "type": "cloze-choice",
+   "prompt": "φοβοῦμαι μὴ ὁ Λάβρος τὸ κρέας ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "κλέψῃ"
+    },
+    {
+     "id": "b",
+     "text": "κλέπτει"
+    },
+    {
+     "id": "c",
+     "text": "ἔκλεψε"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.fear",
+    "verb.aor.act.subj.3sg"
+   ],
+   "explain": "φοβοῦμαι μή + subjunctive: 'I'm afraid Labros may steal the meat'."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist subjunctive, 3rd person plural, of ἔρχομαι (as in 'until they come', ἕως ἂν …).",
+   "lemma": "ἔρχομαι",
+   "cell": "aorist.active.subjunctive.3pl",
+   "skills": [
+    "verb.aor.act.subj.3pl",
+    "syntax.indefinite"
+   ],
+   "explain": "ἦλθον → ἔλθωσι(ν).",
+   "audio": "ἔλθωσιν"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "___ ὁ κῆρυξ καλῇ, εἰς τὴν ἐκκλησίαν ἀναβαίνομεν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὅταν"
+    },
+    {
+     "id": "b",
+     "text": "ὅτε"
+    },
+    {
+     "id": "c",
+     "text": "ἐπεί"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.indefinite"
+   ],
+   "explain": "καλῇ is subjunctive, so the clause needs ἄν: ὅταν (= ὅτε ἄν) 'whenever the herald calls'. ὅτε and ἐπεί take the indicative."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Δημόκριτος τοῖς γράμμασι πιστεύει.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἐγὼ δὲ τοῖς ὅπλοις πιστεύω, οὐ τοῖς γράμμασιν."
+  },
+  {
+   "type": "label",
+   "prompt": "«φοβοῦμαι μάχεσθαι» or «φοβοῦμαι μὴ μαχώμεθα»: which means 'I am afraid to fight'?",
+   "options": [
+    {
+     "id": "a",
+     "text": "φοβοῦμαι μάχεσθαι"
+    },
+    {
+     "id": "b",
+     "text": "φοβοῦμαι μὴ μαχώμεθα"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.fear"
+   ],
+   "explain": "The infinitive: afraid to do something. μή + subjunctive: afraid that something may happen."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἥκωσιν.",
+   "form": "ἥκωσιν",
+   "groups": [
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Who?",
+     "options": [
+      {
+       "id": "3sg",
+       "label": "he/she"
+      },
+      {
+       "id": "3pl",
+       "label": "they"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "mood": "subj",
+    "person": "3pl"
+   },
+   "skills": [
+    "verb.pres.act.subj.3pl"
+   ],
+   "explain": "ἥκουσιν → ἥκωσιν.",
+   "audio": "ἥκωσιν"
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'I am afraid that the war may be long.' (use μακρός)",
+   "gaps": [
+    {
+     "answers": [
+      "φοβοῦμαι μὴ ὁ πόλεμος μακρὸς ᾖ",
+      "φοβοῦμαι μὴ μακρὸς ὁ πόλεμος ᾖ",
+      "φοβοῦμαι μὴ ὁ πόλεμος ᾖ μακρός"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.fear"
+   ],
+   "explain": "φοβοῦμαι μὴ ὁ πόλεμος μακρὸς ᾖ."
+  }
+ ],
+ "skills": [
+  "syntax.fear",
+  "syntax.indefinite",
+  "verb.pres.act.subj.3pl",
+  "verb.pres.act.subj.3sg",
+  "verb.aor.act.subj.3sg",
+  "verb.aor.act.subj.3pl",
+  "verb.aor.mid.subj.3sg",
+  "read.adapted-text",
+  "read.thucydides",
+  "syntax.word-order",
+  "read.comprehension",
+  "read.locate",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family"
+ ]
+}

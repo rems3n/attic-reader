@@ -1,0 +1,1414 @@
+{
+ "id": "hist.6",
+ "title_grc": "Ὁ Θηραμένης ἀποθνῄσκει",
+ "title_en": "The death of Theramenes",
+ "summary_grc": "οἱ τριάκοντα τὸν Θηραμένην ἀπὸ τοῦ βωμοῦ ἕλκουσιν· ὁ δὲ τὸ κώνειον πίνων παίζει.",
+ "summary_en": "404/403 BC: the Thirty rule Athens by terror. When one of them, Theramenes, opposes Critias, he is condemned, dragged from the Council's altar and made to drink hemlock, which he flicks out with a toast. Xenophon, Hellenica 2.3.54–56, with one cut: how a historian reports what 'is said', and Xenophon's own judgement.",
+ "cover": "hist-panel-6-c",
+ "caption_grc": "Κριτίᾳ τοῦτʼ ἔστω τῷ καλῷ.",
+ "original": {
+  "text": "xen-hell-2.3.54",
+  "note": "Xenophon, Hellenica 2.3.54–56, with one cut (the end of 2.3.55: the councillors knew the guards had daggers). The first two sentences are ours. The Perseus text has no quotation marks: ἔφη inside a sentence marks direct speech."
+ },
+ "names": {
+  "Θηραμένης": [
+   "Θηραμένους",
+   "Θηραμένει",
+   "Θηραμένην"
+  ],
+  "Κριτίας": [
+   "Κριτίου",
+   "Κριτίᾳ",
+   "Κριτίαν"
+  ],
+  "Σάτυρος": [
+   "Σατύρου",
+   "Σατύρῳ",
+   "Σάτυρον"
+  ]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "hist-panel-6-a",
+   "sentences": [
+    {
+     "text": "μετὰ δὲ τὴν εἰρήνην τριάκοντα ἄνδρες ᾑρέθησαν ὡς νόμους γράψοντες· οὗτοι δὲ οὐ νόμους ἔγραφον, ἀλλὰ πολλοὺς τῶν πολιτῶν ἀπέκτεινον.",
+     "glosses": [
+      {
+       "word": "ᾑρέθησαν",
+       "kind": "|",
+       "value": "αἱρέω | ᾑρέθησαν: were chosen (aorist passive)"
+      },
+      {
+       "word": "γράψοντες",
+       "kind": "note",
+       "value": "ὡς + future participle: in order to write (purpose)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Θηραμένης, εἷς ὢν τῶν τριάκοντα, τοῖς ἄλλοις ἀντέλεγεν· ὁ οὖν Κριτίας ἐν τῇ βουλῇ θανάτου αὐτὸν κατέκρινεν, ὁ δὲ ἐπὶ τὸν βωμὸν ἀνεπήδησεν.",
+     "glosses": [
+      {
+       "word": "ἀντέλεγεν",
+       "kind": "<",
+       "value": "ἀντί + λέγω | ἀντιλέγω: speak against, oppose"
+      },
+      {
+       "word": "κατέκρινεν",
+       "kind": "<",
+       "value": "κατά + κρίνω | κατακρίνω + genitive of the penalty: condemn (to death)"
+      },
+      {
+       "word": "ἀνεπήδησεν",
+       "kind": "en",
+       "value": "leapt up onto (ἀναπηδάω): a man at an altar was a suppliant, under the gods' protection"
+      }
+     ]
+    },
+    {
+     "text": "ἐκ δὲ τούτου ἐκέλευσε μὲν ὁ τῶν τριάκοντα κῆρυξ τοὺς ἕνδεκα ἐπὶ τὸν Θηραμένην·",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "ἕνδεκα",
+       "kind": "note",
+       "value": "οἱ ἕνδεκα: the Eleven, the officials in charge of the prison and of executions"
+      },
+      {
+       "word": "ἐπὶ",
+       "kind": "note",
+       "value": "ἐκέλευσε … ἐπὶ τὸν Θηραμένην: ordered (them to go) for Theramenes; the verb of motion is left out"
+      }
+     ]
+    },
+    {
+     "text": "ἐκεῖνοι δὲ εἰσελθόντες σὺν τοῖς ὑπηρέταις, ἡγουμένου αὐτῶν Σατύρου τοῦ θρασυτάτου τε καὶ ἀναιδεστάτου, εἶπε μὲν ὁ Κριτίας·",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "ὑπηρέταις",
+       "kind": "en",
+       "value": "attendants, servants of the officials (ὁ ὑπηρέτης)"
+      },
+      {
+       "word": "ἡγουμένου",
+       "kind": "note",
+       "value": "ἡγουμένου αὐτῶν Σατύρου: with Satyrus leading them (genitive absolute)"
+      },
+      {
+       "word": "θρασυτάτου",
+       "kind": "en",
+       "value": "boldest, most reckless (θρασύς, superlative)"
+      },
+      {
+       "word": "ἀναιδεστάτου",
+       "kind": "en",
+       "value": "most shameless (ἀναιδής, superlative)"
+      },
+      {
+       "word": "εἶπε",
+       "kind": "note",
+       "value": "The sentence changes course: 'they came in … and Critias said'. Xenophon writes as people speak."
+      }
+     ]
+    },
+    {
+     "text": "παραδίδομεν ὑμῖν, ἔφη, Θηραμένην τουτονὶ κατακεκριμένον κατὰ τὸν νόμον·",
+     "orig": [
+      2
+     ],
+     "glosses": [
+      {
+       "word": "τουτονὶ",
+       "kind": "en",
+       "value": "this man here (οὗτος + pointing -ί)"
+      },
+      {
+       "word": "κατακεκριμένον",
+       "kind": "|",
+       "value": "κατακρίνω | κατακεκριμένον: condemned (perfect passive participle)"
+      }
+     ]
+    },
+    {
+     "text": "ὑμεῖς δὲ λαβόντες καὶ ἀπαγαγόντες οἱ ἕνδεκα οὗ δεῖ τὰ ἐκ τούτων πράττετε.",
+     "orig": [
+      3
+     ],
+     "glosses": [
+      {
+       "word": "οὗ",
+       "kind": "en",
+       "value": "where (relative adverb): οὗ δεῖ, to where you must (the prison)"
+      },
+      {
+       "word": "πράττετε",
+       "kind": "note",
+       "value": "imperative: do what follows from this (execute him)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "hist-panel-6-b",
+   "sentences": [
+    {
+     "text": "ὡς δὲ ταῦτα εἶπεν, εἷλκε μὲν ἀπὸ τοῦ βωμοῦ ὁ Σάτυρος, εἷλκον δὲ οἱ ὑπηρέται.",
+     "orig": [
+      4
+     ],
+     "glosses": [
+      {
+       "word": "εἷλκε",
+       "kind": "en",
+       "value": "dragged (ἕλκω, imperfect εἷλκον)"
+      },
+      {
+       "word": "εἷλκον",
+       "kind": "en",
+       "value": "dragged (ἕλκω)"
+      },
+      {
+       "word": "ὑπηρέται",
+       "kind": "en",
+       "value": "the attendants (ὁ ὑπηρέτης)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Θηραμένης ὥσπερ εἰκὸς καὶ θεοὺς ἐπεκαλεῖτο καὶ ἀνθρώπους καθορᾶν τὰ γιγνόμενα.",
+     "orig": [
+      5
+     ],
+     "glosses": [
+      {
+       "word": "εἰκὸς",
+       "kind": "note",
+       "value": "ὥσπερ εἰκός: as was natural"
+      },
+      {
+       "word": "ἐπεκαλεῖτο",
+       "kind": "<",
+       "value": "ἐπί + καλέω | ἐπικαλοῦμαι: call upon"
+      },
+      {
+       "word": "καθορᾶν",
+       "kind": "<",
+       "value": "κατά + ὁράω | καθοράω: look down on, witness"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ βουλὴ ἡσυχίαν εἶχεν, ὁρῶσα καὶ τοὺς ἐπὶ τοῖς δρυφάκτοις ὁμοίους Σατύρῳ καὶ τὸ ἔμπροσθεν τοῦ βουλευτηρίου πλῆρες τῶν φρουρῶν.",
+     "orig": [
+      6
+     ],
+     "glosses": [
+      {
+       "word": "ἡσυχίαν",
+       "kind": "en",
+       "value": "quiet (ἡ ἡσυχία): ἡσυχίαν εἶχεν, kept quiet"
+      },
+      {
+       "word": "δρυφάκτοις",
+       "kind": "en",
+       "value": "the wooden railings round the councillors' benches"
+      },
+      {
+       "word": "ἔμπροσθεν",
+       "kind": "en",
+       "value": "in front (of): τὸ ἔμπροσθεν, the space in front"
+      },
+      {
+       "word": "βουλευτηρίου",
+       "kind": "<",
+       "value": "βουλεύω | τὸ βουλευτήριον: the Council-house"
+      }
+     ]
+    },
+    {
+     "text": "οἱ δʼ ἀπήγαγον τὸν ἄνδρα διὰ τῆς ἀγορᾶς μάλα μεγάλῃ τῇ φωνῇ δηλοῦντα οἷα ἔπασχε.",
+     "orig": [
+      7
+     ],
+     "glosses": [
+      {
+       "word": "οἷα",
+       "kind": "note",
+       "value": "δηλοῦντα οἷα ἔπασχε: showing (making known) what sort of things he was suffering"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "hist-panel-6-c",
+   "sentences": [
+    {
+     "text": "λέγεται δʼ ἓν ῥῆμα καὶ τοῦτο αὐτοῦ.",
+     "orig": [
+      8
+     ],
+     "glosses": [
+      {
+       "word": "ῥῆμα",
+       "kind": "en",
+       "value": "saying, remark (τὸ ῥῆμα)"
+      },
+      {
+       "word": "λέγεται",
+       "kind": "note",
+       "value": "λέγεται: it is said. Xenophon was not there: he reports what people said"
+      }
+     ]
+    },
+    {
+     "text": "ὡς εἶπεν ὁ Σάτυρος ὅτι οἰμώξοιτο, εἰ μὴ σιωπήσειεν, ἐπήρετο·",
+     "orig": [
+      9
+     ],
+     "glosses": [
+      {
+       "word": "οἰμώξοιτο",
+       "kind": "en",
+       "value": "he would howl, he would be sorry (οἰμώζω; future optative in reported speech)"
+      },
+      {
+       "word": "σιωπήσειεν",
+       "kind": "en",
+       "value": "kept quiet (σιωπάω; aorist optative in reported speech)"
+      },
+      {
+       "word": "ἐπήρετο",
+       "kind": "en",
+       "value": "asked in reply (ἐπέρομαι)"
+      }
+     ]
+    },
+    {
+     "text": "ἂν δὲ σιωπῶ, οὐκ ἄρʼ, ἔφη, οἰμώξομαι;",
+     "orig": [
+      10
+     ],
+     "glosses": [
+      {
+       "word": "ἂν",
+       "kind": "=",
+       "value": "ἐάν"
+      },
+      {
+       "word": "σιωπῶ",
+       "kind": "en",
+       "value": "I keep quiet (σιωπάω, subjunctive)"
+      },
+      {
+       "word": "ἄρʼ",
+       "kind": "=",
+       "value": "ἄρα: then (in the question: 'won't I howl, then?')"
+      },
+      {
+       "word": "οἰμώξομαι",
+       "kind": "en",
+       "value": "I shall howl (οἰμώζω, future)"
+      }
+     ]
+    },
+    {
+     "text": "καὶ ἐπεί γε ἀποθνῄσκειν ἀναγκαζόμενος τὸ κώνειον ἔπιε, τὸ λειπόμενον ἔφασαν ἀποκοτταβίσαντα εἰπεῖν αὐτόν·",
+     "orig": [
+      11
+     ],
+     "glosses": [
+      {
+       "word": "κώνειον",
+       "kind": "en",
+       "value": "hemlock (τὸ κώνειον), the poison used at Athens for executions"
+      },
+      {
+       "word": "λειπόμενον",
+       "kind": "note",
+       "value": "τὸ λειπόμενον: what was left (in the cup)"
+      },
+      {
+       "word": "ἔφασαν",
+       "kind": "note",
+       "value": "ἔφασαν … εἰπεῖν αὐτόν: they said that he said (indirect statement with the infinitive)"
+      },
+      {
+       "word": "ἀποκοτταβίσαντα",
+       "kind": "en",
+       "value": "flicking out the dregs, as in the party game kottabos (ἀποκοτταβίζω)"
+      }
+     ]
+    },
+    {
+     "text": "Κριτίᾳ τοῦτʼ ἔστω τῷ καλῷ.",
+     "orig": [
+      12
+     ],
+     "glosses": [
+      {
+       "word": "ἔστω",
+       "kind": "note",
+       "value": "ἔστω: let it be (third-person imperative of εἰμί). 'Here's to the fair Critias!': the toast a kottabos player gave his beloved"
+      }
+     ]
+    },
+    {
+     "text": "καὶ τοῦτο μὲν οὐκ ἀγνοῶ, ὅτι ταῦτα ἀποφθέγματα οὐκ ἀξιόλογα, ἐκεῖνο δὲ κρίνω τοῦ ἀνδρὸς ἀγαστόν, τὸ τοῦ θανάτου παρεστηκότος μήτε τὸ φρόνιμον μήτε τὸ παιγνιῶδες ἀπολιπεῖν ἐκ τῆς ψυχῆς.",
+     "orig": [
+      13
+     ],
+     "glosses": [
+      {
+       "word": "ἀγνοῶ",
+       "kind": "<",
+       "value": "ἀ- + γιγνώσκω | ἀγνοέω: not know, be unaware"
+      },
+      {
+       "word": "ἀποφθέγματα",
+       "kind": "en",
+       "value": "sayings, quips (τὸ ἀπόφθεγμα)"
+      },
+      {
+       "word": "ἀξιόλογα",
+       "kind": "<",
+       "value": "ἄξιος + λόγος | ἀξιόλογος: worth mentioning; ἐστί is understood"
+      },
+      {
+       "word": "ἀγαστόν",
+       "kind": "en",
+       "value": "admirable"
+      },
+      {
+       "word": "παρεστηκότος",
+       "kind": "|",
+       "value": "παρίστημι | τοῦ θανάτου παρεστηκότος: when death stood beside him (genitive absolute, perfect)"
+      },
+      {
+       "word": "φρόνιμον",
+       "kind": "en",
+       "value": "good sense (τὸ φρόνιμον)"
+      },
+      {
+       "word": "παιγνιῶδες",
+       "kind": "<",
+       "value": "παίζω | τὸ παιγνιῶδες: playfulness"
+      },
+      {
+       "word": "ἀπολιπεῖν",
+       "kind": "note",
+       "value": "τὸ … ἀπολιπεῖν: the fact that he did not let go of (articular infinitive, ἀπολείπω)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "τριακοντα",
+   "gloss_grc": "τριάκοντα = 30 · οἱ τριάκοντα (the Thirty)"
+  },
+  {
+   "id": "βουλη",
+   "gloss_grc": "ἡ βουλή · ἡ βουλὴ τῶν πεντακοσίων (the Council)"
+  },
+  {
+   "id": "φρουρος",
+   "pic": "phylax",
+   "gloss_grc": "ὁ φρουρός · πλῆρες τῶν φρουρῶν"
+  },
+  {
+   "id": "απαγω",
+   "gloss_grc": "ἀπάγω, ἀπήγαγον < ἀπό + ἄγω"
+  },
+  {
+   "id": "κηρυξ",
+   "pic": "keryx",
+   "gloss_grc": "ὁ κῆρυξ, κήρυκος"
+  },
+  {
+   "id": "θανατος",
+   "gloss_grc": "ὁ θάνατος · θανάτου κατακρίνειν"
+  },
+  {
+   "id": "νομος",
+   "gloss_grc": "ὁ νόμος · κατὰ τὸν νόμον"
+  },
+  {
+   "id": "αναγκαζω",
+   "gloss_grc": "ἀποθνῄσκειν ἀναγκαζόμενος"
+  },
+  {
+   "id": "κελευω",
+   "gloss_grc": "κελεύω + acc. + inf."
+  },
+  {
+   "id": "βωμος",
+   "pic": "bomos",
+   "gloss_grc": "ὁ βωμός · ἀπὸ τοῦ βωμοῦ ἕλκειν"
+  },
+  {
+   "id": "κατακρινω",
+   "gloss_grc": "κατακρίνω + gen. · θανάτου κατακρίνειν"
+  },
+  {
+   "id": "σιωπαω",
+   "gloss_grc": "σιωπάω · ἂν σιωπῶ (if I keep quiet)"
+  },
+  {
+   "id": "θρασυς",
+   "gloss_grc": "θρασύς, θρασεῖα, θρασύ (like ταχύς) · θρασύτατος"
+  },
+  {
+   "id": "κρινω",
+   "gloss_grc": "κρίνω · ἐκεῖνο κρίνω ἀγαστόν (judge, consider)"
+  }
+ ],
+ "notice": [
+  "παραδίδομεν ὑμῖν, ἔφη, Θηραμένην τουτονὶ κατακεκριμένον κατὰ τὸν νόμον",
+  "λέγεται δʼ ἓν ῥῆμα καὶ τοῦτο αὐτοῦ",
+  "ὡς εἶπεν ὁ Σάτυρος ὅτι οἰμώξοιτο, εἰ μὴ σιωπήσειεν",
+  "τὸ λειπόμενον ἔφασαν ἀποκοτταβίσαντα εἰπεῖν αὐτόν"
+ ],
+ "grammar": {
+  "md": "**How a historian reports.** Xenophon mixes three ways of giving words and three levels of certainty.\n\n**1. Direct speech without quotation marks.** Ancient texts have no quotation marks; ἔφη ('he said') set inside the first words does the job: παραδίδομεν ὑμῖν, **ἔφη**, Θηραμένην τουτονί … · ἂν δὲ σιωπῶ, οὐκ ἄρʼ, **ἔφη**, οἰμώξομαι;\n\n**2. Reported speech after a past verb.** Satyrus' threat, turned into reported speech, shifts moods (9.3–9.4):\n\n| Satyrus said | Xenophon reports |\n|---|---|\n| οἰμώξει (future) | ὅτι **οἰμώξοιτο** (future optative) |\n| ἐὰν μὴ σιωπήσῃς (ἐάν + subjunctive) | εἰ μὴ **σιωπήσειεν** (εἰ + optative) |\n\nTheramenes answers with the same condition in the direct form: ἂν (= ἐάν) δὲ σιωπῶ, οὐκ ἄρʼ οἰμώξομαι; 'and if I keep quiet, won't I howl anyway?'\n\n**3. Levels of certainty.** What Xenophon narrates as fact (εἷλκε, ἀπήγαγον); what **is said** (λέγεται δʼ ἓν ῥῆμα); what **they said** (ἔφασαν … εἰπεῖν αὐτόν, indirect statement with the infinitive); and his **own judgement** in the first person (οὐκ ἀγνοῶ … κρίνω).\n\n**4. Two small forms.** ἔστω, the third-person imperative of εἰμί (11.1): 'let this be for …'. τουτονί: οὗτος with the pointing suffix -ί, 'this man here'.",
+  "paradigms": [
+   "eimi"
+  ],
+  "diagram": "diagram-indirect"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings.",
+   "template": "εἷλκ___ μὲν ἀπὸ τοῦ βωμοῦ ὁ Σάτυρος, εἷλκ___ δὲ οἱ ὑπηρέται. οἱ δʼ ἀπήγαγον τὸν ἄνδρα μεγάλῃ τῇ φωνῇ δηλοῦ___ οἷα ἔπασχε … τὸ κώνειον ἔπι___.",
+   "gaps": [
+    {
+     "answers": [
+      "ε"
+     ]
+    },
+    {
+     "answers": [
+      "ον"
+     ]
+    },
+    {
+     "answers": [
+      "ντα"
+     ]
+    },
+    {
+     "answers": [
+      "ε"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.impf.vs.aor",
+    "verb.ptc.pres.act",
+    "read.hist.sources"
+   ],
+   "explain": "εἷλκε (singular, ὁ Σάτυρος) and εἷλκον (plural, οἱ ὑπηρέται); δηλοῦντα agrees with τὸν ἄνδρα; ἔπιε (aorist of πίνω)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · παραδίδομεν ὑμῖν Θηραμένην τουτονὶ κατακεκριμένον κατὰ τὸν ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "νόμον"
+    },
+    {
+     "id": "b",
+     "text": "βωμόν"
+    },
+    {
+     "id": "c",
+     "text": "θάνατον"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.hist"
+   ],
+   "explain": "κατὰ τὸν νόμον: according to the law. Critias' words are bitterly ironic.",
+   "audio": "παραδίδομεν ὑμῖν Θηραμένην τουτονὶ κατακεκριμένον κατὰ τὸν νόμον."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἡ δὲ βουλὴ ἡσυχίαν εἶχεν, ὁρῶσα τὸ ἔμπροσθεν τοῦ βουλευτηρίου πλῆρες τῶν ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "φρουρῶν"
+    },
+    {
+     "id": "b",
+     "text": "φρουρούς"
+    },
+    {
+     "id": "c",
+     "text": "φρουροῖς"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.hist",
+    "syntax.gen.uses"
+   ],
+   "explain": "πλήρης + genitive: full of guards.",
+   "audio": "ἡ δὲ βουλὴ ἡσυχίαν εἶχεν, ὁρῶσα τὸ ἔμπροσθεν τοῦ βουλευτηρίου πλῆρες τῶν φρουρῶν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · καὶ ἐπεί γε ἀποθνῄσκειν ἀναγκαζόμενος τὸ ___ ἔπιε …",
+   "options": [
+    {
+     "id": "a",
+     "text": "κώνειον"
+    },
+    {
+     "id": "b",
+     "text": "ὕδωρ"
+    },
+    {
+     "id": "c",
+     "text": "οἶνον"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "τὸ κώνειον: hemlock, as Socrates drank it five years later.",
+   "audio": "καὶ ἐπεί γε ἀποθνῄσκειν ἀναγκαζόμενος τὸ κώνειον ἔπιε."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ὁ κῆρυξ",
+   "options": [
+    {
+     "id": "a",
+     "image": "keryx"
+    },
+    {
+     "id": "b",
+     "image": "strategos"
+    },
+    {
+     "id": "c",
+     "image": "phylax"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ὁ κῆρυξ: the herald with his staff.",
+   "audio": "prompt"
+  },
+  {
+   "type": "match",
+   "prompt": "Match the words to their meanings.",
+   "pairs": [
+    {
+     "left": "οἱ τριάκοντα",
+     "right": "the Thirty"
+    },
+    {
+     "left": "ἡ βουλή",
+     "right": "the Council"
+    },
+    {
+     "left": "ὁ φρουρός",
+     "right": "guard"
+    },
+    {
+     "left": "ἀπάγω",
+     "right": "lead away, arrest"
+    },
+    {
+     "left": "ὁ θάνατος",
+     "right": "death"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.hist"
+   ],
+   "explain": "τριάκοντα, βουλή, φρουρός, ἀπάγω, θάνατος."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of ἀπάγω for 'they led away'.",
+   "lemma": "ἀπάγω",
+   "cell": "aorist.active.indicative.3pl",
+   "skills": [
+    "verb.aor2.stem",
+    "verb.augment.compound"
+   ],
+   "explain": "ἀπήγαγον: second aorist ἤγαγον with the prefix ἀπ-.",
+   "audio": "ἀπήγαγον"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the third-person imperative of εἰμί: Κριτίᾳ τοῦτʼ ___ τῷ καλῷ.",
+   "lemma": "εἰμί",
+   "cell": "present.active.imperative.3sg",
+   "skills": [
+    "verb.imp.3rd"
+   ],
+   "explain": "ἔστω: 'let it be'.",
+   "audio": "ἔστω"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the genitive plural of ὁ φρουρός.",
+   "lemma": "φρουρός",
+   "cell": "gen.pl",
+   "skills": [
+    "noun.decl2.gen.pl",
+    "vocab.hist"
+   ],
+   "explain": "φρουρῶν.",
+   "audio": "φρουρῶν"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse οἰμώξοιτο.",
+   "form": "οἰμώξοιτο",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person and number",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "1st singular"
+      },
+      {
+       "id": "2sg",
+       "label": "2nd singular"
+      },
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "1pl",
+       "label": "1st plural"
+      },
+      {
+       "id": "2pl",
+       "label": "2nd plural"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "fut",
+    "mood": "opt",
+    "person": "3sg"
+   },
+   "skills": [
+    "syntax.opt-indirect"
+   ],
+   "explain": "οἰμώξ-οιτο: future optative (οἰμώξομαι), 3rd singular. In direct speech Satyrus said οἰμώξει 'you'll be sorry'; after the past verb εἶπεν it becomes optative.",
+   "audio": "οἰμώξοιτο"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἀπαγαγόντες.",
+   "form": "ἀπαγαγόντες",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "case",
+     "label": "Case",
+     "options": [
+      {
+       "id": "nom",
+       "label": "nominative"
+      },
+      {
+       "id": "gen",
+       "label": "genitive"
+      },
+      {
+       "id": "dat",
+       "label": "dative"
+      },
+      {
+       "id": "acc",
+       "label": "accusative"
+      },
+      {
+       "id": "voc",
+       "label": "vocative"
+      }
+     ]
+    },
+    {
+     "id": "number",
+     "label": "Number",
+     "options": [
+      {
+       "id": "sg",
+       "label": "singular"
+      },
+      {
+       "id": "pl",
+       "label": "plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "mood": "ptc",
+    "case": "nom",
+    "number": "pl"
+   },
+   "skills": [
+    "verb.ptc.aor.act",
+    "verb.aor2.stem"
+   ],
+   "explain": "ἀπ-αγαγ-όντες: aorist participle of ἀπάγω, nominative plural with ὑμεῖς (οἱ ἕνδεκα).",
+   "audio": "ἀπαγαγόντες"
+  },
+  {
+   "type": "label",
+   "prompt": "ὡς εἶπεν ὁ Σάτυρος ὅτι οἰμώξοιτο, εἰ μὴ σιωπήσειεν … What did Satyrus actually say?",
+   "options": [
+    {
+     "id": "a",
+     "text": "«οἰμώξει, ἐὰν μὴ σιωπήσῃς»: 'you'll be sorry if you don't keep quiet'"
+    },
+    {
+     "id": "b",
+     "text": "«οἰμώζω, εἰ σιωπῶ»"
+    },
+    {
+     "id": "c",
+     "text": "«μὴ σιώπα»"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.opt-indirect",
+    "syntax.cond.fmv"
+   ],
+   "explain": "After a past verb the future indicative becomes future optative, and ἐάν + subjunctive becomes εἰ + optative."
+  },
+  {
+   "type": "label",
+   "prompt": "ἂν δὲ σιωπῶ, οὐκ ἄρʼ οἰμώξομαι; What kind of condition is this?",
+   "options": [
+    {
+     "id": "a",
+     "text": "future more vivid: ἄν (= ἐάν) + subjunctive, future in the main clause"
+    },
+    {
+     "id": "b",
+     "text": "contrary to fact"
+    },
+    {
+     "id": "c",
+     "text": "future less vivid with the optative"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cond.fmv"
+   ],
+   "explain": "'And if I keep quiet, won't I howl anyway?' Theramenes turns Satyrus' threat into a joke."
+  },
+  {
+   "type": "label",
+   "prompt": "λέγεται δʼ ἓν ῥῆμα … τὸ λειπόμενον ἔφασαν ἀποκοτταβίσαντα εἰπεῖν αὐτόν. What is Xenophon telling us about his source?",
+   "options": [
+    {
+     "id": "a",
+     "text": "he was not there: he reports what people said"
+    },
+    {
+     "id": "b",
+     "text": "he saw it himself"
+    },
+    {
+     "id": "c",
+     "text": "he read it in an inscription"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.hist.sources"
+   ],
+   "explain": "λέγεται 'it is said' and ἔφασαν 'they said': Xenophon keeps a distance from the anecdote."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the two words that tell us Xenophon is reporting what others said.",
+   "sentence": "λέγεται δʼ ἓν ῥῆμα καὶ τοῦτο αὐτοῦ. καὶ ἐπεί γε τὸ κώνειον ἔπιε, τὸ λειπόμενον ἔφασαν ἀποκοτταβίσαντα εἰπεῖν αὐτόν.",
+   "answer": [
+    0,
+    15
+   ],
+   "skills": [
+    "read.locate",
+    "read.hist.sources"
+   ],
+   "explain": "λέγεται, ἔφασαν."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the genitive absolute (two words) in Xenophon's last sentence.",
+   "sentence": "καὶ τοῦτο μὲν οὐκ ἀγνοῶ, ὅτι ταῦτα ἀποφθέγματα οὐκ ἀξιόλογα, ἐκεῖνο δὲ κρίνω τοῦ ἀνδρὸς ἀγαστόν, τὸ τοῦ θανάτου παρεστηκότος μήτε τὸ φρόνιμον μήτε τὸ παιγνιῶδες ἀπολιπεῖν ἐκ τῆς ψυχῆς.",
+   "answer": [
+    18,
+    19
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.gen-abs"
+   ],
+   "explain": "τοῦ θανάτου παρεστηκότος: 'with death standing beside him'."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'The Council kept quiet.'",
+   "tokens": [
+    "ἡ",
+    "βουλὴ",
+    "ἡσυχίαν",
+    "εἶχεν"
+   ],
+   "answers": [
+    "ἡ βουλὴ ἡσυχίαν εἶχεν",
+    "ἡσυχίαν εἶχεν ἡ βουλή",
+    "ἡ βουλὴ εἶχεν ἡσυχίαν"
+   ],
+   "skills": [
+    "syntax.word-order"
+   ],
+   "explain": "ἡ βουλὴ ἡσυχίαν εἶχεν."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἂν δὲ σιωπῶ, οὐκ ἄρʼ οἰμώξομαι;"
+    },
+    {
+     "id": "b",
+     "text": "ἂν δὲ λέγω, οὐκ ἄρʼ οἰμώξομαι;"
+    },
+    {
+     "id": "c",
+     "text": "ἂν δὲ σιωπῶ, οὐκ ἄρʼ ἀποθανοῦμαι;"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "'And if I keep quiet, won't I howl anyway?'",
+   "audio": "ἂν δὲ σιωπῶ, οὐκ ἄρʼ οἰμώξομαι;"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἡ βουλὴ τῷ Θηραμένει ἐβοήθησεν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἡ δὲ βουλὴ ἡσυχίαν εἶχεν: they saw the guards."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Θηραμένης μεγάλῃ τῇ φωνῇ ἐδήλου οἷα ἔπασχεν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "μάλα μεγάλῃ τῇ φωνῇ δηλοῦντα οἷα ἔπασχε."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Ξενοφῶν λέγει ὅτι τὰ τοῦ Θηραμένους ἀποφθέγματα σοφώτατά ἐστιν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension",
+    "read.hist.sources"
+   ],
+   "explain": "ταῦτα ἀποφθέγματα οὐκ ἀξιόλογα: what he admires is the man's calm."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "gaps": [
+    {
+     "answers": [
+      "λέγεται δʼ ἓν ῥῆμα καὶ τοῦτο αὐτοῦ"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "λέγεται δʼ ἓν ῥῆμα καὶ τοῦτο αὐτοῦ.",
+   "audio": "λέγεται δʼ ἓν ῥῆμα καὶ τοῦτο αὐτοῦ."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The guards led the man away.'",
+   "gaps": [
+    {
+     "answers": [
+      "οἱ φρουροὶ τὸν ἄνδρα ἀπήγαγον",
+      "οἱ φρουροὶ ἀπήγαγον τὸν ἄνδρα",
+      "τὸν ἄνδρα οἱ φρουροὶ ἀπήγαγον",
+      "τὸν ἄνδρα ἀπήγαγον οἱ φρουροί",
+      "ἀπήγαγον οἱ φρουροὶ τὸν ἄνδρα"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "vocab.hist"
+   ],
+   "explain": "οἱ φρουροὶ τὸν ἄνδρα ἀπήγαγον."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: καὶ τοῦτο μὲν οὐκ ἀγνοῶ, ὅτι ταῦτα ἀποφθέγματα οὐκ ἀξιόλογα, ἐκεῖνο δὲ κρίνω τοῦ ἀνδρὸς ἀγαστόν, τὸ τοῦ θανάτου παρεστηκότος μήτε τὸ φρόνιμον μήτε τὸ παιγνιῶδες ἀπολιπεῖν ἐκ τῆς ψυχῆς.",
+   "audio": "καὶ τοῦτο μὲν οὐκ ἀγνοῶ, ὅτι ταῦτα ἀποφθέγματα οὐκ ἀξιόλογα, ἐκεῖνο δὲ κρίνω τοῦ ἀνδρὸς ἀγαστόν, τὸ τοῦ θανάτου παρεστηκότος μήτε τὸ φρόνιμον μήτε τὸ παιγνιῶδες ἀπολιπεῖν ἐκ τῆς ψυχῆς.",
+   "model": "And I am well aware that these sayings are not worth recording; but I judge this admirable in the man, that with death standing beside him he let go of neither his good sense nor his playfulness.",
+   "skills": [
+    "read.xenophon",
+    "read.original",
+    "read.hist.sources"
+   ],
+   "explain": "μὲν … δέ: what Xenophon grants (the jokes are trivial) and what he admires; the articular infinitive τὸ … ἀπολιπεῖν is the object of κρίνω."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "ὁ θάνατος",
+     "right": "euthanasia ('a good death')"
+    },
+    {
+     "left": "ὁ νόμος",
+     "right": "autonomy, economy"
+    },
+    {
+     "left": "κρίνω",
+     "right": "critic, crisis"
+    },
+    {
+     "left": "ἡ βουλή, βουλεύω",
+     "right": "abulia ('lack of will')"
+    },
+    {
+     "left": "ἀπόφθεγμα",
+     "right": "apophthegm"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "εὖ + θάνατος; αὐτός/οἶκος + νόμος; κριτής, κρίσις; ἀ- + βουλή; ἀπό + φθέγγομαι 'speak out'."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "τίνες τὸν Θηραμένην ἀπὸ τοῦ βωμοῦ εἷλκον;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Σάτυρος καὶ οἱ ὑπηρέται."
+    },
+    {
+     "id": "b",
+     "text": "οἱ βουλευταί."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Κριτίας μόνος."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "εἷλκε μὲν ἀπὸ τοῦ βωμοῦ ὁ Σάτυρος, εἷλκον δὲ οἱ ὑπηρέται.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί ἡ βουλὴ ἡσυχίαν εἶχεν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἑώρα γὰρ τὸ βουλευτήριον πλῆρες τῶν φρουρῶν."
+    },
+    {
+     "id": "b",
+     "text": "ἐβούλετο γὰρ τὸν Θηραμένην ἀποθανεῖν."
+    },
+    {
+     "id": "c",
+     "text": "ἐκάθευδε γάρ."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὁρῶσα … τὸ ἔμπροσθεν τοῦ βουλευτηρίου πλῆρες τῶν φρουρῶν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐποίησεν ὁ Θηραμένης τῷ λειπομένῳ κωνείῳ;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀπεκοττάβισεν αὐτὸ καὶ «Κριτίᾳ» ἔφη «τοῦτʼ ἔστω τῷ καλῷ»."
+    },
+    {
+     "id": "b",
+     "text": "τῷ Σατύρῳ ἔδωκεν."
+    },
+    {
+     "id": "c",
+     "text": "οὐκ ἔπιεν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "τὸ λειπόμενον ἔφασαν ἀποκοτταβίσαντα εἰπεῖν αὐτόν· Κριτίᾳ τοῦτʼ ἔστω τῷ καλῷ.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί κρίνει ὁ Ξενοφῶν τοῦ ἀνδρὸς ἀγαστόν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὅτι οὔτε τὸ φρόνιμον οὔτε τὸ παιγνιῶδες ἀπέλιπε."
+    },
+    {
+     "id": "b",
+     "text": "ὅτι πολλὰ χρήματα εἶχεν."
+    },
+    {
+     "id": "c",
+     "text": "ὅτι ἔφυγεν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "read.hist.sources"
+   ],
+   "explain": "τὸ … μήτε τὸ φρόνιμον μήτε τὸ παιγνιῶδες ἀπολιπεῖν ἐκ τῆς ψυχῆς.",
+   "audio": "prompt"
+  }
+ ],
+ "culture": {
+  "title": "The Thirty",
+  "md": "After the surrender of 404 the returned oligarchs, backed by Lysander and a Spartan garrison on the Acropolis, had thirty men elected 'to write down the ancestral laws'. **The Thirty** wrote no laws. They limited citizenship to 3,000 of their supporters, disarmed everyone else, and killed about 1,500 Athenians and metics, many for their property; the orator Lysias' brother Polemarchus was among them (Lysias 12). Socrates was ordered to arrest Leon of Salamis and simply went home (Plato, Apology 32c).\n\nThe leader of the hard-liners was **Critias**, a poet and a former companion of Socrates, and Plato's mother's cousin. **Theramenes**, a veteran politician nicknamed 'the buskin' (κόθορνος, a boot that fits either foot) because he changed sides so often, argued for a broader regime. Critias denounced him in the Council, struck his name off the list of the Three Thousand so that he could be condemned without trial, and had him dragged from the altar. His last words parody **kottabos**, a drinking game in which a guest flung the last drops of wine at a target and named his beloved.\n\nA few months later exiles under **Thrasybulus** seized Phyle and then Piraeus; Critias was killed in the fighting at Munychia. In 403 democracy was restored with an amnesty, one of the first in history. Xenophon himself probably served in the cavalry of the city party; two years later he left Athens to join Cyrus (hist.7).",
+  "image": "hist-kottabos-kylix"
+ },
+ "quiz": [
+  {
+   "type": "produce-form",
+   "prompt": "Give the accusative singular of ἡ βουλή.",
+   "lemma": "βουλή",
+   "cell": "acc.sg",
+   "skills": [
+    "noun.decl1.acc.sg",
+    "vocab.hist"
+   ],
+   "explain": "βουλήν.",
+   "audio": "βουλήν"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἡγουμένου αὐτῶν ___ …",
+   "options": [
+    {
+     "id": "a",
+     "text": "Σατύρου"
+    },
+    {
+     "id": "b",
+     "text": "Σάτυρος"
+    },
+    {
+     "id": "c",
+     "text": "Σατύρῳ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.gen-abs"
+   ],
+   "explain": "Genitive absolute: participle and noun both genitive."
+  },
+  {
+   "type": "label",
+   "prompt": "ἔστω is …",
+   "options": [
+    {
+     "id": "a",
+     "text": "a third-person imperative of εἰμί: 'let it be'"
+    },
+    {
+     "id": "b",
+     "text": "a subjunctive"
+    },
+    {
+     "id": "c",
+     "text": "an optative"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.imp.3rd"
+   ],
+   "explain": "ἔστω, ἔστων."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Θηραμένης εἷς ἦν τῶν τριάκοντα.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "εἷς ὢν τῶν τριάκοντα."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὸ κώνειον ἔπιε"
+    },
+    {
+     "id": "b",
+     "text": "τὸν οἶνον ἔπιε"
+    },
+    {
+     "id": "c",
+     "text": "τὸ ὕδωρ ἔπιε"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "He drank the hemlock.",
+   "audio": "τὸ κώνειον ἔπιε"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἐκέλευσεν ὁ κῆρυξ τοὺς ἕνδεκα τὸν Θηραμένην ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀπάγειν"
+    },
+    {
+     "id": "b",
+     "text": "ἀπάγουσι"
+    },
+    {
+     "id": "c",
+     "text": "ἀπάγων"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.hist.terms",
+    "syntax.infinitive"
+   ],
+   "explain": "κελεύω + accusative + infinitive."
+  }
+ ],
+ "skills": [
+  "verb.impf.vs.aor",
+  "verb.ptc.pres.act",
+  "read.hist.sources",
+  "vocab.hist",
+  "syntax.gen.uses",
+  "read.comprehension",
+  "vocab.recognition",
+  "verb.aor2.stem",
+  "verb.augment.compound",
+  "verb.imp.3rd",
+  "noun.decl2.gen.pl",
+  "syntax.opt-indirect",
+  "verb.ptc.aor.act",
+  "syntax.cond.fmv",
+  "read.locate",
+  "syntax.gen-abs",
+  "syntax.word-order",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.production",
+  "read.xenophon",
+  "read.original",
+  "vocab.family",
+  "noun.decl1.acc.sg",
+  "read.hist.terms",
+  "syntax.infinitive"
+ ]
+}

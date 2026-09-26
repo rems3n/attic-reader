@@ -1,0 +1,1469 @@
+{
+ "note": "Stage 2 vocabulary allocation (DCC ids). Each unit teaches its list across its four lessons (≤ 12 new per lesson; not every word must be used). A word allocated to an earlier unit may be assumed taught by that unit: list it in the lesson's `allow` with the value 'unit N' until that unit's files exist (scripts/course_tools.py prune-allow removes the redundant ones afterwards). Anchored words belong to the unit whose grammar needs them.",
+ "units": {
+  "7": [
+   {
+    "id": "ειμι-224",
+    "lemma": "εἶμι",
+    "rank": 224,
+    "short": "I will go"
+   },
+   {
+    "id": "διδωμι",
+    "lemma": "δίδωμι",
+    "rank": 81,
+    "short": "give, grant, offer"
+   },
+   {
+    "id": "τιθημι",
+    "lemma": "τίθημι",
+    "rank": 164,
+    "short": "to put, place"
+   },
+   {
+    "id": "ιημι",
+    "lemma": "ἵημι",
+    "rank": 63,
+    "short": "put in motion, let go, shoot"
+   },
+   {
+    "id": "ταχυς",
+    "lemma": "ταχύς",
+    "rank": 225,
+    "short": "quick, fast"
+   },
+   {
+    "id": "τυγχανω",
+    "lemma": "τυγχάνω",
+    "rank": 144,
+    "short": "hit, light upon, meet by chance"
+   },
+   {
+    "id": "φαινω",
+    "lemma": "φαίνω",
+    "rank": 114,
+    "short": "bring to light, make appear, make clear"
+   },
+   {
+    "id": "λανθανω",
+    "lemma": "λανθάνω",
+    "rank": 424,
+    "short": "escape the notice of , be unknown"
+   },
+   {
+    "id": "μελλω",
+    "lemma": "μέλλω",
+    "rank": 181,
+    "short": "think of doing, intend to, be about to"
+   },
+   {
+    "id": "αμα",
+    "lemma": "ἅμα",
+    "rank": 146,
+    "short": "at the same time"
+   },
+   {
+    "id": "τε",
+    "lemma": "τε",
+    "rank": 17,
+    "short": "and"
+   },
+   {
+    "id": "ως",
+    "lemma": "ὡς",
+    "rank": 16,
+    "short": "as, since"
+   },
+   {
+    "id": "περι",
+    "lemma": "περί",
+    "rank": 31,
+    "short": "around, about"
+   },
+   {
+    "id": "δια",
+    "lemma": "διά",
+    "rank": 25,
+    "short": "through, during, because of"
+   },
+   {
+    "id": "κατα",
+    "lemma": "κατά",
+    "rank": 20,
+    "short": "down, down , throughout, according to"
+   },
+   {
+    "id": "μενδε",
+    "lemma": "μέν...δέ",
+    "rank": 10,
+    "short": "on the one hand...on the other hand"
+   },
+   {
+    "id": "ετερος",
+    "lemma": "ἕτερος",
+    "rank": 72,
+    "short": "the other"
+   },
+   {
+    "id": "απας",
+    "lemma": "ἅπας",
+    "rank": 91,
+    "short": "all together"
+   },
+   {
+    "id": "χραομαι",
+    "lemma": "χράομαι",
+    "rank": 104,
+    "short": "use, experience, suffer"
+   },
+   {
+    "id": "υπερ",
+    "lemma": "ὑπέρ",
+    "rank": 128,
+    "short": "for , beyond"
+   },
+   {
+    "id": "συμβαινω",
+    "lemma": "συμβαίνω",
+    "rank": 154,
+    "short": "meet, come to an agreement, correspond"
+   },
+   {
+    "id": "ολιγος",
+    "lemma": "ὀλίγος",
+    "rank": 168,
+    "short": "little, small, few"
+   },
+   {
+    "id": "ειτα",
+    "lemma": "εἶτα",
+    "rank": 178,
+    "short": "then, next"
+   },
+   {
+    "id": "παρειμι",
+    "lemma": "πάρειμι",
+    "rank": 194,
+    "short": "be present, be ready or at hand"
+   },
+   {
+    "id": "υμετερος",
+    "lemma": "ὑμέτερος",
+    "rank": 207,
+    "short": "your, yours (pl."
+   },
+   {
+    "id": "ελαττων",
+    "lemma": "ἐλάττων",
+    "rank": 220,
+    "short": "smaller, less, fewer"
+   },
+   {
+    "id": "αμφοτερος",
+    "lemma": "ἀμφότερος",
+    "rank": 233,
+    "short": "both"
+   },
+   {
+    "id": "τελος",
+    "lemma": "τέλος",
+    "rank": 240,
+    "short": "end, fulfillment, achievement"
+   },
+   {
+    "id": "ερομαι",
+    "lemma": "ἔρομαι",
+    "rank": 247,
+    "short": "ask, ask one about"
+   },
+   {
+    "id": "σχημα",
+    "lemma": "σχῆμα",
+    "rank": 257,
+    "short": "form, figure, appearance, character"
+   },
+   {
+    "id": "προστιθημι",
+    "lemma": "προστίθημι",
+    "rank": 266,
+    "short": "add"
+   },
+   {
+    "id": "καθιστημι",
+    "lemma": "καθίστημι",
+    "rank": 272,
+    "short": "set down, establish"
+   },
+   {
+    "id": "εθνος",
+    "lemma": "ἔθνος",
+    "rank": 283,
+    "short": "nation"
+   },
+   {
+    "id": "αναιρεω",
+    "lemma": "ἀναιρέω",
+    "rank": 291,
+    "short": "raise, take up"
+   },
+   {
+    "id": "ηττων",
+    "lemma": "ἥττων",
+    "rank": 302,
+    "short": "less, weaker"
+   },
+   {
+    "id": "προσωπον",
+    "lemma": "πρόσωπον",
+    "rank": 313,
+    "short": "face, mask, person"
+   },
+   {
+    "id": "ικανος",
+    "lemma": "ἱκανός",
+    "rank": 321,
+    "short": "sufficient, enough"
+   },
+   {
+    "id": "οθεν",
+    "lemma": "ὅθεν",
+    "rank": 328,
+    "short": "from where, whence"
+   },
+   {
+    "id": "αληθεια",
+    "lemma": "ἀλήθεια",
+    "rank": 334,
+    "short": "truth"
+   },
+   {
+    "id": "πραξις",
+    "lemma": "πρᾶξις",
+    "rank": 343,
+    "short": "action, transaction, business"
+   },
+   {
+    "id": "καιτοι",
+    "lemma": "καίτοι",
+    "rank": 352,
+    "short": "and indeed, and yet"
+   },
+   {
+    "id": "αδικεω",
+    "lemma": "ἀδικέω",
+    "rank": 360,
+    "short": "do wrong"
+   },
+   {
+    "id": "λαος",
+    "lemma": "λαός",
+    "rank": 367,
+    "short": "the people, folk"
+   },
+   {
+    "id": "θαυμαζω",
+    "lemma": "θαυμάζω",
+    "rank": 376,
+    "short": "to be in awe , be astonished"
+   }
+  ],
+  "8": [
+   {
+    "id": "εαν",
+    "lemma": "ἐάν",
+    "rank": 24,
+    "short": "if"
+   },
+   {
+    "id": "ινα",
+    "lemma": "ἵνα",
+    "rank": 126,
+    "short": "in order that"
+   },
+   {
+    "id": "οπως",
+    "lemma": "ὅπως",
+    "rank": 197,
+    "short": "how, as"
+   },
+   {
+    "id": "αν",
+    "lemma": "ἄν",
+    "rank": 34,
+    "short": "[marks verbs as potential , or generalizing ]"
+   },
+   {
+    "id": "οστις",
+    "lemma": "ὅστις",
+    "rank": 33,
+    "short": "anyone who, anything which"
+   },
+   {
+    "id": "οταν",
+    "lemma": "ὅταν",
+    "rank": 108,
+    "short": "whenever"
+   },
+   {
+    "id": "οτι",
+    "lemma": "ὅτι",
+    "rank": 37,
+    "short": "because, that"
+   },
+   {
+    "id": "δεικνυμι",
+    "lemma": "δείκνυμι",
+    "rank": 160,
+    "short": "show, point out"
+   },
+   {
+    "id": "υπο",
+    "lemma": "ὑπό",
+    "rank": 42,
+    "short": "under"
+   },
+   {
+    "id": "δοκεω",
+    "lemma": "δοκέω",
+    "rank": 71,
+    "short": "think, suppose, imagine"
+   },
+   {
+    "id": "δεω",
+    "lemma": "δέω",
+    "rank": 64,
+    "short": "lack, miss, stand in need of"
+   },
+   {
+    "id": "χρη",
+    "lemma": "χρή",
+    "rank": 159,
+    "short": "it is necessary, it is fated, one ought"
+   },
+   {
+    "id": "νομος",
+    "lemma": "νόμος",
+    "rank": 169,
+    "short": "custom, tradition, law"
+   },
+   {
+    "id": "δημος",
+    "lemma": "δῆμος",
+    "rank": 299,
+    "short": "the  people"
+   },
+   {
+    "id": "επει",
+    "lemma": "ἐπεί",
+    "rank": 75,
+    "short": "after, since, when"
+   },
+   {
+    "id": "οτε",
+    "lemma": "ὅτε",
+    "rank": 185,
+    "short": "when, whenever"
+   },
+   {
+    "id": "πειθω",
+    "lemma": "πείθω",
+    "rank": 193,
+    "short": "persuade, win over"
+   },
+   {
+    "id": "πολυς",
+    "lemma": "πολύς",
+    "rank": 30,
+    "short": "much, many"
+   },
+   {
+    "id": "ωσπερ",
+    "lemma": "ὥσπερ",
+    "rank": 80,
+    "short": "just as, as if"
+   },
+   {
+    "id": "ομοιος",
+    "lemma": "ὅμοιος",
+    "rank": 92,
+    "short": "like, resembling"
+   },
+   {
+    "id": "χρονος",
+    "lemma": "χρόνος",
+    "rank": 106,
+    "short": "time"
+   },
+   {
+    "id": "τοπος",
+    "lemma": "τόπος",
+    "rank": 133,
+    "short": "place"
+   },
+   {
+    "id": "τοτε",
+    "lemma": "τότε",
+    "rank": 157,
+    "short": "then, at that time"
+   },
+   {
+    "id": "κοινος",
+    "lemma": "κοινός",
+    "rank": 170,
+    "short": "common, shared, mutual"
+   },
+   {
+    "id": "εθελω",
+    "lemma": "ἐθέλω",
+    "rank": 182,
+    "short": "wish"
+   },
+   {
+    "id": "πλειστος",
+    "lemma": "πλεῖστος",
+    "rank": 195,
+    "short": "most, greatest, largest"
+   },
+   {
+    "id": "πνευμα",
+    "lemma": "πνεῦμα",
+    "rank": 212,
+    "short": "wind, breath, spirit"
+   },
+   {
+    "id": "ευθυς",
+    "lemma": "εὐθύς",
+    "rank": 223,
+    "short": "straight, direct"
+   },
+   {
+    "id": "σημειον",
+    "lemma": "σημεῖον",
+    "rank": 234,
+    "short": "sign, signal, mark"
+   },
+   {
+    "id": "αξιος",
+    "lemma": "ἄξιος",
+    "rank": 242,
+    "short": "worthy, deserving"
+   },
+   {
+    "id": "αδελφος",
+    "lemma": "ἀδελφός",
+    "rank": 248,
+    "short": "brother"
+   },
+   {
+    "id": "τροφη",
+    "lemma": "τροφή",
+    "rank": 258,
+    "short": "nourishment, food"
+   },
+   {
+    "id": "αξιοω",
+    "lemma": "ἀξιόω",
+    "rank": 267,
+    "short": "consider worthy"
+   },
+   {
+    "id": "χρημα",
+    "lemma": "χρῆμα",
+    "rank": 274,
+    "short": "thing, matter"
+   },
+   {
+    "id": "αποδιδωμι",
+    "lemma": "ἀποδίδωμι",
+    "rank": 284,
+    "short": "give back"
+   },
+   {
+    "id": "ηκω",
+    "lemma": "ἥκω",
+    "rank": 293,
+    "short": "I have come, I am present"
+   },
+   {
+    "id": "πλην",
+    "lemma": "πλήν",
+    "rank": 304,
+    "short": "except"
+   },
+   {
+    "id": "πιστευω",
+    "lemma": "πιστεύω",
+    "rank": 314,
+    "short": "trust, rely on, believe in"
+   },
+   {
+    "id": "εργαζομαι",
+    "lemma": "ἐργάζομαι",
+    "rank": 322,
+    "short": "work, labor"
+   },
+   {
+    "id": "στομα",
+    "lemma": "στόμα",
+    "rank": 329,
+    "short": "mouth, face, opening"
+   },
+   {
+    "id": "χωριον",
+    "lemma": "χωρίον",
+    "rank": 336,
+    "short": "place, spot, district"
+   },
+   {
+    "id": "σαφης",
+    "lemma": "σαφής",
+    "rank": 344,
+    "short": "clear, distinct, plain"
+   },
+   {
+    "id": "πλεον",
+    "lemma": "πλέον",
+    "rank": 353,
+    "short": "more, rather"
+   },
+   {
+    "id": "στρατηγος",
+    "lemma": "στρατηγός",
+    "rank": 361,
+    "short": "leader of an army, commander, general"
+   }
+  ],
+  "9": [
+   {
+    "id": "φημι",
+    "lemma": "φημί",
+    "rank": 41,
+    "short": "say, assert, declare"
+   },
+   {
+    "id": "νομιζω",
+    "lemma": "νομίζω",
+    "rank": 200,
+    "short": "think, believe that"
+   },
+   {
+    "id": "οιομαι",
+    "lemma": "οἴομαι",
+    "rank": 171,
+    "short": "think, suppose, imagine"
+   },
+   {
+    "id": "ειπον",
+    "lemma": "εἶπον",
+    "rank": 57,
+    "short": "I said, I spoke, 2 aor. → λέγω, φημί"
+   },
+   {
+    "id": "πασχω",
+    "lemma": "πάσχω",
+    "rank": 173,
+    "short": "suffer, experience, be affected in a certain way"
+   },
+   {
+    "id": "οιος",
+    "lemma": "οἷος",
+    "rank": 69,
+    "short": "such as, of what sort, like,  what a!, how!"
+   },
+   {
+    "id": "τοιουτος",
+    "lemma": "τοιοῦτος",
+    "rank": 55,
+    "short": "such, of such a sort"
+   },
+   {
+    "id": "τοσουτος",
+    "lemma": "τοσοῦτος",
+    "rank": 176,
+    "short": "so large, so much"
+   },
+   {
+    "id": "οσος",
+    "lemma": "ὅσος",
+    "rank": 76,
+    "short": "however much"
+   },
+   {
+    "id": "παρα",
+    "lemma": "παρά",
+    "rank": 46,
+    "short": "from"
+   },
+   {
+    "id": "αντι",
+    "lemma": "ἀντί",
+    "rank": 209,
+    "short": "opposite"
+   },
+   {
+    "id": "προ",
+    "lemma": "πρό",
+    "rank": 203,
+    "short": "before, in front of"
+   },
+   {
+    "id": "ανα",
+    "lemma": "ἀνά",
+    "rank": 36,
+    "short": "up, on"
+   },
+   {
+    "id": "ετι",
+    "lemma": "ἔτι",
+    "rank": 82,
+    "short": "still, yet"
+   },
+   {
+    "id": "δυναμις",
+    "lemma": "δύναμις",
+    "rank": 95,
+    "short": "power, strength, ability"
+   },
+   {
+    "id": "μονον",
+    "lemma": "μόνον",
+    "rank": 109,
+    "short": "only"
+   },
+   {
+    "id": "πραττω",
+    "lemma": "πράττω",
+    "rank": 134,
+    "short": "do, achieve, accomplish"
+   },
+   {
+    "id": "ζωον",
+    "lemma": "ζῷον",
+    "rank": 161,
+    "short": "living being, animal"
+   },
+   {
+    "id": "κινεω",
+    "lemma": "κινέω",
+    "rank": 172,
+    "short": "set in motion, move, rouse"
+   },
+   {
+    "id": "λοιπος",
+    "lemma": "λοιπός",
+    "rank": 183,
+    "short": "rest, remaining, rest-of-the"
+   },
+   {
+    "id": "ειδος",
+    "lemma": "εἶδος",
+    "rank": 196,
+    "short": "form, shape, figure"
+   },
+   {
+    "id": "ορθος",
+    "lemma": "ὀρθός",
+    "rank": 213,
+    "short": "upright, straight, true, regular"
+   },
+   {
+    "id": "ουσια",
+    "lemma": "οὐσία",
+    "rank": 227,
+    "short": "substance, property"
+   },
+   {
+    "id": "παρεχω",
+    "lemma": "παρέχω",
+    "rank": 235,
+    "short": "provide, present, offer"
+   },
+   {
+    "id": "η-243",
+    "lemma": "ἦ",
+    "rank": 243,
+    "short": "truly"
+   },
+   {
+    "id": "μεγεθος",
+    "lemma": "μέγεθος",
+    "rank": 249,
+    "short": "greatness, size, magnitude"
+   },
+   {
+    "id": "ενταυθα",
+    "lemma": "ἐνταῦθα",
+    "rank": 260,
+    "short": "here, there"
+   },
+   {
+    "id": "εως",
+    "lemma": "ἕως",
+    "rank": 268,
+    "short": "until"
+   },
+   {
+    "id": "φωνη",
+    "lemma": "φωνή",
+    "rank": 277,
+    "short": "sound, voice"
+   },
+   {
+    "id": "αποθνησκω",
+    "lemma": "ἀποθνῄσκω",
+    "rank": 287,
+    "short": "die"
+   },
+   {
+    "id": "ηδονη",
+    "lemma": "ἡδονή",
+    "rank": 294,
+    "short": "pleasure, enjoyment"
+   },
+   {
+    "id": "δυνατος",
+    "lemma": "δυνατός",
+    "rank": 306,
+    "short": "strong, powerful, able"
+   },
+   {
+    "id": "ανω",
+    "lemma": "ἄνω",
+    "rank": 316,
+    "short": "up, upwards"
+   },
+   {
+    "id": "μαχη",
+    "lemma": "μάχη",
+    "rank": 323,
+    "short": "battle"
+   },
+   {
+    "id": "χωρις",
+    "lemma": "χωρίς",
+    "rank": 330,
+    "short": "separately, apart"
+   },
+   {
+    "id": "ηδυς",
+    "lemma": "ἡδύς",
+    "rank": 337,
+    "short": "sweet, pleasant"
+   },
+   {
+    "id": "ομολογεω",
+    "lemma": "ὁμολογέω",
+    "rank": 347,
+    "short": "agree with, say the same thing as"
+   },
+   {
+    "id": "πλεων",
+    "lemma": "πλέων",
+    "rank": 354,
+    "short": "more, larger"
+   },
+   {
+    "id": "ουκετι",
+    "lemma": "οὐκέτι",
+    "rank": 362,
+    "short": "no longer, no more"
+   },
+   {
+    "id": "παραδιδωμι",
+    "lemma": "παραδίδωμι",
+    "rank": 370,
+    "short": "transmit, hand over, surrender"
+   },
+   {
+    "id": "αισθανομαι",
+    "lemma": "αἰσθάνομαι",
+    "rank": 377,
+    "short": "perceive, understand, hear, learn"
+   }
+  ],
+  "10": [
+   {
+    "id": "οιδα",
+    "lemma": "οἶδα",
+    "rank": 110,
+    "short": "to know"
+   },
+   {
+    "id": "ει",
+    "lemma": "εἰ",
+    "rank": 38,
+    "short": "if"
+   },
+   {
+    "id": "ωστε",
+    "lemma": "ὥστε",
+    "rank": 86,
+    "short": "so as, so that,  that"
+   },
+   {
+    "id": "πριν",
+    "lemma": "πρίν",
+    "rank": 359,
+    "short": "before, until"
+   },
+   {
+    "id": "αρετη",
+    "lemma": "ἀρετή",
+    "rank": 206,
+    "short": "goodness, excellence"
+   },
+   {
+    "id": "ψυχη",
+    "lemma": "ψυχή",
+    "rank": 117,
+    "short": "breath, life, soul"
+   },
+   {
+    "id": "φυσις",
+    "lemma": "φύσις",
+    "rank": 83,
+    "short": "nature"
+   },
+   {
+    "id": "δικαιος",
+    "lemma": "δίκαιος",
+    "rank": 180,
+    "short": "right, just"
+   },
+   {
+    "id": "δοξα",
+    "lemma": "δόξα",
+    "rank": 217,
+    "short": "opinion, judgment"
+   },
+   {
+    "id": "αναγκη",
+    "lemma": "ἀνάγκη",
+    "rank": 184,
+    "short": "necessity"
+   },
+   {
+    "id": "ζαω",
+    "lemma": "ζάω",
+    "rank": 189,
+    "short": "live"
+   },
+   {
+    "id": "βιος",
+    "lemma": "βίος",
+    "rank": 199,
+    "short": "life"
+   },
+   {
+    "id": "μαλλον",
+    "lemma": "μᾶλλον",
+    "rank": 98,
+    "short": "more, rather"
+   },
+   {
+    "id": "μαλιστα",
+    "lemma": "μάλιστα",
+    "rank": 121,
+    "short": "most, most of all"
+   },
+   {
+    "id": "ουτως",
+    "lemma": "οὕτως",
+    "rank": 47,
+    "short": "in this way"
+   },
+   {
+    "id": "αρχη",
+    "lemma": "ἀρχή",
+    "rank": 87,
+    "short": "beginning, origin"
+   },
+   {
+    "id": "κυριος",
+    "lemma": "κύριος",
+    "rank": 97,
+    "short": "lord, master"
+   },
+   {
+    "id": "υπαρχω",
+    "lemma": "ὑπάρχω",
+    "rank": 122,
+    "short": "exist, be, belong to"
+   },
+   {
+    "id": "ιδιος",
+    "lemma": "ἴδιος",
+    "rank": 141,
+    "short": "one’s own"
+   },
+   {
+    "id": "πραγμα",
+    "lemma": "πρᾶγμα",
+    "rank": 162,
+    "short": "thing"
+   },
+   {
+    "id": "πως",
+    "lemma": "πῶς",
+    "rank": 174,
+    "short": "how?"
+   },
+   {
+    "id": "χωρα",
+    "lemma": "χώρα",
+    "rank": 188,
+    "short": "land"
+   },
+   {
+    "id": "κυκλος",
+    "lemma": "κύκλος",
+    "rank": 201,
+    "short": "circle, ring, orb, disc, circular motion"
+   },
+   {
+    "id": "διαφερω",
+    "lemma": "διαφέρω",
+    "rank": 215,
+    "short": "carry in different ways, spread"
+   },
+   {
+    "id": "αριθμος",
+    "lemma": "ἀριθμός",
+    "rank": 228,
+    "short": "number"
+   },
+   {
+    "id": "εκατερος",
+    "lemma": "ἑκάτερος",
+    "rank": 236,
+    "short": "each"
+   },
+   {
+    "id": "δηλος",
+    "lemma": "δῆλος",
+    "rank": 244,
+    "short": "visible, clear, manifest"
+   },
+   {
+    "id": "ειτεειτε",
+    "lemma": "εἴτε…εἴτε",
+    "rank": 250,
+    "short": "whether…or"
+   },
+   {
+    "id": "κοσμος",
+    "lemma": "κόσμος",
+    "rank": 263,
+    "short": "order"
+   },
+   {
+    "id": "νεος",
+    "lemma": "νέος",
+    "rank": 269,
+    "short": "young, new, fresh"
+   },
+   {
+    "id": "ενεκα",
+    "lemma": "ἕνεκα",
+    "rank": 278,
+    "short": "on account of, for the sake of"
+   },
+   {
+    "id": "πανυ",
+    "lemma": "πάνυ",
+    "rank": 288,
+    "short": "altogether, entirely"
+   },
+   {
+    "id": "δεινος",
+    "lemma": "δεινός",
+    "rank": 296,
+    "short": "awesome, terrible"
+   },
+   {
+    "id": "αφαιρεω",
+    "lemma": "ἀφαιρέω",
+    "rank": 310,
+    "short": "take from, take away"
+   },
+   {
+    "id": "ταττω",
+    "lemma": "τάττω",
+    "rank": 317,
+    "short": "arrange, put in order"
+   },
+   {
+    "id": "τρεφω",
+    "lemma": "τρέφω",
+    "rank": 324,
+    "short": "nourish, feed, support, maintain"
+   },
+   {
+    "id": "κρειττων",
+    "lemma": "κρείττων",
+    "rank": 331,
+    "short": "stronger, mightier"
+   },
+   {
+    "id": "παλαιος",
+    "lemma": "παλαιός",
+    "rank": 340,
+    "short": "old, ancient"
+   },
+   {
+    "id": "αυ",
+    "lemma": "αὖ",
+    "rank": 349,
+    "short": "moreover"
+   },
+   {
+    "id": "γνωμη",
+    "lemma": "γνώμη",
+    "rank": 355,
+    "short": "thought, intelligence, opinion, purpose"
+   },
+   {
+    "id": "πρεσβυς",
+    "lemma": "πρέσβυς",
+    "rank": 363,
+    "short": "old man"
+   },
+   {
+    "id": "εξω",
+    "lemma": "ἔξω",
+    "rank": 371,
+    "short": "outside"
+   },
+   {
+    "id": "τεκνον",
+    "lemma": "τέκνον",
+    "rank": 380,
+    "short": "child"
+   }
+  ],
+  "11": [
+   {
+    "id": "ουδεις",
+    "lemma": "οὐδείς",
+    "rank": 56,
+    "short": "no one, nothing"
+   },
+   {
+    "id": "μηδεις",
+    "lemma": "μηδείς",
+    "rank": 118,
+    "short": "no one, nothing"
+   },
+   {
+    "id": "ουδε",
+    "lemma": "οὐδέ",
+    "rank": 53,
+    "short": "and not, but not, nor"
+   },
+   {
+    "id": "μηδε",
+    "lemma": "μηδέ",
+    "rank": 167,
+    "short": "and not"
+   },
+   {
+    "id": "ουτεουτε",
+    "lemma": "οὔτε...οὔτε",
+    "rank": 68,
+    "short": "neither...nor"
+   },
+   {
+    "id": "μητεμητε",
+    "lemma": "μήτε...μήτε",
+    "rank": 149,
+    "short": "neither...nor"
+   },
+   {
+    "id": "γε",
+    "lemma": "γε",
+    "rank": 59,
+    "short": "indeed"
+   },
+   {
+    "id": "δη",
+    "lemma": "δή",
+    "rank": 60,
+    "short": "surely, really, now, in fact, indeed"
+   },
+   {
+    "id": "μεντοι",
+    "lemma": "μέντοι",
+    "rank": 205,
+    "short": "however"
+   },
+   {
+    "id": "αρα",
+    "lemma": "ἄρα",
+    "rank": 102,
+    "short": "therefore, then"
+   },
+   {
+    "id": "μην",
+    "lemma": "μήν",
+    "rank": 158,
+    "short": "[emphasizes preceding particle]"
+   },
+   {
+    "id": "δικη",
+    "lemma": "δίκη",
+    "rank": 335,
+    "short": "justice, lawsuit, trial, penalty"
+   },
+   {
+    "id": "αιτιος",
+    "lemma": "αἴτιος",
+    "rank": 119,
+    "short": "responsible, guilty"
+   },
+   {
+    "id": "ισος",
+    "lemma": "ἴσος",
+    "rank": 107,
+    "short": "equal, the same as"
+   },
+   {
+    "id": "προτερος",
+    "lemma": "πρότερος",
+    "rank": 48,
+    "short": "before, earlier"
+   },
+   {
+    "id": "εκαστος",
+    "lemma": "ἕκαστος",
+    "rank": 88,
+    "short": "each"
+   },
+   {
+    "id": "ολος",
+    "lemma": "ὅλος",
+    "rank": 100,
+    "short": "whole, entire, complete"
+   },
+   {
+    "id": "αρχω",
+    "lemma": "ἄρχω",
+    "rank": 123,
+    "short": "begin"
+   },
+   {
+    "id": "τροπος",
+    "lemma": "τρόπος",
+    "rank": 148,
+    "short": "way, manner, fashion"
+   },
+   {
+    "id": "εναντιος",
+    "lemma": "ἐναντίος",
+    "rank": 163,
+    "short": "opposite, facing"
+   },
+   {
+    "id": "οσπερ",
+    "lemma": "ὅσπερ",
+    "rank": 175,
+    "short": "the very one who, the very thing which"
+   },
+   {
+    "id": "πληθος",
+    "lemma": "πλῆθος",
+    "rank": 190,
+    "short": "mass, throng, crowd"
+   },
+   {
+    "id": "παθος",
+    "lemma": "πάθος",
+    "rank": 202,
+    "short": "incident, accident, misfortune, experience"
+   },
+   {
+    "id": "μεχρι",
+    "lemma": "μέχρι",
+    "rank": 216,
+    "short": "until"
+   },
+   {
+    "id": "υστερος",
+    "lemma": "ὕστερος",
+    "rank": 229,
+    "short": "coming after, following"
+   },
+   {
+    "id": "οικειος",
+    "lemma": "οἰκεῖος",
+    "rank": 238,
+    "short": "domestic, of the house"
+   },
+   {
+    "id": "τοινυν",
+    "lemma": "τοίνυν",
+    "rank": 245,
+    "short": "therefore, accordingly"
+   },
+   {
+    "id": "κειμαι",
+    "lemma": "κεῖμαι",
+    "rank": 251,
+    "short": "to lie, be situated, be laid up in store, be…"
+   },
+   {
+    "id": "αιμα",
+    "lemma": "αἷμα",
+    "rank": 264,
+    "short": "blood"
+   },
+   {
+    "id": "εοικα",
+    "lemma": "ἔοικα",
+    "rank": 270,
+    "short": "be like, look like"
+   },
+   {
+    "id": "απολλυμι",
+    "lemma": "ἀπόλλυμι",
+    "rank": 279,
+    "short": "kill, destroy"
+   },
+   {
+    "id": "ευ",
+    "lemma": "εὖ",
+    "rank": 289,
+    "short": "well"
+   },
+   {
+    "id": "διαφορα",
+    "lemma": "διαφορά",
+    "rank": 297,
+    "short": "difference, disagreement"
+   },
+   {
+    "id": "τυχη",
+    "lemma": "τύχη",
+    "rank": 311,
+    "short": "luck, fortune , fate, chance"
+   },
+   {
+    "id": "οφθαλμος",
+    "lemma": "ὀφθαλμός",
+    "rank": 318,
+    "short": "eye"
+   },
+   {
+    "id": "αδυνατος",
+    "lemma": "ἀδύνατος",
+    "rank": 325,
+    "short": "impossible"
+   },
+   {
+    "id": "βραχυς",
+    "lemma": "βραχύς",
+    "rank": 332,
+    "short": "brief, short"
+   },
+   {
+    "id": "αφιημι",
+    "lemma": "ἀφίημι",
+    "rank": 341,
+    "short": "send away, let go"
+   },
+   {
+    "id": "πατρις",
+    "lemma": "πατρίς",
+    "rank": 350,
+    "short": "fatherland"
+   },
+   {
+    "id": "μεταξυ",
+    "lemma": "μεταξύ",
+    "rank": 357,
+    "short": "between"
+   },
+   {
+    "id": "τελευταω",
+    "lemma": "τελευτάω",
+    "rank": 365,
+    "short": "finish"
+   },
+   {
+    "id": "επιστημη",
+    "lemma": "ἐπιστήμη",
+    "rank": 374,
+    "short": "knowledge, understanding, skill"
+   }
+  ],
+  "12": [
+   {
+    "id": "μονος",
+    "lemma": "μόνος",
+    "rank": 67,
+    "short": "alone, single"
+   },
+   {
+    "id": "φυω",
+    "lemma": "φύω",
+    "rank": 90,
+    "short": "bring forth, produce, beget"
+   },
+   {
+    "id": "μερος",
+    "lemma": "μέρος",
+    "rank": 101,
+    "short": "part, share"
+   },
+   {
+    "id": "ονομα",
+    "lemma": "ὄνομα",
+    "rank": 127,
+    "short": "name"
+   },
+   {
+    "id": "μεσος",
+    "lemma": "μέσος",
+    "rank": 150,
+    "short": "middle, in the middle, moderate"
+   },
+   {
+    "id": "ειδον",
+    "lemma": "εἶδον",
+    "rank": 165,
+    "short": "I saw"
+   },
+   {
+    "id": "συν",
+    "lemma": "σύν",
+    "rank": 177,
+    "short": "with"
+   },
+   {
+    "id": "αιτια",
+    "lemma": "αἰτία",
+    "rank": 192,
+    "short": "cause, origin"
+   },
+   {
+    "id": "ονομαζω",
+    "lemma": "ὀνομάζω",
+    "rank": 204,
+    "short": "call by name"
+   },
+   {
+    "id": "κεφαλη",
+    "lemma": "κεφαλή",
+    "rank": 218,
+    "short": "head"
+   },
+   {
+    "id": "καιρος",
+    "lemma": "καιρός",
+    "rank": 231,
+    "short": "the right time"
+   },
+   {
+    "id": "κελευω",
+    "lemma": "κελεύω",
+    "rank": 239,
+    "short": "order, bid, command"
+   },
+   {
+    "id": "πολεμιος",
+    "lemma": "πολέμιος",
+    "rank": 246,
+    "short": "hostile"
+   },
+   {
+    "id": "χαρις",
+    "lemma": "χάρις",
+    "rank": 254,
+    "short": "splendor, honor, glory"
+   },
+   {
+    "id": "αιρεω",
+    "lemma": "αἱρέω",
+    "rank": 265,
+    "short": "take, grasp, take by force"
+   },
+   {
+    "id": "καν",
+    "lemma": "κἄν",
+    "rank": 271,
+    "short": "even if"
+   },
+   {
+    "id": "θανατος",
+    "lemma": "θάνατος",
+    "rank": 280,
+    "short": "death"
+   },
+   {
+    "id": "κρινω",
+    "lemma": "κρίνω",
+    "rank": 290,
+    "short": "judge, decide, determine"
+   },
+   {
+    "id": "κρατεω",
+    "lemma": "κρατέω",
+    "rank": 298,
+    "short": "be victorious, conquer, rule, surpass, excel"
+   },
+   {
+    "id": "φανερος",
+    "lemma": "φανερός",
+    "rank": 312,
+    "short": "clear, evident"
+   },
+   {
+    "id": "δεχομαι",
+    "lemma": "δέχομαι",
+    "rank": 319,
+    "short": "take, accept"
+   },
+   {
+    "id": "ακριβης",
+    "lemma": "ἀκριβής",
+    "rank": 326,
+    "short": "exact, accurate, precise"
+   },
+   {
+    "id": "ισχυρος",
+    "lemma": "ἰσχυρός",
+    "rank": 333,
+    "short": "strong"
+   },
+   {
+    "id": "αλλως",
+    "lemma": "ἄλλως",
+    "rank": 342,
+    "short": "otherwise"
+   },
+   {
+    "id": "οξυς",
+    "lemma": "ὀξύς",
+    "rank": 351,
+    "short": "sharp, keen, shrill, pungent"
+   },
+   {
+    "id": "προσηκω",
+    "lemma": "προσήκω",
+    "rank": 358,
+    "short": "belong to, have to do with"
+   },
+   {
+    "id": "μιγνυμι",
+    "lemma": "μίγνυμι",
+    "rank": 366,
+    "short": "mix, mingle"
+   },
+   {
+    "id": "εαω",
+    "lemma": "ἐάω",
+    "rank": 375,
+    "short": "allow, permit"
+   }
+  ]
+ }
+}

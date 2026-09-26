@@ -1,0 +1,1588 @@
+{
+  "id": "phil.4",
+  "title_grc": "ὁ παῖς καὶ τὸ τετράγωνον",
+  "title_en": "The slave boy and the square",
+  "summary_grc": "ὁ Σωκράτης τὸν τοῦ Μένωνος ἀκόλουθον περὶ τοῦ τετραγώνου ἐρωτᾷ· οὐδὲν διδάσκει, ἀλλ’ ἐρωτᾷ πάντα.",
+  "summary_en": "To show that learning is recollection, Socrates questions Meno's young slave about a square: two feet a side, four square feet; and the double square? The boy thinks he knows. Plato's Meno 82, lightly cut: questions that expect an answer (οὐκοῦν, ἄλλο τι ἤ), ways of saying yes and no, and the potential optative in an argument.",
+  "cover": "phil-panel-4-b",
+  "caption_grc": "Σωκράτης: ὁρᾷς, ὦ Μένων, ὡς ἐγὼ τοῦτον οὐδὲν διδάσκω, ἀλλ’ ἐρωτῶ πάντα;",
+  "original": {
+    "text": "plato-meno-82a",
+    "note": "Plato, Meno 82a–e, lightly cut: the words are Plato's, with a few exchanges left out; the first sentence and the last two are a frame in simple Greek. The dialogue is set in Athens about 402 BC; Plato wrote it in the 380s, around the time he founded the Academy."
+  },
+  "names": {
+    "Μένων": [
+      "Μένωνος",
+      "Μένωνι",
+      "Μένωνα",
+      "Μένων"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "phil-panel-4-a",
+      "sentences": [
+        {
+          "text": "ὁ Μένων ἐρωτᾷ εἰ ἡ ἀρετὴ διδακτόν ἐστιν· ὁ δὲ Σωκράτης λέγει ὅτι ἡ μάθησις ἀνάμνησίς ἐστιν.",
+          "glosses": [
+            {
+              "word": "διδακτόν",
+              "kind": "<",
+              "value": "διδάσκω | διδακτός (teachable)"
+            },
+            {
+              "word": "μάθησις",
+              "kind": "<",
+              "value": "μανθάνω | ἡ μάθησις (learning)"
+            },
+            {
+              "word": "ἀνάμνησίς",
+              "kind": "en",
+              "value": "recollection (ἡ ἀνάμνησις, -εως)"
+            }
+          ]
+        },
+        {
+          "text": "Σωκράτης: καὶ νῦν ἐρωτᾷς εἰ ἔχω σε διδάξαι, ὃς οὔ φημι διδαχὴν εἶναι ἀλλ’ ἀνάμνησιν.",
+          "orig": [
+            0
+          ],
+          "glosses": [
+            {
+              "word": "ἔχω",
+              "kind": "note",
+              "value": "ἔχω + infinitive: I am able to"
+            },
+            {
+              "word": "διδαχὴν",
+              "kind": "<",
+              "value": "διδάσκω | ἡ διδαχή (teaching)"
+            }
+          ]
+        },
+        {
+          "text": "Μένων: ἀλλ’ εἴ πώς μοι ἔχεις ἐνδείξασθαι ὅτι ἔχει ὥσπερ λέγεις, ἔνδειξαι.",
+          "orig": [
+            2
+          ],
+          "glosses": [
+            {
+              "word": "ἐνδείξασθαι",
+              "kind": "|",
+              "value": "ἐν + δείκνυμι | ἐνδείκνυμαι (show, prove)"
+            },
+            {
+              "word": "ἔνδειξαι",
+              "kind": "|",
+              "value": "ἐνδείκνυμαι | ἔνδειξαι (aorist imperative: show!)"
+            },
+            {
+              "word": "ἔχει",
+              "kind": "note",
+              "value": "ἔχει ὥσπερ λέγεις: it is as you say (ἔχω + adverb: be)"
+            }
+          ]
+        },
+        {
+          "text": "Σωκράτης: ἀλλ’ ἔστι μὲν οὐ ῥᾴδιον, ὅμως δὲ ἐθέλω προθυμηθῆναι σοῦ ἕνεκα.",
+          "orig": [
+            3
+          ],
+          "glosses": [
+            {
+              "word": "προθυμηθῆναι",
+              "kind": "en",
+              "value": "to do my best (προθυμέομαι)"
+            }
+          ]
+        },
+        {
+          "text": "ἀλλά μοι προσκάλεσον τῶν πολλῶν ἀκολούθων τουτωνὶ τῶν σαυτοῦ ἕνα, ὅντινα βούλει, ἵνα ἐν τούτῳ σοι ἐπιδείξωμαι.",
+          "orig": [
+            4
+          ],
+          "glosses": [
+            {
+              "word": "προσκάλεσον",
+              "kind": "|",
+              "value": "πρός + καλέω | προσκάλεσον (call over!)"
+            },
+            {
+              "word": "ἀκολούθων",
+              "kind": "en",
+              "value": "attendants, servants (ὁ ἀκόλουθος)"
+            },
+            {
+              "word": "τουτωνὶ",
+              "kind": "=",
+              "value": "τούτων (-ί points: 'these here')"
+            },
+            {
+              "word": "σαυτοῦ",
+              "kind": "=",
+              "value": "σεαυτοῦ (your own)"
+            },
+            {
+              "word": "ἐπιδείξωμαι",
+              "kind": "en",
+              "value": "I may demonstrate (ἐπιδείκνυμι, aorist subjunctive middle)"
+            }
+          ]
+        },
+        {
+          "text": "Μένων: πάνυ γε.",
+          "orig": [
+            5
+          ],
+          "glosses": []
+        },
+        {
+          "text": "δεῦρο πρόσελθε.",
+          "orig": [
+            6
+          ],
+          "glosses": [
+            {
+              "word": "δεῦρο",
+              "kind": "en",
+              "value": "here, hither"
+            },
+            {
+              "word": "πρόσελθε",
+              "kind": "|",
+              "value": "προσέρχομαι | πρόσελθε (come here!)"
+            }
+          ]
+        },
+        {
+          "text": "Σωκράτης: Ἕλλην μέν ἐστι καὶ ἑλληνίζει;",
+          "orig": [
+            7
+          ],
+          "glosses": [
+            {
+              "word": "ἑλληνίζει",
+              "kind": "<",
+              "value": "Ἕλλην | ἑλληνίζω (speak Greek)"
+            }
+          ]
+        },
+        {
+          "text": "Μένων: πάνυ γε σφόδρα, οἰκογενής γε.",
+          "orig": [
+            8
+          ],
+          "glosses": [
+            {
+              "word": "σφόδρα",
+              "kind": "en",
+              "value": "very much"
+            },
+            {
+              "word": "οἰκογενής",
+              "kind": "<",
+              "value": "οἶκος + γένος | born in the house"
+            }
+          ]
+        },
+        {
+          "text": "Σωκράτης: πρόσεχε δὴ τὸν νοῦν ὁπότερ’ ἄν σοι φαίνηται, ἢ ἀναμιμνῃσκόμενος ἢ μανθάνων παρ’ ἐμοῦ.",
+          "orig": [
+            9
+          ],
+          "glosses": [
+            {
+              "word": "πρόσεχε",
+              "kind": "en",
+              "value": "πρόσεχε τὸν νοῦν: pay attention (προσέχω)"
+            },
+            {
+              "word": "ὁπότερ’",
+              "kind": "=",
+              "value": "ὁπότερα: which of the two (indirect of πότερα)"
+            },
+            {
+              "word": "ἀναμιμνῃσκόμενος",
+              "kind": "en",
+              "value": "remembering, recollecting (ἀναμιμνῄσκομαι)"
+            }
+          ]
+        },
+        {
+          "text": "Μένων: ἀλλὰ προσέξω.",
+          "orig": [
+            10
+          ],
+          "glosses": []
+        }
+      ]
+    },
+    {
+      "image": "phil-panel-4-b",
+      "sentences": [
+        {
+          "text": "Σωκράτης: εἰπὲ δή μοι, ὦ παῖ, γιγνώσκεις τετράγωνον χωρίον ὅτι τοιοῦτόν ἐστιν;",
+          "orig": [
+            11
+          ],
+          "glosses": [
+            {
+              "word": "τετράγωνον",
+              "kind": "<",
+              "value": "τέτταρες + γωνία (corner) | square"
+            },
+            {
+              "word": "χωρίον",
+              "kind": "en",
+              "value": "area, figure (τὸ χωρίον)"
+            }
+          ]
+        },
+        {
+          "text": "Παῖς: ἔγωγε.",
+          "orig": [
+            12
+          ],
+          "glosses": [
+            {
+              "word": "ἔγωγε",
+              "kind": "=",
+              "value": "ἐγώ + γε: I do"
+            }
+          ]
+        },
+        {
+          "text": "Σωκράτης: ἔστιν οὖν τετράγωνον χωρίον ἴσας ἔχον τὰς γραμμὰς ταύτας πάσας, τέτταρας οὔσας;",
+          "orig": [
+            13
+          ],
+          "glosses": [
+            {
+              "word": "γραμμὰς",
+              "kind": "<",
+              "value": "γράφω | ἡ γραμμή (line)"
+            }
+          ]
+        },
+        {
+          "text": "Παῖς: πάνυ γε.",
+          "orig": [
+            14
+          ],
+          "glosses": []
+        },
+        {
+          "text": "Σωκράτης: οὐκοῦν εἴη ἂν τοιοῦτον χωρίον καὶ μεῖζον καὶ ἔλαττον;",
+          "orig": [
+            17
+          ],
+          "glosses": [
+            {
+              "word": "οὐκοῦν",
+              "kind": "note",
+              "value": "οὐκοῦν …; surely then …? (expects 'yes')"
+            }
+          ]
+        },
+        {
+          "text": "Παῖς: πάνυ γε.",
+          "orig": [
+            18
+          ],
+          "glosses": []
+        },
+        {
+          "text": "Σωκράτης: εἰ οὖν εἴη αὕτη ἡ πλευρὰ δυοῖν ποδοῖν καὶ αὕτη δυοῖν, πόσων ἂν εἴη ποδῶν τὸ ὅλον;",
+          "orig": [
+            19
+          ],
+          "glosses": [
+            {
+              "word": "πλευρὰ",
+              "kind": "en",
+              "value": "side (ἡ πλευρά)"
+            },
+            {
+              "word": "δυοῖν",
+              "kind": "note",
+              "value": "δυοῖν ποδοῖν: dual genitive (of) two feet: genitive of measure"
+            },
+            {
+              "word": "ποδοῖν",
+              "kind": "|",
+              "value": "πούς | ποδοῖν (dual genitive/dative)"
+            }
+          ]
+        },
+        {
+          "text": "Σωκράτης: ἐπειδὴ δὲ δυοῖν ποδοῖν καὶ ταύτῃ, ἄλλο τι ἢ δὶς δυοῖν γίγνεται;",
+          "orig": [
+            23
+          ],
+          "glosses": [
+            {
+              "word": "ἐπειδὴ",
+              "kind": "en",
+              "value": "since, when"
+            },
+            {
+              "word": "ταύτῃ",
+              "kind": "note",
+              "value": "ταύτῃ: this way, on this side"
+            },
+            {
+              "word": "ἄλλο",
+              "kind": "note",
+              "value": "ἄλλο τι ἢ …; is it anything but …? = surely …?"
+            },
+            {
+              "word": "δὶς",
+              "kind": "en",
+              "value": "twice"
+            }
+          ]
+        },
+        {
+          "text": "Παῖς: γίγνεται.",
+          "orig": [
+            24
+          ],
+          "glosses": []
+        },
+        {
+          "text": "Σωκράτης: πόσοι οὖν εἰσιν οἱ δύο δὶς πόδες;",
+          "orig": [
+            27
+          ],
+          "glosses": []
+        },
+        {
+          "text": "λογισάμενος εἰπέ.",
+          "orig": [
+            28
+          ],
+          "glosses": []
+        },
+        {
+          "text": "Παῖς: τέτταρες, ὦ Σώκρατες.",
+          "orig": [
+            29
+          ],
+          "glosses": []
+        }
+      ]
+    },
+    {
+      "image": "phil-panel-4-c",
+      "sentences": [
+        {
+          "text": "Σωκράτης: οὐκοῦν γένοιτ’ ἂν τούτου τοῦ χωρίου ἕτερον διπλάσιον, τοιοῦτον δέ, ἴσας ἔχον πάσας τὰς γραμμὰς ὥσπερ τοῦτο;",
+          "orig": [
+            30
+          ],
+          "glosses": [
+            {
+              "word": "διπλάσιον",
+              "kind": "en",
+              "value": "double, twice as big (+ genitive) (διπλάσιος, -α, -ον)"
+            }
+          ]
+        },
+        {
+          "text": "Παῖς: ναί.",
+          "orig": [
+            31
+          ],
+          "glosses": []
+        },
+        {
+          "text": "Σωκράτης: πόσων οὖν ἔσται ποδῶν;",
+          "orig": [
+            32
+          ],
+          "glosses": []
+        },
+        {
+          "text": "Παῖς: ὀκτώ.",
+          "orig": [
+            33
+          ],
+          "glosses": []
+        },
+        {
+          "text": "Σωκράτης: φέρε δή, πειρῶ μοι εἰπεῖν πηλίκη τις ἔσται ἐκείνου ἡ γραμμὴ ἑκάστη.",
+          "orig": [
+            34
+          ],
+          "glosses": [
+            {
+              "word": "πειρῶ",
+              "kind": "|",
+              "value": "πειράομαι | πειρῶ (try!: present imperative)"
+            },
+            {
+              "word": "πηλίκη",
+              "kind": "en",
+              "value": "how long (indirect of πηλίκος)"
+            }
+          ]
+        },
+        {
+          "text": "ἡ μὲν γὰρ τοῦδε δυοῖν ποδοῖν· τί δὲ ἡ ἐκείνου τοῦ διπλασίου;",
+          "orig": [
+            35,
+            36
+          ],
+          "glosses": []
+        },
+        {
+          "text": "Παῖς: δῆλον δή, ὦ Σώκρατες, ὅτι διπλασία.",
+          "orig": [
+            37
+          ],
+          "glosses": []
+        },
+        {
+          "text": "Σωκράτης: ὁρᾷς, ὦ Μένων, ὡς ἐγὼ τοῦτον οὐδὲν διδάσκω, ἀλλ’ ἐρωτῶ πάντα;",
+          "orig": [
+            38
+          ],
+          "glosses": []
+        },
+        {
+          "text": "καὶ νῦν οὗτος οἴεται εἰδέναι ὁποία ἐστὶν ἀφ’ ἧς τὸ ὀκτώπουν χωρίον γενήσεται· ἢ οὐ δοκεῖ σοι;",
+          "orig": [
+            39,
+            40
+          ],
+          "glosses": [
+            {
+              "word": "ὁποία",
+              "kind": "=",
+              "value": "ποία (which one: indirect)"
+            },
+            {
+              "word": "ὀκτώπουν",
+              "kind": "<",
+              "value": "ὀκτώ + πούς | of eight (square) feet"
+            }
+          ]
+        },
+        {
+          "text": "Μένων: ἔμοιγε.",
+          "orig": [
+            41
+          ],
+          "glosses": [
+            {
+              "word": "ἔμοιγε",
+              "kind": "=",
+              "value": "ἐμοί + γε: it does to me"
+            }
+          ]
+        },
+        {
+          "text": "Σωκράτης: οἶδεν οὖν;",
+          "orig": [
+            42
+          ],
+          "glosses": []
+        },
+        {
+          "text": "Μένων: οὐ δῆτα.",
+          "orig": [
+            43
+          ],
+          "glosses": [
+            {
+              "word": "δῆτα",
+              "kind": "note",
+              "value": "οὐ δῆτα: certainly not"
+            }
+          ]
+        },
+        {
+          "text": "Σωκράτης: οἴεται δέ γε ἀπὸ τῆς διπλασίας;",
+          "orig": [
+            44
+          ],
+          "glosses": []
+        },
+        {
+          "text": "Μένων: ναί.",
+          "orig": [
+            45
+          ],
+          "glosses": []
+        },
+        {
+          "text": "οὕτως οὖν ὁ Σωκράτης ἐν τῷ τοῦ Μένωνος ἀκολούθῳ ἐπιδείκνυται ὅτι ἡ μάθησις οὐ διδαχή ἐστιν ἀλλ’ ἀνάμνησις.",
+          "glosses": []
+        },
+        {
+          "text": "ὕστερον γὰρ ὁ παῖς, πειρώμενος καὶ ἀπορῶν, αὐτὸς ἀναμιμνῄσκεται ὅτι ἡ τοῦ διπλασίου πλευρὰ ἡ διάμετρός ἐστιν.",
+          "glosses": [
+            {
+              "word": "διάμετρός",
+              "kind": "en",
+              "value": "diagonal (ἡ διάμετρος, 'the line through')"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "αναμνησις",
+      "gloss_grc": "ἡ ἀνάμνησις, -εως < ἀναμιμνῄσκομαι · ἡ μάθησις ἀνάμνησίς ἐστιν"
+    },
+    {
+      "id": "αναμιμνησκω",
+      "gloss_grc": "ἀναμιμνῄσκω (remind) · ἀναμιμνῄσκομαι (recollect)"
+    },
+    {
+      "id": "διδαχη",
+      "gloss_grc": "ἡ διδαχή < διδάσκω ↔ ἡ ἀνάμνησις"
+    },
+    {
+      "id": "τετραγωνος",
+      "gloss_grc": "τετράγωνος, -ον · τὸ τετράγωνον χωρίον"
+    },
+    {
+      "id": "γραμμη",
+      "gloss_grc": "ἡ γραμμή < γράφω"
+    },
+    {
+      "id": "πλευρα",
+      "gloss_grc": "ἡ πλευρά, τῆς πλευρᾶς · τέτταρες πλευραί"
+    },
+    {
+      "id": "διπλασιος",
+      "gloss_grc": "διπλάσιος, -α, -ον (+ genitive) · δὶς τοσοῦτος"
+    },
+    {
+      "id": "ακολουθος",
+      "gloss_grc": "ὁ ἀκόλουθος = ὁ δοῦλος ὁ ἑπόμενος"
+    },
+    {
+      "id": "προσεχω",
+      "gloss_grc": "προσέχω τὸν νοῦν (+ dative): I pay attention"
+    },
+    {
+      "id": "ουκουν",
+      "gloss_grc": "οὐκοῦν …; (expects 'yes')"
+    },
+    {
+      "id": "δις",
+      "gloss_grc": "δίς: δὶς δύο τέτταρά ἐστιν"
+    },
+    {
+      "id": "επιδεικνυμι",
+      "gloss_grc": "ἐπιδείκνυμι, ἐπιδείξω, ἐπέδειξα (< δείκνυμι)"
+    },
+    {
+      "id": "πειραω",
+      "gloss_grc": "πειράομαι + infinitive: try · πειρῶ εἰπεῖν"
+    }
+  ],
+  "notice": [
+    "Σωκράτης: οὐκοῦν εἴη ἂν τοιοῦτον χωρίον καὶ μεῖζον καὶ ἔλαττον; — Παῖς: πάνυ γε.",
+    "Σωκράτης: ἐπειδὴ δὲ δυοῖν ποδοῖν καὶ ταύτῃ, ἄλλο τι ἢ δὶς δυοῖν γίγνεται; — Παῖς: γίγνεται.",
+    "Σωκράτης: οἶδεν οὖν; — Μένων: οὐ δῆτα.",
+    "ὁρᾷς, ὦ Μένων, ὡς ἐγὼ τοῦτον οὐδὲν διδάσκω, ἀλλ’ ἐρωτῶ πάντα;"
+  ],
+  "grammar": {
+    "md": "**Questions that expect an answer.** Socrates' questions are built so that the boy can only say yes, and the Greek tells you which answer is expected:\n\n| question begins | expects | example |\n|---|---|---|\n| **οὐ** …; / **οὐκοῦν** …; | yes | οὐκοῦν εἴη ἂν τοιοῦτον χωρίον καὶ μεῖζον; |\n| **ἄλλο τι ἤ** …; | yes ('is it anything but …?') | ἄλλο τι ἢ δὶς δυοῖν γίγνεται; |\n| **μή** …; / **μῶν** …; | no | |\n| **ἆρα** …; | open | |\n\n**Answers.** Greek has no single word for 'yes': the answerer repeats the verb (γίγνεται), or says ναί, πάνυ γε, ἔγωγε ('I do'), ἔμοιγε ('it does to me'). 'No': οὔ, οὐ δῆτα 'certainly not'.\n\n**Potential optative in geometry.** εἴη ἂν 'there could be'; γένοιτ’ ἂν 'there might be'; πόσων ἂν εἴη ποδῶν; 'how many feet would it be?' (Unit 10). With εἰ + optative the condition is 'should-would' (future less vivid): εἰ εἴη αὕτη ἡ πλευρὰ δυοῖν ποδοῖν … πόσων ἂν εἴη;\n\n**The dual.** δυοῖν ποδοῖν 'of two feet' is a dual (Unit 11): genitive/dative -οιν. The genitive expresses measure: τὸ χωρίον ποδῶν τεττάρων 'an area of four feet'.\n\n**The argument.** A square of side 2 has area 4 (δὶς δύο). The double square has area 8. The boy says its side is double (4) and is wrong: that square is 16. He *thinks* he knows (οἴεται εἰδέναι) but does not know (οἶδεν οὖν; οὐ δῆτα). Socrates claims he teaches nothing (οὐδὲν διδάσκω) but only asks (ἐρωτῶ πάντα): the answer, he will say, the boy recollects (ἀναμιμνῄσκεται) from a time before his birth. (The true answer, drawn later in the dialogue: the side of the double square is the diagonal of the first.)",
+    "paradigms": [
+      "poieo"
+    ],
+    "diagram": "diagram-dual"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings.",
+      "template": "γιγνώσκεις τετράγων___ χωρίον; ἴσας ἔχει τὰς γραμμ___. ἡ πλευρ___ δυοῖν ποδοῖν ἐστιν. ἕτερον χωρίον διπλάσιον τοῦ χωρί___.",
+      "gaps": [
+        {
+          "answers": [
+            "ον"
+          ]
+        },
+        {
+          "answers": [
+            "ας"
+          ]
+        },
+        {
+          "answers": [
+            "α",
+            "ᾶ"
+          ]
+        },
+        {
+          "answers": [
+            "ου"
+          ]
+        }
+      ],
+      "skills": [
+        "adj.agree",
+        "noun.decl1.acc.pl",
+        "noun.decl1.nom.sg",
+        "noun.decl2.gen.sg"
+      ],
+      "explain": "τετράγωνον χωρίον (neuter), τὰς γραμμάς (accusative plural), ἡ πλευρά (-α after ρ), τοῦ χωρίου (genitive with διπλάσιον)."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · οὔ φημι διδαχὴν εἶναι ἀλλ’ ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἀνάμνησιν"
+        },
+        {
+          "id": "b",
+          "text": "ἀνάμνησις"
+        },
+        {
+          "id": "c",
+          "text": "ἀναμνήσεως"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.phil",
+        "syntax.indirect-inf"
+      ],
+      "explain": "ἀνάμνησιν: accusative, the predicate of εἶναι in indirect statement, like διδαχήν.",
+      "audio": "οὔ φημι διδαχὴν εἶναι ἀλλ’ ἀνάμνησιν."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · πρόσεχε δὴ τὸν ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "νοῦν"
+        },
+        {
+          "id": "b",
+          "text": "νόον"
+        },
+        {
+          "id": "c",
+          "text": "νοῦ"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.phil",
+        "noun.decl2.contract"
+      ],
+      "explain": "προσέχω τὸν νοῦν: pay attention (νοῦς, contracted accusative νοῦν).",
+      "audio": "πρόσεχε δὴ τὸν νοῦν."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ὁρᾷς, ὦ Μένων, ὡς ἐγὼ τοῦτον οὐδὲν διδάσκω, ἀλλ’ ___ πάντα;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐρωτῶ"
+        },
+        {
+          "id": "b",
+          "text": "διδάσκω"
+        },
+        {
+          "id": "c",
+          "text": "λέγω"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.questions",
+        "read.plato"
+      ],
+      "explain": "οὐδὲν διδάσκω, ἀλλ’ ἐρωτῶ πάντα: the heart of the method.",
+      "audio": "ὁρᾷς, ὦ Μένων, ὡς ἐγὼ τοῦτον οὐδὲν διδάσκω, ἀλλ’ ἐρωτῶ πάντα;"
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἡ ἀνάμνησις"
+        },
+        {
+          "id": "b",
+          "text": "ἡ διδαχή"
+        },
+        {
+          "id": "c",
+          "text": "ἡ μάθησις"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.recognition"
+      ],
+      "explain": "ἡ ἀνάμνησις: recollection.",
+      "audio": "ἡ ἀνάμνησις"
+    },
+    {
+      "type": "match",
+      "prompt": "Match the new words to their meanings.",
+      "pairs": [
+        {
+          "left": "ἡ γραμμή",
+          "right": "line"
+        },
+        {
+          "left": "ἡ πλευρά",
+          "right": "side"
+        },
+        {
+          "left": "διπλάσιος",
+          "right": "double"
+        },
+        {
+          "left": "τετράγωνος",
+          "right": "square"
+        },
+        {
+          "left": "ὁ ἀκόλουθος",
+          "right": "attendant"
+        }
+      ],
+      "skills": [
+        "vocab.recognition",
+        "vocab.phil"
+      ],
+      "explain": "γραμμή, πλευρά, διπλάσιος, τετράγωνος, ἀκόλουθος."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the genitive singular of ἀνάμνησις.",
+      "lemma": "ἀνάμνησις",
+      "cell": "gen.sg",
+      "skills": [
+        "noun.decl3.iota",
+        "vocab.production"
+      ],
+      "explain": "ἀναμνήσεως: like πόλις, πόλεως.",
+      "audio": "ἀναμνήσεως"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the feminine nominative singular of διπλάσιος: ἡ γραμμὴ ___.",
+      "lemma": "διπλάσιος",
+      "cell": "nom.sg.f",
+      "skills": [
+        "adj.agree",
+        "vocab.production"
+      ],
+      "explain": "διπλασία (-α after ι).",
+      "audio": "διπλασία"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the present imperative of προσέχω: '(you,) pay attention!' ___ τὸν νοῦν.",
+      "lemma": "προσέχω",
+      "cell": "present.active.imperative.2sg",
+      "skills": [
+        "syntax.imperative",
+        "vocab.production"
+      ],
+      "explain": "πρόσεχε: present imperative, recessive accent.",
+      "audio": "πρόσεχε"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse εἴη.",
+      "form": "εἴη",
+      "groups": [
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "mood": "opt",
+        "person": "3sg"
+      },
+      "skills": [
+        "syntax.opt-potential",
+        "read.phil.questions"
+      ],
+      "explain": "εἴη (+ ἄν): potential optative, 'there could be'.",
+      "audio": "εἴη"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse προσέξω.",
+      "form": "προσέξω",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "fut",
+        "person": "1sg"
+      },
+      "skills": [
+        "verb.fut.act.ind.1sg",
+        "vocab.production"
+      ],
+      "explain": "προσ-έξ-ω: future of προσέχω (ἕξω), 'I will pay attention'.",
+      "audio": "προσέξω"
+    },
+    {
+      "type": "label",
+      "prompt": "Σωκράτης: οὐκοῦν εἴη ἂν τοιοῦτον χωρίον καὶ μεῖζον καὶ ἔλαττον; What answer does οὐκοῦν expect?",
+      "options": [
+        {
+          "id": "a",
+          "text": "yes"
+        },
+        {
+          "id": "b",
+          "text": "no"
+        },
+        {
+          "id": "c",
+          "text": "either"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.questions"
+      ],
+      "explain": "οὐκοῦν …; 'surely then …?' expects agreement: πάνυ γε."
+    },
+    {
+      "type": "label",
+      "prompt": "ἄλλο τι ἢ δὶς δυοῖν γίγνεται; ἄλλο τι ἤ means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "is it anything but …? (= surely)"
+        },
+        {
+          "id": "b",
+          "text": "something else than"
+        },
+        {
+          "id": "c",
+          "text": "another time"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.questions"
+      ],
+      "explain": "ἄλλο τι ἤ …; is it anything other than …? The expected answer is yes."
+    },
+    {
+      "type": "label",
+      "prompt": "πόσων ἂν εἴη ποδῶν τὸ ὅλον; ἂν εἴη is …",
+      "options": [
+        {
+          "id": "a",
+          "text": "potential optative: 'would be'"
+        },
+        {
+          "id": "b",
+          "text": "a wish"
+        },
+        {
+          "id": "c",
+          "text": "indirect speech"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-potential"
+      ],
+      "explain": "ἄν + optative: what would be the case."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "Σωκράτης: οἶδεν οὖν; Μένων: ___ 'certainly not'.",
+      "options": [
+        {
+          "id": "a",
+          "text": "οὐ δῆτα"
+        },
+        {
+          "id": "b",
+          "text": "πάνυ γε"
+        },
+        {
+          "id": "c",
+          "text": "ἔμοιγε"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.questions",
+        "read.phil.dialogue"
+      ],
+      "explain": "οὐ δῆτα: certainly not."
+    },
+    {
+      "type": "transform",
+      "prompt": "Answer yes by repeating the verb: ἄλλο τι ἢ δὶς δυοῖν γίγνεται; — ___.",
+      "template": "___.",
+      "gaps": [
+        {
+          "answers": [
+            "γίγνεται"
+          ]
+        }
+      ],
+      "skills": [
+        "read.phil.questions"
+      ],
+      "explain": "Greek often answers 'yes' by repeating the verb: γίγνεται."
+    },
+    {
+      "type": "transform",
+      "prompt": "Double it: δύο → δὶς δύο = ___ (a number word).",
+      "template": "δὶς δύο = ___",
+      "gaps": [
+        {
+          "answers": [
+            "τέτταρα",
+            "τέτταρες"
+          ]
+        }
+      ],
+      "skills": [
+        "num.cardinal",
+        "vocab.phil"
+      ],
+      "explain": "δὶς δύο τέτταρα (γίγνεται): twice two is four."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the two words that tell you what Socrates does instead of teaching.",
+      "sentence": "Σωκράτης: ὁρᾷς, ὦ Μένων, ὡς ἐγὼ τοῦτον οὐδὲν διδάσκω, ἀλλ’ ἐρωτῶ πάντα;",
+      "answer": [
+        10,
+        11
+      ],
+      "skills": [
+        "read.locate",
+        "read.phil.questions"
+      ],
+      "explain": "ἐρωτῶ πάντα: I ask everything."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the dual.",
+      "sentence": "Σωκράτης: εἰ οὖν εἴη αὕτη ἡ πλευρὰ δυοῖν ποδοῖν καὶ αὕτη δυοῖν, πόσων ἂν εἴη ποδῶν τὸ ὅλον;",
+      "answer": [
+        7,
+        8
+      ],
+      "skills": [
+        "read.locate",
+        "read.dialects"
+      ],
+      "explain": "δυοῖν ποδοῖν: genitive dual 'of two feet'."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'Learning is recollection.'",
+      "tokens": [
+        "ἡ",
+        "μάθησις",
+        "ἀνάμνησίς",
+        "ἐστιν"
+      ],
+      "answers": [
+        "ἡ μάθησις ἀνάμνησίς ἐστιν",
+        "ἀνάμνησίς ἐστιν ἡ μάθησις",
+        "ἡ μάθησις ἐστιν ἀνάμνησις"
+      ],
+      "skills": [
+        "syntax.word-order",
+        "syntax.predicate"
+      ],
+      "explain": "ἡ μάθησις (subject, with the article) ἀνάμνησίς ἐστιν (predicate, without)."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "οἶδεν οὖν; οὐ δῆτα."
+        },
+        {
+          "id": "b",
+          "text": "οἶδεν οὖν; πάνυ γε."
+        },
+        {
+          "id": "c",
+          "text": "οἴεται οὖν; ναί."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "Does he know, then? Certainly not.",
+      "audio": "οἶδεν οὖν; οὐ δῆτα."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ παῖς Ἕλλην ἐστὶ καὶ ἑλληνίζει.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "πάνυ γε σφόδρα, οἰκογενής γε."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Σωκράτης τῷ παιδὶ λέγει πόση ἐστὶν ἡ γραμμή.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἐγὼ τοῦτον οὐδὲν διδάσκω, ἀλλ’ ἐρωτῶ πάντα."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ παῖς οἴεται τὴν τοῦ διπλασίου χωρίου γραμμὴν διπλασίαν εἶναι.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "δῆλον δή, ὦ Σώκρατες, ὅτι διπλασία."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "gaps": [
+        {
+          "answers": [
+            "πρόσεχε δὴ τὸν νοῦν"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "πρόσεχε δὴ τὸν νοῦν: now pay attention.",
+      "audio": "πρόσεχε δὴ τὸν νοῦν."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'I do not teach; I ask.'",
+      "gaps": [
+        {
+          "answers": [
+            "οὐ διδάσκω, ἀλλ’ ἐρωτῶ",
+            "οὐ διδάσκω ἀλλ’ ἐρωτῶ",
+            "οὐ διδάσκω ἀλλὰ ἐρωτῶ",
+            "οὐ διδάσκω, ἀλλὰ ἐρωτῶ",
+            "οὐδὲν διδάσκω, ἀλλ’ ἐρωτῶ"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "read.phil.questions"
+      ],
+      "explain": "οὐ διδάσκω, ἀλλ’ ἐρωτῶ."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: καὶ νῦν οὗτος οἴεται εἰδέναι ὁποία ἐστὶν ἀφ’ ἧς τὸ ὀκτώπουν χωρίον γενήσεται· ἢ οὐ δοκεῖ σοι;",
+      "audio": "καὶ νῦν οὗτος οἴεται εἰδέναι ὁποία ἐστὶν ἀφ’ ἧς τὸ ὀκτώπουν χωρίον γενήσεται· ἢ οὐ δοκεῖ σοι;",
+      "model": "And now this boy thinks he knows which (line) it is from which the eight-foot figure will be made. Or don't you think so?",
+      "skills": [
+        "read.original",
+        "read.plato",
+        "read.phil.argument"
+      ],
+      "explain": "οἴεται εἰδέναι 'thinks he knows'; ὁποία (sc. γραμμή) ἐστιν indirect question; ἀφ’ ἧς 'from which'; ἢ οὐ δοκεῖ σοι; 'or does it not seem so to you?'"
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "ἡ γραμμή",
+          "right": "grammar, diagram"
+        },
+        {
+          "left": "ἡ πλευρά",
+          "right": "pleurisy"
+        },
+        {
+          "left": "ἀκόλουθος",
+          "right": "acolyte"
+        },
+        {
+          "left": "ἐπιδείκνυμι",
+          "right": "epideictic"
+        },
+        {
+          "left": "ἡ ἀνάμνησις",
+          "right": "amnesia"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "γράμμα, γραμμή 'what is drawn'; πλευρά 'side, rib'; ἀκόλουθος 'follower'; ἐπίδειξις 'display'; ἀ-μνησία 'not remembering', from the same root as ἀνάμνησις."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "τί λέγει ὁ Σωκράτης περὶ τῆς μαθήσεως;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὅτι ἀνάμνησίς ἐστιν."
+        },
+        {
+          "id": "b",
+          "text": "ὅτι διδαχή ἐστιν."
+        },
+        {
+          "id": "c",
+          "text": "ὅτι ῥᾳδία ἐστίν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "vocab.phil"
+      ],
+      "explain": "ὃς οὔ φημι διδαχὴν εἶναι ἀλλ’ ἀνάμνησιν.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίνα καλεῖ ὁ Μένων;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἕνα τῶν ἀκολούθων, παῖδα οἰκογενῆ."
+        },
+        {
+          "id": "b",
+          "text": "τὸν ἑαυτοῦ υἱόν."
+        },
+        {
+          "id": "c",
+          "text": "ἄλλον τινὰ σοφόν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "τῶν πολλῶν ἀκολούθων … ἕνα … οἰκογενής γε.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "πόσων ποδῶν ἐστι τὸ τετράγωνον οὗ ἡ πλευρὰ δυοῖν ποδοῖν ἐστιν;",
+      "options": [
+        {
+          "id": "a",
+          "text": "τεττάρων."
+        },
+        {
+          "id": "b",
+          "text": "ὀκτώ."
+        },
+        {
+          "id": "c",
+          "text": "δυοῖν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "num.cardinal"
+      ],
+      "explain": "τέτταρες, ὦ Σώκρατες.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "οἶδεν ὁ παῖς ἀφ’ ἧς γραμμῆς τὸ ὀκτώπουν χωρίον γενήσεται;",
+      "options": [
+        {
+          "id": "a",
+          "text": "οὐκ οἶδεν, ἀλλ’ οἴεται εἰδέναι."
+        },
+        {
+          "id": "b",
+          "text": "οἶδε καὶ λέγει."
+        },
+        {
+          "id": "c",
+          "text": "οὐκ οἴεται εἰδέναι."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "read.phil.argument"
+      ],
+      "explain": "οἶδεν οὖν; οὐ δῆτα. οἴεται δέ γε.",
+      "audio": "prompt"
+    }
+  ],
+  "culture": {
+    "title": "Plato, the Meno and the Academy",
+    "md": "The **Meno** is one of Plato's shorter dialogues, written in the 380s BC, soon after he founded his school in the grove of the hero Akademos, a mile outside the Dipylon gate of Athens: the **Academy** (Ἀκαδήμεια). Its dramatic date is about 402 BC. Meno, a rich young Thessalian aristocrat visiting Athens, asks whether virtue can be taught; he later commanded Greek mercenaries for Cyrus, and Xenophon's *Anabasis* paints him as greedy and treacherous.\n\nWhen Meno objects that one cannot search for what one does not know, Socrates tells him of priests and poets who say the soul is immortal and has seen everything before birth; learning is **recollection** (ἀνάμνησις). To prove it he calls over one of Meno's household slaves, a boy who speaks Greek but has never studied geometry, and draws squares in the sand. The boy first answers wrongly (doubling the side of a square quadruples it), then is reduced to ἀπορία, then, still only by questions, finds that the square on the **diagonal** is double the first.\n\nThe scene is the earliest surviving geometrical demonstration in Greek, a generation before Euclid. In the Academy, it was said, an inscription warned: 'Let no one ignorant of geometry enter.' The site of the Academy, with the remains of a gymnasium and later buildings, is an archaeological park in modern Athens.",
+    "image": "phil-culture-4-academy"
+  },
+  "quiz": [
+    {
+      "type": "produce-form",
+      "prompt": "Give the accusative singular of ἀνάμνησις.",
+      "lemma": "ἀνάμνησις",
+      "cell": "acc.sg",
+      "skills": [
+        "noun.decl3.iota",
+        "vocab.production"
+      ],
+      "explain": "ἀνάμνησιν.",
+      "audio": "ἀνάμνησιν"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "οὐκοῦν …; expects …",
+      "options": [
+        {
+          "id": "a",
+          "text": "yes"
+        },
+        {
+          "id": "b",
+          "text": "no"
+        },
+        {
+          "id": "c",
+          "text": "nothing"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.questions"
+      ],
+      "explain": "οὐκοῦν: surely then …?"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "διπλάσιος means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "double"
+        },
+        {
+          "id": "b",
+          "text": "square"
+        },
+        {
+          "id": "c",
+          "text": "equal"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition",
+        "vocab.phil"
+      ],
+      "explain": "διπλάσιος: twice as large."
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse πειρῶ.",
+      "form": "πειρῶ",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "pres",
+        "mood": "imp"
+      },
+      "skills": [
+        "syntax.imperative",
+        "verb.contract.a"
+      ],
+      "explain": "πειρῶ: present imperative middle 2nd singular of πειράομαι (πειρά-ου → πειρῶ).",
+      "audio": "πειρῶ"
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Σωκράτης τῷ παιδὶ τὴν ἀλήθειαν λέγει.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "οὐδὲν διδάσκω, ἀλλ’ ἐρωτῶ πάντα."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "πρόσεχε δὴ τὸν νοῦν."
+        },
+        {
+          "id": "b",
+          "text": "πρόσελθε δὴ δεῦρο."
+        },
+        {
+          "id": "c",
+          "text": "προσέξω τὸν νοῦν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "Now pay attention.",
+      "audio": "πρόσεχε δὴ τὸν νοῦν."
+    },
+    {
+      "type": "label",
+      "prompt": "Μένων: ἔμοιγε. This answer means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "yes, it seems so to me"
+        },
+        {
+          "id": "b",
+          "text": "no, not to me"
+        },
+        {
+          "id": "c",
+          "text": "I don't know"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.dialogue",
+        "read.phil.questions"
+      ],
+      "explain": "ἔμοιγε (sc. δοκεῖ): it does seem so to me."
+    }
+  ],
+  "skills": [
+    "read.original",
+    "read.plato",
+    "read.comprehension",
+    "read.locate",
+    "read.phil.dialogue",
+    "read.phil.questions",
+    "read.phil.argument",
+    "read.dialects",
+    "syntax.opt-potential",
+    "syntax.imperative",
+    "syntax.predicate",
+    "syntax.indirect-inf",
+    "noun.decl3.iota",
+    "noun.decl2.contract",
+    "num.cardinal",
+    "verb.contract.a",
+    "listen.words",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.phil",
+    "vocab.family"
+  ]
+}

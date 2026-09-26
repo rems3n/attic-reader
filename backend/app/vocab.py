@@ -63,16 +63,33 @@ def _by_id() -> dict[str, dict]:
     return {e["id"]: e for e in load_entries()}
 
 
+def load_all() -> list[dict]:
+    """DCC core list plus the course's own words (app/course_data/vocab_extra.json)."""
+    from .course import data as course_data
+
+    return course_data.all_entries()
+
+
 def get_entry(entry_id: str) -> dict:
     try:
         return _by_id()[entry_id]
+    except KeyError:
+        pass
+    from .course import data as course_data
+
+    try:
+        return course_data.entry_by_id(entry_id)
     except KeyError as exc:
         raise VocabError(entry_id) from exc
 
 
 def summary(entry: dict) -> dict:
+    from .course import data as course_data
+
     out = {k: entry[k] for k in SUMMARY_KEYS}
     out["readings"] = [r["id"] for r in entry.get("readings", [])]
+    out["lessons"] = course_data.entry_lessons().get(entry["id"], [])
+    out["source"] = entry.get("source", "dcc")
     return out
 
 
@@ -124,7 +141,12 @@ def facets(entries: list[dict] | None = None) -> dict:
     tier_counts = Counter(e["tier"] for e in items)
     reading_counts = Counter(r["id"] for e in items for r in e.get("readings", []))
     tag_counts = Counter(t for e in items for t in e.get("tags", []))
+    from .course import data as course_data
+
+    lesson_of = course_data.entry_lessons()
+    lesson_counts = Counter(lid for e in items for lid in lesson_of.get(e["id"], []))
     return {
+        "lessons": [{"id": lid, "count": lesson_counts[lid]} for lid in course_data.lesson_ids() if lesson_counts.get(lid)],
         "tags": [{"id": tid, "label": label, "count": tag_counts.get(tid, 0)} for tid, label in TAGS],
         "topics": [{"id": tid, "label": label, "count": topic_counts.get(tid, 0)} for tid, label in TOPICS],
         "groups": [{"id": g, "label": g, "count": n} for g, n in sorted(group_counts.items(), key=lambda kv: -kv[1])],
@@ -141,3 +163,6 @@ def facets(entries: list[dict] | None = None) -> dict:
 def _tier_ranks(tier: int) -> str:
     bounds = {1: "1–125", 2: "126–250", 3: "251–375", 4: "376–524"}
     return bounds[tier]
+
+
+TAGS.append(("course", "Course words (not in the DCC list)"))
