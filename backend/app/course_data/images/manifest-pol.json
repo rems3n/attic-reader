@@ -1,0 +1,105 @@
+{
+ "images": [
+  {
+   "id": "pol-1-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Λύσις καὶ ὁ Μικίων ἐκ τοῦ Κεραμεικοῦ βαίνουσιν",
+   "alt_en": "Winter 431/0: Lysis and Mikion walk home from the Kerameikos after the public funeral; ten wagons with cypress coffins, one for each tribe, stand empty by the road.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-1-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Δημόκριτος περὶ τοῦ Κλεισθένους λέγει",
+   "alt_en": "Demokritos, the farmer who loves politics, counts off the ten tribes on his fingers for the two boys in a crowded street of the city.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-1-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Κλεισθένης τὴν χώραν διανέμει",
+   "alt_en": "A schematic map of Attica divided into three regions, city, coast and inland, with one 'third' from each joined into a tribe (drawn in the style of a vase painting).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-boule",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ βουλή",
+   "alt_en": "The Council: rows of citizens seated on the benches of the Council house (bouleuterion) listening to a speaker.",
+   "credit": "placeholder (target: reconstruction drawing of the Athenian bouleuterion, CC BY)",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "βουλή"
+   ]
+  },
+  {
+   "id": "pol-eponymous-heroes",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "οἱ ἐπώνυμοι",
+   "alt_en": "The Monument of the Eponymous Heroes in the Athenian Agora: the long base where the ten tribal heroes stood and public notices were posted.",
+   "credit": "placeholder (target: Wikimedia Commons photograph of the monument's remains, CC BY-SA)",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-2-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Λύσις ὄστρακον ἐν τῷ ἐργαστηρίῳ εὑρίσκει",
+   "alt_en": "In the workshop yard among heaps of broken pottery, Lysis holds up a sherd with scratched letters; grandfather Kleinias sits on a bench in the sun.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-2-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ γεωργὸς τῷ Ἀριστείδῃ τὸ ὄστρακον δίδωσιν",
+   "alt_en": "482 BC in the Agora: a farmer with a hoe on his shoulder hands a potsherd to a quiet, plainly dressed man, Aristides, and asks him to write a name on it.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-2-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ Ἀθηναῖοι ὀστρακίζουσιν",
+   "alt_en": "The Agora fenced off for an ostracism: citizens file in tribe by tribe and drop their sherds; officials count the heap.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-ostraka-themistocles",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὄστρακα",
+   "alt_en": "Ostraka from the Athenian Agora, 480s BC, inscribed with the names of Themistocles son of Neocles, Aristides son of Lysimachus and others (Agora Museum, Athens).",
+   "credit": "placeholder (target: Wikimedia Commons photograph of Agora Museum ostraka, CC BY-SA)",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  }
+ ]
+}

@@ -1,0 +1,995 @@
+[
+ {
+  "lemma": "στράτευμα",
+  "headword": "στράτευμα, στρατεύματος, τό",
+  "definition": "army, expedition (the force in the field)",
+  "short": "army",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "στρατεύματος",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "στρατός, στρατηγός, στρατιώτης"
+   ],
+   "derivatives": [
+    "strategy (< στρατηγός)"
+   ]
+  }
+ },
+ {
+  "lemma": "στρατόπεδον",
+  "headword": "στρατόπεδον, στρατοπέδου, τό",
+  "definition": "camp (στρατός + πέδον 'ground'); an army encamped",
+  "short": "camp",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "στρατοπέδου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "στρατός 'army'",
+    "πούς, πεδίον 'plain'"
+   ]
+  }
+ },
+ {
+  "lemma": "πεζός",
+  "headword": "πεζός, πεζή, πεζόν",
+  "definition": "on foot; τὸ πεζόν or ὁ πεζός, the infantry, the land army (↔ αἱ νῆες)",
+  "short": "on foot; infantry",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 3,
+   "forms": [
+    "πεζός",
+    "πεζή",
+    "πεζόν"
+   ],
+   "feminine": "πεζή",
+   "neuter": "πεζόν"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "πούς, ποδός 'foot'",
+    "Latin pes, English foot"
+   ]
+  }
+ },
+ {
+  "lemma": "φυγή",
+  "headword": "φυγή, φυγῆς, ἡ",
+  "definition": "flight, running away; exile",
+  "short": "flight",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "φυγῆς",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "φεύγω 'flee'",
+    "Latin fuga → fugitive, refuge"
+   ],
+   "derivatives": [
+    "centrifugal"
+   ]
+  }
+ },
+ {
+  "lemma": "ἄγγελος",
+  "headword": "ἄγγελος, ἀγγέλου, ὁ",
+  "definition": "messenger",
+  "short": "messenger",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "ἀγγέλου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "derivatives": [
+    "angel",
+    "evangelist"
+   ],
+   "cognates": [
+    "ἀγγέλλω 'report'"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀπαγγέλλω",
+  "headword": "ἀπαγγέλλω, ἀπαγγελῶ, ἀπήγγειλα, ἀπήγγελκα, ἀπήγγελμαι, ἀπηγγέλθην",
+  "definition": "report, bring back word, announce",
+  "short": "report, announce",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: compound of ἀγγέλλω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἀπαγγέλλω"
+    ],
+    "future": [
+     "ἀπαγγελῶ"
+    ],
+    "aorist": [
+     "ἀπήγγειλα"
+    ],
+    "perfect": [
+     "ἀπήγγελκα"
+    ],
+    "perfect-mp": [
+     "ἀπήγγελμαι"
+    ],
+    "aorist-passive": [
+     "ἀπηγγέλθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἀπαγγέλλω",
+    "ἀπαγγελῶ",
+    "ἀπήγγειλα",
+    "ἀπήγγελκα",
+    "ἀπήγγελμαι",
+    "ἀπηγγέλθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "ἀγγέλλω, ἄγγελος"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀποστέλλω",
+  "headword": "ἀποστέλλω, ἀποστελῶ, ἀπέστειλα, ἀπέσταλκα, ἀπέσταλμαι, ἀπεστάλην",
+  "definition": "send off, send away, dispatch",
+  "short": "send off",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: compound of στέλλω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἀποστέλλω"
+    ],
+    "future": [
+     "ἀποστελῶ"
+    ],
+    "aorist": [
+     "ἀπέστειλα"
+    ],
+    "perfect": [
+     "ἀπέσταλκα"
+    ],
+    "perfect-mp": [
+     "ἀπέσταλμαι"
+    ],
+    "aorist-passive": [
+     "ἀπεστάλην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἀποστέλλω",
+    "ἀποστελῶ",
+    "ἀπέστειλα",
+    "ἀπέσταλκα",
+    "ἀπέσταλμαι",
+    "ἀπεστάλην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "derivatives": [
+    "apostle ('one sent out')",
+    "epistle (< ἐπιστέλλω)"
+   ]
+  }
+ },
+ {
+  "lemma": "σφάζω",
+  "headword": "σφάζω, σφάξω, ἔσφαξα, ἔσφαγμαι, ἐσφάγην",
+  "definition": "slaughter, cut the throat of (a sacrificial animal, a man)",
+  "short": "slaughter",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "σφάζω"
+    ],
+    "future": [
+     "σφάξω"
+    ],
+    "aorist": [
+     "ἔσφαξα"
+    ],
+    "perfect-mp": [
+     "ἔσφαγμαι"
+    ],
+    "aorist-passive": [
+     "ἐσφάγην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "σφάζω",
+    "σφάξω",
+    "ἔσφαξα",
+    "ἔσφαγμαι",
+    "ἐσφάγην"
+   ],
+   "verb": {
+    "aorist_passive_stem": "σφαγ"
+   }
+  },
+  "topics": [
+   "history"
+  ]
+ },
+ {
+  "lemma": "διαβαίνω",
+  "headword": "διαβαίνω, διαβήσομαι, διέβην, διαβέβηκα",
+  "definition": "cross (a river), go across",
+  "short": "cross",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: compound of βαίνω",
+  "morph": {
+   "parts": {
+    "present": [
+     "διαβαίνω"
+    ],
+    "future": [
+     "διαβήσομαι"
+    ],
+    "aorist": [
+     "διέβην"
+    ],
+    "perfect": [
+     "διαβέβηκα"
+    ],
+    "aorist-2": [
+     "διέβην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "διαβαίνω",
+    "διαβήσομαι",
+    "διέβην",
+    "διαβέβηκα"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "derivatives": [
+    "diabetes ('passing through')"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀναγκάζω",
+  "headword": "ἀναγκάζω, ἀναγκάσω, ἠνάγκασα, ἠνάγκακα, ἠνάγκασμαι, ἠναγκάσθην",
+  "definition": "force, compel (+ acc. and infinitive)",
+  "short": "force, compel",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἀναγκάζω"
+    ],
+    "future": [
+     "ἀναγκάσω"
+    ],
+    "aorist": [
+     "ἠνάγκασα"
+    ],
+    "perfect": [
+     "ἠνάγκακα"
+    ],
+    "perfect-mp": [
+     "ἠνάγκασμαι"
+    ],
+    "aorist-passive": [
+     "ἠναγκάσθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἀναγκάζω",
+    "ἀναγκάσω",
+    "ἠνάγκασα",
+    "ἠνάγκακα",
+    "ἠνάγκασμαι",
+    "ἠναγκάσθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "ἀνάγκη 'necessity'"
+   ]
+  }
+ },
+ {
+  "lemma": "τιτρώσκω",
+  "headword": "τιτρώσκω, τρώσω, ἔτρωσα, τέτρωμαι, ἐτρώθην",
+  "definition": "wound",
+  "short": "wound",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "τιτρώσκω"
+    ],
+    "future": [
+     "τρώσω"
+    ],
+    "aorist": [
+     "ἔτρωσα"
+    ],
+    "perfect-mp": [
+     "τέτρωμαι"
+    ],
+    "aorist-passive": [
+     "ἐτρώθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "τιτρώσκω",
+    "τρώσω",
+    "ἔτρωσα",
+    "τέτρωμαι",
+    "ἐτρώθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "τὸ τραῦμα 'wound' (trauma)"
+   ]
+  }
+ },
+ {
+  "lemma": "τραῦμα",
+  "headword": "τραῦμα, τραύματος, τό",
+  "definition": "wound",
+  "short": "wound",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "τραύματος",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "derivatives": [
+    "trauma, traumatic"
+   ],
+   "cognates": [
+    "τιτρώσκω 'wound'"
+   ]
+  }
+ },
+ {
+  "lemma": "θώραξ",
+  "headword": "θώραξ, θώρακος, ὁ",
+  "definition": "breastplate, corslet",
+  "short": "breastplate, corslet",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "θώρακος",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "derivatives": [
+    "thorax (the chest)"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀσπίς",
+  "headword": "ἀσπίς, ἀσπίδος, ἡ",
+  "definition": "shield (the hoplite's round shield)",
+  "short": "shield",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "ἀσπίδος",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "history"
+  ]
+ },
+ {
+  "lemma": "φυγάς",
+  "headword": "φυγάς, φυγάδος, ὁ",
+  "definition": "exile, fugitive (someone banished from his city)",
+  "short": "exile",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "φυγάδος",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "φεύγω 'flee, be exiled'",
+    "φυγή"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐλευθερία",
+  "headword": "ἐλευθερία, ἐλευθερίας, ἡ",
+  "definition": "freedom, liberty",
+  "short": "freedom, liberty",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "ἐλευθερίας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "ἐλεύθερος 'free'"
+   ]
+  }
+ },
+ {
+  "lemma": "κράτος",
+  "headword": "κράτος, κράτους, τό",
+  "definition": "strength, might, power; κατὰ κράτος with all one's might",
+  "short": "might, power",
+  "kind": "noun",
+  "subclass": "noun-3-sigma",
+  "pos": "noun: 3rd declension -εσ- stem",
+  "morph": {
+   "genitive": "κράτους",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "derivatives": [
+    "democracy, aristocracy (-κρατία)"
+   ],
+   "cognates": [
+    "κρατέω 'rule, conquer'"
+   ]
+  }
+ },
+ {
+  "lemma": "πλήρης",
+  "headword": "πλήρης, πλῆρες",
+  "definition": "full (+ gen.); fully manned (of ships)",
+  "short": "full",
+  "kind": "adjective",
+  "subclass": "adj-3-es",
+  "pos": "adjective: 3rd declension",
+  "morph": {
+   "terminations": 2,
+   "forms": [
+    "πλήρης",
+    "πλῆρες"
+   ],
+   "feminine": "πλήρης",
+   "neuter": "πλῆρες",
+   "table": {
+    "kind": "adjective",
+    "genders": [
+     "m",
+     "f",
+     "n"
+    ],
+    "note": "Like ἀληθής, but the accent is recessive: πλήρης, πλῆρες, πλήρους.",
+    "cells": [
+     {
+      "case": "nom",
+      "number": "sg",
+      "forms": {
+       "m": [
+        "πλήρης"
+       ],
+       "f": [
+        "πλήρης"
+       ],
+       "n": [
+        "πλῆρες"
+       ]
+      }
+     },
+     {
+      "case": "gen",
+      "number": "sg",
+      "forms": {
+       "m": [
+        "πλήρους"
+       ],
+       "f": [
+        "πλήρους"
+       ],
+       "n": [
+        "πλήρους"
+       ]
+      }
+     },
+     {
+      "case": "dat",
+      "number": "sg",
+      "forms": {
+       "m": [
+        "πλήρει"
+       ],
+       "f": [
+        "πλήρει"
+       ],
+       "n": [
+        "πλήρει"
+       ]
+      }
+     },
+     {
+      "case": "acc",
+      "number": "sg",
+      "forms": {
+       "m": [
+        "πλήρη"
+       ],
+       "f": [
+        "πλήρη"
+       ],
+       "n": [
+        "πλῆρες"
+       ]
+      }
+     },
+     {
+      "case": "voc",
+      "number": "sg",
+      "forms": {
+       "m": [
+        "πλῆρες"
+       ],
+       "f": [
+        "πλῆρες"
+       ],
+       "n": [
+        "πλῆρες"
+       ]
+      }
+     },
+     {
+      "case": "nom",
+      "number": "pl",
+      "forms": {
+       "m": [
+        "πλήρεις"
+       ],
+       "f": [
+        "πλήρεις"
+       ],
+       "n": [
+        "πλήρη"
+       ]
+      }
+     },
+     {
+      "case": "gen",
+      "number": "pl",
+      "forms": {
+       "m": [
+        "πλήρων"
+       ],
+       "f": [
+        "πλήρων"
+       ],
+       "n": [
+        "πλήρων"
+       ]
+      }
+     },
+     {
+      "case": "dat",
+      "number": "pl",
+      "forms": {
+       "m": [
+        "πλήρεσι(ν)"
+       ],
+       "f": [
+        "πλήρεσι(ν)"
+       ],
+       "n": [
+        "πλήρεσι(ν)"
+       ]
+      }
+     },
+     {
+      "case": "acc",
+      "number": "pl",
+      "forms": {
+       "m": [
+        "πλήρεις"
+       ],
+       "f": [
+        "πλήρεις"
+       ],
+       "n": [
+        "πλήρη"
+       ]
+      }
+     },
+     {
+      "case": "voc",
+      "number": "pl",
+      "forms": {
+       "m": [
+        "πλήρεις"
+       ],
+       "f": [
+        "πλήρεις"
+       ],
+       "n": [
+        "πλήρη"
+       ]
+      }
+     }
+    ]
+   }
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "πληρόω 'fill'",
+    "Latin plenus → plenty"
+   ]
+  }
+ },
+ {
+  "lemma": "κενός",
+  "headword": "κενός, κενή, κενόν",
+  "definition": "empty (↔ πλήρης)",
+  "short": "empty",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 3,
+   "forms": [
+    "κενός",
+    "κενή",
+    "κενόν"
+   ],
+   "feminine": "κενή",
+   "neuter": "κενόν"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "derivatives": [
+    "cenotaph ('empty tomb')"
+   ]
+  }
+ },
+ {
+  "lemma": "ναύαρχος",
+  "headword": "ναύαρχος, ναυάρχου, ὁ",
+  "definition": "admiral, commander of a fleet (at Sparta an annual office)",
+  "short": "admiral",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "ναυάρχου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "ναῦς 'ship' + ἄρχω 'command'"
+   ]
+  }
+ },
+ {
+  "lemma": "λιμός",
+  "headword": "λιμός, λιμοῦ, ὁ",
+  "definition": "hunger, famine",
+  "short": "hunger, famine",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "λιμοῦ",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "λιμήν 'harbour' is a different word"
+   ]
+  }
+ },
+ {
+  "lemma": "σημαίνω",
+  "headword": "σημαίνω, σημανῶ, ἐσήμηνα, σεσήμαγκα, σεσήμασμαι, ἐσημάνθην",
+  "definition": "give a sign, give the signal (to do something); show, indicate",
+  "short": "give a signal",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "σημαίνω"
+    ],
+    "future": [
+     "σημανῶ"
+    ],
+    "aorist": [
+     "ἐσήμηνα"
+    ],
+    "perfect": [
+     "σεσήμαγκα"
+    ],
+    "perfect-mp": [
+     "σεσήμασμαι"
+    ],
+    "aorist-passive": [
+     "ἐσημάνθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "σημαίνω",
+    "σημανῶ",
+    "ἐσήμηνα",
+    "σεσήμαγκα",
+    "σεσήμασμαι",
+    "ἐσημάνθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "σημεῖον 'sign'"
+   ],
+   "derivatives": [
+    "semaphore, semantic"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀνάγω",
+  "headword": "ἀνάγω, ἀνάξω, ἀνήγαγον, ἀνῆχα, ἀνῆγμαι, ἀνήχθην",
+  "definition": "lead up; middle and passive ἀνάγομαι, ἀνήχθην: put out to sea, set sail",
+  "short": "lead up; (mid.) put to sea",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: compound of ἄγω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἀνάγω"
+    ],
+    "future": [
+     "ἀνάξω"
+    ],
+    "aorist": [
+     "ἀνήγαγον"
+    ],
+    "perfect": [
+     "ἀνῆχα"
+    ],
+    "perfect-mp": [
+     "ἀνῆγμαι"
+    ],
+    "aorist-passive": [
+     "ἀνήχθην"
+    ],
+    "aorist-2": [
+     "ἀνήγαγον"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἀνάγω",
+    "ἀνάξω",
+    "ἀνήγαγον",
+    "ἀνῆχα",
+    "ἀνῆγμαι",
+    "ἀνήχθην"
+   ],
+   "verb": {
+    "aorist_stem": "ἀγαγ"
+   }
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "ἄγω 'lead'"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀποπλέω",
+  "headword": "ἀποπλέω, ἀποπλεύσομαι, ἀπέπλευσα, ἀποπέπλευκα",
+  "definition": "sail away, sail back",
+  "short": "sail away",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: compound of πλέω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἀποπλέω"
+    ],
+    "future": [
+     "ἀποπλεύσομαι"
+    ],
+    "aorist": [
+     "ἀπέπλευσα"
+    ],
+    "perfect": [
+     "ἀποπέπλευκα"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἀποπλέω",
+    "ἀποπλεύσομαι",
+    "ἀπέπλευσα",
+    "ἀποπέπλευκα"
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "πλέω 'sail'"
+   ]
+  }
+ },
+ {
+  "lemma": "σπουδή",
+  "headword": "σπουδή, σπουδῆς, ἡ",
+  "definition": "haste, speed; eagerness, seriousness",
+  "short": "haste, eagerness",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "σπουδῆς",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "σπεύδω 'hurry'"
+   ]
+  }
+ },
+ {
+  "lemma": "ὄχλος",
+  "headword": "ὄχλος, ὄχλου, ὁ",
+  "definition": "crowd, mob, throng",
+  "short": "crowd",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "ὄχλου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "derivatives": [
+    "ochlocracy (mob rule)"
+   ]
+  }
+ }
+]

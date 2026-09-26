@@ -1,0 +1,157 @@
+{
+ "images": [
+  {
+   "id": "myth-1-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "χειμὼν ἦν· οἱ παῖδες μετὰ τοῦ πάππου παρὰ τῷ πυρὶ ἦσαν.",
+   "alt_en": "An old man seated, telling a story; children listen (terracotta group or vase scene).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-1-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Ῥέα τῷ Κρόνῳ λίθον ἐν σπαργάνοις δίδωσιν.",
+   "alt_en": "Rhea hands Kronos the stone wrapped in swaddling clothes (Attic red-figure pelike by the Nausicaa Painter, c. 460 BC, Metropolitan Museum 06.1021.144).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-1-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ Κούρητες τοῖς δόρασι τὰς ἀσπίδας κρούουσιν περὶ τὸν παῖδα.",
+   "alt_en": "The armed Kouretes clash spears on shields around the infant Zeus (Roman terracotta Campana relief).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-antron",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ ἄντρον",
+   "alt_en": "The Dictaean cave on Crete, the traditional birthplace of Zeus: a cave mouth in the rock.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἄντρον"
+   ]
+  },
+  {
+   "id": "myth-aspis",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ ἀσπίς",
+   "alt_en": "A round hoplite shield (bronze shield facing or a vase painting of a warrior's shield).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἀσπίς"
+   ]
+  },
+  {
+   "id": "myth-dory",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ δόρυ",
+   "alt_en": "A hoplite with his spear raised, from a red-figure vase.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "δόρυ"
+   ]
+  },
+  {
+   "id": "myth-culture-1",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὁ ὀμφαλὸς ὁ ἐν Δελφοῖς.",
+   "alt_en": "The marble omphalos, the 'navel of the world', carved with a net of wool fillets (Delphi Archaeological Museum).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-2-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ ἱερὰ ἐλαία ἐν τῇ ἀκροπόλει.",
+   "alt_en": "The olive tree beside the Erechtheion on the Acropolis, planted where the sacred olive grew.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-2-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Κέκροψ· τὸ μὲν ἄνω ἀνδρός, τὸ δὲ κάτω δράκοντος.",
+   "alt_en": "Kekrops, a king whose body ends in a serpent's coils, on an Attic red-figure vase.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-2-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Ἀθηνᾶ καὶ ὁ Ποσειδῶν ἐρίζουσιν· ἐν μέσῳ ἡ ἐλαία.",
+   "alt_en": "Athena and Poseidon contend for Attica with the olive tree between them (red-figure hydria from Pella, 4th century BC, after the Parthenon's west pediment).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-triaina",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ τρίαινα",
+   "alt_en": "Poseidon holding his trident, from a black- or red-figure vase.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "τρίαινα"
+   ]
+  },
+  {
+   "id": "myth-drakon",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ δράκων",
+   "alt_en": "A great serpent coiled around a tree or rising up, from a Greek vase painting.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "δράκων"
+   ]
+  },
+  {
+   "id": "myth-culture-2",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "τὸ ἀέτωμα τὸ πρὸς ἑσπέραν τοῦ Παρθενῶνος.",
+   "alt_en": "Drawing of 1674 (attributed to Jacques Carrey) of the west pediment of the Parthenon: Athena and Poseidon spring apart in the centre.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  }
+ ]
+}

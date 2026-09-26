@@ -1,0 +1,1425 @@
+{
+ "id": "hist.3",
+ "title_grc": "Ὁ Ἀσσίναρος ποταμός",
+ "title_en": "At the Assinarus",
+ "summary_grc": "οἱ Ἀθηναῖοι ἐν Σικελίᾳ νικηθέντες ἀπεχώρουν· ἐν δὲ τῷ Ἀσσινάρῳ ποταμῷ ἀπώλοντο.",
+ "summary_en": "413 BC: after two years in Sicily the Athenian fleet is beaten in the harbour of Syracuse, and the army retreats by land. At the river Assinarus the thirsty men break ranks and are cut down in the water. Thucydides 7.84 and 7.87.6, adapted: imperfect and historic present in a battle narrative.",
+ "cover": "hist-panel-3-c",
+ "caption_grc": "ὀλίγοι ἀπὸ πολλῶν ἐπ’ οἴκου ἀπενόστησαν.",
+ "original": {
+  "text": "thuc-7.84",
+  "note": "Thucydides 7.84 and 7.87.6, adapted in paragraphs 2 and 3 (paragraph 1 and the sentence on Nicias' surrender summarise 7.60–85). The disaster happened in September 413 BC; Thucydides, then in exile, wrote the Sicilian books after the war."
+ },
+ "names": {
+  "Σικελία": [
+   "Σικελίας",
+   "Σικελίᾳ",
+   "Σικελίαν"
+  ],
+  "Συρακοῦσαι": [
+   "Συρακουσῶν",
+   "Συρακούσαις",
+   "Συρακούσας"
+  ],
+  "Συρακόσιος": [
+   "Συρακόσιοι",
+   "Συρακοσίων",
+   "Συρακοσίοις",
+   "Συρακοσίους"
+  ],
+  "Νικίας": [
+   "Νικίου",
+   "Νικίᾳ",
+   "Νικίαν"
+  ],
+  "Ἀσσίναρος": [
+   "Ἀσσινάρου",
+   "Ἀσσινάρῳ",
+   "Ἀσσίναρον"
+  ],
+  "Γύλιππος": [
+   "Γυλίππου",
+   "Γυλίππῳ",
+   "Γύλιππον"
+  ]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "hist-panel-3-a",
+   "sentences": [
+    {
+     "text": "τῷ δὲ ἑπτακαιδεκάτῳ ἔτει τοῦ πολέμου οἱ Ἀθηναῖοι μεγάλῃ στρατιᾷ καὶ πολλαῖς ναυσὶν εἰς Σικελίαν ἔπλευσαν, ὡς τὰς Συρακούσας αἱρήσοντες.",
+     "glosses": [
+      {
+       "word": "ἑπτακαιδεκάτῳ",
+       "kind": "<",
+       "value": "ἑπτά + καί + δέκα | ἑπτακαιδέκατος: seventeenth (415 BC)"
+      },
+      {
+       "word": "αἱρήσοντες",
+       "kind": "note",
+       "value": "ὡς + future participle: in order to take (purpose, 7.1)"
+      }
+     ]
+    },
+    {
+     "text": "δύο δὲ ἔτη ἐπολέμουν, ἀλλὰ τέλος οἱ Συρακόσιοι τὰς ναῦς τῶν Ἀθηναίων ἐν τῷ λιμένι ἐνίκησαν.",
+     "glosses": [
+      {
+       "word": "τέλος",
+       "kind": "note",
+       "value": "τέλος as an adverb: in the end, finally"
+      }
+     ]
+    },
+    {
+     "text": "οἱ οὖν Ἀθηναῖοι καὶ οἱ σύμμαχοι, οὐκ ἐλάττους τεττάρων μυριάδων, κατὰ γῆν ἀπεχώρουν· ἦσαν γὰρ πεζοί, καὶ τὰς ναῦς οὐκέτι εἶχον.",
+     "glosses": [
+      {
+       "word": "μυριάδων",
+       "kind": "en",
+       "value": "tens of thousands (ἡ μυριάς, 10,000): not fewer than 40,000"
+      },
+      {
+       "word": "ἀπεχώρουν",
+       "kind": "<",
+       "value": "ἀπό + χωρέω (go) | ἀποχωρέω: withdraw, retreat"
+      }
+     ]
+    },
+    {
+     "text": "ὀκτὼ δὲ ἡμέρας ἐπορεύοντο, καὶ οἱ πολέμιοι αὐτοῖς ἀεὶ ἐπέκειντο.",
+     "glosses": [
+      {
+       "word": "ἐπορεύοντο",
+       "kind": "en",
+       "value": "marched (πορεύομαι)"
+      },
+      {
+       "word": "ἐπέκειντο",
+       "kind": "<",
+       "value": "ἐπί + κεῖμαι (lie) | ἐπίκειμαι + dative: press hard on, attack"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "hist-panel-3-b",
+   "sentences": [
+    {
+     "text": "ὁ δὲ Νικίας, ἐπειδὴ ἡμέρα ἐγένετο, ἦγε τὴν στρατιάν.",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "ἐπειδὴ",
+       "kind": "=",
+       "value": "ἐπεί (when)"
+      }
+     ]
+    },
+    {
+     "text": "οἱ δὲ Συρακόσιοι καὶ οἱ σύμμαχοι προσέκειντο πανταχόθεν βάλλοντες.",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "προσέκειντο",
+       "kind": "<",
+       "value": "πρός + κεῖμαι | πρόσκειμαι: press upon, attack"
+      },
+      {
+       "word": "πανταχόθεν",
+       "kind": "<",
+       "value": "πᾶς + -θεν | πανταχόθεν: from every side"
+      }
+     ]
+    },
+    {
+     "text": "καὶ οἱ Ἀθηναῖοι ἠπείγοντο πρὸς τὸν Ἀσσίναρον ποταμόν, ἅμα μὲν ὑπὸ τῶν ἱππέων βιαζόμενοι, ἅμα δὲ ὑπὸ τῆς δίψης· ᾤοντο γὰρ ῥᾷον αὐτοῖς ἔσεσθαι, ἐὰν διαβῶσι τὸν ποταμόν.",
+     "orig": [
+      2
+     ],
+     "glosses": [
+      {
+       "word": "ἠπείγοντο",
+       "kind": "en",
+       "value": "hurried, pressed on (ἐπείγομαι)"
+      },
+      {
+       "word": "βιαζόμενοι",
+       "kind": "en",
+       "value": "hard pressed, forced on"
+      },
+      {
+       "word": "δίψης",
+       "kind": "en",
+       "value": "thirst (ἡ δίψα)"
+      },
+      {
+       "word": "ῥᾷον",
+       "kind": "|",
+       "value": "ῥᾴδιος | ῥᾴων, ῥᾷον: easier"
+      }
+     ]
+    },
+    {
+     "text": "ὡς δὲ γίγνονται ἐπὶ τῷ ποταμῷ, εἰσπίπτουσιν οὐδενὶ κόσμῳ ἔτι· πᾶς γάρ τις αὐτὸς πρῶτος διαβῆναι ἐβούλετο.",
+     "orig": [
+      3
+     ],
+     "glosses": [
+      {
+       "word": "γίγνονται",
+       "kind": "note",
+       "value": "historic present: 'they reached (the river)'; so also εἰσπίπτουσιν"
+      },
+      {
+       "word": "εἰσπίπτουσιν",
+       "kind": "<",
+       "value": "εἰς + πίπτω | εἰσπίπτω: rush in, fall in"
+      },
+      {
+       "word": "οὐδενὶ",
+       "kind": "en",
+       "value": "no (οὐδείς): οὐδενὶ κόσμῳ, in no order at all"
+      },
+      {
+       "word": "κόσμῳ",
+       "kind": "en",
+       "value": "order (ὁ κόσμος)"
+      }
+     ]
+    },
+    {
+     "text": "καὶ οἱ πολέμιοι ἐπικείμενοι χαλεπὴν τὴν διάβασιν ἐποίουν.",
+     "orig": [
+      3
+     ],
+     "glosses": [
+      {
+       "word": "ἐπικείμενοι",
+       "kind": "<",
+       "value": "ἐπίκειμαι | ἐπικείμενοι: attacking, pressing on them"
+      },
+      {
+       "word": "διάβασιν",
+       "kind": "<",
+       "value": "διαβαίνω | ἡ διάβασις: the crossing"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "hist-panel-3-c",
+   "sentences": [
+    {
+     "text": "ἁθρόοι γὰρ ἀναγκαζόμενοι χωρεῖν ἐπέπιπτον ἀλλήλοις καὶ κατεπάτουν, καὶ οἱ μὲν εὐθὺς ἀπέθνῃσκον, οἱ δὲ ὑπὸ τοῦ ποταμοῦ ἐφέροντο.",
+     "orig": [
+      4
+     ],
+     "glosses": [
+      {
+       "word": "ἁθρόοι",
+       "kind": "en",
+       "value": "all together, in a mass"
+      },
+      {
+       "word": "χωρεῖν",
+       "kind": "en",
+       "value": "to go forward (χωρέω)"
+      },
+      {
+       "word": "ἐπέπιπτον",
+       "kind": "<",
+       "value": "ἐπί + πίπτω | ἐπιπίπτω: fall upon"
+      },
+      {
+       "word": "κατεπάτουν",
+       "kind": "en",
+       "value": "trampled (καταπατέω)"
+      },
+      {
+       "word": "ἐφέροντο",
+       "kind": "note",
+       "value": "were carried away (passive of φέρω)"
+      }
+     ]
+    },
+    {
+     "text": "οἱ δὲ Συρακόσιοι ἐπὶ τῇ ἑτέρᾳ ὄχθῃ ἑστῶτες ἔβαλλον ἄνωθεν τοὺς Ἀθηναίους, πίνοντας τοὺς πολλοὺς καὶ ἐν ἀλλήλοις ταρασσομένους.",
+     "orig": [
+      5
+     ],
+     "glosses": [
+      {
+       "word": "ὄχθῃ",
+       "kind": "en",
+       "value": "bank (of a river: ἡ ὄχθη); the far bank was steep"
+      },
+      {
+       "word": "ἑστῶτες",
+       "kind": "|",
+       "value": "ἵστημι · ἕστηκα, ἑστώς | ἑστῶτες: standing"
+      },
+      {
+       "word": "ἄνωθεν",
+       "kind": "<",
+       "value": "ἄνω + -θεν | ἄνωθεν: from above"
+      },
+      {
+       "word": "ταρασσομένους",
+       "kind": "en",
+       "value": "being thrown into confusion (ταράττω)"
+      }
+     ]
+    },
+    {
+     "text": "οἵ τε Πελοποννήσιοι καταβάντες τοὺς ἐν τῷ ποταμῷ μάλιστα ἔσφαζον.",
+     "orig": [
+      6
+     ],
+     "glosses": [
+      {
+       "word": "μάλιστα",
+       "kind": "en",
+       "value": "most of all, above all"
+      }
+     ]
+    },
+    {
+     "text": "καὶ τὸ ὕδωρ εὐθὺς διεφθείρετο, ἀλλ’ οὐδὲν ἧττον ἐπίνετο ὁμοῦ τῷ πηλῷ ᾑματωμένον, καὶ πολλοὶ περὶ αὐτοῦ ἐμάχοντο.",
+     "orig": [
+      7
+     ],
+     "glosses": [
+      {
+       "word": "οὐδὲν",
+       "kind": "note",
+       "value": "οὐδὲν ἧττον: none the less (literally 'by nothing less'; οὐδείς, οὐδέν)"
+      },
+      {
+       "word": "ὁμοῦ",
+       "kind": "en",
+       "value": "together with (+ dative)"
+      },
+      {
+       "word": "ᾑματωμένον",
+       "kind": "<",
+       "value": "αἷμα (blood) | ᾑματωμένον: bloodied"
+      }
+     ]
+    },
+    {
+     "text": "τέλος δὲ ὁ Νικίας ἑαυτὸν τῷ Γυλίππῳ τῷ Λακεδαιμονίῳ παρέδωκεν."
+    },
+    {
+     "text": "κατὰ πάντα γὰρ νικηθέντες οἱ Ἀθηναῖοι καὶ τὸν πεζὸν καὶ τὰς ναῦς ἀπώλεσαν, καὶ ὀλίγοι ἀπὸ πολλῶν ἐπ’ οἴκου ἀπενόστησαν.",
+     "orig": [
+      8
+     ],
+     "glosses": [
+      {
+       "word": "κατὰ",
+       "kind": "note",
+       "value": "κατὰ πάντα: in every way"
+      },
+      {
+       "word": "ἀπενόστησαν",
+       "kind": "en",
+       "value": "came back home (ἀπονοστέω; νόστος, homecoming)"
+      },
+      {
+       "word": "οἴκου",
+       "kind": "note",
+       "value": "ἐπ’ οἴκου: homewards; ὀλίγοι ἀπὸ πολλῶν, few out of many"
+      }
+     ]
+    },
+    {
+     "text": "ταῦτα μὲν τὰ περὶ Σικελίαν γενόμενα.",
+     "orig": [
+      9
+     ],
+     "glosses": [
+      {
+       "word": "γενόμενα",
+       "kind": "note",
+       "value": "ταῦτα μὲν τὰ … γενόμενα [ἐστί]: such were the events in Sicily (Thucydides' closing formula)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "στρατια",
+   "pic": "stratos",
+   "gloss_grc": "ἡ στρατιά = ὁ στρατός · μεγάλῃ στρατιᾷ"
+  },
+  {
+   "id": "πολεμεω",
+   "gloss_grc": "πολεμέω < πόλεμος · δύο ἔτη ἐπολέμουν"
+  },
+  {
+   "id": "πολεμιος",
+   "gloss_grc": "πολέμιος, -α, -ον < πόλεμος · οἱ πολέμιοι (the enemy) ↔ οἱ σύμμαχοι"
+  },
+  {
+   "id": "πεζος",
+   "pic": "hoplites",
+   "gloss_grc": "πεζός, -ή, -όν < πούς · ὁ πεζός (the army on land) ↔ αἱ νῆες"
+  },
+  {
+   "id": "ιππευς",
+   "gloss_grc": "ὁ ἱππεύς < ἵππος · οἱ ἱππῆς"
+  },
+  {
+   "id": "διαβαινω",
+   "pic": "potamos",
+   "gloss_grc": "διαβαίνω, διέβην · τὸν ποταμὸν διαβαίνειν"
+  },
+  {
+   "id": "αναγκαζω",
+   "gloss_grc": "ἀναγκάζω < ἀνάγκη · ἀναγκαζόμενοι χωρεῖν"
+  },
+  {
+   "id": "σφαζω",
+   "gloss_grc": "σφάζω, ἔσφαξα · τοὺς ἐν τῷ ποταμῷ ἔσφαζον"
+  },
+  {
+   "id": "πιπτω",
+   "gloss_grc": "πίπτω, ἔπεσον · εἰσπίπτω, ἐπιπίπτω"
+  },
+  {
+   "id": "απολλυμι",
+   "gloss_grc": "ἀπόλλυμι, ἀπώλεσα (destroy, lose) · ἀπόλλυμαι, ἀπωλόμην (perish)"
+  },
+  {
+   "id": "ποταμος",
+   "pic": "potamos",
+   "gloss_grc": "ὁ ποταμός · ὁ Ἀσσίναρος ποταμός"
+  }
+ ],
+ "notice": [
+  "ὁ δὲ Νικίας, ἐπειδὴ ἡμέρα ἐγένετο, ἦγε τὴν στρατιάν",
+  "ὡς δὲ γίγνονται ἐπὶ τῷ ποταμῷ, εἰσπίπτουσιν οὐδενὶ κόσμῳ ἔτι",
+  "οἱ μὲν εὐθὺς ἀπέθνῃσκον, οἱ δὲ ὑπὸ τοῦ ποταμοῦ ἐφέροντο",
+  "ὀλίγοι ἀπὸ πολλῶν ἐπ’ οἴκου ἀπενόστησαν"
+ ],
+ "grammar": {
+  "md": "**Reading a battle narrative.** Thucydides tells the last march in three tenses, and each has its job:\n\n| tense | job | examples |\n|---|---|---|\n| **imperfect** | the background: actions going on, repeated, unfinished | ἦγε · προσέκειντο · ἠπείγοντο · ἔσφαζον · ἐπίνετο |\n| **historic present** | the moment of crisis, as if we were there | γίγνονται · εἰσπίπτουσιν |\n| **aorist** | the event and its result, done | ἐνίκησαν · παρέδωκεν · ἀπώλεσαν · ἀπενόστησαν |\n\n**Who does what to whom.** Two armies, and participles for both. Match each participle to its noun by case: οἱ Συρακόσιοι … **ἑστῶτες** (nominative: the Syracusans are standing) ἔβαλλον τοὺς Ἀθηναίους **πίνοντας** καὶ **ταρασσομένους** (accusative: the Athenians are drinking and in confusion).\n\n**οἱ μέν … οἱ δέ** 'some … others': οἱ μὲν εὐθὺς ἀπέθνῃσκον, οἱ δὲ ὑπὸ τοῦ ποταμοῦ ἐφέροντο.\n\n**ἐάν + subjunctive (8.1)** in the Athenians' hope: ᾤοντο ῥᾷον ἔσεσθαι, ἐὰν διαβῶσι τὸν ποταμόν. (Thucydides writes ἤν, the Ionic and old Attic form of ἐάν.)\n\n**Thucydides' spelling.** In the original you will see ξύμμαχοι for σύμμαχοι and ἐς for εἰς: older Attic forms that Thucydides keeps.",
+  "paradigms": [
+   "basileus"
+  ],
+  "diagram": "diagram-timeline"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings.",
+   "template": "οἱ δὲ Συρακόσιοι προσέκειντο πανταχόθεν βάλλ___. ἁθρόοι γὰρ ἀναγκαζ___ χωρεῖν ἐπέπιπτ___ ἀλλήλοις … οἱ Πελοποννήσιοι τοὺς ἐν τῷ ποταμῷ ἔσφαζ___.",
+   "gaps": [
+    {
+     "answers": [
+      "οντες"
+     ]
+    },
+    {
+     "answers": [
+      "όμενοι"
+     ]
+    },
+    {
+     "answers": [
+      "ον"
+     ]
+    },
+    {
+     "answers": [
+      "ον"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.impf.vs.aor",
+    "verb.ptc.pres.act",
+    "verb.ptc.pres.mp"
+   ],
+   "explain": "βάλλοντες (present active participle, nominative plural with οἱ Συρακόσιοι); ἀναγκαζόμενοι (present passive participle); ἐπέπιπτον and ἔσφαζον (imperfects: it kept happening)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · καὶ οἱ μὲν εὐθὺς ἀπέθνῃσκον, οἱ ___ ὑπὸ τοῦ ποταμοῦ ἐφέροντο.",
+   "options": [
+    {
+     "id": "a",
+     "text": "δὲ"
+    },
+    {
+     "id": "b",
+     "text": "γὰρ"
+    },
+    {
+     "id": "c",
+     "text": "τε"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.men-de"
+   ],
+   "explain": "οἱ μὲν … οἱ δέ: some … others.",
+   "audio": "καὶ οἱ μὲν εὐθὺς ἀπέθνῃσκον, οἱ δὲ ὑπὸ τοῦ ποταμοῦ ἐφέροντο."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ᾤοντο γὰρ ῥᾷον αὐτοῖς ἔσεσθαι, ἐὰν ___ τὸν ποταμόν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "διαβῶσι"
+    },
+    {
+     "id": "b",
+     "text": "διέβησαν"
+    },
+    {
+     "id": "c",
+     "text": "διαβαίνουσι"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.ean"
+   ],
+   "explain": "ἐάν + subjunctive: 'if they crossed (should cross) the river'.",
+   "audio": "ᾤοντο γὰρ ῥᾷον αὐτοῖς ἔσεσθαι, ἐὰν διαβῶσι τὸν ποταμόν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · καὶ ὀλίγοι ἀπὸ ___ ἐπ’ οἴκου ἀπενόστησαν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "πολλῶν"
+    },
+    {
+     "id": "b",
+     "text": "πολλοῖς"
+    },
+    {
+     "id": "c",
+     "text": "πολλούς"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.gen.uses",
+    "adj.megas-polys"
+   ],
+   "explain": "ἀπό + genitive: few out of many.",
+   "audio": "καὶ ὀλίγοι ἀπὸ πολλῶν ἐπ’ οἴκου ἀπενόστησαν."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ὁ ποταμός",
+   "options": [
+    {
+     "id": "a",
+     "image": "potamos"
+    },
+    {
+     "id": "b",
+     "image": "thalatta"
+    },
+    {
+     "id": "c",
+     "image": "limen"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ὁ ποταμός: a river (ὁ Ἀσσίναρος ποταμός).",
+   "audio": "prompt"
+  },
+  {
+   "type": "match",
+   "prompt": "Match the new words to their meanings.",
+   "pairs": [
+    {
+     "left": "ἡ στρατιά",
+     "right": "army"
+    },
+    {
+     "left": "πεζός",
+     "right": "on foot; infantry"
+    },
+    {
+     "left": "διαβαίνω",
+     "right": "cross"
+    },
+    {
+     "left": "σφάζω",
+     "right": "slaughter"
+    },
+    {
+     "left": "ἀναγκάζω",
+     "right": "force, compel"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.hist"
+   ],
+   "explain": "στρατιά, πεζός, διαβαίνω, σφάζω, ἀναγκάζω."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist subjunctive of διαβαίνω for 'if they cross': ἐὰν ___ τὸν ποταμόν.",
+   "lemma": "διαβαίνω",
+   "cell": "aorist.active.subjunctive.3pl",
+   "skills": [
+    "syntax.ean",
+    "verb.aor.root"
+   ],
+   "explain": "διαβῶσι(ν): root aorist διέβην, subjunctive διαβῶ, διαβῇς … διαβῶσι.",
+   "audio": "διαβῶσι"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the imperfect of σφάζω for 'they kept slaughtering'.",
+   "lemma": "σφάζω",
+   "cell": "imperfect.active.indicative.3pl",
+   "skills": [
+    "verb.impf.vs.aor",
+    "vocab.production"
+   ],
+   "explain": "ἔσφαζον: augment ἐ- + present stem σφαζ-.",
+   "audio": "ἔσφαζον"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the genitive plural of ὁ ἱππεύς: ὑπὸ τῶν ___.",
+   "lemma": "ἱππεύς",
+   "cell": "gen.pl",
+   "skills": [
+    "noun.decl3.eus",
+    "vocab.hist"
+   ],
+   "explain": "ἱππέων, like βασιλέων.",
+   "audio": "ἱππέων"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἀναγκαζόμενοι.",
+   "form": "ἀναγκαζόμενοι",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "voice",
+     "label": "Voice",
+     "options": [
+      {
+       "id": "act",
+       "label": "active"
+      },
+      {
+       "id": "mid",
+       "label": "middle"
+      },
+      {
+       "id": "pass",
+       "label": "passive"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "case",
+     "label": "Case",
+     "options": [
+      {
+       "id": "nom",
+       "label": "nominative"
+      },
+      {
+       "id": "gen",
+       "label": "genitive"
+      },
+      {
+       "id": "dat",
+       "label": "dative"
+      },
+      {
+       "id": "acc",
+       "label": "accusative"
+      },
+      {
+       "id": "voc",
+       "label": "vocative"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "pres",
+    "voice": "pass",
+    "mood": "ptc",
+    "case": "nom"
+   },
+   "skills": [
+    "verb.ptc.pres.mp",
+    "verb.ptc.use"
+   ],
+   "explain": "ἀναγκαζ-όμενοι: present passive participle, nominative plural: 'being forced (to go on)'.",
+   "audio": "ἀναγκαζόμενοι"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἀπώλεσαν.",
+   "form": "ἀπώλεσαν",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person and number",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "1st singular"
+      },
+      {
+       "id": "2sg",
+       "label": "2nd singular"
+      },
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "1pl",
+       "label": "1st plural"
+      },
+      {
+       "id": "2pl",
+       "label": "2nd plural"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "mood": "ind",
+    "person": "3pl"
+   },
+   "skills": [
+    "verb.aor1.sigma",
+    "vocab.hist"
+   ],
+   "explain": "ἀπ-ώλεσαν: aorist of ἀπόλλυμι 'destroy, lose', 3rd plural (augment ο → ω after the prefix).",
+   "audio": "ἀπώλεσαν"
+  },
+  {
+   "type": "label",
+   "prompt": "ὡς δὲ γίγνονται ἐπὶ τῷ ποταμῷ, εἰσπίπτουσιν οὐδενὶ κόσμῳ ἔτι. Why the present tense in a story about 413 BC?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the historic present: Thucydides makes us watch the moment"
+    },
+    {
+     "id": "b",
+     "text": "the Athenians are still there now"
+    },
+    {
+     "id": "c",
+     "text": "it is a general truth"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.historic-present",
+    "read.hist.narrative"
+   ],
+   "explain": "The historic present brings the climax before our eyes; the imperfects around it are the background."
+  },
+  {
+   "type": "label",
+   "prompt": "ἦγε · προσέκειντο · ἠπείγοντο · ἔσφαζον. Why does Thucydides use so many imperfects here?",
+   "options": [
+    {
+     "id": "a",
+     "text": "they describe actions going on and repeated during the march"
+    },
+    {
+     "id": "b",
+     "text": "they are all commands"
+    },
+    {
+     "id": "c",
+     "text": "they describe what will happen"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.impf.vs.aor",
+    "read.hist.narrative"
+   ],
+   "explain": "The imperfect paints the scene (ongoing, repeated); the aorists (ἀπώλεσαν, ἀπενόστησαν) give the result."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "οἱ δὲ Συρακόσιοι ἔβαλλον τοὺς Ἀθηναίους, ___ τοὺς πολλούς.",
+   "options": [
+    {
+     "id": "a",
+     "text": "πίνοντας"
+    },
+    {
+     "id": "b",
+     "text": "πίνοντες"
+    },
+    {
+     "id": "c",
+     "text": "πινόντων"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "adj.agree",
+    "verb.ptc.use"
+   ],
+   "explain": "πίνοντας agrees with τοὺς Ἀθηναίους (accusative): they shot at the Athenians while they were drinking."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ Νικίας ἑαυτὸν τῷ Γυλίππῳ ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "παρέδωκεν"
+    },
+    {
+     "id": "b",
+     "text": "παρέδωκαν"
+    },
+    {
+     "id": "c",
+     "text": "παραδίδωσι τὸν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.mi.aorist"
+   ],
+   "explain": "παρέδωκεν: aorist of παραδίδωμι, 'handed over, surrendered'."
+  },
+  {
+   "type": "transform",
+   "prompt": "Change to the plural: ὁ ἱππεὺς τὸν ποταμὸν διαβαίνει. → οἱ ἱππῆς τὸν ποταμὸν ___.",
+   "template": "οἱ ἱππῆς τὸν ποταμὸν ___.",
+   "gaps": [
+    {
+     "answers": [
+      "διαβαίνουσι",
+      "διαβαίνουσιν"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.pres.act.ind.3pl",
+    "vocab.hist"
+   ],
+   "explain": "διαβαίνουσι(ν)."
+  },
+  {
+   "type": "transform",
+   "prompt": "Put into the aorist: οἱ Ἀθηναῖοι τὸν ποταμὸν διαβαίνουσιν. → οἱ Ἀθηναῖοι τὸν ποταμὸν ___.",
+   "template": "οἱ Ἀθηναῖοι τὸν ποταμὸν ___.",
+   "gaps": [
+    {
+     "answers": [
+      "διέβησαν"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.aor.root",
+    "vocab.hist"
+   ],
+   "explain": "διέβησαν: root aorist like ἔβησαν."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the two historic presents.",
+   "sentence": "ὡς δὲ γίγνονται ἐπὶ τῷ ποταμῷ, εἰσπίπτουσιν οὐδενὶ κόσμῳ ἔτι· πᾶς γάρ τις αὐτὸς πρῶτος διαβῆναι ἐβούλετο.",
+   "answer": [
+    2,
+    6
+   ],
+   "skills": [
+    "read.locate",
+    "verb.historic-present"
+   ],
+   "explain": "γίγνονται, εἰσπίπτουσιν: present tense in the middle of a past narrative."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the three participles.",
+   "sentence": "οἱ δὲ Συρακόσιοι ἐπὶ τῇ ἑτέρᾳ ὄχθῃ ἑστῶτες ἔβαλλον ἄνωθεν τοὺς Ἀθηναίους, πίνοντας τοὺς πολλοὺς καὶ ἐν ἀλλήλοις ταρασσομένους.",
+   "answer": [
+    7,
+    12,
+    18
+   ],
+   "skills": [
+    "read.locate",
+    "verb.ptc.use"
+   ],
+   "explain": "ἑστῶτες (the Syracusans, standing), πίνοντας and ταρασσομένους (the Athenians, drinking and in confusion)."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'Few came home out of many.'",
+   "tokens": [
+    "ὀλίγοι",
+    "ἀπὸ",
+    "πολλῶν",
+    "ἀπενόστησαν"
+   ],
+   "answers": [
+    "ὀλίγοι ἀπὸ πολλῶν ἀπενόστησαν",
+    "ἀπὸ πολλῶν ὀλίγοι ἀπενόστησαν"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "read.thucydides"
+   ],
+   "explain": "ὀλίγοι ἀπὸ πολλῶν ἀπενόστησαν: Thucydides' last words on Sicily."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "πᾶς γάρ τις αὐτὸς πρῶτος διαβῆναι ἐβούλετο."
+    },
+    {
+     "id": "b",
+     "text": "πᾶς γάρ τις αὐτὸς πρῶτος πιεῖν ἐβούλετο."
+    },
+    {
+     "id": "c",
+     "text": "οὐδεὶς γὰρ πρῶτος διαβῆναι ἐβούλετο."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "Every man wanted to be the first across himself.",
+   "audio": "πᾶς γάρ τις αὐτὸς πρῶτος διαβῆναι ἐβούλετο."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "οἱ Ἀθηναῖοι ἐν τάξει καὶ κόσμῳ τὸν ποταμὸν διέβησαν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "εἰσπίπτουσιν οὐδενὶ κόσμῳ ἔτι."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "οἱ Συρακόσιοι ἄνωθεν ἀπὸ τῆς ὄχθης ἔβαλλον.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἔβαλλον ἄνωθεν τοὺς Ἀθηναίους."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "οἱ Ἀθηναῖοι τὸ ὕδωρ οὐκ ἔπινον, ὅτι ᾑματωμένον ἦν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "οὐδὲν ἧττον ἐπίνετο ὁμοῦ τῷ πηλῷ ᾑματωμένον."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "gaps": [
+    {
+     "answers": [
+      "ὀλίγοι ἀπὸ πολλῶν ἐπ’ οἴκου ἀπενόστησαν"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "ὀλίγοι ἀπὸ πολλῶν ἐπ’ οἴκου ἀπενόστησαν.",
+   "audio": "ὀλίγοι ἀπὸ πολλῶν ἐπ’ οἴκου ἀπενόστησαν."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The enemy were attacking from every side.' (use προσέκειντο and πανταχόθεν)",
+   "gaps": [
+    {
+     "answers": [
+      "οἱ πολέμιοι προσέκειντο πανταχόθεν",
+      "οἱ πολέμιοι πανταχόθεν προσέκειντο",
+      "πανταχόθεν προσέκειντο οἱ πολέμιοι"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "vocab.hist"
+   ],
+   "explain": "οἱ πολέμιοι πανταχόθεν προσέκειντο."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: κατὰ πάντα γὰρ νικηθέντες οἱ Ἀθηναῖοι καὶ τὸν πεζὸν καὶ τὰς ναῦς ἀπώλεσαν, καὶ ὀλίγοι ἀπὸ πολλῶν ἐπ’ οἴκου ἀπενόστησαν.",
+   "audio": "κατὰ πάντα γὰρ νικηθέντες οἱ Ἀθηναῖοι καὶ τὸν πεζὸν καὶ τὰς ναῦς ἀπώλεσαν, καὶ ὀλίγοι ἀπὸ πολλῶν ἐπ’ οἴκου ἀπενόστησαν.",
+   "model": "For the Athenians, beaten in every way, lost both their army and their ships, and few out of many came home.",
+   "skills": [
+    "read.thucydides",
+    "read.adapted-text"
+   ],
+   "explain": "νικηθέντες: aorist passive participle; καὶ … καί: both … and."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "ἡ στρατιά, ὁ στρατός",
+     "right": "strategy"
+    },
+    {
+     "left": "ὁ πόλεμος",
+     "right": "polemic"
+    },
+    {
+     "left": "ὁ ἵππος, ὁ ἱππεύς",
+     "right": "hippopotamus ('river horse')"
+    },
+    {
+     "left": "ὁ κόσμος",
+     "right": "cosmetic, cosmos"
+    },
+    {
+     "left": "τὸ αἷμα",
+     "right": "haemorrhage, anaemia"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "στρατηγία; πολεμικός; ἵππος ὁ ποτάμιος; κόσμος 'order, ornament'; αἷμα 'blood' (ᾑματωμένον)."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί οἱ Ἀθηναῖοι πρὸς τὸν ποταμὸν ἠπείγοντο;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ᾤοντο γὰρ ῥᾷον αὐτοῖς ἔσεσθαι, ἐὰν διαβῶσιν."
+    },
+    {
+     "id": "b",
+     "text": "ἐβούλοντο γὰρ ναυμαχεῖν."
+    },
+    {
+     "id": "c",
+     "text": "οἱ γὰρ Συρακόσιοι αὐτοὺς ἐκάλεσαν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ᾤοντο γὰρ ῥᾷον αὐτοῖς ἔσεσθαι, ἐὰν διαβῶσι τὸν ποταμόν; and they were thirsty.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίνες τοὺς ἐν τῷ ποταμῷ μάλιστα ἔσφαζον;",
+   "options": [
+    {
+     "id": "a",
+     "text": "οἱ Πελοποννήσιοι."
+    },
+    {
+     "id": "b",
+     "text": "οἱ Ἀθηναῖοι."
+    },
+    {
+     "id": "c",
+     "text": "οἱ ἱππῆς τῶν Ἀθηναίων."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "οἵ τε Πελοποννήσιοι καταβάντες τοὺς ἐν τῷ ποταμῷ μάλιστα ἔσφαζον.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "ποῦ ἦσαν οἱ Συρακόσιοι ὅτε ἔβαλλον;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐπὶ τῇ ἑτέρᾳ ὄχθῃ."
+    },
+    {
+     "id": "b",
+     "text": "ἐν τῷ ποταμῷ."
+    },
+    {
+     "id": "c",
+     "text": "ἐν ταῖς ναυσίν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἐπὶ τῇ ἑτέρᾳ ὄχθῃ ἑστῶτες ἔβαλλον ἄνωθεν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίνι ὁ Νικίας ἑαυτὸν παρέδωκεν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τῷ Γυλίππῳ."
+    },
+    {
+     "id": "b",
+     "text": "τοῖς Ἀθηναίοις."
+    },
+    {
+     "id": "c",
+     "text": "τῷ Περικλεῖ."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὁ Νικίας ἑαυτὸν τῷ Γυλίππῳ παρέδωκεν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "πόσοι ἐπ’ οἴκου ἀπενόστησαν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὀλίγοι ἀπὸ πολλῶν."
+    },
+    {
+     "id": "b",
+     "text": "πάντες."
+    },
+    {
+     "id": "c",
+     "text": "τέτταρες μυριάδες."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὀλίγοι ἀπὸ πολλῶν ἐπ’ οἴκου ἀπενόστησαν.",
+   "audio": "prompt"
+  }
+ ],
+ "culture": {
+  "title": "The Sicilian Expedition",
+  "md": "In summer 415 BC Athens sent the largest fleet a single Greek city had ever launched, 134 triremes and more than 5,000 hoplites, to Sicily, officially to help its ally Segesta, in fact (Thucydides says) to conquer the island. It was led by three generals: **Alcibiades**, who was soon recalled to stand trial and fled to Sparta; **Lamachus**, killed in the first year; and **Nicias**, who had argued against the whole enterprise. In 414 the Spartan **Gylippus** arrived to lead the defence of Syracuse, and in 413 a second Athenian fleet under Demosthenes came too late.\n\nIn September 413 the Athenian fleet was defeated in the Great Harbour of Syracuse and the army, perhaps 40,000 men including allies, tried to escape inland. On the eighth day Nicias' division reached the river **Assinarus**. Nicias surrendered to Gylippus; he and Demosthenes were executed. The prisoners were kept for months in the stone quarries of Syracuse (the λιθοτομίαι, which can still be visited) and most were then sold as slaves. Plutarch tells that some were set free because they could recite choruses of Euripides.\n\nThucydides calls it the greatest action of the war, most glorious for the victors and most disastrous for the defeated. Athens fought on for nine more years.",
+  "image": "hist-latomie"
+ },
+ "quiz": [
+  {
+   "type": "produce-form",
+   "prompt": "Give the accusative plural of ὁ ποταμός.",
+   "lemma": "ποταμός",
+   "cell": "acc.pl",
+   "skills": [
+    "noun.decl2.acc.pl"
+   ],
+   "explain": "ποταμούς.",
+   "audio": "ποταμούς"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "οἱ ___ πανταχόθεν προσέκειντο.",
+   "options": [
+    {
+     "id": "a",
+     "text": "πολέμιοι"
+    },
+    {
+     "id": "b",
+     "text": "πολεμίους"
+    },
+    {
+     "id": "c",
+     "text": "πολεμίων"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "adj.agree",
+    "vocab.hist"
+   ],
+   "explain": "οἱ πολέμιοι: nominative subject."
+  },
+  {
+   "type": "label",
+   "prompt": "ὡς δὲ γίγνονται ἐπὶ τῷ ποταμῷ: the tense of γίγνονται is …",
+   "options": [
+    {
+     "id": "a",
+     "text": "historic present"
+    },
+    {
+     "id": "b",
+     "text": "future"
+    },
+    {
+     "id": "c",
+     "text": "imperfect"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.historic-present"
+   ],
+   "explain": "A present in a past story."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "οἱ Ἀθηναῖοι καὶ τὸν πεζὸν καὶ τὰς ναῦς ἀπώλεσαν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "καὶ τὸν πεζὸν καὶ τὰς ναῦς ἀπώλεσαν."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist infinitive of διαβαίνω: πᾶς τις πρῶτος ___ ἐβούλετο.",
+   "lemma": "διαβαίνω",
+   "cell": "aorist.active.infinitive.inf",
+   "skills": [
+    "verb.aor.root",
+    "verb.aor.act.inf"
+   ],
+   "explain": "διαβῆναι, like βῆναι.",
+   "audio": "διαβῆναι"
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὸν ποταμὸν διαβαίνουσιν"
+    },
+    {
+     "id": "b",
+     "text": "τὸν ποταμὸν πίνουσιν"
+    },
+    {
+     "id": "c",
+     "text": "τὴν θάλατταν διαβαίνουσιν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "They are crossing the river.",
+   "audio": "τὸν ποταμὸν διαβαίνουσιν"
+  }
+ ],
+ "skills": [
+  "verb.impf.vs.aor",
+  "verb.ptc.pres.act",
+  "verb.ptc.pres.mp",
+  "syntax.men-de",
+  "syntax.ean",
+  "syntax.gen.uses",
+  "adj.megas-polys",
+  "vocab.recognition",
+  "vocab.hist",
+  "verb.aor.root",
+  "vocab.production",
+  "noun.decl3.eus",
+  "verb.ptc.use",
+  "verb.aor1.sigma",
+  "verb.historic-present",
+  "read.hist.narrative",
+  "adj.agree",
+  "verb.mi.aorist",
+  "verb.pres.act.ind.3pl",
+  "read.locate",
+  "syntax.word-order",
+  "read.thucydides",
+  "listen.sentences",
+  "read.comprehension",
+  "spell.dictation",
+  "read.adapted-text",
+  "vocab.family",
+  "noun.decl2.acc.pl",
+  "verb.aor.act.inf"
+ ]
+}

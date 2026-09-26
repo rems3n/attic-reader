@@ -1,0 +1,48 @@
+{
+ "images": [
+  {
+   "id": "phil-panel-1-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Σωκράτης ἐν τῇ ἀγορᾷ τοῖς πολίταις διαλέγεται· ὁ δὲ Χαιρεφῶν ἀκούει.",
+   "alt_en": "The Athenian Agora in the morning: Socrates, barefoot, snub-nosed, in a plain cloak, talks with a group of citizens under a plane tree; his thin, excitable friend Chaerephon listens beside him, leaning forward.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-panel-1-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Πυθία ἐπὶ τοῦ τρίποδος καθημένη τῷ Χαιρεφῶντι ἀναιρεῖ.",
+   "alt_en": "Inside the temple of Apollo at Delphi: the Pythia, a woman in a white robe and laurel wreath, sits on a tall bronze tripod holding a laurel sprig and a shallow bowl; Chaerephon stands before her, asking his question.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-panel-1-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Σωκράτης τὸν πολιτικὸν ἐλέγχει· οἱ δὲ παρόντες ὀργίζονται.",
+   "alt_en": "In a colonnade of the Agora Socrates questions a well-dressed politician, who looks flustered; the politician's friends glare at Socrates, while young men behind him grin.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-culture-1-aegeus-pythia",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὁ Αἰγεὺς τὸν θεὸν ἐν Δελφοῖς ἐρωτᾷ.",
+   "alt_en": "Attic red-figure cup by the Kodros Painter, c. 440–430 BC (Berlin, Antikensammlung F 2538): King Aegeus consults the Delphic prophetess, labelled Themis, who sits on Apollo's tripod (museum object, photograph CC).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  }
+ ]
+}

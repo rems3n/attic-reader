@@ -1,0 +1,2357 @@
+[
+ {
+  "lemma": "γαμέω",
+  "headword": "γαμέω, γαμῶ, ἔγημα, γεγάμηκα, γεγάμημαι",
+  "definition": "marry (of the man: take as wife; of the woman, middle: be married to, + dat.)",
+  "short": "marry",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: contract",
+  "morph": {
+   "parts": {
+    "present": [
+     "γαμέω"
+    ],
+    "future": [
+     "γαμῶ"
+    ],
+    "aorist": [
+     "ἔγημα"
+    ],
+    "perfect": [
+     "γεγάμηκα"
+    ],
+    "perfect-mp": [
+     "γεγάμημαι"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "γαμέω",
+    "γαμῶ",
+    "ἔγημα",
+    "γεγάμηκα",
+    "γεγάμημαι"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "bigamy",
+    "monogamy",
+    "gamete"
+   ]
+  }
+ },
+ {
+  "lemma": "γεννάω",
+  "headword": "γεννάω, γεννήσω, ἐγέννησα, γεγέννηκα, γεγέννημαι, ἐγεννήθην",
+  "definition": "beget, give birth to; (passive) be born",
+  "short": "beget, bear",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: contract",
+  "morph": {
+   "parts": {
+    "present": [
+     "γεννάω"
+    ],
+    "future": [
+     "γεννήσω"
+    ],
+    "aorist": [
+     "ἐγέννησα"
+    ],
+    "perfect": [
+     "γεγέννηκα"
+    ],
+    "perfect-mp": [
+     "γεγέννημαι"
+    ],
+    "aorist-passive": [
+     "ἐγεννήθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "γεννάω",
+    "γεννήσω",
+    "ἐγέννησα",
+    "γεγέννηκα",
+    "γεγέννημαι",
+    "ἐγεννήθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "genesis (same root γεν-)"
+   ],
+   "cognates": [
+    "γένος",
+    "γίγνομαι"
+   ]
+  }
+ },
+ {
+  "lemma": "καταπίνω",
+  "headword": "καταπίνω, καταπίομαι, κατέπιον, καταπέπωκα, κατεπόθην",
+  "definition": "swallow, gulp down",
+  "short": "swallow",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "καταπίνω"
+    ],
+    "future": [
+     "καταπίομαι"
+    ],
+    "aorist": [
+     "κατέπιον"
+    ],
+    "aorist-2": [
+     "κατέπιον"
+    ],
+    "perfect": [
+     "καταπέπωκα"
+    ],
+    "aorist-passive": [
+     "κατεπόθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "καταπίνω",
+    "καταπίομαι",
+    "κατέπιον",
+    "καταπέπωκα",
+    "κατεπόθην"
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
+  },
+  "topics": [
+   "mythology"
+  ]
+ },
+ {
+  "lemma": "ἀδελφή",
+  "headword": "ἀδελφή, ἀδελφῆς, ἡ",
+  "definition": "sister",
+  "short": "sister",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "ἀδελφῆς",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "Philadelphia (φίλος + ἀδελφός)"
+   ]
+  }
+ },
+ {
+  "lemma": "ἄντρον",
+  "headword": "ἄντρον, ἄντρου, τό",
+  "definition": "cave, cavern",
+  "short": "cave",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "ἄντρου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "antrum (anatomy)"
+   ]
+  }
+ },
+ {
+  "lemma": "δόρυ",
+  "headword": "δόρυ, δόρατος, τό",
+  "definition": "spear (the hoplite's thrusting spear; originally 'tree trunk, shaft')",
+  "short": "spear",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "δόρατος",
+   "gender": "n",
+   "article": "τό",
+   "table": {
+    "kind": "noun",
+    "gender": "n",
+    "cells": [
+     {
+      "case": "nom",
+      "number": "sg",
+      "forms": [
+       "δόρυ"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "sg",
+      "forms": [
+       "δόρατος"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "sg",
+      "forms": [
+       "δόρατι"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "sg",
+      "forms": [
+       "δόρυ"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "sg",
+      "forms": [
+       "δόρυ"
+      ]
+     },
+     {
+      "case": "nom",
+      "number": "pl",
+      "forms": [
+       "δόρατα"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "pl",
+      "forms": [
+       "δοράτων"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "pl",
+      "forms": [
+       "δόρασι(ν)"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "pl",
+      "forms": [
+       "δόρατα"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "pl",
+      "forms": [
+       "δόρατα"
+      ]
+     }
+    ]
+   }
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "tree, English (same Indo-European root)"
+   ]
+  }
+ },
+ {
+  "lemma": "γάλα",
+  "headword": "γάλα, γάλακτος, τό",
+  "definition": "milk",
+  "short": "milk",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "γάλακτος",
+   "gender": "n",
+   "article": "τό",
+   "table": {
+    "kind": "noun",
+    "gender": "n",
+    "cells": [
+     {
+      "case": "nom",
+      "number": "sg",
+      "forms": [
+       "γάλα"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "sg",
+      "forms": [
+       "γάλακτος"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "sg",
+      "forms": [
+       "γάλακτι"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "sg",
+      "forms": [
+       "γάλα"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "sg",
+      "forms": [
+       "γάλα"
+      ]
+     },
+     {
+      "case": "nom",
+      "number": "pl",
+      "forms": [
+       "γάλακτα"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "pl",
+      "forms": [
+       "γαλάκτων"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "pl",
+      "forms": [
+       "γάλαξι(ν)"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "pl",
+      "forms": [
+       "γάλακτα"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "pl",
+      "forms": [
+       "γάλακτα"
+      ]
+     }
+    ]
+   }
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "galaxy (the Milky Way, γαλαξίας κύκλος)",
+    "lactose (Latin lac, a relative)"
+   ]
+  }
+ },
+ {
+  "lemma": "βασιλεύω",
+  "headword": "βασιλεύω, βασιλεύσω, ἐβασίλευσα, βεβασίλευκα, ἐβασιλεύθην",
+  "definition": "be king, rule (+ gen.); aorist: became king",
+  "short": "be king, rule",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "βασιλεύω"
+    ],
+    "future": [
+     "βασιλεύσω"
+    ],
+    "aorist": [
+     "ἐβασίλευσα"
+    ],
+    "perfect": [
+     "βεβασίλευκα"
+    ],
+    "aorist-passive": [
+     "ἐβασιλεύθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "βασιλεύω",
+    "βασιλεύσω",
+    "ἐβασίλευσα",
+    "βεβασίλευκα",
+    "ἐβασιλεύθην"
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "basilica",
+    "basil (the 'royal' herb)"
+   ]
+  }
+ },
+ {
+  "lemma": "ὀργίζομαι",
+  "headword": "ὀργίζομαι, ὀργιοῦμαι, ὤργισμαι, ὠργίσθην",
+  "definition": "be angry (at: + dat.); aorist ὠργίσθην: grew angry",
+  "short": "be angry",
+  "kind": "verb",
+  "subclass": "verb-deponent",
+  "pos": "verb: deponent",
+  "morph": {
+   "parts": {
+    "present": [
+     "ὀργίζομαι"
+    ],
+    "future": [
+     "ὀργιοῦμαι"
+    ],
+    "perfect-mp": [
+     "ὤργισμαι"
+    ],
+    "aorist-passive": [
+     "ὠργίσθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ὀργίζομαι",
+    "ὀργιοῦμαι",
+    "ὤργισμαι",
+    "ὠργίσθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "ἡ ὀργή 'anger'"
+   ]
+  }
+ },
+ {
+  "lemma": "κριτής",
+  "headword": "κριτής, κριτοῦ, ὁ",
+  "definition": "judge, umpire",
+  "short": "judge",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "κριτοῦ",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "critic",
+    "criterion"
+   ],
+   "cognates": [
+    "κρίνω"
+   ]
+  }
+ },
+ {
+  "lemma": "φυτεύω",
+  "headword": "φυτεύω, φυτεύσω, ἐφύτευσα, πεφύτευκα, πεφύτευμαι, ἐφυτεύθην",
+  "definition": "plant",
+  "short": "plant",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "φυτεύω"
+    ],
+    "future": [
+     "φυτεύσω"
+    ],
+    "aorist": [
+     "ἐφύτευσα"
+    ],
+    "perfect": [
+     "πεφύτευκα"
+    ],
+    "perfect-mp": [
+     "πεφύτευμαι"
+    ],
+    "aorist-passive": [
+     "ἐφυτεύθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "φυτεύω",
+    "φυτεύσω",
+    "ἐφύτευσα",
+    "πεφύτευκα",
+    "πεφύτευμαι",
+    "ἐφυτεύθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "neophyte ('newly planted')",
+    "phytoplankton"
+   ],
+   "cognates": [
+    "φύω 'grow'"
+   ]
+  }
+ },
+ {
+  "lemma": "τρίαινα",
+  "headword": "τρίαινα, τριαίνης, ἡ",
+  "definition": "trident, Poseidon's three-pronged spear",
+  "short": "trident",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "τριαίνης",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "mythology"
+  ]
+ },
+ {
+  "lemma": "ἔρις",
+  "headword": "ἔρις, ἔριδος, ἡ",
+  "definition": "strife, quarrel, rivalry",
+  "short": "strife",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "ἔριδος",
+   "gender": "f",
+   "article": "ἡ",
+   "table": {
+    "kind": "noun",
+    "gender": "f",
+    "cells": [
+     {
+      "case": "nom",
+      "number": "sg",
+      "forms": [
+       "ἔρις"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "sg",
+      "forms": [
+       "ἔριδος"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "sg",
+      "forms": [
+       "ἔριδι"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "sg",
+      "forms": [
+       "ἔριν"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "sg",
+      "forms": [
+       "ἔρι"
+      ]
+     },
+     {
+      "case": "nom",
+      "number": "pl",
+      "forms": [
+       "ἔριδες"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "pl",
+      "forms": [
+       "ἐρίδων"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "pl",
+      "forms": [
+       "ἔρισι(ν)"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "pl",
+      "forms": [
+       "ἔριδας"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "pl",
+      "forms": [
+       "ἔριδες"
+      ]
+     }
+    ]
+   }
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "eristic (arguing to win)",
+    "Eris, the goddess of discord"
+   ]
+  }
+ },
+ {
+  "lemma": "πλήττω",
+  "headword": "πλήττω, πλήξω, ἔπληξα, πέπληγα, πέπληγμαι, ἐπλήγην",
+  "definition": "strike, hit",
+  "short": "strike, hit",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "πλήττω"
+    ],
+    "future": [
+     "πλήξω"
+    ],
+    "aorist": [
+     "ἔπληξα"
+    ],
+    "perfect": [
+     "πέπληγα"
+    ],
+    "perfect-mp": [
+     "πέπληγμαι"
+    ],
+    "aorist-passive": [
+     "ἐπλήγην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "πλήττω",
+    "πλήξω",
+    "ἔπληξα",
+    "πέπληγα",
+    "πέπληγμαι",
+    "ἐπλήγην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "apoplexy",
+    "plectrum"
+   ],
+   "cognates": [
+    "ἡ πληγή 'blow'"
+   ]
+  }
+ },
+ {
+  "lemma": "δώδεκα",
+  "headword": "δώδεκα (indeclinable)",
+  "definition": "twelve",
+  "short": "twelve",
+  "kind": "numeral",
+  "subclass": "numeral",
+  "pos": "adjective: numeral",
+  "morph": {
+   "forms": [
+    "δώδεκα"
+   ]
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "dodecagon",
+    "Dodecanese"
+   ]
+  }
+ },
+ {
+  "lemma": "δράκων",
+  "headword": "δράκων, δράκοντος, ὁ",
+  "definition": "serpent, snake (a large or monstrous one)",
+  "short": "serpent",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "δράκοντος",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "dragon",
+    "draconian (from the lawgiver Draco)"
+   ]
+  }
+ },
+ {
+  "lemma": "μαντεῖον",
+  "headword": "μαντεῖον, μαντείου, τό",
+  "definition": "oracle (the seat of an oracle, e.g. Delphi; also the response)",
+  "short": "oracle",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "μαντείου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "ὁ μάντις 'seer'"
+   ]
+  }
+ },
+ {
+  "lemma": "χρυσός",
+  "headword": "χρυσός, χρυσοῦ, ὁ",
+  "definition": "gold",
+  "short": "gold",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "χρυσοῦ",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "chrysanthemum (χρυσός + ἄνθεμον)",
+    "chrysalis"
+   ]
+  }
+ },
+ {
+  "lemma": "λάρναξ",
+  "headword": "λάρναξ, λάρνακος, ἡ",
+  "definition": "chest, box (also a coffin or an ark)",
+  "short": "chest",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "λάρνακος",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "mythology"
+  ]
+ },
+ {
+  "lemma": "θάλαμος",
+  "headword": "θάλαμος, θαλάμου, ὁ",
+  "definition": "inner room, bedchamber",
+  "short": "chamber",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "θαλάμου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "thalamus (in the brain)"
+   ]
+  }
+ },
+ {
+  "lemma": "φρουρέω",
+  "headword": "φρουρέω, φρουρήσω, ἐφρούρησα, πεφρούρηκα, πεφρούρημαι, ἐφρουρήθην",
+  "definition": "guard, keep watch over",
+  "short": "guard",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: contract",
+  "morph": {
+   "parts": {
+    "present": [
+     "φρουρέω"
+    ],
+    "future": [
+     "φρουρήσω"
+    ],
+    "aorist": [
+     "ἐφρούρησα"
+    ],
+    "perfect": [
+     "πεφρούρηκα"
+    ],
+    "perfect-mp": [
+     "πεφρούρημαι"
+    ],
+    "aorist-passive": [
+     "ἐφρουρήθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "φρουρέω",
+    "φρουρήσω",
+    "ἐφρούρησα",
+    "πεφρούρηκα",
+    "πεφρούρημαι",
+    "ἐφρουρήθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "φρουρά 'garrison'"
+   ]
+  }
+ },
+ {
+  "lemma": "ῥίπτω",
+  "headword": "ῥίπτω, ῥίψω, ἔρριψα, ἔρριφα, ἔρριμμαι, ἐρρίφθην",
+  "definition": "throw, hurl; ῥίπτω ἐμαυτόν: throw oneself",
+  "short": "throw",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ῥίπτω"
+    ],
+    "future": [
+     "ῥίψω"
+    ],
+    "aorist": [
+     "ἔρριψα"
+    ],
+    "perfect": [
+     "ἔρριφα"
+    ],
+    "perfect-mp": [
+     "ἔρριμμαι"
+    ],
+    "aorist-passive": [
+     "ἐρρίφθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ῥίπτω",
+    "ῥίψω",
+    "ἔρριψα",
+    "ἔρριφα",
+    "ἔρριμμαι",
+    "ἐρρίφθην"
+   ],
+   "verb": {
+    "imperfect_stem": "ἔρριπτ"
+   }
+  },
+  "topics": [
+   "mythology"
+  ]
+ },
+ {
+  "lemma": "θνητός",
+  "headword": "θνητός, θνητή, θνητόν",
+  "definition": "mortal (↔ ἀθάνατος)",
+  "short": "mortal",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 3,
+   "forms": [
+    "θνητός",
+    "θνητή",
+    "θνητόν"
+   ],
+   "neuter": "θνητόν",
+   "feminine": "θνητή"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "θνῄσκω, θάνατος"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀθάνατος",
+  "headword": "ἀθάνατος, ἀθάνατον",
+  "definition": "immortal, deathless (ἀ- + θάνατος)",
+  "short": "immortal",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 2,
+   "forms": [
+    "ἀθάνατος",
+    "ἀθάνατον"
+   ],
+   "neuter": "ἀθάνατον"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "Athanasius",
+    "euthanasia (θάνατος)"
+   ]
+  }
+ },
+ {
+  "lemma": "πέτομαι",
+  "headword": "πέτομαι, πτήσομαι, ἐπτόμην",
+  "definition": "fly",
+  "short": "fly",
+  "kind": "verb",
+  "subclass": "verb-deponent",
+  "pos": "verb: deponent",
+  "morph": {
+   "parts": {
+    "present": [
+     "πέτομαι"
+    ],
+    "future": [
+     "πτήσομαι"
+    ],
+    "aorist": [
+     "ἐπτόμην"
+    ],
+    "aorist-2": [
+     "ἐπτόμην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "πέτομαι",
+    "πτήσομαι",
+    "ἐπτόμην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "pterodactyl (πτερόν 'wing')",
+    "helicopter (ἕλιξ + πτερόν)"
+   ]
+  }
+ },
+ {
+  "lemma": "εὐνή",
+  "headword": "εὐνή, εὐνῆς, ἡ",
+  "definition": "bed, cradle",
+  "short": "bed",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "εὐνῆς",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "eunuch (εὐνή + ἔχω: 'keeper of the bed')"
+   ]
+  }
+ },
+ {
+  "lemma": "βρέφος",
+  "headword": "βρέφος, βρέφους, τό",
+  "definition": "baby, newborn child",
+  "short": "baby",
+  "kind": "noun",
+  "subclass": "noun-3-sigma",
+  "pos": "noun: 3rd declension (-ος, -ους)",
+  "morph": {
+   "genitive": "βρέφους",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "mythology"
+  ]
+ },
+ {
+  "lemma": "ἄγχω",
+  "headword": "ἄγχω, ἄγξω, ἦγξα",
+  "definition": "squeeze, strangle, throttle",
+  "short": "strangle",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἄγχω"
+    ],
+    "future": [
+     "ἄγξω"
+    ],
+    "aorist": [
+     "ἦγξα"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἄγχω",
+    "ἄγξω",
+    "ἦγξα"
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "angina"
+   ],
+   "cognates": [
+    "anger, anguish, anxious (Latin angō)"
+   ]
+  }
+ },
+ {
+  "lemma": "διηγέομαι",
+  "headword": "διηγέομαι, διηγήσομαι, διηγησάμην, διήγημαι",
+  "definition": "tell in full, describe, narrate",
+  "short": "narrate",
+  "kind": "verb",
+  "subclass": "verb-deponent",
+  "pos": "verb: deponent",
+  "morph": {
+   "parts": {
+    "present": [
+     "διηγέομαι"
+    ],
+    "future": [
+     "διηγήσομαι"
+    ],
+    "aorist": [
+     "διηγησάμην"
+    ],
+    "perfect-mp": [
+     "διήγημαι"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "διηγέομαι",
+    "διηγήσομαι",
+    "διηγησάμην",
+    "διήγημαι"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "ἡγέομαι 'lead' (διά: lead the listener through)"
+   ]
+  }
+ },
+ {
+  "lemma": "λέων",
+  "headword": "λέων, λέοντος, ὁ",
+  "definition": "lion",
+  "short": "lion",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "λέοντος",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "Leo, leonine",
+    "chameleon (χαμαί + λέων, 'ground-lion')"
+   ]
+  }
+ },
+ {
+  "lemma": "ἆθλος",
+  "headword": "ἆθλος, ἄθλου, ὁ",
+  "definition": "contest; a labour (of Heracles)",
+  "short": "labour, contest",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "ἄθλου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "athlete (ἀθλητής)",
+    "decathlon, pentathlon (τὸ ἆθλον 'prize')"
+   ]
+  }
+ },
+ {
+  "lemma": "δορά",
+  "headword": "δορά, δορᾶς, ἡ",
+  "definition": "skin, hide (flayed from an animal)",
+  "short": "hide",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "δορᾶς",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "mythology"
+  ]
+ },
+ {
+  "lemma": "ἄτρωτος",
+  "headword": "ἄτρωτος, ἄτρωτον",
+  "definition": "invulnerable, that cannot be wounded (ἀ- + τιτρώσκω 'wound')",
+  "short": "invulnerable",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 2,
+   "forms": [
+    "ἄτρωτος",
+    "ἄτρωτον"
+   ],
+   "neuter": "ἄτρωτον"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "τὸ τραῦμα 'wound' (trauma)"
+   ]
+  }
+ },
+ {
+  "lemma": "θήρα",
+  "headword": "θήρα, θήρας, ἡ",
+  "definition": "hunt, hunting",
+  "short": "hunt",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "θήρας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "τὸ θηρίον 'wild beast'"
+   ]
+  }
+ },
+ {
+  "lemma": "θηρίον",
+  "headword": "θηρίον, θηρίου, τό",
+  "definition": "wild animal, beast",
+  "short": "beast",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "θηρίου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "Latin ferus 'wild' (fierce)"
+   ]
+  }
+ },
+ {
+  "lemma": "ῥόπαλον",
+  "headword": "ῥόπαλον, ῥοπάλου, τό",
+  "definition": "club, cudgel (Heracles' weapon)",
+  "short": "club",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "ῥοπάλου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "mythology"
+  ]
+ },
+ {
+  "lemma": "τοξεύω",
+  "headword": "τοξεύω, τοξεύσω, ἐτόξευσα, τετόξευκα, τετόξευμαι, ἐτοξεύθην",
+  "definition": "shoot with the bow, shoot at",
+  "short": "shoot (with a bow)",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "τοξεύω"
+    ],
+    "future": [
+     "τοξεύσω"
+    ],
+    "aorist": [
+     "ἐτόξευσα"
+    ],
+    "perfect": [
+     "τετόξευκα"
+    ],
+    "perfect-mp": [
+     "τετόξευμαι"
+    ],
+    "aorist-passive": [
+     "ἐτοξεύθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "τοξεύω",
+    "τοξεύσω",
+    "ἐτόξευσα",
+    "τετόξευκα",
+    "τετόξευμαι",
+    "ἐτοξεύθην"
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "τὸ τόξον 'bow'"
+   ],
+   "derivatives": [
+    "toxophily (archery)"
+   ]
+  }
+ },
+ {
+  "lemma": "ἥρως",
+  "headword": "ἥρως, ἥρωος, ὁ",
+  "definition": "hero; a dead man honoured with offerings at his tomb",
+  "short": "hero",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "ἥρωος",
+   "gender": "m",
+   "article": "ὁ",
+   "table": {
+    "kind": "noun",
+    "gender": "m",
+    "cells": [
+     {
+      "case": "nom",
+      "number": "sg",
+      "forms": [
+       "ἥρως"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "sg",
+      "forms": [
+       "ἥρωος"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "sg",
+      "forms": [
+       "ἥρωι"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "sg",
+      "forms": [
+       "ἥρωα"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "sg",
+      "forms": [
+       "ἥρως"
+      ]
+     },
+     {
+      "case": "nom",
+      "number": "pl",
+      "forms": [
+       "ἥρωες"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "pl",
+      "forms": [
+       "ἡρώων"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "pl",
+      "forms": [
+       "ἥρωσι(ν)"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "pl",
+      "forms": [
+       "ἥρωας"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "pl",
+      "forms": [
+       "ἥρωες"
+      ]
+     }
+    ]
+   }
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "hero, heroic"
+   ]
+  }
+ },
+ {
+  "lemma": "σωτήρ",
+  "headword": "σωτήρ, σωτῆρος, ὁ",
+  "definition": "saviour, deliverer (Ζεὺς Σωτήρ: Zeus the Saviour)",
+  "short": "saviour",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "σωτῆρος",
+   "gender": "m",
+   "article": "ὁ",
+   "table": {
+    "kind": "noun",
+    "gender": "m",
+    "cells": [
+     {
+      "case": "nom",
+      "number": "sg",
+      "forms": [
+       "σωτήρ"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "sg",
+      "forms": [
+       "σωτῆρος"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "sg",
+      "forms": [
+       "σωτῆρι"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "sg",
+      "forms": [
+       "σωτῆρα"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "sg",
+      "forms": [
+       "σῶτερ"
+      ]
+     },
+     {
+      "case": "nom",
+      "number": "pl",
+      "forms": [
+       "σωτῆρες"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "pl",
+      "forms": [
+       "σωτήρων"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "pl",
+      "forms": [
+       "σωτῆρσι(ν)"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "pl",
+      "forms": [
+       "σωτῆρας"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "pl",
+      "forms": [
+       "σωτῆρες"
+      ]
+     }
+    ]
+   }
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "soteriology"
+   ],
+   "cognates": [
+    "σῴζω"
+   ]
+  }
+ },
+ {
+  "lemma": "νεκρός",
+  "headword": "νεκρός, νεκροῦ, ὁ",
+  "definition": "corpse, dead man; οἱ νεκροί: the dead",
+  "short": "corpse, the dead",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "νεκροῦ",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "necropolis",
+    "necromancy"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐπιτάττω",
+  "headword": "ἐπιτάττω, ἐπιτάξω, ἐπέταξα, ἐπιτέταχα, ἐπιτέταγμαι, ἐπετάχθην",
+  "definition": "order, command (+ dat. of the person, + inf.); impose (a task) on",
+  "short": "order, impose",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐπιτάττω"
+    ],
+    "future": [
+     "ἐπιτάξω"
+    ],
+    "aorist": [
+     "ἐπέταξα"
+    ],
+    "perfect": [
+     "ἐπιτέταχα"
+    ],
+    "perfect-mp": [
+     "ἐπιτέταγμαι"
+    ],
+    "aorist-passive": [
+     "ἐπετάχθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἐπιτάττω",
+    "ἐπιτάξω",
+    "ἐπέταξα",
+    "ἐπιτέταχα",
+    "ἐπιτέταγμαι",
+    "ἐπετάχθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "τάττω 'arrange'",
+    "προστάττω"
+   ]
+  }
+ },
+ {
+  "lemma": "πίθος",
+  "headword": "πίθος, πίθου, ὁ",
+  "definition": "large storage jar (for wine, oil or grain)",
+  "short": "storage jar",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "πίθου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "mythology"
+  ]
+ },
+ {
+  "lemma": "ἱστίον",
+  "headword": "ἱστίον, ἱστίου, τό",
+  "definition": "sail",
+  "short": "sail",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "ἱστίου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "ὁ ἱστός 'mast; loom'"
+   ]
+  }
+ },
+ {
+  "lemma": "λευκός",
+  "headword": "λευκός, λευκή, λευκόν",
+  "definition": "white, bright",
+  "short": "white",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 3,
+   "forms": [
+    "λευκός",
+    "λευκή",
+    "λευκόν"
+   ],
+   "neuter": "λευκόν",
+   "feminine": "λευκή"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "leukaemia, leucocyte"
+   ],
+   "cognates": [
+    "Latin lux 'light'"
+   ]
+  }
+ },
+ {
+  "lemma": "λαβύρινθος",
+  "headword": "λαβύρινθος, λαβυρίνθου, ὁ",
+  "definition": "labyrinth, the maze at Knossos",
+  "short": "labyrinth",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "λαβυρίνθου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "labyrinth"
+   ]
+  }
+ },
+ {
+  "lemma": "λίνον",
+  "headword": "λίνον, λίνου, τό",
+  "definition": "flax; linen thread, a thread",
+  "short": "thread",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "λίνου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "linen, line, lingerie (through Latin linum)"
+   ]
+  }
+ },
+ {
+  "lemma": "ὅρκος",
+  "headword": "ὅρκος, ὅρκου, ὁ",
+  "definition": "oath",
+  "short": "oath",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "ὅρκου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "ὄμνυμι 'swear'"
+   ]
+  }
+ },
+ {
+  "lemma": "ἔξοδος",
+  "headword": "ἔξοδος, ἐξόδου, ἡ",
+  "definition": "way out, exit; departure (ἐκ + ὁδός)",
+  "short": "way out",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "ἐξόδου",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "exodus"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐπιλανθάνομαι",
+  "headword": "ἐπιλανθάνομαι, ἐπιλήσομαι, ἐπελαθόμην, ἐπιλέλησμαι",
+  "definition": "forget (+ gen. or + inf.)",
+  "short": "forget",
+  "kind": "verb",
+  "subclass": "verb-deponent",
+  "pos": "verb: deponent",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐπιλανθάνομαι"
+    ],
+    "future": [
+     "ἐπιλήσομαι"
+    ],
+    "aorist": [
+     "ἐπελαθόμην"
+    ],
+    "aorist-2": [
+     "ἐπελαθόμην"
+    ],
+    "perfect-mp": [
+     "ἐπιλέλησμαι"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἐπιλανθάνομαι",
+    "ἐπιλήσομαι",
+    "ἐπελαθόμην",
+    "ἐπιλέλησμαι"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "λανθάνω 'escape notice'",
+    "ἡ λήθη 'forgetting' (Lethe)"
+   ]
+  }
+ },
+ {
+  "lemma": "λυπέω",
+  "headword": "λυπέω, λυπήσω, ἐλύπησα, λελύπηκα, λελύπημαι, ἐλυπήθην",
+  "definition": "grieve, cause pain to; (passive) be grieved, be sad (at: ἐπί + dat.)",
+  "short": "grieve, pain",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: contract",
+  "morph": {
+   "parts": {
+    "present": [
+     "λυπέω"
+    ],
+    "future": [
+     "λυπήσω"
+    ],
+    "aorist": [
+     "ἐλύπησα"
+    ],
+    "perfect": [
+     "λελύπηκα"
+    ],
+    "perfect-mp": [
+     "λελύπημαι"
+    ],
+    "aorist-passive": [
+     "ἐλυπήθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "λυπέω",
+    "λυπήσω",
+    "ἐλύπησα",
+    "λελύπηκα",
+    "λελύπημαι",
+    "ἐλυπήθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "ἡ λύπη 'grief'"
+   ]
+  }
+ },
+ {
+  "lemma": "ἁρπάζω",
+  "headword": "ἁρπάζω, ἁρπάσομαι, ἥρπασα, ἥρπακα, ἥρπασμαι, ἡρπάσθην",
+  "definition": "snatch, seize, carry off",
+  "short": "snatch",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἁρπάζω"
+    ],
+    "future": [
+     "ἁρπάσομαι"
+    ],
+    "aorist": [
+     "ἥρπασα"
+    ],
+    "perfect": [
+     "ἥρπακα"
+    ],
+    "perfect-mp": [
+     "ἥρπασμαι"
+    ],
+    "aorist-passive": [
+     "ἡρπάσθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἁρπάζω",
+    "ἁρπάσομαι",
+    "ἥρπασα",
+    "ἥρπακα",
+    "ἥρπασμαι",
+    "ἡρπάσθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "harpy (Ἅρπυια 'snatcher')"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐντέλλομαι",
+  "headword": "ἐντέλλομαι, ἐντελοῦμαι, ἐνετειλάμην, ἐντέταλμαι",
+  "definition": "command, enjoin (+ dat. of the person + inf.)",
+  "short": "command",
+  "kind": "verb",
+  "subclass": "verb-deponent",
+  "pos": "verb: deponent",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐντέλλομαι"
+    ],
+    "future": [
+     "ἐντελοῦμαι"
+    ],
+    "aorist": [
+     "ἐνετειλάμην"
+    ],
+    "perfect-mp": [
+     "ἐντέταλμαι"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἐντέλλομαι",
+    "ἐντελοῦμαι",
+    "ἐνετειλάμην",
+    "ἐντέταλμαι"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "ἡ ἐντολή 'command'"
+   ]
+  }
+ },
+ {
+  "lemma": "δασμός",
+  "headword": "δασμός, δασμοῦ, ὁ",
+  "definition": "tribute (paid by a subject people)",
+  "short": "tribute",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "δασμοῦ",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "mythology"
+  ]
+ },
+ {
+  "lemma": "πέλεκυς",
+  "headword": "πέλεκυς, πελέκεως, ὁ",
+  "definition": "axe",
+  "short": "axe",
+  "kind": "noun",
+  "subclass": "noun-3-irregular",
+  "pos": "noun: 3rd declension (irregular)",
+  "morph": {
+   "genitive": "πελέκεως",
+   "gender": "m",
+   "article": "ὁ",
+   "table": {
+    "kind": "noun",
+    "gender": "m",
+    "cells": [
+     {
+      "case": "nom",
+      "number": "sg",
+      "forms": [
+       "πέλεκυς"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "sg",
+      "forms": [
+       "πελέκεως"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "sg",
+      "forms": [
+       "πελέκει"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "sg",
+      "forms": [
+       "πέλεκυν"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "sg",
+      "forms": [
+       "πέλεκυ"
+      ]
+     },
+     {
+      "case": "nom",
+      "number": "pl",
+      "forms": [
+       "πελέκεις"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "pl",
+      "forms": [
+       "πελέκεων"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "pl",
+      "forms": [
+       "πελέκεσι(ν)"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "pl",
+      "forms": [
+       "πελέκεις"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "pl",
+      "forms": [
+       "πελέκεις"
+      ]
+     }
+    ]
+   }
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "Pelecypoda (hatchet-footed molluscs)"
+   ]
+  }
+ },
+ {
+  "lemma": "παρθένος",
+  "headword": "παρθένος, παρθένου, ἡ",
+  "definition": "maiden, unmarried girl; ἡ Παρθένος: Athena the Maiden",
+  "short": "maiden",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "παρθένου",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "Parthenon",
+    "parthenogenesis"
+   ]
+  }
+ },
+ {
+  "lemma": "ἔνοπλος",
+  "headword": "ἔνοπλος, ἔνοπλον",
+  "definition": "armed, in armour (ἐν + ὅπλα)",
+  "short": "armed",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 2,
+   "forms": [
+    "ἔνοπλος",
+    "ἔνοπλον"
+   ],
+   "neuter": "ἔνοπλον"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "ὁ ὁπλίτης 'hoplite'"
+   ]
+  }
+ },
+ {
+  "lemma": "θαρρέω",
+  "headword": "θαρρέω, θαρρήσω, ἐθάρρησα, τεθάρρηκα",
+  "definition": "be of good courage, be confident; θάρρει: cheer up!",
+  "short": "take courage",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: contract",
+  "morph": {
+   "parts": {
+    "present": [
+     "θαρρέω"
+    ],
+    "future": [
+     "θαρρήσω"
+    ],
+    "aorist": [
+     "ἐθάρρησα"
+    ],
+    "perfect": [
+     "τεθάρρηκα"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "θαρρέω",
+    "θαρρήσω",
+    "ἐθάρρησα",
+    "τεθάρρηκα"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "τὸ θάρσος 'courage' (Thersites)"
+   ]
+  }
+ },
+ {
+  "lemma": "μαίνομαι",
+  "headword": "μαίνομαι, μανοῦμαι, ἐμάνην",
+  "definition": "be mad, rage; perfect μέμηνα: I am mad",
+  "short": "be mad",
+  "kind": "verb",
+  "subclass": "verb-deponent",
+  "pos": "verb: deponent",
+  "morph": {
+   "parts": {
+    "present": [
+     "μαίνομαι"
+    ],
+    "future": [
+     "μανοῦμαι"
+    ],
+    "aorist-passive": [
+     "ἐμάνην"
+    ]
+   },
+   "extra": {
+    "perfect": [
+     "μέμηνα"
+    ]
+   },
+   "raw": [
+    "μαίνομαι",
+    "μανοῦμαι",
+    "ἐμάνην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "mania, maniac",
+    "maenad (μαινάς)"
+   ]
+  }
+ },
+ {
+  "lemma": "προστάττω",
+  "headword": "προστάττω, προστάξω, προσέταξα, προστέταχα, προστέταγμαι, προσετάχθην",
+  "definition": "order, command (+ dat. of the person); τὸ προσταττόμενον: the order",
+  "short": "order, command",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "προστάττω"
+    ],
+    "future": [
+     "προστάξω"
+    ],
+    "aorist": [
+     "προσέταξα"
+    ],
+    "perfect": [
+     "προστέταχα"
+    ],
+    "perfect-mp": [
+     "προστέταγμαι"
+    ],
+    "aorist-passive": [
+     "προσετάχθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "προστάττω",
+    "προστάξω",
+    "προσέταξα",
+    "προστέταχα",
+    "προστέταγμαι",
+    "προσετάχθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "τάττω",
+    "ἐπιτάττω"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀπειθέω",
+  "headword": "ἀπειθέω, ἀπειθήσω, ἠπείθησα",
+  "definition": "disobey (+ dat.); ἀ- 'not' + πείθομαι 'obey'",
+  "short": "disobey",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: contract",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἀπειθέω"
+    ],
+    "future": [
+     "ἀπειθήσω"
+    ],
+    "aorist": [
+     "ἠπείθησα"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἀπειθέω",
+    "ἀπειθήσω",
+    "ἠπείθησα"
+   ],
+   "verb": {
+    "compound": false
+   }
+  },
+  "topics": [
+   "mythology"
+  ]
+ },
+ {
+  "lemma": "κρανίον",
+  "headword": "κρανίον, κρανίου, τό",
+  "definition": "skull, the top of the head",
+  "short": "skull",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "κρανίου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "cranium, cranial"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐγκέφαλος",
+  "headword": "ἐγκέφαλος, ἐγκεφάλου, ὁ",
+  "definition": "brain (ἐν + κεφαλή: 'what is in the head')",
+  "short": "brain",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "ἐγκεφάλου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "encephalitis",
+    "electroencephalogram"
+   ]
+  }
+ }
+]

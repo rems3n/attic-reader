@@ -1,0 +1,1453 @@
+{
+  "id": "phil.1",
+  "title_grc": "ὁ χρησμός",
+  "title_en": "The oracle",
+  "summary_grc": "ὁ Χαιρεφῶν τὸν θεὸν ἐν Δελφοῖς ἐρωτᾷ· ὁ δὲ Σωκράτης τὸν χρησμὸν ἐλέγχει.",
+  "summary_en": "Chaerephon asks Apollo at Delphi whether anyone is wiser than Socrates; puzzled by the answer, Socrates sets out to test it by questioning a politician. Adapted from Plato's Apology: reported questions and statements, comparison, and the pair 'to seem' ↔ 'to be'.",
+  "cover": "phil-panel-1-b",
+  "caption_grc": "ἀνεῖλεν οὖν ἡ Πυθία μηδένα σοφώτερον εἶναι.",
+  "original": {
+    "text": "plato-apol-21a",
+    "note": "Plato, Apology 21a–d: Socrates at his trial in 399 BC tells how Chaerephon consulted the oracle. Plato wrote the speech some years after the trial. The story retells it in simpler Greek; the sentences it adapts are shown under each sentence of Plato's text."
+  },
+  "names": {
+    "Χαιρεφῶν": [
+      "Χαιρεφῶντος",
+      "Χαιρεφῶντι",
+      "Χαιρεφῶντα",
+      "Χαιρεφῶν"
+    ],
+    "Πυθία": [
+      "Πυθίας",
+      "Πυθίᾳ",
+      "Πυθίαν"
+    ],
+    "Δελφοί": [
+      "Δελφῶν",
+      "Δελφοῖς",
+      "Δελφούς"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "phil-panel-1-a",
+      "sentences": [
+        {
+          "text": "Σωκράτης ὁ Ἀθηναῖος ἀεὶ ἐν τῇ ἀγορᾷ τοῖς πολίταις διελέγετο.",
+          "glosses": [
+            {
+              "word": "διελέγετο",
+              "kind": "|",
+              "value": "διαλέγομαι | διελέγετο (was talking with: + dative)"
+            }
+          ]
+        },
+        {
+          "text": "ἑταῖρος δὲ αὐτοῦ ἦν Χαιρεφῶν, ἀνὴρ σφοδρός.",
+          "orig": [
+            0,
+            1
+          ],
+          "glosses": [
+            {
+              "word": "ἑταῖρος",
+              "kind": "=",
+              "value": "φίλος"
+            },
+            {
+              "word": "σφοδρός",
+              "kind": "en",
+              "value": "vehement, impetuous: whatever he set out to do, he did at once"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Χαιρεφῶν πολλάκις ἤκουε τοῦ Σωκράτους διαλεγομένου καὶ ἐθαύμαζε τὴν σοφίαν αὐτοῦ.",
+          "glosses": [
+            {
+              "word": "σοφίαν",
+              "kind": "<",
+              "value": "σοφός | ἡ σοφία (wisdom)"
+            }
+          ]
+        },
+        {
+          "text": "«ὦ Σώκρατες», ἔφη, «οὐδεὶς τῶν Ἀθηναίων σοφώτερός ἐστι σοῦ.»",
+          "glosses": [
+            {
+              "word": "οὐδεὶς",
+              "kind": "=",
+              "value": "οὐ + εἷς: no one"
+            },
+            {
+              "word": "σοῦ",
+              "kind": "note",
+              "value": "genitive of comparison: 'than you'"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ Σωκράτης· «ἐγὼ μὲν οὐ σοφός εἰμι, ὦ ἑταῖρε· οὐδεμίαν γὰρ σοφίαν ἔχω.»",
+          "glosses": [
+            {
+              "word": "οὐδεμίαν",
+              "kind": "|",
+              "value": "οὐδείς, οὐδεμία, οὐδέν | οὐδεμίαν (feminine accusative: no)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "phil-panel-1-b",
+      "sentences": [
+        {
+          "text": "ὁ οὖν Χαιρεφῶν εἰς Δελφοὺς ἐλθὼν ἐτόλμησε τὸν θεὸν ἐρωτᾶν.",
+          "orig": [
+            2
+          ],
+          "glosses": [
+            {
+              "word": "ἐτόλμησε",
+              "kind": "en",
+              "value": "dared (τολμάω)"
+            }
+          ]
+        },
+        {
+          "text": "ἤρετο γὰρ εἴ τις ἀνθρώπων σοφώτερος εἴη τοῦ Σωκράτους.",
+          "orig": [
+            2
+          ],
+          "glosses": [
+            {
+              "word": "εἴη",
+              "kind": "note",
+              "value": "optative in an indirect question after a past verb (ἤρετο): 'whether anyone was'"
+            }
+          ]
+        },
+        {
+          "text": "ἀνεῖλεν οὖν ἡ Πυθία μηδένα σοφώτερον εἶναι.",
+          "orig": [
+            3
+          ],
+          "glosses": [
+            {
+              "word": "ἀνεῖλεν",
+              "kind": "en",
+              "value": "answered, gave the oracle (ἀναιρέω, of an oracle)"
+            },
+            {
+              "word": "Πυθία",
+              "kind": "note",
+              "value": "the Pythia, Apollo's priestess at Delphi, who spoke for the god"
+            },
+            {
+              "word": "μηδένα",
+              "kind": "|",
+              "value": "μηδείς = οὐδείς | μηδένα (accusative, subject of εἶναι)"
+            }
+          ]
+        },
+        {
+          "text": "τοῦτον δὲ τὸν χρησμὸν ὁ Χαιρεφῶν οἴκαδε ἤνεγκε καὶ τῷ Σωκράτει εἶπεν.",
+          "glosses": [
+            {
+              "word": "χρησμὸν",
+              "kind": "en",
+              "value": "oracle, the god's answer (ὁ χρησμός)"
+            }
+          ]
+        },
+        {
+          "text": "ταῦτα δὲ ἀκούσας ὁ Σωκράτης ἠπόρει· «τί ποτε λέγει ὁ θεός;»",
+          "orig": [
+            7,
+            8
+          ],
+          "glosses": [
+            {
+              "word": "ἠπόρει",
+              "kind": "en",
+              "value": "was at a loss, was puzzled (ἀπορέω)"
+            },
+            {
+              "word": "ποτε",
+              "kind": "note",
+              "value": "τί ποτε; 'what on earth?'"
+            }
+          ]
+        },
+        {
+          "text": "«ὁ θεὸς ἀνεῖλε μηδένα ἐμοῦ σοφώτερον εἶναι· ἐγὼ δὲ οὐδεμίαν σοφίαν ἔχω.»",
+          "orig": [
+            9,
+            10
+          ],
+          "glosses": []
+        },
+        {
+          "text": "«ἀλλ’ οὐ ψεύδεται ὁ θεός· οὐ γὰρ θέμις αὐτῷ ψεύδεσθαι.»",
+          "orig": [
+            11,
+            12
+          ],
+          "glosses": [
+            {
+              "word": "ψεύδεται",
+              "kind": "en",
+              "value": "lies, speaks falsely (ψεύδομαι)"
+            },
+            {
+              "word": "θέμις",
+              "kind": "en",
+              "value": "right, lawful (by divine law): οὐ θέμις 'it is not right'"
+            }
+          ]
+        },
+        {
+          "text": "πολὺν μὲν οὖν χρόνον ἠπόρει, ἔπειτα δὲ τὸν χρησμὸν σκοπεῖν καὶ ἐλέγχειν ἐβούλετο.",
+          "orig": [
+            13,
+            14
+          ],
+          "glosses": [
+            {
+              "word": "σκοπεῖν",
+              "kind": "en",
+              "value": "to examine, look into (σκοπέω)"
+            },
+            {
+              "word": "ἐλέγχειν",
+              "kind": "en",
+              "value": "to test, put to the proof (ἐλέγχω)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "phil-panel-1-c",
+      "sentences": [
+        {
+          "text": "ἦλθεν οὖν ἐπί τινα τῶν πολιτικῶν, ὃς ἐδόκει σοφὸς εἶναι· «ἐνταῦθα», ἔφη, «τὸν χρησμὸν ἐλέγξω· οὗτος γὰρ ἐμοῦ σοφώτερός ἐστιν.»",
+          "orig": [
+            15
+          ],
+          "glosses": [
+            {
+              "word": "πολιτικῶν",
+              "kind": "<",
+              "value": "πόλις, πολίτης | ὁ πολιτικός (statesman, politician)"
+            },
+            {
+              "word": "ἐλέγξω",
+              "kind": "|",
+              "value": "ἐλέγχω | ἐλέγξω (future)"
+            }
+          ]
+        },
+        {
+          "text": "σκοπῶν δὲ τοῦτον καὶ διαλεγόμενος αὐτῷ, ἔγνω ὅτι ὁ ἀνὴρ ἐδόκει μὲν σοφὸς εἶναι ἄλλοις τε πολλοῖς καὶ ἑαυτῷ, ἦν δὲ οὔ.",
+          "orig": [
+            16
+          ],
+          "glosses": [
+            {
+              "word": "ἐδόκει",
+              "kind": "note",
+              "value": "ἐδόκει μὲν … ἦν δὲ οὔ: he seemed wise, but was not: to seem ↔ to be"
+            }
+          ]
+        },
+        {
+          "text": "ἔπειτα ἐπειρᾶτο αὐτῷ δεικνύναι ὅτι οἴοιτο μὲν εἶναι σοφός, εἴη δὲ οὔ.",
+          "orig": [
+            17
+          ],
+          "glosses": [
+            {
+              "word": "ἐπειρᾶτο",
+              "kind": "en",
+              "value": "tried (πειράομαι)"
+            },
+            {
+              "word": "οἴοιτο",
+              "kind": "note",
+              "value": "οἴοιτο, εἴη: optatives of οἴομαι and εἰμί in indirect speech after a past verb"
+            }
+          ]
+        },
+        {
+          "text": "ἐκ τούτου δὲ καὶ τούτῳ καὶ πολλοῖς τῶν παρόντων ἀπήχθετο.",
+          "orig": [
+            18
+          ],
+          "glosses": [
+            {
+              "word": "ἀπήχθετο",
+              "kind": "en",
+              "value": "he became hated (by: + dative) (ἀπεχθάνομαι, aorist)"
+            }
+          ]
+        },
+        {
+          "text": "ἐξελθὼν δὲ ὁ Σωκράτης ἐλογίζετο· «τούτου μὲν τοῦ ἀνθρώπου ἐγὼ σοφώτερός εἰμι.»",
+          "orig": [
+            19
+          ],
+          "glosses": [
+            {
+              "word": "ἐλογίζετο",
+              "kind": "en",
+              "value": "was reckoning, thought it over (λογίζομαι)"
+            }
+          ]
+        },
+        {
+          "text": "«οὗτος μὲν γὰρ οἴεταί τι εἰδέναι οὐκ εἰδώς, ἐγὼ δέ, ὥσπερ οὐκ οἶδα, οὐδὲ οἴομαι.»",
+          "orig": [
+            20
+          ],
+          "glosses": [
+            {
+              "word": "εἰδέναι",
+              "kind": "en",
+              "value": "to know (infinitive of οἶδα)"
+            },
+            {
+              "word": "εἰδώς",
+              "kind": "en",
+              "value": "knowing (participle of οἶδα)"
+            },
+            {
+              "word": "οἶδα",
+              "kind": "en",
+              "value": "I know (a perfect in form, present in meaning; Unit 10)"
+            },
+            {
+              "word": "οὐδὲ",
+              "kind": "en",
+              "value": "nor, not even"
+            }
+          ]
+        },
+        {
+          "text": "«ταύτῃ οὖν τῇ σμικρᾷ σοφίᾳ σοφώτερός εἰμι· ἃ γὰρ μὴ οἶδα, οὐδὲ οἴομαι εἰδέναι.»",
+          "orig": [
+            21
+          ],
+          "glosses": [
+            {
+              "word": "σμικρᾷ",
+              "kind": "=",
+              "value": "μικρᾷ (older Attic spelling)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ μετὰ ταῦτα ἐπ’ ἄλλους πολιτικοὺς ἦλθε, καὶ πᾶσιν ἀπήχθετο.",
+          "glosses": []
+        },
+        {
+          "text": "ἐλογίζετο οὖν ὅτι ὁ θεὸς ἀληθῆ ἔλεγεν· ἡ γὰρ ἀμαθία τῶν πολιτικῶν μεγάλη ἦν, ὁ δὲ Σωκράτης ἐγίγνωσκε τὴν ἑαυτοῦ ἀμαθίαν.",
+          "glosses": [
+            {
+              "word": "ἀμαθία",
+              "kind": "<",
+              "value": "μανθάνω | ἡ ἀ-μαθία (not having learned: ignorance)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "εταιρος",
+      "gloss_grc": "ὁ ἑταῖρος = ὁ φίλος · ὁ Χαιρεφῶν ἑταῖρος ἦν τοῦ Σωκράτους"
+    },
+    {
+      "id": "σοφια",
+      "gloss_grc": "σοφός → ἡ σοφία · φιλο-σοφία"
+    },
+    {
+      "id": "χρησμος",
+      "gloss_grc": "ὁ χρησμός: ὃ ὁ θεὸς ἀναιρεῖ"
+    },
+    {
+      "id": "ψευδομαι",
+      "gloss_grc": "ψεύδομαι ↔ ἀληθῆ λέγω · ὁ θεὸς οὐ ψεύδεται"
+    },
+    {
+      "id": "απορεω",
+      "gloss_grc": "ἀπορῶ = οὐκ ἔχω τί ποιῶ · ὁ Σωκράτης ἠπόρει"
+    },
+    {
+      "id": "ελεγχω",
+      "gloss_grc": "ἐλέγχω, ἐλέγξω, ἤλεγξα · τὸν χρησμὸν ἐλέγχει"
+    },
+    {
+      "id": "πολιτικος",
+      "gloss_grc": "πόλις → πολιτικός · ὁ πολιτικός (statesman)"
+    },
+    {
+      "id": "διαλεγομαι",
+      "gloss_grc": "διαλέγομαι + dative · ὁ Σωκράτης τοῖς πολίταις διαλέγεται"
+    },
+    {
+      "id": "αμαθια",
+      "gloss_grc": "ἡ ἀμαθία ↔ ἡ σοφία"
+    },
+    {
+      "id": "απεχθανομαι",
+      "gloss_grc": "ἀπεχθάνομαι, ἀπήχθετο (+ dative) · πολλοῖς ἀπήχθετο"
+    },
+    {
+      "id": "λογιζομαι",
+      "gloss_grc": "λογίζομαι, ἐλογισάμην · < λόγος"
+    },
+    {
+      "id": "ουδεις",
+      "gloss_grc": "οὐδείς, οὐδεμία, οὐδέν (οὐδὲ εἷς)"
+    },
+    {
+      "id": "μηδεις",
+      "gloss_grc": "μηδείς = οὐδείς, where the negative is μή"
+    },
+    {
+      "id": "σκοπεω",
+      "gloss_grc": "σκοπῶ = ζητῶ καὶ ὁρῶ · τὸν χρησμὸν σκοπεῖ"
+    }
+  ],
+  "notice": [
+    "ἤρετο γὰρ εἴ τις ἀνθρώπων σοφώτερος εἴη τοῦ Σωκράτους.",
+    "ἀνεῖλεν οὖν ἡ Πυθία μηδένα σοφώτερον εἶναι.",
+    "ὁ ἀνὴρ ἐδόκει μὲν σοφὸς εἶναι, ἦν δὲ οὔ.",
+    "ἐπειρᾶτο αὐτῷ δεικνύναι ὅτι οἴοιτο μὲν εἶναι σοφός, εἴη δὲ οὔ."
+  ],
+  "grammar": {
+    "md": "Socrates tells this story himself, at his trial: *how* he came to question people. Plato's Greek reports a question, an answer and a thought, and you already know every construction he uses (Units 6 and 9).\n\n**A question reported: εἰ + optative.** Chaerephon asked «ἆρά τις σοφώτερός ἐστι τοῦ Σωκράτους;». Reported after a past verb it becomes ἤρετο **εἰ** τις σοφώτερος **εἴη** 'he asked *whether* anyone was wiser'. The optative marks the reported question in secondary sequence (9.3–9.4); the indicative ἐστί would also be correct.\n\n**An answer reported: accusative + infinitive.** The god said «οὐδεὶς σοφώτερός ἐστιν». Reported: ἀνεῖλεν ἡ Πυθία **μηδένα** σοφώτερον **εἶναι**. The subject becomes accusative (μηδένα), the verb an infinitive (εἶναι), and the adjective agrees with the subject (σοφώτερον). An oracle's pronouncement takes μή (μηδένα), like a command.\n\n**A thought reported: ὅτι + optative.** ἐπειρᾶτο δεικνύναι ὅτι **οἴοιτο** μὲν εἶναι σοφός, **εἴη** δ’ οὔ 'he tried to show that he *thought* he was wise, but *was* not'.\n\n**Comparison.** σοφώτερος + genitive: οὐδεὶς σοφώτερός ἐστι **σοῦ** 'no one is wiser *than you*'; τούτου τοῦ ἀνθρώπου σοφώτερός εἰμι.\n\n**Seeming and being.** The whole Apology turns on one antithesis:\n\n| δοκεῖν μέν … | εἶναι δέ … |\n|---|---|\n| ἐδόκει μὲν σοφὸς εἶναι | ἦν δὲ οὔ |\n| οἴεταί τι εἰδέναι | οὐκ εἰδώς |\n\nLook for μέν … δέ in every sentence of paragraph 3: Plato builds his argument out of these pairs.\n\n**οἶδα 'I know'** (εἰδέναι, εἰδώς) is glossed here; you will learn it properly in Unit 10.",
+    "paradigms": [
+      "oudeis"
+    ],
+    "diagram": "diagram-indirect"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings.",
+      "template": "ὁ Χαιρεφῶν ἐθαύμαζ___ τὴν σοφί___ τοῦ Σωκράτους. ἤρετο εἴ τις σοφώτερ___ εἴη. ὁ δὲ Σωκράτης ἠπόρ___.",
+      "gaps": [
+        {
+          "answers": [
+            "ε",
+            "εν"
+          ]
+        },
+        {
+          "answers": [
+            "αν"
+          ]
+        },
+        {
+          "answers": [
+            "ος"
+          ]
+        },
+        {
+          "answers": [
+            "ει"
+          ]
+        }
+      ],
+      "skills": [
+        "verb.impf.act.ind.3sg",
+        "noun.decl1.acc.sg",
+        "adj.comp",
+        "verb.contract.e"
+      ],
+      "explain": "ἐθαύμαζε(ν) (imperfect), τὴν σοφίαν (accusative), σοφώτερος (comparative, nominative), ἠπόρει (ἀπορέω, imperfect: ε + ε → ει)."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ἀνεῖλεν οὖν ἡ Πυθία ___ σοφώτερον εἶναι.",
+      "options": [
+        {
+          "id": "a",
+          "text": "μηδένα"
+        },
+        {
+          "id": "b",
+          "text": "μηδεμίαν"
+        },
+        {
+          "id": "c",
+          "text": "μηδέν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.indirect-inf",
+        "vocab.phil"
+      ],
+      "explain": "μηδένα: masculine accusative, the subject of εἶναι ('no man').",
+      "audio": "ἀνεῖλεν οὖν ἡ Πυθία μηδένα σοφώτερον εἶναι."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ἤρετο γὰρ εἴ τις ἀνθρώπων σοφώτερος ___ τοῦ Σωκράτους.",
+      "options": [
+        {
+          "id": "a",
+          "text": "εἴη"
+        },
+        {
+          "id": "b",
+          "text": "εἶναι"
+        },
+        {
+          "id": "c",
+          "text": "ὤν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-indirect",
+        "syntax.indirect-question"
+      ],
+      "explain": "εἰ + optative after a past verb: 'whether anyone was'.",
+      "audio": "ἤρετο γὰρ εἴ τις ἀνθρώπων σοφώτερος εἴη τοῦ Σωκράτους."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ὁ ἀνὴρ ἐδόκει μὲν σοφὸς εἶναι, ἦν ___ οὔ.",
+      "options": [
+        {
+          "id": "a",
+          "text": "δέ"
+        },
+        {
+          "id": "b",
+          "text": "γάρ"
+        },
+        {
+          "id": "c",
+          "text": "οὖν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.men-de",
+        "read.phil.argument"
+      ],
+      "explain": "μέν … δέ: he seemed wise, but was not.",
+      "audio": "ὁ ἀνὴρ ἐδόκει μὲν σοφὸς εἶναι, ἦν δὲ οὔ."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ χρησμός"
+        },
+        {
+          "id": "b",
+          "text": "ὁ χρόνος"
+        },
+        {
+          "id": "c",
+          "text": "ὁ χορός"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.recognition"
+      ],
+      "explain": "ὁ χρησμός: the oracle.",
+      "audio": "ὁ χρησμός"
+    },
+    {
+      "type": "match",
+      "prompt": "Match the new words to their meanings.",
+      "pairs": [
+        {
+          "left": "ἡ σοφία",
+          "right": "wisdom"
+        },
+        {
+          "left": "ὁ χρησμός",
+          "right": "oracle"
+        },
+        {
+          "left": "ἀπορέω",
+          "right": "be at a loss"
+        },
+        {
+          "left": "ἐλέγχω",
+          "right": "test, refute"
+        },
+        {
+          "left": "ἡ ἀμαθία",
+          "right": "ignorance"
+        }
+      ],
+      "skills": [
+        "vocab.recognition",
+        "vocab.phil"
+      ],
+      "explain": "σοφία, χρησμός, ἀπορέω, ἐλέγχω, ἀμαθία."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the present of ψεύδομαι for 'he lies': ὁ θεὸς οὐ ___.",
+      "lemma": "ψεύδομαι",
+      "cell": "present.middle.indicative.3sg",
+      "skills": [
+        "verb.deponent",
+        "vocab.production"
+      ],
+      "explain": "ψεύδεται: a deponent verb, middle endings with an active meaning.",
+      "audio": "ψεύδεται"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the comparative of σοφός: 'wiser' (masculine nominative).",
+      "lemma": "σοφός",
+      "cell": "comp.nom.sg.m",
+      "skills": [
+        "adj.comp",
+        "vocab.production"
+      ],
+      "explain": "σοφ-ώτερος: after a short syllable the ο lengthens to ω (σοφώτερος, σοφώτατος).",
+      "audio": "σοφώτερος"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist of ἀπεχθάνομαι for 'he became hated'.",
+      "lemma": "ἀπεχθάνομαι",
+      "cell": "aorist.middle.indicative.3sg",
+      "skills": [
+        "verb.aor2.stem",
+        "verb.deponent"
+      ],
+      "explain": "ἀπ-ηχθ-ετο: second aorist (stem ἐχθ-, augmented ἠχθ-), middle endings.",
+      "audio": "ἀπήχθετο"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse εἴη.",
+      "form": "εἴη",
+      "groups": [
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "mood": "opt",
+        "person": "3sg"
+      },
+      "skills": [
+        "syntax.opt-indirect"
+      ],
+      "explain": "εἴη: optative of εἰμί, 3rd singular, in a reported question after ἤρετο.",
+      "audio": "εἴη"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἠπόρει.",
+      "form": "ἠπόρει",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "impf",
+        "person": "3sg"
+      },
+      "skills": [
+        "verb.contract.e",
+        "verb.impf.act.ind.3sg"
+      ],
+      "explain": "ἠ-πόρε-ε → ἠπόρει: imperfect of ἀπορέω (augment ἀ → ἠ).",
+      "audio": "ἠπόρει"
+    },
+    {
+      "type": "label",
+      "prompt": "ἤρετο εἴ τις σοφώτερος εἴη. Why is εἴη optative?",
+      "options": [
+        {
+          "id": "a",
+          "text": "an indirect question after a past verb"
+        },
+        {
+          "id": "b",
+          "text": "a wish"
+        },
+        {
+          "id": "c",
+          "text": "a command"
+        },
+        {
+          "id": "d",
+          "text": "a purpose clause"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-indirect",
+        "syntax.indirect-question"
+      ],
+      "explain": "After a past main verb (ἤρετο), a reported question may put its verb in the optative."
+    },
+    {
+      "type": "label",
+      "prompt": "ἀνεῖλεν ἡ Πυθία μηδένα σοφώτερον εἶναι. What is μηδένα?",
+      "options": [
+        {
+          "id": "a",
+          "text": "the subject of the infinitive εἶναι"
+        },
+        {
+          "id": "b",
+          "text": "the object of ἀνεῖλεν"
+        },
+        {
+          "id": "c",
+          "text": "a genitive of comparison"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.indirect-inf"
+      ],
+      "explain": "In indirect statement the subject of the infinitive is accusative: 'that no one was wiser'."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "σοφώτερός ἐστι ___ Σωκράτους; 'Is he wiser than Socrates?'",
+      "options": [
+        {
+          "id": "a",
+          "text": "τοῦ"
+        },
+        {
+          "id": "b",
+          "text": "τῷ"
+        },
+        {
+          "id": "c",
+          "text": "τόν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.comparison"
+      ],
+      "explain": "The genitive of comparison: σοφώτερος τοῦ Σωκράτους."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ὁ πολιτικὸς ἐδόκει σοφὸς εἶναι. ἐδόκει means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "he seemed"
+        },
+        {
+          "id": "b",
+          "text": "he was"
+        },
+        {
+          "id": "c",
+          "text": "he knew"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.terms",
+        "vocab.recognition"
+      ],
+      "explain": "δοκεῖ + infinitive: seems. The pair δοκεῖν ↔ εἶναι (seem ↔ be) runs through the whole passage."
+    },
+    {
+      "type": "transform",
+      "prompt": "Report the oracle: «οὐδεὶς σοφώτερός ἐστιν.» → ἀνεῖλεν ἡ Πυθία μηδένα σοφώτερον ___.",
+      "template": "ἀνεῖλεν ἡ Πυθία μηδένα σοφώτερον ___.",
+      "gaps": [
+        {
+          "answers": [
+            "εἶναι"
+          ]
+        }
+      ],
+      "skills": [
+        "syntax.indirect-inf"
+      ],
+      "explain": "ἐστί → εἶναι: the verb of the reported statement becomes an infinitive."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the two optatives.",
+      "sentence": "ἔπειτα ἐπειρᾶτο αὐτῷ δεικνύναι ὅτι οἴοιτο μὲν εἶναι σοφός, εἴη δὲ οὔ.",
+      "answer": [
+        5,
+        9
+      ],
+      "skills": [
+        "read.locate",
+        "syntax.opt-indirect"
+      ],
+      "explain": "οἴοιτο (οἴομαι) and εἴη (εἰμί): reported thought after a past verb."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the word that means 'than me'.",
+      "sentence": "«ἐνταῦθα», ἔφη, «τὸν χρησμὸν ἐλέγξω· οὗτος γὰρ ἐμοῦ σοφώτερός ἐστιν.»",
+      "answer": [
+        7
+      ],
+      "skills": [
+        "read.locate",
+        "syntax.comparison"
+      ],
+      "explain": "ἐμοῦ: genitive of comparison with σοφώτερος."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'No one is wiser than Socrates.'",
+      "tokens": [
+        "οὐδεὶς",
+        "σοφώτερός",
+        "ἐστι",
+        "Σωκράτους"
+      ],
+      "answers": [
+        "οὐδεὶς σοφώτερός ἐστι Σωκράτους",
+        "οὐδεὶς Σωκράτους σοφώτερός ἐστι",
+        "Σωκράτους οὐδεὶς σοφώτερός ἐστι",
+        "οὐδεὶς ἐστι σοφώτερος Σωκράτους"
+      ],
+      "skills": [
+        "syntax.word-order",
+        "syntax.comparison"
+      ],
+      "explain": "οὐδεὶς σοφώτερός ἐστι Σωκράτους (genitive of comparison)."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "τί ποτε λέγει ὁ θεός;"
+        },
+        {
+          "id": "b",
+          "text": "τί ποτε ποιεῖ ὁ θεός;"
+        },
+        {
+          "id": "c",
+          "text": "τίς ποτε λέγει ὁ θεός;"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "What on earth does the god mean?",
+      "audio": "τί ποτε λέγει ὁ θεός;"
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Χαιρεφῶν τὸν θεὸν ἤρετο εἴ τις σοφώτερος εἴη τοῦ Σωκράτους.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἤρετο γὰρ εἴ τις ἀνθρώπων σοφώτερος εἴη τοῦ Σωκράτους."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ πολιτικὸς σοφὸς μὲν ἦν, οὐκ ἐδόκει δέ.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "The reverse: ἐδόκει μὲν σοφὸς εἶναι, ἦν δὲ οὔ."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Σωκράτης πολλοῖς τῶν πολιτικῶν ἀπήχθετο.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "καὶ πᾶσιν ἀπήχθετο."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "gaps": [
+        {
+          "answers": [
+            "ὁ θεὸς οὐ ψεύδεται"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "ὁ θεὸς οὐ ψεύδεται: the god does not lie.",
+      "audio": "ὁ θεὸς οὐ ψεύδεται."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'Socrates was at a loss.'",
+      "gaps": [
+        {
+          "answers": [
+            "ὁ Σωκράτης ἠπόρει",
+            "ἠπόρει ὁ Σωκράτης",
+            "ὁ Σωκράτης ἠπόρησε",
+            "ὁ Σωκράτης ἠπόρησεν",
+            "Σωκράτης ἠπόρει"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "verb.contract.e"
+      ],
+      "explain": "ὁ Σωκράτης ἠπόρει (imperfect, 'was puzzled for a long time') or ἠπόρησε (aorist)."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'He was testing the oracle.'",
+      "gaps": [
+        {
+          "answers": [
+            "τὸν χρησμὸν ἤλεγχεν",
+            "τὸν χρησμὸν ἤλεγχε",
+            "ἤλεγχε τὸν χρησμόν",
+            "ἤλεγχεν τὸν χρησμόν"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "vocab.phil"
+      ],
+      "explain": "ἤλεγχε(ν) τὸν χρησμόν: imperfect of ἐλέγχω (augment ἐ → ἠ)."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: «οὗτος μὲν γὰρ οἴεταί τι εἰδέναι οὐκ εἰδώς, ἐγὼ δέ, ὥσπερ οὐκ οἶδα, οὐδὲ οἴομαι.»",
+      "audio": "«οὗτος μὲν γὰρ οἴεταί τι εἰδέναι οὐκ εἰδώς, ἐγὼ δέ, ὥσπερ οὐκ οἶδα, οὐδὲ οἴομαι.»",
+      "model": "For this man thinks he knows something although he does not know, whereas I, as I do not know, do not even think I do.",
+      "skills": [
+        "read.adapted-text",
+        "read.plato",
+        "read.phil.argument"
+      ],
+      "explain": "οἴεταί τι εἰδέναι 'thinks he knows something'; οὐκ εἰδώς 'not knowing' (concessive); ὥσπερ οὐκ οἶδα 'just as I do not know'; οὐδὲ οἴομαι (sc. εἰδέναι)."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "ἡ σοφία",
+          "right": "philosophy"
+        },
+        {
+          "left": "διαλέγομαι",
+          "right": "dialogue"
+        },
+        {
+          "left": "μανθάνω (ἀ-μαθία)",
+          "right": "mathematics"
+        },
+        {
+          "left": "ἐλέγχω",
+          "right": "elenchus"
+        },
+        {
+          "left": "ψεύδομαι",
+          "right": "pseudonym"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "φιλο-σοφία 'love of wisdom'; διάλογος 'conversation'; μάθημα 'what is learned'; ἔλεγχος 'test, refutation'; ψευδ-ώνυμος 'falsely named'."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "τίς ἦν ὁ Χαιρεφῶν;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἑταῖρος τοῦ Σωκράτους."
+        },
+        {
+          "id": "b",
+          "text": "ὁ θεὸς ὁ ἐν Δελφοῖς."
+        },
+        {
+          "id": "c",
+          "text": "πολιτικός τις."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἑταῖρος δὲ αὐτοῦ ἦν Χαιρεφῶν.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί ἤρετο ὁ Χαιρεφῶν τὸν θεόν;",
+      "options": [
+        {
+          "id": "a",
+          "text": "εἴ τις σοφώτερος εἴη τοῦ Σωκράτους."
+        },
+        {
+          "id": "b",
+          "text": "εἰ ὁ Σωκράτης πολιτικὸς εἴη."
+        },
+        {
+          "id": "c",
+          "text": "τί ἐστιν ἡ σοφία."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "syntax.indirect-question"
+      ],
+      "explain": "ἤρετο γὰρ εἴ τις ἀνθρώπων σοφώτερος εἴη τοῦ Σωκράτους.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί ἀνεῖλεν ἡ Πυθία;",
+      "options": [
+        {
+          "id": "a",
+          "text": "μηδένα σοφώτερον εἶναι τοῦ Σωκράτους."
+        },
+        {
+          "id": "b",
+          "text": "τὸν Σωκράτη ψεύδεσθαι."
+        },
+        {
+          "id": "c",
+          "text": "τὸν Χαιρεφῶντα σοφώτατον εἶναι."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "syntax.indirect-inf"
+      ],
+      "explain": "ἀνεῖλεν οὖν ἡ Πυθία μηδένα σοφώτερον εἶναι.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "διὰ τί ἠπόρει ὁ Σωκράτης;",
+      "options": [
+        {
+          "id": "a",
+          "text": "οὐδεμίαν γὰρ σοφίαν εἶχεν, ὁ δὲ θεὸς οὐ ψεύδεται."
+        },
+        {
+          "id": "b",
+          "text": "ὁ γὰρ Χαιρεφῶν ἐψεύδετο."
+        },
+        {
+          "id": "c",
+          "text": "οὐ γὰρ ἤκουσε τὸν χρησμόν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "read.plato"
+      ],
+      "explain": "ἐγὼ δὲ οὐδεμίαν σοφίαν ἔχω … ἀλλ’ οὐ ψεύδεται ὁ θεός.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίνι σοφώτερος ἦν ὁ Σωκράτης τοῦ πολιτικοῦ;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἃ μὴ ᾔδει, οὐδὲ ᾤετο εἰδέναι."
+        },
+        {
+          "id": "b",
+          "text": "πολλὰ γὰρ ᾔδει."
+        },
+        {
+          "id": "c",
+          "text": "ἑταῖρον εἶχε τὸν Χαιρεφῶντα."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "read.phil.argument"
+      ],
+      "explain": "ἃ γὰρ μὴ οἶδα, οὐδὲ οἴομαι εἰδέναι: his only wisdom is knowing his ignorance.",
+      "audio": "prompt"
+    }
+  ],
+  "culture": {
+    "title": "The god at Delphi and the Apology",
+    "md": "Delphi, under Mount Parnassus, was the most famous oracle in the Greek world. In Apollo's temple a woman of Delphi, the **Pythia**, sat on a bronze tripod and gave the god's answers (χρησμοί) to cities and to private people who had paid, sacrificed and waited their turn. Cities asked about wars and colonies; individuals about marriages, journeys and debts. The only surviving Athenian picture of a consultation, painted about 440–430 BC, shows the mythical king Aegeus before the prophetess (labelled Themis) seated on the tripod.\n\n**Chaerephon** of Sphettos was Socrates' friend from youth, an excitable man whom Aristophanes mocks as pale and half-dead in the *Clouds* (423 BC). A democrat, he went into exile under the Thirty in 404 and came back with the people; he died before 399, so at the trial his brother testified for him. We do not know when he went to Delphi: probably before the war, when Socrates was already talked about.\n\nThe **Apology** (ἀπολογία, 'speech in defence') is Plato's version of what Socrates said at his trial in 399 BC. Plato, then about twenty-eight, was present; he wrote the speech some years later. It is not a transcript, but it is the closest we come to hearing Socrates explain himself: his questioning, he says, began as an attempt to prove the god wrong.",
+    "image": "phil-culture-1-aegeus-pythia"
+  },
+  "quiz": [
+    {
+      "type": "produce-form",
+      "prompt": "Give the genitive singular of χρησμός.",
+      "lemma": "χρησμός",
+      "cell": "gen.sg",
+      "skills": [
+        "vocab.production",
+        "noun.decl2.gen.sg"
+      ],
+      "explain": "χρησμοῦ.",
+      "audio": "χρησμοῦ"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ὁ Σωκράτης ἠπόρει means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "Socrates was at a loss"
+        },
+        {
+          "id": "b",
+          "text": "Socrates was lying"
+        },
+        {
+          "id": "c",
+          "text": "Socrates was asking"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition",
+        "vocab.phil"
+      ],
+      "explain": "ἀπορέω: be at a loss, not know what to do."
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἀπήχθετο.",
+      "form": "ἀπήχθετο",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "person": "3sg"
+      },
+      "skills": [
+        "verb.aor2.stem",
+        "verb.deponent"
+      ],
+      "explain": "ἀπ-ήχθ-ετο: second aorist middle of ἀπεχθάνομαι.",
+      "audio": "ἀπήχθετο"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἤρετο εἴ τις σοφώτερος ___ τοῦ Σωκράτους.",
+      "options": [
+        {
+          "id": "a",
+          "text": "εἴη"
+        },
+        {
+          "id": "b",
+          "text": "εἶναι"
+        },
+        {
+          "id": "c",
+          "text": "ᾖ"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-indirect"
+      ],
+      "explain": "εἰ + optative after a past verb."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ θεὸς ἀνεῖλε τὸν Σωκράτη σοφώτατον εἶναι.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "μηδένα σοφώτερον εἶναι: that is, Socrates is the wisest."
+    },
+    {
+      "type": "label",
+      "prompt": "ἐδόκει μὲν σοφὸς εἶναι, ἦν δὲ οὔ. The contrast is between …",
+      "options": [
+        {
+          "id": "a",
+          "text": "seeming and being"
+        },
+        {
+          "id": "b",
+          "text": "asking and answering"
+        },
+        {
+          "id": "c",
+          "text": "speaking and listening"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.argument",
+        "syntax.men-de"
+      ],
+      "explain": "δοκεῖν ↔ εἶναι: to seem ↔ to be."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἡ ἀμαθία"
+        },
+        {
+          "id": "b",
+          "text": "ἡ ἀλήθεια"
+        },
+        {
+          "id": "c",
+          "text": "ἡ σοφία"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.phil"
+      ],
+      "explain": "ἡ ἀμαθία: ignorance.",
+      "audio": "ἡ ἀμαθία"
+    }
+  ],
+  "skills": [
+    "read.adapted-text",
+    "read.plato",
+    "read.comprehension",
+    "read.locate",
+    "read.phil.argument",
+    "read.phil.terms",
+    "syntax.opt-indirect",
+    "syntax.indirect-question",
+    "syntax.indirect-inf",
+    "syntax.comparison",
+    "syntax.men-de",
+    "adj.comp",
+    "verb.deponent",
+    "verb.aor2.stem",
+    "verb.contract.e",
+    "listen.words",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.phil",
+    "vocab.family"
+  ]
+}

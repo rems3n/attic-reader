@@ -1,0 +1,1509 @@
+{
+  "id": "phil.2",
+  "title_grc": "τί ἐστι τὸ ὅσιον;",
+  "title_en": "What is piety?",
+  "summary_grc": "ὁ Εὐθύφρων τῷ Σωκράτει ἐν τῇ τοῦ βασιλέως στοᾷ ἐντυγχάνει· ὁ δὲ Σωκράτης ἐρωτᾷ τί ἐστι τὸ ὅσιον.",
+  "summary_en": "Outside the King Archon's porch Socrates, charged with impiety, meets Euthyphro, who is prosecuting his own father for murder. Surely Euthyphro knows what piety is? Adapted from the opening of Plato's Euthyphro: reading a dialogue, law words with the genitive, and the neuter adjective as an idea (τὸ ὅσιον).",
+  "cover": "phil-panel-2-a",
+  "caption_grc": "Σωκράτης: λέγε δή μοι, τί φῂς εἶναι τὸ ὅσιον καὶ τί τὸ ἀνόσιον;",
+  "original": {
+    "text": "plato-euthyphro-2a",
+    "note": "Plato, Euthyphro 2a–b, the opening of the dialogue. The conversation is set in 399 BC, shortly before Socrates' trial; Plato wrote it some years afterwards. Paragraph 1 adapts Plato's first exchanges; paragraphs 2 and 3 retell later parts of the dialogue (2c–3b, 4a–e, 5d–6e) in simpler Greek."
+  },
+  "names": {
+    "Εὐθύφρων": [
+      "Εὐθύφρονος",
+      "Εὐθύφρονι",
+      "Εὐθύφρονα",
+      "Εὐθύφρον"
+    ],
+    "Μέλητος": [
+      "Μελήτου",
+      "Μελήτῳ",
+      "Μέλητον",
+      "Μέλητε"
+    ],
+    "Λύκειον": [
+      "Λυκείου",
+      "Λυκείῳ"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "phil-panel-2-a",
+      "sentences": [
+        {
+          "text": "Εὐθύφρων ὁ μάντις ἐν τῇ τοῦ βασιλέως στοᾷ τῷ Σωκράτει ἐνέτυχεν.",
+          "glosses": [
+            {
+              "word": "μάντις",
+              "kind": "en",
+              "value": "seer, prophet (ὁ μάντις, τοῦ μάντεως)"
+            },
+            {
+              "word": "βασιλέως",
+              "kind": "note",
+              "value": "in Athens ὁ βασιλεύς is the King Archon, the official who took charges about religion and murder"
+            },
+            {
+              "word": "στοᾷ",
+              "kind": "en",
+              "value": "porch, colonnade (ἡ στοά): the King's Porch in the Agora"
+            },
+            {
+              "word": "ἐνέτυχεν",
+              "kind": "en",
+              "value": "met (+ dative) (ἐντυγχάνω)"
+            }
+          ]
+        },
+        {
+          "text": "Εὐθύφρων: τί νέον, ὦ Σώκρατες; διὰ τί σὺ τὸ Λύκειον λιπὼν ἐνθάδε νῦν διατρίβεις περὶ τὴν τοῦ βασιλέως στοάν;",
+          "orig": [
+            0
+          ],
+          "glosses": [
+            {
+              "word": "νέον",
+              "kind": "↔",
+              "value": "παλαιόν | τί νέον; what's new?"
+            },
+            {
+              "word": "Λύκειον",
+              "kind": "note",
+              "value": "the Lyceum, a gymnasium outside the walls where Socrates liked to talk"
+            },
+            {
+              "word": "ἐνθάδε",
+              "kind": "=",
+              "value": "ἐνταῦθα (here)"
+            },
+            {
+              "word": "διατρίβεις",
+              "kind": "en",
+              "value": "you spend your time"
+            },
+            {
+              "word": "στοάν",
+              "kind": "|",
+              "value": "ἡ στοά | τὴν στοάν"
+            }
+          ]
+        },
+        {
+          "text": "οὐ γάρ που καὶ σοὶ δίκη τίς ἐστι πρὸς τὸν βασιλέα ὥσπερ ἐμοί.",
+          "orig": [
+            1
+          ],
+          "glosses": [
+            {
+              "word": "δίκη",
+              "kind": "en",
+              "value": "lawsuit, case (ἡ δίκη)"
+            },
+            {
+              "word": "που",
+              "kind": "note",
+              "value": "οὐ γάρ που …: surely not … ? (που softens: 'I suppose')"
+            }
+          ]
+        },
+        {
+          "text": "Σωκράτης: οὐ δίκην, ὦ Εὐθύφρον, ἀλλὰ γραφὴν αὐτὴν καλοῦσιν οἱ Ἀθηναῖοι.",
+          "orig": [
+            2
+          ],
+          "glosses": [
+            {
+              "word": "γραφὴν",
+              "kind": "note",
+              "value": "ἡ γραφή: a public charge, which any citizen could bring; a δίκη was a private suit"
+            }
+          ]
+        },
+        {
+          "text": "Εὐθύφρων: τί φῄς; γραφὴν σέ τις ἐγράψατο; οὐ γὰρ σὺ ἄλλου κατηγορεῖς.",
+          "orig": [
+            3,
+            4,
+            5
+          ],
+          "glosses": [
+            {
+              "word": "ἐγράψατο",
+              "kind": "|",
+              "value": "γράφω | γράφομαι (middle): indict, bring a written charge against"
+            },
+            {
+              "word": "κατηγορεῖς",
+              "kind": "en",
+              "value": "you accuse (+ genitive of the person) (κατηγορέω)"
+            }
+          ]
+        },
+        {
+          "text": "Σωκράτης: οὐ γὰρ οὖν.",
+          "orig": [
+            6
+          ],
+          "glosses": [
+            {
+              "word": "οὖν",
+              "kind": "note",
+              "value": "οὐ γὰρ οὖν: no, indeed not"
+            }
+          ]
+        },
+        {
+          "text": "Εὐθύφρων: ἀλλὰ σοῦ ἄλλος τις κατηγορεῖ;",
+          "orig": [
+            7
+          ],
+          "glosses": []
+        },
+        {
+          "text": "Σωκράτης: ναί.",
+          "orig": [
+            8
+          ],
+          "glosses": []
+        },
+        {
+          "text": "Εὐθύφρων: τίς οὗτος;",
+          "orig": [
+            9
+          ],
+          "glosses": []
+        },
+        {
+          "text": "Σωκράτης: οὐδ’ αὐτὸς καλῶς γιγνώσκω τὸν ἄνδρα· νέος γάρ τίς μοι φαίνεται καὶ ἀγνώς.",
+          "orig": [
+            10
+          ],
+          "glosses": [
+            {
+              "word": "οὐδ’",
+              "kind": "=",
+              "value": "οὐδέ (not even)"
+            },
+            {
+              "word": "ἀγνώς",
+              "kind": "en",
+              "value": "unknown"
+            }
+          ]
+        },
+        {
+          "text": "καλοῦσι δὲ αὐτὸν Μέλητον.",
+          "orig": [
+            11
+          ],
+          "glosses": []
+        },
+        {
+          "text": "Εὐθύφρων: ἀλλὰ τίνα γραφήν σε γράφεται;",
+          "orig": [
+            13,
+            14
+          ],
+          "glosses": []
+        }
+      ]
+    },
+    {
+      "image": "phil-panel-2-b",
+      "sentences": [
+        {
+          "text": "Σωκράτης: οὐ φαύλην· νέος γὰρ ὢν μέγα τι γιγνώσκει.",
+          "orig": [
+            15
+          ],
+          "glosses": [
+            {
+              "word": "φαύλην",
+              "kind": "en",
+              "value": "poor, trivial (φαῦλος, -η, -ον)"
+            }
+          ]
+        },
+        {
+          "text": "λέγει γὰρ ὅτι γιγνώσκει ὅπως οἱ νέοι διαφθείρονται καὶ τίνες αὐτοὺς διαφθείρουσιν.",
+          "glosses": [
+            {
+              "word": "διαφθείρονται",
+              "kind": "en",
+              "value": "are corrupted, ruined (διαφθείρω)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ κατηγορεῖ μου ὡς τοὺς νέους διαφθείροντος, καὶ πρὸς τὴν πόλιν ὥσπερ πρὸς μητέρα ἔρχεται.",
+          "glosses": [
+            {
+              "word": "ὡς",
+              "kind": "note",
+              "value": "ὡς + participle: on the ground that (I am) corrupting"
+            }
+          ]
+        },
+        {
+          "text": "ὀρθῶς γὰρ πρῶτον τῶν νέων ἐπιμελεῖται, ὥσπερ ἀγαθὸς γεωργὸς πρῶτον τῶν νέων φυτῶν ἐπιμελεῖται.",
+          "glosses": [
+            {
+              "word": "ὀρθῶς",
+              "kind": "en",
+              "value": "rightly"
+            },
+            {
+              "word": "ἐπιμελεῖται",
+              "kind": "en",
+              "value": "takes care of (+ genitive) (ἐπιμελέομαι)"
+            },
+            {
+              "word": "φυτῶν",
+              "kind": "en",
+              "value": "plants (τὸ φυτόν)"
+            }
+          ]
+        },
+        {
+          "text": "λέγει δὲ καὶ ὅτι καινοὺς θεοὺς ποιῶ, τοὺς δὲ ἀρχαίους οὐ νομίζω.",
+          "glosses": [
+            {
+              "word": "καινοὺς",
+              "kind": "↔",
+              "value": "ἀρχαίους | new"
+            },
+            {
+              "word": "ἀρχαίους",
+              "kind": "<",
+              "value": "ἀρχή | ἀρχαῖος (ancient, old)"
+            }
+          ]
+        },
+        {
+          "text": "Εὐθύφρων: μανθάνω, ὦ Σώκρατες· διὰ τὸ δαιμόνιον τοῦτο λέγει. ἀλλὰ φαῦλος ἄνθρωπός ἐστιν ὁ Μέλητος.",
+          "glosses": [
+            {
+              "word": "δαιμόνιον",
+              "kind": "en",
+              "value": "τὸ δαιμόνιον: Socrates' 'divine sign', an inner voice that warned him"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "phil-panel-2-c",
+      "sentences": [
+        {
+          "text": "Σωκράτης: σὺ δέ, ὦ Εὐθύφρον, τίνα δίκην ἔχεις; φεύγεις ἢ διώκεις;",
+          "glosses": [
+            {
+              "word": "φεύγεις",
+              "kind": "note",
+              "value": "in court φεύγω = be the defendant, διώκω = prosecute"
+            }
+          ]
+        },
+        {
+          "text": "Εὐθύφρων: διώκω τὸν ἐμὸν πατέρα φόνου.",
+          "glosses": [
+            {
+              "word": "φόνου",
+              "kind": "en",
+              "value": "for murder (ὁ φόνος; genitive of the charge)"
+            }
+          ]
+        },
+        {
+          "text": "Σωκράτης: τὸν σὸν πατέρα; ἆρ’ ἐπιστάμενος τί ἐστι τὸ ὅσιον καὶ τὸ ἀνόσιον, τοῦ πατρὸς φόνου κατηγορεῖς;",
+          "glosses": [
+            {
+              "word": "ὅσιον",
+              "kind": "en",
+              "value": "τὸ ὅσιον: what is holy, piety (ὅσιος, -α, -ον)"
+            },
+            {
+              "word": "ἀνόσιον",
+              "kind": "↔",
+              "value": "τὸ ὅσιον | unholy, impious"
+            }
+          ]
+        },
+        {
+          "text": "Εὐθύφρων: ἐπίσταμαι σαφῶς, ὦ Σώκρατες.",
+          "glosses": []
+        },
+        {
+          "text": "Σωκράτης: λέγε δή μοι, τί φῂς εἶναι τὸ ὅσιον καὶ τί τὸ ἀνόσιον;",
+          "glosses": [
+            {
+              "word": "δή",
+              "kind": "note",
+              "value": "λέγε δή: come on, tell me"
+            }
+          ]
+        },
+        {
+          "text": "Εὐθύφρων: τὸ μὲν ὅσιόν ἐστιν ὃ ἐγὼ νῦν ποιῶ, τὸν ἀδικοῦντα διώκειν· τὸ δὲ μὴ διώκειν ἀνόσιον.",
+          "glosses": [
+            {
+              "word": "διώκειν",
+              "kind": "note",
+              "value": "τὸ … διώκειν: the article makes the infinitive a noun, 'prosecuting'"
+            }
+          ]
+        },
+        {
+          "text": "Σωκράτης: ἀλλ’ οὐ τοῦτο ἠρώτων, ὦ Εὐθύφρον, ἓν ἢ δύο τῶν ὁσίων, ἀλλ’ αὐτὸ τὸ εἶδος ᾧ πάντα τὰ ὅσια ὅσιά ἐστιν.",
+          "glosses": [
+            {
+              "word": "εἶδος",
+              "kind": "en",
+              "value": "form, shape; here the one 'form' that all pious acts share (τὸ εἶδος)"
+            },
+            {
+              "word": "ᾧ",
+              "kind": "note",
+              "value": "dative of means: 'by which'"
+            }
+          ]
+        },
+        {
+          "text": "«δίδαξον οὖν με τοῦτο τὸ εἶδος, ἵνα εἰς αὐτὸ βλέπων γιγνώσκω τί ὅσιόν ἐστι καὶ τί ἀνόσιον.»",
+          "glosses": [
+            {
+              "word": "βλέπων",
+              "kind": "en",
+              "value": "looking (βλέπω)"
+            }
+          ]
+        },
+        {
+          "text": "Εὐθύφρων: ἄλλοτε, ὦ Σώκρατες· νῦν γὰρ σπεύδω.",
+          "glosses": [
+            {
+              "word": "ἄλλοτε",
+              "kind": "en",
+              "value": "another time"
+            }
+          ]
+        },
+        {
+          "text": "καὶ ὁ μὲν μάντις ἔφυγεν, ὁ δὲ Σωκράτης ἔτι ἠπόρει τί ἐστι τὸ ὅσιον.",
+          "glosses": []
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "οσιος",
+      "gloss_grc": "ὅσιος, -α, -ον · τὸ ὅσιον ↔ τὸ ἀνόσιον"
+    },
+    {
+      "id": "ανοσιος",
+      "gloss_grc": "ἀν-όσιος, -ον = οὐχ ὅσιος"
+    },
+    {
+      "id": "γραφη",
+      "gloss_grc": "ἡ γραφή < γράφω · γραφὴν γράφεσθαι (indict) · ἡ γραφή ↔ ἡ δίκη"
+    },
+    {
+      "id": "κατηγορεω",
+      "gloss_grc": "κατηγορῶ τινος (+ genitive) · ὁ Μέλητος τοῦ Σωκράτους κατηγορεῖ"
+    },
+    {
+      "id": "διαφθειρω",
+      "gloss_grc": "διαφθείρω, διαφθερῶ, διέφθειρα · τοὺς νέους διαφθείρει"
+    },
+    {
+      "id": "νεος",
+      "gloss_grc": "νέος ↔ γέρων · τί νέον;"
+    },
+    {
+      "id": "δικη",
+      "gloss_grc": "ἡ δίκη: lawsuit; justice · δίκην ἔχω"
+    },
+    {
+      "id": "επιμελεομαι",
+      "gloss_grc": "ἐπιμελοῦμαι τινος (+ genitive) · ὁ γεωργὸς τῶν φυτῶν ἐπιμελεῖται"
+    },
+    {
+      "id": "ειδος",
+      "gloss_grc": "τὸ εἶδος, τοῦ εἴδους · αὐτὸ τὸ εἶδος τοῦ ὁσίου"
+    },
+    {
+      "id": "φαυλος",
+      "gloss_grc": "φαῦλος ↔ σπουδαῖος, καλός"
+    },
+    {
+      "id": "φονος",
+      "gloss_grc": "ὁ φόνος · διώκω τινὰ φόνου"
+    },
+    {
+      "id": "μαντις",
+      "gloss_grc": "ὁ μάντις, τοῦ μάντεως · ὁ Εὐθύφρων μάντις ἐστίν"
+    }
+  ],
+  "notice": [
+    "Σωκράτης: οὐ δίκην, ὦ Εὐθύφρον, ἀλλὰ γραφὴν αὐτὴν καλοῦσιν οἱ Ἀθηναῖοι.",
+    "Εὐθύφρων: διώκω τὸν ἐμὸν πατέρα φόνου.",
+    "λέγε δή μοι, τί φῂς εἶναι τὸ ὅσιον καὶ τί τὸ ἀνόσιον;",
+    "οὐ τοῦτο ἠρώτων, ἓν ἢ δύο τῶν ὁσίων, ἀλλ’ αὐτὸ τὸ εἶδος ᾧ πάντα τὰ ὅσια ὅσιά ἐστιν."
+  ],
+  "grammar": {
+    "md": "**Reading a dialogue.** Plato writes plays without stage directions. Each turn begins with the speaker's name (Εὐθύφρων: …, Σωκράτης: …); inside a turn the other person is addressed in the vocative (ὦ Σώκρατες, ὦ Εὐθύφρον: a vocative of a -ων name drops to -ον). Short answers carry the conversation:\n\n| Greek | meaning |\n|---|---|\n| ναί · πάνυ γε | yes |\n| οὐ γὰρ οὖν | no, indeed not |\n| τί φῄς; | what do you mean? |\n| τίς οὗτος; | who is he? |\n| λέγε δή μοι | come, tell me |\n\n**Law words.** κατηγορέω + genitive of the person accused: κατηγορεῖ **μου**. The charge is also genitive: διώκω τὸν πατέρα **φόνου** 'I prosecute my father *for murder*'. In court φεύγω means 'be the defendant' and διώκω 'prosecute'. A γραφή is a public prosecution (any citizen may bring it: impiety, corrupting the young); a δίκη is a private suit (murder was a δίκη, brought by the family).\n\n**The neuter adjective as an idea.** τὸ ὅσιον 'the holy, piety', τὸ ἀνόσιον 'the unholy', τὰ ὅσια 'holy things, pious acts'. Philosophy is built from these: τὸ δίκαιον, τὸ καλόν, τὸ ἀγαθόν.\n\n**What Socrates wants.** Euthyphro gives an *example* (ὃ ἐγὼ νῦν ποιῶ 'what I am doing now'). Socrates wants the *definition*: αὐτὸ τὸ εἶδος ᾧ πάντα τὰ ὅσια ὅσιά ἐστιν 'the form itself by which all holy things are holy'. εἶδος 'shape, look' (< εἶδον 'I saw') becomes a technical word in Plato: the 'Form' or 'Idea'.",
+    "paradigms": [
+      "genos",
+      "dikaios"
+    ],
+    "diagram": null
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings.",
+      "template": "διώκω τὸν πατέρα φόν___. ὁ Μέλητος γραφ___ γράφεται τὸν Σωκράτη. τί ἐστι τὸ ὅσι___; ὁ Μέλητος τῶν νέ___ ἐπιμελεῖται.",
+      "gaps": [
+        {
+          "answers": [
+            "ου"
+          ]
+        },
+        {
+          "answers": [
+            "ην",
+            "ήν",
+            "ὴν"
+          ]
+        },
+        {
+          "answers": [
+            "ον"
+          ]
+        },
+        {
+          "answers": [
+            "ων"
+          ]
+        }
+      ],
+      "skills": [
+        "noun.decl2.gen.sg",
+        "noun.decl1.acc.sg",
+        "adj.agree",
+        "noun.decl2.gen.pl"
+      ],
+      "explain": "φόνου (genitive of the charge), γραφήν (accusative: 'brings a charge'), τὸ ὅσιον (neuter), τῶν νέων (genitive plural after ἐπιμελεῖται)."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ὁ Μέλητος τοῦ Σωκράτους ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "κατηγορεῖ"
+        },
+        {
+          "id": "b",
+          "text": "διαφθείρει"
+        },
+        {
+          "id": "c",
+          "text": "ἐπιμελεῖται"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.phil",
+        "syntax.gen.uses"
+      ],
+      "explain": "κατηγορεῖ + genitive: accuses Socrates.",
+      "audio": "ὁ Μέλητος τοῦ Σωκράτους κατηγορεῖ."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · λέγει ὅτι ὁ Σωκράτης τοὺς νέους ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "διαφθείρει"
+        },
+        {
+          "id": "b",
+          "text": "κατηγορεῖ"
+        },
+        {
+          "id": "c",
+          "text": "ἐπιμελεῖται"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.phil"
+      ],
+      "explain": "διαφθείρει τοὺς νέους: corrupts the young (the charge).",
+      "audio": "λέγει ὅτι ὁ Σωκράτης τοὺς νέους διαφθείρει."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · οὐ τοῦτο ἠρώτων, ἀλλ’ αὐτὸ τὸ ___ ᾧ πάντα τὰ ὅσια ὅσιά ἐστιν.",
+      "options": [
+        {
+          "id": "a",
+          "text": "εἶδος"
+        },
+        {
+          "id": "b",
+          "text": "ὄνομα"
+        },
+        {
+          "id": "c",
+          "text": "ἔργον"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.phil",
+        "read.phil.terms"
+      ],
+      "explain": "τὸ εἶδος: the one form all pious things share.",
+      "audio": "οὐ τοῦτο ἠρώτων, ἀλλ’ αὐτὸ τὸ εἶδος ᾧ πάντα τὰ ὅσια ὅσιά ἐστιν."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ μάντις"
+        },
+        {
+          "id": "b",
+          "text": "ὁ μάρτυς"
+        },
+        {
+          "id": "c",
+          "text": "ὁ ναύτης"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.recognition"
+      ],
+      "explain": "ὁ μάντις: the seer.",
+      "audio": "ὁ μάντις"
+    },
+    {
+      "type": "match",
+      "prompt": "Match the new words to their meanings.",
+      "pairs": [
+        {
+          "left": "ὅσιος",
+          "right": "holy, pious"
+        },
+        {
+          "left": "ἡ γραφή",
+          "right": "public charge"
+        },
+        {
+          "left": "κατηγορέω",
+          "right": "accuse"
+        },
+        {
+          "left": "διαφθείρω",
+          "right": "corrupt, ruin"
+        },
+        {
+          "left": "ὁ φόνος",
+          "right": "murder"
+        }
+      ],
+      "skills": [
+        "vocab.recognition",
+        "vocab.phil"
+      ],
+      "explain": "ὅσιος, γραφή, κατηγορέω, διαφθείρω, φόνος."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the genitive singular of μάντις.",
+      "lemma": "μάντις",
+      "cell": "gen.sg",
+      "skills": [
+        "noun.decl3.iota",
+        "vocab.production"
+      ],
+      "explain": "μάντεως: like πόλις, πόλεως.",
+      "audio": "μάντεως"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the present of κατηγορέω for 'they accuse'.",
+      "lemma": "κατηγορέω",
+      "cell": "present.active.indicative.3pl",
+      "skills": [
+        "verb.contract.e",
+        "vocab.production"
+      ],
+      "explain": "κατηγορ-έουσι → κατηγοροῦσι(ν).",
+      "audio": "κατηγοροῦσιν"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the present middle of ἐπιμελέομαι for 'he takes care of'.",
+      "lemma": "ἐπιμελέομαι",
+      "cell": "present.middle.indicative.3sg",
+      "skills": [
+        "verb.deponent",
+        "verb.contract.e"
+      ],
+      "explain": "ἐπιμελ-έεται → ἐπιμελεῖται.",
+      "audio": "ἐπιμελεῖται"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἐγράψατο.",
+      "form": "ἐγράψατο",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "voice",
+          "label": "Voice",
+          "options": [
+            {
+              "id": "act",
+              "label": "active"
+            },
+            {
+              "id": "mid",
+              "label": "middle"
+            },
+            {
+              "id": "pass",
+              "label": "passive"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "voice": "mid",
+        "person": "3sg"
+      },
+      "skills": [
+        "verb.aor1.sigma",
+        "verb.middle-meaning"
+      ],
+      "explain": "ἐ-γράψ-ατο: aorist middle; γράφομαι in the middle means 'indict'.",
+      "audio": "ἐγράψατο"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse διαφθείροντος.",
+      "form": "διαφθείροντος",
+      "groups": [
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            },
+            {
+              "id": "voc",
+              "label": "vocative"
+            }
+          ]
+        },
+        {
+          "id": "number",
+          "label": "Number",
+          "options": [
+            {
+              "id": "sg",
+              "label": "singular"
+            },
+            {
+              "id": "pl",
+              "label": "plural"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "case": "gen",
+        "number": "sg",
+        "mood": "ptc"
+      },
+      "skills": [
+        "verb.ptc.pres.act",
+        "syntax.gen.uses"
+      ],
+      "explain": "διαφθείρ-οντος: present participle, genitive singular, agreeing with μου: 'accuses me as corrupting'.",
+      "audio": "διαφθείροντος"
+    },
+    {
+      "type": "label",
+      "prompt": "διώκω τὸν ἐμὸν πατέρα φόνου. What is φόνου?",
+      "options": [
+        {
+          "id": "a",
+          "text": "genitive of the charge"
+        },
+        {
+          "id": "b",
+          "text": "genitive of comparison"
+        },
+        {
+          "id": "c",
+          "text": "partitive genitive"
+        },
+        {
+          "id": "d",
+          "text": "object of διώκω"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.gen.uses",
+        "read.phil.dialogue"
+      ],
+      "explain": "With verbs of accusing and prosecuting the charge is in the genitive."
+    },
+    {
+      "type": "label",
+      "prompt": "Euthyphro answers «τὸ ὅσιόν ἐστιν ὃ ἐγὼ νῦν ποιῶ». What does Socrates object?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It is an example, not the form that all pious acts share."
+        },
+        {
+          "id": "b",
+          "text": "It is a lie."
+        },
+        {
+          "id": "c",
+          "text": "It is not in the laws."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.argument",
+        "read.phil.terms"
+      ],
+      "explain": "Socrates wants αὐτὸ τὸ εἶδος, the definition, not one or two instances."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "φεύγεις ἢ διώκεις; In court, φεύγω means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "be the defendant"
+        },
+        {
+          "id": "b",
+          "text": "run away"
+        },
+        {
+          "id": "c",
+          "text": "prosecute"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition",
+        "read.phil.dialogue"
+      ],
+      "explain": "φεύγω 'flee' → 'be prosecuted'; διώκω 'chase' → 'prosecute'."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "οὐ γὰρ οὖν. This answer means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "No, indeed not."
+        },
+        {
+          "id": "b",
+          "text": "Yes, certainly."
+        },
+        {
+          "id": "c",
+          "text": "I don't know."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.questions",
+        "read.phil.dialogue"
+      ],
+      "explain": "A strong 'no', agreeing with a negative suggestion."
+    },
+    {
+      "type": "transform",
+      "prompt": "Turn the example into the idea: ὅσιος → 'the holy' (neuter with the article): ___",
+      "template": "___",
+      "gaps": [
+        {
+          "answers": [
+            "τὸ ὅσιον"
+          ]
+        }
+      ],
+      "skills": [
+        "read.phil.terms",
+        "adj.agree"
+      ],
+      "explain": "τὸ ὅσιον: the neuter adjective with τό names the quality itself."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the word that names the charge.",
+      "sentence": "Εὐθύφρων: διώκω τὸν ἐμὸν πατέρα φόνου.",
+      "answer": [
+        5
+      ],
+      "skills": [
+        "read.locate",
+        "syntax.gen.uses"
+      ],
+      "explain": "φόνου: genitive of the charge."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the two words that name the one thing Socrates wants.",
+      "sentence": "Σωκράτης: ἀλλ’ οὐ τοῦτο ἠρώτων, ὦ Εὐθύφρον, ἓν ἢ δύο τῶν ὁσίων, ἀλλ’ αὐτὸ τὸ εἶδος ᾧ πάντα τὰ ὅσια ὅσιά ἐστιν.",
+      "answer": [
+        14,
+        15
+      ],
+      "skills": [
+        "read.locate",
+        "read.phil.terms"
+      ],
+      "explain": "τὸ εἶδος (with αὐτό: 'the form itself')."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'Meletus accuses Socrates.'",
+      "tokens": [
+        "ὁ",
+        "Μέλητος",
+        "τοῦ",
+        "Σωκράτους",
+        "κατηγορεῖ"
+      ],
+      "answers": [
+        "ὁ Μέλητος τοῦ Σωκράτους κατηγορεῖ",
+        "ὁ Μέλητος κατηγορεῖ τοῦ Σωκράτους",
+        "τοῦ Σωκράτους κατηγορεῖ ὁ Μέλητος",
+        "τοῦ Σωκράτους ὁ Μέλητος κατηγορεῖ",
+        "κατηγορεῖ ὁ Μέλητος τοῦ Σωκράτους",
+        "κατηγορεῖ τοῦ Σωκράτους ὁ Μέλητος"
+      ],
+      "skills": [
+        "syntax.word-order",
+        "syntax.gen.uses"
+      ],
+      "explain": "κατηγορέω takes the genitive of the person accused."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "λέγε δή μοι, τί ἐστι τὸ ὅσιον;"
+        },
+        {
+          "id": "b",
+          "text": "λέγε δή μοι, τί ἐστι τὸ ἀνόσιον;"
+        },
+        {
+          "id": "c",
+          "text": "λέγε δή μοι, τίς ἐστιν ὁ μάντις;"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "Come, tell me: what is the holy?",
+      "audio": "λέγε δή μοι, τί ἐστι τὸ ὅσιον;"
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Εὐθύφρων τοῦ ἑαυτοῦ πατρὸς φόνου κατηγορεῖ.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "διώκω τὸν ἐμὸν πατέρα φόνου."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Σωκράτης τὸν Μέλητον καλῶς γιγνώσκει.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "οὐδ’ αὐτὸς καλῶς γιγνώσκω τὸν ἄνδρα· νέος γάρ τίς μοι φαίνεται καὶ ἀγνώς."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Εὐθύφρων τῷ Σωκράτει τὸ εἶδος τοῦ ὁσίου ἐδίδαξεν.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἄλλοτε, ὦ Σώκρατες· νῦν γὰρ σπεύδω. He runs off."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "gaps": [
+        {
+          "answers": [
+            "τί ἐστι τὸ ὅσιον"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "τί ἐστι τὸ ὅσιον; What is the holy?",
+      "audio": "τί ἐστι τὸ ὅσιον;"
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'He corrupts the young.'",
+      "gaps": [
+        {
+          "answers": [
+            "τοὺς νέους διαφθείρει",
+            "διαφθείρει τοὺς νέους"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "vocab.phil"
+      ],
+      "explain": "τοὺς νέους διαφθείρει."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'What is the holy?'",
+      "gaps": [
+        {
+          "answers": [
+            "τί ἐστι τὸ ὅσιον",
+            "τί ἐστιν τὸ ὅσιον",
+            "τί τὸ ὅσιον"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "read.phil.terms"
+      ],
+      "explain": "τί ἐστι τὸ ὅσιον;"
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: Σωκράτης: ἀλλ’ οὐ τοῦτο ἠρώτων, ὦ Εὐθύφρον, ἓν ἢ δύο τῶν ὁσίων, ἀλλ’ αὐτὸ τὸ εἶδος ᾧ πάντα τὰ ὅσια ὅσιά ἐστιν.",
+      "audio": "Σωκράτης: ἀλλ’ οὐ τοῦτο ἠρώτων, ὦ Εὐθύφρον, ἓν ἢ δύο τῶν ὁσίων, ἀλλ’ αὐτὸ τὸ εἶδος ᾧ πάντα τὰ ὅσια ὅσιά ἐστιν.",
+      "model": "Socrates: But that is not what I was asking, Euthyphro, one or two holy things, but the form itself by which all holy things are holy.",
+      "skills": [
+        "read.adapted-text",
+        "read.plato",
+        "read.phil.terms"
+      ],
+      "explain": "ἠρώτων imperfect 'I was asking'; ἓν ἢ δύο τῶν ὁσίων partitive genitive; ᾧ 'by which' (dative of means)."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "κατηγορέω (κατηγορία)",
+          "right": "category"
+        },
+        {
+          "left": "ὁ μάντις",
+          "right": "necromancy"
+        },
+        {
+          "left": "τὸ εἶδος (εἶδον)",
+          "right": "idea, idol"
+        },
+        {
+          "left": "ἡ γραφή",
+          "right": "graphic"
+        },
+        {
+          "left": "νέος",
+          "right": "neon"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "κατηγορία 'accusation, predicate' → category; μαντεία 'divination' → -mancy; εἶδος / ἰδέα / εἴδωλον; γραφή 'writing, drawing'; νέον 'the new (gas)'."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "ποῦ ὁ Εὐθύφρων τῷ Σωκράτει ἐντυγχάνει;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐν τῇ τοῦ βασιλέως στοᾷ."
+        },
+        {
+          "id": "b",
+          "text": "ἐν τῷ Λυκείῳ."
+        },
+        {
+          "id": "c",
+          "text": "ἐν Δελφοῖς."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἐν τῇ τοῦ βασιλέως στοᾷ.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίς τοῦ Σωκράτους κατηγορεῖ;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ Μέλητος, νέος τις καὶ ἀγνώς."
+        },
+        {
+          "id": "b",
+          "text": "ὁ Εὐθύφρων."
+        },
+        {
+          "id": "c",
+          "text": "ὁ βασιλεύς."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "καλοῦσι δὲ αὐτὸν Μέλητον.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί λέγει ὁ Μέλητος περὶ τοῦ Σωκράτους;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὅτι τοὺς νέους διαφθείρει καὶ καινοὺς θεοὺς ποιεῖ."
+        },
+        {
+          "id": "b",
+          "text": "ὅτι τὸν πατέρα διώκει."
+        },
+        {
+          "id": "c",
+          "text": "ὅτι μάντις ἐστίν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "vocab.phil"
+      ],
+      "explain": "κατηγορεῖ μου ὡς τοὺς νέους διαφθείροντος … καινοὺς θεοὺς ποιῶ.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίνος κατηγορεῖ ὁ Εὐθύφρων;",
+      "options": [
+        {
+          "id": "a",
+          "text": "τοῦ ἑαυτοῦ πατρός."
+        },
+        {
+          "id": "b",
+          "text": "τοῦ Μελήτου."
+        },
+        {
+          "id": "c",
+          "text": "τοῦ Σωκράτους."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "syntax.gen.uses"
+      ],
+      "explain": "διώκω τὸν ἐμὸν πατέρα φόνου.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί βούλεται μανθάνειν ὁ Σωκράτης;",
+      "options": [
+        {
+          "id": "a",
+          "text": "αὐτὸ τὸ εἶδος τοῦ ὁσίου."
+        },
+        {
+          "id": "b",
+          "text": "ἓν ἢ δύο τῶν ὁσίων."
+        },
+        {
+          "id": "c",
+          "text": "ὅπως οἱ νέοι διαφθείρονται."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "read.phil.terms"
+      ],
+      "explain": "αὐτὸ τὸ εἶδος ᾧ πάντα τὰ ὅσια ὅσιά ἐστιν.",
+      "audio": "prompt"
+    }
+  ],
+  "culture": {
+    "title": "At the King's Porch, spring 399",
+    "md": "The *Euthyphro* is set a few weeks before Socrates' trial, in front of the **Stoa Basileios**, the 'King's Porch' at the north-west corner of the Agora. Here the **King Archon** (ὁ βασιλεύς), one of the nine archons chosen each year by lot, heard the preliminary stages of cases about religion and homicide, and here the laws of Athens stood inscribed. Its foundations were excavated by the American School in 1970 and can be seen beside the railway line to Piraeus.\n\nSocrates has come because **Meletus**, a young poet, has brought a **γραφὴ ἀσεβείας**, a public charge of impiety: Socrates, he says, does not honour the city's gods, brings in new divine beings, and corrupts the young. Any citizen could bring a γραφή. **Euthyphro**, a seer (μάντις) who claims to know the gods' will, is there for the opposite reason: he is prosecuting his own father, whose hired labourer on Naxos had killed a slave and then died, tied up in a ditch, while the father waited for advice from Athens.\n\nPlato wrote the dialogue after Socrates' death, probably in the 390s. Like most of his early dialogues it ends in ἀπορία: no definition of piety survives Socrates' questions, and Euthyphro hurries away.",
+    "image": "phil-culture-2-stoa-basileios"
+  },
+  "quiz": [
+    {
+      "type": "produce-form",
+      "prompt": "Give the genitive singular of φόνος: διώκω αὐτὸν ___.",
+      "lemma": "φόνος",
+      "cell": "gen.sg",
+      "skills": [
+        "noun.decl2.gen.sg",
+        "vocab.production"
+      ],
+      "explain": "φόνου: genitive of the charge.",
+      "audio": "φόνου"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἡ γραφή is …",
+      "options": [
+        {
+          "id": "a",
+          "text": "a public charge"
+        },
+        {
+          "id": "b",
+          "text": "a private suit"
+        },
+        {
+          "id": "c",
+          "text": "a law"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition",
+        "vocab.phil"
+      ],
+      "explain": "γραφή: public prosecution; δίκη: private suit."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "τὸ ὅσιον means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "the holy, piety"
+        },
+        {
+          "id": "b",
+          "text": "the holy man"
+        },
+        {
+          "id": "c",
+          "text": "holy things"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.terms"
+      ],
+      "explain": "The neuter singular with τό names the quality."
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἐπιμελεῖται.",
+      "form": "ἐπιμελεῖται",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "pres",
+        "person": "3sg"
+      },
+      "skills": [
+        "verb.deponent",
+        "verb.contract.e"
+      ],
+      "explain": "ἐπιμελεῖται: present of ἐπιμελέομαι.",
+      "audio": "ἐπιμελεῖται"
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Μέλητος νέος ἐστὶ καὶ ἀγνώς.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "νέος γάρ τίς μοι φαίνεται καὶ ἀγνώς."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "διώκω τὸν πατέρα φόνου."
+        },
+        {
+          "id": "b",
+          "text": "διώκω τὸν πατέρα φόβου."
+        },
+        {
+          "id": "c",
+          "text": "φεύγω τὸν πατέρα φόνου."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "I am prosecuting my father for murder.",
+      "audio": "διώκω τὸν πατέρα φόνου."
+    },
+    {
+      "type": "label",
+      "prompt": "Σωκράτης: οὐ γὰρ οὖν. — The name before the colon is …",
+      "options": [
+        {
+          "id": "a",
+          "text": "the speaker"
+        },
+        {
+          "id": "b",
+          "text": "the person addressed"
+        },
+        {
+          "id": "c",
+          "text": "the subject of the verb"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.dialogue"
+      ],
+      "explain": "Each turn begins with the speaker's name."
+    }
+  ],
+  "skills": [
+    "read.adapted-text",
+    "read.plato",
+    "read.comprehension",
+    "read.locate",
+    "read.phil.dialogue",
+    "read.phil.questions",
+    "read.phil.terms",
+    "read.phil.argument",
+    "syntax.gen.uses",
+    "verb.contract.e",
+    "verb.deponent",
+    "verb.middle-meaning",
+    "noun.decl3.iota",
+    "verb.ptc.pres.act",
+    "listen.words",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.phil",
+    "vocab.family"
+  ]
+}

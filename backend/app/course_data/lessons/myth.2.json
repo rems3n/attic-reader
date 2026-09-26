@@ -1,0 +1,1415 @@
+{
+ "id": "myth.2",
+ "title_grc": "Ἀθηνᾶ καὶ Ποσειδῶν",
+ "title_en": "Athena and Poseidon",
+ "summary_grc": "ὁ Κλεινίας τοῖς παισὶ τὴν ἐλαίαν καὶ τὰ σημεῖα τῆς τριαίνης ἐν τῇ ἀκροπόλει δείκνυσιν· οἱ δώδεκα θεοὶ τὴν χώραν τῇ Ἀθηνᾷ κρίνουσιν.",
+ "summary_en": "On the Acropolis Kleinias shows the children Athena's olive and the marks of Poseidon's trident, and tells how the two gods quarrelled over Attica and the twelve gods judged between them. Paragraphs 2 and 3 adapt Apollodorus 3.14.1.",
+ "cover": "myth-2-c",
+ "caption_grc": "γενομένης δὲ ἔριδος περὶ τῆς χώρας, ὁ Ζεὺς κριτὰς ἔδωκε τοὺς δώδεκα θεούς.",
+ "original": {
+  "text": "apollod-3.14",
+  "note": "Apollodorus, Library 3.14.1, adapted in paragraphs 2 and 3. Apollodorus wrote in the 1st or 2nd century AD, but the story is old Athenian lore: the contest of Athena and Poseidon filled the west pediment of the Parthenon, finished in 432, a few months before our scene. Where Apollodorus says the olive 'is shown now in the Pandroseion', he means his own day."
+ },
+ "names": {
+  "Κέκροψ": [
+   "Κέκροπος",
+   "Κέκροπι",
+   "Κέκροπα"
+  ],
+  "Κεκροπία": [
+   "Κεκροπίας",
+   "Κεκροπίᾳ",
+   "Κεκροπίαν"
+  ],
+  "Θριάσιος": [
+   "Θριάσιον",
+   "Θριασίου",
+   "Θριασίῳ"
+  ]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "myth-2-a",
+   "sentences": [
+    {
+     "text": "ἡμέρᾳ τινὶ ὁ Κλεινίας τοὺς παῖδας εἰς τὴν ἀκρόπολιν ἤγαγεν.",
+     "glosses": [
+      {
+       "word": "ἀκρόπολιν",
+       "kind": "note",
+       "value": "Spring 430. The refugees camp everywhere in the city, but the Acropolis is kept clear (Thucydides 2.17)."
+      }
+     ]
+    },
+    {
+     "text": "ἐκεῖ δὲ ἐλαίαν τινὰ αὐτοῖς ἔδειξεν· «ὁρᾶτε ταύτην τὴν ἐλαίαν, ὦ παῖδες; ἡ θεὸς αὐτὴ ταύτην ἐφύτευσεν.»",
+     "glosses": [
+      {
+       "word": "ἐφύτευσεν",
+       "kind": "|",
+       "value": "φυτεύω (plant) | ἐφύτευσε(ν) (aorist)"
+      },
+      {
+       "word": "θεὸς",
+       "kind": "note",
+       "value": "ἡ θεός: 'the goddess', the Athenians' usual name for Athena"
+      }
+     ]
+    },
+    {
+     "text": "ἔπειτα δὲ ἐν μέσῃ τῇ ἀκροπόλει τρία σημεῖα ἐν λίθῳ ἔδειξεν· «ταῦτα τὰ σημεῖα ὁ Ποσειδῶν ἐποίησεν, ἐπεὶ τῇ τριαίνῃ τὸν λίθον ἔπληξεν.»",
+     "glosses": [
+      {
+       "word": "μέσῃ",
+       "kind": "en",
+       "value": "μέσος, -η, -ον: middle; ἐν μέσῃ τῇ ἀκροπόλει: in the middle of the Acropolis"
+      },
+      {
+       "word": "τριαίνῃ",
+       "kind": "pic",
+       "value": "myth-triaina"
+      },
+      {
+       "word": "ἔπληξεν",
+       "kind": "|",
+       "value": "πλήττω (strike) | ἔπληξε(ν) (aorist)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λύσις ἐθαύμασεν· «ἆρα ἀληθῶς οἱ θεοὶ ἐνταῦθα ἦσαν;»",
+     "glosses": [
+      {
+       "word": "ἀληθῶς",
+       "kind": "<",
+       "value": "ἀληθής | ἀληθῶς (truly)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Κλεινίας· «ἄκουε. ἐνταῦθα ποτὲ ἔρις ἐγένετο τοῖς θεοῖς περὶ ταύτης τῆς χώρας.»",
+     "glosses": [
+      {
+       "word": "ἔρις",
+       "kind": "en",
+       "value": "strife, a quarrel (ἡ ἔρις, τῆς ἔριδος)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "myth-2-b",
+   "sentences": [
+    {
+     "text": "«Κέκροψ πρῶτος τῆς Ἀττικῆς ἐβασίλευσεν· τοῦ δὲ σώματος αὐτοῦ τὸ μὲν ἄνω ἀνδρὸς ἦν, τὸ δὲ κάτω δράκοντος.»",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "δράκοντος",
+       "kind": "pic",
+       "value": "myth-drakon"
+      },
+      {
+       "word": "κάτω",
+       "kind": "↔",
+       "value": "ἄνω (above) | κάτω (below)"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Ἐλπίς· «ἆρα δράκων ἦν ὁ βασιλεύς;» ὁ δὲ Κλεινίας· «καὶ ἀνὴρ καὶ δράκων. οὗτος τὴν χώραν ἀφ' ἑαυτοῦ Κεκροπίαν ὠνόμασεν.»",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "ὠνόμασεν",
+       "kind": "<",
+       "value": "ὄνομα (name) | ὀνομάζω (call, name) | ὠνόμασε(ν) (aorist)"
+      }
+     ]
+    },
+    {
+     "text": "«ἐπὶ δὲ τούτου ἔδοξε τοῖς θεοῖς πόλεις λαμβάνειν, ἐν αἷς ἔμελλον τιμὰς ἰδίας ἕξειν ἕκαστος.»",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "τούτου",
+       "kind": "note",
+       "value": "ἐπὶ τούτου: in his time, when he was king"
+      },
+      {
+       "word": "ἕκαστος",
+       "kind": "en",
+       "value": "each (one)"
+      }
+     ]
+    },
+    {
+     "text": "«ἧκεν οὖν πρῶτος ὁ Ποσειδῶν, καὶ τῇ τριαίνῃ πλήξας κατὰ μέσην τὴν ἀκρόπολιν θάλατταν ἀπέφηνεν.»",
+     "orig": [
+      2
+     ],
+     "glosses": [
+      {
+       "word": "ἀπέφηνεν",
+       "kind": "<",
+       "value": "ἀπό + φαίνω | ἀπέφηνε(ν) (aorist: produced, made appear)"
+      },
+      {
+       "word": "θάλατταν",
+       "kind": "note",
+       "value": "a well of salt water on the Acropolis, 'the sea of Erechtheus'"
+      }
+     ]
+    },
+    {
+     "text": "«μετὰ δὲ τοῦτον ἧκεν ἡ Ἀθηνᾶ, καὶ τὸν Κέκροπα μάρτυρα ποιησαμένη ἐλαίαν ἐφύτευσεν.»",
+     "orig": [
+      3
+     ],
+     "glosses": [
+      {
+       "word": "μάρτυρα",
+       "kind": "en",
+       "value": "witness (ὁ μάρτυς, τοῦ μάρτυρος)"
+      },
+      {
+       "word": "ποιησαμένη",
+       "kind": "note",
+       "value": "μάρτυρα ποιεῖσθαι: to take someone as one's witness (middle)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "myth-2-c",
+   "sentences": [
+    {
+     "text": "«γενομένης δὲ ἔριδος ἀμφοῖν περὶ τῆς χώρας, ὁ Ζεὺς κριτὰς ἔδωκε τοὺς δώδεκα θεούς.»",
+     "orig": [
+      4
+     ],
+     "glosses": [
+      {
+       "word": "ἀμφοῖν",
+       "kind": "|",
+       "value": "ἀμφότεροι | ἀμφοῖν (dual, genitive: between the two of them)"
+      },
+      {
+       "word": "κριτὰς",
+       "kind": "<",
+       "value": "κρίνω (judge) | ὁ κριτής (judge)"
+      },
+      {
+       "word": "δώδεκα",
+       "kind": "=",
+       "value": "δέκα + δύο (twelve)"
+      }
+     ]
+    },
+    {
+     "text": "«καὶ τούτων κρινόντων ἡ χώρα τῆς Ἀθηνᾶς ἐκρίθη· ὁ γὰρ Κέκροψ μάρτυς ἦν ὅτι πρώτη ἡ Ἀθηνᾶ τὴν ἐλαίαν ἐφύτευσεν.»",
+     "orig": [
+      5
+     ],
+     "glosses": [
+      {
+       "word": "κρινόντων",
+       "kind": "note",
+       "value": "τούτων κρινόντων: genitive absolute, 'while these were judging'"
+      },
+      {
+       "word": "ἐκρίθη",
+       "kind": "|",
+       "value": "κρίνω | ἐκρίθη (aorist passive: was judged, was awarded to)"
+      }
+     ]
+    },
+    {
+     "text": "«ἡ μὲν οὖν Ἀθηνᾶ ἀφ' ἑαυτῆς τὴν πόλιν Ἀθήνας ὠνόμασεν.»",
+     "orig": [
+      6
+     ]
+    },
+    {
+     "text": "«ὁ δὲ Ποσειδῶν θυμῷ ὀργισθεὶς τὸ Θριάσιον πεδίον τῇ θαλάττῃ ἐπέκλυσεν.»",
+     "orig": [
+      6
+     ],
+     "glosses": [
+      {
+       "word": "θυμῷ",
+       "kind": "en",
+       "value": "ὁ θυμός: spirit, temper; θυμῷ: in his fury"
+      },
+      {
+       "word": "πεδίον",
+       "kind": "en",
+       "value": "plain; τὸ Θριάσιον πεδίον: the Thriasian plain, around Eleusis"
+      },
+      {
+       "word": "ἐπέκλυσεν",
+       "kind": "en",
+       "value": "flooded (ἐπικλύζω, aorist)"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Ἐλπίς· «μέγας ἦν ὁ θυμὸς τοῦ Ποσειδῶνος. ἆρα ἔτι νῦν ὀργίζεται ἡμῖν;»"
+    },
+    {
+     "text": "ὁ δὲ Κλεινίας· «οὐκέτι· ἡμεῖς γὰρ ἀμφοτέρους τιμῶμεν. καὶ οἱ δώδεκα θεοὶ εὖ ἔκριναν· ἡ μὲν γὰρ ἐλαία τροφὴν ἡμῖν παρέχει, ἡ δὲ θάλαττα ναῦς καὶ ἀρχήν.»",
+     "glosses": [
+      {
+       "word": "εὖ",
+       "kind": "en",
+       "value": "well"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "χωρα",
+   "gloss_grc": "ἡ χώρα = ἡ γῆ, ἡ Ἀττική (land, country)"
+  },
+  {
+   "id": "κρινω",
+   "gloss_grc": "κρίνω · κρινῶ · ἔκρινα · ἐκρίθην — judge, decide"
+  },
+  {
+   "id": "κριτης",
+   "gloss_grc": "ὁ κριτής < κρίνω · οἱ δώδεκα κριταί"
+  },
+  {
+   "id": "μαρτυς",
+   "gloss_grc": "ὁ μάρτυς, τοῦ μάρτυρος · μάρτυρα ποιεῖσθαι"
+  },
+  {
+   "id": "ονομαζω",
+   "gloss_grc": "ὄνομα → ὀνομάζω · ὠνόμασα"
+  },
+  {
+   "id": "φυτευω",
+   "gloss_grc": "φυτεύω · ἐφύτευσα — plant (ἡ Ἀθηνᾶ ἐλαίαν ἐφύτευσεν)"
+  },
+  {
+   "id": "τριαινα",
+   "pic": "myth-triaina",
+   "gloss_grc": "ἡ τρίαινα, τῆς τριαίνης"
+  },
+  {
+   "id": "πληττω",
+   "gloss_grc": "πλήττω · πλήξω · ἔπληξα · ἐπλήγην — strike"
+  },
+  {
+   "id": "ερις",
+   "gloss_grc": "ἡ ἔρις, τῆς ἔριδος (acc. ἔριν) — strife, quarrel"
+  },
+  {
+   "id": "δωδεκα",
+   "gloss_grc": "δώδεκα = δέκα + δύο · οἱ δώδεκα θεοί"
+  },
+  {
+   "id": "δρακων",
+   "pic": "myth-drakon",
+   "gloss_grc": "ὁ δράκων, τοῦ δράκοντος"
+  },
+  {
+   "id": "θυμος",
+   "gloss_grc": "ὁ θυμός: spirit, anger · θυμῷ ὀργισθείς"
+  },
+  {
+   "id": "μεσος",
+   "gloss_grc": "μέσος, -η, -ον · ἐν μέσῃ τῇ ἀκροπόλει"
+  },
+  {
+   "id": "εκαστος",
+   "gloss_grc": "ἕκαστος, -η, -ον: each · ἕκαστος τῶν θεῶν"
+  }
+ ],
+ "notice": [
+  "γενομένης δὲ ἔριδος ἀμφοῖν περὶ τῆς χώρας, ὁ Ζεὺς κριτὰς ἔδωκε",
+  "τούτων κρινόντων ἡ χώρα τῆς Ἀθηνᾶς ἐκρίθη",
+  "Apollodorus: Κέκροπος μαρτυρήσαντος ὅτι πρώτη τὴν ἐλαίαν ἐφύτευσεν",
+  "Apollodorus: θάλασσαν, ἣν νῦν Ἐρεχθηίδα καλοῦσι · ἐλαίαν, ἣ νῦν ἐν τῷ Πανδροσείῳ δείκνυται",
+  "Apollodorus: ἐπὶ τούτου, φασίν, … οὐχ ὡς εἶπόν τινες, Κέκροπα καὶ Κραναόν"
+ ],
+ "grammar": {
+  "md": "**Three habits of the mythographer.** This passage shows three things Apollodorus does on every page.\n\n**1. The genitive absolute sets the scene.** A noun and a participle in the genitive, loosely attached to the sentence, tell you the circumstances before the main action:\n\n| Apollodorus | 'while / when / after …' |\n|---|---|\n| γενομένης δὲ ἔριδος ἀμφοῖν | when a quarrel arose between the two |\n| τούτων δικαζόντων | while these were judging |\n| Κέκροπος μαρτυρήσαντος | Kekrops having testified, since Kekrops testified |\n\nRule of thumb: if a genitive noun + participle comes first and is not governed by anything, it is an absolute; translate with 'when', 'while' or 'since'.\n\n**2. Myths explain what you can still see (aetiology).** A relative clause often ties the story to the present: θάλασσαν, ἣν νῦν Ἐρεχθηίδα καλοῦσι 'a sea, which they now call the Erechtheid'; ἐλαίαν, ἣ νῦν … δείκνυται 'an olive, which is shown now'. The name of the land (Κεκροπία), the city (Ἀθῆναι) and the marks in the rock are all explained by the story.\n\n**3. Other versions.** Apollodorus is a scholar: he tells you when sources disagree. φασίν 'they say'; οὐχ ὡς εἶπόν τινες … 'not, as some have said, Kekrops and Kranaos, but the twelve gods'. Watch for ὡς ἔνιοι λέγουσιν, ὡς δέ τινές φασι: you will need them in the next lessons.",
+  "paradigms": [],
+  "diagram": "diagram-gen-abs"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings.",
+   "template": "ὁ Ποσειδῶν τῇ τριαίν___ τὸν λίθον ἔπληξεν. ἡ δὲ Ἀθηνᾶ ἐλαί___ ἐφύτευσεν. γενομέν___ δὲ ἔριδος, ὁ Ζεὺς κριτ___ ἔδωκεν.",
+   "gaps": [
+    {
+     "answers": [
+      "ῃ",
+      "η"
+     ]
+    },
+    {
+     "answers": [
+      "αν"
+     ]
+    },
+    {
+     "answers": [
+      "ης"
+     ]
+    },
+    {
+     "answers": [
+      "ὰς",
+      "ας"
+     ]
+    }
+   ],
+   "skills": [
+    "noun.decl1.dat.sg",
+    "noun.decl1.acc.sg",
+    "syntax.gen-abs",
+    "noun.decl1.masc"
+   ],
+   "explain": "τῇ τριαίνῃ (dative of means); ἐλαίαν (object); γενομένης agrees with ἔριδος (genitive absolute); κριτάς: accusative plural of ὁ κριτής, a masculine first-declension noun."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἡ Ἀθηνᾶ τὸν Κέκροπα ___ ποιησαμένη ἐλαίαν ἐφύτευσεν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "κριτήν"
+    },
+    {
+     "id": "b",
+     "text": "μάρτυρα"
+    },
+    {
+     "id": "c",
+     "text": "δράκοντα"
+    }
+   ],
+   "answer": "b",
+   "audio": "ἡ Ἀθηνᾶ τὸν Κέκροπα μάρτυρα ποιησαμένη ἐλαίαν ἐφύτευσεν.",
+   "skills": [
+    "vocab.myth",
+    "vocab.recognition"
+   ],
+   "explain": "μάρτυρα ποιεῖσθαι: 'to take as a witness'."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ Ζεὺς κριτὰς ἔδωκε τοὺς ___ θεούς.",
+   "options": [
+    {
+     "id": "a",
+     "text": "δώδεκα"
+    },
+    {
+     "id": "b",
+     "text": "δύο"
+    },
+    {
+     "id": "c",
+     "text": "τρεῖς"
+    }
+   ],
+   "answer": "a",
+   "audio": "ὁ Ζεὺς κριτὰς ἔδωκε τοὺς δώδεκα θεούς.",
+   "skills": [
+    "vocab.myth",
+    "read.comprehension"
+   ],
+   "explain": "οἱ δώδεκα θεοί: the twelve Olympians."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἡ μὲν Ἀθηνᾶ τὴν πόλιν Ἀθήνας ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐφύτευσεν"
+    },
+    {
+     "id": "b",
+     "text": "ἔπληξεν"
+    },
+    {
+     "id": "c",
+     "text": "ὠνόμασεν"
+    }
+   ],
+   "answer": "c",
+   "audio": "ἡ μὲν Ἀθηνᾶ τὴν πόλιν Ἀθήνας ὠνόμασεν.",
+   "skills": [
+    "vocab.myth",
+    "verb.aor1.sigma"
+   ],
+   "explain": "ὠνόμασεν 'named': ὀνομάζω, aorist ὠνόμασα (ζ-stem → σ)."
+  },
+  {
+   "type": "match",
+   "prompt": "Match the new words to their meanings.",
+   "pairs": [
+    {
+     "left": "ἡ ἔρις",
+     "right": "strife"
+    },
+    {
+     "left": "ὁ κριτής",
+     "right": "judge"
+    },
+    {
+     "left": "ἡ τρίαινα",
+     "right": "trident"
+    },
+    {
+     "left": "φυτεύω",
+     "right": "plant"
+    },
+    {
+     "left": "πλήττω",
+     "right": "strike"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "ἔρις (-ιδος), κριτής (< κρίνω), τρίαινα (τρεῖς 'three'), φυτεύω, πλήττω (ἔπληξα)."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ἡ τρίαινα",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "myth-drakon"
+    },
+    {
+     "id": "b",
+     "image": "elaia"
+    },
+    {
+     "id": "c",
+     "image": "myth-triaina"
+    },
+    {
+     "id": "d",
+     "image": "myth-aspis"
+    }
+   ],
+   "answer": "c",
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "ἡ τρίαινα: Poseidon's trident."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of πλήττω for 'he struck'.",
+   "lemma": "πλήττω",
+   "cell": "aorist.active.indicative.3sg",
+   "audio": "ἔπληξεν",
+   "skills": [
+    "vocab.production",
+    "verb.aor1.sigma"
+   ],
+   "explain": "ἔπληξε(ν): πληγ-σ- → πληξ-, like ἔπραξα from πράττω."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist passive of κρίνω for 'it was judged'.",
+   "lemma": "κρίνω",
+   "cell": "aorist.passive.indicative.3sg",
+   "audio": "ἐκρίθη",
+   "skills": [
+    "vocab.production",
+    "verb.aor.pass.ind.3sg"
+   ],
+   "explain": "ἐκρίθη: the ν of κρίνω drops before -θη- (κρι-θη)."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the accusative singular of ἔρις (___ ἔχουσιν οἱ θεοί).",
+   "lemma": "ἔρις",
+   "cell": "acc.sg",
+   "audio": "ἔριν",
+   "skills": [
+    "noun.decl3.cons.acc.sg",
+    "vocab.myth"
+   ],
+   "explain": "ἔριν: a dental stem in -ις not accented on the last syllable takes -ιν (χάρις → χάριν); oxytones keep -ιδα (ἐλπίς → ἐλπίδα, ἀσπίς → ἀσπίδα)."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse κρινόντων.",
+   "form": "κρινόντων",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "case",
+     "label": "Case",
+     "options": [
+      {
+       "id": "nom",
+       "label": "nominative"
+      },
+      {
+       "id": "gen",
+       "label": "genitive"
+      },
+      {
+       "id": "dat",
+       "label": "dative"
+      },
+      {
+       "id": "acc",
+       "label": "accusative"
+      },
+      {
+       "id": "voc",
+       "label": "vocative"
+      }
+     ]
+    },
+    {
+     "id": "number",
+     "label": "Number",
+     "options": [
+      {
+       "id": "sg",
+       "label": "singular"
+      },
+      {
+       "id": "pl",
+       "label": "plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "pres",
+    "mood": "ptc",
+    "case": "gen",
+    "number": "pl"
+   },
+   "audio": "κρινόντων",
+   "skills": [
+    "verb.ptc.pres.act.gen",
+    "syntax.gen-abs"
+   ],
+   "explain": "κρίν-οντ-ων: present active participle, genitive plural. With τούτων it makes a genitive absolute."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse πλήξας.",
+   "form": "πλήξας",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "voice",
+     "label": "Voice",
+     "options": [
+      {
+       "id": "act",
+       "label": "active"
+      },
+      {
+       "id": "mid",
+       "label": "middle"
+      },
+      {
+       "id": "pass",
+       "label": "passive"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "voice": "act",
+    "mood": "ptc"
+   },
+   "audio": "πλήξας",
+   "skills": [
+    "verb.ptc.aor.act",
+    "read.myth.apollodorus"
+   ],
+   "explain": "πλήξ-ας: aorist active participle, masculine nominative, 'having struck'."
+  },
+  {
+   "type": "label",
+   "prompt": "γενομένης δὲ ἔριδος ἀμφοῖν περὶ τῆς χώρας, ὁ Ζεὺς κριτὰς ἔδωκε. What is γενομένης … ἔριδος?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the object of ἔδωκε"
+    },
+    {
+     "id": "b",
+     "text": "a genitive absolute: 'when a quarrel arose'"
+    },
+    {
+     "id": "c",
+     "text": "a genitive of possession with κριτάς"
+    },
+    {
+     "id": "d",
+     "text": "a partitive genitive"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "syntax.gen-abs"
+   ],
+   "explain": "Noun + participle in the genitive, not governed by any word: a genitive absolute."
+  },
+  {
+   "type": "label",
+   "prompt": "θάλασσαν, ἣν νῦν Ἐρεχθηίδα καλοῦσι. Why does Apollodorus add this clause?",
+   "options": [
+    {
+     "id": "a",
+     "text": "to tie the myth to something Athenians could still see and name"
+    },
+    {
+     "id": "b",
+     "text": "to give the purpose of Poseidon's blow"
+    },
+    {
+     "id": "c",
+     "text": "to show that the story is false"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.myth",
+    "syntax.relative-clause"
+   ],
+   "explain": "Aetiology: myths explain names and places. The salt well on the Acropolis was 'the sea of Erechtheus'."
+  },
+  {
+   "type": "label",
+   "prompt": "οὐχ ὡς εἶπόν τινες, Κέκροπα καὶ Κραναόν, … θεοὺς δὲ τοὺς δώδεκα. What is Apollodorus doing?",
+   "options": [
+    {
+     "id": "a",
+     "text": "telling a new story"
+    },
+    {
+     "id": "b",
+     "text": "correcting another version: some said the judges were Kekrops and Kranaos"
+    },
+    {
+     "id": "c",
+     "text": "quoting Zeus"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.myth.variants"
+   ],
+   "explain": "ὡς εἶπόν τινες 'as some have said': he notes a variant and rejects it."
+  },
+  {
+   "type": "transform",
+   "prompt": "Turn the genitive absolute into a clause with ἐπεί: τούτων κρινόντων ἡ χώρα τῆς Ἀθηνᾶς ἐκρίθη. → ἐπεὶ οὗτοι ___, ἡ χώρα τῆς Ἀθηνᾶς ἐκρίθη.",
+   "template": "ἐπεὶ οὗτοι ___, ἡ χώρα τῆς Ἀθηνᾶς ἐκρίθη.",
+   "gaps": [
+    {
+     "answers": [
+      "ἔκριναν",
+      "ἔκρινον"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.gen-abs",
+    "verb.aor.act.ind.3pl"
+   ],
+   "explain": "ἐπεὶ οὗτοι ἔκριναν (or ἔκρινον) 'when these judged'. The absolute packs the same clause into two words."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make it passive: ἡ Ἀθηνᾶ ἐλαίαν ἐφύτευσεν. → ἐλαία ὑπὸ τῆς Ἀθηνᾶς ___.",
+   "template": "ἐλαία ὑπὸ τῆς Ἀθηνᾶς ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἐφυτεύθη"
+     ]
+    }
+   ],
+   "audio": "ἐλαία ὑπὸ τῆς Ἀθηνᾶς ἐφυτεύθη.",
+   "skills": [
+    "syntax.agent",
+    "verb.aor.pass.ind.3sg"
+   ],
+   "explain": "ἐ-φυτεύ-θη: aorist passive, with ὑπό + genitive for the doer."
+  },
+  {
+   "type": "locate",
+   "prompt": "Apollodorus: tap the two genitive absolutes' participles.",
+   "sentence": "καὶ τούτων δικαζόντων ἡ χώρα τῆς Ἀθηνᾶς ἐκρίθη, Κέκροπος μαρτυρήσαντος ὅτι πρώτη τὴν ἐλαίαν ἐφύτευσεν.",
+   "answer": [
+    2,
+    9
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.gen-abs"
+   ],
+   "explain": "τούτων δικαζόντων 'while these were judging' and Κέκροπος μαρτυρήσαντος 'Kekrops having testified'."
+  },
+  {
+   "type": "locate",
+   "prompt": "Same sentence: tap the aorist passive verb.",
+   "sentence": "καὶ τούτων δικαζόντων ἡ χώρα τῆς Ἀθηνᾶς ἐκρίθη, Κέκροπος μαρτυρήσαντος ὅτι πρώτη τὴν ἐλαίαν ἐφύτευσεν.",
+   "answer": [
+    7
+   ],
+   "skills": [
+    "read.locate",
+    "verb.aor.pass.ind.3sg"
+   ],
+   "explain": "ἐκρίθη 'was judged' (κρίνω)."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'Poseidon struck the rock with his trident.'",
+   "tokens": [
+    "ὁ",
+    "Ποσειδῶν",
+    "τῇ",
+    "τριαίνῃ",
+    "τὸν",
+    "λίθον",
+    "ἔπληξεν"
+   ],
+   "answers": [
+    "ὁ Ποσειδῶν τῇ τριαίνῃ τὸν λίθον ἔπληξεν",
+    "ὁ Ποσειδῶν τὸν λίθον τῇ τριαίνῃ ἔπληξεν",
+    "ὁ Ποσειδῶν ἔπληξεν τὸν λίθον τῇ τριαίνῃ",
+    "ὁ Ποσειδῶν ἔπληξεν τῇ τριαίνῃ τὸν λίθον",
+    "τῇ τριαίνῃ ὁ Ποσειδῶν τὸν λίθον ἔπληξεν"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "syntax.dat.uses"
+   ],
+   "explain": "Dative of means τῇ τριαίνῃ, object τὸν λίθον."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἡ μὲν ἐλαία τροφὴν ἡμῖν παρέχει."
+    },
+    {
+     "id": "b",
+     "text": "ἡ μὲν θάλαττα τροφὴν ἡμῖν παρέχει."
+    },
+    {
+     "id": "c",
+     "text": "ἡ δὲ ἐλαία ναῦς ἡμῖν παρέχει."
+    }
+   ],
+   "answer": "a",
+   "audio": "ἡ μὲν ἐλαία τροφὴν ἡμῖν παρέχει.",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "The olive gives us food."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Ποσειδῶν πρῶτος εἰς τὴν Ἀττικὴν ἧκεν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἧκεν οὖν πρῶτος ὁ Ποσειδῶν."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Κέκροψ κριτὴς ἦν τῆς ἔριδος.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "The twelve gods were the judges; Kekrops was Athena's witness."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Ποσειδῶν ὀργισθεὶς τὸ Θριάσιον πεδίον ἐπέκλυσεν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "θυμῷ ὀργισθεὶς τὸ Θριάσιον πεδίον τῇ θαλάττῃ ἐπέκλυσεν."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "gaps": [
+    {
+     "answers": [
+      "ἡ θεὸς αὐτὴ ταύτην τὴν ἐλαίαν ἐφύτευσεν",
+      "ἡ θεὸς αὐτὴ ταύτην τὴν ἐλαίαν ἐφύτευσε"
+     ]
+    }
+   ],
+   "audio": "ἡ θεὸς αὐτὴ ταύτην τὴν ἐλαίαν ἐφύτευσεν.",
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "αὐτή without the article: 'the goddess herself'."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The twelve gods judged well.'",
+   "gaps": [
+    {
+     "answers": [
+      "οἱ δώδεκα θεοὶ εὖ ἔκριναν",
+      "οἱ δώδεκα θεοὶ ἔκριναν εὖ",
+      "εὖ ἔκριναν οἱ δώδεκα θεοί"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "vocab.myth"
+   ],
+   "explain": "ἔκριναν: liquid aorist of κρίνω (ἔκρινα)."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Athena named the city Athens.'",
+   "gaps": [
+    {
+     "answers": [
+      "ἡ Ἀθηνᾶ τὴν πόλιν Ἀθήνας ὠνόμασεν",
+      "ἡ Ἀθηνᾶ τὴν πόλιν Ἀθήνας ὠνόμασε",
+      "ἡ Ἀθηνᾶ ὠνόμασε τὴν πόλιν Ἀθήνας",
+      "ἡ Ἀθηνᾶ ὠνόμασεν τὴν πόλιν Ἀθήνας",
+      "ἡ Ἀθηνᾶ Ἀθήνας ὠνόμασε τὴν πόλιν",
+      "ἡ Ἀθηνᾶ Ἀθήνας ὠνόμασεν τὴν πόλιν"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.predicate"
+   ],
+   "explain": "ὀνομάζω takes two accusatives: the thing and its new name."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: γενομένης δὲ ἔριδος ἀμφοῖν περὶ τῆς χώρας, διαλύσας Ζεὺς κριτὰς ἔδωκεν, οὐχ ὡς εἶπόν τινες, Κέκροπα καὶ Κραναόν, οὐδὲ Ἐρυσίχθονα, θεοὺς δὲ τοὺς δώδεκα.",
+   "audio": "γενομένης δὲ ἔριδος ἀμφοῖν περὶ τῆς χώρας, διαλύσας Ζεὺς κριτὰς ἔδωκεν, οὐχ ὡς εἶπόν τινες, Κέκροπα καὶ Κραναόν, οὐδὲ Ἐρυσίχθονα, θεοὺς δὲ τοὺς δώδεκα.",
+   "model": "When a quarrel arose between the two about the land, Zeus separated them and appointed judges, not, as some have said, Kekrops and Kranaos, nor Erysichthon, but the twelve gods.",
+   "skills": [
+    "read.adapted-text",
+    "read.myth.apollodorus",
+    "read.myth.variants",
+    "syntax.gen-abs"
+   ],
+   "explain": "διαλύσας 'separating (them)'; οὐχ ὡς εἶπόν τινες: Apollodorus corrects a variant."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "ὁ κριτής",
+     "right": "critic, criterion"
+    },
+    {
+     "left": "ὁ δράκων",
+     "right": "dragon"
+    },
+    {
+     "left": "δώδεκα",
+     "right": "dodecahedron"
+    },
+    {
+     "left": "φυτεύω (τὸ φυτόν)",
+     "right": "neophyte, phytoplankton"
+    },
+    {
+     "left": "ἡ ἔρις",
+     "right": "eristic"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "κριτής 'judge'; δράκων 'serpent'; δώδεκα 'twelve'; φυτόν 'plant'; ἔρις 'strife', whence eristic 'arguing to win'."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἔδειξεν ὁ Κλεινίας τοῖς παισὶν ἐν τῇ ἀκροπόλει;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐλαίαν καὶ τρία σημεῖα ἐν λίθῳ."
+    },
+    {
+     "id": "b",
+     "text": "τὸν Κέκροπα."
+    },
+    {
+     "id": "c",
+     "text": "ναῦς καὶ τριήρεις."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension",
+    "read.myth"
+   ],
+   "explain": "ἐλαίαν τινὰ αὐτοῖς ἔδειξεν … τρία σημεῖα ἐν λίθῳ ἔδειξεν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἦν τὸ σῶμα τοῦ Κέκροπος;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὅλον ἀνδρός."
+    },
+    {
+     "id": "b",
+     "text": "τὸ μὲν ἄνω ἀνδρός, τὸ δὲ κάτω δράκοντος."
+    },
+    {
+     "id": "c",
+     "text": "ὅλον δράκοντος."
+    }
+   ],
+   "answer": "b",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "τὸ μὲν ἄνω ἀνδρὸς ἦν, τὸ δὲ κάτω δράκοντος."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐποίησεν ὁ Ποσειδῶν τῇ τριαίνῃ;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐλαίαν ἐφύτευσεν."
+    },
+    {
+     "id": "b",
+     "text": "τὸν Κέκροπα ἔπληξεν."
+    },
+    {
+     "id": "c",
+     "text": "θάλατταν ἀπέφηνεν ἐν τῇ ἀκροπόλει."
+    }
+   ],
+   "answer": "c",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "τῇ τριαίνῃ πλήξας … θάλατταν ἀπέφηνεν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίνες ἦσαν οἱ κριταί;",
+   "options": [
+    {
+     "id": "a",
+     "text": "οἱ δώδεκα θεοί."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Κέκροψ καὶ ὁ Κραναός."
+    },
+    {
+     "id": "c",
+     "text": "οἱ Ἀθηναῖοι."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὁ Ζεὺς κριτὰς ἔδωκε τοὺς δώδεκα θεούς."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί ἡ χώρα τῆς Ἀθηνᾶς ἐκρίθη;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἡ Ἀθηνᾶ γὰρ πρώτη ἧκεν."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Κέκροψ γὰρ μάρτυς ἦν ὅτι πρώτη τὴν ἐλαίαν ἐφύτευσεν."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Ποσειδῶν γὰρ οὐκ ἦλθεν."
+    }
+   ],
+   "answer": "b",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension",
+    "read.myth"
+   ],
+   "explain": "ὁ γὰρ Κέκροψ μάρτυς ἦν ὅτι πρώτη ἡ Ἀθηνᾶ τὴν ἐλαίαν ἐφύτευσεν."
+  }
+ ],
+ "culture": {
+  "title": "The contest on the Parthenon",
+  "md": "When our family climbs the Acropolis in 430, the **Parthenon** is brand new: the building was finished in 438 and its sculptures in 432. High on its **west pediment**, the first thing a visitor saw coming up through the gateway, stood the contest itself: Athena and Poseidon springing apart in the centre, the olive between them, chariots and the old kings of Attica, Kekrops among them, on either side (Pausanias 1.24.5). Most of the figures were smashed in 1687; we know the scene from drawings made in 1674 and from vase painters who copied it, such as the painter of a hydria found at Pella.\n\nThe story was not only on marble. North of the Parthenon, in the old sanctuary of Athena Polias and Erechtheus (the Erechtheion we know was begun about 421), Athenians were shown **the sacred olive**, **the salt spring** ('the sea') and **marks in the rock** said to be from Poseidon's trident. Herodotus (8.55) says the Persians burned the olive in 480, and the next day the Athenians found a new shoot a cubit long, a sign the city would live. Kleinias, who rowed at Salamis that year, would have heard the story as news.\n\nThe myth also says something the Athenians believed about themselves: the olive and the sea, farming and the fleet, both belonged to Athens.",
+  "image": "myth-culture-2"
+ },
+ "quiz": [
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of φυτεύω for 'she planted'.",
+   "lemma": "φυτεύω",
+   "cell": "aorist.active.indicative.3sg",
+   "audio": "ἐφύτευσεν",
+   "skills": [
+    "vocab.production",
+    "vocab.myth"
+   ],
+   "explain": "ἐφύτευσε(ν)."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "___ δὲ ἔριδος, ὁ Ζεὺς κριτὰς ἔδωκεν. (when a quarrel arose)",
+   "options": [
+    {
+     "id": "a",
+     "text": "γενομένης"
+    },
+    {
+     "id": "b",
+     "text": "γενομένη"
+    },
+    {
+     "id": "c",
+     "text": "γενομένην"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.gen-abs"
+   ],
+   "explain": "Genitive absolute: γενομένης agrees with ἔριδος."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ὠνόμασεν.",
+   "form": "ὠνόμασεν",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person and number",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "1st singular"
+      },
+      {
+       "id": "2sg",
+       "label": "2nd singular"
+      },
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "1pl",
+       "label": "1st plural"
+      },
+      {
+       "id": "2pl",
+       "label": "2nd plural"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "person": "3sg"
+   },
+   "audio": "ὠνόμασεν",
+   "skills": [
+    "verb.aor.act.ind.3sg",
+    "verb.augment"
+   ],
+   "explain": "ὠ-νόμασ-εν: the augment lengthens ο to ω; aorist 3rd singular."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "οἱ δώδεκα θεοὶ τὴν χώραν τῷ Ποσειδῶνι ἔκριναν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἡ χώρα τῆς Ἀθηνᾶς ἐκρίθη."
+  },
+  {
+   "type": "match",
+   "prompt": "Match the new words to their meanings.",
+   "pairs": [
+    {
+     "left": "ὁ μάρτυς",
+     "right": "witness"
+    },
+    {
+     "left": "ὁ θυμός",
+     "right": "spirit, anger"
+    },
+    {
+     "left": "μέσος",
+     "right": "middle"
+    },
+    {
+     "left": "ἕκαστος",
+     "right": "each"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "μάρτυς (-υρος), θυμός, μέσος, ἕκαστος."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Ζεὺς κριτὰς ἔδωκε τοὺς δώδεκα θεούς."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Ζεὺς κριτὴς ἦν τῶν δώδεκα θεῶν."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Κέκροψ κριτὰς ἔδωκε τοὺς δώδεκα θεούς."
+    }
+   ],
+   "answer": "a",
+   "audio": "ὁ Ζεὺς κριτὰς ἔδωκε τοὺς δώδεκα θεούς.",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "Zeus appointed the twelve gods as judges."
+  }
+ ],
+ "skills": [
+  "read.adapted-text",
+  "read.myth",
+  "read.myth.apollodorus",
+  "read.myth.variants",
+  "read.comprehension",
+  "read.locate",
+  "syntax.gen-abs",
+  "syntax.agent",
+  "verb.ptc.aor.act",
+  "verb.aor1.sigma",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family",
+  "vocab.myth"
+ ]
+}
