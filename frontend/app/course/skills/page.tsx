@@ -8,6 +8,8 @@ import { loadProgress, type Progress } from "../../../lib/progress";
 import { filterGroups, groupSkills, lastPractised, levelCounts, LEVEL_LABEL, LEVELS, matchesFilter, mistakeCount, type SkillFilter } from "../../../lib/skills";
 import styles from "./skills.module.css";
 
+const LESSONS_SHOWN = 8;
+
 const FILTERS: { id: SkillFilter; label: string }[] = [
   { id: "all", label: "All" },
   { id: "met", label: "Met" },
@@ -129,7 +131,7 @@ export default function SkillsPage() {
             </div>
             {open && (
               <div ref={panelRef}>
-                <SkillPanel skill={g.skills.find((s) => s.id === open)!} state={states[open]} detail={details[open]} now={now} onClose={() => setSelected(null)} />
+                <SkillPanel key={open} skill={g.skills.find((s) => s.id === open)!} state={states[open]} detail={details[open]} now={now} onClose={() => setSelected(null)} />
               </div>
             )}
           </section>
@@ -145,6 +147,8 @@ function SkillPanel({ skill, state, detail, now, onClose }: { skill: Skill; stat
   const lv: SkillLevel = skillLevel(state);
   const d = detail && detail !== "error" ? detail : null;
   const paradigm = d?.paradigm ?? skill.paradigm ?? null;
+  const [allLessons, setAllLessons] = useState(false);
+  const lessons = d ? (allLessons ? d.lessons : d.lessons.slice(0, LESSONS_SHOWN)) : [];
   return (
     <div id="skill-detail" className={styles.detail} role="region" aria-label={skill.label}>
       <div className={styles.detailTop}>
@@ -172,7 +176,7 @@ function SkillPanel({ skill, state, detail, now, onClose }: { skill: Skill; stat
       {d && d.lessons.length === 0 && <p className="muted">No authored lesson lists this skill yet.</p>}
       {d && d.lessons.length > 0 && (
         <ul className={styles.lessons}>
-          {d.lessons.map((l) => (
+          {lessons.map((l) => (
             <li key={l.id}>
               <Link href={`/course/lesson/${encodeURIComponent(l.id)}`}>
                 <span className={styles.lessonId}>{l.id}</span>
@@ -181,6 +185,11 @@ function SkillPanel({ skill, state, detail, now, onClose }: { skill: Skill; stat
             </li>
           ))}
         </ul>
+      )}
+      {d && d.lessons.length > LESSONS_SHOWN && (
+        <button type="button" className={styles.more} aria-expanded={allLessons} onClick={() => setAllLessons(!allLessons)}>
+          {allLessons ? "Show fewer" : `Show all ${d.lessons.length} lessons`}
+        </button>
       )}
 
       <div className={styles.actions}>

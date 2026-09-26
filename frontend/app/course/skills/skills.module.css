@@ -1,13 +1,6 @@
 /* Skills grid (/course/skills) and the mistakes-deck bits of /course/review.
    Colours come from the tokens in app/globals.css. */
 
-/* ---- levels (cells and legend swatches) */
-.unseen { background: var(--card); border-color: var(--line-strong); border-style: dashed; }
-.weak { background: color-mix(in srgb, var(--error) 22%, var(--card)); border-color: var(--error); }
-.learning { background: var(--accent-2); border-color: var(--sage); }
-.strong { background: var(--sage); border-color: var(--sage); }
-.mastered { background: var(--accent); border-color: var(--accent); color: #fff; }
-
 /* ---- summary / legend */
 .summary { padding: 16px 18px; }
 .legend { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px 16px; }
@@ -45,6 +38,14 @@
 .cell:hover { outline: 2px solid var(--line-strong); outline-offset: 1px; }
 .cell:focus-visible, .cell.selected { outline: 2px solid var(--ink); outline-offset: 2px; }
 
+/* ---- levels (cells and legend swatches); after .cell / .swatch so the
+   colours win over their border shorthand */
+.unseen { background: var(--card); border-color: var(--line-strong); }
+.weak { background: color-mix(in srgb, var(--error) 22%, var(--card)); border-color: var(--error); }
+.learning { background: var(--accent-2); border-color: var(--sage); }
+.strong { background: var(--sage); border-color: var(--sage); }
+.mastered { background: var(--accent); border-color: var(--accent); color: #fff; }
+
 /* ---- detail panel */
 .detail { margin-top: 14px; padding: 18px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); }
 .detailTop { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
@@ -71,6 +72,8 @@
 .lessonTitle { display: grid; gap: 1px; min-width: 0; }
 .lessonTitle [lang="grc"] { font-size: 16px; }
 .lessonEn { font-size: 13px; color: var(--muted); }
+.more { min-height: 40px; margin-top: 6px; padding: 0 12px; background: transparent; border: 1px solid var(--line); color: var(--accent); font-size: 14px; font-weight: 500; }
+.more:hover { border-color: var(--accent); }
 .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
 
 /* ---- /course/review */
