@@ -2462,6 +2462,164 @@
   ]
  },
  {
+  "lemma": "πληγή",
+  "headword": "πληγή, πληγῆς, ἡ",
+  "definition": "blow, stroke (< πλήττω)",
+  "short": "blow",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "πληγῆς",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "πλήττω 'strike'"
+   ],
+   "derivatives": [
+    "plague (Latin plaga 'blow')"
+   ]
+  }
+ },
+ {
+  "lemma": "κόρυς",
+  "headword": "κόρυς, κόρυθος, ἡ",
+  "definition": "helmet (poetic and later prose; Attic prose says κράνος)",
+  "short": "helmet",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "κόρυθος",
+   "gender": "f",
+   "article": "ἡ",
+   "table": {
+    "kind": "noun",
+    "gender": "f",
+    "cells": [
+     {
+      "case": "nom",
+      "number": "sg",
+      "forms": [
+       "κόρυς"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "sg",
+      "forms": [
+       "κόρυθος"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "sg",
+      "forms": [
+       "κόρυθι"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "sg",
+      "forms": [
+       "κόρυθα",
+       "κόρυν"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "sg",
+      "forms": [
+       "κόρυς"
+      ]
+     },
+     {
+      "case": "nom",
+      "number": "pl",
+      "forms": [
+       "κόρυθες"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "pl",
+      "forms": [
+       "κορύθων"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "pl",
+      "forms": [
+       "κόρυσι(ν)"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "pl",
+      "forms": [
+       "κόρυθας"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "pl",
+      "forms": [
+       "κόρυθες"
+      ]
+     }
+    ]
+   }
+  },
+  "topics": [
+   "mythology"
+  ]
+ },
+ {
+  "lemma": "ἐγγυάω",
+  "headword": "ἐγγυάω, ἐγγυήσω, ἠγγύησα",
+  "definition": "pledge, give (a daughter) in marriage, betroth; (middle) receive as a bride",
+  "short": "betroth",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: contract",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐγγυάω"
+    ],
+    "future": [
+     "ἐγγυήσω"
+    ],
+    "aorist": [
+     "ἠγγύησα"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἐγγυάω",
+    "ἐγγυήσω",
+    "ἠγγύησα"
+   ],
+   "verb": {
+    "compound": false
+   }
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "ἡ ἐγγύη 'pledge' (the Athenian betrothal)"
+   ]
+  }
+ },
+ {
   "lemma": "κρανίον",
   "headword": "κρανίον, κρανίου, τό",
   "definition": "skull, the top of the head",

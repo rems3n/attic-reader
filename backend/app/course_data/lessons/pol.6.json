@@ -1,0 +1,1405 @@
+{
+  "id": "pol.6",
+  "title_grc": "οἱ τριάκοντα",
+  "title_en": "The Thirty",
+  "summary_grc": "οἱ τριάκοντα τοὺς μετοίκους συλλαμβάνουσιν, ἵνα τὰ χρήματα αὐτῶν λαμβάνωσιν· ὁ δὲ Λυσίας τὰ γενόμενα διηγεῖται.",
+  "summary_en": "404 BC: Sparta has won the war and thirty oligarchs rule Athens. Lysias, son of the metic Kephalos whom Pericles invited to Athens, tells how the Thirty decided to arrest ten rich metics for their money, and came for him while he was giving a dinner. His own words, lightly cut.",
+  "cover": "pol-6-a",
+  "caption_grc": "τιμωρεῖσθαι μὲν δοκεῖν, τῷ δ’ ἔργῳ χρηματίζεσθαι.",
+  "original": {
+    "text": "lysias-12.4",
+    "note": "Lysias 12, Against Eratosthenes, sections 4 and 6–8, lightly cut (the end of 12.4 and of 12.7 are left out); delivered by Lysias himself in 403 BC, the one speech we have that he spoke in person, prosecuting one of the Thirty for the death of his brother. The Perseus text prints ἔργω and πολιτεία without iota subscript; the story restores them."
+  },
+  "names": {
+    "Ἐρατοσθένης": [
+      "Ἐρατοσθένους",
+      "Ἐρατοσθένει",
+      "Ἐρατοσθένη"
+    ],
+    "Πολέμαρχος": [
+      "Πολεμάρχου",
+      "Πολεμάρχῳ",
+      "Πολέμαρχον"
+    ],
+    "Κέφαλος": [
+      "Κεφάλου",
+      "Κεφάλῳ",
+      "Κέφαλον"
+    ],
+    "Θέογνις": [
+      "Θεόγνιδος",
+      "Θεόγνιδι",
+      "Θέογνιν"
+    ],
+    "Πείσων": [
+      "Πείσωνος",
+      "Πείσωνι",
+      "Πείσωνα"
+    ],
+    "Μέγαρα": [
+      "Μεγάρων",
+      "Μεγάροις"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "pol-6-a",
+      "sentences": [
+        {
+          "text": "μετὰ δὲ τὸν μέγαν πόλεμον, ὅτε οἱ Λακεδαιμόνιοι ἐνίκησαν, τριάκοντα ἄνδρες τῆς πόλεως ἦρχον, καὶ ὀλιγαρχίαν ἀντὶ τῆς δημοκρατίας κατέστησαν.",
+          "glosses": [
+            {
+              "word": "ὀλιγαρχίαν",
+              "kind": "<",
+              "value": "ὀλίγος + ἄρχω | ἡ ὀλιγαρχία (rule of the few) ↔ ἡ δημοκρατία"
+            }
+          ]
+        },
+        {
+          "text": "πρῶτον μὲν τοὺς συκοφάντας ἀπέκτειναν, ἔπειτα δὲ καὶ πολλοὺς τῶν πλουσίων, ἵνα τὰ χρήματα αὐτῶν λαμβάνωσιν.",
+          "glosses": [
+            {
+              "word": "συκοφάντας",
+              "kind": "en",
+              "value": "informers (ὁ συκοφάντης): men who prosecuted others for profit or blackmail"
+            },
+            {
+              "word": "ἀπέκτειναν",
+              "kind": "|",
+              "value": "ἀποκτείνω (kill) | ἀπέκτειναν (aorist)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ Λυσίας, μέτοικος ὤν, ὕστερον Ἐρατοσθένους κατηγόρησεν, ἑνὸς τῶν τριάκοντα, ὃς τὸν ἀδελφὸν αὐτοῦ Πολέμαρχον ἀπέκτεινεν."
+        },
+        {
+          "text": "καὶ οὕτως ἄρχεται·"
+        },
+        {
+          "text": "«οὑμὸς πατὴρ Κέφαλος ἐπείσθη μὲν ὑπὸ Περικλέους εἰς ταύτην τὴν γῆν ἀφικέσθαι, ἔτη δὲ τριάκοντα ᾤκησε, καὶ οὐδενὶ πώποτε οὔτε ἡμεῖς οὔτε ἐκεῖνος δίκην οὔτε ἐδικασάμεθα οὔτε ἐφύγομεν.",
+          "orig": [
+            0
+          ],
+          "glosses": [
+            {
+              "word": "οὑμὸς",
+              "kind": "=",
+              "value": "ὁ ἐμός (crasis)"
+            },
+            {
+              "word": "ἐπείσθη",
+              "kind": "|",
+              "value": "πείθω | ἐπείσθη (aorist passive: was persuaded)"
+            },
+            {
+              "word": "πώποτε",
+              "kind": "en",
+              "value": "ever yet (with a negative: never)"
+            },
+            {
+              "word": "οὔτε",
+              "kind": "en",
+              "value": "οὔτε … οὔτε: neither … nor"
+            },
+            {
+              "word": "ἐδικασάμεθα",
+              "kind": "note",
+              "value": "δίκην δικάζεσθαι (middle): to bring a lawsuit; δίκην φεύγειν: to be sued. 'We never sued anyone or were sued'"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "pol-6-b",
+      "sentences": [
+        {
+          "text": "Θέογνις γὰρ καὶ Πείσων ἔλεγον ἐν τοῖς τριάκοντα περὶ τῶν μετοίκων, ὡς εἶέν τινες τῇ πολιτείᾳ ἀχθόμενοι·",
+          "orig": [
+            1
+          ],
+          "glosses": [
+            {
+              "word": "ἀχθόμενοι",
+              "kind": "en",
+              "value": "annoyed with, hostile to (ἄχθομαι + dative)"
+            }
+          ]
+        },
+        {
+          "text": "καλλίστην οὖν εἶναι πρόφασιν τιμωρεῖσθαι μὲν δοκεῖν, τῷ δ’ ἔργῳ χρηματίζεσθαι·",
+          "orig": [
+            2
+          ],
+          "glosses": [
+            {
+              "word": "πρόφασιν",
+              "kind": "en",
+              "value": "pretext (ἡ πρόφασις)"
+            },
+            {
+              "word": "τιμωρεῖσθαι",
+              "kind": "|",
+              "value": "τιμωρέω | τιμωροῦμαι (middle: punish, take vengeance)"
+            },
+            {
+              "word": "ἔργῳ",
+              "kind": "note",
+              "value": "δοκεῖν μέν … τῷ δ’ ἔργῳ: to seem to … but in fact to …"
+            },
+            {
+              "word": "χρηματίζεσθαι",
+              "kind": "<",
+              "value": "χρῆμα | χρηματίζομαι (make money)"
+            }
+          ]
+        },
+        {
+          "text": "πάντως δὲ τὴν μὲν πόλιν πένεσθαι τὴν δ’ ἀρχὴν δεῖσθαι χρημάτων.",
+          "orig": [
+            3
+          ],
+          "glosses": [
+            {
+              "word": "πάντως",
+              "kind": "<",
+              "value": "πᾶς | πάντως (in any case)"
+            },
+            {
+              "word": "πένεσθαι",
+              "kind": "<",
+              "value": "πένης | πένομαι (be poor)"
+            },
+            {
+              "word": "ἀρχὴν",
+              "kind": "note",
+              "value": "τὴν ἀρχήν: the government, i.e. the Thirty themselves"
+            }
+          ]
+        },
+        {
+          "text": "καὶ τοὺς ἀκούοντας οὐ χαλεπῶς ἔπειθον·",
+          "orig": [
+            4
+          ]
+        },
+        {
+          "text": "ἀποκτιννύναι μὲν γὰρ ἀνθρώπους περὶ οὐδενὸς ἡγοῦντο, λαμβάνειν δὲ χρήματα περὶ πολλοῦ ἐποιοῦντο.",
+          "orig": [
+            5
+          ],
+          "glosses": [
+            {
+              "word": "ἀποκτιννύναι",
+              "kind": "=",
+              "value": "ἀποκτείνειν (a -νυμι form of the same verb)"
+            },
+            {
+              "word": "ἡγοῦντο",
+              "kind": "note",
+              "value": "περὶ οὐδενὸς ἡγεῖσθαι: to think of no importance; περὶ πολλοῦ ποιεῖσθαι: to think very important"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "pol-6-c",
+      "sentences": [
+        {
+          "text": "ἔδοξεν οὖν αὐτοῖς δέκα συλλαβεῖν, τούτων δὲ δύο πένητας, ἵνα αὐτοῖς ᾖ πρὸς τοὺς ἄλλους ἀπολογία, ὡς οὐ χρημάτων ἕνεκα ταῦτα πέπρακται, ἀλλὰ συμφέροντα τῇ πολιτείᾳ γεγένηται.",
+          "orig": [
+            6
+          ],
+          "glosses": [
+            {
+              "word": "συλλαβεῖν",
+              "kind": "<",
+              "value": "σύν + λαμβάνω | συλλαμβάνω (arrest) | συλλαβεῖν"
+            },
+            {
+              "word": "ἀπολογία",
+              "kind": "en",
+              "value": "a defence, an excuse (ἡ ἀπολογία)"
+            },
+            {
+              "word": "συμφέροντα",
+              "kind": "<",
+              "value": "συμφέρω (be useful) | τὰ συμφέροντα (things good for)"
+            }
+          ]
+        },
+        {
+          "text": "διαλαβόντες δὲ τὰς οἰκίας ἐβάδιζον·",
+          "orig": [
+            7
+          ],
+          "glosses": [
+            {
+              "word": "διαλαβόντες",
+              "kind": "note",
+              "value": "διαλαμβάνω: divide among themselves; 'having shared out the houses'"
+            },
+            {
+              "word": "ἐβάδιζον",
+              "kind": "en",
+              "value": "they went, walked (βαδίζω)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ ἐμὲ μὲν ξένους ἑστιῶντα κατέλαβον, οὓς ἐξελάσαντες Πείσωνί με παραδιδόασιν·",
+          "orig": [
+            8
+          ],
+          "glosses": [
+            {
+              "word": "ἑστιῶντα",
+              "kind": "en",
+              "value": "entertaining at dinner (ἑστιάω)"
+            },
+            {
+              "word": "κατέλαβον",
+              "kind": "<",
+              "value": "κατά + λαμβάνω | κατέλαβον (they caught, found)"
+            }
+          ]
+        },
+        {
+          "text": "οἱ δὲ ἄλλοι εἰς τὸ ἐργαστήριον ἐλθόντες τὰ ἀνδράποδα ἀπεγράφοντο.»",
+          "orig": [
+            9
+          ],
+          "glosses": [
+            {
+              "word": "ἐργαστήριον",
+              "kind": "note",
+              "value": "the family's shield factory in Piraeus, with 120 slaves"
+            },
+            {
+              "word": "ἀνδράποδα",
+              "kind": "en",
+              "value": "slaves (τὸ ἀνδράποδον), counted as property"
+            },
+            {
+              "word": "ἀπεγράφοντο",
+              "kind": "en",
+              "value": "listed, made an inventory of (ἀπογράφομαι)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ μὲν οὖν Λυσίας ἔφυγεν εἰς Μέγαρα, ὁ δὲ Πολέμαρχος ἀπέθανεν· οἱ δὲ τριάκοντα πολλὰ τάλαντα ἔλαβον.",
+          "glosses": [
+            {
+              "word": "τάλαντα",
+              "kind": "en",
+              "value": "talents (τὸ τάλαντον): a talent was 6,000 drachmas"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "ολιγαρχια",
+      "gloss_grc": "ἡ ὀλιγαρχία < ὀλίγος + ἄρχω ↔ ἡ δημοκρατία"
+    },
+    {
+      "id": "συκοφαντης",
+      "gloss_grc": "ὁ συκοφάντης: informer, blackmailer"
+    },
+    {
+      "id": "αποκτεινω",
+      "gloss_grc": "ἀποκτείνω · ἀποκτενῶ · ἀπέκτεινα"
+    },
+    {
+      "id": "προφασις",
+      "gloss_grc": "ἡ πρόφασις, τῆς προφάσεως: pretext"
+    },
+    {
+      "id": "τιμωρεω",
+      "gloss_grc": "τιμωρέω · τιμωροῦμαι: punish"
+    },
+    {
+      "id": "συλλαμβανω",
+      "gloss_grc": "συλλαμβάνω · συνέλαβον: arrest"
+    },
+    {
+      "id": "απολογια",
+      "gloss_grc": "ἡ ἀπολογία: defence"
+    },
+    {
+      "id": "ανδραποδον",
+      "gloss_grc": "τὸ ἀνδράποδον: slave (as property)"
+    },
+    {
+      "id": "ταλαντον",
+      "gloss_grc": "τὸ τάλαντον = 6000 δραχμαί"
+    },
+    {
+      "id": "ενεκα",
+      "gloss_grc": "ἕνεκα + gen. (after its noun): for the sake of · χρημάτων ἕνεκα"
+    },
+    {
+      "id": "συμφερω",
+      "gloss_grc": "συμφέρει + dat.: it is useful to · τὸ συμφέρον"
+    },
+    {
+      "id": "καταλαμβανω",
+      "gloss_grc": "καταλαμβάνω · κατέλαβον: catch, find"
+    }
+  ],
+  "notice": [
+    "ἔλεγον … περὶ τῶν μετοίκων, ὡς εἶέν τινες τῇ πολιτείᾳ ἀχθόμενοι",
+    "καλλίστην οὖν εἶναι πρόφασιν τιμωρεῖσθαι μὲν δοκεῖν, τῷ δ’ ἔργῳ χρηματίζεσθαι",
+    "ἀποκτιννύναι μὲν … περὶ οὐδενὸς ἡγοῦντο, λαμβάνειν δὲ χρήματα περὶ πολλοῦ ἐποιοῦντο",
+    "ἵνα αὐτοῖς ᾖ … ἀπολογία, ὡς οὐ χρημάτων ἕνεκα ταῦτα πέπρακται",
+    "καὶ ἐμὲ μὲν ξένους ἑστιῶντα κατέλαβον"
+  ],
+  "grammar": {
+    "md": "**Reading Lysias: narrative.** The *Against Eratosthenes* tells a story, and Lysias' narrative moves on three kinds of verb.\n\n**1. Reported thought and speech.** What the Thirty said among themselves comes first with ὡς + optative (ὡς **εἶέν** τινες … ἀχθόμενοι), then runs on in the **infinitive** for two more sentences without a new verb of saying: καλλίστην οὖν **εἶναι** πρόφασιν …; πάντως δὲ τὴν μὲν πόλιν **πένεσθαι**, τὴν δ’ ἀρχὴν **δεῖσθαι** χρημάτων. Read each infinitive as '(they said that) …'.\n\n**2. Imperfect, aorist, historic present.** ἔπειθον 'they went about persuading', ἐβάδιζον 'they set off' (imperfects: the scene unfolds); ἔδοξεν, κατέλαβον (aorists: single events); then a sudden **historic present**, παραδιδόασιν 'they hand me over', at the moment of danger.\n\n**3. Value and contrast.** περὶ οὐδενὸς ἡγεῖσθαι 'to think of no account' ↔ περὶ πολλοῦ ποιεῖσθαι 'to value highly' (genitive of value); δοκεῖν μέν … τῷ δ’ ἔργῳ 'to seem … but in fact'. Lysias lets the Thirty condemn themselves by their own logic.\n\n**Also:** crasis οὑμός = ὁ ἐμός; οὔτε … οὔτε 'neither … nor' after an earlier negative (οὐδενὶ πώποτε … οὔτε … οὔτε: Greek negatives pile up and do not cancel); ἀποκτιννύναι, an Attic -νυμι present of ἀποκτείνω.",
+    "paradigms": [
+      "eimi",
+      "polis"
+    ],
+    "diagram": "diagram-indirect"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings.",
+      "template": "ἔλεγον περὶ τῶν μετοίκ___. ἔδοξεν αὐτοῖς δύο πένητ___ συλλαβεῖν. τὰ ἀνδράποδ___ ἀπεγράφοντο. διαλαβόντες τὰς οἰκί___ ἐβάδιζον.",
+      "gaps": [
+        {
+          "answers": [
+            "ων"
+          ]
+        },
+        {
+          "answers": [
+            "ας"
+          ]
+        },
+        {
+          "answers": [
+            "α"
+          ]
+        },
+        {
+          "answers": [
+            "ας",
+            "ὰς"
+          ]
+        }
+      ],
+      "skills": [
+        "noun.decl2.gen.pl",
+        "noun.decl3.cons.pl",
+        "noun.decl2.neuter",
+        "noun.decl1.acc.pl"
+      ],
+      "explain": "περὶ τῶν μετοίκων (gen. pl.), δύο πένητας (3rd-declension acc. pl.), τὰ ἀνδράποδα (neuter pl.), τὰς οἰκίας (acc. pl.)."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · Θέογνις καὶ Πείσων ἔλεγον ὡς ___ τινες τῇ πολιτείᾳ ἀχθόμενοι.",
+      "options": [
+        {
+          "id": "a",
+          "text": "εἶεν"
+        },
+        {
+          "id": "b",
+          "text": "εἰσί"
+        },
+        {
+          "id": "c",
+          "text": "ὦσι"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-indirect"
+      ],
+      "explain": "After a past verb of saying (ἔλεγον), ὡς + optative reports their claim: 'that there were some (metics) hostile to the regime'.",
+      "audio": "Θέογνις καὶ Πείσων ἔλεγον ὡς εἶέν τινες τῇ πολιτείᾳ ἀχθόμενοι."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ἔδοξεν οὖν αὐτοῖς δέκα ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "συλλαβεῖν"
+        },
+        {
+          "id": "b",
+          "text": "συλλαμβάνουσι"
+        },
+        {
+          "id": "c",
+          "text": "συνέλαβον"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.infinitive",
+        "verb.aor2.stem"
+      ],
+      "explain": "ἔδοξεν αὐτοῖς + infinitive: 'they decided (it seemed good to them) to arrest ten'.",
+      "audio": "ἔδοξεν οὖν αὐτοῖς δέκα συλλαβεῖν."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · λαμβάνειν δὲ χρήματα περὶ ___ ἐποιοῦντο.",
+      "options": [
+        {
+          "id": "a",
+          "text": "πολλοῦ"
+        },
+        {
+          "id": "b",
+          "text": "πολύ"
+        },
+        {
+          "id": "c",
+          "text": "πολλῷ"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.gen.uses",
+        "read.pol.oratory"
+      ],
+      "explain": "περὶ πολλοῦ ποιεῖσθαι 'to consider of great importance'; περὶ οὐδενὸς ἡγεῖσθαι 'to consider of no importance': genitive of value.",
+      "audio": "λαμβάνειν δὲ χρήματα περὶ πολλοῦ ἐποιοῦντο."
+    },
+    {
+      "type": "pick-picture",
+      "prompt": "ἐργαστήριον ἐν ᾧ ἀσπίδας καὶ κράνη ποιοῦσιν.",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "image": "pol-shield-workshop"
+        },
+        {
+          "id": "b",
+          "image": "dikasterion"
+        },
+        {
+          "id": "c",
+          "image": "agora"
+        },
+        {
+          "id": "d",
+          "image": "ekklesia"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences",
+        "read.comprehension"
+      ],
+      "explain": "Kephalos' family ran a shield workshop in Piraeus, one of the biggest businesses in Athens."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἡ ὀλιγαρχία"
+        },
+        {
+          "id": "b",
+          "text": "ἡ δημοκρατία"
+        },
+        {
+          "id": "c",
+          "text": "ἡ ἀπολογία"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.pol"
+      ],
+      "explain": "ἡ ὀλιγαρχία: the rule of the few.",
+      "audio": "ἡ ὀλιγαρχία"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist infinitive of συλλαμβάνω.",
+      "lemma": "συλλαμβάνω",
+      "cell": "aorist.active.infinitive.inf",
+      "skills": [
+        "verb.aor.act.inf",
+        "verb.aor2.stem"
+      ],
+      "explain": "συλλαβεῖν: second aorist infinitive (λαβεῖν) with the prefix συλ-.",
+      "audio": "συλλαβεῖν"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the accusative singular of πρόφασις.",
+      "lemma": "πρόφασις",
+      "cell": "acc.sg",
+      "skills": [
+        "noun.decl3.iota",
+        "vocab.pol"
+      ],
+      "explain": "τὴν πρόφασιν, like τὴν πόλιν.",
+      "audio": "τὴν πρόφασιν"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the present middle infinitive of τιμωρέω: 'to punish'.",
+      "lemma": "τιμωρέω",
+      "cell": "present.middle/passive.infinitive.inf",
+      "skills": [
+        "verb.contract.e",
+        "verb.middle-meaning"
+      ],
+      "explain": "τιμωρεῖσθαι: middle, 'to take vengeance on, punish'.",
+      "audio": "τιμωρεῖσθαι"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse εἶεν.",
+      "form": "εἶεν",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "pres",
+        "mood": "opt",
+        "person": "3pl"
+      },
+      "skills": [
+        "syntax.opt-indirect",
+        "verb.pres.act.opt.3pl"
+      ],
+      "explain": "εἶεν: present optative of εἰμί, 3rd plural, in reported speech after ἔλεγον.",
+      "audio": "εἶεν"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse πέπρακται.",
+      "form": "πέπρακται",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "voice",
+          "label": "Voice",
+          "options": [
+            {
+              "id": "act",
+              "label": "active"
+            },
+            {
+              "id": "mid",
+              "label": "middle"
+            },
+            {
+              "id": "pass",
+              "label": "passive"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "perf",
+        "voice": "pass",
+        "person": "3sg"
+      },
+      "skills": [
+        "verb.perf.mp.ind.3sg",
+        "verb.neuter-plural"
+      ],
+      "explain": "πέπρακται: perfect passive of πράττω, 3rd singular with a neuter plural subject (ταῦτα): 'these things have been done'.",
+      "audio": "πέπρακται"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "τιμωρεῖσθαι μὲν δοκεῖν, τῷ δ’ ἔργῳ χρηματίζεσθαι: the contrast is between …",
+      "options": [
+        {
+          "id": "a",
+          "text": "seeming and reality"
+        },
+        {
+          "id": "b",
+          "text": "words and silence"
+        },
+        {
+          "id": "c",
+          "text": "the past and the future"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.men-de",
+        "read.pol.oratory"
+      ],
+      "explain": "δοκεῖν μέν … ἔργῳ δέ: 'to seem to punish, but in fact to make money'. A favourite contrast of Greek writers."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἔδοξεν αὐτοῖς … τούτων δὲ δύο πένητας. Why include two poor men?",
+      "options": [
+        {
+          "id": "a",
+          "text": "so that they could claim they were not after money"
+        },
+        {
+          "id": "b",
+          "text": "because the poor had more money"
+        },
+        {
+          "id": "c",
+          "text": "because the law demanded it"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "read.pol.oratory"
+      ],
+      "explain": "ἵνα αὐτοῖς ᾖ … ἀπολογία, ὡς οὐ χρημάτων ἕνεκα ταῦτα πέπρακται."
+    },
+    {
+      "type": "label",
+      "prompt": "ὡς εἶέν τινες τῇ πολιτείᾳ ἀχθόμενοι. Why optative?",
+      "options": [
+        {
+          "id": "a",
+          "text": "reported speech after a past verb (ἔλεγον)"
+        },
+        {
+          "id": "b",
+          "text": "a wish"
+        },
+        {
+          "id": "c",
+          "text": "potential, with ἄν understood"
+        },
+        {
+          "id": "d",
+          "text": "purpose"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-indirect"
+      ],
+      "explain": "Their actual words were εἰσί τινες …; after ἔλεγον the verb may become optative."
+    },
+    {
+      "type": "label",
+      "prompt": "καλλίστην οὖν εἶναι πρόφασιν … What does the infinitive εἶναι depend on?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἔλεγον in the sentence before: it continues the reported speech"
+        },
+        {
+          "id": "b",
+          "text": "δοκεῖν"
+        },
+        {
+          "id": "c",
+          "text": "nothing: it is a command"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.indirect-inf",
+        "read.pol.oratory"
+      ],
+      "explain": "Reported speech can run on in the infinitive for several sentences: '(they said that) it was an excellent pretext …'."
+    },
+    {
+      "type": "transform",
+      "prompt": "Put the Thirty's words into direct speech: ὡς εἶέν τινες τῇ πολιτείᾳ ἀχθόμενοι → «___ τινες τῇ πολιτείᾳ ἀχθόμενοι.»",
+      "template": "«___ τινες τῇ πολιτείᾳ ἀχθόμενοι.»",
+      "gaps": [
+        {
+          "answers": [
+            "εἰσί",
+            "εἰσίν",
+            "εἰσι"
+          ]
+        }
+      ],
+      "skills": [
+        "syntax.opt-indirect",
+        "verb.eimi.pres.ind.3pl"
+      ],
+      "explain": "εἰσί(ν): 'there are some who are hostile to the regime'."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the two perfect passive verbs.",
+      "sentence": "ἔδοξεν οὖν αὐτοῖς δέκα συλλαβεῖν, τούτων δὲ δύο πένητας, ἵνα αὐτοῖς ᾖ πρὸς τοὺς ἄλλους ἀπολογία, ὡς οὐ χρημάτων ἕνεκα ταῦτα πέπρακται, ἀλλὰ συμφέροντα τῇ πολιτείᾳ γεγένηται.",
+      "answer": [
+        21,
+        26
+      ],
+      "skills": [
+        "read.locate",
+        "verb.perf.mp.ind.3sg"
+      ],
+      "explain": "πέπρακται (πράττω) and γεγένηται (γίγνομαι): 'these things have not been done for money, but have happened for the good of the state'."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the participle that describes what Lysias was doing when they caught him.",
+      "sentence": "καὶ ἐμὲ μὲν ξένους ἑστιῶντα κατέλαβον, οὓς ἐξελάσαντες Πείσωνί με παραδιδόασιν·",
+      "answer": [
+        4
+      ],
+      "skills": [
+        "read.locate",
+        "verb.ptc.pres.act"
+      ],
+      "explain": "ἑστιῶντα 'entertaining': present participle, accusative, agreeing with ἐμέ."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'The Thirty arrested ten metics.'",
+      "tokens": [
+        "οἱ",
+        "τριάκοντα",
+        "δέκα",
+        "μετοίκους",
+        "συνέλαβον"
+      ],
+      "answers": [
+        "οἱ τριάκοντα δέκα μετοίκους συνέλαβον",
+        "οἱ τριάκοντα συνέλαβον δέκα μετοίκους",
+        "δέκα μετοίκους οἱ τριάκοντα συνέλαβον",
+        "δέκα μετοίκους συνέλαβον οἱ τριάκοντα"
+      ],
+      "skills": [
+        "syntax.word-order",
+        "vocab.production"
+      ],
+      "explain": "συνέλαβον: aorist of συλλαμβάνω, with the augment after the prefix (and συλ- back to συν-)."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "διαλαβόντες δὲ τὰς οἰκίας ἐβάδιζον."
+        },
+        {
+          "id": "b",
+          "text": "λαβόντες δὲ τὰς ἀσπίδας ἐμάχοντο."
+        },
+        {
+          "id": "c",
+          "text": "διαλαβόντες δὲ τὰ χρήματα ἀπῆλθον."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "They shared out the houses and set off.",
+      "audio": "διαλαβόντες δὲ τὰς οἰκίας ἐβάδιζον."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Κέφαλος ὑπὸ τοῦ Περικλέους ἐπείσθη εἰς Ἀθήνας ἀφικέσθαι.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἐπείσθη μὲν ὑπὸ Περικλέους εἰς ταύτην τὴν γῆν ἀφικέσθαι."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Κέφαλος πολλὰς δίκας ἔφυγεν.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "οὐδενὶ πώποτε … δίκην οὔτε ἐδικασάμεθα οὔτε ἐφύγομεν."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "οἱ τριάκοντα τὸν Λυσίαν ξένους ἑστιῶντα κατέλαβον.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἐμὲ μὲν ξένους ἑστιῶντα κατέλαβον."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "gaps": [
+        {
+          "answers": [
+            "ἔδοξεν οὖν αὐτοῖς δέκα συλλαβεῖν"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "ἔδοξεν οὖν αὐτοῖς δέκα συλλαβεῖν: 'so they decided to arrest ten'.",
+      "audio": "ἔδοξεν οὖν αὐτοῖς δέκα συλλαβεῖν."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'They were seeking a pretext.'",
+      "gaps": [
+        {
+          "answers": [
+            "πρόφασιν ἐζήτουν",
+            "ἐζήτουν πρόφασιν"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "verb.impf.act.ind.3pl"
+      ],
+      "explain": "ἐζήτουν: imperfect of ζητέω, 'they were looking for'."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: ἀποκτιννύναι μὲν γὰρ ἀνθρώπους περὶ οὐδενὸς ἡγοῦντο, λαμβάνειν δὲ χρήματα περὶ πολλοῦ ἐποιοῦντο.",
+      "audio": "ἀποκτιννύναι μὲν γὰρ ἀνθρώπους περὶ οὐδενὸς ἡγοῦντο, λαμβάνειν δὲ χρήματα περὶ πολλοῦ ἐποιοῦντο.",
+      "model": "For they thought killing people of no importance, but they thought getting money of great importance.",
+      "skills": [
+        "read.lysias",
+        "read.pol.oratory",
+        "read.adapted-text"
+      ],
+      "explain": "μέν … δέ balance two infinitives, ἀποκτιννύναι and λαμβάνειν; περὶ οὐδενός / περὶ πολλοῦ give their value."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: καὶ ἐμὲ μὲν ξένους ἑστιῶντα κατέλαβον, οὓς ἐξελάσαντες Πείσωνί με παραδιδόασιν·",
+      "audio": "καὶ ἐμὲ μὲν ξένους ἑστιῶντα κατέλαβον, οὓς ἐξελάσαντες Πείσωνί με παραδιδόασιν·",
+      "model": "And they caught me entertaining guests; they drove them out and handed me over to Peison.",
+      "skills": [
+        "read.lysias",
+        "read.pol.oratory"
+      ],
+      "explain": "ἑστιῶντα: present participle agreeing with ἐμέ; οὓς ἐξελάσαντες 'whom having driven out'; παραδιδόασιν: vivid historic present."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "ἡ ὀλιγαρχία",
+          "right": "oligarchy"
+        },
+        {
+          "left": "ὁ συκοφάντης",
+          "right": "sycophant"
+        },
+        {
+          "left": "ἡ ἀπολογία",
+          "right": "apology, apologetics"
+        },
+        {
+          "left": "τὸ τάλαντον",
+          "right": "talent"
+        },
+        {
+          "left": "συλλαμβάνω",
+          "right": "syllable"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "A τάλαντον was a weight (of silver); the parable of the talents gave English 'talent'. συλλαβή: letters 'taken together'."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "ὑπὸ τίνος ἐπείσθη ὁ Κέφαλος εἰς Ἀθήνας ἀφικέσθαι;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὑπὸ τοῦ Περικλέους."
+        },
+        {
+          "id": "b",
+          "text": "ὑπὸ τοῦ Λυσίου."
+        },
+        {
+          "id": "c",
+          "text": "ὑπὸ τῶν τριάκοντα."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἐπείσθη μὲν ὑπὸ Περικλέους.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί ἔλεγον ὁ Θέογνις καὶ ὁ Πείσων περὶ τῶν μετοίκων;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὡς εἶέν τινες τῇ πολιτείᾳ ἀχθόμενοι."
+        },
+        {
+          "id": "b",
+          "text": "ὡς πένητες εἶεν πάντες."
+        },
+        {
+          "id": "c",
+          "text": "ὡς φίλοι εἶεν τῆς ὀλιγαρχίας."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "syntax.opt-indirect"
+      ],
+      "explain": "ὡς εἶέν τινες τῇ πολιτείᾳ ἀχθόμενοι.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "διὰ τί οἱ τριάκοντα τοὺς μετοίκους συλλαμβάνειν ἐβούλοντο;",
+      "options": [
+        {
+          "id": "a",
+          "text": "χρημάτων ἕνεκα."
+        },
+        {
+          "id": "b",
+          "text": "ἵνα τὴν πόλιν σῴζωσιν."
+        },
+        {
+          "id": "c",
+          "text": "διότι οἱ μέτοικοι δίκας ἔφευγον."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "τιμωρεῖσθαι μὲν δοκεῖν, τῷ δ’ ἔργῳ χρηματίζεσθαι.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί ἐποίει ὁ Λυσίας ὅτε αὐτὸν κατέλαβον;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ξένους εἱστία."
+        },
+        {
+          "id": "b",
+          "text": "ἐν τῷ ἐργαστηρίῳ εἰργάζετο."
+        },
+        {
+          "id": "c",
+          "text": "ἐν τῷ δικαστηρίῳ ἔλεγεν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἐμὲ μὲν ξένους ἑστιῶντα κατέλαβον.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί ἐποίουν οἱ ἄλλοι ἐν τῷ ἐργαστηρίῳ;",
+      "options": [
+        {
+          "id": "a",
+          "text": "τὰ ἀνδράποδα ἀπεγράφοντο."
+        },
+        {
+          "id": "b",
+          "text": "ἀσπίδας ἐποίουν."
+        },
+        {
+          "id": "c",
+          "text": "τὸν Πολέμαρχον συνέλαβον."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "οἱ δὲ ἄλλοι εἰς τὸ ἐργαστήριον ἐλθόντες τὰ ἀνδράποδα ἀπεγράφοντο.",
+      "audio": "prompt"
+    }
+  ],
+  "culture": {
+    "title": "Lysias, the metic",
+    "md": "**Kephalos**, a rich Syracusan, came to Athens at Pericles' invitation around 450 and lived there as a **metic**, a free resident foreigner: he paid the metic tax, served in the army and navy and paid for public services, but could not vote, hold office or own land. His sons **Polemarchus** and **Lysias** ran a shield factory in Piraeus with 120 slaves; Plato set the opening of his *Republic* in Polemarchus' house, with old Kephalos presiding.\n\nIn 404, after Athens lost the war, the Spartans backed a board of **Thirty** to rewrite the laws. They killed perhaps 1,500 people and seized the property of many. Polemarchus was given hemlock without a trial; Lysias escaped by a back door to Megara, and spent what was left of his fortune on the democratic exiles who retook the city in 403. The restored democracy voted him citizenship and then cancelled it on a technicality, so he lived and died a metic. He turned to writing speeches for others (more than two hundred were known in antiquity) and became the model of plain, pure Attic prose. *Against Eratosthenes*, which he delivered himself, is the only speech in which he speaks for his own family.",
+    "image": "pol-hoplite-shield"
+  },
+  "quiz": [
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist of συλλαμβάνω for 'they arrested'.",
+      "lemma": "συλλαμβάνω",
+      "cell": "aorist.active.indicative.3pl",
+      "skills": [
+        "verb.augment.compound",
+        "vocab.pol"
+      ],
+      "explain": "συνέλαβον.",
+      "audio": "συνέλαβον"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ὁ Λυσίας ___ ἦν, οὐ πολίτης.",
+      "options": [
+        {
+          "id": "a",
+          "text": "μέτοικος"
+        },
+        {
+          "id": "b",
+          "text": "δημότης"
+        },
+        {
+          "id": "c",
+          "text": "τύραννος"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.pol.institutions"
+      ],
+      "explain": "Lysias was a metic: free, taxed, but without the vote."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ συκοφάντης"
+        },
+        {
+          "id": "b",
+          "text": "ὁ ὑπηρέτης"
+        },
+        {
+          "id": "c",
+          "text": "ὁ δημότης"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.pol"
+      ],
+      "explain": "ὁ συκοφάντης: an informer.",
+      "audio": "ὁ συκοφάντης"
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "οἱ τριάκοντα πολλὰ τάλαντα ἔλαβον.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "οἱ δὲ τριάκοντα πολλὰ τάλαντα ἔλαβον."
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἐπείσθη.",
+      "form": "ἐπείσθη",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "voice",
+          "label": "Voice",
+          "options": [
+            {
+              "id": "act",
+              "label": "active"
+            },
+            {
+              "id": "mid",
+              "label": "middle"
+            },
+            {
+              "id": "pass",
+              "label": "passive"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "voice": "pass"
+      },
+      "skills": [
+        "verb.aor.pass.ind.3sg"
+      ],
+      "explain": "ἐ-πείσ-θη: aorist passive of πείθω, 'was persuaded'.",
+      "audio": "ἐπείσθη"
+    },
+    {
+      "type": "match",
+      "prompt": "Match the Greek to the English.",
+      "pairs": [
+        {
+          "left": "ἡ ὀλιγαρχία",
+          "right": "oligarchy"
+        },
+        {
+          "left": "ὁ συκοφάντης",
+          "right": "informer"
+        },
+        {
+          "left": "ἡ πρόφασις",
+          "right": "pretext"
+        },
+        {
+          "left": "τὸ ἀνδράποδον",
+          "right": "slave"
+        },
+        {
+          "left": "τὸ τάλαντον",
+          "right": "talent"
+        }
+      ],
+      "skills": [
+        "vocab.recognition",
+        "vocab.pol"
+      ],
+      "explain": "ὀλιγαρχία, συκοφάντης, πρόφασις, ἀνδράποδον, τάλαντον."
+    }
+  ],
+  "skills": [
+    "read.adapted-text",
+    "read.lysias",
+    "read.pol.oratory",
+    "read.pol.institutions",
+    "read.comprehension",
+    "read.locate",
+    "syntax.opt-indirect",
+    "syntax.indirect-inf",
+    "syntax.infinitive",
+    "syntax.gen.uses",
+    "syntax.men-de",
+    "syntax.word-order",
+    "noun.decl2.gen.pl",
+    "noun.decl3.cons.pl",
+    "noun.decl2.neuter",
+    "noun.decl1.acc.pl",
+    "noun.decl3.iota",
+    "verb.aor2.stem",
+    "verb.aor.act.inf",
+    "verb.contract.e",
+    "verb.middle-meaning",
+    "verb.pres.act.opt.3pl",
+    "verb.perf.mp.ind.3sg",
+    "verb.neuter-plural",
+    "verb.eimi.pres.ind.3pl",
+    "verb.ptc.pres.act",
+    "verb.impf.act.ind.3pl",
+    "verb.augment.compound",
+    "verb.aor.pass.ind.3sg",
+    "listen.words",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.family",
+    "vocab.pol"
+  ]
+}

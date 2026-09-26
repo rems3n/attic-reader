@@ -373,6 +373,63 @@
    "license": "placeholder",
    "source_url": null,
    "words": []
+  },
+  {
+   "id": "myth-6-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ ναῦς μέλαν ἱστίον ἔχουσα εἰς Κρήτην πλεῖ.",
+   "alt_en": "A Greek ship under sail (Attic black-figure cup or dinos with a ship).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-6-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Ἀριάδνη τῷ Θησεῖ τὸ λίνον δίδωσιν.",
+   "alt_en": "Ariadne hands Theseus the ball of thread before he enters the Labyrinth (Greek vase painting).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-6-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Θησεὺς τὸν Μινώταυρον ἀποκτείνει.",
+   "alt_en": "Theseus kills the bull-headed Minotaur (Attic black-figure amphora, 6th century BC).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-histion",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ ἱστίον",
+   "alt_en": "A ship's square sail on its mast, from a Greek vase.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἱστίον"
+   ]
+  },
+  {
+   "id": "myth-culture-6",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὁ Θησεὺς τὸν Μινώταυρον ἐκ τοῦ λαβυρίνθου ἕλκει.",
+   "alt_en": "Theseus drags the dead Minotaur out of the Labyrinth while Athena watches (Attic red-figure kylix by Aison, c. 420 BC, National Archaeological Museum, Madrid).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
   }
  ]
 }

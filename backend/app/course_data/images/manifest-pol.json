@@ -236,6 +236,61 @@
    "license": "placeholder",
    "source_url": null,
    "words": []
+  },
+  {
+   "id": "pol-6-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ τριάκοντα ἐν τῇ πόλει ἄρχουσιν",
+   "alt_en": "404 BC: thirty grim men in fine cloaks sit on a platform in the Agora; Spartan soldiers with red cloaks stand guard behind them.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-6-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Θέογνις καὶ ὁ Πείσων περὶ τῶν μετοίκων λέγουσιν",
+   "alt_en": "Two of the Thirty whisper together over a list of names; one taps it with his finger, the other smiles.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-6-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "τὸν Λυσίαν ξένους ἑστιῶντα καταλαμβάνουσιν",
+   "alt_en": "Armed men burst into a dining room where Lysias reclines with guests; the guests are pushed out of the door while Lysias is seized.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-shield-workshop",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἐργαστήριον χαλκέων",
+   "alt_en": "A bronze workshop on an Attic red-figure cup (the Berlin Foundry Cup, c. 490–480 BC): craftsmen working on a bronze statue, with tools and helmets hanging on the wall.",
+   "credit": "placeholder (target: Wikimedia Commons photograph of the Berlin Foundry Cup, CC BY-SA)",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-hoplite-shield",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ἀσπίς",
+   "alt_en": "A bronze hoplite shield of the late 5th century BC: the Spartan shield captured at Pylos in 425 and hung up in the Athenian Agora (Agora Museum).",
+   "credit": "placeholder (target: Wikimedia Commons photograph of the Pylos shield, Agora Museum, CC BY-SA)",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
   }
  ]
 }

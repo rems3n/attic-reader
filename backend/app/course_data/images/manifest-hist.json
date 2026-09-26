@@ -276,6 +276,52 @@
    "license": "placeholder",
    "source_url": null,
    "words": []
+  },
+  {
+   "id": "hist-panel-7-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Κῦρος μετὰ τῶν ἑξακοσίων ἱππέων ἐν μέσῳ ἐστίν.",
+   "alt_en": "Cunaxa, September 401 BC, a flat plain by the Euphrates: in the distance the Greek hoplites on the right wing chasing the enemy; in the centre the young prince Cyrus, bare-headed on horseback among six hundred armoured Persian horsemen, watching the King's huge army wheel round.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-7-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "«τὸν ἄνδρα ὁρῶ.»",
+   "alt_en": "Cyrus, with only a few companions left, sees his brother the King in the middle of his bodyguard and charges, spear raised, crying out; the King, in a tall headdress, recoils as the spear strikes his breastplate.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-7-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Ἀρταπάτης τῷ Κύρῳ περιπίπτει.",
+   "alt_en": "After the fight: Cyrus lies dead among eight of his companions; his faithful staff-bearer Artapates leaps down from his horse to throw himself over the body, a golden short sword at his belt. Restrained, without gore.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-thorax",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ θώραξ",
+   "alt_en": "A Greek bronze breastplate (thorax) of the 5th–4th century BC, front view, or a linen corslet with shoulder flaps.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "θώραξ"
+   ]
   }
  ]
 }
