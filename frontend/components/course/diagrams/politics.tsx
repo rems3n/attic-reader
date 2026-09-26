@@ -29,8 +29,7 @@ export function TribesMap() {
       <G x={128} y={236} size={16}>Ἀθῆναι</G>
       <G x={216} y={150} size={16} fill={C.muted}>μεσόγειος</G>
       <G x={240} y={336} size={16} fill={C.muted} anchor="start">παραλία</G>
-      <G x={206} y={410} size={14} fill={C.muted}>Σούνιον</G>
-      <E x={30} y={408} size={13} anchor="start">sea all round but the north</E>
+      <G x={226} y={396} size={14} fill={C.muted} anchor="start">Σούνιον</G>
 
       {/* one tribe = a third from each region */}
       <G x={480} y={46} size={22} weight={600} fill={C.accent}>μία φυλή</G>
@@ -78,8 +77,8 @@ export function Constitution() {
       ))}
       {/* Council prepares business for the Assembly */}
       <Arrow x1={180} y1={250} x2={142} y2={250} />
-      <G x={160} y={278} size={15}>προβούλευμα</G>
-      <E x={160} y={296} size={12}>the Council drafts the agenda</E>
+      <G x={96} y={278} size={15} anchor="start">προβούλευμα</G>
+      <E x={96} y={296} size={12} anchor="start">the Council drafts the agenda</E>
       {/* Assembly decides */}
       <Arrow x1={80} y1={226} x2={80} y2={330} />
       <G x={80} y={352} size={16}>ψήφισμα</G>

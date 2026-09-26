@@ -287,6 +287,42 @@
    "svg": true,
    "source_url": null,
    "words": []
+  },
+  {
+   "id": "map-syracuse-retreat",
+   "kind": "diagram",
+   "file": null,
+   "alt_grc": "ἡ ἀναχώρησις ἀπὸ τῶν Συρακουσῶν",
+   "alt_en": "Schematic map of south-east Sicily, 413 BC: the Athenian retreat from Syracuse, west towards the Akraian cliff, then south across the Kakyparis and Erineos to the Assinaros, where Nicias's army was destroyed",
+   "credit": "Attic Reader, own diagram",
+   "license": "CC BY-SA 4.0",
+   "svg": true,
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "map-aegospotami",
+   "kind": "diagram",
+   "file": null,
+   "alt_grc": "ἡ ἐν Αἰγὸς ποταμοῖς ναυμαχία",
+   "alt_en": "Schematic map of the Hellespont, 405 BC: the Athenian fleet beached at Aegospotami, Lysander's fleet at Lampsakos across the strait, Sestos, and the escape of the Paralos and Konon to the south-west",
+   "credit": "Attic Reader, own diagram",
+   "license": "CC BY-SA 4.0",
+   "svg": true,
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "map-anabasis",
+   "kind": "diagram",
+   "file": null,
+   "alt_grc": "ἡ Κύρου ἀνάβασις",
+   "alt_en": "Schematic map of Cyrus's march of 401 BC from Sardis through Kelainai, Ikonion, Tarsos and Issos to Thapsakos on the Euphrates and down the river to Cunaxa near Babylon",
+   "credit": "Attic Reader, own diagram",
+   "license": "CC BY-SA 4.0",
+   "svg": true,
+   "source_url": null,
+   "words": []
   }
  ]
 }
