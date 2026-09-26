@@ -1,0 +1,145 @@
+{
+  "id": "4.4",
+  "title_grc": "αἱ νῆες",
+  "title_en": "The ships",
+  "summary_grc": "ὁ Κλεινίας τοὺς παῖδας εἰς τὸν Πειραιᾶ ἄγει· δέκα τριήρεις ἐκ τοῦ λιμένος πλέουσιν.",
+  "summary_en": "Counting from one to ten; how long (accusative) and when (dative); the noun ναῦς; and the little endings that say from where (-θεν) and to where (-δε).",
+  "cover": "panel-4-4-b",
+  "caption_grc": "μία ναῦς, δύο νῆες, τρεῖς νῆες … δέκα τριήρεις ἐκ τοῦ λιμένος πλέουσιν.",
+  "names": {
+    "Σαλαμίς": ["Σαλαμῖνος", "Σαλαμῖνι", "Σαλαμῖνα"],
+    "Ποτείδαια": ["Ποτειδαίας", "Ποτειδαίᾳ", "Ποτείδαιαν"],
+    "Ζέα": ["Ζέας", "Ζέᾳ", "Ζέαν"],
+    "Πέρσαι": ["Περσῶν", "Πέρσαις", "Πέρσας"]
+  },
+  "allow": {
+    "βούλεται": "βούλομαι (Lesson 3.3)",
+    "βουλόμεθα": "βούλομαι (Lesson 3.3)",
+    "βουλομένη": "middle participle of βούλομαι (Lesson 4.2)",
+    "μὲν": "μέν … δέ (Lesson 2.1)",
+    "πολλαὶ": "πολύς (Lesson 2.2)",
+    "πολλοὶ": "πολύς (Lesson 2.2)",
+    "ἡμᾶς": "personal pronoun (Lesson 2.1)",
+    "σοι": "personal pronoun (Lesson 2.1)",
+    "διὰ": "preposition (Lesson 3.4)"
+  },
+  "story": [
+    {
+      "image": "panel-4-4-a",
+      "sentences": [
+        {"text": "τρεῖς ἡμέρας ὁ Λύσις ἐν τῷ ἄστει μένει καὶ γράμματα μανθάνει· τῇ δὲ τετάρτῃ ἡμέρᾳ ὁ Κλεινίας, ὁ πάππος, τοὺς παῖδας εἰς τὸν Πειραιᾶ ἄγει.", "glosses": [{"word": "τρεῖς", "kind": "note", "value": "τρεῖς ἡμέρας: 'for three days' — the accusative says how long"}, {"word": "τετάρτῃ", "kind": "<", "value": "τέτταρες → τετάρτη (fourth); τῇ τετάρτῃ ἡμέρᾳ: 'on the fourth day' — the dative says when"}, {"word": "πάππος", "kind": "en", "value": "grandfather"}, {"word": "ἄγει", "kind": "en", "value": "takes, leads"}]},
+        {"text": "καὶ ἡ Ἐλπὶς νῦν ἕπεται· τὴν γὰρ θάλατταν φιλεῖ καὶ τὰς ναῦς ὁρᾶν βούλεται.", "glosses": [{"word": "ναῦς", "kind": "pic", "value": "naus"}]},
+        {"text": "ναύτης τις ἐν τῷ λιμένι λέγει· «πόθεν ἥκετε, ὦ παῖδες;» ὁ δὲ Λύσις· «οἴκοθεν· Ἀθήνηθεν ἥκομεν.»", "glosses": [{"word": "πόθεν", "kind": "en", "value": "from where?"}, {"word": "ἥκετε", "kind": "|", "value": "ἥκει | ἥκετε (you have come)"}, {"word": "οἴκοθεν", "kind": "pic", "value": "diagram-place-adverbs"}, {"word": "Ἀθήνηθεν", "kind": "<", "value": "Ἀθῆναι + -θεν: from Athens"}, {"word": "ἥκομεν", "kind": "|", "value": "ἥκει | ἥκομεν (we have come)"}]},
+        {"text": "«καὶ ποῖ βαίνετε;» — «εἰς τὴν Ζέαν· τὰς τριήρεις ὁρᾶν βουλόμεθα.»", "glosses": [{"word": "ποῖ", "kind": "en", "value": "to where?"}, {"word": "βαίνετε", "kind": "|", "value": "βαίνει | βαίνετε (you go)"}, {"word": "τριήρεις", "kind": "pic", "value": "trieres"}, {"word": "βουλόμεθα", "kind": "|", "value": "βούλεται | βουλόμεθα (we want)"}]},
+        {"text": "ἐν τῇ Ζέᾳ πολλαὶ τριήρεις εἰσίν· αἱ μὲν ἐν τῇ θαλάττῃ, αἱ δὲ ἐν τῇ γῇ.", "glosses": [{"word": "μὲν", "kind": "en", "value": "αἱ μέν … αἱ δέ: some … others"}]},
+        {"text": "ἡ τριήρης ναῦς μακρά ἐστιν· ἐν πάσῃ τριήρει πολλοὶ ἐρέται εἰσίν· οἱ ἐρέται τὴν ναῦν ἐλαύνουσιν.", "glosses": [{"word": "τριήρει", "kind": "|", "value": "ἡ τριήρης | ἐν τῇ τριήρει"}, {"word": "ἐρέται", "kind": "pic", "value": "eretes"}, {"word": "ναῦν", "kind": "|", "value": "ἡ ναῦς | τὴν ναῦν"}, {"word": "ἐλαύνουσιν", "kind": "en", "value": "drive forward, row"}]}
+      ]
+    },
+    {
+      "image": "panel-4-4-b",
+      "sentences": [
+        {"text": "ὁ Κλεινίας λέγει· «ὁρᾶτε, ὦ παῖδες· νῆες ἐκ τοῦ λιμένος πλέουσιν! πόσαι νῆές εἰσιν;»", "glosses": [{"word": "ὁρᾶτε", "kind": "|", "value": "ὁρᾷ | ὁρᾶτε! (look!)"}, {"word": "νῆες", "kind": "|", "value": "ἡ ναῦς | αἱ νῆες"}, {"word": "πλέουσιν", "kind": "pic", "value": "verb-plei"}, {"word": "πόσαι", "kind": "en", "value": "how many?"}]},
+        {"text": "ὁ Λύσις λέγει· «μία, δύο, τρεῖς, τέτταρες, πέντε, ἕξ, ἑπτά, ὀκτώ, ἐννέα, δέκα· δέκα νῆές εἰσιν!»", "glosses": [{"word": "μία", "kind": "pic", "value": "diagram-numbers"}]},
+        {"text": "ὁ δὲ Κλεινίας· «δέκα τριήρεις εἰς Ποτείδαιαν πλέουσιν· ἐκεῖ γὰρ πόλεμός ἐστιν.»", "glosses": [{"word": "ἐκεῖ", "kind": "en", "value": "there"}, {"word": "πόλεμός", "kind": "en", "value": "war"}]},
+        {"text": "«πολλὰς ἡμέρας πλέουσιν· ἡμέρας μὲν πλέουσιν, νυκτὸς δὲ ἐν λιμένι μένουσιν· τῇ δὲ δεκάτῃ ἡμέρᾳ εἰς Ποτείδαιαν ἀφικνοῦνται.»", "glosses": [{"word": "πολλὰς", "kind": "note", "value": "πολλὰς ἡμέρας: 'for many days' (accusative: how long)"}, {"word": "ἡμέρας", "kind": "note", "value": "ἡμέρας … νυκτός: 'by day … by night' — a genitive of time; recognise it"}, {"word": "νυκτὸς", "kind": "pic", "value": "nyx"}, {"word": "δεκάτῃ", "kind": "<", "value": "δέκα → δεκάτη (tenth); τῇ δεκάτῃ ἡμέρᾳ: on the tenth day"}, {"word": "ἀφικνοῦνται", "kind": "en", "value": "they arrive"}]},
+        {"text": "ἡ Ἐλπὶς λέγει· «ὦ πάππε, ἆρα ἔξεστι καὶ κόραις πλεῖν;» ὁ δὲ Κλεινίας· «οὐκ ἔξεστιν, ὦ θύγατερ· αἱ γὰρ τριήρεις ἀνδρῶν εἰσιν.»", "glosses": [{"word": "πάππε", "kind": "|", "value": "ὁ πάππος | ὦ πάππε (grandpa)"}, {"word": "κόραις", "kind": "|", "value": "ἡ κόρη | κόραις (for girls)"}, {"word": "πλεῖν", "kind": "|", "value": "πλεῖ | πλεῖν (to sail)"}, {"word": "ἀνδρῶν", "kind": "note", "value": "ἀνδρῶν εἰσιν: 'belong to men' — genitive of possession"}]},
+        {"text": "«ἀλλὰ ἔξεστί σοι τὴν θάλατταν ὁρᾶν· ἡ γὰρ θάλαττα πάντων ἐστίν.»", "glosses": [{"word": "σοι", "kind": "en", "value": "for you"}]}
+      ]
+    },
+    {
+      "image": "panel-4-4-c",
+      "sentences": [
+        {"text": "ἡ Ἐλπὶς λέγει· «πόθεν ἥκουσιν οἱ ἔμποροι οἱ ἐν τῷ ἐμπορίῳ;» ὁ δὲ Κλεινίας· «ἐκ πασῶν τῶν πόλεων, ὦ θύγατερ.»", "glosses": [{"word": "ἥκουσιν", "kind": "|", "value": "ἥκει | ἥκουσιν (they have come)"}]},
+        {"text": "ὁ Κλεινίας τὴν θάλατταν ὁρῶν λέγει· «ἐκεῖ, ὦ παῖδες, νῆσός ἐστιν· Σαλαμὶς ὀνομάζεται.»", "glosses": [{"word": "νῆσός", "kind": "pic", "value": "nesos"}, {"word": "ὀνομάζεται", "kind": "en", "value": "is called"}]},
+        {"text": "«περὶ τῆς νήσου πολλάκις λέγω, ὦ παῖδες, καὶ ἄλλῃ ἡμέρᾳ πάλιν λέγω· νῦν δὲ ἡ νὺξ ἤδη ἔρχεται, καὶ δεῖ ἡμᾶς οἴκαδε βαίνειν.»", "glosses": [{"word": "περὶ", "kind": "en", "value": "about (+ genitive)"}, {"word": "πολλάκις", "kind": "en", "value": "often"}, {"word": "ἄλλῃ", "kind": "en", "value": "ἄλλῃ ἡμέρᾳ: on another day"}, {"word": "πάλιν", "kind": "en", "value": "again"}, {"word": "νὺξ", "kind": "|", "value": "ἡ νύξ | νυκτός"}, {"word": "ἤδη", "kind": "en", "value": "already"}, {"word": "ἔρχεται", "kind": "en", "value": "is coming"}, {"word": "οἴκαδε", "kind": "pic", "value": "diagram-place-adverbs"}]},
+        {"text": "ὁ Λύσις λέγει· «ποῖ βαίνομεν, ὦ πάππε;» — «οἴκαδε, ὦ παῖ· Ἀθήναζε.»", "glosses": [{"word": "Ἀθήναζε", "kind": "<", "value": "Ἀθῆναι + -ζε: to Athens (↔ Ἀθήνηθεν)"}]},
+        {"text": "οἴκοθεν μὲν οὖν εἰς τὸν Πειραιᾶ ἥκουσιν, νῦν δὲ οἴκαδε βαίνουσιν διὰ τῶν μακρῶν τειχῶν· ἡ ὁδὸς μακρά ἐστιν, ἀλλὰ ὁ Κλεινίας ἡγεῖται καὶ ἀεὶ λέγει.", "glosses": []},
+        {"text": "ἡ δὲ Ἐλπίς, τὴν θάλατταν ἀεὶ ὁρᾶν βουλομένη, πολλάκις λέγει· «ὦ πάππε, πότε πάλιν εἰς τὸν Πειραιᾶ βαίνομεν;» ὁ δέ· «τῇ ἕκτῃ ἡμέρᾳ, ὦ θύγατερ.»", "glosses": [{"word": "πότε", "kind": "en", "value": "when?"}, {"word": "ἕκτῃ", "kind": "<", "value": "ἕξ → ἕκτη (sixth); τῇ ἕκτῃ ἡμέρᾳ: on the sixth day"}]}
+      ]
+    }
+  ],
+  "vocab": [
+    {"id": "ναυς", "pic": "naus", "gloss_grc": "ἡ ναῦς · αἱ νῆες · ταῖς ναυσί(ν)"},
+    {"id": "τριηρης", "pic": "trieres", "gloss_grc": "ἡ τριήρης · αἱ τριήρεις — ναῦς μακρά"},
+    {"id": "ερετης", "pic": "eretes", "gloss_grc": "οἱ ἐρέται τὴν ναῦν ἐλαύνουσιν"},
+    {"id": "πλεω", "pic": "verb-plei", "gloss_grc": "πλεῖ · πλέουσι(ν) · πλεῖν"},
+    {"id": "νησος", "pic": "nesos", "gloss_grc": "ἡ νῆσος (feminine!) · Σαλαμίς"},
+    {"id": "νυξ", "pic": "nyx", "gloss_grc": "ἡ νύξ · νυκτός ↔ ἡ ἡμέρα"},
+    {"id": "ημερα", "pic": "hemera", "gloss_grc": "τρεῖς ἡμέρας · τῇ τετάρτῃ ἡμέρᾳ"},
+    {"id": "οικοθεν", "pic": "diagram-place-adverbs", "gloss_grc": "οἴκοθεν ← οἶκος (from home)"},
+    {"id": "οικαδε", "pic": "diagram-place-adverbs", "gloss_grc": "οἴκαδε → οἶκος (to home)"},
+    {"id": "ποθεν", "gloss_grc": "πόθεν; — οἴκοθεν · Ἀθήνηθεν"},
+    {"id": "ποι", "gloss_grc": "ποῖ; — οἴκαδε · Ἀθήναζε"},
+    {"id": "εκει", "gloss_grc": "ἐκεῖ ↔ ἐνταῦθα"},
+    {"id": "πολλακις", "gloss_grc": "πολλάκις ↔ οὐδέποτε"},
+    {"id": "εις-62", "pic": "diagram-numbers", "gloss_grc": "εἷς · μία · ἕν"},
+    {"id": "δυο", "pic": "diagram-numbers", "gloss_grc": "δύο"},
+    {"id": "τρεις", "pic": "diagram-numbers", "gloss_grc": "τρεῖς · τρία"},
+    {"id": "τετταρες", "pic": "diagram-numbers", "gloss_grc": "τέτταρες · τέτταρα"}
+  ],
+  "notice": [
+    "μία ναῦς · δύο νῆες · τρεῖς νῆες · τέτταρες νῆες · δέκα νῆες",
+    "τρεῖς ἡμέρας ὁ Λύσις ἐν τῷ ἄστει μένει. — τῇ δὲ τετάρτῃ ἡμέρᾳ εἰς τὸν Πειραιᾶ βαίνει.",
+    "πολλὰς ἡμέρας πλέουσιν. — τῇ δεκάτῃ ἡμέρᾳ ἀφικνοῦνται.",
+    "ἡ ναῦς · τὴν ναῦν · αἱ νῆες · τὰς ναῦς · ταῖς ναυσί(ν)",
+    "πόθεν; — οἴκοθεν, Ἀθήνηθεν. — ποῖ; — οἴκαδε, Ἀθήναζε. — ποῦ; — ἐκεῖ."
+  ],
+  "grammar": {
+    "md": "**Counting to ten.** You have known the numerals since Stage 0; now you can see how they behave in a sentence. Five to ten never change; one to four agree with their noun.\n\n| | | | |\n|---|---|---|---|\n| 1 | **εἷς, μία, ἕν** | ἑνός, μιᾶς, ἑνός · ἑνί, μιᾷ, ἑνί · ἕνα, μίαν, ἕν | μία ναῦς · ἕνα ἰχθύν · μιᾶς δραχμῆς |\n| 2 | **δύο** | gen./dat. δυοῖν | δύο νῆες · δύο ὀβολῶν |\n| 3 | **τρεῖς, τρία** | τριῶν · τρισί(ν) | τρεῖς ἡμέρας · τρία τείχη |\n| 4 | **τέτταρες, τέτταρα** | τεττάρων · τέτταρσι(ν) | τέτταρες νῆες · τεττάρων ὀβολῶν |\n| 5–10 | **πέντε, ἕξ, ἑπτά, ὀκτώ, ἐννέα, δέκα** | unchanged | δέκα τριήρεις · πέντε ὀβολῶν |\n\nThe ordinals ('fourth, sixth, tenth') are adjectives made from the same roots: τετάρτη, ἕκτη, δεκάτη; you already know πρῶτος, δεύτερος, τρίτος.\n\n**How long? — accusative. When? — dative.**\n\n| question | case | example |\n|---|---|---|\n| how long? (extent of time) | **accusative** | **τρεῖς ἡμέρας** μένει 'he stays *for three days*' · **πολλὰς ἡμέρας** πλέουσιν |\n| when? at what point? | **dative** | **τῇ τετάρτῃ ἡμέρᾳ** 'on the fourth day' · **ἄλλῃ ἡμέρᾳ** 'on another day' · **τῇ ἕκτῃ ἡμέρᾳ** |\n\nThe accusative also measures space: δέκα στάδια βαίνουσιν 'they walk ten stades'. A third pattern, the genitive for 'within / during' (ἡμέρας 'by day', νυκτός 'by night'), you need only recognise for now.\n\n**ἡ ναῦς, 'ship'.** An irregular but very common noun (Athens lived by it):\n\n| | sg. | pl. |\n|---|---|---|\n| nom. | ναῦ**ς** | νῆ**ες** |\n| gen. | νε**ώς** | νε**ῶν** |\n| dat. | νη**ί** | ναυ**σί(ν)** |\n| acc. | ναῦ**ν** | ναῦ**ς** |\n\nSo ναῦς is both nominative singular and accusative plural: μία ναῦς πλεῖ, but τὰς ναῦς ὁρῶμεν. ἡ τριήρης 'trireme' (τριήρους, τριήρει, τριήρη; pl. τριήρεις, τριήρων) is a particular kind of ναῦς, the warship with three banks of oars.\n\n**From where, to where, where: -θεν, -δε, -ι.** Greek can put the direction into the ending of a place-word instead of using a preposition:\n\n| | from (-θεν) | to (-δε, -ζε, -σε) | at (-οι, -ι) or ἐν |\n|---|---|---|---|\n| home | **οἴκοθεν** | **οἴκαδε** | οἴκοι |\n| Athens | Ἀθήνηθεν | Ἀθήναζε | Ἀθήνησι |\n| there | ἐκεῖθεν | ἐκεῖσε | **ἐκεῖ** |\n| question | **πόθεν;** | **ποῖ;** | **ποῦ;** |\n\nπόθεν ἥκετε; — οἴκοθεν. ποῖ βαίνετε; — οἴκαδε, Ἀθήναζε. ποῦ ἐστιν ἡ νῆσος; — ἐκεῖ. Notice that English *where* has to do the work of three Greek words.",
+    "paradigms": ["heis", "dyo", "treis", "tettares", "naus"],
+    "diagram": "diagram-place-adverbs"
+  },
+  "exercises": [
+    {"type": "endings-cloze", "prompt": "Μελέτημα Α · Fill in the endings.", "template": "μί___ ναῦς ἐν τῷ λιμένι ἐστίν. τρ___ ἡμέρας ὁ Λύσις ἐν τῷ ἄστει μένει. δέκα νῆ___ ἐκ τοῦ λιμένος πλέουσιν. ἐν ταῖς ναυσ___ πολλοὶ ἐρέται εἰσίν.", "gaps": [{"answers": ["α"]}, {"answers": ["εῖς", "εις"]}, {"answers": ["ες"]}, {"answers": ["ί", "ι", "ίν", "ιν"]}], "skills": ["num.cardinal", "noun.decl3.naus", "syntax.acc.extent"], "explain": "μία ναῦς (feminine), τρεῖς ἡμέρας (accusative: for three days), δέκα νῆες (nominative plural), ταῖς ναυσί(ν) (dative plural)."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ___ ἡμέρας ὁ Λύσις ἐν τῷ ἄστει μένει.", "options": [{"id": "a", "text": "τρεῖς"}, {"id": "b", "text": "τρισί"}, {"id": "c", "text": "τριῶν"}], "answer": "a", "skills": ["syntax.acc.extent", "num.cardinal"], "explain": "How long? accusative: τρεῖς ἡμέρας.", "audio": "τρεῖς ἡμέρας ὁ Λύσις ἐν τῷ ἄστει μένει."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · τῇ ___ ἡμέρᾳ ὁ Κλεινίας τοὺς παῖδας εἰς τὸν Πειραιᾶ ἄγει.", "options": [{"id": "a", "text": "τετάρτῃ"}, {"id": "b", "text": "τετάρτην"}, {"id": "c", "text": "τέτταρες"}], "answer": "a", "skills": ["syntax.dat.time", "adj.agree"], "explain": "When? dative: τῇ τετάρτῃ ἡμέρᾳ.", "audio": "τῇ τετάρτῃ ἡμέρᾳ ὁ Κλεινίας τοὺς παῖδας εἰς τὸν Πειραιᾶ ἄγει."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · «πόθεν ἥκετε;» — «___.»", "options": [{"id": "a", "text": "Ἀθήνηθεν"}, {"id": "b", "text": "Ἀθήναζε"}, {"id": "c", "text": "οἴκαδε"}], "answer": "a", "skills": ["adv.place"], "explain": "πόθεν 'from where?' asks for -θεν: Ἀθήνηθεν, 'from Athens'.", "audio": "πόθεν ἥκετε; Ἀθήνηθεν."},
+    {"type": "pick-picture", "prompt": "ἡ τριήρης", "audio": "prompt", "options": [{"id": "a", "image": "trieres"}, {"id": "b", "image": "nesos"}, {"id": "c", "image": "limen"}, {"id": "d", "image": "eretes"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "ἡ τριήρης: trireme."},
+    {"type": "pick-picture", "prompt": "ἡ νύξ", "audio": "prompt", "options": [{"id": "a", "image": "nyx"}, {"id": "b", "image": "hemera"}, {"id": "c", "image": "helios"}, {"id": "d", "image": "thalatta"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "ἡ νύξ: night."},
+    {"type": "produce-form", "prompt": "Give the nominative plural of ναῦς ('ships', as subject).", "lemma": "ναῦς", "cell": "nom.pl", "skills": ["noun.decl3.naus"], "explain": "αἱ νῆες.", "audio": "νῆες"},
+    {"type": "produce-form", "prompt": "Give the feminine accusative of εἷς ('one ship', as object: ___ ναῦν).", "lemma": "εἷς", "cell": "acc.sg.f", "skills": ["num.cardinal", "adj.agree"], "explain": "μίαν ναῦν.", "audio": "μίαν"},
+    {"type": "produce-form", "prompt": "Give the genitive of τρεῖς ('of three days': ___ ἡμερῶν).", "lemma": "τρεῖς", "cell": "gen.pl.f", "skills": ["num.cardinal"], "explain": "τριῶν ἡμερῶν.", "audio": "τριῶν"},
+    {"type": "parse", "prompt": "Parse ναυσίν.", "form": "ναυσίν", "groups": [{"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "dat", "label": "dative"}, {"id": "acc", "label": "accusative"}]}, {"id": "number", "label": "Number", "options": [{"id": "sg", "label": "singular"}, {"id": "pl", "label": "plural"}]}], "answer": {"case": "dat", "number": "pl"}, "skills": ["noun.decl3.naus", "noun.decl3.dat.pl"], "explain": "ναυσί(ν): dative plural — ἐν ταῖς ναυσί.", "audio": "ναυσίν"},
+    {"type": "parse", "prompt": "Parse νυκτός.", "form": "νυκτός", "groups": [{"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "dat", "label": "dative"}, {"id": "acc", "label": "accusative"}]}, {"id": "number", "label": "Number", "options": [{"id": "sg", "label": "singular"}, {"id": "pl", "label": "plural"}]}], "answer": {"case": "gen", "number": "sg"}, "skills": ["noun.decl3.gen.sg", "syntax.time"], "explain": "νυκτός: genitive singular of νύξ — 'by night'.", "audio": "νυκτός"},
+    {"type": "cloze-choice", "prompt": "___ πλέουσιν. (for many days)", "options": [{"id": "a", "text": "πολλὰς ἡμέρας"}, {"id": "b", "text": "πολλαῖς ἡμέραις"}, {"id": "c", "text": "πολλῶν ἡμερῶν"}], "answer": "a", "skills": ["syntax.acc.extent", "syntax.time"], "explain": "Extent of time: accusative, πολλὰς ἡμέρας."},
+    {"type": "cloze-choice", "prompt": "___ ἡμέρᾳ εἰς Ποτείδαιαν ἀφικνοῦνται. (on the tenth day)", "options": [{"id": "a", "text": "τῇ δεκάτῃ"}, {"id": "b", "text": "τὴν δεκάτην"}, {"id": "c", "text": "τῆς δεκάτης"}], "answer": "a", "skills": ["syntax.dat.time", "syntax.time"], "explain": "Time when: dative, τῇ δεκάτῃ ἡμέρᾳ."},
+    {"type": "cloze-choice", "prompt": "«ποῖ βαίνετε;» — «___.»", "options": [{"id": "a", "text": "οἴκαδε"}, {"id": "b", "text": "οἴκοθεν"}, {"id": "c", "text": "οἴκοι"}], "answer": "a", "skills": ["adv.place", "syntax.question"], "explain": "ποῖ 'to where?' asks for -δε: οἴκαδε, 'home(wards)'."},
+    {"type": "cloze-choice", "prompt": "___ ναῦς ἐκ τοῦ λιμένος πλεῖ. (one ship)", "options": [{"id": "a", "text": "μία"}, {"id": "b", "text": "εἷς"}, {"id": "c", "text": "ἕν"}], "answer": "a", "skills": ["num.cardinal", "adj.agree"], "explain": "ναῦς is feminine: μία ναῦς."},
+    {"type": "transform", "prompt": "Change 'for three days' into 'on the third day' (τρίτος, -η, -ον): τρεῖς ἡμέρας μένει. → … ἡμέρᾳ βαίνει.", "template": "___ ἡμέρᾳ βαίνει.", "gaps": [{"answers": ["τῇ τρίτῃ", "τρίτῃ"]}], "skills": ["syntax.dat.time", "syntax.acc.extent"], "explain": "τῇ τρίτῃ ἡμέρᾳ βαίνει: dative for the point in time.", "audio": "τῇ τρίτῃ ἡμέρᾳ βαίνει."},
+    {"type": "transform", "prompt": "Answer with the matching adverb: «πόθεν ἥκετε;» — «οἴκοθεν.» «ποῖ βαίνετε;» — «…»", "template": "___.", "gaps": [{"answers": ["οἴκαδε"]}], "skills": ["adv.place"], "explain": "οἴκοθεν 'from home' ↔ οἴκαδε 'to home'.", "audio": "οἴκαδε"},
+    {"type": "locate", "prompt": "Tap the words that say how long (accusative of extent).", "sentence": "τρεῖς ἡμέρας ὁ Λύσις ἐν τῷ ἄστει μένει· τῇ δὲ τετάρτῃ ἡμέρᾳ εἰς τὸν Πειραιᾶ βαίνει.", "answer": [0, 1], "skills": ["read.locate", "syntax.acc.extent", "syntax.dat.time"], "explain": "τρεῖς ἡμέρας 'for three days' (accusative); τῇ τετάρτῃ ἡμέρᾳ is the dative, 'on the fourth day'."},
+    {"type": "locate", "prompt": "Tap every form of ναῦς.", "sentence": "δέκα νῆες ἐκ τοῦ λιμένος πλέουσιν· ἐν πάσῃ νηὶ πολλοὶ ἐρέται εἰσίν· οἱ ἐρέται τὴν ναῦν ἐλαύνουσιν.", "answer": [1, 8, 15], "skills": ["read.locate", "noun.decl3.naus"], "explain": "νῆες (nominative plural), νηί (dative singular), ναῦν (accusative singular)."},
+    {"type": "reorder", "prompt": "Put the words in order: 'Ten triremes sail out of the harbour.'", "tokens": ["δέκα", "τριήρεις", "ἐκ", "τοῦ", "λιμένος", "πλέουσιν"], "answers": ["δέκα τριήρεις ἐκ τοῦ λιμένος πλέουσιν", "ἐκ τοῦ λιμένος δέκα τριήρεις πλέουσιν", "δέκα τριήρεις πλέουσιν ἐκ τοῦ λιμένος", "πλέουσιν ἐκ τοῦ λιμένος δέκα τριήρεις"], "skills": ["syntax.word-order", "num.cardinal"], "explain": "δέκα τριήρεις ἐκ τοῦ λιμένος πλέουσιν."},
+    {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "δέκα νῆες ἐκ τοῦ λιμένος πλέουσιν.", "options": [{"id": "a", "text": "δύο νῆες ἐκ τοῦ λιμένος πλέουσιν."}, {"id": "b", "text": "δέκα νῆες ἐκ τοῦ λιμένος πλέουσιν."}, {"id": "c", "text": "δέκα νῆες ἐν τῷ λιμένι μένουσιν."}], "answer": "b", "skills": ["listen.sentences", "num.cardinal"], "explain": "Ten ships sail out of the harbour."},
+    {"type": "true-false-grc", "prompt": "ἡ Ἐλπὶς εἰς τὸν Πειραιᾶ βαίνει.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "Yes, this time she comes: καὶ ἡ Ἐλπὶς νῦν ἕπεται."},
+    {"type": "true-false-grc", "prompt": "αἱ τριήρεις εἰς Σαλαμῖνα πλέουσιν.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "εἰς Ποτείδαιαν πλέουσιν· ἐκεῖ γὰρ πόλεμός ἐστιν."},
+    {"type": "true-false-grc", "prompt": "ἔξεστι ταῖς κόραις πλεῖν.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension", "verb.impersonal"], "explain": "οὐκ ἔξεστιν· αἱ γὰρ τριήρεις ἀνδρῶν εἰσιν."},
+    {"type": "dictation", "prompt": "Listen and type what you hear.", "audio": "δέκα νῆες ἐκ τοῦ λιμένος πλέουσιν.", "gaps": [{"answers": ["δέκα νῆες ἐκ τοῦ λιμένος πλέουσιν", "δέκα νῆες ἐκ τοῦ λιμένος πλέουσι"]}], "skills": ["spell.dictation", "listen.sentences"], "explain": "δέκα νῆες ἐκ τοῦ λιμένος πλέουσιν."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'For three days Lysis stays in the town.'", "gaps": [{"answers": ["τρεῖς ἡμέρας ὁ Λύσις ἐν τῷ ἄστει μένει", "ὁ Λύσις τρεῖς ἡμέρας ἐν τῷ ἄστει μένει", "ὁ Λύσις ἐν τῷ ἄστει τρεῖς ἡμέρας μένει", "τρεῖς ἡμέρας μένει ὁ Λύσις ἐν τῷ ἄστει", "ὁ Λύσις μένει ἐν τῷ ἄστει τρεῖς ἡμέρας"]}], "skills": ["vocab.production", "syntax.acc.extent", "num.cardinal"], "explain": "τρεῖς ἡμέρας ὁ Λύσις ἐν τῷ ἄστει μένει."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Where are you (all) going? — Home.'", "template": "___; — ___.", "gaps": [{"answers": ["ποῖ βαίνετε"]}, {"answers": ["οἴκαδε"]}], "skills": ["vocab.production", "adv.place", "verb.pres.act.ind.2pl"], "explain": "ποῖ βαίνετε; — οἴκαδε."},
+    {"type": "translate-en", "prompt": "Translate: τρεῖς ἡμέρας ὁ Λύσις ἐν τῷ ἄστει μένει· τῇ δὲ τετάρτῃ ἡμέρᾳ ὁ Κλεινίας τοὺς παῖδας εἰς τὸν Πειραιᾶ ἄγει.", "audio": "τρεῖς ἡμέρας ὁ Λύσις ἐν τῷ ἄστει μένει· τῇ δὲ τετάρτῃ ἡμέρᾳ ὁ Κλεινίας τοὺς παῖδας εἰς τὸν Πειραιᾶ ἄγει.", "model": "For three days Lysis stays in the town; but on the fourth day Kleinias takes the children to Piraeus.", "skills": ["read.comprehension", "syntax.acc.extent", "syntax.dat.time"], "explain": "τρεῖς ἡμέρας: how long (accusative); τῇ τετάρτῃ ἡμέρᾳ: when (dative)."},
+    {"type": "word-family", "prompt": "Word Study · Match each Greek word to the English word that comes from it.", "pairs": [{"left": "ναῦς", "right": "astronaut (star-sailor)"}, {"left": "νῆσος", "right": "Polynesia (many islands)"}, {"left": "δέκα", "right": "decathlon"}, {"left": "πέντε", "right": "pentagon"}], "skills": ["vocab.family"], "explain": "ναύτης 'sailor' → -naut; πολυ-νησία; δέκα + ἆθλον 'contest'; πέντε + γωνία 'angle'."}
+  ],
+  "questions": [
+    {"type": "answer-grc", "prompt": "πόσας ἡμέρας ὁ Λύσις ἐν τῷ ἄστει μένει;", "audio": "prompt", "options": [{"id": "a", "text": "μίαν ἡμέραν."}, {"id": "b", "text": "τρεῖς ἡμέρας."}, {"id": "c", "text": "δέκα ἡμέρας."}], "answer": "b", "skills": ["read.comprehension", "syntax.acc.extent"], "explain": "τρεῖς ἡμέρας ὁ Λύσις ἐν τῷ ἄστει μένει."},
+    {"type": "answer-grc", "prompt": "τίς τοὺς παῖδας εἰς τὸν Πειραιᾶ ἄγει;", "audio": "prompt", "options": [{"id": "a", "text": "ὁ Ἀρίστων."}, {"id": "b", "text": "ὁ Σύρος."}, {"id": "c", "text": "ὁ Κλεινίας."}], "answer": "c", "skills": ["read.comprehension"], "explain": "ὁ Κλεινίας, ὁ πάππος, τοὺς παῖδας εἰς τὸν Πειραιᾶ ἄγει."},
+    {"type": "answer-grc", "prompt": "πόσαι νῆες ἐκ τοῦ λιμένος πλέουσιν;", "audio": "prompt", "options": [{"id": "a", "text": "δύο."}, {"id": "b", "text": "ἕξ."}, {"id": "c", "text": "δέκα."}], "answer": "c", "skills": ["read.comprehension", "num.cardinal"], "explain": "«δέκα νῆές εἰσιν!»"},
+    {"type": "answer-grc", "prompt": "ποῖ πλέουσιν αἱ τριήρεις;", "audio": "prompt", "options": [{"id": "a", "text": "εἰς Σαλαμῖνα."}, {"id": "b", "text": "εἰς Ποτείδαιαν."}, {"id": "c", "text": "Ἀθήναζε."}], "answer": "b", "skills": ["read.comprehension", "adv.place"], "explain": "δέκα τριήρεις εἰς Ποτείδαιαν πλέουσιν."},
+    {"type": "answer-grc", "prompt": "ἆρα ἔξεστι ταῖς κόραις πλεῖν;", "audio": "prompt", "options": [{"id": "a", "text": "ναί, ἔξεστιν."}, {"id": "b", "text": "οὐκ ἔξεστιν· αἱ γὰρ τριήρεις ἀνδρῶν εἰσιν."}], "answer": "b", "skills": ["read.comprehension", "verb.impersonal"], "explain": "So Kleinias says; but the sea, he adds, belongs to everyone."}
+  ],
+  "culture": {
+    "title": "The trireme and the fleet of 432",
+    "md": "The trireme (τριήρης) was the warship of the age: about 37 metres long and under 6 wide, built light for speed, with a bronze ram at the bow and 170 rowers seated in three staggered tiers on each side — the thranites on top, the zygites in the middle and the thalamites down in the hull, each pulling one oar. With some ten hoplites, four archers and a deck crew under the helmsman (κυβερνήτης), the full complement was about 200 men. Under sail it cruised; in battle the masts came down and it rowed, and a fresh crew could reach nine knots in a sprint, as the modern reconstruction *Olympias* showed in 1987. Triremes could not carry stores or sleep a crew, so fleets hugged the coast and beached or put into a harbour every night, exactly as Kleinias explains. At the start of the war in 431 Athens had 300 seaworthy triremes (Thucydides 2.13), kept in long roofed ship-sheds around the harbours of Zea and Munichia and the naval side of Kantharos. The rowers were mostly poorer citizens, metics and hired foreigners, paid a drachma a day in the Potidaea campaign; a wealthy citizen served as trierarch, commanding the ship and paying for its upkeep for a year. In the summer of 432 Athens was indeed sending ships north: first thirty under Archestratus, then forty more under Callias, to besiege Potidaea, a city that had revolted with Corinthian help — one of the sparks of the Peloponnesian War. The Lenormant relief on the Acropolis, carved around 410, still shows the rowers at their oars.",
+    "image": "culture-trireme"
+  },
+  "quiz": [
+    {"type": "produce-form", "prompt": "Give the accusative singular of ναῦς (as the object of ἐλαύνουσιν).", "lemma": "ναῦς", "cell": "acc.sg", "skills": ["noun.decl3.naus"], "explain": "τὴν ναῦν.", "audio": "ναῦν"},
+    {"type": "cloze-choice", "prompt": "___ ἡμέρας πλέουσιν. (for ten days)", "options": [{"id": "a", "text": "δέκα"}, {"id": "b", "text": "δεκάτῃ"}], "answer": "a", "skills": ["syntax.acc.extent", "num.cardinal"], "explain": "δέκα ἡμέρας: accusative of extent."},
+    {"type": "cloze-choice", "prompt": "«πόθεν ἥκετε;» — «___.»", "options": [{"id": "a", "text": "οἴκαδε"}, {"id": "b", "text": "οἴκοθεν"}, {"id": "c", "text": "ἐκεῖ"}], "answer": "b", "skills": ["adv.place"], "explain": "πόθεν asks 'from where?': οἴκοθεν."},
+    {"type": "parse", "prompt": "Parse νηί.", "form": "νηί", "groups": [{"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "dat", "label": "dative"}, {"id": "acc", "label": "accusative"}]}, {"id": "number", "label": "Number", "options": [{"id": "sg", "label": "singular"}, {"id": "pl", "label": "plural"}]}], "answer": {"case": "dat", "number": "sg"}, "skills": ["noun.decl3.naus"], "explain": "νηί: dative singular — ἐν πάσῃ νηί.", "audio": "νηί"},
+    {"type": "pick-picture", "prompt": "ἡ νῆσος", "audio": "prompt", "options": [{"id": "a", "image": "nesos"}, {"id": "b", "image": "limen"}, {"id": "c", "image": "naus"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "ἡ νῆσος: island."},
+    {"type": "true-false-grc", "prompt": "τῇ δεκάτῃ ἡμέρᾳ αἱ τριήρεις εἰς Ποτείδαιαν ἀφικνοῦνται.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension", "syntax.dat.time"], "explain": "Yes: on the tenth day."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Ten ships are in the harbour.'", "gaps": [{"answers": ["δέκα νῆες ἐν τῷ λιμένι εἰσίν", "δέκα νῆες ἐν τῷ λιμένι εἰσί", "ἐν τῷ λιμένι δέκα νῆές εἰσιν", "ἐν τῷ λιμένι δέκα νῆές εἰσι", "δέκα νῆές εἰσιν ἐν τῷ λιμένι", "δέκα νῆές εἰσι ἐν τῷ λιμένι"]}], "skills": ["vocab.production", "num.cardinal", "noun.decl3.naus"], "explain": "δέκα νῆες ἐν τῷ λιμένι εἰσίν."}
+  ],
+  "skills": ["num.cardinal", "noun.decl3.naus", "noun.decl3.dat.pl", "noun.decl3.gen.sg", "syntax.acc.extent", "syntax.dat.time", "syntax.time", "adv.place", "syntax.question", "adj.agree", "verb.impersonal", "verb.pres.act.ind.2pl", "syntax.word-order", "read.comprehension", "read.locate", "listen.sentences", "spell.dictation", "vocab.recognition", "vocab.production", "vocab.family"]
+}
