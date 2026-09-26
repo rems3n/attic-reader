@@ -175,7 +175,12 @@ def _validate_lesson(lid: str) -> list[str]:
                     stems = {stem}
                     if stem[-1:] in DEASPIRATE:
                         stems.add(stem[:-1] + DEASPIRATE[stem[-1]])
-                    if any(k.startswith(s) for s in stems for k in known | glossed):
+                    pool = known | glossed
+                    if len(stem) <= 1:
+                        # δ’, τ’, γ’, μ’, σ’: only the one-syllable word the mark stands for (δέ, τε, γε, με, σε)
+                        if any(s + v in pool for s in stems for v in "εαοι"):
+                            continue
+                    elif any(k.startswith(s) for s in stems for k in pool):
                         continue
                 out.append(f"{prefix}: story {pi}.{si} uses {tok!r} before it is taught (gloss it or add it to vocab/allow)")
             unknown = unknown_kokoro_symbols(prepare_kokoro_phonemes(attic_ipa(sent["text"])))
@@ -208,6 +213,28 @@ def _validate_lesson(lid: str) -> list[str]:
             out.append(f"{prefix}: unknown paradigm {p}")
     out += _validate_original(prefix, raw)
     return out
+
+
+def _validate_passage(section: dict, scope_lesson: str, scope_ids: list[str]) -> list[str]:
+    """An authored unseen passage in a unit test uses only what the unit has
+    taught (names and the section's own `allow` excepted): a learner who
+    passed the lessons can read it without help."""
+    known: set[str] = set()
+    for i in scope_ids:
+        known |= entry_forms(data.entry_by_id(i))
+    for n, fs in data.names_for(scope_lesson).items():
+        known.add(normalize_answer(n))
+        known |= {normalize_answer(f) for f in fs}
+    allow = {normalize_answer(k) for k in list(section.get("allow", {})) + list(section.get("glosses", {}))}
+    unknown = []
+    for tok in tokens(section["passage"]):
+        key = normalize_answer(tok)
+        if key in known or key in allow:
+            continue
+        if tok.endswith(ELISION_MARKS) and any(k.startswith(normalize_answer(tok[:-1])) for k in known):
+            continue
+        unknown.append(tok)
+    return [f"unseen passage uses untaught {', '.join(sorted(set(unknown)))} (teach it, or gloss it in the section's `glosses`)"] if unknown else []
 
 
 def _validate_original(prefix: str, raw: dict) -> list[str]:
@@ -347,6 +374,8 @@ def _validate_test(test_id: str) -> list[str]:
                 data.load_text(section["passage_from"])
             except data.CourseError as exc:
                 out.append(f"{prefix}: {exc}")
+        elif section.get("passage"):
+            out += [f"{prefix} {section.get('id')}: {p}" for p in _validate_passage(section, raw["scope"], scope_ids)]
         for item in section.get("items", []):
             out += [f"{prefix} {section.get('id')} {item.get('id')}: {p}" for p in _validate_item(item, scope_ids)]
         gen = section.get("generate")

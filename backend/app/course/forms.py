@@ -30,11 +30,11 @@ PERSONS = ("1sg", "2sg", "3sg", "1pl", "2pl", "3pl")
 
 CASE_LABEL = {"nom": "nominative", "gen": "genitive", "dat": "dative", "acc": "accusative", "voc": "vocative"}
 NUMBER_LABEL = {"sg": "singular", "pl": "plural"}
-GENDER_LABEL = {"m": "masculine", "f": "feminine", "n": "neuter"}
+GENDER_LABEL = {"m": "masculine", "f": "feminine", "n": "neuter", "mf": "masculine/feminine"}
 PERSON_LABEL = {"1sg": "1st singular", "2sg": "2nd singular", "3sg": "3rd singular", "1pl": "1st plural", "2pl": "2nd plural", "3pl": "3rd plural", "inf": "infinitive"}
 CASE_LABEL_GRC = {"nom": "ὀνομαστική", "gen": "γενική", "dat": "δοτική", "acc": "αἰτιατική", "voc": "κλητική"}
 NUMBER_LABEL_GRC = {"sg": "ἑνικός", "pl": "πληθυντικός"}
-GENDER_LABEL_GRC = {"m": "ἀρσενικόν", "f": "θηλυκόν", "n": "οὐδέτερον"}
+GENDER_LABEL_GRC = {"m": "ἀρσενικόν", "f": "θηλυκόν", "n": "οὐδέτερον", "mf": "ἀρσενικὸν καὶ θηλυκόν"}
 
 
 def _table(entry: dict) -> dict | None:
@@ -84,7 +84,8 @@ def _all_cells(entry: dict) -> list[tuple[str, list[str]]]:
                 if tb.get("note", "").startswith("Periphrastic"):
                     continue
                 for cell in tb["cells"]:
-                    forms = [_clean(f) for f in cell["forms"] if f]
+                    # a periphrastic cell (γεγραμμένοι εἰσί(ν), λελυκὼς ὦ) is not one form: skip it
+                    forms = [_clean(f) for f in cell["forms"] if f and " " not in f.strip()]
                     if forms:
                         out.append((f"{tb['tense']}.{tb['voice']}.{tb['mood']}.{cell['tag']}", forms))
                 if tb["mood"] == "participle":
@@ -156,6 +157,10 @@ def entry_forms(entry: dict) -> set[str]:
     """Accent-insensitive keys of every surface form of the entry, including
     the lemma, listed alternative forms and movable-ν variants."""
     keys: set[str] = {normalize_answer(entry["lemma"])}
+    # correlative pairs stored as one entry (μέν...δέ, εἴτε...εἴτε, οὔτε...οὔτε): each half on its own
+    for sep in ("...", "…"):
+        if sep in entry["lemma"]:
+            keys |= {normalize_answer(part) for part in entry["lemma"].split(sep) if part.strip()}
     for f in entry.get("morph", {}).get("forms", []) or []:
         keys.add(normalize_answer(f))
     for _, forms in all_cells(entry):

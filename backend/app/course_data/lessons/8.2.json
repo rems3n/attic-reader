@@ -53,16 +53,7 @@
    "Ἕλληνας"
   ]
  },
- "allow": {
-  "ὀλίγους": "unit 7",
-  "ὀλίγα": "unit 7",
-  "περὶ": "unit 7",
-  "τε": "unit 7",
-  "ἀμφότεροι": "unit 7",
-  "διὰ": "unit 7",
-  "κατὰ": "unit 7",
-  "μέν": "μέν … δέ, unit 7 (μέν itself taught in 2.2)"
- },
+ "allow": {},
  "story": [
   {
    "image": "panel-8-2-a",
@@ -1155,16 +1146,12 @@
     {
      "left": "συγγράφω (γράφω)",
      "right": "historiography"
-    },
-    {
-     "left": "ἄγγελος (not in this lesson: messenger)",
-     "right": "angel"
     }
    ],
    "skills": [
     "vocab.family"
    ],
-   "explain": "χρονο-λογία; πλεῖστος + καινός 'most recent (epoch)'; ἱστορία + γράφω; ἄγγελος 'messenger' became 'angel', a messenger of God."
+   "explain": "χρονο-λογία 'the account of time'; πλεῖστος + καινός 'most recent (epoch)'; ἱστορία + γράφω 'writing history', what Thucydides sets out to do."
   }
  ],
  "questions": [

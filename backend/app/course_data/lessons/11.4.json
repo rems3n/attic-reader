@@ -37,20 +37,7 @@
    "Ὀρέστα"
   ]
  },
- "allow": {
-  "ἅμα": "unit 7",
-  "τέλος": "unit 7",
-  "δίδωσιν": "unit 7",
-  "ὡς": "unit 7",
-  "πολλοὶ": "unit 8",
-  "ἐὰν": "unit 8",
-  "οὕτω": "unit 10",
-  "ὥστε": "unit 10",
-  "ἕνεκα": "unit 10",
-  "ἔξω": "unit 10",
-  "τοσαῦτα": "unit 9",
-  "φησίν": "unit 9"
- },
+ "allow": {},
  "story": [
   {
    "image": "panel-11-4-a",
@@ -237,6 +224,11 @@
        "word": "Ὀρέστης",
        "kind": "note",
        "value": "In the myth Orestes, tried at Athens for killing his mother, was acquitted when the votes were equal and Athena's vote decided (Aeschylus, Eumenides, 458 BC)."
+      },
+      {
+       "word": "οὕτω",
+       "kind": "en",
+       "value": "= οὕτως (before a consonant)"
       }
      ]
     },

@@ -25,26 +25,7 @@
    "Πλάταιαν"
   ]
  },
- "allow": {
-  "θαυμάζει": "unit 7",
-  "ὑπὲρ": "unit 7",
-  "παρέστω": "unit 7",
-  "ἐκίνησας": "unit 9",
-  "οὐκέτι": "unit 9",
-  "ὀρθὸς": "unit 9",
-  "τοσούτοις": "unit 9",
-  "παρέδωκα": "unit 9",
-  "ἀποθανοῦσα": "unit 9",
-  "πρᾶγμα": "unit 10",
-  "πράγματα": "unit 10",
-  "ἀρχῆς": "unit 10",
-  "οὕτως": "unit 10",
-  "δεινὴ": "unit 10",
-  "ἔδοξέ": "unit 8",
-  "χρόνον": "unit 8",
-  "χρόνῳ": "unit 8",
-  "ἐπίστευον": "unit 8"
- },
+ "allow": {},
  "original": {
   "text": "lysias-1.6",
   "note": "Lysias 1.6–7, On the Murder of Eratosthenes, which paragraph 3 adapts. Lysias (c. 445–380), a metic who became the most admired speechwriter in Athens, wrote this speech around 400 BC, about thirty years after our story, for Euphiletus, an ordinary Athenian on trial for killing a man he had caught with his wife. These are the first words of his story: a marriage, a baby, trust, and a funeral where the trouble began. Demokritos and his friends never heard it; it is here because it shows how a plain Athenian began to tell his case."
@@ -99,6 +80,11 @@
        "word": "κεῖται",
        "kind": "|",
        "value": "κεῖμαι | κεῖται (lies)"
+      },
+      {
+       "word": "ὀρθὸς",
+       "kind": "en",
+       "value": "upright, straight; right"
       }
      ]
     },
@@ -587,7 +573,7 @@
   "ἀδύνατός εἰμι λέγειν. — τὸ πρᾶγμα οὐκ ἀδύνατόν ἐστιν."
  ],
  "grammar": {
-  "md": "**Let him …: third-person imperatives.** You know λέγε! and λέγετε! (speak!, to *you*). Greek also gives orders about a third person: ὁ ἄρχων τὴν δίκην **ἀκουέτω** 'let the magistrate hear the case'; οἱ δικασταὶ **κρινόντων** 'let the jurors judge'. English needs 'let him …' or 'he is to …'; Greek has its own endings:\n\n| | active | middle/passive |\n|---|---|---|\n| present 3 sg | λυ**έτω** | λυ**έσθω** |\n| present 3 pl | λυ**όντων** | λυ**έσθων** |\n| aorist 3 sg | λυσ**άτω** | λυσ**άσθω** |\n| aorist 3 pl | λυσ**άντων** | λυσ**άσθων** |\n| εἰμί | **ἔστω** 'let him be' | ἔστων / ὄντων |\n\nThe sign is **-τω** (sg.) and **-ντων / -σθων** (pl.). Contracts contract as usual: σιγάω → σιγάτω, ποιέω → ποιείτω. Second aorists take the present endings on the aorist stem: ἐλθέτω, λαβέτω. The negative is μή: μὴ λεγέτω 'let him not speak'. Watch λυόντων: it is also the genitive plural of the participle (τῶν λυόντων). A command stands alone, usually with a nominative subject; the participle needs an article or a noun to lean on.\n\n**Verbal adjectives.** Two adjectives are made from the verb stem (roughly the aorist passive stem without -θ-):\n\n- **-τός, -τή, -τόν**: *can be done* or *has been done*. δυνατός 'possible, able', **ἀδύνατος** 'impossible, unable' (a compound, so only two endings: ἀδύνατος, ἀδύνατον), θαυμαστός 'to be wondered at, wonderful'.\n- **-τέος, -τέα, -τέον**: *must be done*. ποιη-τέος (ποιέω, ἐποιήθην), λεκ-τέος (λέγω, ἐλέχθην), ζητη-τέος (ζητέω).\n\nThe -τέος adjective is used two ways. **Personal**, agreeing with a noun: μάρτυρες **ζητητέοι** εἰσί 'witnesses are to be found, must be found'. **Impersonal**, in the neuter singular (sometimes plural) with ἐστί, and it may take an object like a verb: τὸ ἀληθὲς **λεκτέον** (ἐστίν) 'one must tell the truth'. The person who must act is in the **dative**: σοὶ αὐτῷ λεκτέον ἐστίν 'you yourself must speak'; τί ποιητέον **μοι**; 'what must I do?'. Compare δεῖ σε λέγειν: same meaning, accusative + infinitive.\n\n**Reading Lysias.** Paragraph 3 is adapted from a real speech (see the original below the story). The Greek is plain on purpose: Lysias makes his client sound like an honest man telling a simple story. Notice ἐπειδή 'when', the historic present γίγνεται, and μὲν οὖν 'well then', which moves the story on.",
+  "md": "**Let him …: third-person imperatives.** You know λέγε! and λέγετε! (speak!, to *you*). Greek also gives orders about a third person: ὁ ἄρχων τὴν δίκην **ἀκουέτω** 'let the magistrate hear the case'; οἱ δικασταὶ **κρινόντων** 'let the jurors judge'. English needs 'let him …' or 'he is to …'; Greek has its own endings:\n\n| | active | middle/passive |\n|---|---|---|\n| present 3 sg | λυ**έτω** | λυ**έσθω** |\n| present 3 pl | λυ**όντων** | λυ**έσθων** |\n| aorist 3 sg | λυσ**άτω** | λυσ**άσθω** |\n| aorist 3 pl | λυσ**άντων** | λυσ**άσθων** |\n| εἰμί 3 sg / 3 pl | **ἔστω** 'let him be' / ἔστων (ὄντων) | — |\n\nThe sign is **-τω** (sg.) and **-ντων / -σθων** (pl.). Contracts contract as usual: σιγάω → σιγάτω, ποιέω → ποιείτω. Second aorists take the present endings on the aorist stem: ἐλθέτω, λαβέτω. The negative is μή: μὴ λεγέτω 'let him not speak'. Watch λυόντων: it is also the genitive plural of the participle (τῶν λυόντων). A command stands alone, usually with a nominative subject; the participle needs an article or a noun to lean on.\n\n**Verbal adjectives.** Two adjectives are made from the verb stem (roughly the aorist passive stem without -θ-):\n\n- **-τός, -τή, -τόν**: *can be done* or *has been done*. δυνατός 'possible, able', **ἀδύνατος** 'impossible, unable' (a compound, so only two endings: ἀδύνατος, ἀδύνατον), θαυμαστός 'to be wondered at, wonderful'.\n- **-τέος, -τέα, -τέον**: *must be done*. ποιη-τέος (ποιέω, ἐποιήθην), λεκ-τέος (λέγω, ἐλέχθην), ζητη-τέος (ζητέω).\n\nThe -τέος adjective is used two ways. **Personal**, agreeing with a noun: μάρτυρες **ζητητέοι** εἰσί 'witnesses are to be found, must be found'. **Impersonal**, in the neuter singular (sometimes plural) with ἐστί, and it may take an object like a verb: τὸ ἀληθὲς **λεκτέον** (ἐστίν) 'one must tell the truth'. The person who must act is in the **dative**: σοὶ αὐτῷ λεκτέον ἐστίν 'you yourself must speak'; τί ποιητέον **μοι**; 'what must I do?'. Compare δεῖ σε λέγειν: same meaning, accusative + infinitive.\n\n**Reading Lysias.** Paragraph 3 is adapted from a real speech (see the original below the story). The Greek is plain on purpose: Lysias makes his client sound like an honest man telling a simple story. Notice ἐπειδή 'when', the historic present γίγνεται, and μὲν οὖν 'well then', which moves the story on.",
   "paradigms": [
    "luo",
    "adynatos"

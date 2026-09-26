@@ -23,7 +23,7 @@ with sync_playwright() as p:
     page.evaluate("(doc) => localStorage.setItem('attic.srs.v1', JSON.stringify(doc))", {"version": 2, "cards": {}, "settings": {"direction":"both","cardTypes":[],"sessionSize":20,"syncCode":"","autoSpeak":False,"showEnglish":True,"accents":"lenient"}, "log": [], "course": {"lessons": lessons, "tests": {}, "skills": {}, "errors": [], "rereads": {}, "goal": {"minutesPerDay": 15}, "activity": []}})
     # lesson 6.3: read step renders story + glosses, then exercises
     page.goto(f"{FRONT}/course/lesson/6.3?step=2")
-    expect(page.locator(".storyReader, .story, main")).to_be_visible()
+    expect(page.locator("main").first).to_be_visible()
     expect(page.locator("main")).to_contain_text("ὑφαίνει")
     page.screenshot(path=f"{SHOTS}/u6-read.png", full_page=True)
     page.goto(f"{FRONT}/course/lesson/6.3?step=5")

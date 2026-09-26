@@ -99,6 +99,11 @@ export default function TestPage() {
                   <p lang="grc" className="passageText"><SpeakButton text={s.passage} play={play} busy={busy} small /> {s.passage}</p>
                   {s.passage_source && <p className="muted small">{[s.passage_source.author, s.passage_source.work, s.passage_source.ref].filter(Boolean).join(", ")} · unadapted</p>}
                   {s.passage_note && <p className="muted small">{s.passage_note}</p>}
+                  {s.glosses && Object.keys(s.glosses).length > 0 && (
+                    <p className="passageGlosses small">
+                      {Object.entries(s.glosses).map(([w, g]) => <span key={w}><span lang="grc">{w}</span> {g}</span>)}
+                    </p>
+                  )}
                 </div>
               );
             }}

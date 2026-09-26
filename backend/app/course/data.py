@@ -249,8 +249,10 @@ def entry_lessons() -> dict[str, list[str]]:
 
 def names_for(lesson_id: str) -> dict[str, list[str]]:
     """Proper names allowed in a lesson: course-wide plus lesson-local."""
-    names = dict(load_course().get("names", {}))
-    names.update(load_lesson(lesson_id).get("names", {}))
+    names = {k: list(v) for k, v in load_course().get("names", {}).items()}
+    for name, forms in load_lesson(lesson_id).get("names", {}).items():
+        # a lesson may add forms to a course-wide name (Ἕλλησιν) without repeating the list
+        names[name] = list(dict.fromkeys(names.get(name, []) + list(forms)))
     return names
 
 
@@ -346,7 +348,7 @@ def resolve_test(test_id: str, seed: int | None = None) -> dict:
     return out
 
 
-PLACEMENT_PER_UNIT = 8
+PLACEMENT_PER_UNIT = 6
 PLACEMENT_STOP_MISSES = 3
 PLACEMENT_PASS = 0.6
 

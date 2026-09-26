@@ -2621,7 +2621,34 @@
    "verb": {
     "aorist_stem": "εἰπ",
     "no_augment": true,
-    "no_aorist_middle": true
+    "no_aorist_middle": true,
+    "tables": [
+     {
+      "tense": "perfect",
+      "voice": "middle/passive",
+      "mood": "indicative",
+      "forms": "εἴρημαι εἴρησαι εἴρηται εἰρήμεθα εἴρησθε εἴρηνται",
+      "note": "In the sense ‘say’ the perfect middle/passive is εἴρημαι (from the root of ἐρῶ); λέλεγμαι means ‘have been chosen’."
+     },
+     {
+      "tense": "perfect",
+      "voice": "middle/passive",
+      "mood": "infinitive",
+      "forms": "εἰρῆσθαι"
+     },
+     {
+      "tense": "perfect",
+      "voice": "middle/passive",
+      "mood": "participle",
+      "forms": "εἰρημένος εἰρημένη εἰρημένον εἰρημένου"
+     },
+     {
+      "tense": "pluperfect",
+      "voice": "middle/passive",
+      "mood": "indicative",
+      "forms": "εἰρήμην εἴρησο εἴρητο εἰρήμεθα εἴρησθε εἴρηντο"
+     }
+    ]
    }
   },
   "readings": [
@@ -10130,14 +10157,28 @@
       "voice": "active",
       "mood": "participle",
       "forms": "ἰών ἰοῦσα ἰόν ἰόντος"
+     },
+     {
+      "tense": "imperfect",
+      "voice": "active",
+      "mood": "indicative",
+      "forms": "ᾖα/ᾔειν ᾔεισθα/ᾔεις ᾔει(ν) ᾖμεν ᾖτε ᾖσαν/ᾔεσαν",
+      "note": "In Attic prose the imperfect of ἔρχομαι is ᾖα/ᾔειν, from εἶμι."
      }
     ],
     "drop": [
-     "future.middle"
+     "future.middle",
+     "imperfect.middle",
+     "imperfect.middle/passive"
     ]
    }
   },
   "readings": [
+   {
+    "id": "thuc-1.1",
+    "sentence": 0,
+    "form": "ᾖσαν"
+   },
    {
     "id": "plato-crito-43a",
     "sentence": 13,
@@ -11837,7 +11878,11 @@
     "πέπονθα"
    ],
    "verb": {
-    "no_aorist_middle": true
+    "no_aorist_middle": true,
+    "drop": [
+     "imperfect.middle/passive",
+     "present.middle/passive"
+    ]
    }
   },
   "readings": [
@@ -12512,7 +12557,13 @@
    ],
    "verb": {
     "contract": "eta",
-    "no_aorist_middle": true
+    "no_aorist_middle": true,
+    "drop": [
+     "imperfect.middle/passive",
+     "perfect.active",
+     "pluperfect.active",
+     "present.middle/passive"
+    ]
    }
   },
   "readings": []
@@ -16972,7 +17023,38 @@
     "ἀποτέθνηκα"
    ],
    "verb": {
-    "no_aorist_middle": true
+    "no_aorist_middle": true,
+    "tables": [
+     {
+      "tense": "perfect",
+      "voice": "active",
+      "mood": "indicative",
+      "forms": "τέθνηκα τέθνηκας τέθνηκε(ν) τεθνήκαμεν/τέθναμεν τεθνήκατε/τέθνατε τεθνήκασι(ν)/τεθνᾶσι(ν)",
+      "note": "The perfect comes from the simplex: τέθνηκα ‘I am dead’ (short forms τέθναμεν, τεθνάναι, τεθνεώς are common)."
+     },
+     {
+      "tense": "perfect",
+      "voice": "active",
+      "mood": "infinitive",
+      "forms": "τεθνηκέναι/τεθνάναι"
+     },
+     {
+      "tense": "perfect",
+      "voice": "active",
+      "mood": "participle",
+      "forms": "τεθνηκώς τεθνηκυῖα τεθνηκός τεθνηκότος"
+     },
+     {
+      "tense": "pluperfect",
+      "voice": "active",
+      "mood": "indicative",
+      "forms": "ἐτεθνήκη ἐτεθνήκης ἐτεθνήκει(ν) ἐτεθνήκεμεν ἐτεθνήκετε ἐτεθνήκεσαν"
+     }
+    ],
+    "drop": [
+     "imperfect.middle/passive",
+     "present.middle/passive"
+    ]
    }
   },
   "readings": []
@@ -24541,13 +24623,21 @@
      "ἐρωτάω"
     ],
     "future": [
+     "ἐρωτήσω",
      "ἐρήσομαι"
     ],
     "aorist": [
+     "ἠρώτησα",
      "ἠρόμην"
+    ],
+    "aorist-1": [
+     "ἠρώτησα"
     ],
     "aorist-2": [
      "ἠρόμην"
+    ],
+    "perfect": [
+     "ἠρώτηκα"
     ]
    },
    "extra": {},

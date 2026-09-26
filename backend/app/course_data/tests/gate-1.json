@@ -12,37 +12,520 @@
       "id": "vocab",
       "title": "Λέξεις · Vocabulary",
       "items": [
-        {"type": "pick-picture", "prompt": "κύλιξ", "audio": "prompt", "options": [{"id": "a", "image": "kylix"}, {"id": "b", "image": "hydria"}, {"id": "c", "image": "ploion"}, {"id": "d", "image": "histos"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "ἡ κύλιξ: drinking cup."},
-        {"type": "pick-picture", "prompt": "ἱστός", "audio": "prompt", "options": [{"id": "a", "image": "histos"}, {"id": "b", "image": "erion"}, {"id": "c", "image": "peplos"}, {"id": "d", "image": "kylix"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "ὁ ἱστός: loom."},
-        {"type": "pick-picture", "prompt": "ἀετός", "audio": "prompt", "options": [{"id": "a", "image": "aetos"}, {"id": "b", "image": "kyon"}, {"id": "c", "image": "hippos"}, {"id": "d", "image": "oros"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "ὁ ἀετός: eagle."},
-        {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ὁ ἔμπορος", "options": [{"id": "a", "text": "ὁ ἔμπορος"}, {"id": "b", "text": "τὸ ἔριον"}, {"id": "c", "text": "ὁ ὀβολός"}], "answer": "a", "skills": ["listen.words"], "explain": "ὁ ἔμπορος: merchant."},
-        {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ἡ κύλιξ δύο δραχμῶν ἐστιν.", "options": [{"id": "a", "text": "ἡ κύλιξ δύο δραχμῶν ἐστιν."}, {"id": "b", "text": "ἡ κύλιξ δύο ὀβολῶν ἐστιν."}, {"id": "c", "text": "ἡ ὑδρία δύο δραχμῶν ἐστιν."}], "answer": "a", "skills": ["listen.sentences"], "explain": "The cup costs two drachmas."},
-        {"type": "match", "prompt": "Match the Greek to the English.", "pairs": [{"left": "πωλεῖ", "right": "sells"}, {"left": "ὠνεῖται", "right": "buys"}, {"left": "δύναται", "right": "is able"}, {"left": "ἐπίσταται", "right": "knows how"}, {"left": "πληροῖ", "right": "fills"}], "skills": ["vocab.recognition"], "explain": "πωλεῖ, ὠνεῖται, δύναται, ἐπίσταται, πληροῖ."},
-        {"type": "cloze-type", "prompt": "Type the Greek for 'money' (with its article).", "gaps": [{"answers": ["τὸ ἀργύριον", "ἀργύριον"]}], "skills": ["vocab.production"], "explain": "τὸ ἀργύριον.", "audio": "τὸ ἀργύριον"},
-        {"type": "cloze-type", "prompt": "Type the Greek for 'winter' (with its article).", "gaps": [{"answers": ["ὁ χειμών", "χειμών"]}], "skills": ["vocab.production"], "explain": "ὁ χειμών.", "audio": "ὁ χειμών"}
+        {
+          "type": "pick-picture",
+          "prompt": "κύλιξ",
+          "audio": "prompt",
+          "options": [
+            {
+              "id": "a",
+              "image": "kylix"
+            },
+            {
+              "id": "b",
+              "image": "hydria"
+            },
+            {
+              "id": "c",
+              "image": "ploion"
+            },
+            {
+              "id": "d",
+              "image": "histos"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "vocab.recognition"
+          ],
+          "explain": "ἡ κύλιξ: drinking cup."
+        },
+        {
+          "type": "pick-picture",
+          "prompt": "ἱστός",
+          "audio": "prompt",
+          "options": [
+            {
+              "id": "a",
+              "image": "histos"
+            },
+            {
+              "id": "b",
+              "image": "erion"
+            },
+            {
+              "id": "c",
+              "image": "peplos"
+            },
+            {
+              "id": "d",
+              "image": "kylix"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "vocab.recognition"
+          ],
+          "explain": "ὁ ἱστός: loom."
+        },
+        {
+          "type": "pick-picture",
+          "prompt": "ἀετός",
+          "audio": "prompt",
+          "options": [
+            {
+              "id": "a",
+              "image": "aetos"
+            },
+            {
+              "id": "b",
+              "image": "kyon"
+            },
+            {
+              "id": "c",
+              "image": "hippos"
+            },
+            {
+              "id": "d",
+              "image": "oros"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "vocab.recognition"
+          ],
+          "explain": "ὁ ἀετός: eagle."
+        },
+        {
+          "type": "listen-pick",
+          "prompt": "Listen and choose what you hear.",
+          "audio": "ὁ ἔμπορος",
+          "options": [
+            {
+              "id": "a",
+              "text": "ὁ ἔμπορος"
+            },
+            {
+              "id": "b",
+              "text": "τὸ ἔριον"
+            },
+            {
+              "id": "c",
+              "text": "ὁ ὀβολός"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "listen.words"
+          ],
+          "explain": "ὁ ἔμπορος: merchant."
+        },
+        {
+          "type": "listen-pick",
+          "prompt": "Listen and choose what you hear.",
+          "audio": "ἡ κύλιξ δύο δραχμῶν ἐστιν.",
+          "options": [
+            {
+              "id": "a",
+              "text": "ἡ κύλιξ δύο δραχμῶν ἐστιν."
+            },
+            {
+              "id": "b",
+              "text": "ἡ κύλιξ δύο ὀβολῶν ἐστιν."
+            },
+            {
+              "id": "c",
+              "text": "ἡ ὑδρία δύο δραχμῶν ἐστιν."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "listen.sentences"
+          ],
+          "explain": "The cup costs two drachmas."
+        },
+        {
+          "type": "match",
+          "prompt": "Match the Greek to the English.",
+          "pairs": [
+            {
+              "left": "πωλεῖ",
+              "right": "sells"
+            },
+            {
+              "left": "ὠνεῖται",
+              "right": "buys"
+            },
+            {
+              "left": "δύναται",
+              "right": "is able"
+            },
+            {
+              "left": "ἐπίσταται",
+              "right": "knows how"
+            },
+            {
+              "left": "πληροῖ",
+              "right": "fills"
+            }
+          ],
+          "skills": [
+            "vocab.recognition"
+          ],
+          "explain": "πωλεῖ, ὠνεῖται, δύναται, ἐπίσταται, πληροῖ."
+        },
+        {
+          "type": "cloze-type",
+          "prompt": "Type the Greek for 'money' (with its article).",
+          "gaps": [
+            {
+              "answers": [
+                "τὸ ἀργύριον",
+                "ἀργύριον"
+              ]
+            }
+          ],
+          "skills": [
+            "vocab.production"
+          ],
+          "explain": "τὸ ἀργύριον.",
+          "audio": "τὸ ἀργύριον"
+        },
+        {
+          "type": "cloze-type",
+          "prompt": "Type the Greek for 'winter' (with its article).",
+          "gaps": [
+            {
+              "answers": [
+                "ὁ χειμών",
+                "χειμών"
+              ]
+            }
+          ],
+          "skills": [
+            "vocab.production"
+          ],
+          "explain": "ὁ χειμών.",
+          "audio": "ὁ χειμών"
+        }
       ]
     },
     {
       "id": "forms",
       "title": "Τύποι · Forms",
       "items": [
-        {"type": "parse", "prompt": "Parse μείζονα (as in μείζονα κύλικα).", "form": "μείζονα", "groups": [{"id": "degree", "label": "Degree", "options": [{"id": "pos", "label": "positive"}, {"id": "comp", "label": "comparative"}, {"id": "sup", "label": "superlative"}]}, {"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "dat", "label": "dative"}, {"id": "acc", "label": "accusative"}]}], "answer": {"degree": "comp", "case": "acc"}, "skills": ["adj.irregular-compare"], "explain": "μείζων 'bigger', accusative singular μείζονα.", "audio": "μείζονα"},
-        {"type": "parse", "prompt": "Parse ἐδύνατο.", "form": "ἐδύνατο", "groups": [{"id": "tense", "label": "Tense", "options": [{"id": "pres", "label": "present"}, {"id": "impf", "label": "imperfect"}, {"id": "aor", "label": "aorist"}]}, {"id": "person", "label": "Person and number", "options": [{"id": "1sg", "label": "1st singular"}, {"id": "3sg", "label": "3rd singular"}, {"id": "3pl", "label": "3rd plural"}]}], "answer": {"tense": "impf", "person": "3sg"}, "skills": ["verb.mi.dynamai", "verb.impf.mp.ind.3sg"], "explain": "ἐ-δύνα-το: imperfect of δύναμαι, 3rd singular, 'he/she was able'.", "audio": "ἐδύνατο"}
+        {
+          "type": "parse",
+          "prompt": "Parse μείζονα (as in μείζονα κύλικα).",
+          "form": "μείζονα",
+          "groups": [
+            {
+              "id": "degree",
+              "label": "Degree",
+              "options": [
+                {
+                  "id": "pos",
+                  "label": "positive"
+                },
+                {
+                  "id": "comp",
+                  "label": "comparative"
+                },
+                {
+                  "id": "sup",
+                  "label": "superlative"
+                }
+              ]
+            },
+            {
+              "id": "case",
+              "label": "Case",
+              "options": [
+                {
+                  "id": "nom",
+                  "label": "nominative"
+                },
+                {
+                  "id": "gen",
+                  "label": "genitive"
+                },
+                {
+                  "id": "dat",
+                  "label": "dative"
+                },
+                {
+                  "id": "acc",
+                  "label": "accusative"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "degree": "comp",
+            "case": "acc"
+          },
+          "skills": [
+            "adj.irregular-compare"
+          ],
+          "explain": "μείζων 'bigger', accusative singular μείζονα.",
+          "audio": "μείζονα"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse ἐδύνατο.",
+          "form": "ἐδύνατο",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                }
+              ]
+            },
+            {
+              "id": "person",
+              "label": "Person and number",
+              "options": [
+                {
+                  "id": "1sg",
+                  "label": "1st singular"
+                },
+                {
+                  "id": "3sg",
+                  "label": "3rd singular"
+                },
+                {
+                  "id": "3pl",
+                  "label": "3rd plural"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "impf",
+            "person": "3sg"
+          },
+          "skills": [
+            "verb.mi.dynamai",
+            "verb.impf.mp.ind.3sg"
+          ],
+          "explain": "ἐ-δύνα-το: imperfect of δύναμαι, 3rd singular, 'he/she was able'.",
+          "audio": "ἐδύνατο"
+        }
       ],
-      "generate": {"skills": ["noun.decl1.gen.sg", "noun.decl2.dat.pl", "noun.decl3.acc.sg", "art.gen.pl", "verb.pres.act.ind.3pl", "verb.impf.act.ind.3sg", "verb.aor.act.ind.3sg", "verb.pres.mp.ind.3sg", "verb.eimi.impf.ind.3sg", "adj.agree"], "n": 10, "seed": 6}
+      "generate": {
+        "skills": [
+          "noun.decl1.gen.sg",
+          "noun.decl2.dat.pl",
+          "noun.decl3.acc.sg",
+          "art.gen.pl",
+          "verb.pres.act.ind.3pl",
+          "verb.impf.act.ind.3sg",
+          "verb.aor.act.ind.3sg",
+          "verb.pres.mp.ind.3sg",
+          "verb.eimi.impf.ind.3sg",
+          "adj.agree"
+        ],
+        "n": 10,
+        "seed": 6
+      }
     },
     {
       "id": "sentences",
       "title": "Λόγοι · Sentences",
       "items": [
-        {"type": "cloze-choice", "prompt": "ἡ κύλιξ καλλίων ἐστὶν ___ ἡ ὑδρία.", "options": [{"id": "a", "text": "ἤ"}, {"id": "b", "text": "καί"}, {"id": "c", "text": "ὡς"}], "answer": "a", "skills": ["syntax.comparison"], "explain": "ἤ 'than'."},
-        {"type": "cloze-choice", "prompt": "τοῦ ___ οὐδεὶς πλεῖ.", "options": [{"id": "a", "text": "χειμῶνος"}, {"id": "b", "text": "χειμῶνα"}, {"id": "c", "text": "χειμῶνι"}], "answer": "a", "skills": ["syntax.time", "noun.decl3.gen.sg"], "explain": "Time within which: genitive."},
-        {"type": "cloze-choice", "prompt": "___ ἥκεις; — ἐκ Μιλήτου.", "options": [{"id": "a", "text": "πόθεν"}, {"id": "b", "text": "ποῖ"}, {"id": "c", "text": "πότε"}], "answer": "a", "skills": ["adv.interrog-indef"], "explain": "'From Miletus' answers πόθεν; 'from where?'."},
-        {"type": "cloze-choice", "prompt": "ἡ Ἐλπὶς οὐ ___ ὑφαίνειν.", "options": [{"id": "a", "text": "δύναται"}, {"id": "b", "text": "δύνανται"}, {"id": "c", "text": "δύνασθε"}], "answer": "a", "skills": ["verb.mi.dynamai", "syntax.infinitive"], "explain": "Singular subject: δύναται."},
-        {"type": "transform", "prompt": "Say it with the genitive instead of ἤ: ὁ ἵππος μείζων ἐστὶν ἢ ὁ κύων. → ὁ ἵππος μείζων ἐστὶ …", "template": "ὁ ἵππος μείζων ἐστὶ ___.", "gaps": [{"answers": ["τοῦ κυνός"]}], "skills": ["syntax.comparison", "noun.decl3.gen.sg"], "explain": "Genitive of comparison: τοῦ κυνός."},
-        {"type": "transform", "prompt": "Put the verb into the aorist: ἡ Ἐλπὶς πρὸς τὸν ἱστὸν ἵσταται. → ἡ Ἐλπὶς πρὸς τὸν ἱστὸν …", "template": "ἡ Ἐλπὶς πρὸς τὸν ἱστὸν ___.", "gaps": [{"answers": ["ἔστη"]}], "skills": ["verb.aor.root"], "explain": "Root aorist: ἔστη."},
-        {"type": "reorder", "prompt": "Put the words in order: 'This merchant sells cups.'", "tokens": ["οὗτος", "ὁ", "ἔμπορος", "κύλικας", "πωλεῖ"], "answers": ["οὗτος ὁ ἔμπορος κύλικας πωλεῖ", "ὁ ἔμπορος οὗτος κύλικας πωλεῖ", "οὗτος ὁ ἔμπορος πωλεῖ κύλικας", "κύλικας πωλεῖ οὗτος ὁ ἔμπορος", "ὁ ἔμπορος οὗτος πωλεῖ κύλικας"], "skills": ["syntax.word-order", "pron.demonstrative"], "explain": "οὗτος ὁ ἔμπορος κύλικας πωλεῖ."},
-        {"type": "compose-grc", "prompt": "Write in Greek: 'The cup costs two drachmas; the bread costs an obol.'", "template": "___· ___.", "gaps": [{"answers": ["ἡ κύλιξ δύο δραχμῶν ἐστιν", "ἡ κύλιξ δύο δραχμῶν ἐστι", "ἡ μὲν κύλιξ δύο δραχμῶν ἐστιν", "ἡ μὲν κύλιξ δύο δραχμῶν ἐστι", "δύο δραχμῶν ἐστιν ἡ κύλιξ"]}, {"answers": ["ὁ ἄρτος ὀβολοῦ ἐστιν", "ὁ ἄρτος ὀβολοῦ ἐστι", "ὁ δὲ ἄρτος ὀβολοῦ ἐστιν", "ὁ δὲ ἄρτος ὀβολοῦ ἐστι", "ὁ δὲ ἄρτος ὀβολοῦ", "ὀβολοῦ ἐστιν ὁ ἄρτος"]}], "skills": ["vocab.production", "syntax.gen.uses"], "explain": "ἡ μὲν κύλιξ δύο δραχμῶν ἐστιν· ὁ δὲ ἄρτος ὀβολοῦ."}
+        {
+          "type": "cloze-choice",
+          "prompt": "ἡ κύλιξ καλλίων ἐστὶν ___ ἡ ὑδρία.",
+          "options": [
+            {
+              "id": "a",
+              "text": "ἤ"
+            },
+            {
+              "id": "b",
+              "text": "καί"
+            },
+            {
+              "id": "c",
+              "text": "ὡς"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "syntax.comparison"
+          ],
+          "explain": "ἤ 'than'."
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "τοῦ ___ οὐδεὶς πλεῖ.",
+          "options": [
+            {
+              "id": "a",
+              "text": "χειμῶνος"
+            },
+            {
+              "id": "b",
+              "text": "χειμῶνα"
+            },
+            {
+              "id": "c",
+              "text": "χειμῶνι"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "syntax.time",
+            "noun.decl3.gen.sg"
+          ],
+          "explain": "Time within which: genitive."
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "___ ἥκεις; — ἐκ Μιλήτου.",
+          "options": [
+            {
+              "id": "a",
+              "text": "πόθεν"
+            },
+            {
+              "id": "b",
+              "text": "ποῖ"
+            },
+            {
+              "id": "c",
+              "text": "πότε"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "adv.interrog-indef"
+          ],
+          "explain": "'From Miletus' answers πόθεν; 'from where?'."
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "ἡ Ἐλπὶς οὐ ___ ὑφαίνειν.",
+          "options": [
+            {
+              "id": "a",
+              "text": "δύναται"
+            },
+            {
+              "id": "b",
+              "text": "δύνανται"
+            },
+            {
+              "id": "c",
+              "text": "δύνασθε"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "verb.mi.dynamai",
+            "syntax.infinitive"
+          ],
+          "explain": "Singular subject: δύναται."
+        },
+        {
+          "type": "transform",
+          "prompt": "Say it with the genitive instead of ἤ: ὁ ἵππος μείζων ἐστὶν ἢ ὁ κύων. → ὁ ἵππος μείζων ἐστὶ …",
+          "template": "ὁ ἵππος μείζων ἐστὶ ___.",
+          "gaps": [
+            {
+              "answers": [
+                "τοῦ κυνός"
+              ]
+            }
+          ],
+          "skills": [
+            "syntax.comparison",
+            "noun.decl3.gen.sg"
+          ],
+          "explain": "Genitive of comparison: τοῦ κυνός."
+        },
+        {
+          "type": "transform",
+          "prompt": "Put the verb into the aorist: ἡ Ἐλπὶς πρὸς τὸν ἱστὸν ἵσταται. → ἡ Ἐλπὶς πρὸς τὸν ἱστὸν …",
+          "template": "ἡ Ἐλπὶς πρὸς τὸν ἱστὸν ___.",
+          "gaps": [
+            {
+              "answers": [
+                "ἔστη"
+              ]
+            }
+          ],
+          "skills": [
+            "verb.aor.root"
+          ],
+          "explain": "Root aorist: ἔστη."
+        },
+        {
+          "type": "reorder",
+          "prompt": "Put the words in order: 'This merchant sells cups.'",
+          "tokens": [
+            "οὗτος",
+            "ὁ",
+            "ἔμπορος",
+            "κύλικας",
+            "πωλεῖ"
+          ],
+          "answers": [
+            "οὗτος ὁ ἔμπορος κύλικας πωλεῖ",
+            "ὁ ἔμπορος οὗτος κύλικας πωλεῖ",
+            "οὗτος ὁ ἔμπορος πωλεῖ κύλικας",
+            "κύλικας πωλεῖ οὗτος ὁ ἔμπορος",
+            "ὁ ἔμπορος οὗτος πωλεῖ κύλικας"
+          ],
+          "skills": [
+            "syntax.word-order",
+            "pron.demonstrative"
+          ],
+          "explain": "οὗτος ὁ ἔμπορος κύλικας πωλεῖ."
+        },
+        {
+          "type": "compose-grc",
+          "prompt": "Write in Greek: 'The cup costs two drachmas; the bread costs an obol.'",
+          "template": "___· ___.",
+          "gaps": [
+            {
+              "answers": [
+                "ἡ κύλιξ δύο δραχμῶν ἐστιν",
+                "ἡ κύλιξ δύο δραχμῶν ἐστι",
+                "ἡ μὲν κύλιξ δύο δραχμῶν ἐστιν",
+                "ἡ μὲν κύλιξ δύο δραχμῶν ἐστι",
+                "δύο δραχμῶν ἐστιν ἡ κύλιξ"
+              ]
+            },
+            {
+              "answers": [
+                "ὁ ἄρτος ὀβολοῦ ἐστιν",
+                "ὁ ἄρτος ὀβολοῦ ἐστι",
+                "ὁ δὲ ἄρτος ὀβολοῦ ἐστιν",
+                "ὁ δὲ ἄρτος ὀβολοῦ ἐστι",
+                "ὁ δὲ ἄρτος ὀβολοῦ",
+                "ὀβολοῦ ἐστιν ὁ ἄρτος"
+              ]
+            }
+          ],
+          "skills": [
+            "vocab.production",
+            "syntax.gen.uses"
+          ],
+          "explain": "ἡ μὲν κύλιξ δύο δραχμῶν ἐστιν· ὁ δὲ ἄρτος ὀβολοῦ."
+        }
       ]
     },
     {
@@ -51,18 +534,336 @@
       "passage_title": "Δευκαλίων καὶ Πύρρα (adapted from Apollodorus, Library 1.7.2)",
       "passage": "ὁ Δευκαλίων υἱὸς ἦν τοῦ Προμηθέως· γυναῖκα δὲ εἶχε τὴν Πύρραν. ἐν ἐκείνῳ τῷ χρόνῳ οἱ ἄνθρωποι κακοὶ ἦσαν, καὶ ὁ Ζεὺς πολὺ ὕδωρ ἐπὶ τὴν γῆν πέμπειν ἐβούλετο. ὁ δὲ Προμηθεύς, ὃς πάντα ἐγίγνωσκε, τῷ Δευκαλίωνι εἶπε· «ποίησον μέγα πλοῖον καὶ βαῖνε εἰς αὐτὸ μετὰ τῆς γυναικός.» ὁ Δευκαλίων οὕτως ἐποίησε. ὁ δὲ Ζεὺς πολὺ ὕδωρ ἐκ τοῦ οὐρανοῦ ἔπεμψε, καὶ πᾶσα ἡ γῆ θάλαττα ἐγένετο· οἱ δὲ ἄνθρωποι πάντες ἀπέθανον. ὁ δὲ Δευκαλίων ἐννέα ἡμέρας καὶ ἐννέα νύκτας ἐν τῷ πλοίῳ ἔπλει· τῇ δὲ δεκάτῃ ἡμέρᾳ πρὸς ὄρος μέγα, τὸν Παρνασσόν, ἦλθε. ἐκεῖ ἐκ τοῦ πλοίου ἐξέβη καὶ τῷ Διὶ ἔθυσε. ὁ δὲ Ζεὺς τὸν Ἑρμῆν πρὸς αὐτὸν ἔπεμψε· «τί βούλει;» «ἀνθρώπους βούλομαι», εἶπεν ὁ Δευκαλίων. ὁ οὖν Ζεὺς ἐκέλευσεν αὐτὸν λίθους ὑπὲρ τῆς κεφαλῆς βάλλειν. καὶ οἱ μὲν λίθοι, οὓς ὁ Δευκαλίων ἔβαλλεν, ἄνδρες ἐγένοντο, οἱ δὲ τῆς Πύρρας γυναῖκες. οὕτως οἱ ἄνθρωποι πάλιν ἐγένοντο.",
       "items": [
-        {"type": "answer-grc", "prompt": "τίς ἦν ὁ πατὴρ τοῦ Δευκαλίωνος;", "options": [{"id": "a", "text": "ὁ Προμηθεύς."}, {"id": "b", "text": "ὁ Ζεύς."}, {"id": "c", "text": "ὁ Ἑρμῆς."}], "answer": "a", "skills": ["read.comprehension", "read.myth"], "explain": "ὁ Δευκαλίων υἱὸς ἦν τοῦ Προμηθέως."},
-        {"type": "answer-grc", "prompt": "τί ἐκέλευσεν ὁ Προμηθεὺς τὸν Δευκαλίωνα ποιεῖν;", "options": [{"id": "a", "text": "μέγα πλοῖον."}, {"id": "b", "text": "μεγάλην οἰκίαν."}, {"id": "c", "text": "κύλικας."}], "answer": "a", "skills": ["read.comprehension", "read.myth"], "explain": "«ποίησον μέγα πλοῖον.»"},
-        {"type": "answer-grc", "prompt": "πόσας ἡμέρας ἔπλει ὁ Δευκαλίων;", "options": [{"id": "a", "text": "ἐννέα."}, {"id": "b", "text": "δέκα."}, {"id": "c", "text": "τρεῖς."}], "answer": "a", "skills": ["read.comprehension", "syntax.acc.extent"], "explain": "ἐννέα ἡμέρας καὶ ἐννέα νύκτας ἔπλει· τῇ δεκάτῃ ἡμέρᾳ ἦλθε."},
-        {"type": "answer-grc", "prompt": "ποῖ ἦλθε τῇ δεκάτῃ ἡμέρᾳ;", "options": [{"id": "a", "text": "πρὸς τὸν Παρνασσόν."}, {"id": "b", "text": "εἰς τὰς Ἀθήνας."}, {"id": "c", "text": "εἰς τὴν Μίλητον."}], "answer": "a", "skills": ["read.comprehension", "adv.interrog-indef"], "explain": "πρὸς ὄρος μέγα, τὸν Παρνασσόν, ἦλθε."},
-        {"type": "answer-grc", "prompt": "τίνες ἐγένοντο οἱ λίθοι τῆς Πύρρας;", "options": [{"id": "a", "text": "γυναῖκες."}, {"id": "b", "text": "ἄνδρες."}, {"id": "c", "text": "πλοῖα."}], "answer": "a", "skills": ["read.comprehension", "read.myth"], "explain": "οἱ δὲ τῆς Πύρρας γυναῖκες (ἐγένοντο)."},
-        {"type": "parse", "prompt": "Parse ἔπεμψε (from the passage).", "form": "ἔπεμψε", "groups": [{"id": "tense", "label": "Tense", "options": [{"id": "pres", "label": "present"}, {"id": "impf", "label": "imperfect"}, {"id": "aor", "label": "aorist"}]}, {"id": "person", "label": "Person and number", "options": [{"id": "1sg", "label": "1st singular"}, {"id": "3sg", "label": "3rd singular"}, {"id": "3pl", "label": "3rd plural"}]}], "answer": {"tense": "aor", "person": "3sg"}, "skills": ["verb.aor.act.ind.3sg", "verb.aor1.sigma"], "explain": "ἔ-πεμψ-ε: aorist 3rd singular of πέμπω, 'he sent'.", "audio": "ἔπεμψε"},
-        {"type": "parse", "prompt": "Parse ἐκείνῳ (from ἐν ἐκείνῳ τῷ χρόνῳ).", "form": "ἐκείνῳ", "groups": [{"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "dat", "label": "dative"}, {"id": "acc", "label": "accusative"}]}, {"id": "gender", "label": "Gender", "options": [{"id": "m", "label": "masculine"}, {"id": "f", "label": "feminine"}, {"id": "n", "label": "neuter"}]}], "answer": {"case": "dat", "gender": "m"}, "skills": ["pron.demonstrative", "syntax.dat.time"], "explain": "ἐκείνῳ agrees with τῷ χρόνῳ: dative masculine, 'at that time'.", "audio": "ἐκείνῳ"},
-        {"type": "parse", "prompt": "Parse ἐγένοντο.", "form": "ἐγένοντο", "groups": [{"id": "tense", "label": "Tense", "options": [{"id": "pres", "label": "present"}, {"id": "impf", "label": "imperfect"}, {"id": "aor", "label": "aorist"}]}, {"id": "person", "label": "Person and number", "options": [{"id": "1sg", "label": "1st singular"}, {"id": "3sg", "label": "3rd singular"}, {"id": "3pl", "label": "3rd plural"}]}], "answer": {"tense": "aor", "person": "3pl"}, "skills": ["verb.aor2.stem", "verb.deponent"], "explain": "ἐ-γεν-οντο: second aorist of γίγνομαι, 3rd plural, 'they became'.", "audio": "ἐγένοντο"},
-        {"type": "translate-en", "prompt": "Translate: ἐν ἐκείνῳ τῷ χρόνῳ οἱ ἄνθρωποι κακοὶ ἦσαν.", "model": "At that time human beings were wicked.", "skills": ["read.comprehension", "pron.demonstrative"], "explain": "ἐν ἐκείνῳ τῷ χρόνῳ 'at that time'; ἦσαν 'they were'."},
-        {"type": "translate-en", "prompt": "Translate: ὁ Δευκαλίων ἐννέα ἡμέρας καὶ ἐννέα νύκτας ἐν τῷ πλοίῳ ἔπλει.", "model": "Deucalion sailed in the boat for nine days and nine nights.", "skills": ["read.comprehension", "syntax.acc.extent"], "explain": "Accusative of extent: for nine days and nine nights; ἔπλει imperfect, 'kept sailing'."},
-        {"type": "translate-en", "prompt": "Translate: οἱ λίθοι, οὓς ὁ Δευκαλίων ἔβαλλεν, ἄνδρες ἐγένοντο.", "model": "The stones which Deucalion was throwing became men.", "skills": ["read.comprehension", "syntax.relative-clause"], "explain": "οὕς: accusative, the object of ἔβαλλεν inside its clause; ἄνδρες is the predicate of ἐγένοντο."}
-      ]
+        {
+          "type": "answer-grc",
+          "prompt": "τίς ἦν ὁ πατὴρ τοῦ Δευκαλίωνος;",
+          "options": [
+            {
+              "id": "a",
+              "text": "ὁ Προμηθεύς."
+            },
+            {
+              "id": "b",
+              "text": "ὁ Ζεύς."
+            },
+            {
+              "id": "c",
+              "text": "ὁ Ἑρμῆς."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.comprehension",
+            "read.myth"
+          ],
+          "explain": "ὁ Δευκαλίων υἱὸς ἦν τοῦ Προμηθέως."
+        },
+        {
+          "type": "answer-grc",
+          "prompt": "τί ἐκέλευσεν ὁ Προμηθεὺς τὸν Δευκαλίωνα ποιεῖν;",
+          "options": [
+            {
+              "id": "a",
+              "text": "μέγα πλοῖον."
+            },
+            {
+              "id": "b",
+              "text": "μεγάλην οἰκίαν."
+            },
+            {
+              "id": "c",
+              "text": "κύλικας."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.comprehension",
+            "read.myth"
+          ],
+          "explain": "«ποίησον μέγα πλοῖον.»"
+        },
+        {
+          "type": "answer-grc",
+          "prompt": "πόσας ἡμέρας ἔπλει ὁ Δευκαλίων;",
+          "options": [
+            {
+              "id": "a",
+              "text": "ἐννέα."
+            },
+            {
+              "id": "b",
+              "text": "δέκα."
+            },
+            {
+              "id": "c",
+              "text": "τρεῖς."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.comprehension",
+            "syntax.acc.extent"
+          ],
+          "explain": "ἐννέα ἡμέρας καὶ ἐννέα νύκτας ἔπλει· τῇ δεκάτῃ ἡμέρᾳ ἦλθε."
+        },
+        {
+          "type": "answer-grc",
+          "prompt": "ποῖ ἦλθε τῇ δεκάτῃ ἡμέρᾳ;",
+          "options": [
+            {
+              "id": "a",
+              "text": "πρὸς τὸν Παρνασσόν."
+            },
+            {
+              "id": "b",
+              "text": "εἰς τὰς Ἀθήνας."
+            },
+            {
+              "id": "c",
+              "text": "εἰς τὴν Μίλητον."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.comprehension",
+            "adv.interrog-indef"
+          ],
+          "explain": "πρὸς ὄρος μέγα, τὸν Παρνασσόν, ἦλθε."
+        },
+        {
+          "type": "answer-grc",
+          "prompt": "τίνες ἐγένοντο οἱ λίθοι τῆς Πύρρας;",
+          "options": [
+            {
+              "id": "a",
+              "text": "γυναῖκες."
+            },
+            {
+              "id": "b",
+              "text": "ἄνδρες."
+            },
+            {
+              "id": "c",
+              "text": "πλοῖα."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.comprehension",
+            "read.myth"
+          ],
+          "explain": "οἱ δὲ τῆς Πύρρας γυναῖκες (ἐγένοντο)."
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse ἔπεμψε (from the passage).",
+          "form": "ἔπεμψε",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                }
+              ]
+            },
+            {
+              "id": "person",
+              "label": "Person and number",
+              "options": [
+                {
+                  "id": "1sg",
+                  "label": "1st singular"
+                },
+                {
+                  "id": "3sg",
+                  "label": "3rd singular"
+                },
+                {
+                  "id": "3pl",
+                  "label": "3rd plural"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "aor",
+            "person": "3sg"
+          },
+          "skills": [
+            "verb.aor.act.ind.3sg",
+            "verb.aor1.sigma"
+          ],
+          "explain": "ἔ-πεμψ-ε: aorist 3rd singular of πέμπω, 'he sent'.",
+          "audio": "ἔπεμψε"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse ἐκείνῳ (from ἐν ἐκείνῳ τῷ χρόνῳ).",
+          "form": "ἐκείνῳ",
+          "groups": [
+            {
+              "id": "case",
+              "label": "Case",
+              "options": [
+                {
+                  "id": "nom",
+                  "label": "nominative"
+                },
+                {
+                  "id": "gen",
+                  "label": "genitive"
+                },
+                {
+                  "id": "dat",
+                  "label": "dative"
+                },
+                {
+                  "id": "acc",
+                  "label": "accusative"
+                }
+              ]
+            },
+            {
+              "id": "gender",
+              "label": "Gender",
+              "options": [
+                {
+                  "id": "m",
+                  "label": "masculine"
+                },
+                {
+                  "id": "f",
+                  "label": "feminine"
+                },
+                {
+                  "id": "n",
+                  "label": "neuter"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "case": "dat",
+            "gender": "m"
+          },
+          "skills": [
+            "pron.demonstrative",
+            "syntax.dat.time"
+          ],
+          "explain": "ἐκείνῳ agrees with τῷ χρόνῳ: dative masculine, 'at that time'.",
+          "audio": "ἐκείνῳ"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse ἐγένοντο.",
+          "form": "ἐγένοντο",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                }
+              ]
+            },
+            {
+              "id": "person",
+              "label": "Person and number",
+              "options": [
+                {
+                  "id": "1sg",
+                  "label": "1st singular"
+                },
+                {
+                  "id": "3sg",
+                  "label": "3rd singular"
+                },
+                {
+                  "id": "3pl",
+                  "label": "3rd plural"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "aor",
+            "person": "3pl"
+          },
+          "skills": [
+            "verb.aor2.stem",
+            "verb.deponent"
+          ],
+          "explain": "ἐ-γεν-οντο: second aorist of γίγνομαι, 3rd plural, 'they became'.",
+          "audio": "ἐγένοντο"
+        },
+        {
+          "type": "translate-en",
+          "prompt": "Translate: ἐν ἐκείνῳ τῷ χρόνῳ οἱ ἄνθρωποι κακοὶ ἦσαν.",
+          "model": "At that time human beings were wicked.",
+          "skills": [
+            "read.comprehension",
+            "pron.demonstrative"
+          ],
+          "explain": "ἐν ἐκείνῳ τῷ χρόνῳ 'at that time'; ἦσαν 'they were'."
+        },
+        {
+          "type": "translate-en",
+          "prompt": "Translate: ὁ Δευκαλίων ἐννέα ἡμέρας καὶ ἐννέα νύκτας ἐν τῷ πλοίῳ ἔπλει.",
+          "model": "Deucalion sailed in the boat for nine days and nine nights.",
+          "skills": [
+            "read.comprehension",
+            "syntax.acc.extent"
+          ],
+          "explain": "Accusative of extent: for nine days and nine nights; ἔπλει imperfect, 'kept sailing'."
+        },
+        {
+          "type": "translate-en",
+          "prompt": "Translate: οἱ λίθοι, οὓς ὁ Δευκαλίων ἔβαλλεν, ἄνδρες ἐγένοντο.",
+          "model": "The stones which Deucalion was throwing became men.",
+          "skills": [
+            "read.comprehension",
+            "syntax.relative-clause"
+          ],
+          "explain": "οὕς: accusative, the object of ἔβαλλεν inside its clause; ἄνδρες is the predicate of ἐγένοντο."
+        }
+      ],
+      "glosses": {
+        "Δευκαλίων": "Deucalion",
+        "Δευκαλίωνι": "Deucalion (dat.)",
+        "Παρνασσόν": "Mount Parnassus",
+        "Πύρραν": "Pyrrha (acc.)",
+        "Πύρρας": "Pyrrha (gen.)",
+        "δεκάτῃ": "tenth",
+        "κεφαλῆς": "head (gen.)",
+        "οὕτως": "thus, so",
+        "πολὺ": "much",
+        "χρόνῳ": "time (dat.)",
+        "ἀπέθανον": "they died (ἀποθνῄσκω)",
+        "ἐκέλευσεν": "ordered (κελεύω)",
+        "ἐξέβη": "stepped out (ἐκβαίνω)",
+        "ὑπὲρ": "over, above"
+      }
     }
   ]
 }

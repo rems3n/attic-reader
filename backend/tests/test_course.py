@@ -209,7 +209,7 @@ def test_course_api():
     body = r.json()
     assert r.status_code == 200 and body["item_count"] >= 25 and body["pass_score"] == 0.8
     assert any(i.get("generated") for s in body["sections"] for i in s["items"])
-    assert client.get("/api/course/test/unit-9").status_code == 404
+    assert client.get("/api/course/test/unit-99").status_code == 404
     r = client.get("/api/course/drill", params={"skills": "noun.decl2.dat.sg,art.nom.sg", "scope": "1.2", "n": 4})
     assert r.status_code == 200 and len(r.json()["items"]) == 4
     assert client.get("/api/course/drill", params={"skills": "x", "scope": "nope"}).status_code == 404
@@ -334,3 +334,19 @@ def test_lemma_skill_drills_and_attic_future_of_erchomai():
     tachys = next(e for e in data.all_entries() if e["lemma"] == "ταχύς")
     assert cell_forms(tachys, "comp.nom.sg.n") == ["θᾶττον"]
     assert cell_forms(next(e for e in data.all_entries() if e["lemma"] == "σοφός"), "adv") == ["σοφῶς"]
+
+
+def test_every_test_and_placement_resolves_for_many_seeds():
+    """Generated sections draw on the whole lexicon: every unit test, gate and
+    the placement must build for any attempt number without an error."""
+    import json as _json
+
+    course = _json.loads((data.DATA_DIR / "course.json").read_text("utf-8"))
+    tests = [u["test"] for s in course["stages"] for u in s["units"] if u.get("test") and (data.DATA_DIR / "tests" / f"{u['test']}.json").exists()]
+    assert len(tests) >= 11
+    for seed in range(12):
+        for t in tests:
+            out = data.resolve_test(t, seed=seed)
+            assert out["item_count"] > 0
+        p = data.resolve_placement(seed=seed)
+        assert all(1 <= len(b["items"]) <= p["per_unit"] for b in p["blocks"])

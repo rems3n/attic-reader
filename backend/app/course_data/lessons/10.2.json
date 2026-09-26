@@ -7,24 +7,7 @@
  "cover": "panel-10-2-a",
  "caption_grc": "ὁ Σωκράτης ἐξ ἕω ἕστηκεν. «ἃ μὴ οἶδα, οὐδὲ οἴομαι εἰδέναι.»",
  "names": {},
- "allow": {
-  "ἔφη": "unit 9",
-  "ἐθαύμασεν": "unit 7",
-  "ὅτι": "unit 8",
-  "ὅταν": "unit 8",
-  "πολὺ": "unit 8",
-  "ἕτερον": "unit 7",
-  "μόνον": "unit 9",
-  "ὀρθῶς": "unit 9",
-  "ὅστις": "unit 8",
-  "οἴεται": "unit 9",
-  "οἴομαι": "unit 9",
-  "ἀλήθειαν": "unit 7",
-  "παρὰ": "unit 9",
-  "πέπονθα": "unit 9",
-  "ὑπὸ": "unit 8",
-  "Σώκρατες": "vocative of the course name Σωκράτης"
- },
+ "allow": {},
  "story": [
   {
    "image": "panel-10-2-a",
@@ -324,6 +307,11 @@
        "word": "μᾶλλον",
        "kind": "en",
        "value": "more"
+      },
+      {
+       "word": "ὀρθῶς",
+       "kind": "en",
+       "value": "rightly, correctly"
       }
      ]
     },

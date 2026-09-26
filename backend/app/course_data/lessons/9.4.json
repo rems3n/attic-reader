@@ -37,9 +37,7 @@
    "Δίωνα"
   ]
  },
- "allow": {
-  "πολλοὶ": "unit 8 (πολύς)"
- },
+ "allow": {},
  "story": [
   {
    "image": "panel-9-4-a",
@@ -1051,23 +1049,24 @@
   },
   {
    "type": "transform",
-   "prompt": "Report the question: ὁ Λύσις· «ἆρα ὁ πατὴρ ἀποθνῄσκει;» → ὁ Λύσις ἤρετο εἰ ὁ πατὴρ …",
-   "template": "ὁ Λύσις ἤρετο εἰ ὁ πατὴρ ___.",
+   "prompt": "Report the question: ὁ Λύσις· «ἆρα οἱ Μεγαρῆς φεύγουσιν;» → ὁ Λύσις ἤρετο εἰ οἱ Μεγαρῆς …",
+   "template": "ὁ Λύσις ἤρετο εἰ οἱ Μεγαρῆς ___.",
    "gaps": [
     {
      "answers": [
-      "ἀποθνῄσκοι",
-      "ἀποθνῄσκει"
+      "φεύγοιεν",
+      "φεύγουσιν",
+      "φεύγουσι"
      ]
     }
    ],
    "skills": [
     "syntax.opt-indirect",
     "syntax.indirect-question",
-    "verb.pres.act.opt.3sg"
+    "verb.pres.act.opt.3pl"
    ],
-   "explain": "Present indicative → present optative: ἀποθνῄσκοι (or kept: ἀποθνῄσκει).",
-   "audio": "ὁ Λύσις ἤρετο εἰ ὁ πατὴρ ἀποθνῄσκοι."
+   "explain": "Present indicative → present optative: φεύγοιεν (or kept: φεύγουσιν).",
+   "audio": "ὁ Λύσις ἤρετο εἰ οἱ Μεγαρῆς φεύγοιεν."
   },
   {
    "type": "locate",
@@ -1557,7 +1556,7 @@
   "verb.aor2.stem",
   "verb.aor.pass.ind.3pl",
   "verb.aor.act.opt.3sg",
-  "verb.pres.act.opt.3sg",
+  "verb.pres.act.opt.3pl",
   "verb.ptc.aor.act.acc",
   "syntax.word-order",
   "read.comprehension",

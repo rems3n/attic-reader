@@ -11,25 +11,7 @@
   "note": "Xenophon, Memorabilia 1.1.1–4: the charge against Socrates and Xenophon's answer to it. Xenophon was born about the time of our story and wrote this long after Socrates' trial and death in 399 BC. In paragraph 3 Demokritos voices the kind of talk that later became the formal charge, and Ariston answers with Xenophon's own defence."
  },
  "names": {},
- "allow": {
-  "Σώκρατες": "vocative of the course name Σωκράτης",
-  "ἅμα": "unit 7",
-  "ἐθαύμασεν": "unit 7",
-  "θαυμάζουσιν": "unit 7",
-  "ὀρθῶς": "unit 9",
-  "ταχέως": "unit 7",
-  "οἴομαι": "unit 9",
-  "χρήματα": "unit 8",
-  "χρημάτων": "unit 8",
-  "τότε": "unit 8",
-  "ἀδικεῖ": "unit 7",
-  "νομίζει": "unit 9",
-  "ἕτερα": "unit 7",
-  "πιστεύσαιμι": "unit 8",
-  "κοινῶν": "unit 8",
-  "ὅτι": "unit 8",
-  "εὐθὺς": "unit 8"
- },
+ "allow": {},
  "story": [
   {
    "image": "panel-10-3-a",
@@ -181,6 +163,11 @@
        "word": "ταχέως",
        "kind": "en",
        "value": "fast"
+      },
+      {
+       "word": "ὀρθῶς",
+       "kind": "en",
+       "value": "rightly, correctly"
       }
      ]
     },

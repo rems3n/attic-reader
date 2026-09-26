@@ -224,10 +224,15 @@ def _plan_for_skill(skill: str, scope_ids: list[str]) -> list[tuple[dict, str]]:
         tense, voice, mood, tag = m.groups()
         out = []
         for e in _verbs_for_voice(scope_ids, voice):
-            for v in _voice_names(voice):
-                cell = f"{TENSE[tense]}.{v}.{MOOD[mood]}.{tag}"
-                if cell_forms(e, cell):
-                    out.append((e, cell))
+            done = False
+            for t in _tense_names(TENSE[tense]):
+                for v in _voice_names(voice):
+                    cell = f"{t}.{v}.{MOOD[mood]}.{tag}"
+                    if cell_forms(e, cell):
+                        out.append((e, cell))
+                        done = True
+                        break
+                if done:
                     break
         return out
     m = INF_RE.match(skill)
@@ -235,10 +240,15 @@ def _plan_for_skill(skill: str, scope_ids: list[str]) -> list[tuple[dict, str]]:
         tense, voice = m.groups()
         out = []
         for e in _verbs_for_voice(scope_ids, voice):
-            for v in _voice_names(voice):
-                cell = f"{TENSE[tense]}.{v}.infinitive.inf"
-                if cell_forms(e, cell):
-                    out.append((e, cell))
+            done = False
+            for t in _tense_names(TENSE[tense]):
+                for v in _voice_names(voice):
+                    cell = f"{t}.{v}.infinitive.inf"
+                    if cell_forms(e, cell):
+                        out.append((e, cell))
+                        done = True
+                        break
+                if done:
                     break
         return out
     if skill in LEMMA_SKILLS:
@@ -267,15 +277,18 @@ def _plan_for_skill(skill: str, scope_ids: list[str]) -> list[tuple[dict, str]]:
         out = []
         for tense_name, voice in combos:
             for e in _verbs_for_voice(scope_ids, voice):
-                for v in _voice_names(voice):
-                    found = False
-                    for c in cases:
-                        for num in numbers:
-                            for g in GENDERS:
-                                cell = f"{tense_name}.{v}.participle.{c}.{num}.{g}"
-                                if cell_forms(e, cell):
-                                    out.append((e, cell))
-                                    found = True
+                found = False
+                for t in _tense_names(tense_name):
+                    for v in _voice_names(voice):
+                        for c in cases:
+                            for num in numbers:
+                                for g in GENDERS:
+                                    cell = f"{t}.{v}.participle.{c}.{num}.{g}"
+                                    if cell_forms(e, cell):
+                                        out.append((e, cell))
+                                        found = True
+                        if found:
+                            break
                     if found:
                         break
         return out
@@ -305,12 +318,23 @@ def _plan_for_skill(skill: str, scope_ids: list[str]) -> list[tuple[dict, str]]:
 
 def _voice_names(voice: str) -> tuple[str, ...]:
     """Table voice labels to try for a skill voice: a deponent's present is
-    filed under "middle", an active verb's under "middle/passive"."""
+    filed under "middle", an active verb's under "middle/passive"; the
+    present-system passive is the middle/passive table."""
     if voice == "mp":
         return ("middle/passive", "middle")
     if voice == "mid":
         return ("middle", "middle/passive")
+    if voice == "pass":
+        return ("passive", "middle/passive")
     return (VOICE[voice],)
+
+
+def _tense_names(tense: str) -> tuple[str, ...]:
+    """Table tense labels for a skill tense: second aorist passives (ἐτάφην,
+    διεφθάρην) and root aorists (ἔστην) have their own labels."""
+    if tense == "aorist":
+        return ("aorist", "second aorist", "root aorist")
+    return (tense,)
 
 
 def _verbs_for_voice(scope_ids: list[str], voice: str) -> list[dict]:
@@ -318,6 +342,9 @@ def _verbs_for_voice(scope_ids: list[str], voice: str) -> list[dict]:
     scope when there are any (a learner meets βούλομαι before ἐσθίομαι),
     otherwise every verb that has the form. εἰμί has its own skills."""
     verbs = [e for e in _entries(scope_ids, "verb") if e["lemma"] != "εἰμί"]
+    if voice == "pass":
+        # deponents have no passive meaning; drill real passives
+        return [e for e in verbs if e["subclass"] != "verb-deponent"]
     if voice in ("mp", "mid"):
         deponents = [e for e in verbs if e["subclass"] == "verb-deponent"]
         if deponents:
@@ -353,7 +380,7 @@ def generate(skills: list[str], n: int, scope_ids: list[str], seed: int = 0, pre
         item_id = f"{prefix}{len(items) + 1}"
         if kind == "produce-form":
             item = _produce(item_id, entry, cell, skill)
-        elif kind == "parse":
+        elif kind == "parse" and not cell.endswith(".mf"):  # the parse groups offer m / f / n only
             item = _parse(item_id, entry, cell, skill, rng)
         else:
             item = _choice(item_id, entry, cell, skill, rng) or _produce(item_id, entry, cell, skill)

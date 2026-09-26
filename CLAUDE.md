@@ -860,3 +860,41 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   logic moved. Screenshots with the real fonts: fonts fetched from npm
   (`@fontsource-variable/literata`, `@fontsource/ibm-plex-sans`) and routed
   in Playwright in place of Google Fonts (egress-blocked here).
+
+## Session log — 2026-09-26 (course Phase C: Stage 2)
+
+- **Engine**: `morph/participle.py` declines every participle from its four
+  principal forms (gold tables for 12 models); course form lookup adds
+  `tense.voice.participle.<case>.<num>.<g>`, `comp.*`/`sup.*` and `adv`
+  cells (cached per entry). Overrides: `"drop": ["future.middle"]` removes a
+  system; ἔρχομαι future/imperfect from εἶμι (εἶμι, ᾔειν), ἀποθνῄσκω perfect
+  τέθνηκα, λέγω perfect mp εἴρημαι, ἐρωτάω aorist ἠρώτησα, no bogus
+  passives for ζάω/πάσχω/ἀποθνῄσκω, θᾶττον. Periphrastic cells (with a
+  space) are skipped; paired entries (μέν…δέ, εἴτε…εἴτε) match each half;
+  spacing koronis → elision apostrophe in `normalize_polytonic`.
+- **Drills**: `verb.ptc.<t>.<v>[.<case>][.<num>]`, `syntax.gen-abs`,
+  `adj.comp`/`adj.sup`, perfect/pluperfect, passives (present passive =
+  middle/passive table, deponents excluded; second/root aorist labels),
+  lemma skills (`verb.mi.didomi`, `verb.phemi`, `verb.oida`, …). skills.json
+  333 skills (144+ drill-backed).
+- **Originals**: `course_data/texts/` (9 Perseus passages: Thuc. 2.13, 2.14,
+  2.16, 2.21, 2.35, 2.47, Lysias 1.6–7, Apollodorus 1.9.28, Anabasis
+  3.1.4–5) via `scripts/build_course_texts.py`; library passages usable by
+  id. Lesson `original: {text, note}`, story sentences `orig: [n]`; test
+  sections `passage_from`, `glosses` (shown under the passage), `passage_note`.
+  Frontend `OriginalText` panel in the Read step.
+- **Content**: Units 7–12 by six parallel agents (brief: AUTHORING.md
+  "Stage 2"), vocabulary pre-allocated in `stage2_vocab.json`
+  (`course_tools.py alloc`; `prune-allow` removed ~230 temporary allows).
+  Chronology fix: Unit 7 = City Dionysia of spring 431 (Medea), Panathenaea
+  inside the walls in 9.3, Unit 12 epilogue c. 370. Validator now checks
+  unit-test passages, every elision mark and aspirated elision (ἐφ’).
+- **Diagrams**: 47 own SVG components (`components/course/diagrams`,
+  CSS-variable colours) for every diagram record, incl. schematic maps;
+  `lib/diagrams.test.ts`; records `svg: true`, CC BY-SA.
+- **Verified**: build_course 0 problems; backend 430 tests; frontend 99
+  vitest; `next build`; e2e `e2e_course`, `e2e_placement` (12 units, 6
+  items each), `e2e_stage1`, `e2e_stage2` (original panel, diagram, 11.3
+  exercises, gate II passed); screenshots 11–13 in `docs/screenshots/`.
+- **Known gaps**: no dual or verbal adjectives in the engine (glossed);
+  ἵστημι short perfects; photographs still placeholders; Phase D (tracks).
