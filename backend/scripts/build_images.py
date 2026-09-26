@@ -1,7 +1,8 @@
 """Source, verify and process the course's Creative Commons images.
 
 The course ships placeholder image records (cream panel + Greek caption).
-This script turns a row in ``course_data/images/sources.csv`` into a real
+This script turns a row in ``course_data/images/sources.csv`` (or a
+track's ``sources-<track>.csv``) into a real
 picture with a verified licence and fills the matching manifest record.
 
     python scripts/build_images.py report            # ids still without a row / a file
@@ -96,8 +97,11 @@ def parse_crop(text: str | None) -> tuple[float, float, float, float] | None:
 def read_sources(only: set[str] | None = None) -> list[dict]:
     if not SOURCES.exists():
         sys.exit(f"missing {SOURCES}")
-    with SOURCES.open(encoding="utf-8", newline="") as f:
-        rows = [{k: (v or "").strip() for k, v in r.items()} for r in csv.DictReader(f)]
+    rows = []
+    # sources.csv plus sources-<track>.csv (same columns)
+    for path in [SOURCES, *sorted(SOURCES.parent.glob("sources-*.csv"))]:
+        with path.open(encoding="utf-8", newline="") as f:
+            rows += [{k: (v or "").strip() for k, v in r.items()} for r in csv.DictReader(f)]
     rows = [r for r in rows if r.get("id") and not r["id"].startswith("#")]
     if only:
         rows = [r for r in rows if r["id"] in only]

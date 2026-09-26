@@ -350,3 +350,58 @@ Reference the shared Stage 2 diagrams in `images/manifest-diagrams.json`
 `grammar.diagram` or as paragraph/culture images. Do not create new
 diagram records; photographs and story panels go in your unit manifest as
 before.
+
+## Stage 3 (tracks): what changes
+
+Four interest tracks, each 7 lessons + a track gate, all independent of
+each other. Ids: `myth.1–7` / `gate-myth`, `phil.*` / `gate-phil`,
+`hist.*` / `gate-hist`, `pol.*` / `gate-pol` (listed in `course.json`).
+Read the Stage 2 section first; track lessons are Unit 12-style lessons
+on one subject.
+
+### The ladder (COURSE_PLAN.md §2.6)
+
+| Lessons | Opens after | Text | Controlled vocabulary |
+|---|---|---|---|
+| 1–3 | 9.4 (side readings) | adapted original: simplified syntax, core words; `original` + `orig` alignment as in Stage 2 | scope = everything through 9.4 + earlier lessons of the track; gloss the rest. Keep grammar to Units 1–9 (no perfect-system or conditions drills yet; gloss such forms) |
+| 4–6 | 12.4 | lightly adapted original: **cuts, not rewrites**; one story sentence per kept original sentence | scope through 12.4 + the whole DCC core list + the track's earlier lessons; gloss everything outside DCC and the track list |
+| 7 | 12.4 | the original, unadapted | as 4–6, running glosses only |
+| gate | lesson 7 | unseen original via `passage_from` (never used in any lesson) with `glosses` for words outside DCC + track list | — |
+
+The validator knows the ladder: track lessons 4+ accept every DCC form.
+A lesson may set `"requires": "<main lesson id>"` to change its opening
+point; don't unless there is a reason.
+
+### Track list
+
+The words a track's lessons put in `vocab` (≤ 15 new per lesson) are the
+track list shown on the track page and in the vocab deck builder: aim for
+80–105 per track, chosen from the passages (the subject's words: θεός kinds,
+φιλοσοφία terms, military, constitutional). Course-only words go in
+`vocab_extra-<prefix>.json` (e.g. `vocab_extra-myth.json`), in the same
+shape as the unit files; check each with `course_tools.py forms`.
+
+### Files per track (so authors never share one)
+
+- `lessons/<prefix>.1–7.json`, `tests/gate-<prefix>.json`
+- `vocab_extra-<prefix>.json`
+- `texts/sources-<prefix>.json` (same shape as `texts/sources.json`), built
+  with `python scripts/build_course_texts.py --only <ids>` into
+  `texts/<id>.json`
+- `images/manifest-<prefix>.json` (placeholder records as in Stage 2) and
+  `images/sources-<prefix>.csv` (same columns as `sources.csv`; one row per
+  photograph, museum objects preferred)
+- `skills-<prefix>.json` only if a lesson needs a skill that
+  `skills.json` lacks: `{"skills": [{"id": "read.<prefix>.<name>", "label": "…"}]}`
+- lesson-local `names`; never edit `course.json`
+
+### Lesson shape
+
+The same ten steps. Grammar steps teach *reading* the author (Apollodorus'
+participle chains, Plato's question particles, Thucydides' antitheses,
+legal formulae), with engine paradigms where they fit. Exercises 18–28
+items (at least 4 on the text itself: `locate`, `label`, `answer-grc`,
+`translate-en`), Greek questions 3–6, quiz 5–10. Culture box: the author,
+the work, the date, and why it matters, with a museum object or a map.
+Lucian, Palaephatus and Epictetus are later Greek: say so in
+`original.note`.

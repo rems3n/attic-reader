@@ -6,6 +6,8 @@ asserts it is empty, and scripts/build_course.py prints it.
 
 from __future__ import annotations
 
+from functools import lru_cache
+
 from ..greek import attic_ipa
 from ..tts.kokoro import prepare_kokoro_phonemes, unknown_kokoro_symbols
 from . import data
@@ -14,6 +16,7 @@ from .grade import ALL_TYPES, CHOICE_TYPES, SELF_TYPES, TYPED_TYPES
 from .normalize import answers_match, expand_movable, normalize_answer, tokens
 
 MAX_NEW_WORDS = 12
+MAX_NEW_WORDS_TRACK = 15  # track lessons carry the 80–120-word track list
 MIN_QUIZ, MAX_QUIZ = 5, 10
 
 
@@ -34,13 +37,40 @@ def validate() -> list[str]:
                 problems += _validate_lesson(lid)
             except (ValueError, KeyError, TypeError) as exc:  # malformed JSON or shape
                 problems.append(f"lesson {lid}: cannot load ({exc})")
-    for unit in [u for s in data.load_course()["stages"] for u in s["units"]]:
-        if unit.get("test") and (data.DATA_DIR / "tests" / f"{unit['test']}.json").exists():
+    test_ids = [u.get("test") for s in data.load_course()["stages"] for u in s["units"]] + [t.get("gate") for t in data.tracks()]
+    for test_id in test_ids:
+        if test_id and (data.DATA_DIR / "tests" / f"{test_id}.json").exists():
             try:
-                problems += _validate_test(unit["test"])
+                problems += _validate_test(test_id)
             except (ValueError, KeyError, TypeError) as exc:
-                problems.append(f"test {unit['test']}: cannot load ({exc})")
+                problems.append(f"test {test_id}: cannot load ({exc})")
+    problems += _validate_tracks()
     return problems
+
+
+def _validate_tracks() -> list[str]:
+    out = []
+    main = data.main_lesson_ids()
+    for t in data.tracks():
+        for key in ("side_after", "full_after"):
+            if t.get(key) not in main:
+                out.append(f"track {t['id']}: {key} must be a main-course lesson id")
+        for lid in t["lessons"]:
+            if data.lesson_available(lid) and data.load_lesson(lid).get("requires") not in (None, *main):
+                out.append(f"lesson {lid}: requires must be a main-course lesson id")
+    return out
+
+
+@lru_cache(maxsize=1)
+def _core_forms() -> frozenset[str]:
+    """Every form of every DCC core word: known in track lessons 4+, whose
+    texts gloss only what lies outside the core list and the track list."""
+    from .. import vocab
+
+    out: set[str] = set()
+    for e in vocab.load_entries():
+        out |= entry_forms(data.entry_by_id(e["id"]))
+    return frozenset(out)
 
 
 def _validate_manifest() -> list[str]:
@@ -141,8 +171,10 @@ def _validate_lesson(lid: str) -> list[str]:
             new_ids.append(v["id"])
         if v.get("pic") and v["pic"] not in data.load_images():
             out.append(f"{prefix}: vocab {v['id']} references unknown image {v['pic']}")
-    if stage != "0" and len(new_ids) > MAX_NEW_WORDS:
-        out.append(f"{prefix}: {len(new_ids)} new words (max {MAX_NEW_WORDS})")
+    track = data.track_of(lid)
+    limit = MAX_NEW_WORDS_TRACK if track else MAX_NEW_WORDS
+    if stage != "0" and len(new_ids) > limit:
+        out.append(f"{prefix}: {len(new_ids)} new words (max {limit})")
 
     # controlled vocabulary in the story
     scope_ids = data.vocab_scope(lid)
@@ -152,6 +184,8 @@ def _validate_lesson(lid: str) -> list[str]:
             known |= entry_forms(data.entry_by_id(entry_id))
         except KeyError:
             pass
+    if track and not data.is_side_reading(lid):
+        known |= _core_forms()
     names = data.names_for(lid)
     for name, forms in names.items():
         known.add(normalize_answer(name))

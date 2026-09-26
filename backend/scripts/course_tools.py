@@ -145,7 +145,7 @@ def cmd_alloc(unit: str) -> None:
     import json
 
     plan = json.loads((data.DATA_DIR / "stage2_vocab.json").read_text("utf-8"))
-    scope = set(data.vocab_scope(data.lesson_ids()[-1])) if data.lesson_ids() else set()
+    scope = set(data.vocab_scope(data.main_lesson_ids()[-1])) if data.main_lesson_ids() else set()
     for w in plan["units"].get(unit, []):
         mark = "taught" if w["id"] in scope else ""
         print(f"{w['rank']:4}  {w['id']:16} {w['lemma']:16} {w['short'][:40]:40} {mark}")

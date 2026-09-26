@@ -37,9 +37,16 @@ def load_course() -> dict:
 
 @lru_cache(maxsize=1)
 def load_skills() -> dict:
-    raw = _read(DATA_DIR / "skills.json")
-    by_id = {s["id"]: s for s in raw["skills"]}
-    return {**raw, "by_id": by_id}
+    """skills.json plus any skills-*.json (a track's own reading skills)."""
+    raw = dict(_read(DATA_DIR / "skills.json"))  # type: ignore[arg-type]
+    skills = list(raw["skills"])
+    families = list(raw["families"])
+    for path in sorted(DATA_DIR.glob("skills-*.json")):
+        more = _read(path)
+        skills += more.get("skills", [])
+        families += [f for f in more.get("families", []) if f["id"] not in {x["id"] for x in families}]
+    by_id = {s["id"]: s for s in skills}
+    return {**raw, "skills": skills, "families": families, "by_id": by_id}
 
 
 @lru_cache(maxsize=1)
@@ -122,9 +129,57 @@ def _units() -> list[dict]:
 
 
 @lru_cache(maxsize=1)
-def lesson_ids() -> list[str]:
-    """Every lesson id in course order (authored or planned)."""
+def main_lesson_ids() -> list[str]:
+    """Stage 0–2 lesson ids in course order (authored or planned)."""
     return [lid for unit in _units() for lid in unit["lessons"]]
+
+
+@lru_cache(maxsize=1)
+def lesson_ids() -> list[str]:
+    """Every lesson id: the main course in order, then each track's lessons."""
+    return main_lesson_ids() + [lid for t in tracks() for lid in t["lessons"]]
+
+
+# -------------------------------------------------------------------- tracks
+# Stage 3: four interest tracks. A track lesson builds on the main course up
+# to its `requires` lesson (the first `side_lessons` open after `side_after`,
+# the rest after `full_after`) plus the earlier lessons of the same track;
+# tracks never depend on each other.
+
+STAGE3 = {"id": "3", "title_grc": "Ὁδοί", "title_en": "Tracks"}
+
+
+def tracks() -> list[dict]:
+    return load_course().get("tracks", [])
+
+
+def track_by_id(track_id: str) -> dict:
+    for t in tracks():
+        if t["id"] == track_id:
+            return t
+    raise CourseError(f"no track {track_id!r}")
+
+
+def track_of(lesson_id: str) -> dict | None:
+    return next((t for t in tracks() if lesson_id in t["lessons"]), None)
+
+
+def track_requires(lesson_id: str) -> str:
+    """The main-course lesson a track lesson builds on."""
+    track = track_of(lesson_id)
+    if not track:
+        raise CourseError(lesson_id)
+    if lesson_available(lesson_id) and load_lesson(lesson_id).get("requires"):
+        return load_lesson(lesson_id)["requires"]
+    k = track["lessons"].index(lesson_id)
+    return track["side_after"] if k < track.get("side_lessons", 3) else track["full_after"]
+
+
+def is_side_reading(lesson_id: str) -> bool:
+    """Track lessons 1–3 (adapted, open after Unit 9) versus 4+ (lightly
+    adapted or original, open after Unit 12)."""
+    track = track_of(lesson_id)
+    return bool(track) and track["lessons"].index(lesson_id) < track.get("side_lessons", 3)
 
 
 def lesson_path(lesson_id: str) -> Path:
@@ -203,6 +258,9 @@ def original_record(text_id: str, note: str | None = None) -> dict:
 
 
 def unit_of(lesson_id: str) -> dict:
+    track = track_of(lesson_id)
+    if track:
+        return {"id": track["id"], "n": None, "title_grc": track["title_grc"], "title_en": track["title_en"], "lessons": track["lessons"], "test": track.get("gate")}
     for unit in _units():
         if lesson_id in unit["lessons"]:
             return unit
@@ -210,6 +268,8 @@ def unit_of(lesson_id: str) -> dict:
 
 
 def stage_of(lesson_id: str) -> dict:
+    if track_of(lesson_id):
+        return STAGE3
     for stage in load_course()["stages"]:
         for unit in stage["units"]:
             if lesson_id in unit["lessons"]:
@@ -218,7 +278,12 @@ def stage_of(lesson_id: str) -> dict:
 
 
 def lessons_before(lesson_id: str, inclusive: bool = True) -> list[str]:
-    ids = lesson_ids()
+    track = track_of(lesson_id)
+    if track:
+        k = track["lessons"].index(lesson_id)
+        own = track["lessons"][: k + (1 if inclusive else 0)]
+        return lessons_before(track_requires(lesson_id)) + [lid for lid in own if lesson_available(lid)]
+    ids = main_lesson_ids()
     if lesson_id not in ids:
         raise CourseError(lesson_id)
     stop = ids.index(lesson_id) + (1 if inclusive else 0)
@@ -284,7 +349,8 @@ def resolve_lesson(lesson_id: str) -> dict:
     raw = load_lesson(lesson_id)
     unit = unit_of(lesson_id)
     stage = stage_of(lesson_id)
-    ids = lesson_ids()
+    track = track_of(lesson_id)
+    ids = track["lessons"] if track else main_lesson_ids()
     idx = ids.index(lesson_id)
     prev_id = next((lid for lid in reversed(ids[:idx]) if lesson_available(lid)), None)
     next_id = next((lid for lid in ids[idx + 1:] if lesson_available(lid)), None)
@@ -292,6 +358,7 @@ def resolve_lesson(lesson_id: str) -> dict:
     out["unit"] = {"id": unit["id"], "n": unit["n"], "title_grc": unit["title_grc"], "title_en": unit["title_en"], "test": unit.get("test")}
     out["stage"] = {"id": stage["id"], "title_grc": stage["title_grc"], "title_en": stage["title_en"]}
     out["position"] = {"index": idx, "prev": prev_id, "next": next_id, "in_unit": unit["lessons"].index(lesson_id) + 1, "unit_size": len(unit["lessons"])}
+    out["track"] = {"id": track["id"], "title_grc": track["title_grc"], "title_en": track["title_en"], "requires": track_requires(lesson_id), "side": is_side_reading(lesson_id)} if track else None
     out["vocab"] = [vocab_summary(entry_by_id(v["id"]), v.get("pic"), v.get("gloss_grc")) for v in raw.get("vocab", [])]
     out["cover_image"] = image_record(raw.get("cover"))
     out["story"] = [
@@ -380,7 +447,8 @@ def resolve_placement(seed: int = 0) -> dict:
         n_gen = min(len(generated), PLACEMENT_PER_UNIT // 2)
         items = generated[:n_gen] + authored[: PLACEMENT_PER_UNIT - n_gen]
         rng.shuffle(items)
-        first_after = next((lid for lid in lesson_ids()[lesson_ids().index(unit["lessons"][-1]) + 1:] if lesson_available(lid)), None)
+        main = main_lesson_ids()
+        first_after = next((lid for lid in main[main.index(unit["lessons"][-1]) + 1:] if lesson_available(lid)), None)
         blocks.append({
             "unit": unit["n"],
             "title_grc": unit["title_grc"],
@@ -394,34 +462,81 @@ def resolve_placement(seed: int = 0) -> dict:
     return {"blocks": blocks, "per_unit": PLACEMENT_PER_UNIT, "stop_after_misses": PLACEMENT_STOP_MISSES, "pass_score": PLACEMENT_PASS, "seed": seed}
 
 
+def _test_available(test_id: str | None) -> bool:
+    return bool(test_id and (DATA_DIR / "tests" / f"{test_id}.json").exists())
+
+
+def lesson_summary(lid: str) -> dict:
+    if not lesson_available(lid):
+        out: dict = {"id": lid, "title_grc": "", "title_en": "", "available": False}
+    else:
+        raw = load_lesson(lid)
+        out = {
+            "id": lid,
+            "title_grc": raw["title_grc"],
+            "title_en": raw["title_en"],
+            "available": True,
+            "skills": raw.get("skills", []),
+            "word_count": len(raw.get("vocab", [])),
+            "exercise_count": len(raw.get("exercises", [])) + len(raw.get("questions", [])),
+            "quiz_count": len(raw.get("quiz", [])),
+        }
+        if raw.get("original"):
+            t = load_text(raw["original"]["text"])
+            out["source"] = {"author": t.get("author"), "work": t.get("work"), "ref": t.get("ref")}
+    if track_of(lid):
+        out["requires"] = track_requires(lid)
+        out["side"] = is_side_reading(lid)
+    return out
+
+
+def track_summary(track: dict) -> dict:
+    return {
+        **{k: v for k, v in track.items() if k != "lessons"},
+        "lessons": [lesson_summary(lid) for lid in track["lessons"]],
+        "gate_available": _test_available(track.get("gate")),
+    }
+
+
+def resolve_track(track_id: str) -> dict:
+    """A track with its lessons, gate and word list (the words its lessons
+    introduce, in order: the 'track list')."""
+    track = track_by_id(track_id)
+    out = track_summary(track)
+    words: list[dict] = []
+    seen: set[str] = set()
+    texts: list[dict] = []
+    for lid in track["lessons"]:
+        if not lesson_available(lid):
+            continue
+        raw = load_lesson(lid)
+        before = set(vocab_scope(lid, inclusive=False))
+        for v in raw.get("vocab", []):
+            if v["id"] in seen or v["id"] in before:
+                continue
+            seen.add(v["id"])
+            words.append({**vocab_summary(entry_by_id(v["id"]), v.get("pic"), v.get("gloss_grc")), "lesson": lid})
+        if raw.get("original"):
+            rec = original_record(raw["original"]["text"])
+            texts.append({"lesson": lid, **{k: rec[k] for k in ("id", "title", "author", "work", "ref")}})
+    out["words"] = words
+    out["texts"] = texts
+    return out
+
+
 def course_index() -> dict:
     course = load_course()
     stages = []
     for stage in course["stages"]:
         units = []
         for unit in stage["units"]:
-            lessons = []
-            for lid in unit["lessons"]:
-                if lesson_available(lid):
-                    raw = load_lesson(lid)
-                    lessons.append({
-                        "id": lid,
-                        "title_grc": raw["title_grc"],
-                        "title_en": raw["title_en"],
-                        "available": True,
-                        "skills": raw.get("skills", []),
-                        "word_count": len(raw.get("vocab", [])),
-                        "exercise_count": len(raw.get("exercises", [])) + len(raw.get("questions", [])),
-                        "quiz_count": len(raw.get("quiz", [])),
-                    })
-                else:
-                    lessons.append({"id": lid, "title_grc": "", "title_en": "", "available": False})
-            units.append({**unit, "lessons": lessons, "test_available": bool(unit.get("test") and (DATA_DIR / "tests" / f"{unit['test']}.json").exists())})
+            lessons = [lesson_summary(lid) for lid in unit["lessons"]]
+            units.append({**unit, "lessons": lessons, "test_available": _test_available(unit.get("test"))})
         stages.append({**stage, "units": units})
     return {
         "stages": stages,
-        "tracks": course.get("tracks", []),
+        "tracks": [track_summary(t) for t in tracks()],
         "skills": load_skills()["skills"],
         "families": load_skills()["families"],
-        "lesson_order": lesson_ids(),
+        "lesson_order": main_lesson_ids(),
     }

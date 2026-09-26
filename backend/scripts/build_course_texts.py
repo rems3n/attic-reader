@@ -1,7 +1,7 @@
 """Build the original Greek texts that Stage 2 lessons pair with their
 adapted stories (docs/COURSE_PLAN.md §2.5, "Text tie-in").
 
-Reads app/course_data/texts/sources.json (same shape as the reading
+Reads app/course_data/texts/sources.json plus sources-*.json (same shape as the reading
 library's sources.json), fetches each Perseus TEI edition, resolves the
 section refs, and writes app/course_data/texts/<id>.json with the passage
 text and its sentences. Passages already in the reading library
@@ -40,6 +40,9 @@ def main() -> None:
     parser.add_argument("--only", nargs="*", default=None)
     args = parser.parse_args()
     sources = json.loads((TEXT_DIR / "sources.json").read_text("utf-8"))
+    # sources-<track>.json add passages (one file per track, so authors never share one)
+    for extra in sorted(TEXT_DIR.glob("sources-*.json")):
+        sources["passages"] += json.loads(extra.read_text("utf-8"))["passages"]
     problems = 0
     for spec in sources["passages"]:
         if args.only and spec["id"] not in args.only:

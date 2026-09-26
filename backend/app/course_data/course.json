@@ -488,33 +488,77 @@
       "id": "mythology",
       "title_grc": "Μυθολογία",
       "title_en": "Mythology",
-      "blurb": "Apollodorus, Palaephatus, Lucian.",
-      "unlock_after_unit": 9,
-      "lessons": []
+      "blurb": "Apollodorus' Library and Palaephatus' rationalised myths; a dialogue of Lucian's gods.",
+      "lessons": [
+        "myth.1",
+        "myth.2",
+        "myth.3",
+        "myth.4",
+        "myth.5",
+        "myth.6",
+        "myth.7"
+      ],
+      "gate": "gate-myth",
+      "side_after": "9.4",
+      "full_after": "12.4",
+      "side_lessons": 3
     },
     {
       "id": "philosophy",
       "title_grc": "Φιλοσοφία",
       "title_en": "Philosophy",
-      "blurb": "Plato, Xenophon's Memorabilia.",
-      "unlock_after_unit": 9,
-      "lessons": []
+      "blurb": "Socrates in Plato's Apology, Crito and Euthyphro, and in Xenophon's Memorabilia.",
+      "lessons": [
+        "phil.1",
+        "phil.2",
+        "phil.3",
+        "phil.4",
+        "phil.5",
+        "phil.6",
+        "phil.7"
+      ],
+      "gate": "gate-phil",
+      "side_after": "9.4",
+      "full_after": "12.4",
+      "side_lessons": 3
     },
     {
       "id": "history",
       "title_grc": "Ἱστορία",
       "title_en": "History",
-      "blurb": "Xenophon, Thucydides.",
-      "unlock_after_unit": 9,
-      "lessons": []
+      "blurb": "Xenophon's Anabasis and Hellenica; Thucydides on the war and the funeral speech.",
+      "lessons": [
+        "hist.1",
+        "hist.2",
+        "hist.3",
+        "hist.4",
+        "hist.5",
+        "hist.6",
+        "hist.7"
+      ],
+      "gate": "gate-hist",
+      "side_after": "9.4",
+      "full_after": "12.4",
+      "side_lessons": 3
     },
     {
       "id": "politics",
       "title_grc": "Πολιτεία",
       "title_en": "Politics and city life",
-      "blurb": "The Old Oligarch, Lysias, Demosthenes, Aristophanes.",
-      "unlock_after_unit": 9,
-      "lessons": []
+      "blurb": "The Assembly, the courts and the city: the Old Oligarch, Aristotle's Constitution of Athens, Lysias, Demosthenes.",
+      "lessons": [
+        "pol.1",
+        "pol.2",
+        "pol.3",
+        "pol.4",
+        "pol.5",
+        "pol.6",
+        "pol.7"
+      ],
+      "gate": "gate-pol",
+      "side_after": "9.4",
+      "full_after": "12.4",
+      "side_lessons": 3
     }
   ]
 }
