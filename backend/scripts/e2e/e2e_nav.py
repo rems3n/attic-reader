@@ -135,7 +135,8 @@ def check_overflow(page: Page, name: str, vp: str) -> None:
 
 def check_keyboard(page: Page, name: str, vp: str) -> None:
     page.evaluate("window.scrollTo(0, 0)")
-    page.evaluate("document.activeElement && document.activeElement.blur()")
+    # reset the sequential-focus starting point to the top of the document
+    page.evaluate("(() => { const s = document.createElement('span'); s.tabIndex = -1; document.body.prepend(s); s.focus(); s.blur(); s.remove(); })()")
     page.keyboard.press("Tab")
     first = page.evaluate(
         "(() => { const e = document.activeElement; const r = e.getBoundingClientRect(); return {cls: e.className, text: (e.textContent||'').trim(), href: e.getAttribute('href'), visible: r.width > 0 && r.height > 0 && r.top >= 0}; })()"
