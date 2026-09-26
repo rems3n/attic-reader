@@ -1,0 +1,13 @@
+{
+ "cma_api": "ok 200 (4096 bytes read)",
+ "commons_api": "ok 200 (759 bytes read)",
+ "commons_image": "FAIL TypeError: expected string or bytes-like object, got 'float'",
+ "commons_search": "ok 40 hits",
+ "met_api": "ok 200 (2061 bytes read)",
+ "met_image": "ok 200 (4096 bytes read)",
+ "met_search": "ok 200 (40 bytes read)",
+ "openssl": "OpenSSL 3.6.2 7 Apr 2026",
+ "pillow": "ok 12.3.0, webp=yes",
+ "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+ "python": "3.14.5"
+}

@@ -1,3 +1,17 @@
 == doctor
-backend/scripts/images_retry.sh: line 26: python: command not found
-backend/scripts/images_retry.sh: line 31: python: command not found
+python         3.14.5
+platform       macOS-26.6.2-arm64-arm-64bit-Mach-O
+openssl        OpenSSL 3.6.2 7 Apr 2026
+met_api        ok 200 (2061 bytes read)
+met_search     ok 200 (40 bytes read)
+met_image      ok 200 (4096 bytes read)
+cma_api        ok 200 (4096 bytes read)
+commons_api    ok 200 (759 bytes read)
+commons_search ok 40 hits
+commons_image  FAIL TypeError: expected string or bytes-like object, got 'float'
+pillow         ok 12.3.0, webp=yes
+  pol-5-b                    story       A lame man is helped up onto a borrowed horse in a city street; two men point and whisper.
+  pol-5-c                    story       The old craftsman at work alone in his small shop, bent over his bench, with no apprentice beside him.
+  pol-6-a                    story       404 BC: thirty grim men in fine cloaks sit on a platform in the Agora; Spartan soldiers with red cloaks stand guard behind them.
+  pol-6-b                    story       Two of the Thirty whisper together over a list of names; one taps it with his finger, the other smiles.
+  pol-6-c                    story       Armed men burst into a dining room where Lysias reclines with guests; the guests are pushed out of the door while Lysias is seized.
