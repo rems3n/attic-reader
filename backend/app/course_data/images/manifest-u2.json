@@ -48,7 +48,7 @@
   {"id": "culture-prometheus-kylix", "kind": "culture", "file": null, "alt_grc": "ὁ Προμηθεὺς καὶ ὁ ἀετός.", "alt_en": "Laconian black-figure cup, c. 560 BC: Atlas and the bound Prometheus with the eagle", "credit": "placeholder", "license": "placeholder", "source_url": null, "words": []},
   {"id": "culture-symposium-kylix", "kind": "culture", "file": null, "alt_grc": "οἶνον πίνουσιν.", "alt_en": "Red-figure kylix interior: a reclining drinker with a cup; a small table with food", "credit": "placeholder", "license": "placeholder", "source_url": null, "words": []},
 
-  {"id": "diagram-men-de", "kind": "diagram", "file": null, "alt_grc": "σὺ μέν … ἐγὼ δέ …", "alt_en": "Two balanced pans: σὺ μέν on one side, ἐγὼ δέ on the other", "credit": "placeholder", "license": "placeholder", "source_url": null, "words": []},
-  {"id": "diagram-plural", "kind": "diagram", "file": null, "alt_grc": "ὁ δοῦλος → οἱ δοῦλοι", "alt_en": "One slave becomes several: singular and plural endings side by side", "credit": "placeholder", "license": "placeholder", "source_url": null, "words": []},
-  {"id": "diagram-contract", "kind": "diagram", "file": null, "alt_grc": "ποιέ-ω → ποιῶ", "alt_en": "Vowel contraction chart: ε and α meeting the endings", "credit": "placeholder", "license": "placeholder", "source_url": null, "words": []}
+  {"id": "diagram-men-de", "kind": "diagram", "file": null, "alt_grc": "σὺ μέν … ἐγὼ δέ …", "alt_en": "Two balanced pans: σὺ μέν on one side, ἐγὼ δέ on the other", "credit": "Attic Reader, own diagram", "license": "CC BY-SA 4.0", "svg": true, "source_url": null, "words": []},
+  {"id": "diagram-plural", "kind": "diagram", "file": null, "alt_grc": "ὁ δοῦλος → οἱ δοῦλοι", "alt_en": "One slave becomes several: singular and plural endings side by side", "credit": "Attic Reader, own diagram", "license": "CC BY-SA 4.0", "svg": true, "source_url": null, "words": []},
+  {"id": "diagram-contract", "kind": "diagram", "file": null, "alt_grc": "ποιέ-ω → ποιῶ", "alt_en": "Vowel contraction chart: ε and α meeting the endings", "credit": "Attic Reader, own diagram", "license": "CC BY-SA 4.0", "svg": true, "source_url": null, "words": []}
 ]}

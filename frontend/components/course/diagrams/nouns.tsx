@@ -2,7 +2,7 @@
  * comparison, numerals, the relative, attributive position, the dual. */
 
 import type { ReactNode } from "react";
-import { Arrow, Box, C, Chip, Curve, E, G, H, Person, Svg, tw } from "./kit";
+import { Arrow, Box, C, Chip, Curve, E, En, G, Gk, H, Person, Svg, tw } from "./kit";
 
 // ------------------------------------------------------------- plural (2.2)
 
@@ -36,7 +36,7 @@ export function Plural() {
         );
       })}
       <E x={320} y={384}>
-        genitive plural always <tspan fill={C.ink} style={{ fontFamily: "var(--serif)" }}>-ων</tspan>: τῶν δούλων, τῶν κορῶν
+        genitive plural always <Gk>-ων</Gk>: <Gk>τῶν δούλων, τῶν κορῶν</Gk>
       </E>
     </Svg>
   );
@@ -91,7 +91,7 @@ export function Decl3Stem() {
         </g>
       ))}
       <E x={320} y={380}>
-        κ + σ is written ξ: <tspan style={{ fontFamily: "var(--serif)" }} fill={C.ink}>φύλαξ, φύλαξι</tspan>
+        <Gk>κ + σ</Gk> is written <Gk>ξ</Gk>: <Gk>φύλαξ, φύλαξι</Gk>
       </E>
     </Svg>
   );
@@ -110,19 +110,19 @@ export function HoutosEkeinos() {
       {/* near man */}
       <Person x={220} y={300} s={1.25} />
       {/* far man */}
-      <Person x={530} y={224} s={0.62} />
+      <Person x={510} y={224} s={0.62} />
       {/* pointing */}
       <Arrow x1={122} y1={236} x2={196} y2={236} color={C.accent} />
-      <Arrow x1={126} y1={222} x2={505} y2={190} color={C.accent} dash="6 6" />
+      <Curve x1={126} y1={214} cx={320} cy={120} x2={488} y2={190} color={C.accent} dash="6 6" />
       <G x={220} y={120} size={30} weight={600} fill={C.accent}>οὗτος</G>
       <E x={220} y={146} fill={C.ink}>this man, here</E>
-      <G x={530} y={100} size={30} weight={600} fill={C.accent}>ἐκεῖνος</G>
-      <E x={530} y={126} fill={C.ink}>that man, over there</E>
+      <G x={510} y={100} size={30} weight={600} fill={C.accent}>ἐκεῖνος</G>
+      <E x={510} y={126} fill={C.ink}>that man, over there</E>
       <G x={100} y={340} size={21}>ἐγώ</G>
       <G x={220} y={340} size={21}>οὗτος ὁ παῖς</G>
-      <G x={530} y={340} size={21}>ἐκεῖνος ὁ νεανίας</G>
+      <G x={510} y={340} size={21}>ἐκεῖνος ὁ νεανίας</G>
       <E x={220} y={366}>near</E>
-      <E x={530} y={366}>far</E>
+      <E x={510} y={366}>far</E>
     </Svg>
   );
 }
@@ -210,7 +210,7 @@ export function Comparison() {
         </g>
       ))}
       <line x1={20} y1={276} x2={620} y2={276} stroke={C.line} strokeWidth={1.5} />
-      <E x={20} y={302} anchor="start" weight={600} fill={C.accent}>‘than’ = ἤ + the same case</E>
+      <E x={20} y={302} anchor="start" weight={600} fill={C.accent}>‘than’ = <Gk fill={C.accent}>ἤ</Gk> + the same case</E>
       <G x={40} y={332} size={21} anchor="start">ἡ κύλιξ καλλίων ἐστὶν <H>ἢ ἡ ὑδρία</H>.</G>
       <E x={20} y={362} anchor="start" weight={600} fill={C.accent}>or the genitive alone</E>
       <G x={40} y={392} size={21} anchor="start">ἡ κύλιξ καλλίων ἐστὶ <H>τῆς ὑδρίας</H>.</G>
@@ -252,7 +252,7 @@ export function Numbers() {
         );
       })}
       <E x={320} y={384}>
-        1–4 agree with their noun: <tspan style={{ fontFamily: "var(--serif)" }} fill={C.ink}>μία ναῦς · τρεῖς νῆες · δέκα νῆες</tspan>
+        1–4 agree with their noun: <Gk>μία ναῦς · τρεῖς νῆες · δέκα νῆες</Gk>
       </E>
     </Svg>
   );
@@ -280,7 +280,7 @@ export function Relative() {
       {/* case from its own clause */}
       <Curve x1={205} y1={y + 20} cx={320} cy={y + 80} x2={432} y2={y + 20} />
       <E x={440} y={y + 60} anchor="start" fill={C.ink} weight={600}>accusative</E>
-      <E x={440} y={y + 82} anchor="start">object of ἐκάλεσεν</E>
+      <E x={440} y={y + 82} anchor="start">object of <Gk>ἐκάλεσεν</Gk></E>
 
       {/* bracket under the relative clause */}
       <path d={`M180 ${y + 104} v10 H500 v-10`} fill="none" stroke={C.strong} strokeWidth={1.5} />
@@ -293,8 +293,8 @@ export function Relative() {
 // ------------------------------------------------------ position (Unit 7+)
 
 function Phrase({ x, y, parts, frame, size = 25 }: { x: number; y: number; parts: { t: string; adj?: boolean }[]; frame: [number, number]; size?: number }) {
-  const gap = 12;
-  const widths = parts.map((p) => tw(p.t, size));
+  const gap = 26;
+  const widths = parts.map((p) => tw(p.t, size, p.adj));
   const total = widths.reduce((a, b) => a + b, 0) + gap * (parts.length - 1);
   let cx = x - total / 2;
   const xs = widths.map((w) => {
@@ -320,16 +320,16 @@ export function Position() {
   return (
     <Svg w={640} h={400}>
       <E x={20} y={32} anchor="start" weight={600} fill={C.accent}>attributive: the adjective inside the article group</E>
-      <Phrase x={165} y={96} parts={[{ t: "ὁ" }, { t: "ἀγαθὸς", adj: true }, { t: "ἀνήρ" }]} frame={[0, 2]} />
-      <Phrase x={470} y={96} parts={[{ t: "ὁ" }, { t: "ἀνὴρ" }, { t: "ὁ" }, { t: "ἀγαθός", adj: true }]} frame={[0, 3]} />
+      <Phrase size={23} x={160} y={96} parts={[{ t: "ὁ" }, { t: "ἀγαθὸς", adj: true }, { t: "ἀνήρ" }]} frame={[0, 2]} />
+      <Phrase size={23} x={475} y={96} parts={[{ t: "ὁ" }, { t: "ἀνὴρ" }, { t: "ὁ" }, { t: "ἀγαθός", adj: true }]} frame={[0, 3]} />
       <E x={320} y={148} fill={C.ink} italic>“the good man”</E>
 
       <line x1={20} y1={180} x2={620} y2={180} stroke={C.line} strokeWidth={1.5} />
       <E x={20} y={216} anchor="start" weight={600} fill={C.accent}>predicate: the adjective outside it</E>
-      <Phrase x={165} y={280} parts={[{ t: "ὁ" }, { t: "ἀνὴρ" }, { t: "ἀγαθός", adj: true }]} frame={[0, 1]} />
-      <Phrase x={470} y={280} parts={[{ t: "ἀγαθὸς", adj: true }, { t: "ὁ" }, { t: "ἀνήρ" }]} frame={[1, 2]} />
+      <Phrase size={23} x={160} y={280} parts={[{ t: "ὁ" }, { t: "ἀνὴρ" }, { t: "ἀγαθός", adj: true }]} frame={[0, 1]} />
+      <Phrase size={23} x={475} y={280} parts={[{ t: "ἀγαθὸς", adj: true }, { t: "ὁ" }, { t: "ἀνήρ" }]} frame={[1, 2]} />
       <E x={320} y={332} fill={C.ink} italic>“the man is good”</E>
-      <E x={320} y={378}>(ἐστί is understood)</E>
+      <E x={320} y={378}>(<Gk>ἐστί</Gk> is understood)</E>
     </Svg>
   );
 }
@@ -341,6 +341,8 @@ function Ox({ x, y }: { x: number; y: number }) {
     <g transform={`translate(${x} ${y})`} stroke={C.accent} strokeWidth={1.5} strokeLinejoin="round">
       <path d="M-22 -40 Q-44 -52 -40 -74" fill="none" />
       <path d="M22 -40 Q44 -52 40 -74" fill="none" />
+      <ellipse cx={-30} cy={-34} rx={10} ry={5} fill={C.cream} />
+      <ellipse cx={30} cy={-34} rx={10} ry={5} fill={C.cream} />
       <path d="M-24 -44 Q0 -56 24 -44 L18 12 Q0 26 -18 12 Z" fill={C.cream} />
       <ellipse cx={0} cy={10} rx={14} ry={9} fill={C.hl} />
       <circle cx={-10} cy={-22} r={3} fill={C.ink} stroke="none" />
@@ -358,10 +360,9 @@ export function Dual() {
   return (
     <Svg w={640} h={400}>
       <Box x={20} y={20} w={220} h={360} fill={C.cream} stroke={C.line} />
-      <Ox x={88} y={190} />
-      <Ox x={172} y={190} />
-      <rect x={42} y={130} width={176} height={12} rx={6} fill={C.sage} stroke={C.accent} strokeWidth={1.5} />
-      <path d="M62 142 q26 34 52 0 M146 142 q26 34 52 0" fill="none" stroke={C.accent} strokeWidth={1.5} />
+      <rect x={36} y={164} width={188} height={14} rx={7} fill={C.sage} stroke={C.accent} strokeWidth={1.5} />
+      <Ox x={88} y={200} />
+      <Ox x={172} y={200} />
       <G x={130} y={264} size={25} weight={600} fill={C.accent}>τὼ βόε</G>
       <E x={130} y={290} fill={C.ink}>two oxen, a pair</E>
       <E x={130} y={330}>the dual: for two,</E>
@@ -378,7 +379,7 @@ export function Dual() {
             <G x={400} y={y + 64} size={24} anchor="start">{r.grc}</G>
             {r.sub && (
               <G x={400} y={y + 96} size={19} anchor="start" fill={C.muted}>
-                gen./dat. {r.sub}
+                <En>gen./dat. </En>{r.sub}
               </G>
             )}
           </g>

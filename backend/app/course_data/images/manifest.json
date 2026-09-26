@@ -1,7 +1,7 @@
 {
   "_about": "Every image the course references. Placeholders (license 'placeholder') render as a cream panel with the Greek caption until the Creative Commons image pass replaces them (docs/COURSE_PLAN.md §3.2). Real entries need file, credit, license (CC0 / CC BY / CC BY-SA), source_url.",
   "images": [
-    {"id": "alphabet-chart", "kind": "diagram", "file": null, "alt_grc": "τὰ γράμματα", "alt_en": "The 24 letters of the Greek alphabet, capitals and minuscules", "credit": "placeholder", "license": "placeholder", "source_url": null, "words": []},
+    {"id": "alphabet-chart", "kind": "diagram", "file": null, "alt_grc": "τὰ γράμματα", "alt_en": "The 24 letters of the Greek alphabet, capitals and minuscules", "credit": "Attic Reader, own diagram", "license": "CC BY-SA 4.0", "svg": true, "source_url": null, "words": []},
     {"id": "dipylon-oinochoe", "kind": "culture", "file": null, "alt_grc": "ἡ Διπύλου οἰνοχόη", "alt_en": "The Dipylon oinochoe, one of the oldest Greek inscriptions (c. 740 BC), Athens", "credit": "placeholder (target: Wikimedia Commons, CC BY-SA)", "license": "placeholder", "source_url": null, "words": []},
     {"id": "ostrakon", "kind": "culture", "file": null, "alt_grc": "ὄστρακον", "alt_en": "An ostrakon inscribed with a name, Athenian Agora", "credit": "placeholder (target: Wikimedia Commons, CC BY-SA)", "license": "placeholder", "source_url": null, "words": []},
     {"id": "wax-tablet", "kind": "culture", "file": null, "alt_grc": "δέλτος", "alt_en": "A schoolboy's wax tablet with a writing exercise", "credit": "placeholder (target: CC0 museum image)", "license": "placeholder", "source_url": null, "words": []},
@@ -75,9 +75,9 @@
 
     {"id": "culture-kerameikos", "kind": "culture", "file": null, "alt_grc": "ὁ Κεραμεικός", "alt_en": "The Kerameikos today, with the Dipylon gate", "credit": "placeholder (target: Wikimedia Commons, CC BY-SA)", "license": "placeholder", "source_url": null, "words": []},
     {"id": "culture-potter-vase", "kind": "culture", "file": null, "alt_grc": "κεραμεὺς ἐν τῷ ἐργαστηρίῳ", "alt_en": "A potter at work, black-figure hydria detail", "credit": "placeholder (target: CC0 museum image)", "license": "placeholder", "source_url": null, "words": []},
-    {"id": "culture-agora-plan", "kind": "diagram", "file": null, "alt_grc": "ἡ ἀγορὰ τῶν Ἀθηνῶν", "alt_en": "Plan of the Athenian Agora, c. 430 BC", "credit": "placeholder (target: own SVG, CC BY-SA)", "license": "placeholder", "source_url": null, "words": []},
+    {"id": "culture-agora-plan", "kind": "diagram", "file": null, "alt_grc": "ἡ ἀγορὰ τῶν Ἀθηνῶν", "alt_en": "Plan of the Athenian Agora, c. 430 BC", "credit": "Attic Reader, own diagram", "license": "CC BY-SA 4.0", "svg": true, "source_url": null, "words": []},
     {"id": "culture-fountain-hydria", "kind": "culture", "file": null, "alt_grc": "γυναῖκες πρὸς τῇ κρήνῃ", "alt_en": "Women at a fountain house, black-figure hydria", "credit": "placeholder (target: CC0 museum image)", "license": "placeholder", "source_url": null, "words": []},
-    {"id": "diagram-case-map", "kind": "diagram", "file": null, "alt_grc": "αἱ πτώσεις", "alt_en": "Subject → verb → object with the endings -ος / -ον", "credit": "placeholder (own SVG, CC BY-SA)", "license": "placeholder", "source_url": null, "words": []},
-    {"id": "diagram-en-eis-ek", "kind": "diagram", "file": null, "alt_grc": "ἐν · εἰς · ἐκ", "alt_en": "A house with arrows: in, into, out of", "credit": "placeholder (own SVG, CC BY-SA)", "license": "placeholder", "source_url": null, "words": []}
+    {"id": "diagram-case-map", "kind": "diagram", "file": null, "alt_grc": "αἱ πτώσεις", "alt_en": "Subject → verb → object with the endings -ος / -ον", "credit": "Attic Reader, own diagram", "license": "CC BY-SA 4.0", "svg": true, "source_url": null, "words": []},
+    {"id": "diagram-en-eis-ek", "kind": "diagram", "file": null, "alt_grc": "ἐν · εἰς · ἐκ", "alt_en": "A house with arrows: in, into, out of", "credit": "Attic Reader, own diagram", "license": "CC BY-SA 4.0", "svg": true, "source_url": null, "words": []}
   ]
 }

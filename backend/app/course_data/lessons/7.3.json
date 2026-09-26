@@ -1,0 +1,1545 @@
+{
+ "id": "7.3",
+ "title_grc": "ἡ τραγῳδία",
+ "title_en": "The tragedy",
+ "summary_grc": "τοῦ Εὐριπίδου τὴν Μήδειαν διδάσκοντος, οἱ ἐν τῷ θεάτρῳ σιγῶσιν· ὁ δὲ Κλεινίας τὸν μῦθον λέγει.",
+ "summary_en": "The family watches the first performance of Euripides' Medea, and Kleinias tells the whole story in the version of Apollodorus. The genitive absolute; attributive and predicate position; further uses of the article (οἱ ἐν τῷ θεάτρῳ, τὸ τοῦ Ἰάσονος).",
+ "cover": "panel-7-3-b",
+ "caption_grc": "τῶν ὑποκριτῶν εἰσερχομένων, οἱ ἐν τῷ θεάτρῳ σιγῶσιν.",
+ "original": {
+  "text": "apollod-1.9",
+  "note": "Apollodorus, Library 1.9.28, which paragraph 3 adapts. The Library was compiled centuries after 431 (probably in the first or second century AD), but it retells the old myth as the Athenians knew it, including the version in which the Corinthians, not Medea, kill the children."
+ },
+ "names": {
+  "Σοφοκλῆς": [
+   "Σοφοκλέους",
+   "Σοφοκλεῖ",
+   "Σοφοκλέα"
+  ],
+  "Εὐφορίων": [
+   "Εὐφορίωνος",
+   "Εὐφορίωνι",
+   "Εὐφορίωνα"
+  ],
+  "Αἰσχύλος": [
+   "Αἰσχύλου",
+   "Αἰσχύλῳ",
+   "Αἰσχύλον"
+  ],
+  "Κρέων": [
+   "Κρέοντος",
+   "Κρέοντι",
+   "Κρέοντα"
+  ],
+  "Κόλχοι": [
+   "Κόλχων",
+   "Κόλχοις",
+   "Κόλχους"
+  ],
+  "Κορίνθιος": [
+   "Κορίνθιοι",
+   "Κορινθίων",
+   "Κορινθίοις",
+   "Κορινθίους",
+   "Κορινθίας",
+   "Κορινθίαι"
+  ],
+  "Αἰγεύς": [
+   "Αἰγέως",
+   "Αἰγεῖ",
+   "Αἰγέα"
+  ],
+  "Ἥλιος": [
+   "Ἡλίου",
+   "Ἡλίῳ",
+   "Ἥλιον"
+  ]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "panel-7-3-a",
+   "sentences": [
+    {
+     "text": "τοῦ ἡλίου ἀνατέλλοντος, πολὺς λαὸς τὸ θέατρον πληροῖ· οἱ δὲ τοῦ Ἀρίστωνος ἄνω κάθηνται, ὅθεν πάντα ὁρῶσιν.",
+     "glosses": [
+      {
+       "word": "ἀνατέλλοντος",
+       "kind": "note",
+       "value": "τοῦ ἡλίου ἀνατέλλοντος: as the sun was rising (genitive absolute)"
+      },
+      {
+       "word": "πολὺς",
+       "kind": "en",
+       "value": "much, a great (πολύς)"
+      },
+      {
+       "word": "λαὸς",
+       "kind": "=",
+       "value": "δῆμος, πλῆθος ἀνθρώπων (the people, a crowd)"
+      },
+      {
+       "word": "Ἀρίστωνος",
+       "kind": "note",
+       "value": "οἱ τοῦ Ἀρίστωνος: Ariston's people, his family"
+      },
+      {
+       "word": "ἄνω",
+       "kind": "en",
+       "value": "high up"
+      },
+      {
+       "word": "κάθηνται",
+       "kind": "en",
+       "value": "are sitting"
+      },
+      {
+       "word": "ὅθεν",
+       "kind": "en",
+       "value": "from where"
+      }
+     ]
+    },
+    {
+     "text": "σήμερον γὰρ ὁ Εὐριπίδης τὰς ἑαυτοῦ τραγῳδίας διδάσκει, καὶ ἡ πρώτη Μήδεια καλεῖται.",
+     "glosses": [
+      {
+       "word": "σήμερον",
+       "kind": "en",
+       "value": "today"
+      },
+      {
+       "word": "τραγῳδίας",
+       "kind": "<",
+       "value": "ἡ τραγῳδία: tragedy, a serious play"
+      },
+      {
+       "word": "διδάσκει",
+       "kind": "note",
+       "value": "a poet 'teaches' (διδάσκει) his play: he trains the chorus and puts it on"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Κλεινίας λέγει· «χθὲς μὲν ὁ Σοφοκλῆς καὶ ὁ Εὐφορίων, ὁ τοῦ Αἰσχύλου υἱός, ἠγωνίσαντο, σήμερον δὲ ὁ Εὐριπίδης.»",
+     "glosses": [
+      {
+       "word": "χθὲς",
+       "kind": "en",
+       "value": "yesterday"
+      },
+      {
+       "word": "μὲν",
+       "kind": "note",
+       "value": "μέν … δέ: on the one hand … on the other; χθὲς μέν … σήμερον δέ"
+      },
+      {
+       "word": "Αἰσχύλου",
+       "kind": "note",
+       "value": "ὁ τοῦ Αἰσχύλου υἱός: the son of Aeschylus (the article + genitive)"
+      },
+      {
+       "word": "ἠγωνίσαντο",
+       "kind": "<",
+       "value": "ὁ ἀγών: competed"
+      }
+     ]
+    },
+    {
+     "text": "τῶν δὲ ὑποκριτῶν εἰσερχομένων, οἱ ἐν τῷ θεάτρῳ σιγῶσιν.",
+     "glosses": [
+      {
+       "word": "ὑποκριτῶν",
+       "kind": "en",
+       "value": "actors (ὁ ὑποκριτής)"
+      },
+      {
+       "word": "εἰσερχομένων",
+       "kind": "note",
+       "value": "τῶν ὑποκριτῶν εἰσερχομένων: as the actors come in (genitive absolute)"
+      },
+      {
+       "word": "οἱ",
+       "kind": "note",
+       "value": "οἱ ἐν τῷ θεάτρῳ: the people in the theatre"
+      },
+      {
+       "word": "σιγῶσιν",
+       "kind": "en",
+       "value": "are silent"
+      }
+     ]
+    },
+    {
+     "text": "οἱ ὑποκριταί, ἄνδρες ἅπαντες, πρόσωπα ἔχουσιν· τὸ μὲν τῆς Μηδείας πρόσωπον λευκόν ἐστιν, τὸ δὲ τοῦ Ἰάσονος γένειον ἔχει.",
+     "glosses": [
+      {
+       "word": "ὑποκριταί",
+       "kind": "|",
+       "value": "τῶν ὑποκριτῶν · οἱ ὑποκριταί"
+      },
+      {
+       "word": "πρόσωπα",
+       "kind": "pic",
+       "value": "prosopon"
+      },
+      {
+       "word": "λευκόν",
+       "kind": "en",
+       "value": "white, pale"
+      },
+      {
+       "word": "γένειον",
+       "kind": "en",
+       "value": "a beard"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-7-3-b",
+   "sentences": [
+    {
+     "text": "ἡ Μήδεια μόνη πρὸ τῆς σκηνῆς ἵσταται καὶ βοᾷ· «ὦ θεοί, ὁ Ἰάσων με ἀδικεῖ. ἐγὼ ὑπὲρ αὐτοῦ πάντα ἐποίησα· τὸ δὲ τῶν Κόλχων ἔθνος καὶ τὸν πατέρα ἔλιπον.»",
+     "glosses": [
+      {
+       "word": "μόνη",
+       "kind": "en",
+       "value": "alone"
+      },
+      {
+       "word": "πρὸ",
+       "kind": "en",
+       "value": "πρό + genitive: in front of"
+      },
+      {
+       "word": "σκηνῆς",
+       "kind": "pic",
+       "value": "skene"
+      },
+      {
+       "word": "ἀδικεῖ",
+       "kind": "<",
+       "value": "ἀ- + δίκη: does wrong, wrongs"
+      },
+      {
+       "word": "ὑπὲρ",
+       "kind": "en",
+       "value": "ὑπέρ + genitive: for, on behalf of"
+      },
+      {
+       "word": "ἔθνος",
+       "kind": "en",
+       "value": "people, nation"
+      }
+     ]
+    },
+    {
+     "text": "«νῦν δὲ ὁ ἀνὴρ ὁ ἐμὸς ἄλλην γυναῖκα γαμεῖ, τὴν τοῦ βασιλέως θυγατέρα.»",
+     "glosses": [
+      {
+       "word": "ἐμὸς",
+       "kind": "note",
+       "value": "ὁ ἀνὴρ ὁ ἐμός = ὁ ἐμὸς ἀνήρ: attributive position"
+      },
+      {
+       "word": "γαμεῖ",
+       "kind": "en",
+       "value": "marries"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ χορὸς τῶν Κορινθίων γυναικῶν ἀποκρίνεται· «ἀληθῆ λέγεις, ὦ γύναι· ἀδικεῖ σε ὁ Ἰάσων.»",
+     "glosses": [
+      {
+       "word": "ἀποκρίνεται",
+       "kind": "en",
+       "value": "answers"
+      },
+      {
+       "word": "γύναι",
+       "kind": "|",
+       "value": "ἡ γυνή · ὦ γύναι"
+      }
+     ]
+    },
+    {
+     "text": "ἡ Ἐλπὶς λέγει· «σοφὴ ἡ Μήδεια, καὶ φαρμάκοις χρῆται· καίτοι ἡ ὀργὴ αὐτῆς δεινή.»",
+     "glosses": [
+      {
+       "word": "σοφὴ",
+       "kind": "note",
+       "value": "σοφὴ ἡ Μήδεια: predicate position, 'Medea is clever'"
+      },
+      {
+       "word": "χρῆται",
+       "kind": "en",
+       "value": "χράομαι + dative: use · φαρμάκοις χρῆται: she uses drugs"
+      },
+      {
+       "word": "ὀργὴ",
+       "kind": "en",
+       "value": "anger"
+      },
+      {
+       "word": "δεινή",
+       "kind": "en",
+       "value": "terrible"
+      },
+      {
+       "word": "καίτοι",
+       "kind": "en",
+       "value": "and yet"
+      }
+     ]
+    },
+    {
+     "text": "τῆς δὲ Μηδείας περὶ τῶν παίδων λεγούσης, ἡ Χρυσὶς λέγει· «πάντων τῶν ἐθνῶν αἱ μητέρες ὑπὲρ τῶν παίδων φοβοῦνται.»",
+     "glosses": [
+      {
+       "word": "λεγούσης",
+       "kind": "note",
+       "value": "τῆς Μηδείας λεγούσης: while Medea is speaking (genitive absolute)"
+      },
+      {
+       "word": "ἐθνῶν",
+       "kind": "|",
+       "value": "τὸ ἔθνος · τῶν ἐθνῶν"
+      },
+      {
+       "word": "μητέρες",
+       "kind": "|",
+       "value": "ἡ μήτηρ · αἱ μητέρες"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λύσις· «τί ἔσται τὸ τέλος τῆς τραγῳδίας; τὸν γὰρ μῦθον οὐ γιγνώσκω.»",
+     "glosses": [
+      {
+       "word": "τέλος",
+       "kind": "↔",
+       "value": "ἀρχή (beginning)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-7-3-c",
+   "sentences": [
+    {
+     "text": "ὁ δὲ Κλεινίας, τῶν ἄλλων σιγώντων, τὸν μῦθον λέγει.",
+     "glosses": [
+      {
+       "word": "σιγώντων",
+       "kind": "|",
+       "value": "σιγῶσι(ν) · τῶν ἄλλων σιγώντων: while the others are silent"
+      }
+     ]
+    },
+    {
+     "text": "ὁ Ἰάσων καὶ ἡ Μήδεια εἰς Κόρινθον ἀφίκοντο, καὶ δέκα μὲν ἔτη εὐτυχοῦντες ἔμενον.",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "εὐτυχοῦντες",
+       "kind": "en",
+       "value": "happy, prospering"
+      }
+     ]
+    },
+    {
+     "text": "ἔπειτα δέ, τοῦ Κρέοντος τοῦ βασιλέως τὴν θυγατέρα τῷ Ἰάσονι διδόντος, ὁ Ἰάσων τὴν Μήδειαν ἔλιπε καὶ τὴν κόρην ἐγάμει.",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "διδόντος",
+       "kind": "note",
+       "value": "τοῦ Κρέοντος … διδόντος: since Creon was giving (genitive absolute)"
+      },
+      {
+       "word": "ἐγάμει",
+       "kind": "|",
+       "value": "γαμεῖ · ἐγάμει"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Μήδεια τοὺς θεοὺς ἐκάλει καὶ τὸν Ἰάσονα πολλάκις ἐμέμφετο.",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "ἐμέμφετο",
+       "kind": "en",
+       "value": "blamed (μέμφομαι)"
+      }
+     ]
+    },
+    {
+     "text": "τῇ μὲν νύμφῃ πέπλον καλὸν ἔπεμψεν· ὁ δὲ πέπλος φαρμάκων μεστὸς ἦν.",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "νύμφῃ",
+       "kind": "en",
+       "value": "the bride"
+      },
+      {
+       "word": "μεστὸς",
+       "kind": "en",
+       "value": "full (of + genitive)"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ κόρη τὸν πέπλον λαβοῦσα πυρὶ λάβρῳ ἐκαίετο, καὶ ὁ πατὴρ βοηθῶν μετ' αὐτῆς ἀπέθανεν.",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "λάβρῳ",
+       "kind": "en",
+       "value": "fierce, greedy (like Labros!)"
+      },
+      {
+       "word": "ἐκαίετο",
+       "kind": "en",
+       "value": "was burning"
+      },
+      {
+       "word": "βοηθῶν",
+       "kind": "en",
+       "value": "helping, coming to help"
+      },
+      {
+       "word": "ἀπέθανεν",
+       "kind": "en",
+       "value": "died"
+      }
+     ]
+    },
+    {
+     "text": "τοὺς δὲ παῖδας, οὓς ἐξ Ἰάσονος εἶχεν, ἡ Μήδεια αὐτὴ ἀπέκτεινεν· τέλος δὲ παρὰ τοῦ Ἡλίου ἅρμα λαβοῦσα εἰς Ἀθήνας ἔφυγεν.",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "ἀπέκτεινεν",
+       "kind": "en",
+       "value": "killed"
+      },
+      {
+       "word": "τέλος",
+       "kind": "note",
+       "value": "τέλος as an adverb: in the end, finally"
+      },
+      {
+       "word": "παρὰ",
+       "kind": "en",
+       "value": "παρά + genitive: from"
+      },
+      {
+       "word": "ἅρμα",
+       "kind": "pic",
+       "value": "harma"
+      }
+     ]
+    },
+    {
+     "text": "ἄλλοι δὲ λέγουσιν ὅτι οἱ Κορίνθιοι τοὺς παῖδας ἀπέκτειναν.",
+     "orig": [
+      2,
+      3
+     ],
+     "glosses": [
+      {
+       "word": "ὅτι",
+       "kind": "en",
+       "value": "that"
+      },
+      {
+       "word": "ἀπέκτειναν",
+       "kind": "|",
+       "value": "ἀπέκτεινε(ν) · ἀπέκτειναν"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λύσις· «ἆρα ἀλήθειαν λέγεις, ὦ πάππε; δεινὴ ἡ πρᾶξις. καίτοι ὁ Ἰάσων κακὸς ἦν.»",
+     "glosses": [
+      {
+       "word": "ἀλήθειαν",
+       "kind": "<",
+       "value": "ἀληθής: ἡ ἀλήθεια, truth"
+      },
+      {
+       "word": "καίτοι",
+       "kind": "en",
+       "value": "and yet"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Κλεινίας· «τὴν ἀλήθειαν λέγω· ὁ γὰρ λαὸς τὸν μῦθον ἐπίσταται. ὅθεν δὲ ὁ Εὐριπίδης τὴν πρᾶξιν τῆς Μηδείας ἔλαβεν, οὐκ οἶδα· οἱ γὰρ ποιηταὶ τοῖς μύθοις χρῶνται ὥσπερ ὁ κεραμεὺς τῷ πηλῷ.»",
+     "glosses": [
+      {
+       "word": "οἶδα",
+       "kind": "en",
+       "value": "I know"
+      },
+      {
+       "word": "ποιηταὶ",
+       "kind": "<",
+       "value": "ποιέω: ὁ ποιητής, a maker, a poet"
+      },
+      {
+       "word": "ὥσπερ",
+       "kind": "en",
+       "value": "just as"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "τραγωδια",
+   "pic": "tragodia",
+   "gloss_grc": "ἡ τραγῳδία · ἐν τῷ θεάτρῳ"
+  },
+  {
+   "id": "μενδε",
+   "gloss_grc": "χθὲς μὲν … σήμερον δέ"
+  },
+  {
+   "id": "αδικεω",
+   "gloss_grc": "ἀδικεῖ ↔ εὖ ποιεῖ"
+  },
+  {
+   "id": "αληθεια",
+   "gloss_grc": "< ἀληθής · τὴν ἀλήθειαν λέγει"
+  },
+  {
+   "id": "εθνος",
+   "gloss_grc": "τὸ τῶν Κόλχων ἔθνος"
+  },
+  {
+   "id": "λαος",
+   "gloss_grc": "ὁ λαός = πολλοὶ ἄνθρωποι"
+  },
+  {
+   "id": "καιτοι",
+   "gloss_grc": "καίτοι = καὶ μήν, ἀλλ' ὅμως"
+  },
+  {
+   "id": "οθεν",
+   "gloss_grc": "ὅθεν = ἐκ τοῦ τόπου ὅπου"
+  },
+  {
+   "id": "πραξις",
+   "gloss_grc": "< πράττω · δεινὴ ἡ πρᾶξις"
+  },
+  {
+   "id": "χραομαι",
+   "gloss_grc": "χρῆται + dative · φαρμάκοις χρῆται"
+  },
+  {
+   "id": "τελος",
+   "gloss_grc": "τὸ τέλος ↔ ἡ ἀρχή"
+  },
+  {
+   "id": "υπερ",
+   "gloss_grc": "ὑπὲρ τῶν παίδων"
+  },
+  {
+   "id": "προσωπον",
+   "pic": "prosopon"
+  },
+  {
+   "id": "διδωμι",
+   "gloss_grc": "τοῦ Κρέοντος διδόντος"
+  }
+ ],
+ "notice": [
+  "τοῦ ἡλίου ἀνατέλλοντος, οἱ τοῦ Ἀρίστωνος ἐν τῷ θεάτρῳ κάθηνται.",
+  "τῶν ὑποκριτῶν εἰσερχομένων, οἱ ἐν τῷ θεάτρῳ σιγῶσιν. — τῆς Μηδείας λεγούσης, ἡ Χρυσὶς φοβεῖται.",
+  "ὁ ἀνὴρ ὁ ἐμός (attributive) — σοφὴ ἡ Μήδεια (predicate) — δεινὴ ἡ πρᾶξις.",
+  "οἱ τοῦ Ἀρίστωνος · οἱ ἐν τῷ θεάτρῳ · τὸ τοῦ Ἰάσονος (πρόσωπον) · ὁ τοῦ Αἰσχύλου υἱός"
+ ],
+ "grammar": {
+  "md": "**The genitive absolute.** A noun (or pronoun) and a participle, both in the **genitive**, can stand apart from the rest of the sentence to set the scene: **τῶν ὑποκριτῶν εἰσερχομένων**, οἱ ἐν τῷ θεάτρῳ σιγῶσιν 'the actors coming in, the audience falls silent' = '*as* the actors come in …'. It is 'absolute' (ἀπόλυτος, 'loosed') because the noun in it is **not** the subject or object of the main verb. Translate with *when, while, since, as, although*, whichever the sense needs:\n\n- τοῦ ἡλίου ἀνατέλλοντος … κάθηνται — *as the sun rises* they take their seats\n- τῆς Μηδείας λεγούσης, ἡ Χρυσὶς φοβεῖται — *while Medea is speaking*, Chrysis is afraid\n- τοῦ Κρέοντος τὴν θυγατέρα διδόντος, ὁ Ἰάσων τὴν Μήδειαν ἔλιπε — *since Creon was giving* him his daughter, Jason left Medea\n\nThe tense of the participle is relative to the main verb: present = at the same time, aorist = before.\n\n**Attributive and predicate position.** Where an adjective stands relative to the article changes the meaning.\n\n| position | pattern | meaning |\n|---|---|---|\n| attributive | ὁ **σοφὸς** ἀνήρ · ὁ ἀνὴρ ὁ **σοφός** | the wise man |\n| predicate | **σοφὸς** ὁ ἀνήρ · ὁ ἀνὴρ **σοφός** | the man is wise |\n\nAttributive = inside the article group (between article and noun, or after a repeated article); predicate = outside it, and then an ἐστί(ν) is understood: **δεινὴ ἡ πρᾶξις** 'the deed is terrible'. Some words always stand in predicate position with an attributive meaning: οὗτος, ἐκεῖνος, πᾶς, ἀμφότεροι (οὗτος ὁ μῦθος, ἀμφότεροι οἱ χοροί); and αὐτός changes meaning with position (7.2).\n\n**More uses of the article.** The article can turn almost anything into a noun:\n\n| article + | example | meaning |\n|---|---|---|\n| genitive | **οἱ τοῦ Ἀρίστωνος** | Ariston's people, his family |\n| genitive (noun understood) | τὸ **τοῦ Ἰάσονος** (πρόσωπον) | Jason's (mask) |\n| prepositional phrase | **οἱ ἐν τῷ θεάτρῳ** | the people in the theatre |\n| adverb | οἱ **νῦν**, οἱ **τότε** | people now, people then |\n| participle | **ὁ νικῶν** | the winner |\n| apposition | ὁ Εὐφορίων, **ὁ τοῦ Αἰσχύλου υἱός** | Euphorion, the son of Aeschylus |\n\nAnd with μέν … δέ it points: **τὸ μὲν** … **τὸ δὲ** 'the one … the other'; **ὁ δέ** 'and he'.",
+  "paradigms": [
+   "article"
+  ],
+  "diagram": "diagram-gen-abs"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the genitive endings of the genitive absolutes.",
+   "template": "τῶν ὑποκριτῶν εἰσερχομέν___, οἱ ἐν τῷ θεάτρῳ σιγῶσιν. τῆς Μηδείας λεγού___, ἡ Χρυσὶς φοβεῖται. τοῦ ἡλίου ἀνατέλλ___, κάθηνται.",
+   "gaps": [
+    {
+     "answers": [
+      "ων"
+     ]
+    },
+    {
+     "answers": [
+      "σης"
+     ]
+    },
+    {
+     "answers": [
+      "οντος"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.gen-abs",
+    "verb.ptc.pres.act.gen",
+    "verb.ptc.pres.mp.gen"
+   ],
+   "explain": "The participle agrees with its noun in the genitive: εἰσερχομένων (pl.), λεγούσης (f. sg.), ἀνατέλλοντος (m. sg.)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · τῶν ἄλλων ___, ὁ Κλεινίας τὸν μῦθον λέγει.",
+   "options": [
+    {
+     "id": "a",
+     "text": "σιγώντων"
+    },
+    {
+     "id": "b",
+     "text": "σιγῶσιν"
+    },
+    {
+     "id": "c",
+     "text": "σιγῶντες"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.gen-abs"
+   ],
+   "explain": "A genitive absolute: τῶν ἄλλων σιγώντων 'while the others are silent'.",
+   "audio": "τῶν ἄλλων σιγώντων, ὁ Κλεινίας τὸν μῦθον λέγει."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ Ἰάσων τὴν Μήδειαν ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀδικεῖ"
+    },
+    {
+     "id": "b",
+     "text": "χρῆται"
+    },
+    {
+     "id": "c",
+     "text": "ἀλήθεια"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "Jason wrongs Medea: ἀδικεῖ.",
+   "audio": "ὁ Ἰάσων τὴν Μήδειαν ἀδικεῖ."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · οἱ ποιηταὶ τοῖς μύθοις ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "χρῶνται"
+    },
+    {
+     "id": "b",
+     "text": "ἀδικοῦσιν"
+    },
+    {
+     "id": "c",
+     "text": "γαμοῦσιν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition",
+    "syntax.dat.uses"
+   ],
+   "explain": "χράομαι takes the dative: τοῖς μύθοις χρῶνται 'they use the myths'.",
+   "audio": "οἱ ποιηταὶ τοῖς μύθοις χρῶνται."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "τραγῳδία",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "tragodia"
+    },
+    {
+     "id": "b",
+     "image": "choros"
+    },
+    {
+     "id": "c",
+     "image": "tripous"
+    },
+    {
+     "id": "d",
+     "image": "theatron"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ἡ τραγῳδία: a tragedy, with masked actors."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ἅρμα",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "hippos"
+    },
+    {
+     "id": "b",
+     "image": "harma"
+    },
+    {
+     "id": "c",
+     "image": "trieres"
+    },
+    {
+     "id": "d",
+     "image": "ploion"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "τὸ ἅρμα: a chariot. Medea escapes in the chariot of the Sun."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the participle of λέγω for a genitive absolute with τῆς Μηδείας ('while Medea is speaking').",
+   "lemma": "λέγω",
+   "cell": "present.active.participle.gen.sg.f",
+   "skills": [
+    "syntax.gen-abs",
+    "verb.ptc.pres.act.gen"
+   ],
+   "explain": "λεγούσης: feminine genitive singular, agreeing with τῆς Μηδείας.",
+   "audio": "λεγούσης"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the participle of λέγω for a genitive absolute with τοῦ Κλεινίου ('while Kleinias is speaking').",
+   "lemma": "λέγω",
+   "cell": "present.active.participle.gen.sg.m",
+   "skills": [
+    "syntax.gen-abs",
+    "verb.ptc.pres.act.gen"
+   ],
+   "explain": "λέγοντος: masculine genitive singular.",
+   "audio": "λέγοντος"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the genitive singular of ἔθνος.",
+   "lemma": "ἔθνος",
+   "cell": "gen.sg",
+   "skills": [
+    "noun.decl3.gen.sg"
+   ],
+   "explain": "ἔθνους: an -εσ- stem like γένος, γένους.",
+   "audio": "ἔθνους"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse εἰσερχομένων in: τῶν ὑποκριτῶν εἰσερχομένων.",
+   "form": "εἰσερχομένων",
+   "groups": [
+    {
+     "id": "kind",
+     "label": "Form",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      }
+     ]
+    },
+    {
+     "id": "case",
+     "label": "Case",
+     "options": [
+      {
+       "id": "nom",
+       "label": "nominative"
+      },
+      {
+       "id": "gen",
+       "label": "genitive"
+      },
+      {
+       "id": "acc",
+       "label": "accusative"
+      }
+     ]
+    },
+    {
+     "id": "num",
+     "label": "Number",
+     "options": [
+      {
+       "id": "sg",
+       "label": "singular"
+      },
+      {
+       "id": "pl",
+       "label": "plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "kind": "ptc",
+    "case": "gen",
+    "num": "pl"
+   },
+   "skills": [
+    "syntax.gen-abs",
+    "verb.ptc.pres.mp.gen"
+   ],
+   "explain": "Present participle of εἰσέρχομαι, genitive plural, agreeing with τῶν ὑποκριτῶν.",
+   "audio": "εἰσερχομένων"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse πράξεις.",
+   "form": "πράξεις",
+   "groups": [
+    {
+     "id": "case",
+     "label": "Case",
+     "options": [
+      {
+       "id": "nom",
+       "label": "nominative"
+      },
+      {
+       "id": "gen",
+       "label": "genitive"
+      },
+      {
+       "id": "acc",
+       "label": "accusative"
+      },
+      {
+       "id": "nomacc",
+       "label": "nominative or accusative"
+      }
+     ]
+    },
+    {
+     "id": "num",
+     "label": "Number",
+     "options": [
+      {
+       "id": "sg",
+       "label": "singular"
+      },
+      {
+       "id": "pl",
+       "label": "plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "case": "nomacc",
+    "num": "pl"
+   },
+   "skills": [
+    "noun.decl3.nom.pl",
+    "noun.decl3.acc.pl"
+   ],
+   "explain": "πρᾶξις, πράξεως: -ι stem like πόλις; πράξεις is nominative and accusative plural.",
+   "audio": "πράξεις"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "___ τοῦ ἡλίου, οἱ τοῦ Ἀρίστωνος ἐν τῷ θεάτρῳ κάθηνται. (as the sun rises)",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀνατέλλοντος"
+    },
+    {
+     "id": "b",
+     "text": "ἀνατέλλων"
+    },
+    {
+     "id": "c",
+     "text": "ἀνατέλλει"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.gen-abs"
+   ],
+   "explain": "Genitive noun, genitive participle: τοῦ ἡλίου ἀνατέλλοντος."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "νῦν δὲ ὁ ἀνὴρ ___ ἄλλην γυναῖκα γαμεῖ. (my husband)",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ ἐμὸς"
+    },
+    {
+     "id": "b",
+     "text": "ἐμὸς"
+    },
+    {
+     "id": "c",
+     "text": "ἐμοῦ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.position",
+    "syntax.attributive"
+   ],
+   "explain": "Attributive position after the noun needs the repeated article: ὁ ἀνὴρ ὁ ἐμός."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "___ ἐν τῷ θεάτρῳ σιγῶσιν. (the people in the theatre)",
+   "options": [
+    {
+     "id": "a",
+     "text": "οἱ"
+    },
+    {
+     "id": "b",
+     "text": "τοῦ"
+    },
+    {
+     "id": "c",
+     "text": "ὁ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.position",
+    "syntax.subject"
+   ],
+   "explain": "Article + prepositional phrase makes a noun: οἱ ἐν τῷ θεάτρῳ."
+  },
+  {
+   "type": "label",
+   "prompt": "δεινὴ ἡ πρᾶξις. — Which position is δεινή in, and what does the phrase mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "predicate: 'the deed is terrible'"
+    },
+    {
+     "id": "b",
+     "text": "attributive: 'the terrible deed'"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.position"
+   ],
+   "explain": "δεινή is outside the article group: predicate position, ἐστί understood."
+  },
+  {
+   "type": "label",
+   "prompt": "τῆς Μηδείας περὶ τῶν παίδων λεγούσης, ἡ Χρυσὶς φοβεῖται. — What does the genitive absolute express here?",
+   "options": [
+    {
+     "id": "a",
+     "text": "time: while Medea is speaking"
+    },
+    {
+     "id": "b",
+     "text": "possession: Medea's speech"
+    },
+    {
+     "id": "c",
+     "text": "purpose: in order to speak"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.gen-abs"
+   ],
+   "explain": "A genitive absolute sets the circumstances: while, when, since, although."
+  },
+  {
+   "type": "label",
+   "prompt": "ἡ Μήδεια ὑπὲρ τοῦ Ἰάσονος πάντα ἐποίησεν. — Is τοῦ Ἰάσονος part of a genitive absolute?",
+   "options": [
+    {
+     "id": "a",
+     "text": "no: it is the genitive after ὑπέρ ('for Jason')"
+    },
+    {
+     "id": "b",
+     "text": "yes: 'while Jason …'"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.gen-abs",
+    "syntax.gen.uses"
+   ],
+   "explain": "No participle goes with it; ὑπέρ + genitive 'on behalf of, for'."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make a genitive absolute: ὁ χορὸς ᾄδει· ἡ Ἐλπὶς ἀκούει. → τοῦ χοροῦ …, ἡ Ἐλπὶς ἀκούει.",
+   "template": "τοῦ χοροῦ ___, ἡ Ἐλπὶς ἀκούει.",
+   "gaps": [
+    {
+     "answers": [
+      "ᾄδοντος"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.gen-abs",
+    "verb.ptc.pres.act.gen"
+   ],
+   "explain": "ᾄδων → ᾄδοντος (genitive singular).",
+   "audio": "τοῦ χοροῦ ᾄδοντος, ἡ Ἐλπὶς ἀκούει."
+  },
+  {
+   "type": "transform",
+   "prompt": "Change to predicate position: ἡ σοφὴ Μήδεια → 'Medea is clever': … ἡ Μήδεια.",
+   "template": "___ ἡ Μήδεια.",
+   "gaps": [
+    {
+     "answers": [
+      "σοφή",
+      "σοφὴ"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.position"
+   ],
+   "explain": "σοφὴ ἡ Μήδεια (or ἡ Μήδεια σοφή): the adjective outside the article group.",
+   "audio": "σοφὴ ἡ Μήδεια."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the three words of the genitive absolute.",
+   "sentence": "τῶν ὑποκριτῶν εἰσερχομένων, οἱ ἐν τῷ θεάτρῳ σιγῶσιν.",
+   "answer": [
+    0,
+    1,
+    2
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.gen-abs"
+   ],
+   "explain": "τῶν ὑποκριτῶν εἰσερχομένων."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the noun and the participle of the genitive absolute.",
+   "sentence": "ἔπειτα δέ, τοῦ Κρέοντος τὴν θυγατέρα τῷ Ἰάσονι διδόντος, ὁ Ἰάσων τὴν Μήδειαν ἔλιπεν.",
+   "answer": [
+    3,
+    8
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.gen-abs"
+   ],
+   "explain": "τοῦ Κρέοντος … διδόντος; everything between belongs to the participle."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'While the others are silent, Kleinias tells the myth.'",
+   "tokens": [
+    "σιγώντων",
+    "λέγει",
+    "ἄλλων",
+    "ὁ",
+    "τῶν",
+    "μῦθον",
+    "Κλεινίας",
+    "τὸν"
+   ],
+   "answers": [
+    "τῶν ἄλλων σιγώντων ὁ Κλεινίας τὸν μῦθον λέγει",
+    "ὁ Κλεινίας τῶν ἄλλων σιγώντων τὸν μῦθον λέγει",
+    "τῶν ἄλλων σιγώντων τὸν μῦθον λέγει ὁ Κλεινίας",
+    "τῶν ἄλλων σιγώντων ὁ Κλεινίας λέγει τὸν μῦθον"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "syntax.gen-abs"
+   ],
+   "explain": "τῶν ἄλλων σιγώντων, ὁ Κλεινίας τὸν μῦθον λέγει."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "audio": "ὁ Ἰάσων με ἀδικεῖ.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Ἰάσων με ἀδικεῖ."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Ἰάσων με φιλεῖ."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Ἰάσων σε ἀδικεῖ."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "Jason is wronging me."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἅπαντες οἱ ὑποκριταὶ ἄνδρες εἰσίν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "Even Medea is played by a man."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἡ Μήδεια τῇ νύμφῃ ἅρμα ἔπεμψεν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "πέπλον ἔπεμψεν, φαρμάκων μεστόν."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "κατὰ ἄλλους, οἱ Κορίνθιοι τοὺς παῖδας ἀπέκτειναν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension",
+    "read.adapted-text"
+   ],
+   "explain": "ἄλλοι δὲ λέγουσιν ὅτι οἱ Κορίνθιοι τοὺς παῖδας ἀπέκτειναν."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "audio": "δεινὴ ἡ πρᾶξις.",
+   "gaps": [
+    {
+     "answers": [
+      "δεινὴ ἡ πρᾶξις",
+      "δεινή ἡ πρᾶξις"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "δεινὴ ἡ πρᾶξις."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The actor is wise.' (predicate position, no verb)",
+   "gaps": [
+    {
+     "answers": [
+      "σοφὸς ὁ ὑποκριτής",
+      "ὁ ὑποκριτὴς σοφός",
+      "σοφὸς ὁ ὑποκριτὴς",
+      "ὁ ὑποκριτὴς σοφός ἐστιν",
+      "σοφός ἐστιν ὁ ὑποκριτής"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.position"
+   ],
+   "explain": "σοφὸς ὁ ὑποκριτής."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The poets use myths.'",
+   "gaps": [
+    {
+     "answers": [
+      "οἱ ποιηταὶ τοῖς μύθοις χρῶνται",
+      "οἱ ποιηταὶ μύθοις χρῶνται",
+      "οἱ ποιηταὶ χρῶνται τοῖς μύθοις",
+      "οἱ ποιηταὶ χρῶνται μύθοις",
+      "τοῖς μύθοις χρῶνται οἱ ποιηταί"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.dat.uses"
+   ],
+   "explain": "οἱ ποιηταὶ τοῖς μύθοις χρῶνται (dative with χράομαι)."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: τοῦ Κρέοντος τὴν θυγατέρα τῷ Ἰάσονι διδόντος, ὁ Ἰάσων τὴν Μήδειαν ἔλιπεν.",
+   "audio": "τοῦ Κρέοντος τὴν θυγατέρα τῷ Ἰάσονι διδόντος, ὁ Ἰάσων τὴν Μήδειαν ἔλιπεν.",
+   "model": "Since Creon was giving his daughter to Jason, Jason left Medea. (or: When Creon offered Jason his daughter, …)",
+   "skills": [
+    "read.comprehension",
+    "syntax.gen-abs",
+    "read.adapted-text"
+   ],
+   "explain": "A genitive absolute of cause or time."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "τραγῳδία",
+     "right": "tragedy"
+    },
+    {
+     "left": "ἔθνος",
+     "right": "ethnic"
+    },
+    {
+     "left": "λαός",
+     "right": "lay, laity (the people, not the clergy)"
+    },
+    {
+     "left": "πρᾶξις",
+     "right": "practice, praxis"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "τραγ-ῳδία 'goat-song'; ἐθνικός; λαϊκός; πρᾶξις < πράττω."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "τίς σήμερον τὰς ἑαυτοῦ τραγῳδίας διδάσκει;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Εὐριπίδης."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Σοφοκλῆς."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Αἰσχύλος."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "σήμερον ὁ Εὐριπίδης τὰς ἑαυτοῦ τραγῳδίας διδάσκει."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίνος υἱός ἐστιν ὁ Εὐφορίων;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "τοῦ Αἰσχύλου."
+    },
+    {
+     "id": "b",
+     "text": "τοῦ Σοφοκλέους."
+    },
+    {
+     "id": "c",
+     "text": "τοῦ Κρέοντος."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.gen.uses"
+   ],
+   "explain": "ὁ Εὐφορίων, ὁ τοῦ Αἰσχύλου υἱός."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί ἡ Μήδεια βοᾷ;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Ἰάσων ἄλλην γυναῖκα γαμεῖ."
+    },
+    {
+     "id": "b",
+     "text": "ὁ πατὴρ αὐτῆς ἀπέθανεν."
+    },
+    {
+     "id": "c",
+     "text": "οἱ Κόλχοι αὐτὴν ζητοῦσιν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "νῦν δὲ ὁ ἀνὴρ ὁ ἐμὸς ἄλλην γυναῖκα γαμεῖ."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί τῇ νύμφῃ ἔπεμψεν ἡ Μήδεια;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "πέπλον φαρμάκων μεστόν."
+    },
+    {
+     "id": "b",
+     "text": "στέφανον χρυσοῦν."
+    },
+    {
+     "id": "c",
+     "text": "ἅρμα."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "read.adapted-text"
+   ],
+   "explain": "τῇ μὲν νύμφῃ πέπλον καλὸν ἔπεμψεν· ὁ δὲ πέπλος φαρμάκων μεστὸς ἦν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "ποῖ ἔφυγεν ἡ Μήδεια;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "εἰς Ἀθήνας."
+    },
+    {
+     "id": "b",
+     "text": "εἰς Κόρινθον."
+    },
+    {
+     "id": "c",
+     "text": "εἰς τοὺς Κόλχους."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "read.adapted-text"
+   ],
+   "explain": "παρὰ τοῦ Ἡλίου ἅρμα λαβοῦσα εἰς Ἀθήνας ἔφυγεν."
+  }
+ ],
+ "culture": {
+  "title": "Medea, spring 431 BC",
+  "md": "Tragedy at the City Dionysia was a contest between **three poets**, chosen months before by the archon, who 'gave a chorus' to each and assigned a rich citizen as choregos. Each poet put on a tetralogy on one day: three tragedies and a satyr play. The actors, three at most and all men, wore masks (πρόσωπα) of linen and plaster, which let one actor play several parts, women included; a chorus of fifteen sang and danced in the orchestra in front of the stage building (σκηνή). The audience of several thousand, citizens, foreigners and probably women and children too, sat from dawn on the slope below the Acropolis.\n\nIn spring 431, in the archonship of Pythodoros, Euripides competed with **Medea**, *Philoctetes*, *Dictys* and the satyr play *Reapers*. Only *Medea* survives. The ancient summary (hypothesis) of the play records the result: **first Euphorion**, Aeschylus's son, **second Sophocles, third Euripides**. We do not know why the judges placed it last; one guess is that the audience was shocked by a mother who kills her own children on purpose, for in older versions, like the one Apollodorus reports, it was the Corinthians who killed them. Euripides, then about fifty, won only four victories in his lifetime, yet *Medea* became one of the most performed plays of antiquity. Its ending, with Medea escaping in the chariot of the Sun, was later painted on vases with the chariot drawn by serpents.",
+  "image": "culture-7-3-medea"
+ },
+ "quiz": [
+  {
+   "type": "cloze-choice",
+   "prompt": "τῶν ὑποκριτῶν ___, πάντες σιγῶσιν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "εἰσερχομένων"
+    },
+    {
+     "id": "b",
+     "text": "εἰσερχόμενοι"
+    },
+    {
+     "id": "c",
+     "text": "εἰσέρχονται"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.gen-abs"
+   ],
+   "explain": "Genitive absolute: τῶν ὑποκριτῶν εἰσερχομένων."
+  },
+  {
+   "type": "label",
+   "prompt": "ὁ ἀνὴρ ὁ ἐμός — position?",
+   "options": [
+    {
+     "id": "a",
+     "text": "attributive ('my husband')"
+    },
+    {
+     "id": "b",
+     "text": "predicate ('the husband is mine')"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.position"
+   ],
+   "explain": "Repeated article: attributive."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the form of ἀδικέω for 'he wrongs'.",
+   "lemma": "ἀδικέω",
+   "cell": "present.active.indicative.3sg",
+   "skills": [
+    "verb.contract.e",
+    "vocab.production"
+   ],
+   "explain": "ἀδικεῖ.",
+   "audio": "ἀδικεῖ"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the form of χράομαι for 'they use'.",
+   "lemma": "χράομαι",
+   "cell": "present.middle.indicative.3pl",
+   "skills": [
+    "vocab.production",
+    "verb.pres.mp.ind.3pl"
+   ],
+   "explain": "χρῶνται: χράομαι contracts to -η- in some forms (χρῆται) and -ω- in others.",
+   "audio": "χρῶνται"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "___ τοῦ Ἀρίστωνος ἐν τῷ θεάτρῳ κάθηνται. (Ariston's family)",
+   "options": [
+    {
+     "id": "a",
+     "text": "οἱ"
+    },
+    {
+     "id": "b",
+     "text": "ὁ"
+    },
+    {
+     "id": "c",
+     "text": "τοῦ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.position"
+   ],
+   "explain": "οἱ τοῦ Ἀρίστωνος: 'Ariston's people'."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Λύσις τὸν μῦθον τῆς Μηδείας γιγνώσκει.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "τὸν γὰρ μῦθον οὐ γιγνώσκω."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: οἱ ποιηταὶ τοῖς μύθοις χρῶνται ὥσπερ ὁ κεραμεὺς τῷ πηλῷ.",
+   "audio": "οἱ ποιηταὶ τοῖς μύθοις χρῶνται ὥσπερ ὁ κεραμεὺς τῷ πηλῷ.",
+   "model": "Poets use myths just as the potter uses clay.",
+   "skills": [
+    "read.comprehension",
+    "syntax.dat.uses"
+   ],
+   "explain": "χράομαι + dative."
+  }
+ ],
+ "skills": [
+  "syntax.gen-abs",
+  "verb.ptc.pres.act.gen",
+  "verb.ptc.pres.mp.gen",
+  "syntax.position",
+  "syntax.attributive",
+  "syntax.gen.uses",
+  "syntax.dat.uses",
+  "syntax.subject",
+  "noun.decl3.gen.sg",
+  "noun.decl3.nom.pl",
+  "noun.decl3.acc.pl",
+  "verb.contract.e",
+  "verb.pres.mp.ind.3pl",
+  "read.adapted-text",
+  "syntax.word-order",
+  "read.comprehension",
+  "read.locate",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family"
+ ]
+}

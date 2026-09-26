@@ -1,0 +1,621 @@
+{
+ "id": "unit-7",
+ "title_grc": "Τὰ Διονύσια · ἔλεγχος",
+ "title_en": "Unit 7 test",
+ "scope": "7.4",
+ "pass_score": 0.8,
+ "unlock_after_hours": 24,
+ "retake_after_days": 7,
+ "blurb": "Everything from Lessons 7.1–7.4: the procession, the choruses, Medea, the walk home. The future, εἶμι, the future participle of purpose, δίδωμι and τίθημι, ταχύς, the genitive absolute, attributive and predicate position, ἵστημι and its compounds, supplementary participles. Four parts; no feedback until the end. 80 % to pass.",
+ "sections": [
+  {
+   "id": "vocab",
+   "title": "Λέξεις · Vocabulary",
+   "items": [
+    {
+     "type": "pick-picture",
+     "prompt": "θέατρον",
+     "audio": "prompt",
+     "options": [
+      {
+       "id": "a",
+       "image": "agora"
+      },
+      {
+       "id": "b",
+       "image": "naos"
+      },
+      {
+       "id": "c",
+       "image": "theatron"
+      },
+      {
+       "id": "d",
+       "image": "limen"
+      }
+     ],
+     "answer": "c",
+     "skills": [
+      "vocab.recognition"
+     ],
+     "explain": "τὸ θέατρον: theatre."
+    },
+    {
+     "type": "pick-picture",
+     "prompt": "χορός",
+     "audio": "prompt",
+     "options": [
+      {
+       "id": "a",
+       "image": "choros"
+      },
+      {
+       "id": "b",
+       "image": "tragodia"
+      },
+      {
+       "id": "c",
+       "image": "tripous"
+      },
+      {
+       "id": "d",
+       "image": "pompe"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "vocab.recognition"
+     ],
+     "explain": "ὁ χορός: chorus, dance."
+    },
+    {
+     "type": "pick-picture",
+     "prompt": "πρόσωπον",
+     "audio": "prompt",
+     "options": [
+      {
+       "id": "a",
+       "image": "stephanos"
+      },
+      {
+       "id": "b",
+       "image": "prosopon"
+      },
+      {
+       "id": "c",
+       "image": "kylix"
+      },
+      {
+       "id": "d",
+       "image": "harma"
+      }
+     ],
+     "answer": "b",
+     "skills": [
+      "vocab.recognition"
+     ],
+     "explain": "τὸ πρόσωπον: face; mask."
+    },
+    {
+     "type": "listen-pick",
+     "prompt": "Listen and choose what you hear.",
+     "audio": "ἡ τραγῳδία",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἡ τραγῳδία"
+      },
+      {
+       "id": "b",
+       "text": "ἡ ἀλήθεια"
+      },
+      {
+       "id": "c",
+       "text": "ἡ θυσία"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "listen.words"
+     ],
+     "explain": "ἡ τραγῳδία: tragedy."
+    },
+    {
+     "type": "listen-pick",
+     "prompt": "Listen and choose what you hear.",
+     "audio": "ὁ ἄρχων τῷ χορηγῷ τὸν τρίποδα δίδωσιν.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ὁ ἄρχων τῷ χορηγῷ τὸν τρίποδα τίθησιν."
+      },
+      {
+       "id": "b",
+       "text": "ὁ ἄρχων τῷ χορηγῷ τὸν τρίποδα δίδωσιν."
+      },
+      {
+       "id": "c",
+       "text": "ὁ ἄρχων τῷ χορηγῷ τὸν τρίποδα δώσει."
+      }
+     ],
+     "answer": "b",
+     "skills": [
+      "listen.sentences",
+      "verb.mi.didomi"
+     ],
+     "explain": "The archon gives the tripod to the choregos."
+    },
+    {
+     "type": "match",
+     "prompt": "Match each verb to what it adds to a participle.",
+     "pairs": [
+      {
+       "left": "λανθάνω",
+       "right": "without being noticed"
+      },
+      {
+       "left": "τυγχάνω",
+       "right": "by chance"
+      },
+      {
+       "left": "φθάνω",
+       "right": "first, ahead of someone"
+      },
+      {
+       "left": "φαίνομαι",
+       "right": "clearly, evidently"
+      }
+     ],
+     "skills": [
+      "vocab.recognition",
+      "syntax.ptc-supp"
+     ],
+     "explain": "ἔλαθε φυγών, τυγχάνει παρών, φθάνει τρέχων, φαίνεται ἀδικῶν."
+    },
+    {
+     "type": "cloze-type",
+     "prompt": "Type the Greek for 'truth' (with its article).",
+     "gaps": [
+      {
+       "answers": [
+        "ἡ ἀλήθεια",
+        "ἀλήθεια"
+       ]
+      }
+     ],
+     "skills": [
+      "vocab.production"
+     ],
+     "explain": "ἡ ἀλήθεια.",
+     "audio": "ἡ ἀλήθεια"
+    },
+    {
+     "type": "cloze-type",
+     "prompt": "Type the Greek for 'quick' (masculine, feminine, neuter nominative).",
+     "gaps": [
+      {
+       "answers": [
+        "ταχύς, ταχεῖα, ταχύ",
+        "ταχύς ταχεῖα ταχύ"
+       ]
+      }
+     ],
+     "skills": [
+      "vocab.production",
+      "adj.us"
+     ],
+     "explain": "ταχύς, ταχεῖα, ταχύ.",
+     "audio": "ταχύς, ταχεῖα, ταχύ"
+    }
+   ]
+  },
+  {
+   "id": "forms",
+   "title": "Τύποι · Forms",
+   "items": [
+    {
+     "type": "parse",
+     "prompt": "Parse ἴασιν.",
+     "form": "ἴασιν",
+     "groups": [
+      {
+       "id": "verb",
+       "label": "Which verb?",
+       "options": [
+        {
+         "id": "eimi",
+         "label": "εἰμί 'be'"
+        },
+        {
+         "id": "eimi-go",
+         "label": "εἶμι 'go'"
+        },
+        {
+         "id": "hiemi",
+         "label": "ἵημι 'send'"
+        }
+       ]
+      },
+      {
+       "id": "meaning",
+       "label": "Meaning",
+       "options": [
+        {
+         "id": "are",
+         "label": "they are"
+        },
+        {
+         "id": "will-go",
+         "label": "they will go"
+        },
+        {
+         "id": "send",
+         "label": "they send"
+        }
+       ]
+      }
+     ],
+     "answer": {
+      "verb": "eimi-go",
+      "meaning": "will-go"
+     },
+     "skills": [
+      "verb.eimi-go"
+     ],
+     "explain": "ἴασι(ν): εἶμι, 'they will go'. 'They are' is εἰσί(ν); 'they send' is ἱᾶσι(ν).",
+     "audio": "ἴασιν"
+    },
+    {
+     "type": "parse",
+     "prompt": "Parse ἔθηκεν.",
+     "form": "ἔθηκεν",
+     "groups": [
+      {
+       "id": "verb",
+       "label": "Which verb?",
+       "options": [
+        {
+         "id": "didomi",
+         "label": "δίδωμι"
+        },
+        {
+         "id": "tithemi",
+         "label": "τίθημι"
+        },
+        {
+         "id": "histemi",
+         "label": "ἵστημι"
+        }
+       ]
+      },
+      {
+       "id": "tense",
+       "label": "Tense",
+       "options": [
+        {
+         "id": "pres",
+         "label": "present"
+        },
+        {
+         "id": "fut",
+         "label": "future"
+        },
+        {
+         "id": "aor",
+         "label": "aorist"
+        }
+       ]
+      }
+     ],
+     "answer": {
+      "verb": "tithemi",
+      "tense": "aor"
+     },
+     "skills": [
+      "verb.mi.aorist"
+     ],
+     "explain": "ἔθηκε(ν): aorist of τίθημι, 'he put'.",
+     "audio": "ἔθηκεν"
+    }
+   ],
+   "generate": {
+    "skills": [
+     "verb.fut.act.ind.3sg",
+     "verb.fut.act.ind.3pl",
+     "verb.fut.mid.ind.3sg",
+     "verb.fut.act.inf",
+     "verb.eimi.fut.ind.3pl",
+     "verb.ptc.fut.act",
+     "verb.ptc.pres.act.gen",
+     "verb.ptc.aor.act.gen",
+     "syntax.gen-abs",
+     "adj.agree"
+    ],
+    "n": 10,
+    "seed": 7
+   }
+  },
+  {
+   "id": "sentences",
+   "title": "Λόγοι · Sentences",
+   "items": [
+    {
+     "type": "cloze-choice",
+     "prompt": "τοῦ ἡλίου ___, πάντες εἰς τὸ θέατρον ἔρχονται.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἀνατέλλοντος"
+      },
+      {
+       "id": "b",
+       "text": "ἀνατέλλων"
+      },
+      {
+       "id": "c",
+       "text": "ἀνατέλλει"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.gen-abs"
+     ],
+     "explain": "Genitive absolute: τοῦ ἡλίου ἀνατέλλοντος 'as the sun rises'."
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "οἱ ἄνθρωποι εἰς τὴν ἀγορὰν ἔρχονται ὡς τὴν πομπὴν ___.",
+     "options": [
+      {
+       "id": "a",
+       "text": "ὀψόμενοι"
+      },
+      {
+       "id": "b",
+       "text": "ὄψονται"
+      },
+      {
+       "id": "c",
+       "text": "ὁρῶσιν"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.ptc-purpose",
+      "verb.ptc.fut.act"
+     ],
+     "explain": "ὡς + future participle of purpose: 'to see'."
+    },
+    {
+     "type": "cloze-choice",
+     "prompt": "ὁ Σύρος τὸν τρίποδα πρὸς τῇ θύρᾳ ___. (set up)",
+     "options": [
+      {
+       "id": "a",
+       "text": "ἔστησεν"
+      },
+      {
+       "id": "b",
+       "text": "ἔστη"
+      },
+      {
+       "id": "c",
+       "text": "ἀφίσταται"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "verb.mi.histemi"
+     ],
+     "explain": "Transitive, with an object: ἔστησεν. ἔστη means 'stood'."
+    },
+    {
+     "type": "label",
+     "prompt": "ὁ ἀνὴρ ὁ σοφός — ὁ ἀνὴρ σοφός. Which one means 'the man is wise'?",
+     "options": [
+      {
+       "id": "a",
+       "text": "ὁ ἀνὴρ σοφός (predicate position)"
+      },
+      {
+       "id": "b",
+       "text": "ὁ ἀνὴρ ὁ σοφός (attributive position)"
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "syntax.position"
+     ],
+     "explain": "Outside the article group = predicate: 'the man is wise'."
+    },
+    {
+     "type": "transform",
+     "prompt": "Put it in the future: ὁ ἱερεὺς τοὺς ταύρους θύει καὶ τὰ κρέα τοῖς πολίταις δίδωσιν. → ὁ ἱερεὺς τοὺς ταύρους … καὶ τὰ κρέα τοῖς πολίταις …",
+     "template": "ὁ ἱερεὺς τοὺς ταύρους ___ καὶ τὰ κρέα τοῖς πολίταις ___.",
+     "gaps": [
+      {
+       "answers": [
+        "θύσει"
+       ]
+      },
+      {
+       "answers": [
+        "δώσει"
+       ]
+      }
+     ],
+     "skills": [
+      "verb.fut.act.ind.3sg",
+      "verb.mi.didomi"
+     ],
+     "explain": "θύσει, δώσει."
+    },
+    {
+     "type": "transform",
+     "prompt": "Make a genitive absolute: ὁ χορὸς ᾄδει· οἱ πολῖται σιγῶσιν. → τοῦ χοροῦ …, οἱ πολῖται σιγῶσιν.",
+     "template": "τοῦ χοροῦ ___, οἱ πολῖται σιγῶσιν.",
+     "gaps": [
+      {
+       "answers": [
+        "ᾄδοντος"
+       ]
+      }
+     ],
+     "skills": [
+      "syntax.gen-abs",
+      "verb.ptc.pres.act.gen"
+     ],
+     "explain": "ᾄδοντος: genitive singular masculine, agreeing with τοῦ χοροῦ."
+    },
+    {
+     "type": "reorder",
+     "prompt": "Put the words in order: 'The dog ran off without the slave noticing.'",
+     "tokens": [
+      "φυγών",
+      "ἔλαθε",
+      "κύων",
+      "δοῦλον",
+      "ὁ",
+      "τὸν"
+     ],
+     "answers": [
+      "ὁ κύων ἔλαθε τὸν δοῦλον φυγών",
+      "ὁ κύων τὸν δοῦλον ἔλαθε φυγών",
+      "ἔλαθε τὸν δοῦλον ὁ κύων φυγών",
+      "ὁ κύων φυγὼν ἔλαθε τὸν δοῦλον"
+     ],
+     "skills": [
+      "syntax.word-order",
+      "syntax.ptc-supp"
+     ],
+     "explain": "ὁ κύων ἔλαθε τὸν δοῦλον φυγών."
+    },
+    {
+     "type": "compose-grc",
+     "prompt": "Write in Greek: 'We shall go to the theatre.' (εἶμι)",
+     "gaps": [
+      {
+       "answers": [
+        "εἰς τὸ θέατρον ἴμεν",
+        "ἴμεν εἰς τὸ θέατρον",
+        "ἡμεῖς εἰς τὸ θέατρον ἴμεν",
+        "ἡμεῖς ἴμεν εἰς τὸ θέατρον"
+       ]
+      }
+     ],
+     "skills": [
+      "vocab.production",
+      "verb.eimi-go"
+     ],
+     "explain": "εἰς τὸ θέατρον ἴμεν."
+    }
+   ]
+  },
+  {
+   "id": "reading",
+   "title": "Ἀνάγνωσις · Reading",
+   "passage_title": "ἡ τοῦ Λάβρου τραγῳδία",
+   "passage": "μετὰ τὰ Διονύσια ὁ Λύσις καὶ ὁ Δίων ἐν τῇ οἰκίᾳ τραγῳδίαν ποιήσειν μέλλουσιν. ὁ μὲν Λύσις Ἰάσων ἔσται, ὁ δὲ Δίων Μήδεια· ἡ δὲ Ἐλπὶς τὸν χορὸν ποιήσει. ὁ Σύρος αὐτοῖς πρόσωπα ἐκ πηλοῦ ποιεῖ, καὶ τῷ μὲν Λύσιδι τὸ τοῦ Ἰάσονος δίδωσιν, τῷ δὲ Δίωνι τὸ τῆς Μηδείας. ἡ δὲ Χρυσὶς πέπλον ἐπὶ τὴν τράπεζαν τίθησιν· «οὗτος ὁ πέπλος ὁ τῆς Μηδείας ἔσται.» ὁ δὲ Κλεινίας καὶ ὁ Ἀρίστων μένουσιν ὡς τὴν τραγῳδίαν ὀψόμενοι. ὁ Δίων πρὸς τῇ θύρᾳ ἵσταται καὶ βοᾷ· «ὦ θεοί, ὁ Ἰάσων με ἀδικεῖ!» ὁ δὲ Λάβρος ἔτυχε παρὼν καὶ ἔλαθε πάντας τὸν πέπλον λαβών. ταχὺς γὰρ ὁ κύων· ἔφθασε τὸν Σύρον ἐκ τῆς οἰκίας φυγών. τοῦ δὲ κυνὸς φεύγοντος, πάντες τρέχουσιν ὡς τὸν πέπλον ληψόμενοι. ὁ δὲ κύων πάντων θάττων ἐστίν, καὶ δι' ὀλίγου τὸν πέπλον εἰς τὸν πηλὸν ἵησιν. τέλος ὁ Κλεινίας λέγει· «καλὴ ἡ ὑμετέρα τραγῳδία, ὦ παῖδες· ὁ δὲ Λάβρος πάντων ἄριστος ἦν.»",
+   "items": [
+    {
+     "type": "true-false-grc",
+     "prompt": "ὁ Λύσις Μήδεια ἔσται.",
+     "answer": "false",
+     "skills": [
+      "read.comprehension",
+      "verb.eimi.fut.ind.3sg"
+     ],
+     "explain": "ὁ μὲν Λύσις Ἰάσων ἔσται, ὁ δὲ Δίων Μήδεια."
+    },
+    {
+     "type": "true-false-grc",
+     "prompt": "ὁ Σύρος τὰ πρόσωπα ἐκ πηλοῦ ποιεῖ.",
+     "answer": "true",
+     "skills": [
+      "read.comprehension"
+     ],
+     "explain": "ὁ Σύρος αὐτοῖς πρόσωπα ἐκ πηλοῦ ποιεῖ."
+    },
+    {
+     "type": "true-false-grc",
+     "prompt": "πάντες τὸν Λάβρον τὸν πέπλον λαμβάνοντα εἶδον.",
+     "answer": "false",
+     "skills": [
+      "read.comprehension",
+      "syntax.ptc-supp"
+     ],
+     "explain": "ὁ Λάβρος ἔλαθε πάντας τὸν πέπλον λαβών: nobody noticed."
+    },
+    {
+     "type": "answer-grc",
+     "prompt": "τί ἡ Χρυσὶς ἐπὶ τὴν τράπεζαν τίθησιν;",
+     "options": [
+      {
+       "id": "a",
+       "text": "πέπλον."
+      },
+      {
+       "id": "b",
+       "text": "πρόσωπα."
+      },
+      {
+       "id": "c",
+       "text": "ἄρτον."
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "read.comprehension",
+      "verb.mi.tithemi"
+     ],
+     "explain": "ἡ δὲ Χρυσὶς πέπλον ἐπὶ τὴν τράπεζαν τίθησιν."
+    },
+    {
+     "type": "answer-grc",
+     "prompt": "διὰ τί πάντες τρέχουσιν;",
+     "options": [
+      {
+       "id": "a",
+       "text": "ὡς τὸν πέπλον ληψόμενοι."
+      },
+      {
+       "id": "b",
+       "text": "ὡς τὴν πομπὴν ὀψόμενοι."
+      },
+      {
+       "id": "c",
+       "text": "ὡς τὸν Σύρον ζητήσοντες."
+      }
+     ],
+     "answer": "a",
+     "skills": [
+      "read.comprehension",
+      "syntax.ptc-purpose"
+     ],
+     "explain": "πάντες τρέχουσιν ὡς τὸν πέπλον ληψόμενοι."
+    },
+    {
+     "type": "translate-en",
+     "prompt": "Translate: ὁ δὲ Λάβρος ἔτυχε παρὼν καὶ ἔλαθε πάντας τὸν πέπλον λαβών.",
+     "model": "Labros happened to be there, and took the robe without anyone noticing.",
+     "skills": [
+      "read.comprehension",
+      "syntax.ptc-supp"
+     ],
+     "explain": "τυγχάνω + participle 'happen to'; λανθάνω + accusative + participle 'without … noticing'."
+    },
+    {
+     "type": "translate-en",
+     "prompt": "Translate: τοῦ δὲ κυνὸς φεύγοντος, πάντες τρέχουσιν ὡς τὸν πέπλον ληψόμενοι.",
+     "model": "As the dog runs away, everyone runs to get the robe back.",
+     "skills": [
+      "read.comprehension",
+      "syntax.gen-abs",
+      "syntax.ptc-purpose"
+     ],
+     "explain": "A genitive absolute (τοῦ κυνὸς φεύγοντος) and a future participle of purpose (ὡς ληψόμενοι)."
+    }
+   ]
+  }
+ ]
+}

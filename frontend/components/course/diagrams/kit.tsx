@@ -179,7 +179,67 @@ export function Chip({ x, y, w, h = 40, fill = C.card, stroke = C.strong, childr
   );
 }
 
-/** Rough rendered width of a Greek string in the serif face (for boxes around words). */
-export function tw(text: string, size: number) {
-  return [...text.normalize("NFC")].reduce((w, ch) => w + (ch === " " ? 0.28 : /[Α-ΩἈ-Ὧ]/.test(ch) ? 0.68 : /[ιίὶἰἱῖ]/.test(ch) ? 0.3 : 0.54), 0) * size;
+/** Rough (generous) rendered width of a Greek string in the serif face, for boxes around words. */
+export function tw(text: string, size: number, bold = false) {
+  const em = [...text.normalize("NFC")].reduce((w, ch) => w + (ch === " " ? 0.3 : /[Α-ΩἈ-Ὧ]/.test(ch) ? 0.78 : /[ιίὶἰἱῖϊ,.·’]/.test(ch) ? 0.36 : 0.66), 0);
+  return em * size * (bold ? 1.1 : 1);
+}
+
+/** Greek inside an English label. */
+export function Gk({ children, fill = C.ink }: { children: ReactNode; fill?: string }) {
+  return (
+    <tspan fill={fill} style={SERIF}>
+      {children}
+    </tspan>
+  );
+}
+
+/** English inside a Greek line. */
+export function En({ children, fill = C.muted }: { children: ReactNode; fill?: string }) {
+  return (
+    <tspan fill={fill} style={SANS}>
+      {children}
+    </tspan>
+  );
+}
+
+export type Seg = { t: string; kind?: "pre" | "aug" | "stem" | "end" | "plain" };
+
+/** Word parts as adjacent chips (prefix · augment · stem · ending). */
+export function Segs({ x, y, parts, size = 24, h = 44, anchor = "start" }: { x: number; y: number; parts: Seg[]; size?: number; h?: number; anchor?: Anchor }) {
+  const gap = 4;
+  const ws = parts.map((p) => Math.max(tw(p.t, size, p.kind === "aug" || p.kind === "end") + 16, size + 8));
+  const total = ws.reduce((a, b) => a + b, 0) + gap * (parts.length - 1);
+  let cx = anchor === "middle" ? x - total / 2 : anchor === "end" ? x - total : x;
+  return (
+    <g>
+      {parts.map((p, i) => {
+        const w = ws[i];
+        const bx = cx;
+        cx += w + gap;
+        const hot = p.kind === "aug" || p.kind === "end";
+        const fill = hot ? C.hl : p.kind === "pre" ? C.cream : p.kind === "plain" ? "none" : C.card;
+        const stroke = hot ? C.accent : p.kind === "plain" ? "none" : C.strong;
+        return (
+          <g key={i}>
+            <Box x={bx} y={y} w={w} h={h} r={8} fill={fill} stroke={stroke} />
+            <G x={bx + w / 2} y={y + h / 2 + size * 0.34} size={size} fill={hot ? C.accent : C.ink} weight={hot ? 600 : undefined}>
+              {p.t}
+            </G>
+          </g>
+        );
+      })}
+    </g>
+  );
+}
+
+/** Left-to-right positions of words set at `size` from x0 (with tw widths). */
+export function layout(words: string[], x0: number, size: number, gap = 10, bold = false) {
+  let x = x0;
+  return words.map((t) => {
+    const w = tw(t, size, bold);
+    const r = { t, x, w, c: x + w / 2 };
+    x += w + gap;
+    return r;
+  });
 }

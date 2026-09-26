@@ -1,0 +1,1437 @@
+{
+ "id": "7.4",
+ "title_grc": "ἡ νύξ",
+ "title_en": "Night",
+ "summary_grc": "ὁ Εὐριπίδης τρίτος· οἱ τοῦ Ἀρίστωνος οἴκαδε νυκτὸς βαδίζουσιν καὶ περὶ τῶν κριτῶν οὐ συμβαίνουσιν. ὁ δὲ Λάβρος ἔλαθε τὸν Σύρον φυγών.",
+ "summary_en": "The verdict: Euripides is placed third. Walking home in the dark, the family and Demokritos argue about it, and Labros turns up where nobody expected him. ἵστημι and its compounds (ἔστησα / ἔστην, ἀφίσταμαι, καθίστημι) and supplementary participles with λανθάνω, τυγχάνω, φαίνομαι, φθάνω.",
+ "cover": "panel-7-4-c",
+ "caption_grc": "ὁ Λάβρος ἔλαθε τὸν Σύρον ἐκ τῆς οἰκίας φυγών.",
+ "names": {
+  "Σοφοκλῆς": [
+   "Σοφοκλέους",
+   "Σοφοκλεῖ",
+   "Σοφοκλέα"
+  ],
+  "Εὐφορίων": [
+   "Εὐφορίωνος",
+   "Εὐφορίωνι",
+   "Εὐφορίωνα"
+  ]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "panel-7-4-a",
+   "sentences": [
+    {
+     "text": "ἑσπέρας οὔσης, ὁ κῆρυξ ἐν τῷ θεάτρῳ ἵσταται καὶ τοὺς νικῶντας λέγει· «πρῶτος Εὐφορίων, δεύτερος Σοφοκλῆς, τρίτος Εὐριπίδης.»",
+     "glosses": [
+      {
+       "word": "κῆρυξ",
+       "kind": "en",
+       "value": "herald"
+      },
+      {
+       "word": "δεύτερος",
+       "kind": "en",
+       "value": "second"
+      },
+      {
+       "word": "τρίτος",
+       "kind": "en",
+       "value": "third"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λύσις ἀνίσταται καὶ βοᾷ· «οὐ δίκαιον! ἡ Μήδεια ἀρίστη πασῶν ἦν.»",
+     "glosses": [
+      {
+       "word": "ἀνίσταται",
+       "kind": "<",
+       "value": "ἀνά + ἵσταμαι: stands up"
+      },
+      {
+       "word": "δίκαιον",
+       "kind": "en",
+       "value": "fair, just"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Κλεινίας· «σίγα, ὦ παῖ. οἱ κριταὶ κλήρῳ καθίστανται, καὶ ἐλάττονες ἢ δέκα κρίνουσιν· πέντε γὰρ μόνον δέλτους ὁ ἄρχων ἀναιρεῖται.»",
+     "glosses": [
+      {
+       "word": "σίγα",
+       "kind": "en",
+       "value": "be quiet!"
+      },
+      {
+       "word": "κριταὶ",
+       "kind": "en",
+       "value": "judges"
+      },
+      {
+       "word": "κλήρῳ",
+       "kind": "en",
+       "value": "by lot"
+      },
+      {
+       "word": "καθίστανται",
+       "kind": "<",
+       "value": "κατά + ἵστημι: καθίστημι 'appoint' · καθίστανται 'are appointed'"
+      },
+      {
+       "word": "ἐλάττονες",
+       "kind": "↔",
+       "value": "πλείονες (more)"
+      },
+      {
+       "word": "κρίνουσιν",
+       "kind": "en",
+       "value": "judge, decide"
+      },
+      {
+       "word": "μόνον",
+       "kind": "en",
+       "value": "only"
+      },
+      {
+       "word": "δέλτους",
+       "kind": "pic",
+       "value": "deltos"
+      },
+      {
+       "word": "ἄρχων",
+       "kind": "en",
+       "value": "the archon"
+      }
+     ]
+    },
+    {
+     "text": "οἱ τοῦ Ἀρίστωνος ἐκ τοῦ θεάτρου ἐξέρχονται· ἤδη γὰρ νύξ ἐστιν. ὁ δὲ Λύσις τὸν πατέρα φθάνει τρέχων.",
+     "glosses": [
+      {
+       "word": "φθάνει",
+       "kind": "note",
+       "value": "φθάνει τρέχων: runs ahead of, gets there before (φθάνω + participle)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-7-4-b",
+   "sentences": [
+    {
+     "text": "ἐν δὲ τῇ ὁδῷ ὁ Δημόκριτος μετὰ τῶν υἱῶν τυγχάνει παρών.",
+     "glosses": [
+      {
+       "word": "τυγχάνει",
+       "kind": "note",
+       "value": "τυγχάνει παρών: happens to be there (τυγχάνω + participle)"
+      }
+     ]
+    },
+    {
+     "text": "«ὀρθῶς ἔκριναν οἱ κριταί», λέγει· «ὁ γὰρ Εὐριπίδης τοῦ Σοφοκλέους ἥττων ἐστίν, καὶ ἐλάττονας νίκας ἔχει. ἡ δὲ Μήδεια φαίνεται κακὴ οὖσα· τίς γὰρ μήτηρ τοὺς ἑαυτῆς παῖδας ἀποκτείνει;»",
+     "glosses": [
+      {
+       "word": "ὀρθῶς",
+       "kind": "en",
+       "value": "rightly"
+      },
+      {
+       "word": "ἔκριναν",
+       "kind": "en",
+       "value": "judged, decided"
+      },
+      {
+       "word": "ἥττων",
+       "kind": "↔",
+       "value": "κρείττων (stronger, better)"
+      },
+      {
+       "word": "νίκας",
+       "kind": "<",
+       "value": "νικάω: ἡ νίκη, victory"
+      },
+      {
+       "word": "φαίνεται",
+       "kind": "note",
+       "value": "φαίνεται κακὴ οὖσα: she is clearly bad (φαίνομαι + participle)"
+      },
+      {
+       "word": "ἀποκτείνει",
+       "kind": "en",
+       "value": "kills"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Ἀρίστων· «οὐχ ἥττων ποιητής ἐστιν ὁ Εὐριπίδης. ὑμέτερος μὲν ὁ Σοφοκλῆς, ἡμέτερος δὲ ὁ Εὐριπίδης.»",
+     "glosses": [
+      {
+       "word": "ποιητής",
+       "kind": "<",
+       "value": "ποιέω: ὁ ποιητής, poet"
+      },
+      {
+       "word": "ὑμέτερος",
+       "kind": "|",
+       "value": "ἡμέτερος (ours) · ὑμέτερος (yours, of you all)"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Χρυσὶς ὀλίγα λέγει· «ὁ Ἰάσων φαίνεται ἀδικῶν· ἡ δὲ Μήδεια ἀδικεῖται.»",
+     "glosses": [
+      {
+       "word": "ὀλίγα",
+       "kind": "↔",
+       "value": "πολλά (few things ↔ many)"
+      }
+     ]
+    },
+    {
+     "text": "οὕτως οὖν λέγουσιν ὅ τε Δημόκριτος καὶ ὁ Ἀρίστων, καὶ οὐ συμβαίνουσιν.",
+     "glosses": [
+      {
+       "word": "οὕτως",
+       "kind": "en",
+       "value": "in this way, so"
+      },
+      {
+       "word": "συμβαίνουσιν",
+       "kind": "<",
+       "value": "σύν + βαίνω: come together, agree"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λύσις τὸν πάππον ἤρετο· «τί κρίνεις σύ, ὦ πάππε;» ὁ δὲ Κλεινίας· «ἐμοὶ ἱκανόν ἐστι τὴν Μήδειαν ἰδεῖν. μετὰ πολλὰ ἔτη οὐδεὶς τὸν Εὐφορίωνα γνώσεται, τὴν δὲ Μήδειαν πάντες.»",
+     "glosses": [
+      {
+       "word": "ἤρετο",
+       "kind": "<",
+       "value": "ἔρομαι: asked (ἐρωτᾷ · ἤρετο)"
+      },
+      {
+       "word": "κρίνεις",
+       "kind": "en",
+       "value": "judge, think best"
+      },
+      {
+       "word": "ἱκανόν",
+       "kind": "en",
+       "value": "enough"
+      },
+      {
+       "word": "πολλὰ",
+       "kind": "en",
+       "value": "many (πολύς)"
+      },
+      {
+       "word": "οὐδεὶς",
+       "kind": "en",
+       "value": "no one"
+      },
+      {
+       "word": "γνώσεται",
+       "kind": "|",
+       "value": "γιγνώσκει · γνώσεται (will know)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-7-4-c",
+   "sentences": [
+    {
+     "text": "σκότος ἐστίν· ἡ γὰρ σελήνη ὀλίγον καὶ οὐχ ἱκανὸν φῶς ἔχει.",
+     "glosses": [
+      {
+       "word": "σκότος",
+       "kind": "↔",
+       "value": "φῶς (darkness ↔ light)"
+      },
+      {
+       "word": "φῶς",
+       "kind": "pic",
+       "value": "selene"
+      }
+     ]
+    },
+    {
+     "text": "ἐξαίφνης ὁ Λύσις ἔστη· ἔτυχε γὰρ ὁρῶν τι μέλαν ἐν τῇ ὁδῷ. «στῆτε!» λέγει. «τίς ἐκεῖ;»",
+     "glosses": [
+      {
+       "word": "ἐξαίφνης",
+       "kind": "en",
+       "value": "suddenly"
+      },
+      {
+       "word": "ἔστη",
+       "kind": "|",
+       "value": "ἵσταται · ἔστη (stood still, stopped)"
+      },
+      {
+       "word": "ἔτυχε",
+       "kind": "|",
+       "value": "τυγχάνει · ἔτυχε(ν): ἔτυχε ὁρῶν 'he happened to see'"
+      },
+      {
+       "word": "μέλαν",
+       "kind": "en",
+       "value": "black, dark"
+      },
+      {
+       "word": "στῆτε",
+       "kind": "|",
+       "value": "ἔστη · στῆτε! (stop! stand still!)"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Ἐλπὶς φοβουμένη ἀφίσταται καὶ πρὸς τὴν μητέρα φεύγει.",
+     "glosses": [
+      {
+       "word": "ἀφίσταται",
+       "kind": "<",
+       "value": "ἀπό + ἵσταμαι: stands away, draws back"
+      }
+     ]
+    },
+    {
+     "text": "τὸ δὲ μέλαν ζῷον προσέρχεται καὶ ὑλακτεῖ· ὁ Λάβρος ἐστίν! ὁ γὰρ κύων ἔλαθε τὸν Σύρον ἐκ τῆς οἰκίας φυγὼν καὶ τοὺς δεσπότας ζητῶν.",
+     "glosses": [
+      {
+       "word": "ζῷον",
+       "kind": "en",
+       "value": "animal, creature"
+      },
+      {
+       "word": "ὑλακτεῖ",
+       "kind": "pic",
+       "value": "verb-hylaktei"
+      },
+      {
+       "word": "ἔλαθε",
+       "kind": "note",
+       "value": "ἔλαθε τὸν Σύρον φυγών: escaped Syros's notice as he ran off, ran off without Syros noticing (λανθάνω + participle)"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Ἐλπὶς ἤρετο· «πῶς ἡμᾶς ηὗρες, ὦ Λάβρε;» ὁ δὲ κύων οὐδὲν λέγει, ἀλλὰ τὸ πρόσωπον αὐτῆς λείχει.",
+     "glosses": [
+      {
+       "word": "πῶς",
+       "kind": "en",
+       "value": "how?"
+      },
+      {
+       "word": "ηὗρες",
+       "kind": "|",
+       "value": "εὑρίσκεις · ηὗρες (you found)"
+      },
+      {
+       "word": "οὐδὲν",
+       "kind": "en",
+       "value": "nothing"
+      },
+      {
+       "word": "λείχει",
+       "kind": "en",
+       "value": "licks"
+      }
+     ]
+    },
+    {
+     "text": "οἴκαδε δὲ ἀφικομένων αὐτῶν, ὁ Σύρος ἐν τῇ θύρᾳ ἵσταται· «ὦ δέσποτα, ὁ ὑμέτερος κύων ἔλαθέ με φυγών.»",
+     "glosses": []
+    },
+    {
+     "text": "ὁ δὲ Λάβρος πάντας ἔφθασεν εἰς τὴν οἰκίαν εἰσελθών.",
+     "glosses": [
+      {
+       "word": "ἔφθασεν",
+       "kind": "|",
+       "value": "φθάνει · ἔφθασε(ν): ἔφθασεν εἰσελθών 'got in first'"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Ἀρίστων γελᾷ· «οὐδὲν κακὸν συνέβη. αὔριον δέ σε φύλακα τοῦ κυνὸς καταστήσω.»",
+     "glosses": [
+      {
+       "word": "γελᾷ",
+       "kind": "en",
+       "value": "laughs"
+      },
+      {
+       "word": "συνέβη",
+       "kind": "|",
+       "value": "συμβαίνει · συνέβη (happened)"
+      },
+      {
+       "word": "αὔριον",
+       "kind": "en",
+       "value": "tomorrow"
+      },
+      {
+       "word": "καταστήσω",
+       "kind": "|",
+       "value": "καθίστημι · καταστήσω (I shall appoint, make)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "λανθανω",
+   "gloss_grc": "λανθάνει · ἔλαθε(ν) — ἔλαθε φυγών"
+  },
+  {
+   "id": "τυγχανω",
+   "gloss_grc": "τυγχάνει · ἔτυχε(ν) — τυγχάνει παρών"
+  },
+  {
+   "id": "φαινω",
+   "gloss_grc": "φαίνει · φαίνεται — φαίνεται κακὴ οὖσα"
+  },
+  {
+   "id": "φθανω",
+   "gloss_grc": "φθάνει τρέχων · ἔφθασε(ν)"
+  },
+  {
+   "id": "καθιστημι",
+   "gloss_grc": "κατά + ἵστημι · καθίστησι(ν) · κατέστησε(ν)"
+  },
+  {
+   "id": "ερομαι",
+   "gloss_grc": "ἤρετο = ἠρώτησε(ν)"
+  },
+  {
+   "id": "ικανος",
+   "gloss_grc": "ἱκανός = ὅσον δεῖ"
+  },
+  {
+   "id": "συμβαινω",
+   "gloss_grc": "σύν + βαίνω · συμβαίνει · συνέβη"
+  },
+  {
+   "id": "ηττων",
+   "gloss_grc": "ἥττων ↔ κρείττων"
+  },
+  {
+   "id": "ελαττων",
+   "gloss_grc": "ἐλάττων ↔ μείζων · ἐλάττονες ἢ δέκα"
+  },
+  {
+   "id": "ολιγος",
+   "gloss_grc": "ὀλίγος ↔ πολύς"
+  },
+  {
+   "id": "υμετερος",
+   "gloss_grc": "ὑμεῖς · ὑμέτερος ↔ ἡμέτερος"
+  },
+  {
+   "id": "ιστημι",
+   "gloss_grc": "ἵσταται · ἔστη · στῆτε!"
+  }
+ ],
+ "notice": [
+  "ὁ Λύσις ἔστη. — «στῆτε!» — ὁ κῆρυξ ἵσταται. — ἡ Ἐλπὶς ἀφίσταται. — ὁ Λύσις ἀνίσταται.",
+  "οἱ κριταὶ κλήρῳ καθίστανται. — αὔριον σε φύλακα τοῦ κυνὸς καταστήσω.",
+  "ὁ Λάβρος ἔλαθε τὸν Σύρον φυγών. — ὁ Λύσις ἔτυχε ὁρῶν τι. — ὁ Δημόκριτος τυγχάνει παρών.",
+  "ἡ Μήδεια φαίνεται κακὴ οὖσα. — ὁ Ἰάσων φαίνεται ἀδικῶν. — ὁ Λύσις τὸν πατέρα φθάνει τρέχων."
+ ],
+ "grammar": {
+  "md": "**ἵστημι: to set up, and to stand.** ἵστημι has two families of forms, and the English changes with them.\n\n| | *make stand, set up* (transitive) | *stand, stop* (intransitive) |\n|---|---|---|\n| present | ἵστημι, ἵστησι(ν), ἱστᾶσι(ν) | ἵσταμαι, **ἵσταται**, ἵστανται |\n| future | στήσω | στήσομαι |\n| aorist | ἔστησα, ἔστησε(ν) | **ἔστην**, **ἔστη**, ἔστησαν; στῆναι; στάς; **στῆθι, στῆτε!** |\n| perfect | — | ἕστηκα 'I am standing' (Unit 10) |\n\nSo ὁ κῆρυξ **ἵσταται** 'the herald stands', ὁ Λύσις **ἔστη** 'Lysis stopped', «**στῆτε!**» 'stop!'; but τὸν τρίποδα **ἔστησεν** 'he set up the tripod'. Notice ἔστησαν, which belongs to both: 'they set up' or 'they stood'.\n\nThe **compounds** keep the pattern and add the meaning of the prefix:\n\n| compound | transitive | intransitive |\n|---|---|---|\n| ἀν-ίστημι | raise up | **ἀνίσταμαι**, ἀνέστην: stand up |\n| ἀφ-ίστημι | remove; make revolt | **ἀφίσταμαι**, ἀπέστην: stand away from; revolt |\n| καθ-ίστημι | set down; appoint, establish | καθίσταμαι, κατέστην: be appointed; settle, become |\n\nοἱ κριταὶ κλήρῳ **καθίστανται** 'the judges are appointed by lot'; σε φύλακα **καταστήσω** 'I shall make you guard'. (ἀφίσταμαι is the word Thucydides uses for allies 'revolting' from Athens.)\n\n**Supplementary participles.** Some verbs are incomplete without a participle, which carries the main idea; the verb adds *how* it happened.\n\n| verb + participle | example | English |\n|---|---|---|\n| **λανθάνω** *escape notice* | ὁ κύων **ἔλαθε** τὸν Σύρον **φυγών** | the dog ran off *without Syros noticing* |\n| **τυγχάνω** *happen* | ὁ Δημόκριτος **τυγχάνει παρών** | Demokritos *happens* to be there |\n| **φθάνω** *be first* | ὁ Λύσις τὸν πατέρα **φθάνει τρέχων** | Lysis runs *ahead of* his father |\n| **φαίνομαι** *be plainly* | ἡ Μήδεια **φαίνεται** κακὴ **οὖσα** | Medea is *clearly* bad |\n\nOften the English verb comes from the participle and the Greek verb becomes an adverb: 'secretly', 'by chance', 'first', 'clearly'. The participle agrees with the subject (or, with λανθάνω, the person not noticing goes in the accusative: τὸν Σύρον). Compare φαίνεται ἀδικῶν 'he is clearly doing wrong' with φαίνεται ἀδικεῖν 'he seems to do wrong': with the participle it is a fact, with the infinitive only an appearance.\n\n**ἥττων, ἐλάττων.** Two more irregular comparatives, declined like βελτίων: ἥττων 'weaker, inferior' (τοῦ Σοφοκλέους ἥττων), ἐλάττων 'smaller, fewer' (ἐλάττονες ἢ δέκα).",
+  "paradigms": [
+   "histemi",
+   "phaino"
+  ],
+  "diagram": "diagram-supplementary"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings of the participles and of ἵστημι.",
+   "template": "ὁ Λάβρος ἔλαθε τὸν Σύρον φυγ___. ὁ Δημόκριτος τυγχάνει παρ___. ἡ Μήδεια φαίνεται κακὴ οὖσ___. ὁ Λύσις ἔστ___ καὶ λέγει· «στῆ___!»",
+   "gaps": [
+    {
+     "answers": [
+      "ών"
+     ]
+    },
+    {
+     "answers": [
+      "ών"
+     ]
+    },
+    {
+     "answers": [
+      "α"
+     ]
+    },
+    {
+     "answers": [
+      "η"
+     ]
+    },
+    {
+     "answers": [
+      "τε"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.ptc-supp",
+    "verb.mi.histemi"
+   ],
+   "explain": "The participles agree with their subjects (φυγών, παρών, οὖσα); ἔστη 'he stopped', στῆτε 'stop!' (root aorist)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ κύων ___ τὸν Σύρον ἐκ τῆς οἰκίας φυγών.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἔλαθε"
+    },
+    {
+     "id": "b",
+     "text": "ἔτυχε"
+    },
+    {
+     "id": "c",
+     "text": "ἔστησε"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.ptc-supp",
+    "vocab.recognition"
+   ],
+   "explain": "λανθάνω + accusative + participle: he escaped Syros's notice running off.",
+   "audio": "ὁ κύων ἔλαθε τὸν Σύρον ἐκ τῆς οἰκίας φυγών."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · οἱ κριταὶ κλήρῳ ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "καθίστανται"
+    },
+    {
+     "id": "b",
+     "text": "ἀφίστανται"
+    },
+    {
+     "id": "c",
+     "text": "ἀνίστανται"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.mi.histemi-compounds"
+   ],
+   "explain": "καθίσταμαι 'be appointed'. ἀφίσταμαι 'stand away', ἀνίσταμαι 'stand up'.",
+   "audio": "οἱ κριταὶ κλήρῳ καθίστανται."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ Εὐριπίδης ___ νίκας ἔχει ἢ ὁ Σοφοκλῆς.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐλάττονας"
+    },
+    {
+     "id": "b",
+     "text": "ἱκανάς"
+    },
+    {
+     "id": "c",
+     "text": "ὑμετέρας"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "adj.irregular-compare",
+    "syntax.comparison"
+   ],
+   "explain": "ἐλάττονας … ἢ: fewer victories than Sophocles.",
+   "audio": "ὁ Εὐριπίδης ἐλάττονας νίκας ἔχει ἢ ὁ Σοφοκλῆς."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ὑλακτεῖ",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "verb-hylaktei"
+    },
+    {
+     "id": "b",
+     "image": "verb-trechei"
+    },
+    {
+     "id": "c",
+     "image": "verb-katheudei"
+    },
+    {
+     "id": "d",
+     "image": "verb-thaumazei"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ὑλακτεῖ: barks. Labros announces himself."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ἵσταται",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "verb-histatai"
+    },
+    {
+     "id": "b",
+     "image": "verb-katheudei"
+    },
+    {
+     "id": "c",
+     "image": "verb-trechei"
+    },
+    {
+     "id": "d",
+     "image": "verb-tithesi"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition",
+    "verb.mi.histemi"
+   ],
+   "explain": "ἵσταται: stands."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of λανθάνω for 'he escaped notice'.",
+   "lemma": "λανθάνω",
+   "cell": "aorist.active.indicative.3sg",
+   "skills": [
+    "syntax.ptc-supp",
+    "verb.aor2.stem"
+   ],
+   "explain": "ἔλαθε(ν): second aorist, stem λαθ-.",
+   "audio": "ἔλαθεν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of τυγχάνω for 'he happened (to)'.",
+   "lemma": "τυγχάνω",
+   "cell": "aorist.active.indicative.3sg",
+   "skills": [
+    "syntax.ptc-supp",
+    "verb.aor2.stem"
+   ],
+   "explain": "ἔτυχε(ν): second aorist, stem τυχ-.",
+   "audio": "ἔτυχεν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the future of καθίστημι for 'I shall appoint'.",
+   "lemma": "καθίστημι",
+   "cell": "future.active.indicative.1sg",
+   "skills": [
+    "verb.mi.histemi-compounds",
+    "verb.fut.act.ind.1sg"
+   ],
+   "explain": "καταστήσω: κατά + στήσω.",
+   "audio": "καταστήσω"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἔστη in: ὁ Λύσις ἐξαίφνης ἔστη.",
+   "form": "ἔστη",
+   "groups": [
+    {
+     "id": "meaning",
+     "label": "Meaning",
+     "options": [
+      {
+       "id": "intr",
+       "label": "stood, stopped (intransitive)"
+      },
+      {
+       "id": "tr",
+       "label": "set up something (transitive)"
+      }
+     ]
+    },
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "meaning": "intr",
+    "tense": "aor"
+   },
+   "skills": [
+    "verb.mi.histemi",
+    "verb.aor.root"
+   ],
+   "explain": "ἔστη: root aorist, intransitive, 'he stopped'. 'He set up' would be ἔστησε(ν).",
+   "audio": "ἔστη"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse φυγών in: ὁ κύων ἔλαθε τὸν Σύρον φυγών.",
+   "form": "φυγών",
+   "groups": [
+    {
+     "id": "kind",
+     "label": "Form",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      }
+     ]
+    },
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      }
+     ]
+    },
+    {
+     "id": "agrees",
+     "label": "Agrees with",
+     "options": [
+      {
+       "id": "dog",
+       "label": "ὁ κύων"
+      },
+      {
+       "id": "syros",
+       "label": "τὸν Σύρον"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "kind": "ptc",
+    "tense": "aor",
+    "agrees": "dog"
+   },
+   "skills": [
+    "syntax.ptc-supp",
+    "verb.ptc.aor.act"
+   ],
+   "explain": "φυγών, aorist participle of φεύγω, nominative: it is the dog who ran off.",
+   "audio": "φυγών"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ Σύρος τὸν τρίποδα ἐν τῇ ὁδῷ ___. (set up)",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἔστησεν"
+    },
+    {
+     "id": "b",
+     "text": "ἔστη"
+    },
+    {
+     "id": "c",
+     "text": "ἵσταται"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.mi.histemi"
+   ],
+   "explain": "Transitive, with an object: ἔστησεν 'set up'. ἔστη 'stood' has no object."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἡ Ἐλπὶς φοβουμένη ___ καὶ πρὸς τὴν μητέρα φεύγει. (draws back)",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀφίσταται"
+    },
+    {
+     "id": "b",
+     "text": "καθίσταται"
+    },
+    {
+     "id": "c",
+     "text": "ἀνίσταται"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.mi.histemi-compounds"
+   ],
+   "explain": "ἀπό + ἵσταμαι: stand away, draw back."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ Δημόκριτος ἐν τῇ ὁδῷ τυγχάνει ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "παρών"
+    },
+    {
+     "id": "b",
+     "text": "παρεῖναι"
+    },
+    {
+     "id": "c",
+     "text": "πάρεστιν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.ptc-supp"
+   ],
+   "explain": "τυγχάνω takes a participle: τυγχάνει παρών 'he happens to be there'."
+  },
+  {
+   "type": "label",
+   "prompt": "ὁ Λύσις τὸν πατέρα φθάνει τρέχων. — What does the sentence say?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Lysis runs ahead of his father."
+    },
+    {
+     "id": "b",
+     "text": "Lysis happens to run to his father."
+    },
+    {
+     "id": "c",
+     "text": "Lysis runs without his father noticing."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.ptc-supp"
+   ],
+   "explain": "φθάνω + participle: do something first, ahead of someone. (τυγχάνω = happen; λανθάνω = unnoticed.)"
+  },
+  {
+   "type": "label",
+   "prompt": "ἡ Μήδεια φαίνεται κακὴ οὖσα. — φαίνεται + participle means:",
+   "options": [
+    {
+     "id": "a",
+     "text": "she is clearly bad (a fact)"
+    },
+    {
+     "id": "b",
+     "text": "she seems to be bad (but may not be)"
+    },
+    {
+     "id": "c",
+     "text": "she escapes notice being bad"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.ptc-supp"
+   ],
+   "explain": "With the participle φαίνομαι states a fact; with the infinitive (φαίνεται κακὴ εἶναι) only an appearance."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make it intransitive ('stood'): ὁ Σύρος τὸν κύνα ἔστησεν. → ὁ κύων …",
+   "template": "ὁ κύων ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἔστη"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.mi.histemi",
+    "verb.aor.root"
+   ],
+   "explain": "ἔστησε 'set (something) up' → ἔστη 'stood'.",
+   "audio": "ὁ κύων ἔστη."
+  },
+  {
+   "type": "transform",
+   "prompt": "Add λανθάνω: ὁ Λάβρος ἔφυγεν (without the slave noticing). → ὁ Λάβρος ἔλαθε τὸν δοῦλον …",
+   "template": "ὁ Λάβρος ἔλαθε τὸν δοῦλον ___.",
+   "gaps": [
+    {
+     "answers": [
+      "φυγών"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.ptc-supp",
+    "verb.ptc.aor.act"
+   ],
+   "explain": "The main idea moves into the participle: φυγών.",
+   "audio": "ὁ Λάβρος ἔλαθε τὸν δοῦλον φυγών."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the supplementary participles.",
+   "sentence": "ὁ κύων ἔλαθε τὸν Σύρον φυγών· ὁ δὲ Λύσις ἔτυχε ὁρῶν τι μέλαν.",
+   "answer": [
+    5,
+    10
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.ptc-supp"
+   ],
+   "explain": "φυγών (with ἔλαθε), ὁρῶν (with ἔτυχε)."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every form of ἵστημι or its compounds.",
+   "sentence": "ὁ κῆρυξ ἵσταται· ὁ δὲ Λύσις ἀνίσταται, ἡ δὲ Ἐλπὶς ἀφίσταται.",
+   "answer": [
+    2,
+    6,
+    10
+   ],
+   "skills": [
+    "read.locate",
+    "verb.mi.histemi-compounds"
+   ],
+   "explain": "ἵσταται, ἀνίσταται, ἀφίσταται."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'Demokritos happens to be present.'",
+   "tokens": [
+    "παρών",
+    "Δημόκριτος",
+    "τυγχάνει",
+    "ὁ"
+   ],
+   "answers": [
+    "ὁ Δημόκριτος τυγχάνει παρών",
+    "ὁ Δημόκριτος παρὼν τυγχάνει",
+    "τυγχάνει παρὼν ὁ Δημόκριτος"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "syntax.ptc-supp"
+   ],
+   "explain": "ὁ Δημόκριτος τυγχάνει παρών."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "audio": "ὁ Λύσις ἐξαίφνης ἔστη.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Λύσις ἐξαίφνης ἔστη."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Λύσις ἐξαίφνης ἔστησεν."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Λύσις ἐξαίφνης ἔτυχεν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences",
+    "verb.mi.histemi"
+   ],
+   "explain": "Lysis suddenly stopped."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Εὐριπίδης πρῶτος ἦν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "πρῶτος Εὐφορίων, δεύτερος Σοφοκλῆς, τρίτος Εὐριπίδης."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Δημόκριτος καὶ ὁ Ἀρίστων οὐ συμβαίνουσιν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "They do not agree about the verdict."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Σύρος τὸν Λάβρον εἰς τὸ θέατρον ἤγαγεν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὁ κύων ἔλαθε τὸν Σύρον ἐκ τῆς οἰκίας φυγών."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "audio": "ὁ κύων ἔλαθε τὸν Σύρον.",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ κύων ἔλαθε τὸν Σύρον",
+      "ὁ κύων ἔλαθεν τὸν Σύρον"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "ὁ κύων ἔλαθε τὸν Σύρον."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Stop, boys!' (aorist imperative of ἵστημι)",
+   "gaps": [
+    {
+     "answers": [
+      "στῆτε, ὦ παῖδες",
+      "ὦ παῖδες, στῆτε",
+      "στῆτε ὦ παῖδες",
+      "ὦ παῖδες στῆτε"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.mi.histemi"
+   ],
+   "explain": "στῆτε, ὦ παῖδες!"
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The boy happens to be present.' (τυγχάνω + participle)",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ παῖς τυγχάνει παρών",
+      "ὁ παῖς παρὼν τυγχάνει",
+      "τυγχάνει ὁ παῖς παρών",
+      "ὁ παῖς τυγχάνει παρὼν"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.ptc-supp"
+   ],
+   "explain": "ὁ παῖς τυγχάνει παρών."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: μετὰ πολλὰ ἔτη οὐδεὶς τὸν Εὐφορίωνα γνώσεται, τὴν δὲ Μήδειαν πάντες.",
+   "audio": "μετὰ πολλὰ ἔτη οὐδεὶς τὸν Εὐφορίωνα γνώσεται, τὴν δὲ Μήδειαν πάντες.",
+   "model": "After many years no one will know Euphorion, but everyone will know Medea.",
+   "skills": [
+    "read.comprehension",
+    "verb.fut.deponent"
+   ],
+   "explain": "γνώσεται: future of γιγνώσκω; the verb is understood again with πάντες. Kleinias was right."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "φαίνω",
+     "right": "phenomenon (a thing that appears)"
+    },
+    {
+     "left": "λανθάνω",
+     "right": "latent (hidden, unnoticed)"
+    },
+    {
+     "left": "ὀλίγος",
+     "right": "oligarchy (rule of the few)"
+    },
+    {
+     "left": "ἵστημι",
+     "right": "statue, static (the same root στα-)"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "φαινόμενον; Latin latēre is a cousin of λαθ-; ὀλιγ-αρχία; στα- / Latin stāre."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "τίς πρῶτος ἦν;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Εὐφορίων."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Σοφοκλῆς."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Εὐριπίδης."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "πρῶτος Εὐφορίων."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "πόσας δέλτους ὁ ἄρχων ἀναιρεῖται;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "πέντε."
+    },
+    {
+     "id": "b",
+     "text": "δέκα."
+    },
+    {
+     "id": "c",
+     "text": "τρεῖς."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "πέντε γὰρ μόνον δέλτους ὁ ἄρχων ἀναιρεῖται."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί λέγει ὁ Δημόκριτος περὶ τῆς Μηδείας;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "φαίνεται κακὴ οὖσα."
+    },
+    {
+     "id": "b",
+     "text": "ἀρίστη πασῶν ἦν."
+    },
+    {
+     "id": "c",
+     "text": "ἀδικεῖται."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.ptc-supp"
+   ],
+   "explain": "ἡ δὲ Μήδεια φαίνεται κακὴ οὖσα."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί ὁ Λύσις ἔστη;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἔτυχε γὰρ ὁρῶν τι μέλαν ἐν τῇ ὁδῷ."
+    },
+    {
+     "id": "b",
+     "text": "ὁ γὰρ πατὴρ αὐτὸν ἐκάλεσεν."
+    },
+    {
+     "id": "c",
+     "text": "ἡ γὰρ σελήνη οὐκ ἦν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.ptc-supp"
+   ],
+   "explain": "ἔτυχε γὰρ ὁρῶν τι μέλαν ἐν τῇ ὁδῷ."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ποιήσει ὁ Ἀρίστων αὔριον;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὸν Σύρον φύλακα τοῦ κυνὸς καταστήσει."
+    },
+    {
+     "id": "b",
+     "text": "τὸν κύνα πωλήσει."
+    },
+    {
+     "id": "c",
+     "text": "εἰς τὸ θέατρον πάλιν εἶσιν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "verb.mi.histemi-compounds"
+   ],
+   "explain": "αὔριον δέ σε φύλακα τοῦ κυνὸς καταστήσω."
+  }
+ ],
+ "culture": {
+  "title": "First, second, third: how Athens judged its poets",
+  "md": "At the end of the City Dionysia a herald announced the results in the theatre, and the winning poet and his choregos were crowned with ivy, Dionysus's plant. There was no silver medal: in tragedy three poets competed, so to be named *third* was to be named last. The ten judges (κριταί) had been picked by lot from lists drawn up by the Council, one from each tribe, and sworn in at the start of the contest; the archon probably counted only five of their ten tablets, so a poet could lose on the luck of the draw. The judges also sat among a vocal crowd that shouted, hissed and drummed its heels on the benches, and later writers claim they were influenced by it.\n\nWe know that *Medea* was placed third in 431 only because the Athenians kept careful records. The results were inscribed on stone in the fourth century and gathered by Aristotle and his pupils into lists called *Didaskaliai*; later scholars copied them into the short summaries (*hypotheseis*) that stand before our manuscripts of the plays. Euripides, who competed for almost fifty years, won the first prize only four times in his life (a fifth came after his death), while Sophocles won about twenty times and was never placed third. Yet Euripides became the most popular tragedian of the next centuries: his plays were revived again and again, quoted everywhere, and, according to Plutarch, Athenian prisoners in Sicily in 413 won food and even freedom by singing his verses. Kleinias's prophecy came true: of Euphorion not a single line survives.",
+  "image": "culture-7-4-ivy"
+ },
+ "quiz": [
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ Λάβρος ___ τὸν Σύρον φυγών.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἔλαθε"
+    },
+    {
+     "id": "b",
+     "text": "ἔστη"
+    },
+    {
+     "id": "c",
+     "text": "ἔφθασε"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.ptc-supp"
+   ],
+   "explain": "He escaped Syros's notice: ἔλαθε."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of ἵστημι for 'they stood' (intransitive).",
+   "lemma": "ἵστημι",
+   "cell": "root aorist.active.indicative.3pl",
+   "skills": [
+    "verb.mi.histemi",
+    "verb.aor.root"
+   ],
+   "explain": "ἔστησαν (the same form also means 'they set up').",
+   "audio": "ἔστησαν"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse καθίστανται in: οἱ κριταὶ κλήρῳ καθίστανται.",
+   "form": "καθίστανται",
+   "groups": [
+    {
+     "id": "voice",
+     "label": "Voice",
+     "options": [
+      {
+       "id": "act",
+       "label": "active"
+      },
+      {
+       "id": "mp",
+       "label": "middle / passive"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person",
+     "options": [
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "voice": "mp",
+    "person": "3pl"
+   },
+   "skills": [
+    "verb.mi.histemi-compounds"
+   ],
+   "explain": "καθίστανται: present middle/passive, 3rd plural: 'are appointed'.",
+   "audio": "καθίστανται"
+  },
+  {
+   "type": "label",
+   "prompt": "ὁ Δημόκριτος τυγχάνει παρών. — τυγχάνει + participle means:",
+   "options": [
+    {
+     "id": "a",
+     "text": "happens to (by chance)"
+    },
+    {
+     "id": "b",
+     "text": "does secretly"
+    },
+    {
+     "id": "c",
+     "text": "does first"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.ptc-supp"
+   ],
+   "explain": "τυγχάνω: happen to."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Κλεινίας λέγει ὅτι πάντες τὴν Μήδειαν γνώσονται.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "τὴν δὲ Μήδειαν πάντες."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Lysis stood up.' (ἀνίσταμαι, aorist ἀνέστη)",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ Λύσις ἀνέστη",
+      "ἀνέστη ὁ Λύσις"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.mi.histemi-compounds"
+   ],
+   "explain": "ὁ Λύσις ἀνέστη."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ Εὐριπίδης, ὡς λέγει ὁ Δημόκριτος, τοῦ Σοφοκλέους ___ ἐστίν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἥττων"
+    },
+    {
+     "id": "b",
+     "text": "ἱκανός"
+    },
+    {
+     "id": "c",
+     "text": "ὑμέτερος"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "adj.irregular-compare",
+    "syntax.comparison"
+   ],
+   "explain": "ἥττων + genitive of comparison: 'inferior to Sophocles'."
+  }
+ ],
+ "skills": [
+  "verb.mi.histemi",
+  "verb.mi.histemi-compounds",
+  "verb.aor.root",
+  "syntax.ptc-supp",
+  "verb.ptc.aor.act",
+  "verb.aor2.stem",
+  "verb.fut.act.ind.1sg",
+  "verb.fut.deponent",
+  "adj.irregular-compare",
+  "syntax.comparison",
+  "syntax.word-order",
+  "read.comprehension",
+  "read.locate",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family"
+ ]
+}
