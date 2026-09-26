@@ -325,20 +325,19 @@ rules.
 Each phase ships behind the current preview URL; F1 alone already fixes
 the "opens to Read with no explanation" problem.
 
-## 11. Decisions needed
+## 11. Decisions (taken 2026-09-26)
 
-1. **Accounts**: email + password on our backend (recommended), Google
-   sign-in, or both? Password reset by email needs a sender (Resend/
-   Postmark free tiers) — OK to start without reset?
-2. **Names**: Learn · Library · Words · Grammar · Progress — or keep Course
-   · Read · Vocab?
-3. **Guest mode**: keep the app fully usable without an account (recommended)
-   or require sign-in for the course?
-4. **Photo/OCR**: keep it as a secondary path inside "Add a text"
-   (recommended) rather than the front door.
-5. **Global search** in the top bar: F6 (recommended) or F1?
-6. Order: F1 → F2 → F3 → F4 → F5 → F6, or F1 → F4 (Words) first since that
-   page annoyed you most?
+1. **Accounts**: email + password on our backend **and** Google sign-in;
+   start without password reset by email (add a sender later).
+2. **Names**: Learn · Library · Practice (Review · Words · Drills) · Grammar
+   · Progress. Old routes redirect.
+3. **Guest mode**: the whole app stays usable without an account; sign-in
+   adds cross-device progress and settings.
+4. **Photo/OCR**: a secondary path inside "Add a text".
+5. **Global search**: F6.
+6. **Order**: F1 → F2 → F3 → F3b → F4 → F5 → F6, as written.
+7. Everything in `APP_REVIEW.md` §3 is adopted (the optional items stay
+   optional).
 
 ## 12. Additions from the app review
 

@@ -4,6 +4,12 @@ Photograph or paste polytonic Greek, correct the OCR, and hear it read in recons
 
 Mobile-first web app for turning photographed or pasted polytonic Ancient Greek into natural, non-Modern-Greek audio.
 
+## Documents
+
+- `CLAUDE.md` — handoff document and session logs.
+- `docs/COURSE_PLAN.md` — the beginner course (Stages 0–3, tracks); `docs/AUTHORING.md` — how lessons are written.
+- `docs/UX_PLAN.md` — the app-structure rework (home, accounts, hubs), with `docs/APP_REVIEW.md` and the agent prompt `docs/HANDOFF.md`.
+
 ## Product flow
 
 1. Take/upload a photo or paste Greek text.

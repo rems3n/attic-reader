@@ -952,3 +952,22 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   share the `q` id prefix (388 collisions; the mistakes deck disambiguates);
   ἐμαυτοῦ/σεαυτοῦ have tables but no lexicon entries; λύω shows θνῄσκω's
   note (shared DCC rank 384 in overrides); content review by a second reader.
+
+## Session log — 2026-09-26 (UX plan, app review, handoff)
+
+- User feedback: the app opens on the Reader with no explanation, no home,
+  no account; Course / Vocab / Grammar are one long page each (the
+  "words from a course lesson" chip wall was the example). Plan written:
+  `docs/UX_PLAN.md` (home dashboard, onboarding, sidebar + bottom tabs,
+  accounts, Library / Practice / Grammar / Learn hubs, phases F1–F6) and
+  `docs/APP_REVIEW.md` (Pimsleur, Babbel, LingQ, Drops and others; eight
+  features adopted: known-word states in the reader, one Review hub,
+  sentence cloze, known-words counter + weekly goal, Quick 5 minutes,
+  session summary, Listen mode, unit guidebook). Decisions in
+  `UX_PLAN.md` §11 (email + Google sign-in, no reset yet; names Learn ·
+  Library · Practice · Grammar · Progress; guest mode kept; order as
+  written).
+- **Handoff**: development continues in another agent from `main`;
+  `docs/HANDOFF.md` is the self-contained prompt. PR #1 (this branch →
+  main) merged with everything through Phase E.
+- Nothing from the UX plan is implemented yet.
