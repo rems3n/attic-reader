@@ -98,7 +98,7 @@ def main() -> int:
         page.get_by_role("button", name="Start").click()
         items = [i for s in gate["sections"] for i in s["items"]]
         run_items(page, items, practice=False, label="gate-hist")
-        expect(page.locator(".eyebrow")).to_have_text("PASSED")
+        expect(page.get_by_text("PASSED", exact=True)).to_be_visible()
         page.screenshot(path=f"{SHOTS}/t3-gate-passed.png", full_page=True)
         print("gate ok")
 

@@ -174,6 +174,7 @@ export default function Settings() {
         </div>
         <input
           ref={file}
+          aria-label="Import progress backup"
           hidden
           type="file"
           accept=".json,application/json"

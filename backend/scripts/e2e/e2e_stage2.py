@@ -104,7 +104,7 @@ def main() -> int:
             items = [i for s in gate["sections"] for i in s["items"]]
             reading = next(s for s in gate["sections"] if s.get("passage_source"))
             run_items(page, items, practice=False, label="gate-2")
-            expect(page.locator(".eyebrow")).to_have_text("PASSED")
+            expect(page.get_by_text("PASSED", exact=True)).to_be_visible()
             page.screenshot(path=f"{SHOTS}/s2-{name}-gate2-passed.png", full_page=True)
             assert reading["passage"].startswith("ἦν δέ τις ἐν τῇ στρατιᾷ Ξενοφῶν")
             ctx.close()

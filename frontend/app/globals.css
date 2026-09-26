@@ -1004,3 +1004,7 @@ html { scroll-padding-top: 72px; }
 @media (max-width: 899px) {
   .hubShell, .narrowShell { width: calc(100% - 40px); }
 }
+.settingsFields > * { min-width: 0; }
+.settingsFields input[hidden] { display: none; }
+.settingsFields .actions { display: flex; flex-wrap: wrap; }
+.settingsFields .actions > button { max-width: 100%; white-space: normal; }

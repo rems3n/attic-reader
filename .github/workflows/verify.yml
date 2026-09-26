@@ -116,3 +116,14 @@ jobs:
           name: app-verification
           path: docs/screenshots/f1
           retention-days: 14
+
+      - name: Save shell screenshots separately
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shell-screenshots
+          path: |
+            docs/screenshots/f1/phone-*.png
+            docs/screenshots/f1/desktop-*.png
+            docs/screenshots/f1/*.log
+          retention-days: 14

@@ -201,7 +201,7 @@ def main() -> int:
         page.get_by_role("button", name="Start").click()
         expect(page.locator(".passage, .sectionTag").first).to_be_visible()
         run_items(page, items, practice=False, label="unit test")
-        expect(page.locator(".eyebrow")).to_have_text("PASSED")
+        expect(page.get_by_text("PASSED", exact=True)).to_be_visible()
         expect(page.locator(".resultBig")).to_have_text("100 %")
         page.screenshot(path=f"{SHOTS}/10-test-passed.png", full_page=True)
         stored = json.loads(page.evaluate("localStorage.getItem('attic.srs.v1')"))

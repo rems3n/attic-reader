@@ -281,7 +281,7 @@ def run(front: str, api_base: str, procs: dict[str, subprocess.Popen]) -> int:
 
         # ---- 5b. vocab shell: renders, and says why the word list is missing
         page.goto(f"{front}/words")
-        expect(page.locator(".nav")).to_be_visible(timeout=20000)
+        expect(page.locator(".shellTopbar")).to_be_visible(timeout=20000)
         expect(page.locator("main .error")).to_contain_text("You are offline", timeout=20000)
         page.screenshot(path=f"{SHOTS}/offline-04-vocab-offline.png", full_page=False)
         print("offline: /words shell with offline message")

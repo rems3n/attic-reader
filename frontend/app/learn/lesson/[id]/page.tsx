@@ -85,6 +85,14 @@ export default function LessonPage() {
     if (lesson?.id) void prefetchLesson(lesson.id, lesson);
   }, [lesson]);
 
+  // Opening a lesson is enough to make Home's Continue card useful.
+  useEffect(() => {
+    if (!lesson) return;
+    setProgress((p) => p.course.lessons[id] ? p : {
+      ...p, course: setLesson(p.course, id, { status: "in-progress", step: 0 }),
+    });
+  }, [lesson, id]);
+
   // Steps that apply to this lesson (alphabet lessons have no words/questions).
   const steps = useMemo(() => {
     if (!lesson) return ALL_STEPS;

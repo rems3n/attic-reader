@@ -38,7 +38,7 @@ with sync_playwright() as p:
     page.get_by_role("button", name="Start").click()
     items = [i for s in gate["sections"] for i in s["items"]]
     run_items(page, items, practice=False, label="gate-1")
-    expect(page.locator(".eyebrow")).to_have_text("PASSED")
+    expect(page.get_by_text("PASSED", exact=True)).to_be_visible()
     page.screenshot(path=f"{SHOTS}/u6-gate-passed.png", full_page=True)
     page.goto(f"{FRONT}/learn")
     page.screenshot(path=f"{SHOTS}/u6-home.png", full_page=True)

@@ -37,6 +37,7 @@ with sync_playwright() as p:
         page.get_by_role("button", name="Next", exact=True).click()
         page.get_by_role("button", name="Finish tour").click()
         page.wait_for_selector(".stepDot")
+        page.wait_for_function("JSON.parse(localStorage.getItem('attic.srs.v1') || '{}').course?.lessons['0.1']?.status === 'in-progress'")
         page.goto(FRONT)
         expect(page.get_by_role("heading", name="Continue learning", exact=True)).to_be_visible()
         expect(page.get_by_role("link", name="Resume lesson")).to_be_visible()
