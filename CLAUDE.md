@@ -851,3 +851,12 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   branch or open a PR to `main` (Railway deploys `main`). Real-voice check
   of the new story clips on Railway; the pre-render plan is now ~28
   stories × 2 speeds + words + item audio.
+- **Theme switched to style C, light** (user request, 2026-09-26: "go back
+  to C but use light mode"). `globals.css` tokens rewritten: paper
+  `#f6f4ee`, stone `#eeebe3`, ink `#1c2024`, sage `#a3b18a` (fills) /
+  `#4e6136` (text, buttons), Literata + IBM Plex Sans (Google Fonts link in
+  `layout.tsx`), 1 px borders, no offset shadows; PWA theme colour
+  `#f6f4ee`. All text pairs ≥ 5.2:1. Class names unchanged, so no component
+  logic moved. Screenshots with the real fonts: fonts fetched from npm
+  (`@fontsource-variable/literata`, `@fontsource/ibm-plex-sans`) and routed
+  in Playwright in place of Google Fonts (egress-blocked here).

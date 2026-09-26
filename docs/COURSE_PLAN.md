@@ -3,8 +3,8 @@
 Status (2026-09-26): **Phases A and B implemented** (see §10): course
 backend, all of Stage 0 and Stage 1 (28 lessons, five unit tests, Reading
 gate I), placement test, image-sourcing pipeline (placeholders until the
-image pass runs with network access), the course frontend and the Workbook
-theme, verified end to end in headless Chromium with the fake voice
+image pass runs with network access), the course frontend and the light
+Reader theme, verified end to end in headless Chromium with the fake voice
 (`backend/scripts/e2e/`). Phases C–E remain. Sections below describe the
 full design; where they say "exists" it predates this work.
 
@@ -14,7 +14,8 @@ consistent visual identity; Greek-first UI with an English toggle; politics
 is its own track; accents lenient until Unit 4; tracks unlock after Unit 9;
 stress cue for accent for now. Three visual-style mockups (Museum,
 Workbook, Night Reader) were delivered as a design canvas; the user chose
-**B, Workbook** (§9.8).
+**B, Workbook** (§9.8), then on 2026-09-26 switched to **C, Night
+Reader, in a light palette**.
 
 Goal: a trackable beginner-to-reader course inside Attic Reader, in the
 spirit of Athenaze, LOGOS (*Lingua Graeca per se illustrata*), *Reading
@@ -586,9 +587,9 @@ Routes (Next.js app dir, `AppNav` gets a **Course** tab first):
 | `/course/placement` | placement test |
 | `/course/skills` | mastery grid by skill family, tap → paradigm/lesson |
 
-Theme: the Workbook style (§9.8) becomes the app-wide theme, applied to
-the existing Read / Vocab / Grammar screens as well, via CSS tokens in
-`globals.css` (light only at first; a dark variant later).
+Theme: style C in light mode (§9.8) is the app-wide theme, applied to the
+existing Read / Vocab / Grammar screens as well, via CSS tokens in
+`globals.css` (light only at first; C's dark palette later).
 
 Components (new): `StoryPanel` (image + sentences with glosses and word
 highlight), `Gloss` popover, `ExerciseRunner` + one component per type,
@@ -643,16 +644,20 @@ Taken (2026-09-25):
 6. **Tracks unlock** after Unit 9 as side readings, fully after Unit 12.
 7. **Pitch accent** — stress cue for now; pitch notation later.
 
-8. **Visual style: B "Workbook"** (chosen 2026-09-25 from three mockups).
-   Paper white ground `#fffdf7`, ink `#14213d`, cobalt `#1d4ed8`, ochre
-   `#f4b942`, cream panels `#fff3d6`; 2 px ink outlines and 4–6 px offset
-   shadows on cards; radii 12–20 px; Greek in Noto Serif, UI labels in
-   Work Sans (bold, letter-spaced caps for section labels); LOGOS-style
-   marginal gloss column with a dashed rule; ▶ as a filled cobalt circle;
-   speed pills; four-tab bottom bar on phone, cobalt left rail on desktop.
-   Images sit on cream panels with a white CC badge. The pottery
-   photographs will be colour-graded toward ochre/ink so they sit inside
-   this palette rather than the Museum one.
+8. **Visual style: C "Night Reader", in a light palette** (2026-09-26; it
+   replaced B "Workbook", chosen on 2026-09-25 and built in Phases A–B).
+   Paper ground `#f6f4ee`, white cards, stone panels `#eeebe3`, ink
+   `#1c2024`, muted `#5a6168`, hairlines `#dcd8ce`; one sage accent: C's
+   `#a3b18a` for fills (lesson dots, underlines, highlights) and a darker
+   `#4e6136` for text, links and filled buttons so both pass WCAG AA on
+   white. Literata for Greek and headings (Greek Extended, so polytonic),
+   IBM Plex Sans for the interface at 400–600. Flat surfaces: 1 px
+   borders, 10–14 px radii, no offset shadows; the spoken or looked-up word
+   sits on a pale sage wash `#dfe7c9`. Glossed words carry a sage
+   underline; ▶ is an outlined sage circle that fills on hover. Tokens live
+   in `frontend/app/globals.css`; class names are unchanged from the
+   Workbook theme. Light only for now; a dark variant (C's original) can be
+   added as a second token set.
 
 ---
 

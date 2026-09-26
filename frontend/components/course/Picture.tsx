@@ -18,7 +18,7 @@ export default function Picture({ image, size = "panel", caption = true, classNa
         <div className="picPlaceholder" role="img" aria-label={image.alt_en}>
           <svg viewBox="0 0 64 48" width="100%" height="100%" aria-hidden="true">
             <rect x="0" y="0" width="64" height="48" fill="var(--cream)"></rect>
-            <path d="M6 40h52M14 40V22M22 40V22M12 22h12M40 40V22M48 40V22M38 22h12M10 22l22-12 22 12" fill="none" stroke="var(--ink)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"></path>
+            <path d="M6 40h52M14 40V22M22 40V22M12 22h12M40 40V22M48 40V22M38 22h12M10 22l22-12 22 12" fill="none" stroke="var(--accent)" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"></path>
           </svg>
           {size !== "thumb" && <span className="picLabel" lang="grc">{image.alt_grc}</span>}
         </div>
