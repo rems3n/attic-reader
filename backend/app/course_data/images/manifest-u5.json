@@ -1,0 +1,729 @@
+{
+ "images": [
+  {
+   "id": "panel-5-1-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "πάντες εἰς τὴν ἀκρόπολιν ἔρχονται· ὁ Σύρος τὴν αἶγα ἄγει.",
+   "alt_en": "The family climbing the Acropolis ramp; Syros leads a white goat, Chrysis carries a wreath, Lysis a wine jug",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-5-1-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ ἱερεὺς πρὸς τῷ βωμῷ τὴν αἶγα θύει.",
+   "alt_en": "The priest at the great altar of Athena with the goat; smoke rises; Elpis looks away",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-5-1-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Λάβρος κρέας ἔλαβε καὶ ἔφυγεν.",
+   "alt_en": "The family eating the sacrificial meat; Labros running off with a piece, Lysis chasing",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-5-2-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Δημόκριτος περὶ τοῦ πολέμου λέγει.",
+   "alt_en": "Evening in the courtyard: Democritus talking, the family listening, Kleinias by the brazier",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-5-2-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ Ἀθηναῖοι τὴν πόλιν ἔλιπον καὶ εἰς τὰς ναῦς ἦλθον.",
+   "alt_en": "Athenians leaving the city for the ships; smoke over the Acropolis in the distance",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-5-2-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "αἱ τριήρεις ἐν τῇ ναυμαχίᾳ μάχονται.",
+   "alt_en": "Triremes ramming in the straits of Salamis; Xerxes watching from the shore",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-5-3-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Ἔρως τὸν Ἀπόλλωνα τόξῷ βάλλει.",
+   "alt_en": "Winter night by the hearth: Kleinias telling the story; inset of Eros shooting Apollo",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-5-3-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Ἀπόλλων τὴν Δάφνην διώκει· ἡ δὲ φεύγει.",
+   "alt_en": "Apollo pursuing Daphne through a wood beside the river Peneios",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-5-3-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Δάφνη δένδρον γίγνεται.",
+   "alt_en": "Daphne turning into a laurel tree: hair becoming leaves, arms branches, feet roots",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-5-4-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Ἐλπὶς νοσεῖ καὶ ἐν τῇ κλίνῃ κεῖται.",
+   "alt_en": "Elpis ill in bed under a blanket; Chrysis feeling her forehead; Labros at the bedside",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-5-4-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ ἰατρὸς τὴν παῖδα θεραπεύει.",
+   "alt_en": "The doctor Philinos examining Elpis: looking at her eyes and tongue, his bag of remedies open",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-5-4-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Ἐλπὶς ὑγιής ἐστιν.",
+   "alt_en": "Some days later: Elpis up and well, drinking from a cup; the family relieved",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "culture-5-1-sacrifice",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "θυσία ἐπὶ βωμοῦ",
+   "alt_en": "Sacrifice at an altar: youths roasting spits over the altar fire, Attic red-figure bell krater, c. 430 BC",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "culture-5-2-salamis",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "τριήρης",
+   "alt_en": "The Lenormant relief: rowers of an Athenian trireme, Acropolis, c. 410 BC",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "culture-5-3-daphne",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὁ Ἀπόλλων καὶ ἡ Δάφνη",
+   "alt_en": "Apollo and Daphne, Roman fresco or mosaic showing the metamorphosis",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "culture-5-4-medicine",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὁ ἰατρὸς θεραπεύει",
+   "alt_en": "A doctor bleeding a patient in his surgery, Attic red-figure aryballos by the Clinic Painter, c. 480–470 BC",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "diagram-aspect",
+   "kind": "diagram",
+   "file": null,
+   "alt_grc": "λαμβάνειν — λαβεῖν",
+   "alt_en": "Aspect: a wavy line for the present (ongoing, repeated) and a dot for the aorist (single, complete)",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "diagram-augment",
+   "kind": "diagram",
+   "file": null,
+   "alt_grc": "λύω → ἔ-λυσα",
+   "alt_en": "The augment: ἐ- before a consonant, lengthened vowel before a vowel, inserted after the prefix in compounds",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "diagram-timeline",
+   "kind": "diagram",
+   "file": null,
+   "alt_grc": "ἔφευγε … ἔφυγε",
+   "alt_en": "A narrative timeline: imperfect as a background band, aorists as points on it",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "diagram-relative",
+   "kind": "diagram",
+   "file": null,
+   "alt_grc": "ὁ ἰατρὸς ὃν ὁ Σύρος ἐκάλεσεν",
+   "alt_en": "A relative clause bracketed under its antecedent, with an arrow showing agreement in gender and number",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "thysia",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ θυσία",
+   "alt_en": "A sacrifice: procession, altar and victim",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "θυσία"
+   ]
+  },
+  {
+   "id": "aix",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ αἴξ",
+   "alt_en": "A goat",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "αἴξ"
+   ]
+  },
+  {
+   "id": "kreas",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ κρέας",
+   "alt_en": "Pieces of meat on spits",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "κρέας"
+   ]
+  },
+  {
+   "id": "verb-euchetai",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "εὔχεται",
+   "alt_en": "Someone praying with raised hands",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "εὔχομαι"
+   ]
+  },
+  {
+   "id": "verb-pinei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "πίνει",
+   "alt_en": "Someone drinking from a cup",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πίνω"
+   ]
+  },
+  {
+   "id": "naumachia",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ ναυμαχία",
+   "alt_en": "Ships fighting at sea",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ναυμαχία"
+   ]
+  },
+  {
+   "id": "kope",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ κώπη",
+   "alt_en": "An oar",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "mache",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ μάχη",
+   "alt_en": "Two warriors fighting",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "μάχη"
+   ]
+  },
+  {
+   "id": "verb-machetai",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "μάχεται",
+   "alt_en": "A warrior fighting",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "μάχομαι"
+   ]
+  },
+  {
+   "id": "verb-nika",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "νικᾷ",
+   "alt_en": "A victor being crowned",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "νικάω"
+   ]
+  },
+  {
+   "id": "barbaros",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ βάρβαρος",
+   "alt_en": "A Persian soldier in trousers and soft cap",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "βάρβαρος"
+   ]
+  },
+  {
+   "id": "verb-pempei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "πέμπει",
+   "alt_en": "Someone sending a messenger off",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πέμπω"
+   ]
+  },
+  {
+   "id": "verb-leipei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "λείπει",
+   "alt_en": "Someone leaving a house behind",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "λείπω"
+   ]
+  },
+  {
+   "id": "verb-sozei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "σῴζει",
+   "alt_en": "Someone pulling another out of the water",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "σῴζω"
+   ]
+  },
+  {
+   "id": "eleutheros",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἐλεύθερος",
+   "alt_en": "A free man with broken chains at his feet",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἐλεύθερος"
+   ]
+  },
+  {
+   "id": "nymphe",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ νύμφη",
+   "alt_en": "A nymph by a spring",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "νύμφη"
+   ]
+  },
+  {
+   "id": "verb-era",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἐρᾷ",
+   "alt_en": "A young man gazing at a girl, heart in hand",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἐράω"
+   ]
+  },
+  {
+   "id": "verb-diokei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "διώκει",
+   "alt_en": "Someone chasing another",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "διώκω"
+   ]
+  },
+  {
+   "id": "phyllon",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ φύλλον",
+   "alt_en": "A laurel leaf",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "φύλλον"
+   ]
+  },
+  {
+   "id": "kome",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ κόμη",
+   "alt_en": "Long hair",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "κόμη"
+   ]
+  },
+  {
+   "id": "soma",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ σῶμα",
+   "alt_en": "A human body, outlined",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "σῶμα"
+   ]
+  },
+  {
+   "id": "cheir",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ χείρ",
+   "alt_en": "A hand",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "χείρ"
+   ]
+  },
+  {
+   "id": "pous",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ πούς",
+   "alt_en": "A foot",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πούς"
+   ]
+  },
+  {
+   "id": "verb-ballei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "βάλλει",
+   "alt_en": "Someone throwing a stone",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "βάλλω"
+   ]
+  },
+  {
+   "id": "verb-klaiei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "κλαίει",
+   "alt_en": "Someone weeping",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "κλαίω"
+   ]
+  },
+  {
+   "id": "daphne",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ δάφνη",
+   "alt_en": "A laurel tree",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "δάφνη"
+   ]
+  },
+  {
+   "id": "potamos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ ποταμός",
+   "alt_en": "A river",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ποταμός"
+   ]
+  },
+  {
+   "id": "toxon",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ τόξον",
+   "alt_en": "A bow and arrow",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "τόξον"
+   ]
+  },
+  {
+   "id": "rhiza",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ ῥίζα",
+   "alt_en": "Roots of a tree",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ῥίζα"
+   ]
+  },
+  {
+   "id": "klados",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ κλάδος",
+   "alt_en": "A branch",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "κλάδος"
+   ]
+  },
+  {
+   "id": "iatros",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ ἰατρός",
+   "alt_en": "A doctor with his instruments",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἰατρός"
+   ]
+  },
+  {
+   "id": "nosos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ νόσος",
+   "alt_en": "Someone sick in bed",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "νόσος"
+   ]
+  },
+  {
+   "id": "verb-nosei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "νοσεῖ",
+   "alt_en": "Someone ill, holding their head",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "νοσέω"
+   ]
+  },
+  {
+   "id": "pharmakon",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ φάρμακον",
+   "alt_en": "A small jar of medicine",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "φάρμακον"
+   ]
+  },
+  {
+   "id": "verb-therapeuei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "θεραπεύει",
+   "alt_en": "A doctor treating a patient",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "θεραπεύω"
+   ]
+  },
+  {
+   "id": "hygies",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὑγιής",
+   "alt_en": "A healthy person stretching in the sun",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ὑγιής"
+   ]
+  },
+  {
+   "id": "genos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ γένος",
+   "alt_en": "A family tree",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "γένος"
+   ]
+  },
+  {
+   "id": "kephale",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ κεφαλή",
+   "alt_en": "A head",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "κεφαλή"
+   ]
+  },
+  {
+   "id": "pyretos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ πυρετός",
+   "alt_en": "A feverish patient with a hot brow",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πυρετός"
+   ]
+  }
+ ]
+}

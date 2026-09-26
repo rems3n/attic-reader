@@ -1,0 +1,194 @@
+[
+ {
+  "lemma": "ἑορτή",
+  "headword": "ἑορτή, ἑορτῆς, ἡ",
+  "definition": "festival, feast-day",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension -η",
+  "morph": {"genitive": "ἑορτῆς", "gender": "f", "article": "ἡ"},
+  "topics": ["mythology", "city-life"]
+ },
+ {
+  "lemma": "πομπή",
+  "headword": "πομπή, πομπῆς, ἡ",
+  "definition": "procession; escort",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension -η",
+  "morph": {"genitive": "πομπῆς", "gender": "f", "article": "ἡ"},
+  "topics": ["mythology", "city-life"],
+  "cognates": {"derivatives": ["pomp", "pompous"]}
+ },
+ {
+  "lemma": "φύλαξ",
+  "headword": "φύλαξ, φύλακος, ὁ",
+  "definition": "guard, watchman",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {"genitive": "φύλακος", "gender": "m", "article": "ὁ"},
+  "topics": ["city-life", "history"],
+  "cognates": {"derivatives": ["prophylactic"]}
+ },
+ {
+  "lemma": "γέρων",
+  "headword": "γέρων, γέροντος, ὁ",
+  "definition": "old man",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {"genitive": "γέροντος", "gender": "m", "article": "ὁ"},
+  "topics": ["city-life"],
+  "cognates": {"derivatives": ["gerontology", "geriatric"]}
+ },
+ {
+  "lemma": "ἱερεύς",
+  "headword": "ἱερεύς, ἱερέως, ὁ",
+  "definition": "priest",
+  "kind": "noun",
+  "subclass": "noun-3-eus",
+  "pos": "noun: 3rd declension -εύς, -έως",
+  "morph": {"genitive": "ἱερέως", "gender": "m", "article": "ὁ"},
+  "topics": ["mythology", "city-life"],
+  "cognates": {"derivatives": ["hierarchy", "hieroglyph"]}
+ },
+ {
+  "lemma": "βωμός",
+  "headword": "βωμός, βωμοῦ, ὁ",
+  "definition": "altar",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension -ος",
+  "morph": {"genitive": "βωμοῦ", "gender": "m", "article": "ὁ"},
+  "topics": ["mythology"]
+ },
+ {
+  "lemma": "στέφανος",
+  "headword": "στέφανος, στεφάνου, ὁ",
+  "definition": "wreath, garland, crown",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension -ος",
+  "morph": {"genitive": "στεφάνου", "gender": "m", "article": "ὁ"},
+  "topics": ["mythology", "city-life"],
+  "cognates": {"derivatives": ["Stephen", "Stephanie"]}
+ },
+ {
+  "lemma": "σπεύδω",
+  "headword": "σπεύδω, σπεύσω, ἔσπευσα",
+  "definition": "hurry, hasten; be eager for",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {"parts": {"present": ["σπεύδω"], "future": ["σπεύσω"], "aorist": ["ἔσπευσα"]}, "extra": {}, "raw": ["σπεύδω", "σπεύσω", "ἔσπευσα"], "verb": {"no_aorist_middle": true}},
+  "topics": ["core"],
+  "cognates": {"cognates": ["speed"]}
+ },
+ {
+  "lemma": "πολίτης",
+  "headword": "πολίτης, πολίτου, ὁ",
+  "definition": "citizen",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension masculine -ης",
+  "morph": {"genitive": "πολίτου", "gender": "m", "article": "ὁ"},
+  "topics": ["city-life", "politics", "history"],
+  "cognates": {"derivatives": ["politics", "cosmopolitan", "police"]}
+ },
+ {
+  "lemma": "νεανίας",
+  "headword": "νεανίας, νεανίου, ὁ",
+  "definition": "young man, youth",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension masculine -ᾱς",
+  "morph": {"genitive": "νεανίου", "gender": "m", "article": "ὁ"},
+  "topics": ["city-life"],
+  "cognates": {"cognates": ["νέος (new, young)"]}
+ },
+ {
+  "lemma": "φοβέομαι",
+  "headword": "φοβέομαι, φοβήσομαι, πεφόβημαι, ἐφοβήθην",
+  "definition": "fear, be afraid (of)",
+  "kind": "verb",
+  "subclass": "verb-deponent",
+  "pos": "verb: -έομαι deponent",
+  "morph": {"parts": {"present": ["φοβέομαι"], "future": ["φοβήσομαι"], "perfect-mp": ["πεφόβημαι"], "aorist-passive": ["ἐφοβήθην"]}, "extra": {}, "raw": ["φοβέομαι", "φοβήσομαι", "πεφόβημαι", "ἐφοβήθην"], "verb": {}},
+  "topics": ["core"],
+  "cognates": {"derivatives": ["phobia", "claustrophobia"]}
+ },
+ {
+  "lemma": "ἀναβαίνω",
+  "headword": "ἀναβαίνω, ἀναβήσομαι, ἀνέβην, ἀναβέβηκα",
+  "definition": "go up, climb",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: compound of βαίνω",
+  "morph": {"parts": {"present": ["ἀναβαίνω"], "future": ["ἀναβήσομαι"], "aorist": ["ἀνέβην"], "aorist-2": ["ἀνέβην"], "perfect": ["ἀναβέβηκα"]}, "extra": {}, "raw": ["ἀναβαίνω", "ἀναβήσομαι", "ἀνέβην", "ἀναβέβηκα"], "verb": {}},
+  "topics": ["core"],
+  "cognates": {"derivatives": ["Anabasis (Xenophon's march up-country)"]}
+ },
+ {
+  "lemma": "καταβαίνω",
+  "headword": "καταβαίνω, καταβήσομαι, κατέβην, καταβέβηκα",
+  "definition": "go down, come down",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: compound of βαίνω",
+  "morph": {"parts": {"present": ["καταβαίνω"], "future": ["καταβήσομαι"], "aorist": ["κατέβην"], "aorist-2": ["κατέβην"], "perfect": ["καταβέβηκα"]}, "extra": {}, "raw": ["καταβαίνω", "καταβήσομαι", "κατέβην", "καταβέβηκα"], "verb": {}},
+  "topics": ["core"],
+  "cognates": {"derivatives": ["katabasis"]}
+ },
+ {
+  "lemma": "προσέρχομαι",
+  "headword": "προσέρχομαι, πρόσειμι, προσῆλθον, προσελήλυθα",
+  "definition": "go towards, approach (+ πρός or dat.)",
+  "kind": "verb",
+  "subclass": "verb-deponent",
+  "pos": "verb: compound of ἔρχομαι",
+  "morph": {"parts": {"present": ["προσέρχομαι"], "future": ["πρόσειμι"], "aorist": ["προσῆλθον"], "aorist-2": ["προσῆλθον"], "perfect": ["προσελήλυθα"]}, "extra": {}, "raw": ["προσέρχομαι", "πρόσειμι", "προσῆλθον", "προσελήλυθα"], "verb": {"aorist_stem": "προσελθ"}},
+  "topics": ["core"]
+ },
+ {
+  "lemma": "εἰσέρχομαι",
+  "headword": "εἰσέρχομαι, εἴσειμι, εἰσῆλθον, εἰσελήλυθα",
+  "definition": "go in, enter (+ εἰς)",
+  "kind": "verb",
+  "subclass": "verb-deponent",
+  "pos": "verb: compound of ἔρχομαι",
+  "morph": {"parts": {"present": ["εἰσέρχομαι"], "future": ["εἴσειμι"], "aorist": ["εἰσῆλθον"], "aorist-2": ["εἰσῆλθον"], "perfect": ["εἰσελήλυθα"]}, "extra": {}, "raw": ["εἰσέρχομαι", "εἴσειμι", "εἰσῆλθον", "εἰσελήλυθα"], "verb": {"aorist_stem": "εἰσελθ"}},
+  "topics": ["core"]
+ },
+ {
+  "lemma": "ἐξέρχομαι",
+  "headword": "ἐξέρχομαι, ἔξειμι, ἐξῆλθον, ἐξελήλυθα",
+  "definition": "go out, come out (+ ἐκ)",
+  "kind": "verb",
+  "subclass": "verb-deponent",
+  "pos": "verb: compound of ἔρχομαι",
+  "morph": {"parts": {"present": ["ἐξέρχομαι"], "future": ["ἔξειμι"], "aorist": ["ἐξῆλθον"], "aorist-2": ["ἐξῆλθον"], "perfect": ["ἐξελήλυθα"]}, "extra": {}, "raw": ["ἐξέρχομαι", "ἔξειμι", "ἐξῆλθον", "ἐξελήλυθα"], "verb": {"aorist_stem": "ἐξελθ"}},
+  "topics": ["core"]
+ },
+ {
+  "lemma": "πύλη",
+  "headword": "πύλη, πύλης, ἡ",
+  "definition": "gate; (pl.) gateway",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension -η",
+  "morph": {"genitive": "πύλης", "gender": "f", "article": "ἡ"},
+  "topics": ["city-life", "history"],
+  "cognates": {"derivatives": ["Thermopylae (hot gates)", "pylon", "Propylaea"]}
+ },
+ {
+  "lemma": "ἄγαλμα",
+  "headword": "ἄγαλμα, ἀγάλματος, τό",
+  "definition": "statue (of a god), image",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension neuter -μα",
+  "morph": {"genitive": "ἀγάλματος", "gender": "n", "article": "τό"},
+  "topics": ["mythology", "city-life"]
+ }
+]

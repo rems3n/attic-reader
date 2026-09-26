@@ -1,0 +1,153 @@
+{
+  "id": "5.1",
+  "title_grc": "ἡ θυσία",
+  "title_en": "The sacrifice",
+  "summary_grc": "ὁ Ἀρίστων τῇ Ἀθηνᾷ αἶγα θύει· ὁ δὲ Λάβρος κρέας ἔλαβε καὶ ἔφυγεν.",
+  "summary_en": "The family climbs to the great altar of Athena. Past events: the second aorist (ἔλαβον, εἶπον, ἦλθον), its infinitive and participle.",
+  "cover": "panel-5-1-a",
+  "caption_grc": "ὁ Λάβρος κρέας ἔλαβε καὶ ἔφυγεν.",
+  "names": {},
+  "allow": {
+    "δεῖ": "impersonal δεῖ, Lesson 4.3",
+    "ἡμᾶς": "personal pronouns, Lesson 2.1",
+    "ἡμῶν": "personal pronouns, Lesson 2.1",
+    "σύ": "personal pronouns, Lesson 2.1",
+    "ὦ": "vocative with ὦ, Lesson 2.3",
+    "ἆρα": "questions with ἆρα, Lesson 2.1",
+    "μέν": "μέν … δέ, Lesson 2.1",
+    "πάντες": "πᾶς, Lesson 4.2",
+    "πάντα": "πᾶς, Lesson 4.2",
+    "πρός": "prepositions, Lesson 3.4",
+    "ἐπί": "prepositions, Lesson 3.4",
+    "μετά": "prepositions, Lesson 3.4",
+    "οὗτός": "οὗτος, Lesson 3.2",
+    "ταῦτα": "οὗτος, Lesson 3.2",
+    "αὐτόν": "αὐτός, Lesson 2.4",
+    "αὐτό": "αὐτός, Lesson 2.4",
+    "φοβεῖται": "φοβέομαι, Lesson 3.3",
+    "βούλεται": "βούλομαι, Lesson 3.3"
+  },
+  "story": [
+    {
+      "image": "panel-5-1-a",
+      "sentences": [
+        {"text": "ἡ ἡμέρα ἱερά ἐστιν· ὁ γὰρ Ἀρίστων σήμερον τῇ Ἀθηνᾷ θύει.", "glosses": [{"word": "ἱερά", "kind": "=", "value": "ἱερός = τῶν θεῶν (sacred)"}, {"word": "σήμερον", "kind": "en", "value": "today"}, {"word": "θύει", "kind": "pic", "value": "verb-thyei"}]},
+        {"text": "ὁ Λάβρος γάρ ποτε ἐν τῇ πόλει ἀπώλετο, ἀλλὰ πάλιν εἰς τὴν οἰκίαν ἦλθεν.", "glosses": [{"word": "ποτε", "kind": "en", "value": "once, one day"}, {"word": "ἀπώλετο", "kind": "|", "value": "ἀπόλλυται | ἀπώλετο (was lost — past)"}, {"word": "πάλιν", "kind": "en", "value": "back, again"}, {"word": "ἦλθεν", "kind": "|", "value": "ἔρχεται | ἦλθε(ν)"}]},
+        {"text": "τότε ὁ Ἀρίστων εἶπεν· «ἡ θεὰ τὸν κύνα ἔσωσεν. δεῖ οὖν ἡμᾶς αἶγα θύειν τῇ θεᾷ.»", "glosses": [{"word": "τότε", "kind": "en", "value": "then, at that time"}, {"word": "εἶπεν", "kind": "|", "value": "λέγει | εἶπε(ν)"}, {"word": "ἔσωσεν", "kind": "|", "value": "σῴζει | ἔσωσε(ν) (saved — the past tense of Lesson 5.2)"}, {"word": "αἶγα", "kind": "pic", "value": "aix"}]},
+        {"text": "νῦν οὖν πάντες ἐκ τῆς οἰκίας ἐξῆλθον καὶ εἰς τὴν ἀκρόπολιν ἦλθον.", "glosses": [{"word": "ἐξῆλθον", "kind": "<", "value": "ἐκ + ἦλθον"}, {"word": "ἦλθον", "kind": "|", "value": "ἦλθε(ν) | ἦλθον"}]},
+        {"text": "ὁ Σύρος τὴν αἶγα ἄγει· ἡ αἲξ καλή ἐστι καὶ λευκή.", "glosses": [{"word": "ἄγει", "kind": "pic", "value": "verb-agei"}, {"word": "λευκή", "kind": "en", "value": "white"}]},
+        {"text": "ἡ Χρυσὶς στέφανον φέρει, ὁ δὲ Λύσις τὸν οἶνον.", "glosses": [{"word": "στέφανον", "kind": "pic", "value": "stephanos"}, {"word": "οἶνον", "kind": "pic", "value": "oinos"}]},
+        {"text": "ἡ Ἐλπὶς λέγει· «ἆρα ἡ θεὰ τὸν οἶνον πίνει;» ὁ δὲ Λύσις γελᾷ.", "glosses": [{"word": "πίνει", "kind": "pic", "value": "verb-pinei"}, {"word": "γελᾷ", "kind": "en", "value": "laughs"}]}
+      ]
+    },
+    {
+      "image": "panel-5-1-b",
+      "sentences": [
+        {"text": "ἐν τῇ ἀκροπόλει μέγας βωμός ἐστιν· οὗτός ἐστιν ὁ βωμὸς τῆς Ἀθηνᾶς.", "glosses": [{"word": "βωμός", "kind": "pic", "value": "bomos"}]},
+        {"text": "πρὸς τῷ βωμῷ ὁ ἱερεύς ἐστιν.", "glosses": [{"word": "ἱερεύς", "kind": "pic", "value": "hiereus"}]},
+        {"text": "ὁ Ἀρίστων αὐτὸν ἰδὼν εἶπεν· «χαῖρε, ὦ ἱερεῦ. ἦλθον τῇ θεᾷ θύειν· ἡ γὰρ θεὰ τὸν κύνα ἡμῶν ἔσωσεν.»", "glosses": [{"word": "ἰδὼν", "kind": "|", "value": "ὁρῶν | ἰδών (having seen)"}, {"word": "χαῖρε", "kind": "en", "value": "hello! (a greeting)"}, {"word": "ἦλθον", "kind": "note", "value": "ἦλθον here = 'I came' (1 sg); the same form is also 'they came'"}]},
+        {"text": "ὁ ἱερεὺς τὴν αἶγα λαβὼν πρὸς τὸν βωμὸν ἄγει καὶ εὔχεται· «ὦ Ἀθηνᾶ, δέξαι τὴν θυσίαν.»", "glosses": [{"word": "λαβὼν", "kind": "|", "value": "λαμβάνων | λαβών"}, {"word": "εὔχεται", "kind": "pic", "value": "verb-euchetai"}, {"word": "δέξαι", "kind": "en", "value": "accept!"}, {"word": "θυσίαν", "kind": "pic", "value": "thysia"}]},
+        {"text": "ἡ Ἐλπὶς φοβεῖται καὶ οὐχ ὁρᾷ· ὁ δὲ Λύσις πάντα ὁρᾷ.", "glosses": []},
+        {"text": "ὁ ἱερεὺς τὴν αἶγα θύει. ἔπειτα ὁ Ἀρίστων τὸν οἶνον ἐπὶ τὸν βωμὸν σπένδει.", "glosses": [{"word": "ἔπειτα", "kind": "en", "value": "then, next"}, {"word": "σπένδει", "kind": "en", "value": "pours out (a libation)"}]},
+        {"text": "ὁ δὲ ἱερεὺς τὰ κρέα ἐπὶ τὸ πῦρ φέρει· ὁ καπνὸς εἰς τὸν οὐρανὸν βαίνει.", "glosses": [{"word": "κρέα", "kind": "|", "value": "τὸ κρέας | τὰ κρέα"}, {"word": "καπνὸς", "kind": "en", "value": "smoke"}]},
+        {"text": "«ἡ μὲν θεὰ τὸν καπνὸν λαμβάνει», λέγει ὁ Κλεινίας, «οἱ δὲ ἄνθρωποι τὰ κρέα.»", "glosses": [{"word": "καπνὸν", "kind": "|", "value": "ὁ καπνός | τὸν καπνόν"}]}
+      ]
+    },
+    {
+      "image": "panel-5-1-c",
+      "sentences": [
+        {"text": "μετὰ τὴν θυσίαν πάντες τὰ κρέα λαμβάνουσι καὶ τὸν οἶνον πίνουσιν.", "glosses": []},
+        {"text": "ὁ Κλεινίας λέγει· «καλὴ ἡ θυσία· ἡ θεὰ ἡμᾶς φιλεῖ.»", "glosses": []},
+        {"text": "ὁ δὲ Λάβρος κρέας ἰδὼν βούλεται αὐτὸ λαβεῖν.", "glosses": [{"word": "λαβεῖν", "kind": "|", "value": "λαμβάνειν | λαβεῖν"}]},
+        {"text": "ὁ κύων οὖν κρέας ἔλαβε καὶ ἔφυγεν.", "glosses": [{"word": "ἔλαβε", "kind": "|", "value": "λαμβάνει | ἔλαβε(ν)"}, {"word": "ἔφυγεν", "kind": "|", "value": "φεύγει | ἔφυγε(ν)"}]},
+        {"text": "ὁ Λύσις ἔδραμε καὶ τὸν κύνα ἔλαβεν.", "glosses": [{"word": "ἔδραμε", "kind": "|", "value": "τρέχει | ἔδραμε(ν)"}]},
+        {"text": "ὁ Ἀρίστων ταῦτα ἰδὼν εἶπεν· «ὦ Λάβρε, σὺ ἀεὶ κρέας ζητεῖς. ἆρα καὶ σὺ τῇ θεᾷ θύεις;»", "glosses": []},
+        {"text": "ὁ δὲ Λάβρος τὸ κρέας ἔχει καὶ οὐκ ἀκούει.", "glosses": []}
+      ]
+    }
+  ],
+  "vocab": [
+    {"id": "θυω", "pic": "verb-thyei", "gloss_grc": "θύει · ἔθυσε(ν) — τοῖς θεοῖς"},
+    {"id": "θυσια", "pic": "thysia", "gloss_grc": "< θύω"},
+    {"id": "βωμος", "pic": "bomos", "gloss_grc": "ἐπὶ τῷ βωμῷ θύουσιν"},
+    {"id": "ιερευς", "pic": "hiereus", "gloss_grc": "ὁ ἱερεὺς θύει, ὥσπερ ὁ κεραμεὺς κεραμεύει"},
+    {"id": "ιερος", "gloss_grc": "ἱερός = τῶν θεῶν"},
+    {"id": "αιξ", "pic": "aix"},
+    {"id": "οινος", "pic": "oinos"},
+    {"id": "κρεας", "pic": "kreas", "gloss_grc": "τὸ κρέας | τὰ κρέα"},
+    {"id": "ευχομαι", "pic": "verb-euchetai", "gloss_grc": "εὔχεται τοῖς θεοῖς"},
+    {"id": "αγω", "pic": "verb-agei", "gloss_grc": "ἄγει τὴν αἶγα"},
+    {"id": "πινω", "pic": "verb-pinei", "gloss_grc": "πίνει · ἔπιε(ν)"},
+    {"id": "φευγω", "pic": "verb-pheugei", "gloss_grc": "φεύγει · ἔφυγε(ν) ↔ διώκει"},
+    {"id": "λαμβανω", "pic": "verb-lambanei", "gloss_grc": "λαμβάνει · ἔλαβε(ν)"},
+    {"id": "λεγω", "pic": "verb-legei", "gloss_grc": "λέγει · εἶπε(ν)"},
+    {"id": "οραω", "pic": "verb-hora", "gloss_grc": "ὁρᾷ · εἶδε(ν)"},
+    {"id": "τρεχω", "pic": "verb-trechei", "gloss_grc": "τρέχει · ἔδραμε(ν)"}
+  ],
+  "notice": [
+    "ὁ Λάβρος πάλιν εἰς τὴν οἰκίαν ἦλθεν. — πάντες εἰς τὴν ἀκρόπολιν ἦλθον.",
+    "ὁ κύων κρέας ἔλαβε καὶ ἔφυγεν. — ὁ Λύσις ἔδραμε καὶ τὸν κύνα ἔλαβεν.",
+    "τότε ὁ Ἀρίστων εἶπεν· … — νῦν ὁ Κλεινίας λέγει· …",
+    "ὁ ἱερεὺς τὴν αἶγα λαβὼν πρὸς τὸν βωμὸν ἄγει. — ὁ Ἀρίστων ταῦτα ἰδὼν εἶπεν· …",
+    "ὁ Λάβρος βούλεται τὸ κρέας λαβεῖν."
+  ],
+  "grammar": {
+    "md": "**Something happened: the aorist.** Until now every verb in the story was in the present. Today's story is told in the past: ὁ κύων κρέας **ἔλαβε** καὶ **ἔφυγεν** 'the dog took a piece of meat and ran off'. This tense is the **aorist** (ἀόριστος, 'unbounded'): it reports an action as a single, complete event — *took*, *said*, *came*.\n\nMany common verbs form their aorist from a **shorter stem** plus a prefixed **ἐ-** (the *augment*, the mark of past time) and the endings -ον, -ες, -ε(ν), -ομεν, -ετε, -ον. This is the **second aorist**:\n\n| present | stem | aorist | |\n|---|---|---|---|\n| λαμβάνω | λαβ- | **ἔλαβον** | I took |\n| φεύγω | φυγ- | **ἔφυγον** | I fled |\n| λείπω | λιπ- | **ἔλιπον** | I left |\n| πίνω | πι- | **ἔπιον** | I drank |\n| τρέχω | δραμ- | **ἔδραμον** | I ran |\n\nThree verbs you meet on every page use a **different stem altogether**: λέγω → **εἶπον** 'I said', ὁράω → **εἶδον** 'I saw', ἔρχομαι → **ἦλθον** 'I came, went'. Learn them as words.\n\n| | ἔλαβον | εἶπον | ἦλθον |\n|---|---|---|---|\n| I | ἔλαβ**ον** | εἶπ**ον** | ἦλθ**ον** |\n| you | ἔλαβ**ες** | εἶπ**ες** | ἦλθ**ες** |\n| he, she | ἔλαβ**ε(ν)** | εἶπ**ε(ν)** | ἦλθ**ε(ν)** |\n| we | ἐλάβ**ομεν** | εἴπ**ομεν** | ἤλθ**ομεν** |\n| you (pl.) | ἐλάβ**ετε** | εἴπ**ετε** | ἤλθ**ετε** |\n| they | ἔλαβ**ον** | εἶπ**ον** | ἦλθ**ον** |\n\nNotice that *I* and *they* look the same (ἔλαβον); the subject tells you which. Notice too where the accent sits: it moves back as far as it can (ἔλαβε, but ἐλάβομεν).\n\n**Infinitive and participle.** The aorist has its own infinitive, ending in **-εῖν** (always with a circumflex): λαβεῖν, φυγεῖν, ἰδεῖν, εἰπεῖν, ἐλθεῖν. And its own participle, **-ών, -οῦσα, -όν**: λαβών, ἰδών, ἐλθών; feminine λαβοῦσα, ἰδοῦσα. *These have no augment*: the augment marks past time and belongs to the indicative only.\n\n**Aspect, not time.** The difference between λαμβάνειν and λαβεῖν, or λαμβάνων and λαβών, is not *when* but *how*: the present forms show an action going on or repeated, the aorist forms a single complete act. ὁ Λάβρος **βούλεται** τὸ κρέας **λαβεῖν** 'wants to take (grab) the meat'; ὁ ἱερεὺς τὴν αἶγα **λαβὼν** … ἄγει 'having taken the goat, leads it'. The aorist participle usually names something done *before* the main verb.\n\nVerbs like θύω, σῴζω, ποιέω form their aorist differently (ἔθυσα, ἔσωσεν): that is Lesson 5.2.",
+    "paradigms": ["lambano"],
+    "diagram": "diagram-aspect"
+  },
+  "exercises": [
+    {"type": "endings-cloze", "prompt": "Μελέτημα Α · Fill in the aorist endings.", "template": "ὁ Λάβρος πάλιν εἰς τὴν οἰκίαν ἦλθ___. τότε ὁ Ἀρίστων εἶπ___· «δεῖ ἡμᾶς θύειν.» πάντες εἰς τὴν ἀκρόπολιν ἦλθ___. ὁ κύων κρέας ἔλαβ___ καὶ ἔφυγ___.", "gaps": [{"answers": ["εν", "ε"]}, {"answers": ["εν", "ε"]}, {"answers": ["ον"]}, {"answers": ["ε", "εν"]}, {"answers": ["εν", "ε"]}], "skills": ["verb.aor.act.ind.3sg", "verb.aor.act.ind.3pl"], "explain": "-ε(ν) for one subject (ἦλθεν, εἶπεν, ἔλαβε, ἔφυγεν), -ον for several (ἦλθον)."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ὁ Σύρος τὴν ___ ἄγει.", "options": [{"id": "a", "text": "αἶγα"}, {"id": "b", "text": "θυσίαν"}, {"id": "c", "text": "βωμόν"}], "answer": "a", "skills": ["vocab.recognition", "read.comprehension"], "explain": "Syros leads the goat: τὴν αἶγα.", "audio": "ὁ Σύρος τὴν αἶγα ἄγει."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ὁ ἱερεὺς τὴν αἶγα ___ πρὸς τὸν βωμὸν ἄγει.", "options": [{"id": "a", "text": "λαμβάνει"}, {"id": "b", "text": "λαβών"}, {"id": "c", "text": "λαβεῖν"}], "answer": "b", "skills": ["verb.ptc.aor.act", "verb.aor.aspect"], "explain": "A participle, 'having taken': λαβών. The sentence already has its verb, ἄγει.", "audio": "ὁ ἱερεὺς τὴν αἶγα λαβὼν πρὸς τὸν βωμὸν ἄγει."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ὁ Λάβρος κρέας ___ καὶ ἔφυγεν.", "options": [{"id": "a", "text": "ἔλαβε"}, {"id": "b", "text": "ἔλαβον"}, {"id": "c", "text": "λαβεῖν"}], "answer": "a", "skills": ["verb.aor.act.ind.3sg", "verb.aor2.stem"], "explain": "One dog, past event: ἔλαβε 'took'.", "audio": "ὁ Λάβρος κρέας ἔλαβε καὶ ἔφυγεν."},
+    {"type": "pick-picture", "prompt": "αἴξ", "audio": "prompt", "options": [{"id": "a", "image": "kyon"}, {"id": "b", "image": "aix"}, {"id": "c", "image": "hippos"}, {"id": "d", "image": "hiereus"}], "answer": "b", "skills": ["vocab.recognition"], "explain": "αἴξ: goat."},
+    {"type": "pick-picture", "prompt": "θύει", "audio": "prompt", "options": [{"id": "a", "image": "verb-thyei"}, {"id": "b", "image": "verb-pinei"}, {"id": "c", "image": "verb-euchetai"}, {"id": "d", "image": "verb-agei"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "θύει: sacrifices (at the altar)."},
+    {"type": "produce-form", "prompt": "Give the aorist of λαμβάνω for 'he took'.", "lemma": "λαμβάνω", "cell": "aorist.active.indicative.3sg", "skills": ["verb.aor.act.ind.3sg", "verb.aor2.stem"], "explain": "ἔλαβε(ν): augment ἐ- + stem λαβ- + -ε(ν).", "audio": "ἔλαβεν"},
+    {"type": "produce-form", "prompt": "Give the aorist of ἔρχομαι for 'they came'.", "lemma": "ἔρχομαι", "cell": "aorist.active.indicative.3pl", "skills": ["verb.aor.act.ind.3pl", "verb.aor2.stem"], "explain": "ἦλθον: a different stem, ἐλθ-, with a long augment.", "audio": "ἦλθον"},
+    {"type": "produce-form", "prompt": "Give the aorist infinitive of λέγω, 'to say'.", "lemma": "λέγω", "cell": "aorist.active.infinitive.inf", "skills": ["verb.aor.act.inf", "verb.aor2.stem"], "explain": "εἰπεῖν: aorist infinitives end in -εῖν and have no augment.", "audio": "εἰπεῖν"},
+    {"type": "produce-form", "prompt": "Give the aorist of ὁράω for 'I saw'.", "lemma": "ὁράω", "cell": "aorist.active.indicative.1sg", "skills": ["verb.aor.act.ind.1sg", "verb.aor2.stem"], "explain": "εἶδον, from the stem ἰδ-.", "audio": "εἶδον"},
+    {"type": "parse", "prompt": "Parse εἶπεν.", "form": "εἶπεν", "groups": [{"id": "tense", "label": "Tense", "options": [{"id": "pres", "label": "present (says)"}, {"id": "aor", "label": "aorist (said)"}]}, {"id": "person", "label": "Who?", "options": [{"id": "1sg", "label": "I"}, {"id": "3sg", "label": "he / she"}, {"id": "3pl", "label": "they"}]}], "answer": {"tense": "aor", "person": "3sg"}, "skills": ["verb.aor.act.ind.3sg", "verb.aor2.stem"], "explain": "εἶπε(ν): aorist of λέγω, 3rd singular — 'he said'.", "audio": "εἶπεν"},
+    {"type": "parse", "prompt": "Parse λαβών.", "form": "λαβών", "groups": [{"id": "kind", "label": "What kind of form?", "options": [{"id": "ind", "label": "indicative (a statement)"}, {"id": "inf", "label": "infinitive (to …)"}, {"id": "ptc", "label": "participle (…-ing / having …-ed)"}]}, {"id": "tense", "label": "Stem", "options": [{"id": "pres", "label": "present λαμβαν-"}, {"id": "aor", "label": "aorist λαβ-"}]}], "answer": {"kind": "ptc", "tense": "aor"}, "skills": ["verb.ptc.aor.act", "verb.aor.aspect"], "explain": "λαβών, λαβοῦσα, λαβόν: the aorist participle, 'having taken'. No augment: participles do not mark time.", "audio": "λαβών"},
+    {"type": "cloze-choice", "prompt": "τότε ὁ Λάβρος πάλιν εἰς τὴν οἰκίαν ___.", "options": [{"id": "a", "text": "ἔρχεται"}, {"id": "b", "text": "ἦλθεν"}, {"id": "c", "text": "ἐλθεῖν"}], "answer": "b", "skills": ["verb.aor.act.ind.3sg", "verb.aor.aspect"], "explain": "τότε 'then' points to a past event: ἦλθεν."},
+    {"type": "cloze-choice", "prompt": "ὁ Λάβρος βούλεται τὸ κρέας ___.", "options": [{"id": "a", "text": "ἔλαβεν"}, {"id": "b", "text": "λαβών"}, {"id": "c", "text": "λαβεῖν"}], "answer": "c", "skills": ["verb.aor.act.inf", "syntax.infinitive"], "explain": "After βούλεται an infinitive: λαβεῖν 'to take'."},
+    {"type": "cloze-choice", "prompt": "ὁ Ἀρίστων ταῦτα ___ εἶπεν· «ὦ Λάβρε!»", "options": [{"id": "a", "text": "ἰδὼν"}, {"id": "b", "text": "εἶδεν"}, {"id": "c", "text": "ἰδεῖν"}], "answer": "a", "skills": ["verb.ptc.aor.act"], "explain": "'Having seen this, he said': the participle ἰδών goes with the subject; εἶπεν is the verb."},
+    {"type": "transform", "prompt": "Put it in the past: ὁ κύων κρέας λαμβάνει. → ὁ κύων κρέας …", "template": "ὁ κύων κρέας ___.", "gaps": [{"answers": ["ἔλαβε(ν)"]}], "skills": ["verb.aor.act.ind.3sg", "verb.aor2.stem"], "explain": "ἔλαβεν.", "audio": "ὁ κύων κρέας ἔλαβεν."},
+    {"type": "transform", "prompt": "Put it in the past: οἱ παῖδες εἰς τὴν ἀκρόπολιν ἔρχονται. → οἱ παῖδες εἰς τὴν ἀκρόπολιν …", "template": "οἱ παῖδες εἰς τὴν ἀκρόπολιν ___.", "gaps": [{"answers": ["ἦλθον"]}], "skills": ["verb.aor.act.ind.3pl", "verb.aor2.stem"], "explain": "ἦλθον.", "audio": "οἱ παῖδες εἰς τὴν ἀκρόπολιν ἦλθον."},
+    {"type": "transform", "prompt": "Put it in the past: ἡ Ἐλπὶς λέγει· «ἡ θεὰ οἶνον πίνει.» → ἡ Ἐλπὶς …", "template": "ἡ Ἐλπὶς ___· «ἡ θεὰ οἶνον πίνει.»", "gaps": [{"answers": ["εἶπε(ν)"]}], "skills": ["verb.aor.act.ind.3sg", "verb.aor2.stem"], "explain": "εἶπεν: the aorist of λέγω.", "audio": "ἡ Ἐλπὶς εἶπεν· «ἡ θεὰ οἶνον πίνει.»"},
+    {"type": "locate", "prompt": "Tap every verb in the aorist indicative.", "sentence": "ὁ κύων κρέας ἔλαβε καὶ ἔφυγεν· ὁ Λύσις ἔδραμε καὶ τὸν κύνα ἔλαβεν.", "answer": [3, 5, 8, 12], "skills": ["read.locate", "verb.aor.act.ind.3sg"], "explain": "ἔλαβε, ἔφυγεν, ἔδραμε, ἔλαβεν."},
+    {"type": "locate", "prompt": "Tap every aorist participle.", "sentence": "ὁ ἱερεὺς τὴν αἶγα λαβὼν πρὸς τὸν βωμὸν ἄγει· ὁ Ἀρίστων ταῦτα ἰδὼν εἶπεν· «χαῖρε, ὦ ἱερεῦ.»", "answer": [4, 12], "skills": ["read.locate", "verb.ptc.aor.act"], "explain": "λαβών, ἰδών. ἄγει and εἶπεν are the main verbs."},
+    {"type": "reorder", "prompt": "Put the words in order: 'The dog took the meat and fled.'", "tokens": ["ἔφυγεν", "τὸ", "καὶ", "ὁ", "κρέας", "κύων", "ἔλαβε"], "answers": ["ὁ κύων τὸ κρέας ἔλαβε καὶ ἔφυγεν", "τὸ κρέας ὁ κύων ἔλαβε καὶ ἔφυγεν", "ὁ κύων ἔλαβε τὸ κρέας καὶ ἔφυγεν"], "skills": ["syntax.word-order", "verb.aor.act.ind.3sg"], "explain": "ὁ κύων τὸ κρέας ἔλαβε καὶ ἔφυγεν."},
+    {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ὁ ἱερεὺς τὴν αἶγα θύει.", "options": [{"id": "a", "text": "ὁ ἱερεὺς τὴν αἶγα ἄγει."}, {"id": "b", "text": "ὁ ἱερεὺς τὴν αἶγα θύει."}, {"id": "c", "text": "ὁ ἱερεὺς τὸν οἶνον πίνει."}], "answer": "b", "skills": ["listen.sentences"], "explain": "The priest sacrifices the goat."},
+    {"type": "true-false-grc", "prompt": "ὁ Ἀρίστων τῇ Ἀθηνᾷ βοῦν θύει.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "αἶγα θύει, οὐ βοῦν."},
+    {"type": "true-false-grc", "prompt": "ἡ Ἐλπὶς τὴν θυσίαν οὐχ ὁρᾷ· φοβεῖται γάρ.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "ἡ Ἐλπὶς φοβεῖται καὶ οὐχ ὁρᾷ."},
+    {"type": "true-false-grc", "prompt": "ὁ Λύσις κρέας ἔλαβε καὶ ἔφυγεν.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "ὁ Λάβρος κρέας ἔλαβε καὶ ἔφυγεν· ὁ Λύσις τὸν κύνα ἔλαβεν."},
+    {"type": "dictation", "prompt": "Listen and type what you hear.", "audio": "πάντες εἰς τὴν ἀκρόπολιν ἦλθον.", "gaps": [{"answers": ["πάντες εἰς τὴν ἀκρόπολιν ἦλθον"]}], "skills": ["spell.dictation", "listen.sentences"], "explain": "πάντες εἰς τὴν ἀκρόπολιν ἦλθον."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'The priest took the goat.'", "gaps": [{"answers": ["ὁ ἱερεὺς τὴν αἶγα ἔλαβεν", "ὁ ἱερεὺς τὴν αἶγα ἔλαβε", "ὁ ἱερεὺς ἔλαβε τὴν αἶγα", "ὁ ἱερεὺς ἔλαβεν τὴν αἶγα", "τὴν αἶγα ὁ ἱερεὺς ἔλαβεν", "τὴν αἶγα ὁ ἱερεὺς ἔλαβε"]}], "skills": ["vocab.production", "verb.aor.act.ind.3sg"], "explain": "ὁ ἱερεὺς τὴν αἶγα ἔλαβεν."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Ariston said: \"The goddess saved the dog.\"' (use ἔσωσεν for 'saved')", "gaps": [{"answers": ["ὁ Ἀρίστων εἶπεν· «ἡ θεὰ τὸν κύνα ἔσωσεν.»", "ὁ Ἀρίστων εἶπεν· ἡ θεὰ τὸν κύνα ἔσωσεν", "ὁ Ἀρίστων εἶπε· ἡ θεὰ τὸν κύνα ἔσωσεν", "ὁ Ἀρίστων εἶπεν· ἡ θεὰ τὸν κύνα ἔσωσε", "ὁ Ἀρίστων εἶπε· ἡ θεὰ τὸν κύνα ἔσωσε", "ὁ Ἀρίστων εἶπεν· ἡ θεὰ ἔσωσε τὸν κύνα", "ὁ Ἀρίστων εἶπεν· ἡ θεὰ ἔσωσεν τὸν κύνα", "εἶπεν ὁ Ἀρίστων· ἡ θεὰ τὸν κύνα ἔσωσεν"]}], "skills": ["vocab.production", "verb.aor.act.ind.3sg"], "explain": "ὁ Ἀρίστων εἶπεν· «ἡ θεὰ τὸν κύνα ἔσωσεν.»"},
+    {"type": "translate-en", "prompt": "Translate: ὁ ἱερεὺς τὴν αἶγα λαβὼν πρὸς τὸν βωμὸν ἄγει.", "audio": "ὁ ἱερεὺς τὴν αἶγα λαβὼν πρὸς τὸν βωμὸν ἄγει.", "model": "The priest, having taken the goat, leads it to the altar. (or: The priest takes the goat and leads it to the altar.)", "skills": ["read.comprehension", "verb.ptc.aor.act"], "explain": "λαβών: aorist participle, the taking comes before the leading."},
+    {"type": "word-family", "prompt": "Word Study · Match each Greek word to the English word that comes from it.", "pairs": [{"left": "ἱερεύς", "right": "hierarchy (rule of priests)"}, {"left": "οἶνος", "right": "oenology (the study of wine)"}, {"left": "κρέας", "right": "pancreas (all-flesh)"}, {"left": "στέφανος", "right": "Stephen (the crowned one)"}], "skills": ["vocab.family"], "explain": "ἱερ-αρχία 'rule of the sacred'; οἰνο-λογία; πάγ-κρεας 'all flesh'; Στέφανος 'wreath'."}
+  ],
+  "questions": [
+    {"type": "answer-grc", "prompt": "τί ὁ Ἀρίστων τῇ θεᾷ θύει;", "audio": "prompt", "options": [{"id": "a", "text": "αἶγα."}, {"id": "b", "text": "βοῦν."}, {"id": "c", "text": "κύνα."}], "answer": "a", "skills": ["read.comprehension"], "explain": "αἶγα θύει τῇ Ἀθηνᾷ."},
+    {"type": "answer-grc", "prompt": "διὰ τί ὁ Ἀρίστων θύει;", "audio": "prompt", "options": [{"id": "a", "text": "ἡ θεὰ τὸν κύνα ἔσωσεν."}, {"id": "b", "text": "ἡ θεὰ οἶνον πίνει."}, {"id": "c", "text": "ὁ ἱερεὺς αἶγα ἔχει."}], "answer": "a", "skills": ["read.comprehension"], "explain": "διὰ τί; 'why?' — ἡ θεὰ τὸν κύνα ἔσωσεν."},
+    {"type": "answer-grc", "prompt": "τίς τὴν αἶγα πρὸς τὸν βωμὸν ἄγει;", "audio": "prompt", "options": [{"id": "a", "text": "ὁ Σύρος."}, {"id": "b", "text": "ὁ ἱερεύς."}, {"id": "c", "text": "ὁ Λάβρος."}], "answer": "b", "skills": ["read.comprehension"], "explain": "ὁ ἱερεὺς τὴν αἶγα λαβὼν πρὸς τὸν βωμὸν ἄγει."},
+    {"type": "answer-grc", "prompt": "τί ἡ θεὰ λαμβάνει;", "audio": "prompt", "options": [{"id": "a", "text": "τὰ κρέα."}, {"id": "b", "text": "τὸν καπνόν."}, {"id": "c", "text": "τὸν στέφανον."}], "answer": "b", "skills": ["read.comprehension"], "explain": "ἡ μὲν θεὰ τὸν καπνὸν λαμβάνει, οἱ δὲ ἄνθρωποι τὰ κρέα."},
+    {"type": "answer-grc", "prompt": "τί ὁ Λάβρος ἔλαβεν;", "audio": "prompt", "options": [{"id": "a", "text": "τὸν οἶνον."}, {"id": "b", "text": "τὴν αἶγα."}, {"id": "c", "text": "κρέας."}], "answer": "c", "skills": ["read.comprehension", "verb.aor.act.ind.3sg"], "explain": "ὁ κύων κρέας ἔλαβε καὶ ἔφυγεν."}
+  ],
+  "culture": {
+    "title": "Dining with the gods: an Athenian sacrifice",
+    "md": "A Greek sacrifice (θυσία) was a shared meal with a god, and for most people the only day they ate meat. The family walked to the altar in procession, wearing wreaths, with the animal decorated and a basket carrying the knife hidden under barley grains. Water was sprinkled on the victim so that it shook its head, which counted as consent; the barley was thrown on the altar; the priest cut a lock of hair, then killed the animal while the women raised the ritual cry. The thigh bones were wrapped in fat and burnt on the altar fire, and the smoke rising to heaven was the god's portion; the innards were roasted on spits and tasted first, and the rest of the meat was boiled and shared out, sometimes taken home. Wine was poured on the flames as a libation (σπονδή). Goats and sheep were the usual private victims, a piglet the cheapest, an ox a display of wealth; the city offered a hundred cattle at the Panathenaea. The great altar of Athena stood on the north side of the Acropolis, near the ancient olive-wood statue of Athena Polias; the new marble temple to the south, the Parthenon, had been finished in 438 BC, but the cult and its altar were older than any building there. Vows like Ariston's were everyday religion: promise the goddess a goat, and pay when she delivers.",
+    "image": "culture-5-1-sacrifice"
+  },
+  "quiz": [
+    {"type": "cloze-choice", "prompt": "τότε ὁ Λάβρος κρέας ___ καὶ ἔφυγεν.", "options": [{"id": "a", "text": "λαμβάνει"}, {"id": "b", "text": "ἔλαβε"}, {"id": "c", "text": "λαβεῖν"}], "answer": "b", "skills": ["verb.aor.act.ind.3sg"], "explain": "A past event, joined to ἔφυγεν: ἔλαβε."},
+    {"type": "produce-form", "prompt": "Give the aorist of φεύγω for 'they fled'.", "lemma": "φεύγω", "cell": "aorist.active.indicative.3pl", "skills": ["verb.aor.act.ind.3pl", "verb.aor2.stem"], "explain": "ἔφυγον: stem φυγ-.", "audio": "ἔφυγον"},
+    {"type": "produce-form", "prompt": "Give the aorist infinitive of ὁράω, 'to see'.", "lemma": "ὁράω", "cell": "aorist.active.infinitive.inf", "skills": ["verb.aor.act.inf", "verb.aor2.stem"], "explain": "ἰδεῖν.", "audio": "ἰδεῖν"},
+    {"type": "parse", "prompt": "Parse ἦλθον in: ἦλθον τῇ θεᾷ θύειν, says Ariston.", "form": "ἦλθον", "groups": [{"id": "person", "label": "Who?", "options": [{"id": "1sg", "label": "I"}, {"id": "3sg", "label": "he"}, {"id": "3pl", "label": "they"}]}], "answer": {"person": "1sg"}, "skills": ["verb.aor.act.ind.1sg"], "explain": "Ariston speaks of himself: 'I came'. The same form ἦλθον also means 'they came'; the context decides.", "audio": "ἦλθον"},
+    {"type": "pick-picture", "prompt": "βωμός", "audio": "prompt", "options": [{"id": "a", "image": "bomos"}, {"id": "b", "image": "krene"}, {"id": "c", "image": "thyra"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "βωμός: altar."},
+    {"type": "true-false-grc", "prompt": "ἡ θεὰ τὸν καπνὸν λαμβάνει, οἱ δὲ ἄνθρωποι τὰ κρέα.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "So Kleinias says."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'The children came to the altar.'", "gaps": [{"answers": ["οἱ παῖδες πρὸς τὸν βωμὸν ἦλθον", "οἱ παῖδες εἰς τὸν βωμὸν ἦλθον", "οἱ παῖδες ἦλθον πρὸς τὸν βωμόν", "οἱ παῖδες ἦλθον εἰς τὸν βωμόν", "πρὸς τὸν βωμὸν οἱ παῖδες ἦλθον"]}], "skills": ["vocab.production", "verb.aor.act.ind.3pl"], "explain": "οἱ παῖδες πρὸς τὸν βωμὸν ἦλθον."}
+  ],
+  "skills": ["verb.aor.act.ind.1sg", "verb.aor.act.ind.3sg", "verb.aor.act.ind.3pl", "verb.aor2.stem", "verb.aor.aspect", "verb.aor.act.inf", "verb.ptc.aor.act", "syntax.infinitive", "syntax.word-order", "read.comprehension", "read.locate", "listen.sentences", "spell.dictation", "vocab.recognition", "vocab.production", "vocab.family"]
+}

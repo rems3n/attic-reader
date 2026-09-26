@@ -1,0 +1,699 @@
+[
+ {
+  "lemma": "θυσία",
+  "headword": "θυσία, θυσίας, ἡ",
+  "definition": "sacrifice, offering",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension -ᾱ",
+  "morph": {
+   "genitive": "θυσίας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "mythology",
+   "city-life"
+  ],
+  "cognates": {
+   "cognates": [
+    "θύω"
+   ]
+  }
+ },
+ {
+  "lemma": "αἴξ",
+  "headword": "αἴξ, αἰγός, ὁ/ἡ",
+  "definition": "goat",
+  "kind": "noun",
+  "subclass": "noun-3-cons",
+  "pos": "noun: 3rd declension",
+  "morph": {
+   "genitive": "αἰγός",
+   "gender": "m/f",
+   "article": "ὁ/ἡ",
+   "table": {
+    "kind": "noun",
+    "gender": "m/f",
+    "declension": "3",
+    "note": "Monosyllabic stem αἰγ-: the accent falls on the ending in the genitive and dative (αἰγός, αἰγί, αἰγῶν, αἰξί).",
+    "cells": [
+     {
+      "case": "nom",
+      "number": "sg",
+      "forms": [
+       "αἴξ"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "sg",
+      "forms": [
+       "αἰγός"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "sg",
+      "forms": [
+       "αἰγί"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "sg",
+      "forms": [
+       "αἶγα"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "sg",
+      "forms": [
+       "αἴξ"
+      ]
+     },
+     {
+      "case": "nom",
+      "number": "pl",
+      "forms": [
+       "αἶγες"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "pl",
+      "forms": [
+       "αἰγῶν"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "pl",
+      "forms": [
+       "αἰξί(ν)"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "pl",
+      "forms": [
+       "αἶγας"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "pl",
+      "forms": [
+       "αἶγες"
+      ]
+     }
+    ]
+   }
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "Aegean (folk etymology)",
+    "aegis"
+   ]
+  }
+ },
+ {
+  "lemma": "κρέας",
+  "headword": "κρέας, κρέως, τό",
+  "definition": "meat, flesh",
+  "kind": "noun",
+  "subclass": "noun-3-irregular",
+  "pos": "noun: 3rd declension irregular",
+  "morph": {
+   "genitive": "κρέως",
+   "gender": "n",
+   "article": "τό",
+   "table": {
+    "kind": "noun",
+    "gender": "n",
+    "declension": "3",
+    "note": "Stem κρεασ-: the σ drops between vowels and the vowels contract (κρέαος → κρέως, κρέαα → κρέα).",
+    "cells": [
+     {
+      "case": "nom",
+      "number": "sg",
+      "forms": [
+       "κρέας"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "sg",
+      "forms": [
+       "κρέως"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "sg",
+      "forms": [
+       "κρέᾳ"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "sg",
+      "forms": [
+       "κρέας"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "sg",
+      "forms": [
+       "κρέας"
+      ]
+     },
+     {
+      "case": "nom",
+      "number": "pl",
+      "forms": [
+       "κρέα"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "pl",
+      "forms": [
+       "κρεῶν"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "pl",
+      "forms": [
+       "κρέασι(ν)"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "pl",
+      "forms": [
+       "κρέα"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "pl",
+      "forms": [
+       "κρέα"
+      ]
+     }
+    ]
+   }
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "pancreas (all-flesh)",
+    "creatine"
+   ],
+   "cognates": [
+    "raw"
+   ]
+  }
+ },
+ {
+  "lemma": "εὔχομαι",
+  "headword": "εὔχομαι, εὔξομαι, ηὐξάμην, ηὖγμαι",
+  "definition": "pray, vow",
+  "kind": "verb",
+  "subclass": "verb-deponent",
+  "pos": "verb: deponent",
+  "morph": {
+   "parts": {
+    "present": [
+     "εὔχομαι"
+    ],
+    "future": [
+     "εὔξομαι"
+    ],
+    "aorist": [
+     "ηὐξάμην"
+    ],
+    "perfect-mp": [
+     "ηὖγμαι"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "εὔχομαι",
+    "εὔξομαι",
+    "ηὐξάμην",
+    "ηὖγμαι"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "εὐχή 'prayer'"
+   ]
+  }
+ },
+ {
+  "lemma": "ναυμαχία",
+  "headword": "ναυμαχία, ναυμαχίας, ἡ",
+  "definition": "sea battle",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension -ᾱ",
+  "morph": {
+   "genitive": "ναυμαχίας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "ναῦς + μάχη"
+   ]
+  }
+ },
+ {
+  "lemma": "νύμφη",
+  "headword": "νύμφη, νύμφης, ἡ",
+  "definition": "nymph; bride",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension -η",
+  "morph": {
+   "genitive": "νύμφης",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "nymph"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐράω",
+  "headword": "ἐράω (+ gen.), imperfect ἤρων",
+  "definition": "love, be in love with (+ genitive)",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: -άω contract (present and imperfect only)",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐράω"
+    ]
+   },
+   "extra": {
+    "imperfect": [
+     "ἤρων"
+    ]
+   },
+   "raw": [
+    "ἐράω",
+    "ἤρων"
+   ],
+   "verb": {
+    "no_aorist": true,
+    "no_aorist_middle": true
+   }
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "erotic",
+    "Eros"
+   ],
+   "cognates": [
+    "ἔρως 'love'"
+   ]
+  }
+ },
+ {
+  "lemma": "φύλλον",
+  "headword": "φύλλον, φύλλου, τό",
+  "definition": "leaf",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension neuter",
+  "morph": {
+   "genitive": "φύλλου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "chlorophyll"
+   ],
+   "cognates": [
+    "Latin folium",
+    "foliage"
+   ]
+  }
+ },
+ {
+  "lemma": "κόμη",
+  "headword": "κόμη, κόμης, ἡ",
+  "definition": "hair (of the head)",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension -η",
+  "morph": {
+   "genitive": "κόμης",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "comet (long-haired star)"
+   ]
+  }
+ },
+ {
+  "lemma": "κλαίω",
+  "headword": "κλαίω, κλαύσομαι, ἔκλαυσα",
+  "definition": "weep, cry",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "κλαίω"
+    ],
+    "future": [
+     "κλαύσομαι"
+    ],
+    "aorist": [
+     "ἔκλαυσα"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "κλαίω",
+    "κλαύσομαι",
+    "ἔκλαυσα"
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
+  },
+  "topics": [
+   "mythology"
+  ]
+ },
+ {
+  "lemma": "δάφνη",
+  "headword": "δάφνη, δάφνης, ἡ",
+  "definition": "laurel, bay tree",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension -η",
+  "morph": {
+   "genitive": "δάφνης",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "Daphne",
+    "daphnia"
+   ]
+  }
+ },
+ {
+  "lemma": "τόξον",
+  "headword": "τόξον, τόξου, τό",
+  "definition": "bow; (plural) bow and arrows",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension neuter",
+  "morph": {
+   "genitive": "τόξου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "toxic (from τοξικόν, arrow poison)"
+   ]
+  }
+ },
+ {
+  "lemma": "κλάδος",
+  "headword": "κλάδος, κλάδου, ὁ",
+  "definition": "branch, shoot",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "κλάδου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "cladistics"
+   ]
+  }
+ },
+ {
+  "lemma": "ῥίζα",
+  "headword": "ῥίζα, ῥίζης, ἡ",
+  "definition": "root",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension short -α",
+  "morph": {
+   "genitive": "ῥίζης",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "rhizome",
+    "liquorice (γλυκύρριζα)"
+   ]
+  }
+ },
+ {
+  "lemma": "ἰατρός",
+  "headword": "ἰατρός, ἰατροῦ, ὁ",
+  "definition": "doctor, physician",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "ἰατροῦ",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "psychiatry",
+    "paediatrics",
+    "geriatric"
+   ]
+  }
+ },
+ {
+  "lemma": "νοσέω",
+  "headword": "νοσέω, νοσήσω, ἐνόσησα, νενόσηκα",
+  "definition": "be ill, be sick",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: -έω contract",
+  "morph": {
+   "parts": {
+    "present": [
+     "νοσέω"
+    ],
+    "future": [
+     "νοσήσω"
+    ],
+    "aorist": [
+     "ἐνόσησα"
+    ],
+    "perfect": [
+     "νενόσηκα"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "νοσέω",
+    "νοσήσω",
+    "ἐνόσησα",
+    "νενόσηκα"
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "cognates": [
+    "νόσος 'disease'"
+   ]
+  }
+ },
+ {
+  "lemma": "φάρμακον",
+  "headword": "φάρμακον, φαρμάκου, τό",
+  "definition": "drug, medicine, remedy",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension neuter",
+  "morph": {
+   "genitive": "φαρμάκου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "pharmacy",
+    "pharmaceutical"
+   ]
+  }
+ },
+ {
+  "lemma": "θεραπεύω",
+  "headword": "θεραπεύω, θεραπεύσω, ἐθεράπευσα, τεθεράπευκα",
+  "definition": "care for, treat, heal",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "θεραπεύω"
+    ],
+    "future": [
+     "θεραπεύσω"
+    ],
+    "aorist": [
+     "ἐθεράπευσα"
+    ],
+    "perfect": [
+     "τεθεράπευκα"
+    ],
+    "perfect-mp": [
+     "τεθεράπευμαι"
+    ],
+    "aorist-passive": [
+     "ἐθεραπεύθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "θεραπεύω",
+    "θεραπεύσω",
+    "ἐθεράπευσα",
+    "τεθεράπευκα",
+    "τεθεράπευμαι",
+    "ἐθεραπεύθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "therapy",
+    "therapeutic"
+   ]
+  }
+ },
+ {
+  "lemma": "ὑγιής",
+  "headword": "ὑγιής, ὑγιές",
+  "definition": "healthy, sound",
+  "kind": "adjective",
+  "subclass": "adj-3-es",
+  "pos": "adjective: 3rd declension -ής, -ές",
+  "morph": {
+   "terminations": 2,
+   "forms": [
+    "ὑγιής",
+    "ὑγιές"
+   ],
+   "neuter": "ὑγιές"
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "hygiene",
+    "Hygieia"
+   ]
+  }
+ },
+ {
+  "lemma": "πυρετός",
+  "headword": "πυρετός, πυρετοῦ, ὁ",
+  "definition": "fever",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "πυρετοῦ",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "city-life"
+  ],
+  "cognates": {
+   "derivatives": [
+    "pyretic, antipyretic"
+   ],
+   "cognates": [
+    "πῦρ 'fire'"
+   ]
+  }
+ }
+]

@@ -1,0 +1,83 @@
+[
+  {"lemma": "λιμήν", "headword": "λιμήν, λιμένος, ὁ", "definition": "harbour, haven", "kind": "noun", "subclass": "noun-3-cons", "pos": "noun: 3rd declension",
+   "morph": {"genitive": "λιμένος", "gender": "m", "article": "ὁ"}, "topics": ["city-life", "history"]},
+
+  {"lemma": "ἐμπόριον", "headword": "ἐμπόριον, ἐμπορίου, τό", "definition": "trading-place, harbour market (emporion)", "kind": "noun", "subclass": "noun-2", "pos": "noun: 2nd declension neuter -ον",
+   "morph": {"genitive": "ἐμπορίου", "gender": "n", "article": "τό"}, "topics": ["city-life"], "cognates": {"derivatives": ["emporium"]}},
+
+  {"lemma": "ἔμπορος", "headword": "ἔμπορος, ἐμπόρου, ὁ", "definition": "merchant, trader (who travels by sea)", "kind": "noun", "subclass": "noun-2", "pos": "noun: 2nd declension",
+   "morph": {"genitive": "ἐμπόρου", "gender": "m", "article": "ὁ"}, "topics": ["city-life"], "cognates": {"derivatives": ["emporium"]}},
+
+  {"lemma": "μέτοικος", "headword": "μέτοικος, μετοίκου, ὁ", "definition": "metic, resident foreigner", "kind": "noun", "subclass": "noun-2", "pos": "noun: 2nd declension",
+   "morph": {"genitive": "μετοίκου", "gender": "m", "article": "ὁ"}, "topics": ["city-life", "politics"], "cognates": {"derivatives": ["metic"]}},
+
+  {"lemma": "πωλέω", "headword": "πωλέω, πωλήσω, ἐπώλησα", "definition": "sell, offer for sale", "kind": "verb", "subclass": "verb-contract", "pos": "verb: -έω",
+   "morph": {"parts": {"present": ["πωλέω"], "future": ["πωλήσω"], "aorist": ["ἐπώλησα"]}, "extra": {}, "raw": ["πωλέω", "πωλήσω", "ἐπώλησα"], "verb": {}},
+   "topics": ["city-life"], "cognates": {"derivatives": ["monopoly", "bibliopole"]}},
+
+  {"lemma": "ὠνέομαι", "headword": "ὠνέομαι, ὠνήσομαι, (aor. ἐπριάμην), ἐώνημαι", "definition": "buy", "kind": "verb", "subclass": "verb-deponent", "pos": "verb: deponent -έομαι",
+   "morph": {"parts": {"present": ["ὠνέομαι"], "future": ["ὠνήσομαι"], "perfect-mp": ["ἐώνημαι"]}, "extra": {}, "raw": ["ὠνέομαι", "ὠνήσομαι", "ἐώνημαι"], "verb": {"deponent": true, "imperfect_stem": "ἐων"}},
+   "notes": "The aorist is supplied by πρίαμαι: ἐπριάμην 'I bought'. Imperfect ἐωνούμην (augment ἐ- before ὠ-).", "topics": ["city-life"]},
+
+  {"lemma": "δραχμή", "headword": "δραχμή, δραχμῆς, ἡ", "definition": "drachma (silver coin, = 6 obols)", "kind": "noun", "subclass": "noun-1", "pos": "noun: 1st declension -η",
+   "morph": {"genitive": "δραχμῆς", "gender": "f", "article": "ἡ"}, "topics": ["city-life"], "cognates": {"derivatives": ["drachma", "dram"]}},
+
+  {"lemma": "ὀβολός", "headword": "ὀβολός, ὀβολοῦ, ὁ", "definition": "obol (small coin, one sixth of a drachma)", "kind": "noun", "subclass": "noun-2", "pos": "noun: 2nd declension",
+   "morph": {"genitive": "ὀβολοῦ", "gender": "m", "article": "ὁ"}, "topics": ["city-life"], "cognates": {"derivatives": ["obol"]}},
+
+  {"lemma": "ἰχθύς", "headword": "ἰχθύς, ἰχθύος, ὁ", "definition": "fish", "kind": "noun", "subclass": "noun-3-irregular", "pos": "noun: 3rd declension (υ-stem)",
+   "morph": {"genitive": "ἰχθύος", "gender": "m", "article": "ὁ",
+     "table": {"kind": "noun", "gender": "m", "declension": "3", "note": "υ-stem: accusative plural ἰχθῦς (like the nominative singular, but circumflexed).",
+       "cells": [
+         {"case": "nom", "number": "sg", "forms": ["ἰχθύς"]}, {"case": "gen", "number": "sg", "forms": ["ἰχθύος"]}, {"case": "dat", "number": "sg", "forms": ["ἰχθύι"]}, {"case": "acc", "number": "sg", "forms": ["ἰχθύν"]}, {"case": "voc", "number": "sg", "forms": ["ἰχθύ"]},
+         {"case": "nom", "number": "pl", "forms": ["ἰχθύες"]}, {"case": "gen", "number": "pl", "forms": ["ἰχθύων"]}, {"case": "dat", "number": "pl", "forms": ["ἰχθύσι(ν)"]}, {"case": "acc", "number": "pl", "forms": ["ἰχθῦς"]}, {"case": "voc", "number": "pl", "forms": ["ἰχθύες"]}]}},
+   "topics": ["city-life"], "cognates": {"derivatives": ["ichthyology", "ichthyosaur"]}},
+
+  {"lemma": "ἄστυ", "headword": "ἄστυ, ἄστεως, τό", "definition": "town; the city of Athens itself (as opposed to Piraeus and the countryside)", "kind": "noun", "subclass": "noun-3-irregular", "pos": "noun: 3rd declension (υ-stem neuter)",
+   "morph": {"genitive": "ἄστεως", "gender": "n", "article": "τό",
+     "table": {"kind": "noun", "gender": "n", "declension": "3", "note": "Declined like πόλις in the genitive and dative; neuter, so nominative = accusative (ἄστυ, ἄστη).",
+       "cells": [
+         {"case": "nom", "number": "sg", "forms": ["ἄστυ"]}, {"case": "gen", "number": "sg", "forms": ["ἄστεως"]}, {"case": "dat", "number": "sg", "forms": ["ἄστει"]}, {"case": "acc", "number": "sg", "forms": ["ἄστυ"]}, {"case": "voc", "number": "sg", "forms": ["ἄστυ"]},
+         {"case": "nom", "number": "pl", "forms": ["ἄστη"]}, {"case": "gen", "number": "pl", "forms": ["ἄστεων"]}, {"case": "dat", "number": "pl", "forms": ["ἄστεσι(ν)"]}, {"case": "acc", "number": "pl", "forms": ["ἄστη"]}, {"case": "voc", "number": "pl", "forms": ["ἄστη"]}]}},
+   "topics": ["city-life"], "cognates": {"derivatives": ["Astyanax (lord of the town)"]}},
+
+  {"lemma": "διδάσκαλος", "headword": "διδάσκαλος, διδασκάλου, ὁ", "definition": "teacher, schoolmaster", "kind": "noun", "subclass": "noun-2", "pos": "noun: 2nd declension",
+   "morph": {"genitive": "διδασκάλου", "gender": "m", "article": "ὁ"}, "topics": ["city-life"], "cognates": {"derivatives": ["didactic (< διδάσκω)"]}},
+
+  {"lemma": "ἔξεστι", "headword": "ἔξεστι(ν), impf. ἐξῆν, fut. ἐξέσται", "definition": "it is allowed, it is possible (+dat. and infin.)", "kind": "verb", "subclass": "verb-impersonal", "pos": "verb: impersonal",
+   "morph": {"parts": {"present": ["ἔξεστι"]}, "extra": {"imperfect": ["ἐξῆν"]}, "raw": ["ἔξεστι", "ἐξῆν", "ἐξέσται"], "alias_of": "εἰμί",
+     "verb": {"tables": [
+       {"tense": "present", "voice": "active", "mood": "indicative", "forms": "- - ἔξεστι(ν) - - -"},
+       {"tense": "present", "voice": "active", "mood": "infinitive", "forms": "ἐξεῖναι"},
+       {"tense": "present", "voice": "active", "mood": "participle", "forms": "- - ἐξόν -", "note": "Neuter participle ἐξόν, 'it being permitted'."},
+       {"tense": "imperfect", "voice": "active", "mood": "indicative", "forms": "- - ἐξῆν - - -"},
+       {"tense": "future", "voice": "active", "mood": "indicative", "forms": "- - ἐξέσται - - -"}]}},
+   "notes": "Impersonal compound of εἰμί (ἐξ + ἐστί): ἔξεστί μοι λέγειν 'I may speak'. Only the third person singular is used.", "topics": ["city-life", "politics"]},
+
+  {"lemma": "ἀναγιγνώσκω", "headword": "ἀναγιγνώσκω, ἀναγνώσομαι, ἀνέγνων, ἀνέγνωκα", "definition": "read, read aloud; recognise", "kind": "verb", "subclass": "verb-omega", "pos": "verb: -ω (compound of γιγνώσκω)",
+   "morph": {"parts": {"present": ["ἀναγιγνώσκω"], "future": ["ἀναγνώσομαι"]}, "extra": {}, "raw": ["ἀναγιγνώσκω", "ἀναγνώσομαι", "ἀνέγνων", "ἀνέγνωκα"], "verb": {"imperfect_stem": "ἀνεγιγνωσκ"}},
+   "notes": "Compound of ἀνά + γιγνώσκω; the augment goes between prefix and stem (ἀνεγίγνωσκον). Aorist ἀνέγνων (root aorist, like ἔγνων) — see γιγνώσκω.", "topics": ["city-life", "philosophy"]},
+
+  {"lemma": "τριήρης", "headword": "τριήρης, τριήρους, ἡ", "definition": "trireme, warship with three banks of oars", "kind": "noun", "subclass": "noun-3-irregular", "pos": "noun: 3rd declension (σ-stem)",
+   "morph": {"genitive": "τριήρους", "gender": "f", "article": "ἡ",
+     "table": {"kind": "noun", "gender": "f", "declension": "3", "note": "σ-stem like τεῖχος but masculine/feminine in -ης: accusative singular τριήρη, nominative and accusative plural τριήρεις.",
+       "cells": [
+         {"case": "nom", "number": "sg", "forms": ["τριήρης"]}, {"case": "gen", "number": "sg", "forms": ["τριήρους"]}, {"case": "dat", "number": "sg", "forms": ["τριήρει"]}, {"case": "acc", "number": "sg", "forms": ["τριήρη"]}, {"case": "voc", "number": "sg", "forms": ["τριήρης"]},
+         {"case": "nom", "number": "pl", "forms": ["τριήρεις"]}, {"case": "gen", "number": "pl", "forms": ["τριήρων"]}, {"case": "dat", "number": "pl", "forms": ["τριήρεσι(ν)"]}, {"case": "acc", "number": "pl", "forms": ["τριήρεις"]}, {"case": "voc", "number": "pl", "forms": ["τριήρεις"]}]}},
+   "topics": ["history", "city-life"], "cognates": {"derivatives": ["trireme (via Latin triremis)"]}},
+
+  {"lemma": "ἐρέτης", "headword": "ἐρέτης, ἐρέτου, ὁ", "definition": "rower, oarsman", "kind": "noun", "subclass": "noun-1", "pos": "noun: 1st declension masculine -ης",
+   "morph": {"genitive": "ἐρέτου", "gender": "m", "article": "ὁ"}, "topics": ["history", "city-life"]},
+
+  {"lemma": "οἴκαδε", "headword": "οἴκαδε", "definition": "homewards, (to) home", "kind": "adverb", "subclass": "adverb", "pos": "adverb of place (-δε: motion towards)",
+   "morph": {"forms": ["οἴκαδε"]}, "topics": ["core"]},
+
+  {"lemma": "οἴκοθεν", "headword": "οἴκοθεν", "definition": "from home", "kind": "adverb", "subclass": "adverb", "pos": "adverb of place (-θεν: motion from)",
+   "morph": {"forms": ["οἴκοθεν"]}, "topics": ["core"]},
+
+  {"lemma": "πόθεν", "headword": "πόθεν;", "definition": "from where? whence?", "kind": "adverb", "subclass": "adverb", "pos": "interrogative adverb of place",
+   "morph": {"forms": ["πόθεν"]}, "topics": ["core"]},
+
+  {"lemma": "ποῖ", "headword": "ποῖ;", "definition": "to where? whither?", "kind": "adverb", "subclass": "adverb", "pos": "interrogative adverb of place",
+   "morph": {"forms": ["ποῖ"]}, "topics": ["core"]}
+]
