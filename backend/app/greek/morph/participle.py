@@ -16,7 +16,9 @@ genitive singular (the feminine keeps the syllable of its own nominative),
 moving only as the law of limitation requires; the feminine genitive plural
 is always -ῶν. The dative plural loses the -ντ-/-τ- before -σι with
 compensatory lengthening: -οντ- → -ουσι, -αντ- → -ᾱσι, -εντ- → -εισι,
--υντ- → -ῡσι, -ωντ- → -ωσι, perfect -οτ- → -οσι.
+-υντ- → -ῡσι, -ωντ- → -ωσι, perfect -οτ- → -οσι. The dual is -ε, -οιν
+(λύοντε, λυόντοιν) in the masculine and neuter and -ᾱ, -αιν (λυούσα,
+λυούσαιν) in the feminine.
 """
 
 from __future__ import annotations
@@ -85,7 +87,8 @@ def _third(m: str, n: str, mg: str) -> dict[tuple[str, str], list[str]]:
     n_sg = [n, mg, m_sg[2], n, n]
     m_pl = [p("ες"), p("ων"), dat_pl, p("ας"), p("ες")]
     n_pl = [p("α"), m_pl[1], dat_pl, p("α"), p("α")]
-    return {("m", "sg"): m_sg, ("n", "sg"): n_sg, ("m", "pl"): m_pl, ("n", "pl"): n_pl}
+    du = [p("ε"), p("οιν"), p("οιν"), p("ε"), p("ε")]  # λύοντε, λυόντοιν
+    return {("m", "sg"): m_sg, ("n", "sg"): n_sg, ("m", "pl"): m_pl, ("n", "pl"): n_pl, ("m", "du"): du, ("n", "du"): list(du)}
 
 
 def _feminine_short_alpha(f: str) -> dict[tuple[str, str], list[str]]:
@@ -104,7 +107,8 @@ def _feminine_short_alpha(f: str) -> dict[tuple[str, str], list[str]]:
         sg = [f, p("ης"), p("ῃ"), p("αν"), f]
     gen_pl = finish(accentuate(stem + "ων", 1, "circumflex"))
     pl = [p("αι"), gen_pl, p("αις"), p("ᾱς"), p("αι")]
-    return {("f", "sg"): sg, ("f", "pl"): pl}
+    du = [p("ᾱ"), p("αιν"), p("αιν"), p("ᾱ"), p("ᾱ")]  # λυούσα, λυούσαιν
+    return {("f", "sg"): sg, ("f", "pl"): pl, ("f", "du"): du}
 
 
 def _second(m: str, f: str) -> dict[tuple[str, str], list[str]] | None:
@@ -116,14 +120,14 @@ def _second(m: str, f: str) -> dict[tuple[str, str], list[str]] | None:
     except Exception:  # noqa: BLE001
         return None
     rows: dict[tuple[str, str], list[str]] = {}
-    for cell in table["cells"]:
+    for cell in table["cells"] + table.get("dual", []):
         for g, forms in cell["forms"].items():
             rows.setdefault((g, cell["number"]), []).append(forms[0] if forms else "")
     return rows
 
 
 def decline_participle(m: str, f: str, n: str, mg: str) -> dict[tuple[str, str], list[str]] | None:
-    """{(gender, number): [nom, gen, dat, acc, voc]} for a participle given
+    """{(gender, number): [nom, gen, dat, acc, voc]} (number sg, pl or du) for a participle given
     its masculine, feminine and neuter nominative singular and masculine
     genitive singular; None when the forms do not fit either pattern."""
     if not (m and f and n and mg):

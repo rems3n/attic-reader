@@ -55,7 +55,7 @@
    "notes": "Impersonal compound of εἰμί (ἐξ + ἐστί): ἔξεστί μοι λέγειν 'I may speak'. Only the third person singular is used.", "topics": ["city-life", "politics"]},
 
   {"lemma": "ἀναγιγνώσκω", "headword": "ἀναγιγνώσκω, ἀναγνώσομαι, ἀνέγνων, ἀνέγνωκα", "definition": "read, read aloud; recognise", "kind": "verb", "subclass": "verb-omega", "pos": "verb: -ω (compound of γιγνώσκω)",
-   "morph": {"parts": {"present": ["ἀναγιγνώσκω"], "future": ["ἀναγνώσομαι"]}, "extra": {}, "raw": ["ἀναγιγνώσκω", "ἀναγνώσομαι", "ἀνέγνων", "ἀνέγνωκα"], "verb": {"imperfect_stem": "ἀνεγιγνωσκ"}},
+   "morph": {"parts": {"present": ["ἀναγιγνώσκω"], "future": ["ἀναγνώσομαι"], "aorist": ["ἀνέγνων"], "perfect": ["ἀνέγνωκα"]}, "extra": {}, "raw": ["ἀναγιγνώσκω", "ἀναγνώσομαι", "ἀνέγνων", "ἀνέγνωκα"], "verb": {"imperfect_stem": "ἀνεγιγνωσκ"}},
    "notes": "Compound of ἀνά + γιγνώσκω; the augment goes between prefix and stem (ἀνεγίγνωσκον). Aorist ἀνέγνων (root aorist, like ἔγνων) — see γιγνώσκω.", "topics": ["city-life", "philosophy"]},
 
   {"lemma": "τριήρης", "headword": "τριήρης, τριήρους, ἡ", "definition": "trireme, warship with three banks of oars", "kind": "noun", "subclass": "noun-3-irregular", "pos": "noun: 3rd declension (σ-stem)",
