@@ -1006,3 +1006,13 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
 - F1 remains pending its browser gate. Do not merge or start F2 until
   regressions pass and the screenshots have been inspected. No live voice
   or course-content changes made.
+
+## F1 release verification — 2026-09-26
+
+The pending gate above is resolved by Actions run 36269975095 on
+`ba48400c34a9f5b9add9f066413ad086a5739f3f`: all nine browser suites passed,
+including the Home resume flow, navigation accessibility and offline playback.
+654 backend tests passed (5 skipped), 130 frontend tests passed, production
+build and TypeScript passed, and course validation found 0 problems. All 24
+new-page screenshots at 390×844 and 1280×900 were visually reviewed and are
+saved losslessly under `docs/screenshots/f1/`. F1 is complete; F2 is next.

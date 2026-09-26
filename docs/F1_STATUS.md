@@ -1,34 +1,38 @@
-# F1 implementation status
+# F1 release verification
 
-Pull request: https://github.com/rems3n/attic-reader/pull/2
+PR: https://github.com/rems3n/attic-reader/pull/2
+Verified application commit: `ba48400c34a9f5b9add9f066413ad086a5739f3f`
+Run: https://github.com/rems3n/attic-reader/actions/runs/36269975095
 
 Implemented: desktop sidebar, mobile navigation, Home and guest dashboard,
 onboarding and starting check, Help, guest Settings, Practice, quick vocabulary
 sessions, weekly word goals, shared session summaries, route redirects, and
 offline route migration.
 
-Verified: 654 backend tests passed (5 skipped), 130 frontend tests passed,
-TypeScript and production build passed, course validator reported 0 problems.
+## Verification
 
-Browser results from run 36269228052, verified from logs:
-- Passed: course, placement, stage1, stage2, tracks, skills, navigation, offline.
-- Navigation: 0 problems, including phone/desktop axe checks.
-- Failed: shell walk waiting for Home's Resume lesson link after opening Lesson 0.1.
-  Home itself shows the returning-learner heading. The follow-up test allows the
-  same 30-second loading window as other API-backed flows and captures the
-  rendered Home text and screenshot if the link still fails.
-- The workflow's piped logging previously hid failing test exit codes.
-  Explicit bash with pipefail now makes each failure fail its step and job.
+- Backend: 654 passed, 5 skipped.
+- Frontend: 130 passed; TypeScript and production build passed.
+- Course validation: 0 problems.
+- All nine browser suites passed: shell, course, placement, stage1, stage2,
+  tracks, skills, navigation, offline.
+- Navigation: 0 problems, including mobile/desktop accessibility audits.
+- Home resumes an in-progress lesson after loading course data.
+- Workflow uses bash pipefail so piped logging cannot hide test failures.
+- All 24 screenshots visually reviewed at phone 390×844 and desktop
+  1280×900; lossless WebP copies saved in `screenshots/f1/`. Full-page
+  captures include the fixed mobile bar at the initial viewport position.
 
-Keep this PR in draft until the shell walk passes and all new-page screenshots
-have been inspected. Do not begin F2 or deploy this phase before that gate.
+## Recommendations applied
 
-The development workspace disconnected during verification. Source and tests are
-saved in the PR. The next run can complete on GitHub without the local workspace;
-download its shell-screenshots artifact after reconnecting for visual review.
+Returning guests receive a progress dashboard. Smaller desktops retain sidebar
+labels. The short starting check makes a conservative recommendation and leaves
+unit skipping to full placement. Known words require a 21-day review interval
+and are deduplicated across card directions.
 
-Recommendations applied: give returning guests a dashboard; keep sidebar labels
-on smaller desktops; use the short check only for a conservative starting
-recommendation, retaining full placement for skipping units. GitHub's default
-branch is still an older branch; change it to main when managing repository
-settings.
+Accounts remain F2, the Library redesign F3, unified practice F4, and deeper
+Progress redesign F5. No course content or voice changes are included.
+
+Repository housekeeping: GitHub's default branch still points to an older
+branch. Main is the production source; changing the GitHub default requires a
+repository administration capability not exposed by the current connector.

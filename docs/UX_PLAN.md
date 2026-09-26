@@ -1,6 +1,6 @@
 # Attic Reader — app structure and usability plan
 
-Status: F1 implemented on `ux/f1-shell`; browser regression and screenshot gate pending. Follows `COURSE_PLAN.md` (content) and
+Status: F1 complete and verified; F2 accounts is next. Follows `COURSE_PLAN.md` (content) and
 the light "Reader" theme (§9.8 there). This plan changes how the app is
 organised, not what it teaches.
 
@@ -314,7 +314,7 @@ rules.
 
 | Phase | Deliverable | Est. |
 |---|---|---|
-| **F1 Shell — VERIFYING** | `AppShell` + sidebar + bottom tabs + top bar, renames and redirects, Home (logged-out and dashboard with known-words count, weekly goal, Quick 5 minutes), `/start` onboarding, Help page, empty states, session summary screen, design-system components | 1 session |
+| **F1 Shell — DONE** | `AppShell` + sidebar + bottom tabs + top bar, renames and redirects, Home (logged-out and dashboard with known-words count, weekly goal, Quick 5 minutes), `/start` onboarding, Help page, empty states, session summary screen, design-system components | 1 session |
 | **F2 Accounts** | backend auth + user store + `/api/me/progress`, `/api` proxy, sign-in/up pages, guest → account import, Settings page | 1 session |
 | **F3 Library** | `/library` hub (search, filters, recommended, collections, my texts), `/library/[id]` reader with known/learning/new word states and the tap-to-gloss card (Known / Learn this), `/library/new` add flow | 1 session |
 | **F3b Listen mode** | `/learn/listen/[unit]`: hands-free unit playlist, repeat and anticipation pauses, speed; optional record-and-compare | ½ session |
