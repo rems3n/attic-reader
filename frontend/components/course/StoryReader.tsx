@@ -7,7 +7,7 @@ import { normalizeAnswer } from "../../lib/normalize";
 import { useSpeaker } from "../Speak";
 import Picture, { imageById } from "./Picture";
 
-type Clip = { start: number; end: number; url: string | null; words: WordTiming[] | null; text: string };
+type Clip = { start: number; end: number; url: string | null; words: WordTiming[] | null; text: string; failed?: boolean };
 
 /**
  * The illustrated story: one paragraph per picture, sentences with LOGOS-style
@@ -48,46 +48,67 @@ export default function StoryReader({ paragraphs, storyText, images, speed, show
     return out;
   }, [paragraphs, storyText]);
 
+  /** Clip indices of a sentence, in `list` (the clips just loaded) or the current state. */
   const clipsFor = useCallback(
-    (sentenceIndex: number): number[] => {
+    (sentenceIndex: number, list: Clip[] | null = clips): number[] => {
       const s = sentences[sentenceIndex];
-      if (!clips || !s) return [];
-      return clips.map((c, i) => (c.start >= s.start && c.start < s.end ? i : -1)).filter((i) => i >= 0);
+      if (!list || !s) return [];
+      return list.map((c, i) => (c.start >= s.start && c.start < s.end ? i : -1)).filter((i) => i >= 0);
     },
     [clips, sentences],
   );
 
-  const load = useCallback(async () => {
-    if (clips || loading) return clips;
+  // One stream per story and speed. The promise resolves as soon as the
+  // sentence list arrives (not when every clip is rendered), so the first
+  // tap plays its sentence as soon as that clip is ready; clips are filled in
+  // place as they stream in.
+  const pending = useRef<Promise<Clip[]> | null>(null);
+  const generation = useRef(0);
+  const load = useCallback((): Promise<Clip[] | null> => {
+    if (clips) return Promise.resolve(clips);
+    if (pending.current) return pending.current;
+    const gen = generation.current;
+    const current = () => gen === generation.current; // a speed change starts a new generation
     setLoading(true);
     setError("");
     const built: Clip[] = [];
-    try {
-      await synthesizeStream(storyText, speed, (event) => {
+    const p = new Promise<Clip[]>((resolve) => {
+      synthesizeStream(storyText, speed, (event) => {
         if (event.type === "start") {
           event.sentences.forEach((s) => built.push({ start: s.start, end: s.end, url: null, words: null, text: s.text }));
-          setClips([...built]);
+          if (current()) setClips([...built]);
+          resolve(built);
         } else if (event.type === "clip") {
           const c = built[event.index];
           if (c) {
             c.url = event.audio_base64 ? base64ToObjectUrl(event.audio_base64, event.mime_type) : null;
             c.words = event.words ?? null;
+            c.failed = !event.audio_base64;
           }
-          setClips([...built]);
-        } else if (event.type === "error") {
+          if (current()) setClips([...built]);
+        } else if (event.type === "error" && current()) {
           setError(event.detail);
         }
-      });
-    } catch (e) {
-      setError(e instanceof Error ? e.message : "Audio unavailable");
-    } finally {
-      setLoading(false);
-    }
-    return built;
-  }, [clips, loading, storyText, speed]);
+      })
+        .catch((e) => current() && setError(e instanceof Error ? e.message : "Audio unavailable"))
+        .finally(() => {
+          for (const c of built) if (!c.url) c.failed = true; // stream over: nothing more will arrive
+          if (current()) {
+            setLoading(false);
+            pending.current = null;
+          }
+          resolve(built);
+        });
+    });
+    pending.current = p;
+    return p;
+  }, [clips, storyText, speed]);
 
   // Speed change → drop the clips; they reload on the next play.
   useEffect(() => {
+    generation.current += 1;
+    pending.current = null;
+    setLoading(false);
     setClips(null);
     setCurrent(null);
   }, [speed, storyText]);
@@ -129,6 +150,7 @@ export default function StoryReader({ paragraphs, storyText, images, speed, show
     const c = list?.[i];
     if (!c) return;
     if (!c.url) {
+      if (c.failed) return; // no audio for this sentence
       // still rendering: wait a moment and retry (the stream fills in order)
       await new Promise((r) => setTimeout(r, 400));
       return playClip(i);
@@ -149,7 +171,7 @@ export default function StoryReader({ paragraphs, storyText, images, speed, show
     setPlayAll(false);
     const list = clipsRef.current ?? (await load());
     if (!list) return;
-    const ids = clipsFor(sentenceIndex);
+    const ids = clipsFor(sentenceIndex, list);
     if (!ids.length) return;
     // play the sentence's clips in a row
     playAllRef.current = false;

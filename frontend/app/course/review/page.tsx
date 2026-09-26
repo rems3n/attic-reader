@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Crumbs from "../../../components/Crumbs";
 import { useSearchParams } from "next/navigation";
 import { Suspense, useEffect, useMemo, useRef, useState } from "react";
 import ExerciseRunner, { type Outcome } from "../../../components/course/ExerciseRunner";
@@ -161,10 +162,14 @@ function Review() {
   if (error) return <main className="shell"><p className="error">{error}</p></main>;
   return (
     <main className="shell lessonShell">
-      <p className="crumbs"><Link href="/course">← Course</Link>{mode.kind !== "weak" && <> · <Link href="/course/skills">Skills</Link></>}</p>
+      <Crumbs items={[{ label: "Course", href: "/course" }, ...(mode.kind !== "weak" ? [{ label: "Skills", href: "/course/skills" }] : []), { label: mode.kind === "mistakes" ? "Mistakes" : "Review" }]} />
       <section className="card">
         <p className="eyebrow">{title}</p>
-        {mode.kind === "skills" && <h1 className={styles.reviewTitle}>{mode.skills.map(skillLabel).join(" · ")}</h1>}
+        {mode.kind === "skills" ? (
+          <h1 className={styles.reviewTitle}>{mode.skills.map(skillLabel).join(" · ")}</h1>
+        ) : (
+          <h1 className={styles.reviewTitle}>{mode.kind === "mistakes" ? "Mistakes deck" : "Review quiz"}</h1>
+        )}
         {mode.kind === "mistakes" && done === null && (
           <p className={styles.reviewLede}>
             {deck.length === 0 ? "No mistakes waiting." : `${deck.length} in the deck${deck.length > DECK_SESSION ? `, ${DECK_SESSION} this round` : ""}.`} An item leaves the deck when you get it right twice in a row.
