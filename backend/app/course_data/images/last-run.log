@@ -3,15 +3,16 @@ python         3.14.5
 platform       macOS-26.6.2-arm64-arm-64bit-Mach-O
 openssl        OpenSSL 3.6.2 7 Apr 2026
 met_api        ok 200 (2061 bytes read)
-met_search     ok 200 (40 bytes read)
+met_search     ok 200 (4096 bytes read)
 met_image      ok 200 (4096 bytes read)
 cma_api        ok 200 (4096 bytes read)
 commons_api    ok 200 (759 bytes read)
 commons_search ok 40 hits
-commons_image  FAIL TypeError: expected string or bytes-like object, got 'float'
+commons_verify ok CC0 File:Attic red-figure kylix by Brygos Painter, top - Getty Museum (86.AE.286).jpg
+commons_image  ok 481 KB
 pillow         ok 12.3.0, webp=yes
-  pol-5-b                    story       A lame man is helped up onto a borrowed horse in a city street; two men point and whisper.
-  pol-5-c                    story       The old craftsman at work alone in his small shop, bent over his bench, with no apprentice beside him.
-  pol-6-a                    story       404 BC: thirty grim men in fine cloaks sit on a platform in the Agora; Spartan soldiers with red cloaks stand guard behind them.
   pol-6-b                    story       Two of the Thirty whisper together over a list of names; one taps it with his finger, the other smiles.
   pol-6-c                    story       Armed men burst into a dining room where Lysias reclines with guests; the guests are pushed out of the door while Lysias is seized.
+  pol-7-a                    story       351 BC: Macedonian cavalry and a phalanx with long pikes before the walls of a northern Greek town; King Philip, bearded, one eye bandaged, rides at their head.
+  pol-7-b                    story       Athenians strolling in the Agora under a stoa, gossiping in little groups and asking a traveller for news.
+  pol-7-c                    story       Demosthenes, a thin intense man, speaks from the stone platform of the Pnyx to thousands of seated citizens, one hand raised.
