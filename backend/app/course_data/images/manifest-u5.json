@@ -273,19 +273,6 @@
    ]
   },
   {
-   "id": "verb-pinei",
-   "kind": "dictionary",
-   "file": null,
-   "alt_grc": "πίνει",
-   "alt_en": "Someone drinking from a cup",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": [
-    "πίνω"
-   ]
-  },
-  {
    "id": "naumachia",
    "kind": "dictionary",
    "file": null,
@@ -440,19 +427,6 @@
    ]
   },
   {
-   "id": "verb-diokei",
-   "kind": "dictionary",
-   "file": null,
-   "alt_grc": "διώκει",
-   "alt_en": "Someone chasing another",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": [
-    "διώκω"
-   ]
-  },
-  {
    "id": "phyllon",
    "kind": "dictionary",
    "file": null,
@@ -489,19 +463,6 @@
    "source_url": null,
    "words": [
     "σῶμα"
-   ]
-  },
-  {
-   "id": "cheir",
-   "kind": "dictionary",
-   "file": null,
-   "alt_grc": "ἡ χείρ",
-   "alt_en": "A hand",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": [
-    "χείρ"
    ]
   },
   {

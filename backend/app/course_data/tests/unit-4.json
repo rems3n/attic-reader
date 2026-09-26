@@ -1,0 +1,64 @@
+{
+  "id": "unit-4",
+  "title_grc": "Ὁ Πειραιεύς · ἔλεγχος",
+  "title_en": "Unit 4 test",
+  "scope": "4.4",
+  "pass_score": 0.8,
+  "unlock_after_hours": 24,
+  "retake_after_days": 7,
+  "blurb": "Everything from Lessons 4.1–4.4: the Long Walls, the harbour market, the school, the ships. Participles, πατήρ and ἀνήρ, πᾶς, the genitive, δεῖ and ἔξεστι, numbers and time. Four parts; no feedback until the end. 80 % to pass.",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Λέξεις · Vocabulary",
+      "items": [
+        {"type": "pick-picture", "prompt": "ὁ λιμήν", "audio": "prompt", "options": [{"id": "a", "image": "teichos"}, {"id": "b", "image": "limen"}, {"id": "c", "image": "emporion"}, {"id": "d", "image": "asty"}], "answer": "b", "skills": ["vocab.recognition"], "explain": "ὁ λιμήν: harbour."},
+        {"type": "pick-picture", "prompt": "ἡ τριήρης", "audio": "prompt", "options": [{"id": "a", "image": "hydria"}, {"id": "b", "image": "nesos"}, {"id": "c", "image": "trieres"}, {"id": "d", "image": "eretes"}], "answer": "c", "skills": ["vocab.recognition"], "explain": "ἡ τριήρης: trireme."},
+        {"type": "pick-picture", "prompt": "πωλεῖ", "audio": "prompt", "options": [{"id": "a", "image": "verb-polei"}, {"id": "b", "image": "verb-oneitai"}, {"id": "c", "image": "verb-pauetai"}, {"id": "d", "image": "verb-graphei"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "πωλεῖ: sells."},
+        {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ἡ θυγάτηρ", "options": [{"id": "a", "text": "ὁ πατήρ"}, {"id": "b", "text": "ἡ μήτηρ"}, {"id": "c", "text": "ἡ θυγάτηρ"}], "answer": "c", "skills": ["listen.words"], "explain": "ἡ θυγάτηρ: daughter."},
+        {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "δεῖ τοὺς παῖδας γράμματα μανθάνειν.", "options": [{"id": "a", "text": "δεῖ τοὺς παῖδας γράμματα μανθάνειν."}, {"id": "b", "text": "ἔξεστι τοῖς παισὶ γράμματα μανθάνειν."}, {"id": "c", "text": "δεῖ τοὺς παῖδας γράμματα γράφειν."}], "answer": "a", "skills": ["listen.sentences"], "explain": "The boys must learn letters."},
+        {"type": "match", "prompt": "Match the Greek to the English.", "pairs": [{"left": "ἕπεται", "right": "follows"}, {"left": "ὠνεῖται", "right": "buys"}, {"left": "διδάσκει", "right": "teaches"}, {"left": "πλεῖ", "right": "sails"}, {"left": "φυλάττει", "right": "guards"}], "skills": ["vocab.recognition"], "explain": "ἕπεται, ὠνεῖται, διδάσκει, πλεῖ, φυλάττει."},
+        {"type": "cloze-type", "prompt": "Type the Greek for 'king' (with its article).", "gaps": [{"answers": ["ὁ βασιλεύς", "βασιλεύς"]}], "skills": ["vocab.production"], "explain": "ὁ βασιλεύς.", "audio": "ὁ βασιλεύς"},
+        {"type": "cloze-type", "prompt": "Type the Greek for 'ship' (with its article).", "gaps": [{"answers": ["ἡ ναῦς", "ναῦς"]}], "skills": ["vocab.production"], "explain": "ἡ ναῦς.", "audio": "ἡ ναῦς"}
+      ]
+    },
+    {
+      "id": "forms",
+      "title": "Τύποι · Forms",
+      "items": [
+        {"type": "parse", "prompt": "Parse πατρός.", "form": "πατρός", "groups": [{"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "dat", "label": "dative"}, {"id": "acc", "label": "accusative"}]}, {"id": "number", "label": "Number", "options": [{"id": "sg", "label": "singular"}, {"id": "pl", "label": "plural"}]}], "answer": {"case": "gen", "number": "sg"}, "skills": ["noun.decl3.family", "noun.decl3.gen.sg"], "explain": "πατρός: genitive singular, 'of the father'.", "audio": "πατρός"},
+        {"type": "parse", "prompt": "Parse βουλόμενοι.", "form": "βουλόμενοι", "groups": [{"id": "gender", "label": "Gender", "options": [{"id": "m", "label": "masculine"}, {"id": "f", "label": "feminine"}, {"id": "n", "label": "neuter"}]}, {"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "acc", "label": "accusative"}]}, {"id": "number", "label": "Number", "options": [{"id": "sg", "label": "singular"}, {"id": "pl", "label": "plural"}]}], "answer": {"gender": "m", "case": "nom", "number": "pl"}, "skills": ["verb.ptc.pres.mp"], "explain": "-όμενοι, like καλοί: masculine nominative plural — οἱ ἄνδρες βουλόμενοι.", "audio": "βουλόμενοι"}
+      ],
+      "generate": {"skills": ["noun.decl3.gen.sg", "noun.decl3.acc.sg", "noun.decl3.dat.pl", "noun.decl3.nom.pl", "art.gen.pl", "verb.pres.mp.ind.3sg", "verb.pres.act.inf", "adj.agree"], "n": 8, "seed": 4}
+    },
+    {
+      "id": "sentences",
+      "title": "Λόγοι · Sentences",
+      "items": [
+        {"type": "cloze-choice", "prompt": "ἡ μήτηρ ἐν τῇ θύρᾳ ___ τὸν ἄνδρα ὁρᾷ.", "options": [{"id": "a", "text": "μένων"}, {"id": "b", "text": "μένουσα"}, {"id": "c", "text": "μένον"}], "answer": "b", "skills": ["verb.ptc.pres.act", "adj.agree"], "explain": "Feminine singular with ἡ μήτηρ: μένουσα."},
+        {"type": "cloze-choice", "prompt": "ὁ Ἀρίστων παύεται ___.", "options": [{"id": "a", "text": "πωλῶν"}, {"id": "b", "text": "πωλεῖν"}, {"id": "c", "text": "πωλεῖ"}], "answer": "a", "skills": ["verb.ptc.supplementary"], "explain": "παύομαι + participle: παύεται πωλῶν."},
+        {"type": "cloze-choice", "prompt": "ἆρα ___ τοῖς παισὶν ἐν τῷ λιμένι παίζειν;", "options": [{"id": "a", "text": "ἔξεστι"}, {"id": "b", "text": "δεῖ"}], "answer": "a", "skills": ["verb.impersonal", "syntax.dat.uses"], "explain": "The dative τοῖς παισίν goes with ἔξεστι; δεῖ would take the accusative."},
+        {"type": "cloze-choice", "prompt": "___ ὁ Λύσις ἐν τῷ ἄστει μένει. (for three days)", "options": [{"id": "a", "text": "τρεῖς ἡμέρας"}, {"id": "b", "text": "τρισὶν ἡμέραις"}, {"id": "c", "text": "τριῶν ἡμερῶν"}], "answer": "a", "skills": ["syntax.acc.extent", "num.cardinal"], "explain": "How long: accusative of extent, τρεῖς ἡμέρας."},
+        {"type": "cloze-choice", "prompt": "ναύτης ___ ἐν τῷ λιμένι λέγει.", "options": [{"id": "a", "text": "τίς"}, {"id": "b", "text": "τις"}], "answer": "b", "skills": ["pron.indefinite", "syntax.enclitic"], "explain": "'A sailor': enclitic τις."},
+        {"type": "transform", "prompt": "Make one sentence with a participle: ὁ Λάβρος ἕπεται καὶ τὸν ἰχθὺν ὁρᾷ. → ὁ Λάβρος … τὸν ἰχθὺν ὁρᾷ.", "template": "ὁ Λάβρος ___ τὸν ἰχθὺν ὁρᾷ.", "gaps": [{"answers": ["ἑπόμενος"]}], "skills": ["verb.ptc.pres.mp", "verb.ptc.use"], "explain": "ὁ Λάβρος ἑπόμενος τὸν ἰχθὺν ὁρᾷ."},
+        {"type": "reorder", "prompt": "Put the words in order: 'The soldiers on the walls guard the road.'", "tokens": ["οἱ", "στρατιῶται", "οἱ", "ἐπὶ", "τῶν", "τειχῶν", "τὴν", "ὁδὸν", "φυλάττουσιν"], "answers": ["οἱ στρατιῶται οἱ ἐπὶ τῶν τειχῶν τὴν ὁδὸν φυλάττουσιν", "οἱ στρατιῶται οἱ ἐπὶ τῶν τειχῶν φυλάττουσιν τὴν ὁδὸν", "τὴν ὁδὸν φυλάττουσιν οἱ στρατιῶται οἱ ἐπὶ τῶν τειχῶν", "τὴν ὁδὸν οἱ στρατιῶται οἱ ἐπὶ τῶν τειχῶν φυλάττουσιν"], "skills": ["syntax.word-order", "adj.attributive"], "explain": "οἱ στρατιῶται οἱ ἐπὶ τῶν τειχῶν τὴν ὁδὸν φυλάττουσιν."},
+        {"type": "compose-grc", "prompt": "Write in Greek: 'The boys must learn the letters.'", "gaps": [{"answers": ["δεῖ τοὺς παῖδας τὰ γράμματα μανθάνειν", "δεῖ τοὺς παῖδας γράμματα μανθάνειν", "τοὺς παῖδας δεῖ τὰ γράμματα μανθάνειν", "δεῖ τοὺς παῖδας μανθάνειν τὰ γράμματα", "δεῖ τὰ γράμματα τοὺς παῖδας μανθάνειν"]}], "skills": ["vocab.production", "verb.impersonal", "syntax.infinitive"], "explain": "δεῖ τοὺς παῖδας τὰ γράμματα μανθάνειν."}
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Ἀνάγνωσις · Reading",
+      "passage_title": "ὁ Δημόκριτος ἐν τῷ Πειραιεῖ",
+      "passage": "ὁ Δημόκριτος, ὁ γεωργός, εἰς τὸν Πειραιᾶ βαίνει· ἄρτους γὰρ πωλεῖν βούλεται. ὁ δὲ υἱὸς αὐτοῦ ἕπεται· ὁ παῖς τὰς ναῦς ὁρᾶν βούλεται. διὰ τῶν μακρῶν τειχῶν βαίνουσιν· οἱ στρατιῶται οἱ ἐπὶ τῶν τειχῶν ὄντες τὴν ὁδὸν φυλάττουσιν. ἐν τῷ ἐμπορίῳ πολλοὶ ἔμποροι πωλοῦσι καὶ ὠνοῦνται· πολλοὶ τῶν ἐμπόρων ξένοι εἰσίν. ὁ Δημόκριτος πάντας τοὺς ἄρτους δύο ὀβολῶν πωλεῖ· ἔπειτα παύεται πωλῶν καὶ λέγει· «νῦν, ὦ παῖ, ἔξεστί σοι τὰς ναῦς ὁρᾶν.» πολλαὶ τριήρεις ἐν τῷ λιμένι εἰσίν· ἐν πάσῃ τριήρει πολλοὶ ἐρέται εἰσίν. «πόσαι νῆές εἰσιν;» λέγει ὁ πατήρ. ὁ δὲ παῖς· «δέκα, ὦ πάτερ.» ἡ νὺξ ἔρχεται· δεῖ οὖν αὐτοὺς οἴκαδε βαίνειν. τῇ δὲ ἄλλῃ ἡμέρᾳ ὁ παῖς εἰς διδασκάλου βαίνει· δεῖ γὰρ τοὺς παῖδας γράμματα μανθάνειν.",
+      "items": [
+        {"type": "true-false-grc", "prompt": "ὁ Δημόκριτος ὑδρίας πωλεῖ.", "answer": "false", "skills": ["read.comprehension"], "explain": "ἄρτους πωλεῖ· γεωργὸς γάρ ἐστιν."},
+        {"type": "true-false-grc", "prompt": "οἱ στρατιῶται τὴν ὁδὸν φυλάττουσιν.", "answer": "true", "skills": ["read.comprehension", "verb.ptc.use"], "explain": "οἱ στρατιῶται οἱ ἐπὶ τῶν τειχῶν ὄντες τὴν ὁδὸν φυλάττουσιν."},
+        {"type": "true-false-grc", "prompt": "δέκα νῆες ἐν τῷ λιμένι εἰσίν.", "answer": "true", "skills": ["read.comprehension", "num.cardinal"], "explain": "«πόσαι νῆές εἰσιν;» — «δέκα.»"},
+        {"type": "answer-grc", "prompt": "τίς τῷ Δημοκρίτῳ ἕπεται;", "options": [{"id": "a", "text": "ὁ υἱός."}, {"id": "b", "text": "ὁ κύων."}, {"id": "c", "text": "ὁ δοῦλος."}], "answer": "a", "skills": ["read.comprehension", "syntax.dat.uses"], "explain": "ὁ δὲ υἱὸς αὐτοῦ ἕπεται."},
+        {"type": "answer-grc", "prompt": "πόσου ὁ Δημόκριτος τοὺς ἄρτους πωλεῖ;", "options": [{"id": "a", "text": "μιᾶς δραχμῆς."}, {"id": "b", "text": "δύο ὀβολῶν."}, {"id": "c", "text": "πέντε ὀβολῶν."}], "answer": "b", "skills": ["read.comprehension", "syntax.gen.uses"], "explain": "πάντας τοὺς ἄρτους δύο ὀβολῶν πωλεῖ."},
+        {"type": "translate-en", "prompt": "Translate: οἱ στρατιῶται οἱ ἐπὶ τῶν τειχῶν ὄντες τὴν ὁδὸν φυλάττουσιν.", "model": "The soldiers who are on the walls guard the road.", "skills": ["read.comprehension", "verb.ptc.use"], "explain": "Article + participle (οἱ … ὄντες): 'the ones who are …'."},
+        {"type": "translate-en", "prompt": "Translate: ἡ νὺξ ἔρχεται· δεῖ οὖν αὐτοὺς οἴκαδε βαίνειν.", "model": "Night is coming; so they must go home.", "skills": ["read.comprehension", "verb.impersonal", "adv.place"], "explain": "δεῖ + accusative (αὐτούς) + infinitive; οἴκαδε 'homewards'."}
+      ]
+    }
+  ]
+}

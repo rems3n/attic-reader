@@ -1,60 +1,5 @@
 [
  {
-  "lemma": "δραχμή",
-  "headword": "δραχμή, δραχμῆς, ἡ",
-  "definition": "drachma (a silver coin worth six obols; a day's pay for a skilled worker)",
-  "short": "drachma",
-  "kind": "noun",
-  "subclass": "noun-1",
-  "pos": "noun: 1st declension -η",
-  "morph": {"genitive": "δραχμῆς", "gender": "f", "article": "ἡ"},
-  "topics": ["city-life"],
-  "cognates": {"derivatives": ["drachma", "dram"]}
- },
- {
-  "lemma": "ὀβολός",
-  "headword": "ὀβολός, ὀβολοῦ, ὁ",
-  "definition": "obol (a small silver coin, one sixth of a drachma)",
-  "short": "obol",
-  "kind": "noun",
-  "subclass": "noun-2",
-  "pos": "noun: 2nd declension",
-  "morph": {"genitive": "ὀβολοῦ", "gender": "m", "article": "ὁ"},
-  "topics": ["city-life"],
-  "cognates": {"derivatives": ["obol"]}
- },
- {
-  "lemma": "πωλέω",
-  "headword": "πωλέω, πωλήσω, ἐπώλησα, πεπώληκα, πεπώλημαι, ἐπωλήθην",
-  "definition": "sell, offer for sale",
-  "short": "sell",
-  "kind": "verb",
-  "subclass": "verb-contract",
-  "pos": "verb: -έω",
-  "morph": {"parts": {"present": ["πωλέω"], "future": ["πωλήσω"], "aorist": ["ἐπώλησα"], "perfect": ["πεπώληκα"], "perfect-mp": ["πεπώλημαι"], "aorist-passive": ["ἐπωλήθην"]}, "extra": {}, "raw": ["πωλέω", "πωλήσω", "ἐπώλησα"], "verb": {}},
-  "topics": ["city-life"],
-  "cognates": {"derivatives": ["monopoly", "bibliopole"]}
- },
- {
-  "lemma": "ὠνέομαι",
-  "headword": "ὠνέομαι, ὠνήσομαι, ἐπριάμην, ἐώνημαι",
-  "definition": "buy (the aorist is supplied by πρίαμαι: ἐπριάμην)",
-  "short": "buy",
-  "kind": "verb",
-  "subclass": "verb-deponent",
-  "pos": "verb: deponent -έομαι",
-  "morph": {"parts": {"present": ["ὠνέομαι"], "future": ["ὠνήσομαι"], "aorist": ["ἐπριάμην"], "perfect-mp": ["ἐώνημαι"]}, "extra": {}, "raw": ["ὠνέομαι", "ὠνήσομαι", "ἐπριάμην", "ἐώνημαι"], "verb": {"imperfect_stem": "ἐων", "tables": [
-   {"tense": "aorist", "voice": "middle", "mood": "indicative", "forms": "ἐπριάμην ἐπρίω ἐπρίατο ἐπριάμεθα ἐπρίασθε ἐπρίαντο", "note": "Suppletive aorist from πρίαμαι."},
-   {"tense": "aorist", "voice": "middle", "mood": "imperative", "forms": "- πρίω πριάσθω - πρίασθε πριάσθων"},
-   {"tense": "aorist", "voice": "middle", "mood": "infinitive", "forms": "πρίασθαι"},
-   {"tense": "aorist", "voice": "middle", "mood": "participle", "forms": "πριάμενος πριαμένη πριάμενον πριαμένου"},
-   {"tense": "aorist", "voice": "middle", "mood": "subjunctive", "forms": "πρίωμαι πρίῃ πρίηται πριώμεθα πρίησθε πρίωνται"},
-   {"tense": "aorist", "voice": "middle", "mood": "optative", "forms": "πριαίμην πρίαιο πρίαιτο πριαίμεθα πρίαισθε πρίαιντο"}
-  ]}},
-  "topics": ["city-life"],
-  "cognates": {}
- },
- {
   "lemma": "πόσος",
   "headword": "πόσος, -η, -ον",
   "definition": "how much? how many? (πόσου; for how much? = what does it cost?)",
@@ -65,18 +10,6 @@
   "morph": {"terminations": 3, "forms": ["πόσος", "πόση", "πόσον"], "feminine": "πόση", "neuter": "πόσον"},
   "topics": ["core"],
   "cognates": {}
- },
- {
-  "lemma": "κύλιξ",
-  "headword": "κύλιξ, κύλικος, ἡ",
-  "definition": "drinking-cup, wine cup (the shallow two-handled cup of the symposium)",
-  "short": "cup",
-  "kind": "noun",
-  "subclass": "noun-3-cons",
-  "pos": "noun: 3rd declension",
-  "morph": {"genitive": "κύλικος", "gender": "f", "article": "ἡ"},
-  "topics": ["city-life"],
-  "cognates": {"derivatives": ["kylix"], "cognates": ["calyx", "chalice (Latin calix)"]}
  },
  {
   "lemma": "μείζων",
@@ -91,18 +24,6 @@
   "cognates": {}
  },
  {
-  "lemma": "ἔμπορος",
-  "headword": "ἔμπορος, ἐμπόρου, ὁ",
-  "definition": "merchant, trader (one who travels by sea to trade)",
-  "short": "merchant",
-  "kind": "noun",
-  "subclass": "noun-2",
-  "pos": "noun: 2nd declension",
-  "morph": {"genitive": "ἐμπόρου", "gender": "m", "article": "ὁ"},
-  "topics": ["city-life", "history"],
-  "cognates": {"derivatives": ["emporium"]}
- },
- {
   "lemma": "πλοῖον",
   "headword": "πλοῖον, πλοίου, τό",
   "definition": "boat, ship, vessel (esp. a merchant ship)",
@@ -112,30 +33,6 @@
   "pos": "noun: 2nd declension neuter",
   "morph": {"genitive": "πλοίου", "gender": "n", "article": "τό"},
   "topics": ["city-life", "history"],
-  "cognates": {}
- },
- {
-  "lemma": "πόθεν",
-  "headword": "πόθεν",
-  "definition": "from where? whence?",
-  "short": "from where?",
-  "kind": "adverb",
-  "subclass": "adverb",
-  "pos": "adverb (interrogative)",
-  "morph": {"forms": ["πόθεν"]},
-  "topics": ["core"],
-  "cognates": {}
- },
- {
-  "lemma": "ποῖ",
-  "headword": "ποῖ",
-  "definition": "to where? whither?",
-  "short": "to where?",
-  "kind": "adverb",
-  "subclass": "adverb",
-  "pos": "adverb (interrogative)",
-  "morph": {"forms": ["ποῖ"]},
-  "topics": ["core"],
   "cognates": {}
  },
  {
@@ -243,18 +140,6 @@
   "cognates": {"derivatives": ["plastic", "plasma", "plaster"]}
  },
  {
-  "lemma": "κλέπτω",
-  "headword": "κλέπτω, κλέψω, ἔκλεψα, κέκλοφα, κέκλεμμαι, ἐκλάπην",
-  "definition": "steal",
-  "short": "steal",
-  "kind": "verb",
-  "subclass": "verb-omega",
-  "pos": "verb: -ω",
-  "morph": {"parts": {"present": ["κλέπτω"], "future": ["κλέψω"], "aorist": ["ἔκλεψα"], "perfect": ["κέκλοφα"], "perfect-mp": ["κέκλεμμαι"], "aorist-passive": ["ἐκλάπην"]}, "extra": {}, "raw": ["κλέπτω", "κλέψω", "ἔκλεψα"], "verb": {}},
-  "topics": ["mythology", "city-life"],
-  "cognates": {"derivatives": ["kleptomania"]}
- },
- {
   "lemma": "κρύπτω",
   "headword": "κρύπτω, κρύψω, ἔκρυψα, κέκρυφα, κέκρυμμαι, ἐκρύφθην",
   "definition": "hide, conceal",
@@ -265,18 +150,6 @@
   "morph": {"parts": {"present": ["κρύπτω"], "future": ["κρύψω"], "aorist": ["ἔκρυψα"], "perfect": ["κέκρυφα"], "perfect-mp": ["κέκρυμμαι"], "aorist-passive": ["ἐκρύφθην"]}, "extra": {}, "raw": ["κρύπτω", "κρύψω", "ἔκρυψα"], "verb": {}},
   "topics": ["mythology"],
   "cognates": {"derivatives": ["crypt", "cryptic", "encryption"]}
- },
- {
-  "lemma": "ἀετός",
-  "headword": "ἀετός, ἀετοῦ, ὁ",
-  "definition": "eagle (the bird of Zeus)",
-  "short": "eagle",
-  "kind": "noun",
-  "subclass": "noun-2",
-  "pos": "noun: 2nd declension",
-  "morph": {"genitive": "ἀετοῦ", "gender": "m", "article": "ὁ"},
-  "topics": ["mythology"],
-  "cognates": {}
  },
  {
   "lemma": "ἧπαρ",

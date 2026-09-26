@@ -50,6 +50,17 @@ def _validate_manifest() -> list[str]:
 
 def _validate_images() -> list[str]:
     out = []
+    seen: dict[str, str] = {}
+    for path in sorted((data.DATA_DIR / "images").glob("manifest*.json")):
+        try:
+            ids = [img["id"] for img in data._read(path)["images"]]
+        except (ValueError, KeyError, TypeError) as exc:
+            out.append(f"{path.name}: cannot load ({exc})")
+            continue
+        for img_id in ids:
+            if img_id in seen:
+                out.append(f"image {img_id}: defined in both {seen[img_id]} and {path.name}")
+            seen[img_id] = path.name
     for img_id, img in data.load_images().items():
         for key in ("alt_grc", "alt_en", "credit", "license"):
             if not img.get(key):
@@ -70,6 +81,18 @@ def _validate_extras() -> list[str]:
     from .. import vocab
 
     core = {e["lemma"] for e in vocab.load_entries()}
+    seen: dict[str, str] = {}
+    for path in sorted(data.DATA_DIR.glob("vocab_extra*.json")):
+        try:
+            lemmas = [raw["lemma"] for raw in data._read(path)]
+        except (ValueError, KeyError, TypeError) as exc:
+            out.append(f"{path.name}: cannot load ({exc})")
+            continue
+        for lemma in lemmas:
+            key = normalize_answer(lemma, True)
+            if key in seen:
+                out.append(f"vocab_extra: {lemma} is defined in both {seen[key]} and {path.name} (keep the unit that teaches it first)")
+            seen[key] = path.name
     for e in data.extra_entries():
         if e["lemma"] in core:
             out.append(f"vocab_extra: {e['lemma']} duplicates a DCC entry")
