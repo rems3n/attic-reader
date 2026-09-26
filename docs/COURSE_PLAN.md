@@ -241,11 +241,19 @@ Athenaze. Each unit also carries a Word Study (English derivatives, from
 
 ### 2.5 Stage 2 — Γέφυρα (Units 7–12, 24 lessons)
 
+Chronology (decided 2026-09-26 while starting Phase C): Unit 7's festival
+is the **City Dionysia of spring 431** (Euripides' *Medea*), not the
+Panathenaea, because Stage 1 ends in spring 431 and the Panathenaea fall in
+midsummer, after the evacuation; the Panathenaea now take place inside the
+crowded walls in 9.3. Unit 12 is an epilogue (c. 370) so that Xenophon and
+Plato can be read without anachronism. Originals per lesson and the story
+beats are in `docs/AUTHORING.md` (Stage 2).
+
 | Unit | Lesson | Story beat | Grammar | Text tie-in |
 |---|---|---|---|---|
-| **7 Τὰ Παναθήναια** | 7.1 | ἡ πομπή | future (incl. εἰμί, liquid futures); εἶμι; future participle of purpose | |
+| **7 Τὰ Διονύσια** | 7.1 | ἡ πομπή | future (incl. εἰμί, liquid futures); εἶμι; future participle of purpose | |
 | | 7.2 | ὁ ἀγών | -μι verbs I: δίδωμι, τίθημι; uses of αὐτός reviewed; ταχύς-type adjectives | `didomi`, `tithemi`, `tachys` |
-| | 7.3 | οἱ ῥαψῳδοί | genitive absolute; attributive vs predicate position; further uses of the article | adapted Apollodorus (Prometheus) |
+| | 7.3 | ἡ τραγῳδία (*Medea*) | genitive absolute; attributive vs predicate position; further uses of the article | adapted Apollodorus 1.9.28 (Medea) |
 | | 7.4 | ἡ νύξ | ἵστημι, ἀφίσταμαι, καθίστημι; supplementary participles (λανθάνω, τυγχάνω, φαίνομαι, φθάνω) | `histemi` |
 | **8 Ἡ ἐκκλησία** | 8.1 | ὁ Δημόκριτος λέγει | subjunctive: hortatory, deliberative, prohibitive, purpose (ἵνα/ὅπως/ὡς), ἐάν | |
 | | 8.2 | περὶ τοῦ πολέμου | fear clauses; indefinite clauses with ἄν (ὅστις ἄν, ἐπειδάν, ἕως ἄν) | adapted Thucydides 1.1 (exists in library) |

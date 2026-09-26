@@ -252,6 +252,39 @@
       "Ἐλευσῖνος",
       "Ἐλευσῖνι",
       "Ἐλευσῖνα"
+    ],
+    "Διόνυσος": [
+      "Διονύσου",
+      "Διονύσῳ",
+      "Διόνυσον",
+      "Διόνυσε"
+    ],
+    "Διονύσια": [
+      "Διονυσίων",
+      "Διονυσίοις"
+    ],
+    "Εὐριπίδης": [
+      "Εὐριπίδου",
+      "Εὐριπίδῃ",
+      "Εὐριπίδην",
+      "Εὐριπίδη"
+    ],
+    "Μήδεια": [
+      "Μηδείας",
+      "Μηδείᾳ",
+      "Μήδειαν",
+      "Μήδεια"
+    ],
+    "Ἰάσων": [
+      "Ἰάσονος",
+      "Ἰάσονι",
+      "Ἰάσονα",
+      "Ἰᾶσον"
+    ],
+    "Κόρινθος": [
+      "Κορίνθου",
+      "Κορίνθῳ",
+      "Κόρινθον"
     ]
   },
   "stages": [
@@ -366,13 +399,13 @@
       "id": "2",
       "title_grc": "Γέφυρα",
       "title_en": "The bridge",
-      "blurb": "The Panathenaea, the Assembly, the war. Six more units; real Thucydides, Plato and Xenophon by the end.",
+      "blurb": "The Dionysia, the Assembly, the war. Six more units; real Thucydides, Plato and Xenophon by the end.",
       "units": [
         {
           "id": "7",
           "n": 7,
-          "title_grc": "Τὰ Παναθήναια",
-          "title_en": "The Panathenaea",
+          "title_grc": "Τὰ Διονύσια",
+          "title_en": "The Dionysia",
           "lessons": [
             "7.1",
             "7.2",

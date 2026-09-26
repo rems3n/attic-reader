@@ -125,6 +125,21 @@
     "3.1.4",
     "3.1.5"
    ]
+  },
+  {
+   "id": "apollod-1.9",
+   "category": "mythology",
+   "level": "intermediate",
+   "title": "Medea in Corinth",
+   "author": "Apollodorus",
+   "work": "Library",
+   "ref": "1.9.28",
+   "blurb": "Jason leaves Medea for the princess of Corinth; her revenge.",
+   "file": "tlg0548/tlg001/tlg0548.tlg001.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0548.tlg001.perseus-grc2",
+   "refs": [
+    "1.9.28"
+   ]
   }
  ]
 }

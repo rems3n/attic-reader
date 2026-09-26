@@ -218,3 +218,135 @@ file is `gate-1.json` and the passage is an unseen adapted myth of ~120 words.
   lessons unglossed.
 - Culture box facts are correct and dated (no anachronism: no coins in
   drachmas without saying so, no Parthenon "temple of Athena" confusion).
+
+---
+
+## Stage 2 (Units 7–12): what changes
+
+Everything above still holds. Stage 2 adds real texts, bigger grammar and a
+war. Read this section in full before writing a Stage 2 lesson, and read
+one Unit 5 or 6 lesson as the model for length and exercise mix.
+
+### Timeline (keep it historical)
+
+| Unit | When | Frame |
+|---|---|---|
+| 7 Τὰ Διονύσια | spring 431 (Elaphebolion) | the City Dionysia; Euripides' *Medea* is premiered (and places third) |
+| 8 Ἡ ἐκκλησία | late spring 431, after Thebes attacks Plataea | the Assembly on the Pnyx debates the war; Pericles advises bringing everything into the city |
+| 9 Ὁ πόλεμος | summer–winter 431 | evacuation of Attica, the Spartan invasion (Archidamos), Acharnae ravaged in sight of the walls, the Panathenaea held inside the crowded city, Ariston marches with the hoplites into the Megarid (autumn), the public funeral and Pericles' speech (winter) |
+| 10 Ἡ ἀγορὰ τῶν λόγων | 430 | Socrates (about 39) talks in the Agora; Lysis questions him; the plague arrives in summer 430 and Kleinias dies (old age and fever; handle gently) |
+| 11 Τὸ δικαστήριον | 429 | Demokritos is sued by a neighbour over a boundary stone (ὅρος) and a damaged olive tree; the courts, witnesses, speeches, the jurors' ballots |
+| 12 Ὁ ἀναγνώστης | epilogue, c. 370 | Lysis, now old, reads books aloud to his grandchildren: Xenophon and Plato, who wrote long after 430. Everything is original Greek with running glosses |
+
+Anachronism rule: an original text written after the story's date (Plato,
+Xenophon, Lysias) is presented as the real text, not as something the
+characters read in 430. Say so in `original.note` ("Plato wrote this about
+thirty years later, …").
+
+### Cast additions (course-wide names; do not add them to `names`)
+
+| Name | Who |
+|---|---|
+| ἡ Φιλίππη | Chrysis's cousin, from Acharnae; arrives as a refugee in 9.2 |
+| ὁ Εὔδημος | her husband, a charcoal-burner (the Acharnians of Aristophanes); angry, wants to fight |
+| ὁ Μικίων | their son, 11, Lysis's friend and rival |
+| ὁ Περικλῆς | the general; speaks in 8.4 and 9.4 |
+| ὁ Ἀρχίδαμος | the Spartan king who leads the invasion |
+| ὁ Θουκυδίδης | a young Athenian (about 30) at the Assembly in 8.2, who says he will write the war down |
+| ὁ Σωκράτης | in the Agora in Unit 10 |
+| ὁ Εὐριπίδης, ἡ Μήδεια, ὁ Ἰάσων | Unit 7 |
+
+Places now allowed: Ἀττική, Ἀχαρναί, Ἀχαρνεύς (-έως, pl. -ῆς), Πνύξ,
+Σπάρτη, Λακεδαιμόνιος, Πελοποννήσιος, Ἀθηναῖος, Ἐλευσίς, Κόρινθος,
+Παναθήναια, Διονύσια, Διόνυσος (see `course.json` for the forms).
+
+### Unit arcs and grammar
+
+Grammar per lesson is in `docs/COURSE_PLAN.md` §2.5 (Unit 7's festival is
+now the Dionysia; its grammar is unchanged).
+
+- **Unit 7 Τὰ Διονύσια** — 7.1 ἡ πομπή: the procession brings Dionysus's statue to the theatre; everyone says what they *will* see (future; εἶμι; future participle of purpose). 7.2 ὁ ἀγών: choruses, the choregos, the prize tripod; who gives and puts what where (δίδωμι, τίθημι; ταχύς). 7.3 ἡ τραγῳδία: the family watches *Medea*; Kleinias tells the story (genitive absolute, attributive/predicate position; **original `apollod-1.9`**, adapted in paragraph 3). 7.4 ἡ νύξ: walking home at night, arguing about the verdict (Euripides third); Lysis *happens to* see, the dog *escapes notice* (ἵστημι and compounds; supplementary participles).
+- **Unit 8 Ἡ ἐκκλησία** — 8.1 on the Pnyx; Demokritos: "let us fight!" (subjunctive: hortatory, deliberative, prohibitive; purpose; ἐάν). 8.2 news of Plataea; fear of war; the young Thucydides (fear clauses; indefinite clauses with ἄν; **original `thuc-1.1`**). 8.3 the vote by show of hands; Lysis asks what was decided (δείκνυμι; indirect statement with ὅτι/ὡς; indirect questions). 8.4 Pericles speaks (present/imperfect passive; prefixes; **original `thuc-2.13`**).
+- **Unit 9 Ὁ πόλεμος** — 9.1 from the walls they see the Spartans burning Acharnae (indirect statement with infinitive and participle; φημί; relative attraction; **original `thuc-2.21`**). 9.2 the cousins arrive with carts and animals (aorist and future passive; ὅπως + future; **original `thuc-2.14`**). 9.3 inside the walls: families camp in shrines and towers; the Panathenaea goes on; Chrysis and Elpis bring their woven cloth (optative: wishes, secondary sequence; **original `thuc-2.16`**). 9.4 Ariston marches as a hoplite and comes home; the public funeral (optative in indirect speech; cases in full; correlatives; **original `thuc-2.35`**).
+- **Unit 10 Ἡ ἀγορὰ τῶν λόγων** — 10.1 Socrates in the Agora (perfect and pluperfect middle/passive; πρίν; articular infinitive; **original `plato-apol-17a`**). 10.2 Lysis questions Socrates about knowing (perfect active; οἶδα, ἕστηκα; ὡς). 10.3 what is virtue? (potential optative; ὥστε; accusative absolute; **original `xen-mem-1.1`**). 10.4 the plague; Kleinias's last story and death (conditions, all six types; **original `thuc-2.47`**).
+- **Unit 11 Τὸ δικαστήριον** — 11.1 the summons (third-person imperatives; verbal adjectives; **original `lysias-1.6`**, a real defence speech's opening). 11.2 witnesses; what slaves may and may not do in court (say it honestly in the culture box) (negatives; hindering). 11.3 Demokritos's speech (crasis, elision, particles). 11.4 the kleroterion, the ballots, the verdict (dual for recognition; Attic vs Ionic/Koine forms).
+- **Unit 12 Ὁ ἀναγνώστης** — 12.1 **`xen-anab-1.1`**, 12.2 **`xen-anab-4.7`**, 12.3 **`plato-crito-43a`**, each unadapted: the story *is* the original, one story sentence per original sentence (`orig: [n]`), with running glosses for every word not yet taught; paragraph 1 may carry a two-sentence frame (old Lysis with his grandchildren). 12.4 consolidation: a review lesson built from Stage 2's hardest constructions, with a short unadapted passage of your choice from the library. The unit's test is `gate-2.json` (see below).
+
+### Vocabulary allocation
+
+`backend/app/course_data/stage2_vocab.json` assigns the core-list words not
+yet taught to units (`python scripts/course_tools.py alloc 9`). Teach your
+unit's list across its four lessons (≤ 12 new per lesson; drop the least
+useful if it does not fit). A word allocated to an **earlier** unit may be
+used as if taught: put it in your lesson's `allow` with the value
+`"unit N"` (the authors of earlier units are writing at the same time);
+`course_tools.py prune-allow all` removes those entries once that unit
+lands. A word from a **later** unit, or not allocated at all, must be
+glossed or added as a course word. Course-only words go in your
+`vocab_extra-u<n>.json` as before.
+
+### Originals and alignment
+
+A lesson paired with a real text names it and aligns the adapted
+sentences to it:
+
+```json
+"original": {"text": "thuc-2.14", "note": "Thucydides 2.14, which this story adapts. He wrote it during the war."},
+"story": [ …, {"image": "…", "sentences": [
+  {"text": "οἱ Ἀθηναῖοι ἐκ τῶν ἀγρῶν εἰς τὴν πόλιν ἐκόμιζον τοὺς παῖδας καὶ τὰς γυναῖκας.", "orig": [0], "glosses": […]}
+]}]
+```
+
+- `orig` lists indices (0-based) of the original's sentences
+  (`python -c "from app.course import data; print(list(enumerate(data.load_text('thuc-2.14')['sentences'])))"`).
+- Adapt, do not translate: keep the author's words and order where the
+  learner can manage them; simplify syntax, cut, and gloss the rest.
+  Typically paragraph 3 (a character reads or repeats it) is the adapted
+  text; paragraphs 1–2 are the family story.
+- The reader shows the original under the story with the adapted
+  sentences beneath each original sentence. Texts available:
+  `course_data/texts/*.json` and `library_data/*.json`.
+
+### Larger stories, same rules
+
+- Stories 250–350 whitespace tokens (Unit 12: the original's length).
+- Participles are now generated in every case, number and gender
+  (`course_tools.py forms λύω | grep participle`), and comparatives and
+  superlatives in every form (`comp.gen.sg.f`, `sup.acc.pl.m`), so they no
+  longer need glosses once their verb or adjective is taught.
+- Exercises: same order and 25–32 items, plus per lesson at least 2 items
+  on this lesson's construction in context (e.g. `label` or `cloze-choice`
+  "which kind of condition?", "which use of the participle?").
+
+### Drill skills (for unit tests' `generate`)
+
+In addition to the Stage 1 list: `verb.{pres,impf,aor,fut,perf,plpf}.{act,mp,mid,pass}.{ind,imp,subj,opt}.<person>`,
+`verb.{pres,aor,fut,perf}.{act,mp,mid,pass}.inf`,
+`verb.ptc.<tense>.<voice>[.<case>][.<num>]` (any gender), `syntax.gen-abs`,
+`adj.comp[.<case>][.<num>]`, `adj.sup[…]`. Check each with
+`python -c "from app.course.drill import supported; print(supported('verb.ptc.aor.pass.gen'))"`.
+
+### Unit tests and Reading gate II
+
+Unit tests 7–11 follow the Stage 1 shape (scope = the unit's last lesson;
+vocab 8, forms 2 + `generate` 8–10, sentences 8, reading ~150 words unseen
+with 3 T/F, 2 answer-grc, 2 translate-en). **`gate-2.json`** (Unit 12's
+test, scope `12.4`, pass 0.8): vocab 10, forms 4 + `generate` 12 over
+Stage 2 skills, sentences 8, and a reading section whose passage is the
+unseen original Xenophon via `"passage_from": "xen-anab-3.1"` (no
+`passage` text; the loader fills it) with 5 answer-grc, 3 parse, 3
+translate-en. Nothing in that passage is glossed except proper names.
+
+### Diagrams
+
+Reference the shared Stage 2 diagrams in `images/manifest-diagrams.json`
+(`diagram-future`, `diagram-mi-verbs`, `diagram-gen-abs`, `diagram-position`,
+`diagram-supplementary`, `diagram-histemi`, `diagram-moods`,
+`diagram-purpose-fear`, `diagram-indirect`, `diagram-voice`,
+`diagram-sequence`, `diagram-perfect`, `diagram-conditions`,
+`diagram-participle-map`, `diagram-result`, `diagram-negatives`,
+`diagram-crasis-elision`, `diagram-dual`, `diagram-war-map`,
+`culture-pnyx-plan`, `culture-kleroterion`, `diagram-reading-strategy`) in
+`grammar.diagram` or as paragraph/culture images. Do not create new
+diagram records; photographs and story panels go in your unit manifest as
+before.
