@@ -56,23 +56,30 @@ def routes() -> list[tuple[str, str]]:
     test = next((u["test"] for s in course["stages"] for u in s["units"] if u.get("test")), "unit-1")
     word = next((i["id"] for i in vocab["items"] if i["lemma"] == "λόγος"), vocab["items"][0]["id"])
     out = [
-        ("reader", "/"),
-        ("course", "/course"),
-        ("lesson", "/course/lesson/1.1"),
-        ("lesson-read", "/course/lesson/1.3?step=2"),
-        ("lesson-exercises", "/course/lesson/1.1?step=6"),
-        ("test", f"/course/test/{test}"),
-        ("placement", "/course/placement?seed=1"),
-        ("review", "/course/review"),
-        ("credits", "/course/credits"),
-        ("skills", "/course/skills"),
-        ("vocab", "/vocab"),
-        ("vocab-word", f"/vocab/{word}"),
+        ("home", "/"),
+        ("start", "/start"),
+        ("help", "/help"),
+        ("settings", "/settings"),
+        ("practice", "/practice"),
+        ("quick", "/practice/quick"),
+        ("add-text", "/library/new"),
+        ("reader", "/library"),
+        ("course", "/learn"),
+        ("lesson", "/learn/lesson/1.1"),
+        ("lesson-read", "/learn/lesson/1.3?step=2"),
+        ("lesson-exercises", "/learn/lesson/1.1?step=6"),
+        ("test", f"/learn/test/{test}"),
+        ("placement", "/learn/placement?seed=1"),
+        ("review", "/practice/review"),
+        ("credits", "/learn/credits"),
+        ("skills", "/progress"),
+        ("vocab", "/words"),
+        ("vocab-word", f"/words/{word}"),
         ("grammar", "/grammar"),
         ("grammar-item", f"/grammar/{[i for s in grammar['sections'] for i in s['items']][1]['id']}"),
     ]
     if track:
-        out.insert(6, ("track", f"/course/track/{track}"))
+        out.insert(6, ("track", f"/learn/track/{track}"))
     return out
 
 
@@ -92,7 +99,7 @@ def check_nav(page: Page, name: str, vp: str) -> None:
     # a focused text field hides the phone tab bar on purpose (on-screen keyboard)
     page.evaluate("document.activeElement && document.activeElement.blur()")
     page.wait_for_timeout(100)
-    nav = rect(page, "nav[aria-label='Main'] .navTabs, nav[aria-label='Main'], nav.nav")
+    nav = rect(page, "nav[aria-label='Main'], nav[aria-label='Main mobile']")
     if not nav:
         problem(f"{vp} {name}: primary nav not visible")
         return
@@ -191,7 +198,7 @@ def prepare_reader(page: Page) -> None:
 
 def keyboard_exercise(page: Page) -> None:
     """Arrow keys move between choice options, Space picks one, Enter checks."""
-    page.goto(f"{FRONT}/course/lesson/0.1?step=0")
+    page.goto(f"{FRONT}/learn/lesson/0.1?step=0")
     page.wait_for_selector(".stepDot", timeout=15000)
     dots = page.locator(".stepDot")
     for i in range(dots.count()):
@@ -230,7 +237,7 @@ def main() -> int:
             page = ctx.new_page()
             page.on("pageerror", lambda e: problem(f"page error: {e}"))
             # a little progress so the course home shows the review card, a done lesson, a streak
-            page.goto(f"{FRONT}/course")
+            page.goto(f"{FRONT}/learn")
             page.evaluate(
                 """(now) => { const k = 'attic.srs.v1'; const p = JSON.parse(localStorage.getItem(k) || 'null');
                      if (p && p.course) { p.course.lessons['0.1'] = {status: 'done', best: 1, attempts: 1, firstDone: now, lastDone: now, updated: now}; localStorage.setItem(k, JSON.stringify(p)); } }""",

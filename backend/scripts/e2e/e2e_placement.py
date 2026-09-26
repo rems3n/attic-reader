@@ -72,9 +72,9 @@ def main() -> int:
         ctx = browser.new_context(viewport={"width": 390, "height": 844}, device_scale_factor=2)
         page = ctx.new_page()
         page.on("console", lambda m: print("  [console]", m.type, m.text) if m.type == "error" else None)
-        page.goto(f"{FRONT}/course")
+        page.goto(f"{FRONT}/learn")
         expect(page.locator(".placementHint")).to_contain_text("placement test")
-        page.goto(f"{FRONT}/course/placement?seed={SEED}")
+        page.goto(f"{FRONT}/learn/placement?seed={SEED}")
         expect(page.locator("h1")).to_contain_text("Ποῦ ἄρχομαι;")
         page.screenshot(path=f"{SHOTS}/p1-intro.png", full_page=True)
         page.get_by_role("button", name="Start").click()
@@ -94,7 +94,7 @@ def main() -> int:
         assert course["placement"]["unit"] == last["unit"] + 1, course["placement"]
         for lid in last["lessons"]:
             assert course["lessons"][lid]["status"] == "skipped", (lid, course["lessons"].get(lid))
-        page.goto(f"{FRONT}/course")
+        page.goto(f"{FRONT}/learn")
         expect(page.locator(".placementHint")).to_have_count(0)
         if last["next_lesson"]:
             expect(page.locator(".continueCard")).to_contain_text(last["next_lesson"].replace(".", "·"))
@@ -106,7 +106,7 @@ def main() -> int:
         # ---- run 2: miss three in a row
         ctx = browser.new_context(viewport={"width": 390, "height": 844})
         page = ctx.new_page()
-        page.goto(f"{FRONT}/course/placement?seed={SEED}")
+        page.goto(f"{FRONT}/learn/placement?seed={SEED}")
         page.get_by_role("button", name="Start").click()
         b = blocks[0]
         for n, item in enumerate(b["items"]):
@@ -119,7 +119,7 @@ def main() -> int:
         assert stored["course"]["placement"]["unit"] == 0
         assert not any(v["status"] == "skipped" for v in stored["course"]["lessons"].values())
         page.get_by_role("button", name="Open Lesson 0·1").click()
-        expect(page).to_have_url(f"{FRONT}/course/lesson/0.1")
+        expect(page).to_have_url(f"{FRONT}/learn/lesson/0.1")
         page.screenshot(path=f"{SHOTS}/p4-beginner.png", full_page=True)
         ctx.close()
         browser.close()

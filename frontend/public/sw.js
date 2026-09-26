@@ -1,7 +1,7 @@
 /* Attic Reader service worker (hand-written, no build step).
  *
  * What works offline once it has been seen with signal:
- *   - page shells: /, /course, /vocab, /grammar precached on install (with
+ *   - page shells: Home, Learn, Library, Practice, Words, Grammar, Help precached on install (with
  *     the /_next/static chunks their HTML references); every other page the
  *     learner opens is cached on the way (network-first, cache fallback,
  *     /offline.html for pages never opened);
@@ -16,26 +16,27 @@
  * /api/course/check and every other POST. When the network is down those
  * get a JSON 503 whose `detail` the app shows as its error text.
  *
- * Bump VERSION to drop every cache on the next activation.
+ * Bump VERSION to refresh page shells. Audio, API, and image caches keep
+ * their independent version so a navigation update preserves downloads.
  */
 "use strict";
 
-const VERSION = "v1";
+const VERSION = "v2";
 const PREFIX = "attic-";
 const CACHES = {
   shell: `${PREFIX}shell-${VERSION}`,
   pages: `${PREFIX}pages-${VERSION}`,
   static: `${PREFIX}static-${VERSION}`,
-  api: `${PREFIX}api-${VERSION}`,
-  audio: `${PREFIX}audio-${VERSION}`,
-  stream: `${PREFIX}stream-${VERSION}`,
-  images: `${PREFIX}images-${VERSION}`,
+  api: `${PREFIX}api-v1`,
+  audio: `${PREFIX}audio-v1`,
+  stream: `${PREFIX}stream-v1`,
+  images: `${PREFIX}images-v1`,
 };
 const LIMITS = { pages: 80, static: 500, api: 400, audio: 400, stream: 40, images: 600 };
 const MAX_STREAM_CHARS = 16 * 1024 * 1024; // one very long pasted passage at most
 const NAV_TIMEOUT_MS = 5000; // flaky signal: fall back to the cached page after this
 
-const SHELL_PAGES = ["/", "/course", "/vocab", "/grammar"];
+const SHELL_PAGES = ["/", "/learn", "/library", "/practice", "/words", "/grammar", "/help"];
 const SHELL_FILES = [
   "/offline.html",
   "/manifest.webmanifest",

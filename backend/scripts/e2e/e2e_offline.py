@@ -5,13 +5,13 @@ fake_server.py, with CORS for the chosen frontend port), builds a copy of the
 frontend in production mode against it (the service worker only registers in
 production builds), starts `next start`, then with Chromium:
 
-1. opens /course/lesson/1.1, waits until the service worker controls the page
+1. opens /learn/lesson/1.1, waits until the service worker controls the page
    and the lesson prefetch has stored the story audio;
 2. goes to the Read step, plays the first sentence and taps a word;
 3. stops both servers and sets the browser context offline;
 4. reloads the lesson: story text, pictures, offline banner, the played
    sentence and word clip are all served by the service worker;
-5. opens /course (precached shell + cached course JSON), /vocab (shell, with
+5. opens /learn (precached shell + cached course JSON), /words (shell, with
    the offline message where the network is needed) and an unvisited lesson
    (offline fallback page listing what is saved).
 
@@ -214,7 +214,7 @@ def run(front: str, api_base: str, procs: dict[str, subprocess.Popen]) -> int:
         page.on("response", on_response)
 
         # ---- 1. online: open the lesson, let the worker take over and warm the caches
-        page.goto(f"{front}/course/lesson/1.1")
+        page.goto(f"{front}/learn/lesson/1.1")
         expect(page.locator(".lessonTitle")).to_have_text(lesson["title_grc"])
         page.wait_for_function("navigator.serviceWorker && navigator.serviceWorker.controller !== null", timeout=60000)
         print("service worker controls the page")
@@ -226,12 +226,12 @@ def run(front: str, api_base: str, procs: dict[str, subprocess.Popen]) -> int:
                 }
                 return false;
             };
-            return (await has("attic-pages-", "/course/lesson/1.1")) && (await has("attic-stream-", "__sw_stream")) && (await has("attic-api-", "/api/course/lesson/1.1")) && (await has("attic-api-", "/api/course/images"));
+            return (await has("attic-pages-", "/learn/lesson/1.1")) && (await has("attic-stream-", "__sw_stream")) && (await has("attic-api-", "/api/course/lesson/1.1")) && (await has("attic-api-", "/api/course/images"));
         }"""
         poll(page, has_all, 90, "lesson page, JSON and story audio cached")
         counts = {k: cache_count(page, f"attic-{k}-") for k in ("shell", "pages", "static", "api", "audio", "stream", "images")}
         print("prefetch done; cache entries:", counts)
-        assert counts["pages"] >= 5, counts  # /, /course, /vocab, /grammar + the lesson
+        assert counts["pages"] >= 5, counts  # /, /learn, /words, /grammar + the lesson
         assert counts["static"] > 5, counts
 
         # ---- 2. read step: play the first sentence, tap an unglossed word
@@ -273,21 +273,21 @@ def run(front: str, api_base: str, procs: dict[str, subprocess.Popen]) -> int:
         print(f"offline: lesson reloaded, sentence and word clips served by the worker ({len(stream)} stream, {len(speak)} speak)")
 
         # ---- 5a. course home from the precached shell + cached JSON
-        page.goto(f"{front}/course")
+        page.goto(f"{front}/learn")
         expect(page.locator("h1")).to_contain_text("Ἡ ὁδός σου", timeout=20000)
         expect(page.locator(".offlineBanner")).to_be_visible()
         page.screenshot(path=f"{SHOTS}/offline-03-course-offline.png", full_page=False)
-        print("offline: /course rendered")
+        print("offline: /learn rendered")
 
         # ---- 5b. vocab shell: renders, and says why the word list is missing
-        page.goto(f"{front}/vocab")
-        expect(page.locator(".nav")).to_be_visible(timeout=20000)
+        page.goto(f"{front}/words")
+        expect(page.locator(".shellTopbar")).to_be_visible(timeout=20000)
         expect(page.locator("main .error")).to_contain_text("You are offline", timeout=20000)
         page.screenshot(path=f"{SHOTS}/offline-04-vocab-offline.png", full_page=False)
-        print("offline: /vocab shell with offline message")
+        print("offline: /words shell with offline message")
 
         # ---- 5c. a page never opened: the fallback page, listing what is saved
-        page.goto(f"{front}/course/lesson/2.1")
+        page.goto(f"{front}/learn/lesson/2.1")
         expect(page.locator("h1")).to_have_text("You are offline", timeout=20000)
         expect(page.locator("#savedList")).to_contain_text("Lesson 1.1")
         page.screenshot(path=f"{SHOTS}/offline-05-fallback.png", full_page=False)
@@ -315,7 +315,7 @@ def main() -> int:
         print(f"fake API on {api_base}")
         dest = build_frontend(api_base)
         procs["front"] = start(["npx", "next", "start", "-p", str(front_port), "-H", "127.0.0.1"], dest, {**os.environ, "NEXT_TELEMETRY_DISABLED": "1"}, WORKDIR / "front.log")
-        wait_http(f"{front}/course")
+        wait_http(f"{front}/learn")
         print(f"frontend on {front}")
         rc = run(front, api_base, procs)
         print(f"screenshots in {SHOTS}")

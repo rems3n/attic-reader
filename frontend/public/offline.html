@@ -46,7 +46,7 @@
   <p class="muted">Reading a photo (OCR) and making new audio need a connection.</p>
   <div class="actions">
     <button class="primary" type="button" onclick="location.reload()">Try again</button>
-    <a class="button secondary" href="/course">Course</a>
+    <a class="button secondary" href="/learn">Learn</a>
   </div>
   <section class="card" id="saved" hidden>
     <h2>Saved on this device</h2>
@@ -58,7 +58,7 @@
   // straight to something that works offline.
   (async () => {
     if (!("caches" in window)) return;
-    const labels = { "/": "Read", "/course": "Course", "/vocab": "Vocabulary", "/grammar": "Grammar" };
+    const labels = { "/": "Home", "/library": "Library", "/practice": "Practice", "/learn": "Learn", "/words": "Words", "/grammar": "Grammar" };
     const seen = new Map();
     try {
       for (const name of await caches.keys()) {
@@ -70,8 +70,8 @@
           const path = u.pathname + u.search;
           if (seen.has(u.pathname)) continue;
           let label = labels[u.pathname];
-          const lesson = u.pathname.match(/^\/course\/lesson\/([^/]+)$/);
-          const word = u.pathname.match(/^\/vocab\/([^/]+)$/);
+          const lesson = u.pathname.match(/^\/learn\/lesson\/([^/]+)$/);
+          const word = u.pathname.match(/^\/words\/([^/]+)$/);
           const table = u.pathname.match(/^\/grammar\/([^/]+)$/);
           if (lesson) label = "Lesson " + decodeURIComponent(lesson[1]);
           else if (word) label = "Word · " + decodeURIComponent(word[1]);
@@ -83,7 +83,7 @@
       return;
     }
     if (!seen.size) return;
-    const order = (p) => (p.startsWith("/course/lesson/") ? 0 : p in labels ? 1 : 2);
+    const order = (p) => (p.startsWith("/learn/lesson/") ? 0 : p in labels ? 1 : 2);
     const list = document.getElementById("savedList");
     [...seen.entries()]
       .sort((a, b) => order(a[0]) - order(b[0]) || a[0].localeCompare(b[0], undefined, { numeric: true }))
