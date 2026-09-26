@@ -9,6 +9,14 @@ Cell keys:
                        masculine genitive singular)
   participles, full    ``aorist.active.participle.gen.pl.f``
   comparison           ``comp.dat.sg.f`` / ``sup.acc.pl.m`` (adjectives)
+  dual                 ``nom.du`` / ``gen.du.f`` (nouns, adjectives), ``present.active.indicative.2du``
+                       / ``3du`` (verbs), ``aorist.active.participle.nom.du.m``
+  verbal adjectives    ``vadj.tos`` / ``vadj.teos`` (nominative singular masculine) and
+                       declined ``vadj.teos.gen.sg.f``
+
+Dual cells come after all singular/plural cells (and verbal adjectives last),
+so a form that is also a singular or plural (χώρα, λόγω ~ λόγῳ) is described
+by its commoner reading.
 """
 
 from __future__ import annotations
@@ -25,15 +33,19 @@ from .normalize import normalize_answer
 
 CASES = ("nom", "gen", "dat", "acc", "voc")
 NUMBERS = ("sg", "pl")
+DUAL = "du"
 GENDERS = ("m", "f", "n")
 PERSONS = ("1sg", "2sg", "3sg", "1pl", "2pl", "3pl")
+DUAL_PERSONS = ("2du", "3du")
 
 CASE_LABEL = {"nom": "nominative", "gen": "genitive", "dat": "dative", "acc": "accusative", "voc": "vocative"}
-NUMBER_LABEL = {"sg": "singular", "pl": "plural"}
+NUMBER_LABEL = {"sg": "singular", "pl": "plural", "du": "dual"}
 GENDER_LABEL = {"m": "masculine", "f": "feminine", "n": "neuter", "mf": "masculine/feminine"}
-PERSON_LABEL = {"1sg": "1st singular", "2sg": "2nd singular", "3sg": "3rd singular", "1pl": "1st plural", "2pl": "2nd plural", "3pl": "3rd plural", "inf": "infinitive"}
+PERSON_LABEL = {"1sg": "1st singular", "2sg": "2nd singular", "3sg": "3rd singular", "1pl": "1st plural", "2pl": "2nd plural", "3pl": "3rd plural",
+                "2du": "2nd dual", "3du": "3rd dual", "inf": "infinitive"}
+VADJ_LABEL = {"tos": "verbal adjective in -τός", "teos": "verbal adjective in -τέος"}
 CASE_LABEL_GRC = {"nom": "ὀνομαστική", "gen": "γενική", "dat": "δοτική", "acc": "αἰτιατική", "voc": "κλητική"}
-NUMBER_LABEL_GRC = {"sg": "ἑνικός", "pl": "πληθυντικός"}
+NUMBER_LABEL_GRC = {"sg": "ἑνικός", "pl": "πληθυντικός", "du": "δυϊκός"}
 GENDER_LABEL_GRC = {"m": "ἀρσενικόν", "f": "θηλυκόν", "n": "οὐδέτερον", "mf": "ἀρσενικὸν καὶ θηλυκόν"}
 
 
@@ -78,43 +90,79 @@ def _all_cells(entry: dict) -> list[tuple[str, list[str]]]:
     if not table:
         return []
     out: list[tuple[str, list[str]]] = []
+    dual: list[tuple[str, list[str]]] = []
     if "systems" in table:
+        vadj: list[tuple[str, list[str]]] = []
         for system in table["systems"]:
             for tb in system["tables"]:
                 if tb.get("note", "").startswith("Periphrastic"):
                     continue
-                for cell in tb["cells"]:
-                    # a periphrastic cell (γεγραμμένοι εἰσί(ν), λελυκὼς ὦ) is not one form: skip it
-                    forms = [_clean(f) for f in cell["forms"] if f and " " not in f.strip()]
-                    if forms:
-                        out.append((f"{tb['tense']}.{tb['voice']}.{tb['mood']}.{cell['tag']}", forms))
+                if tb["tense"] == "verbal adjective":
+                    vadj.extend(_verbal_adjective_rows(tb))
+                    continue
+                key = f"{tb['tense']}.{tb['voice']}.{tb['mood']}"
+                for target, cells in ((out, tb["cells"]), (dual, tb.get("dual", []))):
+                    for cell in cells:
+                        # a periphrastic cell (γεγραμμένοι εἰσί(ν), λελυκὼς ὦ) is not one form: skip it
+                        forms = [_clean(f) for f in cell["forms"] if f and " " not in f.strip()]
+                        if forms:
+                            target.append((f"{key}.{cell['tag']}", forms))
                 if tb["mood"] == "participle":
-                    out.extend(_participle_rows(tb))
-        return out
-    for cell in table["cells"]:
-        forms = cell["forms"]
-        if isinstance(forms, dict):
-            for gender, lst in forms.items():
-                if lst:
-                    out.append((f"{cell['case']}.{cell['number']}.{gender}", list(lst)))
-        elif forms:
-            out.append((f"{cell['case']}.{cell['number']}", list(forms)))
+                    rows = _participle_rows(tb)
+                    out.extend(r for r in rows if f".{DUAL}." not in r[0])
+                    dual.extend(r for r in rows if f".{DUAL}." in r[0])
+        return out + dual + vadj
+    for target, cells in ((out, table["cells"]), (dual, table.get("dual", []))):
+        for cell in cells:
+            forms = cell["forms"]
+            if isinstance(forms, dict):
+                for gender, lst in forms.items():
+                    if lst:
+                        target.append((f"{cell['case']}.{cell['number']}.{gender}", list(lst)))
+            elif forms:
+                target.append((f"{cell['case']}.{cell['number']}", list(forms)))
     if entry["kind"] in {"adjective", "numeral"} and table.get("comparison"):
         out.extend(_comparison_rows(table["comparison"]))
     if entry["kind"] in {"adjective", "numeral"} and table.get("adverb"):
         out.append(("adv", [_clean(a) for a in table["adverb"] if a]))  # σοφῶς, ἀκριβῶς, εὖ
+    return out + dual
+
+
+def _verbal_adjective_rows(tb: dict) -> list[tuple[str, list[str]]]:
+    """``vadj.tos`` / ``vadj.teos`` (masc. nom. sg.) plus every case, number
+    and gender of each, declined as a first/second-declension adjective
+    (λυτός -ή -όν, λυτέος -έα -έον)."""
+    out: list[tuple[str, list[str]]] = []
+    for cell in tb["cells"]:
+        if not cell["forms"]:
+            continue
+        m, f = cell["forms"][0], cell["forms"][1] if len(cell["forms"]) > 1 else None
+        out.append((f"vadj.{cell['tag']}", [m]))
+        try:
+            table = decline_adjective(m, {"terminations": 3, "feminine": f or m}, "adj-1-2")
+        except Exception:  # noqa: BLE001 - an odd form must not break the course
+            continue
+        for c in table["cells"] + table.get("dual", []):
+            for gender, forms in c["forms"].items():
+                if forms:
+                    out.append((f"vadj.{cell['tag']}.{c['case']}.{c['number']}.{gender}", list(forms)))
     return out
 
 
 def _participle_rows(tb: dict) -> list[tuple[str, list[str]]]:
     """The whole declension of a participle table (its cells give only the
     nominative singular per gender and the masculine genitive)."""
-    first = {c["tag"]: _clean(c["forms"][0]) for c in tb["cells"] if c.get("forms") and c["forms"][0]}
-    if not all(k in first for k in ("m", "f", "n", "mg")):
+    by_tag = {c["tag"]: [_clean(f) for f in c["forms"] if f] for c in tb["cells"] if c.get("forms") and c["forms"][0]}
+    if not all(k in by_tag for k in ("m", "f", "n", "mg")):
         return []
     grouped: dict[str, list[str]] = {}
-    for case, number, gender, form in participle_cells(first["m"], first["f"], first["n"], first["mg"]):
-        grouped.setdefault(f"{tb['tense']}.{tb['voice']}.participle.{case}.{number}.{gender}", []).append(form)
+    # alternative participles (ἑστηκώς / ἑστώς) are declined set by set
+    for i in range(max(len(by_tag[k]) for k in ("m", "f", "n", "mg"))):
+        pick = [by_tag[k][min(i, len(by_tag[k]) - 1)] for k in ("m", "f", "n", "mg")]
+        for case, number, gender, form in participle_cells(*pick):
+            forms = grouped.setdefault(f"{tb['tense']}.{tb['voice']}.participle.{case}.{number}.{gender}", [])
+            if form not in forms:
+                forms.append(form)
     return list(grouped.items())
 
 
@@ -179,6 +227,11 @@ def _movable_variants(form: str) -> list[str]:
 def describe_cell(entry: dict, cell: str, greek: bool = False) -> str:
     """Human label for a cell key: 'dative singular' / 'δοτικὴ ἑνικοῦ'."""
     parts = cell.split(".")
+    if parts[0] == "vadj":
+        label = VADJ_LABEL.get(parts[1], "verbal adjective")
+        if len(parts) == 5:
+            return f"{label}, {CASE_LABEL[parts[2]]} {NUMBER_LABEL[parts[3]]} {GENDER_LABEL.get(parts[4], parts[4])}"
+        return f"{label}, nominative singular masculine"
     if entry["kind"] == "verb":
         if len(parts) == 6:  # full participle cell
             tense, voice, _, case, number, gender = parts
@@ -200,9 +253,9 @@ def describe_cell(entry: dict, cell: str, greek: bool = False) -> str:
     if greek:
         label = f"{CASE_LABEL_GRC[parts[0]]} {NUMBER_LABEL_GRC[parts[1]]}"
         if len(parts) == 3:
-            label += f", {GENDER_LABEL_GRC[parts[2]]}"
+            label += f", {GENDER_LABEL_GRC.get(parts[2], parts[2])}"
         return label
     label = f"{CASE_LABEL[parts[0]]} {NUMBER_LABEL[parts[1]]}"
     if len(parts) == 3:
-        label += f", {GENDER_LABEL[parts[2]]}"
+        label += f", {GENDER_LABEL.get(parts[2], parts[2])}"
     return label

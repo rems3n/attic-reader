@@ -1,10 +1,22 @@
 "use client";
 
+import { useState } from "react";
 import type { AdjTable, Forms, NounTable, VerbForms, VerbTable } from "../lib/api";
+
+// The engine returns dual forms in a separate `dual` block of each table
+// (cells with number "du"; verb cells tagged 2du/3du). They stay hidden
+// unless the reader turns them on.
+type NounCell = NounTable["cells"][number];
+type AdjCell = AdjTable["cells"][number];
+type VerbCellT = VerbTable["cells"][number];
+type WithDual<T, C> = T & { dual?: C[] };
 
 const CASE_LABEL: Record<string, string> = { nom: "nom.", gen: "gen.", dat: "dat.", acc: "acc.", voc: "voc." };
 const GENDER_LABEL: Record<string, string> = { m: "masc.", f: "fem.", n: "neut.", mf: "masc./fem.", "1st person": "", "2nd person": "" };
-const PERSON_LABEL: Record<string, string> = { "1sg": "1 sg.", "2sg": "2 sg.", "3sg": "3 sg.", "1pl": "1 pl.", "2pl": "2 pl.", "3pl": "3 pl.", inf: "inf.", m: "masc.", f: "fem.", n: "neut.", mg: "gen." };
+const PERSON_LABEL: Record<string, string> = {
+  "1sg": "1 sg.", "2sg": "2 sg.", "3sg": "3 sg.", "1pl": "1 pl.", "2pl": "2 pl.", "3pl": "3 pl.", "2du": "2 du.", "3du": "3 du.",
+  inf: "inf.", m: "masc.", f: "fem.", n: "neut.", mg: "gen.", tos: "-τός", teos: "-τέος",
+};
 
 type Props = { forms: Forms; play?: (text: string) => void; compact?: boolean };
 
@@ -21,9 +33,19 @@ function Cell({ forms, play }: { forms: string[]; play?: (t: string) => void }) 
   );
 }
 
-function NounView({ t, play }: { t: NounTable; play?: (s: string) => void }) {
+function DualToggle({ on, set }: { on: boolean; set: (v: boolean) => void }) {
+  return (
+    <label className="tableNote dualToggle">
+      <input type="checkbox" checked={on} onChange={(e) => set(e.target.checked)} /> show dual
+    </label>
+  );
+}
+
+function NounView({ t, play, dual }: { t: WithDual<NounTable, NounCell>; play?: (s: string) => void; dual: boolean }) {
   const cases = ["nom", "gen", "dat", "acc", "voc"];
-  const get = (c: string, n: string) => t.cells.find((x) => x.case === c && x.number === n)?.forms ?? [];
+  const cells = [...t.cells, ...(dual ? t.dual ?? [] : [])];
+  const get = (c: string, n: string) => cells.find((x) => x.case === c && x.number === n)?.forms ?? [];
+  const showDual = dual && (t.dual ?? []).some((c) => c.forms.length);
   return (
     <div className="tableWrap">
       <table className="formsTable">
@@ -32,6 +54,7 @@ function NounView({ t, play }: { t: NounTable; play?: (s: string) => void }) {
             <th><span className="srOnly">case</span></th>
             <th scope="col">singular</th>
             <th scope="col">plural</th>
+            {showDual && <th scope="col">dual</th>}
           </tr>
         </thead>
         <tbody>
@@ -40,6 +63,7 @@ function NounView({ t, play }: { t: NounTable; play?: (s: string) => void }) {
               <th scope="row">{CASE_LABEL[c]}</th>
               <td><Cell forms={get(c, "sg")} play={play} /></td>
               <td><Cell forms={get(c, "pl")} play={play} /></td>
+              {showDual && <td><Cell forms={get(c, "du")} play={play} /></td>}
             </tr>
           ))}
         </tbody>
@@ -49,17 +73,18 @@ function NounView({ t, play }: { t: NounTable; play?: (s: string) => void }) {
   );
 }
 
-function AdjView({ t, play }: { t: AdjTable; play?: (s: string) => void }) {
+function AdjView({ t, play, dual }: { t: WithDual<AdjTable, AdjCell>; play?: (s: string) => void; dual: boolean }) {
   const cases = ["nom", "gen", "dat", "acc", "voc"];
-  const numbers = ["sg", "pl"].filter((n) => t.cells.some((c) => c.number === n && Object.values(c.forms).some((f) => f.length)));
-  const get = (c: string, n: string, g: string) => t.cells.find((x) => x.case === c && x.number === n)?.forms[g] ?? [];
+  const cells = [...t.cells, ...(dual ? t.dual ?? [] : [])];
+  const numbers = ["sg", "pl", "du"].filter((n) => cells.some((c) => c.number === n && Object.values(c.forms).some((f) => f.length)));
+  const get = (c: string, n: string, g: string) => cells.find((x) => x.case === c && x.number === n)?.forms[g] ?? [];
   return (
     <div className="tableWrap">
       {numbers.map((n) => (
         <table className="formsTable" key={n}>
           <thead>
             <tr>
-              <th>{n === "sg" ? "singular" : "plural"}</th>
+              <th>{n === "sg" ? "singular" : n === "pl" ? "plural" : "dual"}</th>
               {t.genders.map((g) => (
                 <th key={g} scope="col">{GENDER_LABEL[g] || <span className="srOnly">{g}</span>}</th>
               ))}
@@ -91,9 +116,9 @@ function AdjView({ t, play }: { t: AdjTable; play?: (s: string) => void }) {
   );
 }
 
-function FiniteGrid({ table, play }: { table: VerbTable; play?: (s: string) => void }) {
-  const tags = ["1sg", "2sg", "3sg", "1pl", "2pl", "3pl"];
-  const by = Object.fromEntries(table.cells.map((c) => [c.tag, c.forms]));
+function FiniteGrid({ table, play, dual }: { table: WithDual<VerbTable, VerbCellT>; play?: (s: string) => void; dual: boolean }) {
+  const tags = ["1sg", "2sg", "3sg", "1pl", "2pl", "3pl", ...(dual ? ["2du", "3du"] : [])];
+  const by = Object.fromEntries([...table.cells, ...(dual ? table.dual ?? [] : [])].map((c) => [c.tag, c.forms]));
   const finite = tags.some((t) => by[t]);
   return (
     <div className="moodBlock">
@@ -123,7 +148,7 @@ function FiniteGrid({ table, play }: { table: VerbTable; play?: (s: string) => v
   );
 }
 
-function VerbView({ t, play, compact }: { t: VerbForms; play?: (s: string) => void; compact?: boolean }) {
+function VerbView({ t, play, compact, dual }: { t: VerbForms; play?: (s: string) => void; compact?: boolean; dual: boolean }) {
   return (
     <div className="verbForms">
       {t.principal_parts.length > 0 && (
@@ -151,7 +176,7 @@ function VerbView({ t, play, compact }: { t: VerbForms; play?: (s: string) => vo
               <div key={key} className="tenseVoice">
                 <h4>{key}</h4>
                 {tables.map((tb, i) => (
-                  <FiniteGrid key={i} table={tb} play={play} />
+                  <FiniteGrid key={i} table={tb} play={play} dual={dual} />
                 ))}
               </div>
             ))}
@@ -162,8 +187,22 @@ function VerbView({ t, play, compact }: { t: VerbForms; play?: (s: string) => vo
   );
 }
 
+function hasDual(forms: Forms): boolean {
+  if (forms.kind === "verb") return forms.systems.some((s) => s.tables.some((tb) => ((tb as WithDual<VerbTable, VerbCellT>).dual ?? []).length > 0));
+  return ((forms as { dual?: unknown[] }).dual ?? []).length > 0;
+}
+
 export default function FormsTable({ forms, play, compact }: Props) {
-  if (forms.kind === "verb") return <VerbView t={forms} play={play} compact={compact} />;
-  if (forms.kind === "noun") return <NounView t={forms} play={play} />;
-  return <AdjView t={forms} play={play} />;
+  const [dual, setDual] = useState(false);
+  const toggle = hasDual(forms) ? <DualToggle on={dual} set={setDual} /> : null;
+  let view;
+  if (forms.kind === "verb") view = <VerbView t={forms} play={play} compact={compact} dual={dual} />;
+  else if (forms.kind === "noun") view = <NounView t={forms} play={play} dual={dual} />;
+  else view = <AdjView t={forms} play={play} dual={dual} />;
+  return (
+    <>
+      {toggle}
+      {view}
+    </>
+  );
 }

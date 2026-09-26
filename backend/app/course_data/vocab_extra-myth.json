@@ -2365,7 +2365,9 @@
     "μανοῦμαι",
     "ἐμάνην"
    ],
-   "verb": {}
+   "verb": {
+    "vadj": false
+   }
   },
   "topics": [
    "mythology"

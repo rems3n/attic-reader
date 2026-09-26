@@ -141,7 +141,7 @@ def test_article():
 
 def test_personal_pronouns():
     t = decline("ἐγώ", "pronoun", "pronoun", {})
-    assert [c["forms"]["1st person"] for c in t["cells"]] == [["ἐγώ"], ["ἐμοῦ", "μου"], ["ἐμοί", "μοι"], ["ἐμέ", "με"], ["ἡμεῖς"], ["ἡμῶν"], ["ἡμῖν"], ["ἡμᾶς"]]
+    assert [c["forms"]["1st person"] for c in t["cells"]] == [["ἐγώ", "ἔγωγε"], ["ἐμοῦ", "μου"], ["ἐμοί", "μοι", "ἔμοιγε"], ["ἐμέ", "με", "ἔμεγε"], ["ἡμεῖς"], ["ἡμῶν"], ["ἡμῖν"], ["ἡμᾶς"]]
 
 
 @pytest.mark.parametrize("lemma,comp,sup,adv", [

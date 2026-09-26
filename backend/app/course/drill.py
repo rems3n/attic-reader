@@ -14,6 +14,7 @@ import re
 from .data import entry_by_id
 from .forms import (
     CASE_LABEL,
+    DUAL_PERSONS,
     GENDER_LABEL,
     GENDERS,
     NUMBER_LABEL,
@@ -79,6 +80,9 @@ def _distractors(entry: dict, cell: str, rng: random.Random, n: int = 3) -> list
     for key, forms in all_cells(entry):
         if key == cell:
             continue
+        # the dual and the verbal adjectives are not drilled: keep them out of the options
+        if _is_dual(key) != _is_dual(cell) or key.startswith("vadj.") != cell.startswith("vadj."):
+            continue
         k_parts, c_parts = key.split("."), cell.split(".")
         # participle / comparison cells: other cases and numbers of the same
         # participle (same tense and voice) or degree, same gender
@@ -98,6 +102,11 @@ def _distractors(entry: dict, cell: str, rng: random.Random, n: int = 3) -> list
                 pool.append(f)
     rng.shuffle(pool)
     return pool[:n]
+
+
+def _is_dual(cell: str) -> bool:
+    parts = cell.split(".")
+    return "du" in parts or parts[-1] in DUAL_PERSONS
 
 
 def _produce(item_id: str, entry: dict, cell: str, skill: str) -> dict:
@@ -310,7 +319,7 @@ def _plan_for_skill(skill: str, scope_ids: list[str]) -> list[tuple[dict, str]]:
         out = []
         for e in _entries(scope_ids, "adjective"):
             for cell, forms in all_cells(e):
-                if forms and cell.count(".") == 2:
+                if forms and cell.count(".") == 2 and not _is_dual(cell):
                     out.append((e, cell))
         return out
     return []

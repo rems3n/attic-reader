@@ -3320,6 +3320,11 @@
    },
    {
     "id": "plato-apol-17a",
+    "sentence": 5,
+    "form": "ἔγωγε"
+   },
+   {
+    "id": "plato-apol-17a",
     "sentence": 6,
     "form": "ἐγὼ"
    },
@@ -5236,12 +5241,13 @@
    "core",
    "philosophy"
   ],
-  "notes": null,
+  "notes": "οὕτω before a consonant, οὕτως before a vowel (and often before consonants too).",
   "cognates": null,
   "tags": [],
   "morph": {
    "forms": [
-    "οὕτως"
+    "οὕτως",
+    "οὕτω"
    ]
   },
   "readings": [
@@ -5254,6 +5260,11 @@
     "id": "xen-mem-1.1",
     "sentence": 11,
     "form": "οὕτως"
+   },
+   {
+    "id": "plato-apol-17a",
+    "sentence": 1,
+    "form": "οὕτω"
    }
   ]
  },
@@ -6160,7 +6171,13 @@
     "-εἷκα",
     "εἷμαι",
     "-εἵθην"
-   ]
+   ],
+   "verb": {
+    "vadj": {
+     "tos": "ἑτός",
+     "teos": "ἑτέος"
+    }
+   }
   },
   "readings": [
    {
@@ -6374,7 +6391,11 @@
    ],
    "verb": {
     "aorist_stem": "ἰδ",
-    "aorist_passive_stem": "ὀφθ"
+    "aorist_passive_stem": "ὀφθ",
+    "vadj": {
+     "tos": "ὁρατός",
+     "teos": "ὁρατέος"
+    }
    }
   },
   "readings": [
@@ -7415,7 +7436,10 @@
     "δυνήσομαι",
     "ἐδυνήθην",
     "δεδύνημαι"
-   ]
+   ],
+   "verb": {
+    "vadj": false
+   }
   },
   "readings": [
    {
@@ -8986,7 +9010,11 @@
     "ἠνέχθην"
    ],
    "verb": {
-    "aorist_stem": "ἐνεγκ"
+    "aorist_stem": "ἐνεγκ",
+    "vadj": {
+     "tos": "οἰστός",
+     "teos": "οἰστέος"
+    }
    }
   },
   "readings": [
@@ -10576,7 +10604,55 @@
     "ἕστηκα",
     "εἱστήκη",
     "ἐστάθην"
-   ]
+   ],
+   "verb": {
+    "tables": [
+     {
+      "tense": "perfect",
+      "voice": "active",
+      "mood": "indicative",
+      "forms": "ἕστηκα ἕστηκας ἕστηκε(ν) ἕσταμεν/ἑστήκαμεν ἕστατε/ἑστήκατε ἑστᾶσι(ν)/ἑστήκασι(ν)",
+      "note": "‘I stand’; the plural usually has the short forms ἕσταμεν, ἕστατε, ἑστᾶσι."
+     },
+     {
+      "tense": "perfect",
+      "voice": "active",
+      "mood": "subjunctive",
+      "forms": "ἑστῶ ἑστῇς ἑστῇ ἑστῶμεν ἑστῆτε ἑστῶσι(ν)"
+     },
+     {
+      "tense": "perfect",
+      "voice": "active",
+      "mood": "optative",
+      "forms": "ἑσταίην ἑσταίης ἑσταίη ἑσταῖμεν ἑσταῖτε ἑσταῖεν"
+     },
+     {
+      "tense": "perfect",
+      "voice": "active",
+      "mood": "imperative",
+      "forms": "- ἕσταθι ἑστάτω - ἕστατε ἑστάντων"
+     },
+     {
+      "tense": "perfect",
+      "voice": "active",
+      "mood": "infinitive",
+      "forms": "ἑστάναι/ἑστηκέναι"
+     },
+     {
+      "tense": "perfect",
+      "voice": "active",
+      "mood": "participle",
+      "forms": "ἑστηκώς/ἑστώς ἑστηκυῖα/ἑστῶσα ἑστηκός/ἑστός ἑστηκότος/ἑστῶτος",
+      "note": "The short participle ἑστώς, ἑστῶσα, ἑστός (gen. ἑστῶτος) is the common one in prose."
+     },
+     {
+      "tense": "pluperfect",
+      "voice": "active",
+      "mood": "indicative",
+      "forms": "εἱστήκη εἱστήκης εἱστήκει(ν) ἕσταμεν/εἱστήκεμεν ἕστατε/εἱστήκετε ἕστασαν/εἱστήκεσαν"
+     }
+    ]
+   }
   },
   "readings": []
  },
@@ -11744,11 +11820,18 @@
     "deponent": true,
     "tables": [
      {
+      "tense": "present",
+      "voice": "middle",
+      "mood": "indicative",
+      "forms": "οἴομαι/οἶμαι οἴῃ/οἴει οἴεται οἰόμεθα οἴεσθε οἴονται",
+      "note": "Beside οἴομαι the shortened οἶμαι is the usual prose form of the 1st singular."
+     },
+     {
       "tense": "imperfect",
       "voice": "middle",
       "mood": "indicative",
-      "forms": "ᾤμην ᾤου ᾤετο ᾠόμεθα ᾤεσθε ᾤοντο",
-      "note": "Athematic in the singular (ᾤμην, ᾤου, ᾤετο)."
+      "forms": "ᾠόμην/ᾤμην ᾤου ᾤετο ᾠόμεθα ᾤεσθε ᾤοντο",
+      "note": "1st singular ᾠόμην or, shortened like οἶμαι, ᾤμην."
      }
     ]
    }
@@ -18779,7 +18862,13 @@
     "ἔθρεψα",
     "τέθραμμαι",
     "ἐτράφην"
-   ]
+   ],
+   "verb": {
+    "vadj": {
+     "tos": "θρεπτός",
+     "teos": "θρεπτέος"
+    }
+   }
   },
   "readings": []
  },
@@ -19391,7 +19480,13 @@
     "ἀφεῖκα",
     "ἀφεῖμαι",
     "ἀφείθην"
-   ]
+   ],
+   "verb": {
+    "vadj": {
+     "tos": "ἀφετός",
+     "teos": "ἀφετέος"
+    }
+   }
   },
   "readings": [
    {
@@ -24442,7 +24537,7 @@
   "topics": [
    "philosophy"
   ],
-  "notes": null,
+  "notes": "In Attic the other tenses come from the stem σκεπ-: future σκέψομαι, aorist ἐσκεψάμην, perfect ἔσκεμμαι; verbal adjective σκεπτέον ‘one must consider’.",
   "cognates": {
    "derivatives": [
     "scope",
@@ -24464,10 +24559,13 @@
      "σκοπέω"
     ],
     "future": [
-     "σκοπήσω"
+     "σκέψομαι"
     ],
     "aorist": [
-     "ἐσκόπησα"
+     "ἐσκεψάμην"
+    ],
+    "perfect-mp": [
+     "ἔσκεμμαι"
     ]
    },
    "extra": {},
@@ -24475,7 +24573,13 @@
     "σκοπέω",
     "σκοπήσω",
     "ἐσκόπησα"
-   ]
+   ],
+   "verb": {
+    "vadj": {
+     "tos": "σκεπτός",
+     "teos": "σκεπτέος"
+    }
+   }
   },
   "readings": []
  },
