@@ -23,17 +23,6 @@
    "words": []
   },
   {
-   "id": "pol-1-c",
-   "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Κλεισθένης τὴν χώραν διανέμει",
-   "alt_en": "A schematic map of Attica divided into three regions, city, coast and inland, with one 'third' from each joined into a tribe (drawn in the style of a vase painting).",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
-  },
-  {
    "id": "pol-boule",
    "kind": "dictionary",
    "file": null,
@@ -107,17 +96,6 @@
    "file": null,
    "alt_grc": "ὁ Εὔδημος πρῲ εἰς τὸ δικαστήριον σπεύδει",
    "alt_en": "Dawn in a crowded city street: Eudemos, a burly charcoal-burner in a rough cloak, hurries off with other old men towards the law courts; Lysis calls after him from the doorway.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
-  },
-  {
-   "id": "pol-3-b",
-   "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Δημόκριτος καὶ ὁ Ἀρίστων διαλέγονται",
-   "alt_en": "Evening by a lamp: Demokritos waves his hands and argues with Ariston over the table; Lysis listens, chin in hands.",
    "credit": "placeholder",
    "license": "placeholder",
    "source_url": null,

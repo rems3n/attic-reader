@@ -15,6 +15,7 @@ import { AgoraPlan, Kleroterion, LongWalls, PiraeusPlan, PnyxPlan, WarMap } from
 import { PlaceAdverbs, Prepositions, PothenPoi, TimeCases } from "./places";
 import { Conditions, CrasisElision, GenAbs, Indirect, MenDe, Moods, Negatives, PurposeFear, ReadingStrategy, Result, Sequence, Supplementary } from "./syntax";
 import { Comparison, Decl3Stem, Demonstratives, Dual, HoutosEkeinos, Numbers, Plural, Position, Relative } from "./nouns";
+import { Constitution, TribesMap } from "./politics";
 
 export const DIAGRAMS: Record<string, ComponentType> = {
   "alphabet-chart": AlphabetChart,
@@ -64,4 +65,6 @@ export const DIAGRAMS: Record<string, ComponentType> = {
   "diagram-war-map": WarMap,
   "culture-pnyx-plan": PnyxPlan,
   "culture-kleroterion": Kleroterion,
+  "culture-tribes-map": TribesMap,
+  "culture-constitution": Constitution,
 };

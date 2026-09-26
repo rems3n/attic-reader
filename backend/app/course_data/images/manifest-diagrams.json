@@ -263,6 +263,30 @@
    "svg": true,
    "source_url": null,
    "words": []
+  },
+  {
+   "id": "culture-tribes-map",
+   "kind": "diagram",
+   "file": null,
+   "alt_grc": "ὁ Κλεισθένης τὴν χώραν εἰς τριττύας διανέμει",
+   "alt_en": "Schematic map of Attica in three regions, city, coast and inland; each of Cleisthenes' ten tribes takes one third (trittys) from each region",
+   "credit": "Attic Reader, own diagram",
+   "license": "CC BY-SA 4.0",
+   "svg": true,
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "culture-constitution",
+   "kind": "diagram",
+   "file": null,
+   "alt_grc": "ἐκκλησία, βουλή, δικαστήρια, ἄρχοντες",
+   "alt_en": "How the democracy worked: the citizens, the Assembly, the Council of 500, the law courts and the officials, and what each did",
+   "credit": "Attic Reader, own diagram",
+   "license": "CC BY-SA 4.0",
+   "svg": true,
+   "source_url": null,
+   "words": []
   }
  ]
 }
