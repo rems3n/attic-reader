@@ -194,8 +194,9 @@ export default function LessonPage() {
         <ol className="stepper" aria-label="Lesson steps">
           {steps.map((s, i) => (
             <li key={s.id}>
-              <button type="button" className={`stepDot ${i === stepIndex ? "on" : ""} ${i < stepIndex ? "done" : ""}`} onClick={() => markStep(i)} aria-current={i === stepIndex ? "step" : undefined} aria-label={`Step ${i + 1} of ${steps.length}: ${s.en}${i < stepIndex ? " (seen)" : ""}`} title={`${s.grc} · ${s.en}`}>
+              <button type="button" className={`stepDot ${i === stepIndex ? "on" : ""} ${i < stepIndex ? "done" : ""}`} onClick={() => markStep(i)} aria-current={i === stepIndex ? "step" : undefined} title={`${s.grc} · ${s.en}`}>
                 <span className="stepNum" aria-hidden="true">{i + 1}</span>
+                <span className="srOnly">Step {i + 1} of {steps.length}</span>
               </button>
             </li>
           ))}

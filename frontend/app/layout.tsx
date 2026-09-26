@@ -45,7 +45,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body>
         <AppNav />
         <ServiceWorker />
-        {children}
+        {/* skip-link target around every page's <main> */}
+        <div id="main" tabIndex={-1}>{children}</div>
         <SiteFooter />
       </body>
     </html>

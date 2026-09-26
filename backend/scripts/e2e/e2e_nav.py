@@ -89,6 +89,9 @@ def overlaps(a: dict, b: dict) -> bool:
 
 
 def check_nav(page: Page, name: str, vp: str) -> None:
+    # a focused text field hides the phone tab bar on purpose (on-screen keyboard)
+    page.evaluate("document.activeElement && document.activeElement.blur()")
+    page.wait_for_timeout(100)
     nav = rect(page, "nav[aria-label='Main'] .navTabs, nav[aria-label='Main'], nav.nav")
     if not nav:
         problem(f"{vp} {name}: primary nav not visible")
@@ -146,7 +149,7 @@ def check_keyboard(page: Page, name: str, vp: str) -> None:
     else:
         page.keyboard.press("Enter")
         page.wait_for_timeout(100)
-        inside = page.evaluate("(() => { const m = document.querySelector('main'); return !!m && (m === document.activeElement || m.contains(document.activeElement)); })()")
+        inside = page.evaluate("(() => { const a = document.activeElement; return !!a && (a.id === 'main' || !!a.closest('main') || !!a.closest('#main')); })()")
         if not inside:
             problem(f"{vp} {name}: skip link does not move focus into <main>")
     missing = []

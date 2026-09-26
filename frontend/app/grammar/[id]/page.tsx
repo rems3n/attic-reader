@@ -75,13 +75,13 @@ export default function ParadigmPage() {
           {prev ? (
             <Link href={`/grammar/${encodeURIComponent(prev.id)}`} className="pagerLink prev">
               <span className="pagerDir">‹ Previous</span>
-              <span className="pagerTitle"><span lang="grc">{prev.lemma}</span> · {prev.title}</span>
+              <span className="pagerTitle">{prev.title}</span>
             </Link>
           ) : <span />}
           {next ? (
             <Link href={`/grammar/${encodeURIComponent(next.id)}`} className="pagerLink next">
               <span className="pagerDir">Next ›</span>
-              <span className="pagerTitle"><span lang="grc">{next.lemma}</span> · {next.title}</span>
+              <span className="pagerTitle">{next.title}</span>
             </Link>
           ) : <span />}
         </nav>

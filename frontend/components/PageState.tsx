@@ -8,7 +8,7 @@ import Crumbs, { type Crumb } from "./Crumbs";
  */
 export function PageLoading({ label, crumbs }: { label: string; crumbs?: Crumb[] }) {
   return (
-    <main className="shell" id="main" aria-busy="true">
+    <main className="shell" aria-busy="true">
       {crumbs && <Crumbs items={crumbs} />}
       <p className="loadingLine" role="status">{label}</p>
       <div className="skeleton skTitle" aria-hidden="true" />
@@ -20,7 +20,7 @@ export function PageLoading({ label, crumbs }: { label: string; crumbs?: Crumb[]
 
 export function PageError({ message, crumbs, back }: { message: string; crumbs?: Crumb[]; back?: { href: string; label: string } }) {
   return (
-    <main className="shell" id="main">
+    <main className="shell">
       {crumbs && <Crumbs items={crumbs} />}
       <h1 className="pageTitle">Something went wrong</h1>
       <p className="error" role="alert">{message}</p>
