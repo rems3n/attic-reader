@@ -1,0 +1,1241 @@
+{
+  "id": "3.3",
+  "title_grc": "ὁ Λάβρος ἀπόλλυται",
+  "title_en": "Labros is lost",
+  "summary_grc": "νὺξ γίγνεται· ὁ Λάβρος οὐκ ἀφικνεῖται. ὁ Λύσις βούλεται τὸν κύνα ζητεῖν.",
+  "summary_en": "A dog-fight, a lost dog and a search by night: the middle voice and the verbs that only use it (γίγνομαι, βούλομαι, φοβέομαι, ἀφικνέομαι, ἔρχομαι, μάχομαι).",
+  "cover": "panel-3-3-a",
+  "caption_grc": "οἱ κύνες μάχονται. ὁ Λύσις φοβεῖται.",
+  "names": {},
+  "allow": {},
+  "story": [
+    {
+      "image": "panel-3-3-a",
+      "sentences": [
+        {
+          "text": "ὁ Λύσις καὶ ὁ Λάβρος ἐκ τοῦ ἐργαστηρίου εἰς τὴν οἰκίαν ἔρχονται.",
+          "glosses": [
+            {
+              "word": "ἔρχονται",
+              "kind": "pic",
+              "value": "verb-erchetai"
+            },
+            {
+              "word": "ἐργαστηρίου",
+              "kind": "|",
+              "value": "τὸ ἐργαστήριον | ἐκ τοῦ ἐργαστηρίου"
+            }
+          ]
+        },
+        {
+          "text": "ἐν τῇ ὁδῷ ἄλλος κύων ἐστίν· μέγας ἐστὶ καὶ κακός.",
+          "glosses": [
+            {
+              "word": "ἄλλος",
+              "kind": "pic",
+              "value": "allos"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Λάβρος τὸν ἄλλον κύνα ὁρᾷ καὶ ὑλακτεῖ· οἱ κύνες μάχονται.",
+          "glosses": [
+            {
+              "word": "ὑλακτεῖ",
+              "kind": "pic",
+              "value": "verb-hylaktei"
+            },
+            {
+              "word": "μάχονται",
+              "kind": "pic",
+              "value": "verb-machontai"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Λύσις φοβεῖται· «ὦ Λάβρε, μὴ μάχου!»",
+          "glosses": [
+            {
+              "word": "φοβεῖται",
+              "kind": "pic",
+              "value": "verb-phobeitai"
+            },
+            {
+              "word": "μὴ",
+              "kind": "=",
+              "value": "μὴ + order = don't …!"
+            },
+            {
+              "word": "μάχου",
+              "kind": "|",
+              "value": "μάχεται | μὴ μάχου!"
+            }
+          ]
+        },
+        {
+          "text": "ἀλλὰ ὁ Λάβρος οὐκ ἀκούει· φεύγει, καὶ ὁ ἄλλος κύων τὸν Λάβρον διώκει.",
+          "glosses": [
+            {
+              "word": "φεύγει",
+              "kind": "pic",
+              "value": "verb-pheugei"
+            },
+            {
+              "word": "διώκει",
+              "kind": "en",
+              "value": "chases"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Λύσις τοὺς κύνας ζητεῖ, ἀλλὰ οὐχ εὑρίσκει· ὁ Λάβρος ἀπόλλυται.",
+          "glosses": [
+            {
+              "word": "ἀπόλλυται",
+              "kind": "en",
+              "value": "is lost, is done for (a middle form; the verb itself comes later)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "panel-3-3-b",
+      "sentences": [
+        {
+          "text": "νὺξ γίγνεται.",
+          "glosses": [
+            {
+              "word": "νὺξ",
+              "kind": "pic",
+              "value": "nyx"
+            },
+            {
+              "word": "γίγνεται",
+              "kind": "pic",
+              "value": "verb-gignetai"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Λύσις εἰς τὴν οἰκίαν ἀφικνεῖται, ἀλλὰ ὁ Λάβρος οὐκ ἀφικνεῖται.",
+          "glosses": [
+            {
+              "word": "ἀφικνεῖται",
+              "kind": "pic",
+              "value": "verb-aphikneitai"
+            }
+          ]
+        },
+        {
+          "text": "ἡ Ἐλπὶς λέγει· «ποῦ ἐστιν ὁ Λάβρος;» ὁ Λύσις· «ὁ Λάβρος ἀπόλλυται· ἄλλος γὰρ κύων μάχεται, καὶ ὁ Λάβρος φεύγει.»",
+          "glosses": []
+        },
+        {
+          "text": "ἡ Ἐλπὶς βούλεται τὸν κύνα ζητεῖν, ἀλλὰ ἡ Χρυσὶς λέγει· «νὺξ γίγνεται· μὴ ἐκ τῆς οἰκίας βαῖνε.»",
+          "glosses": [
+            {
+              "word": "βούλεται",
+              "kind": "pic",
+              "value": "verb-bouletai"
+            },
+            {
+              "word": "ζητεῖν",
+              "kind": "|",
+              "value": "ζητεῖ | ζητεῖν (to look for)"
+            },
+            {
+              "word": "βαῖνε",
+              "kind": "|",
+              "value": "βαίνει | μὴ βαῖνε! (don't go)"
+            }
+          ]
+        },
+        {
+          "text": "ἡ Ἐλπὶς τὴν νύκτα φοβεῖται· ὁ δὲ Λύσις λέγει· «οὐ φοβοῦμαι τὴν νύκτα· βούλομαι τὸν Λάβρον ζητεῖν.»",
+          "glosses": [
+            {
+              "word": "νύκτα",
+              "kind": "|",
+              "value": "ἡ νύξ | τὴν νύκτα"
+            },
+            {
+              "word": "φοβοῦμαι",
+              "kind": "|",
+              "value": "φοβεῖται | φοβοῦμαι (I …)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Ἀρίστων λέγει· «ἀγαθὸς εἶ, ὦ Λύσι· ἐρχόμεθα.» ἐκ τῆς οἰκίας οὖν ἔρχονται καὶ τὸν κύνα ζητοῦσιν.",
+          "glosses": [
+            {
+              "word": "εἶ",
+              "kind": "|",
+              "value": "ἐστίν | εἶ (you are)"
+            },
+            {
+              "word": "ἐρχόμεθα",
+              "kind": "|",
+              "value": "ἔρχεται | ἐρχόμεθα (we …)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "panel-3-3-c",
+      "sentences": [
+        {
+          "text": "ἐν τῇ νυκτὶ εἰς τὸ ἐργαστήριον πάλιν ἔρχονται· ἐκεῖ ὁ Σύρος ἐστίν.",
+          "glosses": [
+            {
+              "word": "πάλιν",
+              "kind": "en",
+              "value": "back, again"
+            },
+            {
+              "word": "ἐκεῖ",
+              "kind": "en",
+              "value": "there"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Σύρος λέγει· «τί βούλεσθε; νύξ ἐστιν.»",
+          "glosses": [
+            {
+              "word": "βούλεσθε",
+              "kind": "|",
+              "value": "βούλεται | βούλεσθε (you two …)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Λύσις· «τὸν Λάβρον ζητοῦμεν. ἆρα τὸν κύνα ὁρᾷς;»",
+          "glosses": [
+            {
+              "word": "ἆρα",
+              "kind": "=",
+              "value": "ἆρα …; = a question"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Σύρος· «ναί· ὁ Λάβρος ἐν τῷ ἐργαστηρίῳ καθεύδει. ἀεὶ γὰρ εἰς τὸ ἐργαστήριον ἀφικνεῖται· ἄρτον γὰρ ἐκεῖ εὑρίσκει.»",
+          "glosses": []
+        },
+        {
+          "text": "ὁ Λύσις λέγει· «ὦ Λάβρε, κακὸς κύων εἶ, ἀλλὰ φίλος.»",
+          "glosses": [
+            {
+              "word": "φίλος",
+              "kind": "pic",
+              "value": "philos"
+            }
+          ]
+        },
+        {
+          "text": "οἱ ἄνθρωποι καὶ ὁ κύων εἰς τὴν οἰκίαν πάλιν ἔρχονται· ἡ Ἐλπὶς τὸν φίλον κύνα φιλεῖ.",
+          "glosses": []
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "γιγνομαι",
+      "pic": "verb-gignetai",
+      "gloss_grc": "νὺξ γίγνεται"
+    },
+    {
+      "id": "βουλομαι",
+      "pic": "verb-bouletai",
+      "gloss_grc": "βούλεται ζητεῖν"
+    },
+    {
+      "id": "φοβεομαι",
+      "pic": "verb-phobeitai",
+      "gloss_grc": "φοβεῖται · φοβοῦμαι"
+    },
+    {
+      "id": "αφικνεομαι",
+      "pic": "verb-aphikneitai",
+      "gloss_grc": "εἰς τὴν οἰκίαν ἀφικνεῖται"
+    },
+    {
+      "id": "ερχομαι",
+      "pic": "verb-erchetai",
+      "gloss_grc": "ἔρχεται · ἔρχονται"
+    },
+    {
+      "id": "μαχομαι",
+      "pic": "verb-machontai",
+      "gloss_grc": "οἱ κύνες μάχονται"
+    },
+    {
+      "id": "φευγω",
+      "pic": "verb-pheugei"
+    },
+    {
+      "id": "νυξ",
+      "pic": "nyx",
+      "gloss_grc": "ἡ νύξ · τῆς νυκτός · ↔ ἡ ἡμέρα"
+    },
+    {
+      "id": "αλλος",
+      "pic": "allos",
+      "gloss_grc": "ἄλλος · ἄλλη · ἄλλο"
+    },
+    {
+      "id": "παλιν",
+      "gloss_grc": "πάλιν ἔρχεται"
+    },
+    {
+      "id": "εκει",
+      "gloss_grc": "ἐκεῖ"
+    },
+    {
+      "id": "φιλος",
+      "pic": "philos",
+      "gloss_grc": "< φιλέω"
+    }
+  ],
+  "notice": [
+    "οἱ κύνες μάχονται. — ὁ κύων μάχεται.",
+    "ὁ Λύσις εἰς τὴν οἰκίαν ἀφικνεῖται· ὁ Λάβρος οὐκ ἀφικνεῖται.",
+    "ἡ Ἐλπὶς φοβεῖται. — «οὐ φοβοῦμαι.» — «τί βούλεσθε;»",
+    "νὺξ γίγνεται.",
+    "βούλομαι τὸν Λάβρον ζητεῖν."
+  ],
+  "grammar": {
+    "md": "**The middle voice.** Every Greek verb form you have met so far is *active*: λύει, ἔχει, φιλοῦσιν. Greek verbs have a second set of endings, the **middle**:\n\n| | βούλομαι | φοβέομαι (contract) | ending |\n|---|---|---|---|\n| I | βούλ**ομαι** | φοβ**οῦμαι** | -ομαι |\n| you (sg.) | βούλ**ει** / βούλ**ῃ** | φοβ**εῖ** / φοβ**ῇ** | -ει / -ῃ |\n| he, she, it | βούλ**εται** | φοβ**εῖται** | -εται |\n| we | βουλ**όμεθα** | φοβ**ούμεθα** | -όμεθα |\n| you (pl.) | βούλ**εσθε** | φοβ**εῖσθε** | -εσθε |\n| they | βούλ**ονται** | φοβ**οῦνται** | -ονται |\n\nWith an -έω stem the ε contracts as in φιλεῖ: φοβε-εται → φοβεῖται, ἀφικνε-ονται → ἀφικνοῦνται.\n\n**What the middle means.** The subject is somehow involved in or affected by the action: λούει 'washes (someone)' but λούεται 'washes *himself*'; παύει 'stops (something)' but παύεται 'stops, comes to a halt'. Often the middle cannot be translated separately; you simply learn which verbs use it.\n\n**Deponents.** Some very common verbs have *only* middle forms, with plain active meanings. Learn them with their -ομαι ending: **γίγνομαι** become, happen (νὺξ γίγνεται 'night falls'); **βούλομαι** want; **φοβέομαι** fear; **ἀφικνέομαι** arrive; **ἔρχομαι** come, go; **μάχομαι** fight. Their dictionary form ends in -ομαι, not -ω.\n\n**Middle imperatives.** 'Don't fight!' μὴ μάχ**ου**; 'don't be afraid!' μὴ φοβ**οῦ**; plural μὴ μάχ**εσθε**, μὴ φοβ**εῖσθε**. Prohibitions take **μή**, not οὐ.\n\n**βούλομαι + infinitive.** 'I want *to look for* the dog': βούλομαι τὸν Λάβρον **ζητεῖν**. The infinitive of an active verb ends in **-ειν** (ζητεῖν, βαίνειν, ἔχειν; ὁρᾶν from ὁράω). Recognize it now; more in Unit 4.\n\n**Third declension continued**: ἡ νύξ, τῆς νυκτός, τὴν νύκτα, ἐν τῇ νυκτί (stem νυκτ-, like φύλαξ: κ + ς = ξ).",
+    "paradigms": [
+      "gignomai",
+      "luo",
+      "poieo"
+    ],
+    "diagram": "diagram-middle-voice"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the middle endings.",
+      "template": "ὁ Λύσις εἰς τὴν οἰκίαν ἀφικνεῖ___. οἱ κύνες μάχ___. ἡ Ἐλπὶς φοβεῖ___. ὁ Λύσις λέγει· «βούλ___ τὸν Λάβρον ζητεῖν.»",
+      "gaps": [
+        {
+          "answers": [
+            "ται"
+          ]
+        },
+        {
+          "answers": [
+            "ονται"
+          ]
+        },
+        {
+          "answers": [
+            "ται"
+          ]
+        },
+        {
+          "answers": [
+            "ομαι"
+          ]
+        }
+      ],
+      "skills": [
+        "verb.pres.mp.ind.3sg",
+        "verb.pres.mp.ind.3pl",
+        "verb.pres.mp.ind.1sg"
+      ],
+      "explain": "ἀφικνεῖται (he), μάχονται (they), φοβεῖται (she), βούλομαι (I)."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · νὺξ ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "γίγνεται"
+        },
+        {
+          "id": "b",
+          "text": "γίγνονται"
+        },
+        {
+          "id": "c",
+          "text": "γίγνομαι"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "verb.pres.mp.ind.3sg",
+        "verb.deponent",
+        "verb.middle-meaning"
+      ],
+      "explain": "One subject, νύξ: γίγνεται 'night falls'.",
+      "audio": "νὺξ γίγνεται."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ὁ Ἀρίστων καὶ ὁ Λύσις ἐκ τῆς οἰκίας ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἔρχεται"
+        },
+        {
+          "id": "b",
+          "text": "ἔρχονται"
+        },
+        {
+          "id": "c",
+          "text": "ἔρχομαι"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "verb.pres.mp.ind.3pl",
+        "verb.deponent"
+      ],
+      "explain": "Two subjects: ἔρχονται.",
+      "audio": "ὁ Ἀρίστων καὶ ὁ Λύσις ἐκ τῆς οἰκίας ἔρχονται."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · «ὦ Λάβρε, ___ μάχου!»",
+      "options": [
+        {
+          "id": "a",
+          "text": "οὐ"
+        },
+        {
+          "id": "b",
+          "text": "οὐκ"
+        },
+        {
+          "id": "c",
+          "text": "μή"
+        }
+      ],
+      "answer": "c",
+      "skills": [
+        "syntax.imperative",
+        "verb.pres.mp.imp.2sg"
+      ],
+      "explain": "A prohibition takes μή: μὴ μάχου 'don't fight!'.",
+      "audio": "ὦ Λάβρε, μὴ μάχου!"
+    },
+    {
+      "type": "pick-picture",
+      "prompt": "μάχονται",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "image": "verb-machontai"
+        },
+        {
+          "id": "b",
+          "image": "verb-pheugei"
+        },
+        {
+          "id": "c",
+          "image": "verb-erchetai"
+        },
+        {
+          "id": "d",
+          "image": "verb-katheudei"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition"
+      ],
+      "explain": "μάχονται: they fight. φεύγει: flees. ἔρχεται: comes."
+    },
+    {
+      "type": "pick-picture",
+      "prompt": "φοβεῖται",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "image": "verb-bouletai"
+        },
+        {
+          "id": "b",
+          "image": "verb-phobeitai"
+        },
+        {
+          "id": "c",
+          "image": "verb-gignetai"
+        },
+        {
+          "id": "d",
+          "image": "verb-aphikneitai"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "vocab.recognition",
+        "verb.middle-meaning"
+      ],
+      "explain": "φοβεῖται: is afraid. βούλεται: wants. γίγνεται: becomes. ἀφικνεῖται: arrives."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the form of βούλομαι for 'they want'.",
+      "lemma": "βούλομαι",
+      "cell": "present.middle.indicative.3pl",
+      "skills": [
+        "verb.pres.mp.ind.3pl",
+        "verb.deponent"
+      ],
+      "explain": "βούλονται.",
+      "audio": "βούλονται"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the form of φοβέομαι for 'I am afraid'.",
+      "lemma": "φοβέομαι",
+      "cell": "present.middle.indicative.1sg",
+      "skills": [
+        "verb.pres.mp.ind.1sg",
+        "verb.contract.e"
+      ],
+      "explain": "φοβοῦμαι (φοβε-ομαι contracts to -οῦμαι).",
+      "audio": "φοβοῦμαι"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the form of ἀφικνέομαι for 'he arrives'.",
+      "lemma": "ἀφικνέομαι",
+      "cell": "present.middle.indicative.3sg",
+      "skills": [
+        "verb.pres.mp.ind.3sg",
+        "verb.contract.e"
+      ],
+      "explain": "ἀφικνεῖται.",
+      "audio": "ἀφικνεῖται"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἔρχονται.",
+      "form": "ἔρχονται",
+      "groups": [
+        {
+          "id": "person",
+          "label": "Who?",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "I"
+            },
+            {
+              "id": "2sg",
+              "label": "you (one)"
+            },
+            {
+              "id": "3sg",
+              "label": "he / she / it"
+            },
+            {
+              "id": "1pl",
+              "label": "we"
+            },
+            {
+              "id": "2pl",
+              "label": "you (several)"
+            },
+            {
+              "id": "3pl",
+              "label": "they"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "person": "3pl"
+      },
+      "skills": [
+        "verb.pres.mp.ind.3pl"
+      ],
+      "explain": "-ονται: they come.",
+      "audio": "ἔρχονται"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse φοβεῖσθε.",
+      "form": "φοβεῖσθε",
+      "groups": [
+        {
+          "id": "person",
+          "label": "Who?",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "I"
+            },
+            {
+              "id": "2sg",
+              "label": "you (one)"
+            },
+            {
+              "id": "3sg",
+              "label": "he / she / it"
+            },
+            {
+              "id": "1pl",
+              "label": "we"
+            },
+            {
+              "id": "2pl",
+              "label": "you (several)"
+            },
+            {
+              "id": "3pl",
+              "label": "they"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "person": "2pl"
+      },
+      "skills": [
+        "verb.pres.mp.ind.2pl"
+      ],
+      "explain": "-εσθε (contracted -εῖσθε): you (plural) are afraid.",
+      "audio": "φοβεῖσθε"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἡ Ἐλπὶς τὴν νύκτα ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "φοβεῖται"
+        },
+        {
+          "id": "b",
+          "text": "φοβοῦμαι"
+        },
+        {
+          "id": "c",
+          "text": "φοβοῦνται"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "verb.pres.mp.ind.3sg",
+        "verb.deponent"
+      ],
+      "explain": "One subject: φοβεῖται."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "οἱ ἄνθρωποι εἰς τὸ ἐργαστήριον ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἀφικνεῖται"
+        },
+        {
+          "id": "b",
+          "text": "ἀφικνοῦνται"
+        },
+        {
+          "id": "c",
+          "text": "ἀφικνοῦμαι"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "verb.pres.mp.ind.3pl"
+      ],
+      "explain": "Plural subject: ἀφικνοῦνται."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ὁ Λύσις βούλεται τὸν κύνα ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ζητεῖ"
+        },
+        {
+          "id": "b",
+          "text": "ζητεῖν"
+        },
+        {
+          "id": "c",
+          "text": "ζητοῦσιν"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "syntax.infinitive",
+        "verb.pres.act.inf"
+      ],
+      "explain": "After βούλεται the infinitive: ζητεῖν 'to look for'."
+    },
+    {
+      "type": "transform",
+      "prompt": "Make the subject plural: ὁ κύων μάχεται. → οἱ κύνες …",
+      "template": "οἱ κύνες ___.",
+      "gaps": [
+        {
+          "answers": [
+            "μάχονται"
+          ]
+        }
+      ],
+      "skills": [
+        "verb.pres.mp.ind.3pl"
+      ],
+      "explain": "μάχονται.",
+      "audio": "οἱ κύνες μάχονται."
+    },
+    {
+      "type": "transform",
+      "prompt": "Make the subject singular: οἱ ἄνθρωποι εἰς τὴν οἰκίαν ἔρχονται. → ὁ ἄνθρωπος …",
+      "template": "ὁ ἄνθρωπος εἰς τὴν οἰκίαν ___.",
+      "gaps": [
+        {
+          "answers": [
+            "ἔρχεται"
+          ]
+        }
+      ],
+      "skills": [
+        "verb.pres.mp.ind.3sg"
+      ],
+      "explain": "ἔρχεται.",
+      "audio": "ὁ ἄνθρωπος εἰς τὴν οἰκίαν ἔρχεται."
+    },
+    {
+      "type": "transform",
+      "prompt": "Say it about yourself: ὁ Λύσις οὐ φοβεῖται. → οὐ …",
+      "template": "οὐ ___.",
+      "gaps": [
+        {
+          "answers": [
+            "φοβοῦμαι"
+          ]
+        }
+      ],
+      "skills": [
+        "verb.pres.mp.ind.1sg",
+        "verb.contract.e"
+      ],
+      "explain": "οὐ φοβοῦμαι 'I am not afraid'.",
+      "audio": "οὐ φοβοῦμαι."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap every middle verb (ending in -ται).",
+      "sentence": "ὁ Λύσις εἰς τὴν οἰκίαν ἀφικνεῖται· νὺξ γίγνεται· ἡ Ἐλπὶς φοβεῖται.",
+      "answer": [
+        5,
+        7,
+        10
+      ],
+      "skills": [
+        "read.locate",
+        "verb.pres.mp.ind.3sg"
+      ],
+      "explain": "ἀφικνεῖται, γίγνεται, φοβεῖται."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the infinitive ('to …').",
+      "sentence": "ἡ Ἐλπὶς βούλεται τὸν κύνα ζητεῖν, ἀλλὰ τὴν νύκτα φοβεῖται.",
+      "answer": [
+        5
+      ],
+      "skills": [
+        "read.locate",
+        "syntax.infinitive"
+      ],
+      "explain": "ζητεῖν 'to look for', after βούλεται."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'Lysis wants to look for the dog.'",
+      "tokens": [
+        "βούλεται",
+        "ζητεῖν",
+        "ὁ",
+        "τὸν",
+        "Λύσις",
+        "κύνα"
+      ],
+      "answers": [
+        "ὁ Λύσις βούλεται τὸν κύνα ζητεῖν",
+        "ὁ Λύσις τὸν κύνα ζητεῖν βούλεται",
+        "ὁ Λύσις τὸν κύνα βούλεται ζητεῖν",
+        "ὁ Λύσις βούλεται ζητεῖν τὸν κύνα"
+      ],
+      "skills": [
+        "syntax.word-order",
+        "syntax.infinitive"
+      ],
+      "explain": "ὁ Λύσις βούλεται τὸν κύνα ζητεῖν."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "audio": "οἱ κύνες ἐν τῇ ὁδῷ μάχονται.",
+      "options": [
+        {
+          "id": "a",
+          "text": "οἱ κύνες ἐν τῇ ὁδῷ μάχονται."
+        },
+        {
+          "id": "b",
+          "text": "ὁ κύων ἐν τῇ ὁδῷ μάχεται."
+        },
+        {
+          "id": "c",
+          "text": "οἱ κύνες ἐν τῇ ὁδῷ καθεύδουσιν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences",
+        "verb.pres.mp.ind.3pl"
+      ],
+      "explain": "The dogs are fighting in the street."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Λάβρος φεύγει.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ὁ ἄλλος κύων μέγας ἐστίν, ὁ Λάβρος οὖν φεύγει."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ἡ Ἐλπὶς τὴν νύκτα οὐ φοβεῖται.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension",
+        "syntax.negation"
+      ],
+      "explain": "ἡ Ἐλπὶς τὴν νύκτα φοβεῖται· ὁ Λύσις οὐ φοβεῖται."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Λάβρος ἐν τῷ ἐργαστηρίῳ καθεύδει.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ναί· ἀεὶ γὰρ εἰς τὸ ἐργαστήριον ἀφικνεῖται."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "audio": "νὺξ γίγνεται· ὁ Λάβρος οὐκ ἀφικνεῖται.",
+      "gaps": [
+        {
+          "answers": [
+            "νὺξ γίγνεται· ὁ Λάβρος οὐκ ἀφικνεῖται",
+            "νὺξ γίγνεται. ὁ Λάβρος οὐκ ἀφικνεῖται"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "νὺξ γίγνεται· ὁ Λάβρος οὐκ ἀφικνεῖται."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'The dogs are fighting.'",
+      "gaps": [
+        {
+          "answers": [
+            "οἱ κύνες μάχονται",
+            "μάχονται οἱ κύνες"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "verb.pres.mp.ind.3pl"
+      ],
+      "explain": "οἱ κύνες μάχονται."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'I am not afraid of the night.'",
+      "gaps": [
+        {
+          "answers": [
+            "οὐ φοβοῦμαι τὴν νύκτα",
+            "τὴν νύκτα οὐ φοβοῦμαι",
+            "ἐγὼ οὐ φοβοῦμαι τὴν νύκτα",
+            "ἐγὼ τὴν νύκτα οὐ φοβοῦμαι"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "verb.pres.mp.ind.1sg"
+      ],
+      "explain": "οὐ φοβοῦμαι τὴν νύκτα."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: ἀεὶ γὰρ εἰς τὸ ἐργαστήριον ἀφικνεῖται· ἄρτον γὰρ ἐκεῖ εὑρίσκει.",
+      "audio": "ἀεὶ γὰρ εἰς τὸ ἐργαστήριον ἀφικνεῖται· ἄρτον γὰρ ἐκεῖ εὑρίσκει.",
+      "model": "For he always ends up at the workshop, because he finds bread there.",
+      "skills": [
+        "read.comprehension",
+        "verb.deponent",
+        "verb.middle-meaning"
+      ],
+      "explain": "ἀφικνεῖται 'arrives'; ἐκεῖ 'there'."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "φοβέομαι",
+          "right": "phobia"
+        },
+        {
+          "left": "γίγνομαι",
+          "right": "genesis"
+        },
+        {
+          "left": "μάχομαι",
+          "right": "Titanomachy (battle of the Titans)"
+        },
+        {
+          "left": "ἄλλος",
+          "right": "allergy (other-working)"
+        },
+        {
+          "left": "πάλιν",
+          "right": "palindrome (running back)"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "φόβος 'fear'; γένεσις 'coming into being'; -μαχία 'fight'; ἀλλ-έργεια; παλίν-δρομος."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "ποῦ μάχονται οἱ κύνες;",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐν τῇ ὁδῷ."
+        },
+        {
+          "id": "b",
+          "text": "ἐν τῇ οἰκίᾳ."
+        },
+        {
+          "id": "c",
+          "text": "ἐν τῷ ἐργαστηρίῳ."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἐν τῇ ὁδῷ ἄλλος κύων ἐστίν· οἱ κύνες μάχονται."
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίς τὴν νύκτα φοβεῖται;",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ Λύσις."
+        },
+        {
+          "id": "b",
+          "text": "ἡ Ἐλπίς."
+        },
+        {
+          "id": "c",
+          "text": "ὁ Σύρος."
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "read.comprehension",
+        "verb.deponent"
+      ],
+      "explain": "ἡ Ἐλπὶς τὴν νύκτα φοβεῖται."
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί βούλεται ὁ Λύσις;",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "καθεύδειν."
+        },
+        {
+          "id": "b",
+          "text": "τὸν Λάβρον ζητεῖν."
+        },
+        {
+          "id": "c",
+          "text": "εἰς τὴν ἀγορὰν βαίνειν."
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "read.comprehension",
+        "syntax.infinitive"
+      ],
+      "explain": "«βούλομαι τὸν Λάβρον ζητεῖν.»"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "ποῖ ἀφικνεῖται ὁ Λάβρος; (ποῖ = where to?)",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "εἰς τὸ ἐργαστήριον."
+        },
+        {
+          "id": "b",
+          "text": "εἰς τὴν ἀγοράν."
+        },
+        {
+          "id": "c",
+          "text": "εἰς τὴν κρήνην."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἀεὶ εἰς τὸ ἐργαστήριον ἀφικνεῖται."
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "ἆρα ὁ Λάβρος ἀπόλλυται;",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "ναί, ἀπόλλυται."
+        },
+        {
+          "id": "b",
+          "text": "οὔ· ἐν τῷ ἐργαστηρίῳ καθεύδει."
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "He is not lost after all: ὁ Λάβρος ἐν τῷ ἐργαστηρίῳ καθεύδει."
+    }
+  ],
+  "culture": {
+    "title": "Dogs, and the city after dark",
+    "md": "Athens was full of dogs. Every house of any size kept one at the door, and vase painters put them under the dining couches, beside boys on their way to school and at the feet of the dead on gravestones. Hunting hounds from Laconia were the aristocrat's pride (Xenophon wrote a whole treatise on them), heavy Molossians guarded farms and flocks, and tiny long-haired Maltese dogs sat on ladies' laps. A dog's name usually described it: Labros means 'boisterous, greedy'. In Aristophanes' *Wasps* (422 BC) a household dog called Labes, 'Grabber', is put on trial for stealing a Sicilian cheese; his accuser is another dog. The Athenians laughed because they knew the type.\n\nAfter sunset the city went dark. There was no street lighting; anyone who had to go out carried a torch or a small clay oil lamp (λύχνος), and most people simply stayed in. The streets of Kydathenaion were narrow, crooked and unpaved, easy to lose a dog in and easy to lose yourself in. Public order, such as it was, rested with the magistrates and their three hundred Scythian archers, publicly owned slaves who did the rough work of policing; there were no patrols. Syros sleeping at the workshop is not unusual: slaves often lived where they worked, and a kiln that had been fired that day kept the place warm and dry. Dogs knew that too.",
+    "image": "culture-dog-wasps"
+  },
+  "quiz": [
+    {
+      "type": "cloze-choice",
+      "prompt": "οἱ κύνες ἐν τῇ ὁδῷ ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "μάχεται"
+        },
+        {
+          "id": "b",
+          "text": "μάχονται"
+        },
+        {
+          "id": "c",
+          "text": "μάχομαι"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "verb.pres.mp.ind.3pl"
+      ],
+      "explain": "Plural subject: μάχονται."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the form of γίγνομαι for 'it becomes' (νὺξ …).",
+      "lemma": "γίγνομαι",
+      "cell": "present.middle.indicative.3sg",
+      "skills": [
+        "verb.pres.mp.ind.3sg",
+        "verb.deponent"
+      ],
+      "explain": "νὺξ γίγνεται.",
+      "audio": "γίγνεται"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse βούλεσθε.",
+      "form": "βούλεσθε",
+      "groups": [
+        {
+          "id": "person",
+          "label": "Who?",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "I"
+            },
+            {
+              "id": "3sg",
+              "label": "he / she / it"
+            },
+            {
+              "id": "1pl",
+              "label": "we"
+            },
+            {
+              "id": "2pl",
+              "label": "you (several)"
+            },
+            {
+              "id": "3pl",
+              "label": "they"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "person": "2pl"
+      },
+      "skills": [
+        "verb.pres.mp.ind.2pl"
+      ],
+      "explain": "-εσθε: you (plural) want.",
+      "audio": "βούλεσθε"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἡ Ἐλπὶς βούλεται τὸν κύνα ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ζητεῖν"
+        },
+        {
+          "id": "b",
+          "text": "ζητεῖ"
+        },
+        {
+          "id": "c",
+          "text": "ζητεῖται"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.infinitive"
+      ],
+      "explain": "βούλεται + infinitive: ζητεῖν."
+    },
+    {
+      "type": "pick-picture",
+      "prompt": "νύξ",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "image": "hemera"
+        },
+        {
+          "id": "b",
+          "image": "nyx"
+        },
+        {
+          "id": "c",
+          "image": "helios"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "vocab.recognition"
+      ],
+      "explain": "νύξ: night. ἡμέρα: day. ἥλιος: sun."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Σύρος τὸν Λάβρον ἐν τῷ ἐργαστηρίῳ ὁρᾷ.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "«ναί· ὁ Λάβρος ἐν τῷ ἐργαστηρίῳ καθεύδει.»"
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'Night is falling.'",
+      "gaps": [
+        {
+          "answers": [
+            "νὺξ γίγνεται",
+            "γίγνεται νύξ",
+            "νὺξ γίγνεται.",
+            "ἡ νὺξ γίγνεται"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "verb.pres.mp.ind.3sg"
+      ],
+      "explain": "νὺξ γίγνεται."
+    }
+  ],
+  "skills": [
+    "verb.pres.mp.ind.1sg",
+    "verb.pres.mp.ind.2pl",
+    "verb.pres.mp.ind.3sg",
+    "verb.pres.mp.ind.3pl",
+    "verb.pres.mp.imp.2sg",
+    "verb.deponent",
+    "verb.middle-meaning",
+    "verb.contract.e",
+    "syntax.imperative",
+    "syntax.infinitive",
+    "verb.pres.act.inf",
+    "syntax.negation",
+    "syntax.word-order",
+    "read.comprehension",
+    "read.locate",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.family"
+  ]
+}

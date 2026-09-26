@@ -1,0 +1,1332 @@
+{
+  "id": "3.2",
+  "title_grc": "ὁ πολίτης καὶ ὁ νεανίας",
+  "title_en": "The citizen and the young man",
+  "summary_grc": "ὁ Δημόκριτος ἐν τῇ ἀγορᾷ λέγει· «οὗτός ἐστιν ὁ ἐμὸς λόγος.»",
+  "summary_en": "Democritus holds forth in the agora: masculine nouns of the first declension, 'my' and 'your', and 'this' and 'that'.",
+  "cover": "panel-3-2-a",
+  "caption_grc": "οἱ μὲν πολῖται λέγουσιν, οἱ δὲ νεανίαι ἀκούουσιν.",
+  "names": {
+    "Λακεδαιμόνιοι": [
+      "Λακεδαιμονίων",
+      "Λακεδαιμονίοις",
+      "Λακεδαιμονίους"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "panel-3-2-a",
+      "sentences": [
+        {
+          "text": "ὁ Ἀρίστων καὶ ὁ Λύσις καὶ ὁ Λάβρος εἰς τὴν ἀγορὰν βαίνουσιν.",
+          "glosses": []
+        },
+        {
+          "text": "ἐν τῇ ἀγορᾷ πολλοὶ πολῖταί εἰσιν· οἱ μὲν πολῖται λέγουσιν, οἱ δὲ νεανίαι ἀκούουσιν.",
+          "glosses": [
+            {
+              "word": "πολλοὶ",
+              "kind": "en",
+              "value": "many (Unit 4)"
+            },
+            {
+              "word": "πολῖταί",
+              "kind": "pic",
+              "value": "polites"
+            },
+            {
+              "word": "μὲν",
+              "kind": "=",
+              "value": "οἱ μὲν Α, οἱ δὲ Β: some … others …"
+            },
+            {
+              "word": "νεανίαι",
+              "kind": "pic",
+              "value": "neanias"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Δημόκριτος ἐν τῇ ἀγορᾷ ἐστιν· γεωργός ἐστι καὶ πολίτης Ἀθηναῖος.",
+          "glosses": [
+            {
+              "word": "πολίτης",
+              "kind": "|",
+              "value": "ὁ πολίτης | οἱ πολῖται"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Δημόκριτος τὸν Ἀρίστωνα ὁρᾷ καὶ λέγει· «χαῖρε, ὦ Ἀρίστων! ἆρα οὗτος ὁ σὸς παῖς ἐστιν;»",
+          "glosses": [
+            {
+              "word": "χαῖρε",
+              "kind": "en",
+              "value": "hello! (a greeting)"
+            },
+            {
+              "word": "ὦ",
+              "kind": "en",
+              "value": "O! (calling someone)"
+            },
+            {
+              "word": "ἆρα",
+              "kind": "=",
+              "value": "ἆρα …; = a question"
+            },
+            {
+              "word": "οὗτος",
+              "kind": "pic",
+              "value": "houtos-ekeinos"
+            },
+            {
+              "word": "σὸς",
+              "kind": "=",
+              "value": "σός: your (one person) · ἐμός: my"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Ἀρίστων λέγει· «ναί, οὗτός ἐστιν ὁ ἐμὸς παῖς, ὁ Λύσις.»",
+          "glosses": [
+            {
+              "word": "ἐμὸς",
+              "kind": "↔",
+              "value": "σός"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Δημόκριτος· «καλὸς παῖς. ὁ δὲ ἐμὸς παῖς νεανίας ἐστὶ νῦν· ἐκεῖνός ἐστιν.»",
+          "glosses": [
+            {
+              "word": "ἐκεῖνός",
+              "kind": "pic",
+              "value": "houtos-ekeinos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "panel-3-2-b",
+      "sentences": [
+        {
+          "text": "ὁ Δημόκριτος ἀεὶ λέγει· τοὺς γὰρ λόγους φιλεῖ.",
+          "glosses": [
+            {
+              "word": "λόγους",
+              "kind": "pic",
+              "value": "logos"
+            }
+          ]
+        },
+        {
+          "text": "«ὁρᾷς ἐκείνους τοὺς νεανίας; οὐ πονοῦσιν, ἀλλὰ ἀεὶ λέγουσι καὶ ἀκούουσιν. κακοὶ πολῖταί εἰσιν!»",
+          "glosses": [
+            {
+              "word": "ὁρᾷς",
+              "kind": "|",
+              "value": "ὁρᾷ | ὁρᾷς (you see)"
+            },
+            {
+              "word": "ἐκείνους",
+              "kind": "|",
+              "value": "ἐκεῖνος | ἐκείνους"
+            },
+            {
+              "word": "κακοὶ",
+              "kind": "pic",
+              "value": "agathos-kakos"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Ἀρίστων λέγει· «ἀλλὰ οὗτοι οἱ νεανίαι τοὺς λόγους τοῦ Σωκράτους ἀκούουσιν.»",
+          "glosses": [
+            {
+              "word": "οὗτοι",
+              "kind": "|",
+              "value": "οὗτος | οὗτοι"
+            },
+            {
+              "word": "Σωκράτους",
+              "kind": "|",
+              "value": "ὁ Σωκράτης | τοῦ Σωκράτους"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Δημόκριτος τὸν κεραμέα ὁρᾷ· «ἐκεῖνος ὁ ἄνθρωπος ξένος ἐστίν· οὐ πολίτης ἐστίν, ἀλλὰ μέτοικος.»",
+          "glosses": [
+            {
+              "word": "κεραμέα",
+              "kind": "|",
+              "value": "ὁ κεραμεύς | τὸν κεραμέα"
+            },
+            {
+              "word": "ξένος",
+              "kind": "pic",
+              "value": "xenos"
+            },
+            {
+              "word": "μέτοικος",
+              "kind": "<",
+              "value": "μετά + οἶκος: a foreigner who lives in Athens (metic)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Ἀρίστων· «ναί, ξένος ἐστίν, ἀλλὰ ἀγαθὸς κεραμεύς ἐστι καὶ ἀγαθὸς ἀνήρ.»",
+          "glosses": [
+            {
+              "word": "ἀγαθὸς",
+              "kind": "↔",
+              "value": "κακός"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "panel-3-2-c",
+      "sentences": [
+        {
+          "text": "ὁ Δημόκριτος λέγει· «οἱ Λακεδαιμόνιοι κακοί εἰσιν· πόλεμον ζητοῦσιν. ἀλλὰ ἡ ἡμετέρα πόλις ἀγαθή ἐστι καὶ μεγάλη.»",
+          "glosses": [
+            {
+              "word": "Λακεδαιμόνιοι",
+              "kind": "en",
+              "value": "the Spartans"
+            },
+            {
+              "word": "πόλεμον",
+              "kind": "pic",
+              "value": "polemos"
+            },
+            {
+              "word": "ἡμετέρα",
+              "kind": "=",
+              "value": "ἐμός · σός · ἡμέτερος (our)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Λύσις λέγει· «ἆρα πόλεμός ἐστιν;»",
+          "glosses": []
+        },
+        {
+          "text": "ὁ Ἀρίστων λέγει· «οὐκ ἔστι πόλεμος ἐν τῇ ἡμετέρᾳ πόλει, ὦ Λύσι· ὁ Δημόκριτος ἀεὶ τοῦτον τὸν λόγον λέγει.»",
+          "glosses": [
+            {
+              "word": "ἔστι",
+              "kind": "=",
+              "value": "οὐκ ἔστι = there is not"
+            },
+            {
+              "word": "τοῦτον",
+              "kind": "|",
+              "value": "οὗτος | τοῦτον"
+            }
+          ]
+        },
+        {
+          "text": "ὁ Δημόκριτος· «ὁ σὸς παῖς τοὺς ἐμοὺς λόγους οὐκ ἀκούει· ἀλλὰ οἱ ἐμοὶ λόγοι ἀγαθοί εἰσιν.»",
+          "glosses": []
+        },
+        {
+          "text": "ὁ Ἀρίστων καὶ ὁ Λύσις εἰς τὸ ἐργαστήριον βαίνουσιν· ὁ δὲ Δημόκριτος λέγει καὶ λέγει.",
+          "glosses": []
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "πολιτης",
+      "pic": "polites",
+      "gloss_grc": "ὁ πολίτης · τοῦ πολίτου · οἱ πολῖται"
+    },
+    {
+      "id": "νεανιας",
+      "pic": "neanias",
+      "gloss_grc": "ὁ νεανίας · τοῦ νεανίου"
+    },
+    {
+      "id": "ξενος",
+      "pic": "xenos",
+      "gloss_grc": "οὐ πολίτης"
+    },
+    {
+      "id": "λογος",
+      "pic": "logos",
+      "gloss_grc": "< λέγω"
+    },
+    {
+      "id": "πολεμος",
+      "pic": "polemos"
+    },
+    {
+      "id": "εμος",
+      "gloss_grc": "ὁ ἐμὸς παῖς"
+    },
+    {
+      "id": "σος",
+      "gloss_grc": "ὁ σὸς παῖς"
+    },
+    {
+      "id": "ημετερος",
+      "gloss_grc": "ἡ ἡμετέρα πόλις"
+    },
+    {
+      "id": "ουτος",
+      "pic": "houtos-ekeinos",
+      "gloss_grc": "οὗτος · αὕτη · τοῦτο"
+    },
+    {
+      "id": "εκεινος",
+      "pic": "houtos-ekeinos",
+      "gloss_grc": "ἐκεῖνος · ἐκείνη · ἐκεῖνο"
+    },
+    {
+      "id": "αγαθος",
+      "pic": "agathos-kakos",
+      "gloss_grc": "↔ κακός"
+    },
+    {
+      "id": "κακος",
+      "pic": "agathos-kakos",
+      "gloss_grc": "↔ ἀγαθός"
+    }
+  ],
+  "notice": [
+    "ὁ πολίτης · τοῦ πολίτου · οἱ πολῖται · τοὺς πολίτας",
+    "ὁ νεανίας · τοῦ νεανίου · οἱ νεανίαι · τοὺς νεανίας",
+    "οὗτός ἐστιν ὁ ἐμὸς παῖς. — ἆρα οὗτος ὁ σὸς παῖς ἐστιν;",
+    "ἐκεῖνος ὁ ἄνθρωπος ξένος ἐστίν. — ἐκείνους τοὺς νεανίας ὁρᾷς;",
+    "οἱ μὲν πολῖται λέγουσιν, οἱ δὲ νεανίαι ἀκούουσιν."
+  ],
+  "grammar": {
+    "md": "**Masculine nouns of the first declension.** A few nouns for men end in -ης or -ας and take the article ὁ: ὁ πολίτης, ὁ νεανίας, ὁ ναύτης, ὁ δεσπότης, and names like Κλεινίας. They follow ἡ κρήνη / ἡ οἰκία except in two places: the **genitive singular is -ου** (borrowed from the second declension) and the nominative singular has **-ς**.\n\n| | ὁ πολίτης | ὁ νεανίας |\n|---|---|---|\n| nom. sg. | πολίτ**ης** | νεανί**ας** |\n| gen. sg. | πολίτ**ου** | νεανί**ου** |\n| dat. sg. | πολίτ**ῃ** | νεανί**ᾳ** |\n| acc. sg. | πολίτ**ην** | νεανί**αν** |\n| voc. sg. | πολῖτ**α** | νεανί**α** |\n| nom. pl. | πολῖτ**αι** | νεανί**αι** |\n| gen. pl. | πολιτ**ῶν** | νεανι**ῶν** |\n| dat. pl. | πολίτ**αις** | νεανί**αις** |\n| acc. pl. | πολίτ**ας** | νεανί**ας** |\n\nNouns in -της have the vocative in short -α (ὦ πολῖτα, ὦ δέσποτα). The genitive plural always has -ῶν, as in every first-declension noun.\n\n**Possessive adjectives.** ἐμός, -ή, -όν *my*; σός, -ή, -όν *your* (one person); ἡμέτερος, -α, -ον *our*; ὑμέτερος, -α, -ον *your* (several people). They are ordinary adjectives and agree with their noun: ὁ ἐμὸς παῖς, τοὺς ἐμοὺς λόγους, ἡ ἡμετέρα πόλις. They stand **between the article and the noun** (the *attributive* position): ὁ ἐμὸς παῖς or ὁ παῖς ὁ ἐμός, never ἐμὸς ὁ παῖς. Compare the genitive of possession you already know: τὸ δῶρον τοῦ Λύσιδος.\n\n**This and that (first look).** οὗτος 'this' points to what is near the speaker or just mentioned; ἐκεῖνος 'that' points to what is further away. Both agree with their noun like adjectives, but they stand **outside** the article: οὗτος ὁ παῖς, ἐκεῖνος ὁ ἄνθρωπος, ἐκείνους τοὺς νεανίας. Used alone they are pronouns: *οὗτός ἐστιν ὁ ἐμὸς παῖς* 'this (one) is my son'.\n\n| | masc. | fem. | neut. |\n|---|---|---|---|\n| this | οὗτος, τοῦτον; pl. οὗτοι | αὕτη, ταύτην; pl. αὗται | τοῦτο; pl. ταῦτα |\n| that | ἐκεῖνος, ἐκεῖνον; pl. ἐκεῖνοι | ἐκείνη, ἐκείνην; pl. ἐκεῖναι | ἐκεῖνο; pl. ἐκεῖνα |\n\nRecognize these forms now; the full tables come in Unit 6.\n\n**οἱ μὲν … οἱ δέ …** 'some … others …'. μέν announces a contrast that δέ completes; both are postpositive.\n\n**οὐκ ἔστι(ν)** 'there is not': at the head of its clause (or after οὐκ) ἐστί takes its own accent on the first syllable.",
+    "paradigms": [
+      "polites",
+      "neanias",
+      "houtos",
+      "ekeinos",
+      "agathos"
+    ],
+    "diagram": "diagram-demonstratives"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings.",
+      "template": "ὁ πολίτ___ λέγει. οἱ νεανί___ ἀκούουσιν. ὁ Δημόκριτος τοὺς νεανί___ ὁρᾷ. ὁ λόγος τοῦ πολίτ___ ἀγαθός ἐστιν.",
+      "gaps": [
+        {
+          "answers": [
+            "ης"
+          ]
+        },
+        {
+          "answers": [
+            "αι"
+          ]
+        },
+        {
+          "answers": [
+            "ας"
+          ]
+        },
+        {
+          "answers": [
+            "ου"
+          ]
+        }
+      ],
+      "skills": [
+        "noun.decl1.masc"
+      ],
+      "explain": "ὁ πολίτης (subject), οἱ νεανίαι (plural subject), τοὺς νεανίας (object), τοῦ πολίτου (genitive: -ου, like the second declension)."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ἆρα οὗτος ὁ ___ παῖς ἐστιν;",
+      "options": [
+        {
+          "id": "a",
+          "text": "σός"
+        },
+        {
+          "id": "b",
+          "text": "σή"
+        },
+        {
+          "id": "c",
+          "text": "σόν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "pron.possessive",
+        "adj.agree"
+      ],
+      "explain": "παῖς is masculine nominative: σός.",
+      "audio": "ἆρα οὗτος ὁ σὸς παῖς ἐστιν;"
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ὁ Δημόκριτος ___ τοὺς νεανίας ὁρᾷ.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐκεῖνος"
+        },
+        {
+          "id": "b",
+          "text": "ἐκείνους"
+        },
+        {
+          "id": "c",
+          "text": "ἐκείνη"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "pron.demonstrative",
+        "adj.agree"
+      ],
+      "explain": "It agrees with τοὺς νεανίας (accusative plural masculine): ἐκείνους.",
+      "audio": "ὁ Δημόκριτος ἐκείνους τοὺς νεανίας ὁρᾷ."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · οἱ ___ πολῖται λέγουσιν, οἱ δὲ νεανίαι ἀκούουσιν.",
+      "options": [
+        {
+          "id": "a",
+          "text": "μέν"
+        },
+        {
+          "id": "b",
+          "text": "γάρ"
+        },
+        {
+          "id": "c",
+          "text": "οὖν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.men-de"
+      ],
+      "explain": "οἱ μὲν … οἱ δὲ …: the citizens on the one hand, the young men on the other.",
+      "audio": "οἱ μὲν πολῖται λέγουσιν, οἱ δὲ νεανίαι ἀκούουσιν."
+    },
+    {
+      "type": "pick-picture",
+      "prompt": "πολίτης",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "image": "neanias"
+        },
+        {
+          "id": "b",
+          "image": "xenos"
+        },
+        {
+          "id": "c",
+          "image": "polites"
+        },
+        {
+          "id": "d",
+          "image": "phylax"
+        }
+      ],
+      "answer": "c",
+      "skills": [
+        "vocab.recognition"
+      ],
+      "explain": "πολίτης: citizen. νεανίας: young man. ξένος: foreigner. φύλαξ: guard."
+    },
+    {
+      "type": "pick-picture",
+      "prompt": "πόλεμος",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "image": "polemos"
+        },
+        {
+          "id": "b",
+          "image": "logos"
+        },
+        {
+          "id": "c",
+          "image": "agora"
+        },
+        {
+          "id": "d",
+          "image": "bomos"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition"
+      ],
+      "explain": "πόλεμος: war. λόγος: word, speech."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the accusative singular of πολίτης ('he sees the citizen').",
+      "lemma": "πολίτης",
+      "cell": "acc.sg",
+      "skills": [
+        "noun.decl1.masc"
+      ],
+      "explain": "τὸν πολίτην.",
+      "audio": "πολίτην"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the genitive singular of νεανίας ('of the young man').",
+      "lemma": "νεανίας",
+      "cell": "gen.sg",
+      "skills": [
+        "noun.decl1.masc"
+      ],
+      "explain": "τοῦ νεανίου: masculine -ας nouns take -ου in the genitive.",
+      "audio": "νεανίου"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the nominative plural of πολίτης ('the citizens').",
+      "lemma": "πολίτης",
+      "cell": "nom.pl",
+      "skills": [
+        "noun.decl1.masc",
+        "noun.decl1.nom.pl"
+      ],
+      "explain": "οἱ πολῖται.",
+      "audio": "πολῖται"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the accusative singular masculine of οὗτος ('this man', as object).",
+      "lemma": "οὗτος",
+      "cell": "acc.sg.m",
+      "skills": [
+        "pron.demonstrative"
+      ],
+      "explain": "τοῦτον: τοῦτον τὸν ἄνθρωπον.",
+      "audio": "τοῦτον"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse πολίτου.",
+      "form": "πολίτου",
+      "groups": [
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            }
+          ]
+        },
+        {
+          "id": "number",
+          "label": "Number",
+          "options": [
+            {
+              "id": "sg",
+              "label": "singular"
+            },
+            {
+              "id": "pl",
+              "label": "plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "case": "gen",
+        "number": "sg"
+      },
+      "skills": [
+        "noun.decl1.masc"
+      ],
+      "explain": "-ου: genitive singular, 'of the citizen'.",
+      "audio": "πολίτου"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse νεανίαι.",
+      "form": "νεανίαι",
+      "groups": [
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            }
+          ]
+        },
+        {
+          "id": "number",
+          "label": "Number",
+          "options": [
+            {
+              "id": "sg",
+              "label": "singular"
+            },
+            {
+              "id": "pl",
+              "label": "plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "case": "nom",
+        "number": "pl"
+      },
+      "skills": [
+        "noun.decl1.masc",
+        "noun.decl1.nom.pl"
+      ],
+      "explain": "-αι: nominative plural, οἱ νεανίαι.",
+      "audio": "νεανίαι"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ταύτην.",
+      "form": "ταύτην",
+      "groups": [
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            }
+          ]
+        },
+        {
+          "id": "gender",
+          "label": "Gender",
+          "options": [
+            {
+              "id": "m",
+              "label": "masculine"
+            },
+            {
+              "id": "f",
+              "label": "feminine"
+            },
+            {
+              "id": "n",
+              "label": "neuter"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "case": "acc",
+        "gender": "f"
+      },
+      "skills": [
+        "pron.demonstrative"
+      ],
+      "explain": "ταύτην: accusative singular feminine of οὗτος, e.g. ταύτην τὴν ὁδόν.",
+      "audio": "ταύτην"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "___ ὁ παῖς ὁ ἐμός ἐστιν.",
+      "options": [
+        {
+          "id": "a",
+          "text": "οὗτος"
+        },
+        {
+          "id": "b",
+          "text": "αὕτη"
+        },
+        {
+          "id": "c",
+          "text": "τοῦτο"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "pron.demonstrative",
+        "adj.agree"
+      ],
+      "explain": "παῖς is masculine: οὗτος."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ὁ Ἀρίστων τὸν ___ παῖδα φιλεῖ.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐμός"
+        },
+        {
+          "id": "b",
+          "text": "ἐμόν"
+        },
+        {
+          "id": "c",
+          "text": "ἐμή"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "pron.possessive",
+        "adj.agree",
+        "adj.attributive"
+      ],
+      "explain": "Agrees with τὸν παῖδα (accusative masculine): τὸν ἐμὸν παῖδα."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἡ ___ πόλις μεγάλη ἐστίν.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἡμέτερος"
+        },
+        {
+          "id": "b",
+          "text": "ἡμετέρα"
+        },
+        {
+          "id": "c",
+          "text": "ἡμέτερον"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "pron.possessive",
+        "adj.agree"
+      ],
+      "explain": "πόλις is feminine: ἡ ἡμετέρα πόλις."
+    },
+    {
+      "type": "transform",
+      "prompt": "Make it plural: ὁ πολίτης λέγει. → οἱ …",
+      "template": "___ λέγουσιν.",
+      "gaps": [
+        {
+          "answers": [
+            "οἱ πολῖται"
+          ]
+        }
+      ],
+      "skills": [
+        "noun.decl1.masc",
+        "noun.decl1.nom.pl"
+      ],
+      "explain": "οἱ πολῖται.",
+      "audio": "οἱ πολῖται λέγουσιν."
+    },
+    {
+      "type": "transform",
+      "prompt": "Point far away instead: οὗτος ὁ νεανίας → … ὁ νεανίας.",
+      "template": "___ ὁ νεανίας",
+      "gaps": [
+        {
+          "answers": [
+            "ἐκεῖνος"
+          ]
+        }
+      ],
+      "skills": [
+        "pron.demonstrative"
+      ],
+      "explain": "ἐκεῖνος ὁ νεανίας 'that young man'.",
+      "audio": "ἐκεῖνος ὁ νεανίας"
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the two demonstratives ('this', 'that').",
+      "sentence": "οὗτος ὁ παῖς ὁ ἐμός ἐστιν· ἐκεῖνος ὁ ἄνθρωπος ξένος ἐστίν.",
+      "answer": [
+        0,
+        6
+      ],
+      "skills": [
+        "read.locate",
+        "pron.demonstrative"
+      ],
+      "explain": "οὗτος (this), ἐκεῖνος (that)."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap every possessive adjective (my, your, our).",
+      "sentence": "ὁ σὸς παῖς οὐκ ἀκούει τοὺς ἐμοὺς λόγους· ἀλλὰ ἡ ἡμετέρα πόλις μεγάλη ἐστίν.",
+      "answer": [
+        1,
+        6,
+        10
+      ],
+      "skills": [
+        "read.locate",
+        "pron.possessive",
+        "adj.attributive"
+      ],
+      "explain": "σός, ἐμούς, ἡμετέρα."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'This is my son.'",
+      "tokens": [
+        "ἐμὸς",
+        "οὗτός",
+        "παῖς",
+        "ὁ",
+        "ἐστιν"
+      ],
+      "answers": [
+        "οὗτός ἐστιν ὁ ἐμὸς παῖς",
+        "ὁ ἐμὸς παῖς οὗτός ἐστιν",
+        "οὗτος ὁ ἐμὸς παῖς ἐστιν"
+      ],
+      "skills": [
+        "syntax.word-order",
+        "pron.demonstrative",
+        "pron.possessive",
+        "adj.attributive"
+      ],
+      "explain": "οὗτός ἐστιν ὁ ἐμὸς παῖς."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "audio": "ἐκεῖνος ὁ ἄνθρωπος οὐ πολίτης ἐστίν, ἀλλὰ ξένος.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐκεῖνος ὁ ἄνθρωπος οὐ πολίτης ἐστίν, ἀλλὰ ξένος."
+        },
+        {
+          "id": "b",
+          "text": "οὗτος ὁ ἄνθρωπος οὐ ξένος ἐστίν, ἀλλὰ πολίτης."
+        },
+        {
+          "id": "c",
+          "text": "ἐκεῖνος ὁ ἄνθρωπος πολίτης ἐστὶ καὶ ξένος."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences",
+        "syntax.negation"
+      ],
+      "explain": "That man is not a citizen but a foreigner."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Δημόκριτος πολίτης Ἀθηναῖός ἐστιν.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "γεωργός ἐστι καὶ πολίτης Ἀθηναῖος."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "οἱ νεανίαι ἐν τῇ ἀγορᾷ πονοῦσιν.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "οὐ πονοῦσιν· ἀεὶ λέγουσι καὶ ἀκούουσιν."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ ξένος κακὸς κεραμεύς ἐστιν.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἀγαθὸς κεραμεύς ἐστι καὶ ἀγαθὸς ἀνήρ."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "audio": "οὗτός ἐστιν ὁ ἐμὸς παῖς.",
+      "gaps": [
+        {
+          "answers": [
+            "οὗτός ἐστιν ὁ ἐμὸς παῖς"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "οὗτός ἐστιν ὁ ἐμὸς παῖς."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'That man is a foreigner.'",
+      "gaps": [
+        {
+          "answers": [
+            "ἐκεῖνος ὁ ἄνθρωπος ξένος ἐστίν",
+            "ἐκεῖνος ὁ ἄνθρωπος ξένος ἐστί",
+            "ξένος ἐστὶν ἐκεῖνος ὁ ἄνθρωπος",
+            "ἐκεῖνος ὁ ἀνὴρ ξένος ἐστίν",
+            "ἐκεῖνος ὁ ἀνὴρ ξένος ἐστί",
+            "ξένος ἐστὶν ἐκεῖνος ὁ ἀνήρ"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "pron.demonstrative"
+      ],
+      "explain": "ἐκεῖνος ὁ ἄνθρωπος ξένος ἐστίν."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'The citizens are talking in the agora.'",
+      "gaps": [
+        {
+          "answers": [
+            "οἱ πολῖται ἐν τῇ ἀγορᾷ λέγουσιν",
+            "οἱ πολῖται ἐν τῇ ἀγορᾷ λέγουσι",
+            "οἱ πολῖται λέγουσιν ἐν τῇ ἀγορᾷ",
+            "οἱ πολῖται λέγουσι ἐν τῇ ἀγορᾷ",
+            "ἐν τῇ ἀγορᾷ οἱ πολῖται λέγουσιν",
+            "ἐν τῇ ἀγορᾷ οἱ πολῖται λέγουσι"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "noun.decl1.masc"
+      ],
+      "explain": "οἱ πολῖται ἐν τῇ ἀγορᾷ λέγουσιν."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: οἱ μὲν πολῖται λέγουσιν, οἱ δὲ νεανίαι ἀκούουσιν.",
+      "audio": "οἱ μὲν πολῖται λέγουσιν, οἱ δὲ νεανίαι ἀκούουσιν.",
+      "model": "The citizens talk, while the young men listen.",
+      "skills": [
+        "read.comprehension",
+        "syntax.men-de"
+      ],
+      "explain": "μέν … δέ balances the two halves; English often uses 'while' or nothing at all."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "πολίτης",
+          "right": "politics"
+        },
+        {
+          "left": "λόγος",
+          "right": "logic"
+        },
+        {
+          "left": "πόλεμος",
+          "right": "polemic"
+        },
+        {
+          "left": "ξένος",
+          "right": "xenophobia"
+        },
+        {
+          "left": "κακός",
+          "right": "cacophony (ugly sound)"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "πολιτικά 'affairs of citizens'; λογική; πολεμικός 'warlike'; ξενο-φοβία 'fear of strangers'; κακο-φωνία."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "τίς ἐστιν ὁ Δημόκριτος;",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "γεωργὸς καὶ πολίτης."
+        },
+        {
+          "id": "b",
+          "text": "κεραμεὺς καὶ ξένος."
+        },
+        {
+          "id": "c",
+          "text": "νεανίας."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "γεωργός ἐστι καὶ πολίτης Ἀθηναῖος."
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίς λέγει «οὗτός ἐστιν ὁ ἐμὸς παῖς»;",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ Δημόκριτος."
+        },
+        {
+          "id": "b",
+          "text": "ὁ Ἀρίστων."
+        },
+        {
+          "id": "c",
+          "text": "ὁ Λύσις."
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "read.comprehension",
+        "pron.possessive"
+      ],
+      "explain": "ὁ Ἀρίστων λέγει· «ναί, οὗτός ἐστιν ὁ ἐμὸς παῖς, ὁ Λύσις.»"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "ἆρα οἱ νεανίαι πονοῦσιν;",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "ναί, πονοῦσιν."
+        },
+        {
+          "id": "b",
+          "text": "οὐ πονοῦσιν, ἀλλὰ λέγουσι καὶ ἀκούουσιν."
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "οὐ πονοῦσιν· ἐν τῇ ἀγορᾷ ἀεὶ λέγουσι καὶ ἀκούουσιν."
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίς ξένος ἐστίν;",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ κεραμεύς."
+        },
+        {
+          "id": "b",
+          "text": "ὁ Δημόκριτος."
+        },
+        {
+          "id": "c",
+          "text": "ὁ Σωκράτης."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἐκεῖνος ὁ ἄνθρωπος (ὁ κεραμεύς) ξένος ἐστίν· μέτοικος."
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί ζητοῦσιν οἱ Λακεδαιμόνιοι;",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἄρτον."
+        },
+        {
+          "id": "b",
+          "text": "πόλεμον."
+        },
+        {
+          "id": "c",
+          "text": "στεφάνους."
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "πόλεμον ζητοῦσιν, says Democritus."
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "ἆρα πόλεμός ἐστιν ἐν τῇ πόλει;",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "text": "ναί, πόλεμός ἐστιν."
+        },
+        {
+          "id": "b",
+          "text": "οὐκ ἔστι πόλεμος."
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "read.comprehension",
+        "syntax.negation"
+      ],
+      "explain": "ὁ Ἀρίστων λέγει· «οὐκ ἔστι πόλεμος ἐν τῇ ἡμετέρᾳ πόλει.» (Not yet: the war begins in the spring of 431.)"
+    }
+  ],
+  "culture": {
+    "title": "Citizens, metics and the talk of the agora",
+    "md": "Athens in 432 had perhaps 40,000 adult male **citizens** (πολῖται): men born of an Athenian father and, since Pericles' law of 451, an Athenian mother, enrolled in their father's deme at eighteen. Only they voted in the Assembly, sat on juries, owned land and held office. Around them lived the **metics** (μέτοικοι), free foreigners who had settled in Attica under a citizen sponsor: they paid a yearly tax of twelve drachmas, served in the army and paid for festivals, but could not vote, own land or marry a citizen's daughter. Many of the potters and painters of the Kerameikos were metics; names like Lydos ('the Lydian'), Skythes and Brygos on Attic vases say as much. Cephalus of Syracuse, a metic invited by Pericles, ran a shield workshop in Piraeus, and his son Lysias became the finest speech-writer of the next generation. Below both stood the slaves, and beside them the women, who did not take part in public life at all.\n\nThe agora was where a citizen learned the news. Democritus is a type Aristophanes would have recognized: the farmer who comes into town, plants himself under a stoa and tells everyone what he thinks. Young men (νεανίαι) gathered at the barbers' and perfume-sellers' shops; a certain Socrates, thirty-seven years old in 432, was already stopping them with questions. The talk that summer was of war. Corinth and Megara were pressing Sparta to act against Athens, Athens had blockaded Potidaea, and in the autumn the Spartan assembly would vote that the treaty of 446 had been broken. Democritus is wrong that there is a war; he is right that one is coming.",
+    "image": "culture-agora-citizens"
+  },
+  "quiz": [
+    {
+      "type": "cloze-choice",
+      "prompt": "ὁ Δημόκριτος τὸν ___ ὁρᾷ.",
+      "options": [
+        {
+          "id": "a",
+          "text": "νεανίας"
+        },
+        {
+          "id": "b",
+          "text": "νεανίαν"
+        },
+        {
+          "id": "c",
+          "text": "νεανίου"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "noun.decl1.masc",
+        "syntax.object"
+      ],
+      "explain": "Object: τὸν νεανίαν."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the genitive singular of πολίτης.",
+      "lemma": "πολίτης",
+      "cell": "gen.sg",
+      "skills": [
+        "noun.decl1.masc"
+      ],
+      "explain": "τοῦ πολίτου.",
+      "audio": "πολίτου"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "___ ὁ ἄνθρωπος ξένος ἐστίν. (that man, far away)",
+      "options": [
+        {
+          "id": "a",
+          "text": "οὗτος"
+        },
+        {
+          "id": "b",
+          "text": "ἐκεῖνος"
+        },
+        {
+          "id": "c",
+          "text": "ἐκείνη"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "pron.demonstrative"
+      ],
+      "explain": "Far away and masculine: ἐκεῖνος ὁ ἄνθρωπος."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἡ ___ οἰκία μικρά ἐστιν. ('my')",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐμός"
+        },
+        {
+          "id": "b",
+          "text": "ἐμή"
+        },
+        {
+          "id": "c",
+          "text": "ἐμόν"
+        }
+      ],
+      "answer": "b",
+      "skills": [
+        "pron.possessive",
+        "adj.agree"
+      ],
+      "explain": "οἰκία is feminine: ἡ ἐμὴ οἰκία."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Δημόκριτος τοὺς λόγους φιλεῖ.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ὁ Δημόκριτος ἀεὶ λέγει· τοὺς γὰρ λόγους φιλεῖ."
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse πολίτας.",
+      "form": "πολίτας",
+      "groups": [
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            }
+          ]
+        },
+        {
+          "id": "number",
+          "label": "Number",
+          "options": [
+            {
+              "id": "sg",
+              "label": "singular"
+            },
+            {
+              "id": "pl",
+              "label": "plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "case": "acc",
+        "number": "pl"
+      },
+      "skills": [
+        "noun.decl1.masc"
+      ],
+      "explain": "-ας: accusative plural, τοὺς πολίτας.",
+      "audio": "πολίτας"
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'This is my son.'",
+      "gaps": [
+        {
+          "answers": [
+            "οὗτός ἐστιν ὁ ἐμὸς παῖς",
+            "οὗτος ὁ ἐμὸς παῖς ἐστιν",
+            "ὁ ἐμὸς παῖς οὗτός ἐστιν",
+            "οὗτός ἐστιν ὁ ἐμὸς υἱός"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "pron.demonstrative",
+        "pron.possessive"
+      ],
+      "explain": "οὗτός ἐστιν ὁ ἐμὸς παῖς."
+    }
+  ],
+  "skills": [
+    "noun.decl1.masc",
+    "noun.decl1.nom.pl",
+    "pron.possessive",
+    "pron.demonstrative",
+    "adj.agree",
+    "adj.attributive",
+    "syntax.men-de",
+    "syntax.object",
+    "syntax.negation",
+    "syntax.word-order",
+    "read.comprehension",
+    "read.locate",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.family"
+  ]
+}

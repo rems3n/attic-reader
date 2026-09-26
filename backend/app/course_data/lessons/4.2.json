@@ -1,0 +1,139 @@
+{
+  "id": "4.2",
+  "title_grc": "τὸ ἐμπόριον",
+  "title_en": "The harbour market",
+  "summary_grc": "ἐν τῷ ἐμπορίῳ πάντες οἱ ἔμποροι πωλοῦσι καὶ ὠνοῦνται.",
+  "summary_en": "The middle participle (βουλόμενος, ὠνούμενος); παύομαι + participle, 'stop doing'; what the genitive can do; and πᾶς, 'all, every'.",
+  "cover": "panel-4-2-a",
+  "caption_grc": "ὁ Λύσις, ἰχθὺν ὠνεῖσθαι βουλόμενος, πρὸς τὸν ἔμπορον βαίνει.",
+  "names": {
+    "Σίμων": ["Σίμωνος", "Σίμωνι", "Σίμωνα", "Σίμων"],
+    "Χίος": ["Χίου", "Χίῳ", "Χίον"],
+    "Πόντος": ["Πόντου", "Πόντῳ", "Πόντον"]
+  },
+  "allow": {
+    "ἀφικνοῦνται": "ἀφικνέομαι (Lesson 3.3)",
+    "βούλεται": "βούλομαι (Lesson 3.3)",
+    "βούλομαι": "βούλομαι (Lesson 3.3)",
+    "μὲν": "μέν … δέ (Lesson 2.1)",
+    "πολλοὶ": "πολύς (Lesson 2.2)",
+    "πολλοί": "πολύς (Lesson 2.2)",
+    "πρὸς": "preposition (Lesson 3.4)"
+  },
+  "story": [
+    {
+      "image": "panel-4-2-a",
+      "sentences": [
+        {"text": "ὁ Ἀρίστων καὶ ὁ Λύσις εἰς τὸ ἐμπόριον ἀφικνοῦνται· τὸ ἐμπόριον ἡ ἀγορὰ τοῦ λιμένος ἐστίν.", "glosses": [{"word": "ἐμπόριον", "kind": "pic", "value": "emporion"}, {"word": "ἀφικνοῦνται", "kind": "en", "value": "they arrive (ἀφικνέομαι)"}]},
+        {"text": "ἐν τῷ ἐμπορίῳ πάντες οἱ ἔμποροι πωλοῦσι καὶ ὠνοῦνται.", "glosses": [{"word": "πάντες", "kind": "|", "value": "πᾶς | πάντες (all)"}, {"word": "ἔμποροι", "kind": "pic", "value": "emporos"}, {"word": "πωλοῦσι", "kind": "pic", "value": "verb-polei"}, {"word": "ὠνοῦνται", "kind": "pic", "value": "verb-oneitai"}]},
+        {"text": "πολλοὶ τῶν ἐμπόρων ξένοι εἰσίν· οὐ γὰρ Ἀθηναῖοί εἰσιν, ἀλλὰ ἐκ πασῶν τῶν πόλεων εἰς τὸν Πειραιᾶ ἀφικνοῦνται.", "glosses": [{"word": "πολλοὶ", "kind": "note", "value": "πολλοὶ τῶν ἐμπόρων: 'many of the merchants' — the genitive names the whole"}, {"word": "ξένοι", "kind": "pic", "value": "xenos"}, {"word": "πασῶν", "kind": "|", "value": "πᾶσα | πασῶν τῶν πόλεων (of all the cities)"}]},
+        {"text": "οἱ μὲν σῖτον ἐκ τοῦ Πόντου φέρουσιν, οἱ δὲ οἶνον, οἱ δὲ ἰχθῦς.", "glosses": [{"word": "μὲν", "kind": "en", "value": "οἱ μέν … οἱ δέ: some … others"}, {"word": "σῖτον", "kind": "pic", "value": "sitos"}, {"word": "οἶνον", "kind": "pic", "value": "oinos"}, {"word": "ἰχθῦς", "kind": "pic", "value": "ichthys"}]},
+        {"text": "ὁ Σίμων ἔμπορός ἐστι καὶ μέτοικος· ἐκ τῆς Χίου ἐστίν, ἀλλὰ ἐν τῷ Πειραιεῖ οἰκεῖ.", "glosses": [{"word": "μέτοικος", "kind": "pic", "value": "metoikos"}, {"word": "οἰκεῖ", "kind": "en", "value": "lives, dwells"}]},
+        {"text": "ὁ Σίμων σῖτον πωλεῖ, καὶ πάντες οἱ Ἀθηναῖοι σῖτον ὠνοῦνται· ἡ γὰρ γῆ τῶν Ἀθηναίων μικρά ἐστιν, οἱ δὲ ἄνθρωποι πολλοί.", "glosses": []}
+      ]
+    },
+    {
+      "image": "panel-4-2-b",
+      "sentences": [
+        {"text": "ὁ Ἀρίστων τὰς ὑδρίας πωλεῖ. γυνὴ ἀφικνουμένη τὴν ὑδρίαν ὁρᾷ καὶ λέγει· «ὡς καλή ἐστιν ἡ ὑδρία! πόσου πωλεῖς αὐτήν;»", "glosses": [{"word": "ἀφικνουμένη", "kind": "|", "value": "ἀφικνεῖται | ἀφικνουμένη (as she arrives)"}, {"word": "ὡς", "kind": "en", "value": "how …! (exclamation)"}, {"word": "πόσου", "kind": "en", "value": "for how much? (genitive of price)"}, {"word": "πωλεῖς", "kind": "|", "value": "πωλεῖ | πωλεῖς (you sell)"}, {"word": "αὐτήν", "kind": "en", "value": "it (the jar)"}]},
+        {"text": "ὁ δὲ Ἀρίστων· «μιᾶς δραχμῆς, ὦ γύναι.»", "glosses": [{"word": "μιᾶς", "kind": "|", "value": "εἷς, μία | μιᾶς (for one)"}, {"word": "δραχμῆς", "kind": "pic", "value": "drachme"}, {"word": "γύναι", "kind": "|", "value": "ἡ γυνή | ὦ γύναι"}]},
+        {"text": "ἡ δὲ γυνή· «δραχμῆς; πολλοῦ πωλεῖς· τεττάρων ὀβολῶν ὠνοῦμαι.»", "glosses": [{"word": "πολλοῦ", "kind": "|", "value": "πολύς | πολλοῦ (for a lot: too dear!)"}, {"word": "τεττάρων", "kind": "|", "value": "τέτταρες | τεττάρων"}, {"word": "ὀβολῶν", "kind": "pic", "value": "obolos"}, {"word": "ὠνοῦμαι", "kind": "|", "value": "ὠνεῖται | ὠνοῦμαι (I buy)"}]},
+        {"text": "ὁ Ἀρίστων λέγει· «πέντε ὀβολῶν οὖν· καλὴ γάρ ἐστιν ἡ ὑδρία, καὶ ἔργον τοῦ Ἀρίστωνος.»", "glosses": [{"word": "ἔργον", "kind": "en", "value": "work; ἔργον τοῦ Ἀρίστωνος: a piece by Ariston"}]},
+        {"text": "ἡ γυνὴ τὸ ἀργύριον τῷ Ἀρίστωνι φέρει καὶ τὴν ὑδρίαν λαμβάνει.", "glosses": [{"word": "ἀργύριον", "kind": "pic", "value": "argyrion"}, {"word": "Ἀρίστωνι", "kind": "note", "value": "τῷ Ἀρίστωνι: dative, 'to Ariston'"}]},
+        {"text": "οὕτως ὁ Ἀρίστων πάσας τὰς ὑδρίας πωλεῖ· τέλος παύεται πωλῶν· οὐδεμία γὰρ ὑδρία μένει.", "glosses": [{"word": "οὕτως", "kind": "en", "value": "in this way, so"}, {"word": "πάσας", "kind": "|", "value": "πᾶσαι | πάσας (all)"}, {"word": "τέλος", "kind": "en", "value": "at last"}, {"word": "παύεται", "kind": "pic", "value": "verb-pauetai"}, {"word": "πωλῶν", "kind": "|", "value": "πωλεῖ | πωλῶν (selling)"}, {"word": "οὐδεμία", "kind": "=", "value": "οὐ … μία"}]}
+      ]
+    },
+    {
+      "image": "panel-4-2-c",
+      "sentences": [
+        {"text": "ὁ Λύσις τοὺς ἰχθῦς ὁρᾷ· πάντες οἱ ἰχθύες καλοί εἰσιν.", "glosses": [{"word": "ἰχθύες", "kind": "|", "value": "ὁ ἰχθύς | οἱ ἰχθύες | τοὺς ἰχθῦς"}]},
+        {"text": "ὁ Λάβρος οὐ παύεται τοὺς ἰχθῦς ζητῶν· ὁ γὰρ κύων ἀεὶ ἐσθίειν βούλεται.", "glosses": [{"word": "ζητῶν", "kind": "|", "value": "ζητεῖ | ζητῶν"}, {"word": "ἐσθίειν", "kind": "en", "value": "to eat"}]},
+        {"text": "ὁ Λύσις λέγει· «ὦ πάτερ, ἆρα ἔχομεν ἀργύριον; βούλομαι ἰχθὺν ὠνεῖσθαι.» ὁ δὲ πατήρ· «ναί· δύο ὀβολοὺς ἔχε.»", "glosses": [{"word": "ἆρα", "kind": "en", "value": "(marks a question)"}, {"word": "ἔχομεν", "kind": "|", "value": "ἔχω | ἔχομεν (we have)"}, {"word": "ὠνεῖσθαι", "kind": "|", "value": "ὠνεῖται | ὠνεῖσθαι (to buy)"}]},
+        {"text": "ὁ Λύσις οὖν, ἰχθὺν ὠνεῖσθαι βουλόμενος, πρὸς τὸν ἔμπορον τὸν τοὺς ἰχθῦς πωλοῦντα βαίνει καὶ λέγει· «ὦ ἔμπορε, πόσου ὁ ἰχθύς;»", "glosses": [{"word": "βουλόμενος", "kind": "|", "value": "βούλεται | βουλόμενος (wanting)"}, {"word": "πρὸς", "kind": "en", "value": "to, towards (+ accusative)"}, {"word": "πωλοῦντα", "kind": "|", "value": "πωλῶν | πωλοῦντα"}]},
+        {"text": "ὁ δὲ ἔμπορος· «δύο ὀβολῶν, ὦ παῖ.» ὁ Λύσις οὖν τοὺς ὀβολοὺς τῷ ἐμπόρῳ φέρει καὶ τὸν ἰχθὺν λαμβάνει.", "glosses": []},
+        {"text": "ὁ Λάβρος ἑπόμενος τὸν ἰχθὺν ὁρᾷ· ὁ δὲ Λύσις λέγει· «οὐ σοί, ὦ Λάβρε· ὁ ἰχθὺς τῆς μητρός ἐστιν.»", "glosses": [{"word": "ἑπόμενος", "kind": "|", "value": "ἕπεται | ἑπόμενος (following)"}, {"word": "σοί", "kind": "en", "value": "for you"}, {"word": "μητρός", "kind": "note", "value": "τῆς μητρός ἐστιν: genitive of possession — 'belongs to mother'"}]},
+        {"text": "ὁ πατὴρ καὶ ὁ υἱὸς ἐκ τοῦ ἐμπορίου βαίνουσιν· ὁ δὲ Λάβρος ἕπεται, τὸν ἰχθὺν ἀεὶ ὁρῶν.", "glosses": []}
+      ]
+    }
+  ],
+  "vocab": [
+    {"id": "πας", "pic": "pas", "gloss_grc": "πᾶς · πᾶσα · πᾶν — πάντες οἱ ἔμποροι"},
+    {"id": "παυω", "pic": "verb-pauetai", "gloss_grc": "παύεται πωλῶν · οὐ παύεται ζητῶν"},
+    {"id": "εμποριον", "pic": "emporion", "gloss_grc": "= ἡ ἀγορὰ τοῦ λιμένος"},
+    {"id": "εμπορος", "pic": "emporos", "gloss_grc": "< ἐμπόριον"},
+    {"id": "μετοικος", "pic": "metoikos", "gloss_grc": "ξένος ἐν ταῖς Ἀθήναις οἰκῶν"},
+    {"id": "ξενος", "pic": "xenos", "gloss_grc": "↔ Ἀθηναῖος"},
+    {"id": "πωλεω", "pic": "verb-polei", "gloss_grc": "πωλεῖ ↔ ὠνεῖται"},
+    {"id": "ωνεομαι", "pic": "verb-oneitai", "gloss_grc": "ὠνεῖται ↔ πωλεῖ"},
+    {"id": "αργυριον", "pic": "argyrion", "gloss_grc": "δραχμαὶ καὶ ὀβολοί"},
+    {"id": "δραχμη", "pic": "drachme", "gloss_grc": "μία δραχμὴ = ἕξ ὀβολοί"},
+    {"id": "οβολος", "pic": "obolos", "gloss_grc": "ἕξ ὀβολοὶ = μία δραχμή"},
+    {"id": "ιχθυς", "pic": "ichthys", "gloss_grc": "ὁ ἰχθύς · τοὺς ἰχθῦς"}
+  ],
+  "notice": [
+    "γυνὴ ἀφικνουμένη τὴν ὑδρίαν ὁρᾷ.",
+    "ὁ Λύσις, ἰχθὺν ὠνεῖσθαι βουλόμενος, πρὸς τὸν ἔμπορον βαίνει.",
+    "ὁ Λάβρος οὐ παύεται τοὺς ἰχθῦς ζητῶν. — ὁ Ἀρίστων παύεται πωλῶν.",
+    "πολλοὶ τῶν ἐμπόρων · ὁ ἰχθὺς τῆς μητρός ἐστιν · πόσου; — μιᾶς δραχμῆς · δύο ὀβολῶν",
+    "πάντες οἱ ἔμποροι · πᾶσαι αἱ ὑδρίαι · πᾶν τὸ ἀργύριον"
+  ],
+  "grammar": {
+    "md": "**The present middle participle.** Middle and deponent verbs make their participle with **-όμενος, -ομένη, -όμενον**, declined exactly like καλός, καλή, καλόν: βουλ**όμενος** 'wanting', ἑπ**όμενος** 'following', ἀφικν**ούμενος** 'arriving', ὠν**ούμενος** 'buying' (contract verbs squash the vowel: ἀφικνε- + -όμενος → ἀφικνούμενος). Feminine ἀφικνουμένη, βουλομένη; plural βουλόμενοι, βουλόμεναι.\n\nIt is used in the same two ways as the active participle of Lesson 4.1: **with the article** it says *which* (οἱ ἔμποροι οἱ ἐκ τοῦ Πόντου ἀφικνούμενοι 'the merchants who come from the Black Sea'), **without** it gives the circumstances (ὁ Λύσις, ἰχθὺν ὠνεῖσθαι **βουλόμενος**, πρὸς τὸν ἔμπορον βαίνει 'Lysis, *wanting* to buy a fish, goes to the merchant'; ὁ Λάβρος **ἑπόμενος** τὸν ἰχθὺν ὁρᾷ 'Labros, *following*, sees the fish').\n\n**παύομαι + participle.** παύω means 'stop (someone or something)'; the middle **παύομαι** means 'stop (oneself), cease', and what you stop doing goes into a **participle** agreeing with the subject: ὁ Ἀρίστων παύεται **πωλῶν** 'Ariston stops selling'; ὁ Λάβρος οὐ παύεται τοὺς ἰχθῦς **ζητῶν** 'Labros does not stop looking for the fish'. Not an infinitive: παύεται πωλῶν, never παύεται πωλεῖν.\n\n**What the genitive can do.** You know the genitive of *possession* (ἡ ὑδρία **τοῦ Ἀρίστωνος**; ὁ ἰχθὺς **τῆς μητρός** ἐστιν 'the fish is mother's'). This lesson adds three more uses:\n\n| use | example | meaning |\n|---|---|---|\n| partitive: part **of** a whole | πολλοὶ **τῶν ἐμπόρων** · εἷς **τῶν ἰχθύων** | many *of the* merchants · one *of the* fish |\n| price: **for** so much | μιᾶς **δραχμῆς** · δύο **ὀβολῶν** · πόσου; πολλοῦ | for one drachma · for two obols · for how much? for a lot |\n| after prepositions | ἐκ **τοῦ Πόντου** · διὰ **τῶν τειχῶν** · ἐπὶ **τῶν τειχῶν** | out of · through · on |\n\nThe genitive plural of every declension ends in **-ων**: τῶν ἐμπόρων, τῶν πόλεων, τῶν ὀβολῶν, πασῶν.\n\n**πᾶς, πᾶσα, πᾶν — all, every, whole.** Masculine and neuter follow the third declension with the stem παντ- (like the participles βαίνων, βαίνοντος), the feminine follows the first declension:\n\n| | m. | f. | n. |\n|---|---|---|---|\n| nom. sg. | πᾶς | πᾶσα | πᾶν |\n| gen. sg. | παντός | πάσης | παντός |\n| dat. sg. | παντί | πάσῃ | παντί |\n| acc. sg. | πάντα | πᾶσαν | πᾶν |\n| nom. pl. | πάντες | πᾶσαι | πάντα |\n| gen. pl. | πάντων | πασῶν | πάντων |\n| dat. pl. | πᾶσι(ν) | πάσαις | πᾶσι(ν) |\n| acc. pl. | πάντας | πάσας | πάντα |\n\nWith the article and a plural it means *all*: **πάντες οἱ** ἔμποροι, **πάσας τὰς** ὑδρίας; with a singular, *the whole*: **πᾶσα ἡ** ἀγορά; without the article, *every*: πᾶς ἀνήρ 'every man'. It stands outside the article (πάντες οἱ ἔμποροι or οἱ ἔμποροι πάντες), not between article and noun.",
+    "paradigms": ["pas", "gignomai", "agathos"],
+    "diagram": null
+  },
+  "exercises": [
+    {"type": "endings-cloze", "prompt": "Μελέτημα Α · Fill in the endings.", "template": "γυνὴ ἀφικνουμέν___ τὴν ὑδρίαν ὁρᾷ. ὁ Λύσις ἰχθὺν ὠνεῖσθαι βουλόμεν___ πρὸς τὸν ἔμπορον βαίνει. οἱ ἔμποροι ἐκ πασ___ τῶν πόλεων ἀφικνοῦνται. ὁ ἰχθὺς τῆς μητρ___ ἐστιν.", "gaps": [{"answers": ["η"]}, {"answers": ["ος"]}, {"answers": ["ῶν", "ων"]}, {"answers": ["ός", "ος"]}], "skills": ["verb.ptc.pres.mp", "adj.pas", "syntax.gen.uses"], "explain": "ἀφικνουμένη (feminine, with γυνή), βουλόμενος (masculine, with ὁ Λύσις), πασῶν (genitive plural feminine, with τῶν πόλεων), μητρός (genitive of possession)."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ὁ Λάβρος οὐ ___ τοὺς ἰχθῦς ζητῶν.", "options": [{"id": "a", "text": "παύεται"}, {"id": "b", "text": "πωλεῖ"}, {"id": "c", "text": "ὠνεῖται"}], "answer": "a", "skills": ["verb.ptc.supplementary", "verb.pres.mp.ind.3sg"], "explain": "παύεται + participle: 'does not stop looking for'.", "audio": "ὁ Λάβρος οὐ παύεται τοὺς ἰχθῦς ζητῶν."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ὁ Ἀρίστων τὰς ὑδρίας ___, ἡ δὲ γυνὴ ὠνεῖται.", "options": [{"id": "a", "text": "πωλεῖ"}, {"id": "b", "text": "ὠνεῖται"}, {"id": "c", "text": "παύεται"}], "answer": "a", "skills": ["vocab.recognition", "verb.contract.e"], "explain": "The potter sells (πωλεῖ), the woman buys (ὠνεῖται).", "audio": "ὁ Ἀρίστων τὰς ὑδρίας πωλεῖ, ἡ δὲ γυνὴ ὠνεῖται."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · πολλοὶ ___ ἐμπόρων ξένοι εἰσίν.", "options": [{"id": "a", "text": "τῶν"}, {"id": "b", "text": "τοῖς"}, {"id": "c", "text": "τούς"}], "answer": "a", "skills": ["syntax.gen.uses", "art.gen.pl"], "explain": "Partitive genitive: 'many of the merchants', τῶν ἐμπόρων.", "audio": "πολλοὶ τῶν ἐμπόρων ξένοι εἰσίν."},
+    {"type": "pick-picture", "prompt": "ὁ ἔμπορος", "audio": "prompt", "options": [{"id": "a", "image": "emporos"}, {"id": "b", "image": "stratiotes"}, {"id": "c", "image": "kerameus"}, {"id": "d", "image": "nautes"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "ὁ ἔμπορος: merchant."},
+    {"type": "pick-picture", "prompt": "ὠνεῖται", "audio": "prompt", "options": [{"id": "a", "image": "verb-oneitai"}, {"id": "b", "image": "verb-polei"}, {"id": "c", "image": "verb-pauetai"}, {"id": "d", "image": "verb-pherei"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "ὠνεῖται: buys."},
+    {"type": "produce-form", "prompt": "Give the form of πᾶς for 'all (the merchants)': ___ οἱ ἔμποροι.", "lemma": "πᾶς", "cell": "nom.pl.m", "skills": ["adj.pas", "adj.agree"], "explain": "πάντες οἱ ἔμποροι.", "audio": "πάντες"},
+    {"type": "produce-form", "prompt": "Give the masculine participle of ὠνέομαι ('buying', to go with ὁ Λύσις).", "lemma": "ὠνέομαι", "cell": "present.middle.participle.m", "skills": ["verb.ptc.pres.mp", "verb.deponent"], "explain": "ὠνούμενος: ὠνε- + -όμενος → ὠνούμενος.", "audio": "ὠνούμενος"},
+    {"type": "produce-form", "prompt": "Give the genitive singular of δραχμή (the price: 'for one drachma', μιᾶς …).", "lemma": "δραχμή", "cell": "gen.sg", "skills": ["noun.decl1.gen.sg", "syntax.gen.uses"], "explain": "μιᾶς δραχμῆς: genitive of price.", "audio": "δραχμῆς"},
+    {"type": "parse", "prompt": "Parse βουλομένη.", "form": "βουλομένη", "groups": [{"id": "gender", "label": "Gender", "options": [{"id": "m", "label": "masculine"}, {"id": "f", "label": "feminine"}, {"id": "n", "label": "neuter"}]}, {"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "acc", "label": "accusative"}]}, {"id": "number", "label": "Number", "options": [{"id": "sg", "label": "singular"}, {"id": "pl", "label": "plural"}]}], "answer": {"gender": "f", "case": "nom", "number": "sg"}, "skills": ["verb.ptc.pres.mp"], "explain": "-ομένη: feminine nominative singular, like καλή — ἡ γυνὴ βουλομένη.", "audio": "βουλομένη"},
+    {"type": "parse", "prompt": "Parse ὀβολῶν.", "form": "ὀβολῶν", "groups": [{"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "dat", "label": "dative"}, {"id": "acc", "label": "accusative"}]}, {"id": "number", "label": "Number", "options": [{"id": "sg", "label": "singular"}, {"id": "pl", "label": "plural"}]}], "answer": {"case": "gen", "number": "pl"}, "skills": ["noun.decl2.gen.pl", "syntax.gen.uses"], "explain": "-ῶν: genitive plural — δύο ὀβολῶν, 'for two obols'.", "audio": "ὀβολῶν"},
+    {"type": "cloze-choice", "prompt": "ὁ Ἀρίστων παύεται ___.", "options": [{"id": "a", "text": "πωλῶν"}, {"id": "b", "text": "πωλεῖ"}, {"id": "c", "text": "πωλεῖν"}], "answer": "a", "skills": ["verb.ptc.supplementary"], "explain": "παύομαι takes a participle: παύεται πωλῶν, 'stops selling'."},
+    {"type": "cloze-choice", "prompt": "___ οἱ ἔμποροι πωλοῦσι καὶ ὠνοῦνται.", "options": [{"id": "a", "text": "πάντες"}, {"id": "b", "text": "πᾶσαι"}, {"id": "c", "text": "πάντα"}], "answer": "a", "skills": ["adj.pas", "adj.agree"], "explain": "Masculine plural with οἱ ἔμποροι: πάντες."},
+    {"type": "cloze-choice", "prompt": "ὁ ἰχθὺς ___ μητρός ἐστιν.", "options": [{"id": "a", "text": "τῆς"}, {"id": "b", "text": "τῇ"}, {"id": "c", "text": "τήν"}], "answer": "a", "skills": ["syntax.possession.gen", "art.gen.sg"], "explain": "Genitive of possession: τῆς μητρός, 'mother's'."},
+    {"type": "cloze-choice", "prompt": "πόσου ὁ ἰχθύς; — ___.", "options": [{"id": "a", "text": "δύο ὀβολῶν"}, {"id": "b", "text": "δύο ὀβολούς"}, {"id": "c", "text": "δύο ὀβολοῖς"}], "answer": "a", "skills": ["syntax.gen.uses"], "explain": "Price goes in the genitive: δύο ὀβολῶν, 'for two obols'."},
+    {"type": "cloze-choice", "prompt": "πάντες οἱ Ἀθηναῖοι σῖτον ___.", "options": [{"id": "a", "text": "ὠνεῖται"}, {"id": "b", "text": "ὠνοῦνται"}, {"id": "c", "text": "ὠνούμενος"}], "answer": "b", "skills": ["verb.pres.mp.ind.3pl", "verb.deponent"], "explain": "Plural subject → ὠνοῦνται, 'they buy'."},
+    {"type": "transform", "prompt": "Make one sentence with a participle: ὁ Λύσις ἰχθὺν ὠνεῖσθαι βούλεται καὶ πρὸς τὸν ἔμπορον βαίνει. → ὁ Λύσις ἰχθὺν ὠνεῖσθαι … πρὸς τὸν ἔμπορον βαίνει.", "template": "ὁ Λύσις ἰχθὺν ὠνεῖσθαι ___ πρὸς τὸν ἔμπορον βαίνει.", "gaps": [{"answers": ["βουλόμενος"]}], "skills": ["verb.ptc.pres.mp", "verb.ptc.use"], "explain": "βουλόμενος: 'wanting to buy a fish'.", "audio": "ὁ Λύσις ἰχθὺν ὠνεῖσθαι βουλόμενος πρὸς τὸν ἔμπορον βαίνει."},
+    {"type": "transform", "prompt": "Say that he stops doing it: ὁ Ἀρίστων πωλεῖ. → ὁ Ἀρίστων παύεται …", "template": "ὁ Ἀρίστων παύεται ___.", "gaps": [{"answers": ["πωλῶν"]}], "skills": ["verb.ptc.supplementary", "verb.ptc.pres.act"], "explain": "παύεται πωλῶν.", "audio": "ὁ Ἀρίστων παύεται πωλῶν."},
+    {"type": "locate", "prompt": "Tap every participle.", "sentence": "ὁ Λύσις, ἰχθὺν ὠνεῖσθαι βουλόμενος, πρὸς τὸν ἔμπορον τὸν τοὺς ἰχθῦς πωλοῦντα βαίνει.", "answer": [4, 11], "skills": ["read.locate", "verb.ptc.pres.mp", "verb.ptc.pres.act"], "explain": "βουλόμενος (middle, with ὁ Λύσις) and πωλοῦντα (active, with τὸν ἔμπορον). ὠνεῖσθαι is an infinitive."},
+    {"type": "locate", "prompt": "Tap every word in the genitive.", "sentence": "πολλοὶ τῶν ἐμπόρων ξένοι εἰσίν· ἡ ὑδρία τοῦ Ἀρίστωνος μιᾶς δραχμῆς ἐστιν.", "answer": [1, 2, 7, 8, 9, 10], "skills": ["read.locate", "syntax.gen.uses"], "explain": "τῶν ἐμπόρων (partitive), τοῦ Ἀρίστωνος (possession), μιᾶς δραχμῆς (price)."},
+    {"type": "reorder", "prompt": "Put the words in order: 'All the merchants sell and buy in the emporion.'", "tokens": ["πάντες", "οἱ", "ἔμποροι", "ἐν", "τῷ", "ἐμπορίῳ", "πωλοῦσι", "καὶ", "ὠνοῦνται"], "answers": ["πάντες οἱ ἔμποροι ἐν τῷ ἐμπορίῳ πωλοῦσι καὶ ὠνοῦνται", "ἐν τῷ ἐμπορίῳ πάντες οἱ ἔμποροι πωλοῦσι καὶ ὠνοῦνται", "οἱ ἔμποροι πάντες ἐν τῷ ἐμπορίῳ πωλοῦσι καὶ ὠνοῦνται", "πάντες οἱ ἔμποροι πωλοῦσι καὶ ὠνοῦνται ἐν τῷ ἐμπορίῳ"], "skills": ["syntax.word-order", "adj.pas"], "explain": "πάντες οἱ ἔμποροι ἐν τῷ ἐμπορίῳ πωλοῦσι καὶ ὠνοῦνται."},
+    {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ὁ Λάβρος οὐ παύεται τοὺς ἰχθῦς ζητῶν.", "options": [{"id": "a", "text": "ὁ Λάβρος παύεται τοὺς ἰχθῦς ζητῶν."}, {"id": "b", "text": "ὁ Λάβρος οὐ παύεται τοὺς ἰχθῦς ζητῶν."}, {"id": "c", "text": "ὁ Λύσις τοὺς ἰχθῦς ὠνεῖται."}], "answer": "b", "skills": ["listen.sentences"], "explain": "Labros does not stop looking for the fish."},
+    {"type": "true-false-grc", "prompt": "ὁ Σίμων Ἀθηναῖός ἐστιν.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "μέτοικός ἐστιν ἐκ τῆς Χίου."},
+    {"type": "true-false-grc", "prompt": "ἡ γυνὴ τὴν ὑδρίαν πέντε ὀβολῶν ὠνεῖται.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension", "syntax.gen.uses"], "explain": "Yes: after bargaining down from a drachma (six obols)."},
+    {"type": "true-false-grc", "prompt": "ὁ ἰχθὺς τοῦ Λάβρου ἐστίν.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension", "syntax.possession.gen"], "explain": "«οὐ σοί, ὦ Λάβρε· ὁ ἰχθὺς τῆς μητρός ἐστιν.»"},
+    {"type": "dictation", "prompt": "Listen and type what you hear.", "audio": "πάντες οἱ ἔμποροι πωλοῦσι καὶ ὠνοῦνται.", "gaps": [{"answers": ["πάντες οἱ ἔμποροι πωλοῦσι καὶ ὠνοῦνται", "πάντες οἱ ἔμποροι πωλοῦσιν καὶ ὠνοῦνται"]}], "skills": ["spell.dictation", "listen.sentences"], "explain": "πάντες οἱ ἔμποροι πωλοῦσι καὶ ὠνοῦνται."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Lysis, wanting to buy a fish, goes to the merchant.'", "gaps": [{"answers": ["ὁ Λύσις ἰχθὺν ὠνεῖσθαι βουλόμενος πρὸς τὸν ἔμπορον βαίνει", "ὁ Λύσις βουλόμενος ἰχθὺν ὠνεῖσθαι πρὸς τὸν ἔμπορον βαίνει", "ὁ Λύσις ἰχθὺν ὠνεῖσθαι βουλόμενος βαίνει πρὸς τὸν ἔμπορον", "ὁ Λύσις ὠνεῖσθαι ἰχθὺν βουλόμενος πρὸς τὸν ἔμπορον βαίνει"]}], "skills": ["vocab.production", "verb.ptc.pres.mp", "verb.ptc.use"], "explain": "ὁ Λύσις, ἰχθὺν ὠνεῖσθαι βουλόμενος, πρὸς τὸν ἔμπορον βαίνει."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Ariston stops selling.'", "gaps": [{"answers": ["ὁ Ἀρίστων παύεται πωλῶν", "παύεται ὁ Ἀρίστων πωλῶν", "ὁ Ἀρίστων πωλῶν παύεται"]}], "skills": ["vocab.production", "verb.ptc.supplementary"], "explain": "ὁ Ἀρίστων παύεται πωλῶν."},
+    {"type": "translate-en", "prompt": "Translate: πολλοὶ τῶν ἐμπόρων ξένοι εἰσίν· ἐκ πασῶν τῶν πόλεων εἰς τὸν Πειραιᾶ ἀφικνοῦνται.", "audio": "πολλοὶ τῶν ἐμπόρων ξένοι εἰσίν· ἐκ πασῶν τῶν πόλεων εἰς τὸν Πειραιᾶ ἀφικνοῦνται.", "model": "Many of the merchants are foreigners; they come to Piraeus from all the cities.", "skills": ["read.comprehension", "syntax.gen.uses", "adj.pas"], "explain": "πολλοὶ τῶν ἐμπόρων: partitive genitive; πασῶν τῶν πόλεων: genitive plural of πᾶσα."},
+    {"type": "word-family", "prompt": "Word Study · Match each Greek word to the English word that comes from it.", "pairs": [{"left": "ἐμπόριον", "right": "emporium"}, {"left": "πᾶς", "right": "pandemic (on all the people)"}, {"left": "ἰχθύς", "right": "ichthyology"}, {"left": "δραχμή", "right": "drachma"}], "skills": ["vocab.family"], "explain": "ἐμπόριον → Latin emporium; παν- + δῆμος; ἰχθυο-λογία; δραχμή was still Greece's currency until 2002."}
+  ],
+  "questions": [
+    {"type": "answer-grc", "prompt": "τίς σῖτον πωλεῖ;", "audio": "prompt", "options": [{"id": "a", "text": "ὁ Ἀρίστων."}, {"id": "b", "text": "ὁ Σίμων."}, {"id": "c", "text": "ἡ γυνή."}], "answer": "b", "skills": ["read.comprehension"], "explain": "ὁ Σίμων σῖτον πωλεῖ."},
+    {"type": "answer-grc", "prompt": "πόσου ἡ γυνὴ τὴν ὑδρίαν ὠνεῖται;", "audio": "prompt", "options": [{"id": "a", "text": "μιᾶς δραχμῆς."}, {"id": "b", "text": "τεττάρων ὀβολῶν."}, {"id": "c", "text": "πέντε ὀβολῶν."}], "answer": "c", "skills": ["read.comprehension", "syntax.gen.uses"], "explain": "«πέντε ὀβολῶν οὖν.» — and she pays."},
+    {"type": "answer-grc", "prompt": "τί ὁ Λύσις ὠνεῖσθαι βούλεται;", "audio": "prompt", "options": [{"id": "a", "text": "ἰχθύν."}, {"id": "b", "text": "σῖτον."}, {"id": "c", "text": "ὑδρίαν."}], "answer": "a", "skills": ["read.comprehension"], "explain": "«βούλομαι ἰχθὺν ὠνεῖσθαι.»"},
+    {"type": "answer-grc", "prompt": "τίνος ἐστιν ὁ ἰχθύς;", "audio": "prompt", "options": [{"id": "a", "text": "τοῦ Λάβρου."}, {"id": "b", "text": "τῆς μητρός."}, {"id": "c", "text": "τοῦ ἐμπόρου."}], "answer": "b", "skills": ["read.comprehension", "syntax.possession.gen"], "explain": "ὁ ἰχθὺς τῆς μητρός ἐστιν."},
+    {"type": "answer-grc", "prompt": "ἆρα ὁ Σίμων Ἀθηναῖός ἐστιν;", "audio": "prompt", "options": [{"id": "a", "text": "ναί, Ἀθηναῖός ἐστιν."}, {"id": "b", "text": "οὔ· μέτοικός ἐστιν ἐκ τῆς Χίου."}], "answer": "b", "skills": ["read.comprehension"], "explain": "ἐκ τῆς Χίου ἐστίν, ἀλλὰ ἐν τῷ Πειραιεῖ οἰκεῖ."}
+  ],
+  "culture": {
+    "title": "The emporion and the metics",
+    "md": "Piraeus had three harbours. The two smaller ones, Zea and Munichia, were reserved for the war fleet; the great western basin, Kantharos, was the commercial port, and along its eastern shore ran the *emporion*: a strip of quays and stoas where cargoes were landed, sampled and sold. Merchants displayed samples of their grain in a building called the Deigma ('the Showing'); officials checked weights and coins and collected the two-per-cent harbour tax. Attica's thin soil could not feed its people, so grain (σῖτος) shipped in from the Black Sea, Egypt and Sicily mattered more than anything else, and Athenian law and diplomacy were built around keeping that route open. Wine, oil, timber, slaves, fish, papyrus and luxury goods came and went beside it; Ariston's pots went out the same way — Athenian vases have been dug up from Spain to the Crimea. Many of the traders and craftsmen of Piraeus were *metics* (μέτοικοι), free foreigners who registered as residents, paid a special tax (twelve drachmas a year for a man), needed a citizen as sponsor, could not own land or vote, but served in the army and fleet and often grew rich: the shield-maker Cephalus, father of the speech-writer Lysias, employed 120 slaves in his Piraeus workshop. Prices were counted in silver: six *obols* (ὀβολοί) made a *drachma* (δραχμή), roughly a skilled worker's daily wage in the 430s. Athenians famously carried their small change in their mouths.",
+    "image": "culture-piraeus-plan"
+  },
+  "quiz": [
+    {"type": "cloze-choice", "prompt": "ἡ γυνὴ ___ τὴν ὑδρίαν ὁρᾷ.", "options": [{"id": "a", "text": "ἀφικνούμενος"}, {"id": "b", "text": "ἀφικνουμένη"}, {"id": "c", "text": "ἀφικνούμενον"}], "answer": "b", "skills": ["verb.ptc.pres.mp", "adj.agree"], "explain": "Feminine with ἡ γυνή: ἀφικνουμένη."},
+    {"type": "produce-form", "prompt": "Give the form of πᾶς for 'all (the water jars)': ___ τὰς ὑδρίας.", "lemma": "πᾶς", "cell": "acc.pl.f", "skills": ["adj.pas", "adj.agree"], "explain": "πάσας τὰς ὑδρίας.", "audio": "πάσας"},
+    {"type": "parse", "prompt": "Parse ἐμπόρων.", "form": "ἐμπόρων", "groups": [{"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "dat", "label": "dative"}, {"id": "acc", "label": "accusative"}]}, {"id": "number", "label": "Number", "options": [{"id": "sg", "label": "singular"}, {"id": "pl", "label": "plural"}]}], "answer": {"case": "gen", "number": "pl"}, "skills": ["noun.decl2.gen.pl", "syntax.gen.uses"], "explain": "-ων: genitive plural — πολλοὶ τῶν ἐμπόρων.", "audio": "ἐμπόρων"},
+    {"type": "true-false-grc", "prompt": "πολλοὶ τῶν ἐμπόρων ξένοι εἰσίν.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "Yes: they come from all the cities."},
+    {"type": "pick-picture", "prompt": "ὁ ὀβολός", "audio": "prompt", "options": [{"id": "a", "image": "obolos"}, {"id": "b", "image": "ichthys"}, {"id": "c", "image": "hydria"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "ὁ ὀβολός: obol, a small coin."},
+    {"type": "cloze-choice", "prompt": "ὁ Λάβρος οὐ παύεται τοὺς ἰχθῦς ___.", "options": [{"id": "a", "text": "ζητεῖ"}, {"id": "b", "text": "ζητῶν"}, {"id": "c", "text": "ζητεῖν"}], "answer": "b", "skills": ["verb.ptc.supplementary"], "explain": "παύομαι + participle: ζητῶν."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'The fish is mother's.' (belongs to the mother)", "gaps": [{"answers": ["ὁ ἰχθὺς τῆς μητρός ἐστιν", "ὁ ἰχθὺς τῆς μητρός ἐστι", "τῆς μητρός ἐστιν ὁ ἰχθύς", "ὁ ἰχθὺς ἐστι τῆς μητρός", "ὁ ἰχθύς ἐστι τῆς μητρός", "ὁ ἰχθύς ἐστιν τῆς μητρός"]}], "skills": ["vocab.production", "syntax.possession.gen"], "explain": "ὁ ἰχθὺς τῆς μητρός ἐστιν."}
+  ],
+  "skills": ["verb.ptc.pres.mp", "verb.ptc.supplementary", "verb.ptc.use", "verb.ptc.pres.act", "adj.pas", "adj.agree", "syntax.gen.uses", "syntax.possession.gen", "art.gen.sg", "art.gen.pl", "noun.decl2.gen.pl", "noun.decl1.gen.sg", "verb.deponent", "verb.contract.e", "verb.pres.mp.ind.3sg", "verb.pres.mp.ind.3pl", "syntax.word-order", "read.comprehension", "read.locate", "listen.sentences", "spell.dictation", "vocab.recognition", "vocab.production", "vocab.family"]
+}

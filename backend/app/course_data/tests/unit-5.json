@@ -1,0 +1,64 @@
+{
+  "id": "unit-5",
+  "title_grc": "Οἱ θεοί · ἔλεγχος",
+  "title_en": "Unit 5 test",
+  "scope": "5.4",
+  "pass_score": 0.8,
+  "unlock_after_hours": 24,
+  "retake_after_days": 7,
+  "blurb": "Everything from Lessons 5.1–5.4: the sacrifice, Salamis, Apollo and Daphne, the doctor. Second and first aorists, the imperfect, relative clauses, -εσ- stems, reflexives. Four parts; no feedback until the end. 80 % to pass.",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Λέξεις · Vocabulary",
+      "items": [
+        {"type": "pick-picture", "prompt": "ἰατρός", "audio": "prompt", "options": [{"id": "a", "image": "hiereus"}, {"id": "b", "image": "iatros"}, {"id": "c", "image": "eretes"}, {"id": "d", "image": "kerameus"}], "answer": "b", "skills": ["vocab.recognition"], "explain": "ἰατρός: doctor."},
+        {"type": "pick-picture", "prompt": "τριήρης", "audio": "prompt", "options": [{"id": "a", "image": "hydria"}, {"id": "b", "image": "bomos"}, {"id": "c", "image": "trieres"}, {"id": "d", "image": "toxon"}], "answer": "c", "skills": ["vocab.recognition"], "explain": "τριήρης: trireme."},
+        {"type": "pick-picture", "prompt": "αἴξ", "audio": "prompt", "options": [{"id": "a", "image": "aix"}, {"id": "b", "image": "kyon"}, {"id": "c", "image": "hippos"}, {"id": "d", "image": "nymphe"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "αἴξ: goat."},
+        {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ἡ νόσος", "options": [{"id": "a", "text": "ἡ νύμφη"}, {"id": "b", "text": "ἡ νόσος"}, {"id": "c", "text": "ἡ κόμη"}], "answer": "b", "skills": ["listen.words"], "explain": "ἡ νόσος: illness."},
+        {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ὁ ἱερεὺς τὴν αἶγα ἔθυσεν.", "options": [{"id": "a", "text": "ὁ ἱερεὺς τὴν αἶγα θύει."}, {"id": "b", "text": "ὁ ἱερεὺς τὴν αἶγα ἔθυσεν."}, {"id": "c", "text": "ὁ ἱερεὺς τὸν οἶνον ἔπιεν."}], "answer": "b", "skills": ["listen.sentences", "verb.aor1.sigma"], "explain": "The priest sacrificed the goat."},
+        {"type": "match", "prompt": "Match each aorist to its meaning.", "pairs": [{"left": "ἔλαβον", "right": "took"}, {"left": "ἦλθον", "right": "came"}, {"left": "εἶπον", "right": "said"}, {"left": "εἶδον", "right": "saw"}, {"left": "ἔφυγον", "right": "fled"}], "skills": ["vocab.recognition", "verb.aor2.stem"], "explain": "ἔλαβον, ἦλθον, εἶπον, εἶδον, ἔφυγον."},
+        {"type": "cloze-type", "prompt": "Type the Greek for 'wine' (with its article).", "gaps": [{"answers": ["ὁ οἶνος", "οἶνος"]}], "skills": ["vocab.production"], "explain": "ὁ οἶνος.", "audio": "ὁ οἶνος"},
+        {"type": "cloze-type", "prompt": "Type the Greek for 'medicine, drug' (with its article).", "gaps": [{"answers": ["τὸ φάρμακον", "φάρμακον"]}], "skills": ["vocab.production"], "explain": "τὸ φάρμακον.", "audio": "τὸ φάρμακον"}
+      ]
+    },
+    {
+      "id": "forms",
+      "title": "Τύποι · Forms",
+      "items": [
+        {"type": "parse", "prompt": "Parse ἐπέμψαμεν.", "form": "ἐπέμψαμεν", "groups": [{"id": "tense", "label": "Tense", "options": [{"id": "pres", "label": "present"}, {"id": "impf", "label": "imperfect"}, {"id": "aor", "label": "aorist"}]}, {"id": "person", "label": "Who?", "options": [{"id": "1sg", "label": "I"}, {"id": "1pl", "label": "we"}, {"id": "3pl", "label": "they"}]}], "answer": {"tense": "aor", "person": "1pl"}, "skills": ["verb.aor1.sigma", "verb.aor.act.ind.1pl"], "explain": "ἐ-πέμψ-αμεν: aorist, 'we sent'.", "audio": "ἐπέμψαμεν"},
+        {"type": "parse", "prompt": "Parse ἔφευγεν.", "form": "ἔφευγεν", "groups": [{"id": "tense", "label": "Tense", "options": [{"id": "impf", "label": "imperfect (was fleeing)"}, {"id": "aor", "label": "aorist (fled)"}]}], "answer": {"tense": "impf"}, "skills": ["verb.impf.vs.aor", "verb.impf.act.ind.3sg"], "explain": "Present stem φευγ- + augment: imperfect. The aorist is ἔφυγεν.", "audio": "ἔφευγεν"}
+      ],
+      "generate": {"skills": ["verb.aor.act.ind.3sg", "verb.aor.act.ind.3pl", "verb.aor.act.ind.1sg", "verb.impf.act.ind.3sg", "verb.impf.act.ind.3pl", "verb.eimi.impf.ind.3sg", "verb.aor.act.inf", "noun.decl3.acc.sg"], "n": 8, "seed": 5}
+    },
+    {
+      "id": "sentences",
+      "title": "Λόγοι · Sentences",
+      "items": [
+        {"type": "cloze-choice", "prompt": "ἡ Δάφνη ἀεὶ ἐν τοῖς δένδροις ___· ἀλλὰ τότε ὁ θεὸς αὐτὴν εἶδεν.", "options": [{"id": "a", "text": "ἔτρεχεν"}, {"id": "b", "text": "ἔδραμεν"}], "answer": "a", "skills": ["verb.impf.vs.aor"], "explain": "A habit (ἀεί): imperfect ἔτρεχεν; the single event is εἶδεν."},
+        {"type": "cloze-choice", "prompt": "ὁ ἰατρός, ___ ὁ Σύρος ἐκάλεσεν, Κῷός ἐστιν.", "options": [{"id": "a", "text": "ὅς"}, {"id": "b", "text": "ὅν"}, {"id": "c", "text": "ὅ"}], "answer": "b", "skills": ["pron.relative", "syntax.relative-clause"], "explain": "Masculine, object of ἐκάλεσεν: ὅν."},
+        {"type": "cloze-choice", "prompt": "οἱ βάρβαροι εἰς τὴν πόλιν ___.", "options": [{"id": "a", "text": "εἰσῆλθον"}, {"id": "b", "text": "ἐεἰσῆλθον"}, {"id": "c", "text": "εἰσἦλθον"}], "answer": "a", "skills": ["verb.augment.compound"], "explain": "The augment between prefix and verb: εἰσ-ῆλθον."},
+        {"type": "cloze-choice", "prompt": "ὁ Λάβρος ___ ἐν τῷ ὕδατι ὁρᾷ.", "options": [{"id": "a", "text": "αὐτόν"}, {"id": "b", "text": "ἑαυτόν"}, {"id": "c", "text": "ἀλλήλους"}], "answer": "b", "skills": ["pron.reflexive"], "explain": "'himself': the reflexive ἑαυτόν."},
+        {"type": "transform", "prompt": "Put it in the past (a single event): ὁ κύων κρέας λαμβάνει καὶ φεύγει. → ὁ κύων κρέας … καὶ …", "template": "ὁ κύων κρέας ___ καὶ ___.", "gaps": [{"answers": ["ἔλαβε(ν)"]}, {"answers": ["ἔφυγε(ν)"]}], "skills": ["verb.aor.act.ind.3sg", "verb.aor2.stem"], "explain": "ἔλαβε καὶ ἔφυγεν."},
+        {"type": "transform", "prompt": "Put it in the past (going on): οἱ Ἕλληνες πρὸς τοὺς βαρβάρους μάχονται. → οἱ Ἕλληνες πρὸς τοὺς βαρβάρους …", "template": "οἱ Ἕλληνες πρὸς τοὺς βαρβάρους ___.", "gaps": [{"answers": ["ἐμάχοντο"]}], "skills": ["verb.impf.mp.ind.3pl"], "explain": "ἐμάχοντο: imperfect middle."},
+        {"type": "reorder", "prompt": "Put the words in order: 'The priest, having taken the goat, sacrificed it.'", "tokens": ["ἔθυσεν", "τὴν", "ὁ", "λαβὼν", "ἱερεὺς", "αἶγα", "αὐτὴν"], "answers": ["ὁ ἱερεὺς τὴν αἶγα λαβὼν αὐτὴν ἔθυσεν", "ὁ ἱερεὺς λαβὼν τὴν αἶγα αὐτὴν ἔθυσεν", "τὴν αἶγα λαβὼν ὁ ἱερεὺς αὐτὴν ἔθυσεν", "ὁ ἱερεὺς τὴν αἶγα λαβὼν ἔθυσεν αὐτὴν"], "skills": ["syntax.word-order", "verb.ptc.aor.act"], "explain": "ὁ ἱερεὺς τὴν αἶγα λαβὼν αὐτὴν ἔθυσεν."},
+        {"type": "compose-grc", "prompt": "Write in Greek: 'Kleinias said: \"We won and saved Greece.\"'", "gaps": [{"answers": ["ὁ Κλεινίας εἶπεν· ἐνικήσαμεν καὶ τὴν Ἑλλάδα ἐσώσαμεν", "ὁ Κλεινίας εἶπε· ἐνικήσαμεν καὶ τὴν Ἑλλάδα ἐσώσαμεν", "ὁ Κλεινίας εἶπεν· ἡμεῖς ἐνικήσαμεν καὶ τὴν Ἑλλάδα ἐσώσαμεν", "ὁ Κλεινίας εἶπε· ἡμεῖς ἐνικήσαμεν καὶ τὴν Ἑλλάδα ἐσώσαμεν", "ὁ Κλεινίας εἶπεν· ἐνικήσαμεν καὶ ἐσώσαμεν τὴν Ἑλλάδα", "ὁ Κλεινίας εἶπεν· ἡμεῖς ἐνικήσαμεν καὶ ἐσώσαμεν τὴν Ἑλλάδα"]}], "skills": ["vocab.production", "verb.aor.act.ind.1pl", "verb.aor.act.ind.3sg"], "explain": "ὁ Κλεινίας εἶπεν· «ἐνικήσαμεν καὶ τὴν Ἑλλάδα ἐσώσαμεν.»"}
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Ἀνάγνωσις · Reading",
+      "passage_title": "ὁ Σύρος περὶ ἑαυτοῦ λέγει",
+      "passage": "ὁ Σύρος, ὃς ἐν τῷ ἐργαστηρίῳ πονεῖ, οὐκ Ἀθηναῖός ἐστιν. ὅτε παῖς ἦν, ἐν τῇ Συρίᾳ ἦν καὶ μετὰ τοῦ πατρὸς ἐπόνει· ἡ γὰρ οἰκία αὐτῶν πρὸς ποταμῷ ἦν. πόλεμος δὲ ἐγένετο· βάρβαροι εἰς τὴν πόλιν εἰσῆλθον καὶ τὰς οἰκίας ἔκαυσαν. ὁ Σύρος ἔφευγεν, ἀλλ' οἱ βάρβαροι αὐτὸν ἔλαβον καὶ πρὸς τὴν θάλατταν ἤγαγον. ἔμπορός τις αὐτὸν ἔλαβε καὶ ἐν τριήρει εἰς τὸν Πειραιᾶ ἤγαγεν. ἐκεῖ ὁ Ἀρίστων τὸν παῖδα εἶδε καὶ εἰς τὴν οἰκίαν ἤγαγεν. νῦν ὁ Σύρος ἐν Ἀθήναις μένει καὶ τοὺς παῖδας φιλεῖ, ἐλεύθερος δὲ οὐκ ἐστιν. «πάλαι», λέγει, «ἐλεύθερος ἦν· νῦν δὲ δοῦλός εἰμι. ἀλλ' ἡ Ἐλπίς, ἣ ἐμὲ φιλεῖ, ἀεὶ λέγει ὅτι ἐγὼ τοῦ οἴκου εἰμί.»",
+      "items": [
+        {"type": "true-false-grc", "prompt": "ὁ Σύρος ἐν Ἀθήναις παῖς ἦν.", "answer": "false", "skills": ["read.comprehension", "verb.eimi.impf.ind.3sg"], "explain": "ὅτε παῖς ἦν, ἐν τῇ Συρίᾳ ἦν."},
+        {"type": "true-false-grc", "prompt": "οἱ βάρβαροι τὸν Σύρον ἔλαβον.", "answer": "true", "skills": ["read.comprehension", "verb.aor.act.ind.3pl"], "explain": "οἱ βάρβαροι αὐτὸν ἔλαβον καὶ πρὸς τὴν θάλατταν ἤγαγον."},
+        {"type": "true-false-grc", "prompt": "ὁ Σύρος νῦν ἐλεύθερός ἐστιν.", "answer": "false", "skills": ["read.comprehension"], "explain": "ἐλεύθερος δὲ οὐκ ἐστιν· δοῦλός εἰμι, he says."},
+        {"type": "answer-grc", "prompt": "τίς τὸν Σύρον εἰς τὸν Πειραιᾶ ἤγαγεν;", "options": [{"id": "a", "text": "ὁ Ἀρίστων."}, {"id": "b", "text": "ἔμπορός τις."}, {"id": "c", "text": "ὁ πατὴρ αὐτοῦ."}], "answer": "b", "skills": ["read.comprehension", "verb.aor.act.ind.3sg"], "explain": "ἔμπορός τις αὐτὸν ἔλαβε καὶ ἐν τριήρει εἰς τὸν Πειραιᾶ ἤγαγεν."},
+        {"type": "answer-grc", "prompt": "τί ἐποίει ὁ Σύρος ὅτε παῖς ἦν;", "options": [{"id": "a", "text": "μετὰ τοῦ πατρὸς ἐπόνει."}, {"id": "b", "text": "ἐν τριήρει ἐμάχετο."}, {"id": "c", "text": "ἐν τῷ ἐργαστηρίῳ τοῦ Ἀρίστωνος ἐπόνει."}], "answer": "a", "skills": ["read.comprehension", "verb.impf.act.ind.3sg"], "explain": "μετὰ τοῦ πατρὸς ἐπόνει."},
+        {"type": "translate-en", "prompt": "Translate: ὁ Σύρος ἔφευγεν, ἀλλ' οἱ βάρβαροι αὐτὸν ἔλαβον καὶ πρὸς τὴν θάλατταν ἤγαγον.", "model": "Syros was running away, but the barbarians caught him and led him to the sea.", "skills": ["read.comprehension", "verb.impf.vs.aor"], "explain": "ἔφευγεν (imperfect, in progress) against ἔλαβον, ἤγαγον (aorists, events)."},
+        {"type": "translate-en", "prompt": "Translate: ἡ Ἐλπίς, ἣ ἐμὲ φιλεῖ, ἀεὶ λέγει ὅτι ἐγὼ τοῦ οἴκου εἰμί.", "model": "Elpis, who loves me, always says that I belong to the household (literally: that I am of the house).", "skills": ["read.comprehension", "syntax.relative-clause"], "explain": "ἥ: relative, feminine, subject of φιλεῖ; τοῦ οἴκου εἰμί: genitive of belonging."}
+      ]
+    }
+  ]
+}

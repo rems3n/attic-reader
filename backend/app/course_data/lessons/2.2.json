@@ -1,0 +1,131 @@
+{
+  "id": "2.2",
+  "title_grc": "οἱ δοῦλοι",
+  "title_en": "The slaves",
+  "summary_grc": "ὁ Σύρος καὶ ἡ Θρᾷττα οἱ δοῦλοι τοῦ Ἀρίστωνός εἰσιν.",
+  "summary_en": "More than one: the plural of the article and of the first two declensions, 'we' and 'you all', and whose things they are (the genitive of possession).",
+  "cover": "panel-2-2-a",
+  "caption_grc": "ὁ δοῦλος πονεῖ. οἱ δοῦλοι τοῦ Ἀρίστωνος πονοῦσιν.",
+  "names": {"Θρᾷττα": ["Θρᾴττης", "Θρᾴττῃ", "Θρᾷτταν", "Θρᾷττα"]},
+  "allow": {},
+  "story": [
+    {
+      "image": "panel-2-2-a",
+      "sentences": [
+        {"text": "ἐν τῇ οἰκίᾳ τοῦ Ἀρίστωνος δύο δοῦλοί εἰσιν, ὁ Σύρος καὶ ἡ Θρᾷττα.", "glosses": [{"word": "δοῦλοί", "kind": "|", "value": "ὁ δοῦλος | οἱ δοῦλοι"}, {"word": "Θρᾷττα", "kind": "en", "value": "Thratta, 'the Thracian woman' — a slave's name, like Σύρος 'the Syrian'"}]},
+        {"text": "ὁ μὲν Σύρος δοῦλός ἐστιν, ἡ δὲ Θρᾷττα δούλη.", "glosses": [{"word": "δούλη", "kind": "pic", "value": "doule"}]},
+        {"text": "ὁ Ἀρίστων δεσπότης ἐστίν· οἱ δοῦλοι τοῦ Ἀρίστωνός εἰσιν.", "glosses": [{"word": "δεσπότης", "kind": "↔", "value": "δοῦλος"}, {"word": "οἱ", "kind": "|", "value": "ὁ | οἱ"}, {"word": "Ἀρίστωνός", "kind": "note", "value": "τοῦ Ἀρίστωνος 'of Ariston': the slaves belong to him"}]},
+        {"text": "ὁ Ἀρίστων καὶ ἡ Χρυσὶς ἐλεύθεροί εἰσιν, οἱ δὲ δοῦλοι οὐκ ἐλεύθεροι.", "glosses": [{"word": "ἐλεύθεροί", "kind": "↔", "value": "δοῦλος"}]},
+        {"text": "τὰ ἔργα τῶν δούλων χαλεπά ἐστιν· οἱ γὰρ δοῦλοι ἀεὶ πονοῦσιν.", "glosses": [{"word": "ἔργα", "kind": "|", "value": "τὸ ἔργον | τὰ ἔργα"}, {"word": "τῶν", "kind": "|", "value": "τοῦ | τῶν"}, {"word": "χαλεπά", "kind": "pic", "value": "chalepos-rhadios"}, {"word": "ἐστιν", "kind": "note", "value": "a neuter plural subject (τὰ ἔργα) takes a singular verb"}]},
+        {"text": "ὁ μὲν Σύρος ἐν τῷ ἐργαστηρίῳ πονεῖ, ἡ δὲ Θρᾷττα πολλάκις ἐν τῇ οἰκίᾳ μένει.", "glosses": [{"word": "πολλάκις", "kind": "en", "value": "often"}, {"word": "μένει", "kind": "pic", "value": "verb-menei"}]}
+      ]
+    },
+    {
+      "image": "panel-2-2-b",
+      "sentences": [
+        {"text": "ἡ Θρᾷττα καὶ ἡ Ἐλπὶς τὰς ὑδρίας εἰς τὴν κρήνην φέρουσιν.", "glosses": [{"word": "τὰς", "kind": "|", "value": "τὴν ὑδρίαν | τὰς ὑδρίας"}]},
+        {"text": "ἡ Ἐλπὶς λέγει· «ὦ Θρᾷττα, ἡμεῖς μὲν τὸ ὕδωρ φέρομεν, ὁ δὲ Σύρος καὶ ὁ Λύσις τὸν πηλὸν φέρουσιν.»", "glosses": [{"word": "ὦ", "kind": "en", "value": "O … (calling someone; Lesson 2.3)"}, {"word": "ἡμεῖς", "kind": "|", "value": "ἐγώ | ἡμεῖς (we)"}, {"word": "φέρομεν", "kind": "|", "value": "φέρω | φέρομεν (ἡμεῖς)"}]},
+        {"text": "αἱ κόραι ἐν τῇ κρήνῃ λέγουσιν· «ὑμεῖς μεγάλας ὑδρίας φέρετε· ἆρα δοῦλαί ἐστε;»", "glosses": [{"word": "κόραι", "kind": "|", "value": "ἡ κόρη | αἱ κόραι"}, {"word": "ὑμεῖς", "kind": "|", "value": "σύ | ὑμεῖς (you all)"}, {"word": "φέρετε", "kind": "|", "value": "φέρεις | φέρετε (ὑμεῖς)"}, {"word": "ἐστε", "kind": "|", "value": "εἶ | ἐστέ (ὑμεῖς)"}]},
+        {"text": "ἡ δὲ Ἐλπὶς λέγει· «ἡ μὲν Θρᾷττα δούλη ἐστίν, ἐγὼ δὲ οὐ δούλη εἰμί, ἀλλὰ ἐλευθέρα.»", "glosses": []},
+        {"text": "ἡ δὲ Θρᾷττα οὐ λέγει, ἀλλὰ τὴν ὑδρίαν λαμβάνει καὶ εἰς τὴν οἰκίαν σπεύδει.", "glosses": []}
+      ]
+    },
+    {
+      "image": "panel-2-2-c",
+      "sentences": [
+        {"text": "ὁ Δημόκριτος γεωργός ἐστιν· οἱ δοῦλοι τοῦ Δημοκρίτου ἐν τῷ ἀγρῷ πονοῦσιν.", "glosses": [{"word": "ἀγρῷ", "kind": "pic", "value": "agros"}]},
+        {"text": "οἱ ἀγροὶ τῶν γεωργῶν μεγάλοι εἰσίν· ἡ γῆ ἀγαθή ἐστιν, τὰ δὲ ἔργα οὐ ῥᾴδια, ἀλλὰ χαλεπά.", "glosses": [{"word": "ἀγαθή", "kind": "=", "value": "ἀγαθός = καλός (good)"}, {"word": "ῥᾴδια", "kind": "↔", "value": "χαλεπός"}]},
+        {"text": "πολλάκις οἱ δοῦλοι λέγουσιν· «ἡμεῖς μὲν ἀεὶ πονοῦμεν, οἱ δὲ δεσπόται οὐ πονοῦσιν.»", "glosses": [{"word": "πονοῦμεν", "kind": "|", "value": "πονεῖ | πονοῦμεν (ἡμεῖς) — Lesson 2.4"}, {"word": "δεσπόται", "kind": "|", "value": "ὁ δεσπότης | οἱ δεσπόται"}]},
+        {"text": "ἐν δὲ τῇ οἰκίᾳ τοῦ Ἀρίστωνος ὁ Λάβρος μένει καὶ τὴν θύραν φυλάττει.", "glosses": [{"word": "φυλάττει", "kind": "pic", "value": "verb-phylattei"}]},
+        {"text": "ὁ Λάβρος οὐ δοῦλός ἐστιν, ἀλλὰ κύων· τὸ ἔργον τοῦ κυνὸς ῥᾴδιόν ἐστιν.", "glosses": [{"word": "κυνὸς", "kind": "|", "value": "ὁ κύων | τοῦ κυνός (of the dog)"}]},
+        {"text": "ὁ Σύρος λέγει· «ἀγαθὸς κύων εἶ, ὦ Λάβρε· τὴν θύραν φυλάττεις.»", "glosses": []}
+      ]
+    }
+  ],
+  "vocab": [
+    {"id": "δουλη", "pic": "doule", "gloss_grc": "ὁ δοῦλος · ἡ δούλη"},
+    {"id": "δεσποτης", "pic": "despotes", "gloss_grc": "↔ δοῦλος"},
+    {"id": "ελευθερος", "gloss_grc": "↔ δοῦλος"},
+    {"id": "εργον", "pic": "ergon", "gloss_grc": "τὸ ἔργον · τὰ ἔργα"},
+    {"id": "χαλεπος", "pic": "chalepos-rhadios", "gloss_grc": "↔ ῥᾴδιος"},
+    {"id": "ραδιος", "pic": "chalepos-rhadios", "gloss_grc": "↔ χαλεπός"},
+    {"id": "αγαθος", "gloss_grc": "= καλός"},
+    {"id": "φυλαττω", "pic": "verb-phylattei", "gloss_grc": "φυλάττει τὴν θύραν"},
+    {"id": "μενω", "pic": "verb-menei", "gloss_grc": "μένει ↔ βαίνει"},
+    {"id": "αγρος", "pic": "agros", "gloss_grc": "ὁ ἀγρὸς τοῦ γεωργοῦ"},
+    {"id": "πολλακις", "gloss_grc": "πολλάκις"},
+    {"id": "δουλος", "gloss_grc": "ὁ δοῦλος · οἱ δοῦλοι"},
+    {"id": "εγω", "gloss_grc": "ἐγώ · ἡμεῖς"},
+    {"id": "συ", "gloss_grc": "σύ · ὑμεῖς"},
+    {"id": "ειμι", "gloss_grc": "εἰμί · εἶ · ἐστί(ν) · ἐσμέν · ἐστέ · εἰσί(ν)"},
+    {"id": "κορη", "pic": "kore", "gloss_grc": "ἡ κόρη · αἱ κόραι"}
+  ],
+  "notice": [
+    "ὁ δοῦλος — οἱ δοῦλοι · ἡ κόρη — αἱ κόραι · τὸ ἔργον — τὰ ἔργα",
+    "ἡμεῖς μὲν τὸ ὕδωρ φέρομεν, ὁ δὲ Σύρος καὶ ὁ Λύσις τὸν πηλὸν φέρουσιν.",
+    "ὑμεῖς μεγάλας ὑδρίας φέρετε· ἆρα δοῦλαί ἐστε;",
+    "οἱ δοῦλοι τοῦ Ἀρίστωνός εἰσιν. — τὰ ἔργα τῶν δούλων χαλεπά ἐστιν.",
+    "τὸ ἔργον τοῦ κυνὸς ῥᾴδιόν ἐστιν."
+  ],
+  "grammar": {
+    "md": "**The plural.** Nouns, adjectives and the article all have plural forms. Second declension:\n\n| | ὁ δοῦλος (m.) | τὸ ἔργον (n.) |\n|---|---|---|\n| nominative | **οἱ** δοῦλ**οι** | **τὰ** ἔργ**α** |\n| genitive | **τῶν** δούλ**ων** | **τῶν** ἔργ**ων** |\n| dative | **τοῖς** δούλ**οις** | **τοῖς** ἔργ**οις** |\n| accusative | **τοὺς** δούλ**ους** | **τὰ** ἔργ**α** |\n\nFirst declension (all three singular types share one plural):\n\n| | ἡ κόρη | ἡ ὑδρία |\n|---|---|---|\n| nominative | **αἱ** κόρ**αι** | **αἱ** ὑδρί**αι** |\n| genitive | **τῶν** κορ**ῶν** | **τῶν** ὑδρι**ῶν** |\n| dative | **ταῖς** κόρ**αις** | **ταῖς** ὑδρί**αις** |\n| accusative | **τὰς** κόρ**ας** | **τὰς** ὑδρί**ας** |\n\nNotice: the genitive plural is **-ων** everywhere, and in the first declension it always carries a circumflex (κορῶν, ὑδριῶν). Neuters have the same form for nominative and accusative (τὰ ἔργα). Adjectives follow the same endings: μεγάλοι, μεγάλαι, μεγάλα; χαλεποί, χαλεπαί, χαλεπά.\n\n**A neuter plural subject takes a singular verb**: *τὰ ἔργα χαλεπά ἐστιν* 'the tasks are hard'. Odd, but consistent.\n\n**We, you all.** The present tense is now complete:\n\n| | -ω verbs | εἰμί |\n|---|---|---|\n| I | φέρ**ω** | εἰμί |\n| you | φέρ**εις** | εἶ |\n| he, she, it | φέρ**ει** | ἐστί(ν) |\n| we | φέρ**ομεν** | ἐσμέν |\n| you all | φέρ**ετε** | ἐστέ |\n| they | φέρ**ουσι(ν)** | εἰσί(ν) |\n\nThe pronouns are **ἡμεῖς** *we* and **ὑμεῖς** *you (several)*; like ἐγώ and σύ they appear only for emphasis: *ἡμεῖς μὲν φέρομεν, ὁ δὲ Σύρος …*\n\n**The genitive of possession.** *Whose?* is answered by the genitive: *οἱ δοῦλοι **τοῦ Ἀρίστωνος*** 'Ariston's slaves', *τὰ ἔργα **τῶν δούλων*** 'the slaves' tasks', *τὸ ἔργον **τοῦ κυνός*** 'the dog's job'. The genitive usually follows its noun. With εἰμί it says who owns something: *οἱ δοῦλοι τοῦ Ἀρίστωνός εἰσιν* 'the slaves are Ariston's'.\n\n**δεσπότης** is masculine although it ends in -ης (ὁ δεσπότης, plural οἱ δεσπόται); its pattern comes in Unit 3. **ὁ κύων, τοῦ κυνός** is a third-declension noun: learn the two forms.",
+    "paradigms": ["article", "logos", "doron", "timi", "chora", "luo", "eimi", "ego"],
+    "diagram": "diagram-plural"
+  },
+  "exercises": [
+    {"type": "endings-cloze", "prompt": "Μελέτημα Α · Fill in the endings.", "template": "οἱ δοῦλ___ τοῦ Ἀρίστωνός εἰσιν. τὰ ἔργ___ τῶν δούλ___ χαλεπά ἐστιν. αἱ κόρ___ τὰς ὑδρί___ φέρουσιν. ἡμεῖς τὸ ὕδωρ φέρ___.", "gaps": [{"answers": ["οι"]}, {"answers": ["α"]}, {"answers": ["ων"]}, {"answers": ["αι"]}, {"answers": ["ας"]}, {"answers": ["ομεν"]}], "skills": ["noun.decl2.nom.pl", "noun.decl2.gen.pl", "noun.decl1.nom.pl", "noun.decl1.acc.pl", "verb.pres.act.ind.1pl"], "explain": "οἱ δοῦλοι (subject), τὰ ἔργα (neuter subject), τῶν δούλων (of the slaves), αἱ κόραι (subject), τὰς ὑδρίας (object), φέρομεν (we)."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ___ δοῦλοι ἐν τῷ ἀγρῷ πονοῦσιν.", "options": [{"id": "a", "text": "οἱ"}, {"id": "b", "text": "ὁ"}, {"id": "c", "text": "αἱ"}], "answer": "a", "skills": ["art.nom.pl", "noun.gender"], "explain": "δοῦλοι is masculine plural: οἱ.", "audio": "οἱ δοῦλοι ἐν τῷ ἀγρῷ πονοῦσιν."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ἡμεῖς μὲν τὸ ὕδωρ ___, ὁ δὲ Σύρος τὸν πηλὸν φέρει.", "options": [{"id": "a", "text": "φέρομεν"}, {"id": "b", "text": "φέρετε"}, {"id": "c", "text": "φέρουσιν"}], "answer": "a", "skills": ["verb.pres.act.ind.1pl", "pron.personal"], "explain": "ἡμεῖς → -ομεν.", "audio": "ἡμεῖς μὲν τὸ ὕδωρ φέρομεν, ὁ δὲ Σύρος τὸν πηλὸν φέρει."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · τὰ ἔργα ___ δούλων χαλεπά ἐστιν.", "options": [{"id": "a", "text": "τῶν"}, {"id": "b", "text": "τοῦ"}, {"id": "c", "text": "τούς"}], "answer": "a", "skills": ["art.gen.pl", "syntax.possession.gen"], "explain": "'of the slaves': genitive plural, τῶν δούλων.", "audio": "τὰ ἔργα τῶν δούλων χαλεπά ἐστιν."},
+    {"type": "pick-picture", "prompt": "φυλάττει", "audio": "prompt", "options": [{"id": "a", "image": "verb-phylattei"}, {"id": "b", "image": "verb-menei"}, {"id": "c", "image": "verb-speudei"}, {"id": "d", "image": "verb-katheudei"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "φυλάττει: guards. μένει: stays."},
+    {"type": "pick-picture", "prompt": "ἀγρός", "audio": "prompt", "options": [{"id": "a", "image": "agros"}, {"id": "b", "image": "agora"}, {"id": "c", "image": "oikos"}, {"id": "d", "image": "krene"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "ἀγρός: field. ἀγορά: agora (listen to the difference)."},
+    {"type": "produce-form", "prompt": "Give the nominative plural of δοῦλος ('the slaves' as subject).", "lemma": "δοῦλος", "cell": "nom.pl", "skills": ["noun.decl2.nom.pl"], "explain": "οἱ δοῦλοι.", "audio": "δοῦλοι"},
+    {"type": "produce-form", "prompt": "Give the accusative plural of ὑδρία ('the water jars' as object).", "lemma": "ὑδρία", "cell": "acc.pl", "skills": ["noun.decl1.acc.pl"], "explain": "τὰς ὑδρίας.", "audio": "ὑδρίας"},
+    {"type": "produce-form", "prompt": "Give the genitive plural of ἔργον ('of the tasks').", "lemma": "ἔργον", "cell": "gen.pl", "skills": ["noun.decl2.gen.pl"], "explain": "τῶν ἔργων.", "audio": "ἔργων"},
+    {"type": "produce-form", "prompt": "Give the form of εἰμί for 'you (all) are'.", "lemma": "εἰμί", "cell": "present.active.indicative.2pl", "skills": ["verb.eimi.pres.ind.2pl"], "explain": "ἐστέ: ἆρα δοῦλαί ἐστε;", "audio": "ἐστέ"},
+    {"type": "parse", "prompt": "Parse δούλων.", "form": "δούλων", "groups": [{"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "dat", "label": "dative"}, {"id": "acc", "label": "accusative"}]}, {"id": "number", "label": "Number", "options": [{"id": "sg", "label": "singular"}, {"id": "pl", "label": "plural"}]}], "answer": {"case": "gen", "number": "pl"}, "skills": ["noun.decl2.gen.pl"], "explain": "-ων: genitive plural, 'of the slaves'.", "audio": "δούλων"},
+    {"type": "parse", "prompt": "Parse φέρετε.", "form": "φέρετε", "groups": [{"id": "person", "label": "Who?", "options": [{"id": "1pl", "label": "we"}, {"id": "2pl", "label": "you (several)"}, {"id": "3pl", "label": "they"}]}], "answer": {"person": "2pl"}, "skills": ["verb.pres.act.ind.2pl"], "explain": "-ετε: you (all) carry.", "audio": "φέρετε"},
+    {"type": "cloze-choice", "prompt": "ὑμεῖς ___ ὑδρίας φέρετε.", "options": [{"id": "a", "text": "τάς"}, {"id": "b", "text": "τήν"}, {"id": "c", "text": "αἱ"}], "answer": "a", "skills": ["art.acc.pl", "noun.decl1.acc.pl"], "explain": "ὑδρίας is accusative plural: τὰς ὑδρίας."},
+    {"type": "cloze-choice", "prompt": "τὰ ἔργα τῶν δούλων χαλεπά ___.", "options": [{"id": "a", "text": "ἐστιν"}, {"id": "b", "text": "εἰσιν"}], "answer": "a", "skills": ["verb.neuter-plural"], "explain": "A neuter plural subject takes a singular verb: χαλεπά ἐστιν."},
+    {"type": "cloze-choice", "prompt": "ἆρα ὑμεῖς δοῦλαί ___;", "options": [{"id": "a", "text": "ἐστε"}, {"id": "b", "text": "ἐσμεν"}, {"id": "c", "text": "εἰσιν"}], "answer": "a", "skills": ["verb.eimi.pres.ind.2pl", "pron.personal"], "explain": "ὑμεῖς → ἐστέ."},
+    {"type": "cloze-choice", "prompt": "___ κόραι ἐν τῇ κρήνῃ εἰσίν.", "options": [{"id": "a", "text": "αἱ"}, {"id": "b", "text": "οἱ"}, {"id": "c", "text": "τά"}], "answer": "a", "skills": ["art.nom.pl", "noun.decl1.nom.pl", "noun.gender"], "explain": "κόραι is feminine plural: αἱ κόραι."},
+    {"type": "transform", "prompt": "Make it plural: ἡ κόρη τὴν ὑδρίαν φέρει. → αἱ … τὰς … φέρουσιν.", "template": "αἱ ___ τὰς ___ φέρουσιν.", "gaps": [{"answers": ["κόραι"]}, {"answers": ["ὑδρίας"]}], "skills": ["noun.decl1.nom.pl", "noun.decl1.acc.pl", "noun.number"], "explain": "αἱ κόραι τὰς ὑδρίας φέρουσιν.", "audio": "αἱ κόραι τὰς ὑδρίας φέρουσιν."},
+    {"type": "transform", "prompt": "Make it 'we': ἐγὼ ἐν τῇ οἰκίᾳ μένω. → ἡμεῖς ἐν τῇ οἰκίᾳ …", "template": "ἡμεῖς ἐν τῇ οἰκίᾳ ___.", "gaps": [{"answers": ["μένομεν"]}], "skills": ["verb.pres.act.ind.1pl", "pron.personal"], "explain": "μένομεν.", "audio": "ἡμεῖς ἐν τῇ οἰκίᾳ μένομεν."},
+    {"type": "transform", "prompt": "Say whose they are: οἱ δοῦλοι → τὰ ἔργα … (of the slaves)", "template": "τὰ ἔργα ___", "gaps": [{"answers": ["τῶν δούλων"]}], "skills": ["art.gen.pl", "noun.decl2.gen.pl", "syntax.possession.gen"], "explain": "τὰ ἔργα τῶν δούλων.", "audio": "τὰ ἔργα τῶν δούλων"},
+    {"type": "locate", "prompt": "Tap every plural article.", "sentence": "οἱ δοῦλοι τοῦ Ἀρίστωνος τὰς ὑδρίας φέρουσιν· τὰ ἔργα τῶν δούλων χαλεπά ἐστιν.", "answer": [0, 4, 7, 9], "skills": ["read.locate", "art.nom.pl", "art.acc.pl", "art.gen.pl"], "explain": "οἱ, τὰς, τὰ, τῶν. (τοῦ is singular.)"},
+    {"type": "locate", "prompt": "Tap every genitive: the 'of' words, article and noun.", "sentence": "ὁ οἶκος τοῦ Ἀρίστωνος μικρός ἐστιν· οἱ ἀγροὶ τῶν γεωργῶν μεγάλοι εἰσίν.", "answer": [2, 3, 8, 9], "skills": ["read.locate", "syntax.possession.gen", "art.gen.pl"], "explain": "τοῦ Ἀρίστωνος, τῶν γεωργῶν."},
+    {"type": "reorder", "prompt": "Put the words in order: 'The slaves work in the field.'", "tokens": ["πονοῦσιν", "ἐν", "οἱ", "τῷ", "δοῦλοι", "ἀγρῷ"], "answers": ["οἱ δοῦλοι ἐν τῷ ἀγρῷ πονοῦσιν", "ἐν τῷ ἀγρῷ οἱ δοῦλοι πονοῦσιν", "οἱ δοῦλοι πονοῦσιν ἐν τῷ ἀγρῷ"], "skills": ["syntax.word-order", "noun.decl2.nom.pl"], "explain": "οἱ δοῦλοι ἐν τῷ ἀγρῷ πονοῦσιν."},
+    {"type": "reorder", "prompt": "Put the words in order: 'We are carrying the water jars.'", "tokens": ["ὑδρίας", "φέρομεν", "τὰς", "ἡμεῖς"], "answers": ["ἡμεῖς τὰς ὑδρίας φέρομεν", "τὰς ὑδρίας ἡμεῖς φέρομεν", "ἡμεῖς φέρομεν τὰς ὑδρίας"], "skills": ["syntax.word-order", "verb.pres.act.ind.1pl"], "explain": "ἡμεῖς τὰς ὑδρίας φέρομεν."},
+    {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ἆρα δοῦλαί ἐστε;", "options": [{"id": "a", "text": "ἆρα δοῦλαί ἐστε;"}, {"id": "b", "text": "ἆρα δούλη εἶ;"}, {"id": "c", "text": "ἆρα δοῦλοί εἰσιν;"}], "answer": "a", "skills": ["listen.sentences", "verb.eimi.pres.ind.2pl"], "explain": "Are you (girls) slaves?"},
+    {"type": "true-false-grc", "prompt": "ἡ Θρᾷττα ἐλευθέρα ἐστίν.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "ἡ Θρᾷττα δούλη ἐστίν, οὐκ ἐλευθέρα."},
+    {"type": "true-false-grc", "prompt": "ὁ Λάβρος τὴν θύραν φυλάττει.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "ὁ Λάβρος μένει καὶ τὴν θύραν φυλάττει."},
+    {"type": "true-false-grc", "prompt": "οἱ δοῦλοι τοῦ Δημοκρίτου ἐν τῷ ἐργαστηρίῳ πονοῦσιν.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension", "syntax.possession.gen"], "explain": "ἐν τῷ ἀγρῷ πονοῦσιν· ὁ γὰρ Δημόκριτος γεωργός ἐστιν."},
+    {"type": "dictation", "prompt": "Listen and type what you hear.", "audio": "οἱ δοῦλοι ἐν τῷ ἀγρῷ πονοῦσιν.", "gaps": [{"answers": ["οἱ δοῦλοι ἐν τῷ ἀγρῷ πονοῦσιν", "οἱ δοῦλοι ἐν τῷ ἀγρῷ πονοῦσι"]}], "skills": ["spell.dictation", "listen.sentences"], "explain": "οἱ δοῦλοι ἐν τῷ ἀγρῷ πονοῦσιν."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'The slaves' tasks are hard.'", "gaps": [{"answers": ["τὰ ἔργα τῶν δούλων χαλεπά ἐστιν", "τὰ ἔργα τῶν δούλων χαλεπά ἐστι", "χαλεπά ἐστιν τὰ ἔργα τῶν δούλων", "τὰ τῶν δούλων ἔργα χαλεπά ἐστιν"]}], "skills": ["vocab.production", "syntax.possession.gen", "noun.decl2.gen.pl", "verb.neuter-plural"], "explain": "τὰ ἔργα τῶν δούλων χαλεπά ἐστιν."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'We are not slaves, but free.' (men speaking)", "gaps": [{"answers": ["οὐ δοῦλοί ἐσμεν, ἀλλὰ ἐλεύθεροι", "ἡμεῖς οὐ δοῦλοί ἐσμεν, ἀλλὰ ἐλεύθεροι", "οὐκ ἐσμὲν δοῦλοι, ἀλλὰ ἐλεύθεροι", "ἡμεῖς οὐκ ἐσμὲν δοῦλοι, ἀλλὰ ἐλεύθεροι"]}], "skills": ["vocab.production", "verb.eimi.pres.ind.1pl", "syntax.negation", "adj.agree"], "explain": "οὐ δοῦλοί ἐσμεν, ἀλλὰ ἐλεύθεροι."},
+    {"type": "translate-en", "prompt": "Translate: ἡ μὲν Θρᾷττα δούλη ἐστίν, ἐγὼ δὲ οὐ δούλη εἰμί, ἀλλὰ ἐλευθέρα.", "audio": "ἡ μὲν Θρᾷττα δούλη ἐστίν, ἐγὼ δὲ οὐ δούλη εἰμί, ἀλλὰ ἐλευθέρα.", "model": "Thratta is a slave, but I am not a slave; I am free.", "skills": ["read.comprehension", "syntax.men-de"], "explain": "μέν … δέ sets the two girls against each other; ἐλευθέρα is feminine because Elpis is speaking of herself."},
+    {"type": "word-family", "prompt": "Word Study · Match each Greek word to the English word that comes from it.", "pairs": [{"left": "δεσπότης", "right": "despot"}, {"left": "ἔργον", "right": "energy"}, {"left": "φυλάττω", "right": "prophylactic (guarding beforehand)"}, {"left": "ἀγρός", "right": "agronomy"}], "skills": ["vocab.family"], "explain": "δεσπότης 'master' → despot; ἐν-έργεια 'being at work'; προ-φυλακτικός 'guarding in advance'; ἀγρο-νομία 'field management'."}
+  ],
+  "questions": [
+    {"type": "answer-grc", "prompt": "τίνες εἰσὶν οἱ δοῦλοι τοῦ Ἀρίστωνος;", "audio": "prompt", "options": [{"id": "a", "text": "ὁ Σύρος καὶ ἡ Θρᾷττα."}, {"id": "b", "text": "ὁ Λύσις καὶ ἡ Ἐλπίς."}, {"id": "c", "text": "ὁ Δημόκριτος καὶ ὁ Λάβρος."}], "answer": "a", "skills": ["read.comprehension", "syntax.possession.gen"], "explain": "δύο δοῦλοί εἰσιν, ὁ Σύρος καὶ ἡ Θρᾷττα. (τίνες is the plural of τίς: 'who?')"},
+    {"type": "answer-grc", "prompt": "ποῦ πονεῖ ἡ Θρᾷττα;", "audio": "prompt", "options": [{"id": "a", "text": "ἐν τῇ οἰκίᾳ."}, {"id": "b", "text": "ἐν τῷ ἐργαστηρίῳ."}, {"id": "c", "text": "ἐν τῷ ἀγρῷ."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ἡ Θρᾷττα ἐν τῇ οἰκίᾳ μένει καὶ πονεῖ."},
+    {"type": "answer-grc", "prompt": "ἆρα ἡ Ἐλπὶς δούλη ἐστίν;", "audio": "prompt", "options": [{"id": "a", "text": "ναί, δούλη ἐστίν."}, {"id": "b", "text": "οὐ δούλη ἐστίν, ἀλλὰ ἐλευθέρα."}], "answer": "b", "skills": ["read.comprehension", "syntax.question"], "explain": "«ἐγὼ δὲ οὐ δούλη εἰμί, ἀλλὰ ἐλευθέρα.»"},
+    {"type": "answer-grc", "prompt": "τίς τὴν θύραν φυλάττει;", "audio": "prompt", "options": [{"id": "a", "text": "ὁ Λάβρος."}, {"id": "b", "text": "ὁ Σύρος."}, {"id": "c", "text": "ἡ Θρᾷττα."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ὁ Λάβρος μένει καὶ τὴν θύραν φυλάττει."},
+    {"type": "answer-grc", "prompt": "ποῦ πονοῦσιν οἱ δοῦλοι τοῦ Δημοκρίτου;", "audio": "prompt", "options": [{"id": "a", "text": "ἐν τῷ ἀγρῷ."}, {"id": "b", "text": "ἐν τῇ ἀγορᾷ."}, {"id": "c", "text": "ἐν τῇ κρήνῃ."}], "answer": "a", "skills": ["read.comprehension", "syntax.possession.gen"], "explain": "οἱ δοῦλοι τοῦ Δημοκρίτου ἐν τῷ ἀγρῷ πονοῦσιν."}
+  ],
+  "culture": {
+    "title": "Slavery in Athens",
+    "md": "Athens was a slave society, and the course will not soften it. Nobody counted, but modern estimates put the enslaved at somewhere between a quarter and a third of the people living in Attica in 432 BC; Thucydides says that more than twenty thousand slaves, most of them skilled workers, deserted to the Spartans in a single later phase of the war. Most were foreigners, taken in war or bought from traders who worked the coasts of Thrace, Phrygia, Caria, Syria and the Black Sea, and many were simply renamed for their origin: **Σύρος** 'the Syrian', **Θρᾷττα** 'the Thracian woman', Φρύξ 'the Phrygian'. A potter's household owned a few; rich men owned dozens; the silver mines at Laurion swallowed thousands under the worst conditions of all. In law a slave was property. Slaves could be bought, sold, beaten and, in court cases, tortured for evidence; they could not marry legally or own their children. Yet daily life blurred the picture: skilled slaves ran shops and paid their owners a share of the takings, an anonymous conservative complained that in Athens you could not tell a slave from a citizen by his clothes, and some were freed, becoming resident foreigners, never citizens. Killing a slave counted as homicide, but prosecutions were rare. Athenian thinkers mostly took the institution for granted; only a few voices, a generation or two later, would say that nature made no one a slave.",
+    "image": "culture-hegeso-stele"
+  },
+  "quiz": [
+    {"type": "cloze-choice", "prompt": "___ δοῦλοι τοῦ Ἀρίστωνος πονοῦσιν.", "options": [{"id": "a", "text": "οἱ"}, {"id": "b", "text": "ὁ"}, {"id": "c", "text": "τοῦ"}], "answer": "a", "skills": ["art.nom.pl"], "explain": "Plural subject: οἱ δοῦλοι."},
+    {"type": "produce-form", "prompt": "Give the accusative plural of ἀγρός ('the fields' as object).", "lemma": "ἀγρός", "cell": "acc.pl", "skills": ["noun.decl2.acc.pl"], "explain": "τοὺς ἀγρούς.", "audio": "ἀγρούς"},
+    {"type": "parse", "prompt": "Parse κόραι.", "form": "κόραι", "groups": [{"id": "case", "label": "Case", "options": [{"id": "nom", "label": "nominative"}, {"id": "gen", "label": "genitive"}, {"id": "acc", "label": "accusative"}]}, {"id": "number", "label": "Number", "options": [{"id": "sg", "label": "singular"}, {"id": "pl", "label": "plural"}]}], "answer": {"case": "nom", "number": "pl"}, "skills": ["noun.decl1.nom.pl"], "explain": "-αι: nominative plural, 'the girls'.", "audio": "κόραι"},
+    {"type": "cloze-choice", "prompt": "ἡμεῖς τὰς ὑδρίας ___.", "options": [{"id": "a", "text": "φέρομεν"}, {"id": "b", "text": "φέρετε"}, {"id": "c", "text": "φέρω"}], "answer": "a", "skills": ["verb.pres.act.ind.1pl"], "explain": "ἡμεῖς → φέρομεν."},
+    {"type": "true-false-grc", "prompt": "ὁ Ἀρίστων δεσπότης ἐστίν.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "Yes: οἱ δοῦλοι τοῦ Ἀρίστωνός εἰσιν."},
+    {"type": "pick-picture", "prompt": "δούλη", "audio": "prompt", "options": [{"id": "a", "image": "doule"}, {"id": "b", "image": "despotes"}, {"id": "c", "image": "kore"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "δούλη: slave woman."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'The slaves are working.'", "gaps": [{"answers": ["οἱ δοῦλοι πονοῦσιν", "οἱ δοῦλοι πονοῦσι", "πονοῦσιν οἱ δοῦλοι"]}], "skills": ["vocab.production", "noun.decl2.nom.pl", "verb.pres.act.ind.3pl"], "explain": "οἱ δοῦλοι πονοῦσιν."}
+  ],
+  "skills": ["art.nom.pl", "art.gen.pl", "art.acc.pl", "noun.decl2.nom.pl", "noun.decl2.gen.pl", "noun.decl2.acc.pl", "noun.decl1.nom.pl", "noun.decl1.acc.pl", "noun.number", "noun.gender", "adj.agree", "verb.neuter-plural", "verb.pres.act.ind.1pl", "verb.pres.act.ind.2pl", "verb.pres.act.ind.3pl", "verb.eimi.pres.ind.1pl", "verb.eimi.pres.ind.2pl", "pron.personal", "syntax.possession.gen", "syntax.men-de", "syntax.question", "syntax.negation", "syntax.word-order", "read.comprehension", "read.locate", "listen.sentences", "spell.dictation", "vocab.recognition", "vocab.production", "vocab.family"]
+}

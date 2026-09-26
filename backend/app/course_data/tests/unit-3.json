@@ -1,0 +1,684 @@
+{
+  "id": "unit-3",
+  "title_grc": "Ἡ πόλις · ἔλεγχος",
+  "title_en": "Unit 3 test",
+  "scope": "3.4",
+  "pass_score": 0.8,
+  "unlock_after_hours": 24,
+  "retake_after_days": 7,
+  "blurb": "Everything from Lessons 3.1–3.4: the festival, the agora, the lost dog, the Acropolis. Third-declension nouns, masculine first-declension nouns, possessives and demonstratives, the middle voice, prepositions and compound verbs. Four parts; no feedback until the end. 80 % to pass.",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Λέξεις · Vocabulary",
+      "items": [
+        {
+          "type": "pick-picture",
+          "prompt": "φύλαξ",
+          "audio": "prompt",
+          "options": [
+            {
+              "id": "a",
+              "image": "geron"
+            },
+            {
+              "id": "b",
+              "image": "hiereus"
+            },
+            {
+              "id": "c",
+              "image": "phylax"
+            },
+            {
+              "id": "d",
+              "image": "polites"
+            }
+          ],
+          "answer": "c",
+          "skills": [
+            "vocab.recognition"
+          ],
+          "explain": "φύλαξ: guard."
+        },
+        {
+          "type": "pick-picture",
+          "prompt": "ἀναβαίνει",
+          "audio": "prompt",
+          "options": [
+            {
+              "id": "a",
+              "image": "verb-anabainei"
+            },
+            {
+              "id": "b",
+              "image": "verb-katabainei"
+            },
+            {
+              "id": "c",
+              "image": "verb-eiserchetai"
+            },
+            {
+              "id": "d",
+              "image": "verb-pheugei"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "vocab.recognition"
+          ],
+          "explain": "ἀναβαίνει: goes up."
+        },
+        {
+          "type": "pick-picture",
+          "prompt": "βωμός",
+          "audio": "prompt",
+          "options": [
+            {
+              "id": "a",
+              "image": "naos"
+            },
+            {
+              "id": "b",
+              "image": "bomos"
+            },
+            {
+              "id": "c",
+              "image": "agalma"
+            },
+            {
+              "id": "d",
+              "image": "pyle"
+            }
+          ],
+          "answer": "b",
+          "skills": [
+            "vocab.recognition"
+          ],
+          "explain": "βωμός: altar. ναός: temple. ἄγαλμα: statue. πύλη: gate."
+        },
+        {
+          "type": "listen-pick",
+          "prompt": "Listen and choose what you hear.",
+          "audio": "ἡ πομπή",
+          "options": [
+            {
+              "id": "a",
+              "text": "ἡ πύλη"
+            },
+            {
+              "id": "b",
+              "text": "ἡ πόλις"
+            },
+            {
+              "id": "c",
+              "text": "ἡ πομπή"
+            }
+          ],
+          "answer": "c",
+          "skills": [
+            "listen.words"
+          ],
+          "explain": "ἡ πομπή: the procession."
+        },
+        {
+          "type": "listen-pick",
+          "prompt": "Listen and choose what you hear.",
+          "audio": "νὺξ γίγνεται· ὁ Λάβρος οὐκ ἀφικνεῖται.",
+          "options": [
+            {
+              "id": "a",
+              "text": "νὺξ γίγνεται· ὁ Λάβρος οὐκ ἀφικνεῖται."
+            },
+            {
+              "id": "b",
+              "text": "νὺξ γίγνεται· ὁ Λάβρος ἀφικνεῖται."
+            },
+            {
+              "id": "c",
+              "text": "ἡμέρα γίγνεται· ὁ Λάβρος οὐκ ἔρχεται."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "listen.sentences"
+          ],
+          "explain": "Night falls; Labros does not arrive."
+        },
+        {
+          "type": "match",
+          "prompt": "Match the Greek to the English.",
+          "pairs": [
+            {
+              "left": "βούλεται",
+              "right": "wants"
+            },
+            {
+              "left": "φοβεῖται",
+              "right": "is afraid"
+            },
+            {
+              "left": "ἀφικνεῖται",
+              "right": "arrives"
+            },
+            {
+              "left": "μάχονται",
+              "right": "they fight"
+            },
+            {
+              "left": "θύει",
+              "right": "sacrifices"
+            }
+          ],
+          "skills": [
+            "vocab.recognition"
+          ],
+          "explain": "βούλεται, φοβεῖται, ἀφικνεῖται, μάχονται, θύει."
+        },
+        {
+          "type": "cloze-type",
+          "prompt": "Type the Greek for 'citizen' (with its article).",
+          "gaps": [
+            {
+              "answers": [
+                "ὁ πολίτης",
+                "πολίτης"
+              ]
+            }
+          ],
+          "skills": [
+            "vocab.production"
+          ],
+          "explain": "ὁ πολίτης.",
+          "audio": "ὁ πολίτης"
+        },
+        {
+          "type": "cloze-type",
+          "prompt": "Type the Greek for 'temple' (with its article).",
+          "gaps": [
+            {
+              "answers": [
+                "ὁ ναός",
+                "ναός"
+              ]
+            }
+          ],
+          "skills": [
+            "vocab.production"
+          ],
+          "explain": "ὁ ναός.",
+          "audio": "ὁ ναός"
+        }
+      ]
+    },
+    {
+      "id": "forms",
+      "title": "Τύποι · Forms",
+      "items": [
+        {
+          "type": "parse",
+          "prompt": "Parse γέροντα.",
+          "form": "γέροντα",
+          "groups": [
+            {
+              "id": "case",
+              "label": "Case",
+              "options": [
+                {
+                  "id": "nom",
+                  "label": "nominative"
+                },
+                {
+                  "id": "gen",
+                  "label": "genitive"
+                },
+                {
+                  "id": "dat",
+                  "label": "dative"
+                },
+                {
+                  "id": "acc",
+                  "label": "accusative"
+                }
+              ]
+            },
+            {
+              "id": "number",
+              "label": "Number",
+              "options": [
+                {
+                  "id": "sg",
+                  "label": "singular"
+                },
+                {
+                  "id": "pl",
+                  "label": "plural"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "case": "acc",
+            "number": "sg"
+          },
+          "skills": [
+            "noun.decl3.cons.acc.sg"
+          ],
+          "explain": "-α on the stem γεροντ-: accusative singular, τὸν γέροντα.",
+          "audio": "γέροντα"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse βούλονται.",
+          "form": "βούλονται",
+          "groups": [
+            {
+              "id": "person",
+              "label": "Who?",
+              "options": [
+                {
+                  "id": "1sg",
+                  "label": "I"
+                },
+                {
+                  "id": "2sg",
+                  "label": "you (one)"
+                },
+                {
+                  "id": "3sg",
+                  "label": "he / she / it"
+                },
+                {
+                  "id": "1pl",
+                  "label": "we"
+                },
+                {
+                  "id": "2pl",
+                  "label": "you (several)"
+                },
+                {
+                  "id": "3pl",
+                  "label": "they"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "person": "3pl"
+          },
+          "skills": [
+            "verb.pres.mp.ind.3pl"
+          ],
+          "explain": "-ονται: they want.",
+          "audio": "βούλονται"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse φοβεῖται.",
+          "form": "φοβεῖται",
+          "groups": [
+            {
+              "id": "person",
+              "label": "Who?",
+              "options": [
+                {
+                  "id": "1sg",
+                  "label": "I"
+                },
+                {
+                  "id": "2sg",
+                  "label": "you (one)"
+                },
+                {
+                  "id": "3sg",
+                  "label": "he / she / it"
+                },
+                {
+                  "id": "1pl",
+                  "label": "we"
+                },
+                {
+                  "id": "2pl",
+                  "label": "you (several)"
+                },
+                {
+                  "id": "3pl",
+                  "label": "they"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "person": "3sg"
+          },
+          "skills": [
+            "verb.pres.mp.ind.3sg",
+            "verb.deponent"
+          ],
+          "explain": "-εται (contracted -εῖται): he or she is afraid.",
+          "audio": "φοβεῖται"
+        },
+        {
+          "type": "produce-form",
+          "prompt": "Give the form of ἀφικνέομαι for 'they arrive'.",
+          "lemma": "ἀφικνέομαι",
+          "cell": "present.middle.indicative.3pl",
+          "skills": [
+            "verb.pres.mp.ind.3pl",
+            "verb.deponent"
+          ],
+          "explain": "ἀφικνοῦνται.",
+          "audio": "ἀφικνοῦνται"
+        },
+        {
+          "type": "produce-form",
+          "prompt": "Give the genitive singular of φύλαξ ('of the guard').",
+          "lemma": "φύλαξ",
+          "cell": "gen.sg",
+          "skills": [
+            "noun.decl3.cons.gen.sg"
+          ],
+          "explain": "τοῦ φύλακος.",
+          "audio": "φύλακος"
+        }
+      ],
+      "generate": {
+        "skills": [
+          "noun.decl3.acc.sg",
+          "noun.decl3.gen.sg",
+          "noun.decl1.acc.sg",
+          "noun.decl1.gen.sg",
+          "noun.decl1.nom.pl",
+          "verb.pres.mp.ind.3pl",
+          "art.gen.pl",
+          "art.dat.pl"
+        ],
+        "n": 8,
+        "seed": 3
+      }
+    },
+    {
+      "id": "sentences",
+      "title": "Λόγοι · Sentences",
+      "items": [
+        {
+          "type": "cloze-choice",
+          "prompt": "ὁ Λάβρος τὸν ___ ὁρᾷ.",
+          "options": [
+            {
+              "id": "a",
+              "text": "φύλαξ"
+            },
+            {
+              "id": "b",
+              "text": "φύλακα"
+            },
+            {
+              "id": "c",
+              "text": "φύλακος"
+            }
+          ],
+          "answer": "b",
+          "skills": [
+            "noun.decl3.cons.acc.sg",
+            "syntax.object"
+          ],
+          "explain": "Object: τὸν φύλακα."
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "ὁ Δημόκριτος ___ τοὺς νεανίας ὁρᾷ.",
+          "options": [
+            {
+              "id": "a",
+              "text": "ἐκεῖνος"
+            },
+            {
+              "id": "b",
+              "text": "ἐκείνους"
+            },
+            {
+              "id": "c",
+              "text": "ἐκεῖνο"
+            }
+          ],
+          "answer": "b",
+          "skills": [
+            "pron.demonstrative",
+            "adj.agree"
+          ],
+          "explain": "Agrees with τοὺς νεανίας: ἐκείνους."
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "«ὦ Λάβρε, ___ μάχου!»",
+          "options": [
+            {
+              "id": "a",
+              "text": "οὐ"
+            },
+            {
+              "id": "b",
+              "text": "οὐκ"
+            },
+            {
+              "id": "c",
+              "text": "μή"
+            }
+          ],
+          "answer": "c",
+          "skills": [
+            "syntax.imperative"
+          ],
+          "explain": "Prohibitions take μή."
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "___ τῆς ἀκροπόλεως εἰς τὴν ἀγορὰν καταβαίνουσιν.",
+          "options": [
+            {
+              "id": "a",
+              "text": "πρός"
+            },
+            {
+              "id": "b",
+              "text": "ἀπό"
+            },
+            {
+              "id": "c",
+              "text": "ἐπί"
+            }
+          ],
+          "answer": "b",
+          "skills": [
+            "prep.apo.gen",
+            "prep.review"
+          ],
+          "explain": "Genitive, away from: ἀπὸ τῆς ἀκροπόλεως."
+        },
+        {
+          "type": "transform",
+          "prompt": "Make the subject plural: ὁ φύλαξ τὴν πομπὴν ὁρᾷ. → …",
+          "template": "___ τὴν πομπὴν ὁρῶσιν.",
+          "gaps": [
+            {
+              "answers": [
+                "οἱ φύλακες"
+              ]
+            }
+          ],
+          "skills": [
+            "noun.decl3.cons.pl",
+            "art.nom.pl"
+          ],
+          "explain": "οἱ φύλακες."
+        },
+        {
+          "type": "transform",
+          "prompt": "Make the subject plural: ὁ κύων μάχεται. → οἱ κύνες …",
+          "template": "οἱ κύνες ___.",
+          "gaps": [
+            {
+              "answers": [
+                "μάχονται"
+              ]
+            }
+          ],
+          "skills": [
+            "verb.pres.mp.ind.3pl"
+          ],
+          "explain": "μάχονται."
+        },
+        {
+          "type": "reorder",
+          "prompt": "Put the words in order: 'This is my son.'",
+          "tokens": [
+            "ἐμὸς",
+            "οὗτός",
+            "παῖς",
+            "ὁ",
+            "ἐστιν"
+          ],
+          "answers": [
+            "οὗτός ἐστιν ὁ ἐμὸς παῖς",
+            "ὁ ἐμὸς παῖς οὗτός ἐστιν",
+            "οὗτος ὁ ἐμὸς παῖς ἐστιν"
+          ],
+          "skills": [
+            "syntax.word-order",
+            "pron.demonstrative",
+            "pron.possessive"
+          ],
+          "explain": "οὗτός ἐστιν ὁ ἐμὸς παῖς."
+        },
+        {
+          "type": "compose-grc",
+          "prompt": "Write in Greek: 'The priest leads the procession to the altar.'",
+          "gaps": [
+            {
+              "answers": [
+                "ὁ ἱερεὺς τὴν πομπὴν πρὸς τὸν βωμὸν ἄγει",
+                "ὁ ἱερεὺς πρὸς τὸν βωμὸν τὴν πομπὴν ἄγει",
+                "ὁ ἱερεὺς ἄγει τὴν πομπὴν πρὸς τὸν βωμὸν",
+                "ὁ ἱερεὺς τὴν πομπὴν ἄγει πρὸς τὸν βωμὸν",
+                "ὁ ἱερεὺς τὴν πομπὴν εἰς τὸν βωμὸν ἄγει",
+                "ὁ ἱερεὺς τὴν πομπὴν ἐπὶ τὸν βωμὸν ἄγει"
+              ]
+            }
+          ],
+          "skills": [
+            "vocab.production",
+            "prep.pros.acc",
+            "syntax.object"
+          ],
+          "explain": "ὁ ἱερεὺς τὴν πομπὴν πρὸς τὸν βωμὸν ἄγει."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Ἀνάγνωσις · Reading",
+      "passage_title": "ὁ Δημόκριτος καὶ ὁ νεανίας",
+      "passage": "ὁ Δημόκριτος καὶ ὁ νεανίας, ὁ παῖς ὁ τοῦ Δημοκρίτου, πρὸς τὴν ἀκρόπολιν ἀναβαίνουσιν. ἑορτὴ γάρ ἐστιν, καὶ ὁ Δημόκριτος βούλεται τῇ θεᾷ θύειν. ἐν ταῖς ὁδοῖς πολλοὶ πολῖται καὶ γυναῖκες καὶ παῖδές εἰσιν· πρὸς τὸ ἱερὸν ἔρχονται. ὁ Δημόκριτος λέγει· «ὁρᾷς ἐκείνους τοὺς νεανίας; οὐ βούλονται θύειν, ἀλλὰ ἐν τῇ ἀγορᾷ λέγειν.» ὁ δὲ νεανίας οὐκ ἀκούει· τὸν γὰρ φύλακα ὁρᾷ. ὁ φύλαξ ἐπὶ τῇ πύλῃ ἐστίν· μέγας ἀνήρ ἐστι καὶ κακός. ὁ νεανίας τὸν φύλακα φοβεῖται, ἀλλὰ ὁ Δημόκριτος λέγει· «μὴ φοβοῦ, ὦ παῖ· ὁ φύλαξ τοὺς πολίτας οὐ διώκει.» εἰς τὸ ἱερὸν εἰσέρχονται καὶ πρὸς τὸν βωμὸν προσέρχονται. ὁ ἱερεὺς θύει, καὶ ὁ Δημόκριτος στέφανον ἐν τῇ χειρὶ ἔχει. ἔπειτα ἀπὸ τῆς ἀκροπόλεως καταβαίνουσιν· ὁ δὲ Δημόκριτος ἐν τῇ ὁδῷ λέγει καὶ λέγει.",
+      "items": [
+        {
+          "type": "true-false-grc",
+          "prompt": "ὁ Δημόκριτος βούλεται τῇ θεᾷ θύειν.",
+          "answer": "true",
+          "skills": [
+            "read.comprehension"
+          ],
+          "explain": "ἑορτὴ γάρ ἐστιν, καὶ ὁ Δημόκριτος βούλεται τῇ θεᾷ θύειν."
+        },
+        {
+          "type": "true-false-grc",
+          "prompt": "ὁ νεανίας τὸν φύλακα οὐ φοβεῖται.",
+          "answer": "false",
+          "skills": [
+            "read.comprehension",
+            "syntax.negation"
+          ],
+          "explain": "ὁ νεανίας τὸν φύλακα φοβεῖται."
+        },
+        {
+          "type": "true-false-grc",
+          "prompt": "ὁ ἱερεὺς στέφανον ἐν τῇ χειρὶ ἔχει.",
+          "answer": "false",
+          "skills": [
+            "read.comprehension"
+          ],
+          "explain": "ὁ Δημόκριτος στέφανον ἐν τῇ χειρὶ ἔχει· ὁ ἱερεὺς θύει."
+        },
+        {
+          "type": "answer-grc",
+          "prompt": "ποῦ ἐστιν ὁ φύλαξ;",
+          "options": [
+            {
+              "id": "a",
+              "text": "ἐπὶ τῇ πύλῃ."
+            },
+            {
+              "id": "b",
+              "text": "ἐν τῇ ἀγορᾷ."
+            },
+            {
+              "id": "c",
+              "text": "ἐπὶ τῷ βωμῷ."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.comprehension",
+            "prep.epi"
+          ],
+          "explain": "ὁ φύλαξ ἐπὶ τῇ πύλῃ ἐστίν."
+        },
+        {
+          "type": "answer-grc",
+          "prompt": "τί βούλονται ἐκεῖνοι οἱ νεανίαι;",
+          "options": [
+            {
+              "id": "a",
+              "text": "θύειν."
+            },
+            {
+              "id": "b",
+              "text": "ἐν τῇ ἀγορᾷ λέγειν."
+            },
+            {
+              "id": "c",
+              "text": "πρὸς τὴν ἀκρόπολιν ἀναβαίνειν."
+            }
+          ],
+          "answer": "b",
+          "skills": [
+            "read.comprehension",
+            "syntax.infinitive"
+          ],
+          "explain": "οὐ βούλονται θύειν, ἀλλὰ ἐν τῇ ἀγορᾷ λέγειν."
+        },
+        {
+          "type": "translate-en",
+          "prompt": "Translate: ὁ Δημόκριτος καὶ ὁ νεανίας, ὁ παῖς ὁ τοῦ Δημοκρίτου, πρὸς τὴν ἀκρόπολιν ἀναβαίνουσιν.",
+          "model": "Democritus and the young man, Democritus's son, go up to the Acropolis.",
+          "skills": [
+            "read.comprehension",
+            "prep.pros.acc",
+            "verb.compound"
+          ],
+          "explain": "ὁ παῖς ὁ τοῦ Δημοκρίτου: 'the son, the one of Democritus'; πρός + accusative 'to, towards'."
+        },
+        {
+          "type": "translate-en",
+          "prompt": "Translate: «μὴ φοβοῦ, ὦ παῖ· ὁ φύλαξ τοὺς πολίτας οὐ διώκει.»",
+          "model": "\"Don't be afraid, boy; the guard does not chase citizens.\"",
+          "skills": [
+            "read.comprehension",
+            "syntax.imperative",
+            "noun.decl1.masc"
+          ],
+          "explain": "μὴ φοβοῦ: middle imperative with μή; τοὺς πολίτας: accusative plural of πολίτης."
+        }
+      ]
+    }
+  ]
+}

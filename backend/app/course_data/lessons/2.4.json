@@ -1,0 +1,134 @@
+{
+  "id": "2.4",
+  "title_grc": "τὸ δεῖπνον",
+  "title_en": "Dinner",
+  "summary_grc": "«ἆρα σὺ αὐτὸς τὴν κύλικα ποιεῖς;» «ναί, ἐγὼ αὐτὸς αὐτὴν ποιῶ.»",
+  "summary_en": "The evening meal: the contract verbs you have been using all along, laid out at last, and αὐτός for 'him, her, it' and '-self'.",
+  "cover": "panel-2-4-a",
+  "caption_grc": "ἡ Χρυσὶς καὶ ἡ Θρᾷττα τὸ δεῖπνον ποιοῦσιν. ὁ Ἀρίστων τοὺς θεοὺς τιμᾷ.",
+  "names": {"Θρᾷττα": ["Θρᾴττης", "Θρᾴττῃ", "Θρᾷτταν", "Θρᾷττα"], "Προμηθεύς": ["Προμηθέως", "Προμηθεῖ", "Προμηθέα", "Προμηθεῦ"]},
+  "allow": {},
+  "story": [
+    {
+      "image": "panel-2-4-a",
+      "sentences": [
+        {"text": "ἑσπέρα ἐστίν.", "glosses": []},
+        {"text": "ἡ Χρυσὶς καὶ ἡ Θρᾷττα τὸ δεῖπνον ποιοῦσιν.", "glosses": [{"word": "δεῖπνον", "kind": "pic", "value": "deipnon"}, {"word": "ποιοῦσιν", "kind": "pic", "value": "verb-poiei"}]},
+        {"text": "ἡ μὲν Θρᾷττα τὴν τράπεζαν φέρει, ἡ δὲ Χρυσὶς τὸν ἄρτον καὶ τὸν τυρὸν καὶ τὰς ἐλαίας.", "glosses": [{"word": "τράπεζαν", "kind": "pic", "value": "trapeza"}, {"word": "τυρὸν", "kind": "pic", "value": "tyros"}, {"word": "ἐλαίας", "kind": "pic", "value": "elaia"}]},
+        {"text": "ἡ Ἐλπὶς τὴν Χρυσίδα ἐρωτᾷ· «ἆρα ἐγὼ τὸν οἶνον φέρω;»", "glosses": [{"word": "ἐρωτᾷ", "kind": "pic", "value": "verb-erota"}, {"word": "οἶνον", "kind": "pic", "value": "oinos"}]},
+        {"text": "ἡ δὲ Χρυσὶς λέγει· «ναί, φέρε αὐτόν, ἀλλὰ μὴ τρέχε.»", "glosses": [{"word": "αὐτόν", "kind": "=", "value": "αὐτόν = τὸν οἶνον (it)"}]}
+      ]
+    },
+    {
+      "image": "panel-2-4-b",
+      "sentences": [
+        {"text": "ὁ Ἀρίστων ἐκ τοῦ ἐργαστηρίου εἰς τὴν οἰκίαν βαίνει· καλὴν κύλικα φέρει.", "glosses": [{"word": "κύλικα", "kind": "pic", "value": "kylix"}]},
+        {"text": "ὁ Λύσις αὐτὸν ἐρωτᾷ· «ὦ πάτερ, ἆρα σὺ αὐτὸς τὴν κύλικα ποιεῖς;»", "glosses": [{"word": "αὐτὸν", "kind": "=", "value": "αὐτόν = τὸν Ἀρίστωνα (him)"}, {"word": "πάτερ", "kind": "en", "value": "father! (Unit 4)"}, {"word": "αὐτὸς", "kind": "en", "value": "σὺ αὐτός: you yourself"}, {"word": "ποιεῖς", "kind": "|", "value": "ποιεῖ | ποιεῖς (σύ)"}]},
+        {"text": "ὁ δὲ Ἀρίστων λέγει· «ναί, ἐγὼ αὐτὸς αὐτὴν ποιῶ· κεραμεὺς γάρ εἰμι.»", "glosses": [{"word": "αὐτὴν", "kind": "=", "value": "αὐτήν = τὴν κύλικα (it)"}, {"word": "ποιῶ", "kind": "|", "value": "ποιεῖς | ποιῶ (ἐγώ)"}]},
+        {"text": "ἔπειτα ὁ Ἀρίστων τοὺς θεοὺς τιμᾷ· πρῶτον μὲν τοὺς θεοὺς καλεῖ, ἔπειτα δὲ τὸν οἶνον πίνει.", "glosses": [{"word": "τιμᾷ", "kind": "pic", "value": "verb-tima"}]},
+        {"text": "ἡ Χρυσὶς λέγει· «οἱ κεραμεῖς τὴν Ἀθηνᾶν καὶ τὸν Προμηθέα τιμῶσιν.»", "glosses": [{"word": "κεραμεῖς", "kind": "|", "value": "ὁ κεραμεύς | οἱ κεραμεῖς"}, {"word": "τιμῶσιν", "kind": "|", "value": "τιμᾷ | τιμῶσι(ν)"}]},
+        {"text": "ὁ μὲν Λύσις ἄρτον καὶ τυρὸν ἐσθίει, ἡ δὲ Ἐλπὶς τὰς ἐλαίας φιλεῖ καὶ αὐτὰς ἐσθίει.", "glosses": [{"word": "αὐτὰς", "kind": "=", "value": "αὐτάς = τὰς ἐλαίας (them)"}]},
+        {"text": "ὁ Λάβρος τὸν τυρὸν ὁρᾷ καὶ αὐτὸν ζητεῖ.", "glosses": []}
+      ]
+    },
+    {
+      "image": "panel-2-4-c",
+      "sentences": [
+        {"text": "ὁ Κλεινίας τὸν Λύσιν ἐρωτᾷ· «ὦ Λύσι, ποῦ οἰκοῦμεν ἡμεῖς;»", "glosses": [{"word": "οἰκοῦμεν", "kind": "pic", "value": "verb-oikei"}]},
+        {"text": "ὁ δὲ Λύσις λέγει· «ἐν ταῖς Ἀθήναις οἰκοῦμεν, ὦ πάππε· καὶ ὁ Σύρος καὶ ἡ Θρᾷττα ἐν τῇ οἰκίᾳ ἡμῶν οἰκοῦσιν.»", "glosses": [{"word": "Ἀθήναις", "kind": "en", "value": "in Athens (the name is plural: αἱ Ἀθῆναι)"}, {"word": "ἡμῶν", "kind": "|", "value": "ἐγώ | ἡμῶν (of us, our)"}]},
+        {"text": "ὁ Κλεινίας λέγει· «καλὸν τὸ δεῖπνον· ἡ Χρυσὶς καὶ ἡ Θρᾷττα αὐτὸ ποιοῦσιν.»", "glosses": [{"word": "αὐτὸ", "kind": "=", "value": "αὐτό = τὸ δεῖπνον (it)"}]},
+        {"text": "ἡ δὲ Ἐλπὶς βοᾷ· «ὁ Λάβρος τὸν τυρὸν κλέπτει!»", "glosses": [{"word": "βοᾷ", "kind": "pic", "value": "verb-boa"}]},
+        {"text": "ὁ Λάβρος τὸν τυρὸν ἐκ τῆς τραπέζης λαμβάνει καὶ αὐτὸν ἐσθίει.", "glosses": []},
+        {"text": "ὁ Ἀρίστων βοᾷ· «ὦ Λάβρε, μὴ κλέπτε!» ὁ δὲ κύων οὐκ ἀκούει.", "glosses": []},
+        {"text": "ἡ Χρυσὶς λέγει· «ὁ Λάβρος ἀεὶ ὁ αὐτός ἐστιν.»", "glosses": [{"word": "αὐτός", "kind": "=", "value": "ὁ αὐτός = the same (article + αὐτός)"}]}
+      ]
+    }
+  ],
+  "vocab": [
+    {"id": "δειπνον", "pic": "deipnon", "gloss_grc": "τὸ δεῖπνον · ἑσπέρα ἐστίν"},
+    {"id": "οινος", "pic": "oinos", "gloss_grc": "οἶνον πίνει"},
+    {"id": "τραπεζα", "pic": "trapeza"},
+    {"id": "κυλιξ", "pic": "kylix", "gloss_grc": "ἡ κύλιξ · τὴν κύλικα · τὰς κύλικας"},
+    {"id": "ελαια", "pic": "elaia"},
+    {"id": "τυρος", "pic": "tyros"},
+    {"id": "ποιεω", "pic": "verb-poiei", "gloss_grc": "ποιῶ · ποιεῖς · ποιεῖ · ποιοῦμεν · ποιεῖτε · ποιοῦσι(ν)"},
+    {"id": "τιμαω", "pic": "verb-tima", "gloss_grc": "τιμῶ · τιμᾷς · τιμᾷ · τιμῶμεν · τιμᾶτε · τιμῶσι(ν)"},
+    {"id": "ερωταω", "pic": "verb-erota", "gloss_grc": "ἐρωτᾷ· «ἆρα …;»"},
+    {"id": "οικεω", "pic": "verb-oikei", "gloss_grc": "ἐν ταῖς Ἀθήναις οἰκοῦμεν"},
+    {"id": "βοαω", "pic": "verb-boa", "gloss_grc": "βοᾷ · μέγα λέγει"},
+    {"id": "αυτος", "gloss_grc": "αὐτόν · αὐτήν · αὐτό = him, her, it"},
+    {"id": "πονεω", "pic": "verb-ponei", "gloss_grc": "πονῶ · πονεῖς · πονεῖ"},
+    {"id": "φιλεω", "pic": "verb-philei", "gloss_grc": "φιλῶ · φιλεῖς · φιλεῖ"},
+    {"id": "οραω", "pic": "verb-hora", "gloss_grc": "ὁρῶ · ὁρᾷς · ὁρᾷ"},
+    {"id": "ζητεω", "pic": "verb-zetei", "gloss_grc": "ζητῶ · ζητεῖς · ζητεῖ"},
+    {"id": "καλεω", "pic": "verb-kalei", "gloss_grc": "καλῶ · καλεῖς · καλεῖ"}
+  ],
+  "notice": [
+    "ποιεῖ · ποιοῦσιν · ποιεῖς · ποιῶ — τιμᾷ · τιμῶσιν",
+    "ὦ πάτερ, ἆρα σὺ αὐτὸς τὴν κύλικα ποιεῖς; — ναί, ἐγὼ αὐτὸς αὐτὴν ποιῶ.",
+    "ἡ Ἐλπὶς τὰς ἐλαίας φιλεῖ καὶ αὐτὰς ἐσθίει.",
+    "ὁ Λάβρος τὸν τυρὸν ὁρᾷ καὶ αὐτὸν ζητεῖ.",
+    "ὁ Λάβρος ἀεὶ ὁ αὐτός ἐστιν."
+  ],
+  "grammar": {
+    "md": "**Contract verbs.** Since Lesson 1.2 you have used πονεῖ, φιλεῖ, ὁρᾷ, ζητεῖ. Their stems end in a vowel (πονε-, ὁρα-), and that vowel *contracts* with the vowel of the ending; the circumflex marks the join. There are two families.\n\n| | ποιέω *make, do* (-έω) | τιμάω *honour* (-άω) |\n|---|---|---|\n| I | ποι**ῶ** | τιμ**ῶ** |\n| you | ποι**εῖς** | τιμ**ᾷς** |\n| he, she, it | ποι**εῖ** | τιμ**ᾷ** |\n| we | ποι**οῦμεν** | τιμ**ῶμεν** |\n| you all | ποι**εῖτε** | τιμ**ᾶτε** |\n| they | ποι**οῦσι(ν)** | τιμ**ῶσι(ν)** |\n| command (one) | ποί**ει** | τίμ**α** |\n| command (several) | ποι**εῖτε** | τιμ**ᾶτε** |\n\nThe rules behind the table: **ε** + ε → ει, ε + ο → ου, ε + long vowel disappears (ε + ω → ω); **α** + an e-sound → ᾱ (ᾷ when an ι is involved), α + an o-sound → ω. You need not memorize the rules if you learn the two columns.\n\n-έω verbs you know: πονέω, φιλέω, καλέω, ζητέω, οἰκέω, ποιέω. -άω verbs: ὁράω, ἐρωτάω, βοάω, τιμάω. The dictionary form is the *uncontracted* one (ποιέω, τιμάω), which nobody ever said; look at the ending of that form to see which family a verb belongs to.\n\n**αὐτός, αὐτή, αὐτό.** It declines like καλός, except that the neuter singular is αὐτ**ό** (no -ν). It has three jobs:\n\n1. In the genitive, dative and accusative it is the plain pronoun **him, her, it, them**: *φέρε αὐτόν* 'bring it (the wine)', *αὐτὰς ἐσθίει* 'she eats them (the olives)', *ὁ Λύσις αὐτὸν ἐρωτᾷ* 'Lysis asks him'. It agrees in gender and number with the noun it replaces. Never use it this way in the nominative.\n2. Next to a noun or pronoun, or alone in the nominative, it means **-self** (emphasis): *ἐγὼ αὐτὸς αὐτὴν ποιῶ* 'I make it myself'; *ὁ Ἀρίστων αὐτός* 'Ariston himself'.\n3. After the article it means **the same**: *ὁ αὐτὸς κύων* 'the same dog'; *ὁ Λάβρος ἀεὶ ὁ αὐτός ἐστιν* 'Labros is always the same'.\n\n**ἡμῶν** 'of us, our' is the genitive of ἡμεῖς: *ἡ πόλις ἡμῶν*.",
+    "paradigms": ["poieo", "timao", "autos"],
+    "diagram": "diagram-contract"
+  },
+  "exercises": [
+    {"type": "endings-cloze", "prompt": "Μελέτημα Α · Fill in the contracted endings.", "template": "ἡ Χρυσὶς τὸ δεῖπνον ποι___. ἡμεῖς ἐν ταῖς Ἀθήναις οἰκ___. ἐγὼ αὐτὸς τὴν κύλικα ποι___. ὁ Ἀρίστων τοὺς θεοὺς τιμ___. οἱ κεραμεῖς τὴν Ἀθηνᾶν τιμ___.", "gaps": [{"answers": ["εῖ"]}, {"answers": ["οῦμεν"]}, {"answers": ["ῶ"]}, {"answers": ["ᾷ"]}, {"answers": ["ῶσιν", "ῶσι"]}], "skills": ["verb.contract.e", "verb.contract.a"], "explain": "ποιεῖ (she), οἰκοῦμεν (we), ποιῶ (I), τιμᾷ (he), τιμῶσιν (they)."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ὁ Λύσις τὸν Ἀρίστωνα ___· «ἆρα σὺ τὴν κύλικα ποιεῖς;»", "options": [{"id": "a", "text": "ἐρωτᾷ"}, {"id": "b", "text": "βοᾷ"}, {"id": "c", "text": "τιμᾷ"}], "answer": "a", "skills": ["vocab.recognition", "verb.contract.a"], "explain": "ἐρωτᾷ: asks (a question follows).", "audio": "ὁ Λύσις τὸν Ἀρίστωνα ἐρωτᾷ· ἆρα σὺ τὴν κύλικα ποιεῖς;"},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ἡ Ἐλπὶς τὰς ἐλαίας φιλεῖ καὶ ___ ἐσθίει.", "options": [{"id": "a", "text": "αὐτάς"}, {"id": "b", "text": "αὐτήν"}, {"id": "c", "text": "αὐτούς"}], "answer": "a", "skills": ["pron.autos", "adj.agree"], "explain": "τὰς ἐλαίας is feminine plural, so 'them' is αὐτάς.", "audio": "ἡ Ἐλπὶς τὰς ἐλαίας φιλεῖ καὶ αὐτὰς ἐσθίει."},
+    {"type": "bank-cloze", "prompt": "Μελέτημα Β · ἐγὼ ___ τὴν κύλικα ποιῶ· κεραμεὺς γάρ εἰμι.", "options": [{"id": "a", "text": "αὐτός"}, {"id": "b", "text": "αὐτόν"}, {"id": "c", "text": "αὐτή"}], "answer": "a", "skills": ["pron.autos"], "explain": "ἐγὼ αὐτός: I myself (Ariston speaking).", "audio": "ἐγὼ αὐτὸς τὴν κύλικα ποιῶ· κεραμεὺς γάρ εἰμι."},
+    {"type": "pick-picture", "prompt": "κύλιξ", "audio": "prompt", "options": [{"id": "a", "image": "kylix"}, {"id": "b", "image": "hydria"}, {"id": "c", "image": "trapeza"}, {"id": "d", "image": "artos"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "κύλιξ: a drinking cup. ὑδρία: water jar. τράπεζα: table."},
+    {"type": "pick-picture", "prompt": "ἐλαία", "audio": "prompt", "options": [{"id": "a", "image": "elaia"}, {"id": "b", "image": "tyros"}, {"id": "c", "image": "oinos"}, {"id": "d", "image": "artos"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "ἐλαία: olive. τυρός: cheese. οἶνος: wine."},
+    {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "τυρός", "options": [{"id": "a", "text": "τυρός"}, {"id": "b", "text": "τροχός"}, {"id": "c", "text": "θύρα"}], "answer": "a", "skills": ["listen.words"], "explain": "τυρός: cheese."},
+    {"type": "produce-form", "prompt": "Give the form of ποιέω for 'I make'.", "lemma": "ποιέω", "cell": "present.active.indicative.1sg", "skills": ["verb.contract.e", "verb.pres.act.ind.1sg"], "explain": "ποιῶ (ποιέ-ω → ποιῶ).", "audio": "ποιῶ"},
+    {"type": "produce-form", "prompt": "Give the form of τιμάω for 'they honour'.", "lemma": "τιμάω", "cell": "present.active.indicative.3pl", "skills": ["verb.contract.a", "verb.pres.act.ind.3pl"], "explain": "τιμῶσι(ν).", "audio": "τιμῶσιν"},
+    {"type": "produce-form", "prompt": "Give the form of οἰκέω for 'we live'.", "lemma": "οἰκέω", "cell": "present.active.indicative.1pl", "skills": ["verb.contract.e", "verb.pres.act.ind.1pl"], "explain": "οἰκοῦμεν (οἰκέ-ομεν → οἰκοῦμεν).", "audio": "οἰκοῦμεν"},
+    {"type": "produce-form", "prompt": "Give the form of αὐτός for 'her / it (feminine)' as the object.", "lemma": "αὐτός", "cell": "acc.sg.f", "skills": ["pron.autos"], "explain": "αὐτήν.", "audio": "αὐτήν"},
+    {"type": "parse", "prompt": "Parse ποιεῖς.", "form": "ποιεῖς", "groups": [{"id": "person", "label": "Who?", "options": [{"id": "1sg", "label": "I"}, {"id": "2sg", "label": "you (one person)"}, {"id": "3sg", "label": "he, she, it"}]}], "answer": {"person": "2sg"}, "skills": ["verb.contract.e", "verb.pres.act.ind.2sg"], "explain": "-εῖς (= ε + εις): you make.", "audio": "ποιεῖς"},
+    {"type": "parse", "prompt": "Parse αὐτάς.", "form": "αὐτάς", "groups": [{"id": "gender", "label": "Gender", "options": [{"id": "m", "label": "masculine"}, {"id": "f", "label": "feminine"}, {"id": "n", "label": "neuter"}]}, {"id": "number", "label": "Number", "options": [{"id": "sg", "label": "singular"}, {"id": "pl", "label": "plural"}]}], "answer": {"gender": "f", "number": "pl"}, "skills": ["pron.autos", "adj.agree"], "explain": "-άς: feminine accusative plural, 'them' (e.g. the olives).", "audio": "αὐτάς"},
+    {"type": "cloze-choice", "prompt": "ὁ Λάβρος τὸν τυρὸν ὁρᾷ καὶ ___ ζητεῖ.", "options": [{"id": "a", "text": "αὐτόν"}, {"id": "b", "text": "αὐτήν"}, {"id": "c", "text": "αὐτό"}], "answer": "a", "skills": ["pron.autos", "adj.agree"], "explain": "τὸν τυρόν is masculine: αὐτόν."},
+    {"type": "cloze-choice", "prompt": "ἡμεῖς ἐν ταῖς Ἀθήναις ___.", "options": [{"id": "a", "text": "οἰκοῦμεν"}, {"id": "b", "text": "οἰκεῖτε"}, {"id": "c", "text": "οἰκοῦσιν"}], "answer": "a", "skills": ["verb.contract.e", "verb.pres.act.ind.1pl"], "explain": "ἡμεῖς → οἰκοῦμεν."},
+    {"type": "cloze-choice", "prompt": "ἆρα σὺ τοὺς θεοὺς ___;", "options": [{"id": "a", "text": "τιμᾷς"}, {"id": "b", "text": "τιμᾷ"}, {"id": "c", "text": "τιμῶ"}], "answer": "a", "skills": ["verb.contract.a", "verb.pres.act.ind.2sg"], "explain": "σύ → τιμᾷς."},
+    {"type": "transform", "prompt": "Make it 'I': ὁ Ἀρίστων τὴν κύλικα ποιεῖ. → ἐγὼ τὴν κύλικα …", "template": "ἐγὼ τὴν κύλικα ___.", "gaps": [{"answers": ["ποιῶ"]}], "skills": ["verb.contract.e", "verb.pres.act.ind.1sg"], "explain": "ποιῶ.", "audio": "ἐγὼ τὴν κύλικα ποιῶ."},
+    {"type": "transform", "prompt": "Make it 'we': ὁ Λύσις τοὺς θεοὺς τιμᾷ. → ἡμεῖς τοὺς θεοὺς …", "template": "ἡμεῖς τοὺς θεοὺς ___.", "gaps": [{"answers": ["τιμῶμεν"]}], "skills": ["verb.contract.a", "verb.pres.act.ind.1pl"], "explain": "τιμῶμεν.", "audio": "ἡμεῖς τοὺς θεοὺς τιμῶμεν."},
+    {"type": "transform", "prompt": "Replace the object with a pronoun: ὁ Λάβρος τὸν τυρὸν ἐσθίει. → ὁ Λάβρος … ἐσθίει.", "template": "ὁ Λάβρος ___ ἐσθίει.", "gaps": [{"answers": ["αὐτόν", "αὐτὸν"]}], "skills": ["pron.autos", "syntax.object"], "explain": "αὐτόν: masculine, like τὸν τυρόν.", "audio": "ὁ Λάβρος αὐτὸν ἐσθίει."},
+    {"type": "locate", "prompt": "Tap every contract-verb form (a verb whose ending carries a circumflex).", "sentence": "ἡ Χρυσὶς τὸ δεῖπνον ποιεῖ· ὁ Ἀρίστων τοὺς θεοὺς τιμᾷ· ὁ Λάβρος τὸν τυρὸν ζητεῖ.", "answer": [4, 9, 14], "skills": ["read.locate", "verb.contract.recognize"], "explain": "ποιεῖ, τιμᾷ, ζητεῖ."},
+    {"type": "locate", "prompt": "Tap every form of αὐτός.", "sentence": "ἐγὼ αὐτὸς αὐτὴν ποιῶ· ἡ Ἐλπὶς τὰς ἐλαίας φιλεῖ καὶ αὐτὰς ἐσθίει.", "answer": [1, 2, 10], "skills": ["read.locate", "pron.autos"], "explain": "αὐτός (myself), αὐτήν (it, the cup), αὐτάς (them, the olives)."},
+    {"type": "reorder", "prompt": "Put the words in order: 'Chrysis is making the dinner.'", "tokens": ["ποιεῖ", "τὸ", "Χρυσὶς", "ἡ", "δεῖπνον"], "answers": ["ἡ Χρυσὶς τὸ δεῖπνον ποιεῖ", "τὸ δεῖπνον ἡ Χρυσὶς ποιεῖ", "ἡ Χρυσὶς ποιεῖ τὸ δεῖπνον"], "skills": ["syntax.word-order", "verb.contract.e"], "explain": "ἡ Χρυσὶς τὸ δεῖπνον ποιεῖ."},
+    {"type": "reorder", "prompt": "Put the words in order: 'Labros sees the cheese and looks for it.'", "tokens": ["ὁ", "Λάβρος", "τὸν", "τυρὸν", "ὁρᾷ", "καὶ", "αὐτὸν", "ζητεῖ"], "answers": ["ὁ Λάβρος τὸν τυρὸν ὁρᾷ καὶ αὐτὸν ζητεῖ", "ὁ Λάβρος ὁρᾷ τὸν τυρὸν καὶ ζητεῖ αὐτὸν", "ὁ Λάβρος ὁρᾷ τὸν τυρὸν καὶ αὐτὸν ζητεῖ"], "skills": ["syntax.word-order", "pron.autos"], "explain": "ὁ Λάβρος τὸν τυρὸν ὁρᾷ καὶ αὐτὸν ζητεῖ."},
+    {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "ἐν ταῖς Ἀθήναις οἰκοῦμεν.", "options": [{"id": "a", "text": "ἐν ταῖς Ἀθήναις οἰκοῦμεν."}, {"id": "b", "text": "ἐν ταῖς Ἀθήναις οἰκοῦσιν."}, {"id": "c", "text": "ἐν τῇ οἰκίᾳ οἰκεῖτε."}], "answer": "a", "skills": ["listen.sentences", "verb.contract.e"], "explain": "We live in Athens."},
+    {"type": "true-false-grc", "prompt": "ὁ Σύρος τὰς κύλικας ποιεῖ.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "ὁ Ἀρίστων αὐτὸς τὴν κύλικα ποιεῖ· κεραμεὺς γάρ ἐστιν."},
+    {"type": "true-false-grc", "prompt": "ὁ Ἀρίστων τοὺς θεοὺς τιμᾷ.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "πρῶτον μὲν τοὺς θεοὺς καλεῖ, ἔπειτα δὲ τὸν οἶνον πίνει."},
+    {"type": "true-false-grc", "prompt": "ἡ Ἐλπὶς τὸν τυρὸν κλέπτει.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "ὁ Λάβρος τὸν τυρὸν κλέπτει· ἡ Ἐλπὶς βοᾷ."},
+    {"type": "dictation", "prompt": "Listen and type what you hear.", "audio": "ἡ Χρυσὶς τὸ δεῖπνον ποιεῖ.", "gaps": [{"answers": ["ἡ Χρυσὶς τὸ δεῖπνον ποιεῖ"]}], "skills": ["spell.dictation", "listen.sentences"], "explain": "ἡ Χρυσὶς τὸ δεῖπνον ποιεῖ."},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'Do you (one person) honour the gods?'", "gaps": [{"answers": ["ἆρα τοὺς θεοὺς τιμᾷς", "ἆρα σὺ τοὺς θεοὺς τιμᾷς", "ἆρα τιμᾷς τοὺς θεούς", "ἆρα σὺ τιμᾷς τοὺς θεούς", "τοὺς θεοὺς τιμᾷς"]}], "skills": ["vocab.production", "verb.contract.a", "syntax.question"], "explain": "ἆρα τοὺς θεοὺς τιμᾷς;"},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'We live in Athens.'", "gaps": [{"answers": ["ἐν ταῖς Ἀθήναις οἰκοῦμεν", "ἡμεῖς ἐν ταῖς Ἀθήναις οἰκοῦμεν", "οἰκοῦμεν ἐν ταῖς Ἀθήναις", "ἐν Ἀθήναις οἰκοῦμεν"]}], "skills": ["vocab.production", "verb.contract.e", "prep.en.dat"], "explain": "ἐν ταῖς Ἀθήναις οἰκοῦμεν."},
+    {"type": "translate-en", "prompt": "Translate: ναί, ἐγὼ αὐτὸς αὐτὴν ποιῶ· κεραμεὺς γάρ εἰμι.", "audio": "ναί, ἐγὼ αὐτὸς αὐτὴν ποιῶ· κεραμεὺς γάρ εἰμι.", "model": "Yes, I make it myself, for I am a potter.", "skills": ["read.comprehension", "pron.autos"], "explain": "αὐτός with ἐγώ = myself; αὐτήν = it (the cup, feminine)."},
+    {"type": "word-family", "prompt": "Word Study · Match each Greek word to the English word that comes from it.", "pairs": [{"left": "ποιέω", "right": "poet (a maker)"}, {"left": "οἰκέω", "right": "economy (household management)"}, {"left": "τράπεζα", "right": "trapeze"}, {"left": "αὐτός", "right": "automatic"}, {"left": "οἶνος", "right": "wine"}], "skills": ["vocab.family"], "explain": "ποιητής 'maker'; οἰκο-νομία 'running a household'; τραπέζιον 'little table'; αὐτό-ματος 'self-moving'; οἶνος and Latin vinum share one ancient root."}
+  ],
+  "questions": [
+    {"type": "answer-grc", "prompt": "τίς τὸ δεῖπνον ποιεῖ;", "audio": "prompt", "options": [{"id": "a", "text": "ἡ Χρυσὶς καὶ ἡ Θρᾷττα."}, {"id": "b", "text": "ὁ Ἀρίστων."}, {"id": "c", "text": "ἡ Ἐλπίς."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ἡ Χρυσὶς καὶ ἡ Θρᾷττα τὸ δεῖπνον ποιοῦσιν."},
+    {"type": "answer-grc", "prompt": "τί φέρει ὁ Ἀρίστων ἐκ τοῦ ἐργαστηρίου;", "audio": "prompt", "options": [{"id": "a", "text": "κύλικα."}, {"id": "b", "text": "ὑδρίαν."}, {"id": "c", "text": "ἄρτον."}], "answer": "a", "skills": ["read.comprehension"], "explain": "καλὴν κύλικα φέρει."},
+    {"type": "answer-grc", "prompt": "τίς τὴν κύλικα ποιεῖ;", "audio": "prompt", "options": [{"id": "a", "text": "ὁ Ἀρίστων αὐτός."}, {"id": "b", "text": "ὁ Σύρος."}, {"id": "c", "text": "ὁ Λύσις."}], "answer": "a", "skills": ["read.comprehension", "pron.autos"], "explain": "«ἐγὼ αὐτὸς αὐτὴν ποιῶ.»"},
+    {"type": "answer-grc", "prompt": "ποῦ οἰκοῦσιν ὁ Λύσις καὶ ἡ Ἐλπίς;", "audio": "prompt", "options": [{"id": "a", "text": "ἐν ταῖς Ἀθήναις."}, {"id": "b", "text": "ἐν τῷ Πειραιεῖ."}, {"id": "c", "text": "ἐν τῷ ἀγρῷ."}], "answer": "a", "skills": ["read.comprehension", "verb.contract.e"], "explain": "«ἐν ταῖς Ἀθήναις οἰκοῦμεν, ὦ πάππε.»"},
+    {"type": "answer-grc", "prompt": "τί κλέπτει ὁ Λάβρος;", "audio": "prompt", "options": [{"id": "a", "text": "τὸν τυρόν."}, {"id": "b", "text": "τὸν οἶνον."}, {"id": "c", "text": "τὰς ἐλαίας."}], "answer": "a", "skills": ["read.comprehension"], "explain": "ὁ Λάβρος τὸν τυρὸν ἐκ τῆς τραπέζης λαμβάνει."}
+  ],
+  "culture": {
+    "title": "Dinner in an Athenian house",
+    "md": "The **δεῖπνον** was the one real meal of the day, eaten in the evening when the men came home; there was a light breakfast of bread dipped in wine and a snack at midday. Its base was **σῖτος**, grain food: barley cakes (μᾶζα) and, for those who could afford wheat, baked bread (ἄρτος). Everything eaten with it was **ὄψον**: olives, cheese, onions, garlic, figs, lentils and beans, and near the sea salt fish; meat came mostly from sacrifices at festivals. Wine was always mixed with water in a mixing bowl (κρατήρ), usually one part wine to two or three of water; drinking it neat was what Scythians did. Before drinking, a few drops were poured out for the gods, and Ariston calls on them first. Food was served on small low tables carried in and out, and eaten with the fingers and pieces of bread; the cups, jugs and bowls on the table were the same shapes a Kerameikos workshop produced by the thousand, which is why so many survive. At a symposium, the drinking party that could follow dinner among citizen men, guests reclined on couches and the women of the house were absent; at an ordinary family meal the evidence is thin, but men reclined or sat, women and children sat on stools, and slaves like Thratta served. Athens could not grow enough grain for itself even in 432 BC: much of the barley and wheat came by ship through Piraeus from the Black Sea and Egypt, which is one reason the fleet mattered so much.",
+    "image": "culture-symposium-kylix"
+  },
+  "quiz": [
+    {"type": "cloze-choice", "prompt": "ἡμεῖς τὸ δεῖπνον ___.", "options": [{"id": "a", "text": "ποιοῦμεν"}, {"id": "b", "text": "ποιεῖτε"}, {"id": "c", "text": "ποιεῖ"}], "answer": "a", "skills": ["verb.contract.e", "verb.pres.act.ind.1pl"], "explain": "ἡμεῖς → ποιοῦμεν."},
+    {"type": "produce-form", "prompt": "Give the form of τιμάω for 'you (one person) honour'.", "lemma": "τιμάω", "cell": "present.active.indicative.2sg", "skills": ["verb.contract.a", "verb.pres.act.ind.2sg"], "explain": "τιμᾷς.", "audio": "τιμᾷς"},
+    {"type": "parse", "prompt": "Parse οἰκοῦμεν.", "form": "οἰκοῦμεν", "groups": [{"id": "person", "label": "Who?", "options": [{"id": "1pl", "label": "we"}, {"id": "2pl", "label": "you (several)"}, {"id": "3pl", "label": "they"}]}], "answer": {"person": "1pl"}, "skills": ["verb.contract.e", "verb.pres.act.ind.1pl"], "explain": "-οῦμεν (= ε + ομεν): we live.", "audio": "οἰκοῦμεν"},
+    {"type": "cloze-choice", "prompt": "ὁ Λάβρος τὸν τυρὸν ὁρᾷ καὶ ___ ἐσθίει.", "options": [{"id": "a", "text": "αὐτόν"}, {"id": "b", "text": "αὐτήν"}, {"id": "c", "text": "αὐτό"}], "answer": "a", "skills": ["pron.autos", "adj.agree"], "explain": "Masculine, like τὸν τυρόν: αὐτόν."},
+    {"type": "pick-picture", "prompt": "οἶνος", "audio": "prompt", "options": [{"id": "a", "image": "oinos"}, {"id": "b", "image": "artos"}, {"id": "c", "image": "elaia"}, {"id": "d", "image": "kylix"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "οἶνος: wine."},
+    {"type": "true-false-grc", "prompt": "ὁ Ἀρίστων αὐτὸς τὴν κύλικα ποιεῖ.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension", "pron.autos"], "explain": "Yes: «ἐγὼ αὐτὸς αὐτὴν ποιῶ.»"},
+    {"type": "compose-grc", "prompt": "Write in Greek: 'I honour the gods.'", "gaps": [{"answers": ["τοὺς θεοὺς τιμῶ", "ἐγὼ τοὺς θεοὺς τιμῶ", "τιμῶ τοὺς θεούς", "ἐγὼ τιμῶ τοὺς θεούς"]}], "skills": ["vocab.production", "verb.contract.a", "verb.pres.act.ind.1sg"], "explain": "τοὺς θεοὺς τιμῶ."}
+  ],
+  "skills": ["verb.contract.e", "verb.contract.a", "verb.contract.recognize", "pron.autos", "adj.agree", "verb.pres.act.ind.1sg", "verb.pres.act.ind.2sg", "verb.pres.act.ind.1pl", "verb.pres.act.ind.3pl", "syntax.object", "syntax.question", "syntax.word-order", "prep.en.dat", "read.comprehension", "read.locate", "listen.words", "listen.sentences", "spell.dictation", "vocab.recognition", "vocab.production", "vocab.family"]
+}
