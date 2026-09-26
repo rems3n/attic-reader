@@ -51,7 +51,7 @@ export default function WordCoverage({ text, cards, label }: { text: string; car
       </div>
       <div className="actions">
         {fresh.length > 0 && (
-          <Link href={`/vocab?words=${fresh.map((e) => e.id).join(",")}&from=${encodeURIComponent(label)}`} className="secondary buttonLike">
+          <Link href={`/words?words=${fresh.map((e) => e.id).join(",")}&from=${encodeURIComponent(label)}`} className="secondary buttonLike">
             Study the {fresh.length} new word{fresh.length === 1 ? "" : "s"}
           </Link>
         )}
@@ -64,7 +64,7 @@ export default function WordCoverage({ text, cards, label }: { text: string; car
               <h3 className="chipTitle">New to you</h3>
               <ul className="trackWords">
                 {fresh.map((e) => (
-                  <li key={e.id}><Link href={`/vocab/${e.id}`} lang="grc" className="trackWordLemma">{e.lemma}</Link><span className="muted">{e.short}</span></li>
+                  <li key={e.id}><Link href={`/words/${e.id}`} lang="grc" className="trackWordLemma">{e.lemma}</Link><span className="muted">{e.short}</span></li>
                 ))}
               </ul>
             </>

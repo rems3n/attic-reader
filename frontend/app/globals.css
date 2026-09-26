@@ -896,3 +896,115 @@ html { scroll-padding-top: 72px; }
 /* tables scroll inside their card instead of widening the page */
 .tableWrap { max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
 .card { min-width: 0; }
+
+/* Application shell: shared navigation and focused page content. */
+.sidebar { position: fixed; inset: 0 auto 0 0; width: 228px; padding: 28px 18px 20px; border-right: 1px solid var(--line); background: var(--paper); display: flex; flex-direction: column; z-index: 30; overflow-y: auto; }
+.shellBrand { display: block; color: var(--ink); font: 500 23px var(--serif); text-decoration: none; margin: 0 12px 34px; }
+.shellBrand span { display: block; font: 12px var(--sans); color: var(--muted); letter-spacing: .09em; margin-top: 8px; text-transform: uppercase; }
+.sideLinks, .sideSupport { display: grid; gap: 5px; }
+.shellLink { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-radius: 6px; color: var(--muted); text-decoration: none; font-weight: 500; }
+.shellLink:hover, .shellLink.on { color: var(--accent); background: var(--cream); }
+.shellLink svg { flex-shrink: 0; }
+.sideSupport { margin-top: auto; padding-top: 32px; }
+.sidebarNote { font-size: 13px; margin: 22px 14px 0; color: var(--ink); }
+.sidebarNote span { display: block; font-size: 11px; color: var(--muted); margin-top: 4px; }
+.shellSubnav { display: grid; gap: 12px; padding: 12px 14px 12px 48px; font-size: 13px; }
+.shellSubnav a { color: var(--muted); text-decoration: none; }
+.shellBody { margin-left: 228px; min-width: 0; }
+.shellTopbar { min-height: 70px; border-bottom: 1px solid var(--line); padding: 12px 32px; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.shellTopbar .crumbs { margin: 0; min-width: 0; }
+.shellUtilities { display: flex; align-items: center; gap: 18px; font-size: 13px; flex-shrink: 0; }
+.shellUtilities a { color: var(--muted); }
+.accountWrap { position: relative; }
+.accountMenu { position: absolute; right: 0; top: 100%; width: 220px; padding: 16px; border: 1px solid var(--line); background: white; z-index: 50; border-radius: 6px; }
+.mobileTabs { display: none; }
+.moreSheet { width: min(100% - 24px, 460px); border: 1px solid var(--line); border-radius: 12px; background: var(--paper); color: var(--ink); padding: 24px; }
+.moreSheet::backdrop { background: rgb(28 32 36 / .35); }
+.moreSheet nav { display: grid; gap: 8px; }
+.hubShell { max-width: 1164px; }
+.narrowShell { max-width: 824px; }
+.pageHeader { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin: 20px 0 32px; }
+.pageHeader h1 { font-size: clamp(30px, 4vw, 42px); margin: 0 0 12px; }
+.pageHeader .lede { font-size: 17px; max-width: 680px; margin: 0; }
+.pageHeader > .buttonLike { flex-shrink: 0; }
+.homeHero { display: grid; grid-template-columns: 1.2fr .8fr; gap: 48px; align-items: center; padding: 44px 0 48px; }
+.homeHero h1 { font-size: clamp(40px, 4.3vw, 62px); line-height: 1.14; margin: 18px 0 24px; letter-spacing: -.025em; }
+.homeHero .lede { font-size: 18px; line-height: 1.7; margin-bottom: 28px; }
+.homeSpecimen { padding: 36px 30px; border: 1px solid var(--line); border-radius: 8px; background: var(--cream); }
+.homeSpecimen p { font: 400 clamp(28px, 3vw, 40px)/1.8 var(--serif); color: var(--accent); letter-spacing: .09em; }
+.homeSpecimen > span:not(.eyebrow) { display: block; font: italic 17px/1.65 var(--serif); }
+.homeSpecimen small { display: block; margin-top: 22px; font-size: 11px; color: var(--muted); }
+.featureGrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.featureGrid .card { margin: 0; padding: 24px; }
+.featureGrid h2 { font-size: 22px; line-height: 1.4; margin: 12px 0; }
+.featureGrid p { color: var(--muted); font-size: 15px; line-height: 1.7; }
+.featureGrid a:not(.buttonLike), .homeTextLink a { color: var(--accent); }
+.homeTextLink { padding: 28px 0 0; }
+.homeTextLink h2 { font-size: 23px; }
+.dashboardStats { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 16px; margin-bottom: 24px; }
+.dashboardGrid { display: grid; grid-template-columns: 1.15fr 1fr; gap: 20px; }
+.dashboardGrid .card { margin: 0; }
+.emptyState { border: 1px dashed var(--line); border-radius: 8px; margin: 28px 0; padding: 28px; }
+.onboardOptions { border: 0; padding: 0; margin: 0 0 24px; display: grid; gap: 12px; }
+.onboardOptions legend { font-weight: 600; margin-bottom: 14px; }
+.choiceCard { border: 1px solid var(--line); padding: 20px; border-radius: 6px; display: flex; gap: 16px; align-items: center; cursor: pointer; }
+.choiceCard.selected { border-color: var(--accent); background: var(--cream); }
+.choiceCard input { width: 18px; height: 18px; flex-shrink: 0; accent-color: var(--accent); }
+.choiceCard small { display: block; color: var(--muted); margin-top: 6px; line-height: 1.6; }
+.settingsFields { display: grid; gap: 18px; }
+.settingsFields > label { display: block; }
+.settingsFields input:not([type="checkbox"]), .settingsFields select { display: block; margin-top: 10px; padding: 12px; max-width: 100%; border: 1px solid var(--line); border-radius: 4px; color: var(--ink); background: white; }
+.settingsFields input[type="checkbox"] { width: auto; accent-color: var(--accent); }
+.tourCard { margin: 24px auto 0; max-width: 760px; border: 1px solid var(--accent); border-radius: 8px; padding: 24px; background: var(--cream); }
+.tourCard h2 { font-size: 22px; }
+.sessionSummary { margin: 18px 0; padding: 22px; background: var(--cream); border-radius: 6px; text-align: left; }
+.sessionSummary h2 { font-size: 24px; }
+.quickTimer { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; padding: 12px 24px; border-bottom: 1px solid var(--line); font-size: 14px; background: var(--cream); }
+@media (min-width: 900px) {
+  .playerBar, .gradeBar { left: 228px; }
+  .shellBody .siteFooter { margin-left: 0; }
+}
+@media (max-width: 1099px) and (min-width: 900px) {
+  .sidebar { width: 190px; padding-inline: 10px; }
+  .shellBody { margin-left: 190px; }
+  .playerBar, .gradeBar { left: 190px; }
+  .homeHero { gap: 24px; }
+  .featureGrid { grid-template-columns: 1fr; }
+}
+@media (max-width: 899px) {
+  :root { --tabbar-h: calc(66px + env(safe-area-inset-bottom, 0px)); --bar-safe: 0px; }
+  .sidebar { display: none; }
+  .shellBody { margin-left: 0; }
+  .shellTopbar { padding: 14px 20px; min-height: 62px; }
+  .shellTopbar .crumbs li:not(:last-child) { display: none; }
+  .shellTopbar .crumbs li::before { display: none; }
+  .mobileTabs { position: fixed; left: 0; right: 0; bottom: 0; height: var(--tabbar-h); display: grid; grid-template-columns: repeat(5,1fr); padding: 5px 4px env(safe-area-inset-bottom, 0px); border-top: 1px solid var(--line); background: var(--paper); z-index: 40; }
+  .mobileTabs .shellLink { display: flex; flex-direction: column; justify-content: center; gap: 4px; padding: 5px 2px; font-size: 11px; border: 0; background: none; border-radius: 4px; }
+  .mobileTabs .shellLink.on { background: var(--cream); color: var(--accent); }
+  .mobileTabs button { font-family: inherit; }
+  .pageHeader { align-items: flex-start; flex-direction: column; gap: 16px; }
+  .homeHero { padding: 20px 0 32px; gap: 24px; }
+  .featureGrid { grid-template-columns: 1fr; }
+  .dashboardStats { grid-template-columns: 1fr; gap: 12px; }
+  .dashboardGrid { grid-template-columns: 1fr; }
+  .tourCard { margin: 16px 20px 0; }
+}
+@media (max-width: 600px) {
+  .homeHero { grid-template-columns: 1fr; }
+  .homeHero h1 { font-size: 42px; }
+  .homeSpecimen { padding: 24px; }
+  .homeSpecimen p { font-size: 32px; margin: 16px 0; }
+  .homeSpecimen small { margin-top: 14px; }
+}
+@media (max-width: 899px) {
+  body:has(:is(input[type="text"], input:not([type]), input[type="number"], input[type="search"], textarea):focus) .mobileTabs { display: none; }
+}
+.hubShell { width: min(1100px, calc(100% - 64px)); }
+.narrowShell { width: min(760px, calc(100% - 48px)); }
+@media (max-width: 899px) {
+  .hubShell, .narrowShell { width: calc(100% - 40px); }
+}
+.settingsFields > * { min-width: 0; }
+.settingsFields input[hidden] { display: none; }
+.settingsFields .actions { display: flex; flex-wrap: wrap; }
+.settingsFields .actions > button { max-width: 100%; white-space: normal; }

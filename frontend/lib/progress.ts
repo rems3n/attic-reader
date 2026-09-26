@@ -53,7 +53,7 @@ export type CourseProgress = {
   skills: Record<string, SkillState>;
   errors: ErrorEntry[];
   rereads: Record<string, number[]>;
-  goal: { minutesPerDay: number };
+  goal: { minutesPerDay: number; wordsPerWeek?: number };
   activity: { day: string; minutes: number; items: number }[];
 };
 

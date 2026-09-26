@@ -14,10 +14,10 @@ Walk (phone size):
   answer picks the quiz item), a generated test item, a test reading item
   (shown with its passage) and one that no longer exists;
 - course home: the Review card shows the Mistakes count and the Skills link;
-- /course/skills: legend counts, tap a cell → detail (lessons, paradigm,
+- /progress: legend counts, tap a cell → detail (lessons, paradigm,
   Practise), the Weak filter;
-- Practise → /course/review?skills=… answered from the drill response;
-- /course/review?mode=mistakes: the unrebuildable card is removed; round 1
+- Practise → /practice/review?skills=… answered from the drill response;
+- /practice/review?mode=mistakes: the unrebuildable card is removed; round 1
   misses the reading item and gets the rest right, round 2 gets all right
   (four cards leave the deck), round 3 clears the last one.
 """
@@ -38,7 +38,7 @@ DAY = 86400000
 
 
 def skill_state(results: list[bool], days_back: list[int], now: int) -> dict:
-    """Mirror updateSkill in lib/course.ts over a list of results."""
+    """Mirror updateSkill in lib/learn.ts over a list of results."""
     s = None
     for r, back in zip(results, days_back):
         at = now - back * DAY
@@ -120,14 +120,14 @@ def main() -> int:
         ctx = browser.new_context(viewport={"width": 390, "height": 844}, device_scale_factor=2)
         page = ctx.new_page()
         page.on("console", lambda m: print("  [console]", m.text) if m.type == "error" and "CERT" not in m.text else None)
-        page.goto(f"{FRONT}/course")
+        page.goto(f"{FRONT}/learn")
         page.evaluate("(d) => localStorage.setItem('attic.srs.v1', JSON.stringify(d))", doc)
 
         # ---- course home: Review card
-        page.goto(f"{FRONT}/course")
+        page.goto(f"{FRONT}/learn")
         review = page.locator(".reviewCard")
         expect(review.locator("li", has_text="Mistakes")).to_contain_text("5")
-        expect(review.get_by_role("link", name="Skills")).to_have_attribute("href", "/course/skills")
+        expect(review.get_by_role("link", name="Skills")).to_have_attribute("href", "/progress")
         review.scroll_into_view_if_needed()
         review.screenshot(path=f"{SHOTS}/skills-01-home-review.png")
         print("home review card ok")
@@ -149,7 +149,7 @@ def main() -> int:
         panel = page.locator("#skill-detail")
         expect(panel).to_contain_text("1 / 4")
         for lesson in detail["lessons"]:
-            expect(panel.locator(f'a[href="/course/lesson/{lesson["id"]}"]')).to_be_visible()
+            expect(panel.locator(f'a[href="/learn/lesson/{lesson["id"]}"]')).to_be_visible()
         expect(panel.get_by_role("link", name="See the paradigm")).to_have_attribute("href", f"/grammar/{detail['paradigm']}")
         panel.scroll_into_view_if_needed()
         page.screenshot(path=f"{SHOTS}/skills-03-detail.png")
@@ -188,7 +188,7 @@ def main() -> int:
 
         # ---- mistakes deck, round 1
         with page.expect_response(lambda r: "/api/course/items" in r.url) as info:
-            page.goto(f"{FRONT}/course/review?mode=mistakes")
+            page.goto(f"{FRONT}/practice/review?mode=mistakes")
         body = info.value.json()
         assert body["missing"] == ["1.1|1.1:e999"], body["missing"]
         expect(page.get_by_text("can no longer be rebuilt")).to_be_visible()
@@ -222,7 +222,7 @@ def main() -> int:
         run_deck(page, info.value.json()["items"], label="round 3")
         expect(page.locator(".stepDone")).to_contain_text("The deck is empty")
         assert uncleared_keys(stored(page)) == set()
-        page.goto(f"{FRONT}/course")
+        page.goto(f"{FRONT}/learn")
         expect(page.locator(".reviewCard li", has_text="Mistakes")).to_contain_text("—")
         page.locator(".reviewCard").screenshot(path=f"{SHOTS}/skills-08-home-after.png")
         print("mistakes deck cleared")

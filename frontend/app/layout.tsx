@@ -1,12 +1,12 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
-import AppNav from "../components/AppNav";
+import AppShell from "../components/AppShell";
 import ServiceWorker from "../components/ServiceWorker";
-import SiteFooter from "../components/SiteFooter";
+
 
 export const metadata: Metadata = {
   title: "Attic Reader",
-  description: "Photograph or paste Ancient Greek and hear Classical Attic audio.",
+  description: "Learn Classical Greek through a guided course, original texts, and reconstructed Attic audio.",
   applicationName: "Attic Reader",
   manifest: "/manifest.webmanifest",
   icons: {
@@ -43,11 +43,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
       </head>
       <body>
-        <AppNav />
         <ServiceWorker />
-        {/* skip-link target around every page's <main> */}
-        <div id="main" tabIndex={-1}>{children}</div>
-        <SiteFooter />
+        <AppShell>{children}</AppShell>
       </body>
     </html>
   );
