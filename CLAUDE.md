@@ -892,7 +892,7 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
 - **Diagrams**: 47 own SVG components (`components/course/diagrams`,
   CSS-variable colours) for every diagram record, incl. schematic maps;
   `lib/diagrams.test.ts`; records `svg: true`, CC BY-SA.
-- **Verified**: build_course 0 problems; backend 430 tests; frontend 99
+- **Verified**: build_course 0 problems; backend 429 tests; frontend 99
   vitest; `next build`; e2e `e2e_course`, `e2e_placement` (12 units, 6
   items each), `e2e_stage1`, `e2e_stage2` (original panel, diagram, 11.3
   exercises, gate II passed); screenshots 11–13 in `docs/screenshots/`.
