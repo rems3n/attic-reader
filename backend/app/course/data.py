@@ -302,6 +302,52 @@ def resolve_test(test_id: str, seed: int | None = None) -> dict:
     return out
 
 
+PLACEMENT_PER_UNIT = 8
+PLACEMENT_STOP_MISSES = 3
+PLACEMENT_PASS = 0.6
+
+
+def resolve_placement(seed: int = 0) -> dict:
+    """An adaptive placement walk: for every unit with a test, a short block
+    of that test's forms + sentence items (no vocabulary, no reading, no
+    self-graded items). The client runs the blocks in order and stops after
+    `stop_after_misses` consecutive misses or a block under `pass_score`;
+    the learner is placed at the first unit not passed, and every lesson
+    before it is marked skipped."""
+    import random
+
+    from .grade import SELF_TYPES
+
+    blocks = []
+    skipped: list[str] = []
+    for unit in _units():
+        skipped.extend(unit["lessons"])
+        test_id = unit.get("test")
+        if not test_id or not (DATA_DIR / "tests" / f"{test_id}.json").exists():
+            continue
+        test = resolve_test(test_id, seed=seed)
+        rng = random.Random(f"{seed}:{test_id}")
+        generated = [i for s in test["sections"] for i in s["items"] if i.get("generated")]
+        authored = [i for s in test["sections"] if s["id"] not in ("vocab", "reading") and not s.get("passage") for i in s["items"] if not i.get("generated") and i["type"] not in SELF_TYPES]
+        rng.shuffle(generated)
+        rng.shuffle(authored)
+        n_gen = min(len(generated), PLACEMENT_PER_UNIT // 2)
+        items = generated[:n_gen] + authored[: PLACEMENT_PER_UNIT - n_gen]
+        rng.shuffle(items)
+        first_after = next((lid for lid in lesson_ids()[lesson_ids().index(unit["lessons"][-1]) + 1:] if lesson_available(lid)), None)
+        blocks.append({
+            "unit": unit["n"],
+            "title_grc": unit["title_grc"],
+            "title_en": unit["title_en"],
+            "test": test_id,
+            "scope": test["scope"],
+            "lessons": list(skipped),
+            "next_lesson": first_after,
+            "items": items,
+        })
+    return {"blocks": blocks, "per_unit": PLACEMENT_PER_UNIT, "stop_after_misses": PLACEMENT_STOP_MISSES, "pass_score": PLACEMENT_PASS, "seed": seed}
+
+
 def course_index() -> dict:
     course = load_course()
     stages = []

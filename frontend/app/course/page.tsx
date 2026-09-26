@@ -71,6 +71,10 @@ export default function CourseHome() {
         </Link>
       )}
 
+      {counts.done === 0 && !cp.placement && (
+        <p className="placementHint">Already know some Greek? <Link href="/course/placement">Take the placement test</Link> and start where you belong.</p>
+      )}
+
       <section className="card reviewCard">
         <div className="sectionHead"><div><h2>Review</h2><p>Little and often beats a long session.</p></div></div>
         <ul className="reviewList">
@@ -151,7 +155,7 @@ export default function CourseHome() {
         </section>
       )}
 
-      <p className="footnote">Progress is kept in this browser; add a sync code under Vocab › Settings to back it up. Images marked “image coming” will be replaced by Creative Commons photographs and drawings. {images.length ? `${images.length} images in the manifest.` : ""}</p>
+      <p className="footnote">Progress is kept in this browser; add a sync code under Vocab › Settings to back it up. Images marked “image coming” will be replaced by Creative Commons photographs and drawings. {images.length ? <Link href="/course/credits">{images.length} images in the manifest · credits</Link> : ""}</p>
     </main>
   );
 }

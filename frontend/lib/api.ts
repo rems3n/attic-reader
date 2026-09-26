@@ -365,7 +365,7 @@ export async function pullProgress<T>(code: string): Promise<{ saved_at: number;
 // Course
 // ---------------------------------------------------------------------------
 
-import type { CourseIndex, CourseTest, ImageRecord, Item, Lesson, Response as ItemResponse } from "./course";
+import type { CourseIndex, CourseTest, ImageRecord, Item, Lesson, Placement, Response as ItemResponse } from "./course";
 
 export async function getCourse(): Promise<CourseIndex> {
   const response = await fetch(`${API_BASE}/api/course`);
@@ -391,6 +391,12 @@ export async function getDrill(skills: string[], scope: string, n = 8, seed = 0)
   if (!response.ok) throw new Error(await getError(response));
   const body = await response.json();
   return body.items ?? [];
+}
+
+export async function getPlacement(seed: number): Promise<Placement> {
+  const response = await fetch(`${API_BASE}/api/course/placement?seed=${seed}`);
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
 }
 
 export async function getCourseImages(): Promise<ImageRecord[]> {

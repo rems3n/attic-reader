@@ -207,6 +207,26 @@ def test_course_api():
     assert client.get("/api/course/images").json()["images"]
 
 
+def test_placement_blocks():
+    from app.course.grade import SELF_TYPES, grade
+
+    r = client.get("/api/course/placement", params={"seed": 3})
+    body = r.json()
+    assert r.status_code == 200 and body["stop_after_misses"] == 3
+    blocks = body["blocks"]
+    assert blocks and blocks[0]["unit"] == 1 and blocks[0]["test"] == "unit-1"
+    assert blocks[0]["lessons"][:2] == ["0.1", "0.2"] and "1.4" in blocks[0]["lessons"]
+    for b in blocks:
+        assert 1 <= len(b["items"]) <= body["per_unit"]
+        for item in b["items"]:
+            assert item["type"] not in SELF_TYPES
+            assert item.get("gaps") or item.get("answer") is not None or item.get("options") or item.get("pairs") or item.get("tokens") or item.get("cells")
+            assert grade(item, None, False)["correct"] is False
+    # deterministic per seed
+    assert client.get("/api/course/placement", params={"seed": 3}).json() == body
+    assert client.get("/api/course/placement", params={"seed": 4}).json() != body
+
+
 def test_course_check_names_the_form_you_typed():
     item = {"type": "produce-form", "gaps": [{"answers": ["ἀνθρώπῳ"]}]}
     r = client.post("/api/course/check", json={"item": item, "response": ["ἀνθρώπου"], "scope": "1.2"})

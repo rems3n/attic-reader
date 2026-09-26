@@ -266,6 +266,12 @@ def course_test(test_id: str, seed: int | None = None) -> dict[str, object]:
         raise HTTPException(status_code=404, detail=f"No test {test_id!r}.")
 
 
+@app.get("/api/course/placement")
+def course_placement(seed: int = 0) -> dict[str, object]:
+    """Blocks of unit-test items for the adaptive placement walk."""
+    return course_data.resolve_placement(seed=seed)
+
+
 @app.get("/api/course/drill")
 def course_drill(skills: str, scope: str, n: int = 8, seed: int = 0) -> dict[str, object]:
     """Fresh morphology items for the given skills, over the words met up to

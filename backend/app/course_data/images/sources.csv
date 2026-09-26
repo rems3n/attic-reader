@@ -1,0 +1,71 @@
+id,source,ref,license,credit,crop,aspect,notes
+dipylon-oinochoe,commons,search:Dipylon oinochoe inscription|Dipylon,,,,3:2,National Archaeological Museum Athens; photo by a Commons user (CC BY-SA)
+ostrakon,commons,search:ostrakon Themistokles Agora museum|ostrak,,,,3:2,Ostraka from the Agora excavations
+wax-tablet,commons,search:wax tablet Greek school exercise|tablet,,,,3:2,Any polyptych/wax tablet with a Greek writing exercise (avoid British Museum NC images)
+school-kylix,commons,search:Douris school scene kylix Berlin F 2285|Douris,,,,3:2,Berlin Antikensammlung F 2285; use a Commons photo with CC BY-SA
+anthropos,met,search:terracotta lekythos youth standing|lekythos,,,,1:1,A single standing figure; crop to the figure
+aner,met,search:terracotta kylix bearded man|kylix,,,,1:1,A bearded man on a red-figure cup; crop to the tondo
+gyne,met,search:terracotta lekythos woman standing|lekythos,,,,1:1,A single woman; crop to the figure
+pais,met,search:terracotta chous child crawling|chous,,,,1:1,A small boy on a chous
+kore,met,search:terracotta statuette girl standing|statuette,,,,1:1,A standing girl (statuette or vase detail)
+kyon,met,search:terracotta askos dog|askos,,,,1:1,The dog askos — also Labros's attribute
+hippos,met,search:terracotta horse geometric statuette|horse,,,,1:1,A horse alone
+oikos,commons,search:ancient Greek house model terracotta|house,,,,1:1,A house model or a simple courtyard-house reconstruction drawing
+agora,commons,search:Stoa of Attalos Athens|Attalos,,,,1:1,The reconstructed Stoa of Attalos stands for the agora
+polis,commons,search:Acropolis of Athens from Philopappos Hill|Acropolis,,,,1:1,City with acropolis and walls
+thalatta,commons,search:Cape Sounion sea|Sounion,,,,1:1,Open Aegean water
+helios,met,search:terracotta Helios chariot rising|Helios,,,,1:1,Helios rising in his chariot (vase detail)
+selene,commons,search:Selene horse Parthenon east pediment|Selene,,,,1:1,Selene's horse from the Parthenon or a vase Selene
+ge,commons,search:Attica landscape olive grove Marathon|Attica,,,,1:1,Land: fields and olives
+ouranos,commons,search:sky above Acropolis Athens clouds|Athens,,,,1:1,Mostly sky
+dendron,commons,search:old olive tree Greece|olive,,,,1:1,A single tree
+anthos,met,search:gold wreath flowers Greek|wreath,,,,1:1,A flower (gold wreath detail) — crop tight
+pyr,met,search:terracotta oil lamp Greek|lamp,,,,1:1,A lit lamp / flame; alternatively a kiln scene
+hydor,commons,search:Klepsydra spring Acropolis|Klepsydra,,,,1:1,Flowing water at a spring
+biblion,commons,search:Douris kylix youth reading scroll|Douris,,,,1:1,A scroll being read (school cup detail)
+theos,met,search:bronze statuette Zeus thunderbolt|Zeus,,,,1:1,Zeus with thunderbolt
+thea,met,search:Athena owl helmet terracotta|Athena,,,,1:1,Athena with helmet and owl
+kerameus,commons,search:potter at the wheel Attic black-figure|potter,,,,1:1,A potter seated at the wheel (vase detail)
+nautes,met,search:terracotta black-figure ship sailors|ship,,,,1:1,A sailor on a ship (vase detail)
+georgos,commons,search:ploughing scene Nikosthenes black-figure cup|plough,,,,1:1,A man ploughing with oxen
+ergasterion,commons,search:Corinthian pinax potter kiln Penteskouphia|kiln,,,,1:1,Potter's kiln from the Penteskouphia plaques
+megas-mikros,met,search:terracotta pithos storage jar|pithos,,,,1:1,A very large jar; the UI pairs it with a small cup
+kalos,met,search:Berlin Painter amphora|amphora,,,,1:1,A finely painted vase
+trochos,commons,search:potter's wheel Greek vase painting|wheel,,,,1:1,The wheel itself
+pelos,commons,search:lump of potter's clay|clay,,,,1:1,A lump of clay
+kylix,met,search:terracotta kylix eye-cup|kylix,,,,1:1,A drinking cup seen whole
+artos,commons,search:ancient Greek bread terracotta votive loaf|bread,,,,1:1,A loaf
+lithos,commons,search:Athenian Agora horos boundary stone|horos,,,,1:1,The Agora boundary stone
+hodos,commons,search:Panathenaic Way Athens Agora|Panathenaic,,,,1:1,A paved road
+doron,met,search:gold ring Greek classical|ring,,,,1:1,A small gift
+thyra,commons,search:ancient Greek door Kerameikos tomb|door,,,,1:1,A door
+krene,met,search:terracotta hydria women fountain house|hydria,,,,1:1,Fountain-house scene
+hydria,met,search:terracotta hydria water jar black-figure|hydria,,,,1:1,A hydria seen whole
+kline,met,search:terracotta kylix symposium reclining couch|kylix,,,,1:1,A reclining figure on a couch
+hemera,commons,search:Acropolis Athens sunrise|Acropolis,,,,1:1,Daylight over the city
+verb-ponei,commons,search:potter at the wheel Attic black-figure|potter,,,,1:1,Same subject as kerameus; a different crop
+verb-pherei,met,search:terracotta hydria woman carrying water jar|hydria,,,,1:1,Someone carrying a jar
+verb-bainei,met,search:terracotta lekythos youth walking|lekythos,,,,1:1,Someone walking
+verb-trechei,met,search:terracotta figure running dog|dog,,,,1:1,A running dog
+verb-katheudei,met,search:terracotta lekythos sleeping figure|lekythos,,,,1:1,Someone asleep
+verb-legei,met,search:terracotta kylix conversation figures|kylix,,,,1:1,Two figures in conversation
+verb-echei,met,search:terracotta kylix youth holding cup|kylix,,,,1:1,Someone holding a cup
+verb-hora,met,search:terracotta eye-cup|eye,,,,1:1,An eye (eye-cup detail)
+verb-akouei,met,search:terracotta kylix music lesson aulos|kylix,,,,1:1,Someone listening (music lesson)
+verb-zetei,met,search:terracotta lekythos woman looking|lekythos,,,,1:1,Someone searching / looking down
+verb-lambanei,commons,search:hand taking bread Greek vase|hand,,,,1:1,A hand taking something
+verb-heuriskei,met,search:silver tetradrachm Athens owl|tetradrachm,,,,1:1,A coin (the found object)
+verb-philei,met,search:terracotta lekythos mother child|lekythos,,,,1:1,A mother and child
+verb-kalei,met,search:terracotta kylix figure calling gesture|kylix,,,,1:1,A figure with a calling gesture
+verb-hyphainei,met,search:lekythos women weaving Amasis Painter|lekythos,,,,1:1,Women at the loom (Amasis Painter lekythos)
+panel-1-1-a,commons,search:Kerameikos Athens street of tombs|Kerameikos,,,,3:2,The Kerameikos district today
+panel-1-1-b,met,search:terracotta chous children dog|chous,,,,3:2,Children with a dog
+panel-1-2-a,commons,search:Caputi hydria potters workshop Milan|hydria,,,,3:2,Workshop scene (Caputi hydria)
+panel-1-2-b,met,search:terracotta askos dog|askos,,,,3:2,The dog askos again for the sleeping dog
+panel-1-3-a,commons,search:Athenian Agora reconstruction drawing|Agora,,,,3:2,The Agora as a busy square
+panel-1-3-b,met,search:terracotta figure dog|dog,,,,3:2,A dog with something in its mouth if possible
+panel-1-4-a,met,search:lekythos women weaving Amasis Painter|lekythos,,,,3:2,Weaving at the loom
+panel-1-4-b,met,search:terracotta hydria women fountain house|hydria,,,,3:2,Girls at the fountain house
+culture-kerameikos,commons,search:Dipylon gate Kerameikos Athens|Dipylon,,,,3:2,The Dipylon gate area
+culture-potter-vase,commons,search:potter at the wheel Attic black-figure hydria Munich|potter,,,,3:2,Potter at work
+culture-fountain-hydria,met,search:black-figure hydria fountain house women|hydria,,,,3:2,Fountain-house hydria

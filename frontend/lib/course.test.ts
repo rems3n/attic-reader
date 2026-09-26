@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { familyMastery, gradeItem, isMastered, keyText, modality, seededShuffle, skillLevel, updateSkill, weakSkills, type Item } from "./course";
+import { familyMastery, gradeItem, isMastered, keyText, modality, placementDecision, seededShuffle, skillLevel, updateSkill, weakSkills, type Item } from "./course";
 
 const base = { id: "x", skills: [] as string[] };
 
@@ -65,5 +65,30 @@ describe("mastery", () => {
   it("seeded shuffle is stable", () => {
     expect(seededShuffle([1, 2, 3, 4, 5], 7)).toEqual(seededShuffle([1, 2, 3, 4, 5], 7));
     expect(seededShuffle([1, 2, 3, 4, 5], 7)).not.toEqual([1, 2, 3, 4, 5]);
+  });
+});
+
+describe("placementDecision", () => {
+  const blocks = [1, 2, 3].map((n) => ({ unit: n, title_grc: "", title_en: "", test: `unit-${n}`, scope: `${n}.4`, lessons: [], next_lesson: `${n + 1}.1`, items: [] }));
+  it("asks for the next block while every block so far passed", () => {
+    expect(placementDecision(blocks, [], 0.6, 3)).toEqual({ passed: null, next: 0 });
+    const d = placementDecision(blocks, [[true, true, false, true]], 0.6, 3);
+    expect(d.passed?.unit).toBe(1);
+    expect(d.next).toBe(1);
+  });
+  it("stops on three misses in a row even with a passing score", () => {
+    const d = placementDecision(blocks, [[true, true, true, true, true, false, false, false, true]], 0.6, 3);
+    expect(d.passed).toBeNull();
+    expect(d.next).toBeNull();
+  });
+  it("stops on a block under the pass score and keeps the last passed unit", () => {
+    const d = placementDecision(blocks, [[true, true, true, true], [true, false, true, false]], 0.6, 3);
+    expect(d.passed?.unit).toBe(1);
+    expect(d.next).toBeNull();
+  });
+  it("ends after the last block", () => {
+    const d = placementDecision(blocks, [[true], [true], [true]], 0.6, 3);
+    expect(d.passed?.unit).toBe(3);
+    expect(d.next).toBeNull();
   });
 });

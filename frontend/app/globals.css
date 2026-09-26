@@ -532,6 +532,12 @@ audio { width: 100%; display: block; }
 .exercisePrompt { margin: 0; font-size: 20px; line-height: 1.45; }
 .exercisePrompt.grc { font-size: 23px; }
 .sectionTag { margin: 0; font-size: 12px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.placementHint { margin: 0 4px 14px; padding: 10px 14px; border-radius: 12px; background: var(--cream); font-size: 15px; }
+.placementHint a { color: var(--accent); font-weight: 700; }
+.creditList { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.creditList li { display: grid; grid-template-columns: 72px 1fr; gap: 12px; align-items: start; font-size: 14px; }
+.creditList img, .creditList .picPlaceholder { width: 72px; height: 48px; object-fit: cover; border-radius: 8px; background: var(--cream); }
+.creditList .creditLicense { display: inline-block; margin-left: 6px; padding: 1px 6px; border-radius: 6px; background: var(--cream); font-size: 12px; font-weight: 700; }
 .passage { display: grid; gap: 6px; padding: 12px 14px; border-radius: 12px; background: var(--cream); border: var(--outline); }
 .passage h2 { margin: 0; font-family: var(--serif); font-size: 20px; }
 .passageText { margin: 0; font-size: 20px; line-height: 1.55; }

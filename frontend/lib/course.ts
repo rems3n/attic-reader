@@ -100,6 +100,30 @@ export type Track = { id: string; title_grc: string; title_en: string; blurb: st
 export type CourseIndex = { stages: Stage[]; tracks: Track[]; skills: Skill[]; families: { id: string; label: string }[]; lesson_order: string[] };
 export type TestSection = { id: string; title: string; passage_title?: string; passage?: string; items: Item[] };
 export type CourseTest = { id: string; title_grc: string; title_en: string; scope: string; pass_score: number; unlock_after_hours?: number; retake_after_days?: number; blurb?: string; sections: TestSection[]; item_count: number };
+export type PlacementBlock = { unit: number; title_grc: string; title_en: string; test: string; scope: string; lessons: string[]; next_lesson: string | null; items: Item[] };
+export type Placement = { blocks: PlacementBlock[]; per_unit: number; stop_after_misses: number; pass_score: number; seed: number };
+
+/** Walk the placement blocks in order with the outcomes so far: a block is
+ * passed when its score reaches `passScore` and it never had `stopAfter`
+ * misses in a row. Returns the highest passed block (or null) and whether
+ * the walk should continue to the next block. */
+export function placementDecision(blocks: PlacementBlock[], results: boolean[][], passScore: number, stopAfter: number): { passed: PlacementBlock | null; next: number | null } {
+  let passed: PlacementBlock | null = null;
+  for (let i = 0; i < blocks.length; i += 1) {
+    const r = results[i];
+    if (!r) return { passed, next: i };
+    let run = 0;
+    let broke = false;
+    for (const ok of r) {
+      run = ok ? 0 : run + 1;
+      if (run >= stopAfter) broke = true;
+    }
+    const score = r.length ? r.filter(Boolean).length / r.length : 0;
+    if (broke || score < passScore) return { passed, next: null };
+    passed = blocks[i];
+  }
+  return { passed, next: null };
+}
 
 // ----------------------------------------------------------------- grading
 
