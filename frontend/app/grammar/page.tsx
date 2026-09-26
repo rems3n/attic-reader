@@ -21,11 +21,25 @@ export default function GrammarPage() {
         <h1>Grammar</h1>
         <p className="lede">Model paradigms with the rules behind them. Every form can be tapped to hear it; the same engine builds the tables on each vocabulary page.</p>
       </section>
-      {error && <p className="error">{error}</p>}
-      {!sections && !error && <p className="muted">Loading…</p>}
+      {error && <p className="error" role="alert">{error}</p>}
+      {!sections && !error && (
+        <div aria-busy="true">
+          <p className="loadingLine" role="status">Loading the paradigms…</p>
+          <div className="skeleton skCard" aria-hidden="true" />
+        </div>
+      )}
+      {sections && sections.length > 1 && (
+        <nav className="card jumpLinks" aria-label="Sections">
+          <ul className="chips">
+            {sections.map((s) => (
+              <li key={s.id}><a className="chip" href={`#${s.id}`}>{s.title}</a></li>
+            ))}
+          </ul>
+        </nav>
+      )}
       {sections?.map((s) => (
-        <section className="card" key={s.id}>
-          <h2>{s.title}</h2>
+        <section className="card anchorTarget" key={s.id} id={s.id} aria-labelledby={`h-${s.id}`}>
+          <h2 id={`h-${s.id}`}>{s.title}</h2>
           <p>{s.blurb}</p>
           <ul className="paradigmList">
             {s.items.map((p) => (

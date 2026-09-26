@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { SpeakButton, useSpeaker } from "../../../../components/Speak";
+import Crumbs from "../../../../components/Crumbs";
+import { PageError, PageLoading } from "../../../../components/PageState";
 import { getCourse, getTrack } from "../../../../lib/api";
 import type { CourseIndex, TrackDetail } from "../../../../lib/course";
 import { findLesson, formatWait, trackGate, trackLessonStatus, trackState } from "../../../../lib/courseState";
@@ -30,8 +32,9 @@ export default function TrackPage() {
   }, [id]);
   useEffect(() => saveProgress(progress), [progress]);
 
-  if (error) return <main className="shell"><p className="error">{error}</p></main>;
-  if (!track || !course) return <main className="shell"><p className="muted">Loading the track…</p></main>;
+  const baseCrumbs = [{ label: "Course", href: "/course" }, { label: "Tracks", href: "/course#tracks" }];
+  if (error) return <PageError message={error} crumbs={baseCrumbs} back={{ href: "/course#tracks", label: "All tracks" }} />;
+  if (!track || !course) return <PageLoading label="Loading the track…" crumbs={baseCrumbs} />;
 
   const cp = progress.course;
   const ts = trackState(cp, track);
@@ -42,13 +45,13 @@ export default function TrackPage() {
 
   return (
     <main className="shell trackPage">
-      <p className="crumbs"><Link href="/course">← Course</Link> <span className="muted">· Ὁδοί · tracks</span></p>
+      <Crumbs items={[...baseCrumbs, { label: track.title_grc, lang: "grc" }]} />
       <section className="hero">
         <p className="eyebrow">TRACK · {ts.done} OF {ts.total || track.lessons.length} DONE</p>
         <h1 lang="grc">{track.title_grc}</h1>
         <p className="lede">{track.title_en}. {track.blurb}</p>
         <div className="actions">
-          <button type="button" className={chosen ? "secondary" : "primary"} onClick={() => setProgress({ ...progress, course: { ...cp, track: chosen ? undefined : track.id } })}>
+          <button type="button" className={chosen ? "secondary" : ts.next ? "secondary" : "primary"} aria-pressed={chosen} onClick={() => setProgress({ ...progress, course: { ...cp, track: chosen ? undefined : track.id } })}>
             {chosen ? "Your track ✓ · unset" : "Make this my track"}
           </button>
           {ts.next && <Link href={`/course/lesson/${ts.next}`} className="primary buttonLike">{cp.lessons[ts.next]?.status === "in-progress" ? "Resume" : "Open"} lesson {ts.next.split(".")[1]} →</Link>}
@@ -64,7 +67,7 @@ export default function TrackPage() {
           const src = l.source ?? title(l.id)?.source;
           const body = (
             <>
-              <span className={`dot ${st} ${!l.available ? "planned" : ""}`} aria-hidden />
+              <span className={`dot ${st} ${!l.available ? "planned" : ""}`} aria-hidden="true" />
               <span className="ladderText">
                 <span className="ladderTop">
                   <span className="unitLabel">{i + 1} · {LADDER[i] ?? "Original"}{l.side ? " · side reading" : ""}</span>
@@ -79,12 +82,12 @@ export default function TrackPage() {
               </span>
             </>
           );
-          return <li key={l.id} className={`ladderItem ${open ? "open" : "locked"}`}>{open ? <Link href={`/course/lesson/${l.id}`}>{body}</Link> : <div>{body}</div>}</li>;
+          return <li key={l.id} className={`ladderItem ${open ? "open" : "locked"}`}>{open ? <Link href={`/course/lesson/${l.id}`}>{body}<span className="tileGo" aria-hidden="true">›</span></Link> : <div>{body}</div>}</li>;
         })}
         <li className={`ladderItem gate ${gate.state === "open" || gate.state === "passed" ? "open" : "locked"}`}>
           {gate.state === "open" || gate.state === "passed" ? (
             <Link href={`/course/test/${track.gate}`}>
-              <span className={`dot ${gate.state === "passed" ? "done" : "open"}`} aria-hidden />
+              <span className={`dot ${gate.state === "passed" ? "done" : "open"}`} aria-hidden="true" />
               <span className="ladderText">
                 <span className="unitLabel">8 · TRACK GATE{gate.state === "passed" ? " · PASSED ✓" : ""}</span>
                 <span className="ladderTitle">An unseen original passage</span>
@@ -93,7 +96,7 @@ export default function TrackPage() {
             </Link>
           ) : (
             <div>
-              <span className="dot locked" aria-hidden />
+              <span className="dot locked" aria-hidden="true" />
               <span className="ladderText">
                 <span className="unitLabel">8 · TRACK GATE</span>
                 <span className="ladderTitle">An unseen original passage</span>
@@ -121,13 +124,13 @@ export default function TrackPage() {
             <h2>Track words</h2>
             <p>{track.words.length ? `${track.words.length} words this track teaches on top of the core list.` : "The track's word list appears as its lessons are written."}</p>
           </div>
-          {track.words.length > 0 && <button type="button" className="linkButton" onClick={() => setShowWords((s) => !s)}>{showWords ? "Hide" : "Show"}</button>}
+          {track.words.length > 0 && <button type="button" className="linkButton" aria-expanded={showWords} aria-controls="track-words" onClick={() => setShowWords((s) => !s)}>{showWords ? "Hide" : "Show"}<span className="srOnly"> the track words</span></button>}
         </div>
         {track.words.length > 0 && (
           <p><Link href={`/vocab?words=${track.words.map((w) => w.id).join(",")}&from=${encodeURIComponent(`${track.title_en} track`)}`} className="secondary buttonLike">Study the track words</Link></p>
         )}
         {showWords && (
-          <ul className="trackWords">
+          <ul className="trackWords" id="track-words">
             {track.words.map((w) => (
               <li key={w.id}>
                 <SpeakButton text={w.lemma} play={play} busy={busy} small />

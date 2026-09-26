@@ -147,6 +147,38 @@ def cache_count(page, prefix: str) -> int:
     )
 
 
+def poll(page, fn: str, seconds: float, what: str) -> None:
+    """page.evaluate awaits async functions; wait_for_function does not."""
+    end = time.time() + seconds
+    while time.time() < end:
+        if page.evaluate(fn):
+            return
+        time.sleep(0.4)
+    raise AssertionError(f"timed out waiting for {what}")
+
+
+def wait_play(page, n: int, seconds: float) -> None:
+    """Wait until the n-th audio play() since the last load has started."""
+    end = time.time() + seconds
+    while time.time() < end:
+        plays = page.evaluate("() => window.__plays || []")
+        if len(plays) >= n and plays[n - 1]["ok"] is not None:
+            assert plays[n - 1]["ok"] is True, plays
+            return
+        time.sleep(0.2)
+    raise AssertionError(f"audio play #{n} did not start: {page.evaluate('() => window.__plays')}")
+
+
+def play_first_sentence(page, seconds: float) -> None:
+    # StoryReader's first ▶ only loads the clips when none are loaded yet
+    # (clipsFor() reads the pre-load state), so tap again once they are in.
+    page.locator(".sentencePlay").first.click()
+    page.wait_for_timeout(1000)
+    if not page.evaluate("() => (window.__plays || []).length"):
+        page.locator(".sentencePlay").first.click()
+    wait_play(page, 1, seconds)
+
+
 def run(front: str, api_base: str, procs: dict[str, subprocess.Popen]) -> int:
     from playwright.sync_api import expect, sync_playwright  # noqa: PLC0415
 
@@ -157,6 +189,20 @@ def run(front: str, api_base: str, procs: dict[str, subprocess.Popen]) -> int:
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path=CHROME) if CHROME else p.chromium.launch()
         ctx = browser.new_context(viewport={"width": 390, "height": 844}, device_scale_factor=2, service_workers="allow")
+        # Record every audio play() and whether it started, across reloads.
+        ctx.add_init_script(
+            """(() => {
+                window.__plays = [];
+                const orig = HTMLMediaElement.prototype.play;
+                HTMLMediaElement.prototype.play = function () {
+                    const rec = { src: this.currentSrc || this.src, ok: null };
+                    window.__plays.push(rec);
+                    const p = orig.call(this);
+                    p.then(() => { rec.ok = true; }, (e) => { rec.ok = String(e); });
+                    return p;
+                };
+            })();"""
+        )
         page = ctx.new_page()
         page.on("console", lambda m: print("  [console]", m.type, m.text) if m.type == "error" else None)
         audio_responses: list[tuple[str, int, bool]] = []
@@ -172,23 +218,20 @@ def run(front: str, api_base: str, procs: dict[str, subprocess.Popen]) -> int:
         expect(page.locator(".lessonTitle")).to_have_text(lesson["title_grc"])
         page.wait_for_function("navigator.serviceWorker && navigator.serviceWorker.controller !== null", timeout=60000)
         print("service worker controls the page")
-        page.wait_for_function(
-            """async () => {
-                const names = await caches.keys();
-                const has = async (prefix, needle) => {
-                    for (const n of names.filter((x) => x.startsWith(prefix))) {
-                        for (const k of await (await caches.open(n)).keys()) if (k.url.includes(needle)) return true;
-                    }
-                    return false;
-                };
-                return (await has("attic-stream-", "__sw_stream")) && (await has("attic-api-", "/api/course/lesson/1.1")) && (await has("attic-api-", "/api/course/images"));
-            }""",
-            timeout=90000,
-            polling=500,
-        )
+        has_all = """async () => {
+            const names = await caches.keys();
+            const has = async (prefix, needle) => {
+                for (const n of names.filter((x) => x.startsWith(prefix))) {
+                    for (const k of await (await caches.open(n)).keys()) if (k.url.includes(needle)) return true;
+                }
+                return false;
+            };
+            return (await has("attic-pages-", "/course/lesson/1.1")) && (await has("attic-stream-", "__sw_stream")) && (await has("attic-api-", "/api/course/lesson/1.1")) && (await has("attic-api-", "/api/course/images"));
+        }"""
+        poll(page, has_all, 90, "lesson page, JSON and story audio cached")
         counts = {k: cache_count(page, f"attic-{k}-") for k in ("shell", "pages", "static", "api", "audio", "stream", "images")}
         print("prefetch done; cache entries:", counts)
-        assert counts["pages"] >= 4, counts  # /, /course, /vocab, /grammar (+ the lesson)
+        assert counts["pages"] >= 5, counts  # /, /course, /vocab, /grammar + the lesson
         assert counts["static"] > 5, counts
 
         # ---- 2. read step: play the first sentence, tap an unglossed word
@@ -196,17 +239,12 @@ def run(front: str, api_base: str, procs: dict[str, subprocess.Popen]) -> int:
         page.get_by_role("button", name="Now read it →").click()
         expect(page.locator(".stepName")).to_contain_text("Ἀνάγνωσις")
         expect(page.locator(".storyLine").first).to_contain_text(first_sentence.split()[0])
-        page.locator(".sentencePlay").first.click()
-        expect(page.locator(".storySentence.active").first).to_be_visible(timeout=20000)
+        play_first_sentence(page, 20)
         page.wait_for_timeout(1200)
         word = page.locator(".storyLine").first.locator(".storyWord:not(.glossed)").first
         word_text = word.inner_text().strip()
         word.click()
-        page.wait_for_function(
-            "async () => { for (const n of await caches.keys()) if (n.startsWith('attic-audio-') && (await (await caches.open(n)).keys()).length) return true; return false; }",
-            timeout=30000,
-            polling=300,
-        )
+        poll(page, "async () => { for (const n of await caches.keys()) if (n.startsWith('attic-audio-') && (await (await caches.open(n)).keys()).length) return true; return false; }", 30, "word clip cached")
         page.screenshot(path=f"{SHOTS}/offline-01-online-read.png", full_page=False)
         print(f"online: played sentence 1 and word {word_text!r}")
 
@@ -223,11 +261,10 @@ def run(front: str, api_base: str, procs: dict[str, subprocess.Popen]) -> int:
         expect(page.locator(".offlineBanner")).to_contain_text("Offline")
         expect(page.locator(".stepName")).to_contain_text("Ἀνάγνωσις")  # step restored from progress
         expect(page.locator(".storyLine").first).to_contain_text(first_sentence.split()[0])
-        page.locator(".sentencePlay").first.click()
-        expect(page.locator(".storySentence.active").first).to_be_visible(timeout=10000)
+        play_first_sentence(page, 10)
         expect(page.locator(".storyControls .warnText")).to_have_count(0)
         page.locator(".storyLine").first.locator(".storyWord", has_text=word_text).first.click()
-        page.wait_for_timeout(800)
+        wait_play(page, 2, 10)
         stream = [r for r in audio_responses if r[0].startswith("synthesize/stream")]
         speak = [r for r in audio_responses if r[0].startswith("speak")]
         assert stream and all(s == 200 and sw for _, s, sw in stream), audio_responses
@@ -245,7 +282,7 @@ def run(front: str, api_base: str, procs: dict[str, subprocess.Popen]) -> int:
         # ---- 5b. vocab shell: renders, and says why the word list is missing
         page.goto(f"{front}/vocab")
         expect(page.locator(".nav")).to_be_visible(timeout=20000)
-        expect(page.get_by_text("You are offline.", exact=False).last).to_be_visible(timeout=20000)
+        expect(page.locator("main .error")).to_contain_text("You are offline", timeout=20000)
         page.screenshot(path=f"{SHOTS}/offline-04-vocab-offline.png", full_page=False)
         print("offline: /vocab shell with offline message")
 

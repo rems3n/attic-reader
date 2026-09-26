@@ -1,9 +1,10 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { getCourseImages } from "../../../lib/api";
 import type { ImageRecord } from "../../../lib/course";
+import Crumbs from "../../../components/Crumbs";
+import { PageError, PageLoading } from "../../../components/PageState";
 
 const KIND_LABEL: Record<string, string> = { dictionary: "Picture dictionary", story: "Story panels", culture: "Culture", diagram: "Diagrams" };
 
@@ -11,9 +12,10 @@ const KIND_LABEL: Record<string, string> = { dictionary: "Picture dictionary", s
  * pictures must be credited; CC0 pictures are credited anyway. */
 export default function CreditsPage() {
   const [images, setImages] = useState<ImageRecord[]>([]);
+  const [loaded, setLoaded] = useState(false);
   const [error, setError] = useState("");
   useEffect(() => {
-    getCourseImages().then(setImages).catch((e) => setError(e instanceof Error ? e.message : "Could not load the image list"));
+    getCourseImages().then((list) => { setImages(list); setLoaded(true); }).catch((e) => setError(e instanceof Error ? e.message : "Could not load the image list"));
   }, []);
   const groups = useMemo(() => {
     const out = new Map<string, ImageRecord[]>();
@@ -22,16 +24,19 @@ export default function CreditsPage() {
   }, [images]);
   const real = images.filter((i) => i.license !== "placeholder" && i.file);
 
-  if (error) return <main className="shell"><p className="error">{error}</p></main>;
+  const crumbs = [{ label: "Course", href: "/course" }, { label: "Image credits" }];
+  if (error) return <PageError message={error} crumbs={crumbs} back={{ href: "/course", label: "Back to the course" }} />;
+  if (!loaded) return <PageLoading label="Loading the image list…" crumbs={crumbs} />;
   return (
     <main className="shell">
-      <p className="crumbs"><Link href="/course">← Course</Link></p>
-      <section className="card">
+      <Crumbs items={crumbs} />
+      <section className="hero">
         <p className="eyebrow">IMAGE CREDITS</p>
         <h1>Pictures in the course</h1>
         <p className="lede">All pictures are Creative Commons: CC0 and public-domain photographs from museum open-access programmes, CC BY / CC BY-SA photographs from Wikimedia Commons with their authors' names, and our own diagrams released CC BY-SA. {real.length} of {images.length} pictures are in place; the rest show a placeholder panel.</p>
+      </section>
         {groups.map(([kind, list]) => (
-          <section key={kind}>
+          <section key={kind} className="card">
             <h2>{KIND_LABEL[kind] ?? kind} <span className="muted">· {list.length}</span></h2>
             <ul className="creditList">
               {list.map((img) => (
@@ -53,7 +58,6 @@ export default function CreditsPage() {
             </ul>
           </section>
         ))}
-      </section>
     </main>
   );
 }

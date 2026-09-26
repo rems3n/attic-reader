@@ -55,7 +55,7 @@ export default function WordCoverage({ text, cards, label }: { text: string; car
             Study the {fresh.length} new word{fresh.length === 1 ? "" : "s"}
           </Link>
         )}
-        <button type="button" className="linkButton" onClick={() => setOpen((o) => !o)}>{open ? "Hide words" : "Show words"}</button>
+        <button type="button" className="linkButton" aria-expanded={open} onClick={() => setOpen((o) => !o)}>{open ? "Hide words" : "Show words"}</button>
       </div>
       {open && (
         <div className="coverageLists">

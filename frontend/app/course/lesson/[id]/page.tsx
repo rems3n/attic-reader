@@ -9,6 +9,10 @@ import Picture, { imageById } from "../../../../components/course/Picture";
 import OriginalText from "../../../../components/course/OriginalText";
 import StoryReader from "../../../../components/course/StoryReader";
 import { SpeakButton, useSpeaker } from "../../../../components/Speak";
+import Crumbs from "../../../../components/Crumbs";
+import { PageError, PageLoading } from "../../../../components/PageState";
+import ResultScore from "../../../../components/course/ResultScore";
+import { scrollBehavior } from "../../../../lib/a11y";
 import { getCourse, getCourseImages, getDrill, getLesson } from "../../../../lib/api";
 import { hashString, keyText, scoreOf, updateSkill, weakSkills, type CourseIndex, type ImageRecord, type Item, type Lesson } from "../../../../lib/course";
 import { addError, bumpActivity, loadProgress, saveProgress, setLesson, strictAccentsFor, type Progress } from "../../../../lib/progress";
@@ -47,6 +51,7 @@ export default function LessonPage() {
   const [quizResult, setQuizResult] = useState<{ score: number; outcomes: Outcome[] } | null>(null);
   const [exerciseSummary, setExerciseSummary] = useState<{ score: number } | null>(null);
   const startedAt = useRef(Date.now());
+  const stepHeading = useRef<HTMLHeadingElement | null>(null);
   const { play, busy } = useSpeaker(speed);
   const showEnglish = progress.settings.showEnglish;
   const accents = strictAccentsFor(progress.settings, id);
@@ -100,7 +105,10 @@ export default function LessonPage() {
         const status = prev?.status === "done" ? "done" : "in-progress";
         return { ...p, course: setLesson(p.course, id, { status, step: n }) };
       });
-      window.scrollTo({ top: 0, behavior: "smooth" });
+      // new step: back to the top, focus on its heading (the button that was
+      // pressed may no longer exist)
+      window.scrollTo({ top: 0, behavior: scrollBehavior() });
+      requestAnimationFrame(() => stepHeading.current?.focus({ preventScroll: true }));
     },
     [id],
   );
@@ -159,8 +167,8 @@ export default function LessonPage() {
     });
   }
 
-  if (error) return <main className="shell"><p className="error">{error}</p></main>;
-  if (!lesson) return <main className="shell"><p className="muted">Loading lesson {id}…</p></main>;
+  if (error) return <PageError message={error} crumbs={[{ label: "Course", href: "/course" }, { label: `Lesson ${id}` }]} back={{ href: "/course", label: "Back to the course" }} />;
+  if (!lesson) return <PageLoading label={`Loading lesson ${id}…`} crumbs={[{ label: "Course", href: "/course" }, { label: `Lesson ${id}` }]} />;
 
   const imageMap = new Map(images.map((i) => [i.id, i]));
   const exercisesWithReview = review.length ? [...lesson.exercises, ...review] : lesson.exercises;
@@ -170,12 +178,13 @@ export default function LessonPage() {
     <main className="shell lessonShell">
       <header className="lessonHead">
         <div className="lessonCrumbs">
-          <Link href="/course">← Course</Link>
-          {lesson.track ? (
-            <span className="muted"> · <Link href={`/course/track/${lesson.track.id}`} lang="grc">{lesson.track.title_grc}</Link> · Lesson {lesson.position.in_unit} of {lesson.position.unit_size}</span>
-          ) : (
-            <span className="muted"> · Unit {lesson.unit.n} · Lesson {lesson.position.in_unit} of {lesson.position.unit_size}</span>
-          )}
+          <Crumbs
+            items={
+              lesson.track
+                ? [{ label: "Course", href: "/course" }, { label: "Tracks", href: "/course#tracks" }, { label: lesson.track.title_grc, href: `/course/track/${lesson.track.id}`, lang: "grc" }, { label: `Lesson ${lesson.position.in_unit} of ${lesson.position.unit_size}` }]
+                : [{ label: "Course", href: "/course" }, { label: `Unit ${lesson.unit.n}`, href: `/course#unit-${lesson.unit.n}` }, { label: `Lesson ${lesson.id}` }]
+            }
+          />
           <label className="englishToggle">
             <input type="checkbox" checked={showEnglish} onChange={(e) => setProgress({ ...progress, settings: { ...progress.settings, showEnglish: e.target.checked } })} /> English
           </label>
@@ -185,13 +194,13 @@ export default function LessonPage() {
         <ol className="stepper" aria-label="Lesson steps">
           {steps.map((s, i) => (
             <li key={s.id}>
-              <button type="button" className={`stepDot ${i === stepIndex ? "on" : ""} ${i < stepIndex ? "done" : ""}`} onClick={() => markStep(i)} aria-current={i === stepIndex ? "step" : undefined} title={`${s.grc} · ${s.en}`}>
-                <span className="stepNum">{i + 1}</span>
+              <button type="button" className={`stepDot ${i === stepIndex ? "on" : ""} ${i < stepIndex ? "done" : ""}`} onClick={() => markStep(i)} aria-current={i === stepIndex ? "step" : undefined} aria-label={`Step ${i + 1} of ${steps.length}: ${s.en}${i < stepIndex ? " (seen)" : ""}`} title={`${s.grc} · ${s.en}`}>
+                <span className="stepNum" aria-hidden="true">{i + 1}</span>
               </button>
             </li>
           ))}
         </ol>
-        <p className="stepName"><span lang="grc">{current.grc}</span>{showEnglish && <span className="muted"> · {current.en}</span>}</p>
+        <h2 className="stepName" ref={stepHeading} tabIndex={-1}><span lang="grc">{current.grc}</span>{showEnglish ? <span className="muted"> · {current.en}</span> : <span className="srOnly"> · {current.en}</span>}</h2>
       </header>
 
       {current.id === "cover" && (
@@ -279,7 +288,7 @@ export default function LessonPage() {
         <section className="card">
           {exerciseSummary ? (
             <div className="stepDone">
-              <p className="resultBig">{Math.round(exerciseSummary.score * 100)} %</p>
+              <ResultScore>{Math.round(exerciseSummary.score * 100)} %</ResultScore>
               <p className="muted">{review.length ? `${review.length} review items on your weakest skills were mixed in.` : ""}</p>
               <div className="stepNav">
                 <button type="button" className="secondary" onClick={() => setExerciseSummary(null)}>Again</button>
@@ -313,7 +322,7 @@ export default function LessonPage() {
         <section className="card">
           {quizResult ? (
             <div className="stepDone">
-              <p className="resultBig">{Math.round(quizResult.score * 100)} %</p>
+              <ResultScore>{Math.round(quizResult.score * 100)} %</ResultScore>
               <p className={quizResult.score >= PASS ? "ok" : "warnText"}>{quizResult.score >= PASS ? "Lesson complete." : `Not yet: ${Math.round(PASS * 100)} % needed. Look at the misses and try again.`}</p>
               {quizResult.outcomes.some((o) => !o.result.correct) && (
                 <ul className="missList">
@@ -338,9 +347,12 @@ export default function LessonPage() {
         </section>
       )}
 
-      <nav className="lessonFooter">
+      <nav className="lessonFooter" aria-label="Lesson navigation">
         <button type="button" className="secondary" disabled={stepIndex === 0} onClick={() => markStep(stepIndex - 1)}>← Back</button>
-        <span className="muted small">{lesson.position.prev && <Link href={`/course/lesson/${lesson.position.prev}`}>prev</Link>}{lesson.position.prev && lesson.position.next && " · "}{lesson.position.next && <Link href={`/course/lesson/${lesson.position.next}`}>next</Link>}</span>
+        <span className="lessonJump small">
+          {lesson.position.prev && <Link href={`/course/lesson/${lesson.position.prev}`} aria-label={`Previous lesson, ${lesson.position.prev}`}>‹ {lesson.position.prev}</Link>}
+          {lesson.position.next && <Link href={`/course/lesson/${lesson.position.next}`} aria-label={`Next lesson, ${lesson.position.next}`}>{lesson.position.next} ›</Link>}
+        </span>
         <button type="button" className="secondary" disabled={stepIndex >= steps.length - 1} onClick={() => markStep(stepIndex + 1)}>Skip →</button>
       </nav>
     </main>
@@ -349,9 +361,9 @@ export default function LessonPage() {
 
 function SpeedPicker({ speed, setSpeed }: { speed: number; setSpeed: (s: number) => void }) {
   return (
-    <div className="speedRow" role="group" aria-label="Speed">
+    <div className="speedRow" role="group" aria-label="Playback speed">
       {SPEEDS.map((s) => (
-        <button key={s} type="button" className={`speedButton ${speed === s ? "on" : ""}`} onClick={() => setSpeed(s)}>{s}×</button>
+        <button key={s} type="button" className={`speedButton ${speed === s ? "on" : ""}`} aria-pressed={speed === s} onClick={() => setSpeed(s)}>{s}×</button>
       ))}
     </div>
   );

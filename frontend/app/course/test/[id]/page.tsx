@@ -5,6 +5,9 @@ import { useParams } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import ExerciseRunner, { type Outcome } from "../../../../components/course/ExerciseRunner";
 import { SpeakButton, useSpeaker } from "../../../../components/Speak";
+import Crumbs, { type Crumb } from "../../../../components/Crumbs";
+import { PageError, PageLoading } from "../../../../components/PageState";
+import ResultScore from "../../../../components/course/ResultScore";
 import { getCourseImages, getCourseTest } from "../../../../lib/api";
 import { keyText, scoreOf, updateSkill, type CourseTest, type ImageRecord, type Item } from "../../../../lib/course";
 import { addError, bumpActivity, loadProgress, recordTest, saveProgress, strictAccentsFor, type Progress } from "../../../../lib/progress";
@@ -53,13 +56,20 @@ export default function TestPage() {
     });
   }
 
-  if (error) return <main className="shell"><p className="error">{error}</p></main>;
-  if (!test) return <main className="shell"><p className="muted">Loading the test…</p></main>;
+  // Course › Unit 3 › Unit test  (a reading gate: Course › Reading gate)
+  const unitN = /^unit-(\d+)$/.exec(id)?.[1];
+  const crumbs: Crumb[] = [
+    { label: "Course", href: "/course" },
+    ...(unitN ? [{ label: `Unit ${unitN}`, href: `/course#unit-${unitN}` }] : []),
+    { label: unitN ? "Unit test" : test?.title_en ?? "Test" },
+  ];
+  if (error) return <PageError message={error} crumbs={crumbs} back={{ href: "/course", label: "Back to the course" }} />;
+  if (!test) return <PageLoading label="Loading the test…" crumbs={crumbs} />;
 
   if (phase === "intro") {
     return (
       <main className="shell">
-        <p className="crumbs"><Link href="/course">← Course</Link></p>
+        <Crumbs items={crumbs} />
         <section className="card">
           <p className="eyebrow">{id.startsWith("gate-") ? "READING GATE" : "UNIT TEST"} · ATTEMPT {attempt}</p>
           <h1 lang="grc" className="testTitle">{test.title_grc}</h1>
@@ -80,7 +90,8 @@ export default function TestPage() {
   if (phase === "running") {
     return (
       <main className="shell lessonShell">
-        <p className="crumbs"><Link href="/course">← Course</Link> <span className="muted">· {test.title_en}</span></p>
+        <Crumbs items={crumbs} />
+        <h1 className="srOnly" lang="grc">{test.title_grc}</h1>
         <section className="card">
           <ExerciseRunner
             items={items}
@@ -117,10 +128,11 @@ export default function TestPage() {
   const passed = score >= test.pass_score;
   return (
     <main className="shell">
-      <p className="crumbs"><Link href="/course">← Course</Link></p>
+      <Crumbs items={crumbs} />
       <section className="card">
+        <h1 className="srOnly">{test.title_en}: result</h1>
         <p className="eyebrow">{passed ? "PASSED" : "NOT YET"}</p>
-        <p className="resultBig">{Math.round(score * 100)} %</p>
+        <ResultScore>{Math.round(score * 100)} %</ResultScore>
         <ul className="testMeta">
           {test.sections.map((s) => {
             const outs = outcomes.filter((o) => (o.item as Item & { _section?: string })._section === s.id);

@@ -250,7 +250,7 @@ export default function StoryReader({ paragraphs, storyText, images, speed, show
         lit = localStart >= t.start && localStart < t.end;
       }
       pieces.push(
-        <button key={k++} type="button" className={`storyWord ${g ? "glossed" : ""} ${lit ? "lit" : ""}`} lang="grc" onClick={() => {
+        <button key={k++} type="button" className={`storyWord ${g ? "glossed" : ""} ${lit ? "lit" : ""}`} lang="grc" aria-expanded={g ? gloss?.key === `${sIndex}-${w.start}` : undefined} onClick={() => {
           if (g) setGloss(gloss?.key === `${sIndex}-${w.start}` ? null : { key: `${sIndex}-${w.start}`, gloss: g });
           else void speakWord(w.text.replace(/[.,;·!?«»]/g, ""));
         }}>
@@ -281,13 +281,13 @@ export default function StoryReader({ paragraphs, storyText, images, speed, show
                 const active = current != null && clipsFor(sIndex).includes(current);
                 return (
                   <div key={si} className={`storySentence ${active ? "active" : ""}`}>
-                    <button type="button" className="sentencePlay" aria-label="Play sentence" onClick={() => void playSentence(sIndex)}>▶</button>
+                    <button type="button" className="sentencePlay" aria-label={`Play sentence ${sIndex + 1}`} onClick={() => void playSentence(sIndex)}><span aria-hidden="true">▶</span></button>
                     <p className="storyLine" lang="grc">{renderSentence(sIndex)}</p>
                     {gloss && gloss.key.startsWith(`${sIndex}-`) && <GlossCard gloss={gloss.gloss} images={imageMap} showEnglish={showEnglish} onSpeak={speakWord} busy={busy} />}
                   </div>
                 );
               })}
-              <aside className="glossMargin" aria-label="Glosses">
+              <aside className="glossMargin" aria-label={`Glosses, picture ${pi + 1}`}>
                 {p.sentences.flatMap((s) => s.glosses ?? []).map((g, i) => (
                   <GlossLine key={i} gloss={g} images={imageMap} showEnglish={showEnglish} onSpeak={speakWord} />
                 ))}
@@ -319,7 +319,7 @@ function GlossLine({ gloss, images, showEnglish, onSpeak }: { gloss: Gloss; imag
 
 function GlossCard({ gloss, images, showEnglish, onSpeak, busy }: { gloss: Gloss; images: Map<string, ImageRecord>; showEnglish: boolean; onSpeak: (t: string) => void; busy: string | null }) {
   return (
-    <div className="glossCard">
+    <div className="glossCard" role="status">
       <GlossLine gloss={gloss} images={images} showEnglish={true} onSpeak={onSpeak} />
       {!showEnglish && (gloss.kind === "en" || gloss.kind === "note") && <span className="muted">(English shown on tap)</span>}
       {busy === gloss.word && <span className="muted"> …</span>}

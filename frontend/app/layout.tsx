@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import AppNav from "../components/AppNav";
 import ServiceWorker from "../components/ServiceWorker";
+import SiteFooter from "../components/SiteFooter";
 
 export const metadata: Metadata = {
   title: "Attic Reader",
@@ -45,6 +46,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <AppNav />
         <ServiceWorker />
         {children}
+        <SiteFooter />
       </body>
     </html>
   );

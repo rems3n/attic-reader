@@ -78,37 +78,49 @@ self.addEventListener("install", (event) => {
       await Promise.all(
         SHELL_FILES.slice(1).map((f) => shell.add(new Request(f, { cache: "reload" })).catch(() => undefined)),
       );
-      const pages = await caches.open(CACHES.pages);
-      const assets = new Set();
-      await Promise.all(
-        SHELL_PAGES.map(async (path) => {
-          try {
-            const res = await fetch(new Request(path, { cache: "reload", credentials: "same-origin" }));
-            if (!res.ok || res.redirected) return;
-            const html = await res.clone().text();
-            await pages.put(path, res);
-            for (const m of html.matchAll(/["'(](\/_next\/static\/[^"'()\s\\]+)/g)) assets.add(m[1]);
-          } catch {
-            /* offline during install: the page is cached on first visit instead */
-          }
-        }),
-      );
-      const statics = await caches.open(CACHES.static);
-      await Promise.all(
-        [...assets].map(async (a) => {
-          if (await statics.match(a)) return;
-          try {
-            const res = await fetch(a);
-            if (res.ok) await statics.put(a, res);
-          } catch {
-            /* best effort */
-          }
-        }),
-      );
+      await Promise.all(SHELL_PAGES.map((path) => cachePage(path, true).catch(() => undefined)));
       await self.skipWaiting();
     })(),
   );
 });
+
+/**
+ * Store a page's HTML and the /_next/static files it references, so it can
+ * render offline. Used for the shell on install and, via a message from the
+ * page, for pages reached by client-side navigation (those never pass
+ * through the navigation handler) and the first page, loaded before this
+ * worker was in control. Skips pages cached in the last hour unless `force`.
+ */
+async function cachePage(path, force = false) {
+  const url = new URL(path, self.location.origin);
+  if (url.origin !== self.location.origin) return;
+  url.hash = "";
+  const pages = await caches.open(CACHES.pages);
+  if (!force) {
+    const hit = await pages.match(url.href, { ignoreVary: true });
+    const date = hit && Date.parse(hit.headers.get("Date") || "");
+    if (hit && (!date || Date.now() - date < 3600 * 1000)) return;
+  }
+  const res = await fetch(new Request(url.href, { cache: "no-cache", credentials: "same-origin" }));
+  if (!res.ok || res.redirected || !(res.headers.get("Content-Type") || "").includes("text/html")) return;
+  const html = await res.clone().text();
+  await pages.put(url.href, res);
+  await trim(CACHES.pages, LIMITS.pages);
+  const assets = new Set();
+  for (const m of html.matchAll(/["'(](\/_next\/static\/[^"'()\s\\]+)/g)) assets.add(m[1]);
+  const statics = await caches.open(CACHES.static);
+  await Promise.all(
+    [...assets].map(async (a) => {
+      if (await statics.match(a)) return;
+      try {
+        const r = await fetch(a);
+        if (r.ok) await statics.put(a, r);
+      } catch {
+        /* best effort */
+      }
+    }),
+  );
+}
 
 self.addEventListener("activate", (event) => {
   event.waitUntil(
@@ -349,5 +361,10 @@ function offlineJson(path) {
 }
 
 self.addEventListener("message", (event) => {
-  if (event.data === "skipWaiting") self.skipWaiting();
+  const data = event.data;
+  if (data === "skipWaiting") {
+    self.skipWaiting();
+  } else if (data && data.type === "cache-page" && typeof data.url === "string") {
+    event.waitUntil(cachePage(data.url).catch(() => undefined));
+  }
 });

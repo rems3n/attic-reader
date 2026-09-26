@@ -1,14 +1,17 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { API_BASE } from "../lib/offline";
 
 /**
- * Registers public/sw.js (production builds only) and shows a slim notice
- * under the nav while the device is offline.
+ * Registers public/sw.js (production builds only), asks it to keep each page
+ * the learner opens (client-side navigations never reach its navigation
+ * handler), and shows a slim notice under the nav while the device is offline.
  */
 export default function ServiceWorker() {
   const [offline, setOffline] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     if (process.env.NODE_ENV !== "production" || !("serviceWorker" in navigator)) return;
@@ -23,6 +26,18 @@ export default function ServiceWorker() {
       return () => window.removeEventListener("load", register);
     }
   }, []);
+
+  useEffect(() => {
+    if (process.env.NODE_ENV !== "production" || !("serviceWorker" in navigator)) return;
+    const sw = navigator.serviceWorker;
+    const keep = () => {
+      if (navigator.onLine) sw.controller?.postMessage({ type: "cache-page", url: window.location.pathname + window.location.search });
+    };
+    keep();
+    // First visit: the worker takes control only after this page loaded.
+    sw.addEventListener("controllerchange", keep);
+    return () => sw.removeEventListener("controllerchange", keep);
+  }, [pathname]);
 
   useEffect(() => {
     const update = () => setOffline(!navigator.onLine);

@@ -8,6 +8,7 @@ import { completedCount, findLesson, formatWait, lessonStatus, nextLesson, rerea
 import { loadProgress, saveProgress, streakDays, type Progress } from "../../lib/progress";
 import { mistakeCount } from "../../lib/skills";
 import { isNew } from "../../lib/srs";
+import { PageError, PageLoading } from "../../components/PageState";
 
 export default function CourseHome() {
   const [course, setCourse] = useState<CourseIndex | null>(null);
@@ -37,8 +38,8 @@ export default function CourseHome() {
   const streak = streakDays(cp, now);
   const todayMinutes = cp.activity.find((a) => a.day === new Date(now).toISOString().slice(0, 10))?.minutes ?? 0;
 
-  if (error) return <main className="shell"><p className="error">{error}</p></main>;
-  if (!course) return <main className="shell"><p className="muted">Loading the course…</p></main>;
+  if (error) return <PageError message={error} back={{ href: "/", label: "Open the Reader instead" }} />;
+  if (!course) return <PageLoading label="Loading the course…" />;
 
   const continueLesson = continueId ? findLesson(course, continueId) : null;
   const continueState = continueId ? cp.lessons[continueId] : undefined;
@@ -50,13 +51,22 @@ export default function CourseHome() {
         <p className="eyebrow">ΜΑΘΗΜΑΤΑ · A COURSE IN CLASSICAL ATTIC</p>
         <h1 lang="grc">Ἡ ὁδός σου</h1>
         <p className="lede">Athens, 432 BC. Learn to read Xenophon and Plato through the story of a potter's family: pictures, audio, Greek questions and daily practice.</p>
+        <nav className="quickLinks" aria-label="Course pages">
+          <ul>
+            <li><a href="#units">Units</a></li>
+            <li><a href="#tracks">Tracks</a></li>
+            <li><Link href="/course/skills">Skills</Link></li>
+            <li><Link href="/course/placement">Placement test</Link></li>
+            <li><Link href="/course/credits">Image credits</Link></li>
+          </ul>
+        </nav>
       </section>
 
       <section className="todayRow">
         <div className="statTile">
           <span className="statLabel">Today</span>
           <span className="statValue">{todayMinutes} <small>/ {cp.goal.minutesPerDay} min</small></span>
-          <div className="meter"><div style={{ width: `${Math.min(100, (todayMinutes / Math.max(1, cp.goal.minutesPerDay)) * 100)}%` }} /></div>
+          <div className="meter" aria-hidden="true"><div style={{ width: `${Math.min(100, (todayMinutes / Math.max(1, cp.goal.minutesPerDay)) * 100)}%` }} /></div>
         </div>
         <div className="statTile">
           <span className="statLabel">Streak</span>
@@ -105,9 +115,10 @@ export default function CourseHome() {
         {weak.length > 0 && <p className="muted small">Weakest: {weak.map(skillLabel).join(" · ")}</p>}
       </section>
 
+      <span id="units" className="anchorTarget" />
       {course.stages.map((stage) => (
-        <section key={stage.id} className="stage">
-          <h2 className="stageTitle"><span lang="grc">{stage.title_grc}</span> <span className="muted">· {stage.title_en}</span></h2>
+        <section key={stage.id} className="stage" aria-labelledby={`stage-${stage.id}`}>
+          <h2 className="stageTitle" id={`stage-${stage.id}`}><span lang="grc">{stage.title_grc}</span> <span className="muted">· {stage.title_en}</span></h2>
           <p className="muted stageBlurb">{stage.blurb}</p>
           <div className="unitGrid">
             {stage.units.map((unit) => {
@@ -115,16 +126,26 @@ export default function CourseHome() {
               const gate = testGate(course, cp, unit, now);
               const doneHere = authored.filter((l) => cp.lessons[l.id]?.status === "done").length;
               const state = !authored.length ? "planned" : doneHere === authored.length ? "done" : authored.some((l) => lessonStatus(course, cp, l.id) !== "locked") ? "open" : "locked";
+              // the whole tile opens the unit's next lesson (or its first, once done)
+              const target = state === "open" || state === "done" ? (authored.find((l) => !["done", "skipped", "locked"].includes(lessonStatus(course, cp, l.id))) ?? authored[0]) : null;
               return (
-                <div key={unit.id} className={`unitTile ${state}`}>
+                <div key={unit.id} id={`unit-${unit.n}`} className={`unitTile anchorTarget ${state} ${target ? "linked" : ""}`}>
                   <span className="unitLabel">UNIT {unit.n}{state === "done" ? (cp.tests[unit.test ?? ""]?.passedAt ? ` · TEST ${Math.round((cp.tests[unit.test ?? ""].attempts.at(-1)?.score ?? 0) * 100)} %` : " · DONE") : state === "open" ? " · NOW" : state === "planned" ? " · PLANNED" : ""}</span>
-                  <span className="unitTitle" lang="grc">{unit.title_grc}</span>
-                  <span className="unitSub">{unit.title_en}</span>
+                  {target ? (
+                    <Link href={`/course/lesson/${target.id}`} className="unitTitle unitLink" lang="grc" aria-describedby={`unit-sub-${unit.n}`}>
+                      {unit.title_grc}
+                      <span className="srOnly" lang="en">, unit {unit.n}: {state === "done" ? "review from lesson" : "continue with lesson"} {target.id}</span>
+                    </Link>
+                  ) : (
+                    <span className="unitTitle" lang="grc">{unit.title_grc}</span>
+                  )}
+                  <span className="unitSub" id={`unit-sub-${unit.n}`}>{unit.title_en}</span>
+                  {target && <span className="tileGo" aria-hidden="true">›</span>}
                   <div className="lessonDots">
                     {unit.lessons.map((l) => {
                       const st = l.available ? lessonStatus(course, cp, l.id) : "locked";
-                      const dot = <span className={`dot ${st} ${!l.available ? "planned" : ""}`} title={l.available ? `${l.id} ${l.title_en}` : `${l.id} (planned)`} />;
-                      return l.available && st !== "locked" ? <Link key={l.id} href={`/course/lesson/${l.id}`} aria-label={`Lesson ${l.id}`}>{dot}</Link> : <span key={l.id}>{dot}</span>;
+                      const dot = <span className={`dot ${st} ${!l.available ? "planned" : ""}`} title={l.available ? `${l.id} ${l.title_en}` : `${l.id} (planned)`} aria-hidden="true" />;
+                      return l.available && st !== "locked" ? <Link key={l.id} href={`/course/lesson/${l.id}`} aria-label={`Lesson ${l.id}: ${l.title_en} (${st === "in-progress" ? "in progress" : st})`}>{dot}</Link> : <span key={l.id}>{dot}</span>;
                     })}
                   </div>
                   {unit.test && authored.length > 0 && (
@@ -142,8 +163,8 @@ export default function CourseHome() {
         </section>
       ))}
 
-      <section className="stage">
-        <h2 className="stageTitle"><span lang="grc">Ὁδοί</span> <span className="muted">· Tracks</span></h2>
+      <section className="stage anchorTarget" id="tracks" aria-labelledby="tracks-title">
+        <h2 className="stageTitle" id="tracks-title"><span lang="grc">Ὁδοί</span> <span className="muted">· Tracks</span></h2>
         <p className="muted stageBlurb">Real texts on the subject you like best. The first three lessons of each track open after Unit 9 as side readings, the rest after Unit 12. Do one, several or all four.</p>
         <div className="unitGrid trackGrid">
           {course.tracks.map((t) => {
@@ -155,9 +176,10 @@ export default function CourseHome() {
                 <span className="unitTitle" lang="grc">{t.title_grc}</span>
                 <span className="unitSub">{t.title_en}</span>
                 <span className="muted small">{t.blurb}</span>
-                <div className="lessonDots">
+                <div className="lessonDots" aria-hidden="true">
                   {t.lessons.map((l) => <span key={l.id} className={`dot ${l.available ? lessonStatus(course, cp, l.id) : "locked planned"}`} />)}
                 </div>
+                <span className="tileGo" aria-hidden="true">›</span>
               </Link>
             );
           })}

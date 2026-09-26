@@ -9,7 +9,7 @@ const PERSON_LABEL: Record<string, string> = { "1sg": "1 sg.", "2sg": "2 sg.", "
 type Props = { forms: Forms; play?: (text: string) => void; compact?: boolean };
 
 function Cell({ forms, play }: { forms: string[]; play?: (t: string) => void }) {
-  if (!forms || forms.length === 0) return <span className="formEmpty">—</span>;
+  if (!forms || forms.length === 0) return <span className="formEmpty"><span aria-hidden="true">—</span><span className="srOnly">none</span></span>;
   return (
     <span className="formCell">
       {forms.map((f, i) => (
@@ -29,15 +29,15 @@ function NounView({ t, play }: { t: NounTable; play?: (s: string) => void }) {
       <table className="formsTable">
         <thead>
           <tr>
-            <th />
-            <th>singular</th>
-            <th>plural</th>
+            <th><span className="srOnly">case</span></th>
+            <th scope="col">singular</th>
+            <th scope="col">plural</th>
           </tr>
         </thead>
         <tbody>
           {cases.map((c) => (
             <tr key={c}>
-              <th>{CASE_LABEL[c]}</th>
+              <th scope="row">{CASE_LABEL[c]}</th>
               <td><Cell forms={get(c, "sg")} play={play} /></td>
               <td><Cell forms={get(c, "pl")} play={play} /></td>
             </tr>
@@ -61,7 +61,7 @@ function AdjView({ t, play }: { t: AdjTable; play?: (s: string) => void }) {
             <tr>
               <th>{n === "sg" ? "singular" : "plural"}</th>
               {t.genders.map((g) => (
-                <th key={g}>{GENDER_LABEL[g] ?? g}</th>
+                <th key={g} scope="col">{GENDER_LABEL[g] || <span className="srOnly">{g}</span>}</th>
               ))}
             </tr>
           </thead>
@@ -70,7 +70,7 @@ function AdjView({ t, play }: { t: AdjTable; play?: (s: string) => void }) {
               .filter((c) => t.genders.some((g) => get(c, n, g).length))
               .map((c) => (
                 <tr key={c}>
-                  <th>{CASE_LABEL[c]}</th>
+                  <th scope="row">{CASE_LABEL[c]}</th>
                   {t.genders.map((g) => (
                     <td key={g}><Cell forms={get(c, n, g)} play={play} /></td>
                   ))}

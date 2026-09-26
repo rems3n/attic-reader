@@ -4,6 +4,9 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 import ExerciseRunner, { type Outcome } from "../../../components/course/ExerciseRunner";
+import ResultScore from "../../../components/course/ResultScore";
+import Crumbs from "../../../components/Crumbs";
+import { PageError, PageLoading } from "../../../components/PageState";
 import { getCourseImages, getPlacement } from "../../../lib/api";
 import { placementDecision, updateSkill, type ImageRecord, type Placement, type PlacementBlock } from "../../../lib/course";
 import { bumpActivity, loadProgress, saveProgress, setLesson, strictAccentsFor, type Progress } from "../../../lib/progress";
@@ -71,13 +74,14 @@ export default function PlacementPage() {
     });
   }
 
-  if (error) return <main className="shell"><p className="error">{error}</p></main>;
-  if (!placement) return <main className="shell"><p className="muted">Loading the placement test…</p></main>;
+  const crumbs = [{ label: "Course", href: "/course" }, { label: "Placement" }];
+  if (error) return <PageError message={error} crumbs={crumbs} back={{ href: "/course", label: "Back to the course" }} />;
+  if (!placement) return <PageLoading label="Loading the placement test…" crumbs={crumbs} />;
 
   if (phase === "intro") {
     return (
       <main className="shell">
-        <p className="crumbs"><Link href="/course">← Course</Link></p>
+        <Crumbs items={crumbs} />
         <section className="card">
           <p className="eyebrow">PLACEMENT</p>
           <h1 lang="grc" className="testTitle">Ποῦ ἄρχομαι;</h1>
@@ -99,7 +103,8 @@ export default function PlacementPage() {
   if (phase === "running" && block) {
     return (
       <main className="shell lessonShell">
-        <p className="crumbs"><Link href="/course">← Course</Link> <span className="muted">· placement · unit {block.unit} of {blocks.length}</span></p>
+        <Crumbs items={[{ label: "Course", href: "/course" }, { label: "Placement" }, { label: `Unit ${block.unit} of ${blocks.length}` }]} />
+        <h1 className="srOnly">Placement test</h1>
         <section className="card">
           <p className="sectionTag">UNIT {block.unit} · <span lang="grc">{block.title_grc}</span> · {block.title_en}</p>
           <ExerciseRunner
@@ -121,17 +126,18 @@ export default function PlacementPage() {
   const reached = passed ? `Unit ${passed.unit}` : null;
   return (
     <main className="shell">
-      <p className="crumbs"><Link href="/course">← Course</Link></p>
+      <Crumbs items={crumbs} />
       <section className="card">
+        <h1 className="srOnly">Placement result</h1>
         <p className="eyebrow">PLACED</p>
         {passed ? (
           <>
-            <p className="resultBig">{reached}</p>
+            <ResultScore>{reached}</ResultScore>
             <p className="lede">You passed the {reached} block{results.length > 1 ? `s up to ${reached}` : ""}. Lessons 0·1 – {passed.lessons.at(-1)?.replace(".", "·")} are marked skipped; the course continues at {target ? `Lesson ${target.replace(".", "·")}` : "the next authored lesson"}.</p>
           </>
         ) : (
           <>
-            <p className="resultBig" lang="grc">ἄρχου</p>
+            <ResultScore lang="grc">ἄρχου</ResultScore>
             <p className="lede">Start from the beginning: Lesson 0·1 takes you through the alphabet in four short lessons, and Unit 1 begins the story.</p>
           </>
         )}
