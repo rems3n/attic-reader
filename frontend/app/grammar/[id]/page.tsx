@@ -87,7 +87,7 @@ export default function ParadigmPage() {
         </nav>
       )}
       <p className="footnote">
-        <Link href="/grammar">All paradigms</Link> · <Link href="/vocab">Vocab</Link>
+        <Link href="/grammar">All paradigms</Link> · <Link href="/words">Vocab</Link>
       </p>
     </main>
   );

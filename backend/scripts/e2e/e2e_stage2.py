@@ -71,11 +71,11 @@ def main() -> int:
             route_fonts(ctx)
             page = ctx.new_page()
             page.on("console", lambda m: print("  [console]", m.text) if m.type == "error" and "CERT" not in m.text else None)
-            page.goto(f"{FRONT}/course")
+            page.goto(f"{FRONT}/learn")
             page.evaluate("(d) => localStorage.setItem('attic.srs.v1', JSON.stringify(d))", doc)
 
             # original text panel
-            page.goto(f"{FRONT}/course/lesson/9.2?step=2")
+            page.goto(f"{FRONT}/learn/lesson/9.2?step=2")
             toggle = page.locator(".originalToggle")
             expect(toggle).to_contain_text("Thucydides")
             toggle.click()
@@ -85,7 +85,7 @@ def main() -> int:
             page.locator(".original").screenshot(path=f"{SHOTS}/s2-{name}-original.png")
 
             # a diagram in the grammar step
-            page.goto(f"{FRONT}/course/lesson/10.4?step=5")
+            page.goto(f"{FRONT}/learn/lesson/10.4?step=5")
             expect(page.locator(".diagramBody svg").first).to_be_visible()
             page.screenshot(path=f"{SHOTS}/s2-{name}-grammar.png", full_page=True)
             if name == "desktop":
@@ -93,12 +93,12 @@ def main() -> int:
                 continue
 
             # all exercises of 11.3
-            page.goto(f"{FRONT}/course/lesson/11.3?step=6")
+            page.goto(f"{FRONT}/learn/lesson/11.3?step=6")
             expect(page.locator(".exerciseCount")).to_have_text(f"1 / {len(l113['exercises'])}", timeout=15000)
             run_items(page, l113["exercises"], practice=True, label="11.3 exercises")
 
             # reading gate II
-            page.goto(f"{FRONT}/course/test/gate-2")
+            page.goto(f"{FRONT}/learn/test/gate-2")
             expect(page.locator("h1")).to_contain_text(gate["title_grc"])
             page.get_by_role("button", name="Start").click()
             items = [i for s in gate["sections"] for i in s["items"]]

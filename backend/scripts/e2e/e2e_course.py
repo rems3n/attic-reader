@@ -116,14 +116,14 @@ def main() -> int:
         page.on("console", lambda m: print("  [console]", m.type, m.text) if m.type in {"error"} else None)
 
         # ---- course home
-        page.goto(f"{FRONT}/course")
+        page.goto(f"{FRONT}/learn")
         expect(page.locator("h1")).to_contain_text("Ἡ ὁδός σου")
         expect(page.locator(".continueCard")).to_contain_text("START HERE")
         page.screenshot(path=f"{SHOTS}/01-home.png", full_page=True)
         print("home ok")
 
         # ---- lesson 1.1 directly (0.x are open too but the story lesson is the target)
-        page.goto(f"{FRONT}/course/lesson/1.1")
+        page.goto(f"{FRONT}/learn/lesson/1.1")
         expect(page.locator(".lessonTitle")).to_have_text(lesson["title_grc"])
         page.screenshot(path=f"{SHOTS}/02-cover.png", full_page=True)
         page.get_by_role("button", name="Begin →").click()
@@ -174,7 +174,7 @@ def main() -> int:
         assert stored["course"]["activity"][0]["items"] > 30
         print("progress ok:", len(stored["course"]["skills"]), "skills tracked")
 
-        page.goto(f"{FRONT}/course")
+        page.goto(f"{FRONT}/learn")
         expect(page.locator(".continueCard")).to_contain_text("1·2")
         expect(page.locator(".statTile").nth(2)).to_contain_text("1")
         page.screenshot(path=f"{SHOTS}/09-home-after.png", full_page=True)
@@ -192,7 +192,7 @@ def main() -> int:
             }""",
             two_days_ago,
         )
-        page.goto(f"{FRONT}/course")
+        page.goto(f"{FRONT}/learn")
         expect(page.locator(".testLink").first).to_contain_text("Take the unit test")
         page.locator(".testLink").first.click()
         expect(page.locator(".testTitle")).to_be_visible()
@@ -209,11 +209,11 @@ def main() -> int:
         print("unit test ok")
 
         # ---- review quiz page renders generated items
-        page.goto(f"{FRONT}/course/review")
+        page.goto(f"{FRONT}/practice/review")
         page.wait_for_timeout(1500)
         assert page.locator(".exercise, .muted").first.is_visible()
         # ---- vocab deck filter by lesson
-        page.goto(f"{FRONT}/vocab")
+        page.goto(f"{FRONT}/words")
         chip = page.locator(".chip").filter(has_text=re.compile(r"^1\.1\s")).first
         expect(chip).to_be_visible()
         chip.click()
@@ -223,10 +223,10 @@ def main() -> int:
 
         # ---- desktop viewport smoke
         desk = browser.new_page(viewport={"width": 1280, "height": 900})
-        desk.goto(f"{FRONT}/course")
+        desk.goto(f"{FRONT}/learn")
         expect(desk.locator(".unitTile").first).to_be_visible()
         desk.screenshot(path=f"{SHOTS}/12-home-desktop.png", full_page=True)
-        desk.goto(f"{FRONT}/course/lesson/1.3?step=2")
+        desk.goto(f"{FRONT}/learn/lesson/1.3?step=2")
         expect(desk.locator(".glossMargin").first).to_be_visible()
         desk.screenshot(path=f"{SHOTS}/13-read-desktop.png", full_page=True)
         browser.close()

@@ -971,3 +971,37 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   `docs/HANDOFF.md` is the self-contained prompt. PR #1 (this branch →
   main) merged with everything through Phase E.
 - Nothing from the UX plan is implemented yet.
+
+## Session log — 2026-09-26 (F1 shell implementation; browser verification pending)
+
+- Added the shared desktop sidebar / mobile Home, Learn, Library, Practice,
+  More navigation, breadcrumbs, guest account menu, and contextual Help.
+  Retained the Reader theme and labelled navigation at small desktop sizes.
+- Home now explains the app for new visitors and shows actual course,
+  vocabulary, weekly-goal, and continue data for returning guests. Known
+  words count unique lemmas with a recognition interval of at least 7 days;
+  first-time reviews are learning, not known. Weekly minutes follow the
+  existing UTC activity-day convention and count course activity only.
+- Moved `/course` to `/learn`, `/vocab` to `/words`, skills to `/progress`,
+  review to `/practice/review`, and the old Reader to `/library`. Old URLs
+  redirect with query strings; legacy `/?reading=` links still open texts.
+  Course image asset URLs stay under `/course/pics`. Offline page links and
+  shell caches updated; downloaded audio/API/images are retained.
+- Added `/start` (goal, level, six-question Unit 1 starting check), a
+  dismissible three-step orientation, Help, Practice hub, guest Settings
+  with existing preferences / backup / sync-code operations, and Quick 5
+  minutes (due words, then weak skills, then beginner words; noninterrupting
+  timer). The short check recommends alphabet or Unit 1 and does not skip
+  units; full placement still does. Unified review queue belongs to F4.
+- Shared session summary used after lesson checks, unit tests, and decks.
+  Full Library redesign, accounts, and the remaining hubs stay in F2–F6.
+- Local verification: 654 backend tests passed, 5 skipped; course validator
+  0 problems; 129 frontend tests passed; TypeScript and production build
+  passed. The local environment forbids Chromium's startup sockets, and
+  expanded execution permissions were rejected, so browser QA/screenshots
+  have NOT been claimed as passed. Added `e2e_shell.py`, migrated existing
+  browser walks, and `.github/workflows/verify.yml` to run all nine walks,
+  axe audits, offline checks, and upload screenshots from GitHub Actions.
+- F1 remains pending its browser gate. Do not merge or start F2 until
+  regressions pass and the screenshots have been inspected. No live voice
+  or course-content changes made.
