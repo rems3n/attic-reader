@@ -1068,5 +1068,614 @@
     "ἄγω 'lead'"
    ]
   }
+ },
+ {
+  "lemma": "πλοῦς",
+  "headword": "πλοῦς, πλοῦ, ὁ",
+  "definition": "voyage, sailing (contracted from πλόος)",
+  "short": "voyage",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "πλοῦ",
+   "gender": "m",
+   "article": "ὁ",
+   "table": {
+    "kind": "noun",
+    "gender": "m",
+    "note": "Attic contracted 2nd declension (πλόος → πλοῦς), like νοῦς.",
+    "cells": [
+     {
+      "case": "nom",
+      "number": "sg",
+      "forms": [
+       "πλοῦς"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "sg",
+      "forms": [
+       "πλοῦ"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "sg",
+      "forms": [
+       "πλῷ"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "sg",
+      "forms": [
+       "πλοῦν"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "sg",
+      "forms": [
+       "πλοῦ"
+      ]
+     },
+     {
+      "case": "nom",
+      "number": "pl",
+      "forms": [
+       "πλοῖ"
+      ]
+     },
+     {
+      "case": "gen",
+      "number": "pl",
+      "forms": [
+       "πλῶν"
+      ]
+     },
+     {
+      "case": "dat",
+      "number": "pl",
+      "forms": [
+       "πλοῖς"
+      ]
+     },
+     {
+      "case": "acc",
+      "number": "pl",
+      "forms": [
+       "πλοῦς"
+      ]
+     },
+     {
+      "case": "voc",
+      "number": "pl",
+      "forms": [
+       "πλοῖ"
+      ]
+     }
+    ]
+   }
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "πλέω 'sail'"
+   ],
+   "derivatives": [
+    "periplus"
+   ]
+  }
+ },
+ {
+  "lemma": "ἁθρόος",
+  "headword": "ἁθρόος, ἁθρόα, ἁθρόον",
+  "definition": "all together, in a body, crowded together",
+  "short": "all together",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 3,
+   "forms": [
+    "ἁθρόος",
+    "ἁθρόα",
+    "ἁθρόον"
+   ],
+   "feminine": "ἁθρόα",
+   "neuter": "ἁθρόον"
+  },
+  "topics": [
+   "history"
+  ]
+ },
+ {
+  "lemma": "καταλείπω",
+  "headword": "καταλείπω, καταλείψω, κατέλιπον, καταλέλοιπα, καταλέλειμμαι, κατελείφθην",
+  "definition": "leave behind; abandon",
+  "short": "leave behind",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: compound of λείπω",
+  "morph": {
+   "parts": {
+    "present": [
+     "καταλείπω"
+    ],
+    "future": [
+     "καταλείψω"
+    ],
+    "aorist": [
+     "κατέλιπον"
+    ],
+    "perfect": [
+     "καταλέλοιπα"
+    ],
+    "perfect-mp": [
+     "καταλέλειμμαι"
+    ],
+    "aorist-passive": [
+     "κατελείφθην"
+    ],
+    "aorist-2": [
+     "κατέλιπον"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "καταλείπω",
+    "καταλείψω",
+    "κατέλιπον",
+    "καταλέλοιπα",
+    "καταλέλειμμαι",
+    "κατελείφθην"
+   ],
+   "verb": {
+    "aorist_stem": "λιπ"
+   }
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "λείπω 'leave'"
+   ]
+  }
+ },
+ {
+  "lemma": "πανταχόθεν",
+  "headword": "πανταχόθεν",
+  "definition": "from all sides, from every quarter (πᾶς + -θεν 'from')",
+  "short": "from all sides",
+  "kind": "adverb",
+  "subclass": "adverb",
+  "pos": "adverb of place (-θεν: motion from)",
+  "morph": {
+   "forms": [
+    "πανταχόθεν"
+   ]
+  },
+  "topics": [
+   "history"
+  ]
+ },
+ {
+  "lemma": "ἐπιπλέω",
+  "headword": "ἐπιπλέω, ἐπιπλεύσομαι, ἐπέπλευσα, ἐπιπέπλευκα",
+  "definition": "sail against, sail out to attack (+ dative)",
+  "short": "sail against",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: compound of πλέω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐπιπλέω"
+    ],
+    "future": [
+     "ἐπιπλεύσομαι"
+    ],
+    "aorist": [
+     "ἐπέπλευσα"
+    ],
+    "perfect": [
+     "ἐπιπέπλευκα"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἐπιπλέω",
+    "ἐπιπλεύσομαι",
+    "ἐπέπλευσα",
+    "ἐπιπέπλευκα"
+   ],
+   "verb": {
+    "no_aorist_middle": true
+   }
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "πλέω 'sail'",
+    "ὁ ἐπίπλους 'naval attack'"
+   ]
+  }
+ },
+ {
+  "lemma": "πολιορκέω",
+  "headword": "πολιορκέω, πολιορκήσω, ἐπολιόρκησα, πεπολιόρκηκα, πεπολιόρκημαι, ἐπολιορκήθην",
+  "definition": "besiege, blockade",
+  "short": "besiege",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: -έω contract",
+  "morph": {
+   "parts": {
+    "present": [
+     "πολιορκέω"
+    ],
+    "future": [
+     "πολιορκήσω"
+    ],
+    "aorist": [
+     "ἐπολιόρκησα"
+    ],
+    "perfect": [
+     "πεπολιόρκηκα"
+    ],
+    "perfect-mp": [
+     "πεπολιόρκημαι"
+    ],
+    "aorist-passive": [
+     "ἐπολιορκήθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "πολιορκέω",
+    "πολιορκήσω",
+    "ἐπολιόρκησα",
+    "πεπολιόρκηκα",
+    "πεπολιόρκημαι",
+    "ἐπολιορκήθην"
+   ],
+   "verb": {
+    "compound": false
+   }
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "πόλις 'city' + ἕρκος 'fence'"
+   ],
+   "derivatives": [
+    "Poliorcetes, 'the Besieger' (Demetrius)"
+   ]
+  }
+ },
+ {
+  "lemma": "καθαιρέω",
+  "headword": "καθαιρέω, καθαιρήσω, καθεῖλον, καθῄρηκα, καθῄρημαι, καθῃρέθην",
+  "definition": "take down, pull down, destroy (walls)",
+  "short": "pull down",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: compound of αἱρέω",
+  "morph": {
+   "parts": {
+    "present": [
+     "καθαιρέω"
+    ],
+    "future": [
+     "καθαιρήσω"
+    ],
+    "aorist": [
+     "καθεῖλον"
+    ],
+    "perfect": [
+     "καθῄρηκα"
+    ],
+    "perfect-mp": [
+     "καθῄρημαι"
+    ],
+    "aorist-passive": [
+     "καθῃρέθην"
+    ],
+    "aorist-2": [
+     "καθεῖλον"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "καθαιρέω",
+    "καθαιρήσω",
+    "καθεῖλον",
+    "καθῄρηκα",
+    "καθῄρημαι",
+    "καθῃρέθην"
+   ],
+   "verb": {
+    "aorist_stem": "ἑλ"
+   }
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "αἱρέω 'take'"
+   ]
+  }
+ },
+ {
+  "lemma": "προθυμία",
+  "headword": "προθυμία, προθυμίας, ἡ",
+  "definition": "eagerness, zeal, goodwill",
+  "short": "eagerness",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "προθυμίας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "πρό + θυμός 'spirit'"
+   ]
+  }
+ },
+ {
+  "lemma": "κατακρίνω",
+  "headword": "κατακρίνω, κατακρινῶ, κατέκρινα, κατακέκρικα, κατακέκριμαι, κατεκρίθην",
+  "definition": "condemn (someone, accusative; to a penalty, genitive: θανάτου)",
+  "short": "condemn",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: compound of κρίνω",
+  "morph": {
+   "parts": {
+    "present": [
+     "κατακρίνω"
+    ],
+    "future": [
+     "κατακρινῶ"
+    ],
+    "aorist": [
+     "κατέκρινα"
+    ],
+    "perfect": [
+     "κατακέκρικα"
+    ],
+    "perfect-mp": [
+     "κατακέκριμαι"
+    ],
+    "aorist-passive": [
+     "κατεκρίθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "κατακρίνω",
+    "κατακρινῶ",
+    "κατέκρινα",
+    "κατακέκρικα",
+    "κατακέκριμαι",
+    "κατεκρίθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "κρίνω 'judge'"
+   ]
+  }
+ },
+ {
+  "lemma": "σιωπάω",
+  "headword": "σιωπάω, σιωπήσομαι, ἐσιώπησα, σεσιώπηκα",
+  "definition": "be silent, keep quiet",
+  "short": "keep quiet",
+  "kind": "verb",
+  "subclass": "verb-contract",
+  "pos": "verb: -άω contract",
+  "morph": {
+   "parts": {
+    "present": [
+     "σιωπάω"
+    ],
+    "future": [
+     "σιωπήσομαι"
+    ],
+    "aorist": [
+     "ἐσιώπησα"
+    ],
+    "perfect": [
+     "σεσιώπηκα"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "σιωπάω",
+    "σιωπήσομαι",
+    "ἐσιώπησα",
+    "σεσιώπηκα"
+   ],
+   "verb": {
+    "compound": false,
+    "no_aorist_middle": true
+   }
+  },
+  "topics": [
+   "history"
+  ]
+ },
+ {
+  "lemma": "θρασύς",
+  "headword": "θρασύς, θρασεῖα, θρασύ",
+  "definition": "bold, rash, reckless",
+  "short": "bold, reckless",
+  "kind": "adjective",
+  "subclass": "adj-us",
+  "pos": "adjective: 3rd declension",
+  "morph": {
+   "terminations": 3,
+   "forms": [
+    "θρασύς",
+    "θρασεῖα",
+    "θρασύ"
+   ],
+   "feminine": "θρασεῖα",
+   "neuter": "θρασύ"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "τὸ θράσος 'rashness'"
+   ]
+  }
+ },
+ {
+  "lemma": "ὄπισθεν",
+  "headword": "ὄπισθεν",
+  "definition": "behind, in the rear; (+ genitive) behind",
+  "short": "behind",
+  "kind": "adverb",
+  "subclass": "adverb",
+  "pos": "adverb / preposition + genitive",
+  "morph": {
+   "forms": [
+    "ὄπισθεν"
+   ]
+  },
+  "topics": [
+   "history"
+  ]
+ },
+ {
+  "lemma": "παίω",
+  "headword": "παίω, παίσω, ἔπαισα, πέπαικα, ἐπαίσθην",
+  "definition": "strike, hit",
+  "short": "strike",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "παίω"
+    ],
+    "future": [
+     "παίσω"
+    ],
+    "aorist": [
+     "ἔπαισα"
+    ],
+    "perfect": [
+     "πέπαικα"
+    ],
+    "aorist-passive": [
+     "ἐπαίσθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "παίω",
+    "παίσω",
+    "ἔπαισα",
+    "πέπαικα",
+    "ἐπαίσθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "history"
+  ]
+ },
+ {
+  "lemma": "ἀκοντίζω",
+  "headword": "ἀκοντίζω, ἀκοντιῶ, ἠκόντισα, ἠκόντικα",
+  "definition": "throw a javelin; hit with a javelin",
+  "short": "throw a javelin",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἀκοντίζω"
+    ],
+    "future": [
+     "ἀκοντιῶ"
+    ],
+    "aorist": [
+     "ἠκόντισα"
+    ],
+    "perfect": [
+     "ἠκόντικα"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἀκοντίζω",
+    "ἀκοντιῶ",
+    "ἠκόντισα",
+    "ἠκόντικα"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "ὁ ἄκων 'javelin'"
+   ]
+  }
+ },
+ {
+  "lemma": "πιστός",
+  "headword": "πιστός, πιστή, πιστόν",
+  "definition": "faithful, trustworthy, loyal",
+  "short": "faithful",
+  "kind": "adjective",
+  "subclass": "adj-1-2",
+  "pos": "adjective",
+  "morph": {
+   "terminations": 3,
+   "forms": [
+    "πιστός",
+    "πιστή",
+    "πιστόν"
+   ],
+   "feminine": "πιστή",
+   "neuter": "πιστόν"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "πείθω, πιστεύω 'trust'"
+   ]
+  }
  }
 ]
