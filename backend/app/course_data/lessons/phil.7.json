@@ -1,0 +1,1403 @@
+{
+  "id": "phil.7",
+  "title_grc": "ἡ τελευτή",
+  "title_en": "The death of Socrates",
+  "summary_grc": "ὁ Σωκράτης τελευτᾷ· τελευταῖον δὲ λέγει ὅτι τῷ Ἀσκληπιῷ ἀλεκτρυόνα ὀφείλουσιν.",
+  "summary_en": "The last page of Plato's Phaedo, unadapted, with running glosses: the cold rises from Socrates' feet to his heart; he uncovers his face to remind Crito of a cock owed to Asclepius; and Phaedo gives his verdict on his friend.",
+  "cover": "phil-panel-7-b",
+  "caption_grc": "ὦ Κρίτων, ἔφη, τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόνα· ἀλλὰ ἀπόδοτε καὶ μὴ ἀμελήσητε.",
+  "original": {
+    "text": "plato-phaedo-118a",
+    "note": "Plato, Phaedo 118a, unadapted: the end of the dialogue. The first two sentences of the story are ours (they retell the end of 117e); everything after them is Plato's text, one story sentence per sentence of the original. Socrates died in 399 BC; Plato wrote the Phaedo some years later."
+  },
+  "names": {
+    "Κρίτων": [
+      "Κρίτωνος",
+      "Κρίτωνι",
+      "Κρίτωνα",
+      "Κρίτων"
+    ],
+    "Ἐχεκράτης": [
+      "Ἐχεκράτους",
+      "Ἐχεκράτει",
+      "Ἐχεκράτη",
+      "Ἐχέκρατες"
+    ],
+    "Ἀσκληπιός": [
+      "Ἀσκληπιοῦ",
+      "Ἀσκληπιῷ",
+      "Ἀσκληπιόν",
+      "Ἀσκληπιέ"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "phil-panel-7-a",
+      "sentences": [
+        {
+          "text": "ὁ δὲ ἄνθρωπος ὁ τὸ φάρμακον δούς, ὀλίγον χρόνον διαλιπών, ἐπεσκόπει τοὺς πόδας καὶ τὰ σκέλη τοῦ Σωκράτους.",
+          "glosses": [
+            {
+              "word": "διαλιπών",
+              "kind": "en",
+              "value": "letting (a little time) pass (διαλείπω)"
+            }
+          ]
+        },
+        {
+          "text": "ἔπειτα σφόδρα πιέσας αὐτοῦ τὸν πόδα ἤρετο εἰ αἰσθάνοιτο· ὁ δ’ οὐκ ἔφη.",
+          "glosses": [
+            {
+              "word": "σφόδρα",
+              "kind": "en",
+              "value": "hard, very much"
+            },
+            {
+              "word": "πιέσας",
+              "kind": "en",
+              "value": "pressing, squeezing (πιέζω)"
+            },
+            {
+              "word": "αἰσθάνοιτο",
+              "kind": "note",
+              "value": "optative in a reported question after ἤρετο: 'whether he felt (it)'"
+            }
+          ]
+        },
+        {
+          "text": "καὶ μετὰ τοῦτο αὖθις τὰς κνήμας·",
+          "orig": [
+            0
+          ],
+          "glosses": [
+            {
+              "word": "αὖθις",
+              "kind": "en",
+              "value": "again"
+            },
+            {
+              "word": "κνήμας",
+              "kind": "en",
+              "value": "shins, lower legs (ἡ κνήμη)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ ἐπανιὼν οὕτως ἡμῖν ἐπεδείκνυτο ὅτι ψύχοιτό τε καὶ πήγνυτο.",
+          "orig": [
+            1
+          ],
+          "glosses": [
+            {
+              "word": "ἐπανιὼν",
+              "kind": "en",
+              "value": "going upwards (ἐπάνειμι)"
+            },
+            {
+              "word": "ἐπεδείκνυτο",
+              "kind": "en",
+              "value": "he showed (ἐπιδείκνυμι, middle)"
+            },
+            {
+              "word": "ψύχοιτό",
+              "kind": "en",
+              "value": "he was growing cold (ψύχω, passive optative)"
+            },
+            {
+              "word": "πήγνυτο",
+              "kind": "en",
+              "value": "and growing stiff (πήγνυμαι, optative)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ αὐτὸς ἥπτετο καὶ εἶπεν ὅτι, ἐπειδὰν πρὸς τῇ καρδίᾳ γένηται αὐτῷ, τότε οἰχήσεται.",
+          "orig": [
+            2
+          ],
+          "glosses": [
+            {
+              "word": "ἥπτετο",
+              "kind": "en",
+              "value": "he touched (him) (ἅπτομαι)"
+            },
+            {
+              "word": "ἐπειδὰν",
+              "kind": "en",
+              "value": "when (+ subjunctive)"
+            },
+            {
+              "word": "καρδίᾳ",
+              "kind": "en",
+              "value": "heart (ἡ καρδία)"
+            },
+            {
+              "word": "οἰχήσεται",
+              "kind": "en",
+              "value": "he will be gone (οἴχομαι)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "phil-panel-7-b",
+      "sentences": [
+        {
+          "text": "ἤδη οὖν σχεδόν τι αὐτοῦ ἦν τὰ περὶ τὸ ἦτρον ψυχόμενα, καὶ ἐκκαλυψάμενος — ἐνεκεκάλυπτο γάρ — εἶπεν — ὃ δὴ τελευταῖον ἐφθέγξατο — ὦ Κρίτων, ἔφη, τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόνα·",
+          "orig": [
+            3
+          ],
+          "glosses": [
+            {
+              "word": "σχεδόν",
+              "kind": "en",
+              "value": "almost; σχεδόν τι: very nearly"
+            },
+            {
+              "word": "ἦτρον",
+              "kind": "en",
+              "value": "belly, abdomen"
+            },
+            {
+              "word": "ἐκκαλυψάμενος",
+              "kind": "en",
+              "value": "uncovering his face (ἐκκαλύπτω)"
+            },
+            {
+              "word": "ἐνεκεκάλυπτο",
+              "kind": "|",
+              "value": "ἐγκαλύπτω | ἐνεκεκάλυπτο (he had covered himself: pluperfect)"
+            },
+            {
+              "word": "τελευταῖον",
+              "kind": "<",
+              "value": "τελευτή | τελευταῖος (last): the last thing"
+            },
+            {
+              "word": "ἐφθέγξατο",
+              "kind": "en",
+              "value": "he uttered (φθέγγομαι)"
+            },
+            {
+              "word": "ὀφείλομεν",
+              "kind": "en",
+              "value": "we owe (ὀφείλω)"
+            },
+            {
+              "word": "ἀλεκτρυόνα",
+              "kind": "en",
+              "value": "a cock (ὁ ἀλεκτρυών, -όνος)"
+            }
+          ]
+        },
+        {
+          "text": "ἀλλὰ ἀπόδοτε καὶ μὴ ἀμελήσητε.",
+          "orig": [
+            4
+          ],
+          "glosses": [
+            {
+              "word": "ἀπόδοτε",
+              "kind": "|",
+              "value": "ἀποδίδωμι | ἀπόδοτε (pay it back! aorist imperative)"
+            },
+            {
+              "word": "ἀμελήσητε",
+              "kind": "en",
+              "value": "neglect it (ἀμελέω); μή + aorist subjunctive: don't …!"
+            }
+          ]
+        },
+        {
+          "text": "ἀλλὰ ταῦτα, ἔφη, ἔσται, ὁ Κρίτων·",
+          "orig": [
+            5
+          ],
+          "glosses": [
+            {
+              "word": "Κρίτων",
+              "kind": "note",
+              "value": "ὁ Κρίτων (nominative): 'said Crito'"
+            }
+          ]
+        },
+        {
+          "text": "ἀλλ’ ὅρα εἴ τι ἄλλο λέγεις.",
+          "orig": [
+            6
+          ],
+          "glosses": [
+            {
+              "word": "ὅρα",
+              "kind": "|",
+              "value": "ὁράω | ὅρα (see! imperative)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "phil-panel-7-c",
+      "sentences": [
+        {
+          "text": "ταῦτα ἐρομένου αὐτοῦ οὐδὲν ἔτι ἀπεκρίνατο, ἀλλ’ ὀλίγον χρόνον διαλιπὼν ἐκινήθη τε καὶ ὁ ἄνθρωπος ἐξεκάλυψεν αὐτόν, καὶ ὃς τὰ ὄμματα ἔστησεν·",
+          "orig": [
+            7
+          ],
+          "glosses": [
+            {
+              "word": "ἐρομένου",
+              "kind": "note",
+              "value": "ἐρομένου αὐτοῦ: genitive absolute, 'when he (Crito) asked'"
+            },
+            {
+              "word": "ἀπεκρίνατο",
+              "kind": "en",
+              "value": "answered (ἀποκρίνομαι)"
+            },
+            {
+              "word": "ἐκινήθη",
+              "kind": "en",
+              "value": "he moved, stirred (κινέω, aorist passive)"
+            },
+            {
+              "word": "ἐξεκάλυψεν",
+              "kind": "en",
+              "value": "uncovered (ἐκκαλύπτω)"
+            },
+            {
+              "word": "ὄμματα",
+              "kind": "en",
+              "value": "eyes (τὸ ὄμμα)"
+            },
+            {
+              "word": "ἔστησεν",
+              "kind": "note",
+              "value": "τὰ ὄμματα ἔστησεν: his eyes were fixed (ἵστημι, transitive aorist)"
+            }
+          ]
+        },
+        {
+          "text": "ἰδὼν δὲ ὁ Κρίτων συνέλαβε τὸ στόμα καὶ τοὺς ὀφθαλμούς.",
+          "orig": [
+            8
+          ],
+          "glosses": [
+            {
+              "word": "συνέλαβε",
+              "kind": "|",
+              "value": "σύν + λαμβάνω | συνέλαβε (closed)"
+            },
+            {
+              "word": "στόμα",
+              "kind": "en",
+              "value": "mouth (τὸ στόμα)"
+            }
+          ]
+        },
+        {
+          "text": "ἥδε ἡ τελευτή, ὦ Ἐχέκρατες, τοῦ ἑταίρου ἡμῖν ἐγένετο, ἀνδρός, ὡς ἡμεῖς φαῖμεν ἄν, τῶν τότε ὧν ἐπειράθημεν ἀρίστου καὶ ἄλλως φρονιμωτάτου καὶ δικαιοτάτου.",
+          "orig": [
+            9
+          ],
+          "glosses": [
+            {
+              "word": "τελευτή",
+              "kind": "en",
+              "value": "end, death (ἡ τελευτή)"
+            },
+            {
+              "word": "φαῖμεν",
+              "kind": "note",
+              "value": "ὡς φαῖμεν ἄν: as we would say (potential optative of φημί)"
+            },
+            {
+              "word": "ἐπειράθημεν",
+              "kind": "en",
+              "value": "we had experience of (+ genitive) (πειράομαι, aorist)"
+            },
+            {
+              "word": "φρονιμωτάτου",
+              "kind": "<",
+              "value": "φρόνιμος | φρονιμώτατος (wisest, most sensible)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "ψυχω",
+      "gloss_grc": "ψύχω · ψύχομαι (grow cold) · cf. ψυχρός"
+    },
+    {
+      "id": "καρδια",
+      "gloss_grc": "ἡ καρδία · πρὸς τῇ καρδίᾳ"
+    },
+    {
+      "id": "αλεκτρυων",
+      "gloss_grc": "ὁ ἀλεκτρυών, τοῦ ἀλεκτρυόνος"
+    },
+    {
+      "id": "οφειλω",
+      "gloss_grc": "ὀφείλω τί τινι · τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόνα"
+    },
+    {
+      "id": "αμελεω",
+      "gloss_grc": "ἀμελῶ (+ genitive) ↔ ἐπιμελοῦμαι"
+    },
+    {
+      "id": "αποδιδωμι",
+      "gloss_grc": "ἀποδίδωμι = πάλιν δίδωμι · ἀπόδοτε"
+    },
+    {
+      "id": "τελευτη",
+      "gloss_grc": "ἡ τελευτή < τελευτάω · ἡ τελευτὴ τοῦ βίου"
+    },
+    {
+      "id": "φρονιμος",
+      "gloss_grc": "φρόνιμος, -ον · φρονιμώτατος"
+    },
+    {
+      "id": "ομμα",
+      "gloss_grc": "τὸ ὄμμα, τοῦ ὄμματος = ὁ ὀφθαλμός"
+    },
+    {
+      "id": "εκκαλυπτω",
+      "gloss_grc": "ἐκκαλύπτομαι ↔ ἐγκαλύπτομαι"
+    },
+    {
+      "id": "φθεγγομαι",
+      "gloss_grc": "φθέγγομαι, ἐφθεγξάμην · ὃ τελευταῖον ἐφθέγξατο"
+    },
+    {
+      "id": "στομα",
+      "gloss_grc": "τὸ στόμα, τοῦ στόματος"
+    },
+    {
+      "id": "αποκρινω",
+      "gloss_grc": "ἀποκρίνομαι, ἀπεκρινάμην ↔ ἐρωτῶ"
+    }
+  ],
+  "notice": [
+    "ἐπεδείκνυτο ὅτι ψύχοιτό τε καὶ πήγνυτο.",
+    "εἶπεν ὅτι, ἐπειδὰν πρὸς τῇ καρδίᾳ γένηται αὐτῷ, τότε οἰχήσεται.",
+    "ἀλλὰ ἀπόδοτε καὶ μὴ ἀμελήσητε.",
+    "ἀνδρός … τῶν τότε ὧν ἐπειράθημεν ἀρίστου καὶ ἄλλως φρονιμωτάτου καὶ δικαιοτάτου."
+  ],
+  "grammar": {
+    "md": "This page of Plato is short and has almost no new grammar: everything in it you met in Units 7–12. Read it slowly and aloud before you look at the glosses.\n\n**Reported speech in two moods.** After a past verb Plato puts the report in the optative: ἐπεδείκνυτο ὅτι **ψύχοιτο** τε καὶ **πήγνυτο** 'he showed that (the body) was growing cold and stiff'. But he may also keep the speaker's own mood: εἶπεν ὅτι, ἐπειδὰν πρὸς τῇ καρδίᾳ **γένηται**, τότε **οἰχήσεται** 'he said that when it reached the heart, then he would be gone': ἐπειδάν + subjunctive and the future indicative, exactly the words the man used.\n\n**A parenthesis inside a parenthesis.** ἐκκαλυψάμενος — ἐνεκεκάλυπτο γάρ — εἶπεν — ὃ δὴ τελευταῖον ἐφθέγξατο — … The dashes hold two asides: 'uncovering his face (for he had covered it) he said (and these were the last words he uttered) …'. The pluperfect ἐνεκεκάλυπτο 'he had covered himself (and still was covered)'.\n\n**Commands.** ἀπόδοτε (aorist imperative, 2nd plural) καὶ **μὴ ἀμελήσητε** (μή + aorist subjunctive: prohibition, Unit 8); ὅρα 'see' (present imperative of ὁράω).\n\n**Superlatives with a partitive genitive.** ἀνδρὸς … τῶν τότε ὧν ἐπειράθημεν **ἀρίστου** καὶ … **φρονιμωτάτου** καὶ **δικαιοτάτου** 'a man who was, of those of his time whom we knew, the best, and also the wisest and most just'. The last three words of the *Phaedo* sum up the whole philosophy track: ἀρετή, φρόνησις, δικαιοσύνη.",
+    "paradigms": [
+      "didomi"
+    ],
+    "diagram": "diagram-indirect"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings (Plato's sentences).",
+      "template": "ἐπειδὰν πρὸς τῇ καρδί___ γένηται. τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόν___. ἀλλὰ ἀπόδοτ___. ἀνδρὸς ἀρίστου καὶ δικαιοτάτ___.",
+      "gaps": [
+        {
+          "answers": [
+            "ᾳ"
+          ]
+        },
+        {
+          "answers": [
+            "α"
+          ]
+        },
+        {
+          "answers": [
+            "ε"
+          ]
+        },
+        {
+          "answers": [
+            "ου"
+          ]
+        }
+      ],
+      "skills": [
+        "noun.decl1.dat.sg",
+        "noun.decl3.cons.acc.sg",
+        "syntax.imperative",
+        "adj.sup"
+      ],
+      "explain": "πρὸς τῇ καρδίᾳ (dative), ἀλεκτρυόνα (accusative), ἀπόδοτε (aorist imperative plural), δικαιοτάτου (superlative, genitive agreeing with ἀνδρός)."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ἀλλὰ ἀπόδοτε καὶ μὴ ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἀμελήσητε"
+        },
+        {
+          "id": "b",
+          "text": "ἀμελεῖτε"
+        },
+        {
+          "id": "c",
+          "text": "ἀμελήσετε"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.subj-prohibition"
+      ],
+      "explain": "μή + aorist subjunctive: 'don't neglect it!'",
+      "audio": "ἀλλὰ ἀπόδοτε καὶ μὴ ἀμελήσητε."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ἐπεδείκνυτο ὅτι ___ τε καὶ πήγνυτο.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ψύχοιτο"
+        },
+        {
+          "id": "b",
+          "text": "ψύχεται"
+        },
+        {
+          "id": "c",
+          "text": "ψύχεσθαι"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-indirect"
+      ],
+      "explain": "Optative in indirect speech after a past verb (ἐπεδείκνυτο).",
+      "audio": "ἐπεδείκνυτο ὅτι ψύχοιτό τε καὶ πήγνυτο."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ταῦτα ἐρομένου αὐτοῦ οὐδὲν ἔτι ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἀπεκρίνατο"
+        },
+        {
+          "id": "b",
+          "text": "ἀπέκρινε"
+        },
+        {
+          "id": "c",
+          "text": "ἐφθέγγετο"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.phil",
+        "verb.aor.mid.subj.3sg"
+      ],
+      "explain": "ἀπεκρίνατο: aorist middle of ἀποκρίνομαι, 'he answered'.",
+      "audio": "ταῦτα ἐρομένου αὐτοῦ οὐδὲν ἔτι ἀπεκρίνατο."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ ἀλεκτρυών"
+        },
+        {
+          "id": "b",
+          "text": "ὁ Ἀσκληπιός"
+        },
+        {
+          "id": "c",
+          "text": "ὁ ἄνθρωπος"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.recognition"
+      ],
+      "explain": "ὁ ἀλεκτρυών: the cock.",
+      "audio": "ὁ ἀλεκτρυών"
+    },
+    {
+      "type": "match",
+      "prompt": "Match the new words to their meanings.",
+      "pairs": [
+        {
+          "left": "ἡ καρδία",
+          "right": "heart"
+        },
+        {
+          "left": "ὀφείλω",
+          "right": "owe"
+        },
+        {
+          "left": "ἡ τελευτή",
+          "right": "end, death"
+        },
+        {
+          "left": "τὸ ὄμμα",
+          "right": "eye"
+        },
+        {
+          "left": "φθέγγομαι",
+          "right": "utter"
+        }
+      ],
+      "skills": [
+        "vocab.recognition",
+        "vocab.phil"
+      ],
+      "explain": "καρδία, ὀφείλω, τελευτή, ὄμμα, φθέγγομαι."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the genitive singular of ἀλεκτρυών.",
+      "lemma": "ἀλεκτρυών",
+      "cell": "gen.sg",
+      "skills": [
+        "noun.decl3.cons.gen.sg",
+        "vocab.production"
+      ],
+      "explain": "ἀλεκτρυόνος: stem ἀλεκτρυον-.",
+      "audio": "ἀλεκτρυόνος"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the superlative of φρόνιμος, masculine genitive singular (agreeing with ἀνδρός).",
+      "lemma": "φρόνιμος",
+      "cell": "sup.gen.sg.m",
+      "skills": [
+        "adj.sup",
+        "vocab.production"
+      ],
+      "explain": "φρονιμωτάτου: after a short syllable -ώτατος.",
+      "audio": "φρονιμωτάτου"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist middle of φθέγγομαι: 'he uttered'.",
+      "lemma": "φθέγγομαι",
+      "cell": "aorist.middle.indicative.3sg",
+      "skills": [
+        "verb.deponent",
+        "verb.aor1.sigma"
+      ],
+      "explain": "ἐφθέγξατο: γ + σ → ξ.",
+      "audio": "ἐφθέγξατο"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἐνεκεκάλυπτο.",
+      "form": "ἐνεκεκάλυπτο",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "perf",
+        "person": "3sg"
+      },
+      "skills": [
+        "verb.perf.reduplication",
+        "read.plato"
+      ],
+      "explain": "ἐν-ε-κε-κάλυπ-το: pluperfect middle of ἐγκαλύπτω (augment + reduplication; in this menu choose 'perfect' for the perfect system): 'he had covered his face'.",
+      "audio": "ἐνεκεκάλυπτο"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse φαῖμεν.",
+      "form": "φαῖμεν",
+      "groups": [
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "mood": "opt",
+        "person": "1pl"
+      },
+      "skills": [
+        "syntax.opt-potential",
+        "verb.phemi"
+      ],
+      "explain": "φαῖμεν: present optative of φημί; with ἄν, 'as we would say'.",
+      "audio": "φαῖμεν"
+    },
+    {
+      "type": "label",
+      "prompt": "εἶπεν ὅτι, ἐπειδὰν πρὸς τῇ καρδίᾳ γένηται, τότε οἰχήσεται. Why subjunctive and future, not optative?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Plato keeps the mood of the man's own words"
+        },
+        {
+          "id": "b",
+          "text": "it is a condition contrary to fact"
+        },
+        {
+          "id": "c",
+          "text": "it is a purpose clause"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.opt-indirect",
+        "syntax.indefinite"
+      ],
+      "explain": "After a past verb the original moods may be kept for vividness: ἐπειδὰν γένηται, οἰχήσεται."
+    },
+    {
+      "type": "label",
+      "prompt": "ἐκκαλυψάμενος — ἐνεκεκάλυπτο γάρ — εἶπεν. What do the dashes mark?",
+      "options": [
+        {
+          "id": "a",
+          "text": "an aside (a parenthesis)"
+        },
+        {
+          "id": "b",
+          "text": "a new speaker"
+        },
+        {
+          "id": "c",
+          "text": "a quotation"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.plato",
+        "read.connected"
+      ],
+      "explain": "ἐνεκεκάλυπτο γάρ 'for he had covered his face' explains ἐκκαλυψάμενος."
+    },
+    {
+      "type": "label",
+      "prompt": "ταῦτα ἐρομένου αὐτοῦ … ἐρομένου αὐτοῦ is …",
+      "options": [
+        {
+          "id": "a",
+          "text": "a genitive absolute"
+        },
+        {
+          "id": "b",
+          "text": "a genitive of comparison"
+        },
+        {
+          "id": "c",
+          "text": "the object of ἀπεκρίνατο"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.gen-abs"
+      ],
+      "explain": "Participle and noun in the genitive, separate from the main clause: 'when he asked this'."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόνα means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "We owe a cock to Asclepius."
+        },
+        {
+          "id": "b",
+          "text": "Asclepius owes us a cock."
+        },
+        {
+          "id": "c",
+          "text": "We sacrificed a cock to Asclepius."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "syntax.dat.uses"
+      ],
+      "explain": "ὀφείλω τί τινι: owe something to someone."
+    },
+    {
+      "type": "transform",
+      "prompt": "Make the command negative in the aorist: ἀμελήσατε → μὴ ___.",
+      "template": "μὴ ___.",
+      "gaps": [
+        {
+          "answers": [
+            "ἀμελήσητε"
+          ]
+        }
+      ],
+      "skills": [
+        "syntax.subj-prohibition"
+      ],
+      "explain": "Prohibition: μή + aorist subjunctive (not the aorist imperative)."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the three superlatives.",
+      "sentence": "ἥδε ἡ τελευτή, ὦ Ἐχέκρατες, τοῦ ἑταίρου ἡμῖν ἐγένετο, ἀνδρός, ὡς ἡμεῖς φαῖμεν ἄν, τῶν τότε ὧν ἐπειράθημεν ἀρίστου καὶ ἄλλως φρονιμωτάτου καὶ δικαιοτάτου.",
+      "answer": [
+        18,
+        21,
+        23
+      ],
+      "skills": [
+        "read.locate",
+        "adj.sup"
+      ],
+      "explain": "ἀρίστου, φρονιμωτάτου, δικαιοτάτου: all genitive, agreeing with ἀνδρός."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the words Socrates says (his last words begin after ἔφη).",
+      "sentence": "ὦ Κρίτων, ἔφη, τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόνα·",
+      "answer": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "skills": [
+        "read.locate",
+        "read.phil.dialogue"
+      ],
+      "explain": "τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόνα (with ὦ Κρίτων before ἔφη)."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'Crito closed his mouth and eyes.'",
+      "tokens": [
+        "ὁ",
+        "Κρίτων",
+        "συνέλαβε",
+        "τὸ",
+        "στόμα",
+        "καὶ",
+        "τοὺς",
+        "ὀφθαλμούς"
+      ],
+      "answers": [
+        "ὁ Κρίτων συνέλαβε τὸ στόμα καὶ τοὺς ὀφθαλμούς",
+        "ὁ Κρίτων τὸ στόμα καὶ τοὺς ὀφθαλμοὺς συνέλαβε",
+        "συνέλαβε ὁ Κρίτων τὸ στόμα καὶ τοὺς ὀφθαλμούς",
+        "τὸ στόμα καὶ τοὺς ὀφθαλμοὺς συνέλαβε ὁ Κρίτων"
+      ],
+      "skills": [
+        "syntax.word-order"
+      ],
+      "explain": "ὁ Κρίτων συνέλαβε τὸ στόμα καὶ τοὺς ὀφθαλμούς."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὦ Κρίτων, τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόνα."
+        },
+        {
+          "id": "b",
+          "text": "ὦ Κρίτων, τῷ Ἀπόλλωνι ὀφείλομεν ἀλεκτρυόνα."
+        },
+        {
+          "id": "c",
+          "text": "ὦ Κρίτων, τῷ Ἀσκληπιῷ ἀπόδοτε τὸν ἀλεκτρυόνα."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "Crito, we owe a cock to Asclepius.",
+      "audio": "ὦ Κρίτων, τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόνα."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Σωκράτης τὸν Κρίτωνα ἐκέλευσε τὸν ἀλεκτρυόνα ἀποδοῦναι.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἀλλὰ ἀπόδοτε καὶ μὴ ἀμελήσητε."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Σωκράτης πολλὰ ἀπεκρίνατο τῷ Κρίτωνι ἐρομένῳ.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "οὐδὲν ἔτι ἀπεκρίνατο."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Φαίδων λέγει τὸν Σωκράτη ἄριστον καὶ δικαιότατον γενέσθαι.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἀρίστου καὶ ἄλλως φρονιμωτάτου καὶ δικαιοτάτου."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "gaps": [
+        {
+          "answers": [
+            "ἀλλὰ ἀπόδοτε καὶ μὴ ἀμελήσητε"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "But pay it and don't neglect it.",
+      "audio": "ἀλλὰ ἀπόδοτε καὶ μὴ ἀμελήσητε."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'He answered nothing.'",
+      "gaps": [
+        {
+          "answers": [
+            "οὐδὲν ἀπεκρίνατο",
+            "οὐδὲν ἔτι ἀπεκρίνατο",
+            "οὐκ ἀπεκρίνατο οὐδέν"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "vocab.phil"
+      ],
+      "explain": "οὐδὲν ἀπεκρίνατο (aorist middle of ἀποκρίνομαι)."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: ἥδε ἡ τελευτή, ὦ Ἐχέκρατες, τοῦ ἑταίρου ἡμῖν ἐγένετο, ἀνδρός, ὡς ἡμεῖς φαῖμεν ἄν, τῶν τότε ὧν ἐπειράθημεν ἀρίστου καὶ ἄλλως φρονιμωτάτου καὶ δικαιοτάτου.",
+      "audio": "ἥδε ἡ τελευτή, ὦ Ἐχέκρατες, τοῦ ἑταίρου ἡμῖν ἐγένετο, ἀνδρός, ὡς ἡμεῖς φαῖμεν ἄν, τῶν τότε ὧν ἐπειράθημεν ἀρίστου καὶ ἄλλως φρονιμωτάτου καὶ δικαιοτάτου.",
+      "model": "This, Echecrates, was the end of our friend, a man who was, as we would say, of all those of his time whom we knew, the best, and also the wisest and most just.",
+      "skills": [
+        "read.connected",
+        "read.original",
+        "read.plato",
+        "adj.sup"
+      ],
+      "explain": "ἥδε ἡ τελευτή … ἐγένετο 'such was the end'; ἀνδρός in apposition to τοῦ ἑταίρου; τῶν τότε ὧν ἐπειράθημεν partitive genitive with the superlatives."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "ἡ καρδία",
+          "right": "cardiac"
+        },
+        {
+          "left": "φθέγγομαι (φθόγγος)",
+          "right": "diphthong"
+        },
+        {
+          "left": "τὸ στόμα",
+          "right": "stomach"
+        },
+        {
+          "left": "ψύχω (ψυχρός)",
+          "right": "psychrometer"
+        },
+        {
+          "left": "ἐκκαλύπτω (καλύπτω)",
+          "right": "eucalyptus"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "καρδία 'heart'; δί-φθογγος 'two sounds'; στόμαχος 'throat, stomach' < στόμα; ψυχρόμετρον 'cold-measurer'; εὐ-κάλυπτος 'well-covered' (its flower bud has a lid)."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "τί ἐπεδείκνυ ὁ ἄνθρωπος τοῖς φίλοις;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὅτι τὸ σῶμα ψύχοιτό τε καὶ πήγνυτο."
+        },
+        {
+          "id": "b",
+          "text": "ὅτι ὁ Σωκράτης καθεύδοι."
+        },
+        {
+          "id": "c",
+          "text": "ὅτι τὸ φάρμακον οὐκ ἔπιεν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "syntax.opt-indirect"
+      ],
+      "explain": "ἐπεδείκνυτο ὅτι ψύχοιτό τε καὶ πήγνυτο.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί τελευταῖον ἐφθέγξατο ὁ Σωκράτης;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὅτι τῷ Ἀσκληπιῷ ὀφείλουσιν ἀλεκτρυόνα."
+        },
+        {
+          "id": "b",
+          "text": "ὅτι ἡ ψυχὴ ἀθάνατός ἐστιν."
+        },
+        {
+          "id": "c",
+          "text": "ὅτι ὁ Κρίτων σπεύδειν δεῖ."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ὦ Κρίτων, ἔφη, τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόνα.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί ἐποίησεν ὁ Κρίτων ἐπεὶ ὁ Σωκράτης τὰ ὄμματα ἔστησεν;",
+      "options": [
+        {
+          "id": "a",
+          "text": "συνέλαβε τὸ στόμα καὶ τοὺς ὀφθαλμούς."
+        },
+        {
+          "id": "b",
+          "text": "ἐδάκρυσε καὶ ἐξῆλθεν."
+        },
+        {
+          "id": "c",
+          "text": "τὸν ἀλεκτρυόνα ἔθυσεν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἰδὼν δὲ ὁ Κρίτων συνέλαβε τὸ στόμα καὶ τοὺς ὀφθαλμούς.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "ποῖον ἄνδρα λέγει ὁ Φαίδων τὸν Σωκράτη;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἄριστον καὶ φρονιμώτατον καὶ δικαιότατον."
+        },
+        {
+          "id": "b",
+          "text": "πλουσιώτατον."
+        },
+        {
+          "id": "c",
+          "text": "ἀσεβέστατον."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "adj.sup"
+      ],
+      "explain": "ἀρίστου καὶ ἄλλως φρονιμωτάτου καὶ δικαιοτάτου.",
+      "audio": "prompt"
+    }
+  ],
+  "culture": {
+    "title": "A cock for Asclepius",
+    "md": "**Asclepius**, son of Apollo, was the god of healing. His cult came to Athens only in 420 BC, in the middle of the war and after the plague, when the god (in the form of his sacred snake) was brought from Epidaurus and lodged, it was said, in the house of the poet Sophocles until his sanctuary on the south slope of the Acropolis was ready. The sick slept in his sanctuaries hoping for a cure, and those who recovered paid him a thank-offering: a cock was a common, modest one.\n\nWhy does Socrates remember the debt at the moment of death? Readers have argued about it for two thousand years. Perhaps he means exactly what he says: a vow made for someone's recovery, paid before he leaves. Perhaps it is a thank-offering for death itself, the cure for the 'illness' of life (so Nietzsche read it, and disliked it). Perhaps it is for Plato, who, the dialogue says, was ill that day. The *Phaedo* does not say.\n\nPhaedo's last sentence gave later ages their image of Socrates. In 1787 Jacques-Louis David painted *The Death of Socrates* (now in the Metropolitan Museum, New York): Socrates, upright on his bed, reaches for the cup with one hand and points upward with the other, still talking; Plato sits, an old man, at the foot of the bed, though in fact he was young and absent. The painting is a fiction built on this page: ἀρίστου καὶ ἄλλως φρονιμωτάτου καὶ δικαιοτάτου.",
+    "image": "phil-culture-7-david"
+  },
+  "quiz": [
+    {
+      "type": "produce-form",
+      "prompt": "Give the dative singular of καρδία: πρὸς τῇ ___.",
+      "lemma": "καρδία",
+      "cell": "dat.sg",
+      "skills": [
+        "noun.decl1.dat.sg",
+        "vocab.production"
+      ],
+      "explain": "καρδίᾳ (iota subscript).",
+      "audio": "καρδίᾳ"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἀμελέω is the opposite of …",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐπιμελέομαι"
+        },
+        {
+          "id": "b",
+          "text": "ὀφείλω"
+        },
+        {
+          "id": "c",
+          "text": "ἀποδίδωμι"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.phil",
+        "read.phil.terms"
+      ],
+      "explain": "ἀ-μελέω 'not care' ↔ ἐπιμελέομαι 'take care'."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ὁ δ’ οὐκ ἔφη means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "and he said no"
+        },
+        {
+          "id": "b",
+          "text": "and he did not speak"
+        },
+        {
+          "id": "c",
+          "text": "and he said nothing more"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.dialogue"
+      ],
+      "explain": "οὔ φημι: say no, deny."
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἀπόδοτε.",
+      "form": "ἀπόδοτε",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "mood": "imp",
+        "person": "2pl"
+      },
+      "skills": [
+        "verb.mi.didomi",
+        "syntax.imperative"
+      ],
+      "explain": "ἀπό-δο-τε: aorist imperative plural of ἀποδίδωμι.",
+      "audio": "ἀπόδοτε"
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Σωκράτης ἐκκαλυψάμενος εἶπε τὰ τελευταῖα.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἐκκαλυψάμενος … εἶπεν — ὃ δὴ τελευταῖον ἐφθέγξατο."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἥδε ἡ τελευτὴ τοῦ ἑταίρου ἡμῖν ἐγένετο."
+        },
+        {
+          "id": "b",
+          "text": "ἥδε ἡ ἀρχὴ τοῦ ἑταίρου ἡμῖν ἐγένετο."
+        },
+        {
+          "id": "c",
+          "text": "ἥδε ἡ τελευτὴ τοῦ πολέμου ἡμῖν ἐγένετο."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "Such was the end of our friend.",
+      "audio": "ἥδε ἡ τελευτὴ τοῦ ἑταίρου ἡμῖν ἐγένετο."
+    },
+    {
+      "type": "label",
+      "prompt": "μὴ ἀμελήσητε is …",
+      "options": [
+        {
+          "id": "a",
+          "text": "a prohibition: 'do not neglect'"
+        },
+        {
+          "id": "b",
+          "text": "a purpose clause"
+        },
+        {
+          "id": "c",
+          "text": "a fear clause"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.subj-prohibition"
+      ],
+      "explain": "μή + aorist subjunctive in a main clause."
+    }
+  ],
+  "skills": [
+    "read.connected",
+    "read.original",
+    "read.plato",
+    "read.comprehension",
+    "read.locate",
+    "read.phil.dialogue",
+    "read.phil.terms",
+    "syntax.opt-indirect",
+    "syntax.indefinite",
+    "syntax.subj-prohibition",
+    "syntax.imperative",
+    "syntax.gen-abs",
+    "syntax.opt-potential",
+    "syntax.dat.uses",
+    "adj.sup",
+    "verb.perf.reduplication",
+    "verb.phemi",
+    "verb.mi.didomi",
+    "verb.deponent",
+    "verb.aor1.sigma",
+    "listen.words",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.phil",
+    "vocab.family"
+  ]
+}
