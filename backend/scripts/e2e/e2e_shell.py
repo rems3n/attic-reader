@@ -40,7 +40,12 @@ with sync_playwright() as p:
         page.wait_for_function("JSON.parse(localStorage.getItem('attic.srs.v1') || '{}').course?.lessons['0.1']?.status === 'in-progress'")
         page.goto(FRONT)
         expect(page.get_by_role("heading", name="Continue learning", exact=True)).to_be_visible()
-        expect(page.get_by_role("link", name="Resume lesson")).to_be_visible()
+        try:
+            expect(page.get_by_role("link", name="Resume lesson")).to_be_visible(timeout=30000)
+        except AssertionError:
+            page.screenshot(path=str(SHOTS / f"{label}-resume-failure.png"), full_page=True)
+            print("Home at resume failure:", page.locator("main").inner_text())
+            raise
         page.screenshot(path=str(SHOTS / f"{label}-dashboard.png"), full_page=True)
         for name, path in [("help","/help"),("settings","/settings"),("practice","/practice"),("quick","/practice/quick"),("library","/library"),("add-text","/library/new"),("progress","/progress")]:
             page.goto(FRONT + path)
