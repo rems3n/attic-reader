@@ -43,8 +43,13 @@ def load_skills() -> dict:
 
 @lru_cache(maxsize=1)
 def load_images() -> dict[str, dict]:
-    raw = _read(DATA_DIR / "images" / "manifest.json")
-    return {img["id"]: img for img in raw["images"]}
+    """All image records: images/manifest.json plus any images/manifest-*.json
+    (one per unit, so authors never edit the same file)."""
+    out: dict[str, dict] = {}
+    for path in sorted((DATA_DIR / "images").glob("manifest*.json")):
+        for img in _read(path)["images"]:
+            out[img["id"]] = img
+    return out
 
 
 @lru_cache(maxsize=1)
@@ -54,10 +59,16 @@ def extra_entries() -> list[dict]:
 
     known = {e["id"] for e in vocab.load_entries()}
     out: list[dict] = []
-    for n, raw in enumerate(_read(DATA_DIR / "vocab_extra.json")):
+    raws: list[dict] = []
+    # vocab_extra.json plus vocab_extra-*.json (one per unit)
+    for path in sorted(DATA_DIR.glob("vocab_extra*.json")):
+        raws.extend(_read(path))
+    seen_ids: set[str] = set()
+    for n, raw in enumerate(raws):
         entry_id = raw.get("id") or _slug(raw["lemma"])
-        if entry_id in known:
+        if entry_id in known or entry_id in seen_ids:
             entry_id += "-x"
+        seen_ids.add(entry_id)
         entry = {
             "id": entry_id,
             "rank": EXTRA_RANK_BASE + n + 1,

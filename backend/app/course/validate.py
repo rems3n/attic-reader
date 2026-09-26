@@ -24,10 +24,16 @@ def validate() -> list[str]:
     problems += _validate_extras()
     for lid in data.lesson_ids():
         if data.lesson_available(lid):
-            problems += _validate_lesson(lid)
+            try:
+                problems += _validate_lesson(lid)
+            except (ValueError, KeyError, TypeError) as exc:  # malformed JSON or shape
+                problems.append(f"lesson {lid}: cannot load ({exc})")
     for unit in [u for s in data.load_course()["stages"] for u in s["units"]]:
         if unit.get("test") and (data.DATA_DIR / "tests" / f"{unit['test']}.json").exists():
-            problems += _validate_test(unit["test"])
+            try:
+                problems += _validate_test(unit["test"])
+            except (ValueError, KeyError, TypeError) as exc:
+                problems.append(f"test {unit['test']}: cannot load ({exc})")
     return problems
 
 

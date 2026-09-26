@@ -1,0 +1,217 @@
+# Authoring course lessons
+
+How to write a lesson for the Attic Reader course so that it loads, validates
+and teaches the way the plan says (`docs/COURSE_PLAN.md`). Read Lessons
+`1.1`–`1.4` in `backend/app/course_data/lessons/` first: they are the model.
+
+## Files
+
+```text
+backend/app/course_data/
+  lessons/<id>.json            one lesson (ids "2.1" … "6.4" are listed in course.json)
+  tests/unit-<n>.json          the unit test ("gate-1" for Unit 6)
+  vocab_extra-u<n>.json        course-only words this unit needs (not in the DCC 524)
+  images/manifest-u<n>.json    image records this unit references (placeholders for now)
+```
+
+Never edit `course.json`, `skills.json`, `vocab_extra.json` or
+`images/manifest.json` while other authors work; put new words and images in
+your unit's own files (they are merged by the loader).
+
+Tools (run from `backend/`, with `.venv/bin/python`):
+
+```bash
+python scripts/course_tools.py scope 2.1        # every word already taught before 2.1
+python scripts/course_tools.py find ἀγρός θύω   # ids, or MISSING → add to vocab_extra-u<n>.json
+python scripts/course_tools.py forms λύω        # every form the engine generates (use these as answers)
+python scripts/course_tools.py tokens 2.1       # story words not yet taught / glossed
+python scripts/course_tools.py check 2.1        # validate one lesson
+python scripts/course_tools.py skills verb.aor  # skill ids by prefix
+python scripts/build_course.py --stats          # validate everything; must print "0 problem(s)"
+python -m pytest -q tests/test_course.py        # must pass before you finish
+```
+
+## The story bible
+
+Athens, summer 432 BC (Unit 5 reaches the winter, Unit 6 the spring of 431).
+The family lives in the deme Kydathenaion, between the Agora and the
+Acropolis; Ariston's workshop is in the Kerameikos.
+
+| Name | Who | Gen. / dat. / acc. / voc. |
+|---|---|---|
+| ὁ Ἀρίστων | father, potter, ~40 | Ἀρίστωνος, Ἀρίστωνι, Ἀρίστωνα, Ἀρίστων |
+| ἡ Χρυσίς | mother; weaves, runs the house | Χρυσίδος, Χρυσίδι, Χρυσίδα, Χρυσί |
+| ὁ Λύσις | son, 12; school, palaestra, curious | Λύσιδος, Λύσιδι, Λύσιν, Λύσι |
+| ἡ Ἐλπίς | daughter, 9; fetches water, loves the sea | Ἐλπίδος, Ἐλπίδι, Ἐλπίδα, Ἐλπί |
+| ὁ Κλεινίας | grandfather; rowed at Salamis (480); tells myths | Κλεινίου, Κλεινίᾳ, Κλεινίαν, Κλεινία |
+| ὁ Σύρος | enslaved workshop hand, from Syria; competent, dry humour | Σύρου, Σύρῳ, Σύρον, Σύρε |
+| ὁ Λάβρος | the dog; steals food, gets lost | Λάβρου, Λάβρῳ, Λάβρον, Λάβρε |
+| ὁ Δημόκριτος | neighbour, farmer, talks politics | Δημοκρίτου, Δημοκρίτῳ, Δημόκριτον, Δημόκριτε |
+| ὁ ξένος | a merchant from Miletus (Unit 6) | give him a name in your lesson `names` |
+
+Other names already allowed course-wide: Ἀθῆναι, Ἀθηνᾶ, Κεραμεικός,
+Πειραιεύς, ἀκρόπολις, Ζεύς, Ἀπόλλων, Ἥρα, Ἀφροδίτη, Ἑρμῆς, Ἥφαιστος,
+Ποσειδῶν, Σωκράτης, Ὅμηρος, Ἑλλάς, Ἕλλην. Add lesson-local names (with their
+inflected forms) in the lesson's `names` object.
+
+Unit arcs (Stage 1):
+
+- **Unit 2 Ὁ οἶκος** — 2.1 a day in the household (morning to evening; ἐγώ/σύ dialogue between Chrysis and Elpis); 2.2 the slaves Syros and a new house-slave; plural subjects; culture box on slavery, honest; 2.3 Kleinias tells a short myth at night (imperatives in the dialogue: "listen!", "don't sleep!"); 2.4 the evening meal (contract verbs; αὐτός).
+- **Unit 3 Ἡ πόλις** — 3.1 a festival procession through the city (3rd-declension nouns: φύλαξ, γέρων, παῖς, γυνή, ἀνήρ); 3.2 citizens and young men in the agora (Democritus talks; οὗτος/ἐκεῖνος); 3.3 Labros gets lost (middle voice: γίγνομαι, βούλομαι, φοβέομαι, ἀφικνέομαι); 3.4 up to the Acropolis (prepositions, compound verbs).
+- **Unit 4 Ὁ Πειραιεύς** — 4.1 the walk down the Long Walls with father (present participles; πατήρ, μήτηρ, ἀνήρ); 4.2 the harbour market (middle participles; πᾶς; genitive uses); 4.3 Lysis at school and the city (πόλις, ἄστυ, βασιλεύς; δεῖ, ἔξεστι); 4.4 the ships and the numbers (numerals, ναῦς, time expressions).
+- **Unit 5 Οἱ θεοί** — 5.1 a sacrifice at the Panathenaic altar (second aorist); 5.2 Kleinias remembers Salamis (first aorist, augment); 5.3 Kleinias tells Apollo and Daphne (imperfect, historic present); 5.4 Elpis is ill; the doctor (relative clauses, -εσ- stems, reflexives).
+- **Unit 6 Τὸ ἀργύριον** — 6.1 selling pots, prices (comparatives); 6.2 the merchant from Miletus (demonstratives, time); 6.3 Chrysis's weaving and the girls' skills (-όω verbs, δύναμαι, root aorists); 6.4 review lesson: a short adapted Apollodorus myth as the reading, plus a consolidation grammar page; the test for Unit 6 is `gate-1.json` (reading gate: unseen adapted myth).
+
+Grammar per lesson is in `docs/COURSE_PLAN.md` §2.4 (the syllabus table). Follow
+it; do not introduce grammar scheduled for a later lesson except as a glossed
+preview (Athenaze does this deliberately).
+
+## Rules the validator enforces
+
+1. Every Greek token in the story is (a) a form of a word already taught
+   (this lesson's `vocab` or an earlier lesson's), generated by the
+   morphology engine; or (b) a proper name listed in `course.json` or the
+   lesson's `names`; or (c) glossed once in the lesson (`glosses` on the
+   sentence where it first appears); or (d) listed in `allow` with a reason.
+   `python scripts/course_tools.py tokens <id>` shows what is untaught.
+2. At most **12 new words** per lesson. Re-listing an already-taught word in
+   `vocab` is fine and does not count.
+3. Typed answers must be forms the engine accepts: prefer `lemma` + `cell`
+   on `produce-form` items (answers are filled in automatically) and check
+   other typed answers with `course_tools.py forms`.
+4. Every skill in the lesson's `skills` list has at least one exercise
+   carrying it; every item has ≥ 1 skill from `skills.json`.
+5. Quiz: 5–10 items. Images referenced must exist (in any manifest file).
+6. Every story sentence must be pronounceable by the voice (only Greek
+   letters and , . ; · ! ? « » — ' inside the text).
+
+Accents: write correct polytonic Greek. Remember enclitics: ἄνθρωπός ἐστιν,
+κόρη ἐστίν, ἀγορᾷ ἐστιν, δῶρόν ἐστιν; the grave before a following word
+(καλὸς ὁ ἀνήρ). Check anything you are unsure of against Smyth. The
+validator is accent-insensitive, so accent mistakes are yours to catch.
+
+## Lesson JSON
+
+```json
+{
+  "id": "2.1", "title_grc": "…", "title_en": "…",
+  "summary_grc": "…", "summary_en": "…",
+  "cover": "<image id>", "caption_grc": "one or two sentences that show the new grammar",
+  "names": {"Ξάνθος": ["Ξάνθου", "Ξάνθῳ", "Ξάνθον", "Ξάνθε"]},
+  "allow": {"οἰκεῖ": "reason"},
+  "story": [
+    {"image": "<image id>", "sentences": [
+      {"text": "…", "glosses": [
+        {"word": "κεραμεύς", "kind": "pic", "value": "<image id>"},
+        {"word": "οὐ", "kind": "=", "value": "✗"},
+        {"word": "μικρός", "kind": "↔", "value": "μέγας"},
+        {"word": "Ἀθηναῖος", "kind": "<", "value": "Ἀθῆναι"},
+        {"word": "πονοῦσιν", "kind": "|", "value": "πονεῖ | πονοῦσι(ν)"},
+        {"word": "γάρ", "kind": "en", "value": "for, because"},
+        {"word": "τὸν", "kind": "note", "value": "shown to the learner as an English note"}
+      ]}
+    ]}
+  ],
+  "vocab": [{"id": "<lexicon id>", "pic": "<image id or omit>", "gloss_grc": "optional Greek hint"}],
+  "notice": ["3–5 sentences from the story that show the pattern"],
+  "grammar": {"md": "Markdown: **bold**, *italic*, lists, | pipe | tables |", "paradigms": ["luo"], "diagram": null},
+  "exercises": [ …items… ],
+  "questions": [ …answer-grc items with options… ],
+  "culture": {"title": "…", "md": "150–250 words", "image": "<image id>"},
+  "quiz": [ …5–10 items… ],
+  "skills": ["…"]
+}
+```
+
+Story: 3 paragraphs, each with a picture; 120–180 words in Stage 1; short
+sentences; recycle earlier vocabulary constantly; every new word appears at
+least twice; dialogue in « ». Greek only. Glosses in LOGOS style: `pic`,
+`=`, `↔`, `<`, `|`; use `en` sparingly (function words, abstract words).
+
+Vocabulary: 8–12 new words, chosen from the DCC list first
+(`course_tools.py find`), else add to `vocab_extra-u<n>.json` in lexicon shape:
+
+```json
+{"lemma": "θύω", "headword": "θύω, θύσω, ἔθυσα, τέθυκα, τέθυμαι, ἐτύθην", "definition": "sacrifice",
+ "kind": "verb", "subclass": "verb-omega", "pos": "verb: -ω",
+ "morph": {"parts": {"present": ["θύω"], "future": ["θύσω"], "aorist": ["ἔθυσα"], "perfect": ["τέθυκα"], "perfect-mp": ["τέθυμαι"], "aorist-passive": ["ἐτύθην"]}, "extra": {}, "raw": ["θύω", "θύσω", "ἔθυσα"], "verb": {}},
+ "topics": ["mythology"], "cognates": {"derivatives": ["thyme?"]}}
+{"lemma": "φύλαξ", "headword": "φύλαξ, φύλακος, ὁ", "definition": "guard", "kind": "noun", "subclass": "noun-3-cons",
+ "pos": "noun: 3rd declension", "morph": {"genitive": "φύλακος", "gender": "m", "article": "ὁ"}, "topics": ["city-life"]}
+{"lemma": "χαλεπός", "headword": "χαλεπός, -ή, -όν", "definition": "difficult", "kind": "adjective", "subclass": "adj-1-2",
+ "pos": "adjective", "morph": {"terminations": 3, "forms": ["χαλεπός", "χαλεπή", "χαλεπόν"], "feminine": "χαλεπή", "neuter": "χαλεπόν"}, "topics": ["core"]}
+```
+
+Subclasses the engine knows: nouns `noun-1`, `noun-2`, `noun-3-cons`,
+`noun-3-sigma`, `noun-3-iota`, `noun-3-eus`, `noun-3-irregular` (needs a hand
+`morph.table`); adjectives `adj-1-2`, `adj-3-es`, `adj-3-on`, `adj-us`,
+`adj-irregular`; verbs `verb-omega`, `verb-contract`, `verb-deponent`,
+`verb-mi`, `verb-irregular` (give `verb.aorist_stem` etc. as in
+`vocab_data/overrides.json`). Indeclinables: `kind` adverb / preposition /
+conjunction / interjection with `morph.forms`. A hand table
+(`morph.table = {"kind":"noun","gender":"m","cells":[{"case":"nom","number":"sg","forms":["…"]}, …]}`)
+overrides the engine when it gets a word wrong. Run `course_tools.py forms` on
+every new word and read the output.
+
+Images: add records to `images/manifest-u<n>.json` as placeholders:
+
+```json
+{"images": [
+  {"id": "panel-2-1-a", "kind": "story", "file": null, "alt_grc": "…", "alt_en": "…", "credit": "placeholder", "license": "placeholder", "source_url": null, "words": []},
+  {"id": "verb-thyei", "kind": "dictionary", "file": null, "alt_grc": "θύει", "alt_en": "…", "credit": "placeholder", "license": "placeholder", "source_url": null, "words": ["θύω"]}
+]}
+```
+
+Reuse existing image ids where they fit (`images/manifest.json`).
+
+## Exercise items
+
+Common fields: `type`, `prompt`, `skills` (list), `explain` (shown after the
+answer), optional `audio` (text to speak, or `"prompt"`), optional `image`.
+
+| type | fields | notes |
+|---|---|---|
+| `endings-cloze` | `template` with `___` per gap, `gaps: [{answers: [..]}]` | Μελέτημα Α: fill endings; first exercise of every lesson |
+| `bank-cloze` | `options: [{id,text}]`, `answer` | Μελέτημα Β: whole word from a bank; 3 items |
+| `pick-picture` | `options: [{id,image}]`, `answer` | 2–4 picture options |
+| `listen-pick` | `audio`, `options: [{id,text}]` or images, `answer` | |
+| `cloze-choice` | `options: [{id,text}]`, `answer` | |
+| `true-false-grc` | `answer: "true"/"false"` | options auto |
+| `match` / `word-family` | `pairs: [{left,right}]` | 3–5 pairs; word-family = Word Study |
+| `cloze-type` / `compose-grc` / `dictation` / `transform` | `gaps: [{answers: [...]}]`, optional `template` | list every acceptable answer; word order variants |
+| `produce-form` | `lemma`, `cell` (e.g. `"acc.sg"`, `"present.active.indicative.3pl"`, `"dat.sg.f"`) | answers filled from the engine |
+| `parse` | `form`, `groups: [{id,label,options:[{id,label}]}]`, `answer: {groupId: optionId}` | |
+| `locate` | `sentence`, `answer: [token indices]` | indices over `course_tools`-style tokens (punctuation stripped) |
+| `reorder` | `tokens`, `answers: ["sentence", …]` | answers must use exactly the tokens |
+| `answer-grc` | `options` + `answer` (choice) | the Ἐρωτήματα block; 4–6 per lesson |
+| `translate-en` | `model` | self-graded; 1–2 per lesson |
+| `label` | like `cloze-choice` | S / DO / attributive etc. |
+
+Per lesson: 20–30 exercises in this order — Μελέτημα Α (endings), Β (3 bank
+items), 2 picture/listen, 2–3 `produce-form`, 2 `parse`, 2–3 `cloze-choice`,
+2 `transform`, 2 `locate`, 1–2 `reorder`, 1 `listen-pick` sentence, 3
+`true-false-grc`, 1 `dictation`, 2 `compose-grc`, 1 `translate-en`, 1
+`word-family`; then 4–6 Greek `questions`; then a 6–8 item `quiz` mixing types.
+Use the exercise id conventions from Lesson 1.2 as a template.
+
+## Unit test JSON
+
+Copy `tests/unit-1.json`: `scope` = the unit's last lesson id, `pass_score`
+0.8, sections `vocab` (8 items), `forms` (2 hand `parse` items +
+`generate` with 8 skills the drill generator supports: `noun.decl{1,2,3}.<case>.<num>`,
+`art.<case>.<num>`, `verb.{pres,impf,aor}.{act,mp}.{ind,imp}.<person>`,
+`verb.eimi.{pres,impf}.ind.<person>`, `verb.{pres,aor}.{act,mp}.inf`, `adj.agree`),
+`sentences` (8 items), `reading` (unseen 80–120-word passage using only the
+unit's vocabulary, 3 true/false, 2 answer-grc, 2 translate-en). For Unit 6 the
+file is `gate-1.json` and the passage is an unseen adapted myth of ~120 words.
+
+## Finish checklist
+
+- `python scripts/build_course.py --stats` → `0 problem(s)`; each of your
+  lessons shows ≤ 12 new words.
+- `python -m pytest -q tests/test_course.py` passes.
+- Read every story aloud in your head: accents, enclitics, agreement,
+  word order; every new word used at least twice; no grammar from later
+  lessons unglossed.
+- Culture box facts are correct and dated (no anachronism: no coins in
+  drachmas without saying so, no Parthenon "temple of Athena" confusion).
