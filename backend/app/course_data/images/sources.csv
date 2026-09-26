@@ -308,3 +308,149 @@ culture-owl-tetradrachm,cma,search:tetradrachm Athens owl|Tetradrachm,,,,3:2,Ath
 culture-miletus-map,commons,search:map ancient Ionia Miletus Aegean|map|Map,,,,3:2,Map of the Aegean with Athens and Miletus
 culture-loom-lekythos,met,253348,,,,3:2,"Met 31.11.10, Amasis Painter lekythos: women weaving (check title/accession on verify)"
 culture-prometheus-cup,commons,search:Atlas Prometheus Laconian cup Vatican|Prometheus|Atlas,,,,3:2,"Arkesilas Painter cup, Vatican 16592"
+panel-7-1-a,met,search:terracotta lekythos old man seated youth|lekythos,,,,3:2,Household dawn: a boy with an old seated man (Lysis waking Kleinias)
+panel-7-1-b,met,search:terracotta bull sacrifice procession|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,3:2,"Dionysia procession: youths leading a garlanded bull, a kanephoros"
+panel-7-1-c,met,search:terracotta Dionysos|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,3:2,Dionysos (image of the god); ideally Dionysos carried or seated
+theatron,commons,search:Theatre of Dionysus Athens|Dionys,,,,1:1,"Theatre of Dionysus on the south slope, seen from above"
+tauros,met,search:terracotta bull sacrifice|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,1:1,A garlanded bull led to sacrifice; crop to the bull
+kanoun,met,search:terracotta kanephoros basket|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,1:1,A girl carrying the flat sacrificial basket on her head
+choros,met,search:terracotta chorus dancers aulos|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,1:1,Men dancing in step around an aulos player
+culture-7-1-pompe,met,search:terracotta procession bull altar youths|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,3:2,"Red-figure sacrificial procession: bull led to the altar, basket-carrier"
+panel-7-2-a,commons,search:Theatre of Dionysus Athens seats orchestra|Dionys,,,,3:2,The orchestra and seats of the Dionysus theatre
+panel-7-2-b,met,search:terracotta youths dancing aulos player|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,3:2,A boys' chorus dancing round the piper
+panel-7-2-c,commons,search:choregic tripod base Athens|tripod|Tripod|choregic,,,,3:2,A choregic tripod base (victory monument of a choregos)
+verb-didosi,met,search:terracotta kylix handing cup|kylix,,,,1:1,One figure giving a cup to another
+verb-tithesi,met,search:terracotta woman placing vessel table|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,1:1,A hand placing a pot on a table (better drawn: own two-tone drawing)
+tachys,commons,search:hare running Lepus europaeus|Lepus|hare,,,,1:1,A running hare (pair with a tortoise) (better drawn: own two-tone drawing)
+prosopon,met,search:terracotta theatre mask|mask,,,,1:1,A theatre mask with open mouth
+tripous,met,search:bronze tripod|tripod,,,,1:1,A bronze tripod cauldron on three legs
+aulos,met,search:terracotta aulos player|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,1:1,A piper with the double pipes and mouth-band
+culture-7-2-tripod,commons,search:Choragic Monument of Lysicrates|Lysicrates|Lysikrates,,,,3:2,"Monument of Lysicrates, Street of Tripods (335/4 BC)"
+panel-7-3-a,commons,search:Theatre of Dionysus Athens from Acropolis|Dionys,,,,3:2,"The theatre seen from above, the slope of seats"
+panel-7-3-b,commons,search:Pronomos vase Naples|Pronomos,,,,3:2,Pronomos vase (Naples 81673): actors with masks in hand; crop to an actor in a female mask
+panel-7-3-c,cma,1991.1,,,,3:2,"Cleveland 1991.1, Lucanian calyx-krater: Medea in the serpent chariot"
+tragodia,commons,search:Pronomos vase actors masks|Pronomos,,,,1:1,Actors in tragic masks and long robes
+skene,commons,search:skene theatre stage building reconstruction|skene|Skene|theatre|Theatre,,,,1:1,A stage building with central door (better drawn: own two-tone drawing)
+harma,met,search:terracotta chariot charioteer|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,1:1,A two-wheeled chariot with its driver
+culture-7-3-medea,cma,1991.1,,,,3:2,Cleveland 1991.1 (Policoro Painter): Medea escaping in the serpent chariot
+panel-7-4-a,commons,search:Theatre of Dionysus Athens orchestra|Dionys,,,,3:2,The orchestra where the herald stands
+panel-7-4-b,met,search:terracotta youth torch|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,3:2,Night walk: a figure with a torch
+panel-7-4-c,met,search:terracotta askos dog|askos,,,,3:2,The dog askos again: Labros appearing in the dark
+verb-histatai,met,search:marble statue kouros|kouros,,,,1:1,"A man standing upright, arms at his sides"
+culture-7-4-ivy,commons,search:Euripides herm portrait|Euripides,,,,3:2,Herm portrait of Euripides (Roman copy)
+panel-8-1-a,commons,search:Pnyx hill Athens|Pnyx,,,,3:2,The Pnyx hill in the morning
+panel-8-1-b,commons,search:Pnyx bema speaker platform|Pnyx,,,,3:2,The Pnyx speaker's platform (bema)
+panel-8-1-c,commons,search:view from Pnyx Piraeus sea|Pnyx,,,,3:2,View from the Pnyx towards the sea and harbour
+panel-8-2-a,commons,search:Plataea ancient walls|Plataea|Plataia,,,,3:2,The site of Plataea (walls)
+panel-8-2-b,commons,search:wax tablet stylus reconstruction|tablet,,,,3:2,A folding wax tablet being written on
+panel-8-2-c,commons,search:Thucydides bust Royal Ontario Museum|Thucydides|Thukydides,,,,3:2,A portrait of Thucydides looking out
+panel-8-3-a,commons,search:Pnyx assembly place Athens|Pnyx,,,,3:2,The Assembly slope of the Pnyx
+panel-8-3-b,commons,search:Pnyx steps path Philopappos|Pnyx|Philopappos,,,,3:2,The path down from the Pnyx
+panel-8-3-c,commons,search:Long Walls Athens Piraeus|Long,,,,3:2,The Long Walls to Piraeus (remains or map)
+panel-8-4-a,commons,search:Pericles bust Vatican|Pericles|Perikles,,,,3:2,Pericles in a helmet (Roman copy after Kresilas)
+panel-8-4-b,commons,search:Pnyx view Acropolis|Pnyx,,,,3:2,The view from the Pnyx over city and sea
+panel-8-4-c,met,search:terracotta cart wagon|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros|cart|wagon,,,,3:2,A cart loaded with goods passing by
+ekklesia,commons,search:Pnyx Athens bema|Pnyx,,,,1:1,Hillside with the speaker's platform
+keryx,met,search:terracotta Hermes kerykeion|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,1:1,A figure holding the herald's staff (Hermes)
+strategos,commons,search:Pericles bust Altes Museum helmet|Pericles|Perikles,,,,1:1,A general with a Corinthian helmet pushed up (not a BM photo)
+verb-cheirotonei,met,search:terracotta man raised hand|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,1:1,A citizen raising his right hand (better drawn: own two-tone drawing)
+verb-deiknysi,met,search:terracotta man pointing boy|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,1:1,A man pointing something out to a boy (better drawn: own two-tone drawing)
+semeion,commons,search:ancient Greek watchtower tower Attica|tower|Tower,,,,1:1,A hilltop tower (fire signal) (better drawn: own two-tone drawing)
+chorion,commons,search:threshing floor Greece olive vines|threshing|farm,,,,1:1,"A small farm with threshing floor, vines, olives"
+trophe,commons,search:bread olives cheese Greek food|bread|olive|cheese,,,,1:1,"Provisions: bread, olives, cheese"
+adelphos,met,search:marble grave stele brothers|stele,,,,1:1,Two brothers side by side
+verb-eiskomizei,met,search:terracotta donkey cart|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros|donkey|mule,,,,1:1,A farmer bringing goods on a donkey/cart
+culture-8-2-thucydides,commons,search:Thucydides herm Holkham|Thucydides|Thukydides,,,,3:2,Herm of Thucydides (Holkham Hall type)
+culture-8-3-decree,commons,search:Athenian decree stele relief Epigraphical Museum|decree|Decree|stele,,,,3:2,A decree stele with relief heading (Epigraphical Museum)
+culture-8-4-pericles,commons,search:Pericles Kresilas bust Vatican|Pericles|Perikles,,,,3:2,"Pericles with helmet, Roman copy after Kresilas"
+panel-9-1-a,commons,search:Mount Parnitha Acharnes view|Parnitha|Parnes|Acharn,,,,3:2,Plain of Acharnae below Mount Parnes
+panel-9-1-b,commons,search:Themistoclean Wall Athens|wall|Wall,,,,3:2,The city wall where Athenians watched
+panel-9-1-c,met,search:terracotta men arguing himation|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,3:2,Citizens arguing in the street
+stratos,met,search:terracotta hoplites marching|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,1:1,Hoplites in column with shields and spears
+verb-kaiei,commons,search:burning field fire|fire|Fire,,,,1:1,Fire burning a field (better drawn: own two-tone drawing)
+verb-temnei,met,search:terracotta man axe|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,1:1,A man with an axe cutting
+panel-9-2-a,met,search:terracotta ox cart|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros|cart,,,,3:2,An ox-cart piled with goods
+panel-9-2-b,met,search:marble grave stele two women clasping hands|stele,,,,3:2,Two women embracing / clasping hands
+panel-9-2-c,commons,search:Attica farmhouse countryside Acharnes|Attica|Acharn|farm,,,,3:2,Attic countryside farmsteads
+hamaxa,met,search:terracotta cart model|cart|wagon,,,,1:1,A terracotta cart model
+zoon,met,search:terracotta animals frieze|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,1:1,Farm animals together (animal frieze)
+verb-komizei,met,search:terracotta man carrying sack|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,1:1,A man carrying goods on his back (better drawn: own two-tone drawing)
+culture-9-2-cart,met,search:black-figure cart wedding procession|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,3:2,Black-figure ox or mule cart (wedding cart)
+panel-9-3-a,commons,search:Aigosthena tower interior|Aigosthena,,,,3:2,Inside a wall tower (Aigosthena)
+panel-9-3-b,commons,search:Acropolis north slope wall Athens|Acropolis,,,,3:2,Foot of the Acropolis wall where refugees camped
+panel-9-3-c,commons,search:Parthenon frieze peplos scene|frieze|peplos|Parthenon,,,,3:2,The peplos scene of the east frieze (not a BM photo)
+pyrgos,commons,search:Aigosthena fortress tower|Aigosthena,,,,1:1,A square tower of a Greek city wall
+verb-paradidosi,commons,search:Parthenon frieze peplos folding|frieze|peplos|Parthenon,,,,1:1,Handing over the folded peplos
+culture-9-3-panathenaea,commons,search:Parthenon east frieze peplos Acropolis Museum|frieze|peplos|Parthenon,,,,3:2,East frieze: folding the peplos; women of the procession
+panel-9-4-a,met,search:terracotta hoplites marching|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,3:2,A column of hoplites on the march
+panel-9-4-b,met,search:terracotta prothesis mourning|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros|prothesis,,,,3:2,Funeral: mourning women (prothesis/ekphora scene)
+panel-9-4-c,commons,search:Kerameikos Demosion Sema public cemetery|Kerameikos|Demosion,,,,3:2,The public cemetery by the Dipylon (Demosion Sema)
+hoplites,met,search:terracotta lekythos hoplite|lekythos,,,,1:1,"A hoplite with shield, spear, Corinthian helmet"
+taphos,commons,search:Kerameikos grave mound stele|Kerameikos,,,,1:1,Grave marker and mound in the Kerameikos
+verb-thaptei,met,search:terracotta ekphora burial|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,1:1,Mourners at a burial
+culture-9-4-casualty-list,commons,search:Athenian casualty list inscription|casualty|Casualty|list,,,,3:2,"A fragment of a casualty list, names by tribe"
+panel-10-1-a,commons,search:Stoa Poikile excavation Athens Agora|Poikile|Stoa,,,,3:2,The Stoa Poikile site on the Agora's north side
+panel-10-1-b,commons,search:Stoa Poikile Athens|Poikile,,,,3:2,The Painted Stoa (site or reconstruction)
+panel-10-1-c,commons,search:Socrates portrait head|Socrates|Sokrates,,,,3:2,Socrates laughing; portrait head
+culture-10-1-stoa,commons,search:Stoa Poikile plan reconstruction|Poikile,,,,3:2,Plan or reconstruction of the Stoa Poikile
+stoa-poikile,commons,search:Stoa of Attalos colonnade|Attalos|Stoa,,,,1:1,A long colonnade (the rebuilt Stoa of Attalos stands in)
+kyklos,met,search:terracotta round dance women|Terracotta,,,,1:1,People in a ring (round-dance group) (better drawn: own two-tone drawing)
+neos,met,search:marble head youth|head,,,,1:1,A young man's head (beside an old one)
+panel-10-2-a,commons,search:Stoa Poikile Athens remains|Poikile|Stoa,,,,3:2,The empty stoa in the early morning
+panel-10-2-b,commons,search:Socrates bust Louvre|Socrates|Sokrates,,,,3:2,Socrates in conversation
+panel-10-2-c,met,search:terracotta askos dog|askos,,,,3:2,Labros under the tree (dog askos)
+culture-10-2-socrates,met,search:marble head Socrates|Socrates,,,,3:2,Marble portrait head of Socrates
+arithmos,commons,search:Salamis tablet counting board|Salamis|abacus|counting,,,,1:1,The Salamis counting board / pebbles
+verb-hesteke,met,search:marble grave stele standing man|stele,,,,1:1,A man standing still
+panel-10-3-a,met,search:terracotta kylix youth holding cup|kylix,,,,3:2,Someone turning a painted cup in his hands
+panel-10-3-b,met,search:terracotta horse youth|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,3:2,A horse (and a cup) as subjects of Socrates' questions
+panel-10-3-c,met,search:terracotta man angry departing|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,3:2,A man storming off (better drawn: own two-tone drawing)
+culture-10-3-workshop,commons,search:Foundry Painter cup Berlin workshop|Foundry,,,,3:2,Foundry Cup (Berlin F 2294): workshop with onlookers
+psyche,met,search:white-ground lekythos eidolon|lekythos,,,,1:1,Tiny winged soul on a white-ground lekythos
+kosmos,met,search:terracotta kylix palmettes|kylix,,,,1:1,The painted ornament of an Attic cup
+panel-10-4-a,commons,search:Athens plague 430 mass grave Kerameikos|plague|Kerameikos,,,,3:2,Kerameikos mass burial of c. 430 BC (plague)
+panel-10-4-b,met,search:terracotta oil lamp|lamp,,,,3:2,Lamplight by a sickbed
+panel-10-4-c,commons,search:Kleobis and Biton Delphi|Kleobis|Biton,,,,3:2,"Kleobis and Biton, the Delphi kouroi"
+culture-10-4-lekythos,met,search:white-ground lekythos Charon Hermes|lekythos,,,,3:2,White-ground lekythos with Charon or Hermes and small souls
+presbys,met,search:terracotta statuette old man staff|statuette,,,,1:1,An old man with a stick
+teknon,met,search:marble grave stele mother child|stele,,,,1:1,A mother with her child
+loimos,commons,search:Kerameikos mass grave plague Athens|Kerameikos|plague,,,,1:1,Mass burial of the plague year; better drawn if too grim
+panel-11-1-a,commons,search:horos boundary stone Athens|horos|Horos|boundary,,,,3:2,A boundary stone in a field
+panel-11-1-b,met,search:terracotta man doorway|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,3:2,A man at a house door (summons) (better drawn: own two-tone drawing)
+panel-11-1-c,commons,search:Lysias bust|Lysias,,,,3:2,Portrait of the speechwriter Lysias
+panel-11-2-a,met,search:terracotta men conversation|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,3:2,Men talking in the evening courtyard
+panel-11-2-b,commons,search:olive grove dusk Greece|olive,,,,3:2,Dusk in an olive grove
+panel-11-2-c,met,search:terracotta man raised hand|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,3:2,"A man with one hand raised, refusing (better drawn: own two-tone drawing)"
+panel-11-3-a,commons,search:klepsydra water clock Agora Museum|klepsydra|Klepsydra|clock,,,,3:2,The Agora water clock (c. 400 BC)
+panel-11-3-b,met,search:terracotta orator speaking|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,3:2,A speaker with open hands
+panel-11-3-c,commons,search:kleroterion Agora Museum|kleroterion|Kleroterion,,,,3:2,"Kleroterion, Agora Museum (4th c. BC, later than the story)"
+panel-11-4-a,commons,search:juror ballots Agora Museum|ballot|psephos|Ballot,,,,3:2,"Bronze jurors' ballots, Agora Museum (4th c. BC, later than the story)"
+panel-11-4-b,commons,search:voting pebbles ballots Athens Agora|ballot|vot,,,,3:2,"Counting the votes (ballots, 4th c. BC)"
+panel-11-4-c,commons,search:olive tree shoot stump|olive,,,,3:2,A boundary stone and a young olive shoot
+horos,commons,search:Athenian Agora horos boundary stone|horos|Horos,,,,1:1,The Agora horos stone
+geiton,commons,search:traditional stone farmhouses Greece|house|farm,,,,1:1,Two farmhouses side by side (better drawn: own two-tone drawing)
+dikasterion,commons,search:kleroterion Agora Museum|kleroterion|Kleroterion,,,,1:1,Kleroterion (4th c. BC); a court scene is better drawn
+dikastes,commons,search:bronze pinakion juror ticket|pinak|Pinak|juror,,,,1:1,"Bronze juror's ticket (pinakion), 4th c. BC"
+martys,met,search:terracotta man raised hand speaking|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,1:1,A witness raising his hand (better drawn: own two-tone drawing)
+klepsydra,commons,search:klepsydra water clock Agora Museum|klepsydra|Klepsydra|clock,,,,1:1,"The Agora water clock, c. 400 BC"
+psephos,commons,search:juror ballots Agora Museum bronze|ballot|psephos|Ballot,,,,1:1,"Jurors' ballots, Agora Museum (4th c. BC)"
+kadiskos,met,search:terracotta amphora narrow neck|amphora,,,,1:1,A voting urn (a narrow-mouthed jar)
+culture-11-1-horos-agora,commons,search:horos Agora boundary stone ΗΟΡΟΣ ΕΙΜΙ|horos|Horos|boundary,,,,3:2,"The Agora boundary stone, c. 500 BC, in situ"
+culture-11-2-clay-pit,commons,search:Penteskouphia pinax clay pit|Penteskouphia|pinax,,,,3:2,Penteskouphia plaque of clay diggers (Berlin F 871)
+culture-11-3-klepsydra,commons,search:klepsydra Antiochidos Agora Museum|klepsydra|Klepsydra|clock,,,,3:2,Agora water clock inscribed ΑΝΤΙΟΧΙΔΟΣ
+panel-12-1-a,met,search:terracotta old man scroll|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,3:2,An old man reading a scroll to children
+panel-12-1-b,met,search:terracotta Persian horseman|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,3:2,A Persian rider in Persian dress
+panel-12-1-c,commons,search:Darius vase Naples Persian king throne|Darius,,,,3:2,Darius vase (Naples): the Persian king enthroned
+panel-12-2-a,met,search:terracotta girl scroll|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,3:2,A girl leaning forward with a question (better drawn: own two-tone drawing)
+panel-12-2-b,commons,search:Kurdistan mountains Zagros path|mountain|Mountain|Zagros,,,,3:2,Mountain path of the march (Zagros/Armenia)
+panel-12-2-c,commons,search:Trabzon mountains Black Sea view|Trabzon|Black Sea,,,,3:2,Mountains looking down to the Black Sea
+panel-12-3-a,met,search:terracotta pyxis|pyxis,,,,3:2,A chest/box holding scrolls (better drawn: own two-tone drawing)
+panel-12-3-b,commons,search:Socrates prison Athens Philopappos|Socrates|prison,,,,3:2,The so-called prison of Socrates
+panel-12-3-c,commons,search:Socrates statue Academy Athens|Socrates|Sokrates,,,,3:2,Socrates speaking calmly
+panel-12-4-a,commons,search:Bendis relief Ny Carlsberg Glyptotek|Bendis,,,,3:2,"Bendis votive relief (Copenhagen), not the BM one"
+panel-12-4-b,commons,search:Piraeus Long Walls remains|Piraeus|Long|wall,,,,3:2,The road back to the city walls from Piraeus
+panel-12-4-c,met,search:terracotta youths conversation himation|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros,,,,3:2,Young men gathered round an older man
+culture-12-1-achaemenid-guards,commons,search:Frieze of Archers Susa Louvre|Archer|archer|Susa,,,,3:2,"Glazed-brick frieze of Persian guards, Susa (Louvre)"
+culture-12-2-black-sea,commons,search:Trabzon Black Sea coast view mountains|Trabzon|Black Sea,,,,3:2,View down to the Black Sea at Trabzon
+culture-12-3-socrates-portrait,commons,search:Socrates marble head Louvre|Socrates|Sokrates,,,,3:2,Marble portrait head of Socrates
+culture-12-4-bendis-relief,commons,search:Bendis votive relief torch race|Bendis,,,,3:2,Bendis torch-race relief; the BM original is excluded: use a CC Commons photo or the Copenhagen relief
