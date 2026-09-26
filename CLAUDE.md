@@ -898,3 +898,57 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   exercises, gate II passed); screenshots 11–13 in `docs/screenshots/`.
 - **Known gaps**: no dual or verbal adjectives in the engine (glossed);
   ἵστημι short perfects; photographs still placeholders; Phase D (tracks).
+
+## Session log — 2026-09-26 (course Phase D + Phase E)
+
+- **Tracks (Stage 3)**: `course.json` tracks list 7 lessons (`myth.*`,
+  `phil.*`, `hist.*`, `pol.*`) + gate (`gate-<prefix>`), `side_after` 9.4
+  (lessons 1–3), `full_after` 12.4. `data.py`: `main_lesson_ids()` (Stage
+  0–2 order) vs `lesson_ids()` (+ tracks); a track lesson's scope = main
+  course through its `requires` + the track's earlier lessons (tracks never
+  see each other); `resolve_track`, `lesson_summary`. Validator: ≤ 15 new
+  words, lessons 4+ accept every DCC form (`_core_forms`), gates validated.
+  Per-track files so authors never share one: `vocab_extra-<p>.json`,
+  `skills-<p>.json` (loaded by `load_skills`), `texts/sources-<p>.json`,
+  `images/manifest-<p>.json`, `images/sources-<p>.csv`. 4 agents wrote the
+  content (AUTHORING.md "Stage 3"). Palaephatus and the Old Oligarch are not
+  in canonical-greekLit (replaced). Hand fixes in `texts/apollod-epit-1.7`,
+  `-1.12` and `plato-rep-360a` (rebuilding brings the Perseus typos back).
+- **Frontend**: `/course/track/[id]` (ladder, gate, texts, track words),
+  course-home track cards + "your track", `trackLessonStatus`/`trackGate`
+  in `courseState.ts` (vitest). Track lessons are strict on accents.
+- **Guided reading (Stage 4)**: `app/course/analyze.py` (form index over
+  all lexicon entries → coverage, entries, unknown); `POST /api/analyze`,
+  `GET /api/analyze/library`; `WordCoverage` panel under the Reader text;
+  `/vocab?words=a,b&from=label` deck.
+- **Phase E by agents**: skills grid `/course/skills` + `GET
+  /api/course/skill/{id}`; mistakes deck `/course/review?mode=mistakes` +
+  `POST /api/course/items` (ErrorEntry `right`/`cleared`); offline service
+  worker `public/sw.js` (story streams and `/api/speak` cached under
+  synthetic GET keys, `offline.html`, `lib/offline.ts` prefetch); navigation
+  (bottom tab bar ≤ 640 px, `Crumbs`, `SiteFooter`, `PageState`), axe-clean
+  a11y pass (`e2e_nav.py`, `axe-core` dev dep). `NEXT_DIST_DIR` lets a
+  second build live beside `.next` (it rewrites `next-env.d.ts`: restore it).
+- **Engine** (merged from a worktree branch): author-reported fixes (-σον
+  imperative accent, compound imperatives, -ων non-comparatives, γχ/ν
+  perfect middles, σκοπέω, ἔχω compounds, Attic futures in -αύνω/-άζω,
+  assimilated prefixes, πλοῦς, πλήρης, κεῖμαι compounds, ἑστώς, οὕτω,
+  οἶμαι, ἔγωγε); **dual** everywhere (separate `dual` block; FormsTable
+  "show dual"; course cells `nom.du`, `…2du`); **verbal adjectives**
+  `vadj.tos`/`vadj.teos` (override `"vadj": false|{tos,teos}`).
+- **Fixes found by e2e**: generated parse items for infinitives asked for a
+  person (now tense + voice); story ▶ needed two taps (load resolves on the
+  sentence list; clips looked up in the list just loaded).
+- **Images**: `build_images.py` gained query relaxation + cross-source
+  fallback, `doctor`, `failures.json`, host circuit breaker, browser UA for
+  museum CDNs; Commons licence check crashed on numeric metadata (fixed);
+  Met search needs `q` last. `scripts/images_retry.sh` (python3 venv of its
+  own, macOS bash 3.2 safe) runs the pass locally and pushes pictures +
+  `failures.json` + `doctor.json` + `last-run.log`.
+- **Verified**: build_course 0 problems; backend 654 passed; vitest 126;
+  `next build`; e2e course, placement, stage1, stage2, tracks, skills, nav
+  (offline e2e by its agent).
+- **Open**: photographs (user's local image run); quiz and questions items
+  share the `q` id prefix (388 collisions; the mistakes deck disambiguates);
+  ἐμαυτοῦ/σεαυτοῦ have tables but no lexicon entries; λύω shows θνῄσκω's
+  note (shared DCC rank 384 in overrides); content review by a second reader.
