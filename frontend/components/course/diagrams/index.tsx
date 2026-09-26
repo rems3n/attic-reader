@@ -9,5 +9,10 @@
  */
 
 import type { ComponentType } from "react";
+import { AlphabetChart, CaseMap, EnEisEk } from "./basics";
 
-export const DIAGRAMS: Record<string, ComponentType> = {};
+export const DIAGRAMS: Record<string, ComponentType> = {
+  "alphabet-chart": AlphabetChart,
+  "diagram-case-map": CaseMap,
+  "diagram-en-eis-ek": EnEisEk,
+};
