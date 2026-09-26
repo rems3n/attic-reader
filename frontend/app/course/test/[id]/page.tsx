@@ -98,6 +98,7 @@ export default function TestPage() {
                   {s.passage_title && <h2 lang="grc">{s.passage_title}</h2>}
                   <p lang="grc" className="passageText"><SpeakButton text={s.passage} play={play} busy={busy} small /> {s.passage}</p>
                   {s.passage_source && <p className="muted small">{[s.passage_source.author, s.passage_source.work, s.passage_source.ref].filter(Boolean).join(", ")} · unadapted</p>}
+                  {s.passage_note && <p className="muted small">{s.passage_note}</p>}
                 </div>
               );
             }}

@@ -17,6 +17,12 @@ MAX_NEW_WORDS = 12
 MIN_QUIZ, MAX_QUIZ = 5, 10
 
 
+
+# elision marks as they occur in authored and Perseus text: ’ ' ʼ ᾽
+ELISION_MARKS = ("\u2019", "'", "\u02bc", "\u1fbd")
+# an elided consonant before a rough breathing is aspirated: ἐφ’ ← ἐπί, καθ’ ← κατά, ἀνθ’ ← ἀντί
+DEASPIRATE = {"φ": "π", "θ": "τ", "χ": "κ"}
+
 def validate() -> list[str]:
     problems: list[str] = []
     problems += _validate_manifest()
@@ -164,9 +170,12 @@ def _validate_lesson(lid: str) -> list[str]:
                 key = normalize_answer(tok)
                 if key in known or key in glossed or key in allow:
                     continue
-                if tok.endswith(("’", "'")):  # elided: ἀλλ’, δ’
+                if tok.endswith(ELISION_MARKS):  # elided: ἀλλ’, δʼ, ἐφ’ (ἐπί before a rough breathing)
                     stem = normalize_answer(tok[:-1])
-                    if any(k.startswith(stem) for k in known | glossed):
+                    stems = {stem}
+                    if stem[-1:] in DEASPIRATE:
+                        stems.add(stem[:-1] + DEASPIRATE[stem[-1]])
+                    if any(k.startswith(s) for s in stems for k in known | glossed):
                         continue
                 out.append(f"{prefix}: story {pi}.{si} uses {tok!r} before it is taught (gloss it or add it to vocab/allow)")
             unknown = unknown_kokoro_symbols(prepare_kokoro_phonemes(attic_ipa(sent["text"])))

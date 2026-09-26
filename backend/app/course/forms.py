@@ -100,6 +100,8 @@ def _all_cells(entry: dict) -> list[tuple[str, list[str]]]:
             out.append((f"{cell['case']}.{cell['number']}", list(forms)))
     if entry["kind"] in {"adjective", "numeral"} and table.get("comparison"):
         out.extend(_comparison_rows(table["comparison"]))
+    if entry["kind"] in {"adjective", "numeral"} and table.get("adverb"):
+        out.append(("adv", [_clean(a) for a in table["adverb"] if a]))  # σοφῶς, ἀκριβῶς, εὖ
     return out
 
 
@@ -185,6 +187,8 @@ def describe_cell(entry: dict, cell: str, greek: bool = False) -> str:
         if mood == "infinitive":
             return f"{tense} {voice} infinitive"
         return f"{tense} {voice} {mood}, {person}"
+    if parts == ["adv"]:
+        return "adverb"
     if parts[0] in ("comp", "sup"):
         degree = "comparative" if parts[0] == "comp" else "superlative"
         return f"{degree}, {CASE_LABEL[parts[1]]} {NUMBER_LABEL[parts[2]]} {GENDER_LABEL[parts[3]]}"

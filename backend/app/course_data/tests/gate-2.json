@@ -1,0 +1,1192 @@
+{
+  "id": "gate-2",
+  "title_grc": "Ἀνάγνωσις δευτέρα · ἔλεγχος",
+  "title_en": "Reading gate II",
+  "scope": "12.4",
+  "pass_score": 0.8,
+  "unlock_after_hours": 24,
+  "retake_after_days": 7,
+  "blurb": "The end of Stage 2. Vocabulary and forms from Units 7–12, eight sentences on conditions, the optative, indirect speech and participles, and an unseen page of Xenophon, unadapted and unglossed except for names: Xenophon tells how he came to join Cyrus' army. Five questions in Greek, three forms to parse, three sentences to translate. No feedback until the end. 80 % to pass.",
+  "sections": [
+    {
+      "id": "vocab",
+      "title": "Λέξεις · Vocabulary",
+      "items": [
+        {
+          "type": "pick-picture",
+          "prompt": "κεφαλή",
+          "audio": "prompt",
+          "options": [
+            {
+              "id": "a",
+              "image": "kephale"
+            },
+            {
+              "id": "b",
+              "image": "pous"
+            },
+            {
+              "id": "c",
+              "image": "cheir"
+            },
+            {
+              "id": "d",
+              "image": "soma"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "vocab.recognition"
+          ],
+          "explain": "ἡ κεφαλή: the head."
+        },
+        {
+          "type": "listen-pick",
+          "prompt": "Listen and choose what you hear.",
+          "options": [
+            {
+              "id": "a",
+              "text": "ὁ θάνατος"
+            },
+            {
+              "id": "b",
+              "text": "ὁ καιρός"
+            },
+            {
+              "id": "c",
+              "text": "ὁ τρόπος"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "listen.words",
+            "vocab.stage2"
+          ],
+          "explain": "ὁ θάνατος: death.",
+          "audio": "ὁ θάνατος"
+        },
+        {
+          "type": "listen-pick",
+          "prompt": "Listen and choose what you hear.",
+          "options": [
+            {
+              "id": "a",
+              "text": "ὁ βασιλεὺς πάσης τῆς χώρας κρατεῖ."
+            },
+            {
+              "id": "b",
+              "text": "ὁ βασιλεὺς πάσης τῆς χώρας κράτιστός ἐστιν."
+            },
+            {
+              "id": "c",
+              "text": "ὁ στρατηγὸς πάσης τῆς στρατιᾶς κρατεῖ."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "listen.sentences",
+            "vocab.stage2"
+          ],
+          "explain": "The king rules the whole country (κρατέω + genitive).",
+          "audio": "ὁ βασιλεὺς πάσης τῆς χώρας κρατεῖ."
+        },
+        {
+          "type": "match",
+          "prompt": "Match the Greek to the English.",
+          "pairs": [
+            {
+              "left": "ὁ στρατηγός",
+              "right": "general"
+            },
+            {
+              "left": "ἡ ψυχή",
+              "right": "soul, life"
+            },
+            {
+              "left": "ἡ ἀρετή",
+              "right": "excellence, virtue"
+            },
+            {
+              "left": "ἡ δίκη",
+              "right": "justice, lawsuit"
+            },
+            {
+              "left": "ὁ χρόνος",
+              "right": "time"
+            }
+          ],
+          "skills": [
+            "vocab.recognition",
+            "vocab.stage2"
+          ],
+          "explain": "στρατηγός, ψυχή, ἀρετή, δίκη, χρόνος."
+        },
+        {
+          "type": "match",
+          "prompt": "Match the verbs to their meanings.",
+          "pairs": [
+            {
+              "left": "κελεύω",
+              "right": "order"
+            },
+            {
+              "left": "δέχομαι",
+              "right": "receive"
+            },
+            {
+              "left": "κρίνω",
+              "right": "judge"
+            },
+            {
+              "left": "αἱρέω",
+              "right": "take, seize"
+            },
+            {
+              "left": "ἐάω",
+              "right": "allow"
+            }
+          ],
+          "skills": [
+            "vocab.recognition",
+            "vocab.stage2"
+          ],
+          "explain": "κελεύω, δέχομαι, κρίνω, αἱρέω, ἐάω."
+        },
+        {
+          "type": "cloze-type",
+          "prompt": "Type the Greek for 'death' (with its article).",
+          "gaps": [
+            {
+              "answers": [
+                "ὁ θάνατος",
+                "θάνατος"
+              ]
+            }
+          ],
+          "skills": [
+            "vocab.production",
+            "vocab.stage2"
+          ],
+          "explain": "ὁ θάνατος.",
+          "audio": "ὁ θάνατος"
+        },
+        {
+          "type": "cloze-type",
+          "prompt": "Type the Greek for 'name' (with its article).",
+          "gaps": [
+            {
+              "answers": [
+                "τὸ ὄνομα",
+                "ὄνομα"
+              ]
+            }
+          ],
+          "skills": [
+            "vocab.production",
+            "vocab.stage2"
+          ],
+          "explain": "τὸ ὄνομα, τοῦ ὀνόματος.",
+          "audio": "τὸ ὄνομα"
+        },
+        {
+          "type": "cloze-type",
+          "prompt": "Type the Greek for 'the enemy' (plural, with the article).",
+          "gaps": [
+            {
+              "answers": [
+                "οἱ πολέμιοι",
+                "πολέμιοι"
+              ]
+            }
+          ],
+          "skills": [
+            "vocab.production",
+            "vocab.stage2"
+          ],
+          "explain": "οἱ πολέμιοι.",
+          "audio": "οἱ πολέμιοι"
+        },
+        {
+          "type": "cloze-type",
+          "prompt": "Type the Greek for 'cause' (with its article).",
+          "gaps": [
+            {
+              "answers": [
+                "ἡ αἰτία",
+                "αἰτία"
+              ]
+            }
+          ],
+          "skills": [
+            "vocab.production",
+            "vocab.stage2"
+          ],
+          "explain": "ἡ αἰτία.",
+          "audio": "ἡ αἰτία"
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "ὁ Κῦρος τῇ μητρὶ χάριν εἶχεν means …",
+          "options": [
+            {
+              "id": "a",
+              "text": "Cyrus was grateful to his mother."
+            },
+            {
+              "id": "b",
+              "text": "Cyrus gave his mother a present."
+            },
+            {
+              "id": "c",
+              "text": "Cyrus was angry with his mother."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "vocab.recognition",
+            "vocab.stage2"
+          ],
+          "explain": "χάριν ἔχειν + dative: to be grateful to."
+        }
+      ]
+    },
+    {
+      "id": "forms",
+      "title": "Τύποι · Forms",
+      "items": [
+        {
+          "type": "parse",
+          "prompt": "Parse ἔλθοι.",
+          "form": "ἔλθοι",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "fut",
+                  "label": "future"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                },
+                {
+                  "id": "perf",
+                  "label": "perfect"
+                }
+              ]
+            },
+            {
+              "id": "mood",
+              "label": "Mood",
+              "options": [
+                {
+                  "id": "ind",
+                  "label": "indicative"
+                },
+                {
+                  "id": "subj",
+                  "label": "subjunctive"
+                },
+                {
+                  "id": "opt",
+                  "label": "optative"
+                },
+                {
+                  "id": "imp",
+                  "label": "imperative"
+                },
+                {
+                  "id": "inf",
+                  "label": "infinitive"
+                },
+                {
+                  "id": "ptc",
+                  "label": "participle"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "aor",
+            "mood": "opt"
+          },
+          "skills": [
+            "verb.aor.act.opt.3sg"
+          ],
+          "explain": "ἔλθ-οι: aorist optative of ἔρχομαι (stem ἐλθ-, no augment outside the indicative), 3rd singular.",
+          "audio": "ἔλθοι"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse ποιήσειν.",
+          "form": "ποιήσειν",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "fut",
+                  "label": "future"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                },
+                {
+                  "id": "perf",
+                  "label": "perfect"
+                }
+              ]
+            },
+            {
+              "id": "mood",
+              "label": "Mood",
+              "options": [
+                {
+                  "id": "ind",
+                  "label": "indicative"
+                },
+                {
+                  "id": "subj",
+                  "label": "subjunctive"
+                },
+                {
+                  "id": "opt",
+                  "label": "optative"
+                },
+                {
+                  "id": "imp",
+                  "label": "imperative"
+                },
+                {
+                  "id": "inf",
+                  "label": "infinitive"
+                },
+                {
+                  "id": "ptc",
+                  "label": "participle"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "fut",
+            "mood": "inf"
+          },
+          "skills": [
+            "verb.fut.act.inf"
+          ],
+          "explain": "ποιή-σ-ειν: future infinitive, used in indirect statement after verbs of promising and hoping.",
+          "audio": "ποιήσειν"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse γεγράφασι.",
+          "form": "γεγράφασι",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "fut",
+                  "label": "future"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                },
+                {
+                  "id": "perf",
+                  "label": "perfect"
+                }
+              ]
+            },
+            {
+              "id": "person",
+              "label": "Person and number",
+              "options": [
+                {
+                  "id": "1sg",
+                  "label": "1st singular"
+                },
+                {
+                  "id": "2sg",
+                  "label": "2nd singular"
+                },
+                {
+                  "id": "3sg",
+                  "label": "3rd singular"
+                },
+                {
+                  "id": "1pl",
+                  "label": "1st plural"
+                },
+                {
+                  "id": "3pl",
+                  "label": "3rd plural"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "perf",
+            "person": "3pl"
+          },
+          "skills": [
+            "verb.perf.act.ind.3pl",
+            "verb.perf.reduplication"
+          ],
+          "explain": "γε-γράφ-ασι: reduplication + perfect ending -ασι: 'they have written'.",
+          "audio": "γεγράφασι"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse ἐλύθησαν.",
+          "form": "ἐλύθησαν",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "fut",
+                  "label": "future"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                },
+                {
+                  "id": "perf",
+                  "label": "perfect"
+                }
+              ]
+            },
+            {
+              "id": "voice",
+              "label": "Voice",
+              "options": [
+                {
+                  "id": "act",
+                  "label": "active"
+                },
+                {
+                  "id": "mid",
+                  "label": "middle"
+                },
+                {
+                  "id": "pass",
+                  "label": "passive"
+                }
+              ]
+            },
+            {
+              "id": "person",
+              "label": "Person and number",
+              "options": [
+                {
+                  "id": "1sg",
+                  "label": "1st singular"
+                },
+                {
+                  "id": "2sg",
+                  "label": "2nd singular"
+                },
+                {
+                  "id": "3sg",
+                  "label": "3rd singular"
+                },
+                {
+                  "id": "1pl",
+                  "label": "1st plural"
+                },
+                {
+                  "id": "3pl",
+                  "label": "3rd plural"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "aor",
+            "voice": "pass",
+            "person": "3pl"
+          },
+          "skills": [
+            "verb.aor.pass.ind.3pl"
+          ],
+          "explain": "ἐ-λύ-θη-σαν: aorist passive, 3rd plural, 'they were freed'.",
+          "audio": "ἐλύθησαν"
+        }
+      ],
+      "generate": {
+        "skills": [
+          "verb.fut.act.ind.3sg",
+          "verb.aor.pass.ind.3sg",
+          "verb.pres.act.subj.3sg",
+          "verb.pres.act.opt.3sg",
+          "verb.aor.act.opt.3sg",
+          "verb.perf.act.ind.3sg",
+          "verb.perf.mp.ind.3sg",
+          "verb.aor.pass.inf",
+          "verb.ptc.aor.act.gen",
+          "verb.ptc.aor.pass.gen",
+          "syntax.gen-abs",
+          "adj.comp"
+        ],
+        "n": 12,
+        "seed": 12
+      }
+    },
+    {
+      "id": "sentences",
+      "title": "Λόγοι · Sentences",
+      "items": [
+        {
+          "type": "cloze-choice",
+          "prompt": "ἐὰν ὁ Κῦρος ___, βασιλεύσει ἀντὶ τοῦ ἀδελφοῦ.",
+          "options": [
+            {
+              "id": "a",
+              "text": "νικήσῃ"
+            },
+            {
+              "id": "b",
+              "text": "ἐνίκησεν"
+            },
+            {
+              "id": "c",
+              "text": "νικήσειεν"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "syntax.cond.fmv"
+          ],
+          "explain": "ἐάν + subjunctive, future in the main clause: future more vivid."
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "εἰ μὴ ἡ μήτηρ αὐτὸν ἐξῃτήσατο, ὁ Κῦρος ἀπέθανεν ___.",
+          "options": [
+            {
+              "id": "a",
+              "text": "ἄν"
+            },
+            {
+              "id": "b",
+              "text": "ἐάν"
+            },
+            {
+              "id": "c",
+              "text": "ὅτι"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "syntax.cond.cf-past"
+          ],
+          "explain": "εἰ + aorist indicative, ἄν + aorist: 'if his mother had not begged him off, Cyrus would have died'."
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "εἴθε ὁ πόλεμος ___.",
+          "options": [
+            {
+              "id": "a",
+              "text": "παύσαιτο"
+            },
+            {
+              "id": "b",
+              "text": "παύεται"
+            },
+            {
+              "id": "c",
+              "text": "ἐπαύσατο"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "syntax.opt-wish"
+          ],
+          "explain": "εἴθε + optative: 'if only the war would stop!'."
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "ὁ Τισσαφέρνης ἔλεγεν ὅτι ὁ Κῦρος τῷ ἀδελφῷ ___.",
+          "options": [
+            {
+              "id": "a",
+              "text": "ἐπιβουλεύοι"
+            },
+            {
+              "id": "b",
+              "text": "ἐπιβουλεῦσαι"
+            },
+            {
+              "id": "c",
+              "text": "ἐπιβουλεύων"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "syntax.opt-indirect",
+            "syntax.indirect-hoti"
+          ],
+          "explain": "ὅτι + finite verb; after a past verb (ἔλεγεν) the optative may replace the indicative."
+        },
+        {
+          "type": "cloze-choice",
+          "prompt": "___ τοῦ Δαρείου, ὁ Ἀρταξέρξης βασιλεὺς ἐγένετο.",
+          "options": [
+            {
+              "id": "a",
+              "text": "τελευτήσαντος"
+            },
+            {
+              "id": "b",
+              "text": "τελευτήσας"
+            },
+            {
+              "id": "c",
+              "text": "τελευτήσαντα"
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "syntax.gen-abs"
+          ],
+          "explain": "Genitive absolute: 'when Darius had died'."
+        },
+        {
+          "type": "transform",
+          "prompt": "Report it after ἔφη: «ὁ Κῦρος φίλος ἐστίν.» → ὁ Τισσαφέρνης ἔφη τὸν Κῦρον φίλον ___.",
+          "template": "ὁ Τισσαφέρνης ἔφη τὸν Κῦρον φίλον ___.",
+          "gaps": [
+            {
+              "answers": [
+                "εἶναι"
+              ]
+            }
+          ],
+          "skills": [
+            "syntax.indirect-inf",
+            "verb.phemi"
+          ],
+          "explain": "φημί + accusative and infinitive: τὸν Κῦρον φίλον εἶναι."
+        },
+        {
+          "type": "reorder",
+          "prompt": "Put the words in order: 'The general ordered the soldiers to wait.'",
+          "tokens": [
+            "ὁ",
+            "στρατηγὸς",
+            "ἐκέλευσε",
+            "τοὺς",
+            "στρατιώτας",
+            "περιμεῖναι"
+          ],
+          "answers": [
+            "ὁ στρατηγὸς ἐκέλευσε τοὺς στρατιώτας περιμεῖναι",
+            "ὁ στρατηγὸς τοὺς στρατιώτας ἐκέλευσε περιμεῖναι",
+            "ὁ στρατηγὸς τοὺς στρατιώτας περιμεῖναι ἐκέλευσε",
+            "τοὺς στρατιώτας ὁ στρατηγὸς ἐκέλευσε περιμεῖναι",
+            "ἐκέλευσε τοὺς στρατιώτας ὁ στρατηγὸς περιμεῖναι"
+          ],
+          "skills": [
+            "syntax.infinitive",
+            "syntax.word-order"
+          ],
+          "explain": "κελεύω + accusative + infinitive."
+        },
+        {
+          "type": "compose-grc",
+          "prompt": "Write in Greek: 'Socrates asked where Polemarchus was.' (use the optative)",
+          "gaps": [
+            {
+              "answers": [
+                "ὁ Σωκράτης ἤρετο ὅπου ὁ Πολέμαρχος εἴη",
+                "ὁ Σωκράτης ἤρετο ὅπου εἴη ὁ Πολέμαρχος",
+                "ὁ Σωκράτης ἤρετο ποῦ ὁ Πολέμαρχος εἴη",
+                "ὁ Σωκράτης ἤρετο ποῦ εἴη ὁ Πολέμαρχος",
+                "ὁ Σωκράτης ἠρώτησε ὅπου ὁ Πολέμαρχος εἴη",
+                "ὁ Σωκράτης ἠρώτησε ὅπου εἴη ὁ Πολέμαρχος",
+                "ὁ Σωκράτης ἠρώτησε ποῦ ὁ Πολέμαρχος εἴη",
+                "ὁ Σωκράτης ἠρώτησε ποῦ εἴη ὁ Πολέμαρχος",
+                "ὁ Σωκράτης ἠρώτησεν ὅπου ὁ Πολέμαρχος εἴη",
+                "ὁ Σωκράτης ἠρώτησεν ὅπου εἴη ὁ Πολέμαρχος",
+                "ὁ Σωκράτης ἠρώτησεν ποῦ ὁ Πολέμαρχος εἴη",
+                "ὁ Σωκράτης ἠρώτησεν ποῦ εἴη ὁ Πολέμαρχος"
+              ]
+            }
+          ],
+          "skills": [
+            "syntax.indirect-question",
+            "syntax.opt-secondary"
+          ],
+          "explain": "ὁ Σωκράτης ἤρετο ὅπου ὁ Πολέμαρχος εἴη: an indirect question after a past verb, optative εἴη."
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "title": "Ἀνάγνωσις · Reading",
+      "passage_title": "Ξενοφῶν ὁ Ἀθηναῖος",
+      "passage_from": "xen-anab-3.1",
+      "passage_note": "Names: Ξενοφῶν Xenophon; Πρόξενος Proxenus, a Boeotian general with Cyrus and Xenophon's old guest-friend; Κῦρος Cyrus; Σωκράτης Socrates; Λακεδαιμόνιοι the Spartans; Ἀθῆναι Athens; Δελφοί Delphi, Apollo's oracle.",
+      "items": [
+        {
+          "type": "answer-grc",
+          "prompt": "τίς ἦν ὁ Ξενοφῶν;",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ἀθηναῖος, οὔτε στρατηγὸς οὔτε στρατιώτης."
+            },
+            {
+              "id": "b",
+              "text": "στρατηγὸς τῶν Λακεδαιμονίων."
+            },
+            {
+              "id": "c",
+              "text": "φίλος τοῦ βασιλέως Ἀρταξέρξου."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.unseen",
+            "read.xenophon"
+          ],
+          "explain": "ἦν δέ τις ἐν τῇ στρατιᾷ Ξενοφῶν Ἀθηναῖος, ὃς οὔτε στρατηγὸς οὔτε λοχαγὸς οὔτε στρατιώτης ὢν συνηκολούθει.",
+          "audio": "prompt"
+        },
+        {
+          "type": "answer-grc",
+          "prompt": "τίς τὸν Ξενοφῶντα οἴκοθεν μετεπέμψατο;",
+          "options": [
+            {
+              "id": "a",
+              "text": "ὁ Πρόξενος."
+            },
+            {
+              "id": "b",
+              "text": "ὁ Κῦρος."
+            },
+            {
+              "id": "c",
+              "text": "ὁ Σωκράτης."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.unseen",
+            "read.comprehension"
+          ],
+          "explain": "Πρόξενος αὐτὸν μετεπέμψατο οἴκοθεν.",
+          "audio": "prompt"
+        },
+        {
+          "type": "answer-grc",
+          "prompt": "τί ὑπισχνεῖτο ὁ Πρόξενος τῷ Ξενοφῶντι;",
+          "options": [
+            {
+              "id": "a",
+              "text": "φίλον αὐτὸν Κύρῳ ποιήσειν."
+            },
+            {
+              "id": "b",
+              "text": "στρατηγὸν αὐτὸν ποιήσειν."
+            },
+            {
+              "id": "c",
+              "text": "πολὺ ἀργύριον αὐτῷ δώσειν."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.unseen",
+            "syntax.indirect-inf"
+          ],
+          "explain": "ὑπισχνεῖτο … φίλον αὐτὸν Κύρῳ ποιήσειν: future infinitive after a verb of promising.",
+          "audio": "prompt"
+        },
+        {
+          "type": "answer-grc",
+          "prompt": "τίνι ἀνακοινοῦται ὁ Ξενοφῶν περὶ τῆς πορείας;",
+          "options": [
+            {
+              "id": "a",
+              "text": "Σωκράτει τῷ Ἀθηναίῳ."
+            },
+            {
+              "id": "b",
+              "text": "Προξένῳ."
+            },
+            {
+              "id": "c",
+              "text": "Κύρῳ."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.unseen",
+            "read.comprehension"
+          ],
+          "explain": "ἀνακοινοῦται Σωκράτει τῷ Ἀθηναίῳ περὶ τῆς πορείας.",
+          "audio": "prompt"
+        },
+        {
+          "type": "answer-grc",
+          "prompt": "ποῖ συμβουλεύει ὁ Σωκράτης τῷ Ξενοφῶντι ἐλθεῖν;",
+          "options": [
+            {
+              "id": "a",
+              "text": "εἰς Δελφούς."
+            },
+            {
+              "id": "b",
+              "text": "εἰς τὰς Ἀθήνας."
+            },
+            {
+              "id": "c",
+              "text": "πρὸς τὸν Κῦρον."
+            }
+          ],
+          "answer": "a",
+          "skills": [
+            "read.unseen",
+            "read.comprehension"
+          ],
+          "explain": "συμβουλεύει τῷ Ξενοφῶντι ἐλθόντα εἰς Δελφοὺς ἀνακοινῶσαι τῷ θεῷ.",
+          "audio": "prompt"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse ἔλθοι (in εἰ ἔλθοι).",
+          "form": "ἔλθοι",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "fut",
+                  "label": "future"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                },
+                {
+                  "id": "perf",
+                  "label": "perfect"
+                }
+              ]
+            },
+            {
+              "id": "mood",
+              "label": "Mood",
+              "options": [
+                {
+                  "id": "ind",
+                  "label": "indicative"
+                },
+                {
+                  "id": "subj",
+                  "label": "subjunctive"
+                },
+                {
+                  "id": "opt",
+                  "label": "optative"
+                },
+                {
+                  "id": "imp",
+                  "label": "imperative"
+                },
+                {
+                  "id": "inf",
+                  "label": "infinitive"
+                },
+                {
+                  "id": "ptc",
+                  "label": "participle"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "aor",
+            "mood": "opt"
+          },
+          "skills": [
+            "syntax.opt-indirect",
+            "verb.aor.act.opt.3sg"
+          ],
+          "explain": "Aorist optative: Proxenus' actual words were ἐὰν ἔλθῃς 'if you come'; reported after the past ὑπισχνεῖτο, ἐάν + subjunctive becomes εἰ + optative.",
+          "audio": "ἔλθοι"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse ἀναγνούς.",
+          "form": "ἀναγνούς",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "fut",
+                  "label": "future"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                },
+                {
+                  "id": "perf",
+                  "label": "perfect"
+                }
+              ]
+            },
+            {
+              "id": "mood",
+              "label": "Mood",
+              "options": [
+                {
+                  "id": "ind",
+                  "label": "indicative"
+                },
+                {
+                  "id": "subj",
+                  "label": "subjunctive"
+                },
+                {
+                  "id": "opt",
+                  "label": "optative"
+                },
+                {
+                  "id": "imp",
+                  "label": "imperative"
+                },
+                {
+                  "id": "inf",
+                  "label": "infinitive"
+                },
+                {
+                  "id": "ptc",
+                  "label": "participle"
+                }
+              ]
+            },
+            {
+              "id": "case",
+              "label": "Case",
+              "options": [
+                {
+                  "id": "nom",
+                  "label": "nominative"
+                },
+                {
+                  "id": "gen",
+                  "label": "genitive"
+                },
+                {
+                  "id": "dat",
+                  "label": "dative"
+                },
+                {
+                  "id": "acc",
+                  "label": "accusative"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "aor",
+            "mood": "ptc",
+            "case": "nom"
+          },
+          "skills": [
+            "verb.ptc.aor.act",
+            "verb.aor.root"
+          ],
+          "explain": "ἀνα-γνούς: aorist participle of ἀναγιγνώσκω (root aorist ἀνέγνων), nominative with ὁ Ξενοφῶν: 'having read'.",
+          "audio": "ἀναγνούς"
+        },
+        {
+          "type": "parse",
+          "prompt": "Parse μετεπέμψατο.",
+          "form": "μετεπέμψατο",
+          "groups": [
+            {
+              "id": "tense",
+              "label": "Tense",
+              "options": [
+                {
+                  "id": "pres",
+                  "label": "present"
+                },
+                {
+                  "id": "impf",
+                  "label": "imperfect"
+                },
+                {
+                  "id": "fut",
+                  "label": "future"
+                },
+                {
+                  "id": "aor",
+                  "label": "aorist"
+                },
+                {
+                  "id": "perf",
+                  "label": "perfect"
+                }
+              ]
+            },
+            {
+              "id": "voice",
+              "label": "Voice",
+              "options": [
+                {
+                  "id": "act",
+                  "label": "active"
+                },
+                {
+                  "id": "mid",
+                  "label": "middle"
+                },
+                {
+                  "id": "pass",
+                  "label": "passive"
+                }
+              ]
+            },
+            {
+              "id": "person",
+              "label": "Person and number",
+              "options": [
+                {
+                  "id": "1sg",
+                  "label": "1st singular"
+                },
+                {
+                  "id": "2sg",
+                  "label": "2nd singular"
+                },
+                {
+                  "id": "3sg",
+                  "label": "3rd singular"
+                },
+                {
+                  "id": "1pl",
+                  "label": "1st plural"
+                },
+                {
+                  "id": "3pl",
+                  "label": "3rd plural"
+                }
+              ]
+            }
+          ],
+          "answer": {
+            "tense": "aor",
+            "voice": "mid",
+            "person": "3sg"
+          },
+          "skills": [
+            "verb.augment.compound",
+            "verb.middle-meaning"
+          ],
+          "explain": "μετ-ε-πέμψ-ατο: aorist middle, 3rd singular, augment after the prefix; the middle 'sent for (to himself)'.",
+          "audio": "μετεπέμψατο"
+        },
+        {
+          "type": "translate-en",
+          "prompt": "Translate: ὁ μέντοι Ξενοφῶν ἀναγνοὺς τὴν ἐπιστολὴν ἀνακοινοῦται Σωκράτει τῷ Ἀθηναίῳ περὶ τῆς πορείας.",
+          "audio": "ὁ μέντοι Ξενοφῶν ἀναγνοὺς τὴν ἐπιστολὴν ἀνακοινοῦται Σωκράτει τῷ Ἀθηναίῳ περὶ τῆς πορείας.",
+          "model": "Xenophon, however, having read the letter, consults Socrates the Athenian about the journey.",
+          "skills": [
+            "read.unseen",
+            "read.xenophon"
+          ],
+          "explain": "ἀναγνούς 'having read'; ἀνακοινοῦται (historic present, middle) + dative 'consults, shares with'; περὶ τῆς πορείας 'about the journey'."
+        },
+        {
+          "type": "translate-en",
+          "prompt": "Translate: ὑπισχνεῖτο δὲ αὐτῷ, εἰ ἔλθοι, φίλον αὐτὸν Κύρῳ ποιήσειν.",
+          "audio": "ὑπισχνεῖτο δὲ αὐτῷ, εἰ ἔλθοι, φίλον αὐτὸν Κύρῳ ποιήσειν.",
+          "model": "He promised him that, if he came, he would make him a friend of Cyrus.",
+          "skills": [
+            "read.unseen",
+            "syntax.opt-indirect"
+          ],
+          "explain": "ὑπισχνεῖτο + future infinitive ποιήσειν; εἰ ἔλθοι is the reported 'if you come'."
+        },
+        {
+          "type": "translate-en",
+          "prompt": "Translate: συμβουλεύει τῷ Ξενοφῶντι ἐλθόντα εἰς Δελφοὺς ἀνακοινῶσαι τῷ θεῷ περὶ τῆς πορείας.",
+          "audio": "συμβουλεύει τῷ Ξενοφῶντι ἐλθόντα εἰς Δελφοὺς ἀνακοινῶσαι τῷ θεῷ περὶ τῆς πορείας.",
+          "model": "He advises Xenophon to go to Delphi and consult the god about the journey.",
+          "skills": [
+            "read.unseen",
+            "verb.ptc.summary"
+          ],
+          "explain": "συμβουλεύει + dative + infinitive ἀνακοινῶσαι; ἐλθόντα (accusative, subject of the infinitive) 'having gone': 'to go to Delphi and consult'."
+        }
+      ]
+    }
+  ]
+}
