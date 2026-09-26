@@ -28,7 +28,7 @@ export default function Picture({ image, size = "panel", caption = true, classNa
       {caption && size === "panel" && (
         <figcaption>
           <span lang="grc">{image.alt_grc}</span>
-          <span className="picBadge">{placeholder ? "image coming · CC" : image.license}</span>
+          {placeholder ? <span className="picBadge">image coming · CC</span> : <a className="picBadge" href="/course/credits" title={image.credit}>{image.license}</a>}
         </figcaption>
       )}
     </figure>
