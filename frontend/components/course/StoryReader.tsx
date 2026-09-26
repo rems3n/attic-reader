@@ -273,6 +273,7 @@ export default function StoryReader({ paragraphs, storyText, images, speed, show
       }
       pieces.push(
         <button key={k++} type="button" className={`storyWord ${g ? "glossed" : ""} ${lit ? "lit" : ""}`} lang="grc" aria-expanded={g ? gloss?.key === `${sIndex}-${w.start}` : undefined} onClick={() => {
+          if (window.getSelection()?.toString().trim()) return;
           if (g) setGloss(gloss?.key === `${sIndex}-${w.start}` ? null : { key: `${sIndex}-${w.start}`, gloss: g });
           else void speakWord(w.text.replace(/[.,;·!?«»]/g, ""));
         }}>

@@ -1016,3 +1016,18 @@ including the Home resume flow, navigation accessibility and offline playback.
 build and TypeScript passed, and course validation found 0 problems. All 24
 new-page screenshots at 390×844 and 1280×900 were visually reviewed and are
 saved losslessly under `docs/screenshots/f1/`. F1 is complete; F2 is next.
+
+## Greek selection definitions — 2026-09-26
+
+- Global nonmodal definition popup for native Greek text selection, including
+  the Greek editor. Desktop anchors near the selection; phones use a bottom
+  card above navigation. Debounced selection events support touch handles.
+- GET /api/lookup reuses the existing inflected-form index and returns all
+  candidate dictionary senses per word. Limit: 12 words / 240 characters.
+  Unknown words are explicit; multiple words are glossed, not translated.
+- Requests are cancelled when selections change; recent lookups are cached
+  and service-worker GET caching preserves previously loaded definitions offline.
+- Playback controls retain native selection and avoid playing while selected.
+- Verification: new API tests and TypeScript pass locally; selection browser
+  walk added to CI alongside existing regression suites. Physical iOS native
+  selection-menu behavior still merits device testing.

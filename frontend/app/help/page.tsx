@@ -48,6 +48,7 @@ export default function Help() {
       </section>
       <section className="card anchorTarget" id="reading">
         <h2>Read and listen</h2>
+        <p>Select a Greek word with your mouse, or press and hold then adjust the selection handles on your phone, to see English dictionary definitions. Select a short phrase to look up its words. Tap a dictionary headword for more details. Close the popup with × or Escape.</p>
         <p>
           Choose a passage in the Library, or{" "}
           <Link href="/library/new">add a text</Link> by pasting Greek or
