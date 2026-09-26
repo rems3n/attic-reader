@@ -165,7 +165,8 @@ def met_verify(ref: str) -> dict:
 
 def met_search(query: str) -> list[str]:
     q = urllib.parse.quote(query)
-    res = http_json(f"https://collectionapi.metmuseum.org/public/collection/v1/search?q={q}&hasImages=true&isPublicDomain=true")
+    # departmentId 13 = Greek and Roman Art: the course wants Greek objects only
+    res = http_json(f"https://collectionapi.metmuseum.org/public/collection/v1/search?departmentId=13&q={q}&hasImages=true&isPublicDomain=true")
     return [str(i) for i in (res.get("objectIDs") or [])[:40]]
 
 
@@ -188,7 +189,7 @@ def cma_verify(ref: str) -> dict:
 
 def cma_search(query: str) -> list[str]:
     q = urllib.parse.quote(query)
-    res = http_json(f"https://openaccess-api.clevelandart.org/api/artworks/?q={q}&cc0=1&has_image=1&limit=40")
+    res = http_json(f"https://openaccess-api.clevelandart.org/api/artworks/?q={q}&cc0=1&has_image=1&limit=40&department=Greek%20and%20Roman%20Art")
     return [str(d["id"]) for d in res.get("data", [])]
 
 

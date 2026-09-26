@@ -283,3 +283,37 @@ def test_drill_decl3_subgroups_and_deponent_middle():
     scope2 = scope + [e["id"] for e in data.all_entries() if e["lemma"] == "βούλομαι"]
     mp2 = generate(["verb.pres.mp.ind.3sg", "verb.pres.mp.inf"], 4, scope2, seed=1)
     assert mp2 and all(i["lemma"] == "βούλομαι" for i in mp2)
+
+
+def test_original_texts_load_from_course_and_library():
+    t = data.load_text("thuc-2.14")
+    assert t["author"] == "Thucydides" and len(t["sentences"]) >= 2
+    lib = data.load_text("xen-anab-1.1")  # a reading-library passage, segmented on load
+    assert lib["sentences"] and lib["sentences"][0].startswith("Δαρείου")
+    rec = data.original_record("apollod-1.9", note="n")
+    assert rec["note"] == "n" and rec["source"]["license"] == "CC BY-SA 4.0"
+    import pytest as _pytest
+
+    with _pytest.raises(data.CourseError):
+        data.load_text("../etc/passwd")
+    with _pytest.raises(data.CourseError):
+        data.load_text("no-such-text")
+
+
+def test_original_alignment_is_validated():
+    from app.course.validate import _validate_original
+
+    story = [{"sentences": [{"text": "α", "orig": [0]}, {"text": "β", "orig": [99]}]}]
+    problems = _validate_original("lesson x", {"original": {"text": "thuc-2.14"}, "story": story})
+    assert len(problems) == 1 and "out of range" in problems[0]
+    assert _validate_original("lesson x", {"story": story})  # orig without an original
+    assert _validate_original("lesson x", {"original": {"text": "nope"}, "story": []})
+    assert _validate_original("lesson x", {"original": {"text": "thuc-2.14"}, "story": [{"sentences": [{"text": "α", "orig": [0, 1]}]}]}) == []
+
+
+def test_test_passage_from_an_original(monkeypatch):
+    raw = {"id": "gate-x", "scope": "1.4", "pass_score": 0.8, "sections": [{"id": "reading", "title": "R", "passage_from": "xen-anab-3.1", "items": []}]}
+    monkeypatch.setattr(data, "load_test", lambda _id: raw)
+    out = data.resolve_test("gate-x", seed=1)
+    section = out["sections"][0]
+    assert section["passage"].startswith("ἦν δέ τις ἐν τῇ στρατιᾷ Ξενοφῶν") and section["passage_source"]["author"] == "Xenophon"
