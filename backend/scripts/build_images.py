@@ -5,6 +5,7 @@ This script turns a row in ``course_data/images/sources.csv`` (or a
 track's ``sources-<track>.csv``) into a real
 picture with a verified licence and fills the matching manifest record.
 
+    python scripts/build_images.py doctor            # can this machine reach each source? (doctor.json)
     python scripts/build_images.py report            # ids still without a row / a file
     python scripts/build_images.py resolve           # search:… refs → concrete object ids
     python scripts/build_images.py verify            # licence + image URL from the source API
@@ -66,6 +67,14 @@ PAD = 0.12
 MAX_BYTES = 60 * 1024
 WIDTHS = {"3:2": (900, 600), "1:1": (720, 720)}
 USER_AGENT = "attic-reader-image-pass/1 (https://github.com/rems3n/attic-reader)"
+# Museum image CDNs (the Met's) refuse unknown agents; Wikimedia asks for the
+# descriptive one above, so downloads choose by host.
+BROWSER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+
+
+def agent_for(url: str) -> str:
+    host = urllib.parse.urlparse(url).netloc
+    return USER_AGENT if host.endswith("wikimedia.org") or host.endswith("wikipedia.org") else BROWSER_AGENT
 
 ACCEPTED = re.compile(r"^(cc0( 1\.0)?|public domain|pd( [a-z0-9 ]+)?|cc by( sa)?( [1-4]\.0)?)$", re.I)
 
@@ -159,14 +168,28 @@ def _backoff(exc: Exception, attempt: int) -> float:
     return (10.0 if code in (403, 429) else 1.5) * (attempt + 1)
 
 
+_host_errors: dict[str, int] = {}
+HOST_DOWN_AFTER = 6  # consecutive failed calls before a host is skipped for the rest of the run
+
+
 def http_json(url: str, retries: int = 4) -> dict:
+    host = urllib.parse.urlparse(url).netloc
+    if _host_errors.get(host, 0) >= HOST_DOWN_AFTER:
+        raise RuntimeError(f"{host} unreachable this run (skipped after {HOST_DOWN_AFTER} failures; see doctor)")
     for attempt in range(retries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
             with urllib.request.urlopen(req, timeout=30) as resp:
-                return json.loads(resp.read().decode("utf-8"))
+                body = json.loads(resp.read().decode("utf-8"))
+                _host_errors[host] = 0
+                return body
         except Exception as exc:  # noqa: BLE001 — retry then raise
-            if attempt == retries - 1 or getattr(exc, "code", None) == 404:
+            if getattr(exc, "code", None) == 404:
+                raise
+            if attempt == retries - 1:
+                _host_errors[host] = _host_errors.get(host, 0) + 1
+                if _host_errors[host] == HOST_DOWN_AFTER:
+                    print(f"! {host}: {HOST_DOWN_AFTER} failed calls in a row ({exc}); skipping it for the rest of this run", flush=True)
                 raise
             time.sleep(_backoff(exc, attempt))
     raise RuntimeError("unreachable")
@@ -175,7 +198,7 @@ def http_json(url: str, retries: int = 4) -> dict:
 def http_bytes(url: str, retries: int = 4) -> bytes:
     for attempt in range(retries):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+            req = urllib.request.Request(url, headers={"User-Agent": agent_for(url)})
             with urllib.request.urlopen(req, timeout=60) as resp:
                 return resp.read()
         except Exception as exc:  # noqa: BLE001
@@ -316,6 +339,55 @@ SEARCHERS = {"met": met_search, "cma": cma_search, "aic": aic_search, "commons":
 
 
 # ------------------------------------------------------------------ commands
+
+DOCTOR = DATA / "doctor.json"
+PROBES = {
+    "met_api": "https://collectionapi.metmuseum.org/public/collection/v1/objects/248483",
+    "met_search": "https://collectionapi.metmuseum.org/public/collection/v1/search?departmentId=13&q=kylix&hasImages=true",
+    "met_image": "https://images.metmuseum.org/CRDImages/gr/original/DT281.jpg",
+    "cma_api": "https://openaccess-api.clevelandart.org/api/artworks/?q=kylix&limit=1&cc0=1",
+    "commons_api": "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=kylix&srnamespace=6&srlimit=2&format=json",
+}
+
+
+def cmd_doctor() -> int:
+    """Can this machine reach every source and write WebP? Writes doctor.json."""
+    import platform
+    import ssl
+
+    report: dict = {"python": sys.version.split()[0], "platform": platform.platform(), "openssl": ssl.OPENSSL_VERSION}
+    for name, url in PROBES.items():
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": agent_for(url) if "image" in name else USER_AGENT, "Accept": "*/*"})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                body = resp.read(4096)
+                report[name] = f"ok {resp.status} ({len(body)} bytes read)"
+        except Exception as exc:  # noqa: BLE001
+            report[name] = f"FAIL {type(exc).__name__}: {exc}"[:300]
+    # a real Commons search → licence check → image download, end to end
+    try:
+        hits = commons_search("Attic red-figure kylix")
+        report["commons_search"] = f"ok {len(hits)} hits"
+        info = next((i for i in (commons_verify(h) for h in hits[:10]) if i.get("ok")), None)
+        if not info:
+            report["commons_verify"] = "FAIL no hit with an accepted licence in the first 10"
+        else:
+            report["commons_verify"] = f"ok {info['license']} {info['title']}"[:200]
+            report["commons_image"] = f"ok {len(http_bytes(info['image_url'])) // 1024} KB"
+    except Exception as exc:  # noqa: BLE001
+        report.setdefault("commons_search", f"FAIL {type(exc).__name__}: {exc}"[:300])
+        report.setdefault("commons_image", f"FAIL {type(exc).__name__}: {exc}"[:300])
+    try:
+        from PIL import Image, features
+
+        report["pillow"] = f"ok {Image.__version__}, webp={'yes' if features.check('webp') else 'NO'}"
+    except Exception as exc:  # noqa: BLE001
+        report["pillow"] = f"FAIL {exc}"
+    for k, v in report.items():
+        print(f"{k:14} {v}")
+    save_json(DOCTOR, report)
+    return 0 if all(not str(v).startswith("FAIL") for v in report.values()) and "webp=NO" not in report.get("pillow", "") else 1
+
 
 def cmd_report(rows: list[dict]) -> int:
     records = manifest_records()
@@ -577,24 +649,32 @@ def cmd_manifest(rows: list[dict]) -> int:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("command", choices=["report", "resolve", "verify", "fetch", "process", "manifest", "all"])
+    ap.add_argument("command", choices=["doctor", "report", "resolve", "verify", "fetch", "process", "manifest", "all"])
     ap.add_argument("--only", nargs="*", help="image ids to limit the run to")
     ap.add_argument("--no-grade", action="store_true", help="skip the colour grade")
     ap.add_argument("--no-fallback", action="store_true", help="resolve: search only the row's own source with its full query")
     args = ap.parse_args()
+    if args.command == "doctor":
+        sys.exit(cmd_doctor())
     rows = read_sources(set(args.only) if args.only else None)
     if args.command == "report":
         sys.exit(cmd_report(rows))
     steps = {"resolve": lambda: cmd_resolve(rows, not args.no_fallback), "verify": lambda: cmd_verify(rows), "fetch": lambda: cmd_fetch(rows), "process": lambda: cmd_process(rows, not args.no_grade), "manifest": lambda: cmd_manifest(rows)}
-    if args.command == "all":
-        rc = 0
-        for name in ("resolve", "verify", "fetch", "process", "manifest"):
-            print(f"\n== {name}")
+    names = ("resolve", "verify", "fetch", "process", "manifest") if args.command == "all" else (args.command,)
+    rc = 0
+    try:
+        for name in names:
+            print(f"\n== {name}", flush=True)
             rc |= steps[name]()
+    except BaseException as exc:  # an interrupted or crashed run still records what failed
+        import traceback
+
+        traceback.print_exc()
+        for row in rows:
+            _failed.setdefault(row["id"], {"step": "crash", "reason": f"run stopped: {type(exc).__name__}: {exc}"[:300]}) if row["id"] not in load_json(VERIFIED, {}) else None
+        rc = 1
+    finally:
         write_failures(rows)
-        sys.exit(rc)
-    rc = steps[args.command]()
-    write_failures(rows)
     sys.exit(rc)
 
 

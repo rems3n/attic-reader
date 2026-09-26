@@ -6,8 +6,9 @@
 #
 # Pulls the latest sources, resolves only what is still missing (shorter
 # queries and other museums as fallbacks), downloads, crops, fills the
-# manifests, writes backend/app/course_data/images/failures.json, then commits
-# the pictures + manifests + failures.json and pushes, so the failures can be
+# manifests, writes backend/app/course_data/images/failures.json, doctor.json
+# (can this machine reach each source?) and last-run.log, then commits the
+# pictures + manifests + those reports and pushes, so the failures can be
 # fixed from the branch.
 set -uo pipefail
 
@@ -20,10 +21,14 @@ cd backend
 [ -d .venv ] && source .venv/bin/activate
 python -c "import PIL" 2>/dev/null || pip install -q pillow
 
+LOG=app/course_data/images/last-run.log
+echo "== doctor" | tee "$LOG"
+python scripts/build_images.py doctor 2>&1 | tee -a "$LOG"
+
 ONLY=()
 [ $# -gt 0 ] && ONLY=(--only "$@")
-python scripts/build_images.py all "${ONLY[@]}" 2>&1 | tee ../image-run.log
-python scripts/build_images.py report | tail -n 5
+python -u scripts/build_images.py all "${ONLY[@]}" 2>&1 | tee -a "$LOG"
+python scripts/build_images.py report 2>&1 | tail -n 5 | tee -a "$LOG"
 cd ..
 
 git add frontend/public/course/pics backend/app/course_data/images
@@ -31,5 +36,5 @@ if git diff --cached --quiet; then
   echo "Nothing new to commit."
 else
   git commit -qm "Images: local image pass (pictures, manifests, failures.json)"
-  git push -q origin "$BRANCH" && echo "Pushed. Failures are listed in backend/app/course_data/images/failures.json."
+  git push -q origin "$BRANCH" && echo "Pushed (pictures, failures.json, doctor.json, last-run.log)."
 fi

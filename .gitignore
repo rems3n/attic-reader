@@ -12,4 +12,3 @@ models/
 frontend/.next/
 *.egg-info/
 backend/.image-cache/
-image-run.log

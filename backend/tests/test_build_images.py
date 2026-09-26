@@ -132,3 +132,22 @@ def test_failures_file_keeps_only_what_still_fails(tmp_path, monkeypatch):
     out = bi.load_json(bi.FAILURES, {})
     assert set(out) == {"bad", "not-in-run"}
     assert out["bad"] == {"step": "resolve", "reason": "no hit", "source": "commons", "ref": "search:q|p"}
+
+
+def test_unreachable_host_is_skipped_after_repeated_failures(monkeypatch):
+    calls = []
+
+    def boom(req, timeout):
+        calls.append(req.full_url)
+        raise OSError("tunnel refused")
+
+    monkeypatch.setattr(bi.urllib.request, "urlopen", boom)
+    monkeypatch.setattr(bi.time, "sleep", lambda s: None)
+    monkeypatch.setattr(bi, "_host_errors", {})
+    for _ in range(bi.HOST_DOWN_AFTER):
+        with pytest.raises(OSError):
+            bi.http_json("https://example.org/api")
+    n = len(calls)
+    with pytest.raises(RuntimeError, match="unreachable"):
+        bi.http_json("https://example.org/api")
+    assert len(calls) == n  # no further network calls
