@@ -24,7 +24,8 @@ from .forms import (
     describe_cell,
 )
 
-NOUN_RE = re.compile(r"^noun\.decl([123])\.(nom|gen|dat|acc|voc)\.(sg|pl)$")
+NOUN_RE = re.compile(r"^noun\.decl([123])(?:\.(cons|sigma|iota|eus))?\.(nom|gen|dat|acc|voc)\.(sg|pl)$")
+NOUN_NUM_RE = re.compile(r"^noun\.decl([123])(?:\.(cons|sigma|iota|eus))?\.(sg|pl)$")  # e.g. noun.decl3.cons.pl: any case of that number
 ART_RE = re.compile(r"^art\.(nom|gen|dat|acc)\.(sg|pl)$")
 VERB_RE = re.compile(r"^verb\.(pres|impf|aor|fut)\.(act|mp|mid|pass)\.(ind|imp|subj|opt)\.([123](?:sg|pl))$")
 EIMI_RE = re.compile(r"^verb\.eimi\.(pres|impf|fut)\.(ind|imp)\.([123](?:sg|pl))$")
@@ -156,14 +157,19 @@ def _choice(item_id: str, entry: dict, cell: str, skill: str, rng: random.Random
 
 def _plan_for_skill(skill: str, scope_ids: list[str]) -> list[tuple[dict, str]]:
     """(entry, cell) candidates for a skill id, or [] when unsupported."""
-    m = NOUN_RE.match(skill)
+    m = NOUN_RE.match(skill) or NOUN_NUM_RE.match(skill)
     if m:
-        decl, case, num = m.groups()
+        groups = m.groups()
+        decl, sub = groups[0], groups[1]
+        cases = (groups[2],) if len(groups) == 4 else ("nom", "gen", "dat", "acc")
+        num = groups[-1]
+        subclasses = (f"noun-3-{sub}",) if sub else DECL_SUBCLASS[decl]
         out = []
-        for e in _entries(scope_ids, "noun", DECL_SUBCLASS[decl]):
-            cell = f"{case}.{num}"
-            if cell_forms(e, cell):
-                out.append((e, cell))
+        for e in _entries(scope_ids, "noun", subclasses):
+            for case in cases:
+                cell = f"{case}.{num}"
+                if cell_forms(e, cell):
+                    out.append((e, cell))
         return out
     m = ART_RE.match(skill)
     if m:
@@ -186,21 +192,23 @@ def _plan_for_skill(skill: str, scope_ids: list[str]) -> list[tuple[dict, str]]:
     if m:
         tense, voice, mood, tag = m.groups()
         out = []
-        for e in _entries(scope_ids, "verb"):
-            if e["lemma"] == "εἰμί":
-                continue
-            cell = f"{TENSE[tense]}.{VOICE[voice]}.{MOOD[mood]}.{tag}"
-            if cell_forms(e, cell):
-                out.append((e, cell))
+        for e in _verbs_for_voice(scope_ids, voice):
+            for v in _voice_names(voice):
+                cell = f"{TENSE[tense]}.{v}.{MOOD[mood]}.{tag}"
+                if cell_forms(e, cell):
+                    out.append((e, cell))
+                    break
         return out
     m = INF_RE.match(skill)
     if m:
         tense, voice = m.groups()
         out = []
-        for e in _entries(scope_ids, "verb"):
-            cell = f"{TENSE[tense]}.{VOICE[voice]}.infinitive.inf"
-            if cell_forms(e, cell):
-                out.append((e, cell))
+        for e in _verbs_for_voice(scope_ids, voice):
+            for v in _voice_names(voice):
+                cell = f"{TENSE[tense]}.{v}.infinitive.inf"
+                if cell_forms(e, cell):
+                    out.append((e, cell))
+                    break
         return out
     if skill == "adj.agree":
         out = []
@@ -212,8 +220,30 @@ def _plan_for_skill(skill: str, scope_ids: list[str]) -> list[tuple[dict, str]]:
     return []
 
 
+def _voice_names(voice: str) -> tuple[str, ...]:
+    """Table voice labels to try for a skill voice: a deponent's present is
+    filed under "middle", an active verb's under "middle/passive"."""
+    if voice == "mp":
+        return ("middle/passive", "middle")
+    if voice == "mid":
+        return ("middle", "middle/passive")
+    return (VOICE[voice],)
+
+
+def _verbs_for_voice(scope_ids: list[str], voice: str) -> list[dict]:
+    """Verbs to drill in a voice: for middle/passive skills, the deponents in
+    scope when there are any (a learner meets βούλομαι before ἐσθίομαι),
+    otherwise every verb that has the form. εἰμί has its own skills."""
+    verbs = [e for e in _entries(scope_ids, "verb") if e["lemma"] != "εἰμί"]
+    if voice in ("mp", "mid"):
+        deponents = [e for e in verbs if e["subclass"] == "verb-deponent"]
+        if deponents:
+            return deponents
+    return verbs
+
+
 def supported(skill: str) -> bool:
-    return bool(NOUN_RE.match(skill) or ART_RE.match(skill) or EIMI_RE.match(skill) or VERB_RE.match(skill) or INF_RE.match(skill) or skill == "adj.agree")
+    return bool(NOUN_RE.match(skill) or NOUN_NUM_RE.match(skill) or ART_RE.match(skill) or EIMI_RE.match(skill) or VERB_RE.match(skill) or INF_RE.match(skill) or skill == "adj.agree")
 
 
 def generate(skills: list[str], n: int, scope_ids: list[str], seed: int = 0, prefix: str = "drill") -> list[dict]:

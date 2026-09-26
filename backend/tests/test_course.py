@@ -256,3 +256,21 @@ def test_course_prerender_plan(fake_kokoro):
     assert len(jobs) > 200
     speeds = {j[0] for j in jobs}
     assert speeds == {0.75, 0.6}
+
+
+def test_drill_decl3_subgroups_and_deponent_middle():
+    from app.course.drill import generate, supported
+
+    scope = data.vocab_scope("1.4")
+    assert supported("noun.decl3.cons.pl") and supported("noun.decl3.cons.gen.sg")
+    items = generate(["noun.decl3.cons.gen.sg"], 4, scope, seed=1)
+    assert items and all(data.entry_by_id(next(e["id"] for e in data.all_entries() if e["lemma"] == i["lemma"]))["subclass"] == "noun-3-cons" for i in items)
+    plural = generate(["noun.decl3.cons.pl"], 6, scope, seed=1)
+    assert plural and all(i["cell"].endswith(".pl") for i in plural)
+    # middle skills: active verbs' middle/passive when no deponent is in scope …
+    mp = generate(["verb.pres.mp.ind.3sg"], 3, scope, seed=1)
+    assert mp and all("middle" in i["cell"] for i in mp)
+    # … and deponents only once one has been taught
+    scope2 = scope + [e["id"] for e in data.all_entries() if e["lemma"] == "βούλομαι"]
+    mp2 = generate(["verb.pres.mp.ind.3sg", "verb.pres.mp.inf"], 4, scope2, seed=1)
+    assert mp2 and all(i["lemma"] == "βούλομαι" for i in mp2)
