@@ -38,7 +38,7 @@ export default function CourseHome() {
   const streak = streakDays(cp, now);
   const todayMinutes = cp.activity.find((a) => a.day === new Date(now).toISOString().slice(0, 10))?.minutes ?? 0;
 
-  if (error) return <PageError message={error} back={{ href: "/", label: "Open the Reader instead" }} />;
+  if (error) return <PageError message={error} back={{ href: "/library", label: "Open the Library instead" }} />;
   if (!course) return <PageLoading label="Loading the course…" />;
 
   const continueLesson = continueId ? findLesson(course, continueId) : null;

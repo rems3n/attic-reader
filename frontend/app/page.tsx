@@ -16,6 +16,7 @@ import { emptyProgress, loadProgress, streakDays } from "../lib/progress";
 import {
   hasLearningProgress,
   weeklyMinutes,
+  weeklyWords,
   wordCounts,
 } from "../lib/dashboard";
 import { mistakeCount } from "../lib/skills";
@@ -151,7 +152,7 @@ export default function Home() {
           <span className="statLabel">Known words</span>
           <strong className="statValue">{words.known}</strong>
           <span className="small muted">
-            {words.learning} learning · recognition interval ≥ 7 days
+            {words.learning} learning · review interval ≥ 21 days
           </span>
         </div>
         <div className="statTile">
@@ -170,6 +171,17 @@ export default function Home() {
           </span>
         </div>
       </div>
+      <section className="card">
+        <h2>Weekly word goal</h2>
+        <p>
+          <strong>
+            {weeklyWords(progress)} / {cp.goal.wordsPerWeek ?? 25}
+          </strong>{" "}
+          different words reviewed this week.
+        </p>
+        <Link href="/words">Review words</Link> ·{" "}
+        <Link href="/settings">Change goal</Link>
+      </section>
       <div className="dashboardGrid">
         <section className="card">
           <p className="eyebrow">CONTINUE</p>

@@ -81,9 +81,34 @@ export default function Settings() {
                 course: {
                   ...p.course,
                   goal: {
+                    ...p.course.goal,
                     minutesPerDay: Math.max(
                       1,
                       Math.min(120, Number(e.target.value) || 1),
+                    ),
+                  },
+                },
+              })
+            }
+          />
+        </label>
+        <label>
+          Weekly word goal
+          <input
+            type="number"
+            min="1"
+            max="500"
+            value={p.course.goal.wordsPerWeek ?? 25}
+            onChange={(e) =>
+              setP({
+                ...p,
+                course: {
+                  ...p.course,
+                  goal: {
+                    ...p.course.goal,
+                    wordsPerWeek: Math.max(
+                      1,
+                      Math.min(500, Number(e.target.value) || 1),
                     ),
                   },
                 },

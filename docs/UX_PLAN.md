@@ -359,7 +359,7 @@ Assimil-style active wave, a letters game for Stage 0.
   not infer mastery of untested units. Full placement remains available.
 - F1 Settings exposes existing guest preferences and backup. Account
   controls are introduced in F2, without inactive sign-in buttons in F1.
-- Known words require an established recognition interval (7+ days); the
+- Known words require an established review interval (21+ days); the
   counter does not count every card direction or first review as a word.
 - Browser validation is a release gate: `.github/workflows/verify.yml`
   captures mobile/desktop screenshots and runs all migrated browser walks.

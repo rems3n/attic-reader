@@ -1,16 +1,15 @@
 import type { Progress } from "./progress";
 import { today } from "./progress";
 
-/** Count lemmas, not card directions. Known means a recognition interval of at least 7 days. */
+/** Count lemmas, not card directions. Known means an interval of at least 21 days. */
 export function wordCounts(p: Progress) {
   const studied = new Set<string>();
   const known = new Set<string>();
   for (const [key, c] of Object.entries(p.cards)) {
     if (!c.updated) continue;
-    const [id, direction] = key.split(":");
+    const [id] = key.split(":");
     studied.add(id);
-    if (direction === "recognition" && c.interval >= 7 && c.reps > 0)
-      known.add(id);
+    if (c.interval >= 21 && c.reps > 0) known.add(id);
   }
   return { known: known.size, learning: studied.size - known.size };
 }
@@ -33,4 +32,17 @@ export function weeklyMinutes(p: Progress, now = Date.now()) {
       .filter((a) => a.day >= start && a.day <= end)
       .reduce((sum, a) => sum + a.minutes, 0),
   );
+}
+
+/** Unique words reviewed this week, across all card directions. */
+export function weeklyWords(p: Progress, now = Date.now()) {
+  const d = new Date(now);
+  d.setUTCHours(0, 0, 0, 0);
+  d.setUTCDate(d.getUTCDate() - ((d.getUTCDay() + 6) % 7));
+  const ids = new Set<string>();
+  for (const [key, card] of Object.entries(p.cards)) {
+    if (card.updated >= d.getTime() && card.updated <= now)
+      ids.add(key.split(":")[0]);
+  }
+  return ids.size;
 }

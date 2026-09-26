@@ -46,7 +46,8 @@ jobs:
           npx tsc --noEmit -p .
           npx vitest run
           npm run build
-      - name: Browser regressions
+      - name: Start test services
+        id: services
         run: |
           mkdir -p "$E2E_SHOTS"
           python backend/scripts/e2e/fake_server.py > /tmp/api.log 2>&1 &
@@ -63,13 +64,51 @@ jobs:
               else:
                   raise RuntimeError(f'{url} did not start')
           PY
-          cd backend
-          failed=0
-          for walk in shell course placement stage1 stage2 tracks skills nav offline; do
-            python "scripts/e2e/e2e_${walk}.py" > "$E2E_SHOTS/${walk}.log" 2>&1 || failed=1
-            cat "$E2E_SHOTS/${walk}.log"
-          done
-          exit "$failed"
+      - name: Browser — shell
+        if: ${{ !cancelled() && steps.services.outcome == 'success' }}
+        working-directory: backend
+        timeout-minutes: 6
+        run: python scripts/e2e/e2e_shell.py 2>&1 | tee "$E2E_SHOTS/shell.log"
+      - name: Browser — course
+        if: ${{ !cancelled() && steps.services.outcome == 'success' }}
+        working-directory: backend
+        timeout-minutes: 6
+        run: python scripts/e2e/e2e_course.py 2>&1 | tee "$E2E_SHOTS/course.log"
+      - name: Browser — placement
+        if: ${{ !cancelled() && steps.services.outcome == 'success' }}
+        working-directory: backend
+        timeout-minutes: 6
+        run: python scripts/e2e/e2e_placement.py 2>&1 | tee "$E2E_SHOTS/placement.log"
+      - name: Browser — stage1
+        if: ${{ !cancelled() && steps.services.outcome == 'success' }}
+        working-directory: backend
+        timeout-minutes: 6
+        run: python scripts/e2e/e2e_stage1.py 2>&1 | tee "$E2E_SHOTS/stage1.log"
+      - name: Browser — stage2
+        if: ${{ !cancelled() && steps.services.outcome == 'success' }}
+        working-directory: backend
+        timeout-minutes: 6
+        run: python scripts/e2e/e2e_stage2.py 2>&1 | tee "$E2E_SHOTS/stage2.log"
+      - name: Browser — tracks
+        if: ${{ !cancelled() && steps.services.outcome == 'success' }}
+        working-directory: backend
+        timeout-minutes: 6
+        run: python scripts/e2e/e2e_tracks.py 2>&1 | tee "$E2E_SHOTS/tracks.log"
+      - name: Browser — skills
+        if: ${{ !cancelled() && steps.services.outcome == 'success' }}
+        working-directory: backend
+        timeout-minutes: 6
+        run: python scripts/e2e/e2e_skills.py 2>&1 | tee "$E2E_SHOTS/skills.log"
+      - name: Browser — nav
+        if: ${{ !cancelled() && steps.services.outcome == 'success' }}
+        working-directory: backend
+        timeout-minutes: 10
+        run: python scripts/e2e/e2e_nav.py 2>&1 | tee "$E2E_SHOTS/nav.log"
+      - name: Browser — offline
+        if: ${{ !cancelled() && steps.services.outcome == 'success' }}
+        working-directory: backend
+        timeout-minutes: 10
+        run: python scripts/e2e/e2e_offline.py 2>&1 | tee "$E2E_SHOTS/offline.log"
       - name: Save screenshots and browser reports
         if: always()
         uses: actions/upload-artifact@v4

@@ -979,8 +979,9 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   Retained the Reader theme and labelled navigation at small desktop sizes.
 - Home now explains the app for new visitors and shows actual course,
   vocabulary, weekly-goal, and continue data for returning guests. Known
-  words count unique lemmas with a recognition interval of at least 7 days;
-  first-time reviews are learning, not known. Weekly minutes follow the
+  words count unique lemmas with a review interval of at least 21 days;
+  first-time reviews are learning, not known. Home and Progress also show
+  a configurable weekly goal in unique words reviewed. Weekly minutes follow the
   existing UTC activity-day convention and count course activity only.
 - Moved `/course` to `/learn`, `/vocab` to `/words`, skills to `/progress`,
   review to `/practice/review`, and the old Reader to `/library`. Old URLs
@@ -996,7 +997,7 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
 - Shared session summary used after lesson checks, unit tests, and decks.
   Full Library redesign, accounts, and the remaining hubs stay in F2–F6.
 - Local verification: 654 backend tests passed, 5 skipped; course validator
-  0 problems; 129 frontend tests passed; TypeScript and production build
+  0 problems; 130 frontend tests passed; TypeScript and production build
   passed. The local environment forbids Chromium's startup sockets, and
   expanded execution permissions were rejected, so browser QA/screenshots
   have NOT been claimed as passed. Added `e2e_shell.py`, migrated existing

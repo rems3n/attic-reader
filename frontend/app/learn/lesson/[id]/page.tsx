@@ -52,6 +52,7 @@ export default function LessonPage() {
   const [quizResult, setQuizResult] = useState<{ score: number; outcomes: Outcome[] } | null>(null);
   const [exerciseSummary, setExerciseSummary] = useState<{ score: number } | null>(null);
   const startedAt = useRef(Date.now());
+  const initialProgress = useRef(progress);
   const stepHeading = useRef<HTMLHeadingElement | null>(null);
   const { play, busy } = useSpeaker(speed);
   const showEnglish = progress.settings.showEnglish;
@@ -65,6 +66,7 @@ export default function LessonPage() {
     getCourse().then(setCourse).catch(() => setCourse(null));
     getCourseImages().then(setImages).catch(() => setImages([]));
     const stored = loadProgress();
+    initialProgress.current = stored;
     const fromQuery = Number(search.get("step"));
     const saved = stored.course.lessons[id]?.step;
     setStep(Number.isFinite(fromQuery) && search.get("step") ? fromQuery : saved ?? 0);
@@ -325,7 +327,7 @@ export default function LessonPage() {
           {quizResult ? (
             <div className="stepDone">
               <ResultScore>{Math.round(quizResult.score * 100)} %</ResultScore>
-              <SessionSummary title={quizResult.score >= PASS ? "Lesson complete" : "Lesson check complete"} reviewed={quizResult.outcomes.length} correct={quizResult.outcomes.filter((o) => o.result.correct).length} />
+              <SessionSummary before={initialProgress.current} progress={progress} minutes={Math.min(60, (Date.now() - startedAt.current) / 60000)} wordsMet={lesson.vocab.length} title={quizResult.score >= PASS ? "Lesson complete" : "Lesson check complete"} reviewed={quizResult.outcomes.length} correct={quizResult.outcomes.filter((o) => o.result.correct).length} />
               <p className={quizResult.score >= PASS ? "ok" : "warnText"}>{quizResult.score >= PASS ? "Lesson complete." : `Not yet: ${Math.round(PASS * 100)} % needed. Look at the misses and try again.`}</p>
               {quizResult.outcomes.some((o) => !o.result.correct) && (
                 <ul className="missList">

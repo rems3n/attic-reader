@@ -1,4 +1,5 @@
 "use client";
+import { wordCounts, weeklyWords } from "../../lib/dashboard";
 
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -69,6 +70,8 @@ export default function SkillsPage() {
         <h1>Your skills</h1>
         <p className="lede">Every form and construction the course teaches, one square each. Tap a square to see how it is going, where it is taught and to practise it.</p>
       </section>
+
+      <section className="card"><h2>Words</h2><p>{wordCounts(progress).known} known · {wordCounts(progress).learning} learning</p><p>Weekly word goal: {weeklyWords(progress)} / {progress.course.goal.wordsPerWeek ?? 25} different words reviewed.</p><Link href="/words">Review vocabulary →</Link></section>
 
       <section className={`card ${styles.summary}`} aria-label="Legend">
         <ul className={styles.legend}>

@@ -4,7 +4,7 @@ Uses the fake voice server and built frontend. Saves screenshots at both require
 import os
 from pathlib import Path
 from playwright.sync_api import sync_playwright, expect
-from e2e_course import FRONT, CHROME
+from e2e_course import FRONT, CHROME, api
 from e2e_stage2 import route_fonts
 
 SHOTS = Path(os.environ.get("E2E_SHOTS", "../docs/screenshots/f1"))
@@ -53,6 +53,19 @@ with sync_playwright() as p:
         for old, new in [("/course?x=1","/learn?x=1"),("/course/review?mode=mistakes","/practice/review?mode=mistakes"),("/course/skills","/progress"),("/vocab","/words")]:
             page.goto(FRONT + old)
             expect(page).to_have_url(FRONT + new)
+        # A one-card Quick session starts immediately and ends in the shared summary.
+        word = api("/api/vocab")["items"][0]["id"]
+        page.evaluate("""() => { const p = JSON.parse(localStorage.getItem('attic.srs.v1')); p.settings.direction = 'grc-en'; p.settings.cardTypes = []; localStorage.setItem('attic.srs.v1', JSON.stringify(p)); }""")
+        page.goto(FRONT + f"/words?words={word}&quick=1")
+        expect(page.locator(".flashcard")).to_be_visible(timeout=30000)
+        expect(page.locator(".quickTimer")).to_be_visible()
+        page.get_by_role("button", name="Show answer", exact=True).click()
+        page.get_by_role("button", name="Easy", exact=True).click()
+        expect(page.locator(".sessionSummary")).to_be_visible()
+        page.screenshot(path=str(SHOTS / f"{label}-session-summary.png"), full_page=True)
+        reading = api("/api/library")["items"][0]["id"]
+        page.goto(FRONT + f"/?reading={reading}&sentence=0")
+        expect(page).to_have_url(FRONT + f"/library?reading={reading}&sentence=0")
         page.goto(FRONT + "/start")
         page.get_by_role("radio", name="Read and listen").check()
         page.get_by_role("link", name="Continue", exact=True).click()

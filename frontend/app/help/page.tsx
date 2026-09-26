@@ -41,8 +41,8 @@ export default function Help() {
         <p>
           Practice offers weak-skill drills and a mistakes review. Mistakes
           leave the review deck after two correct answers in a row. The Home
-          counter counts a word as known when its recognition card has a review
-          interval of at least seven days.
+          counter counts a word as known when a card has a review
+          interval of at least 21 days.
         </p>
         <Link href="/practice">Open Practice →</Link>
       </section>

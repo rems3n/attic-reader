@@ -3,7 +3,7 @@ import SessionSummary from "../../../../components/SessionSummary";
 
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { useEffect, useMemo, useState } from "react";
+import { useRef, useEffect, useMemo, useState } from "react";
 import ExerciseRunner, { type Outcome } from "../../../../components/course/ExerciseRunner";
 import { SpeakButton, useSpeaker } from "../../../../components/Speak";
 import Crumbs, { type Crumb } from "../../../../components/Crumbs";
@@ -25,6 +25,7 @@ export default function TestPage() {
   const [phase, setPhase] = useState<Phase>("intro");
   const [outcomes, setOutcomes] = useState<Outcome[]>([]);
   const [startedAt, setStartedAt] = useState(0);
+  const initialProgress = useRef(progress);
   const { play, busy } = useSpeaker();
   const stored = progress.course.tests[id];
   const attempt = (stored?.attempts.length ?? 0) + 1;
@@ -134,7 +135,7 @@ export default function TestPage() {
         <h1 className="srOnly">{test.title_en}: result</h1>
         <p className="eyebrow">{passed ? "PASSED" : "NOT YET"}</p>
         <ResultScore>{Math.round(score * 100)} %</ResultScore>
-        <SessionSummary title={passed ? "Test passed" : "Test complete"} reviewed={outcomes.length} correct={outcomes.filter((o) => o.result.correct).length} />
+        <SessionSummary before={initialProgress.current} progress={progress} minutes={Math.min(60, (Date.now() - startedAt) / 60000)} title={passed ? "Test passed" : "Test complete"} reviewed={outcomes.length} correct={outcomes.filter((o) => o.result.correct).length} />
         <ul className="testMeta">
           {test.sections.map((s) => {
             const outs = outcomes.filter((o) => (o.item as Item & { _section?: string })._section === s.id);

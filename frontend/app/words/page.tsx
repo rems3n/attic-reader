@@ -159,6 +159,10 @@ export default function VocabPage() {
   const [showWords, setShowWords] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
   const [mode, setMode] = useState<Mode>("build");
+  const [quick, setQuick] = useState(false);
+  const quickStarted = useRef(false);
+  const sessionStarted = useRef(Date.now());
+  const initialProgress = useRef(progress);
   const [queue, setQueue] = useState<Prompt[]>([]);
   const [pos, setPos] = useState(0);
   const [flipped, setFlipped] = useState(false);
@@ -190,6 +194,7 @@ export default function VocabPage() {
   useEffect(() => {
     const q = new URLSearchParams(window.location.search);
     const words = q.get("words");
+    setQuick(q.get("quick") === "1");
     if (words) setOnly({ ids: new Set(words.split(",").filter(Boolean)), from: q.get("from") ?? "a list" });
   }, []);
 
@@ -260,18 +265,29 @@ export default function VocabPage() {
   function startSession() {
     const now = Date.now();
     const byKey = new Map(keys.map((k) => [k.key, k]));
-    const { due, fresh } = pickSession(keys.map((k) => k.key), progress.cards, now, sessionSize);
+    const { due, fresh } = pickSession(keys.map((k) => k.key), progress.cards, now, quick ? Math.min(10, sessionSize) : sessionSize);
     const prompts: Prompt[] = shuffleSession([
       ...due.map((k) => ({ ...byKey.get(k)!, fresh: false })),
       ...fresh.map((k) => ({ ...byKey.get(k)!, fresh: true })),
     ]);
     if (!prompts.length) return;
+    initialProgress.current = progress;
+    sessionStarted.current = now;
     setQueue(prompts);
     setPos(0);
     setStats({ reviewed: 0, again: 0 });
     setMode("study");
     void prepare(prompts[0]);
   }
+
+  // Quick sessions open directly on the first card after the requested deck loads.
+  useEffect(() => {
+    if (!quick || !index || !only || !keys.length || quickStarted.current) return;
+    quickStarted.current = true;
+    startSession();
+    // The deck is loaded once; subsequent ratings must not restart the session.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [quick, index, only, keys.length]);
 
   function answer(q: Grade) {
     const current = queue[pos];
@@ -287,7 +303,7 @@ export default function VocabPage() {
     if (q === 0) rest.push({ ...current, fresh: false }); // see it again this session
     const nextPos = pos + 1;
     setQueue(rest);
-    if (nextPos >= rest.length) {
+    if (nextPos >= rest.length || (quick && now - sessionStarted.current >= 300000)) {
       setMode("done");
       return;
     }
@@ -328,7 +344,7 @@ export default function VocabPage() {
     }
   }
 
-  if (error) return <PageError message={error} back={{ href: "/", label: "Open the Reader instead" }} />;
+  if (error) return <PageError message={error} back={{ href: "/library", label: "Open the Library instead" }} />;
   if (!index) return <PageLoading label="Loading vocabulary…" />;
 
   // ------------------------------------------------------------------ study
@@ -463,7 +479,7 @@ export default function VocabPage() {
       <main className="shell">
         <section className="card">
           <h1 className="pageTitle">Session done</h1>
-          <SessionSummary reviewed={stats.reviewed}><p>{stats.again} cards marked “again”.</p></SessionSummary>
+          <SessionSummary before={initialProgress.current} progress={progress} minutes={Math.min(60, (Date.now() - sessionStarted.current) / 60000)} reviewed={stats.reviewed}><p>{stats.reviewed - stats.again} recalled (self-rated); {stats.again} cards marked “again”.</p></SessionSummary>
           <div className="actions">
             <button type="button" className="primary" onClick={startSession}>Study more</button>
             <button type="button" className="secondary" onClick={() => setMode("build")}>Back to deck</button>
