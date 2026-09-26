@@ -1,0 +1,1577 @@
+{
+ "id": "11.1",
+ "title_grc": "ἡ δίκη",
+ "title_en": "The lawsuit",
+ "summary_grc": "ὁ γείτων δίκην τῷ Δημοκρίτῳ λαγχάνει· «ὁ ἄρχων τὴν δίκην ἀκουέτω.»",
+ "summary_en": "Summer 429. A neighbour sues Demokritos over a boundary stone and an olive tree. Commands to a third person ('let him hear!'), verbal adjectives in -τός and -τέος ('possible', 'must be done'), and the opening of a real Athenian defence speech by Lysias.",
+ "cover": "panel-11-1-a",
+ "caption_grc": "«ὁ ἄρχων τὴν δίκην ἀκουέτω.» — «σοὶ αὐτῷ λεκτέον ἐστίν.»",
+ "names": {
+  "Ἀντίμαχος": [
+   "Ἀντιμάχου",
+   "Ἀντιμάχῳ",
+   "Ἀντίμαχον",
+   "Ἀντίμαχε"
+  ],
+  "Εὐφίλητος": [
+   "Εὐφιλήτου",
+   "Εὐφιλήτῳ",
+   "Εὐφίλητον",
+   "Εὐφίλητε"
+  ],
+  "Πλάταια": [
+   "Πλαταίας",
+   "Πλαταίᾳ",
+   "Πλάταιαν"
+  ]
+ },
+ "allow": {
+  "θαυμάζει": "unit 7",
+  "ὑπὲρ": "unit 7",
+  "παρέστω": "unit 7",
+  "ἐκίνησας": "unit 9",
+  "οὐκέτι": "unit 9",
+  "ὀρθὸς": "unit 9",
+  "τοσούτοις": "unit 9",
+  "παρέδωκα": "unit 9",
+  "ἀποθανοῦσα": "unit 9",
+  "πρᾶγμα": "unit 10",
+  "πράγματα": "unit 10",
+  "ἀρχῆς": "unit 10",
+  "οὕτως": "unit 10",
+  "δεινὴ": "unit 10",
+  "ἔδοξέ": "unit 8",
+  "χρόνον": "unit 8",
+  "χρόνῳ": "unit 8",
+  "ἐπίστευον": "unit 8"
+ },
+ "original": {
+  "text": "lysias-1.6",
+  "note": "Lysias 1.6–7, On the Murder of Eratosthenes, which paragraph 3 adapts. Lysias (c. 445–380), a metic who became the most admired speechwriter in Athens, wrote this speech around 400 BC, about thirty years after our story, for Euphiletus, an ordinary Athenian on trial for killing a man he had caught with his wife. These are the first words of his story: a marriage, a baby, trust, and a funeral where the trouble began. Demokritos and his friends never heard it; it is here because it shows how a plain Athenian began to tell his case."
+ },
+ "story": [
+  {
+   "image": "panel-11-1-a",
+   "sentences": [
+    {
+     "text": "τρίτον ἔτος ἐστὶ τοῦ πολέμου. τοῦ δὲ θέρους οἱ Λακεδαιμόνιοι οὐκ εἰς τὴν Ἀττικὴν εἰσβάλλουσιν, ἀλλ’ ἐπὶ Πλάταιαν στρατεύουσιν.",
+     "glosses": [
+      {
+       "word": "τρίτον",
+       "kind": "<",
+       "value": "τρεῖς | τρίτος (third): 429 BC"
+      },
+      {
+       "word": "θέρους",
+       "kind": "en",
+       "value": "τοῦ θέρους: in the summer (genitive of time within which)"
+      },
+      {
+       "word": "εἰσβάλλουσιν",
+       "kind": "<",
+       "value": "εἰς + βάλλω: invade"
+      },
+      {
+       "word": "στρατεύουσιν",
+       "kind": "en",
+       "value": "march, make war"
+      }
+     ]
+    },
+    {
+     "text": "ὁ οὖν Δημόκριτος ἐκ τοῦ ἄστεως εἰς τὸν ἀγρὸν αὐτοῦ ἔρχεται, ὃς πρὸς ταῖς Ἀχαρναῖς ἐστιν.",
+     "glosses": []
+    },
+    {
+     "text": "ἐκεῖ δὲ θαυμάζει· ὁ γὰρ ὅρος, ὁ λίθος ὁ μεταξὺ τῶν δύο ἀγρῶν, οὐκέτι ὀρθὸς ἕστηκεν, ἀλλ’ ἐπὶ τῇ γῇ κεῖται.",
+     "glosses": [
+      {
+       "word": "ὅρος",
+       "kind": "pic",
+       "value": "horos"
+      },
+      {
+       "word": "μεταξὺ",
+       "kind": "en",
+       "value": "between (+ genitive)"
+      },
+      {
+       "word": "κεῖται",
+       "kind": "|",
+       "value": "κεῖμαι | κεῖται (lies)"
+      }
+     ]
+    },
+    {
+     "text": "καὶ ἡ ἐλαία τοῦ γείτονος τέτμηται· οἱ κλάδοι αὐτῆς ἐν τῇ ὁδῷ κεῖνται.",
+     "glosses": [
+      {
+       "word": "γείτονος",
+       "kind": "pic",
+       "value": "geiton"
+      },
+      {
+       "word": "τέτμηται",
+       "kind": "|",
+       "value": "τέμνω (cut) | ἔτεμον | τέτμηται (has been cut)"
+      },
+      {
+       "word": "κλάδοι",
+       "kind": "pic",
+       "value": "klados"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ γείτων, Ἀντίμαχος ὀνόματι, ὀργίζεται καὶ βοᾷ· «σὺ αἴτιος εἶ, ὦ Δημόκριτε! σὺ τὸν ὅρον ἐκίνησας καὶ τὴν ἐλαίαν μου ἔτεμες.»",
+     "glosses": [
+      {
+       "word": "ὀνόματι",
+       "kind": "en",
+       "value": "by name"
+      },
+      {
+       "word": "ὀργίζεται",
+       "kind": "en",
+       "value": "is angry"
+      },
+      {
+       "word": "αἴτιος",
+       "kind": "en",
+       "value": "responsible, to blame, guilty"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Δημόκριτος· «οὐκ ἐγὼ αἴτιός εἰμι, ἀλλ’ οἱ Λακεδαιμόνιοι, οἳ πέρυσι τὴν γῆν ἔτεμνον.»",
+     "glosses": [
+      {
+       "word": "πέρυσι",
+       "kind": "en",
+       "value": "last year (430, the second invasion)"
+      },
+      {
+       "word": "ἔτεμνον",
+       "kind": "note",
+       "value": "τὴν γῆν τέμνειν 'to cut the land': to ravage it, cutting down trees and crops. The same verb as ἔτεμες."
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Ἀντίμαχος· «ψεύδῃ. δίκην σοι λαγχάνω. ὁ ἄρχων τὴν δίκην ἀκουέτω, οἱ δὲ δικασταὶ κρινόντων.»",
+     "glosses": [
+      {
+       "word": "ψεύδῃ",
+       "kind": "en",
+       "value": "you are lying"
+      },
+      {
+       "word": "δίκην",
+       "kind": "en",
+       "value": "a lawsuit"
+      },
+      {
+       "word": "λαγχάνω",
+       "kind": "en",
+       "value": "δίκην σοι λαγχάνω: I bring a suit against you"
+      },
+      {
+       "word": "ἄρχων",
+       "kind": "<",
+       "value": "ἄρχω (rule) | ὁ ἄρχων: the magistrate"
+      },
+      {
+       "word": "ἀκουέτω",
+       "kind": "|",
+       "value": "ἄκουε! (you, hear!) | ἀκουέτω! (let him hear!)"
+      },
+      {
+       "word": "δικασταὶ",
+       "kind": "pic",
+       "value": "dikastes"
+      },
+      {
+       "word": "κρινόντων",
+       "kind": "|",
+       "value": "κρίνω (judge) | κρινόντων! (let them judge!)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-11-1-b",
+   "sentences": [
+    {
+     "text": "τῇ δὲ ὑστεραίᾳ ὁ Ἀντίμαχος δύο μάρτυρας ἄγων πρὸς τὴν οἰκίαν τοῦ Δημοκρίτου ἔρχεται καὶ βοᾷ·",
+     "glosses": [
+      {
+       "word": "ὑστεραίᾳ",
+       "kind": "en",
+       "value": "τῇ ὑστεραίᾳ: on the next day"
+      },
+      {
+       "word": "μάρτυρας",
+       "kind": "en",
+       "value": "witnesses (ὁ μάρτυς, τοῦ μάρτυρος)"
+      }
+     ]
+    },
+    {
+     "text": "«Ἀντίμαχος Δημόκριτον εἰς τὸν ἄρχοντα καλεῖ. ὁ Δημόκριτος τῇ πέμπτῃ ἡμέρᾳ παρέστω.»",
+     "glosses": [
+      {
+       "word": "πέμπτῃ",
+       "kind": "<",
+       "value": "πέντε | πέμπτος (fifth)"
+      },
+      {
+       "word": "παρέστω",
+       "kind": "|",
+       "value": "πάρεστι (is present) | παρέστω! (let him be present!)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Δημόκριτος πρὸς τὸν Ἀρίστωνα σπεύδει· «τί ποιητέον μοι, ὦ φίλε;»",
+     "glosses": [
+      {
+       "word": "ποιητέον",
+       "kind": "<",
+       "value": "ποιέω | ποιητέον (it must be done): τί ποιητέον μοι; 'what must I do?'"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Ἀρίστων· «σοὶ αὐτῷ λεκτέον ἐστὶν ἐν τῷ δικαστηρίῳ· ἐν γὰρ Ἀθήναις ὁ φεύγων αὐτὸς ὑπὲρ ἑαυτοῦ λέγει.»",
+     "glosses": [
+      {
+       "word": "λεκτέον",
+       "kind": "<",
+       "value": "λέγω | λεκτέον (it must be said): σοὶ λεκτέον 'you must speak'"
+      },
+      {
+       "word": "δικαστηρίῳ",
+       "kind": "pic",
+       "value": "dikasterion"
+      },
+      {
+       "word": "φεύγων",
+       "kind": "note",
+       "value": "ὁ φεύγων 'the one fleeing': in a lawsuit, the defendant; ὁ διώκων 'the pursuer' is the prosecutor."
+      },
+      {
+       "word": "ὑπὲρ",
+       "kind": "en",
+       "value": "on behalf of (+ genitive)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Δημόκριτος· «ἀλλ’ ἐγὼ γεωργός εἰμι, οὐ ῥήτωρ· ἀδύνατός εἰμι λέγειν ἐν τοσούτοις δικασταῖς.»",
+     "glosses": [
+      {
+       "word": "ῥήτωρ",
+       "kind": "en",
+       "value": "a speaker, orator"
+      },
+      {
+       "word": "ἀδύνατός",
+       "kind": "↔",
+       "value": "ἀδύνατος ↔ δυνατός (unable, impossible ↔ able, possible)"
+      },
+      {
+       "word": "τοσούτοις",
+       "kind": "en",
+       "value": "so many"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λύσις γελᾷ· «ἀλλ’ ἐν τῇ ἐκκλησίᾳ ἀεὶ λέγεις, ὦ Δημόκριτε!»",
+     "glosses": [
+      {
+       "word": "γελᾷ",
+       "kind": "en",
+       "value": "laughs"
+      },
+      {
+       "word": "ἐκκλησίᾳ",
+       "kind": "en",
+       "value": "the Assembly (on the Pnyx)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Ἀρίστων· «σιγάτω ὁ παῖς. τὸ πρᾶγμα οὐκ ἀδύνατόν ἐστιν. μάρτυρες ζητητέοι εἰσί, καὶ τὸ ἀληθὲς λεκτέον.»",
+     "glosses": [
+      {
+       "word": "σιγάτω",
+       "kind": "|",
+       "value": "σίγα! (be quiet!) | σιγάτω! (let him be quiet!)"
+      },
+      {
+       "word": "πρᾶγμα",
+       "kind": "en",
+       "value": "the matter, the business"
+      },
+      {
+       "word": "μάρτυρες",
+       "kind": "|",
+       "value": "ὁ μάρτυς | οἱ μάρτυρες (witnesses)"
+      },
+      {
+       "word": "ζητητέοι",
+       "kind": "<",
+       "value": "ζητέω | ζητητέος, -α, -ον (to be looked for): μάρτυρες ζητητέοι εἰσί 'witnesses must be found'"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Δημόκριτος· «ὁ Κλεινίας, ὃς πέρυσιν ἐτελεύτησεν, ἀεὶ ἐγίγνωσκε ποῦ ἔκειτο ὁ ὅρος.»",
+     "glosses": [
+      {
+       "word": "πέρυσιν",
+       "kind": "en",
+       "value": "last year (Kleinias died in the plague summer of 430)"
+      },
+      {
+       "word": "ἐτελεύτησεν",
+       "kind": "=",
+       "value": "ἐτελεύτησεν = ἀπέθανεν (died)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-11-1-c",
+   "sentences": [
+    {
+     "text": "ἐν τοῖς δικαστηρίοις οἱ Ἀθηναῖοι ἁπλῶς ἄρχονται· τὰ πράγματα ἐξ ἀρχῆς λέγουσιν.",
+     "glosses": [
+      {
+       "word": "ἁπλῶς",
+       "kind": "en",
+       "value": "simply, plainly"
+      },
+      {
+       "word": "ἄρχονται",
+       "kind": "|",
+       "value": "ἄρχω (rule) | ἄρχομαι (begin)"
+      },
+      {
+       "word": "ἀρχῆς",
+       "kind": "en",
+       "value": "ἐξ ἀρχῆς: from the beginning"
+      }
+     ]
+    },
+    {
+     "text": "ἔτεσι δὲ τριάκοντα ὕστερον ὁ Λυσίας λόγον ἔγραψεν ἀνδρὶ Ἀθηναίῳ, Εὐφιλήτῳ ὀνόματι, ὃς δίκην ἔφευγεν.",
+     "glosses": [
+      {
+       "word": "τριάκοντα",
+       "kind": "en",
+       "value": "thirty: ἔτεσι τριάκοντα ὕστερον 'thirty years later' (about 400 BC)"
+      },
+      {
+       "word": "ὕστερον",
+       "kind": "↔",
+       "value": "ὕστερον ↔ πρότερον (later ↔ earlier)"
+      },
+      {
+       "word": "ἔφευγεν",
+       "kind": "en",
+       "value": "δίκην φεύγειν: to be the defendant in a suit"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Εὐφίλητος οὕτως ἄρχεται·",
+     "glosses": []
+    },
+    {
+     "text": "«ἐγὼ γάρ, ὦ Ἀθηναῖοι, ἐπειδὴ ἔδοξέ μοι γῆμαι, γυναῖκα ἠγαγόμην εἰς τὴν οἰκίαν.",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "ἐπειδὴ",
+       "kind": "en",
+       "value": "when, since"
+      },
+      {
+       "word": "ἔδοξέ",
+       "kind": "en",
+       "value": "ἔδοξέ μοι: I decided (it seemed good to me)"
+      },
+      {
+       "word": "γῆμαι",
+       "kind": "en",
+       "value": "to marry"
+      },
+      {
+       "word": "ἠγαγόμην",
+       "kind": "|",
+       "value": "ἄγω | ἠγαγόμην (I brought home for myself: I married)"
+      }
+     ]
+    },
+    {
+     "text": "καὶ τὸν μὲν πρῶτον χρόνον ἐφύλαττον αὐτὴν καὶ προσεῖχον τὸν νοῦν.",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "χρόνον",
+       "kind": "en",
+       "value": "time"
+      },
+      {
+       "word": "προσεῖχον",
+       "kind": "en",
+       "value": "προσέχειν τὸν νοῦν: to pay attention, keep an eye on"
+      }
+     ]
+    },
+    {
+     "text": "ἐπειδὴ δέ μοι παιδίον γίγνεται, ἐπίστευον ἤδη καὶ πάντα τὰ ἐμαυτοῦ ἐκείνῃ παρέδωκα.",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "παιδίον",
+       "kind": "<",
+       "value": "παῖς | παιδίον (a baby)"
+      },
+      {
+       "word": "ἐπίστευον",
+       "kind": "en",
+       "value": "I trusted (her)"
+      },
+      {
+       "word": "ἐμαυτοῦ",
+       "kind": "|",
+       "value": "ἑαυτοῦ (his own) | ἐμαυτοῦ (my own)"
+      },
+      {
+       "word": "παρέδωκα",
+       "kind": "en",
+       "value": "I handed over"
+      }
+     ]
+    },
+    {
+     "text": "ἐν μὲν οὖν τῷ πρώτῳ χρόνῳ, ὦ Ἀθηναῖοι, πασῶν ἦν βελτίστη· οἰκονόμος γὰρ ἦν δεινὴ καὶ ἀγαθή.",
+     "orig": [
+      2,
+      3
+     ],
+     "glosses": [
+      {
+       "word": "βελτίστη",
+       "kind": "<",
+       "value": "ἀγαθός | βελτίων | βέλτιστος: πασῶν βελτίστη 'the best of all women'"
+      },
+      {
+       "word": "οἰκονόμος",
+       "kind": "<",
+       "value": "οἶκος: a housekeeper, manager of the house"
+      },
+      {
+       "word": "δεινὴ",
+       "kind": "en",
+       "value": "clever, skilled (also 'terrible')"
+      }
+     ]
+    },
+    {
+     "text": "ἐπειδὴ δέ μοι ἡ μήτηρ ἐτελεύτησε, πάντων τῶν κακῶν ἀποθανοῦσα αἰτία μοι γεγένηται.»",
+     "orig": [
+      4
+     ],
+     "glosses": [
+      {
+       "word": "ἐτελεύτησε",
+       "kind": "en",
+       "value": "died (τελευτάω: end, end one's life)"
+      },
+      {
+       "word": "ἀποθανοῦσα",
+       "kind": "en",
+       "value": "by dying"
+      },
+      {
+       "word": "γεγένηται",
+       "kind": "|",
+       "value": "γίγνομαι | γεγένηται (has become)"
+      }
+     ]
+    },
+    {
+     "text": "καὶ ὁ Δημόκριτος ὕστερον οὕτως ἄρξεται· ἁπλῶς καὶ τὰ ἀληθῆ λέγων.",
+     "glosses": [
+      {
+       "word": "ἄρξεται",
+       "kind": "|",
+       "value": "ἄρχεται | ἄρξεται (will begin)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "δικη",
+   "pic": "dikasterion",
+   "gloss_grc": "δίκην λαγχάνω τινί · δίκην φεύγω"
+  },
+  {
+   "id": "ορος-x",
+   "pic": "horos",
+   "gloss_grc": "ὁ ὅρος μεταξὺ τῶν ἀγρῶν (↔ τὸ ὄρος)"
+  },
+  {
+   "id": "γειτων",
+   "pic": "geiton",
+   "gloss_grc": "ὁ γείτων · τοῦ γείτονος"
+  },
+  {
+   "id": "δικαστηριον",
+   "pic": "dikasterion"
+  },
+  {
+   "id": "δικαστης",
+   "pic": "dikastes",
+   "gloss_grc": "οἱ δικασταὶ κρίνουσιν"
+  },
+  {
+   "id": "αιτιος",
+   "gloss_grc": "αἴτιος, -α, -ον · σὺ αἴτιος εἶ"
+  },
+  {
+   "id": "τεμνω",
+   "gloss_grc": "τέμνω · ἔτεμον · τέτμηται"
+  },
+  {
+   "id": "αδυνατος",
+   "gloss_grc": "ἀδύνατος ↔ δυνατός"
+  },
+  {
+   "id": "κειμαι",
+   "gloss_grc": "ὁ λίθος ἐπὶ τῇ γῇ κεῖται"
+  },
+  {
+   "id": "αρχω",
+   "gloss_grc": "ἄρχω (+ gen.) rule · ἄρχομαι begin · ὁ ἄρχων"
+  },
+  {
+   "id": "τελευταω",
+   "gloss_grc": "ἐτελεύτησε = ἀπέθανε"
+  },
+  {
+   "id": "υστερος",
+   "gloss_grc": "ὕστερον ↔ πρότερον"
+  }
+ ],
+ "notice": [
+  "ὁ ἄρχων τὴν δίκην ἀκουέτω, οἱ δὲ δικασταὶ κρινόντων.",
+  "ὁ Δημόκριτος τῇ πέμπτῃ ἡμέρᾳ παρέστω. — σιγάτω ὁ παῖς.",
+  "τί ποιητέον μοι; — σοὶ αὐτῷ λεκτέον ἐστίν.",
+  "μάρτυρες ζητητέοι εἰσί, καὶ τὸ ἀληθὲς λεκτέον.",
+  "ἀδύνατός εἰμι λέγειν. — τὸ πρᾶγμα οὐκ ἀδύνατόν ἐστιν."
+ ],
+ "grammar": {
+  "md": "**Let him …: third-person imperatives.** You know λέγε! and λέγετε! (speak!, to *you*). Greek also gives orders about a third person: ὁ ἄρχων τὴν δίκην **ἀκουέτω** 'let the magistrate hear the case'; οἱ δικασταὶ **κρινόντων** 'let the jurors judge'. English needs 'let him …' or 'he is to …'; Greek has its own endings:\n\n| | active | middle/passive |\n|---|---|---|\n| present 3 sg | λυ**έτω** | λυ**έσθω** |\n| present 3 pl | λυ**όντων** | λυ**έσθων** |\n| aorist 3 sg | λυσ**άτω** | λυσ**άσθω** |\n| aorist 3 pl | λυσ**άντων** | λυσ**άσθων** |\n| εἰμί | **ἔστω** 'let him be' | ἔστων / ὄντων |\n\nThe sign is **-τω** (sg.) and **-ντων / -σθων** (pl.). Contracts contract as usual: σιγάω → σιγάτω, ποιέω → ποιείτω. Second aorists take the present endings on the aorist stem: ἐλθέτω, λαβέτω. The negative is μή: μὴ λεγέτω 'let him not speak'. Watch λυόντων: it is also the genitive plural of the participle (τῶν λυόντων). A command stands alone, usually with a nominative subject; the participle needs an article or a noun to lean on.\n\n**Verbal adjectives.** Two adjectives are made from the verb stem (roughly the aorist passive stem without -θ-):\n\n- **-τός, -τή, -τόν**: *can be done* or *has been done*. δυνατός 'possible, able', **ἀδύνατος** 'impossible, unable' (a compound, so only two endings: ἀδύνατος, ἀδύνατον), θαυμαστός 'to be wondered at, wonderful'.\n- **-τέος, -τέα, -τέον**: *must be done*. ποιη-τέος (ποιέω, ἐποιήθην), λεκ-τέος (λέγω, ἐλέχθην), ζητη-τέος (ζητέω).\n\nThe -τέος adjective is used two ways. **Personal**, agreeing with a noun: μάρτυρες **ζητητέοι** εἰσί 'witnesses are to be found, must be found'. **Impersonal**, in the neuter singular (sometimes plural) with ἐστί, and it may take an object like a verb: τὸ ἀληθὲς **λεκτέον** (ἐστίν) 'one must tell the truth'. The person who must act is in the **dative**: σοὶ αὐτῷ λεκτέον ἐστίν 'you yourself must speak'; τί ποιητέον **μοι**; 'what must I do?'. Compare δεῖ σε λέγειν: same meaning, accusative + infinitive.\n\n**Reading Lysias.** Paragraph 3 is adapted from a real speech (see the original below the story). The Greek is plain on purpose: Lysias makes his client sound like an honest man telling a simple story. Notice ἐπειδή 'when', the historic present γίγνεται, and μὲν οὖν 'well then', which moves the story on.",
+  "paradigms": [
+   "luo",
+   "adynatos"
+  ],
+  "diagram": "diagram-moods"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings of the third-person imperatives.",
+   "template": "ὁ ἄρχων τὴν δίκην ἀκου___. οἱ δικασταὶ ἀκου___. ὁ Δημόκριτος λεγ___. οἱ μάρτυρες λεγ___.",
+   "gaps": [
+    {
+     "answers": [
+      "έτω",
+      "ετω"
+     ]
+    },
+    {
+     "answers": [
+      "όντων",
+      "οντων"
+     ]
+    },
+    {
+     "answers": [
+      "έτω",
+      "ετω"
+     ]
+    },
+    {
+     "answers": [
+      "όντων",
+      "οντων"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.imp.3rd",
+    "verb.pres.act.imp.3sg"
+   ],
+   "explain": "Singular -έτω (ἀκουέτω, λεγέτω), plural -όντων (ἀκουόντων, λεγόντων)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ ἄρχων τὴν δίκην ___. (let him hear)",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀκούει"
+    },
+    {
+     "id": "b",
+     "text": "ἀκουέτω"
+    },
+    {
+     "id": "c",
+     "text": "ἀκουόντων"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "verb.imp.3rd",
+    "verb.pres.act.imp.3sg"
+   ],
+   "explain": "One magistrate, a command: ἀκουέτω. ἀκουόντων is plural.",
+   "audio": "ὁ ἄρχων τὴν δίκην ἀκουέτω."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · σοὶ αὐτῷ ___ ἐστιν ἐν τῷ δικαστηρίῳ. (you must speak)",
+   "options": [
+    {
+     "id": "a",
+     "text": "λεκτέον"
+    },
+    {
+     "id": "b",
+     "text": "λέγειν"
+    },
+    {
+     "id": "c",
+     "text": "λέγε"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.verbal-adj"
+   ],
+   "explain": "λεκτέον ἐστί + dative of the person: 'you must speak'.",
+   "audio": "σοὶ αὐτῷ λεκτέον ἐστὶν ἐν τῷ δικαστηρίῳ."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ ὅρος ἐπὶ τῇ γῇ ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "κεῖται"
+    },
+    {
+     "id": "b",
+     "text": "κεῖνται"
+    },
+    {
+     "id": "c",
+     "text": "τέτμηται"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.stage2",
+    "verb.mi.dynamai"
+   ],
+   "explain": "The stone lies on the ground: κεῖται (singular). κεῖμαι has middle endings like δύναμαι.",
+   "audio": "ὁ ὅρος ἐπὶ τῇ γῇ κεῖται."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ὁ ὅρος",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "horos"
+    },
+    {
+     "id": "b",
+     "image": "oros"
+    },
+    {
+     "id": "c",
+     "image": "lithos"
+    },
+    {
+     "id": "d",
+     "image": "bomos"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ὁ ὅρος (rough breathing): a boundary stone. τὸ ὄρος (smooth) is a mountain."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "οἱ δικασταί",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "polites"
+    },
+    {
+     "id": "b",
+     "image": "dikastes"
+    },
+    {
+     "id": "c",
+     "image": "stratiotes"
+    },
+    {
+     "id": "d",
+     "image": "eretes"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "οἱ δικασταί: the jurors, citizens over thirty who judge a case."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the 3rd person singular present imperative of λέγω ('let him speak').",
+   "lemma": "λέγω",
+   "cell": "present.active.imperative.3sg",
+   "skills": [
+    "verb.imp.3rd",
+    "verb.pres.act.imp.3sg"
+   ],
+   "explain": "λεγέτω.",
+   "audio": "λεγέτω"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the 3rd person plural present imperative of ἀκούω ('let them hear').",
+   "lemma": "ἀκούω",
+   "cell": "present.active.imperative.3pl",
+   "skills": [
+    "verb.imp.3rd"
+   ],
+   "explain": "ἀκουόντων.",
+   "audio": "ἀκουόντων"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the 3rd person singular imperative of εἰμί ('let it be').",
+   "lemma": "εἰμί",
+   "cell": "present.active.imperative.3sg",
+   "skills": [
+    "verb.imp.3rd"
+   ],
+   "explain": "ἔστω: 'let it be so'.",
+   "audio": "ἔστω"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the genitive singular of γείτων.",
+   "lemma": "γείτων",
+   "cell": "gen.sg",
+   "skills": [
+    "vocab.stage2",
+    "noun.decl3.cons.gen.sg"
+   ],
+   "explain": "γείτονος, stem γειτον-.",
+   "audio": "γείτονος"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἀκουόντων in: οἱ δικασταὶ ἀκουόντων.",
+   "form": "ἀκουόντων",
+   "groups": [
+    {
+     "id": "what",
+     "label": "What is it here?",
+     "options": [
+      {
+       "id": "imp",
+       "label": "imperative, 3rd plural"
+      },
+      {
+       "id": "ptc",
+       "label": "participle, genitive plural"
+      }
+     ]
+    },
+    {
+     "id": "why",
+     "label": "How can you tell?",
+     "options": [
+      {
+       "id": "alone",
+       "label": "it is the only verb, with a nominative subject"
+      },
+      {
+       "id": "art",
+       "label": "it has an article in the genitive"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "what": "imp",
+    "why": "alone"
+   },
+   "skills": [
+    "verb.imp.3rd"
+   ],
+   "explain": "The same spelling is the genitive plural participle (τῶν ἀκουόντων 'of the listeners'); here it stands alone as the main verb: 'let the jurors listen'.",
+   "audio": "οἱ δικασταὶ ἀκουόντων."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse λεκτέον in: σοὶ αὐτῷ λεκτέον ἐστίν.",
+   "form": "λεκτέον",
+   "groups": [
+    {
+     "id": "kind",
+     "label": "What kind of word?",
+     "options": [
+      {
+       "id": "vadj-nec",
+       "label": "verbal adjective: must be done"
+      },
+      {
+       "id": "vadj-pos",
+       "label": "verbal adjective: can be done"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      }
+     ]
+    },
+    {
+     "id": "who",
+     "label": "Who must act?",
+     "options": [
+      {
+       "id": "dat",
+       "label": "σοί (dative)"
+      },
+      {
+       "id": "nom",
+       "label": "no one: it is a statement"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "kind": "vadj-nec",
+    "who": "dat"
+   },
+   "skills": [
+    "verb.verbal-adj"
+   ],
+   "explain": "-τέον: necessity; the one who must act is in the dative: 'you must speak'.",
+   "audio": "σοὶ αὐτῷ λεκτέον ἐστίν."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "«τί ___ μοι;» (what must I do?)",
+   "options": [
+    {
+     "id": "a",
+     "text": "ποιητέον"
+    },
+    {
+     "id": "b",
+     "text": "ποιείτω"
+    },
+    {
+     "id": "c",
+     "text": "ποιοῦσι"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.verbal-adj"
+   ],
+   "explain": "ποιητέον (ἐστί): 'it must be done'; μοι is the dative of the person who must do it."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "σιγάτω ___ παῖς.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ"
+    },
+    {
+     "id": "b",
+     "text": "τῷ"
+    },
+    {
+     "id": "c",
+     "text": "τόν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.imp.3rd"
+   ],
+   "explain": "The third-person imperative has its subject in the nominative: σιγάτω ὁ παῖς 'let the boy be quiet'."
+  },
+  {
+   "type": "label",
+   "prompt": "In «ἀδύνατός εἰμι λέγειν», ἀδύνατος is …",
+   "options": [
+    {
+     "id": "a",
+     "text": "a -τός verbal adjective: 'unable' (possibility)"
+    },
+    {
+     "id": "b",
+     "text": "a -τέος verbal adjective: 'must not' (necessity)"
+    },
+    {
+     "id": "c",
+     "text": "a third-person imperative"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.verbal-adj"
+   ],
+   "explain": "ἀ- 'not' + δυνατός 'able, possible': 'I am unable to speak'. -τός adjectives say what can (or cannot) be done."
+  },
+  {
+   "type": "label",
+   "prompt": "In «ὁ Δημόκριτος τῇ πέμπτῃ ἡμέρᾳ παρέστω», παρέστω is …",
+   "options": [
+    {
+     "id": "a",
+     "text": "a statement: 'he is present'"
+    },
+    {
+     "id": "b",
+     "text": "a command about a third person: 'let him be present'"
+    },
+    {
+     "id": "c",
+     "text": "a verbal adjective: 'he must be present'"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "verb.imp.3rd"
+   ],
+   "explain": "πάρ-εστω, the imperative of πάρειμι: the formal summons. The meaning is close to 'he must', but the form is an imperative."
+  },
+  {
+   "type": "transform",
+   "prompt": "Turn the command around: speak about him, not to him. λέγε, ὦ Δημόκριτε. → ὁ Δημόκριτος …",
+   "template": "ὁ Δημόκριτος ___.",
+   "gaps": [
+    {
+     "answers": [
+      "λεγέτω"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.imp.3rd",
+    "verb.pres.act.imp.3sg"
+   ],
+   "explain": "λέγε → λεγέτω.",
+   "audio": "ὁ Δημόκριτος λεγέτω."
+  },
+  {
+   "type": "transform",
+   "prompt": "Say it with a verbal adjective: δεῖ σε λέγειν. → … σοί ἐστιν.",
+   "template": "___ σοί ἐστιν.",
+   "gaps": [
+    {
+     "answers": [
+      "λεκτέον"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.verbal-adj"
+   ],
+   "explain": "δεῖ σε λέγειν = λεκτέον σοί ἐστιν: accusative + infinitive becomes dative + -τέον.",
+   "audio": "λεκτέον σοί ἐστιν."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every third-person imperative.",
+   "sentence": "ὁ ἄρχων τὴν δίκην ἀκουέτω, οἱ δὲ δικασταὶ κρινόντων, ὁ δὲ Δημόκριτος παρέστω.",
+   "answer": [
+    4,
+    8,
+    12
+   ],
+   "skills": [
+    "read.locate",
+    "verb.imp.3rd"
+   ],
+   "explain": "ἀκουέτω, κρινόντων, παρέστω. ἄρχων is a participle used as a noun ('the one ruling')."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every verbal adjective of necessity (-τέος).",
+   "sentence": "τί ποιητέον μοι; σοὶ λεκτέον ἐστίν· μάρτυρες ζητητέοι εἰσίν· τὸ πρᾶγμα οὐκ ἀδύνατόν ἐστιν.",
+   "answer": [
+    1,
+    4,
+    7
+   ],
+   "skills": [
+    "read.locate",
+    "verb.verbal-adj"
+   ],
+   "explain": "ποιητέον, λεκτέον, ζητητέοι. ἀδύνατον is a -τός adjective (possibility), not -τέος."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'Let the juror hear the case.'",
+   "tokens": [
+    "ἀκουέτω",
+    "δίκην",
+    "ὁ",
+    "τὴν",
+    "δικαστὴς"
+   ],
+   "answers": [
+    "ὁ δικαστὴς τὴν δίκην ἀκουέτω",
+    "τὴν δίκην ὁ δικαστὴς ἀκουέτω",
+    "ἀκουέτω ὁ δικαστὴς τὴν δίκην",
+    "ὁ δικαστὴς ἀκουέτω τὴν δίκην"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "verb.imp.3rd"
+   ],
+   "explain": "ὁ δικαστὴς τὴν δίκην ἀκουέτω."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "audio": "ὁ ὅρος ἐπὶ τῇ γῇ κεῖται.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ ὅρος ἐπὶ τῇ γῇ κεῖται."
+    },
+    {
+     "id": "b",
+     "text": "ὁ λίθος ἐν τῇ ὁδῷ κεῖται."
+    },
+    {
+     "id": "c",
+     "text": "οἱ κλάδοι ἐν τῇ ὁδῷ κεῖνται."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "'The boundary stone lies on the ground.'"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "τοῦ θέρους οἱ Λακεδαιμόνιοι εἰς τὴν Ἀττικὴν εἰσβάλλουσιν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "οὐκ εἰς τὴν Ἀττικήν, ἀλλ’ ἐπὶ Πλάταιαν στρατεύουσιν (summer 429)."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Ἀντίμαχος λέγει· «σὺ αἴτιος εἶ, ὦ Δημόκριτε.»",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "Yes: he blames Demokritos for the stone and the tree."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Δημόκριτος τὸν τοῦ Λυσίου λόγον ἤκουσεν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension",
+    "read.lysias"
+   ],
+   "explain": "Lysias wrote that speech about thirty years later (ἔτεσι τριάκοντα ὕστερον)."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "audio": "ὁ ἄρχων τὴν δίκην ἀκουέτω.",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ ἄρχων τὴν δίκην ἀκουέτω"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "ὁ ἄρχων τὴν δίκην ἀκουέτω."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Let the neighbour speak.'",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ γείτων λεγέτω",
+      "λεγέτω ὁ γείτων"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.imp.3rd"
+   ],
+   "explain": "ὁ γείτων λεγέτω."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'You must tell the truth.' (use λεκτέον and τὸ ἀληθές)",
+   "gaps": [
+    {
+     "answers": [
+      "λεκτέον σοι τὸ ἀληθές",
+      "σοὶ λεκτέον τὸ ἀληθές",
+      "σοὶ λεκτέον ἐστὶ τὸ ἀληθές",
+      "σοὶ λεκτέον ἐστὶν τὸ ἀληθές",
+      "λεκτέον σοί ἐστι τὸ ἀληθές",
+      "λεκτέον σοί ἐστιν τὸ ἀληθές",
+      "τὸ ἀληθὲς λεκτέον σοι",
+      "τὸ ἀληθὲς σοὶ λεκτέον",
+      "τὸ ἀληθὲς λεκτέον σοί ἐστιν",
+      "τὸ ἀληθὲς σοὶ λεκτέον ἐστίν"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.verbal-adj"
+   ],
+   "explain": "σοὶ λεκτέον (ἐστὶ) τὸ ἀληθές: the neuter -τέον takes an object like a verb."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: ἐν μὲν οὖν τῷ πρώτῳ χρόνῳ, ὦ Ἀθηναῖοι, πασῶν ἦν βελτίστη.",
+   "audio": "ἐν μὲν οὖν τῷ πρώτῳ χρόνῳ, ὦ Ἀθηναῖοι, πασῶν ἦν βελτίστη.",
+   "model": "Well then, at first, men of Athens, she was the best of all women.",
+   "skills": [
+    "read.lysias",
+    "read.adapted-text"
+   ],
+   "explain": "Lysias 1.7. πασῶν: genitive with a superlative ('of all', feminine). μὲν οὖν moves the story on."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: μάρτυρες ζητητέοι εἰσί, καὶ τὸ ἀληθὲς λεκτέον.",
+   "audio": "μάρτυρες ζητητέοι εἰσί, καὶ τὸ ἀληθὲς λεκτέον.",
+   "model": "Witnesses must be found, and the truth must be told.",
+   "skills": [
+    "read.comprehension",
+    "verb.verbal-adj"
+   ],
+   "explain": "Personal ζητητέοι (agrees with μάρτυρες) and impersonal λεκτέον (with an object)."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "ὅρος",
+     "right": "horizon"
+    },
+    {
+     "left": "τέμνω",
+     "right": "anatomy"
+    },
+    {
+     "left": "ἄρχω",
+     "right": "monarchy"
+    },
+    {
+     "left": "δίκη",
+     "right": "syndicate"
+    },
+    {
+     "left": "ἀδύνατος",
+     "right": "dynamic"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "ὁ ὁρίζων κύκλος 'the bounding circle'; ἀνα-τομή 'cutting up'; μον-αρχία 'rule of one'; σύν-δικος 'one who shares a case, an advocate'; δύναμις 'power', the root of δυνατός."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "ποῦ ἐστιν ὁ ἀγρὸς τοῦ Δημοκρίτου;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "πρὸς ταῖς Ἀχαρναῖς."
+    },
+    {
+     "id": "b",
+     "text": "ἐν τῷ Κεραμεικῷ."
+    },
+    {
+     "id": "c",
+     "text": "ἐν Πλαταίᾳ."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὁ γὰρ ἀγρὸς πρὸς ταῖς Ἀχαρναῖς ἐστιν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "ποῦ κεῖται ὁ ὅρος;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὀρθὸς ἕστηκεν ἐν τῷ αὐτῷ τόπῳ."
+    },
+    {
+     "id": "b",
+     "text": "ἐπὶ τῇ γῇ κεῖται."
+    },
+    {
+     "id": "c",
+     "text": "ἐν τῇ οἰκίᾳ τοῦ Ἀρίστωνος."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "vocab.stage2"
+   ],
+   "explain": "οὐκέτι ὀρθὸς ἕστηκεν, ἀλλ’ ἐπὶ τῇ γῇ κεῖται."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίνες τὴν γῆν ἔτεμνον, ὡς λέγει ὁ Δημόκριτος;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Ἀντίμαχος."
+    },
+    {
+     "id": "b",
+     "text": "οἱ Λακεδαιμόνιοι."
+    },
+    {
+     "id": "c",
+     "text": "οἱ δικασταί."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἀλλ’ οἱ Λακεδαιμόνιοι, οἳ πέρυσι τὴν γῆν ἔτεμνον."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τῇ πόστῃ ἡμέρᾳ ὁ Δημόκριτος παρέστω;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "τῇ πρώτῃ."
+    },
+    {
+     "id": "b",
+     "text": "τῇ πέμπτῃ."
+    },
+    {
+     "id": "c",
+     "text": "τῇ δεκάτῃ."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "verb.imp.3rd"
+   ],
+   "explain": "ὁ Δημόκριτος τῇ πέμπτῃ ἡμέρᾳ παρέστω."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίνι λεκτέον ἐστὶν ἐν τῷ δικαστηρίῳ;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "τῷ Ἀρίστωνι."
+    },
+    {
+     "id": "b",
+     "text": "τῷ Δημοκρίτῳ αὐτῷ."
+    },
+    {
+     "id": "c",
+     "text": "τῷ Λυσίᾳ."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "verb.verbal-adj"
+   ],
+   "explain": "σοὶ αὐτῷ λεκτέον ἐστίν: the defendant speaks for himself."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίνι ὁ Λυσίας τὸν λόγον ἔγραψεν;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "τῷ Δημοκρίτῳ."
+    },
+    {
+     "id": "b",
+     "text": "ἀνδρὶ Ἀθηναίῳ, Εὐφιλήτῳ ὀνόματι."
+    },
+    {
+     "id": "c",
+     "text": "τοῖς δικασταῖς."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "read.lysias"
+   ],
+   "explain": "λόγον ἔγραψεν ἀνδρὶ Ἀθηναίῳ, Εὐφιλήτῳ ὀνόματι."
+  }
+ ],
+ "culture": {
+  "title": "Going to law in Athens",
+  "md": "Athens had no public prosecutors, no police detectives and no professional judges. If your neighbour moved your boundary stone, *you* brought the case. A private suit (δίκη) could be brought only by the injured party; a public one (γραφή), about wrongs against the city, by any citizen who wished. You began with a summons (πρόσκλησις): you went to your opponent, in person and with witnesses, and named the day he must appear before the magistrate who dealt with that kind of case. The magistrate held a preliminary hearing and then brought the case to a court (δικαστήριον) of ordinary citizens chosen by lot, who heard both sides and voted on the same day.\n\nThere were no lawyers either. Each side spoke for himself, though a friend might add a short supporting speech. Men who feared the crowd could buy a speech from a speechwriter (λογογράφος) and learn it by heart. In 429 that trade was new: the earliest speechwriter we know, Antiphon, was active from about the 420s. Lysias, the master of the plain style, wrote after 403, which is why his words appear in this lesson only as a real text from about thirty years after our story. The picture shows a real Athenian boundary stone from about 500 BC; its letters say ΗΟΡΟΣ ΕΙΜΙ ΤΕΣ ΑΓΟΡΑΣ, 'I am the boundary of the Agora'.",
+  "image": "culture-11-1-horos-agora"
+ },
+ "quiz": [
+  {
+   "type": "cloze-choice",
+   "prompt": "οἱ δικασταὶ τὴν δίκην ___. (let them hear)",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀκουέτω"
+    },
+    {
+     "id": "b",
+     "text": "ἀκουόντων"
+    },
+    {
+     "id": "c",
+     "text": "ἀκούουσι"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "verb.imp.3rd"
+   ],
+   "explain": "Plural subject, a command: ἀκουόντων."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the 3rd person singular present imperative of φέρω ('let him bring').",
+   "lemma": "φέρω",
+   "cell": "present.active.imperative.3sg",
+   "skills": [
+    "verb.imp.3rd",
+    "verb.pres.act.imp.3sg"
+   ],
+   "explain": "φερέτω.",
+   "audio": "φερέτω"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "μάρτυρες ___ εἰσίν. (must be found)",
+   "options": [
+    {
+     "id": "a",
+     "text": "ζητητέοι"
+    },
+    {
+     "id": "b",
+     "text": "ζητείτω"
+    },
+    {
+     "id": "c",
+     "text": "ζητοῦσι"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.verbal-adj"
+   ],
+   "explain": "The personal -τέος adjective agrees with μάρτυρες: ζητητέοι."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἀδύνατος.",
+   "form": "ἀδύνατος",
+   "groups": [
+    {
+     "id": "kind",
+     "label": "Which ending?",
+     "options": [
+      {
+       "id": "tos",
+       "label": "-τός: can / cannot be done"
+      },
+      {
+       "id": "teos",
+       "label": "-τέος: must be done"
+      }
+     ]
+    },
+    {
+     "id": "meaning",
+     "label": "Meaning",
+     "options": [
+      {
+       "id": "unable",
+       "label": "unable, impossible"
+      },
+      {
+       "id": "must",
+       "label": "necessary"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "kind": "tos",
+    "meaning": "unable"
+   },
+   "skills": [
+    "verb.verbal-adj"
+   ],
+   "explain": "ἀ- + δυνατός: 'impossible, unable'.",
+   "audio": "ἀδύνατος"
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ὁ γείτων",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "geiton"
+    },
+    {
+     "id": "b",
+     "image": "iatros"
+    },
+    {
+     "id": "c",
+     "image": "kerameus"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ὁ γείτων: the neighbour (Antimachos, who lives next to Demokritos's farm)."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Εὐφίλητος λέγει ὅτι ἡ γυνὴ ἐν τῷ πρώτῳ χρόνῳ πασῶν ἦν βελτίστη.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension",
+    "read.lysias"
+   ],
+   "explain": "ἐν μὲν οὖν τῷ πρώτῳ χρόνῳ, ὦ Ἀθηναῖοι, πασῶν ἦν βελτίστη."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Let the boy be quiet.' (σιγάτω)",
+   "gaps": [
+    {
+     "answers": [
+      "σιγάτω ὁ παῖς",
+      "ὁ παῖς σιγάτω"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.imp.3rd"
+   ],
+   "explain": "σιγάτω ὁ παῖς."
+  }
+ ],
+ "skills": [
+  "verb.imp.3rd",
+  "verb.pres.act.imp.3sg",
+  "verb.verbal-adj",
+  "verb.mi.dynamai",
+  "noun.decl3.cons.gen.sg",
+  "read.lysias",
+  "read.adapted-text",
+  "read.comprehension",
+  "read.locate",
+  "syntax.word-order",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family",
+  "vocab.stage2"
+ ]
+}

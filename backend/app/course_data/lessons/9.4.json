@@ -1,0 +1,1572 @@
+{
+ "id": "9.4",
+ "title_grc": "Ἀρίστων ὁπλίτης",
+ "title_en": "Ariston the hoplite; the funeral",
+ "summary_grc": "ὁ Ἀρίστων εἶπεν ὅτι μάχη οὐδεμία γένοιτο. χειμῶνος δὲ τοὺς ἀποθανόντας ἔθαψαν, καὶ ὁ Περικλῆς ἔλεγε τοιάδε.",
+ "summary_en": "Autumn 431: Ariston marches with the whole army into the Megarid and comes home; in winter the city buries its first dead and Pericles speaks. The optative in indirect speech, the uses of the cases, and correlatives (τοιοῦτος … οἷος, τοσοῦτος … ὅσος); the opening of the Funeral Speech, Thucydides 2.35, adapted.",
+ "cover": "panel-9-4-c",
+ "caption_grc": "ὁ Λύσις ἤρετο εἰ μάχη γένοιτο. — ὁ στρατὸς τοσοῦτος ἦν ὅσος οὔποτε πρότερον.",
+ "original": {
+  "text": "thuc-2.35",
+  "note": "Thucydides 2.35.1, the opening of Pericles' Funeral Speech, adapted in paragraph 3. Thucydides says he gives the speakers' words 'as each seemed to me to say what was needed', keeping as close as he could to what was actually said."
+ },
+ "names": {
+  "Μεγαρίς": [
+   "Μεγαρίδος",
+   "Μεγαρίδι",
+   "Μεγαρίδα"
+  ],
+  "Μεγαρεύς": [
+   "Μεγαρέως",
+   "Μεγαρεῖ",
+   "Μεγαρέα",
+   "Μεγαρῆς",
+   "Μεγαρέων",
+   "Μεγαρεῦσι",
+   "Μεγαρεῦσιν",
+   "Μεγαρέας"
+  ],
+  "Σίμων": [
+   "Σίμωνος",
+   "Σίμωνι",
+   "Σίμωνα"
+  ],
+  "Δίων": [
+   "Δίωνος",
+   "Δίωνι",
+   "Δίωνα"
+  ]
+ },
+ "allow": {
+  "πολλοὶ": "unit 8 (πολύς)"
+ },
+ "story": [
+  {
+   "image": "panel-9-4-a",
+   "sentences": [
+    {
+     "text": "περὶ δὲ τὸ φθινόπωρον οἱ Ἀθηναῖοι πάσῃ τῇ δυνάμει εἰς τὴν Μεγαρίδα εἰσέβαλον· ἡγεῖτο δὲ αὐτῶν ὁ Περικλῆς.",
+     "glosses": [
+      {
+       "word": "περὶ",
+       "kind": "en",
+       "value": "περί + accusative: about, around (of time)"
+      },
+      {
+       "word": "φθινόπωρον",
+       "kind": "en",
+       "value": "autumn"
+      },
+      {
+       "word": "δυνάμει",
+       "kind": "en",
+       "value": "force, power: πάσῃ τῇ δυνάμει, with all their forces"
+      },
+      {
+       "word": "εἰσέβαλον",
+       "kind": "<",
+       "value": "εἰς + ἔβαλον: invaded"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ στρατὸς τοσοῦτος ἦν ὅσος οὔποτε πρότερον· μύριοι γὰρ ἦσαν ὁπλῖται τῶν πολιτῶν, καὶ τρισχίλιοι τῶν μετοίκων.",
+     "glosses": [
+      {
+       "word": "τοσοῦτος",
+       "kind": "note",
+       "value": "τοσοῦτος … ὅσος: as big … as (correlatives)"
+      },
+      {
+       "word": "οὔποτε",
+       "kind": "en",
+       "value": "never"
+      },
+      {
+       "word": "πρότερον",
+       "kind": "en",
+       "value": "before"
+      },
+      {
+       "word": "μύριοι",
+       "kind": "=",
+       "value": "10,000"
+      },
+      {
+       "word": "ὁπλῖται",
+       "kind": "pic",
+       "value": "hoplites"
+      },
+      {
+       "word": "τρισχίλιοι",
+       "kind": "=",
+       "value": "3,000"
+      }
+     ]
+    },
+    {
+     "text": "ἐν τούτοις ἦν καὶ ὁ Ἀρίστων ὁπλίτης, καὶ ὁ Σίμων ὁ μέτοικος. τὴν δὲ γῆν τῶν Μεγαρέων ἔτεμον ἀντὶ τῶν ἀγρῶν ὧν οἱ Λακεδαιμόνιοι ἔτεμον.",
+     "glosses": [
+      {
+       "word": "ἀντὶ",
+       "kind": "en",
+       "value": "ἀντί + genitive: instead of, in return for"
+      },
+      {
+       "word": "ὧν",
+       "kind": "note",
+       "value": "ὧν for οὕς: relative attraction (9.1)"
+      }
+     ]
+    },
+    {
+     "text": "ἔπειτα ὁ Ἀρίστων οἴκαδε ἦλθεν. ὁ δὲ Λύσις ἤρετο εἰ μάχη γένοιτο.",
+     "glosses": [
+      {
+       "word": "ἤρετο",
+       "kind": "en",
+       "value": "asked (ἔρομαι)"
+      },
+      {
+       "word": "μάχη",
+       "kind": "pic",
+       "value": "mache"
+      },
+      {
+       "word": "γένοιτο",
+       "kind": "note",
+       "value": "ἤρετο εἰ … γένοιτο: after a past verb the indirect question may take the optative ('whether there had been')"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Ἀρίστων εἶπεν ὅτι μάχη οὐδεμία γένοιτο· οἱ γὰρ Μεγαρῆς οὐκ ἐξῆλθον.",
+     "glosses": [
+      {
+       "word": "ὅτι",
+       "kind": "en",
+       "value": "that"
+      },
+      {
+       "word": "οὐδεμία",
+       "kind": "en",
+       "value": "no, not a single (οὐδείς)"
+      }
+     ]
+    },
+    {
+     "text": "«τοιαῦτα γὰρ τοὺς Μεγαρέας ἐποιήσαμεν οἷα οἱ Λακεδαιμόνιοι ἡμᾶς. καὶ ὁ μὲν Εὔδημος ἔχαιρεν, ἐγὼ δὲ οὔ.»",
+     "glosses": [
+      {
+       "word": "τοιαῦτα",
+       "kind": "note",
+       "value": "τοιαῦτα … οἷα: such things … as (correlatives); ποιεῖν τινά τι, to do something to someone (two accusatives)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-9-4-b",
+   "sentences": [
+    {
+     "text": "χειμῶνος δὲ οἱ Ἀθηναῖοι τοὺς ἐν τῷ πολέμῳ πρώτους ἀποθανόντας δημοσίᾳ ἔθαπτον, κατὰ τὸν πάτριον νόμον.",
+     "glosses": [
+      {
+       "word": "χειμῶνος",
+       "kind": "en",
+       "value": "in winter (genitive of time within which)"
+      },
+      {
+       "word": "ἀποθανόντας",
+       "kind": "|",
+       "value": "ἀποθνῄσκω · ἀπέθανον · οἱ ἀποθανόντες, the dead"
+      },
+      {
+       "word": "δημοσίᾳ",
+       "kind": "en",
+       "value": "publicly, at the city's expense (a dative used as an adverb)"
+      },
+      {
+       "word": "ἔθαπτον",
+       "kind": "pic",
+       "value": "verb-thaptei"
+      },
+      {
+       "word": "κατὰ",
+       "kind": "en",
+       "value": "κατά + accusative: according to"
+      },
+      {
+       "word": "πάτριον",
+       "kind": "<",
+       "value": "πατήρ: ancestral"
+      },
+      {
+       "word": "νόμον",
+       "kind": "en",
+       "value": "custom, law"
+      }
+     ]
+    },
+    {
+     "text": "τὰ μὲν ὀστᾶ τῶν ἀποθανόντων δύο ἡμέρας ἐν σκηνῇ ἔκειτο, καὶ οἱ οἰκεῖοι αὐτοῖς δῶρα ἔφερον.",
+     "glosses": [
+      {
+       "word": "ὀστᾶ",
+       "kind": "en",
+       "value": "bones (τὸ ὀστοῦν)"
+      },
+      {
+       "word": "ἡμέρας",
+       "kind": "note",
+       "value": "δύο ἡμέρας: for two days (accusative of extent of time)"
+      },
+      {
+       "word": "σκηνῇ",
+       "kind": "en",
+       "value": "tent"
+      },
+      {
+       "word": "ἔκειτο",
+       "kind": "en",
+       "value": "lay (κεῖμαι)"
+      },
+      {
+       "word": "οἰκεῖοι",
+       "kind": "<",
+       "value": "οἶκος: relatives, family"
+      }
+     ]
+    },
+    {
+     "text": "ἔπειτα ἅμαξαι λάρνακας κυπαριττίνας ἔφερον, μίαν ἑκάστης φυλῆς· μία δὲ κλίνη κενὴ ἐφέρετο ἀντὶ τῶν ἀφανῶν, ὧν τὰ σώματα οὐχ εὑρέθη.",
+     "glosses": [
+      {
+       "word": "λάρνακας",
+       "kind": "en",
+       "value": "coffins (ἡ λάρναξ)"
+      },
+      {
+       "word": "κυπαριττίνας",
+       "kind": "en",
+       "value": "of cypress wood"
+      },
+      {
+       "word": "μίαν",
+       "kind": "|",
+       "value": "εἷς, μία, ἕν: one"
+      },
+      {
+       "word": "ἑκάστης",
+       "kind": "en",
+       "value": "each (ἕκαστος)"
+      },
+      {
+       "word": "φυλῆς",
+       "kind": "en",
+       "value": "tribe (Athens had ten)"
+      },
+      {
+       "word": "κενὴ",
+       "kind": "↔",
+       "value": "πλήρης (empty)"
+      },
+      {
+       "word": "ἀφανῶν",
+       "kind": "en",
+       "value": "the missing, those not found"
+      }
+     ]
+    },
+    {
+     "text": "τοσοῦτοι δὲ εἵποντο, καὶ ἀστοὶ καὶ ξένοι, ὅσους ὁ Λύσις οὔποτε εἶδεν· αἱ δὲ γυναῖκες ὀλοφυρόμεναι ἐπὶ τὸν τάφον ἦλθον.",
+     "glosses": [
+      {
+       "word": "ἀστοὶ",
+       "kind": "<",
+       "value": "ἄστυ: townsmen, citizens"
+      },
+      {
+       "word": "ὀλοφυρόμεναι",
+       "kind": "en",
+       "value": "lamenting, wailing"
+      },
+      {
+       "word": "τάφον",
+       "kind": "pic",
+       "value": "taphos"
+      }
+     ]
+    },
+    {
+     "text": "ἐν τοῖς ἀποθανοῦσιν ἦν καὶ ὁ ἀδελφὸς τοῦ Δίωνος, ὃς ἱππεὺς ὢν ἐν ἱππομαχίᾳ ἀπέθανεν· ἡ δὲ μήτηρ αὐτοῦ ἔκλαιεν, καὶ ἡ Χρυσὶς μετ' αὐτῆς.",
+     "glosses": [
+      {
+       "word": "ἀδελφὸς",
+       "kind": "en",
+       "value": "brother"
+      },
+      {
+       "word": "ἱππεὺς",
+       "kind": "<",
+       "value": "ἵππος: a horseman, cavalryman"
+      },
+      {
+       "word": "ἱππομαχίᾳ",
+       "kind": "<",
+       "value": "ἵππος + μάχη: a cavalry fight"
+      }
+     ]
+    },
+    {
+     "text": "ἐνταῦθα δέ, ἐν τῷ δημοσίῳ σήματι ἐν τῷ Κεραμεικῷ, ἐτάφησαν, οὐ πόρρω τοῦ ἐργαστηρίου τοῦ Ἀρίστωνος.",
+     "glosses": [
+      {
+       "word": "ἐνταῦθα",
+       "kind": "en",
+       "value": "there, here"
+      },
+      {
+       "word": "δημοσίῳ",
+       "kind": "en",
+       "value": "public"
+      },
+      {
+       "word": "σήματι",
+       "kind": "en",
+       "value": "tomb, burial ground (τὸ σῆμα)"
+      },
+      {
+       "word": "ἐτάφησαν",
+       "kind": "|",
+       "value": "θάπτει · ἐτάφησαν 'were buried' (aorist passive without θ)"
+      },
+      {
+       "word": "πόρρω",
+       "kind": "en",
+       "value": "far from"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-9-4-c",
+   "sentences": [
+    {
+     "text": "ἐπεὶ δὲ ἔθαψαν, ὁ Περικλῆς, ὃν ἡ πόλις εἵλετο, ἐνταῦθα ἐπὶ βῆμα ὑψηλὸν ἀνέβη, ὅπως ὑπὸ πάντων ἀκούοιτο, καὶ ἔλεγε τοιάδε.",
+     "glosses": [
+      {
+       "word": "ἐπεὶ",
+       "kind": "en",
+       "value": "when"
+      },
+      {
+       "word": "εἵλετο",
+       "kind": "en",
+       "value": "chose (αἱρέομαι)"
+      },
+      {
+       "word": "βῆμα",
+       "kind": "<",
+       "value": "βαίνω: a speaker's platform"
+      },
+      {
+       "word": "ὑψηλὸν",
+       "kind": "en",
+       "value": "high"
+      },
+      {
+       "word": "ὑπὸ",
+       "kind": "en",
+       "value": "ὑπό + genitive: by"
+      },
+      {
+       "word": "ἀκούοιτο",
+       "kind": "note",
+       "value": "ὅπως … ἀκούοιτο: purpose after a past verb, optative"
+      },
+      {
+       "word": "τοιάδε",
+       "kind": "en",
+       "value": "the following (τοιόσδε: such as this)"
+      }
+     ]
+    },
+    {
+     "text": "«οἱ μὲν πολλοὶ τῶν ἐνθάδε ἤδη εἰπόντων ἐπαινοῦσι τὸν νόμον, ὡς καλόν ἐστιν ἐπὶ τοῖς ἐκ τῶν πολέμων θαπτομένοις λόγον λέγεσθαι.",
+     "glosses": [
+      {
+       "word": "ἐνθάδε",
+       "kind": "en",
+       "value": "here"
+      },
+      {
+       "word": "ἐπαινοῦσι",
+       "kind": "en",
+       "value": "praise"
+      },
+      {
+       "word": "ὡς",
+       "kind": "en",
+       "value": "saying that, on the ground that"
+      },
+      {
+       "word": "ἐπὶ",
+       "kind": "en",
+       "value": "ἐπί + dative: over, in honour of"
+      }
+     ],
+     "orig": [
+      0
+     ]
+    },
+    {
+     "text": "ἐμοὶ δὲ ἱκανὸν ἐδόκει εἶναι, ἀνδρῶν ἀγαθῶν ἔργῳ γενομένων, ἔργῳ καὶ τὰς τιμὰς δηλοῦσθαι, οἷα καὶ νῦν περὶ τὸν τάφον τόνδε δημοσίᾳ παρασκευασθέντα ὁρᾶτε,",
+     "glosses": [
+      {
+       "word": "ἱκανὸν",
+       "kind": "en",
+       "value": "enough"
+      },
+      {
+       "word": "ἐδόκει",
+       "kind": "en",
+       "value": "it seemed (to me)"
+      },
+      {
+       "word": "ἔργῳ",
+       "kind": "note",
+       "value": "ἔργῳ: in deed, by action (dative of manner), opposed to λόγῳ 'in word'"
+      },
+      {
+       "word": "οἷα",
+       "kind": "en",
+       "value": "such as"
+      },
+      {
+       "word": "παρασκευασθέντα",
+       "kind": "en",
+       "value": "prepared, provided"
+      }
+     ],
+     "orig": [
+      1
+     ]
+    },
+    {
+     "text": "καὶ μὴ ἐν ἑνὶ ἀνδρὶ πολλῶν ἀρετὰς κινδυνεύεσθαι.»",
+     "glosses": [
+      {
+       "word": "ἑνὶ",
+       "kind": "|",
+       "value": "εἷς · ἑνός · ἑνί: one"
+      },
+      {
+       "word": "ἀρετὰς",
+       "kind": "en",
+       "value": "courage, excellence (ἡ ἀρετή)"
+      },
+      {
+       "word": "κινδυνεύεσθαι",
+       "kind": "en",
+       "value": "to be put at risk"
+      }
+     ],
+     "orig": [
+      1
+     ]
+    },
+    {
+     "text": "ἐπεὶ δὲ οἴκαδε ἦλθον, ὁ Μικίων ἤρετο τὸν Λύσιν τί εἴποι ὁ Περικλῆς· οὐ γὰρ πάντα ἤκουσεν.",
+     "glosses": [
+      {
+       "word": "εἴποι",
+       "kind": "|",
+       "value": "εἶπε · εἴποι (optative in an indirect question)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λύσις εἶπεν ὅτι ὁ Περικλῆς τήν τε δύναμιν τῆς πόλεως καὶ τοὺς νόμους ἐπαινοίη· «οὐδεμία γάρ», ἔφη, «πόλις τοιαύτη ἐστὶν οἵα ἡ ἡμετέρα.»",
+     "glosses": [
+      {
+       "word": "ἐπαινοίη",
+       "kind": "|",
+       "value": "ἐπαινεῖ · ἐπαινοίη (optative in indirect speech)"
+      },
+      {
+       "word": "τοιαύτη",
+       "kind": "note",
+       "value": "τοιαύτη … οἵα: such … as"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Κλεινίας οὐδὲν ἔλεγεν· ἐφοβεῖτο γὰρ μὴ πολλοὶ ἔτι ἀποθάνοιεν.",
+     "glosses": [
+      {
+       "word": "οὐδὲν",
+       "kind": "en",
+       "value": "nothing"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "οπλιτης",
+   "pic": "hoplites",
+   "gloss_grc": "ὁ ὁπλίτης · οἱ ὁπλῖται"
+  },
+  {
+   "id": "μαχη",
+   "pic": "mache",
+   "gloss_grc": "ἡ μάχη < μάχομαι"
+  },
+  {
+   "id": "αποθνησκω",
+   "gloss_grc": "ἀποθνῄσκω · ἀπέθανον · οἱ ἀποθανόντες"
+  },
+  {
+   "id": "θαπτω",
+   "pic": "verb-thaptei",
+   "gloss_grc": "θάπτω · ἔθαψα · ἐτάφην"
+  },
+  {
+   "id": "ταφος",
+   "pic": "taphos",
+   "gloss_grc": "ὁ τάφος < θάπτω"
+  },
+  {
+   "id": "οιος",
+   "gloss_grc": "τοιοῦτος … οἷος"
+  },
+  {
+   "id": "τοιουτος",
+   "gloss_grc": "τοιοῦτος, τοιαύτη, τοιοῦτο(ν)"
+  },
+  {
+   "id": "τοσουτος",
+   "gloss_grc": "τοσοῦτος … ὅσος"
+  },
+  {
+   "id": "οσος",
+   "gloss_grc": "ὅσος, ὅση, ὅσον · πόσος; τοσοῦτος"
+  },
+  {
+   "id": "ενταυθα",
+   "gloss_grc": "ἐνταῦθα = ἐκεῖ, ἐνθάδε"
+  },
+  {
+   "id": "δυναμις",
+   "gloss_grc": "< δύναμαι · πάσῃ τῇ δυνάμει"
+  },
+  {
+   "id": "αντι",
+   "gloss_grc": "ἀντί + gen. · ἀντὶ τῶν ἀφανῶν"
+  }
+ ],
+ "notice": [
+  "ὁ Λύσις ἤρετο εἰ μάχη γένοιτο. — εἶπεν ὅτι μάχη οὐδεμία γένοιτο.",
+  "ὁ Μικίων ἤρετο τί εἴποι ὁ Περικλῆς.",
+  "χειμῶνος · δύο ἡμέρας · πάσῃ τῇ δυνάμει · δημοσίᾳ · ἀντὶ τῶν ἀφανῶν",
+  "τοσοῦτος … ὅσος οὔποτε πρότερον · τοιαῦτα … οἷα · τοιαύτη … οἵα"
+ ],
+ "grammar": {
+  "md": "**1. The optative in indirect speech.** After a **past** verb of saying or asking, the verb of a ὅτι-clause or an indirect question *may* change to the optative of the same tense (it may also stay as it was). The optative adds nothing to the meaning; it simply marks the words as reported:\n\n| direct | reported after a past verb |\n|---|---|\n| «μάχη οὐδεμία ἐγένετο.» | εἶπεν ὅτι μάχη οὐδεμία **γένοιτο** (or ἐγένετο) |\n| «ἆρα μάχη ἐγένετο;» | ἤρετο εἰ μάχη **γένοιτο** |\n| «τί εἶπεν ὁ Περικλῆς;» | ἤρετο τί **εἴποι** ὁ Περικλῆς |\n| «τὴν πόλιν ἐπαινεῖ.» | εἶπεν ὅτι τὴν πόλιν **ἐπαινοίη** |\n\nTogether with 9.3 this completes the rule of sequence: after a past main verb, subjunctives and indicatives in dependent clauses may become optatives.\n\n**2. The cases, in full.** You have met each use separately; here they are side by side.\n\n| case | use | example |\n|---|---|---|\n| genitive | possession, part of a whole | ἡ γῆ τῶν Μεγαρέων · μύριοι τῶν πολιτῶν · οἱ πολλοὶ τῶν εἰπόντων |\n| | time within which | χειμῶνος 'in winter' · θέρους |\n| | with prepositions of separation, ἀντί | ἐκ τῆς πόλεως · ἀντὶ τῶν ἀφανῶν |\n| | with verbs (ἡγέομαι, ἀκούω, ἄρχω) | ἡγεῖτο αὐτῶν ὁ Περικλῆς |\n| dative | indirect object, interest | οἱ οἰκεῖοι αὐτοῖς δῶρα ἔφερον |\n| | means, instrument, manner | πάσῃ τῇ δυνάμει · ἔργῳ · δημοσίᾳ |\n| | time when | τῇ ὑστεραίᾳ, τῷ χειμῶνι |\n| accusative | direct object | τὴν γῆν ἔτεμον |\n| | two objects (person and thing) | τοιαῦτα τοὺς Μεγαρέας ἐποιήσαμεν |\n| | extent of time and space | δύο ἡμέρας · ἑξήκοντα σταδίους |\n| | subject of an infinitive (9.1) | οἴομαι τοὺς Λακεδαιμονίους … καίειν |\n\n**3. Correlatives.** Question words, demonstratives and relatives come in matching sets:\n\n| question | 'this, so' | relative 'as, which' |\n|---|---|---|\n| ποῖος; of what sort? | **τοιοῦτος** (τοιόσδε) such | **οἷος** as, such as |\n| πόσος; how big, how many? | **τοσοῦτος** so big, so many | **ὅσος** as big as, as many as |\n| ποῦ; where? | ἐνταῦθα, ἐκεῖ there | οὗ where |\n| πότε; when? | τότε then | ὅτε when |\n| πῶς; how? | οὕτως so | ὡς as |\n\nThey are used in pairs: *ὁ στρατὸς τοσοῦτος ἦν ὅσος οὔποτε πρότερον* 'the army was as big as never before'; *οὐδεμία πόλις τοιαύτη ἐστὶν οἵα ἡ ἡμετέρα* 'no city is such as ours'. τοιοῦτος and τοσοῦτος decline like οὗτος (τοιοῦτος, τοιαύτη, τοιοῦτο(ν)); οἷος and ὅσος like καλός.",
+  "paradigms": [
+   "houtos",
+   "hos"
+  ],
+  "diagram": "diagram-moods"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings of the correlatives.",
+   "template": "ὁ στρατὸς τοσοῦτ___ ἦν ὅσος οὔποτε πρότερον. οὐδεμία πόλις τοιαύτ___ ἐστὶν οἵα ἡ ἡμετέρα. τοιαῦτα ἐποιήσαμεν οἷ___ οἱ Λακεδαιμόνιοι ἡμᾶς. τοσοῦτοι εἵποντο ὅσ___ ὁ Λύσις οὔποτε εἶδεν.",
+   "gaps": [
+    {
+     "answers": [
+      "ος"
+     ]
+    },
+    {
+     "answers": [
+      "η"
+     ]
+    },
+    {
+     "answers": [
+      "α"
+     ]
+    },
+    {
+     "answers": [
+      "ους"
+     ]
+    }
+   ],
+   "skills": [
+    "pron.correlatives"
+   ],
+   "explain": "τοσοῦτος … ὅσος (m. sg.), τοιαύτη … οἵα (f. sg.), τοιαῦτα … οἷα (n. pl.); ὅσους is object of εἶδεν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ Λύσις ἤρετο εἰ μάχη ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "γένοιτο"
+    },
+    {
+     "id": "b",
+     "text": "γίγνεσθαι"
+    },
+    {
+     "id": "c",
+     "text": "γενήσεσθαι"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.opt-indirect",
+    "syntax.indirect-question"
+   ],
+   "explain": "An indirect question after the past ἤρετο: εἰ + optative.",
+   "audio": "ὁ Λύσις ἤρετο εἰ μάχη γένοιτο."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · οἱ Ἀθηναῖοι πάσῃ τῇ ___ εἰς τὴν Μεγαρίδα εἰσέβαλον.",
+   "options": [
+    {
+     "id": "a",
+     "text": "δυνάμει"
+    },
+    {
+     "id": "b",
+     "text": "δύναμιν"
+    },
+    {
+     "id": "c",
+     "text": "δυνάμεως"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cases",
+    "syntax.dat.uses"
+   ],
+   "explain": "Dative of means or accompaniment: πάσῃ τῇ δυνάμει 'with all their forces'.",
+   "audio": "οἱ Ἀθηναῖοι πάσῃ τῇ δυνάμει εἰς τὴν Μεγαρίδα εἰσέβαλον."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἡ κλίνη κενὴ ἐφέρετο ___ τῶν ἀφανῶν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀντὶ"
+    },
+    {
+     "id": "b",
+     "text": "εἰς"
+    },
+    {
+     "id": "c",
+     "text": "ἐν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cases",
+    "syntax.gen.uses"
+   ],
+   "explain": "ἀντί takes the genitive: 'in place of the missing'.",
+   "audio": "ἡ κλίνη κενὴ ἐφέρετο ἀντὶ τῶν ἀφανῶν."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ὁπλίτης",
+   "options": [
+    {
+     "id": "a",
+     "image": "hoplites"
+    },
+    {
+     "id": "b",
+     "image": "stratos"
+    },
+    {
+     "id": "c",
+     "image": "eretes"
+    },
+    {
+     "id": "d",
+     "image": "phylax"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ὁ ὁπλίτης: a heavy-armed foot soldier.",
+   "audio": "prompt"
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ὁ τάφος",
+   "options": [
+    {
+     "id": "a",
+     "image": "taphos"
+    },
+    {
+     "id": "b",
+     "image": "bomos"
+    },
+    {
+     "id": "c",
+     "image": "naos"
+    },
+    {
+     "id": "d",
+     "image": "pyrgos"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ὁ τάφος: a grave, tomb.",
+   "audio": "prompt"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of ἀποθνῄσκω for 'he died'.",
+   "lemma": "ἀποθνῄσκω",
+   "cell": "aorist.active.indicative.3sg",
+   "skills": [
+    "verb.aor2.stem"
+   ],
+   "explain": "ἀπέθανε(ν): second aorist ἀπ-έ-θαν-ον.",
+   "audio": "ἀπέθανεν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist passive of θάπτω for 'they were buried'.",
+   "lemma": "θάπτω",
+   "cell": "second aorist.passive.indicative.3pl",
+   "skills": [
+    "verb.aor.pass.ind.3pl"
+   ],
+   "explain": "ἐτάφησαν: a second aorist passive, no θ (compare ἐγράφην).",
+   "audio": "ἐτάφησαν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist optative of εἶπον, third person singular (as in ἤρετο τί … ὁ Περικλῆς).",
+   "lemma": "εἶπον",
+   "cell": "aorist.active.optative.3sg",
+   "skills": [
+    "syntax.opt-indirect",
+    "verb.aor.act.opt.3sg"
+   ],
+   "explain": "εἴποι: aorist optative, in an indirect question after a past verb.",
+   "audio": "εἴποι"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse γένοιτο in: ὁ Ἀρίστων εἶπεν ὅτι μάχη οὐδεμία γένοιτο.",
+   "form": "γένοιτο",
+   "groups": [
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      }
+     ]
+    },
+    {
+     "id": "why",
+     "label": "Why this mood in εἶπεν ὅτι μάχη οὐδεμία γένοιτο?",
+     "options": [
+      {
+       "id": "wish",
+       "label": "a wish"
+      },
+      {
+       "id": "ind",
+       "label": "indirect speech after a past verb"
+      },
+      {
+       "id": "fear",
+       "label": "a fear clause"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "mood": "opt",
+    "why": "ind"
+   },
+   "skills": [
+    "syntax.opt-indirect"
+   ],
+   "explain": "Reported speech after εἶπεν: the aorist indicative ἐγένετο may become the aorist optative γένοιτο.",
+   "audio": "γένοιτο"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse χειμῶνος in: χειμῶνος δὲ τοὺς ἀποθανόντας ἔθαπτον.",
+   "form": "χειμῶνος",
+   "groups": [
+    {
+     "id": "case",
+     "label": "Case",
+     "options": [
+      {
+       "id": "nom",
+       "label": "nominative"
+      },
+      {
+       "id": "gen",
+       "label": "genitive"
+      },
+      {
+       "id": "dat",
+       "label": "dative"
+      },
+      {
+       "id": "acc",
+       "label": "accusative"
+      }
+     ]
+    },
+    {
+     "id": "use",
+     "label": "Use",
+     "options": [
+      {
+       "id": "poss",
+       "label": "possession"
+      },
+      {
+       "id": "time",
+       "label": "time within which"
+      },
+      {
+       "id": "part",
+       "label": "part of a whole"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "case": "gen",
+    "use": "time"
+   },
+   "skills": [
+    "syntax.cases",
+    "syntax.gen.uses",
+    "syntax.time"
+   ],
+   "explain": "χειμῶνος 'in (the course of) the winter': genitive of time within which.",
+   "audio": "χειμῶνος"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ Ἀρίστων εἶπεν ὅτι οἱ Μεγαρῆς οὐκ ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐξέλθοιεν"
+    },
+    {
+     "id": "b",
+     "text": "ἐξέλθωσιν"
+    },
+    {
+     "id": "c",
+     "text": "ἐξελθεῖν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.opt-indirect"
+   ],
+   "explain": "ὅτι-clause after the past εἶπεν: optative ἐξέλθοιεν (or the indicative ἐξῆλθον)."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "οὐδεμία πόλις τοιαύτη ἐστὶν ___ ἡ ἡμετέρα.",
+   "options": [
+    {
+     "id": "a",
+     "text": "οἵα"
+    },
+    {
+     "id": "b",
+     "text": "ὅση"
+    },
+    {
+     "id": "c",
+     "text": "ὅτε"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "pron.correlatives"
+   ],
+   "explain": "τοιαύτη … οἵα: 'such … as'."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "τὰ ὀστᾶ δύο ___ ἐν σκηνῇ ἔκειτο.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἡμέρας"
+    },
+    {
+     "id": "b",
+     "text": "ἡμερῶν"
+    },
+    {
+     "id": "c",
+     "text": "ἡμέραις"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cases",
+    "syntax.acc.extent"
+   ],
+   "explain": "How long? Accusative of extent of time: δύο ἡμέρας."
+  },
+  {
+   "type": "label",
+   "prompt": "πάσῃ τῇ δυνάμει εἰσέβαλον. — Which use of the dative?",
+   "options": [
+    {
+     "id": "a",
+     "text": "means or accompaniment (with what)"
+    },
+    {
+     "id": "b",
+     "text": "indirect object (to whom)"
+    },
+    {
+     "id": "c",
+     "text": "time when"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cases",
+    "syntax.dat.uses"
+   ],
+   "explain": "πάσῃ τῇ δυνάμει 'with their whole force'."
+  },
+  {
+   "type": "label",
+   "prompt": "τοιαῦτα τοὺς Μεγαρέας ἐποιήσαμεν. — Why two accusatives?",
+   "options": [
+    {
+     "id": "a",
+     "text": "ποιέω can take the person and the thing done to them"
+    },
+    {
+     "id": "b",
+     "text": "one is the subject of an infinitive"
+    },
+    {
+     "id": "c",
+     "text": "one expresses time"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cases"
+   ],
+   "explain": "ποιεῖν τινά τι 'to do something to someone': both in the accusative."
+  },
+  {
+   "type": "label",
+   "prompt": "ὁ Μικίων ἤρετο τί εἴποι ὁ Περικλῆς. — What did Mikion actually say?",
+   "options": [
+    {
+     "id": "a",
+     "text": "«τί εἶπεν ὁ Περικλῆς;»"
+    },
+    {
+     "id": "b",
+     "text": "«τί εἴπῃ ὁ Περικλῆς;»"
+    },
+    {
+     "id": "c",
+     "text": "«εἰπὲ ὦ Περίκλεις.»"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.opt-indirect",
+    "syntax.indirect-question"
+   ],
+   "explain": "The optative εἴποι stands for the indicative εἶπεν of the direct question."
+  },
+  {
+   "type": "transform",
+   "prompt": "Report it after a past verb, with the optative: ὁ Ἀρίστων λέγει ὅτι μάχη οὐδεμία ἐγένετο. → ὁ Ἀρίστων εἶπεν ὅτι μάχη οὐδεμία …",
+   "template": "ὁ Ἀρίστων εἶπεν ὅτι μάχη οὐδεμία ___.",
+   "gaps": [
+    {
+     "answers": [
+      "γένοιτο"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.opt-indirect"
+   ],
+   "explain": "Aorist indicative ἐγένετο → aorist optative γένοιτο.",
+   "audio": "ὁ Ἀρίστων εἶπεν ὅτι μάχη οὐδεμία γένοιτο."
+  },
+  {
+   "type": "transform",
+   "prompt": "Report the question: ὁ Λύσις· «ἆρα ὁ πατὴρ ἀποθνῄσκει;» → ὁ Λύσις ἤρετο εἰ ὁ πατὴρ …",
+   "template": "ὁ Λύσις ἤρετο εἰ ὁ πατὴρ ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἀποθνῄσκοι",
+      "ἀποθνῄσκει"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.opt-indirect",
+    "syntax.indirect-question",
+    "verb.pres.act.opt.3sg"
+   ],
+   "explain": "Present indicative → present optative: ἀποθνῄσκοι (or kept: ἀποθνῄσκει).",
+   "audio": "ὁ Λύσις ἤρετο εἰ ὁ πατὴρ ἀποθνῄσκοι."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the optatives of indirect speech.",
+   "sentence": "ὁ Μικίων ἤρετο τί εἴποι ὁ Περικλῆς· ὁ δὲ Λύσις εἶπεν ὅτι ὁ Περικλῆς τὴν πόλιν ἐπαινοίη.",
+   "answer": [
+    4,
+    16
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.opt-indirect"
+   ],
+   "explain": "εἴποι (indirect question) and ἐπαινοίη (ὅτι-clause), both after past verbs."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the pair of correlatives.",
+   "sentence": "ὁ δὲ στρατὸς τοσοῦτος ἦν ὅσος οὔποτε πρότερον.",
+   "answer": [
+    3,
+    5
+   ],
+   "skills": [
+    "read.locate",
+    "pron.correlatives"
+   ],
+   "explain": "τοσοῦτος … ὅσος 'as big … as'."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'Lysis asked whether there had been a battle.'",
+   "tokens": [
+    "γένοιτο",
+    "ἤρετο",
+    "μάχη",
+    "ὁ",
+    "εἰ",
+    "Λύσις"
+   ],
+   "answers": [
+    "ὁ Λύσις ἤρετο εἰ μάχη γένοιτο",
+    "ἤρετο ὁ Λύσις εἰ μάχη γένοιτο",
+    "ὁ Λύσις ἤρετο εἰ γένοιτο μάχη"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "syntax.opt-indirect"
+   ],
+   "explain": "ὁ Λύσις ἤρετο εἰ μάχη γένοιτο."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "μία δὲ κλίνη κενὴ ἐφέρετο ἀντὶ τῶν ἀφανῶν."
+    },
+    {
+     "id": "b",
+     "text": "μία δὲ ἅμαξα κενὴ ἐφέρετο ἀντὶ τῶν ἀφανῶν."
+    },
+    {
+     "id": "c",
+     "text": "πολλαὶ δὲ κλῖναι κεναὶ ἐφέροντο."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences",
+    "syntax.cases"
+   ],
+   "explain": "'And one empty bier was carried for the missing.'",
+   "audio": "μία δὲ κλίνη κενὴ ἐφέρετο ἀντὶ τῶν ἀφανῶν."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἐν τῇ Μεγαρίδι μεγάλη μάχη ἐγένετο.",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "μάχη οὐδεμία γένοιτο· οἱ γὰρ Μεγαρῆς οὐκ ἐξῆλθον.",
+   "audio": "prompt"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "αἱ ἅμαξαι λάρνακας ἔφερον, μίαν ἑκάστης φυλῆς.",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἅμαξαι λάρνακας κυπαριττίνας ἔφερον, μίαν ἑκάστης φυλῆς.",
+   "audio": "prompt"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Κλεινίας ἐφοβεῖτο μὴ πολλοὶ ἔτι ἀποθάνοιεν.",
+   "answer": "true",
+   "skills": [
+    "read.comprehension",
+    "syntax.opt-secondary"
+   ],
+   "explain": "ἐφοβεῖτο γὰρ μὴ πολλοὶ ἔτι ἀποθάνοιεν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "gaps": [
+    {
+     "answers": [
+      "ἐνταῦθα ἐν τῷ δημοσίῳ σήματι ἐτάφησαν"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "ἐνταῦθα ἐν τῷ δημοσίῳ σήματι ἐτάφησαν.",
+   "audio": "ἐνταῦθα ἐν τῷ δημοσίῳ σήματι ἐτάφησαν."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Ariston said that there had been no battle.' (ὅτι + optative)",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ Ἀρίστων εἶπεν ὅτι μάχη οὐδεμία γένοιτο",
+      "ὁ Ἀρίστων εἶπεν ὅτι οὐδεμία μάχη γένοιτο",
+      "εἶπεν ὁ Ἀρίστων ὅτι μάχη οὐδεμία γένοιτο",
+      "ὁ Ἀρίστων εἶπεν ὅτι οὐδεμία γένοιτο μάχη"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.opt-indirect"
+   ],
+   "explain": "ὁ Ἀρίστων εἶπεν ὅτι μάχη οὐδεμία γένοιτο."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The army was as large as never before.' (τοσοῦτος … ὅσος)",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ στρατὸς τοσοῦτος ἦν ὅσος οὔποτε πρότερον",
+      "ὁ στρατὸς ἦν τοσοῦτος ὅσος οὔποτε πρότερον",
+      "τοσοῦτος ἦν ὁ στρατὸς ὅσος οὔποτε πρότερον"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "pron.correlatives"
+   ],
+   "explain": "ὁ στρατὸς τοσοῦτος ἦν ὅσος οὔποτε πρότερον."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: ἐμοὶ δὲ ἱκανὸν ἐδόκει εἶναι, ἀνδρῶν ἀγαθῶν ἔργῳ γενομένων, ἔργῳ καὶ τὰς τιμὰς δηλοῦσθαι.",
+   "model": "To me it seemed enough, since the men proved brave in deed, that their honours too should be shown in deed.",
+   "skills": [
+    "read.comprehension",
+    "read.thucydides",
+    "syntax.cases"
+   ],
+   "explain": "Genitive absolute (ἀνδρῶν … γενομένων); ἔργῳ 'in deed', dative of manner, set against speeches (λόγῳ).",
+   "audio": "ἐμοὶ δὲ ἱκανὸν ἐδόκει εἶναι, ἀνδρῶν ἀγαθῶν ἔργῳ γενομένων, ἔργῳ καὶ τὰς τιμὰς δηλοῦσθαι."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "θάπτω",
+     "right": "epitaph (ἐπιτάφιος, 'at the grave')"
+    },
+    {
+     "left": "τάφος",
+     "right": "cenotaph (κενὸς τάφος, 'empty tomb')"
+    },
+    {
+     "left": "δύναμις",
+     "right": "dynamo, dynamic"
+    },
+    {
+     "left": "ὁπλίτης",
+     "right": "panoply (πανοπλία, 'full armour')"
+    },
+    {
+     "left": "ἀντί",
+     "right": "antidote, antipathy"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "Pericles' speech is the ἐπιτάφιος λόγος; the κλίνη κενή of the funeral is the first cenotaph of the war; ὅπλον 'weapon'; ἀντί 'against, instead of'."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "ποῖ οἱ Ἀθηναῖοι περὶ τὸ φθινόπωρον εἰσέβαλον;",
+   "options": [
+    {
+     "id": "a",
+     "text": "εἰς τὴν Μεγαρίδα."
+    },
+    {
+     "id": "b",
+     "text": "εἰς τὴν Λακεδαίμονα."
+    },
+    {
+     "id": "c",
+     "text": "εἰς Ἀχαρνάς."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "εἰς τὴν Μεγαρίδα εἰσέβαλον.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "πόσοι ὁπλῖται τῶν πολιτῶν ἦσαν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "μύριοι."
+    },
+    {
+     "id": "b",
+     "text": "τρισχίλιοι."
+    },
+    {
+     "id": "c",
+     "text": "ἑκατόν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "pron.correlatives"
+   ],
+   "explain": "μύριοι γὰρ ἦσαν ὁπλῖται τῶν πολιτῶν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί εἶπεν ὁ Ἀρίστων;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὅτι μάχη οὐδεμία γένοιτο."
+    },
+    {
+     "id": "b",
+     "text": "ὅτι πολλοὶ ἀποθάνοιεν."
+    },
+    {
+     "id": "c",
+     "text": "ὅτι οἱ Μεγαρῆς νικήσειαν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.opt-indirect"
+   ],
+   "explain": "εἶπεν ὅτι μάχη οὐδεμία γένοιτο.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί μία κλίνη κενὴ ἐφέρετο;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀντὶ τῶν ἀφανῶν."
+    },
+    {
+     "id": "b",
+     "text": "ἀντὶ τοῦ Περικλέους."
+    },
+    {
+     "id": "c",
+     "text": "ἀντὶ τῶν ἁμαξῶν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.cases"
+   ],
+   "explain": "ἀντὶ τῶν ἀφανῶν, ὧν τὰ σώματα οὐχ εὑρέθη.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίς ἐπὶ τὸ βῆμα ἀνέβη;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Περικλῆς."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Ἀρίστων."
+    },
+    {
+     "id": "c",
+     "text": "ὁ ἀδελφὸς τοῦ Δίωνος."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὁ Περικλῆς … ἐπὶ βῆμα ὑψηλὸν ἀνέβη.",
+   "audio": "prompt"
+  }
+ ],
+ "culture": {
+  "title": "The public funeral",
+  "md": "Thucydides describes the Athenian custom (the πάτριος νόμος) for the war dead, as it was carried out in the winter of 431/0 for the first men killed in this war. The bones of the dead, cremated where they fell, were laid out in a tent for two days, and relatives brought offerings. Then wagons carried coffins of cypress wood, one for each of the ten tribes, with each man's bones in his own tribe's coffin, and one empty bier, spread with a cloth, for those whose bodies could not be recovered. Anyone who wished, citizen or foreigner, joined the procession; the women of the family lamented at the grave. The dead were buried in the public tomb (δημόσιον σῆμα) in the most beautiful suburb of the city, along the road from the Dipylon Gate through the outer Kerameikos, where Ariston's neighbours fired their pots. Only the dead of Marathon had been buried where they fell, for their outstanding courage. Their names were cut on marble lists, tribe by tribe, without father's name or deme: in death every citizen was equal.\n\nThen a man chosen by the city for his judgement and standing spoke over them. In 431 it was **Pericles**. He stood on a high platform so that as many as possible could hear, and began, oddly, by doubting the custom of the speech itself: brave deeds, he says, should be honoured with deeds, and many men's courage should not depend on one speaker. Most of the speech that follows (2.35–46) praises not the dead but the city they died for, and it has been quoted ever since. Whether the words are Pericles' or Thucydides' is still argued.\n\nWith the funeral the first year of the war ends. From here on the course also opens **side readings** in four tracks, mythology, philosophy, history and politics, for you to follow alongside Units 10–12.",
+  "image": "culture-9-4-casualty-list"
+ },
+ "quiz": [
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ Λύσις ἤρετο τί ὁ Περικλῆς ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "εἴποι"
+    },
+    {
+     "id": "b",
+     "text": "εἰπεῖν"
+    },
+    {
+     "id": "c",
+     "text": "εἴπῃ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.opt-indirect",
+    "syntax.indirect-question"
+   ],
+   "explain": "Indirect question after a past verb: optative εἴποι."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ στρατὸς τοσοῦτος ἦν ___ οὔποτε πρότερον.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὅσος"
+    },
+    {
+     "id": "b",
+     "text": "οἷος"
+    },
+    {
+     "id": "c",
+     "text": "ὅς"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "pron.correlatives"
+   ],
+   "explain": "τοσοῦτος … ὅσος."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "___ δὲ οἱ Ἀθηναῖοι τοὺς ἀποθανόντας ἔθαπτον. (in winter)",
+   "options": [
+    {
+     "id": "a",
+     "text": "χειμῶνος"
+    },
+    {
+     "id": "b",
+     "text": "χειμῶνα"
+    },
+    {
+     "id": "c",
+     "text": "χειμών"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cases",
+    "syntax.time"
+   ],
+   "explain": "Genitive of time within which: χειμῶνος."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist participle of ἀποθνῄσκω, accusative plural masculine ('the dead', as object).",
+   "lemma": "ἀποθνῄσκω",
+   "cell": "aorist.active.participle.acc.pl.m",
+   "skills": [
+    "verb.ptc.aor.act.acc"
+   ],
+   "explain": "τοὺς ἀποθανόντας.",
+   "audio": "ἀποθανόντας"
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ἡ μάχη",
+   "options": [
+    {
+     "id": "a",
+     "image": "mache"
+    },
+    {
+     "id": "b",
+     "image": "pompe"
+    },
+    {
+     "id": "c",
+     "image": "thysia"
+    },
+    {
+     "id": "d",
+     "image": "naumachia"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ἡ μάχη: battle.",
+   "audio": "prompt"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Περικλῆς ἐπὶ βῆμα ὑψηλὸν ἀνέβη, ὅπως ὑπὸ πάντων ἀκούοιτο.",
+   "answer": "true",
+   "skills": [
+    "read.comprehension",
+    "syntax.opt-secondary"
+   ],
+   "explain": "Purpose after a past verb: ὅπως + optative.",
+   "audio": "prompt"
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Lysis asked what Pericles had said.' (optative)",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ Λύσις ἤρετο τί εἴποι ὁ Περικλῆς",
+      "ὁ Λύσις ἤρετο τί ὁ Περικλῆς εἴποι",
+      "ἤρετο ὁ Λύσις τί εἴποι ὁ Περικλῆς"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.opt-indirect",
+    "syntax.indirect-question"
+   ],
+   "explain": "ὁ Λύσις ἤρετο τί εἴποι ὁ Περικλῆς."
+  }
+ ],
+ "skills": [
+  "syntax.opt-indirect",
+  "syntax.indirect-question",
+  "syntax.cases",
+  "syntax.gen.uses",
+  "syntax.dat.uses",
+  "syntax.acc.extent",
+  "syntax.time",
+  "pron.correlatives",
+  "syntax.opt-secondary",
+  "verb.aor2.stem",
+  "verb.aor.pass.ind.3pl",
+  "verb.aor.act.opt.3sg",
+  "verb.pres.act.opt.3sg",
+  "verb.ptc.aor.act.acc",
+  "syntax.word-order",
+  "read.comprehension",
+  "read.thucydides",
+  "read.locate",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family"
+ ]
+}

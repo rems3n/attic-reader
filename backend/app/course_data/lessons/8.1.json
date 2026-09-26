@@ -1,0 +1,209 @@
+{
+ "id": "8.1",
+ "title_grc": "ἡ ἐκκλησία ἐν τῇ Πυκνί",
+ "title_en": "The Assembly on the Pnyx",
+ "summary_grc": "«τί ποιῶμεν; μὴ φύγωμεν, ἀλλὰ μαχώμεθα!» λέγει ὁ Δημόκριτος.",
+ "summary_en": "Late spring 431. The citizens climb the Pnyx; Demokritos and Kleinias speak about the coming war. The subjunctive: 'let us …', 'what are we to do?', 'don't …!', purpose clauses with ἵνα, ὅπως, ὡς, and ἐάν 'if'.",
+ "cover": "panel-8-1-b",
+ "caption_grc": "«μὴ φύγωμεν, ἀλλὰ μαχώμεθα. ἐὰν οἱ Λακεδαιμόνιοι ἔλθωσιν, πρὸς αὐτοὺς μαχούμεθα.»",
+ "names": {
+  "Θηβαῖος": ["Θηβαῖοι", "Θηβαίων", "Θηβαίοις", "Θηβαίους", "Θηβαίου", "Θηβαῖον"],
+  "Πλαταιαί": ["Πλαταιῶν", "Πλαταιαῖς", "Πλαταιάς"],
+  "Μαραθών": ["Μαραθῶνος", "Μαραθῶνι", "Μαραθῶνα"],
+  "Σαλαμίς": ["Σαλαμῖνος", "Σαλαμῖνι", "Σαλαμῖνα"]
+ },
+ "allow": {
+  "ἅμα": "unit 7",
+  "ὑπὲρ": "unit 7",
+  "τέλος": "unit 7"
+ },
+ "story": [
+  {
+   "image": "panel-8-1-a",
+   "sentences": [
+    {"text": "ἅμα τῇ ἡμέρᾳ πολλοὶ Ἀθηναῖοι εἰς τὴν Πύκνα ἀναβαίνουσιν· ἐκκλησία γάρ ἐστιν.", "glosses": [
+     {"word": "πολλοὶ", "kind": "|", "value": "πολύς | πολλοί: many"},
+     {"word": "Πύκνα", "kind": "en", "value": "ἡ Πνύξ, τὴν Πύκνα: the Pnyx, the hill where the Assembly meets"},
+     {"word": "ἐκκλησία", "kind": "pic", "value": "ekklesia"}
+    ]},
+    {"text": "καὶ ὁ Ἀρίστων καὶ ὁ Δημόκριτος ἀναβαίνουσιν· ὁ δὲ Λύσις καὶ ὁ Σύρος αὐτοῖς ἕπονται."},
+    {"text": "«ἆρα καὶ ἡμεῖς εἰσέλθωμεν, ὦ πάτερ;» ἐρωτᾷ ὁ Λύσις.", "glosses": [
+     {"word": "εἰσέλθωμεν", "kind": "|", "value": "εἰσήλθομεν → εἰσέλθωμεν; shall we go in? (subjunctive: no augment, long vowel)"}
+    ]},
+    {"text": "«οὐκ ἔξεστιν, ὦ παῖ. ἡ γὰρ ἐκκλησία κοινή ἐστι τῶν πολιτῶν· ἐνθάδε ὁ δῆμος λέγει καὶ ἀκούει. παῖδες δὲ καὶ γυναῖκες καὶ δοῦλοι οὐκ εἰσέρχονται.»", "glosses": [
+     {"word": "κοινή", "kind": "en", "value": "shared, common: κοινὴ τῶν πολιτῶν 'belonging to all the citizens'"},
+     {"word": "ἐνθάδε", "kind": "en", "value": "here"},
+     {"word": "δῆμος", "kind": "en", "value": "the people, the citizen body"}
+    ]},
+    {"text": "«μένωμεν οὖν ἐγγύς, ὦ Σύρε», λέγει ὁ Λύσις, «ἵνα τοὺς λόγους ἀκούωμεν.»", "glosses": [
+     {"word": "μένωμεν", "kind": "|", "value": "μένομεν → μένωμεν: let us stay!"},
+     {"word": "ἐγγύς", "kind": "en", "value": "near, nearby"},
+     {"word": "ἵνα", "kind": "en", "value": "so that, in order that (+ subjunctive)"},
+     {"word": "ἀκούωμεν", "kind": "|", "value": "ἀκούομεν → ἀκούωμεν (subjunctive)"}
+    ]},
+    {"text": "ὁ δὲ Σύρος· «ἐπὶ τούτῳ τῷ λόφῳ καθίζωμεν, ὅπως τοὺς ἄνδρας ὁρῶμεν.»", "glosses": [
+     {"word": "λόφῳ", "kind": "en", "value": "hill (the Hill of the Nymphs, next to the Pnyx)"},
+     {"word": "καθίζωμεν", "kind": "en", "value": "let us sit down (καθίζω)"},
+     {"word": "ὅπως", "kind": "=", "value": "ἵνα"}
+    ]},
+    {"text": "ἐν δὲ τῇ Πυκνὶ οἱ πρυτάνεις τῆς ἐκκλησίας ἡγοῦνται.", "glosses": [
+     {"word": "πρυτάνεις", "kind": "en", "value": "the prytaneis: the fifty councillors on duty, who run the meeting"}
+    ]},
+    {"text": "ὁ δὲ κῆρυξ πρῶτον τοῖς θεοῖς εὔχεται ὑπὲρ τῆς πόλεως, ἔπειτα βοᾷ· «τίς ἀγορεύειν βούλεται;»", "glosses": [
+     {"word": "κῆρυξ", "kind": "pic", "value": "keryx"},
+     {"word": "ἀγορεύειν", "kind": "<", "value": "ἀγορά: to speak in public, to address the Assembly"}
+    ]}
+   ]
+  },
+  {
+   "image": "panel-8-1-b",
+   "sentences": [
+    {"text": "πρῶτος ὁ Δημόκριτος ἐπὶ τὸ βῆμα ἀναβαίνει.", "glosses": [
+     {"word": "βῆμα", "kind": "en", "value": "the speaker's platform (literally 'step')"}
+    ]},
+    {"text": "«ὦ ἄνδρες Ἀθηναῖοι, οἱ Θηβαῖοι νυκτὸς εἰς Πλαταιὰς εἰσῆλθον, καὶ οἱ Λακεδαιμόνιοι πόλεμον βούλονται.»", "glosses": [
+     {"word": "Θηβαῖοι", "kind": "en", "value": "the Thebans, allies of Sparta"},
+     {"word": "Πλαταιὰς", "kind": "en", "value": "Plataea, a small city allied to Athens"}
+    ]},
+    {"text": "«τί οὖν ποιῶμεν; τοὺς ἀγροὺς λίπωμεν καὶ εἰς τὸ ἄστυ φύγωμεν;»", "glosses": [
+     {"word": "ποιῶμεν", "kind": "|", "value": "τί ποιοῦμεν; 'what are we doing?' → τί ποιῶμεν; 'what are we to do?'"},
+     {"word": "λίπωμεν", "kind": "|", "value": "ἐλίπομεν → λίπωμεν; are we to leave?"},
+     {"word": "φύγωμεν", "kind": "|", "value": "ἐφύγομεν → φύγωμεν; are we to flee?"}
+    ]},
+    {"text": "«οὐ χρή· τοῦτο γὰρ οὐκ ἄξιόν ἐστι τῆς πόλεως. ἐγὼ γεωργός εἰμι, καὶ οὐκ ἐθέλω τοὺς ἐμοὺς ἀγροὺς τοῖς πολεμίοις λιπεῖν.»", "glosses": [
+     {"word": "χρή", "kind": "=", "value": "δεῖ"},
+     {"word": "ἄξιόν", "kind": "en", "value": "worthy (of + gen.): οὐκ ἄξιον τῆς πόλεως 'unworthy of the city'"},
+     {"word": "ἐθέλω", "kind": "=", "value": "βούλομαι"},
+     {"word": "πολεμίοις", "kind": "<", "value": "πόλεμος: οἱ πολέμιοι 'the enemy'"}
+    ]},
+    {"text": "«μὴ φύγωμεν, ἀλλὰ μαχώμεθα. ἐὰν οἱ Λακεδαιμόνιοι εἰς τὴν Ἀττικὴν ἔλθωσιν, πρὸς αὐτοὺς μαχούμεθα.»", "glosses": [
+     {"word": "μαχώμεθα", "kind": "|", "value": "μαχόμεθα → μαχώμεθα: let us fight!"},
+     {"word": "ἐὰν", "kind": "en", "value": "if (+ subjunctive): ἐὰν ἔλθωσιν 'if they come'"},
+     {"word": "μαχούμεθα", "kind": "|", "value": "μάχομαι | μαχοῦμαι: we will fight (future)"}
+    ]},
+    {"text": "«καὶ ὑμεῖς, ὦ νεανίαι, μὴ λίπητε τὴν γῆν· ἄξιοι γάρ ἐστε τῶν πατέρων, οἳ ἐν Μαραθῶνι τοὺς βαρβάρους ἐνίκησαν.»", "glosses": [
+     {"word": "λίπητε", "kind": "en", "value": "μὴ λίπητε: don't leave! (μή + aorist subjunctive)"},
+     {"word": "Μαραθῶνι", "kind": "en", "value": "at Marathon, where the Athenian hoplites beat the Persians in 490 BC"}
+    ]},
+    {"text": "«τὴν γῆν φυλάττωμεν, ἵνα οἱ παῖδες ἡμῶν ἄρτον ἔχωσιν, καὶ ὁπλίτας πέμπωμεν, ὅπως οἱ πολέμιοι μὴ τέμνωσι τὴν γῆν.»", "glosses": [
+     {"word": "ἔχωσιν", "kind": "|", "value": "ἔχουσιν → ἔχωσιν (subjunctive)"},
+     {"word": "ὁπλίτας", "kind": "pic", "value": "stratiotes"},
+     {"word": "πολέμιοι", "kind": "|", "value": "πολέμιος | πολέμιοι: the enemy"},
+     {"word": "τέμνωσι", "kind": "en", "value": "cut down, ravage (crops, vines and olive trees)"}
+    ]},
+    {"text": "ταῦτα λέγων ὁ Δημόκριτος πολλοὺς πείθει, καὶ πολλοὶ βοῶσιν· «ὀρθῶς λέγεις!»", "glosses": [
+     {"word": "πείθει", "kind": "en", "value": "persuades, wins over"},
+     {"word": "ὀρθῶς", "kind": "en", "value": "rightly"}
+    ]}
+   ]
+  },
+  {
+   "image": "panel-8-1-c",
+   "sentences": [
+    {"text": "ἔπειτα ὁ Κλεινίας, γέρων ὤν, ἐπὶ τὸ βῆμα ἀναβαίνει.", "glosses": [
+     {"word": "ὤν", "kind": "|", "value": "εἰμί | ὤν: being (participle)"}
+    ]},
+    {"text": "«ὦ Ἀθηναῖοι, ἐγὼ ἐν Σαλαμῖνι ἐμαχεσάμην· ἀκούσατέ μου.»", "glosses": [
+     {"word": "Σαλαμῖνι", "kind": "en", "value": "at Salamis, the sea battle of 480 BC"}
+    ]},
+    {"text": "«ἐὰν ἐν τῇ γῇ μαχώμεθα, οἱ Λακεδαιμόνιοι νικήσουσιν· πολλοὶ γάρ εἰσι καὶ ἄριστοι ὁπλῖται.»", "glosses": [
+     {"word": "ὁπλῖται", "kind": "|", "value": "ὁπλίτης | ὁπλῖται: hoplites, heavy infantry"}
+    ]},
+    {"text": "«ἡμεῖς δὲ πολλὰς ναῦς καὶ μακρὰ τείχη ἔχομεν. χρὴ οὖν ἡμᾶς ἐν τῇ θαλάττῃ μάχεσθαι.»"},
+    {"text": "«μὴ ἐξέλθητε ἐκ τῶν τειχῶν, ἀλλὰ τὰς ναῦς πληρῶμεν, ὡς ἐκ τῆς θαλάττης τὴν πόλιν, τὸ κοινὸν πάντων, σῴζωμεν.»", "glosses": [
+     {"word": "ἐξέλθητε", "kind": "en", "value": "μὴ ἐξέλθητε: don't go out!"},
+     {"word": "ὡς", "kind": "=", "value": "ἵνα (+ subjunctive)"},
+     {"word": "κοινὸν", "kind": "en", "value": "τὸ κοινόν: what all share, the common good"}
+    ]},
+    {"text": "ὁ δὲ δῆμος θορυβεῖ· οἱ μὲν τῷ Δημοκρίτῳ, οἱ δὲ τῷ Κλεινίᾳ πείθονται.", "glosses": [
+     {"word": "θορυβεῖ", "kind": "en", "value": "makes an uproar"},
+     {"word": "πείθονται", "kind": "|", "value": "πείθομαι + dat.: I obey, I am persuaded by"}
+    ]},
+    {"text": "ὁ δὲ κῆρυξ πάλιν βοᾷ· «τίς ἄλλος ἀγορεύειν βούλεται;»"},
+    {"text": "ἐπὶ δὲ τῷ λόφῳ ὁ Λύσις τὸν Σύρον ἐρωτᾷ· «τί λέγουσιν; τί ἐθέλει ὁ δῆμος;»"},
+    {"text": "ὁ δὲ Σύρος· «οὐκ ἀκούω, ὦ Λύσι. ἀλλ' ἐὰν ὁ πατήρ σου ἔλθῃ, πάντα μαθησόμεθα.»"}
+   ]
+  }
+ ],
+ "vocab": [
+  {"id": "εκκλησια", "pic": "ekklesia", "gloss_grc": "ἐν τῇ ἐκκλησίᾳ ὁ δῆμος λέγει καὶ ἀκούει"},
+  {"id": "κηρυξ", "pic": "keryx", "gloss_grc": "ὁ κῆρυξ βοᾷ· τίς ἀγορεύειν βούλεται;"},
+  {"id": "δημος", "pic": "polites", "gloss_grc": "ὁ δῆμος = οἱ πολῖται"},
+  {"id": "πολυς", "gloss_grc": "πολύς · πολλή · πολύ ↔ ὀλίγος"},
+  {"id": "κοινος", "gloss_grc": "κοινός ↔ ἐμός, σός: ἡ ἐκκλησία κοινὴ τῶν πολιτῶν"},
+  {"id": "αξιος", "gloss_grc": "ἄξιοι τῶν πατέρων"},
+  {"id": "χρη", "gloss_grc": "χρή = δεῖ"},
+  {"id": "εθελω", "gloss_grc": "ἐθέλω = βούλομαι"},
+  {"id": "πειθω", "gloss_grc": "ὁ Δημόκριτος πολλοὺς πείθει"},
+  {"id": "εαν", "gloss_grc": "ἐάν = εἰ + ἄν: ἐὰν ἔλθωσιν"},
+  {"id": "ινα", "gloss_grc": "ἵνα ἀκούωμεν"},
+  {"id": "οπως", "gloss_grc": "ὅπως = ἵνα: ὅπως ὁρῶμεν"}
+ ],
+ "notice": [
+  "μὴ φύγωμεν, ἀλλὰ μαχώμεθα. — τὴν γῆν φυλάττωμεν.",
+  "τί οὖν ποιῶμεν; τοὺς ἀγροὺς λίπωμεν καὶ εἰς τὸ ἄστυ φύγωμεν;",
+  "μὴ λίπητε τὴν γῆν. — μὴ ἐξέλθητε ἐκ τῶν τειχῶν.",
+  "μένωμεν ἐγγύς, ἵνα τοὺς λόγους ἀκούωμεν. — ὁπλίτας πέμπωμεν, ὅπως οἱ πολέμιοι μὴ τέμνωσι τὴν γῆν.",
+  "ἐὰν οἱ Λακεδαιμόνιοι εἰς τὴν Ἀττικὴν ἔλθωσιν, πρὸς αὐτοὺς μαχούμεθα."
+ ],
+ "grammar": {
+  "md": "**A new mood: the subjunctive.** So far every verb has been *indicative* (a statement or a question of fact) or *imperative* (a command). The **subjunctive** is the mood of what is wanted, planned or expected: 'let us …', 'what are we to do?', 'so that …', 'if (ever) …'.\n\n**Forms.** Take the present stem or the aorist stem (**no augment**) and lengthen the thematic vowel: **ο → ω**, **ε → η**, **ει → ῃ**, **ου → ω**. The endings are otherwise the ones you know.\n\n| | present active | aorist active | present middle/passive |\n|---|---|---|---|\n| 1 sg | λύ**ω** | λύσ**ω** | λύ**ω**μαι |\n| 2 sg | λύ**ῃ**ς | λύσ**ῃ**ς | λύ**ῃ** |\n| 3 sg | λύ**ῃ** | λύσ**ῃ** | λύ**η**ται |\n| 1 pl | λύ**ω**μεν | λύσ**ω**μεν | λυ**ώ**μεθα |\n| 2 pl | λύ**η**τε | λύσ**η**τε | λύ**η**σθε |\n| 3 pl | λύ**ω**σι(ν) | λύσ**ω**σι(ν) | λύ**ω**νται |\n\nSecond aorists work the same way on their own stem: ἔλιπον → **λίπω, λίπῃς …**; ἦλθον → **ἔλθω**; ἔφυγον → **φύγω**; εἶδον → **ἴδω**. Contract verbs contract as usual: **ποιῶμεν, τιμῶμεν, ὁρῶμεν**. εἰμί: **ὦ, ᾖς, ᾖ, ὦμεν, ἦτε, ὦσι(ν)**. The subjunctive has no time of its own: present = ongoing or repeated, aorist = a single act.\n\n**Uses in a main clause** (negative always **μή**):\n\n1. **Hortatory** ('let us …', 1st person plural): **μαχώμεθα** 'let us fight!', **μὴ φύγωμεν** 'let us not flee'.\n2. **Deliberative** (a question about what to do): **τί ποιῶμεν;** 'what are we to do?', **τοὺς ἀγροὺς λίπωμεν;** 'are we to leave the fields?'\n3. **Prohibition**: **μή + aorist subjunctive**, 2nd person: **μὴ λίπητε** 'don't leave!' (μή + *present imperative*, μὴ φεύγετε, says 'stop fleeing, don't keep fleeing'.)\n\n**Uses in a subordinate clause:**\n\n4. **Purpose** with **ἵνα, ὅπως** or **ὡς** + subjunctive (negative μή): *ἵνα τοὺς λόγους ἀκούωμεν* 'so that we may hear the speeches'; *ὅπως οἱ πολέμιοι μὴ τέμνωσι τὴν γῆν* 'so that the enemy may not ravage the land'.\n5. **ἐάν** (= εἰ + ἄν) + subjunctive, with a future (or an imperative) in the main clause: a likely future condition. *ἐὰν οἱ Λακεδαιμόνιοι ἔλθωσιν, μαχούμεθα* 'if the Spartans come, we will fight'.\n\nTip: in a text, a long vowel **ω / η** where you expect **ο / ε**, with no augment, is a subjunctive; then look left for μή, ἵνα, ὅπως, ὡς, ἐάν or a question word.",
+  "paradigms": ["luo", "eimi", "polys"],
+  "diagram": "diagram-moods"
+ },
+ "exercises": [
+  {"type": "endings-cloze", "prompt": "Μελέτημα Α · Fill in the subjunctive endings (long vowel!).", "template": "μέν___μεν οὖν ἐγγύς, ἵνα τοὺς λόγους ἀκού___μεν. ἐὰν οἱ Λακεδαιμόνιοι ἔλθ___σιν, μαχούμεθα. μὴ λίπ___τε τὴν γῆν.", "gaps": [{"answers": ["ω"]}, {"answers": ["ω"]}, {"answers": ["ω"]}, {"answers": ["η"]}], "skills": ["verb.pres.act.subj.1pl", "verb.aor.act.subj.3pl", "syntax.subj-prohibition"], "explain": "The subjunctive lengthens the thematic vowel: ο → ω (μένωμεν, ἀκούωμεν, ἔλθωσιν), ε → η (λίπητε)."},
+  {"type": "bank-cloze", "prompt": "Μελέτημα Β · μὴ ___, ἀλλὰ μαχώμεθα.", "options": [{"id": "a", "text": "φύγωμεν"}, {"id": "b", "text": "φεύγομεν"}, {"id": "c", "text": "ἐφύγομεν"}], "answer": "a", "skills": ["syntax.subj-hortatory", "verb.aor.act.subj.1pl"], "explain": "'Let us not flee': hortatory subjunctive with μή. φεύγομεν is a plain statement, ἐφύγομεν a past one.", "audio": "μὴ φύγωμεν, ἀλλὰ μαχώμεθα."},
+  {"type": "bank-cloze", "prompt": "Μελέτημα Β · ὁπλίτας πέμπωμεν, ___ οἱ πολέμιοι μὴ τέμνωσι τὴν γῆν.", "options": [{"id": "a", "text": "ὅπως"}, {"id": "b", "text": "ἐάν"}, {"id": "c", "text": "γάρ"}], "answer": "a", "skills": ["syntax.purpose"], "explain": "'So that the enemy may not ravage the land': a purpose clause, ὅπως (or ἵνα) + subjunctive, negative μή.", "audio": "ὁπλίτας πέμπωμεν, ὅπως οἱ πολέμιοι μὴ τέμνωσι τὴν γῆν."},
+  {"type": "bank-cloze", "prompt": "Μελέτημα Β · ___ οἱ Λακεδαιμόνιοι εἰς τὴν Ἀττικὴν ἔλθωσιν, πρὸς αὐτοὺς μαχούμεθα.", "options": [{"id": "a", "text": "ἐάν"}, {"id": "b", "text": "ἵνα"}, {"id": "c", "text": "ἀλλά"}], "answer": "a", "skills": ["syntax.ean"], "explain": "'If the Spartans come …, we will fight': ἐάν + subjunctive, future in the main clause.", "audio": "ἐὰν οἱ Λακεδαιμόνιοι εἰς τὴν Ἀττικὴν ἔλθωσιν, πρὸς αὐτοὺς μαχούμεθα."},
+  {"type": "pick-picture", "prompt": "ὁ κῆρυξ", "audio": "prompt", "options": [{"id": "a", "image": "keryx"}, {"id": "b", "image": "polites"}, {"id": "c", "image": "stratiotes"}, {"id": "d", "image": "hiereus"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "ὁ κῆρυξ: the herald, who prays, calls the speakers and announces the result."},
+  {"type": "pick-picture", "prompt": "ἡ ἐκκλησία", "audio": "prompt", "options": [{"id": "a", "image": "ekklesia"}, {"id": "b", "image": "agora"}, {"id": "c", "image": "naos"}, {"id": "d", "image": "ergasterion"}], "answer": "a", "skills": ["vocab.recognition"], "explain": "ἡ ἐκκλησία: the Assembly of the citizens on the Pnyx."},
+  {"type": "produce-form", "prompt": "Give the present subjunctive, 1st person plural, of μένω ('let us stay').", "lemma": "μένω", "cell": "present.active.subjunctive.1pl", "skills": ["verb.pres.act.subj.1pl", "syntax.subj-hortatory"], "explain": "μένομεν → μένωμεν: ο lengthens to ω.", "audio": "μένωμεν"},
+  {"type": "produce-form", "prompt": "Give the aorist subjunctive, 2nd person plural, of λείπω (as in 'don't leave!', μὴ …).", "lemma": "λείπω", "cell": "aorist.active.subjunctive.2pl", "skills": ["syntax.subj-prohibition"], "explain": "Second aorist stem λιπ- (ἔλιπον, no augment) + -ητε: μὴ λίπητε.", "audio": "λίπητε"},
+  {"type": "produce-form", "prompt": "Give the present subjunctive, 3rd person plural, of ἔχω (as in 'so that our children may have bread').", "lemma": "ἔχω", "cell": "present.active.subjunctive.3pl", "skills": ["verb.pres.act.subj.3pl", "syntax.purpose"], "explain": "ἔχουσι(ν) → ἔχωσι(ν).", "audio": "ἔχωσιν"},
+  {"type": "produce-form", "prompt": "Give the aorist subjunctive, 1st person plural, of ἔρχομαι ('let us go').", "lemma": "ἔρχομαι", "cell": "aorist.active.subjunctive.1pl", "skills": ["verb.aor.act.subj.1pl", "syntax.subj-hortatory"], "explain": "ἤλθομεν → ἔλθωμεν: the augment goes, the vowel lengthens.", "audio": "ἔλθωμεν"},
+  {"type": "parse", "prompt": "Parse ἔλθωσιν.", "form": "ἔλθωσιν", "groups": [{"id": "mood", "label": "Mood", "options": [{"id": "ind", "label": "indicative"}, {"id": "subj", "label": "subjunctive"}, {"id": "imp", "label": "imperative"}]}, {"id": "tense", "label": "Tense stem", "options": [{"id": "pres", "label": "present"}, {"id": "aor", "label": "aorist"}]}], "answer": {"mood": "subj", "tense": "aor"}, "skills": ["verb.aor.act.subj.3pl"], "explain": "ἐλθ- is the aorist stem of ἔρχομαι; no augment and ω: aorist subjunctive, 3rd plural.", "audio": "ἔλθωσιν"},
+  {"type": "parse", "prompt": "Parse μαχώμεθα.", "form": "μαχώμεθα", "groups": [{"id": "mood", "label": "Mood", "options": [{"id": "ind", "label": "indicative"}, {"id": "subj", "label": "subjunctive"}]}, {"id": "person", "label": "Who?", "options": [{"id": "1pl", "label": "we"}, {"id": "2pl", "label": "you (pl.)"}, {"id": "3pl", "label": "they"}]}], "answer": {"mood": "subj", "person": "1pl"}, "skills": ["syntax.subj-hortatory", "verb.pres.act.subj.1pl"], "explain": "μαχόμεθα 'we fight' → μαχώμεθα 'let us fight'.", "audio": "μαχώμεθα"},
+  {"type": "cloze-choice", "prompt": "«τί οὖν ___; τοὺς ἀγροὺς λίπωμεν;»", "options": [{"id": "a", "text": "ποιῶμεν"}, {"id": "b", "text": "ἐποιοῦμεν"}, {"id": "c", "text": "ποιήσομεν"}], "answer": "a", "skills": ["syntax.subj-deliberative"], "explain": "A question about what to do: deliberative subjunctive, τί ποιῶμεν; 'what are we to do?'."},
+  {"type": "cloze-choice", "prompt": "ἐὰν ἐν τῇ γῇ ___, οἱ Λακεδαιμόνιοι νικήσουσιν.", "options": [{"id": "a", "text": "μαχώμεθα"}, {"id": "b", "text": "μαχόμεθα"}, {"id": "c", "text": "ἐμαχόμεθα"}], "answer": "a", "skills": ["syntax.ean"], "explain": "ἐάν always takes the subjunctive: ἐὰν μαχώμεθα."},
+  {"type": "label", "prompt": "«τί οὖν ποιῶμεν;» — which use of the subjunctive is this?", "options": [{"id": "a", "text": "hortatory: 'let us …'"}, {"id": "b", "text": "deliberative: 'what are we to …?'"}, {"id": "c", "text": "prohibition: 'don't …!'"}, {"id": "d", "text": "purpose: 'so that …'"}], "answer": "b", "skills": ["syntax.subj-deliberative"], "explain": "A real question about what to do: deliberative."},
+  {"type": "label", "prompt": "«τὴν γῆν φυλάττωμεν, ἵνα οἱ παῖδες ἡμῶν ἄρτον ἔχωσιν.» — what does the ἵνα clause express?", "options": [{"id": "a", "text": "purpose"}, {"id": "b", "text": "a condition"}, {"id": "c", "text": "a command"}], "answer": "a", "skills": ["syntax.purpose", "syntax.subj-hortatory"], "explain": "ἵνα + subjunctive: 'so that our children may have bread'. The main verb φυλάττωμεν is hortatory."},
+  {"type": "label", "prompt": "«μὴ ἐξέλθητε ἐκ τῶν τειχῶν.» — what is Kleinias doing?", "options": [{"id": "a", "text": "forbidding: 'don't go out!'"}, {"id": "b", "text": "asking: 'are we to go out?'"}, {"id": "c", "text": "stating: 'you are not going out'"}], "answer": "a", "skills": ["syntax.subj-prohibition"], "explain": "μή + aorist subjunctive, 2nd person: a prohibition."},
+  {"type": "transform", "prompt": "Turn the statement into 'let us …': τὴν γῆν φυλάττομεν. → τὴν γῆν …", "template": "τὴν γῆν ___.", "gaps": [{"answers": ["φυλάττωμεν"]}], "skills": ["syntax.subj-hortatory", "verb.pres.act.subj.1pl"], "explain": "φυλάττομεν → φυλάττωμεν.", "audio": "τὴν γῆν φυλάττωμεν."},
+  {"type": "transform", "prompt": "Make it a prohibition with μή + aorist subjunctive: φεύγετε. → μὴ …", "template": "μὴ ___.", "gaps": [{"answers": ["φύγητε"]}], "skills": ["syntax.subj-prohibition"], "explain": "Aorist stem φυγ- (ἔφυγον) + -ητε: μὴ φύγητε 'don't flee!'.", "audio": "μὴ φύγητε."},
+  {"type": "locate", "prompt": "Tap every subjunctive.", "sentence": "τὴν γῆν φυλάττωμεν, ἵνα οἱ παῖδες ἡμῶν ἄρτον ἔχωσιν.", "answer": [2, 8], "skills": ["read.locate", "verb.pres.act.subj.3pl"], "explain": "φυλάττωμεν (hortatory) and ἔχωσιν (in the purpose clause)."},
+  {"type": "locate", "prompt": "Tap the words that introduce a purpose clause.", "sentence": "μένωμεν ἐγγύς, ἵνα τοὺς λόγους ἀκούωμεν, καὶ ἐπὶ τῷ λόφῳ καθίζωμεν, ὅπως τοὺς ἄνδρας ὁρῶμεν.", "answer": [2, 11], "skills": ["read.locate", "syntax.purpose"], "explain": "ἵνα and ὅπως, each followed by a subjunctive (ἀκούωμεν, ὁρῶμεν)."},
+  {"type": "reorder", "prompt": "Put the words in order: 'If the Spartans come, we will fight.'", "tokens": ["ἐὰν", "οἱ", "Λακεδαιμόνιοι", "ἔλθωσιν", "μαχούμεθα"], "answers": ["ἐὰν οἱ Λακεδαιμόνιοι ἔλθωσιν μαχούμεθα", "μαχούμεθα ἐὰν οἱ Λακεδαιμόνιοι ἔλθωσιν", "ἐὰν ἔλθωσιν οἱ Λακεδαιμόνιοι μαχούμεθα", "μαχούμεθα ἐὰν ἔλθωσιν οἱ Λακεδαιμόνιοι"], "skills": ["syntax.word-order", "syntax.ean"], "explain": "ἐὰν οἱ Λακεδαιμόνιοι ἔλθωσιν, μαχούμεθα."},
+  {"type": "listen-pick", "prompt": "Listen and choose what you hear.", "audio": "τίς ἀγορεύειν βούλεται;", "options": [{"id": "a", "text": "τίς ἀγορεύειν βούλεται;"}, {"id": "b", "text": "τίς εἰς τὴν ἀγορὰν βαίνει;"}, {"id": "c", "text": "τί ποιῶμεν;"}], "answer": "a", "skills": ["listen.sentences"], "explain": "'Who wishes to speak?', the herald's question."},
+  {"type": "true-false-grc", "prompt": "ὁ Λύσις εἰς τὴν ἐκκλησίαν εἰσέρχεται.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "οὐκ ἔξεστιν: boys, women and slaves do not go in."},
+  {"type": "true-false-grc", "prompt": "ὁ Δημόκριτος οὐκ ἐθέλει τοὺς ἀγροὺς λιπεῖν.", "audio": "prompt", "answer": "true", "skills": ["read.comprehension"], "explain": "οὐκ ἐθέλω τοὺς ἐμοὺς ἀγροὺς τοῖς πολεμίοις λιπεῖν."},
+  {"type": "true-false-grc", "prompt": "ὁ Κλεινίας λέγει· μαχώμεθα ἐν τῇ γῇ.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension", "syntax.subj-hortatory"], "explain": "He says: χρὴ ἡμᾶς ἐν τῇ θαλάττῃ μάχεσθαι· τὰς ναῦς πληρῶμεν."},
+  {"type": "dictation", "prompt": "Listen and type what you hear.", "audio": "μὴ φύγωμεν, ἀλλὰ μαχώμεθα.", "gaps": [{"answers": ["μὴ φύγωμεν, ἀλλὰ μαχώμεθα", "μὴ φύγωμεν ἀλλὰ μαχώμεθα"]}], "skills": ["spell.dictation", "listen.sentences"], "explain": "μὴ φύγωμεν, ἀλλὰ μαχώμεθα."},
+  {"type": "compose-grc", "prompt": "Write in Greek: 'Let us stay nearby, so that we may hear the speeches.'", "gaps": [{"answers": ["μένωμεν ἐγγύς, ἵνα τοὺς λόγους ἀκούωμεν", "μένωμεν ἐγγύς ἵνα τοὺς λόγους ἀκούωμεν", "ἐγγὺς μένωμεν, ἵνα τοὺς λόγους ἀκούωμεν", "μένωμεν ἐγγύς, ὅπως τοὺς λόγους ἀκούωμεν", "μένωμεν ἐγγύς, ὡς τοὺς λόγους ἀκούωμεν", "μένωμεν ἐγγύς, ἵνα ἀκούωμεν τοὺς λόγους"]}], "skills": ["vocab.production", "syntax.purpose", "verb.pres.act.subj.1pl"], "explain": "μένωμεν ἐγγύς, ἵνα (ὅπως, ὡς) τοὺς λόγους ἀκούωμεν."},
+  {"type": "compose-grc", "prompt": "Write in Greek: 'Don't leave the land!' (to several people; μή + aorist subjunctive)", "gaps": [{"answers": ["μὴ λίπητε τὴν γῆν", "τὴν γῆν μὴ λίπητε"]}], "skills": ["vocab.production", "syntax.subj-prohibition"], "explain": "μὴ λίπητε τὴν γῆν."},
+  {"type": "translate-en", "prompt": "Translate: ἐὰν οἱ Λακεδαιμόνιοι εἰς τὴν Ἀττικὴν ἔλθωσιν, πρὸς αὐτοὺς μαχούμεθα.", "audio": "ἐὰν οἱ Λακεδαιμόνιοι εἰς τὴν Ἀττικὴν ἔλθωσιν, πρὸς αὐτοὺς μαχούμεθα.", "model": "If the Spartans come into Attica, we will fight against them.", "skills": ["read.comprehension", "syntax.ean"], "explain": "ἐάν + aorist subjunctive ('if they come'), future indicative in the main clause."},
+  {"type": "word-family", "prompt": "Word Study · Match each Greek word to the English word that comes from it.", "pairs": [{"left": "δῆμος", "right": "democracy"}, {"left": "ἐκκλησία", "right": "ecclesiastical"}, {"left": "πολύς", "right": "polygon"}, {"left": "ἄξιος", "right": "axiom"}, {"left": "κοινός", "right": "koine (the 'common' Greek of later times)"}], "skills": ["vocab.family"], "explain": "δημο-κρατία 'rule of the people'; ἐκκλησία later meant the Christian congregation, 'church'; πολύ-γωνον 'many-angled'; ἀξίωμα 'what is thought worthy (of belief)'; ἡ κοινὴ διάλεκτος."}
+ ],
+ "questions": [
+  {"type": "answer-grc", "prompt": "ποῦ ἐστιν ἡ ἐκκλησία;", "audio": "prompt", "options": [{"id": "a", "text": "ἐν τῇ Πυκνί."}, {"id": "b", "text": "ἐν τῇ ἀγορᾷ."}, {"id": "c", "text": "ἐν τῷ Πειραιεῖ."}], "answer": "a", "skills": ["read.comprehension"], "explain": "εἰς τὴν Πύκνα ἀναβαίνουσιν· ἐκκλησία γάρ ἐστιν."},
+  {"type": "answer-grc", "prompt": "τί οὐκ εἰσέρχεται ὁ Λύσις;", "audio": "prompt", "options": [{"id": "a", "text": "παῖς γάρ ἐστιν."}, {"id": "b", "text": "δοῦλος γάρ ἐστιν."}, {"id": "c", "text": "καθεύδει γάρ."}], "answer": "a", "skills": ["read.comprehension"], "explain": "παῖδες καὶ γυναῖκες καὶ δοῦλοι οὐκ εἰσέρχονται."},
+  {"type": "answer-grc", "prompt": "τί βοᾷ ὁ κῆρυξ;", "audio": "prompt", "options": [{"id": "a", "text": "«τίς ἀγορεύειν βούλεται;»"}, {"id": "b", "text": "«μαχώμεθα.»"}, {"id": "c", "text": "«τί ποιῶμεν;»"}], "answer": "a", "skills": ["read.comprehension"], "explain": "The herald's question opens the debate."},
+  {"type": "answer-grc", "prompt": "τί βούλεται ὁ Δημόκριτος;", "audio": "prompt", "options": [{"id": "a", "text": "πρὸς τοὺς Λακεδαιμονίους μάχεσθαι."}, {"id": "b", "text": "εἰς τὸ ἄστυ φεύγειν."}, {"id": "c", "text": "τοὺς ἀγροὺς λιπεῖν."}], "answer": "a", "skills": ["read.comprehension", "syntax.subj-hortatory"], "explain": "μὴ φύγωμεν, ἀλλὰ μαχώμεθα."},
+  {"type": "answer-grc", "prompt": "τί λέγει ὁ Κλεινίας;", "audio": "prompt", "options": [{"id": "a", "text": "«τὰς ναῦς πληρῶμεν.»"}, {"id": "b", "text": "«ἐν τῇ γῇ μαχώμεθα.»"}, {"id": "c", "text": "«τοὺς ἀγροὺς φυλάττωμεν.»"}], "answer": "a", "skills": ["read.comprehension", "syntax.subj-hortatory"], "explain": "ἀλλὰ τὰς ναῦς πληρῶμεν, ὡς ἐκ τῆς θαλάττης τὴν πόλιν σῴζωμεν."}
+ ],
+ "culture": {
+  "title": "The Assembly on the Pnyx",
+  "md": "The **Assembly** (ἡ ἐκκλησία) was the sovereign body of the Athenian democracy: every adult male citizen could attend, speak and vote. In the fifth century it met on the **Pnyx**, a hill west of the Acropolis, where the citizens sat on the rocky slope facing a speaker's platform (τὸ βῆμα). The hollow held roughly six thousand people, and a few decisions, such as an ostracism, needed six thousand present.\n\nThe Council of Five Hundred prepared the business, and the **prytaneis**, the fifty councillors of the tribe on duty for a tenth of the year, presided; one of them, chosen by lot, chaired for a single day. A meeting began at dawn with a purification (a piglet was sacrificed and carried round the seats), a prayer and a curse on anyone who deceived the people. Then the herald asked: **τίς ἀγορεύειν βούλεται;** 'Who wishes to speak?' Any citizen could; in practice experienced speakers and generals did most of the talking, and the crowd shouted down anyone it found tedious.\n\nWomen, slaves, resident foreigners and boys like Lysis had no place there. And in 431 nobody was paid to attend: a fee of one obol, soon three, was introduced only in the 390s. In Aristophanes' *Acharnians* (425 BC) the citizens dawdle in the Agora until public slaves sweep them up to the Pnyx with a rope dyed red.",
+  "image": "culture-pnyx-plan"
+ },
+ "quiz": [
+  {"type": "cloze-choice", "prompt": "μὴ ___ τὴν γῆν, ὦ πολῖται.", "options": [{"id": "a", "text": "λίπητε"}, {"id": "b", "text": "λίπετε"}, {"id": "c", "text": "ἐλίπετε"}], "answer": "a", "skills": ["syntax.subj-prohibition"], "explain": "A prohibition with the aorist stem needs the subjunctive: μὴ λίπητε."},
+  {"type": "produce-form", "prompt": "Give the present subjunctive, 1st person plural, of φυλάττω ('let us guard').", "lemma": "φυλάττω", "cell": "present.active.subjunctive.1pl", "skills": ["verb.pres.act.subj.1pl", "syntax.subj-hortatory"], "explain": "φυλάττωμεν.", "audio": "φυλάττωμεν"},
+  {"type": "label", "prompt": "«ἐὰν οἱ πολέμιοι ἔλθωσιν, μαχούμεθα.» — what does ἐάν + subjunctive express here?", "options": [{"id": "a", "text": "a likely future condition: 'if they come'"}, {"id": "b", "text": "a purpose: 'so that they come'"}, {"id": "c", "text": "a past fact: 'when they came'"}], "answer": "a", "skills": ["syntax.ean"], "explain": "ἐάν + subjunctive with a future in the main clause: 'if (as may well happen) they come, we will fight'."},
+  {"type": "parse", "prompt": "Parse πείσωμεν.", "form": "πείσωμεν", "groups": [{"id": "mood", "label": "Mood", "options": [{"id": "ind", "label": "indicative"}, {"id": "subj", "label": "subjunctive"}]}, {"id": "tense", "label": "Tense stem", "options": [{"id": "pres", "label": "present"}, {"id": "fut", "label": "future"}, {"id": "aor", "label": "aorist"}]}], "answer": {"mood": "subj", "tense": "aor"}, "skills": ["verb.aor.act.subj.1pl"], "explain": "πεισ- is the aorist stem (ἔπεισα); ω, not ο: subjunctive. The future indicative is πείσομεν.", "audio": "πείσωμεν"},
+  {"type": "true-false-grc", "prompt": "ὁ Σύρος τοὺς λόγους τῆς ἐκκλησίας ἀκούει.", "audio": "prompt", "answer": "false", "skills": ["read.comprehension"], "explain": "«οὐκ ἀκούω, ὦ Λύσι.»"},
+  {"type": "cloze-choice", "prompt": "ὁπλίτας πέμπωμεν, ___ τὴν γῆν σῴζωμεν.", "options": [{"id": "a", "text": "ἵνα"}, {"id": "b", "text": "ἐάν"}, {"id": "c", "text": "ἀλλά"}], "answer": "a", "skills": ["syntax.purpose"], "explain": "Purpose: ἵνα + subjunctive."},
+  {"type": "compose-grc", "prompt": "Write in Greek: 'Let us fight!'", "gaps": [{"answers": ["μαχώμεθα"]}], "skills": ["vocab.production", "syntax.subj-hortatory"], "explain": "μαχώμεθα."}
+ ],
+ "skills": ["verb.pres.act.subj.1pl", "verb.pres.act.subj.3pl", "verb.aor.act.subj.1pl", "verb.aor.act.subj.3pl", "syntax.subj-hortatory", "syntax.subj-deliberative", "syntax.subj-prohibition", "syntax.purpose", "syntax.ean", "syntax.word-order", "read.comprehension", "read.locate", "listen.sentences", "spell.dictation", "vocab.recognition", "vocab.production", "vocab.family"]
+}

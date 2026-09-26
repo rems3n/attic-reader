@@ -1,0 +1,1515 @@
+{
+ "id": "9.2",
+ "title_grc": "οἱ Ἀχαρνῆς ἐν τῷ ἄστει",
+ "title_en": "The cousins arrive",
+ "summary_grc": "πρὸ τῆς ἐσβολῆς οἱ Ἀθηναῖοι ὑπὸ τοῦ Περικλέους ἐπείσθησαν· ἡ Φιλίππη καὶ ὁ Εὔδημος καὶ ὁ Μικίων ἐσώθησαν, ἡ δὲ οἰκία ἐλείφθη.",
+ "summary_en": "A few weeks earlier, before the invasion: Chrysis's cousins from Acharnae come through the gate with an ox-cart loaded down to the door of their house. The aorist and future passive, the aorist of deponents, and ὅπως + future indicative; Thucydides 2.14 adapted.",
+ "cover": "panel-9-2-a",
+ "caption_grc": "τὰ πρόβατα εἰς Εὔβοιαν ἐπέμφθη· αἱ ἄμπελοι τμηθήσονται. — πράξω ὅπως ἡ οὐσία ὑμῶν σωθήσεται.",
+ "original": {
+  "text": "thuc-2.14",
+  "note": "Thucydides 2.14, adapted in paragraph 3 (the passive ἐπέμφθη replaces his διεπέμψαντο 'they sent across'). He lived through the evacuation himself."
+ },
+ "names": {
+  "Εὔβοια": [
+   "Εὐβοίας",
+   "Εὐβοίᾳ",
+   "Εὔβοιαν"
+  ]
+ },
+ "allow": {
+  "πολλαὶ": "unit 8 (πολύς)",
+  "πολλοὶ": "unit 8 (πολύς)",
+  "ἐπείσθην": "unit 8 (πείθω), taught with the passive here"
+ },
+ "story": [
+  {
+   "image": "panel-9-2-a",
+   "sentences": [
+    {
+     "text": "πρὸ τῆς ἐσβολῆς πᾶσα ἡ Ἀττικὴ ἐκινεῖτο· οἱ γὰρ Ἀθηναῖοι ὑπὸ τοῦ Περικλέους πεισθέντες ἐκ τῶν ἀγρῶν εἰς τὴν πόλιν ἐκομίζοντο.",
+     "glosses": [
+      {
+       "word": "πρὸ",
+       "kind": "en",
+       "value": "πρό + genitive: before"
+      },
+      {
+       "word": "ἐσβολῆς",
+       "kind": "<",
+       "value": "εἰς + βάλλω: ἡ ἐσβολή, the invasion (of 9.1)"
+      },
+      {
+       "word": "ἐκινεῖτο",
+       "kind": "en",
+       "value": "was on the move (κινέω 'set in motion')"
+      },
+      {
+       "word": "ὑπὸ",
+       "kind": "en",
+       "value": "ὑπό + genitive: by (the agent)"
+      },
+      {
+       "word": "πεισθέντες",
+       "kind": "|",
+       "value": "ἔπεισε 'persuaded' · ἐπείσθη 'was persuaded' · πεισθείς, πεισθέντες 'having been persuaded'"
+      },
+      {
+       "word": "ἐκομίζοντο",
+       "kind": "pic",
+       "value": "verb-komizei"
+      }
+     ]
+    },
+    {
+     "text": "ἡμέρᾳ τινὶ ἅμαξα πρὸς τὰς Ἀχαρνικὰς πύλας ἀφίκετο· ἐπὶ δὲ τῇ ἁμάξῃ οὐ μόνον κλῖναι καὶ ὑδρίαι ἐκομίζοντο, ἀλλὰ καὶ ἡ θύρα τῆς οἰκίας.",
+     "glosses": [
+      {
+       "word": "ἅμαξα",
+       "kind": "pic",
+       "value": "hamaxa"
+      },
+      {
+       "word": "Ἀχαρνικὰς",
+       "kind": "en",
+       "value": "Acharnian: the gate on the road to Acharnae"
+      },
+      {
+       "word": "ἀφίκετο",
+       "kind": "|",
+       "value": "ἀφικνεῖται · ἀφίκετο (arrived: aorist middle)"
+      },
+      {
+       "word": "μόνον",
+       "kind": "en",
+       "value": "only: οὐ μόνον … ἀλλὰ καί, not only … but also"
+      }
+     ]
+    },
+    {
+     "text": "βόες δύο τὴν ἅμαξαν εἷλκον, καὶ μετ' αὐτῆς ἐβάδιζον ἡ Φιλίππη καὶ ὁ Εὔδημος καὶ ὁ Μικίων.",
+     "glosses": [
+      {
+       "word": "βόες",
+       "kind": "en",
+       "value": "oxen (ὁ βοῦς, οἱ βόες)"
+      },
+      {
+       "word": "εἷλκον",
+       "kind": "en",
+       "value": "were pulling (ἕλκω)"
+      },
+      {
+       "word": "ἐβάδιζον",
+       "kind": "en",
+       "value": "were walking"
+      }
+     ]
+    },
+    {
+     "text": "ἡ Χρυσὶς καὶ ὁ Λύσις πρὸς τὰς πύλας ἔδραμον· ἡ δὲ Χρυσὶς τὴν ἀνεψιὰν ἠσπάσατο. «ὦ Φιλίππη», ἔφη, «ἐσώθητε! ἐφοβήθην γὰρ περὶ ὑμῶν.»",
+     "glosses": [
+      {
+       "word": "ἀνεψιὰν",
+       "kind": "=",
+       "value": "ἡ ἀνεψιά = cousin"
+      },
+      {
+       "word": "ἠσπάσατο",
+       "kind": "en",
+       "value": "embraced (ἀσπάζομαι)"
+      },
+      {
+       "word": "ἐσώθητε",
+       "kind": "|",
+       "value": "σῴζει 'saves' · ἐσώθητε 'you were saved' (aorist passive)"
+      },
+      {
+       "word": "ἐφοβήθην",
+       "kind": "|",
+       "value": "φοβοῦμαι · ἐφοβήθην 'I was afraid' (aorist passive in form)"
+      },
+      {
+       "word": "περὶ",
+       "kind": "en",
+       "value": "περί + genitive: about, for"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Φιλίππη ἔκλαυσεν· «ἐσώθημεν μέν, καὶ τὴν οὐσίαν ἐκομίσαμεν· ἀλλ' ἡ οἰκία ἡμῶν ἐλείφθη, καὶ οὐκέτι ἐν Ἀχαρναῖς οἰκοῦμεν.»",
+     "glosses": [
+      {
+       "word": "οὐσίαν",
+       "kind": "en",
+       "value": "property, what one owns (οὐσία)"
+      },
+      {
+       "word": "ἐλείφθη",
+       "kind": "|",
+       "value": "λείπει · ἐλείφθη 'was left behind'"
+      },
+      {
+       "word": "οὐκέτι",
+       "kind": "en",
+       "value": "no longer"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-9-2-b",
+   "sentences": [
+    {
+     "text": "ὁ δὲ Εὔδημος ὀργιζόμενος· «ἐγὼ μὲν οὐκ ἐβουλήθην τοὺς ἀγροὺς λιπεῖν, ἀλλ' ὑπὸ τοῦ Περικλέους ἐπείσθην.»",
+     "glosses": [
+      {
+       "word": "ὀργιζόμενος",
+       "kind": "en",
+       "value": "angry, in anger"
+      },
+      {
+       "word": "ἐβουλήθην",
+       "kind": "|",
+       "value": "βούλομαι · ἐβουλήθην 'I wanted' (aorist passive in form, active in meaning)"
+      }
+     ]
+    },
+    {
+     "text": "«τὰ πρόβατα καὶ τὰ λοιπὰ ζῷα εἰς Εὔβοιαν ἐπέμφθη, οἱ δὲ βόες αὔριον πεμφθήσονται. μόνον τὴν αἶγα ἐκομίσαμεν.»",
+     "glosses": [
+      {
+       "word": "πρόβατα",
+       "kind": "en",
+       "value": "sheep"
+      },
+      {
+       "word": "λοιπὰ",
+       "kind": "en",
+       "value": "the rest, the remaining"
+      },
+      {
+       "word": "ζῷα",
+       "kind": "pic",
+       "value": "zoon"
+      },
+      {
+       "word": "Εὔβοιαν",
+       "kind": "en",
+       "value": "Euboea, the big island north-east of Attica"
+      },
+      {
+       "word": "ἐπέμφθη",
+       "kind": "note",
+       "value": "a neuter plural subject takes a singular verb: τὰ ζῷα ἐπέμφθη"
+      },
+      {
+       "word": "αὔριον",
+       "kind": "en",
+       "value": "tomorrow"
+      },
+      {
+       "word": "πεμφθήσονται",
+       "kind": "|",
+       "value": "ἐπέμφθησαν 'were sent' · πεμφθήσονται 'will be sent' (future passive)"
+      }
+     ]
+    },
+    {
+     "text": "«τί γενήσεται; αἱ ἄμπελοι ἡμῶν τμηθήσονται καὶ ἡ οἰκία καυθήσεται.»",
+     "glosses": [
+      {
+       "word": "ἄμπελοι",
+       "kind": "en",
+       "value": "vines (ἡ ἄμπελος)"
+      },
+      {
+       "word": "τμηθήσονται",
+       "kind": "|",
+       "value": "τέμνει · τμηθήσεται 'will be cut down'"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Ἀρίστων· «ἐν μὲν τῇ οἰκίᾳ ἡμῶν οὐκέτι ἔστι τόπος. ἀλλὰ τὸ ἐργαστήριον ὑμῖν παρέξω, καὶ πράξω ὅπως ἡ οὐσία ὑμῶν ἐκεῖ σωθήσεται.»",
+     "glosses": [
+      {
+       "word": "τόπος",
+       "kind": "en",
+       "value": "place, room"
+      },
+      {
+       "word": "παρέξω",
+       "kind": "<",
+       "value": "παρά + ἔχω: I will provide, offer"
+      },
+      {
+       "word": "πράξω",
+       "kind": "en",
+       "value": "I will act, manage: πράξω ὅπως … I will see to it that …"
+      },
+      {
+       "word": "ὅπως",
+       "kind": "note",
+       "value": "ὅπως + future indicative after a verb of effort: 'that … will'"
+      }
+     ]
+    },
+    {
+     "text": "«πολλαὶ γὰρ οἰκίαι ἤδη πλήρεις εἰσίν, καὶ οἱ λοιποὶ τῶν Ἀχαρνέων ἐν τοῖς ἱεροῖς σκηνοῦσιν.»",
+     "glosses": [
+      {
+       "word": "πλήρεις",
+       "kind": "<",
+       "value": "πληρόω: πλήρης, full"
+      },
+      {
+       "word": "ἱεροῖς",
+       "kind": "en",
+       "value": "τὰ ἱερά: shrines, sanctuaries"
+      },
+      {
+       "word": "σκηνοῦσιν",
+       "kind": "en",
+       "value": "camp, live in tents"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λύσις τῷ Μικίωνι· «ὅρα ὅπως μὴ ὁ Λάβρος τὸ ζῷον διώξει!»",
+     "glosses": [
+      {
+       "word": "ὅρα",
+       "kind": "note",
+       "value": "ὅρα ὅπως (μή) + future: see to it that … (not)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Μικίων γελάσας· «ὁ κύων σου μικρός ἐστιν· ἡ δὲ αἲξ ἡμῶν οὐδὲ τοὺς Λακεδαιμονίους ἐφοβήθη.»",
+     "glosses": [
+      {
+       "word": "γελάσας",
+       "kind": "en",
+       "value": "laughing"
+      },
+      {
+       "word": "οὐδὲ",
+       "kind": "en",
+       "value": "not even"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Χρυσὶς αὐτοῖς σῖτον καὶ ὕδωρ παρέσχεν. «ἆρα ὁμολογεῖς, ὦ Εὔδημε;» ὁ δὲ Εὔδημος ὡμολόγησε καὶ τὴν ἅμαξαν πρὸς τὸ ἐργαστήριον ἐκίνησεν.",
+     "glosses": [
+      {
+       "word": "σῖτον",
+       "kind": "pic",
+       "value": "sitos"
+      },
+      {
+       "word": "ὁμολογεῖς",
+       "kind": "en",
+       "value": "do you agree?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-9-2-c",
+   "sentences": [
+    {
+     "text": "ὁ δὲ Θουκυδίδης ὕστερον τάδε ἔγραψεν.",
+     "glosses": [
+      {
+       "word": "ὕστερον",
+       "kind": "en",
+       "value": "later"
+      }
+     ]
+    },
+    {
+     "text": "οἱ δὲ Ἀθηναῖοι ἀκούσαντες ἐπείθοντο, καὶ ἐκ τῶν ἀγρῶν εἰς τὴν πόλιν ἐκομίζοντο παῖδας καὶ γυναῖκας καὶ τὴν ἄλλην κατασκευήν, ᾗ κατ' οἶκον ἐχρῶντο.",
+     "glosses": [
+      {
+       "word": "ἐπείθοντο",
+       "kind": "en",
+       "value": "obeyed, were persuaded (πείθομαι)"
+      },
+      {
+       "word": "κατασκευήν",
+       "kind": "en",
+       "value": "furniture, household goods"
+      },
+      {
+       "word": "ᾗ",
+       "kind": "en",
+       "value": "ᾗ ἐχρῶντο: which they used (χράομαι + dative)"
+      },
+      {
+       "word": "κατ'",
+       "kind": "en",
+       "value": "κατ' οἶκον: at home"
+      }
+     ],
+     "orig": [
+      0
+     ]
+    },
+    {
+     "text": "καὶ αὐτῶν τῶν οἰκιῶν τὰ ξύλα καθῄρουν.",
+     "glosses": [
+      {
+       "word": "ξύλα",
+       "kind": "en",
+       "value": "woodwork, timbers (doors, beams, roofs)"
+      },
+      {
+       "word": "καθῄρουν",
+       "kind": "en",
+       "value": "were taking down"
+      }
+     ],
+     "orig": [
+      0
+     ]
+    },
+    {
+     "text": "πρόβατα δὲ καὶ ὑποζύγια εἰς τὴν Εὔβοιαν καὶ εἰς τὰς νήσους ἐπέμφθη.",
+     "glosses": [
+      {
+       "word": "ὑποζύγια",
+       "kind": "en",
+       "value": "draught animals (oxen, mules, donkeys)"
+      }
+     ],
+     "orig": [
+      1
+     ]
+    },
+    {
+     "text": "χαλεπῶς δὲ αὐτοῖς ἡ ἀνάστασις ἐγίγνετο· οἱ γὰρ πολλοὶ ἀεὶ ἐν τοῖς ἀγροῖς ᾤκουν.",
+     "glosses": [
+      {
+       "word": "χαλεπῶς",
+       "kind": "<",
+       "value": "χαλεπός: with difficulty, hard"
+      },
+      {
+       "word": "ἀνάστασις",
+       "kind": "en",
+       "value": "moving out, leaving home"
+      }
+     ],
+     "orig": [
+      2
+     ]
+    },
+    {
+     "text": "ταῦτα μὲν πρὸ τῆς ἐσβολῆς ἐπράχθη. νῦν δὲ ἡ ἅμαξα κενή ἐστιν, καὶ ὁ Εὔδημος ἀπὸ τοῦ τείχους τὸν καπνὸν τῶν Ἀχαρνῶν ὁρᾷ.",
+     "glosses": [
+      {
+       "word": "ἐπράχθη",
+       "kind": "|",
+       "value": "πράττει · ἐπράχθη 'was done'"
+      },
+      {
+       "word": "κενή",
+       "kind": "↔",
+       "value": "πλήρης (empty)"
+      },
+      {
+       "word": "καπνὸν",
+       "kind": "en",
+       "value": "smoke"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "αμαξα",
+   "pic": "hamaxa",
+   "gloss_grc": "ἡ ἅμαξα, τῆς ἁμάξης"
+  },
+  {
+   "id": "ζωον",
+   "pic": "zoon",
+   "gloss_grc": "τὸ ζῷον · τὰ ζῷα"
+  },
+  {
+   "id": "κομιζω",
+   "pic": "verb-komizei",
+   "gloss_grc": "κομίζω · ἐκόμισα · ἐκομίσθην"
+  },
+  {
+   "id": "πραττω",
+   "gloss_grc": "πράττω · πράξω · ἔπραξα · ἐπράχθην"
+  },
+  {
+   "id": "ουσια",
+   "gloss_grc": "ἡ οὐσία = ἃ ἔχει τις"
+  },
+  {
+   "id": "παρεχω",
+   "gloss_grc": "παρά + ἔχω · παρέξω · παρέσχον"
+  },
+  {
+   "id": "λοιπος",
+   "gloss_grc": "οἱ λοιποί = οἱ ἄλλοι"
+  },
+  {
+   "id": "ουκετι",
+   "gloss_grc": "οὐκέτι = οὐ + ἔτι"
+  },
+  {
+   "id": "κινεω",
+   "gloss_grc": "κινῶ · ἐκίνησα · κινοῦμαι"
+  },
+  {
+   "id": "ομολογεω",
+   "gloss_grc": "ὁμολογῶ · ὡμολόγησα"
+  },
+  {
+   "id": "μονον",
+   "gloss_grc": "οὐ μόνον … ἀλλὰ καί"
+  },
+  {
+   "id": "προ",
+   "gloss_grc": "πρό + gen. ↔ μετά + acc."
+  }
+ ],
+ "notice": [
+  "τὰ πρόβατα εἰς Εὔβοιαν ἐπέμφθη. — ἡ οἰκία ἐλείφθη. — ἐσώθημεν.",
+  "οἱ βόες αὔριον πεμφθήσονται. — αἱ ἄμπελοι τμηθήσονται καὶ ἡ οἰκία καυθήσεται.",
+  "ὑπὸ τοῦ Περικλέους ἐπείσθην. — ὑπὸ τοῦ Περικλέους πεισθέντες …",
+  "ἀφίκετο (middle) — ἐβουλήθην, ἐφοβήθην (passive in form)",
+  "πράξω ὅπως ἡ οὐσία ὑμῶν σωθήσεται. — ὅρα ὅπως μὴ ὁ Λάβρος τὸ ζῷον διώξει!"
+ ],
+ "grammar": {
+  "md": "**The aorist passive.** Add **-θη-** to the verb stem and the endings of a root aorist like ἔβην:\n\n| | λύω | πέμπω | πείθω |\n|---|---|---|---|\n| I was … | ἐλύ**θην** | ἐπέμφ**θην** | ἐπείσ**θην** |\n| you | ἐλύθης | ἐπέμφθης | ἐπείσθης |\n| he, she, it | ἐλύθη | **ἐπέμφθη** | ἐπείσθη |\n| we | ἐλύθημεν | ἐπέμφθημεν | ἐπείσθημεν |\n| you (pl.) | ἐλύθητε | ἐπέμφθητε | ἐπείσθητε |\n| they | ἐλύθησαν | ἐπέμφθησαν | **ἐπείσθησαν** |\n| infinitive | λυθῆναι | πεμφθῆναι | πεισθῆναι |\n| participle | λυθείς, -εῖσα, -έν | πεμφθείς | **πεισθέντες** (pl.) |\n\nBefore θ a labial becomes φ (πέμπω → ἐπέμφθην, λείπω → ἐλείφθην), a guttural becomes χ (πράττω → ἐπράχθην, ἄγω → ἤχθην), a dental becomes σ (πείθω → ἐπείσθην, κομίζω → ἐκομίσθην); contract verbs lengthen their vowel (ποιέω → ἐποιήθην). Some verbs have irregular stems: σῴζω → **ἐσώθην**, τέμνω → **ἐτμήθην**, ὁράω → ὤφθην, φέρω → ἠνέχθην. A few have a *second* aorist passive without θ: θάπτω → ἐτάφην, γράφω → ἐγράφην.\n\n**The future passive** is built on the same stem: **-θήσομαι**, with the endings of the present middle: λυθήσομαι, λυθήσῃ, λυθήσεται … *αἱ ἄμπελοι τμηθήσονται* 'the vines will be cut down', *ἡ οἰκία καυθήσεται*, *οἱ βόες πεμφθήσονται*. So middle and passive, which share one set of forms in the present and imperfect (8.4), part company in the future and the aorist.\n\nThe agent is ὑπό + genitive, as in 8.4: *ὑπὸ τοῦ Περικλέους ἐπείσθην*.\n\n**The aorist of deponents.** Deponents choose one of the two aorists, and the dictionary tells you which:\n\n| middle aorist | passive aorist (meaning still active) |\n|---|---|\n| ἀφικνέομαι → ἀφικόμην | βούλομαι → **ἐβουλήθην** 'I wanted' |\n| γίγνομαι → ἐγενόμην | φοβέομαι → **ἐφοβήθην** 'I was afraid' |\n| αἰσθάνομαι → ᾐσθόμην | δύναμαι → ἐδυνήθην 'I was able' |\n| μάχομαι → ἐμαχεσάμην | οἴομαι → ᾠήθην 'I thought' |\n\n**ὅπως + future indicative.** After verbs of effort and care (πράττω, ὁράω 'see to it', σκοπέω, ἐπιμελέομαι) ὅπως takes the **future indicative**: *πράξω ὅπως ἡ οὐσία ὑμῶν σωθήσεται* 'I will see to it that your property is kept safe'; negative ὅπως μή: *ὅρα ὅπως μὴ ὁ Λάβρος τὸ ζῷον διώξει* 'see that Labros doesn't chase the animal'. Compare the purpose clause of 8.1 (ἵνα/ὅπως + subjunctive), which says *why* something is done; the effort clause says *what* someone works to bring about.",
+  "paradigms": [
+   "luo"
+  ],
+  "diagram": "diagram-voice"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the aorist passive endings.",
+   "template": "οἱ Ἀθηναῖοι ὑπὸ τοῦ Περικλέους ἐπείσθ___. τὰ πρόβατα εἰς Εὔβοιαν ἐπέμφθ___. «ἐσώθ___», λέγει ἡ Φιλίππη. ἡ δὲ οἰκία ἐλείφθ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ησαν"
+     ]
+    },
+    {
+     "answers": [
+      "η"
+     ]
+    },
+    {
+     "answers": [
+      "ημεν"
+     ]
+    },
+    {
+     "answers": [
+      "η"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.aor.pass.ind.3pl",
+    "verb.aor.pass.ind.3sg",
+    "verb.neuter-plural"
+   ],
+   "explain": "-ησαν they, -η it, -ημεν we. τὰ πρόβατα (neuter plural) takes the singular ἐπέμφθη."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · αὔριον αἱ ἄμπελοι ἡμῶν ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "τμηθήσονται"
+    },
+    {
+     "id": "b",
+     "text": "ἐτμήθησαν"
+    },
+    {
+     "id": "c",
+     "text": "τέμνουσιν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.fut.pass.ind.3sg"
+   ],
+   "explain": "αὔριον 'tomorrow': future passive, τμηθήσονται 'will be cut down'.",
+   "audio": "αὔριον αἱ ἄμπελοι ἡμῶν τμηθήσονται."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ Ἀρίστων πράξει ὅπως ἡ οὐσία ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "σωθήσεται"
+    },
+    {
+     "id": "b",
+     "text": "σωθῆναι"
+    },
+    {
+     "id": "c",
+     "text": "ἐσώθη"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.hopos-fut",
+    "verb.fut.pass.ind.3sg"
+   ],
+   "explain": "After πράττω ὅπως: future indicative, σωθήσεται.",
+   "audio": "ὁ Ἀρίστων πράξει ὅπως ἡ οὐσία σωθήσεται."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἡ ἅμαξα πρὸς τὰς πύλας ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀφίκετο"
+    },
+    {
+     "id": "b",
+     "text": "ἀφικνήθη"
+    },
+    {
+     "id": "c",
+     "text": "ἀφίκησεν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.aor-deponent"
+   ],
+   "explain": "ἀφικνέομαι has a middle aorist: ἀφικόμην, ἀφίκετο.",
+   "audio": "ἡ ἅμαξα πρὸς τὰς πύλας ἀφίκετο."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ἅμαξα",
+   "options": [
+    {
+     "id": "a",
+     "image": "hamaxa"
+    },
+    {
+     "id": "b",
+     "image": "trieres"
+    },
+    {
+     "id": "c",
+     "image": "kline"
+    },
+    {
+     "id": "d",
+     "image": "trochos"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ἡ ἅμαξα: a wagon, a cart.",
+   "audio": "prompt"
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "τὰ ζῷα",
+   "options": [
+    {
+     "id": "a",
+     "image": "zoon"
+    },
+    {
+     "id": "b",
+     "image": "stratos"
+    },
+    {
+     "id": "c",
+     "image": "dendron"
+    },
+    {
+     "id": "d",
+     "image": "agora"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "τὰ ζῷα: animals.",
+   "audio": "prompt"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist passive of πέμπω for 'it was sent'.",
+   "lemma": "πέμπω",
+   "cell": "aorist.passive.indicative.3sg",
+   "skills": [
+    "verb.aor.pass.ind.3sg"
+   ],
+   "explain": "ἐπέμφθη: π + θ → φθ.",
+   "audio": "ἐπέμφθη"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the future passive of τέμνω for 'they will be cut down'.",
+   "lemma": "τέμνω",
+   "cell": "future.passive.indicative.3pl",
+   "skills": [
+    "verb.fut.pass.ind.3sg"
+   ],
+   "explain": "τμηθήσονται: stem τμη-θ- + -ήσονται.",
+   "audio": "τμηθήσονται"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of βούλομαι for 'I wanted'.",
+   "lemma": "βούλομαι",
+   "cell": "aorist.passive.indicative.1sg",
+   "skills": [
+    "verb.aor-deponent",
+    "verb.aor.pass.ind.1sg"
+   ],
+   "explain": "ἐβουλήθην: a passive deponent aorist with an active meaning.",
+   "audio": "ἐβουλήθην"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist passive participle of πείθω, masculine nominative plural ('having been persuaded').",
+   "lemma": "πείθω",
+   "cell": "aorist.passive.participle.nom.pl.m",
+   "skills": [
+    "verb.ptc.aor.pass"
+   ],
+   "explain": "πεισθέντες (πεισθείς, πεισθέντος …).",
+   "audio": "πεισθέντες"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἐπείσθησαν.",
+   "form": "ἐπείσθησαν",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      }
+     ]
+    },
+    {
+     "id": "voice",
+     "label": "Voice",
+     "options": [
+      {
+       "id": "act",
+       "label": "active"
+      },
+      {
+       "id": "mid",
+       "label": "middle"
+      },
+      {
+       "id": "pass",
+       "label": "passive"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person",
+     "options": [
+      {
+       "id": "3sg",
+       "label": "he, she, it"
+      },
+      {
+       "id": "1pl",
+       "label": "we"
+      },
+      {
+       "id": "3pl",
+       "label": "they"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "voice": "pass",
+    "person": "3pl"
+   },
+   "skills": [
+    "verb.aor.pass.ind.3pl"
+   ],
+   "explain": "ἐ-πείσ-θη-σαν: augment, -θη- of the aorist passive, -σαν 'they'.",
+   "audio": "ἐπείσθησαν"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse καυθήσεται.",
+   "form": "καυθήσεται",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      }
+     ]
+    },
+    {
+     "id": "voice",
+     "label": "Voice",
+     "options": [
+      {
+       "id": "act",
+       "label": "active"
+      },
+      {
+       "id": "mid",
+       "label": "middle"
+      },
+      {
+       "id": "pass",
+       "label": "passive"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "fut",
+    "voice": "pass"
+   },
+   "skills": [
+    "verb.fut.pass.ind.3sg"
+   ],
+   "explain": "καυ-θήσ-εται: future passive, 'will be burnt'.",
+   "audio": "καυθήσεται"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "πρὸ τῆς ἐσβολῆς οἱ Ἀθηναῖοι ὑπὸ τοῦ Περικλέους ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐπείσθησαν"
+    },
+    {
+     "id": "b",
+     "text": "ἔπεισαν"
+    },
+    {
+     "id": "c",
+     "text": "πείσουσιν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.aor.pass.ind.3pl",
+    "syntax.agent"
+   ],
+   "explain": "ὑπό + genitive marks the agent of a passive verb: ἐπείσθησαν 'were persuaded'."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὅρα ὅπως μὴ ὁ Λάβρος τὴν αἶγα ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "διώξει"
+    },
+    {
+     "id": "b",
+     "text": "διώκειν"
+    },
+    {
+     "id": "c",
+     "text": "ἐδίωξεν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.hopos-fut"
+   ],
+   "explain": "ὅρα ὅπως μή + future indicative: διώξει."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "«ἐγὼ οὐκ ___ τοὺς ἀγροὺς λιπεῖν», λέγει ὁ Εὔδημος.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐβουλήθην"
+    },
+    {
+     "id": "b",
+     "text": "ἐβουλήθη"
+    },
+    {
+     "id": "c",
+     "text": "ἐβουλήθημεν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.aor-deponent",
+    "verb.aor.pass.ind.1sg"
+   ],
+   "explain": "ἐγώ: first person singular, ἐβουλήθην."
+  },
+  {
+   "type": "label",
+   "prompt": "πράξω ὅπως ἡ οὐσία ὑμῶν σωθήσεται. — What kind of clause is ὅπως … σωθήσεται?",
+   "options": [
+    {
+     "id": "a",
+     "text": "an effort clause: what Ariston will work to bring about (future indicative)"
+    },
+    {
+     "id": "b",
+     "text": "a purpose clause with the subjunctive"
+    },
+    {
+     "id": "c",
+     "text": "an indirect question: how it will be saved"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.hopos-fut"
+   ],
+   "explain": "After verbs of effort (πράττω, ὁράω, ἐπιμελέομαι) ὅπως + future indicative."
+  },
+  {
+   "type": "label",
+   "prompt": "ἡ αἲξ ἡμῶν οὐδὲ τοὺς Λακεδαιμονίους ἐφοβήθη. — ἐφοβήθη is passive in form. It means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "'was afraid of' (a deponent with a passive aorist)"
+    },
+    {
+     "id": "b",
+     "text": "'was frightened away by someone'"
+    },
+    {
+     "id": "c",
+     "text": "'will be afraid'"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.aor-deponent"
+   ],
+   "explain": "φοβέομαι, ἐφοβήθην: the form is passive, the meaning 'feared'."
+  },
+  {
+   "type": "label",
+   "prompt": "οἱ Ἀθηναῖοι ὑπὸ τοῦ Περικλέους ἐπείσθησαν. — ὑπὸ τοῦ Περικλέους tells you …",
+   "options": [
+    {
+     "id": "a",
+     "text": "by whom (the agent)"
+    },
+    {
+     "id": "b",
+     "text": "where"
+    },
+    {
+     "id": "c",
+     "text": "when"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.agent"
+   ],
+   "explain": "ὑπό + genitive with a passive verb: the agent."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make it passive: ὁ Περικλῆς τοὺς Ἀθηναίους ἔπεισεν. → οἱ Ἀθηναῖοι ὑπὸ τοῦ Περικλέους …",
+   "template": "οἱ Ἀθηναῖοι ὑπὸ τοῦ Περικλέους ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἐπείσθησαν"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.aor.pass.ind.3pl",
+    "syntax.agent"
+   ],
+   "explain": "The object τοὺς Ἀθηναίους becomes the subject; the verb becomes ἐπείσθησαν.",
+   "audio": "οἱ Ἀθηναῖοι ὑπὸ τοῦ Περικλέους ἐπείσθησαν."
+  },
+  {
+   "type": "transform",
+   "prompt": "Put it in the future: τὰ πρόβατα εἰς Εὔβοιαν πέμπεται. → τὰ πρόβατα εἰς Εὔβοιαν …",
+   "template": "τὰ πρόβατα εἰς Εὔβοιαν ___.",
+   "gaps": [
+    {
+     "answers": [
+      "πεμφθήσεται"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.fut.pass.ind.3sg",
+    "verb.neuter-plural"
+   ],
+   "explain": "πεμφθήσεται: future passive, singular because τὰ πρόβατα is neuter plural.",
+   "audio": "τὰ πρόβατα εἰς Εὔβοιαν πεμφθήσεται."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every aorist passive.",
+   "sentence": "οἱ Ἀθηναῖοι ἐπείσθησαν· τὰ πρόβατα ἐπέμφθη, ἡ δὲ οἰκία ἐλείφθη· ἡμεῖς δὲ ἐσώθημεν καὶ εἰς τὴν πόλιν ἤλθομεν.",
+   "answer": [
+    2,
+    5,
+    9,
+    12
+   ],
+   "skills": [
+    "read.locate",
+    "verb.aor.pass.ind.3pl"
+   ],
+   "explain": "ἐπείσθησαν, ἐπέμφθη, ἐλείφθη, ἐσώθημεν: all with -θη-. ἤλθομεν is an active aorist."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every future passive.",
+   "sentence": "αἱ ἄμπελοι τμηθήσονται καὶ ἡ οἰκία καυθήσεται, οἱ δὲ βόες αὔριον πεμφθήσονται· ἡμεῖς δὲ σωθησόμεθα.",
+   "answer": [
+    2,
+    6,
+    11,
+    14
+   ],
+   "skills": [
+    "read.locate",
+    "verb.fut.pass.ind.3sg"
+   ],
+   "explain": "-θήσ- marks the future passive."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'We were persuaded by Pericles.'",
+   "tokens": [
+    "τοῦ",
+    "ἐπείσθημεν",
+    "ὑπὸ",
+    "Περικλέους"
+   ],
+   "answers": [
+    "ὑπὸ τοῦ Περικλέους ἐπείσθημεν",
+    "ἐπείσθημεν ὑπὸ τοῦ Περικλέους"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "syntax.agent"
+   ],
+   "explain": "ὑπὸ τοῦ Περικλέους ἐπείσθημεν."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὰ πρόβατα εἰς Εὔβοιαν ἐπέμφθη."
+    },
+    {
+     "id": "b",
+     "text": "τὰ πρόβατα εἰς Εὔβοιαν πεμφθήσεται."
+    },
+    {
+     "id": "c",
+     "text": "τὰ πρόβατα εἰς Εὔβοιαν πέμπεται."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences",
+    "verb.aor.pass.ind.3sg"
+   ],
+   "explain": "'The sheep were sent to Euboea.'",
+   "audio": "τὰ πρόβατα εἰς Εὔβοιαν ἐπέμφθη."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἐπὶ τῇ ἁμάξῃ καὶ ἡ θύρα τῆς οἰκίας ἐκομίζετο.",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "οὐ μόνον κλῖναι καὶ ὑδρίαι ἐκομίζοντο, ἀλλὰ καὶ ἡ θύρα τῆς οἰκίας.",
+   "audio": "prompt"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Εὔδημος ἐβουλήθη τοὺς ἀγροὺς λιπεῖν.",
+   "answer": "false",
+   "skills": [
+    "read.comprehension",
+    "verb.aor-deponent"
+   ],
+   "explain": "«ἐγὼ μὲν οὐκ ἐβουλήθην τοὺς ἀγροὺς λιπεῖν.»",
+   "audio": "prompt"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Ἀρίστων τὸ ἐργαστήριον τῷ Εὐδήμῳ παρέχει.",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "«τὸ ἐργαστήριον ὑμῖν παρέξω.»",
+   "audio": "prompt"
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "gaps": [
+    {
+     "answers": [
+      "ἐσώθημεν μέν, ἀλλ' ἡ οἰκία ἐλείφθη",
+      "ἐσώθημεν μέν ἀλλ' ἡ οἰκία ἐλείφθη"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "ἐσώθημεν μέν, ἀλλ' ἡ οἰκία ἐλείφθη.",
+   "audio": "ἐσώθημεν μέν, ἀλλ' ἡ οἰκία ἐλείφθη."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The sheep were sent to Euboea.'",
+   "gaps": [
+    {
+     "answers": [
+      "τὰ πρόβατα εἰς Εὔβοιαν ἐπέμφθη",
+      "τὰ πρόβατα ἐπέμφθη εἰς Εὔβοιαν",
+      "εἰς Εὔβοιαν τὰ πρόβατα ἐπέμφθη",
+      "τὰ πρόβατα εἰς τὴν Εὔβοιαν ἐπέμφθη"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.aor.pass.ind.3sg",
+    "verb.neuter-plural"
+   ],
+   "explain": "τὰ πρόβατα εἰς Εὔβοιαν ἐπέμφθη: neuter plural, singular verb."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'I will see to it that you (pl.) have a place.' (πράττω ὅπως + future)",
+   "gaps": [
+    {
+     "answers": [
+      "πράξω ὅπως τόπον ἕξετε",
+      "πράξω ὅπως ἕξετε τόπον",
+      "ἐγὼ πράξω ὅπως τόπον ἕξετε",
+      "ἐγὼ πράξω ὅπως ὑμεῖς τόπον ἕξετε"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.hopos-fut"
+   ],
+   "explain": "πράξω ὅπως τόπον ἕξετε: ἕξετε, future of ἔχω."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: χαλεπῶς δὲ αὐτοῖς ἡ ἀνάστασις ἐγίγνετο· οἱ γὰρ πολλοὶ ἀεὶ ἐν τοῖς ἀγροῖς ᾤκουν.",
+   "model": "The move was hard for them, for most of them had always lived in the country.",
+   "skills": [
+    "read.comprehension",
+    "read.thucydides"
+   ],
+   "explain": "οἱ πολλοί 'the majority'; ᾤκουν, imperfect of οἰκέω: had always lived.",
+   "audio": "χαλεπῶς δὲ αὐτοῖς ἡ ἀνάστασις ἐγίγνετο· οἱ γὰρ πολλοὶ ἀεὶ ἐν τοῖς ἀγροῖς ᾤκουν."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "ζῷον",
+     "right": "zoo, zoology"
+    },
+    {
+     "left": "κινέω",
+     "right": "kinetic, cinema"
+    },
+    {
+     "left": "πράττω",
+     "right": "practical, pragmatic"
+    },
+    {
+     "left": "ὁμολογέω",
+     "right": "homologous"
+    },
+    {
+     "left": "οὐσία",
+     "right": "homoousios (of one substance)"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "ζῷον 'animal'; κίνησις 'motion'; πρᾶξις, πρᾶγμα 'deed'; ὁμό-λογος 'saying the same'; οὐσία 'being, substance' (the theologians' word)."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐπὶ τῇ ἁμάξῃ ἐκομίζετο;",
+   "options": [
+    {
+     "id": "a",
+     "text": "κλῖναι καὶ ὑδρίαι καὶ ἡ θύρα τῆς οἰκίας."
+    },
+    {
+     "id": "b",
+     "text": "πρόβατα καὶ βόες."
+    },
+    {
+     "id": "c",
+     "text": "τριήρεις."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "οὐ μόνον κλῖναι καὶ ὑδρίαι, ἀλλὰ καὶ ἡ θύρα τῆς οἰκίας.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "ποῖ τὰ πρόβατα ἐπέμφθη;",
+   "options": [
+    {
+     "id": "a",
+     "text": "εἰς Εὔβοιαν."
+    },
+    {
+     "id": "b",
+     "text": "εἰς τὸν Πειραιᾶ."
+    },
+    {
+     "id": "c",
+     "text": "εἰς Ἀχαρνάς."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "verb.aor.pass.ind.3sg"
+   ],
+   "explain": "τὰ πρόβατα … εἰς Εὔβοιαν ἐπέμφθη.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "ὑπὸ τίνος ὁ Εὔδημος ἐπείσθη;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὑπὸ τοῦ Περικλέους."
+    },
+    {
+     "id": "b",
+     "text": "ὑπὸ τῆς Φιλίππης."
+    },
+    {
+     "id": "c",
+     "text": "ὑπὸ τοῦ Ἀρχιδάμου."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.agent"
+   ],
+   "explain": "«ὑπὸ τοῦ Περικλέους ἐπείσθην.»",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ὁ Ἀρίστων τοῖς Ἀχαρνεῦσι παρέχει;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὸ ἐργαστήριον."
+    },
+    {
+     "id": "b",
+     "text": "τὴν οἰκίαν."
+    },
+    {
+     "id": "c",
+     "text": "ἅμαξαν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "«τὸ ἐργαστήριον ὑμῖν παρέξω.»",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί χαλεπῶς ἡ ἀνάστασις ἐγίγνετο;",
+   "options": [
+    {
+     "id": "a",
+     "text": "οἱ πολλοὶ γὰρ ἀεὶ ἐν τοῖς ἀγροῖς ᾤκουν."
+    },
+    {
+     "id": "b",
+     "text": "οἱ γὰρ Λακεδαιμόνιοι ἤδη ἐν τῇ πόλει ἦσαν."
+    },
+    {
+     "id": "c",
+     "text": "αἱ γὰρ ἅμαξαι μικραὶ ἦσαν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "read.thucydides"
+   ],
+   "explain": "οἱ γὰρ πολλοὶ ἀεὶ ἐν τοῖς ἀγροῖς ᾤκουν.",
+   "audio": "prompt"
+  }
+ ],
+ "culture": {
+  "title": "Moving a whole country indoors",
+  "md": "In the spring of 431 most Athenians still lived where their grandparents had lived: in the demes of the countryside, on farms of olives, vines and grain. Thucydides says that they 'had always lived in the country' and that the move was hard. Families loaded carts with children, furniture and tools; they even took down the doors, beams and roof timbers of their houses, because wood was precious and the empty houses would be looted or burnt. Sheep and draught animals were ferried across to Euboea and the islands, where Athens had land and friends.\n\nInside the walls there was not nearly enough room. A few families could stay with relatives, as Philippe's does with Chrysis in our story; most camped wherever they could: on empty lots, in shrines and hero-sanctuaries (everywhere except the Acropolis, the Eleusinion and a few locked precincts), in the towers of the walls, along the Long Walls to the Piraeus. Even the Pelargikon below the Acropolis, which an old oracle said was better left empty, filled with shelters.\n\nAcharnae was the largest deme of Attica, and its men were famous charcoal-burners, cutting the oak and pine of Mount Parnes and carrying charcoal to the city on donkeys. For them, as for Eudemos, leaving meant watching their living go up in smoke. Pericles' strategy asked a whole people to give up their homes for the sake of the city; Thucydides does not hide how bitterly many of them resented it.",
+  "image": "culture-9-2-cart"
+ },
+ "quiz": [
+  {
+   "type": "cloze-choice",
+   "prompt": "τὰ ζῷα εἰς Εὔβοιαν ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐπέμφθη"
+    },
+    {
+     "id": "b",
+     "text": "ἔπεμψεν"
+    },
+    {
+     "id": "c",
+     "text": "πέμπει"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.aor.pass.ind.3sg",
+    "verb.neuter-plural"
+   ],
+   "explain": "Passive, and singular with a neuter plural subject: ἐπέμφθη."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist passive of σῴζω for 'they were saved'.",
+   "lemma": "σῴζω",
+   "cell": "aorist.passive.indicative.3pl",
+   "skills": [
+    "verb.aor.pass.ind.3pl"
+   ],
+   "explain": "ἐσώθησαν (no σ before θ in this verb).",
+   "audio": "ἐσώθησαν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the future passive of καίω for 'it will be burnt'.",
+   "lemma": "καίω",
+   "cell": "future.passive.indicative.3sg",
+   "skills": [
+    "verb.fut.pass.ind.3sg"
+   ],
+   "explain": "καυθήσεται.",
+   "audio": "καυθήσεται"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὅρα ὅπως ὁ κύων τὴν αἶγα μὴ ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "διώξει"
+    },
+    {
+     "id": "b",
+     "text": "διώκει"
+    },
+    {
+     "id": "c",
+     "text": "ἐδίωξεν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.hopos-fut"
+   ],
+   "explain": "ὅπως μή + future indicative."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἐφοβήθην.",
+   "form": "ἐφοβήθην",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      }
+     ]
+    },
+    {
+     "id": "meaning",
+     "label": "Meaning",
+     "options": [
+      {
+       "id": "act",
+       "label": "I was afraid"
+      },
+      {
+       "id": "pass",
+       "label": "I was frightened by someone"
+      },
+      {
+       "id": "fut",
+       "label": "I shall be afraid"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "meaning": "act"
+   },
+   "skills": [
+    "verb.aor-deponent"
+   ],
+   "explain": "φοβέομαι, aorist ἐφοβήθην: passive form, 'I was afraid'.",
+   "audio": "ἐφοβήθην"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Εὔδημος τὴν ἅμαξαν πρὸς τὸ ἐργαστήριον ἐκίνησεν.",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὡμολόγησε καὶ τὴν ἅμαξαν πρὸς τὸ ἐργαστήριον ἐκίνησεν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The house was left behind.'",
+   "gaps": [
+    {
+     "answers": [
+      "ἡ οἰκία ἐλείφθη",
+      "ἐλείφθη ἡ οἰκία",
+      "ἡ οἰκία ἡμῶν ἐλείφθη"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.aor.pass.ind.3sg"
+   ],
+   "explain": "ἡ οἰκία ἐλείφθη."
+  }
+ ],
+ "skills": [
+  "verb.aor.pass.ind.1sg",
+  "verb.aor.pass.ind.3sg",
+  "verb.aor.pass.ind.3pl",
+  "verb.fut.pass.ind.3sg",
+  "verb.ptc.aor.pass",
+  "verb.aor-deponent",
+  "syntax.hopos-fut",
+  "syntax.agent",
+  "verb.neuter-plural",
+  "syntax.word-order",
+  "read.comprehension",
+  "read.thucydides",
+  "read.locate",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family"
+ ]
+}

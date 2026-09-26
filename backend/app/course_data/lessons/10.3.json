@@ -1,0 +1,1433 @@
+{
+ "id": "10.3",
+ "title_grc": "τί ἐστιν ἡ ἀρετή;",
+ "title_en": "What is virtue?",
+ "summary_grc": "ὁ Σωκράτης εἰς τὸ ἐργαστήριον ἔρχεται καὶ ἐρωτᾷ τί ἂν εἴη ἡ ἀρετή· ὁ δὲ Δημόκριτος οὕτως ὀργίζεται ὥστε ἐξελθεῖν.",
+ "summary_en": "Socrates visits Ariston's workshop: what is the excellence of a cup, a horse, a man? Then Demokritos bursts in with the complaints that, thirty years later, became the charge against Socrates. The potential optative (ἄν + optative), result clauses with ὥστε, and the accusative absolute (ἐξόν, δέον).",
+ "cover": "panel-10-3-a",
+ "caption_grc": "τί ἂν εἴη ἡ ἀρετὴ τῆς κύλικος; — ὁ Δημόκριτος οὕτως ὠργίσθη ὥστε εὐθὺς ἐξελθεῖν.",
+ "original": {
+  "text": "xen-mem-1.1",
+  "note": "Xenophon, Memorabilia 1.1.1–4: the charge against Socrates and Xenophon's answer to it. Xenophon was born about the time of our story and wrote this long after Socrates' trial and death in 399 BC. In paragraph 3 Demokritos voices the kind of talk that later became the formal charge, and Ariston answers with Xenophon's own defence."
+ },
+ "names": {},
+ "allow": {
+  "Σώκρατες": "vocative of the course name Σωκράτης",
+  "ἅμα": "unit 7",
+  "ἐθαύμασεν": "unit 7",
+  "θαυμάζουσιν": "unit 7",
+  "ὀρθῶς": "unit 9",
+  "ταχέως": "unit 7",
+  "οἴομαι": "unit 9",
+  "χρήματα": "unit 8",
+  "χρημάτων": "unit 8",
+  "τότε": "unit 8",
+  "ἀδικεῖ": "unit 7",
+  "νομίζει": "unit 9",
+  "ἕτερα": "unit 7",
+  "πιστεύσαιμι": "unit 8",
+  "κοινῶν": "unit 8",
+  "ὅτι": "unit 8",
+  "εὐθὺς": "unit 8"
+ },
+ "story": [
+  {
+   "image": "panel-10-3-a",
+   "sentences": [
+    {
+     "text": "ὀλίγαις δὲ ἡμέραις ὕστερον ὁ Σωκράτης εἰς τὸ ἐργαστήριον ἦλθεν· ἐφίλει γὰρ καὶ ἐν τοῖς ἐργαστηρίοις τῶν τεχνιτῶν διαλέγεσθαι.",
+     "glosses": [
+      {
+       "word": "ὀλίγαις",
+       "kind": "en",
+       "value": "a few"
+      },
+      {
+       "word": "ὕστερον",
+       "kind": "en",
+       "value": "later"
+      },
+      {
+       "word": "διαλέγεσθαι",
+       "kind": "en",
+       "value": "to talk, hold a conversation"
+      },
+      {
+       "word": "τεχνιτῶν",
+       "kind": "<",
+       "value": "τέχνη (craftsmen)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Ἀρίστων, ὁ τοῦ ἐργαστηρίου κύριος· «χαῖρε, ὦ Σώκρατες. ἀνάγκη μέν μοι πονεῖν· ἐξὸν δὲ ἅμα πονεῖν καὶ ἀκούειν, ἡδέως ἀκούσομαι.»",
+     "glosses": [
+      {
+       "word": "κύριος",
+       "kind": "en",
+       "value": "master, owner"
+      },
+      {
+       "word": "ἀνάγκη",
+       "kind": "en",
+       "value": "necessity; ἀνάγκη μοι: I must"
+      },
+      {
+       "word": "ἐξὸν",
+       "kind": "note",
+       "value": "accusative absolute: 'since it is possible' — ἔξεστι has no subject, so its participle ἐξόν stands alone in the accusative"
+      },
+      {
+       "word": "ἅμα",
+       "kind": "en",
+       "value": "at the same time"
+      },
+      {
+       "word": "ἡδέως",
+       "kind": "en",
+       "value": "gladly"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Μικίων, δέον αὐτὸν τῷ Σύρῳ βοηθεῖν, ἔξω ἔπαιζεν.",
+     "glosses": [
+      {
+       "word": "δέον",
+       "kind": "note",
+       "value": "accusative absolute of δεῖ: 'although he ought to'"
+      },
+      {
+       "word": "βοηθεῖν",
+       "kind": "en",
+       "value": "to help (+ dative)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Σωκράτης κύλικα ἔλαβε καὶ ἐθαύμασεν· «ὡς καλὴ ἡ κύλιξ! ὁ κόσμος αὐτῆς οὕτως καλός ἐστιν ὥστε πάντες αὐτὴν θαυμάζουσιν.»",
+     "glosses": [
+      {
+       "word": "κόσμος",
+       "kind": "pic",
+       "value": "kosmos"
+      },
+      {
+       "word": "οὕτως",
+       "kind": "en",
+       "value": "so"
+      },
+      {
+       "word": "ὥστε",
+       "kind": "note",
+       "value": "οὕτως … ὥστε + indicative: 'so … that' — a result that actually happens"
+      }
+     ]
+    },
+    {
+     "text": "«εἰπέ μοι, ὦ Ἀρίστων· τί ἂν εἴη ἡ ἀρετὴ τῆς κύλικος;»",
+     "glosses": [
+      {
+       "word": "ἂν",
+       "kind": "note",
+       "value": "ἄν + optative: 'what would … be?' — the potential optative, a cautious way of speaking"
+      },
+      {
+       "word": "ἀρετὴ",
+       "kind": "en",
+       "value": "excellence, goodness; in a person: virtue"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Ἀρίστων· «ἡ ἀρετὴ τῆς κύλικος οὐκ ἐν τῷ κόσμῳ ὑπάρχει, ἀλλ’ ἐν τῷ ἔργῳ· ἀγαθὴ γάρ ἐστιν ἡ κύλιξ ἣ τὸν οἶνον καλῶς φέρει, ὥστε μηδὲν ἐκχεῖν.»",
+     "glosses": [
+      {
+       "word": "ὑπάρχει",
+       "kind": "en",
+       "value": "is found, lies, belongs"
+      },
+      {
+       "word": "καλῶς",
+       "kind": "<",
+       "value": "καλός (well)"
+      },
+      {
+       "word": "μηδὲν",
+       "kind": "en",
+       "value": "nothing"
+      },
+      {
+       "word": "ἐκχεῖν",
+       "kind": "en",
+       "value": "to spill"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-10-3-b",
+   "sentences": [
+    {
+     "text": "«ὀρθῶς. καὶ ἡ τοῦ ἵππου ἀρετὴ τί ἂν εἴη, ὦ Μικίων;» «τὸ ταχέως τρέχειν.»",
+     "glosses": [
+      {
+       "word": "ὀρθῶς",
+       "kind": "en",
+       "value": "rightly"
+      },
+      {
+       "word": "ταχέως",
+       "kind": "en",
+       "value": "fast"
+      }
+     ]
+    },
+    {
+     "text": "«καὶ ἡ τοῦ ἀνθρώπου ἀρετή; ἆρα ἐν τῷ σώματι ὑπάρχει ἢ ἐν τῇ ψυχῇ;»",
+     "glosses": [
+      {
+       "word": "ψυχῇ",
+       "kind": "pic",
+       "value": "psyche"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λύσις· «ἐν τῇ ψυχῇ, ὦ Σώκρατες· ἡ γὰρ ψυχὴ τοῦ σώματος κρείττων ἐστίν.»",
+     "glosses": [
+      {
+       "word": "κρείττων",
+       "kind": "en",
+       "value": "stronger, better (+ genitive: than)"
+      }
+     ]
+    },
+    {
+     "text": "«εὖ γε. ἀλλ’ εἴτε διδακτόν ἐστιν ἡ ἀρετὴ εἴτε φύσει ὑπάρχει, οὐκ ἂν ῥᾳδίως εὕροιμεν.»",
+     "glosses": [
+      {
+       "word": "εὖ",
+       "kind": "en",
+       "value": "well"
+      },
+      {
+       "word": "γε",
+       "kind": "en",
+       "value": "indeed (stresses the word before it)"
+      },
+      {
+       "word": "εἴτε",
+       "kind": "en",
+       "value": "εἴτε … εἴτε: whether … or"
+      },
+      {
+       "word": "διδακτόν",
+       "kind": "<",
+       "value": "διδάσκω (teachable)"
+      },
+      {
+       "word": "φύσει",
+       "kind": "en",
+       "value": "by nature (ἡ φύσις)"
+      },
+      {
+       "word": "ῥᾳδίως",
+       "kind": "<",
+       "value": "ῥᾴδιος (easily)"
+      },
+      {
+       "word": "εὕροιμεν",
+       "kind": "|",
+       "value": "εὑρίσκομεν (we find) | ἂν εὕροιμεν (we would find)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Μικίων· «ἐγὼ μὲν οἴομαι φύσει· ὁ γὰρ ἐμὸς πατὴρ ἐξ ἀρχῆς ἀνδρεῖος ἦν, καὶ οὐδεὶς αὐτὸν ἐδίδαξεν.»",
+     "glosses": [
+      {
+       "word": "οἴομαι",
+       "kind": "en",
+       "value": "I think"
+      },
+      {
+       "word": "ἀρχῆς",
+       "kind": "en",
+       "value": "beginning; ἐξ ἀρχῆς: from the start"
+      },
+      {
+       "word": "ἀνδρεῖος",
+       "kind": "<",
+       "value": "ἀνήρ (brave)"
+      },
+      {
+       "word": "οὐδεὶς",
+       "kind": "en",
+       "value": "nobody"
+      }
+     ]
+    },
+    {
+     "text": "«ὁ δὲ Ἀρίστων τὴν τέχνην οὐ φύσει ἔχει, ἀλλ’ ἔμαθεν. ἀνάγκη οὖν ἡμῖν ἐξ ἀρχῆς σκοπεῖν τί ἐστιν ἡ ἀρετή.»",
+     "glosses": [
+      {
+       "word": "σκοπεῖν",
+       "kind": "en",
+       "value": "to examine, look into"
+      }
+     ]
+    },
+    {
+     "text": "«ἓν δὲ οἶδα· τὰ μὲν χρήματα ἀφαιρεῖσθαί τινος ἔξεστιν, τὴν δὲ ἀρετήν, ἣ τῶν χρημάτων κρείττων ἐστίν, οὐδεὶς ἄν σου ἀφέλοιτο.»",
+     "glosses": [
+      {
+       "word": "χρήματα",
+       "kind": "en",
+       "value": "money, possessions"
+      },
+      {
+       "word": "ἀφαιρεῖσθαι",
+       "kind": "en",
+       "value": "to take away (from someone: + genitive)"
+      },
+      {
+       "word": "ἀφέλοιτο",
+       "kind": "|",
+       "value": "ἀφαιρεῖται | ἂν ἀφέλοιτο (could take away)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-10-3-c",
+   "sentences": [
+    {
+     "text": "τότε δὲ ὁ Δημόκριτος εἰσῆλθε, καὶ ὡς τὸν Σωκράτη εἶδεν, ὠργίσθη.",
+     "glosses": [
+      {
+       "word": "ὠργίσθη",
+       "kind": "en",
+       "value": "grew angry"
+      }
+     ]
+    },
+    {
+     "text": "«ὦ Ἀρίστων, σὺ κύριος εἶ τοῦ ἐργαστηρίου· διὰ τί τοῦτον δέχῃ; ἀδικεῖ γὰρ οὗτος· οὓς μὲν ἡ πόλις νομίζει θεούς, οὐ νομίζει, ἕτερα δὲ καινὰ δαιμόνια εἰσφέρει.»",
+     "orig": [
+      2
+     ],
+     "glosses": [
+      {
+       "word": "διὰ",
+       "kind": "=",
+       "value": "διὰ τί; = why?"
+      },
+      {
+       "word": "δέχῃ",
+       "kind": "en",
+       "value": "you welcome, receive"
+      },
+      {
+       "word": "ἀδικεῖ",
+       "kind": "en",
+       "value": "does wrong, is guilty"
+      },
+      {
+       "word": "νομίζει",
+       "kind": "en",
+       "value": "believes in, honours"
+      },
+      {
+       "word": "καινὰ",
+       "kind": "en",
+       "value": "new, strange"
+      },
+      {
+       "word": "δαιμόνια",
+       "kind": "en",
+       "value": "divine powers, spirits"
+      },
+      {
+       "word": "εἰσφέρει",
+       "kind": "en",
+       "value": "brings in, introduces"
+      }
+     ]
+    },
+    {
+     "text": "«ἀδικεῖ δὲ καὶ τοὺς νέους διαφθείρων· ὥστε ἔγωγε οὐκ ἂν αὐτῷ τοὺς νέους πιστεύσαιμι.»",
+     "orig": [
+      3
+     ],
+     "glosses": [
+      {
+       "word": "διαφθείρων",
+       "kind": "en",
+       "value": "corrupting"
+      },
+      {
+       "word": "ἔγωγε",
+       "kind": "en",
+       "value": "I, for my part"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Ἀρίστων· «ὁ Σωκράτης θύει πολλάκις μὲν οἴκοι, πολλάκις δὲ ἐπὶ τῶν κοινῶν τῆς πόλεως βωμῶν· τοῦτο πάντες ἑωράκασιν.»",
+     "orig": [
+      5
+     ],
+     "glosses": [
+      {
+       "word": "οἴκοι",
+       "kind": "en",
+       "value": "at home"
+      },
+      {
+       "word": "κοινῶν",
+       "kind": "en",
+       "value": "common, public"
+      }
+     ]
+    },
+    {
+     "text": "«λέγει δὲ ὅτι τὸ δαιμόνιον ἑαυτῷ σημαίνει τὰ μὲν ποιεῖν, τὰ δὲ μὴ ποιεῖν.»",
+     "orig": [
+      6,
+      13
+     ],
+     "glosses": [
+      {
+       "word": "δαιμόνιον",
+       "kind": "en",
+       "value": "τὸ δαιμόνιον: a divine sign, an inner voice"
+      },
+      {
+       "word": "σημαίνει",
+       "kind": "en",
+       "value": "gives a sign, tells"
+      }
+     ]
+    },
+    {
+     "text": "«εἴτε γὰρ δαιμόνιον εἴτε ὄρνις σημαίνει, οἱ θεοὶ διὰ τούτων σημαίνουσιν.»",
+     "orig": [
+      9
+     ],
+     "glosses": [
+      {
+       "word": "ὄρνις",
+       "kind": "en",
+       "value": "bird (read as an omen by seers)"
+      },
+      {
+       "word": "σημαίνουσιν",
+       "kind": "|",
+       "value": "σημαίνει | σημαίνουσι(ν)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Σωκράτης γελάσας· «ὦ Δημόκριτε, ἡδέως ἂν μετὰ σοῦ περὶ τῆς ἀρετῆς διαλεγοίμην.»",
+     "glosses": [
+      {
+       "word": "γελάσας",
+       "kind": "en",
+       "value": "laughing"
+      },
+      {
+       "word": "περὶ",
+       "kind": "en",
+       "value": "about (+ genitive)"
+      },
+      {
+       "word": "διαλεγοίμην",
+       "kind": "|",
+       "value": "διαλέγομαι | ἂν διαλεγοίμην (I would talk)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Δημόκριτος οὕτως ὠργίσθη ὥστε εὐθὺς ἐξελθεῖν.",
+     "glosses": [
+      {
+       "word": "εὐθὺς",
+       "kind": "en",
+       "value": "at once"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "αρετη",
+   "gloss_grc": "ἡ ἀρετὴ τῆς κύλικος · ἡ ἀρετὴ τοῦ ἀνθρώπου"
+  },
+  {
+   "id": "ψυχη",
+   "pic": "psyche",
+   "gloss_grc": "ἡ ψυχὴ ↔ τὸ σῶμα"
+  },
+  {
+   "id": "φυσις",
+   "gloss_grc": "ἡ φύσις, τῆς φύσεως · φύσει ↔ διδακτόν"
+  },
+  {
+   "id": "ωστε",
+   "gloss_grc": "οὕτως … ὥστε"
+  },
+  {
+   "id": "αναγκη",
+   "gloss_grc": "ἀνάγκη ἐστί = δεῖ"
+  },
+  {
+   "id": "κρειττων",
+   "gloss_grc": "ἀγαθός · κρείττων · κράτιστος"
+  },
+  {
+   "id": "υπαρχω",
+   "gloss_grc": "ὑπάρχει = ἔστι"
+  },
+  {
+   "id": "αφαιρεω",
+   "gloss_grc": "ἀφαιρεῖται · ἀφείλετο (ἀπό + αἱρέω)"
+  },
+  {
+   "id": "αρχη",
+   "gloss_grc": "ἡ ἀρχή ↔ τὸ τέλος · ἐξ ἀρχῆς"
+  },
+  {
+   "id": "κυριος",
+   "gloss_grc": "ὁ κύριος τοῦ ἐργαστηρίου = ὁ δεσπότης"
+  },
+  {
+   "id": "ειτεειτε",
+   "gloss_grc": "εἴτε … εἴτε"
+  },
+  {
+   "id": "κοσμος",
+   "pic": "kosmos",
+   "gloss_grc": "ὁ κόσμος τῆς κύλικος · ὁ κόσμος: τάξις"
+  }
+ ],
+ "notice": [
+  "τί ἂν εἴη ἡ ἀρετὴ τῆς κύλικος; — οὐκ ἂν ῥᾳδίως εὕροιμεν. — οὐδεὶς ἄν σου τὴν ἀρετὴν ἀφέλοιτο.",
+  "ὁ κόσμος οὕτως καλός ἐστιν ὥστε πάντες αὐτὴν θαυμάζουσιν.",
+  "ἡ κύλιξ τὸν οἶνον καλῶς φέρει, ὥστε μηδὲν ἐκχεῖν. — ὁ Δημόκριτος οὕτως ὠργίσθη ὥστε εὐθὺς ἐξελθεῖν.",
+  "ἐξὸν ἅμα πονεῖν καὶ ἀκούειν … — δέον αὐτὸν βοηθεῖν, ἔξω ἔπαιζεν."
+ ],
+ "grammar": {
+  "md": "**Would, could, might: the potential optative.** The optative (Unit 9) + **ἄν** states what *would* or *could* happen, with no time limit and no condition spelled out: τί **ἂν εἴη** ἡ ἀρετή; 'what would virtue be?'; οὐκ **ἂν** ῥᾳδίως **εὕροιμεν** 'we could not easily find out'; οὐδεὶς **ἄν** σου **ἀφέλοιτο** 'nobody could take it from you'. The negative is **οὐ**. Greeks used it constantly for politeness and caution, where English says 'I'd like …' or 'perhaps': ἡδέως **ἂν** ἀκούσαιμι 'I'd be glad to hear'; ἡδέως **ἂν** διαλεγοίμην 'I'd gladly talk'. The tense of the optative shows aspect only: present (διαλεγοίμην, of an ongoing activity) or aorist (εὕροιμεν, ἀφέλοιτο, of a single act).\n\nReminder of the forms: εἴην, εἴης, εἴη, εἶμεν, εἶτε, εἶεν (εἰμί); λύοιμι, λύοις, λύοι …; aorist λύσαιμι, λύσαις, λύσαι …; second aorist εὕροιμι, εὕροις, εὕροι …; middle -οίμην, -οιο, -οιτο.\n\n**Result clauses: ὥστε.** A clause of result is often announced by οὕτως 'so', τοσοῦτος 'so great', τοιοῦτος 'such' in the main clause.\n\n| ὥστε + … | meaning | negative | example |\n|---|---|---|---|\n| **infinitive** | natural or intended result: 'so as to' | μή | ἡ κύλιξ τὸν οἶνον φέρει **ὥστε μηδὲν ἐκχεῖν** |\n| **indicative** | actual result: 'so that (in fact)' | οὐ | ὁ κόσμος οὕτως καλός ἐστιν **ὥστε** πάντες **θαυμάζουσιν** |\n\nThe line is fine: οὕτως ὠργίσθη **ὥστε** εὐθὺς **ἐξελθεῖν** stresses the result as the natural outcome of his anger; ὥστε ἐξῆλθεν would state the fact. At the start of a sentence ὥστε can simply mean 'and so, therefore', followed by any main verb: **ὥστε** ἔγωγε οὐκ ἂν πιστεύσαιμι.\n\n**The accusative absolute.** A genitive absolute needs a subject in the genitive (Unit 7). Impersonal verbs have no subject, so their participle stands alone in the **neuter accusative**: **δέον** 'it being necessary' (δεῖ), **ἐξόν** 'it being possible' (ἔξεστι), **δόξαν** 'it having been decided' (δοκεῖ), **παρόν** 'it being possible' (πάρεστι). Translate with 'since', 'although', 'when' as the sense needs: **ἐξὸν** ἅμα πονεῖν καὶ ἀκούειν, ἡδέως ἀκούσομαι 'since it is possible to work and listen at once, I'll gladly listen'; **δέον** αὐτὸν βοηθεῖν, ἔξω ἔπαιζεν 'although he ought to help, he was playing outside'.",
+  "paradigms": [
+   "eimi",
+   "luo"
+  ],
+  "diagram": "diagram-result"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the optative endings (potential optative with ἄν).",
+   "template": "τί ἂν εἴ___ ἡ ἀρετή; οὐκ ἂν ῥᾳδίως εὕροι___ (we). ἡδέως ἂν ἀκούσαι___ (I). οὐδεὶς ἄν σου τὴν ἀρετὴν ἀφέλοι___.",
+   "gaps": [
+    {
+     "answers": [
+      "η"
+     ]
+    },
+    {
+     "answers": [
+      "μεν"
+     ]
+    },
+    {
+     "answers": [
+      "μι"
+     ]
+    },
+    {
+     "answers": [
+      "το"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.opt-potential",
+    "verb.pres.act.opt.3sg",
+    "verb.aor.act.opt.1sg"
+   ],
+   "explain": "εἴη, εὕροιμεν, ἀκούσαιμι, ἀφέλοιτο (aorist middle)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἡ ψυχὴ τοῦ σώματος ___ ἐστίν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "κρείττων"
+    },
+    {
+     "id": "b",
+     "text": "κύριος"
+    },
+    {
+     "id": "c",
+     "text": "ἀνάγκη"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "adj.comp",
+    "vocab.stage2"
+   ],
+   "explain": "κρείττων + genitive: 'better, stronger than the body'.",
+   "audio": "ἡ ψυχὴ τοῦ σώματος κρείττων ἐστίν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ Δημόκριτος οὕτως ὠργίσθη ___ εὐθὺς ἐξελθεῖν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὥστε"
+    },
+    {
+     "id": "b",
+     "text": "πρίν"
+    },
+    {
+     "id": "c",
+     "text": "ἕνεκα"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.result"
+   ],
+   "explain": "οὕτως … ὥστε + infinitive: 'so angry as to leave at once'.",
+   "audio": "ὁ Δημόκριτος οὕτως ὠργίσθη ὥστε εὐθὺς ἐξελθεῖν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ___ δὲ ἅμα πονεῖν καὶ ἀκούειν, ἡδέως ἀκούσομαι.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐξόν"
+    },
+    {
+     "id": "b",
+     "text": "ἔξεστι"
+    },
+    {
+     "id": "c",
+     "text": "ἐξῆν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.acc-abs"
+   ],
+   "explain": "The accusative absolute ἐξόν, 'since it is possible'.",
+   "audio": "ἐξὸν δὲ ἅμα πονεῖν καὶ ἀκούειν, ἡδέως ἀκούσομαι."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ἡ ψυχή",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "soma"
+    },
+    {
+     "id": "b",
+     "image": "psyche"
+    },
+    {
+     "id": "c",
+     "image": "kephale"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ψυχή: soul, life — painted on Athenian vases as a tiny winged figure."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ὁ κόσμος τῆς κύλικος",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "kosmos"
+    },
+    {
+     "id": "b",
+     "image": "pelos"
+    },
+    {
+     "id": "c",
+     "image": "trochos"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "κόσμος: order, ornament — the painted decoration of the cup (and, for philosophers, the ordered world)."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the optative of εἰμί for 'it would be' (with ἄν).",
+   "lemma": "εἰμί",
+   "cell": "present.active.optative.3sg",
+   "skills": [
+    "verb.pres.act.opt.3sg",
+    "syntax.opt-potential"
+   ],
+   "explain": "εἴη: τί ἂν εἴη;",
+   "audio": "εἴη"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist optative of εὑρίσκω for 'we would find' (with ἄν).",
+   "lemma": "εὑρίσκω",
+   "cell": "aorist.active.optative.1pl",
+   "skills": [
+    "syntax.opt-potential"
+   ],
+   "explain": "εὕροιμεν: second-aorist stem εὑρ- + -οιμεν.",
+   "audio": "εὕροιμεν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist optative of ἀκούω for 'I would hear' (with ἄν).",
+   "lemma": "ἀκούω",
+   "cell": "aorist.active.optative.1sg",
+   "skills": [
+    "verb.aor.act.opt.1sg",
+    "syntax.opt-potential"
+   ],
+   "explain": "ἀκούσαιμι: ἡδέως ἂν ἀκούσαιμι 'I'd be glad to hear'.",
+   "audio": "ἀκούσαιμι"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse εὕροιμεν.",
+   "form": "εὕροιμεν",
+   "groups": [
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Who?",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "I"
+      },
+      {
+       "id": "1pl",
+       "label": "we"
+      },
+      {
+       "id": "3pl",
+       "label": "they"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "mood": "opt",
+    "person": "1pl"
+   },
+   "skills": [
+    "syntax.opt-potential"
+   ],
+   "explain": "-οι- + -μεν: optative, 'we'. With ἄν: 'we would find'.",
+   "audio": "εὕροιμεν"
+  },
+  {
+   "type": "parse",
+   "prompt": "What is δέον in δέον αὐτὸν βοηθεῖν, ἔξω ἔπαιζεν?",
+   "form": "δέον",
+   "groups": [
+    {
+     "id": "form",
+     "label": "Form",
+     "options": [
+      {
+       "id": "ptc",
+       "label": "participle of δεῖ (neuter)"
+      },
+      {
+       "id": "noun",
+       "label": "a noun"
+      },
+      {
+       "id": "inf",
+       "label": "an infinitive"
+      }
+     ]
+    },
+    {
+     "id": "case",
+     "label": "Construction",
+     "options": [
+      {
+       "id": "accabs",
+       "label": "accusative absolute"
+      },
+      {
+       "id": "genabs",
+       "label": "genitive absolute"
+      },
+      {
+       "id": "obj",
+       "label": "object of ἔπαιζεν"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "form": "ptc",
+    "case": "accabs"
+   },
+   "skills": [
+    "syntax.acc-abs"
+   ],
+   "explain": "δέον: neuter participle of the impersonal δεῖ, standing alone in the accusative: 'although it was necessary for him to help'."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "Which ὥστε? — ἡ κύλιξ τὸν οἶνον καλῶς φέρει, ὥστε μηδὲν ἐκχεῖν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὥστε + infinitive: a natural result ('so as to spill nothing')"
+    },
+    {
+     "id": "b",
+     "text": "ὥστε + indicative: an actual fact"
+    },
+    {
+     "id": "c",
+     "text": "a purpose clause"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.result"
+   ],
+   "explain": "Infinitive and negative μή: the result that the good cup's nature produces."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ κόσμος αὐτῆς οὕτως καλός ἐστιν ὥστε πάντες αὐτὴν ___ (and they do).",
+   "options": [
+    {
+     "id": "a",
+     "text": "θαυμάζουσιν"
+    },
+    {
+     "id": "b",
+     "text": "θαυμάζειν"
+    },
+    {
+     "id": "c",
+     "text": "θαυμάζωσιν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.result"
+   ],
+   "explain": "An actual result: ὥστε + indicative."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "What does οὐδεὶς ἄν σου τὴν ἀρετὴν ἀφέλοιτο mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Nobody could take your virtue away from you."
+    },
+    {
+     "id": "b",
+     "text": "Nobody took your virtue away from you."
+    },
+    {
+     "id": "c",
+     "text": "Let nobody take your virtue away from you!"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.opt-potential"
+   ],
+   "explain": "ἄν + optative: what could (not) happen — a potential statement."
+  },
+  {
+   "type": "label",
+   "prompt": "Which construction? — ἐξὸν δὲ ἅμα πονεῖν καὶ ἀκούειν, ἡδέως ἀκούσομαι.",
+   "options": [
+    {
+     "id": "a",
+     "text": "accusative absolute (impersonal ἔξεστι)"
+    },
+    {
+     "id": "b",
+     "text": "genitive absolute"
+    },
+    {
+     "id": "c",
+     "text": "potential optative"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.acc-abs"
+   ],
+   "explain": "ἐξόν: the neuter participle of ἔξεστι, alone in the accusative: 'since it is possible'."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make it cautious (potential optative): ἡ ἀρετὴ ἐν τῇ ψυχῇ ἐστιν. → ἡ ἀρετὴ ἐν τῇ ψυχῇ ἂν …",
+   "template": "ἡ ἀρετὴ ἐν τῇ ψυχῇ ἂν ___.",
+   "gaps": [
+    {
+     "answers": [
+      "εἴη"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.opt-potential",
+    "verb.pres.act.opt.3sg"
+   ],
+   "explain": "ἐστί → ἂν εἴη 'would be'.",
+   "audio": "ἡ ἀρετὴ ἐν τῇ ψυχῇ ἂν εἴη."
+  },
+  {
+   "type": "transform",
+   "prompt": "State the result as a fact (ὥστε + indicative): οὕτως ὠργίσθη ὥστε ἐξελθεῖν. → οὕτως ὠργίσθη ὥστε …",
+   "template": "οὕτως ὠργίσθη ὥστε ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἐξῆλθε(ν)"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.result"
+   ],
+   "explain": "ἐξελθεῖν (natural result) → ἐξῆλθεν (he actually went out).",
+   "audio": "οὕτως ὠργίσθη ὥστε ἐξῆλθεν."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every optative.",
+   "sentence": "εἴτε διδακτόν ἐστιν εἴτε φύσει ὑπάρχει, οὐκ ἂν ῥᾳδίως εὕροιμεν· ὁ δὲ Σωκράτης ἡδέως ἂν διαλέγοιτο.",
+   "answer": [
+    9,
+    15
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.opt-potential"
+   ],
+   "explain": "εὕροιμεν and διαλέγοιτο, each with ἄν. ἐστιν and ὑπάρχει are indicative."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the two participles used as accusative absolutes.",
+   "sentence": "ἐξὸν ἅμα πονεῖν καὶ ἀκούειν, ὁ Ἀρίστων ἤκουεν· ὁ δὲ Μικίων, δέον βοηθεῖν, ἔπαιζεν.",
+   "answer": [
+    0,
+    11
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.acc-abs"
+   ],
+   "explain": "ἐξόν (ἔξεστι) and δέον (δεῖ)."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'We could not easily find out.'",
+   "tokens": [
+    "ῥᾳδίως",
+    "οὐκ",
+    "εὕροιμεν",
+    "ἂν"
+   ],
+   "answers": [
+    "οὐκ ἂν ῥᾳδίως εὕροιμεν",
+    "ῥᾳδίως οὐκ ἂν εὕροιμεν",
+    "οὐκ ἂν εὕροιμεν ῥᾳδίως"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "syntax.opt-potential"
+   ],
+   "explain": "οὐκ ἂν ῥᾳδίως εὕροιμεν: ἄν likes to stand early, next to the negative."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "audio": "τί ἂν εἴη ἡ ἀρετὴ τοῦ ἀνθρώπου;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τί ἐστιν ἡ ἀρετὴ τοῦ ἀνθρώπου;"
+    },
+    {
+     "id": "b",
+     "text": "τί ἂν εἴη ἡ ἀρετὴ τοῦ ἀνθρώπου;"
+    },
+    {
+     "id": "c",
+     "text": "τί ἂν εἴη ἡ ἀρετὴ τοῦ ἵππου;"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "listen.sentences",
+    "syntax.opt-potential"
+   ],
+   "explain": "'What would a man's excellence be?'"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Ἀρίστων λέγει ὅτι ἡ ἀρετὴ τῆς κύλικος ἐν τῷ κόσμῳ ὑπάρχει.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "οὐκ ἐν τῷ κόσμῳ, ἀλλ’ ἐν τῷ ἔργῳ: a good cup carries the wine without spilling."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Μικίων οἴεται τὴν ἀρετὴν φύσει ὑπάρχειν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἐγὼ μὲν οἴομαι φύσει — his father was brave from the start."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Σωκράτης οὐδέποτε τοῖς θεοῖς θύει.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension",
+    "read.xenophon"
+   ],
+   "explain": "θύει πολλάκις μὲν οἴκοι, πολλάκις δὲ ἐπὶ τῶν κοινῶν βωμῶν — Xenophon's answer to the charge."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "audio": "τί ἂν εἴη ἡ ἀρετή;",
+   "gaps": [
+    {
+     "answers": [
+      "τί ἂν εἴη ἡ ἀρετή;",
+      "τί ἂν εἴη ἡ ἀρετή"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "τί ἂν εἴη ἡ ἀρετή; — what would virtue be?"
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The soul is better than the body.' (κρείττων + genitive)",
+   "gaps": [
+    {
+     "answers": [
+      "ἡ ψυχὴ τοῦ σώματος κρείττων ἐστίν",
+      "ἡ ψυχὴ κρείττων ἐστὶ τοῦ σώματος",
+      "ἡ ψυχὴ κρείττων τοῦ σώματός ἐστιν",
+      "ἡ ψυχή ἐστι κρείττων τοῦ σώματος"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "adj.comp"
+   ],
+   "explain": "ἡ ψυχὴ τοῦ σώματος κρείττων ἐστίν."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'What would virtue be?'",
+   "gaps": [
+    {
+     "answers": [
+      "τί ἂν εἴη ἡ ἀρετή",
+      "ἡ ἀρετὴ τί ἂν εἴη"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.opt-potential"
+   ],
+   "explain": "τί ἂν εἴη ἡ ἀρετή;"
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: ἀδικεῖ Σωκράτης οὓς μὲν ἡ πόλις νομίζει θεοὺς οὐ νομίζων, ἕτερα δὲ καινὰ δαιμόνια εἰσφέρων· ἀδικεῖ δὲ καὶ τοὺς νέους διαφθείρων.",
+   "audio": "ἀδικεῖ Σωκράτης οὓς μὲν ἡ πόλις νομίζει θεοὺς οὐ νομίζων, ἕτερα δὲ καινὰ δαιμόνια εἰσφέρων· ἀδικεῖ δὲ καὶ τοὺς νέους διαφθείρων.",
+   "model": "Socrates does wrong by not recognising the gods the city recognises and by bringing in other, new divinities; he also does wrong by corrupting the young.",
+   "skills": [
+    "read.comprehension",
+    "read.xenophon",
+    "read.adapted-text"
+   ],
+   "explain": "Xenophon's words (Memorabilia 1.1.1), unadapted: the charge of 399 BC. The participles νομίζων, εἰσφέρων, διαφθείρων say how he 'does wrong'."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "ψυχή",
+     "right": "psychology"
+    },
+    {
+     "left": "φύσις",
+     "right": "physics"
+    },
+    {
+     "left": "κόσμος",
+     "right": "cosmos, cosmetic"
+    },
+    {
+     "left": "ἀρχή",
+     "right": "archaic, monarchy"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "ψυχή 'soul, mind'; φυσική 'the study of nature'; κόσμος 'order, the world; adornment' (cosmetics put your face in order); ἀρχή 'beginning' and 'rule' (μον-αρχία 'rule of one')."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί ὁ Σωκράτης εἰς τὸ ἐργαστήριον ἦλθεν;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "κύλικας ὠνεῖσθαι ἐβούλετο."
+    },
+    {
+     "id": "b",
+     "text": "ἐφίλει καὶ ἐν τοῖς ἐργαστηρίοις τῶν τεχνιτῶν διαλέγεσθαι."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Δημόκριτος αὐτὸν ἐκάλεσεν."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἐφίλει γὰρ καὶ ἐν τοῖς ἐργαστηρίοις τῶν τεχνιτῶν διαλέγεσθαι."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίς ἐστιν ἡ ἀρετὴ τῆς κύλικος, ὡς ὁ Ἀρίστων λέγει;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ καλὸς κόσμος."
+    },
+    {
+     "id": "b",
+     "text": "τὸ τὸν οἶνον καλῶς φέρειν, ὥστε μηδὲν ἐκχεῖν."
+    },
+    {
+     "id": "c",
+     "text": "τὸ πολλοῦ ἀργυρίου εἶναι."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "syntax.result"
+   ],
+   "explain": "The excellence of a thing lies in doing its job well."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "ποῦ ὑπάρχει ἡ τοῦ ἀνθρώπου ἀρετή, ὡς ὁ Λύσις λέγει;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐν τῷ σώματι."
+    },
+    {
+     "id": "b",
+     "text": "ἐν τῇ ψυχῇ."
+    },
+    {
+     "id": "c",
+     "text": "ἐν τοῖς χρήμασιν."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἐν τῇ ψυχῇ· ἡ γὰρ ψυχὴ τοῦ σώματος κρείττων ἐστίν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί λέγει ὁ Δημόκριτος περὶ τοῦ Σωκράτους;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὅτι καινὰ δαιμόνια εἰσφέρει καὶ τοὺς νέους διαφθείρει."
+    },
+    {
+     "id": "b",
+     "text": "ὅτι κύλικας κλέπτει."
+    },
+    {
+     "id": "c",
+     "text": "ὅτι σοφώτατός ἐστι πάντων."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "read.xenophon"
+   ],
+   "explain": "The two complaints that became the charge of 399."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐποίησεν ὁ Δημόκριτος τέλος;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "μετὰ τοῦ Σωκράτους περὶ τῆς ἀρετῆς διελέγετο."
+    },
+    {
+     "id": "b",
+     "text": "οὕτως ὠργίσθη ὥστε εὐθὺς ἐξελθεῖν."
+    },
+    {
+     "id": "c",
+     "text": "κύλικα ἐπρίατο."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "syntax.result"
+   ],
+   "explain": "He was so angry that he walked straight out."
+  }
+ ],
+ "culture": {
+  "title": "Socrates, the craftsmen and the charge",
+  "md": "Xenophon's *Memorabilia* shows Socrates visiting workshops: he asks the painter Parrhasius whether character can be painted, the sculptor Cleiton how he makes his statues look alive, the armourer Pistias what makes a breastplate fit (*Memorabilia* 3.10). His favourite way into a hard question was the craftsman's: every tool and every animal has its own **ἀρετή**, its excellence at doing its job — a knife cuts well, a horse runs well — so what is the excellence of a human being? Whether that excellence can be taught or comes by nature is the question of Plato's *Meno*.\n\nSocrates also spoke of a **δαιμόνιον**, a divine sign or voice that, from childhood on, warned him off things he was about to do. In 423, seven years after our scene, Aristophanes' *Clouds* put on stage a Socrates who ran a 'thinking-shop', studied the sky and taught young men to win bad arguments; many Athenians' idea of him came from such jokes.\n\nIn 399 three citizens charged him: 'Socrates does wrong by not recognising the gods the city recognises and by introducing other new divine powers; he also does wrong by corrupting the young.' A jury of 501 found him guilty, and he was put to death by hemlock. **Xenophon**, born around 430 — the year of our story — was away with the Ten Thousand in Asia at the time. His *Memorabilia* ('Recollections') opens with that charge and answers it point by point: Socrates sacrificed openly, at home and at the city's altars, and his sign was no stranger than the birds and sacrifices that seers use. Paragraph 3 turns his defence into a quarrel in Ariston's workshop.",
+  "image": "culture-10-3-workshop"
+ },
+ "quiz": [
+  {
+   "type": "cloze-choice",
+   "prompt": "οὐδεὶς ἄν σου τὴν ἀρετὴν ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀφέλοιτο"
+    },
+    {
+     "id": "b",
+     "text": "ἀφείλετο"
+    },
+    {
+     "id": "c",
+     "text": "ἀφέληται"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.opt-potential"
+   ],
+   "explain": "ἄν + optative: 'nobody could take it away'."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἡ κύλιξ τὸν οἶνον καλῶς φέρει, ὥστε μηδὲν ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐκχεῖν"
+    },
+    {
+     "id": "b",
+     "text": "ἐκχεῖ"
+    },
+    {
+     "id": "c",
+     "text": "ἐκχέῃ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.result"
+   ],
+   "explain": "ὥστε + infinitive with μή: natural result."
+  },
+  {
+   "type": "label",
+   "prompt": "Which construction? — δέον αὐτὸν βοηθεῖν, ἔξω ἔπαιζεν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "accusative absolute"
+    },
+    {
+     "id": "b",
+     "text": "result clause"
+    },
+    {
+     "id": "c",
+     "text": "potential optative"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.acc-abs"
+   ],
+   "explain": "δέον, the participle of impersonal δεῖ, alone in the accusative."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist middle optative of ἀφαιρέω for 'he would take away' (with ἄν).",
+   "lemma": "ἀφαιρέω",
+   "cell": "aorist.middle.optative.3sg",
+   "skills": [
+    "syntax.opt-potential"
+   ],
+   "explain": "ἀφέλοιτο: aorist stem ἑλ- (from αἱρέω) with the prefix ἀπ- → ἀφ-.",
+   "audio": "ἀφέλοιτο"
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ἡ ψυχή",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "psyche"
+    },
+    {
+     "id": "b",
+     "image": "soma"
+    },
+    {
+     "id": "c",
+     "image": "kosmos"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ψυχή: soul."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Δημόκριτος οὕτως ὠργίσθη ὥστε εὐθὺς ἐξελθεῖν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension",
+    "syntax.result"
+   ],
+   "explain": "Yes — he stormed out."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'I would gladly hear.' (ἡδέως + ἄν + aorist optative)",
+   "gaps": [
+    {
+     "answers": [
+      "ἡδέως ἂν ἀκούσαιμι",
+      "ἡδέως ἀκούσαιμι ἄν"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.opt-potential",
+    "verb.aor.act.opt.1sg"
+   ],
+   "explain": "ἡδέως ἂν ἀκούσαιμι."
+  }
+ ],
+ "skills": [
+  "syntax.opt-potential",
+  "syntax.result",
+  "syntax.acc-abs",
+  "verb.pres.act.opt.3sg",
+  "verb.aor.act.opt.1sg",
+  "adj.comp",
+  "syntax.word-order",
+  "read.xenophon",
+  "read.adapted-text",
+  "read.comprehension",
+  "read.locate",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family",
+  "vocab.stage2"
+ ]
+}

@@ -1,0 +1,312 @@
+{
+ "images": [
+  {
+   "id": "panel-9-1-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἄνω ἐπὶ τῷ τείχει οἱ Ἀθηναῖοι τὸν καπνὸν ὁρῶσιν ἐκ τῶν ἀγρῶν ἀναβαίνοντα.",
+   "alt_en": "Athenians crowd the top of the city wall in summer; far off across the plain, columns of smoke rise over Acharnae below Mount Parnes.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-9-1-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Εὔδημος ὀργίζεται· ὁ δὲ Ἀρίστων καὶ ὁ Κλεινίας πρὸς τὰς Ἀχαρνὰς ὁρῶσιν.",
+   "alt_en": "On the wall-walk: Eudemos, a sturdy charcoal-burner with blackened hands, shouts and points; Ariston holds his arm; old Kleinias and Lysis look out towards the smoke.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-9-1-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἐν τῇ πόλει οἱ Ἀθηναῖοι ἐν πολλῇ ἔριδί εἰσιν· χρησμολόγος χρησμοὺς ᾄδει.",
+   "alt_en": "A street in Athens: groups of citizens argue, young men gesture towards the gates, an oracle-singer chants from a scroll.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "stratos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ στρατός",
+   "alt_en": "An army on the march: hoplites in column with shields and spears, from a Greek vase painting.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "στρατός"
+   ]
+  },
+  {
+   "id": "verb-kaiei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "καίει",
+   "alt_en": "Fire burning a farmhouse roof and a field of grain.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "καίω"
+   ]
+  },
+  {
+   "id": "verb-temnei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τέμνει",
+   "alt_en": "A man cutting down a vine or an olive tree with an axe.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "τέμνω"
+   ]
+  },
+  {
+   "id": "panel-9-2-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ ἅμαξα πρὸς τὰς πύλας ἀφικνεῖται· ἐπ' αὐτῇ κλῖναι καὶ ὑδρίαι καὶ ἡ θύρα τῆς οἰκίας.",
+   "alt_en": "An ox-cart piled with beds, jars, a loom frame and a wooden house door arrives at the Acharnian Gate among many other carts; Mikion walks beside it with a goat.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-9-2-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Χρυσὶς τὴν Φιλίππην δέχεται· ὁ δὲ Εὔδημος τὰ ζῷα λύει.",
+   "alt_en": "Inside the gate: Chrysis embraces her cousin Philippe; Eudemos unyokes the oxen; Lysis and Mikion eye each other.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-9-2-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ Ἀθηναῖοι ἐκ τῶν ἀγρῶν τὰ ξύλα τῶν οἰκιῶν κομίζουσιν· τὰ δὲ πρόβατα εἰς Εὔβοιαν πέμπεται.",
+   "alt_en": "Country people taking the roof-beams and doors from their farmhouses and loading carts; in the distance, sheep being driven down to boats bound for Euboea.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hamaxa",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ ἅμαξα",
+   "alt_en": "A four-wheeled ox-cart (terracotta model or vase painting).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἅμαξα"
+   ]
+  },
+  {
+   "id": "zoon",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὰ ζῷα",
+   "alt_en": "Farm animals together: oxen, sheep, goats and a donkey.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ζῷον"
+   ]
+  },
+  {
+   "id": "verb-komizei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "κομίζει",
+   "alt_en": "A man carrying household goods on his back towards a city gate.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "κομίζω"
+   ]
+  },
+  {
+   "id": "culture-9-2-cart",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ἅμαξα ὑπὸ βοῶν ἑλκομένη",
+   "alt_en": "Black-figure vase painting of an ox-drawn cart (a wedding or farm cart).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-9-3-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἐν τῷ πύργῳ οἰκοῦσιν ἡ Φιλίππη καὶ ὁ Εὔδημος καὶ ὁ Μικίων.",
+   "alt_en": "Inside a tower of the city wall: straw mats, a small hearth, jars and a hanging cloak; Philippe fans a crying neighbour's baby, Mikion sits in the narrow window.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-9-3-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "πολλοὶ Ἀθηναῖοι ἐν τοῖς ἱεροῖς καὶ ἐν τοῖς πύργοις σκηνοῦσιν.",
+   "alt_en": "The crowded city: families camping with bedding and pots in the precinct of a small shrine and along the foot of the wall below the Acropolis.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-9-3-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Χρυσὶς καὶ ἡ Ἐλπὶς τῇ ἱερείᾳ τὸ ὕφασμα παραδιδόασιν.",
+   "alt_en": "Panathenaea: the procession climbs to the Acropolis; to one side, Chrysis and Elpis hand a folded woven cloth to Athena's priestess.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pyrgos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ πύργος",
+   "alt_en": "A square stone tower of a Greek city wall (e.g. the towers of Messene or Aigosthena).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πύργος"
+   ]
+  },
+  {
+   "id": "verb-paradidosi",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "παραδίδωσι",
+   "alt_en": "One person handing a folded cloth to another.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "παραδίδωμι"
+   ]
+  },
+  {
+   "id": "culture-9-3-panathenaea",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ἡ τῶν Παναθηναίων πομπή",
+   "alt_en": "Parthenon frieze, east side: the folding of the peplos, and women of the procession.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-9-4-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Ἀρίστων ὁπλίτης ὢν μετὰ τοῦ στρατοῦ εἰς τὴν Μεγαρίδα βαδίζει.",
+   "alt_en": "Autumn: a long column of Athenian hoplites on the road to Megara; Ariston in bronze helmet, shield on his back, beside Simon the metic.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-9-4-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "αἱ ἅμαξαι τὰς λάρνακας φέρουσιν· μία δὲ κλίνη κενὴ φέρεται.",
+   "alt_en": "Winter funeral procession: wagons carry cypress coffins, one for each tribe, and an empty bier draped with cloth; women mourn walking behind.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "panel-9-4-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Περικλῆς ἐπὶ βῆμα ὑψηλὸν ἀναβὰς λέγει.",
+   "alt_en": "The public cemetery outside the Dipylon Gate: Pericles speaks from a high platform over a large crowd; Lysis and Mikion listen at the front.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hoplites",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ ὁπλίτης",
+   "alt_en": "A hoplite with round shield, spear and Corinthian helmet (red-figure vase).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ὁπλίτης"
+   ]
+  },
+  {
+   "id": "taphos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ τάφος",
+   "alt_en": "A grave marker and burial mound in the Kerameikos cemetery.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "τάφος"
+   ]
+  },
+  {
+   "id": "verb-thaptei",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "θάπτει",
+   "alt_en": "Mourners lowering a coffin into a grave.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "θάπτω"
+   ]
+  },
+  {
+   "id": "culture-9-4-casualty-list",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "οἱ τῶν ἀποθανόντων κατάλογοι",
+   "alt_en": "A fragment of an Athenian public casualty list: names inscribed tribe by tribe on marble (5th century BC).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  }
+ ]
+}

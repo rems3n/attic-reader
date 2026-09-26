@@ -1,0 +1,1654 @@
+{
+ "id": "9.1",
+ "title_grc": "οἱ Λακεδαιμόνιοι ἐν Ἀχαρναῖς",
+ "title_en": "The Spartans at Acharnae",
+ "summary_grc": "ὁ Ἀρίστων οἴεται τοὺς Λακεδαιμονίους τὰς Ἀχαρνὰς καίειν· ὁ δὲ Εὔδημος τὸν καπνὸν ὁρᾷ ἐκ τῶν ἑαυτοῦ ἀγρῶν ἀναβαίνοντα.",
+ "summary_en": "Summer 431: from the city wall the family watches Archidamos' army ravage Acharnae, and the cousin Eudemos sees his own fields burn. Indirect statement with the infinitive and with the participle, φημί, and relative attraction; Thucydides 2.21 adapted.",
+ "cover": "panel-9-1-a",
+ "caption_grc": "ὁ Ἀρίστων οἴεται τοὺς Λακεδαιμονίους τὰς Ἀχαρνὰς καίειν. — ὁ Λύσις καπνὸν ὁρᾷ ἀναβαίνοντα.",
+ "original": {
+  "text": "thuc-2.21",
+  "note": "Thucydides 2.21.2–3, adapted in paragraph 3. Thucydides was an Athenian of about thirty in 431; he says he began writing the history as soon as the war broke out, and finished and revised it after 404."
+ },
+ "names": {
+  "Πέρσης": [
+   "Πέρσαι",
+   "Περσῶν",
+   "Πέρσαις",
+   "Πέρσας",
+   "Πέρσου",
+   "Πέρσην"
+  ]
+ },
+ "allow": {
+  "πολλοὶ": "unit 8 (πολύς)",
+  "πολὺν": "unit 8 (πολύς)",
+  "πολλῇ": "unit 8 (πολύς)",
+  "τότε": "unit 8"
+ },
+ "story": [
+  {
+   "image": "panel-9-1-a",
+   "sentences": [
+    {
+     "text": "θέρος ἐστίν. οἱ Λακεδαιμόνιοι καὶ οἱ σύμμαχοι εἰς τὴν Ἀττικὴν εἰσέβαλον· ἡγεῖται δὲ αὐτῶν Ἀρχίδαμος ὁ βασιλεύς.",
+     "glosses": [
+      {
+       "word": "θέρος",
+       "kind": "en",
+       "value": "summer"
+      },
+      {
+       "word": "σύμμαχοι",
+       "kind": "<",
+       "value": "σύν + μάχη: allies"
+      },
+      {
+       "word": "εἰσέβαλον",
+       "kind": "<",
+       "value": "εἰς + ἔβαλον: they invaded (βάλλω)"
+      },
+      {
+       "word": "ἡγεῖται",
+       "kind": "en",
+       "value": "ἡγεῖται + genitive: leads, is in command of"
+      }
+     ]
+    },
+    {
+     "text": "ὁ Ἀρίστων καὶ ὁ Λύσις καὶ ὁ Κλεινίας ἐπὶ τὸ τεῖχος ἀναβαίνουσιν· ἄνω δὲ ἤδη εἰσὶ πολλοὶ Ἀθηναῖοι.",
+     "glosses": [
+      {
+       "word": "ἄνω",
+       "kind": "↔",
+       "value": "κάτω (up, up above)"
+      }
+     ]
+    },
+    {
+     "text": "μετ' αὐτῶν ἐστι καὶ ὁ Εὔδημος. ὁ γὰρ Εὔδημος καὶ ἡ γυνὴ αὐτοῦ Φιλίππη, ἡ τῆς Χρυσίδος ἀνεψιά, καὶ ὁ υἱὸς αὐτῶν Μικίων ἐξ Ἀχαρνῶν εἰς τὴν πόλιν ἔφυγον.",
+     "glosses": [
+      {
+       "word": "ἀνεψιά",
+       "kind": "=",
+       "value": "ἡ ἀνεψιά = cousin (a daughter of Chrysis's uncle)"
+      }
+     ]
+    },
+    {
+     "text": "ἐκ τῶν ἀγρῶν πολὺν καπνὸν ὁρῶσιν ἀναβαίνοντα, καὶ τὸ μέγεθος τοῦ στρατοῦ αἰσθάνονται.",
+     "glosses": [
+      {
+       "word": "καπνὸν",
+       "kind": "en",
+       "value": "smoke"
+      },
+      {
+       "word": "ὁρῶσιν",
+       "kind": "note",
+       "value": "ὁρῶσι καπνὸν ἀναβαίνοντα: they see smoke rising (a participle after a verb of seeing)"
+      },
+      {
+       "word": "μέγεθος",
+       "kind": "<",
+       "value": "μέγας: τὸ μέγεθος, the size"
+      },
+      {
+       "word": "στρατοῦ",
+       "kind": "pic",
+       "value": "stratos"
+      },
+      {
+       "word": "αἰσθάνονται",
+       "kind": "en",
+       "value": "perceive, notice"
+      }
+     ]
+    },
+    {
+     "text": "«ὦ πάτερ», φησὶν ὁ Λύσις, «τί καίεται;»",
+     "glosses": [
+      {
+       "word": "φησὶν",
+       "kind": "|",
+       "value": "φημί | φησί(ν): says"
+      },
+      {
+       "word": "καίεται",
+       "kind": "pic",
+       "value": "verb-kaiei"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Ἀρίστων· «οἴομαι τοὺς Λακεδαιμονίους τὰς Ἀχαρνὰς καίειν.»",
+     "glosses": [
+      {
+       "word": "οἴομαι",
+       "kind": "note",
+       "value": "οἴομαι + accusative + infinitive: I think that the Spartans are burning …"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Εὔδημος σιγᾷ· αἰσθάνεται γὰρ τὸν καπνὸν ἐκ τῶν ἑαυτοῦ ἀγρῶν ἀναβαίνοντα.",
+     "glosses": [
+      {
+       "word": "σιγᾷ",
+       "kind": "↔",
+       "value": "λέγει (is silent)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-9-1-b",
+   "sentences": [
+    {
+     "text": "ὁ Λύσις ἐρωτᾷ· «ἆρα καὶ τὰ δένδρα τέμνουσιν;» ὁ δὲ Κλεινίας· «ναί· τὸν σῖτον καὶ τὰς ἐλαίας καὶ τὰς ἀμπέλους τέμνουσιν.»",
+     "glosses": [
+      {
+       "word": "τέμνουσιν",
+       "kind": "pic",
+       "value": "verb-temnei"
+      },
+      {
+       "word": "σῖτον",
+       "kind": "pic",
+       "value": "sitos"
+      },
+      {
+       "word": "ἀμπέλους",
+       "kind": "en",
+       "value": "vines (ἡ ἄμπελος)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ γέρων φησὶ καὶ πρότερον τοιοῦτον καπνὸν ἰδεῖν. «ἔτι μέμνημαι», εἶπεν· «τότε γὰρ οἱ Πέρσαι τὴν πόλιν ἔκαυσαν. τὸ δὲ μέγεθος τοῦ τῶν Περσῶν στρατοῦ ἦν ἔτι μεῖζον.»",
+     "glosses": [
+      {
+       "word": "πρότερον",
+       "kind": "en",
+       "value": "before, earlier"
+      },
+      {
+       "word": "τοιοῦτον",
+       "kind": "en",
+       "value": "such, like this"
+      },
+      {
+       "word": "ἰδεῖν",
+       "kind": "note",
+       "value": "φησὶ … ἰδεῖν: he says that he (himself) saw; no new subject, so no accusative"
+      },
+      {
+       "word": "ἔτι",
+       "kind": "en",
+       "value": "still; with a comparative: even (ἔτι μεῖζον, even bigger)"
+      },
+      {
+       "word": "μέμνημαι",
+       "kind": "en",
+       "value": "I remember"
+      },
+      {
+       "word": "εἶπεν",
+       "kind": "|",
+       "value": "λέγει | εἶπε(ν): said"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Εὔδημος ὀργίζεται· «ἀκούω τοὺς Λακεδαιμονίους ἐν τοῖς ἀγροῖς ἡμῶν σκηνοῦντας καὶ τὰς ἐλαίας τέμνοντας. ἐκ τῶν ἀγρῶν ὧν εἶχον οὐδὲν ἔτι ἔχω.»",
+     "glosses": [
+      {
+       "word": "ὀργίζεται",
+       "kind": "en",
+       "value": "gets angry"
+      },
+      {
+       "word": "σκηνοῦντας",
+       "kind": "en",
+       "value": "camping, encamped"
+      },
+      {
+       "word": "ὧν",
+       "kind": "note",
+       "value": "ὧν = ἅ, pulled into the genitive of τῶν ἀγρῶν (relative attraction)"
+      },
+      {
+       "word": "οὐδὲν",
+       "kind": "en",
+       "value": "nothing"
+      }
+     ]
+    },
+    {
+     "text": "«ἐγώ φημι δεῖν ἡμᾶς ἐξελθεῖν καὶ μάχεσθαι. ἡμεῖς γὰρ κακὰ πάσχομεν, ὁ δὲ Περικλῆς οὐδὲν πάσχει.»",
+     "glosses": [
+      {
+       "word": "φημι",
+       "kind": "|",
+       "value": "φημί · φῄς · φησί(ν)"
+      },
+      {
+       "word": "πάσχομεν",
+       "kind": "↔",
+       "value": "ποιοῦμεν (we suffer, we experience)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Ἀρίστων εἶπεν· «ὁ Περικλῆς οὔ φησι δεῖν ἐξελθεῖν· νομίζει γὰρ τὸν τῶν Πελοποννησίων στρατὸν μείζονα εἶναι, ἡμᾶς δὲ ταῖς ναυσὶ νικήσειν.»",
+     "glosses": [
+      {
+       "word": "οὔ",
+       "kind": "note",
+       "value": "οὔ φησι: says that … not, denies"
+      },
+      {
+       "word": "νομίζει",
+       "kind": "en",
+       "value": "thinks, believes"
+      },
+      {
+       "word": "νικήσειν",
+       "kind": "|",
+       "value": "νικᾶν (present) · νικήσειν (future infinitive): that we will win"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Εὔδημος οὐκ ἀποκρίνεται, ἀλλ' ἄνω μένει καὶ ἔτι πρὸς τὰς Ἀχαρνὰς ὁρᾷ.",
+     "glosses": [
+      {
+       "word": "ἀποκρίνεται",
+       "kind": "en",
+       "value": "answers"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-9-1-c",
+   "sentences": [
+    {
+     "text": "ὁ δὲ Θουκυδίδης ὕστερον τάδε ἔγραψεν.",
+     "glosses": [
+      {
+       "word": "ὕστερον",
+       "kind": "↔",
+       "value": "πρότερον (later)"
+      }
+     ]
+    },
+    {
+     "text": "ἐπεὶ δὲ οἱ Ἀθηναῖοι τὸν στρατὸν περὶ Ἀχαρνὰς εἶδον ἑξήκοντα σταδίους τῆς πόλεως ἀπέχοντα, οὐκέτι ἀνασχετὸν ἐποιοῦντο.",
+     "glosses": [
+      {
+       "word": "ἐπεὶ",
+       "kind": "en",
+       "value": "when, since"
+      },
+      {
+       "word": "περὶ",
+       "kind": "en",
+       "value": "περὶ Ἀχαρνάς: around Acharnae, near Acharnae"
+      },
+      {
+       "word": "ἑξήκοντα",
+       "kind": "=",
+       "value": "60"
+      },
+      {
+       "word": "σταδίους",
+       "kind": "en",
+       "value": "stades (a stade is about 180 metres)"
+      },
+      {
+       "word": "ἀπέχοντα",
+       "kind": "en",
+       "value": "being … away from (+ genitive)"
+      },
+      {
+       "word": "οὐκέτι",
+       "kind": "en",
+       "value": "no longer"
+      },
+      {
+       "word": "ἀνασχετὸν",
+       "kind": "en",
+       "value": "bearable: οὐκέτι ἀνασχετὸν ἐποιοῦντο, they no longer thought it bearable"
+      }
+     ],
+     "orig": [
+      0
+     ]
+    },
+    {
+     "text": "γῆς γὰρ τεμνομένης ἐν τῷ ἐμφανεῖ, ὃ οὔπω εἶδον οἱ νεώτεροι, οὐδ' οἱ γέροντες πλὴν τὰ Μηδικά, δεινὸν αὐτοῖς ἐφαίνετο.",
+     "glosses": [
+      {
+       "word": "ἐμφανεῖ",
+       "kind": "en",
+       "value": "ἐν τῷ ἐμφανεῖ: in plain sight"
+      },
+      {
+       "word": "οὔπω",
+       "kind": "en",
+       "value": "not yet, never before"
+      },
+      {
+       "word": "νεώτεροι",
+       "kind": "<",
+       "value": "νέος 'young' → νεώτερος: the younger men"
+      },
+      {
+       "word": "οὐδ'",
+       "kind": "en",
+       "value": "οὐδέ: and not, not even"
+      },
+      {
+       "word": "πλὴν",
+       "kind": "en",
+       "value": "except"
+      },
+      {
+       "word": "Μηδικά",
+       "kind": "en",
+       "value": "τὰ Μηδικά: the Persian Wars"
+      },
+      {
+       "word": "δεινὸν",
+       "kind": "en",
+       "value": "terrible"
+      },
+      {
+       "word": "ἐφαίνετο",
+       "kind": "en",
+       "value": "seemed"
+      }
+     ],
+     "orig": [
+      0
+     ]
+    },
+    {
+     "text": "ἐδόκει δὲ τοῖς τε ἄλλοις καὶ μάλιστα τοῖς νεωτέροις ἐπεξιέναι καὶ μὴ περιορᾶν.",
+     "glosses": [
+      {
+       "word": "ἐδόκει",
+       "kind": "en",
+       "value": "ἐδόκει + dative: it seemed right to …"
+      },
+      {
+       "word": "τε",
+       "kind": "en",
+       "value": "τε … καί: both … and"
+      },
+      {
+       "word": "μάλιστα",
+       "kind": "en",
+       "value": "most of all"
+      },
+      {
+       "word": "νεωτέροις",
+       "kind": "|",
+       "value": "οἱ νεώτεροι | τοῖς νεωτέροις"
+      },
+      {
+       "word": "ἐπεξιέναι",
+       "kind": "<",
+       "value": "ἐπί + ἐξ + ἰέναι: to march out against (them)"
+      },
+      {
+       "word": "περιορᾶν",
+       "kind": "en",
+       "value": "to look on and let it happen"
+      }
+     ],
+     "orig": [
+      0
+     ]
+    },
+    {
+     "text": "ἐν πολλῇ δὲ ἔριδι ἦσαν, οἱ μὲν κελεύοντες ἐπεξιέναι, οἱ δὲ οὐκ ἐῶντες.",
+     "glosses": [
+      {
+       "word": "ἔριδι",
+       "kind": "en",
+       "value": "ἡ ἔρις, τῆς ἔριδος: strife, quarrel"
+      },
+      {
+       "word": "κελεύοντες",
+       "kind": "en",
+       "value": "urging, ordering"
+      },
+      {
+       "word": "ἐῶντες",
+       "kind": "en",
+       "value": "allowing (ἐάω)"
+      }
+     ],
+     "orig": [
+      1
+     ]
+    },
+    {
+     "text": "χρησμολόγοι τε χρησμοὺς παντοίους ᾖδον.",
+     "glosses": [
+      {
+       "word": "χρησμολόγοι",
+       "kind": "en",
+       "value": "oracle-mongers (men who recited old prophecies)"
+      },
+      {
+       "word": "χρησμοὺς",
+       "kind": "en",
+       "value": "oracles, prophecies"
+      },
+      {
+       "word": "παντοίους",
+       "kind": "<",
+       "value": "πᾶς: of every kind"
+      },
+      {
+       "word": "ᾖδον",
+       "kind": "en",
+       "value": "were singing, chanting (ᾄδω)"
+      }
+     ],
+     "orig": [
+      2
+     ]
+    },
+    {
+     "text": "οἱ δὲ Ἀχαρνῆς, οἰόμενοι οὐκ ἐλαχίστην μοῖραν τῶν Ἀθηναίων εἶναι, ἐπεὶ αὐτῶν ἡ γῆ ἐτέμνετο, μάλιστα ἐπεξιέναι ἐβούλοντο.",
+     "glosses": [
+      {
+       "word": "ἐλαχίστην",
+       "kind": "↔",
+       "value": "μεγίστην (smallest): οὐκ ἐλαχίστην, by no means the smallest"
+      },
+      {
+       "word": "μοῖραν",
+       "kind": "en",
+       "value": "part, share"
+      }
+     ],
+     "orig": [
+      3
+     ]
+    },
+    {
+     "text": "τὸν δὲ Περικλέα ἐν ὀργῇ εἶχον, ὅτι στρατηγὸς ὢν οὐκ ἐπεξάγει, καὶ αἴτιον αὐτὸν ἐνόμιζον πάντων ὧν ἔπασχον.",
+     "glosses": [
+      {
+       "word": "ὀργῇ",
+       "kind": "en",
+       "value": "anger: ἐν ὀργῇ ἔχειν, to be angry with"
+      },
+      {
+       "word": "ὅτι",
+       "kind": "en",
+       "value": "because"
+      },
+      {
+       "word": "στρατηγὸς",
+       "kind": "en",
+       "value": "general"
+      },
+      {
+       "word": "ἐπεξάγει",
+       "kind": "<",
+       "value": "ἐπί + ἐξ + ἄγει: leads (them) out against (the enemy)"
+      },
+      {
+       "word": "αἴτιον",
+       "kind": "en",
+       "value": "to blame, responsible (+ genitive)"
+      },
+      {
+       "word": "ὧν",
+       "kind": "note",
+       "value": "πάντων ὧν ἔπασχον = πάντων τούτων ἃ ἔπασχον (relative attraction)"
+      }
+     ],
+     "orig": [
+      4
+     ]
+    },
+    {
+     "text": "ὁ δὲ Περικλῆς ἐκκλησίαν οὐκ ἐποίει.",
+     "glosses": [
+      {
+       "word": "ἐκκλησίαν",
+       "kind": "en",
+       "value": "assembly (meeting of the citizens on the Pnyx)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "φημι",
+   "gloss_grc": "φημί · φησί(ν) · φασί(ν) · ἔφη"
+  },
+  {
+   "id": "νομιζω",
+   "gloss_grc": "νομίζω τὸν στρατὸν μέγαν εἶναι"
+  },
+  {
+   "id": "οιομαι",
+   "gloss_grc": "οἴομαι · οἴεται · ᾤετο"
+  },
+  {
+   "id": "ειπον",
+   "gloss_grc": "λέγω · εἶπον (aorist) · εἰπεῖν"
+  },
+  {
+   "id": "αισθανομαι",
+   "gloss_grc": "αἰσθάνομαι · ᾐσθόμην"
+  },
+  {
+   "id": "πασχω",
+   "gloss_grc": "πάσχω ↔ ποιῶ · ἔπαθον"
+  },
+  {
+   "id": "στρατος",
+   "pic": "stratos",
+   "gloss_grc": "ὁ στρατός = οἱ στρατιῶται"
+  },
+  {
+   "id": "τεμνω",
+   "pic": "verb-temnei",
+   "gloss_grc": "τέμνω · ἔτεμον · τέμνειν τὴν γῆν"
+  },
+  {
+   "id": "καιω",
+   "pic": "verb-kaiei",
+   "gloss_grc": "καίω · ἔκαυσα · καίεται"
+  },
+  {
+   "id": "ετι",
+   "gloss_grc": "ἔτι μέμνημαι · ἔτι μεῖζον"
+  },
+  {
+   "id": "ανω",
+   "gloss_grc": "ἄνω ↔ κάτω"
+  },
+  {
+   "id": "μεγεθος",
+   "gloss_grc": "< μέγας · τὸ μέγεθος τοῦ στρατοῦ"
+  }
+ ],
+ "notice": [
+  "οἴομαι τοὺς Λακεδαιμονίους τὰς Ἀχαρνὰς καίειν. — νομίζει … ἡμᾶς ταῖς ναυσὶ νικήσειν.",
+  "ὁ γέρων φησὶ καὶ πρότερον τοιοῦτον καπνὸν ἰδεῖν. (same subject: no accusative)",
+  "καπνὸν ὁρῶσιν ἀναβαίνοντα. — ἀκούω τοὺς Λακεδαιμονίους τὰς ἐλαίας τέμνοντας.",
+  "ὁ Περικλῆς οὔ φησι δεῖν ἐξελθεῖν.",
+  "ἐκ τῶν ἀγρῶν ὧν εἶχον … — πάντων ὧν ἔπασχον."
+ ],
+ "grammar": {
+  "md": "**Indirect statement, three ways.** In 8.3 you met *ὅτι* 'that': *λέγει ὅτι οἱ Λακεδαιμόνιοι τὰς Ἀχαρνὰς καίουσιν.* Greek has two more ways to report what someone says, thinks or perceives, and the verb of saying decides which.\n\n| after | construction | example |\n|---|---|---|\n| λέγω, εἶπον | ὅτι / ὡς + indicative | λέγει ὅτι ἡ γῆ τέμνεται. |\n| **φημί, οἴομαι, νομίζω, δοκέω** | **accusative + infinitive** | οἴομαι **τοὺς Λακεδαιμονίους** τὰς Ἀχαρνὰς **καίειν**. |\n| **ὁράω, ἀκούω, αἰσθάνομαι** (and later οἶδα) | **accusative + participle** | ἀκούω **τοὺς Λακεδαιμονίους** τὰς ἐλαίας **τέμνοντας**. |\n\n**The subject.** The subject of the infinitive or participle goes into the **accusative**. If it is the same person as the subject of the main verb, it is left out (or put in the nominative, αὐτός): *ὁ Κλεινίας φησὶ τοιοῦτον καπνὸν ἰδεῖν* 'Kleinias says that he (himself) saw such smoke'; *ὁ Εὔδημός φησι μαχεῖσθαι* 'Eudemos says he will fight'.\n\n**The tense keeps the speaker's time.** Present infinitive = same time (*καίειν* 'are burning'); aorist = earlier (*ἰδεῖν* 'saw'); future = later (*νικήσειν* 'will win'). The same holds for the participle.\n\n**The negative stays οὐ**: *οὔ φησι δεῖν ἐξελθεῖν* 'he says we must not go out', i.e. 'he denies that …'.\n\n**φημί 'say'.** An athematic verb like εἰμί; all present forms except φῄς are enclitic.\n\n| | present | imperfect |\n|---|---|---|\n| I | φημί | ἔφην |\n| you | φῄς | ἔφησθα |\n| he, she | φησί(ν) | **ἔφη** |\n| we | φαμέν | ἔφαμεν |\n| you (pl.) | φατέ | ἔφατε |\n| they | φασί(ν) | ἔφασαν |\n\nInfinitive **φάναι**. ἔφη often stands inside a quotation: «ναί», ἔφη, «ὁρῶ» '\"Yes,\" he said, \"I see.\"'\n\n**Relative attraction.** A relative pronoun that would be accusative is often pulled into the case of its antecedent when that is genitive or dative: *ἐκ τῶν ἀγρῶν **ὧν** εἶχον* (for *οὓς* εἶχον) 'from the fields that I had'. The antecedent may even drop out: *αἴτιον ἐνόμιζον πάντων **ὧν** ἔπασχον* = πάντων τούτων **ἃ** ἔπασχον 'responsible for everything that they suffered'. When you meet a relative in an unexpected case, look at the word before it.",
+  "paradigms": [
+   "phemi"
+  ],
+  "diagram": "diagram-indirect"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the infinitive endings (indirect statement).",
+   "template": "ὁ Ἀρίστων οἴεται τοὺς Λακεδαιμονίους τὰς Ἀχαρνὰς καί___. ὁ Περικλῆς νομίζει ἡμᾶς ταῖς ναυσὶ νικήσ___. ὁ Κλεινίας φησὶ τοιοῦτον καπνὸν καὶ πρότερον ἰδ___. οἱ Ἀχαρνῆς ᾤοντο οὐκ ἐλαχίστην μοῖραν εἶν___.",
+   "gaps": [
+    {
+     "answers": [
+      "ειν"
+     ]
+    },
+    {
+     "answers": [
+      "ειν"
+     ]
+    },
+    {
+     "answers": [
+      "εῖν"
+     ]
+    },
+    {
+     "answers": [
+      "αι"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.indirect-inf",
+    "verb.pres.act.inf",
+    "verb.fut.act.inf",
+    "verb.aor.act.inf",
+    "verb.eimi.pres.inf"
+   ],
+   "explain": "καίειν (present: happening now), νικήσειν (future: will win), ἰδεῖν (aorist: saw earlier), εἶναι."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ Ἀρίστων ___ τοὺς Λακεδαιμονίους τὰς Ἀχαρνὰς καίειν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "οἴεται"
+    },
+    {
+     "id": "b",
+     "text": "οἴονται"
+    },
+    {
+     "id": "c",
+     "text": "οἰόμεθα"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.indirect-inf",
+    "verb.pres.mp.ind.3sg"
+   ],
+   "explain": "One subject, third person: οἴεται 'thinks'.",
+   "audio": "ὁ Ἀρίστων οἴεται τοὺς Λακεδαιμονίους τὰς Ἀχαρνὰς καίειν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ Λύσις ἐκ τῶν ἀγρῶν καπνὸν ὁρᾷ ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀναβαίνοντα"
+    },
+    {
+     "id": "b",
+     "text": "ἀναβαίνειν"
+    },
+    {
+     "id": "c",
+     "text": "ἀναβαίνει"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.indirect-ptc",
+    "verb.ptc.pres.act"
+   ],
+   "explain": "After a verb of seeing: accusative + participle, καπνὸν ἀναβαίνοντα.",
+   "audio": "ὁ Λύσις ἐκ τῶν ἀγρῶν καπνὸν ὁρᾷ ἀναβαίνοντα."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ Περικλῆς οὔ ___ δεῖν ἐξελθεῖν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "φησι"
+    },
+    {
+     "id": "b",
+     "text": "φημι"
+    },
+    {
+     "id": "c",
+     "text": "φασι"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.phemi",
+    "syntax.indirect-inf"
+   ],
+   "explain": "Pericles, one person: φησί. οὔ φησι 'says … not'.",
+   "audio": "ὁ Περικλῆς οὔ φησι δεῖν ἐξελθεῖν."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "στρατός",
+   "options": [
+    {
+     "id": "a",
+     "image": "stratos"
+    },
+    {
+     "id": "b",
+     "image": "trieres"
+    },
+    {
+     "id": "c",
+     "image": "teichos"
+    },
+    {
+     "id": "d",
+     "image": "agora"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ὁ στρατός: the army.",
+   "audio": "prompt"
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "καίει",
+   "options": [
+    {
+     "id": "a",
+     "image": "verb-kaiei"
+    },
+    {
+     "id": "b",
+     "image": "verb-temnei"
+    },
+    {
+     "id": "c",
+     "image": "verb-pherei"
+    },
+    {
+     "id": "d",
+     "image": "verb-thyei"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "καίει: burns, sets on fire.",
+   "audio": "prompt"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the form of φημί for 'they say'.",
+   "lemma": "φημί",
+   "cell": "present.active.indicative.3pl",
+   "skills": [
+    "verb.phemi"
+   ],
+   "explain": "φασί(ν): like εἰσί(ν), and enclitic.",
+   "audio": "φασίν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the imperfect of φημί for 'he said'.",
+   "lemma": "φημί",
+   "cell": "imperfect.active.indicative.3sg",
+   "skills": [
+    "verb.phemi"
+   ],
+   "explain": "ἔφη: often inside a quotation, «ναί», ἔφη.",
+   "audio": "ἔφη"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of αἰσθάνομαι for 'he perceived'.",
+   "lemma": "αἰσθάνομαι",
+   "cell": "aorist.middle.indicative.3sg",
+   "skills": [
+    "verb.aor2.stem",
+    "verb.aor-deponent",
+    "verb.augment"
+   ],
+   "explain": "ᾔσθετο: second aorist αἰσθ-, with the augment αι → ῃ.",
+   "audio": "ᾔσθετο"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse φασί.",
+   "form": "φασί",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "I"
+      },
+      {
+       "id": "3sg",
+       "label": "he, she"
+      },
+      {
+       "id": "1pl",
+       "label": "we"
+      },
+      {
+       "id": "3pl",
+       "label": "they"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "pres",
+    "person": "3pl"
+   },
+   "skills": [
+    "verb.phemi"
+   ],
+   "explain": "φασί(ν) 'they say'; the imperfect would be ἔφασαν.",
+   "audio": "φασί"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἰδεῖν in: ὁ Κλεινίας φησὶ καὶ πρότερον τοιοῦτον καπνὸν ἰδεῖν.",
+   "form": "ἰδεῖν",
+   "groups": [
+    {
+     "id": "form",
+     "label": "Form",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "time",
+     "label": "In ὁ Κλεινίας φησὶ … ἰδεῖν, the seeing happened …",
+     "options": [
+      {
+       "id": "same",
+       "label": "at the same time as the saying"
+      },
+      {
+       "id": "before",
+       "label": "before the saying"
+      },
+      {
+       "id": "after",
+       "label": "after the saying"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "form": "inf",
+    "time": "before"
+   },
+   "skills": [
+    "syntax.indirect-inf",
+    "verb.aor.act.inf"
+   ],
+   "explain": "ἰδεῖν is the aorist infinitive of ὁράω: in indirect statement the aorist means the event is earlier than the saying.",
+   "audio": "ἰδεῖν"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ Εὔδημός φησιν ___ μαχεῖσθαι. (he says that he himself will fight)",
+   "options": [
+    {
+     "id": "a",
+     "text": "αὐτός"
+    },
+    {
+     "id": "b",
+     "text": "αὐτόν"
+    },
+    {
+     "id": "c",
+     "text": "αὐτῷ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.indirect-inf"
+   ],
+   "explain": "Same subject as φησί: nominative (αὐτός), or nothing at all."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ Ἀρίστων οἴεται τοὺς Λακεδαιμονίους τὰς Ἀχαρνὰς ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "καίειν"
+    },
+    {
+     "id": "b",
+     "text": "καίουσιν"
+    },
+    {
+     "id": "c",
+     "text": "καίοντες"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.indirect-inf"
+   ],
+   "explain": "οἴομαι takes accusative + infinitive."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἀκούω τοὺς Λακεδαιμονίους τὰς ἐλαίας ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "τέμνοντας"
+    },
+    {
+     "id": "b",
+     "text": "τέμνουσιν"
+    },
+    {
+     "id": "c",
+     "text": "τέμνοντες"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.indirect-ptc",
+    "verb.ptc.pres.act"
+   ],
+   "explain": "After ἀκούω 'I hear that …': accusative + participle, agreeing with τοὺς Λακεδαιμονίους."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἐκ τῶν ἀγρῶν ___ εἶχον οὐδὲν ἔτι ἔχω.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὧν"
+    },
+    {
+     "id": "b",
+     "text": "οὕς"
+    },
+    {
+     "id": "c",
+     "text": "οἷς"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.rel-attraction",
+    "pron.relative"
+   ],
+   "explain": "The relative is pulled into the genitive of τῶν ἀγρῶν: ὧν for οὕς."
+  },
+  {
+   "type": "label",
+   "prompt": "ὁ Λύσις ἐκ τῶν ἀγρῶν καπνὸν ὁρᾷ ἀναβαίνοντα. — What does ἀναβαίνοντα do here?",
+   "options": [
+    {
+     "id": "a",
+     "text": "it reports what Lysis sees (participle after a verb of perceiving)"
+    },
+    {
+     "id": "b",
+     "text": "it gives the purpose of the smoke"
+    },
+    {
+     "id": "c",
+     "text": "it is a genitive absolute"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.indirect-ptc"
+   ],
+   "explain": "ὁράω, ἀκούω, αἰσθάνομαι + accusative + participle: what is seen, heard or noticed."
+  },
+  {
+   "type": "label",
+   "prompt": "αἴτιον αὐτὸν ἐνόμιζον πάντων ὧν ἔπασχον. — Why ὧν and not ἅ?",
+   "options": [
+    {
+     "id": "a",
+     "text": "it is attracted into the case of πάντων"
+    },
+    {
+     "id": "b",
+     "text": "ἔπασχον takes a genitive object"
+    },
+    {
+     "id": "c",
+     "text": "it means 'where'"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.rel-attraction"
+   ],
+   "explain": "ἃ ἔπασχον 'what they suffered' becomes ὧν after the genitive πάντων: relative attraction."
+  },
+  {
+   "type": "label",
+   "prompt": "ὁ Περικλῆς νομίζει ἡμᾶς ταῖς ναυσὶ νικήσειν. — When will the winning happen?",
+   "options": [
+    {
+     "id": "a",
+     "text": "later than the thinking (future infinitive)"
+    },
+    {
+     "id": "b",
+     "text": "at the same time"
+    },
+    {
+     "id": "c",
+     "text": "before the thinking"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.indirect-inf",
+    "verb.fut.act.inf"
+   ],
+   "explain": "νικήσειν is a future infinitive: 'that we will win'."
+  },
+  {
+   "type": "transform",
+   "prompt": "Report it with φημί: ὁ Ἀρίστων λέγει ὅτι οἱ Λακεδαιμόνιοι τὰς Ἀχαρνὰς καίουσιν. → ὁ Ἀρίστων φησὶ … τὰς Ἀχαρνὰς …",
+   "template": "ὁ Ἀρίστων φησὶ ___ τὰς Ἀχαρνὰς ___.",
+   "gaps": [
+    {
+     "answers": [
+      "τοὺς Λακεδαιμονίους"
+     ]
+    },
+    {
+     "answers": [
+      "καίειν"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.indirect-inf",
+    "verb.phemi",
+    "syntax.indirect-hoti"
+   ],
+   "explain": "ὅτι + indicative becomes accusative + infinitive after φημί: τοὺς Λακεδαιμονίους … καίειν.",
+   "audio": "ὁ Ἀρίστων φησὶ τοὺς Λακεδαιμονίους τὰς Ἀχαρνὰς καίειν."
+  },
+  {
+   "type": "transform",
+   "prompt": "Report it: ὁ Εὔδημος λέγει· «μαχοῦμαι.» → ὁ Εὔδημός φησι …",
+   "template": "ὁ Εὔδημός φησι ___.",
+   "gaps": [
+    {
+     "answers": [
+      "μαχεῖσθαι",
+      "αὐτὸς μαχεῖσθαι"
+     ]
+    }
+   ],
+   "skills": [
+    "syntax.indirect-inf",
+    "verb.fut.deponent"
+   ],
+   "explain": "Same subject, future kept: μαχεῖσθαι 'that he will fight'.",
+   "audio": "ὁ Εὔδημός φησι μαχεῖσθαι."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the three infinitives of indirect statement.",
+   "sentence": "ὁ Περικλῆς οὔ φησι δεῖν ἐξελθεῖν· νομίζει γὰρ τὸν στρατὸν αὐτῶν μείζονα εἶναι, ἡμᾶς δὲ ταῖς ναυσὶ νικήσειν.",
+   "answer": [
+    4,
+    12,
+    17
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.indirect-inf"
+   ],
+   "explain": "δεῖν (after φησι), εἶναι and νικήσειν (after νομίζει). ἐξελθεῖν depends on δεῖν: 'must go out'."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the participles that report what is heard.",
+   "sentence": "ἀκούω τοὺς Λακεδαιμονίους ἐν τοῖς ἀγροῖς σκηνοῦντας καὶ τὰς ἐλαίας τέμνοντας.",
+   "answer": [
+    6,
+    10
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.indirect-ptc"
+   ],
+   "explain": "σκηνοῦντας and τέμνοντας agree with τοὺς Λακεδαιμονίους."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'Ariston thinks that the Spartans are burning Acharnae.'",
+   "tokens": [
+    "τὰς",
+    "οἴεται",
+    "Λακεδαιμονίους",
+    "Ἀχαρνὰς",
+    "Ἀρίστων",
+    "τοὺς",
+    "καίειν",
+    "ὁ"
+   ],
+   "answers": [
+    "ὁ Ἀρίστων οἴεται τοὺς Λακεδαιμονίους τὰς Ἀχαρνὰς καίειν",
+    "ὁ Ἀρίστων τοὺς Λακεδαιμονίους οἴεται τὰς Ἀχαρνὰς καίειν",
+    "οἴεται ὁ Ἀρίστων τοὺς Λακεδαιμονίους τὰς Ἀχαρνὰς καίειν",
+    "ὁ Ἀρίστων οἴεται τὰς Ἀχαρνὰς τοὺς Λακεδαιμονίους καίειν"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "syntax.indirect-inf"
+   ],
+   "explain": "ὁ Ἀρίστων οἴεται τοὺς Λακεδαιμονίους τὰς Ἀχαρνὰς καίειν."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀκούω τοὺς Λακεδαιμονίους τὰς ἐλαίας τέμνοντας."
+    },
+    {
+     "id": "b",
+     "text": "ἀκούω τοὺς Λακεδαιμονίους τὰς ἐλαίας τέμνειν."
+    },
+    {
+     "id": "c",
+     "text": "ὁρῶ τοὺς Λακεδαιμονίους τὰς οἰκίας καίοντας."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences",
+    "syntax.indirect-ptc"
+   ],
+   "explain": "'I hear that the Spartans are cutting down the olive trees.'",
+   "audio": "ἀκούω τοὺς Λακεδαιμονίους τὰς ἐλαίας τέμνοντας."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Εὔδημος ὁρᾷ τὸν καπνὸν ἐκ τῶν ἑαυτοῦ ἀγρῶν ἀναβαίνοντα.",
+   "answer": "true",
+   "skills": [
+    "read.comprehension",
+    "syntax.indirect-ptc"
+   ],
+   "explain": "αἰσθάνεται γὰρ τὸν καπνὸν ἐκ τῶν ἑαυτοῦ ἀγρῶν ἀναβαίνοντα.",
+   "audio": "prompt"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Κλεινίας οὔ φησι τοιοῦτον καπνὸν πρότερον ἰδεῖν.",
+   "answer": "false",
+   "skills": [
+    "read.comprehension",
+    "syntax.indirect-inf"
+   ],
+   "explain": "He says he saw such smoke before, when the Persians burnt the city.",
+   "audio": "prompt"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Περικλῆς φησὶ δεῖν τοὺς Ἀθηναίους ἐξελθεῖν καὶ μάχεσθαι.",
+   "answer": "false",
+   "skills": [
+    "read.comprehension",
+    "verb.phemi"
+   ],
+   "explain": "ὁ Περικλῆς οὔ φησι δεῖν ἐξελθεῖν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "gaps": [
+    {
+     "answers": [
+      "ἐκ τῶν ἀγρῶν ὧν εἶχον οὐδὲν ἔτι ἔχω"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "ἐκ τῶν ἀγρῶν ὧν εἶχον οὐδὲν ἔτι ἔχω.",
+   "audio": "ἐκ τῶν ἀγρῶν ὧν εἶχον οὐδὲν ἔτι ἔχω."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek with φημί: 'Ariston says that the Spartans are burning the fields.'",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ Ἀρίστων φησὶ τοὺς Λακεδαιμονίους τοὺς ἀγροὺς καίειν",
+      "ὁ Ἀρίστων φησὶ τοὺς Λακεδαιμονίους καίειν τοὺς ἀγρούς",
+      "ὁ Ἀρίστων τοὺς Λακεδαιμονίους φησὶ τοὺς ἀγροὺς καίειν",
+      "φησὶν ὁ Ἀρίστων τοὺς Λακεδαιμονίους τοὺς ἀγροὺς καίειν"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.indirect-inf",
+    "verb.phemi"
+   ],
+   "explain": "ὁ Ἀρίστων φησὶ τοὺς Λακεδαιμονίους τοὺς ἀγροὺς καίειν."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'I perceive the army cutting the trees.' (αἰσθάνομαι + participle)",
+   "gaps": [
+    {
+     "answers": [
+      "αἰσθάνομαι τὸν στρατὸν τὰ δένδρα τέμνοντα",
+      "αἰσθάνομαι τὸν στρατὸν τέμνοντα τὰ δένδρα",
+      "τὸν στρατὸν αἰσθάνομαι τὰ δένδρα τέμνοντα",
+      "ἐγὼ αἰσθάνομαι τὸν στρατὸν τὰ δένδρα τέμνοντα"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.indirect-ptc"
+   ],
+   "explain": "αἰσθάνομαι τὸν στρατὸν τὰ δένδρα τέμνοντα."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: οἱ Ἀχαρνῆς αἴτιον τὸν Περικλέα ἐνόμιζον πάντων ὧν ἔπασχον.",
+   "model": "The Acharnians thought Pericles was to blame for everything they were suffering.",
+   "skills": [
+    "read.comprehension",
+    "read.thucydides",
+    "syntax.rel-attraction"
+   ],
+   "explain": "νομίζω + accusative + predicate (αἴτιον); ὧν = τούτων ἅ, attracted into the genitive.",
+   "audio": "οἱ Ἀχαρνῆς αἴτιον τὸν Περικλέα ἐνόμιζον πάντων ὧν ἔπασχον."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "καίω",
+     "right": "caustic, holocaust"
+    },
+    {
+     "left": "στρατός",
+     "right": "strategy (στρατηγός)"
+    },
+    {
+     "left": "αἰσθάνομαι",
+     "right": "aesthetic, anaesthetic"
+    },
+    {
+     "left": "πάσχω",
+     "right": "sympathy, pathos (πάθος)"
+    },
+    {
+     "left": "φημί",
+     "right": "prophet (προ-φήτης, 'one who speaks for')"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "καυστικός 'burning'; στρατ-ηγός 'army-leader'; αἴσθησις 'perception'; πάθος 'what one suffers'; προφήτης 'spokesman'."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "τίς ἡγεῖται τῶν Λακεδαιμονίων;",
+   "options": [
+    {
+     "id": "a",
+     "text": "Ἀρχίδαμος ὁ βασιλεύς."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Περικλῆς."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Εὔδημος."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἡγεῖται δὲ αὐτῶν Ἀρχίδαμος ὁ βασιλεύς.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί οἴεται ὁ Ἀρίστων;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τοὺς Λακεδαιμονίους τὰς Ἀχαρνὰς καίειν."
+    },
+    {
+     "id": "b",
+     "text": "τοὺς Ἀθηναίους νικᾶν."
+    },
+    {
+     "id": "c",
+     "text": "τὸν Εὔδημον μάχεσθαι."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.indirect-inf"
+   ],
+   "explain": "«οἴομαι τοὺς Λακεδαιμονίους τὰς Ἀχαρνὰς καίειν.»",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἀκούει ὁ Εὔδημος;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τοὺς Λακεδαιμονίους τὰς ἐλαίας τέμνοντας."
+    },
+    {
+     "id": "b",
+     "text": "τὸν Περικλέα λέγοντα."
+    },
+    {
+     "id": "c",
+     "text": "τὸν Λύσιν βοῶντα."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.indirect-ptc"
+   ],
+   "explain": "«ἀκούω τοὺς Λακεδαιμονίους … τὰς ἐλαίας τέμνοντας.»",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί νομίζει ὁ Περικλῆς;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἡμᾶς ταῖς ναυσὶ νικήσειν."
+    },
+    {
+     "id": "b",
+     "text": "ἡμᾶς ἐν τῇ γῇ νικήσειν."
+    },
+    {
+     "id": "c",
+     "text": "τοὺς Λακεδαιμονίους φεύξεσθαι."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.indirect-inf"
+   ],
+   "explain": "νομίζει τὸν τῶν Πελοποννησίων στρατὸν μείζονα εἶναι, ἡμᾶς δὲ ταῖς ναυσὶ νικήσειν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίνα αἴτιον ἐνόμιζον οἱ Ἀθηναῖοι πάντων ὧν ἔπασχον;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὸν Περικλέα."
+    },
+    {
+     "id": "b",
+     "text": "τὸν Ἀρχίδαμον."
+    },
+    {
+     "id": "c",
+     "text": "τοὺς χρησμολόγους."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "read.thucydides"
+   ],
+   "explain": "αἴτιον αὐτὸν ἐνόμιζον πάντων ὧν ἔπασχον.",
+   "audio": "prompt"
+  }
+ ],
+ "culture": {
+  "title": "Pericles' plan and the first invasion",
+  "md": "Pericles' strategy, as Thucydides reports it (2.13), was simple and painful: do not fight the Peloponnesian army on land, where it was far stronger; bring everyone and everything in from the countryside; guard the walls, which ran from Athens to the Piraeus; and trust the fleet and the tribute of the empire. Athens could be fed by sea for as long as the navy ruled it.\n\nIn the early summer of 431, about eighty days after the Theban attack on Plataea, King **Archidamos** led two-thirds of the forces of Sparta and her allies into Attica, when the grain was ripe. He had lost time besieging the border fort of Oinoe, and the Athenians used it to finish moving in. The army ravaged Eleusis and the Thriasian plain, then marched to **Acharnae**, the largest deme of Attica, and camped there for days. Archidamos hoped that the Acharnians, who (Thucydides says) supplied 3,000 hoplites, would force the city to come out and fight.\n\nThey nearly did. From the walls the Athenians could see their own land being cut and burnt; the young men wanted to march out, oracle-singers chanted, and the crowd blamed Pericles. He refused to call an Assembly, sent out cavalry to skirmish, and dispatched a hundred ships to raid the coasts of the Peloponnese. When their food ran low, the invaders went home through Boeotia. Aristophanes' comedy *Acharnians* (425) still remembers the charcoal-burners of Acharnae and their hatred for the men who cut their vines.",
+  "image": "diagram-war-map"
+ },
+ "quiz": [
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ Λύσις ___ τοὺς Λακεδαιμονίους τὰς οἰκίας καίειν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "φησί"
+    },
+    {
+     "id": "b",
+     "text": "φασί"
+    },
+    {
+     "id": "c",
+     "text": "φαμέν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.phemi",
+    "syntax.indirect-inf"
+   ],
+   "explain": "One subject, third person: φησί."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ Κλεινίας τὸν καπνὸν ὁρᾷ ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀναβαίνοντα"
+    },
+    {
+     "id": "b",
+     "text": "ἀναβαίνειν"
+    },
+    {
+     "id": "c",
+     "text": "ἀναβαίνων"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.indirect-ptc"
+   ],
+   "explain": "Accusative participle, agreeing with τὸν καπνόν."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the present infinitive of καίω (as in 'I think they are burning …').",
+   "lemma": "καίω",
+   "cell": "present.active.infinitive.inf",
+   "skills": [
+    "syntax.indirect-inf",
+    "verb.pres.act.inf"
+   ],
+   "explain": "καίειν.",
+   "audio": "καίειν"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "οἱ Λακεδαιμόνιοι τὰ δένδρα τῶν ἀγρῶν ___ ἔχομεν τέμνουσιν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὧν"
+    },
+    {
+     "id": "b",
+     "text": "οὕς"
+    },
+    {
+     "id": "c",
+     "text": "οἷς"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.rel-attraction"
+   ],
+   "explain": "Attracted into the genitive of τῶν ἀγρῶν: ὧν for οὕς."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "οἱ νεώτεροι ἐπεξιέναι ἐβούλοντο.",
+   "answer": "true",
+   "skills": [
+    "read.comprehension",
+    "read.thucydides"
+   ],
+   "explain": "ἐδόκει … μάλιστα τοῖς νεωτέροις ἐπεξιέναι.",
+   "audio": "prompt"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἔφη.",
+   "form": "ἔφη",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "I"
+      },
+      {
+       "id": "3sg",
+       "label": "he, she"
+      },
+      {
+       "id": "3pl",
+       "label": "they"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "impf",
+    "person": "3sg"
+   },
+   "skills": [
+    "verb.phemi"
+   ],
+   "explain": "ἔφη: imperfect of φημί, 'he said'.",
+   "audio": "ἔφη"
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Eudemos says that he will fight.'",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ Εὔδημός φησι μαχεῖσθαι",
+      "ὁ Εὔδημός φησιν αὐτὸς μαχεῖσθαι",
+      "ὁ Εὔδημος μαχεῖσθαί φησιν",
+      "φησὶν ὁ Εὔδημος μαχεῖσθαι"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.indirect-inf",
+    "verb.fut.deponent"
+   ],
+   "explain": "ὁ Εὔδημός φησι μαχεῖσθαι: same subject, future infinitive."
+  }
+ ],
+ "skills": [
+  "syntax.indirect-inf",
+  "syntax.indirect-ptc",
+  "verb.phemi",
+  "syntax.rel-attraction",
+  "syntax.indirect-hoti",
+  "verb.pres.act.inf",
+  "verb.fut.act.inf",
+  "verb.aor.act.inf",
+  "verb.eimi.pres.inf",
+  "verb.ptc.pres.act",
+  "verb.pres.mp.ind.3sg",
+  "verb.aor2.stem",
+  "verb.aor-deponent",
+  "verb.augment",
+  "verb.fut.deponent",
+  "pron.relative",
+  "syntax.word-order",
+  "read.comprehension",
+  "read.thucydides",
+  "read.locate",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family"
+ ]
+}

@@ -1,0 +1,1442 @@
+{
+ "id": "11.4",
+ "title_grc": "ἡ ψῆφος τῶν δικαστῶν",
+ "title_en": "The jurors' vote",
+ "summary_grc": "ἕκαστος δικαστὴς μίαν ψῆφον ἔχει· δύο καδίσκω ἐπὶ τῇ τραπέζῃ κεῖσθον.",
+ "summary_en": "The vote and the verdict. The dual for pairs (τὼ χεῖρε, 'the two hands'), to recognise; Attic beside Ionic and later Koine forms (θάλαττα / θάλασσα, ἡμέρα / ἡμέρη); and a strategy for reading long Greek sentences.",
+ "cover": "panel-11-4-a",
+ "caption_grc": "ὁ Εὔδημος τὼ χεῖρε εἰς τὼ καδίσκω ἅμα καθίησιν.",
+ "names": {
+  "Ἀντίμαχος": [
+   "Ἀντιμάχου",
+   "Ἀντιμάχῳ",
+   "Ἀντίμαχον",
+   "Ἀντίμαχε"
+  ],
+  "Θεόδωρος": [
+   "Θεοδώρου",
+   "Θεοδώρῳ",
+   "Θεόδωρον",
+   "Θεόδωρε"
+  ],
+  "Μίλητος": [
+   "Μιλήτου",
+   "Μιλήτῳ",
+   "Μίλητον"
+  ],
+  "Μιλήσιος": [
+   "Μιλησίου",
+   "Μιλησίῳ",
+   "Μιλήσιον",
+   "Μιλήσιοι"
+  ],
+  "Ὀρέστης": [
+   "Ὀρέστου",
+   "Ὀρέστῃ",
+   "Ὀρέστην",
+   "Ὀρέστα"
+  ]
+ },
+ "allow": {
+  "ἅμα": "unit 7",
+  "τέλος": "unit 7",
+  "δίδωσιν": "unit 7",
+  "ὡς": "unit 7",
+  "πολλοὶ": "unit 8",
+  "ἐὰν": "unit 8",
+  "οὕτω": "unit 10",
+  "ὥστε": "unit 10",
+  "ἕνεκα": "unit 10",
+  "ἔξω": "unit 10",
+  "τοσαῦτα": "unit 9",
+  "φησίν": "unit 9"
+ },
+ "story": [
+  {
+   "image": "panel-11-4-a",
+   "sentences": [
+    {
+     "text": "ὁ μὲν λόγος τοῦ Ἀντιμάχου μακρὸς ἦν, ὁ δὲ τοῦ Δημοκρίτου βραχύς· νῦν δὲ οἱ δικασταὶ ψηφίζονται.",
+     "glosses": [
+      {
+       "word": "βραχύς",
+       "kind": "↔",
+       "value": "βραχύς ↔ μακρός (short, brief)"
+      },
+      {
+       "word": "ψηφίζονται",
+       "kind": "<",
+       "value": "ἡ ψῆφος | ψηφίζομαι (vote)"
+      }
+     ]
+    },
+    {
+     "text": "ἐπὶ τῇ τραπέζῃ δύο καδίσκω κεῖσθον, ὁ μὲν πρότερος, ὁ δ’ ὕστερος.",
+     "glosses": [
+      {
+       "word": "καδίσκω",
+       "kind": "pic",
+       "value": "kadiskos"
+      },
+      {
+       "word": "κεῖσθον",
+       "kind": "note",
+       "value": "δύο καδίσκω κεῖσθον: 'two urns lie'. καδίσκω and κεῖσθον are dual, the form for a pair (plural: καδίσκοι κεῖνται)."
+      }
+     ]
+    },
+    {
+     "text": "εἰς μὲν τὸν πρότερον βάλλουσι τὴν ψῆφον οἱ τὸν Δημόκριτον καταδικάζοντες, εἰς δὲ τὸν ὕστερον οἱ ἀφιέντες.",
+     "glosses": [
+      {
+       "word": "ψῆφον",
+       "kind": "pic",
+       "value": "psephos"
+      },
+      {
+       "word": "καταδικάζοντες",
+       "kind": "↔",
+       "value": "καταδικάζω (condemn) ↔ ἀφίημι (let go, acquit)"
+      },
+      {
+       "word": "ἀφιέντες",
+       "kind": "|",
+       "value": "ἀφίημι | οἱ ἀφιέντες (those acquitting)"
+      }
+     ]
+    },
+    {
+     "text": "ἕκαστος δικαστὴς μίαν ψῆφον ἐν τῇ χειρὶ κρύπτει.",
+     "glosses": [
+      {
+       "word": "ἕκαστος",
+       "kind": "en",
+       "value": "each"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δ’ Εὔδημος τύχῃ ἐν τούτῳ τῷ δικαστηρίῳ δικάζει· πολλοὶ γὰρ Ἀχαρνῆς νῦν ἐν τῷ ἄστει οἰκοῦντες τοῦ μισθοῦ ἕνεκα δικάζουσιν.",
+     "glosses": [
+      {
+       "word": "τύχῃ",
+       "kind": "en",
+       "value": "by chance (ἡ τύχη, luck)"
+      },
+      {
+       "word": "δικάζει",
+       "kind": "<",
+       "value": "δίκη | δικάζω (sit as a juror, judge)"
+      },
+      {
+       "word": "δικάζουσιν",
+       "kind": "|",
+       "value": "δικάζει | δικάζουσι(ν) (they sit as jurors)"
+      },
+      {
+       "word": "πολλοὶ",
+       "kind": "en",
+       "value": "many"
+      },
+      {
+       "word": "μισθοῦ",
+       "kind": "en",
+       "value": "pay (two obols a day in 429)"
+      },
+      {
+       "word": "ἕνεκα",
+       "kind": "en",
+       "value": "for the sake of (after a genitive)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ τὼ χεῖρε εἰς τὼ καδίσκω ἅμα καθίησιν, ὥστε μηδένα ὁρᾶν ὅποι τὴν ψῆφον ἀφίησιν.",
+     "glosses": [
+      {
+       "word": "χεῖρε",
+       "kind": "|",
+       "value": "ἡ χείρ | αἱ χεῖρες | τὼ χεῖρε (both hands: dual)"
+      },
+      {
+       "word": "καθίησιν",
+       "kind": "<",
+       "value": "κατά + ἵημι: lets down, puts down into"
+      },
+      {
+       "word": "ὅποι",
+       "kind": "en",
+       "value": "(to) where (indirect question)"
+      },
+      {
+       "word": "ἀφίησιν",
+       "kind": "|",
+       "value": "ἀφίημι | ἀφίησι(ν) (lets go, drops)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-11-4-b",
+   "sentences": [
+    {
+     "text": "μετὰ δὲ ταῦτα τοὺς καδίσκους ἐκχέουσι καὶ τὰς ψήφους ἀριθμοῦσιν.",
+     "glosses": [
+      {
+       "word": "καδίσκους",
+       "kind": "|",
+       "value": "τὼ καδίσκω (dual) | τοὺς καδίσκους (plural): the urns"
+      },
+      {
+       "word": "ἐκχέουσι",
+       "kind": "en",
+       "value": "they pour out"
+      },
+      {
+       "word": "ἀριθμοῦσιν",
+       "kind": "en",
+       "value": "they count"
+      }
+     ]
+    },
+    {
+     "text": "ὁ Δημόκριτος καὶ ὁ Ἀντίμαχος μεταξὺ τῶν δικαστῶν ἑστήκασι καὶ φοβοῦνται.",
+     "glosses": [
+      {
+       "word": "μεταξὺ",
+       "kind": "en",
+       "value": "between, among (+ genitive)"
+      },
+      {
+       "word": "ἑστήκασι",
+       "kind": "|",
+       "value": "ἵστημι | ἑστήκασι(ν) (they stand)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λύσις· «ἐὰν αἱ ψῆφοι ἴσαι ὦσιν, ὁ φεύγων ἀποφεύγει· οὕτω γὰρ καὶ ὁ Ὀρέστης ἀπέφυγεν, ὡς ἔλεγεν ὁ πάππος.»",
+     "glosses": [
+      {
+       "word": "ἴσαι",
+       "kind": "en",
+       "value": "equal (ἴσος, -η, -ον)"
+      },
+      {
+       "word": "ἀποφεύγει",
+       "kind": "<",
+       "value": "ἀπό + φεύγω: escapes, is acquitted"
+      },
+      {
+       "word": "ἀπέφυγεν",
+       "kind": "|",
+       "value": "ἀποφεύγω | ἀπέφυγεν (was acquitted)"
+      },
+      {
+       "word": "Ὀρέστης",
+       "kind": "note",
+       "value": "In the myth Orestes, tried at Athens for killing his mother, was acquitted when the votes were equal and Athena's vote decided (Aeschylus, Eumenides, 458 BC)."
+      }
+     ]
+    },
+    {
+     "text": "τέλος δὲ ὁ κῆρυξ βοᾷ· «ὁ Δημόκριτος ἀποφεύγει· αἱ γὰρ πλείους ψῆφοι αὐτὸν ἀφιᾶσιν.»",
+     "glosses": [
+      {
+       "word": "τέλος",
+       "kind": "en",
+       "value": "finally"
+      },
+      {
+       "word": "κῆρυξ",
+       "kind": "en",
+       "value": "the herald"
+      },
+      {
+       "word": "πλείους",
+       "kind": "en",
+       "value": "more, the majority (αἱ πλείους)"
+      },
+      {
+       "word": "ἀφιᾶσιν",
+       "kind": "|",
+       "value": "ἀφίησι | ἀφιᾶσι(ν) (they let go, acquit)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ μὲν Δημόκριτος χαίρει· ὁ δ’ Ἀντίμαχος· «ἀπόλωλα», φησίν, «ὅλην γὰρ τὴν ἡμέραν ἀπώλεσα.»",
+     "glosses": [
+      {
+       "word": "ἀπόλωλα",
+       "kind": "|",
+       "value": "ἀπόλλυμι (destroy, lose) | ἀπόλωλα (I am ruined, I'm done for)"
+      },
+      {
+       "word": "ὅλην",
+       "kind": "en",
+       "value": "whole (ὅλος, -η, -ον)"
+      },
+      {
+       "word": "ἀπώλεσα",
+       "kind": "|",
+       "value": "ἀπόλλυμι | ἀπώλεσα (I lost, wasted)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-11-4-c",
+   "sentences": [
+    {
+     "text": "ἔξω δὲ τοῦ δικαστηρίου Θεόδωρος ὁ Μιλήσιος, ὁ ἔμπορος, αὐτοῖς προσέρχεται· αὖθις γὰρ ἐν Ἀθήναις ἐστίν.",
+     "glosses": [
+      {
+       "word": "ἔξω",
+       "kind": "en",
+       "value": "outside (+ genitive)"
+      },
+      {
+       "word": "αὖθις",
+       "kind": "en",
+       "value": "again"
+      }
+     ]
+    },
+    {
+     "text": "«χαίρετε», φησίν. «τὴν δίκην ἤκουσα. ἐν Μιλήτῳ δὲ οὐ τοσαῦτα πρήσσομεν ἐν μιῇ ἡμέρῃ.»",
+     "glosses": [
+      {
+       "word": "τοσαῦτα",
+       "kind": "en",
+       "value": "so many things"
+      },
+      {
+       "word": "πρήσσομεν",
+       "kind": "note",
+       "value": "Ionic, the Greek of Miletus: πρήσσομεν = Attic πράττομεν 'we do, manage'"
+      },
+      {
+       "word": "μιῇ",
+       "kind": "|",
+       "value": "Ionic μιῇ ἡμέρῃ = Attic μιᾷ ἡμέρᾳ (in one day)"
+      },
+      {
+       "word": "ἡμέρῃ",
+       "kind": "|",
+       "value": "Ionic ἡμέρη = Attic ἡμέρα"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λύσις γελᾷ· «ἡμεῖς γε λέγομεν ἡμέρᾳ, ὦ ξένε, καὶ θάλατταν, οὐ θάλασσαν.»",
+     "glosses": [
+      {
+       "word": "γελᾷ",
+       "kind": "en",
+       "value": "laughs"
+      },
+      {
+       "word": "θάλασσαν",
+       "kind": "|",
+       "value": "Ionic θάλασσα = Attic θάλαττα"
+      }
+     ]
+    },
+    {
+     "text": "μέχρι δὲ τῆς ἑσπέρας πάντες ἐν τῇ ἀγορᾷ μένουσι καὶ διαλέγονται, καὶ ἕκαστος ὅλην τὴν δίκην αὖθις λέγει.",
+     "glosses": [
+      {
+       "word": "μέχρι",
+       "kind": "en",
+       "value": "until, up to (+ genitive)"
+      },
+      {
+       "word": "διαλέγονται",
+       "kind": "en",
+       "value": "talk, converse"
+      }
+     ]
+    },
+    {
+     "text": "τοῦ δὲ φθινοπώρου τὼ γείτονε εἰς τοὺς ἀγροὺς ἔρχεσθον καὶ τὸν ὅρον αὖθις ἵστατον μεταξὺ τῶν ἀγρῶν.",
+     "glosses": [
+      {
+       "word": "φθινοπώρου",
+       "kind": "en",
+       "value": "τοῦ φθινοπώρου: in the autumn"
+      },
+      {
+       "word": "γείτονε",
+       "kind": "|",
+       "value": "ὁ γείτων | οἱ γείτονες | τὼ γείτονε (the two neighbours: dual)"
+      },
+      {
+       "word": "ἔρχεσθον",
+       "kind": "|",
+       "value": "ἔρχονται | ἔρχεσθον (the two of them go: dual)"
+      },
+      {
+       "word": "ἵστατον",
+       "kind": "|",
+       "value": "ἱστᾶσι | ἵστατον (the two of them set up: dual)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δ’ Ἀντίμαχος τὴν χεῖρα τῷ Δημοκρίτῳ δίδωσιν· «βραχὺς ἔστω ὁ λόγος· ἀγαθῇ τύχῃ, ὦ γεῖτον. μέχρι νῦν ἐχθροὶ ἦμεν· νῦν δὲ ἴσοι καὶ φίλοι ἔστων καὶ οἱ ἀγροί.»",
+     "glosses": [
+      {
+       "word": "δίδωσιν",
+       "kind": "en",
+       "value": "gives"
+      },
+      {
+       "word": "ἀγαθῇ",
+       "kind": "en",
+       "value": "ἀγαθῇ τύχῃ: with good luck, in a good hour (a formula for new beginnings)"
+      },
+      {
+       "word": "ἐχθροὶ",
+       "kind": "↔",
+       "value": "ἐχθρός ↔ φίλος (enemy)"
+      },
+      {
+       "word": "ἔστων",
+       "kind": "|",
+       "value": "ἔστω | ἔστων (let them be)"
+      },
+      {
+       "word": "ἴσοι",
+       "kind": "en",
+       "value": "equal"
+      }
+     ]
+    },
+    {
+     "text": "ἐκ δὲ τῆς τετμημένης ἐλαίας νέος κλάδος ἤδη φύεται.",
+     "glosses": [
+      {
+       "word": "τετμημένης",
+       "kind": "|",
+       "value": "τέμνω | τετμημένη (cut, felled)"
+      },
+      {
+       "word": "νέος",
+       "kind": "en",
+       "value": "new, young"
+      },
+      {
+       "word": "κλάδος",
+       "kind": "pic",
+       "value": "klados"
+      },
+      {
+       "word": "φύεται",
+       "kind": "en",
+       "value": "grows"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ψηφος",
+   "pic": "psephos",
+   "gloss_grc": "ἡ ψῆφος · ψηφίζομαι"
+  },
+  {
+   "id": "αφιημι",
+   "gloss_grc": "ἀφίημι ↔ καταδικάζω · ἀφίησι · ἀφιᾶσι"
+  },
+  {
+   "id": "εκαστος",
+   "gloss_grc": "ἕκαστος δικαστὴς μίαν ψῆφον ἔχει"
+  },
+  {
+   "id": "ισος",
+   "gloss_grc": "αἱ ψῆφοι ἴσαι"
+  },
+  {
+   "id": "ολος",
+   "gloss_grc": "ὅλην τὴν ἡμέραν"
+  },
+  {
+   "id": "μεταξυ",
+   "pic": "horos",
+   "gloss_grc": "μεταξὺ τῶν ἀγρῶν"
+  },
+  {
+   "id": "μεχρι",
+   "gloss_grc": "μέχρι τῆς ἑσπέρας · μέχρι νῦν"
+  },
+  {
+   "id": "βραχυς",
+   "gloss_grc": "βραχύς ↔ μακρός"
+  },
+  {
+   "id": "τυχη",
+   "gloss_grc": "τύχῃ · ἀγαθῇ τύχῃ"
+  },
+  {
+   "id": "απολλυμι",
+   "gloss_grc": "ἀπώλεσα · ἀπόλωλα (I am ruined)"
+  }
+ ],
+ "notice": [
+  "δύο καδίσκω κεῖσθον. — τὼ χεῖρε εἰς τὼ καδίσκω καθίησιν.",
+  "τὼ γείτονε εἰς τοὺς ἀγροὺς ἔρχεσθον καὶ τὸν ὅρον ἵστατον.",
+  "Ionic πρήσσομεν ἐν μιῇ ἡμέρῃ = Attic πράττομεν ἐν μιᾷ ἡμέρᾳ.",
+  "θάλασσα (Ionic, Koine) = θάλαττα (Attic).",
+  "ἐὰν αἱ ψῆφοι ἴσαι ὦσιν, ὁ φεύγων ἀποφεύγει."
+ ],
+ "grammar": {
+  "md": "**The dual: two of a kind.** Besides singular and plural, Attic has a **dual** for pairs: two hands, two urns, two neighbours. It was already fading in the Athenians' everyday speech, and the plural is always correct, so you only need to *recognise* it. There are just two case forms, one for nominative/accusative/vocative and one for genitive/dative:\n\n| | article | 1st decl. | 2nd decl. | 3rd decl. |\n|---|---|---|---|---|\n| nom. acc. voc. | **τώ** | τὼ θεά (-ᾱ) | τὼ καδίσκ**ω** | τὼ χεῖρ**ε**, τὼ γείτον**ε** |\n| gen. dat. | **τοῖν** | τοῖν θεαῖν (-αιν) | τοῖν καδίσκ**οιν** | τοῖν χερ**οῖν**, τοῖν γειτόν**οιν** |\n\nIn Attic prose the article τώ, τοῖν serves all three genders. Verbs have dual endings in the 2nd and 3rd person: present **-τον** (active) and **-σθον** (middle): ἵστα**τον** 'the two of them set up', ἔρχε**σθον** 'the two of them go', κεῖ**σθον** 'the two lie'. In past tenses the 3rd person dual is **-την / -σθην**: ἐλεγέ**την** 'the two of them were saying'. So: **-ω, -ε, -οιν** on nouns and **-τον, -την, -σθον, -σθην** on verbs mean 'two'. δύο and ἄμφω 'both' go with either dual or plural.\n\n**Attic, Ionic and Koine.** You are learning the Greek of Athens. Other Greeks spoke and wrote other dialects; you will meet them in your reading.\n\n| Attic | Ionic (Herodotus, Hippocrates; Miletus) | Koine (after c. 300 BC; the New Testament) |\n|---|---|---|\n| θάλαττα, πράττω | θάλασσα, πρήσσω | θάλασσα, πράσσω |\n| ἡμέρα, χώρα (ᾱ after ε, ι, ρ) | ἡμέρη, χώρη | ἡμέρα, χώρα |\n| θάρρος 'courage' | θάρσος | θάρσος |\n| ποιεῖ (contracted) | ποιέει (often uncontracted) | ποιεῖ |\n| πῶς, ὅπως | κῶς, ὅκως | πῶς, ὅπως |\n| εἰς | ἐς | εἰς |\n| γίγνομαι, γιγνώσκω | γίνομαι, γινώσκω | γίνομαι, γινώσκω |\n| the dual | no dual | no dual |\n\nThucydides, though an Athenian, writes θάλασσα, ἐς and ξύν: an older literary style coloured by Ionic, the first language of Greek prose. Koine, 'common' Greek, grew out of Attic but took -σσ- and γίνομαι from Ionic; it is the Greek of the New Testament.\n\n**A strategy for long sentences.** (1) Find the finite verb(s): the words with personal endings. (2) Find each verb's subject (a nominative, or the ending itself). (3) Find the objects and the words the verb needs. (4) Put brackets round everything that hangs off the core: participle phrases, genitive absolutes, infinitive phrases, relative clauses (ὅς), clauses with ὅτι, εἰ, ἐάν, ἵνα, ὥστε, ἕως. (5) Read the particles for the tone and the links between sentences. Then read it again in Greek order, holding each unit in mind; do not jump around looking for the English order.",
+  "paradigms": [],
+  "diagram": "diagram-dual"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings.",
+   "template": "ἕκαστ___ δικαστὴς μίαν ψῆφ___ κρύπτει. αἱ ψῆφ___ ἴσ___ εἰσίν.",
+   "gaps": [
+    {
+     "answers": [
+      "ος"
+     ]
+    },
+    {
+     "answers": [
+      "ον"
+     ]
+    },
+    {
+     "answers": [
+      "οι"
+     ]
+    },
+    {
+     "answers": [
+      "αι"
+     ]
+    }
+   ],
+   "skills": [
+    "adj.agree",
+    "vocab.stage2"
+   ],
+   "explain": "ἕκαστος (m. nom.), ψῆφον (acc. sg.: ἡ ψῆφος is feminine but 2nd declension), ψῆφοι, ἴσαι (feminine plural, agreeing with αἱ ψῆφοι)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἐὰν αἱ ψῆφοι ___ ὦσιν, ὁ φεύγων ἀποφεύγει.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἴσαι"
+    },
+    {
+     "id": "b",
+     "text": "ὅλαι"
+    },
+    {
+     "id": "c",
+     "text": "βραχεῖαι"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.stage2"
+   ],
+   "explain": "If the votes are equal, the defendant is acquitted.",
+   "audio": "ἐὰν αἱ ψῆφοι ἴσαι ὦσιν, ὁ φεύγων ἀποφεύγει."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · αἱ πλείους ψῆφοι τὸν Δημόκριτον ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀφίησιν"
+    },
+    {
+     "id": "b",
+     "text": "ἀφιᾶσιν"
+    },
+    {
+     "id": "c",
+     "text": "ἀφιέναι"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "vocab.stage2"
+   ],
+   "explain": "Plural subject: ἀφιᾶσιν 'they let go, acquit'.",
+   "audio": "αἱ πλείους ψῆφοι τὸν Δημόκριτον ἀφιᾶσιν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ___ τῆς ἑσπέρας πάντες ἐν τῇ ἀγορᾷ μένουσιν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "μέχρι"
+    },
+    {
+     "id": "b",
+     "text": "μεταξύ"
+    },
+    {
+     "id": "c",
+     "text": "ἕκαστος"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.stage2"
+   ],
+   "explain": "μέχρι 'until'; μεταξύ means 'between'.",
+   "audio": "μέχρι τῆς ἑσπέρας πάντες ἐν τῇ ἀγορᾷ μένουσιν."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ἡ ψῆφος",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "psephos"
+    },
+    {
+     "id": "b",
+     "image": "lithos"
+    },
+    {
+     "id": "c",
+     "image": "obolos"
+    },
+    {
+     "id": "d",
+     "image": "horos"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ἡ ψῆφος: a small pebble, the juror's vote."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen: one of these is dual. Which do you hear?",
+   "audio": "τὼ χεῖρε",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὴν χεῖρα"
+    },
+    {
+     "id": "b",
+     "text": "τὰς χεῖρας"
+    },
+    {
+     "id": "c",
+     "text": "τὼ χεῖρε"
+    }
+   ],
+   "answer": "c",
+   "skills": [
+    "listen.words",
+    "noun.dual"
+   ],
+   "explain": "τὼ χεῖρε: 'both hands', the dual."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the accusative plural of ψῆφος.",
+   "lemma": "ψῆφος",
+   "cell": "acc.pl",
+   "skills": [
+    "vocab.stage2",
+    "noun.decl2.acc.pl"
+   ],
+   "explain": "τὰς ψήφους: feminine article, 2nd-declension endings.",
+   "audio": "ψήφους"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the 3rd plural present of ἀφίημι ('they acquit').",
+   "lemma": "ἀφίημι",
+   "cell": "present.active.indicative.3pl",
+   "skills": [
+    "vocab.stage2"
+   ],
+   "explain": "ἀφιᾶσι(ν), like ἱᾶσι.",
+   "audio": "ἀφιᾶσιν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the masculine dative singular of ἕκαστος.",
+   "lemma": "ἕκαστος",
+   "cell": "dat.sg.m",
+   "skills": [
+    "vocab.stage2",
+    "adj.agree"
+   ],
+   "explain": "ἑκάστῳ: 'to each (juror)'.",
+   "audio": "ἑκάστῳ"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the feminine nominative singular of βραχύς.",
+   "lemma": "βραχύς",
+   "cell": "nom.sg.f",
+   "skills": [
+    "adj.us"
+   ],
+   "explain": "βραχεῖα, like ταχεῖα.",
+   "audio": "βραχεῖα"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse χεῖρε in: τὼ χεῖρε εἰς τὼ καδίσκω καθίησιν.",
+   "form": "χεῖρε",
+   "groups": [
+    {
+     "id": "number",
+     "label": "Number",
+     "options": [
+      {
+       "id": "sg",
+       "label": "singular"
+      },
+      {
+       "id": "du",
+       "label": "dual"
+      },
+      {
+       "id": "pl",
+       "label": "plural"
+      }
+     ]
+    },
+    {
+     "id": "case",
+     "label": "Case",
+     "options": [
+      {
+       "id": "nomacc",
+       "label": "nominative/accusative"
+      },
+      {
+       "id": "gendat",
+       "label": "genitive/dative"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "number": "du",
+    "case": "nomacc"
+   },
+   "skills": [
+    "noun.dual"
+   ],
+   "explain": "-ε is the 3rd-declension dual nom./acc.: τὼ χεῖρε 'his two hands', object of καθίησιν.",
+   "audio": "τὼ χεῖρε"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἔρχεσθον in: τὼ γείτονε εἰς τοὺς ἀγροὺς ἔρχεσθον.",
+   "form": "ἔρχεσθον",
+   "groups": [
+    {
+     "id": "number",
+     "label": "Number",
+     "options": [
+      {
+       "id": "sg",
+       "label": "singular"
+      },
+      {
+       "id": "du",
+       "label": "dual"
+      },
+      {
+       "id": "pl",
+       "label": "plural"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person",
+     "options": [
+      {
+       "id": "2or3",
+       "label": "2nd or 3rd"
+      },
+      {
+       "id": "1",
+       "label": "1st"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "number": "du",
+    "person": "2or3"
+   },
+   "skills": [
+    "noun.dual"
+   ],
+   "explain": "-σθον: middle dual, 2nd or 3rd person; the subject τὼ γείτονε says it is 3rd: 'the two neighbours go'.",
+   "audio": "ἔρχεσθον"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "Ionic πρήσσομεν is Attic …",
+   "options": [
+    {
+     "id": "a",
+     "text": "πράττομεν"
+    },
+    {
+     "id": "b",
+     "text": "πράσσομεν"
+    },
+    {
+     "id": "c",
+     "text": "πρήττομεν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.dialects"
+   ],
+   "explain": "Attic -ττ- for Ionic -σσ-, and ᾱ for Ionic η: πράττομεν."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "Which word is Attic?",
+   "options": [
+    {
+     "id": "a",
+     "text": "θάλασσα"
+    },
+    {
+     "id": "b",
+     "text": "θάλαττα"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.dialects"
+   ],
+   "explain": "θάλαττα is Attic; θάλασσα is Ionic and Koine (and Thucydides)."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "Ionic ἡμέρη is Attic …",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἡμέρα"
+    },
+    {
+     "id": "b",
+     "text": "ἡμέρη"
+    },
+    {
+     "id": "c",
+     "text": "ἡμάρα"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.dialects"
+   ],
+   "explain": "After ε, ι, ρ Attic keeps long α where Ionic has η."
+  },
+  {
+   "type": "label",
+   "prompt": "τὼ γείτονε means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "the two neighbours (dual)"
+    },
+    {
+     "id": "b",
+     "text": "the neighbour (vocative)"
+    },
+    {
+     "id": "c",
+     "text": "of the neighbours"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "noun.dual"
+   ],
+   "explain": "τώ + -ε: dual nominative/accusative."
+  },
+  {
+   "type": "label",
+   "prompt": "Reading strategy · In «ὁ δ’ Εὔδημος τύχῃ ἐν τούτῳ τῷ δικαστηρίῳ δικάζει», which word do you look for first?",
+   "image": "diagram-reading-strategy",
+   "options": [
+    {
+     "id": "a",
+     "text": "δικάζει, the finite verb"
+    },
+    {
+     "id": "b",
+     "text": "τύχῃ, the first noun"
+    },
+    {
+     "id": "c",
+     "text": "τούτῳ, the demonstrative"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.strategy"
+   ],
+   "explain": "Find the verb first (δικάζει 'sits as a juror'), then its subject (ὁ Εὔδημος); τύχῃ and ἐν τούτῳ τῷ δικαστηρίῳ hang off the core."
+  },
+  {
+   "type": "label",
+   "prompt": "Reading strategy · «ὁ δὲ τὼ χεῖρε εἰς τὼ καδίσκω ἅμα καθίησιν, ὥστε μηδένα ὁρᾶν ὅποι τὴν ψῆφον ἀφίησιν.» What is the core?",
+   "image": "diagram-reading-strategy",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ δὲ … τὼ χεῖρε … καθίησιν ('he lets both hands down')"
+    },
+    {
+     "id": "b",
+     "text": "μηδένα ὁρᾶν ('no one sees')"
+    },
+    {
+     "id": "c",
+     "text": "τὴν ψῆφον ἀφίησιν ('he drops the pebble')"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.strategy"
+   ],
+   "explain": "The main verb is καθίησιν; ὥστε … ὁρᾶν is a result clause and ὅποι … ἀφίησιν an indirect question inside it: bracket both."
+  },
+  {
+   "type": "transform",
+   "prompt": "Dual to plural: τὼ χεῖρε → τὰς …",
+   "template": "τὰς ___",
+   "gaps": [
+    {
+     "answers": [
+      "χεῖρας"
+     ]
+    }
+   ],
+   "skills": [
+    "noun.dual"
+   ],
+   "explain": "The plural is always possible: τὰς χεῖρας.",
+   "audio": "τὰς χεῖρας"
+  },
+  {
+   "type": "transform",
+   "prompt": "Ionic to Attic: θάλασσα → …",
+   "template": "___",
+   "gaps": [
+    {
+     "answers": [
+      "θάλαττα"
+     ]
+    }
+   ],
+   "skills": [
+    "read.dialects"
+   ],
+   "explain": "θάλαττα.",
+   "audio": "θάλαττα"
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every dual form.",
+   "sentence": "τὼ γείτονε εἰς τοὺς ἀγροὺς ἔρχεσθον καὶ τὸν ὅρον ἵστατον· ἐπὶ δὲ τῇ τραπέζῃ δύο καδίσκω κεῖσθον.",
+   "answer": [
+    0,
+    1,
+    5,
+    9,
+    15,
+    16
+   ],
+   "skills": [
+    "read.locate",
+    "noun.dual"
+   ],
+   "explain": "τώ, γείτονε, ἔρχεσθον, ἵστατον, καδίσκω, κεῖσθον. τοὺς ἀγρούς is plural; δύο can go with either."
+  },
+  {
+   "type": "locate",
+   "prompt": "Reading strategy · Tap the finite verbs (the words with personal endings).",
+   "sentence": "εἰς μὲν τὸν πρότερον βάλλουσι τὴν ψῆφον οἱ τὸν Δημόκριτον καταδικάζοντες, εἰς δὲ τὸν ὕστερον οἱ ἀφιέντες.",
+   "answer": [
+    4
+   ],
+   "skills": [
+    "read.locate",
+    "read.strategy"
+   ],
+   "explain": "Only βάλλουσι. καταδικάζοντες and ἀφιέντες are participles with the article ('those condemning', 'those acquitting'); the second half borrows βάλλουσι."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'Each juror hides one pebble.'",
+   "tokens": [
+    "κρύπτει",
+    "ψῆφον",
+    "ἕκαστος",
+    "μίαν",
+    "δικαστὴς"
+   ],
+   "answers": [
+    "ἕκαστος δικαστὴς μίαν ψῆφον κρύπτει",
+    "ἕκαστος δικαστὴς κρύπτει μίαν ψῆφον",
+    "μίαν ψῆφον ἕκαστος δικαστὴς κρύπτει"
+   ],
+   "skills": [
+    "syntax.word-order"
+   ],
+   "explain": "ἕκαστος δικαστὴς μίαν ψῆφον κρύπτει."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "audio": "ὁ Δημόκριτος ἀποφεύγει· αἱ γὰρ πλείους ψῆφοι αὐτὸν ἀφιᾶσιν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Δημόκριτος ἀποφεύγει· αἱ γὰρ πλείους ψῆφοι αὐτὸν ἀφιᾶσιν."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Ἀντίμαχος ἀποφεύγει· αἱ γὰρ ψῆφοι ἴσαι εἰσίν."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Δημόκριτος ἀπόλωλεν· ὅλην γὰρ τὴν ἡμέραν ἀπώλεσεν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "'Demokritos is acquitted: most of the votes let him go.'"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἕκαστος δικαστὴς δύο ψήφους ἔχει.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἕκαστος δικαστὴς μίαν ψῆφον ἐν τῇ χειρὶ κρύπτει."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Εὔδημος τύχῃ ἐν τούτῳ τῷ δικαστηρίῳ δικάζει.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὁ δ’ Εὔδημος τύχῃ ἐν τούτῳ τῷ δικαστηρίῳ δικάζει."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Θεόδωρος θάλατταν λέγει, οὐ θάλασσαν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension",
+    "read.dialects"
+   ],
+   "explain": "The Milesian speaks Ionic (θάλασσα); Lysis teases him with Attic θάλαττα."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "audio": "ἕκαστος δικαστὴς μίαν ψῆφον ἔχει.",
+   "gaps": [
+    {
+     "answers": [
+      "ἕκαστος δικαστὴς μίαν ψῆφον ἔχει"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "ἕκαστος δικαστὴς μίαν ψῆφον ἔχει."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The votes are equal.'",
+   "gaps": [
+    {
+     "answers": [
+      "αἱ ψῆφοι ἴσαι εἰσίν",
+      "αἱ ψῆφοι ἴσαι εἰσί",
+      "ἴσαι εἰσὶν αἱ ψῆφοι",
+      "ἴσαι εἰσὶ αἱ ψῆφοι",
+      "ἴσαι αἱ ψῆφοι εἰσίν"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "adj.agree"
+   ],
+   "explain": "αἱ ψῆφοι ἴσαι εἰσίν: ἴσαι agrees with the feminine ψῆφοι."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The jurors acquit Demokritos.'",
+   "gaps": [
+    {
+     "answers": [
+      "οἱ δικασταὶ τὸν Δημόκριτον ἀφιᾶσιν",
+      "οἱ δικασταὶ τὸν Δημόκριτον ἀφιᾶσι",
+      "οἱ δικασταὶ ἀφιᾶσι τὸν Δημόκριτον",
+      "οἱ δικασταὶ ἀφιᾶσιν τὸν Δημόκριτον",
+      "τὸν Δημόκριτον οἱ δικασταὶ ἀφιᾶσιν"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "vocab.stage2"
+   ],
+   "explain": "οἱ δικασταὶ τὸν Δημόκριτον ἀφιᾶσιν."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: ὁ δὲ τὼ χεῖρε εἰς τὼ καδίσκω ἅμα καθίησιν, ὥστε μηδένα ὁρᾶν ὅποι τὴν ψῆφον ἀφίησιν.",
+   "audio": "ὁ δὲ τὼ χεῖρε εἰς τὼ καδίσκω ἅμα καθίησιν, ὥστε μηδένα ὁρᾶν ὅποι τὴν ψῆφον ἀφίησιν.",
+   "model": "And he puts both hands into both urns at the same time, so that no one sees where he drops his pebble.",
+   "skills": [
+    "read.comprehension",
+    "noun.dual",
+    "read.strategy"
+   ],
+   "explain": "Two duals (τὼ χεῖρε, τὼ καδίσκω); ὥστε + infinitive (result), with μηδένα because it is an infinitive; ὅποι 'where to', an indirect question."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "ψῆφος",
+     "right": "psephology"
+    },
+    {
+     "left": "ἴσος",
+     "right": "isosceles"
+    },
+    {
+     "left": "ὅλος",
+     "right": "holistic"
+    },
+    {
+     "left": "βραχύς",
+     "right": "amphibrach"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "ψηφο-λογία, the study of votes; ἰσο-σκελής 'equal-legged'; ὅλος 'whole'; ἀμφί-βραχυς, a metrical foot 'short on both sides' (⏑ – ⏑)."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "ποῦ βάλλουσι τὴν ψῆφον οἱ τὸν Δημόκριτον ἀφιέντες;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "εἰς τὸν πρότερον καδίσκον."
+    },
+    {
+     "id": "b",
+     "text": "εἰς τὸν ὕστερον καδίσκον."
+    },
+    {
+     "id": "c",
+     "text": "εἰς τὴν κλεψύδραν."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "εἰς δὲ τὸν ὕστερον οἱ ἀφιέντες."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί πολλοὶ Ἀχαρνῆς νῦν δικάζουσιν;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "τοῦ μισθοῦ ἕνεκα."
+    },
+    {
+     "id": "b",
+     "text": "ὁ γὰρ Δημόκριτος φίλος αὐτῶν ἐστιν."
+    },
+    {
+     "id": "c",
+     "text": "ἐν τοῖς ἀγροῖς οἰκοῦσιν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἐν τῷ ἄστει οἰκοῦντες τοῦ μισθοῦ ἕνεκα δικάζουσιν: refugees in the city, glad of the pay."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί γίγνεται, ἐὰν αἱ ψῆφοι ἴσαι ὦσιν;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ φεύγων ἀποφεύγει."
+    },
+    {
+     "id": "b",
+     "text": "ὁ διώκων νικᾷ."
+    },
+    {
+     "id": "c",
+     "text": "οἱ δικασταὶ αὖθις ψηφίζονται."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἐὰν αἱ ψῆφοι ἴσαι ὦσιν, ὁ φεύγων ἀποφεύγει."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί λέγει ὁ Ἀντίμαχος μετὰ τὴν ψῆφον;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "«ἀπόλωλα· ὅλην γὰρ τὴν ἡμέραν ἀπώλεσα.»"
+    },
+    {
+     "id": "b",
+     "text": "«εὖ γε, ὦ Δημόκριτε.»"
+    },
+    {
+     "id": "c",
+     "text": "«οὐ μὴ σιγήσω.»"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "He jokes about the day he has lost."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ποιεῖτον τὼ γείτονε τοῦ φθινοπώρου;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὸν ὅρον αὖθις ἵστατον."
+    },
+    {
+     "id": "b",
+     "text": "ἄλλην δίκην λαγχάνετον."
+    },
+    {
+     "id": "c",
+     "text": "τὴν ἐλαίαν τέμνετον."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "noun.dual"
+   ],
+   "explain": "τὸν ὅρον αὖθις ἵστατον μεταξὺ τῶν ἀγρῶν. (ποιεῖτον, λαγχάνετον, τέμνετον: all dual.)"
+  }
+ ],
+ "culture": {
+  "title": "Six thousand jurors",
+  "md": "Every year six thousand citizens over the age of thirty were chosen by lot to serve as jurors, and each swore an oath to vote according to the laws, and where there was no law, 'by the most just judgement'. They were paid for each day they sat: the pay was introduced by Pericles in the 450s at two obols and raised to three obols by Cleon about 425. In 429 Eudemos receives two obols, perhaps a third of a skilled workman's daily wage; many jurors were old men or poor men, like the refugees crowded inside the walls. Aristophanes' *Wasps* (422) is a whole comedy about a juror addicted to the courts.\n\nWe know court sizes best from the fourth century: private suits went to 201 or 401 jurors, public ones to 501 or more. The odd numbers were meant to avoid ties; if the votes were equal after all, the defendant was acquitted, a rule the Athenians traced back to Athena's vote for Orestes.\n\nIn the fifth century a juror voted by dropping a pebble or shell into one of two urns, one to condemn and one to acquit, with a funnel over the mouth to hide his choice. The picture shows the fourth-century way. The stone allotment machine (κληρωτήριον), with slots for each juror's bronze ticket and a tube that released black and white balls, sorted jurors into courts each morning; each juror then received two bronze ballots, one with a hollow axle to condemn, one with a solid axle to acquit, and dropped the one he meant into a bronze urn. Both belong to the century after our story; in 429 the lot was drawn in a simpler way that we do not fully know.",
+  "image": "culture-kleroterion"
+ },
+ "quiz": [
+  {
+   "type": "cloze-choice",
+   "prompt": "τὼ χεῖρε is …",
+   "options": [
+    {
+     "id": "a",
+     "text": "dual: both hands"
+    },
+    {
+     "id": "b",
+     "text": "singular: the hand"
+    },
+    {
+     "id": "c",
+     "text": "genitive plural"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "noun.dual"
+   ],
+   "explain": "τώ + -ε: dual nominative/accusative."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "τοῖν χεροῖν is …",
+   "options": [
+    {
+     "id": "a",
+     "text": "genitive/dative dual: with both hands"
+    },
+    {
+     "id": "b",
+     "text": "nominative plural"
+    },
+    {
+     "id": "c",
+     "text": "accusative singular"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "noun.dual"
+   ],
+   "explain": "-οιν with the article τοῖν: genitive/dative dual."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "Attic for Ionic/Koine πράσσω:",
+   "options": [
+    {
+     "id": "a",
+     "text": "πράττω"
+    },
+    {
+     "id": "b",
+     "text": "πρήσσω"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.dialects"
+   ],
+   "explain": "Attic -ττ-."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the genitive plural of ψῆφος.",
+   "lemma": "ψῆφος",
+   "cell": "gen.pl",
+   "skills": [
+    "vocab.stage2"
+   ],
+   "explain": "ψήφων.",
+   "audio": "ψήφων"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the 1st singular aorist of ἀπόλλυμι ('I lost').",
+   "lemma": "ἀπόλλυμι",
+   "cell": "aorist.active.indicative.1sg",
+   "skills": [
+    "vocab.stage2"
+   ],
+   "explain": "ἀπώλεσα: augment between prefix and verb.",
+   "audio": "ἀπώλεσα"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Δημόκριτος ἀποφεύγει.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "αἱ γὰρ πλείους ψῆφοι αὐτὸν ἀφιᾶσιν."
+  },
+  {
+   "type": "label",
+   "prompt": "Reading strategy: what do you look for first in a long sentence?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the finite verb"
+    },
+    {
+     "id": "b",
+     "text": "the first word"
+    },
+    {
+     "id": "c",
+     "text": "the longest word"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.strategy"
+   ],
+   "explain": "Verb, then subject, then objects; bracket the rest."
+  }
+ ],
+ "skills": [
+  "noun.dual",
+  "read.dialects",
+  "read.strategy",
+  "adj.agree",
+  "adj.us",
+  "noun.decl2.acc.pl",
+  "read.comprehension",
+  "read.locate",
+  "syntax.word-order",
+  "listen.words",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family",
+  "vocab.stage2"
+ ]
+}

@@ -1,0 +1,1484 @@
+{
+ "id": "10.1",
+ "title_grc": "ὁ σοφὸς ἐν τῇ ἀγορᾷ",
+ "title_en": "The wise man in the Agora",
+ "summary_grc": "ἐν τῇ ποικίλῃ στοᾷ ὁ Σωκράτης νεανίαν ἐρωτᾷ· ὁ δὲ νεανίας ὑπὸ σοφιστοῦ δεδίδακται.",
+ "summary_en": "Spring 430. Lysis and Mikion meet Socrates in the Painted Stoa. The perfect and pluperfect middle/passive (what has been done and still stands), πρίν 'before, until', and the infinitive used as a noun.",
+ "cover": "panel-10-1-b",
+ "caption_grc": "ἐν τῇ στοᾷ ἡ μάχη γέγραπται· οἱ νέοι περὶ τὸν Σωκράτη κύκλον πεποίηνται.",
+ "original": {
+  "text": "plato-apol-17a",
+  "note": "Plato, Apology 17a–c: the opening of the speech Socrates made at his trial in 399 BC, as Plato wrote it some years after the trial — about thirty years after our story. Paragraph 3 borrows its words and turns them into the kind of thing Socrates says to a young man in the Agora in 430."
+ },
+ "names": {
+  "Μαραθών": [
+   "Μαραθῶνος",
+   "Μαραθῶνι",
+   "Μαραθῶνα"
+  ]
+ },
+ "allow": {
+  "Σώκρατες": "vocative of the course name Σωκράτης",
+  "ὅτε": "unit 8",
+  "ἔφη": "unit 9",
+  "ἂν": "unit 8",
+  "εὐθὺς": "unit 8",
+  "μάχη": "unit 9",
+  "ὑπὸ": "unit 8",
+  "ὁμολογῶ": "unit 9",
+  "ἀλήθειαν": "unit 7",
+  "ὥσπερ": "unit 8",
+  "πιστεύω": "unit 8",
+  "ἐθαύμαζεν": "unit 7"
+ },
+ "story": [
+  {
+   "image": "panel-10-1-a",
+   "sentences": [
+    {
+     "text": "ἔαρ ἦν. πρὶν ἡμέραν γενέσθαι, ὁ Ἀρίστων καὶ ὁ Σύρος τὰς κύλικας εἰς τὴν ἀγορὰν ἤνεγκαν καὶ ἐν κύκλῳ ἔταξαν.",
+     "glosses": [
+      {
+       "word": "ἔαρ",
+       "kind": "en",
+       "value": "spring (430 BC)"
+      },
+      {
+       "word": "πρὶν",
+       "kind": "en",
+       "value": "before (+ infinitive)"
+      },
+      {
+       "word": "ἤνεγκαν",
+       "kind": "|",
+       "value": "φέρουσι | ἤνεγκαν (carried)"
+      },
+      {
+       "word": "κύκλῳ",
+       "kind": "pic",
+       "value": "kyklos"
+      },
+      {
+       "word": "ἔταξαν",
+       "kind": "|",
+       "value": "τάττουσι | ἔταξαν (set out in order)"
+      }
+     ]
+    },
+    {
+     "text": "ὅτε δὲ ὁ Λύσις καὶ ὁ Μικίων ἀφίκοντο, πάντα ἤδη ἐτέτακτο.",
+     "glosses": [
+      {
+       "word": "ἐτέτακτο",
+       "kind": "note",
+       "value": "pluperfect passive of τάττω: 'had been set out' — done before the boys came, and still in order"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Ἀρίστων· «ἰδού», ἔφη, «πάντα τέτακται. ὑμεῖς δὲ μὴ ἐξέλθητε ἐκ τῆς ἀγορᾶς πρὶν ἂν ἐγὼ ὑμᾶς καλέσω.»",
+     "glosses": [
+      {
+       "word": "ἰδού",
+       "kind": "en",
+       "value": "look! there!"
+      },
+      {
+       "word": "τέτακται",
+       "kind": "|",
+       "value": "ἐτάχθη (was set out) | τέτακται (has been set out, is in order now)"
+      },
+      {
+       "word": "καλέσω",
+       "kind": "note",
+       "value": "πρὶν ἂν καλέσω: 'until I call' — after a negative command about the future, πρίν takes ἄν + subjunctive"
+      }
+     ]
+    },
+    {
+     "text": "οἱ δὲ παῖδες οὐ τῶν πραγμάτων ἕνεκα ἦλθον, ἀλλὰ τοῦ ὁρᾶν ἕνεκα· εὐθὺς οὖν πρὸς τὴν ποικίλην στοὰν ἔδραμον.",
+     "glosses": [
+      {
+       "word": "πραγμάτων",
+       "kind": "en",
+       "value": "business (τὸ πρᾶγμα, τὰ πράγματα)"
+      },
+      {
+       "word": "ἕνεκα",
+       "kind": "en",
+       "value": "for the sake of (after a genitive)"
+      },
+      {
+       "word": "ὁρᾶν",
+       "kind": "note",
+       "value": "τοῦ ὁρᾶν: the article turns the infinitive into a noun, 'seeing'; genitive because of ἕνεκα"
+      },
+      {
+       "word": "ποικίλην",
+       "kind": "en",
+       "value": "painted, many-coloured"
+      },
+      {
+       "word": "στοὰν",
+       "kind": "pic",
+       "value": "stoa-poikile"
+      }
+     ]
+    },
+    {
+     "text": "ταύτην τὴν στοὰν μάλιστα φιλοῦσιν οἱ Ἀθηναῖοι· ἐν γὰρ τῷ τοίχῳ ἡ μάχη ἡ ἐν Μαραθῶνι γέγραπται.",
+     "glosses": [
+      {
+       "word": "μάλιστα",
+       "kind": "en",
+       "value": "most of all"
+      },
+      {
+       "word": "τοίχῳ",
+       "kind": "en",
+       "value": "wall (of a building)"
+      },
+      {
+       "word": "γέγραπται",
+       "kind": "|",
+       "value": "ἐγράφη (was painted) | γέγραπται (has been painted, is there now) — γράφω: write, draw, paint"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Μικίων· «τίς ἐστιν ἐκεῖνος ὁ ἀνήρ, περὶ ὃν οἱ νέοι κύκλον πεποίηνται; οὐ πάνυ καλός ἐστιν· ἡ γὰρ ῥὶς αὐτοῦ σιμή, καὶ ὑποδήματα οὐκ ἔχει.»",
+     "glosses": [
+      {
+       "word": "περὶ",
+       "kind": "en",
+       "value": "around (+ accusative)"
+      },
+      {
+       "word": "νέοι",
+       "kind": "↔",
+       "value": "γέροντες (young men)"
+      },
+      {
+       "word": "πεποίηνται",
+       "kind": "|",
+       "value": "ποιοῦνται | πεποίηνται (have made — perfect middle)"
+      },
+      {
+       "word": "πάνυ",
+       "kind": "en",
+       "value": "very; οὐ πάνυ: not at all"
+      },
+      {
+       "word": "ῥὶς",
+       "kind": "en",
+       "value": "nose"
+      },
+      {
+       "word": "σιμή",
+       "kind": "en",
+       "value": "snub, turned-up"
+      },
+      {
+       "word": "ὑποδήματα",
+       "kind": "en",
+       "value": "shoes"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λύσις· «οὗτός ἐστιν ὁ Σωκράτης, ὁ τοῦ λιθουργοῦ υἱός· δεινὸς λέγειν λέγεται.»",
+     "glosses": [
+      {
+       "word": "λιθουργοῦ",
+       "kind": "en",
+       "value": "stonemason"
+      },
+      {
+       "word": "δεινὸς",
+       "kind": "en",
+       "value": "terribly good at, clever (+ infinitive); also: terrible"
+      },
+      {
+       "word": "λέγεται",
+       "kind": "|",
+       "value": "λέγει | λέγεται (he is said)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-10-1-b",
+   "sentences": [
+    {
+     "text": "ἐν δὲ τῷ κύκλῳ ὁ Σωκράτης νεανίαν τινὰ ἠρώτα· «εἰπέ μοι, ὦ νεανία, τί ἐστι τὸ δίκαιον;»",
+     "glosses": [
+      {
+       "word": "δίκαιον",
+       "kind": "en",
+       "value": "just, right; τὸ δίκαιον: justice, what is right"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ νεανίας· «πάνυ ῥᾴδιον τὸ πρᾶγμα, ὦ Σώκρατες· ὑπὸ γὰρ σοφιστοῦ δεδίδαγμαι. δίκαιόν ἐστι τοὺς μὲν φίλους εὖ ποιεῖν, τοὺς δὲ ἐχθροὺς κακῶς.»",
+     "glosses": [
+      {
+       "word": "πρᾶγμα",
+       "kind": "en",
+       "value": "thing, matter, business"
+      },
+      {
+       "word": "ὑπὸ",
+       "kind": "en",
+       "value": "by (+ genitive: who did it)"
+      },
+      {
+       "word": "σοφιστοῦ",
+       "kind": "|",
+       "value": "ὁ σοφιστής | ὑπὸ σοφιστοῦ (a paid teacher of speaking)"
+      },
+      {
+       "word": "δεδίδαγμαι",
+       "kind": "|",
+       "value": "ἐδιδάχθην (I was taught) | δεδίδαγμαι (I have been taught)"
+      },
+      {
+       "word": "εὖ",
+       "kind": "en",
+       "value": "well"
+      },
+      {
+       "word": "ἐχθροὺς",
+       "kind": "↔",
+       "value": "φίλους"
+      },
+      {
+       "word": "κακῶς",
+       "kind": "<",
+       "value": "κακός (badly)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Σωκράτης τὸν Λύσιν εἶδε κύλικα ἔχοντα καὶ ἠρώτα· «σὺ δέ, ὦ παῖ, τίνος εἶ;» «Ἀρίστωνος τοῦ κεραμέως.»",
+     "glosses": [
+      {
+       "word": "τίνος",
+       "kind": "note",
+       "value": "τίνος εἶ; 'whose (son) are you?'"
+      }
+     ]
+    },
+    {
+     "text": "«ὁ δὲ πατήρ σου ὑπὸ τίνος τὴν τέχνην δεδίδακται;» «ὑπὸ κεραμέως τινός, παρ’ ᾧ νέος ὢν ἐπόνει.»",
+     "glosses": [
+      {
+       "word": "δεδίδακται",
+       "kind": "|",
+       "value": "δεδίδαγμαι | δεδίδακται (he has been taught)"
+      },
+      {
+       "word": "παρ’",
+       "kind": "en",
+       "value": "παρ’ ᾧ: at whose house, with whom"
+      }
+     ]
+    },
+    {
+     "text": "«καλῶς. ὁ κεραμεὺς οὖν ὑπὸ κεραμέως δεδίδακται, καὶ ὁ ἰατρὸς ὑπὸ ἰατροῦ. εἰ δὲ ὁ σοφιστὴς τὰ δίκαια διδάσκει, ἆρα αὐτὸς δίκαιός ἐστιν;»",
+     "glosses": [
+      {
+       "word": "καλῶς",
+       "kind": "<",
+       "value": "καλός (well, fine)"
+      },
+      {
+       "word": "εἰ",
+       "kind": "en",
+       "value": "if"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Σωκράτης οὐκ ἐπαύσατο ἐρωτῶν πρὶν ὁ νεανίας ὀργισθεὶς εἶπεν· «δεινὸς εἶ λέγειν, ὦ Σώκρατες.»",
+     "glosses": [
+      {
+       "word": "ἐπαύσατο",
+       "kind": "|",
+       "value": "παύεται | ἐπαύσατο (stopped)"
+      },
+      {
+       "word": "ὀργισθεὶς",
+       "kind": "en",
+       "value": "growing angry"
+      },
+      {
+       "word": "εἶπεν",
+       "kind": "note",
+       "value": "οὐκ ἐπαύσατο … πρὶν … εἶπεν: 'he did not stop until he said' — after a negative past statement, πρίν takes the indicative"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-10-1-c",
+   "sentences": [
+    {
+     "text": "ὁ δὲ Σωκράτης γελάσας· «ὑπὸ σοῦ, ὦ νεανία», ἔφη, «ὀλίγου ἐμαυτοῦ ἐπελαθόμην· οὕτως πιθανῶς ἔλεγες.»",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "γελάσας",
+       "kind": "en",
+       "value": "laughing"
+      },
+      {
+       "word": "ὀλίγου",
+       "kind": "en",
+       "value": "almost"
+      },
+      {
+       "word": "ἐμαυτοῦ",
+       "kind": "en",
+       "value": "myself (genitive)"
+      },
+      {
+       "word": "ἐπελαθόμην",
+       "kind": "en",
+       "value": "I forgot (+ genitive)"
+      },
+      {
+       "word": "οὕτως",
+       "kind": "en",
+       "value": "so, in this way"
+      },
+      {
+       "word": "πιθανῶς",
+       "kind": "en",
+       "value": "persuasively"
+      }
+     ]
+    },
+    {
+     "text": "«ἀληθὲς δὲ οὐδὲν εἴρηκας.»",
+     "orig": [
+      2
+     ],
+     "glosses": [
+      {
+       "word": "οὐδὲν",
+       "kind": "en",
+       "value": "nothing"
+      },
+      {
+       "word": "εἴρηκας",
+       "kind": "note",
+       "value": "'you have said': perfect active of λέγω (Lesson 10.2)"
+      }
+     ]
+    },
+    {
+     "text": "«εἰ μὲν δεινὸν καλεῖς τὸν τὰ ἀληθῆ λέγοντα, ὁμολογῶ· δεινός εἰμι.»",
+     "orig": [
+      4,
+      5
+     ],
+     "glosses": [
+      {
+       "word": "καλεῖς",
+       "kind": "note",
+       "value": "καλεῖς … δεινόν: 'you call … clever'"
+      }
+     ]
+    },
+    {
+     "text": "«ὑμεῖς δέ, ὦ ἄνδρες Ἀθηναῖοι, ἀκούσεσθε πᾶσαν τὴν ἀλήθειαν· οὐ μέντοι λόγους κεκοσμημένους, ὥσπερ οἱ τῶν σοφιστῶν λόγοι κεκόσμηνται.»",
+     "orig": [
+      6
+     ],
+     "glosses": [
+      {
+       "word": "ἀκούσεσθε",
+       "kind": "|",
+       "value": "ἀκούετε | ἀκούσεσθε (you will hear)"
+      },
+      {
+       "word": "μέντοι",
+       "kind": "en",
+       "value": "however"
+      },
+      {
+       "word": "κεκοσμημένους",
+       "kind": "en",
+       "value": "dressed up, adorned (perfect passive participle of κοσμέω)"
+      },
+      {
+       "word": "κεκόσμηνται",
+       "kind": "|",
+       "value": "κοσμοῦνται | κεκόσμηνται (have been dressed up)"
+      }
+     ]
+    },
+    {
+     "text": "«δίκαια γὰρ εἶναι πιστεύω ἃ λέγω, καὶ τοὺς αὐτοὺς λόγους λέγω καὶ ἐν τῇ ἀγορᾷ ἐπὶ τῶν τραπεζῶν καὶ ἐν τοῖς ἐργαστηρίοις.»",
+     "orig": [
+      6,
+      9
+     ],
+     "glosses": [
+      {
+       "word": "τραπεζῶν",
+       "kind": "note",
+       "value": "the money-changers' tables in the Agora, where people stopped to talk"
+      }
+     ]
+    },
+    {
+     "text": "οἱ δὲ νέοι ἐγέλασαν· οὗτοι γὰρ τοῦ μανθάνειν ἕνεκα τῷ Σωκράτει ἀεὶ ἕπονται.",
+     "glosses": [
+      {
+       "word": "ἐγέλασαν",
+       "kind": "en",
+       "value": "laughed"
+      },
+      {
+       "word": "μανθάνειν",
+       "kind": "note",
+       "value": "τοῦ μανθάνειν ἕνεκα: 'for the sake of learning'"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λύσις τὸν Σωκράτη μάλιστα ἐθαύμαζεν· καὶ ἐκ τούτου τὸ ἐρωτᾶν ἐφίλει.",
+     "glosses": [
+      {
+       "word": "ἐθαύμαζεν",
+       "kind": "en",
+       "value": "admired, wondered at"
+      },
+      {
+       "word": "ἐρωτᾶν",
+       "kind": "note",
+       "value": "τὸ ἐρωτᾶν: 'asking questions' — an infinitive used as a noun, object of ἐφίλει"
+      }
+     ]
+    },
+    {
+     "text": "οὐκ ἦλθε δὲ οἴκαδε πρὶν ὁ πατὴρ αὐτὸν ἐκάλεσεν."
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "πριν",
+   "gloss_grc": "πρὶν ἡμέραν γενέσθαι · οὐκ … πρὶν ἂν καλέσω"
+  },
+  {
+   "id": "νεος",
+   "pic": "neos",
+   "gloss_grc": "νέος ↔ γέρων"
+  },
+  {
+   "id": "δεινος",
+   "gloss_grc": "δεινὸς λέγειν: σοφὸς ἐν τοῖς λόγοις"
+  },
+  {
+   "id": "πραγμα",
+   "gloss_grc": "τὸ πρᾶγμα, τοῦ πράγματος · τὰ πράγματα"
+  },
+  {
+   "id": "κυκλος",
+   "pic": "kyklos"
+  },
+  {
+   "id": "ταττω",
+   "gloss_grc": "τάττει · ἔταξε · τέτακται"
+  },
+  {
+   "id": "πανυ",
+   "gloss_grc": "πάνυ καλός = μάλα καλός · οὐ πάνυ"
+  },
+  {
+   "id": "ενεκα",
+   "gloss_grc": "τοῦ μανθάνειν ἕνεκα"
+  },
+  {
+   "id": "μαλιστα",
+   "gloss_grc": "μάλα · μᾶλλον · μάλιστα"
+  },
+  {
+   "id": "δικαιος",
+   "gloss_grc": "δίκαιος, δικαία, δίκαιον · τὸ δίκαιον"
+  },
+  {
+   "id": "ει",
+   "gloss_grc": "εἰ βούλει: if you wish"
+  },
+  {
+   "id": "σοφιστης",
+   "gloss_grc": "ὁ σοφιστὴς μισθὸν λαμβάνει καὶ τοὺς νέους λέγειν διδάσκει"
+  },
+  {
+   "id": "γραφω",
+   "pic": "verb-graphei",
+   "gloss_grc": "γράφει · γέγραπται"
+  },
+  {
+   "id": "διδασκω",
+   "pic": "verb-didaskei",
+   "gloss_grc": "διδάσκει · δεδίδακται"
+  }
+ ],
+ "notice": [
+  "ἐν τῷ τοίχῳ ἡ μάχη γέγραπται. — πάντα τέτακται. — ὑπὸ σοφιστοῦ δεδίδαγμαι.",
+  "ὅτε ὁ Λύσις ἀφίκετο, πάντα ἤδη ἐτέτακτο.",
+  "οἱ νέοι περὶ τὸν Σωκράτη κύκλον πεποίηνται.",
+  "πρὶν ἡμέραν γενέσθαι … — μὴ ἐξέλθητε πρὶν ἂν ἐγὼ καλέσω. — οὐκ ἐπαύσατο πρὶν ὁ νεανίας εἶπεν.",
+  "τοῦ ὁρᾶν ἕνεκα — τοῦ μανθάνειν ἕνεκα — τὸ ἐρωτᾶν ἐφίλει."
+ ],
+ "grammar": {
+  "md": "**Done, and it stays done: the perfect.** ἡ μάχη **ἐγράφη** 'the battle was painted' reports an event. ἡ μάχη **γέγραπται** 'the battle *has been* painted' says that the painting is there on the wall *now*. The Greek perfect is really a present tense: it describes a **state that results from a past action**. πάντα **τέτακται** 'everything has been set out' = everything stands in order now. ὑπὸ σοφιστοῦ **δεδίδαγμαι** 'I have been taught by a sophist' = I am (he thinks) an educated man.\n\n**How it is formed.** 1. **Reduplication**: the first consonant + ε in front of the stem: λύω → **λε**-λυ-, γράφω → **γε**-γραφ-, διδάσκω → **δε**-διδαχ-, τάττω → **τε**-ταγ-, ποιέω → **πε**-ποιη-. An aspirate reduplicates with the plain stop (θύω → **τέ**-θυμαι). A verb that begins with a vowel lengthens it, like the augment (ἐρωτάω → ἠρώτηται). 2. **Endings without a linking vowel**, straight onto the stem:\n\n| | λύω | ποιέω | γράφω (stem γραφ-) |\n|---|---|---|---|\n| I | λέλυ**μαι** | πεποίη**μαι** | γέγραμμαι |\n| you | λέλυ**σαι** | πεποίη**σαι** | γέγραψαι |\n| he, she, it | λέλυ**ται** | πεποίη**ται** | γέγραπται |\n| we | λελύ**μεθα** | πεποιή**μεθα** | γεγράμμεθα |\n| you (pl.) | λέλυ**σθε** | πεποίη**σθε** | γέγραφθε |\n| they | λέλυ**νται** | πεποίη**νται** | γεγραμμένοι εἰσί(ν) |\n\nWith a consonant stem the endings change the consonant (π, β, φ + μ → μμ; + τ → πτ; κ, γ, χ + μ → γμ, + τ → κτ: τέταγμαι, τέτακται; δεδίδαγμαι, δεδίδακται), and 'they' is said with the participle + εἰσί(ν). Infinitive **-σθαι** (λελύσθαι, γεγράφθαι); participle **-μένος** with the accent always on -μέν- (λελυμένος, κεκοσμημένους).\n\nThe same forms are **middle** as well as passive: οἱ νέοι κύκλον **πεποίηνται** 'the young men have formed a circle'.\n\n**The pluperfect**: augment + perfect stem + -μην, -σο, -το, -μεθα, -σθε, -ντο. πάντα ἤδη **ἐτέτακτο** 'everything had been set out' (and was in order when the boys came). ἐλελύμην, ἐπεποίητο, ἐγέγραπτο.\n\n**πρίν.** After a positive main clause, πρίν + **infinitive** = 'before': **πρὶν** ἡμέραν **γενέσθαι** 'before it was day'. After a negative main clause πρίν means 'until' and takes a finite verb: **ἄν + subjunctive** for the future (μὴ ἐξέλθητε **πρὶν ἂν** ἐγὼ **καλέσω** 'don't leave until I call'), the **indicative** for a past fact (οὐκ ἐπαύσατο **πρὶν** ὁ νεανίας **εἶπεν** 'he didn't stop until the young man said').\n\n**The infinitive as a noun.** Put the neuter article in front of an infinitive and it becomes a noun that can stand in any case: **τὸ ἐρωτᾶν** ἐφίλει 'he loved asking questions' (accusative); **τοῦ μανθάνειν** ἕνεκα 'for the sake of learning' (genitive); ἐν **τῷ** διαλέγεσθαι 'in conversation' (dative). It keeps the verb's powers — an object, an adverb, a subject in the accusative: τὸ τοὺς φίλους εὖ ποιεῖν 'treating your friends well'. Its negative is μή.",
+  "paradigms": [
+   "luo"
+  ],
+  "diagram": "diagram-perfect"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the perfect middle/passive endings.",
+   "template": "ἐν τῇ στοᾷ ἡ μάχη γέγραπ___. ὁ ἵππος ἤδη λέλυ___. ἐγὼ ὑπὸ σοφιστοῦ πεποίη___ σοφός. ἡμεῖς κύκλον πεποιή___.",
+   "gaps": [
+    {
+     "answers": [
+      "ται"
+     ]
+    },
+    {
+     "answers": [
+      "ται"
+     ]
+    },
+    {
+     "answers": [
+      "μαι"
+     ]
+    },
+    {
+     "answers": [
+      "μεθα"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.perf.mp.ind.3sg",
+    "verb.perf.mp.ind.1sg"
+   ],
+   "explain": "γέγραπται, λέλυται (it, he: -ται; 'the horse has already been untied'); πεποίημαι (I: -μαι); πεποιήμεθα (we: -μεθα). No linking vowel between stem and ending."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἐν τῷ τοίχῳ ἡ μάχη ἡ ἐν Μαραθῶνι ___ (and is still there to see).",
+   "options": [
+    {
+     "id": "a",
+     "text": "γράφει"
+    },
+    {
+     "id": "b",
+     "text": "γέγραπται"
+    },
+    {
+     "id": "c",
+     "text": "γράφεσθαι"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "verb.perf.mp.ind.3sg"
+   ],
+   "explain": "A finished action whose result is still there: the perfect γέγραπται 'has been painted'.",
+   "audio": "ἐν τῷ τοίχῳ ἡ μάχη ἡ ἐν Μαραθῶνι γέγραπται."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὅτε οἱ παῖδες ἀφίκοντο, πάντα ἤδη ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "τέτακται"
+    },
+    {
+     "id": "b",
+     "text": "ἐτέτακτο"
+    },
+    {
+     "id": "c",
+     "text": "τάττεται"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "verb.plpf.mp.ind.3sg"
+   ],
+   "explain": "Before a past moment ('when the boys arrived'): the pluperfect ἐτέτακτο 'had been set out'. Neuter plural subjects take a singular verb.",
+   "audio": "ὅτε οἱ παῖδες ἀφίκοντο, πάντα ἤδη ἐτέτακτο."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · οἱ νέοι τοῦ μανθάνειν ___ τῷ Σωκράτει ἕπονται.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἕνεκα"
+    },
+    {
+     "id": "b",
+     "text": "πρίν"
+    },
+    {
+     "id": "c",
+     "text": "πάνυ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.articular-inf",
+    "vocab.stage2"
+   ],
+   "explain": "ἕνεκα follows a genitive: τοῦ μανθάνειν ἕνεκα 'for the sake of learning'.",
+   "audio": "οἱ νέοι τοῦ μανθάνειν ἕνεκα τῷ Σωκράτει ἕπονται."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ὁ κύκλος",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "kylix"
+    },
+    {
+     "id": "b",
+     "image": "kyklos"
+    },
+    {
+     "id": "c",
+     "image": "trochos"
+    },
+    {
+     "id": "d",
+     "image": "stoa-poikile"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "κύκλος: circle, ring (of people too). The potter's wheel is τροχός."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ὁ νέος",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "geron"
+    },
+    {
+     "id": "b",
+     "image": "neos"
+    },
+    {
+     "id": "c",
+     "image": "kerameus"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "νέος: young (and new). Its opposite is γέρων."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the perfect passive of γράφω for 'it has been painted'.",
+   "lemma": "γράφω",
+   "cell": "perfect.middle/passive.indicative.3sg",
+   "skills": [
+    "verb.perf.mp.ind.3sg",
+    "verb.perf.reduplication"
+   ],
+   "explain": "γε-γραφ-ται → γέγραπται (φ before τ becomes π).",
+   "audio": "γέγραπται"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the perfect passive of διδάσκω for 'I have been taught'.",
+   "lemma": "διδάσκω",
+   "cell": "perfect.middle/passive.indicative.1sg",
+   "skills": [
+    "verb.perf.mp.ind.1sg",
+    "verb.perf.reduplication"
+   ],
+   "explain": "δε-διδαχ-μαι → δεδίδαγμαι (χ before μ becomes γ).",
+   "audio": "δεδίδαγμαι"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the perfect middle of ποιέω for 'they have made'.",
+   "lemma": "ποιέω",
+   "cell": "perfect.middle/passive.indicative.3pl",
+   "skills": [
+    "verb.perf.mp.ind.3pl"
+   ],
+   "explain": "πε-ποιη-νται: the vowel stem takes -νται directly.",
+   "audio": "πεποίηνται"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the pluperfect passive of ποιέω for 'it had been made'.",
+   "lemma": "ποιέω",
+   "cell": "pluperfect.middle/passive.indicative.3sg",
+   "skills": [
+    "verb.plpf.mp.ind.3sg"
+   ],
+   "explain": "ἐ-πε-ποίη-το: augment + perfect stem + -το.",
+   "audio": "ἐπεποίητο"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse τέτακται.",
+   "form": "τέτακται",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Who?",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "I"
+      },
+      {
+       "id": "3sg",
+       "label": "he / she / it"
+      },
+      {
+       "id": "3pl",
+       "label": "they"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "perf",
+    "person": "3sg"
+   },
+   "skills": [
+    "verb.perf.mp.ind.3sg",
+    "verb.perf.reduplication"
+   ],
+   "explain": "τε- reduplication, no augment, -ται: perfect, 'it has been set out'.",
+   "audio": "τέτακται"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἐτέτακτο.",
+   "form": "ἐτέτακτο",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "voice",
+     "label": "Voice",
+     "options": [
+      {
+       "id": "act",
+       "label": "active"
+      },
+      {
+       "id": "mp",
+       "label": "middle / passive"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "plpf",
+    "voice": "mp"
+   },
+   "skills": [
+    "verb.plpf.mp.ind.3sg"
+   ],
+   "explain": "Augment ἐ- + reduplication τε- + -το: pluperfect middle/passive, 'had been set out'.",
+   "audio": "ἐτέτακτο"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "___ ἡμέραν γενέσθαι, ὁ Ἀρίστων τὰς κύλικας ἔταξεν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "πρίν"
+    },
+    {
+     "id": "b",
+     "text": "ἕνεκα"
+    },
+    {
+     "id": "c",
+     "text": "οὕτως"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.prin"
+   ],
+   "explain": "πρίν + infinitive (with its subject in the accusative): 'before it became day'."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "Which πρίν? — μὴ ἐξέλθητε ἐκ τῆς ἀγορᾶς πρὶν ___ ἐγὼ ὑμᾶς καλέσω.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἂν (+ subjunctive): a future 'until'"
+    },
+    {
+     "id": "b",
+     "text": "nothing (+ infinitive): 'before'"
+    },
+    {
+     "id": "c",
+     "text": "ὅτι: 'that'"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.prin"
+   ],
+   "explain": "The main clause is negative and looks to the future, so πρὶν ἂν + subjunctive: 'until I call you'."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "Which πρίν? — ὁ Σωκράτης οὐκ ἐπαύσατο ἐρωτῶν πρὶν ὁ νεανίας ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "εἶπεν"
+    },
+    {
+     "id": "b",
+     "text": "εἰπεῖν"
+    },
+    {
+     "id": "c",
+     "text": "εἴπῃ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.prin"
+   ],
+   "explain": "Negative main clause, a real past event: πρίν + indicative, 'until the young man said'."
+  },
+  {
+   "type": "label",
+   "prompt": "In ὁ Λύσις τὸ ἐρωτᾶν ἐφίλει, what is τὸ ἐρωτᾶν?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the object of ἐφίλει: an infinitive used as a noun"
+    },
+    {
+     "id": "b",
+     "text": "the subject of the sentence"
+    },
+    {
+     "id": "c",
+     "text": "a command"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.articular-inf"
+   ],
+   "explain": "The neuter article makes the infinitive a noun: 'Lysis loved asking questions'."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make it a result that stands now (perfect): ἡ μάχη ἐγράφη. → ἡ μάχη …",
+   "template": "ἡ μάχη ___.",
+   "gaps": [
+    {
+     "answers": [
+      "γέγραπται"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.perf.mp.ind.3sg"
+   ],
+   "explain": "ἐγράφη 'was painted' → γέγραπται 'has been painted (and is there)'.",
+   "audio": "ἡ μάχη γέγραπται."
+  },
+  {
+   "type": "transform",
+   "prompt": "Put it before a past moment (pluperfect): τὸ δεῖπνον πεποίηται. → τὸ δεῖπνον ἤδη …",
+   "template": "τὸ δεῖπνον ἤδη ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἐπεποίητο"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.plpf.mp.ind.3sg"
+   ],
+   "explain": "πεποίηται → ἐπεποίητο: add the augment and the secondary ending -το.",
+   "audio": "τὸ δεῖπνον ἤδη ἐπεποίητο."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every verb in the perfect or pluperfect.",
+   "sentence": "ὅτε δὲ οἱ παῖδες ἀφίκοντο, πάντα ἤδη ἐτέτακτο· ἐν γὰρ τῷ τοίχῳ ἡ μάχη γέγραπται.",
+   "answer": [
+    7,
+    14
+   ],
+   "skills": [
+    "read.locate",
+    "verb.plpf.mp.ind.3sg",
+    "verb.perf.mp.ind.3sg"
+   ],
+   "explain": "ἐτέτακτο (pluperfect) and γέγραπται (perfect). ἀφίκοντο is an aorist."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the infinitive that is used as a noun (with its article).",
+   "sentence": "οἱ δὲ παῖδες οὐ τῶν πραγμάτων ἕνεκα ἦλθον, ἀλλὰ τοῦ ὁρᾶν ἕνεκα.",
+   "answer": [
+    9,
+    10
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.articular-inf"
+   ],
+   "explain": "τοῦ ὁρᾶν: article + infinitive, genitive with ἕνεκα, 'for the sake of seeing'."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'I have been taught by a sophist.'",
+   "tokens": [
+    "σοφιστοῦ",
+    "ὑπὸ",
+    "δεδίδαγμαι"
+   ],
+   "answers": [
+    "ὑπὸ σοφιστοῦ δεδίδαγμαι",
+    "δεδίδαγμαι ὑπὸ σοφιστοῦ"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "syntax.agent",
+    "verb.perf.mp.ind.1sg"
+   ],
+   "explain": "ὑπὸ σοφιστοῦ δεδίδαγμαι: ὑπό + genitive names the agent."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "audio": "οἱ νέοι περὶ τὸν Σωκράτη κύκλον πεποίηνται.",
+   "options": [
+    {
+     "id": "a",
+     "text": "οἱ νέοι περὶ τὸν Σωκράτη κύκλον ποιοῦνται."
+    },
+    {
+     "id": "b",
+     "text": "οἱ νέοι περὶ τὸν Σωκράτη κύκλον πεποίηνται."
+    },
+    {
+     "id": "c",
+     "text": "οἱ γέροντες περὶ τὸν Σωκράτη κύκλον πεποίηνται."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "listen.sentences",
+    "verb.perf.mp.ind.3pl"
+   ],
+   "explain": "'The young men have formed a circle round Socrates.'"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Σωκράτης καλός ἐστι καὶ καλὰ ὑποδήματα ἔχει.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "οὐ πάνυ καλός ἐστιν … καὶ ὑποδήματα οὐκ ἔχει."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ νεανίας ὑπὸ σοφιστοῦ δεδίδακται.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension",
+    "verb.perf.mp.ind.3sg"
+   ],
+   "explain": "ὑπὸ γὰρ σοφιστοῦ δεδίδαγμαι, he says."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Λύσις οἴκαδε ἦλθε πρὶν ὁ πατὴρ αὐτὸν ἐκάλεσεν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension",
+    "syntax.prin"
+   ],
+   "explain": "οὐκ ἦλθε οἴκαδε πρὶν ὁ πατὴρ αὐτὸν ἐκάλεσεν: he did not go home until his father called him."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "audio": "πάντα τέτακται.",
+   "gaps": [
+    {
+     "answers": [
+      "πάντα τέτακται"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "πάντα τέτακται: everything has been set out."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The battle has been painted on the wall.' (ὁ τοῖχος: wall)",
+   "gaps": [
+    {
+     "answers": [
+      "ἡ μάχη ἐν τῷ τοίχῳ γέγραπται",
+      "ἐν τῷ τοίχῳ ἡ μάχη γέγραπται",
+      "ἡ μάχη γέγραπται ἐν τῷ τοίχῳ",
+      "ἐν τῷ τοίχῳ γέγραπται ἡ μάχη"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.perf.mp.ind.3sg"
+   ],
+   "explain": "ἡ μάχη ἐν τῷ τοίχῳ γέγραπται."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Before going home, Lysis listened to Socrates.' (use πρίν + ἐλθεῖν)",
+   "gaps": [
+    {
+     "answers": [
+      "πρὶν οἴκαδε ἐλθεῖν ὁ Λύσις τοῦ Σωκράτους ἤκουσεν",
+      "πρὶν οἴκαδε ἐλθεῖν ὁ Λύσις ἤκουσε τοῦ Σωκράτους",
+      "ὁ Λύσις πρὶν οἴκαδε ἐλθεῖν τοῦ Σωκράτους ἤκουσεν",
+      "ὁ Λύσις τοῦ Σωκράτους ἤκουσε πρὶν οἴκαδε ἐλθεῖν",
+      "πρὶν ἐλθεῖν οἴκαδε ὁ Λύσις τοῦ Σωκράτους ἤκουσεν"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.prin"
+   ],
+   "explain": "πρὶν οἴκαδε ἐλθεῖν, ὁ Λύσις τοῦ Σωκράτους ἤκουσεν (ἀκούω + genitive of the person)."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: ὑμεῖς δέ, ὦ ἄνδρες Ἀθηναῖοι, ἀκούσεσθε πᾶσαν τὴν ἀλήθειαν· οὐ μέντοι λόγους κεκοσμημένους.",
+   "audio": "ὑμεῖς δέ, ὦ ἄνδρες Ἀθηναῖοι, ἀκούσεσθε πᾶσαν τὴν ἀλήθειαν· οὐ μέντοι λόγους κεκοσμημένους.",
+   "model": "But you, men of Athens, will hear the whole truth from me — not, however, speeches dressed up in fine words.",
+   "skills": [
+    "read.comprehension",
+    "read.plato",
+    "read.adapted-text"
+   ],
+   "explain": "Nearly Plato's own words (Apology 17b–c). κεκοσμημένους is a perfect passive participle: 'having been adorned'."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "κύκλος",
+     "right": "cycle, bicycle"
+    },
+    {
+     "left": "πρᾶγμα",
+     "right": "pragmatic"
+    },
+    {
+     "left": "δεινός",
+     "right": "dinosaur ('terrible lizard')"
+    },
+    {
+     "left": "νέος",
+     "right": "neon, neolithic"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "κύκλος → cycle; πρᾶγμα 'deed, business' → pragmatic; δεινὸς σαῦρος → dinosaur; νέος 'new' → neon (the 'new' gas), neolithic ('new stone')."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐν τῷ τοίχῳ τῆς στοᾶς γέγραπται;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἡ μάχη ἡ ἐν Μαραθῶνι."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Σωκράτης καὶ οἱ νέοι."
+    },
+    {
+     "id": "c",
+     "text": "αἱ κύλικες τοῦ Ἀρίστωνος."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "verb.perf.mp.ind.3sg"
+   ],
+   "explain": "ἐν γὰρ τῷ τοίχῳ ἡ μάχη ἡ ἐν Μαραθῶνι γέγραπται."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίνος ἕνεκα οἱ παῖδες εἰς τὴν ἀγορὰν ἦλθον;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "τῶν πραγμάτων ἕνεκα."
+    },
+    {
+     "id": "b",
+     "text": "τοῦ ὁρᾶν ἕνεκα."
+    },
+    {
+     "id": "c",
+     "text": "τοῦ πονεῖν ἕνεκα."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "syntax.articular-inf"
+   ],
+   "explain": "οὐ τῶν πραγμάτων ἕνεκα ἦλθον, ἀλλὰ τοῦ ὁρᾶν ἕνεκα."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "ὑπὸ τίνος ὁ Ἀρίστων τὴν τέχνην δεδίδακται;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὑπὸ σοφιστοῦ."
+    },
+    {
+     "id": "b",
+     "text": "ὑπὸ τοῦ Σωκράτους."
+    },
+    {
+     "id": "c",
+     "text": "ὑπὸ κεραμέως τινός."
+    }
+   ],
+   "answer": "c",
+   "skills": [
+    "read.comprehension",
+    "syntax.agent"
+   ],
+   "explain": "ὑπὸ κεραμέως τινός, παρ’ ᾧ νέος ὢν ἐπόνει."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐστι τὸ δίκαιον, ὡς ὁ νεανίας λέγει;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "τοὺς μὲν φίλους εὖ ποιεῖν, τοὺς δὲ ἐχθροὺς κακῶς."
+    },
+    {
+     "id": "b",
+     "text": "τὰ ἀληθῆ λέγειν."
+    },
+    {
+     "id": "c",
+     "text": "τοῖς θεοῖς θύειν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "The young man's answer, learnt from a sophist. Socrates' questions show he cannot defend it."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "πῶς λέγει ὁ Σωκράτης· ἆρα λόγοις κεκοσμημένοις;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ναί, ὥσπερ οἱ σοφισταί."
+    },
+    {
+     "id": "b",
+     "text": "οὔ· τοὺς αὐτοὺς λόγους λέγει καὶ ἐν τῇ ἀγορᾷ καὶ ἐν τοῖς ἐργαστηρίοις."
+    },
+    {
+     "id": "c",
+     "text": "οὐδὲν λέγει."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "read.plato"
+   ],
+   "explain": "He says the same plain words everywhere — as Plato makes him say at his trial."
+  }
+ ],
+ "culture": {
+  "title": "Socrates and the Painted Stoa",
+  "md": "**Socrates** son of Sophroniscus, of the deme Alopeke, was born in 470 or 469 BC, so in the spring of 430 he was about forty. His father is said to have been a stonemason or sculptor, his mother Phainarete a midwife. He wrote nothing: we know him from his pupils Plato and Xenophon, who wrote after his death, and from Aristophanes, who mocked him on stage in the *Clouds* in 423. All agree on the face — snub nose, bulging eyes, thick lips — and on the bare feet and the old cloak. And on the method: short questions, examples from shoemakers, carpenters, doctors and potters, and a friendly refusal to let a vague answer stand.\n\nHe talked wherever people gathered: the gymnasia, the workshops round the Agora (the house of a shoemaker, Simon, has been found there, with hobnails and a cup inscribed with his name), and the colonnades. The **Stoa Poikile**, the 'Painted Stoa' on the north side of the Agora, had been built about thirty years earlier; its wooden panels, by Polygnotus, Mikon and Panainos, showed the battle of Marathon, the sack of Troy and the Athenians fighting the Amazons. Anyone could walk in and stand in the shade. A century later the philosopher Zeno taught there, and his followers were called 'Stoics' after it.\n\nOne honest caution: in these very years Socrates served as a hoplite in the long siege of Potidaea in the north (Plato, *Symposium* and *Charmides*). Our scene imagines him at home in the Agora between campaigns. Paragraph 3 borrows the opening of Plato's *Apology*, the speech Socrates gave at his trial in 399 — thirty years later.",
+  "image": "culture-10-1-stoa"
+ },
+ "quiz": [
+  {
+   "type": "cloze-choice",
+   "prompt": "ἐν τῇ στοᾷ ἡ μάχη ___ (and the painting is there now).",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐγράφετο"
+    },
+    {
+     "id": "b",
+     "text": "γέγραπται"
+    },
+    {
+     "id": "c",
+     "text": "γράφεται"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "verb.perf.mp.ind.3sg"
+   ],
+   "explain": "The perfect: a past action whose result stands now."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the perfect passive of τάττω for 'it has been set in order'.",
+   "lemma": "τάττω",
+   "cell": "perfect.middle/passive.indicative.3sg",
+   "skills": [
+    "verb.perf.mp.ind.3sg",
+    "verb.perf.reduplication"
+   ],
+   "explain": "τε-ταγ-ται → τέτακται.",
+   "audio": "τέτακται"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the pluperfect passive of γράφω for 'it had been painted'.",
+   "lemma": "γράφω",
+   "cell": "pluperfect.middle/passive.indicative.3sg",
+   "skills": [
+    "verb.plpf.mp.ind.3sg"
+   ],
+   "explain": "ἐ-γε-γραφ-το → ἐγέγραπτο.",
+   "audio": "ἐγέγραπτο"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "οὐκ ἦλθεν οἴκαδε πρὶν ὁ πατὴρ αὐτὸν ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "καλέσαι"
+    },
+    {
+     "id": "b",
+     "text": "ἐκάλεσεν"
+    },
+    {
+     "id": "c",
+     "text": "καλέσῃ"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "syntax.prin"
+   ],
+   "explain": "Negative past main clause: πρίν + indicative, 'until his father called him'."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὁ Λύσις ___ ἐφίλει (he loved asking questions).",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὸ ἐρωτᾶν"
+    },
+    {
+     "id": "b",
+     "text": "τοῦ ἐρωτᾶν"
+    },
+    {
+     "id": "c",
+     "text": "ἐρωτῶν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.articular-inf"
+   ],
+   "explain": "Object of ἐφίλει, so the accusative article: τὸ ἐρωτᾶν."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ἡ ποικίλη στοά",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "stoa-poikile"
+    },
+    {
+     "id": "b",
+     "image": "naos"
+    },
+    {
+     "id": "c",
+     "image": "ergasterion"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "The Painted Stoa, on the north side of the Agora."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Σωκράτης δεινός ἐστι λέγειν, εἰ δεινὸν καλεῖς τὸν τὰ ἀληθῆ λέγοντα.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension",
+    "read.plato"
+   ],
+   "explain": "'If you call a man who tells the truth clever, I agree: I am clever.'"
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Everything has been set out.'",
+   "gaps": [
+    {
+     "answers": [
+      "πάντα τέτακται",
+      "τέτακται πάντα"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.perf.mp.ind.3sg"
+   ],
+   "explain": "πάντα τέτακται (neuter plural subject, singular verb)."
+  }
+ ],
+ "skills": [
+  "verb.perf.mp.ind.3sg",
+  "verb.perf.mp.ind.1sg",
+  "verb.perf.mp.ind.3pl",
+  "verb.plpf.mp.ind.3sg",
+  "verb.perf.reduplication",
+  "syntax.prin",
+  "syntax.articular-inf",
+  "syntax.agent",
+  "syntax.word-order",
+  "read.plato",
+  "read.adapted-text",
+  "read.comprehension",
+  "read.locate",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family",
+  "vocab.stage2"
+ ]
+}

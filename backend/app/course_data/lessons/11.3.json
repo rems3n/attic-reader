@@ -1,0 +1,1451 @@
+{
+ "id": "11.3",
+ "title_grc": "ἡ ἀπολογία",
+ "title_en": "The defence speech",
+ "summary_grc": "ὁ Δημόκριτος ἐν τῷ δικαστηρίῳ λέγει· «τἀληθῆ μέντοι ἐρῶ, κἀγὼ μάρτυρα παρέχομαι.»",
+ "summary_en": "Demokritos speaks against the water clock. How Greek runs words together in speech (crasis κἀγώ, elision ἀλλ’, prodelision ποῦ ’στιν), and the small particles that give a speech its tone: γε, δή, τοι, μέντοι, ἄρα, μήν, τοίνυν.",
+ "cover": "panel-11-3-b",
+ "caption_grc": "«ἐγὼ γάρ, ὦ ἄνδρες δικασταί, γεωργός εἰμι, οὐ ῥήτωρ· τἀληθῆ μέντοι ἐρῶ.»",
+ "names": {
+  "Ἀντίμαχος": [
+   "Ἀντιμάχου",
+   "Ἀντιμάχῳ",
+   "Ἀντίμαχον",
+   "Ἀντίμαχε"
+  ],
+  "Μάνης": [
+   "Μάνου",
+   "Μάνῃ",
+   "Μάνην",
+   "Μάνη"
+  ]
+ },
+ "allow": {
+  "πάρεστιν": "unit 7",
+  "ὡς": "unit 7",
+  "ἐλάττων": "unit 7",
+  "ἥκει": "unit 8",
+  "ἂν": "unit 8",
+  "πολλὰ": "unit 8",
+  "ἐκίνησε": "unit 9",
+  "ἐκίνησεν": "unit 9",
+  "παρέχομαι": "unit 9",
+  "ἕως": "unit 9",
+  "φησί": "unit 9",
+  "δίκαια": "unit 10",
+  "οἶδεν": "unit 10"
+ },
+ "story": [
+  {
+   "image": "panel-11-3-a",
+   "sentences": [
+    {
+     "text": "ἡ ἡμέρα τῆς δίκης ἥκει. πλῆθος δικαστῶν ἐν τῷ δικαστηρίῳ κάθηται.",
+     "glosses": [
+      {
+       "word": "ἥκει",
+       "kind": "en",
+       "value": "has come"
+      },
+      {
+       "word": "πλῆθος",
+       "kind": "en",
+       "value": "a crowd, a great number (τὸ πλῆθος, τοῦ πλήθους)"
+      },
+      {
+       "word": "κάθηται",
+       "kind": "en",
+       "value": "sits"
+      }
+     ]
+    },
+    {
+     "text": "ἐν μέσῳ δ’ ἡ κλεψύδρα ἕστηκεν· ὁ γὰρ λέγων λέγει ἕως ἂν τὸ ὕδωρ ῥέῃ.",
+     "glosses": [
+      {
+       "word": "μέσῳ",
+       "kind": "en",
+       "value": "ἐν μέσῳ: in the middle"
+      },
+      {
+       "word": "δ’",
+       "kind": "=",
+       "value": "δ’ = δέ (elided before a vowel)"
+      },
+      {
+       "word": "κλεψύδρα",
+       "kind": "pic",
+       "value": "klepsydra"
+      },
+      {
+       "word": "ῥέῃ",
+       "kind": "en",
+       "value": "ἕως ἂν … ῥέῃ: as long as (the water) flows"
+      }
+     ]
+    },
+    {
+     "text": "πρῶτος μὲν ὁ Ἀντίμαχος λέγει· ὁ γὰρ διώκων πρότερος λέγει. «ὁ Δημόκριτος», φησί, «τόν τ’ ὅρον ἐκίνησε καὶ τὴν ἐλαίαν μου ἔτεμεν.»",
+     "glosses": [
+      {
+       "word": "διώκων",
+       "kind": "en",
+       "value": "ὁ διώκων: the prosecutor ('the pursuer'); ὁ φεύγων: the defendant"
+      },
+      {
+       "word": "τ’",
+       "kind": "=",
+       "value": "τ’ = τε: τε … καί 'both … and'"
+      }
+     ]
+    },
+    {
+     "text": "ἔπειτα ὁ Δημόκριτος ἀνίσταται. τὸ μὲν πρῶτον φοβεῖται, ὕστερον δὲ θαρρεῖ.",
+     "glosses": [
+      {
+       "word": "ἀνίσταται",
+       "kind": "<",
+       "value": "ἀνά + ἵσταμαι: stands up"
+      },
+      {
+       "word": "θαρρεῖ",
+       "kind": "↔",
+       "value": "θαρρεῖ ↔ φοβεῖται (is confident)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-11-3-b",
+   "sentences": [
+    {
+     "text": "«ἐγὼ γάρ, ὦ ἄνδρες δικασταί, γεωργός εἰμι, οὐ ῥήτωρ· τἀληθῆ μέντοι ἐρῶ.",
+     "glosses": [
+      {
+       "word": "ῥήτωρ",
+       "kind": "en",
+       "value": "a speaker, orator"
+      },
+      {
+       "word": "τἀληθῆ",
+       "kind": "=",
+       "value": "τἀληθῆ = τὰ ἀληθῆ (crasis: two words run together)"
+      },
+      {
+       "word": "μέντοι",
+       "kind": "en",
+       "value": "however, yet"
+      },
+      {
+       "word": "ἐρῶ",
+       "kind": "|",
+       "value": "λέγω | ἐρῶ (I shall say)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ ἀγρὸς ἐμὸς ἦν καὶ τοῦ πατρός· κἀκεῖνος πολλὰ ἔτη τὸν ὅρον ἐφύλαττεν.",
+     "glosses": [
+      {
+       "word": "κἀκεῖνος",
+       "kind": "=",
+       "value": "κἀκεῖνος = καὶ ἐκεῖνος"
+      },
+      {
+       "word": "πολλὰ",
+       "kind": "en",
+       "value": "many"
+      }
+     ]
+    },
+    {
+     "text": "πέρυσι δ’ οἱ Λακεδαιμόνιοι εἰσβαλόντες πολλὰ δένδρα ἔτεμον, οὐ τἀμὰ μόνον ἀλλὰ καὶ τὰ τοῦ Ἀντιμάχου. ταῦτ’ εἶδεν ὁ Ἀρίστων, κἀγὼ μάρτυρα αὐτὸν παρέχομαι.",
+     "glosses": [
+      {
+       "word": "πέρυσι",
+       "kind": "en",
+       "value": "last year"
+      },
+      {
+       "word": "εἰσβαλόντες",
+       "kind": "<",
+       "value": "εἰς + βάλλω: having invaded"
+      },
+      {
+       "word": "τἀμὰ",
+       "kind": "=",
+       "value": "τἀμά = τὰ ἐμά (my trees)"
+      },
+      {
+       "word": "μόνον",
+       "kind": "en",
+       "value": "οὐ … μόνον ἀλλὰ καί: not only … but also"
+      },
+      {
+       "word": "ταῦτ’",
+       "kind": "=",
+       "value": "ταῦτ’ = ταῦτα"
+      },
+      {
+       "word": "κἀγὼ",
+       "kind": "=",
+       "value": "κἀγώ = καὶ ἐγώ"
+      },
+      {
+       "word": "παρέχομαι",
+       "kind": "en",
+       "value": "I produce, call (a witness)"
+      }
+     ]
+    },
+    {
+     "text": "ἆρ’ οὖν εἰκός ἐστιν ἐμὲ τὴν τοῦ γείτονος ἐλαίαν τεμεῖν, ὃν πολλὰ ἔτη φίλον εἶχον; οὐ δῆτα.",
+     "glosses": [
+      {
+       "word": "ἆρ’",
+       "kind": "=",
+       "value": "ἆρ’ = ἆρα (question)"
+      },
+      {
+       "word": "εἰκός",
+       "kind": "<",
+       "value": "ἔοικα (seem, be like) | εἰκός (likely, reasonable): εἰκός ἐστιν 'is it likely?'"
+      },
+      {
+       "word": "δῆτα",
+       "kind": "en",
+       "value": "οὐ δῆτα: certainly not"
+      }
+     ]
+    },
+    {
+     "text": "ποῦ ’στιν ὁ Μάνης, ὁ τοῦ Ἀντιμάχου δοῦλος; οὐ πάρεστιν.",
+     "glosses": [
+      {
+       "word": "’στιν",
+       "kind": "=",
+       "value": "ποῦ ’στιν = ποῦ ἐστιν (prodelision: the ἐ- is swallowed)"
+      },
+      {
+       "word": "πάρεστιν",
+       "kind": "en",
+       "value": "is present"
+      }
+     ]
+    },
+    {
+     "text": "καὶ μὴν προὐκαλεσάμην τὸν Ἀντίμαχον τὸν δοῦλον παραδοῦναι· ὁ δ’ οὐκ ἤθελεν.",
+     "glosses": [
+      {
+       "word": "μὴν",
+       "kind": "en",
+       "value": "καὶ μήν: and what is more, and besides"
+      },
+      {
+       "word": "προὐκαλεσάμην",
+       "kind": "=",
+       "value": "προὐκαλεσάμην = προ-εκαλεσάμην: I challenged"
+      },
+      {
+       "word": "παραδοῦναι",
+       "kind": "en",
+       "value": "to hand over"
+      },
+      {
+       "word": "ἤθελεν",
+       "kind": "en",
+       "value": "was willing"
+      }
+     ]
+    },
+    {
+     "text": "τί ποτ’ ἄρα ἐφοβεῖτο, ὦ ἄνδρες; τἀληθὲς δή, ὡς ἔοικεν.",
+     "glosses": [
+      {
+       "word": "ποτ’",
+       "kind": "=",
+       "value": "τί ποτ’ = τί ποτε: what on earth?"
+      },
+      {
+       "word": "ἄρα",
+       "kind": "en",
+       "value": "then, so (as it turns out)"
+      },
+      {
+       "word": "τἀληθὲς",
+       "kind": "=",
+       "value": "τἀληθές = τὸ ἀληθές"
+      },
+      {
+       "word": "δή",
+       "kind": "en",
+       "value": "clearly, indeed (stresses the word before it)"
+      },
+      {
+       "word": "ἔοικεν",
+       "kind": "en",
+       "value": "ὡς ἔοικεν: as it seems"
+      }
+     ]
+    },
+    {
+     "text": "ὁ γὰρ ἐναντίος ἄρα τὸν ὅρον ἐκίνησεν· τοῦτον γὰρ τὸν τρόπον ὁ ἀγρὸς αὐτοῦ μείζων γίγνεται, ὁ δ’ ἐμὸς ἐλάττων.",
+     "glosses": [
+      {
+       "word": "ἐναντίος",
+       "kind": "en",
+       "value": "opposite; ὁ ἐναντίος: my opponent"
+      },
+      {
+       "word": "τρόπον",
+       "kind": "en",
+       "value": "τοῦτον τὸν τρόπον: in this way"
+      },
+      {
+       "word": "ἐλάττων",
+       "kind": "↔",
+       "value": "ἐλάττων ↔ μείζων (smaller)"
+      }
+     ]
+    },
+    {
+     "text": "καὶ μὴν οὐδὲν κέρδος ἔχω, ὦ ἄνδρες· τοὐναντίον μὲν οὖν, ζημίαν.",
+     "glosses": [
+      {
+       "word": "κέρδος",
+       "kind": "en",
+       "value": "gain, profit"
+      },
+      {
+       "word": "τοὐναντίον",
+       "kind": "=",
+       "value": "τοὐναντίον = τὸ ἐναντίον: the opposite; μὲν οὖν 'no, rather'"
+      },
+      {
+       "word": "ζημίαν",
+       "kind": "↔",
+       "value": "ζημία ↔ κέρδος (loss)"
+      }
+     ]
+    },
+    {
+     "text": "ὑμεῖς τοίνυν, ὦ ἄνδρες δικασταί, τὰ δίκαια ψηφίσασθε. εἴρηκα.»",
+     "glosses": [
+      {
+       "word": "τοίνυν",
+       "kind": "en",
+       "value": "well then, so"
+      },
+      {
+       "word": "δίκαια",
+       "kind": "en",
+       "value": "just, right"
+      },
+      {
+       "word": "ψηφίσασθε",
+       "kind": "en",
+       "value": "vote! (ψηφίζομαι < ἡ ψῆφος, the voting pebble)"
+      },
+      {
+       "word": "εἴρηκα",
+       "kind": "en",
+       "value": "I have spoken (the usual last word of a speech)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-11-3-c",
+   "sentences": [
+    {
+     "text": "τὸ δὲ πλῆθος θορυβεῖ· οἱ μὲν γελῶσιν, οἱ δὲ βοῶσιν· «εὖ γε!»",
+     "glosses": [
+      {
+       "word": "θορυβεῖ",
+       "kind": "en",
+       "value": "makes an uproar (jurors shouted freely)"
+      },
+      {
+       "word": "γελῶσιν",
+       "kind": "en",
+       "value": "laugh"
+      },
+      {
+       "word": "εὖ",
+       "kind": "en",
+       "value": "well; εὖ γε! 'well said!'"
+      },
+      {
+       "word": "γε",
+       "kind": "en",
+       "value": "at least, indeed (stresses the word before it)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δ’ ἐναντίος ὀργίζεται· «ψεύδῃ, ὦ Δημόκριτε!» ὁ δὲ Δημόκριτος· «ψεύδομαι δή, ὦ ’γαθέ; ἀλλ’ ὁ μάρτυς τοι ταὐτὰ λέγει.»",
+     "glosses": [
+      {
+       "word": "ὀργίζεται",
+       "kind": "en",
+       "value": "is angry"
+      },
+      {
+       "word": "ψεύδῃ",
+       "kind": "en",
+       "value": "you are lying (ψεύδομαι)"
+      },
+      {
+       "word": "ψεύδομαι",
+       "kind": "en",
+       "value": "ψεύδομαι δή; 'I am lying, am I?'"
+      },
+      {
+       "word": "’γαθέ",
+       "kind": "=",
+       "value": "ὦ ’γαθέ = ὦ ἀγαθέ: my good man (prodelision)"
+      },
+      {
+       "word": "τοι",
+       "kind": "en",
+       "value": "you know, mind you"
+      },
+      {
+       "word": "ταὐτὰ",
+       "kind": "=",
+       "value": "ταὐτά = τὰ αὐτά: the same things"
+      }
+     ]
+    },
+    {
+     "text": "τὸ δ’ ὕδωρ τῆς κλεψύδρας ἤδη τελευτᾷ.",
+     "glosses": [
+      {
+       "word": "κλεψύδρας",
+       "kind": "|",
+       "value": "ἡ κλεψύδρα | τῆς κλεψύδρας"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λύσις πρὸς τὸν Μικίωνα· «εὖ τοι λέγει ὁ Δημόκριτος· ῥήτορι ἔοικε, οὐ γεωργῷ.»",
+     "glosses": [
+      {
+       "word": "ῥήτορι",
+       "kind": "|",
+       "value": "ὁ ῥήτωρ | τῷ ῥήτορι (an orator)"
+      },
+      {
+       "word": "ἔοικε",
+       "kind": "en",
+       "value": "is like, resembles (+ dative)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Μικίων· «τὸν αὐτὸν μέντοι τρόπον καὶ ἐν τῇ ἐκκλησίᾳ λέγει, καὶ μακρῶς.»",
+     "glosses": [
+      {
+       "word": "ἐκκλησίᾳ",
+       "kind": "en",
+       "value": "the Assembly"
+      },
+      {
+       "word": "μακρῶς",
+       "kind": "<",
+       "value": "μακρός: at length"
+      }
+     ]
+    },
+    {
+     "text": "«τί τοίνυν ψηφιοῦνται οἱ δικασταί;» «τοῦτό γε οὐδεὶς οἶδεν.»",
+     "glosses": [
+      {
+       "word": "ψηφιοῦνται",
+       "kind": "en",
+       "value": "will vote (ψηφίζομαι)"
+      },
+      {
+       "word": "οἶδεν",
+       "kind": "en",
+       "value": "knows"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "γε",
+   "gloss_grc": "εὖ γε! · τοῦτό γε"
+  },
+  {
+   "id": "δη",
+   "gloss_grc": "τἀληθὲς δή · νῦν δή"
+  },
+  {
+   "id": "τοι",
+   "gloss_grc": "εὖ τοι λέγει"
+  },
+  {
+   "id": "μεντοι",
+   "gloss_grc": "γεωργός εἰμι· τἀληθῆ μέντοι ἐρῶ"
+  },
+  {
+   "id": "αρα",
+   "gloss_grc": "τί ποτ’ ἄρα ἐφοβεῖτο; (≠ ἆρα;)"
+  },
+  {
+   "id": "μην",
+   "gloss_grc": "καὶ μήν"
+  },
+  {
+   "id": "τοινυν",
+   "gloss_grc": "ὑμεῖς τοίνυν ψηφίσασθε"
+  },
+  {
+   "id": "τροπος",
+   "gloss_grc": "τοῦτον τὸν τρόπον"
+  },
+  {
+   "id": "εοικα",
+   "gloss_grc": "ὡς ἔοικεν · εἰκός ἐστιν · ῥήτορι ἔοικε"
+  },
+  {
+   "id": "πληθος",
+   "pic": "dikasterion",
+   "gloss_grc": "τὸ πλῆθος · τοῦ πλήθους"
+  },
+  {
+   "id": "ευ",
+   "gloss_grc": "εὖ ↔ κακῶς"
+  },
+  {
+   "id": "εναντιος",
+   "gloss_grc": "ὁ ἐναντίος · τοὐναντίον"
+  }
+ ],
+ "notice": [
+  "τἀληθῆ = τὰ ἀληθῆ · κἀγώ = καὶ ἐγώ · κἀκεῖνος = καὶ ἐκεῖνος · τοὐναντίον = τὸ ἐναντίον · ταὐτά = τὰ αὐτά",
+  "ταῦτ’ εἶδεν · τί ποτ’ ἄρα; · ἆρ’ οὖν; · ὁ δ’ Ἀντίμαχος · ἀλλ’ ὁ μάρτυς",
+  "ποῦ ’στιν ὁ Μάνης; — ψεύδομαι δή, ὦ ’γαθέ;",
+  "γεωργός εἰμι· τἀληθῆ μέντοι ἐρῶ. — τί ποτ’ ἄρα ἐφοβεῖτο; τἀληθὲς δή.",
+  "καὶ μὴν οὐδὲν κέρδος ἔχω. — ὑμεῖς τοίνυν ψηφίσασθε. — εὖ γε! — εὖ τοι λέγει."
+ ],
+ "grammar": {
+  "md": "Spoken Greek runs words together, and written Greek often shows it. There are three ways; in each, *undo* the change to read the word.\n\n**Crasis** ('mixing'): a word ending in a vowel melts into the next word beginning with a vowel. The mark over the new vowel, the **coronis** (κ**ἀ**γώ), looks exactly like a smooth breathing.\n\n| written | = | |\n|---|---|---|\n| κἀγώ | καὶ ἐγώ | and I |\n| κἀκεῖνος | καὶ ἐκεῖνος | and he |\n| κἄν | καὶ ἄν / καὶ ἐάν | even if |\n| τἀληθῆ, τἀληθές | τὰ ἀληθῆ, τὸ ἀληθές | the truth |\n| τἀμά | τὰ ἐμά | my things |\n| ταὐτά, ταὐτό(ν) | τὰ αὐτά, τὸ αὐτό | the same |\n| τοὔνομα | τὸ ὄνομα | the name |\n| τοὐναντίον | τὸ ἐναντίον | the opposite |\n| προὐκαλεσάμην | προ-εκαλεσάμην | I challenged |\n\nMost crasis is **καί** or **the article** + a word in α-, ε-, ο-. If the second word had a rough breathing, the consonant before it becomes aspirated: τὸ ἱμάτιον → θοἰμάτιον, καὶ ὁ → χὠ.\n\n**Elision**: a short final vowel (-α, -ε, -ο, and -ι in most words) drops before a vowel, and an apostrophe marks the gap: ἀλλ’ ἐγώ (ἀλλά), ὁ δ’ Ἀντίμαχος (δέ), ταῦτ’ εἶδεν (ταῦτα), ἆρ’ οὖν (ἆρα), τί ποτ’ (ποτε), τόν τ’ ὅρον (τε). Before a rough breathing π, τ, κ become φ, θ, χ: ἐπ’ ἐμοί but **ἐφ’** ἡμῖν, κατ’ αὐτόν but **καθ’** ἡμέραν, ἀπ’ ἀγροῦ but **ἀφ’** ἑαυτοῦ. The -ι of περί, πρό and ὅτι is never elided.\n\n**Prodelision**: the *second* word loses its first vowel, usually ἐ- after a long vowel: ποῦ **’στιν** (ἐστιν), ὦ **’γαθέ** (ἀγαθέ). It is rarer; you will meet it in dialogue and comedy.\n\nThe voice reads these as they are written, as Athenians said them.\n\n**Particles.** Speeches and dialogue are full of short words that give tone rather than content. Most stand second in their clause (postpositive):\n\n| particle | force | example |\n|---|---|---|\n| **γε** (enclitic) | *at least, indeed*: stresses the word before | εὖ γε! 'well said!'; τοῦτό γε 'this at least' |\n| **δή** | *clearly, now, indeed*: stresses the word before | τἀληθὲς δή 'the truth, obviously'; ψεύδομαι δή; 'I'm lying, am I?' |\n| **τοι** (enclitic) | *you know, mind you*: presses a point on the listener | εὖ τοι λέγει 'he speaks well, you know' |\n| **μέντοι** | *however, yet; certainly* | τἀληθῆ μέντοι ἐρῶ 'yet I will tell the truth' |\n| **οὖν** | *so, therefore*; μὲν οὖν *well then* or *no, rather* | τοὐναντίον μὲν οὖν 'no, the opposite' |\n| **ἄρα** | *then, so (as it turns out)* | τί ποτ’ ἄρα ἐφοβεῖτο; 'what then was he afraid of?' |\n| **μήν** | strengthens; καὶ μήν *and what is more* | καὶ μὴν προὐκαλεσάμην 'and besides, I challenged him' |\n| **τοίνυν** | *well then, so* (drawing a conclusion) | ὑμεῖς τοίνυν ψηφίσασθε |\n\nDo not confuse **ἄρα** 'then' (smooth breathing, no circumflex) with **ἆρα** which opens a question. Translate particles with tone of voice as often as with words.",
+  "paradigms": [],
+  "diagram": "diagram-crasis-elision"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Undo the crasis: write the missing word.",
+   "template": "κἀγώ = ___ ἐγώ. τἀληθῆ = τὰ ___. τοὐναντίον = τὸ ___. ταὐτά = τὰ ___.",
+   "gaps": [
+    {
+     "answers": [
+      "καὶ",
+      "καί"
+     ]
+    },
+    {
+     "answers": [
+      "ἀληθῆ"
+     ]
+    },
+    {
+     "answers": [
+      "ἐναντίον"
+     ]
+    },
+    {
+     "answers": [
+      "αὐτά",
+      "αὐτὰ"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.crasis"
+   ],
+   "explain": "κἀγώ = καὶ ἐγώ; τἀληθῆ = τὰ ἀληθῆ; τοὐναντίον = τὸ ἐναντίον; ταὐτά = τὰ αὐτά."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · γεωργός εἰμι, οὐ ῥήτωρ· τἀληθῆ ___ ἐρῶ. (however)",
+   "options": [
+    {
+     "id": "a",
+     "text": "μέντοι"
+    },
+    {
+     "id": "b",
+     "text": "τοίνυν"
+    },
+    {
+     "id": "c",
+     "text": "ἄρα"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.particles"
+   ],
+   "explain": "μέντοι 'however, yet': a farmer, not an orator, but he will tell the truth.",
+   "audio": "γεωργός εἰμι, οὐ ῥήτωρ· τἀληθῆ μέντοι ἐρῶ."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὑμεῖς ___, ὦ ἄνδρες δικασταί, τὰ δίκαια ψηφίσασθε. (well then)",
+   "options": [
+    {
+     "id": "a",
+     "text": "μέντοι"
+    },
+    {
+     "id": "b",
+     "text": "τοίνυν"
+    },
+    {
+     "id": "c",
+     "text": "γε"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "syntax.particles"
+   ],
+   "explain": "τοίνυν draws the conclusion: 'well then, vote justly'.",
+   "audio": "ὑμεῖς τοίνυν, ὦ ἄνδρες δικασταί, τὰ δίκαια ψηφίσασθε."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · τί ποτ’ ___ ἐφοβεῖτο; (what then was he afraid of?)",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἄρα"
+    },
+    {
+     "id": "b",
+     "text": "ἆρα"
+    },
+    {
+     "id": "c",
+     "text": "μήν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.particles"
+   ],
+   "explain": "ἄρα 'then, so it turns out'. ἆρα (circumflex) would open a yes/no question.",
+   "audio": "τί ποτ’ ἄρα ἐφοβεῖτο;"
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ἡ κλεψύδρα",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "hydria"
+    },
+    {
+     "id": "b",
+     "image": "klepsydra"
+    },
+    {
+     "id": "c",
+     "image": "krene"
+    },
+    {
+     "id": "d",
+     "image": "kylix"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ἡ κλεψύδρα 'water-thief': the water clock that timed each speech."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "audio": "κἀγὼ μάρτυρα παρέχομαι.",
+   "options": [
+    {
+     "id": "a",
+     "text": "κἀγὼ μάρτυρα παρέχομαι."
+    },
+    {
+     "id": "b",
+     "text": "ἐγὼ μάρτυρα παρέχομαι."
+    },
+    {
+     "id": "c",
+     "text": "κἀκεῖνος μάρτυρα παρέχεται."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences",
+    "spell.crasis"
+   ],
+   "explain": "κἀγώ = καὶ ἐγώ: 'and I produce a witness'."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the 3rd singular of ἔοικα ('he is like, it seems').",
+   "lemma": "ἔοικα",
+   "cell": "perfect.active.indicative.3sg",
+   "skills": [
+    "vocab.stage2"
+   ],
+   "explain": "ἔοικε(ν): ὡς ἔοικεν 'as it seems'. ἔοικα is a perfect with present meaning.",
+   "audio": "ἔοικεν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the genitive singular of πλῆθος.",
+   "lemma": "πλῆθος",
+   "cell": "gen.sg",
+   "skills": [
+    "vocab.stage2",
+    "noun.decl3.sigma"
+   ],
+   "explain": "πλήθους, like γένους.",
+   "audio": "πλήθους"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the accusative singular of τρόπος (as in 'in this way').",
+   "lemma": "τρόπος",
+   "cell": "acc.sg",
+   "skills": [
+    "vocab.stage2"
+   ],
+   "explain": "τοῦτον τὸν τρόπον: accusative of manner.",
+   "audio": "τρόπον"
+  },
+  {
+   "type": "parse",
+   "prompt": "What is κἀγώ?",
+   "form": "κἀγώ",
+   "groups": [
+    {
+     "id": "first",
+     "label": "First word",
+     "options": [
+      {
+       "id": "kai",
+       "label": "καί"
+      },
+      {
+       "id": "kata",
+       "label": "κατά"
+      },
+      {
+       "id": "ka",
+       "label": "κἄν"
+      }
+     ]
+    },
+    {
+     "id": "second",
+     "label": "Second word",
+     "options": [
+      {
+       "id": "ego",
+       "label": "ἐγώ"
+      },
+      {
+       "id": "agō",
+       "label": "ἄγω"
+      }
+     ]
+    },
+    {
+     "id": "mark",
+     "label": "The mark over α is …",
+     "options": [
+      {
+       "id": "coronis",
+       "label": "a coronis (crasis)"
+      },
+      {
+       "id": "breathing",
+       "label": "a smooth breathing"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "first": "kai",
+    "second": "ego",
+    "mark": "coronis"
+   },
+   "skills": [
+    "spell.crasis"
+   ],
+   "explain": "καὶ ἐγώ → κἀγώ; the coronis looks like a smooth breathing but sits inside the word.",
+   "audio": "κἀγώ"
+  },
+  {
+   "type": "parse",
+   "prompt": "What is ταῦτ’ in: ταῦτ’ εἶδεν ὁ Ἀρίστων?",
+   "form": "ταῦτ’",
+   "groups": [
+    {
+     "id": "full",
+     "label": "Full form",
+     "options": [
+      {
+       "id": "tauta",
+       "label": "ταῦτα"
+      },
+      {
+       "id": "taute",
+       "label": "ταύτῃ"
+      },
+      {
+       "id": "touto",
+       "label": "τοῦτο"
+      }
+     ]
+    },
+    {
+     "id": "change",
+     "label": "What happened?",
+     "options": [
+      {
+       "id": "elision",
+       "label": "elision: the final vowel dropped before a vowel"
+      },
+      {
+       "id": "crasis",
+       "label": "crasis: two words merged"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "full": "tauta",
+    "change": "elision"
+   },
+   "skills": [
+    "spell.elision"
+   ],
+   "explain": "ταῦτα before εἶδεν loses its -α: ταῦτ’.",
+   "audio": "ταῦτ’ εἶδεν"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "Elide ἐπί before ἡμῖν: ___ ἡμῖν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐπ’"
+    },
+    {
+     "id": "b",
+     "text": "ἐφ’"
+    },
+    {
+     "id": "c",
+     "text": "ἐπὶ’"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "spell.elision"
+   ],
+   "explain": "Before a rough breathing the π becomes φ: ἐφ’ ἡμῖν (as καθ’ ἡμέραν, ἀφ’ ἑαυτοῦ)."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "τὸ ὄνομα, run together: ___",
+   "options": [
+    {
+     "id": "a",
+     "text": "τοὔνομα"
+    },
+    {
+     "id": "b",
+     "text": "τ’ ὄνομα"
+    },
+    {
+     "id": "c",
+     "text": "τὸ ’νομα"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "spell.crasis"
+   ],
+   "explain": "ο + ο → ου: τοὔνομα, with the coronis."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ποῦ ἐστιν ὁ Μάνης; with prodelision: ___ ὁ Μάνης;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ποῦ ’στιν"
+    },
+    {
+     "id": "b",
+     "text": "ποῦ’ ἐστιν"
+    },
+    {
+     "id": "c",
+     "text": "πο’ ἐστιν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "spell.elision"
+   ],
+   "explain": "Prodelision removes the first vowel of the second word: ποῦ ’στιν."
+  },
+  {
+   "type": "label",
+   "prompt": "In «ψεύδομαι δή, ὦ ’γαθέ;» what does δή add?",
+   "options": [
+    {
+     "id": "a",
+     "text": "irony: 'Oh, so I'm lying, am I?'"
+    },
+    {
+     "id": "b",
+     "text": "a condition: 'if I am lying'"
+    },
+    {
+     "id": "c",
+     "text": "a negative: 'I am not lying'"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.particles"
+   ],
+   "explain": "δή stresses the word before; in a question it often sounds ironic."
+  },
+  {
+   "type": "label",
+   "prompt": "«ἆρ’ οὖν εἰκός ἐστιν ἐμὲ τὴν ἐλαίαν τεμεῖν;» What kind of argument is this?",
+   "options": [
+    {
+     "id": "a",
+     "text": "from likelihood (εἰκός): 'is it probable that I would do this?'"
+    },
+    {
+     "id": "b",
+     "text": "from a witness: 'Ariston saw it'"
+    },
+    {
+     "id": "c",
+     "text": "from the law: 'the law forbids it'"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.particles",
+    "read.comprehension"
+   ],
+   "explain": "Arguments from εἰκός were a favourite of Athenian speakers: what a reasonable man would or would not do."
+  },
+  {
+   "type": "transform",
+   "prompt": "Run the words together (crasis): καὶ ἐγώ → …",
+   "template": "___",
+   "gaps": [
+    {
+     "answers": [
+      "κἀγώ",
+      "κἀγὼ"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.crasis"
+   ],
+   "explain": "κἀγώ.",
+   "audio": "κἀγώ"
+  },
+  {
+   "type": "transform",
+   "prompt": "Elide: ἀλλὰ ὁ μάρτυς → … ὁ μάρτυς",
+   "template": "___ ὁ μάρτυς",
+   "gaps": [
+    {
+     "answers": [
+      "ἀλλ’",
+      "ἀλλ'",
+      "ἀλλ"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.elision"
+   ],
+   "explain": "ἀλλά loses -ά before a vowel: ἀλλ’ ὁ μάρτυς.",
+   "audio": "ἀλλ’ ὁ μάρτυς"
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every word formed by crasis.",
+   "sentence": "τἀληθῆ μέντοι ἐρῶ· κἀκεῖνος τὸν ὅρον ἐφύλαττεν, κἀγὼ μάρτυρα παρέχομαι· τοὐναντίον μὲν οὖν.",
+   "answer": [
+    0,
+    3,
+    7,
+    10
+   ],
+   "skills": [
+    "read.locate",
+    "spell.crasis"
+   ],
+   "explain": "τἀληθῆ, κἀκεῖνος, κἀγώ, τοὐναντίον."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every particle that gives tone (γε, δή, τοι, μέντοι, ἄρα, μήν, τοίνυν).",
+   "sentence": "τί ποτ’ ἄρα ἐφοβεῖτο; τἀληθὲς δή. καὶ μὴν ὁ μάρτυς τοι ταὐτὰ λέγει. ὑμεῖς τοίνυν ψηφίσασθε.",
+   "answer": [
+    2,
+    5,
+    7,
+    10,
+    14
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.particles"
+   ],
+   "explain": "ἄρα, δή, μήν, τοι, τοίνυν."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'I, however, will tell the truth.'",
+   "tokens": [
+    "ἐρῶ",
+    "τἀληθῆ",
+    "μέντοι",
+    "ἐγὼ"
+   ],
+   "answers": [
+    "ἐγὼ μέντοι τἀληθῆ ἐρῶ",
+    "ἐγὼ τἀληθῆ μέντοι ἐρῶ",
+    "τἀληθῆ μέντοι ἐγὼ ἐρῶ"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "syntax.particles"
+   ],
+   "explain": "μέντοι is postpositive: it cannot stand first."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ διώκων πρότερος λέγει.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "πρῶτος μὲν ὁ Ἀντίμαχος λέγει· ὁ γὰρ διώκων πρότερος λέγει."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Μάνης ἐν τῷ δικαστηρίῳ πάρεστιν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ποῦ ’στιν ὁ Μάνης; οὐ πάρεστιν."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Λύσις λέγει ὅτι ὁ Δημόκριτος ῥήτορι ἔοικεν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension",
+    "vocab.stage2"
+   ],
+   "explain": "«εὖ τοι λέγει ὁ Δημόκριτος· ῥήτορι ἔοικε, οὐ γεωργῷ.»"
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "audio": "τἀληθῆ μέντοι ἐρῶ.",
+   "gaps": [
+    {
+     "answers": [
+      "τἀληθῆ μέντοι ἐρῶ"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "spell.crasis"
+   ],
+   "explain": "τἀληθῆ (crasis) μέντοι ἐρῶ."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek with crasis: 'And I say the same things.' (use κἀγώ and ταὐτά)",
+   "gaps": [
+    {
+     "answers": [
+      "κἀγὼ ταὐτὰ λέγω",
+      "κἀγὼ λέγω ταὐτά",
+      "ταὐτὰ κἀγὼ λέγω"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "spell.crasis"
+   ],
+   "explain": "κἀγὼ ταὐτὰ λέγω."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Well said!' (εὖ + the particle that stresses)",
+   "gaps": [
+    {
+     "answers": [
+      "εὖ γε"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "syntax.particles"
+   ],
+   "explain": "εὖ γε!"
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: καὶ μὴν οὐδὲν κέρδος ἔχω, ὦ ἄνδρες· τοὐναντίον μὲν οὖν, ζημίαν.",
+   "audio": "καὶ μὴν οὐδὲν κέρδος ἔχω, ὦ ἄνδρες· τοὐναντίον μὲν οὖν, ζημίαν.",
+   "model": "And besides, gentlemen, I gain nothing; no, quite the opposite: a loss.",
+   "skills": [
+    "read.comprehension",
+    "syntax.particles",
+    "spell.crasis"
+   ],
+   "explain": "καὶ μήν 'and what is more'; τοὐναντίον = τὸ ἐναντίον; μὲν οὖν corrects: 'no, rather'."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "πλῆθος",
+     "right": "plethora"
+    },
+    {
+     "left": "τρόπος",
+     "right": "trope"
+    },
+    {
+     "left": "εὖ",
+     "right": "euphony"
+    },
+    {
+     "left": "ἔοικα",
+     "right": "icon"
+    },
+    {
+     "left": "ἐναντίος",
+     "right": "enantiomer"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "πληθώρα 'fullness'; τρόπος 'a turn (of phrase)'; εὐ-φωνία 'good sound'; εἰκών 'likeness', from the same root as ἔοικα; ἐναντίος 'opposite' (mirror-image molecules)."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "τίς πρῶτος ἐν τῷ δικαστηρίῳ λέγει;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Ἀντίμαχος, ὁ διώκων."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Δημόκριτος, ὁ φεύγων."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Ἀρίστων, ὁ μάρτυς."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὁ γὰρ διώκων πρότερος λέγει."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐστιν ἡ κλεψύδρα;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὕδωρ ῥέον, ὃ τὸν χρόνον τοῦ λέγοντος μετρεῖ."
+    },
+    {
+     "id": "b",
+     "text": "ἡ ψῆφος τοῦ δικαστοῦ."
+    },
+    {
+     "id": "c",
+     "text": "ὁ λίθος μεταξὺ τῶν ἀγρῶν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὁ λέγων λέγει ἕως ἂν τὸ ὕδωρ ῥέῃ: the water measures the speaker's time."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίνα μάρτυρα παρέχεται ὁ Δημόκριτος;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὸν Σύρον."
+    },
+    {
+     "id": "b",
+     "text": "τὸν Ἀρίστωνα."
+    },
+    {
+     "id": "c",
+     "text": "τὸν Μάνην."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "spell.crasis"
+   ],
+   "explain": "ταῦτ’ εἶδεν ὁ Ἀρίστων, κἀγὼ μάρτυρα αὐτὸν παρέχομαι."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίς τὸν ὅρον ἐκίνησεν, ὡς λέγει ὁ Δημόκριτος;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "οἱ Λακεδαιμόνιοι."
+    },
+    {
+     "id": "b",
+     "text": "ὁ ἐναντίος, ὁ Ἀντίμαχος."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Σύρος."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "syntax.particles"
+   ],
+   "explain": "ὁ γὰρ ἐναντίος ἄρα τὸν ὅρον ἐκίνησεν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ποιεῖ τὸ πλῆθος μετὰ τὸν λόγον;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "σιγᾷ."
+    },
+    {
+     "id": "b",
+     "text": "θορυβεῖ· οἱ μὲν γελῶσιν, οἱ δὲ βοῶσιν."
+    },
+    {
+     "id": "c",
+     "text": "ἀπέρχεται."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "τὸ δὲ πλῆθος θορυβεῖ."
+  }
+ ],
+ "culture": {
+  "title": "Speaking against the water clock",
+  "md": "A private case was heard and decided in a single sitting. The prosecutor spoke first, then the defendant; in many private suits each then had a shorter second speech. There was no judge to guide the jurors, no cross-examination and no discussion among the jurors: when the speeches ended, they voted.\n\nEach speaker's time was measured by a **κλεψύδρα**, 'water-thief': a jar that emptied through a small spout near its base. One was found in the Agora, from about 400 BC, marked with the name of the tribe Antiochis; full, it held about 6.4 litres and ran for roughly six minutes. In the fourth century a fixed number of jars was allowed for each kind of case, and an official stopped the flow while laws or statements were read out; how exactly the clock was managed in 429 we do not know, though Aristophanes mentions it in the 420s.\n\nJurors were not silent. They shouted approval or anger (θόρυβος), and speakers begged them to hear them out. Good speakers argued from likelihood (εἰκός: 'is it probable that a man like me would …?'), from witnesses, from character, and from the laws. Defendants sometimes brought their weeping children into court; Aristophanes laughed at it in the *Wasps* (422 BC). A defence speech was called an ἀπολογία, the name Plato later gave to Socrates' speech at his trial in 399.",
+  "image": "culture-11-3-klepsydra"
+ },
+ "quiz": [
+  {
+   "type": "cloze-choice",
+   "prompt": "τοὐναντίον = ___",
+   "options": [
+    {
+     "id": "a",
+     "text": "τὸ ἐναντίον"
+    },
+    {
+     "id": "b",
+     "text": "τοῦ ἐναντίου"
+    },
+    {
+     "id": "c",
+     "text": "τῷ ἐναντίῳ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "spell.crasis"
+   ],
+   "explain": "τὸ ἐναντίον 'the opposite'."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "Elide κατά before ἡμέραν: ___ ἡμέραν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "κατ’"
+    },
+    {
+     "id": "b",
+     "text": "καθ’"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "spell.elision"
+   ],
+   "explain": "Rough breathing on ἡμέραν: τ becomes θ, καθ’ ἡμέραν 'daily'."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "εὖ τοι λέγει: τοι means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "'you know', pressing the point"
+    },
+    {
+     "id": "b",
+     "text": "'to you'"
+    },
+    {
+     "id": "c",
+     "text": "'therefore'"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.particles"
+   ],
+   "explain": "τοι is an enclitic particle: 'he speaks well, you know'. (σοι 'to you' is a different word.)"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the dative singular of πλῆθος.",
+   "lemma": "πλῆθος",
+   "cell": "dat.sg",
+   "skills": [
+    "vocab.stage2"
+   ],
+   "explain": "πλήθει.",
+   "audio": "πλήθει"
+  },
+  {
+   "type": "transform",
+   "prompt": "Undo the prodelision: ὦ ’γαθέ → ὦ …",
+   "template": "ὦ ___",
+   "gaps": [
+    {
+     "answers": [
+      "ἀγαθέ"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.elision"
+   ],
+   "explain": "ὦ ἀγαθέ 'my good man'.",
+   "audio": "ὦ ἀγαθέ"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Δημόκριτος λέγει ὅτι οὐδὲν κέρδος ἔχει.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension",
+    "syntax.particles"
+   ],
+   "explain": "καὶ μὴν οὐδὲν κέρδος ἔχω."
+  },
+  {
+   "type": "label",
+   "prompt": "Which particle draws a conclusion ('well then')?",
+   "options": [
+    {
+     "id": "a",
+     "text": "τοίνυν"
+    },
+    {
+     "id": "b",
+     "text": "γε"
+    },
+    {
+     "id": "c",
+     "text": "τοι"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.particles"
+   ],
+   "explain": "ὑμεῖς τοίνυν ψηφίσασθε 'so then, you must vote'."
+  }
+ ],
+ "skills": [
+  "spell.crasis",
+  "spell.elision",
+  "syntax.particles",
+  "noun.decl3.sigma",
+  "read.comprehension",
+  "read.locate",
+  "syntax.word-order",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family",
+  "vocab.stage2"
+ ]
+}

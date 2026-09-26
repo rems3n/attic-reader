@@ -1,0 +1,1413 @@
+{
+ "id": "10.2",
+ "title_grc": "ὁ Λύσις ἐρωτᾷ",
+ "title_en": "Lysis asks",
+ "summary_grc": "ὁ Σωκράτης ἐν τῇ στοᾷ ἕστηκεν· ὁ δὲ Λύσις αὐτὸν ἐρωτᾷ τί μεμάθηκεν. «ἃ μὴ οἶδα, οὐδὲ οἴομαι εἰδέναι.»",
+ "summary_en": "Lysis goes back alone and finds Socrates standing lost in thought. What does it mean to know? The perfect active (πεποίηκα, ἑώρακα), the perfects that mean a present state — οἶδα 'I know', ἕστηκα 'I stand' — and the many uses of ὡς.",
+ "cover": "panel-10-2-a",
+ "caption_grc": "ὁ Σωκράτης ἐξ ἕω ἕστηκεν. «ἃ μὴ οἶδα, οὐδὲ οἴομαι εἰδέναι.»",
+ "names": {},
+ "allow": {
+  "ἔφη": "unit 9",
+  "ἐθαύμασεν": "unit 7",
+  "ὅτι": "unit 8",
+  "ὅταν": "unit 8",
+  "πολὺ": "unit 8",
+  "ἕτερον": "unit 7",
+  "μόνον": "unit 9",
+  "ὀρθῶς": "unit 9",
+  "ὅστις": "unit 8",
+  "οἴεται": "unit 9",
+  "οἴομαι": "unit 9",
+  "ἀλήθειαν": "unit 7",
+  "παρὰ": "unit 9",
+  "πέπονθα": "unit 9",
+  "ὑπὸ": "unit 8",
+  "Σώκρατες": "vocative of the course name Σωκράτης"
+ },
+ "story": [
+  {
+   "image": "panel-10-2-a",
+   "sentences": [
+    {
+     "text": "τῇ ὑστεραίᾳ ὁ Λύσις ὡς τάχιστα εἰς τὴν ἀγορὰν ἔδραμεν.",
+     "glosses": [
+      {
+       "word": "ὑστεραίᾳ",
+       "kind": "en",
+       "value": "the next day"
+      },
+      {
+       "word": "ὡς",
+       "kind": "note",
+       "value": "ὡς τάχιστα: 'as fast as possible' — ὡς + superlative"
+      },
+      {
+       "word": "τάχιστα",
+       "kind": "<",
+       "value": "ταχύς (fastest)"
+      }
+     ]
+    },
+    {
+     "text": "ἐκεῖ δὲ τὸν Σωκράτη εὗρεν ἐν τῇ στοᾷ ἑστηκότα· ἐξ ἕω γὰρ εἱστήκει καὶ οὐδὲν ἔλεγεν, ἀλλ’ ἐσκόπει τι.",
+     "glosses": [
+      {
+       "word": "στοᾷ",
+       "kind": "pic",
+       "value": "stoa-poikile"
+      },
+      {
+       "word": "ἑστηκότα",
+       "kind": "|",
+       "value": "ἔστη (stood up) | ἕστηκε (is standing) · ἑστηκότα: standing (perfect participle of ἵστημι)"
+      },
+      {
+       "word": "ἕω",
+       "kind": "en",
+       "value": "dawn"
+      },
+      {
+       "word": "εἱστήκει",
+       "kind": "note",
+       "value": "pluperfect: 'he had been standing' (since dawn)"
+      },
+      {
+       "word": "οὐδὲν",
+       "kind": "en",
+       "value": "nothing"
+      },
+      {
+       "word": "ἐσκόπει",
+       "kind": "en",
+       "value": "was thinking over, examining"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λύσις ἔξω τῆς στοᾶς ἔμενε καὶ οὐκ ἐτόλμα προσελθεῖν.",
+     "glosses": [
+      {
+       "word": "στοᾶς",
+       "kind": "|",
+       "value": "ἡ στοά | ἔξω τῆς στοᾶς"
+      },
+      {
+       "word": "ἔξω",
+       "kind": "en",
+       "value": "outside (+ genitive)"
+      },
+      {
+       "word": "ἐτόλμα",
+       "kind": "en",
+       "value": "dared"
+      }
+     ]
+    },
+    {
+     "text": "ὡς δὲ ὁ Σωκράτης αὐτὸν εἶδεν, «ὦ παῖ», ἔφη, «τί ἕστηκας ἔξω; δεῦρο ἐλθέ. ἆρ’ οὐ σὺ ὁ τοῦ κεραμέως υἱὸς εἶ;»",
+     "glosses": [
+      {
+       "word": "ἕστηκας",
+       "kind": "|",
+       "value": "ἕστηκα (I am standing) | ἕστηκας (you are standing)"
+      },
+      {
+       "word": "δεῦρο",
+       "kind": "en",
+       "value": "here, this way"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λύσις· «ἐγώ, ὦ Σώκρατες. εἰπέ μοι· τί μεμάθηκας ἐξ ἕω ἑστηκώς;»",
+     "glosses": [
+      {
+       "word": "μεμάθηκας",
+       "kind": "|",
+       "value": "ἔμαθες (you learned) | μεμάθηκας (you have learned — and know it now)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Σωκράτης· «οὐδέν, ὦ φίλε. ἃ γὰρ μὴ οἶδα, οὐδὲ οἴομαι εἰδέναι.»",
+     "glosses": [
+      {
+       "word": "οἶδα",
+       "kind": "en",
+       "value": "I know"
+      },
+      {
+       "word": "οὐδὲ",
+       "kind": "en",
+       "value": "not even, nor"
+      },
+      {
+       "word": "οἴομαι",
+       "kind": "en",
+       "value": "I think, suppose"
+      },
+      {
+       "word": "εἰδέναι",
+       "kind": "|",
+       "value": "οἶδα | εἰδέναι (to know)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "panel-10-2-b",
+   "sentences": [
+    {
+     "text": "ὁ δὲ Λύσις ἐθαύμασεν· «ὡς δεινὰ λέγεις, ὦ Σώκρατες! ἐγὼ μὲν πολλὰ οἶδα· οἶδα γὰρ τὰ γράμματα καὶ τὸν ἀριθμὸν τῶν ἐν τῷ Πειραιεῖ νεῶν.»",
+     "glosses": [
+      {
+       "word": "ἐθαύμασεν",
+       "kind": "en",
+       "value": "was amazed"
+      },
+      {
+       "word": "δεινὰ",
+       "kind": "note",
+       "value": "ὡς δεινὰ λέγεις! 'what strange things you say!' — ὡς in an exclamation: 'how …!'"
+      },
+      {
+       "word": "ἀριθμὸν",
+       "kind": "pic",
+       "value": "arithmos"
+      }
+     ]
+    },
+    {
+     "text": "«καὶ ὁ πατήρ μου οἶδε κύλικας ποιεῖν· ἐν γὰρ τῷ ἰδίῳ ἐργαστηρίῳ πολλὰς καὶ καλὰς πεποίηκεν.»",
+     "glosses": [
+      {
+       "word": "οἶδε",
+       "kind": "|",
+       "value": "οἶδα | οἶδε (he knows how to, + infinitive)"
+      },
+      {
+       "word": "ἰδίῳ",
+       "kind": "en",
+       "value": "his own"
+      },
+      {
+       "word": "πεποίηκεν",
+       "kind": "|",
+       "value": "ἐποίησε (made) | πεποίηκε (has made — perfect active)"
+      }
+     ]
+    },
+    {
+     "text": "«πῶς τοῦτο οἶσθα;» ἔφη ὁ Σωκράτης.",
+     "glosses": [
+      {
+       "word": "πῶς",
+       "kind": "en",
+       "value": "how?"
+      },
+      {
+       "word": "οἶσθα",
+       "kind": "|",
+       "value": "οἶδα | οἶσθα (you know)"
+      }
+     ]
+    },
+    {
+     "text": "«ἑώρακα αὐτὸν πολλάκις ποιοῦντα· καὶ οἱ ἄνθρωποι τὰς κύλικας αὐτοῦ ἀεὶ ὠνοῦνται.»",
+     "glosses": [
+      {
+       "word": "ἑώρακα",
+       "kind": "|",
+       "value": "εἶδον (I saw) | ἑώρακα (I have seen)"
+      }
+     ]
+    },
+    {
+     "text": "«δῆλον οὖν ὅτι ὁ πατήρ σου τὴν τέχνην οἶδεν· τὰ γὰρ ἔργα δηλοῖ. ὁ δὲ ἀριθμὸς τῶν νεῶν πῶς δῆλός ἐστιν;»",
+     "glosses": [
+      {
+       "word": "δῆλον",
+       "kind": "en",
+       "value": "clear, plain; δῆλον ὅτι: it is clear that"
+      }
+     ]
+    },
+    {
+     "text": "«ῥᾴδιον· ἀριθμοῦμεν γὰρ αὐτάς.»",
+     "glosses": [
+      {
+       "word": "ἀριθμοῦμεν",
+       "kind": "<",
+       "value": "ἀριθμός (we count)"
+      }
+     ]
+    },
+    {
+     "text": "«εὖ λέγεις. περὶ δὲ τοῦ δικαίου οὐ ῥᾴδιον. ὅταν γὰρ δύο ἄνδρες περὶ τοῦ δικαίου λέγωσιν, ἑκάτερος ἰδίαν γνώμην ἔχει, καὶ αἱ γνῶμαι αὐτῶν πολὺ διαφέρουσιν.»",
+     "glosses": [
+      {
+       "word": "εὖ",
+       "kind": "en",
+       "value": "well"
+      },
+      {
+       "word": "περὶ",
+       "kind": "en",
+       "value": "about (+ genitive)"
+      },
+      {
+       "word": "ἑκάτερος",
+       "kind": "en",
+       "value": "each (of two)"
+      },
+      {
+       "word": "γνώμην",
+       "kind": "en",
+       "value": "opinion, judgement"
+      },
+      {
+       "word": "διαφέρουσιν",
+       "kind": "en",
+       "value": "differ"
+      }
+     ]
+    },
+    {
+     "text": "«καὶ ἑκάτερος τὸν ἕτερον ψεύδεσθαι λέγει. τίς οὖν αὐτῶν τἀληθῆ λέγει, ὁ εἰδὼς ἢ ὁ δόξαν μόνον ἔχων;»",
+     "glosses": [
+      {
+       "word": "ψεύδεσθαι",
+       "kind": "en",
+       "value": "to lie, be wrong"
+      },
+      {
+       "word": "τἀληθῆ",
+       "kind": "=",
+       "value": "τὰ ἀληθῆ"
+      },
+      {
+       "word": "εἰδὼς",
+       "kind": "|",
+       "value": "οἶδα | ὁ εἰδώς (the man who knows)"
+      },
+      {
+       "word": "δόξαν",
+       "kind": "en",
+       "value": "opinion, belief (ἡ δόξα)"
+      }
+     ]
+    },
+    {
+     "text": "«ὁ εἰδώς, ὦ Σώκρατες.»"
+    }
+   ]
+  },
+  {
+   "image": "panel-10-2-c",
+   "sentences": [
+    {
+     "text": "«ὀρθῶς. ἀλλ’ ὅστις δόξαν μόνον ἔχει, οἴεται εἰδέναι· ὁ δὲ σοφὸς οἶδεν ὅτι οὐκ οἶδεν. οὗτος αὖ μᾶλλον ζητεῖ καὶ μᾶλλον μανθάνει.»",
+     "glosses": [
+      {
+       "word": "ὀρθῶς",
+       "kind": "en",
+       "value": "rightly"
+      },
+      {
+       "word": "αὖ",
+       "kind": "en",
+       "value": "in turn, on the other hand"
+      },
+      {
+       "word": "μᾶλλον",
+       "kind": "en",
+       "value": "more"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Λύσις αὖ ἠρώτα, ὡς τὴν ἀλήθειαν παρὰ τοῦ Σωκράτους μαθησόμενος· «σὺ δέ, ὦ Σώκρατες, οἶσθα τί ἐστι τὸ δίκαιον;»",
+     "glosses": [
+      {
+       "word": "μαθησόμενος",
+       "kind": "note",
+       "value": "ὡς + future participle: 'meaning to learn' — ὡς gives the purpose or thought in the subject's mind"
+      },
+      {
+       "word": "παρὰ",
+       "kind": "en",
+       "value": "from (+ genitive of a person)"
+      }
+     ]
+    },
+    {
+     "text": "«οὐκ οἶδα, ὦ παῖ· ἀλλὰ μετὰ σοῦ ζητήσω, εἰ βούλει.»"
+    },
+    {
+     "text": "ἑσπέρας δὲ ὁ Λύσις οἴκαδε ἦλθε καὶ τῷ πάππῳ πάντα ἔλεγεν ὡς ἐγένετο.",
+     "glosses": [
+      {
+       "word": "ἑσπέρας",
+       "kind": "|",
+       "value": "ἡ ἑσπέρα | ἑσπέρας (in the evening)"
+      },
+      {
+       "word": "ἐγένετο",
+       "kind": "note",
+       "value": "πάντα ὡς ἐγένετο: 'everything, how it happened'"
+      }
+     ]
+    },
+    {
+     "text": "«ὁ Σωκράτης», ἔφη, «λέγει ὡς οὐδὲν οἶδεν· καὶ ὅμως πολὺ διαφέρει τῶν ἄλλων.»",
+     "glosses": [
+      {
+       "word": "ὅμως",
+       "kind": "en",
+       "value": "all the same, yet"
+      },
+      {
+       "word": "διαφέρει",
+       "kind": "note",
+       "value": "διαφέρει τῶν ἄλλων: 'is different from, better than the others' (+ genitive)"
+      }
+     ]
+    },
+    {
+     "text": "ὁ δὲ Κλεινίας· «ὡς νέος εἶ, ὦ Λύσι! ἐγὼ γέρων εἰμὶ καὶ πολλὰ ἑώρακα καὶ πέπονθα, καὶ ὅμως οὐδὲ ἐγὼ οἶδα τί ἐστι τὸ δίκαιον.»",
+     "glosses": [
+      {
+       "word": "πέπονθα",
+       "kind": "|",
+       "value": "πάσχω | πέπονθα (I have suffered, been through)"
+      }
+     ]
+    },
+    {
+     "text": "ἡ δὲ Ἐλπὶς γελάσασα· «ἐγὼ δὲ οἶδα ποῦ ὁ Λάβρος τὸ κρέας κέκρυφεν· ἔξω, ὑπὸ τῷ δένδρῳ!»",
+     "glosses": [
+      {
+       "word": "γελάσασα",
+       "kind": "en",
+       "value": "laughing"
+      },
+      {
+       "word": "κέκρυφεν",
+       "kind": "|",
+       "value": "ἔκρυψε (hid) | κέκρυφε (has hidden — and it is still hidden)"
+      },
+      {
+       "word": "ὑπὸ",
+       "kind": "en",
+       "value": "under (+ dative)"
+      }
+     ]
+    },
+    {
+     "text": "καὶ πάντες ἐγέλασαν· ἡ γὰρ Ἐλπὶς τὸ ἀληθὲς ᾔδει.",
+     "glosses": [
+      {
+       "word": "ἐγέλασαν",
+       "kind": "en",
+       "value": "laughed"
+      },
+      {
+       "word": "ᾔδει",
+       "kind": "|",
+       "value": "οἶδε (knows) | ᾔδει (knew — pluperfect of οἶδα)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "οιδα",
+   "gloss_grc": "οἶδα, οἶσθα, οἶδε · ᾔδει · εἰδέναι · εἰδώς"
+  },
+  {
+   "id": "γνωμη",
+   "gloss_grc": "ἡ γνώμη = ἡ δόξα ἣν ἔχω"
+  },
+  {
+   "id": "ιδιος",
+   "gloss_grc": "ἴδιος ↔ κοινός"
+  },
+  {
+   "id": "αριθμος",
+   "pic": "arithmos",
+   "gloss_grc": "εἷς, δύο, τρεῖς … ἀριθμοί εἰσιν"
+  },
+  {
+   "id": "δηλος",
+   "gloss_grc": "δῆλον ὅτι … · δηλόω"
+  },
+  {
+   "id": "διαφερω",
+   "gloss_grc": "διαφέρει τῶν ἄλλων"
+  },
+  {
+   "id": "μαλλον",
+   "gloss_grc": "μάλα · μᾶλλον · μάλιστα"
+  },
+  {
+   "id": "πως",
+   "gloss_grc": "πῶς; = τίνα τρόπον;"
+  },
+  {
+   "id": "δοξα",
+   "gloss_grc": "ἡ δόξα, τῆς δόξης: ὃ δοκεῖ τινι"
+  },
+  {
+   "id": "αυ",
+   "gloss_grc": "αὖ = πάλιν"
+  },
+  {
+   "id": "εκατερος",
+   "gloss_grc": "ἑκάτερος τῶν δυοῖν"
+  },
+  {
+   "id": "εξω",
+   "gloss_grc": "ἔξω τῆς στοᾶς ↔ ἐν τῇ στοᾷ"
+  },
+  {
+   "id": "ιστημι",
+   "pic": "verb-hesteke",
+   "gloss_grc": "ἕστηκα: I stand · ἑστηκώς"
+  }
+ ],
+ "notice": [
+  "ὁ πατὴρ πολλὰς κύλικας πεποίηκεν. — ἑώρακα αὐτὸν ποιοῦντα. — τί μεμάθηκας;",
+  "ὁ Σωκράτης ἐν τῇ στοᾷ ἕστηκεν· ἐξ ἕω ἐκεῖ εἱστήκει.",
+  "οἶδα, οἶσθα, οἶδε · ἃ μὴ οἶδα, οὐδὲ οἴομαι εἰδέναι · ὁ εἰδώς · ᾔδει.",
+  "ὡς τάχιστα — ὡς δεινὰ λέγεις! — ὡς δὲ αὐτὸν εἶδεν … — λέγει ὡς οὐδὲν οἶδεν."
+ ],
+ "grammar": {
+  "md": "**The perfect active.** Like the perfect middle/passive (Lesson 10.1), the perfect active describes a **present state that results from a past act**: ὁ πατὴρ πολλὰς κύλικας **πεποίηκεν** 'my father has made many cups' (and there they are); **ἑώρακα** αὐτόν 'I have seen him (so I know)'. Formation: reduplication + stem + **κ** + endings in **-α**:\n\n| | λύω | ποιέω |\n|---|---|---|\n| I | λέλυ**κα** | πεποίη**κα** |\n| you | λέλυ**κας** | πεποίη**κας** |\n| he, she | λέλυ**κε(ν)** | πεποίη**κε(ν)** |\n| we | λελύ**καμεν** | πεποιή**καμεν** |\n| you (pl.) | λελύ**κατε** | πεποιή**κατε** |\n| they | λελύ**κασι(ν)** | πεποιή**κασι(ν)** |\n\nInfinitive **-έναι**, always accented there: λελυκέναι, πεποιηκέναι. Participle **-ώς, -υῖα, -ός** (gen. -ότος): λελυκώς, λελυκυῖα, λελυκός. **Pluperfect** 'had …': augment + perfect stem + -η, -ης, -ει(ν), -εμεν, -ετε, -εσαν: ἐλελύκη, ἐπεποιήκει(ν).\n\nMany common verbs have a **second perfect** without κ (sometimes with an aspirated consonant or a changed vowel): γράφω γέγραφα, κρύπτω κέκρυφα, πάσχω πέπονθα, λείπω λέλοιπα, ἀκούω ἀκήκοα. Some reduplicate irregularly: ὁράω **ἑώρακα**, λέγω **εἴρηκα**, ἔρχομαι **ἐλήλυθα**, γιγνώσκω **ἔγνωκα**. Learn them as principal parts.\n\n**Perfects that are simply present.** Because the perfect is a state, some perfects are best translated by an English present:\n\n- **οἶδα** 'I know' (originally 'I have seen'; compare εἶδον 'I saw'). It is irregular:\n\n| οἶδα *I know* | ἴσμεν *we know* |\n|---|---|\n| οἶσθα *you know* | ἴστε *you know* |\n| οἶδε(ν) *he knows* | ἴσασι(ν) *they know* |\n\n  Pluperfect (= past) ᾔδη or ᾔδειν 'I knew', **ᾔδει(ν)** 'he knew', ᾖσαν 'they knew'; infinitive **εἰδέναι**; participle **εἰδώς, εἰδυῖα, εἰδός**; future **εἴσομαι**. οἶδα + infinitive = 'know how to': οἶδε κύλικας ποιεῖν.\n- **ἕστηκα** 'I stand, am standing' (I have been set up): ἕστηκα, ἕστηκας, ἕστηκε(ν), ἕσταμεν, ἕστατε, ἑστᾶσι(ν); pluperfect **εἱστήκη** 'I was standing'; participle ἑστηκώς or ἑστώς, infinitive ἑστηκέναι or ἑστάναι. Compare ἵσταμαι 'I stand up', ἔστην 'I stood up'.\n- Also τέθνηκα 'I am dead', γέγονα 'I have become, I am'.\n\n**Uses of ὡς.** One small word, many jobs — look at what follows it:\n\n| ὡς + … | meaning | example |\n|---|---|---|\n| superlative | as … as possible | **ὡς τάχιστα** |\n| adjective or adverb in an exclamation | how …! | **ὡς** νέος εἶ! **ὡς** δεινὰ λέγεις! |\n| a past verb, at the start of a clause | when, as | **ὡς** δὲ αὐτὸν εἶδεν … |\n| after a verb of saying | that | λέγει **ὡς** οὐδὲν οἶδεν |\n| an indirect question or 'how' | how | πάντα ἔλεγεν **ὡς** ἐγένετο |\n| a participle | as if, because (in his mind), in order to (future ptc.) | **ὡς** … **μαθησόμενος** |\n| a noun or clause of comparison | as, like | **ὡς** ἐγὼ λέγω |",
+  "paradigms": [
+   "oida",
+   "histemi",
+   "luo"
+  ],
+  "diagram": "diagram-perfect"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the perfect active endings.",
+   "template": "ὁ πατὴρ πολλὰς κύλικας πεποίηκ___. ἐγὼ τὸν Σωκράτη ἑώρακ___. οἱ παῖδες τὰ γράμματα μεμαθήκ___. σὺ δὲ τί μεμάθηκ___;",
+   "gaps": [
+    {
+     "answers": [
+      "εν",
+      "ε"
+     ]
+    },
+    {
+     "answers": [
+      "α"
+     ]
+    },
+    {
+     "answers": [
+      "ασιν",
+      "ασι"
+     ]
+    },
+    {
+     "answers": [
+      "ας"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.perf.act.ind.3sg",
+    "verb.perf.act.ind.1sg",
+    "verb.perf.act.ind.3pl"
+   ],
+   "explain": "πεποίηκεν (he), ἑώρακα (I), μεμαθήκασιν (they), μεμάθηκας (you): -κα, -κας, -κε(ν) … -κασι(ν)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἃ μὴ ___, οὐδὲ οἴομαι εἰδέναι.",
+   "options": [
+    {
+     "id": "a",
+     "text": "οἶδα"
+    },
+    {
+     "id": "b",
+     "text": "οἶσθα"
+    },
+    {
+     "id": "c",
+     "text": "ᾔδει"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.oida"
+   ],
+   "explain": "'What I do not know, I do not even think I know.' οἶδα: I know.",
+   "audio": "ἃ μὴ οἶδα, οὐδὲ οἴομαι εἰδέναι."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ὁ Σωκράτης ἐξ ἕω ἐν τῇ στοᾷ ___ (is standing).",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἔστη"
+    },
+    {
+     "id": "b",
+     "text": "ἕστηκεν"
+    },
+    {
+     "id": "c",
+     "text": "ἵστησιν"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "verb.mi.histemi"
+   ],
+   "explain": "ἕστηκε(ν): perfect of ἵστημι, 'he stands, is standing'. ἔστη = 'he stood up'; ἵστησι = 'he sets up (something)'.",
+   "audio": "ὁ Σωκράτης ἐξ ἕω ἐν τῇ στοᾷ ἕστηκεν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἑκάτερος ἰδίαν ___ ἔχει.",
+   "options": [
+    {
+     "id": "a",
+     "text": "γνώμην"
+    },
+    {
+     "id": "b",
+     "text": "ἀριθμόν"
+    },
+    {
+     "id": "c",
+     "text": "στοάν"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.stage2"
+   ],
+   "explain": "'Each has his own opinion': ἰδίαν γνώμην.",
+   "audio": "ἑκάτερος ἰδίαν γνώμην ἔχει."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ὁ ἀριθμός",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "arithmos"
+    },
+    {
+     "id": "b",
+     "image": "gramma"
+    },
+    {
+     "id": "c",
+     "image": "kyklos"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition"
+   ],
+   "explain": "ἀριθμός: number (ἀριθμέω 'count')."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ἕστηκεν",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "verb-trechei"
+    },
+    {
+     "id": "b",
+     "image": "verb-hesteke"
+    },
+    {
+     "id": "c",
+     "image": "verb-katheudei"
+    },
+    {
+     "id": "d",
+     "image": "verb-bainei"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "vocab.recognition",
+    "verb.mi.histemi"
+   ],
+   "explain": "ἕστηκε(ν): he is standing."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the perfect active of ποιέω for 'he has made'.",
+   "lemma": "ποιέω",
+   "cell": "perfect.active.indicative.3sg",
+   "skills": [
+    "verb.perf.act.ind.3sg",
+    "verb.perf.reduplication"
+   ],
+   "explain": "πε-ποιη-κε(ν): reduplication, long vowel, κ, -ε(ν).",
+   "audio": "πεποίηκεν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the form of οἶδα for 'you (sg.) know'.",
+   "lemma": "οἶδα",
+   "cell": "perfect.active.indicative.2sg",
+   "skills": [
+    "verb.oida"
+   ],
+   "explain": "οἶσθα.",
+   "audio": "οἶσθα"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the form of οἶδα for 'he knew'.",
+   "lemma": "οἶδα",
+   "cell": "pluperfect.active.indicative.3sg",
+   "skills": [
+    "verb.oida",
+    "verb.plpf.act.ind.3sg"
+   ],
+   "explain": "ᾔδει(ν): the pluperfect of οἶδα is its past tense.",
+   "audio": "ᾔδει"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the infinitive of οἶδα, 'to know'.",
+   "lemma": "οἶδα",
+   "cell": "perfect.active.infinitive.inf",
+   "skills": [
+    "verb.oida",
+    "verb.perf.act.inf"
+   ],
+   "explain": "εἰδέναι: the perfect infinitive ending -έναι, accented there.",
+   "audio": "εἰδέναι"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἑώρακα.",
+   "form": "ἑώρακα",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Who?",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "I"
+      },
+      {
+       "id": "3sg",
+       "label": "he / she"
+      },
+      {
+       "id": "3pl",
+       "label": "they"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "perf",
+    "person": "1sg"
+   },
+   "skills": [
+    "verb.perf.act.ind.1sg",
+    "verb.perf.reduplication"
+   ],
+   "explain": "ἑώρακα: perfect of ὁράω, 'I have seen'. The aorist is εἶδον, the imperfect ἑώρων.",
+   "audio": "ἑώρακα"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἑστηκώς.",
+   "form": "ἑστηκώς",
+   "groups": [
+    {
+     "id": "form",
+     "label": "Form",
+     "options": [
+      {
+       "id": "ptc",
+       "label": "participle"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ind",
+       "label": "indicative"
+      }
+     ]
+    },
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "form": "ptc",
+    "tense": "perf"
+   },
+   "skills": [
+    "verb.ptc.perf.act",
+    "verb.mi.histemi"
+   ],
+   "explain": "ἑστηκώς, -υῖα, -ός: perfect active participle of ἵστημι, 'standing'.",
+   "audio": "ἑστηκώς"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "Which ὡς? — ὁ Λύσις ὡς τάχιστα εἰς τὴν ἀγορὰν ἔδραμεν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "as … as possible (with a superlative)"
+    },
+    {
+     "id": "b",
+     "text": "that (after a verb of saying)"
+    },
+    {
+     "id": "c",
+     "text": "when"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.hos"
+   ],
+   "explain": "ὡς + superlative: 'as fast as possible'."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "Which ὡς? — ὡς δὲ ὁ Σωκράτης αὐτὸν εἶδεν, ἐκάλεσεν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "how …! (exclamation)"
+    },
+    {
+     "id": "b",
+     "text": "when"
+    },
+    {
+     "id": "c",
+     "text": "as … as possible"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "syntax.hos"
+   ],
+   "explain": "ὡς + a past verb at the start of a clause: 'when Socrates saw him, he called him'."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "Which ὡς? — ὁ Σωκράτης λέγει ὡς οὐδὲν οἶδεν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "that"
+    },
+    {
+     "id": "b",
+     "text": "when"
+    },
+    {
+     "id": "c",
+     "text": "as if"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.hos"
+   ],
+   "explain": "After a verb of saying, ὡς = ὅτι: 'Socrates says that he knows nothing'."
+  },
+  {
+   "type": "label",
+   "prompt": "In ὡς νέος εἶ, ὦ Λύσι!, what does ὡς do?",
+   "options": [
+    {
+     "id": "a",
+     "text": "it makes an exclamation: 'how young you are!'"
+    },
+    {
+     "id": "b",
+     "text": "it means 'when'"
+    },
+    {
+     "id": "c",
+     "text": "it compares: 'as young as'"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.hos"
+   ],
+   "explain": "ὡς + adjective with an exclamation mark: 'how …!'."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make it a present result (perfect): ὁ πατὴρ κύλικα ἐποίησεν. → ὁ πατὴρ κύλικα …",
+   "template": "ὁ πατὴρ κύλικα ___.",
+   "gaps": [
+    {
+     "answers": [
+      "πεποίηκε(ν)"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.perf.act.ind.3sg"
+   ],
+   "explain": "ἐποίησεν 'made' → πεποίηκεν 'has made'.",
+   "audio": "ὁ πατὴρ κύλικα πεποίηκεν."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make it a present result (perfect): τὸν Σωκράτη εἶδον. → τὸν Σωκράτη …",
+   "template": "τὸν Σωκράτη ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἑώρακα",
+      "ἑόρακα"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.perf.act.ind.1sg"
+   ],
+   "explain": "εἶδον 'I saw' → ἑώρακα 'I have seen' (the perfect of ὁράω).",
+   "audio": "τὸν Σωκράτη ἑώρακα."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every perfect or pluperfect active form.",
+   "sentence": "ὁ Σωκράτης ἐξ ἕω εἱστήκει· ὁ δὲ Λύσις ἔξω ἔμενε καὶ εἶπεν· τί μεμάθηκας;",
+   "answer": [
+    4,
+    13
+   ],
+   "skills": [
+    "read.locate",
+    "verb.plpf.act.ind.3sg"
+   ],
+   "explain": "εἱστήκει (pluperfect of ἵστημι) and μεμάθηκας (perfect of μανθάνω). ἔμενε is imperfect, εἶπεν aorist."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap every form of οἶδα.",
+   "sentence": "ὁ σοφὸς οἶδεν ὅτι οὐκ οἶδεν· ὁ δὲ δόξαν μόνον ἔχων οἴεται εἰδέναι.",
+   "answer": [
+    2,
+    5,
+    12
+   ],
+   "skills": [
+    "read.locate",
+    "verb.oida"
+   ],
+   "explain": "οἶδεν, οἶδεν, εἰδέναι. οἴεται is from οἴομαι 'think'."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'What I do not know, I do not even think I know.'",
+   "tokens": [
+    "οὐδὲ",
+    "ἃ",
+    "εἰδέναι",
+    "οἶδα",
+    "μὴ",
+    "οἴομαι"
+   ],
+   "answers": [
+    "ἃ μὴ οἶδα οὐδὲ οἴομαι εἰδέναι"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "verb.oida"
+   ],
+   "explain": "ἃ μὴ οἶδα, οὐδὲ οἴομαι εἰδέναι — Plato, Apology 21d."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "audio": "ἑώρακα αὐτὸν πολλάκις ποιοῦντα.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἑώρων αὐτὸν πολλάκις ποιοῦντα."
+    },
+    {
+     "id": "b",
+     "text": "ἑώρακα αὐτὸν πολλάκις ποιοῦντα."
+    },
+    {
+     "id": "c",
+     "text": "εἶδον αὐτὸν πολλάκις ποιοῦντα."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "listen.sentences",
+    "verb.perf.act.ind.1sg"
+   ],
+   "explain": "'I have often seen him making them.'"
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Σωκράτης ἐξ ἕω ἐν τῇ στοᾷ εἱστήκει.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension",
+    "verb.plpf.act.ind.3sg"
+   ],
+   "explain": "ἐξ ἕω γὰρ εἱστήκει."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Σωκράτης λέγει ὅτι πάντα οἶδεν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension",
+    "verb.oida"
+   ],
+   "explain": "λέγει ὡς οὐδὲν οἶδεν."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἡ Ἐλπὶς ᾔδει ποῦ ὁ Λάβρος τὸ κρέας κέκρυφεν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension",
+    "verb.oida"
+   ],
+   "explain": "ἔξω, ὑπὸ τῷ δένδρῳ."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "audio": "οὐκ οἶδα, ὦ παῖ.",
+   "gaps": [
+    {
+     "answers": [
+      "οὐκ οἶδα, ὦ παῖ",
+      "οὐκ οἶδα ὦ παῖ"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "οὐκ οἶδα, ὦ παῖ: I don't know, my boy."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Socrates knows that he does not know.' (use ὅτι)",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ Σωκράτης οἶδεν ὅτι οὐκ οἶδεν",
+      "ὁ Σωκράτης οἶδεν ὅτι οὐκ οἶδε",
+      "ὁ Σωκράτης οἶδε ὅτι οὐκ οἶδεν",
+      "ὁ Σωκράτης οἶδε ὅτι οὐκ οἶδε"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.oida"
+   ],
+   "explain": "ὁ Σωκράτης οἶδεν ὅτι οὐκ οἶδεν."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'My father has made many cups.'",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ πατήρ μου πολλὰς κύλικας πεποίηκεν",
+      "ὁ πατὴρ πολλὰς κύλικας πεποίηκεν",
+      "ὁ πατήρ μου πεποίηκε πολλὰς κύλικας",
+      "πολλὰς κύλικας πεποίηκεν ὁ πατήρ μου",
+      "ὁ ἐμὸς πατὴρ πολλὰς κύλικας πεποίηκεν"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.perf.act.ind.3sg"
+   ],
+   "explain": "ὁ πατήρ μου πολλὰς κύλικας πεποίηκεν."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: ὅστις δόξαν μόνον ἔχει, οἴεται εἰδέναι· ὁ δὲ σοφὸς οἶδεν ὅτι οὐκ οἶδεν.",
+   "audio": "ὅστις δόξαν μόνον ἔχει, οἴεται εἰδέναι· ὁ δὲ σοφὸς οἶδεν ὅτι οὐκ οἶδεν.",
+   "model": "Whoever only has an opinion thinks he knows; but the wise man knows that he does not know.",
+   "skills": [
+    "read.comprehension",
+    "verb.oida"
+   ],
+   "explain": "δόξα 'opinion' against εἰδέναι 'to know': the distinction at the heart of Socrates' questioning."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "ἀριθμός",
+     "right": "arithmetic"
+    },
+    {
+     "left": "ἴδιος",
+     "right": "idiom, idiot ('a private person')"
+    },
+    {
+     "left": "δόξα",
+     "right": "orthodox, paradox"
+    },
+    {
+     "left": "οἶδα / εἶδον",
+     "right": "idea ('the look of a thing')"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "ἀριθμητικὴ τέχνη; ἰδιώτης 'a private citizen, a layman'; ὀρθό-δοξος 'right opinion', παρά-δοξος 'against opinion'; ἰδέα from the same root as εἶδον and οἶδα (Latin video, English wit, wise)."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "ποῦ ὁ Λύσις τὸν Σωκράτη εὗρεν;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐν τῷ ἐργαστηρίῳ."
+    },
+    {
+     "id": "b",
+     "text": "ἐν τῇ στοᾷ ἑστηκότα."
+    },
+    {
+     "id": "c",
+     "text": "ἐν τῷ Πειραιεῖ."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "verb.mi.histemi"
+   ],
+   "explain": "τὸν Σωκράτη εὗρεν ἐν τῇ στοᾷ ἑστηκότα."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "πῶς οἶδεν ὁ Λύσις ὅτι ὁ πατὴρ τὴν τέχνην οἶδεν;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἑώρακεν αὐτὸν πολλάκις ποιοῦντα."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Σωκράτης αὐτῷ εἶπεν."
+    },
+    {
+     "id": "c",
+     "text": "ἐν βιβλίῳ ἀνέγνω."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "verb.perf.act.ind.3sg"
+   ],
+   "explain": "ἑώρακα αὐτὸν πολλάκις ποιοῦντα — and the cups sell."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "πῶς δῆλός ἐστιν ὁ ἀριθμὸς τῶν νεῶν;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ Σωκράτης αὐτὸν λέγει."
+    },
+    {
+     "id": "b",
+     "text": "ἀριθμοῦσιν αὐτάς."
+    },
+    {
+     "id": "c",
+     "text": "οὐδεὶς αὐτὸν οἶδεν."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἀριθμοῦμεν γὰρ αὐτάς: numbers can be checked; opinions about justice cannot so easily."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ποιοῦσιν οἱ δύο ἄνδρες ὅταν περὶ τοῦ δικαίου λέγωσιν;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁμολογοῦσιν ἀλλήλοις."
+    },
+    {
+     "id": "b",
+     "text": "ἑκάτερος ἰδίαν γνώμην ἔχει καὶ τὸν ἕτερον ψεύδεσθαι λέγει."
+    },
+    {
+     "id": "c",
+     "text": "τὰς ναῦς ἀριθμοῦσιν."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "αἱ γνῶμαι αὐτῶν πολὺ διαφέρουσιν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ᾔδει ἡ Ἐλπίς;",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "text": "τί ἐστι τὸ δίκαιον."
+    },
+    {
+     "id": "b",
+     "text": "ποῦ ὁ Λάβρος τὸ κρέας κέκρυφεν."
+    },
+    {
+     "id": "c",
+     "text": "τὸν ἀριθμὸν τῶν νεῶν."
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.comprehension",
+    "verb.oida"
+   ],
+   "explain": "Elpis knew where Labros had hidden the meat: outside, under the tree."
+  }
+ ],
+ "culture": {
+  "title": "What Socrates knew",
+  "md": "Socrates' friend Chaerephon once asked the oracle at Delphi whether anyone was wiser than Socrates, and the priestess answered that no one was. We do not know when this happened, only that Plato's *Apology* makes Socrates tell the story at his trial in 399. Puzzled, Socrates went round the politicians, the poets and the craftsmen of Athens to find someone wiser. The craftsmen, he says, really did know their trades — a point in favour of Ariston — but each thought that he also knew the greatest things, and did not. Socrates concluded that his only advantage was this: **ἃ μὴ οἶδα οὐδὲ οἴομαι εἰδέναι**, 'what I do not know, I do not even think I know' (*Apology* 21d). The famous short form, 'I know that I know nothing', is a later paraphrase.\n\nThe method that went with it is the **ἔλεγχος**, the 'testing': ask for a definition, take an example from ordinary life, and show that the definition does not fit. It made him loved by the young and disliked by the people he tested.\n\nSocrates' habit of standing still in thought was famous. Plato's *Symposium* has him stop in a neighbour's porch on the way to a dinner party, and tells how at the siege of Potidaea he stood thinking from one dawn to the next, while soldiers brought their bedding out to watch.\n\nThe verb οἶδα itself tells a story. It is a perfect from the same root as εἶδον 'I saw' and Latin *video*: 'I have seen, so I know'. English *wit*, *wise* and *idea* are its cousins.",
+  "image": "culture-10-2-socrates"
+ },
+ "quiz": [
+  {
+   "type": "cloze-choice",
+   "prompt": "ἐγὼ τὸν Σωκράτη πολλάκις ___ (I have seen).",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἑώρακα"
+    },
+    {
+     "id": "b",
+     "text": "ἑώρων"
+    },
+    {
+     "id": "c",
+     "text": "ὁρῶ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.perf.act.ind.1sg"
+   ],
+   "explain": "ἑώρακα: the perfect of ὁράω."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the form of οἶδα for 'they know'.",
+   "lemma": "οἶδα",
+   "cell": "perfect.active.indicative.3pl",
+   "skills": [
+    "verb.oida"
+   ],
+   "explain": "ἴσασι(ν).",
+   "audio": "ἴσασιν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the perfect active of μανθάνω for 'they have learned'.",
+   "lemma": "μανθάνω",
+   "cell": "perfect.active.indicative.3pl",
+   "skills": [
+    "verb.perf.act.ind.3pl"
+   ],
+   "explain": "μεμαθήκασι(ν).",
+   "audio": "μεμαθήκασιν"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "Which ὡς? — ἡ Ἐλπὶς ὡς τάχιστα ἔδραμεν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "as … as possible"
+    },
+    {
+     "id": "b",
+     "text": "that"
+    },
+    {
+     "id": "c",
+     "text": "how …!"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.hos"
+   ],
+   "explain": "ὡς + superlative."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ἕστηκεν",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "verb-hesteke"
+    },
+    {
+     "id": "b",
+     "image": "verb-katheudei"
+    },
+    {
+     "id": "c",
+     "image": "verb-trechei"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition",
+    "verb.mi.histemi"
+   ],
+   "explain": "ἕστηκε(ν): he is standing."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Σωκράτης τῷ Λύσιδι εἶπε τί ἐστι τὸ δίκαιον.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "οὐκ οἶδα, ὦ παῖ· ἀλλὰ μετὰ σοῦ ζητήσω."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'I do not know.'",
+   "gaps": [
+    {
+     "answers": [
+      "οὐκ οἶδα",
+      "ἐγὼ οὐκ οἶδα"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "verb.oida"
+   ],
+   "explain": "οὐκ οἶδα."
+  }
+ ],
+ "skills": [
+  "verb.perf.act.ind.1sg",
+  "verb.perf.act.ind.3sg",
+  "verb.perf.act.ind.3pl",
+  "verb.plpf.act.ind.3sg",
+  "verb.perf.act.inf",
+  "verb.ptc.perf.act",
+  "verb.perf.reduplication",
+  "verb.oida",
+  "verb.mi.histemi",
+  "syntax.hos",
+  "syntax.word-order",
+  "read.comprehension",
+  "read.locate",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family",
+  "vocab.stage2"
+ ]
+}
