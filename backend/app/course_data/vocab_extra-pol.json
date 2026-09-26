@@ -511,6 +511,56 @@
   }
  },
  {
+  "lemma": "δικάζω",
+  "headword": "δικάζω, δικάσω, ἐδίκασα, δεδίκακα, δεδίκασμαι, ἐδικάσθην",
+  "definition": "judge, give judgement; sit as a juror",
+  "short": "judge, sit as juror",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "δικάζω"
+    ],
+    "future": [
+     "δικάσω"
+    ],
+    "aorist": [
+     "ἐδίκασα"
+    ],
+    "perfect": [
+     "δεδίκακα"
+    ],
+    "perfect-mp": [
+     "δεδίκασμαι"
+    ],
+    "aorist-passive": [
+     "ἐδικάσθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "δικάζω",
+    "δικάσω",
+    "ἐδίκασα",
+    "δεδίκακα",
+    "δεδίκασμαι",
+    "ἐδικάσθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "politics"
+  ],
+  "cognates": {
+   "cognates": [
+    "δίκη 'justice, lawsuit'",
+    "δικαστής 'juror'"
+   ]
+  }
+ },
+ {
   "lemma": "λαγχάνω",
   "headword": "λαγχάνω, λήξομαι, ἔλαχον, εἴληχα, εἴληγμαι, ἐλήχθην",
   "definition": "obtain by lot, be chosen by lot; δίκην λαγχάνειν τινί: bring a suit against someone",
@@ -692,6 +742,213 @@
    "derivatives": [
     "chromatic",
     "chromosome"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐμβάλλω",
+  "headword": "ἐμβάλλω, ἐμβαλῶ, ἐνέβαλον, ἐμβέβληκα, ἐμβέβλημαι, ἐνεβλήθην",
+  "definition": "throw in, put in; invade",
+  "short": "throw in, put in",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐμβάλλω"
+    ],
+    "future": [
+     "ἐμβαλῶ"
+    ],
+    "aorist": [
+     "ἐνέβαλον"
+    ],
+    "perfect": [
+     "ἐμβέβληκα"
+    ],
+    "perfect-mp": [
+     "ἐμβέβλημαι"
+    ],
+    "aorist-passive": [
+     "ἐνεβλήθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἐμβάλλω",
+    "ἐμβαλῶ",
+    "ἐνέβαλον",
+    "ἐμβέβληκα",
+    "ἐμβέβλημαι",
+    "ἐνεβλήθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "politics"
+  ],
+  "notes": "ἐν + βάλλω; the augment goes after the prefix and ν returns: ἐνέβαλον.",
+  "cognates": {
+   "derivatives": [
+    "emblem ('something inlaid')"
+   ]
+  }
+ },
+ {
+  "lemma": "στοιχεῖον",
+  "headword": "στοιχεῖον, στοιχείου, τό",
+  "definition": "letter of the alphabet; element",
+  "short": "letter; element",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "στοιχείου",
+   "gender": "n",
+   "article": "τό"
+  },
+  "topics": [
+   "politics"
+  ],
+  "cognates": {
+   "derivatives": [
+    "stoichiometry"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐπιγράφω",
+  "headword": "ἐπιγράφω, ἐπιγράψω, ἐπέγραψα, ἐπιγέγραφα, ἐπιγέγραμμαι, ἐπεγράφην",
+  "definition": "write upon, inscribe",
+  "short": "inscribe",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐπιγράφω"
+    ],
+    "future": [
+     "ἐπιγράψω"
+    ],
+    "aorist": [
+     "ἐπέγραψα"
+    ],
+    "perfect": [
+     "ἐπιγέγραφα"
+    ],
+    "perfect-mp": [
+     "ἐπιγέγραμμαι"
+    ],
+    "aorist-passive": [
+     "ἐπεγράφην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἐπιγράφω",
+    "ἐπιγράψω",
+    "ἐπέγραψα",
+    "ἐπιγέγραφα",
+    "ἐπιγέγραμμαι",
+    "ἐπεγράφην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "politics"
+  ],
+  "notes": "ἐπί + γράφω; perfect passive ἐπιγέγραπται 'is inscribed', participle ἐπιγεγραμμένος.",
+  "cognates": {
+   "derivatives": [
+    "epigraphy, epigram"
+   ]
+  }
+ },
+ {
+  "lemma": "ἕλκω",
+  "headword": "ἕλκω, ἕλξω, εἵλκυσα, εἵλκυκα, εἵλκυσμαι, εἱλκύσθην",
+  "definition": "drag, draw, pull out",
+  "short": "draw, drag",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἕλκω"
+    ],
+    "future": [
+     "ἕλξω"
+    ],
+    "aorist": [
+     "εἵλκυσα"
+    ],
+    "perfect": [
+     "εἵλκυκα"
+    ],
+    "perfect-mp": [
+     "εἵλκυσμαι"
+    ],
+    "aorist-passive": [
+     "εἱλκύσθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἕλκω",
+    "ἕλξω",
+    "εἵλκυσα",
+    "εἵλκυκα",
+    "εἵλκυσμαι",
+    "εἱλκύσθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "politics"
+  ],
+  "notes": "Imperfect εἷλκον; the aorist is formed from a longer stem: εἵλκυσα."
+ },
+ {
+  "lemma": "εἴσοδος",
+  "headword": "εἴσοδος, εἰσόδου, ἡ",
+  "definition": "entrance, way in",
+  "short": "entrance",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "εἰσόδου",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "notes": "Feminine like ἡ ὁδός (εἰς + ὁδός)."
+ },
+ {
+  "lemma": "κύβος",
+  "headword": "κύβος, κύβου, ὁ",
+  "definition": "cube, die; the bronze balls or cubes of the allotment machine",
+  "short": "die, cube",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "κύβου",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "politics"
+  ],
+  "cognates": {
+   "derivatives": [
+    "cube"
    ]
   }
  },

@@ -1,0 +1,1340 @@
+{
+ "id": "hist.5",
+ "title_grc": "Ἡ εἰρήνη",
+ "title_en": "The peace of 404",
+ "summary_grc": "οἱ Ἀθηναῖοι τῷ λιμῷ ἀπολλύμενοι τὴν εἰρήνην δέχονται, καὶ τὰ τείχη κατασκάπτεται ὑπʼ αὐλητρίδων.",
+ "summary_en": "404 BC: blockaded and starving, Athens sends Theramenes to Sparta. The terms: pull down the Long Walls, hand over the fleet, take back the exiles, follow Sparta by land and sea. The Assembly accepts, and the walls come down to the music of flute-girls. Xenophon, Hellenica 2.2.20–23, unadapted, with a short frame: ἐφʼ ᾧ + infinitive, fear clauses, ἔδοξε.",
+ "cover": "hist-panel-5-c",
+ "caption_grc": "καὶ τὰ τείχη κατέσκαπτον ὑπʼ αὐλητρίδων πολλῇ προθυμίᾳ.",
+ "original": {
+  "text": "xen-hell-2.2.20",
+  "note": "Xenophon, Hellenica 2.2.20–23, uncut. The first two sentences are ours: they borrow Xenophon's own words for the night the Paralus brought the news (2.2.3) and summarise the siege (2.2.10–19). The peace was accepted in spring 404 BC."
+ },
+ "names": {
+  "Λύσανδρος": [
+   "Λυσάνδρου",
+   "Λυσάνδρῳ",
+   "Λύσανδρον"
+  ],
+  "Πάραλος": [
+   "Παράλου",
+   "Παράλῳ",
+   "Πάραλον"
+  ],
+  "Θηραμένης": [
+   "Θηραμένους",
+   "Θηραμένει",
+   "Θηραμένην"
+  ],
+  "Λακεδαίμων": [
+   "Λακεδαίμονος",
+   "Λακεδαίμονι",
+   "Λακεδαίμονα"
+  ],
+  "Πειραιεύς": [
+   "Πειραιῶς",
+   "Πειραιεῖ",
+   "Πειραιᾶ"
+  ]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "hist-panel-5-a",
+   "sentences": [
+    {
+     "text": "ἐπεὶ δὲ ἡ Πάραλος νυκτὸς ἀφίκετο, οἰμωγὴ ἐκ τοῦ Πειραιῶς διὰ τῶν μακρῶν τειχῶν εἰς ἄστυ διῆκεν, καὶ ἐκείνης τῆς νυκτὸς οὐδεὶς ἐκοιμήθη.",
+     "glosses": [
+      {
+       "word": "οἰμωγὴ",
+       "kind": "en",
+       "value": "wailing, lamentation (ἡ οἰμωγή)"
+      },
+      {
+       "word": "διῆκεν",
+       "kind": "<",
+       "value": "διά + ἵημι | διῆκεν: spread through"
+      },
+      {
+       "word": "ἐκοιμήθη",
+       "kind": "en",
+       "value": "slept, went to sleep (κοιμάομαι)"
+      }
+     ]
+    },
+    {
+     "text": "ὕστερον δὲ ὁ μὲν Λύσανδρος ταῖς ναυσὶ τὸν Πειραιᾶ ἐπολιόρκει, πολλοὶ δὲ ἐν τῇ πόλει ὑπὸ τοῦ λιμοῦ ἀπέθνῃσκον, καὶ τέλος οἱ Ἀθηναῖοι Θηραμένην καὶ ἄλλους πρέσβεις εἰς Λακεδαίμονα περὶ εἰρήνης ἔπεμψαν.",
+     "glosses": [
+      {
+       "word": "ἐπολιόρκει",
+       "kind": "en",
+       "value": "besieged, blockaded (πολιορκέω)"
+      },
+      {
+       "word": "τέλος",
+       "kind": "note",
+       "value": "τέλος as an adverb: at last"
+      }
+     ]
+    },
+    {
+     "text": "Λακεδαιμόνιοι δὲ οὐκ ἔφασαν πόλιν Ἑλληνίδα ἀνδραποδιεῖν μέγα ἀγαθὸν εἰργασμένην ἐν τοῖς μεγίστοις κινδύνοις γενομένοις τῇ Ἑλλάδι, ἀλλʼ ἐποιοῦντο εἰρήνην ἐφʼ ᾧ τά τε μακρὰ τείχη καὶ τὸν Πειραιᾶ καθελόντας καὶ τὰς ναῦς πλὴν δώδεκα παραδόντας καὶ τοὺς φυγάδας καθέντας τὸν αὐτὸν ἐχθρὸν καὶ φίλον νομίζοντας Λακεδαιμονίοις ἕπεσθαι καὶ κατὰ γῆν καὶ κατὰ θάλατταν ὅποι ἂν ἡγῶνται.",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "Ἑλληνίδα",
+       "kind": "en",
+       "value": "Greek (feminine: ἡ Ἑλληνὶς πόλις)"
+      },
+      {
+       "word": "ἀνδραποδιεῖν",
+       "kind": "en",
+       "value": "to enslave (future infinitive of ἀνδραποδίζω)"
+      },
+      {
+       "word": "εἰργασμένην",
+       "kind": "|",
+       "value": "ἐργάζομαι | μέγα ἀγαθὸν εἰργασμένην: which had done great good (perfect participle)"
+      },
+      {
+       "word": "γενομένοις",
+       "kind": "note",
+       "value": "ἐν τοῖς μεγίστοις κινδύνοις γενομένοις τῇ Ἑλλάδι: in the greatest dangers that had befallen Greece (the Persian Wars)"
+      },
+      {
+       "word": "ᾧ",
+       "kind": "note",
+       "value": "ἐφʼ ᾧ + infinitive: on condition that; the accusative participles agree with the Athenians, the understood subject"
+      },
+      {
+       "word": "καθελόντας",
+       "kind": "en",
+       "value": "having pulled down (καθαιρέω, καθεῖλον)"
+      },
+      {
+       "word": "δώδεκα",
+       "kind": "=",
+       "value": "12"
+      },
+      {
+       "word": "καθέντας",
+       "kind": "<",
+       "value": "κατά + ἵημι | καθίημι: let back, allow to return"
+      },
+      {
+       "word": "ὅποι",
+       "kind": "en",
+       "value": "(to) wherever"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "hist-panel-5-b",
+   "sentences": [
+    {
+     "text": "Θηραμένης δὲ καὶ οἱ σὺν αὐτῷ πρέσβεις ἐπανέφερον ταῦτα εἰς τὰς Ἀθήνας.",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "ἐπανέφερον",
+       "kind": "<",
+       "value": "ἐπί + ἀνά + φέρω | ἐπαναφέρω: bring back (a report)"
+      }
+     ]
+    },
+    {
+     "text": "εἰσιόντας δʼ αὐτοὺς ὄχλος περιεχεῖτο πολύς, φοβούμενοι μὴ ἄπρακτοι ἥκοιεν·",
+     "orig": [
+      2
+     ],
+     "glosses": [
+      {
+       "word": "εἰσιόντας",
+       "kind": "|",
+       "value": "εἴσειμι (go in) | εἰσιόντας αὐτούς: them as they came in"
+      },
+      {
+       "word": "περιεχεῖτο",
+       "kind": "<",
+       "value": "περί + χέω (pour) | περιεχεῖτο: poured round, thronged about"
+      },
+      {
+       "word": "ἄπρακτοι",
+       "kind": "<",
+       "value": "ἀ- + πράττω | ἄπρακτος: with nothing done, empty-handed"
+      },
+      {
+       "word": "ἥκοιεν",
+       "kind": "note",
+       "value": "φοβούμενοι μὴ … ἥκοιεν: afraid that they had come back … (fear clause, optative after a past verb)"
+      }
+     ]
+    },
+    {
+     "text": "οὐ γὰρ ἔτι ἐνεχώρει μέλλειν διὰ τὸ πλῆθος τῶν ἀπολλυμένων τῷ λιμῷ.",
+     "orig": [
+      3
+     ],
+     "glosses": [
+      {
+       "word": "ἐνεχώρει",
+       "kind": "en",
+       "value": "it was possible (ἐγχωρεῖ, impersonal)"
+      },
+      {
+       "word": "μέλλειν",
+       "kind": "note",
+       "value": "μέλλω here: delay, wait"
+      }
+     ]
+    },
+    {
+     "text": "τῇ δὲ ὑστεραίᾳ ἀπήγγελλον οἱ πρέσβεις ἐφʼ οἷς οἱ Λακεδαιμόνιοι ποιοῖντο τὴν εἰρήνην·",
+     "orig": [
+      4
+     ],
+     "glosses": [
+      {
+       "word": "ὑστεραίᾳ",
+       "kind": "<",
+       "value": "ὕστερος | τῇ ὑστεραίᾳ (ἡμέρᾳ): on the next day"
+      },
+      {
+       "word": "οἷς",
+       "kind": "note",
+       "value": "ἐφʼ οἷς … ποιοῖντο: on what terms they were making the peace (indirect question, optative after a past verb)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "hist-panel-5-c",
+   "sentences": [
+    {
+     "text": "προηγόρει δὲ αὐτῶν Θηραμένης, λέγων ὡς χρὴ πείθεσθαι Λακεδαιμονίοις καὶ τὰ τείχη περιαιρεῖν.",
+     "orig": [
+      5
+     ],
+     "glosses": [
+      {
+       "word": "προηγόρει",
+       "kind": "en",
+       "value": "spoke for them, was their spokesman (προηγορέω)"
+      },
+      {
+       "word": "περιαιρεῖν",
+       "kind": "<",
+       "value": "περί + αἱρέω | περιαιρέω: take down, strip away"
+      }
+     ]
+    },
+    {
+     "text": "ἀντειπόντων δέ τινων αὐτῷ, πολὺ δὲ πλειόνων συνεπαινεσάντων, ἔδοξε δέχεσθαι τὴν εἰρήνην.",
+     "orig": [
+      6
+     ],
+     "glosses": [
+      {
+       "word": "ἀντειπόντων",
+       "kind": "<",
+       "value": "ἀντί + εἶπον | ἀντεῖπον: spoke against"
+      },
+      {
+       "word": "συνεπαινεσάντων",
+       "kind": "<",
+       "value": "σύν + ἐπαινέω | συνεπαινέω: join in approving"
+      }
+     ]
+    },
+    {
+     "text": "μετὰ δὲ ταῦτα Λύσανδρός τε κατέπλει εἰς τὸν Πειραιᾶ καὶ οἱ φυγάδες κατῇσαν καὶ τὰ τείχη κατέσκαπτον ὑπʼ αὐλητρίδων πολλῇ προθυμίᾳ, νομίζοντες ἐκείνην τὴν ἡμέραν τῇ Ἑλλάδι ἄρχειν τῆς ἐλευθερίας.",
+     "orig": [
+      7
+     ],
+     "glosses": [
+      {
+       "word": "κατέπλει",
+       "kind": "<",
+       "value": "κατά + πλέω | καταπλέω: sail in, sail into port"
+      },
+      {
+       "word": "κατῇσαν",
+       "kind": "<",
+       "value": "κατά + εἶμι | κάτειμι: come back from exile (imperfect κατῇσαν)"
+      },
+      {
+       "word": "κατέσκαπτον",
+       "kind": "<",
+       "value": "κατά + σκάπτω (dig) | κατασκάπτω: pull down, demolish"
+      },
+      {
+       "word": "αὐλητρίδων",
+       "kind": "pic",
+       "value": "aulos"
+      },
+      {
+       "word": "προθυμίᾳ",
+       "kind": "en",
+       "value": "eagerness, zeal (ἡ προθυμία)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ειρηνη",
+   "gloss_grc": "ἡ εἰρήνη ↔ ὁ πόλεμος · εἰρήνην ποιεῖσθαι (make peace)"
+  },
+  {
+   "id": "φυγας",
+   "gloss_grc": "ὁ φυγάς, φυγάδος < φεύγω · οἱ φυγάδες κατῇσαν"
+  },
+  {
+   "id": "ελευθερια",
+   "pic": "eleutheros",
+   "gloss_grc": "ἡ ἐλευθερία < ἐλεύθερος ↔ ἡ δουλεία"
+  },
+  {
+   "id": "λιμος",
+   "gloss_grc": "ὁ λιμός · τῷ λιμῷ ἀπόλλυσθαι"
+  },
+  {
+   "id": "οχλος",
+   "gloss_grc": "ὁ ὄχλος · ὄχλος πολύς"
+  },
+  {
+   "id": "εχθρος",
+   "gloss_grc": "ἐχθρός, -ά, -όν ↔ φίλος · ὁ ἐχθρός (the (personal) enemy)"
+  },
+  {
+   "id": "πληθος",
+   "gloss_grc": "τὸ πλῆθος, -ους · τὸ πλῆθος τῶν ἀπολλυμένων"
+  },
+  {
+   "id": "δεχομαι",
+   "gloss_grc": "δέχομαι · ἔδοξε δέχεσθαι τὴν εἰρήνην"
+  },
+  {
+   "id": "τειχος",
+   "pic": "culture-long-walls",
+   "gloss_grc": "τὸ τεῖχος · τὰ μακρὰ τείχη"
+  },
+  {
+   "id": "πρεσβυς",
+   "gloss_grc": "οἱ πρέσβεις: envoys"
+  },
+  {
+   "id": "συμμαχος",
+   "gloss_grc": "ὁ σύμμαχος · τὸν αὐτὸν ἐχθρὸν καὶ φίλον νομίζειν"
+  },
+  {
+   "id": "ηγεομαι",
+   "gloss_grc": "ἡγέομαι + dat. (lead) · ὅποι ἂν ἡγῶνται"
+  }
+ ],
+ "notice": [
+  "ἐποιοῦντο εἰρήνην ἐφʼ ᾧ τά τε μακρὰ τείχη … καθελόντας … ἕπεσθαι",
+  "φοβούμενοι μὴ ἄπρακτοι ἥκοιεν",
+  "ἀπήγγελλον οἱ πρέσβεις ἐφʼ οἷς οἱ Λακεδαιμόνιοι ποιοῖντο τὴν εἰρήνην",
+  "ἔδοξε δέχεσθαι τὴν εἰρήνην"
+ ],
+ "grammar": {
+  "md": "**Reading a treaty.** Greek historians report terms of peace in a fixed pattern, and once you know it the longest sentence in this lesson is easy.\n\n**1. ἐφʼ ᾧ + infinitive 'on condition that'.** The terms depend on one infinitive (ἕπεσθαι), and the other obligations are packed into participles that agree with its (unexpressed) subject, the Athenians, in the **accusative**:\n\n> ἐποιοῦντο εἰρήνην ἐφʼ ᾧ\n> — τά τε μακρὰ τείχη καὶ τὸν Πειραιᾶ **καθελόντας** (having pulled down)\n> — καὶ τὰς ναῦς πλὴν δώδεκα **παραδόντας** (having handed over)\n> — καὶ τοὺς φυγάδας **καθέντας** (having let back)\n> — τὸν αὐτὸν ἐχθρὸν καὶ φίλον **νομίζοντας** (considering)\n> — Λακεδαιμονίοις **ἕπεσθαι** … ὅποι ἂν ἡγῶνται. (to follow wherever they lead)\n\n**2. Reported speech after a past verb (9.3–9.4).** ἀπήγγελλον ἐφʼ οἷς … **ποιοῖντο** (indirect question, optative); φοβούμενοι μὴ … **ἥκοιεν** (fear clause, optative); λέγων ὡς **χρή** (indirect statement, the indicative kept).\n\n**3. How the Assembly decides.** The debate in genitive absolutes (ἀντειπόντων τινων … πλειόνων συνεπαινεσάντων), the result in the decree formula **ἔδοξε** + infinitive: 'it was resolved to accept the peace'. Inscribed decrees begin ἔδοξε τῇ βουλῇ καὶ τῷ δήμῳ.\n\n**4. The historian's irony.** The last sentence reports what the victors thought (νομίζοντες …): that the fall of Athens was the first day of freedom for Greece. Xenophon, writing after Sparta's own harsh rule, does not comment.",
+  "paradigms": [
+   "elpis"
+  ],
+  "diagram": "diagram-indirect"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings of the peace terms.",
+   "template": "ἐφʼ ᾧ τά τε μακρὰ τείχη καθελ___ καὶ τὰς ναῦς πλὴν δώδεκα παραδ___ καὶ τοὺς φυγάδας καθ___ τὸν αὐτὸν ἐχθρὸν καὶ φίλον νομίζ___ Λακεδαιμονίοις ἕπεσθαι.",
+   "gaps": [
+    {
+     "answers": [
+      "όντας"
+     ]
+    },
+    {
+     "answers": [
+      "όντας"
+     ]
+    },
+    {
+     "answers": [
+      "έντας"
+     ]
+    },
+    {
+     "answers": [
+      "οντας"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.ptc.aor.act.acc",
+    "adj.agree",
+    "read.hist.terms"
+   ],
+   "explain": "καθελόντας, παραδόντας, καθέντας (aorist participles) and νομίζοντας (present): all accusative plural, agreeing with the Athenians, the understood subject of ἕπεσθαι."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · οὐ γὰρ ἔτι ἐνεχώρει μέλλειν διὰ τὸ πλῆθος τῶν ἀπολλυμένων τῷ ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "λιμῷ"
+    },
+    {
+     "id": "b",
+     "text": "λιμένι"
+    },
+    {
+     "id": "c",
+     "text": "λόγῳ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.hist",
+    "syntax.dat.uses"
+   ],
+   "explain": "τῷ λιμῷ: of hunger (dative of cause). Do not confuse ὁ λιμός 'hunger' with ὁ λιμήν 'harbour'.",
+   "audio": "οὐ γὰρ ἔτι ἐνεχώρει μέλλειν διὰ τὸ πλῆθος τῶν ἀπολλυμένων τῷ λιμῷ."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · καὶ οἱ ___ κατῇσαν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "φυγάδες"
+    },
+    {
+     "id": "b",
+     "text": "φυγάς"
+    },
+    {
+     "id": "c",
+     "text": "φυγάδας"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.hist",
+    "noun.decl3.nom.pl"
+   ],
+   "explain": "οἱ φυγάδες: the exiles (nominative plural) came home.",
+   "audio": "καὶ οἱ φυγάδες κατῇσαν."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · νομίζοντες ἐκείνην τὴν ἡμέραν τῇ Ἑλλάδι ἄρχειν τῆς ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐλευθερίας"
+    },
+    {
+     "id": "b",
+     "text": "ἐλευθερίαν"
+    },
+    {
+     "id": "c",
+     "text": "ἐλευθερίᾳ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.hist",
+    "syntax.gen.uses"
+   ],
+   "explain": "ἄρχω 'begin' + genitive: 'to be the beginning of freedom'.",
+   "audio": "νομίζοντες ἐκείνην τὴν ἡμέραν τῇ Ἑλλάδι ἄρχειν τῆς ἐλευθερίας."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "τὰ μακρὰ τείχη",
+   "options": [
+    {
+     "id": "a",
+     "image": "culture-long-walls"
+    },
+    {
+     "id": "b",
+     "image": "pyrgos"
+    },
+    {
+     "id": "c",
+     "image": "limen"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition",
+    "vocab.hist"
+   ],
+   "explain": "τὰ μακρὰ τείχη: the Long Walls joining Athens to Piraeus.",
+   "audio": "prompt"
+  },
+  {
+   "type": "match",
+   "prompt": "Match the new words to their meanings.",
+   "pairs": [
+    {
+     "left": "ἡ εἰρήνη",
+     "right": "peace"
+    },
+    {
+     "left": "ὁ φυγάς",
+     "right": "exile"
+    },
+    {
+     "left": "ἡ ἐλευθερία",
+     "right": "freedom"
+    },
+    {
+     "left": "ὁ λιμός",
+     "right": "hunger, famine"
+    },
+    {
+     "left": "ὁ ὄχλος",
+     "right": "crowd"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.hist"
+   ],
+   "explain": "εἰρήνη, φυγάς, ἐλευθερία, λιμός, ὄχλος."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the genitive plural of ὁ φυγάς.",
+   "lemma": "φυγάς",
+   "cell": "gen.pl",
+   "skills": [
+    "noun.decl3.gen.pl",
+    "vocab.hist"
+   ],
+   "explain": "φυγάδων: stem φυγαδ-.",
+   "audio": "φυγάδων"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the present optative of ἥκω for 'that they had come' after φοβούμενοι μή.",
+   "lemma": "ἥκω",
+   "cell": "present.active.optative.3pl",
+   "skills": [
+    "syntax.fear",
+    "syntax.opt-secondary"
+   ],
+   "explain": "ἥκοιεν: after a past verb the fear clause may take the optative.",
+   "audio": "ἥκοιεν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of δοκέω for 'it was decided'.",
+   "lemma": "δοκέω",
+   "cell": "aorist.active.indicative.3sg",
+   "skills": [
+    "verb.impersonal",
+    "read.hist.terms"
+   ],
+   "explain": "ἔδοξε(ν): ἔδοξε τῷ δήμῳ 'the people decided' is the formula of every Athenian decree.",
+   "audio": "ἔδοξε"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse καθελόντας.",
+   "form": "καθελόντας",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "case",
+     "label": "Case",
+     "options": [
+      {
+       "id": "nom",
+       "label": "nominative"
+      },
+      {
+       "id": "gen",
+       "label": "genitive"
+      },
+      {
+       "id": "dat",
+       "label": "dative"
+      },
+      {
+       "id": "acc",
+       "label": "accusative"
+      },
+      {
+       "id": "voc",
+       "label": "vocative"
+      }
+     ]
+    },
+    {
+     "id": "number",
+     "label": "Number",
+     "options": [
+      {
+       "id": "sg",
+       "label": "singular"
+      },
+      {
+       "id": "pl",
+       "label": "plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "mood": "ptc",
+    "case": "acc",
+    "number": "pl"
+   },
+   "skills": [
+    "verb.ptc.aor.act.acc",
+    "verb.aor2.stem"
+   ],
+   "explain": "καθ-ελ-όντας: second aorist participle of καθαιρέω (αἱρέω, εἷλον, ἑλ-), accusative plural.",
+   "audio": "καθελόντας"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ποιοῖντο.",
+   "form": "ποιοῖντο",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "voice",
+     "label": "Voice",
+     "options": [
+      {
+       "id": "act",
+       "label": "active"
+      },
+      {
+       "id": "mid",
+       "label": "middle"
+      },
+      {
+       "id": "pass",
+       "label": "passive"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person and number",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "1st singular"
+      },
+      {
+       "id": "2sg",
+       "label": "2nd singular"
+      },
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "1pl",
+       "label": "1st plural"
+      },
+      {
+       "id": "2pl",
+       "label": "2nd plural"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "pres",
+    "voice": "mid",
+    "mood": "opt",
+    "person": "3pl"
+   },
+   "skills": [
+    "syntax.opt-indirect",
+    "syntax.indirect-question"
+   ],
+   "explain": "ποιέ-οιντο → ποιοῖντο: present middle optative, 3rd plural, in an indirect question after the past verb ἀπήγγελλον.",
+   "audio": "ποιοῖντο"
+  },
+  {
+   "type": "label",
+   "prompt": "ἐποιοῦντο εἰρήνην ἐφʼ ᾧ τὰ μακρὰ τείχη καθελόντας … ἕπεσθαι. What does ἐφʼ ᾧ introduce?",
+   "options": [
+    {
+     "id": "a",
+     "text": "the conditions of the peace: 'on condition that' + infinitive"
+    },
+    {
+     "id": "b",
+     "text": "the place where the peace was made"
+    },
+    {
+     "id": "c",
+     "text": "the reason for the peace"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.hist.terms"
+   ],
+   "explain": "ἐφʼ ᾧ (or ἐφʼ ᾧτε) + infinitive: 'on condition that'. The four participles list what the Athenians must do; ἕπεσθαι is the main term."
+  },
+  {
+   "type": "label",
+   "prompt": "φοβούμενοι μὴ ἄπρακτοι ἥκοιεν. What kind of clause is μὴ … ἥκοιεν?",
+   "options": [
+    {
+     "id": "a",
+     "text": "a fear clause: 'afraid that they had come back with nothing'"
+    },
+    {
+     "id": "b",
+     "text": "a prohibition: 'let them not come'"
+    },
+    {
+     "id": "c",
+     "text": "a condition: 'if they did not come'"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.fear"
+   ],
+   "explain": "φοβοῦμαι μή + subjunctive (optative after a past verb): 'I fear that' (8.2)."
+  },
+  {
+   "type": "label",
+   "prompt": "ἀντειπόντων δέ τινων αὐτῷ, πολὺ δὲ πλειόνων συνεπαινεσάντων, ἔδοξε δέχεσθαι τὴν εἰρήνην. How is the vote reported?",
+   "options": [
+    {
+     "id": "a",
+     "text": "two genitive absolutes (a few against, many more in favour) and the decree ἔδοξε + infinitive"
+    },
+    {
+     "id": "b",
+     "text": "two relative clauses"
+    },
+    {
+     "id": "c",
+     "text": "a direct quotation of the decree"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.gen-abs",
+    "read.hist.terms"
+   ],
+   "explain": "τινων ἀντειπόντων … πλειόνων συνεπαινεσάντων: the debate in two genitive absolutes; ἔδοξε δέχεσθαι: 'it was resolved to accept'."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the four participles that list the Athenians' obligations.",
+   "sentence": "Λακεδαιμόνιοι δὲ οὐκ ἔφασαν πόλιν Ἑλληνίδα ἀνδραποδιεῖν μέγα ἀγαθὸν εἰργασμένην ἐν τοῖς μεγίστοις κινδύνοις γενομένοις τῇ Ἑλλάδι, ἀλλʼ ἐποιοῦντο εἰρήνην ἐφʼ ᾧ τά τε μακρὰ τείχη καὶ τὸν Πειραιᾶ καθελόντας καὶ τὰς ναῦς πλὴν δώδεκα παραδόντας καὶ τοὺς φυγάδας καθέντας τὸν αὐτὸν ἐχθρὸν καὶ φίλον νομίζοντας Λακεδαιμονίοις ἕπεσθαι καὶ κατὰ γῆν καὶ κατὰ θάλατταν ὅποι ἂν ἡγῶνται.",
+   "answer": [
+    29,
+    35,
+    39,
+    45
+   ],
+   "skills": [
+    "read.locate",
+    "read.hist.terms"
+   ],
+   "explain": "καθελόντας (pull down), παραδόντας (hand over), καθέντας (let back), νομίζοντας (consider): the terms, in the accusative."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the two genitive absolute participles.",
+   "sentence": "ἀντειπόντων δέ τινων αὐτῷ, πολὺ δὲ πλειόνων συνεπαινεσάντων, ἔδοξε δέχεσθαι τὴν εἰρήνην.",
+   "answer": [
+    0,
+    7
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.gen-abs"
+   ],
+   "explain": "ἀντειπόντων (τινων) and συνεπαινεσάντων (πλειόνων)."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'They decided to accept the peace.'",
+   "tokens": [
+    "ἔδοξε",
+    "δέχεσθαι",
+    "τὴν",
+    "εἰρήνην"
+   ],
+   "answers": [
+    "ἔδοξε δέχεσθαι τὴν εἰρήνην",
+    "ἔδοξε τὴν εἰρήνην δέχεσθαι",
+    "τὴν εἰρήνην ἔδοξε δέχεσθαι"
+   ],
+   "skills": [
+    "syntax.word-order",
+    "read.hist.terms"
+   ],
+   "explain": "ἔδοξε δέχεσθαι τὴν εἰρήνην (Xenophon's order)."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "καὶ τὰ τείχη κατέσκαπτον ὑπʼ αὐλητρίδων."
+    },
+    {
+     "id": "b",
+     "text": "καὶ τὰ τείχη ᾠκοδόμουν ὑπʼ αὐλητρίδων."
+    },
+    {
+     "id": "c",
+     "text": "καὶ τὰς ναῦς κατέκαιον ὑπʼ αὐλητρίδων."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "And they pulled down the walls to the music of flute-girls.",
+   "audio": "καὶ τὰ τείχη κατέσκαπτον ὑπʼ αὐλητρίδων."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "οἱ Λακεδαιμόνιοι τὰς Ἀθήνας ἀνδραποδίσαι ἐβούλοντο.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "οὐκ ἔφασαν πόλιν Ἑλληνίδα ἀνδραποδιεῖν μέγα ἀγαθὸν εἰργασμένην."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "οἱ Ἀθηναῖοι δώδεκα ναῦς ἔχειν ἔμελλον.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension",
+    "read.hist.terms"
+   ],
+   "explain": "τὰς ναῦς πλὴν δώδεκα παραδόντας: all but twelve."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "πάντες οἱ Ἀθηναῖοι τῷ Θηραμένει ἀντεῖπον.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἀντειπόντων τινων, πολὺ δὲ πλειόνων συνεπαινεσάντων."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "gaps": [
+    {
+     "answers": [
+      "ἔδοξε δέχεσθαι τὴν εἰρήνην"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "ἔδοξε δέχεσθαι τὴν εἰρήνην.",
+   "audio": "ἔδοξε δέχεσθαι τὴν εἰρήνην."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The exiles came back and the crowd rejoiced.' (use κατῇσαν and ἔχαιρεν)",
+   "gaps": [
+    {
+     "answers": [
+      "οἱ φυγάδες κατῇσαν καὶ ὁ ὄχλος ἔχαιρεν",
+      "οἱ φυγάδες κατῇσαν καὶ ἔχαιρεν ὁ ὄχλος",
+      "κατῇσαν οἱ φυγάδες καὶ ὁ ὄχλος ἔχαιρεν"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "vocab.hist"
+   ],
+   "explain": "οἱ φυγάδες κατῇσαν καὶ ὁ ὄχλος ἔχαιρεν."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: μετὰ δὲ ταῦτα Λύσανδρός τε κατέπλει εἰς τὸν Πειραιᾶ καὶ οἱ φυγάδες κατῇσαν καὶ τὰ τείχη κατέσκαπτον ὑπʼ αὐλητρίδων πολλῇ προθυμίᾳ, νομίζοντες ἐκείνην τὴν ἡμέραν τῇ Ἑλλάδι ἄρχειν τῆς ἐλευθερίας.",
+   "audio": "μετὰ δὲ ταῦτα Λύσανδρός τε κατέπλει εἰς τὸν Πειραιᾶ καὶ οἱ φυγάδες κατῇσαν καὶ τὰ τείχη κατέσκαπτον ὑπʼ αὐλητρίδων πολλῇ προθυμίᾳ, νομίζοντες ἐκείνην τὴν ἡμέραν τῇ Ἑλλάδι ἄρχειν τῆς ἐλευθερίας.",
+   "model": "After this Lysander sailed into Piraeus, the exiles came back, and they began pulling down the walls to the music of flute-girls with great eagerness, thinking that that day was the beginning of freedom for Greece.",
+   "skills": [
+    "read.xenophon",
+    "read.original",
+    "read.connected"
+   ],
+   "explain": "τε … καὶ … καί: three things happened; νομίζοντες agrees with the subject of κατέσκαπτον (the Peloponnesians and their allies)."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "ἡ εἰρήνη",
+     "right": "Irene, irenic ('peaceable')"
+    },
+    {
+     "left": "ὁ ὄχλος",
+     "right": "ochlocracy ('mob rule')"
+    },
+    {
+     "left": "ὁ φυγάς, φεύγω",
+     "right": "centrifugal (Latin fuga, the same root)"
+    },
+    {
+     "left": "τὸ πλῆθος",
+     "right": "plethora"
+    },
+    {
+     "left": "ὁ αὐλός",
+     "right": "hydraulic ('water pipe')"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "εἰρήνη 'peace'; ὄχλος + κράτος; fugio is Latin for φεύγω; πλῆθος 'fullness'; ὕδωρ + αὐλός."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί οἱ Λακεδαιμόνιοι οὐκ ἤθελον τὰς Ἀθήνας ἀνδραποδίσαι;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἡ γὰρ πόλις μέγα ἀγαθὸν τῇ Ἑλλάδι εἰργασμένη ἦν."
+    },
+    {
+     "id": "b",
+     "text": "οἱ γὰρ Ἀθηναῖοι πολλὰς ναῦς ἔτι εἶχον."
+    },
+    {
+     "id": "c",
+     "text": "ὁ γὰρ Λύσανδρος ἐκώλυσεν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "μέγα ἀγαθὸν εἰργασμένην ἐν τοῖς μεγίστοις κινδύνοις: the Persian Wars.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "πόσας ναῦς ἔξεστι τοῖς Ἀθηναίοις ἔχειν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "δώδεκα."
+    },
+    {
+     "id": "b",
+     "text": "οὐδεμίαν."
+    },
+    {
+     "id": "c",
+     "text": "ἑκατόν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "read.hist.terms"
+   ],
+   "explain": "τὰς ναῦς πλὴν δώδεκα παραδόντας.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐφοβεῖτο ὁ ὄχλος;",
+   "options": [
+    {
+     "id": "a",
+     "text": "μὴ οἱ πρέσβεις ἄπρακτοι ἥκοιεν."
+    },
+    {
+     "id": "b",
+     "text": "μὴ οἱ Λακεδαιμόνιοι εἰς τὴν πόλιν εἰσέλθοιεν."
+    },
+    {
+     "id": "c",
+     "text": "μὴ ὁ Θηραμένης ἀποθάνοι."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.fear"
+   ],
+   "explain": "φοβούμενοι μὴ ἄπρακτοι ἥκοιεν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἔλεγεν ὁ Θηραμένης;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὡς χρὴ πείθεσθαι Λακεδαιμονίοις καὶ τὰ τείχη περιαιρεῖν."
+    },
+    {
+     "id": "b",
+     "text": "ὡς χρὴ ἔτι πολεμεῖν."
+    },
+    {
+     "id": "c",
+     "text": "ὡς χρὴ εἰς Κύπρον φεύγειν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.indirect-hoti"
+   ],
+   "explain": "λέγων ὡς χρὴ πείθεσθαι Λακεδαιμονίοις καὶ τὰ τείχη περιαιρεῖν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐνόμιζον οἱ τὰ τείχη κατασκάπτοντες;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐκείνην τὴν ἡμέραν τῇ Ἑλλάδι ἄρχειν τῆς ἐλευθερίας."
+    },
+    {
+     "id": "b",
+     "text": "τὸν πόλεμον ἄρτι ἄρχεσθαι."
+    },
+    {
+     "id": "c",
+     "text": "τοὺς Ἀθηναίους νικᾶν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "syntax.indirect-inf"
+   ],
+   "explain": "νομίζοντες ἐκείνην τὴν ἡμέραν τῇ Ἑλλάδι ἄρχειν τῆς ἐλευθερίας.",
+   "audio": "prompt"
+  }
+ ],
+ "culture": {
+  "title": "The fall of Athens, 404 BC",
+  "md": "After Aegospotami Athens had no fleet and could not bring in grain. Lysander sailed round the Aegean restoring the exiled oligarchs of Athens' allies and sending every Athenian he found back to the city, to eat its food; the Spartan kings camped in the Academy and Lysander's fleet shut Piraeus. Through the winter of 405/404 people died of hunger. **Theramenes** spent three months with Lysander, then went to Sparta.\n\nCorinth and Thebes wanted Athens destroyed and its people sold, as Athens had done to Melos and Scione. Sparta refused, because of what Athens had done for Greece against Persia. The terms: the **Long Walls** and the walls of Piraeus pulled down, all but **twelve ships** handed over, the **exiles** (mostly oligarchs) allowed back, and Athens to have the same friends and enemies as Sparta and follow wherever Sparta led.\n\nIn spring 404 the Assembly accepted. Lysander sailed in, and the walls were pulled down 'to the music of flute-girls', the Peloponnesians believing that 'that day was the beginning of freedom for Greece'. Within months the returned exiles had set up the **Thirty** (hist.6). The walls were rebuilt by Conon, with Persian money, in 394–391. Stretches of the Themistoclean city wall can still be seen in the Kerameikos, next to the Dipylon Gate.",
+  "image": "hist-kerameikos-wall"
+ },
+ "quiz": [
+  {
+   "type": "produce-form",
+   "prompt": "Give the dative singular of ὁ λιμός.",
+   "lemma": "λιμός",
+   "cell": "dat.sg",
+   "skills": [
+    "noun.decl2.dat.sg",
+    "vocab.hist"
+   ],
+   "explain": "λιμῷ.",
+   "audio": "λιμῷ"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἐποιοῦντο εἰρήνην ἐφʼ ᾧ τὰ τείχη ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "καθελεῖν"
+    },
+    {
+     "id": "b",
+     "text": "καθεῖλον"
+    },
+    {
+     "id": "c",
+     "text": "καθαιρεῖ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.hist.terms"
+   ],
+   "explain": "ἐφʼ ᾧ + infinitive: on condition that (they) pull down the walls."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Θηραμένης ἔλεγεν ὅτι χρὴ πείθεσθαι Λακεδαιμονίοις.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "λέγων ὡς χρὴ πείθεσθαι Λακεδαιμονίοις."
+  },
+  {
+   "type": "label",
+   "prompt": "ἔδοξε δέχεσθαι τὴν εἰρήνην: ἔδοξε means …",
+   "options": [
+    {
+     "id": "a",
+     "text": "it was resolved"
+    },
+    {
+     "id": "b",
+     "text": "it seemed good to the Spartans only"
+    },
+    {
+     "id": "c",
+     "text": "he thought"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.hist.terms",
+    "verb.impersonal"
+   ],
+   "explain": "The formula of decisions: ἔδοξε τῷ δήμῳ."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ὄχλος ___ περιεχεῖτο.",
+   "options": [
+    {
+     "id": "a",
+     "text": "πολύς"
+    },
+    {
+     "id": "b",
+     "text": "πολλή"
+    },
+    {
+     "id": "c",
+     "text": "πολύ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "adj.megas-polys",
+    "adj.agree"
+   ],
+   "explain": "ὁ ὄχλος is masculine: ὄχλος πολύς."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἡ ἐλευθερία"
+    },
+    {
+     "id": "b",
+     "text": "ἡ εἰρήνη"
+    },
+    {
+     "id": "c",
+     "text": "ἡ ἡμέρα"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.words"
+   ],
+   "explain": "ἡ ἐλευθερία: freedom.",
+   "audio": "ἡ ἐλευθερία"
+  }
+ ],
+ "skills": [
+  "verb.ptc.aor.act.acc",
+  "adj.agree",
+  "read.hist.terms",
+  "vocab.hist",
+  "syntax.dat.uses",
+  "noun.decl3.nom.pl",
+  "syntax.gen.uses",
+  "vocab.recognition",
+  "noun.decl3.gen.pl",
+  "syntax.fear",
+  "syntax.opt-secondary",
+  "verb.impersonal",
+  "verb.aor2.stem",
+  "syntax.opt-indirect",
+  "syntax.indirect-question",
+  "syntax.gen-abs",
+  "read.locate",
+  "syntax.word-order",
+  "listen.sentences",
+  "read.comprehension",
+  "spell.dictation",
+  "vocab.production",
+  "read.xenophon",
+  "read.original",
+  "read.connected",
+  "vocab.family",
+  "syntax.indirect-hoti",
+  "syntax.indirect-inf",
+  "noun.decl2.dat.sg",
+  "adj.megas-polys",
+  "listen.words"
+ ]
+}

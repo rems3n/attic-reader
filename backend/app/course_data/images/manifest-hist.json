@@ -131,6 +131,107 @@
    "license": "placeholder",
    "source_url": null,
    "words": []
+  },
+  {
+   "id": "hist-panel-4-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "αἱ τῶν Ἀθηναίων νῆες ἐν Αἰγὸς ποταμοῖς ὁρμοῦσιν.",
+   "alt_en": "The Hellespont in late summer 405 BC, seen from above like a map: on the European shore the open beach of Aegospotami with some 180 Athenian triremes pulled up, the crews wandering inland; across the strait the town of Lampsacus and Lysander's fleet in its harbour; a small scout ship halfway across.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-4-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἀσπὶς αἴρεται· ὁ Λύσανδρος ἐπιπλεῖ.",
+   "alt_en": "Mid-strait, a scout ship's crewman raises a bronze shield that flashes in the sun; behind it Lysander's triremes surge across at full speed; on the far beach Conon, a general in a red cloak, signals frantically to men running back to half-empty ships.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-4-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ἡ Πάραλος εἰς τὰς Ἀθήνας ἀποπλεῖ.",
+   "alt_en": "A handful of fully manned triremes breaking away to the south, one flying a sacred pennant (the Paralus); on the beach behind, Spartan soldiers rounding up Athenian sailors beside captured, empty ships.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-aspis",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ἡ ἀσπίς",
+   "alt_en": "A hoplite's round bronze-faced shield (aspis), seen from the front and the inside with its arm-band and hand-grip.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ἀσπίς"
+   ]
+  },
+  {
+   "id": "hist-athlit-ram",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "τὸ ἔμβολον.",
+   "alt_en": "The Athlit ram: a bronze warship ram of about 200 BC found off the coast of Israel (National Maritime Museum, Haifa), showing the three horizontal cutting blades.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-5-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "νυκτὸς οἰμωγὴ διὰ τῶν μακρῶν τειχῶν διήκει.",
+   "alt_en": "Night in Athens, 405 BC: torches along the Long Walls between Piraeus and the city; people coming out of their houses, women lamenting, a man running up the road between the walls with the news; in the harbour a single trireme with a sacred pennant.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-5-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὄχλος πολὺς τοὺς πρέσβεις περιχεῖται.",
+   "alt_en": "Spring 404 BC at the city gate: thin, hungry Athenians crowding round a returning embassy led by Theramenes, a well-dressed man raising a hand to calm them.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-5-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "τὰ τείχη κατασκάπτουσιν ὑπʼ αὐλητρίδων.",
+   "alt_en": "Peloponnesian soldiers and returned exiles pulling down a stretch of the Long Walls with crowbars and ropes while flute-girls play the double pipes; Spartan ships sailing into Piraeus in the background.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-kerameikos-wall",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "τὸ Θεμιστόκλειον τεῖχος ἐν τῷ Κεραμεικῷ.",
+   "alt_en": "The excavated remains of the Themistoclean city wall and the Dipylon Gate in the Kerameikos, Athens: stone socle courses with the later mudbrick removed.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
   }
  ]
 }

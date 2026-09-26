@@ -43,6 +43,94 @@
    "license": "placeholder",
    "source_url": null,
    "words": []
+  },
+  {
+   "id": "phil-panel-2-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Εὐθύφρων τῷ Σωκράτει πρὸ τῆς τοῦ βασιλέως στοᾶς ἐντυγχάνει.",
+   "alt_en": "Morning in the north-west corner of the Agora, 399 BC: in front of a small Doric colonnade (the King's Porch) the grey-bearded Socrates waits; Euthyphro, a self-important seer in a fine cloak, hurries up to greet him in surprise.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-panel-2-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Μέλητος, νέος τις καὶ ἀγνώς, τὴν γραφὴν ἐν τῇ στοᾷ τίθησιν.",
+   "alt_en": "Inside the colonnade: a young man with lank hair, a thin beard and a hooked nose (Meletus) hands a written charge to the King Archon's clerk; a notice board with whitened tablets behind them.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-panel-2-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Εὐθύφρων σπεύδει· ὁ δὲ Σωκράτης μόνος ἀπορεῖ.",
+   "alt_en": "Euthyphro hurrying off across the Agora with his cloak flapping, glancing back; Socrates stands alone by the porch, one hand on his chin, still puzzling.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-culture-2-stoa-basileios",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ἡ τοῦ βασιλέως στοὰ ἐν τῇ ἀγορᾷ.",
+   "alt_en": "The foundations of the Stoa Basileios (the King's Porch) in the Athenian Agora, excavated in 1970, with the Hephaisteion on the hill behind (site photograph, CC).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-panel-3-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "πρῲ ὁ Σωκράτης εἰς τὸ γυμνάσιον ἔρχεται· πληθούσης δὲ τῆς ἀγορᾶς ἐκεῖ φανερός ἐστιν.",
+   "alt_en": "A split scene: left, early morning at a gymnasium outside the walls, youths exercising under plane trees while Socrates walks and talks in a covered walk; right, the Agora full of stalls and shoppers at mid-morning, Socrates in the middle of a small crowd.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-panel-3-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Σωκράτης ἐρωτᾷ· τί δίκαιον, τί ἄδικον; οἱ δὲ νεανίαι ἀκούουσιν.",
+   "alt_en": "Socrates sits on a stone bench in a colonnade, counting questions on his fingers; around him young men listen, one of them (young Xenophon, a horseman's riding boots on) taking notes on a wax tablet.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-panel-3-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Εὐθύδημος πολλὰ βιβλία ἔχει· ὁ δὲ Σωκράτης αὐτὸν ἐρωτᾷ.",
+   "alt_en": "A saddler's shop near the Agora where young men gather: the proud young Euthydemus holding an armful of papyrus rolls; Socrates questions him; in an inset, the words ΓΝΩΘΙ ΣΑΥΤΟΝ carved on a temple wall at Delphi.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "phil-culture-3-gnothi-mosaic",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "γνῶθι σαυτόν.",
+   "alt_en": "Roman floor mosaic of a reclining skeleton beside the Greek words ΓΝΩΘΙ ΣΑΥΤΟΝ, 'know yourself', 1st–3rd century AD (Rome, Museo Nazionale Romano; museum object, photograph CC).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
   }
  ]
 }

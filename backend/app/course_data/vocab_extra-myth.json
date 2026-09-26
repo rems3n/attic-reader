@@ -1164,6 +1164,72 @@
   }
  },
  {
+  "lemma": "παραγίγνομαι",
+  "headword": "παραγίγνομαι, παραγενήσομαι, παρεγενόμην, παραγέγονα",
+  "definition": "be present, arrive, come (to: εἰς + acc. or + dat.); later Greek spells it παραγίνομαι",
+  "short": "arrive, be present",
+  "kind": "verb",
+  "subclass": "verb-deponent",
+  "pos": "verb: deponent",
+  "morph": {
+   "parts": {
+    "present": [
+     "παραγίγνομαι"
+    ],
+    "future": [
+     "παραγενήσομαι"
+    ],
+    "aorist": [
+     "παρεγενόμην"
+    ],
+    "aorist-2": [
+     "παρεγενόμην"
+    ],
+    "perfect": [
+     "παραγέγονα"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "παραγίγνομαι",
+    "παραγενήσομαι",
+    "παρεγενόμην",
+    "παραγέγονα"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "γίγνομαι"
+   ]
+  }
+ },
+ {
+  "lemma": "κιθάρα",
+  "headword": "κιθάρα, κιθάρας, ἡ",
+  "definition": "kithara, lyre (the concert lyre with a wooden sound box)",
+  "short": "lyre",
+  "kind": "noun",
+  "subclass": "noun-1",
+  "pos": "noun: 1st declension",
+  "morph": {
+   "genitive": "κιθάρας",
+   "gender": "f",
+   "article": "ἡ"
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "derivatives": [
+    "guitar, zither (through Arabic and Latin cithara)"
+   ]
+  }
+ },
+ {
   "lemma": "λέων",
   "headword": "λέων, λέοντος, ὁ",
   "definition": "lion",

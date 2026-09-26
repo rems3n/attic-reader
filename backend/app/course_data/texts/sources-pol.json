@@ -66,7 +66,7 @@
    "file": "tlg0540/tlg024/tlg0540.tlg024.perseus-grc2.xml",
    "urn": "urn:cts:greekLit:tlg0540.tlg024.perseus-grc2",
    "refs": ["4", "5", "6"],
-   "max_sentences": 9
+   "max_sentences": 10
   },
   {
    "id": "lysias-12.4",

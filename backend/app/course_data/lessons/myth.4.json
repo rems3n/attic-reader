@@ -1,0 +1,1596 @@
+{
+ "id": "myth.4",
+ "title_grc": "Ἡρακλῆς ἐν τῇ εὐνῇ",
+ "title_en": "Heracles in the cradle",
+ "summary_grc": "ὁ Ζεὺς ὅμοιος Ἀμφιτρύωνι γίγνεται· ἡ Ἀλκμήνη δύο παῖδας τίκτει· ὁ Ἡρακλῆς τοὺς δράκοντας ἄγχων διαφθείρει, καὶ ὕστερον τὸν διδάσκαλον τῇ κιθάρᾳ ἀποκτείνει.",
+ "summary_en": "Apollodorus 2.4.8–9, lightly adapted: every sentence is his, with a few words cut. Zeus takes Amphitryon's shape, the twins Heracles and Iphicles are born, Hera sends two serpents to the cradle, and the young hero kills his music teacher and pleads self-defence. And one sentence asks: was it really Hera's doing?",
+ "cover": "myth-4-b",
+ "caption_grc": "Ἡρακλῆς διαναστὰς ἄγχων ἑκατέραις ταῖς χερσὶν αὐτοὺς διέφθειρε.",
+ "original": {
+  "text": "apollod-2.4.8",
+  "note": "Apollodorus, Library 2.4.8–9 (to Heracles being sent to the cattle farms), lightly adapted: one story sentence for each sentence of the original, with a few words cut and nothing rewritten. Apollodorus wrote in the 1st or 2nd century AD; the Pherecydes he quotes in sentence 7 was an Athenian writer of the 5th century BC."
+ },
+ "names": {
+  "Ἀμφιτρύων": [
+   "Ἀμφιτρύωνος",
+   "Ἀμφιτρύωνι",
+   "Ἀμφιτρύωνα"
+  ],
+  "Ἀλκμήνη": [
+   "Ἀλκμήνης",
+   "Ἀλκμήνῃ",
+   "Ἀλκμήνην"
+  ],
+  "Θῆβαι": [
+   "Θηβῶν",
+   "Θήβαις",
+   "Θήβας"
+  ],
+  "Θηβαῖος": [
+   "Θηβαίου",
+   "Θηβαῖον",
+   "Θηβαῖοι",
+   "Θηβαίων"
+  ],
+  "Τηλεβόαι": [
+   "Τηλεβοῶν"
+  ],
+  "Τειρεσίας": [
+   "Τειρεσίου",
+   "Τειρεσίᾳ",
+   "Τειρεσίαν"
+  ],
+  "Ἡρακλῆς": [
+   "Ἡρακλέους",
+   "Ἡρακλεῖ",
+   "Ἡρακλέα",
+   "Ἡράκλεις"
+  ],
+  "Ἰφικλῆς": [
+   "Ἰφικλέους",
+   "Ἰφικλεῖ",
+   "Ἰφικλέα"
+  ],
+  "Φερεκύδης": [
+   "Φερεκύδου",
+   "Φερεκύδην"
+  ],
+  "Αὐτόλυκος": [
+   "Αὐτολύκου"
+  ],
+  "Εὔρυτος": [
+   "Εὐρύτου"
+  ],
+  "Κάστωρ": [
+   "Κάστορος"
+  ],
+  "Λίνος": [
+   "Λίνου",
+   "Λίνῳ",
+   "Λίνον"
+  ],
+  "Ὀρφεύς": [
+   "Ὀρφέως"
+  ],
+  "Ῥαδάμανθυς": [
+   "Ῥαδαμάνθυος"
+  ]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "myth-4-a",
+   "sentences": [
+    {
+     "text": "πρὸ τοῦ δὲ Ἀμφιτρύωνα παραγενέσθαι εἰς Θήβας Ζεύς, διὰ νυκτὸς ἐλθὼν καὶ τὴν μίαν τριπλασιάσας νύκτα, ὅμοιος Ἀμφιτρύωνι γενόμενος Ἀλκμήνῃ συνευνάσθη καὶ τὰ γενόμενα περὶ Τηλεβοῶν διηγήσατο.",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "πρὸ",
+       "kind": "note",
+       "value": "πρὸ τοῦ … Ἀμφιτρύωνα παραγενέσθαι: 'before Amphitryon arrived' (articular infinitive after πρό; Amphitryon was away at war with the Teleboans)"
+      },
+      {
+       "word": "παραγενέσθαι",
+       "kind": "|",
+       "value": "παραγίγνομαι (arrive, be present) | παραγενέσθαι (aorist infinitive)"
+      },
+      {
+       "word": "τριπλασιάσας",
+       "kind": "en",
+       "value": "having made three times as long (τριπλάσιος 'threefold')"
+      },
+      {
+       "word": "συνευνάσθη",
+       "kind": "en",
+       "value": "lay with her, as if he were her husband (συνευνάζομαι, aorist passive)"
+      },
+      {
+       "word": "Τηλεβοῶν",
+       "kind": "note",
+       "value": "the Teleboans, islanders whom Amphitryon was fighting: Zeus even told her the news of the war"
+      },
+      {
+       "word": "διηγήσατο",
+       "kind": "|",
+       "value": "διηγέομαι (tell in full) | διηγήσατο (aorist)"
+      }
+     ]
+    },
+    {
+     "text": "Ἀμφιτρύων δὲ παραγενόμενος, ὡς οὐχ ἑώρα φιλοφρονουμένην πρὸς αὐτὸν τὴν γυναῖκα, ἐπυνθάνετο τὴν αἰτίαν·",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "ἑώρα",
+       "kind": "|",
+       "value": "ὁράω | ἑώρα (imperfect, with a double augment: saw)"
+      },
+      {
+       "word": "φιλοφρονουμένην",
+       "kind": "en",
+       "value": "welcoming him warmly (φιλοφρονέομαι)"
+      },
+      {
+       "word": "ἐπυνθάνετο",
+       "kind": "|",
+       "value": "πυνθάνομαι (inquire, learn) | ἐπυνθάνετο (imperfect: asked)"
+      }
+     ]
+    },
+    {
+     "text": "εἰπούσης δὲ ὅτι τῇ προτέρᾳ νυκτὶ παραγενόμενος αὐτῇ συγκεκοίμηται, μανθάνει παρὰ Τειρεσίου τὴν γενομένην τοῦ Διὸς συνουσίαν.",
+     "orig": [
+      2
+     ],
+     "glosses": [
+      {
+       "word": "εἰπούσης",
+       "kind": "note",
+       "value": "εἰπούσης (αὐτῆς): genitive absolute with the subject left out, 'when she said'"
+      },
+      {
+       "word": "προτέρᾳ",
+       "kind": "en",
+       "value": "the previous (night)"
+      },
+      {
+       "word": "συγκεκοίμηται",
+       "kind": "en",
+       "value": "he had slept with her (συγκοιμάομαι, perfect, kept from her words: 'he has slept')"
+      },
+      {
+       "word": "Τειρεσίου",
+       "kind": "note",
+       "value": "Teiresias, the blind seer (ὁ μάντις) of Thebes"
+      },
+      {
+       "word": "συνουσίαν",
+       "kind": "en",
+       "value": "union, being together (ἡ συνουσία < σύν + οὐσία)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "myth-4-b",
+   "sentences": [
+    {
+     "text": "Ἀλκμήνη δὲ δύο ἐγέννησε παῖδας, Διὶ μὲν Ἡρακλέα, μιᾷ νυκτὶ πρεσβύτερον, Ἀμφιτρύωνι δὲ Ἰφικλέα.",
+     "orig": [
+      3
+     ],
+     "glosses": [
+      {
+       "word": "ἐγέννησε",
+       "kind": "|",
+       "value": "γεννάω | ἐγέννησε(ν) (aorist: gave birth to)"
+      },
+      {
+       "word": "πρεσβύτερον",
+       "kind": "<",
+       "value": "πρέσβυς (old) | πρεσβύτερος (older, elder): 'older by one night'"
+      }
+     ]
+    },
+    {
+     "text": "τοῦ δὲ παιδὸς ὄντος ὀκταμηνιαίου δύο δράκοντας ὑπερμεγέθεις Ἥρα ἐπὶ τὴν εὐνὴν ἔπεμψε, διαφθαρῆναι τὸ βρέφος θέλουσα.",
+     "orig": [
+      4
+     ],
+     "glosses": [
+      {
+       "word": "ὀκταμηνιαίου",
+       "kind": "<",
+       "value": "ὀκτώ + μήν (month) | ὀκταμηνιαῖος (eight months old)"
+      },
+      {
+       "word": "ὑπερμεγέθεις",
+       "kind": "<",
+       "value": "ὑπέρ + μέγεθος | ὑπερμεγέθης (enormous); accusative plural"
+      },
+      {
+       "word": "εὐνὴν",
+       "kind": "en",
+       "value": "bed, cradle (ἡ εὐνή)"
+      },
+      {
+       "word": "διαφθαρῆναι",
+       "kind": "|",
+       "value": "διαφθείρω (destroy) | διαφθαρῆναι (aorist passive infinitive: to be destroyed)"
+      },
+      {
+       "word": "βρέφος",
+       "kind": "en",
+       "value": "baby (τὸ βρέφος, -ους)"
+      },
+      {
+       "word": "θέλουσα",
+       "kind": "=",
+       "value": "ἐθέλουσα (θέλω = ἐθέλω, the usual form in later Greek)"
+      }
+     ]
+    },
+    {
+     "text": "ἐπιβοωμένης δὲ Ἀλκμήνης Ἀμφιτρύωνα, Ἡρακλῆς διαναστὰς ἄγχων ἑκατέραις ταῖς χερσὶν αὐτοὺς διέφθειρε.",
+     "orig": [
+      5
+     ],
+     "glosses": [
+      {
+       "word": "ἐπιβοωμένης",
+       "kind": "<",
+       "value": "ἐπί + βοάω | ἐπιβοωμένης (calling to her aid: genitive absolute)"
+      },
+      {
+       "word": "διαναστὰς",
+       "kind": "<",
+       "value": "διά + ἀνίστημι | διαναστάς (jumping up: root aorist participle)"
+      },
+      {
+       "word": "ἄγχων",
+       "kind": "en",
+       "value": "strangling (ἄγχω)"
+      },
+      {
+       "word": "ἑκατέραις",
+       "kind": "en",
+       "value": "with each of his two hands (ἑκάτερος)"
+      }
+     ]
+    },
+    {
+     "text": "Φερεκύδης δέ φησιν Ἀμφιτρύωνα, βουλόμενον μαθεῖν ὁπότερος ἦν τῶν παίδων ἐκείνου, τοὺς δράκοντας εἰς τὴν εὐνὴν ἐμβαλεῖν, καὶ τοῦ μὲν Ἰφικλέους φυγόντος τοῦ δὲ Ἡρακλέους ὑποστάντος μαθεῖν ὡς Ἰφικλῆς ἐξ αὐτοῦ γεγέννηται.",
+     "orig": [
+      6
+     ],
+     "glosses": [
+      {
+       "word": "Φερεκύδης",
+       "kind": "note",
+       "value": "Pherecydes of Athens, a 5th-century BC writer of genealogies: here the 'variant' is almost a rationalisation"
+      },
+      {
+       "word": "ὁπότερος",
+       "kind": "en",
+       "value": "which of the two"
+      },
+      {
+       "word": "ἐκείνου",
+       "kind": "note",
+       "value": "ἐκείνου = Amphitryon's own: 'which of the two was his son'"
+      },
+      {
+       "word": "ἐμβαλεῖν",
+       "kind": "<",
+       "value": "ἐν + βάλλω | ἐμβαλεῖν (to throw in)"
+      },
+      {
+       "word": "ὑποστάντος",
+       "kind": "<",
+       "value": "ὑπό + ἵστημι | ὑποστάς (standing his ground)"
+      },
+      {
+       "word": "γεγέννηται",
+       "kind": "|",
+       "value": "γεννάω | γεγέννηται (perfect passive: had been born, is his son)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "myth-4-c",
+   "sentences": [
+    {
+     "text": "ἐδιδάχθη δὲ Ἡρακλῆς ἁρματηλατεῖν μὲν ὑπὸ Ἀμφιτρύωνος, παλαίειν δὲ ὑπὸ Αὐτολύκου, τοξεύειν δὲ ὑπὸ Εὐρύτου, ὁπλομαχεῖν δὲ ὑπὸ Κάστορος, κιθαρῳδεῖν δὲ ὑπὸ Λίνου.",
+     "orig": [
+      7
+     ],
+     "glosses": [
+      {
+       "word": "ἐδιδάχθη",
+       "kind": "|",
+       "value": "διδάσκω | ἐδιδάχθη (aorist passive: was taught)"
+      },
+      {
+       "word": "ἁρματηλατεῖν",
+       "kind": "<",
+       "value": "τὸ ἅρμα (chariot) + ἐλαύνω | ἁρματηλατεῖν (to drive a chariot)"
+      },
+      {
+       "word": "παλαίειν",
+       "kind": "en",
+       "value": "to wrestle (cf. ἡ παλαίστρα)"
+      },
+      {
+       "word": "τοξεύειν",
+       "kind": "<",
+       "value": "τὸ τόξον | τοξεύω (shoot with a bow)"
+      },
+      {
+       "word": "ὁπλομαχεῖν",
+       "kind": "<",
+       "value": "ὅπλα + μάχομαι | ὁπλομαχεῖν (to fight in armour)"
+      },
+      {
+       "word": "κιθαρῳδεῖν",
+       "kind": "<",
+       "value": "κιθάρα + ᾠδή | κιθαρῳδεῖν (to sing to the lyre)"
+      }
+     ]
+    },
+    {
+     "text": "οὗτος δὲ ἦν ἀδελφὸς Ὀρφέως·",
+     "orig": [
+      8
+     ],
+     "glosses": [
+      {
+       "word": "Ὀρφέως",
+       "kind": "note",
+       "value": "Orpheus, the singer whose music moved even stones"
+      }
+     ]
+    },
+    {
+     "text": "ἀφικόμενος δὲ εἰς Θήβας καὶ Θηβαῖος γενόμενος ὑπὸ Ἡρακλέους τῇ κιθάρᾳ πληγεὶς ἀπέθανεν·",
+     "orig": [
+      9
+     ],
+     "glosses": [
+      {
+       "word": "κιθάρᾳ",
+       "kind": "pic",
+       "value": "myth-kithara"
+      },
+      {
+       "word": "πληγεὶς",
+       "kind": "|",
+       "value": "πλήττω | πληγείς (aorist passive participle: struck)"
+      }
+     ]
+    },
+    {
+     "text": "ἐπιπλήξαντα γὰρ αὐτὸν ὀργισθεὶς ἀπέκτεινε.",
+     "orig": [
+      10
+     ],
+     "glosses": [
+      {
+       "word": "ἐπιπλήξαντα",
+       "kind": "<",
+       "value": "ἐπί + πλήττω | ἐπιπλήξαντα (having struck him first, having hit him)"
+      },
+      {
+       "word": "ὀργισθεὶς",
+       "kind": "note",
+       "value": "Heracles, in anger, killed Linus, who had struck him"
+      }
+     ]
+    },
+    {
+     "text": "δίκην δὲ ἐπαγόντων τινῶν αὐτῷ φόνου, παρανέγνω νόμον Ῥαδαμάνθυος λέγοντος, ὃς ἂν ἀμύνηται τὸν χειρῶν ἀδίκων κατάρξαντα, ἀθῷον εἶναι, καὶ οὕτως ἀπελύθη.",
+     "orig": [
+      11
+     ],
+     "glosses": [
+      {
+       "word": "ἐπαγόντων",
+       "kind": "note",
+       "value": "δίκην ἐπάγειν τινί: to bring a charge against someone"
+      },
+      {
+       "word": "φόνου",
+       "kind": "en",
+       "value": "of murder (ὁ φόνος); genitive of the charge"
+      },
+      {
+       "word": "παρανέγνω",
+       "kind": "<",
+       "value": "παρά + ἀναγιγνώσκω | παρανέγνω (read out in court: root aorist)"
+      },
+      {
+       "word": "Ῥαδαμάνθυος",
+       "kind": "note",
+       "value": "Rhadamanthys, the just king, later a judge of the dead"
+      },
+      {
+       "word": "ἀμύνηται",
+       "kind": "en",
+       "value": "defends himself against (ἀμύνομαι, subjunctive with ὃς ἄν)"
+      },
+      {
+       "word": "κατάρξαντα",
+       "kind": "en",
+       "value": "the one who started it (κατάρχω + gen.: begin); χειρῶν ἀδίκων: 'unjust blows'"
+      },
+      {
+       "word": "ἀθῷον",
+       "kind": "en",
+       "value": "unpunished, innocent"
+      },
+      {
+       "word": "ἀπελύθη",
+       "kind": "|",
+       "value": "ἀπό + λύω | ἀπελύθη (was acquitted)"
+      }
+     ]
+    },
+    {
+     "text": "δείσας δὲ Ἀμφιτρύων μὴ πάλιν τι ποιήσῃ τοιοῦτον, ἔπεμψεν αὐτὸν εἰς τὰ βουφόρβια.",
+     "orig": [
+      12
+     ],
+     "glosses": [
+      {
+       "word": "βουφόρβια",
+       "kind": "<",
+       "value": "ὁ βοῦς (ox) + φέρβω (feed) | τὰ βουφόρβια (cattle farms, grazing land)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "παραγιγνομαι",
+   "gloss_grc": "παρά + γίγνομαι · παρεγενόμην (παραγενέσθαι) — arrive, be present"
+  },
+  {
+   "id": "διηγεομαι",
+   "gloss_grc": "διηγέομαι · διηγησάμην — tell in full"
+  },
+  {
+   "id": "πυνθανομαι",
+   "gloss_grc": "πυνθάνομαι · πεύσομαι · ἐπυθόμην — inquire; learn by asking"
+  },
+  {
+   "id": "διαφθειρω",
+   "gloss_grc": "διαφθείρω · διαφθερῶ · διέφθειρα · διεφθάρην — destroy, kill"
+  },
+  {
+   "id": "ευνη",
+   "pic": "myth-eune",
+   "gloss_grc": "ἡ εὐνή: bed, cradle"
+  },
+  {
+   "id": "βρεφος",
+   "gloss_grc": "τὸ βρέφος, τοῦ βρέφους: baby"
+  },
+  {
+   "id": "αγχω",
+   "gloss_grc": "ἄγχω · ἦγξα — strangle"
+  },
+  {
+   "id": "κιθαρα",
+   "pic": "myth-kithara",
+   "gloss_grc": "ἡ κιθάρα: the lyre"
+  },
+  {
+   "id": "τοξευω",
+   "gloss_grc": "τὸ τόξον → τοξεύω · ἐτόξευσα"
+  },
+  {
+   "id": "φονος",
+   "gloss_grc": "ὁ φόνος: murder, killing · δίκη φόνου: a trial for murder"
+  },
+  {
+   "id": "γενναω",
+   "gloss_grc": "γεννάω · γεγέννηται (perfect passive)"
+  },
+  {
+   "id": "δρακων",
+   "gloss_grc": "ὁ δράκων · δύο δράκοντες"
+  }
+ ],
+ "notice": [
+  "πρὸ τοῦ δὲ Ἀμφιτρύωνα παραγενέσθαι εἰς Θήβας",
+  "εἰπούσης δὲ ὅτι … · ἐπιβοωμένης δὲ Ἀλκμήνης Ἀμφιτρύωνα · τοῦ μὲν Ἰφικλέους φυγόντος τοῦ δὲ Ἡρακλέους ὑποστάντος",
+  "Φερεκύδης δέ φησιν Ἀμφιτρύωνα … τοὺς δράκοντας εἰς τὴν εὐνὴν ἐμβαλεῖν",
+  "ἐδιδάχθη δὲ Ἡρακλῆς ἁρματηλατεῖν μὲν ὑπὸ Ἀμφιτρύωνος, παλαίειν δὲ ὑπὸ Αὐτολύκου"
+ ],
+ "grammar": {
+  "md": "**Reading Apollodorus unaided: participles and absolutes.** From this lesson on the story is Apollodorus' own text. Nearly every sentence is built the same way: circumstances first (participles, genitive absolutes), then one main verb.\n\n**1. Count the genitive absolutes.** This passage has four:\n\n| Greek | literally | English |\n|---|---|---|\n| εἰπούσης δὲ (αὐτῆς) ὅτι … | she having said that … | when she said that … |\n| τοῦ δὲ παιδὸς ὄντος ὀκταμηνιαίου | the child being eight months old | when the child was eight months old |\n| ἐπιβοωμένης δὲ Ἀλκμήνης | Alcmene calling for help | while Alcmene was calling for Amphitryon |\n| τοῦ μὲν Ἰφικλέους φυγόντος, τοῦ δὲ Ἡρακλέους ὑποστάντος | Iphicles having fled, Heracles having stood firm | when Iphicles ran away and Heracles stood his ground |\n\n**2. The articular infinitive with a preposition.** πρὸ τοῦ … παραγενέσθαι 'before arriving': the article τοῦ makes the infinitive a noun, governed by πρό. Its subject is accusative: πρὸ τοῦ Ἀμφιτρύωνα παραγενέσθαι 'before Amphitryon arrived' (Unit 10).\n\n**3. A rationalising variant.** Sentence 7 reports Pherecydes in indirect statement: φησιν Ἀμφιτρύωνα … ἐμβαλεῖν … καὶ … μαθεῖν 'he says that Amphitryon put the snakes in the bed … and learned'. In this version there is no angry goddess: a father makes a cruel test to find out which twin is his. Greek writers from the 5th century on liked to make myths more plausible like this; Palaephatus later wrote a whole book of such explanations.\n\n**4. A list with μέν … δέ.** ἐδιδάχθη … ἁρματηλατεῖν μὲν ὑπὸ Ἀμφιτρύωνος, παλαίειν δὲ ὑπὸ Αὐτολύκου …: one passive verb, five infinitives, five teachers with ὑπό.",
+  "paradigms": [],
+  "diagram": "diagram-gen-abs"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings (Apollodorus' sentences).",
+   "template": "Ἀλκμήνη δὲ δύο ἐγέννησε παῖδ___. Ἥρα δύο δράκοντ___ ἐπὶ τὴν εὐν___ ἔπεμψε. Ἡρακλῆς ἑκατέραις ταῖς χερσ___ αὐτοὺς διέφθειρε.",
+   "gaps": [
+    {
+     "answers": [
+      "ας"
+     ]
+    },
+    {
+     "answers": [
+      "ας"
+     ]
+    },
+    {
+     "answers": [
+      "ὴν",
+      "ην"
+     ]
+    },
+    {
+     "answers": [
+      "ὶν",
+      "ίν",
+      "ιν",
+      "ὶ",
+      "ί"
+     ]
+    }
+   ],
+   "skills": [
+    "noun.decl3.acc.pl",
+    "noun.decl1.acc.sg",
+    "noun.decl3.dat.pl"
+   ],
+   "explain": "παῖδας, δράκοντας (accusative plural); τὴν εὐνήν (after ἐπί + accusative); ταῖς χερσί(ν) (dative plural of χείρ)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · Ἥρα δύο δράκοντας ἐπὶ τὴν εὐνὴν ἔπεμψε, διαφθαρῆναι τὸ ___ θέλουσα.",
+   "options": [
+    {
+     "id": "a",
+     "text": "βρέφος"
+    },
+    {
+     "id": "b",
+     "text": "ὄρος"
+    },
+    {
+     "id": "c",
+     "text": "γένος"
+    }
+   ],
+   "answer": "a",
+   "audio": "Ἥρα δύο δράκοντας ἐπὶ τὴν εὐνὴν ἔπεμψε, διαφθαρῆναι τὸ βρέφος θέλουσα.",
+   "skills": [
+    "vocab.myth",
+    "noun.decl3.sigma"
+   ],
+   "explain": "τὸ βρέφος 'the baby', an -ος neuter like γένος."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · Ἡρακλῆς ___ ἑκατέραις ταῖς χερσὶν αὐτοὺς διέφθειρε.",
+   "options": [
+    {
+     "id": "a",
+     "text": "τοξεύων"
+    },
+    {
+     "id": "b",
+     "text": "ἄγχων"
+    },
+    {
+     "id": "c",
+     "text": "διηγούμενος"
+    }
+   ],
+   "answer": "b",
+   "audio": "Ἡρακλῆς ἄγχων ἑκατέραις ταῖς χερσὶν αὐτοὺς διέφθειρε.",
+   "skills": [
+    "vocab.myth",
+    "verb.ptc.pres.act"
+   ],
+   "explain": "ἄγχων 'strangling' (present participle of ἄγχω)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · Ἀμφιτρύων ___ τὴν αἰτίαν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐπυνθάνετο"
+    },
+    {
+     "id": "b",
+     "text": "ἐδιδάχθη"
+    },
+    {
+     "id": "c",
+     "text": "ἀπελύθη"
+    }
+   ],
+   "answer": "a",
+   "audio": "Ἀμφιτρύων ἐπυνθάνετο τὴν αἰτίαν.",
+   "skills": [
+    "vocab.myth",
+    "verb.impf.mp.ind.3sg"
+   ],
+   "explain": "ἐπυνθάνετο 'asked, tried to find out' (πυνθάνομαι, imperfect)."
+  },
+  {
+   "type": "match",
+   "prompt": "Match the new words to their meanings.",
+   "pairs": [
+    {
+     "left": "ἡ εὐνή",
+     "right": "bed, cradle"
+    },
+    {
+     "left": "τὸ βρέφος",
+     "right": "baby"
+    },
+    {
+     "left": "ἄγχω",
+     "right": "strangle"
+    },
+    {
+     "left": "ἡ κιθάρα",
+     "right": "lyre"
+    },
+    {
+     "left": "ὁ φόνος",
+     "right": "murder"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "εὐνή, βρέφος (-ους), ἄγχω, κιθάρα, φόνος (δίκη φόνου)."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ἡ κιθάρα",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "myth-kithara"
+    },
+    {
+     "id": "b",
+     "image": "myth-eune"
+    },
+    {
+     "id": "c",
+     "image": "toxon"
+    },
+    {
+     "id": "d",
+     "image": "myth-dory"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "ἡ κιθάρα: the lyre Linus taught and Heracles broke."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist passive of διαφθείρω for 'he was destroyed'.",
+   "lemma": "διαφθείρω",
+   "cell": "second aorist.passive.indicative.3sg",
+   "audio": "διεφθάρη",
+   "skills": [
+    "vocab.production",
+    "verb.aor.pass.ind.3sg"
+   ],
+   "explain": "διεφθάρη: a second aorist passive (no θ), stem φθαρ-; infinitive διαφθαρῆναι as in the text."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of πυνθάνομαι for 'he learned'.",
+   "lemma": "πυνθάνομαι",
+   "cell": "aorist.middle.indicative.3sg",
+   "audio": "ἐπύθετο",
+   "skills": [
+    "vocab.production",
+    "verb.aor2.stem"
+   ],
+   "explain": "ἐπύθετο: second aorist ἐπυθόμην, stem πυθ-."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the accusative singular of εὐνή (ἐπὶ τὴν ___).",
+   "lemma": "εὐνή",
+   "cell": "acc.sg",
+   "audio": "εὐνήν",
+   "skills": [
+    "noun.decl1.acc.sg",
+    "vocab.myth"
+   ],
+   "explain": "εὐνήν."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἐπιβοωμένης.",
+   "form": "ἐπιβοωμένης",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "case",
+     "label": "Case",
+     "options": [
+      {
+       "id": "nom",
+       "label": "nominative"
+      },
+      {
+       "id": "gen",
+       "label": "genitive"
+      },
+      {
+       "id": "dat",
+       "label": "dative"
+      },
+      {
+       "id": "acc",
+       "label": "accusative"
+      },
+      {
+       "id": "voc",
+       "label": "vocative"
+      }
+     ]
+    },
+    {
+     "id": "gender",
+     "label": "Gender",
+     "options": [
+      {
+       "id": "m",
+       "label": "masculine"
+      },
+      {
+       "id": "f",
+       "label": "feminine"
+      },
+      {
+       "id": "n",
+       "label": "neuter"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "pres",
+    "mood": "ptc",
+    "case": "gen",
+    "gender": "f"
+   },
+   "audio": "ἐπιβοωμένης",
+   "skills": [
+    "verb.ptc.pres.mp.gen",
+    "syntax.gen-abs"
+   ],
+   "explain": "ἐπιβοω-μένης: present middle participle, genitive feminine, with Ἀλκμήνης: a genitive absolute."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἐδιδάχθη.",
+   "form": "ἐδιδάχθη",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "voice",
+     "label": "Voice",
+     "options": [
+      {
+       "id": "act",
+       "label": "active"
+      },
+      {
+       "id": "mid",
+       "label": "middle"
+      },
+      {
+       "id": "pass",
+       "label": "passive"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person and number",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "1st singular"
+      },
+      {
+       "id": "2sg",
+       "label": "2nd singular"
+      },
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "1pl",
+       "label": "1st plural"
+      },
+      {
+       "id": "2pl",
+       "label": "2nd plural"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "voice": "pass",
+    "person": "3sg"
+   },
+   "audio": "ἐδιδάχθη",
+   "skills": [
+    "verb.aor.pass.ind.3sg"
+   ],
+   "explain": "ἐ-διδάχ-θη: aorist passive of διδάσκω (διδαχ-θη), 'he was taught'; the teachers follow with ὑπό."
+  },
+  {
+   "type": "label",
+   "prompt": "τοῦ δὲ παιδὸς ὄντος ὀκταμηνιαίου, … Ἥρα ἔπεμψε. What is τοῦ παιδὸς ὄντος ὀκταμηνιαίου?",
+   "options": [
+    {
+     "id": "a",
+     "text": "a genitive absolute: 'when the child was eight months old'"
+    },
+    {
+     "id": "b",
+     "text": "the object of ἔπεμψε"
+    },
+    {
+     "id": "c",
+     "text": "a genitive of comparison"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.gen-abs",
+    "read.myth.apollodorus"
+   ],
+   "explain": "Noun + participle in the genitive, not governed: the setting of the main action."
+  },
+  {
+   "type": "label",
+   "prompt": "Φερεκύδης δέ φησιν Ἀμφιτρύωνα … τοὺς δράκοντας εἰς τὴν εὐνὴν ἐμβαλεῖν. In Pherecydes' version, who sent the snakes?",
+   "options": [
+    {
+     "id": "a",
+     "text": "Hera, as before"
+    },
+    {
+     "id": "b",
+     "text": "Amphitryon himself, to test which twin was his"
+    },
+    {
+     "id": "c",
+     "text": "Zeus"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "read.myth.variants",
+    "syntax.indirect-inf"
+   ],
+   "explain": "Accusative Ἀμφιτρύωνα + infinitive ἐμβαλεῖν: 'that Amphitryon put the serpents in the bed'. A human explanation instead of a divine one."
+  },
+  {
+   "type": "label",
+   "prompt": "πρὸ τοῦ δὲ Ἀμφιτρύωνα παραγενέσθαι. What is τοῦ … παραγενέσθαι?",
+   "options": [
+    {
+     "id": "a",
+     "text": "an articular infinitive after πρό: 'before Amphitryon arrived'"
+    },
+    {
+     "id": "b",
+     "text": "a genitive absolute"
+    },
+    {
+     "id": "c",
+     "text": "a purpose clause"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.articular-inf"
+   ],
+   "explain": "The article makes the infinitive a noun; Ἀμφιτρύωνα is its subject (accusative)."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἐδιδάχθη δὲ Ἡρακλῆς παλαίειν ___ Αὐτολύκου. (by Autolycus)",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὑπὸ"
+    },
+    {
+     "id": "b",
+     "text": "ἐκ"
+    },
+    {
+     "id": "c",
+     "text": "διὰ"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.agent"
+   ],
+   "explain": "ὑπό + genitive: the agent of a passive verb."
+  },
+  {
+   "type": "transform",
+   "prompt": "Put the historic present into the aorist: μανθάνει παρὰ Τειρεσίου τὴν … συνουσίαν. → ___ παρὰ Τειρεσίου.",
+   "template": "___ παρὰ Τειρεσίου.",
+   "gaps": [
+    {
+     "answers": [
+      "ἔμαθε",
+      "ἔμαθεν"
+     ]
+    }
+   ],
+   "audio": "ἔμαθε παρὰ Τειρεσίου.",
+   "skills": [
+    "verb.historic-present",
+    "verb.aor2.stem"
+   ],
+   "explain": "μανθάνω, second aorist ἔμαθον: ἔμαθε(ν)."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make the passive active: ὁ Λίνος ὑπὸ Ἡρακλέους ἀπεκτάνθη. → ὁ Ἡρακλῆς τὸν Λίνον ___.",
+   "template": "ὁ Ἡρακλῆς τὸν Λίνον ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἀπέκτεινε",
+      "ἀπέκτεινεν"
+     ]
+    }
+   ],
+   "audio": "ὁ Ἡρακλῆς τὸν Λίνον ἀπέκτεινεν.",
+   "skills": [
+    "syntax.agent",
+    "verb.aor.act.ind.3sg"
+   ],
+   "explain": "ἀπέκτεινε(ν): liquid aorist of ἀποκτείνω."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the three participles.",
+   "sentence": "ἐπιβοωμένης δὲ Ἀλκμήνης Ἀμφιτρύωνα, Ἡρακλῆς διαναστὰς ἄγχων ἑκατέραις ταῖς χερσὶν αὐτοὺς διέφθειρε.",
+   "answer": [
+    0,
+    5,
+    6
+   ],
+   "skills": [
+    "read.locate",
+    "verb.ptc.use"
+   ],
+   "explain": "ἐπιβοωμένης (genitive absolute with Ἀλκμήνης), διαναστάς 'jumping up', ἄγχων 'strangling'; the main verb is διέφθειρε."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the five infinitives of what Heracles learned.",
+   "sentence": "ἐδιδάχθη δὲ Ἡρακλῆς ἁρματηλατεῖν μὲν ὑπὸ Ἀμφιτρύωνος, παλαίειν δὲ ὑπὸ Αὐτολύκου, τοξεύειν δὲ ὑπὸ Εὐρύτου, ὁπλομαχεῖν δὲ ὑπὸ Κάστορος, κιθαρῳδεῖν δὲ ὑπὸ Λίνου.",
+   "answer": [
+    3,
+    7,
+    11,
+    15,
+    19
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.infinitive"
+   ],
+   "explain": "Chariot-driving, wrestling, archery, fighting in armour and singing to the lyre, each with its teacher in ὑπό + genitive."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'Alcmene bore two sons.'",
+   "tokens": [
+    "Ἀλκμήνη",
+    "δύο",
+    "παῖδας",
+    "ἐγέννησε"
+   ],
+   "answers": [
+    "Ἀλκμήνη δύο παῖδας ἐγέννησε",
+    "Ἀλκμήνη ἐγέννησε δύο παῖδας",
+    "δύο παῖδας Ἀλκμήνη ἐγέννησε",
+    "δύο παῖδας ἐγέννησε Ἀλκμήνη"
+   ],
+   "skills": [
+    "syntax.word-order"
+   ],
+   "explain": "Greek word order is free; Apollodorus writes Ἀλκμήνη δὲ δύο ἐγέννησε παῖδας."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "οὗτος δὲ ἦν ἀδελφὸς Ὀρφέως."
+    },
+    {
+     "id": "b",
+     "text": "οὗτος δὲ ἦν πατὴρ Ὀρφέως."
+    },
+    {
+     "id": "c",
+     "text": "οὗτος δὲ ἦν διδάσκαλος Ὀρφέως."
+    }
+   ],
+   "answer": "a",
+   "audio": "οὗτος δὲ ἦν ἀδελφὸς Ὀρφέως.",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "Linus was Orpheus' brother."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Ἡρακλῆς μιᾷ νυκτὶ πρεσβύτερος ἦν τοῦ Ἰφικλέους.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "Διὶ μὲν Ἡρακλέα, μιᾷ νυκτὶ πρεσβύτερον."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "κατὰ τὸν Φερεκύδην ἡ Ἥρα τοὺς δράκοντας ἔπεμψεν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "Pherecydes says Amphitryon put them in the bed."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "οἱ δικασταὶ τὸν Ἡρακλέα ἀπέλυσαν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "καὶ οὕτως ἀπελύθη: he was acquitted."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "gaps": [
+    {
+     "answers": [
+      "ἐδιδάχθη δὲ Ἡρακλῆς τοξεύειν"
+     ]
+    }
+   ],
+   "audio": "ἐδιδάχθη δὲ Ἡρακλῆς τοξεύειν.",
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "'Heracles was taught to shoot with the bow.'"
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Heracles killed the serpents.'",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ Ἡρακλῆς τοὺς δράκοντας ἀπέκτεινεν",
+      "ὁ Ἡρακλῆς τοὺς δράκοντας ἀπέκτεινε",
+      "ὁ Ἡρακλῆς τοὺς δράκοντας διέφθειρεν",
+      "ὁ Ἡρακλῆς τοὺς δράκοντας διέφθειρε",
+      "Ἡρακλῆς τοὺς δράκοντας ἀπέκτεινεν",
+      "Ἡρακλῆς τοὺς δράκοντας ἀπέκτεινε",
+      "Ἡρακλῆς τοὺς δράκοντας διέφθειρεν",
+      "Ἡρακλῆς τοὺς δράκοντας διέφθειρε",
+      "ὁ Ἡρακλῆς ἀπέκτεινε τοὺς δράκοντας",
+      "ὁ Ἡρακλῆς ἀπέκτεινεν τοὺς δράκοντας",
+      "ὁ Ἡρακλῆς διέφθειρε τοὺς δράκοντας",
+      "ὁ Ἡρακλῆς διέφθειρεν τοὺς δράκοντας"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "vocab.myth"
+   ],
+   "explain": "ἀπέκτεινε(ν) or διέφθειρε(ν), both liquid aorists."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: Φερεκύδης δέ φησιν Ἀμφιτρύωνα, βουλόμενον μαθεῖν ὁπότερος ἦν τῶν παίδων ἐκείνου, τοὺς δράκοντας εἰς τὴν εὐνὴν ἐμβαλεῖν, καὶ τοῦ μὲν Ἰφικλέους φυγόντος τοῦ δὲ Ἡρακλέους ὑποστάντος μαθεῖν ὡς Ἰφικλῆς ἐξ αὐτοῦ γεγέννηται.",
+   "audio": "Φερεκύδης δέ φησιν Ἀμφιτρύωνα, βουλόμενον μαθεῖν ὁπότερος ἦν τῶν παίδων ἐκείνου, τοὺς δράκοντας εἰς τὴν εὐνὴν ἐμβαλεῖν, καὶ τοῦ μὲν Ἰφικλέους φυγόντος τοῦ δὲ Ἡρακλέους ὑποστάντος μαθεῖν ὡς Ἰφικλῆς ἐξ αὐτοῦ γεγέννηται.",
+   "model": "Pherecydes says that Amphitryon, wanting to find out which of the two children was his, threw the serpents into the bed, and when Iphicles fled and Heracles stood his ground, he learned that Iphicles was his son.",
+   "skills": [
+    "read.original",
+    "read.myth.variants",
+    "syntax.gen-abs",
+    "syntax.indirect-inf"
+   ],
+   "explain": "φησιν + accusative and infinitive (ἐμβαλεῖν, μαθεῖν); the μέν … δέ genitive absolutes; ὡς 'that'."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "ἡ κιθάρα",
+     "right": "guitar, zither"
+    },
+    {
+     "left": "τοξεύω (τὸ τόξον)",
+     "right": "toxic, toxophily"
+    },
+    {
+     "left": "ἡ εὐνή",
+     "right": "eunuch (εὐνοῦχος 'keeper of the bed')"
+    },
+    {
+     "left": "ὁ δράκων",
+     "right": "dragon"
+    },
+    {
+     "left": "παλαίω (ἡ παλαίστρα)",
+     "right": "palaestra"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "κιθάρα → Latin cithara → guitar, zither; τόξον 'bow' (toxic from τοξικόν, arrow poison); εὐνή + ἔχω; δράκων; παλαίστρα 'wrestling school'."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "τίνι ὅμοιος ἐγένετο ὁ Ζεύς;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τῷ Ἀμφιτρύωνι."
+    },
+    {
+     "id": "b",
+     "text": "τῷ Τειρεσίᾳ."
+    },
+    {
+     "id": "c",
+     "text": "τῷ Ἡρακλεῖ."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension",
+    "read.myth"
+   ],
+   "explain": "ὅμοιος Ἀμφιτρύωνι γενόμενος."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "παρὰ τίνος ἔμαθεν ὁ Ἀμφιτρύων τὴν τοῦ Διὸς συνουσίαν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "παρὰ τῆς Ἥρας."
+    },
+    {
+     "id": "b",
+     "text": "παρὰ τοῦ Τειρεσίου."
+    },
+    {
+     "id": "c",
+     "text": "παρὰ τοῦ Λίνου."
+    }
+   ],
+   "answer": "b",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "μανθάνει παρὰ Τειρεσίου."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τίς τοὺς δράκοντας ἐπὶ τὴν εὐνὴν ἔπεμψεν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἡ Ἥρα, ὡς λέγει ὁ Ἀπολλόδωρος."
+    },
+    {
+     "id": "b",
+     "text": "ἡ Ἀλκμήνη."
+    },
+    {
+     "id": "c",
+     "text": "ὁ Ἰφικλῆς."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "δύο δράκοντας ὑπερμεγέθεις Ἥρα ἐπὶ τὴν εὐνὴν ἔπεμψε."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί ἀπελύθη ὁ Ἡρακλῆς;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ γὰρ Λίνος οὐκ ἀπέθανεν."
+    },
+    {
+     "id": "b",
+     "text": "νόμον γὰρ τοῦ Ῥαδαμάνθυος παρανέγνω."
+    },
+    {
+     "id": "c",
+     "text": "ὁ γὰρ Ζεὺς τοὺς δικαστὰς ἔπεισεν."
+    }
+   ],
+   "answer": "b",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension",
+    "read.myth"
+   ],
+   "explain": "παρανέγνω νόμον Ῥαδαμάνθυος … καὶ οὕτως ἀπελύθη."
+  }
+ ],
+ "culture": {
+  "title": "Heracles goes to school",
+  "md": "Athenians loved the idea of the strongest hero as a schoolboy. A red-figure **skyphos by the Pistoxenos Painter** (about 470 BC, now in Schwerin) shows young Heracles walking to his lesson behind an old tattooed Thracian nurse, **Geropso**, who carries his lyre; on the other side his brother Iphicles sits at his lesson with **Linus**. Other cups show the next scene: Heracles smashing a stool or the lyre over his teacher's head.\n\nThe story fitted Athenian life. Boys of citizen families learned letters, music (the lyre, and singing the poets) and athletics, often escorted by an enslaved *paidagogos*, as Lysis was in Unit 4. Linus' fate made a good joke for teachers and pupils alike.\n\nThe lawsuit matters too. Apollodorus says Heracles was acquitted by reading out a law of **Rhadamanthys**: whoever defends himself against someone who started the violence is innocent. Athenian homicide law had a similar idea: killing in self-defence against an attacker was 'lawful killing' and was tried at the court of the Delphinion. The myth borrows the courtroom the audience knew from Unit 11.",
+  "image": "myth-culture-4"
+ },
+ "quiz": [
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist middle infinitive of παραγίγνομαι ('to arrive').",
+   "lemma": "παραγίγνομαι",
+   "cell": "aorist.middle.infinitive.inf",
+   "audio": "παραγενέσθαι",
+   "skills": [
+    "vocab.production",
+    "verb.aor2.stem"
+   ],
+   "explain": "παραγενέσθαι (like γενέσθαι)."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "___ δὲ Ἀλκμήνης Ἀμφιτρύωνα, Ἡρακλῆς … αὐτοὺς διέφθειρε.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἐπιβοωμένης"
+    },
+    {
+     "id": "b",
+     "text": "ἐπιβοωμένη"
+    },
+    {
+     "id": "c",
+     "text": "ἐπιβοωμένην"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.gen-abs"
+   ],
+   "explain": "Genitive absolute, agreeing with Ἀλκμήνης."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse διαφθαρῆναι.",
+   "form": "διαφθαρῆναι",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "voice",
+     "label": "Voice",
+     "options": [
+      {
+       "id": "act",
+       "label": "active"
+      },
+      {
+       "id": "mid",
+       "label": "middle"
+      },
+      {
+       "id": "pass",
+       "label": "passive"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "voice": "pass",
+    "mood": "inf"
+   },
+   "audio": "διαφθαρῆναι",
+   "skills": [
+    "verb.aor.pass.inf"
+   ],
+   "explain": "διαφθαρ-ῆναι: aorist passive infinitive (second aorist passive, no θ)."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Λίνος τὸν Ἡρακλέα κιθαρῳδεῖν ἐδίδασκεν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "κιθαρῳδεῖν δὲ ὑπὸ Λίνου."
+  },
+  {
+   "type": "match",
+   "prompt": "Match the new words to their meanings.",
+   "pairs": [
+    {
+     "left": "παραγίγνομαι",
+     "right": "arrive"
+    },
+    {
+     "left": "διηγέομαι",
+     "right": "narrate"
+    },
+    {
+     "left": "πυνθάνομαι",
+     "right": "inquire, learn"
+    },
+    {
+     "left": "διαφθείρω",
+     "right": "destroy"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "παρα-γίγνομαι, δι-ηγέομαι, πυνθάνομαι (ἐπυθόμην), δια-φθείρω."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Ἡρακλῆς διαναστὰς ἄγχων αὐτοὺς διέφθειρε."
+    },
+    {
+     "id": "b",
+     "text": "Ἰφικλῆς διαναστὰς φεύγων ἐβόα."
+    },
+    {
+     "id": "c",
+     "text": "Ἡρακλῆς τὸν Λίνον τῇ κιθάρᾳ ἔπληξεν."
+    }
+   ],
+   "answer": "a",
+   "audio": "Ἡρακλῆς διαναστὰς ἄγχων αὐτοὺς διέφθειρε.",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "Heracles jumped up and strangled them."
+  }
+ ],
+ "skills": [
+  "read.original",
+  "read.myth",
+  "read.myth.apollodorus",
+  "read.myth.variants",
+  "read.comprehension",
+  "read.locate",
+  "syntax.gen-abs",
+  "syntax.articular-inf",
+  "syntax.indirect-inf",
+  "syntax.agent",
+  "verb.ptc.use",
+  "verb.historic-present",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family",
+  "vocab.myth"
+ ]
+}

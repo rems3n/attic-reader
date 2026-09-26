@@ -1,0 +1,1422 @@
+{
+  "id": "pol.4",
+  "title_grc": "ὁ κλῆρος",
+  "title_en": "Jurors by lot",
+  "summary_grc": "ὁ Ἀριστοτέλης γράφει πῶς οἱ Ἀθηναῖοι τοὺς δικαστὰς κληρωτηρίοις ἐκλήρουν.",
+  "summary_en": "Fourth-century Athens: how the jurors were chosen each morning by the allotment machine, and sent by a coloured staff to a court no one could predict. Aristotle's own words, lightly cut.",
+  "cover": "pol-4-a",
+  "caption_grc": "ἵν’ εἰς οἷον ἂν λάχῃ εἰσίῃ καὶ μὴ εἰς οἷον ἂν βούληται.",
+  "original": {
+    "text": "arist-athpol-63",
+    "note": "Aristotle (or a pupil), Constitution of the Athenians 63.4, 64.4 and 65.2, lightly cut; written about 330 BC, describing the courts of his own day, long after our story. The steps in between (64.1–3) are summarized in the second paragraph: the papyrus is damaged there. In the original, χρῶματα is printed for χρώματα."
+  },
+  "names": {
+    "Ἀριστοτέλης": [
+      "Ἀριστοτέλους",
+      "Ἀριστοτέλει",
+      "Ἀριστοτέλη"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "pol-4-a",
+      "sentences": [
+        {
+          "text": "ἐν δὲ τοῖς ὕστερον χρόνοις οἱ Ἀθηναῖοι τοὺς δικαστὰς ἑκάστης ἡμέρας πρὸς ταῖς εἰσόδοις τῶν δικαστηρίων κληρωτηρίοις ἐκλήρουν.",
+          "glosses": [
+            {
+              "word": "κληρωτηρίοις",
+              "kind": "pic",
+              "value": "culture-kleroterion"
+            },
+            {
+              "word": "κληρωτηρίοις",
+              "kind": "<",
+              "value": "κληρόω | τὸ κληρωτήριον (the allotment machine)"
+            }
+          ]
+        },
+        {
+          "text": "οὐδεὶς γὰρ ᾔδει εἰς ποῖον δικαστήριον εἰσελεύσεται, ἵνα μηδεὶς τοὺς δικαστὰς χρήμασι διαφθείρῃ.",
+          "glosses": [
+            {
+              "word": "εἰσελεύσεται",
+              "kind": "|",
+              "value": "εἰσέρχομαι | εἰσελεύσεται (future: he will go in)"
+            },
+            {
+              "word": "διαφθείρῃ",
+              "kind": "en",
+              "value": "corrupt, bribe (διαφθείρω: destroy, corrupt)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ Ἀριστοτέλης τὸν τρόπον οὕτως γράφει·"
+        },
+        {
+          "text": "«ἔχει δ’ ἕκαστος δικαστὴς τὸ πινάκιον πύξινον, ἐπιγεγραμμένον τὸ ὄνομα τὸ ἑαυτοῦ πατρόθεν καὶ τοῦ δήμου, καὶ γράμμα ἓν τῶν στοιχείων μέχρι τοῦ κ·",
+          "orig": [
+            0
+          ],
+          "glosses": [
+            {
+              "word": "πινάκιον",
+              "kind": "pic",
+              "value": "pol-pinakion"
+            },
+            {
+              "word": "πινάκιον",
+              "kind": "en",
+              "value": "a small tablet, the juror's ticket (τὸ πινάκιον)"
+            },
+            {
+              "word": "πύξινον",
+              "kind": "en",
+              "value": "of boxwood (later tickets were bronze)"
+            },
+            {
+              "word": "ἐπιγεγραμμένον",
+              "kind": "|",
+              "value": "ἐπιγράφω (write on) | ἐπιγεγραμμένον (perfect passive participle: inscribed with)"
+            },
+            {
+              "word": "πατρόθεν",
+              "kind": "en",
+              "value": "with his father's name: Λύσις Ἀρίστωνος"
+            },
+            {
+              "word": "στοιχείων",
+              "kind": "en",
+              "value": "letters of the alphabet (τὸ στοιχεῖον)"
+            },
+            {
+              "word": "κ",
+              "kind": "note",
+              "value": "τοῦ κ: (the letter) kappa. Α to Κ are ten letters, one for each section of jurors"
+            }
+          ]
+        },
+        {
+          "text": "νενέμηνται γὰρ κατὰ φυλὰς δέκα μέρη οἱ δικασταί, παραπλησίως ἴσοι ἐν ἑκάστῳ τῷ γράμματι.",
+          "orig": [
+            1
+          ],
+          "glosses": [
+            {
+              "word": "νενέμηνται",
+              "kind": "|",
+              "value": "νέμω (distribute) | νενέμηνται (perfect passive: they have been divided)"
+            },
+            {
+              "word": "παραπλησίως",
+              "kind": "en",
+              "value": "roughly, nearly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "pol-4-b",
+      "sentences": [
+        {
+          "text": "ἔπειτα τὰ πινάκια εἰς τὸ κληρωτήριον ἐμπήγνυται, καὶ ὁ ἄρχων κύβους λευκοὺς καὶ μέλανας εἰς αὐτὸ ἐμβάλλει· ὁ δὲ κῆρυξ καλεῖ τοὺς λαχόντας.",
+          "glosses": [
+            {
+              "word": "ἐμπήγνυται",
+              "kind": "en",
+              "value": "are fixed into, slotted into (ἐμπήγνυμι)"
+            },
+            {
+              "word": "κύβους",
+              "kind": "en",
+              "value": "dice, balls (ὁ κύβος): a white one chose a row of five tickets, a black one sent it home"
+            },
+            {
+              "word": "λευκοὺς",
+              "kind": "↔",
+              "value": "λευκός ↔ μέλας (white ↔ black)"
+            },
+            {
+              "word": "μέλανας",
+              "kind": "|",
+              "value": "μέλας, μέλαινα, μέλαν (black) | μέλανας (acc. pl.)"
+            },
+            {
+              "word": "λαχόντας",
+              "kind": "|",
+              "value": "λαγχάνω (obtain by lot) | ἔλαχον | οἱ λαχόντες (those chosen by lot)"
+            }
+          ]
+        },
+        {
+          "text": "«ὁ δὲ κληθεὶς καὶ ὑπακούσας ἕλκει βάλανον ἐκ τῆς ὑδρίας, καὶ ἀνέχων τὸ γράμμα, δείκνυσιν πρῶτον μὲν τῷ ἄρχοντι τῷ ἐφεστηκότι.",
+          "orig": [
+            2
+          ],
+          "glosses": [
+            {
+              "word": "ὑπακούσας",
+              "kind": "<",
+              "value": "ὑπό + ἀκούω | ὑπακούω (answer to one's name)"
+            },
+            {
+              "word": "ἕλκει",
+              "kind": "en",
+              "value": "draws, pulls out (ἕλκω)"
+            },
+            {
+              "word": "βάλανον",
+              "kind": "en",
+              "value": "an acorn; here a small token with a letter on it (ἡ βάλανος)"
+            },
+            {
+              "word": "ἀνέχων",
+              "kind": "<",
+              "value": "ἀνά + ἔχω | ἀνέχω (hold up)"
+            },
+            {
+              "word": "ἐφεστηκότι",
+              "kind": "note",
+              "value": "τῷ ἄρχοντι τῷ ἐφεστηκότι: to the archon in charge (perfect participle of ἐφίστημι)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ ἄρχων ἐπειδὰν ἴδῃ, ἐμβάλλει τὸ πινάκιον αὐτοῦ εἰς τὸ κιβώτιον, ὅπου ἂν ᾖ ἐπιγεγραμμένον τὸ αὐτὸ στοιχεῖον ὅπερ ἐν τῇ βαλάνῳ, ἵν’ εἰς οἷον ἂν λάχῃ εἰσίῃ καὶ μὴ εἰς οἷον ἂν βούληται, μηδὲ ᾖ συναγαγεῖν εἰς δικαστήριον οὓς ἂν βούληταί τις.",
+          "orig": [
+            3
+          ],
+          "glosses": [
+            {
+              "word": "ἐπειδὰν",
+              "kind": "en",
+              "value": "ἐπειδάν + subjunctive: whenever, as soon as"
+            },
+            {
+              "word": "ἐμβάλλει",
+              "kind": "<",
+              "value": "ἐν + βάλλω | ἐμβάλλω (throw in, put in)"
+            },
+            {
+              "word": "κιβώτιον",
+              "kind": "en",
+              "value": "a box (τὸ κιβώτιον)"
+            },
+            {
+              "word": "βαλάνῳ",
+              "kind": "|",
+              "value": "ἡ βάλανος | ἐν τῇ βαλάνῳ (on the token)"
+            },
+            {
+              "word": "ὅπου",
+              "kind": "note",
+              "value": "ὅπου ἂν ᾖ ἐπιγεγραμμένον: 'wherever (on which) the same letter is inscribed'"
+            },
+            {
+              "word": "ἵν’",
+              "kind": "=",
+              "value": "ἵνα"
+            },
+            {
+              "word": "εἰσίῃ",
+              "kind": "|",
+              "value": "εἰσέρχομαι, εἴσειμι | εἰσίῃ (subjunctive: he may go in)"
+            },
+            {
+              "word": "ᾖ",
+              "kind": "note",
+              "value": "μηδὲ ᾖ συναγαγεῖν: 'and so that it may not be possible (ᾖ = ἐξῇ) to gather'"
+            },
+            {
+              "word": "συναγαγεῖν",
+              "kind": "<",
+              "value": "σύν + ἄγω | συναγαγεῖν (aorist infinitive: to bring together)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "pol-4-c",
+      "sentences": [
+        {
+          "text": "ἔπειτα ὁ ὑπηρέτης αὐτῷ βακτηρίαν δίδωσιν ὁμόχρων τῷ δικαστηρίῳ εἰς ὃ εἴληχεν.",
+          "glosses": [
+            {
+              "word": "ὑπηρέτης",
+              "kind": "en",
+              "value": "attendant (ὁ ὑπηρέτης), a public slave or assistant"
+            },
+            {
+              "word": "βακτηρίαν",
+              "kind": "en",
+              "value": "a staff (ἡ βακτηρία), painted in the colour of his court"
+            },
+            {
+              "word": "ὁμόχρων",
+              "kind": "<",
+              "value": "ὁμός (same) + χρῶμα | ὁμόχρως, -ων (of the same colour)"
+            },
+            {
+              "word": "εἴληχεν",
+              "kind": "|",
+              "value": "λαγχάνω | εἴληχε(ν) (perfect: he has drawn by lot)"
+            }
+          ]
+        },
+        {
+          "text": "τοῖς γὰρ δικαστηρίοις χρώματα ἐπιγέγραπται ἑκάστῳ.",
+          "orig": [
+            4
+          ],
+          "glosses": [
+            {
+              "word": "χρώματα",
+              "kind": "en",
+              "value": "colours (τὸ χρῶμα, τοῦ χρώματος)"
+            },
+            {
+              "word": "ἐπιγέγραπται",
+              "kind": "|",
+              "value": "ἐπιγράφω | ἐπιγέγραπται (perfect passive: is painted on, is marked)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ λαβὼν τὴν βακτηρίαν βαδίζει εἰς τὸ δικαστήριον τὸ ὁμόχρων μὲν τῇ βακτηρίᾳ, ἔχον δὲ τὸ αὐτὸ γράμμα ὅπερ ἐν τῇ βαλάνῳ.",
+          "orig": [
+            5
+          ],
+          "glosses": [
+            {
+              "word": "βαδίζει",
+              "kind": "en",
+              "value": "walks, goes"
+            }
+          ]
+        },
+        {
+          "text": "ἐπειδὰν δ’ εἰσέλθῃ, παραλαμβάνει σύμβολον δημοσίᾳ παρὰ τοῦ εἰληχότος ταύτην τὴν ἀρχήν.»",
+          "orig": [
+            6
+          ],
+          "glosses": [
+            {
+              "word": "παραλαμβάνει",
+              "kind": "<",
+              "value": "παρά + λαμβάνω | παραλαμβάνω (receive)"
+            },
+            {
+              "word": "σύμβολον",
+              "kind": "en",
+              "value": "a token (τὸ σύμβολον): at the end of the day he hands it in and is paid"
+            },
+            {
+              "word": "δημοσίᾳ",
+              "kind": "<",
+              "value": "δῆμος | δημόσιος, -α, -ον (public) | δημοσίᾳ (publicly, from the city)"
+            },
+            {
+              "word": "εἰληχότος",
+              "kind": "|",
+              "value": "λαγχάνω | εἴληχα (perfect) | τοῦ εἰληχότος (from the man who has drawn by lot)"
+            },
+            {
+              "word": "ἀρχήν",
+              "kind": "note",
+              "value": "ταύτην τὴν ἀρχήν: this office, the job of handing out tokens"
+            }
+          ]
+        },
+        {
+          "text": "οὕτως οὐχ ὁ πλοῦτος οὐδὲ ὁ φίλος, ἀλλ’ ὁ κλῆρος τὸ δικαστήριον ἑκάστῳ δίδωσιν.",
+          "glosses": [
+            {
+              "word": "κλῆρος",
+              "kind": "en",
+              "value": "the lot (ὁ κλῆρος)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "λαγχανω",
+      "gloss_grc": "λαγχάνω · ἔλαχον · εἴληχα · οἱ λαχόντες"
+    },
+    {
+      "id": "πινακιον",
+      "pic": "pol-pinakion",
+      "gloss_grc": "τὸ πινάκιον: the juror's ticket"
+    },
+    {
+      "id": "κληρωτηριον",
+      "pic": "culture-kleroterion",
+      "gloss_grc": "τὸ κληρωτήριον < κληρόω"
+    },
+    {
+      "id": "βακτηρια",
+      "gloss_grc": "ἡ βακτηρία: staff"
+    },
+    {
+      "id": "υπηρετης",
+      "gloss_grc": "ὁ ὑπηρέτης: attendant, servant of a magistrate"
+    },
+    {
+      "id": "δημοσιος",
+      "gloss_grc": "δημόσιος, -α, -ον < δῆμος ↔ ἴδιος · δημοσίᾳ"
+    },
+    {
+      "id": "συμβολον",
+      "gloss_grc": "τὸ σύμβολον: token"
+    },
+    {
+      "id": "χρωμα",
+      "gloss_grc": "τὸ χρῶμα, τοῦ χρώματος"
+    },
+    {
+      "id": "εμβαλλω",
+      "gloss_grc": "ἐμβάλλω · ἐνέβαλον: throw in, put in"
+    },
+    {
+      "id": "στοιχειον",
+      "gloss_grc": "τὸ στοιχεῖον: letter (Α, Β, Γ …)"
+    },
+    {
+      "id": "επιγραφω",
+      "gloss_grc": "ἐπιγράφω · ἐπιγέγραπται · ἐπιγεγραμμένος"
+    },
+    {
+      "id": "ελκω",
+      "gloss_grc": "ἕλκω · εἷλκον · εἵλκυσα: draw, drag"
+    },
+    {
+      "id": "εισοδος",
+      "gloss_grc": "ἡ εἴσοδος < εἰς + ὁδός"
+    },
+    {
+      "id": "κυβος",
+      "gloss_grc": "ὁ κύβος: die, cube"
+    }
+  ],
+  "notice": [
+    "ἔχει δ’ ἕκαστος δικαστὴς τὸ πινάκιον πύξινον, ἐπιγεγραμμένον τὸ ὄνομα",
+    "ὁ δὲ κληθεὶς καὶ ὑπακούσας ἕλκει βάλανον ἐκ τῆς ὑδρίας",
+    "ὁ δὲ ἄρχων ἐπειδὰν ἴδῃ, ἐμβάλλει τὸ πινάκιον αὐτοῦ εἰς τὸ κιβώτιον",
+    "ὅπου ἂν ᾖ ἐπιγεγραμμένον τὸ αὐτὸ στοιχεῖον",
+    "ἵν’ εἰς οἷον ἂν λάχῃ εἰσίῃ καὶ μὴ εἰς οἷον ἂν βούληται"
+  ],
+  "grammar": {
+    "md": "**Reading a procedure.** Aristotle describes what happens *every* court day, so he writes in the present and uses the constructions of repeated action (Units 8 and 10).\n\n**1. General clauses: ἄν + subjunctive.** Any relative or temporal word + ἄν + subjunctive, with a present main verb, means 'whenever, wherever, whoever':\n\n| clause | meaning |\n|---|---|\n| ἐπειδὰν ἴδῃ | whenever / as soon as he sees |\n| ὅπου ἂν ᾖ ἐπιγεγραμμένον | wherever (in whichever box) there is written |\n| εἰς οἷον ἂν λάχῃ | into whichever (court) he draws |\n| οὓς ἂν βούληταί τις | whomever anyone wants |\n\nἐπειδάν = ἐπειδή + ἄν. For a single event in the past Greek uses the indicative without ἄν: ἐπειδὴ εἶδε 'when he saw'.\n\n**2. The perfect passive: a state.** The perfect says that something done is still in force: ἐπιγέγραπται 'has been written on, is inscribed'; πινάκιον ἐπιγεγραμμένον τὸ ὄνομα 'a ticket inscribed with the name' (the passive participle can keep an accusative of the thing written); νενέμηνται 'they have been divided (and stay so)'. Look for reduplication (γέ-γραπ-ται, νε-νέμη-νται) and endings without a thematic vowel (-ται, -νται, -μένος).\n\n**3. Article + participles.** ὁ κληθεὶς καὶ ὑπακούσας 'the man who has been called and has answered'; ὁ λαβὼν τὴν βακτηρίαν 'the man who has taken the staff'; παρὰ τοῦ εἰληχότος 'from the one who has drawn (the office)'. Aristotle names each person in the procedure by what he has just done.\n\n**4. Likeness takes the dative.** ὁμόχρων τῇ βακτηρίᾳ 'the same colour as the staff', like ὁ αὐτὸς ἐκείνῳ, ὅμοιος τούτῳ.",
+    "paradigms": [
+      "luo"
+    ],
+    "diagram": "culture-kleroterion"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings.",
+      "template": "ἔχει ἕκαστος δικαστ___ τὸ πινάκι___ πύξινον. τοῖς δικαστηρίοις χρώματ___ ἐπιγέγραπται. βαδίζει εἰς τὸ δικαστήριον τὸ ὁμόχρων τῇ βακτηρί___.",
+      "gaps": [
+        {
+          "answers": [
+            "ης"
+          ]
+        },
+        {
+          "answers": [
+            "ον"
+          ]
+        },
+        {
+          "answers": [
+            "α"
+          ]
+        },
+        {
+          "answers": [
+            "ᾳ"
+          ]
+        }
+      ],
+      "skills": [
+        "noun.decl1.masc",
+        "noun.decl2.neuter",
+        "noun.decl3.cons.pl",
+        "noun.decl1.dat.sg"
+      ],
+      "explain": "ἕκαστος δικαστής (nom.), τὸ πινάκιον (neuter), χρώματα (3rd-declension neuter plural), τῇ βακτηρίᾳ (dative after ὁμόχρων: 'the same colour as')."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ὁ ἄρχων ἐμβάλλει τὸ πινάκιον εἰς τὸ κιβώτιον, ὅπου ἂν ___ ἐπιγεγραμμένον τὸ αὐτὸ στοιχεῖον.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ᾖ"
+        },
+        {
+          "id": "b",
+          "text": "ἐστί"
+        },
+        {
+          "id": "c",
+          "text": "ἦν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.indefinite",
+        "syntax.cond.general"
+      ],
+      "explain": "ὅπου ἄν + subjunctive: 'wherever (in whichever box) the same letter is written'. A general clause: this happens every time.",
+      "audio": "ὁ ἄρχων ἐμβάλλει τὸ πινάκιον εἰς τὸ κιβώτιον, ὅπου ἂν ᾖ ἐπιγεγραμμένον τὸ αὐτὸ στοιχεῖον."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ἵν’ εἰς οἷον ἂν ___ εἰσίῃ καὶ μὴ εἰς οἷον ἂν βούληται.",
+      "options": [
+        {
+          "id": "a",
+          "text": "λάχῃ"
+        },
+        {
+          "id": "b",
+          "text": "ἔλαχε"
+        },
+        {
+          "id": "c",
+          "text": "λαχεῖν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.indefinite",
+        "vocab.pol"
+      ],
+      "explain": "εἰς οἷον ἂν λάχῃ: 'into whichever (court) he draws by lot'; λάχῃ is the aorist subjunctive of λαγχάνω.",
+      "audio": "ἵν’ εἰς οἷον ἂν λάχῃ εἰσίῃ καὶ μὴ εἰς οἷον ἂν βούληται."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · τοῖς δικαστηρίοις χρώματα ___ ἑκάστῳ.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐπιγέγραπται"
+        },
+        {
+          "id": "b",
+          "text": "ἐπέγραψε"
+        },
+        {
+          "id": "c",
+          "text": "ἐπιγράφουσι"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "verb.perf.mp.ind.3sg",
+        "verb.neuter-plural"
+      ],
+      "explain": "ἐπιγέγραπται: perfect passive, 'have been painted on, are marked'; singular verb with a neuter plural subject (χρώματα).",
+      "audio": "τοῖς δικαστηρίοις χρώματα ἐπιγέγραπται ἑκάστῳ."
+    },
+    {
+      "type": "pick-picture",
+      "prompt": "τὸ κληρωτήριον",
+      "audio": "prompt",
+      "options": [
+        {
+          "id": "a",
+          "image": "culture-kleroterion"
+        },
+        {
+          "id": "b",
+          "image": "culture-11-3-klepsydra"
+        },
+        {
+          "id": "c",
+          "image": "kadiskos"
+        },
+        {
+          "id": "d",
+          "image": "pol-pinakion"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition",
+        "vocab.pol"
+      ],
+      "explain": "τὸ κληρωτήριον: a stone slab with rows of slots for the tickets and a tube for the dice. The water clock is ἡ κλεψύδρα; the ticket is τὸ πινάκιον."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist of λαγχάνω for 'he obtained by lot'.",
+      "lemma": "λαγχάνω",
+      "cell": "aorist.active.indicative.3sg",
+      "skills": [
+        "verb.aor2.stem",
+        "vocab.pol"
+      ],
+      "explain": "ἔλαχε(ν): a second aorist (stem λαχ-), like ἔλαβε from λαμβάνω.",
+      "audio": "ἔλαχεν"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the perfect passive participle of ἐπιγράφω, neuter nominative singular: 'inscribed'.",
+      "lemma": "ἐπιγράφω",
+      "cell": "perfect.middle/passive.participle.nom.sg.n",
+      "skills": [
+        "verb.perf.mp.ind.3sg",
+        "verb.perf.reduplication"
+      ],
+      "explain": "ἐπιγεγραμμένον: reduplication γε- after the prefix, and -μένον (φ + μ → μμ).",
+      "audio": "ἐπιγεγραμμένον"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the dative plural of χρῶμα.",
+      "lemma": "χρῶμα",
+      "cell": "dat.pl",
+      "skills": [
+        "noun.decl3.dat.pl",
+        "vocab.pol"
+      ],
+      "explain": "χρώμασι(ν): χρωματ-σι → χρώμασι, like σώμασι.",
+      "audio": "χρώμασιν"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse κληθείς.",
+      "form": "κληθείς",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "voice",
+          "label": "Voice",
+          "options": [
+            {
+              "id": "act",
+              "label": "active"
+            },
+            {
+              "id": "mid",
+              "label": "middle"
+            },
+            {
+              "id": "pass",
+              "label": "passive"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "voice": "pass",
+        "mood": "ptc"
+      },
+      "skills": [
+        "verb.ptc.aor.pass"
+      ],
+      "explain": "κλη-θείς: aorist passive participle of καλέω, 'having been called'. ὁ δὲ κληθείς: 'the man who has been called'.",
+      "audio": "κληθείς"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse εἰληχότος.",
+      "form": "εἰληχότος",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            },
+            {
+              "id": "voc",
+              "label": "vocative"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "perf",
+        "mood": "ptc",
+        "case": "gen"
+      },
+      "skills": [
+        "verb.ptc.perf.act",
+        "verb.perf.reduplication"
+      ],
+      "explain": "εἰληχ-ότος: perfect active participle of λαγχάνω (εἴληχα), genitive after παρά: 'from the man who has drawn (this office) by lot'.",
+      "audio": "εἰληχότος"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "τὸ ὁμόχρων μὲν τῇ βακτηρίᾳ: 'the same colour ___ the staff'. The dative follows words of likeness.",
+      "options": [
+        {
+          "id": "a",
+          "text": "as"
+        },
+        {
+          "id": "b",
+          "text": "for"
+        },
+        {
+          "id": "c",
+          "text": "by"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.dat.uses"
+      ],
+      "explain": "Words meaning 'same, like' take the dative: ὁ αὐτὸς τούτῳ, ὅμοιος τούτῳ, ὁμόχρων τῇ βακτηρίᾳ."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἔχει ἕκαστος δικαστὴς τὸ πινάκιον … ἐπιγεγραμμένον τὸ ὄνομα. In πατρόθεν καὶ τοῦ δήμου, the name was written …",
+      "options": [
+        {
+          "id": "a",
+          "text": "with his father's name and his deme"
+        },
+        {
+          "id": "b",
+          "text": "by his father and his deme"
+        },
+        {
+          "id": "c",
+          "text": "from his father's house"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.pol.institutions",
+        "read.pol.aristotle"
+      ],
+      "explain": "An official Athenian name has three parts: Λύσις Ἀρίστωνος Κυδαθηναιεύς."
+    },
+    {
+      "type": "label",
+      "prompt": "ὁ δὲ ἄρχων ἐπειδὰν ἴδῃ, ἐμβάλλει τὸ πινάκιον … What kind of clause is ἐπειδὰν ἴδῃ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a general temporal clause: 'whenever / as soon as he sees'"
+        },
+        {
+          "id": "b",
+          "text": "a purpose clause"
+        },
+        {
+          "id": "c",
+          "text": "a wish"
+        },
+        {
+          "id": "d",
+          "text": "a fear clause"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.indefinite",
+        "syntax.cond.general"
+      ],
+      "explain": "ἐπειδάν (= ἐπειδή + ἄν) + subjunctive with a present main verb: what happens every time."
+    },
+    {
+      "type": "label",
+      "prompt": "ἵν’ εἰς οἷον ἂν λάχῃ εἰσίῃ καὶ μὴ εἰς οἷον ἂν βούληται. What is the point of the rule?",
+      "options": [
+        {
+          "id": "a",
+          "text": "no juror can choose his court, so no one can be bribed in advance"
+        },
+        {
+          "id": "b",
+          "text": "the jurors can sit with their friends"
+        },
+        {
+          "id": "c",
+          "text": "the archon chooses the best jurors"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.pol.institutions",
+        "read.comprehension"
+      ],
+      "explain": "Purpose (ἵνα) with two indefinite clauses (οἷον ἄν): the lot, not the juror, decides."
+    },
+    {
+      "type": "transform",
+      "prompt": "Put it in the past: ὁ κῆρυξ καλεῖ τοὺς λαχόντας. → ὁ κῆρυξ ___ τοὺς λαχόντας.",
+      "template": "ὁ κῆρυξ ___ τοὺς λαχόντας.",
+      "gaps": [
+        {
+          "answers": [
+            "ἐκάλεσε",
+            "ἐκάλεσεν",
+            "ἐκάλει"
+          ]
+        }
+      ],
+      "skills": [
+        "verb.aor.act.ind.3sg",
+        "verb.augment"
+      ],
+      "explain": "ἐκάλεσε(ν) (aorist) or ἐκάλει (imperfect)."
+    },
+    {
+      "type": "transform",
+      "prompt": "Make the clause refer to one occasion in the past: ἐπειδὰν δ’ εἰσέλθῃ, παραλαμβάνει σύμβολον. → ἐπειδὴ δ’ εἰσῆλθε, ___ σύμβολον.",
+      "template": "ἐπειδὴ δ’ εἰσῆλθε, ___ σύμβολον.",
+      "gaps": [
+        {
+          "answers": [
+            "παρέλαβε",
+            "παρέλαβεν"
+          ]
+        }
+      ],
+      "skills": [
+        "verb.aor2.stem",
+        "verb.augment.compound"
+      ],
+      "explain": "ἐπειδή + aorist indicative for a single past event; the main verb becomes aorist too: παρ-έ-λαβε(ν)."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the two participles that describe the juror before he draws.",
+      "sentence": "ὁ δὲ κληθεὶς καὶ ὑπακούσας ἕλκει βάλανον ἐκ τῆς ὑδρίας, καὶ ἀνέχων τὸ γράμμα, δείκνυσιν πρῶτον μὲν τῷ ἄρχοντι τῷ ἐφεστηκότι.",
+      "answer": [
+        2,
+        4
+      ],
+      "skills": [
+        "read.locate",
+        "verb.ptc.use"
+      ],
+      "explain": "κληθείς (aorist passive) and ὑπακούσας (aorist active): 'the man who has been called and has answered'."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap every verb in the subjunctive.",
+      "sentence": "ὁ δὲ ἄρχων ἐπειδὰν ἴδῃ, ἐμβάλλει τὸ πινάκιον αὐτοῦ εἰς τὸ κιβώτιον, ὅπου ἂν ᾖ ἐπιγεγραμμένον τὸ αὐτὸ στοιχεῖον ὅπερ ἐν τῇ βαλάνῳ, ἵν’ εἰς οἷον ἂν λάχῃ εἰσίῃ καὶ μὴ εἰς οἷον ἂν βούληται, μηδὲ ᾖ συναγαγεῖν εἰς δικαστήριον οὓς ἂν βούληταί τις.",
+      "answer": [
+        4,
+        14,
+        27,
+        28,
+        34,
+        36,
+        42
+      ],
+      "skills": [
+        "read.locate",
+        "syntax.indefinite"
+      ],
+      "explain": "ἴδῃ, ᾖ, λάχῃ, εἰσίῃ, βούληται, ᾖ, βούληται: all but εἰσίῃ and the second ᾖ are in clauses with ἄν; those two follow ἵνα."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'Each juror has a ticket.'",
+      "tokens": [
+        "ἕκαστος",
+        "δικαστὴς",
+        "πινάκιον",
+        "ἔχει"
+      ],
+      "answers": [
+        "ἕκαστος δικαστὴς πινάκιον ἔχει",
+        "ἔχει ἕκαστος δικαστὴς πινάκιον",
+        "πινάκιον ἔχει ἕκαστος δικαστής",
+        "ἕκαστος δικαστὴς ἔχει πινάκιον"
+      ],
+      "skills": [
+        "syntax.word-order"
+      ],
+      "explain": "Aristotle puts the verb first: ἔχει δ’ ἕκαστος δικαστὴς τὸ πινάκιον."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὁ δὲ λαβὼν τὴν βακτηρίαν βαδίζει εἰς τὸ δικαστήριον."
+        },
+        {
+          "id": "b",
+          "text": "ὁ δὲ λαβὼν τὴν βάλανον βαδίζει εἰς τὴν ἐκκλησίαν."
+        },
+        {
+          "id": "c",
+          "text": "ὁ δὲ ἄρχων τὴν βακτηρίαν δίδωσιν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "He takes the staff and walks to the court.",
+      "audio": "ὁ δὲ λαβὼν τὴν βακτηρίαν βαδίζει εἰς τὸ δικαστήριον."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ἕκαστος δικαστὴς ᾔδει εἰς ποῖον δικαστήριον εἰσελεύσεται.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "οὐδεὶς γὰρ ᾔδει: no one knew in advance."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ἐν τῷ πινακίῳ ἐπεγέγραπτο τὸ ὄνομα τοῦ δικαστοῦ καὶ τὸ τοῦ δήμου.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension",
+        "read.pol.institutions"
+      ],
+      "explain": "ἐπιγεγραμμένον τὸ ὄνομα … πατρόθεν καὶ τοῦ δήμου."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ δικαστὴς εἰς ὅποιον βούλεται δικαστήριον εἰσέρχεται.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "μὴ εἰς οἷον ἂν βούληται: not into whichever he wants."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "gaps": [
+        {
+          "answers": [
+            "ἕλκει βάλανον ἐκ τῆς ὑδρίας"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "ἕλκει βάλανον ἐκ τῆς ὑδρίας: 'he draws a token from the jar'.",
+      "audio": "ἕλκει βάλανον ἐκ τῆς ὑδρίας."
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'The lot gives each man his court.' (use ὁ κλῆρος)",
+      "gaps": [
+        {
+          "answers": [
+            "ὁ κλῆρος ἑκάστῳ τὸ δικαστήριον δίδωσιν",
+            "ὁ κλῆρος ἑκάστῳ τὸ δικαστήριον δίδωσι",
+            "ὁ κλῆρος τὸ δικαστήριον ἑκάστῳ δίδωσιν",
+            "ὁ κλῆρος τὸ δικαστήριον ἑκάστῳ δίδωσι",
+            "ὁ κλῆρος δίδωσιν ἑκάστῳ τὸ δικαστήριον",
+            "ὁ κλῆρος δίδωσι ἑκάστῳ τὸ δικαστήριον"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "syntax.dat.uses"
+      ],
+      "explain": "ἑκάστῳ: dative of the indirect object."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: ὁ δὲ λαβὼν τὴν βακτηρίαν βαδίζει εἰς τὸ δικαστήριον τὸ ὁμόχρων μὲν τῇ βακτηρίᾳ, ἔχον δὲ τὸ αὐτὸ γράμμα ὅπερ ἐν τῇ βαλάνῳ.",
+      "audio": "ὁ δὲ λαβὼν τὴν βακτηρίαν βαδίζει εἰς τὸ δικαστήριον τὸ ὁμόχρων μὲν τῇ βακτηρίᾳ, ἔχον δὲ τὸ αὐτὸ γράμμα ὅπερ ἐν τῇ βαλάνῳ.",
+      "model": "The man who has taken the staff walks to the court that is the same colour as the staff and has the same letter as (the one) on the token.",
+      "skills": [
+        "read.adapted-text",
+        "read.pol.aristotle"
+      ],
+      "explain": "ὁ λαβών 'the one having taken'; τὸ δικαστήριον τὸ ὁμόχρων … ἔχον δέ: two attributive participle phrases linked by μέν … δέ."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: ὁ δὲ κληθεὶς καὶ ὑπακούσας ἕλκει βάλανον ἐκ τῆς ὑδρίας.",
+      "audio": "ὁ δὲ κληθεὶς καὶ ὑπακούσας ἕλκει βάλανον ἐκ τῆς ὑδρίας.",
+      "model": "The man who has been called and has answered draws a token from the jar.",
+      "skills": [
+        "read.pol.aristotle",
+        "verb.ptc.aor.pass"
+      ],
+      "explain": "Two participles with one article: ὁ κληθεὶς καὶ ὑπακούσας 'the man called and answering'."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "τὸ χρῶμα",
+          "right": "chromatic"
+        },
+        {
+          "left": "τὸ σύμβολον",
+          "right": "symbol"
+        },
+        {
+          "left": "ἐπιγράφω",
+          "right": "epigraphy"
+        },
+        {
+          "left": "ὁ κύβος",
+          "right": "cube"
+        },
+        {
+          "left": "ἡ βακτηρία",
+          "right": "bacterium"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "σύμβολον: two halves 'thrown together' to prove identity; βακτήριον 'little staff' named the rod-shaped bacteria."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "τί ἐπιγέγραπται ἐν τῷ πινακίῳ;",
+      "options": [
+        {
+          "id": "a",
+          "text": "τὸ ὄνομα τοῦ δικαστοῦ πατρόθεν καὶ τοῦ δήμου, καὶ γράμμα ἕν."
+        },
+        {
+          "id": "b",
+          "text": "τὸ χρῶμα τοῦ δικαστηρίου."
+        },
+        {
+          "id": "c",
+          "text": "ὁ μισθὸς τοῦ δικαστοῦ."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἐπιγεγραμμένον τὸ ὄνομα … καὶ γράμμα ἓν τῶν στοιχείων.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί ἕλκει ὁ κληθεὶς ἐκ τῆς ὑδρίας;",
+      "options": [
+        {
+          "id": "a",
+          "text": "βάλανον."
+        },
+        {
+          "id": "b",
+          "text": "πινάκιον."
+        },
+        {
+          "id": "c",
+          "text": "σύμβολον."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "ἕλκει βάλανον ἐκ τῆς ὑδρίας.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "πῶς γιγνώσκει ὁ δικαστὴς εἰς ποῖον δικαστήριον εἰσιτέον;",
+      "options": [
+        {
+          "id": "a",
+          "text": "τῷ χρώματι τῆς βακτηρίας καὶ τῷ γράμματι."
+        },
+        {
+          "id": "b",
+          "text": "ὁ φίλος αὐτῷ λέγει."
+        },
+        {
+          "id": "c",
+          "text": "ὁ πλούσιος αὐτὸν ἄγει."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "read.pol.institutions"
+      ],
+      "explain": "τὸ δικαστήριον τὸ ὁμόχρων τῇ βακτηρίᾳ, ἔχον τὸ αὐτὸ γράμμα.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί λαμβάνει ὁ δικαστὴς ἐπειδὰν εἰσέλθῃ;",
+      "options": [
+        {
+          "id": "a",
+          "text": "σύμβολον."
+        },
+        {
+          "id": "b",
+          "text": "δύο ὀβολούς."
+        },
+        {
+          "id": "c",
+          "text": "ὄστρακον."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "παραλαμβάνει σύμβολον δημοσίᾳ.",
+      "audio": "prompt"
+    }
+  ],
+  "culture": {
+    "title": "The kleroterion",
+    "md": "Each year 6,000 citizens over thirty were enrolled as jurors and swore the jurors' oath. On a court day those who wanted to serve came to the entrances of the courts, tribe by tribe, and handed in their tickets. The **kleroterion** was a tall slab of stone with five columns of narrow slots, one column for each section letter, and a bronze tube down the side. The tickets were pushed into the slots; the archon poured a mixture of white and black balls into the tube and released them one at a time. A white ball selected a whole row of tickets, five jurors at once; a black one sent the row home. Then each chosen juror drew an acorn-token with a letter that sent him to a court, where he received a staff of the court's colour and, on entering, a token that he would exchange for his pay.\n\nThe point of all this machinery was to make bribery impossible: no one, not even the juror, knew in the morning which case he would hear, and a court had hundreds of jurors, 201, 501 or more. Fragments of several kleroteria and many bronze tickets have been found in the Athenian Agora; the picture shows one of them. A version of the same machine chose the members of the Council and most of the city's magistrates.",
+    "image": "pol-kleroterion-agora"
+  },
+  "quiz": [
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist subjunctive of λαγχάνω, 3rd singular: εἰς οἷον ἂν ___.",
+      "lemma": "λαγχάνω",
+      "cell": "aorist.active.subjunctive.3sg",
+      "skills": [
+        "syntax.indefinite",
+        "vocab.pol"
+      ],
+      "explain": "λάχῃ.",
+      "audio": "λάχῃ"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἐπειδὰν δ’ ___, παραλαμβάνει σύμβολον.",
+      "options": [
+        {
+          "id": "a",
+          "text": "εἰσέλθῃ"
+        },
+        {
+          "id": "b",
+          "text": "εἰσῆλθε"
+        },
+        {
+          "id": "c",
+          "text": "εἰσελθεῖν"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.indefinite"
+      ],
+      "explain": "ἐπειδάν + subjunctive."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "τὸ πινάκιον"
+        },
+        {
+          "id": "b",
+          "text": "τὸ κιβώτιον"
+        },
+        {
+          "id": "c",
+          "text": "τὸ βιβλίον"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.pol"
+      ],
+      "explain": "τὸ πινάκιον: the ticket.",
+      "audio": "τὸ πινάκιον"
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ κλῆρος, οὐχ ὁ πλοῦτος, τὸ δικαστήριον ἑκάστῳ δίδωσιν.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "οὕτως οὐχ ὁ πλοῦτος … ἀλλ’ ὁ κλῆρος."
+    },
+    {
+      "type": "match",
+      "prompt": "Match the Greek to the English.",
+      "pairs": [
+        {
+          "left": "τὸ πινάκιον",
+          "right": "ticket"
+        },
+        {
+          "left": "τὸ κληρωτήριον",
+          "right": "allotment machine"
+        },
+        {
+          "left": "ἡ βακτηρία",
+          "right": "staff"
+        },
+        {
+          "left": "τὸ σύμβολον",
+          "right": "token"
+        },
+        {
+          "left": "τὸ στοιχεῖον",
+          "right": "letter of the alphabet"
+        }
+      ],
+      "skills": [
+        "vocab.recognition",
+        "vocab.pol"
+      ],
+      "explain": "πινάκιον, κληρωτήριον, βακτηρία, σύμβολον, στοιχεῖον."
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἐπιγέγραπται.",
+      "form": "ἐπιγέγραπται",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "voice",
+          "label": "Voice",
+          "options": [
+            {
+              "id": "act",
+              "label": "active"
+            },
+            {
+              "id": "mid",
+              "label": "middle"
+            },
+            {
+              "id": "pass",
+              "label": "passive"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "perf",
+        "voice": "pass"
+      },
+      "skills": [
+        "verb.perf.mp.ind.3sg"
+      ],
+      "explain": "ἐπι-γέ-γραπ-ται: reduplication and -ται without a thematic vowel: perfect passive.",
+      "audio": "ἐπιγέγραπται"
+    }
+  ],
+  "skills": [
+    "read.adapted-text",
+    "read.pol.aristotle",
+    "read.pol.institutions",
+    "read.comprehension",
+    "read.locate",
+    "syntax.indefinite",
+    "syntax.cond.general",
+    "syntax.dat.uses",
+    "syntax.word-order",
+    "noun.decl1.masc",
+    "noun.decl2.neuter",
+    "noun.decl3.cons.pl",
+    "noun.decl1.dat.sg",
+    "noun.decl3.dat.pl",
+    "verb.perf.mp.ind.3sg",
+    "verb.perf.reduplication",
+    "verb.neuter-plural",
+    "verb.ptc.aor.pass",
+    "verb.ptc.perf.act",
+    "verb.ptc.use",
+    "verb.aor2.stem",
+    "verb.aor.act.ind.3sg",
+    "verb.augment",
+    "verb.augment.compound",
+    "listen.words",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.family",
+    "vocab.pol"
+  ]
+}

@@ -474,9 +474,9 @@
         "noun.decl2.neuter",
         "noun.decl2.dat.sg",
         "noun.decl2.acc.pl",
-        "noun.decl3.acc.sg"
+        "noun.decl1.masc"
       ],
-      "explain": "πολλὰ ὄστρακα (neuter plural in -α), ἐν ὀστράκῳ (dative singular), πλείστας ψήφους (ἡ ψῆφος is feminine but declines like λόγος: acc. pl. -ους), τὸν Ἀριστείδην (acc. of a name in -ης)."
+      "explain": "πολλὰ ὄστρακα (neuter plural in -α), ἐν ὀστράκῳ (dative singular), πλείστας ψήφους (ἡ ψῆφος is feminine but declines like λόγος: acc. pl. -ους), τὸν Ἀριστείδην (a 1st-declension name in -ης, like πολίτης: acc. -ην)."
     },
     {
       "type": "bank-cloze",
@@ -1404,7 +1404,7 @@
     "noun.decl2.acc.pl",
     "noun.decl2.acc.sg",
     "noun.decl2.dat.pl",
-    "noun.decl3.acc.sg",
+    "noun.decl1.masc",
     "noun.decl3.gen.sg",
     "noun.gender",
     "adj.predicate",

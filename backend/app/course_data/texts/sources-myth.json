@@ -12,7 +12,11 @@
    "blurb": "Kronos swallows his children; Rhea hides the baby Zeus in a Cretan cave and gives Kronos a stone in swaddling clothes.",
    "file": "tlg0548/tlg001/tlg0548.tlg001.perseus-grc2.xml",
    "urn": "urn:cts:greekLit:tlg0548.tlg001.perseus-grc2",
-   "refs": ["1.1.5", "1.1.6", "1.1.7"]
+   "refs": [
+    "1.1.5",
+    "1.1.6",
+    "1.1.7"
+   ]
   },
   {
    "id": "apollod-2.4.1",
@@ -25,8 +29,28 @@
    "blurb": "An oracle, a bronze chamber, a shower of gold, a chest on the sea, and a king who asks for the Gorgon's head.",
    "file": "tlg0548/tlg001/tlg0548.tlg001.perseus-grc2.xml",
    "urn": "urn:cts:greekLit:tlg0548.tlg001.perseus-grc2",
-   "refs": ["2.4.1", "2.4.2"],
+   "refs": [
+    "2.4.1",
+    "2.4.2"
+   ],
    "max_sentences": 8
+  },
+  {
+   "id": "apollod-2.4.8",
+   "category": "mythology",
+   "level": "intermediate",
+   "title": "Heracles in the cradle and at school",
+   "author": "Apollodorus",
+   "work": "Library",
+   "ref": "2.4.8–9",
+   "blurb": "Zeus in Amphitryon's shape, twins born a night apart, two serpents in the cradle, and a music lesson that ends in a lawsuit.",
+   "file": "tlg0548/tlg001/tlg0548.tlg001.perseus-grc2.xml",
+   "urn": "urn:cts:greekLit:tlg0548.tlg001.perseus-grc2",
+   "refs": [
+    "2.4.8",
+    "2.4.9"
+   ],
+   "max_sentences": 13
   },
   {
    "id": "apollod-2.5.1",
@@ -39,7 +63,9 @@
    "blurb": "Heracles' first labour: an arrow-proof lion, a cave with two mouths, and a king who hides in a bronze jar.",
    "file": "tlg0548/tlg001/tlg0548.tlg001.perseus-grc2.xml",
    "urn": "urn:cts:greekLit:tlg0548.tlg001.perseus-grc2",
-   "refs": ["2.5.1"],
+   "refs": [
+    "2.5.1"
+   ],
    "max_sentences": 11
   },
   {
@@ -53,7 +79,12 @@
    "blurb": "The tribute to Crete, Ariadne's thread, the Minotaur, Naxos, and the black sail that killed Aegeus.",
    "file": "tlg0548/tlg002/tlg0548.tlg002.perseus-grc2.xml",
    "urn": "urn:cts:greekLit:tlg0548.tlg002.perseus-grc2",
-   "refs": ["1.7", "1.8", "1.9", "1.10"]
+   "refs": [
+    "1.7",
+    "1.8",
+    "1.9",
+    "1.10"
+   ]
   },
   {
    "id": "apollod-epit-1.12",
@@ -66,7 +97,12 @@
    "blurb": "Wings of feathers and glue, a father's warning, the Icarian sea, and Minos' puzzle of the snail shell.",
    "file": "tlg0548/tlg002/tlg0548.tlg002.perseus-grc2.xml",
    "urn": "urn:cts:greekLit:tlg0548.tlg002.perseus-grc2",
-   "refs": ["1.12", "1.13", "1.14", "1.15"]
+   "refs": [
+    "1.12",
+    "1.13",
+    "1.14",
+    "1.15"
+   ]
   },
   {
    "id": "lucian-dd-8",
@@ -79,7 +115,9 @@
    "blurb": "Zeus has a headache and orders Hephaestus to split his skull with an axe; out jumps Athena, fully armed.",
    "file": "tlg0062/tlg068/tlg0062.tlg068.perseus-grc2.xml",
    "urn": "urn:cts:greekLit:tlg0062.tlg068.perseus-grc2",
-   "refs": ["8.1"]
+   "refs": [
+    "8.1"
+   ]
   }
  ]
 }

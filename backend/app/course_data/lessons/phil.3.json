@@ -1,0 +1,1491 @@
+{
+  "id": "phil.3",
+  "title_grc": "τί δίκαιον, τί ἄδικον;",
+  "title_en": "Socrates' questions",
+  "summary_grc": "ὁ Σωκράτης ἀεὶ ἐν τῷ φανερῷ ἦν καὶ ἐσκόπει τί δίκαιον καὶ τί ἄδικον· τὸν δὲ Εὐθύδημον ἐλέγχει.",
+  "summary_en": "Xenophon remembers where Socrates spent his days and what he always asked: what is pious, just, shameful, brave? Then Socrates takes apart the answers of the bookish young Euthydemus and sends him to the Delphic maxim 'know yourself'. Adapted from Xenophon's Memorabilia: opposites with ἀ-, πότερον … ἤ, and the counter-example.",
+  "cover": "phil-panel-3-b",
+  "caption_grc": "ἀεὶ γὰρ ἐσκόπει τί εὐσεβές, τί ἀσεβές, τί καλόν, τί αἰσχρόν, τί δίκαιον, τί ἄδικον.",
+  "original": {
+    "text": "xen-mem-1.1.10",
+    "note": "Xenophon, Memorabilia 1.1.10 and 1.1.16. Xenophon, who knew Socrates as a young man, wrote the Memorabilia decades after Socrates' death in 399 BC. Paragraphs 1–2 adapt these sections; paragraph 3 retells Socrates' conversation with Euthydemus from Memorabilia 4.2 in simpler Greek."
+  },
+  "names": {
+    "Εὐθύδημος": [
+      "Εὐθυδήμου",
+      "Εὐθυδήμῳ",
+      "Εὐθύδημον",
+      "Εὐθύδημε"
+    ],
+    "Δελφοί": [
+      "Δελφῶν",
+      "Δελφοῖς",
+      "Δελφούς"
+    ]
+  },
+  "allow": {},
+  "story": [
+    {
+      "image": "phil-panel-3-a",
+      "sentences": [
+        {
+          "text": "ὁ δὲ Ξενοφῶν, ὃς νέος ὢν τῷ Σωκράτει συνῆν, πολλὰ περὶ αὐτοῦ ὕστερον ἔγραψεν.",
+          "glosses": [
+            {
+              "word": "συνῆν",
+              "kind": "en",
+              "value": "was with, spent time with (+ dative) (σύνειμι)"
+            },
+            {
+              "word": "ὕστερον",
+              "kind": "en",
+              "value": "later"
+            }
+          ]
+        },
+        {
+          "text": "λέγει γὰρ ὅτι ὁ Σωκράτης ἀεὶ ἐν τῷ φανερῷ ἦν.",
+          "orig": [
+            0
+          ],
+          "glosses": [
+            {
+              "word": "φανερῷ",
+              "kind": "en",
+              "value": "ἐν τῷ φανερῷ: in the open, in public (φανερός, -ά, -όν: visible, clear)"
+            }
+          ]
+        },
+        {
+          "text": "πρῲ μὲν γὰρ εἰς τοὺς περιπάτους καὶ τὰ γυμνάσια ᾔει.",
+          "orig": [
+            1
+          ],
+          "glosses": [
+            {
+              "word": "πρῲ",
+              "kind": "en",
+              "value": "early in the morning"
+            },
+            {
+              "word": "περιπάτους",
+              "kind": "en",
+              "value": "covered walks (ὁ περίπατος)"
+            },
+            {
+              "word": "γυμνάσια",
+              "kind": "en",
+              "value": "gymnasia, exercise grounds (τὸ γυμνάσιον)"
+            }
+          ]
+        },
+        {
+          "text": "πληθούσης δὲ τῆς ἀγορᾶς ἐκεῖ φανερὸς ἦν.",
+          "orig": [
+            1
+          ],
+          "glosses": [
+            {
+              "word": "πληθούσης",
+              "kind": "en",
+              "value": "being full (πληθούσης ἀγορᾶς: in the morning, when the market was full)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ τὸ λοιπὸν τῆς ἡμέρας ἀεὶ ἦν ὅπου πλείστοις ἔμελλε συνέσεσθαι.",
+          "orig": [
+            1
+          ],
+          "glosses": [
+            {
+              "word": "ὅπου",
+              "kind": "en",
+              "value": "where"
+            },
+            {
+              "word": "συνέσεσθαι",
+              "kind": "en",
+              "value": "to be with (future infinitive of σύνειμι)"
+            }
+          ]
+        },
+        {
+          "text": "καὶ ἔλεγε μὲν ὡς τὸ πολύ, τοῖς δὲ βουλομένοις ἐξῆν ἀκούειν.",
+          "orig": [
+            2
+          ],
+          "glosses": [
+            {
+              "word": "ὡς",
+              "kind": "note",
+              "value": "ὡς τὸ πολύ: for the most part, mostly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "phil-panel-3-b",
+      "sentences": [
+        {
+          "text": "οὐδεὶς δὲ τὸν Σωκράτη οὐδὲν ἀσεβὲς ποιοῦντα εἶδεν· εὐσεβὴς γὰρ ἦν.",
+          "glosses": [
+            {
+              "word": "ἀσεβὲς",
+              "kind": "↔",
+              "value": "εὐσεβές | impious (ἀσεβής, -ές)"
+            },
+            {
+              "word": "εὐσεβὴς",
+              "kind": "en",
+              "value": "pious, reverent (εὐσεβής, -ές)"
+            }
+          ]
+        },
+        {
+          "text": "οὐ περὶ τοῦ οὐρανοῦ καὶ τῶν ἄστρων διελέγετο, ὥσπερ οἱ ἄλλοι σοφοί, ἀλλὰ περὶ τῶν ἀνθρωπείων.",
+          "orig": [
+            3,
+            4
+          ],
+          "glosses": [
+            {
+              "word": "ἄστρων",
+              "kind": "en",
+              "value": "stars (τὸ ἄστρον)"
+            },
+            {
+              "word": "ἀνθρωπείων",
+              "kind": "<",
+              "value": "ἄνθρωπος | τὰ ἀνθρώπεια (human affairs)"
+            }
+          ]
+        },
+        {
+          "text": "ἀεὶ γὰρ ἐσκόπει τί εὐσεβές, τί ἀσεβές, τί καλόν, τί αἰσχρόν, τί δίκαιον, τί ἄδικον.",
+          "orig": [
+            4
+          ],
+          "glosses": [
+            {
+              "word": "αἰσχρόν",
+              "kind": "↔",
+              "value": "καλόν | shameful, ugly"
+            },
+            {
+              "word": "δίκαιον",
+              "kind": "en",
+              "value": "just, right (δίκαιος, -α, -ον)"
+            },
+            {
+              "word": "ἄδικον",
+              "kind": "↔",
+              "value": "δίκαιον | unjust"
+            }
+          ]
+        },
+        {
+          "text": "καὶ τί σωφροσύνη, τί ἀνδρεία, τί πόλις, τί ἀρχὴ ἀνθρώπων.",
+          "orig": [
+            4
+          ],
+          "glosses": [
+            {
+              "word": "σωφροσύνη",
+              "kind": "en",
+              "value": "self-control, soundness of mind"
+            },
+            {
+              "word": "ἀνδρεία",
+              "kind": "<",
+              "value": "ἀνήρ | ἡ ἀνδρεία (courage)"
+            },
+            {
+              "word": "ἀρχὴ",
+              "kind": "en",
+              "value": "rule, command (ἡ ἀρχή; also 'beginning')"
+            }
+          ]
+        },
+        {
+          "text": "ἔλεγε δὲ καὶ τὴν σωφροσύνην καὶ τὴν ἀνδρείαν σοφίαν εἶναι.",
+          "glosses": []
+        },
+        {
+          "text": "καὶ ἐνόμιζε τοὺς μὲν τὰ ἀνθρώπεια ἐπισταμένους καλοὺς κἀγαθοὺς εἶναι, τοὺς δὲ ἀγνοοῦντας δούλοις ὁμοίους.",
+          "orig": [
+            4
+          ],
+          "glosses": [
+            {
+              "word": "κἀγαθοὺς",
+              "kind": "=",
+              "value": "καὶ ἀγαθούς: καλὸς κἀγαθός, a true gentleman"
+            },
+            {
+              "word": "ἀγνοοῦντας",
+              "kind": "↔",
+              "value": "ἐπισταμένους | not knowing (ἀγνοέω)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image": "phil-panel-3-c",
+      "sentences": [
+        {
+          "text": "ἦν δέ τις νεανίας, Εὐθύδημος, ὃς πολλὰ βιβλία εἶχε καὶ ᾤετο σοφώτατος εἶναι.",
+          "glosses": []
+        },
+        {
+          "text": "τοῦτον ὁ Σωκράτης ἤρετο· «εἰπέ μοι, ὦ Εὐθύδημε, πότερον τὸ ψεύδεσθαι δίκαιόν ἐστιν ἢ ἄδικον;»",
+          "glosses": [
+            {
+              "word": "πότερον",
+              "kind": "note",
+              "value": "πότερον … ἤ: (is it) this … or that?"
+            },
+            {
+              "word": "ψεύδεσθαι",
+              "kind": "note",
+              "value": "τὸ ψεύδεσθαι: the article makes the infinitive a noun, 'lying'"
+            }
+          ]
+        },
+        {
+          "text": "«ἄδικον καὶ αἰσχρόν, ὦ Σώκρατες.»",
+          "glosses": []
+        },
+        {
+          "text": "«τί δέ; ὁ στρατηγὸς ὁ τοὺς πολεμίους ἐξαπατῶν, δίκαια ποιεῖ ἢ ἄδικα;»",
+          "glosses": [
+            {
+              "word": "ἐξαπατῶν",
+              "kind": "en",
+              "value": "deceiving (ἐξαπατάω)"
+            },
+            {
+              "word": "πολεμίους",
+              "kind": "<",
+              "value": "πόλεμος | οἱ πολέμιοι (the enemy)"
+            }
+          ]
+        },
+        {
+          "text": "«δίκαια.» καὶ ὁ Εὐθύδημος ἠπόρει.",
+          "glosses": []
+        },
+        {
+          "text": "«ἐξ ἀρχῆς οὖν ἐπισκεψώμεθα. εἰς Δελφοὺς ἤδη ἀφίκου;» «καὶ δίς», ἔφη.",
+          "glosses": [
+            {
+              "word": "ἐπισκεψώμεθα",
+              "kind": "en",
+              "value": "let us examine (ἐπισκοπέω, aorist subjunctive)"
+            },
+            {
+              "word": "δίς",
+              "kind": "en",
+              "value": "twice"
+            }
+          ]
+        },
+        {
+          "text": "«ἆρ’ οὖν εἶδες πρὸς τῷ ναῷ γεγραμμένον τὸ γνῶθι σαυτόν;» «ἔγωγε», ἔφη.",
+          "glosses": [
+            {
+              "word": "γεγραμμένον",
+              "kind": "|",
+              "value": "γράφω | γεγραμμένον (written, inscribed: perfect participle)"
+            },
+            {
+              "word": "γνῶθι",
+              "kind": "|",
+              "value": "γιγνώσκω | γνῶθι (know! aorist imperative)"
+            },
+            {
+              "word": "σαυτόν",
+              "kind": "=",
+              "value": "σεαυτόν (yourself)"
+            },
+            {
+              "word": "ἔγωγε",
+              "kind": "=",
+              "value": "ἐγώ + γε: I did"
+            }
+          ]
+        },
+        {
+          "text": "«πότερον οὖν ἐπεσκέψω σεαυτὸν ὅστις εἴης, ἢ οὔ;» ὁ δέ· «οὐκ ἐπεσκεψάμην· ᾤμην γὰρ ἐμαυτὸν καλῶς γιγνώσκειν.»",
+          "glosses": [
+            {
+              "word": "σεαυτὸν",
+              "kind": "en",
+              "value": "yourself"
+            },
+            {
+              "word": "ἐμαυτὸν",
+              "kind": "en",
+              "value": "myself"
+            }
+          ]
+        },
+        {
+          "text": "«ἀλλ’ οὐχ ὅστις τὸ ἑαυτοῦ ὄνομα μόνον γιγνώσκει, οὗτος ἑαυτὸν γιγνώσκει, ἀλλ’ ὅστις ἐπεσκέψατο τί δύναται.»",
+          "glosses": [
+            {
+              "word": "οὐχ",
+              "kind": "=",
+              "value": "οὐ (before a rough breathing)"
+            },
+            {
+              "word": "ὄνομα",
+              "kind": "en",
+              "value": "name (τὸ ὄνομα)"
+            }
+          ]
+        },
+        {
+          "text": "«οἱ μὲν γὰρ ἑαυτοὺς γιγνώσκοντες πράττουσιν ἃ ἐπίστανται καὶ εὖ πράττουσιν· οἱ δὲ ἑαυτοὺς ἀγνοοῦντες κακῶς πράττουσιν.»",
+          "glosses": [
+            {
+              "word": "εὖ",
+              "kind": "note",
+              "value": "εὖ πράττω: I do well, I prosper (↔ κακῶς πράττω)"
+            }
+          ]
+        },
+        {
+          "text": "ὁ δὲ Εὐθύδημος ἐσίγα· ἐφαίνετο γὰρ ἑαυτὸν ἀγνοῶν.",
+          "glosses": [
+            {
+              "word": "ἐσίγα",
+              "kind": "en",
+              "value": "was silent (σιγάω)"
+            },
+            {
+              "word": "ἐφαίνετο",
+              "kind": "note",
+              "value": "φαίνομαι + participle: was clearly (not knowing)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "id": "φανερος",
+      "gloss_grc": "φανερός < φαίνω · ἐν τῷ φανερῷ"
+    },
+    {
+      "id": "δικαιος",
+      "gloss_grc": "δίκαιος, -α, -ον ↔ ἄδικος · τὸ δίκαιον"
+    },
+    {
+      "id": "αδικος",
+      "gloss_grc": "ἄ-δικος, -ον ↔ δίκαιος"
+    },
+    {
+      "id": "αισχρος",
+      "gloss_grc": "αἰσχρός ↔ καλός · τὸ αἰσχρόν"
+    },
+    {
+      "id": "ευσεβης",
+      "gloss_grc": "εὐσεβής, -ές ↔ ἀσεβής · ὁ Σωκράτης εὐσεβὴς ἦν"
+    },
+    {
+      "id": "ασεβης",
+      "gloss_grc": "ἀσεβής, -ές ↔ εὐσεβής · ἡ ἀσέβεια (impiety)"
+    },
+    {
+      "id": "σωφροσυνη",
+      "gloss_grc": "ἡ σωφροσύνη · σώφρων (sound of mind)"
+    },
+    {
+      "id": "ανδρεια",
+      "gloss_grc": "ἀνήρ → ἀνδρεῖος → ἡ ἀνδρεία"
+    },
+    {
+      "id": "αρχη",
+      "gloss_grc": "ἡ ἀρχή: beginning; rule · ἐξ ἀρχῆς"
+    },
+    {
+      "id": "ανθρωπειος",
+      "gloss_grc": "ἄνθρωπος → ἀνθρώπειος · τὰ ἀνθρώπεια ↔ τὰ θεῖα"
+    },
+    {
+      "id": "αγνοεω",
+      "gloss_grc": "ἀγνοῶ ↔ γιγνώσκω, ἐπίσταμαι"
+    },
+    {
+      "id": "επισκοπεω",
+      "gloss_grc": "ἐπισκοπῶ, ἐπισκέψομαι, ἐπεσκεψάμην · ἐπισκόπει σεαυτόν"
+    },
+    {
+      "id": "ποτερος",
+      "gloss_grc": "πότερος; which of the two? · πότερον … ἤ"
+    }
+  ],
+  "notice": [
+    "ἀεὶ γὰρ ἐσκόπει τί εὐσεβές, τί ἀσεβές, τί καλόν, τί αἰσχρόν, τί δίκαιον, τί ἄδικον.",
+    "πότερον τὸ ψεύδεσθαι δίκαιόν ἐστιν ἢ ἄδικον;",
+    "πληθούσης δὲ τῆς ἀγορᾶς ἐκεῖ φανερὸς ἦν.",
+    "ὁ δὲ Εὐθύδημος ἐσίγα· ἐφαίνετο γὰρ ἑαυτὸν ἀγνοῶν."
+  ],
+  "grammar": {
+    "md": "Xenophon writes plain, clear Attic; the *Memorabilia* ('Recollections') is his defence of Socrates. This lesson reads him for two things: the **questions Socrates asked**, and the **way he asked them**.\n\n**What is X?** Xenophon lists Socrates' questions as a string of τί + neuter adjective: τί **εὐσεβές**, τί **ἀσεβές**, τί **καλόν**, τί **αἰσχρόν**, τί **δίκαιον**, τί **ἄδικον**. The neuter adjective names the quality (τὸ δίκαιον 'the just'); abstract nouns do the same work: ἡ **σωφροσύνη**, ἡ **ἀνδρεία**, ἡ **σοφία**. The opposites come in pairs made with the negative prefix ἀ- / ἀν-: δίκαιος ↔ ἄδικος, εὐσεβής ↔ ἀσεβής, ὅσιος ↔ ἀνόσιος, γιγνώσκω ↔ ἀγνοέω.\n\n**Which of the two?** Socrates offers a choice and makes the learner pick:\n\n| Greek | meaning |\n|---|---|\n| **πότερον** δίκαιόν ἐστιν **ἢ** ἄδικον; | is it just or unjust? |\n| δίκαια ποιεῖ **ἢ** ἄδικα; | (the second question needs no πότερον) |\n| **τί δέ;** | well then? what about this? |\n| ἐπισκεψώμεθα | let us examine (hortatory subjunctive) |\n\nThe trick is the next question: the general who deceives the enemy lies, yet does what is just. The learner's easy answer collapses, and he is at a loss (ἠπόρει) or silent (ἐσίγα). This is the ἔλεγχος you met in Lesson 1.\n\n**Participles that carry the sense.** πληθούσης τῆς ἀγορᾶς (genitive absolute) 'when the market was full'; ἐφαίνετο ἀγνοῶν 'he was plainly ignorant' (φαίνομαι + participle: clearly is); οἱ ἑαυτοὺς γιγνώσκοντες 'those who know themselves'.",
+    "paradigms": [
+      "dikaios",
+      "alethes"
+    ],
+    "diagram": "diagram-participle-map"
+  },
+  "exercises": [
+    {
+      "type": "endings-cloze",
+      "prompt": "Μελέτημα Α · Fill in the endings.",
+      "template": "ἐσκόπει τί δίκαι___ καὶ τί εὐσεβ___. τί ἐστιν ἡ ἀνδρεί___; ἐσκόπει καὶ τὰς ἀρχ___ τῶν ἀνθρώπων.",
+      "gaps": [
+        {
+          "answers": [
+            "ον"
+          ]
+        },
+        {
+          "answers": [
+            "ες"
+          ]
+        },
+        {
+          "answers": [
+            "α"
+          ]
+        },
+        {
+          "answers": [
+            "ας"
+          ]
+        }
+      ],
+      "skills": [
+        "adj.agree",
+        "adj.decl3.es",
+        "noun.decl1.nom.sg",
+        "noun.decl1.acc.pl"
+      ],
+      "explain": "τί δίκαιον (neuter), τί εὐσεβές (neuter of εὐσεβής), ἡ ἀνδρεία (-α after ε, ι, ρ), τὰς ἀρχάς (accusative plural)."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · πότερον τὸ ψεύδεσθαι δίκαιόν ἐστιν ___ ἄδικον;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἢ"
+        },
+        {
+          "id": "b",
+          "text": "καί"
+        },
+        {
+          "id": "c",
+          "text": "ἀλλά"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.questions"
+      ],
+      "explain": "πότερον … ἤ: whether … or.",
+      "audio": "πότερον τὸ ψεύδεσθαι δίκαιόν ἐστιν ἢ ἄδικον;"
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ὁ δὲ Εὐθύδημος ἑαυτὸν ___.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἠγνόει"
+        },
+        {
+          "id": "b",
+          "text": "ἐπεσκέψατο"
+        },
+        {
+          "id": "c",
+          "text": "ἐσκόπει"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.phil",
+        "verb.contract.e"
+      ],
+      "explain": "ἠγνόει: he did not know himself (ἀγνοέω, imperfect).",
+      "audio": "ὁ δὲ Εὐθύδημος ἑαυτὸν ἠγνόει."
+    },
+    {
+      "type": "bank-cloze",
+      "prompt": "Μελέτημα Β · ὁ Σωκράτης ἀεὶ ἐν τῷ ___ ἦν.",
+      "options": [
+        {
+          "id": "a",
+          "text": "φανερῷ"
+        },
+        {
+          "id": "b",
+          "text": "φανερόν"
+        },
+        {
+          "id": "c",
+          "text": "φανερός"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.phil",
+        "prep.en.dat"
+      ],
+      "explain": "ἐν + dative: ἐν τῷ φανερῷ, in public.",
+      "audio": "ὁ Σωκράτης ἀεὶ ἐν τῷ φανερῷ ἦν."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἡ σωφροσύνη"
+        },
+        {
+          "id": "b",
+          "text": "ἡ δικαιοσύνη"
+        },
+        {
+          "id": "c",
+          "text": "ἡ ἀνδρεία"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.words",
+        "vocab.recognition"
+      ],
+      "explain": "ἡ σωφροσύνη: self-control.",
+      "audio": "ἡ σωφροσύνη"
+    },
+    {
+      "type": "match",
+      "prompt": "Match the opposites.",
+      "pairs": [
+        {
+          "left": "δίκαιος",
+          "right": "ἄδικος"
+        },
+        {
+          "left": "εὐσεβής",
+          "right": "ἀσεβής"
+        },
+        {
+          "left": "καλός",
+          "right": "αἰσχρός"
+        },
+        {
+          "left": "γιγνώσκω",
+          "right": "ἀγνοέω"
+        },
+        {
+          "left": "ὅσιος",
+          "right": "ἀνόσιος"
+        }
+      ],
+      "skills": [
+        "vocab.recognition",
+        "vocab.phil",
+        "read.phil.terms"
+      ],
+      "explain": "Most opposites are made with ἀ-/ἀν- 'not'; αἰσχρός is the opposite of καλός."
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the neuter singular of εὐσεβής: τί ___;",
+      "lemma": "εὐσεβής",
+      "cell": "nom.sg.n",
+      "skills": [
+        "adj.decl3.es",
+        "vocab.production"
+      ],
+      "explain": "εὐσεβές: like ἀληθής, ἀληθές.",
+      "audio": "εὐσεβές"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the present participle of ἀγνοέω, masculine accusative plural: τοὺς ___.",
+      "lemma": "ἀγνοέω",
+      "cell": "present.active.participle.acc.pl.m",
+      "skills": [
+        "verb.ptc.pres.act",
+        "verb.contract.e"
+      ],
+      "explain": "ἀγνο-έοντας → ἀγνοοῦντας.",
+      "audio": "ἀγνοοῦντας"
+    },
+    {
+      "type": "produce-form",
+      "prompt": "Give the aorist of ἐπισκοπέω for 'he examined'.",
+      "lemma": "ἐπισκοπέω",
+      "cell": "aorist.middle.indicative.3sg",
+      "skills": [
+        "verb.aor1.sigma",
+        "vocab.production"
+      ],
+      "explain": "ἐπεσκέψατο: the aorist comes from another stem, σκεπ- (+ σ → ψ), with middle endings.",
+      "audio": "ἐπεσκέψατο"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἐπισκεψώμεθα.",
+      "form": "ἐπισκεψώμεθα",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "aor",
+        "mood": "subj",
+        "person": "1pl"
+      },
+      "skills": [
+        "syntax.subj-hortatory",
+        "verb.aor1.sigma"
+      ],
+      "explain": "ἐπι-σκεψ-ώμεθα: aorist subjunctive, 'let us examine'.",
+      "audio": "ἐπισκεψώμεθα"
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse πληθούσης.",
+      "form": "πληθούσης",
+      "groups": [
+        {
+          "id": "case",
+          "label": "Case",
+          "options": [
+            {
+              "id": "nom",
+              "label": "nominative"
+            },
+            {
+              "id": "gen",
+              "label": "genitive"
+            },
+            {
+              "id": "dat",
+              "label": "dative"
+            },
+            {
+              "id": "acc",
+              "label": "accusative"
+            },
+            {
+              "id": "voc",
+              "label": "vocative"
+            }
+          ]
+        },
+        {
+          "id": "number",
+          "label": "Number",
+          "options": [
+            {
+              "id": "sg",
+              "label": "singular"
+            },
+            {
+              "id": "pl",
+              "label": "plural"
+            }
+          ]
+        },
+        {
+          "id": "mood",
+          "label": "Mood",
+          "options": [
+            {
+              "id": "ind",
+              "label": "indicative"
+            },
+            {
+              "id": "subj",
+              "label": "subjunctive"
+            },
+            {
+              "id": "opt",
+              "label": "optative"
+            },
+            {
+              "id": "imp",
+              "label": "imperative"
+            },
+            {
+              "id": "inf",
+              "label": "infinitive"
+            },
+            {
+              "id": "ptc",
+              "label": "participle"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "case": "gen",
+        "number": "sg",
+        "mood": "ptc"
+      },
+      "skills": [
+        "syntax.gen-abs",
+        "verb.ptc.pres.act"
+      ],
+      "explain": "πληθούσης: present participle (feminine genitive) in a genitive absolute with τῆς ἀγορᾶς.",
+      "audio": "πληθούσης"
+    },
+    {
+      "type": "label",
+      "prompt": "πληθούσης δὲ τῆς ἀγορᾶς ἐκεῖ φανερὸς ἦν. πληθούσης τῆς ἀγορᾶς is …",
+      "options": [
+        {
+          "id": "a",
+          "text": "a genitive absolute: 'when the market was full'"
+        },
+        {
+          "id": "b",
+          "text": "the object of ἦν"
+        },
+        {
+          "id": "c",
+          "text": "a genitive of comparison"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.gen-abs"
+      ],
+      "explain": "Noun + participle in the genitive, standing apart from the sentence: a genitive absolute."
+    },
+    {
+      "type": "label",
+      "prompt": "«τί δέ; ὁ στρατηγὸς ὁ τοὺς πολεμίους ἐξαπατῶν, δίκαια ποιεῖ ἢ ἄδικα;» What is Socrates doing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "testing Euthydemus' answer with a counter-example"
+        },
+        {
+          "id": "b",
+          "text": "agreeing with him"
+        },
+        {
+          "id": "c",
+          "text": "changing the subject"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.argument",
+        "read.phil.questions"
+      ],
+      "explain": "The general deceives, yet acts justly: so 'lying is unjust' cannot be the whole truth."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἐφαίνετο ἑαυτὸν ἀγνοῶν means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "he was plainly ignorant of himself"
+        },
+        {
+          "id": "b",
+          "text": "he seemed to know himself"
+        },
+        {
+          "id": "c",
+          "text": "he showed himself"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "verb.ptc.supplementary",
+        "read.comprehension"
+      ],
+      "explain": "φαίνομαι + participle: to be clearly (doing)."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "τί καλόν, τί ___;",
+      "options": [
+        {
+          "id": "a",
+          "text": "αἰσχρόν"
+        },
+        {
+          "id": "b",
+          "text": "ἄδικον"
+        },
+        {
+          "id": "c",
+          "text": "ἀσεβές"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.phil",
+        "read.phil.terms"
+      ],
+      "explain": "καλός ↔ αἰσχρός."
+    },
+    {
+      "type": "transform",
+      "prompt": "Make the opposite: δίκαιος → ___",
+      "template": "___",
+      "gaps": [
+        {
+          "answers": [
+            "ἄδικος"
+          ]
+        }
+      ],
+      "skills": [
+        "read.phil.terms",
+        "vocab.production"
+      ],
+      "explain": "ἀ- + δίκαιος → ἄδικος (two endings: ἄδικος, ἄδικον)."
+    },
+    {
+      "type": "transform",
+      "prompt": "Make it a 'which of the two' question: 'Is it just or unjust?' → ___ δίκαιόν ἐστιν ἢ ἄδικον;",
+      "template": "___ δίκαιόν ἐστιν ἢ ἄδικον;",
+      "gaps": [
+        {
+          "answers": [
+            "πότερον"
+          ]
+        }
+      ],
+      "skills": [
+        "read.phil.questions"
+      ],
+      "explain": "πότερον … ἤ."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the two adjectives that are opposites.",
+      "sentence": "ἀεὶ γὰρ ἐσκόπει τί εὐσεβές, τί ἀσεβές, τί καλόν, τί αἰσχρόν, τί δίκαιον, τί ἄδικον.",
+      "answer": [
+        4,
+        6
+      ],
+      "skills": [
+        "read.locate",
+        "read.phil.terms"
+      ],
+      "explain": "εὐσεβές ↔ ἀσεβές (also καλόν ↔ αἰσχρόν, δίκαιον ↔ ἄδικον)."
+    },
+    {
+      "type": "locate",
+      "prompt": "Tap the participle that tells us what Euthydemus was.",
+      "sentence": "ὁ δὲ Εὐθύδημος ἐσίγα· ἐφαίνετο γὰρ ἑαυτὸν ἀγνοῶν.",
+      "answer": [
+        7
+      ],
+      "skills": [
+        "read.locate",
+        "verb.ptc.supplementary"
+      ],
+      "explain": "ἀγνοῶν, with ἐφαίνετο."
+    },
+    {
+      "type": "reorder",
+      "prompt": "Put the words in order: 'Know yourself.'",
+      "tokens": [
+        "γνῶθι",
+        "σαυτόν"
+      ],
+      "answers": [
+        "γνῶθι σαυτόν",
+        "σαυτὸν γνῶθι"
+      ],
+      "skills": [
+        "syntax.word-order",
+        "syntax.imperative"
+      ],
+      "explain": "γνῶθι σαυτόν: the Delphic inscription."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "γνῶθι σαυτόν."
+        },
+        {
+          "id": "b",
+          "text": "γνῶθι τὸν θεόν."
+        },
+        {
+          "id": "c",
+          "text": "γράφε σαυτόν."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "Know yourself.",
+      "audio": "γνῶθι σαυτόν."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Σωκράτης περὶ τῶν ἄστρων ἀεὶ διελέγετο.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "οὐ περὶ τοῦ οὐρανοῦ καὶ τῶν ἄστρων … ἀλλὰ περὶ τῶν ἀνθρωπείων."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "πληθούσης τῆς ἀγορᾶς ὁ Σωκράτης ἐκεῖ ἦν.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "πληθούσης δὲ τῆς ἀγορᾶς ἐκεῖ φανερὸς ἦν."
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Εὐθύδημος ἑαυτὸν ἐπεσκέψατο ὅστις εἴη.",
+      "audio": "prompt",
+      "answer": "false",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "οὐκ ἐπεσκεψάμην· ᾤμην γὰρ ἐμαυτὸν καλῶς γιγνώσκειν."
+    },
+    {
+      "type": "dictation",
+      "prompt": "Listen and type what you hear.",
+      "gaps": [
+        {
+          "answers": [
+            "τί δίκαιον, τί ἄδικον"
+          ]
+        }
+      ],
+      "skills": [
+        "spell.dictation",
+        "listen.sentences"
+      ],
+      "explain": "τί δίκαιον, τί ἄδικον: what is just, what is unjust.",
+      "audio": "τί δίκαιον, τί ἄδικον;"
+    },
+    {
+      "type": "compose-grc",
+      "prompt": "Write in Greek: 'Socrates was pious.'",
+      "gaps": [
+        {
+          "answers": [
+            "ὁ Σωκράτης εὐσεβὴς ἦν",
+            "εὐσεβὴς ἦν ὁ Σωκράτης",
+            "ὁ Σωκράτης ἦν εὐσεβής",
+            "Σωκράτης εὐσεβὴς ἦν"
+          ]
+        }
+      ],
+      "skills": [
+        "vocab.production",
+        "adj.predicate"
+      ],
+      "explain": "ὁ Σωκράτης εὐσεβὴς ἦν."
+    },
+    {
+      "type": "translate-en",
+      "prompt": "Translate: καὶ ἐνόμιζε τοὺς μὲν τὰ ἀνθρώπεια ἐπισταμένους καλοὺς κἀγαθοὺς εἶναι, τοὺς δὲ ἀγνοοῦντας δούλοις ὁμοίους.",
+      "audio": "καὶ ἐνόμιζε τοὺς μὲν τὰ ἀνθρώπεια ἐπισταμένους καλοὺς κἀγαθοὺς εἶναι, τοὺς δὲ ἀγνοοῦντας δούλοις ὁμοίους.",
+      "model": "And he thought that those who understood human affairs were true gentlemen, and those who did not know them were like slaves.",
+      "skills": [
+        "read.adapted-text",
+        "read.xenophon",
+        "syntax.indirect-inf"
+      ],
+      "explain": "ἐνόμιζε + accusative and infinitive; τοὺς μὲν … τοὺς δέ 'some … others'; ὁμοίους + dative (sc. εἶναι)."
+    },
+    {
+      "type": "word-family",
+      "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+      "pairs": [
+        {
+          "left": "ἡ ἀρχή",
+          "right": "monarchy, archaeology"
+        },
+        {
+          "left": "ἐπισκοπέω (ἐπίσκοπος)",
+          "right": "bishop"
+        },
+        {
+          "left": "τὸ γυμνάσιον",
+          "right": "gymnasium"
+        },
+        {
+          "left": "ἡ ἀνδρεία (ἀνήρ)",
+          "right": "Andrew, android"
+        },
+        {
+          "left": "ἀγνοέω (ἄγνωστος)",
+          "right": "agnostic"
+        }
+      ],
+      "skills": [
+        "vocab.family"
+      ],
+      "explain": "μον-αρχία 'rule of one'; ἐπίσκοπος 'overseer' → bishop; γυμνάσιον; ἀνδρ- 'man'; ἄγνωστος 'unknown'."
+    }
+  ],
+  "questions": [
+    {
+      "type": "answer-grc",
+      "prompt": "ποῦ ἦν ὁ Σωκράτης πρῲ;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ἐν τοῖς περιπάτοις καὶ τοῖς γυμνασίοις."
+        },
+        {
+          "id": "b",
+          "text": "ἐν Δελφοῖς."
+        },
+        {
+          "id": "c",
+          "text": "οἴκοι."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "πρῲ μὲν γὰρ εἰς τοὺς περιπάτους καὶ τὰ γυμνάσια ᾔει.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "περὶ τίνων διελέγετο ὁ Σωκράτης;",
+      "options": [
+        {
+          "id": "a",
+          "text": "περὶ τῶν ἀνθρωπείων."
+        },
+        {
+          "id": "b",
+          "text": "περὶ τοῦ οὐρανοῦ καὶ τῶν ἄστρων."
+        },
+        {
+          "id": "c",
+          "text": "περὶ τῶν βιβλίων."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "read.xenophon"
+      ],
+      "explain": "ἀλλὰ περὶ τῶν ἀνθρωπείων.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί ἀπεκρίνατο ὁ Εὐθύδημος περὶ τοῦ ψεύδεσθαι;",
+      "options": [
+        {
+          "id": "a",
+          "text": "ὅτι ἄδικόν ἐστι καὶ αἰσχρόν."
+        },
+        {
+          "id": "b",
+          "text": "ὅτι δίκαιόν ἐστιν."
+        },
+        {
+          "id": "c",
+          "text": "οὐδὲν ἀπεκρίνατο."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "«ἄδικον καὶ αἰσχρόν, ὦ Σώκρατες.»",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τί ἦν γεγραμμένον πρὸς τῷ ναῷ;",
+      "options": [
+        {
+          "id": "a",
+          "text": "γνῶθι σαυτόν."
+        },
+        {
+          "id": "b",
+          "text": "μηδὲν ψεύδου."
+        },
+        {
+          "id": "c",
+          "text": "τί ἐστι τὸ ὅσιον;"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "τὸ γνῶθι σαυτόν.",
+      "audio": "prompt"
+    },
+    {
+      "type": "answer-grc",
+      "prompt": "τίνες εὖ πράττουσιν;",
+      "options": [
+        {
+          "id": "a",
+          "text": "οἱ ἑαυτοὺς γιγνώσκοντες."
+        },
+        {
+          "id": "b",
+          "text": "οἱ πολλὰ βιβλία ἔχοντες."
+        },
+        {
+          "id": "c",
+          "text": "οἱ τοὺς πολεμίους ἐξαπατῶντες."
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.comprehension",
+        "read.phil.argument"
+      ],
+      "explain": "οἱ μὲν γὰρ ἑαυτοὺς γιγνώσκοντες … εὖ πράττουσιν.",
+      "audio": "prompt"
+    }
+  ],
+  "culture": {
+    "title": "Xenophon remembers Socrates",
+    "md": "**Xenophon** son of Gryllus (c. 430 – c. 355 BC) was born in the deme Erchia, a horseman from a well-off family. As a young man he spent time with Socrates; in 401 he left Athens to serve with Cyrus in Persia (the *Anabasis*), so he was not in the city when Socrates was tried in 399. Exiled soon after, he lived for years on an estate at Scillus near Olympia given him by the Spartans, and there, and later in Corinth, he wrote.\n\nThe **Memorabilia** (Ἀπομνημονεύματα, 'Recollections') begins as an answer to the charges: Socrates was not impious, since he sacrificed openly and never spoke of the heavens like the natural philosophers; he did not corrupt the young, since he made them better. Most of the work is short conversations: with his son about his mother's temper, with an armourer about fit, with the young **Euthydemus**, who owned the finest library of poets and sophists and thought himself wise.\n\nXenophon's Socrates is more practical than Plato's: he gives advice about health, money and friendship as well as asking τί ἐστι; But the method is the same: a question, an easy answer, a counter-example, and ἀπορία. The Delphic maxim **γνῶθι σαυτόν**, 'know yourself', was inscribed at Apollo's temple at Delphi; a Roman mosaic of a reclining skeleton with these words is now in the Museo Nazionale Romano.",
+    "image": "phil-culture-3-gnothi-mosaic"
+  },
+  "quiz": [
+    {
+      "type": "produce-form",
+      "prompt": "Give the neuter singular of ἄδικος: τί ___;",
+      "lemma": "ἄδικος",
+      "cell": "nom.sg.n",
+      "skills": [
+        "adj.agree",
+        "vocab.production"
+      ],
+      "explain": "ἄδικον: two-ending adjective, neuter -ον.",
+      "audio": "ἄδικον"
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "ἡ ἀνδρεία is …",
+      "options": [
+        {
+          "id": "a",
+          "text": "courage"
+        },
+        {
+          "id": "b",
+          "text": "manhood's end"
+        },
+        {
+          "id": "c",
+          "text": "a man"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "vocab.recognition",
+        "vocab.phil"
+      ],
+      "explain": "ἡ ἀνδρεία: courage (< ἀνήρ)."
+    },
+    {
+      "type": "cloze-choice",
+      "prompt": "πότερον … ἤ means …",
+      "options": [
+        {
+          "id": "a",
+          "text": "whether … or"
+        },
+        {
+          "id": "b",
+          "text": "both … and"
+        },
+        {
+          "id": "c",
+          "text": "neither … nor"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "read.phil.questions"
+      ],
+      "explain": "πότερον … ἤ introduces a choice between two."
+    },
+    {
+      "type": "parse",
+      "prompt": "Parse ἠγνόει.",
+      "form": "ἠγνόει",
+      "groups": [
+        {
+          "id": "tense",
+          "label": "Tense",
+          "options": [
+            {
+              "id": "pres",
+              "label": "present"
+            },
+            {
+              "id": "impf",
+              "label": "imperfect"
+            },
+            {
+              "id": "fut",
+              "label": "future"
+            },
+            {
+              "id": "aor",
+              "label": "aorist"
+            },
+            {
+              "id": "perf",
+              "label": "perfect"
+            }
+          ]
+        },
+        {
+          "id": "person",
+          "label": "Person and number",
+          "options": [
+            {
+              "id": "1sg",
+              "label": "1st singular"
+            },
+            {
+              "id": "2sg",
+              "label": "2nd singular"
+            },
+            {
+              "id": "3sg",
+              "label": "3rd singular"
+            },
+            {
+              "id": "1pl",
+              "label": "1st plural"
+            },
+            {
+              "id": "2pl",
+              "label": "2nd plural"
+            },
+            {
+              "id": "3pl",
+              "label": "3rd plural"
+            }
+          ]
+        }
+      ],
+      "answer": {
+        "tense": "impf",
+        "person": "3sg"
+      },
+      "skills": [
+        "verb.contract.e",
+        "verb.impf.act.ind.3sg"
+      ],
+      "explain": "ἠ-γνόε-ε → ἠγνόει.",
+      "audio": "ἠγνόει"
+    },
+    {
+      "type": "true-false-grc",
+      "prompt": "ὁ Σωκράτης τὰ γυμνάσια ἐφίλει.",
+      "audio": "prompt",
+      "answer": "true",
+      "skills": [
+        "read.comprehension"
+      ],
+      "explain": "πρῲ μὲν γὰρ εἰς τοὺς περιπάτους καὶ τὰ γυμνάσια ᾔει."
+    },
+    {
+      "type": "listen-pick",
+      "prompt": "Listen and choose what you hear.",
+      "options": [
+        {
+          "id": "a",
+          "text": "τί εὐσεβές, τί ἀσεβές;"
+        },
+        {
+          "id": "b",
+          "text": "τί καλόν, τί αἰσχρόν;"
+        },
+        {
+          "id": "c",
+          "text": "τί δίκαιον, τί ἄδικον;"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "listen.sentences"
+      ],
+      "explain": "What is pious, what is impious?",
+      "audio": "τί εὐσεβές, τί ἀσεβές;"
+    },
+    {
+      "type": "label",
+      "prompt": "ἐπισκεψώμεθα is …",
+      "options": [
+        {
+          "id": "a",
+          "text": "hortatory: 'let us examine'"
+        },
+        {
+          "id": "b",
+          "text": "a command to one person"
+        },
+        {
+          "id": "c",
+          "text": "a wish"
+        }
+      ],
+      "answer": "a",
+      "skills": [
+        "syntax.subj-hortatory"
+      ],
+      "explain": "1st person plural subjunctive: 'let us …'."
+    }
+  ],
+  "skills": [
+    "read.adapted-text",
+    "read.xenophon",
+    "read.comprehension",
+    "read.locate",
+    "read.phil.questions",
+    "read.phil.terms",
+    "read.phil.argument",
+    "syntax.gen-abs",
+    "syntax.subj-hortatory",
+    "syntax.indirect-inf",
+    "syntax.imperative",
+    "verb.ptc.supplementary",
+    "verb.ptc.pres.act",
+    "verb.aor1.sigma",
+    "verb.contract.e",
+    "adj.decl3.es",
+    "adj.agree",
+    "listen.words",
+    "listen.sentences",
+    "spell.dictation",
+    "vocab.recognition",
+    "vocab.production",
+    "vocab.phil",
+    "vocab.family"
+  ]
+}

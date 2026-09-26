@@ -100,6 +100,98 @@
    "license": "placeholder",
    "source_url": null,
    "words": []
+  },
+  {
+   "id": "pol-3-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Εὔδημος πρῲ εἰς τὸ δικαστήριον σπεύδει",
+   "alt_en": "Dawn in a crowded city street: Eudemos, a burly charcoal-burner in a rough cloak, hurries off with other old men towards the law courts; Lysis calls after him from the doorway.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-3-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Δημόκριτος καὶ ὁ Ἀρίστων διαλέγονται",
+   "alt_en": "Evening by a lamp: Demokritos waves his hands and argues with Ariston over the table; Lysis listens, chin in hands.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-3-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Κίμων τὰ χωρία ἄφρακτα ἔχει",
+   "alt_en": "Cimon's orchards without fences: villagers help themselves to figs and grapes while a steward watches, smiling.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-pinakion",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "τὸ πινάκιον",
+   "alt_en": "A bronze juror's ticket (pinakion), 4th century BC, stamped with its owner's name, father's name and deme, and a letter for his jury section.",
+   "credit": "placeholder (target: museum photograph of a bronze pinakion, CC0 / CC BY)",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πινάκιον"
+   ]
+  },
+  {
+   "id": "pol-4-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "οἱ δικασταὶ τὰ πινάκια φέρουσιν",
+   "alt_en": "Morning outside the law courts in the 4th century: citizens queue at ten entrances, each holding a small bronze ticket; a stone allotment machine stands at each entrance.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-4-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ ἄρχων τοὺς κύβους εἰς τὸ κληρωτήριον ἐμβάλλει",
+   "alt_en": "The archon pours white and black balls into the bronze tube of the kleroterion; a juror whose name has been called draws an acorn-token from a water jar and holds up its letter.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-4-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ δικαστὴς τὴν βακτηρίαν λαβὼν βαδίζει",
+   "alt_en": "A juror with a staff painted red walks towards a court doorway marked with the same red colour and the same letter; an attendant hands him a token.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-kleroterion-agora",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "κληρωτήριον",
+   "alt_en": "Fragment of a marble kleroterion (allotment machine) with rows of ticket slots, 4th century BC, found in the Athenian Agora (Agora Museum).",
+   "credit": "placeholder (target: Wikimedia Commons photograph of the Agora Museum kleroterion, CC BY-SA)",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "κληρωτήριον"
+   ]
   }
  ]
 }

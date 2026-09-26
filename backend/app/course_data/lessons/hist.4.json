@@ -1,0 +1,1376 @@
+{
+ "id": "hist.4",
+ "title_grc": "Αἰγὸς ποταμοί",
+ "title_en": "Aegospotami",
+ "summary_grc": "ὁ Λύσανδρος τὰς ναῦς τῶν Ἀθηναίων πρὸς τῇ γῇ λαμβάνει· ἡ δὲ Πάραλος εἰς τὰς Ἀθήνας ἀπαγγελοῦσα ἀποπλεῖ.",
+ "summary_en": "405 BC: for four days the Athenian fleet rows out to challenge Lysander, and each afternoon the crews scatter ashore. On the fifth day a flashing shield gives the signal, and the Spartans take almost the whole fleet on the beach. Xenophon, Hellenica 2.1.27–29, with cuts: orders in indirect speech, ἐπάν + subjunctive, αἱ μέν … αἱ δέ.",
+ "cover": "hist-panel-4-b",
+ "caption_grc": "Λύσανδρος δʼ εὐθὺς ἐσήμηνε τὴν ταχίστην πλεῖν.",
+ "original": {
+  "text": "xen-hell-2.1.27",
+  "note": "Xenophon, Hellenica 2.1.28–29, with cuts only (the two opening sentences are ours; a clause about the market and the captured sails is left out). The battle was in late summer 405 BC. Xenophon, then in his twenties, was probably in Athens; he wrote the Hellenica decades later, in exile, beginning where Thucydides breaks off."
+ },
+ "names": {
+  "Λύσανδρος": [
+   "Λυσάνδρου",
+   "Λυσάνδρῳ",
+   "Λύσανδρον"
+  ],
+  "Κόνων": [
+   "Κόνωνος",
+   "Κόνωνι",
+   "Κόνωνα"
+  ],
+  "Ἑλλήσποντος": [
+   "Ἑλλησπόντου",
+   "Ἑλλησπόντῳ",
+   "Ἑλλήσποντον"
+  ],
+  "Λάμψακος": [
+   "Λαμψάκου",
+   "Λαμψάκῳ",
+   "Λάμψακον"
+  ],
+  "Αἰγός": [],
+  "Χερρόνησος": [
+   "Χερρονήσου",
+   "Χερρονήσῳ",
+   "Χερρόνησον"
+  ],
+  "Θώραξ": [],
+  "Πάραλος": [
+   "Παράλου",
+   "Παράλῳ",
+   "Πάραλον"
+  ],
+  "Εὐαγόρας": [
+   "Εὐαγόρου",
+   "Εὐαγόρᾳ",
+   "Εὐαγόραν"
+  ],
+  "Κύπρος": [
+   "Κύπρου",
+   "Κύπρῳ",
+   "Κύπρον"
+  ]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "hist-panel-4-a",
+   "sentences": [
+    {
+     "text": "τῷ δὲ ἑβδόμῳ καὶ εἰκοστῷ ἔτει τοῦ πολέμου αἱ τῶν Ἀθηναίων νῆες, ὀγδοήκοντα καὶ ἑκατόν, ἐν Αἰγὸς ποταμοῖς ἐν τῷ Ἑλλησπόντῳ ὥρμουν· ἀντίοι δὲ ἐν Λαμψάκῳ ἦσαν ὁ Λύσανδρος ὁ τῶν Λακεδαιμονίων ναύαρχος καὶ αἱ νῆες αὐτοῦ.",
+     "glosses": [
+      {
+       "word": "ἑβδόμῳ",
+       "kind": "<",
+       "value": "ἑπτά | ἕβδομος: seventh; ἑβδόμῳ καὶ εἰκοστῷ, the 27th year (405 BC)"
+      },
+      {
+       "word": "ὀγδοήκοντα",
+       "kind": "=",
+       "value": "80 (ὀκτώ): ὀγδοήκοντα καὶ ἑκατόν, 180"
+      },
+      {
+       "word": "Αἰγὸς",
+       "kind": "note",
+       "value": "Αἰγὸς ποταμοί: 'Goat's Rivers', an open beach on the Hellespont"
+      },
+      {
+       "word": "ὥρμουν",
+       "kind": "en",
+       "value": "lay at anchor, were stationed (ὁρμέω)"
+      },
+      {
+       "word": "ἀντίοι",
+       "kind": "en",
+       "value": "opposite, facing them (ἀντίος)"
+      }
+     ]
+    },
+    {
+     "text": "καὶ τέτταρας ἡμέρας οἱ Ἀθηναῖοι ἐπέπλεον εἰς μάχην προκαλούμενοι, ὁ δὲ Λύσανδρος οὐκ ἀντανῆγεν.",
+     "glosses": [
+      {
+       "word": "ἐπέπλεον",
+       "kind": "<",
+       "value": "ἐπί + πλέω | ἐπιπλέω: sail against, sail out at"
+      },
+      {
+       "word": "προκαλούμενοι",
+       "kind": "en",
+       "value": "challenging (προκαλέομαι)"
+      },
+      {
+       "word": "ἀντανῆγεν",
+       "kind": "<",
+       "value": "ἀντί + ἀνάγω | ἀντανάγω: put out to sea against them"
+      }
+     ]
+    },
+    {
+     "text": "Λύσανδρος δʼ, ἐπεὶ ἦν ἡμέρα πέμπτη ἐπιπλέουσι τοῖς Ἀθηναίοις, εἶπε τοῖς παρʼ αὐτοῦ ἑπομένοις, ἐπὰν κατίδωσιν αὐτοὺς ἐκβεβηκότας καὶ ἐσκεδασμένους κατὰ τὴν Χερρόνησον, ὅπερ ἐποίουν πολὺ μᾶλλον καθʼ ἑκάστην ἡμέραν, ἀποπλέοντας παρʼ αὐτὸν ἆραι ἀσπίδα κατὰ μέσον τὸν πλοῦν.",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "ἐπιπλέουσι",
+       "kind": "note",
+       "value": "ἡμέρα πέμπτη ἐπιπλέουσι τοῖς Ἀθηναίοις: the fifth day for the Athenians sailing out (dative of the person concerned)"
+      },
+      {
+       "word": "ἑπομένοις",
+       "kind": "note",
+       "value": "τοῖς παρʼ αὐτοῦ ἑπομένοις: those (scout ships) of his that followed them"
+      },
+      {
+       "word": "ἐπὰν",
+       "kind": "=",
+       "value": "ἐπειδάν: whenever, as soon as (+ subjunctive)"
+      },
+      {
+       "word": "κατίδωσιν",
+       "kind": "<",
+       "value": "κατά + εἶδον | κατεῖδον, κατίδω: catch sight of"
+      },
+      {
+       "word": "ἐκβεβηκότας",
+       "kind": "|",
+       "value": "ἐκβαίνω (go out, land) | ἐκβεβηκότας: gone ashore (perfect participle)"
+      },
+      {
+       "word": "ἐσκεδασμένους",
+       "kind": "en",
+       "value": "scattered (perfect passive participle of σκεδάννυμι)"
+      },
+      {
+       "word": "Χερρόνησον",
+       "kind": "en",
+       "value": "the Chersonese (Gallipoli peninsula)"
+      },
+      {
+       "word": "ὅπερ",
+       "kind": "note",
+       "value": "ὅπερ ἐποίουν: which is just what they were doing"
+      },
+      {
+       "word": "μᾶλλον",
+       "kind": "note",
+       "value": "πολὺ μᾶλλον: much more (every day more carelessly)"
+      },
+      {
+       "word": "καθʼ",
+       "kind": "note",
+       "value": "καθʼ ἑκάστην ἡμέραν: every day (κατά before a rough breathing)"
+      },
+      {
+       "word": "ἆραι",
+       "kind": "|",
+       "value": "αἴρω, ἦρα | ἆραι ἀσπίδα: to hold up a shield (the signal); infinitive after εἶπε 'told them to'"
+      },
+      {
+       "word": "πλοῦν",
+       "kind": "<",
+       "value": "πλέω | ὁ πλοῦς: voyage; κατὰ μέσον τὸν πλοῦν, halfway back"
+      }
+     ]
+    },
+    {
+     "text": "οἱ δὲ ταῦτα ἐποίησαν ὡς ἐκέλευσε.",
+     "orig": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "image": "hist-panel-4-b",
+   "sentences": [
+    {
+     "text": "Λύσανδρος δʼ εὐθὺς ἐσήμηνε τὴν ταχίστην πλεῖν·",
+     "orig": [
+      3
+     ],
+     "glosses": [
+      {
+       "word": "ταχίστην",
+       "kind": "note",
+       "value": "τὴν ταχίστην (ὁδόν): as fast as possible"
+      }
+     ]
+    },
+    {
+     "text": "συμπαρῄει δὲ καὶ Θώραξ τὸ πεζὸν ἔχων.",
+     "orig": [
+      4
+     ],
+     "glosses": [
+      {
+       "word": "συμπαρῄει",
+       "kind": "<",
+       "value": "σύν + παρά + εἶμι | συμπάρειμι: go along beside (imperfect)"
+      },
+      {
+       "word": "Θώραξ",
+       "kind": "note",
+       "value": "Thorax, a Spartan officer: his name means 'breastplate'"
+      }
+     ]
+    },
+    {
+     "text": "Κόνων δὲ ἰδὼν τὸν ἐπίπλουν, ἐσήμηνεν εἰς τὰς ναῦς βοηθεῖν κατὰ κράτος.",
+     "orig": [
+      5
+     ],
+     "glosses": [
+      {
+       "word": "ἐπίπλουν",
+       "kind": "<",
+       "value": "ἐπιπλέω | ὁ ἐπίπλους: the attack from the sea"
+      },
+      {
+       "word": "κράτος",
+       "kind": "note",
+       "value": "κατὰ κράτος: with all their might, at full speed"
+      }
+     ]
+    },
+    {
+     "text": "διεσκεδασμένων δὲ τῶν ἀνθρώπων, αἱ μὲν τῶν νεῶν δίκροτοι ἦσαν, αἱ δὲ μονόκροτοι, αἱ δὲ παντελῶς κεναί·",
+     "orig": [
+      6
+     ],
+     "glosses": [
+      {
+       "word": "διεσκεδασμένων",
+       "kind": "|",
+       "value": "διασκεδάννυμι (scatter) | διεσκεδασμένων τῶν ἀνθρώπων: since the men were scattered (genitive absolute)"
+      },
+      {
+       "word": "δίκροτοι",
+       "kind": "en",
+       "value": "with two banks of oars manned (of three)"
+      },
+      {
+       "word": "μονόκροτοι",
+       "kind": "en",
+       "value": "with one bank of oars manned"
+      },
+      {
+       "word": "παντελῶς",
+       "kind": "en",
+       "value": "completely"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "hist-panel-4-c",
+   "sentences": [
+    {
+     "text": "ἡ δὲ Κόνωνος καὶ ἄλλαι περὶ αὐτὸν ἑπτὰ πλήρεις ἀνήχθησαν ἁθρόαι καὶ ἡ Πάραλος, τὰς δʼ ἄλλας πάσας Λύσανδρος ἔλαβε πρὸς τῇ γῇ.",
+     "orig": [
+      7
+     ],
+     "glosses": [
+      {
+       "word": "Κόνωνος",
+       "kind": "note",
+       "value": "ἡ Κόνωνος (ναῦς): Conon's ship"
+      },
+      {
+       "word": "ἀνήχθησαν",
+       "kind": "|",
+       "value": "ἀνάγω | ἀνήχθησαν: put out to sea (aorist passive, middle meaning)"
+      },
+      {
+       "word": "ἁθρόαι",
+       "kind": "en",
+       "value": "together, in a body"
+      },
+      {
+       "word": "γῇ",
+       "kind": "note",
+       "value": "πρὸς τῇ γῇ: at the shore, on the beach"
+      }
+     ]
+    },
+    {
+     "text": "τοὺς δὲ πλείστους ἄνδρας ἐν τῇ γῇ συνέλεξεν·",
+     "orig": [
+      8
+     ],
+     "glosses": [
+      {
+       "word": "συνέλεξεν",
+       "kind": "<",
+       "value": "σύν + λέγω (gather) | συλλέγω, συνέλεξα: round up, collect"
+      }
+     ]
+    },
+    {
+     "text": "οἱ δὲ καὶ ἔφυγον εἰς τὰ τειχύδρια.",
+     "orig": [
+      9
+     ],
+     "glosses": [
+      {
+       "word": "τειχύδρια",
+       "kind": "<",
+       "value": "τεῖχος | τὸ τειχύδριον: a small fort"
+      }
+     ]
+    },
+    {
+     "text": "Κόνων δὲ ταῖς ἐννέα ναυσὶ φεύγων, ἐπεὶ ἔγνω τῶν Ἀθηναίων τὰ πράγματα διεφθαρμένα, αὐτὸς μὲν ὀκτὼ ναυσὶν ἀπέπλευσε παρʼ Εὐαγόραν εἰς Κύπρον, ἡ δὲ Πάραλος εἰς τὰς Ἀθήνας ἀπαγγελοῦσα τὰ γεγονότα.",
+     "orig": [
+      10
+     ],
+     "glosses": [
+      {
+       "word": "ἔγνω",
+       "kind": "note",
+       "value": "ἔγνω … τὰ πράγματα διεφθαρμένα: realised that the cause was lost (participle in indirect statement)"
+      },
+      {
+       "word": "Εὐαγόραν",
+       "kind": "en",
+       "value": "Evagoras, the Greek king of Salamis in Cyprus, a friend of Athens"
+      },
+      {
+       "word": "ἀπαγγελοῦσα",
+       "kind": "note",
+       "value": "future participle of purpose: to report (ἀπέπλευσε is understood)"
+      },
+      {
+       "word": "γεγονότα",
+       "kind": "|",
+       "value": "γίγνομαι | τὰ γεγονότα: what had happened (perfect participle)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "ναυαρχος",
+   "gloss_grc": "ὁ ναύαρχος < ναῦς + ἄρχω · ὁ Λύσανδρος ὁ ναύαρχος"
+  },
+  {
+   "id": "σημαινω",
+   "pic": "semeion",
+   "gloss_grc": "σημαίνω, ἐσήμηνα < σημεῖον · ἐσήμηνε πλεῖν"
+  },
+  {
+   "id": "αναγω",
+   "gloss_grc": "ἀνάγω · ἀνάγομαι, ἀνήχθην (put to sea)"
+  },
+  {
+   "id": "πληρης",
+   "gloss_grc": "πλήρης, πλῆρες ↔ κενός · νῆες πλήρεις"
+  },
+  {
+   "id": "κενος",
+   "gloss_grc": "κενός, -ή, -όν ↔ πλήρης · νῆες κεναί"
+  },
+  {
+   "id": "αποπλεω",
+   "gloss_grc": "ἀποπλέω, ἀπέπλευσα · ἀπό + πλέω"
+  },
+  {
+   "id": "απαγγελλω",
+   "gloss_grc": "ἀπαγγέλλω, ἀπήγγειλα · ἀπό + ἀγγέλλω"
+  },
+  {
+   "id": "κρατος",
+   "gloss_grc": "τὸ κράτος · κατὰ κράτος (with all one's might)"
+  },
+  {
+   "id": "ασπις",
+   "pic": "hist-aspis",
+   "gloss_grc": "ἡ ἀσπίς, ἀσπίδος · ἀσπίδα αἴρειν"
+  },
+  {
+   "id": "αιρω",
+   "gloss_grc": "αἴρω, ἦρα · ἆραι ἀσπίδα (lift, raise)"
+  },
+  {
+   "id": "βοηθεω",
+   "gloss_grc": "βοηθέω · βοηθεῖν εἰς τὰς ναῦς (run to help)"
+  },
+  {
+   "id": "ναυμαχια",
+   "pic": "naumachia",
+   "gloss_grc": "ἡ ναυμαχία · ναῦς + μάχη"
+  },
+  {
+   "id": "πεζος",
+   "gloss_grc": "τὸ πεζόν ↔ αἱ νῆες"
+  }
+ ],
+ "notice": [
+  "εἶπε τοῖς παρʼ αὐτοῦ ἑπομένοις … ἆραι ἀσπίδα",
+  "Λύσανδρος δʼ εὐθὺς ἐσήμηνε τὴν ταχίστην πλεῖν",
+  "αἱ μὲν τῶν νεῶν δίκροτοι ἦσαν, αἱ δὲ μονόκροτοι, αἱ δὲ παντελῶς κεναί",
+  "ἡ δὲ Πάραλος εἰς τὰς Ἀθήνας ἀπαγγελοῦσα τὰ γεγονότα"
+ ],
+ "grammar": {
+  "md": "**Reading Xenophon: orders, signals and a divided fleet.** From this lesson on the story is Xenophon's own text, shortened but not rewritten. Everything outside the core list and the track list is glossed.\n\n**1. Orders in indirect speech.** Verbs of telling, ordering and signalling take an **infinitive** for the action ordered (the person is dative with λέγω, accusative with κελεύω):\n\n| verb | example | meaning |\n|---|---|---|\n| εἶπε + dat. + inf. | εἶπε τοῖς ἑπομένοις … ἆραι ἀσπίδα | told those following to raise a shield |\n| σημαίνω + inf. | ἐσήμηνε τὴν ταχίστην πλεῖν | gave the signal to sail |\n| σημαίνω + inf. | ἐσήμηνεν εἰς τὰς ναῦς βοηθεῖν | signalled (the men) to run to the ships |\n| κελεύω + acc. + inf. | ἐκέλευσε τοὺς ἑπομένους ἆραι | ordered them to raise |\n\n**2. ἐπάν + subjunctive** 'as soon as, whenever' (ἐπάν = ἐπειδάν = ἐπειδὴ ἄν, 8.2): ἐπὰν κατίδωσιν 'as soon as they see'.\n\n**3. Dividing a group: ὁ μέν … ὁ δέ.** αἱ μὲν … αἱ δὲ … αἱ δέ 'some … others … others'; οἱ δὲ καὶ ἔφυγον 'and some even fled'.\n\n**4. Participles doing the work.** ἰδών (aorist: when he saw), φεύγων (present: while fleeing), διεσκεδασμένων τῶν ἀνθρώπων (genitive absolute, perfect: since the men were scattered), ἀπαγγελοῦσα (future: to report). The perfect participles ἐκβεβηκότας, ἐσκεδασμένους, διεφθαρμένα describe a state: 'landed', 'scattered', 'ruined'.\n\n**5. Crasis and elision in the text.** δʼ = δέ, παρʼ = παρά, καθʼ = κατά before a rough breathing (ἑκάστην).",
+  "paradigms": [
+   "naus",
+   "alethes"
+  ],
+  "diagram": "diagram-reading-strategy"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings.",
+   "template": "Λύσανδρος δʼ εὐθὺς ἐσήμ___ τὴν ταχίστην πλεῖν. Κόνων δὲ ἰδ___ τὸν ἐπίπλουν … διεσκεδασμέν___ δὲ τῶν ἀνθρώπων, αἱ δὲ παντελῶς κεν___.",
+   "gaps": [
+    {
+     "answers": [
+      "ηνε",
+      "ηνεν"
+     ]
+    },
+    {
+     "answers": [
+      "ων"
+     ]
+    },
+    {
+     "answers": [
+      "ων"
+     ]
+    },
+    {
+     "answers": [
+      "αι"
+     ]
+    }
+   ],
+   "skills": [
+    "verb.aor1.liquid",
+    "verb.ptc.aor.act",
+    "syntax.gen-abs"
+   ],
+   "explain": "ἐσήμηνε (liquid aorist of σημαίνω); ἰδών (aorist participle, with Κόνων); διεσκεδασμένων τῶν ἀνθρώπων (genitive absolute); κεναί (feminine plural with αἱ νῆες)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · αἱ μὲν τῶν νεῶν δίκροτοι ἦσαν, αἱ δὲ μονόκροτοι, αἱ δὲ παντελῶς ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "κεναί"
+    },
+    {
+     "id": "b",
+     "text": "πλήρεις"
+    },
+    {
+     "id": "c",
+     "text": "ταχεῖαι"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.hist",
+    "syntax.men-de"
+   ],
+   "explain": "κεναί ↔ πλήρεις: some ships had two banks of rowers, some one, some none at all.",
+   "audio": "αἱ μὲν τῶν νεῶν δίκροτοι ἦσαν, αἱ δὲ μονόκροτοι, αἱ δὲ παντελῶς κεναί."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · Κόνων δὲ ἰδὼν τὸν ἐπίπλουν, ἐσήμηνεν εἰς τὰς ναῦς βοηθεῖν κατὰ ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "κράτος"
+    },
+    {
+     "id": "b",
+     "text": "κράτει"
+    },
+    {
+     "id": "c",
+     "text": "κράτους"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.hist",
+    "noun.decl3.sigma"
+   ],
+   "explain": "κατὰ κράτος: with all their might.",
+   "audio": "Κόνων δὲ ἰδὼν τὸν ἐπίπλουν, ἐσήμηνεν εἰς τὰς ναῦς βοηθεῖν κατὰ κράτος."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἡ δὲ Πάραλος εἰς τὰς Ἀθήνας ___ τὰ γεγονότα.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀπαγγελοῦσα"
+    },
+    {
+     "id": "b",
+     "text": "ἀπαγγέλλουσι"
+    },
+    {
+     "id": "c",
+     "text": "ἀπαγγείλας"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "verb.ptc.fut.act",
+    "vocab.hist"
+   ],
+   "explain": "ἀπαγγελοῦσα: future participle of purpose, feminine to agree with ἡ Πάραλος (a ship).",
+   "audio": "ἡ δὲ Πάραλος εἰς τὰς Ἀθήνας ἀπαγγελοῦσα τὰ γεγονότα."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "ἡ ναυμαχία",
+   "options": [
+    {
+     "id": "a",
+     "image": "naumachia"
+    },
+    {
+     "id": "b",
+     "image": "mache"
+    },
+    {
+     "id": "c",
+     "image": "limen"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "vocab.recognition",
+    "vocab.hist"
+   ],
+   "explain": "ἡ ναυμαχία: a battle of ships.",
+   "audio": "prompt"
+  },
+  {
+   "type": "match",
+   "prompt": "Match the new words to their meanings.",
+   "pairs": [
+    {
+     "left": "ὁ ναύαρχος",
+     "right": "admiral"
+    },
+    {
+     "left": "σημαίνω",
+     "right": "give the signal"
+    },
+    {
+     "left": "πλήρης",
+     "right": "full, fully manned"
+    },
+    {
+     "left": "κενός",
+     "right": "empty"
+    },
+    {
+     "left": "ἀνάγομαι",
+     "right": "put out to sea"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.hist"
+   ],
+   "explain": "ναύαρχος, σημαίνω, πλήρης, κενός, ἀνάγομαι."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist passive of ἀνάγω for 'they put out to sea'.",
+   "lemma": "ἀνάγω",
+   "cell": "aorist.passive.indicative.3pl",
+   "skills": [
+    "verb.aor.pass.ind.3pl",
+    "verb.augment.compound"
+   ],
+   "explain": "ἀνήχθησαν: ἀνα- + ἠ- (augment) + χθη- (γ before θ becomes χ).",
+   "audio": "ἀνήχθησαν"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of ἀποπλέω for 'he sailed away'.",
+   "lemma": "ἀποπλέω",
+   "cell": "aorist.active.indicative.3sg",
+   "skills": [
+    "verb.augment.compound",
+    "vocab.hist"
+   ],
+   "explain": "ἀπέπλευσε(ν): augment after the prefix ἀπο-.",
+   "audio": "ἀπέπλευσε"
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the nominative plural feminine of πλήρης: ἑπτὰ νῆες ___.",
+   "lemma": "πλήρης",
+   "cell": "nom.pl.f",
+   "skills": [
+    "adj.decl3.es",
+    "adj.agree"
+   ],
+   "explain": "πλήρεις: like ἀληθεῖς (-εες → -εις), with the accent kept on πλή-.",
+   "audio": "πλήρεις"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἐσήμηνε.",
+   "form": "ἐσήμηνε",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person and number",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "1st singular"
+      },
+      {
+       "id": "2sg",
+       "label": "2nd singular"
+      },
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "1pl",
+       "label": "1st plural"
+      },
+      {
+       "id": "2pl",
+       "label": "2nd plural"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "mood": "ind",
+    "person": "3sg"
+   },
+   "skills": [
+    "verb.aor1.liquid"
+   ],
+   "explain": "ἐ-σήμην-ε: liquid aorist of σημαίνω (σημαν- → σημην-, no σ), 3rd singular.",
+   "audio": "ἐσήμηνε"
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἀπαγγελοῦσα.",
+   "form": "ἀπαγγελοῦσα",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "case",
+     "label": "Case",
+     "options": [
+      {
+       "id": "nom",
+       "label": "nominative"
+      },
+      {
+       "id": "gen",
+       "label": "genitive"
+      },
+      {
+       "id": "dat",
+       "label": "dative"
+      },
+      {
+       "id": "acc",
+       "label": "accusative"
+      },
+      {
+       "id": "voc",
+       "label": "vocative"
+      }
+     ]
+    },
+    {
+     "id": "gender",
+     "label": "Gender",
+     "options": [
+      {
+       "id": "m",
+       "label": "masculine"
+      },
+      {
+       "id": "f",
+       "label": "feminine"
+      },
+      {
+       "id": "n",
+       "label": "neuter"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "fut",
+    "mood": "ptc",
+    "case": "nom",
+    "gender": "f"
+   },
+   "skills": [
+    "verb.ptc.fut.act",
+    "syntax.ptc-purpose"
+   ],
+   "explain": "ἀπαγγελ-οῦσα: future participle (liquid future ἀπαγγελῶ), nominative feminine with ἡ Πάραλος: 'to report'.",
+   "audio": "ἀπαγγελοῦσα"
+  },
+  {
+   "type": "label",
+   "prompt": "εἶπε τοῖς παρʼ αὐτοῦ ἑπομένοις … ἆραι ἀσπίδα. Why is ἆραι an infinitive?",
+   "options": [
+    {
+     "id": "a",
+     "text": "εἶπε here means 'told (them) to': an order in indirect speech"
+    },
+    {
+     "id": "b",
+     "text": "it is the subject of εἶπε"
+    },
+    {
+     "id": "c",
+     "text": "it expresses purpose"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.hist.terms",
+    "syntax.infinitive"
+   ],
+   "explain": "λέγω / κελεύω / σημαίνω + infinitive: 'tell, order, signal someone to do'. So also ἐσήμηνε … πλεῖν and ἐσήμηνε … βοηθεῖν."
+  },
+  {
+   "type": "label",
+   "prompt": "ἐπὰν κατίδωσιν αὐτοὺς ἐκβεβηκότας … What does ἐπάν + subjunctive mean?",
+   "options": [
+    {
+     "id": "a",
+     "text": "'as soon as, whenever' (an indefinite clause with ἄν)"
+    },
+    {
+     "id": "b",
+     "text": "'because'"
+    },
+    {
+     "id": "c",
+     "text": "'although'"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.indefinite"
+   ],
+   "explain": "ἐπάν = ἐπειδάν = ἐπειδὴ ἄν: 'as soon as they see' (8.2)."
+  },
+  {
+   "type": "label",
+   "prompt": "αἱ μὲν … αἱ δὲ … αἱ δὲ … What do the articles mean here?",
+   "options": [
+    {
+     "id": "a",
+     "text": "'some (ships) … others … others'"
+    },
+    {
+     "id": "b",
+     "text": "'the ships … the men … the sea'"
+    },
+    {
+     "id": "c",
+     "text": "'these … those … the rest'"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.men-de",
+    "syntax.article-de"
+   ],
+   "explain": "The article with μέν and δέ divides a group: some had two banks manned, some one, some none."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the three infinitives that give Lysander's and Conon's orders.",
+   "sentence": "Λύσανδρος δʼ εὐθὺς ἐσήμηνε τὴν ταχίστην πλεῖν· Κόνων δὲ ἰδὼν τὸν ἐπίπλουν, ἐσήμηνεν εἰς τὰς ναῦς βοηθεῖν. εἶπε τοῖς ἑπομένοις ἆραι ἀσπίδα.",
+   "answer": [
+    6,
+    16,
+    20
+   ],
+   "skills": [
+    "read.locate",
+    "read.hist.terms"
+   ],
+   "explain": "πλεῖν, βοηθεῖν, ἆραι: orders after σημαίνω and λέγω."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the genitive absolute (two words).",
+   "sentence": "διεσκεδασμένων δὲ τῶν ἀνθρώπων, αἱ μὲν τῶν νεῶν δίκροτοι ἦσαν, αἱ δὲ μονόκροτοι, αἱ δὲ παντελῶς κεναί·",
+   "answer": [
+    0,
+    3
+   ],
+   "skills": [
+    "read.locate",
+    "syntax.gen-abs"
+   ],
+   "explain": "διεσκεδασμένων τῶν ἀνθρώπων: 'the men being scattered'. It explains why the ships were half empty."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'Lysander took the ships on the beach.'",
+   "tokens": [
+    "Λύσανδρος",
+    "τὰς",
+    "ναῦς",
+    "ἔλαβε",
+    "πρὸς",
+    "τῇ",
+    "γῇ"
+   ],
+   "answers": [
+    "Λύσανδρος τὰς ναῦς ἔλαβε πρὸς τῇ γῇ",
+    "Λύσανδρος πρὸς τῇ γῇ τὰς ναῦς ἔλαβε",
+    "τὰς ναῦς Λύσανδρος ἔλαβε πρὸς τῇ γῇ",
+    "Λύσανδρος ἔλαβε τὰς ναῦς πρὸς τῇ γῇ",
+    "τὰς ναῦς ἔλαβε Λύσανδρος πρὸς τῇ γῇ"
+   ],
+   "skills": [
+    "syntax.word-order"
+   ],
+   "explain": "τὰς ναῦς Λύσανδρος ἔλαβε πρὸς τῇ γῇ."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Λύσανδρος δʼ εὐθὺς ἐσήμηνε τὴν ταχίστην πλεῖν."
+    },
+    {
+     "id": "b",
+     "text": "Λύσανδρος δʼ εὐθὺς ἐκέλευσε τὴν ταχίστην φεύγειν."
+    },
+    {
+     "id": "c",
+     "text": "Κόνων δʼ εὐθὺς ἐσήμηνε τὴν ταχίστην πλεῖν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "Lysander at once gave the signal to sail as fast as possible.",
+   "audio": "Λύσανδρος δʼ εὐθὺς ἐσήμηνε τὴν ταχίστην πλεῖν."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "οἱ Ἀθηναῖοι ἐν ταῖς ναυσὶν ἦσαν ὅτε ὁ Λύσανδρος ἐπέπλευσεν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "They were ἐκβεβηκότες καὶ ἐσκεδασμένοι: ashore and scattered."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ἡ Πάραλος ἔφυγε καὶ εἰς τὰς Ἀθήνας ἔπλευσεν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἡ δὲ Πάραλος εἰς τὰς Ἀθήνας ἀπαγγελοῦσα τὰ γεγονότα."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "gaps": [
+    {
+     "answers": [
+      "οἱ δὲ ταῦτα ἐποίησαν ὡς ἐκέλευσε"
+     ]
+    }
+   ],
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "οἱ δὲ ταῦτα ἐποίησαν ὡς ἐκέλευσε.",
+   "audio": "οἱ δὲ ταῦτα ἐποίησαν ὡς ἐκέλευσε."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'The admiral gave the signal to sail.'",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ ναύαρχος ἐσήμηνε πλεῖν",
+      "ὁ ναύαρχος ἐσήμηνεν πλεῖν",
+      "ἐσήμηνε πλεῖν ὁ ναύαρχος",
+      "ὁ ναύαρχος πλεῖν ἐσήμηνε",
+      "ὁ ναύαρχος πλεῖν ἐσήμηνεν"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "vocab.hist",
+    "read.hist.terms"
+   ],
+   "explain": "ὁ ναύαρχος ἐσήμηνε πλεῖν."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: ἡ δὲ Κόνωνος καὶ ἄλλαι περὶ αὐτὸν ἑπτὰ πλήρεις ἀνήχθησαν ἁθρόαι καὶ ἡ Πάραλος, τὰς δʼ ἄλλας πάσας Λύσανδρος ἔλαβε πρὸς τῇ γῇ.",
+   "audio": "ἡ δὲ Κόνωνος καὶ ἄλλαι περὶ αὐτὸν ἑπτὰ πλήρεις ἀνήχθησαν ἁθρόαι καὶ ἡ Πάραλος, τὰς δʼ ἄλλας πάσας Λύσανδρος ἔλαβε πρὸς τῇ γῇ.",
+   "model": "Conon's ship and seven others around him, fully manned, put out to sea together, and the Paralus too; all the rest Lysander captured at the shore.",
+   "skills": [
+    "read.xenophon",
+    "read.original",
+    "read.hist.narrative"
+   ],
+   "explain": "ἡ Κόνωνος [ναῦς]; πλήρεις ↔ κεναί; ἀνήχθησαν 'put to sea'; τὰς ἄλλας πάσας is the object of ἔλαβε."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: Κόνων δὲ ταῖς ἐννέα ναυσὶ φεύγων, ἐπεὶ ἔγνω τῶν Ἀθηναίων τὰ πράγματα διεφθαρμένα, αὐτὸς μὲν ὀκτὼ ναυσὶν ἀπέπλευσε παρʼ Εὐαγόραν εἰς Κύπρον, ἡ δὲ Πάραλος εἰς τὰς Ἀθήνας ἀπαγγελοῦσα τὰ γεγονότα.",
+   "audio": "Κόνων δὲ ταῖς ἐννέα ναυσὶ φεύγων, ἐπεὶ ἔγνω τῶν Ἀθηναίων τὰ πράγματα διεφθαρμένα, αὐτὸς μὲν ὀκτὼ ναυσὶν ἀπέπλευσε παρʼ Εὐαγόραν εἰς Κύπρον, ἡ δὲ Πάραλος εἰς τὰς Ἀθήνας ἀπαγγελοῦσα τὰ γεγονότα.",
+   "model": "Conon, fleeing with the nine ships, when he realised that the Athenians' cause was lost, sailed away himself with eight ships to Evagoras in Cyprus, while the Paralus went to Athens to report what had happened.",
+   "skills": [
+    "read.xenophon",
+    "read.original",
+    "read.connected"
+   ],
+   "explain": "αὐτὸς μὲν … ἡ δὲ Πάραλος: the fleet splits; ἀπαγγελοῦσα is a future participle of purpose."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "σημαίνω, τὸ σημεῖον",
+     "right": "semaphore"
+    },
+    {
+     "left": "ἡ ναῦς",
+     "right": "nautical"
+    },
+    {
+     "left": "ὁ ναύαρχος",
+     "right": "navarch; monarch (< ἄρχω)"
+    },
+    {
+     "left": "κενός",
+     "right": "cenotaph ('empty tomb')"
+    },
+    {
+     "left": "ἀπαγγέλλω, ὁ ἄγγελος",
+     "right": "evangelist"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "σῆμα 'sign' + φέρω; ναῦς → ναύτης → nautical; ναῦς + ἄρχω; κενὸς τάφος; εὐαγγέλιον 'good news'."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "πόσας ἡμέρας οἱ Ἀθηναῖοι ἐπέπλεον πρὶν τὸν Λύσανδρον ἐπιπλεῦσαι;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τέτταρας."
+    },
+    {
+     "id": "b",
+     "text": "δέκα."
+    },
+    {
+     "id": "c",
+     "text": "μίαν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "τέτταρας ἡμέρας … ἐπεὶ ἦν ἡμέρα πέμπτη.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐκέλευσεν ὁ Λύσανδρος τοὺς ἑπομένους ποιεῖν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀσπίδα ἆραι κατὰ μέσον τὸν πλοῦν."
+    },
+    {
+     "id": "b",
+     "text": "τὰς ναῦς τῶν Ἀθηναίων καίειν."
+    },
+    {
+     "id": "c",
+     "text": "εἰς τὰς Ἀθήνας ἀποπλεῖν."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension",
+    "read.hist.terms"
+   ],
+   "explain": "ἀποπλέοντας παρʼ αὐτὸν ἆραι ἀσπίδα κατὰ μέσον τὸν πλοῦν.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "πόσαι νῆες πλήρεις ἀνήχθησαν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἡ Κόνωνος καὶ ἑπτὰ ἄλλαι καὶ ἡ Πάραλος."
+    },
+    {
+     "id": "b",
+     "text": "ὀγδοήκοντα καὶ ἑκατόν."
+    },
+    {
+     "id": "c",
+     "text": "οὐδεμία."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἡ δὲ Κόνωνος καὶ ἄλλαι περὶ αὐτὸν ἑπτὰ πλήρεις ἀνήχθησαν ἁθρόαι καὶ ἡ Πάραλος.",
+   "audio": "prompt"
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "ποῖ ἀπέπλευσεν ὁ Κόνων;",
+   "options": [
+    {
+     "id": "a",
+     "text": "εἰς Κύπρον παρʼ Εὐαγόραν."
+    },
+    {
+     "id": "b",
+     "text": "εἰς τὰς Ἀθήνας."
+    },
+    {
+     "id": "c",
+     "text": "εἰς Λάμψακον."
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "αὐτὸς μὲν ὀκτὼ ναυσὶν ἀπέπλευσε παρʼ Εὐαγόραν εἰς Κύπρον.",
+   "audio": "prompt"
+  }
+ ],
+ "culture": {
+  "title": "Xenophon and the end of the fleet",
+  "md": "**Xenophon** (about 430 to after 355 BC) was an Athenian of good family and a follower of Socrates. In 401 he joined the Greek mercenaries of Cyrus (hist.7), later served with the Spartans, and was exiled from Athens; he lived for years on an estate near Olympia. His **Hellenica** ('Greek affairs') starts in 411 exactly where Thucydides stops and runs to 362. It is plainer than Thucydides: short clauses, direct speech, vivid detail, and a soldier's eye for how things were done.\n\nBy 405 Athens depended on one last fleet in the **Hellespont**, the narrow strait through which the grain ships from the Black Sea came. The Athenians camped on an open beach at **Aegospotami**, far from a market, so that the crews had to scatter to buy food; the exiled Alcibiades rode down from his castle to warn them and was sent away (2.1.25–26). The Spartan admiral **Lysander**, paid with Persian money, waited four days and struck on the fifth.\n\nOf about 180 triremes only nine escaped: **Conon** with eight went to Cyprus, and the state trireme **Paralus**, the ship that carried the city's official messages, sailed for Athens with the news. Lysander put the Athenian prisoners to death, some 3,000 men according to Plutarch. The bronze ram found off Athlit in Israel (from a warship of about 200 BC, but the same weapon) shows what these ships fought with.",
+  "image": "hist-athlit-ram"
+ },
+ "quiz": [
+  {
+   "type": "produce-form",
+   "prompt": "Give the accusative singular of ἡ ἀσπίς.",
+   "lemma": "ἀσπίς",
+   "cell": "acc.sg",
+   "skills": [
+    "noun.decl3.acc.sg",
+    "vocab.hist"
+   ],
+   "explain": "ἀσπίδα: dental stem ἀσπιδ-.",
+   "audio": "ἀσπίδα"
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "Λύσανδρος ἐσήμηνε ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "πλεῖν"
+    },
+    {
+     "id": "b",
+     "text": "πλεῖ"
+    },
+    {
+     "id": "c",
+     "text": "πλέων"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "read.hist.terms"
+   ],
+   "explain": "σημαίνω + infinitive: gave the signal to sail."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Κόνων τὰς ναῦς τοῦ Λυσάνδρου ἔλαβεν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "Lysander took the Athenian ships; Conon fled."
+  },
+  {
+   "type": "label",
+   "prompt": "διεσκεδασμένων δὲ τῶν ἀνθρώπων is …",
+   "options": [
+    {
+     "id": "a",
+     "text": "a genitive absolute"
+    },
+    {
+     "id": "b",
+     "text": "the subject of ἦσαν"
+    },
+    {
+     "id": "c",
+     "text": "a genitive of possession"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.gen-abs"
+   ],
+   "explain": "Participle and noun in the genitive, standing apart."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "νῆες ___ ↔ νῆες κεναί",
+   "options": [
+    {
+     "id": "a",
+     "text": "πλήρεις"
+    },
+    {
+     "id": "b",
+     "text": "πλήρης"
+    },
+    {
+     "id": "c",
+     "text": "πλῆρες"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "adj.decl3.es",
+    "vocab.hist"
+   ],
+   "explain": "νῆες πλήρεις: feminine plural."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "κατὰ κράτος"
+    },
+    {
+     "id": "b",
+     "text": "κατὰ γῆν"
+    },
+    {
+     "id": "c",
+     "text": "κατὰ μέρος"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "listen.words"
+   ],
+   "explain": "κατὰ κράτος: with all one's might.",
+   "audio": "κατὰ κράτος"
+  }
+ ],
+ "skills": [
+  "verb.aor1.liquid",
+  "verb.ptc.aor.act",
+  "syntax.gen-abs",
+  "vocab.hist",
+  "syntax.men-de",
+  "noun.decl3.sigma",
+  "verb.ptc.fut.act",
+  "vocab.recognition",
+  "verb.aor.pass.ind.3pl",
+  "verb.augment.compound",
+  "adj.decl3.es",
+  "adj.agree",
+  "syntax.ptc-purpose",
+  "read.hist.terms",
+  "syntax.infinitive",
+  "syntax.indefinite",
+  "syntax.article-de",
+  "read.locate",
+  "syntax.word-order",
+  "listen.sentences",
+  "read.comprehension",
+  "spell.dictation",
+  "vocab.production",
+  "read.xenophon",
+  "read.original",
+  "read.hist.narrative",
+  "read.connected",
+  "vocab.family",
+  "noun.decl3.acc.sg",
+  "listen.words"
+ ]
+}
