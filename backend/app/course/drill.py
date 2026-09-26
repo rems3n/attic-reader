@@ -27,11 +27,16 @@ from .forms import (
 NOUN_RE = re.compile(r"^noun\.decl([123])(?:\.(cons|sigma|iota|eus))?\.(nom|gen|dat|acc|voc)\.(sg|pl)$")
 NOUN_NUM_RE = re.compile(r"^noun\.decl([123])(?:\.(cons|sigma|iota|eus))?\.(sg|pl)$")  # e.g. noun.decl3.cons.pl: any case of that number
 ART_RE = re.compile(r"^art\.(nom|gen|dat|acc)\.(sg|pl)$")
-VERB_RE = re.compile(r"^verb\.(pres|impf|aor|fut)\.(act|mp|mid|pass)\.(ind|imp|subj|opt)\.([123](?:sg|pl))$")
+VERB_RE = re.compile(r"^verb\.(pres|impf|aor|fut|perf|plpf)\.(act|mp|mid|pass)\.(ind|imp|subj|opt)\.([123](?:sg|pl))$")
 EIMI_RE = re.compile(r"^verb\.eimi\.(pres|impf|fut)\.(ind|imp)\.([123](?:sg|pl))$")
-INF_RE = re.compile(r"^verb\.(pres|aor)\.(act|mp|mid)\.inf$")
+INF_RE = re.compile(r"^verb\.(pres|aor|fut|perf)\.(act|mp|mid|pass)\.inf$")
+# participles in any case: verb.ptc.aor.act (all cases), verb.ptc.pres.act.gen, verb.ptc.aor.pass.dat.pl
+PTC_RE = re.compile(r"^verb\.ptc\.(pres|aor|fut|perf)\.(act|mp|mid|pass)(?:\.(nom|gen|dat|acc))?(?:\.(sg|pl))?$")
+# comparison declined: adj.comp, adj.sup.gen, adj.comp.acc.pl
+COMP_RE = re.compile(r"^adj\.(comp|sup)(?:\.(nom|gen|dat|acc))?(?:\.(sg|pl))?$")
+GEN_ABS = "syntax.gen-abs"  # genitive of present/aorist active and aorist passive participles
 
-TENSE = {"pres": "present", "impf": "imperfect", "aor": "aorist", "fut": "future"}
+TENSE = {"pres": "present", "impf": "imperfect", "aor": "aorist", "fut": "future", "perf": "perfect", "plpf": "pluperfect"}
 VOICE = {"act": "active", "mp": "middle/passive", "mid": "middle", "pass": "passive"}
 MOOD = {"ind": "indicative", "imp": "imperative", "subj": "subjunctive", "opt": "optative"}
 DECL_SUBCLASS = {"1": ("noun-1",), "2": ("noun-2",), "3": ("noun-3-cons", "noun-3-sigma", "noun-3-iota", "noun-3-eus", "noun-3-irregular")}
@@ -63,10 +68,16 @@ def _distractors(entry: dict, cell: str, rng: random.Random, n: int = 3) -> list
     for key, forms in all_cells(entry):
         if key == cell:
             continue
+        k_parts, c_parts = key.split("."), cell.split(".")
+        # participle / comparison cells: other cases and numbers of the same
+        # participle (same tense and voice) or degree, same gender
+        if len(c_parts) == 6 or c_parts[0] in ("comp", "sup"):
+            if len(k_parts) != len(c_parts) or k_parts[: len(c_parts) - 3] != c_parts[: len(c_parts) - 3] or k_parts[-1] != c_parts[-1]:
+                continue
         # keep nominal distractors in the same gender; verbal in the same tense/mood
-        if entry["kind"] != "verb" and len(key.split(".")) == 3 and key.split(".")[2] != cell.split(".")[-1]:
+        elif entry["kind"] != "verb" and len(k_parts) == 3 and k_parts[2] != c_parts[-1]:
             continue
-        if entry["kind"] == "verb":
+        elif entry["kind"] == "verb":
             k, c = key.split("."), cell.split(".")
             if k[0] != c[0] or k[2] != c[2] or k[3] not in PERSONS:
                 continue
@@ -85,7 +96,7 @@ def _produce(item_id: str, entry: dict, cell: str, skill: str) -> dict:
         "type": "produce-form",
         "generated": True,
         "prompt": f"{describe_cell(entry, cell)} of {entry['lemma']}",
-        "prompt_grc": describe_cell(entry, cell, greek=True) if entry["kind"] != "verb" else None,
+        "prompt_grc": describe_cell(entry, cell, greek=True) if entry["kind"] != "verb" and cell.split(".")[0] not in ("comp", "sup") else None,
         "lemma": entry["lemma"],
         "cell": cell,
         "gaps": [{"answers": forms}],
@@ -98,7 +109,16 @@ def _produce(item_id: str, entry: dict, cell: str, skill: str) -> dict:
 def _parse(item_id: str, entry: dict, cell: str, skill: str, rng: random.Random) -> dict:
     form = _clean(rng.choice(cell_forms(entry, cell)))
     parts = cell.split(".")
-    if entry["kind"] == "verb":
+    if len(parts) == 6 or parts[0] in ("comp", "sup"):
+        # a declined participle or comparative: parse case, number, gender
+        case, number, gender = parts[-3:]
+        groups = [
+            {"id": "case", "label": "Case", "options": [{"id": c, "label": CASE_LABEL[c]} for c in ("nom", "gen", "dat", "acc", "voc")]},
+            {"id": "number", "label": "Number", "options": [{"id": n, "label": NUMBER_LABEL[n]} for n in ("sg", "pl")]},
+            {"id": "gender", "label": "Gender", "options": [{"id": g, "label": GENDER_LABEL[g]} for g in GENDERS]},
+        ]
+        answer = {"case": case, "number": number, "gender": gender}
+    elif entry["kind"] == "verb":
         tense, voice, mood, tag = parts
         groups = [
             {"id": "person", "label": "Person and number", "options": [{"id": p, "label": PERSON_LABEL[p]} for p in PERSONS]},
@@ -210,6 +230,45 @@ def _plan_for_skill(skill: str, scope_ids: list[str]) -> list[tuple[dict, str]]:
                     out.append((e, cell))
                     break
         return out
+    m = PTC_RE.match(skill)
+    if m or skill == GEN_ABS:
+        if m:
+            tense, voice, case, number = m.groups()
+            combos = [(TENSE[tense], voice)]
+            cases = (case,) if case else ("nom", "gen", "dat", "acc")
+        else:
+            combos = [("present", "act"), ("aorist", "act"), ("aorist", "pass")]
+            cases, number = ("gen",), None
+        numbers = (number,) if number else ("sg", "pl")
+        out = []
+        for tense_name, voice in combos:
+            for e in _verbs_for_voice(scope_ids, voice):
+                for v in _voice_names(voice):
+                    found = False
+                    for c in cases:
+                        for num in numbers:
+                            for g in GENDERS:
+                                cell = f"{tense_name}.{v}.participle.{c}.{num}.{g}"
+                                if cell_forms(e, cell):
+                                    out.append((e, cell))
+                                    found = True
+                    if found:
+                        break
+        return out
+    m = COMP_RE.match(skill)
+    if m:
+        degree, case, number = m.groups()
+        cases = (case,) if case else ("nom", "gen", "dat", "acc")
+        numbers = (number,) if number else ("sg", "pl")
+        out = []
+        for e in _entries(scope_ids, "adjective"):
+            for c in cases:
+                for num in numbers:
+                    for g in GENDERS:
+                        cell = f"{degree}.{c}.{num}.{g}"
+                        if cell_forms(e, cell):
+                            out.append((e, cell))
+        return out
     if skill == "adj.agree":
         out = []
         for e in _entries(scope_ids, "adjective"):
@@ -243,7 +302,7 @@ def _verbs_for_voice(scope_ids: list[str], voice: str) -> list[dict]:
 
 
 def supported(skill: str) -> bool:
-    return bool(NOUN_RE.match(skill) or NOUN_NUM_RE.match(skill) or ART_RE.match(skill) or EIMI_RE.match(skill) or VERB_RE.match(skill) or INF_RE.match(skill) or skill == "adj.agree")
+    return bool(NOUN_RE.match(skill) or NOUN_NUM_RE.match(skill) or ART_RE.match(skill) or EIMI_RE.match(skill) or VERB_RE.match(skill) or INF_RE.match(skill) or PTC_RE.match(skill) or COMP_RE.match(skill) or skill in (GEN_ABS, "adj.agree"))
 
 
 def generate(skills: list[str], n: int, scope_ids: list[str], seed: int = 0, prefix: str = "drill") -> list[dict]:

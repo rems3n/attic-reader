@@ -8,7 +8,8 @@ import { answersMatch, tokens } from "./normalize";
 // ----------------------------------------------------------------- content
 
 export type Gloss = { word: string; kind: "pic" | "=" | "↔" | "<" | "|" | "en" | "note"; value: string };
-export type StorySentence = { text: string; glosses?: Gloss[] };
+export type StorySentence = { text: string; glosses?: Gloss[]; orig?: number[] };
+export type OriginalText = { id: string; title: string | null; author: string | null; work: string | null; ref: string | null; blurb?: string | null; note?: string | null; source?: { edition?: string; license?: string; url?: string } | null; sentences: string[] };
 export type ImageRecord = {
   id: string;
   kind: string;
@@ -18,6 +19,8 @@ export type ImageRecord = {
   credit: string;
   license: string;
   source_url: string | null;
+  /** our own diagram, rendered from components/course/diagrams */
+  svg?: boolean;
 };
 export type StoryParagraph = { image?: string | null; image_record?: ImageRecord | null; sentences: StorySentence[] };
 export type LessonVocab = {
@@ -81,6 +84,7 @@ export type Lesson = {
   caption_grc?: string;
   story: StoryParagraph[];
   story_text: string;
+  original_text?: OriginalText | null;
   vocab: LessonVocab[];
   notice: string[];
   grammar: { md: string; paradigms: string[]; diagram?: string | null };
@@ -98,7 +102,7 @@ export type Unit = { id: string; n: number; title_grc: string; title_en: string;
 export type Stage = { id: string; title_grc: string; title_en: string; blurb: string; units: Unit[] };
 export type Track = { id: string; title_grc: string; title_en: string; blurb: string; unlock_after_unit: number; lessons: string[] };
 export type CourseIndex = { stages: Stage[]; tracks: Track[]; skills: Skill[]; families: { id: string; label: string }[]; lesson_order: string[] };
-export type TestSection = { id: string; title: string; passage_title?: string; passage?: string; items: Item[] };
+export type TestSection = { id: string; title: string; passage_title?: string; passage?: string; passage_source?: { author?: string; work?: string; ref?: string } | null; items: Item[] };
 export type CourseTest = { id: string; title_grc: string; title_en: string; scope: string; pass_score: number; unlock_after_hours?: number; retake_after_days?: number; blurb?: string; sections: TestSection[]; item_count: number };
 export type PlacementBlock = { unit: number; title_grc: string; title_en: string; test: string; scope: string; lessons: string[]; next_lesson: string | null; items: Item[] };
 export type Placement = { blocks: PlacementBlock[]; per_unit: number; stop_after_misses: number; pass_score: number; seed: number };

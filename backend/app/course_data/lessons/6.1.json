@@ -7,9 +7,7 @@
   "cover": "panel-6-1-b",
   "caption_grc": "ἡ μείζων κύλιξ καλλίων ἐστὶν ἢ ἡ μικροτέρα· δύο δραχμῶν ἐστιν.",
   "names": {},
-  "allow": {
-    "μικροτέρας": "genitive of μικρότερος, the comparative pattern taught in this lesson (μικρότερος is glossed at its first occurrence)"
-  },
+  "allow": {},
   "story": [
     {
       "image": "panel-6-1-a",

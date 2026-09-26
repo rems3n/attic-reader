@@ -6,6 +6,8 @@
     python scripts/course_tools.py check 2.1          # validate one lesson (+ stats)
     python scripts/course_tools.py tokens 2.1         # story tokens not yet in scope
     python scripts/course_tools.py skills noun        # skill ids matching a prefix
+    python scripts/course_tools.py prune-allow all    # drop `allow` entries now taught (or 7.1)
+    python scripts/course_tools.py alloc 8            # Stage 2 vocabulary allocated to a unit
 """
 
 from __future__ import annotations
@@ -101,13 +103,64 @@ def cmd_skills(prefix: str) -> None:
             print(f"{s['id']:34} {s['label']}")
 
 
+def _known_forms(lesson_id: str) -> set[str]:
+    known: set[str] = set()
+    for i in data.vocab_scope(lesson_id):
+        known |= entry_forms(data.entry_by_id(i))
+    for n, fs in data.names_for(lesson_id).items():
+        known.add(normalize_answer(n))
+        known |= {normalize_answer(f) for f in fs}
+    return known
+
+
+def cmd_prune_allow(target: str) -> None:
+    """Remove `allow` entries of a lesson that its vocabulary scope now covers
+    (Stage 2 authors listed words allocated to earlier units there). Only the
+    `allow` block is rewritten, so the file's own layout is kept."""
+    import json
+    import re
+
+    ids = [lid for lid in data.lesson_ids() if data.lesson_available(lid)] if target == "all" else [target]
+    for lid in ids:
+        path = data.lesson_path(lid)
+        text = path.read_text("utf-8")
+        allow = json.loads(text).get("allow")
+        if not allow:
+            continue
+        data.load_lesson.cache_clear()
+        known = _known_forms(lid)
+        keep = {k: v for k, v in allow.items() if normalize_answer(k) not in known}
+        if len(keep) == len(allow):
+            continue
+        m = re.search(r'"allow"\s*:\s*\{[^{}]*\}', text)
+        if not m:
+            print(f"{lid}: allow block not found, skipped")
+            continue
+        new_block = '"allow": ' + (json.dumps(keep, ensure_ascii=False) if keep else "{}")
+        path.write_text(text[: m.start()] + new_block + text[m.end():], "utf-8")
+        print(f"{lid}: pruned {len(allow) - len(keep)} of {len(allow)} allow entries")
+
+
+def cmd_alloc(unit: str) -> None:
+    import json
+
+    plan = json.loads((data.DATA_DIR / "stage2_vocab.json").read_text("utf-8"))
+    scope = set(data.vocab_scope(data.lesson_ids()[-1])) if data.lesson_ids() else set()
+    for w in plan["units"].get(unit, []):
+        mark = "taught" if w["id"] in scope else ""
+        print(f"{w['rank']:4}  {w['id']:16} {w['lemma']:16} {w['short'][:40]:40} {mark}")
+
+
 def main() -> None:
     if len(sys.argv) < 3:
         print(__doc__)
         return
     cmd, args = sys.argv[1], sys.argv[2:]
-    {"scope": lambda: cmd_scope(args[0]), "find": lambda: cmd_find(args), "forms": lambda: cmd_forms(args[0]), "check": lambda: cmd_check(args[0]), "tokens": lambda: cmd_tokens(args[0]), "skills": lambda: cmd_skills(args[0])}[cmd]()
+    {"scope": lambda: cmd_scope(args[0]), "find": lambda: cmd_find(args), "forms": lambda: cmd_forms(args[0]), "check": lambda: cmd_check(args[0]), "tokens": lambda: cmd_tokens(args[0]), "skills": lambda: cmd_skills(args[0]), "prune-allow": lambda: cmd_prune_allow(args[0]), "alloc": lambda: cmd_alloc(args[0])}[cmd]()
 
 
 if __name__ == "__main__":
+    import signal
+
+    signal.signal(signal.SIGPIPE, signal.SIG_DFL)  # quiet when piped into head
     main()

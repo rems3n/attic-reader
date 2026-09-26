@@ -67,6 +67,11 @@ def _validate_images() -> list[str]:
                 out.append(f"image {img_id}: missing {key}")
         placeholder = img.get("license") == "placeholder"
         if not placeholder:
+            if img.get("svg"):
+                # our own diagram, drawn as a theme-aware SVG component in the frontend
+                if img.get("kind") != "diagram":
+                    out.append(f"image {img_id}: only diagrams can be inline SVG")
+                continue
             if not img.get("file"):
                 out.append(f"image {img_id}: missing file")
             if not img.get("source_url") and not img["credit"].startswith("Attic Reader"):
@@ -192,6 +197,27 @@ def _validate_lesson(lid: str) -> list[str]:
             paradigms.get(p)
         except KeyError:
             out.append(f"{prefix}: unknown paradigm {p}")
+    out += _validate_original(prefix, raw)
+    return out
+
+
+def _validate_original(prefix: str, raw: dict) -> list[str]:
+    """A lesson paired with an original text: the text must exist and each
+    story sentence's `orig` indices must point into it."""
+    out: list[str] = []
+    original = raw.get("original")
+    orig_refs = [(pi, si, s["orig"]) for pi, p in enumerate(raw.get("story", [])) for si, s in enumerate(p.get("sentences", [])) if "orig" in s]
+    if not original:
+        if orig_refs:
+            out.append(f"{prefix}: story sentences carry `orig` but the lesson names no original text")
+        return out
+    try:
+        n = len(data.load_text(original.get("text", ""))["sentences"])
+    except data.CourseError as exc:
+        return [f"{prefix}: {exc}"]
+    for pi, si, refs in orig_refs:
+        if not isinstance(refs, list) or not all(isinstance(i, int) and 0 <= i < n for i in refs):
+            out.append(f"{prefix}: story {pi}.{si} orig {refs!r} out of range (original has {n} sentences)")
     return out
 
 
@@ -307,6 +333,11 @@ def _validate_test(test_id: str) -> list[str]:
         for key in ("id", "title"):
             if not section.get(key):
                 out.append(f"{prefix}: section missing {key}")
+        if section.get("passage_from"):
+            try:
+                data.load_text(section["passage_from"])
+            except data.CourseError as exc:
+                out.append(f"{prefix}: {exc}")
         for item in section.get("items", []):
             out += [f"{prefix} {section.get('id')} {item.get('id')}: {p}" for p in _validate_item(item, scope_ids)]
         gen = section.get("generate")

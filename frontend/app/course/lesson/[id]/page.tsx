@@ -6,6 +6,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import ExerciseRunner, { type Outcome } from "../../../../components/course/ExerciseRunner";
 import Markdown from "../../../../components/course/Markdown";
 import Picture, { imageById } from "../../../../components/course/Picture";
+import OriginalText from "../../../../components/course/OriginalText";
 import StoryReader from "../../../../components/course/StoryReader";
 import { SpeakButton, useSpeaker } from "../../../../components/Speak";
 import { getCourse, getCourseImages, getDrill, getLesson } from "../../../../lib/api";
@@ -210,6 +211,7 @@ export default function LessonPage() {
           <p className="stepHint">Tap any word to hear it; underlined words have a gloss. ▶ plays a sentence and follows the words.</p>
           <SpeedPicker speed={speed} setSpeed={setSpeed} />
           <StoryReader paragraphs={lesson.story} storyText={lesson.story_text} images={images} speed={speed} showEnglish={showEnglish} />
+          {lesson.original_text && <OriginalText original={lesson.original_text} story={lesson.story} speed={speed} />}
           <div className="stepNav"><button type="button" className="primary" onClick={() => markStep(stepIndex + 1)}>Next →</button></div>
         </section>
       )}

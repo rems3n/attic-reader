@@ -1,0 +1,22 @@
+{
+  "id": "thuc-2.35",
+  "category": "politics",
+  "level": "advanced",
+  "title": "The funeral speech begins",
+  "author": "Thucydides",
+  "work": "History of the Peloponnesian War",
+  "ref": "2.35.1",
+  "blurb": "Pericles opens the funeral speech for the first dead of the war.",
+  "dialect": "attic",
+  "source": {
+    "edition": "Perseus Digital Library, tlg0003.tlg001.perseus-grc2",
+    "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2",
+    "license": "CC BY-SA 4.0",
+    "url": "https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0003/tlg001/tlg0003.tlg001.perseus-grc2.xml"
+  },
+  "text": "‘οἱ μὲν πολλοὶ τῶν ἐνθάδε ἤδη εἰρηκότων ἐπαινοῦσι τὸν προσθέντα τῷ νόμῳ τὸν λόγον τόνδε, ὡς καλὸν ἐπὶ τοῖς ἐκ τῶν πολέμων θαπτομένοις ἀγορεύεσθαι αὐτόν. ἐμοὶ δὲ ἀρκοῦν ἂν ἐδόκει εἶναι ἀνδρῶν ἀγαθῶν ἔργῳ γενομένων ἔργῳ καὶ δηλοῦσθαι τὰς τιμάς, οἷα καὶ νῦν περὶ τὸν τάφον τόνδε δημοσίᾳ παρασκευασθέντα ὁρᾶτε, καὶ μὴ ἐν ἑνὶ ἀνδρὶ πολλῶν ἀρετὰς κινδυνεύεσθαι εὖ τε καὶ χεῖρον εἰπόντι πιστευθῆναι.",
+  "sentences": [
+    "‘οἱ μὲν πολλοὶ τῶν ἐνθάδε ἤδη εἰρηκότων ἐπαινοῦσι τὸν προσθέντα τῷ νόμῳ τὸν λόγον τόνδε, ὡς καλὸν ἐπὶ τοῖς ἐκ τῶν πολέμων θαπτομένοις ἀγορεύεσθαι αὐτόν.",
+    "ἐμοὶ δὲ ἀρκοῦν ἂν ἐδόκει εἶναι ἀνδρῶν ἀγαθῶν ἔργῳ γενομένων ἔργῳ καὶ δηλοῦσθαι τὰς τιμάς, οἷα καὶ νῦν περὶ τὸν τάφον τόνδε δημοσίᾳ παρασκευασθέντα ὁρᾶτε, καὶ μὴ ἐν ἑνὶ ἀνδρὶ πολλῶν ἀρετὰς κινδυνεύεσθαι εὖ τε καὶ χεῖρον εἰπόντι πιστευθῆναι."
+  ]
+}

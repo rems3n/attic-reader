@@ -47,34 +47,7 @@
    "Ἕλληνας"
   ]
  },
- "allow": {
-  "περί": "prepositions, Lesson 3.4",
-  "ἐπί": "prepositions, Lesson 3.4",
-  "δεῖ": "impersonal δεῖ, Lesson 4.3",
-  "ἡμᾶς": "personal pronouns, Lesson 2.1",
-  "ἡμεῖς": "personal pronouns, Lesson 2.1",
-  "ἡμῶν": "personal pronouns, Lesson 2.1",
-  "μοι": "personal pronouns, Lesson 2.1",
-  "ἐγώ": "personal pronouns, Lesson 2.1",
-  "σύ": "personal pronouns, Lesson 2.1",
-  "ὦ": "vocative with ὦ, Lesson 2.3",
-  "ἆρα": "questions with ἆρα, Lesson 2.1",
-  "βούλονται": "βούλομαι, Lesson 3.3",
-  "φοβῇ": "φοβέομαι, Lesson 3.3",
-  "φοβοῦμαι": "φοβέομαι, Lesson 3.3",
-  "βασιλεύς": "βασιλεύς, Lesson 4.3",
-  "ναῦς": "ναῦς, Lesson 4.4",
-  "τὰς ναῦς": "ναῦς, Lesson 4.4",
-  "πᾶσαν": "πᾶς, Lesson 4.2",
-  "πάντες": "πᾶς, Lesson 4.2",
-  "πάντα": "πᾶς, Lesson 4.2",
-  "αὐτούς": "αὐτός, Lesson 2.4",
-  "οὗτος": "οὗτος, Lesson 3.2",
-  "ταῦτα": "οὗτος, Lesson 3.2",
-  "πρός": "prepositions, Lesson 3.4",
-  "πάππε": "πάππος, Unit 2 (course word)",
-  "πάππον": "πάππος, Unit 2 (course word)"
- },
+ "allow": {"περί": "prepositions, Lesson 3.4", "τὰς ναῦς": "ναῦς, Lesson 4.4"},
  "story": [
   {
    "image": "panel-5-2-a",

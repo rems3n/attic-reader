@@ -1,6 +1,7 @@
 "use client";
 
 import type { ImageRecord } from "../../lib/course";
+import { DIAGRAMS } from "./diagrams";
 
 type Size = "panel" | "tile" | "thumb";
 
@@ -11,6 +12,22 @@ type Size = "panel" | "tile" | "thumb";
  */
 export default function Picture({ image, size = "panel", caption = true, className = "" }: { image: ImageRecord | null | undefined; size?: Size; caption?: boolean; className?: string }) {
   if (!image) return null;
+  const Diagram = image.kind === "diagram" ? DIAGRAMS[image.id] : undefined;
+  if (Diagram) {
+    return (
+      <figure className={`pic pic-${size} diagram ${className}`}>
+        <div className="diagramBody" role="img" aria-label={image.alt_en}>
+          <Diagram />
+        </div>
+        {caption && size === "panel" && (
+          <figcaption>
+            <span lang="grc">{image.alt_grc}</span>
+            <a className="picBadge" href="/course/credits" title={image.credit}>{image.license === "placeholder" ? "CC BY-SA" : image.license}</a>
+          </figcaption>
+        )}
+      </figure>
+    );
+  }
   const placeholder = image.license === "placeholder" || !image.file;
   return (
     <figure className={`pic pic-${size} ${className}`}>

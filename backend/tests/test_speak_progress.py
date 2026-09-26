@@ -16,7 +16,7 @@ def test_speak_returns_wav_and_caches(fake_kokoro):
     calls = len(fake_kokoro.calls)
     client.post("/api/speak", json={"text": "λόγος", "speed": 0.75})
     assert len(fake_kokoro.calls) == calls  # served from the clip cache
-    assert client.post("/api/speak", json={"text": "x" * 400}).status_code == 422
+    assert client.post("/api/speak", json={"text": "x" * 700}).status_code == 422
 
 
 def test_progress_roundtrip(monkeypatch, tmp_path):

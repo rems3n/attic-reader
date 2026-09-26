@@ -11,6 +11,7 @@ from pathlib import Path
 from ..greek import attic_ipa
 
 DATA_DIR = Path(__file__).parent.parent / "course_data"
+LIBRARY_DIR = Path(__file__).parent.parent / "library_data"
 EXTRA_RANK_BASE = 1000  # course-only words sort after the 524 DCC words
 
 
@@ -164,6 +165,43 @@ def _fill_engine_answers(item: dict) -> None:
             item["gaps"] = [{"answers": forms}]
 
 
+# ------------------------------------------------------------------ originals
+
+@lru_cache(maxsize=None)
+def load_text(text_id: str) -> dict:
+    """An original Greek passage a lesson or test pairs with: a course text
+    (course_data/texts/<id>.json, built by scripts/build_course_texts.py) or a
+    reading-library passage (library_data/<id>.json). Always has `sentences`."""
+    if not re.fullmatch(r"[a-z0-9][a-z0-9.\-]*", text_id or ""):
+        raise CourseError(f"bad text id {text_id!r}")
+    for folder in (DATA_DIR / "texts", LIBRARY_DIR):
+        path = folder / f"{text_id}.json"
+        if path.exists():
+            raw = dict(_read(path))  # type: ignore[arg-type]
+            if "sentences" not in raw:
+                from ..greek import segment_sentences
+
+                raw["sentences"] = [s.text for s in segment_sentences(raw.get("text", ""))]
+            raw["id"] = text_id
+            return raw
+    raise CourseError(f"no original text {text_id!r}")
+
+
+def original_record(text_id: str, note: str | None = None) -> dict:
+    t = load_text(text_id)
+    return {
+        "id": text_id,
+        "title": t.get("title"),
+        "author": t.get("author"),
+        "work": t.get("work"),
+        "ref": t.get("ref"),
+        "blurb": t.get("blurb"),
+        "source": t.get("source"),
+        "sentences": t["sentences"],
+        "note": note,
+    }
+
+
 def unit_of(lesson_id: str) -> dict:
     for unit in _units():
         if lesson_id in unit["lessons"]:
@@ -262,6 +300,8 @@ def resolve_lesson(lesson_id: str) -> dict:
     out["culture"] = {**culture, "image_record": image_record(culture.get("image"))} if culture else None
     out["skills"] = [_skill_record(s) for s in raw.get("skills", [])]
     out["story_text"] = "\n".join(s["text"] for para in raw.get("story", []) for s in para.get("sentences", []))
+    original = raw.get("original")
+    out["original_text"] = original_record(original["text"], original.get("note")) if original else None
     return out
 
 
@@ -293,6 +333,10 @@ def resolve_test(test_id: str, seed: int | None = None) -> dict:
     sections = []
     for section in raw.get("sections", []):
         items = list(section.get("items", []))
+        if section.get("passage_from") and not section.get("passage"):
+            # an unseen original: the passage is the text itself
+            t = original_record(section["passage_from"])
+            section = {**section, "passage": " ".join(t["sentences"]), "passage_source": {k: t[k] for k in ("author", "work", "ref", "source")}}
         gen = section.get("generate")
         if gen:
             items.extend(generate(gen["skills"], gen["n"], scope, seed=seed if seed is not None else gen.get("seed", 0), prefix=f"{test_id}:{section['id']}g"))

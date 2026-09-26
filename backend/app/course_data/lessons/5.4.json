@@ -31,32 +31,7 @@
    "Ἐπίδαυρον"
   ]
  },
- "allow": {
-  "πρός": "prepositions, Lesson 3.4",
-  "ἐπί": "prepositions, Lesson 3.4",
-  "μετά": "prepositions, Lesson 3.4",
-  "δεῖ": "impersonal δεῖ, Lesson 4.3",
-  "ἡμᾶς": "personal pronouns, Lesson 2.1",
-  "ἐγώ": "personal pronouns, Lesson 2.1",
-  "μοι": "personal pronouns, Lesson 2.1",
-  "ὦ": "vocative with ὦ, Lesson 2.3",
-  "μέν": "μέν … δέ, Lesson 2.1",
-  "αὐτῆς": "αὐτός, Lesson 2.4",
-  "αὐτήν": "αὐτός, Lesson 2.4",
-  "αὐτή": "αὐτός, Lesson 2.4",
-  "αὐτός": "αὐτός, Lesson 2.4",
-  "αὐτῷ": "αὐτός, Lesson 2.4",
-  "τοῦτο": "οὗτος, Lesson 3.2",
-  "φοβεῖται": "φοβέομαι, Lesson 3.3",
-  "βούλομαι": "βούλομαι, Lesson 3.3",
-  "ἐξῆλθεν": "ἐξέρχομαι, Lesson 3.4",
-  "ἐξέρχεται": "ἐξέρχομαι, Lesson 3.4",
-  "ἀγαθοί": "ἀγαθός, Lesson 3.2",
-  "κακόν": "κακός, Lesson 3.2",
-  "πολύ": "πολύς, Lesson 3.2",
-  "παύεται": "παύομαι, Lesson 4.2",
-  "τιμᾷ": "τιμάω, Lesson 2.4"
- },
+ "allow": {"πολύ": "πολύς, Lesson 3.2"},
  "story": [
   {
    "image": "panel-5-4-a",

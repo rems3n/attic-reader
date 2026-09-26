@@ -114,6 +114,13 @@ def course_plan(tts: KokoroAtticTTS) -> list[tuple[float, str, str]]:
                 for option in item.get("options", []) or []:
                     if option.get("audio"):
                         add(option["audio"], COURSE_SPEEDS[0])
+        original = raw.get("original")
+        if original:
+            try:
+                for sentence in course_data.load_text(original["text"])["sentences"]:
+                    add(sentence, COURSE_SPEEDS[0])
+            except course_data.CourseError:
+                pass
     return jobs
 
 

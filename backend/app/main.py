@@ -194,7 +194,7 @@ def speak(request: SynthesizeRequest) -> StreamingResponse:
     """One short WAV for a word or phrase (flash cards, table cells). Cached on
     disk by phoneme string, so repeated words are free after the first render."""
     normalized = normalize_polytonic(request.text)
-    if len(normalized) > 300:
+    if len(normalized) > 600:  # a long sentence of an original (Thucydides) still fits
         raise HTTPException(status_code=422, detail="Use /api/synthesize for longer text.")
     ipa = attic_ipa(normalized)
     try:

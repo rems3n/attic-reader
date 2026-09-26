@@ -7,7 +7,7 @@
   "cover": "polis",
   "caption_grc": "τίς ἐστιν; θεός ἐστιν. τί ἐστιν; ἵππος ἐστίν.",
   "names": {},
-  "allow": {"τί": "neuter of τίς, 'what?'"},
+  "allow": {},
   "story": [
     {
       "image": "theos",

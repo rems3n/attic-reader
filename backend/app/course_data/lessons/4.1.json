@@ -7,18 +7,7 @@
   "cover": "panel-4-1-a",
   "caption_grc": "ὁ πατὴρ ἡγεῖται· ὁ δὲ παῖς τὰ τείχη ὁρῶν ἕπεται.",
   "names": {},
-  "allow": {
-    "βούλεται": "βούλομαι, deponent (Lesson 3.3)",
-    "βούλομαι": "βούλομαι (Lesson 3.3)",
-    "ἐγὼ": "personal pronoun (Lesson 2.1)",
-    "σύ": "personal pronoun (Lesson 2.1)",
-    "σὺ": "personal pronoun (Lesson 2.1)",
-    "πολλοὺς": "πολύς (Lesson 2.2)",
-    "πολλαὶ": "πολύς (Lesson 2.2)",
-    "διὰ": "preposition (Lesson 3.4)",
-    "ἐπὶ": "preposition (Lesson 3.4)",
-    "ἀφικνοῦνται": "ἀφικνέομαι (Lesson 3.3)"
-  },
+  "allow": {"πολλοὺς": "πολύς (Lesson 2.2)", "πολλαὶ": "πολύς (Lesson 2.2)"},
   "story": [
     {
       "image": "panel-4-1-a",

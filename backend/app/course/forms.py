@@ -5,7 +5,10 @@ Cell keys:
   adjectives/articles  ``dat.sg.f``
   verbs                ``present.active.indicative.3sg`` (tag = 1sg…3pl,
                        ``inf`` for the infinitive, ``m``/``f``/``n`` for the
-                       participle's nominative singular)
+                       participle's nominative singular, ``mg`` for its
+                       masculine genitive singular)
+  participles, full    ``aorist.active.participle.gen.pl.f``
+  comparison           ``comp.dat.sg.f`` / ``sup.acc.pl.m`` (adjectives)
 """
 
 from __future__ import annotations
@@ -14,6 +17,9 @@ import unicodedata
 from functools import lru_cache
 
 from ..greek.morph import decline_entry
+from ..greek.morph.accent import strip_accent
+from ..greek.morph.nominal import decline_adjective
+from ..greek.morph.participle import participle_cells
 from ..greek.morph.verb import conjugate_entry
 from .normalize import normalize_answer
 
@@ -55,6 +61,19 @@ def _clean(form: str) -> str:
 
 def all_cells(entry: dict) -> list[tuple[str, list[str]]]:
     """Every (cell_key, forms) pair the engine produces for the entry."""
+    if "id" in entry:
+        return list(_all_cells_cached(entry["id"]))
+    return _all_cells(entry)
+
+
+@lru_cache(maxsize=None)
+def _all_cells_cached(entry_id: str) -> tuple[tuple[str, list[str]], ...]:
+    from .data import entry_by_id
+
+    return tuple(_all_cells(entry_by_id(entry_id)))
+
+
+def _all_cells(entry: dict) -> list[tuple[str, list[str]]]:
     table = table_for(entry)
     if not table:
         return []
@@ -68,6 +87,8 @@ def all_cells(entry: dict) -> list[tuple[str, list[str]]]:
                     forms = [_clean(f) for f in cell["forms"] if f]
                     if forms:
                         out.append((f"{tb['tense']}.{tb['voice']}.{tb['mood']}.{cell['tag']}", forms))
+                if tb["mood"] == "participle":
+                    out.extend(_participle_rows(tb))
         return out
     for cell in table["cells"]:
         forms = cell["forms"]
@@ -77,7 +98,49 @@ def all_cells(entry: dict) -> list[tuple[str, list[str]]]:
                     out.append((f"{cell['case']}.{cell['number']}.{gender}", list(lst)))
         elif forms:
             out.append((f"{cell['case']}.{cell['number']}", list(forms)))
+    if entry["kind"] in {"adjective", "numeral"} and table.get("comparison"):
+        out.extend(_comparison_rows(table["comparison"]))
     return out
+
+
+def _participle_rows(tb: dict) -> list[tuple[str, list[str]]]:
+    """The whole declension of a participle table (its cells give only the
+    nominative singular per gender and the masculine genitive)."""
+    first = {c["tag"]: _clean(c["forms"][0]) for c in tb["cells"] if c.get("forms") and c["forms"][0]}
+    if not all(k in first for k in ("m", "f", "n", "mg")):
+        return []
+    grouped: dict[str, list[str]] = {}
+    for case, number, gender, form in participle_cells(first["m"], first["f"], first["n"], first["mg"]):
+        grouped.setdefault(f"{tb['tense']}.{tb['voice']}.participle.{case}.{number}.{gender}", []).append(form)
+    return list(grouped.items())
+
+
+def _comparison_rows(comparison: dict) -> list[tuple[str, list[str]]]:
+    """Comparative and superlative declined in full: -τερος/-τατος as
+    first/second-declension adjectives (feminine -τέρα, -τάτη), -ων/-ον
+    comparatives (βελτίων, μείζων) as third declension."""
+    out: dict[str, list[str]] = {}
+    for prefix, key in (("comp", "comparative"), ("sup", "superlative")):
+        for lemma in comparison.get(key) or []:
+            lemma = _clean(lemma)
+            bare = strip_accent(lemma)
+            try:
+                if bare.endswith("ος"):
+                    fem = lemma[:-2] + ("α" if bare.endswith("ρος") else "η")
+                    table = decline_adjective(lemma, {"terminations": 3, "feminine": fem}, "adj-1-2")
+                elif bare.endswith("ων"):
+                    table = decline_adjective(lemma, {"terminations": 2}, "adj-3-on")
+                else:
+                    continue
+            except Exception:  # noqa: BLE001 - an odd form must not break the course
+                continue
+            for cell in table["cells"]:
+                for gender, forms in cell["forms"].items():
+                    for g in (("m", "f") if gender == "mf" else (gender,)):
+                        for form in forms:
+                            if form:
+                                out.setdefault(f"{prefix}.{cell['case']}.{cell['number']}.{g}", []).append(form)
+    return [(k, list(dict.fromkeys(v))) for k, v in out.items()]
 
 
 def cell_forms(entry: dict, cell: str) -> list[str]:
@@ -110,13 +173,21 @@ def describe_cell(entry: dict, cell: str, greek: bool = False) -> str:
     """Human label for a cell key: 'dative singular' / 'δοτικὴ ἑνικοῦ'."""
     parts = cell.split(".")
     if entry["kind"] == "verb":
+        if len(parts) == 6:  # full participle cell
+            tense, voice, _, case, number, gender = parts
+            return f"{tense} {voice} participle, {CASE_LABEL[case]} {NUMBER_LABEL[number]} {GENDER_LABEL[gender]}"
         tense, voice, mood, tag = parts
         person = PERSON_LABEL.get(tag, tag)
         if mood == "participle":
-            return f"{tense} {voice} participle, {GENDER_LABEL.get(tag, tag)} nominative singular"
+            if tag == "mg":
+                return f"{tense} {voice} participle, genitive singular masculine"
+            return f"{tense} {voice} participle, nominative singular {GENDER_LABEL.get(tag, tag)}"
         if mood == "infinitive":
             return f"{tense} {voice} infinitive"
         return f"{tense} {voice} {mood}, {person}"
+    if parts[0] in ("comp", "sup"):
+        degree = "comparative" if parts[0] == "comp" else "superlative"
+        return f"{degree}, {CASE_LABEL[parts[1]]} {NUMBER_LABEL[parts[2]]} {GENDER_LABEL[parts[3]]}"
     if greek:
         label = f"{CASE_LABEL_GRC[parts[0]]} {NUMBER_LABEL_GRC[parts[1]]}"
         if len(parts) == 3:

@@ -7,26 +7,7 @@
   "cover": "panel-5-1-a",
   "caption_grc": "ὁ Λάβρος κρέας ἔλαβε καὶ ἔφυγεν.",
   "names": {},
-  "allow": {
-    "δεῖ": "impersonal δεῖ, Lesson 4.3",
-    "ἡμᾶς": "personal pronouns, Lesson 2.1",
-    "ἡμῶν": "personal pronouns, Lesson 2.1",
-    "σύ": "personal pronouns, Lesson 2.1",
-    "ὦ": "vocative with ὦ, Lesson 2.3",
-    "ἆρα": "questions with ἆρα, Lesson 2.1",
-    "μέν": "μέν … δέ, Lesson 2.1",
-    "πάντες": "πᾶς, Lesson 4.2",
-    "πάντα": "πᾶς, Lesson 4.2",
-    "πρός": "prepositions, Lesson 3.4",
-    "ἐπί": "prepositions, Lesson 3.4",
-    "μετά": "prepositions, Lesson 3.4",
-    "οὗτός": "οὗτος, Lesson 3.2",
-    "ταῦτα": "οὗτος, Lesson 3.2",
-    "αὐτόν": "αὐτός, Lesson 2.4",
-    "αὐτό": "αὐτός, Lesson 2.4",
-    "φοβεῖται": "φοβέομαι, Lesson 3.3",
-    "βούλεται": "βούλομαι, Lesson 3.3"
-  },
+  "allow": {},
   "story": [
     {
       "image": "panel-5-1-a",
