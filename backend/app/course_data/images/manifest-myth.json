@@ -290,6 +290,89 @@
    "license": "placeholder",
    "source_url": null,
    "words": []
+  },
+  {
+   "id": "myth-5-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Εὐρυσθεὺς τῷ Ἡρακλεῖ τοὺς ἄθλους ἐπιτάττει.",
+   "alt_en": "Heracles, with lion skin and club, before King Eurystheus (Attic black-figure vase).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-5-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Ἡρακλῆς τὸν λέοντα ἄγχει.",
+   "alt_en": "Heracles wrestles the Nemean lion, his arm locked round its neck (Attic black-figure amphora, 6th century BC).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-5-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Εὐρυσθεὺς ἐν τῷ πίθῳ κρύπτεται.",
+   "alt_en": "King Eurystheus hides in a great storage jar sunk in the ground while Heracles brings him a monster (Attic black-figure vase).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "myth-leon",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ λέων",
+   "alt_en": "A lion, from a Greek sculpture or vase (e.g. a marble funerary lion).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "λέων"
+   ]
+  },
+  {
+   "id": "myth-rhopalon",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "τὸ ῥόπαλον",
+   "alt_en": "Heracles' club, as held by a bronze statuette of the hero.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "ῥόπαλον"
+   ]
+  },
+  {
+   "id": "myth-pithos",
+   "kind": "dictionary",
+   "file": null,
+   "alt_grc": "ὁ πίθος",
+   "alt_en": "A large clay storage jar (pithos).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": [
+    "πίθος"
+   ]
+  },
+  {
+   "id": "myth-culture-5",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ὁ Ἡρακλῆς νέος ὑπὲρ τοῦ λέοντος ἕστηκεν.",
+   "alt_en": "Metope from the temple of Zeus at Olympia, c. 460 BC: the young Heracles stands exhausted over the dead Nemean lion, with Athena and Hermes (Archaeological Museum of Olympia).",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
   }
  ]
 }

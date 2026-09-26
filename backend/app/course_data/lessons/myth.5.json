@@ -1,0 +1,1579 @@
+{
+ "id": "myth.5",
+ "title_grc": "Ὁ Νεμέος λέων",
+ "title_en": "The Nemean lion",
+ "summary_grc": "ὁ Εὐρυσθεὺς τῷ Ἡρακλεῖ ἐπιτάττει τοῦ Νεμέου λέοντος τὴν δορὰν κομίζειν· ὁ δὲ τὸν λέοντα ἄτρωτον ὄντα ἄγχων πνίγει.",
+ "summary_en": "Apollodorus 2.5.1, lightly adapted: the first labour. An arrow-proof lion, a poor host who waits thirty days to sacrifice either to Zeus the Saviour or to a dead hero, a cave with two mouths, and a king who hides in a bronze jar.",
+ "cover": "myth-5-b",
+ "caption_grc": "περιθεὶς τὴν χεῖρα τῷ τραχήλῳ κατέσχεν ἄγχων ἕως ἔπνιξε.",
+ "original": {
+  "text": "apollod-2.5.1",
+  "note": "Apollodorus, Library 2.5.1, lightly adapted: one story sentence for each sentence of the original, with a few words cut (the herald's father in the last sentence). Apollodorus wrote in the 1st or 2nd century AD. 'τοῦτο ἀκούσας' at the start refers back to 2.4.12: the Pythia had told Heracles to serve Eurystheus of Tiryns for twelve years and perform the labours he set, and then he would become immortal."
+ },
+ "names": {
+  "Ἡρακλῆς": [
+   "Ἡρακλέους",
+   "Ἡρακλεῖ",
+   "Ἡρακλέα",
+   "Ἡράκλεις"
+  ],
+  "Τίρυνς": [
+   "Τίρυνθος",
+   "Τίρυνθι",
+   "Τίρυνθα"
+  ],
+  "Εὐρυσθεύς": [
+   "Εὐρυσθέως",
+   "Εὐρυσθεῖ",
+   "Εὐρυσθέα"
+  ],
+  "Νέμεος": [
+   "Νεμέου",
+   "Νεμέῳ",
+   "Νέμεον"
+  ],
+  "Νεμέα": [
+   "Νεμέας",
+   "Νεμέᾳ",
+   "Νεμέαν"
+  ],
+  "Τυφῶν": [
+   "Τυφῶνος",
+   "Τυφῶνι",
+   "Τυφῶνα"
+  ],
+  "Κλεωναί": [
+   "Κλεωνῶν",
+   "Κλεωναῖς",
+   "Κλεωνάς"
+  ],
+  "Μόλορχος": [
+   "Μολόρχου",
+   "Μολόρχῳ",
+   "Μόλορχον"
+  ],
+  "Μυκῆναι": [
+   "Μυκηνῶν",
+   "Μυκήναις",
+   "Μυκήνας"
+  ],
+  "Κοπρεύς": [
+   "Κοπρέως",
+   "Κοπρεῖ",
+   "Κοπρέα"
+  ]
+ },
+ "allow": {},
+ "story": [
+  {
+   "image": "myth-5-a",
+   "sentences": [
+    {
+     "text": "τοῦτο ἀκούσας ὁ Ἡρακλῆς εἰς Τίρυνθα ἦλθε, καὶ τὸ προσταττόμενον ὑπὸ Εὐρυσθέως ἐτέλει.",
+     "orig": [
+      0
+     ],
+     "glosses": [
+      {
+       "word": "τοῦτο",
+       "kind": "note",
+       "value": "the Pythia's command (Apollodorus 2.4.12): serve Eurystheus for twelve years and you will become immortal"
+      },
+      {
+       "word": "προσταττόμενον",
+       "kind": "|",
+       "value": "προστάττω (order) | τὸ προσταττόμενον (what was ordered: present passive participle with the article)"
+      },
+      {
+       "word": "ἐτέλει",
+       "kind": "en",
+       "value": "carried out, performed (τελέω, imperfect)"
+      }
+     ]
+    },
+    {
+     "text": "πρῶτον μὲν οὖν ἐπέταξεν αὐτῷ τοῦ Νεμέου λέοντος τὴν δορὰν κομίζειν·",
+     "orig": [
+      1
+     ],
+     "glosses": [
+      {
+       "word": "ἐπέταξεν",
+       "kind": "|",
+       "value": "ἐπιτάττω (order, impose) | ἐπέταξε(ν) (aorist)"
+      },
+      {
+       "word": "λέοντος",
+       "kind": "pic",
+       "value": "myth-leon"
+      },
+      {
+       "word": "δορὰν",
+       "kind": "en",
+       "value": "hide, skin (ἡ δορά)"
+      }
+     ]
+    },
+    {
+     "text": "τοῦτο δὲ ζῷον ἦν ἄτρωτον, ἐκ Τυφῶνος γεγεννημένον.",
+     "orig": [
+      2
+     ],
+     "glosses": [
+      {
+       "word": "ἄτρωτον",
+       "kind": "<",
+       "value": "ἀ- (not) + τιτρώσκω (wound) | ἄτρωτος (invulnerable)"
+      },
+      {
+       "word": "Τυφῶνος",
+       "kind": "note",
+       "value": "Typhon, the hundred-headed monster who fought Zeus"
+      }
+     ]
+    },
+    {
+     "text": "πορευόμενος οὖν ἐπὶ τὸν λέοντα ἦλθεν εἰς Κλεωνάς, καὶ ξενίζεται παρὰ ἀνδρὶ χερνήτῃ Μολόρχῳ.",
+     "orig": [
+      3
+     ],
+     "glosses": [
+      {
+       "word": "πορευόμενος",
+       "kind": "en",
+       "value": "travelling, on his way (πορεύομαι)"
+      },
+      {
+       "word": "ξενίζεται",
+       "kind": "|",
+       "value": "ὁ ξένος | ξενίζω (entertain as a guest) | ξενίζεται (is entertained, is a guest: historic present)"
+      },
+      {
+       "word": "χερνήτῃ",
+       "kind": "en",
+       "value": "a day-labourer, a poor man who works with his hands (χείρ)"
+      }
+     ]
+    },
+    {
+     "text": "καὶ θύειν ἱερεῖον θέλοντι εἰς ἡμέραν ἔφη τηρεῖν τριακοστήν, καὶ ἂν μὲν ἀπὸ τῆς θήρας σῶος ἐπανέλθῃ, Διὶ σωτῆρι θύειν, ἐὰν δὲ ἀποθάνῃ, τότε ὡς ἥρωι ἐναγίζειν.",
+     "orig": [
+      4
+     ],
+     "glosses": [
+      {
+       "word": "θέλοντι",
+       "kind": "note",
+       "value": "(Μολόρχῳ) θύειν ἱερεῖον θέλοντι: to Molorchus, who wanted to sacrifice a victim (θέλω = ἐθέλω)"
+      },
+      {
+       "word": "ἱερεῖον",
+       "kind": "<",
+       "value": "ἱερός | τὸ ἱερεῖον (a victim for sacrifice)"
+      },
+      {
+       "word": "τηρεῖν",
+       "kind": "en",
+       "value": "to watch, to wait (τηρέω)"
+      },
+      {
+       "word": "τριακοστήν",
+       "kind": "en",
+       "value": "thirtieth"
+      },
+      {
+       "word": "θήρας",
+       "kind": "<",
+       "value": "τὸ θηρίον | ἡ θήρα (the hunt)"
+      },
+      {
+       "word": "σῶος",
+       "kind": "en",
+       "value": "safe and sound"
+      },
+      {
+       "word": "ἐπανέλθῃ",
+       "kind": "<",
+       "value": "ἐπί + ἀνά + ἐλθεῖν | ἐπανέλθῃ (return; subjunctive after ἄν = ἐάν)"
+      },
+      {
+       "word": "σωτῆρι",
+       "kind": "<",
+       "value": "σῴζω | ὁ σωτήρ (saviour)"
+      },
+      {
+       "word": "ἥρωι",
+       "kind": "en",
+       "value": "to a hero, i.e. to a dead man honoured at his tomb (ὁ ἥρως, -ωος)"
+      },
+      {
+       "word": "ἐναγίζειν",
+       "kind": "en",
+       "value": "to make offerings to the dead (burnt whole, at night, for heroes)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "myth-5-b",
+   "sentences": [
+    {
+     "text": "εἰς δὲ τὴν Νεμέαν ἀφικόμενος καὶ τὸν λέοντα μαστεύσας ἐτόξευσε τὸ πρῶτον·",
+     "orig": [
+      5
+     ],
+     "glosses": [
+      {
+       "word": "μαστεύσας",
+       "kind": "=",
+       "value": "ζητήσας (μαστεύω, poetic: search for)"
+      },
+      {
+       "word": "ἐτόξευσε",
+       "kind": "|",
+       "value": "τοξεύω | ἐτόξευσε(ν) (shot at it)"
+      },
+      {
+       "word": "πρῶτον",
+       "kind": "note",
+       "value": "τὸ πρῶτον: at first"
+      }
+     ]
+    },
+    {
+     "text": "ὡς δὲ ἔμαθεν ἄτρωτον ὄντα, ἀνατεινάμενος τὸ ῥόπαλον ἐδίωκε.",
+     "orig": [
+      6
+     ],
+     "glosses": [
+      {
+       "word": "ἀνατεινάμενος",
+       "kind": "<",
+       "value": "ἀνά + τείνω (stretch) | ἀνατεινάμενος (raising up)"
+      },
+      {
+       "word": "ῥόπαλον",
+       "kind": "pic",
+       "value": "myth-rhopalon"
+      }
+     ]
+    },
+    {
+     "text": "συμφυγόντος δὲ εἰς ἀμφίστομον σπήλαιον αὐτοῦ τὴν ἑτέραν ἐνῳκοδόμησεν εἴσοδον, διὰ δὲ τῆς ἑτέρας ἐπεισῆλθε τῷ θηρίῳ, καὶ περιθεὶς τὴν χεῖρα τῷ τραχήλῳ κατέσχεν ἄγχων ἕως ἔπνιξε, καὶ θέμενος ἐπὶ τῶν ὤμων ἐκόμιζεν εἰς Κλεωνάς.",
+     "orig": [
+      7
+     ],
+     "glosses": [
+      {
+       "word": "συμφυγόντος",
+       "kind": "<",
+       "value": "σύν + φεύγω | συμφυγόντος (αὐτοῦ): genitive absolute, 'when it fled for refuge'"
+      },
+      {
+       "word": "ἀμφίστομον",
+       "kind": "<",
+       "value": "ἀμφί (on both sides) + στόμα (mouth) | ἀμφίστομος (with two mouths)"
+      },
+      {
+       "word": "σπήλαιον",
+       "kind": "=",
+       "value": "ἄντρον (cave)"
+      },
+      {
+       "word": "ἐνῳκοδόμησεν",
+       "kind": "<",
+       "value": "ἐν + οἰκοδομέω (build) | ἐνῳκοδόμησε(ν) (walled up)"
+      },
+      {
+       "word": "εἴσοδον",
+       "kind": "↔",
+       "value": "ἡ ἔξοδος | ἡ εἴσοδος (entrance)"
+      },
+      {
+       "word": "ἐπεισῆλθε",
+       "kind": "<",
+       "value": "ἐπί + εἰς + ἦλθε | ἐπεισῆλθε (came in upon, attacked)"
+      },
+      {
+       "word": "θηρίῳ",
+       "kind": "en",
+       "value": "the beast (τὸ θηρίον, wild animal)"
+      },
+      {
+       "word": "περιθεὶς",
+       "kind": "<",
+       "value": "περί + τίθημι | περιθείς (putting around)"
+      },
+      {
+       "word": "τραχήλῳ",
+       "kind": "en",
+       "value": "neck (ὁ τράχηλος)"
+      },
+      {
+       "word": "κατέσχεν",
+       "kind": "<",
+       "value": "κατά + ἔχω | κατέσχε(ν) (held fast)"
+      },
+      {
+       "word": "ἔπνιξε",
+       "kind": "en",
+       "value": "choked it (πνίγω, aorist)"
+      },
+      {
+       "word": "θέμενος",
+       "kind": "|",
+       "value": "τίθημι | θέμενος (aorist middle participle: putting it)"
+      },
+      {
+       "word": "ὤμων",
+       "kind": "en",
+       "value": "shoulders (ὁ ὦμος)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "image": "myth-5-c",
+   "sentences": [
+    {
+     "text": "καταλαβὼν δὲ τὸν Μόλορχον ἐν τῇ τελευταίᾳ τῶν ἡμερῶν ὡς νεκρῷ μέλλοντα τὸ ἱερεῖον ἐναγίζειν, σωτῆρι θύσας Διὶ ἦγεν εἰς Μυκήνας τὸν λέοντα.",
+     "orig": [
+      8
+     ],
+     "glosses": [
+      {
+       "word": "τελευταίᾳ",
+       "kind": "<",
+       "value": "τελευτάω (end) | τελευταῖος (last)"
+      },
+      {
+       "word": "νεκρῷ",
+       "kind": "en",
+       "value": "to a dead man (ὁ νεκρός): Molorchus thought Heracles was dead"
+      },
+      {
+       "word": "θύσας",
+       "kind": "note",
+       "value": "Heracles himself sacrificed to Zeus the Saviour instead"
+      }
+     ]
+    },
+    {
+     "text": "Εὐρυσθεὺς δὲ καταπλαγεὶς αὐτοῦ τὴν ἀνδρείαν ἀπεῖπε τὸ λοιπὸν αὐτῷ εἰς τὴν πόλιν εἰσιέναι, δεικνύειν δὲ πρὸ τῶν πυλῶν ἐκέλευε τοὺς ἄθλους.",
+     "orig": [
+      9
+     ],
+     "glosses": [
+      {
+       "word": "καταπλαγεὶς",
+       "kind": "en",
+       "value": "astounded (καταπλήττω, aorist passive)"
+      },
+      {
+       "word": "ἀνδρείαν",
+       "kind": "<",
+       "value": "ἀνήρ | ἀνδρεῖος (brave) | ἡ ἀνδρεία (courage)"
+      },
+      {
+       "word": "ἀπεῖπε",
+       "kind": "en",
+       "value": "forbade (ἀπεῖπον + dat. + inf.)"
+      },
+      {
+       "word": "εἰσιέναι",
+       "kind": "|",
+       "value": "εἶμι | εἰσιέναι (to go into)"
+      },
+      {
+       "word": "δεικνύειν",
+       "kind": "=",
+       "value": "δεικνύναι (to show: a later Greek form of the infinitive of δείκνυμι)"
+      },
+      {
+       "word": "ἄθλους",
+       "kind": "en",
+       "value": "labours, tasks (ὁ ἆθλος)"
+      }
+     ]
+    },
+    {
+     "text": "φασὶ δὲ ὅτι δείσας καὶ πίθον ἑαυτῷ χαλκοῦν εἰσκρυβῆναι ὑπὸ γῆν κατεσκεύασε, καὶ πέμπων κήρυκα Κοπρέα ἐπέταττε τοὺς ἄθλους.",
+     "orig": [
+      10
+     ],
+     "glosses": [
+      {
+       "word": "φασὶ",
+       "kind": "note",
+       "value": "φασί 'they say': Apollodorus marks the comic detail as a report"
+      },
+      {
+       "word": "πίθον",
+       "kind": "pic",
+       "value": "myth-pithos"
+      },
+      {
+       "word": "εἰσκρυβῆναι",
+       "kind": "<",
+       "value": "εἰς + κρύπτω | εἰσκρυβῆναι (to hide in: aorist passive infinitive of purpose)"
+      },
+      {
+       "word": "κατεσκεύασε",
+       "kind": "en",
+       "value": "had made (κατασκευάζω)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vocab": [
+  {
+   "id": "λεων",
+   "pic": "myth-leon",
+   "gloss_grc": "ὁ λέων, τοῦ λέοντος"
+  },
+  {
+   "id": "αθλος",
+   "gloss_grc": "ὁ ἆθλος: labour, contest · οἱ δώδεκα ἆθλοι τοῦ Ἡρακλέους"
+  },
+  {
+   "id": "επιταττω",
+   "gloss_grc": "ἐπιτάττω + dat. + inf. · ἐπέταξα"
+  },
+  {
+   "id": "προσταττω",
+   "gloss_grc": "προστάττω = ἐπιτάττω · τὸ προσταττόμενον"
+  },
+  {
+   "id": "δορα",
+   "gloss_grc": "ἡ δορά: hide · ἡ τοῦ λέοντος δορά"
+  },
+  {
+   "id": "ατρωτος",
+   "gloss_grc": "ἄτρωτος, -ον: invulnerable"
+  },
+  {
+   "id": "θηρα",
+   "gloss_grc": "ἡ θήρα: hunt · ἀπὸ τῆς θήρας"
+  },
+  {
+   "id": "θηριον",
+   "gloss_grc": "τὸ θηρίον: wild beast"
+  },
+  {
+   "id": "ροπαλον",
+   "pic": "myth-rhopalon",
+   "gloss_grc": "τὸ ῥόπαλον: club"
+  },
+  {
+   "id": "ξενιζω",
+   "gloss_grc": "ὁ ξένος → ξενίζω · ἐξένισα"
+  },
+  {
+   "id": "σωτηρ",
+   "gloss_grc": "ὁ σωτήρ, τοῦ σωτῆρος · Ζεὺς Σωτήρ"
+  },
+  {
+   "id": "ηρως",
+   "gloss_grc": "ὁ ἥρως, τοῦ ἥρωος · ὡς ἥρωι"
+  },
+  {
+   "id": "νεκρος",
+   "gloss_grc": "ὁ νεκρός: dead man, corpse"
+  },
+  {
+   "id": "ανδρεια",
+   "gloss_grc": "ἡ ἀνδρεία < ἀνήρ: courage"
+  },
+  {
+   "id": "πιθος",
+   "pic": "myth-pithos",
+   "gloss_grc": "ὁ πίθος: storage jar"
+  }
+ ],
+ "notice": [
+  "ἂν μὲν ἀπὸ τῆς θήρας σῶος ἐπανέλθῃ, Διὶ σωτῆρι θύειν, ἐὰν δὲ ἀποθάνῃ, τότε ὡς ἥρωι ἐναγίζειν",
+  "ὡς δὲ ἔμαθεν ἄτρωτον ὄντα · ὡς νεκρῷ μέλλοντα τὸ ἱερεῖον ἐναγίζειν · ὡς ἥρωι",
+  "κατέσχεν ἄγχων ἕως ἔπνιξε",
+  "συμφυγόντος δὲ εἰς ἀμφίστομον σπήλαιον αὐτοῦ"
+ ],
+ "grammar": {
+  "md": "**Conditions and ὡς in a story.**\n\n**1. A condition inside reported speech.** Heracles tells Molorchus what to do (ἔφη + infinitive), and the instructions depend on two conditions:\n\n> ἂν μὲν … σῶος ἐπανέλθῃ, Διὶ σωτῆρι θύειν, ἐὰν δὲ ἀποθάνῃ, τότε ὡς ἥρωι ἐναγίζειν.\n> 'If I come back safe from the hunt, (he said) to sacrifice to Zeus the Saviour; but if I die, then to make offerings to me as to a hero.'\n\nἄν (= ἐάν) + subjunctive is the *future more vivid* protasis (Unit 10). The apodosis is an infinitive because the whole thing is reported after ἔφη. Apollodorus writes ἄν in the first half and ἐάν in the second: both are the same word.\n\n**2. Four jobs of ὡς.**\n\n| in the text | ὡς means |\n|---|---|\n| ὡς δὲ ἔμαθεν ἄτρωτον ὄντα | when (+ aorist indicative) |\n| ὡς ἥρωι ἐναγίζειν | as (to), like |\n| ὡς νεκρῷ μέλλοντα … ἐναγίζειν | as (to) someone he believed dead |\n| (Unit 7) ὡς ἀποκτενῶν | intending to (+ future participle) |\n\n**3. ἕως 'until'.** κατέσχεν ἄγχων ἕως ἔπνιξε 'he held it, strangling, until he choked it': ἕως + aorist indicative for an actual past event.\n\n**4. Participle after a verb of knowing.** ἔμαθεν ἄτρωτον ὄντα 'he learned that it was invulnerable': indirect statement with the participle (Unit 9).",
+  "paradigms": [],
+  "diagram": "diagram-conditions"
+ },
+ "exercises": [
+  {
+   "type": "endings-cloze",
+   "prompt": "Μελέτημα Α · Fill in the endings.",
+   "template": "ἐπέταξεν αὐτῷ τοῦ Νεμέου λέοντ___ τὴν δορ___ κομίζειν. ἀνατεινάμενος τὸ ῥόπαλ___ ἐδίωκε. Εὐρυσθεὺς πίθ___ χαλκοῦν κατεσκεύασε.",
+   "gaps": [
+    {
+     "answers": [
+      "ος"
+     ]
+    },
+    {
+     "answers": [
+      "ὰν",
+      "αν"
+     ]
+    },
+    {
+     "answers": [
+      "ον"
+     ]
+    },
+    {
+     "answers": [
+      "ον"
+     ]
+    }
+   ],
+   "skills": [
+    "noun.decl3.cons.gen.sg",
+    "noun.decl1.acc.sg",
+    "noun.decl2.neuter",
+    "noun.decl2.acc.sg"
+   ],
+   "explain": "λέοντος (genitive, 'the lion's hide'); δοράν (accusative, long α after ρ); τὸ ῥόπαλον; πίθον (accusative)."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · τοῦτο δὲ ζῷον ἦν ___, ἐκ Τυφῶνος γεγεννημένον.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἄτρωτον"
+    },
+    {
+     "id": "b",
+     "text": "θνητόν"
+    },
+    {
+     "id": "c",
+     "text": "χαλκοῦν"
+    }
+   ],
+   "answer": "a",
+   "audio": "τοῦτο δὲ ζῷον ἦν ἄτρωτον, ἐκ Τυφῶνος γεγεννημένον.",
+   "skills": [
+    "vocab.myth"
+   ],
+   "explain": "ἄτρωτον 'invulnerable': the arrows could not wound it."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · ἐὰν δὲ ἀποθάνῃ, τότε ὡς ___ ἐναγίζειν.",
+   "options": [
+    {
+     "id": "a",
+     "text": "λέοντι"
+    },
+    {
+     "id": "b",
+     "text": "ἥρωι"
+    },
+    {
+     "id": "c",
+     "text": "σωτῆρι"
+    }
+   ],
+   "answer": "b",
+   "audio": "ἐὰν δὲ ἀποθάνῃ, τότε ὡς ἥρωι ἐναγίζειν.",
+   "skills": [
+    "vocab.myth",
+    "syntax.hos"
+   ],
+   "explain": "ὡς ἥρωι 'as to a hero', a dead man honoured with offerings."
+  },
+  {
+   "type": "bank-cloze",
+   "prompt": "Μελέτημα Β · Εὐρυσθεὺς δεικνύειν πρὸ τῶν πυλῶν ἐκέλευε τοὺς ___.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἄθλους"
+    },
+    {
+     "id": "b",
+     "text": "λέοντας"
+    },
+    {
+     "id": "c",
+     "text": "νεκρούς"
+    }
+   ],
+   "answer": "a",
+   "audio": "Εὐρυσθεὺς δεικνύειν πρὸ τῶν πυλῶν ἐκέλευε τοὺς ἄθλους.",
+   "skills": [
+    "vocab.myth"
+   ],
+   "explain": "τοὺς ἄθλους 'the labours'."
+  },
+  {
+   "type": "match",
+   "prompt": "Match the new words to their meanings.",
+   "pairs": [
+    {
+     "left": "ὁ λέων",
+     "right": "lion"
+    },
+    {
+     "left": "ἡ δορά",
+     "right": "hide, skin"
+    },
+    {
+     "left": "τὸ ῥόπαλον",
+     "right": "club"
+    },
+    {
+     "left": "ὁ πίθος",
+     "right": "storage jar"
+    },
+    {
+     "left": "ἡ θήρα",
+     "right": "hunt"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "λέων (-οντος), δορά, ῥόπαλον, πίθος, θήρα (τὸ θηρίον 'wild beast')."
+  },
+  {
+   "type": "pick-picture",
+   "prompt": "τὸ ῥόπαλον",
+   "audio": "prompt",
+   "options": [
+    {
+     "id": "a",
+     "image": "myth-leon"
+    },
+    {
+     "id": "b",
+     "image": "myth-rhopalon"
+    },
+    {
+     "id": "c",
+     "image": "myth-pithos"
+    },
+    {
+     "id": "d",
+     "image": "toxon"
+    }
+   ],
+   "answer": "b",
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "τὸ ῥόπαλον: Heracles' club."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the dative singular of σωτήρ (Διὶ ___ θύειν).",
+   "lemma": "σωτήρ",
+   "cell": "dat.sg",
+   "audio": "σωτῆρι",
+   "skills": [
+    "noun.decl3.cons.dat.sg",
+    "vocab.myth"
+   ],
+   "explain": "σωτῆρι."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of ἐπιτάττω for 'he ordered'.",
+   "lemma": "ἐπιτάττω",
+   "cell": "aorist.active.indicative.3sg",
+   "audio": "ἐπέταξεν",
+   "skills": [
+    "vocab.production",
+    "verb.augment.compound"
+   ],
+   "explain": "ἐπ-έ-ταξε(ν): augment after the prefix ἐπι-, whose ι drops."
+  },
+  {
+   "type": "produce-form",
+   "prompt": "Give the accusative singular of λέων (ἐπὶ τὸν ___).",
+   "lemma": "λέων",
+   "cell": "acc.sg",
+   "audio": "λέοντα",
+   "skills": [
+    "noun.decl3.cons.acc.sg",
+    "vocab.myth"
+   ],
+   "explain": "λέοντα, stem λεοντ-."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse ἐπανέλθῃ.",
+   "form": "ἐπανέλθῃ",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "person",
+     "label": "Person and number",
+     "options": [
+      {
+       "id": "1sg",
+       "label": "1st singular"
+      },
+      {
+       "id": "2sg",
+       "label": "2nd singular"
+      },
+      {
+       "id": "3sg",
+       "label": "3rd singular"
+      },
+      {
+       "id": "1pl",
+       "label": "1st plural"
+      },
+      {
+       "id": "2pl",
+       "label": "2nd plural"
+      },
+      {
+       "id": "3pl",
+       "label": "3rd plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "mood": "subj",
+    "person": "3sg"
+   },
+   "audio": "ἐπανέλθῃ",
+   "skills": [
+    "verb.aor.act.subj.3sg",
+    "syntax.cond.fmv"
+   ],
+   "explain": "ἐπαν-έλθ-ῃ: aorist subjunctive, after ἄν (= ἐάν): 'if he comes back'."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse συμφυγόντος.",
+   "form": "συμφυγόντος",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    },
+    {
+     "id": "case",
+     "label": "Case",
+     "options": [
+      {
+       "id": "nom",
+       "label": "nominative"
+      },
+      {
+       "id": "gen",
+       "label": "genitive"
+      },
+      {
+       "id": "dat",
+       "label": "dative"
+      },
+      {
+       "id": "acc",
+       "label": "accusative"
+      },
+      {
+       "id": "voc",
+       "label": "vocative"
+      }
+     ]
+    },
+    {
+     "id": "number",
+     "label": "Number",
+     "options": [
+      {
+       "id": "sg",
+       "label": "singular"
+      },
+      {
+       "id": "pl",
+       "label": "plural"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "mood": "ptc",
+    "case": "gen",
+    "number": "sg"
+   },
+   "audio": "συμφυγόντος",
+   "skills": [
+    "verb.ptc.aor.act.gen",
+    "syntax.gen-abs"
+   ],
+   "explain": "συμ-φυγ-όντος: second aorist participle, genitive singular, with αὐτοῦ: a genitive absolute."
+  },
+  {
+   "type": "label",
+   "prompt": "ἂν μὲν ἀπὸ τῆς θήρας σῶος ἐπανέλθῃ, Διὶ σωτῆρι θύειν. What kind of condition is this?",
+   "options": [
+    {
+     "id": "a",
+     "text": "future more vivid (ἐάν + subjunctive), reported after ἔφη"
+    },
+    {
+     "id": "b",
+     "text": "past contrary to fact"
+    },
+    {
+     "id": "c",
+     "text": "future less vivid (εἰ + optative)"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cond.fmv"
+   ],
+   "explain": "ἄν = ἐάν + subjunctive; the main clause is an infinitive because it depends on ἔφη."
+  },
+  {
+   "type": "label",
+   "prompt": "ὡς δὲ ἔμαθεν ἄτρωτον ὄντα. What does ὡς mean here?",
+   "options": [
+    {
+     "id": "a",
+     "text": "when"
+    },
+    {
+     "id": "b",
+     "text": "as if"
+    },
+    {
+     "id": "c",
+     "text": "in order to"
+    },
+    {
+     "id": "d",
+     "text": "how!"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.hos"
+   ],
+   "explain": "ὡς + aorist indicative at the head of a clause: 'when'."
+  },
+  {
+   "type": "label",
+   "prompt": "ὡς νεκρῷ μέλλοντα τὸ ἱερεῖον ἐναγίζειν. What does ὡς mean here?",
+   "options": [
+    {
+     "id": "a",
+     "text": "as (to), because he thought Heracles was dead"
+    },
+    {
+     "id": "b",
+     "text": "when"
+    },
+    {
+     "id": "c",
+     "text": "so that"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.hos",
+    "read.myth.apollodorus"
+   ],
+   "explain": "ὡς + noun: 'as to a dead man'."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "κατέσχεν ἄγχων ___ ἔπνιξε. (until)",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἕως"
+    },
+    {
+     "id": "b",
+     "text": "ὡς"
+    },
+    {
+     "id": "c",
+     "text": "ἵνα"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.indefinite"
+   ],
+   "explain": "ἕως + aorist indicative: 'until he choked it'."
+  },
+  {
+   "type": "transform",
+   "prompt": "Report it: «ἐὰν ἀποθάνω, ὡς ἥρωι ἐνάγιζε.» (a command) → ἔφη, ἐὰν ἀποθάνῃ, ὡς ἥρωι ___.",
+   "template": "ἔφη, ἐὰν ἀποθάνῃ, ὡς ἥρωι ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἐναγίζειν"
+     ]
+    }
+   ],
+   "audio": "ἔφη, ἐὰν ἀποθάνῃ, ὡς ἥρωι ἐναγίζειν.",
+   "skills": [
+    "syntax.indirect-inf",
+    "syntax.cond.fmv"
+   ],
+   "explain": "A command reported after ἔφη becomes an infinitive: ἐναγίζειν."
+  },
+  {
+   "type": "transform",
+   "prompt": "Make it passive: Εὐρυσθεὺς τῷ Ἡρακλεῖ τὸν ἆθλον ἐπέταξεν. → ὁ ἆθλος ὑπὸ Εὐρυσθέως τῷ Ἡρακλεῖ ___.",
+   "template": "ὁ ἆθλος ὑπὸ Εὐρυσθέως τῷ Ἡρακλεῖ ___.",
+   "gaps": [
+    {
+     "answers": [
+      "ἐπετάχθη"
+     ]
+    }
+   ],
+   "audio": "ὁ ἆθλος ὑπὸ Εὐρυσθέως τῷ Ἡρακλεῖ ἐπετάχθη.",
+   "skills": [
+    "syntax.agent",
+    "verb.aor.pass.ind.3sg"
+   ],
+   "explain": "ἐπ-ε-τάχ-θη: aorist passive of ἐπιτάττω."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the four finite verbs of Heracles' fight in the cave.",
+   "sentence": "συμφυγόντος δὲ εἰς ἀμφίστομον σπήλαιον αὐτοῦ τὴν ἑτέραν ἐνῳκοδόμησεν εἴσοδον, διὰ δὲ τῆς ἑτέρας ἐπεισῆλθε τῷ θηρίῳ, καὶ περιθεὶς τὴν χεῖρα τῷ τραχήλῳ κατέσχεν ἄγχων ἕως ἔπνιξε, καὶ θέμενος ἐπὶ τῶν ὤμων ἐκόμιζεν εἰς Κλεωνάς.",
+   "answer": [
+    8,
+    14,
+    23,
+    32
+   ],
+   "skills": [
+    "read.locate",
+    "read.myth.apollodorus"
+   ],
+   "explain": "ἐνῳκοδόμησεν, ἐπεισῆλθε, κατέσχεν, ἐκόμιζεν (ἔπνιξε is in the ἕως clause). The rest are participles: συμφυγόντος, περιθείς, ἄγχων, θέμενος."
+  },
+  {
+   "type": "locate",
+   "prompt": "Tap the verb Apollodorus uses to show the jar story is only a report.",
+   "sentence": "φασὶ δὲ ὅτι δείσας καὶ πίθον ἑαυτῷ χαλκοῦν εἰσκρυβῆναι ὑπὸ γῆν κατεσκεύασε, καὶ πέμπων κήρυκα Κοπρέα ἐπέταττε τοὺς ἄθλους.",
+   "answer": [
+    0
+   ],
+   "skills": [
+    "read.locate",
+    "read.myth.variants"
+   ],
+   "explain": "φασί 'they say': a story he passes on, not one he vouches for."
+  },
+  {
+   "type": "reorder",
+   "prompt": "Put the words in order: 'He shot at the lion first.'",
+   "tokens": [
+    "ἐτόξευσε",
+    "τὸν",
+    "λέοντα",
+    "τὸ",
+    "πρῶτον"
+   ],
+   "answers": [
+    "ἐτόξευσε τὸν λέοντα τὸ πρῶτον",
+    "τὸ πρῶτον ἐτόξευσε τὸν λέοντα",
+    "τὸν λέοντα ἐτόξευσε τὸ πρῶτον",
+    "τὸ πρῶτον τὸν λέοντα ἐτόξευσε"
+   ],
+   "skills": [
+    "syntax.word-order"
+   ],
+   "explain": "τὸ πρῶτον 'at first' is an adverbial accusative."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὡς δὲ ἔμαθεν ἄτρωτον ὄντα, τὸ ῥόπαλον ἀνατεινάμενος ἐδίωκε."
+    },
+    {
+     "id": "b",
+     "text": "ὡς δὲ ἔμαθεν ἄτρωτον ὄντα, τὸν λέοντα ἐτόξευσε."
+    },
+    {
+     "id": "c",
+     "text": "ὡς δὲ ἔμαθεν νεκρὸν ὄντα, εἰς Κλεωνὰς ἦλθε."
+    }
+   ],
+   "answer": "a",
+   "audio": "ὡς δὲ ἔμαθεν ἄτρωτον ὄντα, τὸ ῥόπαλον ἀνατεινάμενος ἐδίωκε.",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "When he learned it was invulnerable, he raised his club and chased it."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ λέων τοῖς τοῦ Ἡρακλέους τόξοις ἐτρώθη.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "The lion was ἄτρωτος: arrows could not wound it."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Μόλορχος τῷ Ἡρακλεῖ ὡς νεκρῷ ἐναγίζειν ἔμελλεν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ὡς νεκρῷ μέλλοντα τὸ ἱερεῖον ἐναγίζειν."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Εὐρυσθεὺς τὸν Ἡρακλέα εἰς τὴν πόλιν ἐκάλεσεν.",
+   "audio": "prompt",
+   "answer": "false",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "ἀπεῖπε … αὐτῷ εἰς τὴν πόλιν εἰσιέναι: he forbade him to enter."
+  },
+  {
+   "type": "dictation",
+   "prompt": "Listen and type what you hear.",
+   "gaps": [
+    {
+     "answers": [
+      "τοῦτο δὲ ζῷον ἦν ἄτρωτον"
+     ]
+    }
+   ],
+   "audio": "τοῦτο δὲ ζῷον ἦν ἄτρωτον.",
+   "skills": [
+    "spell.dictation",
+    "listen.sentences"
+   ],
+   "explain": "ζῷον has an iota subscript; ἄτρωτον begins with the negative ἀ- (smooth breathing)."
+  },
+  {
+   "type": "compose-grc",
+   "prompt": "Write in Greek: 'Heracles carried the lion to Mycenae.'",
+   "gaps": [
+    {
+     "answers": [
+      "ὁ Ἡρακλῆς τὸν λέοντα εἰς Μυκήνας ἐκόμισεν",
+      "ὁ Ἡρακλῆς τὸν λέοντα εἰς Μυκήνας ἐκόμισε",
+      "ὁ Ἡρακλῆς τὸν λέοντα εἰς Μυκήνας ἤγαγεν",
+      "ὁ Ἡρακλῆς τὸν λέοντα εἰς Μυκήνας ἤγαγε",
+      "ὁ Ἡρακλῆς εἰς Μυκήνας τὸν λέοντα ἐκόμισεν",
+      "ὁ Ἡρακλῆς εἰς Μυκήνας τὸν λέοντα ἐκόμισε",
+      "ὁ Ἡρακλῆς ἐκόμισε τὸν λέοντα εἰς Μυκήνας",
+      "ὁ Ἡρακλῆς ἐκόμισεν τὸν λέοντα εἰς Μυκήνας",
+      "Ἡρακλῆς τὸν λέοντα εἰς Μυκήνας ἐκόμισεν",
+      "Ἡρακλῆς τὸν λέοντα εἰς Μυκήνας ἐκόμισε"
+     ]
+    }
+   ],
+   "skills": [
+    "vocab.production",
+    "vocab.myth"
+   ],
+   "explain": "ἐκόμισε(ν) or ἤγαγε(ν); Apollodorus has ἦγεν εἰς Μυκήνας τὸν λέοντα."
+  },
+  {
+   "type": "translate-en",
+   "prompt": "Translate: καὶ θύειν ἱερεῖον θέλοντι εἰς ἡμέραν ἔφη τηρεῖν τριακοστήν, καὶ ἂν μὲν ἀπὸ τῆς θήρας σῶος ἐπανέλθῃ, Διὶ σωτῆρι θύειν, ἐὰν δὲ ἀποθάνῃ, τότε ὡς ἥρωι ἐναγίζειν.",
+   "audio": "καὶ θύειν ἱερεῖον θέλοντι εἰς ἡμέραν ἔφη τηρεῖν τριακοστήν, καὶ ἂν μὲν ἀπὸ τῆς θήρας σῶος ἐπανέλθῃ, Διὶ σωτῆρι θύειν, ἐὰν δὲ ἀποθάνῃ, τότε ὡς ἥρωι ἐναγίζειν.",
+   "model": "And when Molorchus wanted to sacrifice a victim, Heracles told him to wait until the thirtieth day, and if he came back safe from the hunt, to sacrifice to Zeus the Saviour, but if he died, then to make offerings to him as to a hero.",
+   "skills": [
+    "read.original",
+    "syntax.cond.fmv",
+    "syntax.indirect-inf"
+   ],
+   "explain": "ἔφη governs τηρεῖν, θύειν and ἐναγίζειν; the conditions keep ἄν/ἐάν + subjunctive."
+  },
+  {
+   "type": "word-family",
+   "prompt": "Word Study · Match each Greek word to the English word that comes from it.",
+   "pairs": [
+    {
+     "left": "ὁ λέων",
+     "right": "Leo, chameleon"
+    },
+    {
+     "left": "ὁ ἆθλος (τὸ ἆθλον)",
+     "right": "athlete, decathlon"
+    },
+    {
+     "left": "ὁ νεκρός",
+     "right": "necropolis"
+    },
+    {
+     "left": "ὁ σωτήρ",
+     "right": "soteriology"
+    },
+    {
+     "left": "ὁ ἥρως",
+     "right": "hero"
+    }
+   ],
+   "skills": [
+    "vocab.family"
+   ],
+   "explain": "λέων (χαμαιλέων 'ground-lion'); ἆθλον 'prize', ἀθλητής 'competitor'; νεκρός 'dead'; σωτήρ 'saviour'; ἥρως."
+  }
+ ],
+ "questions": [
+  {
+   "type": "answer-grc",
+   "prompt": "τί πρῶτον ἐπέταξεν ὁ Εὐρυσθεὺς τῷ Ἡρακλεῖ;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τοῦ Νεμέου λέοντος τὴν δορὰν κομίζειν."
+    },
+    {
+     "id": "b",
+     "text": "τὸν Μόλορχον ἀποκτεῖναι."
+    },
+    {
+     "id": "c",
+     "text": "πίθον χαλκοῦν ποιεῖν."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension",
+    "read.myth"
+   ],
+   "explain": "πρῶτον μὲν οὖν ἐπέταξεν αὐτῷ τοῦ Νεμέου λέοντος τὴν δορὰν κομίζειν."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "διὰ τί τὰ τόξα τὸν λέοντα οὐκ ἀπέκτεινεν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "ὁ λέων γὰρ ἄτρωτος ἦν."
+    },
+    {
+     "id": "b",
+     "text": "ὁ Ἡρακλῆς γὰρ οὐκ ἐδύνατο τοξεύειν."
+    },
+    {
+     "id": "c",
+     "text": "ὁ λέων γὰρ ἔφυγεν."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "τοῦτο δὲ ζῷον ἦν ἄτρωτον."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "πῶς ἀπέκτεινεν ὁ Ἡρακλῆς τὸν λέοντα;",
+   "options": [
+    {
+     "id": "a",
+     "text": "τῷ ῥοπάλῳ."
+    },
+    {
+     "id": "b",
+     "text": "ἄγχων ταῖς χερσίν."
+    },
+    {
+     "id": "c",
+     "text": "τοῖς τόξοις."
+    }
+   ],
+   "answer": "b",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "περιθεὶς τὴν χεῖρα τῷ τραχήλῳ κατέσχεν ἄγχων ἕως ἔπνιξε."
+  },
+  {
+   "type": "answer-grc",
+   "prompt": "τί ἐποίησεν ὁ Εὐρυσθεὺς δείσας, ὥς φασιν;",
+   "options": [
+    {
+     "id": "a",
+     "text": "πίθον χαλκοῦν ὑπὸ γῆν κατεσκεύασεν, ἵνα ἐκεῖ κρύπτοιτο."
+    },
+    {
+     "id": "b",
+     "text": "εἰς Κλεωνὰς ἔφυγεν."
+    },
+    {
+     "id": "c",
+     "text": "τὸν λέοντα ἔθυσεν."
+    }
+   ],
+   "answer": "a",
+   "audio": "prompt",
+   "skills": [
+    "read.comprehension",
+    "read.myth.variants"
+   ],
+   "explain": "πίθον ἑαυτῷ χαλκοῦν εἰσκρυβῆναι ὑπὸ γῆν κατεσκεύασε."
+  }
+ ],
+ "culture": {
+  "title": "Heroes, gods and the lion of Nemea",
+  "md": "Molorchus' choice is a real Greek distinction. Olympian gods received **θυσία**: an animal killed at an altar by day, its bones and fat burnt for the god and the meat eaten by the worshippers (Unit 5). The dead and the **heroes** (ἥρωες), great men and women of the past believed to have power from their tombs, received **ἐναγίσματα**: offerings made at a low hearth or into a pit, often at dusk, and burnt whole. Heracles was the exception: he was honoured in some places as a hero and in others as a god, because in the end he was taken up to Olympus.\n\nAthens had many cults of Heracles; the Athenians who fought at Marathon in 490 camped in his sanctuary there, and the gymnasium of **Kynosarges** outside the walls was his. The labours were everywhere on buildings: the metopes of the temple of Zeus at **Olympia** (about 460 BC) show all twelve, beginning with the young hero standing tired over the dead lion, and the 'Hephaisteion' above the Agora shows nine of them on its east front.\n\nNemea itself, in the hills between Corinth and Argos, held the **Nemean Games** every two years in honour of Zeus, one of the four great Panhellenic festivals. The victors' crown was of wild celery; one legend said Heracles founded them after he killed the lion.",
+  "image": "myth-culture-5"
+ },
+ "quiz": [
+  {
+   "type": "produce-form",
+   "prompt": "Give the aorist of τοξεύω for 'he shot at'.",
+   "lemma": "τοξεύω",
+   "cell": "aorist.active.indicative.3sg",
+   "audio": "ἐτόξευσεν",
+   "skills": [
+    "vocab.production",
+    "vocab.myth"
+   ],
+   "explain": "ἐτόξευσε(ν)."
+  },
+  {
+   "type": "cloze-choice",
+   "prompt": "ἐὰν δὲ ___, τότε ὡς ἥρωι ἐναγίζειν. (if he dies)",
+   "options": [
+    {
+     "id": "a",
+     "text": "ἀποθάνῃ"
+    },
+    {
+     "id": "b",
+     "text": "ἀπέθανε"
+    },
+    {
+     "id": "c",
+     "text": "ἀποθανεῖται"
+    }
+   ],
+   "answer": "a",
+   "skills": [
+    "syntax.cond.fmv"
+   ],
+   "explain": "ἐάν + aorist subjunctive."
+  },
+  {
+   "type": "parse",
+   "prompt": "Parse θέμενος.",
+   "form": "θέμενος",
+   "groups": [
+    {
+     "id": "tense",
+     "label": "Tense",
+     "options": [
+      {
+       "id": "pres",
+       "label": "present"
+      },
+      {
+       "id": "impf",
+       "label": "imperfect"
+      },
+      {
+       "id": "fut",
+       "label": "future"
+      },
+      {
+       "id": "aor",
+       "label": "aorist"
+      },
+      {
+       "id": "perf",
+       "label": "perfect"
+      },
+      {
+       "id": "plpf",
+       "label": "pluperfect"
+      }
+     ]
+    },
+    {
+     "id": "voice",
+     "label": "Voice",
+     "options": [
+      {
+       "id": "act",
+       "label": "active"
+      },
+      {
+       "id": "mid",
+       "label": "middle"
+      },
+      {
+       "id": "pass",
+       "label": "passive"
+      }
+     ]
+    },
+    {
+     "id": "mood",
+     "label": "Mood",
+     "options": [
+      {
+       "id": "ind",
+       "label": "indicative"
+      },
+      {
+       "id": "subj",
+       "label": "subjunctive"
+      },
+      {
+       "id": "opt",
+       "label": "optative"
+      },
+      {
+       "id": "imp",
+       "label": "imperative"
+      },
+      {
+       "id": "inf",
+       "label": "infinitive"
+      },
+      {
+       "id": "ptc",
+       "label": "participle"
+      }
+     ]
+    }
+   ],
+   "answer": {
+    "tense": "aor",
+    "voice": "mid",
+    "mood": "ptc"
+   },
+   "audio": "θέμενος",
+   "skills": [
+    "verb.mi.tithemi"
+   ],
+   "explain": "θέ-μενος: aorist middle participle of τίθημι, 'having put (it for himself)'."
+  },
+  {
+   "type": "true-false-grc",
+   "prompt": "ὁ Ἡρακλῆς Διὶ σωτῆρι ἔθυσεν.",
+   "audio": "prompt",
+   "answer": "true",
+   "skills": [
+    "read.comprehension"
+   ],
+   "explain": "σωτῆρι θύσας Διί."
+  },
+  {
+   "type": "match",
+   "prompt": "Match the new words to their meanings.",
+   "pairs": [
+    {
+     "left": "ἐπιτάττω",
+     "right": "order, impose"
+    },
+    {
+     "left": "ξενίζω",
+     "right": "entertain as a guest"
+    },
+    {
+     "left": "τὸ θηρίον",
+     "right": "wild beast"
+    },
+    {
+     "left": "ἡ ἀνδρεία",
+     "right": "courage"
+    }
+   ],
+   "skills": [
+    "vocab.recognition",
+    "vocab.myth"
+   ],
+   "explain": "ἐπιτάττω = προστάττω; ξενίζω < ξένος; θηρίον; ἀνδρεία < ἀνήρ."
+  },
+  {
+   "type": "listen-pick",
+   "prompt": "Listen and choose what you hear.",
+   "options": [
+    {
+     "id": "a",
+     "text": "Εὐρυσθεὺς δὲ καταπλαγεὶς αὐτοῦ τὴν ἀνδρείαν."
+    },
+    {
+     "id": "b",
+     "text": "Εὐρυσθεὺς δὲ θαυμάσας αὐτοῦ τὸ ῥόπαλον."
+    },
+    {
+     "id": "c",
+     "text": "Μόλορχος δὲ καταπλαγεὶς αὐτοῦ τὴν ἀνδρείαν."
+    }
+   ],
+   "answer": "a",
+   "audio": "Εὐρυσθεὺς δὲ καταπλαγεὶς αὐτοῦ τὴν ἀνδρείαν.",
+   "skills": [
+    "listen.sentences"
+   ],
+   "explain": "Eurystheus, astounded at his courage."
+  }
+ ],
+ "skills": [
+  "read.original",
+  "read.myth",
+  "read.myth.apollodorus",
+  "read.myth.variants",
+  "read.comprehension",
+  "read.locate",
+  "syntax.cond.fmv",
+  "syntax.hos",
+  "syntax.gen-abs",
+  "syntax.indirect-inf",
+  "syntax.agent",
+  "listen.sentences",
+  "spell.dictation",
+  "vocab.recognition",
+  "vocab.production",
+  "vocab.family",
+  "vocab.myth"
+ ]
+}

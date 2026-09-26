@@ -991,5 +991,82 @@
     "ochlocracy (mob rule)"
    ]
   }
+ },
+ {
+  "lemma": "φρουρός",
+  "headword": "φρουρός, φρουροῦ, ὁ",
+  "definition": "guard, sentry; οἱ φρουροί, a garrison",
+  "short": "guard",
+  "kind": "noun",
+  "subclass": "noun-2",
+  "pos": "noun: 2nd declension",
+  "morph": {
+   "genitive": "φρουροῦ",
+   "gender": "m",
+   "article": "ὁ"
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "φρουρά 'guard, garrison'",
+    "ὁράω (πρό + ὁρ-: 'one who looks out')"
+   ]
+  }
+ },
+ {
+  "lemma": "ἀπάγω",
+  "headword": "ἀπάγω, ἀπάξω, ἀπήγαγον, ἀπῆχα, ἀπῆγμαι, ἀπήχθην",
+  "definition": "lead away; arrest and lead off (to prison or execution)",
+  "short": "lead away",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: compound of ἄγω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἀπάγω"
+    ],
+    "future": [
+     "ἀπάξω"
+    ],
+    "aorist": [
+     "ἀπήγαγον"
+    ],
+    "perfect": [
+     "ἀπῆχα"
+    ],
+    "perfect-mp": [
+     "ἀπῆγμαι"
+    ],
+    "aorist-passive": [
+     "ἀπήχθην"
+    ],
+    "aorist-2": [
+     "ἀπήγαγον"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἀπάγω",
+    "ἀπάξω",
+    "ἀπήγαγον",
+    "ἀπῆχα",
+    "ἀπῆγμαι",
+    "ἀπήχθην"
+   ],
+   "verb": {
+    "aorist_stem": "ἀγαγ"
+   }
+  },
+  "topics": [
+   "history"
+  ],
+  "cognates": {
+   "cognates": [
+    "ἄγω 'lead'"
+   ]
+  }
  }
 ]

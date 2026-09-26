@@ -232,6 +232,50 @@
    "license": "placeholder",
    "source_url": null,
    "words": []
+  },
+  {
+   "id": "hist-panel-6-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Θηραμένης ἐπὶ τὸν βωμὸν ἀναπηδᾷ.",
+   "alt_en": "Inside the Council-house (bouleuterion) in the Agora, 404/3 BC: councillors on tiered wooden benches behind railings; Critias, lean and fierce, pointing; Theramenes, older and well dressed, leaping onto the small altar (hearth) in the middle of the room.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-6-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Σάτυρος τὸν Θηραμένην ἀπὸ τοῦ βωμοῦ ἕλκει.",
+   "alt_en": "Satyrus and his attendants dragging Theramenes from the altar; the councillors sitting in frozen silence; young men with hidden daggers standing at the railings and in the doorway.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-panel-6-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ Θηραμένης τὸ λειπόμενον τοῦ κωνείου ἀποκοτταβίζει.",
+   "alt_en": "In the prison: Theramenes, calm and almost smiling, flicks the last drops from a cup of hemlock as in the game of kottabos; the gaoler of the Eleven watches, puzzled.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "hist-kottabos-kylix",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "κότταβος.",
+   "alt_en": "Attic red-figure cup (kylix) with a reclining symposiast flinging the last drops of wine from his cup with a flick of the wrist: the game of kottabos.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
   }
  ]
 }

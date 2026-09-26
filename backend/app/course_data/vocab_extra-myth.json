@@ -1705,6 +1705,50 @@
   }
  },
  {
+  "lemma": "ξενίζω",
+  "headword": "ξενίζω, ξενιῶ, ἐξένισα, ἐξενίσθην",
+  "definition": "receive as a guest, entertain; (passive) be entertained as a guest",
+  "short": "entertain as a guest",
+  "kind": "verb",
+  "subclass": "verb-omega",
+  "pos": "verb: -ω",
+  "morph": {
+   "parts": {
+    "present": [
+     "ξενίζω"
+    ],
+    "future": [
+     "ξενιῶ"
+    ],
+    "aorist": [
+     "ἐξένισα"
+    ],
+    "aorist-passive": [
+     "ἐξενίσθην"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ξενίζω",
+    "ξενιῶ",
+    "ἐξένισα",
+    "ἐξενίσθην"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "ὁ ξένος 'guest, stranger'"
+   ],
+   "derivatives": [
+    "xenophobia (ξένος)"
+   ]
+  }
+ },
+ {
   "lemma": "πίθος",
   "headword": "πίθος, πίθου, ὁ",
   "definition": "large storage jar (for wine, oil or grain)",
@@ -2042,6 +2086,48 @@
   "cognates": {
    "cognates": [
     "ἡ ἐντολή 'command'"
+   ]
+  }
+ },
+ {
+  "lemma": "ἐπαγγέλλομαι",
+  "headword": "ἐπαγγέλλομαι, ἐπαγγελοῦμαι, ἐπηγγειλάμην, ἐπήγγελμαι",
+  "definition": "offer, promise (+ fut. or pres. inf.); announce",
+  "short": "offer, promise",
+  "kind": "verb",
+  "subclass": "verb-deponent",
+  "pos": "verb: deponent",
+  "morph": {
+   "parts": {
+    "present": [
+     "ἐπαγγέλλομαι"
+    ],
+    "future": [
+     "ἐπαγγελοῦμαι"
+    ],
+    "aorist": [
+     "ἐπηγγειλάμην"
+    ],
+    "perfect-mp": [
+     "ἐπήγγελμαι"
+    ]
+   },
+   "extra": {},
+   "raw": [
+    "ἐπαγγέλλομαι",
+    "ἐπαγγελοῦμαι",
+    "ἐπηγγειλάμην",
+    "ἐπήγγελμαι"
+   ],
+   "verb": {}
+  },
+  "topics": [
+   "mythology"
+  ],
+  "cognates": {
+   "cognates": [
+    "ἀγγέλλω 'announce'",
+    "ὁ ἄγγελος 'messenger' (angel)"
    ]
   }
  },

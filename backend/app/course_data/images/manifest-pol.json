@@ -192,6 +192,50 @@
    "words": [
     "κληρωτήριον"
    ]
+  },
+  {
+   "id": "pol-5-a",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ ἀδύνατος ἐν τῇ βουλῇ λέγει",
+   "alt_en": "Inside the Council house: a grey-bearded craftsman leaning on two sticks speaks to rows of seated councillors; his accuser, arms folded, watches from the side.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-5-b",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ ἀνὴρ ἐπὶ ἵππον ἀναβαίνει",
+   "alt_en": "A lame man is helped up onto a borrowed horse in a city street; two men point and whisper.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-5-c",
+   "kind": "story",
+   "file": null,
+   "alt_grc": "ὁ ἀνὴρ ἐν τῷ ἐργαστηρίῳ χαλεπῶς ἐργάζεται",
+   "alt_en": "The old craftsman at work alone in his small shop, bent over his bench, with no apprentice beside him.",
+   "credit": "placeholder",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
+  },
+  {
+   "id": "pol-stele-man-staff",
+   "kind": "culture",
+   "file": null,
+   "alt_grc": "ἀνὴρ βακτηρίᾳ χρώμενος",
+   "alt_en": "Attic marble grave relief, 4th century BC: a man leaning on his staff.",
+   "credit": "placeholder (target: Metropolitan Museum of Art open access (CC0))",
+   "license": "placeholder",
+   "source_url": null,
+   "words": []
   }
  ]
 }

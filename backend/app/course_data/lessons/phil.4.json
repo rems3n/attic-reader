@@ -8,7 +8,7 @@
   "caption_grc": "Σωκράτης: ὁρᾷς, ὦ Μένων, ὡς ἐγὼ τοῦτον οὐδὲν διδάσκω, ἀλλ’ ἐρωτῶ πάντα;",
   "original": {
     "text": "plato-meno-82a",
-    "note": "Plato, Meno 82a–e, lightly cut: the words are Plato's, with a few exchanges left out and a one-sentence frame added at the start. The dialogue is set in Athens about 402 BC; Plato wrote it in the 380s, around the time he founded the Academy."
+    "note": "Plato, Meno 82a–e, lightly cut: the words are Plato's, with a few exchanges left out; the first sentence and the last two are a frame in simple Greek. The dialogue is set in Athens about 402 BC; Plato wrote it in the 380s, around the time he founded the Academy."
   },
   "names": {
     "Μένων": [
@@ -515,6 +515,20 @@
             45
           ],
           "glosses": []
+        },
+        {
+          "text": "οὕτως οὖν ὁ Σωκράτης ἐν τῷ τοῦ Μένωνος ἀκολούθῳ ἐπιδείκνυται ὅτι ἡ μάθησις οὐ διδαχή ἐστιν ἀλλ’ ἀνάμνησις.",
+          "glosses": []
+        },
+        {
+          "text": "ὕστερον γὰρ ὁ παῖς, πειρώμενος καὶ ἀπορῶν, αὐτὸς ἀναμιμνῄσκεται ὅτι ἡ τοῦ διπλασίου πλευρὰ ἡ διάμετρός ἐστιν.",
+          "glosses": [
+            {
+              "word": "διάμετρός",
+              "kind": "en",
+              "value": "diagonal (ἡ διάμετρος, 'the line through')"
+            }
+          ]
         }
       ]
     }
