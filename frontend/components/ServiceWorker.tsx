@@ -14,7 +14,12 @@ export default function ServiceWorker() {
   const pathname = usePathname();
 
   useEffect(() => {
-    if (process.env.NODE_ENV !== "production" || !("serviceWorker" in navigator)) return;
+    if (!("serviceWorker" in navigator)) return;
+    if (process.env.NODE_ENV !== "production") {
+      // `next dev` on a port that once ran a production build: drop that worker.
+      navigator.serviceWorker.getRegistrations().then((rs) => rs.forEach((r) => void r.unregister())).catch(() => undefined);
+      return;
+    }
     // The worker learns the API origin from its URL (it cannot read the build env).
     const url = `/sw.js?api=${encodeURIComponent(API_BASE)}`;
     const register = () => {
@@ -66,7 +71,7 @@ export default function ServiceWorker() {
       }}
     >
       <strong style={{ color: "var(--accent, #4e6136)", fontWeight: 600 }}>Offline.</strong>{" "}
-      Lessons and audio you have already opened still work; reading photos (OCR) and new audio need a connection.
+      Saved lessons and audio you have played still work; photos (OCR) and new audio need a connection.
     </div>
   );
 }
