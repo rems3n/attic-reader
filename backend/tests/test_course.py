@@ -350,3 +350,14 @@ def test_every_test_and_placement_resolves_for_many_seeds():
             assert out["item_count"] > 0
         p = data.resolve_placement(seed=seed)
         assert all(1 <= len(b["items"]) <= p["per_unit"] for b in p["blocks"])
+
+
+def test_generated_parse_items_always_offer_their_answer():
+    scope = data.vocab_scope("12.4")
+    skills = ["verb.aor.act.inf", "verb.pres.mp.inf", "verb.ptc.aor.act.gen", "verb.ptc.pres.act", "adj.sup", "adj.comp", "noun.decl3.gen.sg", "verb.aor.pass.ind.3pl"]
+    for seed in range(12):
+        for item in generate(skills, 16, scope, seed=seed):
+            if item["type"] != "parse":
+                continue
+            for g in item["groups"]:
+                assert item["answer"][g["id"]] in [o["id"] for o in g["options"]], (item["id"], item["cell"], g["id"], item["answer"])

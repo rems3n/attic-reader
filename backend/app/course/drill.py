@@ -138,6 +138,18 @@ def _parse(item_id: str, entry: dict, cell: str, skill: str, rng: random.Random)
             {"id": "gender", "label": "Gender", "options": [{"id": g, "label": GENDER_LABEL[g]} for g in GENDERS]},
         ]
         answer = {"case": case, "number": number, "gender": gender}
+        if gender not in GENDERS:  # two-ending forms: "mf"
+            groups[2]["options"].insert(0, {"id": gender, "label": GENDER_LABEL.get(gender, gender)})
+    elif entry["kind"] == "verb" and parts[-1] not in PERSONS:
+        # an infinitive or participle cell has no person: parse tense and voice
+        tense, voice = parts[0], parts[1]
+        tenses = list(dict.fromkeys(["present", "imperfect", "future", "aorist", "perfect", tense]))
+        voices = list(dict.fromkeys(["active", "middle", "passive", voice]))
+        groups = [
+            {"id": "tense", "label": "Tense", "options": [{"id": t, "label": t} for t in tenses]},
+            {"id": "voice", "label": "Voice", "options": [{"id": v, "label": v} for v in voices]},
+        ]
+        answer = {"tense": tense, "voice": voice}
     elif entry["kind"] == "verb":
         tense, voice, mood, tag = parts
         groups = [
