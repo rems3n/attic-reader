@@ -797,3 +797,57 @@ A beginner can open the site on an iPhone, photograph a paragraph from Athenaze 
   `/check` feedback not yet surfaced in the UI; the two summarised
   Athenaze student books are scanned PDFs without text (handbooks were
   used instead; see `docs/reference/`).
+
+## Session log — 2026-09-26 (course Phase B: Stage 1 content)
+
+- **Units 2–6 authored** by five parallel agents on disjoint files, then
+  validated and spot-read: `lessons/2.1–6.4`, `tests/unit-2..5`, `gate-1`
+  (unseen Deucalion & Pyrrha), `vocab_extra-u2..u6.json` (~90 course-only
+  words, all engine-conjugated or hand-tabled), `images/manifest-u2..u6.json`
+  (260 placeholder records). `build_course.py --stats` → 0 problems;
+  backend 399 tests; frontend 49 vitest; `next build` clean. Browser walks:
+  `scripts/e2e/e2e_placement.py` (pass + beginner paths),
+  `scripts/e2e/e2e_stage1.py` (Lesson 6.3 all exercises, gate-1 passed).
+  Story lengths grow from ~150 (Unit 1) to 200–310 tokens (Units 4–5);
+  AUTHORING.md updated. Cast additions: Θρᾷττα (slave, 2.2), Σίμων (Chian
+  metic, 4.2), Δίων/Φίλιππος (school, 4.3), Φιλῖνος (Koan doctor, 5.4),
+  Θεόδωρος (Milesian merchant, 6.2). Myths: Prometheus (2.3, 6.4 review),
+  Apollo & Daphne (5.3); Salamis as Kleinias' memory (5.2).
+- **Placement test**: `GET /api/course/placement?seed=` → per-unit blocks
+  (≤ 8 forms + sentence items from each unit test, no vocab/reading/self
+  items); `/course/placement` runs blocks in order, stops after 3 misses in
+  a row or a block < 60 %, marks every earlier lesson `skipped`, records
+  `course.placement`, opens the next authored lesson. `?seed=` pins a run.
+  `placementDecision()` in `lib/course.ts` (vitest).
+- **Images**: `scripts/build_images.py` (`report | resolve | verify | fetch |
+  process | manifest | all`, `--only`), `images/sources.csv` (70 rows for
+  Stage 0/Unit 1; `search:<query>|<title regex>` refs resolve to object ids
+  in `resolved.json`; `verified.json` caches licence/credit/URL). Sources:
+  Met, Cleveland, AIC, Smithsonian (`SMITHSONIAN_API_KEY`), Wikimedia
+  Commons, manual. Only CC0 / PD / CC BY / CC BY-SA pass. Output WebP ≤ 60 KB,
+  3:2 or 1:1, cream field, 12 % padding, mild grade →
+  `frontend/public/course/pics/<id>.webp`; `manifest` fills the record in
+  place. **Egress-blocked here: run locally**, then commit pics + manifests.
+  Diagrams (4 + per-unit) are our own SVGs, not sourced. `/course/credits`
+  lists every image; the licence badge on a picture links there.
+- **Engine fixes from the authoring pass**: `aorist_stem` overrides written
+  with the compound prefix are stripped (ἐξελθεῖν, not ἐξεξελθεῖν);
+  ὑφαίνω marked `compound: false` (was ὑπο + αἵνω → ὑφαῖναι; now ὑφῆναι);
+  drill generator matches `noun.decl3.(cons|sigma|iota|eus).*` and
+  `noun.decl3.cons.pl`, and `verb.*.mp/mid` skills draw deponents first and
+  read either `middle` or `middle/passive` tables; validator flags a lemma
+  in two `vocab_extra-*.json` files and an image id in two manifests;
+  `scripts/dedupe_course_data.py` keeps the lowest unit's record.
+  Typed-item misses in lessons show "You typed the genitive singular of
+  οἶκος" via `/api/course/check` (`scope` prop on `ExerciseRunner`).
+- **Reported, not fixed** (agents' notes): comparatives/superlatives are
+  not generated (glossed with `<`); participles exist only as nom. sg. (+
+  gen. m) cells; `verb-impersonal` (ἔξεστι) and -εσ- stem masc./fem.
+  (τριήρης), -υ neuter (ἄστυ), ἰχθύς need hand tables; ἵστημι's root
+  aorist cells are keyed `"root aorist.…"` so drills cannot reach them;
+  compound verbs augment the prefix unless `imperfect_stem` is given
+  (ἀναγιγνώσκω, ὠνέομαι); `course_tools.py check` breaks on a closed pipe.
+- **Open for the user**: live link — point Railway `web`/`backend` at this
+  branch or open a PR to `main` (Railway deploys `main`). Real-voice check
+  of the new story clips on Railway; the pre-render plan is now ~28
+  stories × 2 speeds + words + item audio.

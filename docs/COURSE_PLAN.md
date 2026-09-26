@@ -1,10 +1,12 @@
 # Beginner Course — Implementation Plan
 
-Status (2026-09-25): **Phase A implemented** (see §10): course backend,
-Stage 0 and Unit 1 content with the Unit 1 test, the course frontend and
-the Workbook theme, verified end to end in headless Chromium with the fake
-voice (`backend/scripts/e2e/`). Phases B–E remain. Sections below describe
-the full design; where they say "exists" it predates this work.
+Status (2026-09-26): **Phases A and B implemented** (see §10): course
+backend, all of Stage 0 and Stage 1 (28 lessons, five unit tests, Reading
+gate I), placement test, image-sourcing pipeline (placeholders until the
+image pass runs with network access), the course frontend and the Workbook
+theme, verified end to end in headless Chromium with the fake voice
+(`backend/scripts/e2e/`). Phases C–E remain. Sections below describe the
+full design; where they say "exists" it predates this work.
 
 Decisions taken with the user (2026-09-25): setting is **the city of
 Athens** (not a farm deme); images are **Creative Commons only** with one
@@ -659,7 +661,7 @@ Taken (2026-09-25):
 | Phase | Deliverable | Depends on |
 |---|---|---|
 | **A. Skeleton** — DONE | `course_data` schemas, `build_course.py` validator, skills taxonomy, `/api/course*` + `/check` + `/drill`, progress v2 + migration + merge, `/course` home, 10-step lesson player with all exercise modalities (25 item types), test runner, review quiz, Stage 0 (4 lessons) and Unit 1 (4 lessons + test) authored with placeholder images, course pre-render pass, Workbook theme app-wide, e2e harness | — |
-| **B. Stage 1 content** | Units 2–6 authored, unit tests, Reading gate I, picture dictionary (150) + story images for Stage 1 via `build_images.py`, remaining exercise types, generated drills, review quiz, reread scheduler, placement (Stage 1 only) | A, network access for the image pass |
+| **B. Stage 1 content** — DONE (images pending) | Units 2–6 authored (20 lessons, ~110 course-only words with engine forms, 260 placeholder image records), unit tests 2–5, Reading gate I, generated drills (decl. 3 subgroups, deponent-first middle), placement test, `/course/credits`, typed-form feedback from `/check`, `build_images.py` + `sources.csv` (the image pass itself needs network: run locally, then commit `frontend/public/course/pics/` and the manifests) | A; image pass: local run |
 | **C. Stage 2 content** | Units 7–12, tests, gate II, grammar diagrams, culture photographs, adapted-text pipeline from Perseus (extend `build_library.py` to emit adapted + original pairs with alignment) | B |
 | **D. Tracks** | 4 × 8 lessons, track vocab lists, track gates, Stage 4 guided reader mode (DCC coverage %, unknown-word count) | C |
 | **E. Polish** | offline caching, `/check` morph-aware feedback, skills grid, error deck, accessibility pass, content review by a second reader | any |
