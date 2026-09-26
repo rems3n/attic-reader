@@ -21,7 +21,7 @@
  */
 "use strict";
 
-const VERSION = "v2";
+const VERSION = "v3";
 const PREFIX = "attic-";
 const CACHES = {
   shell: `${PREFIX}shell-${VERSION}`,
@@ -194,7 +194,7 @@ self.addEventListener("fetch", (event) => {
   }
 });
 
-const CACHEABLE_API_GET = [/^\/api\/course(\/|$)/, /^\/api\/vocab(\/|$)/, /^\/api\/grammar(\/|$)/, /^\/api\/library(\/|$)/, /^\/api\/analyze\/library$/];
+const CACHEABLE_API_GET = [/^\/api\/lookup$/, /^\/api\/course(\/|$)/, /^\/api\/vocab(\/|$)/, /^\/api\/grammar(\/|$)/, /^\/api\/library(\/|$)/, /^\/api\/analyze\/library$/];
 
 function handleApi(event, url) {
   const req = event.request;

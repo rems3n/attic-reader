@@ -335,6 +335,25 @@ def analyze_text(request: AnalyzeRequest) -> dict[str, object]:
     return analyze.analyze(normalize_polytonic(request.text))
 
 
+@app.get("/api/lookup")
+def lookup_greek(text: str = "") -> dict[str, object]:
+    """Dictionary senses for a short selection, including ambiguous inflections."""
+    if not text.strip() or len(text) > 240:
+        raise HTTPException(status_code=422, detail="Select 1–12 Greek words (at most 240 characters).")
+    from .course.normalize import tokens
+    words = tokens(normalize_polytonic(text))
+    if not words or len(words) > 12:
+        raise HTTPException(status_code=422, detail="Select 1–12 Greek words.")
+    return {"words": [
+        {"text": word, "matches": [
+            {"id": entry["id"], "lemma": entry["lemma"],
+             "definition": entry.get("definition") or entry["short"],
+             "pos": entry.get("pos", ""), "source": entry.get("source", "dcc")}
+            for entry in (course_data.entry_by_id(i) for i in analyze._lookup(word))
+        ]} for word in dict.fromkeys(words)
+    ]}
+
+
 @app.get("/api/analyze/library")
 def analyze_library() -> dict[str, object]:
     """Core-list coverage of every reading-library passage."""

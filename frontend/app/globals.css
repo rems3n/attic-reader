@@ -1008,3 +1008,18 @@ html { scroll-padding-top: 72px; }
 .settingsFields input[hidden] { display: none; }
 .settingsFields .actions { display: flex; flex-wrap: wrap; }
 .settingsFields .actions > button { max-width: 100%; white-space: normal; }
+
+/* Native Greek text selection stays available on reading/playback controls. */
+[lang="grc"], .storyWord, .sentenceWords { -webkit-user-select: text; user-select: text; }
+.greekDefinition { position: fixed; z-index: 1000; width: min(340px, calc(100vw - 24px)); max-height: min(360px, calc(100dvh - 32px)); background: var(--panel, #fff); color: var(--ink, #222); border: 1px solid var(--line, #d9d8cf); border-radius: 12px; box-shadow: 0 8px 32px #0003; font: 14px/1.5 "IBM Plex Sans", sans-serif; display: flex; flex-direction: column; }
+.greekDefinition header { display: flex; align-items: center; justify-content: space-between; padding: 8px 12px; border-bottom: 1px solid var(--line, #d9d8cf); }
+.greekDefinition header button { min-width: 44px; min-height: 44px; font-size: 24px; padding: 0; }
+.greekDefinitionBody { padding: 12px 16px; overflow-y: auto; overscroll-behavior: contain; }
+.greekDefinition p { margin: 4px 0 10px; }
+.greekDefinition .greekSelectionText { font-family: Literata, serif; font-size: 18px; overflow-wrap: anywhere; }
+.greekDefinitionEntry { margin: 8px 0; }
+.greekDefinitionEntry a { font-size: 17px; }
+.greekDefinitionNote { font-size: 12px; border-top: 1px solid var(--line, #d9d8cf); padding-top: 8px; }
+@media (max-width: 600px) {
+  .greekDefinition { left: 12px !important; right: 12px; top: auto !important; bottom: calc(80px + env(safe-area-inset-bottom, 0px)); width: auto; max-height: min(300px, 45dvh); }
+}

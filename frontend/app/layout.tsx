@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import AppShell from "../components/AppShell";
+import GreekSelection from "../components/GreekSelection";
 import ServiceWorker from "../components/ServiceWorker";
 
 
@@ -45,6 +46,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <body>
         <ServiceWorker />
         <AppShell>{children}</AppShell>
+        <GreekSelection />
       </body>
     </html>
   );

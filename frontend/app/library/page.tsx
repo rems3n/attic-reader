@@ -678,7 +678,7 @@ export default function Home() {
                     aria-label={isPlaying ? "Stop sentence" : "Play sentence"}
                     aria-pressed={isPlaying}
                     disabled={!clip.url}
-                    onClick={() => toggleSentence(clip.index)}
+                    onClick={() => { if (!window.getSelection()?.toString().trim()) toggleSentence(clip.index); }}
                   >
                     {isPlaying ? "■" : "▶"}
                   </button>
@@ -687,7 +687,7 @@ export default function Home() {
                     className="sentenceText"
                     lang="grc"
                     disabled={!clip.url}
-                    onClick={() => toggleSentence(clip.index)}
+                    onClick={() => { if (!window.getSelection()?.toString().trim()) toggleSentence(clip.index); }}
                   >
                     <span className="sentenceWords">{renderWords(clip, isCurrent ? wordIndex : null)}</span>
                     <span className="sentenceMeta">
