@@ -78,3 +78,43 @@ def test_process_image_pads_and_fits():
 
     square = bi.process_image(buf.getvalue(), (0.25, 0.0, 0.5, 1.0), "1:1")
     assert Image.open(io.BytesIO(square)).size == bi.WIDTHS["1:1"]
+
+
+def test_relaxed_queries_drop_words_from_the_end():
+    assert bi.relaxed_queries("red-figure kylix symposium youth") == ["red-figure kylix symposium youth", "red-figure kylix symposium", "red-figure kylix"]
+    assert bi.relaxed_queries("kylix") == ["kylix"]
+
+
+def test_find_hit_relaxes_then_falls_back(monkeypatch):
+    calls = []
+
+    def met_search(q):
+        calls.append(("met", q))
+        return ["1"] if q == "terracotta lekythos" else []
+
+    def commons_search(q):
+        calls.append(("commons", q))
+        return ["File:Owl.jpg"]
+
+    verifiers = {
+        "met": lambda ref: {"ok": True, "license": "CC0", "title": "Terracotta lekythos (oil flask)", "match_text": "Vase"},
+        "commons": lambda ref: {"ok": True, "license": "CC BY-SA 4.0", "title": ref, "match_text": "Athenian tetradrachm owl"},
+    }
+    monkeypatch.setattr(bi, "SEARCHERS", {"met": met_search, "commons": commons_search})
+    monkeypatch.setattr(bi, "VERIFIERS", verifiers)
+    # a shorter query finds it at the row's own source
+    assert bi.find_hit("met", "terracotta lekythos white ground", "lekythos") == ("met", "1", "Terracotta lekythos (oil flask)")
+    # nothing at the Met: the fallback source, matched on its description text
+    assert bi.find_hit("met", "silver tetradrachm", "tetradrachm") == ("commons", "File:Owl.jpg", "File:Owl.jpg")
+    assert bi.find_hit("met", "silver tetradrachm", "tetradrachm", fallback=False) is None
+    # licence still checked on fallback hits
+    verifiers["commons"] = lambda ref: {"ok": True, "license": "CC BY-NC 4.0", "title": ref, "match_text": "tetradrachm"}
+    assert bi.find_hit("met", "silver tetradrachm", "tetradrachm") is None
+
+
+def test_resolved_hit_keeps_its_source():
+    row = {"id": "x", "source": "met", "ref": "search:owl|owl"}
+    resolved = {"x": {"ref": "search:owl|owl", "source": "commons", "object": "File:Owl.jpg"}}
+    assert bi.concrete_source_ref(row, resolved) == ("commons", "File:Owl.jpg")
+    assert bi.concrete_source_ref(row, {}) == ("met", None)
+    assert bi.concrete_source_ref({"id": "y", "source": "met", "ref": "123"}, {}) == ("met", "123")

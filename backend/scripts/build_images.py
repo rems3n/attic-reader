@@ -163,6 +163,7 @@ def met_verify(ref: str) -> dict:
         "image_url": obj.get("primaryImage"),
         "source_url": obj.get("objectURL"),
         "title": obj.get("title", ""),
+        "match_text": " ".join(str(x) for x in [obj.get("objectName"), obj.get("classification"), obj.get("culture"), obj.get("period"), " ".join(t.get("term", "") for t in obj.get("tags") or [])] if x),
         "reason": None if ok else "isPublicDomain false or no image",
     }
 
@@ -187,6 +188,7 @@ def cma_verify(ref: str) -> dict:
         "image_url": web,
         "source_url": d.get("url"),
         "title": d.get("title", ""),
+        "match_text": " ".join(str(x) for x in [d.get("type"), d.get("culture"), d.get("technique"), d.get("description")] if x),
         "reason": None if ok else f"share_license_status={lic!r}",
     }
 
@@ -254,6 +256,7 @@ def commons_verify(ref: str) -> dict:
         "image_url": info.get("thumburl") or info.get("url"),
         "source_url": info.get("descriptionurl"),
         "title": title,
+        "match_text": " ".join(meta.get(k, "") for k in ("ObjectName", "ImageDescription", "Categories")),
         "reason": None if ok else f"licence {lic!r}",
     }
 
@@ -300,9 +303,47 @@ def cmd_report(rows: list[dict]) -> int:
     return 0
 
 
-def cmd_resolve(rows: list[dict]) -> int:
+# When a search finds nothing: shorter queries (drop words from the end, keep
+# two), then the same queries at another source. Every hit is still licence-
+# checked and must match the row's title pattern.
+FALLBACK = {"met": ["cma", "commons"], "cma": ["met", "commons"], "aic": ["met", "commons"], "commons": ["met", "cma"]}
+MAX_CANDIDATES = 25
+
+
+def relaxed_queries(query: str) -> list[str]:
+    words = query.split()
+    out = [query] + [" ".join(words[:n]) for n in range(len(words) - 1, 1, -1)]
+    return list(dict.fromkeys(q for q in out if q))
+
+
+def find_hit(source: str, query: str, pattern: str, fallback: bool = True) -> tuple[str, str, str] | None:
+    """(source, object id, title) of the first open-access hit, or None."""
+    rx = re.compile(pattern, re.I) if pattern else None
+    sources = [source] + (FALLBACK.get(source, []) if fallback else [])
+    for src in sources:
+        if src not in SEARCHERS:
+            continue
+        seen: set[str] = set()
+        for q in relaxed_queries(query):
+            try:
+                candidates = SEARCHERS[src](q)
+            except Exception:  # noqa: BLE001 — try the next query / source
+                continue
+            for cand in [c for c in candidates if c not in seen][:MAX_CANDIDATES]:
+                seen.add(cand)
+                try:
+                    info = VERIFIERS[src](cand)
+                except Exception:  # noqa: BLE001
+                    continue
+                text = f"{info.get('title', '')} {info.get('match_text', '')}"
+                if info.get("ok") and license_ok(info.get("license")) and (rx is None or rx.search(text)):
+                    return src, cand, info.get("title", "")
+    return None
+
+
+def cmd_resolve(rows: list[dict], fallback: bool = True) -> int:
     resolved = load_json(RESOLVED, {})
-    failures = 0
+    failed: list[str] = []
     for row in rows:
         ref, source = row["ref"], row["source"]
         if not ref.startswith("search:"):
@@ -310,42 +351,39 @@ def cmd_resolve(rows: list[dict]) -> int:
         if row["id"] in resolved and resolved[row["id"]].get("ref") == ref:
             continue
         query, _, pattern = ref[7:].partition("|")
-        searcher = SEARCHERS.get(source)
-        if not searcher:
+        if source not in SEARCHERS:
             print(f"✗ {row['id']}: no search for source {source!r}")
-            failures += 1
+            failed.append(row["id"])
             continue
-        try:
-            candidates = searcher(query.strip())
-        except Exception as exc:  # noqa: BLE001
-            print(f"✗ {row['id']}: search failed: {exc}")
-            failures += 1
+        hit = find_hit(source, query.strip(), pattern.strip(), fallback)
+        if not hit:
+            print(f"✗ {row['id']}: no open-access hit for {query.strip()!r} matching {pattern.strip()!r}")
+            failed.append(row["id"])
             continue
-        pick = None
-        rx = re.compile(pattern.strip(), re.I) if pattern.strip() else None
-        for cand in candidates:
-            try:
-                info = VERIFIERS[source](cand)
-            except Exception:  # noqa: BLE001
-                continue
-            if info.get("ok") and (rx is None or rx.search(info.get("title", ""))):
-                pick = (cand, info["title"])
-                break
-        if not pick:
-            print(f"✗ {row['id']}: no open-access hit for {query!r} matching {pattern!r} ({len(candidates)} candidates)")
-            failures += 1
-            continue
-        resolved[row["id"]] = {"ref": ref, "source": source, "object": pick[0], "title": pick[1]}
-        print(f"✓ {row['id']}: {source} {pick[0]} — {pick[1]}")
+        src, obj, title = hit
+        resolved[row["id"]] = {"ref": ref, "source": src, "object": obj, "title": title}
+        note = f" (fallback from {source})" if src != source else ""
+        print(f"✓ {row['id']}: {src} {obj} — {title}{note}")
+        save_json(RESOLVED, resolved)  # keep progress if the run is interrupted
     save_json(RESOLVED, resolved)
-    return 1 if failures else 0
+    if failed:
+        print(f"\n{len(failed)} unresolved: {' '.join(failed)}")
+        print("Loosen the query or title pattern in the sources file, or give a File:/object id, or a manual row.")
+    return 1 if failed else 0
 
 
 def concrete_ref(row: dict, resolved: dict) -> str | None:
+    return concrete_source_ref(row, resolved)[1]
+
+
+def concrete_source_ref(row: dict, resolved: dict) -> tuple[str, str | None]:
+    """(source, object id) for a row; a search row takes the source its hit came from."""
     if row["ref"].startswith("search:"):
         hit = resolved.get(row["id"])
-        return hit["object"] if hit and hit.get("ref") == row["ref"] else None
-    return row["ref"]
+        if hit and hit.get("ref") == row["ref"]:
+            return hit.get("source", row["source"]), hit["object"]
+        return row["source"], None
+    return row["source"], row["ref"]
 
 
 def cmd_verify(rows: list[dict]) -> int:
@@ -353,8 +391,7 @@ def cmd_verify(rows: list[dict]) -> int:
     verified = load_json(VERIFIED, {})
     failures = 0
     for row in rows:
-        source = row["source"]
-        ref = concrete_ref(row, resolved)
+        source, ref = concrete_source_ref(row, resolved)
         if ref is None:
             print(f"✗ {row['id']}: unresolved search ref (run resolve)")
             failures += 1
@@ -505,11 +542,12 @@ def main() -> None:
     ap.add_argument("command", choices=["report", "resolve", "verify", "fetch", "process", "manifest", "all"])
     ap.add_argument("--only", nargs="*", help="image ids to limit the run to")
     ap.add_argument("--no-grade", action="store_true", help="skip the colour grade")
+    ap.add_argument("--no-fallback", action="store_true", help="resolve: search only the row's own source with its full query")
     args = ap.parse_args()
     rows = read_sources(set(args.only) if args.only else None)
     if args.command == "report":
         sys.exit(cmd_report(rows))
-    steps = {"resolve": lambda: cmd_resolve(rows), "verify": lambda: cmd_verify(rows), "fetch": lambda: cmd_fetch(rows), "process": lambda: cmd_process(rows, not args.no_grade), "manifest": lambda: cmd_manifest(rows)}
+    steps = {"resolve": lambda: cmd_resolve(rows, not args.no_fallback), "verify": lambda: cmd_verify(rows), "fetch": lambda: cmd_fetch(rows), "process": lambda: cmd_process(rows, not args.no_grade), "manifest": lambda: cmd_manifest(rows)}
     if args.command == "all":
         rc = 0
         for name in ("resolve", "verify", "fetch", "process", "manifest"):
