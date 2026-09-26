@@ -317,3 +317,20 @@ def test_test_passage_from_an_original(monkeypatch):
     out = data.resolve_test("gate-x", seed=1)
     section = out["sections"][0]
     assert section["passage"].startswith("ἦν δέ τις ἐν τῇ στρατιᾷ Ξενοφῶν") and section["passage_source"]["author"] == "Xenophon"
+
+
+def test_lemma_skill_drills_and_attic_future_of_erchomai():
+    from app.course.drill import generate, supported
+    from app.course.forms import cell_forms
+
+    allids = [e["id"] for e in data.all_entries()]
+    for skill, lemma in [("verb.mi.didomi", "δίδωμι"), ("verb.oida", "οἶδα"), ("verb.phemi", "φημί")]:
+        assert supported(skill)
+        items = generate([skill], 4, allids, seed=2)
+        assert items and all(i["lemma"] == lemma and ".active." in i["cell"] for i in items)
+    erch = next(e for e in data.all_entries() if e["lemma"] == "ἔρχομαι")
+    assert cell_forms(erch, "future.active.indicative.1sg") == ["εἶμι"]
+    assert not cell_forms(erch, "future.middle.indicative.1sg")  # no Ionic ἐλεύσομαι
+    tachys = next(e for e in data.all_entries() if e["lemma"] == "ταχύς")
+    assert cell_forms(tachys, "comp.nom.sg.n") == ["θᾶττον"]
+    assert cell_forms(next(e for e in data.all_entries() if e["lemma"] == "σοφός"), "adv") == ["σοφῶς"]

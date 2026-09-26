@@ -1262,6 +1262,11 @@ def conjugate_entry(entry: dict) -> dict | None:
         raise RuntimeError(f"{lemma}: {exc}") from exc
     if v.impersonal:
         tables = [_only_3sg(t) for t in tables]
+    # overrides may drop whole systems the engine would build, e.g. the Ionic
+    # future middle ἐλεύσομαι of ἔρχομαι: "drop": ["future.middle"]
+    drops = set(v.ov.get("drop", []))
+    if drops:
+        tables = [t for t in tables if f"{t['tense']}.{t['voice']}" not in drops]
     for hand in v.ov.get("tables", []):
         key = (hand["tense"], hand["voice"], hand["mood"])
         tables = [t for t in tables if (t["tense"], t["voice"], t["mood"]) != key]

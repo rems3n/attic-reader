@@ -425,7 +425,37 @@
  "138": {
   "morph": {
    "verb": {
-    "aorist_stem": "ἐλθ"
+    "aorist_stem": "ἐλθ",
+    "tables": [
+     {
+      "tense": "future",
+      "voice": "active",
+      "mood": "indicative",
+      "forms": "εἶμι εἶ εἶσι(ν) ἴμεν ἴτε ἴασι(ν)",
+      "note": "In Attic prose the future of ἔρχομαι is εἶμι ‘I shall go’; ἐλεύσομαι is Ionic and poetic."
+     },
+     {
+      "tense": "future",
+      "voice": "active",
+      "mood": "optative",
+      "forms": "ἴοιμι ἴοις ἴοι ἴοιμεν ἴοιτε ἴοιεν"
+     },
+     {
+      "tense": "future",
+      "voice": "active",
+      "mood": "infinitive",
+      "forms": "ἰέναι"
+     },
+     {
+      "tense": "future",
+      "voice": "active",
+      "mood": "participle",
+      "forms": "ἰών ἰοῦσα ἰόν ἰόντος"
+     }
+    ],
+    "drop": [
+     "future.middle"
+    ]
    }
   }
  },

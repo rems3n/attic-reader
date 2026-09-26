@@ -36,6 +36,17 @@ PTC_RE = re.compile(r"^verb\.ptc\.(pres|aor|fut|perf)\.(act|mp|mid|pass)(?:\.(no
 COMP_RE = re.compile(r"^adj\.(comp|sup)(?:\.(nom|gen|dat|acc))?(?:\.(sg|pl))?$")
 GEN_ABS = "syntax.gen-abs"  # genitive of present/aorist active and aorist passive participles
 
+# skills about one irregular verb: drill its finite indicative/imperative forms
+LEMMA_SKILLS = {
+    "verb.mi.didomi": "δίδωμι",
+    "verb.mi.tithemi": "τίθημι",
+    "verb.mi.deiknymi": "δείκνυμι",
+    "verb.mi.histemi": "ἵστημι",
+    "verb.phemi": "φημί",
+    "verb.oida": "οἶδα",
+    "verb.eimi-go": "εἶμι",
+}
+
 TENSE = {"pres": "present", "impf": "imperfect", "aor": "aorist", "fut": "future", "perf": "perfect", "plpf": "pluperfect"}
 VOICE = {"act": "active", "mp": "middle/passive", "mid": "middle", "pass": "passive"}
 MOOD = {"ind": "indicative", "imp": "imperative", "subj": "subjunctive", "opt": "optative"}
@@ -230,6 +241,19 @@ def _plan_for_skill(skill: str, scope_ids: list[str]) -> list[tuple[dict, str]]:
                     out.append((e, cell))
                     break
         return out
+    if skill in LEMMA_SKILLS:
+        lemma = LEMMA_SKILLS[skill]
+        out = []
+        for e in _entries(scope_ids, "verb"):
+            if e["lemma"] != lemma:
+                continue
+            for cell, forms in all_cells(e):
+                parts = cell.split(".")
+                # active voice only: what Units 7–10 teach (ἵστημι's intransitive root aorist is active too)
+                basic = parts[0] in ("present", "imperfect", "aorist", "root aorist", "future") or lemma == "οἶδα"
+                if basic and len(parts) == 4 and parts[1] == "active" and parts[2] in ("indicative", "imperative") and parts[3] in PERSONS and forms:
+                    out.append((e, cell))
+        return out
     m = PTC_RE.match(skill)
     if m or skill == GEN_ABS:
         if m:
@@ -302,7 +326,7 @@ def _verbs_for_voice(scope_ids: list[str], voice: str) -> list[dict]:
 
 
 def supported(skill: str) -> bool:
-    return bool(NOUN_RE.match(skill) or NOUN_NUM_RE.match(skill) or ART_RE.match(skill) or EIMI_RE.match(skill) or VERB_RE.match(skill) or INF_RE.match(skill) or PTC_RE.match(skill) or COMP_RE.match(skill) or skill in (GEN_ABS, "adj.agree"))
+    return bool(NOUN_RE.match(skill) or NOUN_NUM_RE.match(skill) or ART_RE.match(skill) or EIMI_RE.match(skill) or VERB_RE.match(skill) or INF_RE.match(skill) or PTC_RE.match(skill) or COMP_RE.match(skill) or skill in LEMMA_SKILLS or skill in (GEN_ABS, "adj.agree"))
 
 
 def generate(skills: list[str], n: int, scope_ids: list[str], seed: int = 0, prefix: str = "drill") -> list[dict]:
