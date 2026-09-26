@@ -123,7 +123,10 @@ validator is accent-insensitive, so accent mistakes are yours to catch.
 }
 ```
 
-Story: 3 paragraphs, each with a picture; 120–180 words in Stage 1; short
+Story: 3 paragraphs, each with a picture; 120–180 words for Unit 1, up to
+about 300 from Unit 2 on (dialogue needs the room; Athenaze grows the same
+way) — `course_tools.py check` counts whitespace tokens, punctuation
+included; short
 sentences; recycle earlier vocabulary constantly; every new word appears at
 least twice; dialogue in « ». Greek only. Glosses in LOGOS style: `pic`,
 `=`, `↔`, `<`, `|`; use `en` sparingly (function words, abstract words).
