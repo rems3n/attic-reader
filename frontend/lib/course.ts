@@ -93,14 +93,46 @@ export type Lesson = {
   culture: { title: string; md: string; image?: string | null; image_record?: ImageRecord | null } | null;
   quiz: Item[];
   skills: Skill[];
-  unit: { id: string; n: number; title_grc: string; title_en: string; test: string | null };
+  /** a track lesson's "unit" is its track (n null, test = the track gate) */
+  unit: { id: string; n: number | null; title_grc: string; title_en: string; test: string | null };
+  track?: { id: string; title_grc: string; title_en: string; requires: string; side: boolean } | null;
   stage: { id: string; title_grc: string; title_en: string };
   position: { index: number; prev: string | null; next: string | null; in_unit: number; unit_size: number };
 };
-export type LessonSummary = { id: string; title_grc: string; title_en: string; available: boolean; skills?: string[]; word_count?: number; exercise_count?: number; quiz_count?: number };
+export type LessonSummary = {
+  id: string;
+  title_grc: string;
+  title_en: string;
+  available: boolean;
+  skills?: string[];
+  word_count?: number;
+  exercise_count?: number;
+  quiz_count?: number;
+  /** the original text the lesson reads */
+  source?: { author: string | null; work: string | null; ref: string | null };
+  /** track lessons: the main-course lesson it builds on, and whether it is a side reading (1–3) */
+  requires?: string;
+  side?: boolean;
+};
 export type Unit = { id: string; n: number; title_grc: string; title_en: string; lessons: LessonSummary[]; test: string | null; test_available: boolean };
 export type Stage = { id: string; title_grc: string; title_en: string; blurb: string; units: Unit[] };
-export type Track = { id: string; title_grc: string; title_en: string; blurb: string; unlock_after_unit: number; lessons: string[] };
+export type Track = {
+  id: string;
+  title_grc: string;
+  title_en: string;
+  blurb: string;
+  lessons: LessonSummary[];
+  gate: string;
+  gate_available: boolean;
+  /** lessons 1..side_lessons open after `side_after`, the rest after `full_after` */
+  side_after: string;
+  full_after: string;
+  side_lessons: number;
+};
+export type TrackDetail = Track & {
+  words: (LessonVocab & { lesson: string })[];
+  texts: { lesson: string; id: string; title: string | null; author: string | null; work: string | null; ref: string | null }[];
+};
 export type CourseIndex = { stages: Stage[]; tracks: Track[]; skills: Skill[]; families: { id: string; label: string }[]; lesson_order: string[] };
 export type TestSection = { id: string; title: string; passage_title?: string; passage?: string; passage_source?: { author?: string; work?: string; ref?: string } | null; passage_note?: string; glosses?: Record<string, string>; items: Item[] };
 export type CourseTest = { id: string; title_grc: string; title_en: string; scope: string; pass_score: number; unlock_after_hours?: number; retake_after_days?: number; blurb?: string; sections: TestSection[]; item_count: number };

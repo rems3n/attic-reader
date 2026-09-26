@@ -43,5 +43,6 @@ describe("progress v2", () => {
     expect(strictAccentsFor(DEFAULT_SETTINGS, "1.3")).toBe(false);
     expect(strictAccentsFor(DEFAULT_SETTINGS, "4.1")).toBe(true);
     expect(strictAccentsFor({ ...DEFAULT_SETTINGS, accents: "strict" }, "0.1")).toBe(true);
+    expect(strictAccentsFor(DEFAULT_SETTINGS, "myth.1")).toBe(true);
   });
 });

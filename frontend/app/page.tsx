@@ -1,9 +1,14 @@
 "use client";
 
 import { ChangeEvent, useCallback, useEffect, useMemo, useRef, useState } from "react";
+import WordCoverage from "../components/WordCoverage";
+import { loadProgress } from "../lib/progress";
+import type { CardState } from "../lib/srs";
 import {
   base64ToObjectUrl,
   getLibrary,
+  getLibraryCoverage,
+  LibraryCoverage,
   getLibraryItem,
   getTtsStatus,
   phonemize,
@@ -93,6 +98,8 @@ export default function Home() {
   const [libraryTab, setLibraryTab] = useState<string>("history");
   const [libraryItem, setLibraryItem] = useState<LibraryItem | null>(null);
   const [libraryOpen, setLibraryOpen] = useState(true);
+  const [coverage, setCoverage] = useState<LibraryCoverage>({});
+  const [cards, setCards] = useState<Record<string, CardState>>({});
 
   // One <audio> element for the whole app so iOS keeps it "user-activated"
   // after the first tap; play-all chains clips on this same element.
@@ -113,6 +120,8 @@ export default function Home() {
   useEffect(() => {
     getTtsStatus().then(setProviders).catch(() => setProviders([]));
     getLibrary().then(setLibrary).catch(() => setLibrary(null));
+    getLibraryCoverage().then(setCoverage).catch(() => setCoverage({}));
+    setCards(loadProgress().cards);
     // /?reading=<id>&sentence=<n> (from vocabulary example sentences)
     const params = new URLSearchParams(window.location.search);
     const reading = params.get("reading");
@@ -498,7 +507,7 @@ export default function Home() {
         <div className="sectionHead">
           <div>
             <h2>Choose a reading</h2>
-            <p>Classic passages from the Perseus Digital Library, read in Classical Attic. Tap one to listen.</p>
+            <p>Classic passages from the Perseus Digital Library, read in Classical Attic. Tap one to listen. The percentage is how many of its words are in the vocabulary lists: start with the highest.</p>
           </div>
           {library && (
             <button type="button" className="linkButton" onClick={() => setLibraryOpen((o) => !o)}>
@@ -542,6 +551,7 @@ export default function Home() {
                         </span>
                         <span className="readingRef">
                           {item.author}, <em>{item.work}</em> {item.ref} · {item.sentence_count} sentences · ~{minutes} min
+                          {coverage[item.id] ? ` · ${Math.round(coverage[item.id].coverage * 100)} % known words` : ""}
                           {ready ? " · ready" : ""}
                         </span>
                         <span className="readingBlurb">{item.blurb}</span>
@@ -627,6 +637,7 @@ export default function Home() {
           </button>
         </div>
         {error && <div className="error">{error}</div>}
+        <WordCoverage text={text} cards={cards} label={libraryItem ? libraryItem.title : "this text"} />
         {ipa && !reading && (
           <details className="ipaPanel">
             <summary>Show Classical Attic pronunciation audit</summary>

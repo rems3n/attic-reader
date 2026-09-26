@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { getCourse, getCourseImages } from "../../lib/api";
 import { familyMastery, weakSkills, type CourseIndex, type ImageRecord } from "../../lib/course";
-import { completedCount, findLesson, formatWait, lessonStatus, nextLesson, rereadSuggestion, testGate } from "../../lib/courseState";
+import { completedCount, findLesson, formatWait, lessonStatus, nextLesson, rereadSuggestion, testGate, trackOf, trackState } from "../../lib/courseState";
 import { loadProgress, saveProgress, streakDays, type Progress } from "../../lib/progress";
 import { isNew } from "../../lib/srs";
 
@@ -22,7 +22,10 @@ export default function CourseHome() {
   useEffect(() => saveProgress(progress), [progress]);
 
   const cp = progress.course;
-  const continueId = course ? nextLesson(course, cp) : null;
+  // continue: a track lesson in progress, else the main course, else the chosen track
+  const chosenTrack = course?.tracks.find((t) => t.id === cp.track) ?? null;
+  const trackInProgress = course?.tracks.flatMap((t) => t.lessons).find((l) => cp.lessons[l.id]?.status === "in-progress")?.id ?? null;
+  const continueId = course ? trackInProgress ?? nextLesson(course, cp) ?? (chosenTrack ? trackState(cp, chosenTrack).next : null) : null;
   const counts = course ? completedCount(course, cp) : { done: 0, total: 0 };
   const dueCards = useMemo(() => Object.values(progress.cards).filter((c) => !isNew(c) && c.due <= now).length, [progress.cards, now]);
   const reread = course ? rereadSuggestion(course, cp, now) : null;
@@ -64,7 +67,7 @@ export default function CourseHome() {
 
       {continueLesson && (
         <Link href={`/course/lesson/${continueLesson.id}`} className="card continueCard">
-          <span className="eyebrow">{continueState?.status === "in-progress" ? "CONTINUE" : counts.done === 0 ? "START HERE" : "NEXT"} · ΜΑΘΗΜΑ {continueLesson.id.replace(".", "·")}</span>
+          <span className="eyebrow">{continueState?.status === "in-progress" ? "CONTINUE" : counts.done === 0 ? "START HERE" : "NEXT"} · {trackOf(course, continueLesson.id) ? `${trackOf(course, continueLesson.id)!.title_grc.toUpperCase()} ${continueLesson.id.split(".")[1]}` : `ΜΑΘΗΜΑ ${continueLesson.id.replace(".", "·")}`}</span>
           <span className="continueTitle" lang="grc">{continueLesson.title_grc}</span>
           <span className="continueSub">{continueLesson.title_en}{continueLesson.word_count ? ` · ${continueLesson.word_count} words` : ""}{continueState?.step != null ? ` · step ${continueState.step + 1} of 10` : ""}</span>
           <span className="primary buttonLike">{continueState?.status === "in-progress" ? "Resume" : "Open"}</span>
@@ -128,15 +131,25 @@ export default function CourseHome() {
         </section>
       ))}
 
-      <section className="card">
-        <div className="sectionHead"><div><h2 lang="grc">Ὁδοί <span className="muted">· tracks</span></h2><p>Choose your interest after Unit 9: original texts on your subject.</p></div></div>
-        <div className="trackGrid">
-          {course.tracks.map((t, i) => (
-            <div key={t.id} className={`trackTile t${i}`}>
-              <span lang="grc" className="trackTitle">{t.title_grc}</span>
-              <span className="muted small">{t.blurb} · unlocks after Unit {t.unlock_after_unit}</span>
-            </div>
-          ))}
+      <section className="stage">
+        <h2 className="stageTitle"><span lang="grc">Ὁδοί</span> <span className="muted">· Tracks</span></h2>
+        <p className="muted stageBlurb">Real texts on the subject you like best. The first three lessons of each track open after Unit 9 as side readings, the rest after Unit 12. Do one, several or all four.</p>
+        <div className="unitGrid trackGrid">
+          {course.tracks.map((t) => {
+            const ts = trackState(cp, t);
+            const label = ts.state === "locked" ? `OPENS AFTER ${t.side_after}` : ts.state === "side" ? "SIDE READINGS OPEN" : ts.state === "done" ? "DONE" : "OPEN";
+            return (
+              <Link key={t.id} href={`/course/track/${t.id}`} className={`unitTile trackTile ${ts.state === "locked" ? "locked" : ts.state === "done" ? "done" : "open"} ${cp.track === t.id ? "chosen" : ""}`}>
+                <span className="unitLabel">{cp.track === t.id ? "YOUR TRACK · " : ""}{label}{ts.total ? ` · ${ts.done}/${ts.total}` : ""}</span>
+                <span className="unitTitle" lang="grc">{t.title_grc}</span>
+                <span className="unitSub">{t.title_en}</span>
+                <span className="muted small">{t.blurb}</span>
+                <div className="lessonDots">
+                  {t.lessons.map((l) => <span key={l.id} className={`dot ${l.available ? lessonStatus(course, cp, l.id) : "locked planned"}`} />)}
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </section>
 

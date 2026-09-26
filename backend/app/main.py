@@ -38,6 +38,7 @@ from .library import LibraryError, get_item, load_manifest, summary, CATEGORIES
 from . import vocab
 from . import progress as progress_store
 from .greek.morph import paradigms
+from .course import analyze
 from .course import data as course_data
 from .course.drill import generate as generate_drill
 from .course.grade import TYPED_TYPES, feedback_for_typed, grade as grade_item
@@ -283,6 +284,34 @@ def course_drill(skills: str, scope: str, n: int = 8, seed: int = 0) -> dict[str
     wanted = [s for s in skills.split(",") if s.strip()]
     items = generate_drill(wanted, max(1, min(n, 40)), scope_ids, seed=seed)
     return {"items": items, "skills": wanted, "scope": scope, "seed": seed}
+
+
+@app.get("/api/course/track/{track_id}")
+def course_track(track_id: str) -> dict[str, object]:
+    """A track: its lessons, gate and word list (Stage 3)."""
+    try:
+        return course_data.resolve_track(track_id)
+    except course_data.CourseError:
+        raise HTTPException(status_code=404, detail=f"No track {track_id!r}.")
+
+
+class AnalyzeRequest(BaseModel):
+    text: str
+
+
+@app.post("/api/analyze")
+def analyze_text(request: AnalyzeRequest) -> dict[str, object]:
+    """Guided reading: the lexicon words a text uses and how much of it the
+    DCC core list covers (Stage 4)."""
+    if len(request.text) > 20000:
+        raise HTTPException(status_code=422, detail="Text too long (20,000 characters at most).")
+    return analyze.analyze(normalize_polytonic(request.text))
+
+
+@app.get("/api/analyze/library")
+def analyze_library() -> dict[str, object]:
+    """Core-list coverage of every reading-library passage."""
+    return {"passages": analyze.library_coverage()}
 
 
 @app.get("/api/course/images")

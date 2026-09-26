@@ -165,7 +165,11 @@ export default function LessonPage() {
       <header className="lessonHead">
         <div className="lessonCrumbs">
           <Link href="/course">← Course</Link>
-          <span className="muted"> · Unit {lesson.unit.n} · Lesson {lesson.position.in_unit} of {lesson.position.unit_size}</span>
+          {lesson.track ? (
+            <span className="muted"> · <Link href={`/course/track/${lesson.track.id}`} lang="grc">{lesson.track.title_grc}</Link> · Lesson {lesson.position.in_unit} of {lesson.position.unit_size}</span>
+          ) : (
+            <span className="muted"> · Unit {lesson.unit.n} · Lesson {lesson.position.in_unit} of {lesson.position.unit_size}</span>
+          )}
           <label className="englishToggle">
             <input type="checkbox" checked={showEnglish} onChange={(e) => setProgress({ ...progress, settings: { ...progress.settings, showEnglish: e.target.checked } })} /> English
           </label>
@@ -315,7 +319,7 @@ export default function LessonPage() {
               <div className="stepNav">
                 <button type="button" className="secondary" onClick={() => setQuizResult(null)}>Retake</button>
                 {quizResult.score >= PASS && lesson.position.next && <Link href={`/course/lesson/${lesson.position.next}`} className="primary buttonLike">Next lesson →</Link>}
-                {quizResult.score >= PASS && !lesson.position.next && <Link href="/course" className="primary buttonLike">Back to the course</Link>}
+                {quizResult.score >= PASS && !lesson.position.next && <Link href={lesson.track ? `/course/track/${lesson.track.id}` : "/course"} className="primary buttonLike">{lesson.track ? "Back to the track" : "Back to the course"}</Link>}
                 {quizResult.score >= PASS && lesson.unit.test && <Link href="/course" className="secondary buttonLike">Course home</Link>}
               </div>
             </div>

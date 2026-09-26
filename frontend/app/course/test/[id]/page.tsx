@@ -61,7 +61,7 @@ export default function TestPage() {
       <main className="shell">
         <p className="crumbs"><Link href="/course">← Course</Link></p>
         <section className="card">
-          <p className="eyebrow">UNIT TEST · ATTEMPT {attempt}</p>
+          <p className="eyebrow">{id.startsWith("gate-") ? "READING GATE" : "UNIT TEST"} · ATTEMPT {attempt}</p>
           <h1 lang="grc" className="testTitle">{test.title_grc}</h1>
           <p className="lede">{test.blurb}</p>
           <ul className="testMeta">

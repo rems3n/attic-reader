@@ -365,7 +365,7 @@ export async function pullProgress<T>(code: string): Promise<{ saved_at: number;
 // Course
 // ---------------------------------------------------------------------------
 
-import type { CourseIndex, CourseTest, ImageRecord, Item, Lesson, Placement, Response as ItemResponse } from "./course";
+import type { CourseIndex, CourseTest, ImageRecord, Item, Lesson, Placement, Response as ItemResponse, TrackDetail } from "./course";
 
 export async function getCourse(): Promise<CourseIndex> {
   const response = await fetch(`${API_BASE}/api/course`);
@@ -391,6 +391,40 @@ export async function getDrill(skills: string[], scope: string, n = 8, seed = 0)
   if (!response.ok) throw new Error(await getError(response));
   const body = await response.json();
   return body.items ?? [];
+}
+
+export async function getTrack(id: string): Promise<TrackDetail> {
+  const response = await fetch(`${API_BASE}/api/course/track/${encodeURIComponent(id)}`);
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}
+
+// ---------------------------------------------------------------------------
+// Guided reading: which lexicon words a text uses
+// ---------------------------------------------------------------------------
+
+export type AnalyzedEntry = { id: string; lemma: string; short: string; rank: number; source: string; count: number };
+export type Analysis = {
+  words: number;
+  names: number;
+  matched: number;
+  /** share of non-name word tokens that are forms of a lexicon word */
+  coverage: number;
+  /** the same, DCC core list only */
+  dcc_coverage: number;
+  entries: AnalyzedEntry[];
+  unknown: { text: string; count: number }[];
+};
+export type LibraryCoverage = Record<string, { coverage: number; dcc_coverage: number; words: number; unknown: number }>;
+
+export function analyzeText(text: string): Promise<Analysis> {
+  return postJson("/api/analyze", { text });
+}
+
+export async function getLibraryCoverage(): Promise<LibraryCoverage> {
+  const response = await fetch(`${API_BASE}/api/analyze/library`);
+  if (!response.ok) throw new Error(await getError(response));
+  return (await response.json()).passages ?? {};
 }
 
 export async function getPlacement(seed: number): Promise<Placement> {

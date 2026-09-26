@@ -482,9 +482,11 @@ audio { width: 100%; display: block; }
 .dot.planned { border-style: dashed; }
 .unitTest { margin-top: 6px; font-size: 13px; }
 .testLink { color: var(--accent); font-weight: 500; text-decoration: none; }
-.trackGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 12px; }
-.trackTile { padding: 12px 14px; border-radius: 10px; border: var(--outline); background: transparent; display: grid; gap: 4px; }
-.trackTitle { font-family: var(--serif); font-size: 18px; font-weight: 400; }
+.trackGrid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.unitTile.trackTile { text-decoration: none; color: inherit; }
+.unitTile.trackTile.locked { color: var(--muted); }
+.unitTile.trackTile:hover { border-color: var(--accent); }
+.unitTile.chosen { box-shadow: inset 0 0 0 1px var(--accent); }
 .skillBars { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 8px; }
 .skillBars li { display: grid; grid-template-columns: 140px 1fr auto; gap: 10px; align-items: center; font-size: 15px; }
 
@@ -666,3 +668,32 @@ audio { width: 100%; display: block; }
 .pic-thumb .diagramBody { padding: 2px; }
 .passageGlosses { margin: 0; display: flex; flex-wrap: wrap; gap: 4px 14px; color: var(--muted); }
 .passageGlosses [lang="grc"] { color: var(--ink); font-family: var(--serif); }
+
+/* track page */
+.trackLadder { list-style: none; margin: 18px 0; padding: 0; display: grid; gap: 10px; }
+.ladderItem > a, .ladderItem > div { display: flex; gap: 12px; align-items: flex-start; padding: 14px; border-radius: 12px; border: var(--outline); background: var(--card); color: inherit; text-decoration: none; }
+.ladderItem.open > a { border-color: var(--accent); }
+.ladderItem.open > a:hover { background: var(--accent-2); }
+.ladderItem.locked > div { background: transparent; color: var(--muted); }
+.ladderItem .dot { margin-top: 3px; flex: none; }
+.ladderText { display: grid; gap: 3px; min-width: 0; }
+.ladderTop { display: flex; justify-content: space-between; gap: 8px; }
+.ladderTitle { font-family: var(--serif); font-size: 19px; }
+.ladderItem.open .unitLabel { color: var(--accent); }
+.doneMark { color: var(--ok); }
+.trackTexts { margin: 8px 0 0; padding-left: 0; list-style: none; display: grid; gap: 6px; font-size: 15px; }
+.trackTexts .muted { display: inline-block; width: 1.4em; }
+.trackWords { list-style: none; margin: 10px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 6px 14px; }
+.trackWords li { display: flex; gap: 8px; align-items: center; font-size: 15px; min-width: 0; }
+.trackWordLemma { font-family: var(--serif); font-size: 17px; color: var(--ink); text-decoration: none; white-space: nowrap; }
+.trackWords .muted { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* guided reading: word coverage under the text */
+.coverage { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+.coverageStats { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; }
+.coverageStats > div { display: grid; gap: 2px; }
+.coverageStats strong { font-family: var(--serif); font-size: 22px; font-weight: 400; color: var(--accent); }
+.coverageStats span { font-size: 13px; color: var(--muted); line-height: 1.35; }
+.coverageLists { margin-top: 10px; }
+.unknownWords { font-family: var(--serif); font-size: 16px; line-height: 1.6; margin: 6px 0 0; }
+.coverageLine { margin-top: 10px; }

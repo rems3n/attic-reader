@@ -177,7 +177,15 @@ export default function VocabPage() {
     saveProgress(progress);
   }, [progress]);
 
-  const deck = useMemo(() => (index ? index.items.filter((i) => matches(i, filters)) : []), [index, filters]);
+  // ?words=id,id&from=label: a deck of given words (a reading's new words, a track list)
+  const [only, setOnly] = useState<{ ids: Set<string>; from: string } | null>(null);
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search);
+    const words = q.get("words");
+    if (words) setOnly({ ids: new Set(words.split(",").filter(Boolean)), from: q.get("from") ?? "a list" });
+  }, []);
+
+  const deck = useMemo(() => (index ? index.items.filter((i) => matches(i, filters) && (!only || only.ids.has(i.id))) : []), [index, filters, only]);
 
   const { direction, cardTypes: extras, sessionSize } = progress.settings;
   const keys = useMemo(() => {
@@ -468,6 +476,13 @@ export default function VocabPage() {
           </div>
           <span className="badge">{deck.length} words</span>
         </div>
+        {only && (
+          <div className="chips">
+            <button type="button" className="chip on" onClick={() => { setOnly(null); window.history.replaceState(null, "", "/vocab"); }}>
+              Words from {only.from} <span className="chipCount">{only.ids.size}</span> ✕
+            </button>
+          </div>
+        )}
         <h3 className="chipTitle">Topic</h3>
         <div className="chips">
           {f.topics.map((t) => (

@@ -3,7 +3,7 @@
  * what to suggest today. Pure functions over the course index and progress.
  */
 
-import type { CourseIndex, LessonSummary, Unit } from "./course";
+import type { CourseIndex, LessonSummary, Track, Unit } from "./course";
 import type { CourseProgress, LessonStatus } from "./progress";
 
 const HOUR = 3600 * 1000;
@@ -13,6 +13,8 @@ export const REREAD_DAYS = [1, 3, 7, 21];
 export function lessonStatus(course: CourseIndex, progress: CourseProgress, id: string): LessonStatus {
   const stored = progress.lessons[id];
   if (stored && stored.status !== "locked") return stored.status;
+  const track = trackOf(course, id);
+  if (track) return trackLessonStatus(progress, track, id);
   const order = course.lesson_order;
   const idx = order.indexOf(id);
   if (idx <= 0) return "open";
@@ -28,6 +30,7 @@ export function lessonStatus(course: CourseIndex, progress: CourseProgress, id: 
 
 export function findLesson(course: CourseIndex, id: string): LessonSummary | null {
   for (const s of course.stages) for (const u of s.units) for (const l of u.lessons) if (l.id === id) return l;
+  for (const t of course.tracks ?? []) for (const l of t.lessons) if (l.id === id) return l;
   return null;
 }
 
@@ -99,4 +102,59 @@ export function formatWait(ms: number): string {
   if (h < 1) return "a few minutes";
   if (h < 24) return `${h} h`;
   return `${Math.ceil(h / 24)} d`;
+}
+
+// ------------------------------------------------------------------ tracks
+
+function finished(progress: CourseProgress, id: string): boolean {
+  const s = progress.lessons[id]?.status;
+  return s === "done" || s === "skipped";
+}
+
+export function trackOf(course: CourseIndex, lessonId: string): Track | null {
+  return (course.tracks ?? []).find((t) => t.lessons.some((l) => l.id === lessonId)) ?? null;
+}
+
+/** A track lesson opens when the main-course lesson it builds on is finished
+ * (9.4 for the side readings 1–3, 12.4 for the rest) and the track's
+ * previous authored lesson is done. Tracks never wait on each other. */
+export function trackLessonStatus(progress: CourseProgress, track: Track, id: string): LessonStatus {
+  const stored = progress.lessons[id];
+  if (stored && stored.status !== "locked") return stored.status;
+  const idx = track.lessons.findIndex((l) => l.id === id);
+  const summary = track.lessons[idx];
+  if (!summary?.available) return "locked";
+  if (!finished(progress, summary.requires ?? track.full_after)) return "locked";
+  for (let i = idx - 1; i >= 0; i -= 1) {
+    if (!track.lessons[i].available) continue;
+    return finished(progress, track.lessons[i].id) ? "open" : "locked";
+  }
+  return "open";
+}
+
+/** The track as a unit, so the gate follows the unit-test rules (all lessons
+ * done, then a day's wait). */
+export function trackAsUnit(track: Track): Unit {
+  return { id: track.id, n: 0, title_grc: track.title_grc, title_en: track.title_en, lessons: track.lessons, test: track.gate, test_available: track.gate_available };
+}
+
+export function trackGate(course: CourseIndex, progress: CourseProgress, track: Track, now: number): TestGate {
+  return testGate(course, progress, trackAsUnit(track), now);
+}
+
+export type TrackState = {
+  /** locked: before 9.4 · side: lessons 1–3 open · open: all open · done: every authored lesson done */
+  state: "locked" | "side" | "open" | "done";
+  done: number;
+  total: number;
+  next: string | null;
+};
+
+export function trackState(progress: CourseProgress, track: Track): TrackState {
+  const authored = track.lessons.filter((l) => l.available);
+  const done = authored.filter((l) => progress.lessons[l.id]?.status === "done").length;
+  const inProgress = authored.find((l) => progress.lessons[l.id]?.status === "in-progress");
+  const next = inProgress?.id ?? authored.find((l) => trackLessonStatus(progress, track, l.id) === "open")?.id ?? null;
+  const state = authored.length > 0 && done === authored.length ? "done" : finished(progress, track.full_after) ? "open" : finished(progress, track.side_after) ? "side" : "locked";
+  return { state, done, total: authored.length, next };
 }

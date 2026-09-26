@@ -259,5 +259,6 @@ export function strictAccentsFor(settings: Settings, lessonId: string): boolean 
   if (settings.accents === "strict") return true;
   if (settings.accents === "lenient") return false;
   const unit = Number(lessonId.split(".")[0]);
-  return Number.isFinite(unit) && unit >= 4;
+  if (!Number.isFinite(unit)) return true; // track lessons (myth.1, gate scopes) come after Unit 9
+  return unit >= 4;
 }
