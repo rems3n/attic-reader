@@ -38,7 +38,7 @@ echo "== doctor" | tee "$LOG"
 
 ONLY=()
 [ $# -gt 0 ] && ONLY=(--only "$@")
-"$PY" -u scripts/build_images.py all "${ONLY[@]}" 2>&1 | tee -a "$LOG"
+"$PY" -u scripts/build_images.py all ${ONLY[@]+"${ONLY[@]}"} 2>&1 | tee -a "$LOG"
 "$PY" scripts/build_images.py report 2>&1 | tail -n 5 | tee -a "$LOG"
 cd ..
 

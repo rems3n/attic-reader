@@ -232,7 +232,8 @@ def met_verify(ref: str) -> dict:
 def met_search(query: str) -> list[str]:
     q = urllib.parse.quote(query)
     # departmentId 13 = Greek and Roman Art: the course wants Greek objects only
-    res = http_json(f"https://collectionapi.metmuseum.org/public/collection/v1/search?departmentId=13&q={q}&hasImages=true&isPublicDomain=true")
+    # the Met's search reads its filters only before q (q last); public domain is checked per object
+    res = http_json(f"https://collectionapi.metmuseum.org/public/collection/v1/search?departmentId=13&hasImages=true&q={q}")
     return [str(i) for i in (res.get("objectIDs") or [])[:40]]
 
 
@@ -306,7 +307,8 @@ def commons_verify(ref: str) -> dict:
     pages = http_json(f"https://commons.wikimedia.org/w/api.php?{q}")["query"]["pages"]
     page = next(iter(pages.values()))
     info = (page.get("imageinfo") or [{}])[0]
-    meta = {k: re.sub(r"<[^>]+>", "", (v or {}).get("value", "")).strip() for k, v in (info.get("extmetadata") or {}).items()}
+    # extmetadata values are usually HTML strings but can be numbers or lists
+    meta = {k: re.sub(r"<[^>]+>", "", str((v or {}).get("value", "") if isinstance(v, dict) else v or "")).strip() for k, v in (info.get("extmetadata") or {}).items()}
     lic = meta.get("LicenseShortName") or meta.get("License") or ""
     ok = license_ok(lic) and bool(info.get("url"))
     artist = meta.get("Artist") or meta.get("Credit") or "unknown author"
@@ -343,7 +345,7 @@ SEARCHERS = {"met": met_search, "cma": cma_search, "aic": aic_search, "commons":
 DOCTOR = DATA / "doctor.json"
 PROBES = {
     "met_api": "https://collectionapi.metmuseum.org/public/collection/v1/objects/248483",
-    "met_search": "https://collectionapi.metmuseum.org/public/collection/v1/search?departmentId=13&q=kylix&hasImages=true",
+    "met_search": "https://collectionapi.metmuseum.org/public/collection/v1/search?departmentId=13&hasImages=true&q=kylix",
     "met_image": "https://images.metmuseum.org/CRDImages/gr/original/DT281.jpg",
     "cma_api": "https://openaccess-api.clevelandart.org/api/artworks/?q=kylix&limit=1&cc0=1",
     "commons_api": "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=kylix&srnamespace=6&srlimit=2&format=json",

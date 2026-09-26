@@ -151,3 +151,11 @@ def test_unreachable_host_is_skipped_after_repeated_failures(monkeypatch):
     with pytest.raises(RuntimeError, match="unreachable"):
         bi.http_json("https://example.org/api")
     assert len(calls) == n  # no further network calls
+
+
+def test_commons_verify_handles_numeric_metadata(monkeypatch):
+    page = {"imageinfo": [{"url": "https://upload.wikimedia.org/a.jpg", "thumburl": "https://upload.wikimedia.org/t.jpg", "descriptionurl": "https://commons.wikimedia.org/wiki/File:A.jpg",
+                           "extmetadata": {"LicenseShortName": {"value": "CC BY-SA 4.0"}, "Artist": {"value": "<a href='x'>Someone</a>"}, "DateTime": {"value": 2019.5}, "Assessments": {"value": ""}, "Odd": 3}}]}
+    monkeypatch.setattr(bi, "http_json", lambda url, retries=4: {"query": {"pages": {"1": page}}})
+    info = bi.commons_verify("File:A.jpg")
+    assert info["ok"] and info["license"] == "CC BY-SA 4.0" and "Someone" in info["credit"]
