@@ -1,0 +1,112 @@
+{
+  "note": "Originals for the philosophy track (phil.1–7, gate-phil). Built by scripts/build_course_texts.py --only <ids> into course_data/texts/<id>.json. Plato is cited by Stephanus page (the Perseus editions divide by page only).",
+  "passages": [
+    {
+      "id": "plato-apol-21a",
+      "category": "philosophy",
+      "level": "intermediate",
+      "title": "Chaerephon asks the oracle",
+      "author": "Plato",
+      "work": "Apology",
+      "ref": "21a–c",
+      "blurb": "Chaerephon asks at Delphi whether anyone is wiser than Socrates; Socrates sets out to test the god's answer.",
+      "file": "tlg0059/tlg002/tlg0059.tlg002.perseus-grc2.xml",
+      "urn": "urn:cts:greekLit:tlg0059.tlg002.perseus-grc2",
+      "refs": ["21"],
+      "max_sentences": 13
+    },
+    {
+      "id": "plato-euthyphro-2a",
+      "category": "philosophy",
+      "level": "intermediate",
+      "title": "Meeting at the King's Porch",
+      "author": "Plato",
+      "work": "Euthyphro",
+      "ref": "2a–c",
+      "blurb": "Euthyphro finds Socrates at the King Archon's porch: someone has brought a public charge against him.",
+      "file": "tlg0059/tlg001/tlg0059.tlg001.perseus-grc1.xml",
+      "urn": "urn:cts:greekLit:tlg0059.tlg001.perseus-grc1",
+      "refs": ["2"],
+      "max_sentences": 16
+    },
+    {
+      "id": "xen-mem-1.1.10",
+      "category": "philosophy",
+      "level": "intermediate",
+      "title": "Always in public",
+      "author": "Xenophon",
+      "work": "Memorabilia",
+      "ref": "1.1.10, 1.1.16",
+      "blurb": "Where Socrates spent his days, and the questions he always asked: what is just, what is unjust?",
+      "file": "tlg0032/tlg002/tlg0032.tlg002.perseus-grc2.xml",
+      "urn": "urn:cts:greekLit:tlg0032.tlg002.perseus-grc2",
+      "refs": ["1.1.10", "1.1.16"]
+    },
+    {
+      "id": "plato-meno-82a",
+      "category": "philosophy",
+      "level": "intermediate",
+      "title": "The slave boy and the square",
+      "author": "Plato",
+      "work": "Meno",
+      "ref": "82a–e",
+      "blurb": "Socrates questions Meno's slave about a square, to show that learning is recollection.",
+      "file": "tlg0059/tlg024/tlg0059.tlg024.perseus-grc2.xml",
+      "urn": "urn:cts:greekLit:tlg0059.tlg024.perseus-grc2",
+      "refs": ["82"]
+    },
+    {
+      "id": "plato-rep-360a",
+      "category": "philosophy",
+      "level": "intermediate",
+      "title": "The ring of Gyges",
+      "author": "Plato",
+      "work": "Republic",
+      "ref": "2.360a–c",
+      "blurb": "Glaucon's story of the shepherd who finds a ring of invisibility, and what a just man would do with it.",
+      "file": "tlg0059/tlg030/tlg0059.tlg030.perseus-grc2.xml",
+      "urn": "urn:cts:greekLit:tlg0059.tlg030.perseus-grc2",
+      "refs": ["2.360"],
+      "max_sentences": 6
+    },
+    {
+      "id": "plato-phaedo-117a",
+      "category": "philosophy",
+      "level": "intermediate",
+      "title": "The cup of hemlock",
+      "author": "Plato",
+      "work": "Phaedo",
+      "ref": "117a–e",
+      "blurb": "The poison is brought; Socrates prays, drinks it calmly, and scolds his weeping friends.",
+      "file": "tlg0059/tlg004/tlg0059.tlg004.perseus-grc2.xml",
+      "urn": "urn:cts:greekLit:tlg0059.tlg004.perseus-grc2",
+      "refs": ["117"]
+    },
+    {
+      "id": "plato-phaedo-118a",
+      "category": "philosophy",
+      "level": "intermediate",
+      "title": "The death of Socrates",
+      "author": "Plato",
+      "work": "Phaedo",
+      "ref": "118a",
+      "blurb": "Socrates' last words, a cock for Asclepius, and Phaedo's judgement of his friend.",
+      "file": "tlg0059/tlg004/tlg0059.tlg004.perseus-grc2.xml",
+      "urn": "urn:cts:greekLit:tlg0059.tlg004.perseus-grc2",
+      "refs": ["118"]
+    },
+    {
+      "id": "xen-apol-14",
+      "category": "philosophy",
+      "level": "intermediate",
+      "title": "Xenophon's oracle",
+      "author": "Xenophon",
+      "work": "Apology of Socrates",
+      "ref": "14–16",
+      "blurb": "Xenophon's version of the Delphic answer: no one freer, juster or more self-controlled than Socrates.",
+      "file": "tlg0032/tlg005/tlg0032.tlg005.perseus-grc2.xml",
+      "urn": "urn:cts:greekLit:tlg0032.tlg005.perseus-grc2",
+      "refs": ["14", "15", "16"]
+    }
+  ]
+}

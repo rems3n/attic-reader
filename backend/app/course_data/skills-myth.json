@@ -1,0 +1,8 @@
+{
+ "skills": [
+  {"id": "read.myth.apollodorus", "label": "Reading Apollodorus: participle chains and δέ-narrative"},
+  {"id": "read.myth.variants", "label": "Variant versions of a myth (ὡς ἔνιοι λέγουσι, φασί)"},
+  {"id": "read.myth.lucian", "label": "Reading Lucian: Atticist dialogue of the gods"},
+  {"id": "vocab.myth", "label": "Mythology track vocabulary"}
+ ]
+}
