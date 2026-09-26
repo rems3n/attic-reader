@@ -540,3 +540,146 @@ def course_index() -> dict:
         "families": load_skills()["families"],
         "lesson_order": main_lesson_ids(),
     }
+
+
+# ------------------------------------------------------ skills and error items
+# The skills grid (/course/skills) asks where a skill is taught; the mistakes
+# deck (/course/review?mode=mistakes) rebuilds items the learner got wrong.
+
+def skill_detail(skill_id: str) -> dict:
+    """A skill with the lessons (main course and tracks) whose `skills` list
+    names it, its paradigm and whether the drill generator can make items."""
+    from .drill import supported
+
+    known = load_skills()["by_id"].get(skill_id)
+    lessons = []
+    for lid in lesson_ids():
+        if not lesson_available(lid):
+            continue
+        raw = load_lesson(lid)
+        if skill_id in raw.get("skills", []):
+            track = track_of(lid)
+            lessons.append({"id": lid, "title_grc": raw["title_grc"], "title_en": raw["title_en"], "track": track["id"] if track else None})
+    if not known and not lessons:
+        raise CourseError(f"no skill {skill_id!r}")
+    record = _skill_record(skill_id)
+    record["family"] = skill_id.split(".")[0]
+    return {"skill": record, "lessons": lessons, "paradigm": record["paradigm"], "drillable": supported(skill_id)}
+
+
+@lru_cache(maxsize=1)
+def _item_index() -> dict[str, list[dict]]:
+    """Authored item id → every place it occurs (a lesson's questions and quiz
+    share the `q` prefix, so one id can name two items)."""
+    out: dict[str, list[dict]] = {}
+    for lid in lesson_ids():
+        if not lesson_available(lid):
+            continue
+        raw = load_lesson(lid)
+        for block in ("exercises", "questions", "quiz"):
+            for item in raw.get(block, []):
+                out.setdefault(item["id"], []).append({"item": item, "kind": "lesson", "owner": lid, "block": block, "scope": lid})
+    for path in sorted((DATA_DIR / "tests").glob("*.json")):
+        test = load_test(path.stem)
+        for section in test.get("sections", []):
+            for item in section.get("items", []):
+                out.setdefault(item["id"], []).append({"item": item, "kind": "test", "owner": test["id"], "block": section["id"], "scope": test["scope"], "section": section})
+    return out
+
+
+def _item_context(hit: dict) -> dict | None:
+    """What an item needs on screen to make sense outside its lesson/test:
+    the story for comprehension questions, the passage for a reading section."""
+    if hit["kind"] == "lesson" and hit["block"] == "questions":
+        lesson = load_lesson(hit["owner"])
+        text = "\n".join(s["text"] for para in lesson.get("story", []) for s in para.get("sentences", []))
+        return {"kind": "story", "title": lesson["title_grc"], "text": text} if text else None
+    section = hit.get("section")
+    if section and (section.get("passage") or section.get("passage_from")):
+        text = section.get("passage")
+        if not text:
+            try:
+                text = " ".join(original_record(section["passage_from"])["sentences"])
+            except CourseError:
+                return None
+        return {"kind": "passage", "title": section.get("passage_title") or section.get("title"), "text": text, "glosses": section.get("glosses")}
+    return None
+
+
+def _valid_scope(lesson_id: str | None) -> str | None:
+    if not lesson_id:
+        return None
+    try:
+        vocab_scope(lesson_id)
+    except (CourseError, ValueError):
+        return None
+    return lesson_id
+
+
+def _generated_plan(item_id: str, lesson: str | None, skills: list[str] | None, fallback_scope: str | None) -> tuple[list[str], str] | None:
+    """Skills and scope for fresh items standing in for a generated item that
+    cannot be rebuilt: a test's generated section names its skills; otherwise
+    the skills the client recorded, else the drillable skills of the lesson
+    (or of the lessons before it)."""
+    from .drill import supported
+
+    owner, _, local = item_id.rpartition(":")
+    if owner and (DATA_DIR / "tests" / f"{owner}.json").exists():
+        test = load_test(owner)
+        for section in test.get("sections", []):
+            gen = section.get("generate")
+            if gen and re.fullmatch(re.escape(section["id"]) + r"g\d+", local):
+                return [s for s in gen["skills"] if supported(s)], test["scope"]
+        return None  # an authored test item that no longer exists
+    if owner and owner in lesson_ids():
+        return None  # an authored lesson item that no longer exists
+    scope = _valid_scope(lesson) or _valid_scope(fallback_scope)
+    if not scope:
+        return None
+    wanted = [s for s in (skills or []) if supported(s)]
+    if wanted:
+        return wanted, scope
+    for lid in reversed(lessons_before(scope)):
+        own = [s for s in load_lesson(lid).get("skills", []) if supported(s)]
+        if own:
+            return own[:4], scope
+    return None
+
+
+def items_by_ref(refs: list[dict], fallback_scope: str | None = None, seed: int = 0) -> dict:
+    """Rebuild the items behind error-log entries.
+
+    Each ref is `{id, key?, lesson?, skills?}`. An authored item comes back as
+    it is (every candidate when its id is ambiguous) with `source` = the ref's
+    key, `origin` and, when it needs one, `context`. A generated item cannot be
+    rebuilt, so one fresh drill item on the same skills stands in for it
+    (`origin.generated`). Refs that yield nothing are listed in `missing`."""
+    from .drill import generate
+
+    index = _item_index()
+    items: list[dict] = []
+    missing: list[str] = []
+    for k, ref in enumerate(refs):
+        item_id = str(ref.get("id") or "")
+        key = str(ref.get("key") or item_id)
+        hits = index.get(item_id, [])
+        if hits:
+            for hit in hits:
+                out = dict(hit["item"])
+                out["source"] = key
+                out["origin"] = {"kind": hit["kind"], "id": hit["owner"], "block": hit["block"], "scope": hit["scope"], "generated": False}
+                ctx = _item_context(hit)
+                if ctx:
+                    out["context"] = ctx
+                items.append(out)
+            continue
+        plan = _generated_plan(item_id, ref.get("lesson"), ref.get("skills"), fallback_scope) if item_id else None
+        fresh = generate(plan[0], 1, vocab_scope(plan[1]), seed=seed * 1009 + k, prefix=f"mistake{k + 1}-") if plan and plan[0] else []
+        if not fresh:
+            missing.append(key)
+            continue
+        for out in fresh:
+            out["source"] = key
+            out["origin"] = {"kind": "drill", "id": plan[1], "block": None, "scope": plan[1], "generated": True}  # type: ignore[index]
+            items.append(out)
+    return {"items": items, "missing": missing}

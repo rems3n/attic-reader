@@ -6,6 +6,7 @@ import { getCourse, getCourseImages } from "../../lib/api";
 import { familyMastery, weakSkills, type CourseIndex, type ImageRecord } from "../../lib/course";
 import { completedCount, findLesson, formatWait, lessonStatus, nextLesson, rereadSuggestion, testGate, trackOf, trackState } from "../../lib/courseState";
 import { loadProgress, saveProgress, streakDays, type Progress } from "../../lib/progress";
+import { mistakeCount } from "../../lib/skills";
 import { isNew } from "../../lib/srs";
 
 export default function CourseHome() {
@@ -30,6 +31,8 @@ export default function CourseHome() {
   const dueCards = useMemo(() => Object.values(progress.cards).filter((c) => !isNew(c) && c.due <= now).length, [progress.cards, now]);
   const reread = course ? rereadSuggestion(course, cp, now) : null;
   const weak = weakSkills(cp.skills, 4);
+  const mistakes = mistakeCount(cp.errors);
+  const metSkills = Object.values(cp.skills).filter((s) => s.total > 0).length;
   const families = familyMastery(cp.skills);
   const streak = streakDays(cp, now);
   const todayMinutes = cp.activity.find((a) => a.day === new Date(now).toISOString().slice(0, 10))?.minutes ?? 0;
@@ -89,6 +92,14 @@ export default function CourseHome() {
           <li>
             {weak.length ? <Link href="/course/review">Review quiz</Link> : <span className="muted">Review quiz</span>}
             <strong>{weak.length ? `${weak.length} skills` : "—"}</strong>
+          </li>
+          <li>
+            {mistakes ? <Link href="/course/review?mode=mistakes">Mistakes</Link> : <span className="muted">Mistakes</span>}
+            <strong>{mistakes || "—"}</strong>
+          </li>
+          <li>
+            <Link href="/course/skills">Skills</Link>
+            <strong>{metSkills ? `${metSkills} met` : "—"}</strong>
           </li>
         </ul>
         {weak.length > 0 && <p className="muted small">Weakest: {weak.map(skillLabel).join(" · ")}</p>}

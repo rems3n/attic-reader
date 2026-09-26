@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f6f4ee">
+<title>Offline · Attic Reader</title>
+<style>
+  :root {
+    color-scheme: light;
+    --ink: #1c2024;
+    --muted: #5a6168;
+    --paper: #f6f4ee;
+    --card: #ffffff;
+    --line: #dcd8ce;
+    --accent: #4e6136;
+    --accent-2: #e6ebdc;
+    --serif: "Literata", "Noto Serif", Georgia, "Times New Roman", serif;
+    --sans: "IBM Plex Sans", ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { background: var(--paper); }
+  body { margin: 0; color: var(--ink); font-family: var(--sans); line-height: 1.5; }
+  main { width: min(560px, calc(100% - 32px)); margin: 0 auto; padding: calc(56px + env(safe-area-inset-top, 0px)) 0 48px; }
+  .eyebrow { margin: 0 0 10px; font-size: 12px; font-weight: 500; letter-spacing: 0.12em; color: var(--accent); text-transform: uppercase; }
+  h1 { margin: 0 0 18px; font-family: var(--serif); font-weight: 400; font-size: 34px; line-height: 1.1; }
+  p { margin: 0 0 14px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px; margin-top: 22px; }
+  .card h2 { margin: 0 0 10px; font-size: 15px; font-weight: 600; }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li + li { border-top: 1px solid var(--line); }
+  a.row { display: block; padding: 10px 2px; color: var(--ink); text-decoration: none; }
+  a.row:hover, a.row:focus-visible { color: var(--accent); }
+  .muted { color: var(--muted); font-size: 14px; }
+  .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 22px; }
+  button, .button { font: inherit; border-radius: 10px; padding: 10px 16px; cursor: pointer; text-decoration: none; }
+  .primary { background: var(--accent); color: #fff; border: 1px solid var(--accent); }
+  .secondary { background: var(--card); color: var(--ink); border: 1px solid var(--line); }
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">Attic Reader</p>
+  <h1>You are offline</h1>
+  <p>This page has not been opened on this device yet, so it is not saved. Lessons you have opened before, their pictures and the audio you already played still work without signal.</p>
+  <p class="muted">Reading a photo (OCR) and making new audio need a connection.</p>
+  <div class="actions">
+    <button class="primary" type="button" onclick="location.reload()">Try again</button>
+    <a class="button secondary" href="/course">Course</a>
+  </div>
+  <section class="card" id="saved" hidden>
+    <h2>Saved on this device</h2>
+    <ul id="savedList"></ul>
+  </section>
+</main>
+<script>
+  // List the pages the service worker has cached, so the learner can go
+  // straight to something that works offline.
+  (async () => {
+    if (!("caches" in window)) return;
+    const labels = { "/": "Read", "/course": "Course", "/vocab": "Vocabulary", "/grammar": "Grammar" };
+    const seen = new Map();
+    try {
+      for (const name of await caches.keys()) {
+        if (!/^attic-pages-/.test(name)) continue;
+        const cache = await caches.open(name);
+        for (const req of await cache.keys()) {
+          const u = new URL(req.url);
+          if (u.origin !== location.origin || u.pathname === location.pathname) continue;
+          const path = u.pathname + u.search;
+          if (seen.has(u.pathname)) continue;
+          let label = labels[u.pathname];
+          const lesson = u.pathname.match(/^\/course\/lesson\/([^/]+)$/);
+          const word = u.pathname.match(/^\/vocab\/([^/]+)$/);
+          const table = u.pathname.match(/^\/grammar\/([^/]+)$/);
+          if (lesson) label = "Lesson " + decodeURIComponent(lesson[1]);
+          else if (word) label = "Word · " + decodeURIComponent(word[1]);
+          else if (table) label = "Grammar · " + decodeURIComponent(table[1]);
+          seen.set(u.pathname, { path, label: label || u.pathname });
+        }
+      }
+    } catch (e) {
+      return;
+    }
+    if (!seen.size) return;
+    const order = (p) => (p.startsWith("/course/lesson/") ? 0 : p in labels ? 1 : 2);
+    const list = document.getElementById("savedList");
+    [...seen.entries()]
+      .sort((a, b) => order(a[0]) - order(b[0]) || a[0].localeCompare(b[0], undefined, { numeric: true }))
+      .forEach(([, item]) => {
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.className = "row";
+        a.href = item.path;
+        a.textContent = item.label;
+        li.appendChild(a);
+        list.appendChild(li);
+      });
+    document.getElementById("saved").hidden = false;
+  })();
+</script>
+</body>
+</html>

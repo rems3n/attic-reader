@@ -295,6 +295,33 @@ def course_track(track_id: str) -> dict[str, object]:
         raise HTTPException(status_code=404, detail=f"No track {track_id!r}.")
 
 
+@app.get("/api/course/skill/{skill_id}")
+def course_skill(skill_id: str) -> dict[str, object]:
+    """A skill: the lessons that teach it, its paradigm, whether it can be drilled."""
+    try:
+        return course_data.skill_detail(skill_id)
+    except course_data.CourseError:
+        raise HTTPException(status_code=404, detail=f"No skill {skill_id!r}.")
+
+
+class ItemsRequest(BaseModel):
+    ids: list[str] = []
+    # richer refs from the error log: {id, key?, lesson?, skills?}
+    refs: list[dict] = []
+    scope: str | None = None
+    seed: int = 0
+
+
+@app.post("/api/course/items")
+def course_items(request: ItemsRequest) -> dict[str, object]:
+    """Authored items by id (for the mistakes deck); generated ones are
+    replaced by fresh drill items on the same skills."""
+    refs = [{"id": i} for i in request.ids] + list(request.refs)
+    if len(refs) > 60:
+        raise HTTPException(status_code=422, detail="At most 60 items per request.")
+    return course_data.items_by_ref(refs, fallback_scope=request.scope, seed=request.seed)
+
+
 class AnalyzeRequest(BaseModel):
     text: str
 

@@ -446,3 +446,25 @@ export type CheckFeedback = { lemma?: string; cell?: string; label?: string }[];
 export function checkItem(item: Item, response: ItemResponse, accents: boolean, scope?: string): Promise<{ correct: boolean; feedback?: CheckFeedback }> {
   return postJson("/api/course/check", { item, response, accents, scope });
 }
+
+export type SkillDetail = {
+  skill: { id: string; label: string; paradigm: string | null; family: string };
+  lessons: { id: string; title_grc: string; title_en: string; track: string | null }[];
+  paradigm: string | null;
+  /** the drill generator can make items for it (Practise) */
+  drillable: boolean;
+};
+
+export async function getCourseSkill(id: string): Promise<SkillDetail> {
+  const response = await fetch(`${API_BASE}/api/course/skill/${encodeURIComponent(id)}`);
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}
+
+export type ItemRef = { id: string; key?: string; lesson?: string; skills?: string[] };
+
+/** Rebuild error-log items: authored ones by id, generated ones as fresh
+ * drill items on the same skills. `missing` lists refs that yield nothing. */
+export function getCourseItems(refs: ItemRef[], scope: string | null, seed = 0): Promise<{ items: import("./skills").DeckItem[]; missing: string[] }> {
+  return postJson("/api/course/items", { refs, scope, seed });
+}

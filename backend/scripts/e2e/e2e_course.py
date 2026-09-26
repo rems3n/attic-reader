@@ -24,8 +24,8 @@ import urllib.request
 
 from playwright.sync_api import Page, expect, sync_playwright
 
-FRONT = "http://localhost:3000"
-API = "http://localhost:8000"
+FRONT = os.environ.get("E2E_FRONT", "http://localhost:3000").rstrip("/")
+API = os.environ.get("E2E_API", "http://localhost:8000").rstrip("/")
 SHOTS = os.environ.get("E2E_SHOTS", tempfile.mkdtemp(prefix="attic-e2e-"))
 CHROME = os.environ.get("E2E_CHROME")  # e.g. /opt/pw-browsers/chromium-1194/chrome-linux/chrome
 

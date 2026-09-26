@@ -12,6 +12,7 @@ import { SpeakButton, useSpeaker } from "../../../../components/Speak";
 import { getCourse, getCourseImages, getDrill, getLesson } from "../../../../lib/api";
 import { hashString, keyText, scoreOf, updateSkill, weakSkills, type CourseIndex, type ImageRecord, type Item, type Lesson } from "../../../../lib/course";
 import { addError, bumpActivity, loadProgress, saveProgress, setLesson, strictAccentsFor, type Progress } from "../../../../lib/progress";
+import { prefetchLesson } from "../../../../lib/offline";
 
 const PASS = 0.75;
 const SPEEDS = [0.6, 0.75, 1] as const;
@@ -70,6 +71,11 @@ export default function LessonPage() {
   }, [id, search]);
 
   useEffect(() => saveProgress(progress), [progress]);
+
+  // Offline: warm the service worker's caches for this lesson (JSON, pictures, story audio at 0.75×).
+  useEffect(() => {
+    if (lesson?.id) void prefetchLesson(lesson.id, lesson);
+  }, [lesson]);
 
   // Steps that apply to this lesson (alphabet lessons have no words/questions).
   const steps = useMemo(() => {

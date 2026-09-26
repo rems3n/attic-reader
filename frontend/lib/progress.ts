@@ -32,7 +32,18 @@ export type LessonStatus = "locked" | "open" | "in-progress" | "done" | "skipped
 export type LessonProgress = { status: LessonStatus; best: number; attempts: number; step?: number; firstDone?: number; lastDone?: number; updated: number };
 export type TestAttempt = { at: number; score: number; misses: string[] };
 export type TestProgress = { attempts: TestAttempt[]; passedAt?: number; retakeDue?: number; updated: number };
-export type ErrorEntry = { item: string; lesson: string; answer: string; at: number };
+export type ErrorEntry = {
+  item: string;
+  lesson: string;
+  answer: string;
+  at: number;
+  /** skills of the missed item (recorded by review drills, whose ids are not rebuildable) */
+  skills?: string[];
+  /** mistakes deck: correct answers in a row since the miss */
+  right?: number;
+  /** mistakes deck: when the item left the deck (answered right twice in a row) */
+  cleared?: number;
+};
 
 export type CourseProgress = {
   track?: string;
@@ -183,8 +194,7 @@ export function mergeCourse(a: CourseProgress, b: CourseProgress): CourseProgres
   for (const [k, v] of Object.entries(b.tests)) if (!tests[k] || v.updated > tests[k].updated) tests[k] = v;
   const skills = { ...a.skills };
   for (const [k, v] of Object.entries(b.skills)) if (!skills[k] || v.total > skills[k].total || (v.total === skills[k].total && v.last > skills[k].last)) skills[k] = v;
-  const seen = new Set(a.errors.map((e) => `${e.item}|${e.at}`));
-  const errors = [...a.errors, ...b.errors.filter((e) => !seen.has(`${e.item}|${e.at}`))].sort((x, y) => x.at - y.at).slice(-MAX_ERRORS);
+  const errors = mergeErrors(a.errors, b.errors);
   const rereads = { ...a.rereads };
   for (const [k, v] of Object.entries(b.rereads)) rereads[k] = [...new Set([...(rereads[k] ?? []), ...v])].sort();
   const activityByDay = new Map(a.activity.map((x) => [x.day, x]));
@@ -194,6 +204,27 @@ export function mergeCourse(a: CourseProgress, b: CourseProgress): CourseProgres
   }
   const activity = [...activityByDay.values()].sort((x, y) => x.day.localeCompare(y.day)).slice(-90);
   return { ...a, ...b, lessons, tests, skills, errors, rereads, activity, goal: a.goal ?? b.goal, track: a.track ?? b.track };
+}
+
+/** Union two error logs by `(item, at)`; the same entry on both sides keeps
+ * the longer mistakes-deck run and the earliest `cleared` mark. */
+export function mergeErrors(a: ErrorEntry[], b: ErrorEntry[]): ErrorEntry[] {
+  const byKey = new Map<string, ErrorEntry>();
+  for (const e of [...a, ...b]) {
+    const k = `${e.item}|${e.at}`;
+    const cur = byKey.get(k);
+    if (!cur) {
+      byKey.set(k, e);
+      continue;
+    }
+    const right = Math.max(cur.right ?? 0, e.right ?? 0);
+    const cleared = cur.cleared != null && e.cleared != null ? Math.min(cur.cleared, e.cleared) : cur.cleared ?? e.cleared;
+    const merged: ErrorEntry = { ...cur };
+    if (right) merged.right = right;
+    if (cleared != null) merged.cleared = cleared;
+    byKey.set(k, merged);
+  }
+  return [...byKey.values()].sort((x, y) => x.at - y.at).slice(-MAX_ERRORS);
 }
 
 // --------------------------------------------------------------------- sync

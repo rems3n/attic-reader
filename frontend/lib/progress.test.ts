@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { updateSkill } from "./course";
-import { emptyCourse, mergeCourse, migrateProgress, recordTest, setLesson, streakDays, strictAccentsFor, DEFAULT_SETTINGS } from "./progress";
+import { emptyCourse, mergeCourse, mergeErrors, migrateProgress, recordTest, setLesson, streakDays, strictAccentsFor, DEFAULT_SETTINGS } from "./progress";
 
 describe("progress v2", () => {
   it("migrates a v1 document", () => {
@@ -32,6 +32,24 @@ describe("progress v2", () => {
     expect(m.skills["s"].total).toBe(2);
     expect(m.errors).toHaveLength(2);
     expect(mergeCourse(b, a).lessons["1.1"].status).toBe("done");
+  });
+  it("keeps old error entries through migration and merges mistakes-deck marks", () => {
+    const old = migrateProgress({ version: 2, cards: {}, log: [], course: { errors: [{ item: "1.1:e1", lesson: "1.1", answer: '"a"', at: 5 }] } } as never);
+    expect(old.course.errors).toEqual([{ item: "1.1:e1", lesson: "1.1", answer: '"a"', at: 5 }]);
+    expect(old.course.errors[0].cleared).toBeUndefined();
+    const base = { item: "1.1:e1", lesson: "1.1", answer: '"a"', at: 5 };
+    const a = { ...emptyCourse(), errors: [{ ...base, right: 1 }] };
+    const b = { ...emptyCourse(), errors: [{ ...base, right: 2, cleared: 40 }, { item: "2.1:e3", lesson: "2.1", answer: "[]", at: 7 }] };
+    for (const m of [mergeCourse(a, b), mergeCourse(b, a)]) {
+      expect(m.errors).toHaveLength(2);
+      expect(m.errors[0]).toMatchObject({ item: "1.1:e1", right: 2, cleared: 40 });
+      expect(m.errors[1].cleared).toBeUndefined();
+    }
+    // the earlier clearing wins when both sides cleared the entry
+    const c = { ...emptyCourse(), errors: [{ ...base, right: 2, cleared: 30 }] };
+    expect(mergeCourse(b, c).errors[0].cleared).toBe(30);
+    // plain entries with no marks stay plain
+    expect(mergeErrors([base], [base])).toEqual([base]);
   });
   it("streak and accent policy", () => {
     const day = 86400000;

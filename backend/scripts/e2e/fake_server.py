@@ -14,7 +14,10 @@ os.environ.setdefault("PROGRESS_DIR", tempfile.mkdtemp(prefix="e2e-progress-"))
 os.environ["ENABLE_KOKORO"] = "true"
 os.environ["KOKORO_WARMUP"] = "false"
 os.environ["LIBRARY_PRERENDER"] = "false"
-os.environ["CORS_ORIGINS"] = "http://localhost:3000,http://127.0.0.1:3000"
+PORT = int(os.environ.get("E2E_API_PORT", "8000"))
+# E2E_FRONT (e.g. http://localhost:3100) adds a frontend origin besides :3000.
+_extra = os.environ.get("E2E_FRONT", "").rstrip("/")
+os.environ["CORS_ORIGINS"] = ",".join(filter(None, ["http://localhost:3000", "http://127.0.0.1:3000", _extra]))
 
 from conftest import FakePipeline  # noqa: E402
 from app.tts.kokoro import KokoroAtticTTS  # noqa: E402
@@ -27,4 +30,4 @@ import uvicorn  # noqa: E402
 from app.main import app  # noqa: E402
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=8000, log_level="warning")
+    uvicorn.run(app, host="127.0.0.1", port=PORT, log_level="warning")
