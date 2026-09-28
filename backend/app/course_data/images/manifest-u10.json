@@ -259,12 +259,12 @@
   {
    "id": "culture-10-4-lekythos",
    "kind": "culture",
-   "file": null,
+   "file": "course/pics/culture-10-4-lekythos.webp",
    "alt_grc": "λήκυθος λευκή",
-   "alt_en": "White-ground funerary lekythos with Hermes or Charon and small winged souls, Athens, later 5th century BC (target: museum CC0 image).",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "White-ground funerary lekythos showing Hermes, Charon and a youth, attributed to the Sabouroff Painter, c. 450 BC (Metropolitan Museum)",
+   "credit": "Terracotta lekythos (oil flask) · Sabouroff Painter · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/251043",
    "words": []
   },
   {

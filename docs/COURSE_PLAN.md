@@ -347,8 +347,10 @@ deck; OCR of the learner's own Athenaze/Loeb pages (exists).
 ### 3.2 Images
 
 **Decision: Creative Commons only, one visual identity.** Every image is
-CC0, CC BY or CC BY-SA (or our own work released CC BY-SA). No generated
-imagery, no all-rights-reserved stock. The brand ethos is "Attic pottery":
+CC0, CC BY or CC BY-SA (or our own work released CC BY-SA). Original AI-generated illustrations are also permitted by the owner’s September 2026
+art-direction update. They must be visually reviewed, clearly credited as
+interpretive teaching illustrations, and accompanied by saved prompts and provenance.
+No all-rights-reserved stock. The brand ethos is "Attic pottery":
 the terracotta, black and cream of red-figure and black-figure ware, so
 museum photographs, our own drawings and the UI palette read as one thing.
 

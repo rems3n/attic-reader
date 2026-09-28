@@ -11,7 +11,7 @@
  *     (POST /api/synthesize/stream, the NDJSON path the story reader plays
  *     from): cache-first under a synthetic GET key derived from the request
  *     body, since Cache Storage cannot key on a POST;
- *   - course pictures under /course/pics/: cache-first.
+ *   - course photos and original illustrations: cache-first.
  * Never cached: /api/progress/*, /api/ocr, /api/synthesize, /api/synthesize/batch,
  * /api/course/check and every other POST. When the network is down those
  * get a JSON 503 whose `detail` the app shows as its error text.
@@ -21,16 +21,16 @@
  */
 "use strict";
 
-const VERSION = "v3";
+const VERSION = "v4";
 const PREFIX = "attic-";
 const CACHES = {
   shell: `${PREFIX}shell-${VERSION}`,
   pages: `${PREFIX}pages-${VERSION}`,
   static: `${PREFIX}static-${VERSION}`,
-  api: `${PREFIX}api-v1`,
+  api: `${PREFIX}api-v2`,
   audio: `${PREFIX}audio-v1`,
   stream: `${PREFIX}stream-v1`,
-  images: `${PREFIX}images-v1`,
+  images: `${PREFIX}images-v2`,
 };
 const LIMITS = { pages: 80, static: 500, api: 400, audio: 400, stream: 40, images: 600 };
 const MAX_STREAM_CHARS = 16 * 1024 * 1024; // one very long pasted passage at most
@@ -175,7 +175,7 @@ self.addEventListener("fetch", (event) => {
       event.respondWith(cacheFirst(event, req, CACHES.static, LIMITS.static));
       return;
     }
-    if (url.pathname.startsWith("/course/pics/")) {
+    if (url.pathname.startsWith("/course/pics/") || url.pathname.startsWith("/course/illustrations/")) {
       event.respondWith(cacheFirst(event, req, CACHES.images, LIMITS.images));
       return;
     }

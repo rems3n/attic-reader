@@ -1,5 +1,5 @@
 {
- "_about": "Every image the course references. Placeholders (license 'placeholder') render as a cream panel with the Greek caption until the Creative Commons image pass replaces them (docs/COURSE_PLAN.md §3.2). Real entries need file, credit, license (CC0 / CC BY / CC BY-SA), source_url.",
+ "_about": "Course photographs, original educational illustrations and diagrams. Every published raster has a file and credit. Original AI illustrations have matching prompt, review and hash records in illustrations.json; museum photographs retain their source and licence.",
  "images": [
   {
    "id": "alphabet-chart",
@@ -60,11 +60,11 @@
   {
    "id": "anthropos",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/anthropos.webp",
    "alt_grc": "ὁ ἄνθρωπος",
    "alt_en": "A person",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ἄνθρωπος"
@@ -73,11 +73,11 @@
   {
    "id": "aner",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/aner.webp",
    "alt_grc": "ὁ ἀνήρ",
    "alt_en": "A man",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ἀνήρ"
@@ -86,11 +86,11 @@
   {
    "id": "gyne",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/gyne.webp",
    "alt_grc": "ἡ γυνή",
    "alt_en": "A woman",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "γυνή"
@@ -99,11 +99,11 @@
   {
    "id": "pais",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/pais.webp",
    "alt_grc": "ὁ παῖς",
    "alt_en": "A child, a boy",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "παῖς"
@@ -125,11 +125,11 @@
   {
    "id": "kyon",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/kyon.webp",
    "alt_grc": "ὁ κύων",
    "alt_en": "A dog",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "κύων"
@@ -151,11 +151,11 @@
   {
    "id": "oikos",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/oikos.webp",
    "alt_grc": "ὁ οἶκος",
    "alt_en": "A house",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "οἶκος",
@@ -165,11 +165,11 @@
   {
    "id": "agora",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/agora.webp",
    "alt_grc": "ἡ ἀγορά",
    "alt_en": "The agora, a market square with stoas",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ἀγορά"
@@ -178,11 +178,11 @@
   {
    "id": "polis",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/polis.webp",
    "alt_grc": "ἡ πόλις",
    "alt_en": "A city with walls and an acropolis",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "πόλις"
@@ -191,11 +191,11 @@
   {
    "id": "thalatta",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/thalatta.webp",
    "alt_grc": "ἡ θάλαττα",
    "alt_en": "The sea",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "θάλαττα"
@@ -204,11 +204,11 @@
   {
    "id": "helios",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/helios.webp",
    "alt_grc": "ὁ ἥλιος",
    "alt_en": "The sun",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ἥλιος"
@@ -217,11 +217,11 @@
   {
    "id": "selene",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/selene.webp",
    "alt_grc": "ἡ σελήνη",
    "alt_en": "The moon",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "σελήνη"
@@ -230,11 +230,11 @@
   {
    "id": "ge",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/ge.webp",
    "alt_grc": "ἡ γῆ",
    "alt_en": "The earth, land",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "γῆ"
@@ -243,11 +243,11 @@
   {
    "id": "ouranos",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/ouranos.webp",
    "alt_grc": "ὁ οὐρανός",
    "alt_en": "The sky",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "οὐρανός"
@@ -256,11 +256,11 @@
   {
    "id": "dendron",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/dendron.webp",
    "alt_grc": "τὸ δένδρον",
    "alt_en": "A tree",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "δένδρον"
@@ -269,11 +269,11 @@
   {
    "id": "anthos",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/anthos.webp",
    "alt_grc": "τὸ ἄνθος",
    "alt_en": "A flower",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ἄνθος"
@@ -282,11 +282,11 @@
   {
    "id": "pyr",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/pyr.webp",
    "alt_grc": "τὸ πῦρ",
    "alt_en": "Fire",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "πῦρ"
@@ -295,11 +295,11 @@
   {
    "id": "hydor",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/hydor.webp",
    "alt_grc": "τὸ ὕδωρ",
    "alt_en": "Water",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ὕδωρ"
@@ -308,11 +308,11 @@
   {
    "id": "biblion",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/biblion.webp",
    "alt_grc": "τὸ βιβλίον",
    "alt_en": "A papyrus scroll",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "βιβλίον"
@@ -334,11 +334,11 @@
   {
    "id": "thea",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/thea.webp",
    "alt_grc": "ἡ θεά",
    "alt_en": "A goddess (Athena with helmet and owl)",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "θεά"
@@ -347,11 +347,11 @@
   {
    "id": "kerameus",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/kerameus.webp",
    "alt_grc": "ὁ κεραμεύς",
    "alt_en": "A potter at the wheel",
-   "credit": "placeholder (target: CC0 vase detail)",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "κεραμεύς"
@@ -360,11 +360,11 @@
   {
    "id": "nautes",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/nautes.webp",
    "alt_grc": "ὁ ναύτης",
    "alt_en": "A sailor on a ship",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ναύτης"
@@ -373,11 +373,11 @@
   {
    "id": "georgos",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/georgos.webp",
    "alt_grc": "ὁ γεωργός",
    "alt_en": "A farmer ploughing",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "γεωργός"
@@ -386,11 +386,11 @@
   {
    "id": "ergasterion",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/panel-1-2-b.webp",
    "alt_grc": "τὸ ἐργαστήριον",
    "alt_en": "A potter's workshop with a kiln",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ἐργαστήριον"
@@ -399,11 +399,11 @@
   {
    "id": "megas-mikros",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/megas-mikros.webp",
    "alt_grc": "μέγας ↔ μικρός",
    "alt_en": "A big jar next to a small one",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "μέγας",
@@ -426,11 +426,11 @@
   {
    "id": "trochos",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/trochos.webp",
    "alt_grc": "ὁ τροχός",
    "alt_en": "A potter's wheel",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "τροχός"
@@ -439,11 +439,11 @@
   {
    "id": "pelos",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/pelos.webp",
    "alt_grc": "ὁ πηλός",
    "alt_en": "A lump of clay",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "πηλός"
@@ -465,11 +465,11 @@
   {
    "id": "artos",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/artos.webp",
    "alt_grc": "ὁ ἄρτος",
    "alt_en": "A loaf of bread",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ἄρτος"
@@ -478,11 +478,11 @@
   {
    "id": "lithos",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/lithos.webp",
    "alt_grc": "ὁ λίθος",
    "alt_en": "A stone",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "λίθος"
@@ -491,11 +491,11 @@
   {
    "id": "hodos",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/hodos.webp",
    "alt_grc": "ἡ ὁδός",
    "alt_en": "A road",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ὁδός"
@@ -504,11 +504,11 @@
   {
    "id": "doron",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/doron.webp",
    "alt_grc": "τὸ δῶρον",
    "alt_en": "A gift",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "δῶρον"
@@ -517,11 +517,11 @@
   {
    "id": "thyra",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/thyra.webp",
    "alt_grc": "ἡ θύρα",
    "alt_en": "A door",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "θύρα"
@@ -530,11 +530,11 @@
   {
    "id": "krene",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/krene.webp",
    "alt_grc": "ἡ κρήνη",
    "alt_en": "A fountain house",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "κρήνη"
@@ -556,11 +556,11 @@
   {
    "id": "kline",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/kline.webp",
    "alt_grc": "ἡ κλίνη",
    "alt_en": "A couch",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "κλίνη"
@@ -569,11 +569,11 @@
   {
    "id": "hemera",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/hemera.webp",
    "alt_grc": "ἡ ἡμέρα",
    "alt_en": "Daytime, the sun over the city",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ἡμέρα"
@@ -582,11 +582,11 @@
   {
    "id": "verb-ponei",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/kerameus.webp",
    "alt_grc": "πονεῖ",
    "alt_en": "A man working at a wheel",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "πονέω"
@@ -595,11 +595,11 @@
   {
    "id": "verb-pherei",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/panel-1-4-b.webp",
    "alt_grc": "φέρει",
    "alt_en": "Someone carrying a jar",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "φέρω"
@@ -608,11 +608,11 @@
   {
    "id": "verb-bainei",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/anthropos.webp",
    "alt_grc": "βαίνει",
    "alt_en": "Someone walking",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "βαίνω"
@@ -621,11 +621,11 @@
   {
    "id": "verb-trechei",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/kyon.webp",
    "alt_grc": "τρέχει",
    "alt_en": "A dog running",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "τρέχω"
@@ -634,11 +634,11 @@
   {
    "id": "verb-katheudei",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/verb-katheudei.webp",
    "alt_grc": "καθεύδει",
    "alt_en": "Someone asleep",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "καθεύδω"
@@ -647,11 +647,11 @@
   {
    "id": "verb-legei",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/verb-legei.webp",
    "alt_grc": "λέγει",
    "alt_en": "Someone speaking",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "λέγω"
@@ -660,11 +660,11 @@
   {
    "id": "verb-echei",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/verb-echei.webp",
    "alt_grc": "ἔχει",
    "alt_en": "Someone holding a cup",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ἔχω"
@@ -673,11 +673,11 @@
   {
    "id": "verb-hora",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/verb-hora.webp",
    "alt_grc": "ὁρᾷ",
    "alt_en": "An eye, someone looking",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ὁράω"
@@ -686,11 +686,11 @@
   {
    "id": "verb-akouei",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/verb-akouei.webp",
    "alt_grc": "ἀκούει",
    "alt_en": "An ear, someone listening",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ἀκούω"
@@ -699,11 +699,11 @@
   {
    "id": "verb-zetei",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/verb-zetei.webp",
    "alt_grc": "ζητεῖ",
    "alt_en": "Someone searching",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ζητέω"
@@ -712,11 +712,11 @@
   {
    "id": "verb-lambanei",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/verb-lambanei.webp",
    "alt_grc": "λαμβάνει",
    "alt_en": "A hand taking a loaf",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "λαμβάνω"
@@ -725,11 +725,11 @@
   {
    "id": "verb-heuriskei",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/verb-heuriskei.webp",
    "alt_grc": "εὑρίσκει",
    "alt_en": "Someone finding a coin",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "εὑρίσκω"
@@ -738,11 +738,11 @@
   {
    "id": "verb-philei",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/verb-philei.webp",
    "alt_grc": "φιλεῖ",
    "alt_en": "A mother embracing a child",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "φιλέω"
@@ -751,11 +751,11 @@
   {
    "id": "verb-kalei",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/verb-kalei.webp",
    "alt_grc": "καλεῖ",
    "alt_en": "Someone calling out",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "καλέω"
@@ -764,11 +764,11 @@
   {
    "id": "verb-hyphainei",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/panel-1-4-a.webp",
    "alt_grc": "ὑφαίνει",
    "alt_en": "A woman at a loom",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ὑφαίνω"
@@ -777,111 +777,111 @@
   {
    "id": "panel-1-1-a",
    "kind": "story",
-   "file": null,
+   "file": "course/illustrations/panel-1-1-a.webp",
    "alt_grc": "ὁ Ἀρίστων καὶ ἡ Χρυσίς",
    "alt_en": "Ariston the potter and Chrysis outside their house",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": []
   },
   {
    "id": "panel-1-1-b",
    "kind": "story",
-   "file": null,
+   "file": "course/illustrations/panel-1-1-b.webp",
    "alt_grc": "ὁ Λύσις, ἡ Ἐλπὶς καὶ ὁ Λάβρος",
    "alt_en": "Lysis, Elpis and the dog Labros",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": []
   },
   {
    "id": "panel-1-2-a",
    "kind": "story",
-   "file": null,
+   "file": "course/illustrations/panel-1-2-a.webp",
    "alt_grc": "ἐν τῷ ἐργαστηρίῳ",
    "alt_en": "Ariston at the wheel, Syros carrying clay",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": []
   },
   {
    "id": "panel-1-2-b",
    "kind": "story",
-   "file": null,
+   "file": "course/illustrations/panel-1-2-b.webp",
    "alt_grc": "ὁ Λάβρος καθεύδει",
    "alt_en": "The dog asleep by the kiln",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": []
   },
   {
    "id": "panel-1-3-a",
    "kind": "story",
-   "file": null,
+   "file": "course/illustrations/panel-1-3-a.webp",
    "alt_grc": "ἐν τῇ ἀγορᾷ",
    "alt_en": "Lysis and Labros among the stalls of the agora",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": []
   },
   {
    "id": "panel-1-3-b",
    "kind": "story",
-   "file": null,
+   "file": "course/illustrations/panel-1-3-b.webp",
    "alt_grc": "ὁ Λάβρος τὸν ἄρτον λαμβάνει",
    "alt_en": "Labros stealing a loaf",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": []
   },
   {
    "id": "panel-1-4-a",
    "kind": "story",
-   "file": null,
+   "file": "course/illustrations/panel-1-4-a.webp",
    "alt_grc": "ἡ Χρυσὶς ὑφαίνει",
    "alt_en": "Chrysis at the loom in the courtyard",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": []
   },
   {
    "id": "panel-1-4-b",
    "kind": "story",
-   "file": null,
+   "file": "course/illustrations/panel-1-4-b.webp",
    "alt_grc": "ἡ Ἐλπὶς πρὸς τὴν κρήνην",
    "alt_en": "Elpis carrying a water jar to the fountain house",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": []
   },
   {
    "id": "culture-kerameikos",
    "kind": "culture",
-   "file": null,
+   "file": "course/pics/culture-kerameikos.webp",
    "alt_grc": "ὁ Κεραμεικός",
    "alt_en": "The Kerameikos today, with the Dipylon gate",
-   "credit": "placeholder (target: Wikimedia Commons, CC BY-SA)",
-   "license": "placeholder",
-   "source_url": null,
+   "credit": "Kerameikos Dipylon gate from S · Mark Landon (photographed in 1992; digitized in 2021) · Wikimedia Commons (CC BY 4.0)",
+   "license": "CC BY 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Kerameikos_Dipylon_gate_from_S.jpg",
    "words": []
   },
   {
    "id": "culture-potter-vase",
    "kind": "culture",
-   "file": null,
+   "file": "course/pics/culture-potter-vase.webp",
    "alt_grc": "κεραμεὺς ἐν τῷ ἐργαστηρίῳ",
    "alt_en": "A potter at work, black-figure hydria detail",
-   "credit": "placeholder (target: CC0 museum image)",
-   "license": "placeholder",
-   "source_url": null,
+   "credit": "Leagros Group - ABV 362 36 - potter´s workshop - Aineas escaping from Troy - München AS 1717 - 03 · ArchaiOptix · Wikimedia Commons (CC BY-SA 4.0)",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Leagros_Group_-_ABV_362_36_-_potter%C2%B4s_workshop_-_Aineas_escaping_from_Troy_-_M%C3%BCnchen_AS_1717_-_03.jpg",
    "words": []
   },
   {
@@ -899,12 +899,12 @@
   {
    "id": "culture-fountain-hydria",
    "kind": "culture",
-   "file": null,
+   "file": "course/pics/culture-fountain-hydria.webp",
    "alt_grc": "γυναῖκες πρὸς τῇ κρήνῃ",
    "alt_en": "Women at a fountain house, black-figure hydria",
-   "credit": "placeholder (target: CC0 museum image)",
-   "license": "placeholder",
-   "source_url": null,
+   "credit": "Terracotta hydria (water jar) · Class of Hamburg 1917.477 · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/247244",
    "words": []
   },
   {

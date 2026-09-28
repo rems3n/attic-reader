@@ -22,7 +22,7 @@ export default function CreditsPage() {
     for (const img of images) out.set(img.kind, [...(out.get(img.kind) ?? []), img]);
     return [...out.entries()].sort(([a], [b]) => a.localeCompare(b));
   }, [images]);
-  const real = images.filter((i) => i.license !== "placeholder" && i.file);
+  const real = images.filter((i) => i.license !== "placeholder" && (i.file || i.svg));
 
   const crumbs = [{ label: "Learn", href: "/learn" }, { label: "Image credits" }];
   if (error) return <PageError message={error} crumbs={crumbs} back={{ href: "/learn", label: "Back to the course" }} />;
@@ -33,7 +33,7 @@ export default function CreditsPage() {
       <section className="hero">
         <p className="eyebrow">IMAGE CREDITS</p>
         <h1>Pictures in the course</h1>
-        <p className="lede">All pictures are Creative Commons: CC0 and public-domain photographs from museum open-access programmes, CC BY / CC BY-SA photographs from Wikimedia Commons with their authors' names, and our own diagrams released CC BY-SA. {real.length} of {images.length} pictures are in place; the rest show a placeholder panel.</p>
+        <p className="lede">Museum and Wikimedia photographs have their source, author and licence listed below. Original AI-generated illustrations are interpretive teaching scenes, not photographs of historical artifacts. Our own diagrams are released CC BY-SA. {real.length} of {images.length} pictures are in place; the rest show a placeholder panel.</p>
       </section>
         {groups.map(([kind, list]) => (
           <section key={kind} className="card">

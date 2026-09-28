@@ -193,3 +193,51 @@ def test_inventory_distinguishes_missing_file_review_and_missing_source(tmp_path
     (out / 'ready.webp').write_bytes(b'ready')
     report = bi.cmd_inventory([{'id': i} for i in ['candidate', 'missing', 'ready']])
     assert report['counts'] == {'verified_not_processed': 1, 'downloaded_needs_review': 1, 'no_source_row': 1, 'ready': 1, 'diagram': 1}
+
+
+def test_museum_retry_preserves_original_illustration(tmp_path, monkeypatch):
+    monkeypatch.setattr(bi, 'DATA', tmp_path)
+    monkeypatch.setattr(bi, 'VERIFIED', tmp_path / 'verified.json')
+    record = {'id': 'dog', 'license': 'Original AI illustration',
+              'file': 'course/illustrations/dog.webp', 'credit': 'Attic Reader'}
+    bi.save_json(tmp_path / 'manifest.json', {'images': [record]})
+    assert bi.cmd_manifest([{'id': 'dog'}]) == 0
+    assert bi.load_json(tmp_path / 'manifest.json', {})['images'] == [record]
+
+
+def test_original_illustrations_have_valid_reviewed_files():
+    import hashlib
+    from PIL import Image
+    originals = bi.load_json(bi.DATA / 'illustrations.json', {})
+    records = bi.manifest_records()
+    for image_id, entry in originals.items():
+        path = bi.ROOT.parent / 'frontend/public' / entry['file']
+        assert entry['prompt'] and entry['review'] and entry['generator']
+        assert records[image_id][1]['file'] == entry['file']
+        assert records[image_id][1]['license'] == 'Original AI illustration'
+        assert hashlib.sha256(path.read_bytes()).hexdigest() == entry['sha256']
+        with Image.open(path) as image:
+            assert image.width >= 600 and image.height >= 400
+            image.verify()
+
+
+def test_picture_choices_do_not_share_the_same_published_image():
+    records = bi.manifest_records()
+
+    def check(node, source):
+        if isinstance(node, dict):
+            files = []
+            for option in node.get('options', []):
+                if isinstance(option, dict) and option.get('image') in records:
+                    record = records[option['image']][1]
+                    if record.get('file') and record.get('license') != 'placeholder':
+                        files.append(record['file'])
+            assert len(files) == len(set(files)), f'Duplicate picture choices in {source}'
+            for value in node.values():
+                check(value, source)
+        elif isinstance(node, list):
+            for value in node:
+                check(value, source)
+
+    for path in (bi.ROOT / 'app/course_data/lessons').glob('*.json'):
+        check(bi.load_json(path, {}), path.name)

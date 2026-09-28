@@ -6,9 +6,8 @@ import { DIAGRAMS } from "./diagrams";
 type Size = "panel" | "tile" | "thumb";
 
 /**
- * A course picture. Until the Creative Commons image pass lands, every image
- * in the manifest is a placeholder: a cream panel with its Greek caption.
- * Real images render from /course/pics with their credit on the badge.
+ * A course photograph, original illustration, diagram or pending image.
+ * Image provenance is available through the credit badge.
  */
 export default function Picture({ image, size = "panel", caption = true, className = "" }: { image: ImageRecord | null | undefined; size?: Size; caption?: boolean; className?: string }) {
   if (!image) return null;
@@ -45,7 +44,7 @@ export default function Picture({ image, size = "panel", caption = true, classNa
       {caption && size === "panel" && (
         <figcaption>
           <span lang="grc">{image.alt_grc}</span>
-          {placeholder ? <span className="picBadge">image coming · CC</span> : <a className="picBadge" href="/learn/credits" title={image.credit}>{image.license}</a>}
+          {placeholder ? <span className="picBadge">image coming</span> : <a className="picBadge" href="/learn/credits" title={image.credit}>{image.license === "Original AI illustration" ? "AI illustration" : image.license}</a>}
         </figcaption>
       )}
     </figure>

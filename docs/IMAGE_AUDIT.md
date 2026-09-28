@@ -60,3 +60,33 @@ downloads; the old numeric-metadata error did not reproduce.
 Final recovery inventory: **17 approved photos, 160 downloaded candidates awaiting
 review/replacement, 364 rows needing a verified source, 40 records without a
 source row**, plus 52 built-in diagrams. The image collection is still incomplete.
+
+## Original illustration pass — 2026-09-28
+
+The owner approved high-quality original illustrations, superseding the older
+no-generated-imagery direction. The opening manifest now has **zero placeholders**
+across its 74 image records, including all eight Unit 1 story panels.
+
+- 51 reviewed original illustrations fill 57 formerly empty image slots.
+- Five additional museum/site photographs fill exact cultural subjects: Dipylon
+  gate, Munich 1717 potter scene, Met 247244 fountain-house hydria, Met 253348
+  Amasis weaving lekythos, and Met 251043 funerary lekythos.
+- The funerary vessel caption now describes its actual figures and date.
+- Original illustration prompts, generator, review notes and SHA-256 hashes are
+  recorded in `backend/app/course_data/images/illustrations.json`.
+- Raster originals live in `frontend/public/course/illustrations`, separate from
+  museum candidates. The installer writes encoded WebP files atomically.
+- Museum retries preserve originals. Course validation requires matching original
+  provenance; credits identify interpretive AI illustrations explicitly.
+- 30 image-pipeline tests pass, including decoding, hashes and overwrite protection.
+- The previously rejected kiln scene was replaced with brick-and-clay closures.
+
+The full collection remains incomplete: **79 ready raster image records, 52
+built-in diagrams, 502 placeholders**. The complete current inventory is in
+`backend/app/course_data/images/inventory.json`. Future passes must retain the
+same subject-review standard; downloaded candidates are not automatically approved.
+
+The daytime image is distinct from the sun image, including when both appear in
+the same picture-choice quiz. A regression check rejects duplicate published
+pictures within a question. The final daytime illustration uses simpler gouache
+shapes and reduced detail, as requested for faster future generation.
