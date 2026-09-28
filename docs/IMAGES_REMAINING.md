@@ -2,7 +2,7 @@
 
 Snapshot: 2026-09-28. One row per app image record; some records share a file.
 
-Total: **502**.
+Total: **494**.
 
 Completed includes published photographs, original illustrations and built-in diagrams. Downloaded candidates awaiting review remain in the remaining list.
 
@@ -231,13 +231,10 @@ Completed includes published photographs, original illustrations and built-in di
 | culture-12-3-socrates-portrait | Culture | ὁ Σωκράτης. | Marble portrait head of Socrates, Roman copy of a Greek original of the fourth century BC (museum photograph, CC). |
 | culture-12-4-bendis-relief | Culture | ἡ Βενδῖς καὶ οἱ λαμπαδηφόροι. | Votive relief from the Piraeus, c. 400–375 BC (British Museum): the Thracian goddess Bendis receives a team of young torch-racers and their trainers (museum photograph, CC). |
 
-## manifest-u2 (46)
+## manifest-u2 (38)
 
 | Image ID | Type | Greek word / caption | Intended English meaning or scene |
 | --- | --- | --- | --- |
-| panel-2-1-a | Story | ἡ Χρυσὶς τὴν Ἐλπίδα καλεῖ. | Dawn in the courtyard: Chrysis at the couch, waking Elpis |
-| panel-2-1-b | Story | ὁ Λύσις τὸν πηλὸν φέρει, ὁ δὲ Λάβρος παίζει. | The workshop: Lysis carrying clay, Labros playing with a stone |
-| panel-2-1-c | Story | ἑσπέρα ἐστίν· ὁ Ἀρίστων ἄρτον ἐσθίει. | Evening: the family eats bread by lamplight; the moon over the courtyard |
 | panel-2-2-a | Story | ὁ Σύρος καὶ ἡ Θρᾷττα, οἱ δοῦλοι τοῦ Ἀρίστωνος. | Syros and Thratta at work in the courtyard; Ariston in the doorway |
 | panel-2-2-b | Story | αἱ κόραι ἐν τῇ κρήνῃ. | Thratta and Elpis with water jars at the fountain house, talking to other girls |
 | panel-2-2-c | Story | οἱ δοῦλοι τοῦ Δημοκρίτου ἐν τῷ ἀγρῷ πονοῦσιν. | Democritus's slaves in the field; Labros guarding the house door |
@@ -247,11 +244,6 @@ Completed includes published photographs, original illustrations and built-in di
 | panel-2-4-a | Story | ἡ Χρυσὶς καὶ ἡ Θρᾷττα τὸ δεῖπνον ποιοῦσιν. | Chrysis and Thratta laying a low table with bread, cheese and olives |
 | panel-2-4-b | Story | ὁ Ἀρίστων καλὴν κύλικα φέρει. | Ariston arriving with a painted cup; the family at dinner |
 | panel-2-4-c | Story | ὁ Λάβρος τὸν τυρὸν κλέπτει! | After dinner: Kleinias and Lysis talking; Labros running off with the cheese |
-| verb-speudei | Dictionary | σπεύδει | A girl hurrying with a jar |
-| verb-paizei | Dictionary | παίζει | A child playing with a ball |
-| verb-esthiei | Dictionary | ἐσθίει | Someone eating bread |
-| verb-pinei | Dictionary | πίνει | Someone drinking from a cup |
-| hespera | Dictionary | ἑσπέρα | Evening: the sun setting behind the hills, the first star |
 | doule | Dictionary | δούλη | A slave woman carrying a box (as on the Hegeso stele) |
 | despotes | Dictionary | δεσπότης | A master of the house with a staff |
 | agros | Dictionary | ἀγρός | A field with olive trees and a ploughman |

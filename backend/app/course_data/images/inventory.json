@@ -1,10 +1,10 @@
 {
  "counts": {
   "diagram": 52,
-  "downloaded_needs_review": 132,
-  "needs_source_verification": 330,
+  "downloaded_needs_review": 126,
+  "needs_source_verification": 328,
   "no_source_row": 40,
-  "ready": 79
+  "ready": 87
  },
  "images": [
   {
@@ -2296,9 +2296,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-2-1-a.webp",
    "id": "panel-2-1-a",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "The workshop: Lysis carrying clay, Labros playing with a stone",
@@ -2308,9 +2308,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-2-1-b.webp",
    "id": "panel-2-1-b",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Evening: the family eats bread by lamplight; the moon over the courtyard",
@@ -2320,9 +2320,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-2-1-c.webp",
    "id": "panel-2-1-c",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Syros and Thratta at work in the courtyard; Ariston in the doorway",
@@ -2440,9 +2440,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/verb-speudei.webp",
    "id": "verb-speudei",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A child playing with a ball",
@@ -2452,9 +2452,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/verb-paizei.webp",
    "id": "verb-paizei",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Someone eating bread",
@@ -2464,9 +2464,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/verb-esthiei.webp",
    "id": "verb-esthiei",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Someone drinking from a cup",
@@ -2476,9 +2476,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/verb-pinei.webp",
    "id": "verb-pinei",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Evening: the sun setting behind the hills, the first star",
@@ -2488,9 +2488,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/hespera.webp",
    "id": "hespera",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A slave woman carrying a box (as on the Hegeso stele)",

@@ -90,3 +90,10 @@ The daytime image is distinct from the sun image, including when both appear in
 the same picture-choice quiz. A regression check rejects duplicate published
 pictures within a question. The final daytime illustration uses simpler gouache
 shapes and reduced detail, as requested for faster future generation.
+
+
+## P1 lesson 2.1 batch — 2026-09-28
+
+Eight original gouache illustrations reviewed and installed: verb-speudei, verb-pinei, hespera, verb-esthiei, verb-paizei, panel-2-1-a, panel-2-1-b, panel-2-1-c. Prompts, subject reviews and hashes are in illustrations.json. Vocabulary actions are distinct in the lesson quiz; story cast and props match the lesson. 139 complete image records, 494 placeholders, 86 of the original 94 P1 gaps remain. Culture-astragaloi remains pending: a British Museum reference (1867,0510.1) was verified, but image generation rejected the sculpture study. No rejected output was installed.
+
+Image dashboard browser test now derives remaining story IDs from the catalog and compares the exact exported CSV ID set, replacing counts and example IDs that became stale as artwork was completed. Local image/catalog tests: 32 passed.

@@ -397,5 +397,61 @@
     "prompt": "Use case: historical-scene. Asset type: Ancient Greek language course illustration. One single premium educational illustration with naturalistic detail, warm cream, ochre, muted olive and restrained blue palette, clear visual storytelling and luminous natural light. Athens 432 BC, period appropriate linen/wool chitons, himations, sandals, plastered walls and terracotta tiles. No Roman togas, modern objects, text, labels, borders, collage or decorative insets. Landscape 3:2, main subject readable at thumbnail size. Do not add an Acropolis unless specified. Required subject: A medium tawny dog with cream chest and floppy ears curled up ASLEEP on dusty ground beside an ancient POTTERY KILN inside an open-sided potter's workshop. Dog's eyes closed, dog prominent foreground. Behind it: a simple domed clay-and-brick kiln, SMALL low stoking opening and upper loading opening sealed with rough stacked bricks and clay. NO metal door, no hinges, no modern oven fittings, no modern chimney. A low manual potter's wheel and shelves of earthenware visible at side, establishing workshop. No people. Dog safely away from any fire. Quiet warm light.",
     "review": "Viewed full-size: Sleeping tawny dog with closed eyes beside clay-and-brick kiln; bricked closures, no metal door. Pottery shelves and manual wheel establish workshop.",
     "sha256": "76d42cfdda265603ba04a1f1e359429d7efdf6e34a9a7a3e252b9a2f5259e223"
+  },
+  "verb-speudei": {
+    "file": "course/illustrations/verb-speudei.webp",
+    "generator": "ChatGPT built-in image generation",
+    "prompt": "A Greek girl in a terracotta ankle-length chiton hurrying briskly across a sunlit courtyard with a small clay water jar held safely in both arms. Dynamic forward stride, fabric trailing slightly, urgent expression. Focus unmistakably on hurrying. Simple elegant educational gouache illustration, classical Greek Athens circa 430 BC. Broad clean shapes, restrained detail, cream, warm ochre, terracotta and muted blue, polished painterly texture, clear readable silhouette. Landscape 3:2. No text, borders, modern objects, or extra scenes.",
+    "review": "Viewed: forward stride, trailing terracotta dress and jar held in both hands clearly convey hurrying; clean anatomy and period setting.",
+    "sha256": "0f16d91307b1c093dcba1587f63073ffe7e84c4210df75b9b0b4e3e62d620803"
+  },
+  "verb-pinei": {
+    "file": "course/illustrations/verb-pinei.webp",
+    "generator": "ChatGPT built-in image generation",
+    "prompt": "Close medium side view of a young Greek man in an ochre chiton seated on a low wooden stool, actively drinking from a plain clay cup: cup rim touches his lips and is slightly tilted. Quiet cream courtyard background, no food. Focus on the act of drinking. Simple elegant educational gouache illustration, classical Greek Athens circa 430 BC. Broad clean shapes, restrained detail, cream, warm ochre, terracotta and muted blue, polished painterly texture, clear readable silhouette. Landscape 3:2. No text, borders, modern objects, or extra scenes.",
+    "review": "Viewed: cup rim at lips and tilted cup clearly convey drinking, with no competing eating action.",
+    "sha256": "802cd3f32fc6f757e38f06ac653601039fa774d4b19de092e2c618d744975191"
+  },
+  "hespera": {
+    "file": "course/illustrations/hespera.webp",
+    "generator": "ChatGPT built-in image generation",
+    "prompt": "Evening over quiet ancient Greek houses with terracotta roofs. A small orange sun half disappears behind distant hills, sky grades from peach at horizon to dusky muted blue with one first bright star high above. Long cool shadows. No people. Clear sunset rather than full night. Simple elegant educational gouache illustration, classical Greek Athens circa 430 BC. Broad clean shapes, restrained detail, cream, warm ochre, terracotta and muted blue, polished painterly texture, clear readable silhouette. Landscape 3:2. No text, borders, modern objects, or extra scenes.",
+    "review": "Viewed: setting sun behind hills, warm horizon, cool sky and first star distinguish evening from daytime and night; interpretive cityscape.",
+    "sha256": "f647b1f80c780fd7b837d1ad2c49fe1f7b812cdd6faec1ecf07e847e318575e5"
+  },
+  "verb-esthiei": {
+    "file": "course/illustrations/verb-esthiei.webp",
+    "generator": "ChatGPT built-in image generation",
+    "prompt": "A young Greek woman with dark hair in a low bun, wearing a muted teal peplos, sitting in a quiet courtyard. Medium side view as she takes a bite from a torn piece of bread held against her open mouth. A bitten round loaf on a simple low table. Eating is unmistakable; no cups. Simple elegant educational gouache illustration in ancient Athens circa 430 BC. Broad clean shapes, minimal detail, cream plaster, warm ochre and muted blue, polished painterly texture. Landscape 3:2. No text, borders, modern objects or inset scenes.",
+    "review": "Viewed: bread at open mouth, torn loaf on table and no drinking props clearly convey eating.",
+    "sha256": "ef6707c248c54646bb4878f60d6f950e3a210f454749b9f66b52d811d665b935"
+  },
+  "verb-paizei": {
+    "file": "course/illustrations/verb-paizei.webp",
+    "generator": "ChatGPT built-in image generation",
+    "prompt": "A 10-year-old Greek boy with dark curls in an ochre knee-length chiton playing with a small stitched leather ball in a simple sunny courtyard. He joyfully tosses the ball upward, both hands visibly beneath the ball, eyes following it. Entire body, clear gap under airborne ball, no extra toys. Simple elegant educational gouache illustration in ancient Athens circa 430 BC. Broad clean shapes, minimal detail, cream plaster, warm ochre and muted blue, polished painterly texture. Landscape 3:2. No text, borders, modern objects or inset scenes.",
+    "review": "Viewed: child follows airborne stitched ball with both hands below it; clear playful action and coherent anatomy.",
+    "sha256": "e06d47a45c6d9b4a11dc76f408f0dfde6b297afb869c76d762d3594aa2753f17"
+  },
+  "panel-2-1-a": {
+    "file": "course/illustrations/panel-2-1-a.webp",
+    "generator": "ChatGPT built-in image generation",
+    "prompt": "Dawn in a modest ancient Greek home courtyard under a roofed porch. Chrysis, mother age35 dark hair in a low bun, cream peplos and muted teal wrap, gently wakes her daughter Elpis age9 with dark wavy tied-back hair. Elpis is sitting sleepily up on a simple low wooden couch with a cream blanket over her terracotta chiton. Mother leans beside the couch with one hand gently on daughter's shoulder. Only these two people, warm first dawn light, calm domestic scene. Simple elegant educational gouache illustration in ancient Athens circa 430 BC. Broad clean shapes, minimal detail, cream plaster, warm ochre and muted blue, polished painterly texture. Landscape 3:2. No text, borders, modern objects or inset scenes.",
+    "review": "Viewed: only Chrysis and Elpis, consistent cream/teal and terracotta clothes, mother touching child's shoulder at couch in dawn light.",
+    "sha256": "12610b664e311024fc94573e6e8219e4cd2016475f3fa0aee220132bc3422a05"
+  },
+  "panel-2-1-b": {
+    "file": "course/illustrations/panel-2-1-b.webp",
+    "generator": "ChatGPT built-in image generation",
+    "prompt": "Inside a modest Greek pottery workshop: Lysis, slim boy age12 dark curly hair and ochre knee-length chiton, carefully carries a large irregular lump of wet gray-brown clay in both arms. Beside him Labros, medium tawny dog with cream chest and floppy ears, playfully crouches pawing one small gray stone on the floor. In background Ariston, stocky father age40 short dark beard and rust-red work chiton, sits beside a simple potter's wheel with a clay pot. Clear distinction clay lump in boy's arms versus stone by dog, exactly two people and one dog. Simple elegant educational gouache illustration. Broad clean shapes, restrained detail, cream, warm ochre, terracotta and muted blue, polished painterly texture. Landscape 3:2. Modest domestic setting in classical Athens circa430BC, no monumental architecture. No text, borders or modern objects.",
+    "review": "Viewed: Lysis carries clay, Labros paws a separate small stone, Ariston works at potter's wheel; correct character clothing and two-person composition.",
+    "sha256": "f1855d9e6faf55f11b20e5439d93f110a8d77d0db200020e56aa3979d8404fa3"
+  },
+  "panel-2-1-c": {
+    "file": "course/illustrations/panel-2-1-c.webp",
+    "generator": "ChatGPT built-in image generation",
+    "prompt": "Evening family meal around a low wooden table in a modest Greek courtyard. Exactly four people: Ariston, stocky father40 short dark beard rust-red work chiton, eats a piece of bread; Chrysis mother35 dark low bun cream peplos teal wrap; Lysis boy12 dark curls ochre chiton; Elpis girl9 tied-back dark waves terracotta chiton, offering a little bread to Labros, medium tawny dog cream chest floppy ears beside her. Plain bread and clay cups on table, tiny ancient open clay oil lamp with wick flame, no glass chimney. Crescent moon in dusky sky above terracotta roof, intimate warm lamplight. Simple elegant educational gouache illustration. Broad clean shapes, restrained detail, cream, warm ochre, terracotta and muted blue, polished painterly texture. Landscape 3:2. Modest domestic setting in classical Athens circa430BC, no monumental architecture. No text, borders or modern objects.",
+    "review": "Viewed: four family members in established colors, Ariston eating bread, Elpis feeds Labros, open clay oil lamp and moon establish evening.",
+    "sha256": "ca14c6fe80468aaacc9e27f12e39e63e2a0cec19e7b40d6e62027cdc9d02ac22"
   }
 }
