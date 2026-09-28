@@ -2,7 +2,7 @@
 
 Snapshot: 2026-09-28. One row per app image record; some records share a file.
 
-Total: **131**.
+Total: **139**.
 
 Completed includes published photographs, original illustrations and built-in diagrams. Downloaded candidates awaiting review remain in the remaining list.
 
@@ -44,10 +44,18 @@ Completed includes published photographs, original illustrations and built-in di
 | --- | --- | --- | --- |
 | culture-10-4-lekythos | Photo | λήκυθος λευκή | White-ground funerary lekythos showing Hermes, Charon and a youth, attributed to the Sabouroff Painter, c. 450 BC (Metropolitan Museum) |
 
-## manifest-u2 (3)
+## manifest-u2 (11)
 
 | Image ID | Type | Greek word / caption | Intended English meaning or scene |
 | --- | --- | --- | --- |
+| panel-2-1-a | Original illustration | ἡ Χρυσὶς τὴν Ἐλπίδα καλεῖ. | Dawn in the courtyard: Chrysis at the couch, waking Elpis |
+| panel-2-1-b | Original illustration | ὁ Λύσις τὸν πηλὸν φέρει, ὁ δὲ Λάβρος παίζει. | The workshop: Lysis carrying clay, Labros playing with a stone |
+| panel-2-1-c | Original illustration | ἑσπέρα ἐστίν· ὁ Ἀρίστων ἄρτον ἐσθίει. | Evening: the family eats bread by lamplight; the moon over the courtyard |
+| verb-speudei | Original illustration | σπεύδει | A girl hurrying with a jar |
+| verb-paizei | Original illustration | παίζει | A child playing with a ball |
+| verb-esthiei | Original illustration | ἐσθίει | Someone eating bread |
+| verb-pinei | Original illustration | πίνει | Someone drinking from a cup |
+| hespera | Original illustration | ἑσπέρα | Evening: the sun setting behind the hills, the first star |
 | diagram-men-de | Diagram | σὺ μέν … ἐγὼ δέ … | Two balanced pans: σὺ μέν on one side, ἐγὼ δέ on the other |
 | diagram-plural | Diagram | ὁ δοῦλος → οἱ δοῦλοι | One slave becomes several: singular and plural endings side by side |
 | diagram-contract | Diagram | ποιέ-ω → ποιῶ | Vowel contraction chart: ε and α meeting the endings |

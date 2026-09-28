@@ -1,12 +1,17 @@
 """Image catalog: phone/desktop, filtering, real context, export, and dialogs."""
 import os
+import csv
+import io
 from pathlib import Path
+from app.course.image_catalog import image_catalog
 from playwright.sync_api import sync_playwright, expect
 from e2e_course import FRONT, CHROME
 from e2e_stage2 import route_fonts
 
 SHOTS = Path(os.environ.get('E2E_SHOTS', '../docs/screenshots/f1'))
 SHOTS.mkdir(parents=True, exist_ok=True)
+catalog = image_catalog()
+remaining_story_ids = {i['id'] for i in catalog['images'] if i['status'] == 'remaining' and i['kind'] == 'story'}
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=CHROME) if CHROME else p.chromium.launch()
     for name, size in [('phone', {'width':390, 'height':844}), ('desktop', {'width':1280, 'height':900})]:
@@ -35,12 +40,13 @@ with sync_playwright() as p:
         page.get_by_role('button', name='Clear filters').click()
         page.get_by_label('Status', exact=True).select_option('remaining')
         page.get_by_label('Purpose', exact=True).select_option('story')
-        expect(page.get_by_role('status')).to_contain_text('211 matching images')
+        expect(page.get_by_role('status')).to_contain_text(f'{len(remaining_story_ids)} matching images')
         with page.expect_download() as download_info:
             page.get_by_role('button', name='Export current list').click()
         download = download_info.value
-        csv = Path(download.path()).read_text(encoding='utf-8-sig')
-        assert 'panel-2-1-a' in csv and 'panel-1-1-a' not in csv
+        exported = Path(download.path()).read_text(encoding='utf-8-sig')
+        rows = list(csv.reader(io.StringIO(exported)))
+        assert {row[0] for row in rows[1:]} == remaining_story_ids
         page.get_by_role('button', name='Clear filters').click()
         search.fill('κυων')
         expect(page.get_by_role('button', name='View details: kyon', exact=True)).to_be_visible()
