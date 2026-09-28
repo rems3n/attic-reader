@@ -49,9 +49,13 @@ def answer_item(page: Page, item: dict) -> None:
             if want.get("text") and b.inner_text().strip() == want["text"]:
                 b.click()
                 return
-            if want.get("image") and b.locator(f"[aria-label]").count() and b.locator("[aria-label]").first.get_attribute("aria-label") == image_alt(want["image"]):
-                b.click()
-                return
+            if want.get("image"):
+                picture = b.get_by_role("img", name=image_alt(want["image"]), exact=True)
+                if picture.count():
+                    if picture.first.evaluate("node => node.tagName") == "IMG":
+                        page.wait_for_function("img => img.complete && img.naturalWidth > 0", arg=picture.first.element_handle())
+                    b.click()
+                    return
         raise AssertionError(f"option not found for {item['id']}: {want}")
     if t in {"cloze-type", "produce-form", "transform", "compose-grc", "dictation", "endings-cloze", "answer-grc"}:
         inputs = ex.locator("input.greekAnswer")
