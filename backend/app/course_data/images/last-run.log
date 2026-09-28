@@ -921,3 +921,6 @@ wrote app/course_data/images/manifest-u7.json
 
 528 images still failing → backend/app/course_data/images/failures.json
 Inventory: diagram: 52 · needs_source_verification: 368 · no_source_row: 40 · downloaded_needs_review: 160 · ready: 13
+
+Targeted introductory artifacts: four downloaded, licensed and visually reviewed.
+{"diagram": 52, "needs_source_verification": 364, "no_source_row": 40, "downloaded_needs_review": 160, "ready": 17}

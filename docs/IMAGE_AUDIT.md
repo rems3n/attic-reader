@@ -47,3 +47,16 @@ Dictionary nouns can often use object photographs. Action verbs, comparisons and
 fictional story panels need precise illustrations; broad museum keyword matches
 are unsuitable. Recommend authored diagrams or purpose-made illustrations for
 those scenes rather than lowering the matching standard just to increase counts.
+
+## Targeted introductory recovery
+
+Four additional artifacts were located, licence-checked, downloaded and visually
+reviewed: the Dipylon inscription, Themistokles ostraka, the Greek schoolboy's
+wax writing tablet (BL Add MS 34186), and the Douris school cup. Wax tablet and
+school cup rows now pin specific Commons files instead of broad searches.
+A fresh doctor run succeeded for museum APIs, Commons search/metadata, and image
+downloads; the old numeric-metadata error did not reproduce.
+
+Final recovery inventory: **17 approved photos, 160 downloaded candidates awaiting
+review/replacement, 364 rows needing a verified source, 40 records without a
+source row**, plus 52 built-in diagrams. The image collection is still incomplete.

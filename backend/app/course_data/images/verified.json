@@ -188,6 +188,15 @@
   "source_url": "https://www.metmuseum.org/art/collection/search/255939",
   "title": "Terracotta kylix (drinking cup)"
  },
+ "dipylon-oinochoe": {
+  "credit": "Dipylon Inscription · Durutomo · Wikimedia Commons (CC BY-SA 4.0)",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Dipylon_Inscription.JPG/1920px-Dipylon_Inscription.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "ref": "File:Dipylon Inscription.JPG",
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Dipylon_Inscription.JPG",
+  "title": "File:Dipylon Inscription.JPG"
+ },
  "doron": {
   "credit": "Sard seal from a gold ring · Greek · The Metropolitan Museum of Art (Open Access)",
   "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP142912.jpg",
@@ -475,6 +484,15 @@
   "source": "met",
   "source_url": "https://www.metmuseum.org/art/collection/search/257603",
   "title": "Marble head of a Ptolemaic queen"
+ },
+ "ostrakon": {
+  "credit": "3156 - Stoà of Attalus Museum - Ostracism against Themistokles (482 BC) - Photo by Giovanni Dall'Orto, Nov 9 2009 · User:g.dallorto · Wikimedia Commons (CC BY-SA 3.0)",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/3156_-_Sto%C3%A0_of_Attalus_Museum_-_Ostracism_against_Themistokles_%28482_BC%29_-_Photo_by_Giovanni_Dall%27Orto%2C_Nov_9_2009.jpg/1920px-3156_-_Sto%C3%A0_of_Attalus_Museum_-_Ostracism_against_Themistokles_%28482_BC%29_-_Photo_by_Giovanni_Dall%27Orto%2C_Nov_9_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 3.0",
+  "ref": "File:3156 - Stoà of Attalus Museum - Ostracism against Themistokles (482 BC) - Photo by Giovanni Dall'Orto, Nov 9 2009.jpg",
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:3156_-_Sto%C3%A0_of_Attalus_Museum_-_Ostracism_against_Themistokles_(482_BC)_-_Photo_by_Giovanni_Dall%27Orto,_Nov_9_2009.jpg",
+  "title": "File:3156 - Stoà of Attalus Museum - Ostracism against Themistokles (482 BC) - Photo by Giovanni Dall'Orto, Nov 9 2009.jpg"
  },
  "pais": {
   "credit": "Terracotta oinochoe: chous (jug) · Greek, Attic · The Metropolitan Museum of Art (Open Access)",
@@ -970,6 +988,15 @@
   "source": "met",
   "source_url": "https://www.metmuseum.org/art/collection/search/246270",
   "title": "Terracotta oil lamp"
+ },
+ "school-kylix": {
+  "credit": "School cup by Douris Antikensammlung Berlin · Picture taken by Marcus Cyron · Wikimedia Commons (CC BY-SA 3.0)",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/School_cup_by_Douris_Antikensammlung_Berlin.jpg/1920px-School_cup_by_Douris_Antikensammlung_Berlin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 3.0",
+  "ref": "File:School cup by Douris Antikensammlung Berlin.jpg",
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:School_cup_by_Douris_Antikensammlung_Berlin.jpg",
+  "title": "File:School cup by Douris Antikensammlung Berlin.jpg"
  },
  "stephanos": {
   "credit": "Gold wreath · Etruscan · The Metropolitan Museum of Art (Open Access)",
@@ -1537,6 +1564,15 @@
   "source": "met",
   "source_url": "https://www.metmuseum.org/art/collection/search/253348",
   "title": "Terracotta lekythos (oil flask)"
+ },
+ "wax-tablet": {
+  "credit": "Wax writing tablet (2nd C) - BL Add MS 34186 · This file has been provided by the British Library from its digital collections. Links to the British Library's website may be broken as the library recovers from a October 2023 cyber attack, and will be updated once material becomes accessible online. For more information on the attack see: https://www.bl.uk/about/cyber-attack \nCatalogue entry: Add MS 34186 · Wikimedia Commons (CC0)",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Wax_writing_tablet_%282nd_C%29_-_BL_Add_MS_34186.jpg/1920px-Wax_writing_tablet_%282nd_C%29_-_BL_Add_MS_34186.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC0",
+  "ref": "File:Wax writing tablet (2nd C) - BL Add MS 34186.jpg",
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Wax_writing_tablet_(2nd_C)_-_BL_Add_MS_34186.jpg",
+  "title": "File:Wax writing tablet (2nd C) - BL Add MS 34186.jpg"
  },
  "xenos": {
   "credit": "Terracotta squat lekythos (oil flask) · Greek, Attic · The Metropolitan Museum of Art (Open Access)",

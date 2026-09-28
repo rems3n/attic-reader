@@ -2,9 +2,9 @@
  "counts": {
   "diagram": 52,
   "downloaded_needs_review": 160,
-  "needs_source_verification": 368,
+  "needs_source_verification": 364,
   "no_source_row": 40,
-  "ready": 13
+  "ready": 17
  },
  "images": [
   {
@@ -6249,51 +6249,31 @@
   },
   {
    "description": "The Dipylon oinochoe, one of the oldest Greek inscriptions (c. 740 BC), Athens",
-   "failure": {
-    "reason": "No current verified source; run resolve/verify for this id",
-    "ref": "search:Dipylon oinochoe inscription|Dipylon",
-    "source": "commons",
-    "step": "verify"
-   },
-   "file": null,
+   "failure": null,
+   "file": "course/pics/dipylon-oinochoe.webp",
    "id": "dipylon-oinochoe",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "An ostrakon inscribed with a name, Athenian Agora",
-   "failure": {
-    "reason": "No current verified source; run resolve/verify for this id",
-    "ref": "search:ostrakon Themistokles Agora museum|ostrak",
-    "source": "commons",
-    "step": "verify"
-   },
-   "file": null,
+   "failure": null,
+   "file": "course/pics/ostrakon.webp",
    "id": "ostrakon",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A schoolboy's wax tablet with a writing exercise",
-   "failure": {
-    "reason": "No current verified source; run resolve/verify for this id",
-    "ref": "search:wax tablet Greek school exercise|tablet",
-    "source": "commons",
-    "step": "verify"
-   },
-   "file": null,
+   "failure": null,
+   "file": "course/pics/wax-tablet.webp",
    "id": "wax-tablet",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Red-figure kylix by Douris: a school scene with a teacher and pupils",
-   "failure": {
-    "reason": "No current verified source; run resolve/verify for this id",
-    "ref": "search:Douris school scene kylix Berlin F 2285|Douris",
-    "source": "commons",
-    "step": "verify"
-   },
-   "file": null,
+   "failure": null,
+   "file": "course/pics/school-kylix.webp",
    "id": "school-kylix",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A person",

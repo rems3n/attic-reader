@@ -425,12 +425,6 @@
   "source": "commons",
   "step": "verify"
  },
- "dipylon-oinochoe": {
-  "reason": "No current verified source; run resolve/verify for this id",
-  "ref": "search:Dipylon oinochoe inscription|Dipylon",
-  "source": "commons",
-  "step": "verify"
- },
  "doron": {
   "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
   "ref": "search:gold ring Greek classical|ring",
@@ -1316,12 +1310,6 @@
  "oros": {
   "reason": "No current verified source; run resolve/verify for this id",
   "ref": "search:Mount Parnassus snow|Parnass",
-  "source": "commons",
-  "step": "verify"
- },
- "ostrakon": {
-  "reason": "No current verified source; run resolve/verify for this id",
-  "ref": "search:ostrakon Themistokles Agora museum|ostrak",
   "source": "commons",
   "step": "verify"
  },
@@ -2441,12 +2429,6 @@
   "source": "commons",
   "step": "verify"
  },
- "school-kylix": {
-  "reason": "No current verified source; run resolve/verify for this id",
-  "ref": "search:Douris school scene kylix Berlin F 2285|Douris",
-  "source": "commons",
-  "step": "verify"
- },
  "selene": {
   "reason": "No current verified source; run resolve/verify for this id",
   "ref": "search:Selene horse Parthenon east pediment|Selene",
@@ -3148,12 +3130,6 @@
   "ref": "search:terracotta lekythos woman looking|lekythos",
   "source": "met",
   "step": "review"
- },
- "wax-tablet": {
-  "reason": "No current verified source; run resolve/verify for this id",
-  "ref": "search:wax tablet Greek school exercise|tablet",
-  "source": "commons",
-  "step": "verify"
  },
  "xenos": {
   "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
