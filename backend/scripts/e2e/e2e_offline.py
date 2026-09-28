@@ -239,6 +239,10 @@ def run(front: str, api_base: str, procs: dict[str, subprocess.Popen]) -> int:
         page.get_by_role("button", name="Now read it →").click()
         expect(page.locator(".stepName")).to_contain_text("Ἀνάγνωσις")
         expect(page.locator(".storyLine").first).to_contain_text(first_sentence.split()[0])
+        # Re-request visible pictures once the worker controls this first visit.
+        image_urls = page.locator('img[src*="/course/illustrations/"]').evaluate_all("imgs => imgs.map(i => i.src)")
+        assert image_urls, "Opening lesson should show original illustrations"
+        page.evaluate("async urls => { for (const url of urls) { const r = await fetch(url); if (!r.ok) throw new Error(url); await r.arrayBuffer(); } }", image_urls)
         play_first_sentence(page, 20)
         page.wait_for_timeout(1200)
         word = page.locator(".storyLine").first.locator(".storyWord:not(.glossed)").first
@@ -261,6 +265,7 @@ def run(front: str, api_base: str, procs: dict[str, subprocess.Popen]) -> int:
         expect(page.locator(".offlineBanner")).to_contain_text("Offline")
         expect(page.locator(".stepName")).to_contain_text("Ἀνάγνωσις")  # step restored from progress
         expect(page.locator(".storyLine").first).to_contain_text(first_sentence.split()[0])
+        page.wait_for_function("() => { const imgs = [...document.querySelectorAll('img[src*=\"/course/illustrations/\"]')]; return imgs.length > 0 && imgs.every(i => i.complete && i.naturalWidth > 0); }", timeout=20000)
         play_first_sentence(page, 10)
         expect(page.locator(".storyControls .warnText")).to_have_count(0)
         page.locator(".storyLine").first.locator(".storyWord", has_text=word_text).first.click()
