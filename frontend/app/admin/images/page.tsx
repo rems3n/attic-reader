@@ -49,6 +49,10 @@ export default function ImageDashboard() {
   const currentPage = Math.min(page, pages);
   const shown = filtered.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
   function reset() { setQuery(""); setStatus("all"); setKind("all"); setCollection("all"); setMedium("all"); setPage(1); }
+  function goToPage(value: number) {
+    setPage(value);
+    document.getElementById("image-results")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
   function exportList() {
     const url = URL.createObjectURL(new Blob([catalogCsv(filtered)], { type: "text/csv;charset=utf-8" }));
     const a = document.createElement("a"); a.href = url; a.download = "attic-reader-images.csv"; a.click();
@@ -74,7 +78,7 @@ export default function ImageDashboard() {
         <label>Collection<select value={collection} onChange={e => { setCollection(e.target.value); setPage(1); }}><option value="all">All collections</option>{collections.map(c => <option key={c.id} value={c.id}>{c.label}</option>)}</select></label>
         <label>Artwork<select value={medium} onChange={e => { setMedium(e.target.value); setPage(1); }}><option value="all">All artwork</option>{Object.entries(MEDIUM_LABELS).map(([key, value]) => <option key={key} value={key}>{value}</option>)}</select></label>
       </section>
-      <div className={styles.resultBar}><p role="status" aria-live="polite">{filtered.length} matching images{filtered.length > PAGE_SIZE && ` · Page ${currentPage} of ${pages}`}</p><div><button onClick={reset}>Clear filters</button><button onClick={exportList} disabled={!filtered.length}>Export current list</button></div></div>
+      <div id="image-results" className={styles.resultBar}><p role="status" aria-live="polite">{filtered.length} matching images{filtered.length > PAGE_SIZE && ` · Page ${currentPage} of ${pages}`}</p><div><button onClick={reset}>Clear filters</button><button onClick={exportList} disabled={!filtered.length}>Export current list</button></div></div>
       {!filtered.length ? <section className="card"><h2>No matching images</h2><p>Try another word or clear the filters.</p></section> : <div className={styles.grid}>
         {shown.map(image => <article className={styles.imageCard} key={image.id}>
           <button className={styles.preview} onClick={() => setSelected(image)} aria-label={`View details: ${image.id}`}><Preview image={image} /></button>
@@ -86,7 +90,7 @@ export default function ImageDashboard() {
           </div>
         </article>)}
       </div>}
-      {pages > 1 && <nav className={styles.pagination} aria-label="Image pages"><button disabled={currentPage === 1} onClick={() => setPage(currentPage - 1)}>Previous</button><span>Page {currentPage} of {pages}</span><button disabled={currentPage === pages} onClick={() => setPage(currentPage + 1)}>Next</button></nav>}
+      {pages > 1 && <nav className={styles.pagination} aria-label="Image pages"><button disabled={currentPage === 1} onClick={() => goToPage(currentPage - 1)}>Previous</button><span>Page {currentPage} of {pages}</span><button disabled={currentPage === pages} onClick={() => goToPage(currentPage + 1)}>Next</button></nav>}
     </>}
     <dialog ref={dialog} className={styles.dialog} aria-labelledby="image-detail-title" onClose={() => setSelected(null)} onClick={e => { if (e.target === e.currentTarget) dialog.current?.close(); }}>
       {selected && <div className={styles.detailBody}>
