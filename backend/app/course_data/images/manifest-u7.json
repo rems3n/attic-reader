@@ -294,12 +294,12 @@
   {
    "id": "culture-7-3-medea",
    "kind": "culture",
-   "file": null,
+   "file": "course/pics/culture-7-3-medea.webp",
    "alt_grc": "ἡ Μήδεια ἐπὶ τοῦ ἅρματος τοῦ Ἡλίου.",
    "alt_en": "Lucanian red-figure calyx-krater, c. 400 BC (Cleveland Museum of Art, attributed to the Policoro Painter): Medea escapes in a serpent-drawn chariot above the bodies of her children (museum photograph, CC0).",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "credit": "Red-Figure Calyx-Krater (Mixing Vessel): Medea in Chariot (A); Telephos with Baby Orestes (B) · Policoro Painter (South Italian, Lucanian, active c. 400 BCE) · The Cleveland Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://clevelandart.org/art/1991.1",
    "words": []
   },
   {
@@ -338,12 +338,12 @@
   {
    "id": "verb-histatai",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/verb-histatai.webp",
    "alt_grc": "ἵσταται",
    "alt_en": "A man standing upright and still, arms at his sides.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "credit": "Marble statue of a kouros (youth) · Greek, Attic · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/253370",
    "words": [
     "ἵστημι"
    ]

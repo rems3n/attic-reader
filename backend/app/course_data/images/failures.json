@@ -1,0 +1,3170 @@
+{
+ "adelphos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:marble grave stele brothers|stele",
+  "source": "met",
+  "step": "review"
+ },
+ "aetos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:eagle|eagle",
+  "source": "met",
+  "step": "verify"
+ },
+ "agalma": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Varvakeion Athena|Varvakeion",
+  "source": "commons",
+  "step": "verify"
+ },
+ "agathos-kakos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:Theseus deeds kylix|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "agora": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Stoa of Attalos Athens|Attalos",
+  "source": "commons",
+  "step": "verify"
+ },
+ "agros": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:olive grove field Attica|olive",
+  "source": "commons",
+  "step": "verify"
+ },
+ "aix": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:bronze statuette goat|goat",
+  "source": "met",
+  "step": "verify"
+ },
+ "allos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:Corinthian aryballos dogs|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "aner": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta kylix bearded man|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "anthos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:gold wreath flowers Greek|wreath",
+  "source": "met",
+  "step": "review"
+ },
+ "anthropos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta lekythos youth standing|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "argyrion": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:hoard Athenian tetradrachms|hoard|tetradrachm",
+  "source": "commons",
+  "step": "verify"
+ },
+ "arithmos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Salamis tablet counting board|Salamis|abacus|counting",
+  "source": "commons",
+  "step": "verify"
+ },
+ "artos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:ancient Greek bread terracotta votive loaf|bread",
+  "source": "commons",
+  "step": "verify"
+ },
+ "asty": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Athens Acropolis view from Hymettus|Athens|Acropolis",
+  "source": "commons",
+  "step": "verify"
+ },
+ "aulos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta aulos player|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "barbaros": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta Greek Persian combat|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "basileus": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta Zeus enthroned sceptre|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "biblion": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Douris kylix youth reading scroll|Douris",
+  "source": "commons",
+  "step": "verify"
+ },
+ "bomos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:altar Ancient Agora Athens|altar|Altar",
+  "source": "commons",
+  "step": "verify"
+ },
+ "chalepos-rhadios": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Atlas holding the sky Farnese|Atlas",
+  "source": "commons",
+  "step": "verify"
+ },
+ "cheimon": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:stormy sea waves Greece|storm|Storm|wave",
+  "source": "commons",
+  "step": "verify"
+ },
+ "chorion": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:threshing floor Greece olive vines|threshing|farm",
+  "source": "commons",
+  "step": "verify"
+ },
+ "choros": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta chorus dancers aulos|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "culture-10-1-stoa": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Stoa Poikile plan reconstruction|Poikile",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-10-2-socrates": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:marble head Socrates|Socrates",
+  "source": "met",
+  "step": "verify"
+ },
+ "culture-10-3-workshop": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Foundry Painter cup Berlin workshop|Foundry",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-10-4-lekythos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:white-ground lekythos Charon Hermes|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "culture-11-1-horos-agora": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:horos Agora boundary stone ΗΟΡΟΣ ΕΙΜΙ|horos|Horos|boundary",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-11-2-clay-pit": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Penteskouphia pinax clay pit|Penteskouphia|pinax",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-11-3-klepsydra": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:klepsydra Antiochidos Agora Museum|klepsydra|Klepsydra|clock",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-12-1-achaemenid-guards": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Frieze of Archers Susa Louvre|Archer|archer|Susa",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-12-2-black-sea": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Trabzon Black Sea coast view mountains|Trabzon|Black Sea",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-12-3-socrates-portrait": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Socrates marble head Louvre|Socrates|Sokrates",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-12-4-bendis-relief": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Bendis votive relief torch race|Bendis",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-5-1-sacrifice": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:bell krater sacrifice splanchna|krater",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-5-2-salamis": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Lenormant relief rowers|Lenormant",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-5-3-daphne": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Apollo Daphne Pompeii fresco|Daphne",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-5-4-medicine": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Peytel aryballos Clinic Painter Louvre|aryballos|Peytel",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-7-1-pompe": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta procession bull altar youths|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "verify"
+ },
+ "culture-7-2-tripod": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Choragic Monument of Lysicrates|Lysicrates|Lysikrates",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-7-4-ivy": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Euripides herm portrait|Euripides",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-8-2-thucydides": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Thucydides herm Holkham|Thucydides|Thukydides",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-8-3-decree": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Athenian decree stele relief Epigraphical Museum|decree|Decree|stele",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-8-4-pericles": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Pericles Kresilas bust Vatican|Pericles|Perikles",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-9-2-cart": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:black-figure cart wedding procession|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "culture-9-3-panathenaea": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Parthenon east frieze peplos Acropolis Museum|frieze|peplos|Parthenon",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-9-4-casualty-list": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Athenian casualty list inscription|casualty|Casualty|list",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-acropolis-432": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:model Acropolis Athens Acropolis Museum|model|Model",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-agora-citizens": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta kylix men himatia conversation|kylix",
+  "source": "met",
+  "step": "verify"
+ },
+ "culture-astragaloi": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta girls playing knucklebones|knuckle|astragal",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-dog-wasps": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta lekythos youth dog|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "culture-fountain-hydria": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:black-figure hydria fountain house women|hydria",
+  "source": "met",
+  "step": "review"
+ },
+ "culture-hegeso-stele": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Grave stele of Hegeso National Archaeological Museum|Hegeso",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-kerameikos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Dipylon gate Kerameikos Athens|Dipylon",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-loom-lekythos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "253348",
+  "source": "met",
+  "step": "review"
+ },
+ "culture-miletus-map": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:map ancient Ionia Miletus Aegean|map|Map",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-potter-vase": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:potter at the wheel Attic black-figure hydria Munich|potter",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-prometheus-cup": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Atlas Prometheus Laconian cup Vatican|Prometheus|Atlas",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-prometheus-kylix": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Atlas Prometheus Laconian cup Vatican|Prometheus|Atlas",
+  "source": "commons",
+  "step": "verify"
+ },
+ "culture-skira": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta procession cow sacrifice kanephoros|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "verify"
+ },
+ "culture-symposium-kylix": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta kylix symposium reveler|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "culture-trireme": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Lenormant relief Acropolis Museum trireme|Lenormant",
+  "source": "commons",
+  "step": "verify"
+ },
+ "daphne": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Laurus nobilis tree|Laurus",
+  "source": "commons",
+  "step": "verify"
+ },
+ "deipnon": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Tomb of the Diver banquet Paestum|Diver",
+  "source": "commons",
+  "step": "verify"
+ },
+ "deltos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:wax tablet stylus reconstruction|tablet",
+  "source": "commons",
+  "step": "verify"
+ },
+ "dendron": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:old olive tree Greece|olive",
+  "source": "commons",
+  "step": "verify"
+ },
+ "despotes": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:marble grave stele bearded man staff|stele",
+  "source": "met",
+  "step": "review"
+ },
+ "didaskalos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta kylix man scroll|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "dikasterion": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:kleroterion Agora Museum|kleroterion|Kleroterion",
+  "source": "commons",
+  "step": "verify"
+ },
+ "dikastes": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:bronze pinakion juror ticket|pinak|Pinak|juror",
+  "source": "commons",
+  "step": "verify"
+ },
+ "dipylon-oinochoe": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Dipylon oinochoe inscription|Dipylon",
+  "source": "commons",
+  "step": "verify"
+ },
+ "doron": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:gold ring Greek classical|ring",
+  "source": "met",
+  "step": "review"
+ },
+ "doule": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Grave stele of Hegeso|Hegeso",
+  "source": "commons",
+  "step": "verify"
+ },
+ "drachme": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:silver drachm Athens owl|drachm",
+  "source": "met",
+  "step": "verify"
+ },
+ "ekklesia": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Pnyx Athens bema|Pnyx",
+  "source": "commons",
+  "step": "verify"
+ },
+ "elaia": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Olea europaea olives branch|Olea|olive",
+  "source": "commons",
+  "step": "verify"
+ },
+ "eleutheros": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:manumission inscription Delphi|manumission|Delphi",
+  "source": "commons",
+  "step": "verify"
+ },
+ "emporion": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:ancient Greek transport amphorae|amphora",
+  "source": "commons",
+  "step": "verify"
+ },
+ "emporos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Kyrenia ship replica|Kyrenia",
+  "source": "commons",
+  "step": "verify"
+ },
+ "eretes": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Lenormant relief|Lenormant",
+  "source": "commons",
+  "step": "verify"
+ },
+ "ergasterion": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Corinthian pinax potter kiln Penteskouphia|kiln",
+  "source": "commons",
+  "step": "verify"
+ },
+ "ergon": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta statuette woman kneading|statuette",
+  "source": "met",
+  "step": "review"
+ },
+ "erion": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta kalathos wool basket|kalathos",
+  "source": "met",
+  "step": "verify"
+ },
+ "ge": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Attica landscape olive grove Marathon|Attica",
+  "source": "commons",
+  "step": "verify"
+ },
+ "geiton": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:traditional stone farmhouses Greece|house|farm",
+  "source": "commons",
+  "step": "verify"
+ },
+ "genos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:family grave stele Kerameikos|stele|Stele",
+  "source": "commons",
+  "step": "verify"
+ },
+ "georgos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:ploughing scene Nikosthenes black-figure cup|plough",
+  "source": "commons",
+  "step": "verify"
+ },
+ "geron": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta statuette old man staff|statuette",
+  "source": "met",
+  "step": "review"
+ },
+ "gramma": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Attic abecedarium inscription|abeced|alphabet",
+  "source": "commons",
+  "step": "verify"
+ },
+ "gyne": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta lekythos woman standing|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "hamaxa": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta cart model|cart|wagon",
+  "source": "met",
+  "step": "review"
+ },
+ "harma": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta chariot charioteer|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "verify"
+ },
+ "helios": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta Helios chariot rising|Helios",
+  "source": "met",
+  "step": "verify"
+ },
+ "hemera": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Acropolis Athens sunrise|Acropolis",
+  "source": "commons",
+  "step": "verify"
+ },
+ "heorte": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta krater aulos player altar|krater",
+  "source": "met",
+  "step": "review"
+ },
+ "hepar": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:bronze Liver of Piacenza|Piacenza|liver",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hespera": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:sunset Temple of Poseidon Sounion|Sounion",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hiereus": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:limestone votary wreath|votary|priest",
+  "source": "met",
+  "step": "review"
+ },
+ "hist-aspis": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:bronze shield Greek hoplite|shield|Shield",
+  "source": "met",
+  "step": "verify"
+ },
+ "hist-athlit-ram": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Athlit ram Haifa National Maritime Museum|Athlit",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hist-kerameikos-wall": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Themistoclean wall Kerameikos Athens|Themistoclean|wall|Wall",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hist-kottabos-kylix": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta kylix symposium kottabos|kylix|Kylix",
+  "source": "met",
+  "step": "verify"
+ },
+ "hist-latomie": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Latomia del Paradiso Syracuse Ear of Dionysius|Latomia|Orecchio|Ear of Dionysius",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hist-olympias": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Olympias trireme reconstruction|Olympias",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hist-panel-1-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Kerameikos Demosion Sema Dipylon Athens|Kerameikos|Dipylon|Demosion",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hist-panel-1-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta potter at wheel|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis",
+  "source": "met",
+  "step": "verify"
+ },
+ "hist-panel-1-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta warrior departure|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos",
+  "source": "met",
+  "step": "verify"
+ },
+ "hist-panel-2-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Pnyx Athens speakers platform bema|Pnyx|bema|Bema",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hist-panel-2-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Pnyx hill Athens view Acropolis|Pnyx",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hist-panel-2-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Lenormant relief trireme rowers Acropolis Museum|Lenormant|relief",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hist-panel-3-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta horseman javelin|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos",
+  "source": "met",
+  "step": "verify"
+ },
+ "hist-panel-3-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Asinaro river Sicily|Asinaro|Assinaro|river|River",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hist-panel-4-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:bronze shield Greek|shield|Shield",
+  "source": "met",
+  "step": "verify"
+ },
+ "hist-panel-4-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:trireme model museum|trireme|Trireme|trière",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hist-panel-5-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Long Walls Athens Piraeus remains|Long Walls|Makra Teichi|Long Wall",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hist-panel-5-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Dipylon Gate Kerameikos Athens|Dipylon",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hist-panel-5-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta aulos player woman|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|psykter",
+  "source": "met",
+  "step": "verify"
+ },
+ "hist-panel-6-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Bouleuterion Athenian Agora remains|Bouleuterion",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hist-panel-6-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Athenian Agora Tholos Bouleuterion model|Agora|Tholos|model",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hist-panel-6-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Socrates prison Agora Athens house|prison|Prison|desmoterion",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hist-panel-7-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Persepolis relief Persian guards spear|Persepolis",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hist-panel-7-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Achaemenid gold akinakes sword|akinakes|dagger|sword|Sword",
+  "source": "met",
+  "step": "verify"
+ },
+ "hist-parthenon": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Parthenon Athens west facade|Parthenon",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hist-thorax": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:bronze cuirass Greek|cuirass|Cuirass|breastplate",
+  "source": "met",
+  "step": "verify"
+ },
+ "histos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:warp-weighted loom reconstruction|loom|Loom",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hodos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Panathenaic Way Athens Agora|Panathenaic",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hoplites": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta lekythos hoplite|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "horos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Athenian Agora horos boundary stone|horos|Horos",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hydor": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Klepsydra spring Acropolis|Klepsydra",
+  "source": "commons",
+  "step": "verify"
+ },
+ "hygies": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:bronze statuette athlete|athlete",
+  "source": "met",
+  "step": "verify"
+ },
+ "hyios": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta chous boy|chous",
+  "source": "met",
+  "step": "review"
+ },
+ "iatros": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:ancient Greek surgical instruments|instrument",
+  "source": "commons",
+  "step": "verify"
+ },
+ "ichthys": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta fish-plate|fish",
+  "source": "met",
+  "step": "verify"
+ },
+ "kadiskos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta amphora narrow neck|amphora",
+  "source": "met",
+  "step": "review"
+ },
+ "kanoun": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta kanephoros basket|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "verify"
+ },
+ "kerameus": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:potter at the wheel Attic black-figure|potter",
+  "source": "commons",
+  "step": "verify"
+ },
+ "kerkis": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:weaving shuttle|shuttle|Shuttle",
+  "source": "commons",
+  "step": "verify"
+ },
+ "keryx": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta Hermes kerykeion|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "klados": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:olive tree branch|olive|Olea",
+  "source": "commons",
+  "step": "verify"
+ },
+ "klepsydra": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:klepsydra water clock Agora Museum|klepsydra|Klepsydra|clock",
+  "source": "commons",
+  "step": "verify"
+ },
+ "kline": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta kylix symposium reclining couch|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "kome": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Acropolis kore hair Acropolis Museum|Kore|kore",
+  "source": "commons",
+  "step": "verify"
+ },
+ "kope": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Olympias trireme oars|Olympias|oar",
+  "source": "commons",
+  "step": "verify"
+ },
+ "kosmos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta kylix palmettes|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "kreas": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta youth spits meat altar|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "krene": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta hydria women fountain house|hydria",
+  "source": "met",
+  "step": "review"
+ },
+ "kyklos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta round dance women|Terracotta",
+  "source": "met",
+  "step": "review"
+ },
+ "kyon": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta askos dog|askos",
+  "source": "met",
+  "step": "review"
+ },
+ "limen": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Mikrolimano Piraeus|Mikrolimano",
+  "source": "commons",
+  "step": "verify"
+ },
+ "lithos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Athenian Agora horos boundary stone|horos",
+  "source": "commons",
+  "step": "verify"
+ },
+ "logos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta kylix youth scroll|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "loimos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Kerameikos mass grave plague Athens|Kerameikos|plague",
+  "source": "commons",
+  "step": "verify"
+ },
+ "mache": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta two warriors fighting|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "makros": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Sacred Way Eleusis ancient road|Sacred Way|road",
+  "source": "commons",
+  "step": "verify"
+ },
+ "martys": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta man raised hand speaking|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "megas-mikros": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta pithos storage jar|pithos",
+  "source": "met",
+  "step": "verify"
+ },
+ "meizon": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta miniature kylix|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "meter": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:marble grave stele woman girl|stele",
+  "source": "met",
+  "step": "review"
+ },
+ "metoikos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Foundry Painter cup Berlin bronze workshop|Foundry",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-1-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta statuette old man seated|statuette|Statuette",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-1-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Rhea Kronos stone pelike Nausicaa Painter|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-1-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Curetes infant Zeus relief|Curetes|Kouretes|Kureten",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-2-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:olive tree Erechtheion Acropolis|olive|Olive",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-2-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Kekrops red-figure serpent|Kekrops|Cecrops",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-2-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Athena Poseidon contest hydria Pella|Pella|hydria",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-3-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Danae bronze chamber red-figure|Danae|Danaë",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-3-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Danae Perseus chest hydria|Danae|Danaë",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-3-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Perseus Medusa Pan Painter hydria|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-4-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Alcmene vase Amphitryon|Alcmene|Alkmene",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-4-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Herakles strangling snakes stamnos Louvre|Herakles|Heracles",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-4-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Pistoxenos Painter skyphos Schwerin Geropso|Schwerin|Pistoxenos",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-5-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Herakles Eurystheus|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-5-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Herakles Nemean lion amphora|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-5-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Eurystheus pithos Herakles boar|Eurystheus|pithos",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-6-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:ship sail black-figure|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros|dinos",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-6-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Ariadne Theseus thread vase|Ariadne|Ariadna",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-6-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Theseus Minotaur amphora|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-7-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Birth of Athena Hephaestus axe amphora|Athena|Athena",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-7-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:birth of Athena black-figure Zeus head|birth|Birth",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-7-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:bronze statuette Athena Promachos|statuette|Athena",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-antron": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Dictaean Cave Psychro Crete|Dictaean|Psychro",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-aspis": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:bronze shield Greek hoplite|shield|Shield",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-culture-1": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Omphalos Delphi museum|Omphalos|omphalos",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-culture-2": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Carrey drawing west pediment Parthenon|Carrey|pediment",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-culture-3": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Aegeus Themis kylix Berlin|Aegeus|Themis",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-culture-4": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Herakles Linos Douris kylix Munich|Linos|Linus",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-culture-5": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Olympia metope Nemean lion Heracles|metope|Metope",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-culture-6": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Aison kylix Theseus Minotaur Madrid|Aison|Minotaur",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-culture-7": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Madrid puteal birth of Athena|puteal|Puteal",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-dory": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:hoplite spear warrior red-figure|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-drakon": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:serpent snake terracotta|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-eune": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta cradle|cradle|Cradle",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-histion": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:ship sail kylix|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-kithara": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:kithara player Berlin Painter amphora|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-korys": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:bronze helmet Corinthian type|helmet|Helmet",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-larnax": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Danae larnax chest vase|Danae|chest",
+  "source": "commons",
+  "step": "verify"
+ },
+ "myth-leon": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:marble lion Greek funerary|lion|Lion",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-pedila": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Hermes winged boots|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-pelekys": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:bronze axe head|axe|Axe",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-pithos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta pithos storage jar|pithos|Pithos",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-rhopalon": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:bronze statuette Herakles club|statuette|Statuette",
+  "source": "met",
+  "step": "verify"
+ },
+ "myth-triaina": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Poseidon trident|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "verify"
+ },
+ "mythos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta old man boy|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "naos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Temple of Hephaestus Athens|Hephaist",
+  "source": "commons",
+  "step": "verify"
+ },
+ "narthex": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Ferula communis|Ferula",
+  "source": "commons",
+  "step": "verify"
+ },
+ "naumachia": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Aristonothos krater naval battle|Aristonothos",
+  "source": "commons",
+  "step": "verify"
+ },
+ "naus": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Exekias Dionysus cup ship|Exekias|Dionys",
+  "source": "commons",
+  "step": "verify"
+ },
+ "nautes": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta black-figure ship sailors|ship",
+  "source": "met",
+  "step": "verify"
+ },
+ "neanias": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta kylix athlete strigil|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "neos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:marble head youth|head",
+  "source": "met",
+  "step": "review"
+ },
+ "nesos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Aegina island view|Aegina",
+  "source": "commons",
+  "step": "verify"
+ },
+ "nosos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:votive relief Asklepios sick bed|relief|Asklepi",
+  "source": "commons",
+  "step": "verify"
+ },
+ "nous": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:marble head philosopher|head",
+  "source": "met",
+  "step": "review"
+ },
+ "nymphe": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:votive relief Pan nymphs cave|nymph|Nymph",
+  "source": "commons",
+  "step": "verify"
+ },
+ "nyx": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Acropolis Athens night moon|Acropolis",
+  "source": "commons",
+  "step": "verify"
+ },
+ "obolos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:silver obol Athens|obol",
+  "source": "met",
+  "step": "verify"
+ },
+ "oikos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:ancient Greek house model terracotta|house",
+  "source": "commons",
+  "step": "verify"
+ },
+ "oinos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta bell-krater|krater",
+  "source": "met",
+  "step": "verify"
+ },
+ "oros": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Mount Parnassus snow|Parnass",
+  "source": "commons",
+  "step": "verify"
+ },
+ "ostrakon": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:ostrakon Themistokles Agora museum|ostrak",
+  "source": "commons",
+  "step": "verify"
+ },
+ "ouranos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:sky above Acropolis Athens clouds|Athens",
+  "source": "commons",
+  "step": "verify"
+ },
+ "pais": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta chous child crawling|chous",
+  "source": "met",
+  "step": "review"
+ },
+ "palaistra": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Palaestra Olympia|Palaestra|Palaistra",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-1-1-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Kerameikos Athens street of tombs|Kerameikos",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-1-1-b": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta chous children dog|chous",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-1-2-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Caputi hydria potters workshop Milan|hydria",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-1-2-b": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta askos dog|askos",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-1-3-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Athenian Agora reconstruction drawing|Agora",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-1-3-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta figure dog|dog",
+  "source": "met",
+  "step": "verify"
+ },
+ "panel-1-4-a": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:lekythos women weaving Amasis Painter|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-1-4-b": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta hydria women fountain house|hydria",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-10-1-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Stoa Poikile excavation Athens Agora|Poikile|Stoa",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-10-1-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Stoa Poikile Athens|Poikile",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-10-1-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Socrates portrait head|Socrates|Sokrates",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-10-2-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Stoa Poikile Athens remains|Poikile|Stoa",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-10-2-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Socrates bust Louvre|Socrates|Sokrates",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-10-2-c": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta askos dog|askos",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-10-3-a": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta kylix youth holding cup|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-10-3-b": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta horse youth|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-10-3-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta man angry departing|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "verify"
+ },
+ "panel-10-4-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Athens plague 430 mass grave Kerameikos|plague|Kerameikos",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-10-4-b": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta oil lamp|lamp",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-10-4-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Kleobis and Biton Delphi|Kleobis|Biton",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-11-1-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:horos boundary stone Athens|horos|Horos|boundary",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-11-1-b": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta man doorway|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-11-1-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Lysias bust|Lysias",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-11-2-a": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta men conversation|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-11-2-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:olive grove dusk Greece|olive",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-11-2-c": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta man raised hand|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-11-3-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:klepsydra water clock Agora Museum|klepsydra|Klepsydra|clock",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-11-3-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta orator speaking|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "verify"
+ },
+ "panel-11-3-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:kleroterion Agora Museum|kleroterion|Kleroterion",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-11-4-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:juror ballots Agora Museum|ballot|psephos|Ballot",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-11-4-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:voting pebbles ballots Athens Agora|ballot|vot",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-11-4-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:olive tree shoot stump|olive",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-12-1-a": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta old man scroll|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-12-1-b": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta Persian horseman|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-12-1-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Darius vase Naples Persian king throne|Darius",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-12-2-a": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta girl scroll|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-12-2-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Kurdistan mountains Zagros path|mountain|Mountain|Zagros",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-12-2-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Trabzon mountains Black Sea view|Trabzon|Black Sea",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-12-3-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta pyxis|pyxis",
+  "source": "met",
+  "step": "verify"
+ },
+ "panel-12-3-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Socrates prison Athens Philopappos|Socrates|prison",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-12-3-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Socrates statue Academy Athens|Socrates|Sokrates",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-12-4-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Bendis relief Ny Carlsberg Glyptotek|Bendis",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-12-4-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Piraeus Long Walls remains|Piraeus|Long|wall",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-12-4-c": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta youths conversation himation|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-2-1-a": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta pyxis women at home|pyxis",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-2-1-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Penteskouphia pinax clay pit|pinax|Penteskouphia",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-2-1-c": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta oil lamp|lamp",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-2-2-a": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta lekythos woman maid|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-2-2-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:fountain house hydria women black-figure|hydria",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-2-2-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:ploughing oxen black-figure|plough",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-2-3-a": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta old man seated youth|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-2-3-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Prometheus Pyrphoros satyrs krater|Prometheus",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-2-3-c": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:bronze Eros sleeping|Eros",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-2-4-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Boeotian terracotta woman kneading dough|kneading|bread|dough",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-2-4-b": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta kylix banqueter|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-2-4-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta banquet dog under couch|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "verify"
+ },
+ "panel-3-1-a": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta pyxis wedding procession|pyxis",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-3-1-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Parthenon frieze Acropolis Museum procession|frieze|Parthenon",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-3-1-c": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta bell-krater sacrifice altar|krater",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-3-2-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Stoa Basileios Ancient Agora Athens|Stoa|Agora",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-3-2-b": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta kylix youths leaning staffs|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-3-2-c": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta hoplite warrior departure|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-3-3-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:kouros base cat dog relief National Archaeological Museum 3476|3476|base",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-3-3-b": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta woman torches|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-3-3-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Penteskouphia pinax kiln firing|pinax|Penteskouphia",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-3-4-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Propylaea Acropolis Athens west|Propyl",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-3-4-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Parthenon west facade Acropolis|Parthenon",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-3-4-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:view from Acropolis Agora Hephaisteion|Agora|Acropolis",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-4-1-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Themistoclean wall Kerameikos|wall|Wall",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-4-1-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Long Walls Athens Piraeus|Long",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-4-1-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Piraeus Kantharos main harbour|Piraeus",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-4-2-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Piraeus harbour quay ships|Piraeus",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-4-2-b": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta hydria water jars|hydria",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-4-2-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Cefalu fish seller krater|krater|fish",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-4-3-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:paidagogos terracotta figurine|dagog|pedagog",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-4-3-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Douris school cup Berlin 2285 lesson|Douris",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-4-3-c": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta kylix athletes palaestra|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-4-4-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Zea shipsheds Piraeus|Zea|ship",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-4-4-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Olympias trireme rowing|Olympias",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-4-4-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Salamis island view from Piraeus|Salamis",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-5-1-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Pitsa tablet sacrifice|Pitsa",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-5-1-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta krater sacrifice goat altar|krater",
+  "source": "met",
+  "step": "verify"
+ },
+ "panel-5-1-c": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta youths spits altar|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-5-2-a": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta men conversation staff|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-5-2-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Themistocles Decree Troizen|Themistocles|Decree",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-5-2-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Salamis strait Perama|Salamis",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-5-3-a": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta Eros bow|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|Eros",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-5-3-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Apollo Daphne mosaic|Daphne",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-5-3-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Apollo and Daphne Bernini|Bernini|Daphne",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-5-4-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Archinos votive relief Amphiareion|Archinos|relief",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-5-4-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Asklepios healing relief patient|Asklepi|relief",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-5-4-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Hygieia statue|Hygieia|Hygeia",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-6-1-a": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta youth carrying amphora|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-6-1-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta skyphos|skyphos",
+  "source": "met",
+  "step": "verify"
+ },
+ "panel-6-1-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Athenian tetradrachms hoard|tetradrachm|hoard",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-6-2-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta traveller petasos|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "verify"
+ },
+ "panel-6-2-b": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:kylix|Kylix",
+  "source": "cma",
+  "step": "review"
+ },
+ "panel-6-2-c": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:lamp|Lamp",
+  "source": "cma",
+  "step": "review"
+ },
+ "panel-6-3-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Penelope loom skyphos Chiusi|Penelope",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-6-3-b": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:lekythos women weaving Amasis Painter|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-6-3-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta epinetron|epinetron",
+  "source": "met",
+  "step": "verify"
+ },
+ "panel-6-4-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Prometheus creating man sarcophagus|Prometheus",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-6-4-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Prometheus fire bringer vase|Prometheus",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-6-4-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Heracles Prometheus eagle vase|Prometheus",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-7-1-a": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta lekythos old man seated youth|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-7-1-b": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta bull sacrifice procession|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-7-1-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta Dionysos|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "verify"
+ },
+ "panel-7-2-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Theatre of Dionysus Athens seats orchestra|Dionys",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-7-2-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta youths dancing aulos player|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "verify"
+ },
+ "panel-7-2-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:choregic tripod base Athens|tripod|Tripod|choregic",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-7-3-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Theatre of Dionysus Athens from Acropolis|Dionys",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-7-3-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Pronomos vase Naples|Pronomos",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-7-3-c": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "1991.1",
+  "source": "cma",
+  "step": "review"
+ },
+ "panel-7-4-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Theatre of Dionysus Athens orchestra|Dionys",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-7-4-b": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta youth torch|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-7-4-c": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta askos dog|askos",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-8-1-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Pnyx hill Athens|Pnyx",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-8-1-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Pnyx bema speaker platform|Pnyx",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-8-1-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:view from Pnyx Piraeus sea|Pnyx",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-8-2-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Plataea ancient walls|Plataea|Plataia",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-8-2-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:wax tablet stylus reconstruction|tablet",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-8-2-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Thucydides bust Royal Ontario Museum|Thucydides|Thukydides",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-8-3-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Pnyx assembly place Athens|Pnyx",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-8-3-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Pnyx steps path Philopappos|Pnyx|Philopappos",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-8-3-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Long Walls Athens Piraeus|Long",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-8-4-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Pericles bust Vatican|Pericles|Perikles",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-8-4-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Pnyx view Acropolis|Pnyx",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-8-4-c": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta cart wagon|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros|cart|wagon",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-9-1-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Mount Parnitha Acharnes view|Parnitha|Parnes|Acharn",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-9-1-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Themistoclean Wall Athens|wall|Wall",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-9-1-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta men arguing himation|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "verify"
+ },
+ "panel-9-2-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta ox cart|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros|cart",
+  "source": "met",
+  "step": "verify"
+ },
+ "panel-9-2-b": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:marble grave stele two women clasping hands|stele",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-9-2-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Attica farmhouse countryside Acharnes|Attica|Acharn|farm",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-9-3-a": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Aigosthena tower interior|Aigosthena",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-9-3-b": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Acropolis north slope wall Athens|Acropolis",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-9-3-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Parthenon frieze peplos scene|frieze|peplos|Parthenon",
+  "source": "commons",
+  "step": "verify"
+ },
+ "panel-9-4-a": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta hoplites marching|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-9-4-b": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta prothesis mourning|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros|prothesis",
+  "source": "met",
+  "step": "review"
+ },
+ "panel-9-4-c": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Kerameikos Demosion Sema public cemetery|Kerameikos|Demosion",
+  "source": "commons",
+  "step": "verify"
+ },
+ "pappos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta statuette old man|statuette",
+  "source": "met",
+  "step": "review"
+ },
+ "pas": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Parthenon frieze horsemen Acropolis Museum|frieze|Parthenon",
+  "source": "commons",
+  "step": "verify"
+ },
+ "pater": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:marble grave stele man boy|stele",
+  "source": "met",
+  "step": "review"
+ },
+ "pelos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:lump of potter's clay|clay",
+  "source": "commons",
+  "step": "verify"
+ },
+ "peplos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Peplos Kore Acropolis Museum|Peplos",
+  "source": "commons",
+  "step": "verify"
+ },
+ "pharmakon": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta unguentarium|unguentarium",
+  "source": "met",
+  "step": "verify"
+ },
+ "phil-culture-1-aegeus-pythia": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Aegeus Themis Kodros Painter Berlin F 2538|Aegeus|Themis",
+  "source": "commons",
+  "step": "verify"
+ },
+ "phil-culture-2-stoa-basileios": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Stoa Basileios Ancient Agora Athens|Basileios|Royal Stoa",
+  "source": "commons",
+  "step": "verify"
+ },
+ "phil-culture-3-gnothi-mosaic": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:gnothi seauton mosaic skeleton Museo Nazionale Romano|ΓΝΩΘΙ|gnothi|Gnothi|skeleton",
+  "source": "commons",
+  "step": "verify"
+ },
+ "phil-culture-4-academy": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Plato's Academy archaeological site Athens|Academy|Akadimia",
+  "source": "commons",
+  "step": "verify"
+ },
+ "phil-culture-5-lydian-coin": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:electrum coin Lydia lion|Lydia|lion",
+  "source": "met",
+  "step": "verify"
+ },
+ "phil-culture-6-hemlock": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Conium maculatum flowers|Conium",
+  "source": "commons",
+  "step": "verify"
+ },
+ "phil-culture-7-david": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Death of Socrates David|Death of Socrates",
+  "source": "met",
+  "step": "verify"
+ },
+ "phil-daktylios": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:gold finger ring Greek engraved|ring",
+  "source": "met",
+  "step": "verify"
+ },
+ "philos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta statuette two women|statuette",
+  "source": "met",
+  "step": "review"
+ },
+ "phylax": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta lekythos warrior spear|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "phyllon": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Laurus nobilis leaf|Laurus",
+  "source": "commons",
+  "step": "verify"
+ },
+ "ploion": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Kyrenia Liberty sailing ship|Kyrenia",
+  "source": "commons",
+  "step": "verify"
+ },
+ "pol-boule": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Bouleuterion Athens Agora|Bouleuterion",
+  "source": "commons",
+  "step": "verify"
+ },
+ "pol-demosthenes-bust": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Demosthenes bust Polyeuktos Roman copy|Demosthenes",
+  "source": "commons",
+  "step": "verify"
+ },
+ "pol-eponymous-heroes": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Monument of the Eponymous Heroes Agora Athens|Eponymous",
+  "source": "commons",
+  "step": "verify"
+ },
+ "pol-hoplite-shield": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Pylos shield Spartan Agora Museum|[Ss]hield",
+  "source": "commons",
+  "step": "verify"
+ },
+ "pol-kleroterion-agora": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:kleroterion Agora Museum Athens|[Kk]leroterion",
+  "source": "commons",
+  "step": "verify"
+ },
+ "pol-ostraka-themistocles": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:ostraka Themistocles Aristides Agora Museum|[Oo]strak",
+  "source": "commons",
+  "step": "verify"
+ },
+ "pol-pinakion": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:pinakion bronze juror ticket Athens|[Pp]inak",
+  "source": "commons",
+  "step": "verify"
+ },
+ "pol-shield-workshop": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Berlin Foundry Cup Antikensammlung F 2294|Foundry",
+  "source": "commons",
+  "step": "verify"
+ },
+ "pol-stele-man-staff": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:grave stele man leaning on staff Attic|stele",
+  "source": "met",
+  "step": "verify"
+ },
+ "polemos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta hoplites fighting|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "polis": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Acropolis of Athens from Philopappos Hill|Acropolis",
+  "source": "commons",
+  "step": "verify"
+ },
+ "polites": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:bronze statuette man himation|statuette",
+  "source": "met",
+  "step": "review"
+ },
+ "pompe": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:Amasis Painter lekythos wedding procession|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "posou": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Athenian owl tetradrachm|tetradrachm",
+  "source": "commons",
+  "step": "verify"
+ },
+ "potamos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Pineios river Tempe|Pine|Tempe",
+  "source": "commons",
+  "step": "verify"
+ },
+ "pous": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:marble foot|foot",
+  "source": "met",
+  "step": "verify"
+ },
+ "presbys": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta statuette old man staff|statuette",
+  "source": "met",
+  "step": "review"
+ },
+ "prosopon": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta theatre mask|mask",
+  "source": "met",
+  "step": "verify"
+ },
+ "psephos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:juror ballots Agora Museum bronze|ballot|psephos|Ballot",
+  "source": "commons",
+  "step": "verify"
+ },
+ "psyche": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:white-ground lekythos eidolon|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "pyle": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Sacred Gate Kerameikos|Gate|Kerameikos",
+  "source": "commons",
+  "step": "verify"
+ },
+ "pyr": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta oil lamp Greek|lamp",
+  "source": "met",
+  "step": "review"
+ },
+ "pyretos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:votive relief Asklepios patient|relief|Asklepi",
+  "source": "commons",
+  "step": "verify"
+ },
+ "pyrgos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Aigosthena fortress tower|Aigosthena",
+  "source": "commons",
+  "step": "verify"
+ },
+ "rhiza": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:olive tree roots|root",
+  "source": "commons",
+  "step": "verify"
+ },
+ "school-kylix": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Douris school scene kylix Berlin F 2285|Douris",
+  "source": "commons",
+  "step": "verify"
+ },
+ "selene": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Selene horse Parthenon east pediment|Selene",
+  "source": "commons",
+  "step": "verify"
+ },
+ "semeion": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:ancient Greek watchtower tower Attica|tower|Tower",
+  "source": "commons",
+  "step": "verify"
+ },
+ "sitos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:wheat grain sacks|wheat|grain",
+  "source": "commons",
+  "step": "verify"
+ },
+ "skene": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:skene theatre stage building reconstruction|skene|Skene|theatre|Theatre",
+  "source": "commons",
+  "step": "verify"
+ },
+ "soma": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:marble statue kouros|kouros",
+  "source": "met",
+  "step": "verify"
+ },
+ "sophos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Socrates bust|Socrates",
+  "source": "commons",
+  "step": "verify"
+ },
+ "stoa-poikile": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Stoa of Attalos colonnade|Attalos|Stoa",
+  "source": "commons",
+  "step": "verify"
+ },
+ "strategos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Pericles bust Altes Museum helmet|Pericles|Perikles",
+  "source": "commons",
+  "step": "verify"
+ },
+ "stratiotes": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta hoplite shield spear|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "stratos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta hoplites marching|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "tachys": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:hare running Lepus europaeus|Lepus|hare",
+  "source": "commons",
+  "step": "verify"
+ },
+ "taphos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Kerameikos grave mound stele|Kerameikos",
+  "source": "commons",
+  "step": "verify"
+ },
+ "tauros": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta bull sacrifice|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "teichos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Eleutherae fortress Attica walls|Eleuther",
+  "source": "commons",
+  "step": "verify"
+ },
+ "teknon": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:marble grave stele mother child|stele",
+  "source": "met",
+  "step": "review"
+ },
+ "thalatta": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Cape Sounion sea|Sounion",
+  "source": "commons",
+  "step": "verify"
+ },
+ "thea": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:Athena owl helmet terracotta|Athena",
+  "source": "met",
+  "step": "review"
+ },
+ "theatron": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Theatre of Dionysus Athens|Dionys",
+  "source": "commons",
+  "step": "verify"
+ },
+ "thyra": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:ancient Greek door Kerameikos tomb|door",
+  "source": "commons",
+  "step": "verify"
+ },
+ "thysia": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta bull sacrifice procession|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "toxon": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta Scythian archer|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "tragodia": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Pronomos vase actors masks|Pronomos",
+  "source": "commons",
+  "step": "verify"
+ },
+ "trapeza": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:ancient Greek three-legged table trapeza|table",
+  "source": "commons",
+  "step": "verify"
+ },
+ "trieres": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:trireme model ram|trireme|Trireme",
+  "source": "commons",
+  "step": "verify"
+ },
+ "tripous": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:bronze tripod|tripod",
+  "source": "met",
+  "step": "verify"
+ },
+ "trochos": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:potter's wheel Greek vase painting|wheel",
+  "source": "commons",
+  "step": "verify"
+ },
+ "trophe": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:bread olives cheese Greek food|bread|olive|cheese",
+  "source": "commons",
+  "step": "verify"
+ },
+ "tyros": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:round sheep cheese Greece|cheese",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-agei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta youth leading horse|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-akouei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta kylix music lesson aulos|kylix",
+  "source": "met",
+  "step": "verify"
+ },
+ "verb-anabainei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Pnyx bema steps|Pnyx",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-anagignoskei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta youth reading scroll|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-aphikneitai": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta traveller petasos arriving|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-bainei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta lekythos youth walking|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-ballei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:discus thrower|discus",
+  "source": "met",
+  "step": "verify"
+ },
+ "verb-boa": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta maenad|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "verify"
+ },
+ "verb-bouletai": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta lekythos woman reaching|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-chaire": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:marble grave stele handshake|stele",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-cheirotonei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta man raised hand|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-dei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:marble hand pointing|hand",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-deiknysi": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta man pointing boy|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-deloi": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta lekythos women wool|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-didaskei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Douris school cup writing lesson|Douris",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-didosi": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta kylix handing cup|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-diokei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Corinthian aryballos dogs hare|aryballos",
+  "source": "met",
+  "step": "verify"
+ },
+ "verb-dynatai": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta youth lifting amphora|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-echei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta kylix youth holding cup|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-eiserchetai": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta woman doorway|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-eiskomizei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta donkey cart|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros|donkey|mule",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-epistatai": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta pyxis women wool working|pyxis",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-era": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta lekythos Eros youth|lekythos",
+  "source": "met",
+  "step": "verify"
+ },
+ "verb-erchetai": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Sacred Way Kerameikos road|Sacred|Kerameikos",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-erota": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta kylix youth gesturing|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-esthiei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta kylix banqueter eating|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-euchetai": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Praying Boy Berlin bronze|Praying|Betender",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-exerchetai": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta door figure|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-exesti": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:ancient Greek marble tomb door open|door|Door",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-gignetai": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:sunset over Saronic Gulf|sunset|Sunset",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-graphei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:stylus wax tablet writing|stylus|tablet",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-hegeitai": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta Hermes leading|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-hepetai": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta lekythos two women walking|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-hesteke": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:marble grave stele standing man|stele",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-heuriskei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:silver tetradrachm Athens owl|tetradrachm",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-hora": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta eye-cup|eye",
+  "source": "met",
+  "step": "verify"
+ },
+ "verb-hylaktei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta statuette dog|dog",
+  "source": "met",
+  "step": "verify"
+ },
+ "verb-hyphainei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:lekythos women weaving Amasis Painter|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-kaiei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:burning field fire|fire|Fire",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-kalei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta kylix figure calling gesture|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-katabainei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:ancient stairs Acropolis Athens|stair|step",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-katheudei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta lekythos sleeping figure|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-klaiei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta statuette mourning woman|statuette",
+  "source": "met",
+  "step": "verify"
+ },
+ "verb-kleptei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Caeretan hydria Hermes cattle Louvre|hydria|Hermes",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-komizei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta man carrying sack|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-kryptei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta statuette boy himation|statuette",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-lambanei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:hand taking bread Greek vase|hand",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-legei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta kylix conversation figures|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-leipei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta warrior departure|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "verify"
+ },
+ "verb-luei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Perseus freeing Andromeda vase|Andromeda",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-lyei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Heracles freeing Prometheus|Prometheus",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-machetai": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:bronze statuette warrior|warrior",
+  "source": "met",
+  "step": "verify"
+ },
+ "verb-machontai": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta dogs fighting|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-manthanei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta statuette tablet|statuette",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-menei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:marble grave stele seated woman|stele",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-nika": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta Nike crowning victor|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-nosei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:anatomical votive head Asklepieion|votive",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-oikei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:ancient Greek house reconstruction courtyard|house",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-oneitai": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:pelike market sale Greek vase|pelike",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-paizei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta chous child ball|chous",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-paradidosi": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Parthenon frieze peplos folding|frieze|peplos|Parthenon",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-pauetai": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta seated craftsman resting|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "verify"
+ },
+ "verb-pempei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta Hermes messenger|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-pherei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta hydria woman carrying water jar|hydria",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-pheugei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta running youth|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-philei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta lekythos mother child|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-phobeitai": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta pursuit woman fleeing|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-phylattei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Kerameikos marble dog Molossian|dog",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-pinei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta kylix youth drinking|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-plattei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta mold statuette|mold|mould",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-plei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Olympias trireme under sail|Olympias",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-pleroi": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta kylix pouring wine|kylix",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-poiei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:hands shaping clay pottery wheel|pottery|potter|clay",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-polei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:pelike oil merchant Vatican|pelike",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-ponei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:potter at the wheel Attic black-figure|potter",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-proseloi": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Hephaestus hammer vase|Hephaest",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-proserchetai": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta Palladion Athena statue|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-sozei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Arion dolphin|Arion",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-speudei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta hydria woman running|hydria",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-temnei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta man axe|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-thaptei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta ekphora burial|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-thaumazei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta lekythos youth looking up|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-therapeuei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:Asklepios healing relief|Asklepi|relief",
+  "source": "commons",
+  "step": "verify"
+ },
+ "verb-thyei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta sacrifice altar|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-tima": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta libation altar|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-tithesi": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta woman placing vessel table|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-trechei": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:terracotta figure running dog|dog",
+  "source": "met",
+  "step": "verify"
+ },
+ "verb-zeloi": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta statuette woman girl|statuette",
+  "source": "met",
+  "step": "review"
+ },
+ "verb-zetei": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta lekythos woman looking|lekythos",
+  "source": "met",
+  "step": "review"
+ },
+ "wax-tablet": {
+  "reason": "No current verified source; run resolve/verify for this id",
+  "ref": "search:wax tablet Greek school exercise|tablet",
+  "source": "commons",
+  "step": "verify"
+ },
+ "xenos": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta youth petasos chlamys|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
+  "source": "met",
+  "step": "review"
+ },
+ "zoon": {
+  "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
+  "ref": "search:terracotta animals frieze|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
+  "source": "met",
+  "step": "review"
+ }
+}
