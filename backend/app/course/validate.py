@@ -112,7 +112,15 @@ def _validate_images() -> list[str]:
                 out.append(f"image {img_id}: missing file")
             if not img.get("source_url") and not img["credit"].startswith("Attic Reader"):
                 out.append(f"image {img_id}: missing source_url")
-            if not any(img["license"].startswith(p) for p in ("CC0", "CC BY")):
+            if img["license"] == "Original AI illustration":
+                provenance_path = data.DATA_DIR / "images" / "illustrations.json"
+                provenance = data._read(provenance_path) if provenance_path.exists() else {}
+                original = provenance.get(img_id, {})
+                if (original.get("file") != img.get("file")
+                        or not all(original.get(k) for k in ("generator", "prompt", "review", "sha256"))
+                        or not img["credit"].startswith("Attic Reader")):
+                    out.append(f"image {img_id}: original illustration needs matching provenance and review")
+            elif not any(img["license"].startswith(p) for p in ("CC0", "CC BY")):
                 out.append(f"image {img_id}: licence {img['license']!r} is not Creative Commons")
     return out
 

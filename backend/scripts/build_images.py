@@ -637,6 +637,10 @@ def cmd_manifest(rows: list[dict]) -> int:
     changed: set[Path] = set()
     failures = 0
     for row in rows:
+        # A stale museum candidate must never replace an authored illustration.
+        current = records.get(row["id"])
+        if current and current[1].get("license") == "Original AI illustration":
+            continue
         v = verified.get(row["id"])
         webp = OUT_DIR / f"{row['id']}.webp"
         if not v or not webp.exists():

@@ -1,87 +1,112 @@
 {
-  "cheir": {
-    "source": "met",
-    "ref": "251036",
-    "note": "Object title and recovered photograph checked against the intended subject."
-  },
-  "hippos": {
-    "source": "met",
-    "ref": "330050",
-    "note": "Object title and recovered photograph checked against the intended subject."
-  },
-  "hydria": {
-    "source": "met",
-    "ref": "254912",
-    "note": "Object title and recovered photograph checked against the intended subject."
-  },
-  "kephale": {
-    "source": "met",
-    "ref": "257603",
-    "note": "Object title and recovered photograph checked against the intended subject."
-  },
-  "kore": {
-    "source": "met",
-    "ref": "253049",
-    "note": "Object title and recovered photograph checked against the intended subject."
-  },
-  "kalos": {
-    "source": "met",
-    "ref": "254896",
-    "note": "Object title and recovered photograph checked against the intended subject."
-  },
-  "kylix": {
-    "source": "met",
-    "ref": "244753",
-    "note": "Object title and recovered photograph checked against the intended subject."
-  },
-  "stephanos": {
-    "source": "met",
-    "ref": "245996",
-    "note": "Object title and recovered photograph checked against the intended subject."
-  },
-  "theos": {
-    "source": "met",
-    "ref": "251078",
-    "note": "Object title and recovered photograph checked against the intended subject."
-  },
-  "thygater": {
-    "source": "met",
-    "ref": "252890",
-    "note": "Object title and recovered photograph checked against the intended subject."
-  },
-  "culture-owl-tetradrachm": {
-    "source": "cma",
-    "ref": "120477",
-    "note": "Object title and recovered photograph checked against the intended subject."
-  },
-  "culture-7-3-medea": {
-    "source": "cma",
-    "ref": "1991.1",
-    "note": "Object title and recovered photograph checked against the intended subject."
-  },
-  "verb-histatai": {
-    "source": "met",
-    "ref": "253370",
-    "note": "Object title and recovered photograph checked against the intended subject."
-  },
-  "dipylon-oinochoe": {
-    "source": "commons",
-    "ref": "File:Dipylon Inscription.JPG",
-    "note": "Exact artifact identified and downloaded photograph visually checked."
-  },
-  "ostrakon": {
-    "source": "commons",
-    "ref": "File:3156 - Stoà of Attalus Museum - Ostracism against Themistokles (482 BC) - Photo by Giovanni Dall'Orto, Nov 9 2009.jpg",
-    "note": "Exact artifact identified and downloaded photograph visually checked."
-  },
-  "wax-tablet": {
-    "source": "commons",
-    "ref": "File:Wax writing tablet (2nd C) - BL Add MS 34186.jpg",
-    "note": "Exact artifact identified and downloaded photograph visually checked."
-  },
-  "school-kylix": {
-    "source": "commons",
-    "ref": "File:School cup by Douris Antikensammlung Berlin.jpg",
-    "note": "Exact artifact identified and downloaded photograph visually checked."
-  }
+ "cheir": {
+  "note": "Object title and recovered photograph checked against the intended subject.",
+  "ref": "251036",
+  "source": "met"
+ },
+ "culture-10-4-lekythos": {
+  "note": "Viewed museum photograph and checked Met object 251043: white-ground funerary lekythos with Hermes, Charon and a youth; alt text corrected to the actual object and date.",
+  "ref": "251043",
+  "source": "met"
+ },
+ "culture-7-3-medea": {
+  "note": "Object title and recovered photograph checked against the intended subject.",
+  "ref": "1991.1",
+  "source": "cma"
+ },
+ "culture-fountain-hydria": {
+  "note": "Viewed: women holding hydriai beside a fountain on the correct Met 247244 black-figure hydria; museum description confirms subject.",
+  "ref": "247244",
+  "source": "met"
+ },
+ "culture-kerameikos": {
+  "note": "Viewed: photographed excavated Dipylon gate foundations and Kerameikos in present-day Athens; source identifies southern view.",
+  "ref": "File:Kerameikos Dipylon gate from S.jpg",
+  "source": "commons"
+ },
+ "culture-loom-lekythos": {
+  "note": "Viewed museum photograph and checked Met object 253348: Amasis Painter lekythos depicting women making cloth, with upright loom and spinning/folding scenes.",
+  "ref": "253348",
+  "source": "met"
+ },
+ "culture-owl-tetradrachm": {
+  "note": "Object title and recovered photograph checked against the intended subject.",
+  "ref": "120477",
+  "source": "cma"
+ },
+ "culture-potter-vase": {
+  "note": "Viewed shoulder detail: potter seated at wheel and workshop activity on Munich hydria 1717; the source identifies this workshop scene.",
+  "ref": "File:Leagros Group - ABV 362 36 - potter´s workshop - Aineas escaping from Troy - München AS 1717 - 03.jpg",
+  "source": "commons"
+ },
+ "dipylon-oinochoe": {
+  "note": "Exact artifact identified and downloaded photograph visually checked.",
+  "ref": "File:Dipylon Inscription.JPG",
+  "source": "commons"
+ },
+ "hippos": {
+  "note": "Object title and recovered photograph checked against the intended subject.",
+  "ref": "330050",
+  "source": "met"
+ },
+ "hydria": {
+  "note": "Object title and recovered photograph checked against the intended subject.",
+  "ref": "254912",
+  "source": "met"
+ },
+ "kalos": {
+  "note": "Object title and recovered photograph checked against the intended subject.",
+  "ref": "254896",
+  "source": "met"
+ },
+ "kephale": {
+  "note": "Object title and recovered photograph checked against the intended subject.",
+  "ref": "257603",
+  "source": "met"
+ },
+ "kore": {
+  "note": "Object title and recovered photograph checked against the intended subject.",
+  "ref": "253049",
+  "source": "met"
+ },
+ "kylix": {
+  "note": "Object title and recovered photograph checked against the intended subject.",
+  "ref": "244753",
+  "source": "met"
+ },
+ "ostrakon": {
+  "note": "Exact artifact identified and downloaded photograph visually checked.",
+  "ref": "File:3156 - Stoà of Attalus Museum - Ostracism against Themistokles (482 BC) - Photo by Giovanni Dall'Orto, Nov 9 2009.jpg",
+  "source": "commons"
+ },
+ "school-kylix": {
+  "note": "Exact artifact identified and downloaded photograph visually checked.",
+  "ref": "File:School cup by Douris Antikensammlung Berlin.jpg",
+  "source": "commons"
+ },
+ "stephanos": {
+  "note": "Object title and recovered photograph checked against the intended subject.",
+  "ref": "245996",
+  "source": "met"
+ },
+ "theos": {
+  "note": "Object title and recovered photograph checked against the intended subject.",
+  "ref": "251078",
+  "source": "met"
+ },
+ "thygater": {
+  "note": "Object title and recovered photograph checked against the intended subject.",
+  "ref": "252890",
+  "source": "met"
+ },
+ "verb-histatai": {
+  "note": "Object title and recovered photograph checked against the intended subject.",
+  "ref": "253370",
+  "source": "met"
+ },
+ "wax-tablet": {
+  "note": "Exact artifact identified and downloaded photograph visually checked.",
+  "ref": "File:Wax writing tablet (2nd C) - BL Add MS 34186.jpg",
+  "source": "commons"
+ }
 }

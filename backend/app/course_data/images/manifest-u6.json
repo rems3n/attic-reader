@@ -477,12 +477,12 @@
   {
    "id": "culture-loom-lekythos",
    "kind": "culture",
-   "file": null,
+   "file": "course/pics/culture-loom-lekythos.webp",
    "alt_grc": "γυναῖκες ὑφαίνουσιν· λήκυθος τοῦ Ἀμάσιδος.",
    "alt_en": "Black-figure lekythos attributed to the Amasis Painter, c. 550–530 BC (Metropolitan Museum): two women weave at an upright warp-weighted loom while others spin and fold cloth (museum photograph, CC0).",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "credit": "Terracotta lekythos (oil flask) · Amasis Painter · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/253348",
    "words": []
   },
   {

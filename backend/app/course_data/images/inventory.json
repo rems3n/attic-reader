@@ -1,10 +1,10 @@
 {
  "counts": {
   "diagram": 52,
-  "downloaded_needs_review": 160,
-  "needs_source_verification": 364,
+  "downloaded_needs_review": 132,
+  "needs_source_verification": 330,
   "no_source_row": 40,
-  "ready": 17
+  "ready": 79
  },
  "images": [
   {
@@ -1773,16 +1773,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "White-ground funerary lekythos with Hermes or Charon and small winged souls, Athens, later 5th century BC (target: museum CC0 image).",
+   "description": "White-ground funerary lekythos showing Hermes, Charon and a youth, attributed to the Sabouroff Painter, c. 450 BC (Metropolitan Museum)",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:white-ground lekythos Charon Hermes|lekythos",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/culture-10-4-lekythos.webp",
    "id": "culture-10-4-lekythos",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "An old man with a stick.",
@@ -5262,9 +5262,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/culture-loom-lekythos.webp",
    "id": "culture-loom-lekythos",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Laconian black-figure cup, c. 560–550 BC (Vatican Museums): Atlas holding up the sky and Prometheus bound to a column with the eagle at his liver (museum photograph, CC).",
@@ -6283,9 +6283,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/anthropos.webp",
    "id": "anthropos",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A man",
@@ -6295,9 +6295,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/aner.webp",
    "id": "aner",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A woman",
@@ -6307,9 +6307,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/gyne.webp",
    "id": "gyne",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A child, a boy",
@@ -6319,9 +6319,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/pais.webp",
    "id": "pais",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A girl",
@@ -6338,9 +6338,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/kyon.webp",
    "id": "kyon",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A horse",
@@ -6357,9 +6357,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/oikos.webp",
    "id": "oikos",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "The agora, a market square with stoas",
@@ -6369,9 +6369,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/agora.webp",
    "id": "agora",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A city with walls and an acropolis",
@@ -6381,9 +6381,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/polis.webp",
    "id": "polis",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "The sea",
@@ -6393,9 +6393,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/thalatta.webp",
    "id": "thalatta",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "The sun",
@@ -6405,9 +6405,9 @@
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/helios.webp",
    "id": "helios",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "The moon",
@@ -6417,9 +6417,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/selene.webp",
    "id": "selene",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "The earth, land",
@@ -6429,9 +6429,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/ge.webp",
    "id": "ge",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "The sky",
@@ -6441,9 +6441,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/ouranos.webp",
    "id": "ouranos",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A tree",
@@ -6453,9 +6453,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/dendron.webp",
    "id": "dendron",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A flower",
@@ -6465,9 +6465,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/anthos.webp",
    "id": "anthos",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Fire",
@@ -6477,9 +6477,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/pyr.webp",
    "id": "pyr",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Water",
@@ -6489,9 +6489,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/hydor.webp",
    "id": "hydor",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A papyrus scroll",
@@ -6501,9 +6501,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/biblion.webp",
    "id": "biblion",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A god (Zeus with a thunderbolt)",
@@ -6520,9 +6520,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/thea.webp",
    "id": "thea",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A potter at the wheel",
@@ -6532,9 +6532,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/kerameus.webp",
    "id": "kerameus",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A sailor on a ship",
@@ -6544,9 +6544,9 @@
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/nautes.webp",
    "id": "nautes",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A farmer ploughing",
@@ -6556,9 +6556,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/georgos.webp",
    "id": "georgos",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A potter's workshop with a kiln",
@@ -6568,9 +6568,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-2-b.webp",
    "id": "ergasterion",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A big jar next to a small one",
@@ -6580,9 +6580,9 @@
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/megas-mikros.webp",
    "id": "megas-mikros",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A finely painted vase",
@@ -6599,9 +6599,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/trochos.webp",
    "id": "trochos",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A lump of clay",
@@ -6611,9 +6611,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/pelos.webp",
    "id": "pelos",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A drinking cup (kylix)",
@@ -6630,9 +6630,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/artos.webp",
    "id": "artos",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A stone",
@@ -6642,9 +6642,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/lithos.webp",
    "id": "lithos",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A road",
@@ -6654,9 +6654,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/hodos.webp",
    "id": "hodos",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A gift",
@@ -6666,9 +6666,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/doron.webp",
    "id": "doron",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A door",
@@ -6678,9 +6678,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/thyra.webp",
    "id": "thyra",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A fountain house",
@@ -6690,9 +6690,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/krene.webp",
    "id": "krene",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A water jar",
@@ -6709,9 +6709,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/kline.webp",
    "id": "kline",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Daytime, the sun over the city",
@@ -6721,9 +6721,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/hemera.webp",
    "id": "hemera",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A man working at a wheel",
@@ -6733,9 +6733,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/kerameus.webp",
    "id": "verb-ponei",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Someone carrying a jar",
@@ -6745,9 +6745,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-4-b.webp",
    "id": "verb-pherei",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Someone walking",
@@ -6757,9 +6757,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/anthropos.webp",
    "id": "verb-bainei",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A dog running",
@@ -6769,9 +6769,9 @@
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/kyon.webp",
    "id": "verb-trechei",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Someone asleep",
@@ -6781,9 +6781,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/verb-katheudei.webp",
    "id": "verb-katheudei",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Someone speaking",
@@ -6793,9 +6793,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/verb-legei.webp",
    "id": "verb-legei",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Someone holding a cup",
@@ -6805,9 +6805,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/verb-echei.webp",
    "id": "verb-echei",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "An eye, someone looking",
@@ -6817,9 +6817,9 @@
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/verb-hora.webp",
    "id": "verb-hora",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "An ear, someone listening",
@@ -6829,9 +6829,9 @@
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/verb-akouei.webp",
    "id": "verb-akouei",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Someone searching",
@@ -6841,9 +6841,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/verb-zetei.webp",
    "id": "verb-zetei",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A hand taking a loaf",
@@ -6853,9 +6853,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/verb-lambanei.webp",
    "id": "verb-lambanei",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Someone finding a coin",
@@ -6865,9 +6865,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/verb-heuriskei.webp",
    "id": "verb-heuriskei",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A mother embracing a child",
@@ -6877,9 +6877,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/verb-philei.webp",
    "id": "verb-philei",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Someone calling out",
@@ -6889,9 +6889,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/verb-kalei.webp",
    "id": "verb-kalei",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A woman at a loom",
@@ -6901,9 +6901,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-4-a.webp",
    "id": "verb-hyphainei",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Ariston the potter and Chrysis outside their house",
@@ -6913,9 +6913,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-1-a.webp",
    "id": "panel-1-1-a",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Lysis, Elpis and the dog Labros",
@@ -6925,9 +6925,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-1-b.webp",
    "id": "panel-1-1-b",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Ariston at the wheel, Syros carrying clay",
@@ -6937,9 +6937,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-2-a.webp",
    "id": "panel-1-2-a",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "The dog asleep by the kiln",
@@ -6949,9 +6949,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-2-b.webp",
    "id": "panel-1-2-b",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Lysis and Labros among the stalls of the agora",
@@ -6961,9 +6961,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-3-a.webp",
    "id": "panel-1-3-a",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Labros stealing a loaf",
@@ -6973,9 +6973,9 @@
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-3-b.webp",
    "id": "panel-1-3-b",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Chrysis at the loom in the courtyard",
@@ -6985,9 +6985,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-4-a.webp",
    "id": "panel-1-4-a",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Elpis carrying a water jar to the fountain house",
@@ -6997,9 +6997,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-4-b.webp",
    "id": "panel-1-4-b",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "The Kerameikos today, with the Dipylon gate",
@@ -7009,9 +7009,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-kerameikos.webp",
    "id": "culture-kerameikos",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A potter at work, black-figure hydria detail",
@@ -7021,9 +7021,9 @@
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-potter-vase.webp",
    "id": "culture-potter-vase",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Plan of the Athenian Agora, c. 430 BC",
@@ -7040,9 +7040,9 @@
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/culture-fountain-hydria.webp",
    "id": "culture-fountain-hydria",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Subject → verb → object with the endings -ος / -ον",

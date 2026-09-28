@@ -135,13 +135,22 @@
   "title": "Terracotta lekythos (oil flask)"
  },
  "culture-fountain-hydria": {
-  "credit": "Terracotta hydria (water jar) · Greek, Attic · The Metropolitan Museum of Art (Open Access)",
-  "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP-16975-001.jpg",
+  "credit": "Terracotta hydria (water jar) · Class of Hamburg 1917.477 · The Metropolitan Museum of Art (Open Access)",
+  "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP102371.jpg",
   "license": "CC0",
-  "ref": "247220",
+  "ref": "247244",
   "source": "met",
-  "source_url": "https://www.metmuseum.org/art/collection/search/247220",
+  "source_url": "https://www.metmuseum.org/art/collection/search/247244",
   "title": "Terracotta hydria (water jar)"
+ },
+ "culture-kerameikos": {
+  "credit": "Kerameikos Dipylon gate from S · Mark Landon (photographed in 1992; digitized in 2021) · Wikimedia Commons (CC BY 4.0)",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Kerameikos_Dipylon_gate_from_S.jpg/1920px-Kerameikos_Dipylon_gate_from_S.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY 4.0",
+  "ref": "File:Kerameikos Dipylon gate from S.jpg",
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Kerameikos_Dipylon_gate_from_S.jpg",
+  "title": "File:Kerameikos Dipylon gate from S.jpg"
  },
  "culture-loom-lekythos": {
   "credit": "Terracotta lekythos (oil flask) · Amasis Painter · The Metropolitan Museum of Art (Open Access)",
@@ -160,6 +169,15 @@
   "source": "cma",
   "source_url": "https://clevelandart.org/art/1941.296",
   "title": "Tetradrachm: Head of Athena (obverse); Owl (reverse)"
+ },
+ "culture-potter-vase": {
+  "credit": "Leagros Group - ABV 362 36 - potter´s workshop - Aineas escaping from Troy - München AS 1717 - 03 · ArchaiOptix · Wikimedia Commons (CC BY-SA 4.0)",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Leagros_Group_-_ABV_362_36_-_potter%C2%B4s_workshop_-_Aineas_escaping_from_Troy_-_M%C3%BCnchen_AS_1717_-_03.jpg/1920px-Leagros_Group_-_ABV_362_36_-_potter%C2%B4s_workshop_-_Aineas_escaping_from_Troy_-_M%C3%BCnchen_AS_1717_-_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "ref": "File:Leagros Group - ABV 362 36 - potter´s workshop - Aineas escaping from Troy - München AS 1717 - 03.jpg",
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Leagros_Group_-_ABV_362_36_-_potter%C2%B4s_workshop_-_Aineas_escaping_from_Troy_-_M%C3%BCnchen_AS_1717_-_03.jpg",
+  "title": "File:Leagros Group - ABV 362 36 - potter´s workshop - Aineas escaping from Troy - München AS 1717 - 03.jpg"
  },
  "culture-symposium-kylix": {
   "credit": "Terracotta kylix (drinking cup) · Douris · The Metropolitan Museum of Art (Open Access)",
