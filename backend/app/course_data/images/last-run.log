@@ -1,17 +1,926 @@
-== doctor
-python         3.14.5
-platform       macOS-26.6.2-arm64-arm-64bit-Mach-O
-openssl        OpenSSL 3.6.2 7 Apr 2026
-met_api        ok 200 (2061 bytes read)
-met_search     ok 200 (40 bytes read)
-met_image      ok 200 (4096 bytes read)
-cma_api        ok 200 (4096 bytes read)
-commons_api    ok 200 (759 bytes read)
-commons_search ok 40 hits
-commons_image  FAIL TypeError: expected string or bytes-like object, got 'float'
-pillow         ok 12.3.0, webp=yes
-  pol-5-b                    story       A lame man is helped up onto a borrowed horse in a city street; two men point and whisper.
-  pol-5-c                    story       The old craftsman at work alone in his small shop, bent over his bench, with no apprentice beside him.
-  pol-6-a                    story       404 BC: thirty grim men in fine cloaks sit on a platform in the Agora; Spartan soldiers with red cloaks stand guard behind them.
-  pol-6-b                    story       Two of the Thirty whisper together over a list of names; one taps it with his finger, the other smiles.
-  pol-6-c                    story       Armed men burst into a dining room where Lysias reclines with guests; the guests are pushed out of the door while Lysias is seized.
+
+== recover
+✗ dipylon-oinochoe: No current verified source; run resolve/verify for this id
+✗ ostrakon: No current verified source; run resolve/verify for this id
+✗ wax-tablet: No current verified source; run resolve/verify for this id
+✗ school-kylix: No current verified source; run resolve/verify for this id
+✗ oikos: No current verified source; run resolve/verify for this id
+✗ agora: No current verified source; run resolve/verify for this id
+✗ polis: No current verified source; run resolve/verify for this id
+✗ thalatta: No current verified source; run resolve/verify for this id
+✗ helios: No current verified source; run resolve/verify for this id
+✗ selene: No current verified source; run resolve/verify for this id
+✗ ge: No current verified source; run resolve/verify for this id
+✗ ouranos: No current verified source; run resolve/verify for this id
+✗ dendron: No current verified source; run resolve/verify for this id
+✗ hydor: No current verified source; run resolve/verify for this id
+✗ biblion: No current verified source; run resolve/verify for this id
+✗ kerameus: No current verified source; run resolve/verify for this id
+✗ nautes: No current verified source; run resolve/verify for this id
+✗ georgos: No current verified source; run resolve/verify for this id
+✗ ergasterion: No current verified source; run resolve/verify for this id
+✗ megas-mikros: No current verified source; run resolve/verify for this id
+✗ trochos: No current verified source; run resolve/verify for this id
+✗ pelos: No current verified source; run resolve/verify for this id
+✗ artos: No current verified source; run resolve/verify for this id
+✗ lithos: No current verified source; run resolve/verify for this id
+✗ hodos: No current verified source; run resolve/verify for this id
+✗ thyra: No current verified source; run resolve/verify for this id
+✗ hemera: No current verified source; run resolve/verify for this id
+✗ verb-ponei: No current verified source; run resolve/verify for this id
+✗ verb-trechei: No current verified source; run resolve/verify for this id
+✗ verb-hora: No current verified source; run resolve/verify for this id
+✗ verb-akouei: No current verified source; run resolve/verify for this id
+✗ verb-lambanei: No current verified source; run resolve/verify for this id
+✗ panel-1-1-a: No current verified source; run resolve/verify for this id
+✗ panel-1-2-a: No current verified source; run resolve/verify for this id
+✗ panel-1-3-a: No current verified source; run resolve/verify for this id
+✗ panel-1-3-b: No current verified source; run resolve/verify for this id
+✗ culture-kerameikos: No current verified source; run resolve/verify for this id
+✗ culture-potter-vase: No current verified source; run resolve/verify for this id
+✗ panel-2-1-b: No current verified source; run resolve/verify for this id
+✗ panel-2-2-b: No current verified source; run resolve/verify for this id
+✗ panel-2-2-c: No current verified source; run resolve/verify for this id
+✗ panel-2-3-b: No current verified source; run resolve/verify for this id
+✗ panel-2-4-a: No current verified source; run resolve/verify for this id
+✗ panel-2-4-c: No current verified source; run resolve/verify for this id
+✗ hespera: No current verified source; run resolve/verify for this id
+✗ doule: No current verified source; run resolve/verify for this id
+✗ agros: No current verified source; run resolve/verify for this id
+✗ chalepos-rhadios: No current verified source; run resolve/verify for this id
+✗ verb-phylattei: No current verified source; run resolve/verify for this id
+✗ nyx: No current verified source; run resolve/verify for this id
+✗ aetos: No current verified source; run resolve/verify for this id
+✗ verb-kleptei: No current verified source; run resolve/verify for this id
+✗ verb-luei: No current verified source; run resolve/verify for this id
+✗ verb-diokei: No current verified source; run resolve/verify for this id
+✗ deipnon: No current verified source; run resolve/verify for this id
+✗ oinos: No current verified source; run resolve/verify for this id
+✗ trapeza: No current verified source; run resolve/verify for this id
+✗ elaia: No current verified source; run resolve/verify for this id
+✗ tyros: No current verified source; run resolve/verify for this id
+✗ verb-poiei: No current verified source; run resolve/verify for this id
+✗ verb-oikei: No current verified source; run resolve/verify for this id
+✗ verb-boa: No current verified source; run resolve/verify for this id
+✗ culture-astragaloi: No current verified source; run resolve/verify for this id
+✗ culture-hegeso-stele: No current verified source; run resolve/verify for this id
+✗ culture-prometheus-kylix: No current verified source; run resolve/verify for this id
+✗ panel-3-1-b: No current verified source; run resolve/verify for this id
+✗ panel-3-2-a: No current verified source; run resolve/verify for this id
+✗ panel-3-3-a: No current verified source; run resolve/verify for this id
+✗ panel-3-3-c: No current verified source; run resolve/verify for this id
+✗ panel-3-4-a: No current verified source; run resolve/verify for this id
+✗ panel-3-4-b: No current verified source; run resolve/verify for this id
+✗ panel-3-4-c: No current verified source; run resolve/verify for this id
+✗ bomos: No current verified source; run resolve/verify for this id
+✗ verb-hylaktei: No current verified source; run resolve/verify for this id
+✗ verb-gignetai: No current verified source; run resolve/verify for this id
+✗ verb-erchetai: No current verified source; run resolve/verify for this id
+✗ verb-anabainei: No current verified source; run resolve/verify for this id
+✗ verb-katabainei: No current verified source; run resolve/verify for this id
+✗ naos: No current verified source; run resolve/verify for this id
+✗ pyle: No current verified source; run resolve/verify for this id
+✗ agalma: No current verified source; run resolve/verify for this id
+✗ culture-skira: No current verified source; run resolve/verify for this id
+✗ culture-agora-citizens: No current verified source; run resolve/verify for this id
+✗ culture-acropolis-432: No current verified source; run resolve/verify for this id
+✗ panel-4-1-a: No current verified source; run resolve/verify for this id
+✗ panel-4-1-b: No current verified source; run resolve/verify for this id
+✗ panel-4-1-c: No current verified source; run resolve/verify for this id
+✗ panel-4-2-a: No current verified source; run resolve/verify for this id
+✗ panel-4-2-c: No current verified source; run resolve/verify for this id
+✗ panel-4-3-a: No current verified source; run resolve/verify for this id
+✗ panel-4-3-b: No current verified source; run resolve/verify for this id
+✗ panel-4-4-a: No current verified source; run resolve/verify for this id
+✗ panel-4-4-b: No current verified source; run resolve/verify for this id
+✗ panel-4-4-c: No current verified source; run resolve/verify for this id
+✗ teichos: No current verified source; run resolve/verify for this id
+✗ limen: No current verified source; run resolve/verify for this id
+✗ makros: No current verified source; run resolve/verify for this id
+✗ emporion: No current verified source; run resolve/verify for this id
+✗ emporos: No current verified source; run resolve/verify for this id
+✗ metoikos: No current verified source; run resolve/verify for this id
+✗ verb-polei: No current verified source; run resolve/verify for this id
+✗ verb-oneitai: No current verified source; run resolve/verify for this id
+✗ verb-pauetai: No current verified source; run resolve/verify for this id
+✗ argyrion: No current verified source; run resolve/verify for this id
+✗ drachme: No current verified source; run resolve/verify for this id
+✗ obolos: No current verified source; run resolve/verify for this id
+✗ ichthys: No current verified source; run resolve/verify for this id
+✗ sitos: No current verified source; run resolve/verify for this id
+✗ pas: No current verified source; run resolve/verify for this id
+✗ asty: No current verified source; run resolve/verify for this id
+✗ verb-didaskei: No current verified source; run resolve/verify for this id
+✗ verb-graphei: No current verified source; run resolve/verify for this id
+✗ gramma: No current verified source; run resolve/verify for this id
+✗ deltos: No current verified source; run resolve/verify for this id
+✗ palaistra: No current verified source; run resolve/verify for this id
+✗ sophos: No current verified source; run resolve/verify for this id
+✗ verb-exesti: No current verified source; run resolve/verify for this id
+✗ naus: No current verified source; run resolve/verify for this id
+✗ trieres: No current verified source; run resolve/verify for this id
+✗ eretes: No current verified source; run resolve/verify for this id
+✗ verb-plei: No current verified source; run resolve/verify for this id
+✗ nesos: No current verified source; run resolve/verify for this id
+✗ culture-trireme: No current verified source; run resolve/verify for this id
+✗ panel-5-1-a: No current verified source; run resolve/verify for this id
+✗ panel-5-1-b: No current verified source; run resolve/verify for this id
+✗ panel-5-2-b: No current verified source; run resolve/verify for this id
+✗ panel-5-2-c: No current verified source; run resolve/verify for this id
+✗ panel-5-3-b: No current verified source; run resolve/verify for this id
+✗ panel-5-3-c: No current verified source; run resolve/verify for this id
+✗ panel-5-4-a: No current verified source; run resolve/verify for this id
+✗ panel-5-4-b: No current verified source; run resolve/verify for this id
+✗ panel-5-4-c: No current verified source; run resolve/verify for this id
+✗ culture-5-1-sacrifice: No current verified source; run resolve/verify for this id
+✗ culture-5-2-salamis: No current verified source; run resolve/verify for this id
+✗ culture-5-3-daphne: No current verified source; run resolve/verify for this id
+✗ culture-5-4-medicine: No current verified source; run resolve/verify for this id
+✗ aix: No current verified source; run resolve/verify for this id
+✗ verb-euchetai: No current verified source; run resolve/verify for this id
+✗ naumachia: No current verified source; run resolve/verify for this id
+✗ kope: No current verified source; run resolve/verify for this id
+✗ verb-machetai: No current verified source; run resolve/verify for this id
+✗ verb-leipei: No current verified source; run resolve/verify for this id
+✗ verb-sozei: No current verified source; run resolve/verify for this id
+✗ eleutheros: No current verified source; run resolve/verify for this id
+✗ nymphe: No current verified source; run resolve/verify for this id
+✗ verb-era: No current verified source; run resolve/verify for this id
+✗ phyllon: No current verified source; run resolve/verify for this id
+✗ kome: No current verified source; run resolve/verify for this id
+✗ soma: No current verified source; run resolve/verify for this id
+✗ pous: No current verified source; run resolve/verify for this id
+✗ verb-ballei: No current verified source; run resolve/verify for this id
+✗ verb-klaiei: No current verified source; run resolve/verify for this id
+✗ daphne: No current verified source; run resolve/verify for this id
+✗ potamos: No current verified source; run resolve/verify for this id
+✗ rhiza: No current verified source; run resolve/verify for this id
+✗ klados: No current verified source; run resolve/verify for this id
+✗ iatros: No current verified source; run resolve/verify for this id
+✗ nosos: No current verified source; run resolve/verify for this id
+✗ verb-nosei: No current verified source; run resolve/verify for this id
+✗ pharmakon: No current verified source; run resolve/verify for this id
+✗ verb-therapeuei: No current verified source; run resolve/verify for this id
+✗ hygies: No current verified source; run resolve/verify for this id
+✗ genos: No current verified source; run resolve/verify for this id
+✗ pyretos: No current verified source; run resolve/verify for this id
+✗ panel-6-1-b: No current verified source; run resolve/verify for this id
+✗ panel-6-1-c: No current verified source; run resolve/verify for this id
+✗ panel-6-2-a: No current verified source; run resolve/verify for this id
+✗ panel-6-3-a: No current verified source; run resolve/verify for this id
+✗ panel-6-3-c: No current verified source; run resolve/verify for this id
+✗ panel-6-4-a: No current verified source; run resolve/verify for this id
+✗ panel-6-4-b: No current verified source; run resolve/verify for this id
+✗ panel-6-4-c: No current verified source; run resolve/verify for this id
+✗ posou: No current verified source; run resolve/verify for this id
+✗ ploion: No current verified source; run resolve/verify for this id
+✗ cheimon: No current verified source; run resolve/verify for this id
+✗ erion: No current verified source; run resolve/verify for this id
+✗ histos: No current verified source; run resolve/verify for this id
+✗ peplos: No current verified source; run resolve/verify for this id
+✗ kerkis: No current verified source; run resolve/verify for this id
+✗ hepar: No current verified source; run resolve/verify for this id
+✗ narthex: No current verified source; run resolve/verify for this id
+✗ oros: No current verified source; run resolve/verify for this id
+✗ verb-lyei: No current verified source; run resolve/verify for this id
+✗ verb-proseloi: No current verified source; run resolve/verify for this id
+✗ culture-miletus-map: No current verified source; run resolve/verify for this id
+✗ culture-prometheus-cup: No current verified source; run resolve/verify for this id
+✗ panel-7-1-c: No current verified source; run resolve/verify for this id
+✗ theatron: No current verified source; run resolve/verify for this id
+✗ kanoun: No current verified source; run resolve/verify for this id
+✗ culture-7-1-pompe: No current verified source; run resolve/verify for this id
+✗ panel-7-2-a: No current verified source; run resolve/verify for this id
+✗ panel-7-2-b: No current verified source; run resolve/verify for this id
+✗ panel-7-2-c: No current verified source; run resolve/verify for this id
+✗ tachys: No current verified source; run resolve/verify for this id
+✗ prosopon: No current verified source; run resolve/verify for this id
+✗ tripous: No current verified source; run resolve/verify for this id
+✗ culture-7-2-tripod: No current verified source; run resolve/verify for this id
+✗ panel-7-3-a: No current verified source; run resolve/verify for this id
+✗ panel-7-3-b: No current verified source; run resolve/verify for this id
+✗ tragodia: No current verified source; run resolve/verify for this id
+✗ skene: No current verified source; run resolve/verify for this id
+✗ harma: No current verified source; run resolve/verify for this id
+✗ panel-7-4-a: No current verified source; run resolve/verify for this id
+✗ culture-7-4-ivy: No current verified source; run resolve/verify for this id
+✗ panel-8-1-a: No current verified source; run resolve/verify for this id
+✗ panel-8-1-b: No current verified source; run resolve/verify for this id
+✗ panel-8-1-c: No current verified source; run resolve/verify for this id
+✗ panel-8-2-a: No current verified source; run resolve/verify for this id
+✗ panel-8-2-b: No current verified source; run resolve/verify for this id
+✗ panel-8-2-c: No current verified source; run resolve/verify for this id
+✗ panel-8-3-a: No current verified source; run resolve/verify for this id
+✗ panel-8-3-b: No current verified source; run resolve/verify for this id
+✗ panel-8-3-c: No current verified source; run resolve/verify for this id
+✗ panel-8-4-a: No current verified source; run resolve/verify for this id
+✗ panel-8-4-b: No current verified source; run resolve/verify for this id
+✗ ekklesia: No current verified source; run resolve/verify for this id
+✗ strategos: No current verified source; run resolve/verify for this id
+✗ semeion: No current verified source; run resolve/verify for this id
+✗ chorion: No current verified source; run resolve/verify for this id
+✗ trophe: No current verified source; run resolve/verify for this id
+✗ culture-8-2-thucydides: No current verified source; run resolve/verify for this id
+✗ culture-8-3-decree: No current verified source; run resolve/verify for this id
+✗ culture-8-4-pericles: No current verified source; run resolve/verify for this id
+✗ panel-9-1-a: No current verified source; run resolve/verify for this id
+✗ panel-9-1-b: No current verified source; run resolve/verify for this id
+✗ panel-9-1-c: No current verified source; run resolve/verify for this id
+✗ verb-kaiei: No current verified source; run resolve/verify for this id
+✗ panel-9-2-a: No current verified source; run resolve/verify for this id
+✗ panel-9-2-c: No current verified source; run resolve/verify for this id
+✗ panel-9-3-a: No current verified source; run resolve/verify for this id
+✗ panel-9-3-b: No current verified source; run resolve/verify for this id
+✗ panel-9-3-c: No current verified source; run resolve/verify for this id
+✗ pyrgos: No current verified source; run resolve/verify for this id
+✗ verb-paradidosi: No current verified source; run resolve/verify for this id
+✗ culture-9-3-panathenaea: No current verified source; run resolve/verify for this id
+✗ panel-9-4-c: No current verified source; run resolve/verify for this id
+✗ taphos: No current verified source; run resolve/verify for this id
+✗ culture-9-4-casualty-list: No current verified source; run resolve/verify for this id
+✗ panel-10-1-a: No current verified source; run resolve/verify for this id
+✗ panel-10-1-b: No current verified source; run resolve/verify for this id
+✗ panel-10-1-c: No current verified source; run resolve/verify for this id
+✗ culture-10-1-stoa: No current verified source; run resolve/verify for this id
+✗ stoa-poikile: No current verified source; run resolve/verify for this id
+✗ panel-10-2-a: No current verified source; run resolve/verify for this id
+✗ panel-10-2-b: No current verified source; run resolve/verify for this id
+✗ culture-10-2-socrates: No current verified source; run resolve/verify for this id
+✗ arithmos: No current verified source; run resolve/verify for this id
+✗ panel-10-3-c: No current verified source; run resolve/verify for this id
+✗ culture-10-3-workshop: No current verified source; run resolve/verify for this id
+✗ panel-10-4-a: No current verified source; run resolve/verify for this id
+✗ panel-10-4-c: No current verified source; run resolve/verify for this id
+✗ loimos: No current verified source; run resolve/verify for this id
+✗ panel-11-1-a: No current verified source; run resolve/verify for this id
+✗ panel-11-1-c: No current verified source; run resolve/verify for this id
+✗ panel-11-2-b: No current verified source; run resolve/verify for this id
+✗ panel-11-3-a: No current verified source; run resolve/verify for this id
+✗ panel-11-3-b: No current verified source; run resolve/verify for this id
+✗ panel-11-3-c: No current verified source; run resolve/verify for this id
+✗ panel-11-4-a: No current verified source; run resolve/verify for this id
+✗ panel-11-4-b: No current verified source; run resolve/verify for this id
+✗ panel-11-4-c: No current verified source; run resolve/verify for this id
+✗ horos: No current verified source; run resolve/verify for this id
+✗ geiton: No current verified source; run resolve/verify for this id
+✗ dikasterion: No current verified source; run resolve/verify for this id
+✗ dikastes: No current verified source; run resolve/verify for this id
+✗ klepsydra: No current verified source; run resolve/verify for this id
+✗ psephos: No current verified source; run resolve/verify for this id
+✗ culture-11-1-horos-agora: No current verified source; run resolve/verify for this id
+✗ culture-11-2-clay-pit: No current verified source; run resolve/verify for this id
+✗ culture-11-3-klepsydra: No current verified source; run resolve/verify for this id
+✗ panel-12-1-c: No current verified source; run resolve/verify for this id
+✗ panel-12-2-b: No current verified source; run resolve/verify for this id
+✗ panel-12-2-c: No current verified source; run resolve/verify for this id
+✗ panel-12-3-a: No current verified source; run resolve/verify for this id
+✗ panel-12-3-b: No current verified source; run resolve/verify for this id
+✗ panel-12-3-c: No current verified source; run resolve/verify for this id
+✗ panel-12-4-a: No current verified source; run resolve/verify for this id
+✗ panel-12-4-b: No current verified source; run resolve/verify for this id
+✗ culture-12-1-achaemenid-guards: No current verified source; run resolve/verify for this id
+✗ culture-12-2-black-sea: No current verified source; run resolve/verify for this id
+✗ culture-12-3-socrates-portrait: No current verified source; run resolve/verify for this id
+✗ culture-12-4-bendis-relief: No current verified source; run resolve/verify for this id
+✗ hist-panel-1-a: No current verified source; run resolve/verify for this id
+✗ hist-panel-1-b: No current verified source; run resolve/verify for this id
+✗ hist-panel-1-c: No current verified source; run resolve/verify for this id
+✗ hist-parthenon: No current verified source; run resolve/verify for this id
+✗ hist-panel-2-a: No current verified source; run resolve/verify for this id
+✗ hist-panel-2-b: No current verified source; run resolve/verify for this id
+✗ hist-panel-2-c: No current verified source; run resolve/verify for this id
+✗ hist-olympias: No current verified source; run resolve/verify for this id
+✗ hist-panel-3-b: No current verified source; run resolve/verify for this id
+✗ hist-panel-3-c: No current verified source; run resolve/verify for this id
+✗ hist-latomie: No current verified source; run resolve/verify for this id
+✗ hist-panel-4-b: No current verified source; run resolve/verify for this id
+✗ hist-panel-4-c: No current verified source; run resolve/verify for this id
+✗ hist-aspis: No current verified source; run resolve/verify for this id
+✗ hist-athlit-ram: No current verified source; run resolve/verify for this id
+✗ hist-panel-5-a: No current verified source; run resolve/verify for this id
+✗ hist-panel-5-b: No current verified source; run resolve/verify for this id
+✗ hist-panel-5-c: No current verified source; run resolve/verify for this id
+✗ hist-kerameikos-wall: No current verified source; run resolve/verify for this id
+✗ hist-panel-6-a: No current verified source; run resolve/verify for this id
+✗ hist-panel-6-b: No current verified source; run resolve/verify for this id
+✗ hist-panel-6-c: No current verified source; run resolve/verify for this id
+✗ hist-kottabos-kylix: No current verified source; run resolve/verify for this id
+✗ hist-panel-7-b: No current verified source; run resolve/verify for this id
+✗ hist-panel-7-c: No current verified source; run resolve/verify for this id
+✗ hist-thorax: No current verified source; run resolve/verify for this id
+✗ myth-1-a: No current verified source; run resolve/verify for this id
+✗ myth-1-b: No current verified source; run resolve/verify for this id
+✗ myth-1-c: No current verified source; run resolve/verify for this id
+✗ myth-antron: No current verified source; run resolve/verify for this id
+✗ myth-aspis: No current verified source; run resolve/verify for this id
+✗ myth-dory: No current verified source; run resolve/verify for this id
+✗ myth-culture-1: No current verified source; run resolve/verify for this id
+✗ myth-2-a: No current verified source; run resolve/verify for this id
+✗ myth-2-b: No current verified source; run resolve/verify for this id
+✗ myth-2-c: No current verified source; run resolve/verify for this id
+✗ myth-triaina: No current verified source; run resolve/verify for this id
+✗ myth-drakon: No current verified source; run resolve/verify for this id
+✗ myth-culture-2: No current verified source; run resolve/verify for this id
+✗ myth-3-a: No current verified source; run resolve/verify for this id
+✗ myth-3-b: No current verified source; run resolve/verify for this id
+✗ myth-3-c: No current verified source; run resolve/verify for this id
+✗ myth-larnax: No current verified source; run resolve/verify for this id
+✗ myth-pedila: No current verified source; run resolve/verify for this id
+✗ myth-culture-3: No current verified source; run resolve/verify for this id
+✗ myth-4-a: No current verified source; run resolve/verify for this id
+✗ myth-4-b: No current verified source; run resolve/verify for this id
+✗ myth-4-c: No current verified source; run resolve/verify for this id
+✗ myth-eune: No current verified source; run resolve/verify for this id
+✗ myth-kithara: No current verified source; run resolve/verify for this id
+✗ myth-culture-4: No current verified source; run resolve/verify for this id
+✗ myth-5-a: No current verified source; run resolve/verify for this id
+✗ myth-5-b: No current verified source; run resolve/verify for this id
+✗ myth-5-c: No current verified source; run resolve/verify for this id
+✗ myth-leon: No current verified source; run resolve/verify for this id
+✗ myth-rhopalon: No current verified source; run resolve/verify for this id
+✗ myth-pithos: No current verified source; run resolve/verify for this id
+✗ myth-culture-5: No current verified source; run resolve/verify for this id
+✗ myth-6-a: No current verified source; run resolve/verify for this id
+✗ myth-6-b: No current verified source; run resolve/verify for this id
+✗ myth-6-c: No current verified source; run resolve/verify for this id
+✗ myth-histion: No current verified source; run resolve/verify for this id
+✗ myth-culture-6: No current verified source; run resolve/verify for this id
+✗ myth-7-a: No current verified source; run resolve/verify for this id
+✗ myth-7-b: No current verified source; run resolve/verify for this id
+✗ myth-7-c: No current verified source; run resolve/verify for this id
+✗ myth-pelekys: No current verified source; run resolve/verify for this id
+✗ myth-korys: No current verified source; run resolve/verify for this id
+✗ myth-culture-7: No current verified source; run resolve/verify for this id
+✗ phil-culture-1-aegeus-pythia: No current verified source; run resolve/verify for this id
+✗ phil-culture-2-stoa-basileios: No current verified source; run resolve/verify for this id
+✗ phil-culture-3-gnothi-mosaic: No current verified source; run resolve/verify for this id
+✗ phil-culture-4-academy: No current verified source; run resolve/verify for this id
+✗ phil-culture-5-lydian-coin: No current verified source; run resolve/verify for this id
+✗ phil-daktylios: No current verified source; run resolve/verify for this id
+✗ phil-culture-6-hemlock: No current verified source; run resolve/verify for this id
+✗ phil-culture-7-david: No current verified source; run resolve/verify for this id
+✗ pol-boule: No current verified source; run resolve/verify for this id
+✗ pol-eponymous-heroes: No current verified source; run resolve/verify for this id
+✗ pol-ostraka-themistocles: No current verified source; run resolve/verify for this id
+✗ pol-pinakion: No current verified source; run resolve/verify for this id
+✗ pol-kleroterion-agora: No current verified source; run resolve/verify for this id
+✗ pol-stele-man-staff: No current verified source; run resolve/verify for this id
+✗ pol-shield-workshop: No current verified source; run resolve/verify for this id
+✗ pol-hoplite-shield: No current verified source; run resolve/verify for this id
+✗ pol-demosthenes-bust: No current verified source; run resolve/verify for this id
+✓ kore: 9 KB 1:1
+wrote app/course_data/images/manifest.json
+
+368 images still failing → backend/app/course_data/images/failures.json
+✓ anthropos: 16 KB 1:1
+✓ gyne: 16 KB 1:1
+✓ verb-bainei: 16 KB 1:1
+✓ verb-zetei: 16 KB 1:1
+✓ verb-hyphainei: 16 KB 1:1
+✓ panel-1-4-a: 13 KB 3:2
+✓ panel-2-2-a: 13 KB 3:2
+✓ verb-bouletai: 16 KB 1:1
+✓ culture-dog-wasps: 13 KB 3:2
+✓ verb-hepetai: 16 KB 1:1
+✓ panel-6-3-b: 13 KB 3:2
+✓ verb-deloi: 16 KB 1:1
+✓ culture-loom-lekythos: 13 KB 3:2
+✓ panel-7-4-b: 13 KB 3:2
+✓ zoon: 16 KB 1:1
+✓ hoplites: 16 KB 1:1
+✗ anthropos: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ gyne: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-bainei: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-zetei: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-hyphainei: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-1-4-a: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-2-2-a: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-bouletai: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ culture-dog-wasps: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-hepetai: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-6-3-b: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-deloi: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ culture-loom-lekythos: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-7-4-b: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ zoon: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ hoplites: Downloaded candidate needs subject review; licence verification is not subject verification
+
+384 images still failing → backend/app/course_data/images/failures.json
+✓ kyon: 15 KB 1:1
+✓ panel-1-2-b: 11 KB 3:2
+✓ panel-7-4-c: 11 KB 3:2
+✓ panel-10-2-c: 11 KB 3:2
+✗ kyon: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-1-2-b: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-7-4-c: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-10-2-c: Downloaded candidate needs subject review; licence verification is not subject verification
+
+388 images still failing → backend/app/course_data/images/failures.json
+✓ hippos: 37 KB 1:1
+wrote app/course_data/images/manifest.json
+
+388 images still failing → backend/app/course_data/images/failures.json
+✓ anthos: 19 KB 1:1
+✗ anthos: Downloaded candidate needs subject review; licence verification is not subject verification
+
+389 images still failing → backend/app/course_data/images/failures.json
+/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/PIL/TiffImagePlugin.py:950: UserWarning: Corrupt EXIF data.  Expecting to read 4 bytes but only got 0. 
+  warnings.warn(str(msg))
+✓ pais: 26 KB 1:1
+✓ verb-paizei: 26 KB 1:1
+✗ pais: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-paizei: Downloaded candidate needs subject review; licence verification is not subject verification
+
+391 images still failing → backend/app/course_data/images/failures.json
+✓ theos: 10 KB 1:1
+wrote app/course_data/images/manifest.json
+
+391 images still failing → backend/app/course_data/images/failures.json
+✓ kalos: 14 KB 1:1
+wrote app/course_data/images/manifest.json
+
+391 images still failing → backend/app/course_data/images/failures.json
+✓ aner: 21 KB 1:1
+✗ aner: Downloaded candidate needs subject review; licence verification is not subject verification
+
+392 images still failing → backend/app/course_data/images/failures.json
+✓ kylix: 11 KB 1:1
+✓ panel-2-4-b: 9 KB 3:2
+✓ kosmos: 11 KB 1:1
+✗ panel-2-4-b: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ kosmos: Downloaded candidate needs subject review; licence verification is not subject verification
+wrote app/course_data/images/manifest.json
+
+394 images still failing → backend/app/course_data/images/failures.json
+✓ thea: 34 KB 1:1
+✗ thea: Downloaded candidate needs subject review; licence verification is not subject verification
+
+395 images still failing → backend/app/course_data/images/failures.json
+✓ krene: 30 KB 1:1
+✓ panel-1-4-b: 22 KB 3:2
+✗ krene: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-1-4-b: Downloaded candidate needs subject review; licence verification is not subject verification
+
+397 images still failing → backend/app/course_data/images/failures.json
+✓ doron: 7 KB 1:1
+✗ doron: Downloaded candidate needs subject review; licence verification is not subject verification
+
+398 images still failing → backend/app/course_data/images/failures.json
+✓ hydria: 17 KB 1:1
+✓ panel-4-2-b: 13 KB 3:2
+✗ panel-4-2-b: Downloaded candidate needs subject review; licence verification is not subject verification
+wrote app/course_data/images/manifest.json
+
+399 images still failing → backend/app/course_data/images/failures.json
+✓ kline: 20 KB 1:1
+✗ kline: Downloaded candidate needs subject review; licence verification is not subject verification
+
+400 images still failing → backend/app/course_data/images/failures.json
+✓ pyr: 16 KB 1:1
+✓ panel-2-1-c: 11 KB 3:2
+✓ panel-10-4-b: 11 KB 3:2
+✗ pyr: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-2-1-c: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-10-4-b: Downloaded candidate needs subject review; licence verification is not subject verification
+
+403 images still failing → backend/app/course_data/images/failures.json
+✓ verb-echei: 14 KB 1:1
+✓ panel-10-3-a: 11 KB 3:2
+✗ verb-echei: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-10-3-a: Downloaded candidate needs subject review; licence verification is not subject verification
+
+405 images still failing → backend/app/course_data/images/failures.json
+✓ verb-heuriskei: 40 KB 1:1
+✗ verb-heuriskei: Downloaded candidate needs subject review; licence verification is not subject verification
+
+406 images still failing → backend/app/course_data/images/failures.json
+✓ verb-pherei: 23 KB 1:1
+✓ verb-speudei: 23 KB 1:1
+✗ verb-pherei: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-speudei: Downloaded candidate needs subject review; licence verification is not subject verification
+
+408 images still failing → backend/app/course_data/images/failures.json
+✓ verb-philei: 17 KB 1:1
+✓ pompe: 17 KB 1:1
+✓ verb-tithesi: 17 KB 1:1
+✓ culture-9-2-cart: 13 KB 3:2
+✗ verb-philei: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ pompe: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-tithesi: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ culture-9-2-cart: Downloaded candidate needs subject review; licence verification is not subject verification
+
+412 images still failing → backend/app/course_data/images/failures.json
+✓ panel-1-1-b: 19 KB 3:2
+✗ panel-1-1-b: Downloaded candidate needs subject review; licence verification is not subject verification
+
+413 images still failing → backend/app/course_data/images/failures.json
+✓ verb-katheudei: 14 KB 1:1
+✗ verb-katheudei: Downloaded candidate needs subject review; licence verification is not subject verification
+
+414 images still failing → backend/app/course_data/images/failures.json
+✓ panel-2-1-a: 13 KB 3:2
+✗ panel-2-1-a: Downloaded candidate needs subject review; licence verification is not subject verification
+
+415 images still failing → backend/app/course_data/images/failures.json
+✓ verb-kalei: 30 KB 1:1
+✗ verb-kalei: Downloaded candidate needs subject review; licence verification is not subject verification
+
+416 images still failing → backend/app/course_data/images/failures.json
+✓ panel-2-3-c: 16 KB 3:2
+✗ panel-2-3-c: Downloaded candidate needs subject review; licence verification is not subject verification
+
+417 images still failing → backend/app/course_data/images/failures.json
+✓ verb-legei: 23 KB 1:1
+✗ verb-legei: Downloaded candidate needs subject review; licence verification is not subject verification
+
+418 images still failing → backend/app/course_data/images/failures.json
+✓ verb-pinei: 16 KB 1:1
+✓ verb-erota: 16 KB 1:1
+✓ culture-symposium-kylix: 17 KB 3:2
+✓ neanias: 16 KB 1:1
+✓ logos: 16 KB 1:1
+✓ panel-4-3-c: 17 KB 3:2
+✓ panel-6-1-a: 17 KB 3:2
+✗ verb-pinei: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-erota: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ culture-symposium-kylix: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ neanias: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ logos: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-4-3-c: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-6-1-a: Downloaded candidate needs subject review; licence verification is not subject verification
+
+425 images still failing → backend/app/course_data/images/failures.json
+✓ culture-fountain-hydria: 18 KB 3:2
+✗ culture-fountain-hydria: Downloaded candidate needs subject review; licence verification is not subject verification
+
+426 images still failing → backend/app/course_data/images/failures.json
+✓ ergon: 16 KB 1:1
+✓ verb-manthanei: 16 KB 1:1
+✓ verb-zeloi: 16 KB 1:1
+✗ ergon: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-manthanei: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-zeloi: Downloaded candidate needs subject review; licence verification is not subject verification
+
+429 images still failing → backend/app/course_data/images/failures.json
+✓ panel-2-3-a: 16 KB 3:2
+✗ panel-2-3-a: Downloaded candidate needs subject review; licence verification is not subject verification
+
+430 images still failing → backend/app/course_data/images/failures.json
+✓ pappos: 10 KB 1:1
+✗ pappos: Downloaded candidate needs subject review; licence verification is not subject verification
+
+431 images still failing → backend/app/course_data/images/failures.json
+✓ verb-tima: 30 KB 1:1
+✓ verb-anagignoskei: 30 KB 1:1
+✓ panel-12-4-c: 22 KB 3:2
+✗ verb-tima: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-anagignoskei: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-12-4-c: Downloaded candidate needs subject review; licence verification is not subject verification
+
+434 images still failing → backend/app/course_data/images/failures.json
+✓ verb-esthiei: 14 KB 1:1
+✗ verb-esthiei: Downloaded candidate needs subject review; licence verification is not subject verification
+
+435 images still failing → backend/app/course_data/images/failures.json
+✓ despotes: 28 KB 1:1
+✓ verb-menei: 28 KB 1:1
+✓ verb-chaire: 28 KB 1:1
+✓ pater: 28 KB 1:1
+✓ adelphos: 28 KB 1:1
+✗ despotes: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-menei: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-chaire: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ pater: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ adelphos: Downloaded candidate needs subject review; licence verification is not subject verification
+
+440 images still failing → backend/app/course_data/images/failures.json
+✓ mythos: 32 KB 1:1
+✓ panel-12-1-a: 24 KB 3:2
+✗ mythos: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-12-1-a: Downloaded candidate needs subject review; licence verification is not subject verification
+
+442 images still failing → backend/app/course_data/images/failures.json
+✓ panel-3-2-c: 17 KB 3:2
+✓ mache: 23 KB 1:1
+✗ panel-3-2-c: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ mache: Downloaded candidate needs subject review; licence verification is not subject verification
+
+444 images still failing → backend/app/course_data/images/failures.json
+✓ panel-3-3-b: 8 KB 3:2
+✓ verb-eiserchetai: 11 KB 1:1
+✗ panel-3-3-b: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-eiserchetai: Downloaded candidate needs subject review; licence verification is not subject verification
+
+446 images still failing → backend/app/course_data/images/failures.json
+✓ panel-3-1-a: 19 KB 3:2
+✗ panel-3-1-a: Downloaded candidate needs subject review; licence verification is not subject verification
+
+447 images still failing → backend/app/course_data/images/failures.json
+✓ panel-3-2-b: 22 KB 3:2
+✗ panel-3-2-b: Downloaded candidate needs subject review; licence verification is not subject verification
+
+448 images still failing → backend/app/course_data/images/failures.json
+✓ geron: 11 KB 1:1
+✓ presbys: 11 KB 1:1
+✗ geron: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ presbys: Downloaded candidate needs subject review; licence verification is not subject verification
+
+450 images still failing → backend/app/course_data/images/failures.json
+✓ phylax: 15 KB 1:1
+✗ phylax: Downloaded candidate needs subject review; licence verification is not subject verification
+
+451 images still failing → backend/app/course_data/images/failures.json
+✓ heorte: 24 KB 1:1
+✗ heorte: Downloaded candidate needs subject review; licence verification is not subject verification
+
+452 images still failing → backend/app/course_data/images/failures.json
+✓ panel-3-1-c: 27 KB 3:2
+✓ thysia: 25 KB 1:1
+✓ panel-7-1-b: 27 KB 3:2
+✗ panel-3-1-c: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ thysia: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-7-1-b: Downloaded candidate needs subject review; licence verification is not subject verification
+
+455 images still failing → backend/app/course_data/images/failures.json
+✓ verb-thyei: 23 KB 1:1
+✗ verb-thyei: Downloaded candidate needs subject review; licence verification is not subject verification
+
+456 images still failing → backend/app/course_data/images/failures.json
+✓ cheir: 8 KB 1:1
+✓ verb-dei: 8 KB 1:1
+✗ verb-dei: Downloaded candidate needs subject review; licence verification is not subject verification
+wrote app/course_data/images/manifest-u3.json
+
+457 images still failing → backend/app/course_data/images/failures.json
+✓ hiereus: 19 KB 1:1
+✗ hiereus: Downloaded candidate needs subject review; licence verification is not subject verification
+
+458 images still failing → backend/app/course_data/images/failures.json
+✓ stephanos: 20 KB 1:1
+wrote app/course_data/images/manifest-u3.json
+
+458 images still failing → backend/app/course_data/images/failures.json
+✓ verb-agei: 23 KB 1:1
+✓ verb-machontai: 23 KB 1:1
+✗ verb-agei: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-machontai: Downloaded candidate needs subject review; licence verification is not subject verification
+
+460 images still failing → backend/app/course_data/images/failures.json
+✓ polites: 9 KB 1:1
+✗ polites: Downloaded candidate needs subject review; licence verification is not subject verification
+
+461 images still failing → backend/app/course_data/images/failures.json
+✓ xenos: 12 KB 1:1
+✓ verb-aphikneitai: 12 KB 1:1
+✗ xenos: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-aphikneitai: Downloaded candidate needs subject review; licence verification is not subject verification
+
+463 images still failing → backend/app/course_data/images/failures.json
+✓ verb-pheugei: 20 KB 1:1
+✗ verb-pheugei: Downloaded candidate needs subject review; licence verification is not subject verification
+
+464 images still failing → backend/app/course_data/images/failures.json
+✓ polemos: 13 KB 1:1
+✓ stratos: 13 KB 1:1
+✓ panel-9-4-a: 10 KB 3:2
+✗ polemos: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ stratos: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-9-4-a: Downloaded candidate needs subject review; licence verification is not subject verification
+
+467 images still failing → backend/app/course_data/images/failures.json
+✓ verb-phobeitai: 15 KB 1:1
+✗ verb-phobeitai: Downloaded candidate needs subject review; licence verification is not subject verification
+
+468 images still failing → backend/app/course_data/images/failures.json
+✓ agathos-kakos: 16 KB 1:1
+✗ agathos-kakos: Downloaded candidate needs subject review; licence verification is not subject verification
+
+469 images still failing → backend/app/course_data/images/failures.json
+✓ verb-proserchetai: 21 KB 1:1
+✗ verb-proserchetai: Downloaded candidate needs subject review; licence verification is not subject verification
+
+470 images still failing → backend/app/course_data/images/failures.json
+✓ verb-exerchetai: 16 KB 1:1
+✗ verb-exerchetai: Downloaded candidate needs subject review; licence verification is not subject verification
+
+471 images still failing → backend/app/course_data/images/failures.json
+✓ meter: 17 KB 1:1
+✗ meter: Downloaded candidate needs subject review; licence verification is not subject verification
+
+472 images still failing → backend/app/course_data/images/failures.json
+✓ philos: 10 KB 1:1
+✗ philos: Downloaded candidate needs subject review; licence verification is not subject verification
+
+473 images still failing → backend/app/course_data/images/failures.json
+✓ thygater: 18 KB 1:1
+wrote app/course_data/images/manifest-u4.json
+
+473 images still failing → backend/app/course_data/images/failures.json
+✓ hyios: 22 KB 1:1
+✓ panel-8-4-c: 17 KB 3:2
+✗ hyios: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-8-4-c: Downloaded candidate needs subject review; licence verification is not subject verification
+
+475 images still failing → backend/app/course_data/images/failures.json
+✓ verb-hegeitai: 19 KB 1:1
+✓ verb-pempei: 19 KB 1:1
+✓ keryx: 19 KB 1:1
+✗ verb-hegeitai: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-pempei: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ keryx: Downloaded candidate needs subject review; licence verification is not subject verification
+
+478 images still failing → backend/app/course_data/images/failures.json
+✓ verb-thaumazei: 10 KB 1:1
+✗ verb-thaumazei: Downloaded candidate needs subject review; licence verification is not subject verification
+
+479 images still failing → backend/app/course_data/images/failures.json
+✓ didaskalos: 15 KB 1:1
+✓ verb-komizei: 15 KB 1:1
+✗ didaskalos: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-komizei: Downloaded candidate needs subject review; licence verification is not subject verification
+
+481 images still failing → backend/app/course_data/images/failures.json
+✓ stratiotes: 32 KB 1:1
+✗ stratiotes: Downloaded candidate needs subject review; licence verification is not subject verification
+
+482 images still failing → backend/app/course_data/images/failures.json
+✓ basileus: 31 KB 1:1
+✗ basileus: Downloaded candidate needs subject review; licence verification is not subject verification
+
+483 images still failing → backend/app/course_data/images/failures.json
+✓ panel-5-1-c: 27 KB 3:2
+✓ kreas: 23 KB 1:1
+✗ panel-5-1-c: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ kreas: Downloaded candidate needs subject review; licence verification is not subject verification
+
+485 images still failing → backend/app/course_data/images/failures.json
+✓ verb-nika: 12 KB 1:1
+✗ verb-nika: Downloaded candidate needs subject review; licence verification is not subject verification
+
+486 images still failing → backend/app/course_data/images/failures.json
+✓ barbaros: 41 KB 1:1
+✓ panel-12-1-b: 30 KB 3:2
+✗ barbaros: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-12-1-b: Downloaded candidate needs subject review; licence verification is not subject verification
+
+488 images still failing → backend/app/course_data/images/failures.json
+✓ panel-5-3-a: 19 KB 3:2
+✗ panel-5-3-a: Downloaded candidate needs subject review; licence verification is not subject verification
+
+489 images still failing → backend/app/course_data/images/failures.json
+✓ allos: 14 KB 1:1
+✗ allos: Downloaded candidate needs subject review; licence verification is not subject verification
+
+490 images still failing → backend/app/course_data/images/failures.json
+✓ panel-5-2-a: 24 KB 3:2
+✗ panel-5-2-a: Downloaded candidate needs subject review; licence verification is not subject verification
+
+491 images still failing → backend/app/course_data/images/failures.json
+✓ panel-6-2-b: 10 KB 3:2
+✗ panel-6-2-b: Downloaded candidate needs subject review; licence verification is not subject verification
+
+492 images still failing → backend/app/course_data/images/failures.json
+✓ kephale: 14 KB 1:1
+✓ nous: 14 KB 1:1
+✓ neos: 14 KB 1:1
+✗ nous: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ neos: Downloaded candidate needs subject review; licence verification is not subject verification
+wrote app/course_data/images/manifest-u5.json
+
+494 images still failing → backend/app/course_data/images/failures.json
+✓ panel-6-2-c: 3 KB 3:2
+✗ panel-6-2-c: Downloaded candidate needs subject review; licence verification is not subject verification
+
+495 images still failing → backend/app/course_data/images/failures.json
+✓ meizon: 9 KB 1:1
+✗ meizon: Downloaded candidate needs subject review; licence verification is not subject verification
+
+496 images still failing → backend/app/course_data/images/failures.json
+✓ toxon: 17 KB 1:1
+✗ toxon: Downloaded candidate needs subject review; licence verification is not subject verification
+
+497 images still failing → backend/app/course_data/images/failures.json
+✓ verb-dynatai: 19 KB 1:1
+✗ verb-dynatai: Downloaded candidate needs subject review; licence verification is not subject verification
+
+498 images still failing → backend/app/course_data/images/failures.json
+✓ verb-pleroi: 29 KB 1:1
+✗ verb-pleroi: Downloaded candidate needs subject review; licence verification is not subject verification
+
+499 images still failing → backend/app/course_data/images/failures.json
+✓ verb-kryptei: 14 KB 1:1
+✗ verb-kryptei: Downloaded candidate needs subject review; licence verification is not subject verification
+
+500 images still failing → backend/app/course_data/images/failures.json
+✓ verb-epistatai: 19 KB 1:1
+✗ verb-epistatai: Downloaded candidate needs subject review; licence verification is not subject verification
+
+501 images still failing → backend/app/course_data/images/failures.json
+✓ culture-owl-tetradrachm: 43 KB 3:2
+wrote app/course_data/images/manifest-u6.json
+
+501 images still failing → backend/app/course_data/images/failures.json
+✓ panel-7-1-a: 7 KB 3:2
+✗ panel-7-1-a: Downloaded candidate needs subject review; licence verification is not subject verification
+
+502 images still failing → backend/app/course_data/images/failures.json
+✓ verb-plattei: 23 KB 1:1
+✗ verb-plattei: Downloaded candidate needs subject review; licence verification is not subject verification
+
+503 images still failing → backend/app/course_data/images/failures.json
+✓ aulos: 18 KB 1:1
+✗ aulos: Downloaded candidate needs subject review; licence verification is not subject verification
+
+504 images still failing → backend/app/course_data/images/failures.json
+✓ panel-7-3-c: 22 KB 3:2
+✓ culture-7-3-medea: 22 KB 3:2
+✗ panel-7-3-c: Downloaded candidate needs subject review; licence verification is not subject verification
+wrote app/course_data/images/manifest-u7.json
+
+505 images still failing → backend/app/course_data/images/failures.json
+✓ verb-didosi: 31 KB 1:1
+✗ verb-didosi: Downloaded candidate needs subject review; licence verification is not subject verification
+
+506 images still failing → backend/app/course_data/images/failures.json
+✓ verb-histatai: 9 KB 1:1
+wrote app/course_data/images/manifest-u7.json
+
+506 images still failing → backend/app/course_data/images/failures.json
+✓ verb-cheirotonei: 41 KB 1:1
+✓ verb-temnei: 41 KB 1:1
+✓ panel-9-4-b: 28 KB 3:2
+✓ verb-thaptei: 41 KB 1:1
+✓ panel-10-3-b: 28 KB 3:2
+✓ panel-11-1-b: 28 KB 3:2
+✓ panel-11-2-a: 28 KB 3:2
+✓ panel-11-2-c: 28 KB 3:2
+✗ verb-cheirotonei: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-temnei: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-9-4-b: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ verb-thaptei: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-10-3-b: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-11-1-b: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-11-2-a: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ panel-11-2-c: Downloaded candidate needs subject review; licence verification is not subject verification
+
+514 images still failing → backend/app/course_data/images/failures.json
+✓ verb-deiknysi: 21 KB 1:1
+✗ verb-deiknysi: Downloaded candidate needs subject review; licence verification is not subject verification
+
+515 images still failing → backend/app/course_data/images/failures.json
+✓ tauros: 22 KB 1:1
+✗ tauros: Downloaded candidate needs subject review; licence verification is not subject verification
+
+516 images still failing → backend/app/course_data/images/failures.json
+✓ hamaxa: 11 KB 1:1
+✗ hamaxa: Downloaded candidate needs subject review; licence verification is not subject verification
+
+517 images still failing → backend/app/course_data/images/failures.json
+✓ panel-9-2-b: 17 KB 3:2
+✗ panel-9-2-b: Downloaded candidate needs subject review; licence verification is not subject verification
+
+518 images still failing → backend/app/course_data/images/failures.json
+✓ verb-eiskomizei: 15 KB 1:1
+✗ verb-eiskomizei: Downloaded candidate needs subject review; licence verification is not subject verification
+
+519 images still failing → backend/app/course_data/images/failures.json
+✓ verb-hesteke: 7 KB 1:1
+✓ teknon: 7 KB 1:1
+✗ verb-hesteke: Downloaded candidate needs subject review; licence verification is not subject verification
+✗ teknon: Downloaded candidate needs subject review; licence verification is not subject verification
+
+521 images still failing → backend/app/course_data/images/failures.json
+✓ psyche: 13 KB 1:1
+✗ psyche: Downloaded candidate needs subject review; licence verification is not subject verification
+
+522 images still failing → backend/app/course_data/images/failures.json
+✓ kyklos: 11 KB 1:1
+✗ kyklos: Downloaded candidate needs subject review; licence verification is not subject verification
+
+523 images still failing → backend/app/course_data/images/failures.json
+✓ martys: 20 KB 1:1
+✗ martys: Downloaded candidate needs subject review; licence verification is not subject verification
+
+524 images still failing → backend/app/course_data/images/failures.json
+✓ culture-10-4-lekythos: 7 KB 3:2
+✗ culture-10-4-lekythos: Downloaded candidate needs subject review; licence verification is not subject verification
+
+525 images still failing → backend/app/course_data/images/failures.json
+✓ panel-12-2-a: 10 KB 3:2
+✗ panel-12-2-a: Downloaded candidate needs subject review; licence verification is not subject verification
+
+526 images still failing → backend/app/course_data/images/failures.json
+✓ kadiskos: 24 KB 1:1
+✗ kadiskos: Downloaded candidate needs subject review; licence verification is not subject verification
+
+527 images still failing → backend/app/course_data/images/failures.json
+✓ choros: 19 KB 1:1
+✗ choros: Downloaded candidate needs subject review; licence verification is not subject verification
+
+528 images still failing → backend/app/course_data/images/failures.json
+
+528 images still failing → backend/app/course_data/images/failures.json
+Inventory: diagram: 52 · needs_source_verification: 368 · no_source_row: 40 · downloaded_needs_review: 160 · ready: 13
+
+Targeted introductory artifacts: four downloaded, licensed and visually reviewed.
+{"diagram": 52, "needs_source_verification": 364, "no_source_row": 40, "downloaded_needs_review": 160, "ready": 17}

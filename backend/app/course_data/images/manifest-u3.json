@@ -213,12 +213,12 @@
   {
    "id": "stephanos",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/stephanos.webp",
    "alt_grc": "στέφανος",
    "alt_en": "A wreath of leaves",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "credit": "Gold wreath · Etruscan · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/245996",
    "words": [
     "στέφανος"
    ]
@@ -226,12 +226,12 @@
   {
    "id": "cheir",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/cheir.webp",
    "alt_grc": "χείρ",
    "alt_en": "A hand",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "credit": "Marble left hand holding a scroll · Roman · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/251036",
    "words": [
     "χείρ"
    ]

@@ -162,12 +162,12 @@
   {
    "id": "thygater",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/thygater.webp",
    "alt_grc": "ἡ θυγάτηρ",
    "alt_en": "A daughter",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "credit": "Marble grave stele of a little girl · Greek · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/252890",
    "words": [
     "θυγάτηρ"
    ]

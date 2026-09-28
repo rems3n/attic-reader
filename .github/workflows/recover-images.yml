@@ -1,0 +1,65 @@
+name: Recover verified course images
+on:
+  push:
+    branches: [fix/course-image-pipeline]
+    paths: ['backend/scripts/build_images.py', '.github/workflows/recover-images.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: recover-course-images
+  cancel-in-progress: false
+jobs:
+  recover:
+    if: github.ref == 'refs/heads/fix/course-image-pipeline'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -e "./backend[dev]"
+      - name: Recover saved verified images and record gaps
+        shell: bash
+        run: |
+          set +e
+          python -u backend/scripts/build_images.py recover 2>&1 | tee backend/app/course_data/images/last-run.log
+          result=${PIPESTATUS[0]}
+          set -e
+          echo "Recovery exit code: $result (unresolved sources are reported as partial recovery)"
+          python backend/scripts/build_images.py inventory
+          python -m pytest backend/tests/test_build_images.py -q
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from PIL import Image
+          p=Path('backend/app/course_data/images')
+          report=json.loads((p/'inventory.json').read_text())
+          assert report['counts'].get('ready',0)>0, 'No image files recovered'
+          for f in p.glob('manifest*.json'):
+              for entry in json.loads(f.read_text())['images']:
+                  if entry.get('file'):
+                      path=Path('frontend/public')/entry['file']
+                      with Image.open(path) as im: im.verify()
+          print(report['counts'])
+          PY
+      - name: Save recovered pictures and matching manifests on repair branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add frontend/public/course/pics backend/app/course_data/images
+          if ! git diff --cached --quiet; then
+            git commit -m "Recover verified image files and matching manifests"
+            git push origin HEAD:fix/course-image-pipeline
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: image-recovery-report
+          path: |
+            backend/app/course_data/images/inventory.json
+            backend/app/course_data/images/failures.json
+            backend/app/course_data/images/last-run.log

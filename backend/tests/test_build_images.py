@@ -159,3 +159,37 @@ def test_commons_verify_handles_numeric_metadata(monkeypatch):
     monkeypatch.setattr(bi, "http_json", lambda url, retries=4: {"query": {"pages": {"1": page}}})
     info = bi.commons_verify("File:A.jpg")
     assert info["ok"] and info["license"] == "CC BY-SA 4.0" and "Someone" in info["credit"]
+
+
+def test_subject_review_is_bound_to_source_object(tmp_path, monkeypatch):
+    monkeypatch.setattr(bi, 'DATA', tmp_path)
+    bi.save_json(tmp_path / 'reviewed.json', {'horse': {'source': 'met', 'ref': '123'}})
+    assert bi.subject_reviewed('horse', {'source': 'met', 'ref': '123'})
+    assert not bi.subject_reviewed('horse', {'source': 'met', 'ref': '456'})
+    assert not bi.subject_reviewed('dog', {'source': 'met', 'ref': '123'})
+
+
+def test_inventory_distinguishes_missing_file_review_and_missing_source(tmp_path, monkeypatch):
+    root = tmp_path / 'backend'
+    data = root / 'images'
+    data.mkdir(parents=True)
+    out = tmp_path / 'frontend/public/course/pics'
+    out.mkdir(parents=True)
+    monkeypatch.setattr(bi, 'ROOT', root)
+    monkeypatch.setattr(bi, 'DATA', data)
+    monkeypatch.setattr(bi, 'OUT_DIR', out)
+    monkeypatch.setattr(bi, 'VERIFIED', data / 'verified.json')
+    monkeypatch.setattr(bi, 'FAILURES', data / 'failures.json')
+    bi.save_json(bi.VERIFIED, {'candidate': {}, 'missing': {}, 'ready': {}})
+    records = [
+        {'id': 'missing', 'license': 'CC0', 'file': 'course/pics/missing.webp'},
+        {'id': 'candidate', 'license': 'placeholder', 'file': None},
+        {'id': 'no-row', 'license': 'placeholder', 'file': None},
+        {'id': 'ready', 'license': 'CC0', 'file': 'course/pics/ready.webp'},
+        {'id': 'diagram', 'kind': 'diagram', 'file': None},
+    ]
+    bi.save_json(data / 'manifest.json', {'images': records})
+    (out / 'candidate.webp').write_bytes(b'candidate')
+    (out / 'ready.webp').write_bytes(b'ready')
+    report = bi.cmd_inventory([{'id': i} for i in ['candidate', 'missing', 'ready']])
+    assert report['counts'] == {'verified_not_processed': 1, 'downloaded_needs_review': 1, 'no_source_row': 1, 'ready': 1, 'diagram': 1}

@@ -667,12 +667,12 @@
   {
    "id": "kephale",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/kephale.webp",
    "alt_grc": "ἡ κεφαλή",
    "alt_en": "A head",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "credit": "Marble head of a Ptolemaic queen · Greek · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/257603",
    "words": [
     "κεφαλή"
    ]
