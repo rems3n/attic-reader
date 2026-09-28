@@ -5,6 +5,8 @@ This script turns a row in ``course_data/images/sources.csv`` (or a
 track's ``sources-<track>.csv``) into a real
 picture with a verified licence and fills the matching manifest record.
 
+    python scripts/build_images.py recover           # finish saved verified sources without re-searching
+    python scripts/build_images.py inventory         # complete missing/ready report
     python scripts/build_images.py doctor            # can this machine reach each source? (doctor.json)
     python scripts/build_images.py report            # ids still without a row / a file
     python scripts/build_images.py resolve           # search:… refs → concrete object ids
@@ -399,7 +401,7 @@ def cmd_report(rows: list[dict]) -> int:
     missing_row = [i for i, img in placeholders.items() if img.get("kind") != "diagram" and i not in by_id]
     unknown = [r["id"] for r in rows if r["id"] not in records]
     no_file = [i for i, (_, img) in records.items() if i in by_id and (not img.get("file") or not (ROOT.parent / "frontend" / "public" / img["file"]).exists())]
-    done = [i for i, (_, img) in records.items() if img.get("license") != "placeholder" and img.get("file")]
+    done = [i for i, (_, img) in records.items() if img.get("license") != "placeholder" and img.get("file") and (ROOT.parent / "frontend/public" / img["file"]).is_file()]
     print(f"{len(records)} image records · {len(rows)} source rows · {len(done)} finished")
     if unknown:
         print(f"\nrows whose id is in no manifest ({len(unknown)}): " + ", ".join(unknown))
@@ -623,6 +625,11 @@ def cmd_process(rows: list[dict], grade: bool = True) -> int:
     return 1 if failures else 0
 
 
+def subject_reviewed(image_id: str, verified: dict) -> bool:
+    review = load_json(DATA / "reviewed.json", {}).get(image_id, {})
+    return bool(review) and (review.get("source"), review.get("ref")) == (verified.get("source"), verified.get("ref"))
+
+
 def cmd_manifest(rows: list[dict]) -> int:
     verified = load_json(VERIFIED, {})
     docs = manifests()
@@ -640,6 +647,10 @@ def cmd_manifest(rows: list[dict]) -> int:
             fail(row["id"], "manifest", f"no manifest record (add one with alt text first)")
             failures += 1
             continue
+        if not subject_reviewed(row["id"], v):
+            fail(row["id"], "review", "Downloaded candidate needs subject review; licence verification is not subject verification")
+            failures += 1
+            continue
         path, img = records[row["id"]]
         img.update({"file": f"{PUBLIC_PREFIX}/{row['id']}.webp", "license": v["license"], "credit": v["credit"], "source_url": v["source_url"]})
         changed.add(path)
@@ -649,9 +660,80 @@ def cmd_manifest(rows: list[dict]) -> int:
     return 1 if failures else 0
 
 
+def cmd_inventory(rows: list[dict]) -> dict:
+    """Persistent, complete inventory, including pictures with no source row."""
+    by_id = {r["id"]: r for r in rows}
+    verified = load_json(VERIFIED, {})
+    failures = load_json(FAILURES, {})
+    counts: dict[str, int] = {}
+    items = []
+    for image_id, (_, image) in manifest_records().items():
+        if image.get("kind") == "diagram":
+            status = "diagram"
+        elif image.get("license") != "placeholder" and image.get("file") and (ROOT.parent / "frontend/public" / image["file"]).is_file():
+            status = "ready"
+        elif image_id not in by_id:
+            status = "no_source_row"
+        elif (OUT_DIR / f"{image_id}.webp").is_file() and image_id in verified:
+            status = "downloaded_needs_review"
+        elif image_id in verified:
+            status = "verified_not_processed"
+        else:
+            status = "needs_source_verification"
+        counts[status] = counts.get(status, 0) + 1
+        items.append({"id": image_id, "status": status, "description": image.get("alt_en"),
+                      "file": image.get("file"), "failure": failures.get(image_id)})
+    report = {"counts": counts, "images": items}
+    save_json(DATA / "inventory.json", report)
+    print("Inventory: " + " · ".join(f"{k}: {v}" for k, v in counts.items()))
+    return report
+
+
+def cmd_recover(rows: list[dict]) -> int:
+    """Recover already verified sources without repeating lengthy museum searches.
+
+    Shared source URLs are downloaded once, with bounded concurrency. Each
+    successful image is processed and committed to its manifest even when other
+    downloads fail. Failed or absent sources remain explicit placeholders.
+    """
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    verified = load_json(VERIFIED, {})
+    resolved = load_json(RESOLVED, {})
+    groups: dict[str, list[dict]] = {}
+    for row in rows:
+        v = verified.get(row["id"])
+        source, ref = concrete_source_ref(row, resolved)
+        if not v or not license_ok(v.get("license")) or not isinstance(v.get("image_url"), str) or (source, ref) != (v.get("source"), v.get("ref")):
+            fail(row["id"], "verify", "No current verified source; run resolve/verify for this id")
+            continue
+        groups.setdefault(v["image_url"], []).append(row)
+    CACHE.mkdir(exist_ok=True)
+    def download(url: str, group: list[dict]) -> bytes:
+        for row in group:
+            cached = cache_path(row["id"], url)
+            if cached.exists():
+                return cached.read_bytes()
+        return http_bytes(url, retries=2)
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        jobs = {pool.submit(download, url, group): (url, group) for url, group in groups.items()}
+        for job in as_completed(jobs):
+            url, group = jobs[job]
+            try:
+                content = job.result()
+                for row in group:
+                    cache_path(row["id"], url).write_bytes(content)
+                cmd_process(group)
+                cmd_manifest([row for row in group if row["id"] not in _failed])
+            except Exception as exc:
+                for row in group:
+                    fail(row["id"], "fetch", f"download failed: {exc}")
+            write_failures(rows)
+    return 1 if _failed else 0
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("command", choices=["doctor", "report", "resolve", "verify", "fetch", "process", "manifest", "all"])
+    ap.add_argument("command", choices=["doctor", "report", "resolve", "verify", "fetch", "process", "manifest", "recover", "inventory", "all"])
     ap.add_argument("--only", nargs="*", help="image ids to limit the run to")
     ap.add_argument("--no-grade", action="store_true", help="skip the colour grade")
     ap.add_argument("--no-fallback", action="store_true", help="resolve: search only the row's own source with its full query")
@@ -659,15 +741,33 @@ def main() -> None:
     if args.command == "doctor":
         sys.exit(cmd_doctor())
     rows = read_sources(set(args.only) if args.only else None)
+    if args.command == "inventory":
+        cmd_inventory(read_sources())
+        return
     if args.command == "report":
+        cmd_inventory(read_sources())
         sys.exit(cmd_report(rows))
-    steps = {"resolve": lambda: cmd_resolve(rows, not args.no_fallback), "verify": lambda: cmd_verify(rows), "fetch": lambda: cmd_fetch(rows), "process": lambda: cmd_process(rows, not args.no_grade), "manifest": lambda: cmd_manifest(rows)}
+    steps = {"recover": lambda: cmd_recover(rows), "resolve": lambda: cmd_resolve(rows, not args.no_fallback), "verify": lambda: cmd_verify(rows), "fetch": lambda: cmd_fetch(rows), "process": lambda: cmd_process(rows, not args.no_grade), "manifest": lambda: cmd_manifest(rows)}
     names = ("resolve", "verify", "fetch", "process", "manifest") if args.command == "all" else (args.command,)
     rc = 0
     try:
-        for name in names:
-            print(f"\n== {name}", flush=True)
-            rc |= steps[name]()
+        if args.command == "all":
+            for row in rows:
+                image = manifest_records().get(row["id"], (None, {}))[1]
+                if image.get("file") and image.get("license") != "placeholder" and (ROOT.parent / "frontend/public" / image["file"]).is_file():
+                    continue
+                print(f"\n== {row['id']}", flush=True)
+                for action in (lambda: cmd_resolve([row], not args.no_fallback),
+                               lambda: cmd_verify([row]), lambda: cmd_fetch([row]),
+                               lambda: cmd_process([row], not args.no_grade), lambda: cmd_manifest([row])):
+                    if action():
+                        rc = 1
+                        break
+                write_failures([row])
+        else:
+            for name in names:
+                print(f"\n== {name}", flush=True)
+                rc |= steps[name]()
     except BaseException as exc:  # an interrupted or crashed run still records what failed
         import traceback
 
@@ -677,6 +777,7 @@ def main() -> None:
         rc = 1
     finally:
         write_failures(rows)
+        cmd_inventory(read_sources())
     sys.exit(rc)
 
 
