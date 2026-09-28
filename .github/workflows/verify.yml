@@ -87,6 +87,11 @@ jobs:
         working-directory: backend
         timeout-minutes: 6
         run: python scripts/e2e/e2e_placement.py 2>&1 | tee "$E2E_SHOTS/placement.log"
+      - name: Browser — image dashboard
+        if: ${{ !cancelled() && steps.services.outcome == 'success' }}
+        working-directory: backend
+        timeout-minutes: 6
+        run: python scripts/e2e/e2e_image_admin.py 2>&1 | tee "$E2E_SHOTS/image-admin.log"
       - name: Browser — stage1
         if: ${{ !cancelled() && steps.services.outcome == 'success' }}
         working-directory: backend
