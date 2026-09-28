@@ -199,6 +199,8 @@ const CACHEABLE_API_GET = [/^\/api\/lookup$/, /^\/api\/course(\/|$)/, /^\/api\/v
 function handleApi(event, url) {
   const req = event.request;
   const path = url.pathname;
+  // The editorial dashboard must report the current release's image status.
+  if (req.method === "GET" && path === "/api/course/image-catalog") return fetch(req);
   if (req.method === "GET" && CACHEABLE_API_GET.some((re) => re.test(path))) {
     return staleWhileRevalidate(event, req, CACHES.api, LIMITS.api, true);
   }

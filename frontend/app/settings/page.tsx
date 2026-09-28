@@ -241,6 +241,7 @@ export default function Settings() {
         <p role="status">{message}</p>
       </section>
       <p>
+        <Link href="/admin/images">Admin image dashboard</Link> ·{" "}
         <Link href="/learn/credits">Image credits</Link> ·{" "}
         <Link href="/help#data">Offline and progress help</Link>
       </p>

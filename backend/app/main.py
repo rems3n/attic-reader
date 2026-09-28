@@ -365,6 +365,13 @@ def course_images() -> dict[str, object]:
     return {"images": list(course_data.load_images().values())}
 
 
+@app.get("/api/course/image-catalog")
+def course_image_catalog() -> dict[str, object]:
+    """Read-only catalog of public course artwork and its teaching context."""
+    from .course.image_catalog import image_catalog
+    return image_catalog()
+
+
 class CheckRequest(BaseModel):
     item: dict
     response: object = None
