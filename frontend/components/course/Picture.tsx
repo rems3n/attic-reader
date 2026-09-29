@@ -44,6 +44,7 @@ export default function Picture({ image, size = "panel", caption = true, classNa
       {caption && size === "panel" && (
         <figcaption>
           <span lang="grc">{image.alt_grc}</span>
+          {image.reuse?.role === "context" && <span className="picBadge">Shared lesson image</span>}
           {placeholder ? <span className="picBadge">image coming</span> : <a className="picBadge" href="/learn/credits" title={image.credit}>{image.license === "Original AI illustration" ? "AI illustration" : image.license}</a>}
         </figcaption>
       )}

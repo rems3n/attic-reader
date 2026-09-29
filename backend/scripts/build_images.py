@@ -639,7 +639,7 @@ def cmd_manifest(rows: list[dict]) -> int:
     for row in rows:
         # A stale museum candidate must never replace an authored illustration.
         current = records.get(row["id"])
-        if current and current[1].get("license") == "Original AI illustration":
+        if current and (current[1].get("license") == "Original AI illustration" or current[1].get("reuse")):
             continue
         v = verified.get(row["id"])
         webp = OUT_DIR / f"{row['id']}.webp"

@@ -3,13 +3,21 @@
   {
    "id": "panel-3-1-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ἡ Χρυσὶς τοὺς παῖδας καλεῖ· ἑορτή ἐστιν.",
-   "alt_en": "Chrysis at the house door calling the children; the street full of people in festival clothes",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/verb-kalei.webp",
+   "alt_grc": "καλεῖ",
+   "alt_en": "Someone calling out",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ἡ Χρυσὶς τοὺς παῖδας καλεῖ· ἑορτή ἐστιν.",
+   "original_brief": "Chrysis at the house door calling the children; the street full of people in festival clothes",
+   "reuse": {
+    "review": "Shared household calling scene, without claiming a festival procession appears.",
+    "role": "context",
+    "sha256": "abebc03219e582627b1ea76cad3a591c79721aa5f08708b09dfdcbbb4ec13030",
+    "source_id": "verb-kalei"
+   }
   },
   {
    "id": "panel-3-1-b",
@@ -36,35 +44,59 @@
   {
    "id": "panel-3-2-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "οἱ πολῖται ἐν τῇ ἀγορᾷ λέγουσιν.",
-   "alt_en": "Citizens talking in the agora under a stoa; young men listening; Democritus greeting Ariston and Lysis",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/verb-legei.webp",
+   "alt_grc": "λέγει",
+   "alt_en": "Someone speaking",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "οἱ πολῖται ἐν τῇ ἀγορᾷ λέγουσιν.",
+   "original_brief": "Citizens talking in the agora under a stoa; young men listening; Democritus greeting Ariston and Lysis",
+   "reuse": {
+    "review": "Shared conversation illustration. Caption identifies two men talking, without identifying them as the historical or fictional speakers in the passage.",
+    "role": "context",
+    "sha256": "28c71e5c5c601abe41aae7f05f6f19c8b5fed532748ab35f79ee82d714e5e5e6",
+    "source_id": "verb-legei"
+   }
   },
   {
    "id": "panel-3-2-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Δημόκριτος τοὺς νεανίας ὁρᾷ.",
-   "alt_en": "Democritus pointing at young men lounging by a barber's shop and at a metic potter carrying pots",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/verb-legei.webp",
+   "alt_grc": "λέγει",
+   "alt_en": "Someone speaking",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ Δημόκριτος τοὺς νεανίας ὁρᾷ.",
+   "original_brief": "Democritus pointing at young men lounging by a barber's shop and at a metic potter carrying pots",
+   "reuse": {
+    "review": "Shared conversation illustration. Caption identifies two men talking, without identifying them as the historical or fictional speakers in the passage.",
+    "role": "context",
+    "sha256": "28c71e5c5c601abe41aae7f05f6f19c8b5fed532748ab35f79ee82d714e5e5e6",
+    "source_id": "verb-legei"
+   }
   },
   {
    "id": "panel-3-2-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Δημόκριτος περὶ τοῦ πολέμου λέγει.",
-   "alt_en": "Democritus talking about the Spartans and war; Ariston and Lysis walking away towards the workshop",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/panel-1-2-a.webp",
+   "alt_grc": "ἐν τῷ ἐργαστηρίῳ",
+   "alt_en": "Ariston at the wheel, Syros carrying clay",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ Δημόκριτος περὶ τοῦ πολέμου λέγει.",
+   "original_brief": "Democritus talking about the Spartans and war; Ariston and Lysis walking away towards the workshop",
+   "reuse": {
+    "review": "Shared pottery-workshop setting. The image depicts Ariston and Syros at work; other characters and individual episode actions are not claimed.",
+    "role": "context",
+    "sha256": "15c4e1561dda1024d1a609c849365c4e2acbb00d6c472eaba28f41825ab5d7ec",
+    "source_id": "panel-1-2-a"
+   }
   },
   {
    "id": "panel-3-3-a",
@@ -80,57 +112,97 @@
   {
    "id": "panel-3-3-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "νὺξ γίγνεται· ὁ Λάβρος οὐκ ἀφικνεῖται.",
-   "alt_en": "Night falling over the courtyard; Elpis and Chrysis at the door; Ariston and Lysis leaving with a torch",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/selene.webp",
+   "alt_grc": "ἡ σελήνη",
+   "alt_en": "The moon",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "νὺξ γίγνεται· ὁ Λάβρος οὐκ ἀφικνεῖται.",
+   "original_brief": "Night falling over the courtyard; Elpis and Chrysis at the door; Ariston and Lysis leaving with a torch",
+   "reuse": {
+    "review": "Shared night setting with moon and stars; the image is not a reconstruction of the search or street conversation.",
+    "role": "context",
+    "sha256": "d45031e970e7607e772066cda811d5cf3d28540be705b8d9d0f9352808fad88f",
+    "source_id": "selene"
+   }
   },
   {
    "id": "panel-3-3-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Λάβρος ἐν τῷ ἐργαστηρίῳ καθεύδει.",
-   "alt_en": "Syros with a lamp in the workshop; Labros asleep beside the kiln with a loaf",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/panel-1-2-b.webp",
+   "alt_grc": "ὁ Λάβρος καθεύδει",
+   "alt_en": "The dog asleep by the kiln",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ Λάβρος ἐν τῷ ἐργαστηρίῳ καθεύδει.",
+   "original_brief": "Syros with a lamp in the workshop; Labros asleep beside the kiln with a loaf",
+   "reuse": {
+    "review": "The existing illustration shows Labros asleep beside the kiln, the main subject of this paragraph. No lamp bearer is claimed.",
+    "role": "context",
+    "sha256": "76d42cfdda265603ba04a1f1e359429d7efdf6e34a9a7a3e252b9a2f5259e223",
+    "source_id": "panel-1-2-b"
+   }
   },
   {
    "id": "panel-3-4-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "πρὸς τὴν ἀκρόπολιν ἀναβαίνουσιν.",
-   "alt_en": "Ariston, Lysis, Elpis and Labros climbing the ramp to the Acropolis; workmen on the unfinished Propylaia",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/polis.webp",
+   "alt_grc": "ἡ πόλις",
+   "alt_en": "A city with walls and an acropolis",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "πρὸς τὴν ἀκρόπολιν ἀναβαίνουσιν.",
+   "original_brief": "Ariston, Lysis, Elpis and Labros climbing the ramp to the Acropolis; workmen on the unfinished Propylaia",
+   "reuse": {
+    "review": "Shared Athenian city landscape with Acropolis; does not claim exact fortification routes, war damage or characters.",
+    "role": "context",
+    "sha256": "8243d2880112b0e41c20affc78fa99412b1fae40f67c8d854c525272bccb373b",
+    "source_id": "polis"
+   }
   },
   {
    "id": "panel-3-4-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "τὸ ἄγαλμα τῆς Ἀθηνᾶς ὁρῶσιν.",
-   "alt_en": "The family before the great bronze Athena and the Parthenon",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/thea.webp",
+   "alt_grc": "ἡ θεά",
+   "alt_en": "A goddess (Athena with helmet and owl)",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "τὸ ἄγαλμα τῆς Ἀθηνᾶς ὁρῶσιν.",
+   "original_brief": "The family before the great bronze Athena and the Parthenon",
+   "reuse": {
+    "review": "Shared Athena illustration for the Acropolis visit. No procession or exact ancient statue reconstruction is claimed.",
+    "role": "context",
+    "sha256": "89e280f972b036a1c7b02dfab57551b7d61bdc57b3a42c57f90cb17820951dd3",
+    "source_id": "thea"
+   }
   },
   {
    "id": "panel-3-4-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ἀπὸ τῆς ἀκροπόλεως τὴν πόλιν ὁρῶσιν.",
-   "alt_en": "View from the Acropolis wall over the Agora, the Kerameikos and the sea towards Piraeus; Labros asleep under a tree",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/polis.webp",
+   "alt_grc": "ἡ πόλις",
+   "alt_en": "A city with walls and an acropolis",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ἀπὸ τῆς ἀκροπόλεως τὴν πόλιν ὁρῶσιν.",
+   "original_brief": "View from the Acropolis wall over the Agora, the Kerameikos and the sea towards Piraeus; Labros asleep under a tree",
+   "reuse": {
+    "review": "Shared Athenian city landscape with Acropolis; does not claim exact fortification routes, war damage or characters.",
+    "role": "context",
+    "sha256": "8243d2880112b0e41c20affc78fa99412b1fae40f67c8d854c525272bccb373b",
+    "source_id": "polis"
+   }
   },
   {
    "id": "heorte",
@@ -328,15 +400,23 @@
   {
    "id": "logos",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/verb-legei.webp",
    "alt_grc": "λόγος",
-   "alt_en": "A man speaking, words shown as a scroll",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "alt_en": "Someone speaking",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "λόγος"
-   ]
+   ],
+   "original_alt_grc": "λόγος",
+   "original_brief": "A man speaking, words shown as a scroll",
+   "reuse": {
+    "review": "Two men converse, with one visibly speaking and the other listening.",
+    "role": "concept",
+    "sha256": "28c71e5c5c601abe41aae7f05f6f19c8b5fed532748ab35f79ee82d714e5e5e6",
+    "source_id": "verb-legei"
+   }
   },
   {
    "id": "agathos-kakos",
@@ -370,15 +450,23 @@
   {
    "id": "verb-gignetai",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/hespera.webp",
    "alt_grc": "νὺξ γίγνεται",
-   "alt_en": "The sun setting and the sky turning dark",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "alt_en": "Evening: the sun setting behind the hills, the first star",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "γίγνομαι"
-   ]
+   ],
+   "original_alt_grc": "νὺξ γίγνεται",
+   "original_brief": "The sun setting and the sky turning dark",
+   "reuse": {
+    "review": "Sunset and darkening sky illustrate the specified phrase: night is coming.",
+    "role": "concept",
+    "sha256": "f647b1f80c780fd7b837d1ad2c49fe1f7b812cdd6faec1ecf07e847e318575e5",
+    "source_id": "hespera"
+   }
   },
   {
    "id": "verb-bouletai",
@@ -422,15 +510,23 @@
   {
    "id": "verb-erchetai",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/anthropos.webp",
    "alt_grc": "ἔρχεται",
-   "alt_en": "Someone coming along a road",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "alt_en": "Someone walking",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ἔρχομαι"
-   ]
+   ],
+   "original_alt_grc": "ἔρχεται",
+   "original_brief": "Someone coming along a road",
+   "reuse": {
+    "review": "A man visibly walks along a road; coming/going is presented in a walking context.",
+    "role": "concept",
+    "sha256": "ae6a0cdb8e66a57c1037c5e0e01dbb345746af382ea80ce1b98e7bbe240c7176",
+    "source_id": "verb-bainei"
+   }
   },
   {
    "id": "verb-machontai",
@@ -578,15 +674,23 @@
   {
    "id": "agalma",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/verb-histatai.webp",
    "alt_grc": "ἄγαλμα",
-   "alt_en": "A statue of a goddess on a base",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "A man standing upright and still, arms at his sides.",
+   "credit": "Marble statue of a kouros (youth) · Greek, Attic · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/253370",
    "words": [
     "ἄγαλμα"
-   ]
+   ],
+   "original_alt_grc": "ἄγαλμα",
+   "original_brief": "A statue of a goddess on a base",
+   "reuse": {
+    "review": "A freestanding ancient statue on a modern display base clearly illustrates statue; does not claim it depicts a goddess.",
+    "role": "concept",
+    "sha256": "8a67b1cbe6e25c1686e482484d063ec5585260bdf1510cb81e8256c1636a2eb7",
+    "source_id": "verb-histatai"
+   }
   },
   {
    "id": "diagram-decl3-stem",

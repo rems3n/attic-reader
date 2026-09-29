@@ -132,15 +132,23 @@
   {
    "id": "verb-didosi",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/doron.webp",
    "alt_grc": "δίδωσιν",
-   "alt_en": "One hand giving a cup to another.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "alt_en": "A gift",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "δίδωμι"
-   ]
+   ],
+   "original_alt_grc": "δίδωσιν",
+   "original_brief": "One hand giving a cup to another.",
+   "reuse": {
+    "review": "Hands visibly offer a cup to another person; matches giving.",
+    "role": "concept",
+    "sha256": "a5e6f386a0cec0e953475e0607d662e0ceb387a28e1ba3cb885ce57a48856a93",
+    "source_id": "doron"
+   }
   },
   {
    "id": "verb-tithesi",
@@ -222,35 +230,59 @@
   {
    "id": "panel-7-3-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "τοῦ ἡλίου ἀνατέλλοντος, πολὺς λαὸς τὸ θέατρον πληροῖ.",
-   "alt_en": "Sunrise over the theatre of Dionysus: the slope packed with spectators on wooden benches; Ariston's family high up at the back, looking down on the orchestra and the stage building.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/culture-7-3-medea.webp",
+   "alt_grc": "ἡ Μήδεια ἐπὶ τοῦ ἅρματος τοῦ Ἡλίου.",
+   "alt_en": "Lucanian red-figure calyx-krater, c. 400 BC (Cleveland Museum of Art, attributed to the Policoro Painter): Medea escapes in a serpent-drawn chariot above the bodies of her children (museum photograph, CC0).",
+   "credit": "Red-Figure Calyx-Krater (Mixing Vessel): Medea in Chariot (A); Telephos with Baby Orestes (B) · Policoro Painter (South Italian, Lucanian, active c. 400 BCE) · The Cleveland Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://clevelandart.org/art/1991.1",
+   "words": [],
+   "original_alt_grc": "τοῦ ἡλίου ἀνατέλλοντος, πολὺς λαὸς τὸ θέατρον πληροῖ.",
+   "original_brief": "Sunrise over the theatre of Dionysus: the slope packed with spectators on wooden benches; Ariston's family high up at the back, looking down on the orchestra and the stage building.",
+   "reuse": {
+    "review": "Shared ancient depiction of Medea for the tragedy lesson; clearly a vase photograph, not a view of the theatre audience.",
+    "role": "context",
+    "sha256": "225c88c4c360d215c8bdfbcaa8114859f0af8986cb7f53ceda1238d318d3b1f0",
+    "source_id": "culture-7-3-medea"
+   }
   },
   {
    "id": "panel-7-3-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ἡ Μήδεια πρὸ τῆς σκηνῆς ἵσταται· ὁ χορὸς τῶν Κορινθίων γυναικῶν ἀκούει.",
-   "alt_en": "An actor in a pale female mask and long robe (Medea) stands before the stage-building doors; the chorus of Corinthian women listens in the orchestra; Chrysis wipes her eyes, Elpis holds her hand.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/culture-7-3-medea.webp",
+   "alt_grc": "ἡ Μήδεια ἐπὶ τοῦ ἅρματος τοῦ Ἡλίου.",
+   "alt_en": "Lucanian red-figure calyx-krater, c. 400 BC (Cleveland Museum of Art, attributed to the Policoro Painter): Medea escapes in a serpent-drawn chariot above the bodies of her children (museum photograph, CC0).",
+   "credit": "Red-Figure Calyx-Krater (Mixing Vessel): Medea in Chariot (A); Telephos with Baby Orestes (B) · Policoro Painter (South Italian, Lucanian, active c. 400 BCE) · The Cleveland Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://clevelandart.org/art/1991.1",
+   "words": [],
+   "original_alt_grc": "ἡ Μήδεια πρὸ τῆς σκηνῆς ἵσταται· ὁ χορὸς τῶν Κορινθίων γυναικῶν ἀκούει.",
+   "original_brief": "An actor in a pale female mask and long robe (Medea) stands before the stage-building doors; the chorus of Corinthian women listens in the orchestra; Chrysis wipes her eyes, Elpis holds her hand.",
+   "reuse": {
+    "review": "Shared ancient depiction of Medea for the tragedy lesson; clearly a vase photograph, not a view of the theatre audience.",
+    "role": "context",
+    "sha256": "225c88c4c360d215c8bdfbcaa8114859f0af8986cb7f53ceda1238d318d3b1f0",
+    "source_id": "culture-7-3-medea"
+   }
   },
   {
    "id": "panel-7-3-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Κλεινίας τὸν μῦθον λέγει· ἡ Μήδεια ἐπὶ τοῦ ἅρματος φεύγει.",
-   "alt_en": "Kleinias whispers the story to Lysis; above them, as if in a thought-bubble in vase style, Medea flies off in the chariot of the Sun drawn by serpents.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/culture-7-3-medea.webp",
+   "alt_grc": "ἡ Μήδεια ἐπὶ τοῦ ἅρματος τοῦ Ἡλίου.",
+   "alt_en": "Lucanian red-figure calyx-krater, c. 400 BC (Cleveland Museum of Art, attributed to the Policoro Painter): Medea escapes in a serpent-drawn chariot above the bodies of her children (museum photograph, CC0).",
+   "credit": "Red-Figure Calyx-Krater (Mixing Vessel): Medea in Chariot (A); Telephos with Baby Orestes (B) · Policoro Painter (South Italian, Lucanian, active c. 400 BCE) · The Cleveland Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://clevelandart.org/art/1991.1",
+   "words": [],
+   "original_alt_grc": "ὁ Κλεινίας τὸν μῦθον λέγει· ἡ Μήδεια ἐπὶ τοῦ ἅρματος φεύγει.",
+   "original_brief": "Kleinias whispers the story to Lysis; above them, as if in a thought-bubble in vase style, Medea flies off in the chariot of the Sun drawn by serpents.",
+   "reuse": {
+    "review": "Shared ancient depiction of Medea for the tragedy lesson; clearly a vase photograph, not a view of the theatre audience.",
+    "role": "context",
+    "sha256": "225c88c4c360d215c8bdfbcaa8114859f0af8986cb7f53ceda1238d318d3b1f0",
+    "source_id": "culture-7-3-medea"
+   }
   },
   {
    "id": "tragodia",
@@ -316,13 +348,21 @@
   {
    "id": "panel-7-4-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Δημόκριτος καὶ ὁ Ἀρίστων ἐν τῇ ὁδῷ περὶ τοῦ Εὐριπίδου λέγουσιν.",
-   "alt_en": "A dark street under a thin moon: Demokritos and his sons argue with Ariston, hands waving; Chrysis walks quietly with Elpis; a slave ahead carries a small lamp.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/selene.webp",
+   "alt_grc": "ἡ σελήνη",
+   "alt_en": "The moon",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ Δημόκριτος καὶ ὁ Ἀρίστων ἐν τῇ ὁδῷ περὶ τοῦ Εὐριπίδου λέγουσιν.",
+   "original_brief": "A dark street under a thin moon: Demokritos and his sons argue with Ariston, hands waving; Chrysis walks quietly with Elpis; a slave ahead carries a small lamp.",
+   "reuse": {
+    "review": "Shared night setting with moon and stars; the image is not a reconstruction of the search or street conversation.",
+    "role": "context",
+    "sha256": "d45031e970e7607e772066cda811d5cf3d28540be705b8d9d0f9352808fad88f",
+    "source_id": "selene"
+   }
   },
   {
    "id": "panel-7-4-c",

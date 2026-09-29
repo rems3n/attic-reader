@@ -241,3 +241,28 @@ def test_picture_choices_do_not_share_the_same_published_image():
 
     for path in (bi.ROOT / 'app/course_data/lessons').glob('*.json'):
         check(bi.load_json(path, {}), path.name)
+
+
+def test_museum_retry_preserves_reviewed_shared_photo(tmp_path, monkeypatch):
+    monkeypatch.setattr(bi, 'DATA', tmp_path)
+    monkeypatch.setattr(bi, 'VERIFIED', tmp_path / 'verified.json')
+    record = {'id': 'school', 'license': 'CC0', 'file': 'course/pics/school-kylix.webp',
+              'reuse': {'source_id': 'school-kylix', 'role': 'context'}}
+    bi.save_json(tmp_path / 'manifest.json', {'images': [record]})
+    assert bi.cmd_manifest([{'id': 'school'}]) == 0
+    assert bi.load_json(tmp_path / 'manifest.json', {})['images'] == [record]
+
+
+def test_shared_images_retain_brief_and_match_reviewed_source():
+    import hashlib
+    records = {key: value[1] for key, value in bi.manifest_records().items()}
+    for mapping in bi.load_json(bi.DATA / 'shared-images.json', []):
+        image, source = records[mapping['id']], records[mapping['source']]
+        assert image['original_brief'] and image['reuse']['review']
+        assert image['file'] == source['file']
+        assert image['alt_en'] == source['alt_en']
+        assert image['license'] == source['license'] != 'placeholder'
+        path = bi.ROOT.parent / 'frontend/public' / image['file']
+        assert image['reuse']['sha256'] == hashlib.sha256(path.read_bytes()).hexdigest()
+        if mapping['role'] == 'context':
+            assert image['alt_grc'] == source['alt_grc']

@@ -257,15 +257,23 @@
   {
    "id": "myth-eune",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/kline.webp",
    "alt_grc": "ἡ εὐνή",
-   "alt_en": "A child's cradle or a couch with a sleeping figure, from a Greek vase or terracotta.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "alt_en": "A couch",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "εὐνή"
-   ]
+   ],
+   "original_alt_grc": "ἡ εὐνή",
+   "original_brief": "A child's cradle or a couch with a sleeping figure, from a Greek vase or terracotta.",
+   "reuse": {
+    "review": "A couch with cushion and scroll illustrates the noun couch; no sleeping child is claimed.",
+    "role": "concept",
+    "sha256": "b697cc8cc5fe0f779697d1d36650f881ae855a9a5d3ef0f6c20f2abf1c15b4da",
+    "source_id": "kline"
+   }
   },
   {
    "id": "myth-kithara",

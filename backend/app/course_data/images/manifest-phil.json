@@ -91,13 +91,21 @@
   {
    "id": "phil-panel-3-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "πρῲ ὁ Σωκράτης εἰς τὸ γυμνάσιον ἔρχεται· πληθούσης δὲ τῆς ἀγορᾶς ἐκεῖ φανερός ἐστιν.",
-   "alt_en": "A split scene: left, early morning at a gymnasium outside the walls, youths exercising under plane trees while Socrates walks and talks in a covered walk; right, the Agora full of stalls and shoppers at mid-morning, Socrates in the middle of a small crowd.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/agora.webp",
+   "alt_grc": "ἡ ἀγορά",
+   "alt_en": "The agora, a market square with stoas",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "πρῲ ὁ Σωκράτης εἰς τὸ γυμνάσιον ἔρχεται· πληθούσης δὲ τῆς ἀγορᾶς ἐκεῖ φανερός ἐστιν.",
+   "original_brief": "A split scene: left, early morning at a gymnasium outside the walls, youths exercising under plane trees while Socrates walks and talks in a covered walk; right, the Agora full of stalls and shoppers at mid-morning, Socrates in the middle of a small crowd.",
+   "reuse": {
+    "review": "Shared market setting. Does not claim the specific sale, price comparison, historical speaker or invisible characters appear.",
+    "role": "context",
+    "sha256": "2afc9b128d0f912909524efee606fa0adbb09e1a6b58d215c550b07155752d19",
+    "source_id": "agora"
+   }
   },
   {
    "id": "phil-panel-3-b",
@@ -201,13 +209,21 @@
   {
    "id": "phil-panel-5-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ δίκαιος καὶ ὁ ἄδικος δακτυλίους ἔχουσιν.",
-   "alt_en": "Two men with identical gold rings stand at the edge of a crowded market, both half-invisible, both reaching toward a table of silver and fine goods; Socrates and Glaucon watch from a bench, Glaucon gesturing.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/agora.webp",
+   "alt_grc": "ἡ ἀγορά",
+   "alt_en": "The agora, a market square with stoas",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ δίκαιος καὶ ὁ ἄδικος δακτυλίους ἔχουσιν.",
+   "original_brief": "Two men with identical gold rings stand at the edge of a crowded market, both half-invisible, both reaching toward a table of silver and fine goods; Socrates and Glaucon watch from a bench, Glaucon gesturing.",
+   "reuse": {
+    "review": "Shared market setting. Does not claim the specific sale, price comparison, historical speaker or invisible characters appear.",
+    "role": "context",
+    "sha256": "2afc9b128d0f912909524efee606fa0adbb09e1a6b58d215c550b07155752d19",
+    "source_id": "agora"
+   }
   },
   {
    "id": "phil-culture-5-lydian-coin",
@@ -236,35 +252,59 @@
   {
    "id": "phil-panel-6-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Κρίτων τὸν παῖδα πέμπει· ὁ δὲ ἄνθρωπος τὸ φάρμακον ἐν κύλικι φέρει.",
-   "alt_en": "The prison cell at sunset, light slanting through a small high window: Socrates, just bathed, sits on his bed among his friends; grey-haired Crito nods to a slave boy at the door, and a quiet official enters carrying a plain cup.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/phil-culture-7-david.webp",
+   "alt_grc": "ὁ Σωκράτης καὶ οἱ φίλοι.",
+   "alt_en": "The Death of Socrates by Jacques-Louis David, 1787. A later artistic interpretation of Socrates reaching for the cup among his companions.",
+   "credit": "The Death of Socrates · Jacques Louis David · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/436105",
+   "words": [],
+   "original_alt_grc": "ὁ Κρίτων τὸν παῖδα πέμπει· ὁ δὲ ἄνθρωπος τὸ φάρμακον ἐν κύλικι φέρει.",
+   "original_brief": "The prison cell at sunset, light slanting through a small high window: Socrates, just bathed, sits on his bed among his friends; grey-haired Crito nods to a slave boy at the door, and a quiet official enters carrying a plain cup.",
+   "reuse": {
+    "review": "Shared historical painting for the death-of-Socrates lessons. Caption explicitly identifies David and 1787; not presented as ancient evidence or an exact reconstruction.",
+    "role": "context",
+    "sha256": "ed328c04597a9c2ad7fd7386c8b6175e54d1d85d35634b6e508c67af1abefa4b",
+    "source_id": "phil-culture-7-david"
+   }
   },
   {
    "id": "phil-panel-6-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Σωκράτης τὴν κύλικα λαμβάνει καὶ εὐκόλως ἐκπίνει.",
-   "alt_en": "Socrates, calm and upright, takes the cup from the official and looks at him from under his brows; the official explains with a gesture toward his own legs; the friends around them freeze.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/phil-culture-7-david.webp",
+   "alt_grc": "ὁ Σωκράτης καὶ οἱ φίλοι.",
+   "alt_en": "The Death of Socrates by Jacques-Louis David, 1787. A later artistic interpretation of Socrates reaching for the cup among his companions.",
+   "credit": "The Death of Socrates · Jacques Louis David · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/436105",
+   "words": [],
+   "original_alt_grc": "ὁ Σωκράτης τὴν κύλικα λαμβάνει καὶ εὐκόλως ἐκπίνει.",
+   "original_brief": "Socrates, calm and upright, takes the cup from the official and looks at him from under his brows; the official explains with a gesture toward his own legs; the friends around them freeze.",
+   "reuse": {
+    "review": "Shared historical painting for the death-of-Socrates lessons. Caption explicitly identifies David and 1787; not presented as ancient evidence or an exact reconstruction.",
+    "role": "context",
+    "sha256": "ed328c04597a9c2ad7fd7386c8b6175e54d1d85d35634b6e508c67af1abefa4b",
+    "source_id": "phil-culture-7-david"
+   }
   },
   {
    "id": "phil-panel-6-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "οἱ φίλοι δακρύουσιν· ὁ δὲ Σωκράτης· ἡσυχίαν ἄγετε.",
-   "alt_en": "The friends weeping: young Phaedo covering his face with his cloak, Crito standing up to leave, Apollodorus sobbing aloud; Socrates, walking slowly about the room, raises a hand to quiet them.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/phil-culture-7-david.webp",
+   "alt_grc": "ὁ Σωκράτης καὶ οἱ φίλοι.",
+   "alt_en": "The Death of Socrates by Jacques-Louis David, 1787. A later artistic interpretation of Socrates reaching for the cup among his companions.",
+   "credit": "The Death of Socrates · Jacques Louis David · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/436105",
+   "words": [],
+   "original_alt_grc": "οἱ φίλοι δακρύουσιν· ὁ δὲ Σωκράτης· ἡσυχίαν ἄγετε.",
+   "original_brief": "The friends weeping: young Phaedo covering his face with his cloak, Crito standing up to leave, Apollodorus sobbing aloud; Socrates, walking slowly about the room, raises a hand to quiet them.",
+   "reuse": {
+    "review": "Shared historical painting for the death-of-Socrates lessons. Caption explicitly identifies David and 1787; not presented as ancient evidence or an exact reconstruction.",
+    "role": "context",
+    "sha256": "ed328c04597a9c2ad7fd7386c8b6175e54d1d85d35634b6e508c67af1abefa4b",
+    "source_id": "phil-culture-7-david"
+   }
   },
   {
    "id": "phil-culture-6-hemlock",
@@ -280,46 +320,71 @@
   {
    "id": "phil-panel-7-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ ἄνθρωπος τοὺς πόδας τοῦ Σωκράτους πιέζει.",
-   "alt_en": "Socrates lies on his back on the prison bed, his face covered with his cloak; the official presses his foot and asks if he can feel it; his friends watch in silence.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/phil-culture-7-david.webp",
+   "alt_grc": "ὁ Σωκράτης καὶ οἱ φίλοι.",
+   "alt_en": "The Death of Socrates by Jacques-Louis David, 1787. A later artistic interpretation of Socrates reaching for the cup among his companions.",
+   "credit": "The Death of Socrates · Jacques Louis David · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/436105",
+   "words": [],
+   "original_alt_grc": "ὁ ἄνθρωπος τοὺς πόδας τοῦ Σωκράτους πιέζει.",
+   "original_brief": "Socrates lies on his back on the prison bed, his face covered with his cloak; the official presses his foot and asks if he can feel it; his friends watch in silence.",
+   "reuse": {
+    "review": "Shared historical painting for the death-of-Socrates lessons. Caption explicitly identifies David and 1787; not presented as ancient evidence or an exact reconstruction.",
+    "role": "context",
+    "sha256": "ed328c04597a9c2ad7fd7386c8b6175e54d1d85d35634b6e508c67af1abefa4b",
+    "source_id": "phil-culture-7-david"
+   }
   },
   {
    "id": "phil-panel-7-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Σωκράτης ἐκκαλυψάμενος· ὦ Κρίτων, τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόνα.",
-   "alt_en": "Socrates has uncovered his face and turns his head toward Crito, who leans close; in the shadows of the cell a small votive image of Asclepius with his snake-staff; outside the window, a cock on a wall.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/phil-culture-7-david.webp",
+   "alt_grc": "ὁ Σωκράτης καὶ οἱ φίλοι.",
+   "alt_en": "The Death of Socrates by Jacques-Louis David, 1787. A later artistic interpretation of Socrates reaching for the cup among his companions.",
+   "credit": "The Death of Socrates · Jacques Louis David · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/436105",
+   "words": [],
+   "original_alt_grc": "ὁ Σωκράτης ἐκκαλυψάμενος· ὦ Κρίτων, τῷ Ἀσκληπιῷ ὀφείλομεν ἀλεκτρυόνα.",
+   "original_brief": "Socrates has uncovered his face and turns his head toward Crito, who leans close; in the shadows of the cell a small votive image of Asclepius with his snake-staff; outside the window, a cock on a wall.",
+   "reuse": {
+    "review": "Shared historical painting for the death-of-Socrates lessons. Caption explicitly identifies David and 1787; not presented as ancient evidence or an exact reconstruction.",
+    "role": "context",
+    "sha256": "ed328c04597a9c2ad7fd7386c8b6175e54d1d85d35634b6e508c67af1abefa4b",
+    "source_id": "phil-culture-7-david"
+   }
   },
   {
    "id": "phil-panel-7-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Κρίτων τοὺς ὀφθαλμοὺς τοῦ Σωκράτους συλλαμβάνει.",
-   "alt_en": "Crito gently closes Socrates' eyes and mouth; the friends stand around the bed, heads bowed; the empty cup on the floor.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/phil-culture-7-david.webp",
+   "alt_grc": "ὁ Σωκράτης καὶ οἱ φίλοι.",
+   "alt_en": "The Death of Socrates by Jacques-Louis David, 1787. A later artistic interpretation of Socrates reaching for the cup among his companions.",
+   "credit": "The Death of Socrates · Jacques Louis David · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/436105",
+   "words": [],
+   "original_alt_grc": "ὁ Κρίτων τοὺς ὀφθαλμοὺς τοῦ Σωκράτους συλλαμβάνει.",
+   "original_brief": "Crito gently closes Socrates' eyes and mouth; the friends stand around the bed, heads bowed; the empty cup on the floor.",
+   "reuse": {
+    "review": "Shared historical painting for the death-of-Socrates lessons. Caption explicitly identifies David and 1787; not presented as ancient evidence or an exact reconstruction.",
+    "role": "context",
+    "sha256": "ed328c04597a9c2ad7fd7386c8b6175e54d1d85d35634b6e508c67af1abefa4b",
+    "source_id": "phil-culture-7-david"
+   }
   },
   {
    "id": "phil-culture-7-david",
    "kind": "culture",
-   "file": null,
-   "alt_grc": "ὁ τοῦ Σωκράτους θάνατος.",
-   "alt_en": "Jacques-Louis David, The Death of Socrates, 1787, oil on canvas (New York, Metropolitan Museum of Art 31.45; public domain, CC0).",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/phil-culture-7-david.webp",
+   "alt_grc": "ὁ Σωκράτης καὶ οἱ φίλοι.",
+   "alt_en": "The Death of Socrates by Jacques-Louis David, 1787. A later artistic interpretation of Socrates reaching for the cup among his companions.",
+   "credit": "The Death of Socrates · Jacques Louis David · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/436105",
+   "words": [],
+   "original_brief": "Jacques-Louis David, The Death of Socrates, 1787, oil on canvas (New York, Metropolitan Museum of Art 31.45; public domain, CC0)."
   }
  ]
 }

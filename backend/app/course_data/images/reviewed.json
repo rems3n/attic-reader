@@ -108,5 +108,23 @@
   "note": "Exact artifact identified and downloaded photograph visually checked.",
   "ref": "File:Wax writing tablet (2nd C) - BL Add MS 34186.jpg",
   "source": "commons"
+ },
+ "culture-hegeso-stele": {
+  "source": "commons",
+  "ref": "File:Grave of Hegeso, Daughter of Prosenos (3435530101).jpg",
+  "note": "Viewed full-size and checked source identification. Photograph of a replica of the grave relief of Hegeso: a seated woman and a standing female attendant holding a jewellery box.",
+  "sha256": "6be0e4a313f04292753ed7cc39f0b6dcc1125e55ef063927e6b6b6182b0d1801"
+ },
+ "culture-prometheus-kylix": {
+  "source": "commons",
+  "ref": "File:Arkesilas Painter - Atlas and Prometheus - Vaticano MV-MGE 16592 - 01.jpg",
+  "note": "Viewed full-size and checked source identification. Laconian cup attributed to the Arkesilas Painter, showing Atlas and the bound Prometheus with an eagle; Vatican Museums.",
+  "sha256": "15b7e828cfbfa620b126e26285d31008b8f52f51090362a5d3cccff8e5f91e5e"
+ },
+ "phil-culture-7-david": {
+  "source": "met",
+  "ref": "436105",
+  "note": "Viewed full-size and checked source identification. The Death of Socrates by Jacques-Louis David, 1787. A later artistic interpretation of Socrates reaching for the cup among his companions.",
+  "sha256": "ed328c04597a9c2ad7fd7386c8b6175e54d1d85d35634b6e508c67af1abefa4b"
  }
 }

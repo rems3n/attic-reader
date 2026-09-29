@@ -3,13 +3,21 @@
   {
    "id": "panel-5-1-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "πάντες εἰς τὴν ἀκρόπολιν ἔρχονται· ὁ Σύρος τὴν αἶγα ἄγει.",
-   "alt_en": "The family climbing the Acropolis ramp; Syros leads a white goat, Chrysis carries a wreath, Lysis a wine jug",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/thea.webp",
+   "alt_grc": "ἡ θεά",
+   "alt_en": "A goddess (Athena with helmet and owl)",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "πάντες εἰς τὴν ἀκρόπολιν ἔρχονται· ὁ Σύρος τὴν αἶγα ἄγει.",
+   "original_brief": "The family climbing the Acropolis ramp; Syros leads a white goat, Chrysis carries a wreath, Lysis a wine jug",
+   "reuse": {
+    "review": "Shared Athena illustration for the Acropolis visit. No procession or exact ancient statue reconstruction is claimed.",
+    "role": "context",
+    "sha256": "89e280f972b036a1c7b02dfab57551b7d61bdc57b3a42c57f90cb17820951dd3",
+    "source_id": "thea"
+   }
   },
   {
    "id": "panel-5-1-b",
@@ -36,13 +44,21 @@
   {
    "id": "panel-5-2-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Δημόκριτος περὶ τοῦ πολέμου λέγει.",
-   "alt_en": "Evening in the courtyard: Democritus talking, the family listening, Kleinias by the brazier",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/panel-2-1-c.webp",
+   "alt_grc": "ἑσπέρα ἐστίν· ὁ Ἀρίστων ἄρτον ἐσθίει.",
+   "alt_en": "Evening: the family eats bread by lamplight; the moon over the courtyard",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ Δημόκριτος περὶ τοῦ πολέμου λέγει.",
+   "original_brief": "Evening in the courtyard: Democritus talking, the family listening, Kleinias by the brazier",
+   "reuse": {
+    "review": "Shared household evening scene. Accurate image caption describes the family meal, not the episode-specific conversation or action.",
+    "role": "context",
+    "sha256": "ca14c6fe80468aaacc9e27f12e39e63e2a0cec19e7b40d6e62027cdc9d02ac22",
+    "source_id": "panel-2-1-c"
+   }
   },
   {
    "id": "panel-5-2-b",
@@ -102,35 +118,59 @@
   {
    "id": "panel-5-4-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ἡ Ἐλπὶς νοσεῖ καὶ ἐν τῇ κλίνῃ κεῖται.",
-   "alt_en": "Elpis ill in bed under a blanket; Chrysis feeling her forehead; Labros at the bedside",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/panel-2-1-a.webp",
+   "alt_grc": "ἡ Χρυσὶς τὴν Ἐλπίδα καλεῖ.",
+   "alt_en": "Dawn in the courtyard: Chrysis at the couch, waking Elpis",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ἡ Ἐλπὶς νοσεῖ καὶ ἐν τῇ κλίνῃ κεῖται.",
+   "original_brief": "Elpis ill in bed under a blanket; Chrysis feeling her forehead; Labros at the bedside",
+   "reuse": {
+    "review": "Shared mother-and-daughter bedside setting. Caption describes Chrysis beside Elpis on a couch, without claiming a doctor or diagnosis.",
+    "role": "context",
+    "sha256": "12610b664e311024fc94573e6e8219e4cd2016475f3fa0aee220132bc3422a05",
+    "source_id": "panel-2-1-a"
+   }
   },
   {
    "id": "panel-5-4-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ ἰατρὸς τὴν παῖδα θεραπεύει.",
-   "alt_en": "The doctor Philinos examining Elpis: looking at her eyes and tongue, his bag of remedies open",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/panel-2-1-a.webp",
+   "alt_grc": "ἡ Χρυσὶς τὴν Ἐλπίδα καλεῖ.",
+   "alt_en": "Dawn in the courtyard: Chrysis at the couch, waking Elpis",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ ἰατρὸς τὴν παῖδα θεραπεύει.",
+   "original_brief": "The doctor Philinos examining Elpis: looking at her eyes and tongue, his bag of remedies open",
+   "reuse": {
+    "review": "Shared mother-and-daughter bedside setting. Caption describes Chrysis beside Elpis on a couch, without claiming a doctor or diagnosis.",
+    "role": "context",
+    "sha256": "12610b664e311024fc94573e6e8219e4cd2016475f3fa0aee220132bc3422a05",
+    "source_id": "panel-2-1-a"
+   }
   },
   {
    "id": "panel-5-4-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ἡ Ἐλπὶς ὑγιής ἐστιν.",
-   "alt_en": "Some days later: Elpis up and well, drinking from a cup; the family relieved",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/panel-2-1-a.webp",
+   "alt_grc": "ἡ Χρυσὶς τὴν Ἐλπίδα καλεῖ.",
+   "alt_en": "Dawn in the courtyard: Chrysis at the couch, waking Elpis",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ἡ Ἐλπὶς ὑγιής ἐστιν.",
+   "original_brief": "Some days later: Elpis up and well, drinking from a cup; the family relieved",
+   "reuse": {
+    "review": "Shared mother-and-daughter bedside setting. Caption describes Chrysis beside Elpis on a couch, without claiming a doctor or diagnosis.",
+    "role": "context",
+    "sha256": "12610b664e311024fc94573e6e8219e4cd2016475f3fa0aee220132bc3422a05",
+    "source_id": "panel-2-1-a"
+   }
   },
   {
    "id": "culture-5-1-sacrifice",

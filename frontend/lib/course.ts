@@ -19,6 +19,8 @@ export type ImageRecord = {
   credit: string;
   license: string;
   source_url: string | null;
+  original_brief?: string;
+  reuse?: { source_id: string; role: "concept" | "context" | "exact"; review: string; sha256: string };
   /** our own diagram, rendered from components/course/diagrams */
   svg?: boolean;
 };

@@ -3,13 +3,21 @@
   {
    "id": "panel-9-1-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ἄνω ἐπὶ τῷ τείχει οἱ Ἀθηναῖοι τὸν καπνὸν ὁρῶσιν ἐκ τῶν ἀγρῶν ἀναβαίνοντα.",
-   "alt_en": "Athenians crowd the top of the city wall in summer; far off across the plain, columns of smoke rise over Acharnae below Mount Parnes.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/polis.webp",
+   "alt_grc": "ἡ πόλις",
+   "alt_en": "A city with walls and an acropolis",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ἄνω ἐπὶ τῷ τείχει οἱ Ἀθηναῖοι τὸν καπνὸν ὁρῶσιν ἐκ τῶν ἀγρῶν ἀναβαίνοντα.",
+   "original_brief": "Athenians crowd the top of the city wall in summer; far off across the plain, columns of smoke rise over Acharnae below Mount Parnes.",
+   "reuse": {
+    "review": "Shared Athenian city landscape with Acropolis; does not claim exact fortification routes, war damage or characters.",
+    "role": "context",
+    "sha256": "8243d2880112b0e41c20affc78fa99412b1fae40f67c8d854c525272bccb373b",
+    "source_id": "polis"
+   }
   },
   {
    "id": "panel-9-1-b",
@@ -25,13 +33,21 @@
   {
    "id": "panel-9-1-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ἐν τῇ πόλει οἱ Ἀθηναῖοι ἐν πολλῇ ἔριδί εἰσιν· χρησμολόγος χρησμοὺς ᾄδει.",
-   "alt_en": "A street in Athens: groups of citizens argue, young men gesture towards the gates, an oracle-singer chants from a scroll.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/agora.webp",
+   "alt_grc": "ἡ ἀγορά",
+   "alt_en": "The agora, a market square with stoas",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ἐν τῇ πόλει οἱ Ἀθηναῖοι ἐν πολλῇ ἔριδί εἰσιν· χρησμολόγος χρησμοὺς ᾄδει.",
+   "original_brief": "A street in Athens: groups of citizens argue, young men gesture towards the gates, an oracle-singer chants from a scroll.",
+   "reuse": {
+    "review": "Shared market setting. Does not claim the specific sale, price comparison, historical speaker or invisible characters appear.",
+    "role": "context",
+    "sha256": "2afc9b128d0f912909524efee606fa0adbb09e1a6b58d215c550b07155752d19",
+    "source_id": "agora"
+   }
   },
   {
    "id": "stratos",

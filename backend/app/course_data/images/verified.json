@@ -1609,5 +1609,44 @@
   "source": "met",
   "source_url": "https://www.metmuseum.org/art/collection/search/253348",
   "title": "Terracotta lekythos (oil flask)"
+ },
+ "culture-hegeso-stele": {
+  "ok": true,
+  "license": "CC BY 2.0",
+  "credit": "Grave of Hegeso, Daughter of Prosenos (3435530101) · Sharon Mollerus · Wikimedia Commons (CC BY 2.0)",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Grave_of_Hegeso%2C_Daughter_of_Prosenos_%283435530101%29.jpg/1920px-Grave_of_Hegeso%2C_Daughter_of_Prosenos_%283435530101%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Grave_of_Hegeso,_Daughter_of_Prosenos_(3435530101).jpg",
+  "title": "File:Grave of Hegeso, Daughter of Prosenos (3435530101).jpg",
+  "match_text": "Grave of Hegeso, Daughter of Prosenos (3435530101) Kerameikos, Athens. Sculptor Kallimachos, end of 5th century BC. 5th-century BC inscriptions in Greece|Flickr images reviewed by FlickreviewR 2|Images uploaded by Hiàn|Photographs by Sharon Mollerus|Stele of Hegeso - replicas",
+  "reason": null,
+  "source": "commons",
+  "ref": "File:Grave of Hegeso, Daughter of Prosenos (3435530101).jpg",
+  "id": "culture-hegeso-stele"
+ },
+ "culture-prometheus-kylix": {
+  "ok": true,
+  "license": "CC BY-SA 4.0",
+  "credit": "Arkesilas Painter - Atlas and Prometheus - Vaticano MV-MGE 16592 - 01 · ArchaiOptix · Wikimedia Commons (CC BY-SA 4.0)",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Arkesilas_Painter_-_Atlas_and_Prometheus_-_Vaticano_MV-MGE_16592_-_01.jpg/1920px-Arkesilas_Painter_-_Atlas_and_Prometheus_-_Vaticano_MV-MGE_16592_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Arkesilas_Painter_-_Atlas_and_Prometheus_-_Vaticano_MV-MGE_16592_-_01.jpg",
+  "title": "File:Arkesilas Painter - Atlas and Prometheus - Vaticano MV-MGE 16592 - 01.jpg",
+  "match_text": "Arkesilas Painter - Atlas and Prometheus - Vaticano MV-MGE 16592 - 01 object type / vase shape: Laconian kylix\n- description interior: serpent, Atlas supporting the heavens; eagle eating the liver of Prometheus bound to a column; in exergue: doric column capital and flowers\n- production place: Laconia\n- painter / group: Arkesilas Painter\n- period / date: high archaic, ca. (560-)550 BC\n- material: pottery (clay)\n- height: 14 cm\n- diameter rim: 20.2 cm\n- findspot: Cerveteri\n- museum / inventory number: Città del Vaticano, Musei Vaticani, Museo Gregoriano Etrusco 16592\n- bibliography: Conrad M. Stibbe, Lakonische Vasenmaler des sechsten Jahrhunderts v. Chr., Amsterdam 1972, cat. 196\n\n- Please note: Some museums permit photography of their exhibits for private, educational and scientific purposes only. If you intend to use the photo for commercial aims, I would recommend you to contact the museum. Arkesilas Painter|Self-published work|Prometheus and Atlas (Arkesilas Painter)",
+  "reason": null,
+  "source": "commons",
+  "ref": "File:Arkesilas Painter - Atlas and Prometheus - Vaticano MV-MGE 16592 - 01.jpg",
+  "id": "culture-prometheus-kylix"
+ },
+ "phil-culture-7-david": {
+  "ok": true,
+  "license": "CC0",
+  "credit": "The Death of Socrates · Jacques Louis David · The Metropolitan Museum of Art (Open Access)",
+  "image_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-13139-001.jpg",
+  "source_url": "https://www.metmuseum.org/art/collection/search/436105",
+  "title": "The Death of Socrates",
+  "match_text": "Painting Paintings Socrates Men Lyres",
+  "reason": null,
+  "source": "met",
+  "ref": "436105",
+  "id": "phil-culture-7-david"
  }
 }

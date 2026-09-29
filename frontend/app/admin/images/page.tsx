@@ -64,6 +64,7 @@ export default function ImageDashboard() {
       Browse course artwork, see what it teaches, and find the images still needed.
     </PageHeader>
     {error ? <div className="card" role="alert"><p>{error}</p><button onClick={load}>Retry loading</button></div> : !catalog ? <p role="status">Loading the image library…</p> : <>
+      <p>{counts!.unique_raster_files} unique image files · {catalog.images.filter(i => i.reuse).length} shared placements. Completed counts course slots with an image or diagram.</p>
       <section className={styles.stats} aria-label="Image totals">
         {[["all", "All images", counts!.total], ["completed", "Completed", counts!.completed], ["remaining", "Still needed", counts!.remaining], ["candidates", "Candidates to review", counts!.candidates]].map(([value, label, count]) =>
           <button key={value} className={status === value ? styles.activeStat : ""} aria-pressed={status === value} onClick={() => { reset(); setStatus(String(value)); }}><strong>{count}</strong><span>{label}</span></button>)}
@@ -96,7 +97,8 @@ export default function ImageDashboard() {
       {selected && <div className={styles.detailBody}>
         <div className={styles.detailHeading}><div><p className="eyebrow">{selected.id}</p><h2 id="image-detail-title" lang="grc">{selected.alt_grc}</h2></div><button autoFocus onClick={() => dialog.current?.close()} aria-label="Close image details">Close</button></div>
         <div className={styles.detailPreview}><Preview key={selected.id} image={selected} /></div>
-        <h3>Intended word or scene</h3><p>{selected.alt_en}</p>
+        <h3>Intended word or scene</h3><p>{selected.original_brief ?? selected.alt_en}</p>
+        {selected.reuse && <><h3>Shared image</h3><p>Source: {selected.reuse.source_id} · {selected.reuse.role}</p><p>{selected.reuse.review}</p><h3>What the image shows</h3><p>{selected.alt_en}</p></>}
         {selected.vocabulary.length > 0 && <ul>{selected.vocabulary.map(w => <li key={w.id}><span lang="grc">{w.lemma}</span> — {w.definition}</li>)}</ul>}
         {!!selected.words?.length && <p><strong>Associated Greek:</strong> <span lang="grc">{selected.words.join(" · ")}</span></p>}
         <p><strong>Status:</strong> {selected.status === "completed" ? `Completed · ${MEDIUM_LABELS[selected.medium]}` : "Still needed"}</p>

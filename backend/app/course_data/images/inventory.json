@@ -1,10 +1,10 @@
 {
  "counts": {
   "diagram": 52,
-  "downloaded_needs_review": 126,
-  "needs_source_verification": 328,
-  "no_source_row": 40,
-  "ready": 87
+  "downloaded_needs_review": 95,
+  "needs_source_verification": 262,
+  "no_source_row": 26,
+  "ready": 198
  },
  "images": [
   {
@@ -413,16 +413,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "The excavated remains of the Themistoclean city wall and the Dipylon Gate in the Kerameikos, Athens: stone socle courses with the later mudbrick removed.",
+   "description": "The Kerameikos today, with the Dipylon gate",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Themistoclean wall Kerameikos Athens|Themistoclean|wall|Wall",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-kerameikos.webp",
    "id": "hist-kerameikos-wall",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Inside the Council-house (bouleuterion) in the Agora, 404/3 BC: councillors on tiered wooden benches behind railings; Critias, lean and fierce, pointing; Theramenes, older and well dressed, leaping onto the small altar (hearth) in the middle of the room.",
@@ -773,16 +773,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "A child's cradle or a couch with a sleeping figure, from a Greek vase or terracotta.",
+   "description": "A couch",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:terracotta cradle|cradle|Cradle",
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/kline.webp",
    "id": "myth-eune",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A musician playing the kithara, the large concert lyre (Attic red-figure amphora, Berlin Painter, Metropolitan Museum 56.171.38).",
@@ -1091,11 +1091,11 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "A split scene: left, early morning at a gymnasium outside the walls, youths exercising under plane trees while Socrates walks and talks in a covered walk; right, the Agora full of stalls and shoppers at mid-morning, Socrates in the middle of a small crowd.",
+   "description": "The agora, a market square with stoas",
    "failure": null,
-   "file": null,
+   "file": "course/illustrations/agora.webp",
    "id": "phil-panel-3-a",
-   "status": "no_source_row"
+   "status": "ready"
   },
   {
    "description": "Socrates sits on a stone bench in a colonnade, counting questions on his fingers; around him young men listen, one of them (young Xenophon, a horseman's riding boots on) taking notes on a wax tablet.",
@@ -1171,11 +1171,11 @@
    "status": "no_source_row"
   },
   {
-   "description": "Two men with identical gold rings stand at the edge of a crowded market, both half-invisible, both reaching toward a table of silver and fine goods; Socrates and Glaucon watch from a bench, Glaucon gesturing.",
+   "description": "The agora, a market square with stoas",
    "failure": null,
-   "file": null,
+   "file": "course/illustrations/agora.webp",
    "id": "phil-panel-5-c",
-   "status": "no_source_row"
+   "status": "ready"
   },
   {
    "description": "An early electrum coin of Lydia with a lion's head, about 600 BC: Lydia, the kingdom of Gyges, is where coins were first struck (museum object, CC0).",
@@ -1202,25 +1202,25 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "The prison cell at sunset, light slanting through a small high window: Socrates, just bathed, sits on his bed among his friends; grey-haired Crito nods to a slave boy at the door, and a quiet official enters carrying a plain cup.",
+   "description": "The Death of Socrates by Jacques-Louis David, 1787. A later artistic interpretation of Socrates reaching for the cup among his companions.",
    "failure": null,
-   "file": null,
+   "file": "course/pics/phil-culture-7-david.webp",
    "id": "phil-panel-6-a",
-   "status": "no_source_row"
+   "status": "ready"
   },
   {
-   "description": "Socrates, calm and upright, takes the cup from the official and looks at him from under his brows; the official explains with a gesture toward his own legs; the friends around them freeze.",
+   "description": "The Death of Socrates by Jacques-Louis David, 1787. A later artistic interpretation of Socrates reaching for the cup among his companions.",
    "failure": null,
-   "file": null,
+   "file": "course/pics/phil-culture-7-david.webp",
    "id": "phil-panel-6-b",
-   "status": "no_source_row"
+   "status": "ready"
   },
   {
-   "description": "The friends weeping: young Phaedo covering his face with his cloak, Crito standing up to leave, Apollodorus sobbing aloud; Socrates, walking slowly about the room, raises a hand to quiet them.",
+   "description": "The Death of Socrates by Jacques-Louis David, 1787. A later artistic interpretation of Socrates reaching for the cup among his companions.",
    "failure": null,
-   "file": null,
+   "file": "course/pics/phil-culture-7-david.webp",
    "id": "phil-panel-6-c",
-   "status": "no_source_row"
+   "status": "ready"
   },
   {
    "description": "Poison hemlock (Conium maculatum), the plant from which the Athenian κώνειον was prepared: white umbrella-shaped flowers and purple-spotted stems (plant photograph, CC).",
@@ -1235,37 +1235,37 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "Socrates lies on his back on the prison bed, his face covered with his cloak; the official presses his foot and asks if he can feel it; his friends watch in silence.",
+   "description": "The Death of Socrates by Jacques-Louis David, 1787. A later artistic interpretation of Socrates reaching for the cup among his companions.",
    "failure": null,
-   "file": null,
+   "file": "course/pics/phil-culture-7-david.webp",
    "id": "phil-panel-7-a",
-   "status": "no_source_row"
+   "status": "ready"
   },
   {
-   "description": "Socrates has uncovered his face and turns his head toward Crito, who leans close; in the shadows of the cell a small votive image of Asclepius with his snake-staff; outside the window, a cock on a wall.",
+   "description": "The Death of Socrates by Jacques-Louis David, 1787. A later artistic interpretation of Socrates reaching for the cup among his companions.",
    "failure": null,
-   "file": null,
+   "file": "course/pics/phil-culture-7-david.webp",
    "id": "phil-panel-7-b",
-   "status": "no_source_row"
+   "status": "ready"
   },
   {
-   "description": "Crito gently closes Socrates' eyes and mouth; the friends stand around the bed, heads bowed; the empty cup on the floor.",
+   "description": "The Death of Socrates by Jacques-Louis David, 1787. A later artistic interpretation of Socrates reaching for the cup among his companions.",
    "failure": null,
-   "file": null,
+   "file": "course/pics/phil-culture-7-david.webp",
    "id": "phil-panel-7-c",
-   "status": "no_source_row"
+   "status": "ready"
   },
   {
-   "description": "Jacques-Louis David, The Death of Socrates, 1787, oil on canvas (New York, Metropolitan Museum of Art 31.45; public domain, CC0).",
+   "description": "The Death of Socrates by Jacques-Louis David, 1787. A later artistic interpretation of Socrates reaching for the cup among his companions.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Death of Socrates David|Death of Socrates",
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/phil-culture-7-david.webp",
    "id": "phil-culture-7-david",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Winter 431/0: Lysis and Mikion walk home from the Kerameikos after the public funeral; ten wagons with cypress coffins, one for each tribe, stand empty by the road.",
@@ -1275,11 +1275,11 @@
    "status": "no_source_row"
   },
   {
-   "description": "Demokritos, the farmer who loves politics, counts off the ten tribes on his fingers for the two boys in a crowded street of the city.",
+   "description": "Someone speaking",
    "failure": null,
-   "file": null,
+   "file": "course/illustrations/verb-legei.webp",
    "id": "pol-1-b",
-   "status": "no_source_row"
+   "status": "ready"
   },
   {
    "description": "The Council: rows of citizens seated on the benches of the Council house (bouleuterion) listening to a speaker.",
@@ -1306,25 +1306,25 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "In the workshop yard among heaps of broken pottery, Lysis holds up a sherd with scratched letters; grandfather Kleinias sits on a bench in the sun.",
+   "description": "An ostrakon inscribed with a name, Athenian Agora",
    "failure": null,
-   "file": null,
+   "file": "course/pics/ostrakon.webp",
    "id": "pol-2-a",
-   "status": "no_source_row"
+   "status": "ready"
   },
   {
-   "description": "482 BC in the Agora: a farmer with a hoe on his shoulder hands a potsherd to a quiet, plainly dressed man, Aristides, and asks him to write a name on it.",
+   "description": "An ostrakon inscribed with a name, Athenian Agora",
    "failure": null,
-   "file": null,
+   "file": "course/pics/ostrakon.webp",
    "id": "pol-2-b",
-   "status": "no_source_row"
+   "status": "ready"
   },
   {
-   "description": "The Agora fenced off for an ostracism: citizens file in tribe by tribe and drop their sherds; officials count the heap.",
+   "description": "An ostrakon inscribed with a name, Athenian Agora",
    "failure": null,
-   "file": null,
+   "file": "course/pics/ostrakon.webp",
    "id": "pol-2-c",
-   "status": "no_source_row"
+   "status": "ready"
   },
   {
    "description": "Ostraka from the Athenian Agora, 480s BC, inscribed with the names of Themistocles son of Neocles, Aristides son of Lysimachus and others (Agora Museum, Athens).",
@@ -1346,11 +1346,11 @@
    "status": "no_source_row"
   },
   {
-   "description": "Cimon's orchards without fences: villagers help themselves to figs and grapes while a steward watches, smiling.",
+   "description": "A farmer ploughing",
    "failure": null,
-   "file": null,
+   "file": "course/illustrations/georgos.webp",
    "id": "pol-3-c",
-   "status": "no_source_row"
+   "status": "ready"
   },
   {
    "description": "A bronze juror's ticket (pinakion), 4th century BC, stamped with its owner's name, father's name and deme, and a letter for his jury section.",
@@ -1412,11 +1412,11 @@
    "status": "no_source_row"
   },
   {
-   "description": "The old craftsman at work alone in his small shop, bent over his bench, with no apprentice beside him.",
+   "description": "Ariston at the wheel, Syros carrying clay",
    "failure": null,
-   "file": null,
+   "file": "course/illustrations/panel-1-2-a.webp",
    "id": "pol-5-c",
-   "status": "no_source_row"
+   "status": "ready"
   },
   {
    "description": "Attic marble grave relief, 4th century BC: a man leaning on his staff.",
@@ -1581,16 +1581,16 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "A young man (beside an old one).",
+   "description": "A child, a boy",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:marble head youth|head",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/pais.webp",
    "id": "neos",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Early morning: Socrates stands motionless in the empty stoa, lost in thought; Lysis hesitates outside.",
@@ -1653,52 +1653,52 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "A man standing still.",
+   "description": "A man",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:marble grave stele standing man|stele",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/aner.webp",
    "id": "verb-hesteke",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
-   "description": "In the workshop Socrates turns a painted cup in his hands while Ariston works at the wheel; Mikion plays outside.",
+   "description": "Ariston at the wheel, Syros carrying clay",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta kylix youth holding cup|kylix",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-2-a.webp",
    "id": "panel-10-3-a",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
-   "description": "Socrates questions Lysis and Mikion; a horse and a cup drawn in the dust at their feet.",
+   "description": "Ariston at the wheel, Syros carrying clay",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta horse youth|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-2-a.webp",
    "id": "panel-10-3-b",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
-   "description": "Demokritos, red-faced, storms out of the workshop door; Socrates laughs.",
+   "description": "Ariston at the wheel, Syros carrying clay",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:terracotta man angry departing|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-2-a.webp",
    "id": "panel-10-3-c",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Attic vase painting of a potter's or metalworker's workshop, with customers watching (target: museum CC0 image, e.g. the Foundry Cup's workshop scene).",
@@ -1797,16 +1797,16 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "A mother with her child.",
+   "description": "A mother embracing a child",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:marble grave stele mother child|stele",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/verb-philei.webp",
    "id": "teknon",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Plague: sick people lying in a crowded shelter.",
@@ -1821,16 +1821,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "Summer 429, a farm near Acharnae: a toppled boundary stone lies in the grass between two fields; a cut olive tree with its branches on the path; Demokritos stares, and his neighbour Antimachos points at him angrily.",
+   "description": "A farmer ploughing",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:horos boundary stone Athens|horos|Horos|boundary",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/georgos.webp",
    "id": "panel-11-1-a",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A city doorway in Kydathenaion: Antimachos, flanked by two witnesses, calls out the summons; Demokritos listens in the doorway; inside, Ariston and Lysis look up from the table.",
@@ -1857,16 +1857,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "Evening in Ariston's courtyard: Demokritos counts on his fingers who can be a witness; Ariston nods, Eudemos waves his arms eagerly; Syros stands apart by the wall.",
+   "description": "Evening: the family eats bread by lamplight; the moon over the courtyard",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta men conversation|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-2-1-c.webp",
    "id": "panel-11-2-a",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Syros's memory, in muted colours: at dusk a slave levers a boundary stone out of the ground with a bar while a man in a cloak watches from behind an olive tree.",
@@ -2145,16 +2145,16 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "A column of weary Greek soldiers with pack animals climbing a mountain path in spring; at the rear the rearguard fights off local tribesmen; smoke rises from the burning land behind them; wicker shields and shaggy rawhide shields lie captured on the ground.",
+   "description": "Someone speaking",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Kurdistan mountains Zagros path|mountain|Mountain|Zagros",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/verb-legei.webp",
    "id": "panel-12-2-b",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "The top of Mount Theches: soldiers running up the ridge, arms raised, shouting; far below and beyond, the Black Sea shines on the horizon. Xenophon on horseback with the cavalry rides up from the rear.",
@@ -2169,64 +2169,64 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "Old Lysis takes a second scroll from a wooden chest; its label tag reads ΚΡΙΤΩΝ; the grandchildren watch.",
+   "description": "Someone speaking",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:terracotta pyxis|pyxis",
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/verb-legei.webp",
    "id": "panel-12-3-a",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Before dawn in a bare prison room lit by one lamp: Socrates, an old man with a snub nose, asleep on a plank bed; his friend Crito, also old and well dressed, sits silently beside him watching.",
+   "description": "Someone speaking",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Socrates prison Athens Philopappos|Socrates|prison",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/verb-legei.webp",
    "id": "panel-12-3-b",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Socrates, now awake and sitting up, speaks calmly to Crito, who leans forward anxiously; grey dawn light through a high barred window; a guard dozes by the door.",
+   "description": "Someone speaking",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Socrates statue Academy Athens|Socrates|Sokrates",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/verb-legei.webp",
    "id": "panel-12-3-c",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "The Piraeus at a festival: Socrates and a young man (Glaucon) watch two processions, Athenians and Thracians in patterned cloaks and fox-skin caps, passing a small shrine.",
+   "description": "Someone speaking",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Bendis relief Ny Carlsberg Glyptotek|Bendis",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/verb-legei.webp",
    "id": "panel-12-4-a",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "On the road back towards the city walls: a slave boy runs up behind Socrates and tugs at his cloak; in the distance Polemarchus waves from among a group of young men.",
+   "description": "Someone speaking",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Piraeus Long Walls remains|Piraeus|Long|wall",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/verb-legei.webp",
    "id": "panel-12-4-b",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Polemarchus, Adeimantus, Niceratus and others surround Socrates and Glaucon, laughing and pointing back to the Piraeus; Socrates smiles and gives in.",
@@ -2325,112 +2325,112 @@
    "status": "ready"
   },
   {
-   "description": "Syros and Thratta at work in the courtyard; Ariston in the doorway",
+   "description": "Ariston at the wheel, Syros carrying clay",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta lekythos woman maid|lekythos",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-2-a.webp",
    "id": "panel-2-2-a",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
-   "description": "Thratta and Elpis with water jars at the fountain house, talking to other girls",
+   "description": "Elpis carrying a water jar to the fountain house",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:fountain house hydria women black-figure|hydria",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-4-b.webp",
    "id": "panel-2-2-b",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Democritus's slaves in the field; Labros guarding the house door",
+   "description": "A farmer ploughing",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:ploughing oxen black-figure|plough",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/georgos.webp",
    "id": "panel-2-2-c",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Night in the courtyard: Kleinias on the couch, the children at his feet, a lamp",
+   "description": "Laconian cup attributed to the Arkesilas Painter, showing Atlas and the bound Prometheus with an eagle; Vatican Museums.",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta old man seated youth|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/culture-prometheus-kylix.webp",
    "id": "panel-2-3-a",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
-   "description": "Prometheus carrying fire in a fennel stalk; Zeus watching from a cloud",
+   "description": "Laconian cup attributed to the Arkesilas Painter, showing Atlas and the bound Prometheus with an eagle; Vatican Museums.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Prometheus Pyrphoros satyrs krater|Prometheus",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-prometheus-kylix.webp",
    "id": "panel-2-3-b",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Kleinias sending the sleepy children to bed; Labros asleep by the door",
+   "description": "Someone asleep",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:bronze Eros sleeping|Eros",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/verb-katheudei.webp",
    "id": "panel-2-3-c",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
-   "description": "Chrysis and Thratta laying a low table with bread, cheese and olives",
+   "description": "Evening: the family eats bread by lamplight; the moon over the courtyard",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Boeotian terracotta woman kneading dough|kneading|bread|dough",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-2-1-c.webp",
    "id": "panel-2-4-a",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Ariston arriving with a painted cup; the family at dinner",
+   "description": "Evening: the family eats bread by lamplight; the moon over the courtyard",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta kylix banqueter|kylix",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-2-1-c.webp",
    "id": "panel-2-4-b",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
-   "description": "After dinner: Kleinias and Lysis talking; Labros running off with the cheese",
+   "description": "Evening: the family eats bread by lamplight; the moon over the courtyard",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:terracotta banquet dog under couch|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-2-1-c.webp",
    "id": "panel-2-4-c",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A girl hurrying with a jar",
@@ -2493,16 +2493,16 @@
    "status": "ready"
   },
   {
-   "description": "A slave woman carrying a box (as on the Hegeso stele)",
+   "description": "Photograph of a replica of the grave relief of Hegeso: a seated woman and a standing female attendant holding a jewellery box.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Grave stele of Hegeso|Hegeso",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-hegeso-stele.webp",
    "id": "doule",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A master of the house with a staff",
@@ -2517,28 +2517,28 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "A field with olive trees and a ploughman",
+   "description": "A farmer ploughing",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:olive grove field Attica|olive",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/georgos.webp",
    "id": "agros",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Work: a pair of hands at a task",
+   "description": "A potter at the wheel",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta statuette woman kneading|statuette",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/kerameus.webp",
    "id": "ergon",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A heavy load next to a light one",
@@ -2601,16 +2601,16 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "Night: moon and stars over the city",
+   "description": "The moon",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Acropolis Athens night moon|Acropolis",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/selene.webp",
    "id": "nyx",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "An eagle",
@@ -2625,16 +2625,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "Someone sneaking off with a loaf",
+   "description": "Labros stealing a loaf",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Caeretan hydria Hermes cattle Louvre|hydria|Hermes",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-3-b.webp",
    "id": "verb-kleptei",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Someone untying a rope",
@@ -2673,16 +2673,16 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "The evening meal on a low table",
+   "description": "Evening: the family eats bread by lamplight; the moon over the courtyard",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Tomb of the Diver banquet Paestum|Diver",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-2-1-c.webp",
    "id": "deipnon",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Wine being poured from a jug into a mixing bowl",
@@ -2733,16 +2733,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "Hands making a pot",
+   "description": "A potter at the wheel",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:hands shaping clay pottery wheel|pottery|potter|clay",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/kerameus.webp",
    "id": "verb-poiei",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A man pouring a libation at an altar",
@@ -2769,16 +2769,16 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "A family in front of its house",
+   "description": "Ariston the potter and Chrysis outside their house",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:ancient Greek house reconstruction courtyard|house",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-1-a.webp",
    "id": "verb-oikei",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A girl shouting",
@@ -2805,28 +2805,28 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "Grave stele of Hegeso, Kerameikos, c. 400 BC: a seated woman and her slave girl holding a jewel box",
+   "description": "Photograph of a replica of the grave relief of Hegeso: a seated woman and a standing female attendant holding a jewellery box.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Grave stele of Hegeso National Archaeological Museum|Hegeso",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-hegeso-stele.webp",
    "id": "culture-hegeso-stele",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Laconian black-figure cup, c. 560 BC: Atlas and the bound Prometheus with the eagle",
+   "description": "Laconian cup attributed to the Arkesilas Painter, showing Atlas and the bound Prometheus with an eagle; Vatican Museums.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Atlas Prometheus Laconian cup Vatican|Prometheus|Atlas",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-prometheus-kylix.webp",
    "id": "culture-prometheus-kylix",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Red-figure kylix interior: a reclining drinker with a cup; a small table with food",
@@ -2862,16 +2862,16 @@
    "status": "diagram"
   },
   {
-   "description": "Chrysis at the house door calling the children; the street full of people in festival clothes",
+   "description": "Someone calling out",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta pyxis wedding procession|pyxis",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/verb-kalei.webp",
    "id": "panel-3-1-a",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "The procession passing through the Kerameikos: a priest with a wreath, a priestess under a white sunshade, guards, girls carrying wreaths; Labros barking at a guard",
@@ -2898,40 +2898,40 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "Citizens talking in the agora under a stoa; young men listening; Democritus greeting Ariston and Lysis",
+   "description": "Someone speaking",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Stoa Basileios Ancient Agora Athens|Stoa|Agora",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/verb-legei.webp",
    "id": "panel-3-2-a",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Democritus pointing at young men lounging by a barber's shop and at a metic potter carrying pots",
+   "description": "Someone speaking",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta kylix youths leaning staffs|kylix",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/verb-legei.webp",
    "id": "panel-3-2-b",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
-   "description": "Democritus talking about the Spartans and war; Ariston and Lysis walking away towards the workshop",
+   "description": "Ariston at the wheel, Syros carrying clay",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta hoplite warrior departure|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-2-a.webp",
    "id": "panel-3-2-c",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Two dogs fighting in a narrow street at dusk; Lysis calling",
@@ -2946,64 +2946,64 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "Night falling over the courtyard; Elpis and Chrysis at the door; Ariston and Lysis leaving with a torch",
+   "description": "The moon",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta woman torches|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/selene.webp",
    "id": "panel-3-3-b",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
-   "description": "Syros with a lamp in the workshop; Labros asleep beside the kiln with a loaf",
+   "description": "The dog asleep by the kiln",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Penteskouphia pinax kiln firing|pinax|Penteskouphia",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-2-b.webp",
    "id": "panel-3-3-c",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Ariston, Lysis, Elpis and Labros climbing the ramp to the Acropolis; workmen on the unfinished Propylaia",
+   "description": "A city with walls and an acropolis",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Propylaea Acropolis Athens west|Propyl",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/polis.webp",
    "id": "panel-3-4-a",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "The family before the great bronze Athena and the Parthenon",
+   "description": "A goddess (Athena with helmet and owl)",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Parthenon west facade Acropolis|Parthenon",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/thea.webp",
    "id": "panel-3-4-b",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "View from the Acropolis wall over the Agora, the Kerameikos and the sea towards Piraeus; Labros asleep under a tree",
+   "description": "A city with walls and an acropolis",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:view from Acropolis Agora Hephaisteion|Agora|Acropolis",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/polis.webp",
    "id": "panel-3-4-c",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A festival: garlanded people around an altar with music",
@@ -3176,16 +3176,16 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "A man speaking, words shown as a scroll",
+   "description": "Someone speaking",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta kylix youth scroll|kylix",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/verb-legei.webp",
    "id": "logos",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A good man helping someone next to a bad man stealing",
@@ -3207,16 +3207,16 @@
    "status": "diagram"
   },
   {
-   "description": "The sun setting and the sky turning dark",
+   "description": "Evening: the sun setting behind the hills, the first star",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:sunset over Saronic Gulf|sunset|Sunset",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/hespera.webp",
    "id": "verb-gignetai",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Someone reaching out for what they want, with a thought bubble",
@@ -3255,16 +3255,16 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "Someone coming along a road",
+   "description": "Someone walking",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Sacred Way Kerameikos road|Sacred|Kerameikos",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/anthropos.webp",
    "id": "verb-erchetai",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Two dogs fighting",
@@ -3399,16 +3399,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "A statue of a goddess on a base",
+   "description": "A man standing upright and still, arms at his sides.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Varvakeion Athena|Varvakeion",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/verb-histatai.webp",
    "id": "agalma",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "How the genitive reveals the stem of a third-declension noun, with the endings -ος, -ι, -α, -ες, -ων, -σι, -ας attached",
@@ -3487,112 +3487,112 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "Ariston, Lysis, Syros with the water jars and the dog Labros leave the city gate at dawn; the Long Walls run down towards the sea",
+   "description": "A city with walls and an acropolis",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Themistoclean wall Kerameikos|wall|Wall",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/polis.webp",
    "id": "panel-4-1-a",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "The road between the two Long Walls: soldiers on the wall, carts, walkers coming up from Piraeus",
+   "description": "A city with walls and an acropolis",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Long Walls Athens Piraeus|Long",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/polis.webp",
    "id": "panel-4-1-b",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Arrival at Piraeus: the great harbour Kantharos full of ships, sailors at work",
+   "description": "A sailor on a ship",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Piraeus Kantharos main harbour|Piraeus",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/nautes.webp",
    "id": "panel-4-1-c",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "The emporion by the harbour: stoas, sacks of grain, wine jars, merchants of many peoples",
+   "description": "The agora, a market square with stoas",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Piraeus harbour quay ships|Piraeus",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/agora.webp",
    "id": "panel-4-2-a",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Ariston at his stall selling water jars to a woman; coins change hands",
+   "description": "The agora, a market square with stoas",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta hydria water jars|hydria",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/agora.webp",
    "id": "panel-4-2-b",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
-   "description": "The fish stalls; Lysis with two obols, Labros eyeing a fish",
+   "description": "The agora, a market square with stoas",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Cefalu fish seller krater|krater|fish",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/agora.webp",
    "id": "panel-4-2-c",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Morning in the town: Syros walks Lysis through the streets to the teacher's house",
+   "description": "Red-figure kylix by Douris: a school scene with a teacher and pupils",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:paidagogos terracotta figurine|dagog|pedagog",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/school-kylix.webp",
    "id": "panel-4-3-a",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "The schoolroom: the teacher with a scroll, boys with wax tablets and styluses",
+   "description": "Red-figure kylix by Douris: a school scene with a teacher and pupils",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Douris school cup Berlin 2285 lesson|Douris",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/school-kylix.webp",
    "id": "panel-4-3-b",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "School is over: the boys run out towards the palaestra; Syros waits at the door",
+   "description": "Red-figure kylix by Douris: a school scene with a teacher and pupils",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta kylix athletes palaestra|kylix",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/school-kylix.webp",
    "id": "panel-4-3-c",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Kleinias with Lysis and Elpis at the naval harbour of Zea: ship-sheds and triremes drawn up",
@@ -3631,28 +3631,28 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "A father with his son",
+   "description": "The workshop: Lysis carrying clay, Labros playing with a stone",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:marble grave stele man boy|stele",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-2-1-b.webp",
    "id": "pater",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
-   "description": "A mother with her daughter",
+   "description": "A mother embracing a child",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:marble grave stele woman girl|stele",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/verb-philei.webp",
    "id": "meter",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A daughter",
@@ -3698,16 +3698,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "A long road stretching to the horizon",
+   "description": "A road",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Sacred Way Eleusis ancient road|Sacred Way|road",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/hodos.webp",
    "id": "makros",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A hoplite soldier with shield and spear",
@@ -3923,16 +3923,16 @@
    "status": "diagram"
   },
   {
-   "description": "The town of Athens seen from the road: houses and the Acropolis",
+   "description": "A city with walls and an acropolis",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Athens Acropolis view from Hymettus|Athens|Acropolis",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/polis.webp",
    "id": "asty",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A king on a throne with a sceptre",
@@ -3947,28 +3947,28 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "A teacher holding a scroll",
+   "description": "Red-figure kylix by Douris: a school scene with a teacher and pupils",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta kylix man scroll|kylix",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/school-kylix.webp",
    "id": "didaskalos",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
-   "description": "A teacher pointing at letters for a pupil",
+   "description": "Red-figure kylix by Douris: a school scene with a teacher and pupils",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Douris school cup writing lesson|Douris",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/school-kylix.webp",
    "id": "verb-didaskei",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A boy studying a tablet",
@@ -4007,28 +4007,28 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "Greek letters scratched on a tablet",
+   "description": "A schoolboy's wax tablet with a writing exercise",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Attic abecedarium inscription|abeced|alphabet",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/wax-tablet.webp",
    "id": "gramma",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "A folding wax tablet with a stylus",
+   "description": "A schoolboy's wax tablet with a writing exercise",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:wax tablet stylus reconstruction|tablet",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/wax-tablet.webp",
    "id": "deltos",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A wrestling ground with boys exercising",
@@ -4165,16 +4165,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "The family climbing the Acropolis ramp; Syros leads a white goat, Chrysis carries a wreath, Lysis a wine jug",
+   "description": "A goddess (Athena with helmet and owl)",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Pitsa tablet sacrifice|Pitsa",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/thea.webp",
    "id": "panel-5-1-a",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "The priest at the great altar of Athena with the goat; smoke rises; Elpis looks away",
@@ -4201,16 +4201,16 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "Evening in the courtyard: Democritus talking, the family listening, Kleinias by the brazier",
+   "description": "Evening: the family eats bread by lamplight; the moon over the courtyard",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta men conversation staff|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-2-1-c.webp",
    "id": "panel-5-2-a",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Athenians leaving the city for the ships; smoke over the Acropolis in the distance",
@@ -4273,40 +4273,40 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "Elpis ill in bed under a blanket; Chrysis feeling her forehead; Labros at the bedside",
+   "description": "Dawn in the courtyard: Chrysis at the couch, waking Elpis",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Archinos votive relief Amphiareion|Archinos|relief",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-2-1-a.webp",
    "id": "panel-5-4-a",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "The doctor Philinos examining Elpis: looking at her eyes and tongue, his bag of remedies open",
+   "description": "Dawn in the courtyard: Chrysis at the couch, waking Elpis",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Asklepios healing relief patient|Asklepi|relief",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-2-1-a.webp",
    "id": "panel-5-4-b",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Some days later: Elpis up and well, drinking from a cup; the family relieved",
+   "description": "Dawn in the courtyard: Chrysis at the couch, waking Elpis",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Hygieia statue|Hygieia|Hygeia",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-2-1-a.webp",
    "id": "panel-5-4-c",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Sacrifice at an altar: youths roasting spits over the altar fire, Attic red-figure bell krater, c. 430 BC",
@@ -4812,148 +4812,148 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "Ariston and Syros carry cups and water jars out of the workshop towards the agora; Lysis follows with a basket of cups. Spring light.",
+   "description": "The agora, a market square with stoas",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta youth carrying amphora|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/agora.webp",
    "id": "panel-6-1-a",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
-   "description": "In the agora a customer holds up two cups, one larger and one smaller, while Ariston gestures at the price; Lysis watches.",
+   "description": "The agora, a market square with stoas",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:terracotta skyphos|skyphos",
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/agora.webp",
    "id": "panel-6-1-b",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Evening at home: Ariston counts small silver coins on the table; Lysis asks a question; Labros sniffs at the coins.",
+   "description": "Evening: the family eats bread by lamplight; the moon over the courtyard",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Athenian tetradrachms hoard|tetradrachm|hoard",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-2-1-c.webp",
    "id": "panel-6-1-c",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "A travelling merchant in a broad hat and cloak stands in the workshop doorway greeting Ariston at the wheel.",
+   "description": "Ariston at the wheel, Syros carrying clay",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:terracotta traveller petasos|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-2-a.webp",
    "id": "panel-6-2-a",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "The merchant points at three cups at different distances (this one here, that one, that one over there); Ariston counts on his fingers.",
+   "description": "Ariston at the wheel, Syros carrying clay",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:kylix|Kylix",
     "source": "cma",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-2-a.webp",
    "id": "panel-6-2-b",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
-   "description": "Evening in the courtyard: the merchant tells stories by lamplight; Elpis listens with shining eyes; Kleinias nods.",
+   "description": "Evening: the family eats bread by lamplight; the moon over the courtyard",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:lamp|Lamp",
     "source": "cma",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-2-1-c.webp",
    "id": "panel-6-2-c",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
-   "description": "Chrysis stands at a tall upright warp-weighted loom, passing the shuttle; loom weights hang at the bottom; Elpis sits nearby with a basket of wool.",
+   "description": "Chrysis at the loom in the courtyard",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Penelope loom skyphos Chiusi|Penelope",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-4-a.webp",
    "id": "panel-6-3-a",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Elpis at the loom, tongue between her teeth, the wool slipping from her hands; Chrysis guides her from behind.",
+   "description": "Chrysis at the loom in the courtyard",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:lekythos women weaving Amasis Painter|lekythos",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-4-a.webp",
    "id": "panel-6-3-b",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
-   "description": "Kleinias in the doorway, leaning on his stick, watches Elpis weaving a neat band of cloth; Chrysis smiles.",
+   "description": "Chrysis at the loom in the courtyard",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:terracotta epinetron|epinetron",
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-4-a.webp",
    "id": "panel-6-3-c",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Prometheus, a bearded Titan, kneels shaping small human figures out of clay, like a potter; finished figures stand up and walk away.",
+   "description": "Laconian cup attributed to the Arkesilas Painter, showing Atlas and the bound Prometheus with an eagle; Vatican Museums.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Prometheus creating man sarcophagus|Prometheus",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-prometheus-kylix.webp",
    "id": "panel-6-4-a",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Prometheus creeps down from the sky at night carrying a glowing ember hidden inside a fennel stalk; men below reach up towards it.",
+   "description": "Laconian cup attributed to the Arkesilas Painter, showing Atlas and the bound Prometheus with an eagle; Vatican Museums.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Prometheus fire bringer vase|Prometheus",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-prometheus-kylix.webp",
    "id": "panel-6-4-b",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Prometheus nailed to a mountain crag with an eagle at his side; in the distance Heracles climbs up with bow and club.",
+   "description": "Laconian cup attributed to the Arkesilas Painter, showing Atlas and the bound Prometheus with an eagle; Vatican Museums.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Heracles Prometheus eagle vase|Prometheus",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-prometheus-kylix.webp",
    "id": "panel-6-4-c",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A hand pointing at a cup with a question mark, and coins with a price beside it.",
@@ -5037,28 +5037,28 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "An upright warp-weighted loom with clay weights hanging from the threads.",
+   "description": "Chrysis at the loom in the courtyard",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:warp-weighted loom reconstruction|loom|Loom",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-4-a.webp",
    "id": "histos",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "A woman wearing a peplos pinned at the shoulders, with the overfold.",
+   "description": "A woman",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Peplos Kore Acropolis Museum|Peplos",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/gyne.webp",
    "id": "peplos",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A weaver's shuttle wound with thread.",
@@ -5133,16 +5133,16 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "A woman weaving confidently, a finished cloth beside her; a badge reads 'knows how'.",
+   "description": "Chrysis at the loom in the courtyard",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta pyxis women wool working|pyxis",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-1-4-a.webp",
    "id": "verb-epistatai",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Three stick figures: one stepping (ἔβη), one with a lightbulb (ἔγνω), one standing still (ἔστη), with the endings -ν -ς - -μεν -τε -σαν.",
@@ -5267,16 +5267,16 @@
    "status": "ready"
   },
   {
-   "description": "Laconian black-figure cup, c. 560–550 BC (Vatican Museums): Atlas holding up the sky and Prometheus bound to a column with the eagle at his liver (museum photograph, CC).",
+   "description": "Laconian cup attributed to the Arkesilas Painter, showing Atlas and the bound Prometheus with an eagle; Vatican Museums.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Atlas Prometheus Laconian cup Vatican|Prometheus|Atlas",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-prometheus-kylix.webp",
    "id": "culture-prometheus-cup",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Dawn in the house in Kydathenaion: Lysis runs to wake his grandfather Kleinias; Elpis stands by, and Labros looks up hopefully from the courtyard. Spring light.",
@@ -5411,16 +5411,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "One hand giving a cup to another.",
+   "description": "A gift",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta kylix handing cup|kylix",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/doron.webp",
    "id": "verb-didosi",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A hand placing a pot on a table.",
@@ -5495,40 +5495,40 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "Sunrise over the theatre of Dionysus: the slope packed with spectators on wooden benches; Ariston's family high up at the back, looking down on the orchestra and the stage building.",
+   "description": "Lucanian red-figure calyx-krater, c. 400 BC (Cleveland Museum of Art, attributed to the Policoro Painter): Medea escapes in a serpent-drawn chariot above the bodies of her children (museum photograph, CC0).",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Theatre of Dionysus Athens from Acropolis|Dionys",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-7-3-medea.webp",
    "id": "panel-7-3-a",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "An actor in a pale female mask and long robe (Medea) stands before the stage-building doors; the chorus of Corinthian women listens in the orchestra; Chrysis wipes her eyes, Elpis holds her hand.",
+   "description": "Lucanian red-figure calyx-krater, c. 400 BC (Cleveland Museum of Art, attributed to the Policoro Painter): Medea escapes in a serpent-drawn chariot above the bodies of her children (museum photograph, CC0).",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Pronomos vase Naples|Pronomos",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-7-3-medea.webp",
    "id": "panel-7-3-b",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Kleinias whispers the story to Lysis; above them, as if in a thought-bubble in vase style, Medea flies off in the chariot of the Sun drawn by serpents.",
+   "description": "Lucanian red-figure calyx-krater, c. 400 BC (Cleveland Museum of Art, attributed to the Policoro Painter): Medea escapes in a serpent-drawn chariot above the bodies of her children (museum photograph, CC0).",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "1991.1",
     "source": "cma",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/culture-7-3-medea.webp",
    "id": "panel-7-3-c",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Two actors in tragic masks and long robes facing each other on a stage.",
@@ -5586,16 +5586,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "A dark street under a thin moon: Demokritos and his sons argue with Ariston, hands waving; Chrysis walks quietly with Elpis; a slave ahead carries a small lamp.",
+   "description": "The moon",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta youth torch|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/selene.webp",
    "id": "panel-7-4-b",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "In the dark lane a black shape appears; Lysis stops with his arm out, Elpis shrinks back behind her mother, and Labros bounds up wagging his tail.",
@@ -5689,16 +5689,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "The young Thucydides looks out over the city and the sea, tablet in hand, as if already seeing the long war he will write down.",
+   "description": "A city with walls and an acropolis",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Thucydides bust Royal Ontario Museum|Thucydides|Thukydides",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/polis.webp",
    "id": "panel-8-2-c",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "The vote: a forest of raised hands on the Pnyx slope; the prytaneis stand and look; Demokritos, arms folded, in the minority.",
@@ -5725,16 +5725,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "From the hill Ariston points out the Long Walls running to Piraeus and the ships in the harbour; Lysis follows his arm.",
+   "description": "A city with walls and an acropolis",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Long Walls Athens Piraeus|Long",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/polis.webp",
    "id": "panel-8-3-c",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Pericles, in a general's helmet pushed back on his head, mounts the platform; the crowd falls silent.",
@@ -5761,16 +5761,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "Evening in the courtyard: Demokritos, tired, with Ariston, Kleinias and the children; outside, a cart loaded with doors and timber passes.",
+   "description": "Evening: the family eats bread by lamplight; the moon over the courtyard",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta cart wagon|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros|cart|wagon",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/illustrations/panel-2-1-c.webp",
    "id": "panel-8-4-c",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "The Assembly: citizens seated on a hillside facing a speaker on a stone platform.",
@@ -5929,16 +5929,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "Athenians crowd the top of the city wall in summer; far off across the plain, columns of smoke rise over Acharnae below Mount Parnes.",
+   "description": "A city with walls and an acropolis",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Mount Parnitha Acharnes view|Parnitha|Parnes|Acharn",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/polis.webp",
    "id": "panel-9-1-a",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "On the wall-walk: Eudemos, a sturdy charcoal-burner with blackened hands, shouts and points; Ariston holds his arm; old Kleinias and Lysis look out towards the smoke.",
@@ -5953,16 +5953,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "A street in Athens: groups of citizens argue, young men gesture towards the gates, an oracle-singer chants from a scroll.",
+   "description": "The agora, a market square with stoas",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:terracotta men arguing himation|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/agora.webp",
    "id": "panel-9-1-c",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "An army on the march: hoplites in column with shields and spears, from a Greek vase painting.",
