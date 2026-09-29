@@ -73,15 +73,23 @@
   {
    "id": "neos",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/pais.webp",
    "alt_grc": "ὁ νέος",
-   "alt_en": "A young man (beside an old one).",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "alt_en": "A child, a boy",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "νέος"
-   ]
+   ],
+   "original_alt_grc": "ὁ νέος",
+   "original_brief": "A young man (beside an old one).",
+   "reuse": {
+    "review": "A young boy clearly illustrates young; image caption identifies a boy, not an adult.",
+    "role": "concept",
+    "sha256": "0a27a62b2fc23d7f7d16e38b2b94d14cc0db6cdb8db24b7f3a64424afdc1aa45",
+    "source_id": "pais"
+   }
   },
   {
    "id": "panel-10-2-a",
@@ -143,48 +151,80 @@
   {
    "id": "verb-hesteke",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/aner.webp",
    "alt_grc": "ἕστηκεν",
-   "alt_en": "A man standing still.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "alt_en": "A man",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ἵστημι"
-   ]
+   ],
+   "original_alt_grc": "ἕστηκεν",
+   "original_brief": "A man standing still.",
+   "reuse": {
+    "review": "A man stands still with both feet planted; no implied walking action.",
+    "role": "concept",
+    "sha256": "47ebb38ffafad98d00ca034b7a9b2cf18e6622beba90827072ab49b1a949cf8f",
+    "source_id": "aner"
+   }
   },
   {
    "id": "panel-10-3-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Σωκράτης ἐν τῷ ἐργαστηρίῳ κύλικα ἔχει· ὁ Ἀρίστων πονεῖ.",
-   "alt_en": "In the workshop Socrates turns a painted cup in his hands while Ariston works at the wheel; Mikion plays outside.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/panel-1-2-a.webp",
+   "alt_grc": "ἐν τῷ ἐργαστηρίῳ",
+   "alt_en": "Ariston at the wheel, Syros carrying clay",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ Σωκράτης ἐν τῷ ἐργαστηρίῳ κύλικα ἔχει· ὁ Ἀρίστων πονεῖ.",
+   "original_brief": "In the workshop Socrates turns a painted cup in his hands while Ariston works at the wheel; Mikion plays outside.",
+   "reuse": {
+    "review": "Shared pottery-workshop setting. The image depicts Ariston and Syros at work; other characters and individual episode actions are not claimed.",
+    "role": "context",
+    "sha256": "15c4e1561dda1024d1a609c849365c4e2acbb00d6c472eaba28f41825ab5d7ec",
+    "source_id": "panel-1-2-a"
+   }
   },
   {
    "id": "panel-10-3-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Σωκράτης τοὺς παῖδας ἐρωτᾷ περὶ τῆς ἀρετῆς.",
-   "alt_en": "Socrates questions Lysis and Mikion; a horse and a cup drawn in the dust at their feet.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/panel-1-2-a.webp",
+   "alt_grc": "ἐν τῷ ἐργαστηρίῳ",
+   "alt_en": "Ariston at the wheel, Syros carrying clay",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ Σωκράτης τοὺς παῖδας ἐρωτᾷ περὶ τῆς ἀρετῆς.",
+   "original_brief": "Socrates questions Lysis and Mikion; a horse and a cup drawn in the dust at their feet.",
+   "reuse": {
+    "review": "Shared pottery-workshop setting. The image depicts Ariston and Syros at work; other characters and individual episode actions are not claimed.",
+    "role": "context",
+    "sha256": "15c4e1561dda1024d1a609c849365c4e2acbb00d6c472eaba28f41825ab5d7ec",
+    "source_id": "panel-1-2-a"
+   }
   },
   {
    "id": "panel-10-3-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Δημόκριτος ὀργίζεται καὶ ἐξέρχεται· ὁ Σωκράτης γελᾷ.",
-   "alt_en": "Demokritos, red-faced, storms out of the workshop door; Socrates laughs.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/panel-1-2-a.webp",
+   "alt_grc": "ἐν τῷ ἐργαστηρίῳ",
+   "alt_en": "Ariston at the wheel, Syros carrying clay",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ Δημόκριτος ὀργίζεται καὶ ἐξέρχεται· ὁ Σωκράτης γελᾷ.",
+   "original_brief": "Demokritos, red-faced, storms out of the workshop door; Socrates laughs.",
+   "reuse": {
+    "review": "Shared pottery-workshop setting. The image depicts Ariston and Syros at work; other characters and individual episode actions are not claimed.",
+    "role": "context",
+    "sha256": "15c4e1561dda1024d1a609c849365c4e2acbb00d6c472eaba28f41825ab5d7ec",
+    "source_id": "panel-1-2-a"
+   }
   },
   {
    "id": "culture-10-3-workshop",
@@ -283,15 +323,23 @@
   {
    "id": "teknon",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/verb-philei.webp",
    "alt_grc": "τὸ τέκνον",
-   "alt_en": "A mother with her child.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "alt_en": "A mother embracing a child",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "τέκνον"
-   ]
+   ],
+   "original_alt_grc": "τὸ τέκνον",
+   "original_brief": "A mother with her child.",
+   "reuse": {
+    "review": "A mother embraces her child. Parent/child relationship is explicit in the approved artwork.",
+    "role": "concept",
+    "sha256": "400b5a51f005db7478607e98523a86f9b434ce85a43fe128bed9174269d109d1",
+    "source_id": "verb-philei"
+   }
   },
   {
    "id": "loimos",

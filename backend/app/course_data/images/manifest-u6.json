@@ -3,134 +3,230 @@
   {
    "id": "panel-6-1-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Ἀρίστων καὶ ὁ Σύρος κύλικας καὶ ὑδρίας εἰς τὴν ἀγορὰν φέρουσιν.",
-   "alt_en": "Ariston and Syros carry cups and water jars out of the workshop towards the agora; Lysis follows with a basket of cups. Spring light.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/agora.webp",
+   "alt_grc": "ἡ ἀγορά",
+   "alt_en": "The agora, a market square with stoas",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ Ἀρίστων καὶ ὁ Σύρος κύλικας καὶ ὑδρίας εἰς τὴν ἀγορὰν φέρουσιν.",
+   "original_brief": "Ariston and Syros carry cups and water jars out of the workshop towards the agora; Lysis follows with a basket of cups. Spring light.",
+   "reuse": {
+    "review": "Shared market setting. Does not claim the specific sale, price comparison, historical speaker or invisible characters appear.",
+    "role": "context",
+    "sha256": "2afc9b128d0f912909524efee606fa0adbb09e1a6b58d215c550b07155752d19",
+    "source_id": "agora"
+   }
   },
   {
    "id": "panel-6-1-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ἀνὴρ δύο κύλικας σκοπεῖ· ἡ μὲν μείζων, ἡ δὲ μικροτέρα.",
-   "alt_en": "In the agora a customer holds up two cups, one larger and one smaller, while Ariston gestures at the price; Lysis watches.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/agora.webp",
+   "alt_grc": "ἡ ἀγορά",
+   "alt_en": "The agora, a market square with stoas",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ἀνὴρ δύο κύλικας σκοπεῖ· ἡ μὲν μείζων, ἡ δὲ μικροτέρα.",
+   "original_brief": "In the agora a customer holds up two cups, one larger and one smaller, while Ariston gestures at the price; Lysis watches.",
+   "reuse": {
+    "review": "Shared market setting. Does not claim the specific sale, price comparison, historical speaker or invisible characters appear.",
+    "role": "context",
+    "sha256": "2afc9b128d0f912909524efee606fa0adbb09e1a6b58d215c550b07155752d19",
+    "source_id": "agora"
+   }
   },
   {
    "id": "panel-6-1-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ἑσπέρας ὁ Ἀρίστων τὸ ἀργύριον ἀριθμεῖ.",
-   "alt_en": "Evening at home: Ariston counts small silver coins on the table; Lysis asks a question; Labros sniffs at the coins.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/panel-2-1-c.webp",
+   "alt_grc": "ἑσπέρα ἐστίν· ὁ Ἀρίστων ἄρτον ἐσθίει.",
+   "alt_en": "Evening: the family eats bread by lamplight; the moon over the courtyard",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ἑσπέρας ὁ Ἀρίστων τὸ ἀργύριον ἀριθμεῖ.",
+   "original_brief": "Evening at home: Ariston counts small silver coins on the table; Lysis asks a question; Labros sniffs at the coins.",
+   "reuse": {
+    "review": "Shared household evening scene. Accurate image caption describes the family meal, not the episode-specific conversation or action.",
+    "role": "context",
+    "sha256": "ca14c6fe80468aaacc9e27f12e39e63e2a0cec19e7b40d6e62027cdc9d02ac22",
+    "source_id": "panel-2-1-c"
+   }
   },
   {
    "id": "panel-6-2-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ξένος τις εἰς τὸ ἐργαστήριον εἰσέρχεται.",
-   "alt_en": "A travelling merchant in a broad hat and cloak stands in the workshop doorway greeting Ariston at the wheel.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/panel-1-2-a.webp",
+   "alt_grc": "ἐν τῷ ἐργαστηρίῳ",
+   "alt_en": "Ariston at the wheel, Syros carrying clay",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ξένος τις εἰς τὸ ἐργαστήριον εἰσέρχεται.",
+   "original_brief": "A travelling merchant in a broad hat and cloak stands in the workshop doorway greeting Ariston at the wheel.",
+   "reuse": {
+    "review": "Shared pottery-workshop setting. The image depicts Ariston and Syros at work; other characters and individual episode actions are not claimed.",
+    "role": "context",
+    "sha256": "15c4e1561dda1024d1a609c849365c4e2acbb00d6c472eaba28f41825ab5d7ec",
+    "source_id": "panel-1-2-a"
+   }
   },
   {
    "id": "panel-6-2-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ ἔμπορος τὰς κύλικας σκοπεῖ· «αὕτη μὲν καλή, ἐκείνη δὲ καλλίων.»",
-   "alt_en": "The merchant points at three cups at different distances (this one here, that one, that one over there); Ariston counts on his fingers.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/panel-1-2-a.webp",
+   "alt_grc": "ἐν τῷ ἐργαστηρίῳ",
+   "alt_en": "Ariston at the wheel, Syros carrying clay",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ ἔμπορος τὰς κύλικας σκοπεῖ· «αὕτη μὲν καλή, ἐκείνη δὲ καλλίων.»",
+   "original_brief": "The merchant points at three cups at different distances (this one here, that one, that one over there); Ariston counts on his fingers.",
+   "reuse": {
+    "review": "Shared pottery-workshop setting. The image depicts Ariston and Syros at work; other characters and individual episode actions are not claimed.",
+    "role": "context",
+    "sha256": "15c4e1561dda1024d1a609c849365c4e2acbb00d6c472eaba28f41825ab5d7ec",
+    "source_id": "panel-1-2-a"
+   }
   },
   {
    "id": "panel-6-2-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ἡ Ἐλπὶς τὸν ξένον περὶ τῆς θαλάττης ἐρωτᾷ.",
-   "alt_en": "Evening in the courtyard: the merchant tells stories by lamplight; Elpis listens with shining eyes; Kleinias nods.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/panel-2-1-c.webp",
+   "alt_grc": "ἑσπέρα ἐστίν· ὁ Ἀρίστων ἄρτον ἐσθίει.",
+   "alt_en": "Evening: the family eats bread by lamplight; the moon over the courtyard",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ἡ Ἐλπὶς τὸν ξένον περὶ τῆς θαλάττης ἐρωτᾷ.",
+   "original_brief": "Evening in the courtyard: the merchant tells stories by lamplight; Elpis listens with shining eyes; Kleinias nods.",
+   "reuse": {
+    "review": "Shared household evening scene. Accurate image caption describes the family meal, not the episode-specific conversation or action.",
+    "role": "context",
+    "sha256": "ca14c6fe80468aaacc9e27f12e39e63e2a0cec19e7b40d6e62027cdc9d02ac22",
+    "source_id": "panel-2-1-c"
+   }
   },
   {
    "id": "panel-6-3-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ἡ Χρυσὶς πρὸς τῷ ἱστῷ ἵσταται καὶ ὑφαίνει.",
-   "alt_en": "Chrysis stands at a tall upright warp-weighted loom, passing the shuttle; loom weights hang at the bottom; Elpis sits nearby with a basket of wool.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/panel-1-4-a.webp",
+   "alt_grc": "ἡ Χρυσὶς ὑφαίνει",
+   "alt_en": "Chrysis at the loom in the courtyard",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ἡ Χρυσὶς πρὸς τῷ ἱστῷ ἵσταται καὶ ὑφαίνει.",
+   "original_brief": "Chrysis stands at a tall upright warp-weighted loom, passing the shuttle; loom weights hang at the bottom; Elpis sits nearby with a basket of wool.",
+   "reuse": {
+    "review": "Shared loom illustration for the weaving lesson. It depicts Chrysis weaving with Elpis nearby, not each individual learning step.",
+    "role": "context",
+    "sha256": "e851d97bfeec0363b9a99e3fedc83f3515a82bc9fac532a9a8dad9f0696614a9",
+    "source_id": "panel-1-4-a"
+   }
   },
   {
    "id": "panel-6-3-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ἡ Ἐλπὶς πρὸς τὸν ἱστὸν ἔστη καὶ τὴν κερκίδα ἔλαβεν.",
-   "alt_en": "Elpis at the loom, tongue between her teeth, the wool slipping from her hands; Chrysis guides her from behind.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/panel-1-4-a.webp",
+   "alt_grc": "ἡ Χρυσὶς ὑφαίνει",
+   "alt_en": "Chrysis at the loom in the courtyard",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ἡ Ἐλπὶς πρὸς τὸν ἱστὸν ἔστη καὶ τὴν κερκίδα ἔλαβεν.",
+   "original_brief": "Elpis at the loom, tongue between her teeth, the wool slipping from her hands; Chrysis guides her from behind.",
+   "reuse": {
+    "review": "Shared loom illustration for the weaving lesson. It depicts Chrysis weaving with Elpis nearby, not each individual learning step.",
+    "role": "context",
+    "sha256": "e851d97bfeec0363b9a99e3fedc83f3515a82bc9fac532a9a8dad9f0696614a9",
+    "source_id": "panel-1-4-a"
+   }
   },
   {
    "id": "panel-6-3-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Κλεινίας τὴν κόρην ὁρᾷ· ἡ κόρη ὀρθῶς ὑφαίνει.",
-   "alt_en": "Kleinias in the doorway, leaning on his stick, watches Elpis weaving a neat band of cloth; Chrysis smiles.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/panel-1-4-a.webp",
+   "alt_grc": "ἡ Χρυσὶς ὑφαίνει",
+   "alt_en": "Chrysis at the loom in the courtyard",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ Κλεινίας τὴν κόρην ὁρᾷ· ἡ κόρη ὀρθῶς ὑφαίνει.",
+   "original_brief": "Kleinias in the doorway, leaning on his stick, watches Elpis weaving a neat band of cloth; Chrysis smiles.",
+   "reuse": {
+    "review": "Shared loom illustration for the weaving lesson. It depicts Chrysis weaving with Elpis nearby, not each individual learning step.",
+    "role": "context",
+    "sha256": "e851d97bfeec0363b9a99e3fedc83f3515a82bc9fac532a9a8dad9f0696614a9",
+    "source_id": "panel-1-4-a"
+   }
   },
   {
    "id": "panel-6-4-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Προμηθεὺς ἐξ ὕδατος καὶ γῆς ἀνθρώπους πλάττει.",
-   "alt_en": "Prometheus, a bearded Titan, kneels shaping small human figures out of clay, like a potter; finished figures stand up and walk away.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/culture-prometheus-kylix.webp",
+   "alt_grc": "ὁ Ἄτλας καὶ ὁ Προμηθεύς.",
+   "alt_en": "Laconian cup attributed to the Arkesilas Painter, showing Atlas and the bound Prometheus with an eagle; Vatican Museums.",
+   "credit": "Arkesilas Painter - Atlas and Prometheus - Vaticano MV-MGE 16592 - 01 · ArchaiOptix · Wikimedia Commons (CC BY-SA 4.0)",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Arkesilas_Painter_-_Atlas_and_Prometheus_-_Vaticano_MV-MGE_16592_-_01.jpg",
+   "words": [],
+   "original_alt_grc": "ὁ Προμηθεὺς ἐξ ὕδατος καὶ γῆς ἀνθρώπους πλάττει.",
+   "original_brief": "Prometheus, a bearded Titan, kneels shaping small human figures out of clay, like a potter; finished figures stand up and walk away.",
+   "reuse": {
+    "review": "Shared ancient artwork illustrating the Prometheus myth; the factual caption identifies the bound Titan and Atlas, not the episode-specific action.",
+    "role": "context",
+    "sha256": "15b7e828cfbfa620b126e26285d31008b8f52f51090362a5d3cccff8e5f91e5e",
+    "source_id": "culture-prometheus-kylix"
+   }
   },
   {
    "id": "panel-6-4-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Προμηθεὺς τὸ πῦρ ἐν νάρθηκι κρύπτει.",
-   "alt_en": "Prometheus creeps down from the sky at night carrying a glowing ember hidden inside a fennel stalk; men below reach up towards it.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/culture-prometheus-kylix.webp",
+   "alt_grc": "ὁ Ἄτλας καὶ ὁ Προμηθεύς.",
+   "alt_en": "Laconian cup attributed to the Arkesilas Painter, showing Atlas and the bound Prometheus with an eagle; Vatican Museums.",
+   "credit": "Arkesilas Painter - Atlas and Prometheus - Vaticano MV-MGE 16592 - 01 · ArchaiOptix · Wikimedia Commons (CC BY-SA 4.0)",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Arkesilas_Painter_-_Atlas_and_Prometheus_-_Vaticano_MV-MGE_16592_-_01.jpg",
+   "words": [],
+   "original_alt_grc": "ὁ Προμηθεὺς τὸ πῦρ ἐν νάρθηκι κρύπτει.",
+   "original_brief": "Prometheus creeps down from the sky at night carrying a glowing ember hidden inside a fennel stalk; men below reach up towards it.",
+   "reuse": {
+    "review": "Shared ancient artwork illustrating the Prometheus myth; the factual caption identifies the bound Titan and Atlas, not the episode-specific action.",
+    "role": "context",
+    "sha256": "15b7e828cfbfa620b126e26285d31008b8f52f51090362a5d3cccff8e5f91e5e",
+    "source_id": "culture-prometheus-kylix"
+   }
   },
   {
    "id": "panel-6-4-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ ἀετὸς τὸ ἧπαρ τοῦ Προμηθέως ἐσθίει· ὁ Ἡρακλῆς αὐτὸν λύει.",
-   "alt_en": "Prometheus nailed to a mountain crag with an eagle at his side; in the distance Heracles climbs up with bow and club.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/culture-prometheus-kylix.webp",
+   "alt_grc": "ὁ Ἄτλας καὶ ὁ Προμηθεύς.",
+   "alt_en": "Laconian cup attributed to the Arkesilas Painter, showing Atlas and the bound Prometheus with an eagle; Vatican Museums.",
+   "credit": "Arkesilas Painter - Atlas and Prometheus - Vaticano MV-MGE 16592 - 01 · ArchaiOptix · Wikimedia Commons (CC BY-SA 4.0)",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Arkesilas_Painter_-_Atlas_and_Prometheus_-_Vaticano_MV-MGE_16592_-_01.jpg",
+   "words": [],
+   "original_alt_grc": "ὁ ἀετὸς τὸ ἧπαρ τοῦ Προμηθέως ἐσθίει· ὁ Ἡρακλῆς αὐτὸν λύει.",
+   "original_brief": "Prometheus nailed to a mountain crag with an eagle at his side; in the distance Heracles climbs up with bow and club.",
+   "reuse": {
+    "review": "Shared ancient artwork illustrating the Prometheus myth; the factual caption identifies the bound Titan and Atlas, not the episode-specific action.",
+    "role": "context",
+    "sha256": "15b7e828cfbfa620b126e26285d31008b8f52f51090362a5d3cccff8e5f91e5e",
+    "source_id": "culture-prometheus-kylix"
+   }
   },
   {
    "id": "posou",
@@ -239,28 +335,44 @@
   {
    "id": "histos",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/panel-1-4-a.webp",
    "alt_grc": "ὁ ἱστός",
-   "alt_en": "An upright warp-weighted loom with clay weights hanging from the threads.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "alt_en": "Chrysis at the loom in the courtyard",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ἱστός"
-   ]
+   ],
+   "original_alt_grc": "ὁ ἱστός",
+   "original_brief": "An upright warp-weighted loom with clay weights hanging from the threads.",
+   "reuse": {
+    "review": "The upright loom, hanging weights and a woman weaving are visible; supports loom and knowing how to weave.",
+    "role": "concept",
+    "sha256": "e851d97bfeec0363b9a99e3fedc83f3515a82bc9fac532a9a8dad9f0696614a9",
+    "source_id": "panel-1-4-a"
+   }
   },
   {
    "id": "peplos",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/gyne.webp",
    "alt_grc": "ὁ πέπλος",
-   "alt_en": "A woman wearing a peplos pinned at the shoulders, with the overfold.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "alt_en": "A woman",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "πέπλος"
-   ]
+   ],
+   "original_alt_grc": "ὁ πέπλος",
+   "original_brief": "A woman wearing a peplos pinned at the shoulders, with the overfold.",
+   "reuse": {
+    "review": "The approved woman wears a shoulder-fastened peplos with overfold.",
+    "role": "concept",
+    "sha256": "c89a8811d9713cb7177689d0d7a96e74321279ba4413ab95bd9a4dbb58188f8c",
+    "source_id": "gyne"
+   }
   },
   {
    "id": "kerkis",
@@ -341,15 +453,23 @@
   {
    "id": "verb-epistatai",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/panel-1-4-a.webp",
    "alt_grc": "ἐπίσταται",
-   "alt_en": "A woman weaving confidently, a finished cloth beside her; a badge reads 'knows how'.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "alt_en": "Chrysis at the loom in the courtyard",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ἐπίσταμαι"
-   ]
+   ],
+   "original_alt_grc": "ἐπίσταται",
+   "original_brief": "A woman weaving confidently, a finished cloth beside her; a badge reads 'knows how'.",
+   "reuse": {
+    "review": "The upright loom, hanging weights and a woman weaving are visible; supports loom and knowing how to weave.",
+    "role": "concept",
+    "sha256": "e851d97bfeec0363b9a99e3fedc83f3515a82bc9fac532a9a8dad9f0696614a9",
+    "source_id": "panel-1-4-a"
+   }
   },
   {
    "id": "diagram-root-aorist",
@@ -488,13 +608,21 @@
   {
    "id": "culture-prometheus-cup",
    "kind": "culture",
-   "file": null,
+   "file": "course/pics/culture-prometheus-kylix.webp",
    "alt_grc": "ὁ Προμηθεὺς καὶ ὁ ἀετός· κύλιξ Λακωνική.",
-   "alt_en": "Laconian black-figure cup, c. 560–550 BC (Vatican Museums): Atlas holding up the sky and Prometheus bound to a column with the eagle at his liver (museum photograph, CC).",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "alt_en": "Laconian cup attributed to the Arkesilas Painter, showing Atlas and the bound Prometheus with an eagle; Vatican Museums.",
+   "credit": "Arkesilas Painter - Atlas and Prometheus - Vaticano MV-MGE 16592 - 01 · ArchaiOptix · Wikimedia Commons (CC BY-SA 4.0)",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Arkesilas_Painter_-_Atlas_and_Prometheus_-_Vaticano_MV-MGE_16592_-_01.jpg",
+   "words": [],
+   "original_alt_grc": "ὁ Προμηθεὺς καὶ ὁ ἀετός· κύλιξ Λακωνική.",
+   "original_brief": "Laconian black-figure cup, c. 560–550 BC (Vatican Museums): Atlas holding up the sky and Prometheus bound to a column with the eagle at his liver (museum photograph, CC).",
+   "reuse": {
+    "review": "Both records refer to the same Laconian cup with Atlas and Prometheus.",
+    "role": "exact",
+    "sha256": "15b7e828cfbfa620b126e26285d31008b8f52f51090362a5d3cccff8e5f91e5e",
+    "source_id": "culture-prometheus-kylix"
+   }
   }
  ]
 }

@@ -3,13 +3,21 @@
   {
    "id": "panel-11-1-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ ὅρος ἐπὶ τῇ γῇ κεῖται· ὁ γείτων ὀργίζεται.",
-   "alt_en": "Summer 429, a farm near Acharnae: a toppled boundary stone lies in the grass between two fields; a cut olive tree with its branches on the path; Demokritos stares, and his neighbour Antimachos points at him angrily.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/georgos.webp",
+   "alt_grc": "ὁ γεωργός",
+   "alt_en": "A farmer ploughing",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ ὅρος ἐπὶ τῇ γῇ κεῖται· ὁ γείτων ὀργίζεται.",
+   "original_brief": "Summer 429, a farm near Acharnae: a toppled boundary stone lies in the grass between two fields; a cut olive tree with its branches on the path; Demokritos stares, and his neighbour Antimachos points at him angrily.",
+   "reuse": {
+    "review": "Shared agricultural setting with a ploughman and oxen. No boundary dispute or particular farmer is visually asserted.",
+    "role": "context",
+    "sha256": "e7eedff0363590547d12c377913ca7344f54d483dae4aeb6231bf007b295967a",
+    "source_id": "georgos"
+   }
   },
   {
    "id": "panel-11-1-b",
@@ -36,13 +44,21 @@
   {
    "id": "panel-11-2-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Ἀρίστων καὶ ὁ Εὔδημος τῷ Δημοκρίτῳ μαρτυρεῖν βούλονται.",
-   "alt_en": "Evening in Ariston's courtyard: Demokritos counts on his fingers who can be a witness; Ariston nods, Eudemos waves his arms eagerly; Syros stands apart by the wall.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/panel-2-1-c.webp",
+   "alt_grc": "ἑσπέρα ἐστίν· ὁ Ἀρίστων ἄρτον ἐσθίει.",
+   "alt_en": "Evening: the family eats bread by lamplight; the moon over the courtyard",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ Ἀρίστων καὶ ὁ Εὔδημος τῷ Δημοκρίτῳ μαρτυρεῖν βούλονται.",
+   "original_brief": "Evening in Ariston's courtyard: Demokritos counts on his fingers who can be a witness; Ariston nods, Eudemos waves his arms eagerly; Syros stands apart by the wall.",
+   "reuse": {
+    "review": "Shared household evening scene. Accurate image caption describes the family meal, not the episode-specific conversation or action.",
+    "role": "context",
+    "sha256": "ca14c6fe80468aaacc9e27f12e39e63e2a0cec19e7b40d6e62027cdc9d02ac22",
+    "source_id": "panel-2-1-c"
+   }
   },
   {
    "id": "panel-11-2-b",

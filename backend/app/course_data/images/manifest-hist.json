@@ -203,13 +203,21 @@
   {
    "id": "hist-kerameikos-wall",
    "kind": "culture",
-   "file": null,
+   "file": "course/pics/culture-kerameikos.webp",
    "alt_grc": "τὸ Θεμιστόκλειον τεῖχος ἐν τῷ Κεραμεικῷ.",
-   "alt_en": "The excavated remains of the Themistoclean city wall and the Dipylon Gate in the Kerameikos, Athens: stone socle courses with the later mudbrick removed.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "alt_en": "The Kerameikos today, with the Dipylon gate",
+   "credit": "Kerameikos Dipylon gate from S · Mark Landon (photographed in 1992; digitized in 2021) · Wikimedia Commons (CC BY 4.0)",
+   "license": "CC BY 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Kerameikos_Dipylon_gate_from_S.jpg",
+   "words": [],
+   "original_alt_grc": "τὸ Θεμιστόκλειον τεῖχος ἐν τῷ Κεραμεικῷ.",
+   "original_brief": "The excavated remains of the Themistoclean city wall and the Dipylon Gate in the Kerameikos, Athens: stone socle courses with the later mudbrick removed.",
+   "reuse": {
+    "review": "The same Kerameikos gate/wall remains are the intended site in both records.",
+    "role": "exact",
+    "sha256": "e10325711d1913da9a9f7382eaa5f3c23ef3d6f3872fbf4043bdda5df6090526",
+    "source_id": "culture-kerameikos"
+   }
   },
   {
    "id": "hist-panel-6-a",

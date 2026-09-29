@@ -21,7 +21,7 @@ export function searchText(value: string): string {
   return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/ς/g, "σ");
 }
 export function matchesSearch(image: CatalogImage, query: string): boolean {
-  const haystack = searchText([image.id, image.alt_grc, image.alt_en, image.collection.label,
+  const haystack = searchText([image.id, image.alt_grc, image.alt_en, image.original_brief ?? "", image.reuse?.source_id ?? "", image.collection.label,
     ...(image.words ?? []), ...image.vocabulary.flatMap(w => [w.lemma, w.definition]),
     ...image.usages.flatMap(u => [u.id, u.title, u.context])].join(" "));
   return searchText(query).trim().split(/\s+/).every(term => haystack.includes(term));
@@ -37,9 +37,9 @@ export function catalogCsv(images: CatalogImage[]): string {
     const safe = /^[=+@\-\t\r]/.test(value) ? "'" + value : value;
     return '"' + safe.replace(/"/g, '""') + '"';
   };
-  const rows = [["Image ID", "Status", "Type", "Medium", "Collection", "Greek", "English purpose", "Vocabulary", "Lesson context", "File", "Credit", "License"],
+  const rows = [["Image ID", "Status", "Type", "Medium", "Collection", "Greek", "English purpose", "Vocabulary", "Lesson context", "File", "Credit", "License", "Original brief", "Shared source", "Shared role", "Review"],
     ...images.map(i => [i.id, i.status, i.kind, i.medium, i.collection.label, i.alt_grc, i.alt_en,
       i.vocabulary.map(w => `${w.lemma}: ${w.definition}`).join("; "),
-      i.usages.map(u => `${u.id} ${u.title} (${u.location}): ${u.context}`).join("; "), i.file ?? "", i.credit, i.license])];
+      i.usages.map(u => `${u.id} ${u.title} (${u.location}): ${u.context}`).join("; "), i.file ?? "", i.credit, i.license, i.original_brief ?? "", i.reuse?.source_id ?? "", i.reuse?.role ?? "", i.reuse?.review ?? ""])];
   return "\uFEFF" + rows.map(r => r.map(cell).join(",")).join("\r\n");
 }

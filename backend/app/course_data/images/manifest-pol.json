@@ -14,13 +14,21 @@
   {
    "id": "pol-1-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Δημόκριτος περὶ τοῦ Κλεισθένους λέγει",
-   "alt_en": "Demokritos, the farmer who loves politics, counts off the ten tribes on his fingers for the two boys in a crowded street of the city.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/verb-legei.webp",
+   "alt_grc": "λέγει",
+   "alt_en": "Someone speaking",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ Δημόκριτος περὶ τοῦ Κλεισθένους λέγει",
+   "original_brief": "Demokritos, the farmer who loves politics, counts off the ten tribes on his fingers for the two boys in a crowded street of the city.",
+   "reuse": {
+    "review": "Shared conversation illustration. Caption identifies two men talking, without identifying them as the historical or fictional speakers in the passage.",
+    "role": "context",
+    "sha256": "28c71e5c5c601abe41aae7f05f6f19c8b5fed532748ab35f79ee82d714e5e5e6",
+    "source_id": "verb-legei"
+   }
   },
   {
    "id": "pol-boule",
@@ -49,35 +57,59 @@
   {
    "id": "pol-2-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Λύσις ὄστρακον ἐν τῷ ἐργαστηρίῳ εὑρίσκει",
-   "alt_en": "In the workshop yard among heaps of broken pottery, Lysis holds up a sherd with scratched letters; grandfather Kleinias sits on a bench in the sun.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/ostrakon.webp",
+   "alt_grc": "ὄστρακον",
+   "alt_en": "An ostrakon inscribed with a name, Athenian Agora",
+   "credit": "3156 - Stoà of Attalus Museum - Ostracism against Themistokles (482 BC) - Photo by Giovanni Dall'Orto, Nov 9 2009 · User:g.dallorto · Wikimedia Commons (CC BY-SA 3.0)",
+   "license": "CC BY-SA 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:3156_-_Sto%C3%A0_of_Attalus_Museum_-_Ostracism_against_Themistokles_(482_BC)_-_Photo_by_Giovanni_Dall%27Orto,_Nov_9_2009.jpg",
+   "words": [],
+   "original_alt_grc": "ὁ Λύσις ὄστρακον ἐν τῷ ἐργαστηρίῳ εὑρίσκει",
+   "original_brief": "In the workshop yard among heaps of broken pottery, Lysis holds up a sherd with scratched letters; grandfather Kleinias sits on a bench in the sun.",
+   "reuse": {
+    "review": "Shared ostrakon photograph illustrates ostracism through its surviving material evidence, not a staged historical event.",
+    "role": "context",
+    "sha256": "2cf33f18976741bfb4abdf7cb6cdc0f383bec0291bc7517229f175939bf44689",
+    "source_id": "ostrakon"
+   }
   },
   {
    "id": "pol-2-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ γεωργὸς τῷ Ἀριστείδῃ τὸ ὄστρακον δίδωσιν",
-   "alt_en": "482 BC in the Agora: a farmer with a hoe on his shoulder hands a potsherd to a quiet, plainly dressed man, Aristides, and asks him to write a name on it.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/ostrakon.webp",
+   "alt_grc": "ὄστρακον",
+   "alt_en": "An ostrakon inscribed with a name, Athenian Agora",
+   "credit": "3156 - Stoà of Attalus Museum - Ostracism against Themistokles (482 BC) - Photo by Giovanni Dall'Orto, Nov 9 2009 · User:g.dallorto · Wikimedia Commons (CC BY-SA 3.0)",
+   "license": "CC BY-SA 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:3156_-_Sto%C3%A0_of_Attalus_Museum_-_Ostracism_against_Themistokles_(482_BC)_-_Photo_by_Giovanni_Dall%27Orto,_Nov_9_2009.jpg",
+   "words": [],
+   "original_alt_grc": "ὁ γεωργὸς τῷ Ἀριστείδῃ τὸ ὄστρακον δίδωσιν",
+   "original_brief": "482 BC in the Agora: a farmer with a hoe on his shoulder hands a potsherd to a quiet, plainly dressed man, Aristides, and asks him to write a name on it.",
+   "reuse": {
+    "review": "Shared ostrakon photograph illustrates ostracism through its surviving material evidence, not a staged historical event.",
+    "role": "context",
+    "sha256": "2cf33f18976741bfb4abdf7cb6cdc0f383bec0291bc7517229f175939bf44689",
+    "source_id": "ostrakon"
+   }
   },
   {
    "id": "pol-2-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "οἱ Ἀθηναῖοι ὀστρακίζουσιν",
-   "alt_en": "The Agora fenced off for an ostracism: citizens file in tribe by tribe and drop their sherds; officials count the heap.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/ostrakon.webp",
+   "alt_grc": "ὄστρακον",
+   "alt_en": "An ostrakon inscribed with a name, Athenian Agora",
+   "credit": "3156 - Stoà of Attalus Museum - Ostracism against Themistokles (482 BC) - Photo by Giovanni Dall'Orto, Nov 9 2009 · User:g.dallorto · Wikimedia Commons (CC BY-SA 3.0)",
+   "license": "CC BY-SA 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:3156_-_Sto%C3%A0_of_Attalus_Museum_-_Ostracism_against_Themistokles_(482_BC)_-_Photo_by_Giovanni_Dall%27Orto,_Nov_9_2009.jpg",
+   "words": [],
+   "original_alt_grc": "οἱ Ἀθηναῖοι ὀστρακίζουσιν",
+   "original_brief": "The Agora fenced off for an ostracism: citizens file in tribe by tribe and drop their sherds; officials count the heap.",
+   "reuse": {
+    "review": "Shared ostrakon photograph illustrates ostracism through its surviving material evidence, not a staged historical event.",
+    "role": "context",
+    "sha256": "2cf33f18976741bfb4abdf7cb6cdc0f383bec0291bc7517229f175939bf44689",
+    "source_id": "ostrakon"
+   }
   },
   {
    "id": "pol-ostraka-themistocles",
@@ -104,13 +136,21 @@
   {
    "id": "pol-3-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Κίμων τὰ χωρία ἄφρακτα ἔχει",
-   "alt_en": "Cimon's orchards without fences: villagers help themselves to figs and grapes while a steward watches, smiling.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/georgos.webp",
+   "alt_grc": "ὁ γεωργός",
+   "alt_en": "A farmer ploughing",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ Κίμων τὰ χωρία ἄφρακτα ἔχει",
+   "original_brief": "Cimon's orchards without fences: villagers help themselves to figs and grapes while a steward watches, smiling.",
+   "reuse": {
+    "review": "Shared agricultural setting with a ploughman and oxen. No boundary dispute or particular farmer is visually asserted.",
+    "role": "context",
+    "sha256": "e7eedff0363590547d12c377913ca7344f54d483dae4aeb6231bf007b295967a",
+    "source_id": "georgos"
+   }
   },
   {
    "id": "pol-pinakion",
@@ -196,13 +236,21 @@
   {
    "id": "pol-5-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ ἀνὴρ ἐν τῷ ἐργαστηρίῳ χαλεπῶς ἐργάζεται",
-   "alt_en": "The old craftsman at work alone in his small shop, bent over his bench, with no apprentice beside him.",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/panel-1-2-a.webp",
+   "alt_grc": "ἐν τῷ ἐργαστηρίῳ",
+   "alt_en": "Ariston at the wheel, Syros carrying clay",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ ἀνὴρ ἐν τῷ ἐργαστηρίῳ χαλεπῶς ἐργάζεται",
+   "original_brief": "The old craftsman at work alone in his small shop, bent over his bench, with no apprentice beside him.",
+   "reuse": {
+    "review": "Shared pottery-workshop setting. The image depicts Ariston and Syros at work; other characters and individual episode actions are not claimed.",
+    "role": "context",
+    "sha256": "15c4e1561dda1024d1a609c849365c4e2acbb00d6c472eaba28f41825ab5d7ec",
+    "source_id": "panel-1-2-a"
+   }
   },
   {
    "id": "pol-stele-man-staff",

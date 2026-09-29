@@ -47,13 +47,21 @@
     {
       "id": "panel-12-2-b",
       "kind": "story",
-      "file": null,
-      "alt_grc": "οἱ ὀπισθοφύλακες τοὺς πολεμίους φεύγοντας διώκουσιν.",
-      "alt_en": "A column of weary Greek soldiers with pack animals climbing a mountain path in spring; at the rear the rearguard fights off local tribesmen; smoke rises from the burning land behind them; wicker shields and shaggy rawhide shields lie captured on the ground.",
-      "credit": "placeholder",
-      "license": "placeholder",
+      "file": "course/illustrations/verb-legei.webp",
+      "alt_grc": "λέγει",
+      "alt_en": "Someone speaking",
+      "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+      "license": "Original AI illustration",
       "source_url": null,
-      "words": []
+      "words": [],
+      "original_alt_grc": "οἱ ὀπισθοφύλακες τοὺς πολεμίους φεύγοντας διώκουσιν.",
+      "original_brief": "A column of weary Greek soldiers with pack animals climbing a mountain path in spring; at the rear the rearguard fights off local tribesmen; smoke rises from the burning land behind them; wicker shields and shaggy rawhide shields lie captured on the ground.",
+      "reuse": {
+        "review": "Shared conversation illustration. Caption identifies two men talking, without identifying them as the historical or fictional speakers in the passage.",
+        "role": "context",
+        "sha256": "28c71e5c5c601abe41aae7f05f6f19c8b5fed532748ab35f79ee82d714e5e5e6",
+        "source_id": "verb-legei"
+      }
     },
     {
       "id": "panel-12-2-c",
@@ -69,57 +77,97 @@
     {
       "id": "panel-12-3-a",
       "kind": "story",
-      "file": null,
-      "alt_grc": "ὁ Λύσις Πλάτωνος βιβλίον λαμβάνει.",
-      "alt_en": "Old Lysis takes a second scroll from a wooden chest; its label tag reads ΚΡΙΤΩΝ; the grandchildren watch.",
-      "credit": "placeholder",
-      "license": "placeholder",
+      "file": "course/illustrations/verb-legei.webp",
+      "alt_grc": "λέγει",
+      "alt_en": "Someone speaking",
+      "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+      "license": "Original AI illustration",
       "source_url": null,
-      "words": []
+      "words": [],
+      "original_alt_grc": "ὁ Λύσις Πλάτωνος βιβλίον λαμβάνει.",
+      "original_brief": "Old Lysis takes a second scroll from a wooden chest; its label tag reads ΚΡΙΤΩΝ; the grandchildren watch.",
+      "reuse": {
+        "review": "Shared conversation illustration. Caption identifies two men talking, without identifying them as the historical or fictional speakers in the passage.",
+        "role": "context",
+        "sha256": "28c71e5c5c601abe41aae7f05f6f19c8b5fed532748ab35f79ee82d714e5e5e6",
+        "source_id": "verb-legei"
+      }
     },
     {
       "id": "panel-12-3-b",
       "kind": "story",
-      "file": null,
-      "alt_grc": "ὁ Κρίτων παρὰ τῷ Σωκράτει καθεύδοντι σιγῇ κάθηται.",
-      "alt_en": "Before dawn in a bare prison room lit by one lamp: Socrates, an old man with a snub nose, asleep on a plank bed; his friend Crito, also old and well dressed, sits silently beside him watching.",
-      "credit": "placeholder",
-      "license": "placeholder",
+      "file": "course/illustrations/verb-legei.webp",
+      "alt_grc": "λέγει",
+      "alt_en": "Someone speaking",
+      "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+      "license": "Original AI illustration",
       "source_url": null,
-      "words": []
+      "words": [],
+      "original_alt_grc": "ὁ Κρίτων παρὰ τῷ Σωκράτει καθεύδοντι σιγῇ κάθηται.",
+      "original_brief": "Before dawn in a bare prison room lit by one lamp: Socrates, an old man with a snub nose, asleep on a plank bed; his friend Crito, also old and well dressed, sits silently beside him watching.",
+      "reuse": {
+        "review": "Shared conversation illustration. Caption identifies two men talking, without identifying them as the historical or fictional speakers in the passage.",
+        "role": "context",
+        "sha256": "28c71e5c5c601abe41aae7f05f6f19c8b5fed532748ab35f79ee82d714e5e5e6",
+        "source_id": "verb-legei"
+      }
     },
     {
       "id": "panel-12-3-c",
       "kind": "story",
-      "file": null,
-      "alt_grc": "ὁ Σωκράτης καὶ ὁ Κρίτων διαλέγονται.",
-      "alt_en": "Socrates, now awake and sitting up, speaks calmly to Crito, who leans forward anxiously; grey dawn light through a high barred window; a guard dozes by the door.",
-      "credit": "placeholder",
-      "license": "placeholder",
+      "file": "course/illustrations/verb-legei.webp",
+      "alt_grc": "λέγει",
+      "alt_en": "Someone speaking",
+      "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+      "license": "Original AI illustration",
       "source_url": null,
-      "words": []
+      "words": [],
+      "original_alt_grc": "ὁ Σωκράτης καὶ ὁ Κρίτων διαλέγονται.",
+      "original_brief": "Socrates, now awake and sitting up, speaks calmly to Crito, who leans forward anxiously; grey dawn light through a high barred window; a guard dozes by the door.",
+      "reuse": {
+        "review": "Shared conversation illustration. Caption identifies two men talking, without identifying them as the historical or fictional speakers in the passage.",
+        "role": "context",
+        "sha256": "28c71e5c5c601abe41aae7f05f6f19c8b5fed532748ab35f79ee82d714e5e5e6",
+        "source_id": "verb-legei"
+      }
     },
     {
       "id": "panel-12-4-a",
       "kind": "story",
-      "file": null,
-      "alt_grc": "ὁ Σωκράτης καὶ ὁ Γλαύκων εἰς Πειραιᾶ κατέβησαν.",
-      "alt_en": "The Piraeus at a festival: Socrates and a young man (Glaucon) watch two processions, Athenians and Thracians in patterned cloaks and fox-skin caps, passing a small shrine.",
-      "credit": "placeholder",
-      "license": "placeholder",
+      "file": "course/illustrations/verb-legei.webp",
+      "alt_grc": "λέγει",
+      "alt_en": "Someone speaking",
+      "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+      "license": "Original AI illustration",
       "source_url": null,
-      "words": []
+      "words": [],
+      "original_alt_grc": "ὁ Σωκράτης καὶ ὁ Γλαύκων εἰς Πειραιᾶ κατέβησαν.",
+      "original_brief": "The Piraeus at a festival: Socrates and a young man (Glaucon) watch two processions, Athenians and Thracians in patterned cloaks and fox-skin caps, passing a small shrine.",
+      "reuse": {
+        "review": "Shared conversation illustration. Caption identifies two men talking, without identifying them as the historical or fictional speakers in the passage.",
+        "role": "context",
+        "sha256": "28c71e5c5c601abe41aae7f05f6f19c8b5fed532748ab35f79ee82d714e5e5e6",
+        "source_id": "verb-legei"
+      }
     },
     {
       "id": "panel-12-4-b",
       "kind": "story",
-      "file": null,
-      "alt_grc": "ὁ παῖς τοῦ ἱματίου τοῦ Σωκράτους λαμβάνεται.",
-      "alt_en": "On the road back towards the city walls: a slave boy runs up behind Socrates and tugs at his cloak; in the distance Polemarchus waves from among a group of young men.",
-      "credit": "placeholder",
-      "license": "placeholder",
+      "file": "course/illustrations/verb-legei.webp",
+      "alt_grc": "λέγει",
+      "alt_en": "Someone speaking",
+      "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+      "license": "Original AI illustration",
       "source_url": null,
-      "words": []
+      "words": [],
+      "original_alt_grc": "ὁ παῖς τοῦ ἱματίου τοῦ Σωκράτους λαμβάνεται.",
+      "original_brief": "On the road back towards the city walls: a slave boy runs up behind Socrates and tugs at his cloak; in the distance Polemarchus waves from among a group of young men.",
+      "reuse": {
+        "review": "Shared conversation illustration. Caption identifies two men talking, without identifying them as the historical or fictional speakers in the passage.",
+        "role": "context",
+        "sha256": "28c71e5c5c601abe41aae7f05f6f19c8b5fed532748ab35f79ee82d714e5e5e6",
+        "source_id": "verb-legei"
+      }
     },
     {
       "id": "panel-12-4-c",

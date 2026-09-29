@@ -4,101 +4,173 @@
   {
    "id": "panel-4-1-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Ἀρίστων καὶ ὁ Λύσις ἐκ τῆς πόλεως βαίνουσιν",
-   "alt_en": "Ariston, Lysis, Syros with the water jars and the dog Labros leave the city gate at dawn; the Long Walls run down towards the sea",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/polis.webp",
+   "alt_grc": "ἡ πόλις",
+   "alt_en": "A city with walls and an acropolis",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ Ἀρίστων καὶ ὁ Λύσις ἐκ τῆς πόλεως βαίνουσιν",
+   "original_brief": "Ariston, Lysis, Syros with the water jars and the dog Labros leave the city gate at dawn; the Long Walls run down towards the sea",
+   "reuse": {
+    "review": "Shared Athenian city landscape with Acropolis; does not claim exact fortification routes, war damage or characters.",
+    "role": "context",
+    "sha256": "8243d2880112b0e41c20affc78fa99412b1fae40f67c8d854c525272bccb373b",
+    "source_id": "polis"
+   }
   },
   {
    "id": "panel-4-1-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ἡ ὁδὸς διὰ τῶν μακρῶν τειχῶν",
-   "alt_en": "The road between the two Long Walls: soldiers on the wall, carts, walkers coming up from Piraeus",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/polis.webp",
+   "alt_grc": "ἡ πόλις",
+   "alt_en": "A city with walls and an acropolis",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ἡ ὁδὸς διὰ τῶν μακρῶν τειχῶν",
+   "original_brief": "The road between the two Long Walls: soldiers on the wall, carts, walkers coming up from Piraeus",
+   "reuse": {
+    "review": "Shared Athenian city landscape with Acropolis; does not claim exact fortification routes, war damage or characters.",
+    "role": "context",
+    "sha256": "8243d2880112b0e41c20affc78fa99412b1fae40f67c8d854c525272bccb373b",
+    "source_id": "polis"
+   }
   },
   {
    "id": "panel-4-1-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ λιμὴν τοῦ Πειραιῶς",
-   "alt_en": "Arrival at Piraeus: the great harbour Kantharos full of ships, sailors at work",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/nautes.webp",
+   "alt_grc": "ὁ ναύτης",
+   "alt_en": "A sailor on a ship",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ λιμὴν τοῦ Πειραιῶς",
+   "original_brief": "Arrival at Piraeus: the great harbour Kantharos full of ships, sailors at work",
+   "reuse": {
+    "review": "Shared seamanship illustration. Shows a sailor aboard a vessel; does not claim it depicts a trireme, naval harbour or fleet.",
+    "role": "context",
+    "sha256": "b879babe5a092219ba52db3ca5644972132eec119f74fdeed687fd7a94b72813",
+    "source_id": "nautes"
+   }
   },
   {
    "id": "panel-4-2-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "τὸ ἐμπόριον",
-   "alt_en": "The emporion by the harbour: stoas, sacks of grain, wine jars, merchants of many peoples",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/agora.webp",
+   "alt_grc": "ἡ ἀγορά",
+   "alt_en": "The agora, a market square with stoas",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "τὸ ἐμπόριον",
+   "original_brief": "The emporion by the harbour: stoas, sacks of grain, wine jars, merchants of many peoples",
+   "reuse": {
+    "review": "Shared market setting. Does not claim the specific sale, price comparison, historical speaker or invisible characters appear.",
+    "role": "context",
+    "sha256": "2afc9b128d0f912909524efee606fa0adbb09e1a6b58d215c550b07155752d19",
+    "source_id": "agora"
+   }
   },
   {
    "id": "panel-4-2-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Ἀρίστων τὰς ὑδρίας πωλεῖ",
-   "alt_en": "Ariston at his stall selling water jars to a woman; coins change hands",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/agora.webp",
+   "alt_grc": "ἡ ἀγορά",
+   "alt_en": "The agora, a market square with stoas",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "ὁ Ἀρίστων τὰς ὑδρίας πωλεῖ",
+   "original_brief": "Ariston at his stall selling water jars to a woman; coins change hands",
+   "reuse": {
+    "review": "Shared market setting. Does not claim the specific sale, price comparison, historical speaker or invisible characters appear.",
+    "role": "context",
+    "sha256": "2afc9b128d0f912909524efee606fa0adbb09e1a6b58d215c550b07155752d19",
+    "source_id": "agora"
+   }
   },
   {
    "id": "panel-4-2-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "οἱ ἰχθύες",
-   "alt_en": "The fish stalls; Lysis with two obols, Labros eyeing a fish",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "file": "course/illustrations/agora.webp",
+   "alt_grc": "ἡ ἀγορά",
+   "alt_en": "The agora, a market square with stoas",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
-   "words": []
+   "words": [],
+   "original_alt_grc": "οἱ ἰχθύες",
+   "original_brief": "The fish stalls; Lysis with two obols, Labros eyeing a fish",
+   "reuse": {
+    "review": "Shared market setting. Does not claim the specific sale, price comparison, historical speaker or invisible characters appear.",
+    "role": "context",
+    "sha256": "2afc9b128d0f912909524efee606fa0adbb09e1a6b58d215c550b07155752d19",
+    "source_id": "agora"
+   }
   },
   {
    "id": "panel-4-3-a",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ Σύρος τὸν Λύσιν εἰς τὸ διδασκαλεῖον ἄγει",
-   "alt_en": "Morning in the town: Syros walks Lysis through the streets to the teacher's house",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/school-kylix.webp",
+   "alt_grc": "ἐν διδασκάλων",
+   "alt_en": "Red-figure kylix by Douris: a school scene with a teacher and pupils",
+   "credit": "School cup by Douris Antikensammlung Berlin · Picture taken by Marcus Cyron · Wikimedia Commons (CC BY-SA 3.0)",
+   "license": "CC BY-SA 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:School_cup_by_Douris_Antikensammlung_Berlin.jpg",
+   "words": [],
+   "original_alt_grc": "ὁ Σύρος τὸν Λύσιν εἰς τὸ διδασκαλεῖον ἄγει",
+   "original_brief": "Morning in the town: Syros walks Lysis through the streets to the teacher's house",
+   "reuse": {
+    "review": "Shared ancient school artwork for the school lesson; the vase scene is not a portrait of Lysis or Syros.",
+    "role": "context",
+    "sha256": "d4ecd1dcf64b42e253a6ea6d9c631812c36b8028a00ba090a47c0905dc307f86",
+    "source_id": "school-kylix"
+   }
   },
   {
    "id": "panel-4-3-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ διδάσκαλος διδάσκει",
-   "alt_en": "The schoolroom: the teacher with a scroll, boys with wax tablets and styluses",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/school-kylix.webp",
+   "alt_grc": "ἐν διδασκάλων",
+   "alt_en": "Red-figure kylix by Douris: a school scene with a teacher and pupils",
+   "credit": "School cup by Douris Antikensammlung Berlin · Picture taken by Marcus Cyron · Wikimedia Commons (CC BY-SA 3.0)",
+   "license": "CC BY-SA 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:School_cup_by_Douris_Antikensammlung_Berlin.jpg",
+   "words": [],
+   "original_alt_grc": "ὁ διδάσκαλος διδάσκει",
+   "original_brief": "The schoolroom: the teacher with a scroll, boys with wax tablets and styluses",
+   "reuse": {
+    "review": "Shared ancient school artwork for the school lesson; the vase scene is not a portrait of Lysis or Syros.",
+    "role": "context",
+    "sha256": "d4ecd1dcf64b42e253a6ea6d9c631812c36b8028a00ba090a47c0905dc307f86",
+    "source_id": "school-kylix"
+   }
   },
   {
    "id": "panel-4-3-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "οἱ παῖδες ἐκ τοῦ διδασκαλείου τρέχουσιν",
-   "alt_en": "School is over: the boys run out towards the palaestra; Syros waits at the door",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/school-kylix.webp",
+   "alt_grc": "ἐν διδασκάλων",
+   "alt_en": "Red-figure kylix by Douris: a school scene with a teacher and pupils",
+   "credit": "School cup by Douris Antikensammlung Berlin · Picture taken by Marcus Cyron · Wikimedia Commons (CC BY-SA 3.0)",
+   "license": "CC BY-SA 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:School_cup_by_Douris_Antikensammlung_Berlin.jpg",
+   "words": [],
+   "original_alt_grc": "οἱ παῖδες ἐκ τοῦ διδασκαλείου τρέχουσιν",
+   "original_brief": "School is over: the boys run out towards the palaestra; Syros waits at the door",
+   "reuse": {
+    "review": "Shared ancient school artwork for the school lesson; the vase scene is not a portrait of Lysis or Syros.",
+    "role": "context",
+    "sha256": "d4ecd1dcf64b42e253a6ea6d9c631812c36b8028a00ba090a47c0905dc307f86",
+    "source_id": "school-kylix"
+   }
   },
   {
    "id": "panel-4-4-a",
@@ -136,28 +208,44 @@
   {
    "id": "pater",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/panel-2-1-b.webp",
    "alt_grc": "ὁ πατήρ",
-   "alt_en": "A father with his son",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "alt_en": "The workshop: Lysis carrying clay, Labros playing with a stone",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "πατήρ"
-   ]
+   ],
+   "original_alt_grc": "ὁ πατήρ",
+   "original_brief": "A father with his son",
+   "reuse": {
+    "review": "Ariston and his son Lysis are together in the workshop. Quiz alternatives are checked before reuse.",
+    "role": "concept",
+    "sha256": "f1855d9e6faf55f11b20e5439d93f110a8d77d0db200020e56aa3979d8404fa3",
+    "source_id": "panel-2-1-b"
+   }
   },
   {
    "id": "meter",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/verb-philei.webp",
    "alt_grc": "ἡ μήτηρ",
-   "alt_en": "A mother with her daughter",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "alt_en": "A mother embracing a child",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "μήτηρ"
-   ]
+   ],
+   "original_alt_grc": "ἡ μήτηρ",
+   "original_brief": "A mother with her daughter",
+   "reuse": {
+    "review": "A mother embraces her child. Parent/child relationship is explicit in the approved artwork.",
+    "role": "concept",
+    "sha256": "400b5a51f005db7478607e98523a86f9b434ce85a43fe128bed9174269d109d1",
+    "source_id": "verb-philei"
+   }
   },
   {
    "id": "thygater",
@@ -214,15 +302,23 @@
   {
    "id": "makros",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/hodos.webp",
    "alt_grc": "μακρός",
-   "alt_en": "A long road stretching to the horizon",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "alt_en": "A road",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "μακρός"
-   ]
+   ],
+   "original_alt_grc": "μακρός",
+   "original_brief": "A long road stretching to the horizon",
+   "reuse": {
+    "review": "The road visibly extends into the distance, supporting long in the road context.",
+    "role": "concept",
+    "sha256": "983d612f5224948ee6ce1f29df10c876e16c4a2e3debe9e38e9a4ac3efa84011",
+    "source_id": "hodos"
+   }
   },
   {
    "id": "stratiotes",
@@ -471,15 +567,23 @@
   {
    "id": "asty",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/polis.webp",
    "alt_grc": "τὸ ἄστυ",
-   "alt_en": "The town of Athens seen from the road: houses and the Acropolis",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "alt_en": "A city with walls and an acropolis",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "ἄστυ"
-   ]
+   ],
+   "original_alt_grc": "τὸ ἄστυ",
+   "original_brief": "The town of Athens seen from the road: houses and the Acropolis",
+   "reuse": {
+    "review": "The approved city panorama illustrates the town of Athens.",
+    "role": "concept",
+    "sha256": "8243d2880112b0e41c20affc78fa99412b1fae40f67c8d854c525272bccb373b",
+    "source_id": "polis"
+   }
   },
   {
    "id": "basileus",
@@ -497,28 +601,44 @@
   {
    "id": "didaskalos",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/school-kylix.webp",
    "alt_grc": "ὁ διδάσκαλος",
-   "alt_en": "A teacher holding a scroll",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "Red-figure kylix by Douris: a school scene with a teacher and pupils",
+   "credit": "School cup by Douris Antikensammlung Berlin · Picture taken by Marcus Cyron · Wikimedia Commons (CC BY-SA 3.0)",
+   "license": "CC BY-SA 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:School_cup_by_Douris_Antikensammlung_Berlin.jpg",
    "words": [
     "διδάσκαλος"
-   ]
+   ],
+   "original_alt_grc": "ὁ διδάσκαλος",
+   "original_brief": "A teacher holding a scroll",
+   "reuse": {
+    "review": "The approved school cup depicts instruction; use its existing museum credit and factual caption.",
+    "role": "concept",
+    "sha256": "d4ecd1dcf64b42e253a6ea6d9c631812c36b8028a00ba090a47c0905dc307f86",
+    "source_id": "school-kylix"
+   }
   },
   {
    "id": "verb-didaskei",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/school-kylix.webp",
    "alt_grc": "διδάσκει",
-   "alt_en": "A teacher pointing at letters for a pupil",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "Red-figure kylix by Douris: a school scene with a teacher and pupils",
+   "credit": "School cup by Douris Antikensammlung Berlin · Picture taken by Marcus Cyron · Wikimedia Commons (CC BY-SA 3.0)",
+   "license": "CC BY-SA 3.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:School_cup_by_Douris_Antikensammlung_Berlin.jpg",
    "words": [
     "διδάσκω"
-   ]
+   ],
+   "original_alt_grc": "διδάσκει",
+   "original_brief": "A teacher pointing at letters for a pupil",
+   "reuse": {
+    "review": "The approved school cup depicts instruction; use its existing museum credit and factual caption.",
+    "role": "concept",
+    "sha256": "d4ecd1dcf64b42e253a6ea6d9c631812c36b8028a00ba090a47c0905dc307f86",
+    "source_id": "school-kylix"
+   }
   },
   {
    "id": "verb-manthanei",
@@ -562,28 +682,44 @@
   {
    "id": "gramma",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/wax-tablet.webp",
    "alt_grc": "τὰ γράμματα",
-   "alt_en": "Greek letters scratched on a tablet",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "A schoolboy's wax tablet with a writing exercise",
+   "credit": "Wax writing tablet (2nd C) - BL Add MS 34186 · This file has been provided by the British Library from its digital collections. Links to the British Library's website may be broken as the library recovers from a October 2023 cyber attack, and will be updated once material becomes accessible online. For more information on the attack see: https://www.bl.uk/about/cyber-attack \nCatalogue entry: Add MS 34186 · Wikimedia Commons (CC0)",
+   "license": "CC0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Wax_writing_tablet_(2nd_C)_-_BL_Add_MS_34186.jpg",
    "words": [
     "γράμμα"
-   ]
+   ],
+   "original_alt_grc": "τὰ γράμματα",
+   "original_brief": "Greek letters scratched on a tablet",
+   "reuse": {
+    "review": "A writing tablet visibly bears Greek letters; caption describes the actual tablet.",
+    "role": "concept",
+    "sha256": "3a911e32f4ed1dd00eaa3982e5741311e7404e555fdc299e15b7edbf5f6bae05",
+    "source_id": "wax-tablet"
+   }
   },
   {
    "id": "deltos",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/wax-tablet.webp",
    "alt_grc": "ἡ δέλτος",
-   "alt_en": "A folding wax tablet with a stylus",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "A schoolboy's wax tablet with a writing exercise",
+   "credit": "Wax writing tablet (2nd C) - BL Add MS 34186 · This file has been provided by the British Library from its digital collections. Links to the British Library's website may be broken as the library recovers from a October 2023 cyber attack, and will be updated once material becomes accessible online. For more information on the attack see: https://www.bl.uk/about/cyber-attack \nCatalogue entry: Add MS 34186 · Wikimedia Commons (CC0)",
+   "license": "CC0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Wax_writing_tablet_(2nd_C)_-_BL_Add_MS_34186.jpg",
    "words": [
     "δέλτος"
-   ]
+   ],
+   "original_alt_grc": "ἡ δέλτος",
+   "original_brief": "A folding wax tablet with a stylus",
+   "reuse": {
+    "review": "A writing tablet visibly bears Greek letters; caption describes the actual tablet.",
+    "role": "concept",
+    "sha256": "3a911e32f4ed1dd00eaa3982e5741311e7404e555fdc299e15b7edbf5f6bae05",
+    "source_id": "wax-tablet"
+   }
   },
   {
    "id": "palaistra",

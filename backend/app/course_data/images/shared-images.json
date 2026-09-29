@@ -1,0 +1,650 @@
+[
+ {
+  "id": "agros",
+  "source": "georgos",
+  "role": "concept",
+  "review": "The approved scene visibly shows a cultivated field and a ploughman."
+ },
+ {
+  "id": "ergon",
+  "source": "kerameus",
+  "role": "concept",
+  "review": "The potter visibly works clay into a vessel; suitable for work and making."
+ },
+ {
+  "id": "verb-poiei",
+  "source": "kerameus",
+  "role": "concept",
+  "review": "The potter visibly works clay into a vessel; suitable for work and making."
+ },
+ {
+  "id": "verb-kleptei",
+  "source": "panel-1-3-b",
+  "role": "concept",
+  "review": "The dog visibly steals bread from a market stall; clear theft action."
+ },
+ {
+  "id": "deipnon",
+  "source": "panel-2-1-c",
+  "role": "concept",
+  "review": "The family visibly eats bread around a table by lamplight: an evening meal."
+ },
+ {
+  "id": "verb-oikei",
+  "source": "panel-1-1-a",
+  "role": "concept",
+  "review": "A household couple stands outside their home; residence is illustrated in context."
+ },
+ {
+  "id": "nyx",
+  "source": "selene",
+  "role": "concept",
+  "review": "Dark sky, stars and moon visibly establish night; quiz alternatives checked for collisions."
+ },
+ {
+  "id": "logos",
+  "source": "verb-legei",
+  "role": "concept",
+  "review": "Two men converse, with one visibly speaking and the other listening."
+ },
+ {
+  "id": "verb-gignetai",
+  "source": "hespera",
+  "role": "concept",
+  "review": "Sunset and darkening sky illustrate the specified phrase: night is coming."
+ },
+ {
+  "id": "verb-erchetai",
+  "source": "verb-bainei",
+  "role": "concept",
+  "review": "A man visibly walks along a road; coming/going is presented in a walking context."
+ },
+ {
+  "id": "agalma",
+  "source": "verb-histatai",
+  "role": "concept",
+  "review": "A freestanding ancient statue on a modern display base clearly illustrates statue; does not claim it depicts a goddess."
+ },
+ {
+  "id": "verb-hesteke",
+  "source": "aner",
+  "role": "concept",
+  "review": "A man stands still with both feet planted; no implied walking action."
+ },
+ {
+  "id": "neos",
+  "source": "pais",
+  "role": "concept",
+  "review": "A young boy clearly illustrates young; image caption identifies a boy, not an adult."
+ },
+ {
+  "id": "meter",
+  "source": "verb-philei",
+  "role": "concept",
+  "review": "A mother embraces her child. Parent/child relationship is explicit in the approved artwork."
+ },
+ {
+  "id": "teknon",
+  "source": "verb-philei",
+  "role": "concept",
+  "review": "A mother embraces her child. Parent/child relationship is explicit in the approved artwork."
+ },
+ {
+  "id": "pater",
+  "source": "panel-2-1-b",
+  "role": "concept",
+  "review": "Ariston and his son Lysis are together in the workshop. Quiz alternatives are checked before reuse."
+ },
+ {
+  "id": "asty",
+  "source": "polis",
+  "role": "concept",
+  "review": "The approved city panorama illustrates the town of Athens."
+ },
+ {
+  "id": "makros",
+  "source": "hodos",
+  "role": "concept",
+  "review": "The road visibly extends into the distance, supporting long in the road context."
+ },
+ {
+  "id": "deltos",
+  "source": "wax-tablet",
+  "role": "concept",
+  "review": "A writing tablet visibly bears Greek letters; caption describes the actual tablet."
+ },
+ {
+  "id": "gramma",
+  "source": "wax-tablet",
+  "role": "concept",
+  "review": "A writing tablet visibly bears Greek letters; caption describes the actual tablet."
+ },
+ {
+  "id": "didaskalos",
+  "source": "school-kylix",
+  "role": "concept",
+  "review": "The approved school cup depicts instruction; use its existing museum credit and factual caption."
+ },
+ {
+  "id": "verb-didaskei",
+  "source": "school-kylix",
+  "role": "concept",
+  "review": "The approved school cup depicts instruction; use its existing museum credit and factual caption."
+ },
+ {
+  "id": "myth-eune",
+  "source": "kline",
+  "role": "concept",
+  "review": "A couch with cushion and scroll illustrates the noun couch; no sleeping child is claimed."
+ },
+ {
+  "id": "peplos",
+  "source": "gyne",
+  "role": "concept",
+  "review": "The approved woman wears a shoulder-fastened peplos with overfold."
+ },
+ {
+  "id": "histos",
+  "source": "panel-1-4-a",
+  "role": "concept",
+  "review": "The upright loom, hanging weights and a woman weaving are visible; supports loom and knowing how to weave."
+ },
+ {
+  "id": "verb-epistatai",
+  "source": "panel-1-4-a",
+  "role": "concept",
+  "review": "The upright loom, hanging weights and a woman weaving are visible; supports loom and knowing how to weave."
+ },
+ {
+  "id": "verb-didosi",
+  "source": "doron",
+  "role": "concept",
+  "review": "Hands visibly offer a cup to another person; matches giving."
+ },
+ {
+  "id": "hist-kerameikos-wall",
+  "source": "culture-kerameikos",
+  "role": "exact",
+  "review": "The same Kerameikos gate/wall remains are the intended site in both records."
+ },
+ {
+  "id": "panel-2-2-a",
+  "source": "panel-1-2-a",
+  "role": "context",
+  "review": "Shared pottery-workshop setting. The image depicts Ariston and Syros at work; other characters and individual episode actions are not claimed."
+ },
+ {
+  "id": "panel-3-2-c",
+  "source": "panel-1-2-a",
+  "role": "context",
+  "review": "Shared pottery-workshop setting. The image depicts Ariston and Syros at work; other characters and individual episode actions are not claimed."
+ },
+ {
+  "id": "panel-6-2-a",
+  "source": "panel-1-2-a",
+  "role": "context",
+  "review": "Shared pottery-workshop setting. The image depicts Ariston and Syros at work; other characters and individual episode actions are not claimed."
+ },
+ {
+  "id": "panel-6-2-b",
+  "source": "panel-1-2-a",
+  "role": "context",
+  "review": "Shared pottery-workshop setting. The image depicts Ariston and Syros at work; other characters and individual episode actions are not claimed."
+ },
+ {
+  "id": "panel-10-3-a",
+  "source": "panel-1-2-a",
+  "role": "context",
+  "review": "Shared pottery-workshop setting. The image depicts Ariston and Syros at work; other characters and individual episode actions are not claimed."
+ },
+ {
+  "id": "panel-10-3-b",
+  "source": "panel-1-2-a",
+  "role": "context",
+  "review": "Shared pottery-workshop setting. The image depicts Ariston and Syros at work; other characters and individual episode actions are not claimed."
+ },
+ {
+  "id": "panel-10-3-c",
+  "source": "panel-1-2-a",
+  "role": "context",
+  "review": "Shared pottery-workshop setting. The image depicts Ariston and Syros at work; other characters and individual episode actions are not claimed."
+ },
+ {
+  "id": "pol-5-c",
+  "source": "panel-1-2-a",
+  "role": "context",
+  "review": "Shared pottery-workshop setting. The image depicts Ariston and Syros at work; other characters and individual episode actions are not claimed."
+ },
+ {
+  "id": "panel-2-2-b",
+  "source": "panel-1-4-b",
+  "role": "context",
+  "review": "Shared fountain scene with Elpis and her water jar; does not claim Thratta or other girls are depicted."
+ },
+ {
+  "id": "panel-2-2-c",
+  "source": "georgos",
+  "role": "context",
+  "review": "Shared agricultural setting with a ploughman and oxen. No boundary dispute or particular farmer is visually asserted."
+ },
+ {
+  "id": "panel-11-1-a",
+  "source": "georgos",
+  "role": "context",
+  "review": "Shared agricultural setting with a ploughman and oxen. No boundary dispute or particular farmer is visually asserted."
+ },
+ {
+  "id": "pol-3-c",
+  "source": "georgos",
+  "role": "context",
+  "review": "Shared agricultural setting with a ploughman and oxen. No boundary dispute or particular farmer is visually asserted."
+ },
+ {
+  "id": "panel-2-4-a",
+  "source": "panel-2-1-c",
+  "role": "context",
+  "review": "Shared household evening scene. Accurate image caption describes the family meal, not the episode-specific conversation or action."
+ },
+ {
+  "id": "panel-2-4-b",
+  "source": "panel-2-1-c",
+  "role": "context",
+  "review": "Shared household evening scene. Accurate image caption describes the family meal, not the episode-specific conversation or action."
+ },
+ {
+  "id": "panel-2-4-c",
+  "source": "panel-2-1-c",
+  "role": "context",
+  "review": "Shared household evening scene. Accurate image caption describes the family meal, not the episode-specific conversation or action."
+ },
+ {
+  "id": "panel-5-2-a",
+  "source": "panel-2-1-c",
+  "role": "context",
+  "review": "Shared household evening scene. Accurate image caption describes the family meal, not the episode-specific conversation or action."
+ },
+ {
+  "id": "panel-6-1-c",
+  "source": "panel-2-1-c",
+  "role": "context",
+  "review": "Shared household evening scene. Accurate image caption describes the family meal, not the episode-specific conversation or action."
+ },
+ {
+  "id": "panel-6-2-c",
+  "source": "panel-2-1-c",
+  "role": "context",
+  "review": "Shared household evening scene. Accurate image caption describes the family meal, not the episode-specific conversation or action."
+ },
+ {
+  "id": "panel-8-4-c",
+  "source": "panel-2-1-c",
+  "role": "context",
+  "review": "Shared household evening scene. Accurate image caption describes the family meal, not the episode-specific conversation or action."
+ },
+ {
+  "id": "panel-11-2-a",
+  "source": "panel-2-1-c",
+  "role": "context",
+  "review": "Shared household evening scene. Accurate image caption describes the family meal, not the episode-specific conversation or action."
+ },
+ {
+  "id": "panel-2-3-c",
+  "source": "verb-katheudei",
+  "role": "context",
+  "review": "Shared bedtime illustration; shows one sleeping child, not the full narrative cast."
+ },
+ {
+  "id": "panel-3-1-a",
+  "source": "verb-kalei",
+  "role": "context",
+  "review": "Shared household calling scene, without claiming a festival procession appears."
+ },
+ {
+  "id": "panel-3-2-a",
+  "source": "verb-legei",
+  "role": "context",
+  "review": "Shared conversation illustration. Caption identifies two men talking, without identifying them as the historical or fictional speakers in the passage."
+ },
+ {
+  "id": "panel-3-2-b",
+  "source": "verb-legei",
+  "role": "context",
+  "review": "Shared conversation illustration. Caption identifies two men talking, without identifying them as the historical or fictional speakers in the passage."
+ },
+ {
+  "id": "panel-12-2-b",
+  "source": "verb-legei",
+  "role": "context",
+  "review": "Shared conversation illustration. Caption identifies two men talking, without identifying them as the historical or fictional speakers in the passage."
+ },
+ {
+  "id": "panel-12-3-a",
+  "source": "verb-legei",
+  "role": "context",
+  "review": "Shared conversation illustration. Caption identifies two men talking, without identifying them as the historical or fictional speakers in the passage."
+ },
+ {
+  "id": "panel-12-3-b",
+  "source": "verb-legei",
+  "role": "context",
+  "review": "Shared conversation illustration. Caption identifies two men talking, without identifying them as the historical or fictional speakers in the passage."
+ },
+ {
+  "id": "panel-12-3-c",
+  "source": "verb-legei",
+  "role": "context",
+  "review": "Shared conversation illustration. Caption identifies two men talking, without identifying them as the historical or fictional speakers in the passage."
+ },
+ {
+  "id": "panel-12-4-a",
+  "source": "verb-legei",
+  "role": "context",
+  "review": "Shared conversation illustration. Caption identifies two men talking, without identifying them as the historical or fictional speakers in the passage."
+ },
+ {
+  "id": "panel-12-4-b",
+  "source": "verb-legei",
+  "role": "context",
+  "review": "Shared conversation illustration. Caption identifies two men talking, without identifying them as the historical or fictional speakers in the passage."
+ },
+ {
+  "id": "pol-1-b",
+  "source": "verb-legei",
+  "role": "context",
+  "review": "Shared conversation illustration. Caption identifies two men talking, without identifying them as the historical or fictional speakers in the passage."
+ },
+ {
+  "id": "panel-3-3-b",
+  "source": "selene",
+  "role": "context",
+  "review": "Shared night setting with moon and stars; the image is not a reconstruction of the search or street conversation."
+ },
+ {
+  "id": "panel-7-4-b",
+  "source": "selene",
+  "role": "context",
+  "review": "Shared night setting with moon and stars; the image is not a reconstruction of the search or street conversation."
+ },
+ {
+  "id": "panel-3-3-c",
+  "source": "panel-1-2-b",
+  "role": "context",
+  "review": "The existing illustration shows Labros asleep beside the kiln, the main subject of this paragraph. No lamp bearer is claimed."
+ },
+ {
+  "id": "panel-3-4-a",
+  "source": "polis",
+  "role": "context",
+  "review": "Shared Athenian city landscape with Acropolis; does not claim exact fortification routes, war damage or characters."
+ },
+ {
+  "id": "panel-3-4-c",
+  "source": "polis",
+  "role": "context",
+  "review": "Shared Athenian city landscape with Acropolis; does not claim exact fortification routes, war damage or characters."
+ },
+ {
+  "id": "panel-4-1-a",
+  "source": "polis",
+  "role": "context",
+  "review": "Shared Athenian city landscape with Acropolis; does not claim exact fortification routes, war damage or characters."
+ },
+ {
+  "id": "panel-4-1-b",
+  "source": "polis",
+  "role": "context",
+  "review": "Shared Athenian city landscape with Acropolis; does not claim exact fortification routes, war damage or characters."
+ },
+ {
+  "id": "panel-8-2-c",
+  "source": "polis",
+  "role": "context",
+  "review": "Shared Athenian city landscape with Acropolis; does not claim exact fortification routes, war damage or characters."
+ },
+ {
+  "id": "panel-8-3-c",
+  "source": "polis",
+  "role": "context",
+  "review": "Shared Athenian city landscape with Acropolis; does not claim exact fortification routes, war damage or characters."
+ },
+ {
+  "id": "panel-9-1-a",
+  "source": "polis",
+  "role": "context",
+  "review": "Shared Athenian city landscape with Acropolis; does not claim exact fortification routes, war damage or characters."
+ },
+ {
+  "id": "panel-3-4-b",
+  "source": "thea",
+  "role": "context",
+  "review": "Shared Athena illustration for the Acropolis visit. No procession or exact ancient statue reconstruction is claimed."
+ },
+ {
+  "id": "panel-5-1-a",
+  "source": "thea",
+  "role": "context",
+  "review": "Shared Athena illustration for the Acropolis visit. No procession or exact ancient statue reconstruction is claimed."
+ },
+ {
+  "id": "panel-4-2-a",
+  "source": "agora",
+  "role": "context",
+  "review": "Shared market setting. Does not claim the specific sale, price comparison, historical speaker or invisible characters appear."
+ },
+ {
+  "id": "panel-4-2-b",
+  "source": "agora",
+  "role": "context",
+  "review": "Shared market setting. Does not claim the specific sale, price comparison, historical speaker or invisible characters appear."
+ },
+ {
+  "id": "panel-4-2-c",
+  "source": "agora",
+  "role": "context",
+  "review": "Shared market setting. Does not claim the specific sale, price comparison, historical speaker or invisible characters appear."
+ },
+ {
+  "id": "panel-6-1-a",
+  "source": "agora",
+  "role": "context",
+  "review": "Shared market setting. Does not claim the specific sale, price comparison, historical speaker or invisible characters appear."
+ },
+ {
+  "id": "panel-6-1-b",
+  "source": "agora",
+  "role": "context",
+  "review": "Shared market setting. Does not claim the specific sale, price comparison, historical speaker or invisible characters appear."
+ },
+ {
+  "id": "panel-9-1-c",
+  "source": "agora",
+  "role": "context",
+  "review": "Shared market setting. Does not claim the specific sale, price comparison, historical speaker or invisible characters appear."
+ },
+ {
+  "id": "phil-panel-3-a",
+  "source": "agora",
+  "role": "context",
+  "review": "Shared market setting. Does not claim the specific sale, price comparison, historical speaker or invisible characters appear."
+ },
+ {
+  "id": "phil-panel-5-c",
+  "source": "agora",
+  "role": "context",
+  "review": "Shared market setting. Does not claim the specific sale, price comparison, historical speaker or invisible characters appear."
+ },
+ {
+  "id": "panel-4-3-a",
+  "source": "school-kylix",
+  "role": "context",
+  "review": "Shared ancient school artwork for the school lesson; the vase scene is not a portrait of Lysis or Syros."
+ },
+ {
+  "id": "panel-4-3-b",
+  "source": "school-kylix",
+  "role": "context",
+  "review": "Shared ancient school artwork for the school lesson; the vase scene is not a portrait of Lysis or Syros."
+ },
+ {
+  "id": "panel-4-3-c",
+  "source": "school-kylix",
+  "role": "context",
+  "review": "Shared ancient school artwork for the school lesson; the vase scene is not a portrait of Lysis or Syros."
+ },
+ {
+  "id": "panel-4-1-c",
+  "source": "nautes",
+  "role": "context",
+  "review": "Shared seamanship illustration. Shows a sailor aboard a vessel; does not claim it depicts a trireme, naval harbour or fleet."
+ },
+ {
+  "id": "panel-5-4-a",
+  "source": "panel-2-1-a",
+  "role": "context",
+  "review": "Shared mother-and-daughter bedside setting. Caption describes Chrysis beside Elpis on a couch, without claiming a doctor or diagnosis."
+ },
+ {
+  "id": "panel-5-4-b",
+  "source": "panel-2-1-a",
+  "role": "context",
+  "review": "Shared mother-and-daughter bedside setting. Caption describes Chrysis beside Elpis on a couch, without claiming a doctor or diagnosis."
+ },
+ {
+  "id": "panel-5-4-c",
+  "source": "panel-2-1-a",
+  "role": "context",
+  "review": "Shared mother-and-daughter bedside setting. Caption describes Chrysis beside Elpis on a couch, without claiming a doctor or diagnosis."
+ },
+ {
+  "id": "panel-6-3-a",
+  "source": "panel-1-4-a",
+  "role": "context",
+  "review": "Shared loom illustration for the weaving lesson. It depicts Chrysis weaving with Elpis nearby, not each individual learning step."
+ },
+ {
+  "id": "panel-6-3-b",
+  "source": "panel-1-4-a",
+  "role": "context",
+  "review": "Shared loom illustration for the weaving lesson. It depicts Chrysis weaving with Elpis nearby, not each individual learning step."
+ },
+ {
+  "id": "panel-6-3-c",
+  "source": "panel-1-4-a",
+  "role": "context",
+  "review": "Shared loom illustration for the weaving lesson. It depicts Chrysis weaving with Elpis nearby, not each individual learning step."
+ },
+ {
+  "id": "panel-7-3-a",
+  "source": "culture-7-3-medea",
+  "role": "context",
+  "review": "Shared ancient depiction of Medea for the tragedy lesson; clearly a vase photograph, not a view of the theatre audience."
+ },
+ {
+  "id": "panel-7-3-b",
+  "source": "culture-7-3-medea",
+  "role": "context",
+  "review": "Shared ancient depiction of Medea for the tragedy lesson; clearly a vase photograph, not a view of the theatre audience."
+ },
+ {
+  "id": "panel-7-3-c",
+  "source": "culture-7-3-medea",
+  "role": "context",
+  "review": "Shared ancient depiction of Medea for the tragedy lesson; clearly a vase photograph, not a view of the theatre audience."
+ },
+ {
+  "id": "pol-2-a",
+  "source": "ostrakon",
+  "role": "context",
+  "review": "Shared ostrakon photograph illustrates ostracism through its surviving material evidence, not a staged historical event."
+ },
+ {
+  "id": "pol-2-b",
+  "source": "ostrakon",
+  "role": "context",
+  "review": "Shared ostrakon photograph illustrates ostracism through its surviving material evidence, not a staged historical event."
+ },
+ {
+  "id": "pol-2-c",
+  "source": "ostrakon",
+  "role": "context",
+  "review": "Shared ostrakon photograph illustrates ostracism through its surviving material evidence, not a staged historical event."
+ },
+ {
+  "id": "culture-prometheus-cup",
+  "source": "culture-prometheus-kylix",
+  "role": "exact",
+  "review": "Both records refer to the same Laconian cup with Atlas and Prometheus."
+ },
+ {
+  "id": "panel-2-3-a",
+  "source": "culture-prometheus-kylix",
+  "role": "context",
+  "review": "Shared ancient artwork illustrating the Prometheus myth; the factual caption identifies the bound Titan and Atlas, not the episode-specific action."
+ },
+ {
+  "id": "panel-2-3-b",
+  "source": "culture-prometheus-kylix",
+  "role": "context",
+  "review": "Shared ancient artwork illustrating the Prometheus myth; the factual caption identifies the bound Titan and Atlas, not the episode-specific action."
+ },
+ {
+  "id": "panel-6-4-a",
+  "source": "culture-prometheus-kylix",
+  "role": "context",
+  "review": "Shared ancient artwork illustrating the Prometheus myth; the factual caption identifies the bound Titan and Atlas, not the episode-specific action."
+ },
+ {
+  "id": "panel-6-4-b",
+  "source": "culture-prometheus-kylix",
+  "role": "context",
+  "review": "Shared ancient artwork illustrating the Prometheus myth; the factual caption identifies the bound Titan and Atlas, not the episode-specific action."
+ },
+ {
+  "id": "panel-6-4-c",
+  "source": "culture-prometheus-kylix",
+  "role": "context",
+  "review": "Shared ancient artwork illustrating the Prometheus myth; the factual caption identifies the bound Titan and Atlas, not the episode-specific action."
+ },
+ {
+  "id": "phil-panel-6-a",
+  "source": "phil-culture-7-david",
+  "role": "context",
+  "review": "Shared historical painting for the death-of-Socrates lessons. Caption explicitly identifies David and 1787; not presented as ancient evidence or an exact reconstruction."
+ },
+ {
+  "id": "phil-panel-6-b",
+  "source": "phil-culture-7-david",
+  "role": "context",
+  "review": "Shared historical painting for the death-of-Socrates lessons. Caption explicitly identifies David and 1787; not presented as ancient evidence or an exact reconstruction."
+ },
+ {
+  "id": "phil-panel-6-c",
+  "source": "phil-culture-7-david",
+  "role": "context",
+  "review": "Shared historical painting for the death-of-Socrates lessons. Caption explicitly identifies David and 1787; not presented as ancient evidence or an exact reconstruction."
+ },
+ {
+  "id": "phil-panel-7-a",
+  "source": "phil-culture-7-david",
+  "role": "context",
+  "review": "Shared historical painting for the death-of-Socrates lessons. Caption explicitly identifies David and 1787; not presented as ancient evidence or an exact reconstruction."
+ },
+ {
+  "id": "phil-panel-7-b",
+  "source": "phil-culture-7-david",
+  "role": "context",
+  "review": "Shared historical painting for the death-of-Socrates lessons. Caption explicitly identifies David and 1787; not presented as ancient evidence or an exact reconstruction."
+ },
+ {
+  "id": "phil-panel-7-c",
+  "source": "phil-culture-7-david",
+  "role": "context",
+  "review": "Shared historical painting for the death-of-Socrates lessons. Caption explicitly identifies David and 1787; not presented as ancient evidence or an exact reconstruction."
+ },
+ {
+  "id": "doule",
+  "source": "culture-hegeso-stele",
+  "role": "concept",
+  "review": "The relief depicts the female attendant holding the jewellery box; caption identifies the relief and both figures."
+ }
+]
