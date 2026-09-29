@@ -20,15 +20,19 @@ RUN curl -fsSL -o /usr/share/tesseract-ocr/5/tessdata/grc.traineddata \
 
 WORKDIR /app
 COPY pyproject.toml /app/pyproject.toml
-COPY app /app/app
 
 # CPU torch wheel first: the default PyPI wheel drags in ~3 GB of CUDA libraries
 # that a CPU host cannot use. MMS (transformers) is not installed: it is
 # rejected for Modern Greek phonology and disabled by default.
 RUN python -m pip install --upgrade pip \
     && python -m pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu \
-    && python -m pip install --no-cache-dir '.[kokoro]' \
+    && python -c "import tomllib; p=tomllib.load(open('pyproject.toml', 'rb'))['project']; print('\\n'.join(p['dependencies'] + p['optional-dependencies']['kokoro']))" > /tmp/runtime-requirements.txt \
+    && python -m pip install --no-cache-dir -r /tmp/runtime-requirements.txt \
     && python -c "import cv2, kokoro; print('cv2', cv2.__version__)"
+
+# Course content changes only invalidate these lightweight application layers.
+COPY app /app/app
+RUN python -m pip install --no-cache-dir --no-deps .
 
 # Railway/Fly/Render inject $PORT; default to 8000 locally.
 ENV PORT=8000 \

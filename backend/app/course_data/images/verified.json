@@ -180,13 +180,17 @@
   "title": "File:Leagros Group - ABV 362 36 - potter´s workshop - Aineas escaping from Troy - München AS 1717 - 03.jpg"
  },
  "culture-symposium-kylix": {
-  "credit": "Terracotta kylix (drinking cup) · Douris · The Metropolitan Museum of Art (Open Access)",
-  "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DT5480.jpg",
+  "credit": "Terracotta kylix (drinking cup) · Pistoxenos Painter · The Metropolitan Museum of Art (Open Access)",
+  "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP118164.jpg",
   "license": "CC0",
-  "ref": "255878",
+  "ref": "246647",
   "source": "met",
-  "source_url": "https://www.metmuseum.org/art/collection/search/255878",
-  "title": "Terracotta kylix (drinking cup)"
+  "source_url": "https://www.metmuseum.org/art/collection/search/246647",
+  "title": "Terracotta kylix (drinking cup)",
+  "id": "culture-symposium-kylix",
+  "match_text": "Kylix Vases Greek, Attic Classical Men Drinking",
+  "ok": true,
+  "reason": null
  },
  "despotes": {
   "credit": "Marble grave stele with a family group · Greek, Attic · The Metropolitan Museum of Art (Open Access)",
@@ -972,13 +976,17 @@
   "title": "Bronze statuette of a horse"
  },
  "pompe": {
-  "credit": "Terracotta lekythos (oil flask) · Amasis Painter · The Metropolitan Museum of Art (Open Access)",
-  "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP-32673-005.jpg",
-  "license": "CC0",
-  "ref": "254843",
-  "source": "met",
-  "source_url": "https://www.metmuseum.org/art/collection/search/254843",
-  "title": "Terracotta lekythos (oil flask)"
+  "credit": "Painting on wood panel of sacrificial procession from Pitsa (cave of the Charites) - Athen NAM 16464 · ArchaiOptix · Wikimedia Commons (CC BY-SA 4.0)",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Painting_on_wood_panel_of_sacrificial_procession_from_Pitsa_%28cave_of_the_Charites%29_-_Athen_NAM_16464.jpg/1920px-Painting_on_wood_panel_of_sacrificial_procession_from_Pitsa_%28cave_of_the_Charites%29_-_Athen_NAM_16464.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "ref": "File:Painting on wood panel of sacrificial procession from Pitsa (cave of the Charites) - Athen NAM 16464.jpg",
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Painting_on_wood_panel_of_sacrificial_procession_from_Pitsa_(cave_of_the_Charites)_-_Athen_NAM_16464.jpg",
+  "title": "File:Painting on wood panel of sacrificial procession from Pitsa (cave of the Charites) - Athen NAM 16464.jpg",
+  "id": "pompe",
+  "match_text": "Painting on wood panel of sacrificial procession from Pitsa (cave of the Charites) - Athen NAM 16464 - object type: tempera painting on wood panel (plaque)\n- description: sacrificial procession of a family, with name inscriptions in the corinthian alphabet: bearded man holding twigs, woman (EUTHYDIKA) holding twigs, woman (EUQOLIS), youth playing auloi, boy playing lyra, boy leading a lamb to sacrifice, woman ((ETH)ELONGCHA) carrying a tablet with offerings on her head, holding oinochoe, altar;\naround the upper and right rim: dedication-inscription to the Charites (Graces), by ... (Name of the dedicator or of the painter illegible) from Corinth: ... QORINTHIOS\n- period / date: ripe archaic, ca. 540-530 BC\n- findspot: Pitsa (near Sikyon), cult cave of the Charites, found together with 3 more fragments of painted dedicative wood panels\n- museum / inventory number: Athens, National Archaeological Museum 16464\n\n- Please note: The above museum permits photography of its exhibits for private, educational, scientific, non-commercial purposes. If you intend to use the photo for any commercial aime, please contact the museum and ask for permission. Pitsa Panel, NAMA 16464|Self-published work",
+  "ok": true,
+  "reason": null
  },
  "presbys": {
   "credit": "Terracotta statuette of an actor · Greek · The Metropolitan Museum of Art (Open Access)",
@@ -1027,7 +1035,7 @@
  },
  "stratiotes": {
   "credit": "Terracotta neck-amphora (jar) · Greek, Attic · The Metropolitan Museum of Art (Open Access)",
-  "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP-41983-001.jpg",
+  "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP-41983-002.jpg",
   "license": "CC0",
   "ref": "254342",
   "source": "met",
@@ -1648,5 +1656,57 @@
   "source": "met",
   "ref": "436105",
   "id": "phil-culture-7-david"
+ },
+ "aetos": {
+  "credit": "Golden eagle perched in a tree at Patuxent Reasearch Refuge. Work at the refuge was instrumental in linking DDt to the species' population loss (21949230989) · U. S. Fish and Wildlife Service - Northeast Region · Wikimedia Commons (CC BY 2.0)",
+  "id": "aetos",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Golden_eagle_perched_in_a_tree_at_Patuxent_Reasearch_Refuge._Work_at_the_refuge_was_instrumental_in_linking_DDt_to_the_species%27_population_loss_%2821949230989%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY 2.0",
+  "match_text": "Golden eagle perched in a tree at Patuxent Reasearch Refuge. Work at the refuge was instrumental in linking DDt to the species' population loss (21949230989) Golden eagle perched in a tree at Patuxent Reasearch Refuge. Work at the refuge was instrumental in linking DDt to the species' population loss PD US FWS|Photos uploaded from Flickr by Fæ using a script|Flickr images reviewed by FlickreviewR|Files with coordinates missing SDC location of creation|Files from the United States Fish and Wildlife Service Northeast Region Flickr stream|Aquila chrysaetos in the United States|Birds of Patuxent Research Refuge",
+  "ok": true,
+  "reason": null,
+  "ref": "File:Golden eagle perched in a tree at Patuxent Reasearch Refuge. Work at the refuge was instrumental in linking DDt to the species' population loss (21949230989).jpg",
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Golden_eagle_perched_in_a_tree_at_Patuxent_Reasearch_Refuge._Work_at_the_refuge_was_instrumental_in_linking_DDt_to_the_species%27_population_loss_(21949230989).jpg",
+  "title": "File:Golden eagle perched in a tree at Patuxent Reasearch Refuge. Work at the refuge was instrumental in linking DDt to the species' population loss (21949230989).jpg"
+ },
+ "bomos": {
+  "credit": "Terracotta bell-krater (bowl for mixing wine and water) · Nikias Painter · The Metropolitan Museum of Art (Open Access)",
+  "id": "bomos",
+  "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP114770.jpg",
+  "license": "CC0",
+  "match_text": "Bell-krater Vases Greek, Attic Classical Altars Men",
+  "ok": true,
+  "reason": null,
+  "ref": "254171",
+  "source": "met",
+  "source_url": "https://www.metmuseum.org/art/collection/search/254171",
+  "title": "Terracotta bell-krater (bowl for mixing wine and water)"
+ },
+ "elaia": {
+  "credit": "Olive tree (Olea europaea) branch with immature olives, Praça João do Rio, Lisbon, Portugal julesvernex2 · Jules Verne Times Two · Wikimedia Commons (CC BY-SA 4.0)",
+  "id": "elaia",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Olive_tree_%28Olea_europaea%29_branch_with_immature_olives%2C_Pra%C3%A7a_Jo%C3%A3o_do_Rio%2C_Lisbon%2C_Portugal_julesvernex2.jpg/1920px-Olive_tree_%28Olea_europaea%29_branch_with_immature_olives%2C_Pra%C3%A7a_Jo%C3%A3o_do_Rio%2C_Lisbon%2C_Portugal_julesvernex2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "match_text": "Olive tree (Olea europaea) branch with immature olives, Praça João do Rio, Lisbon, Portugal julesvernex2 Olive tree (Olea europaea) branch with immature olives, Praça João do Rio, Lisbon, Portugal Taken with Fujifilm X-T3|Jardim da Praça João do Rio|Olive branches|Olea europaea in Portugal|Uploaded with LrMediaWiki|Files with coordinates missing SDC location of creation|Images by User:Julesvernex2|Portugal images by Julesvernex2|PPL1 images by Julesvernex2|Nature images by Julesvernex2|Jupiter-11 135mm f4 (M39-mount) images by Julesvernex2",
+  "ok": true,
+  "reason": null,
+  "ref": "File:Olive tree (Olea europaea) branch with immature olives, Praça João do Rio, Lisbon, Portugal julesvernex2.jpg",
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Olive_tree_(Olea_europaea)_branch_with_immature_olives,_Pra%C3%A7a_Jo%C3%A3o_do_Rio,_Lisbon,_Portugal_julesvernex2.jpg",
+  "title": "File:Olive tree (Olea europaea) branch with immature olives, Praça João do Rio, Lisbon, Portugal julesvernex2.jpg"
+ },
+ "naos": {
+  "credit": "Temple of Hephaestus from ancient agora Athens · Jebulon · Wikimedia Commons (CC0)",
+  "id": "naos",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Temple_of_Hephaestus_from_ancient_agora_Athens.jpg/1920px-Temple_of_Hephaestus_from_ancient_agora_Athens.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC0",
+  "match_text": "Temple of Hephaestus from ancient agora Athens The temple of Hephaestus, as seen from the Ancient Agora, Athens, Greece. CC-Zero|Self-published work|Greece photographs taken on 2015-10-26|Files with coordinates missing SDC location of creation|Views of the Temple of Hephaestus from the Agora",
+  "ok": true,
+  "reason": null,
+  "ref": "File:Temple of Hephaestus from ancient agora Athens.jpg",
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Temple_of_Hephaestus_from_ancient_agora_Athens.jpg",
+  "title": "File:Temple of Hephaestus from ancient agora Athens.jpg"
  }
 }

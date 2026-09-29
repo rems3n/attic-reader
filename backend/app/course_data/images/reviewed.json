@@ -126,5 +126,47 @@
   "ref": "436105",
   "note": "Viewed full-size and checked source identification. The Death of Socrates by Jacques-Louis David, 1787. A later artistic interpretation of Socrates reaching for the cup among his companions.",
   "sha256": "ed328c04597a9c2ad7fd7386c8b6175e54d1d85d35634b6e508c67af1abefa4b"
+ },
+ "aetos": {
+  "note": "Viewed selected image and checked source identification. Modern wildlife photograph of a golden eagle perched in a tree.",
+  "ref": "File:Golden eagle perched in a tree at Patuxent Reasearch Refuge. Work at the refuge was instrumental in linking DDt to the species' population loss (21949230989).jpg",
+  "sha256": "5c6b2bb246df564738ddeb52b554ba9eef227a611a3feedff2526dc2b70265ba",
+  "source": "commons"
+ },
+ "bomos": {
+  "note": "Viewed selected image and checked source identification. Attic red-figure bell-krater attributed to the Nikias Painter, late fifth century BCE: attendants bring skewers, a tray and a basket to an altar stacked with wood.",
+  "ref": "254171",
+  "sha256": "e8bd040d79df915f814110db30a1681d1086fd329535224c8c926a4a61383388",
+  "source": "met"
+ },
+ "culture-symposium-kylix": {
+  "note": "Viewed selected image and checked source identification. Exterior of an Attic red-figure drinking cup in the manner of the Pistoxenos Painter, about 480–470 BCE: reclining symposiasts, cups and musicians.",
+  "ref": "246647",
+  "sha256": "705c73ec5ced5043dc4e061b1e0014e16afda5119416d81dc7105be9f0d5486a",
+  "source": "met"
+ },
+ "elaia": {
+  "note": "Viewed selected image and checked source identification. Modern photograph of an olive branch with green olives and narrow leaves.",
+  "ref": "File:Olive tree (Olea europaea) branch with immature olives, Praça João do Rio, Lisbon, Portugal julesvernex2.jpg",
+  "sha256": "4d89a57588b4f947c30394b80e7475acdb9b78ddc671ca2b597c4531a89652d0",
+  "source": "commons"
+ },
+ "naos": {
+  "note": "Viewed selected image and checked source identification. Modern photograph of the Temple of Hephaestus in the ancient Agora of Athens.",
+  "ref": "File:Temple of Hephaestus from ancient agora Athens.jpg",
+  "sha256": "4f310f21780435e040e5a14c16265422bd2a93511741ca479396cc09cf4e95d1",
+  "source": "commons"
+ },
+ "pompe": {
+  "note": "Viewed selected image and checked source identification. Painted wooden panel from Pitsa, Corinthia, about 540–530 BCE: a sacrificial procession with musicians, a lamb and offerings.",
+  "ref": "File:Painting on wood panel of sacrificial procession from Pitsa (cave of the Charites) - Athen NAM 16464.jpg",
+  "sha256": "d8a5488ae05c8c0d093f07b72de16f4c5b5ba9ffbd553a20cc88e0f2e35de498",
+  "source": "commons"
+ },
+ "stratiotes": {
+  "note": "Viewed selected image and checked source identification. Reverse of an Attic black-figure neck-amphora, last quarter of the sixth century BCE: a departing hoplite with helmet, round shield and spear, accompanied by an archer.",
+  "ref": "254342",
+  "sha256": "980a13c803295fc9594caa0f72f5db55d4ae050a350b5b4474044a27c3bd4e44",
+  "source": "met"
  }
 }
