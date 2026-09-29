@@ -751,15 +751,23 @@ def main() -> None:
     if args.command == "report":
         cmd_inventory(read_sources())
         sys.exit(cmd_report(rows))
+    # Candidate operations must not overwrite a published, reviewed image or
+    # its selected museum view. This applies to individual steps and recovery,
+    # not only the full pipeline. Remove the published file before replacing it.
+    records = manifest_records()
+    pending = []
+    for row in rows:
+        image = records.get(row["id"], (None, {}))[1]
+        if image.get("file") and image.get("license") != "placeholder" and (ROOT.parent / "frontend/public" / image["file"]).is_file():
+            continue
+        pending.append(row)
+    rows = pending
     steps = {"recover": lambda: cmd_recover(rows), "resolve": lambda: cmd_resolve(rows, not args.no_fallback), "verify": lambda: cmd_verify(rows), "fetch": lambda: cmd_fetch(rows), "process": lambda: cmd_process(rows, not args.no_grade), "manifest": lambda: cmd_manifest(rows)}
     names = ("resolve", "verify", "fetch", "process", "manifest") if args.command == "all" else (args.command,)
     rc = 0
     try:
         if args.command == "all":
             for row in rows:
-                image = manifest_records().get(row["id"], (None, {}))[1]
-                if image.get("file") and image.get("license") != "placeholder" and (ROOT.parent / "frontend/public" / image["file"]).is_file():
-                    continue
                 print(f"\n== {row['id']}", flush=True)
                 for action in (lambda: cmd_resolve([row], not args.no_fallback),
                                lambda: cmd_verify([row]), lambda: cmd_fetch([row]),

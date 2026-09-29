@@ -266,3 +266,36 @@ def test_shared_images_retain_brief_and_match_reviewed_source():
         assert image['reuse']['sha256'] == hashlib.sha256(path.read_bytes()).hexdigest()
         if mapping['role'] == 'context':
             assert image['alt_grc'] == source['alt_grc']
+
+
+@pytest.mark.parametrize('command', ['verify', 'fetch', 'process', 'manifest', 'recover', 'all'])
+def test_candidate_cli_preserves_published_photo_and_selected_view(tmp_path, monkeypatch, command):
+    root = tmp_path / 'backend'
+    data = root / 'images'
+    out = tmp_path / 'frontend/public/course/pics'
+    data.mkdir(parents=True)
+    out.mkdir(parents=True)
+    for key, value in {'ROOT': root, 'DATA': data, 'OUT_DIR': out,
+                       'VERIFIED': data / 'verified.json', 'RESOLVED': data / 'resolved.json',
+                       'FAILURES': data / 'failures.json', 'CACHE': tmp_path / 'cache', '_failed': {}}.items():
+        monkeypatch.setattr(bi, key, value)
+    selected = {'source': 'met', 'ref': '123', 'license': 'CC0',
+                'image_url': 'https://example.org/reviewed-reverse.jpg'}
+    record = {'id': 'soldier', 'file': 'course/pics/soldier.webp', 'license': 'CC0'}
+    bi.save_json(data / 'manifest.json', {'images': [record]})
+    bi.save_json(bi.VERIFIED, {'soldier': selected})
+    image = out / 'soldier.webp'
+    image.write_bytes(b'reviewed reverse view')
+    rows = [{'id': 'soldier', 'source': 'met', 'ref': 'old-candidate'}]
+    monkeypatch.setattr(bi, 'read_sources', lambda *args: rows)
+    def unexpected(*args, **kwargs):
+        pytest.fail('Published image must not enter candidate processing')
+    monkeypatch.setattr(bi, 'VERIFIERS', {'met': unexpected})
+    monkeypatch.setattr(bi, 'http_bytes', unexpected)
+    monkeypatch.setattr(bi.sys, 'argv', ['build_images.py', command, '--only', 'soldier'])
+    with pytest.raises(SystemExit) as exc:
+        bi.main()
+    assert exc.value.code == 0
+    assert image.read_bytes() == b'reviewed reverse view'
+    assert bi.load_json(bi.VERIFIED, {})['soldier'] == selected
+    assert bi.load_json(data / 'manifest.json', {})['images'] == [record]
