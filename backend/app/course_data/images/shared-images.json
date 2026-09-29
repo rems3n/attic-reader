@@ -646,5 +646,53 @@
   "source": "culture-hegeso-stele",
   "role": "concept",
   "review": "The relief depicts the female attendant holding the jewellery box; caption identifies the relief and both figures."
+ },
+ {
+  "id": "heorte",
+  "review": "The musicians, offerings and sacrificial procession illustrate a religious festival.",
+  "role": "concept",
+  "source": "pompe"
+ },
+ {
+  "id": "panel-3-1-b",
+  "review": "Ancient evidence for a sacrificial procession; not a depiction of the Kerameikos, Skira or the named characters.",
+  "role": "context",
+  "source": "pompe"
+ },
+ {
+  "id": "panel-7-1-b",
+  "review": "Ancient procession context; this Pitsa panel depicts a lamb, not the story’s Dionysia bulls.",
+  "role": "context",
+  "source": "pompe"
+ },
+ {
+  "id": "verb-thyei",
+  "review": "The vase shows attendants preparing an offering at an altar; no named priest is asserted.",
+  "role": "concept",
+  "source": "bomos"
+ },
+ {
+  "id": "panel-3-1-c",
+  "review": "Ancient visual evidence for sacrifice at an altar, not the story’s specific spectators.",
+  "role": "context",
+  "source": "bomos"
+ },
+ {
+  "id": "panel-5-1-b",
+  "review": "Ancient altar and sacrificial-offering context; not an illustration of Athena’s altar or Elpis.",
+  "role": "context",
+  "source": "bomos"
+ },
+ {
+  "id": "culture-5-1-sacrifice",
+  "review": "Museum-identified sacrificial altar scene with skewers; actual date and vessel attribution supplied in caption.",
+  "role": "exact",
+  "source": "bomos"
+ },
+ {
+  "id": "myth-aspis",
+  "review": "The central warrior’s large round shield is clearly visible.",
+  "role": "concept",
+  "source": "stratiotes"
  }
 ]

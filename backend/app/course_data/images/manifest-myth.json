@@ -49,15 +49,23 @@
   {
    "id": "myth-aspis",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/stratiotes.webp",
    "alt_grc": "ἡ ἀσπίς",
-   "alt_en": "A round hoplite shield (bronze shield facing or a vase painting of a warrior's shield).",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "Reverse of an Attic black-figure neck-amphora, last quarter of the sixth century BCE: a departing hoplite with helmet, round shield and spear, accompanied by an archer.",
+   "credit": "Terracotta neck-amphora (jar) · Greek, Attic · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/254342",
    "words": [
     "ἀσπίς"
-   ]
+   ],
+   "original_alt_grc": "ἡ ἀσπίς",
+   "original_brief": "A round hoplite shield (bronze shield facing or a vase painting of a warrior's shield).",
+   "reuse": {
+    "review": "The central warrior’s large round shield is clearly visible.",
+    "role": "concept",
+    "sha256": "980a13c803295fc9594caa0f72f5db55d4ae050a350b5b4474044a27c3bd4e44",
+    "source_id": "stratiotes"
+   }
   },
   {
    "id": "myth-dory",

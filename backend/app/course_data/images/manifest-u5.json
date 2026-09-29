@@ -22,13 +22,21 @@
   {
    "id": "panel-5-1-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ ἱερεὺς πρὸς τῷ βωμῷ τὴν αἶγα θύει.",
-   "alt_en": "The priest at the great altar of Athena with the goat; smoke rises; Elpis looks away",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/bomos.webp",
+   "alt_grc": "βωμός",
+   "alt_en": "Attic red-figure bell-krater attributed to the Nikias Painter, late fifth century BCE: attendants bring skewers, a tray and a basket to an altar stacked with wood.",
+   "credit": "Terracotta bell-krater (bowl for mixing wine and water) · Nikias Painter · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/254171",
+   "words": [],
+   "original_alt_grc": "ὁ ἱερεὺς πρὸς τῷ βωμῷ τὴν αἶγα θύει.",
+   "original_brief": "The priest at the great altar of Athena with the goat; smoke rises; Elpis looks away",
+   "reuse": {
+    "review": "Ancient altar and sacrificial-offering context; not an illustration of Athena’s altar or Elpis.",
+    "role": "context",
+    "sha256": "e8bd040d79df915f814110db30a1681d1086fd329535224c8c926a4a61383388",
+    "source_id": "bomos"
+   }
   },
   {
    "id": "panel-5-1-c",
@@ -175,13 +183,21 @@
   {
    "id": "culture-5-1-sacrifice",
    "kind": "culture",
-   "file": null,
+   "file": "course/pics/bomos.webp",
    "alt_grc": "θυσία ἐπὶ βωμοῦ",
-   "alt_en": "Sacrifice at an altar: youths roasting spits over the altar fire, Attic red-figure bell krater, c. 430 BC",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "alt_en": "Attic red-figure bell-krater attributed to the Nikias Painter, late fifth century BCE: attendants bring skewers, a tray and a basket to an altar stacked with wood.",
+   "credit": "Terracotta bell-krater (bowl for mixing wine and water) · Nikias Painter · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/254171",
+   "words": [],
+   "original_alt_grc": "θυσία ἐπὶ βωμοῦ",
+   "original_brief": "Sacrifice at an altar: youths roasting spits over the altar fire, Attic red-figure bell krater, c. 430 BC",
+   "reuse": {
+    "review": "Museum-identified sacrificial altar scene with skewers; actual date and vessel attribution supplied in caption.",
+    "role": "exact",
+    "sha256": "e8bd040d79df915f814110db30a1681d1086fd329535224c8c926a4a61383388",
+    "source_id": "bomos"
+   }
   },
   {
    "id": "culture-5-2-salamis",

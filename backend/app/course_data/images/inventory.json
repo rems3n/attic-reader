@@ -1,10 +1,10 @@
 {
  "counts": {
   "diagram": 52,
-  "downloaded_needs_review": 95,
-  "needs_source_verification": 262,
+  "downloaded_needs_review": 88,
+  "needs_source_verification": 254,
   "no_source_row": 26,
-  "ready": 198
+  "ready": 213
  },
  "images": [
   {
@@ -557,16 +557,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "A round hoplite shield (bronze shield facing or a vase painting of a warrior's shield).",
+   "description": "Reverse of an Attic black-figure neck-amphora, last quarter of the sixth century BCE: a departing hoplite with helmet, round shield and spear, accompanied by an archer.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:bronze shield Greek hoplite|shield|Shield",
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/stratiotes.webp",
    "id": "myth-aspis",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A hoplite with his spear raised, from a red-figure vase.",
@@ -2613,16 +2613,16 @@
    "status": "ready"
   },
   {
-   "description": "An eagle",
+   "description": "Modern wildlife photograph of a golden eagle perched in a tree.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:eagle|eagle",
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/aetos.webp",
    "id": "aetos",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Labros stealing a loaf",
@@ -2709,16 +2709,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "Olives on a branch",
+   "description": "Modern photograph of an olive branch with green olives and narrow leaves.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Olea europaea olives branch|Olea|olive",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/elaia.webp",
    "id": "elaia",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A round of cheese",
@@ -2829,16 +2829,16 @@
    "status": "ready"
   },
   {
-   "description": "Red-figure kylix interior: a reclining drinker with a cup; a small table with food",
+   "description": "Exterior of an Attic red-figure drinking cup in the manner of the Pistoxenos Painter, about 480–470 BCE: reclining symposiasts, cups and musicians.",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta kylix symposium reveler|kylix",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/culture-symposium-kylix.webp",
    "id": "culture-symposium-kylix",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Two balanced pans: σὺ μέν on one side, ἐγὼ δέ on the other",
@@ -2874,28 +2874,28 @@
    "status": "ready"
   },
   {
-   "description": "The procession passing through the Kerameikos: a priest with a wreath, a priestess under a white sunshade, guards, girls carrying wreaths; Labros barking at a guard",
+   "description": "Painted wooden panel from Pitsa, Corinthia, about 540–530 BCE: a sacrificial procession with musicians, a lamb and offerings.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Parthenon frieze Acropolis Museum procession|frieze|Parthenon",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/pompe.webp",
    "id": "panel-3-1-b",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "The sacrifice at the altar in the sanctuary; old men, women and children watching",
+   "description": "Attic red-figure bell-krater attributed to the Nikias Painter, late fifth century BCE: attendants bring skewers, a tray and a basket to an altar stacked with wood.",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta bell-krater sacrifice altar|krater",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/bomos.webp",
    "id": "panel-3-1-c",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Someone speaking",
@@ -3006,28 +3006,28 @@
    "status": "ready"
   },
   {
-   "description": "A festival: garlanded people around an altar with music",
+   "description": "Painted wooden panel from Pitsa, Corinthia, about 540–530 BCE: a sacrificial procession with musicians, a lamb and offerings.",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta krater aulos player altar|krater",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/pompe.webp",
    "id": "heorte",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
-   "description": "A procession walking in a line",
+   "description": "Painted wooden panel from Pitsa, Corinthia, about 540–530 BCE: a sacrificial procession with musicians, a lamb and offerings.",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:Amasis Painter lekythos wedding procession|lekythos",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/pompe.webp",
    "id": "pompe",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A guard with a spear",
@@ -3066,16 +3066,16 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "A stone altar with fire on it",
+   "description": "Attic red-figure bell-krater attributed to the Nikias Painter, late fifth century BCE: attendants bring skewers, a tray and a basket to an altar stacked with wood.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:altar Ancient Agora Athens|altar|Altar",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/bomos.webp",
    "id": "bomos",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A wreath of leaves",
@@ -3092,16 +3092,16 @@
    "status": "ready"
   },
   {
-   "description": "A priest sacrificing at an altar",
+   "description": "Attic red-figure bell-krater attributed to the Nikias Painter, late fifth century BCE: attendants bring skewers, a tray and a basket to an altar stacked with wood.",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta sacrifice altar|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/bomos.webp",
    "id": "verb-thyei",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Someone leading others by walking in front",
@@ -3375,16 +3375,16 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "A Greek temple with columns",
+   "description": "Modern photograph of the Temple of Hephaestus in the ancient Agora of Athens.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Temple of Hephaestus Athens|Hephaist",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/naos.webp",
    "id": "naos",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A gateway in a wall",
@@ -3710,16 +3710,16 @@
    "status": "ready"
   },
   {
-   "description": "A hoplite soldier with shield and spear",
+   "description": "Reverse of an Attic black-figure neck-amphora, last quarter of the sixth century BCE: a departing hoplite with helmet, round shield and spear, accompanied by an archer.",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta hoplite shield spear|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/stratiotes.webp",
    "id": "stratiotes",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Someone walking in front, leading the way",
@@ -4177,16 +4177,16 @@
    "status": "ready"
   },
   {
-   "description": "The priest at the great altar of Athena with the goat; smoke rises; Elpis looks away",
+   "description": "Attic red-figure bell-krater attributed to the Nikias Painter, late fifth century BCE: attendants bring skewers, a tray and a basket to an altar stacked with wood.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:terracotta krater sacrifice goat altar|krater",
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/bomos.webp",
    "id": "panel-5-1-b",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "The family eating the sacrificial meat; Labros running off with a piece, Lysis chasing",
@@ -4309,16 +4309,16 @@
    "status": "ready"
   },
   {
-   "description": "Sacrifice at an altar: youths roasting spits over the altar fire, Attic red-figure bell krater, c. 430 BC",
+   "description": "Attic red-figure bell-krater attributed to the Nikias Painter, late fifth century BCE: attendants bring skewers, a tray and a basket to an altar stacked with wood.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:bell krater sacrifice splanchna|krater",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/bomos.webp",
    "id": "culture-5-1-sacrifice",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "The Lenormant relief: rowers of an Athenian trireme, Acropolis, c. 410 BC",
@@ -5291,16 +5291,16 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "The procession of the City Dionysia passes through the agora: a girl carrying a golden basket, young men leading garlanded bulls, men with loaves and wineskins; the family watches from the side of the road.",
+   "description": "Painted wooden panel from Pitsa, Corinthia, about 540–530 BCE: a sacrificial procession with musicians, a lamb and offerings.",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta bull sacrifice procession|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos|loutrophoros",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/pompe.webp",
    "id": "panel-7-1-b",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Young men carry the old wooden image of Dionysus into the theatre on the south slope of the Acropolis; priests walk around it. Lysis and Elpis point.",

@@ -22,24 +22,40 @@
   {
    "id": "panel-3-1-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ ἱερεὺς τὴν πομπὴν ἄγει.",
-   "alt_en": "The procession passing through the Kerameikos: a priest with a wreath, a priestess under a white sunshade, guards, girls carrying wreaths; Labros barking at a guard",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/pompe.webp",
+   "alt_grc": "πομπή",
+   "alt_en": "Painted wooden panel from Pitsa, Corinthia, about 540–530 BCE: a sacrificial procession with musicians, a lamb and offerings.",
+   "credit": "Painting on wood panel of sacrificial procession from Pitsa (cave of the Charites) - Athen NAM 16464 · ArchaiOptix · Wikimedia Commons (CC BY-SA 4.0)",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Painting_on_wood_panel_of_sacrificial_procession_from_Pitsa_(cave_of_the_Charites)_-_Athen_NAM_16464.jpg",
+   "words": [],
+   "original_alt_grc": "ὁ ἱερεὺς τὴν πομπὴν ἄγει.",
+   "original_brief": "The procession passing through the Kerameikos: a priest with a wreath, a priestess under a white sunshade, guards, girls carrying wreaths; Labros barking at a guard",
+   "reuse": {
+    "review": "Ancient evidence for a sacrificial procession; not a depiction of the Kerameikos, Skira or the named characters.",
+    "role": "context",
+    "sha256": "d8a5488ae05c8c0d093f07b72de16f4c5b5ba9ffbd553a20cc88e0f2e35de498",
+    "source_id": "pompe"
+   }
   },
   {
    "id": "panel-3-1-c",
    "kind": "story",
-   "file": null,
-   "alt_grc": "ὁ ἱερεὺς τοῖς θεοῖς θύει.",
-   "alt_en": "The sacrifice at the altar in the sanctuary; old men, women and children watching",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/bomos.webp",
+   "alt_grc": "βωμός",
+   "alt_en": "Attic red-figure bell-krater attributed to the Nikias Painter, late fifth century BCE: attendants bring skewers, a tray and a basket to an altar stacked with wood.",
+   "credit": "Terracotta bell-krater (bowl for mixing wine and water) · Nikias Painter · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/254171",
+   "words": [],
+   "original_alt_grc": "ὁ ἱερεὺς τοῖς θεοῖς θύει.",
+   "original_brief": "The sacrifice at the altar in the sanctuary; old men, women and children watching",
+   "reuse": {
+    "review": "Ancient visual evidence for sacrifice at an altar, not the story’s specific spectators.",
+    "role": "context",
+    "sha256": "e8bd040d79df915f814110db30a1681d1086fd329535224c8c926a4a61383388",
+    "source_id": "bomos"
+   }
   },
   {
    "id": "panel-3-2-a",
@@ -207,28 +223,37 @@
   {
    "id": "heorte",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/pompe.webp",
    "alt_grc": "ἑορτή",
-   "alt_en": "A festival: garlanded people around an altar with music",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "Painted wooden panel from Pitsa, Corinthia, about 540–530 BCE: a sacrificial procession with musicians, a lamb and offerings.",
+   "credit": "Painting on wood panel of sacrificial procession from Pitsa (cave of the Charites) - Athen NAM 16464 · ArchaiOptix · Wikimedia Commons (CC BY-SA 4.0)",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Painting_on_wood_panel_of_sacrificial_procession_from_Pitsa_(cave_of_the_Charites)_-_Athen_NAM_16464.jpg",
    "words": [
     "ἑορτή"
-   ]
+   ],
+   "original_alt_grc": "ἑορτή",
+   "original_brief": "A festival: garlanded people around an altar with music",
+   "reuse": {
+    "review": "The musicians, offerings and sacrificial procession illustrate a religious festival.",
+    "role": "concept",
+    "sha256": "d8a5488ae05c8c0d093f07b72de16f4c5b5ba9ffbd553a20cc88e0f2e35de498",
+    "source_id": "pompe"
+   }
   },
   {
    "id": "pompe",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/pompe.webp",
    "alt_grc": "πομπή",
-   "alt_en": "A procession walking in a line",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "Painted wooden panel from Pitsa, Corinthia, about 540–530 BCE: a sacrificial procession with musicians, a lamb and offerings.",
+   "credit": "Painting on wood panel of sacrificial procession from Pitsa (cave of the Charites) - Athen NAM 16464 · ArchaiOptix · Wikimedia Commons (CC BY-SA 4.0)",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Painting_on_wood_panel_of_sacrificial_procession_from_Pitsa_(cave_of_the_Charites)_-_Athen_NAM_16464.jpg",
    "words": [
     "πομπή"
-   ]
+   ],
+   "original_brief": "A procession walking in a line"
   },
   {
    "id": "phylax",
@@ -272,15 +297,16 @@
   {
    "id": "bomos",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/bomos.webp",
    "alt_grc": "βωμός",
-   "alt_en": "A stone altar with fire on it",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "Attic red-figure bell-krater attributed to the Nikias Painter, late fifth century BCE: attendants bring skewers, a tray and a basket to an altar stacked with wood.",
+   "credit": "Terracotta bell-krater (bowl for mixing wine and water) · Nikias Painter · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/254171",
    "words": [
     "βωμός"
-   ]
+   ],
+   "original_brief": "A stone altar with fire on it"
   },
   {
    "id": "stephanos",
@@ -311,15 +337,23 @@
   {
    "id": "verb-thyei",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/bomos.webp",
    "alt_grc": "θύει",
-   "alt_en": "A priest sacrificing at an altar",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "Attic red-figure bell-krater attributed to the Nikias Painter, late fifth century BCE: attendants bring skewers, a tray and a basket to an altar stacked with wood.",
+   "credit": "Terracotta bell-krater (bowl for mixing wine and water) · Nikias Painter · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/254171",
    "words": [
     "θύω"
-   ]
+   ],
+   "original_alt_grc": "θύει",
+   "original_brief": "A priest sacrificing at an altar",
+   "reuse": {
+    "review": "The vase shows attendants preparing an offering at an altar; no named priest is asserted.",
+    "role": "concept",
+    "sha256": "e8bd040d79df915f814110db30a1681d1086fd329535224c8c926a4a61383388",
+    "source_id": "bomos"
+   }
   },
   {
    "id": "verb-agei",
@@ -648,15 +682,16 @@
   {
    "id": "naos",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/naos.webp",
    "alt_grc": "ναός",
-   "alt_en": "A Greek temple with columns",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "Modern photograph of the Temple of Hephaestus in the ancient Agora of Athens.",
+   "credit": "Temple of Hephaestus from ancient agora Athens · Jebulon · Wikimedia Commons (CC0)",
+   "license": "CC0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Temple_of_Hephaestus_from_ancient_agora_Athens.jpg",
    "words": [
     "ναός"
-   ]
+   ],
+   "original_brief": "A Greek temple with columns"
   },
   {
    "id": "pyle",

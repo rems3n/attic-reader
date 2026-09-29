@@ -14,13 +14,21 @@
   {
    "id": "panel-7-1-b",
    "kind": "story",
-   "file": null,
-   "alt_grc": "πολλοὶ ἄνθρωποι πάρεισιν ὡς τὴν πομπὴν ὀψόμενοι· οἱ νεανίαι τοὺς ταύρους ἄγουσιν.",
-   "alt_en": "The procession of the City Dionysia passes through the agora: a girl carrying a golden basket, young men leading garlanded bulls, men with loaves and wineskins; the family watches from the side of the road.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/pompe.webp",
+   "alt_grc": "πομπή",
+   "alt_en": "Painted wooden panel from Pitsa, Corinthia, about 540–530 BCE: a sacrificial procession with musicians, a lamb and offerings.",
+   "credit": "Painting on wood panel of sacrificial procession from Pitsa (cave of the Charites) - Athen NAM 16464 · ArchaiOptix · Wikimedia Commons (CC BY-SA 4.0)",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Painting_on_wood_panel_of_sacrificial_procession_from_Pitsa_(cave_of_the_Charites)_-_Athen_NAM_16464.jpg",
+   "words": [],
+   "original_alt_grc": "πολλοὶ ἄνθρωποι πάρεισιν ὡς τὴν πομπὴν ὀψόμενοι· οἱ νεανίαι τοὺς ταύρους ἄγουσιν.",
+   "original_brief": "The procession of the City Dionysia passes through the agora: a girl carrying a golden basket, young men leading garlanded bulls, men with loaves and wineskins; the family watches from the side of the road.",
+   "reuse": {
+    "review": "Ancient procession context; this Pitsa panel depicts a lamb, not the story’s Dionysia bulls.",
+    "role": "context",
+    "sha256": "d8a5488ae05c8c0d093f07b72de16f4c5b5ba9ffbd553a20cc88e0f2e35de498",
+    "source_id": "pompe"
+   }
   },
   {
    "id": "panel-7-1-c",

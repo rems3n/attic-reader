@@ -323,15 +323,16 @@
   {
    "id": "stratiotes",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/stratiotes.webp",
    "alt_grc": "ὁ στρατιώτης",
-   "alt_en": "A hoplite soldier with shield and spear",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "Reverse of an Attic black-figure neck-amphora, last quarter of the sixth century BCE: a departing hoplite with helmet, round shield and spear, accompanied by an archer.",
+   "credit": "Terracotta neck-amphora (jar) · Greek, Attic · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/254342",
    "words": [
     "στρατιώτης"
-   ]
+   ],
+   "original_brief": "A hoplite soldier with shield and spear"
   },
   {
    "id": "verb-hegeitai",
