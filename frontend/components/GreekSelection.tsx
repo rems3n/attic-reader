@@ -62,6 +62,7 @@ export default function GreekSelection() {
     const down = (event: PointerEvent) => {
       interacting = !!popup.current?.contains(event.target as Node);
       dragging = !interacting;
+      if (!interacting) dismissed = "";
     };
     const up = () => { dragging = false; schedule(); setTimeout(() => { interacting = false; }, 0); };
     const dismiss = () => {
@@ -70,13 +71,22 @@ export default function GreekSelection() {
       setPick(null);
     };
     const key = (event: KeyboardEvent) => { if (event.key === "Escape") dismiss(); };
-    const scroll = (event: Event) => { if (!(event.target instanceof Node) || !popup.current?.contains(event.target)) dismiss(); };
+    const scroll = (event: Event) => {
+      // Chrome can scroll/focus the page while making a native selection.
+      // Never mark a selection dismissed before its popup has even opened.
+      if (!popup.current || dragging) return;
+      if (!(event.target instanceof Node) || !popup.current.contains(event.target)) dismiss();
+    };
+    const released = (event: MouseEvent) => { if (dragging && event.buttons === 0) up(); };
     const close = () => dismiss();
     document.addEventListener("selectionchange", schedule);
     document.addEventListener("select", schedule, true);
-    document.addEventListener("pointerdown", down);
-    document.addEventListener("pointerup", up);
-    document.addEventListener("pointercancel", up);
+    window.addEventListener("pointerdown", down, true);
+    window.addEventListener("pointerup", up, true);
+    window.addEventListener("pointercancel", up, true);
+    window.addEventListener("mouseup", up, true);
+    window.addEventListener("mousemove", released, true);
+    window.addEventListener("blur", up);
     document.addEventListener("keydown", key);
     document.addEventListener("scroll", scroll, true);
     document.addEventListener("close-greek-definition", close);
@@ -85,9 +95,12 @@ export default function GreekSelection() {
       clearTimeout(timer);
       document.removeEventListener("selectionchange", schedule);
       document.removeEventListener("select", schedule, true);
-      document.removeEventListener("pointerdown", down);
-      document.removeEventListener("pointerup", up);
-      document.removeEventListener("pointercancel", up);
+      window.removeEventListener("pointerdown", down, true);
+      window.removeEventListener("pointerup", up, true);
+      window.removeEventListener("pointercancel", up, true);
+      window.removeEventListener("mouseup", up, true);
+      window.removeEventListener("mousemove", released, true);
+      window.removeEventListener("blur", up);
       document.removeEventListener("keydown", key);
       document.removeEventListener("scroll", scroll, true);
       document.removeEventListener("close-greek-definition", close);
