@@ -54,6 +54,9 @@ export default function GreekSelection() {
       }
       if (!text) { dismissed = ""; setPick(null); return; }
       if (!greek.test(text) || text === dismissed || !rect) { setPick(null); return; }
+      // A different selection ends the previous dismissal, including keyboard
+      // selections that do not start with a pointerdown event.
+      dismissed = "";
       const width = Math.min(340, window.innerWidth - 24);
       setPick({ text, context: context.slice(0, 4000), left: Math.max(12, Math.min(rect.left, window.innerWidth - width - 12)),
         top: Math.max(12, Math.min(rect.bottom + 12, window.innerHeight - 380)) });
