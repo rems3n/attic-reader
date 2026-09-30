@@ -14,12 +14,16 @@ with sync_playwright() as p:
         ctx = browser.new_context(viewport={'width': width, 'height': 844 if touch else 900}, has_touch=touch, is_mobile=touch)
         route_fonts(ctx)
         requests = []
+        cors = {'Access-Control-Allow-Origin': FRONT, 'Access-Control-Allow-Methods': 'POST, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type'}
         def translate(route):
+            if route.request.method == 'OPTIONS':
+                return route.fulfill(status=204, headers=cors)
             payload = route.request.post_data_json
             requests.append(payload)
-            route.fulfill(status=200, content_type='application/json', body=json.dumps({'translation': 'Translated selection: ' + payload['text'], 'source': 'ai'}))
+            route.fulfill(status=200, headers=cors, content_type='application/json', body=json.dumps({'translation': 'Translated selection: ' + payload['text'], 'source': 'ai'}))
         ctx.route('**/api/translate', translate)
         page = ctx.new_page()
+        page.on('console', lambda msg: print('BROWSER:', msg.text) if msg.type == 'error' else None)
         page.goto(FRONT + '/help')
         page.locator('main').evaluate("e => { const p = document.createElement('p'); p.id='selection-fixture'; p.lang='grc'; p.textContent='ἀνθρώπου λόγος ζζζζζ'; e.prepend(p); }")
         def select(start, end):
@@ -38,7 +42,7 @@ with sync_playwright() as p:
         select(15,20)
         expect(dialog.get_by_text('No definition found in the app’s dictionary.')).to_be_visible(timeout=30000)
         select(0,20)
-        expect(dialog.get_by_text('Translated selection: ἀνθρώπου λόγος ζζζζζ', exact=True)).to_be_visible(timeout=30000)
+        expect(dialog.locator('.greekPassageTranslation')).to_contain_text('Translated selection: ἀνθρώπου λόγος ζζζζζ', timeout=30000)
         expect(dialog.get_by_role('heading', name='Word definitions')).to_be_visible()
         translation_box = dialog.get_by_label('Translation', exact=True).bounding_box()
         definitions_box = dialog.get_by_role('heading', name='Word definitions').bounding_box()
@@ -55,12 +59,16 @@ with sync_playwright() as p:
         expect(dialog.get_by_role('link', name='ἄνθρωπος', exact=True)).to_be_visible(timeout=30000)
         # Provider failure keeps dictionary definitions usable and offers retry.
         ctx.unroute('**/api/translate')
-        ctx.route('**/api/translate', lambda route: route.fulfill(status=503, content_type='application/json', body=json.dumps({'detail': 'Translation unavailable.'})))
+        ctx.route('**/api/translate', lambda route: route.fulfill(status=204 if route.request.method == 'OPTIONS' else 503, headers=cors, content_type='application/json', body=json.dumps({'detail': 'Translation unavailable.'})))
         editor.fill('λόγος')
         editor.evaluate('e => {e.focus();e.setSelectionRange(0,5);e.dispatchEvent(new Event("select", {bubbles:true}));}')
         expect(dialog.get_by_text('Translation unavailable.', exact=True)).to_be_visible(timeout=30000)
         expect(dialog.get_by_role('link', name='λόγος', exact=True)).to_be_visible()
         expect(dialog.get_by_role('button', name='Retry translation')).to_be_visible()
+        ctx.unroute('**/api/translate')
+        ctx.route('**/api/translate', translate)
+        dialog.get_by_role('button', name='Retry translation').click()
+        expect(dialog.locator('.greekPassageTranslation')).to_contain_text('Translated selection: λόγος', timeout=30000)
         ctx.close()
     browser.close()
 print('E2E SELECTION PASSED')
