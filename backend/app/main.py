@@ -338,7 +338,7 @@ def analyze_text(request: AnalyzeRequest) -> dict[str, object]:
 
 @app.get("/api/lookup")
 def lookup_greek(text: str = "") -> dict[str, object]:
-    """Dictionary senses for a short selection, including ambiguous inflections."""
+    """Dictionary senses for selected Greek, including ambiguous inflections."""
     text = translation.validate_selection(text)
     from .course.normalize import tokens
     words = tokens(normalize_polytonic(text))
@@ -354,9 +354,18 @@ def lookup_greek(text: str = "") -> dict[str, object]:
     ]}
 
 
-class TranslationRequest(BaseModel):
+class SelectionRequest(BaseModel):
     text: str = Field(min_length=1, max_length=translation.MAX_CHARS)
+
+
+class TranslationRequest(SelectionRequest):
     context: str = Field(default="", max_length=translation.CONTEXT_CHARS)
+
+
+@app.post("/api/lookup")
+def lookup_greek_selection(request: SelectionRequest) -> dict[str, object]:
+    # POST avoids URL-length limits for long polytonic selections.
+    return lookup_greek(request.text)
 
 
 @app.post("/api/translate")

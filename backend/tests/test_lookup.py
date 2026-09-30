@@ -27,6 +27,6 @@ def test_selection_limits():
 
 
 def test_lookup_supports_a_passage_longer_than_twelve_words():
-    response = client.get('/api/lookup', params={'text': 'λόγος ' * 50})
+    response = client.post('/api/lookup', json={'text': 'ἀνθρώπου ' * 200})
     assert response.status_code == 200
     assert len(response.json()['words']) == 1
