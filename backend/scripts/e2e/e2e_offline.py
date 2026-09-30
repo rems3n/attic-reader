@@ -279,7 +279,7 @@ def run(front: str, api_base: str, procs: dict[str, subprocess.Popen]) -> int:
 
         # ---- 5a. course home from the precached shell + cached JSON
         page.goto(f"{front}/learn")
-        expect(page.locator("h1")).to_contain_text("Ἡ ὁδός σου", timeout=20000)
+        expect(page.locator("h1")).to_contain_text("Course syllabus", timeout=20000)
         expect(page.locator(".offlineBanner")).to_be_visible()
         page.screenshot(path=f"{SHOTS}/offline-03-course-offline.png", full_page=False)
         print("offline: /learn rendered")

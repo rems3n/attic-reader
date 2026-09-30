@@ -1028,3 +1028,23 @@ html { scroll-padding-top: 72px; }
 .greekPassageTranslation > p { white-space: pre-wrap; font-size: 16px; }
 .greekPassageTranslation > span { font-size: 12px; }
 .greekDefinition .greekWordHeading { font-size: 14px; margin: 14px 0 8px; }
+
+/* Syllabus remains readable and expandable before lessons are unlocked. */
+.syllabusOverview { margin-top: 24px; }
+.syllabusOverview dl { display: grid; gap: 16px; }
+.syllabusOverview dt { font-weight: 600; }
+.syllabusOverview dd { margin: 4px 0 0; line-height: 1.6; }
+.syllabusGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.syllabusUnit { padding: 20px; gap: 12px; }
+.syllabusUnit.locked, .syllabusUnit.planned { color: var(--ink); }
+.syllabusUnitTitle { margin: 0; font: 600 21px/1.35 "IBM Plex Sans", sans-serif; }
+.syllabusObjectives p { margin: 0 0 12px; font-size: 15px; line-height: 1.6; }
+.syllabusObjectives strong { display: block; margin-bottom: 3px; }
+.syllabusLessons { border-top: 1px solid var(--line); padding-top: 12px; }
+.syllabusLessons summary { cursor: pointer; font-weight: 600; min-height: 32px; }
+.syllabusLessons ol { padding-left: 20px; margin-bottom: 4px; }
+.syllabusLessons li { margin: 12px 0; font-size: 14px; line-height: 1.5; }
+.syllabusLessons li > span, .syllabusLessons li > a { display: block; margin-top: 4px; }
+.syllabusContinue { margin-top: auto; font-weight: 600; }
+.syllabusTrackSkills { font-size: 15px; line-height: 1.6; }
+@media (max-width: 700px) { .syllabusGrid { grid-template-columns: minmax(0, 1fr); } }

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { syllabus } from "../../lib/syllabus";
 import { useEffect, useMemo, useState } from "react";
 import { getCourse, getCourseImages } from "../../lib/api";
 import { familyMastery, weakSkills, type CourseIndex, type ImageRecord } from "../../lib/course";
@@ -49,12 +50,12 @@ export default function CourseHome() {
     <main className="shell courseHome">
       <section className="hero">
         <p className="eyebrow">ΜΑΘΗΜΑΤΑ · A COURSE IN CLASSICAL ATTIC</p>
-        <h1 lang="grc">Ἡ ὁδός σου</h1>
-        <p className="lede">Athens, 432 BC. Learn to read Xenophon and Plato through the story of a potter's family: pictures, audio, Greek questions and daily practice.</p>
+        <h1>Course syllabus</h1>
+        <p className="lede">Learn Classical Attic Greek from the alphabet to supported reading of original authors. See the grammar, vocabulary and reading skills covered in every unit, including units you have not unlocked yet.</p>
         <nav className="quickLinks" aria-label="Course pages">
           <ul>
-            <li><a href="#units">Units</a></li>
-            <li><a href="#tracks">Tracks</a></li>
+            <li><a href="#units">Unit syllabus</a></li>
+            <li><a href="#tracks">Reading specialisations</a></li>
             <li><Link href="/progress">Skills</Link></li>
             <li><Link href="/learn/placement">Placement test</Link></li>
             <li><Link href="/learn/credits">Image credits</Link></li>
@@ -115,32 +116,53 @@ export default function CourseHome() {
         {weak.length > 0 && <p className="muted small">Weakest: {weak.map(skillLabel).join(" · ")}</p>}
       </section>
 
+      <section className="card syllabusOverview" aria-labelledby="syllabus-overview">
+        <h2 id="syllabus-overview">What you will learn</h2>
+        <p><strong>13 units · 52 main-course lessons · 4 optional reading specialisations.</strong> Each specialisation has seven lessons.</p>
+        <dl>
+          <div><dt>Nouns and cases</dt><dd>Nominative (subject), accusative (object), genitive (possession and other relationships), dative (recipient, means and other uses), and vocative (direct address). Learn the three declensions: the main patterns of noun endings.</dd></div>
+          <div><dt>Verbs and sentence structure</dt><dd>Tense and aspect, active/middle/passive voice, commands, subjunctive and optative moods, participles, infinitives and subordinate clauses.</dd></div>
+          <div><dt>Vocabulary and reading</dt><dd>Learn words in context, recognise their inflected forms, practise recall and listen to Classical Attic audio. Progress from simple sentences to supported passages by Greek authors.</dd></div>
+        </dl>
+        <p className="muted small">The Athenian family story supplies reading practice; the syllabus below shows the language taught. Lesson vocabulary counts are entries studied, including review—not a count of unique words across the course.</p>
+      </section>
       <span id="units" className="anchorTarget" />
       {course.stages.map((stage) => (
         <section key={stage.id} className="stage" aria-labelledby={`stage-${stage.id}`}>
-          <h2 className="stageTitle" id={`stage-${stage.id}`}><span lang="grc">{stage.title_grc}</span> <span className="muted">· {stage.title_en}</span></h2>
-          <p className="muted stageBlurb">{stage.blurb}</p>
-          <div className="unitGrid">
+          <h2 className="stageTitle" id={`stage-${stage.id}`}>{syllabus.stages[stage.id as keyof typeof syllabus.stages]?.title ?? stage.title_en}</h2>
+          <p className="muted stageBlurb">{syllabus.stages[stage.id as keyof typeof syllabus.stages]?.description ?? stage.blurb}</p>
+          <div className="unitGrid syllabusGrid">
             {stage.units.map((unit) => {
+              const outline = syllabus.units[String(unit.n) as keyof typeof syllabus.units];
               const authored = unit.lessons.filter((l) => l.available);
               const gate = testGate(course, cp, unit, now);
               const doneHere = authored.filter((l) => cp.lessons[l.id]?.status === "done").length;
               const state = !authored.length ? "planned" : doneHere === authored.length ? "done" : authored.some((l) => lessonStatus(course, cp, l.id) !== "locked") ? "open" : "locked";
-              // the whole tile opens the unit's next lesson (or its first, once done)
+              // The explicit continue link opens the next lesson; the outline stays expandable.
               const target = state === "open" || state === "done" ? (authored.find((l) => !["done", "skipped", "locked"].includes(lessonStatus(course, cp, l.id))) ?? authored[0]) : null;
               return (
-                <div key={unit.id} id={`unit-${unit.n}`} className={`unitTile anchorTarget ${state} ${target ? "linked" : ""}`}>
+                <div key={unit.id} id={`unit-${unit.n}`} className={`unitTile anchorTarget ${state} syllabusUnit`}>
                   <span className="unitLabel">UNIT {unit.n}{state === "done" ? (cp.tests[unit.test ?? ""]?.passedAt ? ` · TEST ${Math.round((cp.tests[unit.test ?? ""].attempts.at(-1)?.score ?? 0) * 100)} %` : " · DONE") : state === "open" ? " · NOW" : state === "planned" ? " · PLANNED" : ""}</span>
-                  {target ? (
-                    <Link href={`/learn/lesson/${target.id}`} className="unitTitle unitLink" lang="grc" aria-describedby={`unit-sub-${unit.n}`}>
-                      {unit.title_grc}
-                      <span className="srOnly" lang="en">, unit {unit.n}: {state === "done" ? "review from lesson" : "continue with lesson"} {target.id}</span>
-                    </Link>
-                  ) : (
-                    <span className="unitTitle" lang="grc">{unit.title_grc}</span>
-                  )}
-                  <span className="unitSub" id={`unit-sub-${unit.n}`}>{unit.title_en}</span>
-                  {target && <span className="tileGo" aria-hidden="true">›</span>}
+                  <h3 className="syllabusUnitTitle">{outline?.title ?? unit.title_en}</h3>
+                  <span className="unitSub" id={`unit-sub-${unit.n}`}>Reading theme: {unit.title_en} <span lang="grc">· {unit.title_grc}</span></span>
+                  {outline && <div className="syllabusObjectives">
+                    <p><strong>Grammar and skills</strong>{outline.grammar}</p>
+                    <p><strong>Vocabulary</strong>{outline.vocabulary}</p>
+                  </div>}
+                  <details className="syllabusLessons">
+                    <summary>Lesson outline · {unit.lessons.length} lessons</summary>
+                    <ol>
+                      {unit.lessons.map((lesson, index) => {
+                        const status = lessonStatus(course, cp, lesson.id);
+                        return <li key={lesson.id}>
+                          <strong>{lesson.id} · {outline?.lessons[index] ?? lesson.title_en}</strong>
+                          <span>{lesson.title_en}{lesson.word_count != null ? ` · ${lesson.word_count} vocabulary entries` : ""}</span>
+                          {lesson.available && status !== "locked" ? <Link href={`/learn/lesson/${lesson.id}`}>Open lesson →</Link> : <span className="muted small">{lesson.available ? "Unlocks as you progress" : "Planned lesson"}</span>}
+                        </li>;
+                      })}
+                    </ol>
+                  </details>
+                  {target && <Link className="syllabusContinue" href={`/learn/lesson/${target.id}`}>{state === "done" ? "Review unit" : "Continue unit"} →</Link>}
                   <div className="lessonDots">
                     {unit.lessons.map((l) => {
                       const st = l.available ? lessonStatus(course, cp, l.id) : "locked";
@@ -164,9 +186,9 @@ export default function CourseHome() {
       ))}
 
       <section className="stage anchorTarget" id="tracks" aria-labelledby="tracks-title">
-        <h2 className="stageTitle" id="tracks-title"><span lang="grc">Ὁδοί</span> <span className="muted">· Tracks</span></h2>
-        <p className="muted stageBlurb">Real texts on the subject you like best. The first three lessons of each track open after Unit 9 as side readings, the rest after Unit 12. Do one, several or all four.</p>
-        <div className="unitGrid trackGrid">
+        <h2 className="stageTitle" id="tracks-title">Reading specialisations</h2>
+        <p className="muted stageBlurb">Apply the grammar you have learned to mythology, philosophy, history or civic life. These optional seven-lesson sequences develop subject vocabulary and author-specific reading skills using adapted and original texts. The first three lessons in each sequence open after Lesson 9.4; the remaining lessons open after Lesson 12.4. Choose one or more.</p>
+        <div className="unitGrid trackGrid syllabusGrid">
           {course.tracks.map((t) => {
             const ts = trackState(cp, t);
             const label = ts.state === "locked" ? `OPENS AFTER ${t.side_after}` : ts.state === "side" ? "SIDE READINGS OPEN" : ts.state === "done" ? "DONE" : "OPEN";
@@ -175,7 +197,8 @@ export default function CourseHome() {
                 <span className="unitLabel">{cp.track === t.id ? "YOUR TRACK · " : ""}{label}{ts.total ? ` · ${ts.done}/${ts.total}` : ""}</span>
                 <span className="unitTitle" lang="grc">{t.title_grc}</span>
                 <span className="unitSub">{t.title_en}</span>
-                <span className="muted small">{t.blurb}</span>
+                <span className="syllabusTrackSkills">{syllabus.tracks[t.id as keyof typeof syllabus.tracks]}</span>
+                <span className="muted small"><strong>Authors and texts: </strong>{t.blurb}</span>
                 <div className="lessonDots" aria-hidden="true">
                   {t.lessons.map((l) => <span key={l.id} className={`dot ${l.available ? lessonStatus(course, cp, l.id) : "locked planned"}`} />)}
                 </div>

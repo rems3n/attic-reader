@@ -121,7 +121,7 @@ def main() -> int:
 
         # ---- course home
         page.goto(f"{FRONT}/learn")
-        expect(page.locator("h1")).to_contain_text("Ἡ ὁδός σου")
+        expect(page.locator("h1")).to_contain_text("Course syllabus")
         expect(page.locator(".continueCard")).to_contain_text("START HERE")
         page.screenshot(path=f"{SHOTS}/01-home.png", full_page=True)
         print("home ok")
