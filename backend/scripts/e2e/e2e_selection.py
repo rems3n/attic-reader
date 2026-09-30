@@ -11,7 +11,9 @@ shots.mkdir(parents=True, exist_ok=True)
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=CHROME) if CHROME else p.chromium.launch()
     for label, width, touch in [('phone', 390, True), ('desktop', 1280, False)]:
-        ctx = browser.new_context(viewport={'width': width, 'height': 844 if touch else 900}, has_touch=touch, is_mobile=touch)
+        # Route mocks cannot intercept service-worker-owned requests. Offline
+        # behavior is verified separately by e2e_offline.py with workers enabled.
+        ctx = browser.new_context(viewport={'width': width, 'height': 844 if touch else 900}, has_touch=touch, is_mobile=touch, service_workers='block')
         route_fonts(ctx)
         requests = []
         cors = {'Access-Control-Allow-Origin': FRONT, 'Access-Control-Allow-Methods': 'POST, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type'}

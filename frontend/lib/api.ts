@@ -473,7 +473,12 @@ export type GreekLookup = { words: { text: string; matches: {
   id: string; lemma: string; definition: string; pos: string; source: string;
 }[] }[] };
 export async function lookupGreek(text: string, signal?: AbortSignal): Promise<GreekLookup> {
-  const response = await fetch(`${API_BASE}/api/lookup`, {
+  // Keep short lookups available through the existing offline GET cache.
+  // Long passages use a body to avoid URL limits for percent-encoded Greek.
+  const encoded = encodeURIComponent(text);
+  const response = encoded.length <= 1500
+    ? await fetch(`${API_BASE}/api/lookup?text=${encoded}`, { signal })
+    : await fetch(`${API_BASE}/api/lookup`, {
     method: "POST", headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ text }), signal,
   });
