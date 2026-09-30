@@ -137,7 +137,7 @@ export default function GreekSelection() {
     <header><strong id="greek-definition-title">English translation</strong>
       <button type="button" aria-label="Close translation" onClick={() => document.dispatchEvent(new Event("close-greek-definition"))}>×</button></header>
     <div className="greekDefinitionBody" aria-live="polite" aria-busy={!result && !error}>
-      <p className="greekSelectionText" lang="grc">{pick.text.length > 2000 ? `${pick.text.slice(0,2000)}…` : pick.text}</p>
+      <p className="greekSelectionText" lang="grc" title={pick.text}>{pick.text.length > 80 ? `${pick.text.slice(0,80)}…` : pick.text}</p>
       {pick.text.length <= 2000 && pick.text.split(/\s+/).length <= 200 && <section className="greekPassageTranslation" aria-label="Translation" aria-busy={!translation && !translationError}>
         {translation ? <><p>{translation}</p><span className="muted">AI translation</span></>
           : translationError ? <><p>{translationError}</p><button type="button" onClick={() => setRetry(n => n + 1)}>Retry translation</button></>
