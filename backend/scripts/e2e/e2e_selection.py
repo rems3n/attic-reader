@@ -30,8 +30,27 @@ with sync_playwright() as p:
         page.locator('main').evaluate("e => { const p = document.createElement('p'); p.id='selection-fixture'; p.lang='grc'; p.textContent='ἀνθρώπου λόγος ζζζζζ'; e.prepend(p); }")
         def select(start, end):
             page.evaluate("""([start,end]) => {const n=document.querySelector('#selection-fixture').firstChild;const r=document.createRange();r.setStart(n,start);r.setEnd(n,end);const s=window.getSelection();s.removeAllRanges();s.addRange(r);} """, [start,end])
-        select(0,8)
         dialog = page.get_by_role('dialog', name='English translation')
+        if not touch:
+            # Native cursor selection, including release swallowed by a child
+            # handler and selection-induced scrolling before the popup opens.
+            fixture = page.locator('#selection-fixture')
+            fixture.scroll_into_view_if_needed()
+            fixture.evaluate("e => e.addEventListener('pointerup', event => event.stopPropagation())")
+            points = fixture.evaluate("""e => {const r=document.createRange();r.setStart(e.firstChild,0);r.setEnd(e.firstChild,8);const b=r.getBoundingClientRect();return {x:b.x,y:b.y+b.height/2,right:b.right};}""")
+            for attempt in range(2):
+                page.mouse.move(points['x'] + 1, points['y'])
+                page.mouse.down()
+                page.mouse.move(points['right'] - 1, points['y'], steps=12)
+                page.evaluate("document.dispatchEvent(new Event('scroll'))")
+                page.mouse.up()
+                expect(dialog).to_be_visible(timeout=10000)
+                expect(dialog.get_by_role('link', name='ἄνθρωπος', exact=True)).to_be_visible(timeout=30000)
+                page.keyboard.press('Escape')
+                expect(dialog).not_to_be_visible()
+            select(9,14)
+            expect(dialog).to_be_visible()
+        select(0,8)
         expect(dialog).to_be_visible(timeout=30000)
         expect(dialog.get_by_role('link', name='ἄνθρωπος', exact=True)).to_be_visible(timeout=30000)
         page.screenshot(path=str(shots / f'{label}-definition.png'))
