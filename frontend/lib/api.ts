@@ -477,3 +477,12 @@ export async function lookupGreek(text: string, signal?: AbortSignal): Promise<G
   if (!response.ok) throw new Error(await getError(response));
   return response.json();
 }
+
+export async function translateGreek(text: string, context: string, signal?: AbortSignal): Promise<{ translation: string; source: string }> {
+  const response = await fetch(`${API_BASE}/api/translate`, {
+    method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ text, context }), signal,
+  });
+  if (!response.ok) throw new Error(await getError(response));
+  return response.json();
+}

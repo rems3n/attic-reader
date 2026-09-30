@@ -108,3 +108,18 @@ Share → **Add to Home Screen** installs it as a standalone app.
   $5 of usage. A 2 GB service idling ~24/7 runs roughly $5–10/month.
   Sleeping the service between uses lowers it (Settings → App Sleeping).
 - Vercel Hobby: free for personal use.
+
+## Selection translation
+
+The popup shows a connected English translation first, then dictionary entries.
+Set `OPENAI_API_KEY` in Railway → backend → Variables to enable translation.
+Do not put this secret in the web service or any `NEXT_PUBLIC_` variable.
+`TRANSLATION_MODEL` defaults to `gpt-4.1-mini` and can be changed server-side.
+The selected Greek and up to 4,000 characters of nearby context are sent to OpenAI
+with `store: false`. Successful translations are cached in memory for an hour.
+The unauthenticated endpoint limits concurrency to two requests, 20 uncached
+requests per minute, and `TRANSLATION_DAILY_LIMIT` (default 300) per rolling day,
+per server process; counters reset on restart. Set a provider project budget too.
+Selections are limited to 200 words / 2,000 characters. Dictionary lookup remains
+available without a key or during provider failures. Check `/api/translate` with
+a short Greek phrase after setting the key; missing configuration returns 503.

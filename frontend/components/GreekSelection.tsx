@@ -3,9 +3,9 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { GreekLookup, lookupGreek } from "../lib/api";
+import { GreekLookup, lookupGreek, translateGreek } from "../lib/api";
 
-type Pick = { text: string; left: number; top: number };
+type Pick = { text: string; context: string; left: number; top: number };
 const greek = /[\u0370-\u03ff\u1f00-\u1fff]/;
 const cache = new Map<string, GreekLookup>();
 
@@ -15,6 +15,9 @@ export default function GreekSelection() {
   const [pick, setPick] = useState<Pick | null>(null);
   const [result, setResult] = useState<GreekLookup | null>(null);
   const [error, setError] = useState("");
+  const [translation, setTranslation] = useState("");
+  const [translationError, setTranslationError] = useState("");
+  const [retry, setRetry] = useState(0);
 
   useEffect(() => {
     let timer: ReturnType<typeof setTimeout>;
@@ -27,9 +30,11 @@ export default function GreekSelection() {
       const selection = window.getSelection();
       const active = document.activeElement;
       let text = "";
+      let context = "";
       let rect: DOMRect | undefined;
       if (active instanceof HTMLTextAreaElement && active.lang === "grc") {
         text = active.value.slice(active.selectionStart, active.selectionEnd).trim();
+        context = active.value.slice(Math.max(0, active.selectionStart - 800), active.selectionEnd + 800);
         rect = active.getBoundingClientRect();
       } else if (selection?.rangeCount && !selection.isCollapsed) {
         const range = selection.getRangeAt(0);
@@ -40,12 +45,17 @@ export default function GreekSelection() {
           setPick(null); return;
         }
         text = selection.toString().trim();
+        const passage = parent?.closest("p, blockquote, [data-greek-context]") ?? parent;
+        const surrounding = passage?.textContent ?? text;
+        const index = surrounding.indexOf(text);
+        const start = Math.max(0, index - 800);
+        context = index < 0 ? text : surrounding.slice(start, start + 4000);
         rect = range.getBoundingClientRect();
       }
       if (!text) { dismissed = ""; setPick(null); return; }
       if (!greek.test(text) || text === dismissed || !rect) { setPick(null); return; }
       const width = Math.min(340, window.innerWidth - 24);
-      setPick({ text, left: Math.max(12, Math.min(rect.left, window.innerWidth - width - 12)),
+      setPick({ text, context: context.slice(0, 4000), left: Math.max(12, Math.min(rect.left, window.innerWidth - width - 12)),
         top: Math.max(12, Math.min(rect.bottom + 12, window.innerHeight - 380)) });
     };
     const schedule = () => { clearTimeout(timer); timer = setTimeout(inspect, 350); };
@@ -88,8 +98,8 @@ export default function GreekSelection() {
   useEffect(() => {
     setResult(null); setError("");
     if (!pick) return;
-    if (pick.text.length > 240 || pick.text.split(/\s+/).length > 12) {
-      setError("Select up to 12 words to see their definitions."); return;
+    if (pick.text.length > 2000 || pick.text.split(/\s+/).length > 200) {
+      setError("Select up to 200 words and 2,000 characters."); return;
     }
     const saved = cache.get(pick.text);
     if (saved) { setResult(saved); return; }
@@ -106,13 +116,34 @@ export default function GreekSelection() {
     return () => { current = false; clearTimeout(timeout); controller.abort(); };
   }, [pick?.text]);
 
+  useEffect(() => {
+    setTranslation(""); setTranslationError("");
+    if (!pick || pick.text.length > 2000 || pick.text.split(/\s+/).length > 200) return;
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 22000);
+    let current = true;
+    translateGreek(pick.text, pick.context, controller.signal).then(data => {
+      if (current) setTranslation(data.translation);
+    }).catch(error => {
+      if (current) setTranslationError(error instanceof Error && error.name !== "AbortError"
+        ? error.message : "Translation timed out. Please try again.");
+    }).finally(() => clearTimeout(timeout));
+    return () => { current = false; clearTimeout(timeout); controller.abort(); };
+  }, [pick?.text, pick?.context, retry]);
+
   if (!pick) return null;
   return <div ref={popup} className="greekDefinition" role="dialog" aria-modal="false" aria-labelledby="greek-definition-title"
     style={{ left: pick.left, top: pick.top }}>
-    <header><strong id="greek-definition-title">English definition</strong>
-      <button type="button" aria-label="Close definition" onClick={() => document.dispatchEvent(new Event("close-greek-definition"))}>×</button></header>
+    <header><strong id="greek-definition-title">English translation</strong>
+      <button type="button" aria-label="Close translation" onClick={() => document.dispatchEvent(new Event("close-greek-definition"))}>×</button></header>
     <div className="greekDefinitionBody" aria-live="polite" aria-busy={!result && !error}>
-      <p className="greekSelectionText" lang="grc">{pick.text.length > 240 ? `${pick.text.slice(0,240)}…` : pick.text}</p>
+      <p className="greekSelectionText" lang="grc">{pick.text.length > 2000 ? `${pick.text.slice(0,2000)}…` : pick.text}</p>
+      {pick.text.length <= 2000 && pick.text.split(/\s+/).length <= 200 && <section className="greekPassageTranslation" aria-label="Translation" aria-busy={!translation && !translationError}>
+        {translation ? <><p>{translation}</p><span className="muted">AI translation</span></>
+          : translationError ? <><p>{translationError}</p><button type="button" onClick={() => setRetry(n => n + 1)}>Retry translation</button></>
+          : <p>Translating selection…</p>}
+      </section>}
+      <h3 className="greekWordHeading">Word definitions</h3>
       {error ? <p>{error}</p> : !result ? <p>Looking up…</p> : result.words.map((word, i) => <section key={i}>
         {result.words.length > 1 && <strong lang="grc">{word.text}</strong>}
         {word.matches.length > 1 && <p className="muted">Possible matches</p>}
@@ -121,7 +152,7 @@ export default function GreekSelection() {
           <span className="muted"> {match.pos}</span><p>{match.definition}</p>
         </div>)}
       </section>)}
-      {result && <p className="muted greekDefinitionNote">Dictionary meanings; the meaning depends on context.{result.words.length > 1 ? " This is a word-by-word lookup." : ""}</p>}
+      {result && <p className="muted greekDefinitionNote">Dictionary meanings; the meaning depends on context.</p>}
     </div>
   </div>;
 }

@@ -42,7 +42,8 @@ from .course import analyze
 from .course import data as course_data
 from .course.drill import generate as generate_drill
 from .course.grade import TYPED_TYPES, feedback_for_typed, grade as grade_item
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
+from . import translation
 
 app = FastAPI(title="Attic Reader API", version="0.3.0")
 log = logging.getLogger("attic")
@@ -338,12 +339,11 @@ def analyze_text(request: AnalyzeRequest) -> dict[str, object]:
 @app.get("/api/lookup")
 def lookup_greek(text: str = "") -> dict[str, object]:
     """Dictionary senses for a short selection, including ambiguous inflections."""
-    if not text.strip() or len(text) > 240:
-        raise HTTPException(status_code=422, detail="Select 1–12 Greek words (at most 240 characters).")
+    text = translation.validate_selection(text)
     from .course.normalize import tokens
     words = tokens(normalize_polytonic(text))
-    if not words or len(words) > 12:
-        raise HTTPException(status_code=422, detail="Select 1–12 Greek words.")
+    if not words or len(words) > translation.MAX_WORDS:
+        raise HTTPException(status_code=422, detail="Select up to 200 Greek words.")
     return {"words": [
         {"text": word, "matches": [
             {"id": entry["id"], "lemma": entry["lemma"],
@@ -352,6 +352,16 @@ def lookup_greek(text: str = "") -> dict[str, object]:
             for entry in (course_data.entry_by_id(i) for i in analyze._lookup(word))
         ]} for word in dict.fromkeys(words)
     ]}
+
+
+class TranslationRequest(BaseModel):
+    text: str = Field(min_length=1, max_length=translation.MAX_CHARS)
+    context: str = Field(default="", max_length=translation.CONTEXT_CHARS)
+
+
+@app.post("/api/translate")
+def translate_greek(request: TranslationRequest) -> dict[str, str]:
+    return translation.translate(request.text, request.context)
 
 
 @app.get("/api/analyze/library")

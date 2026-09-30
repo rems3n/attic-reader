@@ -22,5 +22,11 @@ def test_phrase_unknown_and_ambiguity():
 
 
 def test_selection_limits():
-    for text in ['', 'English only', 'α' * 241, 'λόγος ' * 13]:
+    for text in ['', 'English only', 'α' * 2001, 'λόγος ' * 201]:
         assert client.get('/api/lookup', params={'text': text}).status_code == 422
+
+
+def test_lookup_supports_a_passage_longer_than_twelve_words():
+    response = client.get('/api/lookup', params={'text': 'λόγος ' * 50})
+    assert response.status_code == 200
+    assert len(response.json()['words']) == 1
