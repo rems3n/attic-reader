@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { useAccount } from "../../components/AccountProvider";
 import PageHeader from "../../components/PageHeader";
 import {
   emptyProgress,
@@ -12,6 +13,7 @@ import {
   syncPush,
 } from "../../lib/progress";
 export default function Settings() {
+  const { user, status } = useAccount();
   const [p, setP] = useState(emptyProgress);
   const [ready, setReady] = useState(false);
   const [message, setMessage] = useState("");
@@ -60,12 +62,12 @@ export default function Settings() {
         Learning preferences and progress backup.
       </PageHeader>
       <section className="card">
-        <h2>Guest mode</h2>
+        <h2>{user ? "Account sync" : "Save your progress"}</h2>
         <p>
-          Your progress is saved in this browser. Export a backup before
-          clearing browser data or moving to another device.
+          {user ? status : "Your progress is saved in this browser. Create an account to keep it across devices."}
         </p>
       </section>
+      <p><Link href="/account">{user ? "Manage account" : "Sign in or create account"}</Link></p>
       <section className="card settingsFields">
         <h2>Learning</h2>
         <label>

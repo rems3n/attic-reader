@@ -5,6 +5,7 @@ description = "OCR, Classical Attic G2P, and TTS API for Ancient Greek reading"
 requires-python = ">=3.11"
 dependencies = [
   "fastapi>=0.115",
+  "argon2-cffi>=23.1",
   "uvicorn[standard]>=0.30",
   "python-multipart>=0.0.9",
   "pillow>=10.0",
