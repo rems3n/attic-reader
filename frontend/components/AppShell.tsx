@@ -187,9 +187,9 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
           {links(secondary)}
         </nav>
         <p className="sidebarNote">
-          Guest mode
+          {user ? "Account" : "Guest mode"}
           <br />
-          <span>Progress saved on this device</span>
+          <span>{user ? status : "Progress saved on this device"}</span>
         </p>
       </aside>
       <div className="shellBody">
