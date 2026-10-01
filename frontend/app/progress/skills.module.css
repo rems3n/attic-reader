@@ -23,21 +23,6 @@
 .familyHead h2 { margin: 0; font-size: 18px; }
 .familyCount { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
 
-.grid { display: grid; grid-template-columns: repeat(auto-fill, 32px); gap: 5px; }
-.cell {
-  width: 32px;
-  height: 32px;
-  min-height: 0;
-  padding: 0;
-  border: 1px solid;
-  border-radius: 7px;
-  font-size: 13px;
-  line-height: 1;
-  cursor: pointer;
-}
-.cell:hover { outline: 2px solid var(--line-strong); outline-offset: 1px; }
-.cell:focus-visible, .cell.selected { outline: 2px solid var(--ink); outline-offset: 2px; }
-
 /* ---- levels (cells and legend swatches); after .cell / .swatch so the
    colours win over their border shorthand */
 .unseen { background: var(--card); border-color: var(--line-strong); }
@@ -87,3 +72,22 @@
 .deckContext summary { cursor: pointer; font-size: 14px; font-weight: 500; color: var(--accent); }
 :global(.card) .deckContext p { margin: 8px 0 0; color: var(--ink); font-size: 17px; line-height: 1.6; white-space: pre-line; }
 :global(.card) .deckContext p.deckGlosses { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; color: var(--muted); }
+
+/* Labelled summaries stay readable without hover or colour interpretation. */
+.overview { display: grid; gap: 24px; }
+.progressMetric { min-width: 0; }
+.metricLabel { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; font-size: 15px; }
+.metricLabel strong { color: var(--accent); font-variant-numeric: tabular-nums; }
+.progressBar { display: block; width: 100%; height: 10px; margin: 10px 0 8px; border: 0; border-radius: 999px; overflow: hidden; appearance: none; background: var(--line); }
+.progressBar::-webkit-progress-bar { background: var(--line); border-radius: 999px; }
+.progressBar::-webkit-progress-value { background: var(--accent); border-radius: 999px; }
+.progressBar::-moz-progress-bar { background: var(--accent); border-radius: 999px; }
+.metricNote { margin: 0 !important; font-size: 13px !important; color: var(--muted); line-height: 1.5; }
+.skillDisclosure { margin-top: 14px; }
+.skillDisclosure summary { cursor: pointer; color: var(--accent); font-size: 14px; padding: 8px 0; }
+.skillList { display: grid; margin-top: 8px; }
+.skillRow { display: flex; align-items: center; justify-content: space-between; gap: 16px; width: 100%; min-height: 48px; padding: 12px; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; background: var(--card); color: var(--ink); text-align: left; font-size: 14px; line-height: 1.5; }
+.skillRow:hover { background: var(--accent-2); }
+.skillRow:focus-visible, .skillRow.selected { outline: 2px solid var(--accent); outline-offset: -2px; }
+.skillStatus { color: var(--muted); font-size: 12px; flex-shrink: 0; }
+@media (max-width: 600px) { .skillRow { align-items: flex-start; flex-direction: column; gap: 4px; } .familyHead { flex-wrap: wrap; } }

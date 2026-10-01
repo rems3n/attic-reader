@@ -6,20 +6,18 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { getCourse, getCourseSkill, type SkillDetail } from "../../lib/api";
 import { isMastered, skillLevel, type CourseIndex, type Skill, type SkillLevel, type SkillState } from "../../lib/course";
 import { loadProgress, type Progress } from "../../lib/progress";
-import { filterGroups, groupSkills, lastPractised, levelCounts, LEVEL_LABEL, LEVELS, matchesFilter, mistakeCount, type SkillFilter } from "../../lib/skills";
+import { filterGroups, groupSkills, lastPractised, levelCounts, LEVEL_LABEL, matchesFilter, mistakeCount, type SkillFilter } from "../../lib/skills";
 import styles from "./skills.module.css";
 
 const LESSONS_SHOWN = 8;
 
 const FILTERS: { id: SkillFilter; label: string }[] = [
   { id: "all", label: "All" },
-  { id: "met", label: "Met" },
-  { id: "weak", label: "Weak" },
+  { id: "met", label: "Practised" },
+  { id: "weak", label: "Needs practice" },
 ];
 
-/** Mastery grid: one cell per skill, grouped by family, coloured by level;
- * tap a cell for its numbers, the lessons that teach it, its paradigm and a
- * practice round. */
+/** Topic progress summaries with optional, explicitly named skill details. */
 export default function SkillsPage() {
   const [course, setCourse] = useState<CourseIndex | null>(null);
   const [progress] = useState<Progress>(() => loadProgress());
@@ -67,24 +65,18 @@ export default function SkillsPage() {
       <p className="crumbs"><Link href="/learn">← Course</Link></p>
       <section className="hero">
         <p className="eyebrow">ΤΕΧΝΑΙ · SKILLS</p>
-        <h1>Your skills</h1>
-        <p className="lede">Every form and construction the course teaches, one square each. Tap a square to see how it is going, where it is taught and to practise it.</p>
+        <h1>Your progress</h1>
+        <p className="lede">Track completed lessons and grammar skills. Expand a topic to see what you have practised and what to work on next.</p>
       </section>
+
+      <section className={`card ${styles.overview}`} aria-label="Learning progress">
+        <ProgressBar label="Lessons completed" value={course.lesson_order.filter(id => progress.course.lessons[id]?.status === "done").length} total={course.lesson_order.length} note="Lessons marked complete in the course." />
+        <ProgressBar label="Grammar skills practised" value={all.length - counts.unseen} total={all.length} note="Skills you have answered at least one exercise on; this measures coverage, not mastery." />
+        <ProgressBar label="Grammar skills mastered" value={counts.mastered} total={all.length} note="At least 85% recent accuracy across 8 answers, with practice on days at least two days apart." />
+      </section>
+      {all.length === counts.unseen && <p className={styles.filterNote}>No grammar practice recorded yet. Complete lesson exercises to start tracking your skills. <Link href="/learn">Go to the course →</Link></p>}
 
       <section className="card"><h2>Words</h2><p>{wordCounts(progress).known} known · {wordCounts(progress).learning} learning</p><p>Weekly word goal: {weeklyWords(progress)} / {progress.course.goal.wordsPerWeek ?? 25} different words reviewed.</p><Link href="/words">Review vocabulary →</Link></section>
-
-      <section className={`card ${styles.summary}`} aria-label="Legend">
-        <ul className={styles.legend}>
-          {LEVELS.map((lv) => (
-            <li key={lv}>
-              <span className={`${styles.swatch} ${styles[lv]}`} aria-hidden="true">{lv === "mastered" ? "✓" : ""}</span>
-              <span>{LEVEL_LABEL[lv]}</span>
-              <strong>{counts[lv]}</strong>
-            </li>
-          ))}
-        </ul>
-        <p className={styles.legendNote}>Weak: under 50 % recent accuracy · learning: 50–75 % · strong: 75 % and up · mastered: 85 % over 8 or more answers on days at least two days apart.</p>
-      </section>
 
       <div className={styles.toolbar}>
         <div className="chips" role="group" aria-label="Show">
@@ -96,22 +88,27 @@ export default function SkillsPage() {
         </div>
         <Link href="/practice/review?mode=mistakes" className={styles.mistakesLink}>Mistakes deck <strong>{mistakes}</strong></Link>
       </div>
-      {filter === "weak" && <p className={styles.filterNote}>Weak shows the skills you have met that are weak or still learning.</p>}
+      {filter === "weak" && <p className={styles.filterNote}>Needs practice shows skills with recent accuracy below 75%.</p>}
 
       {visible.length === 0 && (
         <p className={`card ${styles.empty}`}>{filter === "all" ? "No skills in the course yet." : "Nothing here yet: skills appear once you answer an exercise that tests them."}</p>
       )}
 
       {visible.map((g) => {
-        const met = g.skills.filter((s) => (states[s.id]?.total ?? 0) > 0).length;
+        const fullGroup = groups.find(group => group.id === g.id)!;
+        const met = fullGroup.skills.filter((s) => (states[s.id]?.total ?? 0) > 0).length;
+        const mastered = fullGroup.skills.filter(s => isMastered(states[s.id])).length;
         const open = selected && g.skills.some((s) => s.id === selected) ? selected : null;
         return (
           <section key={g.id} className={styles.family} aria-labelledby={`fam-${g.id}`}>
             <div className={styles.familyHead}>
               <h2 id={`fam-${g.id}`}>{g.label}</h2>
-              <span className={styles.familyCount}>{met} met · {g.skills.length}</span>
+              <span className={styles.familyCount}>{mastered} mastered</span>
             </div>
-            <div className={styles.grid}>
+            <ProgressBar label={`${g.label} skills practised`} value={met} total={fullGroup.skills.length} />
+            <details className={styles.skillDisclosure} open={open ? true : undefined}>
+              <summary>View {g.skills.length} {filter === "all" ? "" : "matching "}skills</summary>
+            <div className={styles.skillList}>
               {g.skills.map((s) => {
                 const lv = skillLevel(states[s.id]);
                 const on = selected === s.id;
@@ -119,7 +116,7 @@ export default function SkillsPage() {
                   <button
                     key={s.id}
                     type="button"
-                    className={`${styles.cell} ${styles[lv]} ${on ? styles.selected : ""}`}
+                    className={`${styles.skillRow} ${on ? styles.selected : ""}`}
                     aria-label={`${s.label}: ${LEVEL_LABEL[lv]}`}
                     aria-expanded={on}
                     aria-controls={on ? "skill-detail" : undefined}
@@ -127,11 +124,13 @@ export default function SkillsPage() {
                     data-skill={s.id}
                     onClick={() => setSelected(on ? null : s.id)}
                   >
-                    {lv === "mastered" ? "✓" : ""}
+                    <span>{s.label}</span>
+                    <span className={styles.skillStatus}>{LEVEL_LABEL[lv]}{states[s.id]?.total ? ` · ${Math.round(states[s.id].ewma * 100)}% accuracy` : ""}</span>
                   </button>
                 );
               })}
             </div>
+            </details>
             {open && (
               <div ref={panelRef}>
                 <SkillPanel key={open} skill={g.skills.find((s) => s.id === open)!} state={states[open]} detail={details[open]} now={now} onClose={() => setSelected(null)} />
@@ -144,6 +143,15 @@ export default function SkillsPage() {
       {selected && !all.some((s) => s.id === selected) && <p className="muted">No skill {selected} in the course.</p>}
     </main>
   );
+}
+
+function ProgressBar({ label, value, total, note }: { label: string; value: number; total: number; note?: string }) {
+  const percent = total ? Math.round(value / total * 100) : 0;
+  return <div className={styles.progressMetric}>
+    <div className={styles.metricLabel}><span>{label}</span><strong>{percent}%</strong></div>
+    <progress className={styles.progressBar} value={value} max={total || 1} aria-label={label} />
+    <p className={styles.metricNote}>{value} of {total}{note ? ` · ${note}` : ""}</p>
+  </div>;
 }
 
 function SkillPanel({ skill, state, detail, now, onClose }: { skill: Skill; state: SkillState | undefined; detail: SkillDetail | "error" | undefined; now: number; onClose: () => void }) {
