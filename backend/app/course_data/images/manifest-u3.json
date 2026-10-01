@@ -271,15 +271,17 @@
   {
    "id": "geron",
    "kind": "dictionary",
-   "file": null,
-   "alt_grc": "γέρων",
-   "alt_en": "An old man with a stick",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "file": "course/pics/geron.webp",
+   "alt_grc": "ὁ γέρων",
+   "alt_en": "Attic red-figure lekythos showing a woman with a torch and an elderly white-haired man with a staff; National Archaeological Museum, Athens, 1301.",
+   "credit": "Early classical Attic red figure lekythos - ARV extra - woman with torch and old man - Athens NAM 1301 - 01 · ArchaiOptix · Wikimedia Commons (CC BY-SA 4.0)",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Early_classical_Attic_red_figure_lekythos_-_ARV_extra_-_woman_with_torch_and_old_man_-_Athens_NAM_1301_-_01.jpg",
    "words": [
     "γέρων"
-   ]
+   ],
+   "original_alt_grc": "γέρων",
+   "original_brief": "An old man with a stick"
   },
   {
    "id": "hiereus",
@@ -421,15 +423,17 @@
   {
    "id": "polemos",
    "kind": "dictionary",
-   "file": null,
-   "alt_grc": "πόλεμος",
-   "alt_en": "Hoplites fighting, from a vase",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "file": "course/pics/polemos.webp",
+   "alt_grc": "ὁ πόλεμος",
+   "alt_en": "Attic red-figure amphora depicting a Greek warrior attacking a crouching Persian archer; Metropolitan Museum of Art.",
+   "credit": "Terracotta Nolan amphora (jar) · Greek, Attic · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/247283",
    "words": [
     "πόλεμος"
-   ]
+   ],
+   "original_alt_grc": "πόλεμος",
+   "original_brief": "Hoplites fighting, from a vase"
   },
   {
    "id": "logos",
@@ -565,15 +569,23 @@
   {
    "id": "verb-machontai",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/mache.webp",
    "alt_grc": "μάχονται",
-   "alt_en": "Two dogs fighting",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "Lucanian red-figure calyx-krater attributed to the Amykos Painter, showing warriors fighting; Metropolitan Museum of Art.",
+   "credit": "Terracotta calyx-krater (mixing bowl) · Amykos Painter · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/251099",
    "words": [
     "μάχομαι"
-   ]
+   ],
+   "original_alt_grc": "μάχονται",
+   "original_brief": "Two dogs fighting",
+   "reuse": {
+    "review": "Multiple warriors visibly fight in the vase scene; caption does not claim dogs.",
+    "role": "concept",
+    "sha256": "d26a1b839938fcd9ac34620b0b6a9db58487f7b92c9c5b96eb9028326930485f",
+    "source_id": "mache"
+   }
   },
   {
    "id": "verb-pheugei",
@@ -778,13 +790,21 @@
   {
    "id": "culture-skira",
    "kind": "culture",
-   "file": null,
-   "alt_grc": "ἡ πομπή",
-   "alt_en": "A sacrificial procession on an Attic red-figure vase: a priest, an ox with garlands, a girl carrying a basket",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/pompe.webp",
+   "alt_grc": "πομπή",
+   "alt_en": "Painted wooden panel from Pitsa, Corinthia, about 540–530 BCE: a sacrificial procession with musicians, a lamb and offerings.",
+   "credit": "Painting on wood panel of sacrificial procession from Pitsa (cave of the Charites) - Athen NAM 16464 · ArchaiOptix · Wikimedia Commons (CC BY-SA 4.0)",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Painting_on_wood_panel_of_sacrificial_procession_from_Pitsa_(cave_of_the_Charites)_-_Athen_NAM_16464.jpg",
+   "words": [],
+   "original_alt_grc": "ἡ πομπή",
+   "original_brief": "A sacrificial procession on an Attic red-figure vase: a priest, an ox with garlands, a girl carrying a basket",
+   "reuse": {
+    "review": "Historical example of a sacrificial procession; caption identifies the Pitsa panel, not the Skira festival.",
+    "role": "context",
+    "sha256": "d8a5488ae05c8c0d093f07b72de16f4c5b5ba9ffbd553a20cc88e0f2e35de498",
+    "source_id": "pompe"
+   }
   },
   {
    "id": "culture-agora-citizens",

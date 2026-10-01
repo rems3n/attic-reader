@@ -229,13 +229,21 @@
   {
    "id": "culture-10-3-workshop",
    "kind": "culture",
-   "file": null,
+   "file": "course/pics/culture-potter-vase.webp",
    "alt_grc": "ἐργαστήριον κεραμέως",
-   "alt_en": "Attic vase painting of a potter's or metalworker's workshop, with customers watching (target: museum CC0 image, e.g. the Foundry Cup's workshop scene).",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "alt_en": "A potter at work, black-figure hydria detail",
+   "credit": "Leagros Group - ABV 362 36 - potter´s workshop - Aineas escaping from Troy - München AS 1717 - 03 · ArchaiOptix · Wikimedia Commons (CC BY-SA 4.0)",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Leagros_Group_-_ABV_362_36_-_potter%C2%B4s_workshop_-_Aineas_escaping_from_Troy_-_M%C3%BCnchen_AS_1717_-_03.jpg",
+   "words": [],
+   "original_alt_grc": "ἐργαστήριον κεραμέως",
+   "original_brief": "Attic vase painting of a potter's or metalworker's workshop, with customers watching (target: museum CC0 image, e.g. the Foundry Cup's workshop scene).",
+   "reuse": {
+    "review": "The requested type of historical potter workshop scene is visible on the vase.",
+    "role": "exact",
+    "sha256": "8a6d4b2f2f2584c5369fc297ac98260e35846436d2b8a9fcb639d6aa8acd8f4b",
+    "source_id": "culture-potter-vase"
+   }
   },
   {
    "id": "psyche",
@@ -310,15 +318,23 @@
   {
    "id": "presbys",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/geron.webp",
    "alt_grc": "ὁ πρέσβυς",
-   "alt_en": "An old man with a stick.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "Attic red-figure lekythos showing a woman with a torch and an elderly white-haired man with a staff; National Archaeological Museum, Athens, 1301.",
+   "credit": "Early classical Attic red figure lekythos - ARV extra - woman with torch and old man - Athens NAM 1301 - 01 · ArchaiOptix · Wikimedia Commons (CC BY-SA 4.0)",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Early_classical_Attic_red_figure_lekythos_-_ARV_extra_-_woman_with_torch_and_old_man_-_Athens_NAM_1301_-_01.jpg",
    "words": [
     "πρέσβυς"
-   ]
+   ],
+   "original_alt_grc": "ὁ πρέσβυς",
+   "original_brief": "An old man with a stick.",
+   "reuse": {
+    "review": "The vase depicts an elderly white-haired man with a staff.",
+    "role": "concept",
+    "sha256": "74c910d5a8a5fc1cbd553d426811b5f09668673c2dbc7dde14ed5382139bee44",
+    "source_id": "geron"
+   }
   },
   {
    "id": "teknon",

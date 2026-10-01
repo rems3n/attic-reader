@@ -80,13 +80,15 @@
   {
    "id": "hist-olympias",
    "kind": "culture",
-   "file": null,
-   "alt_grc": "ἡ Ὀλυμπιὰς τριήρης.",
-   "alt_en": "The Olympias, a full-size reconstruction of an Athenian trireme (1987), under oars in the Saronic Gulf or moored at Faliro.",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/hist-olympias.webp",
+   "alt_grc": "ἡ Ὀλυμπιὰς τριήρης",
+   "alt_en": "The modern full-size reconstruction Olympias moored at Faliro, photographed on 23 February 2019; a side view of the hull, mast and banks of oars.",
+   "credit": "The trireme Olympias on 23 February 2019 · George E. Koronaios · Wikimedia Commons (CC BY-SA 4.0)",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:The_trireme_Olympias_on_23_February_2019.jpg",
+   "words": [],
+   "original_alt_grc": "ἡ Ὀλυμπιὰς τριήρης.",
+   "original_brief": "The Olympias, a full-size reconstruction of an Athenian trireme (1987), under oars in the Saronic Gulf or moored at Faliro."
   },
   {
    "id": "hist-panel-3-b",

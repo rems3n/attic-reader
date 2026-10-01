@@ -168,5 +168,45 @@
   "ref": "254342",
   "sha256": "980a13c803295fc9594caa0f72f5db55d4ae050a350b5b4474044a27c3bd4e44",
   "source": "met"
+ },
+ "aix": {
+  "note": "Visually inspected downloaded image on 2026-10-01; caption describes the visible subject. Cypriot bronze statuette of a goat, Geometric period; Metropolitan Museum of Art.",
+  "ref": "244470",
+  "source": "met"
+ },
+ "culture-astragaloi": {
+  "note": "Visually inspected downloaded image on 2026-10-01; caption describes the visible subject. Eight colored glass knucklebones (astragali), Greek, Hellenistic period; gaming pieces in the Metropolitan Museum of Art.",
+  "ref": "256148",
+  "source": "met"
+ },
+ "culture-trireme": {
+  "note": "Visually inspected downloaded image on 2026-10-01; caption describes the visible subject. The Lenormant relief from the Athenian Acropolis: ancient marble relief showing the rowers and oars of a trireme.",
+  "ref": "File:ACMA Relief Lenormant.jpg",
+  "source": "commons"
+ },
+ "geron": {
+  "note": "Visually inspected downloaded image on 2026-10-01; caption describes the visible subject. Attic red-figure lekythos showing a woman with a torch and an elderly white-haired man with a staff; National Archaeological Museum, Athens, 1301.",
+  "ref": "File:Early classical Attic red figure lekythos - ARV extra - woman with torch and old man - Athens NAM 1301 - 01.jpg",
+  "source": "commons"
+ },
+ "hist-olympias": {
+  "note": "Visually inspected downloaded image on 2026-10-01; caption describes the visible subject. The modern full-size reconstruction Olympias moored at Faliro, photographed on 23 February 2019; a side view of the hull, mast and banks of oars.",
+  "ref": "File:The trireme Olympias on 23 February 2019.jpg",
+  "source": "commons"
+ },
+ "ichthys": {
+  "note": "Visually inspected downloaded image on 2026-10-01; caption describes the visible subject. Fish and other sea creatures painted on a Campanian red-figure fish plate attributed to the Helgoland Painter; Metropolitan Museum of Art.",
+  "ref": "247404",
+  "source": "met"
+ },
+ "mache": {
+  "note": "Visually inspected downloaded image on 2026-10-01; caption describes the visible subject. Lucanian red-figure calyx-krater attributed to the Amykos Painter, showing warriors fighting; Metropolitan Museum of Art.",
+  "ref": "251099",
+  "source": "met"
+ },
+ "polemos": {
+  "note": "Visually inspected downloaded image on 2026-10-01; caption describes the visible subject. Attic red-figure amphora depicting a Greek warrior attacking a crouching Persian archer; Metropolitan Museum of Art.",
+  "ref": "247283",
+  "source": "met"
  }
 }

@@ -1,10 +1,10 @@
 {
  "counts": {
   "diagram": 52,
-  "downloaded_needs_review": 88,
-  "needs_source_verification": 254,
+  "downloaded_needs_review": 81,
+  "needs_source_verification": 237,
   "no_source_row": 26,
-  "ready": 213
+  "ready": 237
  },
  "images": [
   {
@@ -281,16 +281,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "The Olympias, a full-size reconstruction of an Athenian trireme (1987), under oars in the Saronic Gulf or moored at Faliro.",
+   "description": "The modern full-size reconstruction Olympias moored at Faliro, photographed on 23 February 2019; a side view of the hull, mast and banks of oars.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Olympias trireme reconstruction|Olympias",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/hist-olympias.webp",
    "id": "hist-olympias",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Syracusan horsemen and javelin-throwers attacking the retreating column from every side; Nicias, a sick older general, riding in the middle of his men at dawn.",
@@ -1701,16 +1701,16 @@
    "status": "ready"
   },
   {
-   "description": "Attic vase painting of a potter's or metalworker's workshop, with customers watching (target: museum CC0 image, e.g. the Foundry Cup's workshop scene).",
+   "description": "A potter at work, black-figure hydria detail",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Foundry Painter cup Berlin workshop|Foundry",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-potter-vase.webp",
    "id": "culture-10-3-workshop",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A tiny winged soul (eidolon) as painted on Athenian white-ground lekythoi.",
@@ -1785,16 +1785,16 @@
    "status": "ready"
   },
   {
-   "description": "An old man with a stick.",
+   "description": "Attic red-figure lekythos showing a woman with a torch and an elderly white-haired man with a staff; National Archaeological Museum, Athens, 1301.",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta statuette old man staff|statuette",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/geron.webp",
    "id": "presbys",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A mother embracing a child",
@@ -2697,16 +2697,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "A small three-legged table",
+   "description": "Evening: the family eats bread by lamplight; the moon over the courtyard",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:ancient Greek three-legged table trapeza|table",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/panel-2-1-c.webp",
    "id": "trapeza",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Modern photograph of an olive branch with green olives and narrow leaves.",
@@ -2781,28 +2781,28 @@
    "status": "ready"
   },
   {
-   "description": "A girl shouting",
+   "description": "Someone calling out",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:terracotta maenad|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/illustrations/verb-kalei.webp",
    "id": "verb-boa",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Terracotta of two girls playing knucklebones (ἀστράγαλοι)",
+   "description": "Eight colored glass knucklebones (astragali), Greek, Hellenistic period; gaming pieces in the Metropolitan Museum of Art.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:terracotta girls playing knucklebones|knuckle|astragal",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-astragaloi.webp",
    "id": "culture-astragaloi",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Photograph of a replica of the grave relief of Hegeso: a seated woman and a standing female attendant holding a jewellery box.",
@@ -3042,16 +3042,16 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "An old man with a stick",
+   "description": "Attic red-figure lekythos showing a woman with a torch and an elderly white-haired man with a staff; National Archaeological Museum, Athens, 1301.",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta statuette old man staff|statuette",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/geron.webp",
    "id": "geron",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "A priest in a long robe and wreath",
@@ -3164,16 +3164,16 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "Hoplites fighting, from a vase",
+   "description": "Attic red-figure amphora depicting a Greek warrior attacking a crouching Persian archer; Metropolitan Museum of Art.",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta hoplites fighting|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/polemos.webp",
    "id": "polemos",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Someone speaking",
@@ -3267,16 +3267,16 @@
    "status": "ready"
   },
   {
-   "description": "Two dogs fighting",
+   "description": "Lucanian red-figure calyx-krater attributed to the Amykos Painter, showing warriors fighting; Metropolitan Museum of Art.",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta dogs fighting|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/mache.webp",
    "id": "verb-machontai",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Someone running away",
@@ -3439,16 +3439,16 @@
    "status": "diagram"
   },
   {
-   "description": "A sacrificial procession on an Attic red-figure vase: a priest, an ox with garlands, a girl carrying a basket",
+   "description": "Painted wooden panel from Pitsa, Corinthia, about 540–530 BCE: a sacrificial procession with musicians, a lamb and offerings.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:terracotta procession cow sacrifice kanephoros|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/pompe.webp",
    "id": "culture-skira",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Men in himatia talking, red-figure cup; the setting of Athenian public life",
@@ -3844,16 +3844,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "A heap of Athenian silver coins",
+   "description": "An Athenian silver tetradrachm, c. 450–430 BC: helmeted Athena on the obverse, the owl with olive sprig, crescent moon and ΑΘΕ on the reverse (museum photograph, CC).",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:hoard Athenian tetradrachms|hoard|tetradrachm",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-owl-tetradrachm.webp",
    "id": "argyrion",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "An Athenian silver drachma with Athena and the owl",
@@ -3880,16 +3880,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "A fish",
+   "description": "Fish and other sea creatures painted on a Campanian red-figure fish plate attributed to the Helgoland Painter; Metropolitan Museum of Art.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:terracotta fish-plate|fish",
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/ichthys.webp",
    "id": "ichthys",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Sacks of grain",
@@ -4079,40 +4079,40 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "A ship under sail",
+   "description": "The modern full-size reconstruction Olympias moored at Faliro, photographed on 23 February 2019; a side view of the hull, mast and banks of oars.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Exekias Dionysus cup ship|Exekias|Dionys",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/hist-olympias.webp",
    "id": "naus",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "A trireme with three banks of oars and a ram",
+   "description": "The modern full-size reconstruction Olympias moored at Faliro, photographed on 23 February 2019; a side view of the hull, mast and banks of oars.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:trireme model ram|trireme|Trireme",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/hist-olympias.webp",
    "id": "trieres",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "A rower at his oar",
+   "description": "The Lenormant relief from the Athenian Acropolis: ancient marble relief showing the rowers and oars of a trireme.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Lenormant relief|Lenormant",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-trireme.webp",
    "id": "eretes",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A ship sailing across the sea",
@@ -4153,16 +4153,16 @@
    "status": "diagram"
   },
   {
-   "description": "The Lenormant relief (Acropolis, c. 410 BC) showing the rowers of a trireme",
+   "description": "The Lenormant relief from the Athenian Acropolis: ancient marble relief showing the rowers and oars of a trireme.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Lenormant relief Acropolis Museum trireme|Lenormant",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-trireme.webp",
    "id": "culture-trireme",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A goddess (Athena with helmet and owl)",
@@ -4321,16 +4321,16 @@
    "status": "ready"
   },
   {
-   "description": "The Lenormant relief: rowers of an Athenian trireme, Acropolis, c. 410 BC",
+   "description": "The Lenormant relief from the Athenian Acropolis: ancient marble relief showing the rowers and oars of a trireme.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Lenormant relief rowers|Lenormant",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-trireme.webp",
    "id": "culture-5-2-salamis",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Apollo and Daphne, Roman fresco or mosaic showing the metamorphosis",
@@ -4385,28 +4385,28 @@
    "status": "diagram"
   },
   {
-   "description": "A sacrifice: procession, altar and victim",
+   "description": "Attic red-figure bell-krater attributed to the Nikias Painter, late fifth century BCE: attendants bring skewers, a tray and a basket to an altar stacked with wood.",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta bull sacrifice procession|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/bomos.webp",
    "id": "thysia",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
-   "description": "A goat",
+   "description": "Cypriot bronze statuette of a goat, Geometric period; Metropolitan Museum of Art.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:bronze statuette goat|goat",
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/aix.webp",
    "id": "aix",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Pieces of meat on spits",
@@ -4445,40 +4445,40 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "An oar",
+   "description": "The Lenormant relief from the Athenian Acropolis: ancient marble relief showing the rowers and oars of a trireme.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Olympias trireme oars|Olympias|oar",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/culture-trireme.webp",
    "id": "kope",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
-   "description": "Two warriors fighting",
+   "description": "Lucanian red-figure calyx-krater attributed to the Amykos Painter, showing warriors fighting; Metropolitan Museum of Art.",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta two warriors fighting|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/mache.webp",
    "id": "mache",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
-   "description": "A warrior fighting",
+   "description": "Attic red-figure amphora depicting a Greek warrior attacking a crouching Persian archer; Metropolitan Museum of Art.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:bronze statuette warrior|warrior",
     "source": "met",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/polemos.webp",
    "id": "verb-machetai",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "A victor being crowned",
@@ -4493,16 +4493,16 @@
    "status": "downloaded_needs_review"
   },
   {
-   "description": "A Persian soldier in trousers and soft cap",
+   "description": "Attic red-figure amphora depicting a Greek warrior attacking a crouching Persian archer; Metropolitan Museum of Art.",
    "failure": {
     "reason": "Downloaded candidate needs subject review; licence verification is not subject verification",
     "ref": "search:terracotta Greek Persian combat|kylix|krater|amphora|lekythos|hydria|pelike|oinochoe|skyphos|stamnos|chous|pyxis|lekanis|alabastron|aryballos",
     "source": "met",
     "step": "review"
    },
-   "file": null,
+   "file": "course/pics/polemos.webp",
    "id": "barbaros",
-   "status": "downloaded_needs_review"
+   "status": "ready"
   },
   {
    "description": "Someone sending a messenger off",
@@ -4577,16 +4577,16 @@
    "status": "needs_source_verification"
   },
   {
-   "description": "A laurel leaf",
+   "description": "Modern photograph of an olive branch with green olives and narrow leaves.",
    "failure": {
     "reason": "No current verified source; run resolve/verify for this id",
     "ref": "search:Laurus nobilis leaf|Laurus",
     "source": "commons",
     "step": "verify"
    },
-   "file": null,
+   "file": "course/pics/elaia.webp",
    "id": "phyllon",
-   "status": "needs_source_verification"
+   "status": "ready"
   },
   {
    "description": "Long hair",

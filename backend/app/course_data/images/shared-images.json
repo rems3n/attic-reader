@@ -694,5 +694,101 @@
   "review": "The central warrior’s large round shield is clearly visible.",
   "role": "concept",
   "source": "stratiotes"
+ },
+ {
+  "id": "trapeza",
+  "review": "The family meal visibly includes a rectangular table; caption does not claim the original three-legged form.",
+  "role": "concept",
+  "source": "panel-2-1-c"
+ },
+ {
+  "id": "verb-boa",
+  "review": "A woman visibly cups a hand to her mouth to call out.",
+  "role": "concept",
+  "source": "verb-kalei"
+ },
+ {
+  "id": "culture-skira",
+  "review": "Historical example of a sacrificial procession; caption identifies the Pitsa panel, not the Skira festival.",
+  "role": "context",
+  "source": "pompe"
+ },
+ {
+  "id": "argyrion",
+  "review": "The actual silver coin illustrates silver money; not presented as a drachma or obol.",
+  "role": "concept",
+  "source": "culture-owl-tetradrachm"
+ },
+ {
+  "id": "thysia",
+  "review": "The painted scene visibly depicts attendants at a sacrificial altar.",
+  "role": "concept",
+  "source": "bomos"
+ },
+ {
+  "id": "culture-5-2-salamis",
+  "review": "The requested Lenormant relief, a historical depiction of trireme rowers.",
+  "role": "exact",
+  "source": "culture-trireme"
+ },
+ {
+  "id": "trieres",
+  "review": "The full-size reconstruction clearly shows the long hull and rows of oars; labeled as modern.",
+  "role": "concept",
+  "source": "hist-olympias"
+ },
+ {
+  "id": "naus",
+  "review": "The complete ship is visible moored at the quay; caption does not claim it is sailing.",
+  "role": "concept",
+  "source": "hist-olympias"
+ },
+ {
+  "id": "eretes",
+  "review": "The ancient relief visibly depicts rowers working the oars.",
+  "role": "concept",
+  "source": "culture-trireme"
+ },
+ {
+  "id": "kope",
+  "review": "The relief visibly depicts the long oars of a trireme.",
+  "role": "concept",
+  "source": "culture-trireme"
+ },
+ {
+  "id": "verb-machetai",
+  "review": "The vase scene visibly shows a warrior attacking an opponent.",
+  "role": "concept",
+  "source": "polemos"
+ },
+ {
+  "id": "verb-machontai",
+  "review": "Multiple warriors visibly fight in the vase scene; caption does not claim dogs.",
+  "role": "concept",
+  "source": "mache"
+ },
+ {
+  "id": "barbaros",
+  "review": "The depicted Persian archer wears distinctive Persian dress; caption names the historical subject.",
+  "role": "concept",
+  "source": "polemos"
+ },
+ {
+  "id": "presbys",
+  "review": "The vase depicts an elderly white-haired man with a staff.",
+  "role": "concept",
+  "source": "geron"
+ },
+ {
+  "id": "culture-10-3-workshop",
+  "review": "The requested type of historical potter workshop scene is visible on the vase.",
+  "role": "exact",
+  "source": "culture-potter-vase"
+ },
+ {
+  "id": "phyllon",
+  "review": "The olive branch clearly shows narrow leaves.",
+  "role": "concept",
+  "source": "elaia"
  }
 ]

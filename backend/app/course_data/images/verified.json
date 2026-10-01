@@ -238,13 +238,13 @@
   "title": "Terracotta statuette of a woman"
  },
  "geron": {
-  "credit": "Terracotta statuette of an actor · Greek · The Metropolitan Museum of Art (Open Access)",
-  "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP116962.jpg",
-  "license": "CC0",
-  "ref": "248763",
-  "source": "met",
-  "source_url": "https://www.metmuseum.org/art/collection/search/248763",
-  "title": "Terracotta statuette of an actor"
+  "credit": "Early classical Attic red figure lekythos - ARV extra - woman with torch and old man - Athens NAM 1301 - 01 · ArchaiOptix · Wikimedia Commons (CC BY-SA 4.0)",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Early_classical_Attic_red_figure_lekythos_-_ARV_extra_-_woman_with_torch_and_old_man_-_Athens_NAM_1301_-_01.jpg/1920px-Early_classical_Attic_red_figure_lekythos_-_ARV_extra_-_woman_with_torch_and_old_man_-_Athens_NAM_1301_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "ref": "File:Early classical Attic red figure lekythos - ARV extra - woman with torch and old man - Athens NAM 1301 - 01.jpg",
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Early_classical_Attic_red_figure_lekythos_-_ARV_extra_-_woman_with_torch_and_old_man_-_Athens_NAM_1301_-_01.jpg",
+  "title": "File:Early classical Attic red figure lekythos - ARV extra - woman with torch and old man - Athens NAM 1301 - 01.jpg"
  },
  "gyne": {
   "credit": "Terracotta lekythos (oil flask) · Amasis Painter · The Metropolitan Museum of Art (Open Access)",
@@ -436,13 +436,13 @@
   "title": "Terracotta kylix (drinking cup)"
  },
  "mache": {
-  "credit": "Terracotta alabastron (perfume vase) · Late Warrior Frieze Vases · The Metropolitan Museum of Art (Open Access)",
-  "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP119906.jpg",
+  "credit": "Terracotta calyx-krater (mixing bowl) · Amykos Painter · The Metropolitan Museum of Art (Open Access)",
+  "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP219979.jpg",
   "license": "CC0",
-  "ref": "247192",
+  "ref": "251099",
   "source": "met",
-  "source_url": "https://www.metmuseum.org/art/collection/search/247192",
-  "title": "Terracotta alabastron (perfume vase)"
+  "source_url": "https://www.metmuseum.org/art/collection/search/251099",
+  "title": "Terracotta calyx-krater (mixing bowl)"
  },
  "martys": {
   "credit": "Terracotta amphora (jar) · Praxias Group · The Metropolitan Museum of Art (Open Access)",
@@ -958,13 +958,13 @@
   "title": "Terracotta lekythos (oil flask)"
  },
  "polemos": {
-  "credit": "Terracotta aryballos (oil flask) · Greek, Corinthian · The Metropolitan Museum of Art (Open Access)",
-  "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP119931.jpg",
+  "credit": "Terracotta Nolan amphora (jar) · Greek, Attic · The Metropolitan Museum of Art (Open Access)",
+  "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP229735.jpg",
   "license": "CC0",
-  "ref": "254328",
+  "ref": "247283",
   "source": "met",
-  "source_url": "https://www.metmuseum.org/art/collection/search/254328",
-  "title": "Terracotta aryballos (oil flask)"
+  "source_url": "https://www.metmuseum.org/art/collection/search/247283",
+  "title": "Terracotta Nolan amphora (jar)"
  },
  "polites": {
   "credit": "Bronze statuette of a horse · Greek · The Metropolitan Museum of Art (Open Access)",
@@ -1708,5 +1708,50 @@
   "source": "commons",
   "source_url": "https://commons.wikimedia.org/wiki/File:Temple_of_Hephaestus_from_ancient_agora_Athens.jpg",
   "title": "File:Temple of Hephaestus from ancient agora Athens.jpg"
+ },
+ "aix": {
+  "credit": "Bronze statuette of a goat · Cypriot · The Metropolitan Museum of Art (Open Access)",
+  "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP20085.jpg",
+  "license": "CC0",
+  "ref": "244470",
+  "source": "met",
+  "source_url": "https://www.metmuseum.org/art/collection/search/244470",
+  "title": "Bronze statuette of a goat"
+ },
+ "culture-astragaloi": {
+  "credit": "Group of eight glass astragali (knucklebones) · Greek · The Metropolitan Museum of Art (Open Access)",
+  "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP121111.jpg",
+  "license": "CC0",
+  "ref": "256148",
+  "source": "met",
+  "source_url": "https://www.metmuseum.org/art/collection/search/256148",
+  "title": "Group of eight glass astragali (knucklebones)"
+ },
+ "culture-trireme": {
+  "credit": "Lenormant Trireme Relief · Marsyas (2006) · Wikimedia Commons (CC BY-SA 2.5)",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/ACMA_Relief_Lenormant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+  "license": "CC BY-SA 2.5",
+  "ref": "File:ACMA Relief Lenormant.jpg",
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:ACMA_Relief_Lenormant.jpg",
+  "title": "File:ACMA Relief Lenormant.jpg"
+ },
+ "hist-olympias": {
+  "credit": "The trireme Olympias on 23 February 2019 · George E. Koronaios · Wikimedia Commons (CC BY-SA 4.0)",
+  "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/The_trireme_Olympias_on_23_February_2019.jpg/1920px-The_trireme_Olympias_on_23_February_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "license": "CC BY-SA 4.0",
+  "ref": "File:The trireme Olympias on 23 February 2019.jpg",
+  "source": "commons",
+  "source_url": "https://commons.wikimedia.org/wiki/File:The_trireme_Olympias_on_23_February_2019.jpg",
+  "title": "File:The trireme Olympias on 23 February 2019.jpg"
+ },
+ "ichthys": {
+  "credit": "Terracotta fish-plate · Helgoland Painter · The Metropolitan Museum of Art (Open Access)",
+  "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP145541.jpg",
+  "license": "CC0",
+  "ref": "247404",
+  "source": "met",
+  "source_url": "https://www.metmuseum.org/art/collection/search/247404",
+  "title": "Terracotta fish-plate"
  }
 }

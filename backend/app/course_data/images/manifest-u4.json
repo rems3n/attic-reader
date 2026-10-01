@@ -478,15 +478,23 @@
   {
    "id": "argyrion",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/culture-owl-tetradrachm.webp",
    "alt_grc": "τὸ ἀργύριον",
-   "alt_en": "A heap of Athenian silver coins",
-   "credit": "placeholder (target: CC0 museum photo of Athenian owls)",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "An Athenian silver tetradrachm, c. 450–430 BC: helmeted Athena on the obverse, the owl with olive sprig, crescent moon and ΑΘΕ on the reverse (museum photograph, CC).",
+   "credit": "Tetradrachm: Head of Athena (obverse); Owl (reverse) · The Cleveland Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://clevelandart.org/art/1941.296",
    "words": [
     "ἀργύριον"
-   ]
+   ],
+   "original_alt_grc": "τὸ ἀργύριον",
+   "original_brief": "A heap of Athenian silver coins",
+   "reuse": {
+    "review": "The actual silver coin illustrates silver money; not presented as a drachma or obol.",
+    "role": "concept",
+    "sha256": "100ae83e2d1295b7a8c96921f5f6ed1622fb25a8db0c5c6712c19ef894b3da96",
+    "source_id": "culture-owl-tetradrachm"
+   }
   },
   {
    "id": "drachme",
@@ -517,15 +525,17 @@
   {
    "id": "ichthys",
    "kind": "dictionary",
-   "file": null,
-   "alt_grc": "ὁ ἰχθύς",
-   "alt_en": "A fish",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "file": "course/pics/ichthys.webp",
+   "alt_grc": "οἱ ἰχθύες",
+   "alt_en": "Fish and other sea creatures painted on a Campanian red-figure fish plate attributed to the Helgoland Painter; Metropolitan Museum of Art.",
+   "credit": "Terracotta fish-plate · Helgoland Painter · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/247404",
    "words": [
     "ἰχθύς"
-   ]
+   ],
+   "original_alt_grc": "ὁ ἰχθύς",
+   "original_brief": "A fish"
   },
   {
    "id": "sitos",
@@ -777,41 +787,65 @@
   {
    "id": "naus",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/hist-olympias.webp",
    "alt_grc": "ἡ ναῦς",
-   "alt_en": "A ship under sail",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "The modern full-size reconstruction Olympias moored at Faliro, photographed on 23 February 2019; a side view of the hull, mast and banks of oars.",
+   "credit": "The trireme Olympias on 23 February 2019 · George E. Koronaios · Wikimedia Commons (CC BY-SA 4.0)",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:The_trireme_Olympias_on_23_February_2019.jpg",
    "words": [
     "ναῦς"
-   ]
+   ],
+   "original_alt_grc": "ἡ ναῦς",
+   "original_brief": "A ship under sail",
+   "reuse": {
+    "review": "The complete ship is visible moored at the quay; caption does not claim it is sailing.",
+    "role": "concept",
+    "sha256": "53bd63f1ae6070246d5899dfd8b25c76aba1074b9a8ec10c5e422445d273e5b3",
+    "source_id": "hist-olympias"
+   }
   },
   {
    "id": "trieres",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/hist-olympias.webp",
    "alt_grc": "ἡ τριήρης",
-   "alt_en": "A trireme with three banks of oars and a ram",
-   "credit": "placeholder (target: Lenormant relief or the Olympias, CC BY-SA)",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "The modern full-size reconstruction Olympias moored at Faliro, photographed on 23 February 2019; a side view of the hull, mast and banks of oars.",
+   "credit": "The trireme Olympias on 23 February 2019 · George E. Koronaios · Wikimedia Commons (CC BY-SA 4.0)",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:The_trireme_Olympias_on_23_February_2019.jpg",
    "words": [
     "τριήρης"
-   ]
+   ],
+   "original_alt_grc": "ἡ τριήρης",
+   "original_brief": "A trireme with three banks of oars and a ram",
+   "reuse": {
+    "review": "The full-size reconstruction clearly shows the long hull and rows of oars; labeled as modern.",
+    "role": "concept",
+    "sha256": "53bd63f1ae6070246d5899dfd8b25c76aba1074b9a8ec10c5e422445d273e5b3",
+    "source_id": "hist-olympias"
+   }
   },
   {
    "id": "eretes",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/culture-trireme.webp",
    "alt_grc": "ὁ ἐρέτης",
-   "alt_en": "A rower at his oar",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "The Lenormant relief from the Athenian Acropolis: ancient marble relief showing the rowers and oars of a trireme.",
+   "credit": "Lenormant Trireme Relief · Marsyas (2006) · Wikimedia Commons (CC BY-SA 2.5)",
+   "license": "CC BY-SA 2.5",
+   "source_url": "https://commons.wikimedia.org/wiki/File:ACMA_Relief_Lenormant.jpg",
    "words": [
     "ἐρέτης"
-   ]
+   ],
+   "original_alt_grc": "ὁ ἐρέτης",
+   "original_brief": "A rower at his oar",
+   "reuse": {
+    "review": "The ancient relief visibly depicts rowers working the oars.",
+    "role": "concept",
+    "sha256": "d6c2aa5a40f73caa68279a0edf1a17fc99f36eff3b4ffe91d43bb8bd062d8bc0",
+    "source_id": "culture-trireme"
+   }
   },
   {
    "id": "verb-plei",
@@ -866,13 +900,15 @@
   {
    "id": "culture-trireme",
    "kind": "culture",
-   "file": null,
-   "alt_grc": "ἡ τριήρης",
-   "alt_en": "The Lenormant relief (Acropolis, c. 410 BC) showing the rowers of a trireme",
-   "credit": "placeholder (target: Wikimedia Commons, CC BY-SA)",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/culture-trireme.webp",
+   "alt_grc": "οἱ ἐρέται τῆς τριήρους",
+   "alt_en": "The Lenormant relief from the Athenian Acropolis: ancient marble relief showing the rowers and oars of a trireme.",
+   "credit": "Lenormant Trireme Relief · Marsyas (2006) · Wikimedia Commons (CC BY-SA 2.5)",
+   "license": "CC BY-SA 2.5",
+   "source_url": "https://commons.wikimedia.org/wiki/File:ACMA_Relief_Lenormant.jpg",
+   "words": [],
+   "original_alt_grc": "ἡ τριήρης",
+   "original_brief": "The Lenormant relief (Acropolis, c. 410 BC) showing the rowers of a trireme"
   }
  ]
 }

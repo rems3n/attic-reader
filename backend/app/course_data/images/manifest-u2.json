@@ -543,15 +543,23 @@
   {
    "id": "trapeza",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/panel-2-1-c.webp",
    "alt_grc": "τράπεζα",
-   "alt_en": "A small three-legged table",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "alt_en": "Evening: the family eats bread by lamplight; the moon over the courtyard",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "τράπεζα"
-   ]
+   ],
+   "original_alt_grc": "τράπεζα",
+   "original_brief": "A small three-legged table",
+   "reuse": {
+    "review": "The family meal visibly includes a rectangular table; caption does not claim the original three-legged form.",
+    "role": "concept",
+    "sha256": "ca14c6fe80468aaacc9e27f12e39e63e2a0cec19e7b40d6e62027cdc9d02ac22",
+    "source_id": "panel-2-1-c"
+   }
   },
   {
    "id": "elaia",
@@ -651,26 +659,36 @@
   {
    "id": "verb-boa",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/illustrations/verb-kalei.webp",
    "alt_grc": "βοᾷ",
-   "alt_en": "A girl shouting",
-   "credit": "placeholder",
-   "license": "placeholder",
+   "alt_en": "Someone calling out",
+   "credit": "Attic Reader · original AI-generated educational illustration; interpretive reconstruction, not an artifact photograph",
+   "license": "Original AI illustration",
    "source_url": null,
    "words": [
     "βοάω"
-   ]
+   ],
+   "original_alt_grc": "βοᾷ",
+   "original_brief": "A girl shouting",
+   "reuse": {
+    "review": "A woman visibly cups a hand to her mouth to call out.",
+    "role": "concept",
+    "sha256": "abebc03219e582627b1ea76cad3a591c79721aa5f08708b09dfdcbbb4ec13030",
+    "source_id": "verb-kalei"
+   }
   },
   {
    "id": "culture-astragaloi",
    "kind": "culture",
-   "file": null,
-   "alt_grc": "παῖδες παίζουσιν.",
-   "alt_en": "Terracotta of two girls playing knucklebones (ἀστράγαλοι)",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "file": "course/pics/culture-astragaloi.webp",
+   "alt_grc": "οἱ ἀστράγαλοι",
+   "alt_en": "Eight colored glass knucklebones (astragali), Greek, Hellenistic period; gaming pieces in the Metropolitan Museum of Art.",
+   "credit": "Group of eight glass astragali (knucklebones) · Greek · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/256148",
+   "words": [],
+   "original_alt_grc": "παῖδες παίζουσιν.",
+   "original_brief": "Terracotta of two girls playing knucklebones (ἀστράγαλοι)"
   },
   {
    "id": "culture-hegeso-stele",

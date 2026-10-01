@@ -202,13 +202,21 @@
   {
    "id": "culture-5-2-salamis",
    "kind": "culture",
-   "file": null,
+   "file": "course/pics/culture-trireme.webp",
    "alt_grc": "τριήρης",
-   "alt_en": "The Lenormant relief: rowers of an Athenian trireme, Acropolis, c. 410 BC",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "alt_en": "The Lenormant relief from the Athenian Acropolis: ancient marble relief showing the rowers and oars of a trireme.",
+   "credit": "Lenormant Trireme Relief · Marsyas (2006) · Wikimedia Commons (CC BY-SA 2.5)",
+   "license": "CC BY-SA 2.5",
+   "source_url": "https://commons.wikimedia.org/wiki/File:ACMA_Relief_Lenormant.jpg",
+   "words": [],
+   "original_alt_grc": "τριήρης",
+   "original_brief": "The Lenormant relief: rowers of an Athenian trireme, Acropolis, c. 410 BC",
+   "reuse": {
+    "review": "The requested Lenormant relief, a historical depiction of trireme rowers.",
+    "role": "exact",
+    "sha256": "d6c2aa5a40f73caa68279a0edf1a17fc99f36eff3b4ffe91d43bb8bd062d8bc0",
+    "source_id": "culture-trireme"
+   }
   },
   {
    "id": "culture-5-3-daphne",
@@ -283,28 +291,38 @@
   {
    "id": "thysia",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/bomos.webp",
    "alt_grc": "ἡ θυσία",
-   "alt_en": "A sacrifice: procession, altar and victim",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "Attic red-figure bell-krater attributed to the Nikias Painter, late fifth century BCE: attendants bring skewers, a tray and a basket to an altar stacked with wood.",
+   "credit": "Terracotta bell-krater (bowl for mixing wine and water) · Nikias Painter · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/254171",
    "words": [
     "θυσία"
-   ]
+   ],
+   "original_alt_grc": "ἡ θυσία",
+   "original_brief": "A sacrifice: procession, altar and victim",
+   "reuse": {
+    "review": "The painted scene visibly depicts attendants at a sacrificial altar.",
+    "role": "concept",
+    "sha256": "e8bd040d79df915f814110db30a1681d1086fd329535224c8c926a4a61383388",
+    "source_id": "bomos"
+   }
   },
   {
    "id": "aix",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/aix.webp",
    "alt_grc": "ἡ αἴξ",
-   "alt_en": "A goat",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "Cypriot bronze statuette of a goat, Geometric period; Metropolitan Museum of Art.",
+   "credit": "Bronze statuette of a goat · Cypriot · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/244470",
    "words": [
     "αἴξ"
-   ]
+   ],
+   "original_alt_grc": "ἡ αἴξ",
+   "original_brief": "A goat"
   },
   {
    "id": "kreas",
@@ -348,39 +366,57 @@
   {
    "id": "kope",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/culture-trireme.webp",
    "alt_grc": "ἡ κώπη",
-   "alt_en": "An oar",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
-   "words": []
+   "alt_en": "The Lenormant relief from the Athenian Acropolis: ancient marble relief showing the rowers and oars of a trireme.",
+   "credit": "Lenormant Trireme Relief · Marsyas (2006) · Wikimedia Commons (CC BY-SA 2.5)",
+   "license": "CC BY-SA 2.5",
+   "source_url": "https://commons.wikimedia.org/wiki/File:ACMA_Relief_Lenormant.jpg",
+   "words": [],
+   "original_alt_grc": "ἡ κώπη",
+   "original_brief": "An oar",
+   "reuse": {
+    "review": "The relief visibly depicts the long oars of a trireme.",
+    "role": "concept",
+    "sha256": "d6c2aa5a40f73caa68279a0edf1a17fc99f36eff3b4ffe91d43bb8bd062d8bc0",
+    "source_id": "culture-trireme"
+   }
   },
   {
    "id": "mache",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/mache.webp",
    "alt_grc": "ἡ μάχη",
-   "alt_en": "Two warriors fighting",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "Lucanian red-figure calyx-krater attributed to the Amykos Painter, showing warriors fighting; Metropolitan Museum of Art.",
+   "credit": "Terracotta calyx-krater (mixing bowl) · Amykos Painter · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/251099",
    "words": [
     "μάχη"
-   ]
+   ],
+   "original_alt_grc": "ἡ μάχη",
+   "original_brief": "Two warriors fighting"
   },
   {
    "id": "verb-machetai",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/polemos.webp",
    "alt_grc": "μάχεται",
-   "alt_en": "A warrior fighting",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "Attic red-figure amphora depicting a Greek warrior attacking a crouching Persian archer; Metropolitan Museum of Art.",
+   "credit": "Terracotta Nolan amphora (jar) · Greek, Attic · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/247283",
    "words": [
     "μάχομαι"
-   ]
+   ],
+   "original_alt_grc": "μάχεται",
+   "original_brief": "A warrior fighting",
+   "reuse": {
+    "review": "The vase scene visibly shows a warrior attacking an opponent.",
+    "role": "concept",
+    "sha256": "001e518ed6a098d827147f6fc1029d1b4102b0b0e312f9f40967b7dc1225bf0a",
+    "source_id": "polemos"
+   }
   },
   {
    "id": "verb-nika",
@@ -398,15 +434,23 @@
   {
    "id": "barbaros",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/polemos.webp",
    "alt_grc": "ὁ βάρβαρος",
-   "alt_en": "A Persian soldier in trousers and soft cap",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "Attic red-figure amphora depicting a Greek warrior attacking a crouching Persian archer; Metropolitan Museum of Art.",
+   "credit": "Terracotta Nolan amphora (jar) · Greek, Attic · The Metropolitan Museum of Art (Open Access)",
+   "license": "CC0",
+   "source_url": "https://www.metmuseum.org/art/collection/search/247283",
    "words": [
     "βάρβαρος"
-   ]
+   ],
+   "original_alt_grc": "ὁ βάρβαρος",
+   "original_brief": "A Persian soldier in trousers and soft cap",
+   "reuse": {
+    "review": "The depicted Persian archer wears distinctive Persian dress; caption names the historical subject.",
+    "role": "concept",
+    "sha256": "001e518ed6a098d827147f6fc1029d1b4102b0b0e312f9f40967b7dc1225bf0a",
+    "source_id": "polemos"
+   }
   },
   {
    "id": "verb-pempei",
@@ -489,15 +533,23 @@
   {
    "id": "phyllon",
    "kind": "dictionary",
-   "file": null,
+   "file": "course/pics/elaia.webp",
    "alt_grc": "τὸ φύλλον",
-   "alt_en": "A laurel leaf",
-   "credit": "placeholder",
-   "license": "placeholder",
-   "source_url": null,
+   "alt_en": "Modern photograph of an olive branch with green olives and narrow leaves.",
+   "credit": "Olive tree (Olea europaea) branch with immature olives, Praça João do Rio, Lisbon, Portugal julesvernex2 · Jules Verne Times Two · Wikimedia Commons (CC BY-SA 4.0)",
+   "license": "CC BY-SA 4.0",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Olive_tree_(Olea_europaea)_branch_with_immature_olives,_Pra%C3%A7a_Jo%C3%A3o_do_Rio,_Lisbon,_Portugal_julesvernex2.jpg",
    "words": [
     "φύλλον"
-   ]
+   ],
+   "original_alt_grc": "τὸ φύλλον",
+   "original_brief": "A laurel leaf",
+   "reuse": {
+    "review": "The olive branch clearly shows narrow leaves.",
+    "role": "concept",
+    "sha256": "4d89a57588b4f947c30394b80e7475acdb9b78ddc671ca2b597c4531a89652d0",
+    "source_id": "elaia"
+   }
   },
   {
    "id": "kome",
