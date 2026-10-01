@@ -35,6 +35,7 @@ from .tts import (
 from .tts.kokoro import KokoroAtticTTS
 from .tts import prerender
 from .library import LibraryError, get_item, load_manifest, summary, CATEGORIES
+from .auth import router as auth_router
 from . import vocab
 from . import progress as progress_store
 from .greek.morph import paradigms
@@ -46,6 +47,7 @@ from pydantic import BaseModel, Field
 from . import translation
 
 app = FastAPI(title="Attic Reader API", version="0.3.0")
+app.include_router(auth_router)
 log = logging.getLogger("attic")
 # Uvicorn configures its own loggers only; make ours visible (per-sentence
 # synthesis timings are INFO).

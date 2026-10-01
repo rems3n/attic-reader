@@ -95,7 +95,7 @@ export function migrateProgress(raw: Partial<Progress> & { version?: number; cou
 
 export function loadProgress(): Progress {
   try {
-    const raw = typeof window !== "undefined" ? window.localStorage.getItem(KEY) : null;
+    const raw = typeof window !== "undefined" ? window.localStorage.getItem(progressKey()) : null;
     if (!raw) return emptyProgress();
     return migrateProgress(JSON.parse(raw));
   } catch {
@@ -105,7 +105,9 @@ export function loadProgress(): Progress {
 
 export function saveProgress(p: Progress): void {
   try {
-    window.localStorage.setItem(KEY, JSON.stringify(p));
+    if (owner) p = mergeProgress(p, loadProgress());
+    window.localStorage.setItem(progressKey(), JSON.stringify(p));
+    window.dispatchEvent(new Event("attic-progress"));
   } catch {
     /* storage unavailable (private mode): keep going in memory */
   }
@@ -292,4 +294,21 @@ export function strictAccentsFor(settings: Settings, lessonId: string): boolean 
   const unit = Number(lessonId.split(".")[0]);
   if (!Number.isFinite(unit)) return true; // track lessons (myth.1, gate scopes) come after Unit 9
   return unit >= 4;
+}
+
+// Account caches are separate from the original guest document.
+let owner: string | null = null;
+export function setProgressOwner(id: string | null): void { owner = id; }
+export function progressKey(): string { return owner ? `${KEY}.user.${owner}` : KEY; }
+export function guestProgress(): Progress {
+  try { return migrateProgress(JSON.parse(localStorage.getItem(KEY) ?? "{}")); }
+  catch { return emptyProgress(); }
+}
+export function mergeProgress(local: Progress, remote: Progress): Progress {
+  const days = new Map(remote.log.map(x => [x.day, x]));
+  for (const x of local.log) {
+    const prior = days.get(x.day);
+    days.set(x.day, { day: x.day, reviews: Math.max(x.reviews, prior?.reviews ?? 0), newCards: Math.max(x.newCards, prior?.newCards ?? 0) });
+  }
+  return { ...remote, ...local, cards: mergeCards(local.cards, remote.cards), course: mergeCourse(local.course, remote.course), log: [...days.values()].sort((a,b) => a.day.localeCompare(b.day)).slice(-90) };
 }

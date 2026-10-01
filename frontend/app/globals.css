@@ -1048,3 +1048,10 @@ html { scroll-padding-top: 72px; }
 .syllabusContinue { margin-top: auto; font-weight: 600; }
 .syllabusTrackSkills { font-size: 15px; line-height: 1.6; }
 @media (max-width: 700px) { .syllabusGrid { grid-template-columns: minmax(0, 1fr); } }
+
+.accountPage { max-width: 680px; }
+.accountPage h2 { overflow-wrap: anywhere; }
+.accountActions { display:flex; flex-wrap:wrap; align-items:center; gap:12px; margin:16px 0; }
+.accountCheck { display:flex!important; align-items:center; gap:10px; }
+.accountCheck input { width:auto!important; }
+.accountError { padding:16px; border:1px solid #aa4433; border-radius:8px; color:#8c3025; background:#fff4f0; }

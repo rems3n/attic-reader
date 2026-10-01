@@ -123,3 +123,28 @@ per server process; counters reset on restart. Set a provider project budget too
 Selections are limited to 200 words / 2,000 characters. Dictionary lookup remains
 available without a key or during provider failures. Check `/api/translate` with
 a short Greek phrase after setting the key; missing configuration returns 503.
+
+## Learner accounts
+
+Email/password accounts use Argon2 and 30-day HttpOnly, Secure, SameSite=Lax
+sessions. The Next.js `/api/account/*` route proxies only the account endpoints
+so cookies belong to the web origin. `API_BASE_URL` can override the existing
+`NEXT_PUBLIC_API_BASE_URL` for this server-side connection.
+
+The backend stores users, hashed session tokens, rate limits, and revisioned
+progress in SQLite at `/data/attic.db` when `/data` exists (the current Railway
+backend has a persistent volume there). `AUTH_DB_PATH` overrides the path.
+Back up this database with SQLite's backup API alongside the volume. Run one
+backend replica with this SQLite configuration. Local HTTP development requires
+`AUTH_COOKIE_SECURE=false`; leave the default enabled in production.
+
+The original browser progress remains a guest document. Account caches use
+separate keys; users explicitly import guest work from Account. Lessons, tests,
+review cards, skills, activity and settings are synced after edits, on reconnect,
+and periodically. Revision conflicts trigger a fetch/merge/retry. Daily activity
+uses maximum observed totals, rather than adding duplicate synchronized counts.
+Offline changes stay in the account cache and are retried after reconnect/sign-in.
+
+This release does not configure an email delivery provider, email verification,
+self-service password recovery, or Google OAuth. Use a password manager. Legacy
+sync-code and JSON import/export remain available in Settings.

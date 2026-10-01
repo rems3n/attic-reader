@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { focusMain } from "../lib/a11y";
+import { useAccount } from "./AccountProvider";
 import Crumbs from "./Crumbs";
 import Tour from "./Tour";
 import QuickTimer from "./QuickTimer";
@@ -95,6 +96,7 @@ function Icon({ name }: { name: string }) {
   );
 }
 export default function AppShell({ children }: { children: React.ReactNode }) {
+  const { user, status } = useAccount();
   const path = usePathname() ?? "/";
   const [account, setAccount] = useState(false);
   const sheet = useRef<HTMLDialogElement>(null);
@@ -208,11 +210,13 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
                   if (e.key === "Escape") setAccount(false);
                 }}
               >
-                Guest
+                {user ? "Account" : "Sign in"}
               </button>
               {account && (
                 <div id="account-menu" className="accountMenu">
-                  <p>Progress stays on this device.</p>
+                  <p>{user ? user.email : "Sign in to save progress across devices."}</p>
+                  {user && <p role="status">{status}</p>}
+                  <Link href="/account">{user ? "Manage account" : "Sign in or create account"}</Link>
                   <Link href="/settings">Settings and backup</Link>
                 </div>
               )}
