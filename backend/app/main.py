@@ -153,7 +153,7 @@ def tts_status() -> dict[str, object]:
 def library_index() -> dict[str, object]:
     """Built-in readings grouped by category, with which speeds are pre-rendered."""
     tts = KokoroAtticTTS()
-    items = [summary(item, prerender.ready_speeds(item, tts)) for item in load_manifest()]
+    items = [summary(item, prerender.ready_speeds(item, tts) if item.get("prerender", True) else []) for item in load_manifest()]
     return {
         "categories": [{"id": cid, "label": label} for cid, label in CATEGORIES],
         "items": items,

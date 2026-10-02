@@ -26,6 +26,8 @@ def test_prerender_renders_every_library_chunk_at_every_speed(fake_kokoro):
     assert result["rendered"] == len(jobs)
     assert clip_cache.stats()["clips"] == distinct
     for item in load_manifest():
+        if not item.get("prerender", True):
+            continue
         assert prerender.ready_speeds(item, tts) == sorted(prerender.SPEEDS)
     # Second run finds everything cached.
     again = prerender.run(tts)

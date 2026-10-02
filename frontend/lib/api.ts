@@ -189,10 +189,12 @@ export type LibraryItem = {
   ref: string;
   blurb: string;
   dialect: string;
+  sequence?: number;
+  word_count: number;
   sentence_count: number;
   estimated_seconds: number;
   ready_speeds: number[];
-  source: { edition: string; urn: string; license: string; url: string };
+  source: { edition: string; urn: string; license: string; url: string; reading_url?: string };
 };
 export type LibraryIndex = {
   categories: LibraryCategory[];

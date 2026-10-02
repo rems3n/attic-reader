@@ -124,12 +124,15 @@ def build_passage(spec: dict, root: ET.Element) -> dict:
         "work": spec["work"],
         "ref": spec["ref"],
         "blurb": spec["blurb"],
-        "dialect": "attic",
+        "dialect": spec.get("dialect", "attic"),
+        "prerender": not spec.get("expanded", False),
+        "sequence": spec.get("sequence"),
         "source": {
             "edition": "Perseus Digital Library, " + spec["urn"].rsplit(":", 1)[-1],
             "urn": spec["urn"],
             "license": "CC BY-SA 4.0",
-            "url": "https://github.com/PerseusDL/canonical-greekLit/blob/master/data/" + spec["file"],
+            "url": "https://github.com/PerseusDL/canonical-greekLit/blob/" + spec.get("source_revision", "master") + "/data/" + spec["file"],
+            "reading_url": "https://scaife.perseus.org/reader/" + spec["urn"] + ":" + spec["refs"][0] + "/",
         },
         "text": text,
     }

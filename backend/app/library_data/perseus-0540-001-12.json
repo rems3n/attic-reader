@@ -1,0 +1,21 @@
+{
+  "id": "perseus-0540-001-12",
+  "category": "oratory",
+  "level": "intermediate",
+  "title": "On the Murder of Eratosthenes · 47–50",
+  "author": "Lysias",
+  "work": "On the Murder of Eratosthenes",
+  "ref": "47–50",
+  "blurb": "A courtroom defence combining narrative with persuasive argument.",
+  "dialect": "attic",
+  "prerender": false,
+  "sequence": 12,
+  "source": {
+    "edition": "Perseus Digital Library, tlg0540.tlg001.perseus-grc2",
+    "urn": "urn:cts:greekLit:tlg0540.tlg001.perseus-grc2",
+    "license": "CC BY-SA 4.0",
+    "url": "https://github.com/PerseusDL/canonical-greekLit/blob/bcc5df0602f3b3fe6fefe1e1d575602a25ab1db6/data/tlg0540/tlg001/tlg0540.tlg001.perseus-grc2.xml",
+    "reading_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0540.tlg001.perseus-grc2:47/"
+  },
+  "text": "ἐγὼ μὲν οὖν, ὦ ἄνδρες, οὐκ ἰδίαν ὑπὲρ ἐμαυτοῦ νομίζω ταύτην γενέσθαι τὴν τιμωρίαν, ἀλλʼ ὑπὲρ τῆς πόλεως ἁπάσης· οἱ γὰρ τοιαῦτα πράττοντες, ὁρῶντες οἷα τὰ ἆθλα πρόκειται τῶν τοιούτων ἁμαρτημάτων, ἧττον εἰς τοὺς ἄλλους ἐξαμαρτήσονται, ἐὰν καὶ ὑμᾶς ὁρῶσι τὴν αὐτὴν γνώμην ἔχοντας. εἰ δὲ μή, πολὺ κάλλιον τοὺς μὲν κειμένους νόμους ἐξαλεῖψαι, ἑτέρους δὲ θεῖναι, οἵτινες τοὺς μὲν φυλάττοντας τὰς ἑαυτῶν γυναῖκας ταῖς ζημίαις ζημιώσουσι, τοῖς δὲ βουλομένοις εἰς αὐτὰς ἁμαρτάνειν πολλὴν ἄδειαν ποιήσουσι. πολὺ γὰρ οὕτω δικαιότερον ἢ ὑπὸ τῶν νόμων τοὺς πολίτας ἐνεδρεύεσθαι, οἳ κελεύουσι μέν, ἐάν τις μοιχὸν λάβῃ, ὅ τι ἂν οὖν βούληται χρῆσθαι, οἱ δʼ ἀγῶνες δεινότεροι τοῖς ἀδικουμένοις καθεστήκασιν ἢ τοῖς παρὰ τοὺς νόμους τὰς ἀλλοτρίας καταισχύνουσι γυναῖκας. ἐγὼ γὰρ νῦν καὶ περὶ τοῦ σώματος καὶ περὶ τῶν χρημάτων καὶ περὶ τῶν ἄλλων ἁπάντων κινδυνεύω, ὅτι τοῖς τῆς πόλεως νόμοις ἐπειθόμην."
+}

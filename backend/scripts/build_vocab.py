@@ -485,7 +485,10 @@ def index_readings(entries: list[dict]) -> None:
                     if e["id"] in seen:
                         continue
                     seen.add(e["id"])
-                    e["readings"].append({"id": item["id"], "sentence": si, "form": tok})
+                    # Keep original examples; bound expanded-catalog payloads per word.
+                    refs = e["readings"]
+                    if item.get("prerender", True) or (len(refs) < 64 and sum(r["id"] == item["id"] for r in refs) < 2):
+                        refs.append({"id": item["id"], "sentence": si, "form": tok})
                     if topic and topic not in e["topics"]:
                         e["topics"].append(topic)
 
