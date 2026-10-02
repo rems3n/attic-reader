@@ -27,6 +27,8 @@ with sync_playwright() as p:
         page = ctx.new_page()
         page.on('console', lambda msg: print('BROWSER:', msg.text) if msg.type == 'error' else None)
         page.goto(FRONT + '/help')
+        # Let hydration finish before injecting the fixture into React-owned DOM.
+        page.wait_for_load_state('networkidle')
         page.locator('main').evaluate("e => { const p = document.createElement('p'); p.id='selection-fixture'; p.lang='grc'; p.textContent='ἀνθρώπου λόγος ζζζζζ'; e.prepend(p); }")
         def select(start, end):
             page.evaluate("""([start,end]) => {const n=document.querySelector('#selection-fixture').firstChild;const r=document.createRange();r.setStart(n,start);r.setEnd(n,end);const s=window.getSelection();s.removeAllRanges();s.addRange(r);} """, [start,end])
