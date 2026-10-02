@@ -1055,3 +1055,25 @@ html { scroll-padding-top: 72px; }
 .accountCheck { display:flex!important; align-items:center; gap:10px; }
 .accountCheck input { width:auto!important; }
 .accountError { padding:16px; border:1px solid #aa4433; border-radius:8px; color:#8c3025; background:#fff4f0; }
+
+/* Reading catalog */
+.libraryShell { width:min(1100px,calc(100% - 40px)); }
+.catalogIntro,.catalogToolbar,.catalogControls,.catalogPagination { display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap; }
+.catalogIntro h2 { margin:0; }.catalogIntro p { color:var(--muted); }
+.catalogSuggestions { margin:32px 0; }.catalogSuggestions h3 { margin-bottom:6px; }
+.suggestionGrid { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px; }
+.suggestion { display:flex;flex-direction:column;align-items:flex-start;gap:9px;padding:20px;text-align:left;border:1px solid var(--line);border-radius:12px;background:var(--accent-2);color:var(--ink);cursor:pointer; }
+.suggestion strong { font:600 22px var(--serif); }.suggestion small { color:var(--muted); }.suggestionReason { font-size:12px;margin-top:auto;padding-top:10px; }
+.catalogBrowse { padding:24px;border:1px solid var(--line);border-radius:var(--radius);background:var(--card); }.catalogBrowse h2 { margin-top:0; }
+.catalogSearch,.catalogFilters label,.catalogControls label { display:flex;flex-direction:column;gap:7px;font-size:13px;font-weight:600;min-width:0; }
+.catalog input,.catalog select { width:100%;min-width:0;border:1px solid var(--line-strong);border-radius:7px;padding:11px;background:var(--card);color:var(--ink);font:inherit;font-size:15px; }
+.catalogFilters { display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin:16px 0; }.catalogChips { display:flex;flex-wrap:wrap;gap:8px;margin:14px 0; }.catalogChips button { padding:6px 10px;font-size:12px; }
+.catalogToolbar { border-top:1px solid var(--line);padding:18px 0; }.catalogToolbar p { color:var(--muted);font-size:13px; }.catalogControls .tabs { margin:0; }
+.catalogWork { border-top:1px solid var(--line); }.catalogWork summary { list-style:none;display:flex;gap:18px;align-items:flex-start;padding:22px 0;cursor:pointer; }.catalogWork summary::-webkit-details-marker { display:none; }
+.workMonogram { width:44px;height:54px;flex-shrink:0;background:var(--cream);border:1px solid var(--line);display:grid;place-items:center;font:24px var(--serif);border-radius:3px; }
+.workSummary { flex:1;min-width:0;display:flex;flex-direction:column;gap:7px; }.workSummary strong { font:600 22px var(--serif); }.workSummary small,.workSummary > span { color:var(--muted);font-size:13px;line-height:1.55; }.workExpand { color:var(--accent);font-size:23px; }.catalogWork[open] .workExpand { transform:rotate(45deg); }
+.catalogPassages { list-style:none;padding:0;margin:0; }.catalogPassage { width:100%;display:flex;justify-content:space-between;gap:14px;align-items:center;padding:15px 12px;text-align:left;background:var(--card);color:var(--ink);border:0;border-top:1px solid var(--line);cursor:pointer; }.catalogPassage:hover,.catalogWork summary:hover { background:var(--paper); }.catalogPassage > span:first-child { display:flex;flex-direction:column;gap:7px; }.catalogPassage small { color:var(--muted);font-size:12px; }.catalogPassage > span:last-child { color:var(--accent);font-size:13px;white-space:nowrap; }
+.catalogPagination { margin:24px 0;justify-content:center;font-size:13px; }.catalogNote { font-size:12px;color:var(--muted);line-height:1.6;margin-top:24px; }.catalogEmpty { text-align:center;padding:36px 12px; }.originalGreek { font:23px/1.95 var(--serif);white-space:pre-wrap;margin:28px 0; }.libraryText h2 { margin-top:24px; }
+@media(max-width:760px) { .suggestionGrid { grid-template-columns:1fr; }.suggestion { padding:16px; }.catalogFilters { grid-template-columns:repeat(2,minmax(0,1fr)); }.catalogBrowse { padding:16px; }.catalogControls { width:100%; }.catalogControls label { flex:1; }.catalogIntro { align-items:flex-start; }.libraryShell { width:calc(100% - 28px); }.workMonogram { display:none; }.workSummary strong { font-size:20px; } }
+.catalogIntro a.secondary { display:inline-block;padding:11px 16px;border:1px solid var(--line-strong);border-radius:8px;text-decoration:none;color:var(--ink);background:var(--card); }
+@media(max-width:760px) { .catalogSuggestions .muted { font-size:13px; } .suggestionGrid { grid-template-columns:repeat(3,minmax(230px,1fr));overflow-x:auto;padding-bottom:8px;scroll-snap-type:x proximity; }.suggestion { scroll-snap-align:start; }.suggestion strong { font-size:20px; } }

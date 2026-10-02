@@ -44,6 +44,8 @@ def plan(tts: KokoroAtticTTS) -> list[tuple[float, str, str]]:
     for speed in SPEEDS:
         model_speed = tts.effective_speed(speed)
         for item in load_manifest():
+            if not item.get("prerender", True):
+                continue
             for sentence in item["sentences"]:
                 for chunk in split_phonemes(attic_ipa(sentence), max_chars=tts.max_chars):
                     if not has_speech(chunk):

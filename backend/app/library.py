@@ -13,6 +13,9 @@ CATEGORIES = [
     ("history", "History"),
     ("philosophy", "Philosophy"),
     ("mythology", "Mythology"),
+    ("politics", "Politics"),
+    ("practical", "Practical writing"),
+    ("oratory", "Oratory"),
 ]
 LEVELS = ("beginner", "intermediate", "advanced")
 
@@ -35,6 +38,7 @@ def load_manifest() -> list[dict]:
         # normalize_polytonic would collapse them.
         item["text"] = "\n".join(normalize_polytonic(line) for line in item["text"].splitlines() if line.strip())
         sentences = segment_sentences(item["text"])
+        item["word_count"] = len(item["text"].split())
         item["sentence_count"] = len(sentences)
         item["sentences"] = [s.text for s in sentences]
         item["estimated_seconds"] = round(len(item["text"]) * SECONDS_PER_CHAR)
@@ -52,6 +56,8 @@ def get_item(item_id: str) -> dict:
 def summary(item: dict, ready_speeds: list[float] | None = None) -> dict:
     keys = ("id", "category", "level", "title", "author", "work", "ref", "blurb", "dialect", "sentence_count", "estimated_seconds")
     out = {k: item[k] for k in keys}
+    out["word_count"] = item["word_count"]
+    out["sequence"] = item.get("sequence")
     out["source"] = item["source"]
     out["ready_speeds"] = ready_speeds or []
     return out

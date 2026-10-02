@@ -11,25 +11,25 @@ from app.tts.kokoro import prepare_kokoro_phonemes, unknown_kokoro_symbols
 client = TestClient(app)
 
 
-def test_manifest_lists_twelve_unique_attic_passages():
+def test_manifest_lists_unique_attributed_passages():
     items = load_manifest()
     ids = [i["id"] for i in items]
-    assert len(ids) == len(set(ids)) == 12
+    assert len(ids) == len(set(ids)) >= 300
     categories = {c for c, _ in CATEGORIES}
     for item in items:
         assert item["category"] in categories
         assert item["level"] in LEVELS
-        assert item["dialect"] == "attic"
+        assert item["dialect"] in {"attic", "ionic", "koine"}
         assert item["source"]["license"] == "CC BY-SA 4.0"
         assert item["source"]["urn"].startswith("urn:cts:greekLit:")
         assert item["title"] and item["blurb"] and item["author"] and item["work"]
-    assert all(sum(1 for i in items if i["category"] == c) == 4 for c, _ in CATEGORIES)
+    assert all(any(i["category"] == c for i in items) for c, _ in CATEGORIES)
 
 
 def test_every_passage_segments_into_a_learnable_number_of_sentences():
     for item in load_manifest():
         n = len(segment_sentences(item["text"]))
-        assert 3 <= n <= 20, f"{item['id']}: {n} sentences"
+        assert 1 <= n <= 100, f"{item['id']}: {n} sentences"
         assert item["sentence_count"] == n
         assert item["estimated_seconds"] > 10
 
@@ -50,8 +50,8 @@ def test_passage_files_match_sources_spec():
 
 def test_library_index_and_item_endpoints():
     body = client.get("/api/library").json()
-    assert [c["id"] for c in body["categories"]] == ["history", "philosophy", "mythology"]
-    assert len(body["items"]) == 12
+    assert [c["id"] for c in body["categories"]] == [c for c, _ in CATEGORIES]
+    assert len(body["items"]) == len(load_manifest())
     first = body["items"][0]
     assert "text" not in first
     assert set(first) >= {"id", "title", "author", "work", "ref", "level", "blurb", "sentence_count", "estimated_seconds", "ready_speeds", "source"}
@@ -83,3 +83,22 @@ def test_tei_ref_resolver_on_inline_fragment(tmp_path):
     root = ET.fromstring(xml)
     assert element_text(resolve_ref(root, "1.1.2")) == "ἀρχὴ τοῦ λόγου."
     assert element_text(resolve_ref(root, "43")) == "Σωκράτης: τί λέγεις;\nΚρίτων: οὐδέν."
+
+
+def test_expanded_sequences_keep_sources_and_do_not_prerender():
+    from collections import defaultdict
+    groups = defaultdict(list)
+    for item in load_manifest():
+        if not item.get('sequence'):
+            continue
+        assert item['prerender'] is False
+        assert 'reading_url' in item['source']
+        assert '/master/' not in item['source']['url']
+        groups[(item['author'], item['work'])].append(item['sequence'])
+    assert len(groups) == 26
+    assert all(sorted(v) == list(range(1, len(v)+1)) for v in groups.values())
+
+
+def test_editorial_marks_remain_in_text_but_are_supported_for_audio():
+    assert prepare_kokoro_phonemes('[a] † >') == '(a)'
+    assert any('[' in i['text'] for i in load_manifest())

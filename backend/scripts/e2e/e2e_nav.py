@@ -189,9 +189,10 @@ def run_axe(page: Page, name: str, vp: str, report: dict) -> None:
 
 def prepare_reader(page: Page) -> None:
     """Load a library passage so the player bar is on screen."""
-    reading = page.locator("button.reading").first
+    reading = page.locator("button.suggestion").first
     if reading.count():
         reading.click()
+        page.get_by_role("button", name="Listen to this passage").click()
         page.wait_for_selector(".playerBar", timeout=30000)
         page.wait_for_selector(".sentence:not(.pending)", timeout=30000)
 

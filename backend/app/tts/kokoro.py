@@ -28,8 +28,8 @@ log = logging.getLogger("attic.tts")
 #     merge the vowels; it simply represents ai̯/oi̯/etc. as ai/oi/etc.
 #   * ASCII "g" (U+0067) is NOT in the vocab; Kokoro uses IPA "ɡ" (U+0261).
 #     Without this mapping every γ was silently dropped by the model.
-KOKORO_REMOVE = {"̯"}
-KOKORO_MAP = {"g": "ɡ"}
+KOKORO_REMOVE = {"̯", "†", "<", ">"}  # editorial marks have no spoken value
+KOKORO_MAP = {"g": "ɡ", "[": "(", "]": ")"}
 
 # Verified against hexgrad/Kokoro-82M config.json (114 symbols). Kept here so a
 # vocab regression is loud (warning + audit field) rather than silent deletion.

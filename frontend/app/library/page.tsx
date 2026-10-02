@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ChangeEvent, useCallback, useEffect, useMemo, useRef, useState } from "react";
+import LibraryCatalog from "../../components/LibraryCatalog";
 import WordCoverage from "../../components/WordCoverage";
 import { scrollBehavior } from "../../lib/a11y";
 import { loadProgress } from "../../lib/progress";
@@ -24,7 +25,7 @@ import {
   WordTiming,
 } from "../../lib/api";
 
-type Status = "idle" | "ocr" | "phonemize" | "synthesize";
+type Status = "idle" | "loading" | "ocr" | "phonemize" | "synthesize";
 type PlayMode = "one" | "all";
 
 type Clip = {
@@ -99,9 +100,8 @@ export default function Home() {
 
   // Built-in library of Perseus passages.
   const [library, setLibrary] = useState<LibraryIndex | null>(null);
-  const [libraryTab, setLibraryTab] = useState<string>("history");
   const [libraryItem, setLibraryItem] = useState<LibraryItem | null>(null);
-  const [libraryOpen, setLibraryOpen] = useState(true);
+  const [libraryError, setLibraryError] = useState("");
   const [coverage, setCoverage] = useState<LibraryCoverage>({});
   const [cards, setCards] = useState<Record<string, CardState>>({});
 
@@ -123,7 +123,7 @@ export default function Home() {
 
   useEffect(() => {
     getTtsStatus().then(setProviders).catch(() => setProviders([]));
-    getLibrary().then(setLibrary).catch(() => setLibrary(null));
+    getLibrary().then(setLibrary).catch(() => setLibraryError("The library could not be loaded. Please retry."));
     getLibraryCoverage().then(setCoverage).catch(() => setCoverage({}));
     setCards(loadProgress().cards);
     // /?reading=<id>&sentence=<n> (from vocabulary example sentences)
@@ -137,7 +137,7 @@ export default function Home() {
     const link = deepLink.current;
     if (!library || !link) return;
     const item = library.items.find((i) => i.id === link.reading);
-    if (!item) return;
+    if (!item) { deepLink.current = null; setError("This reading is not in the catalog. Choose another text below."); return; }
     deepLink.current = null;
     void chooseReading(item).then(() => setCurrent(link.sentence));
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -284,11 +284,11 @@ export default function Home() {
     }
   }
 
-  /** Pick a library passage: load its text and start rendering immediately. */
+  /** Pick a library passage: load text; audio is requested separately. */
   async function chooseReading(item: LibraryItem) {
     if (busy) return;
     setError("");
-    setStatus("synthesize");
+    setStatus("loading");
     try {
       const full = await getLibraryItem(item.id);
       setLibraryItem(full);
@@ -296,9 +296,11 @@ export default function Home() {
       setOcrReport(null);
       setText(full.text);
       clearGenerated();
-      setLibraryOpen(false);
+      const url = new URL(window.location.href);
+      url.searchParams.set("reading", item.id);
+      window.history.replaceState(null, "", url);
       setStatus("idle");
-      await generateAudio(full.text);
+      window.scrollTo({ top: 0, behavior: "instant" });
     } catch (err) {
       setStatus("idle");
       setError(err instanceof Error ? err.message : "Could not load the reading");
@@ -492,89 +494,35 @@ export default function Home() {
   const currentClip = reading && current != null ? reading.clips[current] : null;
 
   return (
-    <main className={`shell ${reading ? "hasPlayer" : ""}`}>
+    <main className={`shell ${!adding && !libraryItem ? "libraryShell" : ""} ${reading ? "hasPlayer" : ""}`}>
       <section className="hero">
-        <p className="eyebrow">CLASSICAL ATTIC · READ ALOUD</p>
-        <h1>{adding ? "Add a text" : "Library"}</h1>
-        <p className="lede">Photograph a page or paste polytonic Greek. Check the text, then listen sentence by sentence.</p>
+        <p className="eyebrow">GREEK READING LIBRARY</p>
+        <h1>{adding ? "Add a text" : libraryItem ? libraryItem.work : "Library"}</h1>
+        <p className="lede">{adding ? "Photograph a page or paste polytonic Greek. Check the text, then listen sentence by sentence." : libraryItem ? `${libraryItem.author} · ${libraryItem.ref}` : "Read original Greek with word definitions, selection translation, and optional audio."}</p>
       </section>
 
-      <section className="voiceStrip" aria-live="polite">
+      {(adding || libraryItem) && <section className="voiceStrip" aria-live="polite">
         <div>
           <span className={`statusDot ${activeNeural ? "online" : "offline"}`} aria-hidden="true" />
           <strong>{activeNeural ? activeNeural.name : "Neural voice not ready"}</strong>
         </div>
-        <span>{activeNeural ? activeNeural.note : "Neural voice unavailable. Install/enable Kokoro on the backend; robotic eSpeak playback is disabled."}</span>
-      </section>
-
-      {!adding && <section className="card libraryCard">
-        <div className="sectionHead">
-          <div>
-            <h2>Choose a reading</h2>
-            <p>Classic passages from the Perseus Digital Library, read in Classical Attic. Tap one to listen. The percentage is how many of its words are in the vocabulary lists: start with the highest.</p>
-          </div>
-          {library && (
-            <button type="button" className="linkButton" aria-expanded={libraryOpen} aria-controls="library-list" onClick={() => setLibraryOpen((o) => !o)}>
-              {libraryOpen ? "Hide" : `Show ${library.items.length}`}
-            </button>
-          )}
-        </div>
-        {library && libraryOpen && (
-          <div id="library-list">
-            <div className="tabs" role="group" aria-label="Subject">
-              {library.categories.map((c) => (
-                <button
-                  type="button"
-                  key={c.id}
-                  aria-pressed={libraryTab === c.id}
-                  className={`tab ${libraryTab === c.id ? "on" : ""}`}
-                  onClick={() => setLibraryTab(c.id)}
-                >
-                  {c.label}
-                </button>
-              ))}
-            </div>
-            <ul className="readings">
-              {library.items
-                .filter((item) => item.category === libraryTab)
-                .map((item) => {
-                  const ready = item.ready_speeds.includes(speed);
-                  const minutes = Math.max(1, Math.round(item.estimated_seconds / speed / 60));
-                  return (
-                    <li key={item.id}>
-                      <button
-                        type="button"
-                        className={`reading ${libraryItem?.id === item.id ? "on" : ""}`}
-                        disabled={busy}
-                        onClick={() => chooseReading(item)}
-                      >
-                        <span className="readingTop">
-                          <span className="readingTitle">{item.title}</span>
-                          <span className={`level ${item.level}`}>{item.level}</span>
-                        </span>
-                        <span className="readingRef">
-                          {item.author}, <em>{item.work}</em> {item.ref} · {item.sentence_count} sentences · ~{minutes} min
-                          {coverage[item.id] ? ` · ${Math.round(coverage[item.id].coverage * 100)} % known words` : ""}
-                          {ready ? " · ready" : ""}
-                        </span>
-                        <span className="readingBlurb">{item.blurb}</span>
-                      </button>
-                    </li>
-                  );
-                })}
-            </ul>
-            {library.prerender.state === "running" && (
-              <p className="muted">
-                Preparing recordings on the server: {library.prerender.rendered}/{library.prerender.total} clips. Passages without
-                &ldquo;ready&rdquo; still play, a sentence at a time.
-              </p>
-            )}
-          </div>
-        )}
-        {!library && <p className="muted" role="status">Library unavailable. Please try again when connected.</p>}
-        <p><Link href="/library/new">Add a text →</Link></p>
+        <span>{activeNeural ? activeNeural.note : "Audio is temporarily unavailable. You can still read and use the vocabulary tools."}</span>
       </section>}
 
+      {!adding && !libraryItem && (library ? <LibraryCatalog library={library} coverage={coverage} busy={busy} onChoose={chooseReading} /> : <section className="card" role="status"><p>{libraryError || "Loading the reading collection…"}</p>{libraryError && <button className="secondary" onClick={()=>{setLibraryError("");getLibrary().then(setLibrary).catch(()=>setLibraryError("The library could not be loaded. Please retry."));}}>Retry</button>}</section>)}
+      {error && !adding && <div className="error" role="alert">{error}</div>}
+      {status === "loading" && <p role="status">Opening reading…</p>}
+      {!adding && libraryItem && <section className="card libraryText">
+        <div className="sectionHead"><button className="secondary" disabled={busy || rerendering} onClick={()=>{clearGenerated();setLibraryItem(null);setText("");const url=new URL(location.href);url.searchParams.delete("reading");url.searchParams.delete("sentence");history.replaceState(null,"",url);}}>← Back to library</button><span className="badge">{libraryItem.dialect} · {libraryItem.word_count} words</span></div>
+        <h2>{libraryItem.title}</h2><p>{libraryItem.blurb}</p>
+        {!reading && <div lang="grc" className="originalGreek">{text}</div>}
+        <div className="actions"><button className="primary" disabled={busy || rerendering} onClick={()=>generateAudio()}>{status==='synthesize' ? progress ? `Preparing audio ${progress.done}/${progress.total}…` : 'Preparing audio…' : reading ? 'Regenerate audio' : 'Listen to this passage'}</button></div>
+        <p className="muted">Audio uses the app’s Classical Attic voice{libraryItem.dialect!=='attic' ? `, not a reconstruction of ${libraryItem.dialect} pronunciation` : ''}. Select Greek text for translation and word definitions.</p>
+        <WordCoverage text={text} cards={cards} label={libraryItem.title}/>
+        <p className="attribution"><a href={libraryItem.source.reading_url || libraryItem.source.url} target="_blank" rel="noreferrer">Read in Perseus ↗</a> · <a href={libraryItem.source.url} target="_blank" rel="noreferrer">Source edition</a> · {libraryItem.source.license}</p>
+        {libraryItem.sequence && <nav className="catalogPagination" aria-label="Reading sequence">{[-1,1].map(direction=>{const next=library?.items.find(i=>i.author===libraryItem.author && i.work===libraryItem.work && i.sequence===libraryItem.sequence!+direction);return <button key={direction} className="secondary" disabled={!next || busy || rerendering} onClick={()=>next && chooseReading(next)}>{direction<0?'← Previous passage':'Next passage →'}</button>;})}</nav>}
+      </section>}
+      {adding && <>
       <section className="card captureCard">
         <div>
           <h2>1. Add Greek</h2>
@@ -652,6 +600,7 @@ export default function Home() {
         )}
       </section>
 
+      </>}
       {reading && (
         <section className="card readerCard">
           <div className="sectionHead">
@@ -713,7 +662,7 @@ export default function Home() {
         </section>
       )}
 
-      <p className="footnote">Pronunciation is driven by our Classical Attic rules and rendered by a phoneme-controlled neural voice — never Modern Greek phonology.</p>
+      {(adding || libraryItem) && <p className="footnote">Pronunciation is driven by our Classical Attic rules and rendered by a phoneme-controlled neural voice — never Modern Greek phonology.</p>}
 
       {/* The single shared audio element. playsInline keeps iOS from opening the full-screen player. */}
       <audio

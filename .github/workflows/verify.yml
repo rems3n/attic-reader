@@ -67,6 +67,11 @@ jobs:
               else:
                   raise RuntimeError(f'{url} did not start')
           PY
+      - name: Browser — library
+        if: ${{ !cancelled() && steps.services.outcome == 'success' }}
+        working-directory: backend
+        timeout-minutes: 6
+        run: python scripts/e2e/e2e_library.py
       - name: Browser — selection
         if: ${{ !cancelled() && steps.services.outcome == 'success' }}
         working-directory: backend
