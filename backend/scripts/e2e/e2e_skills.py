@@ -134,17 +134,15 @@ def main() -> int:
 
         # ---- skills grid
         review.get_by_role("link", name="Skills").click()
-        expect(page.locator("h1")).to_have_text("Your skills")
+        expect(page.locator("h1")).to_have_text("Your progress")
         n_skills = len(course["skills"])
         expect(page.locator("[data-skill]")).to_have_count(n_skills)
-        legend = page.get_by_label("Legend")
-        expect(legend.locator("li", has_text="Mastered")).to_contain_text("1")
-        expect(legend.locator("li", has_text="Weak")).to_contain_text("1")
-        expect(legend.locator("li", has_text="Learning")).to_contain_text("2")
-        expect(legend.locator("li", has_text="Strong")).to_contain_text("1")
+        expect(page.get_by_role("progressbar", name="Grammar skills practised", exact=True)).to_have_attribute("value", "5")
+        expect(page.get_by_role("progressbar", name="Grammar skills mastered", exact=True)).to_have_attribute("value", "1")
         page.screenshot(path=f"{SHOTS}/skills-02-grid.png")
         cell = page.locator('[data-skill="noun.decl2.dat.sg"]')
         expect(cell).to_have_attribute("aria-label", "2nd declension, dative singular: Weak")
+        cell.locator("xpath=ancestor::details").locator("summary").click()
         cell.click()
         panel = page.locator("#skill-detail")
         expect(panel).to_contain_text("1 / 4")
@@ -156,19 +154,24 @@ def main() -> int:
         print("skills detail ok")
 
         # a non-drillable skill has no Practise button
-        page.locator('[data-skill="read.comprehension"]').click()
+        reading_skill = page.locator('[data-skill="read.comprehension"]')
+        reading_skill.locator("xpath=ancestor::details").locator("summary").click()
+        reading_skill.click()
         expect(page.locator("#skill-detail")).to_contain_text("no generated drill")
         expect(page.locator("#skill-detail").get_by_role("link", name="Practise")).to_have_count(0)
 
         # filters
-        page.locator(".chips button", has_text="Weak").click()
+        page.locator(".chips button", has_text="Needs practice").click()
         expect(page.locator("[data-skill]")).to_have_count(3)  # weak + two learning
         page.screenshot(path=f"{SHOTS}/skills-04-weak-filter.png", full_page=True)
-        page.locator(".chips button", has_text="Met").click()
+        page.locator(".chips button", has_text="Practised").click()
         expect(page.locator("[data-skill]")).to_have_count(5)
 
         # ---- Practise
-        page.locator('[data-skill="noun.decl2.dat.sg"]').click()
+        practice_skill = page.locator('[data-skill="noun.decl2.dat.sg"]')
+        if not practice_skill.is_visible():
+            practice_skill.locator("xpath=ancestor::details").locator("summary").click()
+        practice_skill.click()
         with page.expect_response(lambda r: "/api/course/drill" in r.url and r.status == 200) as info:
             page.locator("#skill-detail").get_by_role("link", name="Practise").click()
         items = info.value.json()["items"]

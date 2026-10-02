@@ -104,8 +104,8 @@ def main() -> int:
 
         # ---- guided reading in the Reader
         page.goto(f"{FRONT}/library")
-        expect(page.locator(".readingRef").first).to_contain_text("% known words", timeout=20000)
-        page.locator(".reading").first.click()
+        expect(page.locator(".suggestionReason").first).to_contain_text("% matched", timeout=20000)
+        page.locator(".suggestion").first.click()
         expect(page.locator(".coverageStats")).to_be_visible(timeout=20000)
         study = page.locator(".coverage a", has_text="Study the")
         expect(study).to_be_visible()
