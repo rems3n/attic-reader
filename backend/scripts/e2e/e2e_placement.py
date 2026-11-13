@@ -70,7 +70,9 @@ def main() -> int:
 
         # ---- run 1: pass everything
         ctx = browser.new_context(viewport={"width": 390, "height": 844}, device_scale_factor=2)
+        ctx.add_init_script("if (localStorage.getItem('attic.tour') === null) localStorage.setItem('attic.tour', 'done')")  # first-visit tour is covered by e2e_shell
         page = ctx.new_page()
+        page.add_init_script("if (localStorage.getItem('attic.tour') === null) localStorage.setItem('attic.tour', 'done')")  # first-visit tour is covered by e2e_shell
         page.on("console", lambda m: print("  [console]", m.type, m.text) if m.type == "error" else None)
         page.goto(f"{FRONT}/learn")
         expect(page.locator(".placementHint")).to_contain_text("placement test")
@@ -105,7 +107,9 @@ def main() -> int:
 
         # ---- run 2: miss three in a row
         ctx = browser.new_context(viewport={"width": 390, "height": 844})
+        ctx.add_init_script("if (localStorage.getItem('attic.tour') === null) localStorage.setItem('attic.tour', 'done')")  # first-visit tour is covered by e2e_shell
         page = ctx.new_page()
+        page.add_init_script("if (localStorage.getItem('attic.tour') === null) localStorage.setItem('attic.tour', 'done')")  # first-visit tour is covered by e2e_shell
         page.goto(f"{FRONT}/learn/placement?seed={SEED}")
         page.get_by_role("button", name="Start").click()
         b = blocks[0]

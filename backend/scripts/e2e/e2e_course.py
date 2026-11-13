@@ -117,6 +117,7 @@ def main() -> int:
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path=CHROME) if CHROME else p.chromium.launch()
         page = browser.new_page(viewport={"width": 390, "height": 844}, device_scale_factor=2)
+        page.add_init_script("if (localStorage.getItem('attic.tour') === null) localStorage.setItem('attic.tour', 'done')")  # first-visit tour is covered by e2e_shell
         page.on("console", lambda m: print("  [console]", m.type, m.text) if m.type in {"error"} else None)
 
         # ---- course home
@@ -227,6 +228,7 @@ def main() -> int:
 
         # ---- desktop viewport smoke
         desk = browser.new_page(viewport={"width": 1280, "height": 900})
+        desk.add_init_script("if (localStorage.getItem('attic.tour') === null) localStorage.setItem('attic.tour', 'done')")  # first-visit tour is covered by e2e_shell
         desk.goto(f"{FRONT}/learn")
         expect(desk.locator(".unitTile").first).to_be_visible()
         desk.screenshot(path=f"{SHOTS}/12-home-desktop.png", full_page=True)

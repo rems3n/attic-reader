@@ -8,6 +8,7 @@ with sync_playwright() as p:
     browser=p.chromium.launch()
     for name,width in [('desktop',1280),('phone',390)]:
         page=browser.new_page(viewport={'width':width,'height':900 if width>400 else 844})
+        page.add_init_script("if (localStorage.getItem('attic.tour') === null) localStorage.setItem('attic.tour', 'done')")  # first-visit tour is covered by e2e_shell
         errors=[]; audio=[]
         page.on('pageerror',lambda e:errors.append(str(e)))
         page.on('request',lambda r:audio.append(r.url) if '/api/synthesize' in r.url else None)

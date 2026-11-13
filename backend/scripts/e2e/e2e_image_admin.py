@@ -16,8 +16,10 @@ with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=CHROME) if CHROME else p.chromium.launch()
     for name, size in [('phone', {'width':390, 'height':844}), ('desktop', {'width':1280, 'height':900})]:
         context = browser.new_context(viewport=size, accept_downloads=True)
+        context.add_init_script("if (localStorage.getItem('attic.tour') === null) localStorage.setItem('attic.tour', 'done')")  # first-visit tour is covered by e2e_shell
         route_fonts(context)
         page = context.new_page()
+        page.add_init_script("if (localStorage.getItem('attic.tour') === null) localStorage.setItem('attic.tour', 'done')")  # first-visit tour is covered by e2e_shell
         errors = []
         page.on('pageerror', lambda e: errors.append(str(e)))
         page.goto(f'{FRONT}/admin/images')

@@ -1064,3 +1064,9 @@ saved losslessly under `docs/screenshots/f1/`. F1 is complete; F2 is next.
   `--accent-2` and `--hl` are orange washes, `--sage` is now the orange
   (legacy name). Success/OK colours stay green. Nav + skills walks: axe has
   no serious or critical findings.
+- **Tour starts by itself** (user request, 2026-11-13): with no
+  `attic.tour` record the tour begins on the first app page a visitor opens
+  (not only after `/start`); it waits while the marketing home page,
+  `/start` or `/account` is showing. Browser walks other than `e2e_shell.py`
+  pre-set `attic.tour = done` with an init script so the overlay does not
+  block them; `e2e_shell.py` covers the first-visit start.

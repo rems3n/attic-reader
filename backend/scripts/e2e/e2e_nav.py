@@ -234,8 +234,10 @@ def main() -> int:
         browser = p.chromium.launch(executable_path=CHROME) if CHROME else p.chromium.launch()
         for vp, size in VIEWPORTS.items():
             ctx = browser.new_context(viewport=size, device_scale_factor=2 if vp == "phone" else 1)
+            ctx.add_init_script("if (localStorage.getItem('attic.tour') === null) localStorage.setItem('attic.tour', 'done')")  # first-visit tour is covered by e2e_shell
             route_fonts(ctx)
             page = ctx.new_page()
+            page.add_init_script("if (localStorage.getItem('attic.tour') === null) localStorage.setItem('attic.tour', 'done')")  # first-visit tour is covered by e2e_shell
             page.on("pageerror", lambda e: problem(f"page error: {e}"))
             # a little progress so the course home shows the review card, a done lesson, a streak
             page.goto(f"{FRONT}/learn")
