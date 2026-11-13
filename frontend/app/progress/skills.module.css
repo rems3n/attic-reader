@@ -29,7 +29,7 @@
 .weak { background: color-mix(in srgb, var(--error) 22%, var(--card)); border-color: var(--error); }
 .learning { background: var(--accent-2); border-color: var(--sage); }
 .strong { background: var(--sage); border-color: var(--sage); }
-.mastered { background: var(--accent); border-color: var(--accent); color: #fff; }
+.mastered { background: var(--fill); border-color: var(--fill); color: var(--on-fill); }
 
 /* ---- detail panel */
 .detail { margin-top: 14px; padding: 18px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); }
@@ -91,3 +91,4 @@
 .skillRow:focus-visible, .skillRow.selected { outline: 2px solid var(--accent); outline-offset: -2px; }
 .skillStatus { color: var(--muted); font-size: 12px; flex-shrink: 0; }
 @media (max-width: 600px) { .skillRow { align-items: flex-start; flex-direction: column; gap: 4px; } .familyHead { flex-wrap: wrap; } }
+:global(.chip.on) .chipCount { opacity: 1; }

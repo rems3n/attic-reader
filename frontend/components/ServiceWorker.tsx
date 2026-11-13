@@ -70,7 +70,7 @@ export default function ServiceWorker() {
         textAlign: "center",
       }}
     >
-      <strong style={{ color: "var(--accent, #4e6136)", fontWeight: 600 }}>Offline.</strong>{" "}
+      <strong style={{ color: "var(--accent, #9a3f12)", fontWeight: 600 }}>Offline.</strong>{" "}
       Saved lessons and audio you have played still work; photos (OCR) and new audio need a connection.
     </div>
   );
