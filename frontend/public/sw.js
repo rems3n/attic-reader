@@ -21,7 +21,7 @@
  */
 "use strict";
 
-const VERSION = "v4";
+const VERSION = "v5";
 const PREFIX = "attic-";
 const CACHES = {
   shell: `${PREFIX}shell-${VERSION}`,

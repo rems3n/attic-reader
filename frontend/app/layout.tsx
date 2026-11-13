@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import "./landing.css";
 import AccountProvider from "../components/AccountProvider";
 import AppShell from "../components/AppShell";
 import GreekSelection from "../components/GreekSelection";
@@ -7,9 +8,9 @@ import ServiceWorker from "../components/ServiceWorker";
 
 
 export const metadata: Metadata = {
-  title: "Attic Reader",
+  title: "Attic Academy",
   description: "Learn Classical Greek through a guided course, original texts, and reconstructed Attic audio.",
-  applicationName: "Attic Reader",
+  applicationName: "Attic Academy",
   manifest: "/manifest.webmanifest",
   icons: {
     icon: [{ url: "/favicon-32.png", sizes: "32x32", type: "image/png" }],
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
   // iOS: installable from Share → Add to Home Screen, opens without browser chrome.
   appleWebApp: {
     capable: true,
-    title: "Attic Reader",
+    title: "Attic Academy",
     statusBarStyle: "black-translucent",
   },
   formatDetection: { telephone: false },
@@ -42,7 +43,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=IBM+Plex+Sans:wght@400;500;600&family=GFS+Didot&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
       </head>
       <body>
         <ServiceWorker />

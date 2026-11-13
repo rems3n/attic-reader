@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import { focusMain } from "../lib/a11y";
 import { useAccount } from "./AccountProvider";
 import Crumbs from "./Crumbs";
+import Logo from "./Logo";
 import Tour from "./Tour";
 import QuickTimer from "./QuickTimer";
 import SiteFooter from "./SiteFooter";
@@ -117,6 +118,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
         href={s.href}
         onClick={() => sheet.current?.close()}
         className={`shellLink ${active(s.href) ? "on" : ""}`}
+        data-tour={s.label.toLowerCase()}
         aria-current={active(s.href) ? "page" : undefined}
       >
         <Icon name={s.icon} />
@@ -164,7 +166,11 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
       </a>
       <aside className="sidebar">
         <Link href="/" className="shellBrand">
-          Attic Reader<span>Classical Greek</span>
+          <span className="brandRow">
+            <Logo size={26} />
+            Attic Academy
+          </span>
+          <span>Classical Greek</span>
         </Link>
         <nav aria-label="Main" className="sideLinks">
           {links(sections)}
@@ -196,13 +202,14 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
         <header className="shellTopbar">
           <Crumbs items={crumbs} />
           <div className="shellUtilities">
-            <Link aria-label="Help for this page" href={`/help#${help}`}>
+            <Link aria-label="Help for this page" href={`/help#${help}`} data-tour="help">
               Help
             </Link>
             <div className="accountWrap">
               <button
                 type="button"
                 className="secondary"
+                data-tour="account"
                 aria-expanded={account}
                 aria-controls="account-menu"
                 onClick={() => setAccount(!account)}
@@ -237,6 +244,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
           ref={more}
           className={`shellLink ${[...sections.slice(4), ...secondary].some((s) => active(s.href)) ? "on" : ""}`}
           aria-haspopup="dialog"
+          data-tour="more"
           onClick={() => sheet.current?.showModal()}
         >
           <Icon name="more" />

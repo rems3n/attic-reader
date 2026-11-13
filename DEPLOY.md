@@ -11,9 +11,10 @@ both services deploy from branch `claude/attic-reader-handoff-wvfavt` on every p
 | Service | Root dir | Public URL | Notes |
 |---|---|---|---|
 | `backend` | `backend` | https://backend-production-d55b3.up.railway.app | Dockerfile, volume `hf-cache` at `/data`, `PORT=8000`, healthcheck `/health` |
-| `web` | `frontend` | https://web-production-a1ef.up.railway.app | Dockerfile, `PORT=3000`, `NEXT_PUBLIC_API_BASE_URL` → backend URL |
+| `web` | `frontend` | https://atticacademy.up.railway.app | Dockerfile, `PORT=3000`, `NEXT_PUBLIC_API_BASE_URL` → backend URL |
 
-Backend `CORS_ORIGINS=https://web-production-a1ef.up.railway.app,http://localhost:3000`.
+Backend `CORS_ORIGINS=https://atticacademy.up.railway.app,https://web-production-a1ef.up.railway.app,http://localhost:3000`
+(the second entry is the pre-rename address and can be removed).
 Switching the branch to `main` later: Railway service → Settings → Source → Branch.
 
 To move the frontend to Vercel instead, follow the Vercel section below, then add the
