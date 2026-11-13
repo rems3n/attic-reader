@@ -44,7 +44,9 @@ def main() -> int:
     with sync_playwright() as p:
         browser = p.chromium.launch(executable_path=CHROME) if CHROME else p.chromium.launch()
         ctx = browser.new_context(viewport={"width": 390, "height": 844}, device_scale_factor=2)
+        ctx.add_init_script("if (localStorage.getItem('attic.tour') === null) localStorage.setItem('attic.tour', 'done')")  # first-visit tour is covered by e2e_shell
         page = ctx.new_page()
+        page.add_init_script("if (localStorage.getItem('attic.tour') === null) localStorage.setItem('attic.tour', 'done')")  # first-visit tour is covered by e2e_shell
         page.on("console", lambda m: print("  [console]", m.text) if m.type == "error" and "CERT" not in m.text else None)
         page.goto(f"{FRONT}/learn")
 

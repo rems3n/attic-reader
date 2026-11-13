@@ -4,9 +4,11 @@ import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react
 
 /**
  * First-visit product tour. A spotlight moves over the real navigation and a
- * card explains each area. It starts when `attic.tour` holds a step number
- * (set by /start, the home page and Help → "Replay the tour") and ends by
- * storing "done". `startTour()` restarts it from anywhere.
+ * card explains each area. It starts by itself the first time someone opens
+ * any app page (no `attic.tour` record yet; it waits while the marketing home
+ * page, /start or /account is showing), resumes from a stored step number,
+ * and ends by storing "done". `startTour()` restarts it (Help → "Replay the
+ * tour").
  */
 export const TOUR_KEY = "attic.tour";
 export const TOUR_EVENT = "attic-tour";
@@ -95,18 +97,33 @@ export default function Tour() {
   const next = useRef<HTMLButtonElement>(null);
 
   const read = useCallback(() => {
+    let s: string | null = "done";
     try {
-      const s = localStorage.getItem(TOUR_KEY);
-      const n = s && s !== "done" ? Number(s) : NaN;
-      setStep(Number.isInteger(n) && n >= 0 && n < TOUR_STEPS.length ? n : null);
-    } catch {
-      setStep(null);
+      s = localStorage.getItem(TOUR_KEY);
+    } catch {}
+    if (s === null) {
+      // No record at all means a first visit. On "/" give the marketing home
+      // page a moment to mount, so the tour does not flash over it.
+      const begin = () => setStep(document.body.classList.contains("landingMode") ? null : 0);
+      if (window.location.pathname === "/") return window.setTimeout(begin, 400);
+      begin();
+      return undefined;
     }
+    const n = s !== "done" ? Number(s) : NaN;
+    setStep(Number.isInteger(n) && n >= 0 && n < TOUR_STEPS.length ? n : null);
+    return undefined;
   }, []);
   useEffect(() => {
-    read();
-    window.addEventListener(TOUR_EVENT, read);
-    return () => window.removeEventListener(TOUR_EVENT, read);
+    let timer = read();
+    const again = () => {
+      window.clearTimeout(timer);
+      timer = read();
+    };
+    window.addEventListener(TOUR_EVENT, again);
+    return () => {
+      window.clearTimeout(timer);
+      window.removeEventListener(TOUR_EVENT, again);
+    };
   }, [path, read]);
 
   const active = step != null && path !== "/start" && path !== "/account";

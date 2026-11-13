@@ -14,6 +14,7 @@ gate = api("/api/course/test/gate-1?seed=1")
 with sync_playwright() as p:
     b = p.chromium.launch(executable_path=CHROME)
     page = b.new_page(viewport={"width": 390, "height": 844}, device_scale_factor=2)
+    page.add_init_script("if (localStorage.getItem('attic.tour') === null) localStorage.setItem('attic.tour', 'done')")  # first-visit tour is covered by e2e_shell
     page.on("console", lambda m: print("  [console]", m.type, m.text) if m.type == "error" and "CERT" not in m.text else None)
     # unlock everything: mark all lessons done via localStorage
     page.goto(f"{FRONT}/learn")

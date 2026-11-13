@@ -12,6 +12,16 @@ SHOTS.mkdir(parents=True, exist_ok=True)
 with sync_playwright() as p:
     browser = p.chromium.launch(executable_path=CHROME) if CHROME else p.chromium.launch()
     for label, size in [("phone", {"width":390,"height":844}), ("desktop", {"width":1280,"height":900})]:
+        # A first-time visitor who lands on any app page gets the tour by itself, once.
+        fresh = browser.new_context(viewport=size)
+        first = fresh.new_page()
+        first.goto(FRONT + "/library")
+        expect(first.get_by_role("dialog", name="App tour")).to_be_visible()
+        first.get_by_role("button", name="Skip tour").click()
+        first.goto(FRONT + "/learn")
+        first.wait_for_selector("h1")
+        expect(first.get_by_role("dialog", name="App tour")).not_to_be_visible()
+        fresh.close()
         ctx = browser.new_context(viewport=size)
         route_fonts(ctx)
         page = ctx.new_page()

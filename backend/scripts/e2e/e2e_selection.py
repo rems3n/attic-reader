@@ -14,6 +14,7 @@ with sync_playwright() as p:
         # Route mocks cannot intercept service-worker-owned requests. Offline
         # behavior is verified separately by e2e_offline.py with workers enabled.
         ctx = browser.new_context(viewport={'width': width, 'height': 844 if touch else 900}, has_touch=touch, is_mobile=touch, service_workers='block')
+        ctx.add_init_script("if (localStorage.getItem('attic.tour') === null) localStorage.setItem('attic.tour', 'done')")  # first-visit tour is covered by e2e_shell
         route_fonts(ctx)
         requests = []
         cors = {'Access-Control-Allow-Origin': FRONT, 'Access-Control-Allow-Methods': 'POST, OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type'}
@@ -25,6 +26,7 @@ with sync_playwright() as p:
             route.fulfill(status=200, headers=cors, content_type='application/json', body=json.dumps({'translation': 'Translated selection: ' + payload['text'], 'source': 'ai'}))
         ctx.route('**/api/translate', translate)
         page = ctx.new_page()
+        page.add_init_script("if (localStorage.getItem('attic.tour') === null) localStorage.setItem('attic.tour', 'done')")  # first-visit tour is covered by e2e_shell
         page.on('console', lambda msg: print('BROWSER:', msg.text) if msg.type == 'error' else None)
         page.goto(FRONT + '/help')
         # Let hydration finish before injecting the fixture into React-owned DOM.
