@@ -1057,3 +1057,10 @@ saved losslessly under `docs/screenshots/f1/`. F1 is complete; F2 is next.
   build`, and browser walks shell, nav (axe: no serious or critical),
   library, offline. `e2e_selection.py` fails here on unmodified `main` too
   (lookup link not found); not caused by this change.
+- **Orange accent** (user request, same day): the app theme matches the
+  home page. `globals.css`: `--accent` `#9a3f12` (clay: accent text, links,
+  borders), new `--fill` `#e8743b` / `--fill-hover` / `--on-fill` `#12100e`
+  for filled buttons, chips and step dots (dark text on orange, 7:1),
+  `--accent-2` and `--hl` are orange washes, `--sage` is now the orange
+  (legacy name). Success/OK colours stay green. Nav + skills walks: axe has
+  no serious or critical findings.
