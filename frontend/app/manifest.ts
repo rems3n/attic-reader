@@ -3,9 +3,9 @@ import type { MetadataRoute } from "next";
 export default function manifest(): MetadataRoute.Manifest {
   return {
     id: "/",
-    name: "Attic Reader",
-    short_name: "Attic Reader",
-    description: "Turn photographed or pasted Ancient Greek into Classical Attic audio.",
+    name: "Attic Academy",
+    short_name: "Attic Academy",
+    description: "Learn Classical Greek with a guided course, original texts and reconstructed Attic audio.",
     start_url: "/",
     scope: "/",
     display: "standalone",

@@ -1,9 +1,10 @@
 import Link from "next/link";
 import PageHeader from "../../components/PageHeader";
+import { ReplayTourButton } from "../../components/Tour";
 export default function Help() {
   return (
     <main className="shell narrowShell">
-      <PageHeader title="Help" eyebrow="ATTIC READER">
+      <PageHeader title="Help" eyebrow="ATTIC ACADEMY">
         Learn how lessons, reading, and practice fit together.
       </PageHeader>
       <section className="card anchorTarget" id="overview">
@@ -13,6 +14,9 @@ export default function Help() {
           you have studied before, use the{" "}
           <Link href="/learn/placement">placement test</Link>. You can also open
           the <Link href="/library">Library</Link> to read and listen directly.
+        </p>
+        <p>
+          Want a quick look around? <ReplayTourButton />
         </p>
       </section>
       <section className="card anchorTarget" id="lessons">

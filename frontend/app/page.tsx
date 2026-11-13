@@ -1,6 +1,8 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { useAccount } from "../components/AccountProvider";
+import Landing from "../components/Landing";
 import PageHeader from "../components/PageHeader";
 import { getCourse } from "../lib/api";
 import type { CourseIndex } from "../lib/course";
@@ -21,6 +23,7 @@ import {
 } from "../lib/dashboard";
 import { mistakeCount } from "../lib/skills";
 export default function Home() {
+  const { user } = useAccount();
   const [progress, setProgress] = useState(emptyProgress);
   const [course, setCourse] = useState<CourseIndex | null>(null);
   const [ready, setReady] = useState(false);
@@ -38,6 +41,7 @@ export default function Home() {
         <p role="status">Loading your home…</p>
       </main>
     );
+  if (!user && !hasLearningProgress(progress)) return <Landing />;
   if (!hasLearningProgress(progress))
     return (
       <main className="shell hubShell">

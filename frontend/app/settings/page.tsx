@@ -196,12 +196,12 @@ export default function Settings() {
                 typeof doc.cards !== "object" ||
                 ![1, 2].includes(doc.version)
               )
-                throw new Error("Choose an Attic Reader progress backup.");
+                throw new Error("Choose an Attic Academy progress backup.");
               setP(importProgress(text, p));
               setMessage("Backup imported.");
             } catch {
               setMessage(
-                "Could not import this backup. Choose an Attic Reader progress JSON file.",
+                "Could not import this backup. Choose an Attic Academy progress JSON file.",
               );
             }
             e.target.value = "";

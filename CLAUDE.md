@@ -1031,3 +1031,29 @@ saved losslessly under `docs/screenshots/f1/`. F1 is complete; F2 is next.
 - Verification: new API tests and TypeScript pass locally; selection browser
   walk added to CI alongside existing regression suites. Physical iOS native
   selection-menu behavior still merits device testing.
+
+## Session log — 2026-11-12 (Attic Academy name, home page, product tour)
+
+- **Name and address**: the app is now called **Attic Academy** in the UI
+  (metadata, manifest, sidebar brand, Help, offline page). The Railway `web`
+  service domain was renamed to https://atticacademy.up.railway.app (the old
+  `web-production-a1ef` address no longer resolves; guest progress stored in
+  a browser under the old address does not carry over). Backend
+  `CORS_ORIGINS` lists the new origin. Repo, Railway project and
+  `localStorage` keys keep the `attic` names. PNG app icons are unchanged.
+- **Logo**: `components/Logo.tsx` (Ionic column, inherits text colour).
+- **Home page**: `components/Landing.tsx` + `app/landing.css` (`lp*`
+  classes, dark pottery palette, GFS Didot + Instrument Sans, course
+  illustrations). Shown at `/` only to guests with no learning progress; it
+  adds `body.landingMode`, which hides the app shell. "Try it" → `/start`,
+  "Sign up" → `/account`. Signed-in users and returning guests still get the
+  dashboard. Service worker `VERSION` v5.
+- **Product tour**: `components/Tour.tsx` is now a spotlight walkthrough
+  (8 steps over `data-tour` hooks on the navigation, Help and account
+  button; falls back to the More button on phones). Starts when
+  `attic.tour` holds a step number (set by `/start`), ends with `"done"`;
+  Help has "Replay the tour" (`startTour()`). Esc / arrow keys work.
+- **Verified locally** with the fake-voice API: tsc, 139 vitest, `next
+  build`, and browser walks shell, nav (axe: no serious or critical),
+  library, offline. `e2e_selection.py` fails here on unmodified `main` too
+  (lookup link not found); not caused by this change.
